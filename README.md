@@ -1,4 +1,4 @@
-# AWCARD (American Civil War Database)
+# American Civil War Battle Data
 
 This project contains the code and data used to generate a database of battle related to the American Civil War.
 I plan on using this data in generating new estimates of American Civil War casualties and strengths in battles using Bayesian latent variable models, as well as other projects related to the American Civil War.
