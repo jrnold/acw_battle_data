@@ -1,0 +1,58 @@
+keys: 
+  ordnung: order
+  infanterie: infantry
+  kavallerie: cavalry
+  artillerie: artillery
+  geschutze: guns
+  gesamt_starke: strength
+  hievon_im_kampfe: strength_engaged
+
+  ## VERLUST
+  tot: killed
+  tot_offz: killed_officers
+  tot_gen: killed_generals
+  tot_pct: killed_percent
+
+  verwundet: wounded_officers
+  verwundet_offz: wounded_officers
+  verwundet_gen: wounded_generals
+  verwundet_pct: wounded_percent
+
+  # also use for "tot_und_verwundet" entries
+  blutige_einbusse: killed_wounded
+  blutige_einbusse_offz: killed_wounded_officers
+  blutige_einbusse_gen: killed_wounded_generals
+  blutige_einbusse_pct: killed_wounded_percent
+
+  vermisst_gefangen: missing
+  vermisst_gefangen_offz: missing_officers
+  vermisst_gefangen_gen: missing_generals
+  vermisst_gefangen_pct: missing_percent
+
+  gefangen: captured
+  gefangen_offz: captured_officers
+  gefangen_gen: captured_generals
+  gefangen_pct: captured_percent
+
+  gesamt_verlust: casualties
+  gesamt_verlust_offz: casualties_officers
+  gesamt_verlust_gen: casualties_generals
+  gesamt_verlust_pct: casualties_percent
+  gefallen_generale: generals_killed
+  
+verl_an_trophaen:
+  kanonen: losses_cannon
+  fahnen: losses_flags
+  geschutze: losses_canons
+  munitionwagen: losses_munition_wagons
+  wagen: losses_wagons
+  caissons: losses_caissons
+  gewehre: losses_guns
+  other: other
+
+categories:
+  Schlacht: battle
+  Kapitulation: surrender
+  Treffen: meeting
+  Belagerung: siege
+  Einnahme: capture

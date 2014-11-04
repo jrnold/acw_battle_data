@@ -1,0 +1,1523 @@
+# s: stregth
+# k: killed
+# w: wounded
+# m: missing
+# p: captured
+# kw; killed or wounded
+# cm: wounded or missing
+# c: casualties (all)
+"Eastern Theater: 1861":
+  - name: "Rich Mountain/Laurel Mountain, July 11-13, 1861"
+    links:
+      - ["https://en.wikipedia.org/wiki/Battle_of_Rich_Mountain"]
+      - ["WV003"]
+    p: 293
+    start: 1861-7-11
+    end: 1861-7-11
+    union:
+      s: 6000
+      k: 12
+      w: 49
+    confed:
+      s: 5300
+      kw: 170
+      p: 554
+  - name: "First Bull Run (Manassas), July 21, 1861"
+    links:
+      - ["https://en.wikipedia.org/wiki/First_Battle_of_Bull_Run"]
+      - ["VA005"]
+    p: 293
+    start: 1861-7-21
+    union:
+      s: 28452
+      k: 460
+      w: 1124
+      cm: 1312
+    confed:
+      s: 32232
+      k: 387
+      w: 1582
+      m: 13
+  - name: "Ball's Bluff, October 21, 1861"
+    links:
+      - ["https://en.wikipedia.org/wiki/Battle_of_Ball%27s_Bluff"]
+      - ["VA006"]
+    p: 293
+    start: 1861-10-21
+    union:
+      s: 1700
+      k: 49
+      w: 158
+      p: 714
+    confed:
+      s: 3000
+      k: 33
+      w: 115
+      m: 1
+Western Theater 1861:
+  - name: "Wilson's Creek, August 10, 1861"
+    links:
+      - ["https://en.wikipedia.org/wiki/Battle_of_Wilson%27s_Creek"]
+      - ["MO004"]
+    p: 294
+    start: 1861-8-10
+    union:
+      s: 5600
+      k: 258
+      w: 873
+      m: 186
+    confed:
+      s: 15396
+      k: 105
+      w: 419
+      m: 117
+  - name: "Belmont, November 7, 1861"
+    links:
+      - ["MO009"]
+      - ["https://en.wikipedia.org/wiki/Battle_of_Belmont"]
+    p: 294
+    start: 1861-11-7
+    union: {s: 3114, k: 120, w: 383, p: 104}
+    confed: {s: 5000, k: 105, w: 419, p: 117}
+
+"Blockade War: 1861-1862":
+  - name: "Roanoake Island"
+    links:
+      - ["https://en.wikipedia.org/wiki/Battle_of_Roanoke_Island"]
+      - ["NC002"]
+    p: 294
+    start: 1862-2-7
+    end: 1862-2-8
+    union:
+      "warships and transports": 80
+      s: 13000
+      k: 41
+      wm: 242
+    confed:
+      s: 3000
+      gunboats: 7
+      k: 24
+      wm: 222
+      p: 2675
+      "gunboats captured": 5
+      "guns lost": 32
+  - name: "New Bern"
+    links:
+      - ["NC003"]
+      - ["https://en.wikipedia.org/wiki/Battle_of_Roanoke_Island"]
+    p: 294
+    start: 1862-3-13
+    union:
+      s: 11000
+      k: 90
+      w: 385
+      m: 1
+    confed:
+      s: 5000
+      k: 68
+      w: 116
+      m: 425
+  - name: "Hampton Roads"
+    links: [["VA008", "<"], ["https://en.wikipedia.org/wiki/Battle_of_Hampton_Roads", "<"]]
+    p: 294
+    start: 1862-3-8
+    union:
+      "wooden warships": 5
+      guns: 219
+      "warships sunk": 2
+      "warships damaged": 1
+      k: 257
+      w: 146
+    confed:
+      ironclads: 1
+      guns: 2
+      crewmen: 350
+      w: 2
+      w: 19
+  - name: "Hampton Roads"
+    links: [["VA008", "<"], ["https://en.wikipedia.org/wiki/Battle_of_Hampton_Roads", "<"]]
+    p: 294
+    start: 1862-3-9
+    union:
+      ironclads: 1
+      guns: 2
+      crewmen: 58
+      w: 2
+    confed:
+      ironclads: 1
+      guns: 10
+      crewmen: 340
+      c: 0
+  - name: "Secessionville"
+    links: [["https://en.wikipedia.org/wiki/Battle_of_James_Island"], ["SC002"]]
+    p: 294
+    start: 1862-6-16
+    union:
+      s: 4500
+      k: 107
+      w: 487
+      cm: 89
+    confed:
+      s: 3100
+      k: 52
+      w: 144
+      m: 8
+"East: 1862":
+  - name: Kernstown
+    links: [["VA101"], ["https://en.wikipedia.org/wiki/First_Battle_of_Kernstown"]]
+    p: 296
+    start: 1862-3-23
+    union:
+      s: 9000
+      k: 118
+      w: 450
+      m: 22
+    confed:
+      s: 4200
+      k: 80
+      w: 375
+      m: 263
+  - name: McDowell
+    links: [["VA102"], ["https://en.wikipedia.org/wiki/Battle_of_McDowell"]]
+    p: 296
+    start: 1862-5-8
+    union:
+      s: 2500
+      k: 26
+      w: 227
+      m: 3
+    confed:
+      s: 5000
+      k: 75
+      w: 423
+  - name: Front Royal
+    links: [["https://en.wikipedia.org/wiki/Battle_of_Front_Royal"], ["VA103"]]
+    p: 296
+    start: 1862-5-23
+    union:
+      s: 1063
+      c: 904
+    confed:
+      s: 16000
+      kw: 50
+  - name: Winchester
+    links: [["VA104"], ["https://en.wikipedia.org/wiki/First_Battle_of_Winchester"]]
+    p: 296
+    start: 1862-5-25
+    union:
+      s: 8500
+      k: 62
+      w: 243
+      p: 1714
+    confed:
+      s: 17500
+      k: 68
+      w: 329
+      m: 3
+  - name: Cross Keys
+    links: [["VA105"], ["https://en.wikipedia.org/wiki/Battle_of_Cross_Keys"]]
+    p: 296
+    start: 1862-6-8
+    union:
+      s: 12000
+      k: 114
+      w: 443
+      m: 127
+    confed:
+      s: 6500
+      k: 41
+      w: 232
+      m: 15
+  - name: Port Republic
+    links: [["https://en.wikipedia.org/wiki/Battle_of_Port_Republic"], ["VA106"]]
+    p: 296
+    start: 1862-6-9
+    union:
+      s: 5000
+      k: 67
+      w: 393
+      p: 558
+    confed:
+      s: 15000
+      k: 98
+      w: 719
+      m: 45
+  - name: Williamsburg (Fort Magruder)
+    links: [["VA010"], ["https://en.wikipedia.org/wiki/Battle_of_Williamsburg"]]
+    p: 296
+    start: 1862-5-5
+    union:
+      s: 40768
+      k: 468
+      w: 1442
+      m: 373
+    confed:
+      s: 31823
+      k: 288
+      w: 975
+      m: 297
+  - name: Hanover Court House
+    links: [["https://en.wikipedia.org/wiki/Battle_of_Hanover_Court_House"], ["VA013"]]
+    p: 297
+    start: 1862-5-27
+    union:
+      s: 6000
+      k: 62
+      w: 223
+      m: 70
+    confed:
+      s: 3000
+      kw: 270
+      p: 730
+  - name: Fair Oaks (Seven Pines)
+    links: [["VA014"], ["https://en.wikipedia.org/wiki/Battle_of_Seven_Pines"]]
+    p: 297
+    start: 1862-5-31
+    end: 1862-6-1
+    union:
+      s: 41797
+      k: 790
+      w: 3594
+      m: 647
+      p: 347
+    confed:
+      s: 41816
+      k: 980
+      w: 4749
+      m: 405
+  - name: Seven Days Battles
+    links: [["https://en.wikipedia.org/wiki/Seven_Days_Battles"]]
+    p: 297
+    start: 1862-6-25
+    end: 1862-7-1
+    union:
+      s: 91169
+      k: 1734
+      w: 8062
+      cm: 6053
+    confed:
+      s: 95481
+      s: 3478
+      w: 16261
+      cm: 875
+  - name: The Orchard (Seven Days)
+    links: [["https://en.wikipedia.org/wiki/Seven_Days_Battles"], ["VA015"]]
+    p: 297
+    start: 1862-6-25
+    union:
+      s: 6000
+      k: 51
+      w: 401
+      m: 64
+    confed:
+      s: 6000
+      k: 40
+      w: 263
+      m: 13
+  - name: Mechanicsville (Seven Days)
+    links: [["VA016"], ["https://en.wikipedia.org/wiki/Battle_of_Beaver_Dam_Creek"]]
+    p: 297
+    start: 1862-6-26
+    union:
+      s: 15631
+      k: 49
+      w: 207
+      m: 105
+    confed:
+      s: 16356
+      c: 1484
+  - name: "Gaines's Mill (Seven Days)"
+    links: [["VA017"], ["https://en.wikipedia.org/wiki/Battle_of_Gaines%27s_Mill"]]
+    p: 297
+    start: 1862-6-27
+    union:
+      s: 34214
+      k: 894
+      w: 3107
+      cm: 2836
+      "guns lost": 22
+    confed:
+      s: 57018
+      c: 8751
+  - name: "Savage's Station (Seven Days)"
+    links: [["https://en.wikipedia.org/wiki/Battle_of_Savage%27s_Station"], ["VA019"]]
+    p: 297
+    start: 1862-6-29
+    union:
+      divisions: 3
+      c: 1590
+    confed:
+      divisions: 4
+      c: 626
+  - name: "White Oak Swamp (Seven Days)"
+    links: [["VA020"], ["https://en.wikipedia.org/wiki/Battle_of_White_Oak_Swamp"]]
+    p: 297
+    start: 1862-6-30
+    union:
+      divisions: 4
+      k: 297
+      w: 1696
+      m: 1804
+      "guns lost": 18
+    confed:
+      divisions: 2
+      k: 638
+      w: 2814
+      m: 221
+  - name: "Malvern Hill (Seven Days)"
+    links: [["https://en.wikipedia.org/wiki/Battle_of_Malvern_Hill"], ["VA021"]]
+    p: 297
+    start: 1862-7-1
+    union:
+      s: 83345
+      c: 3214
+    confed:
+      s: 86784
+      s: 5355
+  - name: Cedar Mountain
+    links: [["VA022"], ["https://en.wikipedia.org/wiki/Battle_of_Cedar_Mountain"]]
+    p: 297
+    start: 1862-8-9
+    union:
+      s: 8030
+      k: 314
+      w: 1445
+      m: 594
+    confed:
+      s: 16868
+      k: 231
+      w: 1107
+      m: 31
+  - name: Groveton
+    links:
+      - ["https://en.wikipedia.org/wiki/Second_Battle_of_Bull_Run", "<"]
+      - ["VA026", "<"]
+    p: 297
+    start: 1862-8-28
+    union:
+      s: 2800
+      c: 1000
+    confed:
+      s: 6000
+      c: 1000
+  - name: Second Bull Run/Chantilly (Second Manassas)
+    links:
+      - ["https://en.wikipedia.org/wiki/Second_Battle_of_Bull_Run", "<"]
+      - ["VA026", "<"]
+    p: 297
+    start: 1862-8-29
+    end: 1862-9-1
+    union:
+      s: 75696
+      k: 1724
+      w: 8372
+      cm: 5958
+      guns lost: 30
+    confed:
+      s: 48527
+      k: 1481
+      w: 7627
+      m: 89
+  - name: South Mountain
+    links: [["MD002"], ["https://en.wikipedia.org/wiki/Battle_of_South_Mountain"]]
+    p: 297
+    start: 1862-9-14
+    union:
+      s: 28480
+      k: 325
+      w: 1403
+      m: 85
+    confed:
+      s: 17852
+      k: 325
+      w: 1560
+      cm: 800
+  - name: Antietam (Sharpsburg)
+    links: [["MD003"], ["https://en.wikipedia.org/wiki/Battle_of_Antietam"]]
+    p: 297
+    start: 1862-9-17
+    union:
+      s: 75316
+      k: 2108
+      w: 9549
+      m: 753
+    confed:
+      s: 39000
+      k: 1546
+      w: 7752
+      m: 1018
+  - name: Fredericksburg
+    links: [["VA028"], ["https://en.wikipedia.org/wiki/Battle_of_Fredericksburg"]]
+    p: 297
+    start: 1862-12-13
+    union:
+      s: 106007
+      k: 1284
+      w: 9600
+      m: 1769
+    confed:
+      s: 72497
+      k: 595
+      w: 4074
+      m: 653
+"West (1862)":
+  - name: Valverde
+    links: [["NM001"], ["https://en.wikipedia.org/wiki/Battle_of_Valverde"]]
+    p: 299
+    start: 1862-2-21
+    union:
+      s: 3810
+      k: 68
+      w: 157
+      m: 35
+    confed:
+      s: 2515
+      k: 36
+      w: 150
+  - name: Apache Canyon/Glorieta Pass
+    links: [["NM002"], ["https://en.wikipedia.org/wiki/Battle_of_Glorieta_Pass"]]
+    p: 299
+    start: 1862-3-26
+    end: 1862-3-28
+    union:
+      s: 1342
+      k: 54
+      w: 94
+      p: 16
+    confed:
+      s: 900
+      k: 47
+      w: 64
+      p: 102
+  - name: Pea Ridge
+    links: [["https://en.wikipedia.org/wiki/Battle_of_Pea_Ridge"], ["AR001"]]
+    p: 299
+    start: 1862-3-7
+    end: 1862-3-8
+    union:
+      s: 1125
+      k: 203
+      w: 980
+      cm: 210
+    confed:
+      s: 17000
+      kw: 800
+      p: 200
+  - name: Prairie Grove
+    links: [["AR005"], ["https://en.wikipedia.org/wiki/Battle_of_Prairie_Grove"]]
+    p: 299
+    start: 1862-12-7
+    union:
+      s: 9546
+      k: 175
+      w: 813
+      m: 263
+    confed:
+      s: 12051
+      k: 164
+      w: 817
+      m: 336
+  - name: "Mill Springs (Logan's Crossroads)"
+    links: [["KY006"], ["https://en.wikipedia.org/wiki/Battle_of_Mill_Springs"]]
+    p: 299
+    start: 1862-1-19
+    end: 1862-1-20
+    union:
+      s: 4000
+      k: 40
+      w: 207
+    confed:
+      s: 4500
+      k: 125
+      w: 309
+      m: 99
+      guns lost: 12
+  - name: "Fort Donelson"
+    links: [["https://en.wikipedia.org/wiki/Battle_of_Fort_Donelson"], ["TN002"]]
+    p: 299
+    start: 1862-2-12
+    end: 1862-2-16
+    union:
+      s: 27500
+      k: 500
+      w: 2108
+      m: 224
+    confed:
+      s: 17500
+      kw: 2000
+      c: 14623
+  - name: Shiloh (Pittsburg Landing)
+    links: [["TN003"], ["https://en.wikipedia.org/wiki/Battle_of_Shiloh"]]
+    p: 299
+    start: 1862-4-6
+    end: 1862-4-7
+    union:
+      s: 66812
+      k: 1754
+      w: 8408
+      cm: 2885
+    confed:
+      s: 40335
+      k: 1723
+      w: 8012
+      cm: 959
+  - name: New Orleans
+    links: [["https://en.wikipedia.org/wiki/Battle_of_Forts_Jackson_and_St._Philip"], ["LA001"]]
+    p: 299
+    start: 1862-4-24
+    union:
+      frigates: 2
+      sloops: 7
+      gunboats: 9
+      guns: 243
+      gunboats sunk: 1
+      k: 37
+      w: 149
+    confed:
+      guns: 126
+      s: 1100
+      gunboats: 10
+      k: 185
+      w: 39
+      gunboats sunk: 9
+  - name: Baton Rouge
+    links: [["LA003"], ["https://en.wikipedia.org/wiki/Battle_of_Baton_Rouge_(1862)"]]
+    p: 299
+    start: 1862-8-5
+    union:
+      s: 2500
+      k: 84
+      w: 266
+      p: 33
+    confed:
+      s: 2600
+      k: 84
+      w: 315
+      p: 57
+  - name: Iuka
+    links: [["https://en.wikipedia.org/wiki/Battle_of_Iuka"], ["MS001"]]
+    p: 299
+    start: 1862-9-19
+    union:
+      s: 4500
+      k: 144
+      w: 598
+      m: 40
+    confed:
+      s: 3179
+      k: 262
+      w: 692
+      m: 561
+  - name: Corinth
+    links: [["MS002"], ["https://en.wikipedia.org/wiki/Second_Battle_of_Corinth"]]
+    p: 299
+    start: 1862-10-3
+    end: 1862-10-4
+    union:
+      s: 21147
+      k: 355
+      w: 1841
+      m: 324
+    confed:
+      s: 22000
+      k: 473
+      w: 1997
+      m: 1763
+  - name: Chickasaw Bluffs
+    links: [["https://en.wikipedia.org/wiki/Battle_of_Chickasaw_Bayou"], ["MS003"]]
+    p: 300
+    start: 1862-12-29
+    union:
+      s: 30720
+      k: 208
+      w: 1005
+      cm: 563
+    confed:
+      s: 13792
+      k: 63
+      w: 134
+      m: 10
+  - name: Richmond (Kentucky)
+    links: [["KY007"], ["https://en.wikipedia.org/wiki/Battle_of_Richmond"]]
+    p: 300
+    start: 1862-8-30
+    union:
+      s: 6500
+      k: 206
+      w: 844
+      cm: 4303
+    confed:
+      s: 6800
+      k: 78
+      w: 372
+      m: 1
+  - name: Perryville
+    links: [["https://en.wikipedia.org/wiki/Battle_of_Perryville"], ["KY009"]]
+    p: 300
+    start: 1862-10-8
+    union:
+      s: 36940
+      k: 845
+      w: 2851
+      cm: 515
+    confed:
+      s: 16000
+      k: 510
+      w: 2635
+      cm: 251
+  - name: Hartsville
+    links: [["TN008"], ["https://en.wikipedia.org/wiki/Battle_of_Hartsville"]]
+    p: 300
+    start: 1862-12-7
+    union:
+      s: 2100
+      kw: 300
+      p: 1762
+    confed:
+      s: 2000
+      c: 125
+  - name: Stones River (Murfreesboro)
+    links: [["https://en.wikipedia.org/wiki/Battle_of_Stones_River"], ["TN010"]]
+    p: 300
+    start: 1862-12-31
+    end: 1863-1-2
+    union:
+      s: 44000
+      k: 1677
+      w: 7543
+      cm: 3686
+    confed:
+      s: 37713
+      k: 1294
+      w: 7945
+      cm: 2500
+"East (1863)":
+  - name: Chancellorsville
+    links: [["VA032"], ["https://en.wikipedia.org/wiki/Battle_of_Chancellorsville"]]
+    p: 302
+    start: 1863-5-1
+    end: 1863-5-6
+    union:
+      s: 97382
+      k: 1606
+      w: 9762
+      cm: 5919
+    confed:
+      s: 60892
+      k: 1665
+      w: 9081
+      m: 2081
+  - name: Brandy Station
+    links: [["https://en.wikipedia.org/wiki/Battle_of_Brandy_Station"], ["VA035"]]
+    p: 302
+    start: 1863-6-9
+    union:
+      cavalry: 12000
+      k: 69
+      w: 352
+      p: 486
+    confed:
+      cavalry: 10000
+      c: 523
+  - name: Winchester
+    links: [["VA107"], ["https://en.wikipedia.org/wiki/Second_Battle_of_Winchester"]]
+    p: 302
+    start: 1863-6-14
+    end: 1863-6-15
+    union:
+      s: 5100
+      k: 95
+      w: 348
+      m: 4058
+      guns lost: 23
+    confed:
+      s: 14000
+      c: 269
+  - name: Gettsyburg
+    links: [["https://en.wikipedia.org/wiki/Battle_of_Gettysburg"], ["PA002"]]
+    p: 302
+    start: 1863-7-1
+    end: 1863-7-3
+    union:
+      s: 88289
+      k: 3155
+      w: 14529
+      cm: 5365
+    confed:
+      s: 70226
+      k: 3903
+      w: 18735
+      cm: 5425
+  - name: Bristoe Station
+    links: [["VA040"], ["https://en.wikipedia.org/wiki/Battle_of_Bristoe_Station"]]
+    p: 302
+    start: 1863-10-14
+    union:
+      divisions: 3
+      c: 548
+    confed:
+      brigades: 2
+      kw: 1400
+      p: 450
+  - name: Buckland
+    links: [["VA042"], ["https://en.wikipedia.org/wiki/Battle_of_Buckland_Mills"]]
+    p: 302
+    start: 1863-10-19
+    union:
+      cavalry divisions: 1
+      c: 1251
+    confed:
+      cavalry divisions: 1
+      c: 408
+  - name: Rappahannock Station
+    links: [["VA043"], ["https://en.wikipedia.org/wiki/Second_Battle_of_Rappahannock_Station"]]
+    p: 302
+    start: 1863-11-7
+    union:
+      corps: 1
+      c: 461
+    confed:
+      s: 2800
+      c: 2033
+  - name: Mine Run
+    links: [["https://en.wikipedia.org/wiki/Battle_of_Mine_Run"], ["VA044"]]
+    p: 302
+    start: 1863-11-27
+    end: 1863-12-1
+    union:
+      s: 84274
+      c: 1653
+    confed:
+      s: 48586
+      c: 629
+"West (1863)":
+  - name: Galveston
+    links: [["TX003"], ["https://en.wikipedia.org/wiki/Battle_of_Galveston"]]
+    p: 305
+    start: 1863-1-1
+    union:
+      companies: 3
+      gunboats: 5
+      guns: 28
+      gunboats captured: 1
+      gunboats sunk: 1
+      p: 600
+    confed:
+      s: 800
+      steamers: 2
+      guns: 3
+      k: 27
+      w: 116
+  - name: Honey Springs
+    links: [["https://en.wikipedia.org/wiki/Battle_of_Honey_Springs"], ["OK007"]]
+    p: 305
+    start: 1863-7-17
+    union:
+      s: 4000
+      k: 13
+      w: 62
+    confed:
+      s: 5000
+      c: 181
+  - name: Fort Hindman (Arkansas Post)
+    links: [["AR006"], ["https://en.wikipedia.org/wiki/Battle_of_Arkansas_Post"]]
+    p: 305
+    start: 1863-1-11
+    union:
+      s: 29000
+      warships: 13
+      k: 140
+      w: 923
+    confed:
+      s: 5000
+      kw: 109
+      p: 4791
+  - name: Port Hudson (siege)
+    links: [["https://en.wikipedia.org/wiki/Siege_of_Port_Hudson"], ["LA010"]]
+    p: 305
+    start: 1863-5-26
+    end: 1863-7-9
+    union:
+      s: 20000
+      guns: 90
+      k: 707
+      w: 3336
+      m: 319
+    confed:
+      s: 6715
+      guns: 57
+      kw: 623
+      p: 6340
+      guns lost: 57
+  - name: Port Hudson (first assault)
+    links: [["https://en.wikipedia.org/wiki/Siege_of_Port_Hudson", "<"], ["LA010", "<"]]
+    p: 305
+    start: 1863-5-27
+    union:
+      k: 293
+      w: 1545
+      m: 157
+    confed:
+      c: 235
+  - name: Port Hudson (second assault)
+    links: [["https://en.wikipedia.org/wiki/Siege_of_Port_Hudson", "<"], ["LA010", "<"]]
+    p: 305
+    start: 1863-6-14
+    union:
+      k: 203
+      w: 1401
+      m: 188
+    confed:
+      k: 22
+      w: 25
+  - name: Donaldsville
+    links: [["https://en.wikipedia.org/wiki/Second_Battle_of_Donaldsonville"], ["LA013"]]
+    p: 305
+    start: 1863-6-28
+    union:
+      s: 225
+      kw: 24
+    confed:
+      s: 800
+      c: 261
+  - name: Donaldsville
+    links: [["https://en.wikipedia.org/wiki/Battle_of_Kock%27s_Plantation"], ["LA015"]]
+    p: 305
+    start: 1863-7-13
+    union:
+      brigades: 2
+      k: 50
+      w: 223
+      cm: 186
+    confed:
+      brigades: 2
+      k: 9
+      w: 24
+  - name: Port Gibson
+    links: [["MS006"], ["https://en.wikipedia.org/wiki/Battle_of_Port_Gibson"]]
+    p: 305
+    start: 1863-5-1
+    union:
+      s: 23000
+      k: 131
+      w: 719
+      m: 25
+    confed:
+      s: 5500
+      k: 68
+      w: 380
+      m: 384
+
+  - name: Raymond
+    links: [["https://en.wikipedia.org/wiki/Battle_of_Raymond"], ["MS007"]]
+    p: 305
+    start: 1863-5-12
+    union:
+      s: 25000
+      k: 66
+      w: 339
+      m: 37
+    confed:
+      s: 4000
+      k: 73
+      w: 251
+      m: 190
+  - name: Jackson
+    links: [["MS008"], ["https://en.wikipedia.org/wiki/Battle_of_Jackson,_Mississippi"]]
+    p: 305
+    start: 1863-5-14
+    union:
+      s: 25000
+      k: 48
+      w: 273
+      m: 11
+    confed:
+      s: 6000
+      k: 17
+      w: 66
+      m: 118
+  - name: "Champion's Hill"
+    links: [["https://en.wikipedia.org/wiki/Battle_of_Champion_Hill"], ["MS009"]]
+    p: 305
+    start: 1863-5-16
+    union:
+      s: 29373
+      k: 410
+      w: 1844
+      m: 187
+    confed:
+      s: 21800
+      k: 381
+      w: 1800
+      cm: 1670
+  - name: "Big Black River"
+    links: [["MS010"], ["https://en.wikipedia.org/wiki/Battle_of_Big_Black_River_Bridge"]]
+    p: 305
+    start: 1863-5-17
+    union:
+      divisions: 2
+      k: 39
+      w: 237
+      m: 3
+    confed:
+      brigades: 1
+      c: 1751
+  - name: "Vicksburg (siege)"
+    links: [["https://en.wikipedia.org/wiki/Siege_of_Vicksburg"], ["MS011"]]
+    p: 305
+    start: 1863-5-18
+    end: 1863-7-4
+    union:
+      s: 71000
+      c: 5000
+      note: "casualties for entire campaign from April 30 to July 4: 1514 k, 7395 w, 453 cm"
+    confed:
+      s: 30000
+      kw: 4910
+      p: 29396
+      guns captured: 172
+      small arms captured: 60000
+  - name: "Vicksburg (first assault)"
+    links: [["https://en.wikipedia.org/wiki/Siege_of_Vicksburg", "<"], ["MS011", "<"]]
+    p: 305
+    start: 1863-5-19
+    union:
+      k: 157
+      w: 777
+      m: 8
+    confed:
+      c: 200
+  - name: "Vicksburg (second assault)"
+    links: [["https://en.wikipedia.org/wiki/Siege_of_Vicksburg", "<"], ["MS011", "<"]]
+    p: 305
+    start: 1863-5-22
+    union:
+      k: 502
+      w: 2550
+      m: 147
+    confed:
+      c: 1000
+  - name: "Helena"
+    links: [["AR008"], ["https://en.wikipedia.org/wiki/Battle_of_Helena"]]    
+    p: 305
+    start: 1863-7-4
+    union: {s: 4129, c: 239}
+    confed: {s: 7646, c: 1636}
+  - name: "Jackson (siege)"
+    p: 305
+    start: 1863-7-10
+    end: 1863-7-16
+    union: {s: 50000, k: 129, w: 762, m: 231}
+    confed: {s: 31000, k: 71, w: 584, cm: 764}
+  - name: "Chickamagua"
+    links: [["https://en.wikipedia.org/wiki/Battle_of_Chickamagua"], ["GA004"]]
+    p: 305
+    start: 1863-9-19
+    end: 1863-9-20
+    union: {s: 58222, guns: 170, k: 1657, w: 9756, cm: 4757}
+    confed: {s: 66326, guns: 200, k: 2312, w: 14674, m: 1468}
+  - name: "Chattanooga"
+    links: [["TN024"], ["https://en.wikipedia.org/wiki/Chattanooga_Campaign"]]
+    p: 305
+    start: 1863-11-23
+    end: 1863-11-25
+    union: {s: 56359, k: 753, w: 4722, cm: 349}
+    confed: {s: 40929, k: 361, w: 2160, cm: 4146, "guns lost": 41, "small arms lost": 7000}
+  - name: "Chattanooga (Orchard Knob/Indian Hill)"
+    links: [["TN024", "<"], ["https://en.wikipedia.org/wiki/Chattanooga_Campaign", "<"]]
+    p: 306
+    start: 1863-11-23
+    union: {s: 25000, c: 1100}
+    confed: {c: 1000}
+  - name: "Chattanooga (Lookout Mountain)"
+    links: [["https://en.wikipedia.org/wiki/Battle_of_Lookout_Mountain"], ["TN024", "<"]]
+    p: 306
+    start: 1863-11-24
+    union: {k: 81, w: 540, m: 8, s: 12000}
+    confed: {c: 500, brigades: 3}
+  - name: "Chattanooga (Tunnel Hill)"
+    links: [["TN024", "<"], ["https://en.wikipedia.org/wiki/Chattanooga_Campaign", "<"]] 
+    p: 306
+    start: 1863-11-25
+    union: {kw: 1240, p: 261, divisions: 4}
+    confed: {c: 222, divisions: 1}
+  - name: "Chattanooga (Missionary Ridge)"
+    links: [["TN024", "<"], ["https://en.wikipedia.org/wiki/Battle_of_Missionary_Ridge"]]  
+    p: 306
+    start: 1863-11-25
+    union: {c: 3170, s: 24536}
+    confed: {kw: 3000}
+  - name: "Ringgold Gap"
+    links: [["https://en.wikipedia.org/wiki/Battle_of_Ringgold_Gap"], ["GA005"]]  
+    p: 306
+    start: 1863-11-27
+    union: {s: 12000, kw: 342, p: 100}
+    confed: {s: 4100, c: 221}
+  - name: "Knoxville (siege)"
+    p: 306
+    start: 1863-11-17
+    end: 1863-12-3
+    union: {s: 25000, k: 92, w: 394, cm: 207}
+    confed: {s: 15000, c: 1142}
+  - name: "Knoxville (attack on Fort Sanders)"
+    links: [["https://en.wikipedia.org/wiki/Battle_of_Fort_Sanders"], ["TN025"]]
+    p: 306
+    start: 1863-11-29
+    union: {s: 440, guns: 12, k: 8, w: 5}
+    confed: {s: 3000, k: 129, w: 458, p: 226}
+"Blockade War: 1863":
+  - name: "Pocataligo"
+    links: [["https://en.wikipedia.org/wiki/Battle_of_Pocotaligo"]]
+    p: 306
+    start: 1863-10-22
+    union: {s: 4500, c: 340}
+    confed: {s: 2200, c: 163}
+  - name: "Batteries Wagner and Gregg"
+    links: [["https://en.wikipedia.org/wiki/First_Battle_of_Fort_Wagner"], ["SC005"]]
+    p: 306
+    start: 1863-7-10
+    end: 1863-7-11
+    union: {s: 3000, k: 49, w: 123, cm: 167}
+    confed: {s: 1500, kw: 12}
+  - name: "Battery Wagner"
+    links: [["https://en.wikipedia.org/wiki/Second_Battle_of_Fort_Wagner"], ["SC007"]]   
+    p: 306
+    start: 1863-7-18
+    union: {s: 6000, k: 246, w: 890, m: 391}
+    confed: {s: 1300, kw: 188}
+    note: "Total casualties at Battery Wagner from July 10 to September 7, 1863, were: Union - 2318; Confederate - 641"
+"Blockade War: 1864-65":
+  - name: Mobile Bay
+    links: [["https://en.wikipedia.org/wiki/Battle_of_Mobile_Bay"] , ["AL003", "<"]]
+    p: 315
+    start: 1864-8-5
+    union:
+      ironclads: 4
+      "wooden warships": 14
+      guns: 199
+      crewmen: 3000
+      "iroclads sunk": 1
+      k: 172
+      w: 170
+    confed:
+      ironclads: 1
+      gunboats: 3
+      guns: 91
+      crewmen: 470
+      ironclads captured: 1
+      gunboats captured: 2
+      forts captured: 1
+      kw: 69
+      p: 243
+    note: |
+      The Union includes 93 killed on the sunken ironclad Tecumseh, 25 killed,
+      28 wouned on the flagship Hartford, and 11 killed, 43 wounded on the 24
+      gun Brooklyn which was hit 59 times.
+
+      243 Confederate captured on the ships (includind 2 killed, 9 wounded, 127
+      captured on the 6-gun ironclad Tennessee).
+
+      The Confederate guns consists of 69 guns from forts, and 22 guns on ships.
+      The killed and wounded for Confederacy consists of 12 killed, 20 wounded on
+      ships, and 37 killed or wounded on land.
+  - name: Fort Fisher
+    links: [["https://en.wikipedia.org/wiki/Second_Battle_of_Fort_Fisher"], ["NC015"]]
+    p: 316
+    start: 1865-1-13
+    end: 1865-1-15
+    note: |
+      Union strength consists of 8,000 soldiers, 1,600 sailors, and 400 Marines.
+      Army 184 k, 749 w, 22 m. Navy: 82 k, 269 w, 35 m.
+
+      Confederacy killed includes 200 in the bombardment.
+    union:
+      s: 10000
+      k: 266
+      w: 1009
+      m: 57
+    confed:
+      s: 3000
+      kw: 500
+      p: 2083
+
+"East: 1865":
+  - name: "Hatcher's Run"
+    links: [["https://en.wikipedia.org/wiki/Battle_of_Hatcher%27s_Run"], ["VA083"]]
+    p: 317
+    start: 1865-2-5
+    end: 1865-2-7
+    union: {s: 35000, k: 170, w: 1160}
+    confed: {s: 14000}
+  - name: Fort Stedman
+    links: [["VA084"], ["https://en.wikipedia.org/wiki/Battle_of_Fort_Stedman"]]
+    p: 317
+    start: 1865-3-25
+    union:
+      corps: 1
+      c: 2080
+    confed:
+      s: 12000
+      kw: 2900
+      p: 1900
+  - name: Five Forks
+    links: [["https://en.wikipedia.org/wiki/Battle_of_Five_Forks"], ["VA088"]]
+    p: 317
+    start: 1865-4-1
+    note: |
+      For Union, the V Corps lost 634.
+      For Confederacy, the V Corps lost 3,422.
+    union: {infantry: 16000, cavalry: 12000, c: 1111}
+    confed: {s: 19000, p: 5200}
+  - name: Petersburg (assault)
+    links: [["VA089", "<"], ["https://en.wikipedia.org/wiki/Third_Battle_of_Petersburg", "<"]]
+    p: 317
+    start: 1865-4-2
+    union: {s: 63299, k: 625, w: 3189, m: 326}
+    confed: {s: 18579}
+  - name: Fort Gregg
+    links: [["VA089", "<"], ["https://en.wikipedia.org/wiki/Third_Battle_of_Petersburg", "<"]]
+    p: 317
+    start: 1865-4-2
+    union: {s: 8000, k: 122, w: 592}
+    confed: {s: 214, k: 55, w: 129}
+  - name: "Sayler's Creek"
+    links: [["https://en.wikipedia.org/wiki/Battle_of_Sailor%27s_Creek"], ["VA093"]]
+    p: 317
+    start: 1865-4-6
+    union: {"corps": 1, "cavalry corps": 1, k: 166, wm: 1014}
+    confed: {s: 10000, kw: 2000, p: 6000}
+"West: 1865":
+  - name: Kinston
+    links: [["NC007"], ["https://en.wikipedia.org/wiki/Battle_of_Kinston"]]
+    p: 317
+    start: 1865-3-8
+    end: 1865-3-10
+    union: {s: 15000, kw: 257, p: 1000}
+    confed: {s: 8500, c: 134}
+  - name: Averasboro
+    links: [["https://en.wikipedia.org/wiki/Battle_of_Averasboro"], ["NC019"]]
+    p: 317
+    start: 1865-3-16
+    union: {s: 22000, k: 95, w: 533, m: 54}
+    confed: {s: 11000, k: 108, wm: 757}
+  - name: Bentonville
+    links: [["https://en.wikipedia.org/wiki/Battle_of_Bentonville"], ["NC020"]]
+    p: 317
+    note: |
+      Union forces start at 16,127 but reinfored by 15,000.
+    start: 1865-3-19
+    end: 1865-3-21
+    union: {s: 31127, k: 191, w: 1168, m: 287}
+    confed: {s: 16895, k: 228, w: 1467, m: 658}
+"East: 1864":
+  - name: Olustee
+    links: [["FL005"], ["https://en.wikipedia.org/wiki/Battle_of_Olustee"]]
+    p: 310
+    start: 1864-2-10
+    union: {s: 5115, k: 231, w: 1124, m: 506}
+    confed: {s: 5200, km: 93, w: 841}
+  - name: Wilderness
+    links: [["https://en.wikipedia.org/wiki/Battle_of_the_Wilderness"], ["VA046"]]
+    p: 310
+    start: 1864-5-5
+    end: 1864-5-6
+    union: {s: 101895, k: 2246, w: 12037, cm: 3383}
+    confed: {s: 61025, k: 1957, w: 7467, m: 1701}
+  - name: Spotsylvania Court House
+    links: [["VA048"], ["https://en.wikipedia.org/wiki/Battle_of_Spotsylvania_Court_House"]]
+    p: 310
+    start: 1864-5-8
+    end: 1864-5-18
+    union: {s: 101000, k: 2725, w: 13416, m: 2258}
+    confed: {s: 56000, k: 1929, w: 4803, m: 5719}
+  - name: Yellow Tavern
+    links: [["VA052"], ["https://en.wikipedia.org/wiki/Battle_of_Yellow_Tavern"]]
+    p: 310
+    start: 1864-5-11
+    union: {s: 10000, c: 625}
+    confed: {s: 4500, k: 106, w: 332, m: 178}
+  - name: North Anna River
+    links: [["VA055"], ["https://en.wikipedia.org/wiki/Battle_of_North_Anna"]]
+    p: 310
+    start: 1864-5-23
+    end: 1864-5-26
+    union: {s: 100000, c: 1973}
+    confed: {s: 50000, k: 198, w: 618, m: 734}
+  - name: Totopotomy Creek
+    links: [["https://en.wikipedia.org/wiki/Battle_of_Totopotomoy_Creek"], ["VA057"]]
+    p: 310
+    start: 1864-5-27
+    end: 1864-5-31
+    union: {s: 100000, c: 2103}
+    confed: {s: 50000, k: 342, w: 882, m: 367}
+  - name: Cold Harbor (assault)
+    links: [["VA062", "<"], ["https://en.wikipedia.org/wiki/Battle_of_Cold_Harbor", "<"]]
+    p: 310
+    start: 1864-6-3
+    union: {s: 60000, c: 7000}
+    confed: {s: 59000, c: 1500}
+  - name: Cold Harbor
+    links: [["VA062"], ["https://en.wikipedia.org/wiki/Battle_of_Cold_Harbor"]]
+    p: 310
+    start: 1864-5-31
+    end: 1864-6-12
+    union: {s: 108000, k: 1769, w: 6752, m: 1537}
+    confed: {s: 59000, k: 1057, w: 3105, m: 1132}
+  - name: Trevilian Station
+    links: [["VA099"], ["https://en.wikipedia.org/wiki/Battle_of_Trevilian_Station"]]
+    p: 310
+    start: 1864-6-11
+    end: 1864-6-12
+    note: |
+      Confederate values for June 7-24.
+    union: {s: 8000, k: 102, w: 470, m: 435}
+    confed: {s: 5000, k: 126, w: 338, m: 318}
+  - name: "Cloyd's Mountain"
+    links: [["https://en.wikipedia.org/wiki/Battle_of_Cloyd%27s_Mountain"], ["VA049"]]
+    p: 310
+    start: 1864-5-9
+    union: {s: 6155, c: 688}
+    confed: {s: 2400, c: 543}
+  - name: New Market
+    links: [["https://en.wikipedia.org/wiki/Battle_of_New_Market"], ["VA110"]]
+    p: 310
+    start: 1864-5-15
+    union: {s: 5200, k: 93, w: 482, m: 256}
+    confed: {s: 3500, k: 42, w: 484, m: 13}
+  - name: Piedmont
+    links: [["VA111"], ["https://en.wikipedia.org/wiki/Battle_of_Piedmont"]]
+    p: 310
+    start: 1864-6-5
+    union: {s: 16000, k: 130, w: 650}
+    confed: {s: 8500, kw: 460, p: 1000}
+  - name: "Drewry's Bluff"
+    links: [["https://en.wikipedia.org/wiki/Battle_of_Drewry%27s_Bluff"], ["VA012"]]
+    p: 310
+    start: 1864-5-12
+    end: 1864-5-16
+    union: {s: 15800, k: 390, w: 2380, m: 1390}
+    confed: {s: 18025, k: 355, w: 2151}
+  - name: Petersburg (assault)
+    links: [["https://en.wikipedia.org/wiki/Second_Battle_of_Petersburg"], ["VA063"]]
+    p: 310
+    start: 1864-6-15
+    end: 1864-6-18
+    union: {s: 63797, k: 1688, w: 8513, m: 1185}
+    confed: {s: 41499, c: 4752}
+  - name: Monocacy River
+    links: [["MD007"], ["https://en.wikipedia.org/wiki/Battle_of_Monocacy"]]
+    p: 310
+    start: 1864-7-9
+    union: {s: 6050, k: 90, w: 579, cm: 1290}
+    confed: {s: 14000, c: 700}
+  - name: Kernstown
+    links: [["VA116"], ["https://en.wikipedia.org/wiki/Second_Battle_of_Kernstown"]]
+    p: 310
+    start: 1864-7-24
+    union: {s: 8000, kw: 706, p: 479}
+    confed: {s: 14000}
+  - name: Opequon (Third Winchester}
+    links: [["VA119"], ["https://en.wikipedia.org/wiki/Battle_of_Opequon"]]
+    p: 310
+    start: 1864-9-19
+    union: {s: 37711, k: 697, w: 3983, m: 338}
+    confed: {s: 17103, k: 276, w: 1827, cm: 1818}
+  - name: "Fisher's Hill"
+    links: [["https://en.wikipedia.org/wiki/Battle_of_Fisher%27s_Hill"], ["VA120"]]
+    start: 1864-9-22
+    p: 310
+    union: {s: 30000, k: 52, w: 457, m: 19}
+    confed: {s: 8000, kw: 300, p: 1100, "guns lost": 25}
+  - name: Cedar Creek
+    links: [["VA122"], ["https://en.wikipedia.org/wiki/Battle_of_Cedar_Creek"]]
+    start: 1864-10-19
+    p: 310
+    union: {s: 30829, k: 644, w: 3430, cm: 1591}
+    confed: {s: 18410, k: 320, w: 1540, cm: 1050, "guns lost": 25}
+  - name: Petersburg (Battle of the Crater)
+    links: [["https://en.wikipedia.org/wiki/Battle_of_the_Crater"], ["VA070"]]
+    start: 1864-7-30
+    p: 310
+    union: {s: 20708, k: 504, w: 1181, cm: 1413}
+    confed: {s: 11466, c: 1182}
+  - name: Deep Bottom Run
+    links: [["http://www.nps.gov/hps/abpp/battles/va071.htm"], ["VA071"]]
+    p: 310
+    start: 1864-8-13
+    end: 1864-8-20
+    union: {s: 27974, c: 2899}
+    confed: {s: 20008, c: 1000}
+  - name: Globe Tavern
+    links: [["VA072"], ["https://en.wikipedia.org/wiki/Battle_of_Globe_Tavern"]]
+    p: 310
+    start: 1864-8-18
+    end: 1864-8-21
+    union: {s: 20289, k: 251, w: 1148, cm: 2879}
+    confed: {s: 14787, kw: 1200, m: 419}
+  - name: Reams Station
+    links: [["https://en.wikipedia.org/wiki/Second_Battle_of_Ream%27s_Station"], ["VA073"]]
+    p: 310
+    start: 1864-8-23
+    union: {divisions: 3, k: 140, w: 529, p: 2073}
+    confed: {divisions: 1, c: 720}
+  - name: "Fort Harrison (Chaffin's Bluff)"
+    links: [["VA075"], ["https://en.wikipedia.org/wiki/Battle_of_Chaffin%27s_Farm"]]
+    p: 310
+    start: 1864-9-29
+    end: 1864-9-30
+    union: {s: 19639, k: 383, w: 2299, m: 645}
+    confed: {s: 10836, c: 2000}
+  - name: "Peebles Farm"
+    links: [["VA074"], ["https://en.wikipedia.org/wiki/Battle_of_Peebles%27s_Farm"]]
+    p: 310
+    start: 1864-9-30
+    end: 1864-10-1
+    union: {divisions: 4, k: 187, w: 900, m: 1802}
+    confed: {divisions: 3, c: 900}
+  - name: "Hatcher's Run"
+    links: [["https://en.wikipedia.org/wiki/Battle_of_Hatcher%27s_Run"], ["VA083"]]
+    p: 310
+    start: 1864-10-27
+    end: 1864-10-28
+    union: {s: 42823, k: 166, w: 1028, m: 564}
+    confed: {s: 20324, c: 900}
+  - name: Fair Oaks
+    links: [["VA080"], ["https://en.wikipedia.org/wiki/Battle_of_Fair_Oaks_%26_Darbytown_Road"]]
+    p: 310
+    start: 1864-10-27
+    end: 1864-10-28
+    union: {s: 40000, c: 1103}
+    confed: {s: 10000, c: 451}
+"West: 1864":
+  - name: Sabine Crossroads
+    links: [["https://en.wikipedia.org/wiki/Battle_of_Mansfield"], ["LA018"]]
+    p: 314
+    start: 1864-4-8
+    union: {s: 12000, k: 108, w: 643, p: 1397, "guns lost": 20}
+    confed: {s: 8800, c: 900}
+  - name: Pleasant Hill
+    links: [["LA019"], ["https://en.wikipedia.org/wiki/Battle_of_Pleasant_Hill"]]
+    p: 314
+    start: 1864-4-9
+    union: {s: 12247, k: 150, w: 844, m: 375}
+    confed: {s: 12500, c: 1626}
+  - name: Yellow Bayou
+    links: [["LA023"], ["https://en.wikipedia.org/wiki/Battle_of_Yellow_Bayou"]]
+    start: 1864-5-18
+    p: 314
+    union: {s: 5000, c: 350}
+    confed: {s: 5000, c: 608}
+  - name: Jenkins Ferry
+    links: [["AR016"], ["https://en.wikipedia.org/wiki/Battle_of_Jenkins%27_Ferry"]]
+    p: 314
+    start: 1864-4-30
+    union: {s: 6000, k: 64, w: 378, m: 86}
+    confed: {s: 4000, k: 86, w: 356, m: 1}
+  - name: Fort Davidson (Pilot Knob)
+    p: 314
+    links: [["https://en.wikipedia.org/wiki/Battle_of_Fort_Davidson"], ["MO021"]]
+    start: 1864-12-27
+    union: {s: 1000, k: 28, w: 59, m: 100}
+    confed: {s: 12000, c: 1500}
+  - name: Westport
+    links: [["MO027"], ["https://en.wikipedia.org/wiki/Battle_of_Westport"]]  
+    p: 314
+    start: 1864-10-23
+    union: {s: 20000, c: 500}
+    confed: {s: 9000, c: 492}
+  - name: Mine Creek
+    links: [["KS003"], ["https://en.wikipedia.org/wiki/Battle_of_Mine_Creek"]]
+    p: 314
+    start: 1864-10-25
+    union: {s: 2600, k: 15, w: 94}
+    confed: {s: 6500, k: 300, w: 250, p: 560}
+  - name: Fort Pillow
+    links: [["https://en.wikipedia.org/wiki/Battle_of_Fort_Pillow"], ["TN030"]]
+    p: 314
+    start: 1864-4-12
+    union: {s: 557, k: 221, p: 226}
+    confed: {s: 1500, k: 14, w: 86}
+    note: |
+      Union killed include 204 black troops, most of whom were killed after capture.
+  - name: "Brice's Crossroads"
+    links: [["MS014"], ["https://en.wikipedia.org/wiki/Battle_of_Brice%27s_Crossroads"]] 
+    p: 314
+    start: 1864-6-10
+    union: {s: 8300, guns: 22, k: 223, w: 394, p: 1623, "guns lost": 18}
+    confed: {s: 4800, guns: 8, k: 96, w: 396}
+  - name: Tupelo
+    links: [["https://en.wikipedia.org/wiki/Battle_of_Tupelo"], ["MS015"]]
+    p: 314
+    start: 1864-7-14
+    end: 1864-7-15
+    union: {s: 14200, k: 77, w: 559, m: 38}
+    confed: {s: 6600, k: 210, w: 1116}
+  - name: Selma
+    links: [["AL007"], ["https://en.wikipedia.org/wiki/Battle_of_Selma"]]
+    p: 314
+    start: 1864-4-2
+    end: 1864-4-3
+    union: {s: 12500, c: 400}
+    confed: {s: 7000, c: 4000}
+  - name: New Hope Church
+    links: [["GA010"], ["https://en.wikipedia.org/wiki/Battle_of_New_Hope_Church"]]
+    p: 314
+    start: 1864-5-25
+    union: {corps: 1, c: 1665}
+    confed: {corps: 1, c: 800}
+  - name: Kennesaw Mountain
+    links: [["https://en.wikipedia.org/wiki/Battle_of_Kennesaw_Mountain"], ["GA015"]]
+    p: 314
+    start: 1864-6-27
+    union: {s: 16000, c: 2500}
+    confed: {s: 17700, c: 552}
+  - name: Peachtree Creek
+    links: [["GA016"], ["https://en.wikipedia.org/wiki/Battle_of_Peachtree_Creek"]]
+    p: 314
+    start: 1864-7-20
+    union: {s: 20139, c: 1600}
+    confed: {s: 18832, c: 2500}
+  - name: Atlanta
+    links: [["GA017"], ["https://en.wikipedia.org/wiki/Battle_of_Atlanta"]]
+    p: 314
+    start: 1864-7-22
+    union: {s: 30477, k: 500, w: 2141, m: 1081}
+    confed: {s: 36934, c: 8000}
+  - name: Ezra Church
+    links: [["https://en.wikipedia.org/wiki/Battle_of_Ezra_Church"], ["GA018"]]
+    p: 314
+    start: 1864-7-28
+    union: {s: 25000, c: 632}
+    confed: {s: 12000, c: 2500}
+  - name: Jonesboro
+    links: [["GA022"], ["https://en.wikipedia.org/wiki/Battle_of_Jonesborough"]]
+    p: 314
+    start: 1864-8-31
+    end: 1864-9-1
+    union: {s: 60000, c: 1454}
+    confed: {s: 12500, c: 2725}
+  - name: Allatoona
+    links: [["GA023"], ["https://en.wikipedia.org/wiki/Battle_of_Allatoona"]]
+    p: 314
+    start: 1864-10-6
+    union: {s: 1944, k: 142, w: 352, m: 212}
+    confed: {s: 3000, k: 122, w: 443, m: 234}
+  - name: Franklin
+    links: [["https://en.wikipedia.org/wiki/Battle_of_Franklin_(1864)"], ["TN036"]]
+    p: 314
+    start: 1864-11-30
+    union: {s: 27939, k: 189, w: 1033, m: 1104}
+    confed: {s: 26897, k: 1481, w: 3800, m: 702}
+  - name: Nashville
+    links: [["https://en.wikipedia.org/wiki/Battle_of_Nashville"], ["TN038"]] 
+    p: 314
+    start: 1864-12-15
+    end: 1864-12-16
+    union: {s: 43260, k: 387, w: 2562, m: 112}
+    confed: {s: 23207, kw: 1500, p: 4462, "guns lost": 53}
+  - name: Griswoldville
+    links: [["GA025"], ["https://en.wikipedia.org/wiki/Griswoldville"]]
+    p: 314
+    start: 1864-11-22
+    union: {s: 1500, c: 62}
+    confed: {s: 3000, k: 51, w: 472}

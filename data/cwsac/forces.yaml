@@ -1,0 +1,2941 @@
+AL001:
+  CS:
+    description: three regiments
+    regiments: 3
+  US:
+    description: Men from 51st Indiana Infantry, 73rd Indiana Infantry, 3rd Ohio Infantry, 80th Illinois Infantry, and 1st Middle Tennessee Cavalry
+    regiments: 5
+  forces_text: Men from 51st Indiana Infantry, 73rd Indiana Infantry, 3rd Ohio Infantry,
+    80th Illinois Infantry, and 1st Middle Tennessee Cavalry [US]; three regiments
+    [CS]
+AL002:
+  CS:
+    description: 1st Alabama Cavalry
+    cavalry_regiments: 1
+  US:
+    description: 9th Illinois Mounted Infantry
+    regiments: 1
+  forces_text: 9th Illinois Mounted Infantry [US]; 1st Alabama Cavalry [CS]
+AL003:
+  CS:
+    description: "Buchanan's Flotilla (3 gunboats and an ironclad), Fort Morgan Garrison, Fort Gaines Garrison, and Fort Powell Garrison"
+    gunboats: 3
+    ironclads: 1
+    strength: null
+  US:
+    description: "Farragut's Fleet (14 wooden ships and 4 monitors) and U.S. army forces near Mobile"
+    wooden_ships: 14
+    ironclads: 4
+    strength: null
+  forces_text: Farragut's Fleet (14 wooden ships and 4 monitors) and U.S. army forces
+    near Mobile [US]; Buchanan's Flotilla (3 gunboats and an ironclad), Fort Morgan
+    Garrison, Fort Gaines Garrison, and Fort Powell Garrison [CS]
+AL004:
+  CS:
+    description: Army of Tennessee
+    armies: 1
+  US:
+    description: Garrison and other troops sent there (approx. 5,000 men)
+    strength_max: 5000
+    strength_min: 5000
+  forces_text: Garrison and other troops sent there (approx. 5,000 men) [US]; Army
+    of Tennessee [CS]
+AL005:
+  CS:
+    description: Spanish Fort Garrison
+    strength: null
+  US:
+    description: XVI and XIII Corps
+    corps: 2
+  forces_text: XVI and XIII Corps [US]; Spanish Fort Garrison [CS]
+AL006:
+  CS:
+    description: Fort Blakely Garrison
+    strength: null
+  US:
+    description: XIII and XVI Corps
+  forces_text: XIII and XVI Corps [US]; Fort Blakely Garrison [CS]
+AL007:
+  CS:
+    description: troops in city (approx. 5,000 men)
+    strength_max: 5000
+    strength_min: 5000
+  US:
+    description: Two cavalry divisions
+    cavalry_divisions: 2
+  forces_text: Two cavalry divisions [US]; troops in city (approx. 5,000 men) [CS]
+AR001:
+  CS:
+    description: Army of the West
+    armies: 1
+  US:
+    description: Army of the Southwest
+    armies: 1
+  forces_text: Army of the Southwest [US]; Army of the West [CS]
+AR002:
+  CS:
+    description: fifty men and C.S. boats
+    strength: 50
+  US:
+    description: 46th Indiana and Union Gunboat
+    regiments: 1
+    gunboats: 1
+  forces_text: 46th Indiana and Union Gunboat [US]; fifty men and C.S. boats [CS]
+AR003:
+  CS:
+    description: unknown
+  US:
+    description: 1st and 2nd Brigade, 1st Division, Army of the Southwest
+    brigades: 2
+  forces_text: 1st and 2nd Brigade, 1st Division, Army of the Southwest [US]; unknown
+    [CS]
+AR004:
+  CS:
+    description: two cavalry brigades
+    cavalry_brigades: 2
+  US:
+    description: Department of Missouri
+  forces_text: Department of Missouri [US]; two cavalry brigades [CS]
+AR005:
+  CS:
+    description: I Corps, Trans-Mississippi Army
+    corps: 1
+  US:
+    description: Army of the Frontier
+    armies: 1
+  forces_text: Army of the Frontier [US]; I Corps, Trans-Mississippi Army [CS]
+AR006:
+  CS:
+    description: Fort Hindman Garrison
+  US:
+    description: Army of the Mississippi
+    armies: 1
+  forces_text: Army of the Mississippi [US]; Fort Hindman Garrison [CS]
+AR007:
+  CS:
+    description: Marmaduke's Cavalry Division
+    cavalry_divisions: 1
+  US:
+    description: 2nd Division, Army of the Frontier and force under command of Brig.
+      Gen. John McNeil
+    divisions: 1
+  forces_text: 2nd Division, Army of the Frontier and force under command of Brig.
+    Gen. John McNeil [US]; Marmaduke's Cavalry Division [CS]
+AR008:
+  CS:
+    description: District of Arkansas
+  US:
+    description: District of Eastern Arkansas
+  forces_text: District of Eastern Arkansas [US]; District of Arkansas [CS]
+AR009:
+  CS:
+    description: Cabell's Brigade
+    brigades: 1
+  US:
+    description: "2nd Kansas Cavalry, 6th Missouri Cavalry, and two sections of Rabb's 2nd Indiana Battery"
+    cavalry_regiments: 2
+  forces_text: 2nd Kansas Cavalry, 6th Missouri Cavalry, and two sections of Rabb's
+    2nd Indiana Battery [US]; Cabell's Brigade [CS]
+AR010:
+  CS:
+    description: District of Arkansas
+  US:
+    description: Cavalry Division, Army of Arkansas, Arkansas Expedition
+    cavalry_divisions: 2
+  forces_text: Cavalry Division, Army of Arkansas, Arkansas Expedition [US]; District of Arkansas [CS]
+AR011:
+  CS:
+    description: division
+    divisions: 1
+  US:
+    description: Pine Bluff Garrison (two under-strength cavalry regiments and a company
+      of state militia)
+    cavalry_regiments: 2
+    companies: 1
+  forces_text: Pine Bluff Garrison (two under-strength cavalry regiments and a company
+    of state militia) [US]; division [CS]
+AR012:
+  CS:
+    description: 3 cavalry brigades
+    cavalry_brigades: 3
+  US:
+    description: 3rd Division, VII Corps and 2 cavalry brigades
+    divisions: 1
+    cavalry_brigades: 2
+  forces_text: 3rd Division, VII Corps and 2 cavalry brigades [US]; 3 cavalry brigades
+    [CS]
+AR013:
+  CS:
+    description: District of Arkansas
+  US:
+    description: Department of Arkansas
+  forces_text: Department of Arkansas [US]; District of Arkansas [CS]
+AR014:
+  CS:
+    description: Marmaduke's and Maxey's Divisions
+    divisions: 2
+  US:
+    description: Brigade (1,100 men)
+    strength_max: 1100
+    strength_min: 1100
+  forces_text: Brigade (1,100 men) [US]; Marmaduke's and Maxey's Divisions [CS]
+AR015:
+  CS:
+    description: two divisions
+    divisions: 2
+  US:
+    description: Infantry brigade
+    brigades: 1
+  forces_text: Infantry brigade [US]; two divisions [CS]
+AR016:
+  CS:
+    description: Army of Arkansas
+  US:
+    description: Department of Arkansas
+  forces_text: Department of Arkansas [US]; Army of Arkansas [CS]
+AR017:
+  CS:
+    description: Marmaduke's Division
+    divisions: 1
+  US:
+    description: Two brigades of XVI Army Corps
+    brigades: 2
+  forces_text: Two brigades of XVI Army Corps [US]; Marmaduke's Division [CS]
+CO001:
+  I:
+    description: 500 Cheyennes and a few Arapahos
+    strength_max: 500
+    strength_min: 500
+  US:
+    description: Third Colorado Regiment (approx. 700 men)
+    strength_max: 700
+    strength_min: 700
+  forces_text: Third Colorado Regiment (approx. 700 men) [US]; 500 Cheyennes and a
+    few Arapahos [I]
+DC001:
+  CS: {}
+  US: {}
+  forces_text: Divisions
+FL001:
+  CS:
+    description: infantry and artillery detachments (approx. 1,200 men)
+    strength_max: 1200
+    strength_min: 1200
+  US:
+    description: Santa Rosa Island Garrison (approx. 600 men)
+    strength_max: 600
+    strength_min: 600
+  forces_text: Santa Rosa Island Garrison (approx. 600 men) [US]; infantry and artillery
+    detachments (approx. 1,200 men) [CS]
+FL002:
+  CS:
+    description: Osceola Rangers, company
+    companies: 1
+  US:
+    description: One gunboat
+    gunboats: 1
+  forces_text: One gunboat [US]; Osceola Rangers, company [CS]
+FL003:
+  CS:
+    description: a small artillery and cavalry force
+  US:
+    description: 'Expeditionary Force: 2 infantry regiments, a light artillery battery
+      and detachment of the 1st Massachusetts Cavalry (total force 1,573)'
+    strength_max: 1573
+    strength_min: 1573
+  forces_text: 'Expeditionary Force: 2 infantry regiments, a light artillery battery
+    and detachment of the 1st Massachusetts Cavalry (total force 1,573) [US]; a small
+    artillery and cavalry force [CS]'
+FL004:
+  CS:
+    description: Company A, 2nd Battalion, Florida Volunteers
+    companies: 1
+  US:
+    description: Tahoma, Adela, and landing force
+    gunboats: 2
+  forces_text: Tahoma, Adela, and landing force [US]; Company A, 2nd Battalion, Florida
+    Volunteers [CS]
+FL005:
+  CS:
+    description: District of East Florida
+  US:
+    description: Division
+    divisions: 1
+  forces_text: Division [US]; District of East Florida [CS]
+FL006:
+  CS:
+    description: Kilcrease Artillery; Dunham's Battery; Abell's Battery; 5th Florida
+      Cavalry; 1st Florida Militia; Barwick's Company Reserves; Hodges Company Reserves;
+      Company A, Milton Light Artillery; Companies A, B, and F, Reserves and reinforcements
+      from Georgia amounting to approx. 1,000 men
+    strength_max: 1000
+    strength_min: 1000
+  US:
+    description: 2nd U.S. Colored Infantry and 99th U.S. Colored Infantry
+    regiments: 2
+  forces_text: 2nd U.S. Colored Infantry and 99th U.S. Colored Infantry [US]; Kilcrease
+    Artillery; Dunham's Battery; Abell's Battery; 5th Florida Cavalry; 1st Florida
+    Militia; Barwick's Company Reserves; Hodges Company Reserves; Company A, Milton
+    Light Artillery; Companies A, B, and F, Reserves and reinforcements from Georgia
+    amounting to approx. 1,000 men [CS]
+GA001:
+  CS:
+    description: Fort Pulaski Garrison
+  US:
+    description: The Port Royal Expeditionary Force's Fort Pulaski investment troops
+  forces_text: The Port Royal Expeditionary Force's Fort Pulaski investment troops
+    [US]; Fort Pulaski Garrison [CS]
+GA002:
+  CS:
+    description: Fort McAllister Garrison
+  US:
+    description: Union Navy Flotilla
+  forces_text: Union Navy Flotilla [US]; Fort McAllister Garrison [CS]
+GA003:
+  CS:
+    description: unknown
+  US:
+    description: Two divisions
+    divisions: 2
+  forces_text: Two divisions [US]; unknown [CS]
+GA004:
+  CS:
+    description: Army of Tennessee
+    armies: 1
+  US:
+    description: The Army of the Cumberland
+    armies: 1
+  forces_text: The Army of the Cumberland [US]; Army of Tennessee [CS]
+GA005:
+  CS:
+    description: one division
+    divisions: 1
+  US:
+    description: Three divisions
+    divisions: 3
+  forces_text: Three divisions [US]; one division [CS]
+GA006:
+  CS:
+    description: Army of Tennessee
+    armies: 1
+  US:
+    description: Army of the Cumberland
+    armies: 1
+  forces_text: Army of the Cumberland [US]; Army of Tennessee [CS]
+GA007:
+  CS:
+    description: Army of Tennessee
+    armies: 1
+  US:
+    description: Military Division of the Mississippi
+  forces_text: Military Division of the Mississippi [US]; Army of Tennessee [CS]
+GA008:
+  CS:
+    description: Army of Tennessee
+    armies: 1
+  US:
+    description: Military Division of the Mississippi
+  forces_text: Military Division of the Mississippi [US]; Army of Tennessee [CS]
+GA009:
+  CS:
+    description: Army of Tennessee
+    armies: 1
+  US:
+    description: Military Division of the Mississippi
+  forces_text: Military Division of the Mississippi [US]; Army of Tennessee [CS]
+GA010:
+  CS:
+    description: Army of Tennessee
+    armies: 1
+  US:
+    description: Military Division of the Mississippi
+  forces_text: Military Division of the Mississippi [US]; Army of Tennessee [CS]
+GA011:
+  CS:
+    description: Army of Tennessee
+    armies: 1
+  US:
+    description: Military Division of Mississippi
+  forces_text: Military Division of Mississippi [US]; Army of Tennessee [CS]
+GA012:
+  CS:
+    description: Cleburne's Division and Brig. Gen. John H. Kelly's Brigade
+    divisions: 1
+    brigades: 1
+  US:
+    description: IV Corps
+    corps: 1
+  forces_text: IV Corps [US]; Cleburne's Division and Brig. Gen. John H. Kelly's Brigade
+    [CS]
+GA013:
+  CS:
+    description: Army of Tennessee
+    armies: 1
+  US:
+    description: Military Division of the Mississippi
+  forces_text: Military Division of the Mississippi [US]; Army of Tennessee [CS]
+GA014:
+  CS:
+    description: Hood s Corps
+    corps: 1
+  US:
+    description: Two corps
+    corps: 2
+  forces_text: Two corps [US]; Hood s Corps [CS]
+GA015:
+  CS:
+    description: Army of Tennessee
+    armies: 1
+  US:
+    description: Military Division of the Mississippi
+  forces_text: Military Division of the Mississippi [US]; Army of Tennessee [CS]
+GA016:
+  CS:
+    description: Army of Tennessee
+    armies: 1
+  US:
+    description: Army of the Cumberland
+  forces_text: Army of the Cumberland [US]; Army of Tennessee [CS]
+GA017:
+  CS:
+    description: Army of Tennessee
+    armies: 1
+  US:
+    description: Military Division of the Mississippi
+  forces_text: Military Division of the Mississippi [US]; Army of Tennessee [CS]
+GA018:
+  CS:
+    description: two corps of Army of Tennessee
+    corps: 2
+  US:
+    description: Army of the Tennessee
+  forces_text: Army of the Tennessee [US]; two corps of Army of Tennessee [CS]
+GA019:
+  CS:
+    description: Army of Tennessee
+    armies: 1
+  US:
+    description: Army of the Ohio
+    armies: 1
+  forces_text: Army of the Ohio [US]; Army of Tennessee [CS]
+GA020:
+  CS:
+    description: Wheeler's cavalry force
+  US:
+    description: District of Etowah
+  forces_text: District of Etowah [US]; Wheeler's cavalry force [CS]
+GA021:
+  CS:
+    description: Jackson's Cavalry Division
+    cavalry_divisions: 1
+  US:
+    description: Kilpatrick's Cavalry Division
+    cavalry_divisions: 1
+  forces_text: Kilpatrick's Cavalry Division [US]; Jackson's Cavalry Division [CS]
+GA022:
+  CS:
+    description: two corps
+    corps: 2
+  US:
+    description: Six corps
+    corps: 6
+  forces_text: Six corps [US]; two corps [CS]
+GA023:
+  CS:
+    description: one division (approx. 2,000 men)
+    strength_max: 2000
+    strength_min: 2000
+  US:
+    description: One brigade (1,944 men)
+    strength_max: 1944
+    strength_min: 1944
+  forces_text: One brigade (1,944 men) [US]; one division (approx. 2,000 men) [CS]
+GA025:
+  CS:
+    description: 1st Division Georgia Militia and Cavalry Corps, Department of South
+      Carolina, Georgia, and Florida
+    divisions: 1
+  US:
+    description: 2nd Brigade, 1st Division, XV Corps, Army of the Tennessee and two
+      regiments of cavalry
+    brigades: 1
+    cavalry_regiments: 2
+  forces_text: 2nd Brigade, 1st Division, XV Corps, Army of the Tennessee and two
+    regiments of cavalry [US]; 1st Division Georgia Militia and Cavalry Corps, Department
+    of South Carolina, Georgia, and Florida [CS]
+GA026:
+  CS:
+    description: cavalry corps, Department of South Carolina, Georgia, and Florida
+    cavalry_corps: 1
+  US:
+    description: 3rd Cavalry Division, Military Division of the Mississippi
+    divisions: 1
+  forces_text: 3rd Cavalry Division, Military Division of the Mississippi [US]; cavalry
+    corps, Department of South Carolina, Georgia, and Florida [CS]
+GA027:
+  CS:
+    description: Cavalry Command, Army of Tennessee
+  US:
+    description: 3rd Cavalry Division, Military Division of the Mississippi
+    cavalry_divisions: 1
+  forces_text: 3rd Cavalry Division, Military Division of the Mississippi [US]; Cavalry
+    Command, Army of Tennessee [CS]
+GA028:
+  CS:
+    description: Fort McAllister Garrison (120 men)
+    strength_max: 120
+    strength_min: 120
+  US:
+    description: 2nd Division, XV Corps, Army of the Tennessee
+    divisions: 1
+  forces_text: 2nd Division, XV Corps, Army of the Tennessee [US]; Fort McAllister
+    Garrison (120 men) [CS]
+ID001:
+  I:
+    description: Shoshoni Indians
+  US:
+    description: District of Utah
+  forces_text: District of Utah [US]; Shoshoni Indians [I]
+IN001:
+  CS:
+    description: 1,800
+    strength_max: 1800
+    strength_min: 1800
+  US:
+    description: '400'
+    strength_max: 400
+    strength_min: 400
+  forces_text: 2,200 total (US 400; CS 1,800)
+  strength: 2200
+KS001:
+  CS:
+    description: Quantrill's Raiders and other guerrillas
+  US:
+    description: No Union troops
+  forces_text: No Union troops [US]; Quantrill's Raiders and other guerrillas [CS]
+KS002:
+  CS:
+    description: Quantrill's Raiders (approx. 400)
+    strength_max: 400
+    strength_min: 400
+  US:
+    description: Detachments from three regiments and an escort
+    regiments: 1.5
+  forces_text: Detachments from three regiments and an escort [US]; Quantrill's Raiders
+    (approx. 400) [CS]
+KS003:
+  CS:
+    description: cavalry division
+    cavalry_divisions: 1
+  US:
+    description: Provisional cavalry division
+    cavalry_divisions: 1
+  forces_text: Provisional cavalry division [US]; cavalry division [CS]
+KS004:
+  CS:
+    description: cavalry division
+    cavalry_divisions: 1
+  US:
+    description: Provisional cavalry division
+    cavalry_divisions: 1
+  forces_text: Provisional cavalry division [US]; cavalry division [CS]
+KY001:
+  CS:
+    description: detachment of approx. 800 men under command of Col. Joel A. Battle
+    strength_max: 800
+    strength_min: 800
+  US:
+    description: Home Guard (approx. 300 men)
+    strength_max: 300
+    strength_min: 300
+  forces_text: Home Guard (approx. 300 men) [US]; detachment of approx. 800 men under
+    command of Col. Joel A. Battle [CS]
+KY002:
+  CS:
+    description: Zollicoffer's Brigade
+    brigades: 1
+  US:
+    description: Camp Wildcat Garrison and Schoepf's Brigade (approx. 7,000 men)
+    strength_max: 7000
+    strength_min: 7000
+  forces_text: Camp Wildcat Garrison and Schoepf's Brigade (approx. 7,000 men) [US];
+    Zollicoffer's Brigade [CS]
+KY003:
+  CS:
+    description: nine companies of infantry and two of mounted men (1,010 men)
+    strength_max: 1010
+    strength_min: 1010
+  US:
+    description: Combination of detachments from twelve Union Ohio and Kentucky units
+  forces_text: Combination of detachments from twelve Union Ohio and Kentucky units
+    [US]; nine companies of infantry and two of mounted men (1,010 men) [CS]
+KY004:
+  CS:
+    description: Terry's Texas Rangers, 7th Texas Cavalry and 1st Arkansas Battalion
+      (approx. 1,350 men)
+    strength_max: 1350
+    strength_min: 1350
+  US:
+    description: 32nd Indiana Volunteer Infantry Regiment
+    regiments: 1
+  forces_text: 32nd Indiana Volunteer Infantry Regiment [US]; Terry's Texas Rangers,
+    7th Texas Cavalry and 1st Arkansas Battalion (approx. 1,350 men) [CS]
+KY005:
+  CS:
+    description: brigade
+    brigades: 1
+  US:
+    description: 18th Brigade
+    brigades: 1
+  forces_text: 18th Brigade [US]; brigade [CS]
+KY006:
+  CS:
+    description: division of two brigades
+    brigades: 2
+  US:
+    description: 1st Division, Army of the Ohio, and Brig. Gen. A. Schoepf's Brigade
+      (total of four brigades)
+    divisions: 1
+  forces_text: 1st Division, Army of the Ohio, and Brig. Gen. A. Schoepf's Brigade
+    (total of four brigades) [US]; division of two brigades [CS]
+KY007:
+  CS:
+    description: Army of Kentucky
+    armies: 1
+  US:
+    description: 1st and 2nd Brigades, Army of Kentucky
+    brigades: 2
+  forces_text: 1st and 2nd Brigades, Army of Kentucky [US]; Army of Kentucky [CS]
+KY008:
+  CS:
+    description: Army of the Mississippi
+    armies: 1
+  US:
+    description: Union garrison
+  forces_text: Union garrison [US]; Army of the Mississippi [CS]
+KY009:
+  CS:
+    description: Army of the Mississippi
+    armies: 1
+  US:
+    description: Army of the Ohio
+  forces_text: Army of the Ohio [US]; Army of the Mississippi [CS]
+KY010:
+  CS:
+    description: Forrest's Cavalry Department
+  US:
+    description: Union Garrison (approx. 650 men)
+    strength_max: 650
+    strength_min: 650
+  forces_text: Union Garrison (approx. 650 men) [US]; Forrest's Cavalry Department
+    [CS]
+KY011:
+  CS:
+    description: Morgan's Division
+    divisions: 1
+  US:
+    description: 168th Regiment Ohio Volunteer Infantry, 171st Ohio National Guard,
+      and the Kentucky Harrison County Home Guards
+    regiments: 3
+  forces_text: 168th Regiment Ohio Volunteer Infantry, 171st Ohio National Guard,
+    and the Kentucky Harrison County Home Guards [US]; Morgan's Division [CS]
+LA001:
+  CS:
+    description: Garrisons of Forts Jackson and St. Philip and the crews of various
+      ships
+  US:
+    description: West Gulf Blockading Squadron
+  forces_text: West Gulf Blockading Squadron [US]; Garrisons of Forts Jackson and
+    St. Philip and the crews of various ships [CS]
+LA002:
+  CS:
+    description: Department No. 1
+  US:
+    description: Department of the Gulf
+  forces_text: Department of the Gulf [US]; Department No. 1 [CS]
+LA003:
+  CS:
+    description: Breckinridge's Corps
+    corps: 1
+  US:
+    description: 2nd Brigade, Department of the Gulf
+    brigades: 1
+  forces_text: 2nd Brigade, Department of the Gulf [US]; Breckinridge's Corps [CS]
+LA004:
+  CS:
+    description: a few partisans
+  US:
+    description: Three Navy ships
+    ships: 3
+  forces_text: Three Navy ships [US]; a few partisans [CS]
+LA005:
+  CS:
+    description: 18th Louisiana Infantry Regiment, Crescent Regiment, Ralston's Battery,
+      Detachment of Cavalry, 33rd Louisiana Infantry Regiment, Terre Bonne Regiment
+      Louisiana Militia, Semmes's Battery and 2nd Louisiana Cavalry Regiment (approx.
+      1,392 men)
+    strength_max: 1392
+    strength_min: 1392
+  US:
+    description: Reserve brigade, Department of the Gulf
+    brigades: 1
+  forces_text: Reserve brigade, Department of the Gulf [US]; 18th Louisiana Infantry
+    Regiment, Crescent Regiment, Ralston's Battery, Detachment of Cavalry, 33rd Louisiana
+    Infantry Regiment, Terre Bonne Regiment Louisiana Militia, Semmes's Battery and
+    2nd Louisiana Cavalry Regiment (approx. 1,392 men) [CS]
+LA006:
+  CS:
+    description: District of Western Louisiana
+  US:
+    description: Banks's Department of the Gulf, XIX Army Corps
+  forces_text: Banks's Department of the Gulf, XIX Army Corps [US]; District of Western
+    Louisiana [CS]
+LA007:
+  CS:
+    description: 28th Louisiana Infantry, 2nd Louisiana Cavalry, 12th Louisiana Infantry
+      Battalion, 4th Texas Cavalry, and Cornay's Louisiana Battery
+    regiments: 1.5
+    cavalry_divisions: 1
+    artillery_batteries: 1
+  US:
+    description: 4th Division, XIX Army Corps
+    divisions: 1
+  forces_text: 4th Division, XIX Army Corps [US]; 28th Louisiana Infantry, 2nd Louisiana
+    Cavalry, 12th Louisiana Infantry Battalion, 4th Texas Cavalry, and Cornay's Louisiana
+    Battery [CS]
+LA008:
+  CS:
+    description: District of Western Louisiana
+  US:
+    description: 4th Division, XIX Army Corps, Army of the Gulf
+    divisions: 1
+  forces_text: 4th Division, XIX Army Corps, Army of the Gulf [US]; District of Western
+    Louisiana [CS]
+LA009:
+  CS:
+    description: small combined infantry, artillery, and cavalry force
+  US:
+    description: 1st Division, XIX Army Corps and Cavalry Brigade
+    divisions: 1
+  forces_text: 1st Division, XIX Army Corps and Cavalry Brigade [US]; small combined
+    infantry, artillery, and cavalry force [CS]
+LA010:
+  CS:
+    description: Confederate forces, 3rd District, Department of Mississippi and East
+      Louisiana, Port Hudson
+  US:
+    description: XIX Army Corps, Army of the Gulf
+    corps: 1
+  forces_text: XIX Army Corps, Army of the Gulf [US]; Confederate forces, 3rd District,
+    Department of Mississippi and East Louisiana, Port Hudson [CS]
+LA011:
+  CS:
+    description: McCulloch's Brigade
+    brigades: 1
+  US:
+    description: African Brigade and the 23rd Iowa Volunteer Infantry
+    brigades: 1
+    regiments: 1
+  forces_text: African Brigade and the 23rd Iowa Volunteer Infantry [US]; McCulloch's
+    Brigade [CS]
+LA012:
+  CS:
+    description: 2nd Cavalry Brigade
+    cavalry_brigades: 1
+  US:
+    description: 838 men from eight regiments
+    strength_max: 838
+    strength_min: 838
+  forces_text: 838 men from eight regiments [US]; 2nd Cavalry Brigade [CS]
+LA013:
+  CS:
+    description: Tom Green's Texas Brigade and Colonel James Patrick Major's Texas
+      Brigade
+    brigades: 2
+  US:
+    description: 'Fort Butler Garrison: two companies of the 28th Maine Volunteer
+      Infantry and some convalescents from various regiments'
+    companies: 2
+  forces_text: 'Fort Butler Garrison: two companies of the 28th Maine Volunteer Infantry
+    and some convalescents from various regiments [US]; Tom Green''s Texas Brigade
+    and Colonel James Patrick Major''s Texas Brigade [CS]'
+LA014:
+  CS:
+    description: 12th and 19th Texas cavalry Regiments, 15th Louisiana Cavalry Battalion,
+      Cameron's Louisiana Battery, and Ralston's Mississippi Battery
+    regiments: 2
+    cavalry_regiments: 0.5
+    artillery_batteries: 2
+  US:
+    description: Mississippi Marine Brigade, Brigade of 1st Arkansas Volunteers (African
+      Descent) and 10th Louisiana (African Descent)
+    brigades: 2
+    regiments: 1
+  forces_text: Mississippi Marine Brigade, Brigade of 1st Arkansas Volunteers (African
+    Descent) and 10th Louisiana (African Descent) [US]; 12th and 19th Texas cavalry
+    Regiments, 15th Louisiana Cavalry Battalion, Cameron's Louisiana Battery, and
+    Ralston's Mississippi Battery [CS]
+LA015:
+  CS:
+    description: two understrength Confederate brigades
+    brigades: 1
+  US:
+    description: Godfrey Weitzel's and Cuvier Grover's Divisions, XIX Army Corps
+    divisions: 2
+  forces_text: Godfrey Weitzel's and Cuvier Grover's Divisions, XIX Army Corps [US];
+    two understrength Confederate brigades [CS]
+LA016:
+  CS:
+    description: forces on the Atchafalaya River
+  US:
+    description: 2nd Division, XIII Army Corps
+    divisions: 1
+  forces_text: 2nd Division, XIII Army Corps [US]; forces on the Atchafalaya River
+    [CS]
+LA017:
+  CS:
+    description: Fort DeRussy Garrison (approx. 350 men)
+    strength_max: 350
+    strength_min: 350
+  US:
+    description: 3rd Division, XVI Army Corps
+    divisions: 1
+  forces_text: 3rd Division, XVI Army Corps [US]; Fort DeRussy Garrison (approx. 350
+    men) [CS]
+LA018:
+  CS:
+    description: District of West Louisiana (two divisions)
+    divisions: 2
+  US:
+    description: Banks's Red River Expeditionary Force
+  forces_text: Banks's Red River Expeditionary Force [US]; District of West Louisiana
+    (two divisions) [CS]
+LA019:
+  CS:
+    description: District of West Louisiana
+  US:
+    description: Red River Expeditionary Force (Banks's Department of the Gulf)
+  forces_text: Red River Expeditionary Force (Banks's Department of the Gulf) [US];
+    District of West Louisiana [CS]
+LA020:
+  CS:
+    description: Green's Cavalry Division
+    cavalry_divisions: 1
+  US:
+    description: Provisional division, XVII Army Corps, Army transports, and U.S.
+      Navy Mississippi Squadron
+    divisions: 1
+  forces_text: Provisional division, XVII Army Corps, Army transports, and U.S. Navy
+    Mississippi Squadron [US]; Green's Cavalry Division [CS]
+LA021:
+  CS:
+    description: Bee's Cavalry Division
+    cavalry_divisions: 1
+  US:
+    description: Red River Expeditionary Force (Banks's Department of the Gulf)
+  forces_text: Red River Expeditionary Force (Banks's Department of the Gulf) [US];
+    Bee's Cavalry Division [CS]
+LA022:
+  CS:
+    description: District of West Louisiana
+  US:
+    description: Banks's Red River Expeditionary Force
+  forces_text: Banks's Red River Expeditionary Force [US]; District of West Louisiana
+    [CS]
+LA023:
+  CS:
+    description: District of Western Louisiana
+  US:
+    description: 1st and 3rd Divisions, XVI Army Corps
+    divisions: 2
+  forces_text: 1st and 3rd Divisions, XVI Army Corps [US]; District of Western Louisiana
+    [CS]
+MD001:
+  CS: {brigades: 1}
+  US: {brigades: 1}
+  forces_text: Brigades
+MD002:
+  CS: {corps: 1}
+  US: {corps: 1}
+  forces_text: Corps
+MD003:
+  CS: {armies: 1}
+  US: {armies: 1}
+  forces_text: Armies
+MD004:
+  CS: {divisions: 1}
+  US: {divisions: 1}
+  forces_text: Divisions
+MD006:
+  CS: {divisions: 1}
+  US: {divisions: 1}
+  forces_text: Divisions
+MD007:
+  CS: {corps: 1}
+  US: {corps: 1}
+  forces_text: Corps
+MD008:
+  CS: {divisions: 1}
+  US: {divisions: 1}
+  forces_text: Divisions
+MN001:
+  I:
+    description: Santee Sioux
+  US:
+    description: Fort Ridgely Garrison and refugee civilians
+  forces_text: Fort Ridgely Garrison and refugee civilians [US]; Santee Sioux [I]
+MN002:
+  I:
+    description: Santee Sioux
+  US:
+    description: Volunteer troops (about 1,500)
+    strength_max: 1500
+    strength_min: 1500
+  forces_text: Volunteer troops (about 1,500) [US]; Santee Sioux [I]
+MO001:
+  CS:
+    description: State Guard Troops
+  US:
+    description: Combined force of Missouri troops and Regular U.S. Army (approx.
+      1,700)
+    strength_max: 1700
+    strength_min: 1700
+  forces_text: Combined force of Missouri troops and Regular U.S. Army (approx. 1,700)
+    [US]; State Guard Troops [CS]
+MO002:
+  CS:
+    description: Missouri State Guard divisions
+    divisions: 1
+  US:
+    description: Brigade
+    brigades: 1
+  forces_text: Brigade [US]; Missouri State Guard divisions [CS]
+MO003:
+  CS:
+    description: 4th Division, Missouri State Guard
+    divisions: 1
+  US:
+    description: Detachments of 3rd Iowa Infantry, Home Guards, and artillery (approx.
+      600 men)
+    strength: 600
+  forces_text: Detachments of 3rd Iowa Infantry, Home Guards, and artillery (approx.
+    600 men) [US]; 4th Division, Missouri State Guard [CS]
+MO004:
+  CS:
+    description: Missouri State Guard and McCulloch's Brigade
+  US:
+    description: Army of the West
+    armies: 1
+  forces_text: Army of the West [US]; Missouri State Guard and McCulloch's Brigade
+    [CS]
+MO005:
+  CS:
+    description: column of Missouri State Guard
+  US:
+    description: Kansas Cavalry Brigade (approx. 600)
+    strength_max: 600
+    strength_min: 600
+  forces_text: Kansas Cavalry Brigade (approx. 600) [US]; column of Missouri State
+    Guard [CS]
+MO006:
+  CS:
+    description: Missouri State Guard (12,000)
+    strength_max: 12000
+    strength_min: 12000
+  US:
+    description: Garrison (approx. 3,500)
+    strength_max: 3500
+    strength_min: 3500
+  forces_text: Garrison (approx. 3,500) [US]; Missouri State Guard (12,000) [CS]
+MO007:
+  CS:
+    description: Missouri State Guard
+  US:
+    description: Brigade size force (approx. 2,500-3,500)
+    strength_max: 2500
+    strength_min: 2500
+  forces_text: Brigade size force (approx. 2,500-3,500) [US]; Missouri State Guard
+    [CS]
+MO008:
+  CS:
+    description: Missouri State Guard troops
+  US:
+    description: "Prairie Scouts and Fr\xE9mont's Body Guard"
+  forces_text: "Prairie Scouts and Fr\xE9mont's Body Guard [US]; Missouri State Guard\
+    \ troops [CS]"
+MO009:
+  CS:
+    description: division
+    divisions: 1
+  US:
+    description: Division
+    divisions: 1
+  forces_text: Division [US]; division [CS]
+MO010:
+  CS:
+    description: unknown
+  US:
+    description: Detachments of the 3rd Missouri Cavalry Regiment (approx. 240) and
+      Birge's Sharpshooters (approx. 200)
+    strength_max: 440
+    strength_min: 440
+  forces_text: Detachments of the 3rd Missouri Cavalry Regiment (approx. 240) and
+    Birge's Sharpshooters (approx. 200) [US]; unknown [CS]
+MO011:
+  CS:
+    description: unknown
+  US:
+    description: Detachments from the 1st and 2nd Missouri Cavalry, 4th Ohio Cavalry,
+      and 1st Iowa Cavalry (450)
+    strength_max: 450
+    strength_min: 450
+  forces_text: Detachments from the 1st and 2nd Missouri Cavalry, 4th Ohio Cavalry,
+    and 1st Iowa Cavalry (450) [US]; unknown [CS]
+MO012:
+  CS:
+    description: Garrisons of New Madrid and Island No. 10
+  US:
+    description: Army of the Mississippi
+    armies: 1
+  forces_text: Army of the Mississippi [US]; Garrisons of New Madrid and Island No.
+    10 [CS]
+MO013:
+  CS:
+    description: Missouri Brigade
+    brigades: 1
+  US:
+    description: Combined force (cavalry and artillery)
+  forces_text: Combined force (cavalry and artillery) [US]; Missouri Brigade [CS]
+MO014:
+  CS:
+    description: 700-800
+    strength_max: 700
+    strength_min: 700
+  US:
+    description: Garrison (approx. 300
+    strength_max: 344
+    strength_min: 344
+  forces_text: Garrison (approx. 300 [US]; 700-800[CS])
+MO015:
+  CS:
+    description: unknown
+  US:
+    description: Detachments from fourteen companies of cavalry and a section of artillery
+      (800 men)
+    strength_max: 800
+    strength_min: 800
+  forces_text: Detachments from fourteen companies of cavalry and a section of artillery
+    (800 men) [US]; unknown [CS]
+MO016:
+  CS:
+    description: Cooper's Division
+    divisions: 1
+  US:
+    description: Two brigades, Army of Kansas (1,500)
+    strength_max: 1500
+    strength_min: 1500
+  forces_text: Two brigades, Army of Kansas (1,500) [US]; Cooper's Division [CS]
+MO017:
+  CS:
+    description: cavalry brigade (approx. 1,000 men)
+    strength_max: 1000
+    strength_min: 1000
+  US:
+    description: Detachments of 10th Illinois Cavalry and State Militia (approx. 100
+      men)
+    strength_max: 113
+    strength_min: 113
+  forces_text: Detachments of 10th Illinois Cavalry and State Militia (approx. 100
+    men) [US]; cavalry brigade (approx. 1,000 men) [CS]
+MO018:
+  CS:
+    description: 4th Division, I Corps, Trans-Mississippi Department
+    divisions: 1
+  US:
+    description: Southwestern District of Missouri Troops (2,000)
+    strength_max: 2000
+    strength_min: 2000
+  forces_text: Southwestern District of Missouri Troops (2,000) [US]; 4th Division,
+    I Corps, Trans-Mississippi Department [CS]
+MO019:
+  CS:
+    description: 4th Division, I Corps, Trans-Mississippi Department
+    divisions: 1
+  US:
+    description: Detachment of infantry, cavalry, and artillery (approx. 700)
+    strength_max: 700
+    strength_min: 700
+  forces_text: Detachment of infantry, cavalry, and artillery (approx. 700) [US];
+    4th Division, I Corps, Trans-Mississippi Department [CS]
+MO020:
+  CS:
+    description: cavalry division
+    cavalry_divisions: 1
+  US:
+    description: Garrison plus some reinforcements
+  forces_text: Garrison plus some reinforcements [US]; cavalry division [CS]
+MO021:
+  CS:
+    description: Army of Missouri
+    armies: 1
+  US:
+    description: Garrison
+  forces_text: Garrison [US]; Army of Missouri [CS]
+MO022:
+  CS:
+    description: unknown
+  US:
+    description: Garrison (800)
+    strength_max: 800
+    strength_min: 800
+  forces_text: Garrison (800) [US]; unknown [CS]
+MO023:
+  CS:
+    description: Army of Missouri
+    armies: 1
+  US:
+    description: 1st Division, Army of the Border
+    divisions: 1
+  forces_text: 1st Division, Army of the Border [US]; Army of Missouri [CS]
+MO024:
+  CS:
+    description: Army of Missouri
+    armies: 1
+  US:
+    description: 1st Division, Army of the Border
+    divisions: 1
+  forces_text: 1st Division, Army of the Border [US]; Army of Missouri [CS]
+MO025:
+  CS:
+    description: Fagan and Marmaduke's Divisions, Army of Missouri
+    divisions: 2
+  US:
+    description: Provisional cavalry division
+    cavalry_divisions: 1
+  forces_text: Provisional cavalry division [US]; Fagan and Marmaduke's Divisions,
+    Army of Missouri [CS]
+MO026:
+  CS:
+    description: Shelby and Marmaduke's Divisions
+    divisions: 2
+  US:
+    description: 1st Division, Army of the Border and provisional cavalry division
+    divisions: 1
+    cavalry_divisions: 1
+  forces_text: 1st Division, Army of the Border and provisional cavalry division [US];
+    Shelby and Marmaduke's Divisions [CS]
+MO027:
+  CS:
+    description: Army of Missouri
+    armies: 1
+  US:
+    description: Army of the Border
+    armies: 1
+  forces_text: Army of the Border [US]; Army of Missouri [CS]
+MO028:
+  CS:
+    description: Army of Missouri
+    armies: 1
+  US:
+    description: Two brigades, provisional cavalry division
+    brigades: 2
+    cavalry_divisions: 1
+  forces_text: Two brigades, provisional cavalry division [US]; Army of Missouri [CS]
+MO029:
+  CS:
+    description: remnants of Price's Army of Missouri
+  US:
+    description: Five brigades
+    brigades: 5
+  forces_text: Five brigades [US]; remnants of Price's Army of Missouri [CS]
+MS001:
+  CS:
+    description: 1st Division, Army of the West (approx. 3,200)
+    strength: 3200
+  US:
+    description: 2nd Division and cavalry division, Army of the Mississippi (approx.
+      4,000-4,500)
+    strength_max: 4000
+    strength_min: 4000
+  forces_text: 2nd Division and cavalry division, Army of the Mississippi (approx.
+    4,000-4,500) [US]; 1st Division, Army of the West (approx. 3,200) [CS]
+MS002:
+  CS:
+    description: Army of the West Tennessee
+    armies: 1
+  US:
+    description: Army of the Mississippi
+    armies: 1
+  forces_text: Army of the Mississippi [US]; Army of the West Tennessee [CS]
+MS003:
+  CS:
+    description: Department of Mississippi and East Louisiana
+  US:
+    description: Right Wing, XIII Army Corps
+    corps: 0.5
+  forces_text: Right Wing, XIII Army Corps [US]; Department of Mississippi and East
+    Louisiana [CS]
+MS004:
+  CS:
+    description: Bowen's Division and attached troops
+    divisions: 1
+  US:
+    description: Mississippi Squadron and Companies A,B,D,F,G,H,K, 58th Ohio Volunteer
+      Infantry Regiment
+  forces_text: Mississippi Squadron and Companies A,B,D,F,G,H,K, 58th Ohio Volunteer
+    Infantry Regiment [US]; Bowen's Division and attached troops [CS]
+MS005:
+  CS:
+    description: "H\xE9bert's Brigade"
+    brigades: 1
+  US:
+    description: XV Army Corps, Department of the Tennessee
+    corps: 1
+  forces_text: "XV Army Corps, Department of the Tennessee [US]; H\xE9bert's Brigade\
+    \ [CS]"
+MS006:
+  CS:
+    description: 'Confederate forces in area (one reinforced division: four brigades)'
+    brigades: 4
+  US:
+    description: Army of the Tennessee (comprising two corps)
+    corps: 2
+  forces_text: 'Army of the Tennessee (comprising two corps) [US]; Confederate forces
+    in area (one reinforced division: four brigades) [CS]'
+MS007:
+  CS:
+    description: Gregg's Task Force (equivalent to a brigade)
+    brigades: 1
+  US:
+    description: XVII Army Corps, Army of the Tennessee
+    corps: 1
+  forces_text: XVII Army Corps, Army of the Tennessee [US]; Gregg's Task Force (equivalent
+    to a brigade) [CS]
+MS008:
+  CS:
+    description: Jackson Garrison
+  US:
+    description: Army of the Tennessee
+    armies: 1
+  forces_text: Army of the Tennessee [US]; Jackson Garrison [CS]
+MS009:
+  CS:
+    description: Department of Mississippi and East Louisiana
+  US:
+    description: Army of the Tennessee (three corps)
+    corps: 3
+  forces_text: Army of the Tennessee (three corps) [US]; Department of Mississippi
+    and East Louisiana [CS]
+MS010:
+  CS:
+    description: Bridgehead Defense Force (three brigades)
+    brigades: 3
+  US:
+    description: XIII Army Corps, Army of the Tennessee
+    corps: 1
+  forces_text: XIII Army Corps, Army of the Tennessee [US]; Bridgehead Defense Force
+    (three brigades) [CS]
+MS011:
+  CS:
+    description: Army of Vicksburg
+    armies: 1
+  US:
+    description: Army of the Tennessee
+    armies: 1
+  forces_text: Army of the Tennessee [US]; Army of Vicksburg [CS]
+MS012:
+  CS:
+    description: Department of Alabama, Mississippi and East Louisiana
+  US:
+    description: Department of the Tennessee
+  forces_text: Department of the Tennessee [US]; Department of Alabama, Mississippi
+    and East Louisiana [CS]
+MS013:
+  CS:
+    description: Forrest's Cavalry Corps
+    cavalry_corps: 1
+  US:
+    description: Cavalry force (7,000)
+    strength_max: 7000
+    strength_min: 7000
+  forces_text: Cavalry force (7,000) [US]; Forrest's Cavalry Corps [CS]
+MS014:
+  CS:
+    description: cavalry corps
+    cavalry_corps: 1
+  US:
+    description: Three-brigade division of infantry and a division of cavalry (about
+      8,500 )
+    strength_max: 8500
+    strength_min: 8500
+  forces_text: Three-brigade division of infantry and a division of cavalry (about
+    8,500 ) [US]; cavalry corps [CS]
+MS015:
+  CS:
+    description: Department of Alabama, Mississippi, and East Louisiana
+  US:
+    description: 1st and 3rd Infantry Divisions and Cavalry Division, XVI Army Corps,
+      and 1st Brigade, U.S. Colored Troops (14,000)
+    strength_max: 14000
+    strength_min: 14000
+  forces_text: 1st and 3rd Infantry Divisions and Cavalry Division, XVI Army Corps,
+    and 1st Brigade, U.S. Colored Troops (14,000) [US]; Department of Alabama, Mississippi,
+    and East Louisiana [CS]
+MS016:
+  CS:
+    description: Department No. 2
+  US:
+    description: Department of the Mississippi
+  forces_text: Department of the Mississippi [US]; Department No. 2 [CS]
+NC001:
+  CS:
+    description: Hatteras Island Garrison (900)
+    strength_max: 900
+    strength_min: 900
+  US:
+    description: 9th and 20th New York regiments (est. 2,000)
+    strength_max: 2000
+    strength_min: 2000
+  forces_text: 9th and 20th New York regiments (est. 2,000) [US]; Hatteras Island
+    Garrison (900) [CS]
+NC002:
+  CS:
+    description: 3,000
+    strength_max: 3000
+    strength_min: 3000
+  US:
+    description: 7,500
+    strength_max: 7500
+    strength_min: 7500
+  forces_text: 10,500 total (US 7,500; CS 3,000)
+  strength: 10500
+NC003:
+  CS:
+    description: 5 regiments, militia
+    regiments: 5
+  US:
+    description: Expeditionary Force and Foster's, Reno's, and Parke's Brigades
+  forces_text: Expeditionary Force and Foster's, Reno's, and Parke's Brigades [US];
+    5 regiments, militia [CS]
+NC004:
+  CS:
+    description: Fort Macon Garrison
+  US:
+    description: Parke's Division of Department of North Carolina, 3rd Division
+  forces_text: Parke's Division of Department of North Carolina, 3rd Division [US];
+    Fort Macon Garrison [CS]
+NC005:
+  CS:
+    description: 3rd Georgia
+    regiments: 1
+  US:
+    description: 21st Massachusetts and 51st Pennsylvania
+    regiments: 2
+  forces_text: 21st Massachusetts and 51st Pennsylvania [US]; 3rd Georgia [CS]
+NC006:
+  CS: {regiments: 1}
+  US: {regiments: 1}
+  forces_text: Regiments
+NC007:
+  CS:
+    description: Evans's Brigade
+    brigades: 1
+  US:
+    description: Department of North Carolina, 1st Division
+    divisions: 1
+  forces_text: Department of North Carolina, 1st Division [US]; Evans's Brigade [CS]
+NC008:
+  CS:
+    description: Robertson's Brigade
+    brigades: 1
+  US:
+    description: Amory's and Stevenson's Brigades
+    brigades: 2
+  forces_text: Amory's and Stevenson's Brigades [US]; Robertson's Brigade [CS]
+NC009:
+  CS:
+    description: Clingman's Brigade
+    brigades: 1
+  US:
+    description: Department of North Carolina, 1st Division
+    divisions: 1
+  forces_text: Department of North Carolina, 1st Division [US]; Clingman's Brigade
+    [CS]
+NC010:
+  CS:
+    description: Hill's Division
+    divisions: 1
+  US:
+    description: 1st Division, XVIII Corps
+    divisions: 1
+  forces_text: 1st Division, XVIII Corps [US]; Hill's Division [CS]
+NC011:
+  CS:
+    description: Hill's Division
+    divisions: 1
+  US:
+    description: 6 regiments and artillery units
+    regiments: 6
+  forces_text: 6 regiments and artillery units [US]; Hill's Division [CS]
+NC012:
+  CS:
+    description: Hoke's Division
+    divisions: 1
+  US:
+    description: Plymouth Garrison (4 infantry and artillery units)
+    regiments: 4
+  forces_text: Plymouth Garrison (4 infantry and artillery units) [US]; Hoke's Division
+    [CS]
+NC013:
+  CS:
+    description: Confederate ram
+    ships: 1
+  US:
+    description: 9 gunboats
+    gunboats: 9
+  forces_text: 9 gunboats [US]; Confederate ram [CS]
+NC014:
+  CS:
+    description: Hoke's Division and Fort Fisher Garrison
+    divisions: 1
+  US:
+    description: Expeditionary Corps, Army of the James
+    corps: 1
+  forces_text: Expeditionary Corps, Army of the James [US]; Hoke's Division and Fort
+    Fisher Garrison [CS]
+NC015:
+  CS:
+    description: Hoke's Division and Fort Fisher Garrison
+    divisions: 1
+  US:
+    description: Expeditionary Corps, Army of the James
+    corps: 1
+  forces_text: Expeditionary Corps, Army of the James [US]; Hoke's Division and Fort
+    Fisher Garrison [CS]
+NC016:
+  CS:
+    description: Hoke's Division, Hagood's Brigade (6,600)
+    strength_max: 6600
+    strength_min: 6600
+  US:
+    description: Cox's, Ames's, and Paine's Divisions (12,000)
+    strength_max: 12000
+    strength_min: 12000
+  forces_text: Cox's, Ames's, and Paine's Divisions (12,000) [US]; Hoke's Division,
+    Hagood's Brigade (6,600) [CS]
+NC017:
+  CS:
+    description: 8,500
+    strength_max: 8500
+    strength_min: 8500
+  US:
+    description: 12,000
+    strength_max: 12000
+    strength_min: 12000
+  forces_text: 'Divisions: 20,500 total (US 12,000; CS 8,500)'
+  strength: 20500
+NC018:
+  CS:
+    description: Wheeler's and Hampton's Cavalry Division (3,000)
+    strength_max: 3000
+    strength_min: 3000
+  US:
+    description: Kilpatrick's Cavalry Division (1,850)
+    strength_max: 1850
+    strength_min: 1850
+  forces_text: Kilpatrick's Cavalry Division (1,850) [US]; Wheeler's and Hampton's
+    Cavalry Division (3,000) [CS]
+NC019:
+  CS:
+    description: Hardee's Corps (5,400)
+    strength_max: 5400
+    strength_min: 5400
+  US:
+    description: XX Corps and XIV Corps (25,992)
+    strength_max: 25992
+    strength_min: 25992
+  forces_text: XX Corps and XIV Corps (25,992) [US]; Hardee's Corps (5,400) [CS]
+NC020:
+  CS:
+    description: Johnston's Army
+    armies: 1
+  US:
+    description: Sherman's Right Wing (XX and XIV Corps)
+    corps: 2
+  forces_text: Sherman's Right Wing (XX and XIV Corps) [US]; Johnston's Army [CS]
+ND001:
+  I:
+    description: Santee and Teton Sioux
+  US:
+    description: District of Minnesota
+  forces_text: District of Minnesota [US]; Santee and Teton Sioux [I]
+ND002:
+  I:
+    description: Santee and Teton Sioux
+  US:
+    description: District of Minnesota
+  forces_text: District of Minnesota [US]; Santee and Teton Sioux [I]
+ND003:
+  I:
+    description: Santee and Teton Sioux
+  US:
+    description: District of Minnesota
+  forces_text: District of Minnesota [US]; Santee and Teton Sioux [I]
+ND004:
+  I:
+    description: Santee, Yankton, Cut-heads, Hunkapapa and Teton Sioux and Blackfeet
+      (1,200-1,500)
+    strength_max: 1200
+    strength_min: 1200
+  US:
+    description: Northwestern Expedition (600-700)
+    strength_max: 600
+    strength_min: 600
+  forces_text: Northwestern Expedition (600-700) [US]; Santee, Yankton, Cut-heads,
+    Hunkapapa and Teton Sioux and Blackfeet (1,200-1,500) [I]
+ND005:
+  I:
+    description: Santee and Teton Sioux
+  US:
+    description: Detachments from eight units (2,200)
+    strength_max: 2200
+    strength_min: 2200
+  forces_text: Detachments from eight units (2,200) [US]; Santee and Teton Sioux [I]
+NM001:
+  CS:
+    description: Army of New Mexico
+    regiments: 3
+  US:
+    description: Department of New Mexico (combination of regular and volunteer units)
+  forces_text: Department of New Mexico (combination of regular and volunteer units)
+    [US]; Army of New Mexico [CS]
+NM002:
+  CS:
+    description: 4th, 5th, and 7th Texas Cavalry Regiment, artillery, and a company
+      of independent volunteers
+    regiments: 3
+  US:
+    description: Northern Division, Army of New Mexico
+    divisions: 1
+  forces_text: Northern Division, Army of New Mexico [US]; 4th, 5th, and 7th Texas
+    Cavalry Regiment, artillery, and a company of independent volunteers [CS]
+OH001:
+  CS:
+    description: 1,700
+    strength_max: 1700
+    strength_min: 1700
+  US:
+    description: 3,000
+    strength_max: 3000
+    strength_min: 3000
+  forces_text: 'Brigades: 4,700 total (US 3,000; CS 1,700)'
+  strength: 4700
+OH002:
+  CS:
+    description: '400'
+    strength_max: 400
+    strength_min: 400
+  US:
+    description: 2,600
+    strength_max: 2600
+    strength_min: 2600
+  forces_text: 3,000 total (US 2,600; CS 400)
+  strength: 3000
+OK001:
+  CS:
+    description: Indian Department
+  I:
+    description: Creek and Seminole
+  forces_text: Creek and Seminole [I]; Indian Department [CS]
+OK002:
+  CS:
+    description: Indian Department
+  I:
+    description: Creek and Seminole
+  forces_text: Creek and Seminole [I]; Indian Department [CS]
+OK003:
+  CS:
+    description: McIntosh's and Douglas Cooper's brigades
+    brigades: 2
+  I:
+    description: Creek and Seminole
+  forces_text: Creek and Seminole [I]; McIntosh's and Douglas Cooper's brigades [CS]
+OK004:
+  CS:
+    description: 1st Brigade
+    brigades: 1
+  US:
+    description: 1st Division, Army of the Frontier
+    divisions: 1
+  forces_text: 1st Division, Army of the Frontier [US]; 1st Brigade [CS]
+OK005:
+  CS:
+    description: Seminole Battalion, Company A, 1st Choctaw and Chickasaw Cavalry
+      Regiment, and a detachment of 20th Texas Regiment
+    regiments: 1
+  US:
+    description: Three companies of the 14th Kansas Cavalry Regiment and a section
+      of Howitzers
+    companies: 3
+  forces_text: Three companies of the 14th Kansas Cavalry Regiment and a section of
+    Howitzers [US]; Seminole Battalion, Company A, 1st Choctaw and Chickasaw Cavalry
+    Regiment, and a detachment of 20th Texas Regiment [CS]
+OK006:
+  CS:
+    description: two regiments and detachments from two other units (approx. 1,600-1,800)
+    strength_max: 1600
+    strength_min: 1600
+  US:
+    description: Detachments from nine units
+  forces_text: Detachments from nine units [US]; two regiments and detachments from
+    two other units (approx. 1,600-1,800) [CS]
+OK007:
+  CS:
+    description: 1st Brigade, Native American troops
+    brigades: 1
+  US:
+    description: District of the Frontier
+  forces_text: District of the Frontier [US]; 1st Brigade, Native American troops
+    [CS]
+PA001:
+  CS: {brigades: 1}
+  US: {brigades: 1}
+  forces_text: Brigades
+PA002:
+  CS:
+    description: 75,054
+    strength_max: 75054
+    strength_min: 75054
+  US:
+    description: 83,289
+    strength_max: 83289
+    strength_min: 83289
+  forces_text: 158,300 total (US 83,289; CS 75,054)
+  strength: 158300
+SC001:
+  CS:
+    description: '500'
+    strength_max: 500
+    strength_min: 500
+  US:
+    description: '80'
+    strength_max: 80
+    strength_min: 80
+  forces_text: 'Regiments: 580 total (US 80; CS 500)'
+  strength: 580
+SC002:
+  CS:
+    description: 2,000
+    strength_max: 2000
+    strength_min: 2000
+  US:
+    description: 6,600
+    strength_max: 6600
+    strength_min: 6600
+  forces_text: 8,600 total (US 6,600; CS 2,000)
+  strength: 8600
+SC003:
+  CS: {regiments: 1}
+  US: {regiments: 1}
+  forces_text: Regiments
+SC004:
+  CS: {}
+  US: {}
+  forces_text: 9 warships
+SC005:
+  CS: {brigades: 1}
+  US: {brigades: 1}
+  forces_text: Brigades
+SC006:
+  CS:
+    description: 3,000
+    strength_max: 3000
+    strength_min: 3000
+  US:
+    description: 3,800
+    strength_max: 3800
+    strength_min: 3800
+  forces_text: 6,800 total (US 3,800; CS 3,000)
+  strength: 6800
+SC007:
+  CS:
+    description: 1,800
+    strength_max: 1800
+    strength_min: 1800
+  US:
+    description: 5,000
+    strength_max: 5000
+    strength_min: 5000
+  forces_text: 6,800 total (US 5,000; CS 1,800)
+  strength: 6800
+SC008:
+  CS:
+    description: Fort Sumter Garrison
+  US:
+    description: Morris Island Batteries
+  forces_text: Morris Island Batteries [US]; Fort Sumter Garrison [CS]
+SC009:
+  CS:
+    description: unknown
+    regiments: 1
+  US:
+    description: '413'
+    strength_max: 413
+    strength_min: 413
+  forces_text: 'Regiments: total unknown (US 413; CS unknown)'
+SC010:
+  CS:
+    description: 1,400
+    strength_max: 1400
+    strength_min: 1400
+  US:
+    description: 5,000
+    strength_max: 5000
+    strength_min: 5000
+  forces_text: 6,400 total (US 5,000; CS 1,400)
+  strength: 6400
+SC011:
+  CS:
+    description: 1,200
+    strength_max: 1200
+    strength_min: 1200
+  US:
+    description: 5,000
+    strength_max: 5000
+    strength_min: 5000
+  forces_text: 'Divisions: 6,200 total (US 5,000; CS 1,200)'
+  strength: 6200
+TN001:
+  CS:
+    description: Fort Henry Garrison
+  US:
+    description: District of Cairo
+  forces_text: District of Cairo [US]; Fort Henry Garrison [CS]
+TN002:
+  CS:
+    description: Fort Donelson Garrison
+  US:
+    description: Army in the Field
+    armies: 1
+  forces_text: Army in the Field [US]; Fort Donelson Garrison [CS]
+TN003:
+  CS:
+    description: Army of the Mississippi (44,968)
+    strength_max: 44968
+    strength_min: 44968
+  US:
+    description: Army of the Tennessee and Army of the Ohio (65,085)
+    strength_max: 65085
+    strength_min: 65085
+  forces_text: Army of the Tennessee and Army of the Ohio (65,085) [US]; Army of the
+    Mississippi (44,968) [CS]
+TN004:
+  CS:
+    description: C.S. Navy Rams General Beauregard, General Bragg, General Price,
+      General Van Dorn, General Thompson, Colonel Lovell, Sumter, and Little Rebel
+    rams: 8
+  US:
+    description: U.S. Ironclads Benton, Louisville, Carondelet, Cairo, and St. Louis
+      and U.S. Army Rams Queen of the West and Monarch
+    ironclads: 5
+    rams: 2
+  forces_text: U.S. Ironclads Benton, Louisville, Carondelet, Cairo, and St. Louis
+    and U.S. Army Rams Queen of the West and Monarch [US]; C.S. Navy Rams General
+    Beauregard, General Bragg, General Price, General Van Dorn, General Thompson,
+    Colonel Lovell, Sumter, and Little Rebel [CS]
+TN005:
+  CS:
+    description: Department
+  US:
+    description: Division
+    divisions: 1
+  forces_text: Division [US]; Department [CS]
+TN006:
+  CS:
+    description: equivalent of a brigade (about five cavalry units; approx. 1,400)
+    strength_max: 1400
+    strength_min: 1400
+  US:
+    description: Detachments from four Union units (approx. 900)
+    strength_max: 900
+    strength_min: 900
+  forces_text: Detachments from four Union units (approx. 900) [US]; equivalent of
+    a brigade (about five cavalry units; approx. 1,400) [CS]
+TN007:
+  CS:
+    description: Army of the West
+    armies: 1
+  US:
+    description: Detachment
+  forces_text: Detachment [US]; Army of the West [CS]
+TN008:
+  CS:
+    description: expeditionary force (two brigades)
+    brigades: 2
+  US:
+    description: 39th Brigade, XIV Army Corps (Army of the Cumberland)
+    brigades: 1
+  forces_text: 39th Brigade, XIV Army Corps (Army of the Cumberland) [US]; expeditionary
+    force (two brigades) [CS]
+TN009:
+  CS:
+    description: Detachment of Forrest's Cavalry (approx. 400)
+    strength_max: 400
+    strength_min: 400
+  US:
+    description: Two regiments from the Jackson Garrison
+    regiments: 2
+  forces_text: Two regiments from the Jackson Garrison [US]; Detachment of Forrest's
+    Cavalry (approx. 400) [CS]
+TN010:
+  CS:
+    description: Army of Tennessee
+    armies: 1
+  US:
+    description: Army of the Cumberland
+    armies: 1
+  forces_text: Army of the Cumberland [US]; Army of Tennessee [CS]
+TN011:
+  CS:
+    description: expeditionary brigade
+    brigades: 1
+  US:
+    description: Two brigades (approx. 3,000 men)
+    strength_max: 3000
+    strength_min: 3000
+  forces_text: Two brigades (approx. 3,000 men) [US]; expeditionary brigade [CS]
+TN012:
+  CS:
+    description: cavalry division (approx. 2,500)
+    strength_max: 2500
+    strength_min: 2500
+  US:
+    description: 'Detachments of two regiments: 83rd Illinois Infantry and 5th Iowa
+      Cavalry Regiments and some artillery (approx. 800)'
+    strength_max: 800
+    strength_min: 800
+  forces_text: 'Detachments of two regiments: 83rd Illinois Infantry and 5th Iowa
+    Cavalry Regiments and some artillery (approx. 800) [US]; cavalry division (approx.
+    2,500) [CS]'
+TN013:
+  CS:
+    description: I Cavalry Corps
+    corps: 1
+  US:
+    description: Infantry brigade
+    brigades: 1
+  forces_text: Infantry brigade [US]; I Cavalry Corps [CS]
+TN014:
+  CS:
+    description: Morgan's Cavalry Division (approx. 3,500)
+    strength_max: 3500
+    strength_min: 3500
+  US:
+    description: 2nd Brigade, 5th Division, XIV Army Corps (a combined force of infantry,
+      artillery, and cavalry comprising detachments from six units; approx. 1,300)
+    strength_max: 1300
+    strength_min: 1300
+  forces_text: 2nd Brigade, 5th Division, XIV Army Corps (a combined force of infantry,
+    artillery, and cavalry comprising detachments from six units; approx. 1,300) [US];
+    Morgan's Cavalry Division (approx. 3,500) [CS]
+TN015:
+  CS:
+    description: Forrest's Division
+    divisions: 1
+  US:
+    description: Detachments of the 22nd Wisconsin Volunteer Infantry, 33rd Indiana,
+      and 19th Michigan Volunteer Infantry regiments, 1st Division, 1st Cavalry Corps
+      (approx. 400)
+    strength_max: 400
+    strength_min: 400
+  forces_text: Detachments of the 22nd Wisconsin Volunteer Infantry, 33rd Indiana,
+    and 19th Michigan Volunteer Infantry regiments, 1st Division, 1st Cavalry Corps
+    (approx. 400) [US]; Forrest's Division [CS]
+TN016:
+  CS:
+    description: 1st Cavalry Corps, Army of Tennessee
+    cavalry_corps: 1
+  US:
+    description: Army of Kentucky
+    armies: 1
+  forces_text: Army of Kentucky [US]; 1st Cavalry Corps, Army of Tennessee [CS]
+TN017:
+  CS:
+    description: Bate's and Johnson's Brigades, Stewart's Division, Hardee's Corps,
+      Army of Tennessee, and J.R. Butler's 1st [3rd] Kentucky Cavalry Regiment
+    cavalry_regiments: 1
+    brigades: 2
+  US:
+    description: XIV Army Corps
+    corps: 1
+  forces_text: XIV Army Corps [US]; Bate's and Johnson's Brigades, Stewart's Division,
+    Hardee's Corps, Army of Tennessee, and J.R. Butler's 1st [3rd] Kentucky Cavalry
+    Regiment [CS]
+TN018:
+  CS:
+    description: Hill's Corps
+    corps: 1
+  US:
+    description: Wilder's Brigade
+    brigades: 1
+  forces_text: Wilder's Brigade [US]; Hill's Corps [CS]
+TN019:
+  CS:
+    description: 1st Tennessee Cavalry Regiment and Artillery (approx. 1,200)
+    strength_max: 1200
+    strength_min: 1200
+  US:
+    description: 2nd Brigade, 4th Division, XXIII Army Corps, Department of the Ohio
+  forces_text: 2nd Brigade, 4th Division, XXIII Army Corps, Department of the Ohio
+    [US]; 1st Tennessee Cavalry Regiment and Artillery (approx. 1,200) [CS]
+TN020:
+  CS:
+    description: 1st Tennessee Volunteer Cavalry Regiment, 4th Kentucky Cavalry Regiment,
+      and some home guard troops and artillery
+    regiments: 2
+  US:
+    description: Department of the Ohio
+  forces_text: Department of the Ohio [US]; 1st Tennessee Volunteer Cavalry Regiment,
+    4th Kentucky Cavalry Regiment, and some home guard troops and artillery [CS]
+TN021:
+  CS:
+    description: Hood's Division
+    divisions: 1
+  US:
+    description: XI Army Corps and 2nd Division, XII Army Corps
+    corps: 1
+    divisions: 1
+  forces_text: XI Army Corps and 2nd Division, XII Army Corps [US]; Hood's Division
+    [CS]
+TN022:
+  CS:
+    description: cavalry division (2,500)
+    strength_max: 2500
+    strength_min: 2500
+  US:
+    description: 3rd Cavalry Brigade (850)
+    strength_max: 850
+    strength_min: 850
+  forces_text: 3rd Cavalry Brigade (850) [US]; cavalry division (2,500) [CS]
+TN023:
+  CS:
+    description: Confederate Forces in East Tennessee
+  US:
+    description: Department of the Ohio
+  forces_text: Department of the Ohio [US]; Confederate Forces in East Tennessee [CS]
+TN024:
+  CS:
+    description: Army of Tennessee
+    armies: 1
+  US:
+    description: Military Division of the Mississippi
+  forces_text: Military Division of the Mississippi [US]; Army of Tennessee [CS]
+TN025:
+  CS:
+    description: Confederate Forces in East Tennessee
+  US:
+    description: Department of the Ohio
+  forces_text: Department of the Ohio [US]; Confederate Forces in East Tennessee [CS]
+TN026:
+  CS:
+    description: Confederate Forces in East Tennessee
+  US:
+    description: Cavalry Corps, Department of the Ohio
+    cavalry_corps: 1
+  forces_text: Cavalry Corps, Department of the Ohio [US]; Confederate Forces in East
+    Tennessee [CS]
+TN027:
+  CS:
+    description: Longstreet's Cavalry, Department of East Tennessee (Sturgis reported
+      that the Confederate cavalry was supported by a brigade of infantry; approx.
+      2,000 men)
+    strength_max: 2000
+    strength_min: 2000
+  US:
+    description: Cavalry Corps, Army of the Ohio and 1st Brigade, 2nd Division, XXIII
+      Army Corps
+    cavalry_corps: 1
+  forces_text: Cavalry Corps, Army of the Ohio and 1st Brigade, 2nd Division, XXIII
+    Army Corps [US]; Longstreet's Cavalry, Department of East Tennessee (Sturgis reported
+    that the Confederate cavalry was supported by a brigade of infantry; approx. 2,000
+    men) [CS]
+TN028:
+  CS:
+    description: Department of East Tennessee
+  US:
+    description: Cavalry Corps, Army of the Ohio, and Infantry of the IV Army Corps
+    cavalry_corps: 1
+    corps: 1
+  forces_text: Cavalry Corps, Army of the Ohio, and Infantry of the IV Army Corps
+    [US]; Department of East Tennessee [CS]
+TN029:
+  CS:
+    description: Cavalry Division, Department of East Tennessee
+    cavalry_divisions: 1
+  US:
+    description: Cavalry Division, Cavalry Corps, Army of the Ohio
+    cavalry_divisions: 1
+  forces_text: Cavalry Division, Cavalry Corps, Army of the Ohio [US]; Cavalry Division,
+    Department of East Tennessee [CS]
+TN030:
+  CS:
+    description: Brig. Gen. James R. Chalmers's 1st Division, Forrest's Cavalry Corps
+    divisions: 1
+  US:
+    description: Detachments from three units (approx. 600)
+    strength_max: 600
+    strength_min: 600
+  forces_text: Detachments from three units (approx. 600) [US]; Brig. Gen. James R.
+    Chalmers's 1st Division, Forrest's Cavalry Corps [CS]
+TN031:
+  CS:
+    description: Forrest's Cavalry (approx. 400)
+    strength_max: 400
+    strength_min: 400
+  US:
+    description: Troops stationed at Memphis
+  forces_text: Troops stationed at Memphis [US]; Forrest's Cavalry (approx. 400) [CS]
+TN032:
+  CS:
+    description: Forrest's Cavalry
+  US:
+    description: Supply depot garrison (approx. 4,000)
+    strength_max: 4000
+    strength_min: 4000
+  forces_text: Supply depot garrison (approx. 4,000) [US]; Forrest's Cavalry [CS]
+TN033:
+  CS:
+    description: Department of Western Virginia and East Tennessee (approx. 2,400)
+    strength_max: 2400
+    strength_min: 2400
+  US:
+    description: Governor's Guard Brigade, State of Tennessee
+    brigades: 1
+  forces_text: Governor's Guard Brigade, State of Tennessee [US]; Department of Western
+    Virginia and East Tennessee (approx. 2,400) [CS]
+TN034:
+  CS:
+    description: Army of Tennessee
+    armies: 1
+  US:
+    description: XXIII Army Corps and elements of IV Army Corps
+    corps: 1.5
+  forces_text: XXIII Army Corps and elements of IV Army Corps [US]; Army of Tennessee
+    [CS]
+TN035:
+  CS:
+    description: Army of Tennessee
+    armies: 1
+  US:
+    description: IV and XXIII Army Corps
+    corps: 1
+  forces_text: IV and XXIII Army Corps [US]; Army of Tennessee [CS]
+TN036:
+  CS:
+    description: Army of Tennessee
+    armies: 1
+  US:
+    description: IV and XXIII Army Corps (Army of the Ohio and Cumberland)
+    corps: 1
+  forces_text: IV and XXIII Army Corps (Army of the Ohio and Cumberland) [US]; Army
+    of Tennessee [CS]
+TN037:
+  CS:
+    description: Forrest's Cavalry, Bate's Infantry Division, and Brig. Gen. Claudius
+      Sears's and Brig. Gen. Joseph B. Palmer's Infantry Brigades (6,500-7,000)
+    strength_max: 6500
+    strength_min: 6500
+  US:
+    description: District of Tennessee (forces in Murfreesboro area; approx. 8,000)
+    strength_max: 8000
+    strength_min: 8000
+  forces_text: District of Tennessee (forces in Murfreesboro area; approx. 8,000)
+    [US]; Forrest's Cavalry, Bate's Infantry Division, and Brig. Gen. Claudius Sears's
+    and Brig. Gen. Joseph B. Palmer's Infantry Brigades (6,500-7,000) [CS]
+TN038:
+  CS:
+    description: Army of Tennessee
+    armies: 1
+  US:
+    description: IV Army Corps, XXIII Army Corps, Detachment of Army of the Tennessee,
+      provisional detachment, and cavalry corps
+    corps: 2
+    cavalry_corps: 1
+  forces_text: IV Army Corps, XXIII Army Corps, Detachment of Army of the Tennessee,
+    provisional detachment, and cavalry corps [US]; Army of Tennessee [CS]
+TX001:
+  CS:
+    description: Fort Griffith Garrison (30) and 25 mounted men 3 1/2 miles away
+    strength_max: 55
+    strength_min: 55
+  US:
+    description: Steamer Kensington, Schooner Rachel Seaman, and Mortar Schooner Henry
+      James
+    ships: 3
+  forces_text: Steamer Kensington, Schooner Rachel Seaman, and Mortar Schooner Henry
+    James [US]; Fort Griffith Garrison (30) and 25 mounted men 3 1/2 miles away [CS]
+TX002:
+  CS: {}
+  US: {}
+  forces_text: None
+TX003:
+  CS:
+    description: four Confederate gunboats and district of Texas, New Mexico, and
+      Arizona troops
+    ships: 4
+  US:
+    description: Companies D, G and I, 42nd Massachusetts Volunteer Infantry Regiment
+      and the Blockading ships
+    regiments: 1
+  forces_text: Companies D, G and I, 42nd Massachusetts Volunteer Infantry Regiment
+    and the Blockading ships [US]; four Confederate gunboats and district of Texas,
+    New Mexico, and Arizona troops [CS]
+TX005:
+  CS:
+    description: Detachments from Gidding's Regiment, Anderson's Battalion of Cavalry,
+      and numerous other Confederate units and southern sympathizers
+  US:
+    description: Detachments from the 62nd U.S. Colored Infantry Regiment, 2nd Texas
+      Cavalry Regiment, and 34th Indiana Volunteer Infantry
+    regiments: 1.5
+  forces_text: Detachments from the 62nd U.S. Colored Infantry Regiment, 2nd Texas
+    Cavalry Regiment, and 34th Indiana Volunteer Infantry [US]; Detachments from Gidding's
+    Regiment, Anderson's Battalion of Cavalry, and numerous other Confederate units
+    and southern sympathizers [CS]
+TX006:
+  CS:
+    description: Texan Davis Guards (44 men)
+    strength_max: 44
+    strength_min: 44
+  US:
+    description: 4 gunboats and 7 transports loaded with troops
+    ships: 11
+  forces_text: 4 gunboats and 7 transports loaded with troops [US]; Texan Davis Guards
+    (44 men) [CS]
+VA001:
+  CS:
+    description: battery garrison
+  US:
+    description: Two gunboats
+    gunboats: 2
+  forces_text: Two gunboats [US]; battery garrison [CS]
+VA002:
+  CS:
+    description: battery garrison
+  US:
+    description: 3 gunboats
+    gunboats: 3
+  forces_text: 3 gunboats [US]; battery garrison [CS]
+VA003:
+  CS:
+    description: 1,200
+    strength_max: 1200
+    strength_min: 1200
+  US:
+    description: 3,500
+    strength_max: 3500
+    strength_min: 3500
+  forces_text: 4,700 total (US 3,500; CS 1,200)
+  strength: 4700
+VA004:
+  CS: {brigades: 1}
+  US: {brigades: 1}
+  forces_text: Brigades
+VA005:
+  CS:
+    description: 32,230
+    strength_max: 32230
+    strength_min: 32230
+  US:
+    description: 28,450
+    strength_max: 28450
+    strength_min: 28450
+  forces_text: 60,680 total (US 28,450; CS 32,230)
+  strength: 60680
+VA006:
+  CS:
+    description: 1,600
+    strength_max: 1600
+    strength_min: 1600
+  US:
+    description: 2,000
+    strength_max: 2000
+    strength_min: 2000
+  forces_text: 3,600 total (US 2,000; CS 1,600)
+  strength: 3600
+VA007:
+  CS: {brigades: 1}
+  US: {brigades: 1}
+  forces_text: Brigades
+VA008:
+  CS:
+    description: 1 warship
+    ships: 1
+  US:
+    description: 4 warships
+    ships: 4
+  forces_text: 4 warships [US]; 1 warship [CS]
+VA009:
+  CS: {armies: 1}
+  US: {armies: 1}
+  forces_text: Armies
+VA010:
+  CS:
+    description: 31,823
+    strength_max: 31823
+    strength_min: 31823
+  US:
+    description: 40,768
+    strength_max: 40768
+    strength_min: 40768
+  forces_text: 72,591 total (US 40,768;CS 31,823)
+  strength: 72591
+VA011:
+  CS: {divisions: 1}
+  US: {divisions: 1}
+  forces_text: Divisions
+VA012:
+  CS:
+    description: battery garrison
+  US:
+    description: 5 gunboats
+    gunboats: 5
+  forces_text: 5 gunboats [US]; battery garrison [CS]
+VA013:
+  CS: {divisions: 1}
+  US: {divisions: 1}
+  forces_text: Divisions
+VA014:
+  CS: {}
+  US: {}
+  forces_text: (84,000 total)
+  strength: 84000
+VA015:
+  CS: {corps: 1}
+  US: {corps: 1}
+  forces_text: Corps
+VA016:
+  CS:
+    description: 16,356
+    strength_max: 16356
+    strength_min: 16356
+  US:
+    description: 15,631
+    strength_max: 15631
+    strength_min: 15631
+  forces_text: 31,987 total (US 15,631; CS 16,356)
+  strength: 31987
+VA017:
+  CS:
+    description: 57,018
+    strength_max: 57018
+    strength_min: 57018
+  US:
+    description: 34,214
+    strength_max: 34214
+    strength_min: 34214
+  forces_text: 91,232 total (US 34,214; CS 57,018)
+  strength: 91232
+VA018:
+  CS: {divisions: 1}
+  US: {divisions: 1}
+  forces_text: Divisions
+VA019:
+  CS: {divisions: 1}
+  US: {divisions: 1}
+  forces_text: Divisions
+VA020:
+  CS: {armies: 1}
+  US: {armies: 1}
+  forces_text: Armies
+VA020A:
+  CS: {armies: 1}
+  US: {armies: 1}
+  forces_text: Armies
+VA020B:
+  CS: {armies: 1}
+  US: {armies: 1}
+  forces_text: Armies
+VA021:
+  CS: {armies: 1}
+  US: {armies: 1}
+  forces_text: Armies
+VA022:
+  CS:
+    description: 16,868
+    strength_max: 16868
+    strength_min: 16868
+  US:
+    description: 8,030
+    strength_max: 8030
+    strength_min: 8030
+  forces_text: 24,898 total (US 8,030; CS 16,868)
+  strength: 24898
+VA023:
+  CS: {brigades: 1}
+  US: {brigades: 1}
+  forces_text: Brigades
+VA024:
+  CS: {divisions: 1}
+  US: {divisions: 1}
+  forces_text: Divisions
+VA025:
+  CS: {divisions: 1}
+  US: {divisions: 1}
+  forces_text: Divisions
+VA026:
+  CS: {armies: 1}
+  US: {armies: 1}
+  forces_text: Armies
+VA027:
+  CS: {divisions: 1}
+  US: {divisions: 1}
+  forces_text: Divisions
+VA028:
+  CS:
+    description: 72,497
+    strength_max: 72497
+    strength_min: 72497
+  US:
+    description: 100,007
+    strength_max: 100007
+    strength_min: 100007
+  forces_text: 172,504 total (US 100,007; CS 72,497)
+  strength: 172504
+VA029:
+  CS: {}
+  US: {}
+  forces_text: Divisions (3,000 total)
+  strength: 3000
+VA030:
+  CS: {}
+  US: {}
+  forces_text: Divisions (45,000 total)
+  strength: 45000
+VA031:
+  CS: {}
+  US: {}
+  forces_text: Divisions (45,000 total)
+  strength: 45000
+VA032:
+  CS:
+    description: 57,352
+    strength_max: 57352
+    strength_min: 57352
+  US:
+    description: 97,382
+    strength_max: 97382
+    strength_min: 97382
+  forces_text: 154,734 total (US 97,382; CS 57,352)
+  strength: 154734
+VA033:
+  CS: {corps: 1}
+  US: {corps: 1}
+  forces_text: Corps
+VA034:
+  CS: {corps: 1}
+  US: {corps: 1}
+  forces_text: Corps
+VA035:
+  CS: {}
+  US: {}
+  forces_text: Corps (22,000 total)
+  strength: 22000
+VA036:
+  CS: {brigades: 1}
+  US: {brigades: 1}
+  forces_text: Brigades
+VA037:
+  CS: {divisions: 1}
+  US: {divisions: 1}
+  forces_text: Divisions
+VA038:
+  CS: {divisions: 1}
+  US: {divisions: 1}
+  forces_text: Divisions
+VA039:
+  CS: {brigades: 1}
+  US: {brigades: 1}
+  forces_text: Brigades
+VA040:
+  CS: {corps: 1}
+  US: {corps: 1}
+  forces_text: Corps
+VA041:
+  CS: {brigades: 1}
+  US: {brigades: 1}
+  forces_text: Brigades
+VA042:
+  CS: {divisions: 1}
+  US: {divisions: 1}
+  forces_text: Divisions
+VA043:
+  CS: {corps: 1}
+  US: {corps: 1}
+  forces_text: Corps
+VA044:
+  CS:
+    description: 44,426
+    strength_max: 44426
+    strength_min: 44426
+  US:
+    description: 69,643
+    strength_max: 69643
+    strength_min: 69643
+  forces_text: 'Armies: 114,069 total (US 69,643; CS 44,426)'
+  strength: 114069
+VA045:
+  CS: {divisions: 1}
+  US: {divisions: 1}
+  forces_text: Divisions
+VA046:
+  CS:
+    description: 61,025
+    strength_max: 61025
+    strength_min: 61025
+  US:
+    description: 101,895
+    strength_max: 101895
+    strength_min: 101895
+  forces_text: 162,920 total (US 101,895; CS 61,025)
+  strength: 162920
+VA047:
+  CS: {divisions: 1}
+  US: {divisions: 1}
+  forces_text: Divisions
+VA048:
+  CS:
+    description: 52,000
+    strength_max: 52000
+    strength_min: 52000
+  US:
+    description: 100,000
+    strength_max: 100000
+    strength_min: 100000
+  forces_text: 152,000 total (US 100,000; CS 52,000)
+  strength: 152000
+VA049:
+  CS: {}
+  US: {}
+  forces_text: Divisions (total 10,000)
+  strength: 10000
+VA050:
+  CS: {divisions: 1}
+  US: {divisions: 1}
+  forces_text: Divisions
+VA051:
+  CS: {divisions: 1}
+  US: {divisions: 1}
+  forces_text: Divisions
+VA052:
+  CS: {brigades: 1}
+  US: {brigades: 1}
+  forces_text: Divisions
+VA053:
+  CS:
+    description: 18,000
+    strength_max: 18000
+    strength_min: 18000
+  US:
+    description: 30,000
+    strength_max: 30000
+    strength_min: 30000
+  forces_text: 48,000 total (US 30,000; CS 18,000)
+  strength: 48000
+VA054:
+  CS: {}
+  US: {}
+  forces_text: Divisions (10,000 total)
+  strength: 10000
+VA055:
+  CS: {armies: 1}
+  US: {armies: 1}
+  forces_text: Armies
+VA056:
+  CS: {brigades: 1}
+  US: {brigades: 1}
+  forces_text: Brigades
+VA057:
+  CS: {corps: 1}
+  US: {corps: 1}
+  forces_text: Corps
+VA058:
+  CS: {divisions: 1}
+  US: {divisions: 1}
+  forces_text: Divisions
+VA059:
+  CS: {brigades: 1}
+  US: {brigades: 1}
+  forces_text: Brigades
+VA062:
+  CS:
+    description: 62,000
+    strength_max: 62000
+    strength_min: 62000
+  US:
+    description: 108,000
+    strength_max: 108000
+    strength_min: 108000
+  forces_text: 170,000 total (US 108,000; CS 62,000)
+  strength: 170000
+VA063:
+  CS:
+    description: 42,000
+    strength_max: 42000
+    strength_min: 42000
+  US:
+    description: 62,000
+    strength_max: 62000
+    strength_min: 62000
+  forces_text: 104,000 total (US 62,000; CS 42,000)
+  strength: 104000
+VA064:
+  CS: {}
+  US: {}
+  forces_text: Corps (44,000 total)
+  strength: 44000
+VA065:
+  CS: {corps: 1}
+  US: {corps: 1}
+  forces_text: Corps
+VA066:
+  CS: {divisions: 1}
+  US: {divisions: 1}
+  forces_text: Divisions
+VA067:
+  CS: {divisions: 1}
+  US: {divisions: 1}
+  forces_text: Divisions
+VA068:
+  CS: {divisions: 1}
+  US: {divisions: 1}
+  forces_text: Divisions
+VA069:
+  CS: {corps: 1}
+  US: {corps: 1}
+  forces_text: Corps
+VA070:
+  CS:
+    description: elements of the Army of Northern Virginia
+  US:
+    description: IX Corps
+  forces_text: IX Corps [US]; elements of the Army of Northern Virginia [CS]
+VA071:
+  CS: {corps: 1}
+  US: {corps: 1}
+  forces_text: Corps
+VA072:
+  CS: {}
+  US: {}
+  forces_text: Corps (34,300 total)
+  strength: 34300
+VA073:
+  CS: {corps: 1}
+  US: {corps: 1}
+  forces_text: Corps
+VA074:
+  CS: {corps: 1}
+  US: {corps: 1}
+  forces_text: Corps
+VA075:
+  CS: {armies: 1}
+  US: {armies: 1}
+  forces_text: Armies
+VA076:
+  CS: {}
+  US: {}
+  forces_text: Divisions (11,000 total)
+  strength: 11000
+VA077:
+  CS: {corps: 1}
+  US: {corps: 1}
+  forces_text: Corps
+VA078:
+  CS: {corps: 1}
+  US: {corps: 1}
+  forces_text: Corps
+VA079:
+  CS: {}
+  US: {}
+  forces_text: Corps (35,000 total)
+  strength: 35000
+VA080:
+  CS: {corps: 1}
+  US: {corps: 1}
+  forces_text: Corps
+VA081:
+  CS: {divisions: 1}
+  US: {divisions: 1}
+  forces_text: Divisions
+VA082:
+  CS: {divisions: 1}
+  US: {divisions: 1}
+  forces_text: Divisions
+VA083:
+  CS:
+    description: 13,835
+    strength_max: 13835
+    strength_min: 13835
+  US:
+    description: 34,517
+    strength_max: 34517
+    strength_min: 34517
+  forces_text: 48,352 total (US 34,517; CS 13,835)
+  strength: 48352
+VA084:
+  CS: {corps: 1}
+  US: {corps: 1}
+  forces_text: Corps
+VA085:
+  CS: {corps: 1}
+  US: {corps: 1}
+  forces_text: Corps
+VA086:
+  CS:
+    description: 20,030
+    strength_max: 20030
+    strength_min: 20030
+  US:
+    description: 45,247
+    strength_max: 45247
+    strength_min: 45247
+  forces_text: 65,277 total (US 45,247; CS 20,030)
+  strength: 65277
+VA087:
+  CS: {corps: 1}
+  US: {corps: 1}
+  forces_text: Corps
+VA088:
+  CS: {corps: 1}
+  US: {corps: 1}
+  forces_text: Corps
+VA089:
+  CS: {armies: 1}
+  US: {armies: 1}
+  forces_text: Armies
+VA090:
+  CS: {divisions: 1}
+  US: {divisions: 1}
+  forces_text: Divisions
+VA091:
+  CS: {divisions: 1}
+  US: {divisions: 1}
+  forces_text: Divisions
+VA092:
+  CS: {corps: 1}
+  US: {corps: 1}
+  forces_text: Corps
+VA093:
+  CS: {corps: 1}
+  US: {corps: 1}
+  forces_text: Corps
+VA094:
+  CS: {corps: 1}
+  US: {corps: 1}
+  forces_text: Corps
+VA095:
+  CS: {divisions: 1}
+  US: {divisions: 1}
+  forces_text: Divisions
+VA096:
+  CS: {divisions: 1}
+  US: {divisions: 1}
+  forces_text: Divisions
+VA097:
+  CS: {armies: 1}
+  US: {armies: 1}
+  forces_text: Armies
+VA098:
+  CS:
+    description: 2,500
+  US:
+    description: 4,500
+    strength_max: 4500
+    strength_min: 4500
+  forces_text: 7,000 total (US 4,500; CS 2,500)
+  strength: 7000
+VA099:
+  CS: {divisions: 1}
+  US: {divisions: 1}
+  forces_text: Divisions
+VA100:
+  CS:
+    description: battery garrison
+  US:
+    description: Two gunboats
+    gunboats: 2
+  forces_text: Two gunboats [US]; battery garrison [CS]
+VA101:
+  CS:
+    description: 3,800
+    strength_max: 3800
+    strength_min: 3800
+  US:
+    description: 8,500
+    strength_max: 8500
+    strength_min: 8500
+  forces_text: 12,300 total (US 8,500; CS 3,800)
+  strength: 12300
+VA102:
+  CS:
+    description: 6,000
+    strength_max: 6000
+    strength_min: 6000
+  US:
+    description: 6,500
+    strength_max: 6500
+    strength_min: 6500
+  forces_text: 12,500 total (US 6,500; CS 6,000)
+  strength: 12500
+VA103:
+  CS:
+    description: 3,000
+    strength_max: 3000
+    strength_min: 3000
+  US:
+    description: 1,063
+    strength_max: 1063
+    strength_min: 1063
+  forces_text: 4,063 total (US 1,063; CS 3,000)
+  strength: 4063
+VA104:
+  CS:
+    description: 16,000
+    strength_max: 16000
+    strength_min: 16000
+  US:
+    description: 6,500
+    strength_max: 6500
+    strength_min: 6500
+  forces_text: 22,500 total (US 6,500; CS 16,000)
+  strength: 22500
+VA105:
+  CS:
+    description: 5,800
+    strength_max: 5800
+    strength_min: 5800
+  US:
+    description: 11,500
+    strength_max: 11500
+    strength_min: 11500
+  forces_text: 17,300 total (US 11,500; CS 5,800)
+  strength: 17300
+VA106:
+  CS:
+    description: 6,000
+    strength_max: 6000
+    strength_min: 6000
+  US:
+    description: 3,500
+    strength_max: 3500
+    strength_min: 3500
+  forces_text: 9,500 total (US 3,500; CS 6,000)
+  strength: 9500
+VA107:
+  CS:
+    description: 12,500
+    strength_max: 12500
+    strength_min: 12500
+  US:
+    description: 7,000
+    strength_max: 7000
+    strength_min: 7000
+  forces_text: 19,500 total (US 7,000; CS 12,500)
+  strength: 19500
+VA108:
+  CS: {divisions: 1}
+  US: {divisions: 1}
+  forces_text: Divisions
+VA109:
+  CS: {brigades: 1}
+  US: {brigades: 1}
+  forces_text: Brigades
+VA110:
+  CS:
+    description: 4,090
+    strength_max: 4090
+    strength_min: 4090
+  US:
+    description: 6,275
+    strength_max: 6275
+    strength_min: 6275
+  forces_text: 10,365 total (US 6,275; CS 4,090)
+  strength: 10365
+VA111:
+  CS:
+    description: 5,500
+    strength_max: 5500
+    strength_min: 5500
+  US:
+    description: 8,500
+    strength_max: 8500
+    strength_min: 8500
+  forces_text: 14,000 total (US 8,500; CS 5,500)
+  strength: 14000
+VA113:
+  CS: {}
+  US: {}
+  forces_text: Divisions (4,000 total)
+  strength: 4000
+VA114:
+  CS:
+    description: 8,000
+    strength_max: 8000
+    strength_min: 8000
+  US:
+    description: 5,000
+    strength_max: 5000
+    strength_min: 5000
+  forces_text: 13,000 total (US 5,000; CS 8,000)
+  strength: 13000
+VA115:
+  CS: {}
+  US: {}
+  forces_text: Divisions(5,850 total)
+  strength: 5850
+VA116:
+  CS:
+    description: 13,000
+    strength_max: 13000
+    strength_min: 13000
+  US:
+    description: 10,000
+    strength_max: 10000
+    strength_min: 10000
+  forces_text: 23,000 total (US 10,000; CS 13,000)
+  strength: 23000
+VA117:
+  CS: {divisions: 1}
+  US: {divisions: 1}
+  forces_text: Divisions
+VA118:
+  CS: {corps: 1}
+  US: {corps: 1}
+  forces_text: Corps
+VA119:
+  CS:
+    description: 15,200
+    strength_max: 15200
+    strength_min: 15200
+  US:
+    description: 39,240
+    strength_max: 39240
+    strength_min: 39240
+  forces_text: 54,440 total(US 39,240; CS 15,200)
+  strength: 54440
+VA120:
+  CS:
+    description: 9,500
+    strength_max: 9500
+    strength_min: 9500
+  US:
+    description: 29,444
+    strength_max: 29444
+    strength_min: 29444
+  forces_text: 38,944 total (US 29,444; CS 9,500)
+  strength: 38944
+VA121:
+  CS:
+    description: 3,500
+    strength_max: 3500
+    strength_min: 3500
+  US:
+    description: 6,300
+    strength_max: 6300
+    strength_min: 6300
+  forces_text: 9,800 total (US 6,300; CS 3,500)
+  strength: 9800
+VA122:
+  CS:
+    description: 21,000
+    strength_max: 21000
+    strength_min: 21000
+  US:
+    description: 31,945
+    strength_max: 31945
+    strength_min: 31945
+  forces_text: 52,945 total (US 31,945; CS 21,000)
+  strength: 52945
+VA123:
+  CS:
+    description: 1,600
+    strength_max: 1600
+    strength_min: 1600
+  US:
+    description: 2,500
+    strength_max: 2500
+    strength_min: 2500
+  forces_text: 4,100 total (US 2,500; CS 1,600)
+  strength: 4100
+VA124:
+  CS: {brigades: 1}
+  US: {brigades: 1}
+  forces_text: Brigades
+VA125:
+  CS: {brigades: 1}
+  US: {brigades: 1}
+  forces_text: Brigades
+WV001:
+  CS: {brigades: 1}
+  US: {brigades: 1}
+  forces_text: Brigades
+WV002:
+  CS: {brigades: 1}
+  US: {brigades: 1}
+  forces_text: Brigades
+WV003:
+  CS: {brigades: 1}
+  US: {brigades: 1}
+  forces_text: Brigades
+WV004:
+  CS: {brigades: 1}
+  US: {brigades: 1}
+  forces_text: Brigades
+WV005:
+  CS: {brigades: 1}
+  US: {brigades: 1}
+  forces_text: Brigades
+WV006:
+  CS: {brigades: 1}
+  US: {brigades: 1}
+  forces_text: Brigades
+WV007:
+  CS: {brigades: 1}
+  US: {brigades: 1}
+  forces_text: Brigades
+WV008:
+  CS: {brigades: 1}
+  US: {brigades: 1}
+  forces_text: Brigades
+WV009:
+  CS:
+    description: Army of East Kentucky and Col. Gabriel C. Wharton's Brigade, Department
+      of Southwest Virginia
+  US:
+    description: District of the Kanawha
+  forces_text: District of the Kanawha [US]; Army of East Kentucky and Col. Gabriel
+    C. Wharton's Brigade, Department of Southwest Virginia [CS]
+WV010:
+  CS: {corps: 1}
+  US: {corps: 1}
+  forces_text: Corps
+WV012:
+  CS: {brigades: 1}
+  US: {brigades: 1}
+  forces_text: Brigades
+WV013:
+  CS: {divisions: 1}
+  US: {divisions: 1}
+  forces_text: Divisions
+WV014:
+  CS: {divisions: 1}
+  US: {divisions: 1}
+  forces_text: Divisions
+WV015:
+  CS: {divisions: 1}
+  US: {divisions: 1}
+  forces_text: Divisions
+WV016:
+  CS: {brigades: 1}
+  US: {brigades: 1}
+  forces_text: Brigades

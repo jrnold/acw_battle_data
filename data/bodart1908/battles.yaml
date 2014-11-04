@@ -1,0 +1,2024 @@
+Antietam (September 17, 1862):
+  category: [battle]
+  description: null
+  end_date: &id001 1862-09-17
+  location: "Linker Nebenflu\xDF des Potomac in Marylang, m\xFCndet unterhalb Sharpsburg,\
+    \ 25 km n\xF6rdl. von Harper's Ferry."
+  loser:
+    casualties: 11200
+    casualties_generals: 11
+    casualties_officers: 837
+    casualties_percent: 28.0
+    commander: {name: R. Lee, rank: Gen.}
+    country: Confederacy
+    generals_killed:
+    - {name: Brig.-Gen. G. B. Anderson}
+    - {name: Brig.-Gen. L. O. Branch}
+    - {name: Brig.-Gen. W. E. Starke}
+    killed: 1510
+    killed_generals: 3
+    killed_officers: 149
+    killed_percent: 3.8
+    killed_wounded: 9400
+    killed_wounded_generals: 11
+    killed_wounded_officers: 787
+    killed_wounded_percent: 23.5
+    missing: 1800
+    missing_officers: 50
+    missing_percent: 4.5
+    strength: 50000
+    strength_engaged: 40000
+    wounded_generals: 8
+    wounded_officers: 638
+    wounded_percent: 19.7
+  name: Antietam
+  order: 2
+  other_name: [Sharpsburg]
+  page: 527
+  start_date: *id001
+  victor:
+    casualties: 12500
+    casualties_generals: 13
+    casualties_officers: 613
+    casualties_percent: 20.9
+    commander: {name: S. B. Mc Clellan, rank: Gen.}
+    country: Union
+    generals_killed:
+    - {name: GM. J. K. F. Mansfield}
+    - {name: GM. J. B. Richardson}
+    - {name: B.-G. J. P. Rodman}
+    killed: 2100
+    killed_generals: 3
+    killed_officers: 139
+    killed_percent: 3.5
+    killed_wounded: 11700
+    killed_wounded_generals: 12
+    killed_wounded_officers: 606
+    killed_wounded_percent: 19.5
+    missing: 800
+    missing_generals: 1
+    missing_officers: 7
+    missing_percent: 1.4
+    strength: 85000
+    strength_engaged: 60000
+    wounded_generals: 9
+    wounded_officers: 467
+    wounded_percent: 16.0
+Appomattox-Court-House (April 09, 1865):
+  category: [surrender]
+  description: "Die Unionsarmee (ca. 100.000 M.) unter Gen.-Lt. U. S. Grant zwingt\
+    \ die virginische\nHauptarmee der Kon\xF6derierten (28.000 M., 63 Gesch.) unter\
+    \ Gen. R. Lee zur Kapitulation,\nwonach die konf\xF6derierten Truppen (nur mehr\
+    \ 8.000 Bewaffnete) nach Wafftenstreckung und\nehrenw\xF6rtlichem Versprechen,\
+    \ nicht mehr gegen die Unionsarmee zu dienen, frei in ihre\nHeimat abzihen durften.\n"
+  end_date: &id002 1865-04-09
+  location: "Ort in Virginia, am rechten Ufer des Appomattox [ rechter Nebenflu\xDF\
+    \ des James River], 120 km westl. von Richmond."
+  loser:
+    captured: 8000
+    commander: {country: "Confederacy", name: R. Lee, rank: Gen.}
+    country: Confederacy
+    guns: 63
+    strength: 28000
+  name: Appomattox-Court-House
+  order: null
+  other_name: []
+  page: 542
+  start_date: *id002
+  victor:
+    commander: {country: Union, name: U. S. Grant, rank: Gen.-Lt.}
+    country: Union
+    strength: 100000
+Arkansas_Post (January 11, 1863):
+  category: [meeting, surrender]
+  description: null
+  end_date: &id003 1863-01-11
+  location: "Verschanztes Lager der Konf\xF6derierte am linken Ufer des Arkansas-River\
+    \ im Staate Arkansas, 100 km s\xFCd\xF6stl. von Little Rock"
+  loser:
+    captured: 4800
+    casualties: 5000
+    casualties_percent: 100
+    commander: {country: "Confederacy", name: Churchill, rank: Brig.-Gen.}
+    country: Confederacy
+    killed_wounded: 200
+    strength: 5000
+  name: Arkansas Post
+  order: 4
+  other_name: [Fort Hindman]
+  page: 530
+  start_date: *id003
+  victor:
+    casualties: 1100
+    casualties_percent: 4.2
+    commander: {country: Union, name: Mc Clernand, rank: GM.}
+    country: Union
+    killed_wounded: 1100
+    strength: 28000
+Atlanta (July 22, 1864):
+  category: [battle]
+  description: null
+  end_date: &id004 1864-07-22
+  location: "Hauptstadt des Staates Georgia, 880 km s\xFCdwestl. von Washington"
+  loser:
+    casualties: 8500
+    casualties_percent: 21.5
+    commander: {name: J. B. Hood, rank: Gen.}
+    country: Confederacy
+    generals_killed:
+    - {country: "Confederacy", name: W. H. T. Walker, rank: GM.}
+    strength: 40000
+  name: Atlanta
+  order: 3
+  other_name: []
+  page: 538
+  start_date: *id004
+  victor:
+    casualties: 4000
+    casualties_percent: 5.7
+    commander: {name: W. T. Sherman, rank: GM.}
+    country: Union
+    generals_killed:
+    - {country: Union, name: J. B. Mc Pherson, rank: GM.}
+    - {country: Union, name: D. Mc Cook, rank: B.-G.}
+    strength: 70000
+Bentonville (March 05, 1865):
+  category: [battle]
+  description: null
+  end_date: &id005 1865-03-20
+  location: "Dorf in Nord-Carolina, ca. 60 km. s\xFCd\xF6stl. von Raleigh."
+  loser:
+    casualties: 3300
+    casualties_percent: 11.0
+    commander: {name: J. Johnston, rank: Gen.}
+    country: Confederacy
+    killed_wounded: 1700
+    killed_wounded_percent: 5.7
+    missing: 1600
+    missing_percent: 5.3
+    strength: 30000
+  name: Bentonville
+  order: 4
+  other_name: []
+  page: 541
+  start_date: *id005
+  victor:
+    casualties: 1700
+    casualties_generals: 1
+    casualties_officers: 85
+    casualties_percent: 2.9
+    commander: {name: W. T. Sherman, rank: GM.}
+    country: Union
+    killed_wounded: 1500
+    killed_wounded_generals: 1
+    killed_wounded_officers: 78
+    killed_wounded_percent: 2.6
+    missing: 200
+    missing_officers: 7
+    missing_percent: 0.3
+    strength: 60000
+Boonsborough (September 14, 1862):
+  category: [meeting]
+  description: null
+  end_date: &id006 1862-09-14
+  location: Dorf in Maryland, 22 km nordl. von Sharpsburg.
+  loser:
+    casualties: 2100
+    casualties_percent: 14.0
+    commander: {name: Longstreet, rank: Gen.-Lt.}
+    country: Confederacy
+    generals_killed:
+    - {country: "Confederacy", name: S. Garland, rank: Brig.-Gen.}
+    killed: 300
+    killed_wounded: 1600
+    killed_wounded_percent: 10.7
+    missing: 500
+    missing_percent: 3.3
+    strength: 15000
+  name: Boonsborough
+  order: 5
+  other_name: [South-Mountain]
+  page: 527
+  start_date: *id006
+  victor:
+    casualties: 1900
+    casualties_generals: 2
+    casualties_officers: 81
+    casualties_percent: 8
+    commander: {name: Mc. Clellan, rank: Gen.}
+    country: Union
+    generals_killed:
+    - {country: Union, name: J. L. Reno, rank: GM.}
+    killed: 350
+    killed_generals: 1
+    killed_officers: 13
+    killed_wounded: 1800
+    killed_wounded_generals: 2
+    killed_wounded_officers: 79
+    missing: 100
+    missing_officers: 2
+    strength: 24000
+    wounded_generals: 1
+    wounded_officers: 66
+Bull-Run (August 29, 1862):
+  category: [battle]
+  description: null
+  end_date: 1862-08-30
+  location: "Kleiner Nebenflu\xDF des Potomac in Virginien, 45 km s\xFCdwestl. von\
+    \ Washington\n"
+  loser:
+    casualties: 14500
+    casualties_generals: 10
+    casualties_officers: 699
+    casualties_percent: 24.2
+    commander: {name: J. Pope, rank: Gen.}
+    country: Union
+    generals_killed:
+    - {name: P. Kearny, rank: GM.}
+    - {name: J. Stevens, rank: GM.}
+    - {name: H. Bohlen, rank: B.-G.}
+    - {name: W. Taylor, rank: B.-G.}
+    killed: 1700
+    killed_generals: 4
+    killed_officers: 132
+    killed_percent: 2.8
+    killed_wounded: 10200
+    killed_wounded_generals: 10
+    killed_wounded_officers: 593
+    killed_wounded_percent: 17.0
+    missing: 4300
+    missing_officers: 106
+    missing_percent: 17.2
+    strength: 70000
+    wounded_generals: 6
+    wounded_officers: 461
+    wounded_percent: 14.2
+  name: Bull Run
+  order: 2
+  other_name: [Manassas-Junction]
+  page: 526
+  start_date: 1862-08-29
+  victor:
+    casualties: 9500
+    casualties_generals: 4
+    casualties_officers: 829
+    casualties_percent: 18.9
+    commander: {name: R. Lee, rank: Gen.}
+    country: Confederacy
+    killed: 1550
+    killed_officers: 141
+    killed_percent: 3.0
+    killed_wounded: 9400
+    killed_wounded_generals: 4
+    killed_wounded_officers: 828
+    killed_wounded_percent: 18.7
+    missing: 100
+    missing_officers: 1
+    missing_percent: 0.2
+    strength: 50000
+    wounded_generals: 4
+    wounded_officers: 687
+    wounded_percent: 15.7
+Bull-Run (July 21, 1861):
+  category: [battle]
+  description: "Sieg der Confederacyn (S\xFCdstaaten) 32.000 M., 44 Gesch., unter\
+    \ Gen. Beauregard \xFCber die Unierten (Nordstaaten) 35.000 M., 49 Gesch., unter\
+    \ GM. Mc. Dowell. Es kamen in den Kampf 18.000 Konf\xF6derirte (1.300 Reiter)\
+    \ gegen 19.000 Unierte."
+  end_date: &id007 1861-07-21
+  location: "Kleiner Nebenflu\xDF des Potomac in den Vereinigten Staaten von Nodramerika,\
+    \ Virginia; die Schlacht fand an beiden Flu\xDFufern, ca. 35-45 km. s\xFCdwestl.\
+    \ von Washington statt)."
+  loser:
+    casualties: 2900
+    casualties_guns: 4000
+    casualties_officers: 144
+    casualties_percent: 15.2
+    commander: {name: Mc. Dowell, rank: GM.}
+    country: Union
+    guns: 49
+    killed: 470
+    killed_officers: 16
+    killed_wounded: 1600
+    killed_wounded_officers: 94
+    killed_wounded_percent: 8.3
+    losses_caissons: 37
+    losses_cannon: 27
+    losses_munition_wagons: 4
+    missing: 1300
+    missing_officers: 50
+    missing_percent: 6.9
+    strength: 35000
+    strength_engaged: 19000
+    wounded_officers: 78
+  name: Bull-Run
+  order: 4
+  other_name: [Manassas-Junction]
+  page: 522
+  start_date: *id007
+  victor:
+    casualties: 2000
+    casualties_officers: 89
+    casualties_percent: 11
+    commander: {name: Beauregard, rank: Gen.}
+    country: Confederacy
+    generals_killed:
+    - {country: "Confederacy", name: Bee, rank: Brig-Gen.}
+    guns: 44
+    killed: 400
+    killed_officers: 26
+    killed_wounded: 2000
+    killed_wounded_officers: 89
+    killed_wounded_percent: 11
+    strength: 32000
+    strength_engaged: 18000
+    wounded_officers: 63
+Cedar_Mountain (August 09, 1862):
+  category: [meeting]
+  description: "Sieg der Konf\xF6derierte (20.000 M.) unter Gen.-Lt. T. J. Jackson\
+    \ \xFCber die Unierte\n(18.000 M.) unter GM. Banks.\n"
+  end_date: &id008 1862-08-09
+  location: "Berg in Virginia, am Cedar Creek, Nebenflu\xDF des Shenandoah, 75 km\
+    \ westl. von Washington.\n"
+  loser:
+    casualties: 2500
+    casualties_generals: 3
+    casualties_officers: 165
+    casualties_percent: 14
+    commander: {name: Banks, rank: GM.}
+    country: Union
+    killed: 330
+    killed_officers: 26
+    killed_wounded: 1800
+    killed_wounded_generals: 2
+    killed_wounded_officers: 128
+    killed_wounded_percent: 10
+    missing: 700
+    missing_generals: 1
+    missing_officers: 37
+    missing_percent: 4
+    strength: 18000
+    wounded_generals: 2
+    wounded_officers: 102
+  name: Cedar Mountain
+  order: 5
+  other_name: []
+  page: 525
+  start_date: *id008
+  victor:
+    casualties: 1300
+    casualties_percent: 6.5
+    commander: {name: T. J. Jackson, rank: Gen.-Lt.}
+    country: Confederacy
+    generals_killed:
+    - {name: Brig. Gen. C. S. Winder}
+    killed: 230
+    killed_wounded: 1300
+    killed_wounded_percent: 6.5
+    strength: 20000
+Champion's_Hill (May 16, 1863):
+  category: [battle]
+  description: null
+  end_date: &id009 1863-05-16
+  location: "Berg im Staate Mississippi, 30 km \xF6stl. von Vicksburg."
+  loser:
+    casualties: 6000
+    casualties_percent: 33.3
+    commander: {name: Pemberton, rank: Gen.-Lt.}
+    country: Confederacy
+    generals_killed:
+    - {name: B.-G. L. Tilghman}
+    killed_wounded: 3000
+    killed_wounded_percent: 16.6
+    losses_canons: 11
+    losses_munition_wagons: 28
+    missing: 3000
+    missing_percent: 16.7
+    strength: 18000
+  name: Champion's Hill
+  order: 4
+  other_name: [Baker's Creek]
+  page: 531
+  start_date: *id009
+  victor:
+    casualties: 2500
+    casualties_officers: 139
+    casualties_percent: 8.4
+    commander: {name: U. S. Grant, rank: GM.}
+    country: Union
+    killed: 450
+    killed_officers: 27
+    killed_wounded: 2300
+    killed_wounded_officers: 135
+    killed_wounded_percent: 7.7
+    missing: 200
+    missing_officers: 4
+    missing_percent: 0.7
+    strength: 30000
+    wounded_officers: 108
+Chancellorsville (May 03, 1863):
+  category: [battle]
+  description: null
+  end_date: 1863-05-05
+  location: Stadt in Virginia, 15 km westl. von Fredericksburg
+  loser:
+    casualties: 17400
+    casualties_generals: 12
+    casualties_officers: 990
+    casualties_percent: 14.5
+    commander: {name: Hooker, rank: GM.}
+    country: Union
+    generals_killed:
+    - {name: H. G. Berry, rank: GM.}
+    - {name: A. W. Whipple, rank: GM.}
+    - {name: E. Kirby, rank: B.-G.}
+    guns: 404
+    killed: 1600
+    killed_generals: 3
+    killed_officers: 163
+    killed_percent: 1.3
+    killed_wounded: 11400
+    killed_wounded_generals: 11
+    killed_wounded_officers: 819
+    killed_wounded_percent: 9.5
+    losses_canons: 120
+    losses_flags: 17
+    missing: 6000
+    missing_generals: 1
+    missing_officers: 171
+    missing_percent: 5.0
+    strength: 130000
+    wounded_generals: 3
+    wounded_officers: 656
+    wounded_percent: 8.2
+  name: Chancellorsville
+  order: 1
+  other_name: []
+  page: 530
+  start_date: 1863-05-03
+  victor:
+    casualties: 12800
+    casualties_generals: 10
+    casualties_percent: 16.0
+    commander: {name: R. Lee, rank: Gen.}
+    country: Confederacy
+    generals_killed:
+    - {name: T. J. Jackson, rank: Gen.-Lt.}
+    - {name: E. F. Paxton, rank: B.-G.}
+    guns: 170
+    killed: 1700
+    killed_generals: 2
+    killed_percent: 2.1
+    killed_wounded: 10800
+    killed_wounded_generals: 10
+    killed_wounded_percent: 13.5
+    losses_canons: 7
+    missing: 2000
+    missing_percent: 2.5
+    strength: 80000
+    wounded_generals: 8
+    wounded_percent: 11.4
+Charleston (April 01, 1863):
+  category: [siege]
+  description: "Die Konf\xF6derierte unter Gen. Beauregard behaupten sich erfolgreich\
+    \ gegen alle\nAngriffe der Unierten zu Lande und zur See unter Generalen Hunter\
+    \ und Gillmore\nsowie den Admiralen Dupont und Dahlgreen. Am 18. Februar 1865\
+    \ wurde auf Lee's\nBefehl Charleston von den konf\xF6derierten Truppen freiwillig\
+    \ ger\xE4umt, worauf die durch das\nBombardament teilweise zerst\xF6rte Stadt\
+    \ sich den Unierten ergab.\n"
+  end_date: 1865-02-18
+  location: "Bedeutendste Hafenstadt S\xFCd-Carolinas."
+  loser:
+    commander:
+    - {name: Beauregard, rank: Gen.}
+    country: Confederacy
+  name: Charleston
+  order: null
+  other_name: []
+  page: 540
+  start_date: 1863-04-01
+  victor:
+    commander:
+    - {name: Hunter, rank: Gen.}
+    - {name: Gillmore, rank: Gen.}
+    - {name: Dupont, rank: Adm.}
+    - {name: Dahlgreen, rank: Adm.}
+    country: Union
+Chickahominy (June 25, 1862):
+  category: [battle]
+  description: null
+  end_date: 1862-07-01
+  location: "Der chickahominy, an dessen sumpfigen Ufern die siebent\xE4gige Schlaeht\
+    \ geschlagen\nwurde, ist ein linker Nebenflu\xDF des James River in Virginien;\
+    \ das Schlachtfeld 10 km n\xF6rdl.,\n20-25 km \xF6stl. und s\xFCd\xF6stl. von\
+    \ Richmond.\n"
+  loser:
+    casualties: 16000
+    casualties_generals: 5
+    casualties_officers: 678
+    casualties_percent: 15.2
+    cavalry: 7000
+    commander: {name: Mc. Clellan, rank: Gen.-Lt.}
+    country: Union
+    guns: 340
+    infantry: 99000
+    killed: 1700
+    killed_officers: 103
+    killed_percent: 1.6
+    killed_wounded: 10000
+    killed_wounded_generals: 3
+    killed_wounded_officers: 515
+    killed_wounded_percent: 9.5
+    missing: 6000
+    missing_generals: 2
+    missing_officers: 163
+    missing_percent: 5.7
+    strength: 106000
+    wounded_generals: 3
+    wounded_officers: 412
+    wounded_percent: 7.9
+  name: Chickahominy
+  order: 1
+  other_name: [Mechanicsville, Gaine's Mill, Cold Harbor, Malvern Hill]
+  page: 525
+  start_date: 1862-06-25
+  victor:
+    casualties: 20000
+    casualties_generals: 5
+    casualties_officers: 1327
+    casualties_percent: 21.2
+    cavalry: 6000
+    commander: {name: R. Lee., rank: Gen.}
+    country: Confederacy
+    guns: 250
+    infantry: 88000
+    killed: 3200
+    killed_officers: 262
+    killed_percent: 3.4
+    killed_wounded: 19000
+    killed_wounded_generals: 5
+    killed_wounded_officers: 1272
+    killed_wounded_percent: 20.2
+    missing: 1000
+    missing_officers: 55
+    missing_percent: 1.0
+    strength: 94000
+    wounded_generals: 5
+    wounded_officers: 1010
+    wounded_percent: 16.8
+Chickamauga (September 19, 1863):
+  category: [battle]
+  description: null
+  end_date: 1863-09-20
+  location: "Linker Nebenflu\xDF des Tennessee; die Schlacht fand an beiden Ufern\
+    \ des Flusses and der Grenze der Staaten Georgia und Tennessee statt."
+  loser:
+    casualties: 16500
+    casualties_generals: 4
+    casualties_officers: 1000
+    casualties_percent: 29.0
+    cavalry: 10000
+    commander: {name: Rosecrans, rank: GM.}
+    country: Union
+    generals_killed:
+    - {country: Union, name: W. H. Lytle, rank: B.-G.}
+    guns: 246
+    infantry: 47000
+    killed: 1700
+    killed_generals: 1
+    killed_officers: 143
+    killed_percent: 3.0
+    killed_wounded: 11500
+    killed_wounded_generals: 4
+    killed_wounded_officers: 752
+    killed_wounded_percent: 20.2
+    losses_cannon: 51
+    missing: 5000
+    missing_officers: 248
+    missing_percent: 8.8
+    strength: 57000
+    wounded_generals: 3
+    wounded_officers: 752
+    wounded_percent: 17.2
+  name: Chickamauga
+  order: 1
+  other_name: []
+  page: 533
+  start_date: 1863-09-19
+  victor:
+    casualties: 17800
+    casualties_generals: 10
+    casualties_percent: 25.4
+    cavalry: 8000
+    commander: {country: "Confederacy", name: B. Bragg, rank: Gen.}
+    country: Confederacy
+    generals_killed:
+    - {country: "Confederacy", name: P. Smith, rank: GM.}
+    - {country: "Confederacy", name: J. Deschler, rank: B.-G.}
+    - {country: "Confederacy", name: B. H. Helm, rank: B.-G.}
+    infantry: 62000
+    killed: 2400
+    killed_generals: 3
+    killed_percent: 3.5
+    killed_wounded: 15800
+    killed_wounded_generals: 10
+    killed_wounded_percent: 22.5
+    losses_cannon: 15
+    missing: 2000
+    missing_percent: 2.9
+    strength: 70000
+    wounded_generals: 7
+    wounded_percent: 19.0
+Chickasaw_Bluffs (January 03, 1863):
+  category: [meeting]
+  description: null
+  end_date: &id010 1863-01-03
+  location: "Verschanzungen der Konf\xF6derierte in Mississippi, 3-10 km nord\xF6\
+    stl. von Vicksburg."
+  loser:
+    casualties: 1800
+    commander: {name: Sherman, rank: GM.}
+    country: Union
+    killed_wounded: 1200
+    missing: 600
+    strength: 33000
+  name: Chickasaw Bluffs
+  order: 6
+  other_name: []
+  page: 530
+  start_date: *id010
+  victor:
+    casualties: 200
+    commander: {name: Pemberton, rank: Gen.-Lt.}
+    country: Confederacy
+    killed_wounded: 200
+    strength: 25000
+Cold_Harbor (June 03, 1864):
+  category: [battle]
+  description: null
+  end_date: &id011 1864-06-03
+  location: "Ort in Virginia, 13 km nord\xF6stl. von Richmond."
+  loser:
+    casualties: 12800
+    casualties_generals: 1
+    casualties_officers: 610
+    casualties_percent: 12.8
+    commander: {name: U. S. Grant, rank: GL.}
+    country: Union
+    killed: 1900
+    killed_officers: 143
+    killed_percent: 1.9
+    killed_wounded: 11000
+    killed_wounded_generals: 1
+    killed_wounded_officers: 575
+    killed_wounded_percent: 11.0
+    missing: 1800
+    missing_officers: 35
+    missing_percent: 1.8
+    strength: 100000
+    wounded_generals: 1
+    wounded_officers: 432
+    wounded_percent: 9.1
+  name: Cold Harbor
+  order: 3
+  other_name: []
+  page: 537
+  start_date: *id011
+  victor:
+    casualties: 1700
+    casualties_percent: 2.7
+    commander: {name: R. Lee, rank: Gen.}
+    country: Confederacy
+    killed: 400
+    killed_percent: 0.5
+    killed_wounded: 1700
+    killed_wounded_percent: 2.7
+    strength: 60000
+    wounded_percent: 2.2
+Corinth (October 03, 1862):
+  category: [battle]
+  description: null
+  end_date: 1862-10-04
+  location: "Stadt im \xE4u\xDFersten Nordosten des Staates Mississippi."
+  loser:
+    casualties: 6000
+    casualties_percent: 27.3
+    commander: {name: Earl van Dorn, rank: Gen.-Lt.}
+    country: Confederacy
+    killed: 500
+    killed_wounded: 2700
+    killed_wounded_percent: 12.3
+    missing: 3300
+    missing_percent: 15.0
+    strength: 22000
+  name: Corinth
+  order: 4
+  other_name: []
+  page: 528
+  start_date: 1862-10-03
+  victor:
+    casualties: 2600
+    casualties_generals: 4
+    casualties_officers: 147
+    casualties_percent: 10.5
+    commander: {name: Rosecrans, rank: GM.}
+    country: Union
+    generals_killed:
+    - {name: Brig.-Gen. P. A. Hackleman}
+    killed: 350
+    killed_generals: 1
+    killed_officers: 27
+    killed_wounded: 2200
+    killed_wounded_generals: 4
+    killed_wounded_officers: 142
+    killed_wounded_percent: 8.0
+    missing: 400
+    missing_officers: 5
+    missing_percent: 1.6
+    strength: 25000
+    wounded_generals: 3
+    wounded_officers: 115
+Drewry's_Bluff (May 16, 1864):
+  category: [meeting]
+  description: null
+  end_date: &id012 1864-05-16
+  location: "Ort in Virginia, am rechten Ufer des James River, 11 km s\xFCdl. von\
+    \ Richmond"
+  loser:
+    captured: 1500
+    casualties: 4500
+    casualties_percent: 15
+    commander: {name: Butler, rank: GM.}
+    country: Union
+    killed_wounded: 3000
+    losses_cannon: 5
+    losses_flags: 5
+    strength: 30000
+  name: Drewry's Bluff
+  order: 4
+  other_name: []
+  page: 536
+  start_date: *id012
+  victor:
+    casualties: 3000
+    casualties_percent: 12
+    commander: {name: Beauregard, rank: Gen.-Lt.}
+    country: Confederacy
+    killed_wounded: 3000
+    strength: 25000
+Durham's-Station (April 25, 1865):
+  category: [surrender]
+  description: "Die Unionstroppen (90.000 M.) unter GM. W. T. Sherman zwingen die\
+    \ Tennessee\nArmee der Konf\xF6derierten (15.200 M.) unter Gen. J. Johnston zur\
+    \ Kapitulation, in\nwelche s\xE4mthche \xFCbrigen konf\xF6derierten Truppen in\
+    \ Nord-Carolina (noch weitere 20.000 M.)\ningeschlossen wurden. Nach Waffenstreckung\
+    \ wurden die Mannschaften in ihre Heimat\nentlassen.\n"
+  end_date: &id013 1865-04-25
+  location: Ort in Nord-Carolina, 30 km nordwestl. von Raleigh.
+  loser:
+    captured: 35200
+    casualties: 35200
+    commander: {name: J. Johnston, rank: Gen.}
+    country: Confederacy
+    missing: 35200
+    strength: 35200
+  name: Durham's-Station
+  order: null
+  other_name: []
+  page: 542
+  start_date: *id013
+  victor:
+    commander: {name: W. T. Sherman, rank: GM.}
+    country: Union
+    strength: 90000
+Ezra-Church (July 28, 1864):
+  category: [battle]
+  description: null
+  end_date: &id014 1864-07-28
+  location: Ord in Georgia, 5 km westl. von Atlanta
+  loser:
+    casualties: 4600
+    casualties_percent: 15.3
+    commander: {name: J. B. Hood, rank: Gen.}
+    country: Confederacy
+    strength: 30000
+  name: Ezra-Church
+  order: 4
+  other_name: [Atlanta]
+  page: 538
+  start_date: *id014
+  victor:
+    casualties: 700
+    casualties_percent: 1.2
+    commander: {name: W. T. Sherman, rank: GM.}
+    country: Union
+    strength: 60000
+Fort_Donelson (February 12, 1862):
+  category: [battle, surrender]
+  description: null
+  end_date: 1862-02-15
+  location: "Verschanzungen der Konf\xF6derierten in Tennessee, am linken Ufer des\
+    \ Cumberlandflusses, n\xF6rdl. von Dover, 110 km. nordwestl. von Nashville"
+  loser:
+    captured: 13000
+    casualties: 15000
+    casualties_guns: 17000
+    casualties_percent: 82
+    commander: {name: Buckner, rank: Brig.-Gen.}
+    country: Confederacy
+    killed_wounded: 2000
+    killed_wounded_percent: 12
+    losses_canons: 65
+    missing: 13000
+    missing_percent: 70
+    strength: 17000
+  name: Fort Donelson
+  order: 3
+  other_name: []
+  page: 523
+  start_date: 1862-02-12
+  victor:
+    casualties: 2900
+    casualties_percent: 10.8
+    commander: {name: Grant, rank: Brig.-Gen.}
+    country: Union
+    killed_wounded: 2660
+    killed_wounded_percent: 9.9
+    missing: 240
+    missing_percent: 0.9
+    strength: 27000
+Franklin (November 30, 1864):
+  category: [battle]
+  description: null
+  end_date: &id015 1864-11-30
+  location: "Dorf in Tennessee, 30 km s\xFCdl. von Nashville."
+  loser:
+    casualties: 2700
+    casualties_percent: 10.0
+    cavalry: 5000
+    commander: {name: Schofield, rank: GM.}
+    country: Union
+    infantry: 22000
+    killed: 200
+    killed_percent: 0.8
+    killed_wounded: 1300
+    killed_wounded_percent: 4.8
+    missing: 1400
+    missing_percent: 5.2
+    strength: 27000
+    wounded_percent: 4.0
+  name: Franklin
+  order: 4
+  other_name: []
+  page: 540
+  start_date: *id015
+  victor:
+    casualties: 6300
+    casualties_generals: 12
+    casualties_percent: 17.2
+    cavalry: 7000
+    commander: {name: J. B. Hood, rank: Gen.}
+    country: Confederacy
+    generals_killed:
+    - {country: "Confederacy", name: P. R. Cleburne, rank: GM.}
+    - {country: "Confederacy", name: J. Adams, rank: B.-G.}
+    - {country: "Confederacy", name: S. R. Gist, rank: B.-G.}
+    - {country: "Confederacy", name: H. B. Gransbury, rank: B.-G.}
+    - {country: "Confederacy", name: O. F. Strahl, rank: B.-G.}
+    infantry: 30000
+    killed: 1750
+    killed_generals: 5
+    killed_percent: 4.7
+    killed_wounded: 5600
+    killed_wounded_generals: 11
+    killed_wounded_percent: 15.2
+    missing: 700
+    missing_generals: 1
+    missing_percent: 2.0
+    strength: 37000
+    wounded_generals: 6
+    wounded_percent: 10.5
+Fredericksburg (December 11, 1862):
+  category: [battle]
+  description: null
+  end_date: 1862-12-15
+  location: "Stadt in Virginia, 80 km s\xFCdwsestl. von Washington"
+  loser:
+    casualties: 13000
+    casualties_generals: 7
+    casualties_officers: 798
+    casualties_percent: 11.2
+    cavalry: 6000
+    commander: {name: A. Burnside, rank: BM.}
+    country: Union
+    generals_killed:
+    - {name: Brig.-Gen. G. D. Bayard}
+    - {name: Brig.-Gen. C. F. Jackson}
+    infantry: 111000
+    killed: 1350
+    killed_generals: 2
+    killed_officers: 124
+    killed_percent: 1.2
+    killed_wounded: 11000
+    killed_wounded_generals: 7
+    killed_wounded_officers: 778
+    killed_wounded_percent: 9.5
+    missing: 2000
+    missing_officers: 20
+    missing_percent: 1.7
+    strength: 117000
+    wounded_generals: 5
+    wounded_officers: 654
+    wounded_percent: 8.3
+  name: Fredericksburg
+  order: 3
+  other_name: []
+  page: 529
+  start_date: 1862-12-11
+  victor:
+    casualties: 5400
+    casualties_generals: 5
+    casualties_officers: 326
+    casualties_percent: 7.0
+    cavalry: 5000
+    commander: {name: R. Lee, rank: Gen.}
+    country: Confederacy
+    generals_killed:
+    - {name: Brig.-Gen. T. R. Cobb}
+    - {name: Brig.-Gen. M. Gregg}
+    infantry: 73000
+    killed: 600
+    killed_generals: 2
+    killed_officers: 38
+    killed_percent: 0.8
+    killed_wounded: 4700
+    killed_wounded_generals: 5
+    killed_wounded_officers: 308
+    killed_wounded_percent: 6.1
+    missing: 700
+    missing_officers: 18
+    missing_percent: 0.9
+    strength: 78000
+    wounded_generals: 3
+    wounded_officers: 270
+    wounded_percent: 5.3
+Gettysburg (July 01, 1863):
+  category: [battle]
+  description: null
+  end_date: 1863-07-03
+  location: "Stadt in Pennsylvania, 58 km s\xFCdwestl. von Harrisburg."
+  loser:
+    casualties: 22000
+    casualties_generals: 20
+    casualties_percent: 32.6
+    cavalry: 8000
+    commander: {name: R. Lee, rank: Gen.}
+    country: Confederacy
+    generals_killed:
+    - {name: GM. W. Pender}
+    - {name: B.-G. A. Armistead}
+    - {name: B.-G. W. Barksdale}
+    - {name: B.-G. R. B. Garnett}
+    - {name: B.-G. P. J. Semmes}
+    guns: 250
+    infantry: 60000
+    killed: 2600
+    killed_generals: 5
+    killed_percent: 3.8
+    killed_wounded: 15300
+    killed_wounded_generals: 18
+    killed_wounded_percent: 22.6
+    losses_cannon: 3
+    losses_flags: 41
+    missing: 6700
+    missing_generals: 2
+    missing_percent: 10.0
+    strength: 68000
+    wounded_generals: 13
+    wounded_percent: 18.8
+  name: Gettysburg
+  order: 1
+  other_name: []
+  page: 532
+  start_date: 1863-07-01
+  victor:
+    casualties: 23000
+    casualties_generals: 18
+    casualties_officers: 1561
+    casualties_percent: 25.0
+    cavalry: 13000
+    commander: {name: G. G. Meade, rank: GM.}
+    country: Union
+    generals_killed:
+    - {name: GM. J. F. Reynolds}
+    - {name: GM. S. K. Zook}
+    - {name: B.-G. E. J. Farnsworth}
+    - {name: B.-G. S. Vincent}
+    - {name: B.-G. S. Weed}
+    guns: 300
+    infantry: 77000
+    killed: 3160
+    killed_generals: 5
+    killed_officers: 243
+    killed_percent: 3.4
+    killed_wounded: 17700
+    killed_wounded_generals: 17
+    killed_wounded_officers: 1378
+    killed_wounded_percent: 19.4
+    losses_cannon: 6
+    losses_flags: 32
+    missing: 5300
+    missing_generals: 1
+    missing_officers: 183
+    missing_percent: 5.6
+    strength: 90000
+    wounded_generals: 12
+    wounded_officers: 1135
+    wounded_percent: 16.0
+Harper's_Ferry (September 15, 1862):
+  category: [surrender]
+  description: "Die Konf\xF6derierte (30.000 M.) unter Gen.-Lt. T. J. Jackson zwingen\
+    \ nach zweit\xE4giger\nBeschie\xDFung die unionistische Beasatzung (14.000 M.,\
+    \ 73 Gesch.) unter\nOberst D. Miles zur Kapitulation, wonach die garnison in Kriegsgefangenschaft\
+    \ geriet.\n"
+  end_date: &id016 1862-09-15
+  location: "Stadt in Virginia, am Einfu\xDF des Shenandoah in den Potomac, 80 km\
+    \ westl. von Washington"
+  loser:
+    casualties: 14000
+    commander: {name: D. Miles, rank: Oberst}
+    country: Union
+    generals_killed:
+    - {name: Brigadier Obst. D. Miles}
+    guns: 73
+    losses_canons: 73
+    strength: 14000
+  name: Harper's Ferry
+  order: null
+  other_name: []
+  page: 527
+  start_date: *id016
+  victor:
+    commander: {name: T. J. Jackson, rank: Gen.-Lt.}
+    country: Confederacy
+    strength: 30000
+Kenesaw-Mountain (June 27, 1864):
+  category: [meeting]
+  description: null
+  end_date: &id017 1864-06-27
+  location: Berg in Georgia, 34 km nordwestl. von Atlanta.
+  loser:
+    casualties: 3000
+    casualties_percent: 17
+    commander: {name: W. T. Sherman, rank: GM.}
+    country: Union
+    strength: 18000
+  name: Kenesaw-Mountain
+  order: 5
+  other_name: []
+  page: 537
+  start_date: *id017
+  victor:
+    casualties: 800
+    casualties_percent: 13.5
+    commander: {name: J. Johnston, rank: Gen.}
+    country: Confederacy
+    strength: 6000
+Lexington (September 20, 1861):
+  category: [surrender]
+  description: "Die Konf\xF6derierten (10.000 M., 16 Gesch.) unter GM. Price zwingen\
+    \ die unionistiche Garnisson (3.000 M, 9. Gesch.) unter Oberst Mulligan zur \xDC\
+    bergabe. Der Besatzung wurde freier Abzug bewilligt."
+  end_date: &id018 1861-09-20
+  location: Stadt in den Vereinigten Staaten von Nordamerika, Missouri, am rechten
+    Ufer des Missouri, 320 km nordwestl. von St. Louis.
+  loser:
+    commander: {name: Mulligan, rank: Oberst}
+    country: Union
+    guns: 9
+    strength: 3000
+  name: Lexington
+  order: null
+  other_name: []
+  page: 522
+  start_date: *id018
+  victor:
+    commander: {name: Price, rank: GM.}
+    country: Confederacy
+    guns: 16
+    strength: 10000
+Middletown (October 19, 1864):
+  category: [battle]
+  description: null
+  end_date: &id019 1864-10-19
+  location: "Kleine Stadt in Virginia, 20 km s\xFCdwestl. von Winchester, am Cedar\
+    \ Creek, Nebenflu\xDF des Shenandoah."
+  loser:
+    casualties: 3100
+    casualties_percent: 16.8
+    commander: {name: J. A. Early, rank: Gen.-Lt.}
+    country: Confederacy
+    generals_killed:
+    - {country: "Confederacy", name: S. D. Ramseur, rank: GM.}
+    killed_wounded: 1900
+    killed_wounded_percent: 10.5
+    losses_canons: 23
+    missing: 1200
+    missing_percent: 6.3
+    strength: 18000
+  name: Middletown
+  order: 4
+  other_name: [Cedar Creek]
+  page: 539
+  start_date: *id019
+  victor:
+    casualties: 5700
+    casualties_percent: 14.2
+    commander: {name: P. H. Sheridan, rank: GM.}
+    country: Union
+    generals_killed:
+    - {country: Union, name: D. D. Bidwell, rank: B.-G.}
+    - {country: Union, name: C. R. Lowell, rank: B.-G.}
+    killed_wounded: 4100
+    killed_wounded_percent: 10.2
+    missing: 1600
+    missing_percent: 4.0
+    strength: 40000
+Mobile (April 02, 1865):
+  category: [siege, capture]
+  description: "Die Uinionstroppen (45.000 M.) unter GM. Cranby nehmen, von der Seesiete\
+    \ aus\nauf das Wirksamste unterst\xFCtzt von der Unionsflotte unter Admiral Farragut,\
+    \ am 9. April\ndas von 4.000 Konf\xF6derierte verteidigte Blakely fort mit Strum,\
+    \ machen 3.500 Gefangene,\nerbeuten 50 Gesch\xFCtze.\n"
+  end_date: 1865-04-09
+  location: Seefestung in Alabama, an der gleichnamigen Bai.
+  loser:
+    captured: 3500
+    country: Confederacy
+    losses_canons: 50
+    strength: 4000
+  name: Mobile
+  order: null
+  other_name: []
+  page: 542
+  start_date: 1865-04-02
+  victor:
+    commander:
+    - {name: Cranby, rank: GM.}
+    - {name: Farragut, rank: Adm.}
+    country: Union
+    strength: 45000
+Murfreesborough (December 31, 1862):
+  category: [battle]
+  description: null
+  end_date: 1863-01-03
+  location: "Stadt in Tennessee, am Stone's River, 50 km s\xFCd\xF6stl. von Nashville."
+  loser:
+    casualties: 10400
+    casualties_generals: 5
+    casualties_officers: 824
+    casualties_percent: 27.5
+    cavalry: 4500
+    commander: {name: B. Bragg, rank: Gen.}
+    country: Confederacy
+    generals_killed:
+    - {name: Brig.-Gen. R. W. Hanson}
+    - {name: Brig.-Gen. J. E. Rains}
+    guns: 120
+    infantry: 33500
+    killed: 1300
+    killed_generals: 2
+    killed_officers: 122
+    killed_percent: 3.4
+    killed_wounded: 9300
+    killed_wounded_generals: 5
+    killed_wounded_officers: 778
+    killed_wounded_percent: 24.5
+    losses_cannon: 6
+    missing: 1100
+    missing_officers: 46
+    missing_percent: 3.0
+    strength: 38000
+    wounded_generals: 3
+    wounded_officers: 656
+    wounded_percent: 21.1
+  name: Murfreesborough
+  order: 2
+  other_name: [Stone's River]
+  page: 529
+  start_date: 1862-12-31
+  victor:
+    casualties: 13600
+    casualties_generals: 8
+    casualties_officers: 551
+    casualties_percent: 30.3
+    cavalry: 3200
+    commander: {name: Rosecrans, rank: GM.}
+    country: Union
+    generals_killed:
+    - {name: Brig.-Gen. E. N. Kirk}
+    - {name: Brig.-Gen. J. W. Sill}
+    guns: 100
+    infantry: 41800
+    killed: 1730
+    killed_generals: 2
+    killed_officers: 102
+    killed_percent: 3.8
+    killed_wounded: 9600
+    killed_wounded_generals: 7
+    killed_wounded_officers: 507
+    killed_wounded_percent: 21.3
+    losses_cannon: 28
+    losses_flags: 6
+    missing: 4000
+    missing_generals: 1
+    missing_officers: 44
+    missing_percent: 9.0
+    strength: 45000
+    wounded_generals: 5
+    wounded_officers: 405
+    wounded_percent: 17.5
+Nashville (December 15, 1864):
+  category: [battle]
+  description: null
+  end_date: 1864-12-16
+  location: "Haupstadt von Tennessee, 930 km. s\xFCdwestl. von Washington."
+  loser:
+    casualties: 15000
+    casualties_percent: 39.6
+    cavalry: 2000
+    commander: {name: J. B. Hood, rank: Gen.}
+    country: Confederacy
+    infantry: 36000
+    losses_cannon: 51
+    strength: 38000
+  name: Nashville
+  order: 3
+  other_name: []
+  page: 540
+  start_date: 1864-12-15
+  victor:
+    casualties: 3100
+    casualties_percent: 5.6
+    cavalry: 12000
+    commander: {name: G. H. Thomas, rank: GM.}
+    country: Union
+    generals_killed:
+    - {country: Union, name: S. G. Hill, rank: Brig.-Gen.}
+    infantry: 43000
+    strength: 55000
+New-Hope-Church (May 28, 1864):
+  category: [meeting]
+  description: null
+  end_date: &id020 1864-05-28
+  location: Ort in Georgia, 50 km nordwestl. von Atlanta.
+  loser:
+    casualties: 3000
+    commander: {name: J. Johnston, rank: Gen.}
+    country: Confederacy
+    strength: 40000
+  name: New Hope Church
+  order: 4
+  other_name: [Dallas]
+  page: 536
+  start_date: *id020
+  victor:
+    casualties: 2400
+    commander: {name: W. T. Sherman, rank: Gen.-Lt.}
+    country: Union
+    strength: 80000
+Pamunkey (May 22, 1864):
+  category: [meeting]
+  description: null
+  end_date: 1864-05-26
+  location: "Flu\xDF in Virginia, m\xFCndet in die York-Bay."
+  loser:
+    casualties: 3000
+    casualties_percent: 8
+    commander: {name: R. Lee, rank: Gen.}
+    country: Confederacy
+    strength: 38000
+  name: Pamunkey
+  order: 4
+  other_name: []
+  page: 536
+  start_date: 1864-05-22
+  victor:
+    casualties: 4000
+    casualties_officers: 217
+    casualties_percent: 7.9
+    commander: {name: U. S. Grant, rank: Gen.-Lt.}
+    country: Union
+    strength: 52000
+Pea_Ridge (March 07, 1862):
+  category: [meeting]
+  description: null
+  end_date: 1862-03-08
+  location: "Berg in nordwestlichen Teil des Staates Arkansas, in der N\xE4he von\
+    \ Bentonville"
+  loser:
+    casualties: 1600
+    casualties_percent: 10
+    commander: {name: Earl van Dorn, rank: Gen.-Lt.}
+    country: Confederacy
+    generals_killed:
+    - {country: "Confederacy", name: Mc. Culloch, rank: Brig.-Gen.}
+    - {country: "Confederacy", name: Mc. Intosh, rank: Brig.-Gen.}
+    - {country: "Confederacy", name: Slack, rank: Brig.-Gen.}
+    guns: 72
+    killed_wounded: 1100
+    killed_wounded_percent: 7
+    missing: 500
+    missing_percent: 3
+    strength: 16000
+  name: Pea Ridge
+  order: 3
+  other_name: [Elkhorn-Tavern]
+  page: 523
+  start_date: 1862-03-07
+  victor:
+    casualties: 1400
+    casualties_percent: 10.7
+    commander: {name: Curtis, rank: GM.}
+    country: Union
+    guns: 49
+    killed_wounded: 1200
+    killed_wounded_percent: 10.0
+    missing: 200
+    missing_percent: 0.7
+    strength: 12000
+Peach-Tree-Creek (July 20, 1864):
+  category: [battle]
+  description: null
+  end_date: &id021 1864-07-20
+  location: "Linker Nebenflu\xDF des Chattaboochee in Georgia, m\xFCndet 11 km nordwestl.\
+    \ von Atlanta."
+  loser:
+    casualties: 4800
+    casualties_percent: 10
+    commander: {name: J. B. Hood, rank: Gen.}
+    country: Confederacy
+    strength: 48000
+  name: Peach-Tree-Creek
+  order: 4
+  other_name: [Atlanta]
+  page: 538
+  start_date: *id021
+  victor:
+    casualties: 1700
+    casualties_percent: 2.4
+    commander: {name: W. T. Sherman, rank: GM.}
+    country: Union
+    strength: 72000
+Perryville (October 08, 1862):
+  category: [battle]
+  description: null
+  end_date: &id022 1862-10-08
+  location: "Kleine Stadt in Kentucky, 100 km s\xFCd\xF6stl. von Louisville"
+  loser:
+    casualties: 4200
+    casualties_generals: 2
+    casualties_officers: 144
+    casualties_percent: 17.7
+    commander:
+    - {name: Buell, rank: GM.}
+    country: Union
+    generals_killed:
+    - {name: Brig.-Gen. J. S. Jackson}
+    - {name: Brig.-Gen. W. R. Terrill}
+    killed: 850
+    killed_generals: 2
+    killed_officers: 37
+    killed_wounded: 3700
+    killed_wounded_generals: 2
+    killed_wounded_officers: 131
+    killed_wounded_percent: 15.6
+    missing: 500
+    missing_officers: 13
+    missing_percent: 2.1
+    strength: 54000
+    strength_engaged: 24000
+    wounded_officers: 94
+  name: Perryville
+  order: 4
+  other_name: []
+  page: 528
+  start_date: *id022
+  victor:
+    casualties: 3400
+    casualties_percent: 21.4
+    commander:
+    - {name: Bragg, rank: Gen.}
+    country: Confederacy
+    killed: 520
+    killed_wounded: 3150
+    killed_wounded_percent: 19.8
+    missing: 250
+    missing_percent: 1.6
+    strength: 68000
+    strength_engaged: 16000
+Petersburg (June 09, 1864):
+  category: [siege, capture]
+  description: "Die Unierten (91.000 Inft., 19.000 Kav., 10.000 Art., zus. 120.000\
+    \ M.\\1) unter\nGen.-Lt. U. S. Grant zwingen nach 10 monatlicher Belagerung der\
+    \ St\xE4dt Petersburg und\nRichmond, die Konf\xF6derierte (55.000 Inft., 6.500\
+    \ Kav., 5.000 Art., zus. 67.000 M.) unter\nGen R. Lee zur R\xE4umung der beiden\
+    \ St\xE4dte.\n\n\\1 Infolge fortw\xE4hrender Nachsch\xFCbe wurde die Unionsarmee\
+    \ trotz der bedeutenden\nVerluste stets auf derselben St\xE4rkeziffer erhalten.\n"
+  end_date: 1865-04-03
+  location: "Stadt in Virginia, 40 km. s\xFCdlich von Richmond."
+  loser:
+    artillery: 5500
+    casualties: 40000
+    cavalry: 6500
+    commander: {name: R. Lee, rank: Gen.}
+    country: Confederacy
+    generals_killed:
+    - {country: "Confederacy", date: 1865-04-02, name: A. P. Hill, rank: G.-L.}
+    - {country: "Confederacy", date: 1865-02-06, name: J. Pegram, rank: GM.}
+    infantry: 55000
+    strength: 67000
+  name: Petersburg
+  order: null
+  other_name: []
+  page: 541
+  start_date: 1864-06-09
+  victor:
+    artillery: 10000
+    casualties: 60000
+    cavalry: 19000
+    commander: {name: U. S. Grant, rank: Gen.-Lt.}
+    country: Union
+    generals_killed:
+    - {country: Union, date: 1864-06-28, name: H. Burnham, rank: B.-G.}
+    - {country: Union, date: 1864-06-29, name: D. Bates, rank: B.-G.}
+    - {country: Union, date: 1864-08-05, name: G. A. Stedman, rank: B.-G.}
+    infantry: 91000
+    killed: 6000
+    killed_wounded: 39000
+    missing: 21000
+    strength: 120000
+Prairie-Grove (December 07, 1862):
+  category: [meeting]
+  description: null
+  end_date: &id023 1862-12-07
+  location: "Dorf in nordwestlichen Arkansas, 20 km s\xFCdwestlich von Fayetteville"
+  loser:
+    casualties: 1350
+    casualties_percent: 12
+    commander: {name: Hindman, rank: GM.}
+    country: Confederacy
+    killed_wounded: 1000
+    missing: 350
+    strength: 11000
+  name: Prairie-Grove
+  order: 6
+  other_name: []
+  page: 528
+  start_date: *id023
+  victor:
+    casualties: 1250
+    casualties_percent: 8.9
+    commander: {name: Blunt, rank: Brig.-Gen.}
+    country: Union
+    killed_wounded: 1000
+    missing: 250
+    strength: 14000
+Resaca (May 14, 1864):
+  category: [battle]
+  description: null
+  end_date: &id024 1864-05-14
+  location: Stadt in Georgia, 100 km nordwestl. von Atlanta
+  loser:
+    casualties: 4500
+    casualties_percent: 8.6
+    commander: {name: J. Johnston, rank: Gen.}
+    country: Confederacy
+    killed_wounded: 1500
+    missing: 3000
+    strength: 52000
+  name: Resaca
+  order: 4
+  other_name: []
+  page: 536
+  start_date: *id024
+  victor:
+    casualties: 4500
+    casualties_percent: 4.8
+    commander: {name: W. T. Sherman, rank: GM.}
+    country: Union
+    killed_wounded: 4000
+    missing: 500
+    strength: 93000
+Richmond (August 30, 1862):
+  category: [meeting]
+  description: null
+  end_date: &id025 1862-08-30
+  location: "Stadt in Kentucky, 20 km s\xFCd\xF6stl. von Lexington."
+  loser:
+    casualties: 5400
+    casualties_percent: 34.0
+    commander: {name: Nelson, rank: Brig.-Gen.}
+    country: Union
+    killed: 210
+    killed_wounded: 1050
+    killed_wounded_percent: 6.5
+    losses_canons: 9
+    missing: 4350
+    missing_percent: 27.5
+    other: "alles gep\xE4ck"
+    strength: 16000
+  name: Richmond
+  order: 4
+  other_name: [Rogersville]
+  page: 526
+  start_date: *id025
+  victor:
+    casualties: 450
+    casualties_percent: 2
+    commander: {name: Kirby Smith, rank: GM.}
+    country: Confederacy
+    killed: 80
+    killed_wounded: 450
+    strength: 8000
+Ringgold (November 23, 1863):
+  category: [battle]
+  description: null
+  end_date: 1863-11-25
+  location: "Stadt in n\xF6rdlichen Georgia, knapp an der Grenze von Tennessee, 30\
+    \ km s\xFCd\xF6stl. von Chattanooga in Tennessee."
+  loser:
+    casualties: 7000
+    casualties_generals: 2
+    casualties_percent: 16.0
+    commander: {name: R. Bragg, rank: Gen.}
+    country: Confederacy
+    killed: 400
+    killed_wounded: 2600
+    killed_wounded_generals: 2
+    killed_wounded_percent: 5.8
+    losses_cannon: 40
+    missing: 4400
+    missing_percent: 4400
+    strength: 45000
+    wounded_generals: 2
+  name: Ringgold
+  order: 3
+  other_name: [Chattanooga, Missionary Ridge]
+  page: 533
+  start_date: 1863-11-23
+  victor:
+    casualties: 6000
+    casualties_generals: 4
+    casualties_officers: 501
+    casualties_percent: 9.2
+    commander: {name: U. S. Grant, rank: GM.}
+    country: Union
+    killed: 800
+    killed_officers: 71
+    killed_wounded: 5600
+    killed_wounded_generals: 4
+    killed_wounded_officers: 471
+    killed_wounded_percent: 8.6
+    missing: 400
+    missing_officers: 30
+    missing_percent: 0.6
+    strength: 65000
+    wounded_generals: 4
+    wounded_officers: 400
+Seven_Pines (May 31, 1862):
+  category: [battle]
+  description: null
+  end_date: 1862-06-01
+  location: "S\xFCmpfe an beiden Ufern des Chickahominyflusses in Virginia, 10 km\
+    \ \xF6stl. von Richmond."
+  loser:
+    casualties: 5000
+    casualties_generals: 2
+    casualties_officers: 274
+    casualties_percent: 10.0
+    commander: {name: Mc Clellan, rank: GM.}
+    country: Union
+    killed: 800
+    killed_officers: 41
+    killed_percent: 1.6
+    killed_wounded: 4400
+    killed_wounded_generals: 2
+    killed_wounded_officers: 259
+    killed_wounded_percent: 8.9
+    missing: 600
+    missing_officers: 15
+    missing_percent: 1.1
+    strength: 51000
+    wounded_generals: 2
+    wounded_officers: 218
+    wounded_percent: 7.3
+  name: Seven Pines
+  order: 3
+  other_name: [Fair-Oaks, White-Oak-Swamp]
+  page: 524
+  start_date: 1862-05-31
+  victor:
+    casualties: 7000
+    casualties_generals: 5
+    casualties_officers: 394
+    casualties_percent: 18.0
+    commander: {name: J. Johnston, rank: Gen.}
+    country: Confederacy
+    generals_killed:
+    - {country: null, name: R. Hatton, rank: Brig.-Gen.}
+    killed: 1100
+    killed_generals: 1
+    killed_officers: 78
+    killed_percent: 2.8
+    killed_wounded: 6500
+    killed_wounded_generals: 5
+    killed_wounded_officers: 390
+    killed_wounded_percent: 16.8
+    losses_cannon: 10
+    losses_flags: 4
+    missing: 500
+    missing_officers: 4
+    missing_percent: 1.2
+    strength: 39000
+    wounded_generals: 4
+    wounded_officers: 312
+    wounded_percent: 14.0
+Shiloh (April 06, 1862):
+  category: [battle]
+  description: null
+  end_date: 1862-04-07
+  location: "Dorf in S\xFCdwesten des Staates Tennessee, gegen\xFCber der Stadt Pittsburg-Landing,\
+    \ am Tennessee-Flusse, 150 km. \xF6stl. von Memphis."
+  loser:
+    casualties: 10800
+    casualties_generals: 7
+    casualties_percent: 27.0
+    cavalry: 4000
+    commander: {name: A. S. Johnston, rank: Gen.}
+    country: Confederacy
+    generals_killed:
+    - {country: "Confederacy", name: A. S. Johnston, rank: komm. Gen.}
+    - {country: "Confederacy", name: A. H. Gladden, rank: Brig.-Gen.}
+    infantry: 36000
+    killed: 1730
+    killed_generals: 2
+    killed_percent: 4.3
+    killed_wounded: 9800
+    killed_wounded_generals: 7
+    killed_wounded_percent: 24.5
+    losses_canons: 30
+    missing: 1000
+    missing_percent: 2.5
+    strength: 40000
+    wounded_generals: 5
+    wounded_percent: 20.2
+  name: Shiloh
+  order: 2
+  other_name: [Pittsburg-Landing]
+  page: 523
+  start_date: 1862-04-06
+  victor:
+    casualties: 13000
+    casualties_generals: 7
+    casualties_officers: 640
+    casualties_percent: 25.7
+    cavalry: 6000
+    commander: {name: U. S. Grant, rank: GM.}
+    country: Union
+    generals_killed:
+    - {country: Union, name: W. H. L. Wallace, rank: Brig.-Gen.}
+    infantry: 54000
+    killed: 1800
+    killed_generals: 1
+    killed_officers: 103
+    killed_percent: 3.0
+    killed_wounded: 10200
+    killed_wounded_generals: 5
+    killed_wounded_officers: 527
+    killed_wounded_percent: 21.0
+    losses_canons: 33
+    missing: 2800
+    missing_generals: 2
+    missing_officers: 113
+    missing_percent: 4.7
+    strength: 60000
+    wounded_generals: 4
+    wounded_officers: 424
+    wounded_percent: 18.0
+Spotsylvania-Court-House (May 08, 1864):
+  category: [battle]
+  description: null
+  end_date: 1864-05-12
+  location: "Ort in Virginia, 70 km n\xF6rdl. von Richmond"
+  loser:
+    artillery: 4000
+    casualties: 9000
+    casualties_generals: 10
+    casualties_percent: 18.0
+    cavalry: 7000
+    commander: {name: R. Lee, rank: Gen.}
+    country: Confederacy
+    generals_killed:
+    - {country: "Confederacy", name: J. E. B. Stuart, rank: G.-L.}
+    - {country: "Confederacy", name: J. Daniel, rank: B.-G.}
+    - {country: "Confederacy", name: A. Perrin, rank: B.-G.}
+    - {country: "Confederacy", name: L. A. Stafford, rank: B.-G.}
+    infantry: 39000
+    killed: 1000
+    killed_generals: 4
+    killed_percent: 2.0
+    killed_wounded: 5000
+    killed_wounded_generals: 8
+    killed_wounded_percent: 10.0
+    losses_canons: 18
+    missing: 4000
+    missing_generals: 2
+    missing_percent: 8.0
+    strength: 50000
+    wounded_generals: 4
+    wounded_percent: 8.0
+  name: Spotsylvania-Court-House
+  order: 2
+  other_name: []
+  page: 535
+  start_date: 1864-05-08
+  victor:
+    artillery: 9000
+    casualties: 18500
+    casualties_generals: 8
+    casualties_officers: 900
+    casualties_percent: 18.5
+    cavalry: 12000
+    commander: {name: U. S. Grant, rank: Gen.-Lt.}
+    country: Union
+    generals_killed:
+    - {country: Union, name: J. Sedgwick, rank: GM.}
+    - {country: Union, name: J. C. Rice, rank: B.-G.}
+    - {country: Union, name: T. G. Stevenson, rank: B.-G.}
+    infantry: 79000
+    killed: 2730
+    killed_generals: 3
+    killed_officers: 171
+    killed_percent: 2.7
+    killed_wounded: 16200
+    killed_wounded_generals: 7
+    killed_wounded_officers: 839
+    killed_wounded_percent: 16.2
+    missing: 2300
+    missing_generals: 1
+    missing_officers: 61
+    missing_percent: 2.3
+    strength: 100000
+    wounded_generals: 4
+    wounded_officers: 668
+    wounded_percent: 13.5
+Vicksburg (May 19, 1863):
+  category: [siege, capture]
+  description: 'Der Garnison, welche mit allen Ehren ausziehen durfte, wurde gegen
+    das Versprechen,
+
+    nicht weiter gegen die Unionsstaaten zu dienen, freier Abzug in die Heimat bewilligt.
+
+    '
+  end_date: 1863-07-04
+  location: Stadt im Staate Mississippi, am linken Ufer des Mississippistromes.
+  loser:
+    captured: 21000
+    captured_generals: 15
+    captured_officers: 6000
+    casualties: 28000
+    commander:
+    - {name: Pemberton, rank: Gen.-Lt.}
+    country: Confederacy
+    generals_killed:
+    - {name: B.-G. M. E. Green}
+    - {name: B.-G. E. D. Tracy}
+    killed_wounded: 7000
+    losses_canons: 172
+    strength: 28000
+  name: Vicksburg
+  order: null
+  other_name: []
+  page: 532
+  start_date: 1863-05-19
+  victor:
+    casualties: 9000
+    commander:
+    - {name: U. S. Grant, rank: GM.}
+    country: Union
+    killed_wounded: 9000
+    strength: 75000
+Wilderness (May 05, 1864):
+  category: [battle]
+  description: null
+  end_date: 1864-05-07
+  location: "Waldige, zerkl\xFCftete, \"die Wildnis\" benannte Gegend im Staate Virginia,\
+    \ am rechten Ufer des Rapidan, 100 km nordwestl. von Richmond."
+  loser:
+    artillery: 5000
+    casualties: 7300
+    casualties_generals: 5
+    casualties_percent: 12.0
+    cavalry: 8000
+    commander: {name: R. Lee, rank: Gen.}
+    country: Confederacy
+    generals_killed:
+    - {country: "Confederacy", name: A. G. Jenkins, rank: B.-G.}
+    - {country: "Confederacy", name: J. M. Jones, rank: B.-G.}
+    guns: 224
+    infantry: 49000
+    killed: 1000
+    killed_generals: 2
+    killed_percent: 1.7
+    killed_wounded: 7000
+    killed_wounded_generals: 5
+    killed_wounded_percent: 11.5
+    missing: 300
+    missing_percent: 0.5
+    strength: 62000
+    wounded_generals: 3
+    wounded_percent: 9.8
+  name: Wilderness
+  order: 2
+  other_name: []
+  page: 535
+  start_date: 1864-05-05
+  victor:
+    artillery: 10000
+    casualties: 17700
+    casualties_generals: 8
+    casualties_officers: 840
+    casualties_percent: 15.0
+    cavalry: 14000
+    commander: {name: U. S. Grant, rank: Gen.-Lt.}
+    country: Union
+    generals_killed:
+    - {country: Union, name: A. Hays, rank: GM.}
+    - {country: Union, name: J. S. Wadsworth, rank: GM.}
+    guns: 318
+    infantry: 94000
+    killed: 2250
+    killed_generals: 2
+    killed_officers: 141
+    killed_percent: 1.9
+    killed_wounded: 14300
+    killed_wounded_generals: 6
+    killed_wounded_officers: 704
+    killed_wounded_percent: 12.1
+    losses_canons: 2
+    missing: 3400
+    missing_generals: 2
+    missing_officers: 136
+    missing_percent: 2.9
+    strength: 118000
+    wounded_generals: 4
+    wounded_officers: 563
+    wounded_percent: 10.2
+Williamsburg (May 05, 1862):
+  category: [battle]
+  description: null
+  end_date: &id026 1862-05-05
+  location: "Stadt in Virginia, 65 km s\xFCd\xF6stl. von Richmond"
+  loser:
+    casualties: 1600
+    casualties_officers: 102
+    casualties_percent: 5.4
+    commander: {name: J. Johnston, rank: Gen.-Lt.}
+    country: Confederacy
+    killed: 300
+    killed_officers: 24
+    killed_wounded: 1300
+    killed_wounded_officers: 99
+    killed_wounded_percent: 4.4
+    missing: 300
+    missing_officers: 3
+    missing_percent: 1.0
+    strength: 30000
+    wounded_officers: 75
+  name: Williamsburg
+  order: 5
+  other_name: []
+  page: 524
+  start_date: *id026
+  victor:
+    casualties: 2400
+    casualties_officers: 127
+    casualties_percent: 5.9
+    commander: {name: Mc. Clellan, rank: GM.}
+    country: Union
+    killed: 460
+    killed_officers: 27
+    killed_wounded: 1900
+    killed_wounded_officers: 125
+    killed_wounded_percent: 4.2
+    missing: 500
+    missing_officers: 2
+    missing_percent: 1.1
+    strength: 45000
+    wounded_officers: 98
+Wilson's_Creek (August 10, 1861):
+  category: [meeting]
+  description: "Sieg der Konf\xF6derierten (ca. 10.000 M.) unter GM. Price \xFCber\
+    \ die Unierten (ca. 6.000 M.) unter GM. Lyon \u2020."
+  end_date: &id027 1861-08-10
+  location: "Flu\xDF in den Vereinigten Staaten van Nordamerika, Missouri, in der\
+    \ N\xE4he von Springfield, 320 km s\xFCdwestl. von St. Louis)."
+  loser:
+    casualties: 1300
+    casualties_percent: 21.5
+    commander: {name: Lyon, rank: GM.}
+    country: Union
+    generals_killed:
+    - {country: Union, name: Lyon, rank: Brig.-Gen.}
+    killed_wounded: 1140
+    missing: 160
+    strength: 6000
+  name: Wilson's Creek
+  order: 6
+  other_name: [Oak-Hills]
+  page: 522
+  start_date: *id027
+  victor:
+    casualties: 1300
+    casualties_percent: 13
+    commander: {name: Price, rank: GM.}
+    country: Confederacy
+    killed_wounded: 1230
+    missing: 70
+    strength: 10000
+Winchester (June 15, 1863):
+  category: [meeting]
+  description: null
+  end_date: &id028 1863-06-15
+  location: Stadt in Virginia, 100 km westl. von Washington.
+  loser:
+    casualties: 4500
+    casualties_officers: 163
+    casualties_percent: 50.0
+    commander: {name: Milroy, rank: GM.}
+    country: Union
+    killed_wounded: 500
+    killed_wounded_officers: 19
+    killed_wounded_percent: 5.5
+    losses_cannon: 28
+    losses_flags: 11
+    losses_wagons: 300
+    missing: 4000
+    missing_officers: 144
+    missing_percent: 44.5
+    strength: 9000
+  name: Winchester
+  order: 4
+  other_name: []
+  page: 531
+  start_date: *id028
+  victor:
+    casualties: 300
+    casualties_percent: 1.6
+    commander: {name: Ewell, rank: Gen.-Lt.}
+    country: Confederacy
+    killed_wounded: 300
+    strength: 18000
+Winchester (September 19, 1864):
+  category: [battle]
+  description: null
+  end_date: &id029 1864-09-19
+  location: "Stadt in Virginia, in der N\xE4he des Opequon, rechtem Nebenflu\xDF des\
+    \ Potomac."
+  loser:
+    casualties: 4000
+    casualties_percent: 30.8
+    cavalry: 2000
+    commander: {name: J. A. Early, rank: Gen.-Lt.}
+    country: Confederacy
+    generals_killed:
+    - {country: "Confederacy", name: R. E. Rodes, rank: GM.}
+    - {country: "Confederacy", name: A. C. Godwin, rank: B.-G.}
+    infantry: 11000
+    killed_wounded: 2000
+    killed_wounded_percent: 15.4
+    losses_cannon: 5
+    losses_flags: 15
+    missing: 2000
+    missing_percent: 15.4
+    strength: 13000
+  name: Winchester
+  order: 4
+  other_name: [Opequon]
+  page: 539
+  start_date: *id029
+  victor:
+    casualties: 5000
+    casualties_percent: 11.7
+    cavalry: 10000
+    commander: {name: P. H. Sheridan, rank: GM.}
+    country: Union
+    generals_killed:
+    - {country: Union, name: D. A. Russell, rank: GM.}
+    infantry: 33000
+    killed_wounded: 4400
+    killed_wounded_percent: 10.3
+    missing: 600
+    missing_percent: 1.4
+    strength: 43000
