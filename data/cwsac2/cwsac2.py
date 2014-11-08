@@ -157,6 +157,8 @@ def page2battle(page, results, strengths, areas, infn):
     else:
         study_area = float(study_area)
     data['study_area'] = study_area
+    data['core_area'] = areas[battle]['core_area']
+    data['potnr_boundary'] = areas[battle]['potnr_boundary']
     data['locations'] = []
     data['dates'] = []
 
@@ -238,14 +240,13 @@ def load_reports(directory, results, strengths, areas):
     for f in filelist:
         report = parse_cwsac2_report(f, results, strengths, areas)
         data.update(report)
-    json.dump(data, open('cwsac2_battles.json', 'w'), indent=2)
+    json.dump(data, open('cwsac2.json', 'w'), indent=2)
 
 def load(datadir):
     directory = datadir
     strengths = yaml.load(open(path.join(directory, 'forces.yaml'), 'r'))
-    reader = csv.DictReader(open(path.join(directory,
-                                           'battlefield_area_statistics.csv'), 'r'))
-    areas = [x for x in reader]
+    areas = dict((x['battle'], x) for x in 
+                 csv.DictReader(open(path.join(directory, 'battlefield_area_statistics.csv'), 'r')))
     results = yaml.load(open(path.join(directory, "results.yaml"), 'r'))
     load_reports(path.join(directory, 'reports'), results, strengths, areas)
 

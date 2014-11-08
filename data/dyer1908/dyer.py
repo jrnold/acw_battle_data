@@ -129,9 +129,10 @@ def xml_to_csv(source, writer):
                 # Event type
                 event_type = head.findtext("rs")
                 ## head_text
-                event = str(tostring(head, method = "text", encoding = "utf-8"))
+                event = tostring(head, method = "text", encoding = 'utf-8').decode('utf-8')
+                print(type(event))
                 # Text
-                text = elem.findtext("p")
+                text = elem.findtext("p").strip()
                 ## Casualties
                 losses = parse_losses(text)
                 

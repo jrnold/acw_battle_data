@@ -1005,6 +1005,7 @@ Western Theater 1861:
     confed: {s: 7646, c: 1636}
   - name: "Jackson (siege)"
     p: 305
+    links: [["http://en.wikipedia.org/wiki/Jackson_Expedition"]]
     start: 1863-7-10
     end: 1863-7-16
     union: {s: 50000, k: 129, w: 762, m: 231}
@@ -1054,6 +1055,8 @@ Western Theater 1861:
     union: {s: 12000, kw: 342, p: 100}
     confed: {s: 4100, c: 221}
   - name: "Knoxville (siege)"
+    links:
+      - ["http://en.wikipedia.org/wiki/Knoxville_Campaign", "<"]
     p: 306
     start: 1863-11-17
     end: 1863-12-3
@@ -1316,7 +1319,7 @@ Western Theater 1861:
     start: 1864-7-24
     union: {s: 8000, kw: 706, p: 479}
     confed: {s: 14000}
-  - name: Opequon (Third Winchester}
+  - name: Opequon (Third Winchester)
     links: [["VA119"], ["https://en.wikipedia.org/wiki/Battle_of_Opequon"]]
     p: 310
     start: 1864-9-19
