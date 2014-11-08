@@ -1,3 +1,31 @@
+#' Simulate distributions of personnel size for military units in the Civil War
+#'
+#' Often  the number of units is known, but the exact number of troops is not given or known.
+#' The following code simulates the size of those units using uncertainty about the number of subunits and the number of troops in a regiment (given attrition).
+#'
+#' In usage, these may scaled by the "effective" size multipliers used in Livermore (1900), p. 69. The Union army did not consistently report "effective" forces, while the Confederates appeared to do a better job of reporting effective forces.
+#'
+#' - Union artillery and infantry: 0.93
+#' - Union cavalry: 0.85
+#' - Proportion of Union officers: 4--7%
+#' - Proportion of Confederate officers: 6.5--11%
+#'
+#' Strength of regiments (Livermore 1900, p. 67).
+#' Regiment of 1050 includes 70 non-combatants (10 staff, 20 musicians, 40 band, wagoners, men detailed to HQ, quartermaster of medical).
+#'
+#' Average regimental present for duty
+#'
+#' - Shiloh: 560
+#' - Fair Oaks: 650
+#' - Chancellorsville: 530
+#' - Gettysburg: 375
+#' - Chickamagua: 440
+#' - Wilderness: 440
+#' - Sherman's army in May 1864: 305
+#'
+#' In the OR, numbers of "effectives" in infantry divisions or corps is 89--93 percent of number "present for duty", while in the cavalry these numbers are 83--86 percent.
+#' 
+#' 
 library("plyr")
 library("jsonlite")
 #library("triangle")
@@ -42,7 +70,9 @@ uniform_size <- function(low, high) {
 }
 
 #' Special functions to draw the standard units in the infantry.
-#' The number of subunits is given a high, low, and mode and drawn from a binomial distribution.
+#' 
+#' The number of troops in a regiment is drawn from a uniform distribution
+#' between low and high.
 draw_regiment <- function(n = 1, low = 300, high = 650) {
     data.frame(troops = round(runif(n, low, high)))
 }
