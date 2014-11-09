@@ -19,30 +19,6 @@
   'no': '4'
   links:
     - ['MO001', '=']
-    - [- ['http://en.wikipedia.org/wiki/Battle_of_Big_Bethel', '=']
-    - ['VA003', '=']
-- date: '1861-06-17'
-  event: Action
-  location: Vienna, VA
-  'no': '3'
-- date: '1861-06-17'
-  event: Engagement
-  location: Booneville, MO
-  'no': '4'
-  links:
-    - ['MO001', '=']
-    - [- ['http://en.wikipedia.org/wiki/Battle_of_Big_Bethel', '=']
-    - ['VA003', '=']
-- date: '1861-06-17'
-  event: Action
-  location: Vienna, VA
-  'no': '3'
-- date: '1861-06-17'
-  event: Engagement
-  location: Booneville, MO
-  'no': '4'
-  links:
-    - ['MO001', '=']
     - ['http://en.wikipedia.org/wiki/Battle_of_Boonville', '=']
 - date: '1861-06-26'
   event: Skirmish
