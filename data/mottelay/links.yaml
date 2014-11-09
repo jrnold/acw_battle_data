@@ -121,7 +121,6 @@
   event: Skirmish
   location: Barboursville, WV
   'no': '20'
-# Check these
 - date: '1861-09-19'
   event: Engagement
   location: Barboursville, WV
@@ -242,7 +241,6 @@
   links:
     - ["http://en.wikipedia.org/wiki/Battle_of_Mount_Zion_Church", "="]
     - ["MO010", "="]
-# TODO
 - date: '1862-01-01'
   event: Nav. Engagement
   location: Port Royal, SC
@@ -263,22 +261,37 @@
   event: Engagement
   location: Middle Creek, KY
   'no': '49'
+  links:
+    - ["http://en.wikipedia.org/wiki/Battle_of_Middle_Creek", "="]
+    - ["KY005", "="]
 - date: '1862-01-19'
   event: Engagement
   location: Mill Spring, KY
   'no': '50'
+  links:
+    - ["http://en.wikipedia.org/wiki/Battle_of_Mill_Springs", "="]
+    - ["KY006", "="]
 - date: '1862-02-08'
   event: Battle
   location: Roanoke Island, NC
   'no': '51'
+  links:
+    - ["http://en.wikipedia.org/wiki/Battle_of_Roanoke_Island", "="]
+    - ["NC002", "="]
 - date: '1862-02-16'
   event: Engagement
   location: Fort Donelson, TN
   'no': '52'
+  links:
+    - ["http://en.wikipedia.org/wiki/Battle_of_Fort_Donelson", "="]
+    - ["TN002", "="]
 - date: '1862-02-21'
   event: Engagement
   location: Val Verde, NM
   'no': '53'
+  links:
+    - ["http://en.wikipedia.org/wiki/Battle_of_Valverde", "="]
+    - ["NM001", "="]
 - date: '1862-03-09'
   event: Skirmish
   location: "Granny White's Pike, TN"
@@ -299,6 +312,9 @@
   event: Skirmish
   location: Apache Canon, NM
   'no': '58'
+  links:
+    - ["http://en.wikipedia.org/wiki/Battle_of_Glorieta_Pass", "<"]
+    - ["NM002", "<"]
 - date: '1862-03-26'
   event: Action
   location: Post Oak, MO
@@ -307,6 +323,9 @@
   event: Engagement
   location: Glorietta, NM
   'no': '60'
+  links:
+    - ["http://en.wikipedia.org/wiki/Battle_of_Glorieta_Pass", "<"]
+    - ["NM002", "<"]
 - date: '1862-03-31'
   event: Skirmish
   location: Pink Hill, MO
@@ -343,22 +362,54 @@
   event: Battle
   location: Seven Pines & Fair Oaks, VA
   'no': '69'
+  links:
+    - ["http://en.wikipedia.org/wiki/Battle_of_Seven_Pines", "="]
+    - ["VA014", "="]
 - date: '1862-06-05'
   event: Action
   location: "Tranter's Creek, NC"
   'no': '70'
+  links:
+    - ["http://en.wikipedia.org/wiki/Battle_of_Tranter%27s_Creek", "="]
+    - ["NC006", "="]
 - date: '1862-06-25'
   event: Battle
   location: "Seven Days' Battles"
   'no': '71'
+  links:
+    - ["http://en.wikipedia.org/wiki/Battle_of_Oak_Grove", ">"]
+    - ["VA015", ">"]
+    - ["http://en.wikipedia.org/wiki/Battle_of_Beaver_Dam_Creek", ">"]
+    - ["VA016", ">"]
+    - ["http://en.wikipedia.org/wiki/Battle_of_Gaines%27s_Mill", ">"]
+    - ["VA017", ">"]
+    - ["http://en.wikipedia.org/wiki/Battle_of_Garnett%27s_%26_Golding%27s_Farm", ">"]
+    - ["VA018", ">"]
+    - ["http://en.wikipedia.org/wiki/Battle_of_Savage%27s_Station", ">"]
+    - ["VA019", ">"]
+    - ["http://en.wikipedia.org/wiki/Battle_of_White_Oak_Swamp", ">"]
+    - ["http://en.wikipedia.org/wiki/Battle_of_Glendale", ">"]
+    - ["VA020", ">"]
+    - ["VA020A", ">"]
+    - ["VA020B", ">"]
+    - ["http://en.wikipedia.org/wiki/Battle_of_Malvern_Hill", ">"]
+    - ["VA021", ">"]
+    
 - date: '1862-06-27'
   event: Battle
   location: "Gaine's Mill, VA"
   'no': '72'
+  links:
+    - ["http://en.wikipedia.org/wiki/Battle_of_Gaines%27s_Mill", ">"]
+    - ["VA017", ">"]
+
 - date: '1862-07-07'
   event: Action
   location: Bayou Cache, AR
   'no': '73'
+  links:
+    - ["http://en.wikipedia.org/wiki/Battle_of_Cotton_Plant", "="]
+    - ["AR003", "="]
 - date: '1862-07-17'
   event: Raid
   location: Cynthia, KY
@@ -375,6 +426,9 @@
   event: Engagement
   location: Lone Jack, MO
   'no': '77'
+  links:
+    - ["http://en.wikipedia.org/wiki/Battle_of_Lone_Jack", "="]
+    - ["MO015", "="]
 - date: '1862-09-01'
   event: Engagement
   location: "Britton's Lane, TN"
@@ -391,6 +445,9 @@
   event: Battle
   location: Corinth, MS
   'no': '81'
+  links:
+    - ["http://en.wikipedia.org/wiki/Second_Battle_of_Corinth", "="]
+    - ["MS002", "="]
 - date: '1862-10-09'
   event: Engagement
   location: Lawrenceburg, KY
@@ -403,6 +460,9 @@
   event: Battle
   location: Stone River, TN
   'no': '84'
+  links:
+    - ["http://en.wikipedia.org/wiki/Second_Battle_of_Corinth", "="]
+    - ["TN010", "="]
 - date: '1863-02-10'
   event: Skirmish
   location: Old River, LA
@@ -415,10 +475,16 @@
   event: Battle
   location: Chancellorsville, VA
   'no': '87'
+  links:
+    - ["http://en.wikipedia.org/wiki/Battle_of_Chancellorsville", "="]
+    - ["VA023", "="]
 - date: '1863-06-06'
   event: Battle
   location: "Milliken's Bend, LA"
   'no': '88'
+  links:
+    - ["http://en.wikipedia.org/wiki/Battle_of_Milliken%27s_Bend", "="]
+    - ["LA011", "="]
 - date: '1863-06-18'
   event: Engagement
   location: Rocky Crossing, MS
@@ -431,6 +497,9 @@
   event: Battle
   location: Gettysburg, PA
   'no': '91'
+  links:
+    - ["http://en.wikipedia.org/wiki/Battle_of_Milliken%27s_Bend", "="]
+    - ["PA002", "="]
 - date: '1863-09-14'
   event: Skirmishes
   location: Vidalia, LA
@@ -439,17 +508,20 @@
   event: Battle
   location: Chicamauga, GA
   'no': '93'
+  links:
+    - ["http://en.wikipedia.org/wiki/Battle_of_Chickamauga", "="]
+    - ["GA004", "="]
 - date: '1863-10-03'
   event: Engagement
   location: McMinnville, TN
   'no': '94'
 - date: '1863-10-11'
   event: Engagement
-  location: Henderson's Mill, TN
+  location: "Henderson's Mill, TN"
   'no': '95'
 - date: '1863-10-12'
   event: Engagement
-  location: Merrill's Crossing, MO
+  location: "Merrill's Crossing, MO"
   'no': '96'
 - date: '1863-10-13'
   event: Action
@@ -459,13 +531,16 @@
   event: Engagement
   location: Pine Bluff, AR
   'no': '98'
+  links:
+    - ["http://en.wikipedia.org/wiki/Battle_of_Pine_Bluff", "="]
+    - ["AR011", "="]
 - date: '1864-02-19'
   event: Attack by Confederates
-  location: Waugh's Farm, AR
+  location: "Waugh's Farm, AR"
   'no': '99'
 - date: '1864-03-31'
   event: Attack by Confederates
-  location: Roach's Plantation, MS
+  location: "Roach's Plantation, MS"
   'no': '100'
 - date: '1864-04-02'
   event: Engagement (hand-to-hand)
@@ -475,14 +550,23 @@
   event: Battle
   location: Wilderness, VA
   'no': '102'
+  links:
+    - ["http://en.wikipedia.org/wiki/Battle_of_the_Wilderness", "="]
+    - ["VA046", "="]
 - date: '1864-05-13'
   event: Battle
   location: Reseca, GA
   'no': '103'
+  links:
+    - ["http://en.wikipedia.org/wiki/Battle_of_Resaca", "="]
+    - ["GA008", "="]
 - date: '1864-05-15'
   event: Battle
   location: New Market, VA
   'no': '104'
+  links:
+    - ["VA110", "="]
+    - ["http://en.wikipedia.org/wiki/Battle_of_New_Market", "="]
 - date: '1864-05-16'
   event: Battle
   location: Bermuda Hundred, VA
@@ -491,17 +575,26 @@
   event: Battle
   location: Cold Harbor, VA
   'no': '106'
+  links:
+    - ["http://en.wikipedia.org/wiki/Battle_of_Cold_Harbor", "="]
+    - ["VA062", "="]
 - date: '1864-06-10'
   event: Battle
-  location: Brice's Crossroads, MS
+  location: "Brice's Crossroads, MS"
   'no': '107'
+  links:
+    - ["MS014", "="]
+    - ["http://en.wikipedia.org/wiki/Battle_of_Brice%27s_Crossroads", "="]
 - date: '1864-07-09'
   event: Battle
   location: Monocacy Bridge, MD
   'no': '108'
+  links:
+    - ["http://en.wikipedia.org/wiki/Battle_of_Monocacy", "="]
+    - ["MD007", "="]
 - date: '1864-07-26'
   event: Engagement
-  location: Wallace's Ferry, AR
+  location: "Wallace's Ferry, AR"
   'no': '109'
 - date: '1864-07-27'
   event: Attack by Confederates
@@ -509,12 +602,18 @@
   'no': '110'
 - date: '1864-09-22'
   event: Battle
-  location: Fisher's Hill, VA
+  location: "Fisher's Hill, VA"
   'no': '111'
+  links:
+    - ["http://en.wikipedia.org/wiki/Battle_of_Fisher%27s_Hill", "="]
+    - ["VA120", "="]
 - date: '1864-10-05'
   event: Attack by Confederates
   location: Allatoona, GA
   'no': '112'
+  links:
+    - ["http://en.wikipedia.org/wiki/Battle_of_Allatoona", "="]
+    - ["GA023", "="]
 - date: '1864-10-11'
   event: Attack by Confederates
   location: Fort Nelson, TN
@@ -523,6 +622,9 @@
   event: Battle
   location: Nashville, TN
   'no': '114'
+  links:
+    - ["http://en.wikipedia.org/wiki/Battle_of_Nashville", "="]
+    - ["TN038", "="]
 - date: '1864-12-25'
   event: Engagement
   location: Fort Fisher, NC
@@ -531,6 +633,9 @@
   event: Bombardment & Assault
   location: Fort Fisher, NC
   'no': '116'
+  links:
+    - ["http://en.wikipedia.org/wiki/First_Battle_of_Fort_Fisher", "="]
+    - ["NC014", "="]
 - date: '1865-03-26'
   event: Siege
   location: Mobile, AL
@@ -539,11 +644,20 @@
   event: Siege
   location: Spanish Fort, AL
   'no': '118'
+  links:
+    - ["http://en.wikipedia.org/wiki/Battle_of_Spanish_Fort", "="]
+    - ["AL005", "="]
 - date: '1865-04-01'
   event: Battle
   location: Five Forks, VA
   'no': '119'
+  links:
+    - ["http://en.wikipedia.org/wiki/Battle_of_Five_Forks", "="]
+    - ["VA088", "="]
 - date: '1865-04-02'
   event: Assault
   location: Petersburg, VA
   'no': '120'
+  links:
+    - ["http://en.wikipedia.org/wiki/Third_Battle_of_Petersburg", "="]
+    - ["VA089", "="]
