@@ -1,0 +1,549 @@
+- date: '1861-06-01'
+  event: Skirmish
+  location: Fairfax Courthouse, VA
+  'no': '1'
+- date: '1861-06-10'
+  event: Engagement
+  location: Big Bethel, VA
+  'no': '2'
+  links: 
+    - ['http://en.wikipedia.org/wiki/Battle_of_Big_Bethel', '=']
+    - ['VA003', '=']
+- date: '1861-06-17'
+  event: Action
+  location: Vienna, VA
+  'no': '3'
+- date: '1861-06-17'
+  event: Engagement
+  location: Booneville, MO
+  'no': '4'
+  links:
+    - ['MO001', '=']
+    - [- ['http://en.wikipedia.org/wiki/Battle_of_Big_Bethel', '=']
+    - ['VA003', '=']
+- date: '1861-06-17'
+  event: Action
+  location: Vienna, VA
+  'no': '3'
+- date: '1861-06-17'
+  event: Engagement
+  location: Booneville, MO
+  'no': '4'
+  links:
+    - ['MO001', '=']
+    - [- ['http://en.wikipedia.org/wiki/Battle_of_Big_Bethel', '=']
+    - ['VA003', '=']
+- date: '1861-06-17'
+  event: Action
+  location: Vienna, VA
+  'no': '3'
+- date: '1861-06-17'
+  event: Engagement
+  location: Booneville, MO
+  'no': '4'
+  links:
+    - ['MO001', '=']
+    - ['http://en.wikipedia.org/wiki/Battle_of_Boonville', '=']
+- date: '1861-06-26'
+  event: Skirmish
+  location: Frankfort, WV
+  'no': '5'
+  links: 
+- date: '1861-07-05'
+  event: Skirmish
+  location: Newport News, VA
+  'no': '6'
+- date: '1861-07-18'
+  event: Skirmish
+  location: Martinsburg, MO
+  'no': '7'
+- date: '1861-07-18'
+  event: Action
+  location: Harrisonville, MO
+  'no': '8'
+- date: '1861-07-21'
+  event: Battle
+  location: Bull Run, VA
+  'no': '9'
+  links:
+    - ['http://en.wikipedia.org/wiki/First_Battle_of_Bull_Run', '=']
+    - ['VA005', '=']
+- date: '1861-07-25'
+  event: Skirmish
+  location: Mesilla, NM
+  'no': '10'
+- date: '1861-07-26'
+  event: Skirmish
+  location: Lanes Prairie, MO
+  'no': '11'
+- date: '1861-08-05'
+  event: Attack by Confederates
+  location: Athens, MO
+  'no': '12'
+- date: '1861-08-10'
+  event: Battle
+  location: "Wilson's Creek, MO"
+  'no': '13'
+  links:
+    - ['http://en.wikipedia.org/wiki/Battle_of_Wilson%27s_Creek', '=']
+    - ['MO004', '=']
+- date: '1861-08-19'
+  event: Battle
+  location: Charleston, MO
+  'no': '14'
+- date: '1861-08-29'
+  event: Skirmish
+  location: Lexington, MO
+  'no': '15'
+- date: '1861-08-30'
+  event: Skirmishes
+  location: "Bailey's Crossroads, VA"
+  'no': '16'
+- date: '1861-09-12'
+  event: Engagement
+  location: Cheat Mountain, WV
+  'no': '17'
+  links: 
+    - ["http://en.wikipedia.org/wiki/Battle_of_Cheat_Mountain", "="]
+    - ["WV005", "="]
+- date: '1861-09-17'
+  event: Action
+  location: Blue Mills Landing, MO
+  'no': '18'
+  links:
+    - ["http://en.wikipedia.org/wiki/Battle_of_Liberty", "="]
+    - ["MO003", "="]
+- date: '1861-09-17'
+  event: Skirmish
+  location: Morristown, MO
+  'no': '19'
+- date: '1861-09-18'
+  event: Skirmish
+  location: Barboursville, WV
+  'no': '20'
+# Check these
+- date: '1861-09-19'
+  event: Engagement
+  location: Barboursville, WV
+  'no': '21'
+- date: '1861-09-23'
+  event: Engagements
+  location: Romney, WV
+  'no': '22'
+- date: '1861-10-03'
+  event: Engagement
+  location: Green Brier, WV
+  'no': '23'
+  links: 
+    - ["http://en.wikipedia.org/wiki/Battle_of_Greenbrier_River", "="]
+    - ["WV007", "="]
+- date: '1861-10-09'
+  event: Action
+  location: Santa Rosa, FL
+  'no': '24'
+  links:
+    - ["FL001", "="]
+    - ["http://en.wikipedia.org/wiki/Battle_of_Santa_Rosa_Island", "="]
+- date: '1861-10-12'
+  event: Skirmish
+  location: Barren Co., KY
+  'no': '25'
+- date: '1861-10-12'
+  event: Skirmish
+  location: Cameron, MO
+  'no': '26'
+- date: '1861-10-13'
+  event: Skirmish
+  location: Beckwith's Farm, MO
+  'no': '27'
+- date: '1861-10-14'
+  event: Skirmish
+  location: Underwood's Farm, MO
+  'no': '28'
+- date: '1861-10-15'
+  event: Engagement
+  location: Big River Bridge, MO
+  'no': '29'
+- date: '1861-10-15'
+  event: Skirmish
+  location: Little River Turnpike, VA
+  'no': '30'
+- date: '1861-10-19'
+  event: Action
+  location: Big Hurricane Creek, WV
+  'no': '31'
+- date: '1861-10-20'
+  event: Engagement
+  location: Fredericktown, MO
+  'no': '32'
+  links:
+    - ["http://en.wikipedia.org/wiki/Battle_of_Fredericktown", "="]
+    - ["MO007", "="]
+- date: '1861-10-21'
+  event: Battle
+  location: "Ball's Bluff, VA"
+  'no': '33'
+  links:
+    - ["http://en.wikipedia.org/wiki/Battle_of_Ball%27s_Bluff", "="]
+    - ["VA006", "="]
+- date: '1861-10-23'
+  event: Skirmish
+  location: Hodgesville, KY
+  'no': '34'
+- date: '1861-10-25'
+  event: Fed. Charge
+  location: Springfield, MO
+  'no': '35'
+  links: 
+    - ["http://en.wikipedia.org/wiki/First_Battle_of_Springfield", "="]
+    - ["MO008", "="]
+- date: '1861-10-29'
+  event: Skirmishes
+  location: Woodbury, KY
+  'no': '36'
+- date: '1861-11-07'
+  event: Engagement
+  location: Belmont, MO
+  'no': '37'
+  links:
+    - ["http://en.wikipedia.org/wiki/Battle_of_Belmont", "="]
+    - ["MO009", "="]
+- date: '1861-11-10'
+  event: Affair
+  location: Guyandotte, WV
+  'no': '38'
+- date: '1861-11-23'
+  event: Bombardment by Federals
+  location: Pensacola, FL
+  'no': '39'
+- date: '1861-11-24'
+  event: Skirmish
+  location: Lancaster, MO
+  'no': '40'
+- date: '1861-12-02'
+  event: Skirmish
+  location: Annandale, VA
+  'no': '41'
+- date: '1861-12-13'
+  event: Engagement
+  location: Buffalo Mountain, WV
+  'no': '42'
+  links:
+    - ["http://en.wikipedia.org/wiki/Battle_of_Camp_Allegheny", "="]
+    - ["WV008", "="]
+- date: '1861-12-21'
+  event: Skirmish
+  location: Hudson, MO
+  'no': '43'
+- date: '1861-12-28'
+  event: Action
+  location: Mount Zion Church, MO
+  'no': '44'
+  links:
+    - ["http://en.wikipedia.org/wiki/Battle_of_Mount_Zion_Church", "="]
+    - ["MO010", "="]
+# TODO
+- date: '1862-01-01'
+  event: Nav. Engagement
+  location: Port Royal, SC
+  'no': '45'
+- date: '1862-01-03'
+  event: Skirmish
+  location: Huntersville, WV
+  'no': '46'
+- date: '1862-01-07'
+  event: Skirmish
+  location: "Jennie's Creek, KY"
+  'no': '47'
+- date: '1862-01-08'
+  event: Action
+  location: Silver Creek, MO
+  'no': '48'
+- date: '1862-01-10'
+  event: Engagement
+  location: Middle Creek, KY
+  'no': '49'
+- date: '1862-01-19'
+  event: Engagement
+  location: Mill Spring, KY
+  'no': '50'
+- date: '1862-02-08'
+  event: Battle
+  location: Roanoke Island, NC
+  'no': '51'
+- date: '1862-02-16'
+  event: Engagement
+  location: Fort Donelson, TN
+  'no': '52'
+- date: '1862-02-21'
+  event: Engagement
+  location: Val Verde, NM
+  'no': '53'
+- date: '1862-03-09'
+  event: Skirmish
+  location: "Granny White's Pike, TN"
+  'no': '54'
+- date: '1862-03-10'
+  event: Skirmish
+  location: La Fayette Co., MO
+  'no': '55'
+- date: '1862-03-19'
+  event: Operations
+  location: Johnson Co., MO
+  'no': '56'
+- date: '1862-03-22'
+  event: Skirmish
+  location: Litte Santa Fe, MO
+  'no': '57'
+- date: '1862-03-26'
+  event: Skirmish
+  location: Apache Canon, NM
+  'no': '58'
+- date: '1862-03-26'
+  event: Action
+  location: Post Oak, MO
+  'no': '59'
+- date: '1862-03-28'
+  event: Engagement
+  location: Glorietta, NM
+  'no': '60'
+- date: '1862-03-31'
+  event: Skirmish
+  location: Pink Hill, MO
+  'no': '61'
+- date: '1862-04-09'
+  event: Skirmish
+  location: Jackson, MO
+  'no': '62'
+- date: '1862-04-13'
+  event: Skirmish
+  location: Gilletts Farm, NC
+  'no': '63'
+- date: '1862-04-27'
+  event: Skirmish
+  location: "Haughton's Mill, NC"
+  'no': '64'
+- date: '1862-04-28'
+  event: Skirmish
+  location: Paint Rock, AL
+  'no': '65'
+- date: '1862-05-09'
+  event: Skirmish
+  location: Elkton Station, AL
+  'no': '66'
+- date: '1862-05-27'
+  event: Skirmish
+  location: Searcy, AR
+  'no': '67'
+- date: '1862-05-30'
+  event: Skirmish
+  location: "Tranter's Creek, NC"
+  'no': '68'
+- date: '1862-05-31'
+  event: Battle
+  location: Seven Pines & Fair Oaks, VA
+  'no': '69'
+- date: '1862-06-05'
+  event: Action
+  location: "Tranter's Creek, NC"
+  'no': '70'
+- date: '1862-06-25'
+  event: Battle
+  location: "Seven Days' Battles"
+  'no': '71'
+- date: '1862-06-27'
+  event: Battle
+  location: "Gaine's Mill, VA"
+  'no': '72'
+- date: '1862-07-07'
+  event: Action
+  location: Bayou Cache, AR
+  'no': '73'
+- date: '1862-07-17'
+  event: Raid
+  location: Cynthia, KY
+  'no': '74'
+- date: '1862-07-18'
+  event: Skirmish
+  location: Memphis, MO
+  'no': '75'
+- date: '1862-08-04'
+  event: Skirmish
+  location: Sparta, TN
+  'no': '76'
+- date: '1862-08-16'
+  event: Engagement
+  location: Lone Jack, MO
+  'no': '77'
+- date: '1862-09-01'
+  event: Engagement
+  location: "Britton's Lane, TN"
+  'no': '78'
+- date: '1862-09-17'
+  event: Engagement
+  location: Florence, KY
+  'no': '79'
+- date: '1862-09-17'
+  event: Engagement
+  location: Falmouth, KY
+  'no': '80'
+- date: '1862-10-03'
+  event: Battle
+  location: Corinth, MS
+  'no': '81'
+- date: '1862-10-09'
+  event: Engagement
+  location: Lawrenceburg, KY
+  'no': '82'
+- date: '1862-12-21'
+  event: Engagement
+  location: Davis Mill, MS
+  'no': '83'
+- date: '1863-01-02'
+  event: Battle
+  location: Stone River, TN
+  'no': '84'
+- date: '1863-02-10'
+  event: Skirmish
+  location: Old River, LA
+  'no': '85'
+- date: '1863-04-29'
+  event: Capture
+  location: Fairmount, WV
+  'no': '86'
+- date: '1863-05-01'
+  event: Battle
+  location: Chancellorsville, VA
+  'no': '87'
+- date: '1863-06-06'
+  event: Battle
+  location: "Milliken's Bend, LA"
+  'no': '88'
+- date: '1863-06-18'
+  event: Engagement
+  location: Rocky Crossing, MS
+  'no': '89'
+- date: '1863-06-29'
+  event: Engagement
+  location: McConnelsburg, PA
+  'no': '90'
+- date: '1863-07-01'
+  event: Battle
+  location: Gettysburg, PA
+  'no': '91'
+- date: '1863-09-14'
+  event: Skirmishes
+  location: Vidalia, LA
+  'no': '92'
+- date: '1863-09-19'
+  event: Battle
+  location: Chicamauga, GA
+  'no': '93'
+- date: '1863-10-03'
+  event: Engagement
+  location: McMinnville, TN
+  'no': '94'
+- date: '1863-10-11'
+  event: Engagement
+  location: Henderson's Mill, TN
+  'no': '95'
+- date: '1863-10-12'
+  event: Engagement
+  location: Merrill's Crossing, MO
+  'no': '96'
+- date: '1863-10-13'
+  event: Action
+  location: Wyatts, MS
+  'no': '97'
+- date: '1863-10-25'
+  event: Engagement
+  location: Pine Bluff, AR
+  'no': '98'
+- date: '1864-02-19'
+  event: Attack by Confederates
+  location: Waugh's Farm, AR
+  'no': '99'
+- date: '1864-03-31'
+  event: Attack by Confederates
+  location: Roach's Plantation, MS
+  'no': '100'
+- date: '1864-04-02'
+  event: Engagement (hand-to-hand)
+  location: Pensacola, FL
+  'no': '101'
+- date: '1864-05-05'
+  event: Battle
+  location: Wilderness, VA
+  'no': '102'
+- date: '1864-05-13'
+  event: Battle
+  location: Reseca, GA
+  'no': '103'
+- date: '1864-05-15'
+  event: Battle
+  location: New Market, VA
+  'no': '104'
+- date: '1864-05-16'
+  event: Battle
+  location: Bermuda Hundred, VA
+  'no': '105'
+- date: '1864-06-01'
+  event: Battle
+  location: Cold Harbor, VA
+  'no': '106'
+- date: '1864-06-10'
+  event: Battle
+  location: Brice's Crossroads, MS
+  'no': '107'
+- date: '1864-07-09'
+  event: Battle
+  location: Monocacy Bridge, MD
+  'no': '108'
+- date: '1864-07-26'
+  event: Engagement
+  location: Wallace's Ferry, AR
+  'no': '109'
+- date: '1864-07-27'
+  event: Attack by Confederates
+  location: Fort Smith, AR
+  'no': '110'
+- date: '1864-09-22'
+  event: Battle
+  location: Fisher's Hill, VA
+  'no': '111'
+- date: '1864-10-05'
+  event: Attack by Confederates
+  location: Allatoona, GA
+  'no': '112'
+- date: '1864-10-11'
+  event: Attack by Confederates
+  location: Fort Nelson, TN
+  'no': '113'
+- date: '1864-12-15'
+  event: Battle
+  location: Nashville, TN
+  'no': '114'
+- date: '1864-12-25'
+  event: Engagement
+  location: Fort Fisher, NC
+  'no': '115'
+- date: '1865-01-13'
+  event: Bombardment & Assault
+  location: Fort Fisher, NC
+  'no': '116'
+- date: '1865-03-26'
+  event: Siege
+  location: Mobile, AL
+  'no': '117'
+- date: '1865-03-26'
+  event: Siege
+  location: Spanish Fort, AL
+  'no': '118'
+- date: '1865-04-01'
+  event: Battle
+  location: Five Forks, VA
+  'no': '119'
+- date: '1865-04-02'
+  event: Assault
+  location: Petersburg, VA
+  'no': '120'
