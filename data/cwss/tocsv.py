@@ -22,8 +22,8 @@ def battle_csv(root, dst):
     'BattleName',
     'BattleType',
     'CampaignCode',
-    'CampaignDates',
-    'CampaignName',
+    #'CampaignDates',
+    #'CampaignName',
     'Comment',
     'EndDate',
     'ID',
@@ -34,7 +34,7 @@ def battle_csv(root, dst):
     'Summary',
     'SummarySource',
     'TheaterCode',
-    'TheaterName',
+    # 'TheaterName',
     'TotalCasualties'
     )
     with open(dst, 'w') as f:
@@ -46,6 +46,39 @@ def battle_csv(root, dst):
             for fld in fields:
                 battle[fld] = properties.find(xmlns('d:%s' % fld)).text
             writer.writerow(battle)
+            
+def theaters_csv(root, dst):
+    theaters = {}
+    with open(dst, 'w') as f:
+        writer = csv.DictWriter(f, ('TheaterCode', 'TheaterName'))
+        writer.writeheader()
+        for i, entry in enumerate(root.findall('.//%s' % xmlns('entry'))):
+            properties = entry.find('./%s/%s' % (xmlns('content'), xmlns('m:properties'))) 
+            theater_code = properties.find(xmlns('d:TheaterCode')).text
+            theater_name = properties.find(xmlns('d:TheaterName')).text
+            if theater_code:
+                theaters[theater_code] = theater_name
+        theaters_rows = [{'TheaterCode': k, 'TheaterName': v} for k, v in theaters.items()]
+        writer.writerows(theaters_rows)
+        
+def campaigns_csv(root, dst):
+    campaigns = {}
+    with open(dst, 'w') as f:
+        writer = csv.DictWriter(f, ('CampaignCode', 'CampaignName', 'CampaignDates', 'TheaterCode'))
+        writer.writeheader()
+        for i, entry in enumerate(root.findall('.//%s' % xmlns('entry'))):
+            properties = entry.find('./%s/%s' % (xmlns('content'), xmlns('m:properties'))) 
+            campaign_code = properties.find(xmlns('d:CampaignCode')).text
+            campaign_name = properties.find(xmlns('d:CampaignName')).text
+            campaign_dates = properties.find(xmlns('d:CampaignDates')).text
+            theater_code = properties.find(xmlns('d:TheaterCode')).text
+            if campaign_code and campaign_code.strip() != '' and campaign_code not in campaigns:
+                campaigns[campaign_code] = {'CampaignCode': campaign_code,
+                                            'CampaignName': campaign_name,
+                                            'CampaignDates': campaign_dates,
+                                            'TheaterCode': theater_code}
+        for k, v in campaigns.items():
+            writer.writerow(v) 
 
 def guid_clean(x):
     return x.lower().replace("{", "").replace("}", "")
@@ -56,7 +89,6 @@ def commander_csv(root, dst):
         writer = csv.DictWriter(f, fields)
         writer.writeheader()
         for entry in root.findall('.//%s' % xmlns('entry')):
-            battle = {}
             properties = entry.find('./%s/%s' % (xmlns('content'), xmlns('m:properties'))) 
             battlecode = properties.find(xmlns("d:BattlefieldCode")).text
             enemy = properties.find(xmlns("d:EnemyName")).text
@@ -108,7 +140,41 @@ def people_csv(root, dst):
             row = {}        
             for fld in fields:
                 row[fld] = properties.find(xmlns('d:%s' % fld)).text
-            writer.writerow(row)            
+            writer.writerow(row)   
+            
+def battleunitslink_csv(root, dst):
+    fields = (
+    'BattlefieldCode',
+    'Comment',
+    'Source',
+    'UnitCode'
+    )
+    with open(dst, 'w') as f:
+        writer = csv.DictWriter(f, fields)
+        writer.writeheader()
+        for i, entry in enumerate(root.findall('.//%s' % xmlns('entry'))):            
+            row = {}
+            properties = entry.find('./%s/%s' % (xmlns('content'), xmlns('m:properties'))) 
+            for fld in fields:
+                row[fld] = properties.find(xmlns('d:%s' % fld)).text
+            row['BattlefieldCode'] = row['BattlefieldCode'].upper()
+            writer.writerow(row)
+            
+def units_csv(root, dst):
+    fields = (
+    'ID',
+    'UnitCode',
+    'UnitName',
+    )
+    with open(dst, 'w') as f:
+        writer = csv.DictWriter(f, fields)
+        writer.writeheader()
+        for i, entry in enumerate(root.findall('.//%s' % xmlns('entry'))):           
+            row = {}
+            properties = entry.find('./%s/%s' % (xmlns('content'), xmlns('m:properties'))) 
+            for fld in fields:
+                row[fld] = properties.find(xmlns('d:%s' % fld)).text
+            writer.writerow(row) 
 
 parser = ET.XMLParser(encoding = 'cp1252')
 
@@ -117,6 +183,17 @@ with open('battle.xml', 'rb') as f:
 commander_csv(battles, "cwss_commanders.csv")
 battle_csv(battles, 'cwss_battles.csv')
 forces_csv(battles, 'cwss_forces.csv')
+theaters_csv(battles, 'cwss_theaters.csv')
+campaigns_csv(battles, 'cwss_campaigns.csv')
+
 with open('persons.xml', 'rb') as f:
         persons = ET.fromstring(f.read(), parser)  
 people_csv(persons, 'cwss_persons.csv')
+
+with open('battleunitlink.xml', 'rb') as f:
+        battleunitlinks = ET.fromstring(f.read(), parser)  
+battleunitslink_csv(battleunitlinks, 'cwss_battleunitlinks.csv')
+
+with open('units.xml', 'rb') as f:
+        battleunitlinks = ET.fromstring(f.read(), parser)  
+units_csv(battleunitlinks, 'cwss_units.csv')
