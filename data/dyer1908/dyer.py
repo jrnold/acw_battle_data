@@ -13,6 +13,10 @@ _months = dict(zip(["Jan", "Feb", "March", "April", "May", "June",
                    "July", "Aug", "Sept", "Oct", "Nov", "Dec"],
                   range(1, 13)))
 
+with open('engagement_types.csv', 'r') as f:
+    reader = csv.DictReader(f)
+    ENGAGEMENT_TYPES = dict((x['from'], x['to']) for x in reader)
+    
 STATES = {
     'Minnesota': 'MN',
     'California': 'CA',
@@ -127,10 +131,18 @@ def xml_to_csv(source, writer):
                         endDate = datetime_.strptime(date_range.get("to"),
                                                  "%Y-%m-%d").date()
                 # Event type
-                event_type = head.findtext("rs")
+                event_type_tmp = head.findtext("rs")
+                if event_type_tmp in ENGAGEMENT_TYPES:
+                    event_type = ENGAGEMENT_TYPES[event_type_tmp]
+                else:
+                    if nevent == 4319:
+                        event_type = "Reoccupation" # Re-occupation of New Madrid
+                    elif nevent == 6348:
+                        event_type = "Reopening" # Oct. 26-29: Re-opening, Tennessee River
+                    else:
+                        event_type = ""
                 ## head_text
                 event = tostring(head, method = "text", encoding = 'utf-8').decode('utf-8')
-                print(type(event))
                 # Text
                 text = elem.findtext("p").strip()
                 ## Casualties
