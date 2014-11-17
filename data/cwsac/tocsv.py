@@ -85,7 +85,7 @@ def combatants_csv(data, filename):
         writer.writeheader()
         for battle, battle_data in data.items():
             for combatant, x in battle_data['combatants'].items():
-                row = dict_subset(battle_data, combatant_fields)
+                row = dict_subset(x, combatant_fields)
                 row['battle'] = battle
                 row['combatant'] = combatant
                 writer.writerow(row)
@@ -109,5 +109,5 @@ with open(SRC, 'r') as f:
     data = json.load(f)
 
 battle_csv(data, 'cwsac_battles.csv')
-combatants_csv(data, 'cwsac_comabatants.csv')
+combatants_csv(data, 'cwsac_combatants.csv')
 commanders_csv(data, 'cwsac_commanders.csv')
