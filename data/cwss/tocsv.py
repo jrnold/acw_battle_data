@@ -176,24 +176,29 @@ def units_csv(root, dst):
                 row[fld] = properties.find(xmlns('d:%s' % fld)).text
             writer.writerow(row) 
 
-parser = ET.XMLParser(encoding = 'cp1252')
+def main():
+    
+    parser = ET.XMLParser(encoding = 'cp1252')
 
-with open('battle.xml', 'rb') as f:
-    battles = ET.fromstring(f.read(), parser)    
-commander_csv(battles, "cwss_commanders.csv")
-battle_csv(battles, 'cwss_battles.csv')
-forces_csv(battles, 'cwss_forces.csv')
-theaters_csv(battles, 'cwss_theaters.csv')
-campaigns_csv(battles, 'cwss_campaigns.csv')
+    with open('battle.xml', 'rb') as f:
+        battles = ET.fromstring(f.read(), parser)    
+    commander_csv(battles, "cwss_commanders.csv")
+    battle_csv(battles, 'cwss_battles.csv')
+    forces_csv(battles, 'cwss_forces.csv')
+    theaters_csv(battles, 'cwss_theaters.csv')
+    campaigns_csv(battles, 'cwss_campaigns.csv')
 
-with open('persons.xml', 'rb') as f:
-        persons = ET.fromstring(f.read(), parser)  
-people_csv(persons, 'cwss_persons.csv')
+    with open('persons.xml', 'rb') as f:
+            persons = ET.fromstring(f.read(), parser)  
+    people_csv(persons, 'cwss_persons.csv')
 
-with open('battleunitlink.xml', 'rb') as f:
-        battleunitlinks = ET.fromstring(f.read(), parser)  
-battleunitslink_csv(battleunitlinks, 'cwss_battleunitlinks.csv')
+    with open('battleunitlink.xml', 'rb') as f:
+            battleunitlinks = ET.fromstring(f.read(), parser)  
+    battleunitslink_csv(battleunitlinks, 'cwss_battleunitlinks.csv')
 
-with open('units.xml', 'rb') as f:
-        battleunitlinks = ET.fromstring(f.read(), parser)  
-units_csv(battleunitlinks, 'cwss_units.csv')
+    with open('units.xml', 'rb') as f:
+            battleunitlinks = ET.fromstring(f.read(), parser)  
+    units_csv(battleunitlinks, 'cwss_units.csv')
+
+if __name__ == "__main__":
+    main()
