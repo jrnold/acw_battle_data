@@ -20,7 +20,6 @@ battle_fields = (#'cwsac_reference',
           'description',
           'casualties_text',
           'url',
-          'battle',
           'strength',
           'campaign',
           'results_text',
@@ -109,5 +108,5 @@ with open(SRC, 'r') as f:
     data = json.load(f)
 
 battle_csv(data, 'cwsac_battles.csv')
-combatants_csv(data, 'cwsac_comabatants.csv')
+combatants_csv(data, 'cwsac_combatants.csv')
 commanders_csv(data, 'cwsac_commanders.csv')
