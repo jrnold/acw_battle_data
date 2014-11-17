@@ -13,3 +13,5 @@ Data from Livermore (1900) "Numbers and Losses in the Civil War".
 - `Table_A.csv`: Data on forces and casualties from Table A on pp. 140--141.
 - `liv_army_sizes.csv`: Comparison of number on rolls in Confederate and Union armies; table on p. 47.
 - `forces_and_casualties.csv` Force sizes and casualties from the text. These have a higher level of disaggregation than those reported in Table A, and can also differ due to typos in the original source.
+
+Note that the `LIVRMORE` dataset contained in the `PAR` database includes this data.
