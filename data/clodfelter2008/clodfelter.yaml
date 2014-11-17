@@ -117,7 +117,7 @@ Western Theater 1861:
       k: 68
       w: 116
       m: 425
-  - name: "Hampton Roads"
+  - name: "Hampton Roads (first day)"
     links: [["VA008", "<"], ["https://en.wikipedia.org/wiki/Battle_of_Hampton_Roads", "<"]]
     p: 294
     start: 1862-3-8
@@ -134,7 +134,7 @@ Western Theater 1861:
       crewmen: 350
       w: 2
       w: 19
-  - name: "Hampton Roads"
+  - name: "Hampton Roads (second day)"
     links: [["VA008", "<"], ["https://en.wikipedia.org/wiki/Battle_of_Hampton_Roads", "<"]]
     p: 294
     start: 1862-3-9
@@ -163,7 +163,7 @@ Western Theater 1861:
       w: 144
       m: 8
 "East: 1862":
-  - name: Kernstown
+  - name: Kernstown (first)
     links: [["VA101"], ["https://en.wikipedia.org/wiki/First_Battle_of_Kernstown"]]
     p: 296
     start: 1862-3-23
@@ -200,7 +200,7 @@ Western Theater 1861:
     confed:
       s: 16000
       kw: 50
-  - name: Winchester
+  - name: Winchester (first)
     links: [["VA104"], ["https://en.wikipedia.org/wiki/First_Battle_of_Winchester"]]
     p: 296
     start: 1862-5-25
@@ -719,7 +719,7 @@ Western Theater 1861:
     confed:
       cavalry: 10000
       c: 523
-  - name: Winchester
+  - name: Winchester (second)
     links: [["VA107"], ["https://en.wikipedia.org/wiki/Second_Battle_of_Winchester"]]
     p: 302
     start: 1863-6-14
@@ -870,7 +870,7 @@ Western Theater 1861:
     confed:
       k: 22
       w: 25
-  - name: Donaldsville
+  - name: Donaldsville (first)
     links: [["https://en.wikipedia.org/wiki/Second_Battle_of_Donaldsonville"], ["LA013"]]
     p: 305
     start: 1863-6-28
@@ -880,7 +880,7 @@ Western Theater 1861:
     confed:
       s: 800
       c: 261
-  - name: Donaldsville
+  - name: Donaldsville (second)
     links: [["https://en.wikipedia.org/wiki/Battle_of_Kock%27s_Plantation"], ["LA015"]]
     p: 305
     start: 1863-7-13
@@ -1144,7 +1144,7 @@ Western Theater 1861:
       p: 2083
 
 "East: 1865":
-  - name: "Hatcher's Run"
+  - name: "Hatcher's Run (second)"
     links: [["https://en.wikipedia.org/wiki/Battle_of_Hatcher%27s_Run"], ["VA083"]]
     p: 317
     start: 1865-2-5
@@ -1171,7 +1171,7 @@ Western Theater 1861:
       For Confederacy, the V Corps lost 3,422.
     union: {infantry: 16000, cavalry: 12000, c: 1111}
     confed: {s: 19000, p: 5200}
-  - name: Petersburg (assault)
+  - name: Petersburg (second assault)
     links: [["VA089", "<"], ["https://en.wikipedia.org/wiki/Third_Battle_of_Petersburg", "<"]]
     p: 317
     start: 1865-4-2
@@ -1300,7 +1300,7 @@ Western Theater 1861:
     end: 1864-5-16
     union: {s: 15800, k: 390, w: 2380, m: 1390}
     confed: {s: 18025, k: 355, w: 2151}
-  - name: Petersburg (assault)
+  - name: Petersburg (first assault)
     links: [["https://en.wikipedia.org/wiki/Second_Battle_of_Petersburg"], ["VA063"]]
     p: 310
     start: 1864-6-15
@@ -1313,7 +1313,7 @@ Western Theater 1861:
     start: 1864-7-9
     union: {s: 6050, k: 90, w: 579, cm: 1290}
     confed: {s: 14000, c: 700}
-  - name: Kernstown
+  - name: Kernstown (second)
     links: [["VA116"], ["https://en.wikipedia.org/wiki/Second_Battle_of_Kernstown"]]
     p: 310
     start: 1864-7-24
@@ -1377,16 +1377,16 @@ Western Theater 1861:
     end: 1864-10-1
     union: {divisions: 4, k: 187, w: 900, m: 1802}
     confed: {divisions: 3, c: 900}
-  - name: "Hatcher's Run"
-    links: [["https://en.wikipedia.org/wiki/Battle_of_Hatcher%27s_Run"], ["VA083"]]
-    p: 310
+  - name: "Hatcher's Run (first)"
+    links: [["https://en.wikipedia.org/wiki/Battle_of_Boydton_Plank_Road"], ["VA079"]]
+    p: 311
     start: 1864-10-27
     end: 1864-10-28
     union: {s: 42823, k: 166, w: 1028, m: 564}
     confed: {s: 20324, c: 900}
   - name: Fair Oaks
     links: [["VA080"], ["https://en.wikipedia.org/wiki/Battle_of_Fair_Oaks_%26_Darbytown_Road"]]
-    p: 310
+    p: 311
     start: 1864-10-27
     end: 1864-10-28
     union: {s: 40000, c: 1103}
