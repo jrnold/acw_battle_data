@@ -1,8 +1,27 @@
-""" create csv tables from clodfelter.yaml """
+""" Create csv files from bodart1908/battles.py """
 import csv
-import re
+import os.path
+import sys
 
+import nameparser
 import yaml
+
+RANKS = {"Gen.-Lt." : "Lt. Gen", # "General-Leutnant",
+         "Gen." : "Gen.", # "General",
+         "GM." : "Maj. Gen.", # "General-Major",
+         "Adm." : "Adm.", # "Admiral",
+         "GL." : "Lt. Gen.", # "General-Leutnant",
+         "BM." : "Brig. Gen.", # "Brigade-General",
+         "Brig.-Gen." : "Brig. Gen.", # "Brigade-General",
+         "Oberst" : "Col.", # "Oberst",
+         "B.-G." : "Brig. Gen.", # "Brigade-General",
+         "Brig. Gen." : "Brig. Gen.", # "Brigade-General",
+         "komm. Gen." : "Gen.", # "General",
+         "Brig-Gen." : "Brig. Gen.", # Brigade-General",
+         "G.-L." : "Lt. Gen.", # "General-Leutnant",
+         "Brigadier Obst." : "Col.", # Brigadier Oberst" 
+}
+
 
 def dict_remove(x, exclude = []):
     return dict((k, v) for k, v in x.items() if k not in exclude)
@@ -10,150 +29,132 @@ def dict_remove(x, exclude = []):
 def dict_subset(x, include = []):
     return dict((k, v) for k, v in x.items() if k in include)
 
-def rename(x, k, j):
-    if k in x:
-        x[j] = x[k]
-        del x[k]
-
-def battles(data, filename):
-    with open(filename, 'w') as f:
-        fieldnames = ('name', 'theater', 'start_date', 'end_date', 'page')
-        writer = csv.DictWriter(f, fieldnames)
+def forces_csv(src, dst):
+    with open(src, 'r') as f:
+        data = yaml.load(f)
+    # Get fieldnames
+    fieldnames = set()
+    for battle, v in sorted(data.items()):
+        for force in ('victor', 'loser'):
+            for field, v2 in sorted(v[force].items()):
+                fieldnames.add(field)
+    fieldnames -= {'commander', 'generals_killed'}
+    with open(dst, 'w') as f:
+        writer = csv.DictWriter(f, ['battle', 'victor'] + list(fieldnames))
         writer.writeheader()
-        for theater, battles in data.items():
-            for battle in battles:
-                row = battle.copy()
-                fields = ('name', 'p', 'start', 'end')
-                row = dict_subset(row, fields)
-                rename(row, 'p', 'page')
-                rename(row, 'start', 'start_date')
-                rename(row, 'end', 'start_date')
-                if 'end_date' not in row:
-                    row['end_date'] = row['start_date']
-                row['theater'] = theater
-                writer.writerow(row)
-
-def forces(data, filename):
-    fields = set()
-    # for theater, battles in data.items():
-    #     for battle in battles:
-    #         for combatant in ('union', 'confed'):
-    #             for k in battle[combatant].keys():
-    #                 fields.add(k)
-    # for x in fields:
-    #     print("'%s'" % x + ',')
-    fields = ('cavalry',
-    'divisions',
-    'casualties',
-    'killed_missing',
-    'guns',
-    'killed',
-    'warships and transports',
-    'warships',
-    'killed_wounded',
-    'captured',
-    'gunboats captured',
-    'small arms lost',
-    'steamers',
-    'wounded',
-    'brigades',
-    'ironclads captured',
-    'crewmen',
-    'warships damaged',
-    'cavalry divisions',
-    'ironclads',
-    'missing',
-    'gunboats',
-    'warships sunk',
-    'guns lost',
-    'strength',
-    'corps',
-    'companies',
-    'forts captured',
-    'note',
-    'guns captured',
-    'captured_missing',
-    'cavalry corps',
-    'sloops',
-    'wounded_missing',
-    'wooden warships',
-    'iroclads sunk',
-    'gunboats sunk',
-    'infantry',
-    'frigates',
-    'small arms captured'
-    )
-    with open(filename, 'w') as f:
-        fieldnames = ['battle', 'belligerent'] + list(fields)
-        writer = csv.DictWriter(f, fieldnames)
-        writer.writeheader()
-        for theater, battles in data.items():
-            for battle in battles:
-                for combatant in ('union', 'confed'):
-                    row = battle[combatant].copy()
-                    row['battle'] = battle['name']
-                    row['belligerent'] = combatant
-                    rename(row, 'w', 'wounded')
-                    rename(row, 'wm', 'wounded_missing')
-                    rename(row, 'p', 'captured')
-                    rename(row, 's', 'strength')
-                    rename(row, 'c', 'casualties')
-                    rename(row, 'cm', 'captured_missing')
-                    rename(row, 'm', 'missing')
-                    rename(row, 'k', 'killed')
-                    rename(row, 'km', 'killed_missing')
-                    rename(row, 'kw', 'killed_wounded')
+        with open(dst, 'w') as f:
+            for battle, v in sorted(data.items()):
+                for side in ('victor', 'loser'):
+                    row = dict_subset(v[side], fieldnames)
+                    row['victor'] = side == 'victor'
+                    row['battle'] = battle
                     writer.writerow(row)
 
-def cwsac_links(data, filename):
-    with open(filename, 'w') as f:
-        fieldnames = ('battle', 'cwsac', 'relation')
+def commanders_csv(src, dst):
+    with open(src, 'r') as f:
+        data = yaml.load(f)
+    fieldnames = ('battle',
+                  'country',
+                  'name',
+                  'last_name',
+                  'first_name',
+                  'middle_name',
+                  'suffix',
+                  'rank')
+    with open(dst, 'w') as f:
         writer = csv.DictWriter(f, fieldnames)
         writer.writeheader()
-        for theater, battles in data.items():
-            for battle in battles:
-                if 'links' in battle:
-                    links = battle['links']
-                    for x in links:
-                        if re.match("[A-Z]{2}[0-9]{3}", x[0]):
-                            if len(x) == 1:
-                                row = {'cwsac': x[0], 'relation': '='}
-                            else:
-                                row = {'cwsac': x[0], 'relation': x[1]}
-                            row['battle'] = battle['name']
-                            writer.writerow(row)
-                else:
-                    print(battle)
+        with open(dst, 'w') as f:
+            for battle, v in sorted(data.items()):
+                for side in ('victor', 'loser'):
+                    if 'commander' in v[side]:
+                      cmdrs = v[side]['commander']
+                      if not isinstance(cmdrs, list):
+                          cmdrs = [cmdrs]
+                      for cmdr in cmdrs:
+                          row = cmdr.copy()
+                          parsed_name = nameparser.HumanName(row['name']).as_dict()
+                          # if only one name given, it is treated as a first name
+                          if parsed_name['last'] == '':
+                              row['first_name'] = ''
+                              row['last_name'] = parsed_name['first']
+                          else:
+                              row['first_name'] = parsed_name['first']
+                              row['last_name'] = parsed_name['last']
+                          row['middle_name'] = parsed_name['middle']
+                          row['suffix'] = parsed_name['suffix']
+                          row['battle'] = battle
+                          row['country'] = v[side]['country']
+                          row['rank'] = RANKS[row['rank']]
+                          writer.writerow(row)
 
-def dbpedia_links(data, filename):
-    with open(filename, 'w') as f:
-        fieldnames = ('battle', 'dbpedia', 'relation')
+def generals_killed_csv(src, dst):
+    with open(src, 'r') as f:
+        data = yaml.load(f)
+    fieldnames = ('battle',
+                  'country',
+                  'name',
+                  'last_name',
+                  'first_name',
+                  'middle_name',
+                  'suffix',
+                  'rank', 
+                  'date')
+    with open(dst, 'w') as f:
         writer = csv.DictWriter(f, fieldnames)
         writer.writeheader()
-        for theater, battles in data.items():
-            for battle in battles:
-                if 'links' in battle:
-                    links = battle['links']
-                    for x in links:
-                        if re.search("wikipedia.org", x[0]):
-                            x[0] = re.sub(r'https?://en\.wikipedia\.org/wiki', 
-                                          r'http://dbpedia.org/resource', x[0])
-                            if len(x) == 1:
-                                row = {'dbpedia': x[0], 'relation': '='}
+        with open(dst, 'w') as f:
+            for battle, v in sorted(data.items()):
+                for side in ('victor', 'loser'):
+                    if 'generals_killed' in v[side]:
+                        for x in v[side]['generals_killed']:
+                            row = x.copy()
+                            parsed_name = nameparser.HumanName(row['name']).as_dict()
+                            if parsed_name['last'] == '':
+                                row['first_name'] = ''
+                                row['last_name'] = parsed_name['first']
                             else:
-                                row = {'dbpedia': x[0], 'relation': x[1]}
-                            row['battle'] = battle['name']
+                                row['first_name'] = parsed_name['first']
+                                row['last_name'] = parsed_name['last']
+                            row['middle_name'] = parsed_name['middle']
+                            row['suffix'] = parsed_name['suffix']
+                            row['battle'] = battle
+                            row['country'] = v[side]['country']
+                            row['rank'] = RANKS[row['rank']]
                             writer.writerow(row)
+                    
+def battle_csv(src, dst):
+    fields = (
+        'name', 
+        'other_name', 
+        'start_date',
+        'end_date',
+        'location',
+        'category',
+        'order', 
+        'page')
+    with open(src, 'r') as f:
+        data = yaml.load(f)
+    with open(dst, 'w') as f:
+        writer = csv.DictWriter(f, fields)
+        writer.writeheader()
+        for battle, v in sorted(data.items()):
+            row = dict_subset(v, fields)
+            if 'other_name' in row:
+                if len(row['other_name']):
+                    row['other_name'] = ';'.join(row['other_name'])
                 else:
-                    print(battle)
-                
+                    del row['other_name']
+            row['category'] = ';'.join(row['category'])
+            writer.writerow(row)
 
-SRC = 'clodfelter.yaml'
-    
-with open(SRC, 'r') as f:
-    data = yaml.load(f)
+def main():
+    filename = "bodart.yaml" #sys.argv[1]
+    dst_dir = "." # sys.argv[2]
+    battle_csv(filename, os.path.join(dst_dir, "bodart_battles.csv"))
+    forces_csv(filename, os.path.join(dst_dir, "bodart_forces.csv"))
+    commanders_csv(filename, os.path.join(dst_dir, "bodart_commanders.csv"))
+    generals_killed_csv(filename, os.path.join(dst_dir, "bodart_generals_killed.csv"))
 
-battles(data, 'clodfelter_battles.csv')
-forces(data, 'clodfelter_forces.csv')
-cwsac_links(data, 'clodfelter_to_cwsac.csv')
-dbpedia_links(data, 'clodfelter_to_dbpedia.csv')
+if __name__ == "__main__":
+    main()

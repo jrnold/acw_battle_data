@@ -18,6 +18,7 @@ import datetime
 
 import yaml
 
+import nameparser
 import pyparsing as pp
 
 URL_BASE = "http://www.nps.gov/hps/abpp/CWSII"
@@ -186,7 +187,12 @@ def page2battle(page, results, strengths, areas, infn):
         commanders = parse_commanders(commanders)
         for k, v in commanders.items():
             for x in v:
+                parsed_name = nameparser.HumanName(x['fullname']).as_dict()
                 forces[k]['commanders'].append({'fullname' : x['fullname'],
+                                                'first_name': parsed_name['first'],
+                                                'last_name': parsed_name['last'],
+                                                'middle_name': parsed_name['middle'],
+                                                'suffix': parsed_name['suffix'],
                                                 'rank' : RANKS_LOOKUP[x['rank']]})
     except pp.ParseException:
         print("%s: %s" % (battle, commanders))

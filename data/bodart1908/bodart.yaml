@@ -12,9 +12,9 @@ Antietam (September 17, 1862):
     commander: {name: R. Lee, rank: Gen.}
     country: Confederacy
     generals_killed:
-    - {name: Brig.-Gen. G. B. Anderson}
-    - {name: Brig.-Gen. L. O. Branch}
-    - {name: Brig.-Gen. W. E. Starke}
+    - {rank: Brig.-Gen. , name: G. B. Anderson}
+    - {rank: Brig.-Gen. , name: L. O. Branch}
+    - {rank: Brig.-Gen. , name: W. E. Starke}
     killed: 1510
     killed_generals: 3
     killed_officers: 149
@@ -41,12 +41,12 @@ Antietam (September 17, 1862):
     casualties_generals: 13
     casualties_officers: 613
     casualties_percent: 20.9
-    commander: {name: S. B. Mc Clellan, rank: Gen.}
+    commander: {name: S. B. McClellan, rank: Gen.}
     country: Union
     generals_killed:
-    - {name: GM. J. K. F. Mansfield}
-    - {name: GM. J. B. Richardson}
-    - {name: B.-G. J. P. Rodman}
+    - {rank: GM. , name: J. K. F. Mansfield}
+    - {rank: GM. , name: J. B. Richardson}
+    - {rank: B.-G. , name: J. P. Rodman}
     killed: 2100
     killed_generals: 3
     killed_officers: 139
@@ -111,7 +111,7 @@ Arkansas_Post (January 11, 1863):
   victor:
     casualties: 1100
     casualties_percent: 4.2
-    commander: {country: Union, name: Mc Clernand, rank: GM.}
+    commander: {country: Union, name: McClernand, rank: GM.}
     country: Union
     killed_wounded: 1100
     strength: 28000
@@ -139,8 +139,8 @@ Atlanta (July 22, 1864):
     commander: {name: W. T. Sherman, rank: GM.}
     country: Union
     generals_killed:
-    - {country: Union, name: J. B. Mc Pherson, rank: GM.}
-    - {country: Union, name: D. Mc Cook, rank: B.-G.}
+    - {country: Union, name: J. B. McPherson, rank: GM.}
+    - {country: Union, name: D. McCook, rank: B.-G.}
     strength: 70000
 Bentonville (March 05, 1865):
   category: [battle]
@@ -205,7 +205,7 @@ Boonsborough (September 14, 1862):
     casualties_generals: 2
     casualties_officers: 81
     casualties_percent: 8
-    commander: {name: Mc. Clellan, rank: Gen.}
+    commander: {name: McClellan, rank: Gen.}
     country: Union
     generals_killed:
     - {country: Union, name: J. L. Reno, rank: GM.}
@@ -294,7 +294,7 @@ Bull-Run (July 21, 1861):
     casualties_guns: 4000
     casualties_officers: 144
     casualties_percent: 15.2
-    commander: {name: Mc. Dowell, rank: GM.}
+    commander: {name: McDowell, rank: GM.}
     country: Union
     guns: 49
     killed: 470
@@ -371,7 +371,7 @@ Cedar_Mountain (August 09, 1862):
     commander: {name: T. J. Jackson, rank: Gen.-Lt.}
     country: Confederacy
     generals_killed:
-    - {name: Brig. Gen. C. S. Winder}
+    - {rank: Brig. Gen., name: C. S. Winder}
     killed: 230
     killed_wounded: 1300
     killed_wounded_percent: 6.5
@@ -387,7 +387,7 @@ Champion's_Hill (May 16, 1863):
     commander: {name: Pemberton, rank: Gen.-Lt.}
     country: Confederacy
     generals_killed:
-    - {name: B.-G. L. Tilghman}
+    - {rank: B.-G. , name: L. Tilghman}
     killed_wounded: 3000
     killed_wounded_percent: 16.6
     losses_canons: 11
@@ -518,7 +518,7 @@ Chickahominy (June 25, 1862):
     casualties_officers: 678
     casualties_percent: 15.2
     cavalry: 7000
-    commander: {name: Mc. Clellan, rank: Gen.-Lt.}
+    commander: {name: McClellan, rank: Gen.-Lt.}
     country: Union
     guns: 340
     infantry: 99000
@@ -724,7 +724,7 @@ Corinth (October 03, 1862):
     commander: {name: Rosecrans, rank: GM.}
     country: Union
     generals_killed:
-    - {name: Brig.-Gen. P. A. Hackleman}
+    - {rank: Brig.-Gen. , name: P. A. Hackleman}
     killed: 350
     killed_generals: 1
     killed_officers: 27
@@ -912,8 +912,8 @@ Fredericksburg (December 11, 1862):
     commander: {name: A. Burnside, rank: BM.}
     country: Union
     generals_killed:
-    - {name: Brig.-Gen. G. D. Bayard}
-    - {name: Brig.-Gen. C. F. Jackson}
+    - {rank: Brig.-Gen. , name: G. D. Bayard}
+    - {rank: Brig.-Gen. , name: C. F. Jackson}
     infantry: 111000
     killed: 1350
     killed_generals: 2
@@ -944,8 +944,8 @@ Fredericksburg (December 11, 1862):
     commander: {name: R. Lee, rank: Gen.}
     country: Confederacy
     generals_killed:
-    - {name: Brig.-Gen. T. R. Cobb}
-    - {name: Brig.-Gen. M. Gregg}
+    - {rank: Brig.-Gen. , name: T. R. Cobb}
+    - {rank: Brig.-Gen. , name: M. Gregg}
     infantry: 73000
     killed: 600
     killed_generals: 2
@@ -975,11 +975,11 @@ Gettysburg (July 01, 1863):
     commander: {name: R. Lee, rank: Gen.}
     country: Confederacy
     generals_killed:
-    - {name: GM. W. Pender}
-    - {name: B.-G. A. Armistead}
-    - {name: B.-G. W. Barksdale}
-    - {name: B.-G. R. B. Garnett}
-    - {name: B.-G. P. J. Semmes}
+    - {rank: GM. , name: W. Pender}
+    - {rank: B.-G. , name: A. Armistead}
+    - {rank: B.-G. , name: W. Barksdale}
+    - {rank: B.-G. , name: R. B. Garnett}
+    - {rank: B.-G. , name: P. J. Semmes}
     guns: 250
     infantry: 60000
     killed: 2600
@@ -1010,11 +1010,11 @@ Gettysburg (July 01, 1863):
     commander: {name: G. G. Meade, rank: GM.}
     country: Union
     generals_killed:
-    - {name: GM. J. F. Reynolds}
-    - {name: GM. S. K. Zook}
-    - {name: B.-G. E. J. Farnsworth}
-    - {name: B.-G. S. Vincent}
-    - {name: B.-G. S. Weed}
+    - {rank: GM. , name: J. F. Reynolds}
+    - {rank: GM. , name: S. K. Zook}
+    - {rank: B.-G. , name: E. J. Farnsworth}
+    - {rank: B.-G. , name: S. Vincent}
+    - {rank: B.-G. , name: S. Weed}
     guns: 300
     infantry: 77000
     killed: 3160
@@ -1049,7 +1049,7 @@ Harper's_Ferry (September 15, 1862):
     commander: {name: D. Miles, rank: Oberst}
     country: Union
     generals_killed:
-    - {name: Brigadier Obst. D. Miles}
+    - {rank: Brigadier Obst. , name: D. Miles}
     guns: 73
     losses_canons: 73
     strength: 14000
@@ -1182,8 +1182,8 @@ Murfreesborough (December 31, 1862):
     commander: {name: B. Bragg, rank: Gen.}
     country: Confederacy
     generals_killed:
-    - {name: Brig.-Gen. R. W. Hanson}
-    - {name: Brig.-Gen. J. E. Rains}
+    - {rank: Brig.-Gen. , name: R. W. Hanson}
+    - {rank: Brig.-Gen. , name: J. E. Rains}
     guns: 120
     infantry: 33500
     killed: 1300
@@ -1216,8 +1216,8 @@ Murfreesborough (December 31, 1862):
     commander: {name: Rosecrans, rank: GM.}
     country: Union
     generals_killed:
-    - {name: Brig.-Gen. E. N. Kirk}
-    - {name: Brig.-Gen. J. W. Sill}
+    - {rank: Brig.-Gen. , name: E. N. Kirk}
+    - {rank: Brig.-Gen. , name: J. W. Sill}
     guns: 100
     infantry: 41800
     killed: 1730
@@ -1322,8 +1322,8 @@ Pea_Ridge (March 07, 1862):
     commander: {name: Earl van Dorn, rank: Gen.-Lt.}
     country: Confederacy
     generals_killed:
-    - {country: "Confederacy", name: Mc. Culloch, rank: Brig.-Gen.}
-    - {country: "Confederacy", name: Mc. Intosh, rank: Brig.-Gen.}
+    - {country: "Confederacy", name: McCulloch, rank: Brig.-Gen.}
+    - {country: "Confederacy", name: McIntosh, rank: Brig.-Gen.}
     - {country: "Confederacy", name: Slack, rank: Brig.-Gen.}
     guns: 72
     killed_wounded: 1100
@@ -1384,8 +1384,8 @@ Perryville (October 08, 1862):
     - {name: Buell, rank: GM.}
     country: Union
     generals_killed:
-    - {name: Brig.-Gen. J. S. Jackson}
-    - {name: Brig.-Gen. W. R. Terrill}
+    - {rank: Brig.-Gen., name: J. S. Jackson}
+    - {rank: Brig.-Gen., name: W. R. Terrill}
     killed: 850
     killed_generals: 2
     killed_officers: 37
@@ -1597,7 +1597,7 @@ Seven_Pines (May 31, 1862):
     casualties_generals: 2
     casualties_officers: 274
     casualties_percent: 10.0
-    commander: {name: Mc Clellan, rank: GM.}
+    commander: {name: McClellan, rank: GM.}
     country: Union
     killed: 800
     killed_officers: 41
@@ -1792,8 +1792,8 @@ Vicksburg (May 19, 1863):
     - {name: Pemberton, rank: Gen.-Lt.}
     country: Confederacy
     generals_killed:
-    - {name: B.-G. M. E. Green}
-    - {name: B.-G. E. D. Tracy}
+    - {rank: B.-G. , name: M. E. Green}
+    - {rank: B.-G. , name: E. D. Tracy}
     killed_wounded: 7000
     losses_canons: 172
     strength: 28000
@@ -1905,7 +1905,7 @@ Williamsburg (May 05, 1862):
     casualties: 2400
     casualties_officers: 127
     casualties_percent: 5.9
-    commander: {name: Mc. Clellan, rank: GM.}
+    commander: {name: McClellan, rank: GM.}
     country: Union
     killed: 460
     killed_officers: 27

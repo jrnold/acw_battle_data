@@ -30,7 +30,6 @@ battle_fields = (#'cwsac_reference',
           'preservation',
           'forces_text',
           'casualties',
-          'principal_commanders',
           'assoc_battles')
 
 # keys = set()
@@ -45,7 +44,7 @@ def battle_csv(data, filename):
     with open(filename, 'w') as f:
         writer = csv.DictWriter(f, battle_fields)
         writer.writeheader()
-        for battle, battle_data in data.items():
+        for battle, battle_data in sorted(data.items()):
             row = dict_subset(battle_data, battle_fields)
             writer.writerow(row)
 
@@ -82,21 +81,22 @@ def combatants_csv(data, filename):
     with open(filename, 'w') as f:
         writer = csv.DictWriter(f, combatant_fields)
         writer.writeheader()
-        for battle, battle_data in data.items():
-            for combatant, x in battle_data['combatants'].items():
+        for battle, battle_data in sorted(data.items()):
+            for combatant, x in sorted(battle_data['combatants'].items()):
                 row = dict_subset(x, combatant_fields)
                 row['battle'] = battle
                 row['combatant'] = combatant
                 writer.writerow(row)
 
-commanders_fields = ('battle', 'combatant', 'fullname', 'rank')
+commanders_fields = ('battle', 'combatant', 'fullname', 'rank',
+                     'first_name', 'last_name', 'middle_name', 'suffix')
 
 def commanders_csv(data, filename):
     with open(filename, 'w') as f:
         writer = csv.DictWriter(f, commanders_fields)
         writer.writeheader()
-        for battle, battle_data in data.items():
-            for combatant, x in battle_data['combatants'].items():
+        for battle, battle_data in sorted(data.items()):
+            for combatant, x in sorted(battle_data['combatants'].items()):
                 for commander in x['commanders']:
                     row = commander.copy()
                     row['battle'] = battle
@@ -108,5 +108,5 @@ with open(SRC, 'r') as f:
     data = json.load(f)
 
 battle_csv(data, 'cwsac_battles.csv')
-combatants_csv(data, 'cwsac_combatants.csv')
+combatants_csv(data, 'cwsac_forces.csv')
 commanders_csv(data, 'cwsac_commanders.csv')
