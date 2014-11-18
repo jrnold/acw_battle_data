@@ -44,7 +44,7 @@ def battle_csv(data, filename):
     with open(filename, 'w') as f:
         writer = csv.DictWriter(f, battle_fields)
         writer.writeheader()
-        for battle, battle_data in data.items():
+        for battle, battle_data in sorted(data.items()):
             row = dict_subset(battle_data, battle_fields)
             writer.writerow(row)
 
@@ -81,8 +81,8 @@ def combatants_csv(data, filename):
     with open(filename, 'w') as f:
         writer = csv.DictWriter(f, combatant_fields)
         writer.writeheader()
-        for battle, battle_data in data.items():
-            for combatant, x in battle_data['combatants'].items():
+        for battle, battle_data in sorted(data.items()):
+            for combatant, x in sorted(battle_data['combatants'].items()):
                 row = dict_subset(x, combatant_fields)
                 row['battle'] = battle
                 row['combatant'] = combatant
@@ -95,8 +95,8 @@ def commanders_csv(data, filename):
     with open(filename, 'w') as f:
         writer = csv.DictWriter(f, commanders_fields)
         writer.writeheader()
-        for battle, battle_data in data.items():
-            for combatant, x in battle_data['combatants'].items():
+        for battle, battle_data in sorted(data.items()):
+            for combatant, x in sorted(battle_data['combatants'].items()):
                 for commander in x['commanders']:
                     row = commander.copy()
                     row['battle'] = battle
