@@ -2,12 +2,24 @@
 from lxml import etree as ET
 import re
 import csv
+from datetime import date
+import calendar
+
+import pyparsing as pp
 
 namespaces = {
 'd' : "http://schemas.microsoft.com/ado/2007/08/dataservices",
 'm' :"http://schemas.microsoft.com/ado/2007/08/dataservices/metadata",
 '': "http://www.w3.org/2005/Atom"
 }
+
+def _month_number(x):
+    """Return the month number for the fullname of a month"""
+    return list(calendar.month_name).index(x)
+
+def ldom(y, m):
+    """ Last day of the month"""
+    return date(y, m, calendar.monthrange(y, m)[1])
 
 def xmlns(x):
     xsplit = x.split(':')
@@ -60,22 +72,53 @@ def theaters_csv(root, dst):
                 theaters[theater_code] = theater_name
         theaters_rows = [{'TheaterCode': k, 'TheaterName': v} for k, v in theaters.items()]
         writer.writerows(theaters_rows)
+
+def parse_month_range(x):
+    """Parse Date Ranges"""
+    hyphen = pp.Literal("-").suppress()
+    month = pp.oneOf(list(calendar.month_name)[1:])
+    month = month.setResultsName('m')
+    month.addParseAction(lambda s,l,t: [_month_number(t[0])])
+    year = pp.Word(pp.nums).setResultsName('year')
+    year.addParseAction(lambda s,l,t: [int(t[0])])
+    end_month = (month + year).setResultsName('end')
+    start_month = (month + pp.Optional(year)).setResultsName('start')
+    grammar = pp.Optional(start_month + hyphen) + end_month
+    toks = grammar.parseString(x)
+    end_date = ldom(toks['end']['year'], toks['end']['m'])
+    if 'start' in toks:
+        m = toks['start']['m']
+        if 'year' in toks['start']:
+            y = toks['start']['year']
+        else:
+            y = toks['end']['year']
+        start_date = date(y, m, 1)
+    else:
+        start_date = date(end_date.year, end_date.month, 1)
+    return (start_date, end_date)
         
 def campaigns_csv(root, dst):
     campaigns = {}
     with open(dst, 'w') as f:
-        writer = csv.DictWriter(f, ('CampaignCode', 'CampaignName', 'CampaignDates', 'TheaterCode'))
+        writer = csv.DictWriter(f, ('CampaignCode', 'CampaignName', 'CampaignDates', 
+                                    'CampaignStartDate', 'CampaignEndDate', 'TheaterCode'))
         writer.writeheader()
         for i, entry in enumerate(root.findall('.//%s' % xmlns('entry'))):
             properties = entry.find('./%s/%s' % (xmlns('content'), xmlns('m:properties'))) 
             campaign_code = properties.find(xmlns('d:CampaignCode')).text
             campaign_name = properties.find(xmlns('d:CampaignName')).text
             campaign_dates = properties.find(xmlns('d:CampaignDates')).text
+            if campaign_dates is not None and len(campaign_dates.strip()) > 0:
+                start_date, end_date = parse_month_range(campaign_dates)
+            else:
+                start_date = end_date = None
             theater_code = properties.find(xmlns('d:TheaterCode')).text
             if campaign_code and campaign_code.strip() != '' and campaign_code not in campaigns:
                 campaigns[campaign_code] = {'CampaignCode': campaign_code,
                                             'CampaignName': campaign_name,
                                             'CampaignDates': campaign_dates,
+                                            'CampaignStartDate': start_date,
+                                            'CampaignEndDate': end_date,
                                             'TheaterCode': theater_code}
         for k, v in campaigns.items():
             writer.writerow(v) 
