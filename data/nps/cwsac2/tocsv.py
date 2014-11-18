@@ -116,7 +116,7 @@ with open(SRC, 'r') as f:
     data = json.load(f)
 
 battle_csv(data, 'cwsac2_battles.csv')
-combatants_csv(data, 'cwsac2_combatants.csv')
+combatants_csv(data, 'cwsac2_forces.csv')
 commanders_csv(data, 'cwsac2_commanders.csv')
 dates_csv(data, 'cwsac2_dates.csv')
 locations_csv(data, 'cwsac2_locations.csv')

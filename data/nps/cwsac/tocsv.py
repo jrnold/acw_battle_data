@@ -108,5 +108,5 @@ with open(SRC, 'r') as f:
     data = json.load(f)
 
 battle_csv(data, 'cwsac_battles.csv')
-combatants_csv(data, 'cwsac_combatants.csv')
+combatants_csv(data, 'cwsac_forces.csv')
 commanders_csv(data, 'cwsac_commanders.csv')
