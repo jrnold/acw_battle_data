@@ -10,6 +10,7 @@ import calendar
 from datetime import date
 import json
 
+import nameparser
 from lxml import html
 from lxml import etree
 import pyparsing as pp
@@ -384,7 +385,12 @@ def parse_battle(alldata, src, campaigns, casualties, strengths):
         # print(commanders)
         for k, v in commanders.items():
             for x in v:
+                parsed_name = nameparser.HumanName(x['fullname']).as_dict()
                 forces[k]['commanders'].append({'fullname' : x['fullname'],
+                                                'first_name': parsed_name['first'],
+                                                'last_name': parsed_name['last'],
+                                                'middle_name': parsed_name['middle'],
+                                                'suffix': parsed_name['suffix'],
                                                 'rank' : RANKS_LOOKUP[x['rank']]})
     except pp.ParseException:
         print("%s: %s" % (battle, data['principal_commanders']))

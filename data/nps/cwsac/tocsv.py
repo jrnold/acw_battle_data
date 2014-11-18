@@ -30,7 +30,6 @@ battle_fields = (#'cwsac_reference',
           'preservation',
           'forces_text',
           'casualties',
-          'principal_commanders',
           'assoc_battles')
 
 # keys = set()
@@ -89,7 +88,8 @@ def combatants_csv(data, filename):
                 row['combatant'] = combatant
                 writer.writerow(row)
 
-commanders_fields = ('battle', 'combatant', 'fullname', 'rank')
+commanders_fields = ('battle', 'combatant', 'fullname', 'rank',
+                     'first_name', 'last_name', 'middle_name', 'suffix')
 
 def commanders_csv(data, filename):
     with open(filename, 'w') as f:
