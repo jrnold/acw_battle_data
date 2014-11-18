@@ -34,16 +34,16 @@ def forces_csv(src, dst):
         data = yaml.load(f)
     # Get fieldnames
     fieldnames = set()
-    for battle, v in data.items():
+    for battle, v in sorted(data.items()):
         for force in ('victor', 'loser'):
-            for field, v2 in v[force].items():
+            for field, v2 in sorted(v[force].items()):
                 fieldnames.add(field)
     fieldnames -= {'commander', 'generals_killed'}
     with open(dst, 'w') as f:
         writer = csv.DictWriter(f, ['battle', 'victor'] + list(fieldnames))
         writer.writeheader()
         with open(dst, 'w') as f:
-            for battle, v in data.items():
+            for battle, v in sorted(data.items()):
                 for side in ('victor', 'loser'):
                     row = dict_subset(v[side], fieldnames)
                     row['victor'] = side == 'victor'
@@ -65,7 +65,7 @@ def commanders_csv(src, dst):
         writer = csv.DictWriter(f, fieldnames)
         writer.writeheader()
         with open(dst, 'w') as f:
-            for battle, v in data.items():
+            for battle, v in sorted(data.items()):
                 for side in ('victor', 'loser'):
                     if 'commander' in v[side]:
                       cmdrs = v[side]['commander']
@@ -104,7 +104,7 @@ def generals_killed_csv(src, dst):
         writer = csv.DictWriter(f, fieldnames)
         writer.writeheader()
         with open(dst, 'w') as f:
-            for battle, v in data.items():
+            for battle, v in sorted(data.items()):
                 for side in ('victor', 'loser'):
                     if 'generals_killed' in v[side]:
                         for x in v[side]['generals_killed']:
@@ -138,7 +138,7 @@ def battle_csv(src, dst):
     with open(dst, 'w') as f:
         writer = csv.DictWriter(f, fields)
         writer.writeheader()
-        for battle, v in data.items():
+        for battle, v in sorted(data.items()):
             row = dict_subset(v, fields)
             if 'other_name' in row:
                 if len(row['other_name']):
