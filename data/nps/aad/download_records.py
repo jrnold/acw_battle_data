@@ -39,8 +39,8 @@ def get_battle(x):
 def parser(x):
     data = {}
     table = x.find('div', id = 'content').table
-    for rows in table.find_all('tr')[1:]:       
-        cols = table.find_all('td')
+    for row in table.find_all('tr')[1:]:  
+        cols = row.find_all('td')
         field = cols[0].a.contents[0].strip()
         value = cols[1].contents[0].strip()
         meaning = cols[2].contents[0].strip()
@@ -63,7 +63,6 @@ for i in range(1, MAX_PAGE + 1):
                 f2.write(text)
                 print("writing to %s/%s.html" % (DST_DIR, battle))
             events[href] = parser(soup2)
-            print(battle)
             nrecords += 1
 
 with open(DST_JSON, 'w') as f:
