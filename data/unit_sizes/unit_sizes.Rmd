@@ -1,8 +1,10 @@
-# Unit Sizes in the American Civil War
+---
+title: Unit Sizes in the American Civil War
+---
 
 For many battles and sources of data about them, the number of personnel present (or engaged) is either not given or not known. Instead, the units involved are given. Somtimes the CWSAC simply states that "brigades" or "corps" were involved. This program generates the number of personnel associated with each unit size. Unfortunately, there is considerable uncertainty about the number of personnel in a unit, both due to organizational differences and attrition. Thus this program generates a probability distribution over the number of personnel in a unit.
 
-The best source for this is Eicher (p. 65, 74)
+The best source for this is Eicher (p. 65, 74) and Haitman.
 
 - Army: Composed of 1-8 corps, most frequently 3.
 - Corps: Composed of 2-6 divisions, most frequently 3.
@@ -25,8 +27,7 @@ The best source for this is Eicher (p. 65, 74)
 - Battalion: No official size, but "every part of a regiment, composed of two or more companies will be designated a battalion ... "
 
    - Regiments could have between 2 and 5 battaltions, but usually a battalion was half a regiment.
-   - Cavalry equivalent was a squadron.
-   
+   - Cavalry equivalent was a squadron. 
    
 - Company: 
 
@@ -47,6 +48,7 @@ Also see:
 - National Park Service, [From Regiment to President](http://www.nps.gov/resources/story.htm?id=299): The Structure and Command of Civil War Armies
 - http://www.civilwarhome.com/armyorganization.htm
 - Eicher, John H. and David J. Eicher, *Civil War High Commands*.
+- Heitman, Francis B. (1903) *Historical Register and Dictionary of the United States Army* [Google books](http://books.google.com/books?id=6RLMX6OOgsAC)
     
    
 # Regiment
@@ -176,16 +178,18 @@ uniform_size <- function(low, high) {
 }
 ```
 
-Special functions to draw the standard units in the infantry.
-
-The number of troops in a regiment is drawn from a uniform distribution
+The size of a regiment is drawn from a uniform distribution
 between low and high.
 
 ```{r }
 draw_regiment <- function(n = 1, low = 300, high = 650) {
     data.frame(troops = round(runif(n, low, high)))
 }
+```
 
+To calculate the size of a brigade: draw the number of regiments from a binomial distribution, and for each regiment draw the size.
+
+```{r}
 draw_brigade <- function(low = 2, high = 12, mode = 4, regiment = draw_regiment) {
     rng <- high - low
     n <- low + rbinom(1, rng, (mode - low) / (rng + 1))
@@ -193,7 +197,11 @@ draw_brigade <- function(low = 2, high = 12, mode = 4, regiment = draw_regiment)
     troops <- sum(regiment(n))
     data.frame(regiments = n, troops = troops)
 }
+```
 
+To calculate the size of a division: draw the number of brigades in the division from a binomial distribution, and for each brigade draw the size.
+
+```{r}
 draw_division <- function(low = 2, high = 5, mode = 3, brigade = draw_brigade, ...) {
     #n <- round(rtriangle(1, a = low, b = high, c = mode), 0)
     rng <- high - low
@@ -203,7 +211,11 @@ draw_division <- function(low = 2, high = 5, mode = 3, brigade = draw_brigade, .
     ret$brigades <- n
     ret
 }
+```
 
+To calculate the size of a corps: draw the number of divisions in the corps from a binomial distribution, and for each division draw its size.
+
+```{r}
 draw_corps <- function(low = 2, high = 6, mode = 3, division = draw_division, ...) {
     rng <- high - low
     n <- low + rbinom(1, rng, (mode - low) / (rng + 1))
@@ -213,7 +225,11 @@ draw_corps <- function(low = 2, high = 6, mode = 3, division = draw_division, ..
     ret$divisions <- n
     ret
 }
+```
 
+To calculate the size of an army: draw the number of corps in the army from a binomial distribution, and for each corps draw its size.
+
+```{r}
 draw_army <- function(low = 1, high = 8, mode = 3, corps = draw_corps, ...) {
     rng <- high - low
     n <- low + rbinom(1, rng, (mode - low) / (rng + 1))
@@ -226,36 +242,13 @@ draw_army <- function(low = 1, high = 8, mode = 3, corps = draw_corps, ...) {
 ```
 
 
-Ships complements. Get distribution from the complements of all ships found in the
-Union and Confederate navies on dbpedia.
-
-
-
-```{r }
-ships <- read.csv("ships.csv")
-## Remove outliers and older ships.
-ship_complements <-
-    summarize(data.frame(troops = with(ships, complement[complement > 10 & complement < 500])),
-          mean = mean(troops),
-          median = median(troops),
-          sd = sd(troops),
-          p75 = quantile(troops, 0.75),
-          p25 = quantile(troops, 0.25),
-          p05 = quantile(troops, 0.05),
-          p95 = quantile(troops, 0.95)
-          )
-```
-
 # Union Army
-
-## Infantry
 
 Union companies were 100 men, but assume 30-65%.
 
 ```{r }
 union_company <- uniform_size(30, 65)
 ```
-
 
 Union regiments were 1000, but on the field due to attrition ranged between 300 and 400
 
@@ -371,18 +364,7 @@ union_artillery_brigade <- exact_size((6 * 12 + 1) * 5 + 1)
 ```
 
 
-
-## Ships
-
-
-```{r }
-union_ships <- ship_complements
-```
-
-
-# Confederate
-
-
+# Confederate Units
 
 ## Infantry
 
@@ -507,15 +489,6 @@ confed_artillery_battery <- exact_size(4 * 12 + 1)
 confed_artillery_brigade <- exact_size((4 * 12 + 1) * 5 + 1)
 ```
 
-
-## Ships
-
-
-```{r }
-confed_ships <- ship_complements
-```
-
-
 # Data
 
 
@@ -536,8 +509,7 @@ organization_sizes <-
              artillery_regiment = union_artillery_regiment,
              artillery_section = union_artillery_section,             
              artillery_battery = union_artillery_battery,
-             artillery_brigade = union_artillery_brigade,
-             ship = union_ships),
+             artillery_brigade = union_artillery_brigade),
          confederate =
          list(
              company = confed_company,
@@ -553,8 +525,7 @@ organization_sizes <-
              artillery_regiment = confed_artillery_regiment,
              artillery_section = confed_artillery_section,             
              artillery_battery = confed_artillery_battery,
-             artillery_brigade = confed_artillery_brigade,
-             ship = confed_ships)
+             artillery_brigade = confed_artillery_brigade)
          )
              
 con <- file("unit_sizes.json", "w")
