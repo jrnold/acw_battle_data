@@ -1,6 +1,3 @@
-Wikipedia data
-==================
-
 This table contains data on force sizes taken from the English
 Wikipedia pages of American Civil War battles on a few intervals.
 These data were entered by hand.  There are much more gaps in the

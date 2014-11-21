@@ -1,7 +1,4 @@
-Fox "Regimental Losses in the American Civil War, 1861-1865"
-=============================================================
-
-**TODO: I haven't added these data yet**
+# Fox "Regimental Losses in the American Civil War, 1861-1865"
 
 Data from William F. Fox *Regimental Losses in the American Civil War,
 1861-1865: A Treatise on the extent and nature of the mortuary losses
@@ -37,16 +34,6 @@ Confederate", p. 544-551.
 
 The data in that tables are split into a table with battles and one with
 force level casualties.
-
-fox_battles
--------------
-
-fox_forces
---------------
-
-
-fox_outcomes
----------------
 
 In Chapter 14, p. 541-543 Fox has several tables categorizing battles into
 victories for each side. Both his categorization and results are similar
@@ -91,8 +78,7 @@ With regards to battles not considered, Fox writes,
   Other instances on each side could be mentioned, but they would
   invite discussion and are better omitted.
 
-Revised data
--------------------
+## Revised data
 
 - removed aggregate rows for Union casualties in Atlanta Campaign and Seven Day's Battle
 - fn 8. Split Chancellorsville into casualties for Chancellorsville (VA032) and VA033 VA034 
@@ -119,11 +105,11 @@ Fox lists alternate casualty figures for Confederates at Gettysburg that I don't
    loss (after making necessary deductions) of 2,701 killed, 12,739
    wounded, 7,528 missing; total, 22,968.
 
-CWSAC 
-------------------
+## CWSAC 
 
 - 'Manassas gap' on 1863-7-21 is not matched to VA108 because 'Wapping
   Heights' on 1863-7-23 is matched to that battle.
 - 'Petersburg Trenches' entries are not matched to any CWSAC
   battles. All the battles in the Petersburg and Appomattox Campaigns
   appear to be outside the trenches, or assaults that have separate entries in Fox.
+

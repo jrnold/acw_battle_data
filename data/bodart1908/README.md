@@ -1,6 +1,3 @@
-Bodart (1908) "Militär-Historisches Kreigs-Lexicon (1618-1905)"
-===============================================================
-
 These data are from Bodart (1908), "Militär-Historisches
 Kreigs-Lexicon (1618-1905)" for the 50 battles that are part of the
 American Civil War (Nordamerikanischer Bürgerkrieg), pp. 522-542.
@@ -185,35 +182,14 @@ Corrections
 - Bodart listed the date of the Battle of Ringgold as 1863-11-13 to 1863-11-25; I changed this to 
   1863-11-23 to 1863-11-25, the correct dates for this battle.
 
-bod_battles
-------------
-.. include:: _tables/bod_battles.rst
-
-This table contains battle attributes, such as dates and type of battle.
-
-bod_forces
------------
-
-.. include:: _tables/bod_forces.rst
-
-This table contains force sizes and casualties for each combatant in
-each battle.
-
 I have found that the strength values in Bodart tend to be higher in
 other sources. He seems to use the total size of the unit involved in
 that theater or operations, without considering which parts of that
 unit participated in a given battle.
 
+In matching Bodart to other variables several "battles" in Bodart are more like campaigns:
 
-bod_to_dbpedia
-----------------
-
-.. include:: _tables/bod_forces.rst
-
-Several "battles" in Bodart are more like campaigns.
-
-- Petersburg_18640609 spans June 9, 1864 (First Battle of Petersburg) to April 3, 1865 (capture of Petersburg 
+- `Petersburg_18640609` spans June 9, 1864 (First Battle of Petersburg) to April 3, 1865 (capture of Petersburg 
   after the Third Battle of Petersburg). This includes parts of the Richmond-Petersburg Campaign and
   Appomattox Campaign.  While it matches the http://en.wikipedia.org/wiki/Siege_of_Petersburg, the Siege 
   of Petersburg is not an individual battle. Thus I match it to all battles in those campaigns.
-
