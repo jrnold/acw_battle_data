@@ -6,6 +6,7 @@ from datetime import date as date_
 from datetime import timedelta
 import re
 import csv
+import os.path
 
 import requests
 
@@ -49,9 +50,10 @@ def parse_losses(x):
     ## Strip out all punctuation and normalize spaces
     x = re.sub(' +', ' ', re.sub('[,.]', '', x))
     RE_INT = r"\d{1,3}(,\d{3})*"
-    RE_PATT = (r"(?P<killed>%s) killed" % RE_INT,
-               r"(?P<wounded>%s) wounded" % RE_INT,
+    RE_PATT = (r"(?P<kwm>%s) killed(?! wounded and missing)" % RE_INT,
                r"(?P<capmiss>%s) captured and missing" % RE_INT,
+               r"(?P<killed>%s) killed" % RE_INT,
+               r"(?P<wounded>%s) wounded" % RE_INT,
                r"(?P<missing>%s) missing" % RE_INT)
     RE_TOTAL = r"Total,? (?P<total>%s)" % RE_INT
     LOSSES1 =  re.compile('%s %s?' % (r''.join("( %s)?" %
@@ -61,7 +63,7 @@ def parse_losses(x):
     m1 = LOSSES1.search(x)
     m2 = LOSSES2.search(x)
     m3 = re.search('loss (?P<total>%s)$' % RE_INT, x)
-    groups = ('killed', 'wounded', 'capmiss', 'missing', 'total')
+    groups = ('killed', 'wounded', 'capmiss', 'missing', 'kwm', 'total')
     if m1:
        d = dict([(g, _int(m1.group(g))) for g in groups])
     elif m2:
@@ -157,11 +159,13 @@ def xml_to_csv(source, writer):
                         'start_date' : startDate,
                         'end_date' : endDate,
                         'text' : text.strip(),
-                        'killed' : losses['killed'],
-                        'wounded' : losses['wounded'],
-                        'cap_missing' : losses['capmiss'],
-                        'missing' : losses['missing'],
-                        'casualties' : losses['total']
+                        'cas_k' : losses['killed'],
+                        'cas_w' : losses['wounded'],
+                        'cas_mp' : losses['capmiss'],
+                        'cas_m' : losses['missing'],
+                        'cas_kwm' : losses['kwm'],
+                        'cas_total' : losses['total'],
+                        'text': text,
                         }
                 writer.writerow(data)
                 nevent += 1
@@ -169,24 +173,35 @@ def xml_to_csv(source, writer):
                          
 def main():
     header = ['battle',
-             'event_type',
-             'state',
-             'year',
-             'battle_name',
-             'start_date',
-             'end_date',
-             'text',
-             'killed',
-             'wounded',
-             'cap_missing',
-             'missing',
-             'casualties'
+              'event_type',
+              'state',
+              'year',
+              'battle_name',
+              'start_date',
+              'end_date',
+              'text',
+              'cas_k',
+              'cas_w',
+              'cas_m',
+              'cas_mp',
+              'cas_kwm',
+              'cas_total'
          ]
-    with open("engagements.csv", "w") as f:
-        writer = csv.DictWriter(f, header)
-        writer.writeheader()
-        r = requests.get("http://www.perseus.tufts.edu/hopper/dltext?doc=Perseus%3Atext%3A2001.05.0140", stream = True)
-        xml_to_csv(r.raw, writer)
+    FILE = "Perseus_text_2001.05.0140.xml"
+    URL = "http://www.perseus.tufts.edu/hopper/dltext?doc=Perseus%3Atext%3A2001.05.0140"
+    DST = "engagements.csv"
+
+    if not os.path.exists(FILE):
+        r = requests.get(URL)
+        print(r)
+        with open(FILE, 'w') as f:
+            f.write(r.text)
+
+    with open(FILE, 'r') as src:
+        with open(DST, "w") as dst:
+            writer = csv.DictWriter(dst, header)
+            writer.writeheader()
+            xml_to_csv(src, writer)
 
 if __name__ == "__main__":
     main()                     
