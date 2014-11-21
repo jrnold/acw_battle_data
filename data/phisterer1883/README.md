@@ -11,6 +11,7 @@ Data on major battles along with Union and Confederate casualties from the table
    as perfectly reliable, for in many instances the returns were based on estimates, and the totals of losses were,
    by *later* and more reliable returns, sometimes considerably reduced. Confederate losses are generally based on estimates.
 
+- `Loss_In_Engagement.csv`
 
 ## Chronological Record
 
@@ -23,7 +24,7 @@ A list of events on p. 83--212.  Phisterer's introduction to the chronological r
 - `engagements.txt` Raw text of the events
 - `engagements.py` Extacts engagements from `engagements.txt` and produces `engagements.csv`.
 - `engagements.csv` Parsed list of events
-
+- `engagements_by_year.csv` Small table of the number of egagements by year.
 
 ## Links
 
