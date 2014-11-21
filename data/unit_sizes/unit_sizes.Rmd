@@ -169,7 +169,7 @@ uniform_size <- function(low, high) {
     range <- high - low
     data_frame(mean = 0.5 * (low + high),
                median = 0.5 * (low + high),
-               sd = 0,
+               sd = sqrt((1 / 12) * (low - high)^2),
                p05 = 0.05 * range + low,
                p25 = 0.25 * range + low,
                p75 = 0.75 * range + low,
@@ -318,21 +318,24 @@ Draw brigades, divisions, corps and armies using the values from the tables of s
 
 ```{r}
 draw_union_cavalry_brigades <- function(n) {
-  sz <- filter(units_table, belligerent == "Union", !as.logical(infantry), unit.type == "regiments per brigade")
+  sz <- filter(units_table, belligerent == "Union", !as.logical(infantry),
+               unit.type == "regiments per brigade")
   draw_unit_personnel(n, sz$low, sz$high, sz$avg, draw_union_cavalry_regiments)                    
 }
 unit_sizes[["union"]][["cavalry_brigade"]] <-
   summarize_data(draw_union_cavalry_brigades(N))
 
 draw_union_cavalry_divisions <- function(n) {
-  sz <- filter(units_table, belligerent == "Union", !as.logical(infantry), unit.type == "brigades per division")
+  sz <- filter(units_table, belligerent == "Union", !as.logical(infantry),
+               unit.type == "brigades per division")
   draw_unit_personnel(n, sz$low, sz$high, sz$avg, draw_union_cavalry_brigades)                    
 }
 unit_sizes[["union"]][["cavalry_division"]] <-
   summarize_data(draw_union_cavalry_divisions(N))
 
 draw_union_cavalry_corps <- function(n) {
-  sz <- filter(units_table, belligerent == "Union", !as.logical(infantry), unit.type == "divisions per corps")
+  sz <- filter(units_table, belligerent == "Union", !as.logical(infantry),
+               unit.type == "divisions per corps")
   draw_unit_personnel(n, sz$low, sz$high, sz$avg, draw_union_cavalry_divisions)                    
 }
 unit_sizes[["union"]][["cavalry_corps"]] <-
@@ -346,7 +349,131 @@ unit_sizes[["union"]][["cavalry_corps"]] <-
 
 ## Infantry
 
+Confederate companies were 100 men, but assume the field unit size percent from 
+Livermore, so companies are more like 30-65 men.
+
+```{r }
+CONFED_COMPANY_SIZE <- 100
+unit_sizes[["confederate"]][["infantry_company"]] <-
+  uniform_size(PCT_UNIT_LOW * UNION_COMPANY_SIZE,
+               PCT_UNIT_HIGH * UNION_COMPANY_SIZE)
+              
+```
+
+For the size of regiments, use the range of values given by Livermore.
+
+```{r }
+CONFED_REGIMENT_SIZE <- 1050
+
+confed_regiment_low <- PCT_UNIT_LOW * CONFED_REGIMENT_SIZE
+confed_regiment_high <- PCT_UNIT_HIGH * CONFED_REGIMENT_SIZE
+```
+The distribution is uniform and the summary stats can be calculated exactly.
+```{r}
+unit_sizes[["confed"]][["infantry_regiment"]] <-
+  uniform_size(confed_regiment_low, confed_regiment_high)
+```
+However, I'll need to draw random values from it for other unit sizes.
+```{r}
+draw_confed_infantry_regiments <-
+  function(n) draw_unif(n, confed_regiment_low, confed_regiment_high)
+```
+
+Draw brigades, divisions, corps and armies using the values from the tables of sub-units:
+
+```{r}
+draw_confed_infantry_brigades <- function(n) {
+  sz <- filter(units_table, belligerent == "Confederate", as.logical(infantry),
+               unit.type == "regiments per brigade")
+  draw_unit_personnel(n, sz$low, sz$high, sz$avg, draw_confed_infantry_regiments)                    
+}
+unit_sizes[["confed"]][["infantry_brigade"]] <-
+  summarize_data(draw_confed_infantry_brigades(N))
+
+draw_confed_infantry_divisions <- function(n) {
+  sz <- filter(units_table, belligerent == "Confederate", as.logical(infantry),
+               unit.type == "brigades per division")
+  draw_unit_personnel(n, sz$low, sz$high, sz$avg, draw_confed_infantry_brigades)
+}
+unit_sizes[["confed"]][["infantry_division"]] <-
+  summarize_data(draw_confed_infantry_divisions(N))
+
+draw_confed_infantry_corps <- function(n) {
+  sz <- filter(units_table, belligerent == "Confederate", as.logical(infantry),
+               unit.type == "divisions per corps")
+  draw_unit_personnel(n, sz$low, sz$high, sz$avg, draw_confed_infantry_divisions)                    
+}
+unit_sizes[["confed"]][["infantry_corps"]] <-
+  summarize_data(draw_confed_infantry_corps(N))
+
+draw_confed_armies <- function(n) {
+  sz <- filter(units_table, belligerent == "Confederate", as.logical(infantry),
+               unit.type == "divisions per corps")
+  draw_unit_personnel(n, sz$low, sz$high, sz$avg, draw_confed_infantry_corps)                    
+}
+unit_sizes[["confed"]][["army"]] <-
+  summarize_data(draw_confed_armies(N))
+```
+
 ## Cavalry
+
+Assume a cavalry company is the same size as an infantry company
+```{r}
+unit_sizes[["confed"]][["cavalry_company"]] <-
+  unit_sizes[["confed"]][["cavalry_company"]]
+
+draw_confed_cavalry_companies <-
+  function(n) draw_unif(n, PCT_UNIT_LOW * 100, PCT_UNIT_HIGH * 100)
+```
+
+A cavalry squadrom is 2 companies
+```{r}
+draw_confed_cavalry_squadrons <-
+  function(n) {
+     draw_unit_personnel_exact(n, 2, draw_confed_cavalry_companies)
+  }
+unit_sizes[["confed"]][["cavalry_company"]] <-
+  summarize_data(draw_confed_cavalry_squadrons(N))
+```
+
+Assume cavalry regiment is the same size as an infantry regiment
+```{r}
+draw_confed_cavalry_regiments <- draw_confed_infantry_regiments
+
+unit_sizes[["confed"]][["cavalry_regiment"]] <-
+  unit_sizes[["confed"]][["infantry_regiment"]]
+```
+
+Draw brigades, divisions, corps and armies using the values from the tables of
+sub-units:
+
+```{r}
+draw_confed_cavalry_brigades <- function(n) {
+  sz <- filter(units_table, belligerent == "Confederate", !as.logical(infantry), 
+               unit.type == "regiments per brigade")
+  draw_unit_personnel(n, sz$low, sz$high, sz$avg, draw_confed_cavalry_regiments)                    
+}
+unit_sizes[["confed"]][["cavalry_brigade"]] <-
+  summarize_data(draw_confed_cavalry_brigades(N))
+
+draw_confed_cavalry_divisions <- function(n) {
+  sz <- filter(units_table, belligerent == "Confederate", !as.logical(infantry), 
+               unit.type == "brigades per division")
+  draw_unit_personnel(n, sz$low, sz$high, sz$avg, draw_confed_cavalry_brigades)                    
+}
+unit_sizes[["confed"]][["cavalry_division"]] <-
+  summarize_data(draw_confed_cavalry_divisions(N))
+
+draw_confed_cavalry_corps <- function(n) {
+  sz <- filter(units_table, belligerent == "Confederate", !as.logical(infantry), 
+               unit.type == "divisions per corps")
+  draw_unit_personnel(n, sz$low, sz$high, sz$avg, draw_confed_cavalry_divisions)                    
+}
+unit_sizes[["confed"]][["cavalry_corps"]] <-
+  summarize_data(draw_confed_cavalry_corps(N))
+
+```
+
 
 ## Artillery
 
@@ -358,9 +485,17 @@ What do we need?
 - cavalry: company, regiment, brigade, divions, corps
 - artillery: battery, section / company, brigade, regiment
 
+
+
 ```{r }
 con <- file("unit_sizes.json", "w")
 cat(toJSON(unit_sizes),
     file = con)
 close(con)
 ```
+
+# TODO
+
+- Should companies be at less than full strength? When regiments had casualties,
+  did each regiment lose personnel, or were the personnel rearranged into fewer
+  companies.
