@@ -55,7 +55,7 @@ combatant_fields = ('battle',
  'artillery_companies',
  'artillery_regiments',
  'artillery_sections',
- 'infantry_regiments'
+ 'infantry_regiments',
  'strength_other',
  'ships',
  'guns',

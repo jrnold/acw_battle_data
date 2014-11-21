@@ -37,8 +37,58 @@ unit_sizes <- fromJSON("../organizations/unit_sizes.json")
 #'
 #' The CWSAC II data are more detailed and have more numeric. Thus prefer those instead of CWSAC I.
 #'
-union_forces <- filter(cwsac2_forces,
-                       combatant == "U")
+union_forces <- filter(cwsac2_forces, combatant == "US")
+
+units_to_personnel <- function(x, confederate = FALSE) {
+    if (confederate) combatant <- "confederate"
+    else combatant <- "union"
+
+    vars <-
+     c("strength",
+       "regiments",
+       "companies",
+       "brigades",
+       "divisions",
+       "corps",
+       "armies", 
+       "cavalry_regiments",
+       "cavalry_brigades",
+       "cavalry_divisions", 
+       "cavalry_corps",
+       "cavalry_companies",
+       "artillery_batteries",
+       "artillery_sections", 
+       "artillery_companies",
+       "artillery_regiments", 
+       "infantry_regiments")
+    ## Indicator if all variables are missing
+    ## all_na <-
+    ##     select(x, one_of(vars)) %>% apply(1, function(rw) all(is.na(rw)))
+    ## fill in NA's with 0's
+    ## "strength",
+    x[["regiments"]] <- x[["regiments"]] * unit_sizes[[combatant]][["infantry_regiment"]]
+    x[["regiments"]] <- x[["regiments"]] * unit_sizes[[combatant]]
+       "companies",
+       "brigades",
+       "divisions",
+       "corps",
+       "armies", 
+       "cavalry_regiments",
+       "cavalry_brigades",
+       "cavalry_divisions", 
+       "cavalry_corps",
+       "cavalry_companies",
+       "artillery_batteries",
+       "artillery_sections", 
+       "artillery_companies",
+       "artillery_regiments", 
+       "infantry_regiments")
+
+    x[["strength"]]
+    
+    
+    
+}
 
 #'
 #' create variable `str_personnel` which aggregates all strength data
