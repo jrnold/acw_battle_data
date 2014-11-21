@@ -68,12 +68,6 @@ def parse_losses(x):
        d = dict([(g, _int(m1.group(g))) for g in groups])
     elif m2:
         d = dict([(g, 0) for g in groups])
-        matches = m2.groupdict()
-        for k, v in matches.items():
-            if v:
-                val = _int(v)
-                d[k] = val
-                d['total'] += val
     elif m3:
         d = dict([(g, None) for g in groups])
         d['total'] = _int(m3.group('total'))
