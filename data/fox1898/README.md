@@ -107,9 +107,10 @@ Fox lists alternate casualty figures for Confederates at Gettysburg that I don't
 
 ## CWSAC 
 
-- 'Manassas gap' on 1863-7-21 is not matched to VA108 because 'Wapping
-  Heights' on 1863-7-23 is matched to that battle.
-- 'Petersburg Trenches' entries are not matched to any CWSAC
-  battles. All the battles in the Petersburg and Appomattox Campaigns
-  appear to be outside the trenches, or assaults that have separate entries in Fox.
+- 'Manassas gap' on 1863-7-21 is not matched to VA108 because 'Wapping Heights' on 1863-7-23 is matched to that battle.
+- 'Petersburg Trenches' entries are not matched to any CWSAC battles.
+   All the battles in the Petersburg and Appomattox Campaigns appear to be outside the trenches, or assaults that have separate entries in Fox.
 
+## Misc
+
+There is not a battle-level table for the Fox data because it uses slightly different definitions of battles for the different belligerents.
