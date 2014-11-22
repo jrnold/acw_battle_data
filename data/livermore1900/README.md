@@ -4,6 +4,8 @@ Data from Thomas Leonard Livermore (1900) "Number and Losses in the
 Civil War in America, 1861-1865",
 http://books.google.com/books?id=Qw8pAAAAYAAJ .
 
+## Battle Results
+
 Tables `liv_battles` and `liv_forces$` combine data from several
 tables in Livermore: "Assaults on Fortified Lines" on p. 75, the
 tables on p. 76-77, and Table A (140-141).  
@@ -49,6 +51,10 @@ Several battles are campaigns:
 - Seven_Days'_Battles_1862-06-25 : http://en.wikipedia.org/wiki/Seven_Days%27_Battles
 - Appomattox_Camp_1865-03-29 : http://en.wikipedia.org/wiki/Appomattox_campaign
 - Atlanta_Campaign_1864-05-01 : http://dbpedia.org/resource/Atlanta_Campaign
+
+## LIVRMORE data
+
+The `LIVRMORE` dataset in PAR includes data from Livermore, taken from the battle descriptions (not Table A).
 
 ## Files
 
