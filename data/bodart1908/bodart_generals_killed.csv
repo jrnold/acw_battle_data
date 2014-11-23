@@ -1,4 +1,4 @@
-battle,country,name,last_name,first_name,middle_name,suffix,rank,date
+battle_id,country,name,last_name,first_name,middle_name,suffix,rank,date
 "Antietam (September 17, 1862)",Union,J. K. F. Mansfield,Mansfield,J.,K. F.,,Maj. Gen.,
 "Antietam (September 17, 1862)",Union,J. B. Richardson,Richardson,J.,B.,,Maj. Gen.,
 "Antietam (September 17, 1862)",Union,J. P. Rodman,Rodman,J.,P.,,Brig. Gen.,
@@ -15,8 +15,8 @@ battle,country,name,last_name,first_name,middle_name,suffix,rank,date
 "Bull-Run (August 29, 1862)",Union,H. Bohlen,Bohlen,H.,,,Brig. Gen.,
 "Bull-Run (August 29, 1862)",Union,W. Taylor,Taylor,W.,,,Brig. Gen.,
 "Bull-Run (July 21, 1861)",Confederacy,Bee,Bee,,,,Brig. Gen.,
-"Cedar_Mountain (August 09, 1862)",Confederacy,C. S. Winder,Winder,C.,S.,,Brig. Gen.,
-"Champion's_Hill (May 16, 1863)",Confederacy,L. Tilghman,Tilghman,L.,,,Brig. Gen.,
+"Cedar Mountain (August 09, 1862)",Confederacy,C. S. Winder,Winder,C.,S.,,Brig. Gen.,
+"Champion's Hill (May 16, 1863)",Confederacy,L. Tilghman,Tilghman,L.,,,Brig. Gen.,
 "Chancellorsville (May 03, 1863)",Confederacy,T. J. Jackson,Jackson,T.,J.,,Lt. Gen,
 "Chancellorsville (May 03, 1863)",Confederacy,E. F. Paxton,Paxton,E.,F.,,Brig. Gen.,
 "Chancellorsville (May 03, 1863)",Union,H. G. Berry,Berry,H.,G.,,Maj. Gen.,
@@ -46,7 +46,7 @@ battle,country,name,last_name,first_name,middle_name,suffix,rank,date
 "Gettysburg (July 01, 1863)",Confederacy,W. Barksdale,Barksdale,W.,,,Brig. Gen.,
 "Gettysburg (July 01, 1863)",Confederacy,R. B. Garnett,Garnett,R.,B.,,Brig. Gen.,
 "Gettysburg (July 01, 1863)",Confederacy,P. J. Semmes,Semmes,P.,J.,,Brig. Gen.,
-"Harper's_Ferry (September 15, 1862)",Union,D. Miles,Miles,D.,,,Col.,
+"Harper's Ferry (September 15, 1862)",Union,D. Miles,Miles,D.,,,Col.,
 "Middletown (October 19, 1864)",Union,D. D. Bidwell,Bidwell,D.,D.,,Brig. Gen.,
 "Middletown (October 19, 1864)",Union,C. R. Lowell,Lowell,C.,R.,,Brig. Gen.,
 "Middletown (October 19, 1864)",Confederacy,S. D. Ramseur,Ramseur,S.,D.,,Maj. Gen.,
@@ -55,9 +55,9 @@ battle,country,name,last_name,first_name,middle_name,suffix,rank,date
 "Murfreesborough (December 31, 1862)",Confederacy,R. W. Hanson,Hanson,R.,W.,,Brig. Gen.,
 "Murfreesborough (December 31, 1862)",Confederacy,J. E. Rains,Rains,J.,E.,,Brig. Gen.,
 "Nashville (December 15, 1864)",Union,S. G. Hill,Hill,S.,G.,,Brig. Gen.,
-"Pea_Ridge (March 07, 1862)",Confederacy,McCulloch,McCulloch,,,,Brig. Gen.,
-"Pea_Ridge (March 07, 1862)",Confederacy,McIntosh,McIntosh,,,,Brig. Gen.,
-"Pea_Ridge (March 07, 1862)",Confederacy,Slack,Slack,,,,Brig. Gen.,
+"Pea Ridge (March 07, 1862)",Confederacy,McCulloch,McCulloch,,,,Brig. Gen.,
+"Pea Ridge (March 07, 1862)",Confederacy,McIntosh,McIntosh,,,,Brig. Gen.,
+"Pea Ridge (March 07, 1862)",Confederacy,Slack,Slack,,,,Brig. Gen.,
 "Perryville (October 08, 1862)",Union,J. S. Jackson,Jackson,J.,S.,,Brig. Gen.,
 "Perryville (October 08, 1862)",Union,W. R. Terrill,Terrill,W.,R.,,Brig. Gen.,
 "Petersburg (June 09, 1864)",Union,H. Burnham,Burnham,H.,,,Brig. Gen.,1864-06-28
@@ -65,7 +65,7 @@ battle,country,name,last_name,first_name,middle_name,suffix,rank,date
 "Petersburg (June 09, 1864)",Union,G. A. Stedman,Stedman,G.,A.,,Brig. Gen.,1864-08-05
 "Petersburg (June 09, 1864)",Confederacy,A. P. Hill,Hill,A.,P.,,Lt. Gen.,1865-04-02
 "Petersburg (June 09, 1864)",Confederacy,J. Pegram,Pegram,J.,,,Maj. Gen.,1865-02-06
-"Seven_Pines (May 31, 1862)",Confederacy,R. Hatton,Hatton,R.,,,Brig. Gen.,
+"Seven Pines (May 31, 1862)",Confederacy,R. Hatton,Hatton,R.,,,Brig. Gen.,
 "Shiloh (April 06, 1862)",Union,W. H. L. Wallace,Wallace,W.,H. L.,,Brig. Gen.,
 "Shiloh (April 06, 1862)",Confederacy,A. S. Johnston,Johnston,A.,S.,,Gen.,
 "Shiloh (April 06, 1862)",Confederacy,A. H. Gladden,Gladden,A.,H.,,Brig. Gen.,
@@ -82,7 +82,7 @@ battle,country,name,last_name,first_name,middle_name,suffix,rank,date
 "Wilderness (May 05, 1864)",Union,J. S. Wadsworth,Wadsworth,J.,S.,,Maj. Gen.,
 "Wilderness (May 05, 1864)",Confederacy,A. G. Jenkins,Jenkins,A.,G.,,Brig. Gen.,
 "Wilderness (May 05, 1864)",Confederacy,J. M. Jones,Jones,J.,M.,,Brig. Gen.,
-"Wilson's_Creek (August 10, 1861)",Union,Lyon,Lyon,,,,Brig. Gen.,
+"Wilson's Creek (August 10, 1861)",Union,Lyon,Lyon,,,,Brig. Gen.,
 "Winchester (September 19, 1864)",Union,D. A. Russell,Russell,D.,A.,,Maj. Gen.,
 "Winchester (September 19, 1864)",Confederacy,R. E. Rodes,Rodes,R.,E.,,Maj. Gen.,
 "Winchester (September 19, 1864)",Confederacy,A. C. Godwin,Godwin,A.,C.,,Brig. Gen.,

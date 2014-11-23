@@ -1,56 +1,56 @@
-name,other_name,start_date,end_date,location,category,order,page
-Antietam,Sharpsburg,1862-09-17,1862-09-17,"Linker Nebenfluß des Potomac in Marylang, mündet unterhalb Sharpsburg, 25 km nördl. von Harper's Ferry.",battle,2,527
-Appomattox-Court-House,,1865-04-09,1865-04-09,"Ort in Virginia, am rechten Ufer des Appomattox [ rechter Nebenfluß des James River], 120 km westl. von Richmond.",surrender,,542
-Arkansas Post,Fort Hindman,1863-01-11,1863-01-11,"Verschanztes Lager der Konföderierte am linken Ufer des Arkansas-River im Staate Arkansas, 100 km südöstl. von Little Rock",meeting;surrender,4,530
-Atlanta,,1864-07-22,1864-07-22,"Hauptstadt des Staates Georgia, 880 km südwestl. von Washington",battle,3,538
-Bentonville,,1865-03-20,1865-03-20,"Dorf in Nord-Carolina, ca. 60 km. südöstl. von Raleigh.",battle,4,541
-Boonsborough,South-Mountain,1862-09-14,1862-09-14,"Dorf in Maryland, 22 km nordl. von Sharpsburg.",meeting,5,527
-Bull Run,Manassas-Junction,1862-08-29,1862-08-30,"Kleiner Nebenfluß des Potomac in Virginien, 45 km südwestl. von Washington
-",battle,2,526
-Bull-Run,Manassas-Junction,1861-07-21,1861-07-21,"Kleiner Nebenfluß des Potomac in den Vereinigten Staaten von Nodramerika, Virginia; die Schlacht fand an beiden Flußufern, ca. 35-45 km. südwestl. von Washington statt).",battle,4,522
-Cedar Mountain,,1862-08-09,1862-08-09,"Berg in Virginia, am Cedar Creek, Nebenfluß des Shenandoah, 75 km westl. von Washington.
-",meeting,5,525
-Champion's Hill,Baker's Creek,1863-05-16,1863-05-16,"Berg im Staate Mississippi, 30 km östl. von Vicksburg.",battle,4,531
-Chancellorsville,,1863-05-03,1863-05-05,"Stadt in Virginia, 15 km westl. von Fredericksburg",battle,1,530
-Charleston,,1863-04-01,1865-02-18,Bedeutendste Hafenstadt Süd-Carolinas.,siege,,540
-Chickahominy,Mechanicsville;Gaine's Mill;Cold Harbor;Malvern Hill,1862-06-25,1862-07-01,"Der chickahominy, an dessen sumpfigen Ufern die siebentägige Schlaeht geschlagen
+battle_id,name,other_name,start_date,end_date,location,order,siege,battle,meeting,surrender,siege,capture,page
+"Antietam (September 17, 1862)",Antietam,Sharpsburg,1862-09-17,1862-09-17,"Linker Nebenfluß des Potomac in Marylang, mündet unterhalb Sharpsburg, 25 km nördl. von Harper's Ferry.",2,0,1,0,0,0,0,527
+"Appomattox-Court-House (April 09, 1865)",Appomattox-Court-House,,1865-04-09,1865-04-09,"Ort in Virginia, am rechten Ufer des Appomattox [ rechter Nebenfluß des James River], 120 km westl. von Richmond.",,0,0,0,1,0,0,542
+"Arkansas Post (January 11, 1863)",Arkansas Post,Fort Hindman,1863-01-11,1863-01-11,"Verschanztes Lager der Konföderierte am linken Ufer des Arkansas-River im Staate Arkansas, 100 km südöstl. von Little Rock",4,0,0,1,1,0,0,530
+"Atlanta (July 22, 1864)",Atlanta,,1864-07-22,1864-07-22,"Hauptstadt des Staates Georgia, 880 km südwestl. von Washington",3,0,1,0,0,0,0,538
+"Bentonville (March 05, 1865)",Bentonville,,1865-03-20,1865-03-20,"Dorf in Nord-Carolina, ca. 60 km. südöstl. von Raleigh.",4,0,1,0,0,0,0,541
+"Boonsborough (September 14, 1862)",Boonsborough,South-Mountain,1862-09-14,1862-09-14,"Dorf in Maryland, 22 km nordl. von Sharpsburg.",5,0,0,1,0,0,0,527
+"Bull-Run (August 29, 1862)",Bull Run,Manassas-Junction,1862-08-29,1862-08-30,"Kleiner Nebenfluß des Potomac in Virginien, 45 km südwestl. von Washington
+",2,0,1,0,0,0,0,526
+"Bull-Run (July 21, 1861)",Bull-Run,Manassas-Junction,1861-07-21,1861-07-21,"Kleiner Nebenfluß des Potomac in den Vereinigten Staaten von Nodramerika, Virginia; die Schlacht fand an beiden Flußufern, ca. 35-45 km. südwestl. von Washington statt).",4,0,1,0,0,0,0,522
+"Cedar Mountain (August 09, 1862)",Cedar Mountain,,1862-08-09,1862-08-09,"Berg in Virginia, am Cedar Creek, Nebenfluß des Shenandoah, 75 km westl. von Washington.
+",5,0,0,1,0,0,0,525
+"Champion's Hill (May 16, 1863)",Champion's Hill,Baker's Creek,1863-05-16,1863-05-16,"Berg im Staate Mississippi, 30 km östl. von Vicksburg.",4,0,1,0,0,0,0,531
+"Chancellorsville (May 03, 1863)",Chancellorsville,,1863-05-03,1863-05-05,"Stadt in Virginia, 15 km westl. von Fredericksburg",1,0,1,0,0,0,0,530
+"Charleston (April 01, 1863)",Charleston,,1863-04-01,1865-02-18,Bedeutendste Hafenstadt Süd-Carolinas.,,1,0,0,0,1,0,540
+"Chickahominy (June 25, 1862)",Chickahominy,Mechanicsville;Gaine's Mill;Cold Harbor;Malvern Hill,1862-06-25,1862-07-01,"Der chickahominy, an dessen sumpfigen Ufern die siebentägige Schlaeht geschlagen
 wurde, ist ein linker Nebenfluß des James River in Virginien; das Schlachtfeld 10 km nördl.,
 20-25 km östl. und südöstl. von Richmond.
-",battle,1,525
-Chickamauga,,1863-09-19,1863-09-20,Linker Nebenfluß des Tennessee; die Schlacht fand an beiden Ufern des Flusses and der Grenze der Staaten Georgia und Tennessee statt.,battle,1,533
-Chickasaw Bluffs,,1863-01-03,1863-01-03,"Verschanzungen der Konföderierte in Mississippi, 3-10 km nordöstl. von Vicksburg.",meeting,6,530
-Cold Harbor,,1864-06-03,1864-06-03,"Ort in Virginia, 13 km nordöstl. von Richmond.",battle,3,537
-Corinth,,1862-10-03,1862-10-04,Stadt im äußersten Nordosten des Staates Mississippi.,battle,4,528
-Drewry's Bluff,,1864-05-16,1864-05-16,"Ort in Virginia, am rechten Ufer des James River, 11 km südl. von Richmond",meeting,4,536
-Durham's-Station,,1865-04-25,1865-04-25,"Ort in Nord-Carolina, 30 km nordwestl. von Raleigh.",surrender,,542
-Ezra-Church,Atlanta,1864-07-28,1864-07-28,"Ord in Georgia, 5 km westl. von Atlanta",battle,4,538
-Fort Donelson,,1862-02-12,1862-02-15,"Verschanzungen der Konföderierten in Tennessee, am linken Ufer des Cumberlandflusses, nördl. von Dover, 110 km. nordwestl. von Nashville",battle;surrender,3,523
-Franklin,,1864-11-30,1864-11-30,"Dorf in Tennessee, 30 km südl. von Nashville.",battle,4,540
-Fredericksburg,,1862-12-11,1862-12-15,"Stadt in Virginia, 80 km südwsestl. von Washington",battle,3,529
-Gettysburg,,1863-07-01,1863-07-03,"Stadt in Pennsylvania, 58 km südwestl. von Harrisburg.",battle,1,532
-Harper's Ferry,,1862-09-15,1862-09-15,"Stadt in Virginia, am Einfuß des Shenandoah in den Potomac, 80 km westl. von Washington",surrender,,527
-Kenesaw-Mountain,,1864-06-27,1864-06-27,"Berg in Georgia, 34 km nordwestl. von Atlanta.",meeting,5,537
-Lexington,,1861-09-20,1861-09-20,"Stadt in den Vereinigten Staaten von Nordamerika, Missouri, am rechten Ufer des Missouri, 320 km nordwestl. von St. Louis.",surrender,,522
-Middletown,Cedar Creek,1864-10-19,1864-10-19,"Kleine Stadt in Virginia, 20 km südwestl. von Winchester, am Cedar Creek, Nebenfluß des Shenandoah.",battle,4,539
-Mobile,,1865-04-02,1865-04-09,"Seefestung in Alabama, an der gleichnamigen Bai.",siege;capture,,542
-Murfreesborough,Stone's River,1862-12-31,1863-01-03,"Stadt in Tennessee, am Stone's River, 50 km südöstl. von Nashville.",battle,2,529
-Nashville,,1864-12-15,1864-12-16,"Haupstadt von Tennessee, 930 km. südwestl. von Washington.",battle,3,540
-New Hope Church,Dallas,1864-05-28,1864-05-28,"Ort in Georgia, 50 km nordwestl. von Atlanta.",meeting,4,536
-Pamunkey,,1864-05-22,1864-05-26,"Fluß in Virginia, mündet in die York-Bay.",meeting,4,536
-Pea Ridge,Elkhorn-Tavern,1862-03-07,1862-03-08,"Berg in nordwestlichen Teil des Staates Arkansas, in der Nähe von Bentonville",meeting,3,523
-Peach-Tree-Creek,Atlanta,1864-07-20,1864-07-20,"Linker Nebenfluß des Chattaboochee in Georgia, mündet 11 km nordwestl. von Atlanta.",battle,4,538
-Perryville,,1862-10-08,1862-10-08,"Kleine Stadt in Kentucky, 100 km südöstl. von Louisville",battle,4,528
-Petersburg,,1864-06-09,1865-04-03,"Stadt in Virginia, 40 km. südlich von Richmond.",siege;capture,,541
-Prairie-Grove,,1862-12-07,1862-12-07,"Dorf in nordwestlichen Arkansas, 20 km südwestlich von Fayetteville",meeting,6,528
-Resaca,,1864-05-14,1864-05-14,"Stadt in Georgia, 100 km nordwestl. von Atlanta",battle,4,536
-Richmond,Rogersville,1862-08-30,1862-08-30,"Stadt in Kentucky, 20 km südöstl. von Lexington.",meeting,4,526
-Ringgold,Chattanooga;Missionary Ridge,1863-11-23,1863-11-25,"Stadt in nördlichen Georgia, knapp an der Grenze von Tennessee, 30 km südöstl. von Chattanooga in Tennessee.",battle,3,533
-Seven Pines,Fair-Oaks;White-Oak-Swamp,1862-05-31,1862-06-01,"Sümpfe an beiden Ufern des Chickahominyflusses in Virginia, 10 km östl. von Richmond.",battle,3,524
-Shiloh,Pittsburg-Landing,1862-04-06,1862-04-07,"Dorf in Südwesten des Staates Tennessee, gegenüber der Stadt Pittsburg-Landing, am Tennessee-Flusse, 150 km. östl. von Memphis.",battle,2,523
-Spotsylvania-Court-House,,1864-05-08,1864-05-12,"Ort in Virginia, 70 km nördl. von Richmond",battle,2,535
-Vicksburg,,1863-05-19,1863-07-04,"Stadt im Staate Mississippi, am linken Ufer des Mississippistromes.",siege;capture,,532
-Wilderness,,1864-05-05,1864-05-07,"Waldige, zerklüftete, ""die Wildnis"" benannte Gegend im Staate Virginia, am rechten Ufer des Rapidan, 100 km nordwestl. von Richmond.",battle,2,535
-Williamsburg,,1862-05-05,1862-05-05,"Stadt in Virginia, 65 km südöstl. von Richmond",battle,5,524
-Wilson's Creek,Oak-Hills,1861-08-10,1861-08-10,"Fluß in den Vereinigten Staaten van Nordamerika, Missouri, in der Nähe von Springfield, 320 km südwestl. von St. Louis).",meeting,6,522
-Winchester,,1863-06-15,1863-06-15,"Stadt in Virginia, 100 km westl. von Washington.",meeting,4,531
-Winchester,Opequon,1864-09-19,1864-09-19,"Stadt in Virginia, in der Nähe des Opequon, rechtem Nebenfluß des Potomac.",battle,4,539
+",1,0,1,0,0,0,0,525
+"Chickamauga (September 19, 1863)",Chickamauga,,1863-09-19,1863-09-20,Linker Nebenfluß des Tennessee; die Schlacht fand an beiden Ufern des Flusses and der Grenze der Staaten Georgia und Tennessee statt.,1,0,1,0,0,0,0,533
+"Chickasaw Bluffs (January 03, 1863)",Chickasaw Bluffs,,1863-01-03,1863-01-03,"Verschanzungen der Konföderierte in Mississippi, 3-10 km nordöstl. von Vicksburg.",6,0,0,1,0,0,0,530
+"Cold Harbor (June 03, 1864)",Cold Harbor,,1864-06-03,1864-06-03,"Ort in Virginia, 13 km nordöstl. von Richmond.",3,0,1,0,0,0,0,537
+"Corinth (October 03, 1862)",Corinth,,1862-10-03,1862-10-04,Stadt im äußersten Nordosten des Staates Mississippi.,4,0,1,0,0,0,0,528
+"Drewry's Bluff (May 16, 1864)",Drewry's Bluff,,1864-05-16,1864-05-16,"Ort in Virginia, am rechten Ufer des James River, 11 km südl. von Richmond",4,0,0,1,0,0,0,536
+"Durham's-Station (April 25, 1865)",Durham's-Station,,1865-04-25,1865-04-25,"Ort in Nord-Carolina, 30 km nordwestl. von Raleigh.",,0,0,0,1,0,0,542
+"Ezra-Church (July 28, 1864)",Ezra-Church,Atlanta,1864-07-28,1864-07-28,"Ord in Georgia, 5 km westl. von Atlanta",4,0,1,0,0,0,0,538
+"Fort Donelson (February 12, 1862)",Fort Donelson,,1862-02-12,1862-02-15,"Verschanzungen der Konföderierten in Tennessee, am linken Ufer des Cumberlandflusses, nördl. von Dover, 110 km. nordwestl. von Nashville",3,0,1,0,1,0,0,523
+"Franklin (November 30, 1864)",Franklin,,1864-11-30,1864-11-30,"Dorf in Tennessee, 30 km südl. von Nashville.",4,0,1,0,0,0,0,540
+"Fredericksburg (December 11, 1862)",Fredericksburg,,1862-12-11,1862-12-15,"Stadt in Virginia, 80 km südwsestl. von Washington",3,0,1,0,0,0,0,529
+"Gettysburg (July 01, 1863)",Gettysburg,,1863-07-01,1863-07-03,"Stadt in Pennsylvania, 58 km südwestl. von Harrisburg.",1,0,1,0,0,0,0,532
+"Harper's Ferry (September 15, 1862)",Harper's Ferry,,1862-09-15,1862-09-15,"Stadt in Virginia, am Einfuß des Shenandoah in den Potomac, 80 km westl. von Washington",,0,0,0,1,0,0,527
+"Kenesaw-Mountain (June 27, 1864)",Kenesaw-Mountain,,1864-06-27,1864-06-27,"Berg in Georgia, 34 km nordwestl. von Atlanta.",5,0,0,1,0,0,0,537
+"Lexington (September 20, 1861)",Lexington,,1861-09-20,1861-09-20,"Stadt in den Vereinigten Staaten von Nordamerika, Missouri, am rechten Ufer des Missouri, 320 km nordwestl. von St. Louis.",,0,0,0,1,0,0,522
+"Middletown (October 19, 1864)",Middletown,Cedar Creek,1864-10-19,1864-10-19,"Kleine Stadt in Virginia, 20 km südwestl. von Winchester, am Cedar Creek, Nebenfluß des Shenandoah.",4,0,1,0,0,0,0,539
+"Mobile (April 02, 1865)",Mobile,,1865-04-02,1865-04-09,"Seefestung in Alabama, an der gleichnamigen Bai.",,1,0,0,0,1,1,542
+"Murfreesborough (December 31, 1862)",Murfreesborough,Stone's River,1862-12-31,1863-01-03,"Stadt in Tennessee, am Stone's River, 50 km südöstl. von Nashville.",2,0,1,0,0,0,0,529
+"Nashville (December 15, 1864)",Nashville,,1864-12-15,1864-12-16,"Haupstadt von Tennessee, 930 km. südwestl. von Washington.",3,0,1,0,0,0,0,540
+"New-Hope-Church (May 28, 1864)",New Hope Church,Dallas,1864-05-28,1864-05-28,"Ort in Georgia, 50 km nordwestl. von Atlanta.",4,0,0,1,0,0,0,536
+"Pamunkey (May 22, 1864)",Pamunkey,,1864-05-22,1864-05-26,"Fluß in Virginia, mündet in die York-Bay.",4,0,0,1,0,0,0,536
+"Pea Ridge (March 07, 1862)",Pea Ridge,Elkhorn-Tavern,1862-03-07,1862-03-08,"Berg in nordwestlichen Teil des Staates Arkansas, in der Nähe von Bentonville",3,0,0,1,0,0,0,523
+"Peach-Tree-Creek (July 20, 1864)",Peach-Tree-Creek,Atlanta,1864-07-20,1864-07-20,"Linker Nebenfluß des Chattaboochee in Georgia, mündet 11 km nordwestl. von Atlanta.",4,0,1,0,0,0,0,538
+"Perryville (October 08, 1862)",Perryville,,1862-10-08,1862-10-08,"Kleine Stadt in Kentucky, 100 km südöstl. von Louisville",4,0,1,0,0,0,0,528
+"Petersburg (June 09, 1864)",Petersburg,,1864-06-09,1865-04-03,"Stadt in Virginia, 40 km. südlich von Richmond.",,1,0,0,0,1,1,541
+"Prairie-Grove (December 07, 1862)",Prairie-Grove,,1862-12-07,1862-12-07,"Dorf in nordwestlichen Arkansas, 20 km südwestlich von Fayetteville",6,0,0,1,0,0,0,528
+"Resaca (May 14, 1864)",Resaca,,1864-05-14,1864-05-14,"Stadt in Georgia, 100 km nordwestl. von Atlanta",4,0,1,0,0,0,0,536
+"Richmond (August 30, 1862)",Richmond,Rogersville,1862-08-30,1862-08-30,"Stadt in Kentucky, 20 km südöstl. von Lexington.",4,0,0,1,0,0,0,526
+"Ringgold (November 23, 1863)",Ringgold,Chattanooga;Missionary Ridge,1863-11-23,1863-11-25,"Stadt in nördlichen Georgia, knapp an der Grenze von Tennessee, 30 km südöstl. von Chattanooga in Tennessee.",3,0,1,0,0,0,0,533
+"Seven Pines (May 31, 1862)",Seven Pines,Fair-Oaks;White-Oak-Swamp,1862-05-31,1862-06-01,"Sümpfe an beiden Ufern des Chickahominyflusses in Virginia, 10 km östl. von Richmond.",3,0,1,0,0,0,0,524
+"Shiloh (April 06, 1862)",Shiloh,Pittsburg-Landing,1862-04-06,1862-04-07,"Dorf in Südwesten des Staates Tennessee, gegenüber der Stadt Pittsburg-Landing, am Tennessee-Flusse, 150 km. östl. von Memphis.",2,0,1,0,0,0,0,523
+"Spotsylvania-Court-House (May 08, 1864)",Spotsylvania-Court-House,,1864-05-08,1864-05-12,"Ort in Virginia, 70 km nördl. von Richmond",2,0,1,0,0,0,0,535
+"Vicksburg (May 19, 1863)",Vicksburg,,1863-05-19,1863-07-04,"Stadt im Staate Mississippi, am linken Ufer des Mississippistromes.",,1,0,0,0,1,1,532
+"Wilderness (May 05, 1864)",Wilderness,,1864-05-05,1864-05-07,"Waldige, zerklüftete, ""die Wildnis"" benannte Gegend im Staate Virginia, am rechten Ufer des Rapidan, 100 km nordwestl. von Richmond.",2,0,1,0,0,0,0,535
+"Williamsburg (May 05, 1862)",Williamsburg,,1862-05-05,1862-05-05,"Stadt in Virginia, 65 km südöstl. von Richmond",5,0,1,0,0,0,0,524
+"Wilson's Creek (August 10, 1861)",Wilson's Creek,Oak-Hills,1861-08-10,1861-08-10,"Fluß in den Vereinigten Staaten van Nordamerika, Missouri, in der Nähe von Springfield, 320 km südwestl. von St. Louis).",6,0,0,1,0,0,0,522
+"Winchester (June 15, 1863)",Winchester,,1863-06-15,1863-06-15,"Stadt in Virginia, 100 km westl. von Washington.",4,0,0,1,0,0,0,531
+"Winchester (September 19, 1864)",Winchester,Opequon,1864-09-19,1864-09-19,"Stadt in Virginia, in der Nähe des Opequon, rechtem Nebenfluß des Potomac.",4,0,1,0,0,0,0,539
