@@ -29,16 +29,59 @@ def dict_remove(x, exclude = []):
 def dict_subset(x, include = []):
     return dict((k, v) for k, v in x.items() if k in include)
 
+fields_forces = (
+    "battle",
+    "country",
+    "victor",
+    "strength",
+    "strength_engaged",
+    "infantry",
+    "cavalry",
+    "artillery",
+    "guns",
+    "killed",
+    "killed_generals",
+    "killed_percent",    
+    "killed_officers",
+    "killed_wounded",
+    "killed_wounded_officers",
+    "killed_wounded_generals",
+    "killed_wounded_percent",
+    "wounded",
+    "wounded_generals"
+    "wounded_officers",
+    "wounded_percent",
+    "captured",
+    "captured_generals",
+    "captured_officers",
+    "missing",
+    "missing_generals",
+    "missing_officers",
+    "missing_percent",
+    "casualties",
+    "casualties_generals",
+    "casualties_officers",
+    "casualties_percent",
+    "losses_guns",
+    "losses_caissons",
+    "losses_cannon",
+    "losses_canons",
+    "losses_flags",
+    "losses_munition_wagons",
+    "losses_wagons",
+    "other"
+)
+
 def forces_csv(src, dst):
     with open(src, 'r') as f:
         data = yaml.load(f)
     # Get fieldnames
-    fieldnames = set()
-    for battle, v in sorted(data.items()):
-        for force in ('victor', 'loser'):
-            for field, v2 in sorted(v[force].items()):
-                fieldnames.add(field)
-    fieldnames -= {'commander', 'generals_killed'}
+    # fieldnames = set()
+    # for battle, v in sorted(data.items()):
+    #     for force in ('victor', 'loser'):
+    #         for field, v2 in sorted(v[force].items()):
+    #             fieldnames.add(field)
+    fieldnames = fields_forces
     with open(dst, 'w') as f:
         writer = csv.DictWriter(f, ['battle', 'victor'] + list(fieldnames))
         writer.writeheader()
