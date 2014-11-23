@@ -18,8 +18,9 @@ LIV_BATTLES_FILE <- "../PAR/data/LIVRMORE.csv"
 livrmore<- read_csv(LIV_BATTLES_FILE)
 
 liv_battles <-
-  (livrmore %>%
-   select(seq_no, battle_name, start_date, end_date, win_side))
+  (livrmore
+   %>% select(seq_no, battle_name, start_date, end_date, win_side)
+   %>% arrange(seq_no))
 
 strcas_vars <- c("str", "kia")
 attacker_vars <- str_c("attacker_", strcas_vars)
@@ -64,8 +65,9 @@ names(union_defending_forces) <-
   gsub("defender_", "", names(union_defending_forces))
 
 liv_forces <-
-  rbind(union_attacking_forces, confed_defending_forces,
-      confed_attacking_forces, confed_defending_forces)
+  (rbind(union_attacking_forces, confed_defending_forces,
+         confed_attacking_forces, union_defending_forces)
+   %>% arrange(seq_no, belligerent))
 
 write_csv(liv_battles, file = "LIVRMORE_battles.csv")
 write_csv(liv_forces, file = "LIVRMORE_forces.csv")
