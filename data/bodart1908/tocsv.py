@@ -48,7 +48,7 @@ fields_forces = (
     "killed_wounded_generals",
     "killed_wounded_percent",
     "wounded",
-    "wounded_generals"
+    "wounded_generals",
     "wounded_officers",
     "wounded_percent",
     "captured",
