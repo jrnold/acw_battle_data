@@ -83,7 +83,7 @@ def forces_csv(src, dst):
     #             fieldnames.add(field)
     fieldnames = fields_forces
     with open(dst, 'w') as f:
-        writer = csv.DictWriter(f, ['battle', 'victor'] + list(fieldnames))
+        writer = csv.DictWriter(f, fieldnames)
         writer.writeheader()
         with open(dst, 'w') as f:
             for battle, v in sorted(data.items()):
