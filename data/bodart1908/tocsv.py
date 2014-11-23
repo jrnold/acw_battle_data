@@ -40,28 +40,28 @@ fields_forces = (
     "artillery",
     "guns",
     "killed",
-    "killed_generals",
     "killed_percent",    
+    "killed_generals",
     "killed_officers",
     "killed_wounded",
-    "killed_wounded_officers",
-    "killed_wounded_generals",
     "killed_wounded_percent",
+    "killed_wounded_generals",
+    "killed_wounded_officers",
     "wounded",
+    "wounded_percent",
     "wounded_generals",
     "wounded_officers",
-    "wounded_percent",
     "captured",
     "captured_generals",
     "captured_officers",
     "missing",
+    "missing_percent",
     "missing_generals",
     "missing_officers",
-    "missing_percent",
     "casualties",
-    "casualties_generals",
-    "casualties_officers",
     "casualties_percent",
+    "casualties_officers",
+    "casualties_generals",
     "losses_guns",
     "losses_caissons",
     "losses_cannon",
@@ -89,7 +89,7 @@ def forces_csv(src, dst):
             for battle, v in sorted(data.items()):
                 for side in ('victor', 'loser'):
                     row = dict_subset(v[side], fieldnames)
-                    row['victor'] = side == 'victor'
+                    row['victor'] = (side == 'victor')
                     row['battle'] = battle
                     writer.writerow(row)
 
