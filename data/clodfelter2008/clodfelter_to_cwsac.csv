@@ -1,31 +1,13 @@
-battle,cwsac,relation
-"Wilson's Creek, August 10, 1861",MO004,=
-"Belmont, November 7, 1861",MO009,=
-Galveston,TX003,=
-Honey Springs,OK007,=
-Fort Hindman (Arkansas Post),AR006,=
-Port Hudson (siege),LA010,=
-Port Hudson (first assault),LA010,<
-Port Hudson (second assault),LA010,<
-Donaldsville (first),LA013,=
-Donaldsville (second),LA015,=
-Port Gibson,MS006,=
-Raymond,MS007,=
-Jackson,MS008,=
-Champion's Hill,MS009,=
-Big Black River,MS010,=
-Vicksburg (siege),MS011,=
-Vicksburg (first assault),MS011,<
-Vicksburg (second assault),MS011,<
-Helena,AR008,=
-Chickamagua,GA004,=
-Chattanooga,TN024,=
-Chattanooga (Orchard Knob/Indian Hill),TN024,<
-Chattanooga (Lookout Mountain),TN024,<
-Chattanooga (Tunnel Hill),TN024,<
-Chattanooga (Missionary Ridge),TN024,<
-Ringgold Gap,GA005,=
-Knoxville (attack on Fort Sanders),TN025,=
+from,to,relation
+Roanoake Island,NC002,=
+New Bern,NC003,=
+Hampton Roads (first day),VA008,<
+Hampton Roads (second day),VA008,<
+Secessionville,SC002,=
+Batteries Wagner and Gregg,SC005,=
+Battery Wagner,SC007,=
+Mobile Bay,AL003,<
+Fort Fisher,NC015,=
 Chancellorsville,VA032,=
 Brandy Station,VA035,=
 Winchester (second),VA107,=
@@ -34,62 +16,6 @@ Bristoe Station,VA040,=
 Buckland,VA042,=
 Rappahannock Station,VA043,=
 Mine Run,VA044,=
-"Rich Mountain/Laurel Mountain, July 11-13, 1861",WV003,=
-"First Bull Run (Manassas), July 21, 1861",VA005,=
-"Ball's Bluff, October 21, 1861",VA006,=
-Sabine Crossroads,LA018,=
-Pleasant Hill,LA019,=
-Yellow Bayou,LA023,=
-Jenkins Ferry,AR016,=
-Fort Davidson (Pilot Knob),MO021,=
-Westport,MO027,=
-Mine Creek,KS003,=
-Fort Pillow,TN030,=
-Brice's Crossroads,MS014,=
-Tupelo,MS015,=
-Selma,AL007,=
-New Hope Church,GA010,=
-Kennesaw Mountain,GA015,=
-Peachtree Creek,GA016,=
-Atlanta,GA017,=
-Ezra Church,GA018,=
-Jonesboro,GA022,=
-Allatoona,GA023,=
-Franklin,TN036,=
-Nashville,TN038,=
-Griswoldville,GA025,=
-Roanoake Island,NC002,=
-New Bern,NC003,=
-Hampton Roads (first day),VA008,<
-Hampton Roads (second day),VA008,<
-Secessionville,SC002,=
-Hatcher's Run (second),VA083,=
-Fort Stedman,VA084,=
-Five Forks,VA088,=
-Petersburg (second assault),VA089,<
-Fort Gregg,VA089,<
-Sayler's Creek,VA093,=
-Mobile Bay,AL003,<
-Fort Fisher,NC015,=
-Kinston,NC007,=
-Averasboro,NC019,=
-Bentonville,NC020,=
-Valverde,NM001,=
-Apache Canyon/Glorieta Pass,NM002,=
-Pea Ridge,AR001,=
-Prairie Grove,AR005,=
-Mill Springs (Logan's Crossroads),KY006,=
-Fort Donelson,TN002,=
-Shiloh (Pittsburg Landing),TN003,=
-New Orleans,LA001,=
-Baton Rouge,LA003,=
-Iuka,MS001,=
-Corinth,MS002,=
-Chickasaw Bluffs,MS003,=
-Richmond (Kentucky),KY007,=
-Perryville,KY009,=
-Hartsville,TN008,=
-Stones River (Murfreesboro),TN010,=
 Kernstown (first),VA101,=
 McDowell,VA102,=
 Front Royal,VA103,=
@@ -111,8 +37,6 @@ Second Bull Run/Chantilly (Second Manassas),VA026,<
 South Mountain,MD002,=
 Antietam (Sharpsburg),MD003,=
 Fredericksburg,VA028,=
-Batteries Wagner and Gregg,SC005,=
-Battery Wagner,SC007,=
 Olustee,FL005,=
 Wilderness,VA046,=
 Spotsylvania Court House,VA048,=
@@ -140,3 +64,79 @@ Fort Harrison (Chaffin's Bluff),VA075,=
 Peebles Farm,VA074,=
 Hatcher's Run (first),VA079,=
 Fair Oaks,VA080,=
+Hatcher's Run (second),VA083,=
+Fort Stedman,VA084,=
+Five Forks,VA088,=
+Petersburg (second assault),VA089,<
+Fort Gregg,VA089,<
+Sayler's Creek,VA093,=
+"Rich Mountain/Laurel Mountain, July 11-13, 1861",WV003,=
+"First Bull Run (Manassas), July 21, 1861",VA005,=
+"Ball's Bluff, October 21, 1861",VA006,=
+Valverde,NM001,=
+Apache Canyon/Glorieta Pass,NM002,=
+Pea Ridge,AR001,=
+Prairie Grove,AR005,=
+Mill Springs (Logan's Crossroads),KY006,=
+Fort Donelson,TN002,=
+Shiloh (Pittsburg Landing),TN003,=
+New Orleans,LA001,=
+Baton Rouge,LA003,=
+Iuka,MS001,=
+Corinth,MS002,=
+Chickasaw Bluffs,MS003,=
+Richmond (Kentucky),KY007,=
+Perryville,KY009,=
+Hartsville,TN008,=
+Stones River (Murfreesboro),TN010,=
+Galveston,TX003,=
+Honey Springs,OK007,=
+Fort Hindman (Arkansas Post),AR006,=
+Port Hudson (siege),LA010,=
+Port Hudson (first assault),LA010,<
+Port Hudson (second assault),LA010,<
+Donaldsville (first),LA013,=
+Donaldsville (second),LA015,=
+Port Gibson,MS006,=
+Raymond,MS007,=
+Jackson,MS008,=
+Champion's Hill,MS009,=
+Big Black River,MS010,=
+Vicksburg (siege),MS011,=
+Vicksburg (first assault),MS011,<
+Vicksburg (second assault),MS011,<
+Helena,AR008,=
+Chickamagua,GA004,=
+Chattanooga,TN024,=
+Chattanooga (Orchard Knob/Indian Hill),TN024,<
+Chattanooga (Lookout Mountain),TN024,<
+Chattanooga (Tunnel Hill),TN024,<
+Chattanooga (Missionary Ridge),TN024,<
+Ringgold Gap,GA005,=
+Knoxville (attack on Fort Sanders),TN025,=
+Sabine Crossroads,LA018,=
+Pleasant Hill,LA019,=
+Yellow Bayou,LA023,=
+Jenkins Ferry,AR016,=
+Fort Davidson (Pilot Knob),MO021,=
+Westport,MO027,=
+Mine Creek,KS003,=
+Fort Pillow,TN030,=
+Brice's Crossroads,MS014,=
+Tupelo,MS015,=
+Selma,AL007,=
+New Hope Church,GA010,=
+Kennesaw Mountain,GA015,=
+Peachtree Creek,GA016,=
+Atlanta,GA017,=
+Ezra Church,GA018,=
+Jonesboro,GA022,=
+Allatoona,GA023,=
+Franklin,TN036,=
+Nashville,TN038,=
+Griswoldville,GA025,=
+Kinston,NC007,=
+Averasboro,NC019,=
+Bentonville,NC020,=
+"Wilson's Creek, August 10, 1861",MO004,=
+"Belmont, November 7, 1861",MO009,=

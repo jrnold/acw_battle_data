@@ -20,7 +20,7 @@ def battles(data, filename):
         fieldnames = ('name', 'theater', 'start_date', 'end_date', 'page')
         writer = csv.DictWriter(f, fieldnames)
         writer.writeheader()
-        for theater, battles in data.items():
+        for theater, battles in sorted(data.items()):
             for battle in battles:
                 row = battle.copy()
                 fields = ('name', 'p', 'start', 'end')
@@ -43,7 +43,6 @@ def forces(data, filename):
     # for x in fields:
     #     print("'%s'" % x + ',')
     fields = (
-
     'strength',
     'infantry',
     'cavalry',
@@ -95,7 +94,7 @@ def forces(data, filename):
         fieldnames = ['battle', 'belligerent'] + list(fields)
         writer = csv.DictWriter(f, fieldnames)
         writer.writeheader()
-        for theater, battles in data.items():
+        for theater, battles in sorted(data.items()):
             for battle in battles:
                 for combatant in ('union', 'confed'):
                     row = battle[combatant].copy()
@@ -115,30 +114,30 @@ def forces(data, filename):
 
 def cwsac_links(data, filename):
     with open(filename, 'w') as f:
-        fieldnames = ('battle', 'cwsac', 'relation')
+        fieldnames = ('from', 'to', 'relation')
         writer = csv.DictWriter(f, fieldnames)
         writer.writeheader()
-        for theater, battles in data.items():
+        for theater, battles in sorted(data.items()):
             for battle in battles:
                 if 'links' in battle:
                     links = battle['links']
                     for x in links:
                         if re.match("[A-Z]{2}[0-9]{3}", x[0]):
                             if len(x) == 1:
-                                row = {'cwsac': x[0], 'relation': '='}
+                                row = {'to': x[0], 'relation': '='}
                             else:
-                                row = {'cwsac': x[0], 'relation': x[1]}
-                            row['battle'] = battle['name']
+                                row = {'to': x[0], 'relation': x[1]}
+                            row['from'] = battle['name']
                             writer.writerow(row)
                 else:
                     print(battle)
 
 def dbpedia_links(data, filename):
     with open(filename, 'w') as f:
-        fieldnames = ('battle', 'dbpedia', 'relation')
+        fieldnames = ('from', 'to', 'relation')
         writer = csv.DictWriter(f, fieldnames)
         writer.writeheader()
-        for theater, battles in data.items():
+        for theater, battles in sorted(data.items()):
             for battle in battles:
                 if 'links' in battle:
                     links = battle['links']
@@ -147,10 +146,10 @@ def dbpedia_links(data, filename):
                             x[0] = re.sub(r'https?://en\.wikipedia\.org/wiki', 
                                           r'http://dbpedia.org/resource', x[0])
                             if len(x) == 1:
-                                row = {'dbpedia': x[0], 'relation': '='}
+                                row = {'to': x[0], 'relation': '='}
                             else:
-                                row = {'dbpedia': x[0], 'relation': x[1]}
-                            row['battle'] = battle['name']
+                                row = {'to': x[0], 'relation': x[1]}
+                            row['from'] = battle['name']
                             writer.writerow(row)
                 else:
                     print(battle)
