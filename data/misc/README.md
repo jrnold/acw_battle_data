@@ -1,11 +1,17 @@
 Some miscellaneous datasets coded by jrnold
 
-# navalbattles
+# navalbattles.csv
 
-- Island Number 10 is naval, but had a large ground component
-- TODO: check the South Carolina battles
+List of battles in
 
-# battlemisc
+- `cwsac_id`: CWSAC ID of the battle
+- `battle_name`: Name of the battle. For redundancy.
+- `all_naval`: If 1, then the battle did not involve (or had very little involvement) of any land forces on one side. E.g. ship vs. ship battles (Hampton Roads) or ship vs. fort battles (e.g. Fort McAllister).
+- `comments`: A short description of the fighting.
+
+This is incomplete. The open question is: what is considered a significant naval contribution.
+
+# battlemisc.csv
 
 Miscellaneous variables for each CWSAC battle coded by ``jrnold``
 
