@@ -10,6 +10,8 @@ import os.path
 
 import requests
 
+from loss_parser import *
+
 _months = dict(zip(["Jan", "Feb", "March", "April", "May", "June",
                    "July", "Aug", "Sept", "Oct", "Nov", "Dec"],
                   range(1, 13)))
@@ -40,40 +42,6 @@ STATES = {
     'Kentucky': 'KY'
     }
 
-def parse_losses(x):
-    """ Extract casualty data from Dyer battle descriptions """
-    RE_LOSSES = re.compile("(Union )?loss(es)?[,.]? (?P<loss>.*)", re.I)
-
-    def _int(x):
-        return int(re.sub(',', '', x)) if x else None
-
-    ## Strip out all punctuation and normalize spaces
-    x = re.sub(' +', ' ', re.sub('[,.]', '', x))
-    RE_INT = r"\d{1,3}(,\d{3})*"
-    RE_PATT = (r"(?P<kwm>%s) killed(?! wounded and missing)" % RE_INT,
-               r"(?P<capmiss>%s) captured and missing" % RE_INT,
-               r"(?P<killed>%s) killed" % RE_INT,
-               r"(?P<wounded>%s) wounded" % RE_INT,
-               r"(?P<missing>%s) missing" % RE_INT)
-    RE_TOTAL = r"Total,? (?P<total>%s)" % RE_INT
-    LOSSES1 =  re.compile('%s %s?' % (r''.join("( %s)?" %
-                                               v for v in RE_PATT),
-                                      RE_TOTAL))
-    LOSSES2 = re.compile('(%s)' % '|'.join(RE_PATT))
-    m1 = LOSSES1.search(x)
-    m2 = LOSSES2.search(x)
-    m3 = re.search('loss (?P<total>%s)$' % RE_INT, x)
-    groups = ('killed', 'wounded', 'capmiss', 'missing', 'kwm', 'total')
-    if m1:
-       d = dict([(g, _int(m1.group(g))) for g in groups])
-    elif m2:
-        d = dict([(g, 0) for g in groups])
-    elif m3:
-        d = dict([(g, None) for g in groups])
-        d['total'] = _int(m3.group('total'))
-    else:
-        d = dict([(g, None) for g in groups])
-    return d
 
 def xml_to_csv(source, writer):
     context = iterparse(source, events=("start", "end", "start-ns"))
@@ -153,10 +121,11 @@ def xml_to_csv(source, writer):
                         'start_date' : startDate,
                         'end_date' : endDate,
                         'text' : text.strip(),
-                        'cas_k' : losses['killed'],
-                        'cas_w' : losses['wounded'],
-                        'cas_mp' : losses['capmiss'],
-                        'cas_m' : losses['missing'],
+                        'cas_k' : losses['k'],
+                        'cas_w' : losses['w'],
+                        'cas_m' : losses['m'],
+                        'cas_kw' : losses['kw'],
+                        'cas_mp' : losses['mp'],
                         'cas_kwm' : losses['kwm'],
                         'cas_total' : losses['total'],
                         'text': text,
@@ -177,6 +146,7 @@ def main():
               'cas_k',
               'cas_w',
               'cas_m',
+              'cas_kw',
               'cas_mp',
               'cas_kwm',
               'cas_total'
