@@ -49,9 +49,9 @@ def forces(data, filename):
     'crewmen',
     # units
     'corps',
-    'cavalry corps',
+    'cavalry_corps',
     'divisions',
-    'cavalry divisions',
+    'cavalry_divisions',
     'brigades',
     'companies',
     # ships
@@ -60,10 +60,10 @@ def forces(data, filename):
     'ironclads',
     'sloops',
     'steamers',
-    'warships and transports',
+    'warships_and_transports',
     'warships',
-    'wooden warships',
-    # artillery guns
+    'wooden_warships',
+    # artillery_guns
     'guns',
     # casualties of personnel
     'casualties',
@@ -76,17 +76,17 @@ def forces(data, filename):
     'captured_missing',
     'wounded_missing',
     # casualties of "stuff"
-    'guns lost',
-    'guns captured',
-    'small arms lost',
-    'small arms captured',
-    'warships sunk',
-    'warships damaged',
-    'gunboats sunk',
-    'gunboats captured',
-    'ironclads sunk',
-    'ironclads captured',
-    'forts captured',
+    'guns_lost',
+    'guns_captured',
+    'small_arms_lost',
+    'small_arms_captured',
+    'warships_sunk',
+    'warships_damaged',
+    'gunboats_sunk',
+    'gunboats_captured',
+    'ironclads_sunk',
+    'ironclads_captured',
+    'forts_captured',
     # misc
     'note'
     )
@@ -110,6 +110,11 @@ def forces(data, filename):
                     rename(row, 'k', 'killed')
                     rename(row, 'km', 'killed_missing')
                     rename(row, 'kw', 'killed_wounded')
+                    # fix keys with spaces in them
+                    for k in row:
+                        if ' ' in k:
+                            row[re.sub(' ', '_', k)] = row[k]
+                            del row[k]
                     writer.writerow(row)
 
 def cwsac_links(data, filename):
