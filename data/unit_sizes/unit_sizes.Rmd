@@ -4,7 +4,6 @@ title: Unit Sizes in the American Civil War
 
 ```{r,results='hide',echo=FALSE,message=FALSE}
 library("dplyr")
-library("rjson")
 ```
 
 For many battles and sources of data about them, the number of personnel present (or engaged) is either not given or not known. Instead, the units involved are given. Somtimes the CWSAC simply states that "brigades" or "corps" were involved. This program generates the number of personnel associated with each unit size. Unfortunately, there is cons  iderable uncertainty about the number of personnel in a unit, both due to organizational differences and attrition. Thus this program generates a probability distribution over the number of personnel in a unit.
@@ -144,8 +143,8 @@ summarize_data <- function(x) {
               p75 = quantile(x, 0.75),
               p25 = quantile(x, 0.25),
               median = median(x),
-              p05 = quantile(x, 0.05),
-              p95 = quantile(x, 0.95)
+              p025 = quantile(x, 0.05),
+              p975 = quantile(x, 0.95)
               )
 }
 ```
@@ -157,7 +156,7 @@ summarize_data_exact <- function(n) {
     data.frame(mean = n,
                median = n,
                sd = 0,
-               p05 = n, p95 = n,
+               p025 = n, p975 = n,
                p25 = n, p75 = n)
 }
 ```
@@ -168,12 +167,12 @@ If the the size of the unit is distributed uniform, then return the exact summar
 summarize_data_unif <- function(low, high) {
     range <- high - low
     data_frame(mean = 0.5 * (low + high),
-               median = 0.5 * (low + high),
+               median = mean,
                sd = sqrt((1 / 12) * (low - high)^2),
-               p05 = 0.05 * range + low,
+               p025 = 0.025 * range + low,
                p25 = 0.25 * range + low,
                p75 = 0.75 * range + low,
-               p95 = 0.95 * range + low)
+               p975 = 0.975 * range + low)
 
 }
 ```
@@ -556,10 +555,13 @@ for (belligerent in names(unit_sizes)) {
 }
 unit_sizes_df <- do.call(rbind, unit_sizes_df)
 unit_sizes_df <- 
-  mutate(unit_sizes_df,
+  (mutate(unit_sizes_df,
          belligerent = plyr::revalue(belligerent, c(union = "Union", confed = "Confederate")),
          unit_type = gsub("_", " ", unit_type)
           )
+   %>% select(belligerent, unit_type,
+              mean, sd, p025, p25, median, p75, p975)
+   )
 write.csv(unit_sizes_df, 
           file = "unit_sizes.csv",
           na = "", row.names = FALSE)
