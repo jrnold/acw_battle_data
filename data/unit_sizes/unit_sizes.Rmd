@@ -158,7 +158,7 @@ summarize_data_exact <- function(n) {
                median = n,
                sd = 0,
                p05 = n, p95 = n,
-               p25 = n, p25 = n)
+               p25 = n, p75 = n)
 }
 ```
 
@@ -542,11 +542,40 @@ unit_sizes[["confed"]][["artillery_regiment"]] <-
 
 # Persist Data
 
-```{r }
-con <- file("unit_sizes.json", "w")
-cat(toJSON(unit_sizes),
-    file = con)
-close(con)
+```{r}
+unit_sizes_df <- list()
+i <- 1
+for (belligerent in names(unit_sizes)) {
+  for (unit in names(unit_sizes[[belligerent]])) {
+    .data <- data.frame(unit_sizes[[belligerent]][[unit]])
+    .data[["belligerent"]] <- belligerent
+    .data[["unit_type"]] <- unit
+    unit_sizes_df[[i]] <- .data
+    i <- i + 1
+  }
+}
+unit_sizes_df <- do.call(rbind, unit_sizes_df)
+unit_sizes_df <- 
+  mutate(unit_sizes_df,
+         belligerent = plyr::revalue(belligerent, c(union = "Union", confed = "Confederate")),
+         unit_type = gsub("_", " ", unit_type)
+          )
+write.csv(unit_sizes_df, 
+          file = "unit_sizes.csv",
+          na = "", row.names = FALSE)
+
+# con <- file("unit_sizes.json", "w")
+# cat(toJSON(unit_sizes),
+#     file = con)
+# close(con)
+```
+
+## Summary
+
+The unit sizes generated are:
+
+```{r}
+print(unit_sizes_df)
 ```
 
 # TODO
