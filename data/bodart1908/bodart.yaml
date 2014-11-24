@@ -26,8 +26,10 @@ Antietam (September 17, 1862):
     missing: 1800
     missing_officers: 50
     missing_percent: 4.5
+    missing_generals: 0
     strength: 50000
     strength_engaged: 40000
+    wounded: 7890
     wounded_generals: 8
     wounded_officers: 638
     wounded_percent: 19.7
@@ -61,6 +63,7 @@ Antietam (September 17, 1862):
     missing_percent: 1.4
     strength: 85000
     strength_engaged: 60000
+    wounded: 9600
     wounded_generals: 9
     wounded_officers: 467
     wounded_percent: 16.0
@@ -89,7 +92,7 @@ Appomattox-Court-House (April 09, 1865):
     commander: {country: Union, name: U. S. Grant, rank: Gen.-Lt.}
     country: Union
     strength: 100000
-Arkansas_Post (January 11, 1863):
+Arkansas Post (January 11, 1863):
   category: [meeting, surrender]
   description: null
   end_date: &id003 1863-01-11
@@ -115,6 +118,7 @@ Arkansas_Post (January 11, 1863):
     country: Union
     killed_wounded: 1100
     strength: 28000
+    captured: 0
 Atlanta (July 22, 1864):
   category: [battle]
   description: null
@@ -176,6 +180,7 @@ Bentonville (March 05, 1865):
     missing: 200
     missing_officers: 7
     missing_percent: 0.3
+    missing_percnet: 0
     strength: 60000
 Boonsborough (September 14, 1862):
   category: [meeting]
@@ -190,6 +195,7 @@ Boonsborough (September 14, 1862):
     generals_killed:
     - {country: "Confederacy", name: S. Garland, rank: Brig.-Gen.}
     killed: 300
+    wounded: 1300
     killed_wounded: 1600
     killed_wounded_percent: 10.7
     missing: 500
@@ -210,6 +216,7 @@ Boonsborough (September 14, 1862):
     generals_killed:
     - {country: Union, name: J. L. Reno, rank: GM.}
     killed: 350
+    wounded: 1450
     killed_generals: 1
     killed_officers: 13
     killed_wounded: 1800
@@ -217,6 +224,7 @@ Boonsborough (September 14, 1862):
     killed_wounded_officers: 79
     missing: 100
     missing_officers: 2
+    missing_generals: 0
     strength: 24000
     wounded_generals: 1
     wounded_officers: 66
@@ -249,7 +257,9 @@ Bull-Run (August 29, 1862):
     missing: 4300
     missing_officers: 106
     missing_percent: 17.2
+    missing_generals: 0
     strength: 70000
+    wounded: 8500
     wounded_generals: 6
     wounded_officers: 461
     wounded_percent: 14.2
@@ -269,13 +279,16 @@ Bull-Run (August 29, 1862):
     killed_officers: 141
     killed_percent: 3.0
     killed_wounded: 9400
+    killed_generals: 0
     killed_wounded_generals: 4
     killed_wounded_officers: 828
     killed_wounded_percent: 18.7
     missing: 100
     missing_officers: 1
     missing_percent: 0.2
+    missing_generals: 0
     strength: 50000
+    wounded: 7850
     wounded_generals: 4
     wounded_officers: 687
     wounded_percent: 15.7
@@ -291,7 +304,7 @@ Bull-Run (July 21, 1861):
     \ von Washington statt)."
   loser:
     casualties: 2900
-    casualties_guns: 4000
+    losses_guns: 4000
     casualties_officers: 144
     casualties_percent: 15.2
     commander: {name: McDowell, rank: GM.}
@@ -311,6 +324,7 @@ Bull-Run (July 21, 1861):
     strength: 35000
     strength_engaged: 19000
     wounded_officers: 78
+    wounded: 1130
   name: Bull-Run
   order: 4
   other_name: [Manassas-Junction]
@@ -330,10 +344,13 @@ Bull-Run (July 21, 1861):
     killed_wounded: 2000
     killed_wounded_officers: 89
     killed_wounded_percent: 11
+    missing: 0
+    missing_officers: 0
     strength: 32000
     strength_engaged: 18000
     wounded_officers: 63
-Cedar_Mountain (August 09, 1862):
+    wounded: 1600
+Cedar Mountain (August 09, 1862):
   category: [meeting]
   description: "Sieg der Konf\xF6derierte (20.000 M.) unter Gen.-Lt. T. J. Jackson\
     \ \xFCber die Unierte\n(18.000 M.) unter GM. Banks.\n"
@@ -350,6 +367,7 @@ Cedar_Mountain (August 09, 1862):
     killed: 330
     killed_officers: 26
     killed_wounded: 1800
+    killed_generals: 0
     killed_wounded_generals: 2
     killed_wounded_officers: 128
     killed_wounded_percent: 10
@@ -360,6 +378,7 @@ Cedar_Mountain (August 09, 1862):
     strength: 18000
     wounded_generals: 2
     wounded_officers: 102
+    wounded: 1470
   name: Cedar Mountain
   order: 5
   other_name: []
@@ -373,10 +392,12 @@ Cedar_Mountain (August 09, 1862):
     generals_killed:
     - {rank: Brig. Gen., name: C. S. Winder}
     killed: 230
+    missing: 0
     killed_wounded: 1300
     killed_wounded_percent: 6.5
     strength: 20000
-Champion's_Hill (May 16, 1863):
+    wounded: 1070
+Champion's Hill (May 16, 1863):
   category: [battle]
   description: null
   end_date: &id009 1863-05-16
@@ -416,6 +437,7 @@ Champion's_Hill (May 16, 1863):
     missing_percent: 0.7
     strength: 30000
     wounded_officers: 108
+    wounded: 1850
 Chancellorsville (May 03, 1863):
   category: [battle]
   description: null
@@ -451,6 +473,7 @@ Chancellorsville (May 03, 1863):
     wounded_generals: 3
     wounded_officers: 656
     wounded_percent: 8.2
+    wounded: 9800
   name: Chancellorsville
   order: 1
   other_name: []
@@ -475,9 +498,11 @@ Chancellorsville (May 03, 1863):
     losses_canons: 7
     missing: 2000
     missing_percent: 2.5
+    missing_generals: 0
     strength: 80000
     wounded_generals: 8
     wounded_percent: 11.4
+    wounded: 9100
 Charleston (April 01, 1863):
   category: [siege]
   description: "Die Konf\xF6derierte unter Gen. Beauregard behaupten sich erfolgreich\
@@ -524,6 +549,7 @@ Chickahominy (June 25, 1862):
     infantry: 99000
     killed: 1700
     killed_officers: 103
+    killed_generals: 0
     killed_percent: 1.6
     killed_wounded: 10000
     killed_wounded_generals: 3
@@ -537,6 +563,7 @@ Chickahominy (June 25, 1862):
     wounded_generals: 3
     wounded_officers: 412
     wounded_percent: 7.9
+    wounded: 8300
   name: Chickahominy
   order: 1
   other_name: [Mechanicsville, Gaine's Mill, Cold Harbor, Malvern Hill]
@@ -554,6 +581,7 @@ Chickahominy (June 25, 1862):
     infantry: 88000
     killed: 3200
     killed_officers: 262
+    killed_generals: 0
     killed_percent: 3.4
     killed_wounded: 19000
     killed_wounded_generals: 5
@@ -562,10 +590,12 @@ Chickahominy (June 25, 1862):
     missing: 1000
     missing_officers: 55
     missing_percent: 1.0
+    missing: 0
     strength: 94000
     wounded_generals: 5
     wounded_officers: 1010
     wounded_percent: 16.8
+    wounded: 15800
 Chickamauga (September 19, 1863):
   category: [battle]
   description: null
@@ -596,10 +626,12 @@ Chickamauga (September 19, 1863):
     missing: 5000
     missing_officers: 248
     missing_percent: 8.8
+    missing_generals: 0
     strength: 57000
     wounded_generals: 3
     wounded_officers: 752
     wounded_percent: 17.2
+    wounded: 9800
   name: Chickamauga
   order: 1
   other_name: []
@@ -626,10 +658,12 @@ Chickamauga (September 19, 1863):
     losses_cannon: 15
     missing: 2000
     missing_percent: 2.9
+    missing_generals: 0
     strength: 70000
     wounded_generals: 7
     wounded_percent: 19.0
-Chickasaw_Bluffs (January 03, 1863):
+    wounded: 13400
+Chickasaw Bluffs (January 03, 1863):
   category: [meeting]
   description: null
   end_date: &id010 1863-01-03
@@ -653,7 +687,7 @@ Chickasaw_Bluffs (January 03, 1863):
     country: Confederacy
     killed_wounded: 200
     strength: 25000
-Cold_Harbor (June 03, 1864):
+Cold Harbor (June 03, 1864):
   category: [battle]
   description: null
   end_date: &id011 1864-06-03
@@ -679,6 +713,7 @@ Cold_Harbor (June 03, 1864):
     wounded_generals: 1
     wounded_officers: 432
     wounded_percent: 9.1
+    wounded: 9100
   name: Cold Harbor
   order: 3
   other_name: []
@@ -693,8 +728,11 @@ Cold_Harbor (June 03, 1864):
     killed_percent: 0.5
     killed_wounded: 1700
     killed_wounded_percent: 2.7
+    missing: 0
+    missing_percent: 0.0
     strength: 60000
     wounded_percent: 2.2
+    wounded: 1300
 Corinth (October 03, 1862):
   category: [battle]
   description: null
@@ -711,6 +749,7 @@ Corinth (October 03, 1862):
     missing: 3300
     missing_percent: 15.0
     strength: 22000
+    wounded: 2200
   name: Corinth
   order: 4
   other_name: []
@@ -735,10 +774,12 @@ Corinth (October 03, 1862):
     missing: 400
     missing_officers: 5
     missing_percent: 1.6
+    missing_generals: 0
     strength: 25000
     wounded_generals: 3
     wounded_officers: 115
-Drewry's_Bluff (May 16, 1864):
+    wounded: 1850
+Drewry's Bluff (May 16, 1864):
   category: [meeting]
   description: null
   end_date: &id012 1864-05-16
@@ -761,6 +802,7 @@ Drewry's_Bluff (May 16, 1864):
   start_date: *id012
   victor:
     casualties: 3000
+    captured: 0
     casualties_percent: 12
     commander: {name: Beauregard, rank: Gen.-Lt.}
     country: Confederacy
@@ -813,7 +855,7 @@ Ezra-Church (July 28, 1864):
     commander: {name: W. T. Sherman, rank: GM.}
     country: Union
     strength: 60000
-Fort_Donelson (February 12, 1862):
+Fort Donelson (February 12, 1862):
   category: [battle, surrender]
   description: null
   end_date: 1862-02-15
@@ -822,7 +864,7 @@ Fort_Donelson (February 12, 1862):
   loser:
     captured: 13000
     casualties: 15000
-    casualties_guns: 17000
+    losses_guns: 17000
     casualties_percent: 82
     commander: {name: Buckner, rank: Brig.-Gen.}
     country: Confederacy
@@ -867,6 +909,7 @@ Franklin (November 30, 1864):
     missing_percent: 5.2
     strength: 27000
     wounded_percent: 4.0
+    wounded: 1100
   name: Franklin
   order: 4
   other_name: []
@@ -898,6 +941,7 @@ Franklin (November 30, 1864):
     strength: 37000
     wounded_generals: 6
     wounded_percent: 10.5
+    wounded: 3850
 Fredericksburg (December 11, 1862):
   category: [battle]
   description: null
@@ -926,10 +970,12 @@ Fredericksburg (December 11, 1862):
     missing: 2000
     missing_officers: 20
     missing_percent: 1.7
+    missing_generals: 0
     strength: 117000
     wounded_generals: 5
     wounded_officers: 654
     wounded_percent: 8.3
+    wounded: 9650
   name: Fredericksburg
   order: 3
   other_name: []
@@ -958,10 +1004,12 @@ Fredericksburg (December 11, 1862):
     missing: 700
     missing_officers: 18
     missing_percent: 0.9
+    missing_generals: 0
     strength: 78000
     wounded_generals: 3
     wounded_officers: 270
     wounded_percent: 5.3
+    wounde: 4100
 Gettysburg (July 01, 1863):
   category: [battle]
   description: null
@@ -996,6 +1044,7 @@ Gettysburg (July 01, 1863):
     strength: 68000
     wounded_generals: 13
     wounded_percent: 18.8
+    wounded: 12700
   name: Gettysburg
   order: 1
   other_name: []
@@ -1035,7 +1084,8 @@ Gettysburg (July 01, 1863):
     wounded_generals: 12
     wounded_officers: 1135
     wounded_percent: 16.0
-Harper's_Ferry (September 15, 1862):
+    wounded: 14540
+Harper's Ferry (September 15, 1862):
   category: [surrender]
   description: "Die Konf\xF6derierte (30.000 M.) unter Gen.-Lt. T. J. Jackson zwingen\
     \ nach zweit\xE4giger\nBeschie\xDFung die unionistische Beasatzung (14.000 M.,\
@@ -1198,10 +1248,12 @@ Murfreesborough (December 31, 1862):
     missing: 1100
     missing_officers: 46
     missing_percent: 3.0
+    missing_generals: 0
     strength: 38000
     wounded_generals: 3
     wounded_officers: 656
     wounded_percent: 21.1
+    wounded: 8000
   name: Murfreesborough
   order: 2
   other_name: [Stone's River]
@@ -1238,6 +1290,7 @@ Murfreesborough (December 31, 1862):
     wounded_generals: 5
     wounded_officers: 405
     wounded_percent: 17.5
+    wounded: 7870
 Nashville (December 15, 1864):
   category: [battle]
   description: null
@@ -1310,7 +1363,7 @@ Pamunkey (May 22, 1864):
     commander: {name: U. S. Grant, rank: Gen.-Lt.}
     country: Union
     strength: 52000
-Pea_Ridge (March 07, 1862):
+Pea Ridge (March 07, 1862):
   category: [meeting]
   description: null
   end_date: 1862-03-08
@@ -1395,10 +1448,13 @@ Perryville (October 08, 1862):
     killed_wounded_percent: 15.6
     missing: 500
     missing_officers: 13
+    missing_generals: 0
     missing_percent: 2.1
     strength: 54000
     strength_engaged: 24000
     wounded_officers: 94
+    wounded_generals: 0
+    wounded: 2850
   name: Perryville
   order: 4
   other_name: []
@@ -1417,6 +1473,7 @@ Perryville (October 08, 1862):
     missing_percent: 1.6
     strength: 68000
     strength_engaged: 16000
+    wounded: 2630
 Petersburg (June 09, 1864):
   category: [siege, capture]
   description: "Die Unierten (91.000 Inft., 19.000 Kav., 10.000 Art., zus. 120.000\
@@ -1458,6 +1515,7 @@ Petersburg (June 09, 1864):
     killed_wounded: 39000
     missing: 21000
     strength: 120000
+    wounded: 33000
 Prairie-Grove (December 07, 1862):
   category: [meeting]
   description: null
@@ -1528,6 +1586,7 @@ Richmond (August 30, 1862):
     missing_percent: 27.5
     other: "alles gep\xE4ck"
     strength: 16000
+    wounded: 840
   name: Richmond
   order: 4
   other_name: [Rogersville]
@@ -1541,6 +1600,8 @@ Richmond (August 30, 1862):
     killed: 80
     killed_wounded: 450
     strength: 8000
+    wounded: 370
+    missing: 0
 Ringgold (November 23, 1863):
   category: [battle]
   description: null
@@ -1554,14 +1615,17 @@ Ringgold (November 23, 1863):
     commander: {name: R. Bragg, rank: Gen.}
     country: Confederacy
     killed: 400
+    killed_generals: 0
     killed_wounded: 2600
     killed_wounded_generals: 2
     killed_wounded_percent: 5.8
     losses_cannon: 40
     missing: 4400
+    missing_generals: 0
     missing_percent: 4400
     strength: 45000
     wounded_generals: 2
+    wounded: 2200
   name: Ringgold
   order: 3
   other_name: [Chattanooga, Missionary Ridge]
@@ -1576,6 +1640,7 @@ Ringgold (November 23, 1863):
     country: Union
     killed: 800
     killed_officers: 71
+    killed_generals: 0
     killed_wounded: 5600
     killed_wounded_generals: 4
     killed_wounded_officers: 471
@@ -1583,10 +1648,12 @@ Ringgold (November 23, 1863):
     missing: 400
     missing_officers: 30
     missing_percent: 0.6
+    missing_generals: 0
     strength: 65000
     wounded_generals: 4
     wounded_officers: 400
-Seven_Pines (May 31, 1862):
+    wounded: 4800
+Seven Pines (May 31, 1862):
   category: [battle]
   description: null
   end_date: 1862-06-01
@@ -1603,16 +1670,19 @@ Seven_Pines (May 31, 1862):
     killed_officers: 41
     killed_percent: 1.6
     killed_wounded: 4400
+    killed_generals: 0
     killed_wounded_generals: 2
     killed_wounded_officers: 259
     killed_wounded_percent: 8.9
     missing: 600
     missing_officers: 15
     missing_percent: 1.1
+    missing_generals: 0
     strength: 51000
     wounded_generals: 2
     wounded_officers: 218
     wounded_percent: 7.3
+    wounded: 3600
   name: Seven Pines
   order: 3
   other_name: [Fair-Oaks, White-Oak-Swamp]
@@ -1640,10 +1710,12 @@ Seven_Pines (May 31, 1862):
     missing: 500
     missing_officers: 4
     missing_percent: 1.2
+    missing_generals: 0
     strength: 39000
     wounded_generals: 4
     wounded_officers: 312
     wounded_percent: 14.0
+    wounded: 5400
 Shiloh (April 06, 1862):
   category: [battle]
   description: null
@@ -1670,9 +1742,11 @@ Shiloh (April 06, 1862):
     losses_canons: 30
     missing: 1000
     missing_percent: 2.5
+    missing_generals: 0
     strength: 40000
     wounded_generals: 5
     wounded_percent: 20.2
+    wounded: 1000
   name: Shiloh
   order: 2
   other_name: [Pittsburg-Landing]
@@ -1706,6 +1780,7 @@ Shiloh (April 06, 1862):
     wounded_generals: 4
     wounded_officers: 424
     wounded_percent: 18.0
+    wounded: 8400
 Spotsylvania-Court-House (May 08, 1864):
   category: [battle]
   description: null
@@ -1738,6 +1813,7 @@ Spotsylvania-Court-House (May 08, 1864):
     strength: 50000
     wounded_generals: 4
     wounded_percent: 8.0
+    wounded: 4000
   name: Spotsylvania-Court-House
   order: 2
   other_name: []
@@ -1773,6 +1849,7 @@ Spotsylvania-Court-House (May 08, 1864):
     wounded_generals: 4
     wounded_officers: 668
     wounded_percent: 13.5
+    wounded: 13470
 Vicksburg (May 19, 1863):
   category: [siege, capture]
   description: 'Der Garnison, welche mit allen Ehren ausziehen durfte, wurde gegen
@@ -1836,9 +1913,11 @@ Wilderness (May 05, 1864):
     killed_wounded_percent: 11.5
     missing: 300
     missing_percent: 0.5
+    missing_generals: 0
     strength: 62000
     wounded_generals: 3
     wounded_percent: 9.8
+    wounded: 6000
   name: Wilderness
   order: 2
   other_name: []
@@ -1875,6 +1954,7 @@ Wilderness (May 05, 1864):
     wounded_generals: 4
     wounded_officers: 563
     wounded_percent: 10.2
+    wounded: 12050
 Williamsburg (May 05, 1862):
   category: [battle]
   description: null
@@ -1896,6 +1976,7 @@ Williamsburg (May 05, 1862):
     missing_percent: 1.0
     strength: 30000
     wounded_officers: 75
+    wounded: 1000
   name: Williamsburg
   order: 5
   other_name: []
@@ -1917,7 +1998,8 @@ Williamsburg (May 05, 1862):
     missing_percent: 1.1
     strength: 45000
     wounded_officers: 98
-Wilson's_Creek (August 10, 1861):
+    wounded: 1440
+Wilson's Creek (August 10, 1861):
   category: [meeting]
   description: "Sieg der Konf\xF6derierten (ca. 10.000 M.) unter GM. Price \xFCber\
     \ die Unierten (ca. 6.000 M.) unter GM. Lyon \u2020."
@@ -1979,6 +2061,7 @@ Winchester (June 15, 1863):
     commander: {name: Ewell, rank: Gen.-Lt.}
     country: Confederacy
     killed_wounded: 300
+    missing: 0
     strength: 18000
 Winchester (September 19, 1864):
   category: [battle]
