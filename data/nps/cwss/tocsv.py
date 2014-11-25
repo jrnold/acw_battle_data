@@ -33,21 +33,22 @@ def battle_csv(root, dst):
     'BattlefieldCode',
     'BattleName',
     'BattleType',
+    'BeginDate',
+    'EndDate',
+    'State',
+    'TheaterCode',
     'CampaignCode',
+    'Result',
+    'TotalCasualties',
     #'CampaignDates',
     #'CampaignName',
     'Comment',
-    'EndDate',
     'ID',
-    'Result',
     'ShortSummary',
     'ShortSummarySource',
-    'State',
     'Summary',
     'SummarySource',
-    'TheaterCode',
     # 'TheaterName',
-    'TotalCasualties'
     )
     with open(dst, 'w') as f:
         writer = csv.DictWriter(f, fields)
