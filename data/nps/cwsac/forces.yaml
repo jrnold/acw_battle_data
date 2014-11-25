@@ -21,12 +21,10 @@ AL003:
     description: "Buchanan's Flotilla (3 gunboats and an ironclad), Fort Morgan Garrison, Fort Gaines Garrison, and Fort Powell Garrison"
     gunboats: 3
     ironclads: 1
-    strength: null
   US:
     description: "Farragut's Fleet (14 wooden ships and 4 monitors) and U.S. army forces near Mobile"
     wooden_ships: 14
     ironclads: 4
-    strength: null
   forces_text: Farragut's Fleet (14 wooden ships and 4 monitors) and U.S. army forces
     near Mobile [US]; Buchanan's Flotilla (3 gunboats and an ironclad), Fort Morgan
     Garrison, Fort Gaines Garrison, and Fort Powell Garrison [CS]
@@ -43,7 +41,6 @@ AL004:
 AL005:
   CS:
     description: Spanish Fort Garrison
-    strength: null
   US:
     description: XVI and XIII Corps
     corps: 2
@@ -51,7 +48,6 @@ AL005:
 AL006:
   CS:
     description: Fort Blakely Garrison
-    strength: null
   US:
     description: XIII and XVI Corps
   forces_text: XIII and XVI Corps [US]; Fort Blakely Garrison [CS]
@@ -75,7 +71,8 @@ AR001:
 AR002:
   CS:
     description: fifty men and C.S. boats
-    strength: 50
+    strength_min: 50
+    strength_max: 50
   US:
     description: 46th Indiana and Union Gunboat
     regiments: 1
@@ -917,7 +914,8 @@ MO003:
   US:
     description: Detachments of 3rd Iowa Infantry, Home Guards, and artillery (approx.
       600 men)
-    strength: 600
+    strength_min: 600
+    strength_max: 600
   forces_text: Detachments of 3rd Iowa Infantry, Home Guards, and artillery (approx.
     600 men) [US]; 4th Division, Missouri State Guard [CS]
 MO004:
@@ -1151,7 +1149,8 @@ MO029:
 MS001:
   CS:
     description: 1st Division, Army of the West (approx. 3,200)
-    strength: 3200
+    strength_min: 3200
+    strength_max: 3200
   US:
     description: 2nd Division and cavalry division, Army of the Mississippi (approx.
       4,000-4,500)

@@ -37,8 +37,6 @@ battle_fields = (#'cwsac_reference',
 #         keys.add(k)
 # print(keys)
 
-
-
 def battle_csv(data, filename):
     with open(filename, 'w') as f:
         writer = csv.DictWriter(f, battle_fields)
@@ -47,10 +45,11 @@ def battle_csv(data, filename):
             row = dict_subset(battle_data, battle_fields)
             writer.writerow(row)
 
-belligerent_fields = ('battle',
+belligerent_fields = ['battle',
  'belligerent',
  'corps',
- 'strength',
+ 'strength_min',
+ 'strength_max'
  'description',
  'killed',
  'divisions',
@@ -62,7 +61,6 @@ belligerent_fields = ('battle',
  'cavalry_divisions',
  'gunboats',
  'casualties',
- 'strength_min',
  'companies',
  'missing',
  'armies',
@@ -74,7 +72,7 @@ belligerent_fields = ('battle',
  'regiments',
  # 'commanders',
  'ships',
- 'strength_max')
+]
 
 def forces_csv(data, filename):
     with open(filename, 'w') as f:
