@@ -8,7 +8,7 @@ def dict_remove(x, exclude = []):
 def dict_subset(x, include = []):
     return dict((k, v) for k, v in x.items() if k in include)
 
-battle_fields = (#'combatants',
+battle_fields = (#'belligerents',
      'battle',
      'battle_name',
      'campaign',
@@ -35,8 +35,8 @@ def battle_csv(data, filename):
             row = dict_subset(battle_data, battle_fields)
             writer.writerow(row)
 
-combatant_fields = ('battle',
- 'combatant',
+belligerent_fields = ('battle',
+ 'belligerent',
  'description',
  'commanders',
  'strength',
@@ -61,25 +61,25 @@ combatant_fields = ('battle',
  'guns',
 )
 
-def combatants_csv(data, filename):
+def belligerents_csv(data, filename):
     # fields = set()
     with open(filename, 'w') as f:
-        writer = csv.DictWriter(f, combatant_fields)
+        writer = csv.DictWriter(f, belligerent_fields)
         writer.writeheader()
         for battle, battle_data in data.items():
-            for combatant, x in battle_data['combatants'].items():
+            for belligerent, x in battle_data['belligerents'].items():
                 # for k in x:
                 #     fields.add(k)
-                row = dict_subset(battle_data, combatant_fields)
+                row = dict_subset(battle_data, belligerent_fields)
         for battle, battle_data in sorted(data.items()):
-            for combatant, force_data in sorted(battle_data['combatants'].items()):
-                row = dict_subset(force_data, combatant_fields)
+            for belligerent, force_data in sorted(battle_data['belligerents'].items()):
+                row = dict_subset(force_data, belligerent_fields)
                 row['battle'] = battle
-                row['combatant'] = combatant
+                row['belligerent'] = belligerent
                 writer.writerow(row)
     # print(fields)
 
-commanders_fields = ('battle', 'combatant', 'fullname', 'rank',
+commanders_fields = ('battle', 'belligerent', 'fullname', 'rank',
                      'last_name', 'first_name', 'middle_name', 'suffix')
 
 def commanders_csv(data, filename):
@@ -87,11 +87,11 @@ def commanders_csv(data, filename):
         writer = csv.DictWriter(f, commanders_fields)
         writer.writeheader()
         for battle, battle_data in sorted(data.items()):
-            for combatant, x in sorted(battle_data['combatants'].items()):
+            for belligerent, x in sorted(battle_data['belligerents'].items()):
                 for commander in x['commanders']:
                     row = commander.copy()
                     row['battle'] = battle
-                    row['combatant'] = combatant
+                    row['belligerent'] = belligerent
                     writer.writerow(row)
 
 def dates_csv(data, filename):
@@ -119,7 +119,7 @@ with open(SRC, 'r') as f:
     data = json.load(f)
 
 battle_csv(data, 'cwsac2_battles.csv')
-combatants_csv(data, 'cwsac2_forces.csv')
+belligerents_csv(data, 'cwsac2_forces.csv')
 commanders_csv(data, 'cwsac2_commanders.csv')
 dates_csv(data, 'cwsac2_dates.csv')
 locations_csv(data, 'cwsac2_locations.csv')

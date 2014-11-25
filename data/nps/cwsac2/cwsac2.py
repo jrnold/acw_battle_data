@@ -66,7 +66,7 @@ def parse_commanders(x):
     ABBR = pp.Regex(r"([A-Z]\.)+")
     SUFFIX = pp.Literal("Jr.")
     NOCMDR = (pp.Literal("None"))("none")
-    COMBATANT = pp.oneOf(' '.join(('US', 'CS', 'I')))("combatant")
+    BELLIGERENT = pp.oneOf(' '.join(('US', 'CS', 'I')))("belligerent")
     
     nametoken = ABBR | pp.quotedString | NAME
     name = (pp.OneOrMore(nametoken) + pp.Optional(pp.Literal(",") + SUFFIX))("fullname")
@@ -76,14 +76,14 @@ def parse_commanders(x):
     commander = pp.Group(cmdrname | NOCMDR)
     commander_list = pp.Group(pp.delimitedList(commander, ",") +
                               pp.Optional(and_ + commander))("commanders")
-    milforce = pp.Group(commander_list + LBRAK + COMBATANT + RBRAK)
+    milforce = pp.Group(commander_list + LBRAK + BELLIGERENT + RBRAK)
     grammar = pp.delimitedList(milforce, ";")
     toks = grammar.parseString(x)
 
     # A smarter grammar could probably have avoided this
     res = {}
     for _force in toks:
-        k = _force['combatant']
+        k = _force['belligerent']
         res[k] = [x.asDict() for x in _force['commanders']
                   if "none" not in x.asDict()]
     return res
@@ -197,7 +197,7 @@ def page2battle(page, results, strengths, areas, infn):
     except pp.ParseException:
         print("%s: %s" % (battle, commanders))
 
-    data['combatants'] = forces
+    data['belligerents'] = forces
 
         # Location
     for i, loc in enumerate(location_text.split(';')):
