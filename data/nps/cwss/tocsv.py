@@ -71,7 +71,7 @@ def theaters_csv(root, dst):
             theater_name = properties.find(xmlns('d:TheaterName')).text
             if theater_code:
                 theaters[theater_code] = theater_name
-        theaters_rows = [{'TheaterCode': k, 'TheaterName': v} for k, v in theaters.items()]
+        theaters_rows = [{'TheaterCode': k, 'TheaterName': v} for k, v in sorted(theaters.items())]
         writer.writerows(theaters_rows)
 
 def parse_month_range(x):
@@ -121,7 +121,7 @@ def campaigns_csv(root, dst):
                                             'CampaignStartDate': start_date,
                                             'CampaignEndDate': end_date,
                                             'TheaterCode': theater_code}
-        for k, v in campaigns.items():
+        for k, v in sorted(campaigns.items()):
             writer.writerow(v) 
 
 def guid_clean(x):
