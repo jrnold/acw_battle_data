@@ -70,7 +70,7 @@ def parse_commanders(x):
     SUFFIX = pp.Literal("Jr.")
     NOCMDR = pp.Literal("No Union commander")("none")
     USN = pp.Literal("U.S.N.")("usn")
-    COMBATANT = pp.oneOf(' '.join(('US', 'CS', 'I')))("combatant")
+    BELLIGERENT = pp.oneOf(' '.join(('US', 'CS', 'I')))("belligerent")
     
     nametoken = ABBR | pp.quotedString | NAME
     name = (pp.OneOrMore(nametoken) + pp.Optional(COMMA + SUFFIX))("fullname")
@@ -80,14 +80,14 @@ def parse_commanders(x):
     commander = pp.Group(cmdrname | NOCMDR)
     commander_list = pp.Group(pp.delimitedList(commander, ",") +
                               pp.Optional(and_ + commander))("commanders")
-    milforce = pp.Group(commander_list + LBRAK + COMBATANT + RBRAK)
+    milforce = pp.Group(commander_list + LBRAK + BELLIGERENT + RBRAK)
     grammar = pp.delimitedList(milforce, ";")
     toks = grammar.parseString(x)
 
     # A smarter grammar could probably have avoided this
     res = {}
     for _force in toks:
-        k = _force['combatant']
+        k = _force['belligerent']
         res[k] = [x.asDict() for x in _force['commanders']
                   if "none" not in x.asDict()]
     return res
@@ -348,14 +348,14 @@ def parse_battle(alldata, src, campaigns, casualties, strengths):
         if 'casualties' in casualties[battle]:
             data['casualties'] = casualties[battle]['casualties']
         if 'forces' in casualties[battle]:
-            for combatant in casualties[battle]['forces']:
-                for k, v in casualties[battle]['forces'][combatant].items():
-                    forces[combatant][k] = casualties[battle]['forces'][combatant][k]
+            for belligerent in casualties[battle]['forces']:
+                for k, v in casualties[battle]['forces'][belligerent].items():
+                    forces[belligerent][k] = casualties[battle]['forces'][belligerent][k]
     else:
         ## 0 casualty battles
         if re.match("None( known)?", data['casualties_text'], re.I):
-            for combatant in forces:
-                forces[combatant]['casualties'] = 0
+            for belligerent in forces:
+                forces[belligerent]['casualties'] = 0
             data['casualties'] = 0
         else:
             # Auto parsing
@@ -363,9 +363,9 @@ def parse_battle(alldata, src, campaigns, casualties, strengths):
                 cas = parse_estimated_casualties(data['casualties_text'])
                 if 'total' in cas:
                     data['casualties'] = cas['total']
-                for combatant in ('US', 'CS', 'I'):
-                    if combatant in forces and combatant in cas:
-                        forces[combatant]['casualties'] = cas[combatant]
+                for belligerent in ('US', 'CS', 'I'):
+                    if belligerent in forces and belligerent in cas:
+                        forces[belligerent]['casualties'] = cas[belligerent]
             # Print failed parses
             except pp.ParseException:
                 print("%s: %s" % (battle, data['casualties_text']))
@@ -396,7 +396,7 @@ def parse_battle(alldata, src, campaigns, casualties, strengths):
         print("%s: %s" % (battle, data['principal_commanders']))
         
     ## Strengths
-    data['combatants'] = forces
+    data['belligerents'] = forces
 
     # drop temporary keys
     keytodel = [k for k in data.keys() if k[0] == "_"]

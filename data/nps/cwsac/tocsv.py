@@ -26,7 +26,6 @@ battle_fields = (#'cwsac_reference',
           'significance',
           'results',
           'uri',
-          # 'combatants',
           'preservation',
           'forces_text',
           'casualties',
@@ -48,8 +47,8 @@ def battle_csv(data, filename):
             row = dict_subset(battle_data, battle_fields)
             writer.writerow(row)
 
-combatant_fields = ('battle',
- 'combatant',
+belligerent_fields = ('battle',
+ 'belligerent',
  'corps',
  'strength',
  'description',
@@ -77,18 +76,18 @@ combatant_fields = ('battle',
  'ships',
  'strength_max')
 
-def combatants_csv(data, filename):
+def forces_csv(data, filename):
     with open(filename, 'w') as f:
-        writer = csv.DictWriter(f, combatant_fields)
+        writer = csv.DictWriter(f, belligerent_fields)
         writer.writeheader()
         for battle, battle_data in sorted(data.items()):
-            for combatant, x in sorted(battle_data['combatants'].items()):
-                row = dict_subset(x, combatant_fields)
+            for belligerent, x in sorted(battle_data['belligerents'].items()):
+                row = dict_subset(x, belligerent_fields)
                 row['battle'] = battle
-                row['combatant'] = combatant
+                row['belligerent'] = belligerent
                 writer.writerow(row)
 
-commanders_fields = ('battle', 'combatant', 'fullname', 'rank',
+commanders_fields = ('battle', 'belligerent', 'fullname', 'rank',
                      'first_name', 'last_name', 'middle_name', 'suffix')
 
 def commanders_csv(data, filename):
@@ -96,11 +95,11 @@ def commanders_csv(data, filename):
         writer = csv.DictWriter(f, commanders_fields)
         writer.writeheader()
         for battle, battle_data in sorted(data.items()):
-            for combatant, x in sorted(battle_data['combatants'].items()):
+            for belligerent, x in sorted(battle_data['belligerents'].items()):
                 for commander in x['commanders']:
                     row = commander.copy()
                     row['battle'] = battle
-                    row['combatant'] = combatant
+                    row['belligerent'] = belligerent
                     writer.writerow(row)
 
 SRC = "cwsac.json"
@@ -108,5 +107,5 @@ with open(SRC, 'r') as f:
     data = json.load(f)
 
 battle_csv(data, 'cwsac_battles.csv')
-combatants_csv(data, 'cwsac_forces.csv')
+forces_csv(data, 'cwsac_forces.csv')
 commanders_csv(data, 'cwsac_commanders.csv')
