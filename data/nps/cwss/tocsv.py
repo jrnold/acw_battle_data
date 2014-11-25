@@ -58,6 +58,7 @@ def battle_csv(root, dst):
             properties = entry.find('./%s/%s' % (xmlns('content'), xmlns('m:properties'))) 
             for fld in fields:
                 battle[fld] = properties.find(xmlns('d:%s' % fld)).text
+            battle['BattlefieldCode'] = battle['BattlefieldCode'].upper()
             writer.writerow(battle)
             
 def theaters_csv(root, dst):
@@ -134,12 +135,12 @@ def commander_csv(root, dst):
         writer.writeheader()
         for entry in root.findall('.//%s' % xmlns('entry')):
             properties = entry.find('./%s/%s' % (xmlns('content'), xmlns('m:properties'))) 
-            battlecode = properties.find(xmlns("d:BattlefieldCode")).text
+            battlecode = properties.find(xmlns("d:BattlefieldCode")).text.upper()
             enemy = properties.find(xmlns("d:EnemyName")).text
             for i, ordinal in enumerate(("First", "Second", "Third")):
                 if properties.find(xmlns("d:%sEnemyCommander" % ordinal)).text is not None:
                     if re.search("\\S", properties.find(xmlns("d:%sEnemyCommander" % ordinal)).text):
-                        writer.writerow({'BattlefieldCode' : battlecode,
+                        writer.writerow({'BattlefieldCode' : battlecode.upper(),
                                          'combatant' : enemy,
                                          'commander_number' : i + 1,
                                          'commander' : guid_clean(properties.find(xmlns("d:%sEnemyCommander" % ordinal)).text),
@@ -147,7 +148,7 @@ def commander_csv(root, dst):
                                          })
                 if properties.find(xmlns("d:%sUSCommander" % ordinal)).text is not None:
                     if re.search("\\S", properties.find(xmlns("d:%sUSCommander" % ordinal)).text):
-                        writer.writerow({'BattlefieldCode' : battlecode,
+                        writer.writerow({'BattlefieldCode' : battlecode.upper(),
                                          'combatant' : "US",
                                          'commander_number' : i + 1,  
                                          'commander' : guid_clean(properties.find(xmlns("d:%sUSCommander" % ordinal)).text),
@@ -163,12 +164,12 @@ def forces_csv(root, dst):
             properties = entry.find('./%s/%s' % (xmlns('content'), xmlns('m:properties'))) 
             battlecode = properties.find(xmlns("d:BattlefieldCode")).text
             enemy = properties.find(xmlns("d:EnemyName")).text
-            writer.writerow({'BattlefieldCode' : battlecode,
+            writer.writerow({'BattlefieldCode' : battlecode.upper(),
                              'combatant' : enemy,
                              'TroopsEngaged': properties.find(xmlns("d:EnemyTroopsEngaged")).text,
                              'Casualties': properties.find(xmlns("d:EnemyCasualties")).text,
                            })
-            writer.writerow({'BattlefieldCode' : battlecode,
+            writer.writerow({'BattlefieldCode' : battlecode.upper(),
                             'combatant' : "US",
                              'TroopsEngaged': properties.find(xmlns("d:USTroopsEngaged")).text,
                              'Casualties': properties.find(xmlns("d:USCasualties")).text,
