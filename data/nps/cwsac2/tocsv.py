@@ -38,7 +38,7 @@ def battle_csv(data, filename):
 belligerent_fields = ('battle',
  'belligerent',
  'description',
- 'commanders',
+ #'commanders',
  'strength',
  'regiments',
  'companies',
