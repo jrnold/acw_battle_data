@@ -302,8 +302,8 @@ N &lt;- 1000</code></pre>
               p75 = quantile(x, 0.75),
               p25 = quantile(x, 0.25),
               median = median(x),
-              p05 = quantile(x, 0.05),
-              p95 = quantile(x, 0.95)
+              p025 = quantile(x, 0.05),
+              p975 = quantile(x, 0.95)
               )
 }</code></pre>
 <p>Generate “summary” statistics if the exact size of a unit is known.</p>
@@ -311,19 +311,19 @@ N &lt;- 1000</code></pre>
     data.frame(mean = n,
                median = n,
                sd = 0,
-               p05 = n, p95 = n,
+               p025 = n, p975 = n,
                p25 = n, p75 = n)
 }</code></pre>
 <p>If the the size of the unit is distributed uniform, then return the exact summary statistics of the distribution.</p>
 <pre class="r"><code>summarize_data_unif &lt;- function(low, high) {
     range &lt;- high - low
     data_frame(mean = 0.5 * (low + high),
-               median = 0.5 * (low + high),
+               median = mean,
                sd = sqrt((1 / 12) * (low - high)^2),
-               p05 = 0.05 * range + low,
+               p025 = 0.025 * range + low,
                p25 = 0.25 * range + low,
                p75 = 0.75 * range + low,
-               p95 = 0.95 * range + low)
+               p975 = 0.975 * range + low)
 
 }</code></pre>
 <p>Eicher summarizes the distribution of number of sub-units within a unit by the min, max, mean and mode. I’ll draw from a binomial which matches the mean of the support given in that table.</p>
@@ -555,13 +555,13 @@ unit_sizes[[&quot;confed&quot;]][[&quot;artillery_gun&quot;]] &lt;-
   unit_sizes[[&quot;union&quot;]][[&quot;artillery_gun&quot;]]</code></pre>
 <p>A section was 2 guns controlled by a lieutenant (<a href="http://en.wikipedia.org/wiki/Field_artillery_in_the_American_Civil_War">wiki</a>).</p>
 <pre class="r"><code>UNION_ARTILLERY_SECTION_SIZE &lt;- 25
-unit_sizes[[&quot;union&quot;]][[&quot;artillery_gun&quot;]] &lt;-
+unit_sizes[[&quot;union&quot;]][[&quot;artillery_section&quot;]] &lt;-
   summarize_data_exact(UNION_ARTILLERY_SECTION_SIZE)
 draw_union_artillery_section &lt;-
   function(n) rep(UNION_ARTILLERY_SECTION_SIZE, n)
 
-unit_sizes[[&quot;confed&quot;]][[&quot;artillery_gun&quot;]] &lt;-
-  unit_sizes[[&quot;union&quot;]][[&quot;artillery_gun&quot;]]
+unit_sizes[[&quot;confed&quot;]][[&quot;artillery_section&quot;]] &lt;-
+  unit_sizes[[&quot;union&quot;]][[&quot;artillery_section&quot;]]
 draw_confed_artillery_section &lt;- draw_union_artillery_section</code></pre>
 <p>A battery consisted of 4-6 guns and and 80-156 men (Eicher, p. 66). It is equivalent to a company.</p>
 <pre class="r"><code>UNION_ARTILLERY_BATTERY_SIZE &lt;- c(80, 156)
@@ -580,12 +580,12 @@ unit_sizes[[&quot;confed&quot;]][[&quot;artillery_battery&quot;]] &lt;-
   function(n) {
     draw_union_artillery_batteries(5)
   }
-unit_sizes[[&quot;union&quot;]][[&quot;artillery_battery&quot;]] &lt;-
+unit_sizes[[&quot;union&quot;]][[&quot;artillery_brigade&quot;]] &lt;-
   summarize_data(draw_union_artillery_brigades(N))
 
 draw_confed_artillery_brigades &lt;- draw_union_artillery_brigades
-unit_sizes[[&quot;confed&quot;]][[&quot;artillery_battery&quot;]] &lt;-
-  unit_sizes[[&quot;union&quot;]][[&quot;artillery_battery&quot;]]</code></pre>
+unit_sizes[[&quot;confed&quot;]][[&quot;artillery_brigade&quot;]] &lt;-
+  unit_sizes[[&quot;union&quot;]][[&quot;artillery_brigade&quot;]]</code></pre>
 <p>An artillery regiment was a little larger than an infantry brigade at between 1200 and 1800 (Eicher, p. 66).</p>
 <pre class="r"><code>draw_union_artillery_regiments &lt;- function(n) {
   f_ &lt;- function() {
@@ -599,6 +599,12 @@ unit_sizes[[&quot;union&quot;]][[&quot;artillery_regiment&quot;]] &lt;-
 draw_confed_artillery_regiments &lt;- draw_union_artillery_regiments
 unit_sizes[[&quot;confed&quot;]][[&quot;artillery_regiment&quot;]] &lt;-
   unit_sizes[[&quot;union&quot;]][[&quot;artillery_regiment&quot;]]</code></pre>
+<p>Make an artillery company equivalent to an infantry company:</p>
+<pre class="r"><code>unit_sizes[[&quot;confed&quot;]][[&quot;infantry_company&quot;]] &lt;-
+  unit_sizes[[&quot;confed&quot;]][[&quot;infantry_company&quot;]]
+
+unit_sizes[[&quot;union&quot;]][[&quot;infantry_company&quot;]] &lt;-
+  unit_sizes[[&quot;union&quot;]][[&quot;infantry_company&quot;]]</code></pre>
 </div>
 <div id="persist-data" class="section level1">
 <h1>Persist Data</h1>
@@ -615,12 +621,15 @@ for (belligerent in names(unit_sizes)) {
 }
 unit_sizes_df &lt;- do.call(rbind, unit_sizes_df)
 unit_sizes_df &lt;- 
-  mutate(unit_sizes_df,
+  (mutate(unit_sizes_df,
          belligerent = plyr::revalue(belligerent, c(union = &quot;Union&quot;, confed = &quot;Confederate&quot;)),
          unit_type = gsub(&quot;_&quot;, &quot; &quot;, unit_type)
           )
+   %&gt;% select(belligerent, unit_type,
+              mean, sd, p025, p25, median, p75, p975)
+   )
 write.csv(unit_sizes_df, 
-          file = &quot;unit_sizes_df.csv&quot;,
+          file = &quot;unit_sizes.csv&quot;,
           na = &quot;&quot;, row.names = FALSE)
 
 # con &lt;- file(&quot;unit_sizes.json&quot;, &quot;w&quot;)
@@ -630,65 +639,286 @@ write.csv(unit_sizes_df,
 <div id="summary" class="section level2">
 <h2>Summary</h2>
 <p>The unit sizes generated are:</p>
-<pre class="r"><code>print(unit_sizes_df)</code></pre>
-<pre><code>##           mean      median          sd         p05        p25         p75
-## 1     45.47619    45.47619     9.48504    30.69048    37.2619    53.69048
-## 2    477.50000   477.50000    99.59292   322.25000   391.2500   563.75000
-## 3   2310.07200  2287.50000   708.82748  1218.75000  1807.7500  2790.25000
-## 4   6310.48900  6130.00000  2093.29292  3276.60000  4661.5000  7609.25000
-## 5  18461.60400 17845.50000  6411.98501  9213.75000 13648.5000 22715.25000
-## 6  54876.13600 53134.00000 19863.80872 26591.90000 39487.7500 67794.50000
-## 7  46062.61905 46062.61905   370.52395 45826.81905 45931.6190 46193.61905
-## 8    477.50000   477.50000    99.59292   322.25000   391.2500   563.75000
-## 9   1818.42300  1781.50000   576.92564   903.85000  1399.0000  2166.75000
-## 10  4658.57300  4475.50000  1468.94577  2612.70000  3527.7500  5594.25000
-## 11 13729.53600 13047.50000  4814.51218  7234.90000  9963.5000 16739.75000
-## 12    25.00000    25.00000     0.00000    25.00000    25.0000    25.00000
-## 13   115.80000   116.00000    23.12358    87.40000   113.0000   124.00000
-## 14   686.63200   684.00000   160.19912   436.00000   558.7500   804.25000
-## 15    45.47619    45.47619     9.48504    30.69048    37.2619    53.69048
-## 16   477.50000   477.50000    99.59292   322.25000   391.2500   563.75000
-## 17  2231.38600  2193.50000   730.70537  1097.55000  1735.2500  2704.25000
-## 18  8145.19400  7963.00000  2772.46980  3806.45000  6161.5000 10001.25000
-## 19 25289.03100 24230.00000  8988.20376 12589.55000 18643.2500 30509.25000
-## 20 79159.53900 76920.50000 27886.04649 39417.80000 57156.5000 97039.50000
-## 21 45864.11905 45864.11905   364.15999 45632.36905 45735.3690 45992.86905
-## 22   477.50000   477.50000    99.59292   322.25000   391.2500   563.75000
-## 23  2026.90700  1998.00000   596.02702  1044.95000  1583.0000  2415.50000
-## 24  5628.50700  5360.50000  1959.88957  3025.85000  4053.2500  6777.00000
-## 25 13814.83200 13439.50000  4224.83457  7803.50000 10442.7500 16705.75000
-## 26    25.00000    25.00000     0.00000    25.00000    25.0000    25.00000
-## 27   115.80000   116.00000    23.12358    87.40000   113.0000   124.00000
-## 28   686.63200   684.00000   160.19912   436.00000   558.7500   804.25000
-##            p95 belligerent          unit_type
-## 1      60.2619       Union   infantry company
-## 2     632.7500       Union  infantry regiment
-## 3    3540.8000       Union   infantry brigade
-## 4   10204.0000       Union  infantry division
-## 5   29924.5000       Union     infantry corps
-## 6   90951.5500       Union               army
-## 7   46298.4190       Union    cavalry company
-## 8     632.7500       Union   cavalry regiment
-## 9    2863.2500       Union    cavalry brigade
-## 10   7233.1500       Union   cavalry division
-## 11  22490.3000       Union      cavalry corps
-## 12     25.0000       Union      artillery gun
-## 13    140.8000       Union  artillery battery
-## 14    962.0500       Union artillery regiment
-## 15     60.2619 Confederate   infantry company
-## 16    632.7500 Confederate  infantry regiment
-## 17   3496.2500 Confederate   infantry brigade
-## 18  12926.2500 Confederate  infantry division
-## 19  41807.2500 Confederate     infantry corps
-## 20 128529.3500 Confederate               army
-## 21  46095.8690 Confederate    cavalry company
-## 22    632.7500 Confederate   cavalry regiment
-## 23   3052.8500 Confederate    cavalry brigade
-## 24   9297.9500 Confederate   cavalry division
-## 25  21304.5000 Confederate      cavalry corps
-## 26     25.0000 Confederate      artillery gun
-## 27    140.8000 Confederate  artillery battery
-## 28    962.0500 Confederate artillery regiment</code></pre>
+<pre class="r"><code>pandoc.table((unit_sizes_df 
+             %&gt;% select(belligerent, unit_type, mean, sd, p025, p975)))</code></pre>
+<table>
+<colgroup>
+<col width="19%"></col>
+<col width="26%"></col>
+<col width="9%"></col>
+<col width="8%"></col>
+<col width="9%"></col>
+<col width="9%"></col>
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">belligerent</th>
+<th align="center">unit_type</th>
+<th align="center">mean</th>
+<th align="center">sd</th>
+<th align="center">p025</th>
+<th align="center">p975</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">Union</td>
+<td align="center">infantry company</td>
+<td align="center">45.48</td>
+<td align="center">9.485</td>
+<td align="center">29.87</td>
+<td align="center">61.08</td>
+</tr>
+<tr class="even">
+<td align="center">Union</td>
+<td align="center">infantry regiment</td>
+<td align="center">477.5</td>
+<td align="center">99.59</td>
+<td align="center">313.6</td>
+<td align="center">641.4</td>
+</tr>
+<tr class="odd">
+<td align="center">Union</td>
+<td align="center">infantry brigade</td>
+<td align="center">2310</td>
+<td align="center">708.8</td>
+<td align="center">1219</td>
+<td align="center">3541</td>
+</tr>
+<tr class="even">
+<td align="center">Union</td>
+<td align="center">infantry division</td>
+<td align="center">6310</td>
+<td align="center">2093</td>
+<td align="center">3277</td>
+<td align="center">10204</td>
+</tr>
+<tr class="odd">
+<td align="center">Union</td>
+<td align="center">infantry corps</td>
+<td align="center">18462</td>
+<td align="center">6412</td>
+<td align="center">9214</td>
+<td align="center">29924</td>
+</tr>
+<tr class="even">
+<td align="center">Union</td>
+<td align="center">army</td>
+<td align="center">54876</td>
+<td align="center">19864</td>
+<td align="center">26592</td>
+<td align="center">90952</td>
+</tr>
+<tr class="odd">
+<td align="center">Union</td>
+<td align="center">cavalry company</td>
+<td align="center">46063</td>
+<td align="center">370.5</td>
+<td align="center">45827</td>
+<td align="center">46298</td>
+</tr>
+<tr class="even">
+<td align="center">Union</td>
+<td align="center">cavalry regiment</td>
+<td align="center">477.5</td>
+<td align="center">99.59</td>
+<td align="center">313.6</td>
+<td align="center">641.4</td>
+</tr>
+<tr class="odd">
+<td align="center">Union</td>
+<td align="center">cavalry brigade</td>
+<td align="center">1818</td>
+<td align="center">576.9</td>
+<td align="center">903.9</td>
+<td align="center">2863</td>
+</tr>
+<tr class="even">
+<td align="center">Union</td>
+<td align="center">cavalry division</td>
+<td align="center">4659</td>
+<td align="center">1469</td>
+<td align="center">2613</td>
+<td align="center">7233</td>
+</tr>
+<tr class="odd">
+<td align="center">Union</td>
+<td align="center">cavalry corps</td>
+<td align="center">13730</td>
+<td align="center">4815</td>
+<td align="center">7235</td>
+<td align="center">22490</td>
+</tr>
+<tr class="even">
+<td align="center">Union</td>
+<td align="center">artillery gun</td>
+<td align="center">12</td>
+<td align="center">0</td>
+<td align="center">12</td>
+<td align="center">12</td>
+</tr>
+<tr class="odd">
+<td align="center">Union</td>
+<td align="center">artillery section</td>
+<td align="center">25</td>
+<td align="center">0</td>
+<td align="center">25</td>
+<td align="center">25</td>
+</tr>
+<tr class="even">
+<td align="center">Union</td>
+<td align="center">artillery battery</td>
+<td align="center">118</td>
+<td align="center">21.94</td>
+<td align="center">81.9</td>
+<td align="center">154.1</td>
+</tr>
+<tr class="odd">
+<td align="center">Union</td>
+<td align="center">artillery brigade</td>
+<td align="center">115.8</td>
+<td align="center">23.12</td>
+<td align="center">87.4</td>
+<td align="center">140.8</td>
+</tr>
+<tr class="even">
+<td align="center">Union</td>
+<td align="center">artillery regiment</td>
+<td align="center">686.6</td>
+<td align="center">160.2</td>
+<td align="center">436</td>
+<td align="center">962</td>
+</tr>
+<tr class="odd">
+<td align="center">Confederate</td>
+<td align="center">infantry company</td>
+<td align="center">45.48</td>
+<td align="center">9.485</td>
+<td align="center">29.87</td>
+<td align="center">61.08</td>
+</tr>
+<tr class="even">
+<td align="center">Confederate</td>
+<td align="center">infantry regiment</td>
+<td align="center">477.5</td>
+<td align="center">99.59</td>
+<td align="center">313.6</td>
+<td align="center">641.4</td>
+</tr>
+<tr class="odd">
+<td align="center">Confederate</td>
+<td align="center">infantry brigade</td>
+<td align="center">2231</td>
+<td align="center">730.7</td>
+<td align="center">1098</td>
+<td align="center">3496</td>
+</tr>
+<tr class="even">
+<td align="center">Confederate</td>
+<td align="center">infantry division</td>
+<td align="center">8145</td>
+<td align="center">2772</td>
+<td align="center">3806</td>
+<td align="center">12926</td>
+</tr>
+<tr class="odd">
+<td align="center">Confederate</td>
+<td align="center">infantry corps</td>
+<td align="center">25289</td>
+<td align="center">8988</td>
+<td align="center">12590</td>
+<td align="center">41807</td>
+</tr>
+<tr class="even">
+<td align="center">Confederate</td>
+<td align="center">army</td>
+<td align="center">79160</td>
+<td align="center">27886</td>
+<td align="center">39418</td>
+<td align="center">128529</td>
+</tr>
+<tr class="odd">
+<td align="center">Confederate</td>
+<td align="center">cavalry company</td>
+<td align="center">45864</td>
+<td align="center">364.2</td>
+<td align="center">45632</td>
+<td align="center">46096</td>
+</tr>
+<tr class="even">
+<td align="center">Confederate</td>
+<td align="center">cavalry regiment</td>
+<td align="center">477.5</td>
+<td align="center">99.59</td>
+<td align="center">313.6</td>
+<td align="center">641.4</td>
+</tr>
+<tr class="odd">
+<td align="center">Confederate</td>
+<td align="center">cavalry brigade</td>
+<td align="center">2027</td>
+<td align="center">596</td>
+<td align="center">1045</td>
+<td align="center">3053</td>
+</tr>
+<tr class="even">
+<td align="center">Confederate</td>
+<td align="center">cavalry division</td>
+<td align="center">5629</td>
+<td align="center">1960</td>
+<td align="center">3026</td>
+<td align="center">9298</td>
+</tr>
+<tr class="odd">
+<td align="center">Confederate</td>
+<td align="center">cavalry corps</td>
+<td align="center">13815</td>
+<td align="center">4225</td>
+<td align="center">7804</td>
+<td align="center">21304</td>
+</tr>
+<tr class="even">
+<td align="center">Confederate</td>
+<td align="center">artillery gun</td>
+<td align="center">12</td>
+<td align="center">0</td>
+<td align="center">12</td>
+<td align="center">12</td>
+</tr>
+<tr class="odd">
+<td align="center">Confederate</td>
+<td align="center">artillery section</td>
+<td align="center">25</td>
+<td align="center">0</td>
+<td align="center">25</td>
+<td align="center">25</td>
+</tr>
+<tr class="even">
+<td align="center">Confederate</td>
+<td align="center">artillery battery</td>
+<td align="center">118</td>
+<td align="center">21.94</td>
+<td align="center">81.9</td>
+<td align="center">154.1</td>
+</tr>
+<tr class="odd">
+<td align="center">Confederate</td>
+<td align="center">artillery brigade</td>
+<td align="center">115.8</td>
+<td align="center">23.12</td>
+<td align="center">87.4</td>
+<td align="center">140.8</td>
+</tr>
+<tr class="even">
+<td align="center">Confederate</td>
+<td align="center">artillery regiment</td>
+<td align="center">686.6</td>
+<td align="center">160.2</td>
+<td align="center">436</td>
+<td align="center">962</td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 <div id="todo" class="section level1">

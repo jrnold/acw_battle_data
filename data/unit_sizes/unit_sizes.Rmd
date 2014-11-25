@@ -3,7 +3,10 @@ title: Unit Sizes in the American Civil War
 ---
 
 ```{r,results='hide',echo=FALSE,message=FALSE}
+suppressPackageStartupMessages({
 library("dplyr")
+library("pander")  
+})
 ```
 
 For many battles and sources of data about them, the number of personnel present (or engaged) is either not given or not known. Instead, the units involved are given. Somtimes the CWSAC simply states that "brigades" or "corps" were involved. This program generates the number of personnel associated with each unit size. Unfortunately, there is cons  iderable uncertainty about the number of personnel in a unit, both due to organizational differences and attrition. Thus this program generates a probability distribution over the number of personnel in a unit.
@@ -482,13 +485,13 @@ unit_sizes[["confed"]][["artillery_gun"]] <-
 A section was 2 guns controlled by a lieutenant ([wiki](http://en.wikipedia.org/wiki/Field_artillery_in_the_American_Civil_War)).
 ```{r}
 UNION_ARTILLERY_SECTION_SIZE <- 25
-unit_sizes[["union"]][["artillery_gun"]] <-
+unit_sizes[["union"]][["artillery_section"]] <-
   summarize_data_exact(UNION_ARTILLERY_SECTION_SIZE)
 draw_union_artillery_section <-
   function(n) rep(UNION_ARTILLERY_SECTION_SIZE, n)
 
-unit_sizes[["confed"]][["artillery_gun"]] <-
-  unit_sizes[["union"]][["artillery_gun"]]
+unit_sizes[["confed"]][["artillery_section"]] <-
+  unit_sizes[["union"]][["artillery_section"]]
 draw_confed_artillery_section <- draw_union_artillery_section
 ```
 
@@ -515,12 +518,12 @@ draw_union_artillery_brigades <-
   function(n) {
     draw_union_artillery_batteries(5)
   }
-unit_sizes[["union"]][["artillery_battery"]] <-
+unit_sizes[["union"]][["artillery_brigade"]] <-
   summarize_data(draw_union_artillery_brigades(N))
 
 draw_confed_artillery_brigades <- draw_union_artillery_brigades
-unit_sizes[["confed"]][["artillery_battery"]] <-
-  unit_sizes[["union"]][["artillery_battery"]]
+unit_sizes[["confed"]][["artillery_brigade"]] <-
+  unit_sizes[["union"]][["artillery_brigade"]]
 ```
 
 An artillery regiment was a little larger than an infantry brigade at between 1200 and 1800 (Eicher, p. 66).
@@ -537,6 +540,15 @@ unit_sizes[["union"]][["artillery_regiment"]] <-
 draw_confed_artillery_regiments <- draw_union_artillery_regiments
 unit_sizes[["confed"]][["artillery_regiment"]] <-
   unit_sizes[["union"]][["artillery_regiment"]]
+```
+
+Make an artillery company equivalent to an infantry company:
+```{r}
+unit_sizes[["confed"]][["infantry_company"]] <-
+  unit_sizes[["confed"]][["infantry_company"]]
+
+unit_sizes[["union"]][["infantry_company"]] <-
+  unit_sizes[["union"]][["infantry_company"]]
 ```
 
 # Persist Data
@@ -576,8 +588,9 @@ write.csv(unit_sizes_df,
 
 The unit sizes generated are:
 
-```{r}
-print(unit_sizes_df)
+```{r,results='asis'}
+pandoc.table((unit_sizes_df 
+             %>% select(belligerent, unit_type, mean, sd, p025, p975)))
 ```
 
 # TODO
