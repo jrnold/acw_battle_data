@@ -164,6 +164,9 @@ def forces_csv(root, dst):
             properties = entry.find('./%s/%s' % (xmlns('content'), xmlns('m:properties'))) 
             battlecode = properties.find(xmlns("d:BattlefieldCode")).text
             enemy = properties.find(xmlns("d:EnemyName")).text
+            # NC002 battle code is empty
+            if battlecode == "NC002":
+                enemy = "Confederate"
             writer.writerow({'BattlefieldCode' : battlecode.upper(),
                              'belligerent' : enemy,
                              'TroopsEngaged': properties.find(xmlns("d:EnemyTroopsEngaged")).text,
