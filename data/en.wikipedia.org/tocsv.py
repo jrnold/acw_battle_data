@@ -109,7 +109,6 @@ def forces_csv(data, filename):
                           'captured', 'killed_wounded', 'wounded_missing', 
                           'captured_missing'):
                     var_to_range(row, k)
-                print(row)
                 writer.writerow(row)
 
 def battles_csv(data, filename):
