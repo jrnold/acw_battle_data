@@ -31,10 +31,13 @@ WV010:
       casualties: 12636
       killed: 44
       wounded: 173
+      missing: 0
       captured: 12419
     CS:
       killed: 39
       wounded: 247
+      missing: 0
+      captured: 0
       casualties: 286
 # VA068: 600 total (1,817 for entire raid)
 VA068:
@@ -48,6 +51,7 @@ NC002:
       killed: 37
       wounded: 214
       missing: 13
+      captured: 0
     CS:
       casualties: 2643
       killed: 23
@@ -63,10 +67,13 @@ WV009:
       killed: 23
       wounded: 69
       missing: 21
+      captured: 0
     CS:
       casualties: 16
       killed: 4
       wounded: 12
+      missing: 0
+      captured: 0
 # VA043: 2,537 total (1,600 Confederate prisoners)
 VA043:
   casualties: 2537
