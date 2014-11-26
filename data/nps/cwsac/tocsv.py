@@ -49,7 +49,7 @@ belligerent_fields = ['battle',
  'belligerent',
  'corps',
  'strength_min',
- 'strength_max'
+ 'strength_max',
  'description',
  'killed',
  'divisions',
