@@ -153,7 +153,7 @@ def page2battle(page, results, strengths, areas, infn):
     commanders = clean(page[7])
     data['forces_text'] = clean(page[9])
     data['results_text'] = clean(page[11])
-    data['results'] = results[data['results_text']]
+    data['result'] = results[data['results_text']]
     study_area = re.sub(',', '', page[13].split(' ')[0])
     if study_area in ['Not']:
         study_area = None

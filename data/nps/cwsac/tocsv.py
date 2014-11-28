@@ -9,27 +9,27 @@ def dict_subset(x, include = []):
     return dict((k, v) for k, v in x.items() if k in include)
 
 battle_fields = (#'cwsac_reference',
-          'battle',
-          'battle_name',
-          'start_date',
-          'end_date',
-          'state',
-          'location',
-          'other_names',
-          'operation',
-          'description',
-          'casualties_text',
-          'url',
-          'strength',
-          'campaign',
-          'results_text',
-          'significance',
-          'results',
-          'uri',
-          'preservation',
-          'forces_text',
-          'casualties',
-          'assoc_battles')
+    'battle',
+    'battle_name',
+    'other_names',
+    'operation',
+    'assoc_battles',
+    'location',
+    'campaign',
+    'start_date',
+    'end_date',
+    'forces_text',
+    'strength',
+    'casualties_text',
+    'casualties',
+    'description',
+    'state',
+    'results_text',
+    'result',
+    'preservation',
+    'significance',
+    'url'
+)
 
 # keys = set()
 # for battle, battle_data in data.items():
@@ -43,35 +43,41 @@ def battle_csv(data, filename):
         writer.writeheader()
         for battle, battle_data in sorted(data.items()):
             row = dict_subset(battle_data, battle_fields)
+            row['operation'] = int(row['operation'])
             writer.writerow(row)
 
-belligerent_fields = ['battle',
+belligerent_fields = [
+ 'battle',
  'belligerent',
- 'corps',
+
+ 'description',
  'strength_min',
  'strength_max',
- 'description',
- 'killed',
+ 'armies',
+ 'corps',
  'divisions',
  'brigades',
- 'ironclads',
+ 'regiments',
+ 'companies',
+
  'cavalry_regiments',
  'cavalry_brigades',
  'cavalry_corps',
  'cavalry_divisions',
- 'gunboats',
- 'casualties',
- 'companies',
- 'missing',
- 'armies',
+
  'artillery_batteries',
- 'wounded',
- 'captured',
+ 'ships',
+ 'ironclads',
+ 'gunboats',
  'wooden_ships',
  'rams',
- 'regiments',
- # 'commanders',
- 'ships',
+
+ 'casualties',
+ 'killed',
+ 'wounded',
+ 'missing',
+ 'captured',
+
 ]
 
 def forces_csv(data, filename):
@@ -85,8 +91,16 @@ def forces_csv(data, filename):
                 row['belligerent'] = belligerent
                 writer.writerow(row)
 
-commanders_fields = ('battle', 'belligerent', 'fullname', 'rank',
-                     'first_name', 'last_name', 'middle_name', 'suffix')
+commanders_fields = (
+    'battle', 
+    'belligerent',
+    'fullname',
+    'rank',
+    'first_name',
+    'last_name',
+    'middle_name',
+    'suffix'
+)
 
 def commanders_csv(data, filename):
     with open(filename, 'w') as f:

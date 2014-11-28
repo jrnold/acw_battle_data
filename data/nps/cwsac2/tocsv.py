@@ -11,18 +11,19 @@ def dict_subset(x, include = []):
 battle_fields = (#'belligerents',
      'battle',
      'battle_name',
-     'campaign',
-     'url',
      'state',
      # 'locations',
-     'strength',
-     #'dates',
-     'results_text',
-     'results',
+     'campaign',
+     'url',
      'forces_text',
+     'strength',
+     'results_text',
+     'result',
+     #'dates',
      'study_area',
      'core_area',
-     'potnr_boundary')
+     'potnr_boundary'
+)
 
 def battle_csv(data, filename):
     # keys = set()

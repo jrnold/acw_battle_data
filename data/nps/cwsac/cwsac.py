@@ -181,6 +181,19 @@ def parse_month_range(x):
         start_date = date(end_date.year, end_date.month, 1)
     return (start_date, end_date)
 
+def find_result(tree):
+    # The pages use the color the battle to indicate the result
+    if len(tree.xpath('//font[@color="#1C7807"]')):
+        result = "Inconclusive"
+    elif len(tree.xpath('//font[@color="#003364"]')):
+        result = "Union"
+    elif len(tree.xpath('//font[@color="#A6660F"]')):
+        result = "Confederate"
+    else:
+        print("Could not find result")
+        result = None
+    return result
+
 def parse_html(src):
     """Find all p elements in the battle summary td element
 
@@ -221,8 +234,9 @@ def parse_html(src):
     data = {'battle': battle}
     tree = html.parse(src)
     td = _get_battle_data_td(tree)
-    data['battle_name'] = _get_battle_title(td)
+    data['battle_name'] = _get_battle_title(td).replace('\u0092', "'")
     data['url'] = '%s/%s' % (URL_BASE, path.basename(src))
+    data['result'] = find_result(tree)
 
     last_field = None
     for x in td.findall(".//p"):
@@ -230,14 +244,14 @@ def parse_html(src):
         text = x.text_content().strip()
         # Text cleaning
         # replace non-breaking spaces
-        text = text.replace(u'\xa0', ' ')
+        text = text.replace('\xa0', ' ')
         # double quotes
-        text = text.replace(u'\x93', '"')
-        text = text.replace(u'\x94', '"')
+        text = text.replace('\x93', '"')
+        text = text.replace('\x94', '"')
         # apostraphes
-        text = text.replace(u'\x92', "'")
+        text = text.replace('\u0092', "'")
         # hyphen
-        text = text.replace(u'\x96', "-")
+        text = text.replace('\x96', "-")
         # replace internal returns and carriage returns
         text = re.sub(r'(\r|\n)', ' ', text)
         text = re.sub(r' +', ' ', text)
@@ -256,22 +270,6 @@ def parse_html(src):
             else:
                 print(text)
     return data
-
-def parse_results(x):
-    RESULTS = {'Union': 3, 'Confederate': 1, 'Inconclusive': 2}
-    if re.match("Union ((tactical|strategic) )?victory", x):
-        y = "Union"
-    if re.match("Union gained ground", x):
-        y = "Union"
-    if re.match("Successful Union demonstration", x):
-        y = "Union"
-    elif re.match("Confederate ((tactical|strategic) )?victory", x):
-        y = "Confederate"
-    elif re.match("Confederate delaying action", x):
-        y = "Confederate"
-    elif re.match("(Inconclusive|Indecisive)", x):
-        y = "Inconclusive"
-    return y
 
 def parse_estimated_casualties(x):
     # easier to remove ',' than handle comma formatted numbers
@@ -304,7 +302,7 @@ def parse_estimated_casualties(x):
     toks = grammar.parseString(x).asDict()
     return toks
 
-def parse_battle(alldata, src, campaigns, casualties, strengths):
+def parse_battle(alldata, src, campaigns, casualties, strengths, results):
     battle = path.splitext(path.basename(src))[0].upper()
     # One manual edit
     if battle == 'AR010A':
@@ -320,14 +318,16 @@ def parse_battle(alldata, src, campaigns, casualties, strengths):
     daterange = parse_dates(data['dates'])
     for x in ('start_date', 'end_date'):
         data[x] = daterange[x].strftime("%Y-%m-%d")
+    if data['other_names'] == "None":
+        data['other_names'] = None
     # states
     data['state'] = path.basename(src)[:2].upper()
     # uri
-    data['uri'] = path.join(URL_BASE, path.basename(src))
+    data['url'] = path.join(URL_BASE, path.basename(src))
     # operation
     data['operation'] = 'assoc_battles' in data
     # results
-    data['results'] = parse_results(data['results_text'])
+    # data['result'] = results[data['results_text']]
     # Participants
     forces = {}
     if (re.search(r'\[I\]', data['principal_commanders']) is not None):
@@ -412,26 +412,16 @@ def parse_battle_summaries(src):
     campaigns = yaml.load(open(path.join(src, 'battle_campaigns.yaml'), 'r'))
     casualties = yaml.load(open(path.join(src, 'casualties.yaml'), 'r'))
     strengths = yaml.load(open(path.join(src, 'forces.yaml'), 'r'))
+    results = yaml.load(open(path.join(src, "results.yaml"), 'r'))
     files = glob.glob("%s/*.htm" % srcdir)
     battles = {}
     for i, x in enumerate(files):
         #if i > 1: break
         print(x)
         if re.match(r'[a-z]{2}[0-9]{3}[a-z]?\.htm', path.basename(x)):
-            parse_battle(battles, x, campaigns, casualties, strengths)
+            parse_battle(battles, x, campaigns, casualties, strengths, results)
     return battles
 
-
-def load_cwsac_to_dbpedia(src):
-    """ Load cwsac_to_dbpedia """
-    session = model.Session()
-    data = yaml.load(src)
-    for k, links in data.iteritems():
-        for dbpedia in links['dbpedia']['links']:
-            session.add(model.CwsacToDbpedia(battle = unicode(k),
-                                             relation = unicode(links['dbpedia']['relation']),
-                                             dbpedia = unicode(dbpedia)))
-    session.commit()
 
 def load(datadir):
     print("loading cwsac")
