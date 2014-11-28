@@ -66,7 +66,7 @@ for i in range(1, MAX_PAGE + 1):
             nrecords += 1
 
 with open(DST_JSON, 'w') as f:
-    json.dump(events, f)
+    json.dump(events, f, indent=1)
     print("writing to %s" % DST_JSON)
             
  
