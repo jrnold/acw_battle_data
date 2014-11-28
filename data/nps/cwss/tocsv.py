@@ -2,6 +2,7 @@
 from lxml import etree as ET
 import re
 import csv
+from datetime import datetime as dt
 from datetime import date
 import calendar
 
@@ -60,6 +61,10 @@ def battle_csv(root, dst):
                 if battle[fld]: 
                     battle[fld] = battle[fld].strip()
             battle['BattlefieldCode'] = battle['BattlefieldCode'].upper()
+            if battle['BeginDate']:
+                battle['BeginDate'] = dt.strptime(battle['BeginDate'], '%m/%d/%Y').strftime('%Y-%m-%d')
+            if battle['EndDate']:
+                battle['EndDate'] = dt.strptime(battle['EndDate'], '%m/%d/%Y').strftime('%Y-%m-%d')
             writer.writerow(battle)
             
 def theaters_csv(root, dst):
