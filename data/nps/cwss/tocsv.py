@@ -27,7 +27,6 @@ def xmlns(x):
         xsplit = ['', xsplit[0]]
     return "{%s}%s" % (namespaces[xsplit[0]], xsplit[1])
 
-
 def battle_csv(root, dst):
     fields = (
     'BattlefieldCode',
@@ -58,6 +57,8 @@ def battle_csv(root, dst):
             properties = entry.find('./%s/%s' % (xmlns('content'), xmlns('m:properties'))) 
             for fld in fields:
                 battle[fld] = properties.find(xmlns('d:%s' % fld)).text
+                if battle[fld]: 
+                    battle[fld] = battle[fld].strip()
             battle['BattlefieldCode'] = battle['BattlefieldCode'].upper()
             writer.writerow(battle)
             
@@ -135,7 +136,7 @@ def commander_csv(root, dst):
         writer.writeheader()
         for entry in root.findall('.//%s' % xmlns('entry')):
             properties = entry.find('./%s/%s' % (xmlns('content'), xmlns('m:properties'))) 
-            battlecode = properties.find(xmlns("d:BattlefieldCode")).text.upper()
+            battlecode = properties.find(xmlns("d:BattlefieldCode")).text.strip().upper()
             enemy = properties.find(xmlns("d:EnemyName")).text
             for i, ordinal in enumerate(("First", "Second", "Third")):
                 if properties.find(xmlns("d:%sEnemyCommander" % ordinal)).text is not None:
