@@ -67,7 +67,10 @@ names(union_defending_forces) <-
 liv_forces <-
   (rbind(union_attacking_forces, confed_defending_forces,
          confed_attacking_forces, union_defending_forces)
-   %>% arrange(seq_no, belligerent))
+   %>% arrange(seq_no, belligerent)
+   # if KIA is missing, WIA is non-missing, but KWIA is non-missing,
+   # then WIA should be missing
+   %>% mutate(wia = ifelse(is.na(kia) & ! is.na(wia) & ! is.na(kw), NA, wia)))
 
 write_csv(liv_battles, file = "LIVRMORE_battles.csv")
 write_csv(liv_forces, file = "LIVRMORE_forces.csv")
