@@ -1,16 +1,16 @@
 date,description,confederate,union,theater,cwsac_id,cwsac_battle_name
 1861-04-07,"Fort Sumter, SC -April 12 - 14",4,11,Lower Seaboard,SC001,Fort Sumter
-1861-05-12,Sewell's Point. VA - May 18-19,5,5,Eastern,VA001,Sewell's Point
-1861-05-19,Ellsworth's death,0,1,Eastern,,
+1861-05-12,"Sewell's Point, VA - May 18-19",5,5,Eastern,VA001,Sewell's Point
+1861-05-19,"Ellsworth's death",0,1,Eastern,,
 1861-05-26,"Aquia Creek, VA - May 29-June 1",5,5,Eastern,VA002,Aquia Creek
 1861-06-02,"Philippi, WVA - June 3",6,5,Eastern,WV001,Philippi
-1861-06-09,Big Bethel. VA - June 10,8,76,Eastern,VA003,Big Bethel
+1861-06-09,"Big Bethel. VA - June 10",8,76,Eastern,VA003,Big Bethel
 1861-06-16,"Boonville, MO - June 17",12,12,Trans-Mississippi,MO001,Boonville
 1861-06-30,"Hoke's Run, WVA - July 2",25,73,Eastern,WV002,Hoke's Run
 1861-06-30,"Carthage, MO July 5",74,44,Trans-Mississippi,MO002,Carthage
 1861-07-07,"Rich Mountain, WVA - July 11",638,74,Eastern,WV003,Rich Mountain
 1861-07-14,"Blackburn's Ford, VA - July 18",68,83,Eastern,VA004,Blackburn's Ford
-1861-07-21,1st Bull Run (Manassas). VA - July 21,1982,2896,Eastern,VA005,"Manassas, First"
+1861-07-21,"1st Bull Run (Manassas), VA - July 21",1982,2896,Eastern,VA005,"Manassas, First"
 1861-08-04,"Wilson's Creek, MO August 10",1222,1317,Trans-Mississippi,MO004,Wilson's Creek
 1861-08-25,Kessler's Cross Lanes. WVA - August 26,40,132,Eastern,WV004,Kessler's Cross Lanes
 1861-08-25,"Hatteras Inlet Forts, NC - August 28-29",670,3,Eastern,NC001,Hatteras Inlet Batteries
@@ -85,7 +85,7 @@ date,description,confederate,union,theater,cwsac_id,cwsac_battle_name
 1862-08-03,"Baton Rouge, LA - August 5",478,371,Lower Seaboard,LA003,Baton Rouge
 1862-08-03,"Kirksville, MO - August 6-9",368,88,Trans-Mississippi,MO013,Kirksville
 1862-08-03,"Cedar Mountain, VA - August 9",1400,2500,Eastern,VA022,Cedar Mountain
-1862-08-10,"Independence I, MO - August 11",NA,344,Trans-Mississippi,MO015,Lone Jack
+1862-08-10,"Independence I, MO - August 11",NA,344,Trans-Mississippi,MO014,Independence
 1862-08-10,"Lone Jack, MO - August 15-16",NA,272,Trans-Mississippi,MO015,Lone Jack
 1862-08-17,"Rappahannock River, VA - Aug. 22-25",112,113,Eastern,VA023,Rappahannock Station
 1862-08-17,"Fort Ridgely, MN - August 20-22",NA,26,Trans-Mississippi,MN001,Fort Ridgely
@@ -152,7 +152,7 @@ date,description,confederate,union,theater,cwsac_id,cwsac_battle_name
 1863-06-07,"Milliken's Bend, LA - June 7",185,652,Western,LA011,Milliken's Bend
 1863-06-07,"Brandy Station, VA - June 9",515,868,Eastern,VA035,Brandy Station
 1863-06-14,"Second Winchester, VA - June 13-15",266,4443,Eastern,VA107,"Winchester, Second"
-1863-06-14,"Aldie, Middleburg, Upperville - June 17-21",510,827,Eastern,VA036,Aldie
+1863-06-14,"Aldie, Middleburg, Upperville - June 17-21",510,827,Eastern,VA036;VA037;VA038,Aldie;Middleburg;Upperville
 1863-06-14,"Lafourche Crossing, LA - June 20-21",219,49,Lower Seaboard,LA012,LaFourche Crossing
 1863-06-21,"Hoover's Gap, TN - June 24-26",NA,583,Western,TN017,Hoover's Gap
 1863-06-28,"Donaldsville II, LA - June 28",301,23,Lower Seaboard,LA013,Donaldsonville
@@ -180,7 +180,7 @@ date,description,confederate,union,theater,cwsac_id,cwsac_battle_name
 1863-08-16,"Lawrence, KS - August 21",NA,150,Trans-Mississippi,KS001,Lawrence
 1863-08-30,"Devil's Backbone, AR - September 1",17,14,Trans-Mississippi,AR009,Devil's Backbone
 1863-08-30,"Whitestonc Hill, ND - September 3-4",300,70,Trans-Mississippi,ND004,Whitestone Hill
-1863-09-06,"Charleston Harbor II, SC - September 5-8",100,117,Lower Seaboard,,
+1863-09-06,"Charleston Harbor II, SC - September 5-8",100,117,Lower Seaboard,SC008;SC009,Fort Sumter;Charleston Harbor
 1863-09-06,"Sabine Pass II, TX - September 8",0,350,Trans-Mississippi,TX006,Sabine Pass II
 1863-09-06,"Bayou Fourche, AR - September 10",64,72,Trans-Mississippi,AR010,Bayou Forche
 1863-09-13,"Chickamauga, GA- September 18-20",18454,16170,Western,GA004,Chickamauga
@@ -203,29 +203,29 @@ date,description,confederate,union,theater,cwsac_id,cwsac_battle_name
 1863-11-29,"Fort Sanders, TN - November 29",800,15,Western,TN025,Fort Sanders
 1863-11-29,"Mine Run, VA Nov 26 Dec. 2",795,1633,Eastern,VA044,Mine Run
 1863-12-13,"Bean's Station, TN - December 14",222,115,Western,TN026,Bean's Station
-1863-12-27,Mossy Creek. TN - December 29,NA,151,Western,TN027,Mossy Creek
+1863-12-27,"Mossy Creek, TN - December 29",NA,151,Western,TN027,Mossy Creek
 1864-01-17,"Dandridge, TN - January 17",NA,150,Western,TN028,Dandridge
-1864-01-24,Athens. AL - January 26,30,20,Western,AL002,Athens
+1864-01-24,"Athens, AL - January 26",30,20,Western,AL002,Athens
 1864-01-24,"Fair Garden, TN January 27 28",165,100,Western,TN029,Fair Garden
-1864-01-31,"Morton's Ford, VA - February 6-7",165,100,Eastern,VA027,Morton's Ford
+1864-01-31,"Morton's Ford, VA - February 6-7",165,100,Eastern,VA045,Morton's Ford
 1864-02-07,"Middle Boggy, OK - February 13",47,0,Trans-Mississippi,OK005,Middle Boggy Depot
-1864-02-14,Meridian. MS - February 14,NA,170,Western,MS012,Meridian
+1864-02-14,"Meridian, MS - February 14",NA,170,Western,MS012,Meridian
 1864-02-14,"Olustee, FL - February 20",946,1861,Lower Seaboard,FL005,Olustee
 1864-02-21,"Okolona, MS - February 22",144,388,Western,MS013,Okolona
 1864-02-21,"Dalton I, GA - February 22-27",140,289,Western,GA006,Dalton I
-1864-02-28,Walkerton. VA - March 2,0,100,Eastern,VA125,Walkerton
+1864-02-28,"Walkerton, VA - March 2",0,100,Eastern,VA125,Walkerton
 1864-03-06,"Fort DeRussy, LA - March 14",269,48,Trans-Mississippi,LA017,Fort DeRussy
 1864-03-20,"Paducah, KY March 25",50,90,Western,KY010,Paducah
 1864-04-03,"Elkin's Ferry, AR - April 3-4",29,26,Trans-Mississippi,AR012,Elkin's Ferry
-1864-04-03,Mansfield. LA-April 8,1000,2235,Trans-Mississippi,LA018,Mansfield
-1864-04-03,Pleasant Hill. LA - April 9,1626,1369,Trans-Mississippi,LA019,Pleasant Hill
+1864-04-03,"Mansfield, LA - April 8",1000,2235,Trans-Mississippi,LA018,Mansfield
+1864-04-03,"Pleasant Hill, LA - April 9",1626,1369,Trans-Mississippi,LA019,Pleasant Hill
 1864-04-10,"Prairie D'Ane, AR - April 10-13",50,100,Trans-Mississippi,AR013,Prairie D'Ane
 1864-04-10,"Fort Pillow, TN - April 12",100,549,Western,TN030,Fort Pillow
-1864-04-10,Blair's Landing. LA-April 12,57,60,Trans-Mississippi,LA020,Blair's Landing
-1864-04-17,Plymouth. NC - April 17-20,300,2900,Eastern,NC012,Plymouth
-1864-04-17,Poison Spring. AR - April 18,114,301,Trans-Mississippi,AR014,Poison Spring
+1864-04-10,"Blair's Landing, LA - April 12",57,60,Trans-Mississippi,LA020,Blair's Landing
+1864-04-17,"Plymouth, NC - April 17-20",300,2900,Eastern,NC012,Plymouth
+1864-04-17,"Poison Spring, AR - April 18",114,301,Trans-Mississippi,AR014,Poison Spring
 1864-04-17,"Monett's Ferry, LA - April 23",400,200,Trans-Mississippi,LA021,Monett's Ferry
-1864-04-24,Mark's Mills. AR - April 25,293,1500,Trans-Mississippi,AR015,Marks' Mills
+1864-04-24,"Mark's Mills, AR - April 25",293,1500,Trans-Mississippi,AR015,Marks' Mills
 1864-04-24,"Jenkin's Ferry, AR - April 30",1000,700,Trans-Mississippi,AR016,Jenkins' Ferry
 1864-05-01,"Albermarle Sound, NC - May 5",44,44,Eastern,NC013,Albemarle Sound
 1864-05-01,"Battle of the Wilderness, VA - May 5-6",11125,18000,Eastern,VA046,Wilderness
@@ -233,23 +233,23 @@ date,description,confederate,union,theater,cwsac_id,cwsac_battle_name
 1864-05-08,Swift Creek & Fort Clifton. VA May 9,495,495,Eastern,VA050,Swift Creek
 1864-05-08,"Chester Station, VA - May 9",284,285,Eastern,VA051,Chester Station
 1864-05-08,"Cloyd's Mountain, VA - May 9",538,688,Eastern,VA049,Cloyd's Mountain
-1864-05-08,Rocky Face Ridge. GA - May 7-13,600,837,Western,GA007,Rocky Face Ridge
-1864-05-08,Resaca. GA - May 13-15,2800,2747,Western,GA008,Resaca
+1864-05-08,"Rocky Face Ridge, GA - May 7-13",600,837,Western,GA007,Rocky Face Ridge
+1864-05-08,"Resaca, GA - May 13-15",2800,2747,Western,GA008,Resaca
 1864-05-08,"Cove Mountain, VA May 10",150,150,Eastern,VA109,Cove Mountain
 1864-05-08,"Yellow Tavern, VA - May 11",400,400,Eastern,VA052,Yellow Tavern
-1864-05-15,Proctor's Creek. VA - May 12-16,1000,3004,Eastern,VA053,Proctor's Creek
+1864-05-15,"Proctor's Creek, VA - May 12-16",1000,3004,Eastern,VA053,Proctor's Creek
 1864-05-15,"New Market, VA - May 15",520,841,Eastern,VA110,New Market
 1864-05-15,"Adairsville, GA- May 17",NA,200,Western,GA009,Adairsville
-1864-05-15,Yellow Bayou. 1 A - May 18,500,360,Trans-Mississippi,LA023,Yellow Bayou
+1864-05-15,"Yellow Bayou, LA - May 18",500,360,Trans-Mississippi,LA023,Yellow Bayou
 1864-05-15,"Spotsylvania C. H., VA - May 8-21",12451,18000,Eastern,VA048,Spotsylvania Court House
 1864-05-15,"Warre Bottom Church Hewlet, VA-May20",750,750,Eastern,VA054,Ware Bottom Church
 1864-05-22,"North Anna, VA May 23-26",1550,2623,Eastern,VA055,North Anna
 1864-05-22,"Wilson's Wharf, VA - May 24",140,26,Eastern,VA056,Wilson's Wharf
 1864-05-22,"New Hope Church, GA - May 25-26",350,665,Western,GA010,New Hope Church
-1864-05-22,Pickett's Mill. GA - May 27,450,1600,Western,GA012,Pickett's Mill
-1864-05-22,Dallas. GA - May 28,1250,380,Western,GA011,Dallas
-1864-05-22,Haw's Shop. VA May 28,400,344,Eastern,VA058,Haw's Shop
-1864-05-29,Totopotomoy Ck/Bcthesda.VA-May28-30,1591,731,Eastern,VA057,Totopotomoy Creek
+1864-05-22,"Pickett's Mill, GA - May 27",450,1600,Western,GA012,Pickett's Mill
+1864-05-22,"Dallas, GA - May 28",1250,380,Western,GA011,Dallas
+1864-05-22,"Haw's Shop, VA May 28",400,344,Eastern,VA058,Haw's Shop
+1864-05-29,"Totopotomoy Ck/Bcthesda, VA - May28-30",1591,731,Eastern,VA057,Totopotomoy Creek
 1864-05-29,"Matadequin Creek, VA - May 30",NA,90,Eastern,VA059,Old Church
 1864-05-29,"Cold Harbor, VA - May 31-June 12",5294,13000,Eastern,VA062,Cold Harbor
 1864-06-05,"Piedmont, VA - June 5",1600,875,Eastern,VA111,Piedmont
@@ -265,22 +265,22 @@ date,description,confederate,union,theater,cwsac_id,cwsac_battle_name
 1864-06-19,Samaria Church. VA - June 24,250,350,Eastern,VA066,Saint Mary's Church
 1864-06-19,"Staunton River Bridge, VA - June 25",75,75,Eastern,VA113,Staunton River Bridge
 1864-06-26,"Reams Station, VA - June 29",722,723,Eastern,VA068,Ream's Station
-1864-06-26,Kennesaw Mountain. GA-June 27,1000,3000,Western,GA015,Kennesaw Mountain
+1864-06-26,"Kennesaw Mountain, GA-June 27",1000,3000,Western,GA015,Kennesaw Mountain
 1864-07-03,"Monocacy, MD - July 9",800,1294,Eastern,MD007,Monocacy
 1864-07-10,"Fort Stevens, DC - July 11-12",500,373,Eastern,DC001,Fort Stevens
-1864-07-10,Tupelo. MS - July 14-15,1326,674,Western,MS015,Tupelo
-1864-07-17,Cool Spring. VA - July 17-18,397,422,Eastern,VA114,Cool Spring
+1864-07-10,"Tupelo, MS - July 14-15",1326,674,Western,MS015,Tupelo
+1864-07-17,"Cool Spring, VA - July 17-18",397,422,Eastern,VA114,Cool Spring
 1864-07-17,"Rutherford's Farm, VA - July 20",500,242,Eastern,VA115,Rutherford's Farm
 1864-07-17,"Peachtree Creek, GA - July 20",4796,1710,Western,GA016,Peachtree Creek
-1864-07-17,Atlanta. GA - July 22,8499,3641,Western,GA017,Atlanta
+1864-07-17,"Atlanta, GA - July 22",8499,3641,Western,GA017,Atlanta
 1864-07-24,"Second Kernstown, VA - July 24",600,1185,Eastern,VA116,"Kernstown, Second"
 1864-07-24,"First Deep Bottom, VA July 27 29",500,500,Eastern,VA069,Deep Bottom I
 1864-07-24,"Ezra Church, GA - July 28",4642,700,Western,GA018,Ezra Church
 1864-07-24,"Killdeer Mountain, ND - July 28-29",31,15,Trans-Mississippi,ND005,Killdeer Mountain
-1864-07-24,The Crater. VA - July 30,1491,3798,Eastern,VA070,Crater
-1864-07-31,Folck's Mill. MD - August 1,30,30,Eastern,MD008,Folck's Mill
+1864-07-24,"The Crater, VA - July 30",1491,3798,Eastern,VA070,Crater
+1864-07-31,"Folck's Mill, MD - August 1",30,30,Eastern,MD008,Folck's Mill
 1864-07-31,"Utoy Creek, GA - August 5-7",225,400,Western,GA019,Utoy Creek
-1864-08-07,"Morefield, W VA - August 7",500,31,Eastern,WV013,Moorefield
+1864-08-07,"Morefield, WVA - August 7",500,31,Eastern,WV013,Moorefield
 1864-08-14,"Guard Hill, VA - August 16",480,71,Eastern,VA117,Guard Hill
 1864-08-14,"Second Deep Bottom, VA - August 1 3-20",1300,2900,Eastern,VA071,Deep Bottom II
 1864-08-14,"Globe Tavern, VA - July 18-21",1600,4455,Eastern,VA072,Globe Tavern
@@ -290,14 +290,14 @@ date,description,confederate,union,theater,cwsac_id,cwsac_battle_name
 1864-08-21,"Mobile Bay, AI . - August 2-23",1500,327,Western,AL003,Mobile Bay
 1864-08-21,Reams Station 11. VA - August 25,814,2742,Eastern,VA073,Ream's Station
 1864-08-28,"Smithfield Crossing, WVA - Aug. 28-29",200,100,Eastern,WV015,Smithfield Crossing
-1864-08-28,"Jonesboro, GA August 31 September 1",2000,1149,Western,GA022,Jonesborough
-1864-08-28,Berryville. VA September 3 4,195,312,Eastern,VA118,Berryville
+1864-08-28,"Jonesboro, GA - August 31-September 1",2000,1149,Western,GA022,Jonesborough
+1864-08-28,"Berryville, VA - September 3-4",195,312,Eastern,VA118,Berryville
 1864-09-18,"Opequon (3rd Winchester), VA - Sept. 19",3610,5020,Eastern,VA119,Opequon
-1864-09-18,Fisher's Hill. VA - September 21 -22,1235,528,Eastern,VA120,Fisher's Hill
-1864-09-25,Pilot Knob. MO - September 26-28,900,213,Trans-Mississippi,MO021,Fort Davidson
-1864-09-25,Chaffin's Farm. VA - September 29-30,1700,3300,Eastern,VA075,"Chaffin's Farm/New Market
+1864-09-18,"Fisher's Hill, VA - September 21 -22",1235,528,Eastern,VA120,Fisher's Hill
+1864-09-25,"Pilot Knob, MO - September 26-28",900,213,Trans-Mississippi,MO021,Fort Davidson
+1864-09-25,"Chaffin's Farm, VA - September 29-30",1700,3300,Eastern,VA075,"Chaffin's Farm/New Market
 Heights"
-1864-09-25,New Market Heights. VA - Sept. 29-30,50,850,Eastern,VA075,"Chaffin's Farm/New Market
+1864-09-25,"New Market Heights, VA - Sept. 29-30",50,850,Eastern,VA075,"Chaffin's Farm/New Market
 Heights"
 1864-10-02,"Peebles' Farm, VA - October 2",1300,2869,Eastern,VA074,Peebles' Farm
 1864-10-02,"Saltville I, VA - October 2",108,350,Western,VA076,Saltville
@@ -357,13 +357,13 @@ Road"
 1865-04-02,"Cumberland Church, VA - April 7",NA,571,Eastern,VA094,Cumberland Church
 1865-04-02,"Appomattox Station, VA April 8",1000,48,Eastern,VA096,Appomattox Station
 1865-04-09,"Fort Blakely, AL - April 2-9",3700,775,Western,AL006,Fort Blakely
-1865-04-09,Appomattox Court House. VA - April 9,500,164,Eastern,VA097,Appomattox Court House
-1865-05-07,Jefferson Davis captured - May 10,,,,,
+1865-04-09,"Appomattox Court House, VA - April 9",500,164,Eastern,VA097,Appomattox Court House
+1865-05-07,"Jefferson Davis captured - May 10",,,,,
 1865-05-07,"Palmito Ranch, TX - May 12-13",118,30,Trans-Mississippi,TX005,Palmito Ranch
-1865-04-23,Johnston surrenders - April 26,,,,,
-1865-04-30,Taylor surrenders - May 4,,,,,
-1865-05-21,Buckner surrenders - May 26,,,,,
-1865-06-18,Stand Waite surrenders - June 23,,,,,
+1865-04-23,"Johnston surrenders - April 26",,,,,
+1865-04-30,"Taylor surrenders - May 4",,,,,
+1865-05-21,"Buckner surrenders - May 26",,,,,
+1865-06-18,"Stand Waite surrenders - June 23",,,,,
 1861-04-07,attrition,0,0,,,
 1861-04-14,attrition,0,0,,,
 1861-04-21,attrition,0,0,,,
