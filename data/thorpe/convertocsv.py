@@ -18,7 +18,6 @@ def parse_date(dct):
         date = "11/30/1864"
     elif date == "5/1863":
         date = "5/--/1863"
-    print(dct['date'])
     beginDate = dct['beginDate']
     m, d, y = date.split('/')
     if beginDate:
@@ -34,8 +33,8 @@ def parse_date(dct):
     elif len(d.split('-')) > 1:
         d0, d = d.split('-')
         
-    dct['beginDate'] = "%s-%s-%s" % (m0, d0, y0)
-    dct['endDate'] = "%s-%s-%s" % (m, d, y)
+    dct['beginDate'] = "%s-%s-%s" % (y0, m0, d0)
+    dct['endDate'] = "%s-%s-%s" % (y, m, d)
     dct['unknownDay'] = unknown_day
     del dct['date']
     
