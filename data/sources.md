@@ -1,14 +1,17 @@
-# Sources
+# Notes on Data Sources
 
-- Thomas L. Livermore, *Number and Losses in the Civil War in America 1861-65*, 1900, Houghton, Mifflin and Company, Boston. [Google books](https://books.google.com/books?id=jthCAAAAIAAJ).
-- Fredick Henry Dyer, *A compendium of the War of the Rebellion, Volume 1*, 1908, Dyer Publishing Company.
-- William F. Fox, *Regimental Losses In the American Civil War 1861-1865: A Treatise On the Extent and Nature of the Mortuary Losses in the Union Regiments. With Full and Exhaustive Statistics Compiled From The Official Records On File in The State Military Bureaus And At Washington*, Albany: Albany Publishing Company, 1889.
-- Phisterer
+Some notes on what is available in some of the major sources of Civil War data:
 
-# Dyer, Compendium of the War of the Rebellion
+- Thomas L. Livermore, *Number and Losses in the Civil War in America 1861-65*, 1900, Houghton, Mifflin and Company, Boston. [Google books](https://books.google.com/books?id=jthCAAAAIAAJ), [Internet Archive](https://archive.org/details/numberlossesinci00live)
+- Fredick Henry Dyer, *A compendium of the War of the Rebellion, Volume 1*, 1908, Dyer Publishing Company. [Google Books](https://books.google.com/books?id=OBkNAQAAMAAJ), [Internet Archive](https://archive.org/details/bub_gb_OBkNAQAAMAAJ).
+- William F. Fox, *Regimental Losses In the American Civil War 1861-1865: A Treatise On the Extent and Nature of the Mortuary Losses in the Union Regiments. With Full and Exhaustive Statistics Compiled From The Official Records On File in The State Military Bureaus And At Washington*, Albany: Albany Publishing Company, 1889. [Internet Archive](https://archive.org/details/bub_gb_OBkNAQAAMAAJ)
+- Phisterer, *Statistical record of the armies of the United States*, [Google Books](https://books.google.com/books?id=cVNHr_nnLlYC), [Interet Archive](https://archive.org/details/statisticalrecor00phisuoft)
+
+## Sources
+
+### Dyer, Compendium of the War of the Rebellion
 
 All data in Dyer is for Union forces only.
-
 
 - Tables
 
@@ -27,7 +30,8 @@ All data in Dyer is for Union forces only.
     - men kw
     - total kw
 
-- Alphabetical Index to commander of various military divisions, departments, armies, army corps, divisions, brigades, etc. p. 46--112
+- Alphabetical Index to commanders of various military divisions, departments, armies, army corps, divisions, brigades, etc. p. 46--112
+
     - name
     - brigade
     - division, district, etc.
@@ -40,14 +44,13 @@ All data in Dyer is for Union forces only.
 - Index of Military Engagements. p 582.
 - Regimental Hitories. P. 997.
 
-- [Google Books](https://books.google.com/books?id=OBkNAQAAMAAJ)
-- Perseus parsed versions
+Perseus has parsed several parts of it
 
-	- [Battles](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2001.05.0140)
-	- [Index of Commands](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2001.05.0143)
-	- [Regimental Histories](http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A2001.05.0146)
+- [Battles](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2001.05.0140)
+- [Index of Commands](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2001.05.0143)
+- [Regimental Histories](http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A2001.05.0146)
 
-# Phisterer
+### Phisterer
 
 All data is for the Union.
 
@@ -65,7 +68,7 @@ All data is for the Union.
 - General Officers of States who entered service with quotas of states on April 1861. p. 317.
 - Generals deceased while in service (102), p. 318.
 
-# Fox's Regimental Losses
+### Fox's Regimental Losses
 
 
 - Chapter 1: maximum killed in Union regiments. Various tables of regiments with the largest killed.
@@ -79,8 +82,8 @@ All data is for the Union.
 - Chapter 10: For 300 Regiments - losses for each regiment and company. It was disaggregated into deaths in battles. These were based on muster rolls.
 - Chapter 11: list of battles with the regiments sustaining the greatest losses in each
 - Chapter 12: List of regiments in Union Armies, with total number of deaths in each
-- Chaper 13: Aggregate deaths in Union armies by states, total enlistment by states. Percent of mil pop furnished, and percentages of loss. Strength of Union army at various dates. Casualties in the Navy.
-- Chapter 14: battles and losses for Union and Confederate
+- Chapter 13: Aggregate deaths in Union armies by states, total enlistment by states. Percent of mil pop furnished, and percentages of loss. Strength of Union army at various dates. Casualties in the Navy.
+- Chapter 14: Battles with the losses of Union and Confederate forces
 - Chapter 15: Confederate losses - strength of Confed armies; casualties in confed regiments. List of confed generals killed. Losses in the Confed navy.
 
     - Large regiment losses in a few battles
@@ -91,5 +94,25 @@ All data is for the Union.
 
 Sources:
 
-- Full text (no images): http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2001.05.0068
-- Cannot find a pdf with images
+Perseus has the full text: http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2001.05.0068
+
+## By Topic
+
+Almost all of these sources exclusively focus on the Union army.
+
+- List of generals and dates attaining ranks:
+
+    - Union: Phisterer, p. 247--316.
+
+- Lists of generals killed.
+
+    - Union: Fox, Ch. 4.; Phisterer
+	- Confederate: Fox, Ch 15.
+
+- Organization of the military
+
+    - Union:
+
+        - Dyer, Alphabetical Index of Commanders and their commands of brigades, division/district/etc, corps, army. There are no dates listed.
+		- Dyer, Index to Eastern and Western Departments and Armies. Has the composition all the way down to regiments and the commanders of each.
+		- Phisterer. Short overview of armies, departments, and corps.
