@@ -6,6 +6,7 @@ Some notes on what is available in some of the major sources of Civil War data:
 - Fredick Henry Dyer, *A compendium of the War of the Rebellion, Volume 1*, 1908, Dyer Publishing Company. [Google Books](https://books.google.com/books?id=OBkNAQAAMAAJ), [Internet Archive](https://archive.org/details/bub_gb_OBkNAQAAMAAJ).
 - William F. Fox, *Regimental Losses In the American Civil War 1861-1865: A Treatise On the Extent and Nature of the Mortuary Losses in the Union Regiments. With Full and Exhaustive Statistics Compiled From The Official Records On File in The State Military Bureaus And At Washington*, Albany: Albany Publishing Company, 1889. [Internet Archive](https://archive.org/details/bub_gb_OBkNAQAAMAAJ)
 - Phisterer, *Statistical record of the armies of the United States*, [Google Books](https://books.google.com/books?id=cVNHr_nnLlYC), [Interet Archive](https://archive.org/details/statisticalrecor00phisuoft)
+- Eicher
 
 ## Sources
 
@@ -96,13 +97,25 @@ Sources:
 
 Perseus has the full text: http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2001.05.0068
 
+### Eicher
+
+- Some miscellaneous data on the size of the armies at various point in time.
+- Biographies of high commanders (generals + ) p. 129.
+- High commanders' birthplaces. p. 616.
+- High commanders' places of internment. p. 660.
+- Union army generals and navy flag offices. Dates of rank, appointment, nomination, confirmation and termination. p. 702.
+- Confederate states army generals and navy flag officers. Dates of nomination, confirmation and termination. p. 787.
+- Command structure. Commanders and dates of command for armies and departments of both USA and CSA. p. 819.
+- Chronology of important events. p. 927.
+
 ## By Topic
 
 Almost all of these sources exclusively focus on the Union army.
 
 - List of generals and dates attaining ranks:
 
-    - Union: Phisterer, p. 247--316.
+    - Union: Phisterer, p. 247--316. Eicher.
+	- Confederate: Eicher.
 
 - Lists of generals killed.
 
@@ -116,3 +129,7 @@ Almost all of these sources exclusively focus on the Union army.
         - Dyer, Alphabetical Index of Commanders and their commands of brigades, division/district/etc, corps, army. There are no dates listed.
 		- Dyer, Index to Eastern and Western Departments and Armies. Has the composition all the way down to regiments and the commanders of each.
 		- Phisterer. Short overview of armies, departments, and corps.
+		- Eicher. Commanders and dates of commands of armies and departments.
+
+   - Confederate
+       - Eicher. Commanders and dates of commands of armies and departments.
