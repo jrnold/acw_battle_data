@@ -1,0 +1,268 @@
+--- 
+name: "american-civil-war-battle-data"
+title: "American Civil War Battles"
+version: "0.0.2"
+licenses: 
+  - id: odc-by
+    url: http://opendefinition.org/licenses/odc-by/
+maintainers: 
+  - name: "Jeffrey B. Arnold"
+    email: "jeffrey.arnold@gmail.com"
+    web: "http://jrnold.me"
+resources:
+  - path: data/battles.csv
+    schema:
+      fields:
+        - id: battle
+          type: string
+          description: "CWSAC battle identifier"
+        - id: start_date_1
+          type: date
+          description: "Battle start date (CWSAC I)"
+        - id: end_date_1
+          type: date
+          description: "Battle end date (CWSAC I)"
+        - id: outcome_cwsac1
+          type: string
+          description: "Outcome (CWSAC I)"
+        - id: significance
+          type: string
+          description: "Military significance (A-D) (CWSAC)"
+        - id: theater
+          type: string
+          description: "Theater (CWSAC definition)"
+        - id: campaign
+          type: string
+          description: "Campaign (CWSAC definition)"
+        - id: casualties_total_cwsac
+          type: number
+          description: "Casualties, Confederate + Union (CWSAC I)"
+        - id: casualties_US_cwsac
+          type: number
+          description: "Casualties, Union (CWSAC I)"
+        - id: casualties_CS_cwsac
+          type: number
+          description: "Casualties, Confederate (CWSAC I)"
+        - id: core_area
+          type: number
+          description: "Size of CWSAC core area"
+        - id: study_area
+          type: number
+          description: "Size of CWSAC study area"
+        - id: cwsac_name
+          type: string
+          description: "Battle name used in CWSAC"
+        - id: outcome_cwsac2
+          type: string
+          description: "Outcome from CWSAC II"
+        - id: start_date_2
+          type: date
+          description: "Start date from CWSAC II"
+        - id: end_date_2
+          type: date
+          description: "End date from CWSAC II"
+        - id: strength_CS_cwsac
+          type: number
+          description: "Number of Confederate personnel (CWSAC)"
+        - id: strength_US_cwsac
+          type: integer
+          description: "Number of Union personnel (CWSAC)"
+        - id: state
+          type: string
+          description: "Primary state in which the battle was fought"
+        - id: casualties_total_ken
+          type: numb
+          description: "Casualties, total (Kennedy 1998)"
+        - id: casualties_US_ken
+          type: number
+          description: "Casualties, Union (Kennedy 1998)"
+        - id: casualties_CS_ken
+          type: number
+          description: "Casualties, Confederate (Kennedy 1998)"
+        - id: strength_US_liv
+          type: integer
+          description: "Personnel engaged, Union (Livermore)"
+        - id: strength_CS_liv
+          type: integer
+          description: "Personnel engaged, Confederate (Livermore)"
+        - id: casualties_US_liv
+          type: integer
+          description: "Casualties (killed + wounded), Union (Livermore)"
+        - id: casualties_CS_liv
+          type: integer
+          description: "Casualties (killed + wounded), Confederate (Livermore)"
+        - id: outcome_liv
+          type: string
+          description: "Outcome, Union or Confederate victory (Livermore)"
+        - id: casualties_CS_phi
+          type: integer
+          description: "Casualties (killed + wounded + missing), Confederate (Phisterer)"
+        - id: casualties_US_phi
+          type: integer
+          description: "Casualties (killed + wounded + missing), Union (Phisterer)"
+        - id: outcome_bod
+          type: string
+          description: "Outcome (Union or Confederate victory) (Bodart)"
+        - id: casualties_CS_bod
+          type: number
+          description: "Casualties (killed + wounded + missing), Confederate (Bodart)"
+        - id: casualties_US_bod
+          type: integer
+          description: "Casualties (killed + wounded + missing), Union (Bodart)"
+        - id: strength_CS_bod
+          type: integer
+          description: "Personnel, Confederate (Bodart)"
+        - id: strength_US_bod
+          type: integer
+          description: "Personnel, Confederate (Bodart)"
+        - id: casualties_CS_fox
+          type: integer
+          description: "Casualties, Confederate (Fox)"
+        - id: casualties_US_fox
+          type: integer
+          description: "Casualties, Union (Fox)"
+        - id: outcome_fox
+          type: string
+          description: "Outcome (Fox)"
+        - id: casualties_US_cdb90
+          type: integer
+          description: "Casualties (killed + wounded + missing), Union (CDB90)"
+        - id: casualties_CS_cdb90
+          type: integer
+          description: "Casualties (killed + wounded + missing), Confederate (CDB90)"
+        - id: strength_US_cdb90
+          type: integer
+          description: "Personnel, Union (CDB90)"
+        - id: strength_CS_cdb90
+          type: integer
+          description: "Personnel, Confederate (CDB90)"
+        - id: attacker_cdb90
+          type: string
+          description: "Attacker (CDB90)"
+        - id: outcome_cdb90
+          type: string
+          description: "Outcome (CDB90)"
+        - id: naval_battle
+          type: boolean
+          description: "Naval battle (dbpedia.org)"
+        - id: siege
+          type: boolean
+          description: "Siege (dbpedia.org)"
+        - id: outcome_dbp
+          type: string
+          description: "Outcome (dbpedia.org)"
+        - id: dbpedia_uri
+          type: string
+          description: "dbpedia.org URI"
+        - id: strength_US_wiki
+          type: number
+          description: "Personnel, Union (Wikipedia)"
+        - id: strength_CS_wiki
+          type: number
+          description: "Personnel, Confederate (Wikipedia)"
+        - id: casualties_US_wiki
+          type: number
+          description: "Casualties, Union (Wikipedia)"
+        - id: casualties_CS_wiki
+          type: integer
+          description: "Casualties, Confederate (Wikipedia)"
+        - id: attacker
+          type: string
+          description: |
+            Attacker (Confederate or Union)
+
+            Coded by me based on CWSAC and wikipedia descriptions of the battles.
+            Used a tactical defintion of attacker; the first side which engaged.
+
+        - id: surrender
+          type: string
+          description: |
+            Surrender
+
+            Coded by me based on CWSAC and wikipedia descriptions of the battles.
+
+        - id: start_date
+          type: date
+          description: |
+            Start date
+
+            Calculated as ``min(start_date_1, start_date_2)``
+
+        - id: end_date
+          type: date
+          description: |
+            End date
+
+            Calculated as ``min(end_date_1, end_date_2)``
+
+        - id: battle_name
+          type: string
+          description: |
+            Battle name
+
+            Derived from the name used in the dbpedia URI.
+        - id: duration
+          type: number
+          description: |
+            Battle duration in days.
+
+            Calculated as ``start_date - end_date + 1``.
+        - id: mid_date
+          type: date
+          description: |
+            Mid date
+
+            Calculated as ``(start_date - end_date) / 2``.
+
+        - id: battle_num
+          type: integer
+          description: |
+            Battle number
+
+            Battle identifier; ordered by start_date and end_date.
+            E.g. Fort Sumter is 1.
+
+        - id: strength_US
+          type: number
+          description: |
+            Personnel (Union)
+
+            Estimated from the other strength variables.
+
+        - id: casualties_US
+          type: number
+          description: |
+            Casualties (Union)
+
+            Estimated from the other casualty variables.
+
+        - id: strength_CS
+          type: number
+          description: |
+            Personnel (Confederate)
+
+            Estimated from the other strength variables.
+
+        - id: casualties_CS
+          type: number
+          description: |
+            Casualties (Confederate)
+
+            Estimated from the other casualty variables.
+        - id: battle_name_short
+          type: string
+          description: |
+            Battle name (short version)
+        - id: outcome
+          type: string
+          description: |
+            Battle outcome
+
+            Primarily based off of ``outcome_cwsac_1`` with a few modifications
+            where it conflicts with outher outcome codings.
+        - id: lat
+          type: number
+          description: latitude
+        - id: long
+          type: number
+          description: longitude
