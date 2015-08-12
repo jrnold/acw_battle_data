@@ -2,7 +2,7 @@
 DB=nps_cwss.sqlite3
 DIR=csv
 SQLITE=sqlite3
-CSVSQL=csvsql
+#CSVSQL=csvsql
 
 if [ -e "$DB" ]
 then

@@ -1,6 +1,7 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Dump the NPS CWSS 
+Dump the NPS CWSS from MSSQL to csv files
 """
 
 import sqlalchemy as sa
@@ -8,6 +9,8 @@ import os
 from os import path
 import csv
 import re
+
+EXT = 'tsv'
 
 def colnames(table):
     return [c.name for c in table.columns]
@@ -35,7 +38,7 @@ def dump_to_csv(metadata, directory, header = True):
     for table in metadata.sorted_tables:
         tablename = table.name
         if (tablename == "focus"):
-            outfn = path.join(directory, '%s.csv' % tablename)
+            outfn = path.join(directory, '%s.%s' % (tablename, EXT))
             print("dumping %s to %s" % (tablename, outfn))
             dump_table(table, outfn, header = header)
      
