@@ -1,10 +1,14 @@
 # Livermore (1900) "Number and Losses in the Civil War in America, 1861-1865"
 
-Data from Thomas Leonard Livermore (1900) "Number and Losses in the
-Civil War in America, 1861-1865",
-http://books.google.com/books?id=Qw8pAAAAYAAJ .
+Data from
+
+> Thomas Leonard Livermore (1900) "Number and Losses in the Civil War in America, 1861-1865",
+> http://books.google.com/books?id=Qw8pAAAAYAAJ .
 
 ## Battle Results
+
+The `LIVRMORE` dataset in PAR includes data from Livermore, taken from the battle descriptions in the text (not Table A).
+Thuse the `LIVRMORE` data includes breakdown into killed, wounded, and missing, as well as the victor of the battle.
 
 Tables `liv_battles` and `liv_forces$` combine data from several
 tables in Livermore: "Assaults on Fortified Lines" on p. 75, the
@@ -18,14 +22,6 @@ Livermore was concerned with determining the actual number of troops
 engaged in battle, i.e. those that actually participated.  The
 majority of the book consists of the calculations leading to the
 values of forces and casualties of each battle.
-
-Some notes on Table A
-
-- Values of "unknown" and "...." in the original, left blank in the above table.
-- `endDate` left blank if the battle lasted a single day.
-- Row 59 "Nashville", column `cs_hits` "unknown, but small".
-- Row 62 "Appomattox Camp", column `cs_hits` :"estimated at 6,266".
-- Row 37 "Wilderness",  column `us_force` : "101,895 (ex. cavalry)".
 
 When discussing the categorization of battles into victories and defeats, Livermore writes,
 
@@ -46,31 +42,13 @@ the total number of troops serving in the Confederate military.
 Livermore devotes p. 1-49 to developing the estimates of the size of
 Confederate Forces which are reported in this table.
 
-Several battles are campaigns:
-
-- Seven_Days'_Battles_1862-06-25 : http://en.wikipedia.org/wiki/Seven_Days%27_Battles
-- Appomattox_Camp_1865-03-29 : http://en.wikipedia.org/wiki/Appomattox_campaign
-- Atlanta_Campaign_1864-05-01 : http://dbpedia.org/resource/Atlanta_Campaign
-
 ## LIVRMORE data
-
-The `LIVRMORE` dataset in PAR includes data from Livermore, taken from the battle descriptions (not Table A).
 
 ## Files
 
-- `Assaults_on_Fortified_Lines.csv`: Data from table on pp. 75
-- `Confederate_Results.csv`: Data for confederate loss from table on p. 75--76.
-- `Union_Results.csv`: Data for union loss from table on pp. 75--76.
-- `liv_to_cwsac.csv`: Mapping battles in Table A to dbpedia.org URIs
-- `liv_to_dbpedia.csv`: Mapping battles in Table A to
-- `misc.yaml`: miscellaneous.
-
-  - entries in Table A which are campaigns
-  - for campaigns, which entries in Table A map to the aggregate
-
-- `Table_A.csv`: Data on forces and casualties from Table A on pp. 140--141.
+- `liv_battles.csv`: Battle-level data.
+- `liv_forces.csv`: Force-level data.
+- `liv_to_cwsac.csv`: Mapping battles to CWSAC reference numbers.
+- `liv_to_dbpedia.csv`: Mapping battles to dbpedia.org URIS.
 - `liv_army_sizes.csv`: Comparison of number on rolls in Confederate and Union armies; table on p. 47.
-- `forces_and_casualties.csv` Force sizes and casualties from the text. These have a higher level of disaggregation than those reported in Table A, and can also differ due to typos in the original source.
-
-Note that the `LIVRMORE` dataset contained in the `PAR` database includes this data.
 
