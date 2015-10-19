@@ -1,5 +1,3 @@
-Some miscellaneous datasets coded by jrnold
-
 # navalbattles.csv
 
 List of battles in
