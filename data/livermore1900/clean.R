@@ -17,14 +17,18 @@ write_csv <- function(x, ...) {
 
 LIV_BATTLES_FILE <- "../../dependencies/PAR/data/LIVRMORE.csv"
 LIV_BATTLES_MISC <- "./misc.csv"
-livrmore <- read_csv(LIV_BATTLES_FILE)
+livrmore <- read_csv(LIV_BATTLES_FILE) %>%
+  mutate(belligerent = plyr::revalue(belligerent,
+                                     UNION = "Union",
+                                     CONFEDERATE = "Confederate"))
 battle_misc <- read_csv(LIV_BATTLES_MISC, na = "")
 
 liv_battles <-
   (livrmore
     %>% select(seq_no, battle_name, start_date, end_date, win_side)
     %>% arrange(seq_no)
-    %>% left_join(select(battle_misc, - battle_name, - win_side, - start_date, - end_date),
+    %>% left_join(select(battle_misc, - battle_name, - win_side, - start_date, - end_date,
+                         - commander_union, - commander_confederate),
                   by = "seq_no")
   )
 
