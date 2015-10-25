@@ -1,27 +1,28 @@
 cwsac_id,battle_name,all_naval,us_navy,cs_navy,us_fort,cs_fort,comments
-FL002,Tampa,1,1,0,,,1 gunboat bombarded Tampa. There was a small landing party.
-GA002,Fort McAllister I,1,1,0,,,Union navy flotilla vs. a fort
-LA001,Forts Jackson & St. Philip,1,1,1,,,Bombardment of the forts by ships
-NC013,Albermarle Sound,1,,,,,9 Union gunboats and 1 Confederate ram
-TN004,Memphis,1,,,,,7 Union ships vs. 8 Confederate ships
-TX001,Sabine Pass,1,,,,,3 Union ships bombarded a fort
-TX002,Galveston,1,,,,,Most of the fighting involved the bombardment of the town by ships.
-VA001,Sewell's point,1,,,,,Involved two Union gunboats and a battery
-VA002,Aquia Creek,1,,,,,Involved 3 gunboats and a battery
-VA008,Hampton Roads,1,,,,,It only involved ships: 4 Union warships (including the USS Monitor) vs. 1 Confederate warship (CSS Virginia)
-VA012,Drewry's Bluff,1,,,,,5 Union gunboats vs. a battery
-VA100,Cockpit Point,1,,,,,Involved 2 gunboats and a battery
-TX003,Galveston,0,,,,,"Involved 4 Confederate gunboats and blockading Union ships, but also involved 3 Union companies and Confederate land forces"
-NC002,Roanoke Island,0,,,,,"Involved major land forces: 7,500 Union, 3,000 Confederate. Union forces supported by gunboats. Confederates were in a fort."
-AR006,Arkansas Post,0,,,,,"involved major land forces: 1047 Union, 5500 Confederate. Union forces supported by Naval forces. Confederates were in a fort."
-NC014,Fort Fisher,0,,,,,Union naval forces bombarded the fort.
-NC015,Fort Fisher,0,,,,,Union naval forces bombarded the fort.
-NC001,Hatteras Inlet Batteries,0,,,,,Union naval forces bombarded the fort.
-NC010,Fort Anderson,0,,,,,
-NC003,New Berne,0,,,,,
-NC012,Plymouth,0,,,,,"Land forces; some Union ships, and a Confederate ram were involved."
-NC016,Wilmington,0,,,,,"Major land forces (Union 12000, Confederate 6600), Confederates were in a fort. Union forces supported by gunboats."
-MO012,New Madrid/Island No. 10,0,,,,,US forces supported by a naval flotilla
-AL003,Mobile Bay,1,,,,,"18 Union ships. Confederate forces are in 3 forts (Morgan, Gaines, Powell)"
-SC004,Charleston Harbor,1,,,,,9 Union warships vs. forts
-SC005,Fort Wagner,0,,,,,Ground assault on the Confederate fort. Supported by naval artillery
+AL003,Mobile Bay,1,1,0,0,1,"18 Union ships. Confederate forces are in 3 forts (Morgan, Gaines, Powell)"
+AR006,Arkansas Post,0,1,0,0,1,"involved major land forces: 1047 Union, 5500 Confederate. Union forces supported by Naval forces. Confederates were in a fort."
+FL002,Tampa,1,1,0,0,1,1 gunboat bombarded Tampa. There was a small landing party.
+GA002,Fort McAllister I,1,1,0,0,1,Union navy flotilla vs. a fort
+LA001,Forts Jackson & St. Philip,1,1,1,0,1,Bombardment of the forts by ships
+MO012,New Madrid/Island No. 10,0,1,1,0,1,US forces supported by a naval flotilla
+NC001,Hatteras Inlet Batteries,0,1,0,0,1,Union naval forces bombarded the fort.
+NC002,Roanoke Island,0,1,0,0,1,"Involved major land forces: 7,500 Union, 3,000 Confederate. Union forces supported by gunboats. Confederates were in a fort."
+NC003,New Berne,0,1,0,0,1,
+NC010,Fort Anderson,0,1,0,0,1,
+NC012,Plymouth,0,1,1,1,0,"Land forces; some Union ships, and a Confederate ram were involved."
+NC013,Albermarle Sound,1,1,1,0,0,9 Union gunboats and 1 Confederate ram
+NC014,Fort Fisher,0,1,1,0,1,Union naval forces bombarded the fort.
+NC015,Fort Fisher,0,1,1,0,1,Union naval forces bombarded the fort.
+NC016,Wilmington,0,1,0,0,1,"Major land forces (Union 12000, Confederate 6600), Confederates were in a fort. Union forces supported by gunboats."
+SC004,Charleston Harbor,1,1,1,0,1,9 Union warships vs. forts
+SC005,Fort Wagner,0,1,0,0,1,Ground assault on the Confederate fort. Supported by naval artillery
+TN004,Memphis,1,1,1,0,0,7 Union ships vs. 8 Confederate ships
+TX001,Sabine Pass,1,1,0,0,1,3 Union ships bombarded a fort
+TX002,Galveston,1,1,1,0,1,Most of the fighting involved the bombardment of the town by ships.
+TX003,Galveston,0,1,1,0,1,"Involved 4 Confederate gunboats and blockading Union ships, but also involved 3 Union companies and Confederate land forces"
+TX006,Sabine Pass II,0,1,0,0,1,4 gunboats and 7 transports loaded with troops [US]; Texan Davis Guards (44 men)Ê
+VA001,Sewell's point,1,1,0,0,1,Involved two Union gunboats and a battery
+VA002,Aquia Creek,1,1,0,0,1,Involved 3 gunboats and a battery
+VA008,Hampton Roads,1,1,1,0,0,It only involved ships: 4 Union warships (including the USS Monitor) vs. 1 Confederate warship (CSS Virginia)
+VA012,Drewry's Bluff,1,1,0,0,1,5 Union gunboats vs. a battery
+VA100,Cockpit Point,1,1,0,0,1,Involved 2 gunboats and a battery
