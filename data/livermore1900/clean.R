@@ -17,10 +17,13 @@ write_csv <- function(x, ...) {
 
 LIV_BATTLES_FILE <- "../../dependencies/PAR/data/LIVRMORE.csv"
 LIV_BATTLES_MISC <- "./misc.csv"
+
+BELLIGERENTS <- c(UNION = "Union",
+                  CONFEDERATE = "Confederate")
+
 livrmore <- read_csv(LIV_BATTLES_FILE) %>%
-  mutate(belligerent = plyr::revalue(belligerent,
-                                     UNION = "Union",
-                                     CONFEDERATE = "Confederate"))
+  mutate(attacker = plyr::revalue(attacker, BELLIGERENTS),
+         win_side = plyr::revalue(win_side, BELLIGERENTS))
 battle_misc <- read_csv(LIV_BATTLES_MISC, na = "")
 
 liv_battles <-
