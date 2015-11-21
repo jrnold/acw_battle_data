@@ -320,6 +320,8 @@ def parse_battle(alldata, src, campaigns, casualties, strengths, results):
         data[x] = daterange[x].strftime("%Y-%m-%d")
     if data['other_names'] == "None":
         data['other_names'] = None
+    else:
+        data['other_names'] = re.split(data['other_names'], ",\\s*")
     # states
     data['state'] = path.basename(src)[:2].upper()
     # uri
