@@ -321,7 +321,7 @@ def parse_battle(alldata, src, campaigns, casualties, strengths, results):
     if data['other_names'] == "None":
         data['other_names'] = None
     else:
-        data['other_names'] = re.split(data['other_names'], ",\\s*")
+        data['other_names'] = re.split(",\\s*", data['other_names'])
     # states
     data['state'] = path.basename(src)[:2].upper()
     # uri
