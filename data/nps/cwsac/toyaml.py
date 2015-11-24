@@ -7,6 +7,7 @@ Created on Tue Nov 24 00:42:38 2015
 import yaml
 import pandas
 import sys
+from os import path
 
 type_convert = {'int64': 'integer',
         'float64': 'number',
@@ -23,7 +24,12 @@ def make_metadata(src):
                'type': type_convert[data[x].dtype.name],
                 'format': 'default'}
                for x in list(data.columns.values)]
-    schema = {'fields': fields
+    schema = {'fields': fields,
+              'name': path.splitext(path.basename(src))[0],
+              'path': src,
+              'format': 'csv',
+              'mediatype': 'text/csv',
+              'description': ""
     }
     return schema
     

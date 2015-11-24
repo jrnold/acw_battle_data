@@ -1,3 +1,7 @@
+description: >-
+  Commander level data from the [CWSAC Battle Summaries](http://www.nps.gov/abpp/battles/tvii.htm).
+sources:
+  - "@cwsac"
 fields:
 - format: default
   name: battle
@@ -31,3 +35,7 @@ fields:
   name: suffix
   title: suffix
   type: string
+format: csv
+mediatype: text/csv
+name: cwsac_commanders
+path: cwsac_commanders.csv
