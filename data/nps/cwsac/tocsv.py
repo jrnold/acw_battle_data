@@ -10,25 +10,25 @@ def dict_subset(x, include = []):
 
 battle_fields = (#'cwsac_reference',
     'battle',
+    'url',
     'battle_name',
     'other_names',
-    'operation',
-    'assoc_battles',
-    'location',
+    'state',
+    'locations',
     'campaign',
     'start_date',
     'end_date',
+    'operation',
+    'assoc_battles',
+    'results_text',
+    'result',
     'forces_text',
     'strength',
     'casualties_text',
     'casualties',
     'description',
-    'state',
-    'results_text',
-    'result',
     'preservation',
-    'significance',
-    'url'
+    'significance'
 )
 
 # keys = set()
@@ -38,18 +38,21 @@ battle_fields = (#'cwsac_reference',
 # print(keys)
 
 def battle_csv(data, filename):
-    with open(filename, 'w') as f:
+    with open(filename, 'w', encoding = 'utf-8') as f:
         writer = csv.DictWriter(f, battle_fields)
         writer.writeheader()
         for battle, battle_data in sorted(data.items()):
             row = dict_subset(battle_data, battle_fields)
             row['operation'] = int(row['operation'])
+            if row['other_names']:
+              row['other_names'] = '; '.join(row['other_names'])
+            row['locations'] = '; '.join(x['place'] + ', ' + x['state']
+                                         for x in battle_data['location'])
             writer.writerow(row)
 
 belligerent_fields = [
  'battle',
  'belligerent',
-
  'description',
  'strength_min',
  'strength_max',
@@ -92,7 +95,7 @@ def forces_csv(data, filename):
                 writer.writerow(row)
 
 commanders_fields = (
-    'battle', 
+    'battle',
     'belligerent',
     'fullname',
     'rank',

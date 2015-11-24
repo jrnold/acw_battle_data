@@ -9,6 +9,7 @@ library("stringr")
 library("tidyr")
 library("stringr")
 library("magrittr")
+library("jsonlite")
 
 DIR_CWSAC <- "../cwsac"
 DIR_CWSAC2 <- "../cwsac2"
@@ -742,6 +743,6 @@ nps_forces %<>%
 #'
 write_csv(theaters, file.path(DIR_OUT, "nps_theaters.csv"))
 write_csv(campaigns, file.path(DIR_OUT, "nps_campaigns.csv"))
-write_csv(nps_battlelist, file.path(DIR_OUT, "nps_battles.csv"))
+write_csv(nps_battlelist, file.path(DIR_OUT, "nps_battlelist.csv"))
 write_csv(nps_battles, file.path(DIR_OUT, "nps_battles.csv"))
 write_csv(nps_forces, file.path(DIR_OUT, "nps_forces.csv"))
