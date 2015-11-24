@@ -228,13 +228,15 @@ def parse_html(src):
               'assoc_battles':
               'Battles Associated with the Operations:'}
 
+        
     battle = path.splitext(path.basename(src))[0].upper()
     if battle == 'AR010A':
         battle = 'AR010'
     data = {'battle': battle}
-    tree = html.parse(src)
+    parser = html.HTMLParser(encoding = 'cp1252')
+    tree = html.parse(src, parser)
     td = _get_battle_data_td(tree)
-    data['battle_name'] = _get_battle_title(td).replace('\u0092', "'")
+    data['battle_name'] = _get_battle_title(td).replace('\u2019', "'")
     data['url'] = '%s/%s' % (URL_BASE, path.basename(src))
     data['result'] = find_result(tree)
 
@@ -243,15 +245,16 @@ def parse_html(src):
         has_field = False
         text = x.text_content().strip()
         # Text cleaning
-        # replace non-breaking spaces
-        text = text.replace('\xa0', ' ')
-        # double quotes
-        text = text.replace('\x93', '"')
-        text = text.replace('\x94', '"')
+        # # replace non-breaking spaces
+        text = text.replace('\u00a0', ' ')
+        # # double quotes
+        text = text.replace('\u201c', '"')
+        text = text.replace('\u201d', '"')
         # apostraphes
-        text = text.replace('\u0092', "'")
-        # hyphen
-        text = text.replace('\x96', "-")
+        text = text.replace('\u2019', "'")
+        # en and em dashes to hyphen
+        text = text.replace('\u2013', "-")
+        text = text.replace('\u2014', "-")
         # replace internal returns and carriage returns
         text = re.sub(r'(\r|\n)', ' ', text)
         text = re.sub(r' +', ' ', text)
@@ -320,12 +323,33 @@ def parse_battle(alldata, src, campaigns, casualties, strengths, results):
         data[x] = daterange[x].strftime("%Y-%m-%d")
     if data['other_names'] == "None":
         data['other_names'] = None
+    else:
+        data['other_names'] = re.split(",\\s*", data['other_names'])
     # states
     data['state'] = path.basename(src)[:2].upper()
     # uri
     data['url'] = path.join(URL_BASE, path.basename(src))
     # operation
     data['operation'] = 'assoc_battles' in data
+    # location
+    if data['location'] == "Unknown":
+        data['location'] = []
+    else:
+        locations = []
+        location = data['location']
+        for states in re.split(r';\s*', location):
+            places_state = re.split(r',\s+', states)
+            if len(places_state) == 1:
+                places = places_state[0]
+                state = data['state']
+            else:
+                places, state = places_state
+                print(state)
+            for place in re.split(r'\s+and\s', places):
+                locations.append({'place': place,
+                                  'state': state})
+            
+        data['location'] = locations
     # results
     # data['result'] = results[data['results_text']]
     # Participants
@@ -431,5 +455,5 @@ def load(datadir):
 
 if __name__ == '__main__':
     datadir = "."
-    with open("cwsac.json", "w") as f:
+    with open("cwsac.json", "w", encoding = 'utf-8') as f:
         json.dump(load(datadir), f, indent=2)
