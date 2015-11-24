@@ -61,4 +61,4 @@ clean_forces <- function(file_clodfelter_forces, file_unit_sizes) {
 
 forces <- clean_forces("clodfelter_forces.csv", "../unit_sizes/unit_sizes.csv")
 write.csv(forces, "clodfelter_forces2.csv",
-          row.names = FALSE)
+          row.names = FALSE, na = "")
