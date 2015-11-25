@@ -1,7 +1,9 @@
 Number: 6
 Battle: Port Republic
-Date: 9 June 1862
-County: Rockingham, VA
+Start Date: 9 June 1862
+County:
+  - name: Rockingham
+    state: VA
 General Location: >-
   N. of rte. 659, S. of rte. 708, between
   South Fork Shenandoah and state rte. 340. Village of Port
@@ -9,7 +11,8 @@ General Location: >-
 Size of Study/Core Areas: 4,936/2,145 acres
 GIS Integrity of Study/Core Areas: 94/98 percent; Good/Good
 Field Assessment of Study Area Integrity: Good
-USGS Quadrants: Grottoes
+USGS Quadrants:
+  - Grottoes
 Campaign: "Jackson's Valley Campaign"
 Principal Commanders:
   C:

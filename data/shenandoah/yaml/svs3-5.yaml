@@ -1,13 +1,17 @@
 Number: 5
 Battle: Cross Keys
-Date: 8 June 1862
-County: Rockingham, VA
+Start Date: 8 June 1862
+County:
+  - name: Rockingham
+    state: VA
 General Location: >-
   South of rtes. 659 and 276, crossroads of Cross Keys, including the village of Port Republic
 Size of Study/Core Areas: 5,450/2,153 acres
 GIS Integrity of Study/Core Areas: 94/94 percent; Good/Good
 Field Assessment of Study Area Integrity: Good
-USGS Quadrants: Harrisonburg, Grottoes
+USGS Quadrants:
+  - Harrisonburg
+  - Grottoes
 Campaign: "Jackson's Valley Campaign"
 Principal Commanders:
   C: 

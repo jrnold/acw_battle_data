@@ -1,7 +1,13 @@
 Number: 15
 Battle: Cedar Creek
-Date: 19 October 1864
-County: Frederick, Warren, Shenandoah 
+Start Date: 19 October 1864
+County:
+  - name: Frederick
+    state: VA
+  - name: Warren
+    state: VA
+  - name: Shenandoah
+    state: VA
 General Location: >-
 
   Along US 11, Cedar Creek to Middletown; Belle Grove is a focal point. CS march began from Fisher's Hill
@@ -9,8 +15,11 @@ General Location: >-
 Size of Study/Core Areas: 15,607/6,252 acres
 GIS Integrity of Study/Core Areas: 89/89 percent; Good/Good
 Field Assessment of Study Area Integrity: Fair
-USGS Quadrants: >-
-  Tom's Brook, Strasburg, Mountain Falls, Middletown
+USGS Quadrants:
+  - "Tom's Brook"
+  - Strasburg
+  - Mountain Falls
+  - Middletown
 
 Campaign: "Sheridan's Valley Campaign"
 Principal Commanders:

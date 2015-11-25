@@ -1,7 +1,9 @@
 Number: 2.
 Battle: McDowell
-Date: 8 May 1862
-County: Highland, VA
+Start Date: 8 May 1862
+County:
+  - name: Highland
+    state: VA
 General Location: >-
 
   Rte. 250 east of McDowell, between Bull Pasture River and Sitlington's Hill.
@@ -9,7 +11,10 @@ General Location: >-
 Size of Study/Core Areas: 4,539/2,258 acres
 GIS Integrity of Study/Core Areas: 100/100 percent; Good/Good
 Field Assessment of Study Area Integrity: Good
-USGS Quadrants: McDowell, Monterey SE, West Augusta
+USGS Quadrants:
+  - McDowell
+  - Monterey SE
+  - West Augusta
 Campaign: "Jackson's Valley Campaign"
 Principal Commanders:
   C:

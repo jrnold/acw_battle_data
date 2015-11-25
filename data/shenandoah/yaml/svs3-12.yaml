@@ -1,7 +1,11 @@
 Number: 12
 Battle: Opequon or Third Winchester
-Date: 19 September 1864
-County: Frederick, VA and City of Winchester
+Start Date: 19 September 1864
+County:
+  - name: Frederick
+    state: VA
+  - name: City of Winchester
+    state: VA
 General Location: >-
 
   Area east of Winchester from I-81 along
@@ -12,7 +16,9 @@ General Location: >-
 Size of Study/Core Areas: 11,670/4,914 acres
 GIS Integrity of Study/Core Areas: 54/47 percent; Fair/Poor
 Field Assessment of Study Area Integrity: Poor
-USGS Quadrants: Winchester, Stephenson
+USGS Quadrants:
+  - Winchester
+  - Stephenson
 Campaign: "Sheridan's Valley Campaign"
 Principal Commanders:
   C: 

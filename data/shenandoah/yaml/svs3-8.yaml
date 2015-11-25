@@ -1,7 +1,9 @@
 Number: 8
 Battle: New Market
-Date: 15 May 1864
-County: Shenandoah, VA
+Start Date: 15 May 1864
+County:
+  - name: Shenandoah
+    state: VA
 General Location: >-
   Vicinity of town of New Market, near
   intersection of I-81 and rte. 211. Battle lines extended from
@@ -10,7 +12,8 @@ General Location: >-
 Size of Study/Core Areas: 5,611/2,261 acres
 GIS Integrity of Study/Core Areas: 74/67 percent; Fair/Fair
 Field Assessment of Study Area Integrity: Poor
-USGS Quadrants: New Market
+USGS Quadrants:
+  - New Market
 Campaign: Lynchburg Campaign (Sigel)
 Principal Commanders:
   C:

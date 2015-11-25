@@ -1,7 +1,9 @@
 Battle: "Fisher's Hill"
-Date: 21-22 September 1864
-
-County: Shenandoah, VA
+Start Date: 21 September 1864
+End Date: 22 September 1864
+County:
+  - name: Shenandoah
+    state: VA
 General Location: >-
 
   On heights north and south of rte. 601
@@ -11,9 +13,11 @@ General Location: >-
 Size of Study/Core Areas: 9,644/2,751 acres
 GIS Integrity of Study/Core Areas: 89/85 percent; Good/Good
 Field Assessment of Study Area Integrity: Fair
-USGS Quadrants: >-
-
-  Tom's Brook, Strasburg, Mountain Falls, Middletown
+USGS Quadrants:
+  - "Tom's Brook"
+  - Strasburg
+  - Mountain Falls
+  - Middletown
 
 Campaign: "Sheridan's Valley Campaign"
 Principal Commanders:

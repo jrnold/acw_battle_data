@@ -1,13 +1,18 @@
 Number: 9
 Battle: Piedmont
-Date: 5 June 1864
-County: Augusta, VA
+Start Date: 5 June 1864
+County:
+  - name: Augusta
+    state: VA
 General Location: >-
   Near village of Piedmont, crossing of rtes. 608 & 778; Piedmont is four miles east of the Valley pike, and seven miles southwest of Port Republic
 Size of Study/Core Areas: 9,340/2,693 acres
 GIS Integrity of Study/Core Areas: 97/98 percent; Good/Good
 Field Assessment of Study Area Integrity: Good
-USGS Quadrants: Grottoes, Crimora, Fort Defiance
+USGS Quadrants:
+  - Grottoes
+  - Crimora
+  - Fort Defiance
 Campaign: Lynchburg Campaign (Hunter)
 Principal Commanders:
   C:

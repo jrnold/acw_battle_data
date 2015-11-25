@@ -1,7 +1,9 @@
 Number: 14
 Battle: "Tom's Brook"
-Date: 9 October 1864
-County: Shenandoah, VA
+Start Date: 9 October 1864
+County:
+  - name: Shenandoah
+    state: VA
 General Location: >-
 
   Valley Pike (US11) at Tom's Brook and Jordon Run, I-81, Back Road (rte. 623) at Tom's Brook.
@@ -9,7 +11,9 @@ General Location: >-
 Size of Study/Core Areas: 6,644/2,018 acres
 GIS Integrity of Study/Core Areas: 83/83 percent; Good/Good
 Field Assessment of Study Area Integrity: Fair
-USGS Quadrants: "Tom's Brook, Woodstock"
+USGS Quadrants:
+  - "Tom's Brook"
+  - Woodstock
 Campaign: "Sheridan's Valley Campaign"
 Principal Commanders:
   C:

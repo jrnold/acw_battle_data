@@ -1,7 +1,12 @@
 Number: 7
 Battle: Second Winchester
-Date: 13-15 June 1863
-County: Frederick VA, and City of Winchester
+Start Date: 13 June 1863
+End Date: 15 June 1863
+County:
+  - name: Frederick
+    state: VA
+  - name: City of Winchester
+    state: VA
 General Location: >-
   Valley Pike (US 11 at Abrams Creek),
   Apple Pie Ridge and ``Louisiana Heights'' W of town, West Fort,
@@ -9,7 +14,9 @@ General Location: >-
 Size of Study/Core Areas: 22,274/3,113 acres
 GIS Integrity of Study/Core Areas: 48/52 percent; Poor/Fair
 Field Assessment of Study Area Integrity: Poor
-USGS Quadrants: Winchester, Stephenson
+USGS Quadrants:
+  - Winchester
+  - Stephenson
 Campaign: Gettysburg Campaign
 Principal Commanders:
   C: 

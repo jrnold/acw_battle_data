@@ -1,13 +1,18 @@
 Number: 4
 Battle: First Winchester
-Date: 25 May 1862
-County: Frederick, VA and City of Winchester
+Start Date: 25 May 1862
+County:
+  - name: Frederick
+    state: VA
+  - name: City of Winchester
+    state: VA
 General Location: >-
   US forces held heights S of town, including Bower's and Camp Hill; CS forces advanced N along US 11 and along rte. 522
 Size of Study/Core Areas: 4,041/1,393 acres
 GIS Integrity of Study/Core Areas: 28/22 percent; Poor/Lost
 Field Assessment of Study Area Integrity: Lost
-USGS Quadrants: Winchester
+USGS Quadrants:
+  - Winchester
 Campaign: "Jackson's Valley Campaign"
 Principal Commanders:
   C:

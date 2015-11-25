@@ -1,7 +1,9 @@
 Number: 3
 Battle: Front Royal
-Date: 23 May 1862
-County: Warren, VA
+Start Date: 23 May 1862
+County:
+  - name: Warren
+    state: VA
 General Location: >-
 
   Along US 340/522 from Limeton through Front Royal, Guard Hill, and Cedarville. Old Buckton Depot
@@ -9,7 +11,10 @@ General Location: >-
 Size of Study/Core Areas: 3,082/944 acres
 GIS Integrity of Study/Core Areas: 48/33 percent; Poor/Poor
 Field Assessment of Study Area Integrity: Poor
-USGS Quadrants: Bentonville, Front Royal, Strasburg
+USGS Quadrants:
+  - Bentonville
+  - Front Royal
+  - Strasburg
 Campaign: >-
   Jackson's Valley Campaign
 Principal Commanders:

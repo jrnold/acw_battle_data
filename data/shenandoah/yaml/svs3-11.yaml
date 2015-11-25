@@ -1,7 +1,11 @@
 Number: 11
 Battle: Second Kernstown
-Date: 24 July 1864
-County: Frederick, VA and City of Winchester
+Start Date: 24 July 1864
+County:
+  - name: Frederick
+    state: VA
+  - name: City of Winchester
+    state: VA
 General Location: >-
 
   US 11 (Valley Pike) and Hoge Run; Old Opequon Church is approximate center of the field; Pritchard's Hill.
@@ -9,7 +13,9 @@ General Location: >-
 "Size of Study/Core Areas": 5,861/2,203 acres
 "GIS Integrity of Study/Core Areas": 50/52 percent; Poor/Fair
 "Field Assessment of Study Area Integrity": Poor
-"USGS Quadrants": Winchester, Stephens City
+"USGS Quadrants":
+  - Winchester
+  - Stephens City
 "Campaign": "Early's Maryland Campaign"
 "Principal Commanders":
   C:

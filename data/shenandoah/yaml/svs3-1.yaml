@@ -1,12 +1,18 @@
 Number: 1
-Battle: FIRST KERNSTOWN
-Date: 23 March 1862
-County: Frederick, VA and City of Winchester.
+Battle: First Kernstown
+Start Date: 23 March 1862
+County:
+  - name: Frederick
+    state: VA
+  - name: City of Winchester
+    state: VA
 "General Location": West of US 11 (Valley Pike) and N. of Hoge Run; Rte. 37 (4-lane bypass) bisects the area of heaviest fighting along Sand Ridge.
 "Size of Study/Core Areas": 4,029/1,554 acres
 "GIS Integrity of Study/Core Areas": 56/71 percent; Fair/Fair
 "Field Assessment of Study Area Integrity": Fair
-"USGS Quadrants": Winchester, Stephens City
+"USGS Quadrants":
+  - Winchester
+  - Stephens City
 "Campaign": "Jackson's Valley Campaign"
 "Principal Commanders":
   C: Maj. Gen. <A Thomas Jackson
@@ -38,7 +44,7 @@ Significance: >-
   redeployment of Federal troops, First Kernstown is considered one
   of the decisive engagements of 1862.
 
-"Description of the Battle": 
+"Description of the Battle": >-
 
   Prelude: Acting on faulty intelligence that suggested that
   his small army outnumbered the Federal forces at Winchester, Maj.
