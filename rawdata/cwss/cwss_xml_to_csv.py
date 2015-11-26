@@ -200,6 +200,8 @@ def people_csv(root, dst):
                         last_name = re.split(r",\s+", last_name)
                         if len(last_name) > 1:
                             row["LastName"], row["Suffix"] = last_name
+                            if row["Suffix"] == "Jr":
+                                row["Suffix"] = "Jr."
                         else:
                             row["LastName"] = last_name[0]
                             row["Suffix"] = ""
