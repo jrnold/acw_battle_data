@@ -9,7 +9,16 @@
   "forces_text": "46th Indiana and Union Gunboat [US]; fifty men and C.S. boats [CS]",
   "belligerents": {
     "CS": {
-      "commanders": [],
+        "commanders": [
+            {
+                "navy": true,
+                "fullname": "Joseph Fry",
+                "first_name": "Joseph",
+                "last_name": "Fry",
+                "middle_name": null,
+                "suffix": null,
+                "rank": "Captain (Navy)"
+            }],
       "description": "fifty men and C.S. boats",
       "strength_max": 50,
       "strength_min": 50,

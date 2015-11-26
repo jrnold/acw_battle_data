@@ -9,7 +9,17 @@
   "forces_text": "XIII and XVI Corps [US]; Fort Blakely Garrison [CS]",
   "belligerents": {
     "CS": {
-      "commanders": [],
+        "commanders": [
+            {
+                "navy": false,
+                "fullname": "John R. Liddell",
+                "last_name": "Liddell",
+                "first_name": "John",
+                "middle_name": "R.",
+                "suffix": "",
+                "rank": "Major General"
+            }
+        ],
       "description": "Fort Blakely Garrison",
       "casualties": 3677
     },
@@ -18,11 +28,11 @@
         {
           "navy": false,
           "last_name": "Canby",
-          "middle_name": "",
+          "middle_name": "R. S.",
           "rank": "Major General",
           "suffix": "",
-          "fullname": "E.R.S. Canby",
-          "first_name": "E.R.S."
+          "fullname": "E. R. S. Canby",
+          "first_name": "E."
         }
       ],
       "description": "XIII and XVI Corps",

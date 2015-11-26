@@ -9,7 +9,17 @@
   "forces_text": "Santa Rosa Island Garrison (approx. 600 men) [US]; infantry and artillery detachments (approx. 1,200 men) [CS]",
   "belligerents": {
     "CS": {
-      "commanders": [],
+        "commanders": [
+            {
+                "navy": false,
+                "last_name": "Anderson",
+                "middle_name": "H.",
+                "rank": "Brigadier General",
+                "suffix": "",
+                "fullname": "Richard H. Anderson",
+                "first_name": "Richard"
+            }
+        ],
       "description": "infantry and artillery detachments (approx. 1,200 men)",
       "strength_max": 1200,
       "strength_min": 1200,

@@ -731,8 +731,7 @@ cwss_people <- read_csv(file.path(DIR_CWSS, "cwss_persons.csv"))
 
 cwss_commanders <-
   bind_rows(read_csv(file.path(DIR_CWSS, "cwss_commanders.csv")) %>%
-              filter(! BattlefieldCode %in% EXCLUDED_BATTLES) %>%
-              select(- rank),
+              filter(! BattlefieldCode %in% EXCLUDED_BATTLES),
              bind_rows(lapply(names(extra_data$commanders),
                     function(i) {
                       y <- bind_rows(lapply(names(extra_data[["commanders"]][[i]]),

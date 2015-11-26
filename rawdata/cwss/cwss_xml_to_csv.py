@@ -186,15 +186,25 @@ def forces_csv(root, dst):
                           })
                           
 def people_csv(root, dst):
-    fields = ("PersonID", "ID", "LastName", "FirstName", "MiddleName", "MiddleInitial", "Keywords", "Rank", "Bio", "BioSource", "NarrativeLink1", "NarrativeLink2")
+    fields = ("PersonID", "ID", "LastName", "Suffix", "FirstName", "MiddleName", "MiddleInitial", "Keywords", "Rank", "Bio", "BioSource", "NarrativeLink1", "NarrativeLink2")
     with open(dst, 'w') as f:
         writer = csv.DictWriter(f, fields)
         writer.writeheader()
         for i, entry in enumerate(root.findall('.//%s' % xmlns('entry'))):
             properties = entry.find('./%s/%s' % (xmlns('content'), xmlns('m:properties'))) 
-            row = {}        
+            row = {}
             for fld in fields:
-                row[fld] = properties.find(xmlns('d:%s' % fld)).text
+                if fld == "LastName":
+                    last_name = properties.find(xmlns('d:LastName')).text
+                    if last_name:
+                        last_name = re.split(r",\s+", last_name)
+                        if len(last_name) > 1:
+                            row["LastName"], row["Suffix"] = last_name
+                        else:
+                            row["LastName"] = last_name[0]
+                            row["Suffix"] = ""
+                elif fld != "Suffix":
+                    row[fld] = properties.find(xmlns('d:%s' % fld)).text
             writer.writerow(row)   
             
 def battleunitslink_csv(root, dst):
