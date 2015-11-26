@@ -18,16 +18,36 @@ USGS Quadrants:
 Campaign: >-
   Jackson's Valley Campaign
 Principal Commanders:
-  C: Maj. Gen. T. J. Jackson
-  U: Col. J. R. Kenly
+  C:
+    - rank: Maj. Gen.
+      first_name: T.
+      middle_name: J.
+      last_name: Jackson
+  U:
+    - rank: Col.
+      first_name: J.
+      middle_name: R.
+      last_name: Kenly
 Forces Engaged:
-  C: >-
-    Jackson's and Ewell's divisions and three regiments of cavalry, about 16,500, 48 guns; only about 3,000 were actively engaged at Front Royal
-  U: >-
-    Reinforced regiment under Col. J. R. Kenly, about 1,063 and two guns
+  C:
+    text: >-
+      Jackson's and Ewell's divisions and three regiments of cavalry, about 16,500, 48 guns; only about 3,000 were actively engaged at Front Royal
+    strength: 3000
+  U:
+    text: >-
+      Reinforced regiment under Col. J. R. Kenly, about 1,063 and two guns
+    strength: 1063
+
 Casualties:
-  C: 50 k/w/m
-  U: 904 (32k/122w/750 captured)
+  C:
+    text: 50 k/w/m
+    casualties: 50
+  U:
+    text: 904 (32k/122w/750 captured)
+    casualties: 904
+    killed: 32
+    wounded: 122
+    missing_captured: 750
   
 Significance: >-
 

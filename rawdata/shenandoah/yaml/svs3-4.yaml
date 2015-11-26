@@ -16,21 +16,40 @@ USGS Quadrants:
 Campaign: "Jackson's Valley Campaign"
 Principal Commanders:
   C:
-    - "Maj. Gen. T. J. ``Stonewall'' Jackson"
+    - rank: Maj. Gen.
+      first_name: T.
+      middle_name: J.
+      last_name: Jackson
   U:
-    - Maj. Gen. Nathaniel Banks
+    - rank: Maj. Gen.
+      first_name: Nathaniel
+      last_name: Banks
 Forces Engaged:
-  C: >-
-    Jackson's division of three brigades
-    (Winder, Campbell, Taliaferro) and Ewell's division of four
-    brigades (Taylor, Trimble, Elzey, Scott), three regiments of
-    cavalry, and 11 batteries (48 guns), about 16,000
-  U: >-
-    Banks's command of two brigades of infantry (Donelly, Gordon), two regiments of mixed cavalry, and three batteries (16 guns), about 6,500.
+  C:
+    text: >-
+      Jackson's division of three brigades
+      (Winder, Campbell, Taliaferro) and Ewell's division of four
+      brigades (Taylor, Trimble, Elzey, Scott), three regiments of
+      cavalry, and 11 batteries (48 guns), about 16,000
+    stength: 16000
+  U:
+    text: >-
+      Banks's command of two brigades of infantry (Donelly, Gordon), two regiments of mixed cavalry, and three batteries (16 guns), about 6,500.
+    strength: 6500
     
 Casualties:
-  C: 400 (68k/329w/3m)
-  U: 2,019 (62k/243w/1,714mc)
+  C:
+    text: 400 (68k/329w/3m)
+    casualties: 400
+    killed: 68
+    wounded: 329
+    missing_captured: 3
+  U:
+    text: 2,019 (62k/243w/1,714mc)
+    casualties: 2019
+    killed: 62
+    wounded: 243
+    missing_captured: 1714
   
 Significance: >-
 

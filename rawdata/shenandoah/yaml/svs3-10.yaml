@@ -19,25 +19,49 @@ County:
 "Campaign": "Early's Maryland Campaign"
 "Principal Commanders":
   C:
-    - Lt. Gen. Jubal Early
-    - Maj. Gen. Robert E. Rodes
+    - rank: Lt. Gen.
+      first_name: Jubal
+      last_name: Early
+    - rank: Maj. Gen.
+      first_name: Robert
+      middle_name: E.
+      last_name: Rodes
   U:
-    - Maj. Gen. Horatio Wright
-    - Brig. Gen. George Crook
-    - Col. Joseph Thoburn.
+    - rank: Maj. Gen.
+      first_name: Horatio
+      last_name: Wright
+    - rank: Brig. Gen.
+      first_name: George
+      last_name: Crook
+    - rank: Col.
+      first_name: Joseph
+      last_name: Thoburn
 "Forces Engaged":
-  C: >-
-    Three infantry divisions under Gordon,
-    Wharton, and Rodes, about 8,000, and at least 3 batteries
-  U: >-
-
-    Three infantry brigades of Crook's Corps (about 3,250 men),
-    supported by batteries and a division of the VI Corps, about
-    5,000 engaged.
+  C:
+    text: >-
+      Three infantry divisions under Gordon,
+      Wharton, and Rodes, about 8,000, and at least 3 batteries
+    strength: 8000
+  U:
+    text: >-
+      Three infantry brigades of Crook's Corps (about 3,250 men),
+      supported by batteries and a division of the VI Corps, about
+      5,000 engaged.
+    strength: 5000
 
 "Casualties":
-  C: 397 (80k/300w/17m)
-  U: 422 (65k/301w/56m)
+  C:
+    text: 397 (80k/300w/17m)
+    casualties: 397
+    killed: 80
+    wounded: 300
+    missing_captured: 17
+  U:
+    text: 422 (65k/301w/56m)
+    casualties: 422
+    killed: 65
+    wounded: 301
+    missing_captured: 56
 
 Significance: >-
 

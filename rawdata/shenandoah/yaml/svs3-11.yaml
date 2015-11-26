@@ -19,21 +19,38 @@ General Location: >-
 "Campaign": "Early's Maryland Campaign"
 "Principal Commanders":
   C:
-    - Lt. Gen. Jubal Early
+    - rank: Lt. Gen.
+      first_name: Jubal
+      last_name: Early
   U:
-    - Brig. Gen. George Crook
+    - rank: Brig. Gen.
+      first_name: George
+      last_name: Crook
 Forces Engaged:
-  C: >-
-
-    Four infantry divisions (Gordon, Rodes, Ramseur, and Breckinridge/Wharton), four brigades of cavalry, and artillery, totalling about 13,000
+  C:
+    text: >-
+      Four infantry divisions (Gordon, Rodes, Ramseur, and Breckinridge/Wharton), four brigades of cavalry, and artillery, totalling about 13,000
+    strength: 13000
     
-  U: >-
+  U:
 
-    Three infantry divisions (Thoburn, Duval, and Mulligan), two cavalry divisions (Averell and Duffie), and three batteries of artillery, numbering about 10,000.
+    text: >-
+      Three infantry divisions (Thoburn, Duval, and Mulligan), two cavalry divisions (Averell and Duffie), and three batteries of artillery, numbering about 10,000.
+    strength: 10000
 
 Casualties:
-  C: unreported, est. 600 (100k/500w)
-  U: about 1,200 (120k/600w/480mc)
+  C:
+    text: unreported, est. 600 (100k/500w)
+    casualties: 600
+    killed: 100
+    wounded: 500
+    missing_captured: 0
+  U:
+    text: about 1,200 (120k/600w/480mc)
+    casualties: 1200
+    killed: 120
+    wounded: 600
+    missing_captured: 480
 
 Significance: >-
 

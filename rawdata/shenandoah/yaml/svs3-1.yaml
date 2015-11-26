@@ -15,20 +15,45 @@ County:
   - Stephens City
 "Campaign": "Jackson's Valley Campaign"
 "Principal Commanders":
-  C: Maj. Gen. <A Thomas Jackson
-  U: "Col. Nathan Kimball, commanding Brig. Gen. James Shields' division."
+  C:
+    - rank: Maj. Gen.
+      first_name: A.
+      middle_name: Thomas
+      last_name: Jackson
+  U:
+    - rank: Col.
+      first_name: Nathan
+      last_name: Kimball
+      note: "commanding Brig. Gen. James Shields' division."
 
 "Forces Engaged":
-  C: >-
+  C: 
 
-    Jackson's infantry division of three brigades (Garnett, Burks, and Fulkerson), 27 guns, and a cavalry contingent under Col. Turner Ashby; total strength did not exceed about 3,600-3,800, of which most were engaged
+    text: >-
+      Jackson's infantry division of three brigades (Garnett, Burks, and Fulkerson), 27 guns, and a cavalry contingent under Col. Turner Ashby; total strength did not exceed about 3,600-3,800, of which most were engaged
+    strength_min: 3600
+    strength_max: 3800
 
-  U: >-
-    One infantry division of three brigades (Kimball, Sullivan, and Tyler), 24 guns, and 16 companies of cavalry underBroadhead; total force between 8,500 and 9,000, three-fourths of which were brought into action.
+  U: 
+    text: >-
+      One infantry division of three brigades (Kimball, Sullivan, and Tyler), 24 guns, and 16 companies of cavalry underBroadhead; total force between 8,500 and 9,000, three-fourths of which were brought into action.
+    strength_min: 8500
+    strength_max: 9500
+
 
 Casualties:
-  C: 718 (80k/375w/263mc)
-  U: 590 (118k/450w/22mc)
+  C:
+    text: 718 (80k/375w/263mc)
+    casualties: 718
+    killed: 80
+    wounded: 375
+    missing_captured: 263
+  U:
+    text: 590 (118k/450w/22mc)
+    casualties: 590
+    killed: 118
+    wounded: 450
+    missing_captured: 22
 
 Significance: >-
   This battle is considered by many historians

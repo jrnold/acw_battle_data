@@ -16,20 +16,38 @@ USGS Quadrants:
 Campaign: "Jackson's Valley Campaign"
 Principal Commanders:
   C:
-    - "Maj. Gen. T. J. ``Stonewall'' Jackson"
+    - rank: Maj. Gen.
+      first_name: T.
+      middle_name: J.
+      last_name: Jackson
   U:
-    - Brig. Gen. E. B. Tyler
+    - rank: Brig. Gen.
+      first_name: E.
+      middle_name: B.
+      last_name: Tyler
 Forces Engaged:
-  C: >-
-    Jackson's and Ewell's divisions, about 6,000 engaged
-  U: >-
-    Two brigades of Shields's division (Tyler and Carroll), about 3,500 
+  C: 
+    text: "Jackson's and Ewell's divisions, about 6,000 engaged"
+    strength: 6000
+  U:
+    text: "Two brigades of Shields's division (Tyler and Carroll), about 3,500"
+    strength: 3500
 Casualties:
-  C: 816 (88k/535w/34m)
-  U: 1,002 (67k/361w/574mc)
+  C:
+    text: 816 (88k/535w/34m)
+    casualties: 816
+    killed: 88
+    wounded: 535
+    missing_captured: 34
+  U:
+    text: 1,002 (67k/361w/574mc)
+    casualties: 1002
+    killed: 67
+    wounded: 361
+    missing_captured: 574
 
 Significance: >-
-     The battles of Cross Keys and Port Republic
+   The battles of Cross Keys and Port Republic
    were the culmination of ``Stonewall'' Jackson's Valley Campaign
    in which Jackson maneuvered to defeat superior Union forces by
    surprise, swift marching, and concentration of force.  In May and

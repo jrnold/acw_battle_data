@@ -15,24 +15,49 @@ USGS Quadrants:
 Campaign: "Jackson's Valley Campaign"
 Principal Commanders:
   C: 
-    - Maj. Gen. Thomas J. Jackson,
-    - Brig. Gen. Richard Ewell
-    - Brig. Gen. Isaac Trimble
+    - rank: Maj. Gen.
+      first_name: Thomas
+      middle_name: J.
+      last_name: Jackson
+    - rank: Brig. Gen.
+      first_name: Richard
+      last_name: Ewell
+    - rank: Brig. Gen.
+      first_name: Isaac
+      last_name: Trimble
   U: 
-    - Maj. Gen. John C. Fremont
+    - rank: Maj. Gen.
+      first_name: John
+      middle_name: C.
+      last_name: Fremont
 Forces Engaged: 
-  C: >-
-    Three of four brigades of Ewell's
-    division (Trimble, Elzey, Steuart) and Patton's brigade, about
-    8,500 engaged
-  U: >-
-    Blenker's infantry division (three brigades),
-    three attached brigades (Cluseret, Milroy, Schenck), Bayard's
-    cavalry, and nine batteries, about 11,500 men 
+  C:
+    text: >-
+      Three of four brigades of Ewell's
+      division (Trimble, Elzey, Steuart) and Patton's brigade, about
+      8,500 engaged
+    strength: 8500
+    
+  U:
+    text: >-
+      Blenker's infantry division (three brigades),
+      three attached brigades (Cluseret, Milroy, Schenck), Bayard's
+      cavalry, and nine batteries, about 11,500 men
+    strength: 11500
 
 Total Casualties:
-  C: 287 (42k/230w/15m)
-  U: 664 (114k/443w/127m)
+  C:
+    text: 287 (42k/230w/15m)
+    casualties: 287
+    killed: 42
+    wounded: 230
+    missing_captured: 15
+  U:
+    text: 664 (114k/443w/127m)
+    casualties: 664
+    killed: 114
+    wounded: 443
+    missing_captuted: 127
   
 Significance: >-
 

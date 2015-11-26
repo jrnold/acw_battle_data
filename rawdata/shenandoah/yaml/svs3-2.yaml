@@ -18,17 +18,35 @@ USGS Quadrants:
 Campaign: "Jackson's Valley Campaign"
 Principal Commanders:
   C:
-    - Maj. Gen. T. J. Jackson
-    - Brig. Gen. Edward Johnson;
+    - rank: Maj. Gen.
+      first_name: T.
+      middle_name: J.
+      last_name: Jackson
+    - rank: Brig. Gen.
+      first_name: Edward
+      last_name: Johnson
   U:
-    - Brig. Gen. R. C. Schenck
-    - Brig. Gen. R. Milroy.
+    - rank: Brig. Gen.
+      first_name: R.
+      middle_name: C.
+      last_name: Schenck
+    - rank: Brig. Gen.
+      first_name: R.
+      last_name: Milroy
 Forces Engaged:
-  C: "Johnson's brigade (six regts.) and Taliaferro's (3 regts.), about 6,000 engaged."
-  U: "Two brigades (Milroy and Schenck), about 6,500.  Milroy attacked Sitlington's Hill with 2,250."
+  C:
+    text: "Johnson's brigade (six regts.) and Taliaferro's (3 regts.), about 6,000 engaged."
+    strength: 6000
+  U:
+    text: "Two brigades (Milroy and Schenck), about 6,500.  Milroy attacked Sitlington's Hill with 2,250."
+    strength: 6500
 Casualties:
-  C: about 500 k/w/m (12GA suffered about 175 k/w/m)
-  U: about 260 k/w/m.
+  C:
+    text: about 500 k/w/m (12GA suffered about 175 k/w/m)
+    casualties: 500
+  U:
+    text: about 260 k/w/m.
+    casualties: 360
 
 Significance: >-
 

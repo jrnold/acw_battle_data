@@ -22,21 +22,40 @@ USGS Quadrants:
 Campaign: "Sheridan's Valley Campaign"
 Principal Commanders:
   C: 
-    - Lt. Gen. Jubal A. Early
+    - rank: Lt. Gen.
+      first_name: Jubal
+      middle_name: A.
+      last_name: Early
   U: 
-    - Maj. Gen. Philip H. Sheridan
+    - rank: Maj. Gen.
+      first_name: Philip
+      middle_name: H.
+      last_name: Sheridan
 
 Forces Engaged:
-  C: >-
-    Four infantry divisions (Wharton, Gordon, Pegram, Ramseur), one cavalry division (Lomax), about
-    9,500
-  U: >-
-    Three infantry corps (Wright, Emory, Crook), Averell's
-    cavalry division, about 29,444.
+  C:
+    text: >-
+      Four infantry divisions (Wharton, Gordon, Pegram, Ramseur), one cavalry division (Lomax), about 9,500
+    strength: 9500
+  U:
+    text: >-
+      Three infantry corps (Wright, Emory, Crook), Averell's cavalry division, about 29,444.
+    strength: 29444
+    
 
 Casualties:
-  C: 1,235 (30k/210w/995m&c)
-  U: 528 (52k/457w/19m).
+  C:
+    text: 1,235 (30k/210w/995mc)
+    casualties: 1235
+    killed: 30
+    wounded: 210
+    missing_captured: 995
+  U:
+    text: 528 (52k/457w/19m)
+    casualties: 528
+    killed: 52
+    wounded: 457
+    missing_captured: 19
 
 Significance: >-
 

@@ -20,15 +20,35 @@ USGS Quadrants:
 Campaign: Gettysburg Campaign
 Principal Commanders:
   C: 
-    - Lt. Gen. Richard S. Ewell
+    - rank: Lt. Gen.
+      first_name: Richard
+      middle_name: S.
+      last_name: Ewell
   U: 
-    - Maj. Gen. Robert H. Milroy
+    - rank: Maj. Gen.
+      first_name: Robert
+      middle_name: H.
+      last_name: Milroy
 Forces Engaged:
-  C: Second Corps ANV, two divisions (Early and Johnson), about 12,500
-  U: Three infantry brigades (Elliott, Ely, McReynolds), numbering about 7,000
+  C:
+    text: Second Corps ANV, two divisions (Early and Johnson), about 12,500
+    strength: 12500
+  U:
+    text: Three infantry brigades (Elliott, Ely, McReynolds), numbering about 7,000
+    strength: 7000
 Casualties:
-  C: 269 (47k/219w/3m)
-  U: 4,443 (95k/373w/3,975m&c)
+  C:
+    text: 269 (47k/219w/3m)
+    casualties: 269
+    killed: 47
+    wounded: 219
+    missing_captured: 3
+  U:
+    text: 4,443 (95k/373w/3,975mc)
+    casualties: 4443
+    killed: 95
+    wounded: 373
+    missing_captured: 3975
   
 Significance: >-
 

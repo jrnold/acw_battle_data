@@ -16,17 +16,36 @@ USGS Quadrants:
 Campaign: Lynchburg Campaign (Hunter)
 Principal Commanders:
   C:
-    - "Brig. Gen. William E.``Grumble'' Jones"
+    - rank: Brig. Gen.
+      first_name: William
+      middle_name: E.
+      last_name: Jones
   U:
-    - Maj. Gen.David Hunter
+    - rank: Maj. Gen.
+      first_name: David
+      last_name: Hunter
 Forces Engaged:
-  C: >-
-    Two infantry brigades (Jones and Browne), home guards, and cavalry under Imboden and Vaughn, about 5,500
-  U: >-
-    Sullivan's division (two brigades under Moor and Thoburn), Stahel's cavalry division, and artillery under DuPont, about 8,500
+  C:
+    text: >-
+      Two infantry brigades (Jones and Browne), home guards, and cavalry under Imboden and Vaughn, about 5,500
+    strength: 5500
+  U:
+    text: >-
+      Sullivan's division (two brigades under Moor and Thoburn), Stahel's cavalry division, and artillery under DuPont, about 8,500
+    strenght: 8500
 Casualties:
-  C: about 1,500 (100k/500w/900mc)
-  U: 875 (150k/650w/75m)
+  C:
+    text: about 1,500 (100k/500w/900mc)
+    casualties: 1500
+    killed: 100
+    wounded: 500
+    missing_captured: 900
+  U:
+    text: 875 (150k/650w/75m)
+    casualties: 875
+    killed: 150
+    wounded: 650
+    missing_captured: 75
   
 Significance: >-
   

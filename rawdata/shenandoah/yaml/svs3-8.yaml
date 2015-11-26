@@ -17,16 +17,37 @@ USGS Quadrants:
 Campaign: Lynchburg Campaign (Sigel)
 Principal Commanders:
   C:
-    - Maj. Gen. John C. Breckinridge;
+    - rank: Maj. Gen.
+      first_name: John
+      middle_name: C.
+      last_name: Breckinridge
   U:
-    - Maj. Gen. Franz Sigel
+    - rank: Maj. Gen.
+      first_name: Franz
+      last_name: Sigel
 Forces Engaged:
-  C: >-
-    Two infantry brigades (Echols and Wharton), VMI cadet battalion, Imboden's cavalry brigade, and several batteries, totaling about 5,335, 4,087 of which were engaged
-  U: "One infantry division under Sullivan (two brigades: Moor and Thoburn), cavalry division under Stahel (two brigades: Tibbits and Wynkoop), and five batteries of artillery, totaling 8,940 of which 6,275 were engaged"
+  C:
+    text: >-
+      Two infantry brigades (Echols and Wharton), VMI cadet battalion, Imboden's cavalry brigade, and several batteries, totaling about 5,335, 4,087 of which were engaged"
+    strength: 5335
+  U:
+    text: >-
+      One infantry division under Sullivan (two brigades: Moor and Thoburn), cavalry division under Stahel (two brigades: Tibbits and Wynkoop), and five batteries of artillery, totaling 8,940 of which 6,275 were engaged
+    strength: 8940
+      
 Casualties:
-  C: 540 (50k/480w/10m)
-  U: 841 (96k/520w/225m)
+  C:
+    text: 540 (50k/480w/10m)
+    casualties: 540
+    killed: 50
+    wounded: 480
+    missing_captured: 10
+  U:
+    text: 841 (96k/520w/225m)
+    casualties: 841
+    killed: 96
+    wounded: 520
+    missing_captured: 225
   
 Significance: >-
 

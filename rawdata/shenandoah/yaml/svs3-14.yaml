@@ -17,17 +17,37 @@ USGS Quadrants:
 Campaign: "Sheridan's Valley Campaign"
 Principal Commanders:
   C:
-    - Maj. Gen. Thomas Rosser, Maj.
-    - Gen. Lunsford Lomax
+    - rank: Maj. Gen.
+      first_name: Thomas
+      last_name: Rosser
+    - rank: Maj. Gen.
+      first_name: Lunsford
+      last_name: Lomax
   U:
-    - Brig. Gen. Alfred Torbert
+    - rank: Brig. Gen.
+      first_name: Alfred
+      last_name: Torbert
     
 Forces Engaged:
-  C: Two cavalry divisions (Rosser and Lomax) about 3,500
-  U: Two cavalry divisions  (Wesley Merritt and  George A. Custer), about 6,300
+  C:
+    text: Two cavalry divisions (Rosser and Lomax) about 3,500
+    strength: 3500
+  U:
+    text: Two cavalry divisions  (Wesley Merritt and  George A. Custer), about 6,300
+    strength: 6300
 Casualties:
-  C: 350 (20k/50w/280m&c)
-  U: 57 (10k/47w)
+  C:
+    text: 350 (20k/50w/280mc)
+    casualties: 350
+    killed: 20
+    wounded: 50
+    missing_captured: 280
+  U:
+    text: 57 (10k/47w)
+    casualties: 57
+    killed: 10
+    wounded: 47
+    missing_captured: 0
 
 Significance: >-
 
