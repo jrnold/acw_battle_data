@@ -444,6 +444,7 @@ for (i in CWSAC_ONLY_BATTLES) {
 }
 
 #' Fill in campaigns and theaters,
+extra_battle_campaigns <- extra_data$campaigns
 for (i in names(extra_battle_campaigns)) {
   x <- extra_battle_campaigns[[i]]
   for (j in names(x)) {

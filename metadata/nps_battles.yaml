@@ -69,7 +69,7 @@ description: >-
   name: operation
   title: operation
   type: integer
-  description: "Is this battle an operation?"
+  description: "Is this battle an operation (collection of multiple battles)?"
 - format: default
   name: forces_text
   title: forces_text
