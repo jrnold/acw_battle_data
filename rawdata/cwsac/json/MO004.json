@@ -9,7 +9,26 @@
   "forces_text": "Army of the West [US]; Missouri State Guard and McCulloch's Brigade [CS]",
   "belligerents": {
     "CS": {
-      "commanders": [],
+        "commanders": [
+            {
+                "navy": false,
+                "last_name": "Price",
+                "middle_name": "",
+                "rank": "Major General",
+                "suffix": "",
+                "fullname": "Sterling Price",
+                "first_name": "Sterling"
+            },
+            {
+                "navy": false,
+                "last_name": "McCulloch",
+                "middle_name": "",
+                "rank": "Brigadier General",
+                "suffix": "",
+                "fullname": "Ben McCulloch",
+                "first_name": "Ben"
+            }
+        ],
       "description": "Missouri State Guard and McCulloch's Brigade",
       "casualties": 1095
     },

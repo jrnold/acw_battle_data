@@ -9,7 +9,17 @@
   "forces_text": "Detachments of 3rd Iowa Infantry, Home Guards, and artillery (approx. 600 men) [US]; 4th Division, Missouri State Guard [CS]",
   "belligerents": {
     "CS": {
-      "commanders": [],
+      "commanders": [
+        {
+            "navy": false,
+            "last_name": "Atchison",
+            "middle_name": "R.",
+            "rank": "General",
+            "suffix": "",
+            "fullname": "D. R. Atchison",
+            "first_name": "D."
+        }
+      ],
       "divisions": 1,
       "description": "4th Division, Missouri State Guard",
       "casualties": 70

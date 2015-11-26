@@ -132,7 +132,8 @@ def campaigns_csv(root, dst):
             writer.writerow(v) 
 
 def guid_clean(x):
-    return x.lower().replace("{", "").replace("}", "")
+    if x:
+        return re.search(r"{(.*)}", x).group(1).lower()
            
 def commander_csv(root, dst):
     fields = ('BattlefieldCode', 'belligerent', 'commander_number', 'commander')
@@ -144,23 +145,88 @@ def commander_csv(root, dst):
             battlecode = properties.find(xmlns("d:BattlefieldCode")).text.strip().upper()
             enemy = properties.find(xmlns("d:EnemyName")).text
             # NC002 battle code is empty
-            if battlecode == "NC002":
+            if battlecode in ("NC002", "MO026"):
                 enemy = "Confederate"
+            if battlecode in ("MN002"):
+                enemy = "Native American"
             for i, ordinal in enumerate(("First", "Second", "Third")):
                 if properties.find(xmlns("d:%sEnemyCommander" % ordinal)).text is not None:
-                    if re.search("\\S", properties.find(xmlns("d:%sEnemyCommander" % ordinal)).text):
+                    if re.search("\\S", properties.find(xmlns("d:%sEnemyCommander" % ordinal)).text) and battlecode not in ("VA068", "VA095"):
                         writer.writerow({'BattlefieldCode' : battlecode.upper(),
                                          'belligerent' : enemy,
                                          'commander_number' : i + 1,
                                          'commander' : guid_clean(properties.find(xmlns("d:%sEnemyCommander" % ordinal)).text)
                                          })
                 if properties.find(xmlns("d:%sUSCommander" % ordinal)).text is not None:
-                    if re.search("\\S", properties.find(xmlns("d:%sUSCommander" % ordinal)).text):
-                        writer.writerow({'BattlefieldCode' : battlecode.upper(),
-                                         'belligerent' : "US",
-                                         'commander_number' : i + 1,  
-                                         'commander' : guid_clean(properties.find(xmlns("d:%sUSCommander" % ordinal)).text)
-                                         })
+                    if (battlecode == "MO026" and ordinal == "Second"):
+                        # Fix Alfred Pleasonton for MO026
+                        writer.writerow({'BattlefieldCode': "MO026",
+                                         "belligerent": "US",
+                                         "commander_number": 2,
+                                         "commander": "90849b39-6f3a-4d88-af29-ddded5d1733a"})
+                    else:
+                        if re.search("\\S", properties.find(xmlns("d:%sUSCommander" % ordinal)).text) and battlecode not in ("VA068", "VA095", "SC009"):
+                            writer.writerow({'BattlefieldCode' : battlecode.upper(),
+                                             'belligerent' : "US",
+                                             'commander_number' : i + 1,  
+                                             'commander' : guid_clean(properties.find(xmlns("d:%sUSCommander" % ordinal)).text)
+                            })
+        # Fix commanders for VA068
+        writer.writerow({"BattlefieldCode": "VA068",
+                         "belligerent": "Confederate",
+                         "commander_number": 1,
+                         "commander": "9e1353da-e14e-4a33-9169-19b95b173cd1"})
+        writer.writerow({"BattlefieldCode": "VA068",
+                         "belligerent": "Confederate",
+                         "commander_number": 2,
+                         "commander": "67a922f1-6dc9-4ba8-89aa-e33f842197e2"})
+        # James Wilson
+        writer.writerow({"BattlefieldCode": "VA068",
+                         "belligerent": "US",
+                         "commander_number": 1,
+                         "commander": "460c9e8f-625e-490f-8eda-7385907b8d3f"})
+        # August Kautz
+        writer.writerow({"BattlefieldCode": "VA068",
+                         "belligerent": "US",
+                         "commander_number": 2,
+                         "commander": "cb8dc6d1-211d-4278-875a-5f479f65d85b"})
+        # Add Mahone for VA072
+        writer.writerow({"BattlefieldCode": "VA072",
+                         "belligerent": "Confederate",
+                         "commander_number": 4,
+                         "commander": "9e1353da-e14e-4a33-9169-19b95b173cd1"})
+        # Add Fitzhugh Lee for VA086
+        writer.writerow({"BattlefieldCode": "VA086",
+                         "belligerent": "Confederate",
+                         "commander_number": 2,
+                        "commander": "67a922f1-6dc9-4ba8-89aa-e33f842197e2"})
+        # Add Renshaw for TX003
+        writer.writerow({"BattlefieldCode": "TX003",
+                         "belligerent": "US",
+                         "commander_number": 2,
+                         "commander": "65815655-0c83-4511-9e7b-2ce4d0ca632c"})
+        # Fix commanders for VA095
+        # US: A. A. Humphreys
+        writer.writerow({"BattlefieldCode": "VA095",
+                         "belligerent": "US",
+                         "commander_number": 1,
+                         "commander": "0739970d-f176-49aa-958c-f26397e326bb"})
+        # CS: Thomas Rosser
+        writer.writerow({"BattlefieldCode": "VA095",
+                         "belligerent": "Confederate",
+                         "commander_number": 1,
+                         "commander": "0dca3f2d-e93f-4908-bda9-bb23f411857b"})
+        # CS: William Mahone
+        writer.writerow({"BattlefieldCode": "VA095",
+                         "belligerent": "Confederate",
+                         "commander_number": 2,
+                         "commander": "9e1353da-e14e-4a33-9169-19b95b173cd1"})
+        # Change US SC009 commander to Quincy Gilmore
+        writer.writerow({"BattlefieldCode": "SC009",
+                         "belligerent": "US",
+                         "commander_number": 1,
+                         "commander": "0da38dda-60e3-47f7-a3fa-4f8c10e1900d"})
+                        
                                         
 def forces_csv(root, dst):
     fields = ('BattlefieldCode', 'belligerent', 'TroopsEngaged', "Casualties")
@@ -172,8 +238,10 @@ def forces_csv(root, dst):
             battlecode = properties.find(xmlns("d:BattlefieldCode")).text
             enemy = properties.find(xmlns("d:EnemyName")).text
             # NC002 battle code is empty
-            if battlecode == "NC002":
+            if battlecode in ("NC002", "MO026"):
                 enemy = "Confederate"
+            if battlecode in ("MN002"):
+                enemy = "Native American"
             writer.writerow({'BattlefieldCode' : battlecode.upper(),
                              'belligerent' : enemy,
                              'TroopsEngaged': properties.find(xmlns("d:EnemyTroopsEngaged")).text,
@@ -207,6 +275,9 @@ def people_csv(root, dst):
                             row["Suffix"] = ""
                 elif fld != "Suffix":
                     row[fld] = properties.find(xmlns('d:%s' % fld)).text
+            if row["FirstName"] == "Stand Watie":
+                row["FirstName"] = "Stand"
+                row["LastName"] = "Watie"
             writer.writerow(row)   
             
 def battleunitslink_csv(root, dst):

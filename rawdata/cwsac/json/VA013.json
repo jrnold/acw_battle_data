@@ -9,7 +9,14 @@
   "forces_text": "Divisions",
   "belligerents": {
     "CS": {
-      "commanders": [],
+        "commanders": [{
+            "navy": false,
+            "last_name": "Branch",
+            "first_name": "Lawrence",
+            "middle_name": "O'B.",
+            "fullname": "Lawrence O'B. Branch",
+            "rank": "Brigadier General"
+        }],
       "divisions": 1,
       "casualties": 930
     },

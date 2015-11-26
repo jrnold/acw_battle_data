@@ -9,7 +9,15 @@
   "forces_text": "Brigade [US]; Missouri State Guard divisions [CS]",
   "belligerents": {
     "CS": {
-      "commanders": [],
+        "commanders": [{
+          "navy": false,
+          "last_name": "Jackson",
+          "middle_name": "",
+          "rank": "Governor",
+          "suffix": "",
+          "fullname": "Clairborne Jackson",
+          "first_name": "Clairborne"
+        }],
       "divisions": 1,
       "description": "Missouri State Guard divisions",
       "casualties": 200

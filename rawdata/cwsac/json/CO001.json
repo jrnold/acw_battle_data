@@ -9,7 +9,14 @@
   "forces_text": "Third Colorado Regiment (approx. 700 men) [US]; 500 Cheyennes and a few Arapahos [I]",
   "belligerents": {
     "I": {
-      "commanders": [],
+        "commanders": [{
+            "navy": false,
+            "last_name": "",
+            "first_name": "Black Kettle",
+            "middle_name": "",
+            "fullname": "",
+            "rank": ""
+        }],
       "description": "500 Cheyennes and a few Arapahos",
       "strength_max": 500,
       "strength_min": 500,

@@ -9,7 +9,14 @@
   "forces_text": "Wilder's Brigade [US]; Hill's Corps [CS]",
   "belligerents": {
     "CS": {
-      "commanders": [],
+        "commanders": [{
+            "navy": false,
+            "last_name": "Hill",
+            "first_name": "D.",
+            "middle_name": "H.",
+            "fullname": "D. H. Hill",
+            "rank": "Lieutenant General"
+        }],
       "description": "Hill's Corps",
       "corps": 1
     },

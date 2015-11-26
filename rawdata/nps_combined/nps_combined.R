@@ -4,7 +4,6 @@
 #' ---
 #'
 library("dplyr")
-library("readr")
 library("stringr")
 library("tidyr")
 library("stringr")
@@ -37,6 +36,13 @@ RESULTS <-
 #'
 #' # Utility Functions
 #'
+write_csv <- function(x, ...) {
+  write.csv(x, ..., na = "", row.names = FALSE)
+}
+
+read_csv <- function(x, ...) {
+  read.csv(x, ..., stringsAsFactors = FALSE)
+}
 
 psum <- function(...) {
   apply(cbind(...), 1, function(x) {
@@ -154,7 +160,9 @@ cwsac1_battles <-
 cwsac1_forces <-
   read.csv(file.path(DIR_CWSAC, "cwsac_forces.csv"),
            stringsAsFactors = FALSE) %>%
-  mutate(belligerent = plyr::revalue(belligerent, BELLIGERENTS))
+  mutate(belligerent = plyr::revalue(belligerent, BELLIGERENTS),
+         belligerent = ifelse(grepl("OK00[1-3]", battle) & belligerent == "US",
+                              "Native American", belligerent))
 
 #'
 #' ## CWSAC II
@@ -727,42 +735,46 @@ nps_forces %<>%
 #'
 #' # Commanders
 #'
-cwss_people <- read_csv(file.path(DIR_CWSS, "cwss_persons.csv"))
+cwss_people <-
+  bind_rows(read_csv(file.path(DIR_CWSS, "cwss_persons.csv")),
+            extra_data$people)
 
 cwss_commanders <-
   bind_rows(read_csv(file.path(DIR_CWSS, "cwss_commanders.csv")) %>%
-              filter(! BattlefieldCode %in% EXCLUDED_BATTLES),
-             bind_rows(lapply(names(extra_data$commanders),
-                    function(i) {
-                      y <- bind_rows(lapply(names(extra_data[["commanders"]][[i]]),
-                                            function(j) {
-                                              y <- extra_data[["commanders"]][[i]][[j]]
-                                              y[["belligerent"]] <- j
-                                              y
-                                            }))
-                      y[["BattlefieldCode"]] <- i
-                      y
-                    })) %>% select(- Name) %>% rename(commander = PersonID)) %>%
-    left_join(select(cwss_people, PersonID, LastName, FirstName, MiddleName,
-                     MiddleInitial),
-              by = c(commander = "PersonID")) %>%
-    mutate(cwss = TRUE) %>%
-    rename(first_name = FirstName,
-           middle_name = MiddleName,
-           middle_initial = MiddleInitial,
-           last_name = LastName,
-           battle = BattlefieldCode)
+              mutate(BattlefieldCode = plyr::revalue(BattlefieldCode,
+                                                     c("VA020B" = "VA020",
+                                                       "VA020A" = "VA020"))) %>%
+              rename(PersonID = commander),
+            extra_data$commanders %>%
+              select(- Name)) %>%
+  left_join(select(cwss_people, PersonID, LastName, FirstName, MiddleName,
+                   MiddleInitial),
+            by = c("PersonID")) %>%
+  mutate(cwss = TRUE,
+         belligerent = ifelse(grepl("OK00[1-3]", BattlefieldCode) &
+                                belligerent == "US",
+                              "Native American", belligerent)) %>%
+  rename(first_name = FirstName,
+         middle_name = MiddleName,
+         middle_initial = MiddleInitial,
+         last_name = LastName,
+         battle = BattlefieldCode)
 
 
 cwsac_commanders <-
   read.csv(file.path(DIR_CWSAC, "cwsac_commanders.csv"),
            stringsAsFactors = FALSE) %>%
   mutate(cwsac = TRUE,
-         belligerent = plyr::revalue(belligerent, BELLIGERENTS))
+         belligerent = plyr::revalue(belligerent, BELLIGERENTS),
+         belligerent = ifelse(grepl("OK00[1-3]", battle) & belligerent == "US",
+                              "Native American", belligerent)) %>%
+  filter(! battle %in% c("VA020A", "VA020B"),
+         belligerent != "Native American")
 
 nps_commanders <-
   full_join(cwss_commanders, cwsac_commanders,
              by = c("battle", "belligerent", "last_name")) %>%
+  filter(! battle %in% EXCLUDED_BATTLES) %>%
   mutate(cwsac = ifelse(is.na(cwsac), FALSE, cwsac),
          cwss = ifelse(is.na(cwss), FALSE, cwss),
          first_name = ifelse(! is.na(first_name.x), first_name.x, first_name.y),

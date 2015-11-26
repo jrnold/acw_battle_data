@@ -9,20 +9,48 @@
   "forces_text": "Divisions",
   "belligerents": {
     "CS": {
-      "commanders": [],
+        "commanders": [
+            {
+                "navy": false,
+                "last_name": "Rosser",
+                "first_name": "Thomas",
+                "middle_name": "",
+                "suffix": "",
+                "fullname": "Thomas Rosser",
+                "rank": "Major General"
+            },
+            {
+                "navy": false,
+                "last_name": "Mahone",
+                "first_name": "William",
+                "middle_name": "",
+                "suffix": "",
+                "fullname": "William Mahone",
+                "rank": "Major General"
+            }
+        ],
       "divisions": 1
     },
     "US": {
       "commanders": [
-        {
-          "navy": false,
-          "last_name": "Read",
-          "middle_name": "",
-          "rank": "Colonel",
-          "suffix": "",
-          "fullname": "T. Read",
-          "first_name": "T."
-        }
+          {
+              "navy": false,
+              "last_name": "Read",
+              "middle_name": "",
+              "rank": "Colonel",
+              "suffix": "",
+              "fullname": "T. Read",
+              "first_name": "T."
+          },
+          {
+              "navy": false,
+              "last_name": "Humphreys",
+              "middle_name": "A.",
+              "rank": "Major General",
+              "suffix": "",
+              "fullname": "A. A. Humphreys",
+              "first_name": "A."
+          }
       ],
       "divisions": 1
     }

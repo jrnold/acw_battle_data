@@ -9,7 +9,35 @@
   "forces_text": "Army in the Field [US]; Fort Donelson Garrison [CS]",
   "belligerents": {
     "CS": {
-      "commanders": [],
+        "commanders": [
+        {
+          "navy": false,
+            "last_name": "Floyd",
+            "middle_name": "B.",
+            "rank": "Brigadier General",
+            "suffix": "",
+            "fullname": "John B. Floyd",
+            "first_name": "John"
+        },
+        {
+          "navy": false,
+            "last_name": "Pillow",
+            "middle_name": "",
+            "rank": "Brigadier General",
+            "suffix": "",
+            "fullname": "Gideon Pillow",
+            "first_name": "Gideon"
+        },
+        {
+          "navy": false,
+            "last_name": "Buckner",
+            "middle_name": "B.",
+            "rank": "Brigadier General",
+            "suffix": "",
+            "fullname": "Simon B. Buckner",
+            "first_name": "Simon"
+        }
+        ],
       "description": "Fort Donelson Garrison",
       "casualties": 15067
     },

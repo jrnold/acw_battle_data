@@ -9,7 +9,15 @@
   "forces_text": "Expeditionary Force and Foster's, Reno's, and Parke's Brigades [US]; 5 regiments, militia [CS]",
   "belligerents": {
     "CS": {
-      "commanders": [],
+        "commanders": [{
+            "navy": false,
+            "last_name": "Branch",
+            "middle_name": "O'Bryan",
+            "rank": "Brigadier General",
+            "suffix": "",
+            "fullname": "Lawrence O'Bryan Branch",
+            "first_name": "Lawrence"
+        }],
       "regiments": 5,
       "description": "5 regiments, militia"
     },
