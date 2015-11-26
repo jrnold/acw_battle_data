@@ -135,7 +135,7 @@ def guid_clean(x):
     return x.lower().replace("{", "").replace("}", "")
            
 def commander_csv(root, dst):
-    fields = ('BattlefieldCode', 'belligerent', 'commander_number', 'commander', 'rank')
+    fields = ('BattlefieldCode', 'belligerent', 'commander_number', 'commander')
     with open(dst, 'w') as f:
         writer = csv.DictWriter(f, fields)
         writer.writeheader()
@@ -152,16 +152,14 @@ def commander_csv(root, dst):
                         writer.writerow({'BattlefieldCode' : battlecode.upper(),
                                          'belligerent' : enemy,
                                          'commander_number' : i + 1,
-                                         'commander' : guid_clean(properties.find(xmlns("d:%sEnemyCommander" % ordinal)).text),
-                                         'rank' : properties.find(xmlns("d:%sEnemyCommanderRank" % ordinal)).text
+                                         'commander' : guid_clean(properties.find(xmlns("d:%sEnemyCommander" % ordinal)).text)
                                          })
                 if properties.find(xmlns("d:%sUSCommander" % ordinal)).text is not None:
                     if re.search("\\S", properties.find(xmlns("d:%sUSCommander" % ordinal)).text):
                         writer.writerow({'BattlefieldCode' : battlecode.upper(),
                                          'belligerent' : "US",
                                          'commander_number' : i + 1,  
-                                         'commander' : guid_clean(properties.find(xmlns("d:%sUSCommander" % ordinal)).text),
-                                         'rank' : properties.find(xmlns("d:%sUSCommanderRank" % ordinal)).text
+                                         'commander' : guid_clean(properties.find(xmlns("d:%sUSCommander" % ordinal)).text)
                                          })
                                         
 def forces_csv(root, dst):
