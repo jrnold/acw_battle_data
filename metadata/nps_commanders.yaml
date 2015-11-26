@@ -1,0 +1,46 @@
+description: ''
+fields:
+- format: default
+  name: battle
+  title: battle
+  type: string
+- format: default
+  name: belligerent
+  title: belligerent
+  type: string
+- format: default
+  name: commander_number
+  title: commander_number
+  type: integer
+- format: default
+  name: PersonID
+  title: PersonID
+  type: string
+- format: default
+  name: last_name
+  title: last_name
+  type: string
+- format: default
+  name: first_name
+  title: first_name
+  type: string
+- format: default
+  name: middle_name
+  title: middle_name
+  type: string
+- format: default
+  name: middle_initial
+  title: middle_initial
+  type: string
+- format: default
+  name: rank
+  title: rank
+  type: string
+- format: default
+  name: navy
+  title: navy
+  type: number
+format: csv
+mediatype: text/csv
+name: nps_commanders
+path: rawdata/nps_combined/nps_commanders.csv

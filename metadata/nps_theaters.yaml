@@ -1,0 +1,14 @@
+description: ''
+fields:
+- format: default
+  name: TheaterCode
+  title: TheaterCode
+  type: string
+- format: default
+  name: TheaterName
+  title: TheaterName
+  type: string
+format: csv
+mediatype: text/csv
+name: nps_theaters
+path: rawdata/nps_combined/nps_theaters.csv
