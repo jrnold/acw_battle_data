@@ -1,0 +1,62 @@
+{
+  "dates": "October 23, 1864",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/mo027.htm",
+  "results_text": "Union victory",
+  "casualties_text": "3,000 total (US 1,500; CS 1,500)",
+  "description": "Maj. Gen. Sterling Price's Missouri Expedition had changed course from St. Louis and Jefferson City to Kansas City and Fort Leavenworth. As his army neared Kansas City, Maj. Gen. Samuel R. Curtis's Army of the Border blocked its way west, while Maj. Gen. Alfred Pleasonton's provisional cavalry division was closing on their rear. Price decided that he needed to deal with the two Union forces and decided to attack them one at a time. With Pleasonton still behind him, Price chose to strike Curtis at Westport first. Curtis had established strong defensive lines and during a four-hour battle, the Confederates hurled themselves at the Union forces but to no avail. The Rebels could not break the Union lines and retreated south. Westport was the decisive battle of Price's Missouri Expedition, and from this point on, the Rebels were in retreat.",
+  "start_date": "1864-10-23",
+  "forces_text": "Army of the Border [US]; Army of Missouri [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Price",
+          "middle_name": "",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "Sterling Price",
+          "first_name": "Sterling"
+        }
+      ],
+      "description": "Army of Missouri",
+      "armies": 1,
+      "casualties": 1500
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Curtis",
+          "middle_name": "R.",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "Samuel R. Curtis",
+          "first_name": "Samuel"
+        }
+      ],
+      "description": "Army of the Border",
+      "armies": 1,
+      "casualties": 1500
+    }
+  },
+  "campaign": "Price's Missouri Expedition [September-October 1864]",
+  "battle": "MO027",
+  "result": "Union",
+  "significance": "A",
+  "other_names": null,
+  "state": "MO",
+  "preservation": "IV.2",
+  "principal_commanders": "Maj. Gen. Samuel R. Curtis [US]; Maj. Gen. Sterling Price [CS]",
+  "end_date": "1864-10-23",
+  "cwsac_reference": "MO027",
+  "casualties": 3000,
+  "location": [
+    {
+      "place": "Jackson County",
+      "state": "MO"
+    }
+  ],
+  "battle_name": "Westport"
+}

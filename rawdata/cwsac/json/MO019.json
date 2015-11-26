@@ -1,0 +1,63 @@
+{
+  "dates": "January 9-11, 1863",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/mo019.htm",
+  "results_text": "Confederate victory",
+  "casualties_text": "407 total (US 78; CS 329)",
+  "description": "John S. Marmaduke led a Confederate raid into Missouri in early January 1863. This movement was two-pronged. Col. Joseph C. Porter led one column, comprising his Missouri Cavalry Brigade, out of Pocahontas, Arkansas, to assault Union posts around Hartville, Missouri. When he neared Hartville, on January 9, he sent a detachment forward to reconnoiter. It succeeded in capturing the small garrison and occupying the town. The same day, Porter moved on toward Marshfield. On the 10th, some of Porter's men raided other Union installations in the area before catching up with Marmaduke's column east of Marshfield. Marmaduke had received reports of Union troops approaching to surround him and prepared for a confrontation. Col. Samuel Merrill, commander of the approaching Union column, arrived in Hartville, discovered that the garrison had already surrendered and set out after the Confederates. A few minutes later, fighting began. Marmaduke feared being cut off from his retreat route back to Arkansas so he pushed Merrill's force back to Hartville, where it established a defense line. Here, a four-hour battle ensued in which the Confederates suffered many casualties but compelled the Yankees to retreat. Although they won the battle, the Confederates were forced to abandon the raid and return to friendly territory.",
+  "start_date": "1863-01-09",
+  "forces_text": "Detachment of infantry, cavalry, and artillery (approx. 700) [US]; 4th Division, I Corps, Trans-Mississippi Department [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Marmaduke",
+          "middle_name": "S.",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "John S. Marmaduke",
+          "first_name": "John"
+        }
+      ],
+      "divisions": 1,
+      "description": "4th Division, I Corps, Trans-Mississippi Department",
+      "casualties": 329
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Merrill",
+          "middle_name": "",
+          "rank": "Colonel",
+          "suffix": "",
+          "fullname": "Samuel Merrill",
+          "first_name": "Samuel"
+        }
+      ],
+      "description": "Detachment of infantry, cavalry, and artillery (approx. 700)",
+      "strength_max": 700,
+      "strength_min": 700,
+      "casualties": 78
+    }
+  },
+  "campaign": "Marmaduke's First Expedition into Missouri [January 1863]",
+  "battle": "MO019",
+  "result": "Confederate",
+  "significance": "D",
+  "other_names": null,
+  "state": "MO",
+  "preservation": "IV.1",
+  "principal_commanders": "Col. Samuel Merrill [US]; Brig. Gen. John S. Marmaduke [CS]",
+  "end_date": "1863-01-11",
+  "cwsac_reference": "MO019",
+  "casualties": 407,
+  "location": [
+    {
+      "place": "Wright County",
+      "state": "MO"
+    }
+  ],
+  "battle_name": "Hartville"
+}

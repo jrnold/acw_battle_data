@@ -1,0 +1,63 @@
+{
+  "dates": "February 20, 1864",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/fl005.htm",
+  "results_text": "Confederate victory",
+  "casualties_text": "2,806 total (US 1,860; CS 946)",
+  "description": "In February 1864, the commander of the Department of the South, Maj. Gen. Quincy A. Gillmore, launched an expedition into Florida to secure Union enclaves, sever Rebel supply routes, and recruit black soldiers. Brig. Gen. Truman Seymour moved deep into the state, occupying, destroying, and liberating, meeting little resistance on February 20, he approached Brig. Gen. Joseph Finegan's 5,000 Confederates entrenched near Olustee. One infantry brigade pushed out to meet Seymour's advance units. The Union forces attacked but were repulsed. The battle raged, and as Finegan committed the last of his reserves, the Union line broke and began to retreat. Finegan did not exploit the retreat, allowing most of the fleeing Union forces to reach Jacksonville.",
+  "start_date": "1864-02-20",
+  "forces_text": "Division [US]; District of East Florida [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Finegan",
+          "middle_name": "",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "Joseph Finegan",
+          "first_name": "Joseph"
+        }
+      ],
+      "description": "District of East Florida",
+      "casualties": 946
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Seymour",
+          "middle_name": "",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "Truman Seymour",
+          "first_name": "Truman"
+        }
+      ],
+      "divisions": 1,
+      "description": "Division",
+      "casualties": 1860
+    }
+  },
+  "campaign": "Florida Expedition [February 1864]",
+  "battle": "FL005",
+  "result": "Confederate",
+  "significance": "B",
+  "other_names": [
+    "Ocean Pond"
+  ],
+  "state": "FL",
+  "preservation": "III.2",
+  "principal_commanders": "Brig. Gen. Truman Seymour [US]; Brig. Gen. Joseph Finegan [CS]",
+  "end_date": "1864-02-20",
+  "cwsac_reference": "FL005",
+  "casualties": 2806,
+  "location": [
+    {
+      "place": "Baker County",
+      "state": "FL"
+    }
+  ],
+  "battle_name": "Olustee"
+}

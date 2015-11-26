@@ -1,0 +1,65 @@
+{
+  "dates": "June 8, 1862",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va105.htm",
+  "results_text": "Confederate victory",
+  "casualties_text": "951 total (US 664; CS 287)",
+  "description": "Moving up the Shenandoah Valley in pursuit of Jackson's army, Maj. Gen. John C. Fr\u00e9mont's army encountered Maj. Gen. Richard S. Ewell's division at Cross Keys on June 8. Brig. Gen. Julius Stahel's brigade, attacking on the Union left, was stunned by a surprise volley from Trimble's command and driven back in confusion. After feeling out other parts of the Confederate line, Fr\u00e9mont withdrew to the Keezletown Road under protection of his batteries. The next day, Trimble's and Patton's brigades held Fr\u00e9mont at bay, while the rest of Ewell's force crossed the river to assist in the defeat of Brig. Gen. E. Tyler's command at Port Republic.",
+  "start_date": "1862-06-08",
+  "forces_text": "17,300 total (US 11,500; CS 5,800)",
+  "strength": 17300,
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Ewell",
+          "middle_name": "S.",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "Richard S. Ewell",
+          "first_name": "Richard"
+        }
+      ],
+      "description": "5,800",
+      "strength_max": 5800,
+      "strength_min": 5800,
+      "casualties": 287
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Fr\u00e9mont",
+          "middle_name": "C.",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "John C. Fr\u00e9mont",
+          "first_name": "John"
+        }
+      ],
+      "description": "11,500",
+      "strength_max": 11500,
+      "strength_min": 11500,
+      "casualties": 664
+    }
+  },
+  "campaign": "Jackson's Valley Campaign [March-June 1862]",
+  "battle": "VA105",
+  "result": "Confederate",
+  "significance": "B",
+  "other_names": null,
+  "state": "VA",
+  "preservation": "II.2",
+  "principal_commanders": "Maj. Gen. John C. Fr\u00e9mont [US]; Maj. Gen. Richard S. Ewell [CS]",
+  "end_date": "1862-06-08",
+  "cwsac_reference": "VA105",
+  "casualties": 951,
+  "location": [
+    {
+      "place": "Rockingham County",
+      "state": "VA"
+    }
+  ],
+  "battle_name": "Cross Keys"
+}

@@ -1,0 +1,81 @@
+{
+  "dates": "September 14-17, 1862",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ky008.htm",
+  "results_text": "Confederate victory",
+  "casualties_text": "4,862 total (US 4,148; CS 714)",
+  "description": "In the 1862 Confederate offensive into Kentucky, Gen. Braxton Bragg's army left Chattanooga, Tennessee, in late August. Followed by Maj. Gen. Don Carlos Buell's Union Army, Bragg approached Munfordville, a station on the Louisville & Nashville Railroad and the location of the railroad bridge crossing Green River, in mid-September. Col. John T. Wilder commanded the Union garrison at Munfordville which consisted of three regiments with extensive fortifications. Wilder refused Brig. Gen. James R. Chalmers's demand to surrender on the 14th. Union forces repulsed Chalmers's attacks on the 14th, forcing the Rebels to conduct siege operations on the 15th and 16th. Late on the 16th, realizing that Buell's forces were near and not wanting to kill or injure innocent civilians, the Confederates communicated still another demand for surrender. Wilder entered enemy lines under a flag of truce, and Confederate Maj. Gen. Simon B. Buckner escorted him to view all the Rebel troops and to convince him of the futility of resisting. Impressed, Wilder surrendered. The formal ceremony occurred the next day on the 17th. With the railroad and the bridge, Munfordville was an important transportation center, and the Confederate control affected the movement of Union supplies and men.",
+  "start_date": "1862-09-14",
+  "forces_text": "Union garrison [US]; Army of the Mississippi [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Chalmers",
+          "middle_name": "R.",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "James R. Chalmers",
+          "first_name": "James"
+        },
+        {
+          "navy": false,
+          "last_name": "Bragg",
+          "middle_name": "",
+          "rank": "General",
+          "suffix": "",
+          "fullname": "Braxton Bragg",
+          "first_name": "Braxton"
+        }
+      ],
+      "description": "Army of the Mississippi",
+      "armies": 1,
+      "casualties": 714
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Dunham",
+          "middle_name": "L.",
+          "rank": "Colonel",
+          "suffix": "",
+          "fullname": "Cyrus L. Dunham",
+          "first_name": "Cyrus"
+        },
+        {
+          "navy": false,
+          "last_name": "Wilder",
+          "middle_name": "T.",
+          "rank": "Colonel",
+          "suffix": "",
+          "fullname": "John T. Wilder",
+          "first_name": "John"
+        }
+      ],
+      "description": "Union garrison",
+      "casualties": 4148
+    }
+  },
+  "campaign": "Confederate Heartland Offensive [June-October 1862]",
+  "battle": "KY008",
+  "result": "Confederate",
+  "significance": "B",
+  "other_names": [
+    "Green River Bridge"
+  ],
+  "state": "KY",
+  "preservation": "II.2",
+  "principal_commanders": "Col. Cyrus L. Dunham and Col. John T. Wilder [US]; Brig. Gen. James R. Chalmers and Gen. Braxton Bragg [CS]",
+  "end_date": "1862-09-17",
+  "cwsac_reference": "KY008",
+  "casualties": 4862,
+  "location": [
+    {
+      "place": "Hart County",
+      "state": "KY"
+    }
+  ],
+  "battle_name": "Munfordville"
+}

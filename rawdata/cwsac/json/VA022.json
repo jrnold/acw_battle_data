@@ -1,0 +1,68 @@
+{
+  "dates": "August 9, 1862",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va022.htm",
+  "results_text": "Confederate victory",
+  "casualties_text": "2,707 total (US 1,400; CS 1,307)",
+  "description": "Maj. Gen. John Pope was placed in command of the newly constituted Army of Virginia on June 26. Gen. Robert E. Lee responded to Pope's dispositions by dispatching Maj. Gen. T.J. Jackson with 14,000 men to Gordonsville in July. Jackson was later reinforced by A.P. Hill's division. In early August, Pope marched his forces south into Culpeper County with the objective of capturing the rail junction at Gordonsville. On August 9, Jackson and Maj. Gen. Nathaniel Banks's corps tangled at Cedar Mountain with the Federals gaining an early advantage. A Confederate counterattack led by A.P. Hill repulsed the Federals and won the day. Confederate general William Winder was killed. This battle shifted fighting in Virginia from the Peninsula to Northern Virginia, giving Lee the initiative.",
+  "start_date": "1862-08-09",
+  "forces_text": "24,898 total (US 8,030; CS 16,868)",
+  "strength": 24898,
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Jackson",
+          "middle_name": "J.",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "Thomas J. Jackson",
+          "first_name": "Thomas"
+        }
+      ],
+      "description": "16,868",
+      "strength_max": 16868,
+      "strength_min": 16868,
+      "casualties": 1307
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Banks",
+          "middle_name": "P.",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "Nathaniel P. Banks",
+          "first_name": "Nathaniel"
+        }
+      ],
+      "description": "8,030",
+      "strength_max": 8030,
+      "strength_min": 8030,
+      "casualties": 1400
+    }
+  },
+  "campaign": "Northern Virginia Campaign [August 1862]",
+  "battle": "VA022",
+  "result": "Confederate",
+  "significance": "B",
+  "other_names": [
+    "Slaughter's Mountain",
+    "Cedar Run"
+  ],
+  "state": "VA",
+  "preservation": "II.2",
+  "principal_commanders": "Maj. Gen. Nathaniel P. Banks [US]; Maj. Gen. Thomas J. Jackson [CS]",
+  "end_date": "1862-08-09",
+  "cwsac_reference": "VA022",
+  "casualties": 2707,
+  "location": [
+    {
+      "place": "Culpeper County",
+      "state": "VA"
+    }
+  ],
+  "battle_name": "Cedar Mountain"
+}

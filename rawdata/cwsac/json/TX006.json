@@ -1,0 +1,71 @@
+{
+  "dates": "September 8, 1863",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/tx006.htm",
+  "results_text": "Confederate victory",
+  "casualties_text": "(US 230; CS unknown)",
+  "description": "About 6:00 am on the morning of September 8, 1863, a Union flotilla of four gunboats and seven troop transports steamed into Sabine Pass and up the Sabine River with the intention of reducing Fort Griffin and landing troops to begin occupying Texas. As the gunboats approached Fort Griffin, they came under accurate fire from six cannons. The Confederate gunners at Fort Griffin had been sent there as a punishment. To break the day-to-day monotony, the gunners practiced firing artillery at range markers placed in the river. Their practice paid off. Fort Griffin's small force of 44 men, under command of Lt. Richard W. Dowling, forced the Union flotilla to retire and captured the gunboat Clifton and about 200 prisoners. Further Union operations in the area ceased for about a month. The heroics at Fort Griffin-44 men stopping a Union expedition-inspired other Confederate soldiers.",
+  "start_date": "1863-09-08",
+  "forces_text": "4 gunboats and 7 transports loaded with troops [US]; Texan Davis Guards (44 men) [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Dowling",
+          "middle_name": "W.",
+          "rank": "Lieutenant",
+          "suffix": "",
+          "fullname": "Richard W. Dowling",
+          "first_name": "Richard"
+        }
+      ],
+      "description": "Texan Davis Guards (44 men)",
+      "strength_max": 44,
+      "strength_min": 44,
+      "casualties": null
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Franklin",
+          "middle_name": "B.",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "William B. Franklin",
+          "first_name": "William"
+        },
+        {
+          "navy": false,
+          "last_name": "Crocker",
+          "middle_name": "",
+          "rank": "Captain (Naval)",
+          "suffix": "",
+          "fullname": "Frederick Crocker",
+          "first_name": "Frederick"
+        }
+      ],
+      "description": "4 gunboats and 7 transports loaded with troops",
+      "ships": 11,
+      "casualties": 230
+    }
+  },
+  "campaign": "Operations to Blockade the Texas Coast [September 1863]",
+  "battle": "TX006",
+  "result": "Confederate",
+  "significance": "B",
+  "other_names": null,
+  "state": "TX",
+  "preservation": "II.2",
+  "principal_commanders": "Maj. Gen. William B. Franklin and Capt. (Naval) Frederick Crocker, U.S.N. [US]; Lt. Richard W. Dowling [CS]",
+  "end_date": "1863-09-08",
+  "cwsac_reference": "TX006",
+  "location": [
+    {
+      "place": "Jefferson County",
+      "state": "TX"
+    }
+  ],
+  "battle_name": "Sabine Pass II"
+}

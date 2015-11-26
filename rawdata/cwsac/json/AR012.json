@@ -1,0 +1,69 @@
+{
+  "dates": "April 3-4, 1864",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ar012.htm",
+  "results_text": "Union victory",
+  "casualties_text": "92 total (US 38; CS 54)",
+  "description": "During the expedition, Union forces sought a ford to cross the Little Missouri River because other roads were impassible. They reached Elkin's Ferry before the Confederates. As they crossed, the Confederates attempted to stop them but to no avail.",
+  "start_date": "1864-04-03",
+  "forces_text": "3rd Division, VII Corps and 2 cavalry brigades [US]; 3 cavalry brigades [CS]",
+  "belligerents": {
+    "CS": {
+      "cavalry_brigades": 3,
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Marmaduke",
+          "middle_name": "S.",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "John S. Marmaduke",
+          "first_name": "John"
+        }
+      ],
+      "description": "3 cavalry brigades",
+      "casualties": 54
+    },
+    "US": {
+      "cavalry_brigades": 2,
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Steele",
+          "middle_name": "",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "Frederick Steele",
+          "first_name": "Frederick"
+        }
+      ],
+      "divisions": 1,
+      "description": "3rd Division, VII Corps and 2 cavalry brigades",
+      "casualties": 38
+    }
+  },
+  "campaign": "Camden Expedition [April 1864]",
+  "battle": "AR012",
+  "result": "Union",
+  "significance": "C",
+  "other_names": [
+    "Okolona"
+  ],
+  "state": "AR",
+  "preservation": "II.3",
+  "principal_commanders": "Maj. Gen. Frederick Steele [US]; Brig. Gen. John S. Marmaduke [CS]",
+  "end_date": "1864-04-04",
+  "cwsac_reference": "AR012",
+  "casualties": 92,
+  "location": [
+    {
+      "place": "Clark County",
+      "state": "AR"
+    },
+    {
+      "place": "Nevada County",
+      "state": "AR"
+    }
+  ],
+  "battle_name": "Elkin's Ferry"
+}

@@ -1,0 +1,72 @@
+{
+  "dates": "April 12, 1864",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/tn030.htm",
+  "results_text": "Confederate victory",
+  "casualties_text": "654 total (US 574; CS 80)",
+  "description": "In April 1864, the Union garrison at Fort Pillow, a Confederate-built earthen fortification and a Union-built inner redoubt, overlooking the Mississippi River about forty river miles above Memphis, comprised 295 white Tennessee troops and 262 U.S. Colored Troops, all under the command of Maj. Lionel F. Booth. Confederate Maj. Gen. Nathan Bedford Forrest attacked the fort on April 12 with a cavalry division of approximately 2,500 men. Forrest seized the older outworks, with high knolls commanding the Union position, to surround Booth's force. Rugged terrain prevented the gunboat New Era from providing effective fire support for the Federals. The garrison was unable to depress its artillery enough to cover the approaches to the fort Rebel sharpshooters, on the surrounding knolls, began firing into the fort killing Booth. Maj. William F. Bradford then took over command of the garrison. The Confederates launched a determined attack at 11:00 am, occupying more strategic locations around the fort, and Forrest demanded unconditional surrender. Bradford asked for an hour for consultation, and Forrest granted twenty minutes. Bradford refused surrender and the Confederates renewed the attack, soon overran the fort, and drove the Federals down the river's bluff into a deadly crossfire. Casualties were high and only sixty-two of the U.S. Colored Troops survived the fight. Many accused the Confederates of perpetrating a massacre of the black troops, and that controversy continues today. The Confederates evacuated Fort Pillow that evening so they gained little from the attack except a temporary disruption of Union operations. The \"Fort Pillow Massacre\" became a Union rallying cry and cemented resolve to see the war through to its conclusion.",
+  "start_date": "1864-04-12",
+  "forces_text": "Detachments from three units (approx. 600) [US]; Brig. Gen. James R. Chalmers's 1st Division, Forrest's Cavalry Corps [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Forrest",
+          "middle_name": "Bedford",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "Nathan Bedford Forrest",
+          "first_name": "Nathan"
+        }
+      ],
+      "divisions": 1,
+      "description": "Brig. Gen. James R. Chalmers's 1st Division, Forrest's Cavalry Corps",
+      "casualties": 80
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Booth",
+          "middle_name": "F.",
+          "rank": "Major",
+          "suffix": "",
+          "fullname": "Lionel F. Booth",
+          "first_name": "Lionel"
+        },
+        {
+          "navy": false,
+          "last_name": "Bradford",
+          "middle_name": "F.",
+          "rank": "Major",
+          "suffix": "",
+          "fullname": "William F. Bradford",
+          "first_name": "William"
+        }
+      ],
+      "description": "Detachments from three units (approx. 600)",
+      "strength_max": 600,
+      "strength_min": 600,
+      "casualties": 574
+    }
+  },
+  "campaign": "Forrest's Expedition into West Tennessee and Kentucky [March-April 1864]",
+  "battle": "TN030",
+  "result": "Confederate",
+  "significance": "B",
+  "other_names": null,
+  "state": "TN",
+  "preservation": "III.2",
+  "principal_commanders": "Maj. Lionel F. Booth and Maj. William F. Bradford [US]; Maj. Gen. Nathan Bedford Forrest [CS]",
+  "end_date": "1864-04-12",
+  "cwsac_reference": "TN030",
+  "casualties": 654,
+  "location": [
+    {
+      "place": "Lauderdale County",
+      "state": "TN"
+    }
+  ],
+  "battle_name": "Fort Pillow"
+}

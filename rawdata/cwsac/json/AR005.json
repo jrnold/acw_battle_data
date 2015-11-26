@@ -1,0 +1,73 @@
+{
+  "dates": "December 7, 1862",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ar005.htm",
+  "results_text": "Union strategic victory",
+  "casualties_text": "2,568 total (US 1,251; CS 1,317)",
+  "description": "Maj. Gen. Thomas C. Hindman sought to destroy Brig. Gen. Francis Herron's and Brig. Gen. James Blunt's divisions before they joined forces. Hindman placed his large force between the two Union divisions, turning on Herron first and routing his cavalry. As Hindman pursued the cavalry, he met Herron's infantry which pushed him back. The Rebels then established their line of battle on a wooded high ridge northeast of Prairie Grove Church. Herron brought his artillery across the Illinois River and initiated an artillery duel. The Union troops assaulted twice and were repulsed. The Confederates counterattacked, were halted by Union canister, and then moved forward again. Just when it looked as if the Rebel attack would roll up Herron's troops, Blunt's men assailed the Confederate left flank. As night came, neither side had won, but Hindman retreated to Van Buren. Hindman's retreat established Federal control of northwest Arkansas.",
+  "start_date": "1862-12-07",
+  "forces_text": "Army of the Frontier [US]; I Corps, Trans-Mississippi Army [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Hindman",
+          "middle_name": "C.",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "Thomas C. Hindman",
+          "first_name": "Thomas"
+        }
+      ],
+      "description": "I Corps, Trans-Mississippi Army",
+      "corps": 1,
+      "casualties": 1317
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Herron",
+          "middle_name": "J.",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "Francis J. Herron",
+          "first_name": "Francis"
+        },
+        {
+          "navy": false,
+          "last_name": "Blunt",
+          "middle_name": "G.",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "James G. Blunt",
+          "first_name": "James"
+        }
+      ],
+      "description": "Army of the Frontier",
+      "armies": 1,
+      "casualties": 1251
+    }
+  },
+  "campaign": "Prairie Grove Campaign [November 1862]",
+  "battle": "AR005",
+  "result": "Union",
+  "significance": "B",
+  "other_names": [
+    "Fayetteville"
+  ],
+  "state": "AR",
+  "preservation": "I.3",
+  "principal_commanders": "Brig. Gen. Francis J. Herron and Brig. Gen. James G. Blunt [US]; Maj. Gen. Thomas C. Hindman [CS]",
+  "end_date": "1862-12-07",
+  "cwsac_reference": "AR005",
+  "casualties": 2568,
+  "location": [
+    {
+      "place": "Washington County",
+      "state": "AR"
+    }
+  ],
+  "battle_name": "Prairie Grove"
+}

@@ -1,0 +1,65 @@
+{
+  "dates": "July 1-3, 1863",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/pa002.htm",
+  "results_text": "Union victory",
+  "casualties_text": "51,000 total (US 23,000; CS 28,000)",
+  "description": "Gen. Robert E. Lee concentrated his full strength against Maj. Gen. George G. Meade's Army of the Potomac at the crossroads county seat of Gettysburg. On July 1, Confederate forces converged on the town from west and north, driving Union defenders back through the streets to Cemetery Hill. During the night, reinforcements arrived for both sides. On July 2, Lee attempted to envelop the Federals, first striking the Union left flank at the Peach Orchard, Wheatfield, Devil's Den, and the Round Tops with Longstreet's and Hill's divisions, and then attacking the Union right at Culp's and East Cemetery Hills with Ewell's divisions. By evening, the Federals retained Little Round Top and had repulsed most of Ewell's men. During the morning of July 3, the Confederate infantry were driven from their last toe-hold on Culp's Hill. In the afternoon, after a preliminary artillery bombardment, Lee attacked the Union center on Cemetery Ridge. The Pickett-Pettigrew assault (more popularly, Pickett's Charge) momentarily pierced the Union line but was driven back with severe casualties. Stuart's cavalry attempted to gain the Union rear but was repulsed. On July 4, Lee began withdrawing his army toward Williamsport on the Potomac River. His train of wounded stretched more than fourteen miles.",
+  "start_date": "1863-07-01",
+  "forces_text": "158,300 total (US 83,289; CS 75,054)",
+  "strength": 158300,
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Lee",
+          "middle_name": "E.",
+          "rank": "General",
+          "suffix": "",
+          "fullname": "Robert E. Lee",
+          "first_name": "Robert"
+        }
+      ],
+      "description": "75,054",
+      "strength_max": 75054,
+      "strength_min": 75054,
+      "casualties": 28000
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Meade",
+          "middle_name": "G.",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "George G. Meade",
+          "first_name": "George"
+        }
+      ],
+      "description": "83,289",
+      "strength_max": 83289,
+      "strength_min": 83289,
+      "casualties": 23000
+    }
+  },
+  "campaign": "Gettysburg Campaign [June-July 1863]",
+  "battle": "PA002",
+  "result": "Union",
+  "significance": "A",
+  "other_names": null,
+  "state": "PA",
+  "preservation": "I.2",
+  "principal_commanders": "Maj. Gen. George G. Meade [US]; Gen. Robert E. Lee [CS]",
+  "end_date": "1863-07-03",
+  "cwsac_reference": "PA002",
+  "casualties": 51000,
+  "location": [
+    {
+      "place": "Adams County",
+      "state": "PA"
+    }
+  ],
+  "battle_name": "Gettysburg"
+}

@@ -1,0 +1,89 @@
+{
+  "dates": "May 15, 1862",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va012.htm",
+  "results_text": "Confederate victory",
+  "casualties_text": "41 total",
+  "description": "With the fall of Yorktown, the Confederate ironclad Virginia at Norfolk was scuttled to prevent her capture. This opened the James River to Federal gunboats. On May 15, five gunboats, including the ironclads Monitor and Galena, steamed up the James to test the Richmond defenses. They encountered submerged obstacles and deadly accurate fire from the batteries at Drewry's Bluff, which inflicted severe damage on the Galena. The Federal Navy was turned back.",
+  "start_date": "1862-05-15",
+  "forces_text": "5 gunboats [US]; battery garrison [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": true,
+          "last_name": "Farrand",
+          "middle_name": "",
+          "rank": "Commander",
+          "suffix": "",
+          "fullname": "E. Farrand",
+          "first_name": "E."
+        },
+        {
+          "navy": false,
+          "last_name": "Mahone",
+          "middle_name": "",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "William Mahone",
+          "first_name": "William"
+        },
+        {
+          "navy": false,
+          "last_name": "Lee",
+          "middle_name": "S.",
+          "rank": "Captain (Naval)",
+          "suffix": "",
+          "fullname": "S. S. Lee",
+          "first_name": "S."
+        },
+        {
+          "navy": false,
+          "last_name": "Wood",
+          "middle_name": "Taylor",
+          "rank": "Lieutenant",
+          "suffix": "",
+          "fullname": "John Taylor Wood",
+          "first_name": "John"
+        }
+      ],
+      "description": "battery garrison"
+    },
+    "US": {
+      "gunboats": 5,
+      "commanders": [
+        {
+          "navy": true,
+          "last_name": "Rodgers",
+          "middle_name": "",
+          "rank": "Commander",
+          "suffix": "",
+          "fullname": "John Rodgers",
+          "first_name": "John"
+        }
+      ],
+      "description": "5 gunboats"
+    }
+  },
+  "campaign": "Peninsula Campaign [March-July 1862]",
+  "battle": "VA012",
+  "result": "Confederate",
+  "significance": "B",
+  "other_names": [
+    "Fort Darling",
+    "Fort Drewry"
+  ],
+  "state": "VA",
+  "preservation": "III.2",
+  "principal_commanders": "Cdr. John Rodgers [US]; Cdr. E. Farrand, Brig. Gen. William Mahone, Capt. (Naval) S. S. Lee, and Lt. John Taylor Wood [CS]",
+  "end_date": "1862-05-15",
+  "cwsac_reference": "VA012",
+  "casualties": 41,
+  "location": [
+    {
+      "place": "Chesterfield County",
+      "state": "VA"
+    }
+  ],
+  "battle_name": "Drewry's Bluff"
+}

@@ -1,0 +1,66 @@
+{
+  "dates": "December 17, 1861",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ky004.htm",
+  "results_text": "Indecisive",
+  "casualties_text": "131 total (US 40; CS 91)",
+  "description": "After Brig. Gen. Don Carlos Buell took command of the Department of the Ohio in early November, he attempted to consolidate control by organizing and sending troops into the field. He ordered Brig. Gen. Alexander McD. McCook, commanding the 2nd Division, to Nolin, Kentucky. In the meantime, the Confederates had established a defensive line along the Green River near Munfordville. McCook launched a movement towards the enemy lines on December 10, which the Rebels countered by partially destroying the Louisville & Nashville Railroad bridge over the Green River. As a result, the Union sent two companies of the 32nd Indiana Volunteer Infantry Regiment across the river to prevent a surprise and began constructing a pontoon bridge for the passage of trains and artillery. When the bridge was completed on December 17, four more of the 32nd Indiana companies crossed the river. The combined force advanced to a hill south of Woodsonville where, in the afternoon, they spotted enemy troops in the woods fronting them. Two companies advanced toward the enemy in the woods, which fell back until Confederate cavalry attacked. A general engagement ensued as eight Yankee companies fought a much larger Confederate force. Fearing that the enemy might roll up his right flank, Col. August Willich, commanding the regiment, ordered a withdrawal to a stronger position in the rear. Knowing of McCook's approach, the Rebels also withdrew from the field. Although the results of the battle were indecisive, Union troops did occupy the area and insured the movement of their men and supplies on the Louisville & Nashville Railroad.",
+  "start_date": "1861-12-17",
+  "forces_text": "32nd Indiana Volunteer Infantry Regiment [US]; Terry's Texas Rangers, 7th Texas Cavalry and 1st Arkansas Battalion (approx. 1,350 men) [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Hindman",
+          "middle_name": "C.",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "Thomas C. Hindman",
+          "first_name": "Thomas"
+        }
+      ],
+      "description": "Terry's Texas Rangers, 7th Texas Cavalry and 1st Arkansas Battalion (approx. 1,350 men)",
+      "strength_max": 1350,
+      "strength_min": 1350,
+      "casualties": 91
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Willich",
+          "middle_name": "",
+          "rank": "Colonel",
+          "suffix": "",
+          "fullname": "August Willich",
+          "first_name": "August"
+        }
+      ],
+      "description": "32nd Indiana Volunteer Infantry Regiment",
+      "regiments": 1,
+      "casualties": 40
+    }
+  },
+  "campaign": "Operations in Eastern Kentucky [September-December 1861]",
+  "battle": "KY004",
+  "result": "Inconclusive",
+  "significance": "D",
+  "other_names": [
+    "Woodsonville",
+    "Green River"
+  ],
+  "state": "KY",
+  "preservation": "III.4",
+  "principal_commanders": "Col. August Willich [US]; Brig. Gen. Thomas C. Hindman [CS]",
+  "end_date": "1861-12-17",
+  "cwsac_reference": "KY004",
+  "casualties": 131,
+  "location": [
+    {
+      "place": "Hart County",
+      "state": "KY"
+    }
+  ],
+  "battle_name": "Rowlett's Station"
+}

@@ -1,0 +1,65 @@
+{
+  "dates": "May 21-July 9, 1863",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/la010.htm",
+  "results_text": "Union victory",
+  "casualties_text": "12,208 total (US 5,000; CS 7,208)",
+  "description": "In cooperation with Maj. Gen. Ulysses S. Grant's offensive against Vicksburg, Union Maj. Gen. Nathaniel P. Banks's army moved against the Confederate stronghold at Port Hudson on the Mississippi River. On May 27, after their frontal assaults were repulsed, the Federals settled into a siege which lasted for 48 days. Banks renewed his assaults on June 14 but the defenders successfully repelled them. On July 9, 1863, after hearing of the fall of Vicksburg, the Confederate garrison of Port Hudson surrendered, opening the Mississippi River to Union navigation from its source to New Orleans.",
+  "start_date": "1863-05-21",
+  "forces_text": "XIX Army Corps, Army of the Gulf [US]; Confederate forces, 3rd District, Department of Mississippi and East Louisiana, Port Hudson [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Gardner",
+          "middle_name": "",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "Franklin Gardner",
+          "first_name": "Franklin"
+        }
+      ],
+      "description": "Confederate forces, 3rd District, Department of Mississippi and East Louisiana, Port Hudson",
+      "casualties": 7208
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Banks",
+          "middle_name": "P.",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "Nathaniel P. Banks",
+          "first_name": "Nathaniel"
+        }
+      ],
+      "description": "XIX Army Corps, Army of the Gulf",
+      "corps": 1,
+      "casualties": 5000
+    }
+  },
+  "campaign": "Siege of Port Hudson [May-July 1863]",
+  "battle": "LA010",
+  "result": "Union",
+  "significance": "A",
+  "other_names": null,
+  "state": "LA",
+  "preservation": "I.1",
+  "principal_commanders": "Maj. Gen. Nathaniel P. Banks [US]; Maj. Gen. Franklin Gardner [CS]",
+  "end_date": "1863-07-09",
+  "cwsac_reference": "LA010",
+  "casualties": 12208,
+  "location": [
+    {
+      "place": "East Baton Rouge Parish",
+      "state": "LA"
+    },
+    {
+      "place": "East Feliciana Parish",
+      "state": "LA"
+    }
+  ],
+  "battle_name": "Port Hudson"
+}

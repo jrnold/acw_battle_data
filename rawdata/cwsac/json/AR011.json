@@ -1,0 +1,63 @@
+{
+  "dates": "October 25, 1863",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ar011.htm",
+  "results_text": "Union victory",
+  "casualties_text": "Total unknown (US 56; CS unknown)",
+  "description": "At 8:00 am, October 25, Col. Powell Clayton sent a company of cavalry toward Princeton which ran into Brig. Gen. John S. Marmaduke's men advancing. After some fire, the Rebels, under a flag of truce, came forward demanding surrender. Lt. M.F. Clark answered that there would be no surrender. Clayton slowly retreated back into Pine Bluff. In the meantime, about 300 African-American soldiers rolled cotton bales out of the warehouses for barricades to protect court square. After failing to take the square by force, the Rebels attempted to burn out the Union forces but to no avail. The Confederate forces retired, leaving Pine Bluff to the Federals.",
+  "start_date": "1863-10-25",
+  "forces_text": "Pine Bluff Garrison (two under-strength cavalry regiments and a company of state militia) [US]; division [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Marmaduke",
+          "middle_name": "S.",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "John S. Marmaduke",
+          "first_name": "John"
+        }
+      ],
+      "divisions": 1,
+      "description": "division",
+      "casualties": null
+    },
+    "US": {
+      "cavalry_regiments": 2,
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Clayton",
+          "middle_name": "",
+          "rank": "Colonel",
+          "suffix": "",
+          "fullname": "Powell Clayton",
+          "first_name": "Powell"
+        }
+      ],
+      "description": "Pine Bluff Garrison (two under-strength cavalry regiments and a company of state militia)",
+      "companies": 1,
+      "casualties": 56
+    }
+  },
+  "campaign": "Advance on Little Rock [September-October 1863]",
+  "battle": "AR011",
+  "result": "Union",
+  "significance": "D",
+  "other_names": null,
+  "state": "AR",
+  "preservation": "IV.2",
+  "principal_commanders": "Col. Powell Clayton [US]; Brig. Gen. John S. Marmaduke [CS]",
+  "end_date": "1863-10-25",
+  "cwsac_reference": "AR011",
+  "casualties": null,
+  "location": [
+    {
+      "place": "Jefferson County",
+      "state": "AR"
+    }
+  ],
+  "battle_name": "Pine Bluff"
+}

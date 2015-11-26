@@ -1,0 +1,67 @@
+{
+  "dates": "September 7-8, 1863",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/sc009.htm",
+  "results_text": "Confederate victory",
+  "casualties_text": "(US 117; CS unknown)",
+  "description": "During the night of September 6-7, Confederate forces evacuated Fort Wagner and Battery Gregg pressured by advancing Federal siegeworks. Federal troops then occupied all of Morris Island. On September 8, a storming party of about 400 marines and sailors attempted to surprise Fort Sumter. The attack was repulsed.",
+  "start_date": "1863-09-07",
+  "forces_text": "Regiments: total unknown (US 413; CS unknown)",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Beauregard",
+          "middle_name": "",
+          "rank": "General",
+          "suffix": "",
+          "fullname": "P.G.T. Beauregard",
+          "first_name": "P.G.T."
+        }
+      ],
+      "description": "unknown",
+      "regiments": 1,
+      "casualties": null
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Gillmore",
+          "middle_name": "",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "Quincy Gillmore",
+          "first_name": "Quincy"
+        }
+      ],
+      "description": "413",
+      "strength_max": 413,
+      "strength_min": 413,
+      "casualties": 117
+    }
+  },
+  "campaign": "Operations Against the Defenses of Charleston [April-September 1863]",
+  "battle": "SC009",
+  "result": "Confederate",
+  "significance": "B",
+  "other_names": [
+    "Battery Gregg",
+    "Fort Wagner",
+    "Morris Island",
+    "Fort Sumter"
+  ],
+  "state": "SC",
+  "preservation": "III.2",
+  "principal_commanders": "Maj. Gen. Quincy Gillmore [US]; Gen. P.G.T. Beauregard [CS]",
+  "end_date": "1863-09-08",
+  "cwsac_reference": "SC009",
+  "location": [
+    {
+      "place": "Charleston County",
+      "state": "SC"
+    }
+  ],
+  "battle_name": "Charleston Harbor"
+}

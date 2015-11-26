@@ -1,0 +1,88 @@
+{
+  "dates": "August 2-23, 1864",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/al003.htm",
+  "results_text": "Union victory",
+  "casualties_text": "1,822 (US 322; CS 1,500)",
+  "description": "A combined Union force initiated operations to close Mobile Bay to blockade running. Some Union forces landed on Dauphin Island and laid siege to Fort Gaines. On August 5, Farragut's Union fleet of eighteen ships entered Mobile Bay and received a devastating fire from Forts Gaines and Morgan and other points. After passing the forts, Farragut forced the Confederate naval forces, under Adm. Franklin Buchanan, to surrender, which effectively closed Mobile Bay. By August 23, Fort Morgan, the last big holdout, fell, shutting down the port. The city, however, remained uncaptured.",
+  "start_date": "1864-08-02",
+  "forces_text": "Farragut's Fleet (14 wooden ships and 4 monitors) and U.S. army forces near Mobile [US]; Buchanan's Flotilla (3 gunboats and an ironclad), Fort Morgan Garrison, Fort Gaines Garrison, and Fort Powell Garrison [CS]",
+  "belligerents": {
+    "CS": {
+      "gunboats": 3,
+      "commanders": [
+        {
+          "navy": true,
+          "last_name": "Buchanan",
+          "middle_name": "",
+          "rank": "Admiral",
+          "suffix": "",
+          "fullname": "Franklin Buchanan",
+          "first_name": "Franklin"
+        },
+        {
+          "navy": false,
+          "last_name": "Page",
+          "middle_name": "L.",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "Richard L. Page",
+          "first_name": "Richard"
+        }
+      ],
+      "description": "Buchanan's Flotilla (3 gunboats and an ironclad), Fort Morgan Garrison, Fort Gaines Garrison, and Fort Powell Garrison",
+      "ironclads": 1,
+      "casualties": 1500
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": true,
+          "last_name": "Farragut",
+          "middle_name": "G.",
+          "rank": "Rear Admiral",
+          "suffix": "",
+          "fullname": "David G. Farragut",
+          "first_name": "David"
+        },
+        {
+          "navy": false,
+          "last_name": "Granger",
+          "middle_name": "",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "Gordon Granger",
+          "first_name": "Gordon"
+        }
+      ],
+      "wooden_ships": 14,
+      "description": "Farragut's Fleet (14 wooden ships and 4 monitors) and U.S. army forces near Mobile",
+      "ironclads": 4,
+      "casualties": 322
+    }
+  },
+  "campaign": "Operations in Mobile Bay [August 1864]",
+  "battle": "AL003",
+  "result": "Union",
+  "significance": "A",
+  "other_names": [
+    "Passing of Forts Morgan and Gaines"
+  ],
+  "state": "AL",
+  "preservation": "I.1",
+  "principal_commanders": "Rear Adm. David G. Farragut and Maj. Gen. Gordon Granger [US]; Adm. Franklin Buchanan and Brig. Gen. Richard L. Page [CS]",
+  "end_date": "1864-08-23",
+  "cwsac_reference": "AL003",
+  "casualties": 1822,
+  "location": [
+    {
+      "place": "Mobile County",
+      "state": "AL"
+    },
+    {
+      "place": "Baldwin County",
+      "state": "AL"
+    }
+  ],
+  "battle_name": "Mobile Bay"
+}

@@ -1,0 +1,63 @@
+{
+  "dates": "September 30, 1862",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/mo016.htm",
+  "results_text": "Confederate victory",
+  "casualties_text": "345 total (US 245; CS 100)",
+  "description": "Following the Battle of Pea Ridge, in March 1862, most Confederate and Union troops left northwestern Arkansas and southwestern Missouri. By late summer, Confederates returned to the area, which caused much apprehension in nearby Federally-occupied Springfield, Missouri, and Fort Scott, Kansas. Confederate Col. Douglas Cooper reached the area on the 27th and assigned two of his units to Newtonia where there was a mill for making breadstuffs. In mid-September, two brigades of Brig. Gen. James G. Blunt's Union Army of Kansas left Fort Scott for Southwest Missouri. On the 29th, Union scouts approached Newtonia but were chased away. Other Union troops appeared in nearby Granby where there were lead mines, and Cooper sent some reinforcements there. The next morning, Union troops appeared before Newtonia and fighting ensued by 7:00 am. The Federals began driving the enemy, but Confederate reinforcements arrived, swelling the numbers. The Federals gave way and retreated in haste. As they did so, some of their reinforcements appeared and helped to stem their retreat. The Union forces then renewed the attack, threatening the enemy right flank. But newly arrived Confederates stopped that attack and eventually forced the Federals to retire again. Pursuit of the Federals continued after dark. Union gunners posted artillery in the roadway to halt the pursuit. As Confederate gunners observed the Union artillery fire for location, they fired back, creating panic. The Union retreat turned into a rout as some ran all the way to Sarcoxie, more than ten miles away. Although the Confederates won the battle, they were unable to maintain themselves in the area given the great numbers of Union troops. Most Confederates retreated into northwest Arkansas. The 1862 Confederate victories in southwestern Missouri at Newtonia and Clark's Mill were the South's apogee in the area; afterwards, the only Confederates in the area belonged to raiding columns.",
+  "start_date": "1862-09-30",
+  "forces_text": "Two brigades, Army of Kansas (1,500) [US]; Cooper's Division [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Cooper",
+          "middle_name": "H.",
+          "rank": "Colonel",
+          "suffix": "",
+          "fullname": "Douglas H. Cooper",
+          "first_name": "Douglas"
+        }
+      ],
+      "divisions": 1,
+      "description": "Cooper's Division",
+      "casualties": 100
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Salomon",
+          "middle_name": "",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "Friedrich Salomon",
+          "first_name": "Friedrich"
+        }
+      ],
+      "description": "Two brigades, Army of Kansas (1,500)",
+      "strength_max": 1500,
+      "strength_min": 1500,
+      "casualties": 245
+    }
+  },
+  "campaign": "Operations North of Boston Mountains [August-November 1862]",
+  "battle": "MO016",
+  "result": "Confederate",
+  "significance": "C",
+  "other_names": null,
+  "state": "MO",
+  "preservation": "II.3",
+  "principal_commanders": "Brig. Gen. Friedrich Salomon [US]; Col. Douglas H. Cooper [CS]",
+  "end_date": "1862-09-30",
+  "cwsac_reference": "MO016",
+  "casualties": 345,
+  "location": [
+    {
+      "place": "Newton County",
+      "state": "MO"
+    }
+  ],
+  "battle_name": "Newtonia"
+}

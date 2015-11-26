@@ -1,0 +1,71 @@
+{
+  "dates": "January 1, 1863",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/tx003.htm",
+  "results_text": "Confederate victory",
+  "casualties_text": "650 total (US 600; CS 50)",
+  "description": "Maj. Gen. John B. Magruder, who became the Confederate commander of military forces in Texas on November 29, 1862, gave the recapture of Galveston top priority. At 3:00 am on New Year's Day, 1863, four Confederate gunboats appeared, coming down the bay toward Galveston. Soon afterward, the Rebels commenced a land attack. The Union forces in Galveston were three companies of the 42nd Massachusetts Volunteer Infantry Regiment under the command of Col. Isaac S. Burrell. The Confederates captured or killed all of them except for the regiment's adjutant. They also took Harriet Lane, by boarding her, and two barks and a schooner. Cdr. W.B. Renshaw's flagship, U.S.S. Westfield, ran aground when trying to help Harriet Lane and, at 10:00 am, she was blown up to prevent her capture by the Confederates. Galveston was in Confederate hands again although the Union blockade would limit commerce in and out of the harbor.",
+  "start_date": "1863-01-01",
+  "forces_text": "Companies D, G and I, 42nd Massachusetts Volunteer Infantry Regiment and the Blockading ships [US]; four Confederate gunboats and district of Texas, New Mexico, and Arizona troops [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Magruder",
+          "middle_name": "B.",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "John B. Magruder",
+          "first_name": "John"
+        }
+      ],
+      "description": "four Confederate gunboats and district of Texas, New Mexico, and Arizona troops",
+      "ships": 4,
+      "casualties": 50
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Burrell",
+          "middle_name": "S.",
+          "rank": "Colonel",
+          "suffix": "",
+          "fullname": "Isaac S. Burrell",
+          "first_name": "Isaac"
+        },
+        {
+          "navy": true,
+          "last_name": "Renshaw",
+          "middle_name": "",
+          "rank": "Commander",
+          "suffix": "",
+          "fullname": "W.B. Renshaw",
+          "first_name": "W.B."
+        }
+      ],
+      "description": "Companies D, G and I, 42nd Massachusetts Volunteer Infantry Regiment and the Blockading ships",
+      "regiments": 1,
+      "casualties": 600
+    }
+  },
+  "campaign": "Operations Against Galveston [December 1862-January 1863]",
+  "battle": "TX003",
+  "result": "Confederate",
+  "significance": "B",
+  "other_names": null,
+  "state": "TX",
+  "preservation": "IV.1",
+  "principal_commanders": "Col. Isaac S. Burrell and Cdr. W.B. Renshaw, U.S.N. [US]; Maj. Gen. John B. Magruder [CS]",
+  "end_date": "1863-01-01",
+  "cwsac_reference": "TX003",
+  "casualties": 650,
+  "location": [
+    {
+      "place": "Galveston County",
+      "state": "TX"
+    }
+  ],
+  "battle_name": "Galveston"
+}

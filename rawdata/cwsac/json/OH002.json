@@ -1,0 +1,69 @@
+{
+  "dates": "July 26, 1863",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/oh002.htm",
+  "results_text": "Union victory",
+  "casualties_text": "364 total (US none; CS 364)",
+  "description": "After escaping encirclement at Buffington's Island with about 400 of his men, Morgan continued east and north, attempting to find a safe crossing over the Ohio River. With several columns of Union cavalry in hot pursuit, Morgan passed through Salineville, riding down the railroad toward Smith's Ford. Turning onto the New Lisbon Road, Morgan's raiders were finally cut off. Morgan surrendered. During this raid, Morgan and his men captured and paroled about 6,000 Union soldiers and militia, destroyed 34 bridges, disrupted the railroads at more than 60 places, and diverted tens of thousands of troops from other duties.",
+  "start_date": "1863-07-26",
+  "forces_text": "3,000 total (US 2,600; CS 400)",
+  "strength": 3000,
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Morgan",
+          "middle_name": "Hunt",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "John Hunt Morgan",
+          "first_name": "John"
+        }
+      ],
+      "description": "400",
+      "strength_max": 400,
+      "strength_min": 400,
+      "casualties": 364
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Shackelford",
+          "middle_name": "",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "James Shackelford",
+          "first_name": "James"
+        }
+      ],
+      "description": "2,600",
+      "strength_max": 2600,
+      "strength_min": 2600,
+      "casualties": 0
+    }
+  },
+  "campaign": "Morgan's Raid in Kentucky, Indiana, and Ohio [July 1863]",
+  "battle": "OH002",
+  "result": "Union",
+  "significance": "D",
+  "other_names": [
+    "New Lisbon",
+    "New Lisbon Road",
+    "Wellsville"
+  ],
+  "state": "OH",
+  "preservation": null,
+  "principal_commanders": "Brig. Gen. James Shackelford [US]; Brig. Gen. John Hunt Morgan [CS]",
+  "end_date": "1863-07-26",
+  "cwsac_reference": "OH002",
+  "casualties": 364,
+  "location": [
+    {
+      "place": "Columbiana County",
+      "state": "OH"
+    }
+  ],
+  "battle_name": "Salineville"
+}

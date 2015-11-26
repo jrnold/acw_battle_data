@@ -1,0 +1,65 @@
+{
+  "dates": "October 22, 1862",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ok004.htm",
+  "results_text": "Union victory",
+  "casualties_text": "164 total (US 14; CS 150)",
+  "description": "Brig. Gen. James G. Blunt and his troops attacked Col. Douglas H. Cooper and his Confederate command on Beatties Prairie near Old Fort Wayne at 7:00 am on October 22, 1862. The Confederates put up stiff resistance for a half hour, but overwhelming numbers forced them to retire from the field in haste, leaving artillery and equipage behind. This was a setback in the 1862 Confederate offensive that extended from the tidewater in the east to the plains of the Indian Territory of the west.",
+  "start_date": "1862-10-22",
+  "forces_text": "1st Division, Army of the Frontier [US]; 1st Brigade [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Cooper",
+          "middle_name": "H.",
+          "rank": "Colonel",
+          "suffix": "",
+          "fullname": "Douglas H. Cooper",
+          "first_name": "Douglas"
+        }
+      ],
+      "description": "1st Brigade",
+      "brigades": 1,
+      "casualties": 150
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Blunt",
+          "middle_name": "G.",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "James G. Blunt",
+          "first_name": "James"
+        }
+      ],
+      "divisions": 1,
+      "description": "1st Division, Army of the Frontier",
+      "casualties": 14
+    }
+  },
+  "campaign": "Operations North of Boston Mountains [August-November 1862]",
+  "battle": "OK004",
+  "result": "Union",
+  "significance": "D",
+  "other_names": [
+    "Beatties Prairie",
+    "Beaty's Prairie"
+  ],
+  "state": "OK",
+  "preservation": "III.4",
+  "principal_commanders": "Brig. Gen. James G. Blunt [US]; Col. Douglas H. Cooper [CS]",
+  "end_date": "1862-10-22",
+  "cwsac_reference": "OK004",
+  "casualties": 164,
+  "location": [
+    {
+      "place": "Delaware County",
+      "state": "OK"
+    }
+  ],
+  "battle_name": "Old Fort Wayne"
+}

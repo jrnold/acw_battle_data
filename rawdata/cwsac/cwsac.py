@@ -410,12 +410,17 @@ def parse_battle(alldata, src, campaigns, casualties, strengths, results):
         for k, v in commanders.items():
             for x in v:
                 parsed_name = nameparser.HumanName(x['fullname']).as_dict()
-                forces[k]['commanders'].append({'fullname' : x['fullname'],
-                                                'first_name': parsed_name['first'],
-                                                'last_name': parsed_name['last'],
-                                                'middle_name': parsed_name['middle'],
-                                                'suffix': parsed_name['suffix'],
-                                                'rank' : RANKS_LOOKUP[x['rank']]})
+                d = {'fullname' : x['fullname'],
+                     'first_name': parsed_name['first'],
+                     'last_name': parsed_name['last'],
+                     'middle_name': parsed_name['middle'],
+                     'suffix': parsed_name['suffix'],
+                     'rank' : RANKS_LOOKUP[x['rank']]}
+                d['navy'] = d['rank'] in ['Lieutentant (Naval)', 'Flag Officer',
+                                          'Commander', 'Lieutenant Commander',
+                                          'Rear Admiral', 'Admiral']
+                forces[k]['commanders'].append(d)
+
     except pp.ParseException:
         print("%s: %s" % (battle, data['principal_commanders']))
         
@@ -455,5 +460,10 @@ def load(datadir):
 
 if __name__ == '__main__':
     datadir = "."
-    with open("cwsac.json", "w", encoding = 'utf-8') as f:
-        json.dump(load(datadir), f, indent=2)
+    data = load(datadir)
+    for k, v in data.items():
+        filename = path.join("json", k + ".json") 
+        with open(filename, "w") as f:
+            json.dump(v, f, indent = 2)
+            print("wrote to %s" % filename)
+        

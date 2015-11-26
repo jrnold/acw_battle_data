@@ -1,0 +1,68 @@
+{
+  "dates": "June 26, 1862",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va016.htm",
+  "results_text": "Union victory",
+  "casualties_text": "1,700 total (US 400; CS 1,300)",
+  "description": "Second of the Seven Days' Battles. Gen. Robert E. Lee initiated his offensive against McClellan's right flank north of the Chickahominy River. A.P. Hill threw his division, reinforced by one of D.H. Hill's brigades, into a series of futile assaults against Brig. Gen. Fitz John Porter's V Corps, which was drawn up behind Beaver Dam Creek. Confederate attacks were driven back with heavy casualties. Jackson's Shenandoah Valley divisions, however, were approaching from the northwest, forcing Porter to withdraw the next morning to a position behind Boatswain Creek just beyond Gaines' Mill.",
+  "start_date": "1862-06-26",
+  "forces_text": "31,987 total (US 15,631; CS 16,356)",
+  "strength": 31987,
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Lee",
+          "middle_name": "E.",
+          "rank": "General",
+          "suffix": "",
+          "fullname": "Robert E. Lee",
+          "first_name": "Robert"
+        }
+      ],
+      "description": "16,356",
+      "strength_max": 16356,
+      "strength_min": 16356,
+      "casualties": 1300
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Porter",
+          "middle_name": "John",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "Fitz John Porter",
+          "first_name": "Fitz"
+        }
+      ],
+      "description": "15,631",
+      "strength_max": 15631,
+      "strength_min": 15631,
+      "casualties": 400
+    }
+  },
+  "campaign": "Peninsula Campaign [March-July 1862]",
+  "battle": "VA016",
+  "result": "Union",
+  "significance": "B",
+  "other_names": [
+    "Mechanicsville",
+    "Ellerson's Mill"
+  ],
+  "state": "VA",
+  "preservation": "IV.2",
+  "principal_commanders": "Brig. Gen. Fitz John Porter [US]; Gen. Robert E. Lee [CS]",
+  "end_date": "1862-06-26",
+  "cwsac_reference": "VA016",
+  "casualties": 1700,
+  "location": [
+    {
+      "place": "Hanover County",
+      "state": "VA"
+    }
+  ],
+  "battle_name": "Beaver Dam Creek"
+}

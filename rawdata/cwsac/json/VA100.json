@@ -1,0 +1,65 @@
+{
+  "dates": "January 3, 1862",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va100.htm",
+  "results_text": "Inconclusive",
+  "casualties_text": "None",
+  "description": "After victory at First Manassas, the Confederate army established a defensive line from Centreville along the Occoquan River to the Potomac River. In October, the Confederates constructed batteries at Evansport, Freestone Point, Shipping Point, and Cockpit Point to close the Potomac River to shipping and isolate Washington. By mid-December, the Confederates had 37 heavy guns in position along the river. On January 3, Cockpit Point was shelled by Anacostia and Yankee with neither side gaining an advantage. Union ships approached the point again on March 9 but discovered that the Confederates had abandoned their works and retired closer to Richmond, after effectively sealing off the Potomac River for nearly five months.",
+  "start_date": "1862-01-03",
+  "forces_text": "Two gunboats [US]; battery garrison [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "French",
+          "middle_name": "G.",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "Samuel G. French",
+          "first_name": "Samuel"
+        }
+      ],
+      "description": "battery garrison",
+      "casualties": 0
+    },
+    "US": {
+      "gunboats": 2,
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Wyman",
+          "middle_name": "",
+          "rank": "Lieutenant",
+          "suffix": "",
+          "fullname": "R.H. Wyman",
+          "first_name": "R.H."
+        }
+      ],
+      "description": "Two gunboats",
+      "casualties": 0
+    }
+  },
+  "campaign": "Blockade of the Potomac River [October 1861-January 1862]",
+  "battle": "VA100",
+  "result": "Inconclusive",
+  "significance": "C",
+  "other_names": [
+    "Batteries at Evansport",
+    "Freestone Point",
+    "Shipping Point"
+  ],
+  "state": "VA",
+  "preservation": "III.3",
+  "principal_commanders": "Lt. R.H. Wyman [US]; Brig. Gen. Samuel G. French [CS]",
+  "end_date": "1862-01-03",
+  "cwsac_reference": "VA100",
+  "casualties": 0,
+  "location": [
+    {
+      "place": "Prince William County",
+      "state": "VA"
+    }
+  ],
+  "battle_name": "Cockpit Point"
+}

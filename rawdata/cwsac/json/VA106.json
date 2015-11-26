@@ -1,0 +1,65 @@
+{
+  "dates": "June 9, 1862",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va106.htm",
+  "results_text": "Confederate victory",
+  "casualties_text": "1,818 total (US 1,002; CS 816)",
+  "description": "Maj. Gen. T.J. Jackson concentrated his forces east of the South Fork of the Shenandoah against the isolated brigades of Tyler and Carroll of Shields's division, Brig. Gen. Erastus Tyler commanding. Confederate assaults across the bottomland were repulsed with heavy casualties, but a flanking column turned the Union left flank at the Coaling. Union counterattacks failed to reestablish the line, and Tyler was forced to retreat. Confederate forces at Cross Keys marched to join Jackson at Port Republic burning the North River Bridge behind them. Fr\u00e9mont's army arrived too late to assist Tyler and Carroll and watched helplessly from across the rain-swollen river. After these dual defeats at Cross Keys and Port Republic, the Union armies retreated, leaving Jackson in control of the upper and middle Shenandoah Valley and freeing his army to reinforce Lee before Richmond.",
+  "start_date": "1862-06-09",
+  "forces_text": "9,500 total (US 3,500; CS 6,000)",
+  "strength": 9500,
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Jackson",
+          "middle_name": "J.",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "Thomas J. Jackson",
+          "first_name": "Thomas"
+        }
+      ],
+      "description": "6,000",
+      "strength_max": 6000,
+      "strength_min": 6000,
+      "casualties": 816
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Tyler",
+          "middle_name": "",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "Erastus Tyler",
+          "first_name": "Erastus"
+        }
+      ],
+      "description": "3,500",
+      "strength_max": 3500,
+      "strength_min": 3500,
+      "casualties": 1002
+    }
+  },
+  "campaign": "Jackson's Valley Campaign [March-June 1862]",
+  "battle": "VA106",
+  "result": "Confederate",
+  "significance": "B",
+  "other_names": null,
+  "state": "VA",
+  "preservation": "II.2",
+  "principal_commanders": "Brig. Gen. Erastus Tyler [US]; Maj. Gen. Thomas J. Jackson [CS]",
+  "end_date": "1862-06-09",
+  "cwsac_reference": "VA106",
+  "casualties": 1818,
+  "location": [
+    {
+      "place": "Rockingham County",
+      "state": "VA"
+    }
+  ],
+  "battle_name": "Port Republic"
+}

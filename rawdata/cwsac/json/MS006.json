@@ -1,0 +1,64 @@
+{
+  "dates": "May 1, 1863",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ms006.htm",
+  "results_text": "Union victory",
+  "casualties_text": "1,648 total (US 861; CS 787)",
+  "description": "Maj. Gen. U.S. Grant launched his march on Vicksburg in the Spring of 1863, starting his army south, from Milliken's Bend, on the west side of the Mississippi River. He intended to cross the river at Grand Gulf, but the Union fleet was unable to silence the Confederate big guns there. Grant then marched farther south and crossed at Bruinsburg on April 30. Union forces came ashore, secured the landing area and, by late afternoon, began marching inland. Advancing on the Rodney Road towards Port Gibson, Grant's force ran into Rebel outposts after midnight and skirmished with them for around three hours. After 3:00 am, the fighting stopped. Union forces advanced on the Rodney Road and a plantation road at dawn. At 5:30 am, the Confederates engaged the Union advance and the battle ensued. Federals forced the Rebels to fall back. The Confederates established new defensive positions at different times during the day but they could not stop the Union onslaught and left the field in the early evening. This defeat demonstrated that the Confederates were unable to defend the Mississippi River line and the Federals had secured their beachhead. The way to Vicksburg was open.",
+  "start_date": "1863-05-01",
+  "forces_text": "Army of the Tennessee (comprising two corps) [US]; Confederate forces in area (one reinforced division: four brigades) [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Bowen",
+          "middle_name": "S.",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "John S. Bowen",
+          "first_name": "John"
+        }
+      ],
+      "description": "Confederate forces in area (one reinforced division: four brigades)",
+      "brigades": 4,
+      "casualties": 787
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Grant",
+          "middle_name": "S.",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "Ulysses S. Grant",
+          "first_name": "Ulysses"
+        }
+      ],
+      "description": "Army of the Tennessee (comprising two corps)",
+      "corps": 2,
+      "casualties": 861
+    }
+  },
+  "campaign": "Grant's Operations Against Vicksburg [March-July 1863]",
+  "battle": "MS006",
+  "result": "Union",
+  "significance": "B",
+  "other_names": [
+    "Thompson's Hill"
+  ],
+  "state": "MS",
+  "preservation": "I.3",
+  "principal_commanders": "Maj. Gen. Ulysses S. Grant [US]; Brig. Gen. John S. Bowen [CS]",
+  "end_date": "1863-05-01",
+  "cwsac_reference": "MS006",
+  "casualties": 1648,
+  "location": [
+    {
+      "place": "Claiborne County",
+      "state": "MS"
+    }
+  ],
+  "battle_name": "Port Gibson"
+}

@@ -1,0 +1,66 @@
+{
+  "dates": "August 28-29, 1861",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/nc001.htm",
+  "results_text": "Union victory",
+  "casualties_text": "773 total (US 3; CS 770)",
+  "description": "On August 26, an amphibious expedition led by Maj. Gen. Benjamin Butler and Flag-Officer Silas Stringham, embarked from Fort Monroe to capture Hatteras Inlet, an important haven for blockade-runners. On the 28th, while the navy bombarded Forts Clark and Hatteras, Union troops came ashore and attacked the rear of the Confederate batteries. On August 29, Col. William F. Martin surrendered the Confederate garrison of 670. The Federals lost only one man. Butler returned to Fort Monroe, leaving the captured forts garrisoned. This movement was part of Union efforts to seize coastal enclaves from which to enforce the blockade.",
+  "start_date": "1861-08-28",
+  "forces_text": "9th and 20th New York regiments (est. 2,000) [US]; Hatteras Island Garrison (900) [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Martin",
+          "middle_name": "F.",
+          "rank": "Colonel",
+          "suffix": "",
+          "fullname": "William F. Martin",
+          "first_name": "William"
+        }
+      ],
+      "description": "Hatteras Island Garrison (900)",
+      "strength_max": 900,
+      "strength_min": 900,
+      "casualties": 770
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Butler",
+          "middle_name": "",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "Benjamin Butler",
+          "first_name": "Benjamin"
+        }
+      ],
+      "description": "9th and 20th New York regiments (est. 2,000)",
+      "strength_max": 2000,
+      "strength_min": 2000,
+      "casualties": 3
+    }
+  },
+  "campaign": "Blockade of the Carolina Coast [August 1861]",
+  "battle": "NC001",
+  "result": "Union",
+  "significance": "C",
+  "other_names": [
+    "Forts Clark and Hatteras"
+  ],
+  "state": "NC",
+  "preservation": "IV.1",
+  "principal_commanders": "Maj. Gen. Benjamin Butler [US]; Col. William F. Martin [CS]",
+  "end_date": "1861-08-29",
+  "cwsac_reference": "NC001",
+  "casualties": 773,
+  "location": [
+    {
+      "place": "Dare County",
+      "state": "NC"
+    }
+  ],
+  "battle_name": "Hatteras Inlet Batteries"
+}

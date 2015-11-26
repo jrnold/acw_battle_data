@@ -1,0 +1,71 @@
+{
+  "dates": "October 22, 1864",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/mo025.htm",
+  "results_text": "Confederate victory",
+  "casualties_text": "Total unknown (US unknown; CS 140)",
+  "description": "Maj. Gen. Sterling Price's army rode west in the direction of Kansas City. On the night of the 21st, he camped at Independence and resumed his westward march the next morning with Brig. Gen. Joe Shelby's division in the lead followed by Brig. Gen. John S. Marmaduke's division, with Brig. Gen. James Fagan's division bringing up the rear. While Shelby's men met success at Byram's Ford, the other two columns did not fare as well. Maj. Gen. Alfred Pleasonton's Union force crossed the Little Blue, beat up a Rebel brigade in Fagan's command, and occupied Independence. Marmaduke's division then met Pleasonton about two miles west of Independence, hit the Federals hard, pressed them back, and held them at bay until the morning of the 23rd. Pleasonton's actions, however, frightened Price and his army, and influenced them, after they had crossed the Big Blue, to send their wagon trains to Little Santa Fe on the Fort Scott Road.",
+  "start_date": "1864-10-22",
+  "forces_text": "Provisional cavalry division [US]; Fagan and Marmaduke's Divisions, Army of Missouri [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Fagan",
+          "middle_name": "F.",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "James F. Fagan",
+          "first_name": "James"
+        },
+        {
+          "navy": false,
+          "last_name": "Marmaduke",
+          "middle_name": "S.",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "John S. Marmaduke",
+          "first_name": "John"
+        }
+      ],
+      "divisions": 2,
+      "description": "Fagan and Marmaduke's Divisions, Army of Missouri",
+      "casualties": 140
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Pleasonton",
+          "middle_name": "",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "Alfred Pleasonton",
+          "first_name": "Alfred"
+        }
+      ],
+      "cavalry_divisions": 1,
+      "description": "Provisional cavalry division",
+      "casualties": null
+    }
+  },
+  "campaign": "Price's Missouri Expedition [September-October 1864]",
+  "battle": "MO025",
+  "result": "Confederate",
+  "significance": "C",
+  "other_names": null,
+  "state": "MO",
+  "preservation": "IV.2",
+  "principal_commanders": "Maj. Gen. Alfred Pleasonton [US]; Brig. Gen. James F. Fagan and Brig. Gen. John S. Marmaduke [CS]",
+  "end_date": "1864-10-22",
+  "cwsac_reference": "MO025",
+  "casualties": null,
+  "location": [
+    {
+      "place": "Jackson County",
+      "state": "MO"
+    }
+  ],
+  "battle_name": "Independence"
+}

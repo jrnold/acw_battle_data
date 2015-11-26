@@ -1,0 +1,67 @@
+{
+  "dates": "February 12-22, 1865",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/nc016.htm",
+  "results_text": "Union victory",
+  "casualties_text": "1,150 total",
+  "description": "With the fall of Fort Fisher to Maj. Gen. Alfred Terry's and Rear Adm. David Porter's combined operation on January 15, Wilmington's days were numbered. About 6,600 Confederate troops under Maj. Gen. Robert Hoke held Fort Anderson and a line of works that prevented the Federals from advancing up the Cape Fear River. Early February, the XXIII Corps arrived at Fort Fisher, and Maj. Gen. John Schofield took command of the Union forces. Schofield now began a series of maneuvers to force the Confederates to abandon their defenses. On February 16, Jacob Cox's division ferried across the river to confront Fort Anderson, while Porter's gunboats bombarded the fort. On February 17-18, Ames's division conducted a wide flanking march to get in the fort's rear. Seeing the trap ready to close, the Confederates evacuated Fort Anderson during the night of the 18th-19th, withdrawing to Town Creek to form a new defensive line. The next day, this line collapsed to increasing Federal pressures. During the night of February 21-22, Gen. Braxton Bragg ordered the evacuation of Wilmington, burning cotton, tobacco, and government stores.",
+  "start_date": "1865-02-12",
+  "forces_text": "Cox's, Ames's, and Paine's Divisions (12,000) [US]; Hoke's Division, Hagood's Brigade (6,600) [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Bragg",
+          "middle_name": "",
+          "rank": "General",
+          "suffix": "",
+          "fullname": "Braxton Bragg",
+          "first_name": "Braxton"
+        }
+      ],
+      "strength_max": 6600,
+      "strength_min": 6600,
+      "description": "Hoke's Division, Hagood's Brigade (6,600)"
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Schofield",
+          "middle_name": "M.",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "John M. Schofield",
+          "first_name": "John"
+        }
+      ],
+      "strength_max": 12000,
+      "strength_min": 12000,
+      "description": "Cox's, Ames's, and Paine's Divisions (12,000)"
+    }
+  },
+  "campaign": "Operations Against Fort Fisher and Wilmington [January-February 1865]",
+  "battle": "NC016",
+  "result": "Union",
+  "significance": "D",
+  "other_names": [
+    "Fort Anderson",
+    "Town Creek",
+    "Forks Road",
+    "Sugar Loaf Hill"
+  ],
+  "state": "NC",
+  "preservation": "IV.2",
+  "principal_commanders": "Maj. Gen. John M. Schofield [US]; Gen. Braxton Bragg [CS]",
+  "end_date": "1865-02-22",
+  "cwsac_reference": "NC016",
+  "casualties": 1150,
+  "location": [
+    {
+      "place": "New Hanover County",
+      "state": "NC"
+    }
+  ],
+  "battle_name": "Wilmington"
+}

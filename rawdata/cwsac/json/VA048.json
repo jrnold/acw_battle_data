@@ -1,0 +1,78 @@
+{
+  "dates": "May 8-21, 1864",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va048.htm",
+  "results_text": "Inconclusive (Grant continued his offensive.)",
+  "casualties_text": "30,000 total (US 18,000; CS 12,000)",
+  "description": "After the Wilderness, Grant's and Meade's advance on Richmond by the left flank was stalled at Spotsylvania Court House on May 8. This two-week battle was a series of combats along the Spotsylvania front. The Union attack against the Bloody Angle at dawn, May 12-13, captured nearly a division of Lee's army and came near to cutting the Confederate army in half. Confederate counterattacks plugged the gap, and fighting continued unabated for nearly 20 hours in what may well have been the most ferociously sustained combat of the Civil War. On May 19, a Confederate attempt to turn the Union right flank at Harris Farm was beaten back with severe casualties. Union generals Sedgwick (VI Corps commander) and Rice were killed. Confederate generals Johnson and Steuart were captured, Daniel and Perrin mortally wounded. On May 21, Grant disengaged and continued his advance on Richmond.",
+  "start_date": "1864-05-08",
+  "forces_text": "152,000 total (US 100,000; CS 52,000)",
+  "strength": 152000,
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Lee",
+          "middle_name": "E.",
+          "rank": "General",
+          "suffix": "",
+          "fullname": "Robert E. Lee",
+          "first_name": "Robert"
+        }
+      ],
+      "description": "52,000",
+      "strength_max": 52000,
+      "strength_min": 52000,
+      "casualties": 12000
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Grant",
+          "middle_name": "S.",
+          "rank": "Lieutenant General",
+          "suffix": "",
+          "fullname": "Ulysses S. Grant",
+          "first_name": "Ulysses"
+        },
+        {
+          "navy": false,
+          "last_name": "Meade",
+          "middle_name": "G.",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "George G. Meade",
+          "first_name": "George"
+        }
+      ],
+      "description": "100,000",
+      "strength_max": 100000,
+      "strength_min": 100000,
+      "casualties": 18000
+    }
+  },
+  "campaign": "Grant's Overland Campaign [May-June 1864]",
+  "battle": "VA048",
+  "result": "Inconclusive",
+  "significance": "A",
+  "other_names": [
+    "Combats at Laurel Hill and Corbin's Bridge (May 8); Ni River (May 9); Laurel Hill",
+    "Po River",
+    "and Bloody Angle (May 10); Salient or Bloody Angle (May 12-13); Piney Branch Church (May 15); Harrison House (May 18); Harris Farm (May 19)"
+  ],
+  "state": "VA",
+  "preservation": "I.2",
+  "principal_commanders": "Lt. Gen. Ulysses S. Grant and Maj. Gen. George G. Meade [US]; Gen. Robert E. Lee [CS]",
+  "end_date": "1864-05-21",
+  "cwsac_reference": "VA048",
+  "casualties": 30000,
+  "location": [
+    {
+      "place": "Spotsylvania County",
+      "state": "VA"
+    }
+  ],
+  "battle_name": "Spotsylvania Court House"
+}

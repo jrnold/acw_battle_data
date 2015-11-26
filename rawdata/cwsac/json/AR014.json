@@ -1,0 +1,72 @@
+{
+  "dates": "April 18, 1864",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ar014.htm",
+  "results_text": "Confederate victory",
+  "casualties_text": "415 total (US 301; CS 114)",
+  "description": "Dwindling supplies for his army at Camden forced Maj. Gen. Fred Steele to send out a foraging party to gather corn that the Confederates had stored about twenty miles up the Prairie D'Ane-Camden Road on White Oak Creek. The party loaded the corn into wagons, and on April 18, Col. James M. Williams started his return to Camden. Brig. Gen. John S. Marmaduke's and Brig. Gen. Samuel B. Maxey's Confederate forces arrived at Lee Plantation, about fifteen miles from Camden, where they engaged Williams. The Rebels eventually attacked Williams in the front and rear forcing him to retreat north into a marsh where his men regrouped and then fell back to Camden. The Union lost 198 wagons and all the corn.",
+  "start_date": "1864-04-18",
+  "forces_text": "Brigade (1,100 men) [US]; Marmaduke's and Maxey's Divisions [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Marmaduke",
+          "middle_name": "S.",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "John S. Marmaduke",
+          "first_name": "John"
+        },
+        {
+          "navy": false,
+          "last_name": "Maxey",
+          "middle_name": "Bell",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "Samuel Bell Maxey",
+          "first_name": "Samuel"
+        }
+      ],
+      "divisions": 2,
+      "description": "Marmaduke's and Maxey's Divisions",
+      "casualties": 114
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Williams",
+          "middle_name": "M.",
+          "rank": "Colonel",
+          "suffix": "",
+          "fullname": "James M. Williams",
+          "first_name": "James"
+        }
+      ],
+      "description": "Brigade (1,100 men)",
+      "strength_max": 1100,
+      "strength_min": 1100,
+      "casualties": 301
+    }
+  },
+  "campaign": "Camden Expedition [April 1864]",
+  "battle": "AR014",
+  "result": "Confederate",
+  "significance": "C",
+  "other_names": null,
+  "state": "AR",
+  "preservation": "III.3",
+  "principal_commanders": "Col. James M. Williams [US]; Brig. Gen. John S. Marmaduke and Brig. Gen. Samuel Bell Maxey [CS]",
+  "end_date": "1864-04-18",
+  "cwsac_reference": "AR014",
+  "casualties": 415,
+  "location": [
+    {
+      "place": "Ouachita County",
+      "state": "AR"
+    }
+  ],
+  "battle_name": "Poison Spring"
+}

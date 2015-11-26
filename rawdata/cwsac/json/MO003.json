@@ -1,0 +1,56 @@
+{
+  "dates": "September 17, 1861",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/mo003.htm",
+  "results_text": "Confederate victory",
+  "casualties_text": "126 total (US 56; CS 70)",
+  "description": "\"General\" D.R. Atchison left Lexington on September 15, 1861, and proceeded to Liberty where he met the Missouri State Guard. On the night of September 16-17, his force crossed the Missouri River to the south side and prepared for a fight with Union troops reported to be in the area. At the same time, Union Lt. Col. John Scott led a force of about 600 men from Cameron, on the 15th, towards Liberty. He left his camp in Centreville, at 2:00 am on the 17th. He arrived in Liberty, sent scouts out to find the enemy, and, about 11:00 am, skirmishing began. At noon, Scott marched in the direction of the firing, approached Blue Mills Landing and, at 3:00 am, struck the Confederate pickets. The Union force began to fall back, though, and the Rebels pursued for some distance. The fight lasted for an hour. The Confederates were consolidating influence in northwestern Missouri.",
+  "start_date": "1861-09-17",
+  "forces_text": "Detachments of 3rd Iowa Infantry, Home Guards, and artillery (approx. 600 men) [US]; 4th Division, Missouri State Guard [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [],
+      "divisions": 1,
+      "description": "4th Division, Missouri State Guard",
+      "casualties": 70
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Scott",
+          "middle_name": "",
+          "rank": "Lieutenant Colonel",
+          "suffix": "",
+          "fullname": "John Scott",
+          "first_name": "John"
+        }
+      ],
+      "description": "Detachments of 3rd Iowa Infantry, Home Guards, and artillery (approx. 600 men)",
+      "strength_max": 600,
+      "strength_min": 600,
+      "casualties": 56
+    }
+  },
+  "campaign": "Operations to Control Missouri [June-October 1861]",
+  "battle": "MO003",
+  "result": "Confederate",
+  "significance": "D",
+  "other_names": [
+    "Blue Mills Landing",
+    "Blue Mills"
+  ],
+  "state": "MO",
+  "preservation": "III.4",
+  "principal_commanders": "Lt. Col. John Scott [US]; \"General\" D.R. Atchison (Atkinson) [CS]",
+  "end_date": "1861-09-17",
+  "cwsac_reference": "MO003",
+  "casualties": 126,
+  "location": [
+    {
+      "place": "Clay County",
+      "state": "MO"
+    }
+  ],
+  "battle_name": "Liberty"
+}

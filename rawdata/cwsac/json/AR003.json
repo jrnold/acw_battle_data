@@ -1,0 +1,83 @@
+{
+  "dates": "July 7, 1862",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ar003.htm",
+  "results_text": "Union victory",
+  "casualties_text": "308 total (US 63; CS 245)",
+  "description": "Union Maj. Gen. Samuel R. Curtis moved on Helena, Arkansas, in search of supplies to replace those that had been promised but never delivered by the Navy. The Confederates under Maj. Gen. Thomas C. Hindman attempted to prevent this change of supply base by continually skirmishing with the Union troops. The Confederates made a stand at the Cache River on July 7. As Union Col. C.L. Harris moved forward with elements of the 11th Wisconsin, 33rd Illinois, and the 1st Indiana Cavalry, moved forward, he blundered into an ambuscade. The fighting became more general, and the Confederates, with a frontal attack, forced the Union to retreat about a quarter of a mile. The next Confederate attack, however, was stopped. With reinforcements, the Federals pursued the retreating Confederates and turned the retreat into a rout as the day progressed. Curtis was able change his supply base, but Hindman, despite suffering defeat at Hill's Plantation, remained between Curtis and Little Rock, his objective.",
+  "start_date": "1862-07-07",
+  "forces_text": "1st and 2nd Brigade, 1st Division, Army of the Southwest [US]; unknown [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Hindman",
+          "middle_name": "C.",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "Thomas C. Hindman",
+          "first_name": "Thomas"
+        },
+        {
+          "navy": false,
+          "last_name": "Parsons",
+          "middle_name": "H.",
+          "rank": "Colonel",
+          "suffix": "",
+          "fullname": "William H. Parsons",
+          "first_name": "William"
+        }
+      ],
+      "description": "unknown",
+      "casualties": 245
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Hovey",
+          "middle_name": "",
+          "rank": "Colonel",
+          "suffix": "",
+          "fullname": "Charles Hovey",
+          "first_name": "Charles"
+        },
+        {
+          "navy": false,
+          "last_name": "Benton",
+          "middle_name": "P.",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "William P. Benton",
+          "first_name": "William"
+        }
+      ],
+      "description": "1st and 2nd Brigade, 1st Division, Army of the Southwest",
+      "brigades": 2,
+      "casualties": 63
+    }
+  },
+  "campaign": "Operations Near Cache River, Arkansas [July 1862]",
+  "battle": "AR003",
+  "result": "Union",
+  "significance": "D",
+  "other_names": [
+    "Cache River",
+    "Cotton Plant",
+    "Round Hill"
+  ],
+  "state": "AR",
+  "preservation": "III.4",
+  "principal_commanders": "Col. Charles Hovey and Brig. Gen. William P. Benton [US]; Maj. Gen. Thomas C. Hindman and Col. William H. Parsons [CS]",
+  "end_date": "1862-07-07",
+  "cwsac_reference": "AR003",
+  "casualties": 308,
+  "location": [
+    {
+      "place": "Woodruff County",
+      "state": "AR"
+    }
+  ],
+  "battle_name": "Hill's Plantation"
+}

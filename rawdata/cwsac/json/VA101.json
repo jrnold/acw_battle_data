@@ -1,0 +1,69 @@
+{
+  "dates": "March 23, 1862",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va101.htm",
+  "results_text": "Union victory",
+  "casualties_text": "1,308 total (US 590; CS 718)",
+  "description": "Relying on faulty intelligence that reported the Union garrison at Winchester numbered only about 3,000, \"Stonewall\" Jackson marched aggressively north with his 3,400-man division. The 8,500 Federals, commanded by Col. Nathan Kimball, stopped Jackson at Kernstown and then counterattacked turning Jackson's left flank and forcing him to retreat. Despite this Union victory, President Lincoln was disturbed by Jackson's threat to Washington and redirected substantial reinforcements to the Valley, depriving McClellan's army of these troops. McClellan claimed that the additional troops would have enabled him to take Richmond during his Peninsula campaign.",
+  "start_date": "1862-03-23",
+  "forces_text": "12,300 total (US 8,500; CS 3,800)",
+  "strength": 12300,
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Jackson",
+          "middle_name": "J.",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "Thomas J. Jackson",
+          "first_name": "Thomas"
+        }
+      ],
+      "description": "3,800",
+      "strength_max": 3800,
+      "strength_min": 3800,
+      "casualties": 718
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Kimball",
+          "middle_name": "",
+          "rank": "Colonel",
+          "suffix": "",
+          "fullname": "Nathan Kimball",
+          "first_name": "Nathan"
+        }
+      ],
+      "description": "8,500",
+      "strength_max": 8500,
+      "strength_min": 8500,
+      "casualties": 590
+    }
+  },
+  "campaign": "Jackson's Valley Campaign [March-June 1862]",
+  "battle": "VA101",
+  "result": "Union",
+  "significance": "B",
+  "other_names": null,
+  "state": "VA",
+  "preservation": "I.3",
+  "principal_commanders": "Col. Nathan Kimball [US]; Maj. Gen. Thomas J. Jackson [CS]",
+  "end_date": "1862-03-23",
+  "cwsac_reference": "VA101",
+  "casualties": 1308,
+  "location": [
+    {
+      "place": "Frederick County",
+      "state": "VA"
+    },
+    {
+      "place": "Winchester",
+      "state": "VA"
+    }
+  ],
+  "battle_name": "Kernstown, First"
+}

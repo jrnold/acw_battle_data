@@ -1,0 +1,62 @@
+{
+  "dates": "May 18-July 4, 1863",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ms011.htm",
+  "results_text": "Union victory",
+  "casualties_text": "19,233 total (US 10,142; CS 9,091)",
+  "description": "In May and June of 1863, Maj. Gen. Ulysses S. Grant's armies converged on Vicksburg, investing the city and entrapping a Confederate army under Lt. Gen. John Pemberton. On July 4, Vicksburg surrendered after prolonged siege operations. This was the culmination of one of the most brilliant military campaigns of the war. With the loss of Pemberton's army and this vital stronghold on the Mississippi, the Confederacy was effectively split in half. Grant's successes in the West boosted his reputation, leading ultimately to his appointment as General-in-Chief of the Union armies.",
+  "start_date": "1863-05-18",
+  "forces_text": "Army of the Tennessee [US]; Army of Vicksburg [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Pemberton",
+          "middle_name": "C.",
+          "rank": "Lieutenant General",
+          "suffix": "",
+          "fullname": "John C. Pemberton",
+          "first_name": "John"
+        }
+      ],
+      "description": "Army of Vicksburg",
+      "armies": 1,
+      "casualties": 9091
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Grant",
+          "middle_name": "S.",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "Ulysses S. Grant",
+          "first_name": "Ulysses"
+        }
+      ],
+      "description": "Army of the Tennessee",
+      "armies": 1,
+      "casualties": 10142
+    }
+  },
+  "campaign": "Grant's Operations Against Vicksburg [March-July 1863]",
+  "battle": "MS011",
+  "result": "Union",
+  "significance": "A",
+  "other_names": null,
+  "state": "MS",
+  "preservation": "I.2",
+  "principal_commanders": "Maj. Gen. Ulysses S. Grant [US]; Lt. Gen. John C. Pemberton [CS]",
+  "end_date": "1863-07-04",
+  "cwsac_reference": "MS011",
+  "casualties": 19233,
+  "location": [
+    {
+      "place": "Warren County",
+      "state": "MS"
+    }
+  ],
+  "battle_name": "Vicksburg"
+}

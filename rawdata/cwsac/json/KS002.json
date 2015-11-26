@@ -1,0 +1,74 @@
+{
+  "dates": "October 6, 1863",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ks002.htm",
+  "results_text": "Confederate victory",
+  "casualties_text": "106 total (US 103; CS 3)",
+  "description": "After conducting many raids in Kansas, including the massacre at Lawrence, Quantrill decided to winter in Texas. Along with other partisans, he headed south on the Texas Road and captured and killed two Union teamsters who had come from a post called Baxter Springs. Quantrill decided to attack the post and divided his force into two columns, one under him and the other commanded by a subordinate, David Poole. Poole and his men proceeded down the Texas Road, where they encountered Union soldiers, most of whom were African Americans. They chased and attacked the Union troops, killing some of them before they reached the earth and log fort. After the Union survivors reached the fort, the Rebels attacked, but the garrison, with the help of a howitzer, fought them off. Quantrill's column moved on the post from another direction and chanced on a Union detachment escorting Maj. Gen. James G. Blunt and wagons transporting his personal items from his former headquarters of the Department of the Frontier at Fort Scott to his new one at Fort Smith. Most of this detachment, including the band and Maj. Henry Z. Curtis (son of Maj. Gen. Samuel R. Curtis), was murdered, but Blunt and a few mounted men returned to Fort Scott. Blunt was removed from command for failing to protect his column, but he was soon restored. Touted as a massacre by some, Baxter Springs was another of the events that characterized the vicious Kansas-Missouri border warfare.",
+  "start_date": "1863-10-06",
+  "forces_text": "Detachments from three regiments and an escort [US]; Quantrill's Raiders (approx. 400) [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Quantrill",
+          "middle_name": "C.",
+          "rank": "Lieutenant Colonel",
+          "suffix": "",
+          "fullname": "William C. Quantrill",
+          "first_name": "William"
+        }
+      ],
+      "description": "Quantrill's Raiders (approx. 400)",
+      "strength_max": 400,
+      "strength_min": 400,
+      "casualties": 3
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Pond",
+          "middle_name": "B.",
+          "rank": "Lieutenant",
+          "suffix": "",
+          "fullname": "James B. Pond",
+          "first_name": "James"
+        },
+        {
+          "navy": false,
+          "last_name": "Blunt",
+          "middle_name": "G.",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "James G. Blunt",
+          "first_name": "James"
+        }
+      ],
+      "description": "Detachments from three regiments and an escort",
+      "regiments": 1.5,
+      "casualties": 103
+    }
+  },
+  "campaign": "Occupation of Indian Territory North of the Arkansas River [October 1863]",
+  "battle": "KS002",
+  "result": "Confederate",
+  "significance": "C",
+  "other_names": [
+    "Baxter Springs Massacre"
+  ],
+  "state": "KS",
+  "preservation": "IV.2",
+  "principal_commanders": "Lt. James B. Pond and Maj. Gen. James G. Blunt [US]; Lt. Col. William C. Quantrill [CS]",
+  "end_date": "1863-10-06",
+  "cwsac_reference": "KS002",
+  "casualties": 106,
+  "location": [
+    {
+      "place": "Cherokee County",
+      "state": "KS"
+    }
+  ],
+  "battle_name": "Baxter Springs"
+}

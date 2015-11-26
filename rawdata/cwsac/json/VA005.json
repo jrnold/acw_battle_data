@@ -1,0 +1,80 @@
+{
+  "dates": "July 21, 1861",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va005.htm",
+  "results_text": "Confederate victory",
+  "casualties_text": "4,700 total (US 2,950; CS 1,750)",
+  "description": "This was the first major land battle of the armies in Virginia. On July 16, 1861, the untried Union army under Brig. Gen. Irvin McDowell marched from Washington against the Confederate army, which was drawn up behind Bull Run beyond Centreville. On the 21st, McDowell crossed at Sudley Ford and attacked the Confederate left flank on Matthews Hill. Fighting raged throughout the day as Confederate forces were driven back to Henry Hill. Late in the afternoon, Confederate reinforcements (one brigade arriving by rail from the Shenandoah Valley) extended and broke the Union right flank. The Federal retreat rapidly deteriorated into a rout. Although victorious, Confederate forces were too disorganized to pursue. Confederate Gen. Bee and Col. Bartow were killed. Thomas J. Jackson earned the nom de guerre \"Stonewall.\" By July 22, the shattered Union army reached the safety of Washington. This battle convinced the Lincoln administration that the war would be a long and costly affair. McDowell was relieved of command of the Union army and replaced by Maj. Gen. George B. McClellan, who set about reorganizing and training the troops.",
+  "start_date": "1861-07-21",
+  "forces_text": "60,680 total (US 28,450; CS 32,230)",
+  "strength": 60680,
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Johnston",
+          "middle_name": "E.",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "Joseph E. Johnston",
+          "first_name": "Joseph"
+        },
+        {
+          "navy": false,
+          "last_name": "Beauregard",
+          "middle_name": "",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "P.G.T. Beauregard",
+          "first_name": "P.G.T."
+        }
+      ],
+      "description": "32,230",
+      "strength_max": 32230,
+      "strength_min": 32230,
+      "casualties": 1750
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "McDowell",
+          "middle_name": "",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "Irvin McDowell",
+          "first_name": "Irvin"
+        }
+      ],
+      "description": "28,450",
+      "strength_max": 28450,
+      "strength_min": 28450,
+      "casualties": 2950
+    }
+  },
+  "campaign": "Manassas Campaign [July 1861]",
+  "battle": "VA005",
+  "result": "Confederate",
+  "significance": "A",
+  "other_names": [
+    "First Bull Run"
+  ],
+  "state": "VA",
+  "preservation": "III.1",
+  "principal_commanders": "Brig. Gen. Irvin McDowell [US]; Brig. Gen. Joseph E. Johnston and Brig. Gen. P.G.T. Beauregard [CS]",
+  "end_date": "1861-07-21",
+  "cwsac_reference": "VA005",
+  "casualties": 4700,
+  "location": [
+    {
+      "place": "Fairfax County",
+      "state": "VA"
+    },
+    {
+      "place": "Prince William County",
+      "state": "VA"
+    }
+  ],
+  "battle_name": "Manassas, First"
+}

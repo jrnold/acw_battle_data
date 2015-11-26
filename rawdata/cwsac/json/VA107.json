@@ -1,0 +1,69 @@
+{
+  "dates": "June 13-15, 1863",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va107.htm",
+  "results_text": "Confederate victory",
+  "casualties_text": "4,709 total (US 4,443; CS 266)",
+  "description": "After the Battle of Brandy Station, June 9, 1863, Lee ordered the II Corps, Army of Northern Virginia, under Lt. Gen. Richard S. Ewell, to clear the lower Shenandoah Valley of Union opposition. Ewell's columns converged on Winchester's garrison commanded by Brig. Gen. Robert Milroy. After fighting on the afternoon of June 13 and the capture of West Fort by the Louisiana Brigade on June 14, Milroy abandoned his entrenchments after dark in an attempt to reach Charles Town. \"Allegheny\" Johnson's division conducted a night flanking march and before daylight of the 15th cut off Milroy's retreat just north of Winchester at Stephenson's Depot. More than 2,400 Federals surrendered. This Confederate victory cleared the Valley of Union troops and opened the door for Lee's second invasion of the North.",
+  "start_date": "1863-06-13",
+  "forces_text": "19,500 total (US 7,000; CS 12,500)",
+  "strength": 19500,
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Ewell",
+          "middle_name": "S.",
+          "rank": "Lieutenant General",
+          "suffix": "",
+          "fullname": "Richard S. Ewell",
+          "first_name": "Richard"
+        }
+      ],
+      "description": "12,500",
+      "strength_max": 12500,
+      "strength_min": 12500,
+      "casualties": 266
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Milroy",
+          "middle_name": "",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "Robert Milroy",
+          "first_name": "Robert"
+        }
+      ],
+      "description": "7,000",
+      "strength_max": 7000,
+      "strength_min": 7000,
+      "casualties": 4443
+    }
+  },
+  "campaign": "Gettysburg Campaign [June-July 1863]",
+  "battle": "VA107",
+  "result": "Confederate",
+  "significance": "B",
+  "other_names": null,
+  "state": "VA",
+  "preservation": "IV.1",
+  "principal_commanders": "Brig. Gen. Robert Milroy [US]; Lt. Gen. Richard S. Ewell [CS]",
+  "end_date": "1863-06-15",
+  "cwsac_reference": "VA107",
+  "casualties": 4709,
+  "location": [
+    {
+      "place": "Frederick County",
+      "state": "VA"
+    },
+    {
+      "place": "Winchester",
+      "state": "VA"
+    }
+  ],
+  "battle_name": "Winchester, Second"
+}

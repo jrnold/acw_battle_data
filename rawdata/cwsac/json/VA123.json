@@ -1,0 +1,63 @@
+{
+  "dates": "March 2, 1865",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va123.htm",
+  "results_text": "Union victory",
+  "casualties_text": "1,800 total",
+  "description": "On February 27, Maj. Gen. Philip Sheridan with two cavalry divisions rode from Winchester up the Shenandoah Valley to Staunton. Turning east, the Federals encountered the last remnant of Lt. Gen. Jubal Early's Valley army at Waynesboro on March 2. After a brief stand-off, a Federal attack rolled up Early's right flank and scattered his small force. More than 1,500 Confederates surrendered. Early and a few of his staff evaded capture. Sheridan crossed the Blue Ridge to Charlottesville and then raided south, destroying the James River Canal locks near Goochland Court House. He joined forces with the Army of the Potomac near Petersburg on March 26 for the opening of the Appomattox Campaign.",
+  "start_date": "1865-03-02",
+  "forces_text": "4,100 total (US 2,500; CS 1,600)",
+  "strength": 4100,
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Early",
+          "middle_name": "A.",
+          "rank": "Lieutenant General",
+          "suffix": "",
+          "fullname": "Jubal A. Early",
+          "first_name": "Jubal"
+        }
+      ],
+      "strength_max": 1600,
+      "strength_min": 1600,
+      "description": "1,600"
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Sheridan",
+          "middle_name": "",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "Philip Sheridan",
+          "first_name": "Philip"
+        }
+      ],
+      "strength_max": 2500,
+      "strength_min": 2500,
+      "description": "2,500"
+    }
+  },
+  "campaign": "Sheridan's Expedition to Petersburg [March 1865]",
+  "battle": "VA123",
+  "result": "Union",
+  "significance": "B",
+  "other_names": null,
+  "state": "VA",
+  "preservation": "IV.2",
+  "principal_commanders": "Maj. Gen. Philip Sheridan [US]; Lt. Gen. Jubal A. Early [CS]",
+  "end_date": "1865-03-02",
+  "cwsac_reference": "VA123",
+  "casualties": 1800,
+  "location": [
+    {
+      "place": "Augusta County",
+      "state": "VA"
+    }
+  ],
+  "battle_name": "Waynesboro"
+}

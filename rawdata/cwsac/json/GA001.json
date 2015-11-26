@@ -1,0 +1,69 @@
+{
+  "dates": "April 10-11, 1862",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ga001.htm",
+  "results_text": "Union victory",
+  "casualties_text": "365 total (US 1; CS 364)",
+  "description": "Fort Pulaski, built by the U.S. Army before the war, is located near the mouth of the Savannah River, blocking upriver access to Savannah. Fortifications such as Pulaski, called third system forts, were considered invincible, but the new technology of rifled artillery changed that. On February 19, 1862, Brig. Gen. Thomas W. Sherman ordered Captain Quincy A. Gillmore, an engineer officer, to take charge of the investment force and begin the bombardment and capture of the fort. Gillmore emplaced artillery on the mainland southeast of the fort and began the bombardment on April 10 after Colonel Charles H. Olmstead refused to surrender the fort. Within hours, Gillmore's rifled artillery had breached the southeast scarp of the fort, and he continued to exploit it. Some of his shells began to damage the traverse shielding the magazine in the northwest bastion. Realizing that if the magazine exploded the fort would be seriously damaged and the garrison would suffer severe casualties, Olmstead surrendered after 2:00 pm on April 11.",
+  "start_date": "1862-04-10",
+  "forces_text": "The Port Royal Expeditionary Force's Fort Pulaski investment troops [US]; Fort Pulaski Garrison [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Olmstead",
+          "middle_name": "H.",
+          "rank": "Colonel",
+          "suffix": "",
+          "fullname": "Charles H. Olmstead",
+          "first_name": "Charles"
+        }
+      ],
+      "description": "Fort Pulaski Garrison",
+      "casualties": 364
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Hunter",
+          "middle_name": "",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "David Hunter",
+          "first_name": "David"
+        },
+        {
+          "navy": false,
+          "last_name": "Gillmore",
+          "middle_name": "A.",
+          "rank": "Captain",
+          "suffix": "",
+          "fullname": "Quincy A. Gillmore",
+          "first_name": "Quincy"
+        }
+      ],
+      "description": "The Port Royal Expeditionary Force's Fort Pulaski investment troops",
+      "casualties": 1
+    }
+  },
+  "campaign": "Operations Against Fort Pulaski [April 1862]",
+  "battle": "GA001",
+  "result": "Union",
+  "significance": "B",
+  "other_names": null,
+  "state": "GA",
+  "preservation": "III.2",
+  "principal_commanders": "Maj. Gen. David Hunter and Capt. Quincy A. Gillmore [US]; Col. Charles H. Olmstead [CS]",
+  "end_date": "1862-04-11",
+  "cwsac_reference": "GA001",
+  "casualties": 365,
+  "location": [
+    {
+      "place": "Chatham County",
+      "state": "GA"
+    }
+  ],
+  "battle_name": "Fort Pulaski"
+}

@@ -1,0 +1,66 @@
+{
+  "dates": "July 18, 1861",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va004.htm",
+  "results_text": "Confederate victory",
+  "casualties_text": "151 total (US 83; CS 68)",
+  "description": "On 16 July, 1862, the untried Union army under Brig. Gen. Irvin McDowell, 35,000 strong, marched out of the Washington defenses to give battle to the Confederate army, which was concentrated around the vital railroad junction at Manassas. The Confederate army, about 22,000 men, under the command of Brig. Gen. P.G.T. Beauregard, guarded the fords of Bull Run. On July 18, McDowell reached Centreville and pushed southwest, attempting to cross at Blackburn's Ford. He was repulsed. This action was a reconnaissance-in-force prior to the main event at Manassas/Bull Run. Because of this action, Union commander McDowell decided on the flanking maneuver he employed at First Manassas.",
+  "start_date": "1861-07-18",
+  "forces_text": "Brigades",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Beauregard",
+          "middle_name": "",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "P.G.T. Beauregard",
+          "first_name": "P.G.T."
+        }
+      ],
+      "brigades": 1,
+      "casualties": 68
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "McDowell",
+          "middle_name": "",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "Irvin McDowell",
+          "first_name": "Irvin"
+        }
+      ],
+      "brigades": 1,
+      "casualties": 83
+    }
+  },
+  "campaign": "Manassas Campaign [July 1861]",
+  "battle": "VA004",
+  "result": "Confederate",
+  "significance": "C",
+  "other_names": [
+    "Bull Run"
+  ],
+  "state": "VA",
+  "preservation": "IV.1",
+  "principal_commanders": "Brig. Gen. Irvin McDowell [US]; Brig. Gen. P.G.T. Beauregard [CS]",
+  "end_date": "1861-07-18",
+  "cwsac_reference": "VA004",
+  "casualties": 151,
+  "location": [
+    {
+      "place": "Prince William County",
+      "state": "VA"
+    },
+    {
+      "place": "Fairfax County",
+      "state": "VA"
+    }
+  ],
+  "battle_name": "Blackburn's Ford"
+}

@@ -1,0 +1,64 @@
+{
+  "dates": "January 8, 1862",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/mo011.htm",
+  "results_text": "Union victory",
+  "casualties_text": "91 total (US 11; CS 80)",
+  "description": "Rumors and sightings of a Confederate force in the Howard County area had circulated for more than a week, but the Union troops could not locate them. On January 7, 1862, information came to hand that Col. J.A. Poindexter and his Confederate force were camped on Silver Creek. Detachments from various Union units came together and headed towards the Confederate camp which was about 14 miles northwest of Fayette. After finding the camp, the force attacked, routing the enemy and sending those that were not killed, wounded, or captured fleeing for safety. Afterwards, the Union force destroyed the camp to prevent its further use. The Confederates could no longer use their Randolph County base for recruiting and raiding.",
+  "start_date": "1862-01-08",
+  "forces_text": "Detachments from the 1st and 2nd Missouri Cavalry, 4th Ohio Cavalry, and 1st Iowa Cavalry (450) [US]; unknown [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Poindexter",
+          "middle_name": "",
+          "rank": "Colonel",
+          "suffix": "",
+          "fullname": "J.A. Poindexter",
+          "first_name": "J.A."
+        }
+      ],
+      "description": "unknown",
+      "casualties": 80
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Torrence",
+          "middle_name": "",
+          "rank": "Major",
+          "suffix": "",
+          "fullname": "W.M.G. Torrence",
+          "first_name": "W.M.G."
+        }
+      ],
+      "description": "Detachments from the 1st and 2nd Missouri Cavalry, 4th Ohio Cavalry, and 1st Iowa Cavalry (450)",
+      "strength_max": 450,
+      "strength_min": 450,
+      "casualties": 11
+    }
+  },
+  "campaign": "Operations in Northeast Missouri [December 1861]",
+  "battle": "MO011",
+  "result": "Union",
+  "significance": "D",
+  "other_names": [
+    "Silver Creek"
+  ],
+  "state": "MO",
+  "preservation": "III.4",
+  "principal_commanders": "Maj. W.M.G. Torrence [US]; Col. J.A. Poindexter [CS]",
+  "end_date": "1862-01-08",
+  "cwsac_reference": "MO011",
+  "casualties": 91,
+  "location": [
+    {
+      "place": "Randolf County",
+      "state": "MO"
+    }
+  ],
+  "battle_name": "Roan's Tan Yard"
+}

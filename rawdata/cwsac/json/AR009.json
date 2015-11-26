@@ -1,0 +1,64 @@
+{
+  "dates": "September 1, 1863",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ar009.htm",
+  "results_text": "Union victory",
+  "casualties_text": "81 total (US 16; CS 65)",
+  "description": "Union Maj. Gen. James G. Blunt ordered Col. William Cloud to continue in pursuit of the Confederate forces that had withdrawn from Fort Smith and were chased to Old Jenny Lind. The Rebels turned on Cloud and skirmished with him at the base of Devil's Backbone. Cabell's forces ambushed approaching Union troops and momentarily halted their advance. Regrouping, the Union forces, with the help of artillery, advanced again and forced the Confederates to retire in disorder to Waldron.",
+  "start_date": "1863-09-01",
+  "forces_text": "2nd Kansas Cavalry, 6th Missouri Cavalry, and two sections of Rabb's 2nd Indiana Battery [US]; Cabell's Brigade [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Cabell",
+          "middle_name": "",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "W.L. Cabell",
+          "first_name": "W.L."
+        }
+      ],
+      "description": "Cabell's Brigade",
+      "brigades": 1,
+      "casualties": 65
+    },
+    "US": {
+      "cavalry_regiments": 2,
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Cloud",
+          "middle_name": "F.",
+          "rank": "Colonel",
+          "suffix": "",
+          "fullname": "William F. Cloud",
+          "first_name": "William"
+        }
+      ],
+      "description": "2nd Kansas Cavalry, 6th Missouri Cavalry, and two sections of Rabb's 2nd Indiana Battery",
+      "casualties": 16
+    }
+  },
+  "campaign": "Operations to Control Indian Territory [June-September 1863]",
+  "battle": "AR009",
+  "result": "Union",
+  "significance": "C",
+  "other_names": [
+    "Backbone Mountain"
+  ],
+  "state": "AR",
+  "preservation": "II.3",
+  "principal_commanders": "Col. William F. Cloud [US]; Brig. Gen. W.L. Cabell [CS]",
+  "end_date": "1863-09-01",
+  "cwsac_reference": "AR009",
+  "casualties": 81,
+  "location": [
+    {
+      "place": "Sebastian County",
+      "state": "AR"
+    }
+  ],
+  "battle_name": "Devil's Backbone"
+}

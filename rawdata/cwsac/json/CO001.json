@@ -1,0 +1,56 @@
+{
+  "dates": "November 29-30, 1864",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/co001.htm",
+  "results_text": "Union victory (massacre)",
+  "casualties_text": "Total unknown (US unknown; I 200)",
+  "description": "Scattered Indian raids had caused much ill-will between the white settlers and the Native Americans. In the autumn, Territorial (Colorado) officers had offered a vague amnesty if Indians reported to army forts. Black Kettle with many Cheyennes and a few Arapahos, believing themselves to be protected, established a winter camp about 40 miles from Fort Lyon. On November 29, Col. John Chivington, who advocated Indian extermination, arrived near the camp, having marched there from Fort Lyon. In spite of the American flag and a white flag flying over the camp, the troops attacked, killing and mutilating about 200 of the Indians, two-thirds of whom were women and children.",
+  "start_date": "1864-11-29",
+  "forces_text": "Third Colorado Regiment (approx. 700 men) [US]; 500 Cheyennes and a few Arapahos [I]",
+  "belligerents": {
+    "I": {
+      "commanders": [],
+      "description": "500 Cheyennes and a few Arapahos",
+      "strength_max": 500,
+      "strength_min": 500,
+      "casualties": 200
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Chivington",
+          "middle_name": "",
+          "rank": "Colonel",
+          "suffix": "",
+          "fullname": "John Chivington",
+          "first_name": "John"
+        }
+      ],
+      "description": "Third Colorado Regiment (approx. 700 men)",
+      "strength_max": 700,
+      "strength_min": 700,
+      "casualties": null
+    }
+  },
+  "campaign": "Sand Creek Campaign [November 1864]",
+  "battle": "CO001",
+  "result": "Union",
+  "significance": "B",
+  "other_names": [
+    "Chivington Massacre"
+  ],
+  "state": "CO",
+  "preservation": "II.2",
+  "principal_commanders": "Col. John Chivington [US]; Black Kettle[I]",
+  "end_date": "1864-11-30",
+  "cwsac_reference": "CO001",
+  "casualties": null,
+  "location": [
+    {
+      "place": "Kiowa County",
+      "state": "CO"
+    }
+  ],
+  "battle_name": "Sand Creek"
+}

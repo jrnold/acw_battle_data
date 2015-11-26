@@ -1,0 +1,61 @@
+{
+  "dates": "August 6-9, 1862",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/mo013.htm",
+  "results_text": "Union victory",
+  "casualties_text": "456 total (US 88; CS 368)",
+  "description": "Col. John McNeil and his troops, numbering about 1,000, had been pursuing Col. Joseph C. Porter and his Confederate Missouri Brigade of 2,500 men for more than a week. Before noon on August 6, McNeil attacked Porter in the town of Kirksville, where his men had hidden themselves in homes and stores and among the crops in the nearby fields. After almost three hours of fighting, the Yankees secured the town, captured numerous prisoners, and chased the others away. Three days later, another Union force met and finished the work begun at Kirksville, destroying Porter's command. Kirksville helped consolidate Union dominance in northeastern Missouri.",
+  "start_date": "1862-08-06",
+  "forces_text": "Combined force (cavalry and artillery) [US]; Missouri Brigade [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Porter",
+          "middle_name": "C.",
+          "rank": "Colonel",
+          "suffix": "",
+          "fullname": "Joseph C. Porter",
+          "first_name": "Joseph"
+        }
+      ],
+      "description": "Missouri Brigade",
+      "brigades": 1,
+      "casualties": 368
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "McNeil",
+          "middle_name": "",
+          "rank": "Colonel",
+          "suffix": "",
+          "fullname": "John McNeil",
+          "first_name": "John"
+        }
+      ],
+      "description": "Combined force (cavalry and artillery)",
+      "casualties": 88
+    }
+  },
+  "campaign": "Operations North of Boston Mountains [August-November 1862]",
+  "battle": "MO013",
+  "result": "Union",
+  "significance": "D",
+  "other_names": null,
+  "state": "MO",
+  "preservation": "IV.2",
+  "principal_commanders": "Col. John McNeil [US]; Col. Joseph C. Porter [CS]",
+  "end_date": "1862-08-09",
+  "cwsac_reference": "MO013",
+  "casualties": 456,
+  "location": [
+    {
+      "place": "Adair County",
+      "state": "MO"
+    }
+  ],
+  "battle_name": "Kirksville"
+}

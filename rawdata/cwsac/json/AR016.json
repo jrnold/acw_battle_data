@@ -1,0 +1,60 @@
+{
+  "dates": "April 30, 1864",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ar016.htm",
+  "results_text": "Union victory in retreat",
+  "casualties_text": "964 total (US 521; CS 443)",
+  "description": "Maj. Gen. Fred Steele's forces retreated from Camden after being mauled at Marks' Mills and Poison Spring. On the afternoon of April 29, the Union forces reached Jenkins' Ferry and began crossing the Saline River, which was swollen by heavy rain. Rebel forces arrived on the 30th and attacked repeatedly. The Federals repulsed the attacks and finally crossed with all their men and supply wagons, many of which they were compelled to abandon in the swamp north of Saline. The Confederates bungled a good chance to destroy Steele's army, which after crossing the river, regrouped at Little Rock.",
+  "start_date": "1864-04-30",
+  "forces_text": "Department of Arkansas [US]; Army of Arkansas [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Smith",
+          "middle_name": "Kirby",
+          "rank": "General",
+          "suffix": "",
+          "fullname": "E. Kirby Smith",
+          "first_name": "E."
+        }
+      ],
+      "description": "Army of Arkansas",
+      "casualties": 443
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Steele",
+          "middle_name": "",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "Frederick Steele",
+          "first_name": "Frederick"
+        }
+      ],
+      "description": "Department of Arkansas",
+      "casualties": 521
+    }
+  },
+  "campaign": "Camden Expedition [April 1864]",
+  "battle": "AR016",
+  "result": "Union",
+  "significance": "C",
+  "other_names": null,
+  "state": "AR",
+  "preservation": "III.3",
+  "principal_commanders": "Maj. Gen. Frederick Steele [US]; Gen. E. Kirby Smith [CS]",
+  "end_date": "1864-04-30",
+  "cwsac_reference": "AR016",
+  "casualties": 964,
+  "location": [
+    {
+      "place": "Grant County",
+      "state": "AR"
+    }
+  ],
+  "battle_name": "Jenkins' Ferry"
+}

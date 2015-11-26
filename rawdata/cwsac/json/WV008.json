@@ -1,0 +1,62 @@
+{
+  "dates": "December 13, 1861",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/wv008.htm",
+  "results_text": "Inconclusive",
+  "casualties_text": "283 total (US 137; CS 146)",
+  "description": "In December, Confederate forces under Col. Edward Johnson occupied the summit of Allegheny Mountain to defend the Staunton-Parkersburg Pike. A Union force under Brig. Gen. Robert Milroy attacked Johnson on December 13. Fighting continued for much of the morning as each side maneuvered to gain the advantage. Finally, Milroy's troops were repulsed, and he retreated to his camps near Cheat Mountain. At year's end, Edward Johnson remained at Camp Allegheny with five regiments, and Henry Heth was at Lewisburg with two regiments.",
+  "start_date": "1861-12-13",
+  "forces_text": "Brigades",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Johnson",
+          "middle_name": "",
+          "rank": "Colonel",
+          "suffix": "",
+          "fullname": "Edward \"Allegheny\" Johnson",
+          "first_name": "Edward"
+        }
+      ],
+      "brigades": 1,
+      "casualties": 146
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Milroy",
+          "middle_name": "",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "Robert Milroy",
+          "first_name": "Robert"
+        }
+      ],
+      "brigades": 1,
+      "casualties": 137
+    }
+  },
+  "campaign": "Operations in Western Virginia [June-December 1861]",
+  "battle": "WV008",
+  "result": "Inconclusive",
+  "significance": "C",
+  "other_names": [
+    "Allegheny Mountain"
+  ],
+  "state": "WV",
+  "preservation": "III.3",
+  "principal_commanders": "Brig. Gen. Robert Milroy [US]; Col. Edward \"Allegheny\" Johnson [CS]",
+  "end_date": "1861-12-13",
+  "cwsac_reference": "WV008",
+  "casualties": 283,
+  "location": [
+    {
+      "place": "Pocahontas County",
+      "state": "WV"
+    }
+  ],
+  "battle_name": "Camp Alleghany"
+}

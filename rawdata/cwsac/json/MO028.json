@@ -1,0 +1,64 @@
+{
+  "dates": "October 25, 1864",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/mo028.htm",
+  "results_text": "Union victory",
+  "casualties_text": "Unknown",
+  "description": "Following the Battle of Mine Creek, Maj. Gen. Sterling Price continued his cartage towards Fort Scott. In late afternoon of October 25, Price's supply train had difficulty crossing the Marmiton River ford and, like at Mine Creek, Price had to make a stand. Brig. Gen. John S. McNeil, commanding two brigades of Pleasonton's cavalry division, attacked the Confederate troops that Price and his officers rallied, included a sizable number of unarmed men. McNeil observed the sizable Confederate force, not knowing that many of them were unarmed, and refrained from an all out assault. After about two hours of skirmishing, Price continued his retreat and McNeil could not mount an effective pursuit. Price's army was broken by this time, and it was simply a question of how many men he could successfully evacuate to friendly territory.",
+  "start_date": "1864-10-25",
+  "forces_text": "Two brigades, provisional cavalry division [US]; Army of Missouri [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Price",
+          "middle_name": "",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "Sterling Price",
+          "first_name": "Sterling"
+        }
+      ],
+      "armies": 1,
+      "description": "Army of Missouri"
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "McNeil",
+          "middle_name": "",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "John McNeil",
+          "first_name": "John"
+        }
+      ],
+      "cavalry_divisions": 1,
+      "brigades": 2,
+      "description": "Two brigades, provisional cavalry division"
+    }
+  },
+  "campaign": "Price's Missouri Expedition [September-October 1864]",
+  "battle": "MO028",
+  "result": "Union",
+  "significance": "D",
+  "other_names": [
+    "Shiloh Creek",
+    "Charlot's Farm"
+  ],
+  "state": "MO",
+  "preservation": "III.4",
+  "principal_commanders": "Brig. Gen. John McNeil [US]; Maj. Gen. Sterling Price [CS]",
+  "end_date": "1864-10-25",
+  "cwsac_reference": "MO028",
+  "casualties": null,
+  "location": [
+    {
+      "place": "Vernon County",
+      "state": "MO"
+    }
+  ],
+  "battle_name": "Marmiton River"
+}

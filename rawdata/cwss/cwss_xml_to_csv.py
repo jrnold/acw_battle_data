@@ -143,6 +143,9 @@ def commander_csv(root, dst):
             properties = entry.find('./%s/%s' % (xmlns('content'), xmlns('m:properties'))) 
             battlecode = properties.find(xmlns("d:BattlefieldCode")).text.strip().upper()
             enemy = properties.find(xmlns("d:EnemyName")).text
+            # NC002 battle code is empty
+            if battlecode == "NC002":
+                enemy = "Confederate"
             for i, ordinal in enumerate(("First", "Second", "Third")):
                 if properties.find(xmlns("d:%sEnemyCommander" % ordinal)).text is not None:
                     if re.search("\\S", properties.find(xmlns("d:%sEnemyCommander" % ordinal)).text):

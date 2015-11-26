@@ -1,0 +1,71 @@
+{
+  "dates": "October 15, 1864",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/mo022.htm",
+  "results_text": "Confederate victory",
+  "casualties_text": "450 total (US 400; CS 50)",
+  "description": "While Maj. Gen. Sterling Price led his men westward across Missouri, he decided to send a detachment to Glasgow to liberate weapons and supplies in an arms storehouse, purported to be there. This combined mounted infantry, cavalry, and artillery force laid siege to the town and the fortifications on Hereford Hill. Before dawn on October 15, Confederate artillery opened on the town and Rebels advanced on Glasgow by various routes, forcing the Yankees to fall back. The Union forces retreated out of town and up the hill toward the fortifications on Hereford Hill. There they formed a defensive line in this area, but the Confederates continued to advance. Convinced that he could not defend against another Confederate attack, Col. Chester Harding surrendered around 1:30 pm. Although Harding destroyed some Federal stores, Price's men found rifle-muskets, overcoats, and horses. The Confederates remained in town for three days before rejoining the main column with new supplies and weapons and marching on towards Kansas City. The victory and capture of supplies and weapons were a boost to Price's army's morale.",
+  "start_date": "1864-10-15",
+  "forces_text": "Garrison (800) [US]; unknown [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Clark",
+          "middle_name": "B.",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "John B. Clark",
+          "first_name": "John"
+        },
+        {
+          "navy": false,
+          "last_name": "Shelby",
+          "middle_name": "",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "Joseph Shelby",
+          "first_name": "Joseph"
+        }
+      ],
+      "description": "unknown",
+      "casualties": 50
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Harding",
+          "middle_name": "",
+          "rank": "Colonel",
+          "suffix": "",
+          "fullname": "Chester Harding",
+          "first_name": "Chester"
+        }
+      ],
+      "description": "Garrison (800)",
+      "strength_max": 800,
+      "strength_min": 800,
+      "casualties": 400
+    }
+  },
+  "campaign": "Price's Missouri Expedition [September-October 1864]",
+  "battle": "MO022",
+  "result": "Confederate",
+  "significance": "C",
+  "other_names": null,
+  "state": "MO",
+  "preservation": "IV.2",
+  "principal_commanders": "Col. Chester Harding [US]; Brig. Gen. John B. Clark and Brig. Gen. Joseph Shelby [CS]",
+  "end_date": "1864-10-15",
+  "cwsac_reference": "MO022",
+  "casualties": 450,
+  "location": [
+    {
+      "place": "Howard County",
+      "state": "MO"
+    }
+  ],
+  "battle_name": "Glasgow"
+}

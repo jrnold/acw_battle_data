@@ -1,0 +1,68 @@
+{
+  "dates": "May 23, 1862",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va103.htm",
+  "results_text": "Confederate victory",
+  "casualties_text": "960 total (US 904; CS 56)",
+  "description": "On May 23, Confederate forces, spearheaded by the Louisiana \"Tigers\" and the 1st Maryland, surprised and overran the pickets of a 1,000-man Union garrison under Col. Kenly at Front Royal. Driven through the town, the Federals made a stand on Camp Hill and again at Guard Hill after attempting to fire the river bridges. Outnumbered and outflanked, Kenly continued the retreat to Cedarville, where two cavalry charges led by Maj. Flournoy broke the roadblock and routed the Union force. Nearly 900 Federals surrendered. Jackson's victory at Front Royal forced the Union army under Banks at Strasburg into a rapid retreat towards Winchester.",
+  "start_date": "1862-05-23",
+  "forces_text": "4,063 total (US 1,063; CS 3,000)",
+  "strength": 4063,
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Jackson",
+          "middle_name": "J.",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "Thomas J. Jackson",
+          "first_name": "Thomas"
+        }
+      ],
+      "description": "3,000",
+      "strength_max": 3000,
+      "strength_min": 3000,
+      "casualties": 56
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Kenly",
+          "middle_name": "R.",
+          "rank": "Colonel",
+          "suffix": "",
+          "fullname": "John R. Kenly",
+          "first_name": "John"
+        }
+      ],
+      "description": "1,063",
+      "strength_max": 1063,
+      "strength_min": 1063,
+      "casualties": 904
+    }
+  },
+  "campaign": "Jackson's Valley Campaign [March-June 1862]",
+  "battle": "VA103",
+  "result": "Confederate",
+  "significance": "C",
+  "other_names": [
+    "Guard Hill",
+    "Cedarville"
+  ],
+  "state": "VA",
+  "preservation": "IV.1",
+  "principal_commanders": "Col. John R. Kenly [US]; Maj. Gen. Thomas J. Jackson [CS]",
+  "end_date": "1862-05-23",
+  "cwsac_reference": "VA103",
+  "casualties": 960,
+  "location": [
+    {
+      "place": "Warren County",
+      "state": "VA"
+    }
+  ],
+  "battle_name": "Front Royal"
+}

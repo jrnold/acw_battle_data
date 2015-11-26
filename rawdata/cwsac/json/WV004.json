@@ -1,0 +1,62 @@
+{
+  "dates": "August 26, 1861",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/wv004.htm",
+  "results_text": "Confederate victory",
+  "casualties_text": "285 total (US 245; CS 40)",
+  "description": "On August 26, Brig. Gen. John Floyd, commanding Confederate forces in the Kanawha Valley, crossed the Gauley River to attack Col. Erastus Tyler's 7th Ohio Regiment encamped at Kessler's Cross Lanes. The Union forces were surprised and routed. Floyd then withdrew to the river and took up a defensive position at Carnifex Ferry. During the month, Gen. Robert E. Lee arrived in western Virginia and attempted to coordinate the forces of Brig. Gens. Floyd, Henry Wise, and William W. Loring.",
+  "start_date": "1861-08-26",
+  "forces_text": "Brigades",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Floyd",
+          "middle_name": "",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "John Floyd",
+          "first_name": "John"
+        }
+      ],
+      "brigades": 1,
+      "casualties": 40
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Tyler",
+          "middle_name": "",
+          "rank": "Colonel",
+          "suffix": "",
+          "fullname": "Erastus Tyler",
+          "first_name": "Erastus"
+        }
+      ],
+      "brigades": 1,
+      "casualties": 245
+    }
+  },
+  "campaign": "Operations in Western Virginia [June-December 1861]",
+  "battle": "WV004",
+  "result": "Confederate",
+  "significance": "D",
+  "other_names": [
+    "Cross Lanes"
+  ],
+  "state": "WV",
+  "preservation": "III.4",
+  "principal_commanders": "Col. Erastus Tyler [US]; Brig. Gen. John Floyd [CS]",
+  "end_date": "1861-08-26",
+  "cwsac_reference": "WV004",
+  "casualties": 285,
+  "location": [
+    {
+      "place": "Nicholas County",
+      "state": "WV"
+    }
+  ],
+  "battle_name": "Kessler's Cross Lanes"
+}

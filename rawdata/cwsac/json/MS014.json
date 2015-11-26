@@ -1,0 +1,69 @@
+{
+  "dates": "June 10, 1864",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ms014.htm",
+  "results_text": "Confederate victory",
+  "casualties_text": "3,105 total (US 2,610; CS 495)",
+  "description": "At the beginning of June 1864, Maj. Gen. Nathan Bedford Forrest set out with his cavalry corps of about 2,000 men to enter Middle Tennessee and destroy the Nashville & Chattanooga Railroad, which was carrying men and supplies to Maj. Gen. William T. Sherman in Georgia. On June 10, 1864, Forrest's smaller Confederate force defeated a much larger Union column under Brig. Gen. Samuel Sturgis at Brice's Cross Roads. This brilliant tactical victory against long odds cemented Forrest's reputation as one of the foremost mounted infantry leaders of the war.",
+  "start_date": "1864-06-10",
+  "forces_text": "Three-brigade division of infantry and a division of cavalry (about 8,500 ) [US]; cavalry corps [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Forrest",
+          "middle_name": "Bedford",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "Nathan Bedford Forrest",
+          "first_name": "Nathan"
+        }
+      ],
+      "description": "cavalry corps",
+      "cavalry_corps": 1,
+      "casualties": 495
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Sturgis",
+          "middle_name": "D.",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "Samuel D. Sturgis",
+          "first_name": "Samuel"
+        }
+      ],
+      "description": "Three-brigade division of infantry and a division of cavalry (about 8,500 )",
+      "strength_max": 8500,
+      "strength_min": 8500,
+      "casualties": 2610
+    }
+  },
+  "campaign": "Forrest's Defense of Mississippi [June-August 1864]",
+  "battle": "MS014",
+  "result": "Confederate",
+  "significance": "B",
+  "other_names": [
+    "Tishomingo Creek"
+  ],
+  "state": "MS",
+  "preservation": "I.3",
+  "principal_commanders": "Brig. Gen. Samuel D. Sturgis [US]; Maj. Gen. Nathan Bedford Forrest [CS]",
+  "end_date": "1864-06-10",
+  "cwsac_reference": "MS014",
+  "casualties": 3105,
+  "location": [
+    {
+      "place": "Prentiss County",
+      "state": "MS"
+    },
+    {
+      "place": "Union County",
+      "state": "MS"
+    }
+  ],
+  "battle_name": "Brice's Cross Roads"
+}

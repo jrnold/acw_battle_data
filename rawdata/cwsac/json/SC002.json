@@ -1,0 +1,68 @@
+{
+  "dates": "June 16, 1862",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/sc002.htm",
+  "results_text": "Confederate victory",
+  "casualties_text": "889 total (US 685; CS 204)",
+  "description": "Early June 1862, Maj. Gen. David Hunter transported Horatio G. Wright's and Isaac I. Stevens's Union divisions under immediate direction of Brig. Gen. Henry Benham to James Island where they entrenched at Grimball's Landing near the southern flank of the Confederate defenses. On June 16, contrary to Hunter's orders, Benham launched an unsuccessful frontal assault against Fort Lamar at Secessionville. Because Benham was said to have disobeyed orders, Hunter relieved him of command.",
+  "start_date": "1862-06-16",
+  "forces_text": "8,600 total (US 6,600; CS 2,000)",
+  "strength": 8600,
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Evans",
+          "middle_name": "",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "Nathan Evans",
+          "first_name": "Nathan"
+        }
+      ],
+      "description": "2,000",
+      "strength_max": 2000,
+      "strength_min": 2000,
+      "casualties": 204
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Benham",
+          "middle_name": "",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "Henry Benham",
+          "first_name": "Henry"
+        }
+      ],
+      "description": "6,600",
+      "strength_max": 6600,
+      "strength_min": 6600,
+      "casualties": 685
+    }
+  },
+  "campaign": "Operations Against Charleston [June 1862]",
+  "battle": "SC002",
+  "result": "Confederate",
+  "significance": "B",
+  "other_names": [
+    "Ft. Lamar",
+    "James Island"
+  ],
+  "state": "SC",
+  "preservation": "I.3",
+  "principal_commanders": "Brig. Gen. Henry Benham [US]; Brig. Gen. Nathan Evans [CS]",
+  "end_date": "1862-06-16",
+  "cwsac_reference": "SC002",
+  "casualties": 889,
+  "location": [
+    {
+      "place": "City of Charleston",
+      "state": "SC"
+    }
+  ],
+  "battle_name": "Secessionville"
+}

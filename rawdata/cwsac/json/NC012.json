@@ -1,0 +1,60 @@
+{
+  "dates": "April 17-20, 1864",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/nc012.htm",
+  "results_text": "Confederate victory",
+  "casualties_text": "2,834 total",
+  "description": "In a combined operation with the CSS ram Albemarle, Confederate forces under Maj. Gen. R.F. Hoke, attacked the Federal garrison at Plymouth on April 17. On April 19, the ram appeared in the river, sinking the Smithfield, damaging the Miami, and driving off the other Union ships supporting the Plymouth garrison. Confederate forces captured Fort Comfort, driving defenders into Fort Williams. On the 20th, the garrison surrendered.",
+  "start_date": "1864-04-17",
+  "forces_text": "Plymouth Garrison (4 infantry and artillery units) [US]; Hoke's Division [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Hoke",
+          "middle_name": "",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "Robert Hoke",
+          "first_name": "Robert"
+        }
+      ],
+      "divisions": 1,
+      "description": "Hoke's Division"
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Wessells",
+          "middle_name": "W.",
+          "rank": "Colonel",
+          "suffix": "",
+          "fullname": "Henry W. Wessells",
+          "first_name": "Henry"
+        }
+      ],
+      "regiments": 4,
+      "description": "Plymouth Garrison (4 infantry and artillery units)"
+    }
+  },
+  "campaign": "Operations Against Plymouth [April-May 1864]",
+  "battle": "NC012",
+  "result": "Confederate",
+  "significance": "C",
+  "other_names": null,
+  "state": "NC",
+  "preservation": "IV.2",
+  "principal_commanders": "Col. Henry W. Wessells [US]; Maj. Gen. Robert Hoke [CS]",
+  "end_date": "1864-04-20",
+  "cwsac_reference": "NC012",
+  "casualties": 2834,
+  "location": [
+    {
+      "place": "Washington County",
+      "state": "NC"
+    }
+  ],
+  "battle_name": "Plymouth"
+}

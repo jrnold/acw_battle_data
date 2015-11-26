@@ -1,0 +1,76 @@
+{
+  "dates": "March 10, 1865",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/nc018.htm",
+  "results_text": "Inconclusive",
+  "casualties_text": "269 total (US 183; CS 86)",
+  "description": "As Sherman's army advanced into North Carolina, Kilpatrick's Cavalry Division screened its left flank. On the evening of March 9, two of Kilpatrick's brigades encamped near the Charles Monroe House in Cumberland (now Hoke) County. Early on the 10th, Confederate cavalry under the command of Lt. Gen. Wade Hampton surprised the Federals in their camps, driving them back in confusion and capturing wagons and artillery. The Federals regrouped and counterattacked, regaining their artillery and camps after a desperate fight. With Union reinforcements on the way, the Confederates withdrew.",
+  "start_date": "1865-03-10",
+  "forces_text": "Kilpatrick's Cavalry Division (1,850) [US]; Wheeler's and Hampton's Cavalry Division (3,000) [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Wheeler",
+          "middle_name": "",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "Joseph Wheeler",
+          "first_name": "Joseph"
+        },
+        {
+          "navy": false,
+          "last_name": "Hampton",
+          "middle_name": "",
+          "rank": "Lieutenant General",
+          "suffix": "",
+          "fullname": "Wade Hampton",
+          "first_name": "Wade"
+        }
+      ],
+      "description": "Wheeler's and Hampton's Cavalry Division (3,000)",
+      "strength_max": 3000,
+      "strength_min": 3000,
+      "casualties": 86
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Kilpatrick",
+          "middle_name": "Judson",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "H. Judson Kilpatrick",
+          "first_name": "H."
+        }
+      ],
+      "description": "Kilpatrick's Cavalry Division (1,850)",
+      "strength_max": 1850,
+      "strength_min": 1850,
+      "casualties": 183
+    }
+  },
+  "campaign": "Carolinas Campaign [February-March 1865]",
+  "battle": "NC018",
+  "result": "Inconclusive",
+  "significance": "D",
+  "other_names": [
+    "Fayetteville Road",
+    "Blue's Farm"
+  ],
+  "state": "NC",
+  "preservation": "II.4",
+  "principal_commanders": "Brig. Gen. H. Judson Kilpatrick [US]; Maj. Gen. Joseph Wheeler and Lt. Gen. Wade Hampton [CS]",
+  "end_date": "1865-03-10",
+  "cwsac_reference": "NC018",
+  "casualties": 269,
+  "location": [
+    {
+      "place": "Hoke County",
+      "state": "NC"
+    }
+  ],
+  "battle_name": "Monroe's Cross"
+}

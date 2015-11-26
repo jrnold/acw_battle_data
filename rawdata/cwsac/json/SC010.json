@@ -1,0 +1,65 @@
+{
+  "dates": "November 30, 1864",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/sc010.htm",
+  "results_text": "Confederate victory",
+  "casualties_text": "796 total (US 746; CS 50)",
+  "description": "Leaving Hilton Head on November 28, a Union expeditionary force under Maj. Gen. John P. Hatch steamed up the Broad River in transports to cut the Charleston & Savannah Railroad near Pocotaligo. Hatch disembarked at Boyd's Landing and marched inland. On November 30, Hatch encountered a Confederate force of regulars and militia under Col. Charles J. Colcock at Honey Hill. Determined attacks by U.S. Colored Troops (including the 54th Massachusetts) failed to capture the Confederate entrenchments or cut the railroad. Hatch retired after dark, withdrawing to his transports at Boyd's Neck.",
+  "start_date": "1864-11-30",
+  "forces_text": "6,400 total (US 5,000; CS 1,400)",
+  "strength": 6400,
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Colcock",
+          "middle_name": "",
+          "rank": "Colonel",
+          "suffix": "",
+          "fullname": "Charles Colcock",
+          "first_name": "Charles"
+        }
+      ],
+      "description": "1,400",
+      "strength_max": 1400,
+      "strength_min": 1400,
+      "casualties": 50
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Hatch",
+          "middle_name": "",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "John Hatch",
+          "first_name": "John"
+        }
+      ],
+      "description": "5,000",
+      "strength_max": 5000,
+      "strength_min": 5000,
+      "casualties": 746
+    }
+  },
+  "campaign": "Savannah Campaign [November-December 1864]",
+  "battle": "SC010",
+  "result": "Confederate",
+  "significance": "C",
+  "other_names": null,
+  "state": "SC",
+  "preservation": "II.3",
+  "principal_commanders": "Maj. Gen. John Hatch [US]; Col. Charles Colcock [CS]",
+  "end_date": "1864-11-30",
+  "cwsac_reference": "SC010",
+  "casualties": 796,
+  "location": [
+    {
+      "place": "Jasper County",
+      "state": "SC"
+    }
+  ],
+  "battle_name": "Honey Hill"
+}

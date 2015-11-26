@@ -16,17 +16,23 @@ DIR_CWSAC2 <- "../cwsac2"
 DIR_AAD <- "../aad"
 DIR_CWSS <- "../cwss"
 DIR_SHENANDOAH <- "../shenandoah/"
-FILE_UNIT_SIZES <- "../../unit_sizes/unit_sizes.csv"
+FILE_UNIT_SIZES <- "../unit_sizes/unit_sizes.csv"
 
 DIR_OUT <- "."
 
+#' Rounded variable variance method to use
+ROUND_METHOD = 3
 
+#' Mapping from CWSAC to CWSS belligerent names
+BELLIGERENTS <-
+  c("I" = "Native American",
+    "CS" = "Confederate",
+    "US" = "US")
 
-#' Rounded variable method to use
-ROUND_METHOD = 4
-
-#' Battles to exclude
-EXCLUDED_BATTLES <- c("AL008", "AL009", "VA126", "AR018")
+RESULTS <-
+  c("Union" = "Union victory",
+    "Confederate" = "Confederate victory",
+    "Inconclusive" = "Indecisive")
 
 #'
 #' # Utility Functions
@@ -66,7 +72,7 @@ trailing_zeros <- function(x) {
       magn <- floor(log10(x))
       trailing <- 0
       for (i in 1:magn) {
-        if (x %% 10^i == 0) {
+        if (x %% 10 ^ i == 0) {
           trailing <- i
         } else {
           break
@@ -117,6 +123,16 @@ rounded_var <- function(x, method = 1) {
 #'
 #' # Data
 #'
+#' Extra data
+#'
+#' - additional campaigns
+#' - battles in CWSAC and missing from CWSS
+#' - battles in CWSS to exclude from other analyses
+#'
+extra_data <- fromJSON("extra_data.json")
+
+
+
 #' ## AAD
 #'
 #' The AAD data
@@ -133,18 +149,12 @@ aad_battles <-
 cwsac1_battles <-
   read.csv(file.path(DIR_CWSAC, "cwsac_battles.csv"),
            stringsAsFactors = FALSE) %>%
-  mutate(result = plyr::revalue(result,
-                                c("Union" = "Union victory",
-                                  "Confederate" = "Confederate victory",
-                                  "Inconclusive" = "Indecisive")))
+  mutate(result = plyr::revalue(result, RESULTS))
 
 cwsac1_forces <-
   read.csv(file.path(DIR_CWSAC, "cwsac_forces.csv"),
            stringsAsFactors = FALSE) %>%
-  mutate(belligerent = plyr::revalue(belligerent,
-                                     c(US = "US",
-                                       CS = "Confederate",
-                                       I = "Native American")))
+  mutate(belligerent = plyr::revalue(belligerent, BELLIGERENTS))
 
 #'
 #' ## CWSAC II
@@ -153,10 +163,7 @@ cwsac2_battles <- read.csv(file.path(DIR_CWSAC2, "cwsac2_battles.csv"),
                            stringsAsFactors = FALSE) %>%
   mutate(battle = plyr::revalue(battle, c("AL002" = "AL009")),
          battle_name = ifelse(battle == "AL009", "Athens II", battle_name),
-         result = plyr::revalue(results,
-                                c("Union" = "Union victory",
-                                  "Confederate" = "Confederate victory",
-                                  "Inconclusive" = "Indecisive"))) %>%
+         result = plyr::revalue(results, RESULTS)) %>%
 
   left_join(read.csv(file.path(DIR_CWSAC2, "cwsac2_dates.csv"),
                      stringsAsFactors = FALSE) %>%
@@ -170,10 +177,7 @@ cwsac2_battles <- read.csv(file.path(DIR_CWSAC2, "cwsac2_battles.csv"),
 
 cwsac2_forces <- read.csv(file.path(DIR_CWSAC2, "cwsac2_forces.csv"),
                           stringsAsFactors = FALSE) %>%
-  mutate(belligerent = plyr::revalue(belligerent,
-                                     c(US = "US",
-                                       CS = "Confederate",
-                                       I = "Native American")))
+  mutate(belligerent = plyr::revalue(belligerent, BELLIGERENTS))
 
 
 #'
@@ -220,23 +224,7 @@ theaters <-
 campaigns <-
   bind_rows(read.csv(file.path(DIR_CWSS, "cwss_campaigns.csv"),
                      stringsAsFactors = FALSE),
-            data_frame(CampaignCode = "MW64-15",
-                       CampaignName = "Forrest's Raid into Northern Alabama and Middle Tennessee",
-                       CampaignDates = "September 1864",
-                       CampaignStartDate = "1864-09-01",
-                       CampaignEndDate = "1864-09-30",
-                       TheaterCode = "MW"))
-
-#'
-#' I need to append some campaigns for battles that are not in the CWSS, but included in the CWSAC.
-extra_battle_campaigns <-
-  list("MO010" = list(theater_code = "TM", campaign_code = "TM61-03"),
-       "MO012" = list(theater_code = "MW", campaign_code = "MW62-03"),
-       "MO022" = list(theater_code = "TM", campaign_code = "TM64-05"),
-       "WV009" = list(theater_code = "ME", campaign_code = "ME62-03"),
-       "AL009" = list(theater_code = "MW", campaign_code = "MW64-15"),
-       "AR018" = list(theater_code = "TM", campaign_code = "TM63-08"))
-
+            extra_data$campaigns)
 
 #'
 #'
@@ -341,8 +329,8 @@ nps_battlelist <-
 #' And ensure that VA020A and VA020B are combined into a single battle.
 #' The battles in CWSAC and not in CWSS
 ## ------------------------------------------------------------------------
-CWSAC_ONLY_BATTLES <- c("MO010", "MO012", "MO022", "WV010")
-
+CWSAC_ONLY_BATTLES <- extra_data$cwsac_only_battles
+EXCLUDED_BATTLES <- extra_data$excluded_battles
 
 #'
 #' # Battle-Level Data
@@ -442,11 +430,9 @@ nps_battles <-
 #' Fill in battles missing in CWSS but in CWSAC data,
 for (i in CWSAC_ONLY_BATTLES) {
   nps_battles[nps_battles[["cwsac_id"]] == i,
-              c("state", "begin_date", "end_date",
-                "result")] <-
+              c("state", "begin_date", "end_date", "result")] <-
     cwsac1_battles[cwsac1_battles[["battle"]] == i,
-                   c("state", "start_date", "end_date",
-                     "result")]
+                   c("state", "start_date", "end_date", "result")]
 }
 
 #' Fill in campaigns and theaters,
@@ -739,6 +725,58 @@ nps_forces %<>%
   arrange(cwsac_id, belligerent)
 
 #'
+#' # Commanders
+#'
+cwss_people <- read_csv(file.path(DIR_CWSS, "cwss_persons.csv"))
+
+cwss_commanders <-
+  bind_rows(read_csv(file.path(DIR_CWSS, "cwss_commanders.csv")) %>%
+              filter(! BattlefieldCode %in% EXCLUDED_BATTLES) %>%
+              select(- rank),
+             bind_rows(lapply(names(extra_data$commanders),
+                    function(i) {
+                      y <- bind_rows(lapply(names(extra_data[["commanders"]][[i]]),
+                                            function(j) {
+                                              y <- extra_data[["commanders"]][[i]][[j]]
+                                              y[["belligerent"]] <- j
+                                              y
+                                            }))
+                      y[["BattlefieldCode"]] <- i
+                      y
+                    })) %>% select(- Name) %>% rename(commander = PersonID)) %>%
+    left_join(select(cwss_people, PersonID, LastName, FirstName, MiddleName,
+                     MiddleInitial),
+              by = c(commander = "PersonID")) %>%
+    mutate(cwss = TRUE) %>%
+    rename(first_name = FirstName,
+           middle_name = MiddleName,
+           middle_initial = MiddleInitial,
+           last_name = LastName,
+           battle = BattlefieldCode)
+
+
+cwsac_commanders <-
+  read.csv(file.path(DIR_CWSAC, "cwsac_commanders.csv"),
+           stringsAsFactors = FALSE) %>%
+  mutate(cwsac = TRUE,
+         belligerent = plyr::revalue(belligerent, BELLIGERENTS))
+
+nps_commanders <-
+  full_join(cwss_commanders, cwsac_commanders,
+             by = c("battle", "belligerent", "last_name")) %>%
+  mutate(cwsac = ifelse(is.na(cwsac), FALSE, cwsac),
+         cwss = ifelse(is.na(cwss), FALSE, cwss),
+         first_name = ifelse(! is.na(first_name.x), first_name.x, first_name.y),
+         middle_name = ifelse(! is.na(middle_name.x), middle_name.x,
+                              middle_name.y),
+         middle_initial = ifelse(! is.na(middle_initial), middle_initial,
+                                 ifelse(! is.na(middle_name.y),
+                                        str_sub(middle_name.y, 1, 1),
+                                        NA_character_))
+  ) %>%
+  arrange(belligerent, battle)
+
+#'
 #' # Save
 #'
 write_csv(theaters, file.path(DIR_OUT, "nps_theaters.csv"))
@@ -746,3 +784,4 @@ write_csv(campaigns, file.path(DIR_OUT, "nps_campaigns.csv"))
 write_csv(nps_battlelist, file.path(DIR_OUT, "nps_battlelist.csv"))
 write_csv(nps_battles, file.path(DIR_OUT, "nps_battles.csv"))
 write_csv(nps_forces, file.path(DIR_OUT, "nps_forces.csv"))
+write_csv(nps_commanders, file.path(DIR_OUT, "nps_commanders.csv"))

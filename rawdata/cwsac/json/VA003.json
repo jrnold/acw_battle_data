@@ -1,0 +1,81 @@
+{
+  "dates": "June 10, 1861",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va003.htm",
+  "results_text": "Confederate victory",
+  "casualties_text": "87 total (US 79; CS 8)",
+  "description": "This was the first land battle in Virginia. Maj. Gen. Benjamin F. Butler sent converging columns from Hampton and Newport News against advanced Confederate outposts at Little and Big Bethel. Confederates abandoned Little Bethel and fell back to their entrenchments behind Brick Kiln Creek, near Big Bethel Church. The Federals, under immediate command of Brig. Gen. Ebenezer Pierce, pursued, attacked frontally along the road, and were repulsed. Crossing downstream, the 5th New York Zouaves attempted to turn the Confederate left flank, but were repulsed. Unit commander Col. T. Wynthrop was killed. The Union forces were disorganized and retired, returning to Hampton and Newport News. The Confederates suffered 1 killed, 7 wounded.",
+  "start_date": "1861-06-10",
+  "forces_text": "4,700 total (US 3,500; CS 1,200)",
+  "strength": 4700,
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Magruder",
+          "middle_name": "B.",
+          "rank": "Colonel",
+          "suffix": "",
+          "fullname": "John B. Magruder",
+          "first_name": "John"
+        },
+        {
+          "navy": false,
+          "last_name": "Hill",
+          "middle_name": "",
+          "rank": "Colonel",
+          "suffix": "",
+          "fullname": "D.H. Hill",
+          "first_name": "D.H."
+        }
+      ],
+      "description": "1,200",
+      "strength_max": 1200,
+      "strength_min": 1200,
+      "casualties": 8
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Pierce",
+          "middle_name": "",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "Ebenezer Pierce",
+          "first_name": "Ebenezer"
+        }
+      ],
+      "description": "3,500",
+      "strength_max": 3500,
+      "strength_min": 3500,
+      "casualties": 79
+    }
+  },
+  "campaign": "Blockade of the Chesapeake Bay [May-June 1861]",
+  "battle": "VA003",
+  "result": "Confederate",
+  "significance": "C",
+  "other_names": [
+    "Bethel Church",
+    "Great Bethel"
+  ],
+  "state": "VA",
+  "preservation": "IV.2",
+  "principal_commanders": "Brig. Gen. Ebenezer Pierce [US]; Col. John B. Magruder and Col. D.H. Hill [CS]",
+  "end_date": "1861-06-10",
+  "cwsac_reference": "VA003",
+  "casualties": 87,
+  "location": [
+    {
+      "place": "York County",
+      "state": "VA"
+    },
+    {
+      "place": "Hampton",
+      "state": "VA"
+    }
+  ],
+  "battle_name": "Big Bethel"
+}

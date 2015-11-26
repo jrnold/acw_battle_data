@@ -1,0 +1,74 @@
+{
+  "dates": "November 8-9, 1861",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ky003.htm",
+  "results_text": "Union victory (Indecisive, but Confederates withdrew.)",
+  "casualties_text": "293 total (US 30; CS 263)",
+  "description": "While recruiting in southeast Kentucky, Rebels under Col. John S. Williams ran short of ammunition at Prestonsburg and fell back to Pikeville to replenish their supply. Brig. Gen. William Nelson sent out a detachment from near Louisa under Col. Joshua Sill while he started out from Prestonsburg with a larger force in an attempt to \"turn or cut the Rebels off.\" Williams prepared for evacuation, hoping for time to reach Virginia, and sent out a cavalry force to meet Nelson about eight miles from Pikeville. The Rebel cavalry escaped, and Nelson continued on his way. Williams then met Nelson at a point northeast of Pikeville between Ivy Mountain and Ivy Creek. Waiting by a narrow bend in the road, the Rebels surprised the Yankees by firing upon their constricted ranks. A fight ensued, but neither side gained the bulge. As the shooting ebbed, Williams's men felled trees across the road and burned bridges to slow Nelson's pursuing force. Night approached and rain began which, along with the obstructions, convinced Nelson's men to go into camp. In the meantime, Williams retreated into Virginia, stopping in Abingdon on the 9th. Sill's force arrived too late to be of use, but he did skirmish with the remnants of Williams's retreating force before he occupied Pikeville on the 9th. This bedraggled Confederate force retreated back into Virginia for succor. The Union forces consolidated their power in eastern Kentucky mountains.",
+  "start_date": "1861-11-08",
+  "forces_text": "Combination of detachments from twelve Union Ohio and Kentucky units [US]; nine companies of infantry and two of mounted men (1,010 men) [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Williams",
+          "middle_name": "S.",
+          "rank": "Colonel",
+          "suffix": "",
+          "fullname": "John S. Williams",
+          "first_name": "John"
+        }
+      ],
+      "description": "nine companies of infantry and two of mounted men (1,010 men)",
+      "strength_max": 1010,
+      "strength_min": 1010,
+      "casualties": 263
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Nelson",
+          "middle_name": "",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "William Nelson",
+          "first_name": "William"
+        },
+        {
+          "navy": false,
+          "last_name": "Sill",
+          "middle_name": "W.",
+          "rank": "Colonel",
+          "suffix": "",
+          "fullname": "Joshua W. Sill",
+          "first_name": "Joshua"
+        }
+      ],
+      "description": "Combination of detachments from twelve Union Ohio and Kentucky units",
+      "casualties": 30
+    }
+  },
+  "campaign": "Operations in Eastern Kentucky [September-December 1861]",
+  "battle": "KY003",
+  "result": "Union",
+  "significance": "D",
+  "other_names": [
+    "Ivy Creek",
+    "Ivy Narrows"
+  ],
+  "state": "KY",
+  "preservation": "IV.2",
+  "principal_commanders": "Brig. Gen. William Nelson and Col. Joshua W. Sill [US]; Col. John S. Williams [CS]",
+  "end_date": "1861-11-09",
+  "cwsac_reference": "KY003",
+  "casualties": 293,
+  "location": [
+    {
+      "place": "Floyd County",
+      "state": "KY"
+    }
+  ],
+  "battle_name": "Ivy Mountain"
+}

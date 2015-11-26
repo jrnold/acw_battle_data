@@ -1,0 +1,74 @@
+{
+  "dates": "March 8-9, 1862",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va008.htm",
+  "results_text": "Inconclusive",
+  "casualties_text": "433 total (US 409; CS 24)",
+  "description": "On March 8, 1862, from her berth at Norfolk, the Confederate ironclad Virginia steamed into Hampton Roads where she sank Cumberland and ran Congress aground. On March 9, the Union ironclad Monitor having fortuitously arrived to do battle, initiated the first engagement of ironclads in history. The two ships fought each other to a standstill, but Virginia retired.",
+  "start_date": "1862-03-08",
+  "forces_text": "4 warships [US]; 1 warship [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Buchanan",
+          "middle_name": "",
+          "rank": "Captain (Naval)",
+          "suffix": "",
+          "fullname": "Franklin Buchanan",
+          "first_name": "Franklin"
+        },
+        {
+          "navy": false,
+          "last_name": "Jones",
+          "middle_name": "R.",
+          "rank": "Lieutenant",
+          "suffix": "",
+          "fullname": "Catesby R. Jones",
+          "first_name": "Catesby"
+        }
+      ],
+      "description": "1 warship",
+      "ships": 1,
+      "casualties": 24
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Worden",
+          "middle_name": "",
+          "rank": "Lieutenant",
+          "suffix": "",
+          "fullname": "John Worden",
+          "first_name": "John"
+        }
+      ],
+      "description": "4 warships",
+      "ships": 4,
+      "casualties": 409
+    }
+  },
+  "campaign": "Peninsula Campaign [March-July 1862]",
+  "battle": "VA008",
+  "result": "Inconclusive",
+  "significance": "B",
+  "other_names": [
+    "Monitor vs. Virginia (Merrimack)",
+    "Battle of the Ironclads"
+  ],
+  "state": "VA",
+  "preservation": "II.2",
+  "principal_commanders": "Lt. John Worden [US]; Capt. (Naval) Franklin Buchanan and Lt. Catesby R. Jones [CS]",
+  "end_date": "1862-03-09",
+  "cwsac_reference": "VA008",
+  "casualties": 433,
+  "location": [
+    {
+      "place": "Hampton Roads",
+      "state": "VA"
+    }
+  ],
+  "battle_name": "Hampton Roads"
+}

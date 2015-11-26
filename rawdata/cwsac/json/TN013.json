@@ -1,0 +1,62 @@
+{
+  "dates": "March 5, 1863",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/tn013.htm",
+  "results_text": "Confederate victory",
+  "casualties_text": "2,206 total (US 1,906; CS 300)",
+  "description": "In a period of relative inactivity following the Battle of Stones River, a reinforced Union infantry brigade, under Col. John Coburn, left Franklin to reconnoiter south toward Columbia. Four miles from Spring Hill, Coburn attacked with his right wing, a Confederate force composed of two regiments; he was repelled. Then, Maj. Gen. Van Dorn seized the initiative. Brig. Gen. W.H. \"Red\" Jackson's dismounted 2nd Division made a frontal attack, while Brig. Gen. Nathan Bedford Forrest's division swept around Coburn's left flank, and into his rear. After three attempts, characterized by hard fighting, Jackson carried the Union hilltop position as Forrest captured Coburn's wagon train and blocked the road to Columbia in his rear. Out of ammunition and surrounded, Coburn surrendered. Union influence in Middle Tennessee subsided for a while.",
+  "start_date": "1863-03-05",
+  "forces_text": "Infantry brigade [US]; I Cavalry Corps [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Van Dorn",
+          "middle_name": "",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "Earl Van Dorn",
+          "first_name": "Earl"
+        }
+      ],
+      "description": "I Cavalry Corps",
+      "corps": 1,
+      "casualties": 300
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Coburn",
+          "middle_name": "",
+          "rank": "Colonel",
+          "suffix": "",
+          "fullname": "John Coburn",
+          "first_name": "John"
+        }
+      ],
+      "description": "Infantry brigade",
+      "brigades": 1,
+      "casualties": 1906
+    }
+  },
+  "campaign": "Middle Tennessee Operations [February-April 1863]",
+  "battle": "TN013",
+  "result": "Confederate",
+  "significance": "C",
+  "other_names": null,
+  "state": "TN",
+  "preservation": "II.3",
+  "principal_commanders": "Col. John Coburn [US]; Maj. Gen. Earl Van Dorn [CS]",
+  "end_date": "1863-03-05",
+  "cwsac_reference": "TN013",
+  "casualties": 2206,
+  "location": [
+    {
+      "place": "Williamson County",
+      "state": "TN"
+    }
+  ],
+  "battle_name": "Thompson's Station"
+}

@@ -1,0 +1,87 @@
+{
+  "dates": "January 13-15, 1865",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/nc015.htm",
+  "results_text": "Union victory",
+  "casualties_text": "2,000 total",
+  "description": "After the failure of his December expedition against Fort Fisher, Maj. Gen. Benjamin Butler was relieved of command. Maj. Gen. Alfred Terry was placed in command of a \"Provisional Corps,\" including Paine's Division of U.S. Colored Troops, and supported by a naval force of nearly 60 vessels, to renew operations against the fort. After a preliminary bombardment directed by Rear Adm. David D. Porter on January 13, Union forces landed and prepared an attack on Maj. Gen. Robert Hoke's infantry line. On the 15th, a select force moved on the fort from the rear. A valiant attack late in the afternoon, following the bloody repulse of a naval landing party carried the parapet. The Confederate garrison surrendered, opening the way for a Federal thrust against Wilmington, the South's last open seaport on the Atlantic coast.",
+  "start_date": "1865-01-13",
+  "forces_text": "Expeditionary Corps, Army of the James [US]; Hoke's Division and Fort Fisher Garrison [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Bragg",
+          "middle_name": "",
+          "rank": "General",
+          "suffix": "",
+          "fullname": "Braxton Bragg",
+          "first_name": "Braxton"
+        },
+        {
+          "navy": false,
+          "last_name": "Hoke",
+          "middle_name": "",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "Robert Hoke",
+          "first_name": "Robert"
+        },
+        {
+          "navy": false,
+          "last_name": "Lamb",
+          "middle_name": "",
+          "rank": "Colonel",
+          "suffix": "",
+          "fullname": "Charles Lamb",
+          "first_name": "Charles"
+        }
+      ],
+      "divisions": 1,
+      "description": "Hoke's Division and Fort Fisher Garrison"
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": true,
+          "last_name": "Porter",
+          "middle_name": "D.",
+          "rank": "Rear Admiral",
+          "suffix": "",
+          "fullname": "David D. Porter",
+          "first_name": "David"
+        },
+        {
+          "navy": false,
+          "last_name": "Terry",
+          "middle_name": "",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "Alfred Terry",
+          "first_name": "Alfred"
+        }
+      ],
+      "description": "Expeditionary Corps, Army of the James",
+      "corps": 1
+    }
+  },
+  "campaign": "Operations Against Fort Fisher and Wilmington [January-February 1865]",
+  "battle": "NC015",
+  "result": "Union",
+  "significance": "A",
+  "other_names": null,
+  "state": "NC",
+  "preservation": "IV.1",
+  "principal_commanders": "Rear Adm. David D. Porter and Maj. Gen. Alfred Terry [US]; Gen. Braxton Bragg, Maj. Gen. Robert Hoke, and Col. Charles Lamb [CS]",
+  "end_date": "1865-01-15",
+  "cwsac_reference": "NC015",
+  "casualties": 2000,
+  "location": [
+    {
+      "place": "New Hanover County",
+      "state": "NC"
+    }
+  ],
+  "battle_name": "Fort Fisher"
+}

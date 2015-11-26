@@ -1,0 +1,73 @@
+{
+  "dates": "October 25, 1864",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ks003.htm",
+  "results_text": "Union victory",
+  "casualties_text": "1,300 total (US 100; CS 1,200)",
+  "description": "About six miles south of Trading Post, where the Marais de Cygnes engagement had occurred, the brigades of Col. Frederick W. Benteen and Col. John F. Phillips, of Maj. Gen. Alfred Pleasonton's Provisional Cavalry Division, overtook the Confederates as they were crossing Mine Creek. These Rebels, stalled by their wagons crossing the ford, had formed a line on the north side of Mine Creek. The Federals, although outnumbered, commenced the attack as additional troops from Pleasonton's command arrived during the fight. They soon surrounded the Rebels, resulting in the capture of about 600 men and two generals, Brig. Gen. John S. Marmaduke and Brig. Gen. William L. Cabell. Having lost this many men, Price's army was doomed. Retreat to friendly territory was the only recourse.",
+  "start_date": "1864-10-25",
+  "forces_text": "Provisional cavalry division [US]; cavalry division [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Marmaduke",
+          "middle_name": "S.",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "John S. Marmaduke",
+          "first_name": "John"
+        },
+        {
+          "navy": false,
+          "last_name": "Fagan",
+          "middle_name": "F.",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "James F. Fagan",
+          "first_name": "James"
+        }
+      ],
+      "cavalry_divisions": 1,
+      "description": "cavalry division",
+      "casualties": 1200
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Pleasonton",
+          "middle_name": "",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "Alfred Pleasonton",
+          "first_name": "Alfred"
+        }
+      ],
+      "cavalry_divisions": 1,
+      "description": "Provisional cavalry division",
+      "casualties": 100
+    }
+  },
+  "campaign": "Price's Missouri Expedition [September-October 1864]",
+  "battle": "KS003",
+  "result": "Union",
+  "significance": "C",
+  "other_names": [
+    "Battle of the Osage"
+  ],
+  "state": "KS",
+  "preservation": "III.3",
+  "principal_commanders": "Major Gen. Alfred Pleasonton [US]; Brig. Gen. John S. Marmaduke and Maj. Gen. James F. Fagan [CS]",
+  "end_date": "1864-10-25",
+  "cwsac_reference": "KS003",
+  "casualties": 1300,
+  "location": [
+    {
+      "place": "Linn County",
+      "state": "KS"
+    }
+  ],
+  "battle_name": "Mine Creek"
+}

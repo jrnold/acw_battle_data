@@ -1,0 +1,63 @@
+{
+  "dates": "December 13, 1864",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ga028.htm",
+  "results_text": "Union victory",
+  "casualties_text": "205 total (US 134; CS 71)",
+  "description": "As Sherman' s troops approached Savannah they sorely required supplies. Sherman determined that if he could take Fort McAllister, supply ships could reach him. Thus, he ordered Maj. Gen. O.O. Howard, commander of his right wing, to take the fort. Howard chose Brig. Gen. William B. Hazen to accomplish the task. Hazen, in the afternoon of December 13, had his men in line for the attack. Upon giving the order to attack, his men rushed forward through the various obstacles prepared for them, entered the fort, and captured it. With his supply line open, Sherman could now prepare for the siege and capture of Savannah.",
+  "start_date": "1864-12-13",
+  "forces_text": "2nd Division, XV Corps, Army of the Tennessee [US]; Fort McAllister Garrison (120 men) [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Anderson",
+          "middle_name": "A.",
+          "rank": "Major",
+          "suffix": "",
+          "fullname": "George A. Anderson",
+          "first_name": "George"
+        }
+      ],
+      "description": "Fort McAllister Garrison (120 men)",
+      "strength_max": 120,
+      "strength_min": 120,
+      "casualties": 71
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Hazen",
+          "middle_name": "B.",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "William B. Hazen",
+          "first_name": "William"
+        }
+      ],
+      "divisions": 1,
+      "description": "2nd Division, XV Corps, Army of the Tennessee",
+      "casualties": 134
+    }
+  },
+  "campaign": "Savannah Campaign [November-December 1864]",
+  "battle": "GA028",
+  "result": "Union",
+  "significance": "B",
+  "other_names": null,
+  "state": "GA",
+  "preservation": "III.2",
+  "principal_commanders": "Brig. Gen. William B. Hazen [US]; Maj. George A. Anderson [CS]",
+  "end_date": "1864-12-13",
+  "cwsac_reference": "GA028",
+  "casualties": 205,
+  "location": [
+    {
+      "place": "Bryan County",
+      "state": "GA"
+    }
+  ],
+  "battle_name": "Fort McAllister II"
+}

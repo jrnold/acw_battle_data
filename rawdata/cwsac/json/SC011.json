@@ -1,0 +1,71 @@
+{
+  "dates": "February 3, 1865",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/sc011.htm",
+  "results_text": "Union victory",
+  "casualties_text": "262 total (US 92; CS 170)",
+  "description": "On February 2, a Confederate force under McLaws held the crossings of the Salkehatchie River against the advance of the right wing of Sherman's Army. Federal soldiers began building bridges across the swamp to bypass the road block. In the meantime, Union columns worked to get on the Confederates' flanks and rear. On February 3, two Union brigades waded the swamp downstream and assaulted McLaws's right. McLaws retreated toward Branchville after stalling Sherman's advance for only one day.",
+  "start_date": "1865-02-03",
+  "forces_text": "Divisions: 6,200 total (US 5,000; CS 1,200)",
+  "strength": 6200,
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "McLaws",
+          "middle_name": "",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "Lafayette McLaws",
+          "first_name": "Lafayette"
+        }
+      ],
+      "description": "1,200",
+      "strength_max": 1200,
+      "strength_min": 1200,
+      "casualties": 170
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Blair",
+          "middle_name": "P.",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "Francis P. Blair",
+          "first_name": "Francis"
+        }
+      ],
+      "description": "5,000",
+      "strength_max": 5000,
+      "strength_min": 5000,
+      "casualties": 92
+    }
+  },
+  "campaign": "Carolinas Campaign [February-March 1865]",
+  "battle": "SC011",
+  "result": "Union",
+  "significance": "D",
+  "other_names": [
+    "Salkehatchie River",
+    "Hickory Hill",
+    "Owens' Crossroads",
+    "Lawtonville",
+    "Duck Creek"
+  ],
+  "state": "SC",
+  "preservation": "III.4",
+  "principal_commanders": "Maj. Gen. Francis P. Blair [US]; Maj. Gen. Lafayette McLaws [CS]",
+  "end_date": "1865-02-03",
+  "cwsac_reference": "SC011",
+  "casualties": 262,
+  "location": [
+    {
+      "place": "Bamberg County",
+      "state": "SC"
+    }
+  ],
+  "battle_name": "Rivers' Bridge"
+}

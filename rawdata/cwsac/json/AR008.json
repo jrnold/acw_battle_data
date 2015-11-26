@@ -1,0 +1,60 @@
+{
+  "dates": "July 4, 1863",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ar008.htm",
+  "results_text": "Union victory",
+  "casualties_text": "1,842 total (US 206; CS 1,636)",
+  "description": "Lt. Gen. Theophilus Holmes's troops attacked Helena in an attempt to relieve pressure on Vicksburg. Although the Rebels had more troops and did initially capture some of the fortifications, the Union forces repelled them. Thus, Helena continued as an important Union enclave in the Trans-Mississippi theater and served as a base for the expedition that captured Little Rock.",
+  "start_date": "1863-07-04",
+  "forces_text": "District of Eastern Arkansas [US]; District of Arkansas [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Holmes",
+          "middle_name": "H.",
+          "rank": "Lieutenant General",
+          "suffix": "",
+          "fullname": "Theophilus H. Holmes",
+          "first_name": "Theophilus"
+        }
+      ],
+      "description": "District of Arkansas",
+      "casualties": 1636
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Prentiss",
+          "middle_name": "M.",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "Benjamin M. Prentiss",
+          "first_name": "Benjamin"
+        }
+      ],
+      "description": "District of Eastern Arkansas",
+      "casualties": 206
+    }
+  },
+  "campaign": "Grant's Operations Against Vicksburg [March-July 1863]",
+  "battle": "AR008",
+  "result": "Union",
+  "significance": "B",
+  "other_names": null,
+  "state": "AR",
+  "preservation": "IV.1",
+  "principal_commanders": "Maj. Gen. Benjamin M. Prentiss [US]; Lt. Gen. Theophilus H. Holmes [CS]",
+  "end_date": "1863-07-04",
+  "cwsac_reference": "AR008",
+  "casualties": 1842,
+  "location": [
+    {
+      "place": "Phillips County",
+      "state": "AR"
+    }
+  ],
+  "battle_name": "Helena"
+}

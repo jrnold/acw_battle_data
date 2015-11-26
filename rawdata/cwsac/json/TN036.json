@@ -1,0 +1,62 @@
+{
+  "dates": "November 30, 1864",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/tn036.htm",
+  "results_text": "Union victory",
+  "casualties_text": "8,587 total (US 2,326; CS 6,261)",
+  "description": "Having lost a good opportunity at Spring Hill to hurt significantly the Union Army, Gen. John B. Hood marched in rapid pursuit of Maj. Gen. John M. Schofield's retreating Union army. Schofield's advance reached Franklin about sunrise on November 30 and quickly formed a defensive line in works thrown up by the Yankees in the spring of 1863, on the southern edge of town. Schofield wished to remain in Franklin to repair the bridges and get his supply trains over them. Skirmishing at Thompson's Station and elsewhere delayed Hood's march, but, around 4:00 pm, he marshaled a frontal attack against the Union perimeter. Two Federal brigades holding a forward position gave way and retreated to the inner works, but their comrades ultimately held in a battle that caused frightening casualties. When the battle ceased, after dark, six Confederate generals were dead or had mortal wounds. Despite this terrible loss, Hood's army, late, depleted and worn, crawled on toward Nashville.",
+  "start_date": "1864-11-30",
+  "forces_text": "IV and XXIII Army Corps (Army of the Ohio and Cumberland) [US]; Army of Tennessee [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Hood",
+          "middle_name": "Bell",
+          "rank": "General",
+          "suffix": "",
+          "fullname": "John Bell Hood",
+          "first_name": "John"
+        }
+      ],
+      "description": "Army of Tennessee",
+      "armies": 1,
+      "casualties": 6261
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Schofield",
+          "middle_name": "M.",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "John M. Schofield",
+          "first_name": "John"
+        }
+      ],
+      "description": "IV and XXIII Army Corps (Army of the Ohio and Cumberland)",
+      "corps": 1,
+      "casualties": 2326
+    }
+  },
+  "campaign": "Franklin-Nashville Campaign [September-December 1864]",
+  "battle": "TN036",
+  "result": "Union",
+  "significance": "A",
+  "other_names": null,
+  "state": "TN",
+  "preservation": "IV.1",
+  "principal_commanders": "Maj. Gen. John M. Schofield [US]; Gen. John Bell Hood [CS]",
+  "end_date": "1864-11-30",
+  "cwsac_reference": "TN036",
+  "casualties": 8587,
+  "location": [
+    {
+      "place": "Williamson County",
+      "state": "TN"
+    }
+  ],
+  "battle_name": "Franklin"
+}

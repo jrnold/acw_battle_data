@@ -1,0 +1,65 @@
+{
+  "dates": "October 21, 1861",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ky002.htm",
+  "results_text": "Union victory",
+  "casualties_text": "78 total (US 25; CS 53)",
+  "description": "Brig. Gen. Felix Zollicoffer's men occupied Cumberland Gap and took position at Cumberland Ford to counter the Unionist activity in the area. Brig. Gen. George H. Thomas sent a detachment under Col. T.T. Garrard to secure the ford on the Rockcastle River, establish a camp at Wildcat Mountain, and obstruct the Wilderness road passing through the area. Col. Garrard informed Thomas that if he did not receive reinforcements, he would have to retreat because he was outnumbered seven to one. Thomas sent Brig. Gen. A. Schoepf with what amounted to a brigade of men to Col. Garrard, bringing the total force to about 7,000. On the morning of October 21, soon after Schoepf arrived, some of his men moved forward and ran into Rebel forces, commencing a fight. The Federals repelled the Confederate attacks, in part due to fortifications, both man-made and natural. The Confederates withdrew during the night and continued their retreat to Cumberland Ford, which they reached on the 26th. A Union victory was welcomed, countering the Confederate victory at Barbourville.",
+  "start_date": "1861-10-21",
+  "forces_text": "Camp Wildcat Garrison and Schoepf's Brigade (approx. 7,000 men) [US]; Zollicoffer's Brigade [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Zollicoffer",
+          "middle_name": "",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "Felix Zollicoffer",
+          "first_name": "Felix"
+        }
+      ],
+      "description": "Zollicoffer's Brigade",
+      "brigades": 1,
+      "casualties": 53
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Schoepf",
+          "middle_name": "F.",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "Albin F. Schoepf",
+          "first_name": "Albin"
+        }
+      ],
+      "description": "Camp Wildcat Garrison and Schoepf's Brigade (approx. 7,000 men)",
+      "strength_max": 7000,
+      "strength_min": 7000,
+      "casualties": 25
+    }
+  },
+  "campaign": "Operations in Eastern Kentucky [September-December 1861]",
+  "battle": "KY002",
+  "result": "Union",
+  "significance": "C",
+  "other_names": [
+    "Wildcat Mountain"
+  ],
+  "state": "KY",
+  "preservation": "III.3",
+  "principal_commanders": "Brig. Gen. Albin F. Schoepf [US]; Brig. Gen. Felix Zollicoffer [CS]",
+  "end_date": "1861-10-21",
+  "cwsac_reference": "KY002",
+  "casualties": 78,
+  "location": [
+    {
+      "place": "Laurel County",
+      "state": "KY"
+    }
+  ],
+  "battle_name": "Camp Wildcat"
+}

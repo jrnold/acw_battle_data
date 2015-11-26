@@ -1,0 +1,74 @@
+{
+  "dates": "May 14, 1863",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ms008.htm",
+  "results_text": "Union victory",
+  "casualties_text": "1,136 total (US 286; CS 850)",
+  "description": "On May 9, 1863, Gen. Joseph E. Johnston received a dispatch from the Confederate Secretary of War directing him to \"proceed at once to Mississippi and take chief command of the forces in the field.\" As he arrived in Jackson on the 13th, from Middle Tennessee, he learned that two army corps from the Union Army of the Tennessee-the XV, under Maj. Gen. William T. Sherman, and the XVII, under Maj. Gen. James Birdseye McPherson-were advancing on Jackson, intending to cut the city and the railroads off from Vicksburg. Johnston consulted with the local commander, Brig. Gen. John Gregg, and learned that only about 6,000 troops were available to defend the town. Johnston ordered the evacuation of Jackson, but Gregg was to defend Jackson until the evacuation was completed. By 10:00 am, both Union army corps were near Jackson and had engaged the enemy. Rain, Confederate resistance, and poor defenses prevented heavy fighting until around 11:00 am, when Union forces attacked in numbers and slowly but surely pushed the enemy back. In mid-afternoon, Johnston informed Gregg that the evacuation was complete and that he should disengage and follow. Soon after, the Yankees entered Jackson and had a celebration, hosted by Maj. Gen. U.S. Grant who had been travelling with Sherman's corps, in the Bowman House. They then burned part of the town and cut the railroad connections with Vicksburg. Johnston's evacuation of Jackson was a tragedy because he could, by late on the 14th, have had 11,000 troops at his disposal and by the morning of the 15th, another 4,000. The fall of the former Mississippi state capital was a blow to Confederate morale.",
+  "start_date": "1863-05-14",
+  "forces_text": "Army of the Tennessee [US]; Jackson Garrison [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Johnston",
+          "middle_name": "E.",
+          "rank": "General",
+          "suffix": "",
+          "fullname": "Joseph E. Johnston",
+          "first_name": "Joseph"
+        },
+        {
+          "navy": false,
+          "last_name": "Gregg",
+          "middle_name": "",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "John Gregg",
+          "first_name": "John"
+        }
+      ],
+      "description": "Jackson Garrison",
+      "casualties": 850
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Grant",
+          "middle_name": "S.",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "Ulysses S. Grant",
+          "first_name": "Ulysses"
+        }
+      ],
+      "description": "Army of the Tennessee",
+      "armies": 1,
+      "casualties": 286
+    }
+  },
+  "campaign": "Grant's Operations Against Vicksburg [March-July 1863]",
+  "battle": "MS008",
+  "result": "Union",
+  "significance": "B",
+  "other_names": null,
+  "state": "MS",
+  "preservation": "IV.2",
+  "principal_commanders": "Maj. Gen. Ulysses S. Grant [US]; Gen. Joseph E. Johnston and Brig. Gen. John Gregg [CS]",
+  "end_date": "1863-05-14",
+  "cwsac_reference": "MS008",
+  "casualties": 1136,
+  "location": [
+    {
+      "place": "Hinds County",
+      "state": "MS"
+    },
+    {
+      "place": "Jackson County",
+      "state": "MS"
+    }
+  ],
+  "battle_name": "Jackson"
+}

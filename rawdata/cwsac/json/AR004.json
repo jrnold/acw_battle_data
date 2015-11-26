@@ -1,0 +1,64 @@
+{
+  "dates": "November 28, 1862",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ar004.htm",
+  "results_text": "Confederate tactical victory",
+  "casualties_text": "475 total (US 40; CS 435)",
+  "description": "In late November, Maj. Gen. Thomas C. Hindman detached Brig. Gen. John Marmaduke's cavalry from Van Buren north to occupy the Cane Hill area. Hearing of this movement, Brig. Gen. James Blunt advanced to meet Marmaduke's command and destroy it, if possible. The Union vanguard encountered Col. Joe Shelby's brigade, which fought a delaying action to protect their supply trains. Shelby gradually gave ground until establishing a strong defensive perimeter on Cove Creek where he repulsed a determined attack. The Federals withdrew to Cane Hill, while the Confederates returned to Van Buren. Although fighting well, Marmaduke's withdrawal was a setback for Hindman's plans for recapturing northwest Arkansas. Victory at Prairie Grove a few weeks later, solidified Union control of the region.",
+  "start_date": "1862-11-28",
+  "forces_text": "Department of Missouri [US]; two cavalry brigades [CS]",
+  "belligerents": {
+    "CS": {
+      "cavalry_brigades": 2,
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Marmaduke",
+          "middle_name": "S.",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "John S. Marmaduke",
+          "first_name": "John"
+        }
+      ],
+      "description": "two cavalry brigades",
+      "casualties": 435
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Blunt",
+          "middle_name": "G.",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "James G. Blunt",
+          "first_name": "James"
+        }
+      ],
+      "description": "Department of Missouri",
+      "casualties": 40
+    }
+  },
+  "campaign": "Prairie Grove Campaign [November 1862]",
+  "battle": "AR004",
+  "result": "Confederate",
+  "significance": "C",
+  "other_names": [
+    "Canehill",
+    "Boston Mountains"
+  ],
+  "state": "AR",
+  "preservation": "III.3",
+  "principal_commanders": "Brig. Gen. James G. Blunt [US]; Brig. Gen. John S. Marmaduke [CS]",
+  "end_date": "1862-11-28",
+  "cwsac_reference": "AR004",
+  "casualties": 475,
+  "location": [
+    {
+      "place": "Washington County",
+      "state": "AR"
+    }
+  ],
+  "battle_name": "Cane Hill"
+}

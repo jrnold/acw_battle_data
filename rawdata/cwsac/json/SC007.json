@@ -1,0 +1,68 @@
+{
+  "dates": "July 18-September 7, 1863",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/sc007.htm",
+  "results_text": "Confederate victory",
+  "casualties_text": "1,689 total (US 1,515; CS 174)",
+  "description": "After the July 11 assault on Fort Wagner failed, Gillmore reinforced his beachhead on Morris Island. At dusk July 18, Gillmore launched an attack spearheaded by the 54th Massachusetts Infantry, a black regiment. The unit's colonel, Robert Gould Shaw, was killed. Members of the brigade scaled the parapet but after brutal hand-to-hand combat were driven out with heavy casualties. The Federals resorted to siege operations to reduce the fort. This was the fourth time in the war that black troops played a crucial combat role, proving to skeptics that they would fight bravely if only given the chance.",
+  "start_date": "1863-07-18",
+  "forces_text": "6,800 total (US 5,000; CS 1,800)",
+  "strength": 6800,
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Beauregard",
+          "middle_name": "",
+          "rank": "General",
+          "suffix": "",
+          "fullname": "P.G.T. Beauregard",
+          "first_name": "P.G.T."
+        }
+      ],
+      "description": "1,800",
+      "strength_max": 1800,
+      "strength_min": 1800,
+      "casualties": 174
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Gillmore",
+          "middle_name": "",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "Quincy Gillmore",
+          "first_name": "Quincy"
+        }
+      ],
+      "description": "5,000",
+      "strength_max": 5000,
+      "strength_min": 5000,
+      "casualties": 1515
+    }
+  },
+  "campaign": "Operations Against the Defenses of Charleston [April-September 1863]",
+  "battle": "SC007",
+  "result": "Confederate",
+  "significance": "B",
+  "other_names": [
+    "Second Assault",
+    "Morris Island"
+  ],
+  "state": "SC",
+  "preservation": "IV.2",
+  "principal_commanders": "Maj. Gen. Quincy Gillmore [US]; Gen. P.G.T. Beauregard [CS]",
+  "end_date": "1863-09-07",
+  "cwsac_reference": "SC007",
+  "casualties": 1689,
+  "location": [
+    {
+      "place": "City of Charleston",
+      "state": "SC"
+    }
+  ],
+  "battle_name": "Fort Wagner/Morris Island"
+}

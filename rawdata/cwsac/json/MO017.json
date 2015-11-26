@@ -1,0 +1,75 @@
+{
+  "dates": "November 7, 1862",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/mo017.htm",
+  "results_text": "Confederate victory",
+  "casualties_text": "Total unknown (US 113; CS unknown)",
+  "description": "Having received reports that Confederate troops were in the area, Capt. Hiram E. Barstow, Union commander at Clark's Mill, sent a detachment toward Gainesville and he led another southeastward. Barstow's men ran into a Confederate force, skirmished with them and drove them back. His column then fell back to Clark's Mill where he learned that another Confederate force was coming from the northeast. Unlimbering artillery to command both approach roads, Barstow was soon engaged in a five-hour fight with the enemy. Under a white flag, the Confederates demanded a surrender, and the Union, given their numerical inferiority, accepted. The Confederates paroled the Union troops and departed after burning the blockhouse at Clark's Mill. Clark's Mill helped the Confederates to maintain a toehold in southwest Missouri.",
+  "start_date": "1862-11-07",
+  "forces_text": "Detachments of 10th Illinois Cavalry and State Militia (approx. 100 men) [US]; cavalry brigade (approx. 1,000 men) [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Burbridge",
+          "middle_name": "Q.",
+          "rank": "Colonel",
+          "suffix": "",
+          "fullname": "John Q. Burbridge",
+          "first_name": "John"
+        },
+        {
+          "navy": false,
+          "last_name": "Greene",
+          "middle_name": "",
+          "rank": "Colonel",
+          "suffix": "",
+          "fullname": "Colton Greene",
+          "first_name": "Colton"
+        }
+      ],
+      "description": "cavalry brigade (approx. 1,000 men)",
+      "strength_max": 1000,
+      "strength_min": 1000,
+      "casualties": null
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Barstow",
+          "middle_name": "E.",
+          "rank": "Captain",
+          "suffix": "",
+          "fullname": "Hiram E. Barstow",
+          "first_name": "Hiram"
+        }
+      ],
+      "description": "Detachments of 10th Illinois Cavalry and State Militia (approx. 100 men)",
+      "strength_max": 113,
+      "strength_min": 113,
+      "casualties": 113
+    }
+  },
+  "campaign": "Operations North of Boston Mountains [August-November 1862]",
+  "battle": "MO017",
+  "result": "Confederate",
+  "significance": "D",
+  "other_names": [
+    "Vera Cruz"
+  ],
+  "state": "MO",
+  "preservation": "IV.1",
+  "principal_commanders": "Capt. Hiram E. Barstow [US]; Col. John Q. Burbridge and Col. Colton Greene [CS]",
+  "end_date": "1862-11-07",
+  "cwsac_reference": "MO017",
+  "casualties": null,
+  "location": [
+    {
+      "place": "Douglas County",
+      "state": "MO"
+    }
+  ],
+  "battle_name": "Clark's Mill"
+}

@@ -1,17 +1,20 @@
 {
     "commanders": {
-        "MO012": {"Confederate": [{"Name": "William W. Mackall", "PersonID": "9514b7b0-7398-44aa-89c2-0e8a1f09f32f"}]
-                  "US": [{"Name": "John Pope", "PersonID": "60853683-b235-4e03-abcb-68edc8339fa5"}]},
-        "MO010": {"Confederate": [{"Name": "Caleb Dorsey", "PersonID": "73e2e794-9dab-40f5-b28f-25ad915208d4"}],
-                  "US": [{"Name": "Benjamin Prentiss", "PersonID": "84cac7af-39b5-4fda-af6a-303608eec2c3"}]},
-        "MO022": {"Confederate": [{"Name": "Joe Shelby", "PersonID": "874fad05-2f21-424a-8f03-1358747940d4"}],
-                  "US": [{"Name": "Chester Harding", "PersonID": "c906863d-cc4c-4dff-9f12-cbe9abda060e"}]},
-        "WV010": {"Confederate": [{"Name": "Thomas J. Jackson", "PersonID", "21d06a25-9c4f-4dea-a766-f60d20632999"}],
-                  "US": [{"Name": "Dixon S. Miles", "PersonID": "0bd97fd2-dc2c-4a0d-8313-3122800946de"}]},
-        "AL009": {"Confederate": [{"Name": "Nathan Bedford Forrest": "02b4fa9a-541a-45c7-9097-ab1aee538c6c"}],
-                  "US": [{"Name": "Wallace Campbell"},
-                         {"Name": "Jonas Elliott"},
-                         {"Name": "W. H. Lathrop"}]
+        "MO012": {"Confederate": [{"Name": "William W. Mackall", "PersonID": "9514b7b0-7398-44aa-89c2-0e8a1f09f32f",
+                                   "commander_number": 1}],
+                  "US": [{"Name": "John Pope", "PersonID": "60853683-b235-4e03-abcb-68edc8339fa5",
+                          "commander_number": 1}]},
+        "MO010": {"Confederate": [{"Name": "Caleb Dorsey", "PersonID": "73e2e794-9dab-40f5-b28f-25ad915208d4",
+                                   "commander_number": 1}],
+                  "US": [{"Name": "Benjamin Prentiss", "PersonID": "84cac7af-39b5-4fda-af6a-303608eec2c3", "commander_number": 1}]},
+        "MO022": {"Confederate": [{"Name": "Joe Shelby", "PersonID": "874fad05-2f21-424a-8f03-1358747940d4", "commander_number": 1}],
+                  "US": [{"Name": "Chester Harding", "PersonID": "c906863d-cc4c-4dff-9f12-cbe9abda060e", "commander_number": 1}]},
+        "WV010": {"Confederate": [{"Name": "Thomas J. Jackson", "PersonID": "21d06a25-9c4f-4dea-a766-f60d20632999", "commander_number": 1}],
+                  "US": [{"Name": "Dixon S. Miles", "PersonID": "0bd97fd2-dc2c-4a0d-8313-3122800946de", "commander_number": 1}]},
+        "AL009": {"Confederate": [{"Name": "Nathan Bedford Forrest", "PersonID": "02b4fa9a-541a-45c7-9097-ab1aee538c6c", "commander_number": 1}],
+                  "US": [{"Name": "Wallace Campbell", "commander_number": 1, "PersonID": null},
+                         {"Name": "Jonas Elliott", "commander_number": 2, "PersonID": null},
+                         {"Name": "W. H. Lathrop", "commander_number": 3, "PersonID": null}]}
     },
     "campaigns": [
         {
@@ -24,14 +27,13 @@
         }
     ],
     "battle_campaigns": [
-        {
-            "MO010" : {"theater_code": "TM", "campaign_code": "TM61-03"},
-            "MO012" : {"theater_code": "MW", "campaign_code": "MW62-03"},
-            "MO022" : {"theater_code": "TM", "campaign_code": "TM64-05"},
-            "WV009" : {"theater_code": "ME", "campaign_code": "ME62-03"},
-            "AL009" : {"theater_code": "MW", "campaign_code": "MW64-15"},
-            "AR018" : {"theater_code": "TM", "campaign_code": "TM63-08"}
-        }
+        {"battle": "MO010", "theater_code": "TM", "campaign_code": "TM61-03"},
+        {"battle": "MO012", "theater_code": "MW", "campaign_code": "MW62-03"},
+        {"battle": "MO022", "theater_code": "TM", "campaign_code": "TM64-05"},
+        {"battle": "WV009", "theater_code": "ME", "campaign_code": "ME62-03"},
+        {"battle": "AL009", "theater_code": "MW", "campaign_code": "MW64-15"},
+        {"battle": "AR018", "theater_code": "TM", "campaign_code": "TM63-08"}
     ],
-    "cwsac_only_battles": ["MO010", "M0012", "MO022", "WV010"]
+    "cwsac_only_battles": ["MO010", "M0012", "MO022", "WV010"],
+    "excluded_battles": ["AL008", "AL009", "VA126", "AR018"]
 }

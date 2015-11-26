@@ -1,0 +1,64 @@
+{
+  "dates": "August 5, 1862",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/la003.htm",
+  "results_text": "Union victory",
+  "casualties_text": "849 total (US 371; CS 478)",
+  "description": "In an attempt to regain control of the state, Confederates wished to recapture the capital at Baton Rouge. Maj. Gen. John C. Breckinridge planned a combined land/water expedition with his corps and CSS Ram Arkansas. Advancing west from Camp Moore, the Confederate land forces, coming from the east, were only ten miles away on August 4. They reached the outskirts of the capital early in the morning, formed for an attack in two divisions, and began to drive back each Union unit they encountered. Then, Union gunboats in the river began shelling the Confederates. The Arkansas could have neutralized the Union gunboats, but her engines failed and she did not participate in the battle. Federal land forces, in the meantime, fell back to a more defensible line, and the Union commander, Brig. Gen. Thomas Williams, was killed soon after. The new commander, Col. Thomas W. Cahill, ordered a retreat to a prepared defensive line nearer the river and within the gunboats' protection. Rebels assailed the new line, but finally the Federals forced them to retire. The next day the Arkansas's engines failed again as she closed on the Union gunboats; she was blown up and scuttled by her crew. The Confederates failed to recapture the state capital.",
+  "start_date": "1862-08-05",
+  "forces_text": "2nd Brigade, Department of the Gulf [US]; Breckinridge's Corps [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Breckinridge",
+          "middle_name": "C.",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "John C. Breckinridge",
+          "first_name": "John"
+        }
+      ],
+      "description": "Breckinridge's Corps",
+      "corps": 1,
+      "casualties": 478
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Williams",
+          "middle_name": "",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "Thomas Williams",
+          "first_name": "Thomas"
+        }
+      ],
+      "description": "2nd Brigade, Department of the Gulf",
+      "brigades": 1,
+      "casualties": 371
+    }
+  },
+  "campaign": "Operations Against Baton Rouge [July-August 1862]",
+  "battle": "LA003",
+  "result": "Union",
+  "significance": "B",
+  "other_names": [
+    "Magnolia Cemetery"
+  ],
+  "state": "LA",
+  "preservation": "IV.1",
+  "principal_commanders": "Brig. Gen. Thomas Williams [US]; Maj. Gen. John C. Breckinridge [CS]",
+  "end_date": "1862-08-05",
+  "cwsac_reference": "LA003",
+  "casualties": 849,
+  "location": [
+    {
+      "place": "East Baton Rouge Parish",
+      "state": "LA"
+    }
+  ],
+  "battle_name": "Baton Rouge"
+}

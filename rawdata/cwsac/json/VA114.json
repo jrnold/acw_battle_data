@@ -1,0 +1,70 @@
+{
+  "dates": "July 17-18, 1864",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va114.htm",
+  "results_text": "Confederate victory",
+  "casualties_text": "819 total (US 422; CS 397)",
+  "description": "A Union column, consisting of the VI Corps and elements of the XIX Corps under Maj. Gen. Horatio Wright, pursued Early's army as it withdrew from the environs of Washington, D.C. Wright's force was joined by elements of Crook's command, which had accompanied Hunter during his retreat through West Virginia. On July 17, the Union cavalry passed through Snickers Gap and attempted to force passage of the Shenandoah River at Snickers Ford (Castleman's Ferry). On the morning of July 18, the vanguard of the Union infantry moved through Snickers Gap. Col. Joseph Thoburn (of Crook's command) led his division downstream to cross the river at Judge Richard Parker's Ford. Early's three nearby infantry divisions moved to defend the fords. In the afternoon, Rodes's division attacked and shattered Thoburn's right flank on the Cool Spring plantation. Thoburn made a stand behind a stone wall at the river's edge and beat off three attacks until darkness enabled him to withdraw. Union pursuit of Early was delayed several days.",
+  "start_date": "1864-07-17",
+  "forces_text": "13,000 total (US 5,000; CS 8,000)",
+  "strength": 13000,
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Early",
+          "middle_name": "A.",
+          "rank": "Lieutenant General",
+          "suffix": "",
+          "fullname": "Jubal A. Early",
+          "first_name": "Jubal"
+        }
+      ],
+      "description": "8,000",
+      "strength_max": 8000,
+      "strength_min": 8000,
+      "casualties": 397
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Wright",
+          "middle_name": "",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "Horatio Wright",
+          "first_name": "Horatio"
+        }
+      ],
+      "description": "5,000",
+      "strength_max": 5000,
+      "strength_min": 5000,
+      "casualties": 422
+    }
+  },
+  "campaign": "Early's Raid and Operations Against the B&O Railroad [June-August 1864]",
+  "battle": "VA114",
+  "result": "Confederate",
+  "significance": "C",
+  "other_names": [
+    "Island Ford",
+    "Parkers Ford",
+    "Snickers Ferry",
+    "Castleman's Ferry"
+  ],
+  "state": "VA",
+  "preservation": "II.3",
+  "principal_commanders": "Maj. Gen. Horatio Wright [US]; Lt. Gen. Jubal A. Early [CS]",
+  "end_date": "1864-07-18",
+  "cwsac_reference": "VA114",
+  "casualties": 819,
+  "location": [
+    {
+      "place": "Clarke County",
+      "state": "VA"
+    }
+  ],
+  "battle_name": "Cool Spring"
+}

@@ -1,0 +1,67 @@
+{
+  "dates": "June 27, 1862",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va017.htm",
+  "results_text": "Confederate victory",
+  "casualties_text": "15,500 total (US 6,800; CS 8,700)",
+  "description": "This was the third of the Seven Days' Battles. On June 27, 1862, Gen. Robert E. Lee renewed his attacks against Porter's V Corps, which had established a strong defensive line behind Boatswain's Swamp north of the Chickahominy River. Porter's reinforced V Corps held fast for the afternoon against disjointed Confederate attacks, inflicting heavy casualties. At dusk, the Confederates finally mounted a coordinated assault that broke Porter's line and drove his soldiers back toward the river. The Federals retreated across the river during the night. Defeat at Gaines' Mill convinced McClellan to abandon his advance on Richmond and begin the retreat to James River. Gaines' Mill saved Richmond for the Confederacy in 1862.",
+  "start_date": "1862-06-27",
+  "forces_text": "91,232 total (US 34,214; CS 57,018)",
+  "strength": 91232,
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Lee",
+          "middle_name": "E.",
+          "rank": "General",
+          "suffix": "",
+          "fullname": "Robert E. Lee",
+          "first_name": "Robert"
+        }
+      ],
+      "description": "57,018",
+      "strength_max": 57018,
+      "strength_min": 57018,
+      "casualties": 8700
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Porter",
+          "middle_name": "John",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "Fitz John Porter",
+          "first_name": "Fitz"
+        }
+      ],
+      "description": "34,214",
+      "strength_max": 34214,
+      "strength_min": 34214,
+      "casualties": 6800
+    }
+  },
+  "campaign": "Peninsula Campaign [March-July 1862]",
+  "battle": "VA017",
+  "result": "Confederate",
+  "significance": "A",
+  "other_names": [
+    "First Cold Harbor"
+  ],
+  "state": "VA",
+  "preservation": "I.1",
+  "principal_commanders": "Brig. Gen. Fitz John Porter [US]; Gen. Robert E. Lee [CS]",
+  "end_date": "1862-06-27",
+  "cwsac_reference": "VA017",
+  "casualties": 15500,
+  "location": [
+    {
+      "place": "Hanover County",
+      "state": "VA"
+    }
+  ],
+  "battle_name": "Gaines' Mill"
+}

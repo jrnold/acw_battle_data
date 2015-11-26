@@ -1,0 +1,72 @@
+{
+  "dates": "March 14, 1864",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/la017.htm",
+  "results_text": "Union victory",
+  "casualties_text": "317 total (US 48; CS 269)",
+  "description": "The Union launched a multi-purpose expedition into Rebel Gen. E. Kirby Smith's Trans-Mississippi Department, headquartered in Shreveport, Louisiana, in early 1864. Maj. Gen. Nathaniel P. Banks and Rear Adm. David D. Porter jointly commanded the combined force. Porter's fleet and Brig. Gen. A.J. Smith's XVI and XVII Army Corps detachments of the Army of the Tennessee set out on March 12, 1864, up the Red River, the most direct route to Shreveport. Banks with the XIII and XIX Army Corps advanced by way of Berwick Bay and Bayou Teche. After removing various obstructions that the Rebels had placed in the river, the major impediment to the Union expedition was the formidable Fort DeRussy, an earthen fortification with a partly iron-plated battery designed to resist the fire of Union ironclads that might come up river. Union Brig. Gen. A.J. Smith's command had embarked on transports at Vicksburg and then disembarked at Simsport, on the 12th, about thirty miles from Fort DeRussy. Smith sent out some troops on the morning of the 13th to determine if any enemy was in their path. This force dispersed and chased an enemy brigade, after which, Smith set his men in motion up the Fort DeRussy road. They did not proceed far before night. Early the next morning, the 14th, they continued the march, discovering that a Confederate division threatened their advance. Always mindful of this threat, Smith had to place part of his command in a position to intercept these Rebel forces if they attacked. Upon arriving at the fort, the enemy garrison of 350 men opened fire. Smith decided to use Mower's division, XVI Army Corps, to take the fort and set about positioning it for the attack. Around 6:30 pm, Smith ordered a charge on the fort and about twenty minutes later, Mower's men scaled the parapet, causing the enemy to surrender. Fort DeRussy, which some had said was impregnable, had fallen and the Red River to Alexandria was open.",
+  "start_date": "1864-03-14",
+  "forces_text": "3rd Division, XVI Army Corps [US]; Fort DeRussy Garrison (approx. 350 men) [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Byrd",
+          "middle_name": "",
+          "rank": "Lieutenant Colonel",
+          "suffix": "",
+          "fullname": "William Byrd",
+          "first_name": "William"
+        }
+      ],
+      "description": "Fort DeRussy Garrison (approx. 350 men)",
+      "strength_max": 350,
+      "strength_min": 350,
+      "casualties": 269
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Smith",
+          "middle_name": "",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "A.J. Smith",
+          "first_name": "A.J."
+        },
+        {
+          "navy": false,
+          "last_name": "Mower",
+          "middle_name": "A.",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "Joseph A. Mower",
+          "first_name": "Joseph"
+        }
+      ],
+      "divisions": 1,
+      "description": "3rd Division, XVI Army Corps",
+      "casualties": 48
+    }
+  },
+  "campaign": "Red River Campaign [March-April 1864]",
+  "battle": "LA017",
+  "result": "Union",
+  "significance": "B",
+  "other_names": null,
+  "state": "LA",
+  "preservation": "II.2",
+  "principal_commanders": "Brig. Gen. A.J. Smith and Brig. Gen. Joseph A. Mower [US]; Lt. Col. William Byrd [CS]",
+  "end_date": "1864-03-14",
+  "cwsac_reference": "LA017",
+  "casualties": 317,
+  "location": [
+    {
+      "place": "Avoyelles Parish",
+      "state": "LA"
+    }
+  ],
+  "battle_name": "Fort DeRussy"
+}

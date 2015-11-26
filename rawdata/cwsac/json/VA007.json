@@ -1,0 +1,60 @@
+{
+  "dates": "December 20, 1861",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va007.htm",
+  "results_text": "Union victory",
+  "casualties_text": "301 total (US 71; CS 230)",
+  "description": "Brig. Gen. J.E.B. Stuart led a brigade-sized mixed force of cavalry, infantry, and artillery to protect a foraging expedition in the vicinity of Dranesville. Union Brig. Gen. E.O.C. Ord, advancing on the Georgetown Pike, encountered Stuart's cavalry. Both sides deployed as more units arrived on the field, and a sharp firefight developed. Stuart withdrew in the mid-afternoon after ensuring that his wagons were safely in the rear.",
+  "start_date": "1861-12-20",
+  "forces_text": "Brigades",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Stuart",
+          "middle_name": "",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "J.E.B. Stuart",
+          "first_name": "J.E.B."
+        }
+      ],
+      "brigades": 1,
+      "casualties": 230
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Ord",
+          "middle_name": "O.C.",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "Edward O.C. Ord",
+          "first_name": "Edward"
+        }
+      ],
+      "brigades": 1,
+      "casualties": 71
+    }
+  },
+  "campaign": "McClellan's Operations in Northern Virginia [October-December 1861]",
+  "battle": "VA007",
+  "result": "Union",
+  "significance": "C",
+  "other_names": null,
+  "state": "VA",
+  "preservation": null,
+  "principal_commanders": "Brig. Gen. Edward O.C. Ord [US]; Brig. Gen. J.E.B. Stuart [CS]",
+  "end_date": "1861-12-20",
+  "cwsac_reference": "VA007",
+  "casualties": 301,
+  "location": [
+    {
+      "place": "Fairfax County",
+      "state": "VA"
+    }
+  ],
+  "battle_name": "Dranesville"
+}

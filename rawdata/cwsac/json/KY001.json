@@ -1,0 +1,64 @@
+{
+  "dates": "September 19, 1861",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ky001.htm",
+  "results_text": "Confederate victory",
+  "casualties_text": "20 total (US 15; CS 5)",
+  "description": "Kentucky Union sympathizers had trained recruits at Camp Andrew Johnson, in Barbourville, throughout the summer of 1861. Confederate Brig. Gen. Felix Zollicoffer entered Kentucky in mid-September intending to relieve pressure on Gen. Albert Sidney Johnston and his troops by conducting raids and generally constituting a threat to Union forces and sympathizers in the area. On September 18, 1861, he dispatched a force of about 800 men under command of Col. Joel A. Battle to disrupt the training activities at Camp Andrew Johnson. At daylight on the 19th, the force entered Barbourville and found the recruits gone; they had been sent to Camp Dick Robinson. A small home guard force commanded by Capt. Isaac J. Black met the Rebels, and a sharp skirmish ensued. After dispersing the home guard, the Confederates destroyed the training camp and seized arms found there. This was, for all practical purposes, the first encounter of the war in Kentucky. The Confederates were making their might known in the state, countering the early Union presence.",
+  "start_date": "1861-09-19",
+  "forces_text": "Home Guard (approx. 300 men) [US]; detachment of approx. 800 men under command of Col. Joel A. Battle [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Battle",
+          "middle_name": "A.",
+          "rank": "Colonel",
+          "suffix": "",
+          "fullname": "Joel A. Battle",
+          "first_name": "Joel"
+        }
+      ],
+      "description": "detachment of approx. 800 men under command of Col. Joel A. Battle",
+      "strength_max": 800,
+      "strength_min": 800,
+      "casualties": 5
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Black",
+          "middle_name": "J.",
+          "rank": "Captain",
+          "suffix": "",
+          "fullname": "Isaac J. Black",
+          "first_name": "Isaac"
+        }
+      ],
+      "description": "Home Guard (approx. 300 men)",
+      "strength_max": 300,
+      "strength_min": 300,
+      "casualties": 15
+    }
+  },
+  "campaign": "Operations in Eastern Kentucky [September-December 1861]",
+  "battle": "KY001",
+  "result": "Confederate",
+  "significance": "D",
+  "other_names": null,
+  "state": "KY",
+  "preservation": "IV.2",
+  "principal_commanders": "Capt. Isaac J. Black [US]; Col. Joel A. Battle [CS]",
+  "end_date": "1861-09-19",
+  "cwsac_reference": "KY001",
+  "casualties": 20,
+  "location": [
+    {
+      "place": "Knox County",
+      "state": "KY"
+    }
+  ],
+  "battle_name": "Barbourville"
+}

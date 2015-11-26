@@ -1,0 +1,68 @@
+{
+  "dates": "May 18-19, 1861",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va001.htm",
+  "results_text": "Inconclusive",
+  "casualties_text": "10 total",
+  "description": "Two Union gunboats, including USS Monticello, dueled with Confederate batteries on Sewell's Point in an attempt to enforce the blockade of Hampton Roads. The two sides did each other little harm.",
+  "start_date": "1861-05-18",
+  "forces_text": "Two gunboats [US]; battery garrison [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Gwynn",
+          "middle_name": "",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "Walter Gwynn",
+          "first_name": "Walter"
+        },
+        {
+          "navy": false,
+          "last_name": "Colquitt",
+          "middle_name": "",
+          "rank": "Captain",
+          "suffix": "",
+          "fullname": "Peyton Colquitt",
+          "first_name": "Peyton"
+        }
+      ],
+      "description": "battery garrison"
+    },
+    "US": {
+      "gunboats": 2,
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Braine",
+          "middle_name": "",
+          "rank": "Lieutenant (Naval)",
+          "suffix": "",
+          "fullname": "D.L. Braine",
+          "first_name": "D.L."
+        }
+      ],
+      "description": "Two gunboats"
+    }
+  },
+  "campaign": "Blockade of the Chesapeake Bay [May-June 1861]",
+  "battle": "VA001",
+  "result": "Inconclusive",
+  "significance": "D",
+  "other_names": null,
+  "state": "VA",
+  "preservation": "IV.2",
+  "principal_commanders": "Lt. (Naval) D.L. Braine [US]; Brig. Gen. Walter Gwynn and Capt. Peyton Colquitt [CS]",
+  "end_date": "1861-05-19",
+  "cwsac_reference": "VA001",
+  "casualties": 10,
+  "location": [
+    {
+      "place": "Norfolk City",
+      "state": "VA"
+    }
+  ],
+  "battle_name": "Sewell's Point"
+}

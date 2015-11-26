@@ -1,0 +1,60 @@
+{
+  "dates": "May 1-2, 1863",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ar007.htm",
+  "results_text": "Confederate tactical victory (The results, however, forced Marmaduke to end his expedition, making this a Union strategic victory.)",
+  "casualties_text": "Unknown",
+  "description": "Union Brig. Gen. William Vandever pursued Brig. Gen. John S. Marmaduke to Chalk Bluff, where the Confederates hoped to cross the St. Francis River. To ford the river, Marmaduke established a rearguard that received heavy punishment on May 1-2. Although most of Marmaduke's raiders crossed the St. Francis River, they suffered heavy casualties and therefore ended the expedition.",
+  "start_date": "1863-05-01",
+  "forces_text": "2nd Division, Army of the Frontier and force under command of Brig. Gen. John McNeil [US]; Marmaduke's Cavalry Division [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Marmaduke",
+          "middle_name": "S.",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "John S. Marmaduke",
+          "first_name": "John"
+        }
+      ],
+      "cavalry_divisions": 1,
+      "description": "Marmaduke's Cavalry Division"
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Vandever",
+          "middle_name": "",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "William Vandever",
+          "first_name": "William"
+        }
+      ],
+      "divisions": 1,
+      "description": "2nd Division, Army of the Frontier and force under command of Brig. Gen. John McNeil"
+    }
+  },
+  "campaign": "Marmaduke's Second Expedition into Missouri [April-May 1863]",
+  "battle": "AR007",
+  "result": "Confederate",
+  "significance": "D",
+  "other_names": null,
+  "state": "AR",
+  "preservation": "II.4",
+  "principal_commanders": "Brig. Gen. William Vandever [US]; Brig. Gen. John S. Marmaduke [CS]",
+  "end_date": "1863-05-02",
+  "cwsac_reference": "AR007",
+  "casualties": null,
+  "location": [
+    {
+      "place": "Clay County",
+      "state": "AR"
+    }
+  ],
+  "battle_name": "Chalk Bluff"
+}

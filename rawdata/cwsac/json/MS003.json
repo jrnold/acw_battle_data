@@ -1,0 +1,64 @@
+{
+  "dates": "December 26-29, 1862",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ms003.htm",
+  "results_text": "Confederate victory",
+  "casualties_text": "1,983 total (US 1,776; CS 207)",
+  "description": "On December 26, 1862, three Union divisions, under Maj. Gen. William T. Sherman, disembarked at Johnson's Plantation on the Yazoo River to approach the Vicksburg defenses from the northeast while a fourth landed farther upstream on the 27th. On the 27th, the Federals pushed their lines forward through the swamps toward Walnut Hills, which were strongly defended. On the 28th, several futile attempts were made to get around these defenses. On December 29, Sherman ordered a frontal assault which was repulsed with heavy casualties. Sherman then withdrew. This Confederate victory frustrated Grant's attempts to take Vicksburg by direct approach.",
+  "start_date": "1862-12-26",
+  "forces_text": "Right Wing, XIII Army Corps [US]; Department of Mississippi and East Louisiana [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Pemberton",
+          "middle_name": "C.",
+          "rank": "Lieutenant General",
+          "suffix": "",
+          "fullname": "John C. Pemberton",
+          "first_name": "John"
+        }
+      ],
+      "description": "Department of Mississippi and East Louisiana",
+      "casualties": 207
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Sherman",
+          "middle_name": "T.",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "William T. Sherman",
+          "first_name": "William"
+        }
+      ],
+      "description": "Right Wing, XIII Army Corps",
+      "corps": 0.5,
+      "casualties": 1776
+    }
+  },
+  "campaign": "Operations Against Vicksburg [December 1862-January 1863]",
+  "battle": "MS003",
+  "result": "Confederate",
+  "significance": "B",
+  "other_names": [
+    "Chickasaw Bluffs",
+    "Walnut Hills"
+  ],
+  "state": "MS",
+  "preservation": "I.3",
+  "principal_commanders": "Maj. Gen. William T. Sherman [US]; Lt. Gen. John C. Pemberton [CS]",
+  "end_date": "1862-12-29",
+  "cwsac_reference": "MS003",
+  "casualties": 1983,
+  "location": [
+    {
+      "place": "Warren County",
+      "state": "MS"
+    }
+  ],
+  "battle_name": "Chickasaw Bayou"
+}

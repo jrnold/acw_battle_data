@@ -1,0 +1,73 @@
+{
+  "dates": "August 11, 1862",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/mo014.htm",
+  "results_text": "Confederate victory",
+  "casualties_text": "Total unknown (US approx. 344; CS unknown)",
+  "description": "On August 11, 1862, Col. J.T. Hughes's Confederate force, including William Quantrill, attacked Independence, at dawn, in two columns on different roads. They drove through the town to the Union Army camp, capturing, killing, and scattering the Yankees. Lt. Col. James T. Buel, commander of the garrison, attempted to hold out in one of the buildings with some of his men. Soon the building next to them was on fire, threatening them. Buel then, by means of a flag of truce, arranged a meeting with the Confederate commander, Col. G.W. Thompson, who had replaced Col. J.T. Hughes, killed earlier. Buel surrendered and about 150 of his men were paroled, the others had escaped, hidden, or been killed. Having taken Independence, the Rebel force headed for Kansas City. Confederate dominance in the Kansas City area continued, but not for long.",
+  "start_date": "1862-08-11",
+  "forces_text": "Garrison (approx. 300 [US]; 700-800[CS])",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Hughes",
+          "middle_name": "",
+          "rank": "Colonel",
+          "suffix": "",
+          "fullname": "J.T. Hughes",
+          "first_name": "J.T."
+        },
+        {
+          "navy": false,
+          "last_name": "Thompson",
+          "middle_name": "",
+          "rank": "Colonel",
+          "suffix": "",
+          "fullname": "G.W. Thompson",
+          "first_name": "G.W."
+        }
+      ],
+      "description": "700-800",
+      "strength_max": 700,
+      "strength_min": 700,
+      "casualties": null
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Buel",
+          "middle_name": "T.",
+          "rank": "Lieutenant Colonel",
+          "suffix": "",
+          "fullname": "James T. Buel",
+          "first_name": "James"
+        }
+      ],
+      "description": "Garrison (approx. 300",
+      "strength_max": 344,
+      "strength_min": 344,
+      "casualties": 344
+    }
+  },
+  "campaign": "Operations North of Boston Mountains [August-November 1862]",
+  "battle": "MO014",
+  "result": "Confederate",
+  "significance": "D",
+  "other_names": null,
+  "state": "MO",
+  "preservation": "IV.2",
+  "principal_commanders": "Lt. Col. James T. Buel [US]; Col. J.T. Hughes and Col. G.W. Thompson [CS]",
+  "end_date": "1862-08-11",
+  "cwsac_reference": "MO014",
+  "casualties": null,
+  "location": [
+    {
+      "place": "Jackson County",
+      "state": "MO"
+    }
+  ],
+  "battle_name": "Independence"
+}

@@ -1,0 +1,65 @@
+{
+  "dates": "May 15, 1864",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va110.htm",
+  "results_text": "Confederate victory",
+  "casualties_text": "1,380 total (US 840; CS 540)",
+  "description": "In conjunction with his Spring offensive, Lt. Gen. U.S. Grant ordered Maj. Gen. Franz Sigel to move up the Shenandoah Valley along the Valley Pike with 10,000 men to destroy the railroad and canal complex at Lynchburg. At New Market on the 15th, Sigel was attacked by a makeshift Confederate army of about 4,100 men commanded by Maj. Gen. John C. Breckinridge. At a crucial point, a key Union battery was withdrawn from the line to replenish its ammunition, leaving a weakness that Breckinridge was quick to exploit. He ordered his entire force forward, and Sigel's stubborn defense collapsed. Threatened by the Confederate cavalry on his left flank and rear, Sigel ordered a general withdrawal burning the North Fork bridge behind him. Sigel retreated down the Valley to Strasburg and was soon replaced by Maj. Gen. David Hunter.",
+  "start_date": "1864-05-15",
+  "forces_text": "10,365 total (US 6,275; CS 4,090)",
+  "strength": 10365,
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Breckinridge",
+          "middle_name": "C.",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "John C. Breckinridge",
+          "first_name": "John"
+        }
+      ],
+      "description": "4,090",
+      "strength_max": 4090,
+      "strength_min": 4090,
+      "casualties": 540
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Sigel",
+          "middle_name": "",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "Franz Sigel",
+          "first_name": "Franz"
+        }
+      ],
+      "description": "6,275",
+      "strength_max": 6275,
+      "strength_min": 6275,
+      "casualties": 840
+    }
+  },
+  "campaign": "Lynchburg Campaign [May-June 1864]",
+  "battle": "VA110",
+  "result": "Confederate",
+  "significance": "B",
+  "other_names": null,
+  "state": "VA",
+  "preservation": "IV.1",
+  "principal_commanders": "Maj. Gen. Franz Sigel [US]; Maj. Gen. John C. Breckinridge [CS]",
+  "end_date": "1864-05-15",
+  "cwsac_reference": "VA110",
+  "casualties": 1380,
+  "location": [
+    {
+      "place": "Shenandoah County",
+      "state": "VA"
+    }
+  ],
+  "battle_name": "New Market"
+}

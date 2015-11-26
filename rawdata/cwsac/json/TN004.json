@@ -1,0 +1,81 @@
+{
+  "dates": "June 6, 1862",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/tn004.htm",
+  "results_text": "Union victory",
+  "casualties_text": "181 total (US 1; CS 180)",
+  "description": "After the Confederate River Defense Fleet, commanded by Capt. James E. Montgomery and Brig. Gen. M. Jeff Thompson (Missouri State Guard), bested the Union ironclads at Plum Run Bend, Tennessee, on May 10, 1862, they retired to Memphis. Confederate Gen. P.G.T. Beauregard ordered troops out of Fort Pillow and Memphis on June 4, after learning of Union Maj. Gen. Henry W. Halleck's occupation of Corinth, Mississippi. Thompson's few troops, camped outside Memphis, and Montgomery's fleet were the only force available to meet the Union naval threat to the city. From Island No. 45, just north of Memphis, Flag-Officer Charles H. Davis and Col. Charles Ellet launched a naval attack on Memphis after 4:00 am on June 6. Arriving off Memphis about 5:30 am, the battle began. In the hour and a half battle, the Union boats sank or captured all but one of the Confederate vessels; General Van Dorn escaped. Immediately following the battle, Col. Ellet's son, Medical Cadet Charles Ellet, Jr., met the mayor of Memphis and raised the Union colors over the courthouse. Later, Flag-Officer Davis officially received the surrender of the city from the mayor. The Indiana Brigade, commanded by Col. G.N. Fitch, then occupied the city. Memphis, an important commercial and economic center on the Mississippi River, had fallen, opening another section of the Mississippi River to Union shipping.",
+  "start_date": "1862-06-06",
+  "forces_text": "U.S. Ironclads Benton, Louisville, Carondelet, Cairo, and St. Louis and U.S. Army Rams Queen of the West and Monarch [US]; C.S. Navy Rams General Beauregard, General Bragg, General Price, General Van Dorn, General Thompson, Colonel Lovell, Sumter, and Little Rebel [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Montgomery",
+          "middle_name": "E.",
+          "rank": "Captain (Naval)",
+          "suffix": "",
+          "fullname": "James E. Montgomery",
+          "first_name": "James"
+        },
+        {
+          "navy": false,
+          "last_name": "Thompson",
+          "middle_name": "Jeff",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "M. Jeff Thompson",
+          "first_name": "M."
+        }
+      ],
+      "description": "C.S. Navy Rams General Beauregard, General Bragg, General Price, General Van Dorn, General Thompson, Colonel Lovell, Sumter, and Little Rebel",
+      "rams": 8,
+      "casualties": 180
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": true,
+          "last_name": "Davis",
+          "middle_name": "H.",
+          "rank": "Flag Officer",
+          "suffix": "",
+          "fullname": "Charles H. Davis",
+          "first_name": "Charles"
+        },
+        {
+          "navy": false,
+          "last_name": "Ellet",
+          "middle_name": "",
+          "rank": "Colonel",
+          "suffix": "",
+          "fullname": "Charles Ellet",
+          "first_name": "Charles"
+        }
+      ],
+      "description": "U.S. Ironclads Benton, Louisville, Carondelet, Cairo, and St. Louis and U.S. Army Rams Queen of the West and Monarch",
+      "ironclads": 5,
+      "rams": 2,
+      "casualties": 1
+    }
+  },
+  "campaign": "Joint Operations Against New Madrid, Island No. 10, and Memphis [February-June 1862]",
+  "battle": "TN004",
+  "result": "Union",
+  "significance": "B",
+  "other_names": null,
+  "state": "TN",
+  "preservation": null,
+  "principal_commanders": "Flag-Officer Charles H. Davis and Col. Charles Ellet [US]; Capt. (Naval) James E. Montgomery and Brig. Gen. M. Jeff Thompson [CS]",
+  "end_date": "1862-06-06",
+  "cwsac_reference": "TN004",
+  "casualties": 181,
+  "location": [
+    {
+      "place": "Shelby County",
+      "state": "TN"
+    }
+  ],
+  "battle_name": "Memphis"
+}

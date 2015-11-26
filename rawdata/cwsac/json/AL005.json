@@ -1,0 +1,61 @@
+{
+  "dates": "March 27-April 8, 1865",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/al005.htm",
+  "results_text": "Union victory",
+  "casualties_text": "1,401 (US 657; CS 744)",
+  "description": "Maj. Gen. E.R.S. Canby's XIII and XVI corps moved along the eastern shore of Mobile Bay forcing the Confederates back into their defenses. Union forces then concentrated on Spanish Fort and Fort Blakely. On March 27, 1865, Canby's forces rendezvoused at Danley's Ferry and immediately undertook a siege of Spanish Fort. The Union had enveloped the fort by April 1, and on April 8 captured it. Most of the Confederate forces, under the command of Brig. Gen. Randall L. Gibson, escaped and fled to Mobile, but Spanish Fort was no longer a threat.",
+  "start_date": "1865-03-27",
+  "forces_text": "XVI and XIII Corps [US]; Spanish Fort Garrison [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Gibson",
+          "middle_name": "L.",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "Randall L. Gibson",
+          "first_name": "Randall"
+        }
+      ],
+      "description": "Spanish Fort Garrison",
+      "casualties": 744
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Canby",
+          "middle_name": "",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "E.R.S. Canby",
+          "first_name": "E.R.S."
+        }
+      ],
+      "description": "XVI and XIII Corps",
+      "corps": 2,
+      "casualties": 657
+    }
+  },
+  "campaign": "Mobile Campaign [March-April 1865]",
+  "battle": "AL005",
+  "result": "Union",
+  "significance": "B",
+  "other_names": null,
+  "state": "AL",
+  "preservation": "IV.2",
+  "principal_commanders": "Maj. Gen. E.R.S. Canby [US]; Brig. Gen. Randall L. Gibson [CS]",
+  "end_date": "1865-04-08",
+  "cwsac_reference": "AL005",
+  "casualties": 1401,
+  "location": [
+    {
+      "place": "Baldwin County",
+      "state": "AL"
+    }
+  ],
+  "battle_name": "Spanish Fort"
+}

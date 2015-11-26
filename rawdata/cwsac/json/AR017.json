@@ -1,0 +1,69 @@
+{
+  "dates": "June 6, 1864",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ar017.htm",
+  "results_text": "Union victory",
+  "casualties_text": "280 total (US 180; CS 100)",
+  "description": "Maj. Gen. A.J. Smith ordered Brig. Gen. Joseph A. Mower to demonstrate against Lake Village. Mower camped near Sunnyside Landing on the evening of June 5 and took up his line of march again the next morning. The skirmishing Confederates fell back to Red Leaf where Col. Colton Greene and his men were encamped. As the Federals advanced, Greene's men, assisted by artillery, fought a delaying action at Ditch Bayou and then withdrew to Parker's landing on Bayou Mason. The Union troops advanced to Lake Village, camped there overnight, and the next day rejoined the flotilla on the Mississippi River at Columbia. The Rebels delayed the Union advance but, eventually, allowed them to continue to their objective: Lake Village.",
+  "start_date": "1864-06-06",
+  "forces_text": "Two brigades of XVI Army Corps [US]; Marmaduke's Division [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Greene",
+          "middle_name": "",
+          "rank": "Colonel",
+          "suffix": "",
+          "fullname": "Colton Greene",
+          "first_name": "Colton"
+        }
+      ],
+      "divisions": 1,
+      "description": "Marmaduke's Division",
+      "casualties": 100
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Mower",
+          "middle_name": "A.",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "Joseph A. Mower",
+          "first_name": "Joseph"
+        }
+      ],
+      "description": "Two brigades of XVI Army Corps",
+      "brigades": 2,
+      "casualties": 180
+    }
+  },
+  "campaign": "Expedition to Lake Village [June 1864]",
+  "battle": "AR017",
+  "result": "Union",
+  "significance": "D",
+  "other_names": [
+    "Ditch Bayou",
+    "Lake Chicot",
+    "Lake Village",
+    "Furlough",
+    "Fish Bayou",
+    "Grand Lake"
+  ],
+  "state": "AR",
+  "preservation": "III.4",
+  "principal_commanders": "Brig. Gen. Joseph A. Mower [US]; Col. Colton Greene [CS]",
+  "end_date": "1864-06-06",
+  "cwsac_reference": "AR017",
+  "casualties": 280,
+  "location": [
+    {
+      "place": "Chicot County",
+      "state": "AR"
+    }
+  ],
+  "battle_name": "Old River Lake"
+}

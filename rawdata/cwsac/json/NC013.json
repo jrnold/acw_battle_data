@@ -1,0 +1,64 @@
+{
+  "dates": "May 5, 1864",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/nc013.htm",
+  "results_text": "Inconclusive",
+  "casualties_text": "88 total",
+  "description": "On May 5, CSS Albemarle fought seven blockading Union ships to a draw at the mouth of the Roanoke River. Federals recaptured the converted steamer Bombshell. USS Sassacus was badly damaged.",
+  "start_date": "1864-05-05",
+  "forces_text": "9 gunboats [US]; Confederate ram [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": true,
+          "last_name": "Cooke",
+          "middle_name": "",
+          "rank": "Commander",
+          "suffix": "",
+          "fullname": "J.W. Cooke",
+          "first_name": "J.W."
+        }
+      ],
+      "ships": 1,
+      "description": "Confederate ram"
+    },
+    "US": {
+      "gunboats": 9,
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Smith",
+          "middle_name": "",
+          "rank": "Captain (Naval)",
+          "suffix": "",
+          "fullname": "Melancton Smith",
+          "first_name": "Melancton"
+        }
+      ],
+      "description": "9 gunboats"
+    }
+  },
+  "campaign": "Operations Against Plymouth [April-May 1864]",
+  "battle": "NC013",
+  "result": "Inconclusive",
+  "significance": "C",
+  "other_names": null,
+  "state": "NC",
+  "preservation": "III.3",
+  "principal_commanders": "Capt. (Naval) Melancton Smith [US]; Cdr. J.W. Cooke [CS]",
+  "end_date": "1864-05-05",
+  "cwsac_reference": "NC013",
+  "casualties": 88,
+  "location": [
+    {
+      "place": "Chowan County",
+      "state": "NC"
+    },
+    {
+      "place": "Washington County",
+      "state": "NC"
+    }
+  ],
+  "battle_name": "Albemarle Sound"
+}

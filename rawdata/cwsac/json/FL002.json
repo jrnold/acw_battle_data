@@ -1,0 +1,64 @@
+{
+  "dates": "June 30-July 1, 1862",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/fl002.htm",
+  "results_text": "Confederate victory (Inconclusive, but Union gunboat withdrew.)",
+  "casualties_text": "None",
+  "description": "On June 30, a Union gunboat came into Tampa Bay, turned her broadside on the town, and opened her ports. The gunboat then dispatched a launch carrying 20 men and a lieutenant under a flag of truce demanding the surrender of Tampa. The Confederates refused, and the gunboat opened fire. The officer then informed the Confederates that shelling would commence at 6:00 pm after allowing time to evacuate non-combatants from the city. Firing continued sporadically into the afternoon of July 1, when the Federal gunboat withdrew.",
+  "start_date": "1862-06-30",
+  "forces_text": "One gunboat [US]; Osceola Rangers, company [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Pearson",
+          "middle_name": "W.",
+          "rank": "Captain",
+          "suffix": "",
+          "fullname": "John W. Pearson",
+          "first_name": "John"
+        }
+      ],
+      "description": "Osceola Rangers, company",
+      "companies": 1,
+      "casualties": 0
+    },
+    "US": {
+      "gunboats": 1,
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Drake",
+          "middle_name": "",
+          "rank": "Captain (Naval)",
+          "suffix": "",
+          "fullname": "A.J. Drake",
+          "first_name": "A.J."
+        }
+      ],
+      "description": "One gunboat",
+      "casualties": 0
+    }
+  },
+  "campaign": "Operations Against Tampa [June-July 1862]",
+  "battle": "FL002",
+  "result": "Confederate",
+  "significance": "D",
+  "other_names": [
+    "Yankee Outrage at Tampa"
+  ],
+  "state": "FL",
+  "preservation": "IV.2",
+  "principal_commanders": "Capt. (Naval) A.J. Drake [US]; Capt. John W. Pearson [CS]",
+  "end_date": "1862-07-01",
+  "cwsac_reference": "FL002",
+  "casualties": 0,
+  "location": [
+    {
+      "place": "City of Tampa",
+      "state": "FL"
+    }
+  ],
+  "battle_name": "Tampa"
+}

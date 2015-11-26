@@ -1,0 +1,62 @@
+{
+  "dates": "December 7, 1862",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/tn008.htm",
+  "results_text": "Confederate victory",
+  "casualties_text": "2,004 total (US 1,855; CS 149)",
+  "description": "The 39th Brigade, XIV Army Corps, was guarding the Cumberland River crossing at Hartsville to prevent Confederate cavalry from raiding. Under the cover of darkness, Brig. Gen. John H. Morgan crossed the river in the early morning of December 7, 1862. Col. Absalom B. Moore, commander of the 39th Brigade, stated in his after action report, that Morgan's advance had worn Union blue uniforms which got them through the videttes. Morgan approached the Union camp, the pickets sounded the alarm, and held the Rebels until the brigade was in battle line. The fighting commenced at 6:45 am and continued until about 8:30 am. One of Moore's units ran, which caused confusion and helped to force the Federals to fall back. By 8:30 am, the Confederates had surrounded the Federals, convincing them to surrender. This action at Hartsville, located north of Murfreesboro, was a preliminary to the Confederate cavalry raids by Forrest into West Tennessee, December 1862-January 1863, and Morgan into Kentucky, December 1862-January 1863.",
+  "start_date": "1862-12-07",
+  "forces_text": "39th Brigade, XIV Army Corps (Army of the Cumberland) [US]; expeditionary force (two brigades) [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Morgan",
+          "middle_name": "Hunt",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "John Hunt Morgan",
+          "first_name": "John"
+        }
+      ],
+      "description": "expeditionary force (two brigades)",
+      "brigades": 2,
+      "casualties": 149
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Moore",
+          "middle_name": "B.",
+          "rank": "Colonel",
+          "suffix": "",
+          "fullname": "Absalom B. Moore",
+          "first_name": "Absalom"
+        }
+      ],
+      "description": "39th Brigade, XIV Army Corps (Army of the Cumberland)",
+      "brigades": 1,
+      "casualties": 1855
+    }
+  },
+  "campaign": "Stones River Campaign [December 1862-January 1863]",
+  "battle": "TN008",
+  "result": "Confederate",
+  "significance": "C",
+  "other_names": null,
+  "state": "TN",
+  "preservation": "III.3",
+  "principal_commanders": "Col. Absalom B. Moore [US]; Brig. Gen. John Hunt Morgan [CS]",
+  "end_date": "1862-12-07",
+  "cwsac_reference": "TN008",
+  "casualties": 2004,
+  "location": [
+    {
+      "place": "Trousdale County",
+      "state": "TN"
+    }
+  ],
+  "battle_name": "Hartsville"
+}

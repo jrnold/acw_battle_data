@@ -1,0 +1,72 @@
+{
+  "dates": "May 21, 1863",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/la009.htm",
+  "results_text": "Union victory",
+  "casualties_text": "250 total (US 150; CS 100)",
+  "description": "Early in the morning of May 21, 1863, Maj. Gen. Christopher C. Augur's Union division advanced from Baton Rouge toward the intersection of Plains Store and Bayou Sara roads on the way to secure a landing, on the river, for Maj. Gen. Nathaniel Banks. Col. Benjamin H. Grierson's cavalry, in the lead, encountered Confederate forces under the command of Col. Frank P. Powers and skirmishing ensued. As the morning progressed the Union infantry approached the crossroads and came under fire, bringing on a general engagement. At noon, Col. W.R. Miles set out for Plains Store with Confederate reinforcements. By the time that Miles arrived in the area late in the day, the fighting had ceased, the Rebel forces had retreated, and the Federals were preparing camps for the night. Miles attacked the Union forces and, at first, drove them, but they regrouped and counterattacked. Miles could not stand against the overwhelming Union force and retired into the Port Hudson perimeter. The battle ended, and the last Confederate escape route from Port Hudson was closed.",
+  "start_date": "1863-05-21",
+  "forces_text": "1st Division, XIX Army Corps and Cavalry Brigade [US]; small combined infantry, artillery, and cavalry force [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Powers",
+          "middle_name": "P.",
+          "rank": "Colonel",
+          "suffix": "",
+          "fullname": "Frank P. Powers",
+          "first_name": "Frank"
+        },
+        {
+          "navy": false,
+          "last_name": "Miles",
+          "middle_name": "R.",
+          "rank": "Colonel",
+          "suffix": "",
+          "fullname": "William R. Miles",
+          "first_name": "William"
+        }
+      ],
+      "description": "small combined infantry, artillery, and cavalry force",
+      "casualties": 100
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Augur",
+          "middle_name": "C.",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "Christopher C. Augur",
+          "first_name": "Christopher"
+        }
+      ],
+      "divisions": 1,
+      "description": "1st Division, XIX Army Corps and Cavalry Brigade",
+      "casualties": 150
+    }
+  },
+  "campaign": "Siege of Port Hudson [May-July 1863]",
+  "battle": "LA009",
+  "result": "Union",
+  "significance": "C",
+  "other_names": [
+    "Springfield Road"
+  ],
+  "state": "LA",
+  "preservation": "III.3",
+  "principal_commanders": "Maj. Gen. Christopher C. Augur [US]; Col. Frank P. Powers and Col. William R. Miles [CS]",
+  "end_date": "1863-05-21",
+  "cwsac_reference": "LA009",
+  "casualties": 250,
+  "location": [
+    {
+      "place": "East Baton Rouge Parish",
+      "state": "LA"
+    }
+  ],
+  "battle_name": "Plains Store"
+}

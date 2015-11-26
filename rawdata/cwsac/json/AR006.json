@@ -1,0 +1,72 @@
+{
+  "dates": "January 9-11, 1863",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ar006.htm",
+  "results_text": "Union victory",
+  "casualties_text": "6,547 total (US 1,047; CS 5,500)",
+  "description": "From Fort Hindman, at Arkansas Post, Confederates had been disrupting Union shipping on the Mississippi River. Maj. Gen. John McClernand, therefore, undertook a combined force movement on Arkansas Post to capture it. Union boats began landing troops near Arkansas Post in the evening of January 9, 1863. The troops started up river towards Fort Hindman. Maj. Gen. William T. Sherman's corps overran Rebel trenches, and the enemy retreated to the protection of the fort and adjacent rifle-pits. Rear Adm. David Porter, on the 10th, moved his fleet towards Fort Hindman and bombarded it withdrawing at dusk. Union artillery fired on the fort from artillery positions across the river on the 11th, and the infantry moved into position for an attack. Union ironclads commenced shelling the fort and Porter's fleet passed it to cutoff any retreat. As a result of this envelopment, and the attack by McClernand's troops, the Confederate command surrendered in the afternoon. Although Union losses were high and the victory did not contribute to the capture of Vicksburg, it did eliminate one more impediment to Union shipping on the Mississippi.",
+  "start_date": "1863-01-09",
+  "forces_text": "Army of the Mississippi [US]; Fort Hindman Garrison [CS]",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Churchill",
+          "middle_name": "J.",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "Thomas J. Churchill",
+          "first_name": "Thomas"
+        }
+      ],
+      "description": "Fort Hindman Garrison",
+      "casualties": 5500
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Porter",
+          "middle_name": "D.",
+          "rank": "Acting Rear Admiral",
+          "suffix": "",
+          "fullname": "David D. Porter",
+          "first_name": "David"
+        },
+        {
+          "navy": false,
+          "last_name": "McClernand",
+          "middle_name": "A.",
+          "rank": "Major General",
+          "suffix": "",
+          "fullname": "John A. McClernand",
+          "first_name": "John"
+        }
+      ],
+      "description": "Army of the Mississippi",
+      "armies": 1,
+      "casualties": 1047
+    }
+  },
+  "campaign": "Operations Against Vicksburg [December 1862-January 1863]",
+  "battle": "AR006",
+  "result": "Union",
+  "significance": "C",
+  "other_names": [
+    "Fort Hindman"
+  ],
+  "state": "AR",
+  "preservation": "IV.1",
+  "principal_commanders": "Acting Rear Adm. David D. Porter and Maj. Gen. John A. McClernand [US]; Brig. Gen. Thomas J. Churchill [CS]",
+  "end_date": "1863-01-11",
+  "cwsac_reference": "AR006",
+  "casualties": 6547,
+  "location": [
+    {
+      "place": "Arkansas County",
+      "state": "AR"
+    }
+  ],
+  "battle_name": "Arkansas Post"
+}

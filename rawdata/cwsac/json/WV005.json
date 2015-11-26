@@ -1,0 +1,71 @@
+{
+  "dates": "September 12-15, 1861",
+  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/wv005.htm",
+  "results_text": "Union victory",
+  "casualties_text": "170 total (US 80; CS 90)",
+  "description": "Gen. Robert E. Lee directed his first offensive of the war against Brig. Gen. Joseph Reynolds's entrenchments on the summit of Cheat Mountain and in the Tygart Valley. The Confederate attacks were uncoordinated, however, and the Federal defense was so stubborn that Col. Albert Rust (leading the attacks) was convinced that he confronted an overwhelming force. He actually faced only about 300 determined Federals. Lee called off the attack and, after maneuvering in the vicinity, withdrew to Valley Head on September 17. In October, Lee renewed operations against Laurel Mountain with the troops of Floyd and Loring, but the operation was called off because of poor communication and lack of supplies. Lee was recalled to Richmond on October 30 after achieving little in western Virginia.",
+  "start_date": "1861-09-12",
+  "forces_text": "Brigades",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Lee",
+          "middle_name": "E.",
+          "rank": "General",
+          "suffix": "",
+          "fullname": "Robert E. Lee",
+          "first_name": "Robert"
+        },
+        {
+          "navy": false,
+          "last_name": "Rust",
+          "middle_name": "",
+          "rank": "Colonel",
+          "suffix": "",
+          "fullname": "Albert Rust",
+          "first_name": "Albert"
+        }
+      ],
+      "brigades": 1,
+      "casualties": 90
+    },
+    "US": {
+      "commanders": [
+        {
+          "navy": false,
+          "last_name": "Reynolds",
+          "middle_name": "",
+          "rank": "Brigadier General",
+          "suffix": "",
+          "fullname": "Joseph Reynolds",
+          "first_name": "Joseph"
+        }
+      ],
+      "brigades": 1,
+      "casualties": 80
+    }
+  },
+  "campaign": "Operations in Western Virginia [June-December 1861]",
+  "battle": "WV005",
+  "result": "Union",
+  "significance": "B",
+  "other_names": [
+    "Cheat Mountain Summit"
+  ],
+  "state": "WV",
+  "preservation": "III.2",
+  "principal_commanders": "Brig. Gen. Joseph Reynolds [US]; Gen. Robert E. Lee and Col. Albert Rust [CS]",
+  "end_date": "1861-09-15",
+  "cwsac_reference": "WV005",
+  "casualties": 170,
+  "location": [
+    {
+      "place": "Pocahontas County",
+      "state": "WV"
+    }
+  ],
+  "battle_name": "Cheat Mountain"
+}
