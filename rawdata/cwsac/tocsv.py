@@ -1,6 +1,8 @@
 """ Convert cwsac.json to csv files """
 import json
 import csv
+import os
+from os import path
 
 def dict_remove(x, exclude = []):
     return dict((k, v) for k, v in x.items() if k not in exclude)
@@ -99,6 +101,7 @@ commanders_fields = (
     'belligerent',
     'fullname',
     'rank',
+    'navy',
     'first_name',
     'last_name',
     'middle_name',
@@ -115,11 +118,16 @@ def commanders_csv(data, filename):
                     row = commander.copy()
                     row['battle'] = battle
                     row['belligerent'] = belligerent
+                    row['navy'] = int(row['navy'])
                     writer.writerow(row)
 
-SRC = "cwsac.json"
-with open(SRC, 'r') as f:
-    data = json.load(f)
+SRC = "json"
+
+data = {}
+for filename in os.listdir(SRC):
+    print(filename)
+    with open(path.join(SRC, filename), 'r') as f:
+        data[path.splitext(filename)[0]] = json.load(f)
 
 battle_csv(data, 'cwsac_battles.csv')
 forces_csv(data, 'cwsac_forces.csv')
