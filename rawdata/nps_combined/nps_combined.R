@@ -750,7 +750,7 @@ cwss_commanders <-
   left_join(select(cwss_people, PersonID, LastName, FirstName, MiddleName,
                    MiddleInitial),
             by = c("PersonID")) %>%
-  mutate(cwss = TRUE,
+  mutate(
          belligerent = ifelse(grepl("OK00[1-3]", BattlefieldCode) &
                                 belligerent == "US",
                               "Native American", belligerent)) %>%
@@ -772,19 +772,11 @@ cwsac_commanders <-
          belligerent != "Native American")
 
 nps_commanders <-
-  full_join(cwss_commanders, cwsac_commanders,
-             by = c("battle", "belligerent", "last_name")) %>%
+  left_join(cwss_commanders,
+            select(cwsac_commanders,
+                   battle, belligerent, last_name, rank, navy),
+            by = c("battle", "belligerent", "last_name")) %>%
   filter(! battle %in% EXCLUDED_BATTLES) %>%
-  mutate(cwsac = ifelse(is.na(cwsac), FALSE, cwsac),
-         cwss = ifelse(is.na(cwss), FALSE, cwss),
-         first_name = ifelse(! is.na(first_name.x), first_name.x, first_name.y),
-         middle_name = ifelse(! is.na(middle_name.x), middle_name.x,
-                              middle_name.y),
-         middle_initial = ifelse(! is.na(middle_initial), middle_initial,
-                                 ifelse(! is.na(middle_name.y),
-                                        str_sub(middle_name.y, 1, 1),
-                                        NA_character_))
-  ) %>%
   arrange(belligerent, battle)
 
 #'
