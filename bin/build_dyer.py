@@ -7,18 +7,14 @@ from datetime import timedelta
 import re
 import csv
 import os.path
+import sys
+import shutil
 
 import requests
-
-from loss_parser import *
 
 _months = dict(zip(["Jan", "Feb", "March", "April", "May", "June",
                    "July", "Aug", "Sept", "Oct", "Nov", "Dec"],
                   range(1, 13)))
-
-with open('engagement_types.csv', 'r') as f:
-    reader = csv.DictReader(f)
-    ENGAGEMENT_TYPES = dict((x['from'], x['to']) for x in reader)
     
 STATES = {
     'Minnesota': 'MN',
@@ -42,8 +38,55 @@ STATES = {
     'Kentucky': 'KY'
     }
 
+EXAMPLES = (
+"NEW YORK--15th Cavalry. Union loss, 1 killed, 1 wounded. Total, 2.",
+"NEW YORK--5th Cavalry. PENNSYLVANIA--18th Cavalry. Union loss, 40 killed and wounded.",
+"INDIANA--3d Cavalry. MAINE--16th Infantry. MASSACHUSETTS--12th, 13th and 39th Infantry. NEW HAMPSHIRE--1st Cavalry. NEW JERSEY--3d Cavalry. NEW YORK--8th and 22d Cavalry; 94th, 97th and 104th Infantry. PENNSYLVANIA--11th, 88th, 90th, 107th, 190th and 191st Infantry. VERMONT--1st Cavalry. UNITED STATES--Battery \"C & E\" 4th Arty. Union loss (including Riddell's Shop), 50 killed, 250 wounded. Total, 300.",
+"WEST VIRGINIA--6th Cavalry. Union loss, 2 wounded.",
+"MARYLAND--1st P. H. B. Cavalry; Battery \"B\" Light Arty. NEW YORK--1st Lincoln, 1st Veteran, 15th and 21st Cavalry; 20th Indpt. Battery Light Arty. OHIO--8th Cavalry; 34th Mounted Infantry. PENNSYLVANIA--14th, 20th and 22d Cavalry. WEST VIRGINIA--1st, 2d, 5th and 7th Cavalry; Batteries \"B\" and \"D,\" Light Arty.; 11th and 15th Infantry. UNITED STATES--Battery \"B,\" 5th Arty. Union loss, 15 killed and missing.",
+"NEW YORK--19th Cavalry. PENNSYLVANIA--6th Cavalry. Union loss, 4 killed, 20 wounded. Total, 24.",
+"MASSACHUSETTS--2d Cavalry. MICHIGAN--1st, 5th, 6th and 7th Cavalry. NEW YORK--4th, 6th, 9th and 19th Cavalry. PENNSYLVANIA--6th and 17th Cavalry. UNITED STATES--1st and 2d Cavalry; Batteries \"B & L,\" and \"D,\" 2d Arty. Union loss, 30 killed, 70 wounded, 200 captured and missing. Total, 300.",
+"INDIANA--20th Infantry. UNITED STATES--2d Sharpshooters. Union loss, 8 killed, 14 wounded, 59 missing. Total, 81.",
+"INDIANA--1st Cavalry (Detachment); 43d Infantry. IOWA--36th Infantry. KANSAS--5th Cavalry > > (Detachment). MISSOURI--7th Cavalry (Detachment); Battery \"E,\" 2d Light Arty. OHIO--77th Infantry. Union loss, 100 killed, 250 wounded, 1100 captured and missing. Total, 1450."
+)
 
-def xml_to_csv(source, writer):
+# with open('engagements.csv', 'r') as f:
+#     reader = csv.DictReader(f)
+#     data = [row for row in reader]
+
+# makes it easier to pick out the pattern, especially numbers
+def remove_punct(x):
+    return re.sub(r'[^0-9A-Za-z\s]', '', x)
+
+def spaces(x):
+    return re.sub(r'\s+', ' ', x)
+
+RE_KWM = re.compile(r"(\d+) killed wounded and missing", re.I)
+RE_KW = re.compile(r"(\d+) killed and wounded(?! (and|wounded|missing|captured))", re.I)
+RE_K = re.compile(r"(\d+) killed(?! (and|wounded|missing|captured))", re.I)
+RE_W = re.compile(r"(\d+) wounded", re.I)
+RE_M = re.compile(r"(\d+) missing", re.I)
+RE_CM = re.compile(r"(\d+) captured and missing", re.I)
+RE_TOTAL = re.compile(r"total (\d+)", re.I)
+
+def regroup(regex, x):
+    m = regex.search(x)
+    if m:
+        return m.group(1)
+
+def parse_losses(x):
+    x = spaces(remove_punct(x))
+    d = {}
+    d['kwm'] = regroup(RE_KWM, x)
+    d['kw'] = regroup(RE_KW, x)
+    d['k'] = regroup(RE_K, x)
+    d['w'] = regroup(RE_W, x)
+    d['m'] = regroup(RE_M, x)
+    d['mp'] = regroup(RE_CM, x)
+    d['total'] = regroup(RE_TOTAL, x)
+    return d
+
+def xml_to_csv(source, writer, engagement_types):
     context = iterparse(source, events=("start", "end", "start-ns"))
     state = None
     nevent = 1
@@ -96,8 +139,8 @@ def xml_to_csv(source, writer):
                                                  "%Y-%m-%d").date()
                 # Event type
                 event_type_tmp = head.findtext("rs")
-                if event_type_tmp in ENGAGEMENT_TYPES:
-                    event_type = ENGAGEMENT_TYPES[event_type_tmp]
+                if event_type_tmp in engagement_types:
+                    event_type = engagement_types[event_type_tmp]
                 else:
                     if nevent == 4319:
                         event_type = "Reoccupation" # Re-occupation of New Madrid
@@ -133,8 +176,15 @@ def xml_to_csv(source, writer):
                 writer.writerow(data)
                 nevent += 1
 
-                         
-def main():
+
+
+def load_engagement_types(filename):
+    with open(filename, 'r') as f:
+        reader = csv.DictReader(f)
+        data = dict((x['from'], x['to']) for x in reader)
+    return data
+
+def build_engagements(src, dst):
     header = ['battle',
               'event_type',
               'state',
@@ -151,22 +201,35 @@ def main():
               'cas_kwm',
               'cas_total'
          ]
-    FILE = "Perseus_text_2001.05.0140.xml"
-    URL = "http://www.perseus.tufts.edu/hopper/dltext?doc=Perseus%3Atext%3A2001.05.0140"
-    DST = "engagements.csv"
+    xmlfile = os.path.join(src, "Perseus_text_2001.05.0140.xml")
+    url = "http://www.perseus.tufts.edu/hopper/dltext?doc=Perseus%3Atext%3A2001.05.0140"
+    dstfile = os.path.join(dst, "dyer_engagements.csv")
 
-    if not os.path.exists(FILE):
-        r = requests.get(URL)
-        print(r)
-        with open(FILE, 'w') as f:
-            f.write(r.text)
+    engagement_types = load_engagement_types(os.path.join(src, 'engagement_types.csv'))
+    
+    # if not os.path.exists(dstfile):
+    #     r = requests.get(url)
+    #     print(r)
+    #     with open(dstfile, 'w') as f:
+    #         f.write(r.text)
 
-    with open(FILE, 'r') as src:
-        with open(DST, "w") as dst:
-            writer = csv.DictWriter(dst, header)
+    with open(xmlfile, 'r') as src:
+        with open(dstfile, "w") as dstf:
+            writer = csv.DictWriter(dstf, header)
             writer.writeheader()
-            xml_to_csv(src, writer)
+            xml_to_csv(src, writer, engagement_types)
 
+def copyfiles(src, dst):
+    shutil.copy(os.path.join(src, 'dyer_to_cwsac.csv'), dst)
+
+def build(src, dst):
+    build_engagements(src, dst)
+    copyfiles(src, dst)
+
+def main():
+    src, dst = sys.argv[1:3]
+    build(src, dst)
+    
 if __name__ == "__main__":
     main()                     
     

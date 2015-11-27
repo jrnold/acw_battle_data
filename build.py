@@ -36,17 +36,23 @@ def build_bodart(dst):
     print("build_bodart")
     sp.run([PYTHON, "bin/build_bodart.py", "rawdata/bodart1908", dst])
 
+def build_dyer(dst):
+    print("build_dyer")
+    sp.run([PYTHON, "bin/build_dyer.py", "rawdata/dyer1908", dst])
+
 def build(dst_dir):
     try:
         os.mkdir(dst_dir)
     except OSError:
         pass
+    build_unit_sizes(dst_dir)    
     build_aad(dst_dir)
     build_cwsac(dst_dir)
     build_cwsac2(dst_dir)
     build_cwss(dst_dir)
     build_bodart(dst_dir)
-    build_unit_sizes(dst_dir)
+    build_dyer(dst_dir)
+
     
 def main():
     DST = sys.argv[1]
