@@ -66,6 +66,10 @@ def build_livermore(dst):
     sp.run([RSCRIPT, "bin/build_livermore.R", "rawdata/livermore1900",
             "dependencies/PAR/data", dst])
 
+def build_thorpe(dst):
+    print("build_thorpe")
+    sp.run([PYTHON, "bin/build_thorpe.py", "rawdata/thorpe", dst])
+    
 def build(dst_dir):
     try:
         os.mkdir(dst_dir)
@@ -83,6 +87,7 @@ def build(dst_dir):
     build_greer(dst_dir)
     build_kennedy(dst_dir)
     build_livermore(dst_dir)
+    build_thorpe(dst_dir)
     
 def main():
     DST = sys.argv[1]

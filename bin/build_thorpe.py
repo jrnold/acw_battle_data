@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """
 Convert cwFourYearsSec.xml to a csv file
 """
@@ -6,6 +7,8 @@ import xml.etree.ElementTree as ET
 import datetime
 import re
 import csv
+import sys
+from os import path
 
 def clean_text(tag, x):
     if x == 'null':
@@ -53,10 +56,10 @@ def parse_xml(src):
     return data
             
     
-def main():
-    src = "cwFourYearsSec.xml"
-    dst = "cwFourYearsSec.csv"
-    data = parse_xml(src)
+def build(src, dst):
+    srcfile = path.join(src, "cwFourYearsSec.xml")
+    dstfile = path.join(dst, "thorpe_engagements.csv")
+    data = parse_xml(srcfile)
     fields = ['battleNum',
               'battleDetail',
               'beginDate',
@@ -70,13 +73,17 @@ def main():
               'killed',
               'usCasTot',
               'csCasTot']
-    with open(dst, 'w') as f:
+    with open(dstfile, 'w') as f:
         reader = csv.DictWriter(f, fieldnames = fields)
         reader.writeheader()
         for i, row in enumerate(data):
             row['battleNum'] = i
             parse_date(row)
             reader.writerow(row)
+
+def main():
+    src, dst = sys.argv[1:3]
+    build(src, dst)
         
 if __name__ == "__main__":
     main()
