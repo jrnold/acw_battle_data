@@ -6,6 +6,7 @@ import sys
 import subprocess as sp
 
 PYTHON = 'python3'
+RSCRIPT = 'Rscript'
 
 def build_aad(dst_dir):
     print("build_aad")
@@ -44,6 +45,10 @@ def build_wikipedia(dst):
     print("build_wikipedia")
     sp.run([PYTHON, "bin/build_wikipedia.py", "rawdata/en.wikipedia.org", dst])
 
+def build_fox(dst):
+    print("build_fox")
+    sp.run([RSCRIPT, "bin/build_fox.R", "rawdata/fox1898", dst])
+
 def build(dst_dir):
     try:
         os.mkdir(dst_dir)
@@ -57,6 +62,7 @@ def build(dst_dir):
     build_bodart(dst_dir)
     build_dyer(dst_dir)
     build_wikipedia(dst_dir)
+    build_fox(dst_dir)
     
 def main():
     DST = sys.argv[1]
