@@ -1,7 +1,11 @@
-""" Convert cwsac.json to csv files """
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+""" Build cwsac data """
 import json
 import csv
 import os
+import sys
+import shutil
 from os import path
 
 def dict_remove(x, exclude = []):
@@ -121,14 +125,51 @@ def commanders_csv(data, filename):
                     row['navy'] = int(row['navy'])
                     writer.writerow(row)
 
-SRC = "json"
+def copy_preservation(src, dst):
+    shutil.copy(path.join(src, 'preservation.csv'),
+                path.join(dst, 'cwsac_preservation.csv'))
 
-data = {}
-for filename in os.listdir(SRC):
-    print(filename)
-    with open(path.join(SRC, filename), 'r') as f:
-        data[path.splitext(filename)[0]] = json.load(f)
+def copy_significance(src, dst):
+    shutil.copy(path.join(src, 'significance.csv'),
+                path.join(dst, 'cwsac_significance.csv'))
+    
+def copy_theaters(src, dst):
+    shutil.copy(path.join(src, 'theaters.csv'),
+                path.join(dst, 'cwsac_theaters.csv'))
 
-battle_csv(data, 'cwsac_battles.csv')
-forces_csv(data, 'cwsac_forces.csv')
-commanders_csv(data, 'cwsac_commanders.csv')
+def copy_campaigns(src, dst):
+    shutil.copy(path.join(src, 'campaigns.csv'),
+                path.join(dst, 'cwsac_campaigns.csv'))
+
+def copy_cwsac_to_dbpedia(src, dst):
+    shutil.copy(path.join(src, 'cwsac_to_dbpedia.csv'),
+                path.join(dst, 'cwsac_to_dbpedia.csv'))
+
+def copy_json(data, dst):
+    with open(path.join(dst, 'cwsac.json'), 'w') as f:
+        json.dump(data, f)
+            
+def build(SRC, DST):
+    data = {}
+    data_dir = path.join(SRC, 'json')
+    for filename in os.listdir(data_dir):
+        with open(path.join(data_dir, filename), 'r') as f:
+            data[path.splitext(filename)[0]] = json.load(f)
+            
+    battle_csv(data, path.join(DST, 'cwsac_battles.csv'))
+    forces_csv(data, path.join(DST, 'cwsac_forces.csv'))
+    commanders_csv(data, path.join(DST, 'cwsac_commanders.csv'))
+    copy_campaigns(SRC, DST)
+    copy_theaters(SRC, DST)
+    copy_significance(SRC, DST)
+    copy_preservation(SRC, DST)
+    copy_json(data, DST)
+
+def main():
+    SRC = sys.argv[1]
+    DST = sys.argv[2]
+    build(SRC, DST)
+
+if __name__ == "__main__":
+    main()
+                   

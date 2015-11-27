@@ -1,6 +1,10 @@
+#!/usr/bin/env python3
 """ Convert cwsac.json to csv files """
 import json
 import csv
+import sys
+import shutil
+from os import path
 
 def dict_remove(x, exclude = []):
     return dict((k, v) for k, v in x.items() if k not in exclude)
@@ -115,12 +119,26 @@ def locations_csv(data, filename):
                 row['battle'] = battle
                 writer.writerow(row)
 
-SRC = "cwsac2.json"
-with open(SRC, 'r') as f:
-    data = json.load(f)
+def copy_json(src, dst):
+    shutil.copy(path.join(src, 'cwsac2.json'), dst)
+    
+def build(src, dst):
+    with open(path.join(src, "cwsac2.json"), 'r') as f:
+        data = json.load(f)
+    
+    battle_csv(data, path.join(dst, 'cwsac2_battles.csv'))
+    belligerents_csv(data, path.join(dst, 'cwsac2_forces.csv'))
+    commanders_csv(data, path.join(dst, 'cwsac2_commanders.csv'))
+    dates_csv(data, path.join(dst, 'cwsac2_dates.csv'))
+    locations_csv(data, path.join(dst, 'cwsac2_locations.csv'))
+    copy_json(src, dst)
+    
+                
+def main():
+    SRC = sys.argv[1]
+    DST = sys.argv[2]
+    build(SRC, DST)
 
-battle_csv(data, 'cwsac2_battles.csv')
-belligerents_csv(data, 'cwsac2_forces.csv')
-commanders_csv(data, 'cwsac2_commanders.csv')
-dates_csv(data, 'cwsac2_dates.csv')
-locations_csv(data, 'cwsac2_locations.csv')
+if __name__ == "__main__":
+    main()
+    

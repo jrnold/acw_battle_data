@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 Created on Wed Nov 19 07:35:54 2014
@@ -9,12 +10,10 @@ Convert events.json to a csv table
 
 import json
 import csv
-
+import sys
 import datetime
 
 BASE_URL = "http://aad.archives.gov/aad/"
-SRC = 'events.json'
-DST = 'events.csv'
 
 def yn(x):
     return 1 if x.lower() == "y" else 0
@@ -73,7 +72,7 @@ fields = (
     "url"
 )
 
-if __name__ == "__main__":
+def build(SRC, DST):
     with open(SRC, 'r') as f:
         data = json.load(f)
 
@@ -139,3 +138,10 @@ if __name__ == "__main__":
         writer.writeheader()  
         writer.writerows(rows)
 
+def main():
+    SRC = sys.argv[1] #'events.json'
+    DST = sys.argv[2] #'events.csv'
+    build(SRC, DST)
+
+if __name__ == "__main__":
+    main()
