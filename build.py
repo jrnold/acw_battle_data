@@ -85,6 +85,10 @@ def build_shenandoah(dst):
 def build_clodfelter(dst):
     print("build_clodfelter")
     sp.run([PYTHON, "bin/build_clodfelter.py", "rawdata/clodfelter2008", dst])
+
+def build_nps(dst):
+    print("build_nps")
+    sp.run([RSCRIPT, "bin/build_nps_combined.R", "rawdata", dst])
     
 def build(dst_dir):
     try:
@@ -108,6 +112,7 @@ def build(dst_dir):
     build_nyt(dst_dir)
     build_phisterer(dst_dir)
     build_clodfelter(dst_dir)
+    build_nps(dst_dir)
     
 def main():
     DST = sys.argv[1]
