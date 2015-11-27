@@ -40,6 +40,10 @@ def build_dyer(dst):
     print("build_dyer")
     sp.run([PYTHON, "bin/build_dyer.py", "rawdata/dyer1908", dst])
 
+def build_wikipedia(dst):
+    print("build_wikipedia")
+    sp.run([PYTHON, "bin/build_wikipedia.py", "rawdata/en.wikipedia.org", dst])
+
 def build(dst_dir):
     try:
         os.mkdir(dst_dir)
@@ -52,7 +56,7 @@ def build(dst_dir):
     build_cwss(dst_dir)
     build_bodart(dst_dir)
     build_dyer(dst_dir)
-
+    build_wikipedia(dst_dir)
     
 def main():
     DST = sys.argv[1]

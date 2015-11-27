@@ -1,4 +1,8 @@
+#!/usr/bin/env python3
 import csv
+import sys
+import shutil
+from os import path
 
 import yaml
 
@@ -121,8 +125,23 @@ def battles_csv(data, filename):
             del row['belligerents']
             writer.writerow(row)
 
-SRC = "wiki_casualties.yaml"
-with open(SRC, "r") as f:
-    data = yaml.load(f)
-battles_csv(data, "wiki_battles.csv")
-forces_csv(data, "wiki_forces.csv")
+def tocsv(src, dst):
+    srcfile = path.join(src, "wiki_casualties.yaml")
+    with open(srcfile, "r") as f:
+        data = yaml.load(f)
+    battles_csv(data, path.join(dst, "wikipedia_battles.csv"))
+    forces_csv(data, path.join(dst, "wikipedia_forces.csv"))
+
+def copyfiles(src, dst):
+    shutil.copy(path.join(src, "wikipedia_to_cwsac.csv"), dst)
+
+def build(src, dst):
+    tocsv(src, dst)
+    copyfiles(src, dst)
+
+def main():
+    src, dst = sys.argv[1:3]
+    build(src, dst)
+
+if __name__ == "__main__":
+    main()
