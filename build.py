@@ -77,6 +77,10 @@ def build_nyt(dst):
 def build_phisterer(dst):
     print("build_phisterer")
     sp.run([PYTHON, "bin/build_phisterer.py", "rawdata/phisterer1883", dst])
+
+def build_shenandoah(dst):
+    print("build_shenandoah")
+    sp.run([PYTHON, "bin/build_shenandoah.py", "rawdata/shenandoah", dst])
     
 def build(dst_dir):
     try:
@@ -85,6 +89,7 @@ def build(dst_dir):
         pass
     build_unit_sizes(dst_dir)    
     build_aad(dst_dir)
+    build_shenandoah(dst_dir)    
     build_cwsac(dst_dir)
     build_cwsac2(dst_dir)
     build_cwss(dst_dir)
@@ -98,6 +103,7 @@ def build(dst_dir):
     build_thorpe(dst_dir)
     build_nyt(dst_dir)
     build_phisterer(dst_dir)
+
     
 def main():
     DST = sys.argv[1]
