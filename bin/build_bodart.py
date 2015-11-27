@@ -2,6 +2,7 @@
 import csv
 import os.path
 import sys
+import shutil
 
 import nameparser
 import yaml
@@ -204,13 +205,22 @@ def battle_csv(src, dst):
                 del row['category']
             writer.writerow(row)
 
-def main():
-    filename = "bodart.yaml" #sys.argv[1]
-    dst_dir = "." # sys.argv[2]
-    battle_csv(filename, os.path.join(dst_dir, "bodart_battles.csv"))
-    forces_csv(filename, os.path.join(dst_dir, "bodart_forces.csv"))
-    commanders_csv(filename, os.path.join(dst_dir, "bodart_commanders.csv"))
-    generals_killed_csv(filename, os.path.join(dst_dir, "bodart_generals_killed.csv"))
+def copy_files(src, dst):
+    shutil.copy(os.path.join(src, "bodart_to_cwsac.csv"),
+                os.path.join(dst, "bodart1908_to_cwsac.csv"))
+    shutil.copy(os.path.join(src, "bodart_to_dbpedia.csv"),
+                os.path.join(dst, "bodart1908_to_dbpedia.csv"))
 
+def build(src, dst):
+    filename = os.path.join(src, "bodart.yaml")
+    battle_csv(filename, os.path.join(dst, "bodart1908_battles.csv"))
+    forces_csv(filename, os.path.join(dst, "bodart1909_forces.csv"))
+    commanders_csv(filename, os.path.join(dst, "bodart1908_commanders.csv"))
+    generals_killed_csv(filename, os.path.join(dst, "bodart1908_generals_killed.csv"))
+    
+def main():
+    src, dst = sys.argv[1:3]
+    build(src, dst)
+    
 if __name__ == "__main__":
     main()

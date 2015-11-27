@@ -30,7 +30,11 @@ def build_cwss(dst):
 def build_unit_sizes(dst):
     print("build_unit_sizes")
     shutil.copy('rawdata/unit_sizes/unit_sizes.csv', dst)
-    shutil.copy('rawdata/unit_sizes/eicher_units_table.csv', dst)    
+    shutil.copy('rawdata/unit_sizes/eicher_units_table.csv', dst)
+
+def build_bodart(dst):
+    print("build_bodart")
+    sp.run([PYTHON, "bin/build_bodart.py", "rawdata/bodart1908", dst])
 
 def build(dst_dir):
     try:
@@ -41,6 +45,7 @@ def build(dst_dir):
     build_cwsac(dst_dir)
     build_cwsac2(dst_dir)
     build_cwss(dst_dir)
+    build_bodart(dst_dir)
     build_unit_sizes(dst_dir)
     
 def main():
