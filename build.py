@@ -69,6 +69,14 @@ def build_livermore(dst):
 def build_thorpe(dst):
     print("build_thorpe")
     sp.run([PYTHON, "bin/build_thorpe.py", "rawdata/thorpe", dst])
+
+def build_nyt(dst):
+    print("build_nyt")
+    shutil.copy("rawdata/nytimes_civil_war_chronology/nytimes_civil_war_chronology.json", dst)
+
+def build_phisterer(dst):
+    print("build_phisterer")
+    sp.run([PYTHON, "bin/build_phisterer.py", "rawdata/phisterer1883", dst])
     
 def build(dst_dir):
     try:
@@ -88,6 +96,8 @@ def build(dst_dir):
     build_kennedy(dst_dir)
     build_livermore(dst_dir)
     build_thorpe(dst_dir)
+    build_nyt(dst_dir)
+    build_phisterer(dst_dir)
     
 def main():
     DST = sys.argv[1]
