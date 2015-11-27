@@ -81,6 +81,10 @@ def build_phisterer(dst):
 def build_shenandoah(dst):
     print("build_shenandoah")
     sp.run([PYTHON, "bin/build_shenandoah.py", "rawdata/shenandoah", dst])
+
+def build_clodfelter(dst):
+    print("build_clodfelter")
+    sp.run([PYTHON, "bin/build_clodfelter.py", "rawdata/clodfelter2008", dst])
     
 def build(dst_dir):
     try:
@@ -103,7 +107,7 @@ def build(dst_dir):
     build_thorpe(dst_dir)
     build_nyt(dst_dir)
     build_phisterer(dst_dir)
-
+    build_clodfelter(dst_dir)
     
 def main():
     DST = sys.argv[1]

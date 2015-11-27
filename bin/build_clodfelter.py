@@ -1,8 +1,16 @@
+#!/usr/bin/env python3
 """ create csv tables from clodfelter.yaml """
 import csv
 import re
+import shutil
+import sys
+import subprocess as sp
+from os import path
+
 
 import yaml
+
+RSCRIPT = "Rscript"
 
 def dict_remove(x, exclude = []):
     return dict((k, v) for k, v in x.items() if k not in exclude)
@@ -15,8 +23,8 @@ def rename(x, k, j):
         x[j] = x[k]
         del x[k]
 
-def battles(data, filename):
-    with open(filename, 'w') as f:
+def battles(data, dst, filename):
+    with open(path.join(dst, filename), 'w') as f:
         fieldnames = ('name', 'theater', 'start_date', 'end_date', 'page')
         writer = csv.DictWriter(f, fieldnames)
         writer.writeheader()
@@ -33,7 +41,7 @@ def battles(data, filename):
                 row['theater'] = theater
                 writer.writerow(row)
 
-def forces(data, filename):
+def forces(data, dst, filename):
     fields = set()
     # for theater, battles in data.items():
     #     for battle in battles:
@@ -90,7 +98,7 @@ def forces(data, filename):
     # misc
     'note'
     )
-    with open(filename, 'w') as f:
+    with open(path.join(dst, filename), 'w') as f:
         fieldnames = ['battle', 'belligerent'] + list(fields)
         writer = csv.DictWriter(f, fieldnames)
         writer.writeheader()
@@ -116,9 +124,12 @@ def forces(data, filename):
                             row[re.sub(' ', '_', k)] = row[k]
                             del row[k]
                     writer.writerow(row)
+    sp.run([RSCRIPT, "rawdata/clodfelter2008/clean_forces.R",
+            path.join(dst, filename), path.join(dst, "unit_sizes.csv"),
+            path.join(dst, filename)])
 
-def cwsac_links(data, filename):
-    with open(filename, 'w') as f:
+def cwsac_links(data, dst, filename):
+    with open(path.join(dst, filename), 'w') as f:
         fieldnames = ('from', 'to', 'relation')
         writer = csv.DictWriter(f, fieldnames)
         writer.writeheader()
@@ -137,8 +148,8 @@ def cwsac_links(data, filename):
                 else:
                     print(battle)
 
-def dbpedia_links(data, filename):
-    with open(filename, 'w') as f:
+def dbpedia_links(data, dst, filename):
+    with open(path.join(dst, filename), 'w') as f:
         fieldnames = ('from', 'to', 'relation')
         writer = csv.DictWriter(f, fieldnames)
         writer.writeheader()
@@ -160,12 +171,19 @@ def dbpedia_links(data, filename):
                     print(battle)
                 
 
-SRC = 'clodfelter.yaml'
-    
-with open(SRC, 'r') as f:
-    data = yaml.load(f)
+def build(src, dst):
+    srcfile = path.join(src, 'clodfelter.yaml')
+    with open(srcfile, 'r') as f:
+        data = yaml.load(f)
 
-battles(data, 'clodfelter_battles.csv')
-forces(data, 'clodfelter_forces.csv')
-cwsac_links(data, 'clodfelter_to_cwsac.csv')
-dbpedia_links(data, 'clodfelter_to_dbpedia.csv')
+    battles(data, dst, 'clodfelter_battles.csv')
+    forces(data, dst, 'clodfelter_forces.csv')
+    cwsac_links(data, dst, 'clodfelter_to_cwsac.csv')
+    dbpedia_links(data, dst, 'clodfelter_to_dbpedia.csv')
+
+def main():
+    build(*sys.argv[1:3])
+
+if __name__ == "__main__":
+    main()
+    

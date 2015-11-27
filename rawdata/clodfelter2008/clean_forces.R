@@ -1,4 +1,8 @@
-library("tidyr")
+#!/usr/bin/env Rscript
+suppressPackageStartupMessages({
+  library("tidyr")
+  library("dplyr")
+})
 
 clean_forces <- function(file_clodfelter_forces, file_unit_sizes) {
   
@@ -59,6 +63,17 @@ clean_forces <- function(file_clodfelter_forces, file_unit_sizes) {
   
 }
 
-forces <- clean_forces("clodfelter_forces.csv", "../unit_sizes/unit_sizes.csv")
-write.csv(forces, "clodfelter_forces2.csv",
-          row.names = FALSE, na = "")
+build <- function(src, unit_sizes, dst) {
+  forces <- clean_forces(src, unit_sizes)
+  write.csv(forces, dst, row.names = FALSE, na = "")
+}
+
+main <- function() {
+  arglist <- commandArgs(TRUE)
+  src <- arglist[1]
+  unit_sizes <- arglist[2]
+  dst <- arglist[3]
+  build(src, unit_sizes, dst)
+}
+
+main()
