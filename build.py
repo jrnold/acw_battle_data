@@ -49,6 +49,23 @@ def build_fox(dst):
     print("build_fox")
     sp.run([RSCRIPT, "bin/build_fox.R", "rawdata/fox1898", dst])
 
+def build_greer(dst):
+    print("build_greer")
+    shutil.copy("rawdata/greer2005/greer2005_weekly_casualties.csv", dst)
+
+def build_kennedy(dst):
+    print("build_kennedy")
+    src = 'rawdata/kennedy1997'
+    files = ("kennedy_battles.csv", "kennedy_casualties.csv",
+             "kennedy_to_cwsac.csv")
+    for fn in files:
+        shutil.copy(path.join(src, fn), dst)
+
+def build_livermore(dst):
+    print("build_livermore")
+    sp.run([RSCRIPT, "bin/build_livermore.R", "rawdata/livermore1900",
+            "dependencies/PAR/data", dst])
+
 def build(dst_dir):
     try:
         os.mkdir(dst_dir)
@@ -63,6 +80,9 @@ def build(dst_dir):
     build_dyer(dst_dir)
     build_wikipedia(dst_dir)
     build_fox(dst_dir)
+    build_greer(dst_dir)
+    build_kennedy(dst_dir)
+    build_livermore(dst_dir)
     
 def main():
     DST = sys.argv[1]
