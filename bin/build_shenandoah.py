@@ -5,10 +5,19 @@ import os
 import fnmatch
 from os import path
 
-def build(src, dst):
-    for filename in os.listdir(src):
-        if fnmatch.fnmatch(filename, "shenandoah_*.csv"):
-            shutil.copy(path.join(src, filename), dst)
+import yaml
+
+
+def get_data(src):
+    data = []
+    for filename in os.listdir(path.join(src, "yaml")):
+        if fnmatch.fnmatch(filename, "*.yaml"):
+            fn = path.join(src, "yaml", filename)
+            print(fn)
+            with open(fn, 'r') as f:
+                print(f.read())
+                data.append(yaml.load(f))
+    return data
 
 def main():
     src, dst = sys.argv[1:3]

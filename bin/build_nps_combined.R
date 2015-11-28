@@ -1,11 +1,10 @@
 #!/usr/bin/env Rscript
 suppressPackageStartupMessages({
   library("dplyr")
+  library("jsonlite")
+  library("magrittr")
   library("stringr")
   library("tidyr")
-  library("stringr")
-  library("magrittr")
-  library("jsonlite")
 })
 
 arglist <- commandArgs(TRUE)
@@ -128,42 +127,47 @@ rounded_var <- function(x, method = 1) {
 #' - battles in CWSAC and missing from CWSS
 #' - battles in CWSS to exclude from other analyses
 #'
-extra_data <- fromJSON(file.path(src, "nps_combined/extra_data.json"))
+extra_data <- function(src) {
+  fromJSON(file.path(src, "nps_combined/extra_data.json"))
+}
 
 #' ## AAD
 #'
 #' The AAD data
-aad_battles <-
+aad_battles <- function(dst) {
   mutate(read_csv(file.path(dst, "aad_battles.csv")),
          reference_number = plyr::revalue(reference_number,
                                           c("AR010A" = "AR010",
                                             "GA013A" = "GA013")))
+}
 
 #'
 #' ## CWSAC I
 #'
 #' Original CWSAC battle summaries
-cwsac1_battles <-
+cwsac1_battles <- function(dst) {
   read.csv(file.path(dst, "cwsac_battles.csv"),
            stringsAsFactors = FALSE) %>%
   mutate(result = plyr::revalue(result, RESULTS))
+}
 
-cwsac1_forces <-
+cwsac1_forces <- function(dst) {
   read.csv(file.path(dst, "cwsac_forces.csv"),
            stringsAsFactors = FALSE) %>%
   mutate(belligerent = plyr::revalue(belligerent, BELLIGERENTS),
          belligerent = ifelse(grepl("OK00[1-3]", battle) & belligerent == "US",
                               "Native American", belligerent))
+}
 
 #'
 #' ## CWSAC II
 #'
-cwsac2_battles <- read.csv(file.path(dst, "cwsac2_battles.csv"),
+cwsac2_battles <- function(dst) {
+  read.csv(file.path(dst, "cwsac2_battles.csv"),
                            stringsAsFactors = FALSE) %>%
   mutate(battle = plyr::revalue(battle, c("AL002" = "AL009")),
          battle_name = ifelse(battle == "AL009", "Athens II", battle_name),
          result = plyr::revalue(result, RESULTS)) %>%
-
   left_join(read.csv(file.path(dst, "cwsac2_dates.csv"),
                      stringsAsFactors = FALSE) %>%
               mutate(start_date = as.Date(start_date),
@@ -173,57 +177,72 @@ cwsac2_battles <- read.csv(file.path(dst, "cwsac2_battles.csv"),
               summarise(start_date = as.Date(min(start_date), as.Date("1970-1-1")),
                         end_date = as.Date(max(end_date), as.Date("1970-1-1"))),
             by = "battle")
+}
 
-cwsac2_forces <- read.csv(file.path(dst, "cwsac2_forces.csv"),
+cwsac2_forces <- function(dst) {
+  read.csv(file.path(dst, "cwsac2_forces.csv"),
                           stringsAsFactors = FALSE) %>%
   mutate(belligerent = plyr::revalue(belligerent, BELLIGERENTS))
-
+}
 
 #'
 #' ## CWSS
 #'
 #' Civil War Soldiers and Sailors (CWSS) Database
-cwss_battles <- read.csv(file.path(dst, "cwss_battles.csv"),
+cwss_battles <- function(dst) {
+  read.csv(file.path(dst, "cwss_battles.csv"),
                          stringsAsFactors = FALSE) %>%
   mutate(BattleName = ifelse(BattlefieldCode == "AL002",
                              "Athens I", BattleName),
          BeginDate = as.Date(BeginDate),
          EndDate = as.Date(EndDate))
+}
 
-cwss_forces <- read.csv(file.path(dst, "cwss_forces.csv"),
+cwss_forces <- function(dst) {
+  read.csv(file.path(dst, "cwss_forces.csv"),
                        stringsAsFactors = FALSE)
-
+}
 
 #'
 #' ## Shenandoah Battefields
 #'
-shenandoah_2_cwsac <-
+shenandoah_to_cwsac <- function(dst) {
   read.csv(file.path(dst, "shenandoah_to_cwsac.csv"),
            stringsAsFactors = FALSE) %>%
   rename(cwsac_id = to)
+}
 
-shenandoah_battles <-
+shenandoah_battles <- function(dst, shenandoah_to_cwsacs) {
   read.csv(file.path(dst, "shenandoah_battles.csv"),
            stringsAsFactors = FALSE) %>%
-  left_join(shenandoah_2_cwsac, by = c(number = "from"))
+  left_join(shenandoah_to_cwsac, by = c(number = "from"))
+}
 
-shenandoah_forces <-
+shenandoah_forces <- function(dst, shenandoah_to_cwsac) {
   read.csv(file.path(dst, "shenandoah_forces.csv"),
            stringsAsFactors = FALSE) %>%
-  left_join(shenandoah_2_cwsac, by = c(number = "from"))
-
+  left_join(shenandoah_to_cwsac, by = c(number = "from"))
+}
 
 #'
 #' # Theaters and Campaigns
 #'
-theaters <-
+theaters <- function(dst) {
   read.csv(file.path(dst, "cwss_theaters.csv"),
            stringsAsFactors = FALSE)
+}
 
-campaigns <-
+campaigns <- function(dst, extra_data) {
   bind_rows(read.csv(file.path(dst, "cwss_campaigns.csv"),
                      stringsAsFactors = FALSE),
             extra_data$campaigns)
+}
+
+nps_latlong <- function(src) {
+  read_csv(file.path(src, "nps_combined/latlong.csv")) %>%
+    rename(cwsac_id = battle) %>%
+    select(- cwsac_name)
+}
 
 #'
 #'
@@ -232,43 +251,49 @@ campaigns <-
 #' Major differences in battle definitions between AAD, CWSAC I, CWSAC II, and CWSS.
 #' Some other battles differ slightly in start and end dates.
 #'
-battlelist_cwss <-
-  cwss_battles %>%
-  select(BattlefieldCode, BattleName) %>%
-  rename(cwsac_id = BattlefieldCode, battle_name = BattleName) %>%
-  mutate(cwss = TRUE)
+gen_nps_battlelist <- function(cwss_battles, cwsac1_battles,
+                               cwsac2_battles, aad_battles) {
 
-battlelist_cwsac1 <-
-  cwsac1_battles %>%
-  select(battle, battle_name) %>%
-  rename(cwsac_id = battle, battle_name_cwsac1 = battle_name) %>%
-  mutate(cwsac1 = TRUE)
+  battlelist_cwss <-
+    cwss_battles %>%
+    select(BattlefieldCode, BattleName) %>%
+    rename(cwsac_id = BattlefieldCode, battle_name = BattleName) %>%
+    mutate(cwss = TRUE)
 
-battlelist_cwsac2 <-
-  cwsac2_battles %>%
-  select(battle, battle_name) %>%
-  rename(cwsac_id = battle, battle_name_cwsac2 = battle_name) %>%
-  mutate(cwsac2 = TRUE)
+  battlelist_cwsac1 <-
+    cwsac1_battles %>%
+    select(battle, battle_name) %>%
+    rename(cwsac_id = battle, battle_name_cwsac1 = battle_name) %>%
+    mutate(cwsac1 = TRUE)
 
-battlelist_aad <-
-  aad_battles %>%
-  select(reference_number, event) %>%
-  rename(cwsac_id = reference_number, battle_name_aad = event) %>%
-  mutate(aad = TRUE)
+  battlelist_cwsac2 <-
+    cwsac2_battles %>%
+    select(battle, battle_name) %>%
+    rename(cwsac_id = battle, battle_name_cwsac2 = battle_name) %>%
+    mutate(cwsac2 = TRUE)
 
-nps_battlelist <-
-  battlelist_cwss %>%
-  full_join(battlelist_cwsac1, by = "cwsac_id") %>%
-  full_join(battlelist_cwsac2, by = "cwsac_id") %>%
-  full_join(battlelist_aad, by = "cwsac_id") %>%
-  mutate(battle_name = pnonmiss(battle_name, battle_name_cwsac1,
-                                battle_name_cwsac2, battle_name_aad)) %>%
-  select(- battle_name_cwsac1, - battle_name_cwsac2, - battle_name_aad) %>%
-  mutate(cwss = ! is.na(cwss),
-         cwsac1 = ! is.na(cwsac1),
-         cwsac2 = ! is.na(cwsac2),
-         aad = ! is.na(aad),
-         notall = ! apply(cbind(cwss, cwsac1, cwsac2, aad), 1, all))
+  battlelist_aad <-
+    aad_battles %>%
+    select(reference_number, event) %>%
+    rename(cwsac_id = reference_number, battle_name_aad = event) %>%
+    mutate(aad = TRUE)
+
+  nps_battlelist <-
+    battlelist_cwss %>%
+    full_join(battlelist_cwsac1, by = "cwsac_id") %>%
+    full_join(battlelist_cwsac2, by = "cwsac_id") %>%
+    full_join(battlelist_aad, by = "cwsac_id") %>%
+    mutate(battle_name = pnonmiss(battle_name, battle_name_cwsac1,
+                                  battle_name_cwsac2, battle_name_aad)) %>%
+    select(- battle_name_cwsac1, - battle_name_cwsac2, - battle_name_aad) %>%
+    mutate(cwss = ! is.na(cwss),
+           cwsac1 = ! is.na(cwsac1),
+           cwsac2 = ! is.na(cwsac2),
+           aad = ! is.na(aad),
+           notall = ! apply(cbind(cwss, cwsac1, cwsac2, aad), 1, all))
+  nps_battlelist
+}
+
 
 #'
 #' Differences in battles
@@ -400,10 +425,6 @@ nps_battles_shenandoah <- shenandoah_battles %>%
   rename(shenandoah_url = url) %>%
   mutate(partof_shenandoah = TRUE)
 
-nps_latlong <- read_csv(file.path(src, "nps_combined/latlong.csv")) %>%
-  rename(cwsac_id = battle) %>%
-  select(- cwsac_name)
-
 nps_battles <-
   nps_battles_cwss %>%
   full_join(nps_battles_cwsac1, by = "cwsac_id") %>%
@@ -516,40 +537,45 @@ fill_casualty_vars <- function(x, rounded_type = 2) {
 #' The number of personnel in each unit type, e.g. the number of personnel in a regiment
 #' as a distribution accounting for attrition.
 #' This data is used to convert unit types to personnel strength numbers.
-unit_sizes <- read_csv(file.path(dst, "unit_sizes.csv"))
+unit_sizes <- function(dst) {
+  read_csv(file.path(dst, "unit_sizes.csv"))
+}
 
-unit_type_map <- c(
-  "regiments" = "infantry regiment",
-  "companies" = "infantry company",
-  "brigades" = "infantry brigade",
-  "divisions"= "infantry division",
-  "corps" = "infantry corps",
-  "armies" = "army",
-  "cavalry_regiments" = "cavalry regiment",
-  "cavalry_brigades" = "cavalry brigade",
-  "cavalry_divisions" = "cavalry division",
-  "cavalry_corps" = "cavalry corps",
-  "cavalry_companies" = "cavalry company",
-  "artillery_batteries" = "artillery battery",
-  "artillery_companies" = "artillery company",
-  "artillery_regiments" = "artillery regiment",
-  "artillery_sections" = "artillery section",
-  "infantry_regiments" = "infantry regiment"
-)
+unit_size_values <- function(unit_sizes) {
+  unit_type_map <- c(
+    "regiments" = "infantry regiment",
+    "companies" = "infantry company",
+    "brigades" = "infantry brigade",
+    "divisions"= "infantry division",
+    "corps" = "infantry corps",
+    "armies" = "army",
+    "cavalry_regiments" = "cavalry regiment",
+    "cavalry_brigades" = "cavalry brigade",
+    "cavalry_divisions" = "cavalry division",
+    "cavalry_corps" = "cavalry corps",
+    "cavalry_companies" = "cavalry company",
+    "artillery_batteries" = "artillery battery",
+    "artillery_companies" = "artillery company",
+    "artillery_regiments" = "artillery regiment",
+    "artillery_sections" = "artillery section",
+    "infantry_regiments" = "infantry regiment"
+  )
 
-unit_size_values_ <-
-  expand.grid(belligerent = c("US", "CS"),
-              unit_type = c("strength_other"))
-unit_size_values_$mean <- 1
-unit_size_values_$var <- 1 / 12
+  unit_size_values_ <-
+    expand.grid(belligerent = c("US", "CS"),
+                unit_type = c("strength_other"))
+  unit_size_values_$mean <- 1
+  unit_size_values_$var <- 1 / 12
 
-unit_size_values <-
   unit_sizes %>%
-  select(belligerent, unit_type, mean, sd) %>%
-  mutate(var = sd ^ 2) %>%
-  select( - sd) %>%
-  mutate(belligerent = plyr::revalue(belligerent, c("Union" = "US"))) %>%
-  bind_rows(unit_size_values_)
+    select(belligerent, unit_type, mean, sd) %>%
+    mutate(var = sd ^ 2) %>%
+    select( - sd) %>%
+    mutate(belligerent = plyr::revalue(belligerent, c("Union" = "US"))) %>%
+    bind_rows(unit_size_values_)
+
+}
+
 
 #'
 #' ## CWSS
@@ -727,11 +753,13 @@ nps_forces %<>%
 #'
 #' # Commanders
 #'
-cwss_people <-
+cwss_people <- function(dst, extra_data) {
   bind_rows(read_csv(file.path(dst, "cwss_persons.csv")),
             extra_data$people)
+}
 
-cwss_commanders <-
+
+cwss_commanders <- function(dst) {
   bind_rows(read_csv(file.path(dst, "cwss_commanders.csv")) %>%
               mutate(BattlefieldCode = plyr::revalue(BattlefieldCode,
                                                      c("VA020B" = "VA020",
@@ -739,37 +767,39 @@ cwss_commanders <-
               rename(PersonID = commander),
             extra_data$commanders %>%
               select(- Name)) %>%
-  left_join(select(cwss_people, PersonID, LastName, FirstName, MiddleName,
-                   MiddleInitial),
-            by = c("PersonID")) %>%
-  mutate(
-         belligerent = ifelse(grepl("OK00[1-3]", BattlefieldCode) &
-                                belligerent == "US",
-                              "Native American", belligerent)) %>%
-  rename(first_name = FirstName,
-         middle_name = MiddleName,
-         middle_initial = MiddleInitial,
-         last_name = LastName,
-         battle = BattlefieldCode)
+    left_join(select(cwss_people, PersonID, LastName, FirstName, MiddleName,
+                     MiddleInitial),
+              by = c("PersonID")) %>%
+    mutate(
+      belligerent = ifelse(grepl("OK00[1-3]", BattlefieldCode) &
+                             belligerent == "US",
+                           "Native American", belligerent)) %>%
+    rename(first_name = FirstName,
+           middle_name = MiddleName,
+           middle_initial = MiddleInitial,
+           last_name = LastName,
+           battle = BattlefieldCode)
+}
 
-
-cwsac_commanders <-
+cwsac_commanders <- function(dst) {
   read.csv(file.path(dst, "cwsac_commanders.csv"),
            stringsAsFactors = FALSE) %>%
-  mutate(cwsac = TRUE,
-         belligerent = plyr::revalue(belligerent, BELLIGERENTS),
-         belligerent = ifelse(grepl("OK00[1-3]", battle) & belligerent == "US",
-                              "Native American", belligerent)) %>%
-  filter(! battle %in% c("VA020A", "VA020B"),
-         belligerent != "Native American")
+    mutate(cwsac = TRUE,
+           belligerent = plyr::revalue(belligerent, BELLIGERENTS),
+           belligerent = ifelse(grepl("OK00[1-3]", battle) & belligerent == "US",
+                                "Native American", belligerent)) %>%
+    filter(! battle %in% c("VA020A", "VA020B"),
+           belligerent != "Native American")
+}
 
-nps_commanders <-
+nps_commanders <- function(cwss_commanders, cwsac_commanders) {
   left_join(cwss_commanders,
             select(cwsac_commanders,
                    battle, belligerent, last_name, rank, navy),
             by = c("battle", "belligerent", "last_name")) %>%
-  filter(! battle %in% EXCLUDED_BATTLES) %>%
-  arrange(belligerent, battle)
+    filter(! battle %in% EXCLUDED_BATTLES) %>%
+    arrange(belligerent, battle)
+}
 
 #'
 #' # Save
