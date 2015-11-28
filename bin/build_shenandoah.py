@@ -59,7 +59,7 @@ def clean_forces(battle):
             x["belligerent"] = "US"
         else:
             x["belligerent"] = "Confederate"
-        x['description'] = battle["Forces Engaged"]["U"]["text"]
+        x['description'] = battle["Forces Engaged"][i]["text"]
         try:
             x['strength_min'] = battle["Forces Engaged"][i]["strength_min"]
             x['strength_max'] = battle["Forces Engaged"][i]["strength_max"]
