@@ -1,71 +1,136 @@
 {
-  "dates": "September 12-15, 1861",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/wv005.htm",
-  "results_text": "Union victory",
+  "end_date": "1861-09-15",
+  "casualties": 170,
   "casualties_text": "170 total (US 80; CS 90)",
-  "description": "Gen. Robert E. Lee directed his first offensive of the war against Brig. Gen. Joseph Reynolds's entrenchments on the summit of Cheat Mountain and in the Tygart Valley. The Confederate attacks were uncoordinated, however, and the Federal defense was so stubborn that Col. Albert Rust (leading the attacks) was convinced that he confronted an overwhelming force. He actually faced only about 300 determined Federals. Lee called off the attack and, after maneuvering in the vicinity, withdrew to Valley Head on September 17. In October, Lee renewed operations against Laurel Mountain with the troops of Floyd and Loring, but the operation was called off because of poor communication and lack of supplies. Lee was recalled to Richmond on October 30 after achieving little in western Virginia.",
-  "start_date": "1861-09-12",
-  "forces_text": "Brigades",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": 90,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Lee",
-          "middle_name": "E.",
           "rank": "General",
+          "first_name": "Robert",
           "suffix": "",
-          "fullname": "Robert E. Lee",
-          "first_name": "Robert"
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "fullname": "Robert E. Lee"
         },
         {
-          "navy": false,
-          "last_name": "Rust",
-          "middle_name": "",
           "rank": "Colonel",
+          "first_name": "Albert",
           "suffix": "",
-          "fullname": "Albert Rust",
-          "first_name": "Albert"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Rust",
+          "fullname": "Albert Rust"
         }
       ],
-      "brigades": 1,
-      "casualties": 90
+      "brigades": 1
     },
     "US": {
+      "casualties": 80,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Reynolds",
-          "middle_name": "",
           "rank": "Brigadier General",
+          "first_name": "Joseph",
           "suffix": "",
-          "fullname": "Joseph Reynolds",
-          "first_name": "Joseph"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Reynolds",
+          "fullname": "Joseph Reynolds"
         }
       ],
-      "brigades": 1,
-      "casualties": 80
+      "brigades": 1
     }
   },
-  "campaign": "Operations in Western Virginia [June-December 1861]",
-  "battle": "WV005",
-  "result": "Union",
+  "cwsac_reference": "WV005",
+  "operation": false,
+  "forces_text": "Brigades",
+  "start_date": "1861-09-12",
+  "preservation": "III.2",
+  "results_text": "Union victory",
+  "description": "Gen. Robert E. Lee directed his first offensive of the war against Brig. Gen. Joseph Reynolds's entrenchments on the summit of Cheat Mountain and in the Tygart Valley. The Confederate attacks were uncoordinated, however, and the Federal defense was so stubborn that Col. Albert Rust (leading the attacks) was convinced that he confronted an overwhelming force. He actually faced only about 300 determined Federals. Lee called off the attack and, after maneuvering in the vicinity, withdrew to Valley Head on September 17. In October, Lee renewed operations against Laurel Mountain with the troops of Floyd and Loring, but the operation was called off because of poor communication and lack of supplies. Lee was recalled to Richmond on October 30 after achieving little in western Virginia.",
+  "state": "WV",
   "significance": "B",
   "other_names": [
     "Cheat Mountain Summit"
   ],
-  "state": "WV",
-  "preservation": "III.2",
+  "dates": "September 12-15, 1861",
+  "battle_name": "Cheat Mountain",
   "principal_commanders": "Brig. Gen. Joseph Reynolds [US]; Gen. Robert E. Lee and Col. Albert Rust [CS]",
-  "end_date": "1861-09-15",
-  "cwsac_reference": "WV005",
-  "casualties": 170,
+  "campaign": "Operations in Western Virginia [June-December 1861]",
+  "belligerents": {
+    "Confederate": {
+      "casualties": 90,
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "Robert",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "fullname": "Robert E. Lee"
+        },
+        {
+          "rank": "Colonel",
+          "first_name": "Albert",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Rust",
+          "fullname": "Albert Rust"
+        }
+      ],
+      "brigades": 1
+    },
+    "US": {
+      "casualties": 80,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Joseph",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Reynolds",
+          "fullname": "Joseph Reynolds"
+        }
+      ],
+      "brigades": 1
+    },
+    "CS": {
+      "casualties": 90,
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "Robert",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "fullname": "Robert E. Lee"
+        },
+        {
+          "rank": "Colonel",
+          "first_name": "Albert",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Rust",
+          "fullname": "Albert Rust"
+        }
+      ],
+      "brigades": 1
+    }
+  },
+  "result": "Union",
+  "battle": "WV005",
   "location": [
     {
-      "place": "Pocahontas County",
-      "state": "WV"
+      "state": "WV",
+      "place": "Pocahontas County"
     }
   ],
-  "battle_name": "Cheat Mountain"
+  "url": "http://www.nps.gov/hps/abpp/battles/wv005.htm"
 }

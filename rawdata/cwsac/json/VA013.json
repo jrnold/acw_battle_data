@@ -1,59 +1,106 @@
 {
-  "dates": "May 27, 1862",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/va013.htm",
-  "results_text": "Union victory",
+  "end_date": "1862-05-27",
+  "casualties": 1327,
   "casualties_text": "1,327 total (US 397; CS 930)",
-  "description": "On May 27, 1862, elements of Brig. Gen. Fitz John Porter's V Corps extended north to protect the right flank of McClellan's Union army that now straddled the Chickahominy River. Porter's objective was to cut the railroad and to open the Telegraph Road for Union reinforcements under Maj. Gen. Irvin McDowell that were marching south from Fredericksburg. Confederate forces, attempting to prevent this maneuver, were defeated just south of Hanover Courthouse after a stiff fight. The Union victory was moot, however, for McDowell's reinforcements were recalled to Fredericksburg upon word of Banks's rout at First Winchester.",
-  "start_date": "1862-05-27",
-  "forces_text": "Divisions",
-  "belligerents": {
-    "CS": {
-        "commanders": [{
-            "navy": false,
-            "last_name": "Branch",
-            "first_name": "Lawrence",
-            "middle_name": "O'B.",
-            "fullname": "Lawrence O'B. Branch",
-            "rank": "Brigadier General"
-        }],
-      "divisions": 1,
-      "casualties": 930
-    },
-    "US": {
+  "forces": {
+    "Confederate": {
+      "casualties": 930,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Porter",
-          "middle_name": "John",
           "rank": "Brigadier General",
-          "suffix": "",
-          "fullname": "Fitz John Porter",
-          "first_name": "Fitz"
+          "first_name": "Lawrence",
+          "navy": false,
+          "middle_name": "O'B.",
+          "fullname": "Lawrence O'B. Branch",
+          "last_name": "Branch"
         }
       ],
-      "divisions": 1,
-      "casualties": 397
+      "divisions": 1
+    },
+    "US": {
+      "casualties": 397,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Fitz",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "John",
+          "last_name": "Porter",
+          "fullname": "Fitz John Porter"
+        }
+      ],
+      "divisions": 1
     }
   },
-  "campaign": "Peninsula Campaign [March-July 1862]",
-  "battle": "VA013",
-  "result": "Union",
+  "cwsac_reference": "VA013",
+  "operation": false,
+  "forces_text": "Divisions",
+  "start_date": "1862-05-27",
+  "preservation": "III.3",
+  "results_text": "Union victory",
+  "description": "On May 27, 1862, elements of Brig. Gen. Fitz John Porter's V Corps extended north to protect the right flank of McClellan's Union army that now straddled the Chickahominy River. Porter's objective was to cut the railroad and to open the Telegraph Road for Union reinforcements under Maj. Gen. Irvin McDowell that were marching south from Fredericksburg. Confederate forces, attempting to prevent this maneuver, were defeated just south of Hanover Courthouse after a stiff fight. The Union victory was moot, however, for McDowell's reinforcements were recalled to Fredericksburg upon word of Banks's rout at First Winchester.",
+  "state": "VA",
   "significance": "C",
   "other_names": [
     "Slash Church"
   ],
-  "state": "VA",
-  "preservation": "III.3",
+  "dates": "May 27, 1862",
+  "battle_name": "Hanover Court House",
   "principal_commanders": "Brig. Gen. Fitz John Porter [US]; Brig. Gen. Lawrence O'B. Branch [CS]",
-  "end_date": "1862-05-27",
-  "cwsac_reference": "VA013",
-  "casualties": 1327,
+  "campaign": "Peninsula Campaign [March-July 1862]",
+  "belligerents": {
+    "Confederate": {
+      "casualties": 930,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Lawrence",
+          "navy": false,
+          "middle_name": "O'B.",
+          "fullname": "Lawrence O'B. Branch",
+          "last_name": "Branch"
+        }
+      ],
+      "divisions": 1
+    },
+    "US": {
+      "casualties": 397,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Fitz",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "John",
+          "last_name": "Porter",
+          "fullname": "Fitz John Porter"
+        }
+      ],
+      "divisions": 1
+    },
+    "CS": {
+      "casualties": 930,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Lawrence",
+          "navy": false,
+          "middle_name": "O'B.",
+          "fullname": "Lawrence O'B. Branch",
+          "last_name": "Branch"
+        }
+      ],
+      "divisions": 1
+    }
+  },
+  "result": "Union",
+  "battle": "VA013",
   "location": [
     {
-      "place": "Hanover County",
-      "state": "VA"
+      "state": "VA",
+      "place": "Hanover County"
     }
   ],
-  "battle_name": "Hanover Court House"
+  "url": "http://www.nps.gov/hps/abpp/battles/va013.htm"
 }

@@ -1,32 +1,27 @@
 {
-  "dates": "February 28-April 8, 1862",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/mo012.htm",
-  "results_text": "Union victory",
+  "end_date": "1862-04-08",
+  "casualties": null,
   "casualties_text": "Unknown",
-  "description": "With the surrender of Forts Henry and Donelson, Tennessee, and the evacuation of Columbus, Kentucky, Gen. P.G.T. Beauregard, commander of the Confederate Army of the Mississippi, chose Island No. 10, about 60 river miles below Columbus, to be the strongpoint for defending the Mississippi River. Nearby was New Madrid, one of the weak points. Brig. Gen. John Pope, commander of the Union Army of the Mississippi, set out from Commerce, Missouri, to attack New Madrid, on February 28. The force marched overland through swamps, lugging supplies and artillery, reached the New Madrid outskirts on March 3, and laid siege to the city. Brig. Gen. John P. McCown, the garrison commander, defended both New Madrid and Island No. 10 from the fortifications. He launched a sortie, under Brig. Gen. M. Jeff Thompson, Missouri State Guard, against the besiegers and brought up heavy artillery to bombard them. On the 13th, the Confederates bombarded the Yankees to no avail. Since it did not appear possible to defend New Madrid, the Confederate gunboats and troops evacuated to Island No. 10 and Tiptonville. On the 14th, Pope's army discovered that New Madrid was deserted and moved in to occupy it. A U.S. Navy flotilla, under the command of Flag-Officer Andrew H. Foote, arrived March 15 upstream from Island No. 10. The ironclad Carondelet on the night of April 4 passed the Island No. 10 batteries and anchored off New Madrid. Pittsburgh followed on the night of April 6. The ironclads helped to overawe the Confederate batteries and guns, enabling Pope's men to cross the river and block the Confederate escape route. Brig. Gen. William W. Mackall, who replaced McCown, surrendered Island No. 10 on April 8. The Mississippi was now open down to Fort Pillow, Tennessee.",
-  "start_date": "1862-02-28",
-  "forces_text": "Army of the Mississippi [US]; Garrisons of New Madrid and Island No. 10 [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "McCown",
-          "middle_name": "P.",
           "rank": "Brigadier General",
+          "first_name": "John",
           "suffix": "",
-          "fullname": "John P. McCown",
-          "first_name": "John"
+          "navy": false,
+          "middle_name": "P.",
+          "last_name": "McCown",
+          "fullname": "John P. McCown"
         },
         {
-          "navy": false,
-          "last_name": "Mackall",
-          "middle_name": "W.",
           "rank": "Brigadier General",
+          "first_name": "William",
           "suffix": "",
-          "fullname": "William W. Mackall",
-          "first_name": "William"
+          "navy": false,
+          "middle_name": "W.",
+          "last_name": "Mackall",
+          "fullname": "William W. Mackall"
         }
       ],
       "description": "Garrisons of New Madrid and Island No. 10"
@@ -34,48 +29,125 @@
     "US": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Pope",
-          "middle_name": "",
           "rank": "Brigadier General",
+          "first_name": "John",
           "suffix": "",
-          "fullname": "John Pope",
-          "first_name": "John"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Pope",
+          "fullname": "John Pope"
         },
         {
-          "navy": true,
-          "last_name": "Foote",
-          "middle_name": "H.",
           "rank": "Flag Officer",
+          "first_name": "Andrew",
           "suffix": "",
-          "fullname": "Andrew H. Foote",
-          "first_name": "Andrew"
+          "navy": true,
+          "middle_name": "H.",
+          "last_name": "Foote",
+          "fullname": "Andrew H. Foote"
         }
       ],
       "armies": 1,
       "description": "Army of the Mississippi"
     }
   },
-  "campaign": "Joint Operations Against New Madrid, Island No. 10, and Memphis [February-June 1862]",
-  "battle": "MO012",
-  "result": "Union",
+  "cwsac_reference": "MO012",
+  "operation": false,
+  "forces_text": "Army of the Mississippi [US]; Garrisons of New Madrid and Island No. 10 [CS]",
+  "start_date": "1862-02-28",
+  "preservation": "IV.2",
+  "results_text": "Union victory",
+  "description": "With the surrender of Forts Henry and Donelson, Tennessee, and the evacuation of Columbus, Kentucky, Gen. P.G.T. Beauregard, commander of the Confederate Army of the Mississippi, chose Island No. 10, about 60 river miles below Columbus, to be the strongpoint for defending the Mississippi River. Nearby was New Madrid, one of the weak points. Brig. Gen. John Pope, commander of the Union Army of the Mississippi, set out from Commerce, Missouri, to attack New Madrid, on February 28. The force marched overland through swamps, lugging supplies and artillery, reached the New Madrid outskirts on March 3, and laid siege to the city. Brig. Gen. John P. McCown, the garrison commander, defended both New Madrid and Island No. 10 from the fortifications. He launched a sortie, under Brig. Gen. M. Jeff Thompson, Missouri State Guard, against the besiegers and brought up heavy artillery to bombard them. On the 13th, the Confederates bombarded the Yankees to no avail. Since it did not appear possible to defend New Madrid, the Confederate gunboats and troops evacuated to Island No. 10 and Tiptonville. On the 14th, Pope's army discovered that New Madrid was deserted and moved in to occupy it. A U.S. Navy flotilla, under the command of Flag-Officer Andrew H. Foote, arrived March 15 upstream from Island No. 10. The ironclad Carondelet on the night of April 4 passed the Island No. 10 batteries and anchored off New Madrid. Pittsburgh followed on the night of April 6. The ironclads helped to overawe the Confederate batteries and guns, enabling Pope's men to cross the river and block the Confederate escape route. Brig. Gen. William W. Mackall, who replaced McCown, surrendered Island No. 10 on April 8. The Mississippi was now open down to Fort Pillow, Tennessee.",
+  "state": "MO",
   "significance": "A",
   "other_names": null,
-  "state": "MO",
-  "preservation": "IV.2",
+  "dates": "February 28-April 8, 1862",
+  "battle_name": "New Madrid/Island No. 10",
   "principal_commanders": "Brig. Gen. John Pope and Flag-Officer Andrew H. Foote [US]; Brig. Gen. John P. McCown and Brig. Gen. William W. Mackall [CS]",
-  "end_date": "1862-04-08",
-  "cwsac_reference": "MO012",
-  "casualties": null,
+  "campaign": "Joint Operations Against New Madrid, Island No. 10, and Memphis [February-June 1862]",
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "P.",
+          "last_name": "McCown",
+          "fullname": "John P. McCown"
+        },
+        {
+          "rank": "Brigadier General",
+          "first_name": "William",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "W.",
+          "last_name": "Mackall",
+          "fullname": "William W. Mackall"
+        }
+      ],
+      "description": "Garrisons of New Madrid and Island No. 10"
+    },
+    "US": {
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Pope",
+          "fullname": "John Pope"
+        },
+        {
+          "rank": "Flag Officer",
+          "first_name": "Andrew",
+          "suffix": "",
+          "navy": true,
+          "middle_name": "H.",
+          "last_name": "Foote",
+          "fullname": "Andrew H. Foote"
+        }
+      ],
+      "armies": 1,
+      "description": "Army of the Mississippi"
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "P.",
+          "last_name": "McCown",
+          "fullname": "John P. McCown"
+        },
+        {
+          "rank": "Brigadier General",
+          "first_name": "William",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "W.",
+          "last_name": "Mackall",
+          "fullname": "William W. Mackall"
+        }
+      ],
+      "description": "Garrisons of New Madrid and Island No. 10"
+    }
+  },
+  "result": "Union",
+  "battle": "MO012",
   "location": [
     {
-      "place": "City of New Madrid",
-      "state": "MO"
+      "state": "MO",
+      "place": "City of New Madrid"
     },
     {
-      "place": "Lake County",
-      "state": "TN"
+      "state": "TN",
+      "place": "Lake County"
     }
   ],
-  "battle_name": "New Madrid/Island No. 10"
+  "url": "http://www.nps.gov/hps/abpp/battles/mo012.htm"
 }

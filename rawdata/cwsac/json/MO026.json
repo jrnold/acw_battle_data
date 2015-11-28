@@ -1,32 +1,27 @@
 {
-  "dates": "October 22-23, 1864",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/mo026.htm",
-  "results_text": "Union victory",
+  "end_date": "1864-10-23",
+  "casualties": null,
   "casualties_text": "Unknown",
-  "description": "Maj. Gen. Sterling Price's Army of Missouri was headed west towards Kansas City and Fort Leavenworth. Maj. Gen. Samuel R. Curtis's Army of the Border, in and around Westport, was blocking the Confederates' way west and Maj. Gen. Alfred Pleasonton's provisional cavalry division was pressing Price's army's rear. Price had nearly 500 wagons with him and required a good ford over the Big Blue River to facilitate the passage of his supplies. Byram's Ford was the best ford in the area and became a strategic point during the fighting around Westport. On October 22, Maj. Gen. James G. Blunt's division held a defensive position on the Big Blue River's west bank. Around 10:00 am on the 22nd, part of Brig. Gen. Joseph O. Shelby's Confederate division conducted a frontal attack on Blunt's men. This attack was a ruse because the rest of Shelby's men flanked Blunt's hasty defenses, forcing the Federals to retire to Westport. Price's wagon train and about 5,000 head of cattle then crossed the Big Blue River at Byram's Ford and headed southward toward Little Santa Fe and safety. Pleasonton's cavalry was hot on the tail of Price's army. Brig. Gen. John S. Marmaduke's Rebel division held the west bank of the Big Blue at Byram's Ford to prevent Pleasonton from attacking Price's rear. Pleasonton assaulted Marmaduke at Byram's Ford, around 8:00 am, on the 23rd. Three hours later, Marmaduke's men had enough and fell back toward Westport. With Pleasonton across the river, he was now an additional threat to Price who was fighting Curtis's Army of the Border at Westport. Price had to retreat south.",
-  "start_date": "1864-10-22",
-  "forces_text": "1st Division, Army of the Border and provisional cavalry division [US]; Shelby and Marmaduke's Divisions [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Shelby",
-          "middle_name": "",
           "rank": "Brigadier General",
+          "first_name": "Joseph",
           "suffix": "",
-          "fullname": "Joseph Shelby",
-          "first_name": "Joseph"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Shelby",
+          "fullname": "Joseph Shelby"
         },
         {
-          "navy": false,
-          "last_name": "Marmaduke",
-          "middle_name": "S.",
           "rank": "Brigadier General",
+          "first_name": "John",
           "suffix": "",
-          "fullname": "John S. Marmaduke",
-          "first_name": "John"
+          "navy": false,
+          "middle_name": "S.",
+          "last_name": "Marmaduke",
+          "fullname": "John S. Marmaduke"
         }
       ],
       "divisions": 2,
@@ -35,22 +30,22 @@
     "US": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Blunt",
-          "middle_name": "G.",
           "rank": "Major General",
+          "first_name": "James",
           "suffix": "",
-          "fullname": "James G. Blunt",
-          "first_name": "James"
+          "navy": false,
+          "middle_name": "G.",
+          "last_name": "Blunt",
+          "fullname": "James G. Blunt"
         },
         {
-          "navy": false,
-          "last_name": "Pleasonton",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "Alfred",
           "suffix": "",
-          "fullname": "Alfred Pleasonton",
-          "first_name": "Alfred"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Pleasonton",
+          "fullname": "Alfred Pleasonton"
         }
       ],
       "divisions": 1,
@@ -58,24 +53,104 @@
       "description": "1st Division, Army of the Border and provisional cavalry division"
     }
   },
-  "campaign": "Price's Missouri Expedition [September-October 1864]",
-  "battle": "MO026",
-  "result": "Union",
+  "cwsac_reference": "MO026",
+  "operation": false,
+  "forces_text": "1st Division, Army of the Border and provisional cavalry division [US]; Shelby and Marmaduke's Divisions [CS]",
+  "start_date": "1864-10-22",
+  "preservation": "IV.1",
+  "results_text": "Union victory",
+  "description": "Maj. Gen. Sterling Price's Army of Missouri was headed west towards Kansas City and Fort Leavenworth. Maj. Gen. Samuel R. Curtis's Army of the Border, in and around Westport, was blocking the Confederates' way west and Maj. Gen. Alfred Pleasonton's provisional cavalry division was pressing Price's army's rear. Price had nearly 500 wagons with him and required a good ford over the Big Blue River to facilitate the passage of his supplies. Byram's Ford was the best ford in the area and became a strategic point during the fighting around Westport. On October 22, Maj. Gen. James G. Blunt's division held a defensive position on the Big Blue River's west bank. Around 10:00 am on the 22nd, part of Brig. Gen. Joseph O. Shelby's Confederate division conducted a frontal attack on Blunt's men. This attack was a ruse because the rest of Shelby's men flanked Blunt's hasty defenses, forcing the Federals to retire to Westport. Price's wagon train and about 5,000 head of cattle then crossed the Big Blue River at Byram's Ford and headed southward toward Little Santa Fe and safety. Pleasonton's cavalry was hot on the tail of Price's army. Brig. Gen. John S. Marmaduke's Rebel division held the west bank of the Big Blue at Byram's Ford to prevent Pleasonton from attacking Price's rear. Pleasonton assaulted Marmaduke at Byram's Ford, around 8:00 am, on the 23rd. Three hours later, Marmaduke's men had enough and fell back toward Westport. With Pleasonton across the river, he was now an additional threat to Price who was fighting Curtis's Army of the Border at Westport. Price had to retreat south.",
+  "state": "MO",
   "significance": "B",
   "other_names": [
     "Big Blue River"
   ],
-  "state": "MO",
-  "preservation": "IV.1",
+  "dates": "October 22-23, 1864",
+  "battle_name": "Byram's Ford",
   "principal_commanders": "Maj. Gen. James G. Blunt and Maj. Gen. Alfred Pleasonton [US]; Brig. Gen. Joseph Shelby and Brig. Gen. John S. Marmaduke [CS]",
-  "end_date": "1864-10-23",
-  "cwsac_reference": "MO026",
-  "casualties": null,
+  "campaign": "Price's Missouri Expedition [September-October 1864]",
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Joseph",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Shelby",
+          "fullname": "Joseph Shelby"
+        },
+        {
+          "rank": "Brigadier General",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "S.",
+          "last_name": "Marmaduke",
+          "fullname": "John S. Marmaduke"
+        }
+      ],
+      "divisions": 2,
+      "description": "Shelby and Marmaduke's Divisions"
+    },
+    "US": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "James",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "G.",
+          "last_name": "Blunt",
+          "fullname": "James G. Blunt"
+        },
+        {
+          "rank": "Major General",
+          "first_name": "Alfred",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Pleasonton",
+          "fullname": "Alfred Pleasonton"
+        }
+      ],
+      "divisions": 1,
+      "cavalry_divisions": 1,
+      "description": "1st Division, Army of the Border and provisional cavalry division"
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Joseph",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Shelby",
+          "fullname": "Joseph Shelby"
+        },
+        {
+          "rank": "Brigadier General",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "S.",
+          "last_name": "Marmaduke",
+          "fullname": "John S. Marmaduke"
+        }
+      ],
+      "divisions": 2,
+      "description": "Shelby and Marmaduke's Divisions"
+    }
+  },
+  "result": "Union",
+  "battle": "MO026",
   "location": [
     {
-      "place": "Jackson County",
-      "state": "MO"
+      "state": "MO",
+      "place": "Jackson County"
     }
   ],
-  "battle_name": "Byram's Ford"
+  "url": "http://www.nps.gov/hps/abpp/battles/mo026.htm"
 }

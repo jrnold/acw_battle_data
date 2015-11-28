@@ -1,62 +1,126 @@
 {
-  "dates": "September 23, 1862",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/mn002.htm",
-  "results_text": "Union victory",
+  "end_date": "1862-09-23",
+  "casualties": null,
   "casualties_text": "Total unknown (US 37; I unknown)",
-  "description": "On September 19, 1862, Col. Henry Hastings Sibley set out from Fort Ridgely with 1,500 volunteers to put down the Santee uprising. As they neared Wood Lake on September 23, Sibley's men escaped an ambush by 700 warriors under Chief Little Crow and engaged them in a battle. Sibley's force won the day inflicting heavy casualties on the Sioux. For this action, Sibley received a promotion to brigadier general. Wood Lake was the first decisive defeat of the Sioux since the uprising began.",
-  "start_date": "1862-09-23",
-  "forces_text": "Volunteer troops (about 1,500) [US]; Santee Sioux [I]",
-  "belligerents": {
-    "I": {
+  "forces": {
+    "Native American": {
+      "casualties": null,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "",
-          "middle_name": "",
           "rank": "",
+          "first_name": "Little Crow",
           "suffix": "",
-          "fullname": "Little Crow",
-          "first_name": "Little Crow"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "",
+          "fullname": "Little Crow"
         }
       ],
-      "description": "Santee Sioux",
-      "casualties": null
+      "description": "Santee Sioux"
     },
     "US": {
+      "casualties": 37,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Sibley",
-          "middle_name": "Hastings",
           "rank": "Colonel",
+          "first_name": "Henry",
           "suffix": "",
-          "fullname": "Henry Hastings Sibley",
-          "first_name": "Henry"
+          "navy": false,
+          "middle_name": "Hastings",
+          "last_name": "Sibley",
+          "fullname": "Henry Hastings Sibley"
         }
       ],
       "description": "Volunteer troops (about 1,500)",
-      "strength_max": 1500,
       "strength_min": 1500,
-      "casualties": 37
+      "strength_max": 1500
+    },
+    "I": {
+      "casualties": null,
+      "commanders": [
+        {
+          "rank": "",
+          "first_name": "Little Crow",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "",
+          "fullname": "Little Crow"
+        }
+      ],
+      "description": "Santee Sioux"
     }
   },
-  "campaign": "Operations to Suppress the Sioux Uprising [August-September 1862]",
-  "battle": "MN002",
-  "result": "Union",
+  "cwsac_reference": "MN002",
+  "operation": false,
+  "forces_text": "Volunteer troops (about 1,500) [US]; Santee Sioux [I]",
+  "start_date": "1862-09-23",
+  "preservation": "III.3",
+  "results_text": "Union victory",
+  "description": "On September 19, 1862, Col. Henry Hastings Sibley set out from Fort Ridgely with 1,500 volunteers to put down the Santee uprising. As they neared Wood Lake on September 23, Sibley's men escaped an ambush by 700 warriors under Chief Little Crow and engaged them in a battle. Sibley's force won the day inflicting heavy casualties on the Sioux. For this action, Sibley received a promotion to brigadier general. Wood Lake was the first decisive defeat of the Sioux since the uprising began.",
+  "state": "MN",
   "significance": "C",
   "other_names": null,
-  "state": "MN",
-  "preservation": "III.3",
+  "dates": "September 23, 1862",
+  "battle_name": "Wood Lake",
   "principal_commanders": "Col. Henry Hastings Sibley [US]; Chief Little Crow [I]",
-  "end_date": "1862-09-23",
-  "cwsac_reference": "MN002",
-  "casualties": null,
+  "campaign": "Operations to Suppress the Sioux Uprising [August-September 1862]",
+  "belligerents": {
+    "Native American": {
+      "casualties": null,
+      "commanders": [
+        {
+          "rank": "",
+          "first_name": "Little Crow",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "",
+          "fullname": "Little Crow"
+        }
+      ],
+      "description": "Santee Sioux"
+    },
+    "US": {
+      "casualties": 37,
+      "commanders": [
+        {
+          "rank": "Colonel",
+          "first_name": "Henry",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "Hastings",
+          "last_name": "Sibley",
+          "fullname": "Henry Hastings Sibley"
+        }
+      ],
+      "description": "Volunteer troops (about 1,500)",
+      "strength_min": 1500,
+      "strength_max": 1500
+    },
+    "I": {
+      "casualties": null,
+      "commanders": [
+        {
+          "rank": "",
+          "first_name": "Little Crow",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "",
+          "fullname": "Little Crow"
+        }
+      ],
+      "description": "Santee Sioux"
+    }
+  },
+  "result": "Union",
+  "battle": "MN002",
   "location": [
     {
-      "place": "Yellow Medicine County",
-      "state": "MN"
+      "state": "MN",
+      "place": "Yellow Medicine County"
     }
   ],
-  "battle_name": "Wood Lake"
+  "url": "http://www.nps.gov/hps/abpp/battles/mn002.htm"
 }

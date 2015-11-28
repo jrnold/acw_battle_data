@@ -1,32 +1,27 @@
 {
-  "dates": "October 25, 1864",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/ks004.htm",
-  "results_text": "Union victory",
+  "end_date": "1864-10-25",
+  "casualties": null,
   "casualties_text": "Unknown",
-  "description": "Maj. Gen. Sterling Price led an expedition into Missouri which Union forces under Maj. Gen. Samuel R. Curtis and Maj. Gen. Alfred Pleasonton finally countered around Kansas City, Missouri. Price withdrew south, and Pleasonton, commanding in the field, pursued him into Kansas and fought him at Marais des Cygnes. After an artillery bombardment that began at 4:00 am, Pleasonton's men attacked furiously. Although outnumbered, they hit the Rebel line, forcing them to withdraw.",
-  "start_date": "1864-10-25",
-  "forces_text": "Provisional cavalry division [US]; cavalry division [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Marmaduke",
-          "middle_name": "S.",
           "rank": "Major General",
+          "first_name": "John",
           "suffix": "",
-          "fullname": "John S. Marmaduke",
-          "first_name": "John"
+          "navy": false,
+          "middle_name": "S.",
+          "last_name": "Marmaduke",
+          "fullname": "John S. Marmaduke"
         },
         {
-          "navy": false,
-          "last_name": "Fagan",
-          "middle_name": "F.",
           "rank": "Major General",
+          "first_name": "James",
           "suffix": "",
-          "fullname": "James F. Fagan",
-          "first_name": "James"
+          "navy": false,
+          "middle_name": "F.",
+          "last_name": "Fagan",
+          "fullname": "James F. Fagan"
         }
       ],
       "cavalry_divisions": 1,
@@ -35,38 +30,108 @@
     "US": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Pleasonton",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "Alfred",
           "suffix": "",
-          "fullname": "Alfred Pleasonton",
-          "first_name": "Alfred"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Pleasonton",
+          "fullname": "Alfred Pleasonton"
         }
       ],
       "cavalry_divisions": 1,
       "description": "Provisional cavalry division"
     }
   },
-  "campaign": "Price's Missouri Expedition [September-October 1864]",
-  "battle": "KS004",
-  "result": "Union",
+  "cwsac_reference": "KS004",
+  "operation": false,
+  "forces_text": "Provisional cavalry division [US]; cavalry division [CS]",
+  "start_date": "1864-10-25",
+  "preservation": "III.3",
+  "results_text": "Union victory",
+  "description": "Maj. Gen. Sterling Price led an expedition into Missouri which Union forces under Maj. Gen. Samuel R. Curtis and Maj. Gen. Alfred Pleasonton finally countered around Kansas City, Missouri. Price withdrew south, and Pleasonton, commanding in the field, pursued him into Kansas and fought him at Marais des Cygnes. After an artillery bombardment that began at 4:00 am, Pleasonton's men attacked furiously. Although outnumbered, they hit the Rebel line, forcing them to withdraw.",
+  "state": "KS",
   "significance": "C",
   "other_names": [
     "Battle of Osage",
     "Battle of Trading Post"
   ],
-  "state": "KS",
-  "preservation": "III.3",
+  "dates": "October 25, 1864",
+  "battle_name": "Marais des Cygnes",
   "principal_commanders": "Maj. Gen. Alfred Pleasonton [US]; Maj. Gen. John S. Marmaduke and Maj. Gen. James F. Fagan [CS]",
-  "end_date": "1864-10-25",
-  "cwsac_reference": "KS004",
-  "casualties": null,
+  "campaign": "Price's Missouri Expedition [September-October 1864]",
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "S.",
+          "last_name": "Marmaduke",
+          "fullname": "John S. Marmaduke"
+        },
+        {
+          "rank": "Major General",
+          "first_name": "James",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "F.",
+          "last_name": "Fagan",
+          "fullname": "James F. Fagan"
+        }
+      ],
+      "cavalry_divisions": 1,
+      "description": "cavalry division"
+    },
+    "US": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Alfred",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Pleasonton",
+          "fullname": "Alfred Pleasonton"
+        }
+      ],
+      "cavalry_divisions": 1,
+      "description": "Provisional cavalry division"
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "S.",
+          "last_name": "Marmaduke",
+          "fullname": "John S. Marmaduke"
+        },
+        {
+          "rank": "Major General",
+          "first_name": "James",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "F.",
+          "last_name": "Fagan",
+          "fullname": "James F. Fagan"
+        }
+      ],
+      "cavalry_divisions": 1,
+      "description": "cavalry division"
+    }
+  },
+  "result": "Union",
+  "battle": "KS004",
   "location": [
     {
-      "place": "Linn County",
-      "state": "KS"
+      "state": "KS",
+      "place": "Linn County"
     }
   ],
-  "battle_name": "Marais des Cygnes"
+  "url": "http://www.nps.gov/hps/abpp/battles/ks004.htm"
 }

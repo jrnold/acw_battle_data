@@ -1,62 +1,113 @@
 {
-  "dates": "September 22, 1863",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/tn019.htm",
-  "results_text": "Union victory",
+  "end_date": "1863-09-22",
+  "casualties": 192,
   "casualties_text": "192 total (US 27; CS 165)",
-  "description": "Maj. Gen. Ambrose Burnside, commander of the Department of the Ohio, undertook an expedition into East Tennessee to clear the roads and gaps to Virginia, and, if possible, secure the saltworks beyond Abingdon. On September 22, Union Col. John W. Foster with his cavalry and artillery engaged Col. James E. Carter and his troops at Blountsville. Foster attacked at noon and in the four-hour battle, shelled the town and initiated a flanking movement, compelling the Confederates to withdraw. Blountsville was the initial step in the Union's attempt to force Confederate Maj. Gen. Sam Jones and his command to retire from East Tennessee.",
-  "start_date": "1863-09-22",
-  "forces_text": "2nd Brigade, 4th Division, XXIII Army Corps, Department of the Ohio [US]; 1st Tennessee Cavalry Regiment and Artillery (approx. 1,200) [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": 165,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Carter",
-          "middle_name": "E.",
           "rank": "Colonel",
+          "first_name": "James",
           "suffix": "",
-          "fullname": "James E. Carter",
-          "first_name": "James"
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Carter",
+          "fullname": "James E. Carter"
         }
       ],
       "description": "1st Tennessee Cavalry Regiment and Artillery (approx. 1,200)",
-      "strength_max": 1200,
       "strength_min": 1200,
-      "casualties": 165
+      "strength_max": 1200
     },
     "US": {
+      "casualties": 27,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Foster",
-          "middle_name": "W.",
           "rank": "Colonel",
+          "first_name": "John",
           "suffix": "",
-          "fullname": "John W. Foster",
-          "first_name": "John"
+          "navy": false,
+          "middle_name": "W.",
+          "last_name": "Foster",
+          "fullname": "John W. Foster"
         }
       ],
-      "description": "2nd Brigade, 4th Division, XXIII Army Corps, Department of the Ohio",
-      "casualties": 27
+      "description": "2nd Brigade, 4th Division, XXIII Army Corps, Department of the Ohio"
     }
   },
-  "campaign": "East Tennessee Campaign [September-October 1863]",
-  "battle": "TN019",
-  "result": "Union",
+  "cwsac_reference": "TN019",
+  "operation": false,
+  "forces_text": "2nd Brigade, 4th Division, XXIII Army Corps, Department of the Ohio [US]; 1st Tennessee Cavalry Regiment and Artillery (approx. 1,200) [CS]",
+  "start_date": "1863-09-22",
+  "preservation": "IV.2",
+  "results_text": "Union victory",
+  "description": "Maj. Gen. Ambrose Burnside, commander of the Department of the Ohio, undertook an expedition into East Tennessee to clear the roads and gaps to Virginia, and, if possible, secure the saltworks beyond Abingdon. On September 22, Union Col. John W. Foster with his cavalry and artillery engaged Col. James E. Carter and his troops at Blountsville. Foster attacked at noon and in the four-hour battle, shelled the town and initiated a flanking movement, compelling the Confederates to withdraw. Blountsville was the initial step in the Union's attempt to force Confederate Maj. Gen. Sam Jones and his command to retire from East Tennessee.",
+  "state": "TN",
   "significance": "D",
   "other_names": null,
-  "state": "TN",
-  "preservation": "IV.2",
+  "dates": "September 22, 1863",
+  "battle_name": "Blountsville",
   "principal_commanders": "Col. John W. Foster [US]; Col. James E. Carter [CS]",
-  "end_date": "1863-09-22",
-  "cwsac_reference": "TN019",
-  "casualties": 192,
+  "campaign": "East Tennessee Campaign [September-October 1863]",
+  "belligerents": {
+    "Confederate": {
+      "casualties": 165,
+      "commanders": [
+        {
+          "rank": "Colonel",
+          "first_name": "James",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Carter",
+          "fullname": "James E. Carter"
+        }
+      ],
+      "description": "1st Tennessee Cavalry Regiment and Artillery (approx. 1,200)",
+      "strength_min": 1200,
+      "strength_max": 1200
+    },
+    "US": {
+      "casualties": 27,
+      "commanders": [
+        {
+          "rank": "Colonel",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "W.",
+          "last_name": "Foster",
+          "fullname": "John W. Foster"
+        }
+      ],
+      "description": "2nd Brigade, 4th Division, XXIII Army Corps, Department of the Ohio"
+    },
+    "CS": {
+      "casualties": 165,
+      "commanders": [
+        {
+          "rank": "Colonel",
+          "first_name": "James",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Carter",
+          "fullname": "James E. Carter"
+        }
+      ],
+      "description": "1st Tennessee Cavalry Regiment and Artillery (approx. 1,200)",
+      "strength_min": 1200,
+      "strength_max": 1200
+    }
+  },
+  "result": "Union",
+  "battle": "TN019",
   "location": [
     {
-      "place": "Sullivan County",
-      "state": "TN"
+      "state": "TN",
+      "place": "Sullivan County"
     }
   ],
-  "battle_name": "Blountsville"
+  "url": "http://www.nps.gov/hps/abpp/battles/tn019.htm"
 }

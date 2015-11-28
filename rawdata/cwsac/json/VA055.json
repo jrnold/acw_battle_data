@@ -1,23 +1,18 @@
 {
-  "dates": "May 23-26, 1864",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/va055.htm",
-  "results_text": "Inconclusive",
+  "end_date": "1864-05-26",
+  "casualties": 4000,
   "casualties_text": "4,000 total",
-  "description": "After the fighting at Spotsylvania Court House, Grant continued his Overland Offensive against Lee's Army of Northern Virginia. He was brought up short on the North Anna River by Lee's widely studied \"hog snout line,\" which forced Grant to divide his army into three parts in order to attack. On May 23, 1864, one of A.P. Hill's divisions assaulted the V Corps which had crossed the river at Jericho Mill, resulting in bloody see-saw fighting. On the 24th, Union infantry was repulsed at Ox Ford (the snout) but advanced to near the Doswell House on the Confederate right. Lee hoped to strike an offensive blow, but he was ill, and the opportunity for defeating an isolated part of the Federal army passed. Once the threat of Lee's position was revealed, Grant withdrew both wings of the army back across the North Anna River. Grant outflanked the position by moving downstream and continued his advance on Richmond.",
-  "start_date": "1864-05-23",
-  "forces_text": "Armies",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Lee",
-          "middle_name": "E.",
           "rank": "General",
+          "first_name": "Robert",
           "suffix": "",
-          "fullname": "Robert E. Lee",
-          "first_name": "Robert"
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "fullname": "Robert E. Lee"
         }
       ],
       "armies": 1
@@ -25,30 +20,35 @@
     "US": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Grant",
-          "middle_name": "S.",
           "rank": "Lieutenant General",
+          "first_name": "Ulysses",
           "suffix": "",
-          "fullname": "Ulysses S. Grant",
-          "first_name": "Ulysses"
+          "navy": false,
+          "middle_name": "S.",
+          "last_name": "Grant",
+          "fullname": "Ulysses S. Grant"
         },
         {
-          "navy": false,
-          "last_name": "Meade",
-          "middle_name": "G.",
           "rank": "Major General",
+          "first_name": "George",
           "suffix": "",
-          "fullname": "George G. Meade",
-          "first_name": "George"
+          "navy": false,
+          "middle_name": "G.",
+          "last_name": "Meade",
+          "fullname": "George G. Meade"
         }
       ],
       "armies": 1
     }
   },
-  "campaign": "Grant's Overland Campaign [May-June 1864]",
-  "battle": "VA055",
-  "result": "Inconclusive",
+  "cwsac_reference": "VA055",
+  "operation": false,
+  "forces_text": "Armies",
+  "start_date": "1864-05-23",
+  "preservation": "I.3",
+  "results_text": "Inconclusive",
+  "description": "After the fighting at Spotsylvania Court House, Grant continued his Overland Offensive against Lee's Army of Northern Virginia. He was brought up short on the North Anna River by Lee's widely studied \"hog snout line,\" which forced Grant to divide his army into three parts in order to attack. On May 23, 1864, one of A.P. Hill's divisions assaulted the V Corps which had crossed the river at Jericho Mill, resulting in bloody see-saw fighting. On the 24th, Union infantry was repulsed at Ox Ford (the snout) but advanced to near the Doswell House on the Confederate right. Lee hoped to strike an offensive blow, but he was ill, and the opportunity for defeating an isolated part of the Federal army passed. Once the threat of Lee's position was revealed, Grant withdrew both wings of the army back across the North Anna River. Grant outflanked the position by moving downstream and continued his advance on Richmond.",
+  "state": "VA",
   "significance": "B",
   "other_names": [
     "Telegraph Road Bridge",
@@ -56,21 +56,74 @@
     "Quarles Mill",
     "Hanover Junction (May 24)"
   ],
-  "state": "VA",
-  "preservation": "I.3",
+  "dates": "May 23-26, 1864",
+  "battle_name": "North Anna",
   "principal_commanders": "Lt. Gen. Ulysses S. Grant and Maj. Gen. George G. Meade [US]; Gen. Robert E. Lee [CS]",
-  "end_date": "1864-05-26",
-  "cwsac_reference": "VA055",
-  "casualties": 4000,
+  "campaign": "Grant's Overland Campaign [May-June 1864]",
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "Robert",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "fullname": "Robert E. Lee"
+        }
+      ],
+      "armies": 1
+    },
+    "US": {
+      "commanders": [
+        {
+          "rank": "Lieutenant General",
+          "first_name": "Ulysses",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "S.",
+          "last_name": "Grant",
+          "fullname": "Ulysses S. Grant"
+        },
+        {
+          "rank": "Major General",
+          "first_name": "George",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "G.",
+          "last_name": "Meade",
+          "fullname": "George G. Meade"
+        }
+      ],
+      "armies": 1
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "Robert",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "fullname": "Robert E. Lee"
+        }
+      ],
+      "armies": 1
+    }
+  },
+  "result": "Inconclusive",
+  "battle": "VA055",
   "location": [
     {
-      "place": "Caroline County",
-      "state": "VA"
+      "state": "VA",
+      "place": "Caroline County"
     },
     {
-      "place": "Hanover County",
-      "state": "VA"
+      "state": "VA",
+      "place": "Hanover County"
     }
   ],
-  "battle_name": "North Anna"
+  "url": "http://www.nps.gov/hps/abpp/battles/va055.htm"
 }

@@ -1,60 +1,104 @@
 {
-  "dates": "April 6, 1865",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/va092.htm",
-  "results_text": "Union victory",
+  "end_date": "1865-04-06",
+  "casualties": 0,
   "casualties_text": "Few",
-  "description": "On April 6, Longstreet's command reached Rice's Station, its farthest point south, where it was blocked by Union XXIV Corps. After some skirmishing, Longstreet withdrew over the High Bridge during the night toward Farmville.",
-  "start_date": "1865-04-06",
-  "forces_text": "Corps",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "corps": 1,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Longstreet",
-          "middle_name": "",
           "rank": "Lieutenant General",
+          "first_name": "James",
           "suffix": "",
-          "fullname": "James Longstreet",
-          "first_name": "James"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Longstreet",
+          "fullname": "James Longstreet"
         }
-      ],
-      "corps": 1
+      ]
     },
     "US": {
+      "corps": 1,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Gibbon",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "John",
           "suffix": "",
-          "fullname": "John Gibbon",
-          "first_name": "John"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Gibbon",
+          "fullname": "John Gibbon"
         }
-      ],
-      "corps": 1
+      ]
     }
   },
-  "campaign": "Appomattox Campaign [March-April 1865]",
-  "battle": "VA092",
-  "result": "Union",
+  "cwsac_reference": "VA092",
+  "operation": false,
+  "forces_text": "Corps",
+  "start_date": "1865-04-06",
+  "preservation": "II.4",
+  "results_text": "Union victory",
+  "description": "On April 6, Longstreet's command reached Rice's Station, its farthest point south, where it was blocked by Union XXIV Corps. After some skirmishing, Longstreet withdrew over the High Bridge during the night toward Farmville.",
+  "state": "VA",
   "significance": "D",
   "other_names": [
     "Rice's Depot"
   ],
-  "state": "VA",
-  "preservation": "II.4",
+  "dates": "April 6, 1865",
+  "battle_name": "Rice's Station",
   "principal_commanders": "Maj. Gen. John Gibbon [US]; Lt. Gen. James Longstreet [CS]",
-  "end_date": "1865-04-06",
-  "cwsac_reference": "VA092",
-  "casualties": 0,
+  "campaign": "Appomattox Campaign [March-April 1865]",
+  "belligerents": {
+    "Confederate": {
+      "corps": 1,
+      "commanders": [
+        {
+          "rank": "Lieutenant General",
+          "first_name": "James",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Longstreet",
+          "fullname": "James Longstreet"
+        }
+      ]
+    },
+    "US": {
+      "corps": 1,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Gibbon",
+          "fullname": "John Gibbon"
+        }
+      ]
+    },
+    "CS": {
+      "corps": 1,
+      "commanders": [
+        {
+          "rank": "Lieutenant General",
+          "first_name": "James",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Longstreet",
+          "fullname": "James Longstreet"
+        }
+      ]
+    }
+  },
+  "result": "Union",
+  "battle": "VA092",
   "location": [
     {
-      "place": "Prince Edward County",
-      "state": "VA"
+      "state": "VA",
+      "place": "Prince Edward County"
     }
   ],
-  "battle_name": "Rice's Station"
+  "url": "http://www.nps.gov/hps/abpp/battles/va092.htm"
 }

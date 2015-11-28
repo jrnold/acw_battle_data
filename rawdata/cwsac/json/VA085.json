@@ -1,64 +1,111 @@
 {
-  "dates": "March 29, 1865",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/va085.htm",
-  "results_text": "Union victory",
+  "end_date": "1865-03-29",
+  "casualties": 750,
   "casualties_text": "750 total (US 380; CS 370)",
-  "description": "On March 29, in the opening moves of Grant's spring offensive, Sheridan marched with the army's cavalry followed by the V Corps toward Dinwiddie Court House to turn the right flank of Lee's Petersburg defenses. The Union V Corps under Maj. Gen. G.K. Warren crossed Rowanty Creek, moved up the Quaker Road toward the Boydton Plank Road intersection, and encountered Johnson's Confederate brigades. A sharp firefight forced the Confederates back to their entrenchments on the White Oak Road.",
-  "start_date": "1865-03-29",
-  "forces_text": "Corps",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "corps": 1,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Johnson",
-          "middle_name": "R.",
           "rank": "Major General",
+          "first_name": "Bushrod",
           "suffix": "",
-          "fullname": "Bushrod R. Johnson",
-          "first_name": "Bushrod"
+          "navy": false,
+          "middle_name": "R.",
+          "last_name": "Johnson",
+          "fullname": "Bushrod R. Johnson"
         }
       ],
-      "corps": 1,
       "casualties": 370
     },
     "US": {
+      "corps": 1,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Warren",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "G.K.",
           "suffix": "",
-          "fullname": "G.K. Warren",
-          "first_name": "G.K."
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Warren",
+          "fullname": "G.K. Warren"
         }
       ],
-      "corps": 1,
       "casualties": 380
     }
   },
-  "campaign": "Appomattox Campaign [March-April 1865]",
-  "battle": "VA085",
-  "result": "Union",
+  "cwsac_reference": "VA085",
+  "operation": false,
+  "forces_text": "Corps",
+  "start_date": "1865-03-29",
+  "preservation": "II.3",
+  "results_text": "Union victory",
+  "description": "On March 29, in the opening moves of Grant's spring offensive, Sheridan marched with the army's cavalry followed by the V Corps toward Dinwiddie Court House to turn the right flank of Lee's Petersburg defenses. The Union V Corps under Maj. Gen. G.K. Warren crossed Rowanty Creek, moved up the Quaker Road toward the Boydton Plank Road intersection, and encountered Johnson's Confederate brigades. A sharp firefight forced the Confederates back to their entrenchments on the White Oak Road.",
+  "state": "VA",
   "significance": "C",
   "other_names": [
     "Quaker Road",
     "Military Road",
     "Gravelly Road"
   ],
-  "state": "VA",
-  "preservation": "II.3",
+  "dates": "March 29, 1865",
+  "battle_name": "Lewis's Farm",
   "principal_commanders": "Maj. Gen. G.K. Warren [US]; Maj. Gen. Bushrod R. Johnson [CS]",
-  "end_date": "1865-03-29",
-  "cwsac_reference": "VA085",
-  "casualties": 750,
+  "campaign": "Appomattox Campaign [March-April 1865]",
+  "belligerents": {
+    "Confederate": {
+      "corps": 1,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Bushrod",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "R.",
+          "last_name": "Johnson",
+          "fullname": "Bushrod R. Johnson"
+        }
+      ],
+      "casualties": 370
+    },
+    "US": {
+      "corps": 1,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "G.K.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Warren",
+          "fullname": "G.K. Warren"
+        }
+      ],
+      "casualties": 380
+    },
+    "CS": {
+      "corps": 1,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Bushrod",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "R.",
+          "last_name": "Johnson",
+          "fullname": "Bushrod R. Johnson"
+        }
+      ],
+      "casualties": 370
+    }
+  },
+  "result": "Union",
+  "battle": "VA085",
   "location": [
     {
-      "place": "Dinwiddie County",
-      "state": "VA"
+      "state": "VA",
+      "place": "Dinwiddie County"
     }
   ],
-  "battle_name": "Lewis's Farm"
+  "url": "http://www.nps.gov/hps/abpp/battles/va085.htm"
 }

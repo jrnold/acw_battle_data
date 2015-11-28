@@ -1,70 +1,137 @@
 {
-  "dates": "February 20-21, 1862",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/nm001.htm",
-  "results_text": "Confederate victory",
+  "end_date": "1862-02-21",
+  "casualties": 389,
   "casualties_text": "389 total (US 202; CS 187)",
-  "description": "Brig. Gen. Henry H. Sibley led his force of 2,500 men across the Rio Grande River and up the east side of the river to the ford at Valverde, north of Fort Craig, New Mexico, hoping to cut Federal communications between the fort and military headquarters in Santa Fe. Union Col. E.R.S. Canby left Fort Craig with more than 3,000 men to prevent the Confederates from crossing the river. When he was opposite them, across the river, Canby opened fire and sent Union cavalry over, forcing the Rebels back. The Confederates halted their retirement at the Old Rio Grande riverbed, which served as an excellent position. After crossing all his men, Canby decided that a frontal assault would fail and deployed his force to assault and turn the Confederate left flank. Before he could do so, though, the Rebels attacked. Federals rebuffed a cavalry charge, but the main Confederate force made a frontal attack, capturing six artillery pieces and forcing the Union battle line to break and many of the men to flee. Canby ordered a retreat. Confederate reinforcements arrived and Sibley was about to order another attack when Canby asked for a truce, by a white flag, to remove the bodies of the dead and wounded. Left in possession of the battlefield, the Confederates claimed victory but had suffered heavy casualties. Although the Confederates would soon occupy Santa Fe, they would have to leave New Mexico within four months.",
-  "start_date": "1862-02-20",
-  "forces_text": "Department of New Mexico (combination of regular and volunteer units) [US]; Army of New Mexico [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "regiments": 3,
+      "casualties": 187,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Sibley",
-          "middle_name": "Hastings",
           "rank": "Brigadier General",
+          "first_name": "Henry",
           "suffix": "",
-          "fullname": "Henry Hastings Sibley",
-          "first_name": "Henry"
+          "navy": false,
+          "middle_name": "Hastings",
+          "last_name": "Sibley",
+          "fullname": "Henry Hastings Sibley"
         },
         {
-          "navy": false,
-          "last_name": "Green",
-          "middle_name": "",
           "rank": "Colonel",
+          "first_name": "Tom",
           "suffix": "",
-          "fullname": "Tom Green",
-          "first_name": "Tom"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Green",
+          "fullname": "Tom Green"
         }
       ],
-      "description": "Army of New Mexico",
-      "regiments": 3,
-      "casualties": 187
+      "description": "Army of New Mexico"
     },
     "US": {
+      "casualties": 202,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Canby",
-          "middle_name": "R. S.",
           "rank": "Colonel",
+          "first_name": "E. R. S.",
           "suffix": "",
-          "fullname": "E. R. S. Canby",
-          "first_name": "E. R. S."
+          "navy": false,
+          "middle_name": "R. S.",
+          "last_name": "Canby",
+          "fullname": "E. R. S. Canby"
         }
       ],
-      "description": "Department of New Mexico (combination of regular and volunteer units)",
-      "casualties": 202
+      "description": "Department of New Mexico (combination of regular and volunteer units)"
     }
   },
-  "campaign": "Sibley's New Mexico Campaign [February-March 1862]",
-  "battle": "NM001",
-  "result": "Confederate",
+  "cwsac_reference": "NM001",
+  "operation": false,
+  "forces_text": "Department of New Mexico (combination of regular and volunteer units) [US]; Army of New Mexico [CS]",
+  "start_date": "1862-02-20",
+  "preservation": "II.2",
+  "results_text": "Confederate victory",
+  "description": "Brig. Gen. Henry H. Sibley led his force of 2,500 men across the Rio Grande River and up the east side of the river to the ford at Valverde, north of Fort Craig, New Mexico, hoping to cut Federal communications between the fort and military headquarters in Santa Fe. Union Col. E.R.S. Canby left Fort Craig with more than 3,000 men to prevent the Confederates from crossing the river. When he was opposite them, across the river, Canby opened fire and sent Union cavalry over, forcing the Rebels back. The Confederates halted their retirement at the Old Rio Grande riverbed, which served as an excellent position. After crossing all his men, Canby decided that a frontal assault would fail and deployed his force to assault and turn the Confederate left flank. Before he could do so, though, the Rebels attacked. Federals rebuffed a cavalry charge, but the main Confederate force made a frontal attack, capturing six artillery pieces and forcing the Union battle line to break and many of the men to flee. Canby ordered a retreat. Confederate reinforcements arrived and Sibley was about to order another attack when Canby asked for a truce, by a white flag, to remove the bodies of the dead and wounded. Left in possession of the battlefield, the Confederates claimed victory but had suffered heavy casualties. Although the Confederates would soon occupy Santa Fe, they would have to leave New Mexico within four months.",
+  "state": "NM",
   "significance": "B",
   "other_names": null,
-  "state": "NM",
-  "preservation": "II.2",
+  "dates": "February 20-21, 1862",
+  "battle_name": "Valverde",
   "principal_commanders": "Col. E.R.S. Canby [US]; Brig. Gen. Henry Hastings Sibley and Col. Tom Green [CS]",
-  "end_date": "1862-02-21",
-  "cwsac_reference": "NM001",
-  "casualties": 389,
+  "campaign": "Sibley's New Mexico Campaign [February-March 1862]",
+  "belligerents": {
+    "Confederate": {
+      "regiments": 3,
+      "casualties": 187,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Henry",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "Hastings",
+          "last_name": "Sibley",
+          "fullname": "Henry Hastings Sibley"
+        },
+        {
+          "rank": "Colonel",
+          "first_name": "Tom",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Green",
+          "fullname": "Tom Green"
+        }
+      ],
+      "description": "Army of New Mexico"
+    },
+    "US": {
+      "casualties": 202,
+      "commanders": [
+        {
+          "rank": "Colonel",
+          "first_name": "E. R. S.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "R. S.",
+          "last_name": "Canby",
+          "fullname": "E. R. S. Canby"
+        }
+      ],
+      "description": "Department of New Mexico (combination of regular and volunteer units)"
+    },
+    "CS": {
+      "regiments": 3,
+      "casualties": 187,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Henry",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "Hastings",
+          "last_name": "Sibley",
+          "fullname": "Henry Hastings Sibley"
+        },
+        {
+          "rank": "Colonel",
+          "first_name": "Tom",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Green",
+          "fullname": "Tom Green"
+        }
+      ],
+      "description": "Army of New Mexico"
+    }
+  },
+  "result": "Confederate",
+  "battle": "NM001",
   "location": [
     {
-      "place": "Socorro County",
-      "state": "NM"
+      "state": "NM",
+      "place": "Socorro County"
     }
   ],
-  "battle_name": "Valverde"
+  "url": "http://www.nps.gov/hps/abpp/battles/nm001.htm"
 }

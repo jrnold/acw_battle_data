@@ -1,63 +1,114 @@
 {
-  "dates": "December 15-16, 1864",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/tn038.htm",
-  "results_text": "Union victory",
+  "end_date": "1864-12-16",
+  "casualties": 6602,
   "casualties_text": "6,602 total (US 2,140; CS 4,462)",
-  "description": "In a last desperate attempt to force Maj. Gen. William T. Sherman's army out of Georgia, Gen. John Bell Hood led the Army of Tennessee north toward Nashville in November 1864. Although he suffered terrible losses at Franklin on November 30, he continued toward Nashville. By the next day, the various elements of Maj. Gen. George H. Thomas's army had reached Nashville. Hood reached the outskirts of Nashville on December 2, occupied positions on a line of hills parallel to those of the Union and began erecting fieldworks. Union Army Engineer, Brig. Gen. James St. Clair Morton, had overseen the construction of sophisticated fortifications at Nashville in 1862-63, strengthened by others, which would soon see use. From the 1st through the 14th, Thomas made preparations for the Battle of Nashville in which he intended to destroy Hood's army. On the night of December 14, Thomas informed Maj. Gen. Henry W. Halleck, acting as Maj. Gen. Ulysses S. Grant's chief of staff, that he would attack the next day. Thomas planned to strike both of Hood's flanks. Before daylight on the 15th, the first of the Union troops, led by Maj. Gen. James Steedman, set out to hit the Confederate right. The attack was made and the Union forces held down one Rebel corps there for the rest of the day. Attack on the Confederate left did not begin until after noon when a charge commenced on Montgomery Hill. With this classic charge's success, attacks on other parts of the Confederate left commenced, all eventually successful. By this time it was dark and fighting stopped for the day. Although battered and with a much smaller battle line, Gen. Hood was still confident. He established a main line of resistance along the base of a ridge about two miles south of the former location, throwing up new works and fortifying Shy's and Overton's hills on their flanks. The IV Army Corps marched out to within 250 yards, in some places, of the Confederate's new line and began constructing fieldworks. During the rest of the morning, other Union troops moved out toward the new Confederate line and took up positions opposite it. The Union attack began against Hood's strong right flank on Overton's Hill. The same brigade that had taken Montgomery Hill the day before received the nod for the charge up Overton's Hill. This charge, although gallantly conducted, failed, but other troops (Maj. Gen. A.J. Smith's \"Israelites\" ) successfully assaulted Shy's Hill in their fronts. Seeing the success along the line, other Union troops charged up Overton's Hill and took it. Hood's army fled. Thomas had left one escape route open but the Union army set off in pursuit. For ten days, the pursuit continued until the beaten and battered Army of Tennessee recrossed the Tennessee River. Hood's army was stalled at Columbia, beaten at Franklin, and routed at Nashville. Hood retreated to Tupelo and resigned his command.",
-  "start_date": "1864-12-15",
-  "forces_text": "IV Army Corps, XXIII Army Corps, Detachment of Army of the Tennessee, provisional detachment, and cavalry corps [US]; Army of Tennessee [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": 4462,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Hood",
-          "middle_name": "Bell",
           "rank": "General",
+          "first_name": "John",
           "suffix": "",
-          "fullname": "John Bell Hood",
-          "first_name": "John"
+          "navy": false,
+          "middle_name": "Bell",
+          "last_name": "Hood",
+          "fullname": "John Bell Hood"
         }
       ],
       "description": "Army of Tennessee",
-      "armies": 1,
-      "casualties": 4462
+      "armies": 1
     },
     "US": {
+      "corps": 2,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Thomas",
-          "middle_name": "H.",
           "rank": "Major General",
+          "first_name": "George",
           "suffix": "",
-          "fullname": "George H. Thomas",
-          "first_name": "George"
+          "navy": false,
+          "middle_name": "H.",
+          "last_name": "Thomas",
+          "fullname": "George H. Thomas"
         }
       ],
-      "description": "IV Army Corps, XXIII Army Corps, Detachment of Army of the Tennessee, provisional detachment, and cavalry corps",
-      "corps": 2,
       "cavalry_corps": 1,
+      "description": "IV Army Corps, XXIII Army Corps, Detachment of Army of the Tennessee, provisional detachment, and cavalry corps",
       "casualties": 2140
     }
   },
-  "campaign": "Franklin-Nashville Campaign [September-December 1864]",
-  "battle": "TN038",
-  "result": "Union",
+  "cwsac_reference": "TN038",
+  "operation": false,
+  "forces_text": "IV Army Corps, XXIII Army Corps, Detachment of Army of the Tennessee, provisional detachment, and cavalry corps [US]; Army of Tennessee [CS]",
+  "start_date": "1864-12-15",
+  "preservation": "IV.2",
+  "results_text": "Union victory",
+  "description": "In a last desperate attempt to force Maj. Gen. William T. Sherman's army out of Georgia, Gen. John Bell Hood led the Army of Tennessee north toward Nashville in November 1864. Although he suffered terrible losses at Franklin on November 30, he continued toward Nashville. By the next day, the various elements of Maj. Gen. George H. Thomas's army had reached Nashville. Hood reached the outskirts of Nashville on December 2, occupied positions on a line of hills parallel to those of the Union and began erecting fieldworks. Union Army Engineer, Brig. Gen. James St. Clair Morton, had overseen the construction of sophisticated fortifications at Nashville in 1862-63, strengthened by others, which would soon see use. From the 1st through the 14th, Thomas made preparations for the Battle of Nashville in which he intended to destroy Hood's army. On the night of December 14, Thomas informed Maj. Gen. Henry W. Halleck, acting as Maj. Gen. Ulysses S. Grant's chief of staff, that he would attack the next day. Thomas planned to strike both of Hood's flanks. Before daylight on the 15th, the first of the Union troops, led by Maj. Gen. James Steedman, set out to hit the Confederate right. The attack was made and the Union forces held down one Rebel corps there for the rest of the day. Attack on the Confederate left did not begin until after noon when a charge commenced on Montgomery Hill. With this classic charge's success, attacks on other parts of the Confederate left commenced, all eventually successful. By this time it was dark and fighting stopped for the day. Although battered and with a much smaller battle line, Gen. Hood was still confident. He established a main line of resistance along the base of a ridge about two miles south of the former location, throwing up new works and fortifying Shy's and Overton's hills on their flanks. The IV Army Corps marched out to within 250 yards, in some places, of the Confederate's new line and began constructing fieldworks. During the rest of the morning, other Union troops moved out toward the new Confederate line and took up positions opposite it. The Union attack began against Hood's strong right flank on Overton's Hill. The same brigade that had taken Montgomery Hill the day before received the nod for the charge up Overton's Hill. This charge, although gallantly conducted, failed, but other troops (Maj. Gen. A.J. Smith's \"Israelites\" ) successfully assaulted Shy's Hill in their fronts. Seeing the success along the line, other Union troops charged up Overton's Hill and took it. Hood's army fled. Thomas had left one escape route open but the Union army set off in pursuit. For ten days, the pursuit continued until the beaten and battered Army of Tennessee recrossed the Tennessee River. Hood's army was stalled at Columbia, beaten at Franklin, and routed at Nashville. Hood retreated to Tupelo and resigned his command.",
+  "state": "TN",
   "significance": "A",
   "other_names": null,
-  "state": "TN",
-  "preservation": "IV.2",
+  "dates": "December 15-16, 1864",
+  "battle_name": "Nashville",
   "principal_commanders": "Maj. Gen. George H. Thomas [US]; Gen. John Bell Hood [CS]",
-  "end_date": "1864-12-16",
-  "cwsac_reference": "TN038",
-  "casualties": 6602,
+  "campaign": "Franklin-Nashville Campaign [September-December 1864]",
+  "belligerents": {
+    "Confederate": {
+      "casualties": 4462,
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "Bell",
+          "last_name": "Hood",
+          "fullname": "John Bell Hood"
+        }
+      ],
+      "description": "Army of Tennessee",
+      "armies": 1
+    },
+    "US": {
+      "corps": 2,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "George",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "H.",
+          "last_name": "Thomas",
+          "fullname": "George H. Thomas"
+        }
+      ],
+      "cavalry_corps": 1,
+      "description": "IV Army Corps, XXIII Army Corps, Detachment of Army of the Tennessee, provisional detachment, and cavalry corps",
+      "casualties": 2140
+    },
+    "CS": {
+      "casualties": 4462,
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "Bell",
+          "last_name": "Hood",
+          "fullname": "John Bell Hood"
+        }
+      ],
+      "description": "Army of Tennessee",
+      "armies": 1
+    }
+  },
+  "result": "Union",
+  "battle": "TN038",
   "location": [
     {
-      "place": "Davidson County",
-      "state": "TN"
+      "state": "TN",
+      "place": "Davidson County"
     }
   ],
-  "battle_name": "Nashville"
+  "url": "http://www.nps.gov/hps/abpp/battles/tn038.htm"
 }

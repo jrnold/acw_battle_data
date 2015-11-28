@@ -1,60 +1,104 @@
 {
-  "dates": "May 3-4, 1863",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/va033.htm",
-  "results_text": "Confederate victory",
+  "end_date": "1863-05-04",
+  "casualties": 5000,
   "casualties_text": "5,000 total",
-  "description": "After occupying Marye's Heights on May 3, Sedgwick's VI Corps marched out on the Plank Road with the objective of reaching Hooker's force at Chancellorsville. He was delayed by Wilcox's brigade of Early's force at Salem Church. During the afternoon and night, Lee detached two of his divisions from the Chancellorsville lines and marched them to Salem Church. Several Union assaults were repulsed the next morning with heavy casualties, and the Confederates counterattacked, gaining some ground. After dark, Sedgwick withdrew across two pontoon bridges at Scott's Dam under a harassing artillery fire. Hearing that Sedgwick had been repulsed, Hooker abandoned the campaign, recrossing on the night of May 5-6 to the north bank of the Rappahannock.",
-  "start_date": "1863-05-03",
-  "forces_text": "Corps",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "corps": 1,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Lee",
-          "middle_name": "E.",
           "rank": "General",
+          "first_name": "Robert",
           "suffix": "",
-          "fullname": "Robert E. Lee",
-          "first_name": "Robert"
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "fullname": "Robert E. Lee"
         }
-      ],
-      "corps": 1
+      ]
     },
     "US": {
+      "corps": 1,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Sedgwick",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "John",
           "suffix": "",
-          "fullname": "John Sedgwick",
-          "first_name": "John"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Sedgwick",
+          "fullname": "John Sedgwick"
         }
-      ],
-      "corps": 1
+      ]
     }
   },
-  "campaign": "Chancellorsville Campaign [April-May 1863]",
-  "battle": "VA033",
-  "result": "Confederate",
+  "cwsac_reference": "VA033",
+  "operation": false,
+  "forces_text": "Corps",
+  "start_date": "1863-05-03",
+  "preservation": "IV.1",
+  "results_text": "Confederate victory",
+  "description": "After occupying Marye's Heights on May 3, Sedgwick's VI Corps marched out on the Plank Road with the objective of reaching Hooker's force at Chancellorsville. He was delayed by Wilcox's brigade of Early's force at Salem Church. During the afternoon and night, Lee detached two of his divisions from the Chancellorsville lines and marched them to Salem Church. Several Union assaults were repulsed the next morning with heavy casualties, and the Confederates counterattacked, gaining some ground. After dark, Sedgwick withdrew across two pontoon bridges at Scott's Dam under a harassing artillery fire. Hearing that Sedgwick had been repulsed, Hooker abandoned the campaign, recrossing on the night of May 5-6 to the north bank of the Rappahannock.",
+  "state": "VA",
   "significance": "B",
   "other_names": [
     "Banks' Ford"
   ],
-  "state": "VA",
-  "preservation": "IV.1",
+  "dates": "May 3-4, 1863",
+  "battle_name": "Salem Church",
   "principal_commanders": "Maj. Gen. John Sedgwick [US]; Gen. Robert E. Lee [CS]",
-  "end_date": "1863-05-04",
-  "cwsac_reference": "VA033",
-  "casualties": 5000,
+  "campaign": "Chancellorsville Campaign [April-May 1863]",
+  "belligerents": {
+    "Confederate": {
+      "corps": 1,
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "Robert",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "fullname": "Robert E. Lee"
+        }
+      ]
+    },
+    "US": {
+      "corps": 1,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Sedgwick",
+          "fullname": "John Sedgwick"
+        }
+      ]
+    },
+    "CS": {
+      "corps": 1,
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "Robert",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "fullname": "Robert E. Lee"
+        }
+      ]
+    }
+  },
+  "result": "Confederate",
+  "battle": "VA033",
   "location": [
     {
-      "place": "Spotsylvania County",
-      "state": "VA"
+      "state": "VA",
+      "place": "Spotsylvania County"
     }
   ],
-  "battle_name": "Salem Church"
+  "url": "http://www.nps.gov/hps/abpp/battles/va033.htm"
 }

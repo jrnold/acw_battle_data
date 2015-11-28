@@ -1,73 +1,132 @@
 {
-  "dates": "July 12-13, 1863",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/la015.htm",
-  "results_text": "Confederate victory",
+  "end_date": "1863-07-13",
+  "casualties": 463,
   "casualties_text": "463 total (US 430; CS 33)",
-  "description": "Following the surrender of Port Hudson, two Union divisions were shifted to Donaldsonville by transports, to move inland and pacify the interior. They marched up Bayou Lafourche, a division on each bank. Confederate Brig. Gen. Tom Green posted a brigade on the east side of the bayou and placed his second brigade on the other side. As the Union forces advanced, skirmishing occurred on July 11 and 12. On the morning of the 13th, a foraging detachment set out along both banks of the bayou. Upon reaching Kock's Plantation (Saint Emma Plantation) they met Rebel skirmishers that forced them back. Then, the Confederates flung their might against the Union troops which kept retiring although they tried to make stands at various points. The Union troops eventually fell back to the protection of the guns in Fort Butler at Donaldsonville, about six miles from Kock's Plantation. A much smaller Rebel force had routed the Yankees. The expedition failed, leaving the Confederates in control of the interior.",
-  "start_date": "1863-07-12",
-  "forces_text": "Godfrey Weitzel's and Cuvier Grover's Divisions, XIX Army Corps [US]; two understrength Confederate brigades [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": 33,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Green",
-          "middle_name": "",
           "rank": "Brigadier General",
+          "first_name": "Tom",
           "suffix": "",
-          "fullname": "Tom Green",
-          "first_name": "Tom"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Green",
+          "fullname": "Tom Green"
         }
       ],
-      "description": "two understrength Confederate brigades",
       "brigades": 1,
-      "casualties": 33
+      "description": "two understrength Confederate brigades"
     },
     "US": {
+      "casualties": 430,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Weitzel",
-          "middle_name": "",
           "rank": "Brigadier General",
+          "first_name": "Godfrey",
           "suffix": "",
-          "fullname": "Godfrey Weitzel",
-          "first_name": "Godfrey"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Weitzel",
+          "fullname": "Godfrey Weitzel"
         },
         {
-          "navy": false,
-          "last_name": "Grover",
-          "middle_name": "",
           "rank": "Brigadier General",
+          "first_name": "Cuvier",
           "suffix": "",
-          "fullname": "Cuvier Grover",
-          "first_name": "Cuvier"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Grover",
+          "fullname": "Cuvier Grover"
         }
       ],
       "divisions": 2,
-      "description": "Godfrey Weitzel's and Cuvier Grover's Divisions, XIX Army Corps",
-      "casualties": 430
+      "description": "Godfrey Weitzel's and Cuvier Grover's Divisions, XIX Army Corps"
     }
   },
-  "campaign": "Taylor's Operations in West Louisiana [June-September 1863]",
-  "battle": "LA015",
-  "result": "Confederate",
+  "cwsac_reference": "LA015",
+  "operation": false,
+  "forces_text": "Godfrey Weitzel's and Cuvier Grover's Divisions, XIX Army Corps [US]; two understrength Confederate brigades [CS]",
+  "start_date": "1863-07-12",
+  "preservation": "IV.1",
+  "results_text": "Confederate victory",
+  "description": "Following the surrender of Port Hudson, two Union divisions were shifted to Donaldsonville by transports, to move inland and pacify the interior. They marched up Bayou Lafourche, a division on each bank. Confederate Brig. Gen. Tom Green posted a brigade on the east side of the bayou and placed his second brigade on the other side. As the Union forces advanced, skirmishing occurred on July 11 and 12. On the morning of the 13th, a foraging detachment set out along both banks of the bayou. Upon reaching Kock's Plantation (Saint Emma Plantation) they met Rebel skirmishers that forced them back. Then, the Confederates flung their might against the Union troops which kept retiring although they tried to make stands at various points. The Union troops eventually fell back to the protection of the guns in Fort Butler at Donaldsonville, about six miles from Kock's Plantation. A much smaller Rebel force had routed the Yankees. The expedition failed, leaving the Confederates in control of the interior.",
+  "state": "LA",
   "significance": "C",
   "other_names": [
     "Cox's Plantation"
   ],
-  "state": "LA",
-  "preservation": "IV.1",
+  "dates": "July 12-13, 1863",
+  "battle_name": "Kock's Plantation",
   "principal_commanders": "Brig. Gen. Godfrey Weitzel and Brig. Gen. Cuvier Grover [US]; Brig. Gen. Tom Green [CS]",
-  "end_date": "1863-07-13",
-  "cwsac_reference": "LA015",
-  "casualties": 463,
+  "campaign": "Taylor's Operations in West Louisiana [June-September 1863]",
+  "belligerents": {
+    "Confederate": {
+      "casualties": 33,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Tom",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Green",
+          "fullname": "Tom Green"
+        }
+      ],
+      "brigades": 1,
+      "description": "two understrength Confederate brigades"
+    },
+    "US": {
+      "casualties": 430,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Godfrey",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Weitzel",
+          "fullname": "Godfrey Weitzel"
+        },
+        {
+          "rank": "Brigadier General",
+          "first_name": "Cuvier",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Grover",
+          "fullname": "Cuvier Grover"
+        }
+      ],
+      "divisions": 2,
+      "description": "Godfrey Weitzel's and Cuvier Grover's Divisions, XIX Army Corps"
+    },
+    "CS": {
+      "casualties": 33,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Tom",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Green",
+          "fullname": "Tom Green"
+        }
+      ],
+      "brigades": 1,
+      "description": "two understrength Confederate brigades"
+    }
+  },
+  "result": "Confederate",
+  "battle": "LA015",
   "location": [
     {
-      "place": "Ascension Parish",
-      "state": "LA"
+      "state": "LA",
+      "place": "Ascension Parish"
     }
   ],
-  "battle_name": "Kock's Plantation"
+  "url": "http://www.nps.gov/hps/abpp/battles/la015.htm"
 }

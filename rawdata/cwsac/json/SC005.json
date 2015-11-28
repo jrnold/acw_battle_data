@@ -1,63 +1,110 @@
 {
-  "dates": "July 10-11, 1863",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/sc005.htm",
-  "results_text": "Confederate victory",
+  "end_date": "1863-07-11",
+  "casualties": 351,
   "casualties_text": "351 total (US 339; CS 12)",
-  "description": "On July 10, Union artillery on Folly Island together with Rear Adm. John Dahlgren's fleet of ironclads opened fire on Confederate defenses of Morris Island. The bombardment provided cover for Brig. Gen. George C. Strong's brigade, which crossed Light House Inlet and landed by boats on the southern tip of the island. Strong's troops advanced, capturing several batteries, to within range of Confederate Fort Wagner. At dawn, July 11, Strong attacked the fort. Soldiers of the 7th Connecticut reached the parapet but, unsupported, were thrown back.",
-  "start_date": "1863-07-10",
-  "forces_text": "Brigades",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": 12,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Beauregard",
-          "middle_name": "",
           "rank": "General",
+          "first_name": "P.G.T.",
           "suffix": "",
-          "fullname": "P.G.T. Beauregard",
-          "first_name": "P.G.T."
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Beauregard",
+          "fullname": "P.G.T. Beauregard"
         }
       ],
-      "brigades": 1,
-      "casualties": 12
+      "brigades": 1
     },
     "US": {
+      "casualties": 339,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Gillmore",
-          "middle_name": "",
           "rank": "Brigadier General",
+          "first_name": "Qunicy",
           "suffix": "",
-          "fullname": "Qunicy Gillmore",
-          "first_name": "Qunicy"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Gillmore",
+          "fullname": "Qunicy Gillmore"
         }
       ],
-      "brigades": 1,
-      "casualties": 339
+      "brigades": 1
     }
   },
-  "campaign": "Operations Against the Defenses of Charleston [April-September 1863]",
-  "battle": "SC005",
-  "result": "Confederate",
+  "cwsac_reference": "SC005",
+  "operation": false,
+  "forces_text": "Brigades",
+  "start_date": "1863-07-10",
+  "preservation": "IV.2",
+  "results_text": "Confederate victory",
+  "description": "On July 10, Union artillery on Folly Island together with Rear Adm. John Dahlgren's fleet of ironclads opened fire on Confederate defenses of Morris Island. The bombardment provided cover for Brig. Gen. George C. Strong's brigade, which crossed Light House Inlet and landed by boats on the southern tip of the island. Strong's troops advanced, capturing several batteries, to within range of Confederate Fort Wagner. At dawn, July 11, Strong attacked the fort. Soldiers of the 7th Connecticut reached the parapet but, unsupported, were thrown back.",
+  "state": "SC",
   "significance": "D",
   "other_names": [
     "First Assault",
     "Morris Island"
   ],
-  "state": "SC",
-  "preservation": "IV.2",
+  "dates": "July 10-11, 1863",
+  "battle_name": "Fort Wagner",
   "principal_commanders": "Brig. Gen. Qunicy Gillmore [US]; Gen. P.G.T. Beauregard [CS]",
-  "end_date": "1863-07-11",
-  "cwsac_reference": "SC005",
-  "casualties": 351,
+  "campaign": "Operations Against the Defenses of Charleston [April-September 1863]",
+  "belligerents": {
+    "Confederate": {
+      "casualties": 12,
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "P.G.T.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Beauregard",
+          "fullname": "P.G.T. Beauregard"
+        }
+      ],
+      "brigades": 1
+    },
+    "US": {
+      "casualties": 339,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Qunicy",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Gillmore",
+          "fullname": "Qunicy Gillmore"
+        }
+      ],
+      "brigades": 1
+    },
+    "CS": {
+      "casualties": 12,
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "P.G.T.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Beauregard",
+          "fullname": "P.G.T. Beauregard"
+        }
+      ],
+      "brigades": 1
+    }
+  },
+  "result": "Confederate",
+  "battle": "SC005",
   "location": [
     {
-      "place": "City of Charleston",
-      "state": "SC"
+      "state": "SC",
+      "place": "City of Charleston"
     }
   ],
-  "battle_name": "Fort Wagner"
+  "url": "http://www.nps.gov/hps/abpp/battles/sc005.htm"
 }

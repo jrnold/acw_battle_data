@@ -1,74 +1,133 @@
 {
-  "dates": "May 8, 1862",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/va102.htm",
-  "results_text": "Confederate victory",
+  "end_date": "1862-05-08",
+  "casualties": 720,
   "casualties_text": "720 (surgeon's list reports 556)",
-  "description": "From Staunton, Maj. Gen. T.J. Jackson marched his army west along the Parkersburg Road to confront two brigades of Fr\u00e9mont's force (Milroy and Schenck), advancing toward the Shenandoah Valley from western Virginia. At McDowell on May 8, Milroy seized the initiative and assaulted the Confederate position on Sitlington's Hill. The Federals were repulsed after severe fighting, lasting four hours. Afterwards, Milroy and Schenck withdrew into western Virginia, freeing up Jackson's army to march against the other Union columns threatening the Valley.",
-  "start_date": "1862-05-08",
-  "forces_text": "12,500 total (US 6,500; CS 6,000)",
-  "strength": 12500,
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Jackson",
-          "middle_name": "J.",
           "rank": "Major General",
+          "first_name": "Thomas",
           "suffix": "",
-          "fullname": "Thomas J. Jackson",
-          "first_name": "Thomas"
+          "navy": false,
+          "middle_name": "J.",
+          "last_name": "Jackson",
+          "fullname": "Thomas J. Jackson"
         }
       ],
-      "strength_max": 6000,
       "strength_min": 6000,
-      "description": "6,000"
+      "description": "6,000",
+      "strength_max": 6000
     },
     "US": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Milroy",
-          "middle_name": "",
           "rank": "Brigadier General",
+          "first_name": "Robert",
           "suffix": "",
-          "fullname": "Robert Milroy",
-          "first_name": "Robert"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Milroy",
+          "fullname": "Robert Milroy"
         },
         {
-          "navy": false,
-          "last_name": "Schenck",
-          "middle_name": "",
           "rank": "Brigadier General",
+          "first_name": "Robert",
           "suffix": "",
-          "fullname": "Robert Schenck",
-          "first_name": "Robert"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Schenck",
+          "fullname": "Robert Schenck"
         }
       ],
-      "strength_max": 6500,
       "strength_min": 6500,
-      "description": "6,500"
+      "description": "6,500",
+      "strength_max": 6500
     }
   },
-  "campaign": "Jackson's Valley Campaign [March-June 1862]",
-  "battle": "VA102",
-  "result": "Confederate",
+  "strength": 12500,
+  "cwsac_reference": "VA102",
+  "operation": false,
+  "forces_text": "12,500 total (US 6,500; CS 6,000)",
+  "start_date": "1862-05-08",
+  "preservation": "III.3",
+  "results_text": "Confederate victory",
+  "description": "From Staunton, Maj. Gen. T.J. Jackson marched his army west along the Parkersburg Road to confront two brigades of Fr\u00e9mont's force (Milroy and Schenck), advancing toward the Shenandoah Valley from western Virginia. At McDowell on May 8, Milroy seized the initiative and assaulted the Confederate position on Sitlington's Hill. The Federals were repulsed after severe fighting, lasting four hours. Afterwards, Milroy and Schenck withdrew into western Virginia, freeing up Jackson's army to march against the other Union columns threatening the Valley.",
+  "state": "VA",
   "significance": "C",
   "other_names": [
     "Sitlington's Hill"
   ],
-  "state": "VA",
-  "preservation": "III.3",
+  "dates": "May 8, 1862",
+  "battle_name": "McDowell",
   "principal_commanders": "Brig. Gen. Robert Milroy and Brig. Gen. Robert Schenck [US]; Maj. Gen. Thomas J. Jackson [CS]",
-  "end_date": "1862-05-08",
-  "cwsac_reference": "VA102",
-  "casualties": 720,
   "location": [
     {
-      "place": "Highland County",
-      "state": "VA"
+      "state": "VA",
+      "place": "Highland County"
     }
   ],
-  "battle_name": "McDowell"
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Thomas",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "J.",
+          "last_name": "Jackson",
+          "fullname": "Thomas J. Jackson"
+        }
+      ],
+      "strength_min": 6000,
+      "description": "6,000",
+      "strength_max": 6000
+    },
+    "US": {
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Robert",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Milroy",
+          "fullname": "Robert Milroy"
+        },
+        {
+          "rank": "Brigadier General",
+          "first_name": "Robert",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Schenck",
+          "fullname": "Robert Schenck"
+        }
+      ],
+      "strength_min": 6500,
+      "description": "6,500",
+      "strength_max": 6500
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Thomas",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "J.",
+          "last_name": "Jackson",
+          "fullname": "Thomas J. Jackson"
+        }
+      ],
+      "strength_min": 6000,
+      "description": "6,000",
+      "strength_max": 6000
+    }
+  },
+  "result": "Confederate",
+  "battle": "VA102",
+  "campaign": "Jackson's Valley Campaign [March-June 1862]",
+  "url": "http://www.nps.gov/hps/abpp/battles/va102.htm"
 }

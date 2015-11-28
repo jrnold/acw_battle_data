@@ -1,60 +1,104 @@
 {
-  "dates": "August 25, 1864",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/va073.htm",
-  "results_text": "Confederate victory",
+  "end_date": "1864-08-25",
+  "casualties": 3492,
   "casualties_text": "3,492 total",
-  "description": "On August 24, Union II Corps moved south along the Weldon Railroad, tearing up track, preceded by Gregg's cavalry division. On August 25, Maj. Gen. Henry Heth attacked and overran the faulty Union position at Ream's Station, capturing 9 guns, 12 colors, and many prisoners. The old II Corps was shattered. Maj. Gen. Winfield Scott Hancock withdrew to the main Union line near the Jerusalem Plank Road, bemoaning the declining combat effectiveness of his troops.",
-  "start_date": "1864-08-25",
-  "forces_text": "Corps",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "corps": 1,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Heth",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "Henry",
           "suffix": "",
-          "fullname": "Henry Heth",
-          "first_name": "Henry"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Heth",
+          "fullname": "Henry Heth"
         }
-      ],
-      "corps": 1
+      ]
     },
     "US": {
+      "corps": 1,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Hancock",
-          "middle_name": "Scott",
           "rank": "Major General",
+          "first_name": "Winfield",
           "suffix": "",
-          "fullname": "Winfield Scott Hancock",
-          "first_name": "Winfield"
+          "navy": false,
+          "middle_name": "Scott",
+          "last_name": "Hancock",
+          "fullname": "Winfield Scott Hancock"
         }
-      ],
-      "corps": 1
+      ]
     }
   },
-  "campaign": "Richmond-Petersburg Campaign [June 1864-March 1865]",
-  "battle": "VA073",
-  "result": "Confederate",
+  "cwsac_reference": "VA073",
+  "operation": false,
+  "forces_text": "Corps",
+  "start_date": "1864-08-25",
+  "preservation": "II.2",
+  "results_text": "Confederate victory",
+  "description": "On August 24, Union II Corps moved south along the Weldon Railroad, tearing up track, preceded by Gregg's cavalry division. On August 25, Maj. Gen. Henry Heth attacked and overran the faulty Union position at Ream's Station, capturing 9 guns, 12 colors, and many prisoners. The old II Corps was shattered. Maj. Gen. Winfield Scott Hancock withdrew to the main Union line near the Jerusalem Plank Road, bemoaning the declining combat effectiveness of his troops.",
+  "state": "VA",
   "significance": "B",
   "other_names": [
     "Reams' Station"
   ],
-  "state": "VA",
-  "preservation": "II.2",
+  "dates": "August 25, 1864",
+  "battle_name": "Ream's Station",
   "principal_commanders": "Maj. Gen. Winfield Scott Hancock [US]; Maj. Gen. Henry Heth [CS]",
-  "end_date": "1864-08-25",
-  "cwsac_reference": "VA073",
-  "casualties": 3492,
+  "campaign": "Richmond-Petersburg Campaign [June 1864-March 1865]",
+  "belligerents": {
+    "Confederate": {
+      "corps": 1,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Henry",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Heth",
+          "fullname": "Henry Heth"
+        }
+      ]
+    },
+    "US": {
+      "corps": 1,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Winfield",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "Scott",
+          "last_name": "Hancock",
+          "fullname": "Winfield Scott Hancock"
+        }
+      ]
+    },
+    "CS": {
+      "corps": 1,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Henry",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Heth",
+          "fullname": "Henry Heth"
+        }
+      ]
+    }
+  },
+  "result": "Confederate",
+  "battle": "VA073",
   "location": [
     {
-      "place": "Dinwiddie County",
-      "state": "VA"
+      "state": "VA",
+      "place": "Dinwiddie County"
     }
   ],
-  "battle_name": "Ream's Station"
+  "url": "http://www.nps.gov/hps/abpp/battles/va073.htm"
 }

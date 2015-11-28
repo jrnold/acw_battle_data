@@ -1,60 +1,107 @@
 {
-  "dates": "March 30-April 20, 1863",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/nc011.htm",
-  "results_text": "Inconclusive (Confederates withdrew.)",
+  "end_date": "1863-04-20",
+  "casualties": 100,
   "casualties_text": "100 total",
-  "description": "While Longstreet operated against Suffolk, D.H. Hill's column moved against the Federal garrison of Washington, North Carolina. By March 30, the town was ringed with fortifications, but the Confederates were unable to shut off supplies and reinforcements arriving by ship. After a week of confusion and mismanagement, Hill was maneuvered out of his siegeworks and withdrew on April 15.",
-  "start_date": "1863-03-30",
-  "forces_text": "6 regiments and artillery units [US]; Hill's Division [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Hill",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "D.H.",
           "suffix": "",
-          "fullname": "D.H. Hill",
-          "first_name": "D.H."
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Hill",
+          "fullname": "D.H. Hill"
         }
       ],
       "divisions": 1,
       "description": "Hill's Division"
     },
     "US": {
+      "regiments": 6,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Foster",
-          "middle_name": "G.",
           "rank": "Brigadier General",
+          "first_name": "John",
           "suffix": "",
-          "fullname": "John G. Foster",
-          "first_name": "John"
+          "navy": false,
+          "middle_name": "G.",
+          "last_name": "Foster",
+          "fullname": "John G. Foster"
         }
       ],
-      "regiments": 6,
       "description": "6 regiments and artillery units"
     }
   },
-  "campaign": "Longstreet's Tidewater Operations [March-April 1863]",
-  "battle": "NC011",
-  "result": "Inconclusive",
+  "cwsac_reference": "NC011",
+  "operation": false,
+  "forces_text": "6 regiments and artillery units [US]; Hill's Division [CS]",
+  "start_date": "1863-03-30",
+  "preservation": "IV.2",
+  "results_text": "Inconclusive (Confederates withdrew.)",
+  "description": "While Longstreet operated against Suffolk, D.H. Hill's column moved against the Federal garrison of Washington, North Carolina. By March 30, the town was ringed with fortifications, but the Confederates were unable to shut off supplies and reinforcements arriving by ship. After a week of confusion and mismanagement, Hill was maneuvered out of his siegeworks and withdrew on April 15.",
+  "state": "NC",
   "significance": "D",
   "other_names": null,
-  "state": "NC",
-  "preservation": "IV.2",
+  "dates": "March 30-April 20, 1863",
+  "battle_name": "Washington",
   "principal_commanders": "Brig. Gen. John G. Foster [US]; Maj. Gen. D.H. Hill [CS]",
-  "end_date": "1863-04-20",
-  "cwsac_reference": "NC011",
-  "casualties": 100,
+  "campaign": "Longstreet's Tidewater Operations [March-April 1863]",
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "D.H.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Hill",
+          "fullname": "D.H. Hill"
+        }
+      ],
+      "divisions": 1,
+      "description": "Hill's Division"
+    },
+    "US": {
+      "regiments": 6,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "G.",
+          "last_name": "Foster",
+          "fullname": "John G. Foster"
+        }
+      ],
+      "description": "6 regiments and artillery units"
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "D.H.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Hill",
+          "fullname": "D.H. Hill"
+        }
+      ],
+      "divisions": 1,
+      "description": "Hill's Division"
+    }
+  },
+  "result": "Inconclusive",
+  "battle": "NC011",
   "location": [
     {
-      "place": "Beaufort County",
-      "state": "NC"
+      "state": "NC",
+      "place": "Beaufort County"
     }
   ],
-  "battle_name": "Washington"
+  "url": "http://www.nps.gov/hps/abpp/battles/nc011.htm"
 }

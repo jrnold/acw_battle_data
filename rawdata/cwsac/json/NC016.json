@@ -1,49 +1,49 @@
 {
-  "dates": "February 12-22, 1865",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/nc016.htm",
-  "results_text": "Union victory",
+  "end_date": "1865-02-22",
+  "casualties": 1150,
   "casualties_text": "1,150 total",
-  "description": "With the fall of Fort Fisher to Maj. Gen. Alfred Terry's and Rear Adm. David Porter's combined operation on January 15, Wilmington's days were numbered. About 6,600 Confederate troops under Maj. Gen. Robert Hoke held Fort Anderson and a line of works that prevented the Federals from advancing up the Cape Fear River. Early February, the XXIII Corps arrived at Fort Fisher, and Maj. Gen. John Schofield took command of the Union forces. Schofield now began a series of maneuvers to force the Confederates to abandon their defenses. On February 16, Jacob Cox's division ferried across the river to confront Fort Anderson, while Porter's gunboats bombarded the fort. On February 17-18, Ames's division conducted a wide flanking march to get in the fort's rear. Seeing the trap ready to close, the Confederates evacuated Fort Anderson during the night of the 18th-19th, withdrawing to Town Creek to form a new defensive line. The next day, this line collapsed to increasing Federal pressures. During the night of February 21-22, Gen. Braxton Bragg ordered the evacuation of Wilmington, burning cotton, tobacco, and government stores.",
-  "start_date": "1865-02-12",
-  "forces_text": "Cox's, Ames's, and Paine's Divisions (12,000) [US]; Hoke's Division, Hagood's Brigade (6,600) [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Bragg",
-          "middle_name": "",
           "rank": "General",
+          "first_name": "Braxton",
           "suffix": "",
-          "fullname": "Braxton Bragg",
-          "first_name": "Braxton"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Bragg",
+          "fullname": "Braxton Bragg"
         }
       ],
-      "strength_max": 6600,
       "strength_min": 6600,
-      "description": "Hoke's Division, Hagood's Brigade (6,600)"
+      "description": "Hoke's Division, Hagood's Brigade (6,600)",
+      "strength_max": 6600
     },
     "US": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Schofield",
-          "middle_name": "M.",
           "rank": "Major General",
+          "first_name": "John",
           "suffix": "",
-          "fullname": "John M. Schofield",
-          "first_name": "John"
+          "navy": false,
+          "middle_name": "M.",
+          "last_name": "Schofield",
+          "fullname": "John M. Schofield"
         }
       ],
-      "strength_max": 12000,
       "strength_min": 12000,
-      "description": "Cox's, Ames's, and Paine's Divisions (12,000)"
+      "description": "Cox's, Ames's, and Paine's Divisions (12,000)",
+      "strength_max": 12000
     }
   },
-  "campaign": "Operations Against Fort Fisher and Wilmington [January-February 1865]",
-  "battle": "NC016",
-  "result": "Union",
+  "cwsac_reference": "NC016",
+  "operation": false,
+  "forces_text": "Cox's, Ames's, and Paine's Divisions (12,000) [US]; Hoke's Division, Hagood's Brigade (6,600) [CS]",
+  "start_date": "1865-02-12",
+  "preservation": "IV.2",
+  "results_text": "Union victory",
+  "description": "With the fall of Fort Fisher to Maj. Gen. Alfred Terry's and Rear Adm. David Porter's combined operation on January 15, Wilmington's days were numbered. About 6,600 Confederate troops under Maj. Gen. Robert Hoke held Fort Anderson and a line of works that prevented the Federals from advancing up the Cape Fear River. Early February, the XXIII Corps arrived at Fort Fisher, and Maj. Gen. John Schofield took command of the Union forces. Schofield now began a series of maneuvers to force the Confederates to abandon their defenses. On February 16, Jacob Cox's division ferried across the river to confront Fort Anderson, while Porter's gunboats bombarded the fort. On February 17-18, Ames's division conducted a wide flanking march to get in the fort's rear. Seeing the trap ready to close, the Confederates evacuated Fort Anderson during the night of the 18th-19th, withdrawing to Town Creek to form a new defensive line. The next day, this line collapsed to increasing Federal pressures. During the night of February 21-22, Gen. Braxton Bragg ordered the evacuation of Wilmington, burning cotton, tobacco, and government stores.",
+  "state": "NC",
   "significance": "D",
   "other_names": [
     "Fort Anderson",
@@ -51,17 +51,67 @@
     "Forks Road",
     "Sugar Loaf Hill"
   ],
-  "state": "NC",
-  "preservation": "IV.2",
+  "dates": "February 12-22, 1865",
+  "battle_name": "Wilmington",
   "principal_commanders": "Maj. Gen. John M. Schofield [US]; Gen. Braxton Bragg [CS]",
-  "end_date": "1865-02-22",
-  "cwsac_reference": "NC016",
-  "casualties": 1150,
+  "campaign": "Operations Against Fort Fisher and Wilmington [January-February 1865]",
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "Braxton",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Bragg",
+          "fullname": "Braxton Bragg"
+        }
+      ],
+      "strength_min": 6600,
+      "description": "Hoke's Division, Hagood's Brigade (6,600)",
+      "strength_max": 6600
+    },
+    "US": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "M.",
+          "last_name": "Schofield",
+          "fullname": "John M. Schofield"
+        }
+      ],
+      "strength_min": 12000,
+      "description": "Cox's, Ames's, and Paine's Divisions (12,000)",
+      "strength_max": 12000
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "Braxton",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Bragg",
+          "fullname": "Braxton Bragg"
+        }
+      ],
+      "strength_min": 6600,
+      "description": "Hoke's Division, Hagood's Brigade (6,600)",
+      "strength_max": 6600
+    }
+  },
+  "result": "Union",
+  "battle": "NC016",
   "location": [
     {
-      "place": "New Hanover County",
-      "state": "NC"
+      "state": "NC",
+      "place": "New Hanover County"
     }
   ],
-  "battle_name": "Wilmington"
+  "url": "http://www.nps.gov/hps/abpp/battles/nc016.htm"
 }

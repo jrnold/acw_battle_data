@@ -1,60 +1,107 @@
 {
-  "dates": "April 30, 1864",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/ar016.htm",
-  "results_text": "Union victory in retreat",
+  "end_date": "1864-04-30",
+  "casualties": 964,
   "casualties_text": "964 total (US 521; CS 443)",
-  "description": "Maj. Gen. Fred Steele's forces retreated from Camden after being mauled at Marks' Mills and Poison Spring. On the afternoon of April 29, the Union forces reached Jenkins' Ferry and began crossing the Saline River, which was swollen by heavy rain. Rebel forces arrived on the 30th and attacked repeatedly. The Federals repulsed the attacks and finally crossed with all their men and supply wagons, many of which they were compelled to abandon in the swamp north of Saline. The Confederates bungled a good chance to destroy Steele's army, which after crossing the river, regrouped at Little Rock.",
-  "start_date": "1864-04-30",
-  "forces_text": "Department of Arkansas [US]; Army of Arkansas [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": 443,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Smith",
-          "middle_name": "Kirby",
           "rank": "General",
+          "first_name": "E.",
           "suffix": "",
-          "fullname": "E. Kirby Smith",
-          "first_name": "E."
+          "navy": false,
+          "middle_name": "Kirby",
+          "last_name": "Smith",
+          "fullname": "E. Kirby Smith"
         }
       ],
-      "description": "Army of Arkansas",
-      "casualties": 443
+      "description": "Army of Arkansas"
     },
     "US": {
+      "casualties": 521,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Steele",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "Frederick",
           "suffix": "",
-          "fullname": "Frederick Steele",
-          "first_name": "Frederick"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Steele",
+          "fullname": "Frederick Steele"
         }
       ],
-      "description": "Department of Arkansas",
-      "casualties": 521
+      "description": "Department of Arkansas"
     }
   },
-  "campaign": "Camden Expedition [April 1864]",
-  "battle": "AR016",
-  "result": "Union",
+  "cwsac_reference": "AR016",
+  "operation": false,
+  "forces_text": "Department of Arkansas [US]; Army of Arkansas [CS]",
+  "start_date": "1864-04-30",
+  "preservation": "III.3",
+  "results_text": "Union victory in retreat",
+  "description": "Maj. Gen. Fred Steele's forces retreated from Camden after being mauled at Marks' Mills and Poison Spring. On the afternoon of April 29, the Union forces reached Jenkins' Ferry and began crossing the Saline River, which was swollen by heavy rain. Rebel forces arrived on the 30th and attacked repeatedly. The Federals repulsed the attacks and finally crossed with all their men and supply wagons, many of which they were compelled to abandon in the swamp north of Saline. The Confederates bungled a good chance to destroy Steele's army, which after crossing the river, regrouped at Little Rock.",
+  "state": "AR",
   "significance": "C",
   "other_names": null,
-  "state": "AR",
-  "preservation": "III.3",
+  "dates": "April 30, 1864",
+  "battle_name": "Jenkins' Ferry",
   "principal_commanders": "Maj. Gen. Frederick Steele [US]; Gen. E. Kirby Smith [CS]",
-  "end_date": "1864-04-30",
-  "cwsac_reference": "AR016",
-  "casualties": 964,
+  "campaign": "Camden Expedition [April 1864]",
+  "belligerents": {
+    "Confederate": {
+      "casualties": 443,
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "E.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "Kirby",
+          "last_name": "Smith",
+          "fullname": "E. Kirby Smith"
+        }
+      ],
+      "description": "Army of Arkansas"
+    },
+    "US": {
+      "casualties": 521,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Frederick",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Steele",
+          "fullname": "Frederick Steele"
+        }
+      ],
+      "description": "Department of Arkansas"
+    },
+    "CS": {
+      "casualties": 443,
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "E.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "Kirby",
+          "last_name": "Smith",
+          "fullname": "E. Kirby Smith"
+        }
+      ],
+      "description": "Army of Arkansas"
+    }
+  },
+  "result": "Union",
+  "battle": "AR016",
   "location": [
     {
-      "place": "Grant County",
-      "state": "AR"
+      "state": "AR",
+      "place": "Grant County"
     }
   ],
-  "battle_name": "Jenkins' Ferry"
+  "url": "http://www.nps.gov/hps/abpp/battles/ar016.htm"
 }

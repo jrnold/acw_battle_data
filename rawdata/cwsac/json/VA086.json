@@ -1,72 +1,140 @@
 {
-  "dates": "March 31, 1865",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/va086.htm",
-  "results_text": "Confederate victory",
+  "end_date": "1865-03-31",
+  "casualties": 821,
   "casualties_text": "821 total",
-  "description": "On March 29, with the Cavalry Corps and the II and V Corps, Sheridan undertook a flank march to turn Gen. Robert E. Lee's Petersburg defenses. A steady downpour turned the roads to mud, slowing the advance. On March 31, Maj. Gen. W.H. Fitzhugh Lee's cavalry and Pickett's infantry division met the Union vanguard north and northwest of Dinwiddie Court House and drove it back, temporarily stalling Sheridan's movement. With Union infantry approaching from the east, Pickett withdrew before daybreak to entrench at the vital road junction at Five Forks. Lee ordered Pickett to hold this intersection at all hazard.",
-  "start_date": "1865-03-31",
-  "forces_text": "65,277 total (US 45,247; CS 20,030)",
-  "strength": 65277,
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Pickett",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "George",
           "suffix": "",
-          "fullname": "George Pickett",
-          "first_name": "George"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Pickett",
+          "fullname": "George Pickett"
         },
         {
-          "navy": false,
-          "last_name": "Lee",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "Fitzhugh",
           "suffix": "",
-          "fullname": "Fitzhugh Lee",
-          "first_name": "Fitzhugh"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Lee",
+          "fullname": "Fitzhugh Lee"
         }
       ],
-      "strength_max": 20030,
       "strength_min": 20030,
-      "description": "20,030"
+      "description": "20,030",
+      "strength_max": 20030
     },
     "US": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Sheridan",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "Philip",
           "suffix": "",
-          "fullname": "Philip Sheridan",
-          "first_name": "Philip"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Sheridan",
+          "fullname": "Philip Sheridan"
         }
       ],
-      "strength_max": 45247,
       "strength_min": 45247,
-      "description": "45,247"
+      "description": "45,247",
+      "strength_max": 45247
     }
   },
-  "campaign": "Appomattox Campaign [March-April 1865]",
-  "battle": "VA086",
-  "result": "Confederate",
+  "strength": 65277,
+  "cwsac_reference": "VA086",
+  "operation": false,
+  "forces_text": "65,277 total (US 45,247; CS 20,030)",
+  "start_date": "1865-03-31",
+  "preservation": "II.3",
+  "results_text": "Confederate victory",
+  "description": "On March 29, with the Cavalry Corps and the II and V Corps, Sheridan undertook a flank march to turn Gen. Robert E. Lee's Petersburg defenses. A steady downpour turned the roads to mud, slowing the advance. On March 31, Maj. Gen. W.H. Fitzhugh Lee's cavalry and Pickett's infantry division met the Union vanguard north and northwest of Dinwiddie Court House and drove it back, temporarily stalling Sheridan's movement. With Union infantry approaching from the east, Pickett withdrew before daybreak to entrench at the vital road junction at Five Forks. Lee ordered Pickett to hold this intersection at all hazard.",
+  "state": "VA",
   "significance": "C",
   "other_names": null,
-  "state": "VA",
-  "preservation": "II.3",
+  "dates": "March 31, 1865",
+  "battle_name": "Dinwiddie Court House",
   "principal_commanders": "Maj. Gen. Philip Sheridan [US]; Maj. Gen. George Pickett and Maj. Gen. Fitzhugh Lee [CS]",
-  "end_date": "1865-03-31",
-  "cwsac_reference": "VA086",
-  "casualties": 821,
   "location": [
     {
-      "place": "Dinwiddie County",
-      "state": "VA"
+      "state": "VA",
+      "place": "Dinwiddie County"
     }
   ],
-  "battle_name": "Dinwiddie Court House"
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "George",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Pickett",
+          "fullname": "George Pickett"
+        },
+        {
+          "rank": "Major General",
+          "first_name": "Fitzhugh",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Lee",
+          "fullname": "Fitzhugh Lee"
+        }
+      ],
+      "strength_min": 20030,
+      "description": "20,030",
+      "strength_max": 20030
+    },
+    "US": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Philip",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Sheridan",
+          "fullname": "Philip Sheridan"
+        }
+      ],
+      "strength_min": 45247,
+      "description": "45,247",
+      "strength_max": 45247
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "George",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Pickett",
+          "fullname": "George Pickett"
+        },
+        {
+          "rank": "Major General",
+          "first_name": "Fitzhugh",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Lee",
+          "fullname": "Fitzhugh Lee"
+        }
+      ],
+      "strength_min": 20030,
+      "description": "20,030",
+      "strength_max": 20030
+    }
+  },
+  "result": "Confederate",
+  "battle": "VA086",
+  "campaign": "Appomattox Campaign [March-April 1865]",
+  "url": "http://www.nps.gov/hps/abpp/battles/va086.htm"
 }

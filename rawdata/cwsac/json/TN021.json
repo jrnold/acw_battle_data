@@ -1,69 +1,120 @@
 {
-  "dates": "October 28-29, 1863",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/tn021.htm",
-  "results_text": "Union victory",
+  "end_date": "1863-10-29",
+  "casualties": 828,
   "casualties_text": "828 total (US 420; CS 408)",
-  "description": "In an effort to relieve Union forces besieged in Chattanooga, Maj. Gen. George H. Thomas and Maj. Gen. Ulysses S. Grant initiated the \"Cracker Line Operation\" on October 26, 1863. This operation required the opening of the road to Chattanooga from Brown's Ferry on the Tennessee River with a simultaneous advance up Lookout Valley, securing the Kelley's Ferry Road. Union Chief Engineer, Military Division of the Mississippi, Brig. Gen. William F. \"Baldy\" Smith, with Brig. Gen. John B. Turchin's and Brig. Gen. William B. Hazen's 1st and 2nd brigades, 3rd Division, IV Army Corps, was assigned the task of establishing the Brown's Ferry bridgehead. Meanwhile, Maj. Gen. Joseph Hooker, with three divisions, marched from Bridgeport through Lookout Valley towards Brown's Ferry from the south. At 3:00 am, on October 27, portions of Hazen's brigade embarked upon pontoons and floated around Moccasin Bend to Brown's Ferry. Turchin's brigade took a position on Moccasin Bend across from Brown's Ferry. Upon landing, Hazen secured the bridgehead and then positioned a pontoon bridge across the river, allowing Turchin to cross and take position on his right. Hooker, while his force passed through Lookout Valley on October 28, detached Brig. Gen. John W. Geary's division at Wauhatchie Station, a stop on the Nashville & Chattanooga Railroad, to protect the line of communications to the south as well as the road west to Kelley's Ferry. Observing the Union movements on the 27th and 28th, Confederate Lt. Gen. James Longstreet and Gen. Braxton Bragg decided to mount a night attack on Wauhatchie Station. Although the attack was scheduled for 10:00 pm on the night of October 28, confusion delayed it till midnight. Surprised by the attack, Geary's division, at Wauhatchie Station, formed into a V-shaped battle line. Hearing the din of battle, Hooker, at Brown's Ferry, sent Maj. Gen. Oliver Otis Howard with two XI Army Corps divisions to Wauhatchie Station as reinforcements. As more and more Union troops arrived, the Confederates fell back to Lookout Mountain. The Federals now had their window to the outside and could receive supplies, weapons, ammunition, and reinforcements via the Cracker Line. Relatively few night engagements occurred during the Civil War; Wauhatchie is one of the most significant.",
-  "start_date": "1863-10-28",
-  "forces_text": "XI Army Corps and 2nd Division, XII Army Corps [US]; Hood's Division [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": 408,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Jenkins",
-          "middle_name": "",
           "rank": "Brigadier General",
+          "first_name": "Micah",
           "suffix": "",
-          "fullname": "Micah Jenkins",
-          "first_name": "Micah"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Jenkins",
+          "fullname": "Micah Jenkins"
         }
       ],
       "divisions": 1,
-      "description": "Hood's Division",
-      "casualties": 408
+      "description": "Hood's Division"
     },
     "US": {
+      "corps": 1,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Hooker",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "Joseph",
           "suffix": "",
-          "fullname": "Joseph Hooker",
-          "first_name": "Joseph"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Hooker",
+          "fullname": "Joseph Hooker"
         }
       ],
       "divisions": 1,
       "description": "XI Army Corps and 2nd Division, XII Army Corps",
-      "corps": 1,
       "casualties": 420
     }
   },
-  "campaign": "Reopening the Tennessee River [October 1863]",
-  "battle": "TN021",
-  "result": "Union",
+  "cwsac_reference": "TN021",
+  "operation": false,
+  "forces_text": "XI Army Corps and 2nd Division, XII Army Corps [US]; Hood's Division [CS]",
+  "start_date": "1863-10-28",
+  "preservation": "IV.2",
+  "results_text": "Union victory",
+  "description": "In an effort to relieve Union forces besieged in Chattanooga, Maj. Gen. George H. Thomas and Maj. Gen. Ulysses S. Grant initiated the \"Cracker Line Operation\" on October 26, 1863. This operation required the opening of the road to Chattanooga from Brown's Ferry on the Tennessee River with a simultaneous advance up Lookout Valley, securing the Kelley's Ferry Road. Union Chief Engineer, Military Division of the Mississippi, Brig. Gen. William F. \"Baldy\" Smith, with Brig. Gen. John B. Turchin's and Brig. Gen. William B. Hazen's 1st and 2nd brigades, 3rd Division, IV Army Corps, was assigned the task of establishing the Brown's Ferry bridgehead. Meanwhile, Maj. Gen. Joseph Hooker, with three divisions, marched from Bridgeport through Lookout Valley towards Brown's Ferry from the south. At 3:00 am, on October 27, portions of Hazen's brigade embarked upon pontoons and floated around Moccasin Bend to Brown's Ferry. Turchin's brigade took a position on Moccasin Bend across from Brown's Ferry. Upon landing, Hazen secured the bridgehead and then positioned a pontoon bridge across the river, allowing Turchin to cross and take position on his right. Hooker, while his force passed through Lookout Valley on October 28, detached Brig. Gen. John W. Geary's division at Wauhatchie Station, a stop on the Nashville & Chattanooga Railroad, to protect the line of communications to the south as well as the road west to Kelley's Ferry. Observing the Union movements on the 27th and 28th, Confederate Lt. Gen. James Longstreet and Gen. Braxton Bragg decided to mount a night attack on Wauhatchie Station. Although the attack was scheduled for 10:00 pm on the night of October 28, confusion delayed it till midnight. Surprised by the attack, Geary's division, at Wauhatchie Station, formed into a V-shaped battle line. Hearing the din of battle, Hooker, at Brown's Ferry, sent Maj. Gen. Oliver Otis Howard with two XI Army Corps divisions to Wauhatchie Station as reinforcements. As more and more Union troops arrived, the Confederates fell back to Lookout Mountain. The Federals now had their window to the outside and could receive supplies, weapons, ammunition, and reinforcements via the Cracker Line. Relatively few night engagements occurred during the Civil War; Wauhatchie is one of the most significant.",
+  "state": "TN",
   "significance": "B",
   "other_names": [
     "Brown's Ferry"
   ],
-  "state": "TN",
-  "preservation": "IV.2",
+  "dates": "October 28-29, 1863",
+  "battle_name": "Wauhatchie",
   "principal_commanders": "Maj. Gen. Joseph Hooker [US]; Brig. Gen. Micah Jenkins [CS]",
-  "end_date": "1863-10-29",
-  "cwsac_reference": "TN021",
-  "casualties": 828,
+  "campaign": "Reopening the Tennessee River [October 1863]",
+  "belligerents": {
+    "Confederate": {
+      "casualties": 408,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Micah",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Jenkins",
+          "fullname": "Micah Jenkins"
+        }
+      ],
+      "divisions": 1,
+      "description": "Hood's Division"
+    },
+    "US": {
+      "corps": 1,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Joseph",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Hooker",
+          "fullname": "Joseph Hooker"
+        }
+      ],
+      "divisions": 1,
+      "description": "XI Army Corps and 2nd Division, XII Army Corps",
+      "casualties": 420
+    },
+    "CS": {
+      "casualties": 408,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Micah",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Jenkins",
+          "fullname": "Micah Jenkins"
+        }
+      ],
+      "divisions": 1,
+      "description": "Hood's Division"
+    }
+  },
+  "result": "Union",
+  "battle": "TN021",
   "location": [
     {
-      "place": "Hamilton County Marion County",
-      "state": "TN"
+      "state": "TN",
+      "place": "Hamilton County Marion County"
     },
     {
-      "place": "Dade County",
-      "state": "TN"
+      "state": "TN",
+      "place": "Dade County"
     }
   ],
-  "battle_name": "Wauhatchie"
+  "url": "http://www.nps.gov/hps/abpp/battles/tn021.htm"
 }

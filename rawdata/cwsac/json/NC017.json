@@ -1,52 +1,52 @@
 {
-  "dates": "March 7-10, 1865",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/nc017.htm",
-  "results_text": "Union victory",
+  "end_date": "1865-03-10",
+  "casualties": 2601,
   "casualties_text": "2,601 total (US 1,101; CS 1,500)",
-  "description": "Schofield planned to advance inland from Wilmington in February, at the same time assigning Maj. Gen. Jacob Cox to direct Union forces from New Berne toward Goldsboro. On March 7, Cox's advance was stopped by Hoke's and Hagood's divisions under Gen. Braxton Bragg's command at Southwest Creek below Kinston. On the 8th, the Confederates attempted to seize the initiative by attacking the Union flanks. After initial success, the Confederate attacks stalled because of faulty communications. On March 9, the Union forces were reinforced and beat back Bragg's renewed attacks on the 10th after heavy fighting. Bragg withdrew across the Neuse River and was unable to prevent the fall of Kinston on March 14.",
-  "start_date": "1865-03-07",
-  "forces_text": "Divisions: 20,500 total (US 12,000; CS 8,500)",
-  "strength": 20500,
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": 1500,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Bragg",
-          "middle_name": "",
           "rank": "General",
+          "first_name": "Braxton",
           "suffix": "",
-          "fullname": "Braxton Bragg",
-          "first_name": "Braxton"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Bragg",
+          "fullname": "Braxton Bragg"
         }
       ],
       "description": "8,500",
-      "strength_max": 8500,
       "strength_min": 8500,
-      "casualties": 1500
+      "strength_max": 8500
     },
     "US": {
+      "casualties": 1101,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Schofield",
-          "middle_name": "M.",
           "rank": "Major General",
+          "first_name": "John",
           "suffix": "",
-          "fullname": "John M. Schofield",
-          "first_name": "John"
+          "navy": false,
+          "middle_name": "M.",
+          "last_name": "Schofield",
+          "fullname": "John M. Schofield"
         }
       ],
       "description": "12,000",
-      "strength_max": 12000,
       "strength_min": 12000,
-      "casualties": 1101
+      "strength_max": 12000
     }
   },
-  "campaign": "Carolinas Campaign [February-March 1865]",
-  "battle": "NC017",
-  "result": "Union",
+  "strength": 20500,
+  "cwsac_reference": "NC017",
+  "operation": false,
+  "forces_text": "Divisions: 20,500 total (US 12,000; CS 8,500)",
+  "start_date": "1865-03-07",
+  "preservation": "II.4",
+  "results_text": "Union victory",
+  "description": "Schofield planned to advance inland from Wilmington in February, at the same time assigning Maj. Gen. Jacob Cox to direct Union forces from New Berne toward Goldsboro. On March 7, Cox's advance was stopped by Hoke's and Hagood's divisions under Gen. Braxton Bragg's command at Southwest Creek below Kinston. On the 8th, the Confederates attempted to seize the initiative by attacking the Union flanks. After initial success, the Confederate attacks stalled because of faulty communications. On March 9, the Union forces were reinforced and beat back Bragg's renewed attacks on the 10th after heavy fighting. Bragg withdrew across the Neuse River and was unable to prevent the fall of Kinston on March 14.",
+  "state": "NC",
   "significance": "D",
   "other_names": [
     "Wilcox's Bridge",
@@ -55,17 +55,70 @@
     "Second Southwest Creek",
     "Kelly's Mill Pond"
   ],
-  "state": "NC",
-  "preservation": "II.4",
+  "dates": "March 7-10, 1865",
+  "battle_name": "Wyse Fork",
   "principal_commanders": "Maj. Gen. John M. Schofield [US]; Gen. Braxton Bragg [CS]",
-  "end_date": "1865-03-10",
-  "cwsac_reference": "NC017",
-  "casualties": 2601,
   "location": [
     {
-      "place": "Lenoir County",
-      "state": "NC"
+      "state": "NC",
+      "place": "Lenoir County"
     }
   ],
-  "battle_name": "Wyse Fork"
+  "belligerents": {
+    "Confederate": {
+      "casualties": 1500,
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "Braxton",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Bragg",
+          "fullname": "Braxton Bragg"
+        }
+      ],
+      "description": "8,500",
+      "strength_min": 8500,
+      "strength_max": 8500
+    },
+    "US": {
+      "casualties": 1101,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "M.",
+          "last_name": "Schofield",
+          "fullname": "John M. Schofield"
+        }
+      ],
+      "description": "12,000",
+      "strength_min": 12000,
+      "strength_max": 12000
+    },
+    "CS": {
+      "casualties": 1500,
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "Braxton",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Bragg",
+          "fullname": "Braxton Bragg"
+        }
+      ],
+      "description": "8,500",
+      "strength_min": 8500,
+      "strength_max": 8500
+    }
+  },
+  "result": "Union",
+  "battle": "NC017",
+  "campaign": "Carolinas Campaign [February-March 1865]",
+  "url": "http://www.nps.gov/hps/abpp/battles/nc017.htm"
 }

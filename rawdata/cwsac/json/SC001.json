@@ -1,65 +1,118 @@
 {
-  "dates": "April 12-14, 1861",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/sc001.htm",
-  "results_text": "Confederate victory",
+  "end_date": "1861-04-14",
+  "casualties": 0,
   "casualties_text": "None",
-  "description": "On April 10, 1861, Brig. Gen. Beauregard, in command of the provisional Confederate forces at Charleston, South Carolina, demanded the surrender of the Union garrison of Fort Sumter in Charleston Harbor. Garrison commander Anderson refused. On April 12, Confederate batteries opened fire on the fort, which was unable to reply effectively. At 2:30 pm, April 13, Major Anderson surrendered Fort Sumter, evacuating the garrison on the following day. The bombardment of Fort Sumter was the opening engagement of the American Civil War. Although there were no casualties during the bombardment, one Union artillerist was killed and three wounded (one mortally) when a cannon exploded prematurely while firing a salute during the evacuation on April 14.",
-  "start_date": "1861-04-12",
-  "forces_text": "Regiments: 580 total (US 80; CS 500)",
-  "strength": 580,
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": 0,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Beauregard",
-          "middle_name": "",
           "rank": "Brigadier General",
+          "first_name": "P.G.T.",
           "suffix": "",
-          "fullname": "P.G.T. Beauregard",
-          "first_name": "P.G.T."
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Beauregard",
+          "fullname": "P.G.T. Beauregard"
         }
       ],
       "description": "500",
-      "strength_max": 500,
       "strength_min": 500,
-      "casualties": 0
+      "strength_max": 500
     },
     "US": {
+      "casualties": 0,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Anderson",
-          "middle_name": "",
           "rank": "Major",
+          "first_name": "Robert",
           "suffix": "",
-          "fullname": "Robert Anderson",
-          "first_name": "Robert"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Anderson",
+          "fullname": "Robert Anderson"
         }
       ],
       "description": "80",
-      "strength_max": 80,
       "strength_min": 80,
-      "casualties": 0
+      "strength_max": 80
     }
   },
-  "campaign": "Operations in Charleston Harbor [April 1861]",
-  "battle": "SC001",
-  "result": "Confederate",
+  "strength": 580,
+  "cwsac_reference": "SC001",
+  "operation": false,
+  "forces_text": "Regiments: 580 total (US 80; CS 500)",
+  "start_date": "1861-04-12",
+  "preservation": "III.1",
+  "results_text": "Confederate victory",
+  "description": "On April 10, 1861, Brig. Gen. Beauregard, in command of the provisional Confederate forces at Charleston, South Carolina, demanded the surrender of the Union garrison of Fort Sumter in Charleston Harbor. Garrison commander Anderson refused. On April 12, Confederate batteries opened fire on the fort, which was unable to reply effectively. At 2:30 pm, April 13, Major Anderson surrendered Fort Sumter, evacuating the garrison on the following day. The bombardment of Fort Sumter was the opening engagement of the American Civil War. Although there were no casualties during the bombardment, one Union artillerist was killed and three wounded (one mortally) when a cannon exploded prematurely while firing a salute during the evacuation on April 14.",
+  "state": "SC",
   "significance": "A",
   "other_names": null,
-  "state": "SC",
-  "preservation": "III.1",
+  "dates": "April 12-14, 1861",
+  "battle_name": "Fort Sumter",
   "principal_commanders": "Maj. Robert Anderson [US]; Brig. Gen. P.G.T. Beauregard [CS]",
-  "end_date": "1861-04-14",
-  "cwsac_reference": "SC001",
-  "casualties": 0,
   "location": [
     {
-      "place": "Charleston County",
-      "state": "SC"
+      "state": "SC",
+      "place": "Charleston County"
     }
   ],
-  "battle_name": "Fort Sumter"
+  "belligerents": {
+    "Confederate": {
+      "casualties": 0,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "P.G.T.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Beauregard",
+          "fullname": "P.G.T. Beauregard"
+        }
+      ],
+      "description": "500",
+      "strength_min": 500,
+      "strength_max": 500
+    },
+    "US": {
+      "casualties": 0,
+      "commanders": [
+        {
+          "rank": "Major",
+          "first_name": "Robert",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Anderson",
+          "fullname": "Robert Anderson"
+        }
+      ],
+      "description": "80",
+      "strength_min": 80,
+      "strength_max": 80
+    },
+    "CS": {
+      "casualties": 0,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "P.G.T.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Beauregard",
+          "fullname": "P.G.T. Beauregard"
+        }
+      ],
+      "description": "500",
+      "strength_min": 500,
+      "strength_max": 500
+    }
+  },
+  "result": "Confederate",
+  "battle": "SC001",
+  "campaign": "Operations in Charleston Harbor [April 1861]",
+  "url": "http://www.nps.gov/hps/abpp/battles/sc001.htm"
 }

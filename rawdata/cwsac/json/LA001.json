@@ -1,69 +1,134 @@
 {
-  "dates": "April 16-28, 1862",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/la001.htm",
-  "results_text": "Union victory",
+  "end_date": "1862-04-28",
+  "casualties": 1011,
   "casualties_text": "1,011 total (US 229; CS 782)",
-  "description": "Early Union plans had called for the division of the Confederacy by seizing control of the Mississippi River. One of the first steps in such operations was to enter the mouth of the Mississippi River, ascend to New Orleans and capture the city, closing off the entrance to Rebel ships. In mid-January 1862, Flag-Officer David G. Farragut undertook this enterprise with his West Gulf Blockading Squadron. The way was soon open except for the two forts, Jackson and St. Philip, above the Head of the Passes, approximately seventy miles below New Orleans. In addition to the forts and their armament, the Confederates had placed obstructions in the river and there were a number of ships, including two ironclads, to assist in the defense. Farragut based his operations from Ship Island, Mississippi, and on April 8, he assembled 24 of his vessels and Comdr. David D. Porter's 19 mortar schooners near the Head of the Passes. Starting on the 16th and continuing for seven days, the mortar schooners bombarded Fort Jackson but failed to silence its guns. Some of Farragut's gunboats opened a way through the obstruction on the night of the 22nd. Early on the morning of the 24th, Farragut sent his ships north to pass the forts and head for New Orleans. Although the Rebels attempted to stop the Union ships in various ways, most of the force successfully passed the forts and continued on to New Orleans where Farragut accepted the city's surrender. With the passage of the forts, nothing could stop the Union forces: the fall of New Orleans was inevitable and anti-climatic. Cut off and surrounded, the garrisons of the two forts surrendered on the 28th.",
-  "start_date": "1862-04-16",
-  "forces_text": "West Gulf Blockading Squadron [US]; Garrisons of Forts Jackson and St. Philip and the crews of various ships [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": 782,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Duncan",
-          "middle_name": "K.",
           "rank": "Brigadier General",
+          "first_name": "Johnson",
           "suffix": "",
-          "fullname": "Johnson K. Duncan",
-          "first_name": "Johnson"
+          "navy": false,
+          "middle_name": "K.",
+          "last_name": "Duncan",
+          "fullname": "Johnson K. Duncan"
         },
         {
-          "navy": true,
-          "last_name": "Mitchell",
-          "middle_name": "K.",
           "rank": "Commander",
+          "first_name": "John",
           "suffix": "",
-          "fullname": "John K. Mitchell",
-          "first_name": "John"
+          "navy": true,
+          "middle_name": "K.",
+          "last_name": "Mitchell",
+          "fullname": "John K. Mitchell"
         }
       ],
-      "description": "Garrisons of Forts Jackson and St. Philip and the crews of various ships",
-      "casualties": 782
+      "description": "Garrisons of Forts Jackson and St. Philip and the crews of various ships"
     },
     "US": {
+      "casualties": 229,
       "commanders": [
         {
-          "navy": true,
-          "last_name": "Farragut",
-          "middle_name": "G.",
           "rank": "Flag Officer",
+          "first_name": "David",
           "suffix": "",
-          "fullname": "David G. Farragut",
-          "first_name": "David"
+          "navy": true,
+          "middle_name": "G.",
+          "last_name": "Farragut",
+          "fullname": "David G. Farragut"
         }
       ],
-      "description": "West Gulf Blockading Squadron",
-      "casualties": 229
+      "description": "West Gulf Blockading Squadron"
     }
   },
-  "campaign": "Expedition to, and Capture of, New Orleans [April-May 1862]",
-  "battle": "LA001",
-  "result": "Union",
+  "cwsac_reference": "LA001",
+  "operation": false,
+  "forces_text": "West Gulf Blockading Squadron [US]; Garrisons of Forts Jackson and St. Philip and the crews of various ships [CS]",
+  "start_date": "1862-04-16",
+  "preservation": "IV.1",
+  "results_text": "Union victory",
+  "description": "Early Union plans had called for the division of the Confederacy by seizing control of the Mississippi River. One of the first steps in such operations was to enter the mouth of the Mississippi River, ascend to New Orleans and capture the city, closing off the entrance to Rebel ships. In mid-January 1862, Flag-Officer David G. Farragut undertook this enterprise with his West Gulf Blockading Squadron. The way was soon open except for the two forts, Jackson and St. Philip, above the Head of the Passes, approximately seventy miles below New Orleans. In addition to the forts and their armament, the Confederates had placed obstructions in the river and there were a number of ships, including two ironclads, to assist in the defense. Farragut based his operations from Ship Island, Mississippi, and on April 8, he assembled 24 of his vessels and Comdr. David D. Porter's 19 mortar schooners near the Head of the Passes. Starting on the 16th and continuing for seven days, the mortar schooners bombarded Fort Jackson but failed to silence its guns. Some of Farragut's gunboats opened a way through the obstruction on the night of the 22nd. Early on the morning of the 24th, Farragut sent his ships north to pass the forts and head for New Orleans. Although the Rebels attempted to stop the Union ships in various ways, most of the force successfully passed the forts and continued on to New Orleans where Farragut accepted the city's surrender. With the passage of the forts, nothing could stop the Union forces: the fall of New Orleans was inevitable and anti-climatic. Cut off and surrounded, the garrisons of the two forts surrendered on the 28th.",
+  "state": "LA",
   "significance": "A",
   "other_names": null,
-  "state": "LA",
-  "preservation": "IV.1",
+  "dates": "April 16-28, 1862",
+  "battle_name": "Forts Jackson and St. Philip",
   "principal_commanders": "Flag-Officer David G. Farragut [US]; Brig. Gen. Johnson K. Duncan and Cdr. John K. Mitchell [CS]",
-  "end_date": "1862-04-28",
-  "cwsac_reference": "LA001",
-  "casualties": 1011,
+  "campaign": "Expedition to, and Capture of, New Orleans [April-May 1862]",
+  "belligerents": {
+    "Confederate": {
+      "casualties": 782,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Johnson",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "K.",
+          "last_name": "Duncan",
+          "fullname": "Johnson K. Duncan"
+        },
+        {
+          "rank": "Commander",
+          "first_name": "John",
+          "suffix": "",
+          "navy": true,
+          "middle_name": "K.",
+          "last_name": "Mitchell",
+          "fullname": "John K. Mitchell"
+        }
+      ],
+      "description": "Garrisons of Forts Jackson and St. Philip and the crews of various ships"
+    },
+    "US": {
+      "casualties": 229,
+      "commanders": [
+        {
+          "rank": "Flag Officer",
+          "first_name": "David",
+          "suffix": "",
+          "navy": true,
+          "middle_name": "G.",
+          "last_name": "Farragut",
+          "fullname": "David G. Farragut"
+        }
+      ],
+      "description": "West Gulf Blockading Squadron"
+    },
+    "CS": {
+      "casualties": 782,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Johnson",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "K.",
+          "last_name": "Duncan",
+          "fullname": "Johnson K. Duncan"
+        },
+        {
+          "rank": "Commander",
+          "first_name": "John",
+          "suffix": "",
+          "navy": true,
+          "middle_name": "K.",
+          "last_name": "Mitchell",
+          "fullname": "John K. Mitchell"
+        }
+      ],
+      "description": "Garrisons of Forts Jackson and St. Philip and the crews of various ships"
+    }
+  },
+  "result": "Union",
+  "battle": "LA001",
   "location": [
     {
-      "place": "Plaquemines Parish",
-      "state": "LA"
+      "state": "LA",
+      "place": "Plaquemines Parish"
     }
   ],
-  "battle_name": "Forts Jackson and St. Philip"
+  "url": "http://www.nps.gov/hps/abpp/battles/la001.htm"
 }

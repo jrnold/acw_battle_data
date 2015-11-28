@@ -1,57 +1,105 @@
 {
-  "dates": "March 14, 1862",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/nc003.htm",
-  "results_text": "Union victory",
+  "end_date": "1862-03-14",
+  "casualties": 1080,
   "casualties_text": "1,080 total",
-  "description": "On March 11, Brig. Gen. Ambrose E. Burnside's command embarked from Roanoke Island to rendezvous with Union gunboats at Hatteras Inlet for an expedition against New Berne. On March 13, the fleet sailed up the Neuse River and disembarked infantry on the river's south bank to approach the New Berne defenses. The Confederate defense was commanded by Brig. Gen. Lawrence Branch. On March 14, John G. Foster's, Jesse Reno's, and John G. Parke's brigades attacked along the railroad and after four hours of fighting drove the Confederates out of their fortifications. The Federals captured nine forts and 41 heavy guns and occupied a base which they would hold to the end of the war, in spite of several Confederate attempts to recover the town.",
-  "start_date": "1862-03-14",
-  "forces_text": "Expeditionary Force and Foster's, Reno's, and Parke's Brigades [US]; 5 regiments, militia [CS]",
-  "belligerents": {
-    "CS": {
-        "commanders": [{
-            "navy": false,
-            "last_name": "Branch",
-            "middle_name": "O'Bryan",
-            "rank": "Brigadier General",
-            "suffix": "",
-            "fullname": "Lawrence O'Bryan Branch",
-            "first_name": "Lawrence"
-        }],
+  "forces": {
+    "Confederate": {
       "regiments": 5,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Lawrence",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "O'Bryan",
+          "last_name": "Branch",
+          "fullname": "Lawrence O'Bryan Branch"
+        }
+      ],
       "description": "5 regiments, militia"
     },
     "US": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Burnside",
-          "middle_name": "E.",
           "rank": "Brigadier General",
+          "first_name": "Ambrose",
           "suffix": "",
-          "fullname": "Ambrose E. Burnside",
-          "first_name": "Ambrose"
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Burnside",
+          "fullname": "Ambrose E. Burnside"
         }
       ],
       "description": "Expeditionary Force and Foster's, Reno's, and Parke's Brigades"
     }
   },
-  "campaign": "Burnside's North Carolina Expedition [February-June 1862]",
-  "battle": "NC003",
-  "result": "Union",
+  "cwsac_reference": "NC003",
+  "operation": false,
+  "forces_text": "Expeditionary Force and Foster's, Reno's, and Parke's Brigades [US]; 5 regiments, militia [CS]",
+  "start_date": "1862-03-14",
+  "preservation": "IV.1",
+  "results_text": "Union victory",
+  "description": "On March 11, Brig. Gen. Ambrose E. Burnside's command embarked from Roanoke Island to rendezvous with Union gunboats at Hatteras Inlet for an expedition against New Berne. On March 13, the fleet sailed up the Neuse River and disembarked infantry on the river's south bank to approach the New Berne defenses. The Confederate defense was commanded by Brig. Gen. Lawrence Branch. On March 14, John G. Foster's, Jesse Reno's, and John G. Parke's brigades attacked along the railroad and after four hours of fighting drove the Confederates out of their fortifications. The Federals captured nine forts and 41 heavy guns and occupied a base which they would hold to the end of the war, in spite of several Confederate attempts to recover the town.",
+  "state": "NC",
   "significance": "B",
   "other_names": null,
-  "state": "NC",
-  "preservation": "IV.1",
+  "dates": "March 14, 1862",
+  "battle_name": "New Berne",
   "principal_commanders": "Brig. Gen. Ambrose E. Burnside [US]; Brig. Gen. Lawrence O'B. Branch [CS]",
-  "end_date": "1862-03-14",
-  "cwsac_reference": "NC003",
-  "casualties": 1080,
+  "campaign": "Burnside's North Carolina Expedition [February-June 1862]",
+  "belligerents": {
+    "Confederate": {
+      "regiments": 5,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Lawrence",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "O'Bryan",
+          "last_name": "Branch",
+          "fullname": "Lawrence O'Bryan Branch"
+        }
+      ],
+      "description": "5 regiments, militia"
+    },
+    "US": {
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Ambrose",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Burnside",
+          "fullname": "Ambrose E. Burnside"
+        }
+      ],
+      "description": "Expeditionary Force and Foster's, Reno's, and Parke's Brigades"
+    },
+    "CS": {
+      "regiments": 5,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Lawrence",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "O'Bryan",
+          "last_name": "Branch",
+          "fullname": "Lawrence O'Bryan Branch"
+        }
+      ],
+      "description": "5 regiments, militia"
+    }
+  },
+  "result": "Union",
+  "battle": "NC003",
   "location": [
     {
-      "place": "Craven County",
-      "state": "NC"
+      "state": "NC",
+      "place": "Craven County"
     }
   ],
-  "battle_name": "New Berne"
+  "url": "http://www.nps.gov/hps/abpp/battles/nc003.htm"
 }

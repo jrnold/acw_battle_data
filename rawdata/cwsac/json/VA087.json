@@ -1,56 +1,56 @@
 {
-  "dates": "March 31, 1865",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/va087.htm",
-  "results_text": "Union gained ground",
+  "end_date": "1865-03-31",
+  "casualties": 2670,
   "casualties_text": "2,670 (US 1,870; CS 800)",
-  "description": "On March 30, Lee shifted reinforcements to meet the Federal movement to turn his right flank, placing Maj. Gen. W.H. Fitzhugh Lee's cavalry divisions at Five Forks and transferring Pickett's division from the Bermuda Hundred front to the extreme right. Warren pushed the V Corps forward and entrenched a line to cover the Boydton Plank Road from its intersection with Dabney Mill Road south to Gravelly Run. Ayres's division advanced northwest toward White Oak Road. On March 31, in combination with Maj. Gen. Philip Sheridan's thrust via Dinwiddie Court House, Warren directed his corps against the Confederate entrenchments along White Oak Road, hoping to cut Lee's communications with Pickett at Five Forks. The Union advance was stalled by a crushing counterattack directed by Maj. Gen. Bushrod Johnson, but Warren's position stabilized and his soldiers closed on the road by day's end. This fighting set up the Confederate defeat at Five Forks on April 1.",
-  "start_date": "1865-03-31",
-  "forces_text": "Corps",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "corps": 1,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Lee",
-          "middle_name": "E.",
           "rank": "General",
+          "first_name": "Robert",
           "suffix": "",
-          "fullname": "Robert E. Lee",
-          "first_name": "Robert"
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "fullname": "Robert E. Lee"
         },
         {
-          "navy": false,
-          "last_name": "Anderson",
-          "middle_name": "",
           "rank": "Lieutenant General",
+          "first_name": "Richard",
           "suffix": "",
-          "fullname": "Richard Anderson",
-          "first_name": "Richard"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Anderson",
+          "fullname": "Richard Anderson"
         }
       ],
-      "corps": 1,
       "casualties": 800
     },
     "US": {
+      "corps": 1,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Warren",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "G.K.",
           "suffix": "",
-          "fullname": "G.K. Warren",
-          "first_name": "G.K."
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Warren",
+          "fullname": "G.K. Warren"
         }
       ],
-      "corps": 1,
       "casualties": 1870
     }
   },
-  "campaign": "Appomattox Campaign [March-April 1865]",
-  "battle": "VA087",
-  "result": "Union",
+  "cwsac_reference": "VA087",
+  "operation": false,
+  "forces_text": "Corps",
+  "start_date": "1865-03-31",
+  "preservation": "I.3",
+  "results_text": "Union gained ground",
+  "description": "On March 30, Lee shifted reinforcements to meet the Federal movement to turn his right flank, placing Maj. Gen. W.H. Fitzhugh Lee's cavalry divisions at Five Forks and transferring Pickett's division from the Bermuda Hundred front to the extreme right. Warren pushed the V Corps forward and entrenched a line to cover the Boydton Plank Road from its intersection with Dabney Mill Road south to Gravelly Run. Ayres's division advanced northwest toward White Oak Road. On March 31, in combination with Maj. Gen. Philip Sheridan's thrust via Dinwiddie Court House, Warren directed his corps against the Confederate entrenchments along White Oak Road, hoping to cut Lee's communications with Pickett at Five Forks. The Union advance was stalled by a crushing counterattack directed by Maj. Gen. Bushrod Johnson, but Warren's position stabilized and his soldiers closed on the road by day's end. This fighting set up the Confederate defeat at Five Forks on April 1.",
+  "state": "VA",
   "significance": "B",
   "other_names": [
     "Hatcher's Run",
@@ -58,17 +58,82 @@
     "Boydton Plank Road",
     "White Oak Ridge"
   ],
-  "state": "VA",
-  "preservation": "I.3",
+  "dates": "March 31, 1865",
+  "battle_name": "White Oak Road",
   "principal_commanders": "Maj. Gen. G.K. Warren [US]; Gen. Robert E. Lee and Lt. Gen. Richard Anderson [CS]",
-  "end_date": "1865-03-31",
-  "cwsac_reference": "VA087",
-  "casualties": 2670,
+  "campaign": "Appomattox Campaign [March-April 1865]",
+  "belligerents": {
+    "Confederate": {
+      "corps": 1,
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "Robert",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "fullname": "Robert E. Lee"
+        },
+        {
+          "rank": "Lieutenant General",
+          "first_name": "Richard",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Anderson",
+          "fullname": "Richard Anderson"
+        }
+      ],
+      "casualties": 800
+    },
+    "US": {
+      "corps": 1,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "G.K.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Warren",
+          "fullname": "G.K. Warren"
+        }
+      ],
+      "casualties": 1870
+    },
+    "CS": {
+      "corps": 1,
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "Robert",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "fullname": "Robert E. Lee"
+        },
+        {
+          "rank": "Lieutenant General",
+          "first_name": "Richard",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Anderson",
+          "fullname": "Richard Anderson"
+        }
+      ],
+      "casualties": 800
+    }
+  },
+  "result": "Union",
+  "battle": "VA087",
   "location": [
     {
-      "place": "Dinwiddie County",
-      "state": "VA"
+      "state": "VA",
+      "place": "Dinwiddie County"
     }
   ],
-  "battle_name": "White Oak Road"
+  "url": "http://www.nps.gov/hps/abpp/battles/va087.htm"
 }

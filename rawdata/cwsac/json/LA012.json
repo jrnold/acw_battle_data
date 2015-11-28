@@ -1,65 +1,116 @@
 {
-  "dates": "June 20-21, 1863",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/la012.htm",
-  "results_text": "Union victory",
+  "end_date": "1863-06-21",
+  "casualties": 267,
   "casualties_text": "267 total (US 48; CS 219)",
-  "description": "Maj. Gen. Richard Taylor sent an expedition under Col. James P. Major to break Union supply lines, disrupt Union activities and force an enemy withdrawal from Brashear (Morgan) City and Port Hudson. Major set out from Washington, Louisiana, on Bayou Teche, heading south and east. While marching, his men conducted raids on Union forces, boats, and plantations and in the process captured animals and supplies and liberated slaves. Brig. Gen. William H. Emory, commanding the defenses of New Orleans, assigned Lt. Col. Albert Stickney to command in Brashear City and to stem the Rebel raid if possible. Emory informed Stickney of Major's descent on LaFourche Crossing and ordered him to send troops. Feeling that no threat to Brashear City existed, Stickney, himself, led troops off to LaFourche Crossing, arriving on the morning of the 20th. That afternoon, Stickney's scouts reported that the enemy was advancing rapidly. The Rebel forces began driving in Stickney's pickets around 5:00 pm. Confederate cavalry then advanced but was driven back. After the Union troops fired a few rounds, the Confederates withdrew in the direction of Thibodeaux. In the late afternoon of the 21st, Confederate soldiers engaged the Union pickets, and fighting continued for more than an hour before the Rebels retired. About 6:30 pm, the Confederates reappeared in force, started an artillery duel, and charged the Union lines at 7:00 pm. An hour later, the Confederates disengaged and retired toward Thibodeaux. The Union held the field. Despite the defeat, Major's raiders continued on to Brashear City.",
-  "start_date": "1863-06-20",
-  "forces_text": "838 men from eight regiments [US]; 2nd Cavalry Brigade [CS]",
-  "belligerents": {
-    "CS": {
-      "cavalry_brigades": 1,
+  "forces": {
+    "Confederate": {
+      "casualties": 219,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Major",
-          "middle_name": "P.",
           "rank": "Colonel",
+          "first_name": "James",
           "suffix": "",
-          "fullname": "James P. Major",
-          "first_name": "James"
+          "navy": false,
+          "middle_name": "P.",
+          "last_name": "Major",
+          "fullname": "James P. Major"
         }
       ],
       "description": "2nd Cavalry Brigade",
-      "casualties": 219
+      "cavalry_brigades": 1
     },
     "US": {
+      "casualties": 48,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Stickney",
-          "middle_name": "",
           "rank": "Lieutenant Colonel",
+          "first_name": "Albert",
           "suffix": "",
-          "fullname": "Albert Stickney",
-          "first_name": "Albert"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Stickney",
+          "fullname": "Albert Stickney"
         }
       ],
       "description": "838 men from eight regiments",
-      "strength_max": 838,
       "strength_min": 838,
-      "casualties": 48
+      "strength_max": 838
     }
   },
-  "campaign": "Taylor's Operations in West Louisiana [June-September 1863]",
-  "battle": "LA012",
-  "result": "Union",
+  "cwsac_reference": "LA012",
+  "operation": false,
+  "forces_text": "838 men from eight regiments [US]; 2nd Cavalry Brigade [CS]",
+  "start_date": "1863-06-20",
+  "preservation": "II.4",
+  "results_text": "Union victory",
+  "description": "Maj. Gen. Richard Taylor sent an expedition under Col. James P. Major to break Union supply lines, disrupt Union activities and force an enemy withdrawal from Brashear (Morgan) City and Port Hudson. Major set out from Washington, Louisiana, on Bayou Teche, heading south and east. While marching, his men conducted raids on Union forces, boats, and plantations and in the process captured animals and supplies and liberated slaves. Brig. Gen. William H. Emory, commanding the defenses of New Orleans, assigned Lt. Col. Albert Stickney to command in Brashear City and to stem the Rebel raid if possible. Emory informed Stickney of Major's descent on LaFourche Crossing and ordered him to send troops. Feeling that no threat to Brashear City existed, Stickney, himself, led troops off to LaFourche Crossing, arriving on the morning of the 20th. That afternoon, Stickney's scouts reported that the enemy was advancing rapidly. The Rebel forces began driving in Stickney's pickets around 5:00 pm. Confederate cavalry then advanced but was driven back. After the Union troops fired a few rounds, the Confederates withdrew in the direction of Thibodeaux. In the late afternoon of the 21st, Confederate soldiers engaged the Union pickets, and fighting continued for more than an hour before the Rebels retired. About 6:30 pm, the Confederates reappeared in force, started an artillery duel, and charged the Union lines at 7:00 pm. An hour later, the Confederates disengaged and retired toward Thibodeaux. The Union held the field. Despite the defeat, Major's raiders continued on to Brashear City.",
+  "state": "LA",
   "significance": "D",
   "other_names": [
     "Lafourche Crossing"
   ],
-  "state": "LA",
-  "preservation": "II.4",
+  "dates": "June 20-21, 1863",
+  "battle_name": "LaFourche Crossing",
   "principal_commanders": "Lt. Col. Albert Stickney [US]; Col. James P. Major [CS]",
-  "end_date": "1863-06-21",
-  "cwsac_reference": "LA012",
-  "casualties": 267,
+  "campaign": "Taylor's Operations in West Louisiana [June-September 1863]",
+  "belligerents": {
+    "Confederate": {
+      "casualties": 219,
+      "commanders": [
+        {
+          "rank": "Colonel",
+          "first_name": "James",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "P.",
+          "last_name": "Major",
+          "fullname": "James P. Major"
+        }
+      ],
+      "description": "2nd Cavalry Brigade",
+      "cavalry_brigades": 1
+    },
+    "US": {
+      "casualties": 48,
+      "commanders": [
+        {
+          "rank": "Lieutenant Colonel",
+          "first_name": "Albert",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Stickney",
+          "fullname": "Albert Stickney"
+        }
+      ],
+      "description": "838 men from eight regiments",
+      "strength_min": 838,
+      "strength_max": 838
+    },
+    "CS": {
+      "casualties": 219,
+      "commanders": [
+        {
+          "rank": "Colonel",
+          "first_name": "James",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "P.",
+          "last_name": "Major",
+          "fullname": "James P. Major"
+        }
+      ],
+      "description": "2nd Cavalry Brigade",
+      "cavalry_brigades": 1
+    }
+  },
+  "result": "Union",
+  "battle": "LA012",
   "location": [
     {
-      "place": "Lafourche Parish",
-      "state": "LA"
+      "state": "LA",
+      "place": "Lafourche Parish"
     }
   ],
-  "battle_name": "LaFourche Crossing"
+  "url": "http://www.nps.gov/hps/abpp/battles/la012.htm"
 }

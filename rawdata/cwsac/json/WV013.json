@@ -1,23 +1,18 @@
 {
-  "dates": "August 7, 1864",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/wv013.htm",
-  "results_text": "Union victory",
+  "end_date": "1864-08-07",
+  "casualties": 531,
   "casualties_text": "531 total",
-  "description": "While returning to the Shenandoah Valley after burning Chambersburg, McCausland's and Johnson's cavalry were surprised at Moorefield on August 7 and routed by pursuing Union cavalry. This defeat impeded the morale and effectiveness of the Confederate cavalry for the remainder of the 1864 Valley Campaign.",
-  "start_date": "1864-08-07",
-  "forces_text": "Divisions",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "McCausland",
-          "middle_name": "",
           "rank": "Brigadier General",
+          "first_name": "John",
           "suffix": "",
-          "fullname": "John McCausland",
-          "first_name": "John"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "McCausland",
+          "fullname": "John McCausland"
         }
       ],
       "divisions": 1
@@ -25,36 +20,85 @@
     "US": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Averell",
-          "middle_name": "W.",
           "rank": "Brigadier General",
+          "first_name": "William",
           "suffix": "",
-          "fullname": "William W. Averell",
-          "first_name": "William"
+          "navy": false,
+          "middle_name": "W.",
+          "last_name": "Averell",
+          "fullname": "William W. Averell"
         }
       ],
       "divisions": 1
     }
   },
-  "campaign": "Early's Raid and Operations Against the B&O Railroad [June-August 1864]",
-  "battle": "WV013",
-  "result": "Union",
+  "cwsac_reference": "WV013",
+  "operation": false,
+  "forces_text": "Divisions",
+  "start_date": "1864-08-07",
+  "preservation": "IV.2",
+  "results_text": "Union victory",
+  "description": "While returning to the Shenandoah Valley after burning Chambersburg, McCausland's and Johnson's cavalry were surprised at Moorefield on August 7 and routed by pursuing Union cavalry. This defeat impeded the morale and effectiveness of the Confederate cavalry for the remainder of the 1864 Valley Campaign.",
+  "state": "WV",
   "significance": "C",
   "other_names": [
     "Oldfields"
   ],
-  "state": "WV",
-  "preservation": "IV.2",
+  "dates": "August 7, 1864",
+  "battle_name": "Moorefield",
   "principal_commanders": "Brig. Gen. William W. Averell [US]; Brig. Gen. John McCausland [CS]",
-  "end_date": "1864-08-07",
-  "cwsac_reference": "WV013",
-  "casualties": 531,
+  "campaign": "Early's Raid and Operations Against the B&O Railroad [June-August 1864]",
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "McCausland",
+          "fullname": "John McCausland"
+        }
+      ],
+      "divisions": 1
+    },
+    "US": {
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "William",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "W.",
+          "last_name": "Averell",
+          "fullname": "William W. Averell"
+        }
+      ],
+      "divisions": 1
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "McCausland",
+          "fullname": "John McCausland"
+        }
+      ],
+      "divisions": 1
+    }
+  },
+  "result": "Union",
+  "battle": "WV013",
   "location": [
     {
-      "place": "Hardy County",
-      "state": "WV"
+      "state": "WV",
+      "place": "Hardy County"
     }
   ],
-  "battle_name": "Moorefield"
+  "url": "http://www.nps.gov/hps/abpp/battles/wv013.htm"
 }

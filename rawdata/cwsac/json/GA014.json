@@ -1,71 +1,130 @@
 {
-  "dates": "June 22, 1864",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/ga014.htm",
-  "results_text": "Union victory",
+  "end_date": "1864-06-22",
+  "casualties": 1350,
   "casualties_text": "1,350 total (US 350; CS 1,000)",
-  "description": "On the night of June 18-19, Gen. Joseph E. Johnston, fearing envelopment, moved his army to a new, previously selected position astride Kennesaw Mountain, an entrenched arc-shaped line to the west of Marietta, to protect his supply line, the Western & Atlantic Railroad. Having encountered entrenched Rebels astride Kennesaw Mountain stretching southward, Sherman fixed them in front and extended his right wing to envelop their flank and menace the railroad. Joe Johnston countered by moving John B. Hood's corps from the left flank to the right on June 22. Arriving in his new position at Mt. Zion Church, Hood decided, on his own, to attack. Warned of Hood's intentions, Union generals John Schofield and Joseph Hooker entrenched. Union artillery and swampy terrain thwarted Hood's attack and forced him to withdraw with costly casualties. Although the victor, Sherman's attempts at envelopment had momentarily failed.",
-  "start_date": "1864-06-22",
-  "forces_text": "Two corps [US]; Hood s Corps [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "corps": 1,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Hood",
-          "middle_name": "Bell",
           "rank": "Lieutenant General",
+          "first_name": "John",
           "suffix": "",
-          "fullname": "John Bell Hood",
-          "first_name": "John"
+          "navy": false,
+          "middle_name": "Bell",
+          "last_name": "Hood",
+          "fullname": "John Bell Hood"
         }
       ],
       "description": "Hood s Corps",
-      "corps": 1,
       "casualties": 1000
     },
     "US": {
+      "corps": 2,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Schofield",
-          "middle_name": "M.",
           "rank": "Major General",
+          "first_name": "John",
           "suffix": "",
-          "fullname": "John M. Schofield",
-          "first_name": "John"
+          "navy": false,
+          "middle_name": "M.",
+          "last_name": "Schofield",
+          "fullname": "John M. Schofield"
         },
         {
-          "navy": false,
-          "last_name": "Hooker",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "Joseph",
           "suffix": "",
-          "fullname": "Joseph Hooker",
-          "first_name": "Joseph"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Hooker",
+          "fullname": "Joseph Hooker"
         }
       ],
       "description": "Two corps",
-      "corps": 2,
       "casualties": 350
     }
   },
-  "campaign": "Atlanta Campaign [May-September 1864]",
-  "battle": "GA014",
-  "result": "Union",
+  "cwsac_reference": "GA014",
+  "operation": false,
+  "forces_text": "Two corps [US]; Hood s Corps [CS]",
+  "start_date": "1864-06-22",
+  "preservation": "II.3",
+  "results_text": "Union victory",
+  "description": "On the night of June 18-19, Gen. Joseph E. Johnston, fearing envelopment, moved his army to a new, previously selected position astride Kennesaw Mountain, an entrenched arc-shaped line to the west of Marietta, to protect his supply line, the Western & Atlantic Railroad. Having encountered entrenched Rebels astride Kennesaw Mountain stretching southward, Sherman fixed them in front and extended his right wing to envelop their flank and menace the railroad. Joe Johnston countered by moving John B. Hood's corps from the left flank to the right on June 22. Arriving in his new position at Mt. Zion Church, Hood decided, on his own, to attack. Warned of Hood's intentions, Union generals John Schofield and Joseph Hooker entrenched. Union artillery and swampy terrain thwarted Hood's attack and forced him to withdraw with costly casualties. Although the victor, Sherman's attempts at envelopment had momentarily failed.",
+  "state": "GA",
   "significance": "C",
   "other_names": null,
-  "state": "GA",
-  "preservation": "II.3",
+  "dates": "June 22, 1864",
+  "battle_name": "Kolb's Farm",
   "principal_commanders": "Maj. Gen. John M. Schofield and Maj. Gen. Joseph Hooker [US]; Lt. Gen. John Bell Hood [CS]",
-  "end_date": "1864-06-22",
-  "cwsac_reference": "GA014",
-  "casualties": 1350,
+  "campaign": "Atlanta Campaign [May-September 1864]",
+  "belligerents": {
+    "Confederate": {
+      "corps": 1,
+      "commanders": [
+        {
+          "rank": "Lieutenant General",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "Bell",
+          "last_name": "Hood",
+          "fullname": "John Bell Hood"
+        }
+      ],
+      "description": "Hood s Corps",
+      "casualties": 1000
+    },
+    "US": {
+      "corps": 2,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "M.",
+          "last_name": "Schofield",
+          "fullname": "John M. Schofield"
+        },
+        {
+          "rank": "Major General",
+          "first_name": "Joseph",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Hooker",
+          "fullname": "Joseph Hooker"
+        }
+      ],
+      "description": "Two corps",
+      "casualties": 350
+    },
+    "CS": {
+      "corps": 1,
+      "commanders": [
+        {
+          "rank": "Lieutenant General",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "Bell",
+          "last_name": "Hood",
+          "fullname": "John Bell Hood"
+        }
+      ],
+      "description": "Hood s Corps",
+      "casualties": 1000
+    }
+  },
+  "result": "Union",
+  "battle": "GA014",
   "location": [
     {
-      "place": "Cobb County",
-      "state": "GA"
+      "state": "GA",
+      "place": "Cobb County"
     }
   ],
-  "battle_name": "Kolb's Farm"
+  "url": "http://www.nps.gov/hps/abpp/battles/ga014.htm"
 }

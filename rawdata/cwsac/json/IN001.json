@@ -1,65 +1,118 @@
 {
-  "dates": "July 9, 1863",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/in001.htm",
-  "results_text": "Confederate victory",
+  "end_date": "1863-07-09",
+  "casualties": 401,
   "casualties_text": "401 total (US 360; CS 41)",
-  "description": "On July 2, 1863, Brig. Gen. Morgan, with about 2,450 hand-picked cavalrymen, rode into Kentucky to disrupt the communications of the Union Army of the Cumberland, which began its operations against Bragg's Army of Tennessee (Tullahoma Campaign) on June 23. Crossing the Cumberland River at Burkesville, Morgan's column advanced to the Green River where it was deflected by a Union regiment at Tebb's Bend on July 4. Morgan surprised and captured the garrison at Lebanon, Kentucky, then rode via Springfield, Bardstown, and Garnettsville. On July 8, Morgan crossed the Ohio River at Mauckport, Indiana, despite orders to remain south of the river in Kentucky. Union military officials called out the militia in Indiana and Ohio and worked feverishly to organize a defense. On July 9, near Corydon, Indiana, elements of Morgan's force encountered about 400 Home Guards and captured most of them. As Morgan continued eastward to Ohio, destroying bridges, railroads, and government stores, Federal columns converged to prevent Morgan from recrossing into Kentucky.",
-  "start_date": "1863-07-09",
-  "forces_text": "2,200 total (US 400; CS 1,800)",
-  "strength": 2200,
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": 41,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Morgan",
-          "middle_name": "Hunt",
           "rank": "Brigadier General",
+          "first_name": "John",
           "suffix": "",
-          "fullname": "John Hunt Morgan",
-          "first_name": "John"
+          "navy": false,
+          "middle_name": "Hunt",
+          "last_name": "Morgan",
+          "fullname": "John Hunt Morgan"
         }
       ],
       "description": "1,800",
-      "strength_max": 1800,
       "strength_min": 1800,
-      "casualties": 41
+      "strength_max": 1800
     },
     "US": {
+      "casualties": 360,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Jordan",
-          "middle_name": "",
           "rank": "Brevet Colonel",
+          "first_name": "Lewis",
           "suffix": "",
-          "fullname": "Lewis Jordan",
-          "first_name": "Lewis"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Jordan",
+          "fullname": "Lewis Jordan"
         }
       ],
       "description": "400",
-      "strength_max": 400,
       "strength_min": 400,
-      "casualties": 360
+      "strength_max": 400
     }
   },
-  "campaign": "Morgan's Raid in Kentucky, Indiana, and Ohio [July 1863]",
-  "battle": "IN001",
-  "result": "Confederate",
+  "strength": 2200,
+  "cwsac_reference": "IN001",
+  "operation": false,
+  "forces_text": "2,200 total (US 400; CS 1,800)",
+  "start_date": "1863-07-09",
+  "preservation": "III.3",
+  "results_text": "Confederate victory",
+  "description": "On July 2, 1863, Brig. Gen. Morgan, with about 2,450 hand-picked cavalrymen, rode into Kentucky to disrupt the communications of the Union Army of the Cumberland, which began its operations against Bragg's Army of Tennessee (Tullahoma Campaign) on June 23. Crossing the Cumberland River at Burkesville, Morgan's column advanced to the Green River where it was deflected by a Union regiment at Tebb's Bend on July 4. Morgan surprised and captured the garrison at Lebanon, Kentucky, then rode via Springfield, Bardstown, and Garnettsville. On July 8, Morgan crossed the Ohio River at Mauckport, Indiana, despite orders to remain south of the river in Kentucky. Union military officials called out the militia in Indiana and Ohio and worked feverishly to organize a defense. On July 9, near Corydon, Indiana, elements of Morgan's force encountered about 400 Home Guards and captured most of them. As Morgan continued eastward to Ohio, destroying bridges, railroads, and government stores, Federal columns converged to prevent Morgan from recrossing into Kentucky.",
+  "state": "IN",
   "significance": "C",
   "other_names": null,
-  "state": "IN",
-  "preservation": "III.3",
+  "dates": "July 9, 1863",
+  "battle_name": "Corydon",
   "principal_commanders": "BCol. Lewis Jordan [US]; Brig. Gen. John Hunt Morgan [CS]",
-  "end_date": "1863-07-09",
-  "cwsac_reference": "IN001",
-  "casualties": 401,
   "location": [
     {
-      "place": "Harrison",
-      "state": "IN"
+      "state": "IN",
+      "place": "Harrison"
     }
   ],
-  "battle_name": "Corydon"
+  "belligerents": {
+    "Confederate": {
+      "casualties": 41,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "Hunt",
+          "last_name": "Morgan",
+          "fullname": "John Hunt Morgan"
+        }
+      ],
+      "description": "1,800",
+      "strength_min": 1800,
+      "strength_max": 1800
+    },
+    "US": {
+      "casualties": 360,
+      "commanders": [
+        {
+          "rank": "Brevet Colonel",
+          "first_name": "Lewis",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Jordan",
+          "fullname": "Lewis Jordan"
+        }
+      ],
+      "description": "400",
+      "strength_min": 400,
+      "strength_max": 400
+    },
+    "CS": {
+      "casualties": 41,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "Hunt",
+          "last_name": "Morgan",
+          "fullname": "John Hunt Morgan"
+        }
+      ],
+      "description": "1,800",
+      "strength_min": 1800,
+      "strength_max": 1800
+    }
+  },
+  "result": "Confederate",
+  "battle": "IN001",
+  "campaign": "Morgan's Raid in Kentucky, Indiana, and Ohio [July 1863]",
+  "url": "http://www.nps.gov/hps/abpp/battles/in001.htm"
 }

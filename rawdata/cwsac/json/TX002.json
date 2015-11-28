@@ -1,67 +1,129 @@
 {
-  "dates": "October 4, 1862",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/tx002.htm",
-  "results_text": "Union victory",
+  "end_date": "1862-10-04",
+  "casualties": 0,
   "casualties_text": "None",
-  "description": "The U.S. Navy began a blockade of Galveston Harbor in July 1861, but the town remained in Confederate hands for the next 14 months. At 6:00 am on October 4, 1862, Cdr. W.B. Renshaw, commanding the blockading ships in the Galveston Bay area, sent Harriet Lane into the harbor, flying a flag of truce. The intention was to inform the military authorities in Galveston that if the town did not surrender, the U.S. Navy ships would attack; a one-hour reply would be demanded. Col. Joseph J. Cook, Confederate military commander in the area, would not come out to the Union ship or send an officer to receive the communication, so Harriet Lane weighed anchor and returned to the fleet. Four Union steamers, with a mortar boat in tow, entered the harbor and moved to the same area where Harriet Lane had anchored. Observing this activity, Confederates at Fort Point fired one or more shots and the U.S. Navy ships answered. Eventually, the Union ships disabled the one Confederate gun at Fort Point and fired at other targets. Two Rebel guns from another location opened on the Union ships. The boat that Col. Cook had dispatched now approached the Union vessels and two Confederate officers boarded U.S.S. Westfield. Renshaw demanded an unconditional surrender of Galveston or he would begin shelling. Cook refused Renshaw's terms, and conveyed to Renshaw that upon him rested the responsibility of destroying the town and killing women, children, and aliens. Renshaw threatened to resume the shelling and made preparations for towing the mortar boat into position. One of the Confederate officers then asked if he could be granted time to talk with Col. Cook again. This officer, a major, negotiated with Renshaw for a four-day truce to evacuate the women, children, and aliens from the city. Cook approved the truce but added a stipulation that if Renshaw would not move troops closer to Galveston, Cook would not permit his men to come below the city. The agreement was finalized but never written down, which later caused problems. The Confederates did evacuate, taking all of their weapons, ammunition, supplies, and whatever they could carry with them. Renshaw did not think that the agreement allowed for all this but, in the end, did nothing, due to the lack of a written document. The fall of Galveston meant that one more important Confederate port was closed to commerce. But the port of Galveston was not shut down for long.",
-  "start_date": "1862-10-04",
-  "forces_text": "None",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": 0,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Cook",
-          "middle_name": "J.",
           "rank": "Colonel",
+          "first_name": "Joseph",
           "suffix": "",
-          "fullname": "Joseph J. Cook",
-          "first_name": "Joseph"
+          "navy": false,
+          "middle_name": "J.",
+          "last_name": "Cook",
+          "fullname": "Joseph J. Cook"
         },
         {
-          "navy": false,
-          "last_name": "Debray",
-          "middle_name": "",
           "rank": "Colonel",
+          "first_name": "X.B.",
           "suffix": "",
-          "fullname": "X.B. Debray",
-          "first_name": "X.B."
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Debray",
+          "fullname": "X.B. Debray"
         }
-      ],
-      "casualties": 0
+      ]
     },
     "US": {
+      "casualties": 0,
       "commanders": [
         {
-          "navy": true,
-          "last_name": "Renshaw",
-          "middle_name": "",
           "rank": "Commander",
+          "first_name": "W.B.",
           "suffix": "",
-          "fullname": "W.B. Renshaw",
-          "first_name": "W.B."
+          "navy": true,
+          "middle_name": "",
+          "last_name": "Renshaw",
+          "fullname": "W.B. Renshaw"
         }
-      ],
-      "casualties": 0
+      ]
     }
   },
-  "campaign": "Operations to Blockade the Texas Coast [September 1862-January 1863]",
-  "battle": "TX002",
-  "result": "Union",
+  "cwsac_reference": "TX002",
+  "operation": false,
+  "forces_text": "None",
+  "start_date": "1862-10-04",
+  "preservation": "IV.1",
+  "results_text": "Union victory",
+  "description": "The U.S. Navy began a blockade of Galveston Harbor in July 1861, but the town remained in Confederate hands for the next 14 months. At 6:00 am on October 4, 1862, Cdr. W.B. Renshaw, commanding the blockading ships in the Galveston Bay area, sent Harriet Lane into the harbor, flying a flag of truce. The intention was to inform the military authorities in Galveston that if the town did not surrender, the U.S. Navy ships would attack; a one-hour reply would be demanded. Col. Joseph J. Cook, Confederate military commander in the area, would not come out to the Union ship or send an officer to receive the communication, so Harriet Lane weighed anchor and returned to the fleet. Four Union steamers, with a mortar boat in tow, entered the harbor and moved to the same area where Harriet Lane had anchored. Observing this activity, Confederates at Fort Point fired one or more shots and the U.S. Navy ships answered. Eventually, the Union ships disabled the one Confederate gun at Fort Point and fired at other targets. Two Rebel guns from another location opened on the Union ships. The boat that Col. Cook had dispatched now approached the Union vessels and two Confederate officers boarded U.S.S. Westfield. Renshaw demanded an unconditional surrender of Galveston or he would begin shelling. Cook refused Renshaw's terms, and conveyed to Renshaw that upon him rested the responsibility of destroying the town and killing women, children, and aliens. Renshaw threatened to resume the shelling and made preparations for towing the mortar boat into position. One of the Confederate officers then asked if he could be granted time to talk with Col. Cook again. This officer, a major, negotiated with Renshaw for a four-day truce to evacuate the women, children, and aliens from the city. Cook approved the truce but added a stipulation that if Renshaw would not move troops closer to Galveston, Cook would not permit his men to come below the city. The agreement was finalized but never written down, which later caused problems. The Confederates did evacuate, taking all of their weapons, ammunition, supplies, and whatever they could carry with them. Renshaw did not think that the agreement allowed for all this but, in the end, did nothing, due to the lack of a written document. The fall of Galveston meant that one more important Confederate port was closed to commerce. But the port of Galveston was not shut down for long.",
+  "state": "TX",
   "significance": "D",
   "other_names": null,
-  "state": "TX",
-  "preservation": "IV.1",
+  "dates": "October 4, 1862",
+  "battle_name": "Galveston",
   "principal_commanders": "Cdr. W.B. Renshaw, U.S.N. [US]; Col. Joseph J. Cook and Col. X.B. Debray [CS]",
-  "end_date": "1862-10-04",
-  "cwsac_reference": "TX002",
-  "casualties": 0,
+  "campaign": "Operations to Blockade the Texas Coast [September 1862-January 1863]",
+  "belligerents": {
+    "Confederate": {
+      "casualties": 0,
+      "commanders": [
+        {
+          "rank": "Colonel",
+          "first_name": "Joseph",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "J.",
+          "last_name": "Cook",
+          "fullname": "Joseph J. Cook"
+        },
+        {
+          "rank": "Colonel",
+          "first_name": "X.B.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Debray",
+          "fullname": "X.B. Debray"
+        }
+      ]
+    },
+    "US": {
+      "casualties": 0,
+      "commanders": [
+        {
+          "rank": "Commander",
+          "first_name": "W.B.",
+          "suffix": "",
+          "navy": true,
+          "middle_name": "",
+          "last_name": "Renshaw",
+          "fullname": "W.B. Renshaw"
+        }
+      ]
+    },
+    "CS": {
+      "casualties": 0,
+      "commanders": [
+        {
+          "rank": "Colonel",
+          "first_name": "Joseph",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "J.",
+          "last_name": "Cook",
+          "fullname": "Joseph J. Cook"
+        },
+        {
+          "rank": "Colonel",
+          "first_name": "X.B.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Debray",
+          "fullname": "X.B. Debray"
+        }
+      ]
+    }
+  },
+  "result": "Union",
+  "battle": "TX002",
   "location": [
     {
-      "place": "Galveston County",
-      "state": "TX"
+      "state": "TX",
+      "place": "Galveston County"
     }
   ],
-  "battle_name": "Galveston"
+  "url": "http://www.nps.gov/hps/abpp/battles/tx002.htm"
 }

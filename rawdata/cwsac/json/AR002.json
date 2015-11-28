@@ -1,72 +1,135 @@
 {
-  "dates": "June 17, 1862",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/ar002.htm",
-  "results_text": "Union victory",
+  "end_date": "1862-06-17",
+  "casualties": 290,
   "casualties_text": "290 total (US 135; CS 155)",
-  "description": "On the morning of June 17, USS Mound City, St. Louis, Lexington, Conestoga, and transports proceeded up White River towards Saint Charles attempting to resupply Maj. Gen. Samuel R. Curtis's army near Jacksonport. A few miles below Saint Charles, the 46th Indiana Infantry under the command of Col. Graham N. Fitch disembarked, formed a skirmish line, and proceeded upriver towards the Rebel batteries on Saint Charles bluffs, under the command of Capt. Joseph Fry, C.S.N. At the same time, the Union gunboats went upriver to engage the Rebel batteries; Mound City was hit and her steam drum exploded scalding most of the crew to death. More than 125 sailors from the Mound City were killed, but the other ship was towed to safety. Col. Fitch halted the gunboat activities to prevent further loss and then undertook an attack on the Confederate batteries with his infantry. He turned the Rebel flank which ended the firing from the batteries and left Saint Charles open to Federal occupation.",
-  "start_date": "1862-06-17",
-  "forces_text": "46th Indiana and Union Gunboat [US]; fifty men and C.S. boats [CS]",
-  "belligerents": {
-    "CS": {
-        "commanders": [
-            {
-                "navy": true,
-                "fullname": "Joseph Fry",
-                "first_name": "Joseph",
-                "last_name": "Fry",
-                "middle_name": null,
-                "suffix": null,
-                "rank": "Captain (Navy)"
-            }],
+  "forces": {
+    "Confederate": {
+      "casualties": 155,
+      "commanders": [
+        {
+          "rank": "Captain (Navy)",
+          "first_name": "Joseph",
+          "suffix": null,
+          "navy": true,
+          "middle_name": null,
+          "last_name": "Fry",
+          "fullname": "Joseph Fry"
+        }
+      ],
       "description": "fifty men and C.S. boats",
-      "strength_max": 50,
       "strength_min": 50,
-      "casualties": 155
+      "strength_max": 50
     },
     "US": {
+      "regiments": 1,
       "gunboats": 1,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Fitch",
-          "middle_name": "N.",
           "rank": "Colonel",
+          "first_name": "Graham",
           "suffix": "",
-          "fullname": "Graham N. Fitch",
-          "first_name": "Graham"
+          "navy": false,
+          "middle_name": "N.",
+          "last_name": "Fitch",
+          "fullname": "Graham N. Fitch"
         },
         {
-          "navy": true,
-          "last_name": "Kilty",
-          "middle_name": "H.",
           "rank": "Commander",
+          "first_name": "Augustus",
           "suffix": "",
-          "fullname": "Augustus H. Kilty",
-          "first_name": "Augustus"
+          "navy": true,
+          "middle_name": "H.",
+          "last_name": "Kilty",
+          "fullname": "Augustus H. Kilty"
         }
       ],
       "description": "46th Indiana and Union Gunboat",
-      "regiments": 1,
       "casualties": 135
     }
   },
-  "campaign": "Operations on the White River [June 1862]",
-  "battle": "AR002",
-  "result": "Union",
+  "cwsac_reference": "AR002",
+  "operation": false,
+  "forces_text": "46th Indiana and Union Gunboat [US]; fifty men and C.S. boats [CS]",
+  "start_date": "1862-06-17",
+  "preservation": "III.3",
+  "results_text": "Union victory",
+  "description": "On the morning of June 17, USS Mound City, St. Louis, Lexington, Conestoga, and transports proceeded up White River towards Saint Charles attempting to resupply Maj. Gen. Samuel R. Curtis's army near Jacksonport. A few miles below Saint Charles, the 46th Indiana Infantry under the command of Col. Graham N. Fitch disembarked, formed a skirmish line, and proceeded upriver towards the Rebel batteries on Saint Charles bluffs, under the command of Capt. Joseph Fry, C.S.N. At the same time, the Union gunboats went upriver to engage the Rebel batteries; Mound City was hit and her steam drum exploded scalding most of the crew to death. More than 125 sailors from the Mound City were killed, but the other ship was towed to safety. Col. Fitch halted the gunboat activities to prevent further loss and then undertook an attack on the Confederate batteries with his infantry. He turned the Rebel flank which ended the firing from the batteries and left Saint Charles open to Federal occupation.",
+  "state": "AR",
   "significance": "C",
   "other_names": null,
-  "state": "AR",
-  "preservation": "III.3",
+  "dates": "June 17, 1862",
+  "battle_name": "Saint Charles",
   "principal_commanders": "Col. Graham N. Fitch and Cdr. Augustus H. Kilty [US]; Capt. Joseph Fry, C.S.N. [CS]",
-  "end_date": "1862-06-17",
-  "cwsac_reference": "AR002",
-  "casualties": 290,
+  "campaign": "Operations on the White River [June 1862]",
+  "belligerents": {
+    "Confederate": {
+      "casualties": 155,
+      "commanders": [
+        {
+          "rank": "Captain (Navy)",
+          "first_name": "Joseph",
+          "suffix": null,
+          "navy": true,
+          "middle_name": null,
+          "last_name": "Fry",
+          "fullname": "Joseph Fry"
+        }
+      ],
+      "description": "fifty men and C.S. boats",
+      "strength_min": 50,
+      "strength_max": 50
+    },
+    "US": {
+      "regiments": 1,
+      "gunboats": 1,
+      "commanders": [
+        {
+          "rank": "Colonel",
+          "first_name": "Graham",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "N.",
+          "last_name": "Fitch",
+          "fullname": "Graham N. Fitch"
+        },
+        {
+          "rank": "Commander",
+          "first_name": "Augustus",
+          "suffix": "",
+          "navy": true,
+          "middle_name": "H.",
+          "last_name": "Kilty",
+          "fullname": "Augustus H. Kilty"
+        }
+      ],
+      "description": "46th Indiana and Union Gunboat",
+      "casualties": 135
+    },
+    "CS": {
+      "casualties": 155,
+      "commanders": [
+        {
+          "rank": "Captain (Navy)",
+          "first_name": "Joseph",
+          "suffix": null,
+          "navy": true,
+          "middle_name": null,
+          "last_name": "Fry",
+          "fullname": "Joseph Fry"
+        }
+      ],
+      "description": "fifty men and C.S. boats",
+      "strength_min": 50,
+      "strength_max": 50
+    }
+  },
+  "result": "Union",
+  "battle": "AR002",
   "location": [
     {
-      "place": "Arkansas County",
-      "state": "AR"
+      "state": "AR",
+      "place": "Arkansas County"
     }
   ],
-  "battle_name": "Saint Charles"
+  "url": "http://www.nps.gov/hps/abpp/battles/ar002.htm"
 }

@@ -1,80 +1,151 @@
 {
-  "dates": "April 6-7, 1865",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/va095.htm",
-  "results_text": "Inconclusive",
+  "end_date": "1865-04-07",
+  "casualties": 1200,
   "casualties_text": "1,200 total (US 800 captured)",
-  "description": "On April 6, the Confederate cavalry fought stubbornly to secure the Appomattox River bridges. Confederate general Dearing was mortally wounded. On April 7, elements of the II Corps came up against Longstreet's rear guard attempting to fire the High Bridge and wagon bridge. Union forces were able to save the wagon bridge over which the II Corps crossed in pursuit of Lee's army. Failure to destroy this bridge enabled Union forces to catch up with the Confederates at Farmville.",
-  "start_date": "1865-04-06",
-  "forces_text": "Divisions",
-  "belligerents": {
-    "CS": {
-        "commanders": [
-            {
-                "navy": false,
-                "last_name": "Rosser",
-                "first_name": "Thomas",
-                "middle_name": "",
-                "suffix": "",
-                "fullname": "Thomas Rosser",
-                "rank": "Major General"
-            },
-            {
-                "navy": false,
-                "last_name": "Mahone",
-                "first_name": "William",
-                "middle_name": "",
-                "suffix": "",
-                "fullname": "William Mahone",
-                "rank": "Major General"
-            }
-        ],
+  "forces": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Thomas",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Rosser",
+          "fullname": "Thomas Rosser"
+        },
+        {
+          "rank": "Major General",
+          "first_name": "William",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Mahone",
+          "fullname": "William Mahone"
+        }
+      ],
       "divisions": 1
     },
     "US": {
       "commanders": [
-          {
-              "navy": false,
-              "last_name": "Read",
-              "middle_name": "",
-              "rank": "Colonel",
-              "suffix": "",
-              "fullname": "T. Read",
-              "first_name": "T."
-          },
-          {
-              "navy": false,
-              "last_name": "Humphreys",
-              "middle_name": "A.",
-              "rank": "Major General",
-              "suffix": "",
-              "fullname": "A. A. Humphreys",
-              "first_name": "A."
-          }
+        {
+          "rank": "Colonel",
+          "first_name": "T.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Read",
+          "fullname": "T. Read"
+        },
+        {
+          "rank": "Major General",
+          "first_name": "A.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "A.",
+          "last_name": "Humphreys",
+          "fullname": "A. A. Humphreys"
+        }
       ],
       "divisions": 1
     }
   },
-  "campaign": "Appomattox Campaign [March-April 1865]",
-  "battle": "VA095",
-  "result": "Inconclusive",
+  "cwsac_reference": "VA095",
+  "operation": false,
+  "forces_text": "Divisions",
+  "start_date": "1865-04-06",
+  "preservation": "III.3",
+  "results_text": "Inconclusive",
+  "description": "On April 6, the Confederate cavalry fought stubbornly to secure the Appomattox River bridges. Confederate general Dearing was mortally wounded. On April 7, elements of the II Corps came up against Longstreet's rear guard attempting to fire the High Bridge and wagon bridge. Union forces were able to save the wagon bridge over which the II Corps crossed in pursuit of Lee's army. Failure to destroy this bridge enabled Union forces to catch up with the Confederates at Farmville.",
+  "state": "VA",
   "significance": "C",
   "other_names": null,
-  "state": "VA",
-  "preservation": "III.3",
+  "dates": "April 6-7, 1865",
+  "battle_name": "High Bridge",
   "principal_commanders": "Col. T. Read [US], Maj. Gen. A.A. Humphreys [US]; Maj. Gen. Thomas Rosser, Maj. Gen. William Mahone [CS]",
-  "end_date": "1865-04-07",
-  "cwsac_reference": "VA095",
-  "casualties": 1200,
+  "campaign": "Appomattox Campaign [March-April 1865]",
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Thomas",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Rosser",
+          "fullname": "Thomas Rosser"
+        },
+        {
+          "rank": "Major General",
+          "first_name": "William",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Mahone",
+          "fullname": "William Mahone"
+        }
+      ],
+      "divisions": 1
+    },
+    "US": {
+      "commanders": [
+        {
+          "rank": "Colonel",
+          "first_name": "T.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Read",
+          "fullname": "T. Read"
+        },
+        {
+          "rank": "Major General",
+          "first_name": "A.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "A.",
+          "last_name": "Humphreys",
+          "fullname": "A. A. Humphreys"
+        }
+      ],
+      "divisions": 1
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Thomas",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Rosser",
+          "fullname": "Thomas Rosser"
+        },
+        {
+          "rank": "Major General",
+          "first_name": "William",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Mahone",
+          "fullname": "William Mahone"
+        }
+      ],
+      "divisions": 1
+    }
+  },
+  "result": "Inconclusive",
+  "battle": "VA095",
   "location": [
     {
-      "place": "Prince Edward County",
-      "state": "VA"
+      "state": "VA",
+      "place": "Prince Edward County"
     },
     {
-      "place": "Cumberland County",
-      "state": "VA"
+      "state": "VA",
+      "place": "Cumberland County"
     }
   ],
-  "battle_name": "High Bridge"
+  "url": "http://www.nps.gov/hps/abpp/battles/va095.htm"
 }

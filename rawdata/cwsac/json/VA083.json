@@ -1,59 +1,59 @@
 {
-  "dates": "February 5-7, 1865",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/va083.htm",
-  "results_text": "Union gained ground",
+  "end_date": "1865-02-07",
+  "casualties": 2700,
   "casualties_text": "2,700 total",
-  "description": "On February 5, Bvt. Brig. Gen. David Gregg's cavalry division rode out to the Boydton Plank Road via Ream's Station and Dinwiddie Court House in an attempt to intercept Confederate supply trains. Maj. Gen. G.K. Warren with the V Corps crossed Hatcher's Run and took up a blocking position on the Vaughan Road to prevent interference with Gregg's operations. Two divisions of the II Corps under Maj. Gen. A.A. Humphreys shifted west to near Armstrong's Mill to cover Warren's right flank. Late in the day, Maj. Gen. John B. Gordon attempted to turn Humphreys right flank near the mill but was repulsed. During the night, the Federals were reinforced by two divisions. On February 6, Gregg returned to Gravelly Run on the Vaughan Road from his unsuccessful raid and was attacked by elements of Brig. Gen. John Pegram's Confederate division. Warren pushed forward a reconnaissance in the vicinity of Dabney's Mill and was attacked by Pegram's and Maj. Gen. William Mahone's divisions. Pegram was killed in the action. Although the Union advance was stopped, the Federals extended their siegeworks to the Vaughan Road crossing of Hatcher's Run.",
-  "start_date": "1865-02-05",
-  "forces_text": "48,352 total (US 34,517; CS 13,835)",
-  "strength": 48352,
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Gordon",
-          "middle_name": "B.",
           "rank": "Major General",
+          "first_name": "John",
           "suffix": "",
-          "fullname": "John B. Gordon",
-          "first_name": "John"
+          "navy": false,
+          "middle_name": "B.",
+          "last_name": "Gordon",
+          "fullname": "John B. Gordon"
         }
       ],
-      "strength_max": 13835,
       "strength_min": 13835,
-      "description": "13,835"
+      "description": "13,835",
+      "strength_max": 13835
     },
     "US": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Humphreys",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "A.A.",
           "suffix": "",
-          "fullname": "A.A. Humphreys",
-          "first_name": "A.A."
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Humphreys",
+          "fullname": "A.A. Humphreys"
         },
         {
-          "navy": false,
-          "last_name": "Warren",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "G.K.",
           "suffix": "",
-          "fullname": "G.K. Warren",
-          "first_name": "G.K."
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Warren",
+          "fullname": "G.K. Warren"
         }
       ],
-      "strength_max": 34517,
       "strength_min": 34517,
-      "description": "34,517"
+      "description": "34,517",
+      "strength_max": 34517
     }
   },
-  "campaign": "Richmond-Petersburg Campaign [June 1864-March 1865]",
-  "battle": "VA083",
-  "result": "Union",
+  "strength": 48352,
+  "cwsac_reference": "VA083",
+  "operation": false,
+  "forces_text": "48,352 total (US 34,517; CS 13,835)",
+  "start_date": "1865-02-05",
+  "preservation": "II.2",
+  "results_text": "Union gained ground",
+  "description": "On February 5, Bvt. Brig. Gen. David Gregg's cavalry division rode out to the Boydton Plank Road via Ream's Station and Dinwiddie Court House in an attempt to intercept Confederate supply trains. Maj. Gen. G.K. Warren with the V Corps crossed Hatcher's Run and took up a blocking position on the Vaughan Road to prevent interference with Gregg's operations. Two divisions of the II Corps under Maj. Gen. A.A. Humphreys shifted west to near Armstrong's Mill to cover Warren's right flank. Late in the day, Maj. Gen. John B. Gordon attempted to turn Humphreys right flank near the mill but was repulsed. During the night, the Federals were reinforced by two divisions. On February 6, Gregg returned to Gravelly Run on the Vaughan Road from his unsuccessful raid and was attacked by elements of Brig. Gen. John Pegram's Confederate division. Warren pushed forward a reconnaissance in the vicinity of Dabney's Mill and was attacked by Pegram's and Maj. Gen. William Mahone's divisions. Pegram was killed in the action. Although the Union advance was stopped, the Federals extended their siegeworks to the Vaughan Road crossing of Hatcher's Run.",
+  "state": "VA",
   "significance": "B",
   "other_names": [
     "Dabney's Mill",
@@ -61,17 +61,76 @@
     "Armstrong's Mill",
     "Vaughan Road"
   ],
-  "state": "VA",
-  "preservation": "II.2",
+  "dates": "February 5-7, 1865",
+  "battle_name": "Hatcher's Run",
   "principal_commanders": "Maj. Gen. A.A. Humphreys and Maj. Gen. G.K. Warren [US]; Maj. Gen. John B. Gordon [CS]",
-  "end_date": "1865-02-07",
-  "cwsac_reference": "VA083",
-  "casualties": 2700,
   "location": [
     {
-      "place": "Dinwiddie County",
-      "state": "VA"
+      "state": "VA",
+      "place": "Dinwiddie County"
     }
   ],
-  "battle_name": "Hatcher's Run"
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "B.",
+          "last_name": "Gordon",
+          "fullname": "John B. Gordon"
+        }
+      ],
+      "strength_min": 13835,
+      "description": "13,835",
+      "strength_max": 13835
+    },
+    "US": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "A.A.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Humphreys",
+          "fullname": "A.A. Humphreys"
+        },
+        {
+          "rank": "Major General",
+          "first_name": "G.K.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Warren",
+          "fullname": "G.K. Warren"
+        }
+      ],
+      "strength_min": 34517,
+      "description": "34,517",
+      "strength_max": 34517
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "B.",
+          "last_name": "Gordon",
+          "fullname": "John B. Gordon"
+        }
+      ],
+      "strength_min": 13835,
+      "description": "13,835",
+      "strength_max": 13835
+    }
+  },
+  "result": "Union",
+  "battle": "VA083",
+  "campaign": "Richmond-Petersburg Campaign [June 1864-March 1865]",
+  "url": "http://www.nps.gov/hps/abpp/battles/va083.htm"
 }

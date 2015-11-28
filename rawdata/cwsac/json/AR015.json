@@ -1,62 +1,112 @@
 {
-  "dates": "April 25, 1864",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/ar015.htm",
-  "results_text": "Confederate victory",
+  "end_date": "1864-04-25",
+  "casualties": 1793,
   "casualties_text": "1,793 total (US 1,500; CS 293)",
-  "description": "A Union force escorted 240 wagons from Camden to Pine Bluff to pick up supplies and transport them back to Maj. Gen. Fred Steele's army. At first the Union escort rebuffed Rebel attempts to halt them. Then the Confederates moved in on the Union rear and front, causing a rout. The Rebels captured most of the men and all of the supply wagons. Thus, Steele gave up all thoughts of uniting with Maj. Gen. Nathaniel Banks on the Red River and realized that he had to save his army.",
-  "start_date": "1864-04-25",
-  "forces_text": "Infantry brigade [US]; two divisions [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": 293,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Fagan",
-          "middle_name": "B.",
           "rank": "Brigadier General",
+          "first_name": "James",
           "suffix": "",
-          "fullname": "James B. Fagan",
-          "first_name": "James"
+          "navy": false,
+          "middle_name": "B.",
+          "last_name": "Fagan",
+          "fullname": "James B. Fagan"
         }
       ],
       "divisions": 2,
-      "description": "two divisions",
-      "casualties": 293
+      "description": "two divisions"
     },
     "US": {
+      "casualties": 1500,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Drake",
-          "middle_name": "",
           "rank": "Lieutenant Colonel",
+          "first_name": "Francis",
           "suffix": "",
-          "fullname": "Francis Drake",
-          "first_name": "Francis"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Drake",
+          "fullname": "Francis Drake"
         }
       ],
-      "description": "Infantry brigade",
       "brigades": 1,
-      "casualties": 1500
+      "description": "Infantry brigade"
     }
   },
-  "campaign": "Camden Expedition [April 1864]",
-  "battle": "AR015",
-  "result": "Confederate",
+  "cwsac_reference": "AR015",
+  "operation": false,
+  "forces_text": "Infantry brigade [US]; two divisions [CS]",
+  "start_date": "1864-04-25",
+  "preservation": "II.4",
+  "results_text": "Confederate victory",
+  "description": "A Union force escorted 240 wagons from Camden to Pine Bluff to pick up supplies and transport them back to Maj. Gen. Fred Steele's army. At first the Union escort rebuffed Rebel attempts to halt them. Then the Confederates moved in on the Union rear and front, causing a rout. The Rebels captured most of the men and all of the supply wagons. Thus, Steele gave up all thoughts of uniting with Maj. Gen. Nathaniel Banks on the Red River and realized that he had to save his army.",
+  "state": "AR",
   "significance": "D",
   "other_names": null,
-  "state": "AR",
-  "preservation": "II.4",
+  "dates": "April 25, 1864",
+  "battle_name": "Marks' Mills",
   "principal_commanders": "Lt. Col. Francis Drake [US]; Brig. Gen. James B. Fagan [CS]",
-  "end_date": "1864-04-25",
-  "cwsac_reference": "AR015",
-  "casualties": 1793,
+  "campaign": "Camden Expedition [April 1864]",
+  "belligerents": {
+    "Confederate": {
+      "casualties": 293,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "James",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "B.",
+          "last_name": "Fagan",
+          "fullname": "James B. Fagan"
+        }
+      ],
+      "divisions": 2,
+      "description": "two divisions"
+    },
+    "US": {
+      "casualties": 1500,
+      "commanders": [
+        {
+          "rank": "Lieutenant Colonel",
+          "first_name": "Francis",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Drake",
+          "fullname": "Francis Drake"
+        }
+      ],
+      "brigades": 1,
+      "description": "Infantry brigade"
+    },
+    "CS": {
+      "casualties": 293,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "James",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "B.",
+          "last_name": "Fagan",
+          "fullname": "James B. Fagan"
+        }
+      ],
+      "divisions": 2,
+      "description": "two divisions"
+    }
+  },
+  "result": "Confederate",
+  "battle": "AR015",
   "location": [
     {
-      "place": "Cleveland County",
-      "state": "AR"
+      "state": "AR",
+      "place": "Cleveland County"
     }
   ],
-  "battle_name": "Marks' Mills"
+  "url": "http://www.nps.gov/hps/abpp/battles/ar015.htm"
 }

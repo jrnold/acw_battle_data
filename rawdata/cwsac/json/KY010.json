@@ -1,71 +1,129 @@
 {
-  "dates": "March 25, 1864",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/ky010.htm",
-  "results_text": "Confederate victory",
+  "end_date": "1864-03-25",
+  "casualties": 140,
   "casualties_text": "140 total (US 90; CS 50)",
-  "description": "In March 1864, Forrest set out from Columbus, Mississippi, with a force of less than 3,000 men on a multipurpose expedition (recruit, reoutfit, disperse Yankees, etc.) into West Tennessee and Kentucky. Forrest arrived in Paducah on March 25 and quickly occupied the town. The Union garrison of 650 men under the command of Col. Stephen G. Hicks retired to Fort Anderson, in the town's west end. Hicks had support from two gunboats on the Ohio River and refused to surrender, while shelling the area with his artillery. Most of Forrest's command destroyed unwanted supplies, loaded what they wanted, and rounded up horses and mules. A small segment of Forrest's command assaulted Fort Anderson and was repulsed, suffering heavy casualties. Soon afterwards, Forrest's men withdrew. In reporting the raid on the town, many newspapers stated that Forrest had not found more than a hundred fine horses hidden during the raid. As a result, one of Forrest's subordinate officers led a force back into Paducah in mid-April and seized the infamous horses. Although this was a Confederate victory, other than the destruction of supplies and capture of animals, no lasting results occurred. It did, however, warn the Federals that Forrest, or someone like him, could strike anywhere at any time.",
-  "start_date": "1864-03-25",
-  "forces_text": "Union Garrison (approx. 650 men) [US]; Forrest's Cavalry Department [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": 50,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Forrest",
-          "middle_name": "Bedford",
           "rank": "Major General",
+          "first_name": "Nathan",
           "suffix": "",
-          "fullname": "Nathan Bedford Forrest",
-          "first_name": "Nathan"
+          "navy": false,
+          "middle_name": "Bedford",
+          "last_name": "Forrest",
+          "fullname": "Nathan Bedford Forrest"
         }
       ],
-      "description": "Forrest's Cavalry Department",
-      "casualties": 50
+      "description": "Forrest's Cavalry Department"
     },
     "US": {
+      "casualties": 90,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Hicks",
-          "middle_name": "G.",
           "rank": "Colonel",
+          "first_name": "Stephen",
           "suffix": "",
-          "fullname": "Stephen G. Hicks",
-          "first_name": "Stephen"
+          "navy": false,
+          "middle_name": "G.",
+          "last_name": "Hicks",
+          "fullname": "Stephen G. Hicks"
         },
         {
-          "navy": true,
-          "last_name": "Shirk",
-          "middle_name": "W.",
           "rank": "Lieutenant Commander",
+          "first_name": "James",
           "suffix": "",
-          "fullname": "James W. Shirk",
-          "first_name": "James"
+          "navy": true,
+          "middle_name": "W.",
+          "last_name": "Shirk",
+          "fullname": "James W. Shirk"
         }
       ],
       "description": "Union Garrison (approx. 650 men)",
-      "strength_max": 650,
       "strength_min": 650,
-      "casualties": 90
+      "strength_max": 650
     }
   },
-  "campaign": "Forrest's Expedition into West Tennessee and Kentucky [March-April 1864]",
-  "battle": "KY010",
-  "result": "Confederate",
+  "cwsac_reference": "KY010",
+  "operation": false,
+  "forces_text": "Union Garrison (approx. 650 men) [US]; Forrest's Cavalry Department [CS]",
+  "start_date": "1864-03-25",
+  "preservation": "IV.2",
+  "results_text": "Confederate victory",
+  "description": "In March 1864, Forrest set out from Columbus, Mississippi, with a force of less than 3,000 men on a multipurpose expedition (recruit, reoutfit, disperse Yankees, etc.) into West Tennessee and Kentucky. Forrest arrived in Paducah on March 25 and quickly occupied the town. The Union garrison of 650 men under the command of Col. Stephen G. Hicks retired to Fort Anderson, in the town's west end. Hicks had support from two gunboats on the Ohio River and refused to surrender, while shelling the area with his artillery. Most of Forrest's command destroyed unwanted supplies, loaded what they wanted, and rounded up horses and mules. A small segment of Forrest's command assaulted Fort Anderson and was repulsed, suffering heavy casualties. Soon afterwards, Forrest's men withdrew. In reporting the raid on the town, many newspapers stated that Forrest had not found more than a hundred fine horses hidden during the raid. As a result, one of Forrest's subordinate officers led a force back into Paducah in mid-April and seized the infamous horses. Although this was a Confederate victory, other than the destruction of supplies and capture of animals, no lasting results occurred. It did, however, warn the Federals that Forrest, or someone like him, could strike anywhere at any time.",
+  "state": "KY",
   "significance": "C",
   "other_names": null,
-  "state": "KY",
-  "preservation": "IV.2",
+  "dates": "March 25, 1864",
+  "battle_name": "Paducah",
   "principal_commanders": "Col. Stephen G. Hicks and Lt. Cdr. James W. Shirk [US]; Maj. Gen. Nathan Bedford Forrest [CS]",
-  "end_date": "1864-03-25",
-  "cwsac_reference": "KY010",
-  "casualties": 140,
+  "campaign": "Forrest's Expedition into West Tennessee and Kentucky [March-April 1864]",
+  "belligerents": {
+    "Confederate": {
+      "casualties": 50,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Nathan",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "Bedford",
+          "last_name": "Forrest",
+          "fullname": "Nathan Bedford Forrest"
+        }
+      ],
+      "description": "Forrest's Cavalry Department"
+    },
+    "US": {
+      "casualties": 90,
+      "commanders": [
+        {
+          "rank": "Colonel",
+          "first_name": "Stephen",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "G.",
+          "last_name": "Hicks",
+          "fullname": "Stephen G. Hicks"
+        },
+        {
+          "rank": "Lieutenant Commander",
+          "first_name": "James",
+          "suffix": "",
+          "navy": true,
+          "middle_name": "W.",
+          "last_name": "Shirk",
+          "fullname": "James W. Shirk"
+        }
+      ],
+      "description": "Union Garrison (approx. 650 men)",
+      "strength_min": 650,
+      "strength_max": 650
+    },
+    "CS": {
+      "casualties": 50,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Nathan",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "Bedford",
+          "last_name": "Forrest",
+          "fullname": "Nathan Bedford Forrest"
+        }
+      ],
+      "description": "Forrest's Cavalry Department"
+    }
+  },
+  "result": "Confederate",
+  "battle": "KY010",
   "location": [
     {
-      "place": "McCracken County",
-      "state": "KY"
+      "state": "KY",
+      "place": "McCracken County"
     }
   ],
-  "battle_name": "Paducah"
+  "url": "http://www.nps.gov/hps/abpp/battles/ky010.htm"
 }

@@ -1,23 +1,18 @@
 {
-  "dates": "October 1-3, 1862",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/fl003.htm",
-  "results_text": "Union victory",
+  "end_date": "1862-10-03",
+  "casualties": null,
   "casualties_text": "Unknown",
-  "description": "Brig. Gen. John Finegan established a battery on St. John' s Bluff near Jacksonville to stop the movement of Federal ships up the St. Johns River. Brig. Gen. John M. Brannan embarked with about 1,500 infantry aboard the transports Boston, Ben DeFord, Cosmopolitan, and Neptune at Hilton Head, South Carolina, on September 30. The flotilla arrived at the mouth of the St. John' s River on October 1, where Cdr. Charles Steedman' s gunboats-Paul Jones, Cimarron, Uncas, Patroon, Hale, and Water Witch-joined them. By midday, the gunboats approached the bluff, while Brannan began landing troops at Mayport Mills. Another infantry force landed at Mount Pleasant Creek, about five miles in the rear of the Confederate battery, and began marching overland on the 2nd. Outmaneuvered, Lt. Col. Charles F. Hopkins abandoned the position after dark. When the gunboats approached the bluff the next day, its guns were silent.",
-  "start_date": "1862-10-01",
-  "forces_text": "Expeditionary Force: 2 infantry regiments, a light artillery battery and detachment of the 1st Massachusetts Cavalry (total force 1,573) [US]; a small artillery and cavalry force [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Hopkins",
-          "middle_name": "F.",
           "rank": "Lieutenant Colonel",
+          "first_name": "Charles",
           "suffix": "",
-          "fullname": "Charles F. Hopkins",
-          "first_name": "Charles"
+          "navy": false,
+          "middle_name": "F.",
+          "last_name": "Hopkins",
+          "fullname": "Charles F. Hopkins"
         }
       ],
       "description": "a small artillery and cavalry force"
@@ -25,36 +20,87 @@
     "US": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Brannan",
-          "middle_name": "M.",
           "rank": "Brigadier General",
+          "first_name": "John",
           "suffix": "",
-          "fullname": "John M. Brannan",
-          "first_name": "John"
+          "navy": false,
+          "middle_name": "M.",
+          "last_name": "Brannan",
+          "fullname": "John M. Brannan"
         }
       ],
-      "strength_max": 1573,
       "strength_min": 1573,
-      "description": "Expeditionary Force: 2 infantry regiments, a light artillery battery and detachment of the 1st Massachusetts Cavalry (total force 1,573)"
+      "description": "Expeditionary Force: 2 infantry regiments, a light artillery battery and detachment of the 1st Massachusetts Cavalry (total force 1,573)",
+      "strength_max": 1573
     }
   },
-  "campaign": "Expedition to St. John's Bluff [September-October 1862]",
-  "battle": "FL003",
-  "result": "Union",
+  "cwsac_reference": "FL003",
+  "operation": false,
+  "forces_text": "Expeditionary Force: 2 infantry regiments, a light artillery battery and detachment of the 1st Massachusetts Cavalry (total force 1,573) [US]; a small artillery and cavalry force [CS]",
+  "start_date": "1862-10-01",
+  "preservation": "IV.2",
+  "results_text": "Union victory",
+  "description": "Brig. Gen. John Finegan established a battery on St. John' s Bluff near Jacksonville to stop the movement of Federal ships up the St. Johns River. Brig. Gen. John M. Brannan embarked with about 1,500 infantry aboard the transports Boston, Ben DeFord, Cosmopolitan, and Neptune at Hilton Head, South Carolina, on September 30. The flotilla arrived at the mouth of the St. John' s River on October 1, where Cdr. Charles Steedman' s gunboats-Paul Jones, Cimarron, Uncas, Patroon, Hale, and Water Witch-joined them. By midday, the gunboats approached the bluff, while Brannan began landing troops at Mayport Mills. Another infantry force landed at Mount Pleasant Creek, about five miles in the rear of the Confederate battery, and began marching overland on the 2nd. Outmaneuvered, Lt. Col. Charles F. Hopkins abandoned the position after dark. When the gunboats approached the bluff the next day, its guns were silent.",
+  "state": "FL",
   "significance": "D",
   "other_names": null,
-  "state": "FL",
-  "preservation": "IV.2",
+  "dates": "October 1-3, 1862",
+  "battle_name": "St. John's Bluff",
   "principal_commanders": "Brig. Gen. John M. Brannan [US]; Lt. Col. Charles F. Hopkins [CS]",
-  "end_date": "1862-10-03",
-  "cwsac_reference": "FL003",
-  "casualties": null,
+  "campaign": "Expedition to St. John's Bluff [September-October 1862]",
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "Lieutenant Colonel",
+          "first_name": "Charles",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "F.",
+          "last_name": "Hopkins",
+          "fullname": "Charles F. Hopkins"
+        }
+      ],
+      "description": "a small artillery and cavalry force"
+    },
+    "US": {
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "M.",
+          "last_name": "Brannan",
+          "fullname": "John M. Brannan"
+        }
+      ],
+      "strength_min": 1573,
+      "description": "Expeditionary Force: 2 infantry regiments, a light artillery battery and detachment of the 1st Massachusetts Cavalry (total force 1,573)",
+      "strength_max": 1573
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "Lieutenant Colonel",
+          "first_name": "Charles",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "F.",
+          "last_name": "Hopkins",
+          "fullname": "Charles F. Hopkins"
+        }
+      ],
+      "description": "a small artillery and cavalry force"
+    }
+  },
+  "result": "Union",
+  "battle": "FL003",
   "location": [
     {
-      "place": "Duval County",
-      "state": "FL"
+      "state": "FL",
+      "place": "Duval County"
     }
   ],
-  "battle_name": "St. John's Bluff"
+  "url": "http://www.nps.gov/hps/abpp/battles/fl003.htm"
 }

@@ -1,72 +1,132 @@
 {
-  "dates": "October 21, 1861",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/mo007.htm",
-  "results_text": "Union victory",
+  "end_date": "1861-10-21",
+  "casualties": null,
   "casualties_text": "Total unknown (US unknown; CS 62)",
-  "description": "Two Union columns, one under Col. J.B. Plummer and another under Col. William P. Carlin, advanced on Fredericktown to overtake Brig. Gen. M. Jeff Thompson and his men. On the morning of October 21, Thompson's force left Fredericktown headed south. About twelve miles out, Thompson left his supply train in a secure position and returned toward Fredericktown. He then learned that Union forces had occupied Fredericktown, so Thompson spent the morning attempting to discern the enemy numbers and disposition. Unable to do so, he attacked anyway, around noon. Plummer, with his force and a detachment of Col. William P. Carlin's troops, met the Rebel forces outside town and a two-hour fight ensued. Overwhelming Union forces took their toll, and Thompson's men retreated. Union cavalry pursued. Fredericktown cemented Union control of southeastern Missouri.",
-  "start_date": "1861-10-21",
-  "forces_text": "Brigade size force (approx. 2,500-3,500) [US]; Missouri State Guard [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Thompson",
-          "middle_name": "Jeff",
           "rank": "Brigadier General",
+          "first_name": "M.",
           "suffix": "",
-          "fullname": "M. Jeff Thompson",
-          "first_name": "M."
+          "navy": false,
+          "middle_name": "Jeff",
+          "last_name": "Thompson",
+          "fullname": "M. Jeff Thompson"
         }
       ],
-      "description": "Missouri State Guard",
       "casualties": 62,
-      "missouri_state_guard": true  
+      "missouri_state_guard": true,
+      "description": "Missouri State Guard"
     },
     "US": {
+      "casualties": null,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Plummer",
-          "middle_name": "",
           "rank": "Colonel",
+          "first_name": "J.B.",
           "suffix": "",
-          "fullname": "J.B. Plummer",
-          "first_name": "J.B."
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Plummer",
+          "fullname": "J.B. Plummer"
         },
         {
-          "navy": false,
-          "last_name": "Carlin",
-          "middle_name": "P.",
           "rank": "Colonel",
+          "first_name": "William",
           "suffix": "",
-          "fullname": "William P. Carlin",
-          "first_name": "William"
+          "navy": false,
+          "middle_name": "P.",
+          "last_name": "Carlin",
+          "fullname": "William P. Carlin"
         }
       ],
       "description": "Brigade size force (approx. 2,500-3,500)",
-      "strength_max": 2500,
       "strength_min": 2500,
-      "casualties": null
+      "strength_max": 2500
     }
   },
-  "campaign": "Operations to Control Missouri [June-October 1861]",
-  "battle": "MO007",
-  "result": "Union",
+  "cwsac_reference": "MO007",
+  "operation": false,
+  "forces_text": "Brigade size force (approx. 2,500-3,500) [US]; Missouri State Guard [CS]",
+  "start_date": "1861-10-21",
+  "preservation": "II.4",
+  "results_text": "Union victory",
+  "description": "Two Union columns, one under Col. J.B. Plummer and another under Col. William P. Carlin, advanced on Fredericktown to overtake Brig. Gen. M. Jeff Thompson and his men. On the morning of October 21, Thompson's force left Fredericktown headed south. About twelve miles out, Thompson left his supply train in a secure position and returned toward Fredericktown. He then learned that Union forces had occupied Fredericktown, so Thompson spent the morning attempting to discern the enemy numbers and disposition. Unable to do so, he attacked anyway, around noon. Plummer, with his force and a detachment of Col. William P. Carlin's troops, met the Rebel forces outside town and a two-hour fight ensued. Overwhelming Union forces took their toll, and Thompson's men retreated. Union cavalry pursued. Fredericktown cemented Union control of southeastern Missouri.",
+  "state": "MO",
   "significance": "D",
   "other_names": null,
-  "state": "MO",
-  "preservation": "II.4",
+  "dates": "October 21, 1861",
+  "battle_name": "Fredericktown",
   "principal_commanders": "Col. J.B. Plummer and Col. William P. Carlin [US]; Brig. Gen. M. Jeff Thompson [CS]",
-  "end_date": "1861-10-21",
-  "cwsac_reference": "MO007",
-  "casualties": null,
+  "campaign": "Operations to Control Missouri [June-October 1861]",
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "M.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "Jeff",
+          "last_name": "Thompson",
+          "fullname": "M. Jeff Thompson"
+        }
+      ],
+      "casualties": 62,
+      "missouri_state_guard": true,
+      "description": "Missouri State Guard"
+    },
+    "US": {
+      "casualties": null,
+      "commanders": [
+        {
+          "rank": "Colonel",
+          "first_name": "J.B.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Plummer",
+          "fullname": "J.B. Plummer"
+        },
+        {
+          "rank": "Colonel",
+          "first_name": "William",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "P.",
+          "last_name": "Carlin",
+          "fullname": "William P. Carlin"
+        }
+      ],
+      "description": "Brigade size force (approx. 2,500-3,500)",
+      "strength_min": 2500,
+      "strength_max": 2500
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "M.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "Jeff",
+          "last_name": "Thompson",
+          "fullname": "M. Jeff Thompson"
+        }
+      ],
+      "casualties": 62,
+      "missouri_state_guard": true,
+      "description": "Missouri State Guard"
+    }
+  },
+  "result": "Union",
+  "battle": "MO007",
   "location": [
     {
-      "place": "Madison County",
-      "state": "MO"
+      "state": "MO",
+      "place": "Madison County"
     }
   ],
-  "battle_name": "Fredericktown"
+  "url": "http://www.nps.gov/hps/abpp/battles/mo007.htm"
 }

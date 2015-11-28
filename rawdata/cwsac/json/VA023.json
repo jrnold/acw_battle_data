@@ -1,23 +1,18 @@
 {
-  "dates": "August 22-25, 1862",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/va023.htm",
-  "results_text": "Inconclusive",
+  "end_date": "1862-08-25",
+  "casualties": 225,
   "casualties_text": "225 total",
-  "description": "Early August, Lee determined that McClellan's army was being withdrawn from the Peninsula to reinforce John Pope. He sent Longstreet from Richmond to join Jackson's wing of the army near Gordonsville and arrived to take command himself on August 15. August 20-21, Pope withdrew to the line of the Rappahannock River. On August 23, Stuart's cavalry made a daring raid on Pope's headquarters at Catlett Station, showing that the Union right flank was vulnerable to a turning movement. Over the next several days, August 22-25, the two armies fought a series of minor actions along the Rappahannock River, including Waterloo Bridge, Lee Springs, Freeman's Ford, and Sulphur Springs, resulting in a few hundred casualties. Together, these skirmishes primed Pope's army along the river, while Jackson's wing marched via Thoroughfare Gap to capture Bristoe Station and destroy Federal supplies at Manassas Junction, far in the rear of Pope's army.",
-  "start_date": "1862-08-22",
-  "forces_text": "Brigades",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Jackson",
-          "middle_name": "J.",
           "rank": "Major General",
+          "first_name": "Thomas",
           "suffix": "",
-          "fullname": "Thomas J. Jackson",
-          "first_name": "Thomas"
+          "navy": false,
+          "middle_name": "J.",
+          "last_name": "Jackson",
+          "fullname": "Thomas J. Jackson"
         }
       ],
       "brigades": 1
@@ -25,21 +20,26 @@
     "US": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Pope",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "John",
           "suffix": "",
-          "fullname": "John Pope",
-          "first_name": "John"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Pope",
+          "fullname": "John Pope"
         }
       ],
       "brigades": 1
     }
   },
-  "campaign": "Northern Virginia Campaign [August 1862]",
-  "battle": "VA023",
-  "result": "Inconclusive",
+  "cwsac_reference": "VA023",
+  "operation": false,
+  "forces_text": "Brigades",
+  "start_date": "1862-08-22",
+  "preservation": "II.4",
+  "results_text": "Inconclusive",
+  "description": "Early August, Lee determined that McClellan's army was being withdrawn from the Peninsula to reinforce John Pope. He sent Longstreet from Richmond to join Jackson's wing of the army near Gordonsville and arrived to take command himself on August 15. August 20-21, Pope withdrew to the line of the Rappahannock River. On August 23, Stuart's cavalry made a daring raid on Pope's headquarters at Catlett Station, showing that the Union right flank was vulnerable to a turning movement. Over the next several days, August 22-25, the two armies fought a series of minor actions along the Rappahannock River, including Waterloo Bridge, Lee Springs, Freeman's Ford, and Sulphur Springs, resulting in a few hundred casualties. Together, these skirmishes primed Pope's army along the river, while Jackson's wing marched via Thoroughfare Gap to capture Bristoe Station and destroy Federal supplies at Manassas Junction, far in the rear of Pope's army.",
+  "state": "VA",
   "significance": "D",
   "other_names": [
     "Waterloo Bridge",
@@ -47,21 +47,65 @@
     "Lee Springs",
     "Freeman's Ford"
   ],
-  "state": "VA",
-  "preservation": "II.4",
+  "dates": "August 22-25, 1862",
+  "battle_name": "Rappahannock Station",
   "principal_commanders": "Maj. Gen. John Pope [US]; Maj. Gen. Thomas J. Jackson [CS]",
-  "end_date": "1862-08-25",
-  "cwsac_reference": "VA023",
-  "casualties": 225,
+  "campaign": "Northern Virginia Campaign [August 1862]",
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Thomas",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "J.",
+          "last_name": "Jackson",
+          "fullname": "Thomas J. Jackson"
+        }
+      ],
+      "brigades": 1
+    },
+    "US": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Pope",
+          "fullname": "John Pope"
+        }
+      ],
+      "brigades": 1
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Thomas",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "J.",
+          "last_name": "Jackson",
+          "fullname": "Thomas J. Jackson"
+        }
+      ],
+      "brigades": 1
+    }
+  },
+  "result": "Inconclusive",
+  "battle": "VA023",
   "location": [
     {
-      "place": "Culpeper County",
-      "state": "VA"
+      "state": "VA",
+      "place": "Culpeper County"
     },
     {
-      "place": "Fauquier County",
-      "state": "VA"
+      "state": "VA",
+      "place": "Fauquier County"
     }
   ],
-  "battle_name": "Rappahannock Station"
+  "url": "http://www.nps.gov/hps/abpp/battles/va023.htm"
 }

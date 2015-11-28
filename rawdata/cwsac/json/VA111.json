@@ -1,67 +1,120 @@
 {
-  "dates": "June 5-6, 1864",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/va111.htm",
-  "results_text": "Union victory",
+  "end_date": "1864-06-06",
+  "casualties": 2375,
   "casualties_text": "2,375 total (US 875; CS 1500)",
-  "description": "After replacing Sigel in command of Union forces in the Shenandoah Valley, Maj. Gen. David \"Black Dave\" Hunter renewed the Union offensive. On June 5, Hunter engaged the Confederate army under \"Grumble\" Jones north of Piedmont. After severe fighting, a flanking movement made by Thoburn's brigade turned Jones's right flank. While trying to stem the retreat of his soldiers, Jones was killed. The retreat became a rout. More than 1,000 Confederates, including 60 officers, were captured. Jones lost three guns. Hunter occupied Staunton on June 6 and, after a pause to await the arrival of Brig. Gen. George Crook's column, began to advance on Lynchburg, destroying military stores and public property in his wake.",
-  "start_date": "1864-06-05",
-  "forces_text": "14,000 total (US 8,500; CS 5,500)",
-  "strength": 14000,
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": 1500,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Jones",
-          "middle_name": "E.",
           "rank": "Brigadier General",
+          "first_name": "William",
           "suffix": "",
-          "fullname": "William E. Jones",
-          "first_name": "William"
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Jones",
+          "fullname": "William E. Jones"
         }
       ],
       "description": "5,500",
-      "strength_max": 5500,
       "strength_min": 5500,
-      "casualties": 1500
+      "strength_max": 5500
     },
     "US": {
+      "casualties": 875,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Hunter",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "David",
           "suffix": "",
-          "fullname": "David Hunter",
-          "first_name": "David"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Hunter",
+          "fullname": "David Hunter"
         }
       ],
       "description": "8,500",
-      "strength_max": 8500,
       "strength_min": 8500,
-      "casualties": 875
+      "strength_max": 8500
     }
   },
-  "campaign": "Lynchburg Campaign [May-June 1864]",
-  "battle": "VA111",
-  "result": "Union",
+  "strength": 14000,
+  "cwsac_reference": "VA111",
+  "operation": false,
+  "forces_text": "14,000 total (US 8,500; CS 5,500)",
+  "start_date": "1864-06-05",
+  "preservation": "II.2",
+  "results_text": "Union victory",
+  "description": "After replacing Sigel in command of Union forces in the Shenandoah Valley, Maj. Gen. David \"Black Dave\" Hunter renewed the Union offensive. On June 5, Hunter engaged the Confederate army under \"Grumble\" Jones north of Piedmont. After severe fighting, a flanking movement made by Thoburn's brigade turned Jones's right flank. While trying to stem the retreat of his soldiers, Jones was killed. The retreat became a rout. More than 1,000 Confederates, including 60 officers, were captured. Jones lost three guns. Hunter occupied Staunton on June 6 and, after a pause to await the arrival of Brig. Gen. George Crook's column, began to advance on Lynchburg, destroying military stores and public property in his wake.",
+  "state": "VA",
   "significance": "B",
   "other_names": [
     "Piedmont"
   ],
-  "state": "VA",
-  "preservation": "II.2",
+  "dates": "June 5-6, 1864",
+  "battle_name": "Piedmont",
   "principal_commanders": "Maj. Gen. David Hunter [US]; Brig. Gen. William E. Jones [CS]",
-  "end_date": "1864-06-06",
-  "cwsac_reference": "VA111",
-  "casualties": 2375,
   "location": [
     {
-      "place": "Augusta County",
-      "state": "VA"
+      "state": "VA",
+      "place": "Augusta County"
     }
   ],
-  "battle_name": "Piedmont"
+  "belligerents": {
+    "Confederate": {
+      "casualties": 1500,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "William",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Jones",
+          "fullname": "William E. Jones"
+        }
+      ],
+      "description": "5,500",
+      "strength_min": 5500,
+      "strength_max": 5500
+    },
+    "US": {
+      "casualties": 875,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "David",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Hunter",
+          "fullname": "David Hunter"
+        }
+      ],
+      "description": "8,500",
+      "strength_min": 8500,
+      "strength_max": 8500
+    },
+    "CS": {
+      "casualties": 1500,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "William",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Jones",
+          "fullname": "William E. Jones"
+        }
+      ],
+      "description": "5,500",
+      "strength_min": 5500,
+      "strength_max": 5500
+    }
+  },
+  "result": "Union",
+  "battle": "VA111",
+  "campaign": "Lynchburg Campaign [May-June 1864]",
+  "url": "http://www.nps.gov/hps/abpp/battles/va111.htm"
 }

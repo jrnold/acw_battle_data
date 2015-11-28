@@ -1,62 +1,112 @@
 {
-  "dates": "June 28, 1863",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/la013.htm",
-  "results_text": "Union victory",
+  "end_date": "1863-06-28",
+  "casualties": 324,
   "casualties_text": "324 total (US 23; CS 301)",
-  "description": "On June 28, 1863, Confederate Brig. Gen. Jean Alfred Mouton ordered Brig. Gen. Tom Green's and Col. James P. Major's brigades to take Donaldsonville. The Union had built Fort Butler, which the Rebels had to take before occupying the town. On the night of June 27, Green, within a mile and a half of the fort, began moving troops ahead to attack. The attack started soon after midnight, and the Confederates quickly surrounded the fort and began passing through the various obstructions. Unfortunately, those troops attacking along the levee came to a ditch, unknown to them, too wide to cross, that saved the day for the Union garrison. A Union gunboat, Princess Royal, came to the garrison's aid also and began shelling the attackers. Futile Confederate assaults continued for some time but they eventually ceased their operations and retired. This point on the Mississippi remained in Union hands and many other Mississippi River towns were occupied by the Yankees: the Confederates could harass but not eliminate these Union enclaves.",
-  "start_date": "1863-06-28",
-  "forces_text": "Fort Butler Garrison: two companies of the 28th Maine Volunteer Infantry and some convalescents from various regiments [US]; Tom Green's Texas Brigade and Colonel James Patrick Major's Texas Brigade [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": 301,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Green",
-          "middle_name": "",
           "rank": "Brigadier General",
+          "first_name": "Tom",
           "suffix": "",
-          "fullname": "Tom Green",
-          "first_name": "Tom"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Green",
+          "fullname": "Tom Green"
         }
       ],
-      "description": "Tom Green's Texas Brigade and Colonel James Patrick Major's Texas Brigade",
       "brigades": 2,
-      "casualties": 301
+      "description": "Tom Green's Texas Brigade and Colonel James Patrick Major's Texas Brigade"
     },
     "US": {
+      "casualties": 23,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Bullen",
-          "middle_name": "D.",
           "rank": "Major",
+          "first_name": "Joseph",
           "suffix": "",
-          "fullname": "Joseph D. Bullen",
-          "first_name": "Joseph"
+          "navy": false,
+          "middle_name": "D.",
+          "last_name": "Bullen",
+          "fullname": "Joseph D. Bullen"
         }
       ],
-      "description": "Fort Butler Garrison: two companies of the 28th Maine Volunteer Infantry and some convalescents from various regiments",
       "companies": 2,
-      "casualties": 23
+      "description": "Fort Butler Garrison: two companies of the 28th Maine Volunteer Infantry and some convalescents from various regiments"
     }
   },
-  "campaign": "Taylor's Operations in West Louisiana [June-September 1863]",
-  "battle": "LA013",
-  "result": "Union",
+  "cwsac_reference": "LA013",
+  "operation": false,
+  "forces_text": "Fort Butler Garrison: two companies of the 28th Maine Volunteer Infantry and some convalescents from various regiments [US]; Tom Green's Texas Brigade and Colonel James Patrick Major's Texas Brigade [CS]",
+  "start_date": "1863-06-28",
+  "preservation": "IV.2",
+  "results_text": "Union victory",
+  "description": "On June 28, 1863, Confederate Brig. Gen. Jean Alfred Mouton ordered Brig. Gen. Tom Green's and Col. James P. Major's brigades to take Donaldsonville. The Union had built Fort Butler, which the Rebels had to take before occupying the town. On the night of June 27, Green, within a mile and a half of the fort, began moving troops ahead to attack. The attack started soon after midnight, and the Confederates quickly surrounded the fort and began passing through the various obstructions. Unfortunately, those troops attacking along the levee came to a ditch, unknown to them, too wide to cross, that saved the day for the Union garrison. A Union gunboat, Princess Royal, came to the garrison's aid also and began shelling the attackers. Futile Confederate assaults continued for some time but they eventually ceased their operations and retired. This point on the Mississippi remained in Union hands and many other Mississippi River towns were occupied by the Yankees: the Confederates could harass but not eliminate these Union enclaves.",
+  "state": "LA",
   "significance": "D",
   "other_names": null,
-  "state": "LA",
-  "preservation": "IV.2",
+  "dates": "June 28, 1863",
+  "battle_name": "Donaldsonville",
   "principal_commanders": "Maj. Joseph D. Bullen [US]; Brig. Gen. Tom Green [CS]",
-  "end_date": "1863-06-28",
-  "cwsac_reference": "LA013",
-  "casualties": 324,
+  "campaign": "Taylor's Operations in West Louisiana [June-September 1863]",
+  "belligerents": {
+    "Confederate": {
+      "casualties": 301,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Tom",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Green",
+          "fullname": "Tom Green"
+        }
+      ],
+      "brigades": 2,
+      "description": "Tom Green's Texas Brigade and Colonel James Patrick Major's Texas Brigade"
+    },
+    "US": {
+      "casualties": 23,
+      "commanders": [
+        {
+          "rank": "Major",
+          "first_name": "Joseph",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "D.",
+          "last_name": "Bullen",
+          "fullname": "Joseph D. Bullen"
+        }
+      ],
+      "companies": 2,
+      "description": "Fort Butler Garrison: two companies of the 28th Maine Volunteer Infantry and some convalescents from various regiments"
+    },
+    "CS": {
+      "casualties": 301,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Tom",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Green",
+          "fullname": "Tom Green"
+        }
+      ],
+      "brigades": 2,
+      "description": "Tom Green's Texas Brigade and Colonel James Patrick Major's Texas Brigade"
+    }
+  },
+  "result": "Union",
+  "battle": "LA013",
   "location": [
     {
-      "place": "Ascension Parish",
-      "state": "LA"
+      "state": "LA",
+      "place": "Ascension Parish"
     }
   ],
-  "battle_name": "Donaldsonville"
+  "url": "http://www.nps.gov/hps/abpp/battles/la013.htm"
 }

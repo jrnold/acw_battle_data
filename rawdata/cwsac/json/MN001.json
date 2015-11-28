@@ -1,60 +1,122 @@
 {
-  "dates": "August 20-22, 1862",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/mn001.htm",
-  "results_text": "Union victory",
+  "end_date": "1862-08-22",
+  "casualties": null,
   "casualties_text": "Total unknown (US 16; I unknown)",
-  "description": "In August 1862, the Santee Sioux of Minnesota under Chief Little Crow, angered by the failure of the Federal government to provide annuities and by the poor quality of rations, went on the offensive. They killed approximately 800 settlers and soldiers, took many prisoners, and caused extensive property damage throughout the Minnesota River Valley. Fort Ridgely, about twelve miles from the Lower Sioux Agency, became the refuge for white civilians. The fort's commander, Capt. John S. Marsh, set out with most of his men for the Lower Sioux Agency. Before reaching the agency, a large Native American force surprised the soldiers, killed half of them, including Marsh, and pursued the survivors back to the fort. On August 20, about 400 Sioux attacked the fort but were repulsed. On the 22nd, 800 Sioux attacked the fort again, but the garrison and civilians held the fort.",
-  "start_date": "1862-08-20",
-  "forces_text": "Fort Ridgely Garrison and refugee civilians [US]; Santee Sioux [I]",
-  "belligerents": {
-    "I": {
+  "forces": {
+    "Native American": {
+      "casualties": null,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "",
-          "middle_name": "",
           "rank": "",
+          "first_name": "Little Crow",
           "suffix": "",
-          "fullname": "Little Crow",
-          "first_name": "Little Crow"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "",
+          "fullname": "Little Crow"
         }
       ],
-      "description": "Santee Sioux",
-      "casualties": null
+      "description": "Santee Sioux"
     },
     "US": {
+      "casualties": 16,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Sheehan",
-          "middle_name": "J.",
           "rank": "First Lieutenant",
+          "first_name": "Timothy",
           "suffix": "",
-          "fullname": "Timothy J. Sheehan",
-          "first_name": "Timothy"
+          "navy": false,
+          "middle_name": "J.",
+          "last_name": "Sheehan",
+          "fullname": "Timothy J. Sheehan"
         }
       ],
-      "description": "Fort Ridgely Garrison and refugee civilians",
-      "casualties": 16
+      "description": "Fort Ridgely Garrison and refugee civilians"
+    },
+    "I": {
+      "casualties": null,
+      "commanders": [
+        {
+          "rank": "",
+          "first_name": "Little Crow",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "",
+          "fullname": "Little Crow"
+        }
+      ],
+      "description": "Santee Sioux"
     }
   },
-  "campaign": "Operations to Suppress the Sioux Uprising [August-September 1862]",
-  "battle": "MN001",
-  "result": "Union",
+  "cwsac_reference": "MN001",
+  "operation": false,
+  "forces_text": "Fort Ridgely Garrison and refugee civilians [US]; Santee Sioux [I]",
+  "start_date": "1862-08-20",
+  "preservation": "III.3",
+  "results_text": "Union victory",
+  "description": "In August 1862, the Santee Sioux of Minnesota under Chief Little Crow, angered by the failure of the Federal government to provide annuities and by the poor quality of rations, went on the offensive. They killed approximately 800 settlers and soldiers, took many prisoners, and caused extensive property damage throughout the Minnesota River Valley. Fort Ridgely, about twelve miles from the Lower Sioux Agency, became the refuge for white civilians. The fort's commander, Capt. John S. Marsh, set out with most of his men for the Lower Sioux Agency. Before reaching the agency, a large Native American force surprised the soldiers, killed half of them, including Marsh, and pursued the survivors back to the fort. On August 20, about 400 Sioux attacked the fort but were repulsed. On the 22nd, 800 Sioux attacked the fort again, but the garrison and civilians held the fort.",
+  "state": "MN",
   "significance": "C",
   "other_names": null,
-  "state": "MN",
-  "preservation": "III.3",
+  "dates": "August 20-22, 1862",
+  "battle_name": "Fort Ridgely",
   "principal_commanders": "1st Lt. Timothy J. Sheehan [US]; Chief Little Crow [I]",
-  "end_date": "1862-08-22",
-  "cwsac_reference": "MN001",
-  "casualties": null,
+  "campaign": "Operations to Suppress the Sioux Uprising [August-September 1862]",
+  "belligerents": {
+    "Native American": {
+      "casualties": null,
+      "commanders": [
+        {
+          "rank": "",
+          "first_name": "Little Crow",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "",
+          "fullname": "Little Crow"
+        }
+      ],
+      "description": "Santee Sioux"
+    },
+    "US": {
+      "casualties": 16,
+      "commanders": [
+        {
+          "rank": "First Lieutenant",
+          "first_name": "Timothy",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "J.",
+          "last_name": "Sheehan",
+          "fullname": "Timothy J. Sheehan"
+        }
+      ],
+      "description": "Fort Ridgely Garrison and refugee civilians"
+    },
+    "I": {
+      "casualties": null,
+      "commanders": [
+        {
+          "rank": "",
+          "first_name": "Little Crow",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "",
+          "fullname": "Little Crow"
+        }
+      ],
+      "description": "Santee Sioux"
+    }
+  },
+  "result": "Union",
+  "battle": "MN001",
   "location": [
     {
-      "place": "Nicollet County",
-      "state": "MN"
+      "state": "MN",
+      "place": "Nicollet County"
     }
   ],
-  "battle_name": "Fort Ridgely"
+  "url": "http://www.nps.gov/hps/abpp/battles/mn001.htm"
 }

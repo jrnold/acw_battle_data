@@ -1,62 +1,112 @@
 {
-  "dates": "May 12, 1863",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/ms007.htm",
-  "results_text": "Union victory",
+  "end_date": "1863-05-12",
+  "casualties": 1011,
   "casualties_text": "1,011 total (US 442; CS 569)",
-  "description": "Ordered by Lt. Gen. John C. Pemberton, Confederate commander at Vicksburg, Brig. Gen. John Gregg led his force from Port Hudson, Louisiana, to Jackson, Mississippi, and out to Raymond to intercept approaching Union troops. Before dawn on May 12, Maj. Gen. James B. McPherson had his XVII Army Corps on the march, and by 10:00 am they were about three miles from Raymond. Gregg decided to dispute the crossing of Fourteen Mile Creek and arrayed his men and artillery accordingly. As the Yankees approached, the Rebels opened fire, initially causing heavy casualties. Some Union troops broke, but Maj. Gen. John A. Logan rallied a force to hold the line. Confederate troops attacked the line but had to retire. More Yankees arrived and the Union force counterattacked. Heavy fighting ensued that continued for six hours, but the overwhelming Union force prevailed. Gregg's men left the field. Although Gregg's men lost the battle, they had held up a much superior Union force for a day.",
-  "start_date": "1863-05-12",
-  "forces_text": "XVII Army Corps, Army of the Tennessee [US]; Gregg's Task Force (equivalent to a brigade) [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": 569,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Gregg",
-          "middle_name": "",
           "rank": "Brigadier General",
+          "first_name": "John",
           "suffix": "",
-          "fullname": "John Gregg",
-          "first_name": "John"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Gregg",
+          "fullname": "John Gregg"
         }
       ],
-      "description": "Gregg's Task Force (equivalent to a brigade)",
       "brigades": 1,
-      "casualties": 569
+      "description": "Gregg's Task Force (equivalent to a brigade)"
     },
     "US": {
+      "corps": 1,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "McPherson",
-          "middle_name": "B.",
           "rank": "Major General",
+          "first_name": "James",
           "suffix": "",
-          "fullname": "James B. McPherson",
-          "first_name": "James"
+          "navy": false,
+          "middle_name": "B.",
+          "last_name": "McPherson",
+          "fullname": "James B. McPherson"
         }
       ],
       "description": "XVII Army Corps, Army of the Tennessee",
-      "corps": 1,
       "casualties": 442
     }
   },
-  "campaign": "Grant's Operations Against Vicksburg [March-July 1863]",
-  "battle": "MS007",
-  "result": "Union",
+  "cwsac_reference": "MS007",
+  "operation": false,
+  "forces_text": "XVII Army Corps, Army of the Tennessee [US]; Gregg's Task Force (equivalent to a brigade) [CS]",
+  "start_date": "1863-05-12",
+  "preservation": "I.3",
+  "results_text": "Union victory",
+  "description": "Ordered by Lt. Gen. John C. Pemberton, Confederate commander at Vicksburg, Brig. Gen. John Gregg led his force from Port Hudson, Louisiana, to Jackson, Mississippi, and out to Raymond to intercept approaching Union troops. Before dawn on May 12, Maj. Gen. James B. McPherson had his XVII Army Corps on the march, and by 10:00 am they were about three miles from Raymond. Gregg decided to dispute the crossing of Fourteen Mile Creek and arrayed his men and artillery accordingly. As the Yankees approached, the Rebels opened fire, initially causing heavy casualties. Some Union troops broke, but Maj. Gen. John A. Logan rallied a force to hold the line. Confederate troops attacked the line but had to retire. More Yankees arrived and the Union force counterattacked. Heavy fighting ensued that continued for six hours, but the overwhelming Union force prevailed. Gregg's men left the field. Although Gregg's men lost the battle, they had held up a much superior Union force for a day.",
+  "state": "MS",
   "significance": "B",
   "other_names": null,
-  "state": "MS",
-  "preservation": "I.3",
+  "dates": "May 12, 1863",
+  "battle_name": "Raymond",
   "principal_commanders": "Maj. Gen. James B. McPherson [US]; Brig. Gen. John Gregg [CS]",
-  "end_date": "1863-05-12",
-  "cwsac_reference": "MS007",
-  "casualties": 1011,
+  "campaign": "Grant's Operations Against Vicksburg [March-July 1863]",
+  "belligerents": {
+    "Confederate": {
+      "casualties": 569,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Gregg",
+          "fullname": "John Gregg"
+        }
+      ],
+      "brigades": 1,
+      "description": "Gregg's Task Force (equivalent to a brigade)"
+    },
+    "US": {
+      "corps": 1,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "James",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "B.",
+          "last_name": "McPherson",
+          "fullname": "James B. McPherson"
+        }
+      ],
+      "description": "XVII Army Corps, Army of the Tennessee",
+      "casualties": 442
+    },
+    "CS": {
+      "casualties": 569,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Gregg",
+          "fullname": "John Gregg"
+        }
+      ],
+      "brigades": 1,
+      "description": "Gregg's Task Force (equivalent to a brigade)"
+    }
+  },
+  "result": "Union",
+  "battle": "MS007",
   "location": [
     {
-      "place": "Hinds County",
-      "state": "MS"
+      "state": "MS",
+      "place": "Hinds County"
     }
   ],
-  "battle_name": "Raymond"
+  "url": "http://www.nps.gov/hps/abpp/battles/ms007.htm"
 }

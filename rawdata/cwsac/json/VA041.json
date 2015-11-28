@@ -1,23 +1,18 @@
 {
-  "dates": "October 14, 1863",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/va041.htm",
-  "results_text": "Inconclusive",
+  "end_date": "1863-10-14",
+  "casualties": 113,
   "casualties_text": "113 total",
-  "description": "As the Federal army withdrew towards Manassas Junction, Owens and Smyth's Union brigades (Warren's II Corps) fought a rearguard action against Stuart's cavalry and infantry of Harry Hays's division near Auburn. Stuart's cavalry boldly bluffed Warren's infantry and escaped disaster. The II Corps pushed on to Catlett Station on the Orange & Alexandria Railroad.",
-  "start_date": "1863-10-14",
-  "forces_text": "Brigades",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Stuart",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "J.E.B.",
           "suffix": "",
-          "fullname": "J.E.B. Stuart",
-          "first_name": "J.E.B."
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Stuart",
+          "fullname": "J.E.B. Stuart"
         }
       ],
       "brigades": 1
@@ -25,36 +20,85 @@
     "US": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Warren",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "G.K.",
           "suffix": "",
-          "fullname": "G.K. Warren",
-          "first_name": "G.K."
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Warren",
+          "fullname": "G.K. Warren"
         }
       ],
       "brigades": 1
     }
   },
-  "campaign": "Bristoe Campaign [October-November 1863]",
-  "battle": "VA041",
-  "result": "Inconclusive",
+  "cwsac_reference": "VA041",
+  "operation": false,
+  "forces_text": "Brigades",
+  "start_date": "1863-10-14",
+  "preservation": "III.4",
+  "results_text": "Inconclusive",
+  "description": "As the Federal army withdrew towards Manassas Junction, Owens and Smyth's Union brigades (Warren's II Corps) fought a rearguard action against Stuart's cavalry and infantry of Harry Hays's division near Auburn. Stuart's cavalry boldly bluffed Warren's infantry and escaped disaster. The II Corps pushed on to Catlett Station on the Orange & Alexandria Railroad.",
+  "state": "VA",
   "significance": "D",
   "other_names": [
     "Coffee Hill"
   ],
-  "state": "VA",
-  "preservation": "III.4",
+  "dates": "October 14, 1863",
+  "battle_name": "Auburn",
   "principal_commanders": "Maj. Gen. G.K. Warren [US]; Maj. Gen. J.E.B. Stuart [CS]",
-  "end_date": "1863-10-14",
-  "cwsac_reference": "VA041",
-  "casualties": 113,
+  "campaign": "Bristoe Campaign [October-November 1863]",
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "J.E.B.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Stuart",
+          "fullname": "J.E.B. Stuart"
+        }
+      ],
+      "brigades": 1
+    },
+    "US": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "G.K.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Warren",
+          "fullname": "G.K. Warren"
+        }
+      ],
+      "brigades": 1
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "J.E.B.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Stuart",
+          "fullname": "J.E.B. Stuart"
+        }
+      ],
+      "brigades": 1
+    }
+  },
+  "result": "Inconclusive",
+  "battle": "VA041",
   "location": [
     {
-      "place": "Fauquier County",
-      "state": "VA"
+      "state": "VA",
+      "place": "Fauquier County"
     }
   ],
-  "battle_name": "Auburn"
+  "url": "http://www.nps.gov/hps/abpp/battles/va041.htm"
 }

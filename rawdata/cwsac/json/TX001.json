@@ -1,61 +1,110 @@
 {
-  "dates": "September 24-25, 1862",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/tx001.htm",
-  "results_text": "Union victory",
+  "end_date": "1862-09-25",
+  "casualties": null,
   "casualties_text": "Unknown",
-  "description": "On September 23, 1862, the Union Steamer Kensington, Schooner Rachel Seaman, and Mortar Schooner Henry James appeared off the bar at Sabine Pass. The next morning, the two schooners crossed the bar, took position, and began firing on the Confederate shore battery. The shots from both land and shore fell far short of the targets. The ships then moved nearer until their projectiles began to fall amongst the Confederate guns. The Confederate cannons, however, still could not hit the ships. After dark, the Confederates evacuated, taking as much property as possible with them and spiking the four guns left behind. On the morning of the 25th, the schooners moved up to the battery and destroyed it while Acting Master Frederick Crocker, commander of the expedition, received the surrender of the town. Union control of Sabine Pass made later incursions into the interior possible.",
-  "start_date": "1862-09-24",
-  "forces_text": "Steamer Kensington, Schooner Rachel Seaman, and Mortar Schooner Henry James [US]; Fort Griffith Garrison (30) and 25 mounted men 3 1/2 miles away [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Irvine",
-          "middle_name": "",
           "rank": "Major",
+          "first_name": "J.S.",
           "suffix": "",
-          "fullname": "J.S. Irvine",
-          "first_name": "J.S."
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Irvine",
+          "fullname": "J.S. Irvine"
         }
       ],
-      "strength_max": 55,
       "strength_min": 55,
-      "description": "Fort Griffith Garrison (30) and 25 mounted men 3 1/2 miles away"
+      "description": "Fort Griffith Garrison (30) and 25 mounted men 3 1/2 miles away",
+      "strength_max": 55
     },
     "US": {
+      "ships": 3,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Crocker",
-          "middle_name": "",
           "rank": "Acting Master",
+          "first_name": "Frederick",
           "suffix": "",
-          "fullname": "Frederick Crocker",
-          "first_name": "Frederick"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Crocker",
+          "fullname": "Frederick Crocker"
         }
       ],
-      "ships": 3,
       "description": "Steamer Kensington, Schooner Rachel Seaman, and Mortar Schooner Henry James"
     }
   },
-  "campaign": "Operations to Blockade the Texas Coast [September 1862-January 1863]",
-  "battle": "TX001",
-  "result": "Union",
+  "cwsac_reference": "TX001",
+  "operation": false,
+  "forces_text": "Steamer Kensington, Schooner Rachel Seaman, and Mortar Schooner Henry James [US]; Fort Griffith Garrison (30) and 25 mounted men 3 1/2 miles away [CS]",
+  "start_date": "1862-09-24",
+  "preservation": "III.3",
+  "results_text": "Union victory",
+  "description": "On September 23, 1862, the Union Steamer Kensington, Schooner Rachel Seaman, and Mortar Schooner Henry James appeared off the bar at Sabine Pass. The next morning, the two schooners crossed the bar, took position, and began firing on the Confederate shore battery. The shots from both land and shore fell far short of the targets. The ships then moved nearer until their projectiles began to fall amongst the Confederate guns. The Confederate cannons, however, still could not hit the ships. After dark, the Confederates evacuated, taking as much property as possible with them and spiking the four guns left behind. On the morning of the 25th, the schooners moved up to the battery and destroyed it while Acting Master Frederick Crocker, commander of the expedition, received the surrender of the town. Union control of Sabine Pass made later incursions into the interior possible.",
+  "state": "TX",
   "significance": "C",
   "other_names": null,
-  "state": "TX",
-  "preservation": "III.3",
+  "dates": "September 24-25, 1862",
+  "battle_name": "Sabine Pass",
   "principal_commanders": "Acting Master Frederick Crocker [US]; Maj. J.S. Irvine [CS]",
-  "end_date": "1862-09-25",
-  "cwsac_reference": "TX001",
-  "casualties": null,
+  "campaign": "Operations to Blockade the Texas Coast [September 1862-January 1863]",
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "Major",
+          "first_name": "J.S.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Irvine",
+          "fullname": "J.S. Irvine"
+        }
+      ],
+      "strength_min": 55,
+      "description": "Fort Griffith Garrison (30) and 25 mounted men 3 1/2 miles away",
+      "strength_max": 55
+    },
+    "US": {
+      "ships": 3,
+      "commanders": [
+        {
+          "rank": "Acting Master",
+          "first_name": "Frederick",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Crocker",
+          "fullname": "Frederick Crocker"
+        }
+      ],
+      "description": "Steamer Kensington, Schooner Rachel Seaman, and Mortar Schooner Henry James"
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "Major",
+          "first_name": "J.S.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Irvine",
+          "fullname": "J.S. Irvine"
+        }
+      ],
+      "strength_min": 55,
+      "description": "Fort Griffith Garrison (30) and 25 mounted men 3 1/2 miles away",
+      "strength_max": 55
+    }
+  },
+  "result": "Union",
+  "battle": "TX001",
   "location": [
     {
-      "place": "Jefferson County",
-      "state": "TX"
+      "state": "TX",
+      "place": "Jefferson County"
     }
   ],
-  "battle_name": "Sabine Pass"
+  "url": "http://www.nps.gov/hps/abpp/battles/tx001.htm"
 }

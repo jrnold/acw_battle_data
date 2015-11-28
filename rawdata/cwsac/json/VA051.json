@@ -1,23 +1,18 @@
 {
-  "dates": "May 10, 1864",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/va051.htm",
-  "results_text": "Inconclusive",
+  "end_date": "1864-05-10",
+  "casualties": 569,
   "casualties_text": "569 total",
-  "description": "On May 10, elements of Maj. Gen. Robert Ransom's division conducted a reconnaissance-in-force against a portion of Butler's army that was destroying the railroad at Chester Station. The Confederates attacked near the Winfree House, and the Federals retired to their Bermuda Hundred lines.",
-  "start_date": "1864-05-10",
-  "forces_text": "Divisions",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Beauregard",
-          "middle_name": "",
           "rank": "General",
+          "first_name": "P.G.T.",
           "suffix": "",
-          "fullname": "P.G.T. Beauregard",
-          "first_name": "P.G.T."
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Beauregard",
+          "fullname": "P.G.T. Beauregard"
         }
       ],
       "divisions": 1
@@ -25,34 +20,83 @@
     "US": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Butler",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "Benjamin",
           "suffix": "",
-          "fullname": "Benjamin Butler",
-          "first_name": "Benjamin"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Butler",
+          "fullname": "Benjamin Butler"
         }
       ],
       "divisions": 1
     }
   },
-  "campaign": "Bermuda Hundred Campaign [May 1864]",
-  "battle": "VA051",
-  "result": "Inconclusive",
+  "cwsac_reference": "VA051",
+  "operation": false,
+  "forces_text": "Divisions",
+  "start_date": "1864-05-10",
+  "preservation": "IV.2",
+  "results_text": "Inconclusive",
+  "description": "On May 10, elements of Maj. Gen. Robert Ransom's division conducted a reconnaissance-in-force against a portion of Butler's army that was destroying the railroad at Chester Station. The Confederates attacked near the Winfree House, and the Federals retired to their Bermuda Hundred lines.",
+  "state": "VA",
   "significance": "D",
   "other_names": null,
-  "state": "VA",
-  "preservation": "IV.2",
+  "dates": "May 10, 1864",
+  "battle_name": "Chester Station",
   "principal_commanders": "Maj. Gen. Benjamin Butler [US]; Gen. P.G.T. Beauregard [CS]",
-  "end_date": "1864-05-10",
-  "cwsac_reference": "VA051",
-  "casualties": 569,
+  "campaign": "Bermuda Hundred Campaign [May 1864]",
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "P.G.T.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Beauregard",
+          "fullname": "P.G.T. Beauregard"
+        }
+      ],
+      "divisions": 1
+    },
+    "US": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Benjamin",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Butler",
+          "fullname": "Benjamin Butler"
+        }
+      ],
+      "divisions": 1
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "P.G.T.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Beauregard",
+          "fullname": "P.G.T. Beauregard"
+        }
+      ],
+      "divisions": 1
+    }
+  },
+  "result": "Inconclusive",
+  "battle": "VA051",
   "location": [
     {
-      "place": "Chesterfield County",
-      "state": "VA"
+      "state": "VA",
+      "place": "Chesterfield County"
     }
   ],
-  "battle_name": "Chester Station"
+  "url": "http://www.nps.gov/hps/abpp/battles/va051.htm"
 }

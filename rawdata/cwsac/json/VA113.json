@@ -1,73 +1,123 @@
 {
-  "dates": "June 25, 1864",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/va113.htm",
-  "results_text": "Confederate victory",
+  "end_date": "1864-06-25",
+  "casualties": 150,
   "casualties_text": "150 total",
-  "description": "On June 22, the cavalry divisions of Brig. Gen. James Wilson and Brig. Gen. August Kautz were dispatched from the Petersburg lines to disrupt Confederate rail communications. Riding via Dinwiddie Court House, the raiders cut the South Side Railroad near Ford's Station that evening, destroying tracks, railroad buildings, and two supply trains. On June 23, Wilson proceeded to the junction of the Richmond & Danville Railroad at Burke Station, where he encountered elements of William H.F. Lee's cavalry between Nottoway Court House and Blacks and Whites (modern-day Blackstone). Wilson followed Kautz along the South Side Railroad, destroying about thirty miles of track as he advanced. On June 24, while Kautz remained skirmishing around Burkeville, Wilson crossed over to Meherrin Station on the Richmond & Danville and began destroying track. On June 25, Wilson and Kautz continued tearing up track south to the Staunton River Bridge, where they were delayed by Home Guards, who prevented destruction of the bridge. Lee's cavalry division closed on the Federals from the northeast, forcing them to abandon their attempts to capture and destroy the bridge. By this time, the raiders were nearly 100 miles from Union lines.",
-  "start_date": "1864-06-25",
-  "forces_text": "Divisions (4,000 total)",
-  "strength": 4000,
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Lee",
-          "middle_name": "H.F.",
           "rank": "Major General",
+          "first_name": "William",
           "suffix": "",
-          "fullname": "William H.F. \"Rooney\" Lee",
-          "first_name": "William"
+          "navy": false,
+          "middle_name": "H.F.",
+          "last_name": "Lee",
+          "fullname": "William H.F. \"Rooney\" Lee"
         }
       ]
     },
     "US": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Wilson",
-          "middle_name": "H.",
           "rank": "Brigadier General",
+          "first_name": "James",
           "suffix": "",
-          "fullname": "James H. Wilson",
-          "first_name": "James"
+          "navy": false,
+          "middle_name": "H.",
+          "last_name": "Wilson",
+          "fullname": "James H. Wilson"
         },
         {
-          "navy": false,
-          "last_name": "Kautz",
-          "middle_name": "",
           "rank": "Brigadier General",
+          "first_name": "August",
           "suffix": "",
-          "fullname": "August Kautz",
-          "first_name": "August"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Kautz",
+          "fullname": "August Kautz"
         }
       ]
     }
   },
-  "campaign": "Richmond-Petersburg Campaign [June 1864-March 1865]",
-  "battle": "VA113",
-  "result": "Confederate",
+  "strength": 4000,
+  "cwsac_reference": "VA113",
+  "operation": false,
+  "forces_text": "Divisions (4,000 total)",
+  "start_date": "1864-06-25",
+  "preservation": "III.3",
+  "results_text": "Confederate victory",
+  "description": "On June 22, the cavalry divisions of Brig. Gen. James Wilson and Brig. Gen. August Kautz were dispatched from the Petersburg lines to disrupt Confederate rail communications. Riding via Dinwiddie Court House, the raiders cut the South Side Railroad near Ford's Station that evening, destroying tracks, railroad buildings, and two supply trains. On June 23, Wilson proceeded to the junction of the Richmond & Danville Railroad at Burke Station, where he encountered elements of William H.F. Lee's cavalry between Nottoway Court House and Blacks and Whites (modern-day Blackstone). Wilson followed Kautz along the South Side Railroad, destroying about thirty miles of track as he advanced. On June 24, while Kautz remained skirmishing around Burkeville, Wilson crossed over to Meherrin Station on the Richmond & Danville and began destroying track. On June 25, Wilson and Kautz continued tearing up track south to the Staunton River Bridge, where they were delayed by Home Guards, who prevented destruction of the bridge. Lee's cavalry division closed on the Federals from the northeast, forcing them to abandon their attempts to capture and destroy the bridge. By this time, the raiders were nearly 100 miles from Union lines.",
+  "state": "VA",
   "significance": "C",
   "other_names": [
     "Blacks and Whites",
     "Old Men and Young Boys"
   ],
-  "state": "VA",
-  "preservation": "III.3",
+  "dates": "June 25, 1864",
+  "battle_name": "Staunton River Bridge",
   "principal_commanders": "Brig. Gen. James H. Wilson and Brig. Gen. August Kautz [US]; Maj. Gen. William H.F. \"Rooney\" Lee [CS]",
-  "end_date": "1864-06-25",
-  "cwsac_reference": "VA113",
-  "casualties": 150,
   "location": [
     {
-      "place": "Halifax County",
-      "state": "VA"
+      "state": "VA",
+      "place": "Halifax County"
     },
     {
-      "place": "Charlotte",
-      "state": "VA"
+      "state": "VA",
+      "place": "Charlotte"
     }
   ],
-  "battle_name": "Staunton River Bridge"
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "William",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "H.F.",
+          "last_name": "Lee",
+          "fullname": "William H.F. \"Rooney\" Lee"
+        }
+      ]
+    },
+    "US": {
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "James",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "H.",
+          "last_name": "Wilson",
+          "fullname": "James H. Wilson"
+        },
+        {
+          "rank": "Brigadier General",
+          "first_name": "August",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Kautz",
+          "fullname": "August Kautz"
+        }
+      ]
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "William",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "H.F.",
+          "last_name": "Lee",
+          "fullname": "William H.F. \"Rooney\" Lee"
+        }
+      ]
+    }
+  },
+  "result": "Confederate",
+  "battle": "VA113",
+  "campaign": "Richmond-Petersburg Campaign [June 1864-March 1865]",
+  "url": "http://www.nps.gov/hps/abpp/battles/va113.htm"
 }

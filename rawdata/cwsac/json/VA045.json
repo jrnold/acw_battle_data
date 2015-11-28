@@ -1,23 +1,18 @@
 {
-  "dates": "February 6-7, 1864",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/va045.htm",
-  "results_text": "Inconclusive",
+  "end_date": "1864-02-07",
+  "casualties": 723,
   "casualties_text": "723 total",
-  "description": "To distract attention from a planned cavalry-infantry raid up the Peninsula on Richmond, the Federal army forced several crossings of the Rapidan River on February 6. A II Corps division crossed at Morton's Ford, the I Corps at Raccoon Ford. Union cavalry crossed at Robertson's Ford. Ewell's Corps resisted the crossings. Fighting was sporadic but most severe at Morton's Ford. By February 7, the attacks had stalled, and the Federals withdrew during the night.",
-  "start_date": "1864-02-06",
-  "forces_text": "Divisions",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Ewell",
-          "middle_name": "S.",
           "rank": "Lieutenant General",
+          "first_name": "Richard",
           "suffix": "",
-          "fullname": "Richard S. Ewell",
-          "first_name": "Richard"
+          "navy": false,
+          "middle_name": "S.",
+          "last_name": "Ewell",
+          "fullname": "Richard S. Ewell"
         }
       ],
       "divisions": 1
@@ -25,40 +20,89 @@
     "US": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Caldwell",
-          "middle_name": "",
           "rank": "Brigadier General",
+          "first_name": "J.C.",
           "suffix": "",
-          "fullname": "J.C. Caldwell",
-          "first_name": "J.C."
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Caldwell",
+          "fullname": "J.C. Caldwell"
         }
       ],
       "divisions": 1
     }
   },
-  "campaign": "Demonstration on the Rapidan River [February 1864]",
-  "battle": "VA045",
-  "result": "Inconclusive",
+  "cwsac_reference": "VA045",
+  "operation": false,
+  "forces_text": "Divisions",
+  "start_date": "1864-02-06",
+  "preservation": "III.4",
+  "results_text": "Inconclusive",
+  "description": "To distract attention from a planned cavalry-infantry raid up the Peninsula on Richmond, the Federal army forced several crossings of the Rapidan River on February 6. A II Corps division crossed at Morton's Ford, the I Corps at Raccoon Ford. Union cavalry crossed at Robertson's Ford. Ewell's Corps resisted the crossings. Fighting was sporadic but most severe at Morton's Ford. By February 7, the attacks had stalled, and the Federals withdrew during the night.",
+  "state": "VA",
   "significance": "D",
   "other_names": [
     "Rapidan River"
   ],
-  "state": "VA",
-  "preservation": "III.4",
+  "dates": "February 6-7, 1864",
+  "battle_name": "Morton's Ford",
   "principal_commanders": "Brig. Gen. J.C. Caldwell [US]; Lt. Gen. Richard S. Ewell [CS]",
-  "end_date": "1864-02-07",
-  "cwsac_reference": "VA045",
-  "casualties": 723,
+  "campaign": "Demonstration on the Rapidan River [February 1864]",
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "Lieutenant General",
+          "first_name": "Richard",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "S.",
+          "last_name": "Ewell",
+          "fullname": "Richard S. Ewell"
+        }
+      ],
+      "divisions": 1
+    },
+    "US": {
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "J.C.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Caldwell",
+          "fullname": "J.C. Caldwell"
+        }
+      ],
+      "divisions": 1
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "Lieutenant General",
+          "first_name": "Richard",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "S.",
+          "last_name": "Ewell",
+          "fullname": "Richard S. Ewell"
+        }
+      ],
+      "divisions": 1
+    }
+  },
+  "result": "Inconclusive",
+  "battle": "VA045",
   "location": [
     {
-      "place": "Orange County",
-      "state": "VA"
+      "state": "VA",
+      "place": "Orange County"
     },
     {
-      "place": "Culpeper County",
-      "state": "VA"
+      "state": "VA",
+      "place": "Culpeper County"
     }
   ],
-  "battle_name": "Morton's Ford"
+  "url": "http://www.nps.gov/hps/abpp/battles/va045.htm"
 }

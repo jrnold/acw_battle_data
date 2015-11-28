@@ -1,64 +1,117 @@
 {
-  "dates": "October 9, 1861",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/fl001.htm",
-  "results_text": "Union victory",
+  "end_date": "1861-10-09",
+  "casualties": 154,
   "casualties_text": "154 total (US 67; CS 87)",
-  "description": "After midnight on October 9, Brig. Gen. Richard Anderson crossed from the mainland to Santa Rosa Island with 1,200 men in two small steamers to surprise Union camps and capture Fort Pickens. He landed on the north beach about four miles east of Fort Pickens and divided his command into three columns. After proceeding about three miles, the Confederates surprised the 6th Regiment, New York Volunteers, in its camp and routed the regiment. Gen. Anderson then adopted a defensive stance to entice the Federals to leave the fort and attack. Receiving reinforcements, Col. Harvey Brown sallied against the Confederates, who reembarked and returned to the mainland.",
-  "start_date": "1861-10-09",
-  "forces_text": "Santa Rosa Island Garrison (approx. 600 men) [US]; infantry and artillery detachments (approx. 1,200 men) [CS]",
-  "belligerents": {
-    "CS": {
-        "commanders": [
-            {
-                "navy": false,
-                "last_name": "Anderson",
-                "middle_name": "H.",
-                "rank": "Brigadier General",
-                "suffix": "",
-                "fullname": "Richard H. Anderson",
-                "first_name": "Richard"
-            }
-        ],
-      "description": "infantry and artillery detachments (approx. 1,200 men)",
-      "strength_max": 1200,
-      "strength_min": 1200,
-      "casualties": 87
-    },
-    "US": {
+  "forces": {
+    "Confederate": {
+      "casualties": 87,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Brown",
-          "middle_name": "",
-          "rank": "Colonel",
+          "rank": "Brigadier General",
+          "first_name": "Richard",
           "suffix": "",
-          "fullname": "Harvey Brown",
-          "first_name": "Harvey"
+          "navy": false,
+          "middle_name": "H.",
+          "last_name": "Anderson",
+          "fullname": "Richard H. Anderson"
+        }
+      ],
+      "description": "infantry and artillery detachments (approx. 1,200 men)",
+      "strength_min": 1200,
+      "strength_max": 1200
+    },
+    "US": {
+      "casualties": 67,
+      "commanders": [
+        {
+          "rank": "Colonel",
+          "first_name": "Harvey",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Brown",
+          "fullname": "Harvey Brown"
         }
       ],
       "description": "Santa Rosa Island Garrison (approx. 600 men)",
-      "strength_max": 600,
       "strength_min": 600,
-      "casualties": 67
+      "strength_max": 600
     }
   },
-  "campaign": "Operations of the Gulf Blockading Squadron [October 1861]",
-  "battle": "FL001",
-  "result": "Union",
+  "cwsac_reference": "FL001",
+  "operation": false,
+  "forces_text": "Santa Rosa Island Garrison (approx. 600 men) [US]; infantry and artillery detachments (approx. 1,200 men) [CS]",
+  "start_date": "1861-10-09",
+  "preservation": "III.3",
+  "results_text": "Union victory",
+  "description": "After midnight on October 9, Brig. Gen. Richard Anderson crossed from the mainland to Santa Rosa Island with 1,200 men in two small steamers to surprise Union camps and capture Fort Pickens. He landed on the north beach about four miles east of Fort Pickens and divided his command into three columns. After proceeding about three miles, the Confederates surprised the 6th Regiment, New York Volunteers, in its camp and routed the regiment. Gen. Anderson then adopted a defensive stance to entice the Federals to leave the fort and attack. Receiving reinforcements, Col. Harvey Brown sallied against the Confederates, who reembarked and returned to the mainland.",
+  "state": "FL",
   "significance": "C",
   "other_names": null,
-  "state": "FL",
-  "preservation": "III.3",
+  "dates": "October 9, 1861",
+  "battle_name": "Santa Rosa Island",
   "principal_commanders": "Col. Harvey Brown [US]; Confederate Brig. Gen. Richard H. Anderson [CS]",
-  "end_date": "1861-10-09",
-  "cwsac_reference": "FL001",
-  "casualties": 154,
+  "campaign": "Operations of the Gulf Blockading Squadron [October 1861]",
+  "belligerents": {
+    "Confederate": {
+      "casualties": 87,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Richard",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "H.",
+          "last_name": "Anderson",
+          "fullname": "Richard H. Anderson"
+        }
+      ],
+      "description": "infantry and artillery detachments (approx. 1,200 men)",
+      "strength_min": 1200,
+      "strength_max": 1200
+    },
+    "US": {
+      "casualties": 67,
+      "commanders": [
+        {
+          "rank": "Colonel",
+          "first_name": "Harvey",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Brown",
+          "fullname": "Harvey Brown"
+        }
+      ],
+      "description": "Santa Rosa Island Garrison (approx. 600 men)",
+      "strength_min": 600,
+      "strength_max": 600
+    },
+    "CS": {
+      "casualties": 87,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Richard",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "H.",
+          "last_name": "Anderson",
+          "fullname": "Richard H. Anderson"
+        }
+      ],
+      "description": "infantry and artillery detachments (approx. 1,200 men)",
+      "strength_min": 1200,
+      "strength_max": 1200
+    }
+  },
+  "result": "Union",
+  "battle": "FL001",
   "location": [
     {
-      "place": "Escambia County",
-      "state": "FL"
+      "state": "FL",
+      "place": "Escambia County"
     }
   ],
-  "battle_name": "Santa Rosa Island"
+  "url": "http://www.nps.gov/hps/abpp/battles/fl001.htm"
 }

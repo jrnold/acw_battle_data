@@ -1,62 +1,112 @@
 {
-  "dates": "November 28, 1864",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/ga026.htm",
-  "results_text": "Union victory",
+  "end_date": "1864-11-28",
+  "casualties": 646,
   "casualties_text": "646 total (US 46; CS 600)",
-  "description": "As Sherman's infantry marched southeast through Georgia, his cavalry, under Brig. Gen. Judson Kilpatrick moved northeastward, on November 24, 1864, to destroy the railroad midway between Augusta and Millen, burn the trestle near Briar Creek and, if possible, release Union prisoners confined at Camp Lawton, near Millen, while feigning a drive towards Augusta. Confederate Maj. Gen. Joseph Wheeler was fooled and concentrated his cavalry forces around Augusta. When Kilpatrick did not show, Wheeler realized his mistake and rode off in an attempt to catch his Union counterpart. On the 26th, Wheeler caught up with two lagging Union regiments, attacked their camp, chased them to the larger force and prevented Kilpatrick from destroying the Briar Creek trestle. Kilpatrick instead destroyed a mile of track in the area and moved southwest to join up with Sherman. Kilpatrick also discovered that the Union prisoners at Camp Lawton had been taken to other unknown sites. He encamped near Buck Head Creek on the night of the 27th. Wheeler came along the next morning, almost captured Kilpatrick, and pursued him and his men to Buck Head Creek. As Kilpatrick's main force crossed the creek, one regiment, supported by artillery, fought a rearguard action severely punishing Wheeler and then burned the bridge behind them. Wheeler soon crossed and followed, but a Union brigade behind barricades at Reynolds's Plantation halted the Rebels' drive, eventually forcing them to retire.",
-  "start_date": "1864-11-28",
-  "forces_text": "3rd Cavalry Division, Military Division of the Mississippi [US]; cavalry corps, Department of South Carolina, Georgia, and Florida [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": 600,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Wheeler",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "Joseph",
           "suffix": "",
-          "fullname": "Joseph Wheeler",
-          "first_name": "Joseph"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Wheeler",
+          "fullname": "Joseph Wheeler"
         }
       ],
-      "description": "cavalry corps, Department of South Carolina, Georgia, and Florida",
       "cavalry_corps": 1,
-      "casualties": 600
+      "description": "cavalry corps, Department of South Carolina, Georgia, and Florida"
     },
     "US": {
+      "casualties": 46,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Kilpatrick",
-          "middle_name": "Judson",
           "rank": "Brigadier General",
+          "first_name": "H.",
           "suffix": "",
-          "fullname": "H. Judson Kilpatrick",
-          "first_name": "H."
+          "navy": false,
+          "middle_name": "Judson",
+          "last_name": "Kilpatrick",
+          "fullname": "H. Judson Kilpatrick"
         }
       ],
       "divisions": 1,
-      "description": "3rd Cavalry Division, Military Division of the Mississippi",
-      "casualties": 46
+      "description": "3rd Cavalry Division, Military Division of the Mississippi"
     }
   },
-  "campaign": "Savannah Campaign [November-December 1864]",
-  "battle": "GA026",
-  "result": "Union",
+  "cwsac_reference": "GA026",
+  "operation": false,
+  "forces_text": "3rd Cavalry Division, Military Division of the Mississippi [US]; cavalry corps, Department of South Carolina, Georgia, and Florida [CS]",
+  "start_date": "1864-11-28",
+  "preservation": "III.3",
+  "results_text": "Union victory",
+  "description": "As Sherman's infantry marched southeast through Georgia, his cavalry, under Brig. Gen. Judson Kilpatrick moved northeastward, on November 24, 1864, to destroy the railroad midway between Augusta and Millen, burn the trestle near Briar Creek and, if possible, release Union prisoners confined at Camp Lawton, near Millen, while feigning a drive towards Augusta. Confederate Maj. Gen. Joseph Wheeler was fooled and concentrated his cavalry forces around Augusta. When Kilpatrick did not show, Wheeler realized his mistake and rode off in an attempt to catch his Union counterpart. On the 26th, Wheeler caught up with two lagging Union regiments, attacked their camp, chased them to the larger force and prevented Kilpatrick from destroying the Briar Creek trestle. Kilpatrick instead destroyed a mile of track in the area and moved southwest to join up with Sherman. Kilpatrick also discovered that the Union prisoners at Camp Lawton had been taken to other unknown sites. He encamped near Buck Head Creek on the night of the 27th. Wheeler came along the next morning, almost captured Kilpatrick, and pursued him and his men to Buck Head Creek. As Kilpatrick's main force crossed the creek, one regiment, supported by artillery, fought a rearguard action severely punishing Wheeler and then burned the bridge behind them. Wheeler soon crossed and followed, but a Union brigade behind barricades at Reynolds's Plantation halted the Rebels' drive, eventually forcing them to retire.",
+  "state": "GA",
   "significance": "C",
   "other_names": null,
-  "state": "GA",
-  "preservation": "III.3",
+  "dates": "November 28, 1864",
+  "battle_name": "Buck Head Creek",
   "principal_commanders": "Brig. Gen. H. Judson Kilpatrick [US]; Maj. Gen. Joseph Wheeler [CS]",
-  "end_date": "1864-11-28",
-  "cwsac_reference": "GA026",
-  "casualties": 646,
+  "campaign": "Savannah Campaign [November-December 1864]",
+  "belligerents": {
+    "Confederate": {
+      "casualties": 600,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Joseph",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Wheeler",
+          "fullname": "Joseph Wheeler"
+        }
+      ],
+      "cavalry_corps": 1,
+      "description": "cavalry corps, Department of South Carolina, Georgia, and Florida"
+    },
+    "US": {
+      "casualties": 46,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "H.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "Judson",
+          "last_name": "Kilpatrick",
+          "fullname": "H. Judson Kilpatrick"
+        }
+      ],
+      "divisions": 1,
+      "description": "3rd Cavalry Division, Military Division of the Mississippi"
+    },
+    "CS": {
+      "casualties": 600,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Joseph",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Wheeler",
+          "fullname": "Joseph Wheeler"
+        }
+      ],
+      "cavalry_corps": 1,
+      "description": "cavalry corps, Department of South Carolina, Georgia, and Florida"
+    }
+  },
+  "result": "Union",
+  "battle": "GA026",
   "location": [
     {
-      "place": "Jenkins County",
-      "state": "GA"
+      "state": "GA",
+      "place": "Jenkins County"
     }
   ],
-  "battle_name": "Buck Head Creek"
+  "url": "http://www.nps.gov/hps/abpp/battles/ga026.htm"
 }

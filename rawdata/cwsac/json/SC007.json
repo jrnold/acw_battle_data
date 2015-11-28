@@ -1,68 +1,121 @@
 {
-  "dates": "July 18-September 7, 1863",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/sc007.htm",
-  "results_text": "Confederate victory",
+  "end_date": "1863-09-07",
+  "casualties": 1689,
   "casualties_text": "1,689 total (US 1,515; CS 174)",
-  "description": "After the July 11 assault on Fort Wagner failed, Gillmore reinforced his beachhead on Morris Island. At dusk July 18, Gillmore launched an attack spearheaded by the 54th Massachusetts Infantry, a black regiment. The unit's colonel, Robert Gould Shaw, was killed. Members of the brigade scaled the parapet but after brutal hand-to-hand combat were driven out with heavy casualties. The Federals resorted to siege operations to reduce the fort. This was the fourth time in the war that black troops played a crucial combat role, proving to skeptics that they would fight bravely if only given the chance.",
-  "start_date": "1863-07-18",
-  "forces_text": "6,800 total (US 5,000; CS 1,800)",
-  "strength": 6800,
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": 174,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Beauregard",
-          "middle_name": "",
           "rank": "General",
+          "first_name": "P.G.T.",
           "suffix": "",
-          "fullname": "P.G.T. Beauregard",
-          "first_name": "P.G.T."
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Beauregard",
+          "fullname": "P.G.T. Beauregard"
         }
       ],
       "description": "1,800",
-      "strength_max": 1800,
       "strength_min": 1800,
-      "casualties": 174
+      "strength_max": 1800
     },
     "US": {
+      "casualties": 1515,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Gillmore",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "Quincy",
           "suffix": "",
-          "fullname": "Quincy Gillmore",
-          "first_name": "Quincy"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Gillmore",
+          "fullname": "Quincy Gillmore"
         }
       ],
       "description": "5,000",
-      "strength_max": 5000,
       "strength_min": 5000,
-      "casualties": 1515
+      "strength_max": 5000
     }
   },
-  "campaign": "Operations Against the Defenses of Charleston [April-September 1863]",
-  "battle": "SC007",
-  "result": "Confederate",
+  "strength": 6800,
+  "cwsac_reference": "SC007",
+  "operation": false,
+  "forces_text": "6,800 total (US 5,000; CS 1,800)",
+  "start_date": "1863-07-18",
+  "preservation": "IV.2",
+  "results_text": "Confederate victory",
+  "description": "After the July 11 assault on Fort Wagner failed, Gillmore reinforced his beachhead on Morris Island. At dusk July 18, Gillmore launched an attack spearheaded by the 54th Massachusetts Infantry, a black regiment. The unit's colonel, Robert Gould Shaw, was killed. Members of the brigade scaled the parapet but after brutal hand-to-hand combat were driven out with heavy casualties. The Federals resorted to siege operations to reduce the fort. This was the fourth time in the war that black troops played a crucial combat role, proving to skeptics that they would fight bravely if only given the chance.",
+  "state": "SC",
   "significance": "B",
   "other_names": [
     "Second Assault",
     "Morris Island"
   ],
-  "state": "SC",
-  "preservation": "IV.2",
+  "dates": "July 18-September 7, 1863",
+  "battle_name": "Fort Wagner/Morris Island",
   "principal_commanders": "Maj. Gen. Quincy Gillmore [US]; Gen. P.G.T. Beauregard [CS]",
-  "end_date": "1863-09-07",
-  "cwsac_reference": "SC007",
-  "casualties": 1689,
   "location": [
     {
-      "place": "City of Charleston",
-      "state": "SC"
+      "state": "SC",
+      "place": "City of Charleston"
     }
   ],
-  "battle_name": "Fort Wagner/Morris Island"
+  "belligerents": {
+    "Confederate": {
+      "casualties": 174,
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "P.G.T.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Beauregard",
+          "fullname": "P.G.T. Beauregard"
+        }
+      ],
+      "description": "1,800",
+      "strength_min": 1800,
+      "strength_max": 1800
+    },
+    "US": {
+      "casualties": 1515,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Quincy",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Gillmore",
+          "fullname": "Quincy Gillmore"
+        }
+      ],
+      "description": "5,000",
+      "strength_min": 5000,
+      "strength_max": 5000
+    },
+    "CS": {
+      "casualties": 174,
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "P.G.T.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Beauregard",
+          "fullname": "P.G.T. Beauregard"
+        }
+      ],
+      "description": "1,800",
+      "strength_min": 1800,
+      "strength_max": 1800
+    }
+  },
+  "result": "Confederate",
+  "battle": "SC007",
+  "campaign": "Operations Against the Defenses of Charleston [April-September 1863]",
+  "url": "http://www.nps.gov/hps/abpp/battles/sc007.htm"
 }

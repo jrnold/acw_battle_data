@@ -1,32 +1,27 @@
 {
-  "dates": "June 29, 1864",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/va068.htm",
-  "results_text": "Confederate victory",
+  "end_date": "1864-06-29",
+  "casualties": 600,
   "casualties_text": "600 total (1,817 for entire raid)",
-  "description": "Early morning June 29, Brig. Gen. August Kautz's division reached Ream's Station on the Weldon Railroad, which was thought to be held by Union infantry. Instead, Kautz found the road barred by Mahone's Confederate infantry division. Wilson's division, fighting against elements of William H.F. \"Rooney\" Lee's cavalry, joined Kautz's near Ream's Station, where they were virtually surrounded. About noon, Mahone's infantry assaulted their front while Fitzhugh Lee's cavalry division threatened the Union left flank. The raiders burned their wagons and abandoned their artillery. Separated by the Confederate attacks, Wilson and his men cut their way through and fled south on the Stage Road to cross Nottoway River, while Kautz went cross-country, reaching Federal lines at Petersburg about dark. Wilson continued east to the Blackwater River before turning north, eventually reaching Union lines at Light House Point on July 2. The Wilson-Kautz raid tore up more than 60 miles of track, temporarily disrupting rail traffic into Petersburg, but at a great cost in men and mounts.",
-  "start_date": "1864-06-29",
-  "forces_text": "Divisions",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Mahone",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "William",
           "suffix": "",
-          "fullname": "William Mahone",
-          "first_name": "William"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Mahone",
+          "fullname": "William Mahone"
         },
         {
-          "navy": false,
-          "last_name": "Lee",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "Fitzhugh",
           "suffix": "",
-          "fullname": "Fitzhugh Lee",
-          "first_name": "Fitzhugh"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Lee",
+          "fullname": "Fitzhugh Lee"
         }
       ],
       "divisions": 1
@@ -34,45 +29,121 @@
     "US": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Wilson",
-          "middle_name": "H.",
           "rank": "Major General",
+          "first_name": "James",
           "suffix": "",
-          "fullname": "James H. Wilson",
-          "first_name": "James"
+          "navy": false,
+          "middle_name": "H.",
+          "last_name": "Wilson",
+          "fullname": "James H. Wilson"
         },
         {
-          "navy": false,
-          "last_name": "Kautz",
-          "middle_name": "",
           "rank": "Brigadier General",
+          "first_name": "August",
           "suffix": "",
-          "fullname": "August Kautz",
-          "first_name": "August"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Kautz",
+          "fullname": "August Kautz"
         }
       ],
       "divisions": 1
     }
   },
-  "campaign": "Richmond-Petersburg Campaign [June 1864-March 1865]",
-  "battle": "VA068",
-  "result": "Confederate",
+  "cwsac_reference": "VA068",
+  "operation": false,
+  "forces_text": "Divisions",
+  "start_date": "1864-06-29",
+  "preservation": "III.3",
+  "results_text": "Confederate victory",
+  "description": "Early morning June 29, Brig. Gen. August Kautz's division reached Ream's Station on the Weldon Railroad, which was thought to be held by Union infantry. Instead, Kautz found the road barred by Mahone's Confederate infantry division. Wilson's division, fighting against elements of William H.F. \"Rooney\" Lee's cavalry, joined Kautz's near Ream's Station, where they were virtually surrounded. About noon, Mahone's infantry assaulted their front while Fitzhugh Lee's cavalry division threatened the Union left flank. The raiders burned their wagons and abandoned their artillery. Separated by the Confederate attacks, Wilson and his men cut their way through and fled south on the Stage Road to cross Nottoway River, while Kautz went cross-country, reaching Federal lines at Petersburg about dark. Wilson continued east to the Blackwater River before turning north, eventually reaching Union lines at Light House Point on July 2. The Wilson-Kautz raid tore up more than 60 miles of track, temporarily disrupting rail traffic into Petersburg, but at a great cost in men and mounts.",
+  "state": "VA",
   "significance": "C",
   "other_names": [
     "Reams' Station"
   ],
-  "state": "VA",
-  "preservation": "III.3",
+  "dates": "June 29, 1864",
+  "battle_name": "Ream's Station",
   "principal_commanders": "Maj. Gen. James H. Wilson and Brig. Gen. August Kautz [US]; Maj. Gen. William Mahone and Maj. Gen. Fitzhugh Lee [CS]",
-  "end_date": "1864-06-29",
-  "cwsac_reference": "VA068",
-  "casualties": 600,
+  "campaign": "Richmond-Petersburg Campaign [June 1864-March 1865]",
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "William",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Mahone",
+          "fullname": "William Mahone"
+        },
+        {
+          "rank": "Major General",
+          "first_name": "Fitzhugh",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Lee",
+          "fullname": "Fitzhugh Lee"
+        }
+      ],
+      "divisions": 1
+    },
+    "US": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "James",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "H.",
+          "last_name": "Wilson",
+          "fullname": "James H. Wilson"
+        },
+        {
+          "rank": "Brigadier General",
+          "first_name": "August",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Kautz",
+          "fullname": "August Kautz"
+        }
+      ],
+      "divisions": 1
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "William",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Mahone",
+          "fullname": "William Mahone"
+        },
+        {
+          "rank": "Major General",
+          "first_name": "Fitzhugh",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Lee",
+          "fullname": "Fitzhugh Lee"
+        }
+      ],
+      "divisions": 1
+    }
+  },
+  "result": "Confederate",
+  "battle": "VA068",
   "location": [
     {
-      "place": "Dinwiddie County",
-      "state": "VA"
+      "state": "VA",
+      "place": "Dinwiddie County"
     }
   ],
-  "battle_name": "Ream's Station"
+  "url": "http://www.nps.gov/hps/abpp/battles/va068.htm"
 }

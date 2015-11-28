@@ -1,63 +1,109 @@
 {
-  "dates": "November 7, 1863",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/va043.htm",
-  "results_text": "Union victory",
+  "end_date": "1863-11-07",
+  "casualties": 2537,
   "casualties_text": "2,537 total (1,600 Confederate prisoners)",
-  "description": "On November 7, the Union army forced passage of the Rappahannock River at two places. A dusk attack overran the Confederate bridgehead at Rappahannock Station, capturing more than 1,600 men of Jubal Early's Division. Fighting at Kelly's Ford was less severe with about 430 casualties, but the Confederates retreated allowing the Federals across in force. On the verge of going into winter quarters around Culpeper, Lee's army retired instead into Orange County south of the Rapidan River. The Army of the Potomac occupied the vicinity of Brandy Station and Culpeper County.",
-  "start_date": "1863-11-07",
-  "forces_text": "Corps",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "corps": 1,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Lee",
-          "middle_name": "E.",
           "rank": "General",
+          "first_name": "Robert",
           "suffix": "",
-          "fullname": "Robert E. Lee",
-          "first_name": "Robert"
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "fullname": "Robert E. Lee"
         }
       ],
-      "captured": 1600,
-      "corps": 1
+      "captured": 1600
     },
     "US": {
+      "corps": 1,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Meade",
-          "middle_name": "G.",
           "rank": "Major General",
+          "first_name": "George",
           "suffix": "",
-          "fullname": "George G. Meade",
-          "first_name": "George"
+          "navy": false,
+          "middle_name": "G.",
+          "last_name": "Meade",
+          "fullname": "George G. Meade"
         }
-      ],
-      "corps": 1
+      ]
     }
   },
-  "campaign": "Bristoe Campaign [October-November 1863]",
-  "battle": "VA043",
-  "result": "Inconclusive",
+  "cwsac_reference": "VA043",
+  "operation": false,
+  "forces_text": "Corps",
+  "start_date": "1863-11-07",
+  "preservation": "IV.1",
+  "results_text": "Union victory",
+  "description": "On November 7, the Union army forced passage of the Rappahannock River at two places. A dusk attack overran the Confederate bridgehead at Rappahannock Station, capturing more than 1,600 men of Jubal Early's Division. Fighting at Kelly's Ford was less severe with about 430 casualties, but the Confederates retreated allowing the Federals across in force. On the verge of going into winter quarters around Culpeper, Lee's army retired instead into Orange County south of the Rapidan River. The Army of the Potomac occupied the vicinity of Brandy Station and Culpeper County.",
+  "state": "VA",
   "significance": "B",
   "other_names": null,
-  "state": "VA",
-  "preservation": "IV.1",
+  "dates": "November 7, 1863",
+  "battle_name": "Rappahannock Station",
   "principal_commanders": "Maj. Gen. George G. Meade [US]; Gen. Robert E. Lee [CS]",
-  "end_date": "1863-11-07",
-  "cwsac_reference": "VA043",
-  "casualties": 2537,
+  "campaign": "Bristoe Campaign [October-November 1863]",
+  "belligerents": {
+    "Confederate": {
+      "corps": 1,
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "Robert",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "fullname": "Robert E. Lee"
+        }
+      ],
+      "captured": 1600
+    },
+    "US": {
+      "corps": 1,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "George",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "G.",
+          "last_name": "Meade",
+          "fullname": "George G. Meade"
+        }
+      ]
+    },
+    "CS": {
+      "corps": 1,
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "Robert",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "fullname": "Robert E. Lee"
+        }
+      ],
+      "captured": 1600
+    }
+  },
+  "result": "Inconclusive",
+  "battle": "VA043",
   "location": [
     {
-      "place": "Fauquier County",
-      "state": "VA"
+      "state": "VA",
+      "place": "Fauquier County"
     },
     {
-      "place": "Culpeper County",
-      "state": "VA"
+      "state": "VA",
+      "place": "Culpeper County"
     }
   ],
-  "battle_name": "Rappahannock Station"
+  "url": "http://www.nps.gov/hps/abpp/battles/va043.htm"
 }

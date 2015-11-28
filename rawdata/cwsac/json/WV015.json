@@ -1,23 +1,18 @@
 {
-  "dates": "August 25-29, 1864",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/wv015.htm",
-  "results_text": "Inconclusive",
+  "end_date": "1864-08-29",
+  "casualties": 300,
   "casualties_text": "300 total",
-  "description": "On August 29, two Confederate infantry divisions crossed Opequon Creek at Smithfield and forced back Merritt's Union cavalry division back along the road to Charles Town. Ricketts's infantry division was brought up to stop the Confederate advance.",
-  "start_date": "1864-08-25",
-  "forces_text": "Divisions",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Early",
-          "middle_name": "A.",
           "rank": "Lieutenant General",
+          "first_name": "Jubal",
           "suffix": "",
-          "fullname": "Jubal A. Early",
-          "first_name": "Jubal"
+          "navy": false,
+          "middle_name": "A.",
+          "last_name": "Early",
+          "fullname": "Jubal A. Early"
         }
       ],
       "divisions": 1
@@ -25,38 +20,87 @@
     "US": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Merritt",
-          "middle_name": "",
           "rank": "Brigadier General",
+          "first_name": "Wesley",
           "suffix": "",
-          "fullname": "Wesley Merritt",
-          "first_name": "Wesley"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Merritt",
+          "fullname": "Wesley Merritt"
         }
       ],
       "divisions": 1
     }
   },
-  "campaign": "Sheridan's Valley Campaign [August-October 1864]",
-  "battle": "WV015",
-  "result": "Inconclusive",
+  "cwsac_reference": "WV015",
+  "operation": false,
+  "forces_text": "Divisions",
+  "start_date": "1864-08-25",
+  "preservation": "II.4",
+  "results_text": "Inconclusive",
+  "description": "On August 29, two Confederate infantry divisions crossed Opequon Creek at Smithfield and forced back Merritt's Union cavalry division back along the road to Charles Town. Ricketts's infantry division was brought up to stop the Confederate advance.",
+  "state": "WV",
   "significance": "D",
   "other_names": null,
-  "state": "WV",
-  "preservation": "II.4",
+  "dates": "August 25-29, 1864",
+  "battle_name": "Smithfield Crossing",
   "principal_commanders": "Brig. Gen. Wesley Merritt [US]; Lt. Gen. Jubal A. Early [CS]",
-  "end_date": "1864-08-29",
-  "cwsac_reference": "WV015",
-  "casualties": 300,
+  "campaign": "Sheridan's Valley Campaign [August-October 1864]",
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "Lieutenant General",
+          "first_name": "Jubal",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "A.",
+          "last_name": "Early",
+          "fullname": "Jubal A. Early"
+        }
+      ],
+      "divisions": 1
+    },
+    "US": {
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Wesley",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Merritt",
+          "fullname": "Wesley Merritt"
+        }
+      ],
+      "divisions": 1
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "Lieutenant General",
+          "first_name": "Jubal",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "A.",
+          "last_name": "Early",
+          "fullname": "Jubal A. Early"
+        }
+      ],
+      "divisions": 1
+    }
+  },
+  "result": "Inconclusive",
+  "battle": "WV015",
   "location": [
     {
-      "place": "Jefferson County",
-      "state": "WV"
+      "state": "WV",
+      "place": "Jefferson County"
     },
     {
-      "place": "Berkeley County",
-      "state": "WV"
+      "state": "WV",
+      "place": "Berkeley County"
     }
   ],
-  "battle_name": "Smithfield Crossing"
+  "url": "http://www.nps.gov/hps/abpp/battles/wv015.htm"
 }

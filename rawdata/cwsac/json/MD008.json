@@ -1,23 +1,18 @@
 {
-  "dates": "August 1, 1864",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/md008.htm",
-  "results_text": "Inconclusive",
+  "end_date": "1864-08-01",
+  "casualties": 38,
   "casualties_text": "38 total",
-  "description": "After burning Chambersburg, Pennsylvania, on July 30, Johnson's and McCausland's cavalry brigades rode towards Cumberland, Maryland, to disrupt the B&O Railroad. Brig. Gen. Benjamin Kelly organized a small force of soldiers and citizens to meet the Confederate advance. On August 1, Kelly ambushed Rebel cavalrymen near Cumberland at Folck's Mill, and skirmishing continued for several hours. Eventually the Confederates withdrew.",
-  "start_date": "1864-08-01",
-  "forces_text": "Divisions",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "McCausland",
-          "middle_name": "",
           "rank": "Brigadier General",
+          "first_name": "John",
           "suffix": "",
-          "fullname": "John McCausland",
-          "first_name": "John"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "McCausland",
+          "fullname": "John McCausland"
         }
       ],
       "divisions": 1
@@ -25,36 +20,85 @@
     "US": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Kelley",
-          "middle_name": "F.",
           "rank": "Brigadier General",
+          "first_name": "Benjamin",
           "suffix": "",
-          "fullname": "Benjamin F. Kelley",
-          "first_name": "Benjamin"
+          "navy": false,
+          "middle_name": "F.",
+          "last_name": "Kelley",
+          "fullname": "Benjamin F. Kelley"
         }
       ],
       "divisions": 1
     }
   },
-  "campaign": "Early's Raid and Operations Against the B&O Railroad [June-August 1864]",
-  "battle": "MD008",
-  "result": "Inconclusive",
+  "cwsac_reference": "MD008",
+  "operation": false,
+  "forces_text": "Divisions",
+  "start_date": "1864-08-01",
+  "preservation": "IV.1",
+  "results_text": "Inconclusive",
+  "description": "After burning Chambersburg, Pennsylvania, on July 30, Johnson's and McCausland's cavalry brigades rode towards Cumberland, Maryland, to disrupt the B&O Railroad. Brig. Gen. Benjamin Kelly organized a small force of soldiers and citizens to meet the Confederate advance. On August 1, Kelly ambushed Rebel cavalrymen near Cumberland at Folck's Mill, and skirmishing continued for several hours. Eventually the Confederates withdrew.",
+  "state": "MD",
   "significance": "D",
   "other_names": [
     "Cumberland"
   ],
-  "state": "MD",
-  "preservation": "IV.1",
+  "dates": "August 1, 1864",
+  "battle_name": "Folck's Mill",
   "principal_commanders": "Brig. Gen. Benjamin F. Kelly [US]; Brig. Gen. John McCausland [CS]",
-  "end_date": "1864-08-01",
-  "cwsac_reference": "MD008",
-  "casualties": 38,
+  "campaign": "Early's Raid and Operations Against the B&O Railroad [June-August 1864]",
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "McCausland",
+          "fullname": "John McCausland"
+        }
+      ],
+      "divisions": 1
+    },
+    "US": {
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Benjamin",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "F.",
+          "last_name": "Kelley",
+          "fullname": "Benjamin F. Kelley"
+        }
+      ],
+      "divisions": 1
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "McCausland",
+          "fullname": "John McCausland"
+        }
+      ],
+      "divisions": 1
+    }
+  },
+  "result": "Inconclusive",
+  "battle": "MD008",
   "location": [
     {
-      "place": "Allegany County",
-      "state": "MD"
+      "state": "MD",
+      "place": "Allegany County"
     }
   ],
-  "battle_name": "Folck's Mill"
+  "url": "http://www.nps.gov/hps/abpp/battles/md008.htm"
 }

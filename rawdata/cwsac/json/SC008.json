@@ -1,23 +1,18 @@
 {
-  "dates": "August 17-December 31, 1863",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/sc008.htm",
-  "results_text": "Inconclusive",
+  "end_date": "1863-12-31",
+  "casualties": null,
   "casualties_text": "Unknown",
-  "description": "Federal batteries erected on Morris Island opened fire on August 17 and continued their bombardment of Fort Sumter and the Charleston defenses until August 23. Despite a severe pounding, Fort Sumter's garrison held out. Siege operations continued against Fort Wagner on Morris Island.",
-  "start_date": "1863-08-17",
-  "forces_text": "Morris Island Batteries [US]; Fort Sumter Garrison [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Beauregard",
-          "middle_name": "",
           "rank": "General",
+          "first_name": "P.G.T.",
           "suffix": "",
-          "fullname": "P.G.T. Beauregard",
-          "first_name": "P.G.T."
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Beauregard",
+          "fullname": "P.G.T. Beauregard"
         }
       ],
       "description": "Fort Sumter Garrison"
@@ -25,37 +20,86 @@
     "US": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Gillmore",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "Quincy",
           "suffix": "",
-          "fullname": "Quincy Gillmore",
-          "first_name": "Quincy"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Gillmore",
+          "fullname": "Quincy Gillmore"
         }
       ],
       "description": "Morris Island Batteries"
     }
   },
-  "campaign": "Operations Against the Defenses of Charleston [April-September 1863]",
-  "battle": "SC008",
-  "result": "Inconclusive",
+  "cwsac_reference": "SC008",
+  "operation": false,
+  "forces_text": "Morris Island Batteries [US]; Fort Sumter Garrison [CS]",
+  "start_date": "1863-08-17",
+  "preservation": "III.2",
+  "results_text": "Inconclusive",
+  "description": "Federal batteries erected on Morris Island opened fire on August 17 and continued their bombardment of Fort Sumter and the Charleston defenses until August 23. Despite a severe pounding, Fort Sumter's garrison held out. Siege operations continued against Fort Wagner on Morris Island.",
+  "state": "SC",
   "significance": "B",
   "other_names": [
     "Charleston Harbor",
     "Morris Island"
   ],
-  "state": "SC",
-  "preservation": "III.2",
+  "dates": "August 17-December 31, 1863",
+  "battle_name": "Fort Sumter",
   "principal_commanders": "Maj. Gen. Quincy Gillmore [US]; Gen. P.G.T. Beauregard [CS]",
-  "end_date": "1863-12-31",
-  "cwsac_reference": "SC008",
-  "casualties": null,
+  "campaign": "Operations Against the Defenses of Charleston [April-September 1863]",
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "P.G.T.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Beauregard",
+          "fullname": "P.G.T. Beauregard"
+        }
+      ],
+      "description": "Fort Sumter Garrison"
+    },
+    "US": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Quincy",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Gillmore",
+          "fullname": "Quincy Gillmore"
+        }
+      ],
+      "description": "Morris Island Batteries"
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "P.G.T.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Beauregard",
+          "fullname": "P.G.T. Beauregard"
+        }
+      ],
+      "description": "Fort Sumter Garrison"
+    }
+  },
+  "result": "Inconclusive",
+  "battle": "SC008",
   "location": [
     {
-      "place": "City of Charleston",
-      "state": "SC"
+      "state": "SC",
+      "place": "City of Charleston"
     }
   ],
-  "battle_name": "Fort Sumter"
+  "url": "http://www.nps.gov/hps/abpp/battles/sc008.htm"
 }

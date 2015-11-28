@@ -1,76 +1,145 @@
 {
-  "dates": "November 22, 1864",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/ga025.htm",
-  "results_text": "Union victory",
+  "end_date": "1864-11-22",
+  "casualties": 712,
   "casualties_text": "712 total (US 62; CS 650)",
-  "description": "Brig. Gen. Charles Walcutt was ordered to make a demonstration, with the six infantry regiments and one battery that comprised his brigade, toward Macon to ascertain the disposition of enemy troops in that direction. He set out on the morning of November 22, and after a short march he ran into some of Maj. Gen. Joseph Wheeler's cavalry and drove them beyond Griswoldville. Having accomplished his mission, Walcutt retired to a position at Duncan's Farm and fortified it with logs and rails to meet an expected Rebel attack force composed of three brigades of Georgia State Militia. The Georgia Militia had been ordered from Macon to Augusta, thinking the latter was Sherman's next objective, and accidentally collided with Walcutt's force. The Union force withstood three determined charges before receiving reinforcements of one regiment of infantry and two regiments of cavalry. The Rebels did not attack again and soon retired.",
-  "start_date": "1864-11-22",
-  "forces_text": "2nd Brigade, 1st Division, XV Corps, Army of the Tennessee and two regiments of cavalry [US]; 1st Division Georgia Militia and Cavalry Corps, Department of South Carolina, Georgia, and Florida [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": 650,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Philips",
-          "middle_name": "J.",
           "rank": "Brigadier General",
+          "first_name": "Pleasant",
           "suffix": "",
-          "fullname": "Pleasant J. Philips",
-          "first_name": "Pleasant"
+          "navy": false,
+          "middle_name": "J.",
+          "last_name": "Philips",
+          "fullname": "Pleasant J. Philips"
         },
         {
-          "navy": false,
-          "last_name": "Wheeler",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "Joseph",
           "suffix": "",
-          "fullname": "Joseph Wheeler",
-          "first_name": "Joseph"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Wheeler",
+          "fullname": "Joseph Wheeler"
         }
       ],
       "divisions": 1,
-      "description": "1st Division Georgia Militia and Cavalry Corps, Department of South Carolina, Georgia, and Florida",
-      "casualties": 650
+      "description": "1st Division Georgia Militia and Cavalry Corps, Department of South Carolina, Georgia, and Florida"
     },
     "US": {
       "cavalry_regiments": 2,
+      "casualties": 62,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Walcutt",
-          "middle_name": "C.",
           "rank": "Brigadier General",
+          "first_name": "Charles",
           "suffix": "",
-          "fullname": "Charles C. Walcutt",
-          "first_name": "Charles"
+          "navy": false,
+          "middle_name": "C.",
+          "last_name": "Walcutt",
+          "fullname": "Charles C. Walcutt"
         }
       ],
-      "description": "2nd Brigade, 1st Division, XV Corps, Army of the Tennessee and two regiments of cavalry",
       "brigades": 1,
-      "casualties": 62
+      "description": "2nd Brigade, 1st Division, XV Corps, Army of the Tennessee and two regiments of cavalry"
     }
   },
-  "campaign": "Savannah Campaign [November-December 1864]",
-  "battle": "GA025",
-  "result": "Union",
+  "cwsac_reference": "GA025",
+  "operation": false,
+  "forces_text": "2nd Brigade, 1st Division, XV Corps, Army of the Tennessee and two regiments of cavalry [US]; 1st Division Georgia Militia and Cavalry Corps, Department of South Carolina, Georgia, and Florida [CS]",
+  "start_date": "1864-11-22",
+  "preservation": "II.2",
+  "results_text": "Union victory",
+  "description": "Brig. Gen. Charles Walcutt was ordered to make a demonstration, with the six infantry regiments and one battery that comprised his brigade, toward Macon to ascertain the disposition of enemy troops in that direction. He set out on the morning of November 22, and after a short march he ran into some of Maj. Gen. Joseph Wheeler's cavalry and drove them beyond Griswoldville. Having accomplished his mission, Walcutt retired to a position at Duncan's Farm and fortified it with logs and rails to meet an expected Rebel attack force composed of three brigades of Georgia State Militia. The Georgia Militia had been ordered from Macon to Augusta, thinking the latter was Sherman's next objective, and accidentally collided with Walcutt's force. The Union force withstood three determined charges before receiving reinforcements of one regiment of infantry and two regiments of cavalry. The Rebels did not attack again and soon retired.",
+  "state": "GA",
   "significance": "B",
   "other_names": null,
-  "state": "GA",
-  "preservation": "II.2",
+  "dates": "November 22, 1864",
+  "battle_name": "Griswoldville",
   "principal_commanders": "Brig. Gen. Charles C. Walcutt [US]; Brig. Gen. Pleasant J. Philips and Maj. Gen. Joseph Wheeler [CS]",
-  "end_date": "1864-11-22",
-  "cwsac_reference": "GA025",
-  "casualties": 712,
+  "campaign": "Savannah Campaign [November-December 1864]",
+  "belligerents": {
+    "Confederate": {
+      "casualties": 650,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Pleasant",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "J.",
+          "last_name": "Philips",
+          "fullname": "Pleasant J. Philips"
+        },
+        {
+          "rank": "Major General",
+          "first_name": "Joseph",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Wheeler",
+          "fullname": "Joseph Wheeler"
+        }
+      ],
+      "divisions": 1,
+      "description": "1st Division Georgia Militia and Cavalry Corps, Department of South Carolina, Georgia, and Florida"
+    },
+    "US": {
+      "cavalry_regiments": 2,
+      "casualties": 62,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Charles",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "C.",
+          "last_name": "Walcutt",
+          "fullname": "Charles C. Walcutt"
+        }
+      ],
+      "brigades": 1,
+      "description": "2nd Brigade, 1st Division, XV Corps, Army of the Tennessee and two regiments of cavalry"
+    },
+    "CS": {
+      "casualties": 650,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Pleasant",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "J.",
+          "last_name": "Philips",
+          "fullname": "Pleasant J. Philips"
+        },
+        {
+          "rank": "Major General",
+          "first_name": "Joseph",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Wheeler",
+          "fullname": "Joseph Wheeler"
+        }
+      ],
+      "divisions": 1,
+      "description": "1st Division Georgia Militia and Cavalry Corps, Department of South Carolina, Georgia, and Florida"
+    }
+  },
+  "result": "Union",
+  "battle": "GA025",
   "location": [
     {
-      "place": "Jones County",
-      "state": "GA"
+      "state": "GA",
+      "place": "Jones County"
     },
     {
-      "place": "Twiggs County",
-      "state": "GA"
+      "state": "GA",
+      "place": "Twiggs County"
     }
   ],
-  "battle_name": "Griswoldville"
+  "url": "http://www.nps.gov/hps/abpp/battles/ga025.htm"
 }

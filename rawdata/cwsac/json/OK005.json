@@ -1,57 +1,104 @@
 {
-  "dates": "February 13, 1864",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/ok005.htm",
-  "results_text": "Union victory",
+  "end_date": "1864-02-13",
+  "casualties": null,
   "casualties_text": "Unknown",
-  "description": "While on an expedition in February 1864 to meet, defeat or destroy Confederate forces in Indian Territory, Union Maj. Charles Willette and his troops surprised a Confederate force at Middle Boggy Depot on February 13. Although poorly armed, the Rebels made a determined stand for a half hour before retiring. The Union forces killed 47 Confederates during this short fight. Fear of the arrival of fresh Confederate forces influenced the Federals to retire to Fort Gibson. During Col. John F. Phillips's Indian Territory expedition, he and his men fought with and dispersed numerous Confederate forces. Middle Boggy Depot was, perhaps, the largest encounter during the expedition.",
-  "start_date": "1864-02-13",
-  "forces_text": "Three companies of the 14th Kansas Cavalry Regiment and a section of Howitzers [US]; Seminole Battalion, Company A, 1st Choctaw and Chickasaw Cavalry Regiment, and a detachment of 20th Texas Regiment [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "regiments": 1,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Jumper",
-          "middle_name": "",
           "rank": "Lieutenant Colonel",
+          "first_name": "John",
           "suffix": "",
-          "fullname": "John Jumper",
-          "first_name": "John"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Jumper",
+          "fullname": "John Jumper"
         }
       ],
-      "regiments": 1,
       "description": "Seminole Battalion, Company A, 1st Choctaw and Chickasaw Cavalry Regiment, and a detachment of 20th Texas Regiment"
     },
     "US": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Willette",
-          "middle_name": "",
           "rank": "Major",
+          "first_name": "Charles",
           "suffix": "",
-          "fullname": "Charles Willette",
-          "first_name": "Charles"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Willette",
+          "fullname": "Charles Willette"
         }
       ],
       "companies": 3,
       "description": "Three companies of the 14th Kansas Cavalry Regiment and a section of Howitzers"
     }
   },
-  "campaign": "Operations in the Indian Territory [February 1864]",
-  "battle": "OK005",
-  "result": "Union",
+  "cwsac_reference": "OK005",
+  "operation": false,
+  "forces_text": "Three companies of the 14th Kansas Cavalry Regiment and a section of Howitzers [US]; Seminole Battalion, Company A, 1st Choctaw and Chickasaw Cavalry Regiment, and a detachment of 20th Texas Regiment [CS]",
+  "start_date": "1864-02-13",
+  "preservation": null,
+  "results_text": "Union victory",
+  "description": "While on an expedition in February 1864 to meet, defeat or destroy Confederate forces in Indian Territory, Union Maj. Charles Willette and his troops surprised a Confederate force at Middle Boggy Depot on February 13. Although poorly armed, the Rebels made a determined stand for a half hour before retiring. The Union forces killed 47 Confederates during this short fight. Fear of the arrival of fresh Confederate forces influenced the Federals to retire to Fort Gibson. During Col. John F. Phillips's Indian Territory expedition, he and his men fought with and dispersed numerous Confederate forces. Middle Boggy Depot was, perhaps, the largest encounter during the expedition.",
+  "state": "OK",
   "significance": "D",
   "other_names": [
     "Middle Boggy"
   ],
-  "state": "OK",
-  "preservation": null,
+  "dates": "February 13, 1864",
+  "battle_name": "Middle Boggy Depot",
   "principal_commanders": "Maj. Charles Willette [US]; Lt. Col. John Jumper [CS]",
-  "end_date": "1864-02-13",
-  "cwsac_reference": "OK005",
-  "casualties": null,
+  "campaign": "Operations in the Indian Territory [February 1864]",
+  "belligerents": {
+    "Confederate": {
+      "regiments": 1,
+      "commanders": [
+        {
+          "rank": "Lieutenant Colonel",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Jumper",
+          "fullname": "John Jumper"
+        }
+      ],
+      "description": "Seminole Battalion, Company A, 1st Choctaw and Chickasaw Cavalry Regiment, and a detachment of 20th Texas Regiment"
+    },
+    "US": {
+      "commanders": [
+        {
+          "rank": "Major",
+          "first_name": "Charles",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Willette",
+          "fullname": "Charles Willette"
+        }
+      ],
+      "companies": 3,
+      "description": "Three companies of the 14th Kansas Cavalry Regiment and a section of Howitzers"
+    },
+    "CS": {
+      "regiments": 1,
+      "commanders": [
+        {
+          "rank": "Lieutenant Colonel",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Jumper",
+          "fullname": "John Jumper"
+        }
+      ],
+      "description": "Seminole Battalion, Company A, 1st Choctaw and Chickasaw Cavalry Regiment, and a detachment of 20th Texas Regiment"
+    }
+  },
+  "result": "Union",
+  "battle": "OK005",
   "location": [],
-  "battle_name": "Middle Boggy Depot"
+  "url": "http://www.nps.gov/hps/abpp/battles/ok005.htm"
 }

@@ -1,23 +1,18 @@
 {
-  "dates": "May 6-7, 1864",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/va047.htm",
-  "results_text": "Union victory",
+  "end_date": "1864-05-07",
+  "casualties": 550,
   "casualties_text": "550 total",
-  "description": "In conjunction with the opening of Grant's Overland Campaign, Maj. Gen. Benjamin Butler's Army of the James, 33,000 strong, disembarked from transports at Bermuda Hundred on May 5, threatening the Richmond-Petersburg Railroad. On May 6, Hagood's brigade stopped initial Federal probes at Port Walthall Junction. On May 7, a Union division drove Hagood's and Johnson's brigades from the depot and cut the railroad at Port Walthall Junction. Confederate defenders retired behind Swift Run Creek and awaited reinforcements.",
-  "start_date": "1864-05-06",
-  "forces_text": "Divisions",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Hagood",
-          "middle_name": "",
           "rank": "Brigadier General",
+          "first_name": "Johnson",
           "suffix": "",
-          "fullname": "Johnson Hagood",
-          "first_name": "Johnson"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Hagood",
+          "fullname": "Johnson Hagood"
         }
       ],
       "divisions": 1
@@ -25,34 +20,83 @@
     "US": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Butler",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "Benjamin",
           "suffix": "",
-          "fullname": "Benjamin Butler",
-          "first_name": "Benjamin"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Butler",
+          "fullname": "Benjamin Butler"
         }
       ],
       "divisions": 1
     }
   },
-  "campaign": "Bermuda Hundred Campaign [May 1864]",
-  "battle": "VA047",
-  "result": "Union",
+  "cwsac_reference": "VA047",
+  "operation": false,
+  "forces_text": "Divisions",
+  "start_date": "1864-05-06",
+  "preservation": "II.3",
+  "results_text": "Union victory",
+  "description": "In conjunction with the opening of Grant's Overland Campaign, Maj. Gen. Benjamin Butler's Army of the James, 33,000 strong, disembarked from transports at Bermuda Hundred on May 5, threatening the Richmond-Petersburg Railroad. On May 6, Hagood's brigade stopped initial Federal probes at Port Walthall Junction. On May 7, a Union division drove Hagood's and Johnson's brigades from the depot and cut the railroad at Port Walthall Junction. Confederate defenders retired behind Swift Run Creek and awaited reinforcements.",
+  "state": "VA",
   "significance": "C",
   "other_names": null,
-  "state": "VA",
-  "preservation": "II.3",
+  "dates": "May 6-7, 1864",
+  "battle_name": "Port Walthall Junction",
   "principal_commanders": "Maj. Gen. Benjamin Butler [US]; Brig. Gen. Johnson Hagood [CS]",
-  "end_date": "1864-05-07",
-  "cwsac_reference": "VA047",
-  "casualties": 550,
+  "campaign": "Bermuda Hundred Campaign [May 1864]",
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Johnson",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Hagood",
+          "fullname": "Johnson Hagood"
+        }
+      ],
+      "divisions": 1
+    },
+    "US": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Benjamin",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Butler",
+          "fullname": "Benjamin Butler"
+        }
+      ],
+      "divisions": 1
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Johnson",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Hagood",
+          "fullname": "Johnson Hagood"
+        }
+      ],
+      "divisions": 1
+    }
+  },
+  "result": "Union",
+  "battle": "VA047",
   "location": [
     {
-      "place": "Chesterfield County",
-      "state": "VA"
+      "state": "VA",
+      "place": "Chesterfield County"
     }
   ],
-  "battle_name": "Port Walthall Junction"
+  "url": "http://www.nps.gov/hps/abpp/battles/va047.htm"
 }

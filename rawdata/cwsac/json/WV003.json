@@ -1,78 +1,152 @@
 {
-  "dates": "July 11, 1861",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/wv003.htm",
-  "results_text": "Union victory",
+  "end_date": "1861-07-11",
+  "casualties": 346,
   "casualties_text": "346 total (US 46; CS 300)",
-  "description": "Maj. Gen. George B. McClellan assumed command of Union forces in western Virginia in June 1861. On June 27, he moved his divisions from Clarksburg south against Lt. Col. John Pegram's Confederates, reaching the vicinity of Rich Mountain on July 9. Meanwhile, Brig. Gen. T.A. Morris's Union brigade marched from Philippi to confront Brig. Gen. R.S. Garnett's command at Laurel Hill. On July 11, Brig. Gen. William S. Rosecrans led a reinforced brigade by a mountain path to seize the Staunton-Parkersburg Turnpike in Pegram's rear. A sharp two-hour fight ensued in which the Confederates were split in two. Half escaped to Beverly, but Pegram and the others surrendered on July 13. Hearing of Pegram's defeat, Garnett abandoned Laurel Hill. The Federals pursued, and, during fighting at Corrick's Ford on July 13, Garnett was killed. On July 22, McClellan was ordered to Washington, and Rosecrans assumed command of Union forces in western Virginia. Union victory at Rich Mountain was instrumental in propelling McClellan to command of the Army of the Potomac.",
-  "start_date": "1861-07-11",
-  "forces_text": "Brigades",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": 300,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Pegram",
-          "middle_name": "",
           "rank": "Lieutenant Colonel",
+          "first_name": "John",
           "suffix": "",
-          "fullname": "John Pegram",
-          "first_name": "John"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Pegram",
+          "fullname": "John Pegram"
         },
         {
-          "navy": false,
-          "last_name": "Garnett",
-          "middle_name": "S.",
           "rank": "Brigadier General",
+          "first_name": "Robert",
           "suffix": "",
-          "fullname": "Robert S. Garnett",
-          "first_name": "Robert"
+          "navy": false,
+          "middle_name": "S.",
+          "last_name": "Garnett",
+          "fullname": "Robert S. Garnett"
         }
       ],
-      "brigades": 1,
-      "casualties": 300
+      "brigades": 1
     },
     "US": {
+      "casualties": 46,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "McClellan",
-          "middle_name": "B.",
           "rank": "Major General",
+          "first_name": "George",
           "suffix": "",
-          "fullname": "George B. McClellan",
-          "first_name": "George"
+          "navy": false,
+          "middle_name": "B.",
+          "last_name": "McClellan",
+          "fullname": "George B. McClellan"
         },
         {
-          "navy": false,
-          "last_name": "Rosecrans",
-          "middle_name": "S.",
           "rank": "Brigadier General",
+          "first_name": "William",
           "suffix": "",
-          "fullname": "William S. Rosecrans",
-          "first_name": "William"
+          "navy": false,
+          "middle_name": "S.",
+          "last_name": "Rosecrans",
+          "fullname": "William S. Rosecrans"
         }
       ],
-      "brigades": 1,
-      "casualties": 46
+      "brigades": 1
     }
   },
-  "campaign": "Operations in Western Virginia [June-December 1861]",
-  "battle": "WV003",
-  "result": "Union",
+  "cwsac_reference": "WV003",
+  "operation": false,
+  "forces_text": "Brigades",
+  "start_date": "1861-07-11",
+  "preservation": "I.3",
+  "results_text": "Union victory",
+  "description": "Maj. Gen. George B. McClellan assumed command of Union forces in western Virginia in June 1861. On June 27, he moved his divisions from Clarksburg south against Lt. Col. John Pegram's Confederates, reaching the vicinity of Rich Mountain on July 9. Meanwhile, Brig. Gen. T.A. Morris's Union brigade marched from Philippi to confront Brig. Gen. R.S. Garnett's command at Laurel Hill. On July 11, Brig. Gen. William S. Rosecrans led a reinforced brigade by a mountain path to seize the Staunton-Parkersburg Turnpike in Pegram's rear. A sharp two-hour fight ensued in which the Confederates were split in two. Half escaped to Beverly, but Pegram and the others surrendered on July 13. Hearing of Pegram's defeat, Garnett abandoned Laurel Hill. The Federals pursued, and, during fighting at Corrick's Ford on July 13, Garnett was killed. On July 22, McClellan was ordered to Washington, and Rosecrans assumed command of Union forces in western Virginia. Union victory at Rich Mountain was instrumental in propelling McClellan to command of the Army of the Potomac.",
+  "state": "WV",
   "significance": "B",
   "other_names": null,
-  "state": "WV",
-  "preservation": "I.3",
+  "dates": "July 11, 1861",
+  "battle_name": "Rich Mountain",
   "principal_commanders": "Maj. Gen. George B. McClellan and Brig. Gen. William S. Rosecrans [US]; Lt. Col. John Pegram and Brig. Gen. Robert S. Garnett [CS]",
-  "end_date": "1861-07-11",
-  "cwsac_reference": "WV003",
-  "casualties": 346,
+  "campaign": "Operations in Western Virginia [June-December 1861]",
+  "belligerents": {
+    "Confederate": {
+      "casualties": 300,
+      "commanders": [
+        {
+          "rank": "Lieutenant Colonel",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Pegram",
+          "fullname": "John Pegram"
+        },
+        {
+          "rank": "Brigadier General",
+          "first_name": "Robert",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "S.",
+          "last_name": "Garnett",
+          "fullname": "Robert S. Garnett"
+        }
+      ],
+      "brigades": 1
+    },
+    "US": {
+      "casualties": 46,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "George",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "B.",
+          "last_name": "McClellan",
+          "fullname": "George B. McClellan"
+        },
+        {
+          "rank": "Brigadier General",
+          "first_name": "William",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "S.",
+          "last_name": "Rosecrans",
+          "fullname": "William S. Rosecrans"
+        }
+      ],
+      "brigades": 1
+    },
+    "CS": {
+      "casualties": 300,
+      "commanders": [
+        {
+          "rank": "Lieutenant Colonel",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Pegram",
+          "fullname": "John Pegram"
+        },
+        {
+          "rank": "Brigadier General",
+          "first_name": "Robert",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "S.",
+          "last_name": "Garnett",
+          "fullname": "Robert S. Garnett"
+        }
+      ],
+      "brigades": 1
+    }
+  },
+  "result": "Union",
+  "battle": "WV003",
   "location": [
     {
-      "place": "Randolph County",
-      "state": "WV"
+      "state": "WV",
+      "place": "Randolph County"
     }
   ],
-  "battle_name": "Rich Mountain"
+  "url": "http://www.nps.gov/hps/abpp/battles/wv003.htm"
 }

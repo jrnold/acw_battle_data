@@ -1,68 +1,121 @@
 {
-  "dates": "November 27-December 2, 1863",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/va044.htm",
-  "results_text": "Inconclusive",
+  "end_date": "1863-12-02",
+  "casualties": 1952,
   "casualties_text": "1,952 total (US 1,272; CS 680)",
-  "description": "Payne's Farm and New Hope Church were the first and heaviest clashes of the Mine Run Campaign. In late November 1863, Meade attempted to steal a march through the Wilderness and strike the right flank of the Confederate army south of the Rapidan River. Maj. Gen. Jubal A. Early in command of Ewell's Corps marched east on the Orange Turnpike to meet the advance of William French's III Corps near Payne's Farm. Carr's division (US) attacked twice. Johnson's division (CS) counterattacked but was scattered by heavy fire and broken terrain. After dark, Lee withdrew to prepared field fortifications along Mine Run. The next day the Union army closed on the Confederate position. Skirmishing was heavy, but a major attack did not materialize. Meade concluded that the Confederate line was too strong to attack and retired during the night of December 1-2, ending the winter campaign.",
-  "start_date": "1863-11-27",
-  "forces_text": "Armies: 114,069 total (US 69,643; CS 44,426)",
-  "strength": 114069,
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": 680,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Lee",
-          "middle_name": "E.",
           "rank": "General",
+          "first_name": "Robert",
           "suffix": "",
-          "fullname": "Robert E. Lee",
-          "first_name": "Robert"
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "fullname": "Robert E. Lee"
         }
       ],
       "description": "44,426",
-      "strength_max": 44426,
       "strength_min": 44426,
-      "casualties": 680
+      "strength_max": 44426
     },
     "US": {
+      "casualties": 1272,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Meade",
-          "middle_name": "G.",
           "rank": "Major General",
+          "first_name": "George",
           "suffix": "",
-          "fullname": "George G. Meade",
-          "first_name": "George"
+          "navy": false,
+          "middle_name": "G.",
+          "last_name": "Meade",
+          "fullname": "George G. Meade"
         }
       ],
       "description": "69,643",
-      "strength_max": 69643,
       "strength_min": 69643,
-      "casualties": 1272
+      "strength_max": 69643
     }
   },
-  "campaign": "Mine Run Campaign [November-December 1863]",
-  "battle": "VA044",
-  "result": "Inconclusive",
+  "strength": 114069,
+  "cwsac_reference": "VA044",
+  "operation": false,
+  "forces_text": "Armies: 114,069 total (US 69,643; CS 44,426)",
+  "start_date": "1863-11-27",
+  "preservation": "I.3",
+  "results_text": "Inconclusive",
+  "description": "Payne's Farm and New Hope Church were the first and heaviest clashes of the Mine Run Campaign. In late November 1863, Meade attempted to steal a march through the Wilderness and strike the right flank of the Confederate army south of the Rapidan River. Maj. Gen. Jubal A. Early in command of Ewell's Corps marched east on the Orange Turnpike to meet the advance of William French's III Corps near Payne's Farm. Carr's division (US) attacked twice. Johnson's division (CS) counterattacked but was scattered by heavy fire and broken terrain. After dark, Lee withdrew to prepared field fortifications along Mine Run. The next day the Union army closed on the Confederate position. Skirmishing was heavy, but a major attack did not materialize. Meade concluded that the Confederate line was too strong to attack and retired during the night of December 1-2, ending the winter campaign.",
+  "state": "VA",
   "significance": "B",
   "other_names": [
     "Payne's Farm",
     "New Hope Church"
   ],
-  "state": "VA",
-  "preservation": "I.3",
+  "dates": "November 27-December 2, 1863",
+  "battle_name": "Mine Run",
   "principal_commanders": "Maj. Gen. George G. Meade [US]; Gen. Robert E. Lee [CS]",
-  "end_date": "1863-12-02",
-  "cwsac_reference": "VA044",
-  "casualties": 1952,
   "location": [
     {
-      "place": "Orange County",
-      "state": "VA"
+      "state": "VA",
+      "place": "Orange County"
     }
   ],
-  "battle_name": "Mine Run"
+  "belligerents": {
+    "Confederate": {
+      "casualties": 680,
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "Robert",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "fullname": "Robert E. Lee"
+        }
+      ],
+      "description": "44,426",
+      "strength_min": 44426,
+      "strength_max": 44426
+    },
+    "US": {
+      "casualties": 1272,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "George",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "G.",
+          "last_name": "Meade",
+          "fullname": "George G. Meade"
+        }
+      ],
+      "description": "69,643",
+      "strength_min": 69643,
+      "strength_max": 69643
+    },
+    "CS": {
+      "casualties": 680,
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "Robert",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "fullname": "Robert E. Lee"
+        }
+      ],
+      "description": "44,426",
+      "strength_min": 44426,
+      "strength_max": 44426
+    }
+  },
+  "result": "Inconclusive",
+  "battle": "VA044",
+  "campaign": "Mine Run Campaign [November-December 1863]",
+  "url": "http://www.nps.gov/hps/abpp/battles/va044.htm"
 }

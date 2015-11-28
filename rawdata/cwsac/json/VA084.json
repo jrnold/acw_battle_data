@@ -1,69 +1,134 @@
 {
-  "dates": "March 25, 1865",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/va084.htm",
-  "results_text": "Union victory",
+  "end_date": "1865-03-25",
+  "casualties": 3850,
   "casualties_text": "3,850 total (US 950; CS 2,900)",
-  "description": "In a last-gasp offensive, Gen. Robert E. Lee amassed nearly half of his army in an attempt to break through Grant's Petersburg defenses and threaten his supply depot at City Point. Directed by Maj. Gen. John B. Gordon, the pre-dawn assault on March 25 overpowered the garrisons of Fort Stedman and Batteries X, XI, and XII. The Confederates were brought under a killing crossfire, and counterattacks led by Maj. Gens. Parke and Hartranft contained the breakthrough, cut off, and captured more than 1,900 of the attackers. During the day, elements of the II and VI Corps assaulted and captured the entrenched picket lines in their respective fronts, which had been weakened for the assault on Fort Stedman. This was a devastating blow for Lee's army, setting up the Confederate defeat at Five Forks on April 1 and the fall of Petersburg on April 2-3.",
-  "start_date": "1865-03-25",
-  "forces_text": "Corps",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "corps": 1,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Lee",
-          "middle_name": "E.",
           "rank": "General",
+          "first_name": "Robert",
           "suffix": "",
-          "fullname": "Robert E. Lee",
-          "first_name": "Robert"
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "fullname": "Robert E. Lee"
         },
         {
-          "navy": false,
-          "last_name": "Gordon",
-          "middle_name": "B.",
           "rank": "Major General",
+          "first_name": "John",
           "suffix": "",
-          "fullname": "John B. Gordon",
-          "first_name": "John"
+          "navy": false,
+          "middle_name": "B.",
+          "last_name": "Gordon",
+          "fullname": "John B. Gordon"
         }
       ],
-      "corps": 1,
       "casualties": 2900
     },
     "US": {
+      "corps": 1,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Parke",
-          "middle_name": "G.",
           "rank": "Major General",
+          "first_name": "John",
           "suffix": "",
-          "fullname": "John G. Parke",
-          "first_name": "John"
+          "navy": false,
+          "middle_name": "G.",
+          "last_name": "Parke",
+          "fullname": "John G. Parke"
         }
       ],
-      "corps": 1,
       "casualties": 950
     }
   },
-  "campaign": "Richmond-Petersburg Campaign [June 1864-March 1865]",
-  "battle": "VA084",
-  "result": "Union",
+  "cwsac_reference": "VA084",
+  "operation": false,
+  "forces_text": "Corps",
+  "start_date": "1865-03-25",
+  "preservation": "III.1",
+  "results_text": "Union victory",
+  "description": "In a last-gasp offensive, Gen. Robert E. Lee amassed nearly half of his army in an attempt to break through Grant's Petersburg defenses and threaten his supply depot at City Point. Directed by Maj. Gen. John B. Gordon, the pre-dawn assault on March 25 overpowered the garrisons of Fort Stedman and Batteries X, XI, and XII. The Confederates were brought under a killing crossfire, and counterattacks led by Maj. Gens. Parke and Hartranft contained the breakthrough, cut off, and captured more than 1,900 of the attackers. During the day, elements of the II and VI Corps assaulted and captured the entrenched picket lines in their respective fronts, which had been weakened for the assault on Fort Stedman. This was a devastating blow for Lee's army, setting up the Confederate defeat at Five Forks on April 1 and the fall of Petersburg on April 2-3.",
+  "state": "VA",
   "significance": "A",
   "other_names": null,
-  "state": "VA",
-  "preservation": "III.1",
+  "dates": "March 25, 1865",
+  "battle_name": "Fort Stedman",
   "principal_commanders": "Maj. Gen. John G. Parke [US]; Gen. Robert E. Lee and Maj. Gen. John B. Gordon [CS]",
-  "end_date": "1865-03-25",
-  "cwsac_reference": "VA084",
-  "casualties": 3850,
+  "campaign": "Richmond-Petersburg Campaign [June 1864-March 1865]",
+  "belligerents": {
+    "Confederate": {
+      "corps": 1,
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "Robert",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "fullname": "Robert E. Lee"
+        },
+        {
+          "rank": "Major General",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "B.",
+          "last_name": "Gordon",
+          "fullname": "John B. Gordon"
+        }
+      ],
+      "casualties": 2900
+    },
+    "US": {
+      "corps": 1,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "G.",
+          "last_name": "Parke",
+          "fullname": "John G. Parke"
+        }
+      ],
+      "casualties": 950
+    },
+    "CS": {
+      "corps": 1,
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "Robert",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "fullname": "Robert E. Lee"
+        },
+        {
+          "rank": "Major General",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "B.",
+          "last_name": "Gordon",
+          "fullname": "John B. Gordon"
+        }
+      ],
+      "casualties": 2900
+    }
+  },
+  "result": "Union",
+  "battle": "VA084",
   "location": [
     {
-      "place": "Petersburg",
-      "state": "VA"
+      "state": "VA",
+      "place": "Petersburg"
     }
   ],
-  "battle_name": "Fort Stedman"
+  "url": "http://www.nps.gov/hps/abpp/battles/va084.htm"
 }

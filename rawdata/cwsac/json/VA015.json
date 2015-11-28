@@ -1,63 +1,110 @@
 {
-  "dates": "June 25, 1862",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/va015.htm",
-  "results_text": "Inconclusive (Union forces withdrew to their lines.)",
+  "end_date": "1862-06-25",
+  "casualties": 1057,
   "casualties_text": "1,057 total (US 516; CS 541)",
-  "description": "Oak Grove was the first of the Seven Days' battles. On June 25, Maj. Gen. George B. McClellan advanced his lines along the Williamsburg Road with the objective of bringing Richmond within range of his siege guns. Union forces attacked over swampy ground with inconclusive results, and darkness halted the fighting. McClellan's attack was not strong enough to derail the Confederate offensive that already had been set in motion. The next day, Lee seized the initiative by attacking at Beaver Dam Creek north of the Chickahominy.",
-  "start_date": "1862-06-25",
-  "forces_text": "Corps",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "corps": 1,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Lee",
-          "middle_name": "E.",
           "rank": "General",
+          "first_name": "Robert",
           "suffix": "",
-          "fullname": "Robert E. Lee",
-          "first_name": "Robert"
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "fullname": "Robert E. Lee"
         }
       ],
-      "corps": 1,
       "casualties": 541
     },
     "US": {
+      "corps": 1,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "McClellan",
-          "middle_name": "B.",
           "rank": "Major General",
+          "first_name": "George",
           "suffix": "",
-          "fullname": "George B. McClellan",
-          "first_name": "George"
+          "navy": false,
+          "middle_name": "B.",
+          "last_name": "McClellan",
+          "fullname": "George B. McClellan"
         }
       ],
-      "corps": 1,
       "casualties": 516
     }
   },
-  "campaign": "Peninsula Campaign [March-July 1862]",
-  "battle": "VA015",
-  "result": "Inconclusive",
+  "cwsac_reference": "VA015",
+  "operation": false,
+  "forces_text": "Corps",
+  "start_date": "1862-06-25",
+  "preservation": "IV.2",
+  "results_text": "Inconclusive (Union forces withdrew to their lines.)",
+  "description": "Oak Grove was the first of the Seven Days' battles. On June 25, Maj. Gen. George B. McClellan advanced his lines along the Williamsburg Road with the objective of bringing Richmond within range of his siege guns. Union forces attacked over swampy ground with inconclusive results, and darkness halted the fighting. McClellan's attack was not strong enough to derail the Confederate offensive that already had been set in motion. The next day, Lee seized the initiative by attacking at Beaver Dam Creek north of the Chickahominy.",
+  "state": "VA",
   "significance": "D",
   "other_names": [
     "French's Field",
     "King's School House"
   ],
-  "state": "VA",
-  "preservation": "IV.2",
+  "dates": "June 25, 1862",
+  "battle_name": "Oak Grove",
   "principal_commanders": "Maj. Gen. George B. McClellan [US]; Gen. Robert E. Lee [CS]",
-  "end_date": "1862-06-25",
-  "cwsac_reference": "VA015",
-  "casualties": 1057,
+  "campaign": "Peninsula Campaign [March-July 1862]",
+  "belligerents": {
+    "Confederate": {
+      "corps": 1,
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "Robert",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "fullname": "Robert E. Lee"
+        }
+      ],
+      "casualties": 541
+    },
+    "US": {
+      "corps": 1,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "George",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "B.",
+          "last_name": "McClellan",
+          "fullname": "George B. McClellan"
+        }
+      ],
+      "casualties": 516
+    },
+    "CS": {
+      "corps": 1,
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "Robert",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "fullname": "Robert E. Lee"
+        }
+      ],
+      "casualties": 541
+    }
+  },
+  "result": "Inconclusive",
+  "battle": "VA015",
   "location": [
     {
-      "place": "Henrico County",
-      "state": "VA"
+      "state": "VA",
+      "place": "Henrico County"
     }
   ],
-  "battle_name": "Oak Grove"
+  "url": "http://www.nps.gov/hps/abpp/battles/va015.htm"
 }

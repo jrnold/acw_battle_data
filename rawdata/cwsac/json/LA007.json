@@ -1,67 +1,121 @@
 {
-  "dates": "April 14, 1863",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/la007.htm",
-  "results_text": "Union victory",
+  "end_date": "1863-04-14",
+  "casualties": null,
   "casualties_text": "Total unknown (US 353; CS unknown)",
-  "description": "While the other two Union XIX Army Corps divisions comprising the expedition into West Louisiana moved across Berwick Bay towards Fort Bisland, Brig. Gen. Cuvier Grover's division went up the Atchafalaya River into Grand Lake, intending to intercept a Confederate retreat from Fort Bisland or turn the enemy's position. On the morning of April 13, the division landed in the vicinity of Franklin and scattered Rebel troops attempting to stop them from disembarking. That night, Grover ordered the division to cross Bayou Teche and prepare for an attack towards Franklin at dawn. In the meantime, Confederate Maj. Gen. Richard Taylor had sent some men to meet Grover's threat. On the morning of the 14th, Taylor and his men were at Nerson's Woods, around a mile and a half above Franklin. As Grover's lead brigade marched out a few miles, it encountered Rebels on its right and began skirmishing with them. The fighting became intense; the Rebels attacked, forcing the Yankees to fall back. The gunboat Diana arrived and anchored the Confederate right flank. The Confederates were outnumbered, however, and, as Grover began making dispositions for an attack, they retreated leaving the field to the Union. This victory, along with the one at Fort Bisland, two days earlier, assured the success of the expedition into West Louisiana.",
-  "start_date": "1863-04-14",
-  "forces_text": "4th Division, XIX Army Corps [US]; 28th Louisiana Infantry, 2nd Louisiana Cavalry, 12th Louisiana Infantry Battalion, 4th Texas Cavalry, and Cornay's Louisiana Battery [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "regiments": 1.5,
+      "casualties": null,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Taylor",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "Richard",
           "suffix": "",
-          "fullname": "Richard Taylor",
-          "first_name": "Richard"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Taylor",
+          "fullname": "Richard Taylor"
         }
       ],
-      "artillery_batteries": 1,
-      "casualties": null,
       "cavalry_divisions": 1,
-      "regiments": 1.5,
+      "artillery_batteries": 1,
       "description": "28th Louisiana Infantry, 2nd Louisiana Cavalry, 12th Louisiana Infantry Battalion, 4th Texas Cavalry, and Cornay's Louisiana Battery"
     },
     "US": {
+      "casualties": 353,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Grover",
-          "middle_name": "",
           "rank": "Brigadier General",
+          "first_name": "Cuvier",
           "suffix": "",
-          "fullname": "Cuvier Grover",
-          "first_name": "Cuvier"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Grover",
+          "fullname": "Cuvier Grover"
         }
       ],
       "divisions": 1,
-      "description": "4th Division, XIX Army Corps",
-      "casualties": 353
+      "description": "4th Division, XIX Army Corps"
     }
   },
-  "campaign": "Operations in West Louisiana [April 1863]",
-  "battle": "LA007",
-  "result": "Union",
+  "cwsac_reference": "LA007",
+  "operation": false,
+  "forces_text": "4th Division, XIX Army Corps [US]; 28th Louisiana Infantry, 2nd Louisiana Cavalry, 12th Louisiana Infantry Battalion, 4th Texas Cavalry, and Cornay's Louisiana Battery [CS]",
+  "start_date": "1863-04-14",
+  "preservation": "II.3",
+  "results_text": "Union victory",
+  "description": "While the other two Union XIX Army Corps divisions comprising the expedition into West Louisiana moved across Berwick Bay towards Fort Bisland, Brig. Gen. Cuvier Grover's division went up the Atchafalaya River into Grand Lake, intending to intercept a Confederate retreat from Fort Bisland or turn the enemy's position. On the morning of April 13, the division landed in the vicinity of Franklin and scattered Rebel troops attempting to stop them from disembarking. That night, Grover ordered the division to cross Bayou Teche and prepare for an attack towards Franklin at dawn. In the meantime, Confederate Maj. Gen. Richard Taylor had sent some men to meet Grover's threat. On the morning of the 14th, Taylor and his men were at Nerson's Woods, around a mile and a half above Franklin. As Grover's lead brigade marched out a few miles, it encountered Rebels on its right and began skirmishing with them. The fighting became intense; the Rebels attacked, forcing the Yankees to fall back. The gunboat Diana arrived and anchored the Confederate right flank. The Confederates were outnumbered, however, and, as Grover began making dispositions for an attack, they retreated leaving the field to the Union. This victory, along with the one at Fort Bisland, two days earlier, assured the success of the expedition into West Louisiana.",
+  "state": "LA",
   "significance": "C",
   "other_names": [
     "Nerson's Woods",
     "Franklin"
   ],
-  "state": "LA",
-  "preservation": "II.3",
+  "dates": "April 14, 1863",
+  "battle_name": "Irish Bend",
   "principal_commanders": "Brig. Gen. Cuvier Grover [US]; Maj. Gen. Richard Taylor [CS]",
-  "end_date": "1863-04-14",
-  "cwsac_reference": "LA007",
-  "casualties": null,
+  "campaign": "Operations in West Louisiana [April 1863]",
+  "belligerents": {
+    "Confederate": {
+      "regiments": 1.5,
+      "casualties": null,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Richard",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Taylor",
+          "fullname": "Richard Taylor"
+        }
+      ],
+      "cavalry_divisions": 1,
+      "artillery_batteries": 1,
+      "description": "28th Louisiana Infantry, 2nd Louisiana Cavalry, 12th Louisiana Infantry Battalion, 4th Texas Cavalry, and Cornay's Louisiana Battery"
+    },
+    "US": {
+      "casualties": 353,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Cuvier",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Grover",
+          "fullname": "Cuvier Grover"
+        }
+      ],
+      "divisions": 1,
+      "description": "4th Division, XIX Army Corps"
+    },
+    "CS": {
+      "regiments": 1.5,
+      "casualties": null,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Richard",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Taylor",
+          "fullname": "Richard Taylor"
+        }
+      ],
+      "cavalry_divisions": 1,
+      "artillery_batteries": 1,
+      "description": "28th Louisiana Infantry, 2nd Louisiana Cavalry, 12th Louisiana Infantry Battalion, 4th Texas Cavalry, and Cornay's Louisiana Battery"
+    }
+  },
+  "result": "Union",
+  "battle": "LA007",
   "location": [
     {
-      "place": "St. Mary Parish",
-      "state": "LA"
+      "state": "LA",
+      "place": "St. Mary Parish"
     }
   ],
-  "battle_name": "Irish Bend"
+  "url": "http://www.nps.gov/hps/abpp/battles/la007.htm"
 }

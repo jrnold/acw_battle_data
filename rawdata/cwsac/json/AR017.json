@@ -1,49 +1,49 @@
 {
-  "dates": "June 6, 1864",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/ar017.htm",
-  "results_text": "Union victory",
+  "end_date": "1864-06-06",
+  "casualties": 280,
   "casualties_text": "280 total (US 180; CS 100)",
-  "description": "Maj. Gen. A.J. Smith ordered Brig. Gen. Joseph A. Mower to demonstrate against Lake Village. Mower camped near Sunnyside Landing on the evening of June 5 and took up his line of march again the next morning. The skirmishing Confederates fell back to Red Leaf where Col. Colton Greene and his men were encamped. As the Federals advanced, Greene's men, assisted by artillery, fought a delaying action at Ditch Bayou and then withdrew to Parker's landing on Bayou Mason. The Union troops advanced to Lake Village, camped there overnight, and the next day rejoined the flotilla on the Mississippi River at Columbia. The Rebels delayed the Union advance but, eventually, allowed them to continue to their objective: Lake Village.",
-  "start_date": "1864-06-06",
-  "forces_text": "Two brigades of XVI Army Corps [US]; Marmaduke's Division [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": 100,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Greene",
-          "middle_name": "",
           "rank": "Colonel",
+          "first_name": "Colton",
           "suffix": "",
-          "fullname": "Colton Greene",
-          "first_name": "Colton"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Greene",
+          "fullname": "Colton Greene"
         }
       ],
       "divisions": 1,
-      "description": "Marmaduke's Division",
-      "casualties": 100
+      "description": "Marmaduke's Division"
     },
     "US": {
+      "casualties": 180,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Mower",
-          "middle_name": "A.",
           "rank": "Brigadier General",
+          "first_name": "Joseph",
           "suffix": "",
-          "fullname": "Joseph A. Mower",
-          "first_name": "Joseph"
+          "navy": false,
+          "middle_name": "A.",
+          "last_name": "Mower",
+          "fullname": "Joseph A. Mower"
         }
       ],
-      "description": "Two brigades of XVI Army Corps",
       "brigades": 2,
-      "casualties": 180
+      "description": "Two brigades of XVI Army Corps"
     }
   },
-  "campaign": "Expedition to Lake Village [June 1864]",
-  "battle": "AR017",
-  "result": "Union",
+  "cwsac_reference": "AR017",
+  "operation": false,
+  "forces_text": "Two brigades of XVI Army Corps [US]; Marmaduke's Division [CS]",
+  "start_date": "1864-06-06",
+  "preservation": "III.4",
+  "results_text": "Union victory",
+  "description": "Maj. Gen. A.J. Smith ordered Brig. Gen. Joseph A. Mower to demonstrate against Lake Village. Mower camped near Sunnyside Landing on the evening of June 5 and took up his line of march again the next morning. The skirmishing Confederates fell back to Red Leaf where Col. Colton Greene and his men were encamped. As the Federals advanced, Greene's men, assisted by artillery, fought a delaying action at Ditch Bayou and then withdrew to Parker's landing on Bayou Mason. The Union troops advanced to Lake Village, camped there overnight, and the next day rejoined the flotilla on the Mississippi River at Columbia. The Rebels delayed the Union advance but, eventually, allowed them to continue to their objective: Lake Village.",
+  "state": "AR",
   "significance": "D",
   "other_names": [
     "Ditch Bayou",
@@ -53,17 +53,67 @@
     "Fish Bayou",
     "Grand Lake"
   ],
-  "state": "AR",
-  "preservation": "III.4",
+  "dates": "June 6, 1864",
+  "battle_name": "Old River Lake",
   "principal_commanders": "Brig. Gen. Joseph A. Mower [US]; Col. Colton Greene [CS]",
-  "end_date": "1864-06-06",
-  "cwsac_reference": "AR017",
-  "casualties": 280,
+  "campaign": "Expedition to Lake Village [June 1864]",
+  "belligerents": {
+    "Confederate": {
+      "casualties": 100,
+      "commanders": [
+        {
+          "rank": "Colonel",
+          "first_name": "Colton",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Greene",
+          "fullname": "Colton Greene"
+        }
+      ],
+      "divisions": 1,
+      "description": "Marmaduke's Division"
+    },
+    "US": {
+      "casualties": 180,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Joseph",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "A.",
+          "last_name": "Mower",
+          "fullname": "Joseph A. Mower"
+        }
+      ],
+      "brigades": 2,
+      "description": "Two brigades of XVI Army Corps"
+    },
+    "CS": {
+      "casualties": 100,
+      "commanders": [
+        {
+          "rank": "Colonel",
+          "first_name": "Colton",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Greene",
+          "fullname": "Colton Greene"
+        }
+      ],
+      "divisions": 1,
+      "description": "Marmaduke's Division"
+    }
+  },
+  "result": "Union",
+  "battle": "AR017",
   "location": [
     {
-      "place": "Chicot County",
-      "state": "AR"
+      "state": "AR",
+      "place": "Chicot County"
     }
   ],
-  "battle_name": "Old River Lake"
+  "url": "http://www.nps.gov/hps/abpp/battles/ar017.htm"
 }

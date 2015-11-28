@@ -1,60 +1,107 @@
 {
-  "dates": "April 2-9, 1865",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/al006.htm",
-  "results_text": "Union victory (Fort Blakely surrendered.)",
+  "end_date": "1865-04-09",
+  "casualties": 4475,
   "casualties_text": "Total 4,475. April 9 only 3,529 (US 629; CS 2,900)",
-  "description": "E.R.S. Canby's forces, the XVI and XIII corps, moved along the eastern shore of Mobile Bay, forcing the Confederates back into their defenses. Union forces then concentrated on Spanish Fort and Fort Blakely. By April 1, Union forces had enveloped Spanish Fort, thereby releasing more troops to focus on Fort Blakely. Brig. Gen. St. John R. Liddell, with about 4,000 men, held out against the much larger Union force until Spanish Fort fell on April 8, allowing Canby to concentrate 16,000 men for the attack on April 9. Sheer numbers breached the Confederate earthworks compelling the Confederates to capitulate. The siege and capture of Fort Blakely was basically the last combined-force battle of the war. African-American forces played a major role in the successful Union assault.",
-  "start_date": "1865-04-02",
-  "forces_text": "XIII and XVI Corps [US]; Fort Blakely Garrison [CS]",
-  "belligerents": {
-    "CS": {
-        "commanders": [
-            {
-                "navy": false,
-                "fullname": "John R. Liddell",
-                "last_name": "Liddell",
-                "first_name": "John",
-                "middle_name": "R.",
-                "suffix": "",
-                "rank": "Major General"
-            }
-        ],
-      "description": "Fort Blakely Garrison",
-      "casualties": 3677
-    },
-    "US": {
+  "forces": {
+    "Confederate": {
+      "casualties": 3677,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Canby",
-          "middle_name": "R. S.",
           "rank": "Major General",
+          "first_name": "John",
           "suffix": "",
-          "fullname": "E. R. S. Canby",
-          "first_name": "E."
+          "navy": false,
+          "middle_name": "R.",
+          "last_name": "Liddell",
+          "fullname": "John R. Liddell"
         }
       ],
-      "description": "XIII and XVI Corps",
-      "casualties": 798
+      "description": "Fort Blakely Garrison"
+    },
+    "US": {
+      "casualties": 798,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "E.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "R. S.",
+          "last_name": "Canby",
+          "fullname": "E. R. S. Canby"
+        }
+      ],
+      "description": "XIII and XVI Corps"
     }
   },
-  "campaign": "Mobile Campaign [March-April 1865]",
-  "battle": "AL006",
-  "result": "Union",
+  "cwsac_reference": "AL006",
+  "operation": false,
+  "forces_text": "XIII and XVI Corps [US]; Fort Blakely Garrison [CS]",
+  "start_date": "1865-04-02",
+  "preservation": "III.1",
+  "results_text": "Union victory (Fort Blakely surrendered.)",
+  "description": "E.R.S. Canby's forces, the XVI and XIII corps, moved along the eastern shore of Mobile Bay, forcing the Confederates back into their defenses. Union forces then concentrated on Spanish Fort and Fort Blakely. By April 1, Union forces had enveloped Spanish Fort, thereby releasing more troops to focus on Fort Blakely. Brig. Gen. St. John R. Liddell, with about 4,000 men, held out against the much larger Union force until Spanish Fort fell on April 8, allowing Canby to concentrate 16,000 men for the attack on April 9. Sheer numbers breached the Confederate earthworks compelling the Confederates to capitulate. The siege and capture of Fort Blakely was basically the last combined-force battle of the war. African-American forces played a major role in the successful Union assault.",
+  "state": "AL",
   "significance": "A",
   "other_names": null,
-  "state": "AL",
-  "preservation": "III.1",
+  "dates": "April 2-9, 1865",
+  "battle_name": "Fort Blakely",
   "principal_commanders": "Maj. Gen. E.R.S. Canby [US]; Brig. Gen. St. John R. Liddell [CS]",
-  "end_date": "1865-04-09",
-  "cwsac_reference": "AL006",
-  "casualties": 4475,
+  "campaign": "Mobile Campaign [March-April 1865]",
+  "belligerents": {
+    "Confederate": {
+      "casualties": 3677,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "R.",
+          "last_name": "Liddell",
+          "fullname": "John R. Liddell"
+        }
+      ],
+      "description": "Fort Blakely Garrison"
+    },
+    "US": {
+      "casualties": 798,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "E.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "R. S.",
+          "last_name": "Canby",
+          "fullname": "E. R. S. Canby"
+        }
+      ],
+      "description": "XIII and XVI Corps"
+    },
+    "CS": {
+      "casualties": 3677,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "R.",
+          "last_name": "Liddell",
+          "fullname": "John R. Liddell"
+        }
+      ],
+      "description": "Fort Blakely Garrison"
+    }
+  },
+  "result": "Union",
+  "battle": "AL006",
   "location": [
     {
-      "place": "Baldwin County",
-      "state": "AL"
+      "state": "AL",
+      "place": "Baldwin County"
     }
   ],
-  "battle_name": "Fort Blakely"
+  "url": "http://www.nps.gov/hps/abpp/battles/al006.htm"
 }

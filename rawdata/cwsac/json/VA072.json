@@ -1,73 +1,73 @@
 {
-  "dates": "August 18-21, 1864",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/va072.htm",
-  "results_text": "Union victory",
+  "end_date": "1864-08-21",
+  "casualties": 5879,
   "casualties_text": "5,879 total (4,279 US; 1,600 CS)",
-  "description": "While Hancock's command demonstrated north of the James River at Deep Bottom, the Union V Corps and elements of the IX and II Corps under command of Maj. Gen. G.K. Warren were withdrawn from the Petersburg entrenchments to operate against the Weldon Railroad. At dawn August 18, Warren advanced, driving back Confederate pickets until reaching the railroad at Globe Tavern. In the afternoon, Maj. Gen. Henry Heth's division attacked driving Ayres's division back toward the tavern. Both sides entrenched during the night. On August 19, Maj. Gen. William Mahone, whose division had been hastily returned from north of James River, attacked with five infantry brigades, rolling up the right flank of Crawford's division. Heavily reinforced, Warren counterattacked and by nightfall had retaken most of the ground lost during the afternoon's fighting. On the 20th, the Federals laid out and entrenched a strong defensive line covering the Blick House and Globe Tavern and extending east to connect with the main Federal lines at Jerusalem Plank Road. On August 21, Hill probed the new Federal line for weaknesses but could not penetrate the Union defenses. With the fighting at Globe Tavern, Grant succeeded in extending his siege lines to the west and cutting Petersburg's primary rail connection with Wilmington, North Carolina. The Confederates were now forced to off-load rail cars at Stony Creek Station for a 30-mile wagon haul up Boydton Plank Road to reach Petersburg. Confederate general John C.C. Sanders was killed on August 21.",
-  "start_date": "1864-08-18",
-  "forces_text": "Corps (34,300 total)",
-  "strength": 34300,
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": 1600,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Lee",
-          "middle_name": "E.",
           "rank": "General",
+          "first_name": "Robert",
           "suffix": "",
-          "fullname": "Robert E. Lee",
-          "first_name": "Robert"
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "fullname": "Robert E. Lee"
         },
         {
-          "navy": false,
-          "last_name": "Hill",
-          "middle_name": "",
           "rank": "Lieutenant General",
+          "first_name": "A.P.",
           "suffix": "",
-          "fullname": "A.P. Hill",
-          "first_name": "A.P."
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Hill",
+          "fullname": "A.P. Hill"
         },
         {
+          "rank": "Major General",
+          "first_name": "Henry",
+          "suffix": "",
           "navy": false,
+          "middle_name": "",
           "last_name": "Heth",
-          "middle_name": "",
-          "rank": "Major General",
-          "suffix": "",
-          "fullname": "Henry Heth",
-          "first_name": "Henry"
+          "fullname": "Henry Heth"
         },
         {
-          "navy": false,
-          "last_name": "Mahone",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "William",
           "suffix": "",
-          "fullname": "William Mahone",
-          "first_name": "William"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Mahone",
+          "fullname": "William Mahone"
         }
-      ],
-      "casualties": 1600
+      ]
     },
     "US": {
+      "casualties": 4279,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Warren",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "G.K.",
           "suffix": "",
-          "fullname": "G.K. Warren",
-          "first_name": "G.K."
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Warren",
+          "fullname": "G.K. Warren"
         }
-      ],
-      "casualties": 4279
+      ]
     }
   },
-  "campaign": "Richmond-Petersburg Campaign [June 1864-March 1865]",
-  "battle": "VA072",
-  "result": "Union",
+  "strength": 34300,
+  "cwsac_reference": "VA072",
+  "operation": false,
+  "forces_text": "Corps (34,300 total)",
+  "start_date": "1864-08-18",
+  "preservation": "IV.1",
+  "results_text": "Union victory",
+  "description": "While Hancock's command demonstrated north of the James River at Deep Bottom, the Union V Corps and elements of the IX and II Corps under command of Maj. Gen. G.K. Warren were withdrawn from the Petersburg entrenchments to operate against the Weldon Railroad. At dawn August 18, Warren advanced, driving back Confederate pickets until reaching the railroad at Globe Tavern. In the afternoon, Maj. Gen. Henry Heth's division attacked driving Ayres's division back toward the tavern. Both sides entrenched during the night. On August 19, Maj. Gen. William Mahone, whose division had been hastily returned from north of James River, attacked with five infantry brigades, rolling up the right flank of Crawford's division. Heavily reinforced, Warren counterattacked and by nightfall had retaken most of the ground lost during the afternoon's fighting. On the 20th, the Federals laid out and entrenched a strong defensive line covering the Blick House and Globe Tavern and extending east to connect with the main Federal lines at Jerusalem Plank Road. On August 21, Hill probed the new Federal line for weaknesses but could not penetrate the Union defenses. With the fighting at Globe Tavern, Grant succeeded in extending his siege lines to the west and cutting Petersburg's primary rail connection with Wilmington, North Carolina. The Confederates were now forced to off-load rail cars at Stony Creek Station for a 30-mile wagon haul up Boydton Plank Road to reach Petersburg. Confederate general John C.C. Sanders was killed on August 21.",
+  "state": "VA",
   "significance": "B",
   "other_names": [
     "Second Battle of Weldon Railroad",
@@ -75,17 +75,115 @@
     "Yellow House",
     "Blick's Station"
   ],
-  "state": "VA",
-  "preservation": "IV.1",
+  "dates": "August 18-21, 1864",
+  "battle_name": "Globe Tavern",
   "principal_commanders": "Maj. Gen. G.K. Warren [US]; Gen. Robert E. Lee, Lt. Gen. A.P. Hill, Maj. Gen. Henry Heth, and Maj. Gen. William Mahone [CS]",
-  "end_date": "1864-08-21",
-  "cwsac_reference": "VA072",
-  "casualties": 5879,
   "location": [
     {
-      "place": "Dinwiddie County",
-      "state": "VA"
+      "state": "VA",
+      "place": "Dinwiddie County"
     }
   ],
-  "battle_name": "Globe Tavern"
+  "belligerents": {
+    "Confederate": {
+      "casualties": 1600,
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "Robert",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "fullname": "Robert E. Lee"
+        },
+        {
+          "rank": "Lieutenant General",
+          "first_name": "A.P.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Hill",
+          "fullname": "A.P. Hill"
+        },
+        {
+          "rank": "Major General",
+          "first_name": "Henry",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Heth",
+          "fullname": "Henry Heth"
+        },
+        {
+          "rank": "Major General",
+          "first_name": "William",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Mahone",
+          "fullname": "William Mahone"
+        }
+      ]
+    },
+    "US": {
+      "casualties": 4279,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "G.K.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Warren",
+          "fullname": "G.K. Warren"
+        }
+      ]
+    },
+    "CS": {
+      "casualties": 1600,
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "Robert",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "fullname": "Robert E. Lee"
+        },
+        {
+          "rank": "Lieutenant General",
+          "first_name": "A.P.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Hill",
+          "fullname": "A.P. Hill"
+        },
+        {
+          "rank": "Major General",
+          "first_name": "Henry",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Heth",
+          "fullname": "Henry Heth"
+        },
+        {
+          "rank": "Major General",
+          "first_name": "William",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Mahone",
+          "fullname": "William Mahone"
+        }
+      ]
+    }
+  },
+  "result": "Union",
+  "battle": "VA072",
+  "campaign": "Richmond-Petersburg Campaign [June 1864-March 1865]",
+  "url": "http://www.nps.gov/hps/abpp/battles/va072.htm"
 }

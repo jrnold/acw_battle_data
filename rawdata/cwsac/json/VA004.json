@@ -1,66 +1,113 @@
 {
-  "dates": "July 18, 1861",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/va004.htm",
-  "results_text": "Confederate victory",
+  "end_date": "1861-07-18",
+  "casualties": 151,
   "casualties_text": "151 total (US 83; CS 68)",
-  "description": "On 16 July, 1862, the untried Union army under Brig. Gen. Irvin McDowell, 35,000 strong, marched out of the Washington defenses to give battle to the Confederate army, which was concentrated around the vital railroad junction at Manassas. The Confederate army, about 22,000 men, under the command of Brig. Gen. P.G.T. Beauregard, guarded the fords of Bull Run. On July 18, McDowell reached Centreville and pushed southwest, attempting to cross at Blackburn's Ford. He was repulsed. This action was a reconnaissance-in-force prior to the main event at Manassas/Bull Run. Because of this action, Union commander McDowell decided on the flanking maneuver he employed at First Manassas.",
-  "start_date": "1861-07-18",
-  "forces_text": "Brigades",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": 68,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Beauregard",
-          "middle_name": "",
           "rank": "Brigadier General",
+          "first_name": "P.G.T.",
           "suffix": "",
-          "fullname": "P.G.T. Beauregard",
-          "first_name": "P.G.T."
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Beauregard",
+          "fullname": "P.G.T. Beauregard"
         }
       ],
-      "brigades": 1,
-      "casualties": 68
+      "brigades": 1
     },
     "US": {
+      "casualties": 83,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "McDowell",
-          "middle_name": "",
           "rank": "Brigadier General",
+          "first_name": "Irvin",
           "suffix": "",
-          "fullname": "Irvin McDowell",
-          "first_name": "Irvin"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "McDowell",
+          "fullname": "Irvin McDowell"
         }
       ],
-      "brigades": 1,
-      "casualties": 83
+      "brigades": 1
     }
   },
-  "campaign": "Manassas Campaign [July 1861]",
-  "battle": "VA004",
-  "result": "Confederate",
+  "cwsac_reference": "VA004",
+  "operation": false,
+  "forces_text": "Brigades",
+  "start_date": "1861-07-18",
+  "preservation": "IV.1",
+  "results_text": "Confederate victory",
+  "description": "On 16 July, 1862, the untried Union army under Brig. Gen. Irvin McDowell, 35,000 strong, marched out of the Washington defenses to give battle to the Confederate army, which was concentrated around the vital railroad junction at Manassas. The Confederate army, about 22,000 men, under the command of Brig. Gen. P.G.T. Beauregard, guarded the fords of Bull Run. On July 18, McDowell reached Centreville and pushed southwest, attempting to cross at Blackburn's Ford. He was repulsed. This action was a reconnaissance-in-force prior to the main event at Manassas/Bull Run. Because of this action, Union commander McDowell decided on the flanking maneuver he employed at First Manassas.",
+  "state": "VA",
   "significance": "C",
   "other_names": [
     "Bull Run"
   ],
-  "state": "VA",
-  "preservation": "IV.1",
+  "dates": "July 18, 1861",
+  "battle_name": "Blackburn's Ford",
   "principal_commanders": "Brig. Gen. Irvin McDowell [US]; Brig. Gen. P.G.T. Beauregard [CS]",
-  "end_date": "1861-07-18",
-  "cwsac_reference": "VA004",
-  "casualties": 151,
+  "campaign": "Manassas Campaign [July 1861]",
+  "belligerents": {
+    "Confederate": {
+      "casualties": 68,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "P.G.T.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Beauregard",
+          "fullname": "P.G.T. Beauregard"
+        }
+      ],
+      "brigades": 1
+    },
+    "US": {
+      "casualties": 83,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Irvin",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "McDowell",
+          "fullname": "Irvin McDowell"
+        }
+      ],
+      "brigades": 1
+    },
+    "CS": {
+      "casualties": 68,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "P.G.T.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Beauregard",
+          "fullname": "P.G.T. Beauregard"
+        }
+      ],
+      "brigades": 1
+    }
+  },
+  "result": "Confederate",
+  "battle": "VA004",
   "location": [
     {
-      "place": "Prince William County",
-      "state": "VA"
+      "state": "VA",
+      "place": "Prince William County"
     },
     {
-      "place": "Fairfax County",
-      "state": "VA"
+      "state": "VA",
+      "place": "Fairfax County"
     }
   ],
-  "battle_name": "Blackburn's Ford"
+  "url": "http://www.nps.gov/hps/abpp/battles/va004.htm"
 }

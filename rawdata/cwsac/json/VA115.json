@@ -1,61 +1,102 @@
 {
-  "dates": "July 20, 1864",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/va115.htm",
-  "results_text": "Union victory",
+  "end_date": "1864-07-20",
+  "casualties": 1100,
   "casualties_text": "1,100 total",
-  "description": "On July 20, Brig. Gen. W.W. Averell's Union division attacked Maj. Gen. S.D. Ramseur's Confederate division at Rutherford's and Carter's farms. This sudden assault came in on the flank of Hoke's brigade as it was deploying, throwing it into a panic. Ramseur retreated toward Winchester in confusion. Averell captured four pieces of artillery and nearly 300 men. With this defeat, Early withdrew his army south to a defensive position at Fisher's Hill.",
-  "start_date": "1864-07-20",
-  "forces_text": "Divisions(5,850 total)",
-  "strength": 5850,
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Ramseur",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "S.D.",
           "suffix": "",
-          "fullname": "S.D. Ramseur",
-          "first_name": "S.D."
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Ramseur",
+          "fullname": "S.D. Ramseur"
         }
       ]
     },
     "US": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Averell",
-          "middle_name": "W.",
           "rank": "Brigadier General",
+          "first_name": "William",
           "suffix": "",
-          "fullname": "William W. Averell",
-          "first_name": "William"
+          "navy": false,
+          "middle_name": "W.",
+          "last_name": "Averell",
+          "fullname": "William W. Averell"
         }
       ]
     }
   },
-  "campaign": "Early's Raid and Operations Against the B&O Railroad [June-August 1864]",
-  "battle": "VA115",
-  "result": "Union",
+  "strength": 5850,
+  "cwsac_reference": "VA115",
+  "operation": false,
+  "forces_text": "Divisions(5,850 total)",
+  "start_date": "1864-07-20",
+  "preservation": "IV.1",
+  "results_text": "Union victory",
+  "description": "On July 20, Brig. Gen. W.W. Averell's Union division attacked Maj. Gen. S.D. Ramseur's Confederate division at Rutherford's and Carter's farms. This sudden assault came in on the flank of Hoke's brigade as it was deploying, throwing it into a panic. Ramseur retreated toward Winchester in confusion. Averell captured four pieces of artillery and nearly 300 men. With this defeat, Early withdrew his army south to a defensive position at Fisher's Hill.",
+  "state": "VA",
   "significance": "D",
   "other_names": null,
-  "state": "VA",
-  "preservation": "IV.1",
+  "dates": "July 20, 1864",
+  "battle_name": "Rutherford's Farm",
   "principal_commanders": "Brig. Gen. William W. Averell [US]; Maj. Gen. S.D. Ramseur [CS]",
-  "end_date": "1864-07-20",
-  "cwsac_reference": "VA115",
-  "casualties": 1100,
   "location": [
     {
-      "place": "Frederick County",
-      "state": "VA"
+      "state": "VA",
+      "place": "Frederick County"
     },
     {
-      "place": "Winchester",
-      "state": "VA"
+      "state": "VA",
+      "place": "Winchester"
     }
   ],
-  "battle_name": "Rutherford's Farm"
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "S.D.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Ramseur",
+          "fullname": "S.D. Ramseur"
+        }
+      ]
+    },
+    "US": {
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "William",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "W.",
+          "last_name": "Averell",
+          "fullname": "William W. Averell"
+        }
+      ]
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "S.D.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Ramseur",
+          "fullname": "S.D. Ramseur"
+        }
+      ]
+    }
+  },
+  "result": "Union",
+  "battle": "VA115",
+  "campaign": "Early's Raid and Operations Against the B&O Railroad [June-August 1864]",
+  "url": "http://www.nps.gov/hps/abpp/battles/va115.htm"
 }

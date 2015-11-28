@@ -1,23 +1,18 @@
 {
-  "dates": "May 9, 1864",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/va050.htm",
-  "results_text": "Inconclusive",
+  "end_date": "1864-05-09",
+  "casualties": 990,
   "casualties_text": "990 total",
-  "description": "On May 9, Maj. Gen. Benjamin Butler made a thrust toward Petersburg and was met by Bushrod Johnson's Division at Swift Creek. A premature Confederate attack at Arrowfield Church was driven back with heavy losses, but Union forces did not follow up. After skirmishing, Butler seemed content to tear up the railroad tracks and did not press the defenders. In conjunction with the advance to Swift Creek, five Federal gunboats steamed up the Appomattox River to bombard Fort Clifton, while Hincks's U.S. Colored Troops infantry division struggled through marshy ground from the land side. The gunboats were quickly driven off, and the infantry attack was abandoned.",
-  "start_date": "1864-05-09",
-  "forces_text": "Divisions",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Beauregard",
-          "middle_name": "",
           "rank": "General",
+          "first_name": "P.G.T.",
           "suffix": "",
-          "fullname": "P.G.T. Beauregard",
-          "first_name": "P.G.T."
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Beauregard",
+          "fullname": "P.G.T. Beauregard"
         }
       ],
       "divisions": 1
@@ -25,36 +20,85 @@
     "US": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Butler",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "Benjamin",
           "suffix": "",
-          "fullname": "Benjamin Butler",
-          "first_name": "Benjamin"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Butler",
+          "fullname": "Benjamin Butler"
         }
       ],
       "divisions": 1
     }
   },
-  "campaign": "Bermuda Hundred Campaign [May 1864]",
-  "battle": "VA050",
-  "result": "Inconclusive",
+  "cwsac_reference": "VA050",
+  "operation": false,
+  "forces_text": "Divisions",
+  "start_date": "1864-05-09",
+  "preservation": "II.3",
+  "results_text": "Inconclusive",
+  "description": "On May 9, Maj. Gen. Benjamin Butler made a thrust toward Petersburg and was met by Bushrod Johnson's Division at Swift Creek. A premature Confederate attack at Arrowfield Church was driven back with heavy losses, but Union forces did not follow up. After skirmishing, Butler seemed content to tear up the railroad tracks and did not press the defenders. In conjunction with the advance to Swift Creek, five Federal gunboats steamed up the Appomattox River to bombard Fort Clifton, while Hincks's U.S. Colored Troops infantry division struggled through marshy ground from the land side. The gunboats were quickly driven off, and the infantry attack was abandoned.",
+  "state": "VA",
   "significance": "C",
   "other_names": [
     "Arrowfield Church"
   ],
-  "state": "VA",
-  "preservation": "II.3",
+  "dates": "May 9, 1864",
+  "battle_name": "Swift Creek",
   "principal_commanders": "Maj. Gen. Benjamin Butler [US]; Gen. P.G.T. Beauregard [CS]",
-  "end_date": "1864-05-09",
-  "cwsac_reference": "VA050",
-  "casualties": 990,
+  "campaign": "Bermuda Hundred Campaign [May 1864]",
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "P.G.T.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Beauregard",
+          "fullname": "P.G.T. Beauregard"
+        }
+      ],
+      "divisions": 1
+    },
+    "US": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Benjamin",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Butler",
+          "fullname": "Benjamin Butler"
+        }
+      ],
+      "divisions": 1
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "P.G.T.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Beauregard",
+          "fullname": "P.G.T. Beauregard"
+        }
+      ],
+      "divisions": 1
+    }
+  },
+  "result": "Inconclusive",
+  "battle": "VA050",
   "location": [
     {
-      "place": "Chesterfield County",
-      "state": "VA"
+      "state": "VA",
+      "place": "Chesterfield County"
     }
   ],
-  "battle_name": "Swift Creek"
+  "url": "http://www.nps.gov/hps/abpp/battles/va050.htm"
 }

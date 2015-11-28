@@ -1,64 +1,114 @@
 {
-  "dates": "April 30, 1863",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/al001.htm",
-  "results_text": "Union victory, although the raid ultimately failed.",
+  "end_date": "1863-04-30",
+  "casualties": 88,
   "casualties_text": "88 total (US 23; CS 65)",
-  "description": "Union Col. Abel D. Streight led a provisional brigade on a raid to cut the Western & Atlantic Railroad that supplied Gen. Braxton Bragg's Confederate army in Middle Tennessee. From Nashville, Tennessee, Streight's command traveled to Eastport, Mississippi, and then proceeded east to Tuscumbia, Alabama, in conjunction with another Union force commanded by Brig. Gen. Grenville Dodge. On April 26, 1863, Streight's men left Tuscumbia and marched southeast, their initial movements screened by Dodge's troops.\n\nOn April 30, Confederate Brig. Gen. Nathan Bedford Forrest's brigade caught up with Streight's expedition and attacked its rearguard at Day's Gap on Sand Mountain. The Federals repulsed this attack and continued their march to avoid further delay and envelopment. Thus began a running series of skirmishes and engagements at Crooked Creek (April 30), Hog Mountain (April 30), Blountsville (May 1), Black Creek/Gadsden (May 2), and Blount's Plantation (May 2). Forrest finally surrounded the exhausted Union soldiers near Rome, Georgia, where he forced their surrender on May 3.",
-  "start_date": "1863-04-30",
-  "forces_text": "Men from 51st Indiana Infantry, 73rd Indiana Infantry, 3rd Ohio Infantry, 80th Illinois Infantry, and 1st Middle Tennessee Cavalry [US]; three regiments [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "regiments": 3,
+      "casualties": 65,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Forrest",
-          "middle_name": "Bedford",
           "rank": "Brigadier General",
+          "first_name": "Nathan",
           "suffix": "",
-          "fullname": "Nathan Bedford Forrest",
-          "first_name": "Nathan"
+          "navy": false,
+          "middle_name": "Bedford",
+          "last_name": "Forrest",
+          "fullname": "Nathan Bedford Forrest"
         }
       ],
-      "description": "three regiments",
-      "regiments": 3,
-      "casualties": 65
+      "description": "three regiments"
     },
     "US": {
+      "regiments": 5,
+      "casualties": 23,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Streight",
-          "middle_name": "",
           "rank": "Colonel",
+          "first_name": "Abel",
           "suffix": "",
-          "fullname": "Abel Streight",
-          "first_name": "Abel"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Streight",
+          "fullname": "Abel Streight"
         }
       ],
-      "description": "Men from 51st Indiana Infantry, 73rd Indiana Infantry, 3rd Ohio Infantry, 80th Illinois Infantry, and 1st Middle Tennessee Cavalry",
-      "regiments": 5,
-      "casualties": 23
+      "description": "Men from 51st Indiana Infantry, 73rd Indiana Infantry, 3rd Ohio Infantry, 80th Illinois Infantry, and 1st Middle Tennessee Cavalry"
     }
   },
-  "campaign": "Streight's Raid in Alabama and Georgia [April 1863]",
-  "battle": "AL001",
-  "result": "Union",
+  "cwsac_reference": "AL001",
+  "operation": false,
+  "forces_text": "Men from 51st Indiana Infantry, 73rd Indiana Infantry, 3rd Ohio Infantry, 80th Illinois Infantry, and 1st Middle Tennessee Cavalry [US]; three regiments [CS]",
+  "start_date": "1863-04-30",
+  "preservation": "III.3",
+  "results_text": "Union victory, although the raid ultimately failed.",
+  "description": "Union Col. Abel D. Streight led a provisional brigade on a raid to cut the Western & Atlantic Railroad that supplied Gen. Braxton Bragg's Confederate army in Middle Tennessee. From Nashville, Tennessee, Streight's command traveled to Eastport, Mississippi, and then proceeded east to Tuscumbia, Alabama, in conjunction with another Union force commanded by Brig. Gen. Grenville Dodge. On April 26, 1863, Streight's men left Tuscumbia and marched southeast, their initial movements screened by Dodge's troops.\n\nOn April 30, Confederate Brig. Gen. Nathan Bedford Forrest's brigade caught up with Streight's expedition and attacked its rearguard at Day's Gap on Sand Mountain. The Federals repulsed this attack and continued their march to avoid further delay and envelopment. Thus began a running series of skirmishes and engagements at Crooked Creek (April 30), Hog Mountain (April 30), Blountsville (May 1), Black Creek/Gadsden (May 2), and Blount's Plantation (May 2). Forrest finally surrounded the exhausted Union soldiers near Rome, Georgia, where he forced their surrender on May 3.",
+  "state": "AL",
   "significance": "C",
   "other_names": [
     "Sand Mountain"
   ],
-  "state": "AL",
-  "preservation": "III.3",
+  "dates": "April 30, 1863",
+  "battle_name": "Day's Gap",
   "principal_commanders": "Col. Abel Streight [US]; Brig. Gen. Nathan Bedford Forrest [CS]",
-  "end_date": "1863-04-30",
-  "cwsac_reference": "AL001",
-  "casualties": 88,
+  "campaign": "Streight's Raid in Alabama and Georgia [April 1863]",
+  "belligerents": {
+    "Confederate": {
+      "regiments": 3,
+      "casualties": 65,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Nathan",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "Bedford",
+          "last_name": "Forrest",
+          "fullname": "Nathan Bedford Forrest"
+        }
+      ],
+      "description": "three regiments"
+    },
+    "US": {
+      "regiments": 5,
+      "casualties": 23,
+      "commanders": [
+        {
+          "rank": "Colonel",
+          "first_name": "Abel",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Streight",
+          "fullname": "Abel Streight"
+        }
+      ],
+      "description": "Men from 51st Indiana Infantry, 73rd Indiana Infantry, 3rd Ohio Infantry, 80th Illinois Infantry, and 1st Middle Tennessee Cavalry"
+    },
+    "CS": {
+      "regiments": 3,
+      "casualties": 65,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Nathan",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "Bedford",
+          "last_name": "Forrest",
+          "fullname": "Nathan Bedford Forrest"
+        }
+      ],
+      "description": "three regiments"
+    }
+  },
+  "result": "Union",
+  "battle": "AL001",
   "location": [
     {
-      "place": "Cullman County",
-      "state": "AL"
+      "state": "AL",
+      "place": "Cullman County"
     }
   ],
-  "battle_name": "Day's Gap"
+  "url": "http://www.nps.gov/hps/abpp/battles/al001.htm"
 }

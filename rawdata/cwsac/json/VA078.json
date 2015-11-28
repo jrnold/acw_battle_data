@@ -1,60 +1,104 @@
 {
-  "dates": "October 13, 1864",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/va078.htm",
-  "results_text": "Confederate victory",
+  "end_date": "1864-10-13",
+  "casualties": 950,
   "casualties_text": "950 total",
-  "description": "On October 13, Union forces advanced to find and feel the new Confederate defensive line in front of Richmond. While mostly a battle of skirmishers, a Federal brigade assaulted fortifications north of Darbytown Road and was repulsed with heavy casualties. The Federals retired to their entrenched lines along New Market Road.",
-  "start_date": "1864-10-13",
-  "forces_text": "Corps",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "corps": 1,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Anderson",
-          "middle_name": "",
           "rank": "Lieutenant General",
+          "first_name": "Richard",
           "suffix": "",
-          "fullname": "Richard Anderson",
-          "first_name": "Richard"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Anderson",
+          "fullname": "Richard Anderson"
         }
-      ],
-      "corps": 1
+      ]
     },
     "US": {
+      "corps": 1,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Terry",
-          "middle_name": "H.",
           "rank": "Major General",
+          "first_name": "Alfred",
           "suffix": "",
-          "fullname": "Alfred H. Terry",
-          "first_name": "Alfred"
+          "navy": false,
+          "middle_name": "H.",
+          "last_name": "Terry",
+          "fullname": "Alfred H. Terry"
         }
-      ],
-      "corps": 1
+      ]
     }
   },
-  "campaign": "Richmond-Petersburg Campaign [June 1864-March 1865]",
-  "battle": "VA078",
-  "result": "Confederate",
+  "cwsac_reference": "VA078",
+  "operation": false,
+  "forces_text": "Corps",
+  "start_date": "1864-10-13",
+  "preservation": "IV.1",
+  "results_text": "Confederate victory",
+  "description": "On October 13, Union forces advanced to find and feel the new Confederate defensive line in front of Richmond. While mostly a battle of skirmishers, a Federal brigade assaulted fortifications north of Darbytown Road and was repulsed with heavy casualties. The Federals retired to their entrenched lines along New Market Road.",
+  "state": "VA",
   "significance": "D",
   "other_names": [
     "Alms House"
   ],
-  "state": "VA",
-  "preservation": "IV.1",
+  "dates": "October 13, 1864",
+  "battle_name": "Darbytown Road",
   "principal_commanders": "Maj. Gen. Alfred H. Terry [US]; Lt. Gen. Richard Anderson [CS]",
-  "end_date": "1864-10-13",
-  "cwsac_reference": "VA078",
-  "casualties": 950,
+  "campaign": "Richmond-Petersburg Campaign [June 1864-March 1865]",
+  "belligerents": {
+    "Confederate": {
+      "corps": 1,
+      "commanders": [
+        {
+          "rank": "Lieutenant General",
+          "first_name": "Richard",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Anderson",
+          "fullname": "Richard Anderson"
+        }
+      ]
+    },
+    "US": {
+      "corps": 1,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Alfred",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "H.",
+          "last_name": "Terry",
+          "fullname": "Alfred H. Terry"
+        }
+      ]
+    },
+    "CS": {
+      "corps": 1,
+      "commanders": [
+        {
+          "rank": "Lieutenant General",
+          "first_name": "Richard",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Anderson",
+          "fullname": "Richard Anderson"
+        }
+      ]
+    }
+  },
+  "result": "Confederate",
+  "battle": "VA078",
   "location": [
     {
-      "place": "Henrico County",
-      "state": "VA"
+      "state": "VA",
+      "place": "Henrico County"
     }
   ],
-  "battle_name": "Darbytown Road"
+  "url": "http://www.nps.gov/hps/abpp/battles/va078.htm"
 }

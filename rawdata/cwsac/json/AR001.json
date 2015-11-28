@@ -1,64 +1,114 @@
 {
-  "dates": "March 6-8, 1862",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/ar001.htm",
-  "results_text": "Union victory",
+  "end_date": "1862-03-08",
+  "casualties": 5949,
   "casualties_text": "5,949 total (US 1,349; CS 4,600)",
-  "description": "On the night of March 6, Maj. Gen. Earl Van Dorn set out to outflank the Union position near Pea Ridge, dividing his army into two columns. Learning of Van Dorn's approach, the Federals marched north to meet his advance on March 7. This movement-compounded by the killing of two generals, Brig. Gen. Ben McCulloch and Brig. Gen. James McQueen McIntosh, and the capture of their ranking colonel-halted the Rebel attack. Van Dorn led a second column to meet the Federals in the Elkhorn Tavern and Tanyard area. By nightfall, the Confederates controlled Elkhorn Tavern and Telegraph Road. The next day, Maj. Gen. Samuel R. Curtis, having regrouped and consolidated his army, counterattacked near the tavern and, by successfully employing his artillery, slowly forced the Rebels back. Running short of ammunition, Van Dorn abandoned the battlefield. The Union controlled Missouri for the next two years.",
-  "start_date": "1862-03-06",
-  "forces_text": "Army of the Southwest [US]; Army of the West [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": 4600,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Van Dorn",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "Earl",
           "suffix": "",
-          "fullname": "Earl Van Dorn",
-          "first_name": "Earl"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Van Dorn",
+          "fullname": "Earl Van Dorn"
         }
       ],
       "description": "Army of the West",
-      "armies": 1,
-      "casualties": 4600
+      "armies": 1
     },
     "US": {
+      "casualties": 1349,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Curtis",
-          "middle_name": "R.",
           "rank": "Brigadier General",
+          "first_name": "Samuel",
           "suffix": "",
-          "fullname": "Samuel R. Curtis",
-          "first_name": "Samuel"
+          "navy": false,
+          "middle_name": "R.",
+          "last_name": "Curtis",
+          "fullname": "Samuel R. Curtis"
         }
       ],
       "description": "Army of the Southwest",
-      "armies": 1,
-      "casualties": 1349
+      "armies": 1
     }
   },
-  "campaign": "Pea Ridge Campaign [March 1862]",
-  "battle": "AR001",
-  "result": "Union",
+  "cwsac_reference": "AR001",
+  "operation": false,
+  "forces_text": "Army of the Southwest [US]; Army of the West [CS]",
+  "start_date": "1862-03-06",
+  "preservation": "III.1",
+  "results_text": "Union victory",
+  "description": "On the night of March 6, Maj. Gen. Earl Van Dorn set out to outflank the Union position near Pea Ridge, dividing his army into two columns. Learning of Van Dorn's approach, the Federals marched north to meet his advance on March 7. This movement-compounded by the killing of two generals, Brig. Gen. Ben McCulloch and Brig. Gen. James McQueen McIntosh, and the capture of their ranking colonel-halted the Rebel attack. Van Dorn led a second column to meet the Federals in the Elkhorn Tavern and Tanyard area. By nightfall, the Confederates controlled Elkhorn Tavern and Telegraph Road. The next day, Maj. Gen. Samuel R. Curtis, having regrouped and consolidated his army, counterattacked near the tavern and, by successfully employing his artillery, slowly forced the Rebels back. Running short of ammunition, Van Dorn abandoned the battlefield. The Union controlled Missouri for the next two years.",
+  "state": "AR",
   "significance": "A",
   "other_names": [
     "Elkhorn Tavern"
   ],
-  "state": "AR",
-  "preservation": "III.1",
+  "dates": "March 6-8, 1862",
+  "battle_name": "Pea Ridge",
   "principal_commanders": "Brig. Gen. Samuel R. Curtis [US]; Maj. Gen. Earl Van Dorn [CS]",
-  "end_date": "1862-03-08",
-  "cwsac_reference": "AR001",
-  "casualties": 5949,
+  "campaign": "Pea Ridge Campaign [March 1862]",
+  "belligerents": {
+    "Confederate": {
+      "casualties": 4600,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Earl",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Van Dorn",
+          "fullname": "Earl Van Dorn"
+        }
+      ],
+      "description": "Army of the West",
+      "armies": 1
+    },
+    "US": {
+      "casualties": 1349,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Samuel",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "R.",
+          "last_name": "Curtis",
+          "fullname": "Samuel R. Curtis"
+        }
+      ],
+      "description": "Army of the Southwest",
+      "armies": 1
+    },
+    "CS": {
+      "casualties": 4600,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Earl",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Van Dorn",
+          "fullname": "Earl Van Dorn"
+        }
+      ],
+      "description": "Army of the West",
+      "armies": 1
+    }
+  },
+  "result": "Union",
+  "battle": "AR001",
   "location": [
     {
-      "place": "Benton County",
-      "state": "AR"
+      "state": "AR",
+      "place": "Benton County"
     }
   ],
-  "battle_name": "Pea Ridge"
+  "url": "http://www.nps.gov/hps/abpp/battles/ar001.htm"
 }

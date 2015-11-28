@@ -1,63 +1,132 @@
 {
-  "dates": "November 29-30, 1864",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/co001.htm",
-  "results_text": "Union victory (massacre)",
+  "end_date": "1864-11-30",
+  "casualties": null,
   "casualties_text": "Total unknown (US unknown; I 200)",
-  "description": "Scattered Indian raids had caused much ill-will between the white settlers and the Native Americans. In the autumn, Territorial (Colorado) officers had offered a vague amnesty if Indians reported to army forts. Black Kettle with many Cheyennes and a few Arapahos, believing themselves to be protected, established a winter camp about 40 miles from Fort Lyon. On November 29, Col. John Chivington, who advocated Indian extermination, arrived near the camp, having marched there from Fort Lyon. In spite of the American flag and a white flag flying over the camp, the troops attacked, killing and mutilating about 200 of the Indians, two-thirds of whom were women and children.",
-  "start_date": "1864-11-29",
-  "forces_text": "Third Colorado Regiment (approx. 700 men) [US]; 500 Cheyennes and a few Arapahos [I]",
-  "belligerents": {
-    "I": {
-        "commanders": [{
-            "navy": false,
-            "last_name": "",
-            "first_name": "Black Kettle",
-            "middle_name": "",
-            "fullname": "",
-            "rank": ""
-        }],
-      "description": "500 Cheyennes and a few Arapahos",
-      "strength_max": 500,
-      "strength_min": 500,
-      "casualties": 200
-    },
-    "US": {
+  "forces": {
+    "Native American": {
+      "casualties": 200,
       "commanders": [
         {
+          "rank": "",
+          "first_name": "Black Kettle",
           "navy": false,
-          "last_name": "Chivington",
           "middle_name": "",
+          "fullname": "",
+          "last_name": ""
+        }
+      ],
+      "description": "500 Cheyennes and a few Arapahos",
+      "strength_min": 500,
+      "strength_max": 500
+    },
+    "US": {
+      "casualties": null,
+      "commanders": [
+        {
           "rank": "Colonel",
+          "first_name": "John",
           "suffix": "",
-          "fullname": "John Chivington",
-          "first_name": "John"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Chivington",
+          "fullname": "John Chivington"
         }
       ],
       "description": "Third Colorado Regiment (approx. 700 men)",
-      "strength_max": 700,
       "strength_min": 700,
-      "casualties": null
+      "strength_max": 700
+    },
+    "I": {
+      "casualties": 200,
+      "commanders": [
+        {
+          "rank": "",
+          "first_name": "Black Kettle",
+          "navy": false,
+          "middle_name": "",
+          "fullname": "",
+          "last_name": ""
+        }
+      ],
+      "description": "500 Cheyennes and a few Arapahos",
+      "strength_min": 500,
+      "strength_max": 500
     }
   },
-  "campaign": "Sand Creek Campaign [November 1864]",
-  "battle": "CO001",
-  "result": "Union",
+  "cwsac_reference": "CO001",
+  "operation": false,
+  "forces_text": "Third Colorado Regiment (approx. 700 men) [US]; 500 Cheyennes and a few Arapahos [I]",
+  "start_date": "1864-11-29",
+  "preservation": "II.2",
+  "results_text": "Union victory (massacre)",
+  "description": "Scattered Indian raids had caused much ill-will between the white settlers and the Native Americans. In the autumn, Territorial (Colorado) officers had offered a vague amnesty if Indians reported to army forts. Black Kettle with many Cheyennes and a few Arapahos, believing themselves to be protected, established a winter camp about 40 miles from Fort Lyon. On November 29, Col. John Chivington, who advocated Indian extermination, arrived near the camp, having marched there from Fort Lyon. In spite of the American flag and a white flag flying over the camp, the troops attacked, killing and mutilating about 200 of the Indians, two-thirds of whom were women and children.",
+  "state": "CO",
   "significance": "B",
   "other_names": [
     "Chivington Massacre"
   ],
-  "state": "CO",
-  "preservation": "II.2",
+  "dates": "November 29-30, 1864",
+  "battle_name": "Sand Creek",
   "principal_commanders": "Col. John Chivington [US]; Black Kettle[I]",
-  "end_date": "1864-11-30",
-  "cwsac_reference": "CO001",
-  "casualties": null,
+  "campaign": "Sand Creek Campaign [November 1864]",
+  "belligerents": {
+    "Native American": {
+      "casualties": 200,
+      "commanders": [
+        {
+          "rank": "",
+          "first_name": "Black Kettle",
+          "navy": false,
+          "middle_name": "",
+          "fullname": "",
+          "last_name": ""
+        }
+      ],
+      "description": "500 Cheyennes and a few Arapahos",
+      "strength_min": 500,
+      "strength_max": 500
+    },
+    "US": {
+      "casualties": null,
+      "commanders": [
+        {
+          "rank": "Colonel",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Chivington",
+          "fullname": "John Chivington"
+        }
+      ],
+      "description": "Third Colorado Regiment (approx. 700 men)",
+      "strength_min": 700,
+      "strength_max": 700
+    },
+    "I": {
+      "casualties": 200,
+      "commanders": [
+        {
+          "rank": "",
+          "first_name": "Black Kettle",
+          "navy": false,
+          "middle_name": "",
+          "fullname": "",
+          "last_name": ""
+        }
+      ],
+      "description": "500 Cheyennes and a few Arapahos",
+      "strength_min": 500,
+      "strength_max": 500
+    }
+  },
+  "result": "Union",
+  "battle": "CO001",
   "location": [
     {
-      "place": "Kiowa County",
-      "state": "CO"
+      "state": "CO",
+      "place": "Kiowa County"
     }
   ],
-  "battle_name": "Sand Creek"
+  "url": "http://www.nps.gov/hps/abpp/battles/co001.htm"
 }

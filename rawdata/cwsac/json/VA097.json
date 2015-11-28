@@ -1,23 +1,18 @@
 {
-  "dates": "April 9, 1865",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/va097.htm",
-  "results_text": "Union victory",
+  "end_date": "1865-04-09",
+  "casualties": 700,
   "casualties_text": "700 total (27,805 Confederate soldiers paroled)",
-  "description": "Early on April 9, the remnants of John Broun Gordon's corps and Fitzhugh Lee's cavalry formed line of battle at Appomattox Court House. Gen. Robert E. Lee determined to make one last attempt to escape the closing Union pincers and reach his supplies at Lynchburg. At dawn the Confederates advanced, initially gaining ground against Sheridan's cavalry. The arrival of Union infantry, however, stopped the advance in its tracks. Lee's army was now surrounded on three sides. Lee surrendered to Grant on April 9. This was the final engagement of the war in Virginia.",
-  "start_date": "1865-04-09",
-  "forces_text": "Armies",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Lee",
-          "middle_name": "E.",
           "rank": "General",
+          "first_name": "Robert",
           "suffix": "",
-          "fullname": "Robert E. Lee",
-          "first_name": "Robert"
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "fullname": "Robert E. Lee"
         }
       ],
       "armies": 1
@@ -25,34 +20,83 @@
     "US": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Grant",
-          "middle_name": "S.",
           "rank": "Lieutenant General",
+          "first_name": "Ulysses",
           "suffix": "",
-          "fullname": "Ulysses S. Grant",
-          "first_name": "Ulysses"
+          "navy": false,
+          "middle_name": "S.",
+          "last_name": "Grant",
+          "fullname": "Ulysses S. Grant"
         }
       ],
       "armies": 1
     }
   },
-  "campaign": "Appomattox Campaign [March-April 1865]",
-  "battle": "VA097",
-  "result": "Union",
+  "cwsac_reference": "VA097",
+  "operation": false,
+  "forces_text": "Armies",
+  "start_date": "1865-04-09",
+  "preservation": "III.1",
+  "results_text": "Union victory",
+  "description": "Early on April 9, the remnants of John Broun Gordon's corps and Fitzhugh Lee's cavalry formed line of battle at Appomattox Court House. Gen. Robert E. Lee determined to make one last attempt to escape the closing Union pincers and reach his supplies at Lynchburg. At dawn the Confederates advanced, initially gaining ground against Sheridan's cavalry. The arrival of Union infantry, however, stopped the advance in its tracks. Lee's army was now surrounded on three sides. Lee surrendered to Grant on April 9. This was the final engagement of the war in Virginia.",
+  "state": "VA",
   "significance": "A",
   "other_names": null,
-  "state": "VA",
-  "preservation": "III.1",
+  "dates": "April 9, 1865",
+  "battle_name": "Appomattox Court House",
   "principal_commanders": "Lt. Gen. Ulysses S. Grant [US]; Gen. Robert E. Lee [CS]",
-  "end_date": "1865-04-09",
-  "cwsac_reference": "VA097",
-  "casualties": 700,
+  "campaign": "Appomattox Campaign [March-April 1865]",
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "Robert",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "fullname": "Robert E. Lee"
+        }
+      ],
+      "armies": 1
+    },
+    "US": {
+      "commanders": [
+        {
+          "rank": "Lieutenant General",
+          "first_name": "Ulysses",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "S.",
+          "last_name": "Grant",
+          "fullname": "Ulysses S. Grant"
+        }
+      ],
+      "armies": 1
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "Robert",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "fullname": "Robert E. Lee"
+        }
+      ],
+      "armies": 1
+    }
+  },
+  "result": "Union",
+  "battle": "VA097",
   "location": [
     {
-      "place": "Appomattox County",
-      "state": "VA"
+      "state": "VA",
+      "place": "Appomattox County"
     }
   ],
-  "battle_name": "Appomattox Court House"
+  "url": "http://www.nps.gov/hps/abpp/battles/va097.htm"
 }

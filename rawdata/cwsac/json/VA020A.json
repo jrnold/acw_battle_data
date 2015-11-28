@@ -1,23 +1,18 @@
 {
-  "dates": "June 30, 1862",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/va020a.htm",
-  "results_text": "Inconclusive",
+  "end_date": "1862-06-30",
+  "casualties": 500,
   "casualties_text": "500 total",
-  "description": "The Union rearguard under Maj. Gen. William Franklin stopped Jackson's divisions at the White Oak Bridge crossing, resulting in an artillery duel, while the main battle raged two miles farther south at Glendale or Frayser's Farm. White Oak Swamp can be considered part of the Glendale engagement.",
-  "start_date": "1862-06-30",
-  "forces_text": "Armies",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Jackson",
-          "middle_name": "J.",
           "rank": "Major General",
+          "first_name": "Thomas",
           "suffix": "",
-          "fullname": "Thomas J. Jackson",
-          "first_name": "Thomas"
+          "navy": false,
+          "middle_name": "J.",
+          "last_name": "Jackson",
+          "fullname": "Thomas J. Jackson"
         }
       ],
       "armies": 1
@@ -25,34 +20,83 @@
     "US": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Franklin",
-          "middle_name": "B.",
           "rank": "Major General",
+          "first_name": "William",
           "suffix": "",
-          "fullname": "William B. Franklin",
-          "first_name": "William"
+          "navy": false,
+          "middle_name": "B.",
+          "last_name": "Franklin",
+          "fullname": "William B. Franklin"
         }
       ],
       "armies": 1
     }
   },
-  "campaign": "Peninsula Campaign [March-July 1862]",
-  "battle": "VA020A",
-  "result": "Inconclusive",
+  "cwsac_reference": "VA020a",
+  "operation": false,
+  "forces_text": "Armies",
+  "start_date": "1862-06-30",
+  "preservation": "II.3",
+  "results_text": "Inconclusive",
+  "description": "The Union rearguard under Maj. Gen. William Franklin stopped Jackson's divisions at the White Oak Bridge crossing, resulting in an artillery duel, while the main battle raged two miles farther south at Glendale or Frayser's Farm. White Oak Swamp can be considered part of the Glendale engagement.",
+  "state": "VA",
   "significance": "C",
   "other_names": null,
-  "state": "VA",
-  "preservation": "II.3",
+  "dates": "June 30, 1862",
+  "battle_name": "White Oak Swamp",
   "principal_commanders": "Maj. Gen. William B. Franklin [US]; Maj. Gen. Thomas J. Jackson [CS]",
-  "end_date": "1862-06-30",
-  "cwsac_reference": "VA020a",
-  "casualties": 500,
+  "campaign": "Peninsula Campaign [March-July 1862]",
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Thomas",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "J.",
+          "last_name": "Jackson",
+          "fullname": "Thomas J. Jackson"
+        }
+      ],
+      "armies": 1
+    },
+    "US": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "William",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "B.",
+          "last_name": "Franklin",
+          "fullname": "William B. Franklin"
+        }
+      ],
+      "armies": 1
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Thomas",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "J.",
+          "last_name": "Jackson",
+          "fullname": "Thomas J. Jackson"
+        }
+      ],
+      "armies": 1
+    }
+  },
+  "result": "Inconclusive",
+  "battle": "VA020A",
   "location": [
     {
-      "place": "Henrico County",
-      "state": "VA"
+      "state": "VA",
+      "place": "Henrico County"
     }
   ],
-  "battle_name": "White Oak Swamp"
+  "url": "http://www.nps.gov/hps/abpp/battles/va020a.htm"
 }

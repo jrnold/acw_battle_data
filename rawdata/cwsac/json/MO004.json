@@ -1,86 +1,163 @@
 {
-  "dates": "August 10, 1861",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/mo004.htm",
-  "results_text": "Confederate victory",
+  "end_date": "1861-08-10",
+  "casualties": 2330,
   "casualties_text": "2,330 total (US 1,235; CS 1,095)",
-  "description": "Brig. Gen. Nathaniel Lyon's Army of the West was camped at Springfield, Missouri, with Confederate troops under the commands of Brig. Gen. Ben McCulloch approaching. On August 9, both sides formulated plans to attack the other. About 5:00 am on the 10th, Lyon, in two columns commanded by himself and Col. Franz Sigel, attacked the Confederates on Wilson's Creek about 12 miles southwest of Springfield. Rebel cavalry received the first blow and fell back away from Bloody Hill. Confederate forces soon rushed up and stabilized their positions. The Confederates attacked the Union forces three times that day but failed to break through the Union line. Lyon was killed during the battle and Maj. Samuel D. Sturgis replaced him. Meanwhile, the Confederates had routed Sigel's column, south of Skegg's Branch. Following the third Confederate attack, which ended at 11:00 am, the Confederates withdrew. Sturgis realized, however, that his men were exhausted and his ammunition was low, so he ordered a retreat to Springfield. The Confederates were too disorganized and ill-equipped to pursue. This Confederate victory buoyed southern sympathizers in Missouri and served as a springboard for a bold thrust north that carried Price and his Missouri State Guard as far as Lexington. In late October, a rump convention, convened by Governor Claiborne Fox Jackson, met in Neosho and passed an ordinance of secession. Wilson's Creek, the most significant 1861 battle in Missouri, gave the Confederates control of southwestern Missouri.",
-  "start_date": "1861-08-10",
-  "forces_text": "Army of the West [US]; Missouri State Guard and McCulloch's Brigade [CS]",
-  "belligerents": {
-    "CS": {
-        "commanders": [
-            {
-                "navy": false,
-                "last_name": "Price",
-                "middle_name": "",
-                "rank": "Major General",
-                "suffix": "",
-                "fullname": "Sterling Price",
-                "first_name": "Sterling"
-            },
-            {
-                "navy": false,
-                "last_name": "McCulloch",
-                "middle_name": "",
-                "rank": "Brigadier General",
-                "suffix": "",
-                "fullname": "Ben McCulloch",
-                "first_name": "Ben"
-            }
-        ],
-      "description": "Missouri State Guard and McCulloch's Brigade",
-      "casualties": 1095,
-      "missouri_state_guard": true  
-    },
-    "US": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Lyon",
-          "middle_name": "",
-          "rank": "Brigadier General",
+          "rank": "Major General",
+          "first_name": "Sterling",
           "suffix": "",
-          "fullname": "Nathaniel Lyon",
-          "first_name": "Nathaniel"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Price",
+          "fullname": "Sterling Price"
         },
         {
-          "navy": false,
-          "last_name": "Sturgis",
-          "middle_name": "D.",
-          "rank": "Major General",
+          "rank": "Brigadier General",
+          "first_name": "Ben",
           "suffix": "",
-          "fullname": "Samuel D. Sturgis",
-          "first_name": "Samuel"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "McCulloch",
+          "fullname": "Ben McCulloch"
+        }
+      ],
+      "casualties": 1095,
+      "missouri_state_guard": true,
+      "description": "Missouri State Guard and McCulloch's Brigade"
+    },
+    "US": {
+      "casualties": 1235,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Nathaniel",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Lyon",
+          "fullname": "Nathaniel Lyon"
+        },
+        {
+          "rank": "Major General",
+          "first_name": "Samuel",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "D.",
+          "last_name": "Sturgis",
+          "fullname": "Samuel D. Sturgis"
         }
       ],
       "description": "Army of the West",
-      "armies": 1,
-      "casualties": 1235
+      "armies": 1
     }
   },
-  "campaign": "Operations to Control Missouri [June-October 1861]",
-  "battle": "MO004",
-  "result": "Confederate",
+  "cwsac_reference": "MO004",
+  "operation": false,
+  "forces_text": "Army of the West [US]; Missouri State Guard and McCulloch's Brigade [CS]",
+  "start_date": "1861-08-10",
+  "preservation": "III.1",
+  "results_text": "Confederate victory",
+  "description": "Brig. Gen. Nathaniel Lyon's Army of the West was camped at Springfield, Missouri, with Confederate troops under the commands of Brig. Gen. Ben McCulloch approaching. On August 9, both sides formulated plans to attack the other. About 5:00 am on the 10th, Lyon, in two columns commanded by himself and Col. Franz Sigel, attacked the Confederates on Wilson's Creek about 12 miles southwest of Springfield. Rebel cavalry received the first blow and fell back away from Bloody Hill. Confederate forces soon rushed up and stabilized their positions. The Confederates attacked the Union forces three times that day but failed to break through the Union line. Lyon was killed during the battle and Maj. Samuel D. Sturgis replaced him. Meanwhile, the Confederates had routed Sigel's column, south of Skegg's Branch. Following the third Confederate attack, which ended at 11:00 am, the Confederates withdrew. Sturgis realized, however, that his men were exhausted and his ammunition was low, so he ordered a retreat to Springfield. The Confederates were too disorganized and ill-equipped to pursue. This Confederate victory buoyed southern sympathizers in Missouri and served as a springboard for a bold thrust north that carried Price and his Missouri State Guard as far as Lexington. In late October, a rump convention, convened by Governor Claiborne Fox Jackson, met in Neosho and passed an ordinance of secession. Wilson's Creek, the most significant 1861 battle in Missouri, gave the Confederates control of southwestern Missouri.",
+  "state": "MO",
   "significance": "A",
   "other_names": [
     "Oak Hills"
   ],
-  "state": "MO",
-  "preservation": "III.1",
+  "dates": "August 10, 1861",
+  "battle_name": "Wilson's Creek",
   "principal_commanders": "Brig. Gen. Nathaniel Lyon and Maj. Gen. Samuel D. Sturgis [US]; Maj. Gen. Sterling Price, Missouri State Guard, and Brig. Gen. Ben McCulloch [CS]",
-  "end_date": "1861-08-10",
-  "cwsac_reference": "MO004",
-  "casualties": 2330,
+  "campaign": "Operations to Control Missouri [June-October 1861]",
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Sterling",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Price",
+          "fullname": "Sterling Price"
+        },
+        {
+          "rank": "Brigadier General",
+          "first_name": "Ben",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "McCulloch",
+          "fullname": "Ben McCulloch"
+        }
+      ],
+      "casualties": 1095,
+      "missouri_state_guard": true,
+      "description": "Missouri State Guard and McCulloch's Brigade"
+    },
+    "US": {
+      "casualties": 1235,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Nathaniel",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Lyon",
+          "fullname": "Nathaniel Lyon"
+        },
+        {
+          "rank": "Major General",
+          "first_name": "Samuel",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "D.",
+          "last_name": "Sturgis",
+          "fullname": "Samuel D. Sturgis"
+        }
+      ],
+      "description": "Army of the West",
+      "armies": 1
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Sterling",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Price",
+          "fullname": "Sterling Price"
+        },
+        {
+          "rank": "Brigadier General",
+          "first_name": "Ben",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "McCulloch",
+          "fullname": "Ben McCulloch"
+        }
+      ],
+      "casualties": 1095,
+      "missouri_state_guard": true,
+      "description": "Missouri State Guard and McCulloch's Brigade"
+    }
+  },
+  "result": "Confederate",
+  "battle": "MO004",
   "location": [
     {
-      "place": "Greene County",
-      "state": "MO"
+      "state": "MO",
+      "place": "Greene County"
     },
     {
-      "place": "Christian County",
-      "state": "MO"
+      "state": "MO",
+      "place": "Christian County"
     }
   ],
-  "battle_name": "Wilson's Creek"
+  "url": "http://www.nps.gov/hps/abpp/battles/mo004.htm"
 }

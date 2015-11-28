@@ -1,62 +1,109 @@
 {
-  "dates": "April 2, 1865",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/va089.htm",
-  "results_text": "Union victory",
+  "end_date": "1865-04-02",
+  "casualties": 7750,
   "casualties_text": "7,750 total (US 3,500; CS 4,250)",
-  "description": "With Confederate defeat at Five Forks on April 1, Grant and Meade ordered a general assault against the Petersburg lines by II, IX, VI and XXIV Corps on April 2. A heroic defense of Fort Gregg by a handful of Confederates prevented the Federals from entering the city that night. Lt. Gen. A.P. Hill was killed trying to reach his troops in the confusion. After dark, Lee ordered the evacuation of Petersburg and Richmond. Grant had achieved one of the major military objectives of the war: the capture of Petersburg, which led to the fall of Richmond, the Capitol of the Confederacy.",
-  "start_date": "1865-04-02",
-  "forces_text": "Armies",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": 4250,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Lee",
-          "middle_name": "E.",
           "rank": "General",
+          "first_name": "Robert",
           "suffix": "",
-          "fullname": "Robert E. Lee",
-          "first_name": "Robert"
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "fullname": "Robert E. Lee"
         }
       ],
-      "armies": 1,
-      "casualties": 4250
+      "armies": 1
     },
     "US": {
+      "casualties": 3500,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Grant",
-          "middle_name": "S.",
           "rank": "Lieutenant General",
+          "first_name": "Ulysses",
           "suffix": "",
-          "fullname": "Ulysses S. Grant",
-          "first_name": "Ulysses"
+          "navy": false,
+          "middle_name": "S.",
+          "last_name": "Grant",
+          "fullname": "Ulysses S. Grant"
         }
       ],
-      "armies": 1,
-      "casualties": 3500
+      "armies": 1
     }
   },
-  "campaign": "Appomattox Campaign [March-April 1865]",
-  "battle": "VA089",
-  "result": "Union",
+  "cwsac_reference": "VA089",
+  "operation": false,
+  "forces_text": "Armies",
+  "start_date": "1865-04-02",
+  "preservation": "I.1",
+  "results_text": "Union victory",
+  "description": "With Confederate defeat at Five Forks on April 1, Grant and Meade ordered a general assault against the Petersburg lines by II, IX, VI and XXIV Corps on April 2. A heroic defense of Fort Gregg by a handful of Confederates prevented the Federals from entering the city that night. Lt. Gen. A.P. Hill was killed trying to reach his troops in the confusion. After dark, Lee ordered the evacuation of Petersburg and Richmond. Grant had achieved one of the major military objectives of the war: the capture of Petersburg, which led to the fall of Richmond, the Capitol of the Confederacy.",
+  "state": "VA",
   "significance": "A",
   "other_names": [
     "Petersburg"
   ],
-  "state": "VA",
-  "preservation": "I.1",
+  "dates": "April 2, 1865",
+  "battle_name": "Petersburg",
   "principal_commanders": "Lt. Gen. Ulysses S. Grant [US]; Gen. Robert E. Lee [CS]",
-  "end_date": "1865-04-02",
-  "cwsac_reference": "VA089",
-  "casualties": 7750,
+  "campaign": "Appomattox Campaign [March-April 1865]",
+  "belligerents": {
+    "Confederate": {
+      "casualties": 4250,
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "Robert",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "fullname": "Robert E. Lee"
+        }
+      ],
+      "armies": 1
+    },
+    "US": {
+      "casualties": 3500,
+      "commanders": [
+        {
+          "rank": "Lieutenant General",
+          "first_name": "Ulysses",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "S.",
+          "last_name": "Grant",
+          "fullname": "Ulysses S. Grant"
+        }
+      ],
+      "armies": 1
+    },
+    "CS": {
+      "casualties": 4250,
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "Robert",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "fullname": "Robert E. Lee"
+        }
+      ],
+      "armies": 1
+    }
+  },
+  "result": "Union",
+  "battle": "VA089",
   "location": [
     {
-      "place": "City of Petersburg",
-      "state": "VA"
+      "state": "VA",
+      "place": "City of Petersburg"
     }
   ],
-  "battle_name": "Petersburg"
+  "url": "http://www.nps.gov/hps/abpp/battles/va089.htm"
 }

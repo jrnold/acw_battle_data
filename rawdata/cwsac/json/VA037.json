@@ -1,23 +1,18 @@
 {
-  "dates": "June 17-19, 1863",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/va037.htm",
-  "results_text": "Inconclusive",
+  "end_date": "1863-06-19",
+  "casualties": 390,
   "casualties_text": "390 total",
-  "description": "Maj. Gen. J.E.B. Stuart, screening Lee's invasion route, sparred with Pleasonton's cavalry. On the June 17, Col. Alfred Duffi\u00e9's isolated 1st Rhode Island Cavalry Regiment was attacked by the brigades of Munford and Robertson. The 1st Rhode Island Cavalry was routed, taking about 250 casualties. On June 19, J. Irvin Gregg's brigade advanced, driving Stuart's cavalry one mile beyond the town. Both sides were reinforced and mounted and dismounted skirmishing continued. Stuart was gradually levered out of his position but fell back to a second ridge, still covering the approaches to the Blue Ridge gap.",
-  "start_date": "1863-06-17",
-  "forces_text": "Divisions",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Stuart",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "J.E.B.",
           "suffix": "",
-          "fullname": "J.E.B. Stuart",
-          "first_name": "J.E.B."
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Stuart",
+          "fullname": "J.E.B. Stuart"
         }
       ],
       "divisions": 1
@@ -25,34 +20,83 @@
     "US": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Gregg",
-          "middle_name": "M.",
           "rank": "Brigadier General",
+          "first_name": "David",
           "suffix": "",
-          "fullname": "David M. Gregg",
-          "first_name": "David"
+          "navy": false,
+          "middle_name": "M.",
+          "last_name": "Gregg",
+          "fullname": "David M. Gregg"
         }
       ],
       "divisions": 1
     }
   },
-  "campaign": "Gettysburg Campaign [June-July 1863]",
-  "battle": "VA037",
-  "result": "Inconclusive",
+  "cwsac_reference": "VA037",
+  "operation": false,
+  "forces_text": "Divisions",
+  "start_date": "1863-06-17",
+  "preservation": "III.3",
+  "results_text": "Inconclusive",
+  "description": "Maj. Gen. J.E.B. Stuart, screening Lee's invasion route, sparred with Pleasonton's cavalry. On the June 17, Col. Alfred Duffi\u00e9's isolated 1st Rhode Island Cavalry Regiment was attacked by the brigades of Munford and Robertson. The 1st Rhode Island Cavalry was routed, taking about 250 casualties. On June 19, J. Irvin Gregg's brigade advanced, driving Stuart's cavalry one mile beyond the town. Both sides were reinforced and mounted and dismounted skirmishing continued. Stuart was gradually levered out of his position but fell back to a second ridge, still covering the approaches to the Blue Ridge gap.",
+  "state": "VA",
   "significance": "C",
   "other_names": null,
-  "state": "VA",
-  "preservation": "III.3",
+  "dates": "June 17-19, 1863",
+  "battle_name": "Middleburg",
   "principal_commanders": "Brig. Gen. David M. Gregg [US]; Maj. Gen. J.E.B. Stuart [CS]",
-  "end_date": "1863-06-19",
-  "cwsac_reference": "VA037",
-  "casualties": 390,
+  "campaign": "Gettysburg Campaign [June-July 1863]",
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "J.E.B.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Stuart",
+          "fullname": "J.E.B. Stuart"
+        }
+      ],
+      "divisions": 1
+    },
+    "US": {
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "David",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "M.",
+          "last_name": "Gregg",
+          "fullname": "David M. Gregg"
+        }
+      ],
+      "divisions": 1
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "J.E.B.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Stuart",
+          "fullname": "J.E.B. Stuart"
+        }
+      ],
+      "divisions": 1
+    }
+  },
+  "result": "Inconclusive",
+  "battle": "VA037",
   "location": [
     {
-      "place": "Loudoun County",
-      "state": "VA"
+      "state": "VA",
+      "place": "Loudoun County"
     }
   ],
-  "battle_name": "Middleburg"
+  "url": "http://www.nps.gov/hps/abpp/battles/va037.htm"
 }

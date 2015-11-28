@@ -1,23 +1,18 @@
 {
-  "dates": "February 22-27, 1864",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/ga006.htm",
-  "results_text": "Confederate victory",
+  "end_date": "1864-02-27",
+  "casualties": null,
   "casualties_text": "Unknown",
-  "description": "From Vicksburg, Mississippi, Sherman launched a campaign to take the important railroad center at Meridian and, if the situation was favorable, to push on to Selma and threaten Mobile, in order to prevent the shipment of Confederate men and supplies. To counter the threat, Confederate President Jefferson Davis ordered troops into the area. While these operations unfolded, Thomas determined to probe Gen. Johnston's army in the hope that Johnston's loss of two divisions, sent to reinforce Lt. Gen. Leonidas Polk as he withdrew from Meridian to Demopolis, Alabama, would make him vulnerable. Skirmishing and intense fighting occurred throughout the demonstration. At Crow Valley on the 25th, Union troops almost turned the Rebel right flank, but ultimately it held. On the 27th, Thomas's army withdrew, realizing that Johnston was ready and able to counter any assault.",
-  "start_date": "1864-02-22",
-  "forces_text": "Army of the Cumberland [US]; Army of Tennessee [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Johnston",
-          "middle_name": "E.",
           "rank": "General",
+          "first_name": "Joseph",
           "suffix": "",
-          "fullname": "Joseph E. Johnston",
-          "first_name": "Joseph"
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Johnston",
+          "fullname": "Joseph E. Johnston"
         }
       ],
       "armies": 1,
@@ -26,35 +21,87 @@
     "US": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Thomas",
-          "middle_name": "H.",
           "rank": "Major General",
+          "first_name": "George",
           "suffix": "",
-          "fullname": "George H. Thomas",
-          "first_name": "George"
+          "navy": false,
+          "middle_name": "H.",
+          "last_name": "Thomas",
+          "fullname": "George H. Thomas"
         }
       ],
       "armies": 1,
       "description": "Army of the Cumberland"
     }
   },
-  "campaign": "Demonstration on Dalton [February 1864]",
-  "battle": "GA006",
-  "result": "Confederate",
+  "cwsac_reference": "GA006",
+  "operation": false,
+  "forces_text": "Army of the Cumberland [US]; Army of Tennessee [CS]",
+  "start_date": "1864-02-22",
+  "preservation": "II.3",
+  "results_text": "Confederate victory",
+  "description": "From Vicksburg, Mississippi, Sherman launched a campaign to take the important railroad center at Meridian and, if the situation was favorable, to push on to Selma and threaten Mobile, in order to prevent the shipment of Confederate men and supplies. To counter the threat, Confederate President Jefferson Davis ordered troops into the area. While these operations unfolded, Thomas determined to probe Gen. Johnston's army in the hope that Johnston's loss of two divisions, sent to reinforce Lt. Gen. Leonidas Polk as he withdrew from Meridian to Demopolis, Alabama, would make him vulnerable. Skirmishing and intense fighting occurred throughout the demonstration. At Crow Valley on the 25th, Union troops almost turned the Rebel right flank, but ultimately it held. On the 27th, Thomas's army withdrew, realizing that Johnston was ready and able to counter any assault.",
+  "state": "GA",
   "significance": "C",
   "other_names": null,
-  "state": "GA",
-  "preservation": "II.3",
+  "dates": "February 22-27, 1864",
+  "battle_name": "Dalton I",
   "principal_commanders": "Maj. Gen. George H. Thomas [US]; Gen. Joseph E. Johnston [CS]",
-  "end_date": "1864-02-27",
-  "cwsac_reference": "GA006",
-  "casualties": null,
+  "campaign": "Demonstration on Dalton [February 1864]",
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "Joseph",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Johnston",
+          "fullname": "Joseph E. Johnston"
+        }
+      ],
+      "armies": 1,
+      "description": "Army of Tennessee"
+    },
+    "US": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "George",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "H.",
+          "last_name": "Thomas",
+          "fullname": "George H. Thomas"
+        }
+      ],
+      "armies": 1,
+      "description": "Army of the Cumberland"
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "Joseph",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Johnston",
+          "fullname": "Joseph E. Johnston"
+        }
+      ],
+      "armies": 1,
+      "description": "Army of Tennessee"
+    }
+  },
+  "result": "Confederate",
+  "battle": "GA006",
   "location": [
     {
-      "place": "Whitfield County",
-      "state": "GA"
+      "state": "GA",
+      "place": "Whitfield County"
     }
   ],
-  "battle_name": "Dalton I"
+  "url": "http://www.nps.gov/hps/abpp/battles/ga006.htm"
 }

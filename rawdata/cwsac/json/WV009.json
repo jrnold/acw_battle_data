@@ -1,71 +1,130 @@
 {
-  "dates": "May 15-17, 1862",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/wv009.htm",
-  "results_text": "Confederate victory",
+  "end_date": "1862-05-17",
+  "casualties": 129,
   "casualties_text": "129 total (US 23k/69w/21m; CS incomplete, Marshall 4k/12w, Wharton no report)",
-  "description": "By early May 1862 Union forces in today's West Virginia were positioned to breach the Alleghenies and debouch into Virginia's Great Valley at two points more than 100 miles apart. Brig. Gen. Robert H. Milroy's column, its axis of march the Staunton-Parkersburg Turnpike, advanced from Cheat Mountain and occupied in succession Camp Allegheny, Monteray, McDowell, and Shenandoah Mountain. Retreating before the oncoming Federals, Confederate Brig. Gen. Edward Johnson pulled back to Westview, six miles west of Staunton. Union soldiers of Brig. Gen. Jacob D. Cox's District of Kanawha threatened the East Tennessee & Virginia Railroad. The Federals by mid-May, although ousted from Pearisburg, held Mercer County and braced for a lunge at the railroad. Confederate Brig. Gen. Humphery Marshall arrived from Abingdon, Virginia, with the Army of East Kentucky. Boldly seizing the initiative, Marshall bested Cox's two brigades during three days of fighting, May 15-17, in Mercer County centering on Princeton Courthouse. Breaking contact with the Confederates on the night of the 17-18, Cox withdrew 20 miles to Camp Flat Top. Col. George Crook, commanding Cox's 3rd brigade, marched via the James and Kanawha Turnpike and occupied Lewisburg, where on May 23 he defeated Brig. Gen. Henry Heth's brigade. Upon learning that Maj. Gen. Thomas J. \"Stonewall\" Jackson's army had routed Maj. Gen. N.P. Banks' division at Winchester (March 25) and driven it across the Potomac, Crook evacuated Lewisburg and pulled back to Meadow Bluff.",
-  "start_date": "1862-05-15",
-  "forces_text": "District of the Kanawha [US]; Army of East Kentucky and Col. Gabriel C. Wharton's Brigade, Department of Southwest Virginia [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": 16,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Marshall",
-          "middle_name": "",
           "rank": "Brigadier General",
+          "first_name": "Humphery",
           "suffix": "",
-          "fullname": "Humphery Marshall",
-          "first_name": "Humphery"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Marshall",
+          "fullname": "Humphery Marshall"
         }
       ],
+      "missing": 0,
       "captured": 0,
       "killed": 4,
-      "casualties": 16,
-      "description": "Army of East Kentucky and Col. Gabriel C. Wharton's Brigade, Department of Southwest Virginia",
       "wounded": 12,
-      "missing": 0
+      "description": "Army of East Kentucky and Col. Gabriel C. Wharton's Brigade, Department of Southwest Virginia"
     },
     "US": {
+      "casualties": 113,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Cox",
-          "middle_name": "D.",
           "rank": "Brigadier General",
+          "first_name": "Jacob",
           "suffix": "",
-          "fullname": "Jacob D. Cox",
-          "first_name": "Jacob"
+          "navy": false,
+          "middle_name": "D.",
+          "last_name": "Cox",
+          "fullname": "Jacob D. Cox"
         }
       ],
+      "missing": 21,
       "captured": 0,
       "killed": 23,
-      "casualties": 113,
-      "description": "District of the Kanawha",
       "wounded": 69,
-      "missing": 21
+      "description": "District of the Kanawha"
     }
   },
-  "campaign": "Jackson's Valley Campaign [March-June 1862]",
-  "battle": "WV009",
-  "result": "Confederate",
+  "cwsac_reference": "WV009",
+  "operation": false,
+  "forces_text": "District of the Kanawha [US]; Army of East Kentucky and Col. Gabriel C. Wharton's Brigade, Department of Southwest Virginia [CS]",
+  "start_date": "1862-05-15",
+  "preservation": "IV.2",
+  "results_text": "Confederate victory",
+  "description": "By early May 1862 Union forces in today's West Virginia were positioned to breach the Alleghenies and debouch into Virginia's Great Valley at two points more than 100 miles apart. Brig. Gen. Robert H. Milroy's column, its axis of march the Staunton-Parkersburg Turnpike, advanced from Cheat Mountain and occupied in succession Camp Allegheny, Monteray, McDowell, and Shenandoah Mountain. Retreating before the oncoming Federals, Confederate Brig. Gen. Edward Johnson pulled back to Westview, six miles west of Staunton. Union soldiers of Brig. Gen. Jacob D. Cox's District of Kanawha threatened the East Tennessee & Virginia Railroad. The Federals by mid-May, although ousted from Pearisburg, held Mercer County and braced for a lunge at the railroad. Confederate Brig. Gen. Humphery Marshall arrived from Abingdon, Virginia, with the Army of East Kentucky. Boldly seizing the initiative, Marshall bested Cox's two brigades during three days of fighting, May 15-17, in Mercer County centering on Princeton Courthouse. Breaking contact with the Confederates on the night of the 17-18, Cox withdrew 20 miles to Camp Flat Top. Col. George Crook, commanding Cox's 3rd brigade, marched via the James and Kanawha Turnpike and occupied Lewisburg, where on May 23 he defeated Brig. Gen. Henry Heth's brigade. Upon learning that Maj. Gen. Thomas J. \"Stonewall\" Jackson's army had routed Maj. Gen. N.P. Banks' division at Winchester (March 25) and driven it across the Potomac, Crook evacuated Lewisburg and pulled back to Meadow Bluff.",
+  "state": "WV",
   "significance": "C",
   "other_names": [
     "Princton Court House",
     "WV"
   ],
-  "state": "WV",
-  "preservation": "IV.2",
+  "dates": "May 15-17, 1862",
+  "battle_name": "Princeton Court House",
   "principal_commanders": "Brig. Gen. Jacob D. Cox [US]; Brig. Gen. Humphery Marshall [CS]",
-  "end_date": "1862-05-17",
-  "cwsac_reference": "WV009",
-  "casualties": 129,
+  "campaign": "Jackson's Valley Campaign [March-June 1862]",
+  "belligerents": {
+    "Confederate": {
+      "casualties": 16,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Humphery",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Marshall",
+          "fullname": "Humphery Marshall"
+        }
+      ],
+      "missing": 0,
+      "captured": 0,
+      "killed": 4,
+      "wounded": 12,
+      "description": "Army of East Kentucky and Col. Gabriel C. Wharton's Brigade, Department of Southwest Virginia"
+    },
+    "US": {
+      "casualties": 113,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Jacob",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "D.",
+          "last_name": "Cox",
+          "fullname": "Jacob D. Cox"
+        }
+      ],
+      "missing": 21,
+      "captured": 0,
+      "killed": 23,
+      "wounded": 69,
+      "description": "District of the Kanawha"
+    },
+    "CS": {
+      "casualties": 16,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Humphery",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Marshall",
+          "fullname": "Humphery Marshall"
+        }
+      ],
+      "missing": 0,
+      "captured": 0,
+      "killed": 4,
+      "wounded": 12,
+      "description": "Army of East Kentucky and Col. Gabriel C. Wharton's Brigade, Department of Southwest Virginia"
+    }
+  },
+  "result": "Confederate",
+  "battle": "WV009",
   "location": [
     {
-      "place": "Mercer County",
-      "state": "WV"
+      "state": "WV",
+      "place": "Mercer County"
     }
   ],
-  "battle_name": "Princeton Court House"
+  "url": "http://www.nps.gov/hps/abpp/battles/wv009.htm"
 }

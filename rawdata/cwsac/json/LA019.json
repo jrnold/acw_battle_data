@@ -1,64 +1,111 @@
 {
-  "dates": "April 9, 1864",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/la019.htm",
-  "results_text": "Union victory",
+  "end_date": "1864-04-09",
+  "casualties": 3100,
   "casualties_text": "3,100 total (US 1,100; CS 2,000)",
-  "description": "By April 1864, Maj. Gen. Nathaniel P. Banks's Red River Expedition had advanced about 150 miles up Red River. Maj. Gen. Richard Taylor, commander of the Confederate forces in the area, decided, without any instructions from his commander Gen. E. Kirby Smith, that it was time to try and stem this Union drive. Taylor gained a victory at Mansfield on April 8. Banks withdrew from that battlefield to Pleasant Hill, but he knew that fighting would resume the next day. Early on the 9th, Taylor's reinforced forces marched toward Pleasant Hill in the hopes of finishing the destruction of the Union force. Although outnumbered, Taylor felt that the Union army would be timid after Mansfield and that an audacious, well-coordinated attack would be successful. The Confederates closed up, rested for a few hours, and then attacked at 5:00 pm. Taylor planned to send a force to assail the Union front while he rolled up the left flank and moved his cavalry around the right flank to cut the escape route. The attack on the Union left flank, under the command of Brig. Gen. Thomas J. Churchill, succeeded in sending those enemy troops fleeing for safety. Churchill ordered his men ahead, intending to attack the Union center from the rear. Union troops, however, discerned the danger and hit Churchill's right flank, forcing a retreat. Pleasant Hill was the last major battle, in terms of numbers of men involved, of the Louisiana phase of the Red River Campaign. Although Banks won this battle, he retreated, wishing to get his army out of west Louisiana before any greater calamity occurred. The battles of Mansfield and Pleasant Hill jointly (although the former was much more decisive) influenced Banks to forget his objective of capturing Shreveport.",
-  "start_date": "1864-04-09",
-  "forces_text": "Red River Expeditionary Force (Banks's Department of the Gulf) [US]; District of West Louisiana [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": 2000,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Taylor",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "Richard",
           "suffix": "",
-          "fullname": "Richard Taylor",
-          "first_name": "Richard"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Taylor",
+          "fullname": "Richard Taylor"
         }
       ],
-      "description": "District of West Louisiana",
-      "casualties": 2000
+      "description": "District of West Louisiana"
     },
     "US": {
+      "casualties": 1100,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Banks",
-          "middle_name": "P.",
           "rank": "Major General",
+          "first_name": "Nathaniel",
           "suffix": "",
-          "fullname": "Nathaniel P. Banks",
-          "first_name": "Nathaniel"
+          "navy": false,
+          "middle_name": "P.",
+          "last_name": "Banks",
+          "fullname": "Nathaniel P. Banks"
         }
       ],
-      "description": "Red River Expeditionary Force (Banks's Department of the Gulf)",
-      "casualties": 1100
+      "description": "Red River Expeditionary Force (Banks's Department of the Gulf)"
     }
   },
-  "campaign": "Red River Campaign [March-April 1864]",
-  "battle": "LA019",
-  "result": "Union",
+  "cwsac_reference": "LA019",
+  "operation": false,
+  "forces_text": "Red River Expeditionary Force (Banks's Department of the Gulf) [US]; District of West Louisiana [CS]",
+  "start_date": "1864-04-09",
+  "preservation": null,
+  "results_text": "Union victory",
+  "description": "By April 1864, Maj. Gen. Nathaniel P. Banks's Red River Expedition had advanced about 150 miles up Red River. Maj. Gen. Richard Taylor, commander of the Confederate forces in the area, decided, without any instructions from his commander Gen. E. Kirby Smith, that it was time to try and stem this Union drive. Taylor gained a victory at Mansfield on April 8. Banks withdrew from that battlefield to Pleasant Hill, but he knew that fighting would resume the next day. Early on the 9th, Taylor's reinforced forces marched toward Pleasant Hill in the hopes of finishing the destruction of the Union force. Although outnumbered, Taylor felt that the Union army would be timid after Mansfield and that an audacious, well-coordinated attack would be successful. The Confederates closed up, rested for a few hours, and then attacked at 5:00 pm. Taylor planned to send a force to assail the Union front while he rolled up the left flank and moved his cavalry around the right flank to cut the escape route. The attack on the Union left flank, under the command of Brig. Gen. Thomas J. Churchill, succeeded in sending those enemy troops fleeing for safety. Churchill ordered his men ahead, intending to attack the Union center from the rear. Union troops, however, discerned the danger and hit Churchill's right flank, forcing a retreat. Pleasant Hill was the last major battle, in terms of numbers of men involved, of the Louisiana phase of the Red River Campaign. Although Banks won this battle, he retreated, wishing to get his army out of west Louisiana before any greater calamity occurred. The battles of Mansfield and Pleasant Hill jointly (although the former was much more decisive) influenced Banks to forget his objective of capturing Shreveport.",
+  "state": "LA",
   "significance": "B",
   "other_names": null,
-  "state": "LA",
-  "preservation": null,
+  "dates": "April 9, 1864",
+  "battle_name": "Pleasant Hill",
   "principal_commanders": "Maj. Gen. Nathaniel P. Banks [US]; Maj. Gen. Richard Taylor [CS]",
-  "end_date": "1864-04-09",
-  "cwsac_reference": "LA019",
-  "casualties": 3100,
+  "campaign": "Red River Campaign [March-April 1864]",
+  "belligerents": {
+    "Confederate": {
+      "casualties": 2000,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Richard",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Taylor",
+          "fullname": "Richard Taylor"
+        }
+      ],
+      "description": "District of West Louisiana"
+    },
+    "US": {
+      "casualties": 1100,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Nathaniel",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "P.",
+          "last_name": "Banks",
+          "fullname": "Nathaniel P. Banks"
+        }
+      ],
+      "description": "Red River Expeditionary Force (Banks's Department of the Gulf)"
+    },
+    "CS": {
+      "casualties": 2000,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Richard",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Taylor",
+          "fullname": "Richard Taylor"
+        }
+      ],
+      "description": "District of West Louisiana"
+    }
+  },
+  "result": "Union",
+  "battle": "LA019",
   "location": [
     {
-      "place": "DeSoto Parish",
-      "state": "LA"
+      "state": "LA",
+      "place": "DeSoto Parish"
     },
     {
-      "place": "Sabine Parish",
-      "state": "LA"
+      "state": "LA",
+      "place": "Sabine Parish"
     }
   ],
-  "battle_name": "Pleasant Hill"
+  "url": "http://www.nps.gov/hps/abpp/battles/la019.htm"
 }

@@ -1,63 +1,113 @@
 {
-  "dates": "March 2, 1865",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/va123.htm",
-  "results_text": "Union victory",
+  "end_date": "1865-03-02",
+  "casualties": 1800,
   "casualties_text": "1,800 total",
-  "description": "On February 27, Maj. Gen. Philip Sheridan with two cavalry divisions rode from Winchester up the Shenandoah Valley to Staunton. Turning east, the Federals encountered the last remnant of Lt. Gen. Jubal Early's Valley army at Waynesboro on March 2. After a brief stand-off, a Federal attack rolled up Early's right flank and scattered his small force. More than 1,500 Confederates surrendered. Early and a few of his staff evaded capture. Sheridan crossed the Blue Ridge to Charlottesville and then raided south, destroying the James River Canal locks near Goochland Court House. He joined forces with the Army of the Potomac near Petersburg on March 26 for the opening of the Appomattox Campaign.",
-  "start_date": "1865-03-02",
-  "forces_text": "4,100 total (US 2,500; CS 1,600)",
-  "strength": 4100,
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Early",
-          "middle_name": "A.",
           "rank": "Lieutenant General",
+          "first_name": "Jubal",
           "suffix": "",
-          "fullname": "Jubal A. Early",
-          "first_name": "Jubal"
+          "navy": false,
+          "middle_name": "A.",
+          "last_name": "Early",
+          "fullname": "Jubal A. Early"
         }
       ],
-      "strength_max": 1600,
       "strength_min": 1600,
-      "description": "1,600"
+      "description": "1,600",
+      "strength_max": 1600
     },
     "US": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Sheridan",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "Philip",
           "suffix": "",
-          "fullname": "Philip Sheridan",
-          "first_name": "Philip"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Sheridan",
+          "fullname": "Philip Sheridan"
         }
       ],
-      "strength_max": 2500,
       "strength_min": 2500,
-      "description": "2,500"
+      "description": "2,500",
+      "strength_max": 2500
     }
   },
-  "campaign": "Sheridan's Expedition to Petersburg [March 1865]",
-  "battle": "VA123",
-  "result": "Union",
+  "strength": 4100,
+  "cwsac_reference": "VA123",
+  "operation": false,
+  "forces_text": "4,100 total (US 2,500; CS 1,600)",
+  "start_date": "1865-03-02",
+  "preservation": "IV.2",
+  "results_text": "Union victory",
+  "description": "On February 27, Maj. Gen. Philip Sheridan with two cavalry divisions rode from Winchester up the Shenandoah Valley to Staunton. Turning east, the Federals encountered the last remnant of Lt. Gen. Jubal Early's Valley army at Waynesboro on March 2. After a brief stand-off, a Federal attack rolled up Early's right flank and scattered his small force. More than 1,500 Confederates surrendered. Early and a few of his staff evaded capture. Sheridan crossed the Blue Ridge to Charlottesville and then raided south, destroying the James River Canal locks near Goochland Court House. He joined forces with the Army of the Potomac near Petersburg on March 26 for the opening of the Appomattox Campaign.",
+  "state": "VA",
   "significance": "B",
   "other_names": null,
-  "state": "VA",
-  "preservation": "IV.2",
+  "dates": "March 2, 1865",
+  "battle_name": "Waynesboro",
   "principal_commanders": "Maj. Gen. Philip Sheridan [US]; Lt. Gen. Jubal A. Early [CS]",
-  "end_date": "1865-03-02",
-  "cwsac_reference": "VA123",
-  "casualties": 1800,
   "location": [
     {
-      "place": "Augusta County",
-      "state": "VA"
+      "state": "VA",
+      "place": "Augusta County"
     }
   ],
-  "battle_name": "Waynesboro"
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "Lieutenant General",
+          "first_name": "Jubal",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "A.",
+          "last_name": "Early",
+          "fullname": "Jubal A. Early"
+        }
+      ],
+      "strength_min": 1600,
+      "description": "1,600",
+      "strength_max": 1600
+    },
+    "US": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Philip",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Sheridan",
+          "fullname": "Philip Sheridan"
+        }
+      ],
+      "strength_min": 2500,
+      "description": "2,500",
+      "strength_max": 2500
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "Lieutenant General",
+          "first_name": "Jubal",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "A.",
+          "last_name": "Early",
+          "fullname": "Jubal A. Early"
+        }
+      ],
+      "strength_min": 1600,
+      "description": "1,600",
+      "strength_max": 1600
+    }
+  },
+  "result": "Union",
+  "battle": "VA123",
+  "campaign": "Sheridan's Expedition to Petersburg [March 1865]",
+  "url": "http://www.nps.gov/hps/abpp/battles/va123.htm"
 }

@@ -1,62 +1,113 @@
 {
-  "dates": "August 21, 1864",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/tn031.htm",
-  "results_text": "Confederate victory",
+  "end_date": "1864-08-21",
+  "casualties": 194,
   "casualties_text": "194 total (US 160; CS 34)",
-  "description": "At 4:00 am on the morning of August 21, 1864, Maj. Gen. Nathan Bedford Forrest made a daring raid on Union-held Memphis, Tennessee, but it was not an attempt to capture the city, occupied by 6,000 Federal troops. The raid had three objectives: to capture three Union generals posted there; to release Southern prisoners from Irving Block Prison; and to cause the recall of Union forces from Northern Mississippi. Striking northwestward for Memphis with 2,000 cavalry, Forrest lost about a quarter of his strength because of exhausted horses. Surprise was essential. Taking advantage of a thick dawn fog and claiming to be a Union patrol returning with prisoners, the Confederates eliminated the sentries. Galloping through the streets and exchanging shots with other Union troops, the raiders split to pursue separate missions. One Union general was not at his quarters and another escaped to Fort Pickering dressed in his night-shirt. The attack on Irving Block Prison also failed when Union troops stalled the main body at the State Female College. After two hours, Forrest decided to withdraw, cutting telegraph wires, taking 500 prisoners and large quantities of supplies, including many horses. Although Forrest failed in Memphis, his raid influenced Union forces to return there, from northern Mississippi, and provide protection.",
-  "start_date": "1864-08-21",
-  "forces_text": "Troops stationed at Memphis [US]; Forrest's Cavalry (approx. 400) [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": 34,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Forrest",
-          "middle_name": "Bedford",
           "rank": "Brigadier General",
+          "first_name": "Nathan",
           "suffix": "",
-          "fullname": "Nathan Bedford Forrest",
-          "first_name": "Nathan"
+          "navy": false,
+          "middle_name": "Bedford",
+          "last_name": "Forrest",
+          "fullname": "Nathan Bedford Forrest"
         }
       ],
       "description": "Forrest's Cavalry (approx. 400)",
-      "strength_max": 400,
       "strength_min": 400,
-      "casualties": 34
+      "strength_max": 400
     },
     "US": {
+      "casualties": 160,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Washburn",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "C.C.",
           "suffix": "",
-          "fullname": "C.C. Washburn",
-          "first_name": "C.C."
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Washburn",
+          "fullname": "C.C. Washburn"
         }
       ],
-      "description": "Troops stationed at Memphis",
-      "casualties": 160
+      "description": "Troops stationed at Memphis"
     }
   },
-  "campaign": "Forrest's Defense of Mississippi [June-August 1864]",
-  "battle": "TN031",
-  "result": "Confederate",
+  "cwsac_reference": "TN031",
+  "operation": false,
+  "forces_text": "Troops stationed at Memphis [US]; Forrest's Cavalry (approx. 400) [CS]",
+  "start_date": "1864-08-21",
+  "preservation": "IV.2",
+  "results_text": "Confederate victory",
+  "description": "At 4:00 am on the morning of August 21, 1864, Maj. Gen. Nathan Bedford Forrest made a daring raid on Union-held Memphis, Tennessee, but it was not an attempt to capture the city, occupied by 6,000 Federal troops. The raid had three objectives: to capture three Union generals posted there; to release Southern prisoners from Irving Block Prison; and to cause the recall of Union forces from Northern Mississippi. Striking northwestward for Memphis with 2,000 cavalry, Forrest lost about a quarter of his strength because of exhausted horses. Surprise was essential. Taking advantage of a thick dawn fog and claiming to be a Union patrol returning with prisoners, the Confederates eliminated the sentries. Galloping through the streets and exchanging shots with other Union troops, the raiders split to pursue separate missions. One Union general was not at his quarters and another escaped to Fort Pickering dressed in his night-shirt. The attack on Irving Block Prison also failed when Union troops stalled the main body at the State Female College. After two hours, Forrest decided to withdraw, cutting telegraph wires, taking 500 prisoners and large quantities of supplies, including many horses. Although Forrest failed in Memphis, his raid influenced Union forces to return there, from northern Mississippi, and provide protection.",
+  "state": "TN",
   "significance": "C",
   "other_names": null,
-  "state": "TN",
-  "preservation": "IV.2",
+  "dates": "August 21, 1864",
+  "battle_name": "Memphis",
   "principal_commanders": "Maj. Gen. C.C. Washburn [US]; Brig. Gen. Nathan Bedford Forrest [CS]",
-  "end_date": "1864-08-21",
-  "cwsac_reference": "TN031",
-  "casualties": 194,
+  "campaign": "Forrest's Defense of Mississippi [June-August 1864]",
+  "belligerents": {
+    "Confederate": {
+      "casualties": 34,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Nathan",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "Bedford",
+          "last_name": "Forrest",
+          "fullname": "Nathan Bedford Forrest"
+        }
+      ],
+      "description": "Forrest's Cavalry (approx. 400)",
+      "strength_min": 400,
+      "strength_max": 400
+    },
+    "US": {
+      "casualties": 160,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "C.C.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Washburn",
+          "fullname": "C.C. Washburn"
+        }
+      ],
+      "description": "Troops stationed at Memphis"
+    },
+    "CS": {
+      "casualties": 34,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Nathan",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "Bedford",
+          "last_name": "Forrest",
+          "fullname": "Nathan Bedford Forrest"
+        }
+      ],
+      "description": "Forrest's Cavalry (approx. 400)",
+      "strength_min": 400,
+      "strength_max": 400
+    }
+  },
+  "result": "Confederate",
+  "battle": "TN031",
   "location": [
     {
-      "place": "Shelby County",
-      "state": "TN"
+      "state": "TN",
+      "place": "Shelby County"
     }
   ],
-  "battle_name": "Memphis"
+  "url": "http://www.nps.gov/hps/abpp/battles/tn031.htm"
 }

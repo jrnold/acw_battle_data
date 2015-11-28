@@ -1,63 +1,110 @@
 {
-  "dates": "July 2, 1861",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/wv002.htm",
-  "results_text": "Union victory",
+  "end_date": "1861-07-02",
+  "casualties": 114,
   "casualties_text": "114 total (US 23; CS 91)",
-  "description": "On July 2, Maj. Gen. Robert Patterson's division crossed the Potomac River near Williamsport and marched on the main road to Martinsburg. Near Hoke's Run, Abercrombie's and Thomas's brigades encountered regiments of T.J. Jackson's brigade, driving them back slowly. Jackson's orders were to delay the Federal advance only, which he did, withdrawing before Patterson's larger force. On July 3, Patterson occupied Martinsburg but made no further aggressive moves until July 15, when he marched to Bunker Hill. Instead of moving on Winchester, however, Patterson turned east to Charles Town and then withdrew to Harpers Ferry. This retrograde movement took pressure off Confederate forces in the Shenandoah Valley and allowed Johnston's army to march to support Brig. Gen. P.G.T. Beauregard at Manassas. Patterson's inactivity contributed to the Union defeat at First Manassas.",
-  "start_date": "1861-07-02",
-  "forces_text": "Brigades",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": 91,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Jackson",
-          "middle_name": "J.",
           "rank": "Brigadier General",
+          "first_name": "Thomas",
           "suffix": "",
-          "fullname": "Thomas J. Jackson",
-          "first_name": "Thomas"
+          "navy": false,
+          "middle_name": "J.",
+          "last_name": "Jackson",
+          "fullname": "Thomas J. Jackson"
         }
       ],
-      "brigades": 1,
-      "casualties": 91
+      "brigades": 1
     },
     "US": {
+      "casualties": 23,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Patterson",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "Robert",
           "suffix": "",
-          "fullname": "Robert Patterson",
-          "first_name": "Robert"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Patterson",
+          "fullname": "Robert Patterson"
         }
       ],
-      "brigades": 1,
-      "casualties": 23
+      "brigades": 1
     }
   },
-  "campaign": "Manassas Campaign [July 1861]",
-  "battle": "WV002",
-  "result": "Union",
+  "cwsac_reference": "WV002",
+  "operation": false,
+  "forces_text": "Brigades",
+  "start_date": "1861-07-02",
+  "preservation": "II.4",
+  "results_text": "Union victory",
+  "description": "On July 2, Maj. Gen. Robert Patterson's division crossed the Potomac River near Williamsport and marched on the main road to Martinsburg. Near Hoke's Run, Abercrombie's and Thomas's brigades encountered regiments of T.J. Jackson's brigade, driving them back slowly. Jackson's orders were to delay the Federal advance only, which he did, withdrawing before Patterson's larger force. On July 3, Patterson occupied Martinsburg but made no further aggressive moves until July 15, when he marched to Bunker Hill. Instead of moving on Winchester, however, Patterson turned east to Charles Town and then withdrew to Harpers Ferry. This retrograde movement took pressure off Confederate forces in the Shenandoah Valley and allowed Johnston's army to march to support Brig. Gen. P.G.T. Beauregard at Manassas. Patterson's inactivity contributed to the Union defeat at First Manassas.",
+  "state": "WV",
   "significance": "D",
   "other_names": [
     "Falling Waters",
     "Hainesville"
   ],
-  "state": "WV",
-  "preservation": "II.4",
+  "dates": "July 2, 1861",
+  "battle_name": "Hoke's Run",
   "principal_commanders": "Maj. Gen. Robert Patterson [US]; Brig. Gen. Thomas J. Jackson [CS]",
-  "end_date": "1861-07-02",
-  "cwsac_reference": "WV002",
-  "casualties": 114,
+  "campaign": "Manassas Campaign [July 1861]",
+  "belligerents": {
+    "Confederate": {
+      "casualties": 91,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Thomas",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "J.",
+          "last_name": "Jackson",
+          "fullname": "Thomas J. Jackson"
+        }
+      ],
+      "brigades": 1
+    },
+    "US": {
+      "casualties": 23,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Robert",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Patterson",
+          "fullname": "Robert Patterson"
+        }
+      ],
+      "brigades": 1
+    },
+    "CS": {
+      "casualties": 91,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Thomas",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "J.",
+          "last_name": "Jackson",
+          "fullname": "Thomas J. Jackson"
+        }
+      ],
+      "brigades": 1
+    }
+  },
+  "result": "Union",
+  "battle": "WV002",
   "location": [
     {
-      "place": "Berkeley County",
-      "state": "WV"
+      "state": "WV",
+      "place": "Berkeley County"
     }
   ],
-  "battle_name": "Hoke's Run"
+  "url": "http://www.nps.gov/hps/abpp/battles/wv002.htm"
 }

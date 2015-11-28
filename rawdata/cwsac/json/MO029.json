@@ -1,61 +1,109 @@
 {
-  "dates": "October 28, 1864",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/mo029.htm",
-  "results_text": "Union victory",
+  "end_date": "1864-10-28",
+  "casualties": 650,
   "casualties_text": "650 total (US 400; CS 250)",
-  "description": "Price's force was in full retreat following its expedition into Missouri. On October 28, 1864, it stopped to rest about two miles south of Newtonia, Missouri. Soon afterward, Maj. Gen. James G. Blunt's Union troops surprised the Confederates and began to drive them. Brig. Gen. Joe Shelby's division, including his Iron Brigade, rode to the front, dismounted, and engaged the Yankees while the other Rebel troops retreated towards Indian Territory. Brig. Gen. John B. Sanborn later appeared with Union reinforcements which convinced Shelby to retire. The Union troops forced the Confederates to retreat but failed to destroy or capture them.",
-  "start_date": "1864-10-28",
-  "forces_text": "Five brigades [US]; remnants of Price's Army of Missouri [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": 250,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Price",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "Sterling",
           "suffix": "",
-          "fullname": "Sterling Price",
-          "first_name": "Sterling"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Price",
+          "fullname": "Sterling Price"
         }
       ],
-      "description": "remnants of Price's Army of Missouri",
-      "casualties": 250
+      "description": "remnants of Price's Army of Missouri"
     },
     "US": {
+      "casualties": 400,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Blunt",
-          "middle_name": "G.",
           "rank": "Major General",
+          "first_name": "James",
           "suffix": "",
-          "fullname": "James G. Blunt",
-          "first_name": "James"
+          "navy": false,
+          "middle_name": "G.",
+          "last_name": "Blunt",
+          "fullname": "James G. Blunt"
         }
       ],
-      "description": "Five brigades",
       "brigades": 5,
-      "casualties": 400
+      "description": "Five brigades"
     }
   },
-  "campaign": "Price's Missouri Expedition [September-October 1864]",
-  "battle": "MO029",
-  "result": "Union",
+  "cwsac_reference": "MO029",
+  "operation": false,
+  "forces_text": "Five brigades [US]; remnants of Price's Army of Missouri [CS]",
+  "start_date": "1864-10-28",
+  "preservation": "I.3",
+  "results_text": "Union victory",
+  "description": "Price's force was in full retreat following its expedition into Missouri. On October 28, 1864, it stopped to rest about two miles south of Newtonia, Missouri. Soon afterward, Maj. Gen. James G. Blunt's Union troops surprised the Confederates and began to drive them. Brig. Gen. Joe Shelby's division, including his Iron Brigade, rode to the front, dismounted, and engaged the Yankees while the other Rebel troops retreated towards Indian Territory. Brig. Gen. John B. Sanborn later appeared with Union reinforcements which convinced Shelby to retire. The Union troops forced the Confederates to retreat but failed to destroy or capture them.",
+  "state": "MO",
   "significance": "B",
   "other_names": null,
-  "state": "MO",
-  "preservation": "I.3",
+  "dates": "October 28, 1864",
+  "battle_name": "Newtonia",
   "principal_commanders": "Maj. Gen. James G. Blunt [US]; Maj. Gen. Sterling Price [CS]",
-  "end_date": "1864-10-28",
-  "cwsac_reference": "MO029",
-  "casualties": 650,
+  "campaign": "Price's Missouri Expedition [September-October 1864]",
+  "belligerents": {
+    "Confederate": {
+      "casualties": 250,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Sterling",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Price",
+          "fullname": "Sterling Price"
+        }
+      ],
+      "description": "remnants of Price's Army of Missouri"
+    },
+    "US": {
+      "casualties": 400,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "James",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "G.",
+          "last_name": "Blunt",
+          "fullname": "James G. Blunt"
+        }
+      ],
+      "brigades": 5,
+      "description": "Five brigades"
+    },
+    "CS": {
+      "casualties": 250,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Sterling",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Price",
+          "fullname": "Sterling Price"
+        }
+      ],
+      "description": "remnants of Price's Army of Missouri"
+    }
+  },
+  "result": "Union",
+  "battle": "MO029",
   "location": [
     {
-      "place": "Newton County",
-      "state": "MO"
+      "state": "MO",
+      "place": "Newton County"
     }
   ],
-  "battle_name": "Newtonia"
+  "url": "http://www.nps.gov/hps/abpp/battles/mo029.htm"
 }

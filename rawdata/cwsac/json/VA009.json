@@ -1,32 +1,27 @@
 {
-  "dates": "April 5-May 4, 1862",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/va009.htm",
-  "results_text": "Inconclusive",
+  "end_date": "1862-05-04",
+  "casualties": 320,
   "casualties_text": "320 total",
-  "description": "Marching from Fort Monroe, Maj. Gen. George B. McClellan's army encountered Maj. Gen. John B. Magruder's small Confederate army at Yorktown behind the Warwick River. Magruder's theatrics convinced the Federals that his works were strongly held. McClellan suspended the march up the Peninsula toward Richmond, ordered the construction of siege fortifications, and brought his heavy siege guns to the front. In the meantime, Gen. Joseph E. Johnston brought reinforcements for Magruder. On 16 April, Union forces probed a weakness in the Confederate line at Lee's Mill or Dam No. 1, resulting in about 309 casualties. Failure to exploit the initial success of this attack, however, held up McClellan for two additional weeks, while he tried to convince his navy to maneuver the Confederates' big guns at Yorktown and Gloucester Point and ascend the York River to West Point thus outflanking the Warwick Line. McClellan planned for a massive bombardment to begin at dawn on May 4, but the Confederate army slipped away in the night toward Williamsburg.",
-  "start_date": "1862-04-05",
-  "forces_text": "Armies",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Magruder",
-          "middle_name": "B.",
           "rank": "Major General",
+          "first_name": "John",
           "suffix": "",
-          "fullname": "John B. Magruder",
-          "first_name": "John"
+          "navy": false,
+          "middle_name": "B.",
+          "last_name": "Magruder",
+          "fullname": "John B. Magruder"
         },
         {
-          "navy": false,
-          "last_name": "Johnston",
-          "middle_name": "E.",
           "rank": "General",
+          "first_name": "Joseph",
           "suffix": "",
-          "fullname": "Joseph E. Johnston",
-          "first_name": "Joseph"
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Johnston",
+          "fullname": "Joseph E. Johnston"
         }
       ],
       "armies": 1
@@ -34,38 +29,105 @@
     "US": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "McClellan",
-          "middle_name": "B.",
           "rank": "Major General",
+          "first_name": "George",
           "suffix": "",
-          "fullname": "George B. McClellan",
-          "first_name": "George"
+          "navy": false,
+          "middle_name": "B.",
+          "last_name": "McClellan",
+          "fullname": "George B. McClellan"
         }
       ],
       "armies": 1
     }
   },
-  "campaign": "Peninsula Campaign [March-July 1862]",
-  "battle": "VA009",
-  "result": "Inconclusive",
+  "cwsac_reference": "VA009",
+  "operation": false,
+  "forces_text": "Armies",
+  "start_date": "1862-04-05",
+  "preservation": "III.2",
+  "results_text": "Inconclusive",
+  "description": "Marching from Fort Monroe, Maj. Gen. George B. McClellan's army encountered Maj. Gen. John B. Magruder's small Confederate army at Yorktown behind the Warwick River. Magruder's theatrics convinced the Federals that his works were strongly held. McClellan suspended the march up the Peninsula toward Richmond, ordered the construction of siege fortifications, and brought his heavy siege guns to the front. In the meantime, Gen. Joseph E. Johnston brought reinforcements for Magruder. On 16 April, Union forces probed a weakness in the Confederate line at Lee's Mill or Dam No. 1, resulting in about 309 casualties. Failure to exploit the initial success of this attack, however, held up McClellan for two additional weeks, while he tried to convince his navy to maneuver the Confederates' big guns at Yorktown and Gloucester Point and ascend the York River to West Point thus outflanking the Warwick Line. McClellan planned for a massive bombardment to begin at dawn on May 4, but the Confederate army slipped away in the night toward Williamsburg.",
+  "state": "VA",
   "significance": "B",
   "other_names": null,
-  "state": "VA",
-  "preservation": "III.2",
+  "dates": "April 5-May 4, 1862",
+  "battle_name": "Yorktown",
   "principal_commanders": "Maj. Gen. George B. McClellan [US]; Maj. Gen. John B. Magruder and Gen. Joseph E. Johnston [CS]",
-  "end_date": "1862-05-04",
-  "cwsac_reference": "VA009",
-  "casualties": 320,
+  "campaign": "Peninsula Campaign [March-July 1862]",
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "B.",
+          "last_name": "Magruder",
+          "fullname": "John B. Magruder"
+        },
+        {
+          "rank": "General",
+          "first_name": "Joseph",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Johnston",
+          "fullname": "Joseph E. Johnston"
+        }
+      ],
+      "armies": 1
+    },
+    "US": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "George",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "B.",
+          "last_name": "McClellan",
+          "fullname": "George B. McClellan"
+        }
+      ],
+      "armies": 1
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "B.",
+          "last_name": "Magruder",
+          "fullname": "John B. Magruder"
+        },
+        {
+          "rank": "General",
+          "first_name": "Joseph",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Johnston",
+          "fullname": "Joseph E. Johnston"
+        }
+      ],
+      "armies": 1
+    }
+  },
+  "result": "Inconclusive",
+  "battle": "VA009",
   "location": [
     {
-      "place": "York County",
-      "state": "VA"
+      "state": "VA",
+      "place": "York County"
     },
     {
-      "place": "Newport News",
-      "state": "VA"
+      "state": "VA",
+      "place": "Newport News"
     }
   ],
-  "battle_name": "Yorktown"
+  "url": "http://www.nps.gov/hps/abpp/battles/va009.htm"
 }

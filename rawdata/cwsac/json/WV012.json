@@ -1,23 +1,18 @@
 {
-  "dates": "November 6, 1863",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/wv012.htm",
-  "results_text": "Union victory",
+  "end_date": "1863-11-06",
+  "casualties": 526,
   "casualties_text": "526 total",
-  "description": "In early November, Brig. Gens. W.W. Averell and Alfred Napoleon Alexander Duffi\u00e9 embarked on a raid into southwestern Virginia to disrupt the Virginia & Tennessee Railroad. While Duffi\u00e9's column destroyed military property en route, Averell encountered and defeated a Confederate brigade under Brig. Gen. John Echols at Droop Mountain. The Union columns reunited at Lewisburg the next day but were in no condition to continue their raid. After this battle, Confederate resistance in West Virginia collapsed.",
-  "start_date": "1863-11-06",
-  "forces_text": "Brigades",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Echols",
-          "middle_name": "",
           "rank": "Brigadier General",
+          "first_name": "John",
           "suffix": "",
-          "fullname": "John Echols",
-          "first_name": "John"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Echols",
+          "fullname": "John Echols"
         }
       ],
       "brigades": 1
@@ -25,34 +20,83 @@
     "US": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Averell",
-          "middle_name": "W.",
           "rank": "Brigadier General",
+          "first_name": "William",
           "suffix": "",
-          "fullname": "William W. Averell",
-          "first_name": "William"
+          "navy": false,
+          "middle_name": "W.",
+          "last_name": "Averell",
+          "fullname": "William W. Averell"
         }
       ],
       "brigades": 1
     }
   },
-  "campaign": "Averell's Raid on the Virginia & Tennessee Railroad [November 1863]",
-  "battle": "WV012",
-  "result": "Union",
+  "cwsac_reference": "WV012",
+  "operation": false,
+  "forces_text": "Brigades",
+  "start_date": "1863-11-06",
+  "preservation": "III.3",
+  "results_text": "Union victory",
+  "description": "In early November, Brig. Gens. W.W. Averell and Alfred Napoleon Alexander Duffi\u00e9 embarked on a raid into southwestern Virginia to disrupt the Virginia & Tennessee Railroad. While Duffi\u00e9's column destroyed military property en route, Averell encountered and defeated a Confederate brigade under Brig. Gen. John Echols at Droop Mountain. The Union columns reunited at Lewisburg the next day but were in no condition to continue their raid. After this battle, Confederate resistance in West Virginia collapsed.",
+  "state": "WV",
   "significance": "C",
   "other_names": null,
-  "state": "WV",
-  "preservation": "III.3",
+  "dates": "November 6, 1863",
+  "battle_name": "Droop Mountain",
   "principal_commanders": "Brig. Gen. William W. Averell [US]; Brig. Gen. John Echols [CS]",
-  "end_date": "1863-11-06",
-  "cwsac_reference": "WV012",
-  "casualties": 526,
+  "campaign": "Averell's Raid on the Virginia & Tennessee Railroad [November 1863]",
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Echols",
+          "fullname": "John Echols"
+        }
+      ],
+      "brigades": 1
+    },
+    "US": {
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "William",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "W.",
+          "last_name": "Averell",
+          "fullname": "William W. Averell"
+        }
+      ],
+      "brigades": 1
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Echols",
+          "fullname": "John Echols"
+        }
+      ],
+      "brigades": 1
+    }
+  },
+  "result": "Union",
+  "battle": "WV012",
   "location": [
     {
-      "place": "Pocahontas County",
-      "state": "WV"
+      "state": "WV",
+      "place": "Pocahontas County"
     }
   ],
-  "battle_name": "Droop Mountain"
+  "url": "http://www.nps.gov/hps/abpp/battles/wv012.htm"
 }

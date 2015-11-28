@@ -1,62 +1,109 @@
 {
-  "dates": "April 19, 1862",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/nc005.htm",
-  "results_text": "Inconclusive (Federals withdrew.)",
+  "end_date": "1862-04-19",
+  "casualties": 150,
   "casualties_text": "150 total",
-  "description": "Learning that the Confederates were building ironclads at Norfolk, Burnside planned an expedition to destroy the Dismal Swamp Canal locks to prevent transfer of the ships to Albemarle Sound. He entrusted the operation to Brig. Gen. Jesse Lee Reno's command, which embarked on transports from Roanoke Island on April 18. By midnight, the convoy reached Elizabeth City and began disembarking troops. On the morning of April 19, Reno marched north on the road to South Mills. At the crossroads a few miles below South Mills, elements of Col. Ambrose Wright's command delayed the Federals until dark. Reno abandoned the expedition and withdrew during the night to the transports at Elizabeth City. The transports carried Reno's troops to New Berne where they arrived on April 22.",
-  "start_date": "1862-04-19",
-  "forces_text": "21st Massachusetts and 51st Pennsylvania [US]; 3rd Georgia [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "regiments": 1,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Wright",
-          "middle_name": "",
           "rank": "Colonel",
+          "first_name": "Ambrose",
           "suffix": "",
-          "fullname": "Ambrose Wright",
-          "first_name": "Ambrose"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Wright",
+          "fullname": "Ambrose Wright"
         }
       ],
-      "regiments": 1,
       "description": "3rd Georgia"
     },
     "US": {
+      "regiments": 2,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Reno",
-          "middle_name": "Lee",
           "rank": "Brigadier General",
+          "first_name": "Jesse",
           "suffix": "",
-          "fullname": "Jesse Lee Reno",
-          "first_name": "Jesse"
+          "navy": false,
+          "middle_name": "Lee",
+          "last_name": "Reno",
+          "fullname": "Jesse Lee Reno"
         }
       ],
-      "regiments": 2,
       "description": "21st Massachusetts and 51st Pennsylvania"
     }
   },
-  "campaign": "Burnside's North Carolina Expedition [February-June 1862]",
-  "battle": "NC005",
-  "result": "Inconclusive",
+  "cwsac_reference": "NC005",
+  "operation": false,
+  "forces_text": "21st Massachusetts and 51st Pennsylvania [US]; 3rd Georgia [CS]",
+  "start_date": "1862-04-19",
+  "preservation": "III.4",
+  "results_text": "Inconclusive (Federals withdrew.)",
+  "description": "Learning that the Confederates were building ironclads at Norfolk, Burnside planned an expedition to destroy the Dismal Swamp Canal locks to prevent transfer of the ships to Albemarle Sound. He entrusted the operation to Brig. Gen. Jesse Lee Reno's command, which embarked on transports from Roanoke Island on April 18. By midnight, the convoy reached Elizabeth City and began disembarking troops. On the morning of April 19, Reno marched north on the road to South Mills. At the crossroads a few miles below South Mills, elements of Col. Ambrose Wright's command delayed the Federals until dark. Reno abandoned the expedition and withdrew during the night to the transports at Elizabeth City. The transports carried Reno's troops to New Berne where they arrived on April 22.",
+  "state": "NC",
   "significance": "D",
   "other_names": [
     "Camden"
   ],
-  "state": "NC",
-  "preservation": "III.4",
+  "dates": "April 19, 1862",
+  "battle_name": "South Mills",
   "principal_commanders": "Brig. Gen. Jesse Lee Reno [US]; Col. Ambrose Wright [CS]",
-  "end_date": "1862-04-19",
-  "cwsac_reference": "NC005",
-  "casualties": 150,
+  "campaign": "Burnside's North Carolina Expedition [February-June 1862]",
+  "belligerents": {
+    "Confederate": {
+      "regiments": 1,
+      "commanders": [
+        {
+          "rank": "Colonel",
+          "first_name": "Ambrose",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Wright",
+          "fullname": "Ambrose Wright"
+        }
+      ],
+      "description": "3rd Georgia"
+    },
+    "US": {
+      "regiments": 2,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Jesse",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "Lee",
+          "last_name": "Reno",
+          "fullname": "Jesse Lee Reno"
+        }
+      ],
+      "description": "21st Massachusetts and 51st Pennsylvania"
+    },
+    "CS": {
+      "regiments": 1,
+      "commanders": [
+        {
+          "rank": "Colonel",
+          "first_name": "Ambrose",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Wright",
+          "fullname": "Ambrose Wright"
+        }
+      ],
+      "description": "3rd Georgia"
+    }
+  },
+  "result": "Inconclusive",
+  "battle": "NC005",
   "location": [
     {
-      "place": "Camden County",
-      "state": "NC"
+      "state": "NC",
+      "place": "Camden County"
     }
   ],
-  "battle_name": "South Mills"
+  "url": "http://www.nps.gov/hps/abpp/battles/nc005.htm"
 }

@@ -1,62 +1,113 @@
 {
-  "dates": "July 1-2, 1863",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/ok006.htm",
-  "results_text": "Union victory",
+  "end_date": "1863-07-02",
+  "casualties": 88,
   "casualties_text": "88 total (US 23; CS 65)",
-  "description": "Col. James M. Williams of the First Kansas Colored Infantry led a Union supply train from Fort Scott, Kansas, to Fort Gibson, Oklahoma (then Indian Territory). As he approached the crossing of Cabin Creek, he learned that Confederate Col. Stand Watie, with about 1,600 to 1,800 men intended to assault him there. Watie was waiting for about 1,500 reinforcements under the command of Brig. Gen. William L. Cabell to join him before attacking the supply train. Cabell, however, was detained due to high water on Grand River. Cabin Creek also had high water, preventing a crossing at first, but when it had receded enough, Williams drove the Confederates off with artillery fire and two cavalry charges. The wagon train continued to Fort Gibson and delivered the supplies, making it possible for the Union forces to maintain their presence in Indian territory and take the offensive that resulted in a victory at Honey Springs and the fall of Fort Smith, Arkansas.",
-  "start_date": "1863-07-01",
-  "forces_text": "Detachments from nine units [US]; two regiments and detachments from two other units (approx. 1,600-1,800) [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": 65,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Watie",
-          "middle_name": "",
           "rank": "Colonel",
+          "first_name": "Stand",
           "suffix": "",
-          "fullname": "Stand Watie",
-          "first_name": "Stand"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Watie",
+          "fullname": "Stand Watie"
         }
       ],
       "description": "two regiments and detachments from two other units (approx. 1,600-1,800)",
-      "strength_max": 1600,
       "strength_min": 1600,
-      "casualties": 65
+      "strength_max": 1600
     },
     "US": {
+      "casualties": 23,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Williams",
-          "middle_name": "M.",
           "rank": "Colonel",
+          "first_name": "James",
           "suffix": "",
-          "fullname": "James M. Williams",
-          "first_name": "James"
+          "navy": false,
+          "middle_name": "M.",
+          "last_name": "Williams",
+          "fullname": "James M. Williams"
         }
       ],
-      "description": "Detachments from nine units",
-      "casualties": 23
+      "description": "Detachments from nine units"
     }
   },
-  "campaign": "Operations to Control Indian Territory [June-September 1863]",
-  "battle": "OK006",
-  "result": "Union",
+  "cwsac_reference": "OK006",
+  "operation": false,
+  "forces_text": "Detachments from nine units [US]; two regiments and detachments from two other units (approx. 1,600-1,800) [CS]",
+  "start_date": "1863-07-01",
+  "preservation": "III.3",
+  "results_text": "Union victory",
+  "description": "Col. James M. Williams of the First Kansas Colored Infantry led a Union supply train from Fort Scott, Kansas, to Fort Gibson, Oklahoma (then Indian Territory). As he approached the crossing of Cabin Creek, he learned that Confederate Col. Stand Watie, with about 1,600 to 1,800 men intended to assault him there. Watie was waiting for about 1,500 reinforcements under the command of Brig. Gen. William L. Cabell to join him before attacking the supply train. Cabell, however, was detained due to high water on Grand River. Cabin Creek also had high water, preventing a crossing at first, but when it had receded enough, Williams drove the Confederates off with artillery fire and two cavalry charges. The wagon train continued to Fort Gibson and delivered the supplies, making it possible for the Union forces to maintain their presence in Indian territory and take the offensive that resulted in a victory at Honey Springs and the fall of Fort Smith, Arkansas.",
+  "state": "OK",
   "significance": "C",
   "other_names": null,
-  "state": "OK",
-  "preservation": "III.3",
+  "dates": "July 1-2, 1863",
+  "battle_name": "Cabin Creek",
   "principal_commanders": "Col. James M. Williams [US]; Col. Stand Watie [CS]",
-  "end_date": "1863-07-02",
-  "cwsac_reference": "OK006",
-  "casualties": 88,
+  "campaign": "Operations to Control Indian Territory [June-September 1863]",
+  "belligerents": {
+    "Confederate": {
+      "casualties": 65,
+      "commanders": [
+        {
+          "rank": "Colonel",
+          "first_name": "Stand",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Watie",
+          "fullname": "Stand Watie"
+        }
+      ],
+      "description": "two regiments and detachments from two other units (approx. 1,600-1,800)",
+      "strength_min": 1600,
+      "strength_max": 1600
+    },
+    "US": {
+      "casualties": 23,
+      "commanders": [
+        {
+          "rank": "Colonel",
+          "first_name": "James",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "M.",
+          "last_name": "Williams",
+          "fullname": "James M. Williams"
+        }
+      ],
+      "description": "Detachments from nine units"
+    },
+    "CS": {
+      "casualties": 65,
+      "commanders": [
+        {
+          "rank": "Colonel",
+          "first_name": "Stand",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Watie",
+          "fullname": "Stand Watie"
+        }
+      ],
+      "description": "two regiments and detachments from two other units (approx. 1,600-1,800)",
+      "strength_min": 1600,
+      "strength_max": 1600
+    }
+  },
+  "result": "Union",
+  "battle": "OK006",
   "location": [
     {
-      "place": "Mayes County",
-      "state": "OK"
+      "state": "OK",
+      "place": "Mayes County"
     }
   ],
-  "battle_name": "Cabin Creek"
+  "url": "http://www.nps.gov/hps/abpp/battles/ok006.htm"
 }

@@ -1,63 +1,111 @@
 {
-  "dates": "September 29, 1863",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/la016.htm",
-  "results_text": "Confederate victory",
+  "end_date": "1863-09-29",
+  "casualties": 575,
   "casualties_text": "575 total (US 454; CS 121)",
-  "description": "Following the Union defeat at Sabine Pass earlier in the month, Maj. Gen. Nathaniel P. Banks intended to occupy important locations in Texas. He decided to send troops up the Bayou Teche, disembark them on the plains and march overland to Texas. Maj. Gen. Ulysses S. Grant sent him a division, commanded by Maj. Gen. Napoleon J.T. Dana to garrison Morganza and prevent Rebel troops from operating on the Atchafalaya River. A 1,000-man detachment, under the command of Lt. Col. J.B. Leake, was at Stirling's Plantation to guard the road to the Atchafalaya River and deter any enemy troops from passing by. Brig. Gen. Alfred Mouton, commander of the Sub-District of Southwestern Louisiana, decided that he had a favorable opportunity to defeat the Union forces around Fordoche Bridge. On September 19, he instructed Brig. Gen. Tom Green to prepare for such an attack. Mouton provided Green with reinforcements and gave the order to attack on the 25th. Green's force began crossing the Atchafalaya River on the 28th, and all were over after midnight of the 29th. At dawn on the 29th, Green's men marched out. Confederate cavalry began skirmishing with Union pickets at Fordoche Bridge before noon and continued for about a half hour. Green's other troops then hit the Union force, drove them and captured many, although most of the Federal cavalry found an escape route. Although Dana sent reinforcements, mud and rain slowed their progress and allowed Green to get away. Green had defeated this Union force handily, but it did not deter Banks from his intended movement.",
-  "start_date": "1863-09-29",
-  "forces_text": "2nd Division, XIII Army Corps [US]; forces on the Atchafalaya River [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": 121,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Green",
-          "middle_name": "",
           "rank": "Brigadier General",
+          "first_name": "Tom",
           "suffix": "",
-          "fullname": "Tom Green",
-          "first_name": "Tom"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Green",
+          "fullname": "Tom Green"
         }
       ],
-      "description": "forces on the Atchafalaya River",
-      "casualties": 121
+      "description": "forces on the Atchafalaya River"
     },
     "US": {
+      "casualties": 454,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Dana",
-          "middle_name": "J.T.",
           "rank": "Major General",
+          "first_name": "Napoleon",
           "suffix": "",
-          "fullname": "Napoleon J.T. Dana",
-          "first_name": "Napoleon"
+          "navy": false,
+          "middle_name": "J.T.",
+          "last_name": "Dana",
+          "fullname": "Napoleon J.T. Dana"
         }
       ],
       "divisions": 1,
-      "description": "2nd Division, XIII Army Corps",
-      "casualties": 454
+      "description": "2nd Division, XIII Army Corps"
     }
   },
-  "campaign": "Taylor's Operations in West Louisiana [June-September 1863]",
-  "battle": "LA016",
-  "result": "Confederate",
+  "cwsac_reference": "LA016",
+  "operation": false,
+  "forces_text": "2nd Division, XIII Army Corps [US]; forces on the Atchafalaya River [CS]",
+  "start_date": "1863-09-29",
+  "preservation": "III.4",
+  "results_text": "Confederate victory",
+  "description": "Following the Union defeat at Sabine Pass earlier in the month, Maj. Gen. Nathaniel P. Banks intended to occupy important locations in Texas. He decided to send troops up the Bayou Teche, disembark them on the plains and march overland to Texas. Maj. Gen. Ulysses S. Grant sent him a division, commanded by Maj. Gen. Napoleon J.T. Dana to garrison Morganza and prevent Rebel troops from operating on the Atchafalaya River. A 1,000-man detachment, under the command of Lt. Col. J.B. Leake, was at Stirling's Plantation to guard the road to the Atchafalaya River and deter any enemy troops from passing by. Brig. Gen. Alfred Mouton, commander of the Sub-District of Southwestern Louisiana, decided that he had a favorable opportunity to defeat the Union forces around Fordoche Bridge. On September 19, he instructed Brig. Gen. Tom Green to prepare for such an attack. Mouton provided Green with reinforcements and gave the order to attack on the 25th. Green's force began crossing the Atchafalaya River on the 28th, and all were over after midnight of the 29th. At dawn on the 29th, Green's men marched out. Confederate cavalry began skirmishing with Union pickets at Fordoche Bridge before noon and continued for about a half hour. Green's other troops then hit the Union force, drove them and captured many, although most of the Federal cavalry found an escape route. Although Dana sent reinforcements, mud and rain slowed their progress and allowed Green to get away. Green had defeated this Union force handily, but it did not deter Banks from his intended movement.",
+  "state": "LA",
   "significance": "D",
   "other_names": [
     "Fordoche Bridge"
   ],
-  "state": "LA",
-  "preservation": "III.4",
+  "dates": "September 29, 1863",
+  "battle_name": "Stirling's Plantation",
   "principal_commanders": "Maj. Gen. Napoleon J.T. Dana [US]; Brig. Gen. Tom Green [CS]",
-  "end_date": "1863-09-29",
-  "cwsac_reference": "LA016",
-  "casualties": 575,
+  "campaign": "Taylor's Operations in West Louisiana [June-September 1863]",
+  "belligerents": {
+    "Confederate": {
+      "casualties": 121,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Tom",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Green",
+          "fullname": "Tom Green"
+        }
+      ],
+      "description": "forces on the Atchafalaya River"
+    },
+    "US": {
+      "casualties": 454,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Napoleon",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "J.T.",
+          "last_name": "Dana",
+          "fullname": "Napoleon J.T. Dana"
+        }
+      ],
+      "divisions": 1,
+      "description": "2nd Division, XIII Army Corps"
+    },
+    "CS": {
+      "casualties": 121,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Tom",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Green",
+          "fullname": "Tom Green"
+        }
+      ],
+      "description": "forces on the Atchafalaya River"
+    }
+  },
+  "result": "Confederate",
+  "battle": "LA016",
   "location": [
     {
-      "place": "Pointe Coupe\u00e9 Parish",
-      "state": "LA"
+      "state": "LA",
+      "place": "Pointe Coupe\u00e9 Parish"
     }
   ],
-  "battle_name": "Stirling's Plantation"
+  "url": "http://www.nps.gov/hps/abpp/battles/la016.htm"
 }

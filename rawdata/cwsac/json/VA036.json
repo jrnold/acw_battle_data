@@ -1,23 +1,18 @@
 {
-  "dates": "June 17, 1863",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/va036.htm",
-  "results_text": "Inconclusive",
+  "end_date": "1863-06-17",
+  "casualties": 250,
   "casualties_text": "250 total",
-  "description": "Stuart's cavalry screened the Confederate infantry as it marched north behind the sheltering Blue Ridge. The pursuing Federals of Kilpatrick's brigade, in the advance of Gregg's division, encountered Munford's troopers near the village of Aldie, resulting in four hours of stubborn fighting. Both sides made mounted assaults by regiments and squadrons. Kilpatrick was reinforced in the afternoon, and Munford withdrew toward Middleburg.",
-  "start_date": "1863-06-17",
-  "forces_text": "Brigades",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Munford",
-          "middle_name": "",
           "rank": "Colonel",
+          "first_name": "Thomas",
           "suffix": "",
-          "fullname": "Thomas Munford",
-          "first_name": "Thomas"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Munford",
+          "fullname": "Thomas Munford"
         }
       ],
       "brigades": 1
@@ -25,34 +20,83 @@
     "US": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Kilpatrick",
-          "middle_name": "Judson",
           "rank": "Brigadier General",
+          "first_name": "H.",
           "suffix": "",
-          "fullname": "H. Judson Kilpatrick",
-          "first_name": "H."
+          "navy": false,
+          "middle_name": "Judson",
+          "last_name": "Kilpatrick",
+          "fullname": "H. Judson Kilpatrick"
         }
       ],
       "brigades": 1
     }
   },
-  "campaign": "Gettysburg Campaign [June-July 1863]",
-  "battle": "VA036",
-  "result": "Inconclusive",
+  "cwsac_reference": "VA036",
+  "operation": false,
+  "forces_text": "Brigades",
+  "start_date": "1863-06-17",
+  "preservation": "III.3",
+  "results_text": "Inconclusive",
+  "description": "Stuart's cavalry screened the Confederate infantry as it marched north behind the sheltering Blue Ridge. The pursuing Federals of Kilpatrick's brigade, in the advance of Gregg's division, encountered Munford's troopers near the village of Aldie, resulting in four hours of stubborn fighting. Both sides made mounted assaults by regiments and squadrons. Kilpatrick was reinforced in the afternoon, and Munford withdrew toward Middleburg.",
+  "state": "VA",
   "significance": "C",
   "other_names": null,
-  "state": "VA",
-  "preservation": "III.3",
+  "dates": "June 17, 1863",
+  "battle_name": "Aldie",
   "principal_commanders": "Brig. Gen. H. Judson Kilpatrick [US]; Col. Thomas Munford [CS]",
-  "end_date": "1863-06-17",
-  "cwsac_reference": "VA036",
-  "casualties": 250,
+  "campaign": "Gettysburg Campaign [June-July 1863]",
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "Colonel",
+          "first_name": "Thomas",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Munford",
+          "fullname": "Thomas Munford"
+        }
+      ],
+      "brigades": 1
+    },
+    "US": {
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "H.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "Judson",
+          "last_name": "Kilpatrick",
+          "fullname": "H. Judson Kilpatrick"
+        }
+      ],
+      "brigades": 1
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "Colonel",
+          "first_name": "Thomas",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Munford",
+          "fullname": "Thomas Munford"
+        }
+      ],
+      "brigades": 1
+    }
+  },
+  "result": "Inconclusive",
+  "battle": "VA036",
   "location": [
     {
-      "place": "Loudoun County",
-      "state": "VA"
+      "state": "VA",
+      "place": "Loudoun County"
     }
   ],
-  "battle_name": "Aldie"
+  "url": "http://www.nps.gov/hps/abpp/battles/va036.htm"
 }

@@ -1,23 +1,18 @@
 {
-  "dates": "October 19, 1864",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/mo023.htm",
-  "results_text": "Confederate victory",
+  "end_date": "1864-10-19",
+  "casualties": null,
   "casualties_text": "Unknown",
-  "description": "Maj. Gen. Sterling Price's march along the Missouri River was slow, providing the Yankees a chance to concentrate. Maj. Gen. William S. Rosecrans, commanding the Department of the Missouri, proposed a pincer movement to trap Price and his army, but he was unable to communicate with Maj. Gen. Samuel R. Curtis, commander of the Department of Kansas, to formalize the plan. Curtis was having problems because many of his troops were Kansas militia and they refused to enter Missouri, but a force of 2,000 men under the command of Maj. Gen. James G. Blunt did set out for Lexington. On October 19, Price's army approached Lexington, collided with Union scouts and pickets about 2:00 pm, drove them back, and engaged in a battle with the main force. The Yankees resisted at first, but Price's army eventually pushed them through the town to the western outskirts and pursued them along the Independence Road until night fall. Without Curtis's entire force, the Yankees could not stop Price's army, but they did further retard their slow march. Blunt gained valuable information about the size and disposition of Price's army.",
-  "start_date": "1864-10-19",
-  "forces_text": "1st Division, Army of the Border [US]; Army of Missouri [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Price",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "Sterling",
           "suffix": "",
-          "fullname": "Sterling Price",
-          "first_name": "Sterling"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Price",
+          "fullname": "Sterling Price"
         }
       ],
       "armies": 1,
@@ -26,35 +21,87 @@
     "US": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Blunt",
-          "middle_name": "G.",
           "rank": "Major General",
+          "first_name": "James",
           "suffix": "",
-          "fullname": "James G. Blunt",
-          "first_name": "James"
+          "navy": false,
+          "middle_name": "G.",
+          "last_name": "Blunt",
+          "fullname": "James G. Blunt"
         }
       ],
       "divisions": 1,
       "description": "1st Division, Army of the Border"
     }
   },
-  "campaign": "Price's Missouri Expedition [September-October 1864]",
-  "battle": "MO023",
-  "result": "Confederate",
+  "cwsac_reference": "MO023",
+  "operation": false,
+  "forces_text": "1st Division, Army of the Border [US]; Army of Missouri [CS]",
+  "start_date": "1864-10-19",
+  "preservation": "IV.1",
+  "results_text": "Confederate victory",
+  "description": "Maj. Gen. Sterling Price's march along the Missouri River was slow, providing the Yankees a chance to concentrate. Maj. Gen. William S. Rosecrans, commanding the Department of the Missouri, proposed a pincer movement to trap Price and his army, but he was unable to communicate with Maj. Gen. Samuel R. Curtis, commander of the Department of Kansas, to formalize the plan. Curtis was having problems because many of his troops were Kansas militia and they refused to enter Missouri, but a force of 2,000 men under the command of Maj. Gen. James G. Blunt did set out for Lexington. On October 19, Price's army approached Lexington, collided with Union scouts and pickets about 2:00 pm, drove them back, and engaged in a battle with the main force. The Yankees resisted at first, but Price's army eventually pushed them through the town to the western outskirts and pursued them along the Independence Road until night fall. Without Curtis's entire force, the Yankees could not stop Price's army, but they did further retard their slow march. Blunt gained valuable information about the size and disposition of Price's army.",
+  "state": "MO",
   "significance": "D",
   "other_names": null,
-  "state": "MO",
-  "preservation": "IV.1",
+  "dates": "October 19, 1864",
+  "battle_name": "Lexington",
   "principal_commanders": "Maj. Gen. James G. Blunt [US]; Maj. Gen. Sterling Price [CS]",
-  "end_date": "1864-10-19",
-  "cwsac_reference": "MO023",
-  "casualties": null,
+  "campaign": "Price's Missouri Expedition [September-October 1864]",
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Sterling",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Price",
+          "fullname": "Sterling Price"
+        }
+      ],
+      "armies": 1,
+      "description": "Army of Missouri"
+    },
+    "US": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "James",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "G.",
+          "last_name": "Blunt",
+          "fullname": "James G. Blunt"
+        }
+      ],
+      "divisions": 1,
+      "description": "1st Division, Army of the Border"
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Sterling",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Price",
+          "fullname": "Sterling Price"
+        }
+      ],
+      "armies": 1,
+      "description": "Army of Missouri"
+    }
+  },
+  "result": "Confederate",
+  "battle": "MO023",
   "location": [
     {
-      "place": "Lafayette County",
-      "state": "MO"
+      "state": "MO",
+      "place": "Lafayette County"
     }
   ],
-  "battle_name": "Lexington"
+  "url": "http://www.nps.gov/hps/abpp/battles/mo023.htm"
 }

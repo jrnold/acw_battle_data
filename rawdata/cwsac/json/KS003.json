@@ -1,73 +1,141 @@
 {
-  "dates": "October 25, 1864",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/ks003.htm",
-  "results_text": "Union victory",
+  "end_date": "1864-10-25",
+  "casualties": 1300,
   "casualties_text": "1,300 total (US 100; CS 1,200)",
-  "description": "About six miles south of Trading Post, where the Marais de Cygnes engagement had occurred, the brigades of Col. Frederick W. Benteen and Col. John F. Phillips, of Maj. Gen. Alfred Pleasonton's Provisional Cavalry Division, overtook the Confederates as they were crossing Mine Creek. These Rebels, stalled by their wagons crossing the ford, had formed a line on the north side of Mine Creek. The Federals, although outnumbered, commenced the attack as additional troops from Pleasonton's command arrived during the fight. They soon surrounded the Rebels, resulting in the capture of about 600 men and two generals, Brig. Gen. John S. Marmaduke and Brig. Gen. William L. Cabell. Having lost this many men, Price's army was doomed. Retreat to friendly territory was the only recourse.",
-  "start_date": "1864-10-25",
-  "forces_text": "Provisional cavalry division [US]; cavalry division [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": 1200,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Marmaduke",
-          "middle_name": "S.",
           "rank": "Brigadier General",
+          "first_name": "John",
           "suffix": "",
-          "fullname": "John S. Marmaduke",
-          "first_name": "John"
+          "navy": false,
+          "middle_name": "S.",
+          "last_name": "Marmaduke",
+          "fullname": "John S. Marmaduke"
         },
         {
-          "navy": false,
-          "last_name": "Fagan",
-          "middle_name": "F.",
           "rank": "Major General",
+          "first_name": "James",
           "suffix": "",
-          "fullname": "James F. Fagan",
-          "first_name": "James"
+          "navy": false,
+          "middle_name": "F.",
+          "last_name": "Fagan",
+          "fullname": "James F. Fagan"
         }
       ],
       "cavalry_divisions": 1,
-      "description": "cavalry division",
-      "casualties": 1200
+      "description": "cavalry division"
     },
     "US": {
+      "casualties": 100,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Pleasonton",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "Alfred",
           "suffix": "",
-          "fullname": "Alfred Pleasonton",
-          "first_name": "Alfred"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Pleasonton",
+          "fullname": "Alfred Pleasonton"
         }
       ],
       "cavalry_divisions": 1,
-      "description": "Provisional cavalry division",
-      "casualties": 100
+      "description": "Provisional cavalry division"
     }
   },
-  "campaign": "Price's Missouri Expedition [September-October 1864]",
-  "battle": "KS003",
-  "result": "Union",
+  "cwsac_reference": "KS003",
+  "operation": false,
+  "forces_text": "Provisional cavalry division [US]; cavalry division [CS]",
+  "start_date": "1864-10-25",
+  "preservation": "III.3",
+  "results_text": "Union victory",
+  "description": "About six miles south of Trading Post, where the Marais de Cygnes engagement had occurred, the brigades of Col. Frederick W. Benteen and Col. John F. Phillips, of Maj. Gen. Alfred Pleasonton's Provisional Cavalry Division, overtook the Confederates as they were crossing Mine Creek. These Rebels, stalled by their wagons crossing the ford, had formed a line on the north side of Mine Creek. The Federals, although outnumbered, commenced the attack as additional troops from Pleasonton's command arrived during the fight. They soon surrounded the Rebels, resulting in the capture of about 600 men and two generals, Brig. Gen. John S. Marmaduke and Brig. Gen. William L. Cabell. Having lost this many men, Price's army was doomed. Retreat to friendly territory was the only recourse.",
+  "state": "KS",
   "significance": "C",
   "other_names": [
     "Battle of the Osage"
   ],
-  "state": "KS",
-  "preservation": "III.3",
+  "dates": "October 25, 1864",
+  "battle_name": "Mine Creek",
   "principal_commanders": "Major Gen. Alfred Pleasonton [US]; Brig. Gen. John S. Marmaduke and Maj. Gen. James F. Fagan [CS]",
-  "end_date": "1864-10-25",
-  "cwsac_reference": "KS003",
-  "casualties": 1300,
+  "campaign": "Price's Missouri Expedition [September-October 1864]",
+  "belligerents": {
+    "Confederate": {
+      "casualties": 1200,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "S.",
+          "last_name": "Marmaduke",
+          "fullname": "John S. Marmaduke"
+        },
+        {
+          "rank": "Major General",
+          "first_name": "James",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "F.",
+          "last_name": "Fagan",
+          "fullname": "James F. Fagan"
+        }
+      ],
+      "cavalry_divisions": 1,
+      "description": "cavalry division"
+    },
+    "US": {
+      "casualties": 100,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Alfred",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Pleasonton",
+          "fullname": "Alfred Pleasonton"
+        }
+      ],
+      "cavalry_divisions": 1,
+      "description": "Provisional cavalry division"
+    },
+    "CS": {
+      "casualties": 1200,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "S.",
+          "last_name": "Marmaduke",
+          "fullname": "John S. Marmaduke"
+        },
+        {
+          "rank": "Major General",
+          "first_name": "James",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "F.",
+          "last_name": "Fagan",
+          "fullname": "James F. Fagan"
+        }
+      ],
+      "cavalry_divisions": 1,
+      "description": "cavalry division"
+    }
+  },
+  "result": "Union",
+  "battle": "KS003",
   "location": [
     {
-      "place": "Linn County",
-      "state": "KS"
+      "state": "KS",
+      "place": "Linn County"
     }
   ],
-  "battle_name": "Mine Creek"
+  "url": "http://www.nps.gov/hps/abpp/battles/ks003.htm"
 }

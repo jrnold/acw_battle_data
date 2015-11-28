@@ -1,61 +1,110 @@
 {
-  "dates": "June 27, 1864",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/ga015.htm",
-  "results_text": "Confederate victory",
+  "end_date": "1864-06-27",
+  "casualties": 4000,
   "casualties_text": "4,000 total (US 3,000; CS 1,000)",
-  "description": "On the night of June 18-19, Gen. Joseph E. Johnston, fearing envelopment, withdrew his army to a new, previously selected position astride Kennesaw Mountain. This entrenched arc-shaped line, to the north and west of Marietta, protected the Western & Atlantic Railroad, the supply link to Atlanta. Having defeated General John B. Hood troops at Kolb's Farm on the 22nd, Sherman was sure that Johnston had stretched his line too thin and, therefore, decided on a frontal attack with some diversions on the flanks. On the morning of June 27, Sherman sent his troops forward after an artillery bombardment. At first, they made some headway overrunning Confederate pickets south of the Burnt Hickory Road, but attacking an enemy that was dug in was futile. The fighting ended by noon, and Sherman suffered high casualties.",
-  "start_date": "1864-06-27",
-  "forces_text": "Military Division of the Mississippi [US]; Army of Tennessee [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": 1000,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Johnston",
-          "middle_name": "E.",
           "rank": "General",
+          "first_name": "Joseph",
           "suffix": "",
-          "fullname": "Joseph E. Johnston",
-          "first_name": "Joseph"
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Johnston",
+          "fullname": "Joseph E. Johnston"
         }
       ],
       "description": "Army of Tennessee",
-      "armies": 1,
-      "casualties": 1000
+      "armies": 1
     },
     "US": {
+      "casualties": 3000,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Sherman",
-          "middle_name": "T.",
           "rank": "Major General",
+          "first_name": "William",
           "suffix": "",
-          "fullname": "William T. Sherman",
-          "first_name": "William"
+          "navy": false,
+          "middle_name": "T.",
+          "last_name": "Sherman",
+          "fullname": "William T. Sherman"
         }
       ],
-      "description": "Military Division of the Mississippi",
-      "casualties": 3000
+      "description": "Military Division of the Mississippi"
     }
   },
-  "campaign": "Atlanta Campaign [May-September 1864]",
-  "battle": "GA015",
-  "result": "Confederate",
+  "cwsac_reference": "GA015",
+  "operation": false,
+  "forces_text": "Military Division of the Mississippi [US]; Army of Tennessee [CS]",
+  "start_date": "1864-06-27",
+  "preservation": "I.3",
+  "results_text": "Confederate victory",
+  "description": "On the night of June 18-19, Gen. Joseph E. Johnston, fearing envelopment, withdrew his army to a new, previously selected position astride Kennesaw Mountain. This entrenched arc-shaped line, to the north and west of Marietta, protected the Western & Atlantic Railroad, the supply link to Atlanta. Having defeated General John B. Hood troops at Kolb's Farm on the 22nd, Sherman was sure that Johnston had stretched his line too thin and, therefore, decided on a frontal attack with some diversions on the flanks. On the morning of June 27, Sherman sent his troops forward after an artillery bombardment. At first, they made some headway overrunning Confederate pickets south of the Burnt Hickory Road, but attacking an enemy that was dug in was futile. The fighting ended by noon, and Sherman suffered high casualties.",
+  "state": "GA",
   "significance": "B",
   "other_names": null,
-  "state": "GA",
-  "preservation": "I.3",
+  "dates": "June 27, 1864",
+  "battle_name": "Kennesaw Mountain",
   "principal_commanders": "Maj. Gen. William T. Sherman [US]; Gen. Joseph E. Johnston [CS]",
-  "end_date": "1864-06-27",
-  "cwsac_reference": "GA015",
-  "casualties": 4000,
+  "campaign": "Atlanta Campaign [May-September 1864]",
+  "belligerents": {
+    "Confederate": {
+      "casualties": 1000,
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "Joseph",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Johnston",
+          "fullname": "Joseph E. Johnston"
+        }
+      ],
+      "description": "Army of Tennessee",
+      "armies": 1
+    },
+    "US": {
+      "casualties": 3000,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "William",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "T.",
+          "last_name": "Sherman",
+          "fullname": "William T. Sherman"
+        }
+      ],
+      "description": "Military Division of the Mississippi"
+    },
+    "CS": {
+      "casualties": 1000,
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "Joseph",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Johnston",
+          "fullname": "Joseph E. Johnston"
+        }
+      ],
+      "description": "Army of Tennessee",
+      "armies": 1
+    }
+  },
+  "result": "Confederate",
+  "battle": "GA015",
   "location": [
     {
-      "place": "Cobb County",
-      "state": "GA"
+      "state": "GA",
+      "place": "Cobb County"
     }
   ],
-  "battle_name": "Kennesaw Mountain"
+  "url": "http://www.nps.gov/hps/abpp/battles/ga015.htm"
 }

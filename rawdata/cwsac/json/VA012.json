@@ -1,50 +1,45 @@
 {
-  "dates": "May 15, 1862",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/va012.htm",
-  "results_text": "Confederate victory",
+  "end_date": "1862-05-15",
+  "casualties": 41,
   "casualties_text": "41 total",
-  "description": "With the fall of Yorktown, the Confederate ironclad Virginia at Norfolk was scuttled to prevent her capture. This opened the James River to Federal gunboats. On May 15, five gunboats, including the ironclads Monitor and Galena, steamed up the James to test the Richmond defenses. They encountered submerged obstacles and deadly accurate fire from the batteries at Drewry's Bluff, which inflicted severe damage on the Galena. The Federal Navy was turned back.",
-  "start_date": "1862-05-15",
-  "forces_text": "5 gunboats [US]; battery garrison [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": true,
-          "last_name": "Farrand",
-          "middle_name": "",
           "rank": "Commander",
+          "first_name": "E.",
           "suffix": "",
-          "fullname": "E. Farrand",
-          "first_name": "E."
-        },
-        {
-          "navy": false,
-          "last_name": "Mahone",
-          "middle_name": "",
-          "rank": "Brigadier General",
-          "suffix": "",
-          "fullname": "William Mahone",
-          "first_name": "William"
-        },
-        {
           "navy": true,
-          "last_name": "Lee",
-          "middle_name": "S.",
-          "rank": "Captain",
-          "suffix": "",
-          "fullname": "S. S. Lee",
-          "first_name": "S."
+          "middle_name": "",
+          "last_name": "Farrand",
+          "fullname": "E. Farrand"
         },
         {
-          "navy": false,
-          "last_name": "Wood",
-          "middle_name": "Taylor",
-          "rank": "Lieutenant",
+          "rank": "Brigadier General",
+          "first_name": "William",
           "suffix": "",
-          "fullname": "John Taylor Wood",
-          "first_name": "John"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Mahone",
+          "fullname": "William Mahone"
+        },
+        {
+          "rank": "Captain",
+          "first_name": "S.",
+          "suffix": "",
+          "navy": true,
+          "middle_name": "S.",
+          "last_name": "Lee",
+          "fullname": "S. S. Lee"
+        },
+        {
+          "rank": "Lieutenant",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "Taylor",
+          "last_name": "Wood",
+          "fullname": "John Taylor Wood"
         }
       ],
       "description": "battery garrison"
@@ -53,37 +48,141 @@
       "gunboats": 5,
       "commanders": [
         {
-          "navy": true,
-          "last_name": "Rodgers",
-          "middle_name": "",
           "rank": "Commander",
+          "first_name": "John",
           "suffix": "",
-          "fullname": "John Rodgers",
-          "first_name": "John"
+          "navy": true,
+          "middle_name": "",
+          "last_name": "Rodgers",
+          "fullname": "John Rodgers"
         }
       ],
       "description": "5 gunboats"
     }
   },
-  "campaign": "Peninsula Campaign [March-July 1862]",
-  "battle": "VA012",
-  "result": "Confederate",
+  "cwsac_reference": "VA012",
+  "operation": false,
+  "forces_text": "5 gunboats [US]; battery garrison [CS]",
+  "start_date": "1862-05-15",
+  "preservation": "III.2",
+  "results_text": "Confederate victory",
+  "description": "With the fall of Yorktown, the Confederate ironclad Virginia at Norfolk was scuttled to prevent her capture. This opened the James River to Federal gunboats. On May 15, five gunboats, including the ironclads Monitor and Galena, steamed up the James to test the Richmond defenses. They encountered submerged obstacles and deadly accurate fire from the batteries at Drewry's Bluff, which inflicted severe damage on the Galena. The Federal Navy was turned back.",
+  "state": "VA",
   "significance": "B",
   "other_names": [
     "Fort Darling",
     "Fort Drewry"
   ],
-  "state": "VA",
-  "preservation": "III.2",
+  "dates": "May 15, 1862",
+  "battle_name": "Drewry's Bluff",
   "principal_commanders": "Cdr. John Rodgers [US]; Cdr. E. Farrand, Brig. Gen. William Mahone, Capt. (Naval) S. S. Lee, and Lt. John Taylor Wood [CS]",
-  "end_date": "1862-05-15",
-  "cwsac_reference": "VA012",
-  "casualties": 41,
+  "campaign": "Peninsula Campaign [March-July 1862]",
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "Commander",
+          "first_name": "E.",
+          "suffix": "",
+          "navy": true,
+          "middle_name": "",
+          "last_name": "Farrand",
+          "fullname": "E. Farrand"
+        },
+        {
+          "rank": "Brigadier General",
+          "first_name": "William",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Mahone",
+          "fullname": "William Mahone"
+        },
+        {
+          "rank": "Captain",
+          "first_name": "S.",
+          "suffix": "",
+          "navy": true,
+          "middle_name": "S.",
+          "last_name": "Lee",
+          "fullname": "S. S. Lee"
+        },
+        {
+          "rank": "Lieutenant",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "Taylor",
+          "last_name": "Wood",
+          "fullname": "John Taylor Wood"
+        }
+      ],
+      "description": "battery garrison"
+    },
+    "US": {
+      "gunboats": 5,
+      "commanders": [
+        {
+          "rank": "Commander",
+          "first_name": "John",
+          "suffix": "",
+          "navy": true,
+          "middle_name": "",
+          "last_name": "Rodgers",
+          "fullname": "John Rodgers"
+        }
+      ],
+      "description": "5 gunboats"
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "Commander",
+          "first_name": "E.",
+          "suffix": "",
+          "navy": true,
+          "middle_name": "",
+          "last_name": "Farrand",
+          "fullname": "E. Farrand"
+        },
+        {
+          "rank": "Brigadier General",
+          "first_name": "William",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Mahone",
+          "fullname": "William Mahone"
+        },
+        {
+          "rank": "Captain",
+          "first_name": "S.",
+          "suffix": "",
+          "navy": true,
+          "middle_name": "S.",
+          "last_name": "Lee",
+          "fullname": "S. S. Lee"
+        },
+        {
+          "rank": "Lieutenant",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "Taylor",
+          "last_name": "Wood",
+          "fullname": "John Taylor Wood"
+        }
+      ],
+      "description": "battery garrison"
+    }
+  },
+  "result": "Confederate",
+  "battle": "VA012",
   "location": [
     {
-      "place": "Chesterfield County",
-      "state": "VA"
+      "state": "VA",
+      "place": "Chesterfield County"
     }
   ],
-  "battle_name": "Drewry's Bluff"
+  "url": "http://www.nps.gov/hps/abpp/battles/va012.htm"
 }

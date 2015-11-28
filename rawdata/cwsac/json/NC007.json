@@ -1,23 +1,18 @@
 {
-  "dates": "December 14, 1862",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/nc007.htm",
-  "results_text": "Union victory",
+  "end_date": "1862-12-14",
+  "casualties": 685,
   "casualties_text": "685 total",
-  "description": "A Union expedition led by Brig. Gen. John G. Foster left New Berne in December to disrupt the Wilmington & Weldon Railroad at Goldsborough. The advance was stubbornly contested by Evans's Brigade near Kinston Bridge on December 14, but the Confederates were outnumbered and withdrew north of the Neuse River in the direction of Goldsborough. Foster continued his movement the next day, taking the River Road, south of the Neuse River.",
-  "start_date": "1862-12-14",
-  "forces_text": "Department of North Carolina, 1st Division [US]; Evans's Brigade [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Evans",
-          "middle_name": "",
           "rank": "Brigadier General",
+          "first_name": "Nathan",
           "suffix": "",
-          "fullname": "Nathan Evans",
-          "first_name": "Nathan"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Evans",
+          "fullname": "Nathan Evans"
         }
       ],
       "brigades": 1,
@@ -26,35 +21,87 @@
     "US": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Foster",
-          "middle_name": "G.",
           "rank": "Brigadier General",
+          "first_name": "John",
           "suffix": "",
-          "fullname": "John G. Foster",
-          "first_name": "John"
+          "navy": false,
+          "middle_name": "G.",
+          "last_name": "Foster",
+          "fullname": "John G. Foster"
         }
       ],
       "divisions": 1,
       "description": "Department of North Carolina, 1st Division"
     }
   },
-  "campaign": "Goldsboro Expedition [December 1862]",
-  "battle": "NC007",
-  "result": "Union",
+  "cwsac_reference": "NC007",
+  "operation": false,
+  "forces_text": "Department of North Carolina, 1st Division [US]; Evans's Brigade [CS]",
+  "start_date": "1862-12-14",
+  "preservation": "IV.2",
+  "results_text": "Union victory",
+  "description": "A Union expedition led by Brig. Gen. John G. Foster left New Berne in December to disrupt the Wilmington & Weldon Railroad at Goldsborough. The advance was stubbornly contested by Evans's Brigade near Kinston Bridge on December 14, but the Confederates were outnumbered and withdrew north of the Neuse River in the direction of Goldsborough. Foster continued his movement the next day, taking the River Road, south of the Neuse River.",
+  "state": "NC",
   "significance": "D",
   "other_names": null,
-  "state": "NC",
-  "preservation": "IV.2",
+  "dates": "December 14, 1862",
+  "battle_name": "Kinston",
   "principal_commanders": "Brig. Gen. John G. Foster [US]; Brig. Gen. Nathan Evans [CS]",
-  "end_date": "1862-12-14",
-  "cwsac_reference": "NC007",
-  "casualties": 685,
+  "campaign": "Goldsboro Expedition [December 1862]",
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Nathan",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Evans",
+          "fullname": "Nathan Evans"
+        }
+      ],
+      "brigades": 1,
+      "description": "Evans's Brigade"
+    },
+    "US": {
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "G.",
+          "last_name": "Foster",
+          "fullname": "John G. Foster"
+        }
+      ],
+      "divisions": 1,
+      "description": "Department of North Carolina, 1st Division"
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Nathan",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Evans",
+          "fullname": "Nathan Evans"
+        }
+      ],
+      "brigades": 1,
+      "description": "Evans's Brigade"
+    }
+  },
+  "result": "Union",
+  "battle": "NC007",
   "location": [
     {
-      "place": "Lenoir County",
-      "state": "NC"
+      "state": "NC",
+      "place": "Lenoir County"
     }
   ],
-  "battle_name": "Kinston"
+  "url": "http://www.nps.gov/hps/abpp/battles/nc007.htm"
 }

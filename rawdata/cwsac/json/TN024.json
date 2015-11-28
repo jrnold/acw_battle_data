@@ -1,65 +1,114 @@
 {
-  "dates": "November 23-25, 1863",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/tn024.htm",
-  "results_text": "Union victory",
+  "end_date": "1863-11-25",
+  "casualties": 12485,
   "casualties_text": "12,485 total (US 5,815; CS 6,670)",
-  "description": "From the last days of September through October 1863, Gen. Braxton Bragg's army laid siege to the Union army under Maj. Gen. William Rosecrans at Chattanooga, cutting off its supplies. On October 17, Maj. Gen. Ulysses S. Grant received command of the Western armies; he moved to reinforce Chattanooga and replaced Rosecrans with Maj. Gen. George Thomas. A new supply line was soon established. Maj. Gen. William T. Sherman arrived with his four divisions in mid-November, and the Federals began offensive operations. On November 23-24, Union forces struck out and captured Orchard Knob and Lookout Mountain. On November 25, Union soldiers assaulted and carried the seemingly impregnable Confederate position on Missionary Ridge. One of the Confederacy's two major armies was routed. The Federals held Chattanooga, the \"Gateway to the Lower South,\" which became the supply and logistics base for Sherman's 1864 Atlanta Campaign.",
-  "start_date": "1863-11-23",
-  "forces_text": "Military Division of the Mississippi [US]; Army of Tennessee [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": 6670,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Bragg",
-          "middle_name": "",
           "rank": "General",
+          "first_name": "Braxton",
           "suffix": "",
-          "fullname": "Braxton Bragg",
-          "first_name": "Braxton"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Bragg",
+          "fullname": "Braxton Bragg"
         }
       ],
       "description": "Army of Tennessee",
-      "armies": 1,
-      "casualties": 6670
+      "armies": 1
     },
     "US": {
+      "casualties": 5815,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Grant",
-          "middle_name": "S.",
           "rank": "Major General",
+          "first_name": "Ulysses",
           "suffix": "",
-          "fullname": "Ulysses S. Grant",
-          "first_name": "Ulysses"
+          "navy": false,
+          "middle_name": "S.",
+          "last_name": "Grant",
+          "fullname": "Ulysses S. Grant"
         }
       ],
-      "description": "Military Division of the Mississippi",
-      "casualties": 5815
+      "description": "Military Division of the Mississippi"
     }
   },
-  "campaign": "Chattanooga-Ringgold Campaign [November 1863]",
-  "battle": "TN024",
-  "result": "Union",
+  "cwsac_reference": "TN024",
+  "operation": false,
+  "forces_text": "Military Division of the Mississippi [US]; Army of Tennessee [CS]",
+  "start_date": "1863-11-23",
+  "preservation": "I.2",
+  "results_text": "Union victory",
+  "description": "From the last days of September through October 1863, Gen. Braxton Bragg's army laid siege to the Union army under Maj. Gen. William Rosecrans at Chattanooga, cutting off its supplies. On October 17, Maj. Gen. Ulysses S. Grant received command of the Western armies; he moved to reinforce Chattanooga and replaced Rosecrans with Maj. Gen. George Thomas. A new supply line was soon established. Maj. Gen. William T. Sherman arrived with his four divisions in mid-November, and the Federals began offensive operations. On November 23-24, Union forces struck out and captured Orchard Knob and Lookout Mountain. On November 25, Union soldiers assaulted and carried the seemingly impregnable Confederate position on Missionary Ridge. One of the Confederacy's two major armies was routed. The Federals held Chattanooga, the \"Gateway to the Lower South,\" which became the supply and logistics base for Sherman's 1864 Atlanta Campaign.",
+  "state": "TN",
   "significance": "A",
   "other_names": null,
-  "state": "TN",
-  "preservation": "I.2",
+  "dates": "November 23-25, 1863",
+  "battle_name": "Chattanooga",
   "principal_commanders": "Maj. Gen. Ulysses S. Grant [US]; Gen. Braxton Bragg [CS]",
-  "end_date": "1863-11-25",
-  "cwsac_reference": "TN024",
-  "casualties": 12485,
+  "campaign": "Chattanooga-Ringgold Campaign [November 1863]",
+  "belligerents": {
+    "Confederate": {
+      "casualties": 6670,
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "Braxton",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Bragg",
+          "fullname": "Braxton Bragg"
+        }
+      ],
+      "description": "Army of Tennessee",
+      "armies": 1
+    },
+    "US": {
+      "casualties": 5815,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Ulysses",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "S.",
+          "last_name": "Grant",
+          "fullname": "Ulysses S. Grant"
+        }
+      ],
+      "description": "Military Division of the Mississippi"
+    },
+    "CS": {
+      "casualties": 6670,
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "Braxton",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Bragg",
+          "fullname": "Braxton Bragg"
+        }
+      ],
+      "description": "Army of Tennessee",
+      "armies": 1
+    }
+  },
+  "result": "Union",
+  "battle": "TN024",
   "location": [
     {
-      "place": "Hamilton County",
-      "state": "TN"
+      "state": "TN",
+      "place": "Hamilton County"
     },
     {
-      "place": "City of Chattanooga",
-      "state": "TN"
+      "state": "TN",
+      "place": "City of Chattanooga"
     }
   ],
-  "battle_name": "Chattanooga"
+  "url": "http://www.nps.gov/hps/abpp/battles/tn024.htm"
 }

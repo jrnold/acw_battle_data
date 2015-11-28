@@ -1,24 +1,18 @@
 {
-  "dates": "June 9, 1864",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/va098.htm",
-  "results_text": "Confederate victory",
+  "end_date": "1864-06-09",
+  "casualties": 120,
   "casualties_text": "120 total",
-  "description": "On June 9, Maj. Gen. Benjamin Butler dispatched about 4,500 cavalry and infantry against the 2,500 Confederate defenders of Petersburg. While Butler's infantry demonstrated against the outer line of entrenchments east of Petersburg, Kautz's cavalry division attempted to enter the city from the south via the Jerusalem Plank Road but was repulsed by Home Guards. Afterwards, Butler withdrew. This was called the \"battle of old men and young boys\" by local residents. On June 14-17, the Army of the Potomac crossed the James River and began moving towards Petersburg to support and renew Butler's assaults.",
-  "start_date": "1864-06-09",
-  "forces_text": "7,000 total (US 4,500; CS 2,500)",
-  "strength": 7000,
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Beauregard",
-          "middle_name": "",
           "rank": "General",
+          "first_name": "P.G.T.",
           "suffix": "",
-          "fullname": "P.G.T. Beauregard",
-          "first_name": "P.G.T."
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Beauregard",
+          "fullname": "P.G.T. Beauregard"
         }
       ],
       "description": "2,500"
@@ -26,38 +20,90 @@
     "US": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Gillmore",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "Quincy",
           "suffix": "",
-          "fullname": "Quincy Gillmore",
-          "first_name": "Quincy"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Gillmore",
+          "fullname": "Quincy Gillmore"
         }
       ],
-      "strength_max": 4500,
       "strength_min": 4500,
-      "description": "4,500"
+      "description": "4,500",
+      "strength_max": 4500
     }
   },
-  "campaign": "Richmond-Petersburg Campaign [June 1864-March 1865]",
-  "battle": "VA098",
-  "result": "Confederate",
+  "strength": 7000,
+  "cwsac_reference": "VA098",
+  "operation": false,
+  "forces_text": "7,000 total (US 4,500; CS 2,500)",
+  "start_date": "1864-06-09",
+  "preservation": "IV.2",
+  "results_text": "Confederate victory",
+  "description": "On June 9, Maj. Gen. Benjamin Butler dispatched about 4,500 cavalry and infantry against the 2,500 Confederate defenders of Petersburg. While Butler's infantry demonstrated against the outer line of entrenchments east of Petersburg, Kautz's cavalry division attempted to enter the city from the south via the Jerusalem Plank Road but was repulsed by Home Guards. Afterwards, Butler withdrew. This was called the \"battle of old men and young boys\" by local residents. On June 14-17, the Army of the Potomac crossed the James River and began moving towards Petersburg to support and renew Butler's assaults.",
+  "state": "VA",
   "significance": "D",
   "other_names": [
     "Old Men and Young Boys"
   ],
-  "state": "VA",
-  "preservation": "IV.2",
+  "dates": "June 9, 1864",
+  "battle_name": "Petersburg",
   "principal_commanders": "Maj. Gen. Quincy Gillmore [US]; Gen. P.G.T. Beauregard [CS]",
-  "end_date": "1864-06-09",
-  "cwsac_reference": "VA098",
-  "casualties": 120,
   "location": [
     {
-      "place": "City of Petersburg",
-      "state": "VA"
+      "state": "VA",
+      "place": "City of Petersburg"
     }
   ],
-  "battle_name": "Petersburg"
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "P.G.T.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Beauregard",
+          "fullname": "P.G.T. Beauregard"
+        }
+      ],
+      "description": "2,500"
+    },
+    "US": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Quincy",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Gillmore",
+          "fullname": "Quincy Gillmore"
+        }
+      ],
+      "strength_min": 4500,
+      "description": "4,500",
+      "strength_max": 4500
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "P.G.T.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Beauregard",
+          "fullname": "P.G.T. Beauregard"
+        }
+      ],
+      "description": "2,500"
+    }
+  },
+  "result": "Confederate",
+  "battle": "VA098",
+  "campaign": "Richmond-Petersburg Campaign [June 1864-March 1865]",
+  "url": "http://www.nps.gov/hps/abpp/battles/va098.htm"
 }

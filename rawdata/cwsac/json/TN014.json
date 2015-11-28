@@ -1,66 +1,119 @@
 {
-  "dates": "March 20, 1863",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/tn014.htm",
-  "results_text": "Union victory",
+  "end_date": "1863-03-20",
+  "casualties": 435,
   "casualties_text": "435 total (US 62; CS 373)",
-  "description": "During the inactivity following the Battle of Stones River, a Union brigade-sized reconnaissance force, under Col. Albert S. Hall, left Murfreesboro on March 18. Circling to the northeast, Hall encountered Confederate Brig. Gen. John Hunt Morgan's cavalry command which caused him to fall back to a position east of Milton. Pursuing Hall, Morgan's men caught up with him on the morning of the 20th, at Vaught's Hill. Dismounted, Morgan struck at both Union flanks, even to the point of encircling Hall's hilltop position. Hall conducted a perimeter defense and withstood all Confederate attacks, which lasted till after 2:00 pm. Morgan continued to bombard the Yankees until 4:30 pm, when he broke off the engagement, after learning that Union reinforcements were en route from Murfreesboro. Union forces continued to strengthen their position in Middle Tennessee.",
-  "start_date": "1863-03-20",
-  "forces_text": "2nd Brigade, 5th Division, XIV Army Corps (a combined force of infantry, artillery, and cavalry comprising detachments from six units; approx. 1,300) [US]; Morgan's Cavalry Division (approx. 3,500) [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": 373,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Morgan",
-          "middle_name": "Hunt",
           "rank": "Brigadier General",
+          "first_name": "John",
           "suffix": "",
-          "fullname": "John Hunt Morgan",
-          "first_name": "John"
+          "navy": false,
+          "middle_name": "Hunt",
+          "last_name": "Morgan",
+          "fullname": "John Hunt Morgan"
         }
       ],
       "description": "Morgan's Cavalry Division (approx. 3,500)",
-      "strength_max": 3500,
       "strength_min": 3500,
-      "casualties": 373
+      "strength_max": 3500
     },
     "US": {
+      "casualties": 62,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Hall",
-          "middle_name": "S.",
           "rank": "Colonel",
+          "first_name": "Albert",
           "suffix": "",
-          "fullname": "Albert S. Hall",
-          "first_name": "Albert"
+          "navy": false,
+          "middle_name": "S.",
+          "last_name": "Hall",
+          "fullname": "Albert S. Hall"
         }
       ],
       "description": "2nd Brigade, 5th Division, XIV Army Corps (a combined force of infantry, artillery, and cavalry comprising detachments from six units; approx. 1,300)",
-      "strength_max": 1300,
       "strength_min": 1300,
-      "casualties": 62
+      "strength_max": 1300
     }
   },
-  "campaign": "Middle Tennessee Operations [February-April 1863]",
-  "battle": "TN014",
-  "result": "Union",
+  "cwsac_reference": "TN014",
+  "operation": false,
+  "forces_text": "2nd Brigade, 5th Division, XIV Army Corps (a combined force of infantry, artillery, and cavalry comprising detachments from six units; approx. 1,300) [US]; Morgan's Cavalry Division (approx. 3,500) [CS]",
+  "start_date": "1863-03-20",
+  "preservation": "III.4",
+  "results_text": "Union victory",
+  "description": "During the inactivity following the Battle of Stones River, a Union brigade-sized reconnaissance force, under Col. Albert S. Hall, left Murfreesboro on March 18. Circling to the northeast, Hall encountered Confederate Brig. Gen. John Hunt Morgan's cavalry command which caused him to fall back to a position east of Milton. Pursuing Hall, Morgan's men caught up with him on the morning of the 20th, at Vaught's Hill. Dismounted, Morgan struck at both Union flanks, even to the point of encircling Hall's hilltop position. Hall conducted a perimeter defense and withstood all Confederate attacks, which lasted till after 2:00 pm. Morgan continued to bombard the Yankees until 4:30 pm, when he broke off the engagement, after learning that Union reinforcements were en route from Murfreesboro. Union forces continued to strengthen their position in Middle Tennessee.",
+  "state": "TN",
   "significance": "D",
   "other_names": [
     "Milton"
   ],
-  "state": "TN",
-  "preservation": "III.4",
+  "dates": "March 20, 1863",
+  "battle_name": "Vaught's Hill",
   "principal_commanders": "Col. Albert S. Hall [US]; Brig. Gen. John Hunt Morgan [CS]",
-  "end_date": "1863-03-20",
-  "cwsac_reference": "TN014",
-  "casualties": 435,
+  "campaign": "Middle Tennessee Operations [February-April 1863]",
+  "belligerents": {
+    "Confederate": {
+      "casualties": 373,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "Hunt",
+          "last_name": "Morgan",
+          "fullname": "John Hunt Morgan"
+        }
+      ],
+      "description": "Morgan's Cavalry Division (approx. 3,500)",
+      "strength_min": 3500,
+      "strength_max": 3500
+    },
+    "US": {
+      "casualties": 62,
+      "commanders": [
+        {
+          "rank": "Colonel",
+          "first_name": "Albert",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "S.",
+          "last_name": "Hall",
+          "fullname": "Albert S. Hall"
+        }
+      ],
+      "description": "2nd Brigade, 5th Division, XIV Army Corps (a combined force of infantry, artillery, and cavalry comprising detachments from six units; approx. 1,300)",
+      "strength_min": 1300,
+      "strength_max": 1300
+    },
+    "CS": {
+      "casualties": 373,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "Hunt",
+          "last_name": "Morgan",
+          "fullname": "John Hunt Morgan"
+        }
+      ],
+      "description": "Morgan's Cavalry Division (approx. 3,500)",
+      "strength_min": 3500,
+      "strength_max": 3500
+    }
+  },
+  "result": "Union",
+  "battle": "TN014",
   "location": [
     {
-      "place": "Rutherford County",
-      "state": "TN"
+      "state": "TN",
+      "place": "Rutherford County"
     }
   ],
-  "battle_name": "Vaught's Hill"
+  "url": "http://www.nps.gov/hps/abpp/battles/tn014.htm"
 }

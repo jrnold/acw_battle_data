@@ -1,62 +1,112 @@
 {
-  "dates": "April 10, 1863",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/tn016.htm",
-  "results_text": "Union victory",
+  "end_date": "1863-04-10",
+  "casualties": 237,
   "casualties_text": "237 total (US 100; CS 137)",
-  "description": "The 1863 engagement at Franklin was a reconnaissance in force by Confederate cavalry leader Maj. Gen. Earl Van Dorn coupled with an equally inept response by Union Maj. Gen. Gordon Granger. Van Dorn advanced northward from Spring Hill on May 10, making contact with Federal skirmishers just outside Franklin. Van Dorn's attack was so weak that when Granger received a false report that Brentwood, to the north, was under attack, he believed it, and sent away most of his cavalry, thinking that the Confederate general was undertaking a diversion. When the truth became known-there was no threat to Brentwood- Granger decided to attack Van Dorn, but he was surprised to learn that a subordinate had already done so, without orders. Brig. Gen. David S. Stanley, with a cavalry brigade, had crossed the Harpeth River at Hughes's Ford, behind the Confederate right rear. The 4th U.S. Cavalry attacked and captured Freeman's Tennessee Battery on the Lewisburg Road but lost it when Brig. Gen. Nathan Bedford Forrest counterattacked. Stanley's troopers quickly withdrew across the Big Harpeth River. This incident in his rear caused Van Dorn to cancel his operations and withdraw to Spring Hill, leaving the Federals in control of the area.",
-  "start_date": "1863-04-10",
-  "forces_text": "Army of Kentucky [US]; 1st Cavalry Corps, Army of Tennessee [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": 137,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Van Dorn",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "Earl",
           "suffix": "",
-          "fullname": "Earl Van Dorn",
-          "first_name": "Earl"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Van Dorn",
+          "fullname": "Earl Van Dorn"
         }
       ],
-      "description": "1st Cavalry Corps, Army of Tennessee",
       "cavalry_corps": 1,
-      "casualties": 137
+      "description": "1st Cavalry Corps, Army of Tennessee"
     },
     "US": {
+      "casualties": 100,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Granger",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "Gordon",
           "suffix": "",
-          "fullname": "Gordon Granger",
-          "first_name": "Gordon"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Granger",
+          "fullname": "Gordon Granger"
         }
       ],
       "description": "Army of Kentucky",
-      "armies": 1,
-      "casualties": 100
+      "armies": 1
     }
   },
-  "campaign": "Middle Tennessee Operations [February-April 1863]",
-  "battle": "TN016",
-  "result": "Union",
+  "cwsac_reference": "TN016",
+  "operation": false,
+  "forces_text": "Army of Kentucky [US]; 1st Cavalry Corps, Army of Tennessee [CS]",
+  "start_date": "1863-04-10",
+  "preservation": "IV.1",
+  "results_text": "Union victory",
+  "description": "The 1863 engagement at Franklin was a reconnaissance in force by Confederate cavalry leader Maj. Gen. Earl Van Dorn coupled with an equally inept response by Union Maj. Gen. Gordon Granger. Van Dorn advanced northward from Spring Hill on May 10, making contact with Federal skirmishers just outside Franklin. Van Dorn's attack was so weak that when Granger received a false report that Brentwood, to the north, was under attack, he believed it, and sent away most of his cavalry, thinking that the Confederate general was undertaking a diversion. When the truth became known-there was no threat to Brentwood- Granger decided to attack Van Dorn, but he was surprised to learn that a subordinate had already done so, without orders. Brig. Gen. David S. Stanley, with a cavalry brigade, had crossed the Harpeth River at Hughes's Ford, behind the Confederate right rear. The 4th U.S. Cavalry attacked and captured Freeman's Tennessee Battery on the Lewisburg Road but lost it when Brig. Gen. Nathan Bedford Forrest counterattacked. Stanley's troopers quickly withdrew across the Big Harpeth River. This incident in his rear caused Van Dorn to cancel his operations and withdraw to Spring Hill, leaving the Federals in control of the area.",
+  "state": "TN",
   "significance": "D",
   "other_names": null,
-  "state": "TN",
-  "preservation": "IV.1",
+  "dates": "April 10, 1863",
+  "battle_name": "Franklin",
   "principal_commanders": "Maj. Gen. Gordon Granger [US]; Maj. Gen. Earl Van Dorn [CS]",
-  "end_date": "1863-04-10",
-  "cwsac_reference": "TN016",
-  "casualties": 237,
+  "campaign": "Middle Tennessee Operations [February-April 1863]",
+  "belligerents": {
+    "Confederate": {
+      "casualties": 137,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Earl",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Van Dorn",
+          "fullname": "Earl Van Dorn"
+        }
+      ],
+      "cavalry_corps": 1,
+      "description": "1st Cavalry Corps, Army of Tennessee"
+    },
+    "US": {
+      "casualties": 100,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Gordon",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Granger",
+          "fullname": "Gordon Granger"
+        }
+      ],
+      "description": "Army of Kentucky",
+      "armies": 1
+    },
+    "CS": {
+      "casualties": 137,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Earl",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Van Dorn",
+          "fullname": "Earl Van Dorn"
+        }
+      ],
+      "cavalry_corps": 1,
+      "description": "1st Cavalry Corps, Army of Tennessee"
+    }
+  },
+  "result": "Union",
+  "battle": "TN016",
   "location": [
     {
-      "place": "Williamson County",
-      "state": "TN"
+      "state": "TN",
+      "place": "Williamson County"
     }
   ],
-  "battle_name": "Franklin"
+  "url": "http://www.nps.gov/hps/abpp/battles/tn016.htm"
 }

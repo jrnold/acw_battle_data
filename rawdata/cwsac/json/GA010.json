@@ -1,70 +1,128 @@
 {
-  "dates": "May 25-26, 1864",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/ga010.htm",
-  "results_text": "Confederate victory",
+  "end_date": "1864-05-26",
+  "casualties": null,
   "casualties_text": "Total unknown (US 1,600; CS unknown)",
-  "description": "After Johnston retreated to Allatoona Pass on May 19-20, Sherman decided that he would most likely pay dearly for attacking Johnston there, so he determined to move around Johnston's left flank and steal a march toward Dallas. Johnston anticipated Sherman's move and met the Union forces at New Hope Church. Sherman mistakenly surmised that Johnston had a token force and ordered Maj. Gen. Joseph Hooker's corps to attack. This corps was severely mauled. On the 26th, both sides en-trenched, and skirmishing continued throughout the day. Actions the next day in this area are discussed under Pickett's Mills.",
-  "start_date": "1864-05-25",
-  "forces_text": "Military Division of the Mississippi [US]; Army of Tennessee [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": null,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Johnston",
-          "middle_name": "E.",
           "rank": "General",
+          "first_name": "Joseph",
           "suffix": "",
-          "fullname": "Joseph E. Johnston",
-          "first_name": "Joseph"
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Johnston",
+          "fullname": "Joseph E. Johnston"
         }
       ],
       "description": "Army of Tennessee",
-      "armies": 1,
-      "casualties": null
+      "armies": 1
     },
     "US": {
+      "casualties": 1600,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Sherman",
-          "middle_name": "T.",
           "rank": "Major General",
+          "first_name": "William",
           "suffix": "",
-          "fullname": "William T. Sherman",
-          "first_name": "William"
+          "navy": false,
+          "middle_name": "T.",
+          "last_name": "Sherman",
+          "fullname": "William T. Sherman"
         },
         {
-          "navy": false,
-          "last_name": "Hooker",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "Joseph",
           "suffix": "",
-          "fullname": "Joseph Hooker",
-          "first_name": "Joseph"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Hooker",
+          "fullname": "Joseph Hooker"
         }
       ],
-      "description": "Military Division of the Mississippi",
-      "casualties": 1600
+      "description": "Military Division of the Mississippi"
     }
   },
-  "campaign": "Atlanta Campaign [May-September 1864]",
-  "battle": "GA010",
-  "result": "Confederate",
+  "cwsac_reference": "GA010",
+  "operation": false,
+  "forces_text": "Military Division of the Mississippi [US]; Army of Tennessee [CS]",
+  "start_date": "1864-05-25",
+  "preservation": "II.3",
+  "results_text": "Confederate victory",
+  "description": "After Johnston retreated to Allatoona Pass on May 19-20, Sherman decided that he would most likely pay dearly for attacking Johnston there, so he determined to move around Johnston's left flank and steal a march toward Dallas. Johnston anticipated Sherman's move and met the Union forces at New Hope Church. Sherman mistakenly surmised that Johnston had a token force and ordered Maj. Gen. Joseph Hooker's corps to attack. This corps was severely mauled. On the 26th, both sides en-trenched, and skirmishing continued throughout the day. Actions the next day in this area are discussed under Pickett's Mills.",
+  "state": "GA",
   "significance": "C",
   "other_names": null,
-  "state": "GA",
-  "preservation": "II.3",
+  "dates": "May 25-26, 1864",
+  "battle_name": "New Hope Church",
   "principal_commanders": "Maj. Gen. William T. Sherman and Maj. Gen. Joseph Hooker [US]; Gen. Joseph E. Johnston [CS]",
-  "end_date": "1864-05-26",
-  "cwsac_reference": "GA010",
-  "casualties": null,
+  "campaign": "Atlanta Campaign [May-September 1864]",
+  "belligerents": {
+    "Confederate": {
+      "casualties": null,
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "Joseph",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Johnston",
+          "fullname": "Joseph E. Johnston"
+        }
+      ],
+      "description": "Army of Tennessee",
+      "armies": 1
+    },
+    "US": {
+      "casualties": 1600,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "William",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "T.",
+          "last_name": "Sherman",
+          "fullname": "William T. Sherman"
+        },
+        {
+          "rank": "Major General",
+          "first_name": "Joseph",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Hooker",
+          "fullname": "Joseph Hooker"
+        }
+      ],
+      "description": "Military Division of the Mississippi"
+    },
+    "CS": {
+      "casualties": null,
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "Joseph",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Johnston",
+          "fullname": "Joseph E. Johnston"
+        }
+      ],
+      "description": "Army of Tennessee",
+      "armies": 1
+    }
+  },
+  "result": "Confederate",
+  "battle": "GA010",
   "location": [
     {
-      "place": "Paulding County",
-      "state": "GA"
+      "state": "GA",
+      "place": "Paulding County"
     }
   ],
-  "battle_name": "New Hope Church"
+  "url": "http://www.nps.gov/hps/abpp/battles/ga010.htm"
 }

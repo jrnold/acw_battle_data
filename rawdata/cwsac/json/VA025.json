@@ -1,23 +1,18 @@
 {
-  "dates": "August 28, 1862",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/va025.htm",
-  "results_text": "Confederate victory",
+  "end_date": "1862-08-28",
+  "casualties": 100,
   "casualties_text": "100 total",
-  "description": "After skirmishing near Chapman's Mill in Thoroughfare Gap, Brig. Gen. James Ricketts's Union division was flanked by a Confederate column passing through Hopewell Gap several miles to the north and by troops securing the high ground at Thoroughfare Gap. Ricketts retired, and Longstreet's wing of the army marched through the gap to join Jackson. This seemingly inconsequential action virtually ensured Pope's defeat during the battles of Aug. 29-30 because it allowed the two wings of Lee's army to unite on the Manassas battlefield. Ricketts withdrew via Gainesville to Manassas Junction.",
-  "start_date": "1862-08-28",
-  "forces_text": "Divisions",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Longstreet",
-          "middle_name": "",
           "rank": "Lieutenant General",
+          "first_name": "James",
           "suffix": "",
-          "fullname": "James Longstreet",
-          "first_name": "James"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Longstreet",
+          "fullname": "James Longstreet"
         }
       ],
       "divisions": 1
@@ -25,40 +20,89 @@
     "US": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Ricketts",
-          "middle_name": "",
           "rank": "Brigadier General",
+          "first_name": "James",
           "suffix": "",
-          "fullname": "James Ricketts",
-          "first_name": "James"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Ricketts",
+          "fullname": "James Ricketts"
         }
       ],
       "divisions": 1
     }
   },
-  "campaign": "Northern Virginia Campaign [August 1862]",
-  "battle": "VA025",
-  "result": "Confederate",
+  "cwsac_reference": "VA025",
+  "operation": false,
+  "forces_text": "Divisions",
+  "start_date": "1862-08-28",
+  "preservation": "III.3",
+  "results_text": "Confederate victory",
+  "description": "After skirmishing near Chapman's Mill in Thoroughfare Gap, Brig. Gen. James Ricketts's Union division was flanked by a Confederate column passing through Hopewell Gap several miles to the north and by troops securing the high ground at Thoroughfare Gap. Ricketts retired, and Longstreet's wing of the army marched through the gap to join Jackson. This seemingly inconsequential action virtually ensured Pope's defeat during the battles of Aug. 29-30 because it allowed the two wings of Lee's army to unite on the Manassas battlefield. Ricketts withdrew via Gainesville to Manassas Junction.",
+  "state": "VA",
   "significance": "C",
   "other_names": [
     "Chapman's Mill"
   ],
-  "state": "VA",
-  "preservation": "III.3",
+  "dates": "August 28, 1862",
+  "battle_name": "Thoroughfare Gap",
   "principal_commanders": "Brig. Gen. James Ricketts [US]; Lt. Gen. James Longstreet [CS]",
-  "end_date": "1862-08-28",
-  "cwsac_reference": "VA025",
-  "casualties": 100,
+  "campaign": "Northern Virginia Campaign [August 1862]",
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "Lieutenant General",
+          "first_name": "James",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Longstreet",
+          "fullname": "James Longstreet"
+        }
+      ],
+      "divisions": 1
+    },
+    "US": {
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "James",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Ricketts",
+          "fullname": "James Ricketts"
+        }
+      ],
+      "divisions": 1
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "Lieutenant General",
+          "first_name": "James",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Longstreet",
+          "fullname": "James Longstreet"
+        }
+      ],
+      "divisions": 1
+    }
+  },
+  "result": "Confederate",
+  "battle": "VA025",
   "location": [
     {
-      "place": "Fauquier County",
-      "state": "VA"
+      "state": "VA",
+      "place": "Fauquier County"
     },
     {
-      "place": "Prince William County",
-      "state": "VA"
+      "state": "VA",
+      "place": "Prince William County"
     }
   ],
-  "battle_name": "Thoroughfare Gap"
+  "url": "http://www.nps.gov/hps/abpp/battles/va025.htm"
 }

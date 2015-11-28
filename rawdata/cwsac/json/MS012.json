@@ -1,23 +1,18 @@
 {
-  "dates": "February 14-20, 1864",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/ms012.htm",
-  "results_text": "Union victory",
+  "end_date": "1864-02-20",
+  "casualties": null,
   "casualties_text": "Unknown",
-  "description": "From Vicksburg, Mississippi, Sherman launched a campaign to take the important railroad center at Meridian and, if the situation was favorable, push on to Selma, Alabama, and threaten Mobile. Sherman ordered Brig. Gen. William Sooy Smith to lead a cavalry force of 7,000 men from Memphis, Tennessee, on February 1, 1864, south through Okolona, along the Mobile & Ohio Railroad, and meet the rest of the Union force at Meridian. With the main force of 20,000 men, Sherman set out on the 3rd for Meridian, but made feints toward various other locations. To counter the threat, Confederate President Jefferson Davis ordered troops to the area from other localities. The Confederate commander in the area, Lt. Gen. Leonidas Polk, consolidated a number of commands in and around Mortona, but lost his nerve and retreated rapidly eastward. Cavalry units commanded by Maj. Gen. Stephen D. Lee periodically skirmished with Sherman's force. As Sherman approached Meridian, he met stiffer resistance from combined forces but steadily moved on. Polk finally realized that he could not stop Sherman and evacuated Meridian on the 14th, removing some railroad rolling stock to McDowell's Bluff. Sherman's troops entered Meridian the same day and began destroying railroad track, continuing their work until the 19th. Smith never arrived at Meridian. Sherman left Meridian on the 20th, headed west by way of Canton, looking for Smith and his force. He did not discover what happened to Smith until he arrived back at Vicksburg (see Okolona, #MS013). Sherman had destroyed some important Confederate transportation facilities but had to forget his aspirations for continuing into Alabama.",
-  "start_date": "1864-02-14",
-  "forces_text": "Department of the Tennessee [US]; Department of Alabama, Mississippi and East Louisiana [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Polk",
-          "middle_name": "",
           "rank": "Lieutenant General",
+          "first_name": "Leonidas",
           "suffix": "",
-          "fullname": "Leonidas Polk",
-          "first_name": "Leonidas"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Polk",
+          "fullname": "Leonidas Polk"
         }
       ],
       "description": "Department of Alabama, Mississippi and East Louisiana"
@@ -25,34 +20,83 @@
     "US": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Sherman",
-          "middle_name": "T.",
           "rank": "Major General",
+          "first_name": "William",
           "suffix": "",
-          "fullname": "William T. Sherman",
-          "first_name": "William"
+          "navy": false,
+          "middle_name": "T.",
+          "last_name": "Sherman",
+          "fullname": "William T. Sherman"
         }
       ],
       "description": "Department of the Tennessee"
     }
   },
-  "campaign": "Meridian and Yazoo River Expeditions [February 1864]",
-  "battle": "MS012",
-  "result": "Union",
+  "cwsac_reference": "MS012",
+  "operation": false,
+  "forces_text": "Department of the Tennessee [US]; Department of Alabama, Mississippi and East Louisiana [CS]",
+  "start_date": "1864-02-14",
+  "preservation": "IV.2",
+  "results_text": "Union victory",
+  "description": "From Vicksburg, Mississippi, Sherman launched a campaign to take the important railroad center at Meridian and, if the situation was favorable, push on to Selma, Alabama, and threaten Mobile. Sherman ordered Brig. Gen. William Sooy Smith to lead a cavalry force of 7,000 men from Memphis, Tennessee, on February 1, 1864, south through Okolona, along the Mobile & Ohio Railroad, and meet the rest of the Union force at Meridian. With the main force of 20,000 men, Sherman set out on the 3rd for Meridian, but made feints toward various other locations. To counter the threat, Confederate President Jefferson Davis ordered troops to the area from other localities. The Confederate commander in the area, Lt. Gen. Leonidas Polk, consolidated a number of commands in and around Mortona, but lost his nerve and retreated rapidly eastward. Cavalry units commanded by Maj. Gen. Stephen D. Lee periodically skirmished with Sherman's force. As Sherman approached Meridian, he met stiffer resistance from combined forces but steadily moved on. Polk finally realized that he could not stop Sherman and evacuated Meridian on the 14th, removing some railroad rolling stock to McDowell's Bluff. Sherman's troops entered Meridian the same day and began destroying railroad track, continuing their work until the 19th. Smith never arrived at Meridian. Sherman left Meridian on the 20th, headed west by way of Canton, looking for Smith and his force. He did not discover what happened to Smith until he arrived back at Vicksburg (see Okolona, #MS013). Sherman had destroyed some important Confederate transportation facilities but had to forget his aspirations for continuing into Alabama.",
+  "state": "MS",
   "significance": "C",
   "other_names": null,
-  "state": "MS",
-  "preservation": "IV.2",
+  "dates": "February 14-20, 1864",
+  "battle_name": "Meridian",
   "principal_commanders": "Maj. Gen. William T. Sherman [US]; Lt. Gen. Leonidas Polk [CS]",
-  "end_date": "1864-02-20",
-  "cwsac_reference": "MS012",
-  "casualties": null,
+  "campaign": "Meridian and Yazoo River Expeditions [February 1864]",
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "Lieutenant General",
+          "first_name": "Leonidas",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Polk",
+          "fullname": "Leonidas Polk"
+        }
+      ],
+      "description": "Department of Alabama, Mississippi and East Louisiana"
+    },
+    "US": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "William",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "T.",
+          "last_name": "Sherman",
+          "fullname": "William T. Sherman"
+        }
+      ],
+      "description": "Department of the Tennessee"
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "Lieutenant General",
+          "first_name": "Leonidas",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Polk",
+          "fullname": "Leonidas Polk"
+        }
+      ],
+      "description": "Department of Alabama, Mississippi and East Louisiana"
+    }
+  },
+  "result": "Union",
+  "battle": "MS012",
   "location": [
     {
-      "place": "Lauderdale County",
-      "state": "MS"
+      "state": "MS",
+      "place": "Lauderdale County"
     }
   ],
-  "battle_name": "Meridian"
+  "url": "http://www.nps.gov/hps/abpp/battles/ms012.htm"
 }

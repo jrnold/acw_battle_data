@@ -14,6 +14,12 @@ def dict_remove(x, exclude = []):
 def dict_subset(x, include = []):
     return dict((k, v) for k, v in x.items() if k in include)
 
+BELLIGERENTS = {
+    "US": "US",
+    "CS": "Confederate",
+    "I": "Native American"
+}
+
 battle_fields = (#'cwsac_reference',
     'battle',
     'url',

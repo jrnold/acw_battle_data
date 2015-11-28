@@ -1,75 +1,140 @@
 {
-  "dates": "February 7-8, 1862",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/nc002.htm",
-  "results_text": "Union victory",
+  "end_date": "1862-02-08",
+  "casualties": 2907,
   "casualties_text": "2,907 total (US 37K/214W/13M; CS 23K/58W/62M/2,500 captured)",
-  "description": "On February 7, Brig. Gen. Ambrose E. Burnside landed 7,500 men on the southwestern side of Roanoke Island in an amphibious operation launched from Fort Monroe. The next morning, supported by gunboats, the Federals assaulted the Confederate forts on the narrow waist of the island, driving back and out-maneuvering Brig. Gen. Henry Wise's outnumbered command. After losing less than 100 men, the Confederate commander on the field, Col. H.M. Shaw, surrendered about 2,500 soldiers and 32 guns. Burnside had secured an important outpost on the Atlantic Coast, tightening the blockade.",
-  "start_date": "1862-02-07",
-  "forces_text": "10,500 total (US 7,500; CS 3,000)",
-  "strength": 10500,
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": 2643,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Wise",
-          "middle_name": "",
           "rank": "Brigadier General",
+          "first_name": "Henry",
           "suffix": "",
-          "fullname": "Henry Wise",
-          "first_name": "Henry"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Wise",
+          "fullname": "Henry Wise"
         }
       ],
-      "captured": 2500,
+      "missing": 62,
       "strength_min": 3000,
       "killed": 23,
-      "casualties": 2643,
-      "description": "3,000",
-      "strength_max": 3000,
+      "captured": 2500,
       "wounded": 58,
-      "missing": 62
+      "description": "3,000",
+      "strength_max": 3000
     },
     "US": {
+      "casualties": 264,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Burnside",
-          "middle_name": "E.",
           "rank": "Brigadier General",
+          "first_name": "Ambrose",
           "suffix": "",
-          "fullname": "Ambrose E. Burnside",
-          "first_name": "Ambrose"
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Burnside",
+          "fullname": "Ambrose E. Burnside"
         }
       ],
-      "captured": 0,
+      "missing": 13,
       "strength_min": 7500,
       "killed": 37,
-      "casualties": 264,
-      "description": "7,500",
-      "strength_max": 7500,
+      "captured": 0,
       "wounded": 214,
-      "missing": 13
+      "description": "7,500",
+      "strength_max": 7500
     }
   },
-  "campaign": "Burnside's North Carolina Expedition [February-June 1862]",
-  "battle": "NC002",
-  "result": "Union",
+  "strength": 10500,
+  "cwsac_reference": "NC002",
+  "operation": false,
+  "forces_text": "10,500 total (US 7,500; CS 3,000)",
+  "start_date": "1862-02-07",
+  "preservation": "II.2",
+  "results_text": "Union victory",
+  "description": "On February 7, Brig. Gen. Ambrose E. Burnside landed 7,500 men on the southwestern side of Roanoke Island in an amphibious operation launched from Fort Monroe. The next morning, supported by gunboats, the Federals assaulted the Confederate forts on the narrow waist of the island, driving back and out-maneuvering Brig. Gen. Henry Wise's outnumbered command. After losing less than 100 men, the Confederate commander on the field, Col. H.M. Shaw, surrendered about 2,500 soldiers and 32 guns. Burnside had secured an important outpost on the Atlantic Coast, tightening the blockade.",
+  "state": "NC",
   "significance": "B",
   "other_names": [
     "Fort Huger"
   ],
-  "state": "NC",
-  "preservation": "II.2",
+  "dates": "February 7-8, 1862",
+  "battle_name": "Roanoke Island",
   "principal_commanders": "Brig. Gen. Ambrose E. Burnside [US]; Brig. Gen. Henry Wise [CS]",
-  "end_date": "1862-02-08",
-  "cwsac_reference": "NC002",
-  "casualties": 2907,
   "location": [
     {
-      "place": "Dare County",
-      "state": "NC"
+      "state": "NC",
+      "place": "Dare County"
     }
   ],
-  "battle_name": "Roanoke Island"
+  "belligerents": {
+    "Confederate": {
+      "casualties": 2643,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Henry",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Wise",
+          "fullname": "Henry Wise"
+        }
+      ],
+      "missing": 62,
+      "strength_min": 3000,
+      "killed": 23,
+      "captured": 2500,
+      "wounded": 58,
+      "description": "3,000",
+      "strength_max": 3000
+    },
+    "US": {
+      "casualties": 264,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Ambrose",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Burnside",
+          "fullname": "Ambrose E. Burnside"
+        }
+      ],
+      "missing": 13,
+      "strength_min": 7500,
+      "killed": 37,
+      "captured": 0,
+      "wounded": 214,
+      "description": "7,500",
+      "strength_max": 7500
+    },
+    "CS": {
+      "casualties": 2643,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Henry",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Wise",
+          "fullname": "Henry Wise"
+        }
+      ],
+      "missing": 62,
+      "strength_min": 3000,
+      "killed": 23,
+      "captured": 2500,
+      "wounded": 58,
+      "description": "3,000",
+      "strength_max": 3000
+    }
+  },
+  "result": "Union",
+  "battle": "NC002",
+  "campaign": "Burnside's North Carolina Expedition [February-June 1862]",
+  "url": "http://www.nps.gov/hps/abpp/battles/nc002.htm"
 }

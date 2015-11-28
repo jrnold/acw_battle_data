@@ -1,23 +1,18 @@
 {
-  "dates": "August 25-27,1862",
-  "operation": true,
-  "url": "http://www.nps.gov/hps/abpp/battles/va024.htm",
-  "results_text": "Confederate victory",
+  "end_date": "1862-08-27",
+  "casualties": 1100,
   "casualties_text": "1,100 total",
-  "description": "On the evening of August 26, after passing around Pope's right flank via Thoroughfare Gap, Jackson's wing of the army struck the Orange & Alexandria Railroad at Bristoe Station and before daybreak August 27 marched to capture and destroy the massive Union supply depot at Manassas Junction. This surprise movement forced Pope into an abrupt retreat from his defensive line along the Rappahannock River. On August 27, Jackson routed a Union brigade near Union Mills (Bull Run Bridge), inflicting several hundred casualties and mortally wounding Union Brig. Gen. G.W. Taylor. Ewell's Division fought a brisk rearguard action against Hooker's division at Kettle Run, resulting in about 600 casualties. Ewell held back Union forces until dark. During the night of August 27-28, Jackson marched his divisions north to the First Manassas battlefield, where he took position behind an unfinished railroad grade.",
-  "start_date": "1862-08-25",
-  "forces_text": "Divisions",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Jackson",
-          "middle_name": "J.",
           "rank": "Major General",
+          "first_name": "Thomas",
           "suffix": "",
-          "fullname": "Thomas J. Jackson",
-          "first_name": "Thomas"
+          "navy": false,
+          "middle_name": "J.",
+          "last_name": "Jackson",
+          "fullname": "Thomas J. Jackson"
         }
       ],
       "divisions": 1
@@ -25,35 +20,84 @@
     "US": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Taylor",
-          "middle_name": "",
           "rank": "Brigadier General",
+          "first_name": "G.W.",
           "suffix": "",
-          "fullname": "G.W. Taylor",
-          "first_name": "G.W."
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Taylor",
+          "fullname": "G.W. Taylor"
         }
       ],
       "divisions": 1
     }
   },
+  "cwsac_reference": "VA024",
+  "operation": true,
+  "forces_text": "Divisions",
+  "start_date": "1862-08-25",
+  "preservation": "IV.1",
   "campaign": "Northern Virginia Campaign [August 1862]",
-  "battle": "VA024",
-  "result": "Confederate",
+  "results_text": "Confederate victory",
+  "description": "On the evening of August 26, after passing around Pope's right flank via Thoroughfare Gap, Jackson's wing of the army struck the Orange & Alexandria Railroad at Bristoe Station and before daybreak August 27 marched to capture and destroy the massive Union supply depot at Manassas Junction. This surprise movement forced Pope into an abrupt retreat from his defensive line along the Rappahannock River. On August 27, Jackson routed a Union brigade near Union Mills (Bull Run Bridge), inflicting several hundred casualties and mortally wounding Union Brig. Gen. G.W. Taylor. Ewell's Division fought a brisk rearguard action against Hooker's division at Kettle Run, resulting in about 600 casualties. Ewell held back Union forces until dark. During the night of August 27-28, Jackson marched his divisions north to the First Manassas battlefield, where he took position behind an unfinished railroad grade.",
+  "state": "VA",
   "significance": "B",
   "other_names": null,
-  "state": "VA",
-  "assoc_battles": "Bristoe Station, Kettle Run, Bull Run Bridge, Union Mills",
-  "preservation": "IV.1",
+  "dates": "August 25-27,1862",
+  "battle_name": "Manassas Station Operations",
   "principal_commanders": "Brig. Gen. G.W. Taylor [US]; Maj. Gen. Thomas J. Jackson [CS]",
-  "end_date": "1862-08-27",
-  "cwsac_reference": "VA024",
-  "casualties": 1100,
+  "assoc_battles": "Bristoe Station, Kettle Run, Bull Run Bridge, Union Mills",
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Thomas",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "J.",
+          "last_name": "Jackson",
+          "fullname": "Thomas J. Jackson"
+        }
+      ],
+      "divisions": 1
+    },
+    "US": {
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "G.W.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Taylor",
+          "fullname": "G.W. Taylor"
+        }
+      ],
+      "divisions": 1
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Thomas",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "J.",
+          "last_name": "Jackson",
+          "fullname": "Thomas J. Jackson"
+        }
+      ],
+      "divisions": 1
+    }
+  },
+  "result": "Confederate",
+  "battle": "VA024",
   "location": [
     {
-      "place": "Prince William County",
-      "state": "VA"
+      "state": "VA",
+      "place": "Prince William County"
     }
   ],
-  "battle_name": "Manassas Station Operations"
+  "url": "http://www.nps.gov/hps/abpp/battles/va024.htm"
 }

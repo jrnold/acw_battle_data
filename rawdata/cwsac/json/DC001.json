@@ -1,67 +1,117 @@
 {
-  "dates": "July 11-12, 1864",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/dc001.htm",
-  "results_text": "Union victory",
+  "end_date": "1864-07-12",
+  "casualties": 874,
   "casualties_text": "874 total",
-  "description": "On July 11, Lt. Gen. Jubal A. Early's exhausted Confederates reached the outskirts of Washington near Silver Spring. Skirmishers advanced to feel the fortifications which at the time were manned only by Home Guards, clerks, and convalescent troops. During the night, veteran units from the Union VI Corps disembarked from troop transports and marched north through the streets of Washington to bolster the defenses. On July 12, Early was finally in position to make a strong demonstration, which was repulsed by the veteran Union troops. In the afternoon, VI Corps units sortied against the Confederate skirmishers, driving them back from their advanced positions in front of Forts Stevens and DeRussy. President Lincoln watched the action from Fort Stevens and came under fire from Confederate sharpshooters. Recognizing that the Union Capitol was now defended by veterans, Early abandoned any thought of taking the city. Early withdrew during the night, marching toward White's Ford on the Potomac, ending his invasion of Maryland. \"We didn't take Washington,\" Early told his staff officers, \"but we scared Abe Lincoln like Hell.\"",
-  "start_date": "1864-07-11",
-  "forces_text": "Divisions",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Early",
-          "middle_name": "A.",
           "rank": "Lieutenant General",
+          "first_name": "Jubal",
           "suffix": "",
-          "fullname": "Jubal A. Early",
-          "first_name": "Jubal"
+          "navy": false,
+          "middle_name": "A.",
+          "last_name": "Early",
+          "fullname": "Jubal A. Early"
         }
       ]
     },
     "US": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Wright",
-          "middle_name": "G.",
           "rank": "Major General",
+          "first_name": "Horatio",
           "suffix": "",
-          "fullname": "Horatio G. Wright",
-          "first_name": "Horatio"
+          "navy": false,
+          "middle_name": "G.",
+          "last_name": "Wright",
+          "fullname": "Horatio G. Wright"
         },
         {
-          "navy": false,
-          "last_name": "McCook",
-          "middle_name": "McDowell",
           "rank": "Major General",
+          "first_name": "Alexander",
           "suffix": "",
-          "fullname": "Alexander McDowell McCook",
-          "first_name": "Alexander"
+          "navy": false,
+          "middle_name": "McDowell",
+          "last_name": "McCook",
+          "fullname": "Alexander McDowell McCook"
         }
       ]
     }
   },
-  "campaign": "Early's Raid and Operations Against the B&O Railroad [June-August 1864]",
-  "battle": "DC001",
-  "result": "Union",
+  "cwsac_reference": "DC001",
+  "operation": false,
+  "forces_text": "Divisions",
+  "start_date": "1864-07-11",
+  "preservation": "IV.2",
+  "results_text": "Union victory",
+  "description": "On July 11, Lt. Gen. Jubal A. Early's exhausted Confederates reached the outskirts of Washington near Silver Spring. Skirmishers advanced to feel the fortifications which at the time were manned only by Home Guards, clerks, and convalescent troops. During the night, veteran units from the Union VI Corps disembarked from troop transports and marched north through the streets of Washington to bolster the defenses. On July 12, Early was finally in position to make a strong demonstration, which was repulsed by the veteran Union troops. In the afternoon, VI Corps units sortied against the Confederate skirmishers, driving them back from their advanced positions in front of Forts Stevens and DeRussy. President Lincoln watched the action from Fort Stevens and came under fire from Confederate sharpshooters. Recognizing that the Union Capitol was now defended by veterans, Early abandoned any thought of taking the city. Early withdrew during the night, marching toward White's Ford on the Potomac, ending his invasion of Maryland. \"We didn't take Washington,\" Early told his staff officers, \"but we scared Abe Lincoln like Hell.\"",
+  "state": "DC",
   "significance": "B",
   "other_names": [
     "Washington"
   ],
-  "state": "DC",
-  "preservation": "IV.2",
+  "dates": "July 11-12, 1864",
+  "battle_name": "Fort Stevens",
   "principal_commanders": "Maj. Gen. Horatio G. Wright and Maj. Gen. Alexander McDowell McCook [US]; Lt. Gen. Jubal A. Early [CS]",
-  "end_date": "1864-07-12",
-  "cwsac_reference": "DC001",
-  "casualties": 874,
+  "campaign": "Early's Raid and Operations Against the B&O Railroad [June-August 1864]",
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "Lieutenant General",
+          "first_name": "Jubal",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "A.",
+          "last_name": "Early",
+          "fullname": "Jubal A. Early"
+        }
+      ]
+    },
+    "US": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Horatio",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "G.",
+          "last_name": "Wright",
+          "fullname": "Horatio G. Wright"
+        },
+        {
+          "rank": "Major General",
+          "first_name": "Alexander",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "McDowell",
+          "last_name": "McCook",
+          "fullname": "Alexander McDowell McCook"
+        }
+      ]
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "Lieutenant General",
+          "first_name": "Jubal",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "A.",
+          "last_name": "Early",
+          "fullname": "Jubal A. Early"
+        }
+      ]
+    }
+  },
+  "result": "Union",
+  "battle": "DC001",
   "location": [
     {
-      "place": "District of Columbia",
-      "state": "DC"
+      "state": "DC",
+      "place": "District of Columbia"
     }
   ],
-  "battle_name": "Fort Stevens"
+  "url": "http://www.nps.gov/hps/abpp/battles/dc001.htm"
 }

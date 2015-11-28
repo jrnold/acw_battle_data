@@ -1,52 +1,52 @@
 {
-  "dates": "February 3, 1865",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/sc011.htm",
-  "results_text": "Union victory",
+  "end_date": "1865-02-03",
+  "casualties": 262,
   "casualties_text": "262 total (US 92; CS 170)",
-  "description": "On February 2, a Confederate force under McLaws held the crossings of the Salkehatchie River against the advance of the right wing of Sherman's Army. Federal soldiers began building bridges across the swamp to bypass the road block. In the meantime, Union columns worked to get on the Confederates' flanks and rear. On February 3, two Union brigades waded the swamp downstream and assaulted McLaws's right. McLaws retreated toward Branchville after stalling Sherman's advance for only one day.",
-  "start_date": "1865-02-03",
-  "forces_text": "Divisions: 6,200 total (US 5,000; CS 1,200)",
-  "strength": 6200,
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": 170,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "McLaws",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "Lafayette",
           "suffix": "",
-          "fullname": "Lafayette McLaws",
-          "first_name": "Lafayette"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "McLaws",
+          "fullname": "Lafayette McLaws"
         }
       ],
       "description": "1,200",
-      "strength_max": 1200,
       "strength_min": 1200,
-      "casualties": 170
+      "strength_max": 1200
     },
     "US": {
+      "casualties": 92,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Blair",
-          "middle_name": "P.",
           "rank": "Major General",
+          "first_name": "Francis",
           "suffix": "",
-          "fullname": "Francis P. Blair",
-          "first_name": "Francis"
+          "navy": false,
+          "middle_name": "P.",
+          "last_name": "Blair",
+          "fullname": "Francis P. Blair"
         }
       ],
       "description": "5,000",
-      "strength_max": 5000,
       "strength_min": 5000,
-      "casualties": 92
+      "strength_max": 5000
     }
   },
-  "campaign": "Carolinas Campaign [February-March 1865]",
-  "battle": "SC011",
-  "result": "Union",
+  "strength": 6200,
+  "cwsac_reference": "SC011",
+  "operation": false,
+  "forces_text": "Divisions: 6,200 total (US 5,000; CS 1,200)",
+  "start_date": "1865-02-03",
+  "preservation": "III.4",
+  "results_text": "Union victory",
+  "description": "On February 2, a Confederate force under McLaws held the crossings of the Salkehatchie River against the advance of the right wing of Sherman's Army. Federal soldiers began building bridges across the swamp to bypass the road block. In the meantime, Union columns worked to get on the Confederates' flanks and rear. On February 3, two Union brigades waded the swamp downstream and assaulted McLaws's right. McLaws retreated toward Branchville after stalling Sherman's advance for only one day.",
+  "state": "SC",
   "significance": "D",
   "other_names": [
     "Salkehatchie River",
@@ -55,17 +55,70 @@
     "Lawtonville",
     "Duck Creek"
   ],
-  "state": "SC",
-  "preservation": "III.4",
+  "dates": "February 3, 1865",
+  "battle_name": "Rivers' Bridge",
   "principal_commanders": "Maj. Gen. Francis P. Blair [US]; Maj. Gen. Lafayette McLaws [CS]",
-  "end_date": "1865-02-03",
-  "cwsac_reference": "SC011",
-  "casualties": 262,
   "location": [
     {
-      "place": "Bamberg County",
-      "state": "SC"
+      "state": "SC",
+      "place": "Bamberg County"
     }
   ],
-  "battle_name": "Rivers' Bridge"
+  "belligerents": {
+    "Confederate": {
+      "casualties": 170,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Lafayette",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "McLaws",
+          "fullname": "Lafayette McLaws"
+        }
+      ],
+      "description": "1,200",
+      "strength_min": 1200,
+      "strength_max": 1200
+    },
+    "US": {
+      "casualties": 92,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Francis",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "P.",
+          "last_name": "Blair",
+          "fullname": "Francis P. Blair"
+        }
+      ],
+      "description": "5,000",
+      "strength_min": 5000,
+      "strength_max": 5000
+    },
+    "CS": {
+      "casualties": 170,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Lafayette",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "McLaws",
+          "fullname": "Lafayette McLaws"
+        }
+      ],
+      "description": "1,200",
+      "strength_min": 1200,
+      "strength_max": 1200
+    }
+  },
+  "result": "Union",
+  "battle": "SC011",
+  "campaign": "Carolinas Campaign [February-March 1865]",
+  "url": "http://www.nps.gov/hps/abpp/battles/sc011.htm"
 }

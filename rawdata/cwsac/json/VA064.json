@@ -1,57 +1,98 @@
 {
-  "dates": "June 17-18, 1864",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/va064.htm",
-  "results_text": "Confederate victory",
+  "end_date": "1864-06-18",
+  "casualties": 900,
   "casualties_text": "900 total",
-  "description": "From Lexington, Maj. Gen. David Hunter advanced against the Confederate rail and canal depots and the hospital complex at Lynchburg. Reaching the outskirts of town on June 17, his first tentative attacks were thwarted by the timely arrival by rail of Lt. Gen. Jubal A. Early's II Corps vanguard from Charlottesville. Hunter withdrew the next day after sporadic fighting because of a critical shortage of supplies. His line of retreat through West Virginia took his army out of the war for nearly a month and opened the Shenandoah Valley for a Confederate advance into Maryland.",
-  "start_date": "1864-06-17",
-  "forces_text": "Corps (44,000 total)",
-  "strength": 44000,
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Early",
-          "middle_name": "A.",
           "rank": "Lieutenant General",
+          "first_name": "Jubal",
           "suffix": "",
-          "fullname": "Jubal A. Early",
-          "first_name": "Jubal"
+          "navy": false,
+          "middle_name": "A.",
+          "last_name": "Early",
+          "fullname": "Jubal A. Early"
         }
       ]
     },
     "US": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Hunter",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "David",
           "suffix": "",
-          "fullname": "David Hunter",
-          "first_name": "David"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Hunter",
+          "fullname": "David Hunter"
         }
       ]
     }
   },
-  "campaign": "Lynchburg Campaign [May-June 1864]",
-  "battle": "VA064",
-  "result": "Confederate",
+  "strength": 44000,
+  "cwsac_reference": "VA064",
+  "operation": false,
+  "forces_text": "Corps (44,000 total)",
+  "start_date": "1864-06-17",
+  "preservation": "IV.2",
+  "results_text": "Confederate victory",
+  "description": "From Lexington, Maj. Gen. David Hunter advanced against the Confederate rail and canal depots and the hospital complex at Lynchburg. Reaching the outskirts of town on June 17, his first tentative attacks were thwarted by the timely arrival by rail of Lt. Gen. Jubal A. Early's II Corps vanguard from Charlottesville. Hunter withdrew the next day after sporadic fighting because of a critical shortage of supplies. His line of retreat through West Virginia took his army out of the war for nearly a month and opened the Shenandoah Valley for a Confederate advance into Maryland.",
+  "state": "VA",
   "significance": "B",
   "other_names": null,
-  "state": "VA",
-  "preservation": "IV.2",
+  "dates": "June 17-18, 1864",
+  "battle_name": "Lynchburg",
   "principal_commanders": "Maj. Gen. David Hunter [US]; Lt. Gen. Jubal A. Early [CS]",
-  "end_date": "1864-06-18",
-  "cwsac_reference": "VA064",
-  "casualties": 900,
   "location": [
     {
-      "place": "City of Lynchburg",
-      "state": "VA"
+      "state": "VA",
+      "place": "City of Lynchburg"
     }
   ],
-  "battle_name": "Lynchburg"
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "Lieutenant General",
+          "first_name": "Jubal",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "A.",
+          "last_name": "Early",
+          "fullname": "Jubal A. Early"
+        }
+      ]
+    },
+    "US": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "David",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Hunter",
+          "fullname": "David Hunter"
+        }
+      ]
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "Lieutenant General",
+          "first_name": "Jubal",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "A.",
+          "last_name": "Early",
+          "fullname": "Jubal A. Early"
+        }
+      ]
+    }
+  },
+  "result": "Confederate",
+  "battle": "VA064",
+  "campaign": "Lynchburg Campaign [May-June 1864]",
+  "url": "http://www.nps.gov/hps/abpp/battles/va064.htm"
 }

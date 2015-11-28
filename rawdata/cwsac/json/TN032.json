@@ -1,23 +1,18 @@
 {
-  "dates": "November 4-5, 1864",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/tn032.htm",
-  "results_text": "Confederate victory",
+  "end_date": "1864-11-05",
+  "casualties": null,
   "casualties_text": "Unknown",
-  "description": "In an effort to check the Union army's advance through Georgia, Maj. Gen. Nathan Bedford Forrest led a 23-day raid culminating in an attack on the Yankee supply base at Johnsonville, Tennessee. Swinging north from Corinth, Mississippi, toward the Kentucky border and temporarily blockading the Tennessee River at Fort Herman, Forrest then moved southward along the Tennessee River's west bank, capturing several U.S. steamers and a gunboat which he later had to abandon. On November 4, Forrest began positioning his artillery across the river from the Federal supply base and landing at Johnsonville. The Union discovered the Confederates finishing their entrenchments and battery emplacements in the afternoon of the 4th. The Union gunboats and land batteries, across the river, engaged the Confederates in an artillery duel. The Rebel guns, however, were so well-positioned, the Federals were unable to hinder them. In fact, Confederate artillery fire disabled the gunboats. Fearing that the Rebels might cross the river and capture the transports, the Federals set fire to them. The wind then extended the fire to the piles of stores on the levee and to a warehouse loaded with supplies. Seeing the fire, the Confederates began firing on the steamboats, barges, and warehouses to prevent the Federals from putting out the fire. An inferno illuminated Forrest's night withdrawal, and he escaped Union clutches without serious loss. Damages totaled $2.2 million. The next morning, on the 5th, some Confederate artillery bombarded the depot in the morning but then left. Although this brilliant victory further strengthened Forrest's reputation and destroyed a great amount of Union materiel, it failed to stem the tide of Union success in Georgia. By this time, Forrest often harassed the Union Army, but, as this engagement demonstrated, he could not stop their operations.",
-  "start_date": "1864-11-04",
-  "forces_text": "Supply depot garrison (approx. 4,000) [US]; Forrest's Cavalry [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Forrest",
-          "middle_name": "Bedford",
           "rank": "Major General",
+          "first_name": "Nathan",
           "suffix": "",
-          "fullname": "Nathan Bedford Forrest",
-          "first_name": "Nathan"
+          "navy": false,
+          "middle_name": "Bedford",
+          "last_name": "Forrest",
+          "fullname": "Nathan Bedford Forrest"
         }
       ],
       "description": "Forrest's Cavalry"
@@ -25,45 +20,105 @@
     "US": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Thompson",
-          "middle_name": "",
           "rank": "Colonel",
+          "first_name": "C.R.",
           "suffix": "",
-          "fullname": "C.R. Thompson",
-          "first_name": "C.R."
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Thompson",
+          "fullname": "C.R. Thompson"
         },
         {
-          "navy": true,
-          "last_name": "King",
-          "middle_name": "M.",
           "rank": "Lieutenant Commander",
+          "first_name": "Edward",
           "suffix": "",
-          "fullname": "Edward M. King",
-          "first_name": "Edward"
+          "navy": true,
+          "middle_name": "M.",
+          "last_name": "King",
+          "fullname": "Edward M. King"
         }
       ],
-      "strength_max": 4000,
       "strength_min": 4000,
-      "description": "Supply depot garrison (approx. 4,000)"
+      "description": "Supply depot garrison (approx. 4,000)",
+      "strength_max": 4000
     }
   },
-  "campaign": "Franklin-Nashville Campaign [September-December 1864]",
-  "battle": "TN032",
-  "result": "Confederate",
+  "cwsac_reference": "TN032",
+  "operation": false,
+  "forces_text": "Supply depot garrison (approx. 4,000) [US]; Forrest's Cavalry [CS]",
+  "start_date": "1864-11-04",
+  "preservation": "IV.2",
+  "results_text": "Confederate victory",
+  "description": "In an effort to check the Union army's advance through Georgia, Maj. Gen. Nathan Bedford Forrest led a 23-day raid culminating in an attack on the Yankee supply base at Johnsonville, Tennessee. Swinging north from Corinth, Mississippi, toward the Kentucky border and temporarily blockading the Tennessee River at Fort Herman, Forrest then moved southward along the Tennessee River's west bank, capturing several U.S. steamers and a gunboat which he later had to abandon. On November 4, Forrest began positioning his artillery across the river from the Federal supply base and landing at Johnsonville. The Union discovered the Confederates finishing their entrenchments and battery emplacements in the afternoon of the 4th. The Union gunboats and land batteries, across the river, engaged the Confederates in an artillery duel. The Rebel guns, however, were so well-positioned, the Federals were unable to hinder them. In fact, Confederate artillery fire disabled the gunboats. Fearing that the Rebels might cross the river and capture the transports, the Federals set fire to them. The wind then extended the fire to the piles of stores on the levee and to a warehouse loaded with supplies. Seeing the fire, the Confederates began firing on the steamboats, barges, and warehouses to prevent the Federals from putting out the fire. An inferno illuminated Forrest's night withdrawal, and he escaped Union clutches without serious loss. Damages totaled $2.2 million. The next morning, on the 5th, some Confederate artillery bombarded the depot in the morning but then left. Although this brilliant victory further strengthened Forrest's reputation and destroyed a great amount of Union materiel, it failed to stem the tide of Union success in Georgia. By this time, Forrest often harassed the Union Army, but, as this engagement demonstrated, he could not stop their operations.",
+  "state": "TN",
   "significance": "B",
   "other_names": null,
-  "state": "TN",
-  "preservation": "IV.2",
+  "dates": "November 4-5, 1864",
+  "battle_name": "Johnsonville",
   "principal_commanders": "Col. C.R. Thompson and Lt. Cdr. Edward M. King [US]; Maj. Gen. Nathan Bedford Forrest [CS]",
-  "end_date": "1864-11-05",
-  "cwsac_reference": "TN032",
-  "casualties": null,
+  "campaign": "Franklin-Nashville Campaign [September-December 1864]",
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Nathan",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "Bedford",
+          "last_name": "Forrest",
+          "fullname": "Nathan Bedford Forrest"
+        }
+      ],
+      "description": "Forrest's Cavalry"
+    },
+    "US": {
+      "commanders": [
+        {
+          "rank": "Colonel",
+          "first_name": "C.R.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Thompson",
+          "fullname": "C.R. Thompson"
+        },
+        {
+          "rank": "Lieutenant Commander",
+          "first_name": "Edward",
+          "suffix": "",
+          "navy": true,
+          "middle_name": "M.",
+          "last_name": "King",
+          "fullname": "Edward M. King"
+        }
+      ],
+      "strength_min": 4000,
+      "description": "Supply depot garrison (approx. 4,000)",
+      "strength_max": 4000
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Nathan",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "Bedford",
+          "last_name": "Forrest",
+          "fullname": "Nathan Bedford Forrest"
+        }
+      ],
+      "description": "Forrest's Cavalry"
+    }
+  },
+  "result": "Confederate",
+  "battle": "TN032",
   "location": [
     {
-      "place": "Benton County",
-      "state": "TN"
+      "state": "TN",
+      "place": "Benton County"
     }
   ],
-  "battle_name": "Johnsonville"
+  "url": "http://www.nps.gov/hps/abpp/battles/tn032.htm"
 }

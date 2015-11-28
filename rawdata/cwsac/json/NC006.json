@@ -1,58 +1,102 @@
 {
-  "dates": "June 5, 1862",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/nc006.htm",
-  "results_text": "Union victory",
+  "end_date": "1862-06-05",
+  "casualties": 40,
   "casualties_text": "40 total",
-  "description": "On June 5, Col. Robert Potter, garrison commander at Washington, North Carolina, ordered a reconnaissance in the direction of Pactolus. The 24th Massachusetts under Lt. Col. F.A. Osborne, advanced to the bridge over Tranter's Creek, where it encountered the 44th North Carolina, under Col. George Singletary. Unable to force a crossing, Osborne brought his artillery to bear on the mill buildings in which the Confederates were barricaded. Colonel Singletary was killed in the bombardment, and his troops retreated. The Federals did not pursue and returned to their fortifications at Washington.",
-  "start_date": "1862-06-05",
-  "forces_text": "Regiments",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "regiments": 1,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Singletary",
-          "middle_name": "",
           "rank": "Colonel",
+          "first_name": "George",
           "suffix": "",
-          "fullname": "George Singletary",
-          "first_name": "George"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Singletary",
+          "fullname": "George Singletary"
         }
-      ],
-      "regiments": 1
+      ]
     },
     "US": {
+      "regiments": 1,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Osborn",
-          "middle_name": "",
           "rank": "Lieutenant Colonel",
+          "first_name": "F. A.",
           "suffix": "",
-          "fullname": "F. A. Osborn",
-          "first_name": "F. A."
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Osborn",
+          "fullname": "F. A. Osborn"
         }
-      ],
-      "regiments": 1
+      ]
     }
   },
-  "campaign": "Burnside's North Carolina Expedition [February-June 1862]",
-  "battle": "NC006",
-  "result": "Union",
+  "cwsac_reference": "NC006",
+  "operation": false,
+  "forces_text": "Regiments",
+  "start_date": "1862-06-05",
+  "preservation": "III.4",
+  "results_text": "Union victory",
+  "description": "On June 5, Col. Robert Potter, garrison commander at Washington, North Carolina, ordered a reconnaissance in the direction of Pactolus. The 24th Massachusetts under Lt. Col. F.A. Osborne, advanced to the bridge over Tranter's Creek, where it encountered the 44th North Carolina, under Col. George Singletary. Unable to force a crossing, Osborne brought his artillery to bear on the mill buildings in which the Confederates were barricaded. Colonel Singletary was killed in the bombardment, and his troops retreated. The Federals did not pursue and returned to their fortifications at Washington.",
+  "state": "NC",
   "significance": "D",
   "other_names": null,
-  "state": "NC",
-  "preservation": "III.4",
+  "dates": "June 5, 1862",
+  "battle_name": "Tranter's Creek",
   "principal_commanders": "Lt. Col. F.A. Osborne [US]; Col. George Singletary [CS]",
-  "end_date": "1862-06-05",
-  "cwsac_reference": "NC006",
-  "casualties": 40,
+  "campaign": "Burnside's North Carolina Expedition [February-June 1862]",
+  "belligerents": {
+    "Confederate": {
+      "regiments": 1,
+      "commanders": [
+        {
+          "rank": "Colonel",
+          "first_name": "George",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Singletary",
+          "fullname": "George Singletary"
+        }
+      ]
+    },
+    "US": {
+      "regiments": 1,
+      "commanders": [
+        {
+          "rank": "Lieutenant Colonel",
+          "first_name": "F. A.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Osborn",
+          "fullname": "F. A. Osborn"
+        }
+      ]
+    },
+    "CS": {
+      "regiments": 1,
+      "commanders": [
+        {
+          "rank": "Colonel",
+          "first_name": "George",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Singletary",
+          "fullname": "George Singletary"
+        }
+      ]
+    }
+  },
+  "result": "Union",
+  "battle": "NC006",
   "location": [
     {
-      "place": "Pitt County",
-      "state": "NC"
+      "state": "NC",
+      "place": "Pitt County"
     }
   ],
-  "battle_name": "Tranter's Creek"
+  "url": "http://www.nps.gov/hps/abpp/battles/nc006.htm"
 }

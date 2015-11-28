@@ -1,63 +1,115 @@
 {
-  "dates": "March 6, 1865",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/fl006.htm",
-  "results_text": "Confederate victory",
+  "end_date": "1865-03-06",
+  "casualties": 174,
   "casualties_text": "174 (US 148; CS 26)",
-  "description": "Maj. Gen. John Newton had undertaken a joint force expedition to engage and destroy Confederate troops that had attacked at Cedar Keys and Fort Myers and were allegedly encamped somewhere around St. Marks. The Navy had trouble getting its ships up the St. Marks River. The Army force, however, had advanced and, after finding one bridge destroyed, started before dawn on March 6 to attempt to cross the river at Natural Bridge. The troops initially pushed Rebel forces back but not away from the bridge. Confederate forces, protected by breastworks, guarded all of the approaches and the bridge itself. The action at Natural Bridge lasted most of the day, but, unable to take the bridge, the Union troops retreated to the protection of the fleet.",
-  "start_date": "1865-03-06",
-  "forces_text": "2nd U.S. Colored Infantry and 99th U.S. Colored Infantry [US]; Kilcrease Artillery; Dunham's Battery; Abell's Battery; 5th Florida Cavalry; 1st Florida Militia; Barwick's Company Reserves; Hodges Company Reserves; Company A, Milton Light Artillery; Companies A, B, and F, Reserves and reinforcements from Georgia amounting to approx. 1,000 men [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": 26,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Jones",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "Sam",
           "suffix": "",
-          "fullname": "Sam Jones",
-          "first_name": "Sam"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Jones",
+          "fullname": "Sam Jones"
         }
       ],
       "description": "Kilcrease Artillery; Dunham's Battery; Abell's Battery; 5th Florida Cavalry; 1st Florida Militia; Barwick's Company Reserves; Hodges Company Reserves; Company A, Milton Light Artillery; Companies A, B, and F, Reserves and reinforcements from Georgia amounting to approx. 1,000 men",
-      "strength_max": 1000,
       "strength_min": 1000,
-      "casualties": 26
+      "strength_max": 1000
     },
     "US": {
+      "regiments": 2,
+      "casualties": 148,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Newton",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "John",
           "suffix": "",
-          "fullname": "John Newton",
-          "first_name": "John"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Newton",
+          "fullname": "John Newton"
         }
       ],
-      "description": "2nd U.S. Colored Infantry and 99th U.S. Colored Infantry",
-      "regiments": 2,
-      "casualties": 148
+      "description": "2nd U.S. Colored Infantry and 99th U.S. Colored Infantry"
     }
   },
-  "campaign": "Operations near Saint Mark's [March 1865]",
-  "battle": "FL006",
-  "result": "Confederate",
+  "cwsac_reference": "FL006",
+  "operation": false,
+  "forces_text": "2nd U.S. Colored Infantry and 99th U.S. Colored Infantry [US]; Kilcrease Artillery; Dunham's Battery; Abell's Battery; 5th Florida Cavalry; 1st Florida Militia; Barwick's Company Reserves; Hodges Company Reserves; Company A, Milton Light Artillery; Companies A, B, and F, Reserves and reinforcements from Georgia amounting to approx. 1,000 men [CS]",
+  "start_date": "1865-03-06",
+  "preservation": "III.3",
+  "results_text": "Confederate victory",
+  "description": "Maj. Gen. John Newton had undertaken a joint force expedition to engage and destroy Confederate troops that had attacked at Cedar Keys and Fort Myers and were allegedly encamped somewhere around St. Marks. The Navy had trouble getting its ships up the St. Marks River. The Army force, however, had advanced and, after finding one bridge destroyed, started before dawn on March 6 to attempt to cross the river at Natural Bridge. The troops initially pushed Rebel forces back but not away from the bridge. Confederate forces, protected by breastworks, guarded all of the approaches and the bridge itself. The action at Natural Bridge lasted most of the day, but, unable to take the bridge, the Union troops retreated to the protection of the fleet.",
+  "state": "FL",
   "significance": "C",
   "other_names": null,
-  "state": "FL",
-  "preservation": "III.3",
+  "dates": "March 6, 1865",
+  "battle_name": "Natural Bridge",
   "principal_commanders": "Maj. Gen. John Newton [US]; Maj. Gen. Sam Jones [CS]",
-  "end_date": "1865-03-06",
-  "cwsac_reference": "FL006",
-  "casualties": 174,
+  "campaign": "Operations near Saint Mark's [March 1865]",
+  "belligerents": {
+    "Confederate": {
+      "casualties": 26,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Sam",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Jones",
+          "fullname": "Sam Jones"
+        }
+      ],
+      "description": "Kilcrease Artillery; Dunham's Battery; Abell's Battery; 5th Florida Cavalry; 1st Florida Militia; Barwick's Company Reserves; Hodges Company Reserves; Company A, Milton Light Artillery; Companies A, B, and F, Reserves and reinforcements from Georgia amounting to approx. 1,000 men",
+      "strength_min": 1000,
+      "strength_max": 1000
+    },
+    "US": {
+      "regiments": 2,
+      "casualties": 148,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Newton",
+          "fullname": "John Newton"
+        }
+      ],
+      "description": "2nd U.S. Colored Infantry and 99th U.S. Colored Infantry"
+    },
+    "CS": {
+      "casualties": 26,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Sam",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Jones",
+          "fullname": "Sam Jones"
+        }
+      ],
+      "description": "Kilcrease Artillery; Dunham's Battery; Abell's Battery; 5th Florida Cavalry; 1st Florida Militia; Barwick's Company Reserves; Hodges Company Reserves; Company A, Milton Light Artillery; Companies A, B, and F, Reserves and reinforcements from Georgia amounting to approx. 1,000 men",
+      "strength_min": 1000,
+      "strength_max": 1000
+    }
+  },
+  "result": "Confederate",
+  "battle": "FL006",
   "location": [
     {
-      "place": "Leon County",
-      "state": "FL"
+      "state": "FL",
+      "place": "Leon County"
     }
   ],
-  "battle_name": "Natural Bridge"
+  "url": "http://www.nps.gov/hps/abpp/battles/fl006.htm"
 }

@@ -1,64 +1,111 @@
 {
-  "dates": "May 5, 1864",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/nc013.htm",
-  "results_text": "Inconclusive",
+  "end_date": "1864-05-05",
+  "casualties": 88,
   "casualties_text": "88 total",
-  "description": "On May 5, CSS Albemarle fought seven blockading Union ships to a draw at the mouth of the Roanoke River. Federals recaptured the converted steamer Bombshell. USS Sassacus was badly damaged.",
-  "start_date": "1864-05-05",
-  "forces_text": "9 gunboats [US]; Confederate ram [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "ships": 1,
       "commanders": [
         {
-          "navy": true,
-          "last_name": "Cooke",
-          "middle_name": "",
           "rank": "Commander",
+          "first_name": "J.W.",
           "suffix": "",
-          "fullname": "J.W. Cooke",
-          "first_name": "J.W."
+          "navy": true,
+          "middle_name": "",
+          "last_name": "Cooke",
+          "fullname": "J.W. Cooke"
         }
       ],
-      "ships": 1,
       "description": "Confederate ram"
     },
     "US": {
       "gunboats": 9,
       "commanders": [
         {
-          "navy": true,
-          "last_name": "Smith",
-          "middle_name": "",
           "rank": "Captain",
+          "first_name": "Melancton",
           "suffix": "",
-          "fullname": "Melancton Smith",
-          "first_name": "Melancton"
+          "navy": true,
+          "middle_name": "",
+          "last_name": "Smith",
+          "fullname": "Melancton Smith"
         }
       ],
       "description": "9 gunboats"
     }
   },
-  "campaign": "Operations Against Plymouth [April-May 1864]",
-  "battle": "NC013",
-  "result": "Inconclusive",
+  "cwsac_reference": "NC013",
+  "operation": false,
+  "forces_text": "9 gunboats [US]; Confederate ram [CS]",
+  "start_date": "1864-05-05",
+  "preservation": "III.3",
+  "results_text": "Inconclusive",
+  "description": "On May 5, CSS Albemarle fought seven blockading Union ships to a draw at the mouth of the Roanoke River. Federals recaptured the converted steamer Bombshell. USS Sassacus was badly damaged.",
+  "state": "NC",
   "significance": "C",
   "other_names": null,
-  "state": "NC",
-  "preservation": "III.3",
+  "dates": "May 5, 1864",
+  "battle_name": "Albemarle Sound",
   "principal_commanders": "Capt. (Naval) Melancton Smith [US]; Cdr. J.W. Cooke [CS]",
-  "end_date": "1864-05-05",
-  "cwsac_reference": "NC013",
-  "casualties": 88,
+  "campaign": "Operations Against Plymouth [April-May 1864]",
+  "belligerents": {
+    "Confederate": {
+      "ships": 1,
+      "commanders": [
+        {
+          "rank": "Commander",
+          "first_name": "J.W.",
+          "suffix": "",
+          "navy": true,
+          "middle_name": "",
+          "last_name": "Cooke",
+          "fullname": "J.W. Cooke"
+        }
+      ],
+      "description": "Confederate ram"
+    },
+    "US": {
+      "gunboats": 9,
+      "commanders": [
+        {
+          "rank": "Captain",
+          "first_name": "Melancton",
+          "suffix": "",
+          "navy": true,
+          "middle_name": "",
+          "last_name": "Smith",
+          "fullname": "Melancton Smith"
+        }
+      ],
+      "description": "9 gunboats"
+    },
+    "CS": {
+      "ships": 1,
+      "commanders": [
+        {
+          "rank": "Commander",
+          "first_name": "J.W.",
+          "suffix": "",
+          "navy": true,
+          "middle_name": "",
+          "last_name": "Cooke",
+          "fullname": "J.W. Cooke"
+        }
+      ],
+      "description": "Confederate ram"
+    }
+  },
+  "result": "Inconclusive",
+  "battle": "NC013",
   "location": [
     {
-      "place": "Chowan County",
-      "state": "NC"
+      "state": "NC",
+      "place": "Chowan County"
     },
     {
-      "place": "Washington County",
-      "state": "NC"
+      "state": "NC",
+      "place": "Washington County"
     }
   ],
-  "battle_name": "Albemarle Sound"
+  "url": "http://www.nps.gov/hps/abpp/battles/nc013.htm"
 }

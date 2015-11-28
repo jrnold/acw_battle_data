@@ -1,64 +1,114 @@
 {
-  "dates": "December 31, 1862-January 2, 1863",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/tn010.htm",
-  "results_text": "Union victory",
+  "end_date": "1863-01-02",
+  "casualties": 23515,
   "casualties_text": "23,515 total (US 13,249; CS 10,266)",
-  "description": "After Gen. Braxton Bragg's defeat at Perryville, Kentucky, October 8, 1862, he and his Confederate Army of the Mississippi retreated, reorganized, and were redesignated as the Army of Tennessee. They then advanced to Murfreesboro, Tennessee, and prepared to go into winter quarters. Maj. Gen. William S. Rosecrans's Union Army of the Cumberland followed Bragg from Kentucky to Nashville. Rosecrans left Nashville on December 26, with about 44,000 men, to defeat Bragg's army of more than 37,000. He found Bragg's army on December 29 and went into camp that night, within hearing distance of the Rebels. At dawn on the 31st, Bragg's men attacked the Union right flank. The Confederates had driven the Union line back to the Nashville Pike by 10:00 am but there it held. Union reinforcements arrived from Rosecrans's left in the late forenoon to bolster the stand, and before fighting stopped that day the Federals had established a new, strong line. On New Years Day, both armies marked time. Bragg surmised that Rosecrans would now withdraw, but the next morning he was still in position. In late afternoon, Bragg hurled a division at a Union division that, on January 1, had crossed Stones River and had taken up a strong position on the bluff east of the river. The Confederates drove most of the Federals back across McFadden's Ford, but with the assistance of artillery, the Federals repulsed the attack, compelling the Rebels to retire to their original position. Bragg left the field on the January 4-5, retreating to Shelbyville and Tullahoma, Tennessee. Rosecrans did not pursue, but as the Confederates retired, he claimed the victory. Stones River boosted Union morale. The Confederates had been thrown back in the east, west, and in the Trans-Mississippi.",
-  "start_date": "1862-12-31",
-  "forces_text": "Army of the Cumberland [US]; Army of Tennessee [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": 10266,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Bragg",
-          "middle_name": "",
           "rank": "General",
+          "first_name": "Braxton",
           "suffix": "",
-          "fullname": "Braxton Bragg",
-          "first_name": "Braxton"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Bragg",
+          "fullname": "Braxton Bragg"
         }
       ],
       "description": "Army of Tennessee",
-      "armies": 1,
-      "casualties": 10266
+      "armies": 1
     },
     "US": {
+      "casualties": 13249,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Rosecrans",
-          "middle_name": "S.",
           "rank": "Major General",
+          "first_name": "William",
           "suffix": "",
-          "fullname": "William S. Rosecrans",
-          "first_name": "William"
+          "navy": false,
+          "middle_name": "S.",
+          "last_name": "Rosecrans",
+          "fullname": "William S. Rosecrans"
         }
       ],
       "description": "Army of the Cumberland",
-      "armies": 1,
-      "casualties": 13249
+      "armies": 1
     }
   },
-  "campaign": "Stones River Campaign [December 1862-January 1863]",
-  "battle": "TN010",
-  "result": "Union",
+  "cwsac_reference": "TN010",
+  "operation": false,
+  "forces_text": "Army of the Cumberland [US]; Army of Tennessee [CS]",
+  "start_date": "1862-12-31",
+  "preservation": "IV.1",
+  "results_text": "Union victory",
+  "description": "After Gen. Braxton Bragg's defeat at Perryville, Kentucky, October 8, 1862, he and his Confederate Army of the Mississippi retreated, reorganized, and were redesignated as the Army of Tennessee. They then advanced to Murfreesboro, Tennessee, and prepared to go into winter quarters. Maj. Gen. William S. Rosecrans's Union Army of the Cumberland followed Bragg from Kentucky to Nashville. Rosecrans left Nashville on December 26, with about 44,000 men, to defeat Bragg's army of more than 37,000. He found Bragg's army on December 29 and went into camp that night, within hearing distance of the Rebels. At dawn on the 31st, Bragg's men attacked the Union right flank. The Confederates had driven the Union line back to the Nashville Pike by 10:00 am but there it held. Union reinforcements arrived from Rosecrans's left in the late forenoon to bolster the stand, and before fighting stopped that day the Federals had established a new, strong line. On New Years Day, both armies marked time. Bragg surmised that Rosecrans would now withdraw, but the next morning he was still in position. In late afternoon, Bragg hurled a division at a Union division that, on January 1, had crossed Stones River and had taken up a strong position on the bluff east of the river. The Confederates drove most of the Federals back across McFadden's Ford, but with the assistance of artillery, the Federals repulsed the attack, compelling the Rebels to retire to their original position. Bragg left the field on the January 4-5, retreating to Shelbyville and Tullahoma, Tennessee. Rosecrans did not pursue, but as the Confederates retired, he claimed the victory. Stones River boosted Union morale. The Confederates had been thrown back in the east, west, and in the Trans-Mississippi.",
+  "state": "TN",
   "significance": "A",
   "other_names": [
     "Murfreesboro"
   ],
-  "state": "TN",
-  "preservation": "IV.1",
+  "dates": "December 31, 1862-January 2, 1863",
+  "battle_name": "Stones River",
   "principal_commanders": "Maj. Gen. William S. Rosecrans [US]; Gen. Braxton Bragg [CS]",
-  "end_date": "1863-01-02",
-  "cwsac_reference": "TN010",
-  "casualties": 23515,
+  "campaign": "Stones River Campaign [December 1862-January 1863]",
+  "belligerents": {
+    "Confederate": {
+      "casualties": 10266,
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "Braxton",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Bragg",
+          "fullname": "Braxton Bragg"
+        }
+      ],
+      "description": "Army of Tennessee",
+      "armies": 1
+    },
+    "US": {
+      "casualties": 13249,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "William",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "S.",
+          "last_name": "Rosecrans",
+          "fullname": "William S. Rosecrans"
+        }
+      ],
+      "description": "Army of the Cumberland",
+      "armies": 1
+    },
+    "CS": {
+      "casualties": 10266,
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "Braxton",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Bragg",
+          "fullname": "Braxton Bragg"
+        }
+      ],
+      "description": "Army of Tennessee",
+      "armies": 1
+    }
+  },
+  "result": "Union",
+  "battle": "TN010",
   "location": [
     {
-      "place": "Rutherford County",
-      "state": "TN"
+      "state": "TN",
+      "place": "Rutherford County"
     }
   ],
-  "battle_name": "Stones River"
+  "url": "http://www.nps.gov/hps/abpp/battles/tn010.htm"
 }

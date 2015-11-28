@@ -1,63 +1,115 @@
 {
-  "dates": "December 29, 1863",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/tn027.htm",
-  "results_text": "Union victory",
+  "end_date": "1863-12-29",
+  "casualties": null,
   "casualties_text": "Total unknown (US 151; CS unknown)",
-  "description": "Brig. Gen. Samuel D. Sturgis received a report on the night of December 28, 1863, that a brigade of enemy cavalry was in the neighborhood of Dandridge that afternoon. Surmising that the Rebel cavalry force was split, Sturgis decided to meet and defeat, and possibly capture, this portion of it. He ordered most of his troopers out toward Dandridge on two roads. After these troops had left, Maj. Gen. William T. Martin, commander of Longstreet's Confederate cavalry, now reunited, attacked the remainder of Sturgis's force at Mossy Creek, Tennessee, which included the First Brigade, Second Division, XXIII Army Corps, commanded by Col. Samuel R. Mott, at 9:00 am. First, Sturgis sent messages to his subordinates on the way to Dandridge to return promptly if they found no enemy there. The Confederates advanced, driving the Federals in front of them. Some of the Union troopers who had set out for Dandridge returned. Around 3:00 pm, fortunes changed as the Federals began driving the Confederates. By dark, the Rebels were back to the location from which they had begun the battle. Union pursuit was not mounted that night, but Martin retreated from the area. After the victory at Mossy Creek, the Union held the line about Talbott's Station for some time.",
-  "start_date": "1863-12-29",
-  "forces_text": "Cavalry Corps, Army of the Ohio and 1st Brigade, 2nd Division, XXIII Army Corps [US]; Longstreet's Cavalry, Department of East Tennessee (Sturgis reported that the Confederate cavalry was supported by a brigade of infantry; approx. 2,000 men) [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": null,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Martin",
-          "middle_name": "T.",
           "rank": "Major General",
+          "first_name": "William",
           "suffix": "",
-          "fullname": "William T. Martin",
-          "first_name": "William"
+          "navy": false,
+          "middle_name": "T.",
+          "last_name": "Martin",
+          "fullname": "William T. Martin"
         }
       ],
       "description": "Longstreet's Cavalry, Department of East Tennessee (Sturgis reported that the Confederate cavalry was supported by a brigade of infantry; approx. 2,000 men)",
-      "strength_max": 2000,
       "strength_min": 2000,
-      "casualties": null
+      "strength_max": 2000
     },
     "US": {
+      "casualties": 151,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Sturgis",
-          "middle_name": "D.",
           "rank": "Brigadier General",
+          "first_name": "Samuel",
           "suffix": "",
-          "fullname": "Samuel D. Sturgis",
-          "first_name": "Samuel"
+          "navy": false,
+          "middle_name": "D.",
+          "last_name": "Sturgis",
+          "fullname": "Samuel D. Sturgis"
         }
       ],
-      "description": "Cavalry Corps, Army of the Ohio and 1st Brigade, 2nd Division, XXIII Army Corps",
       "cavalry_corps": 1,
-      "casualties": 151
+      "description": "Cavalry Corps, Army of the Ohio and 1st Brigade, 2nd Division, XXIII Army Corps"
     }
   },
-  "campaign": "Operations about Dandridge [December 1863-January 1864]",
-  "battle": "TN027",
-  "result": "Union",
+  "cwsac_reference": "TN027",
+  "operation": false,
+  "forces_text": "Cavalry Corps, Army of the Ohio and 1st Brigade, 2nd Division, XXIII Army Corps [US]; Longstreet's Cavalry, Department of East Tennessee (Sturgis reported that the Confederate cavalry was supported by a brigade of infantry; approx. 2,000 men) [CS]",
+  "start_date": "1863-12-29",
+  "preservation": "IV.1",
+  "results_text": "Union victory",
+  "description": "Brig. Gen. Samuel D. Sturgis received a report on the night of December 28, 1863, that a brigade of enemy cavalry was in the neighborhood of Dandridge that afternoon. Surmising that the Rebel cavalry force was split, Sturgis decided to meet and defeat, and possibly capture, this portion of it. He ordered most of his troopers out toward Dandridge on two roads. After these troops had left, Maj. Gen. William T. Martin, commander of Longstreet's Confederate cavalry, now reunited, attacked the remainder of Sturgis's force at Mossy Creek, Tennessee, which included the First Brigade, Second Division, XXIII Army Corps, commanded by Col. Samuel R. Mott, at 9:00 am. First, Sturgis sent messages to his subordinates on the way to Dandridge to return promptly if they found no enemy there. The Confederates advanced, driving the Federals in front of them. Some of the Union troopers who had set out for Dandridge returned. Around 3:00 pm, fortunes changed as the Federals began driving the Confederates. By dark, the Rebels were back to the location from which they had begun the battle. Union pursuit was not mounted that night, but Martin retreated from the area. After the victory at Mossy Creek, the Union held the line about Talbott's Station for some time.",
+  "state": "TN",
   "significance": "D",
   "other_names": null,
-  "state": "TN",
-  "preservation": "IV.1",
+  "dates": "December 29, 1863",
+  "battle_name": "Mossy Creek",
   "principal_commanders": "Brig. Gen. Samuel D. Sturgis [US]; Maj. Gen. William T. Martin [CS]",
-  "end_date": "1863-12-29",
-  "cwsac_reference": "TN027",
-  "casualties": null,
+  "campaign": "Operations about Dandridge [December 1863-January 1864]",
+  "belligerents": {
+    "Confederate": {
+      "casualties": null,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "William",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "T.",
+          "last_name": "Martin",
+          "fullname": "William T. Martin"
+        }
+      ],
+      "description": "Longstreet's Cavalry, Department of East Tennessee (Sturgis reported that the Confederate cavalry was supported by a brigade of infantry; approx. 2,000 men)",
+      "strength_min": 2000,
+      "strength_max": 2000
+    },
+    "US": {
+      "casualties": 151,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Samuel",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "D.",
+          "last_name": "Sturgis",
+          "fullname": "Samuel D. Sturgis"
+        }
+      ],
+      "cavalry_corps": 1,
+      "description": "Cavalry Corps, Army of the Ohio and 1st Brigade, 2nd Division, XXIII Army Corps"
+    },
+    "CS": {
+      "casualties": null,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "William",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "T.",
+          "last_name": "Martin",
+          "fullname": "William T. Martin"
+        }
+      ],
+      "description": "Longstreet's Cavalry, Department of East Tennessee (Sturgis reported that the Confederate cavalry was supported by a brigade of infantry; approx. 2,000 men)",
+      "strength_min": 2000,
+      "strength_max": 2000
+    }
+  },
+  "result": "Union",
+  "battle": "TN027",
   "location": [
     {
-      "place": "Jefferson County",
-      "state": "TN"
+      "state": "TN",
+      "place": "Jefferson County"
     }
   ],
-  "battle_name": "Mossy Creek"
+  "url": "http://www.nps.gov/hps/abpp/battles/tn027.htm"
 }

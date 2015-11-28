@@ -1,52 +1,89 @@
 {
-  "dates": "August 21, 1863",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/ks001.htm",
-  "results_text": "Confederate victory",
+  "end_date": "1863-08-21",
+  "casualties": 204,
   "casualties_text": "204 total (US 164; CS 40)",
-  "description": "In a supposed retaliation for a Union raid on Osceola, Missouri, Lt. Col. William C. Quantrill led a force of about 300 to 400 partisans in an attack on the city of Lawrence, Kansas. His men killed civilians-men and boys-and destroyed many of the buildings. He held the town several hours and then withdrew. The \"Lawrence Massacre\" was, perhaps, the extreme example of the vicious Kansas-Missouri border warfare.",
-  "start_date": "1863-08-21",
-  "forces_text": "No Union troops [US]; Quantrill's Raiders and other guerrillas [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": 40,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Quantrill",
-          "middle_name": "C.",
           "rank": "Lieutenant Colonel",
+          "first_name": "William",
           "suffix": "",
-          "fullname": "William C. Quantrill",
-          "first_name": "William"
+          "navy": false,
+          "middle_name": "C.",
+          "last_name": "Quantrill",
+          "fullname": "William C. Quantrill"
         }
       ],
-      "description": "Quantrill's Raiders and other guerrillas",
-      "casualties": 40
+      "description": "Quantrill's Raiders and other guerrillas"
     },
     "US": {
+      "casualties": 164,
       "commanders": [],
-      "description": "No Union troops",
-      "casualties": 164
+      "description": "No Union troops"
     }
   },
-  "campaign": "Quantrill's Raid into Kansas [August 1863]",
-  "battle": "KS001",
-  "result": "Confederate",
+  "cwsac_reference": "KS001",
+  "operation": false,
+  "forces_text": "No Union troops [US]; Quantrill's Raiders and other guerrillas [CS]",
+  "start_date": "1863-08-21",
+  "preservation": "IV.2",
+  "results_text": "Confederate victory",
+  "description": "In a supposed retaliation for a Union raid on Osceola, Missouri, Lt. Col. William C. Quantrill led a force of about 300 to 400 partisans in an attack on the city of Lawrence, Kansas. His men killed civilians-men and boys-and destroyed many of the buildings. He held the town several hours and then withdrew. The \"Lawrence Massacre\" was, perhaps, the extreme example of the vicious Kansas-Missouri border warfare.",
+  "state": "KS",
   "significance": "C",
   "other_names": [
     "Lawrence Massacre"
   ],
-  "state": "KS",
-  "preservation": "IV.2",
+  "dates": "August 21, 1863",
+  "battle_name": "Lawrence",
   "principal_commanders": "No Union commander [US]; Lt. Col. William C. Quantrill [CS]",
-  "end_date": "1863-08-21",
-  "cwsac_reference": "KS001",
-  "casualties": 204,
+  "campaign": "Quantrill's Raid into Kansas [August 1863]",
+  "belligerents": {
+    "Confederate": {
+      "casualties": 40,
+      "commanders": [
+        {
+          "rank": "Lieutenant Colonel",
+          "first_name": "William",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "C.",
+          "last_name": "Quantrill",
+          "fullname": "William C. Quantrill"
+        }
+      ],
+      "description": "Quantrill's Raiders and other guerrillas"
+    },
+    "US": {
+      "casualties": 164,
+      "commanders": [],
+      "description": "No Union troops"
+    },
+    "CS": {
+      "casualties": 40,
+      "commanders": [
+        {
+          "rank": "Lieutenant Colonel",
+          "first_name": "William",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "C.",
+          "last_name": "Quantrill",
+          "fullname": "William C. Quantrill"
+        }
+      ],
+      "description": "Quantrill's Raiders and other guerrillas"
+    }
+  },
+  "result": "Confederate",
+  "battle": "KS001",
   "location": [
     {
-      "place": "Douglas County",
-      "state": "KS"
+      "state": "KS",
+      "place": "Douglas County"
     }
   ],
-  "battle_name": "Lawrence"
+  "url": "http://www.nps.gov/hps/abpp/battles/ks001.htm"
 }

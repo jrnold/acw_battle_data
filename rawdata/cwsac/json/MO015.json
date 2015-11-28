@@ -1,80 +1,165 @@
 {
-  "dates": "August 15-16, 1862",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/mo015.htm",
-  "results_text": "Confederate victory",
+  "end_date": "1862-08-16",
+  "casualties": 270,
   "casualties_text": "270 total (US 160; CS 110)",
-  "description": "Maj. Emory S. Foster, under orders, led an 800-man combined force from Lexington to Lone Jack. Upon reaching the Lone Jack area, he discovered 1,600 Rebels under Col. J.T. Coffee and prepared to attack them. About 9:00 pm on the 15th, he and his men attacked the Confederate camp and dispersed the force. Early the next morning, Union pickets informed Foster that a 3,000-man Confederate force was advancing on him. Soon afterwards, this force attacked and a battle ensued that involved charges, retreats, and counterattacks. After five hours of fighting and the loss of Foster, Coffee and his 1,500 men reappeared, causing Foster's successor, Capt. M.H. Brawner to order a retreat. The men left the field in good order and returned to Lexington. This was a Confederate victory, but the Rebels had to evacuate the area soon afterward, when threatened by the approach of large Union forces. Except for a short period of time during Price's Raid, in 1864, the Confederacy lost its clout in Jackson County.",
-  "start_date": "1862-08-15",
-  "forces_text": "Detachments from fourteen companies of cavalry and a section of artillery (800 men) [US]; unknown [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": 110,
       "commanders": [
         {
+          "rank": "Colonel",
+          "first_name": "Jeremiah",
+          "suffix": "",
           "navy": false,
-          "last_name": "Cockrell",
           "middle_name": "Vard",
-          "rank": "Colonel",
-          "suffix": "",
-          "fullname": "Jeremiah Vard Cockrell",
-          "first_name": "Jeremiah"
+          "last_name": "Cockrell",
+          "fullname": "Jeremiah Vard Cockrell"
         },
         {
+          "rank": "Colonel",
+          "first_name": "G.W.",
+          "suffix": "",
           "navy": false,
+          "middle_name": "",
           "last_name": "Thompson",
-          "middle_name": "",
-          "rank": "Colonel",
-          "suffix": "",
-          "fullname": "G.W. Thompson",
-          "first_name": "G.W."
+          "fullname": "G.W. Thompson"
         },
         {
-          "navy": false,
-          "last_name": "Hays",
-          "middle_name": "",
           "rank": "Colonel",
+          "first_name": "Upton",
           "suffix": "",
-          "fullname": "Upton Hays",
-          "first_name": "Upton"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Hays",
+          "fullname": "Upton Hays"
         }
       ],
-      "description": "unknown",
-      "casualties": 110
+      "description": "unknown"
     },
     "US": {
+      "casualties": 160,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Foster",
-          "middle_name": "S.",
           "rank": "Major",
+          "first_name": "Emory",
           "suffix": "",
-          "fullname": "Emory S. Foster",
-          "first_name": "Emory"
+          "navy": false,
+          "middle_name": "S.",
+          "last_name": "Foster",
+          "fullname": "Emory S. Foster"
         }
       ],
       "description": "Detachments from fourteen companies of cavalry and a section of artillery (800 men)",
-      "strength_max": 800,
       "strength_min": 800,
-      "casualties": 160
+      "strength_max": 800
     }
   },
-  "campaign": "Operations North of Boston Mountains [August-November 1862]",
-  "battle": "MO015",
-  "result": "Confederate",
+  "cwsac_reference": "MO015",
+  "operation": false,
+  "forces_text": "Detachments from fourteen companies of cavalry and a section of artillery (800 men) [US]; unknown [CS]",
+  "start_date": "1862-08-15",
+  "preservation": "II.4",
+  "results_text": "Confederate victory",
+  "description": "Maj. Emory S. Foster, under orders, led an 800-man combined force from Lexington to Lone Jack. Upon reaching the Lone Jack area, he discovered 1,600 Rebels under Col. J.T. Coffee and prepared to attack them. About 9:00 pm on the 15th, he and his men attacked the Confederate camp and dispersed the force. Early the next morning, Union pickets informed Foster that a 3,000-man Confederate force was advancing on him. Soon afterwards, this force attacked and a battle ensued that involved charges, retreats, and counterattacks. After five hours of fighting and the loss of Foster, Coffee and his 1,500 men reappeared, causing Foster's successor, Capt. M.H. Brawner to order a retreat. The men left the field in good order and returned to Lexington. This was a Confederate victory, but the Rebels had to evacuate the area soon afterward, when threatened by the approach of large Union forces. Except for a short period of time during Price's Raid, in 1864, the Confederacy lost its clout in Jackson County.",
+  "state": "MO",
   "significance": "D",
   "other_names": null,
-  "state": "MO",
-  "preservation": "II.4",
+  "dates": "August 15-16, 1862",
+  "battle_name": "Lone Jack",
   "principal_commanders": "Maj. Emory S. Foster [US]; Col. Jeremiah Vard Cockrell, Col. G.W. Thompson, and Col. Upton Hays [CS]",
-  "end_date": "1862-08-16",
-  "cwsac_reference": "MO015",
-  "casualties": 270,
+  "campaign": "Operations North of Boston Mountains [August-November 1862]",
+  "belligerents": {
+    "Confederate": {
+      "casualties": 110,
+      "commanders": [
+        {
+          "rank": "Colonel",
+          "first_name": "Jeremiah",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "Vard",
+          "last_name": "Cockrell",
+          "fullname": "Jeremiah Vard Cockrell"
+        },
+        {
+          "rank": "Colonel",
+          "first_name": "G.W.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Thompson",
+          "fullname": "G.W. Thompson"
+        },
+        {
+          "rank": "Colonel",
+          "first_name": "Upton",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Hays",
+          "fullname": "Upton Hays"
+        }
+      ],
+      "description": "unknown"
+    },
+    "US": {
+      "casualties": 160,
+      "commanders": [
+        {
+          "rank": "Major",
+          "first_name": "Emory",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "S.",
+          "last_name": "Foster",
+          "fullname": "Emory S. Foster"
+        }
+      ],
+      "description": "Detachments from fourteen companies of cavalry and a section of artillery (800 men)",
+      "strength_min": 800,
+      "strength_max": 800
+    },
+    "CS": {
+      "casualties": 110,
+      "commanders": [
+        {
+          "rank": "Colonel",
+          "first_name": "Jeremiah",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "Vard",
+          "last_name": "Cockrell",
+          "fullname": "Jeremiah Vard Cockrell"
+        },
+        {
+          "rank": "Colonel",
+          "first_name": "G.W.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Thompson",
+          "fullname": "G.W. Thompson"
+        },
+        {
+          "rank": "Colonel",
+          "first_name": "Upton",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Hays",
+          "fullname": "Upton Hays"
+        }
+      ],
+      "description": "unknown"
+    }
+  },
+  "result": "Confederate",
+  "battle": "MO015",
   "location": [
     {
-      "place": "Jackson County",
-      "state": "MO"
+      "state": "MO",
+      "place": "Jackson County"
     }
   ],
-  "battle_name": "Lone Jack"
+  "url": "http://www.nps.gov/hps/abpp/battles/mo015.htm"
 }

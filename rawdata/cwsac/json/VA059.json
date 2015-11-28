@@ -1,23 +1,18 @@
 {
-  "dates": "May 30, 1864",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/va059.htm",
-  "results_text": "Union victory",
+  "end_date": "1864-05-30",
+  "casualties": 900,
   "casualties_text": "900 total",
-  "description": "With the armies stalemated along the Totopotomoy Creek line, the Federal cavalry began probing east and south. On May 30, Torbert's Division attacked and defeated Butler's Brigade near Old Church. Butler's troopers were driven steadily back on the road to Old Cold Harbor, opening the door for Sheridan's capture of the important crossroads the next day.",
-  "start_date": "1864-05-30",
-  "forces_text": "Brigades",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Butler",
-          "middle_name": "C.",
           "rank": "Brigadier General",
+          "first_name": "Matthew",
           "suffix": "",
-          "fullname": "Matthew C. Butler",
-          "first_name": "Matthew"
+          "navy": false,
+          "middle_name": "C.",
+          "last_name": "Butler",
+          "fullname": "Matthew C. Butler"
         }
       ],
       "brigades": 1
@@ -25,36 +20,85 @@
     "US": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Torbert",
-          "middle_name": "",
           "rank": "Brigadier General",
+          "first_name": "Alfred",
           "suffix": "",
-          "fullname": "Alfred Torbert",
-          "first_name": "Alfred"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Torbert",
+          "fullname": "Alfred Torbert"
         }
       ],
       "brigades": 1
     }
   },
-  "campaign": "Grant's Overland Campaign [May-June 1864]",
-  "battle": "VA059",
-  "result": "Union",
+  "cwsac_reference": "VA059",
+  "operation": false,
+  "forces_text": "Brigades",
+  "start_date": "1864-05-30",
+  "preservation": "III.3",
+  "results_text": "Union victory",
+  "description": "With the armies stalemated along the Totopotomoy Creek line, the Federal cavalry began probing east and south. On May 30, Torbert's Division attacked and defeated Butler's Brigade near Old Church. Butler's troopers were driven steadily back on the road to Old Cold Harbor, opening the door for Sheridan's capture of the important crossroads the next day.",
+  "state": "VA",
   "significance": "C",
   "other_names": [
     "Matadequin Creek"
   ],
-  "state": "VA",
-  "preservation": "III.3",
+  "dates": "May 30, 1864",
+  "battle_name": "Old Church",
   "principal_commanders": "Brig. Gen. Alfred Torbert [US]; Brig. Gen. Matthew C. Butler [CS]",
-  "end_date": "1864-05-30",
-  "cwsac_reference": "VA059",
-  "casualties": 900,
+  "campaign": "Grant's Overland Campaign [May-June 1864]",
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Matthew",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "C.",
+          "last_name": "Butler",
+          "fullname": "Matthew C. Butler"
+        }
+      ],
+      "brigades": 1
+    },
+    "US": {
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Alfred",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Torbert",
+          "fullname": "Alfred Torbert"
+        }
+      ],
+      "brigades": 1
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Matthew",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "C.",
+          "last_name": "Butler",
+          "fullname": "Matthew C. Butler"
+        }
+      ],
+      "brigades": 1
+    }
+  },
+  "result": "Union",
+  "battle": "VA059",
   "location": [
     {
-      "place": "Hanover County",
-      "state": "VA"
+      "state": "VA",
+      "place": "Hanover County"
     }
   ],
-  "battle_name": "Old Church"
+  "url": "http://www.nps.gov/hps/abpp/battles/va059.htm"
 }

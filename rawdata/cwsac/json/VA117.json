@@ -1,23 +1,18 @@
 {
-  "dates": "August 16, 1864",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/va117.htm",
-  "results_text": "Inconclusive",
+  "end_date": "1864-08-16",
+  "casualties": 550,
   "casualties_text": "550 total",
-  "description": "Kershaw's infantry division and Fitzhugh Lee's cavalry, under overall command of Lt. Gen. Richard Anderson (Army of Northern Virginia, I Corps) were sent from Petersburg to reinforce Early's army in the Valley. At Front Royal on the August 16, Union cavalry of Brig. Gen. Wesley Merritt's division surprised the Confederate columns in mid-stream of the Shenandoah River, capturing about 300. The Confederates rallied and advanced, gradually driving the two Union brigades back to Cedarville. After dark, Merritt withdrew to Ninevah.",
-  "start_date": "1864-08-16",
-  "forces_text": "Divisions",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Anderson",
-          "middle_name": "",
           "rank": "Lieutenant General",
+          "first_name": "Richard",
           "suffix": "",
-          "fullname": "Richard Anderson",
-          "first_name": "Richard"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Anderson",
+          "fullname": "Richard Anderson"
         }
       ],
       "divisions": 1
@@ -25,37 +20,86 @@
     "US": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Merritt",
-          "middle_name": "",
           "rank": "Brigadier General",
+          "first_name": "Wesley",
           "suffix": "",
-          "fullname": "Wesley Merritt",
-          "first_name": "Wesley"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Merritt",
+          "fullname": "Wesley Merritt"
         }
       ],
       "divisions": 1
     }
   },
-  "campaign": "Sheridan's Valley Campaign [August-October 1864]",
-  "battle": "VA117",
-  "result": "Inconclusive",
+  "cwsac_reference": "VA117",
+  "operation": false,
+  "forces_text": "Divisions",
+  "start_date": "1864-08-16",
+  "preservation": "IV.1",
+  "results_text": "Inconclusive",
+  "description": "Kershaw's infantry division and Fitzhugh Lee's cavalry, under overall command of Lt. Gen. Richard Anderson (Army of Northern Virginia, I Corps) were sent from Petersburg to reinforce Early's army in the Valley. At Front Royal on the August 16, Union cavalry of Brig. Gen. Wesley Merritt's division surprised the Confederate columns in mid-stream of the Shenandoah River, capturing about 300. The Confederates rallied and advanced, gradually driving the two Union brigades back to Cedarville. After dark, Merritt withdrew to Ninevah.",
+  "state": "VA",
   "significance": "C",
   "other_names": [
     "Front Royal",
     "Cedarville"
   ],
-  "state": "VA",
-  "preservation": "IV.1",
+  "dates": "August 16, 1864",
+  "battle_name": "Guard Hill",
   "principal_commanders": "Brig. Gen. Wesley Merritt [US]; Lt. Gen. Richard Anderson [CS]",
-  "end_date": "1864-08-16",
-  "cwsac_reference": "VA117",
-  "casualties": 550,
+  "campaign": "Sheridan's Valley Campaign [August-October 1864]",
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "Lieutenant General",
+          "first_name": "Richard",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Anderson",
+          "fullname": "Richard Anderson"
+        }
+      ],
+      "divisions": 1
+    },
+    "US": {
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Wesley",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Merritt",
+          "fullname": "Wesley Merritt"
+        }
+      ],
+      "divisions": 1
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "Lieutenant General",
+          "first_name": "Richard",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Anderson",
+          "fullname": "Richard Anderson"
+        }
+      ],
+      "divisions": 1
+    }
+  },
+  "result": "Inconclusive",
+  "battle": "VA117",
   "location": [
     {
-      "place": "Warren County",
-      "state": "VA"
+      "state": "VA",
+      "place": "Warren County"
     }
   ],
-  "battle_name": "Guard Hill"
+  "url": "http://www.nps.gov/hps/abpp/battles/va117.htm"
 }

@@ -1,86 +1,163 @@
 {
-  "dates": "March 26-28, 1862",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/nm002.htm",
-  "results_text": "Union victory",
+  "end_date": "1862-03-28",
+  "casualties": 331,
   "casualties_text": "331 total (US 142; CS 189)",
-  "description": "Glorieta Pass was a strategic location, situated at the southern tip of the Sangre de Cristo Mountains, southeast of Santa Fe, and on the Santa Fe Trail. In March 1862, a Confederate force of 200-300 Texans under the command of Maj. Charles L. Pyron encamped at Johnson's Ranch, at one end of the pass. Union Maj. John M. Chivington led more than 400 soldiers to the Pass and on the morning of March 26 moved out to attack. After noon, Chivington's men captured some Rebel advance troops and then found the main force behind them. Chivington advanced on them, but their artillery fire threw him back. He regrouped, split his force to the two sides of the pass, caught the Rebels in a crossfire, and soon forced them to retire. Pyron and his men retired about a mile and a half to a narrow section of the pass and formed a defensive line before Chivington's men appeared. The Yankees flanked Pyron's men again and punished them with enfilade fire. The Confederates fled again and the Union cavalry charged, capturing the rearguard. Chivington then retired and went into camp at Kozlowski's Ranch. No fighting occurred the next day as reinforcements arrived for both sides. Lt. Col. William R. Scurry's troops swelled the Rebel ranks to about 1,100 while Union Col. John P. Slough arrived with about 900 men. Both Slough and Scurry decided to attack and set out early on the 28th to do so. As Scurry advanced down the canyon, he saw the Union forces approaching, so he established a battle line, including his dismounted cavalry. Slough hit them before 11:00 am. The Confederates held their ground and then attacked and counterattacked throughout the afternoon. The fighting then ended as Slough retired first to Pigeon's Ranch and then to Kozlowski's Ranch. Scurry soon left the field also, thinking he had won the battle. Chivington's men, how-ever, had destroyed all Scurry's supplies and animals at Johnson's Ranch, forcing him to retreat to Santa Fe, the first step on the long road back to San Antonio, Texas. The Federals had won and, thereby, stopped Confederate incursions into the Southwest. Glorieta Pass was the turning point of the war in the New Mexico Territory.",
-  "start_date": "1862-03-26",
-  "forces_text": "Northern Division, Army of New Mexico [US]; 4th, 5th, and 7th Texas Cavalry Regiment, artillery, and a company of independent volunteers [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "regiments": 3,
+      "casualties": 189,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Pyron",
-          "middle_name": "L.",
           "rank": "Major",
+          "first_name": "Charles",
           "suffix": "",
-          "fullname": "Charles L. Pyron",
-          "first_name": "Charles"
+          "navy": false,
+          "middle_name": "L.",
+          "last_name": "Pyron",
+          "fullname": "Charles L. Pyron"
         },
         {
-          "navy": false,
-          "last_name": "Scurry",
-          "middle_name": "R.",
           "rank": "Lieutenant Colonel",
+          "first_name": "William",
           "suffix": "",
-          "fullname": "William R. Scurry",
-          "first_name": "William"
+          "navy": false,
+          "middle_name": "R.",
+          "last_name": "Scurry",
+          "fullname": "William R. Scurry"
         }
       ],
-      "description": "4th, 5th, and 7th Texas Cavalry Regiment, artillery, and a company of independent volunteers",
-      "regiments": 3,
-      "casualties": 189
+      "description": "4th, 5th, and 7th Texas Cavalry Regiment, artillery, and a company of independent volunteers"
     },
     "US": {
+      "casualties": 142,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Chivington",
-          "middle_name": "",
           "rank": "Major",
+          "first_name": "John",
           "suffix": "",
-          "fullname": "John Chivington",
-          "first_name": "John"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Chivington",
+          "fullname": "John Chivington"
         },
         {
-          "navy": false,
-          "last_name": "Slough",
-          "middle_name": "P.",
           "rank": "Colonel",
+          "first_name": "John",
           "suffix": "",
-          "fullname": "John P. Slough",
-          "first_name": "John"
+          "navy": false,
+          "middle_name": "P.",
+          "last_name": "Slough",
+          "fullname": "John P. Slough"
         }
       ],
       "divisions": 1,
-      "description": "Northern Division, Army of New Mexico",
-      "casualties": 142
+      "description": "Northern Division, Army of New Mexico"
     }
   },
-  "campaign": "Sibley's New Mexico Campaign [February-March 1862]",
-  "battle": "NM002",
-  "result": "Union",
+  "cwsac_reference": "NM002",
+  "operation": false,
+  "forces_text": "Northern Division, Army of New Mexico [US]; 4th, 5th, and 7th Texas Cavalry Regiment, artillery, and a company of independent volunteers [CS]",
+  "start_date": "1862-03-26",
+  "preservation": "I.1",
+  "results_text": "Union victory",
+  "description": "Glorieta Pass was a strategic location, situated at the southern tip of the Sangre de Cristo Mountains, southeast of Santa Fe, and on the Santa Fe Trail. In March 1862, a Confederate force of 200-300 Texans under the command of Maj. Charles L. Pyron encamped at Johnson's Ranch, at one end of the pass. Union Maj. John M. Chivington led more than 400 soldiers to the Pass and on the morning of March 26 moved out to attack. After noon, Chivington's men captured some Rebel advance troops and then found the main force behind them. Chivington advanced on them, but their artillery fire threw him back. He regrouped, split his force to the two sides of the pass, caught the Rebels in a crossfire, and soon forced them to retire. Pyron and his men retired about a mile and a half to a narrow section of the pass and formed a defensive line before Chivington's men appeared. The Yankees flanked Pyron's men again and punished them with enfilade fire. The Confederates fled again and the Union cavalry charged, capturing the rearguard. Chivington then retired and went into camp at Kozlowski's Ranch. No fighting occurred the next day as reinforcements arrived for both sides. Lt. Col. William R. Scurry's troops swelled the Rebel ranks to about 1,100 while Union Col. John P. Slough arrived with about 900 men. Both Slough and Scurry decided to attack and set out early on the 28th to do so. As Scurry advanced down the canyon, he saw the Union forces approaching, so he established a battle line, including his dismounted cavalry. Slough hit them before 11:00 am. The Confederates held their ground and then attacked and counterattacked throughout the afternoon. The fighting then ended as Slough retired first to Pigeon's Ranch and then to Kozlowski's Ranch. Scurry soon left the field also, thinking he had won the battle. Chivington's men, how-ever, had destroyed all Scurry's supplies and animals at Johnson's Ranch, forcing him to retreat to Santa Fe, the first step on the long road back to San Antonio, Texas. The Federals had won and, thereby, stopped Confederate incursions into the Southwest. Glorieta Pass was the turning point of the war in the New Mexico Territory.",
+  "state": "NM",
   "significance": "A",
   "other_names": [
     "La Glorieta Pass"
   ],
-  "state": "NM",
-  "preservation": "I.1",
+  "dates": "March 26-28, 1862",
+  "battle_name": "Glorieta Pass",
   "principal_commanders": "Maj. John Chivington and Col. John P. Slough [US]; Maj. Charles L. Pyron and Lt. Col. William R. Scurry [CS]",
-  "end_date": "1862-03-28",
-  "cwsac_reference": "NM002",
-  "casualties": 331,
+  "campaign": "Sibley's New Mexico Campaign [February-March 1862]",
+  "belligerents": {
+    "Confederate": {
+      "regiments": 3,
+      "casualties": 189,
+      "commanders": [
+        {
+          "rank": "Major",
+          "first_name": "Charles",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "L.",
+          "last_name": "Pyron",
+          "fullname": "Charles L. Pyron"
+        },
+        {
+          "rank": "Lieutenant Colonel",
+          "first_name": "William",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "R.",
+          "last_name": "Scurry",
+          "fullname": "William R. Scurry"
+        }
+      ],
+      "description": "4th, 5th, and 7th Texas Cavalry Regiment, artillery, and a company of independent volunteers"
+    },
+    "US": {
+      "casualties": 142,
+      "commanders": [
+        {
+          "rank": "Major",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Chivington",
+          "fullname": "John Chivington"
+        },
+        {
+          "rank": "Colonel",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "P.",
+          "last_name": "Slough",
+          "fullname": "John P. Slough"
+        }
+      ],
+      "divisions": 1,
+      "description": "Northern Division, Army of New Mexico"
+    },
+    "CS": {
+      "regiments": 3,
+      "casualties": 189,
+      "commanders": [
+        {
+          "rank": "Major",
+          "first_name": "Charles",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "L.",
+          "last_name": "Pyron",
+          "fullname": "Charles L. Pyron"
+        },
+        {
+          "rank": "Lieutenant Colonel",
+          "first_name": "William",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "R.",
+          "last_name": "Scurry",
+          "fullname": "William R. Scurry"
+        }
+      ],
+      "description": "4th, 5th, and 7th Texas Cavalry Regiment, artillery, and a company of independent volunteers"
+    }
+  },
+  "result": "Union",
+  "battle": "NM002",
   "location": [
     {
-      "place": "Santa Fe County",
-      "state": "NM"
+      "state": "NM",
+      "place": "Santa Fe County"
     },
     {
-      "place": "San Miguel County",
-      "state": "NM"
+      "state": "NM",
+      "place": "San Miguel County"
     }
   ],
-  "battle_name": "Glorieta Pass"
+  "url": "http://www.nps.gov/hps/abpp/battles/nm002.htm"
 }

@@ -1,60 +1,101 @@
 {
-  "dates": "April 11-May 4, 1863",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/va031.htm",
-  "results_text": "Inconclusive",
+  "end_date": "1863-05-04",
+  "casualties": 152,
   "casualties_text": "152 total (1,160 for entire siege)",
-  "description": "On April 19, a Union infantry force landed on Hill's Point at the confluence of the forks of the Nansemond River. This amphibious force assaulted Fort Huger from the rear, quickly capturing its garrison, thus reopening the river to Union shipping. On April 24, Brig. Gen. Michael Corcoran's Union division mounted a reconnaissance-in-force from Fort Dix against Maj. Gen. George E. Pickett's extreme right flank. The Federals approached cautiously and were easily repulsed. On April 29, Gen. Robert E. Lee directed Longstreet to disengage from Suffolk and rejoin the Army of Northern Virginia at Fredericksburg. By May 4, the last of Longstreet's command had crossed the Blackwater River en route to Richmond.",
-  "start_date": "1863-04-11",
-  "forces_text": "Divisions (45,000 total)",
-  "strength": 45000,
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Longstreet",
-          "middle_name": "",
           "rank": "Lieutenant General",
+          "first_name": "James",
           "suffix": "",
-          "fullname": "James Longstreet",
-          "first_name": "James"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Longstreet",
+          "fullname": "James Longstreet"
         }
       ]
     },
     "US": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Peck",
-          "middle_name": "",
           "rank": "Brigadier General",
+          "first_name": "John",
           "suffix": "",
-          "fullname": "John Peck",
-          "first_name": "John"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Peck",
+          "fullname": "John Peck"
         }
       ]
     }
   },
-  "campaign": "Longstreet's Tidewater Operations [March-April 1863]",
-  "battle": "VA031",
-  "result": "Inconclusive",
+  "strength": 45000,
+  "cwsac_reference": "VA031",
+  "operation": false,
+  "forces_text": "Divisions (45,000 total)",
+  "start_date": "1863-04-11",
+  "preservation": "II.3",
+  "results_text": "Inconclusive",
+  "description": "On April 19, a Union infantry force landed on Hill's Point at the confluence of the forks of the Nansemond River. This amphibious force assaulted Fort Huger from the rear, quickly capturing its garrison, thus reopening the river to Union shipping. On April 24, Brig. Gen. Michael Corcoran's Union division mounted a reconnaissance-in-force from Fort Dix against Maj. Gen. George E. Pickett's extreme right flank. The Federals approached cautiously and were easily repulsed. On April 29, Gen. Robert E. Lee directed Longstreet to disengage from Suffolk and rejoin the Army of Northern Virginia at Fredericksburg. By May 4, the last of Longstreet's command had crossed the Blackwater River en route to Richmond.",
+  "state": "VA",
   "significance": "C",
   "other_names": [
     "Fort Huger",
     "Hill's Point"
   ],
-  "state": "VA",
-  "preservation": "II.3",
+  "dates": "April 11-May 4, 1863",
+  "battle_name": "Suffolk",
   "principal_commanders": "Brig. Gen. John Peck [US]; Lt. Gen. James Longstreet [CS]",
-  "end_date": "1863-05-04",
-  "cwsac_reference": "VA031",
-  "casualties": 152,
   "location": [
     {
-      "place": "Suffolk",
-      "state": "VA"
+      "state": "VA",
+      "place": "Suffolk"
     }
   ],
-  "battle_name": "Suffolk"
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "Lieutenant General",
+          "first_name": "James",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Longstreet",
+          "fullname": "James Longstreet"
+        }
+      ]
+    },
+    "US": {
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Peck",
+          "fullname": "John Peck"
+        }
+      ]
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "Lieutenant General",
+          "first_name": "James",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Longstreet",
+          "fullname": "James Longstreet"
+        }
+      ]
+    }
+  },
+  "result": "Inconclusive",
+  "battle": "VA031",
+  "campaign": "Longstreet's Tidewater Operations [March-April 1863]",
+  "url": "http://www.nps.gov/hps/abpp/battles/va031.htm"
 }

@@ -1,75 +1,144 @@
 {
-  "dates": "September 2, 1861",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/mo005.htm",
-  "results_text": "Confederate victory",
+  "end_date": "1861-09-02",
+  "casualties": null,
   "casualties_text": "Total unknown (US 14; CS unknown)",
-  "description": "Col. J.H. Lane's cavalry, comprising about 600 men, set out from Fort Scott to learn the whereabouts of a rumored Confederate force. They encountered a Confederate force, about 6,000-strong, near Big Dry Wood Creek. The Union cavalry surprised the Confederates, but their numerical superiority soon determined the encounter's outcome. They forced the Union cavalry to retire and captured their mules, and the Confederates continued on towards Lexington. The Confederates were forcing the Federals to abandon southwestern Missouri and to concentrate on holding the Missouri Valley.",
-  "start_date": "1861-09-02",
-  "forces_text": "Kansas Cavalry Brigade (approx. 600) [US]; column of Missouri State Guard [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Price",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "Sterling",
           "suffix": "",
-          "fullname": "Sterling Price",
-          "first_name": "Sterling"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Price",
+          "fullname": "Sterling Price"
         },
         {
-          "navy": false,
-          "last_name": "Rains",
-          "middle_name": "S.",
           "rank": "Brigadier General",
+          "first_name": "James",
           "suffix": "",
-          "fullname": "James S. Rains",
-          "first_name": "James"
+          "navy": false,
+          "middle_name": "S.",
+          "last_name": "Rains",
+          "fullname": "James S. Rains"
         }
       ],
-      "description": "column of Missouri State Guard",
       "casualties": null,
-        "missouri_state_guard": true  
+      "missouri_state_guard": true,
+      "description": "column of Missouri State Guard"
     },
     "US": {
+      "casualties": 14,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Lane",
-          "middle_name": "",
           "rank": "Colonel",
+          "first_name": "J.H.",
           "suffix": "",
-          "fullname": "J.H. Lane",
-          "first_name": "J.H."
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Lane",
+          "fullname": "J.H. Lane"
         }
       ],
       "description": "Kansas Cavalry Brigade (approx. 600)",
-      "strength_max": 600,
       "strength_min": 600,
-      "casualties": 14
+      "strength_max": 600
     }
   },
-  "campaign": "Operations to Control Missouri [June-October 1861]",
-  "battle": "MO005",
-  "result": "Confederate",
+  "cwsac_reference": "MO005",
+  "operation": false,
+  "forces_text": "Kansas Cavalry Brigade (approx. 600) [US]; column of Missouri State Guard [CS]",
+  "start_date": "1861-09-02",
+  "preservation": "III.4",
+  "results_text": "Confederate victory",
+  "description": "Col. J.H. Lane's cavalry, comprising about 600 men, set out from Fort Scott to learn the whereabouts of a rumored Confederate force. They encountered a Confederate force, about 6,000-strong, near Big Dry Wood Creek. The Union cavalry surprised the Confederates, but their numerical superiority soon determined the encounter's outcome. They forced the Union cavalry to retire and captured their mules, and the Confederates continued on towards Lexington. The Confederates were forcing the Federals to abandon southwestern Missouri and to concentrate on holding the Missouri Valley.",
+  "state": "MO",
   "significance": "D",
   "other_names": [
     "Big Dry Wood Creek",
     "Battle of the Mules"
   ],
-  "state": "MO",
-  "preservation": "III.4",
+  "dates": "September 2, 1861",
+  "battle_name": "Dry Wood Creek",
   "principal_commanders": "Col. J.H. Lane [US]; Maj. Gen. Sterling Price and Brig. Gen. James S. Rains [CS]",
-  "end_date": "1861-09-02",
-  "cwsac_reference": "MO005",
-  "casualties": null,
+  "campaign": "Operations to Control Missouri [June-October 1861]",
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Sterling",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Price",
+          "fullname": "Sterling Price"
+        },
+        {
+          "rank": "Brigadier General",
+          "first_name": "James",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "S.",
+          "last_name": "Rains",
+          "fullname": "James S. Rains"
+        }
+      ],
+      "casualties": null,
+      "missouri_state_guard": true,
+      "description": "column of Missouri State Guard"
+    },
+    "US": {
+      "casualties": 14,
+      "commanders": [
+        {
+          "rank": "Colonel",
+          "first_name": "J.H.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Lane",
+          "fullname": "J.H. Lane"
+        }
+      ],
+      "description": "Kansas Cavalry Brigade (approx. 600)",
+      "strength_min": 600,
+      "strength_max": 600
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Sterling",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Price",
+          "fullname": "Sterling Price"
+        },
+        {
+          "rank": "Brigadier General",
+          "first_name": "James",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "S.",
+          "last_name": "Rains",
+          "fullname": "James S. Rains"
+        }
+      ],
+      "casualties": null,
+      "missouri_state_guard": true,
+      "description": "column of Missouri State Guard"
+    }
+  },
+  "result": "Confederate",
+  "battle": "MO005",
   "location": [
     {
-      "place": "Vernon County",
-      "state": "MO"
+      "state": "MO",
+      "place": "Vernon County"
     }
   ],
-  "battle_name": "Dry Wood Creek"
+  "url": "http://www.nps.gov/hps/abpp/battles/mo005.htm"
 }

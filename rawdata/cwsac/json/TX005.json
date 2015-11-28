@@ -1,63 +1,111 @@
 {
-  "dates": "May 12-13, 1865",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/tx005.htm",
-  "results_text": "Confederate victory",
+  "end_date": "1865-05-13",
+  "casualties": null,
   "casualties_text": "Total unknown (US 118; CS unknown)",
-  "description": "Since March 1865, a gentleman's agreement precluded fighting between Union and Confederate forces on the Rio Grande. In spite of this agreement, Col. Theodore H. Barrett, commanding forces at Brazos Santiago, Texas, dispatched an expedition, composed of 250 men of the 62nd U.S. Colored Infantry Regiment and 50 men of the 2nd Texas Cavalry Regiment under the command of Lt. Col. David Branson, to the mainland, on May 11, 1865, to attack reported Rebel outposts and camps. Prohibited by foul weather from crossing to Point Isabel as instructed, the expedition crossed to Boca Chica much later. At 2:00 am, on May 12, the expeditionary force surrounded the Rebel outpost at White's Ranch, but found no one there. Exhausted, having been up most of the night, Branson secreted his command in a thicket and among weeds on the banks of the Rio Grande and allowed his men to sleep. Around 8:30 am, people on the Mexican side of the river informed the Rebels of the Federals' whereabouts. Branson promptly led his men off to attack a Confederate camp at Palmito Ranch. After much skirmishing along the way, the Federals attacked the camp and scattered the Confederates. Branson and his men remained at the site to feed themselves and their horses but, at 3:00 pm, a sizable Confederate force appeared, influencing the Federals to retire to White's Ranch. He sent word of his predicament to Barrett, who reinforced Branson at daybreak, on the 13th, with 200 men of the 34th Indiana Volunteer Infantry. The augmented force, now commanded by Barrett, started out towards Palmito Ranch, skirmishing most of the way. At Palmito Ranch, they destroyed the rest of the supplies not torched the day before and continued on. A few miles forward, they became involved in a sharp firefight. After the fighting stopped, Barrett led his force back to a bluff at Tulosa on the river where the men could prepare dinner and camp for the night. At 4:00 pm, a large Confederate cavalry force, commanded by Col. John S. \"Rip\" Ford, approached, and the Federals formed a battle line. The Rebels hammered the Union line with artillery. To preclude an enemy flanking movement, Barrett ordered a retreat. The retreat was orderly and skirmishers held the Rebels at a respectable distance. Returning to Boca Chica at 8:00 pm, the men embarked at 4:00 am, on the 14th. This was the last battle in the Civil War. Native, African, and Hispanic Americans were all involved in the fighting. Many combatants reported that firing came from the Mexican shore and that some Imperial Mexican forces crossed the Rio Grande but did not take part in the battle. These reports are unproven.",
-  "start_date": "1865-05-12",
-  "forces_text": "Detachments from the 62nd U.S. Colored Infantry Regiment, 2nd Texas Cavalry Regiment, and 34th Indiana Volunteer Infantry [US]; Detachments from Gidding's Regiment, Anderson's Battalion of Cavalry, and numerous other Confederate units and southern sympathizers [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": null,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Ford",
-          "middle_name": "S.",
           "rank": "Colonel",
+          "first_name": "John",
           "suffix": "",
-          "fullname": "John S. \"Rip\" Ford",
-          "first_name": "John"
+          "navy": false,
+          "middle_name": "S.",
+          "last_name": "Ford",
+          "fullname": "John S. \"Rip\" Ford"
         }
       ],
-      "description": "Detachments from Gidding's Regiment, Anderson's Battalion of Cavalry, and numerous other Confederate units and southern sympathizers",
-      "casualties": null
+      "description": "Detachments from Gidding's Regiment, Anderson's Battalion of Cavalry, and numerous other Confederate units and southern sympathizers"
     },
     "US": {
+      "regiments": 1.5,
+      "casualties": 118,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Barrett",
-          "middle_name": "H.",
           "rank": "Colonel",
+          "first_name": "Theodore",
           "suffix": "",
-          "fullname": "Theodore H. Barrett",
-          "first_name": "Theodore"
+          "navy": false,
+          "middle_name": "H.",
+          "last_name": "Barrett",
+          "fullname": "Theodore H. Barrett"
         }
       ],
-      "description": "Detachments from the 62nd U.S. Colored Infantry Regiment, 2nd Texas Cavalry Regiment, and 34th Indiana Volunteer Infantry",
-      "regiments": 1.5,
-      "casualties": 118
+      "description": "Detachments from the 62nd U.S. Colored Infantry Regiment, 2nd Texas Cavalry Regiment, and 34th Indiana Volunteer Infantry"
     }
   },
-  "campaign": "Expedition from Brazos Santiago [May 1865]",
-  "battle": "TX005",
-  "result": "Confederate",
+  "cwsac_reference": "TX005",
+  "operation": false,
+  "forces_text": "Detachments from the 62nd U.S. Colored Infantry Regiment, 2nd Texas Cavalry Regiment, and 34th Indiana Volunteer Infantry [US]; Detachments from Gidding's Regiment, Anderson's Battalion of Cavalry, and numerous other Confederate units and southern sympathizers [CS]",
+  "start_date": "1865-05-12",
+  "preservation": "III.4",
+  "results_text": "Confederate victory",
+  "description": "Since March 1865, a gentleman's agreement precluded fighting between Union and Confederate forces on the Rio Grande. In spite of this agreement, Col. Theodore H. Barrett, commanding forces at Brazos Santiago, Texas, dispatched an expedition, composed of 250 men of the 62nd U.S. Colored Infantry Regiment and 50 men of the 2nd Texas Cavalry Regiment under the command of Lt. Col. David Branson, to the mainland, on May 11, 1865, to attack reported Rebel outposts and camps. Prohibited by foul weather from crossing to Point Isabel as instructed, the expedition crossed to Boca Chica much later. At 2:00 am, on May 12, the expeditionary force surrounded the Rebel outpost at White's Ranch, but found no one there. Exhausted, having been up most of the night, Branson secreted his command in a thicket and among weeds on the banks of the Rio Grande and allowed his men to sleep. Around 8:30 am, people on the Mexican side of the river informed the Rebels of the Federals' whereabouts. Branson promptly led his men off to attack a Confederate camp at Palmito Ranch. After much skirmishing along the way, the Federals attacked the camp and scattered the Confederates. Branson and his men remained at the site to feed themselves and their horses but, at 3:00 pm, a sizable Confederate force appeared, influencing the Federals to retire to White's Ranch. He sent word of his predicament to Barrett, who reinforced Branson at daybreak, on the 13th, with 200 men of the 34th Indiana Volunteer Infantry. The augmented force, now commanded by Barrett, started out towards Palmito Ranch, skirmishing most of the way. At Palmito Ranch, they destroyed the rest of the supplies not torched the day before and continued on. A few miles forward, they became involved in a sharp firefight. After the fighting stopped, Barrett led his force back to a bluff at Tulosa on the river where the men could prepare dinner and camp for the night. At 4:00 pm, a large Confederate cavalry force, commanded by Col. John S. \"Rip\" Ford, approached, and the Federals formed a battle line. The Rebels hammered the Union line with artillery. To preclude an enemy flanking movement, Barrett ordered a retreat. The retreat was orderly and skirmishers held the Rebels at a respectable distance. Returning to Boca Chica at 8:00 pm, the men embarked at 4:00 am, on the 14th. This was the last battle in the Civil War. Native, African, and Hispanic Americans were all involved in the fighting. Many combatants reported that firing came from the Mexican shore and that some Imperial Mexican forces crossed the Rio Grande but did not take part in the battle. These reports are unproven.",
+  "state": "TX",
   "significance": "D",
   "other_names": [
     "Palmito Hill"
   ],
-  "state": "TX",
-  "preservation": "III.4",
+  "dates": "May 12-13, 1865",
+  "battle_name": "Palmito Ranch",
   "principal_commanders": "Col. Theodore H. Barrett [US]; Col. John S. \"Rip\" Ford [CS]",
-  "end_date": "1865-05-13",
-  "cwsac_reference": "TX005",
-  "casualties": null,
+  "campaign": "Expedition from Brazos Santiago [May 1865]",
+  "belligerents": {
+    "Confederate": {
+      "casualties": null,
+      "commanders": [
+        {
+          "rank": "Colonel",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "S.",
+          "last_name": "Ford",
+          "fullname": "John S. \"Rip\" Ford"
+        }
+      ],
+      "description": "Detachments from Gidding's Regiment, Anderson's Battalion of Cavalry, and numerous other Confederate units and southern sympathizers"
+    },
+    "US": {
+      "regiments": 1.5,
+      "casualties": 118,
+      "commanders": [
+        {
+          "rank": "Colonel",
+          "first_name": "Theodore",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "H.",
+          "last_name": "Barrett",
+          "fullname": "Theodore H. Barrett"
+        }
+      ],
+      "description": "Detachments from the 62nd U.S. Colored Infantry Regiment, 2nd Texas Cavalry Regiment, and 34th Indiana Volunteer Infantry"
+    },
+    "CS": {
+      "casualties": null,
+      "commanders": [
+        {
+          "rank": "Colonel",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "S.",
+          "last_name": "Ford",
+          "fullname": "John S. \"Rip\" Ford"
+        }
+      ],
+      "description": "Detachments from Gidding's Regiment, Anderson's Battalion of Cavalry, and numerous other Confederate units and southern sympathizers"
+    }
+  },
+  "result": "Confederate",
+  "battle": "TX005",
   "location": [
     {
-      "place": "Cameron County",
-      "state": "TX"
+      "state": "TX",
+      "place": "Cameron County"
     }
   ],
-  "battle_name": "Palmito Ranch"
+  "url": "http://www.nps.gov/hps/abpp/battles/tx005.htm"
 }

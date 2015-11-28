@@ -1,23 +1,18 @@
 {
-  "dates": "April 29-June 10, 1862",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/ms016.htm",
-  "results_text": "Union victory, although the raid ultimately failed.",
+  "end_date": "1862-06-10",
+  "casualties": null,
   "casualties_text": "Unknown",
-  "description": "Following the Union victory at Shiloh, the Union armies under Maj. Gen. Henry Halleck advanced on the vital rail center of Corinth. By May 25, 1862, after moving 5 miles in 3 weeks, Halleck was in position to lay siege to the town. The preliminary bombardment began, and Union forces maneuvered for position. On the evening of May 29-30, Confederate commander Gen. P.G.T. Beauregard evacuated Corinth, withdrawing to Tupelo. The Federals had consolidated their position in northern Mississippi.",
-  "start_date": "1862-04-29",
-  "forces_text": "Department of the Mississippi [US]; Department No. 2 [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Beauregard",
-          "middle_name": "",
           "rank": "General",
+          "first_name": "P.G.T.",
           "suffix": "",
-          "fullname": "P.G.T. Beauregard",
-          "first_name": "P.G.T."
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Beauregard",
+          "fullname": "P.G.T. Beauregard"
         }
       ],
       "description": "Department No. 2"
@@ -25,46 +20,95 @@
     "US": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Halleck",
-          "middle_name": "W.",
           "rank": "Major General",
+          "first_name": "Henry",
           "suffix": "",
-          "fullname": "Henry W. Halleck",
-          "first_name": "Henry"
+          "navy": false,
+          "middle_name": "W.",
+          "last_name": "Halleck",
+          "fullname": "Henry W. Halleck"
         }
       ],
       "description": "Department of the Mississippi"
     }
   },
-  "campaign": "Federal Penetration up the Cumberland and Tennessee Rivers [February-June 1862]",
-  "battle": "MS016",
-  "result": "Union",
+  "cwsac_reference": "MS016",
+  "operation": false,
+  "forces_text": "Department of the Mississippi [US]; Department No. 2 [CS]",
+  "start_date": "1862-04-29",
+  "preservation": "I.3",
+  "results_text": "Union victory, although the raid ultimately failed.",
+  "description": "Following the Union victory at Shiloh, the Union armies under Maj. Gen. Henry Halleck advanced on the vital rail center of Corinth. By May 25, 1862, after moving 5 miles in 3 weeks, Halleck was in position to lay siege to the town. The preliminary bombardment began, and Union forces maneuvered for position. On the evening of May 29-30, Confederate commander Gen. P.G.T. Beauregard evacuated Corinth, withdrawing to Tupelo. The Federals had consolidated their position in northern Mississippi.",
+  "state": "MS",
   "significance": "B",
   "other_names": null,
-  "state": "MS",
-  "preservation": "I.3",
+  "dates": "April 29-June 10, 1862",
+  "battle_name": "Corinth",
   "principal_commanders": "Maj. Gen. Henry W. Halleck [US]; Gen. P.G.T. Beauregard [CS]",
-  "end_date": "1862-06-10",
-  "cwsac_reference": "MS016",
-  "casualties": null,
+  "campaign": "Federal Penetration up the Cumberland and Tennessee Rivers [February-June 1862]",
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "P.G.T.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Beauregard",
+          "fullname": "P.G.T. Beauregard"
+        }
+      ],
+      "description": "Department No. 2"
+    },
+    "US": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Henry",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "W.",
+          "last_name": "Halleck",
+          "fullname": "Henry W. Halleck"
+        }
+      ],
+      "description": "Department of the Mississippi"
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "P.G.T.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Beauregard",
+          "fullname": "P.G.T. Beauregard"
+        }
+      ],
+      "description": "Department No. 2"
+    }
+  },
+  "result": "Union",
+  "battle": "MS016",
   "location": [
     {
-      "place": "Hardin County",
-      "state": "TN"
+      "state": "TN",
+      "place": "Hardin County"
     },
     {
-      "place": "McNairy County",
-      "state": "TN"
+      "state": "TN",
+      "place": "McNairy County"
     },
     {
-      "place": "Alcorn County",
-      "state": "MS"
+      "state": "MS",
+      "place": "Alcorn County"
     },
     {
-      "place": "Tishomingo County",
-      "state": "MS"
+      "state": "MS",
+      "place": "Tishomingo County"
     }
   ],
-  "battle_name": "Corinth"
+  "url": "http://www.nps.gov/hps/abpp/battles/ms016.htm"
 }

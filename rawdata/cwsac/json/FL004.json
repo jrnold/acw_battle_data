@@ -1,23 +1,18 @@
 {
-  "dates": "October 16-18, 1863",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/fl004.htm",
-  "results_text": "Union victory",
+  "end_date": "1863-10-18",
+  "casualties": null,
   "casualties_text": "Unknown",
-  "description": "Two Union ships bombarded Fort Brooke on October 16 as a diversion, while a landing party under Acting Master T.R. Harris disembarked at Ballast Point and marched 14 miles to the Hillsborough River to capture several steamers. Harris and his men surprised and captured the blockade running steamer Scottish Chief and sloop Kate Dale. The Rebels destroyed the steamer A.B. Noyes to preclude her capture. On its way back to the ship, Harris's force was surprised by a detachment of the garrison, causing casualties.",
-  "start_date": "1863-10-16",
-  "forces_text": "Tahoma, Adela, and landing force [US]; Company A, 2nd Battalion, Florida Volunteers [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Westcott",
-          "middle_name": "",
           "rank": "Captain",
+          "first_name": "John",
           "suffix": "",
-          "fullname": "John Westcott",
-          "first_name": "John"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Westcott",
+          "fullname": "John Westcott"
         }
       ],
       "companies": 1,
@@ -27,34 +22,86 @@
       "gunboats": 2,
       "commanders": [
         {
-          "navy": true,
-          "last_name": "Semmes",
-          "middle_name": "A.",
           "rank": "Lieutenant Commander",
+          "first_name": "A.",
           "suffix": "",
-          "fullname": "A. A. Semmes",
-          "first_name": "A."
+          "navy": true,
+          "middle_name": "A.",
+          "last_name": "Semmes",
+          "fullname": "A. A. Semmes"
         }
       ],
       "description": "Tahoma, Adela, and landing force"
     }
   },
-  "campaign": "Expedition to Hillsboro River [October 1863]",
-  "battle": "FL004",
-  "result": "Union",
+  "cwsac_reference": "FL004",
+  "operation": false,
+  "forces_text": "Tahoma, Adela, and landing force [US]; Company A, 2nd Battalion, Florida Volunteers [CS]",
+  "start_date": "1863-10-16",
+  "preservation": "IV.2",
+  "results_text": "Union victory",
+  "description": "Two Union ships bombarded Fort Brooke on October 16 as a diversion, while a landing party under Acting Master T.R. Harris disembarked at Ballast Point and marched 14 miles to the Hillsborough River to capture several steamers. Harris and his men surprised and captured the blockade running steamer Scottish Chief and sloop Kate Dale. The Rebels destroyed the steamer A.B. Noyes to preclude her capture. On its way back to the ship, Harris's force was surprised by a detachment of the garrison, causing casualties.",
+  "state": "FL",
   "significance": "D",
   "other_names": null,
-  "state": "FL",
-  "preservation": "IV.2",
+  "dates": "October 16-18, 1863",
+  "battle_name": "Fort Brooke",
   "principal_commanders": "Lt. Comdr. A. A. Semmes [US]; Capt. John Westcott [CS]",
-  "end_date": "1863-10-18",
-  "cwsac_reference": "FL004",
-  "casualties": null,
+  "campaign": "Expedition to Hillsboro River [October 1863]",
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "Captain",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Westcott",
+          "fullname": "John Westcott"
+        }
+      ],
+      "companies": 1,
+      "description": "Company A, 2nd Battalion, Florida Volunteers"
+    },
+    "US": {
+      "gunboats": 2,
+      "commanders": [
+        {
+          "rank": "Lieutenant Commander",
+          "first_name": "A.",
+          "suffix": "",
+          "navy": true,
+          "middle_name": "A.",
+          "last_name": "Semmes",
+          "fullname": "A. A. Semmes"
+        }
+      ],
+      "description": "Tahoma, Adela, and landing force"
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "Captain",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Westcott",
+          "fullname": "John Westcott"
+        }
+      ],
+      "companies": 1,
+      "description": "Company A, 2nd Battalion, Florida Volunteers"
+    }
+  },
+  "result": "Union",
+  "battle": "FL004",
   "location": [
     {
-      "place": "Tampa",
-      "state": "FL"
+      "state": "FL",
+      "place": "Tampa"
     }
   ],
-  "battle_name": "Fort Brooke"
+  "url": "http://www.nps.gov/hps/abpp/battles/fl004.htm"
 }

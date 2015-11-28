@@ -1,68 +1,117 @@
 {
-  "dates": "July 17, 1863",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/ok007.htm",
-  "results_text": "Union victory",
+  "end_date": "1863-07-17",
+  "casualties": 716,
   "casualties_text": "716 total (US 79; CS 637)",
-  "description": "Union and Confederate troops had frequently skirmished in the vicinity of Honey Springs Depot. The Union commander in the area, Maj. Gen. James G. Blunt, correctly surmised that Confederate forces, mostly Native American troops under the command of Brig. Gen. Douglas H. Cooper, were about to concentrate and would then attack his force at Fort Gibson. He decided to defeat the Confederates at Honey Springs Depot before they were joined by Brig. Gen. William Cabell's brigade, advancing from Fort Smith, Arkansas. Blunt began crossing the swollen Arkansas River on July 15, 1863, and, by midnight on July 16-17, he had a force of 3,000 men, composed of whites, Native Americans, and African Americans, marching toward Honey Springs. Blunt skirmished with Rebel troops early on the morning of the 17th, and by midafternoon, full-scale fighting ensued. The Confederates had wet powder, causing misfires, and the problem intensified when rain began. After repulsing one attack, Cooper pulled his forces back to obtain new ammunition. In the meantime, Cooper began to experience command problems, and he learned that Blunt was about to turn his left flank. The Confederate retreat began, and although Cooper fought a rearguard action, many of those troops counterattacked, failed, and fled. Any possibility of the Confederates taking Fort Gibson was gone. Following this battle, Union forces controlled Indian Territory, north of the Arkansas River.",
-  "start_date": "1863-07-17",
-  "forces_text": "District of the Frontier [US]; 1st Brigade, Native American troops [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": 637,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Cooper",
-          "middle_name": "H.",
           "rank": "Brigadier General",
+          "first_name": "Douglas",
           "suffix": "",
-          "fullname": "Douglas H. Cooper",
-          "first_name": "Douglas"
+          "navy": false,
+          "middle_name": "H.",
+          "last_name": "Cooper",
+          "fullname": "Douglas H. Cooper"
         }
       ],
-      "description": "1st Brigade, Native American troops",
       "brigades": 1,
-      "casualties": 637
+      "description": "1st Brigade, Native American troops"
     },
     "US": {
+      "casualties": 79,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Blunt",
-          "middle_name": "G.",
           "rank": "Major General",
+          "first_name": "James",
           "suffix": "",
-          "fullname": "James G. Blunt",
-          "first_name": "James"
+          "navy": false,
+          "middle_name": "G.",
+          "last_name": "Blunt",
+          "fullname": "James G. Blunt"
         }
       ],
-      "description": "District of the Frontier",
-      "casualties": 79
+      "description": "District of the Frontier"
     }
   },
-  "campaign": "Operations to Control Indian Territory [June-September 1863]",
-  "battle": "OK007",
-  "result": "Union",
+  "cwsac_reference": "OK007",
+  "operation": false,
+  "forces_text": "District of the Frontier [US]; 1st Brigade, Native American troops [CS]",
+  "start_date": "1863-07-17",
+  "preservation": "I.3",
+  "results_text": "Union victory",
+  "description": "Union and Confederate troops had frequently skirmished in the vicinity of Honey Springs Depot. The Union commander in the area, Maj. Gen. James G. Blunt, correctly surmised that Confederate forces, mostly Native American troops under the command of Brig. Gen. Douglas H. Cooper, were about to concentrate and would then attack his force at Fort Gibson. He decided to defeat the Confederates at Honey Springs Depot before they were joined by Brig. Gen. William Cabell's brigade, advancing from Fort Smith, Arkansas. Blunt began crossing the swollen Arkansas River on July 15, 1863, and, by midnight on July 16-17, he had a force of 3,000 men, composed of whites, Native Americans, and African Americans, marching toward Honey Springs. Blunt skirmished with Rebel troops early on the morning of the 17th, and by midafternoon, full-scale fighting ensued. The Confederates had wet powder, causing misfires, and the problem intensified when rain began. After repulsing one attack, Cooper pulled his forces back to obtain new ammunition. In the meantime, Cooper began to experience command problems, and he learned that Blunt was about to turn his left flank. The Confederate retreat began, and although Cooper fought a rearguard action, many of those troops counterattacked, failed, and fled. Any possibility of the Confederates taking Fort Gibson was gone. Following this battle, Union forces controlled Indian Territory, north of the Arkansas River.",
+  "state": "OK",
   "significance": "B",
   "other_names": [
     "Elk Creek",
     "Shaw's Inn"
   ],
-  "state": "OK",
-  "preservation": "I.3",
+  "dates": "July 17, 1863",
+  "battle_name": "Honey Springs",
   "principal_commanders": "Maj. Gen. James G. Blunt [US]; Brig. Gen. Douglas H. Cooper [CS]",
-  "end_date": "1863-07-17",
-  "cwsac_reference": "OK007",
-  "casualties": 716,
+  "campaign": "Operations to Control Indian Territory [June-September 1863]",
+  "belligerents": {
+    "Confederate": {
+      "casualties": 637,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Douglas",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "H.",
+          "last_name": "Cooper",
+          "fullname": "Douglas H. Cooper"
+        }
+      ],
+      "brigades": 1,
+      "description": "1st Brigade, Native American troops"
+    },
+    "US": {
+      "casualties": 79,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "James",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "G.",
+          "last_name": "Blunt",
+          "fullname": "James G. Blunt"
+        }
+      ],
+      "description": "District of the Frontier"
+    },
+    "CS": {
+      "casualties": 637,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Douglas",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "H.",
+          "last_name": "Cooper",
+          "fullname": "Douglas H. Cooper"
+        }
+      ],
+      "brigades": 1,
+      "description": "1st Brigade, Native American troops"
+    }
+  },
+  "result": "Union",
+  "battle": "OK007",
   "location": [
     {
-      "place": "Muskogee County",
-      "state": "OK"
+      "state": "OK",
+      "place": "Muskogee County"
     },
     {
-      "place": "McIntosh County",
-      "state": "OK"
+      "state": "OK",
+      "place": "McIntosh County"
     }
   ],
-  "battle_name": "Honey Springs"
+  "url": "http://www.nps.gov/hps/abpp/battles/ok007.htm"
 }

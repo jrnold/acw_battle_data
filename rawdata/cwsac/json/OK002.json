@@ -1,60 +1,132 @@
 {
-  "dates": "December 9, 1861",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/ok002.htm",
-  "results_text": "Confederate victory",
+  "end_date": "1861-12-09",
+  "casualties": null,
   "casualties_text": "Unknown",
-  "description": "Following Chief Opothleyahola and his Union force's defeat at Round Mountain, he retreated northeastward, in search of safety. On December 9, 1861, the force was at Chusto-Talasah, or Caving Banks, on the Horseshoe Bend of Bird Creek when Col. Douglas H. Cooper's 1,300 Confederates attacked Chief Opothleyahola around 2:00 pm. Chief Opothleyahola knew Cooper was coming and had placed his troops in a strong position at Horseshoe Bend. For almost four hours, Cooper attacked and attempted to outflank the Federals, finally driving them east across Bird Creek just before dark. Cooper camped there overnight but did not pursue the Federals because he was short of ammunition. The Confederates claimed victory. Chief Opothleyahola and his band moved off in search of security elsewhere. Although the Confederates had gained a victory, they would win a resounding one later in the month at Chustenahlah.",
-  "start_date": "1861-12-09",
-  "forces_text": "Creek and Seminole [I]; Indian Department [CS]",
-  "belligerents": {
-    "I": {
+  "forces": {
+    "Native American": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "",
-          "middle_name": "",
           "rank": "",
+          "first_name": "Opothleyahola",
           "suffix": "",
-          "fullname": "Opothleyahola",
-          "first_name": "Opothleyahola"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "",
+          "fullname": "Opothleyahola"
         }
       ],
       "description": "Creek and Seminole"
     },
-    "CS": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Cooper",
-          "middle_name": "H.",
           "rank": "Colonel",
+          "first_name": "Douglas",
           "suffix": "",
-          "fullname": "Douglas H. Cooper",
-          "first_name": "Douglas"
+          "navy": false,
+          "middle_name": "H.",
+          "last_name": "Cooper",
+          "fullname": "Douglas H. Cooper"
         }
       ],
       "description": "Indian Department"
+    },
+    "I": {
+      "commanders": [
+        {
+          "rank": "",
+          "first_name": "Opothleyahola",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "",
+          "fullname": "Opothleyahola"
+        }
+      ],
+      "description": "Creek and Seminole"
     }
   },
-  "campaign": "Operations in the Indian Territory [November-December 1861]",
-  "battle": "OK002",
-  "result": "Confederate",
+  "cwsac_reference": "OK002",
+  "operation": false,
+  "forces_text": "Creek and Seminole [I]; Indian Department [CS]",
+  "start_date": "1861-12-09",
+  "preservation": "IV.2",
+  "results_text": "Confederate victory",
+  "description": "Following Chief Opothleyahola and his Union force's defeat at Round Mountain, he retreated northeastward, in search of safety. On December 9, 1861, the force was at Chusto-Talasah, or Caving Banks, on the Horseshoe Bend of Bird Creek when Col. Douglas H. Cooper's 1,300 Confederates attacked Chief Opothleyahola around 2:00 pm. Chief Opothleyahola knew Cooper was coming and had placed his troops in a strong position at Horseshoe Bend. For almost four hours, Cooper attacked and attempted to outflank the Federals, finally driving them east across Bird Creek just before dark. Cooper camped there overnight but did not pursue the Federals because he was short of ammunition. The Confederates claimed victory. Chief Opothleyahola and his band moved off in search of security elsewhere. Although the Confederates had gained a victory, they would win a resounding one later in the month at Chustenahlah.",
+  "state": "OK",
   "significance": "D",
   "other_names": [
     "Caving Banks"
   ],
-  "state": "OK",
-  "preservation": "IV.2",
+  "dates": "December 9, 1861",
+  "battle_name": "Chusto-Talasah",
   "principal_commanders": "Chief Opothleyahola [I]; Col. Douglas H. Cooper [CS]",
-  "end_date": "1861-12-09",
-  "cwsac_reference": "OK002",
-  "casualties": null,
+  "campaign": "Operations in the Indian Territory [November-December 1861]",
+  "belligerents": {
+    "Native American": {
+      "commanders": [
+        {
+          "rank": "",
+          "first_name": "Opothleyahola",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "",
+          "fullname": "Opothleyahola"
+        }
+      ],
+      "description": "Creek and Seminole"
+    },
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "Colonel",
+          "first_name": "Douglas",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "H.",
+          "last_name": "Cooper",
+          "fullname": "Douglas H. Cooper"
+        }
+      ],
+      "description": "Indian Department"
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "Colonel",
+          "first_name": "Douglas",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "H.",
+          "last_name": "Cooper",
+          "fullname": "Douglas H. Cooper"
+        }
+      ],
+      "description": "Indian Department"
+    },
+    "I": {
+      "commanders": [
+        {
+          "rank": "",
+          "first_name": "Opothleyahola",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "",
+          "fullname": "Opothleyahola"
+        }
+      ],
+      "description": "Creek and Seminole"
+    }
+  },
+  "result": "Confederate",
+  "battle": "OK002",
   "location": [
     {
-      "place": "Tulsa County",
-      "state": "OK"
+      "state": "OK",
+      "place": "Tulsa County"
     }
   ],
-  "battle_name": "Chusto-Talasah"
+  "url": "http://www.nps.gov/hps/abpp/battles/ok002.htm"
 }

@@ -1,62 +1,112 @@
 {
-  "dates": "November 27, 1863",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/ga005.htm",
-  "results_text": "Confederate victory",
+  "end_date": "1863-11-27",
+  "casualties": 912,
   "casualties_text": "912 total (US 432; CS 480)",
-  "description": "Following the Union victory at Missionary Ridge and the Rebel retreat, Yankee troops set out in pursuit. Maj. Gen. Patrick Cleburne's command fell back to Ringgold Gap where the Western & Atlantic Railroad passed through Taylor's Ridge. Maj. Gen. Joseph B. Hooker sent his force forward to seize the ridge, which it failed to do after five hours of heavy fighting.",
-  "start_date": "1863-11-27",
-  "forces_text": "Three divisions [US]; one division [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": 480,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Cleburne",
-          "middle_name": "R.",
           "rank": "Major General",
+          "first_name": "Patrick",
           "suffix": "",
-          "fullname": "Patrick R. Cleburne",
-          "first_name": "Patrick"
+          "navy": false,
+          "middle_name": "R.",
+          "last_name": "Cleburne",
+          "fullname": "Patrick R. Cleburne"
         }
       ],
       "divisions": 1,
-      "description": "one division",
-      "casualties": 480
+      "description": "one division"
     },
     "US": {
+      "casualties": 432,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Hooker",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "Joseph",
           "suffix": "",
-          "fullname": "Joseph Hooker",
-          "first_name": "Joseph"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Hooker",
+          "fullname": "Joseph Hooker"
         }
       ],
       "divisions": 3,
-      "description": "Three divisions",
-      "casualties": 432
+      "description": "Three divisions"
     }
   },
-  "campaign": "Chattanooga-Ringgold Campaign [November 1863]",
-  "battle": "GA005",
-  "result": "Confederate",
+  "cwsac_reference": "GA005",
+  "operation": false,
+  "forces_text": "Three divisions [US]; one division [CS]",
+  "start_date": "1863-11-27",
+  "preservation": "I.3",
+  "results_text": "Confederate victory",
+  "description": "Following the Union victory at Missionary Ridge and the Rebel retreat, Yankee troops set out in pursuit. Maj. Gen. Patrick Cleburne's command fell back to Ringgold Gap where the Western & Atlantic Railroad passed through Taylor's Ridge. Maj. Gen. Joseph B. Hooker sent his force forward to seize the ridge, which it failed to do after five hours of heavy fighting.",
+  "state": "GA",
   "significance": "B",
   "other_names": null,
-  "state": "GA",
-  "preservation": "I.3",
+  "dates": "November 27, 1863",
+  "battle_name": "Ringgold Gap",
   "principal_commanders": "Maj. Gen. Joseph Hooker [US]; Maj. Gen. Patrick R. Cleburne [CS]",
-  "end_date": "1863-11-27",
-  "cwsac_reference": "GA005",
-  "casualties": 912,
+  "campaign": "Chattanooga-Ringgold Campaign [November 1863]",
+  "belligerents": {
+    "Confederate": {
+      "casualties": 480,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Patrick",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "R.",
+          "last_name": "Cleburne",
+          "fullname": "Patrick R. Cleburne"
+        }
+      ],
+      "divisions": 1,
+      "description": "one division"
+    },
+    "US": {
+      "casualties": 432,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Joseph",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Hooker",
+          "fullname": "Joseph Hooker"
+        }
+      ],
+      "divisions": 3,
+      "description": "Three divisions"
+    },
+    "CS": {
+      "casualties": 480,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Patrick",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "R.",
+          "last_name": "Cleburne",
+          "fullname": "Patrick R. Cleburne"
+        }
+      ],
+      "divisions": 1,
+      "description": "one division"
+    }
+  },
+  "result": "Confederate",
+  "battle": "GA005",
   "location": [
     {
-      "place": "Catoosa County",
-      "state": "GA"
+      "state": "GA",
+      "place": "Catoosa County"
     }
   ],
-  "battle_name": "Ringgold Gap"
+  "url": "http://www.nps.gov/hps/abpp/battles/ga005.htm"
 }

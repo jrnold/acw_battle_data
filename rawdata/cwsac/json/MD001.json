@@ -1,23 +1,18 @@
 {
-  "dates": "January 5-6, 1862",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/md001.htm",
-  "results_text": "Inconclusive",
+  "end_date": "1862-01-06",
+  "casualties": 25,
   "casualties_text": "25 total",
-  "description": "On January 1, Maj. Gen. Thomas J. \"Stonewall\" Jackson marched north in bitter cold from Winchester to Bath with the objective of disrupting traffic on the B&O Railroad and C&O Canal. On January 5, after skirmishing with the retiring Federals, Jackson's force reached the Potomac River opposite the garrisoned town of Hancock, Maryland. His artillery fired on the town from Orrick's Hill but did little damage. Union garrison commander Brig. Gen. F.W. Lander refused Jackson's demands for surrender. Jackson continued the bombardment for two days while unsuccessfully searching for a safe river crossing. The Confederates withdrew and marched on Romney, in western Virginia, on January 7.",
-  "start_date": "1862-01-05",
-  "forces_text": "Brigades",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Jackson",
-          "middle_name": "J.",
           "rank": "Major General",
+          "first_name": "Thomas",
           "suffix": "",
-          "fullname": "Thomas J. Jackson",
-          "first_name": "Thomas"
+          "navy": false,
+          "middle_name": "J.",
+          "last_name": "Jackson",
+          "fullname": "Thomas J. Jackson"
         }
       ],
       "brigades": 1
@@ -25,40 +20,89 @@
     "US": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Lander",
-          "middle_name": "",
           "rank": "Brigadier General",
+          "first_name": "F.W.",
           "suffix": "",
-          "fullname": "F.W. Lander",
-          "first_name": "F.W."
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Lander",
+          "fullname": "F.W. Lander"
         }
       ],
       "brigades": 1
     }
   },
-  "campaign": "Jackson's Operations Against the B&O Railroad [January 1862]",
-  "battle": "MD001",
-  "result": "Inconclusive",
+  "cwsac_reference": "MD001",
+  "operation": false,
+  "forces_text": "Brigades",
+  "start_date": "1862-01-05",
+  "preservation": "III.4",
+  "results_text": "Inconclusive",
+  "description": "On January 1, Maj. Gen. Thomas J. \"Stonewall\" Jackson marched north in bitter cold from Winchester to Bath with the objective of disrupting traffic on the B&O Railroad and C&O Canal. On January 5, after skirmishing with the retiring Federals, Jackson's force reached the Potomac River opposite the garrisoned town of Hancock, Maryland. His artillery fired on the town from Orrick's Hill but did little damage. Union garrison commander Brig. Gen. F.W. Lander refused Jackson's demands for surrender. Jackson continued the bombardment for two days while unsuccessfully searching for a safe river crossing. The Confederates withdrew and marched on Romney, in western Virginia, on January 7.",
+  "state": "MD",
   "significance": "D",
   "other_names": [
     "Romney Campaign"
   ],
-  "state": "MD",
-  "preservation": "III.4",
+  "dates": "January 5-6, 1862",
+  "battle_name": "Hancock",
   "principal_commanders": "Brig. Gen. F.W. Lander [US]; Maj. Gen. Thomas J. Jackson [CS]",
-  "end_date": "1862-01-06",
-  "cwsac_reference": "MD001",
-  "casualties": 25,
+  "campaign": "Jackson's Operations Against the B&O Railroad [January 1862]",
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Thomas",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "J.",
+          "last_name": "Jackson",
+          "fullname": "Thomas J. Jackson"
+        }
+      ],
+      "brigades": 1
+    },
+    "US": {
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "F.W.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Lander",
+          "fullname": "F.W. Lander"
+        }
+      ],
+      "brigades": 1
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Thomas",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "J.",
+          "last_name": "Jackson",
+          "fullname": "Thomas J. Jackson"
+        }
+      ],
+      "brigades": 1
+    }
+  },
+  "result": "Inconclusive",
+  "battle": "MD001",
   "location": [
     {
-      "place": "Washington County",
-      "state": "MD"
+      "state": "MD",
+      "place": "Washington County"
     },
     {
-      "place": "Morgan County",
-      "state": "WV"
+      "state": "WV",
+      "place": "Morgan County"
     }
   ],
-  "battle_name": "Hancock"
+  "url": "http://www.nps.gov/hps/abpp/battles/md001.htm"
 }

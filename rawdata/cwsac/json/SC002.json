@@ -1,68 +1,121 @@
 {
-  "dates": "June 16, 1862",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/sc002.htm",
-  "results_text": "Confederate victory",
+  "end_date": "1862-06-16",
+  "casualties": 889,
   "casualties_text": "889 total (US 685; CS 204)",
-  "description": "Early June 1862, Maj. Gen. David Hunter transported Horatio G. Wright's and Isaac I. Stevens's Union divisions under immediate direction of Brig. Gen. Henry Benham to James Island where they entrenched at Grimball's Landing near the southern flank of the Confederate defenses. On June 16, contrary to Hunter's orders, Benham launched an unsuccessful frontal assault against Fort Lamar at Secessionville. Because Benham was said to have disobeyed orders, Hunter relieved him of command.",
-  "start_date": "1862-06-16",
-  "forces_text": "8,600 total (US 6,600; CS 2,000)",
-  "strength": 8600,
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": 204,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Evans",
-          "middle_name": "",
           "rank": "Brigadier General",
+          "first_name": "Nathan",
           "suffix": "",
-          "fullname": "Nathan Evans",
-          "first_name": "Nathan"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Evans",
+          "fullname": "Nathan Evans"
         }
       ],
       "description": "2,000",
-      "strength_max": 2000,
       "strength_min": 2000,
-      "casualties": 204
+      "strength_max": 2000
     },
     "US": {
+      "casualties": 685,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Benham",
-          "middle_name": "",
           "rank": "Brigadier General",
+          "first_name": "Henry",
           "suffix": "",
-          "fullname": "Henry Benham",
-          "first_name": "Henry"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Benham",
+          "fullname": "Henry Benham"
         }
       ],
       "description": "6,600",
-      "strength_max": 6600,
       "strength_min": 6600,
-      "casualties": 685
+      "strength_max": 6600
     }
   },
-  "campaign": "Operations Against Charleston [June 1862]",
-  "battle": "SC002",
-  "result": "Confederate",
+  "strength": 8600,
+  "cwsac_reference": "SC002",
+  "operation": false,
+  "forces_text": "8,600 total (US 6,600; CS 2,000)",
+  "start_date": "1862-06-16",
+  "preservation": "I.3",
+  "results_text": "Confederate victory",
+  "description": "Early June 1862, Maj. Gen. David Hunter transported Horatio G. Wright's and Isaac I. Stevens's Union divisions under immediate direction of Brig. Gen. Henry Benham to James Island where they entrenched at Grimball's Landing near the southern flank of the Confederate defenses. On June 16, contrary to Hunter's orders, Benham launched an unsuccessful frontal assault against Fort Lamar at Secessionville. Because Benham was said to have disobeyed orders, Hunter relieved him of command.",
+  "state": "SC",
   "significance": "B",
   "other_names": [
     "Ft. Lamar",
     "James Island"
   ],
-  "state": "SC",
-  "preservation": "I.3",
+  "dates": "June 16, 1862",
+  "battle_name": "Secessionville",
   "principal_commanders": "Brig. Gen. Henry Benham [US]; Brig. Gen. Nathan Evans [CS]",
-  "end_date": "1862-06-16",
-  "cwsac_reference": "SC002",
-  "casualties": 889,
   "location": [
     {
-      "place": "City of Charleston",
-      "state": "SC"
+      "state": "SC",
+      "place": "City of Charleston"
     }
   ],
-  "battle_name": "Secessionville"
+  "belligerents": {
+    "Confederate": {
+      "casualties": 204,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Nathan",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Evans",
+          "fullname": "Nathan Evans"
+        }
+      ],
+      "description": "2,000",
+      "strength_min": 2000,
+      "strength_max": 2000
+    },
+    "US": {
+      "casualties": 685,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Henry",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Benham",
+          "fullname": "Henry Benham"
+        }
+      ],
+      "description": "6,600",
+      "strength_min": 6600,
+      "strength_max": 6600
+    },
+    "CS": {
+      "casualties": 204,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Nathan",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Evans",
+          "fullname": "Nathan Evans"
+        }
+      ],
+      "description": "2,000",
+      "strength_min": 2000,
+      "strength_max": 2000
+    }
+  },
+  "result": "Confederate",
+  "battle": "SC002",
+  "campaign": "Operations Against Charleston [June 1862]",
+  "url": "http://www.nps.gov/hps/abpp/battles/sc002.htm"
 }

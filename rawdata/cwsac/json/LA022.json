@@ -1,23 +1,18 @@
 {
-  "dates": "May 16, 1864",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/la022.htm",
-  "results_text": "Union victory",
+  "end_date": "1864-05-16",
+  "casualties": null,
   "casualties_text": "Unknown",
-  "description": "As Maj. Gen. Nathaniel P. Banks's Red River Expeditionary Force retreated down Red River, Confederate forces under Maj. Gen. Richard Taylor attempted to slow the Union troops' movements and, if possible, deplete their numbers or, better yet, destroy them. The Union forces passed Fort DeRussy, reached Marksville, and then continued east. At Mansura, Taylor massed his forces in an open prairie that controlled access to the three roads traversing the area, where he hoped his artillery could cause many casualties. Early on the morning of May 16, the Union forces approached, and skirmishing quickly ensued. After a four-hour fight (principally an artillery duel), a large Union force massed for a flank attack, inducing the Rebels to fall back. The Union troops marched to Simmsport. Taylor's force could harass the enemy's retrograde but was unable to halt it.",
-  "start_date": "1864-05-16",
-  "forces_text": "Banks's Red River Expeditionary Force [US]; District of West Louisiana [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Taylor",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "Richard",
           "suffix": "",
-          "fullname": "Richard Taylor",
-          "first_name": "Richard"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Taylor",
+          "fullname": "Richard Taylor"
         }
       ],
       "description": "District of West Louisiana"
@@ -25,37 +20,86 @@
     "US": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Banks",
-          "middle_name": "P.",
           "rank": "Major General",
+          "first_name": "Nathaniel",
           "suffix": "",
-          "fullname": "Nathaniel P. Banks",
-          "first_name": "Nathaniel"
+          "navy": false,
+          "middle_name": "P.",
+          "last_name": "Banks",
+          "fullname": "Nathaniel P. Banks"
         }
       ],
       "description": "Banks's Red River Expeditionary Force"
     }
   },
-  "campaign": "Red River Campaign [March-April 1864]",
-  "battle": "LA022",
-  "result": "Union",
+  "cwsac_reference": "LA022",
+  "operation": false,
+  "forces_text": "Banks's Red River Expeditionary Force [US]; District of West Louisiana [CS]",
+  "start_date": "1864-05-16",
+  "preservation": "II.3",
+  "results_text": "Union victory",
+  "description": "As Maj. Gen. Nathaniel P. Banks's Red River Expeditionary Force retreated down Red River, Confederate forces under Maj. Gen. Richard Taylor attempted to slow the Union troops' movements and, if possible, deplete their numbers or, better yet, destroy them. The Union forces passed Fort DeRussy, reached Marksville, and then continued east. At Mansura, Taylor massed his forces in an open prairie that controlled access to the three roads traversing the area, where he hoped his artillery could cause many casualties. Early on the morning of May 16, the Union forces approached, and skirmishing quickly ensued. After a four-hour fight (principally an artillery duel), a large Union force massed for a flank attack, inducing the Rebels to fall back. The Union troops marched to Simmsport. Taylor's force could harass the enemy's retrograde but was unable to halt it.",
+  "state": "LA",
   "significance": "C",
   "other_names": [
     "Smith's Place",
     "Marksville"
   ],
-  "state": "LA",
-  "preservation": "II.3",
+  "dates": "May 16, 1864",
+  "battle_name": "Mansura",
   "principal_commanders": "Maj. Gen. Nathaniel P. Banks [US]; Maj. Gen. Richard Taylor [CS]",
-  "end_date": "1864-05-16",
-  "cwsac_reference": "LA022",
-  "casualties": null,
+  "campaign": "Red River Campaign [March-April 1864]",
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Richard",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Taylor",
+          "fullname": "Richard Taylor"
+        }
+      ],
+      "description": "District of West Louisiana"
+    },
+    "US": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Nathaniel",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "P.",
+          "last_name": "Banks",
+          "fullname": "Nathaniel P. Banks"
+        }
+      ],
+      "description": "Banks's Red River Expeditionary Force"
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Richard",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Taylor",
+          "fullname": "Richard Taylor"
+        }
+      ],
+      "description": "District of West Louisiana"
+    }
+  },
+  "result": "Union",
+  "battle": "LA022",
   "location": [
     {
-      "place": "Avoyelles Parish",
-      "state": "LA"
+      "state": "LA",
+      "place": "Avoyelles Parish"
     }
   ],
-  "battle_name": "Mansura"
+  "url": "http://www.nps.gov/hps/abpp/battles/la022.htm"
 }

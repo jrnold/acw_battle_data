@@ -1,67 +1,122 @@
 {
-  "dates": "September 13-20, 1861",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/mo006.htm",
-  "results_text": "Confederate victory",
+  "end_date": "1861-09-20",
+  "casualties": 1874,
   "casualties_text": "1,874 total (US 1,774; CS 100)",
-  "description": "Following the victory at Wilson's Creek, the Confederate Missouri State Guard, having consolidated forces in the northern and central part of the state, marched, under the command of Maj. Gen. Sterling Price, on Lexington. Col. James A. Mulligan commanded the entrenched Union garrison of about 3,500 men. Price's men first encountered Union skirmishers on September 13 south of town and pushed them back into the fortifications. Price, having bottled the Union troops up in Lexington, decided to await his ammunition wagons, other supplies, and reinforcements before assaulting the fortifications. By the 18th, Price was ready and ordered an assault. The Missouri State Guard moved forward amidst heavy Union artillery fire and pushed the enemy back into their inner works. On the 19th, the Rebels consolidated their positions, kept the Yankees under heavy artillery fire and prepared for the final attack. Early on the morning of the 20th, Price's men advanced behind mobile breastworks, made of hemp, close enough to take the Union works at the Anderson House in a final rush. Mulligan requested surrender terms after noon, and by 2:00 pm his men had vacated their works and stacked their arms. This Unionist stronghold had fallen, further bolstering southern sentiment and consolidating Confederate control in the Missouri Valley west of Arrow Rock.",
-  "start_date": "1861-09-13",
-  "forces_text": "Garrison (approx. 3,500) [US]; Missouri State Guard (12,000) [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": 100,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Price",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "Sterling",
           "suffix": "",
-          "fullname": "Sterling Price",
-          "first_name": "Sterling"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Price",
+          "fullname": "Sterling Price"
         }
       ],
-      "description": "Missouri State Guard (12,000)",
-      "strength_max": 12000,
       "strength_min": 12000,
-      "casualties": 100,
-        "missouri_state_guard": true  
+      "strength_max": 12000,
+      "missouri_state_guard": true,
+      "description": "Missouri State Guard (12,000)"
     },
     "US": {
+      "casualties": 1774,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Mulligan",
-          "middle_name": "A.",
           "rank": "Colonel",
+          "first_name": "James",
           "suffix": "",
-          "fullname": "James A. Mulligan",
-          "first_name": "James"
+          "navy": false,
+          "middle_name": "A.",
+          "last_name": "Mulligan",
+          "fullname": "James A. Mulligan"
         }
       ],
       "description": "Garrison (approx. 3,500)",
-      "strength_max": 3500,
       "strength_min": 3500,
-      "casualties": 1774
+      "strength_max": 3500
     }
   },
-  "campaign": "Operations to Control Missouri [June-October 1861]",
-  "battle": "MO006",
-  "result": "Confederate",
+  "cwsac_reference": "MO006",
+  "operation": false,
+  "forces_text": "Garrison (approx. 3,500) [US]; Missouri State Guard (12,000) [CS]",
+  "start_date": "1861-09-13",
+  "preservation": "II.3",
+  "results_text": "Confederate victory",
+  "description": "Following the victory at Wilson's Creek, the Confederate Missouri State Guard, having consolidated forces in the northern and central part of the state, marched, under the command of Maj. Gen. Sterling Price, on Lexington. Col. James A. Mulligan commanded the entrenched Union garrison of about 3,500 men. Price's men first encountered Union skirmishers on September 13 south of town and pushed them back into the fortifications. Price, having bottled the Union troops up in Lexington, decided to await his ammunition wagons, other supplies, and reinforcements before assaulting the fortifications. By the 18th, Price was ready and ordered an assault. The Missouri State Guard moved forward amidst heavy Union artillery fire and pushed the enemy back into their inner works. On the 19th, the Rebels consolidated their positions, kept the Yankees under heavy artillery fire and prepared for the final attack. Early on the morning of the 20th, Price's men advanced behind mobile breastworks, made of hemp, close enough to take the Union works at the Anderson House in a final rush. Mulligan requested surrender terms after noon, and by 2:00 pm his men had vacated their works and stacked their arms. This Unionist stronghold had fallen, further bolstering southern sentiment and consolidating Confederate control in the Missouri Valley west of Arrow Rock.",
+  "state": "MO",
   "significance": "C",
   "other_names": [
     "Battle of the Hemp Bales"
   ],
-  "state": "MO",
-  "preservation": "II.3",
+  "dates": "September 13-20, 1861",
+  "battle_name": "Lexington",
   "principal_commanders": "Col. James A. Mulligan [US]; Maj. Gen. Sterling Price [CS]",
-  "end_date": "1861-09-20",
-  "cwsac_reference": "MO006",
-  "casualties": 1874,
+  "campaign": "Operations to Control Missouri [June-October 1861]",
+  "belligerents": {
+    "Confederate": {
+      "casualties": 100,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Sterling",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Price",
+          "fullname": "Sterling Price"
+        }
+      ],
+      "strength_min": 12000,
+      "strength_max": 12000,
+      "missouri_state_guard": true,
+      "description": "Missouri State Guard (12,000)"
+    },
+    "US": {
+      "casualties": 1774,
+      "commanders": [
+        {
+          "rank": "Colonel",
+          "first_name": "James",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "A.",
+          "last_name": "Mulligan",
+          "fullname": "James A. Mulligan"
+        }
+      ],
+      "description": "Garrison (approx. 3,500)",
+      "strength_min": 3500,
+      "strength_max": 3500
+    },
+    "CS": {
+      "casualties": 100,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Sterling",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Price",
+          "fullname": "Sterling Price"
+        }
+      ],
+      "strength_min": 12000,
+      "strength_max": 12000,
+      "missouri_state_guard": true,
+      "description": "Missouri State Guard (12,000)"
+    }
+  },
+  "result": "Confederate",
+  "battle": "MO006",
   "location": [
     {
-      "place": "Lafayette County",
-      "state": "MO"
+      "state": "MO",
+      "place": "Lafayette County"
     }
   ],
-  "battle_name": "Lexington"
+  "url": "http://www.nps.gov/hps/abpp/battles/mo006.htm"
 }

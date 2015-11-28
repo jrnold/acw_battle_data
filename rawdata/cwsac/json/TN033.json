@@ -1,67 +1,119 @@
 {
-  "dates": "November 11-13, 1864",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/tn033.htm",
-  "results_text": "Confederate victory",
+  "end_date": "1864-11-13",
+  "casualties": null,
   "casualties_text": "Total unknown (US 241; CS unknown)",
-  "description": "In November 1864, Maj. Gen. John C. Breckinridge undertook an expedition into East Tennessee, anticipating that Confederate sympathizers would join his force and help drive the Yankees from the area. The Federals initially retired in front of this force and, on November 10, were at Bull's Gap on the East Tennessee & Virginia Railroad. The Confederates attacked them on the morning of the 11th but were repulsed by 11:00 am. Artillery fire continued throughout the day. The next morning, both sides attacked; the Confederates sought to hit the Union forces in a variety of locations but they gained little. The next day firing occurred throughout most of the day, but the Confederates did not assault the Union lines because they were marching to flank them on the right. Before making the flank attack, the Union forces, short on everything from ammunition to rations, withdrew from Bull's Gap after midnight on the 4th. Breckinridge pursued, but the Federals received reinforcements and foul weather played havoc with the roads and streams. Breckinridge, with most of his force, retired back to Virginia. This victory was a temporary Union setback in the Federal plans to rid East Tennessee of Confederate influence.",
-  "start_date": "1864-11-11",
-  "forces_text": "Governor's Guard Brigade, State of Tennessee [US]; Department of Western Virginia and East Tennessee (approx. 2,400) [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": null,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Breckinridge",
-          "middle_name": "C.",
           "rank": "Major General",
+          "first_name": "John",
           "suffix": "",
-          "fullname": "John C. Breckinridge",
-          "first_name": "John"
+          "navy": false,
+          "middle_name": "C.",
+          "last_name": "Breckinridge",
+          "fullname": "John C. Breckinridge"
         }
       ],
       "description": "Department of Western Virginia and East Tennessee (approx. 2,400)",
-      "strength_max": 2400,
       "strength_min": 2400,
-      "casualties": null
+      "strength_max": 2400
     },
     "US": {
+      "casualties": 241,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Gillem",
-          "middle_name": "C.",
           "rank": "Brigadier General",
+          "first_name": "Alvan",
           "suffix": "",
-          "fullname": "Alvan C. Gillem",
-          "first_name": "Alvan"
+          "navy": false,
+          "middle_name": "C.",
+          "last_name": "Gillem",
+          "fullname": "Alvan C. Gillem"
         }
       ],
-      "description": "Governor's Guard Brigade, State of Tennessee",
       "brigades": 1,
-      "casualties": 241
+      "description": "Governor's Guard Brigade, State of Tennessee"
     }
   },
-  "campaign": "Breckenridge's Advance into East Tennessee [November 1864]",
-  "battle": "TN033",
-  "result": "Confederate",
+  "cwsac_reference": "TN033",
+  "operation": false,
+  "forces_text": "Governor's Guard Brigade, State of Tennessee [US]; Department of Western Virginia and East Tennessee (approx. 2,400) [CS]",
+  "start_date": "1864-11-11",
+  "preservation": "IV.1",
+  "results_text": "Confederate victory",
+  "description": "In November 1864, Maj. Gen. John C. Breckinridge undertook an expedition into East Tennessee, anticipating that Confederate sympathizers would join his force and help drive the Yankees from the area. The Federals initially retired in front of this force and, on November 10, were at Bull's Gap on the East Tennessee & Virginia Railroad. The Confederates attacked them on the morning of the 11th but were repulsed by 11:00 am. Artillery fire continued throughout the day. The next morning, both sides attacked; the Confederates sought to hit the Union forces in a variety of locations but they gained little. The next day firing occurred throughout most of the day, but the Confederates did not assault the Union lines because they were marching to flank them on the right. Before making the flank attack, the Union forces, short on everything from ammunition to rations, withdrew from Bull's Gap after midnight on the 4th. Breckinridge pursued, but the Federals received reinforcements and foul weather played havoc with the roads and streams. Breckinridge, with most of his force, retired back to Virginia. This victory was a temporary Union setback in the Federal plans to rid East Tennessee of Confederate influence.",
+  "state": "TN",
   "significance": "D",
   "other_names": null,
-  "state": "TN",
-  "preservation": "IV.1",
+  "dates": "November 11-13, 1864",
+  "battle_name": "Bull's Gap",
   "principal_commanders": "Brig. Gen. Alvan C. Gillem [US]; Maj. Gen. John C. Breckinridge [CS]",
-  "end_date": "1864-11-13",
-  "cwsac_reference": "TN033",
-  "casualties": null,
+  "campaign": "Breckenridge's Advance into East Tennessee [November 1864]",
+  "belligerents": {
+    "Confederate": {
+      "casualties": null,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "C.",
+          "last_name": "Breckinridge",
+          "fullname": "John C. Breckinridge"
+        }
+      ],
+      "description": "Department of Western Virginia and East Tennessee (approx. 2,400)",
+      "strength_min": 2400,
+      "strength_max": 2400
+    },
+    "US": {
+      "casualties": 241,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Alvan",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "C.",
+          "last_name": "Gillem",
+          "fullname": "Alvan C. Gillem"
+        }
+      ],
+      "brigades": 1,
+      "description": "Governor's Guard Brigade, State of Tennessee"
+    },
+    "CS": {
+      "casualties": null,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "C.",
+          "last_name": "Breckinridge",
+          "fullname": "John C. Breckinridge"
+        }
+      ],
+      "description": "Department of Western Virginia and East Tennessee (approx. 2,400)",
+      "strength_min": 2400,
+      "strength_max": 2400
+    }
+  },
+  "result": "Confederate",
+  "battle": "TN033",
   "location": [
     {
-      "place": "Hamblen County",
-      "state": "TN"
+      "state": "TN",
+      "place": "Hamblen County"
     },
     {
-      "place": "Greene County",
-      "state": "TN"
+      "state": "TN",
+      "place": "Greene County"
     }
   ],
-  "battle_name": "Bull's Gap"
+  "url": "http://www.nps.gov/hps/abpp/battles/tn033.htm"
 }

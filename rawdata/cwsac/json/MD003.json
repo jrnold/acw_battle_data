@@ -1,23 +1,18 @@
 {
-  "dates": "September 16-18, 1862",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/md003.htm",
-  "results_text": "Inconclusive (Union strategic victory.)",
+  "end_date": "1862-09-18",
+  "casualties": 23100,
   "casualties_text": "23,100 total",
-  "description": "On September 16, Maj. Gen. George B. McClellan confronted Lee's Army of Northern Virginia at Sharpsburg, Maryland. At dawn September 17, Hooker's corps mounted a powerful assault on Lee's left flank that began the single bloodiest day in American military history. Attacks and counterattacks swept across Miller's cornfield and fighting swirled around the Dunker Church. Union assaults against the Sunken Road eventually pierced the Confederate center, but the Federal advantage was not followed up. Late in the day, Burnside's corps finally got into action, crossing the stone bridge over Antietam Creek and rolling up the Confederate right. At a crucial moment, A.P. Hill's division arrived from Harpers Ferry and counterattacked, driving back Burnside and saving the day. Although outnumbered two-to-one, Lee committed his entire force, while McClellan sent in less than three-quarters of his army, enabling Lee to fight the Federals to a standstill. During the night, both armies consolidated their lines. In spite of crippling casualties, Lee continued to skirmish with McClellan throughout the 18th, while removing his wounded south of the river. McClellan did not renew the assaults. After dark, Lee ordered the battered Army of Northern Virginia to withdraw across the Potomac into the Shenandoah Valley.",
-  "start_date": "1862-09-16",
-  "forces_text": "Armies",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Lee",
-          "middle_name": "E.",
           "rank": "General",
+          "first_name": "Robert",
           "suffix": "",
-          "fullname": "Robert E. Lee",
-          "first_name": "Robert"
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "fullname": "Robert E. Lee"
         }
       ],
       "armies": 1
@@ -25,36 +20,85 @@
     "US": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "McClellan",
-          "middle_name": "B.",
           "rank": "Major General",
+          "first_name": "George",
           "suffix": "",
-          "fullname": "George B. McClellan",
-          "first_name": "George"
+          "navy": false,
+          "middle_name": "B.",
+          "last_name": "McClellan",
+          "fullname": "George B. McClellan"
         }
       ],
       "armies": 1
     }
   },
-  "campaign": "Maryland Campaign [September 1862]",
-  "battle": "MD003",
-  "result": "Inconclusive",
+  "cwsac_reference": "MD003",
+  "operation": false,
+  "forces_text": "Armies",
+  "start_date": "1862-09-16",
+  "preservation": "I.2",
+  "results_text": "Inconclusive (Union strategic victory.)",
+  "description": "On September 16, Maj. Gen. George B. McClellan confronted Lee's Army of Northern Virginia at Sharpsburg, Maryland. At dawn September 17, Hooker's corps mounted a powerful assault on Lee's left flank that began the single bloodiest day in American military history. Attacks and counterattacks swept across Miller's cornfield and fighting swirled around the Dunker Church. Union assaults against the Sunken Road eventually pierced the Confederate center, but the Federal advantage was not followed up. Late in the day, Burnside's corps finally got into action, crossing the stone bridge over Antietam Creek and rolling up the Confederate right. At a crucial moment, A.P. Hill's division arrived from Harpers Ferry and counterattacked, driving back Burnside and saving the day. Although outnumbered two-to-one, Lee committed his entire force, while McClellan sent in less than three-quarters of his army, enabling Lee to fight the Federals to a standstill. During the night, both armies consolidated their lines. In spite of crippling casualties, Lee continued to skirmish with McClellan throughout the 18th, while removing his wounded south of the river. McClellan did not renew the assaults. After dark, Lee ordered the battered Army of Northern Virginia to withdraw across the Potomac into the Shenandoah Valley.",
+  "state": "MD",
   "significance": "A",
   "other_names": [
     "Sharpsburg"
   ],
-  "state": "MD",
-  "preservation": "I.2",
+  "dates": "September 16-18, 1862",
+  "battle_name": "Antietam",
   "principal_commanders": "Maj. Gen. George B. McClellan [US]; Gen. Robert E. Lee [CS]",
-  "end_date": "1862-09-18",
-  "cwsac_reference": "MD003",
-  "casualties": 23100,
+  "campaign": "Maryland Campaign [September 1862]",
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "Robert",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "fullname": "Robert E. Lee"
+        }
+      ],
+      "armies": 1
+    },
+    "US": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "George",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "B.",
+          "last_name": "McClellan",
+          "fullname": "George B. McClellan"
+        }
+      ],
+      "armies": 1
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "Robert",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "fullname": "Robert E. Lee"
+        }
+      ],
+      "armies": 1
+    }
+  },
+  "result": "Inconclusive",
+  "battle": "MD003",
   "location": [
     {
-      "place": "Washington County",
-      "state": "MD"
+      "state": "MD",
+      "place": "Washington County"
     }
   ],
-  "battle_name": "Antietam"
+  "url": "http://www.nps.gov/hps/abpp/battles/md003.htm"
 }

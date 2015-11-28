@@ -1,32 +1,27 @@
 {
-  "dates": "May 18-19, 1861",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/va001.htm",
-  "results_text": "Inconclusive",
+  "end_date": "1861-05-19",
+  "casualties": 10,
   "casualties_text": "10 total",
-  "description": "Two Union gunboats, including USS Monticello, dueled with Confederate batteries on Sewell's Point in an attempt to enforce the blockade of Hampton Roads. The two sides did each other little harm.",
-  "start_date": "1861-05-18",
-  "forces_text": "Two gunboats [US]; battery garrison [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Gwynn",
-          "middle_name": "",
           "rank": "Brigadier General",
+          "first_name": "Walter",
           "suffix": "",
-          "fullname": "Walter Gwynn",
-          "first_name": "Walter"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Gwynn",
+          "fullname": "Walter Gwynn"
         },
         {
-          "navy": false,
-          "last_name": "Colquitt",
-          "middle_name": "",
           "rank": "Captain",
+          "first_name": "Peyton",
           "suffix": "",
-          "fullname": "Peyton Colquitt",
-          "first_name": "Peyton"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Colquitt",
+          "fullname": "Peyton Colquitt"
         }
       ],
       "description": "battery garrison"
@@ -35,34 +30,102 @@
       "gunboats": 2,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Braine",
-          "middle_name": "",
           "rank": "Lieutenant (Naval)",
+          "first_name": "D.L.",
           "suffix": "",
-          "fullname": "D.L. Braine",
-          "first_name": "D.L."
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Braine",
+          "fullname": "D.L. Braine"
         }
       ],
       "description": "Two gunboats"
     }
   },
-  "campaign": "Blockade of the Chesapeake Bay [May-June 1861]",
-  "battle": "VA001",
-  "result": "Inconclusive",
+  "cwsac_reference": "VA001",
+  "operation": false,
+  "forces_text": "Two gunboats [US]; battery garrison [CS]",
+  "start_date": "1861-05-18",
+  "preservation": "IV.2",
+  "results_text": "Inconclusive",
+  "description": "Two Union gunboats, including USS Monticello, dueled with Confederate batteries on Sewell's Point in an attempt to enforce the blockade of Hampton Roads. The two sides did each other little harm.",
+  "state": "VA",
   "significance": "D",
   "other_names": null,
-  "state": "VA",
-  "preservation": "IV.2",
+  "dates": "May 18-19, 1861",
+  "battle_name": "Sewell's Point",
   "principal_commanders": "Lt. (Naval) D.L. Braine [US]; Brig. Gen. Walter Gwynn and Capt. Peyton Colquitt [CS]",
-  "end_date": "1861-05-19",
-  "cwsac_reference": "VA001",
-  "casualties": 10,
+  "campaign": "Blockade of the Chesapeake Bay [May-June 1861]",
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Walter",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Gwynn",
+          "fullname": "Walter Gwynn"
+        },
+        {
+          "rank": "Captain",
+          "first_name": "Peyton",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Colquitt",
+          "fullname": "Peyton Colquitt"
+        }
+      ],
+      "description": "battery garrison"
+    },
+    "US": {
+      "gunboats": 2,
+      "commanders": [
+        {
+          "rank": "Lieutenant (Naval)",
+          "first_name": "D.L.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Braine",
+          "fullname": "D.L. Braine"
+        }
+      ],
+      "description": "Two gunboats"
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Walter",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Gwynn",
+          "fullname": "Walter Gwynn"
+        },
+        {
+          "rank": "Captain",
+          "first_name": "Peyton",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Colquitt",
+          "fullname": "Peyton Colquitt"
+        }
+      ],
+      "description": "battery garrison"
+    }
+  },
+  "result": "Inconclusive",
+  "battle": "VA001",
   "location": [
     {
-      "place": "Norfolk City",
-      "state": "VA"
+      "state": "VA",
+      "place": "Norfolk City"
     }
   ],
-  "battle_name": "Sewell's Point"
+  "url": "http://www.nps.gov/hps/abpp/battles/va001.htm"
 }

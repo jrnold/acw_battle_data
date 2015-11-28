@@ -1,60 +1,107 @@
 {
-  "dates": "April 1, 1865",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/va088.htm",
-  "results_text": "Union victory",
+  "end_date": "1865-04-01",
+  "casualties": 3780,
   "casualties_text": "3,780 total (US 830; CS 2,950)",
-  "description": "Gen. Robert E. Lee ordered Pickett with his infantry division and Munford's, W.H.F. Lee's, and Rosser's cavalry divisions to hold the vital crossroads of Five Forks at all hazard. On April 1, while Sheridan's cavalry pinned the Confederate force in position, the V Corps under Maj. Gen. G.K. Warren attacked and overwhelmed the Confederate left flank, taking many prisoners. Sheridan personally directed the attack, which extended Lee's Petersburg lines to the breaking point. Loss of Five Forks threatened Lee's last supply line, the South Side Railroad. The next morning, Lee informed Jefferson Davis that Petersburg and Richmond must be evacuated. Union general Winthrop was killed; \"Willie\" Pegram, beloved Confederate artillery officer, was mortally wounded. Dissatisfied with his performance at Five Forks, Sheridan relieved Warren of command of the V Corps.",
-  "start_date": "1865-04-01",
-  "forces_text": "Corps",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "corps": 1,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Pickett",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "George",
           "suffix": "",
-          "fullname": "George Pickett",
-          "first_name": "George"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Pickett",
+          "fullname": "George Pickett"
         }
       ],
-      "corps": 1,
       "casualties": 2950
     },
     "US": {
+      "corps": 1,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Sheridan",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "Philip",
           "suffix": "",
-          "fullname": "Philip Sheridan",
-          "first_name": "Philip"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Sheridan",
+          "fullname": "Philip Sheridan"
         }
       ],
-      "corps": 1,
       "casualties": 830
     }
   },
-  "campaign": "Appomattox Campaign [March-April 1865]",
-  "battle": "VA088",
-  "result": "Union",
+  "cwsac_reference": "VA088",
+  "operation": false,
+  "forces_text": "Corps",
+  "start_date": "1865-04-01",
+  "preservation": "III.1",
+  "results_text": "Union victory",
+  "description": "Gen. Robert E. Lee ordered Pickett with his infantry division and Munford's, W.H.F. Lee's, and Rosser's cavalry divisions to hold the vital crossroads of Five Forks at all hazard. On April 1, while Sheridan's cavalry pinned the Confederate force in position, the V Corps under Maj. Gen. G.K. Warren attacked and overwhelmed the Confederate left flank, taking many prisoners. Sheridan personally directed the attack, which extended Lee's Petersburg lines to the breaking point. Loss of Five Forks threatened Lee's last supply line, the South Side Railroad. The next morning, Lee informed Jefferson Davis that Petersburg and Richmond must be evacuated. Union general Winthrop was killed; \"Willie\" Pegram, beloved Confederate artillery officer, was mortally wounded. Dissatisfied with his performance at Five Forks, Sheridan relieved Warren of command of the V Corps.",
+  "state": "VA",
   "significance": "A",
   "other_names": null,
-  "state": "VA",
-  "preservation": "III.1",
+  "dates": "April 1, 1865",
+  "battle_name": "Five Forks",
   "principal_commanders": "Maj. Gen. Philip Sheridan [US]; Maj. Gen. George Pickett [CS]",
-  "end_date": "1865-04-01",
-  "cwsac_reference": "VA088",
-  "casualties": 3780,
+  "campaign": "Appomattox Campaign [March-April 1865]",
+  "belligerents": {
+    "Confederate": {
+      "corps": 1,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "George",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Pickett",
+          "fullname": "George Pickett"
+        }
+      ],
+      "casualties": 2950
+    },
+    "US": {
+      "corps": 1,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Philip",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Sheridan",
+          "fullname": "Philip Sheridan"
+        }
+      ],
+      "casualties": 830
+    },
+    "CS": {
+      "corps": 1,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "George",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Pickett",
+          "fullname": "George Pickett"
+        }
+      ],
+      "casualties": 2950
+    }
+  },
+  "result": "Union",
+  "battle": "VA088",
   "location": [
     {
-      "place": "Dinwiddie County",
-      "state": "VA"
+      "state": "VA",
+      "place": "Dinwiddie County"
     }
   ],
-  "battle_name": "Five Forks"
+  "url": "http://www.nps.gov/hps/abpp/battles/va088.htm"
 }

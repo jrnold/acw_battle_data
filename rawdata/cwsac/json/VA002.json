@@ -1,23 +1,18 @@
 {
-  "dates": "May 29-June 1, 1861",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/va002.htm",
-  "results_text": "Inconclusive",
+  "end_date": "1861-06-01",
+  "casualties": 10,
   "casualties_text": "10 total",
-  "description": "Three Union naval vessels bombarded Confederate batteries near the mouth of Aquia Creek that were built to protect the northern terminus of the railroad to Richmond. Confederates feared a landing of troops, but this did not materialize. Results of the bombardment were inconclusive, although the batteries were later withdrawn.",
-  "start_date": "1861-05-29",
-  "forces_text": "3 gunboats [US]; battery garrison [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Ruggles",
-          "middle_name": "",
           "rank": "Colonel",
+          "first_name": "Daniel",
           "suffix": "",
-          "fullname": "Daniel Ruggles",
-          "first_name": "Daniel"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Ruggles",
+          "fullname": "Daniel Ruggles"
         }
       ],
       "description": "battery garrison"
@@ -26,34 +21,84 @@
       "gunboats": 3,
       "commanders": [
         {
-          "navy": true,
-          "last_name": "Ward",
-          "middle_name": "H.",
           "rank": "Commander",
+          "first_name": "James",
           "suffix": "",
-          "fullname": "James H. Ward",
-          "first_name": "James"
+          "navy": true,
+          "middle_name": "H.",
+          "last_name": "Ward",
+          "fullname": "James H. Ward"
         }
       ],
       "description": "3 gunboats"
     }
   },
-  "campaign": "Blockade of the Chesapeake Bay [May-June 1861]",
-  "battle": "VA002",
-  "result": "Inconclusive",
+  "cwsac_reference": "VA002",
+  "operation": false,
+  "forces_text": "3 gunboats [US]; battery garrison [CS]",
+  "start_date": "1861-05-29",
+  "preservation": "II.4",
+  "results_text": "Inconclusive",
+  "description": "Three Union naval vessels bombarded Confederate batteries near the mouth of Aquia Creek that were built to protect the northern terminus of the railroad to Richmond. Confederates feared a landing of troops, but this did not materialize. Results of the bombardment were inconclusive, although the batteries were later withdrawn.",
+  "state": "VA",
   "significance": "D",
   "other_names": null,
-  "state": "VA",
-  "preservation": "II.4",
+  "dates": "May 29-June 1, 1861",
+  "battle_name": "Aquia Creek",
   "principal_commanders": "Cdr. James H. Ward [US]; Col. Daniel Ruggles [CS]",
-  "end_date": "1861-06-01",
-  "cwsac_reference": "VA002",
-  "casualties": 10,
+  "campaign": "Blockade of the Chesapeake Bay [May-June 1861]",
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "Colonel",
+          "first_name": "Daniel",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Ruggles",
+          "fullname": "Daniel Ruggles"
+        }
+      ],
+      "description": "battery garrison"
+    },
+    "US": {
+      "gunboats": 3,
+      "commanders": [
+        {
+          "rank": "Commander",
+          "first_name": "James",
+          "suffix": "",
+          "navy": true,
+          "middle_name": "H.",
+          "last_name": "Ward",
+          "fullname": "James H. Ward"
+        }
+      ],
+      "description": "3 gunboats"
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "Colonel",
+          "first_name": "Daniel",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Ruggles",
+          "fullname": "Daniel Ruggles"
+        }
+      ],
+      "description": "battery garrison"
+    }
+  },
+  "result": "Inconclusive",
+  "battle": "VA002",
   "location": [
     {
-      "place": "Stafford County",
-      "state": "VA"
+      "state": "VA",
+      "place": "Stafford County"
     }
   ],
-  "battle_name": "Aquia Creek"
+  "url": "http://www.nps.gov/hps/abpp/battles/va002.htm"
 }

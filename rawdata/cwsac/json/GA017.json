@@ -1,61 +1,110 @@
 {
-  "dates": "July 22, 1864",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/ga017.htm",
-  "results_text": "Union victory",
+  "end_date": "1864-07-22",
+  "casualties": 12140,
   "casualties_text": "12,140 total (US 3,641; CS 8,499)",
-  "description": "Following the Battle of Peachtree Creek, Hood determined to attack Maj. Gen. James B. McPherson's Army of the Tennessee. He withdrew his main army at night from Atlanta' s outer line to the inner line, enticing Sherman to follow. In the meantime, he sent William J. Hardee with his corps on a fifteen-mile march to hit the unprotected Union left and rear, east of the city. Wheeler's cavalry was to operate farther out on Sherman's supply line, and Gen. Frank Cheatham's corps were to attack the Union front. Hood, however, miscalculated the time necessary to make the march, and Hardee was unable to attack until afternoon. Although Hood had outmaneuvered Sherman for the time being, McPherson was concerned about his left flank and sent his reserves-Grenville Dodge's XVI Army Corps-to that location. Two of Hood's divisions ran into this reserve force and were repulsed. The Rebel attack stalled on the Union rear but began to roll up the left flank. Around the same time, a Confederate soldier shot and killed McPherson when he rode out to observe the fighting. Determined attacks continued, but the Union forces held. About 4:00 pm, Cheatham's corps broke through the Union front at the Hurt House, but Sherman massed twenty artillery pieces on a knoll near his headquarters to shell these Confederates and halt their drive. Maj. Gen. John A. Logan' s XV Army Corps then led a counterattack that restored the Union line. The Union troops held, and Hood suffered high casualties.",
-  "start_date": "1864-07-22",
-  "forces_text": "Military Division of the Mississippi [US]; Army of Tennessee [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": 8499,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Hood",
-          "middle_name": "Bell",
           "rank": "General",
+          "first_name": "John",
           "suffix": "",
-          "fullname": "John Bell Hood",
-          "first_name": "John"
+          "navy": false,
+          "middle_name": "Bell",
+          "last_name": "Hood",
+          "fullname": "John Bell Hood"
         }
       ],
       "description": "Army of Tennessee",
-      "armies": 1,
-      "casualties": 8499
+      "armies": 1
     },
     "US": {
+      "casualties": 3641,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Sherman",
-          "middle_name": "T.",
           "rank": "Major General",
+          "first_name": "William",
           "suffix": "",
-          "fullname": "William T. Sherman",
-          "first_name": "William"
+          "navy": false,
+          "middle_name": "T.",
+          "last_name": "Sherman",
+          "fullname": "William T. Sherman"
         }
       ],
-      "description": "Military Division of the Mississippi",
-      "casualties": 3641
+      "description": "Military Division of the Mississippi"
     }
   },
-  "campaign": "Atlanta Campaign [May-September 1864]",
-  "battle": "GA017",
-  "result": "Union",
+  "cwsac_reference": "GA017",
+  "operation": false,
+  "forces_text": "Military Division of the Mississippi [US]; Army of Tennessee [CS]",
+  "start_date": "1864-07-22",
+  "preservation": "IV.2",
+  "results_text": "Union victory",
+  "description": "Following the Battle of Peachtree Creek, Hood determined to attack Maj. Gen. James B. McPherson's Army of the Tennessee. He withdrew his main army at night from Atlanta' s outer line to the inner line, enticing Sherman to follow. In the meantime, he sent William J. Hardee with his corps on a fifteen-mile march to hit the unprotected Union left and rear, east of the city. Wheeler's cavalry was to operate farther out on Sherman's supply line, and Gen. Frank Cheatham's corps were to attack the Union front. Hood, however, miscalculated the time necessary to make the march, and Hardee was unable to attack until afternoon. Although Hood had outmaneuvered Sherman for the time being, McPherson was concerned about his left flank and sent his reserves-Grenville Dodge's XVI Army Corps-to that location. Two of Hood's divisions ran into this reserve force and were repulsed. The Rebel attack stalled on the Union rear but began to roll up the left flank. Around the same time, a Confederate soldier shot and killed McPherson when he rode out to observe the fighting. Determined attacks continued, but the Union forces held. About 4:00 pm, Cheatham's corps broke through the Union front at the Hurt House, but Sherman massed twenty artillery pieces on a knoll near his headquarters to shell these Confederates and halt their drive. Maj. Gen. John A. Logan' s XV Army Corps then led a counterattack that restored the Union line. The Union troops held, and Hood suffered high casualties.",
+  "state": "GA",
   "significance": "B",
   "other_names": null,
-  "state": "GA",
-  "preservation": "IV.2",
+  "dates": "July 22, 1864",
+  "battle_name": "Atlanta",
   "principal_commanders": "Maj. Gen. William T. Sherman [US]; Gen. John Bell Hood [CS]",
-  "end_date": "1864-07-22",
-  "cwsac_reference": "GA017",
-  "casualties": 12140,
+  "campaign": "Atlanta Campaign [May-September 1864]",
+  "belligerents": {
+    "Confederate": {
+      "casualties": 8499,
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "Bell",
+          "last_name": "Hood",
+          "fullname": "John Bell Hood"
+        }
+      ],
+      "description": "Army of Tennessee",
+      "armies": 1
+    },
+    "US": {
+      "casualties": 3641,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "William",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "T.",
+          "last_name": "Sherman",
+          "fullname": "William T. Sherman"
+        }
+      ],
+      "description": "Military Division of the Mississippi"
+    },
+    "CS": {
+      "casualties": 8499,
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "Bell",
+          "last_name": "Hood",
+          "fullname": "John Bell Hood"
+        }
+      ],
+      "description": "Army of Tennessee",
+      "armies": 1
+    }
+  },
+  "result": "Union",
+  "battle": "GA017",
   "location": [
     {
-      "place": "Fulton County",
-      "state": "GA"
+      "state": "GA",
+      "place": "Fulton County"
     }
   ],
-  "battle_name": "Atlanta"
+  "url": "http://www.nps.gov/hps/abpp/battles/ga017.htm"
 }

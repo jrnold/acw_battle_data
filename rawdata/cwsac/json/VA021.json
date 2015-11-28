@@ -1,23 +1,18 @@
 {
-  "dates": "July 1, 1862",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/va021.htm",
-  "results_text": "Union victory",
+  "end_date": "1862-07-01",
+  "casualties": 8500,
   "casualties_text": "8,500 total",
-  "description": "This was the sixth and last of the Seven Days' Battles. On July 1, 1862, Gen. Robert E. Lee launched a series of disjointed assaults on the nearly impregnable Union position on Malvern Hill. The Confederates suffered more than 5,300 casualties without gaining an inch of ground. Despite his victory, McClellan withdrew to entrench at Harrison's Landing on James River, where his army was protected by gunboats. This ended the Peninsula Campaign. When McClellan's army ceased to threaten Richmond, Lee sent Jackson to operate against Maj. Gen. John Pope's army along the Rapidan River, thus initiating the Northern Virginia Campaign.",
-  "start_date": "1862-07-01",
-  "forces_text": "Armies",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Lee",
-          "middle_name": "E.",
           "rank": "General",
+          "first_name": "Robert",
           "suffix": "",
-          "fullname": "Robert E. Lee",
-          "first_name": "Robert"
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "fullname": "Robert E. Lee"
         }
       ],
       "armies": 1
@@ -25,36 +20,85 @@
     "US": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "McClellan",
-          "middle_name": "B.",
           "rank": "Major General",
+          "first_name": "George",
           "suffix": "",
-          "fullname": "George B. McClellan",
-          "first_name": "George"
+          "navy": false,
+          "middle_name": "B.",
+          "last_name": "McClellan",
+          "fullname": "George B. McClellan"
         }
       ],
       "armies": 1
     }
   },
-  "campaign": "Peninsula Campaign [March-July 1862]",
-  "battle": "VA021",
-  "result": "Union",
+  "cwsac_reference": "VA021",
+  "operation": false,
+  "forces_text": "Armies",
+  "start_date": "1862-07-01",
+  "preservation": "I.1",
+  "results_text": "Union victory",
+  "description": "This was the sixth and last of the Seven Days' Battles. On July 1, 1862, Gen. Robert E. Lee launched a series of disjointed assaults on the nearly impregnable Union position on Malvern Hill. The Confederates suffered more than 5,300 casualties without gaining an inch of ground. Despite his victory, McClellan withdrew to entrench at Harrison's Landing on James River, where his army was protected by gunboats. This ended the Peninsula Campaign. When McClellan's army ceased to threaten Richmond, Lee sent Jackson to operate against Maj. Gen. John Pope's army along the Rapidan River, thus initiating the Northern Virginia Campaign.",
+  "state": "VA",
   "significance": "A",
   "other_names": [
     "Poindexter's Farm"
   ],
-  "state": "VA",
-  "preservation": "I.1",
+  "dates": "July 1, 1862",
+  "battle_name": "Malvern Hill",
   "principal_commanders": "Maj. Gen. George B. McClellan [US]; Gen. Robert E. Lee [CS]",
-  "end_date": "1862-07-01",
-  "cwsac_reference": "VA021",
-  "casualties": 8500,
+  "campaign": "Peninsula Campaign [March-July 1862]",
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "Robert",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "fullname": "Robert E. Lee"
+        }
+      ],
+      "armies": 1
+    },
+    "US": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "George",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "B.",
+          "last_name": "McClellan",
+          "fullname": "George B. McClellan"
+        }
+      ],
+      "armies": 1
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "Robert",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "fullname": "Robert E. Lee"
+        }
+      ],
+      "armies": 1
+    }
+  },
+  "result": "Union",
+  "battle": "VA021",
   "location": [
     {
-      "place": "Henrico County",
-      "state": "VA"
+      "state": "VA",
+      "place": "Henrico County"
     }
   ],
-  "battle_name": "Malvern Hill"
+  "url": "http://www.nps.gov/hps/abpp/battles/va021.htm"
 }

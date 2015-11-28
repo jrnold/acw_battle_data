@@ -1,63 +1,111 @@
 {
-  "dates": "May 18, 1864",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/la023.htm",
-  "results_text": "Union strategic victory",
+  "end_date": "1864-05-18",
+  "casualties": 860,
   "casualties_text": "860 total (US 360; CS 500)",
-  "description": "Maj. Gen. Nathaniel P. Banks during his retreat in the Red River Campaign, following the battles of Mansfield and Pleasant Hill, reached the Atchafalaya River on May 17. Once on the other side of the river he would be shielded from the continuous Confederate harassment. But, he had to wait to cross the river until the army engineers constructed a bridge. On the 18th, Banks learned that Maj. Gen. Richard Taylor's force was near Yellow Bayou so he ordered Brig. Gen. A.J. Smith to stop them. Since Smith could not comply himself, he ordered Brig. Gen. Joseph A. Mower to meet Taylor. The Yankees attacked and drove the Rebels to their main line. The Confederates counterattacked, forcing the Federals to give ground. The Union force finally repulsed the Confederates. This see-saw action continued for several hours until the ground cover caught fire forcing both sides to retire. Yellow Bayou was the last battle of Banks's ill-fated Red River Expedition, and it insured that the Federals would escape as an army to fight again.",
-  "start_date": "1864-05-18",
-  "forces_text": "1st and 3rd Divisions, XVI Army Corps [US]; District of Western Louisiana [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": 500,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Taylor",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "Richard",
           "suffix": "",
-          "fullname": "Richard Taylor",
-          "first_name": "Richard"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Taylor",
+          "fullname": "Richard Taylor"
         }
       ],
-      "description": "District of Western Louisiana",
-      "casualties": 500
+      "description": "District of Western Louisiana"
     },
     "US": {
+      "casualties": 360,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Mower",
-          "middle_name": "A.",
           "rank": "Brigadier General",
+          "first_name": "Joseph",
           "suffix": "",
-          "fullname": "Joseph A. Mower",
-          "first_name": "Joseph"
+          "navy": false,
+          "middle_name": "A.",
+          "last_name": "Mower",
+          "fullname": "Joseph A. Mower"
         }
       ],
       "divisions": 2,
-      "description": "1st and 3rd Divisions, XVI Army Corps",
-      "casualties": 360
+      "description": "1st and 3rd Divisions, XVI Army Corps"
     }
   },
-  "campaign": "Red River Campaign [March-April 1864]",
-  "battle": "LA023",
-  "result": "Union",
+  "cwsac_reference": "LA023",
+  "operation": false,
+  "forces_text": "1st and 3rd Divisions, XVI Army Corps [US]; District of Western Louisiana [CS]",
+  "start_date": "1864-05-18",
+  "preservation": "IV.1",
+  "results_text": "Union strategic victory",
+  "description": "Maj. Gen. Nathaniel P. Banks during his retreat in the Red River Campaign, following the battles of Mansfield and Pleasant Hill, reached the Atchafalaya River on May 17. Once on the other side of the river he would be shielded from the continuous Confederate harassment. But, he had to wait to cross the river until the army engineers constructed a bridge. On the 18th, Banks learned that Maj. Gen. Richard Taylor's force was near Yellow Bayou so he ordered Brig. Gen. A.J. Smith to stop them. Since Smith could not comply himself, he ordered Brig. Gen. Joseph A. Mower to meet Taylor. The Yankees attacked and drove the Rebels to their main line. The Confederates counterattacked, forcing the Federals to give ground. The Union force finally repulsed the Confederates. This see-saw action continued for several hours until the ground cover caught fire forcing both sides to retire. Yellow Bayou was the last battle of Banks's ill-fated Red River Expedition, and it insured that the Federals would escape as an army to fight again.",
+  "state": "LA",
   "significance": "C",
   "other_names": [
     "Norwood's Plantation"
   ],
-  "state": "LA",
-  "preservation": "IV.1",
+  "dates": "May 18, 1864",
+  "battle_name": "Yellow Bayou",
   "principal_commanders": "Brig. Gen. Joseph A. Mower [US]; Maj. Gen. Richard Taylor [CS]",
-  "end_date": "1864-05-18",
-  "cwsac_reference": "LA023",
-  "casualties": 860,
+  "campaign": "Red River Campaign [March-April 1864]",
+  "belligerents": {
+    "Confederate": {
+      "casualties": 500,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Richard",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Taylor",
+          "fullname": "Richard Taylor"
+        }
+      ],
+      "description": "District of Western Louisiana"
+    },
+    "US": {
+      "casualties": 360,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Joseph",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "A.",
+          "last_name": "Mower",
+          "fullname": "Joseph A. Mower"
+        }
+      ],
+      "divisions": 2,
+      "description": "1st and 3rd Divisions, XVI Army Corps"
+    },
+    "CS": {
+      "casualties": 500,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Richard",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Taylor",
+          "fullname": "Richard Taylor"
+        }
+      ],
+      "description": "District of Western Louisiana"
+    }
+  },
+  "result": "Union",
+  "battle": "LA023",
   "location": [
     {
-      "place": "Avoyelles Parish",
-      "state": "LA"
+      "state": "LA",
+      "place": "Avoyelles Parish"
     }
   ],
-  "battle_name": "Yellow Bayou"
+  "url": "http://www.nps.gov/hps/abpp/battles/la023.htm"
 }

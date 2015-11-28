@@ -1,62 +1,109 @@
 {
-  "dates": "April 7, 1865",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/va094.htm",
-  "results_text": "Confederate victory",
+  "end_date": "1865-04-07",
+  "casualties": 910,
   "casualties_text": "910 total (US 655; CS 255)",
-  "description": "Near 2 pm on April 7, the advance of the Union II Corps encountered Confederate forces entrenched on high ground near Cumberland Church. The Union forces attacked twice but were repulsed, and darkness halted the conflict. Union general Smythe was mortally wounded nearby, and J.I. Gregg was captured north of Farmville.",
-  "start_date": "1865-04-07",
-  "forces_text": "Corps",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "corps": 1,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Lee",
-          "middle_name": "E.",
           "rank": "General",
+          "first_name": "Robert",
           "suffix": "",
-          "fullname": "Robert E. Lee",
-          "first_name": "Robert"
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "fullname": "Robert E. Lee"
         }
       ],
-      "corps": 1,
       "casualties": 255
     },
     "US": {
+      "corps": 1,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Humphreys",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "A.A.",
           "suffix": "",
-          "fullname": "A.A. Humphreys",
-          "first_name": "A.A."
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Humphreys",
+          "fullname": "A.A. Humphreys"
         }
       ],
-      "corps": 1,
       "casualties": 655
     }
   },
-  "campaign": "Appomattox Campaign [March-April 1865]",
-  "battle": "VA094",
-  "result": "Confederate",
+  "cwsac_reference": "VA094",
+  "operation": false,
+  "forces_text": "Corps",
+  "start_date": "1865-04-07",
+  "preservation": "II.3",
+  "results_text": "Confederate victory",
+  "description": "Near 2 pm on April 7, the advance of the Union II Corps encountered Confederate forces entrenched on high ground near Cumberland Church. The Union forces attacked twice but were repulsed, and darkness halted the conflict. Union general Smythe was mortally wounded nearby, and J.I. Gregg was captured north of Farmville.",
+  "state": "VA",
   "significance": "C",
   "other_names": [
     "Farmville"
   ],
-  "state": "VA",
-  "preservation": "II.3",
+  "dates": "April 7, 1865",
+  "battle_name": "Cumberland Church",
   "principal_commanders": "Maj. Gen. A.A. Humphreys [US]; Gen. Robert E. Lee [CS]",
-  "end_date": "1865-04-07",
-  "cwsac_reference": "VA094",
-  "casualties": 910,
+  "campaign": "Appomattox Campaign [March-April 1865]",
+  "belligerents": {
+    "Confederate": {
+      "corps": 1,
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "Robert",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "fullname": "Robert E. Lee"
+        }
+      ],
+      "casualties": 255
+    },
+    "US": {
+      "corps": 1,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "A.A.",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Humphreys",
+          "fullname": "A.A. Humphreys"
+        }
+      ],
+      "casualties": 655
+    },
+    "CS": {
+      "corps": 1,
+      "commanders": [
+        {
+          "rank": "General",
+          "first_name": "Robert",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "fullname": "Robert E. Lee"
+        }
+      ],
+      "casualties": 255
+    }
+  },
+  "result": "Confederate",
+  "battle": "VA094",
   "location": [
     {
-      "place": "Cumberland County",
-      "state": "VA"
+      "state": "VA",
+      "place": "Cumberland County"
     }
   ],
-  "battle_name": "Cumberland Church"
+  "url": "http://www.nps.gov/hps/abpp/battles/va094.htm"
 }

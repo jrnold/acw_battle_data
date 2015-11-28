@@ -1,63 +1,114 @@
 {
-  "dates": "December 31, 1862",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/tn011.htm",
-  "results_text": "Confederate victory",
+  "end_date": "1862-12-31",
+  "casualties": 737,
   "casualties_text": "737 total (US 237; CS 500)",
-  "description": "As Brig. Gen. Nathan Bedford Forrest's expedition into West Tennessee neared its conclusion, Union Brig. Gen. Jeremiah C. Sullivan, with the brigades of Col. Cyrus L. Dunham and Col. John W. Fuller, attempted to cut Forrest off from withdrawing across the Tennessee River. Dunham's and Forrest's march routes, on December 31, 1862, brought them into contact at Parker's Cross Roads. Skirmishing began about 9:00 am, with Forrest taking an initial position along a wooded ridge northwest of Dunham at the intersection. Confederate artillery gained an early advantage. Dunham pulled his brigade back a half mile and redeployed, facing north. His Federals repelled frontal feints until attacked on both flanks and rear by Forrest's mounted and dismounted troops. During a lull, Forrest sent Dunham a demand for an unconditional surrender. Dunham refused and was preparing for Forrest's next onset when Fuller's Union brigade arrived from the north and surprised the Confederates with an attack on their rear; Confederate security detachments had failed to warn of Fuller's approach. \"Charge 'em both ways,\" ordered Forrest. The Confederates briefly reversed front, repelled Fuller, then rushed past Dunham's demoralized force and withdrew south to Lexington and then across the Tennessee River. Both sides claimed victory, but the Confederate claims appear to have more credence.",
-  "start_date": "1862-12-31",
-  "forces_text": "Two brigades (approx. 3,000 men) [US]; expeditionary brigade [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": 500,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Forrest",
-          "middle_name": "Bedford",
           "rank": "Brigadier General",
+          "first_name": "Nathan",
           "suffix": "",
-          "fullname": "Nathan Bedford Forrest",
-          "first_name": "Nathan"
+          "navy": false,
+          "middle_name": "Bedford",
+          "last_name": "Forrest",
+          "fullname": "Nathan Bedford Forrest"
         }
       ],
-      "description": "expeditionary brigade",
       "brigades": 1,
-      "casualties": 500
+      "description": "expeditionary brigade"
     },
     "US": {
+      "casualties": 237,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Sullivan",
-          "middle_name": "C.",
           "rank": "Brigadier General",
+          "first_name": "Jeremiah",
           "suffix": "",
-          "fullname": "Jeremiah C. Sullivan",
-          "first_name": "Jeremiah"
+          "navy": false,
+          "middle_name": "C.",
+          "last_name": "Sullivan",
+          "fullname": "Jeremiah C. Sullivan"
         }
       ],
       "description": "Two brigades (approx. 3,000 men)",
-      "strength_max": 3000,
       "strength_min": 3000,
-      "casualties": 237
+      "strength_max": 3000
     }
   },
-  "campaign": "Forrest's Expedition into West Tennessee [December 1862-January 1863]",
-  "battle": "TN011",
-  "result": "Confederate",
+  "cwsac_reference": "TN011",
+  "operation": false,
+  "forces_text": "Two brigades (approx. 3,000 men) [US]; expeditionary brigade [CS]",
+  "start_date": "1862-12-31",
+  "preservation": "II.3",
+  "results_text": "Confederate victory",
+  "description": "As Brig. Gen. Nathan Bedford Forrest's expedition into West Tennessee neared its conclusion, Union Brig. Gen. Jeremiah C. Sullivan, with the brigades of Col. Cyrus L. Dunham and Col. John W. Fuller, attempted to cut Forrest off from withdrawing across the Tennessee River. Dunham's and Forrest's march routes, on December 31, 1862, brought them into contact at Parker's Cross Roads. Skirmishing began about 9:00 am, with Forrest taking an initial position along a wooded ridge northwest of Dunham at the intersection. Confederate artillery gained an early advantage. Dunham pulled his brigade back a half mile and redeployed, facing north. His Federals repelled frontal feints until attacked on both flanks and rear by Forrest's mounted and dismounted troops. During a lull, Forrest sent Dunham a demand for an unconditional surrender. Dunham refused and was preparing for Forrest's next onset when Fuller's Union brigade arrived from the north and surprised the Confederates with an attack on their rear; Confederate security detachments had failed to warn of Fuller's approach. \"Charge 'em both ways,\" ordered Forrest. The Confederates briefly reversed front, repelled Fuller, then rushed past Dunham's demoralized force and withdrew south to Lexington and then across the Tennessee River. Both sides claimed victory, but the Confederate claims appear to have more credence.",
+  "state": "TN",
   "significance": "C",
   "other_names": null,
-  "state": "TN",
-  "preservation": "II.3",
+  "dates": "December 31, 1862",
+  "battle_name": "Parker's Cross Roads",
   "principal_commanders": "Brig. Gen. Jeremiah C. Sullivan [US]; Brig. Gen. Nathan Bedford Forrest [CS]",
-  "end_date": "1862-12-31",
-  "cwsac_reference": "TN011",
-  "casualties": 737,
+  "campaign": "Forrest's Expedition into West Tennessee [December 1862-January 1863]",
+  "belligerents": {
+    "Confederate": {
+      "casualties": 500,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Nathan",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "Bedford",
+          "last_name": "Forrest",
+          "fullname": "Nathan Bedford Forrest"
+        }
+      ],
+      "brigades": 1,
+      "description": "expeditionary brigade"
+    },
+    "US": {
+      "casualties": 237,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Jeremiah",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "C.",
+          "last_name": "Sullivan",
+          "fullname": "Jeremiah C. Sullivan"
+        }
+      ],
+      "description": "Two brigades (approx. 3,000 men)",
+      "strength_min": 3000,
+      "strength_max": 3000
+    },
+    "CS": {
+      "casualties": 500,
+      "commanders": [
+        {
+          "rank": "Brigadier General",
+          "first_name": "Nathan",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "Bedford",
+          "last_name": "Forrest",
+          "fullname": "Nathan Bedford Forrest"
+        }
+      ],
+      "brigades": 1,
+      "description": "expeditionary brigade"
+    }
+  },
+  "result": "Confederate",
+  "battle": "TN011",
   "location": [
     {
-      "place": "Henderson County",
-      "state": "TN"
+      "state": "TN",
+      "place": "Henderson County"
     }
   ],
-  "battle_name": "Parker's Cross Roads"
+  "url": "http://www.nps.gov/hps/abpp/battles/tn011.htm"
 }

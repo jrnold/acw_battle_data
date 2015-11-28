@@ -34,6 +34,8 @@ def clean_battle(battle):
     except KeyError:
         row['end_date'] = row['start_date']
     row['campaign'] = battle['Campaign']
+    row['county'] = ';'.join(x['name'] + ', ' + x['state']
+                             for x in battle['County'])
     return row
     
 def build_battles(data, dst):
@@ -43,7 +45,8 @@ def build_battles(data, dst):
                   'cwsac_id',
                   'start_date',
                   'end_date',
-                  'campaign')
+                  'campaign',
+                  'county')
     with open(path.join(dst, 'shenandoah_battles.csv'), 'w') as f:
         writer = csv.DictWriter(f, fieldnames)
         writer.writeheader()

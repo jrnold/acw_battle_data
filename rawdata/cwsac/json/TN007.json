@@ -1,77 +1,135 @@
 {
-  "dates": "October 5, 1862",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/tn007.htm",
-  "results_text": "Union victory",
+  "end_date": "1862-10-05",
+  "casualties": 900,
   "casualties_text": "900 total (US 500; CS 400)",
-  "description": "Maj. Gen. Earl Van Dorn's Confederate Army of West Tennessee retreated from Corinth on October 4, 1862. Maj. Gen. William S. Rosecrans did not send forces in pursuit until the morning of the 5th. Maj. Gen. Edward O.C. Ord, commanding a detachment of the Army of West Tennessee, was, pursuant to orders, advancing on Corinth to assist Rosecrans. On the night of October 4-5, he camped near Pocahontas. Between 7:30 and 8:00 am the next morning, his force encountered Union Maj. Gen. Stephen A. Hurlbut's 4th Brigade, Army of West Tennessee, in the Confederates's front. Ord took command of the now-combined Union forces and pushed Van Dorn's advance, Maj. Gen. Sterling Price's Army of the West, back about five miles to the Hatchie River and across Davis' Bridge. After accomplishing this, Ord was wounded and Hurlbut assumed command. While Price's men were hotly engaged with Ord's force, Van Dorn's scouts looked for and found another crossing of the Hatchie River. Van Dorn then led his army back to Holly Springs. Ord had forced Price to retreat, but the Confederates escaped capture or destruction. Although they should have done so, Rosecrans's army had failed to capture or destroy Van Dorn's force.",
-  "start_date": "1862-10-05",
-  "forces_text": "Detachment [US]; Army of the West [CS]",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
+      "casualties": 400,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Van Dorn",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "Earl",
           "suffix": "",
-          "fullname": "Earl Van Dorn",
-          "first_name": "Earl"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Van Dorn",
+          "fullname": "Earl Van Dorn"
         }
       ],
       "description": "Army of the West",
-      "armies": 1,
-      "casualties": 400
+      "armies": 1
     },
     "US": {
+      "casualties": 500,
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Ord",
-          "middle_name": "O.C.",
           "rank": "Major General",
+          "first_name": "Edward",
           "suffix": "",
-          "fullname": "Edward O.C. Ord",
-          "first_name": "Edward"
+          "navy": false,
+          "middle_name": "O.C.",
+          "last_name": "Ord",
+          "fullname": "Edward O.C. Ord"
         },
         {
-          "navy": false,
-          "last_name": "Hurlbut",
-          "middle_name": "A.",
           "rank": "Major General",
+          "first_name": "Stephen",
           "suffix": "",
-          "fullname": "Stephen A. Hurlbut",
-          "first_name": "Stephen"
+          "navy": false,
+          "middle_name": "A.",
+          "last_name": "Hurlbut",
+          "fullname": "Stephen A. Hurlbut"
         }
       ],
-      "description": "Detachment",
-      "casualties": 500
+      "description": "Detachment"
     }
   },
-  "campaign": "Iuka and Corinth Operations [September-October 1862]",
-  "battle": "TN007",
-  "result": "Union",
+  "cwsac_reference": "TN007",
+  "operation": false,
+  "forces_text": "Detachment [US]; Army of the West [CS]",
+  "start_date": "1862-10-05",
+  "preservation": "III.3",
+  "results_text": "Union victory",
+  "description": "Maj. Gen. Earl Van Dorn's Confederate Army of West Tennessee retreated from Corinth on October 4, 1862. Maj. Gen. William S. Rosecrans did not send forces in pursuit until the morning of the 5th. Maj. Gen. Edward O.C. Ord, commanding a detachment of the Army of West Tennessee, was, pursuant to orders, advancing on Corinth to assist Rosecrans. On the night of October 4-5, he camped near Pocahontas. Between 7:30 and 8:00 am the next morning, his force encountered Union Maj. Gen. Stephen A. Hurlbut's 4th Brigade, Army of West Tennessee, in the Confederates's front. Ord took command of the now-combined Union forces and pushed Van Dorn's advance, Maj. Gen. Sterling Price's Army of the West, back about five miles to the Hatchie River and across Davis' Bridge. After accomplishing this, Ord was wounded and Hurlbut assumed command. While Price's men were hotly engaged with Ord's force, Van Dorn's scouts looked for and found another crossing of the Hatchie River. Van Dorn then led his army back to Holly Springs. Ord had forced Price to retreat, but the Confederates escaped capture or destruction. Although they should have done so, Rosecrans's army had failed to capture or destroy Van Dorn's force.",
+  "state": "TN",
   "significance": "C",
   "other_names": [
     "Davis Bridge",
     "Matamora"
   ],
-  "state": "TN",
-  "preservation": "III.3",
+  "dates": "October 5, 1862",
+  "battle_name": "Hatchie's Bridge",
   "principal_commanders": "Maj. Gen. Edward O.C. Ord and Maj. Gen. Stephen A. Hurlbut [US]; Maj. Gen. Earl Van Dorn [CS]",
-  "end_date": "1862-10-05",
-  "cwsac_reference": "TN007",
-  "casualties": 900,
+  "campaign": "Iuka and Corinth Operations [September-October 1862]",
+  "belligerents": {
+    "Confederate": {
+      "casualties": 400,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Earl",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Van Dorn",
+          "fullname": "Earl Van Dorn"
+        }
+      ],
+      "description": "Army of the West",
+      "armies": 1
+    },
+    "US": {
+      "casualties": 500,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Edward",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "O.C.",
+          "last_name": "Ord",
+          "fullname": "Edward O.C. Ord"
+        },
+        {
+          "rank": "Major General",
+          "first_name": "Stephen",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "A.",
+          "last_name": "Hurlbut",
+          "fullname": "Stephen A. Hurlbut"
+        }
+      ],
+      "description": "Detachment"
+    },
+    "CS": {
+      "casualties": 400,
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Earl",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Van Dorn",
+          "fullname": "Earl Van Dorn"
+        }
+      ],
+      "description": "Army of the West",
+      "armies": 1
+    }
+  },
+  "result": "Union",
+  "battle": "TN007",
   "location": [
     {
-      "place": "Hardeman County",
-      "state": "TN"
+      "state": "TN",
+      "place": "Hardeman County"
     },
     {
-      "place": "McNairy County",
-      "state": "TN"
+      "state": "TN",
+      "place": "McNairy County"
     }
   ],
-  "battle_name": "Hatchie's Bridge"
+  "url": "http://www.nps.gov/hps/abpp/battles/tn007.htm"
 }

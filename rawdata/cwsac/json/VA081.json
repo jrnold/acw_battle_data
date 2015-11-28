@@ -1,23 +1,18 @@
 {
-  "dates": "December 17-18, 1864",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/va081.htm",
-  "results_text": "Union victory",
+  "end_date": "1864-12-18",
+  "casualties": 274,
   "casualties_text": "274 total",
-  "description": "Riding through the Cumberland Gap, Stoneman's expedition advanced on the important lead mines and salt ponds around Marion and Saltville. On December 17, Stoneman defeated a makeshift force of Confederate defenders. On the 18th, the Federals destroyed the leadworks and mines. On the 20th, they captured and destroyed the salt works at Saltville.",
-  "start_date": "1864-12-17",
-  "forces_text": "Divisions",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Breckinridge",
-          "middle_name": "C.",
           "rank": "Major General",
+          "first_name": "John",
           "suffix": "",
-          "fullname": "John C. Breckinridge",
-          "first_name": "John"
+          "navy": false,
+          "middle_name": "C.",
+          "last_name": "Breckinridge",
+          "fullname": "John C. Breckinridge"
         }
       ],
       "divisions": 1
@@ -25,34 +20,83 @@
     "US": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Stoneman",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "George",
           "suffix": "",
-          "fullname": "George Stoneman",
-          "first_name": "George"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Stoneman",
+          "fullname": "George Stoneman"
         }
       ],
       "divisions": 1
     }
   },
-  "campaign": "Stoneman's Raid into Southwest Virginia [December 1864]",
-  "battle": "VA081",
-  "result": "Union",
+  "cwsac_reference": "VA081",
+  "operation": false,
+  "forces_text": "Divisions",
+  "start_date": "1864-12-17",
+  "preservation": "IV.1",
+  "results_text": "Union victory",
+  "description": "Riding through the Cumberland Gap, Stoneman's expedition advanced on the important lead mines and salt ponds around Marion and Saltville. On December 17, Stoneman defeated a makeshift force of Confederate defenders. On the 18th, the Federals destroyed the leadworks and mines. On the 20th, they captured and destroyed the salt works at Saltville.",
+  "state": "VA",
   "significance": "D",
   "other_names": null,
-  "state": "VA",
-  "preservation": "IV.1",
+  "dates": "December 17-18, 1864",
+  "battle_name": "Marion",
   "principal_commanders": "Maj. Gen. George Stoneman [US]; Maj. Gen. John C. Breckinridge [CS]",
-  "end_date": "1864-12-18",
-  "cwsac_reference": "VA081",
-  "casualties": 274,
+  "campaign": "Stoneman's Raid into Southwest Virginia [December 1864]",
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "C.",
+          "last_name": "Breckinridge",
+          "fullname": "John C. Breckinridge"
+        }
+      ],
+      "divisions": 1
+    },
+    "US": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "George",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Stoneman",
+          "fullname": "George Stoneman"
+        }
+      ],
+      "divisions": 1
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "C.",
+          "last_name": "Breckinridge",
+          "fullname": "John C. Breckinridge"
+        }
+      ],
+      "divisions": 1
+    }
+  },
+  "result": "Union",
+  "battle": "VA081",
   "location": [
     {
-      "place": "Smyth County",
-      "state": "VA"
+      "state": "VA",
+      "place": "Smyth County"
     }
   ],
-  "battle_name": "Marion"
+  "url": "http://www.nps.gov/hps/abpp/battles/va081.htm"
 }

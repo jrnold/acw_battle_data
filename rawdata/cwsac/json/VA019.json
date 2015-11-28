@@ -1,23 +1,18 @@
 {
-  "dates": "June 29, 1862",
-  "operation": false,
-  "url": "http://www.nps.gov/hps/abpp/battles/va019.htm",
-  "results_text": "Inconclusive",
+  "end_date": "1862-06-29",
+  "casualties": 4700,
   "casualties_text": "4,700 total (US 2,500 wounded were captured)",
-  "description": "Fourth of the Seven Days' Battles. On June 29, the main body of the Union army began a general withdrawal toward the James River. Magruder pursued along the railroad and the Williamsburg Road and struck Sumner's Corps (the Union rearguard) with three brigades near Savage's Station. Confederate Brig. Gen. Richard Giffith was mortally wounded during the fight. Jackson's divisions were stalled north of the Chickahominy. Union forces continued to withdraw across White Oak Swamp, abandoning supplies and more than 2,500 wounded soldiers in a field hospital.",
-  "start_date": "1862-06-29",
-  "forces_text": "Divisions",
-  "belligerents": {
-    "CS": {
+  "forces": {
+    "Confederate": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Magruder",
-          "middle_name": "B.",
           "rank": "Major General",
+          "first_name": "John",
           "suffix": "",
-          "fullname": "John B. Magruder",
-          "first_name": "John"
+          "navy": false,
+          "middle_name": "B.",
+          "last_name": "Magruder",
+          "fullname": "John B. Magruder"
         }
       ],
       "divisions": 1
@@ -25,35 +20,85 @@
     "US": {
       "commanders": [
         {
-          "navy": false,
-          "last_name": "Sumner",
-          "middle_name": "",
           "rank": "Major General",
+          "first_name": "Edwin",
           "suffix": "",
-          "fullname": "Edwin Sumner",
-          "first_name": "Edwin"
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Sumner",
+          "fullname": "Edwin Sumner"
         }
       ],
       "divisions": 1,
       "captured": 2500
     }
   },
-  "campaign": "Peninsula Campaign [March-July 1862]",
-  "battle": "VA019",
-  "result": "Inconclusive",
+  "cwsac_reference": "VA019",
+  "operation": false,
+  "forces_text": "Divisions",
+  "start_date": "1862-06-29",
+  "preservation": "IV.1",
+  "results_text": "Inconclusive",
+  "description": "Fourth of the Seven Days' Battles. On June 29, the main body of the Union army began a general withdrawal toward the James River. Magruder pursued along the railroad and the Williamsburg Road and struck Sumner's Corps (the Union rearguard) with three brigades near Savage's Station. Confederate Brig. Gen. Richard Giffith was mortally wounded during the fight. Jackson's divisions were stalled north of the Chickahominy. Union forces continued to withdraw across White Oak Swamp, abandoning supplies and more than 2,500 wounded soldiers in a field hospital.",
+  "state": "VA",
   "significance": "C",
   "other_names": null,
-  "state": "VA",
-  "preservation": "IV.1",
+  "dates": "June 29, 1862",
+  "battle_name": "Savage's Station",
   "principal_commanders": "Maj. Gen. Edwin Sumner [US]; Maj. Gen. John B. Magruder [CS]",
-  "end_date": "1862-06-29",
-  "cwsac_reference": "VA019",
-  "casualties": 4700,
+  "campaign": "Peninsula Campaign [March-July 1862]",
+  "belligerents": {
+    "Confederate": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "B.",
+          "last_name": "Magruder",
+          "fullname": "John B. Magruder"
+        }
+      ],
+      "divisions": 1
+    },
+    "US": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "Edwin",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "",
+          "last_name": "Sumner",
+          "fullname": "Edwin Sumner"
+        }
+      ],
+      "divisions": 1,
+      "captured": 2500
+    },
+    "CS": {
+      "commanders": [
+        {
+          "rank": "Major General",
+          "first_name": "John",
+          "suffix": "",
+          "navy": false,
+          "middle_name": "B.",
+          "last_name": "Magruder",
+          "fullname": "John B. Magruder"
+        }
+      ],
+      "divisions": 1
+    }
+  },
+  "result": "Inconclusive",
+  "battle": "VA019",
   "location": [
     {
-      "place": "Henrico County",
-      "state": "VA"
+      "state": "VA",
+      "place": "Henrico County"
     }
   ],
-  "battle_name": "Savage's Station"
+  "url": "http://www.nps.gov/hps/abpp/battles/va019.htm"
 }
