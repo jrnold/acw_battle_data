@@ -136,9 +136,9 @@ def build(src, dst):
     build_json(data, dst)
  
 def main():
-    #src, dst = sys.argv[1:3]
-    src = "../rawdata/shenandoah"
-    dst = "../data"
+    src, dst = sys.argv[1:3]
+    #src = "../rawdata/shenandoah"
+    #dst = "../data"
     build(src, dst)
 
 if __name__ == "__main__":
