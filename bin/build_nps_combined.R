@@ -6,6 +6,133 @@ RESULTS <-
     "Confederate" = "Confederate victory",
     "Inconclusive" = "Indecisive")
 
+# #'
+# #' # Data
+# #'
+# #' Extra data
+# #'
+# #' - additional campaigns
+# #' - battles in CWSAC and missing from CWSS
+# #' - battles in CWSS to exclude from other analyses
+# #'
+# extra_data <- function(src) {
+#   fromJSON(file.path(src, "nps_combined/extra_data.json"))
+# }
+#
+# #' ## AAD
+# #'
+# #' The AAD data
+# aad_battles <- function(dst) {
+#   mutate(read_csv(file.path(dst, "aad_battles.csv")),
+#          reference_number = plyr::revalue(reference_number,
+#                                           c("AR010A" = "AR010",
+#                                             "GA013A" = "GA013")))
+# }
+#
+# #'
+# #' ## CWSAC I
+# #'
+# #' Original CWSAC battle summaries
+# cwsac1_battles <- function(dst) {
+#   read.csv(file.path(dst, "cwsac_battles.csv"),
+#            stringsAsFactors = FALSE) %>%
+#     mutate(result = plyr::revalue(result, RESULTS))
+# }
+#
+# cwsac1_forces <- function(dst) {
+#   read.csv(file.path(dst, "cwsac_forces.csv"),
+#            stringsAsFactors = FALSE) %>%
+#     mutate(belligerent = plyr::revalue(belligerent, BELLIGERENTS),
+#            belligerent = ifelse(grepl("OK00[1-3]", battle) & belligerent == "US",
+#                                 "Native American", belligerent))
+# }
+#
+# #'
+# #' ## CWSAC II
+# #'
+# cwsac2_battles <- function(dst) {
+#   read.csv(file.path(dst, "cwsac2_battles.csv"),
+#            stringsAsFactors = FALSE) %>%
+#     mutate(battle = plyr::revalue(battle, c("AL002" = "AL009")),
+#            battle_name = ifelse(battle == "AL009", "Athens II", battle_name),
+#            result = plyr::revalue(result, RESULTS)) %>%
+#     left_join(read.csv(file.path(dst, "cwsac2_dates.csv"),
+#                        stringsAsFactors = FALSE) %>%
+#                 mutate(start_date = as.Date(start_date),
+#                        end_date = as.Date(end_date),
+#                        battle = plyr::revalue(battle, c("AL002" = "AL009"))) %>%
+#                 group_by(battle) %>%
+#                 summarise(start_date = as.Date(min(start_date), as.Date("1970-1-1")),
+#                           end_date = as.Date(max(end_date), as.Date("1970-1-1"))),
+#               by = "battle")
+# }
+#
+# cwsac2_forces <- function(dst) {
+#   read.csv(file.path(dst, "cwsac2_forces.csv"),
+#            stringsAsFactors = FALSE) %>%
+#     mutate(belligerent = plyr::revalue(belligerent, BELLIGERENTS))
+# }
+#
+# #'
+# #' ## CWSS
+# #'
+# #' Civil War Soldiers and Sailors (CWSS) Database
+# cwss_battles <- function(dst) {
+#   read.csv(file.path(dst, "cwss_battles.csv"),
+#            stringsAsFactors = FALSE) %>%
+#     mutate(BattleName = ifelse(BattlefieldCode == "AL002",
+#                                "Athens I", BattleName),
+#            BeginDate = as.Date(BeginDate),
+#            EndDate = as.Date(EndDate))
+# }
+#
+# cwss_forces <- function(dst) {
+#   read.csv(file.path(dst, "cwss_forces.csv"),
+#            stringsAsFactors = FALSE)
+# }
+#
+# #'
+# #' ## Shenandoah Battefields
+# #'
+# shenandoah_to_cwsac <- function(dst) {
+#   read.csv(file.path(dst, "shenandoah_to_cwsac.csv"),
+#            stringsAsFactors = FALSE) %>%
+#     rename(cwsac_id = to)
+# }
+#
+# shenandoah_battles <- function(dst, shenandoah_to_cwsacs) {
+#   read.csv(file.path(dst, "shenandoah_battles.csv"),
+#            stringsAsFactors = FALSE) %>%
+#     left_join(shenandoah_to_cwsac, by = c(number = "from"))
+# }
+#
+# shenandoah_forces <- function(dst, shenandoah_to_cwsac) {
+#   read.csv(file.path(dst, "shenandoah_forces.csv"),
+#            stringsAsFactors = FALSE) %>%
+#     left_join(shenandoah_to_cwsac, by = c(number = "from"))
+# }
+#
+# #'
+# #' # Theaters and Campaigns
+# #'
+# theaters <- function(dst) {
+#   read.csv(file.path(dst, "cwss_theaters.csv"),
+#            stringsAsFactors = FALSE)
+# }
+#
+# campaigns <- function(dst, extra_data) {
+#   bind_rows(read.csv(file.path(dst, "cwss_campaigns.csv"),
+#                      stringsAsFactors = FALSE),
+#             extra_data$campaigns)
+# }
+#
+# nps_latlong <- function(src) {
+#   read_csv(file.path(src, "nps_combined/latlong.csv")) %>%
+#     rename(cwsac_id = battle) %>%
+#     select(- cwsac_name)
+# }
+
+
 #'
 #'
 #' # Battlelist Comparisons
@@ -141,11 +268,8 @@ gen_battles <-
            campaign_code = CampaignCode,
            result = Result,
            summary = Summary,
-           summary_source = SummarySource,
-           short_summary = ShortSummary,
-           short_summary_source = ShortSummarySource,
            cas_kwm_mean = TotalCasualties) %>%
-    mutate(cas_kwm_var = rounded_var(cas_kwm_mean, ROUND_METHOD)) %>%
+    mutate(cas_kwm_var = rounded_var(cas_kwm_mean)) %>%
     select(- Comment, - ID,
            - matches("summary")) %>%
     mutate(partof_cwss = TRUE)
@@ -238,7 +362,7 @@ gen_battles <-
 #'
 #' Fill in disaggregated casualty vars
 #'
-fill_casualty_vars <- function(x, rounded_type = 2) {
+fill_casualty_vars <- function(x) {
   # Names of all casualty variables
   cas_types <- c("k", "w", "m", "kw", "km", "wm", "kwm")
   all_mean_vars <- paste0("cas_", cas_types, "_mean")
@@ -254,7 +378,7 @@ fill_casualty_vars <- function(x, rounded_type = 2) {
   for (i in all_mean_vars) {
     varvar <- gsub("_mean", "_var", i)
     x[[varvar]] <- ifelse(is.na(x[[varvar]]),
-                          rounded_var(x[[i]], rounded_type), x[[varvar]])
+                          rounded_var(x[[i]]), x[[varvar]])
   }
   # Fill in aggregated casualty variables implied by disaggregated casualty variables
   for (v in c("mean", "var")) {
@@ -309,7 +433,7 @@ fill_casualty_vars <- function(x, rounded_type = 2) {
 #          cas_kwm_mean = Casualties,
 #          str_mean = TroopsEngaged) %>%
 #   mutate(str_mean = ifelse(str_mean == 0, NA_real_, str_mean),
-#          str_var = rounded_var(str_mean, ROUND_METHOD),
+#          str_var = rounded_var(str_mean),
 #          cas_k_mean = NA_real_,
 #          cas_w_mean = NA_real_,
 #          cas_m_mean = NA_real_,
@@ -393,7 +517,7 @@ fill_casualty_vars <- function(x, rounded_type = 2) {
 #             by = c("cwsac_id", "belligerent"))
 #
 # nps_forces %<>%
-#   fill_casualty_vars(rounded_type = ROUND_METHOD) %>%
+#   fill_casualty_vars() %>%
 #   arrange(cwsac_id, belligerent)
 
 
