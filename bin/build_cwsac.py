@@ -14,12 +14,6 @@ def dict_remove(x, exclude = []):
 def dict_subset(x, include = []):
     return dict((k, v) for k, v in x.items() if k in include)
 
-BELLIGERENTS = {
-    "US": "US",
-    "CS": "Confederate",
-    "I": "Native American"
-}
-
 battle_fields = (#'cwsac_reference',
     'battle',
     'url',
@@ -100,7 +94,7 @@ def forces_csv(data, filename):
         writer = csv.DictWriter(f, belligerent_fields)
         writer.writeheader()
         for battle, battle_data in sorted(data.items()):
-            for belligerent, x in sorted(battle_data['belligerents'].items()):
+            for belligerent, x in sorted(battle_data['forces'].items()):
                 row = dict_subset(x, belligerent_fields)
                 row['battle'] = battle
                 row['belligerent'] = belligerent
@@ -123,7 +117,7 @@ def commanders_csv(data, filename):
         writer = csv.DictWriter(f, commanders_fields)
         writer.writeheader()
         for battle, battle_data in sorted(data.items()):
-            for belligerent, x in sorted(battle_data['belligerents'].items()):
+            for belligerent, x in sorted(battle_data['forces'].items()):
                 for commander in x['commanders']:
                     row = commander.copy()
                     row['battle'] = battle
@@ -154,27 +148,27 @@ def copy_cwsac_to_dbpedia(src, dst):
 def copy_json(data, dst):
     with open(path.join(dst, 'cwsac.json'), 'w') as f:
         json.dump(data, f)
-            
-def build(SRC, DST):
+
+def build(src, dst):
     data = {}
-    data_dir = path.join(SRC, 'json')
-    for filename in os.listdir(data_dir):
-        with open(path.join(data_dir, filename), 'r') as f:
+    json_dir = path.join(src, 'json')
+    for filename in os.listdir(json_dir):
+        with open(path.join(json_dir, filename), 'r') as f:
             data[path.splitext(filename)[0]] = json.load(f)
             
-    battle_csv(data, path.join(DST, 'cwsac_battles.csv'))
-    forces_csv(data, path.join(DST, 'cwsac_forces.csv'))
-    commanders_csv(data, path.join(DST, 'cwsac_commanders.csv'))
-    copy_campaigns(SRC, DST)
-    copy_theaters(SRC, DST)
-    copy_significance(SRC, DST)
-    copy_preservation(SRC, DST)
-    copy_json(data, DST)
+    battle_csv(data, path.join(dst, 'cwsac_battles.csv'))
+    forces_csv(data, path.join(dst, 'cwsac_forces.csv'))
+    commanders_csv(data, path.join(dst, 'cwsac_commanders.csv'))
+    copy_campaigns(src, dst)
+    copy_theaters(src, dst)
+    copy_significance(src, dst)
+    copy_preservation(src, dst)
+    copy_json(data, dst)
 
 def main():
-    SRC = sys.argv[1]
-    DST = sys.argv[2]
-    build(SRC, DST)
+    src = sys.argv[1]
+    dst = sys.argv[2]
+    build(src, dst)
 
 if __name__ == "__main__":
     main()

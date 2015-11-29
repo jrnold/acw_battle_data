@@ -70,14 +70,6 @@ unif_var <- function(min, max) (1 / 12) * (max - min) ^ 2
 #' Calculate variance of the measurement error of a value with trailing zeros
 #'
 #' Suppose \eqn{x} has \eqn{k} trailing zeros, than one model for the variance of the measurement error is,
-#' \deqn{\mathrm{var}(x) = \sum_{i = 0}^k w_i \frac{1}{12} 10^{2k}}{var(x) = sum_(i = 0)^k w_i * 1/12 * 10^(2k)}
-#' Method 1 is
-#' \deqn{\mathrm{var}(x) = \frac{1}{k + 1} \sum_{i = 0}^k \frac{1}{12} 10^{2i}}{var(x) = (1 / k + 1) sum_(i = 0)^k 1/12 * 10^(2k) .}
-#' Method 2 is
-#' \deqn{\mathrm{var}(x) = \frac{1}{\sum_{i = 0}^k 10^i} \sum_{i = 0}^k \frac{1}{12} 10^{3i}}{var(x) = (1 / sum(10^0, ..., 10^k) sum_(i = 0)^k 1/12 * 10^(3k) .}
-#' Method 3 is
-#' \deqn{\mathrm{var}(x) = \frac{1}{12} 10^{2k}}{var(x) = (1/12) * 10^(2k) .}
-#' Method 4 is
 #' \deqn{\mathrm{var}(x) = \frac{1}{(k + 1) (k + 2) / 2} \sum_{i = 0}^k \frac{i + 1}{12} 10^{2i}
 #' @param x The value
 #' @param method see details
@@ -88,12 +80,7 @@ rounded_var <- function(x, method = 1) {
       NA
     } else {
       k <- trailing_zeros(x)
-      switch(method,
-             sum((10 ^ (2 * 0:k) / 12) / (k + 1)),
-             sum(10 ^ (3 * 0:k) / 12) / sum(10^(0:k)),
-             10 ^ (2 * k) / 12,
-             sum((0:k + 1) / ((k + 1) * (k + 2) / 2) * (10 ^ (2 * 0:k) / 12))
-      )
+      10 ^ (2 * k) / 12
     }
   }
   vapply(x, f, 0)

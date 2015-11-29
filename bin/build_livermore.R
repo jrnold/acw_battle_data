@@ -113,7 +113,9 @@ build <- function(src, pardir, dst) {
 
 main <- function() {
   arglist <- commandArgs(TRUE)
-  build(arglist[1], arglist[2], arglist[3])
+  build(file.path(arglist[1], "rawdata", "livermore1900"),
+        file.path(arglist[1], "dependencies", "PAR", "data"),
+        arglist[2])
 }
 
 main()

@@ -40,7 +40,7 @@ def battle_csv(data, filename):
             row = dict_subset(battle_data, battle_fields)
             writer.writerow(row)
 
-belligerent_fields = ('battle',
+forces_fields = ('battle',
  'belligerent',
  'description',
  #'commanders',
@@ -66,19 +66,19 @@ belligerent_fields = ('battle',
  'guns',
 )
 
-def belligerents_csv(data, filename):
+def forces_csv(data, filename):
     # fields = set()
     with open(filename, 'w') as f:
-        writer = csv.DictWriter(f, belligerent_fields)
+        writer = csv.DictWriter(f, forces_fields)
         writer.writeheader()
         for battle, battle_data in data.items():
-            for belligerent, x in battle_data['belligerents'].items():
+            for belligerent, x in battle_data['forces'].items():
                 # for k in x:
                 #     fields.add(k)
-                row = dict_subset(battle_data, belligerent_fields)
+                row = dict_subset(battle_data, forces_fields)
         for battle, battle_data in sorted(data.items()):
-            for belligerent, force_data in sorted(battle_data['belligerents'].items()):
-                row = dict_subset(force_data, belligerent_fields)
+            for belligerent, force_data in sorted(battle_data['forces'].items()):
+                row = dict_subset(force_data, forces_fields)
                 row['battle'] = battle
                 row['belligerent'] = belligerent
                 writer.writerow(row)
@@ -92,7 +92,7 @@ def commanders_csv(data, filename):
         writer = csv.DictWriter(f, commanders_fields)
         writer.writeheader()
         for battle, battle_data in sorted(data.items()):
-            for belligerent, x in sorted(battle_data['belligerents'].items()):
+            for belligerent, x in sorted(battle_data['forces'].items()):
                 for commander in x['commanders']:
                     row = commander.copy()
                     row['battle'] = battle
@@ -127,7 +127,7 @@ def build(src, dst):
         data = json.load(f)
     
     battle_csv(data, path.join(dst, 'cwsac2_battles.csv'))
-    belligerents_csv(data, path.join(dst, 'cwsac2_forces.csv'))
+    forces_csv(data, path.join(dst, 'cwsac2_forces.csv'))
     commanders_csv(data, path.join(dst, 'cwsac2_commanders.csv'))
     dates_csv(data, path.join(dst, 'cwsac2_dates.csv'))
     locations_csv(data, path.join(dst, 'cwsac2_locations.csv'))

@@ -12,6 +12,8 @@ import json
 import csv
 import sys
 import datetime
+import shutil
+from os import path
 
 BASE_URL = "http://aad.archives.gov/aad/"
 
@@ -72,8 +74,8 @@ fields = (
     "url"
 )
 
-def build(SRC, DST):
-    with open(SRC, 'r') as f:
+def build(src, dst):
+    with open(path.join(src, "rawdata", "aad", "events.json"), 'r') as f:
         data = json.load(f)
 
     # use reference number to sort rows
@@ -133,15 +135,19 @@ def build(SRC, DST):
         row["priority1"] =  tf(v["Priority1"]["value"])
         rows += [row]
 
-    with open(DST, 'w') as f:
+    with open(path.join(dst, "aad_battles.csv"), 'w') as f:
         writer = csv.DictWriter(f, fields)
         writer.writeheader()  
         writer.writerows(rows)
 
+def copy_files(src, dst):
+    shutil.copy(path.join(src, "rawdata", "aad", "events.json"),
+                path.join(dst_dir, 'aad_events.json'))
+
 def main():
-    SRC = sys.argv[1] #'events.json'
-    DST = sys.argv[2] #'events.csv'
-    build(SRC, DST)
+    src = sys.argv[1] 
+    dst = sys.argv[2]
+    build(src, dst)
 
 if __name__ == "__main__":
     main()

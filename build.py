@@ -8,115 +8,132 @@ import subprocess as sp
 PYTHON = 'python3'
 RSCRIPT = 'Rscript'
 
-def build_aad(dst_dir):
+SRC = "."
+
+def build_aad(src, dst):
     print("build_aad")
-    sp.run([PYTHON, 'bin/build_aad.py', 'rawdata/aad/events.json',
-            path.join(dst_dir, 'aad_battles.csv')])
-    shutil.copy('rawdata/aad/events.json',
-                path.join(dst_dir, 'aad_events.json'))
+    sp.run([PYTHON, 'bin/build_aad.py', src, dst])
 
-
-def build_cwsac(dst):
+def build_cwsac(src, dst):
     print("build_cwsac")
-    sp.run([PYTHON, 'bin/build_cwsac.py', 'rawdata/cwsac', dst])
+    sp.run([PYTHON, 'bin/build_cwsac.py', path.join(src, "rawdata", "cwsac"), dst])
+    sp.run([RSCRIPT, 'bin/update_cwsac_forces.R', src, dst])
 
-def build_cwsac2(dst):
+def build_cwsac2(src, dst):
     print("build_cwsac2")
-    sp.run([PYTHON, 'bin/build_cwsac2.py', 'rawdata/cwsac2', dst])
+    sp.run([PYTHON, 'bin/build_cwsac2.py',
+            path.join(src, "rawdata", "cwsac2"), dst])
+    sp.run([RSCRIPT, 'bin/update_cwsac2_forces.R', src, dst])    
 
-def build_cwss(dst):
+def build_cwss(src, dst):
     print("build_cwss")
-    sp.run([PYTHON, 'bin/build_cwss.py', 'rawdata/cwss', dst])
+    sp.run([PYTHON, 'bin/build_cwss.py',
+            path.join(src, "rawdata", "cwss"), dst])
 
-def build_unit_sizes(dst):
+def build_unit_sizes(src, dst):
     print("build_unit_sizes")
-    shutil.copy('rawdata/unit_sizes/unit_sizes.csv', dst)
-    shutil.copy('rawdata/unit_sizes/eicher_units_table.csv', dst)
+    shutil.copy(path.join(src, 'rawdata', 'unit_sizes', 'unit_sizes.csv'), dst)
+    shutil.copy(path.join(src, 'rawdata', 'unit_sizes', 'eicher_units_table.csv'), dst)
 
-def build_bodart(dst):
+def build_bodart(src, dst):
     print("build_bodart")
-    sp.run([PYTHON, "bin/build_bodart.py", "rawdata/bodart1908", dst])
+    sp.run([PYTHON, "bin/build_bodart.py",
+            path.join(src, "rawdata", "bodart1908"), dst])
 
-def build_dyer(dst):
+def build_dyer(src, dst):
     print("build_dyer")
-    sp.run([PYTHON, "bin/build_dyer.py", "rawdata/dyer1908", dst])
+    sp.run([PYTHON, "bin/build_dyer.py",
+            path.join(src, "rawdata", "dyer1908"), dst])
 
-def build_wikipedia(dst):
+def build_wikipedia(src, dst):
     print("build_wikipedia")
-    sp.run([PYTHON, "bin/build_wikipedia.py", "rawdata/en.wikipedia.org", dst])
+    sp.run([PYTHON, "bin/build_wikipedia.py",
+            path.join(src, "rawdata", "en.wikipedia.org"), dst])
 
-def build_fox(dst):
+def build_fox(src, dst):
     print("build_fox")
-    sp.run([RSCRIPT, "bin/build_fox.R", "rawdata/fox1898", dst])
+    sp.run([RSCRIPT, "bin/build_fox.R",
+            path.join(src, "rawdata", "fox1898"), dst])
 
-def build_greer(dst):
+def build_greer(src, dst):
     print("build_greer")
-    shutil.copy("rawdata/greer2005/greer2005_weekly_casualties.csv", dst)
+    shutil.copy(path.join(src, "rawdata", "greer2005", "greer2005_weekly_casualties.csv"), dst)
 
-def build_kennedy(dst):
+def build_kennedy(src, dst):
     print("build_kennedy")
-    src = 'rawdata/kennedy1997'
     files = ("kennedy_battles.csv", "kennedy_casualties.csv",
              "kennedy_to_cwsac.csv")
     for fn in files:
-        shutil.copy(path.join(src, fn), dst)
+        shutil.copy(path.join(src, "rawdata", "kennedy1997", fn), dst)
 
-def build_livermore(dst):
+def build_livermore(src, dst):
     print("build_livermore")
-    sp.run([RSCRIPT, "bin/build_livermore.R", "rawdata/livermore1900",
-            "dependencies/PAR/data", dst])
+    sp.run([RSCRIPT, "bin/build_livermore.R",
+            src, dst])
 
-def build_thorpe(dst):
+def build_thorpe(src, dst):
     print("build_thorpe")
-    sp.run([PYTHON, "bin/build_thorpe.py", "rawdata/thorpe", dst])
+    sp.run([PYTHON, "bin/build_thorpe.py",
+            path.join(src, "rawdata", "thorpe"), dst])
 
-def build_nyt(dst):
+def build_nyt(src, dst):
     print("build_nyt")
-    shutil.copy("rawdata/nytimes_civil_war_chronology/nytimes_civil_war_chronology.json", dst)
+    shutil.copy(path.join(src, "rawdata", "nytimes_civil_war_chronology",
+                          "nytimes_civil_war_chronology.json"), dst)
 
-def build_phisterer(dst):
+def build_phisterer(src, dst):
     print("build_phisterer")
-    sp.run([PYTHON, "bin/build_phisterer.py", "rawdata/phisterer1883", dst])
+    sp.run([PYTHON, "bin/build_phisterer.py",
+            path.join(src, "rawdata", "phisterer1883"), dst])
 
-def build_shenandoah(dst):
+def build_shenandoah(src, dst):
     print("build_shenandoah")
-    sp.run([PYTHON, "bin/build_shenandoah.py", "rawdata/shenandoah", dst])
+    sp.run([PYTHON, "bin/build_shenandoah.py",
+            path.join(src, "rawdata", "shenandoah"), dst])
 
-def build_clodfelter(dst):
+def build_clodfelter(src, dst):
     print("build_clodfelter")
-    sp.run([PYTHON, "bin/build_clodfelter.py", "rawdata/clodfelter2008", dst])
+    sp.run([PYTHON, "bin/build_clodfelter.py",
+            path.join(src, "rawdata", "clodfelter2008"), dst])
 
-def build_nps(dst):
+def build_nps(src, dst):
     print("build_nps")
-    sp.run([RSCRIPT, "bin/build_nps_combined.R", "rawdata", dst])
+    sp.run([RSCRIPT, "bin/build_nps_combined.R", src, dst])
     
-def build(dst_dir):
+def build(src, dst):
     try:
-        os.mkdir(dst_dir)
+        os.mkdir(dst)
     except OSError:
-        pass
-    build_unit_sizes(dst_dir)    
-    build_aad(dst_dir)
-    build_shenandoah(dst_dir)    
-    build_cwsac(dst_dir)
-    build_cwsac2(dst_dir)
-    build_cwss(dst_dir)
-    build_bodart(dst_dir)
-    build_dyer(dst_dir)
-    build_wikipedia(dst_dir)
-    build_fox(dst_dir)
-    build_greer(dst_dir)
-    build_kennedy(dst_dir)
-    build_livermore(dst_dir)
-    build_thorpe(dst_dir)
-    build_nyt(dst_dir)
-    build_phisterer(dst_dir)
-    build_clodfelter(dst_dir)
-    build_nps(dst_dir)
+        for filename in os.listdir(dst):
+            filepath = os.path.join(dst, filename)
+            try:
+                if os.path.isfile(filepath):
+                    os.unlink(filepath)
+            except Exception:
+                raise(err)
+    build_unit_sizes(src, dst)    
+    build_aad(src, dst)
+    build_shenandoah(src, dst)    
+    build_cwsac(src, dst)
+    build_cwsac2(src, dst)
+    build_cwss(src, dst)
+    build_bodart(src, dst)
+    build_dyer(src, dst)
+    build_wikipedia(src, dst)
+    build_fox(src, dst)
+    build_greer(src, dst)
+    build_kennedy(src, dst)
+    build_livermore(src, dst)
+    build_thorpe(src, dst)
+    build_nyt(src, dst)
+    build_phisterer(src, dst)
+    build_clodfelter(src, dst)
+    build_nps(src, dst)
     
 def main():
-    DST = sys.argv[1]
-    build(DST)
+    src = "."
+    dst = sys.argv[1]
+    build(src, dst)
 
 if __name__ == "__main__":
     main()
