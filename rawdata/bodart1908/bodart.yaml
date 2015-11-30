@@ -1286,6 +1286,7 @@ Franklin (November 30, 1864):
     commander:
     - name: Schofield
       rank: GM.
+      dbpedia: "John_Schofield"
     country: Union
     infantry: 22000
     killed: 200
@@ -1310,18 +1311,24 @@ Franklin (November 30, 1864):
     commander:
     - name: J. B. Hood
       rank: Gen.
+      dbpedia: "John_Bell_Hood"
     country: Confederacy
     generals_killed:
     - name: P. R. Cleburne
       rank: GM.
+      dbpedia: "Patrick_Cleburne"
     - name: J. Adams
       rank: B.-G.
+      dbpedia: null
     - name: S. R. Gist
       rank: B.-G.
+      dbpedia: "States_Rights_Gist"
     - name: H. B. Gransbury
       rank: B.-G.
+      dbpedia: "Hiram_B._Granbury"
     - name: O. F. Strahl
       rank: B.-G.
+      dbpedia: "Otho_F._Strahl"
     infantry: 30000
     killed: 1750
     killed_generals: 5
@@ -1357,12 +1364,15 @@ Fredericksburg (December 11, 1862):
     commander:
     - name: A. Burnside
       rank: BM.
+      dbpedia: "Ambrose_Everett_Burnside"
     country: Union
     generals_killed:
     - name: G. D. Bayard
       rank: Brig.-Gen.
+      dbpedia: "George_Dashiell_Bayard"
     - name: C. F. Jackson
       rank: Brig.-Gen.
+      dbpedia: "Conrad_Feger_Jackson"
     infantry: 111000
     killed: 1350
     killed_generals: 2
@@ -1395,12 +1405,15 @@ Fredericksburg (December 11, 1862):
     commander:
     - name: R. Lee
       rank: Gen.
+      dbpedia: "Robert_E._Lee"
     country: Confederacy
     generals_killed:
     - name: T. R. Cobb
       rank: Brig.-Gen.
+      dbpedia: "Thomas_Reade_Rootes_Cobb"
     - name: M. Gregg
       rank: Brig.-Gen.
+      dbpedia: "Maxcy_Gregg"
     infantry: 73000
     killed: 600
     killed_generals: 2
@@ -1439,18 +1452,24 @@ Gettysburg (July 01, 1863):
     commander:
     - name: R. Lee
       rank: Gen.
+      dbpedia: "Robert_E._Lee"
     country: Confederacy
     generals_killed:
     - name: W. Pender
       rank: GM.
+      dbpedia: "William_Dorsey_Pender"
     - name: A. Armistead
       rank: B.-G.
+      dbpedia: "Lewis_Addison_Armistead"
     - name: W. Barksdale
       rank: B.-G.
+      dbpedia: "William_Barksdale"
     - name: R. B. Garnett
       rank: B.-G.
+      dbpedia: "Richard_B._Garnett"
     - name: P. J. Semmes
       rank: B.-G.
+      dbpedia: "Paul_Jones_Semmes"
     guns: 250
     infantry: 60000
     killed: 2600
@@ -1482,18 +1501,24 @@ Gettysburg (July 01, 1863):
     commander:
     - name: G. G. Meade
       rank: GM.
+      dbpedia: "George_Gordon_Meade"
     country: Union
     generals_killed:
     - name: J. F. Reynolds
       rank: GM.
+      dbpedia: "John_Fulton_Reynolds"
     - name: S. K. Zook
       rank: GM.
+      dbpedia: "Samuel_K._Zook"
     - name: E. J. Farnsworth
       rank: B.-G.
+      dbpedia: "Elon_J._Farnsworth"
     - name: S. Vincent
       rank: B.-G.
+      dbpedia: "Strong_Vincent"
     - name: S. Weed
       rank: B.-G.
+      dbpedia: "Stephen_H._Weed"
     guns: 300
     infantry: 77000
     killed: 3160
@@ -1536,10 +1561,12 @@ Harper's Ferry (September 15, 1862):
     commander:
     - name: D. Miles
       rank: Oberst
+      dbpedia: "Dixon_S._Miles"
     country: Union
     generals_killed:
     - name: D. Miles
       rank: Brigadier Obst.
+      dbpedia: "Dixon_S._Miles"
     guns: 73
     losses_canons: 73
     strength: 14000
@@ -1552,6 +1579,7 @@ Harper's Ferry (September 15, 1862):
     commander:
     - name: T. J. Jackson
       rank: Gen.-Lt.
+      dbpedia: "Stonewall_Jackson"
     country: Confederacy
     strength: 30000
 Kenesaw-Mountain (June 27, 1864):
@@ -1572,6 +1600,7 @@ Kenesaw-Mountain (June 27, 1864):
     commander:
     - name: W. T. Sherman
       rank: GM.
+      dbpedia: "William_Tecumseh_Sherman"
     country: Union
     strength: 18000
   name: Kenesaw-Mountain
@@ -1585,6 +1614,7 @@ Kenesaw-Mountain (June 27, 1864):
     commander:
     - name: J. Johnston
       rank: Gen.
+      dbpedia: "Joseph_E._Johnston"
     country: Confederacy
     strength: 6000
 Lexington (September 20, 1861):
@@ -1606,6 +1636,7 @@ Lexington (September 20, 1861):
     commander:
     - name: Mulligan
       rank: Oberst
+      dbpedia: "James_A._Mulligan"
     country: Union
     guns: 9
     strength: 3000
@@ -1618,6 +1649,7 @@ Lexington (September 20, 1861):
     commander:
     - name: Price
       rank: GM.
+      dbpedia: "Sterling_Price"
     country: Confederacy
     guns: 16
     strength: 10000
@@ -1640,10 +1672,12 @@ Middletown (October 19, 1864):
     commander:
     - name: J. A. Early
       rank: Gen.-Lt.
+      dbpedia: "Jubal_Anderson_Early"
     country: Confederacy
     generals_killed:
     - name: S. D. Ramseur
       rank: GM.
+      dbpedia: "Stephen_Dodson_Ramseur"
     killed_wounded: 1900
     killed_wounded_percent: 10.5
     losses_canons: 23
@@ -1662,12 +1696,15 @@ Middletown (October 19, 1864):
     commander:
     - name: P. H. Sheridan
       rank: GM.
+      dbpedia: "Philip_Sheridan"
     country: Union
     generals_killed:
     - name: D. D. Bidwell
       rank: B.-G.
+      dbpedia: "Daniel_Davidson_Bidwell"
     - name: C. R. Lowell
       rank: B.-G.
+      dbpedia: "Charles_Russell_Lowell"
     killed_wounded: 4100
     killed_wounded_percent: 10.2
     missing: 1600
@@ -1703,8 +1740,10 @@ Mobile (April 02, 1865):
     commander:
     - name: Cranby
       rank: GM.
+      dbpedia: "Edward_Richard_Sprigg_Canby"
     - name: Farragut
       rank: Adm.
+      dbpedia: "David_Farragut"
     country: Union
     strength: 45000
 Murfreesborough (December 31, 1862):
@@ -1728,12 +1767,15 @@ Murfreesborough (December 31, 1862):
     commander:
     - name: B. Bragg
       rank: Gen.
+      dbpedia: "Braxton_Bragg"
     country: Confederacy
     generals_killed:
     - name: R. W. Hanson
       rank: Brig.-Gen.
+      dbpedia: "Roger_Hanson"
     - name: J. E. Rains
       rank: Brig.-Gen.
+      dbpedia: "James_Edward_Rains"
     guns: 120
     infantry: 33500
     killed: 1300
@@ -1769,12 +1811,15 @@ Murfreesborough (December 31, 1862):
     commander:
     - name: Rosecrans
       rank: GM.
+      dbpedia: "William_S._Rosecrans"
     country: Union
     generals_killed:
     - name: E. N. Kirk
       rank: Brig.-Gen.
+      dbpedia: "Edward_N._Kirk"
     - name: J. W. Sill
       rank: Brig.-Gen.
+      dbpedia: "Joshua_W._Sill"
     guns: 100
     infantry: 41800
     killed: 1730
@@ -1815,6 +1860,7 @@ Nashville (December 15, 1864):
     commander:
     - name: J. B. Hood
       rank: Gen.
+      dbpedia: "John_Bell_Hood"
     country: Confederacy
     infantry: 36000
     losses_cannon: 51
@@ -1831,10 +1877,12 @@ Nashville (December 15, 1864):
     commander:
     - name: G. H. Thomas
       rank: GM.
+      dbpedia: "George_Henry_Thomas"
     country: Union
     generals_killed:
     - name: S. G. Hill
       rank: Brig.-Gen.
+      dbpedia: nullo
     infantry: 43000
     strength: 55000
 New-Hope-Church (May 28, 1864):
@@ -1854,6 +1902,7 @@ New-Hope-Church (May 28, 1864):
     commander:
     - name: J. Johnston
       rank: Gen.
+      dbpedia: "Joseph_E._Johnston"
     country: Confederacy
     strength: 40000
   name: New Hope Church
@@ -1867,6 +1916,7 @@ New-Hope-Church (May 28, 1864):
     commander:
     - name: W. T. Sherman
       rank: Gen.-Lt.
+      dbpedia: "William_Tecumseh_Sherman"o
     country: Union
     strength: 80000
 Pamunkey (May 22, 1864):
@@ -1887,6 +1937,7 @@ Pamunkey (May 22, 1864):
     commander:
     - name: R. Lee
       rank: Gen.
+      dbpedia: "Robert_E._Lee"
     country: Confederacy
     strength: 38000
   name: Pamunkey
@@ -1901,6 +1952,7 @@ Pamunkey (May 22, 1864):
     commander:
     - name: U. S. Grant
       rank: Gen.-Lt.
+      dbpedia: "Ulysses_S._Grant"
     country: Union
     strength: 52000
 Pea Ridge (March 07, 1862):
