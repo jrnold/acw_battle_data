@@ -20,18 +20,19 @@ import pandas
 
 def make_metadata(src):
     data = pandas.read_csv(src)
-    fields = [{'name': x,
-               'title': x,
-               'type': type_convert[data[x].dtype.name],
-                'format': 'default'}
-               for x in list(data.columns.values)]
-    schema = {'fields': fields,
-              'name': path.splitext(path.basename(src))[0],
+    name, ext = path.splitext(path.basename(src))
+    dformat = ext
+    schema = {'name': path.splitext(path.basename(src))[0],
               'path': src,
-              'format': 'csv',
-              'mediatype': 'text/csv',
+              'format': dformat,
               'description': ""
     }
+    if dformat == "csv": 
+        schema[fields] = [{'name': x,
+                           'title': x,
+                           'type': type_convert[data[x].dtype.name],
+                           'format': 'default'}
+                          for x in list(data.columns.values)]
     return schema
     
 INFILE = sys.argv[1]
