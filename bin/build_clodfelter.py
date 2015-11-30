@@ -10,8 +10,6 @@ from os import path
 
 import yaml
 
-RSCRIPT = "Rscript"
-
 def dict_remove(x, exclude = []):
     return dict((k, v) for k, v in x.items() if k not in exclude)
 
