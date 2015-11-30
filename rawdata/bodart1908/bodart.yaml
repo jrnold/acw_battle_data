@@ -1,6 +1,12 @@
 Antietam (September 17, 1862):
   category:
   - battle
+  cwsac:
+  - relation: '='
+    uri: MD003
+  dbpedia:
+  - relation: '='
+    uri: http://dbpedia.org/resource/Battle_of_Antietam
   description: null
   end_date: &id001 1862-09-17
   location: "Linker Nebenflu\xDF des Potomac in Marylang, m\xFCndet unterhalb Sharpsburg,\
@@ -90,6 +96,12 @@ Antietam (September 17, 1862):
 Appomattox-Court-House (April 09, 1865):
   category:
   - surrender
+  cwsac:
+  - relation: '='
+    uri: VA097
+  dbpedia:
+  - relation: '='
+    uri: http://dbpedia.org/resource/Battle_of_Appomattox_Court_House
   description: "Die Unionsarmee (ca. 100.000 M.) unter Gen.-Lt. U. S. Grant zwingt\
     \ die virginische\nHauptarmee der Kon\xF6derierten (28.000 M., 63 Gesch.) unter\
     \ Gen. R. Lee zur Kapitulation,\nwonach die konf\xF6derierten Truppen (nur mehr\
@@ -123,6 +135,12 @@ Arkansas Post (January 11, 1863):
   category:
   - meeting
   - surrender
+  cwsac:
+  - relation: '='
+    uri: AR006
+  dbpedia:
+  - relation: '='
+    uri: http://dbpedia.org/resource/Battle_of_Fort_Hindman
   description: null
   end_date: &id003 1863-01-11
   location: "Verschanztes Lager der Konf\xF6derierte am linken Ufer des Arkansas-River\
@@ -158,6 +176,12 @@ Arkansas Post (January 11, 1863):
 Atlanta (July 22, 1864):
   category:
   - battle
+  cwsac:
+  - relation: '='
+    uri: GA017
+  dbpedia:
+  - relation: '='
+    uri: http://dbpedia.org/resource/Battle_of_Atlanta
   description: null
   end_date: &id004 1864-07-22
   location: "Hauptstadt des Staates Georgia, 880 km s\xFCdwestl. von Washington"
@@ -198,6 +222,12 @@ Atlanta (July 22, 1864):
 Bentonville (March 05, 1865):
   category:
   - battle
+  cwsac:
+  - relation: '='
+    uri: NC020
+  dbpedia:
+  - relation: '='
+    uri: http://dbpedia.org/resource/Battle_of_Bentonville
   description: null
   end_date: &id005 1865-03-20
   location: "Dorf in Nord-Carolina, ca. 60 km. s\xFCd\xF6stl. von Raleigh."
@@ -241,6 +271,12 @@ Bentonville (March 05, 1865):
 Boonsborough (September 14, 1862):
   category:
   - meeting
+  cwsac:
+  - relation: '='
+    uri: MD002
+  dbpedia:
+  - relation: '='
+    uri: http://dbpedia.org/resource/Battle_of_South_Mountain
   description: null
   end_date: &id006 1862-09-14
   location: Dorf in Maryland, 22 km nordl. von Sharpsburg.
@@ -299,6 +335,12 @@ Boonsborough (September 14, 1862):
 Bull-Run (August 29, 1862):
   category:
   - battle
+  cwsac:
+  - relation: '='
+    uri: VA026
+  dbpedia:
+  - relation: '='
+    uri: http://dbpedia.org/resource/Second_Battle_of_Bull_Run
   description: null
   end_date: 1862-08-30
   location: "Kleiner Nebenflu\xDF des Potomac in Virginien, 45 km s\xFCdwestl. von\
@@ -379,6 +421,12 @@ Bull-Run (August 29, 1862):
 Bull-Run (July 21, 1861):
   category:
   - battle
+  cwsac:
+  - relation: '='
+    uri: VA005
+  dbpedia:
+  - relation: '='
+    uri: http://dbpedia.org/resource/First_Battle_of_Bull_Run
   description: "Sieg der Confederacyn (S\xFCdstaaten) 32.000 M., 44 Gesch., unter\
     \ Gen. Beauregard \xFCber die Unierten (Nordstaaten) 35.000 M., 49 Gesch., unter\
     \ GM. Mc. Dowell. Es kamen in den Kampf 18.000 Konf\xF6derirte (1.300 Reiter)\
@@ -447,6 +495,12 @@ Bull-Run (July 21, 1861):
 Cedar Mountain (August 09, 1862):
   category:
   - meeting
+  cwsac:
+  - relation: '='
+    uri: VA022
+  dbpedia:
+  - relation: '='
+    uri: http://dbpedia.org/resource/Battle_of_Cedar_Mountain
   description: "Sieg der Konf\xF6derierte (20.000 M.) unter Gen.-Lt. T. J. Jackson\
     \ \xFCber die Unierte\n(18.000 M.) unter GM. Banks.\n"
   end_date: &id008 1862-08-09
@@ -503,6 +557,12 @@ Cedar Mountain (August 09, 1862):
 Champion's Hill (May 16, 1863):
   category:
   - battle
+  cwsac:
+  - relation: '='
+    uri: MS009
+  dbpedia:
+  - relation: '='
+    uri: http://dbpedia.org/resource/Battle_of_Champion_Hill
   description: null
   end_date: &id009 1863-05-16
   location: "Berg im Staate Mississippi, 30 km \xF6stl. von Vicksburg."
@@ -554,6 +614,12 @@ Champion's Hill (May 16, 1863):
 Chancellorsville (May 03, 1863):
   category:
   - battle
+  cwsac:
+  - relation: '='
+    uri: VA032
+  dbpedia:
+  - relation: '='
+    uri: http://dbpedia.org/resource/Battle_of_Chancellorsville
   description: null
   end_date: 1863-05-05
   location: Stadt in Virginia, 15 km westl. von Fredericksburg
@@ -635,6 +701,24 @@ Chancellorsville (May 03, 1863):
 Charleston (April 01, 1863):
   category:
   - siege
+  cwsac:
+  - relation: '>'
+    uri: SC008
+  - relation: '>'
+    uri: SC009
+  - relation: '>'
+    uri: SC006
+  - relation: '>'
+    uri: SC004
+  dbpedia:
+  - relation: '>'
+    uri: http://dbpedia.org/resource/Second_Battle_of_Fort_Sumter
+  - relation: '>'
+    uri: http://dbpedia.org/resource/Second_Battle_of_Charleston_Harbor
+  - relation: '>'
+    uri: http://dbpedia.org/resource/Battle_of_Grimball's_Landing
+  - relation: '>'
+    uri: http://dbpedia.org/resource/First_Battle_of_Charleston_Harbor
   description: "Die Konf\xF6derierte unter Gen. Beauregard behaupten sich erfolgreich\
     \ gegen alle\nAngriffe der Unierten zu Lande und zur See unter Generalen Hunter\
     \ und Gillmore\nsowie den Admiralen Dupont und Dahlgreen. Am 18. Februar 1865\
@@ -672,6 +756,40 @@ Charleston (April 01, 1863):
 Chickahominy (June 25, 1862):
   category:
   - battle
+  cwsac:
+  - relation: '>'
+    uri: VA020B
+  - relation: '>'
+    uri: VA016
+  - relation: '>'
+    uri: VA017
+  - relation: '>'
+    uri: VA018
+  - relation: '>'
+    uri: VA020A
+  - relation: '>'
+    uri: VA021
+  - relation: '>'
+    uri: VA015
+  - relation: '>'
+    uri: VA019
+  dbpedia:
+  - relation: '>'
+    uri: http://dbpedia.org/resource/Battle_of_Glendale
+  - relation: '>'
+    uri: http://dbpedia.org/resource/Battle_of_Beaver_Dam_Creek
+  - relation: '>'
+    uri: http://dbpedia.org/resource/Battle_of_Gaines's_Mill
+  - relation: '>'
+    uri: http://dbpedia.org/resource/Battle_of_Garnett's_&_Golding's_Farm
+  - relation: '>'
+    uri: http://dbpedia.org/resource/Battle_of_White_Oak_Swamp
+  - relation: '>'
+    uri: http://dbpedia.org/resource/Battle_of_Malvern_Hill
+  - relation: '>'
+    uri: http://dbpedia.org/resource/Battle_of_Oak_Grove
+  - relation: '>'
+    uri: http://dbpedia.org/resource/Battle_of_Savage's_Station
   description: null
   end_date: 1862-07-01
   location: "Der chickahominy, an dessen sumpfigen Ufern die siebent\xE4gige Schlaeht\
@@ -749,6 +867,12 @@ Chickahominy (June 25, 1862):
 Chickamauga (September 19, 1863):
   category:
   - battle
+  cwsac:
+  - relation: '='
+    uri: GA004
+  dbpedia:
+  - relation: '='
+    uri: http://dbpedia.org/resource/Battle_of_Chickamauga
   description: null
   end_date: 1863-09-20
   location: "Linker Nebenflu\xDF des Tennessee; die Schlacht fand an beiden Ufern\
@@ -831,6 +955,12 @@ Chickamauga (September 19, 1863):
 Chickasaw Bluffs (January 03, 1863):
   category:
   - meeting
+  cwsac:
+  - relation: '='
+    uri: MS003
+  dbpedia:
+  - relation: '='
+    uri: http://dbpedia.org/resource/Battle_of_Chickasaw_Bayou
   description: null
   end_date: &id010 1863-01-03
   location: "Verschanzungen der Konf\xF6derierte in Mississippi, 3-10 km nord\xF6\
@@ -862,6 +992,12 @@ Chickasaw Bluffs (January 03, 1863):
 Cold Harbor (June 03, 1864):
   category:
   - battle
+  cwsac:
+  - relation: '='
+    uri: VA062
+  dbpedia:
+  - relation: '='
+    uri: http://dbpedia.org/resource/Battle_of_Cold_Harbor
   description: null
   end_date: &id011 1864-06-03
   location: "Ort in Virginia, 13 km nord\xF6stl. von Richmond."
@@ -871,9 +1007,9 @@ Cold Harbor (June 03, 1864):
     casualties_officers: 610
     casualties_percent: 12.8
     commander:
-    - name: U. S. Grant
+    - dbpedia: Ulysses_S._Grant
+      name: U. S. Grant
       rank: GL.
-      dbpedia: "Ulysses_S._Grant"
     country: Union
     killed: 1900
     killed_officers: 143
@@ -899,9 +1035,9 @@ Cold Harbor (June 03, 1864):
     casualties: 1700
     casualties_percent: 2.7
     commander:
-    - name: R. Lee
+    - dbpedia: Robert_E._Lee
+      name: R. Lee
       rank: Gen.
-      dbpedia: "Robert_E._Lee"
     country: Confederacy
     killed: 400
     killed_percent: 0.5
@@ -915,6 +1051,12 @@ Cold Harbor (June 03, 1864):
 Corinth (October 03, 1862):
   category:
   - battle
+  cwsac:
+  - relation: '='
+    uri: MS002
+  dbpedia:
+  - relation: '='
+    uri: http://dbpedia.org/resource/Second_Battle_of_Corinth
   description: null
   end_date: 1862-10-04
   location: "Stadt im \xE4u\xDFersten Nordosten des Staates Mississippi."
@@ -922,9 +1064,9 @@ Corinth (October 03, 1862):
     casualties: 6000
     casualties_percent: 27.3
     commander:
-    - name: Earl van Dorn
+    - dbpedia: Earl_Van_Dorn
+      name: Earl van Dorn
       rank: Gen.-Lt.
-      dbpedia: "Earl_Van_Dorn"
     country: Confederacy
     killed: 500
     killed_wounded: 2700
@@ -944,14 +1086,14 @@ Corinth (October 03, 1862):
     casualties_officers: 147
     casualties_percent: 10.5
     commander:
-    - name: Rosecrans
+    - dbpedia: William_S._Rosecrans
+      name: Rosecrans
       rank: GM.
-      dbpedia: "William_S._Rosecrans"
     country: Union
     generals_killed:
-    - name: P. A. Hackleman
+    - dbpedia: Pleasant_A._Hackleman
+      name: P. A. Hackleman
       rank: Brig.-Gen.
-      dbpedia: "Pleasant_A._Hackleman"
     killed: 350
     killed_generals: 1
     killed_officers: 27
@@ -967,9 +1109,15 @@ Corinth (October 03, 1862):
     wounded: 1850
     wounded_generals: 3
     wounded_officers: 115
-"Drewry's Bluff (May 16, 1864)":
+Drewry's Bluff (May 16, 1864):
   category:
   - meeting
+  cwsac:
+  - relation: '='
+    uri: VA053
+  dbpedia:
+  - relation: '='
+    uri: http://dbpedia.org/resource/Battle_of_Proctor's_Creek
   description: null
   end_date: &id012 1864-05-16
   location: "Ort in Virginia, am rechten Ufer des James River, 11 km s\xFCdl. von\
@@ -979,9 +1127,9 @@ Corinth (October 03, 1862):
     casualties: 4500
     casualties_percent: 15
     commander:
-    - name: Butler
+    - dpbedia: Benjamin_Franklin_Butler_(politician)
+      name: Butler
       rank: GM.
-      dpbedia: "Benjamin_Franklin_Butler_(politician)"
     country: Union
     killed_wounded: 3000
     losses_cannon: 5
@@ -997,9 +1145,9 @@ Corinth (October 03, 1862):
     casualties: 3000
     casualties_percent: 12
     commander:
-    - name: Beauregard
+    - dbpedia: P.G.T._Beauregard
+      name: Beauregard
       rank: Gen.-Lt.
-      dbpedia: "P.G.T._Beauregard"
     country: Confederacy
     killed_wounded: 3000
     strength: 25000
@@ -1017,9 +1165,9 @@ Durham's-Station (April 25, 1865):
     captured: 35200
     casualties: 35200
     commander:
-    - name: J. Johnston
+    - dbpedia: Joseph_E._Johnston
+      name: J. Johnston
       rank: Gen.
-      dbpedia: "Joseph_E._Johnston"
     country: Confederacy
     missing: 35200
     strength: 35200
@@ -1030,14 +1178,20 @@ Durham's-Station (April 25, 1865):
   start_date: *id013
   victor:
     commander:
-    - name: W. T. Sherman
+    - dbpedia: William_Tecumseh_Sherman
+      name: W. T. Sherman
       rank: GM.
-      dbpedia: "William_Tecumseh_Sherman"
     country: Union
     strength: 90000
 Ezra-Church (July 28, 1864):
   category:
   - battle
+  cwsac:
+  - relation: '='
+    uri: GA018
+  dbpedia:
+  - relation: '='
+    uri: http://dbpedia.org/resource/Battle_of_Ezra_Church
   description: null
   end_date: &id014 1864-07-28
   location: Ord in Georgia, 5 km westl. von Atlanta
@@ -1045,9 +1199,9 @@ Ezra-Church (July 28, 1864):
     casualties: 4600
     casualties_percent: 15.3
     commander:
-    - name: J. B. Hood
+    - dbpedia: John_Bell_Hood
+      name: J. B. Hood
       rank: Gen.
-      dbpedia: "John_Bell_Hood"
     country: Confederacy
     strength: 30000
   name: Ezra-Church
@@ -1060,15 +1214,21 @@ Ezra-Church (July 28, 1864):
     casualties: 700
     casualties_percent: 1.2
     commander:
-    - name: W. T. Sherman
+    - dbpedia: William_Tecumseh_Sherman
+      name: W. T. Sherman
       rank: GM.
-      dbpedia: "William_Tecumseh_Sherman"
     country: Union
     strength: 60000
 Fort Donelson (February 12, 1862):
   category:
   - battle
   - surrender
+  cwsac:
+  - relation: '='
+    uri: TN002
+  dbpedia:
+  - relation: '='
+    uri: http://dbpedia.org/resource/Battle_of_Fort_Donelson
   description: null
   end_date: 1862-02-15
   location: "Verschanzungen der Konf\xF6derierten in Tennessee, am linken Ufer des\
@@ -1078,9 +1238,9 @@ Fort Donelson (February 12, 1862):
     casualties: 15000
     casualties_percent: 82
     commander:
-    - name: Buckner
+    - dbpedia: Simon_Bolivar_Buckner,_Sr.
+      name: Buckner
       rank: Brig.-Gen.
-      dbpedia: "Simon_Bolivar_Buckner,_Sr."
     country: Confederacy
     killed_wounded: 2000
     killed_wounded_percent: 12
@@ -1098,9 +1258,9 @@ Fort Donelson (February 12, 1862):
     casualties: 2900
     casualties_percent: 10.8
     commander:
-    - name: Grant
+    - dbpedia: Ulysses_S._Grant
+      name: Grant
       rank: Brig.-Gen.
-      dbpedia: "Ulysses_S._Grant"
     country: Union
     killed_wounded: 2660
     killed_wounded_percent: 9.9
@@ -1110,6 +1270,12 @@ Fort Donelson (February 12, 1862):
 Franklin (November 30, 1864):
   category:
   - battle
+  cwsac:
+  - relation: '='
+    uri: TN036
+  dbpedia:
+  - relation: '='
+    uri: http://dbpedia.org/resource/Battle_of_Franklin_(1864)
   description: null
   end_date: &id015 1864-11-30
   location: "Dorf in Tennessee, 30 km s\xFCdl. von Nashville."
@@ -1173,6 +1339,12 @@ Franklin (November 30, 1864):
 Fredericksburg (December 11, 1862):
   category:
   - battle
+  cwsac:
+  - relation: '='
+    uri: VA028
+  dbpedia:
+  - relation: '='
+    uri: http://dbpedia.org/resource/Battle_of_Fredericksburg
   description: null
   end_date: 1862-12-15
   location: "Stadt in Virginia, 80 km s\xFCdwsestl. von Washington"
@@ -1250,6 +1422,12 @@ Fredericksburg (December 11, 1862):
 Gettysburg (July 01, 1863):
   category:
   - battle
+  cwsac:
+  - relation: '='
+    uri: PA002
+  dbpedia:
+  - relation: '='
+    uri: http://dbpedia.org/resource/Battle_of_Gettysburg
   description: null
   end_date: 1863-07-03
   location: "Stadt in Pennsylvania, 58 km s\xFCdwestl. von Harrisburg."
@@ -1340,6 +1518,12 @@ Gettysburg (July 01, 1863):
 Harper's Ferry (September 15, 1862):
   category:
   - surrender
+  cwsac:
+  - relation: '='
+    uri: WV010
+  dbpedia:
+  - relation: '='
+    uri: http://dbpedia.org/resource/Battle_of_Harpers_Ferry
   description: "Die Konf\xF6derierte (30.000 M.) unter Gen.-Lt. T. J. Jackson zwingen\
     \ nach zweit\xE4giger\nBeschie\xDFung die unionistische Beasatzung (14.000 M.,\
     \ 73 Gesch.) unter\nOberst D. Miles zur Kapitulation, wonach die garnison in Kriegsgefangenschaft\
@@ -1373,6 +1557,12 @@ Harper's Ferry (September 15, 1862):
 Kenesaw-Mountain (June 27, 1864):
   category:
   - meeting
+  cwsac:
+  - relation: '='
+    uri: GA015
+  dbpedia:
+  - relation: '='
+    uri: http://dbpedia.org/resource/Battle_of_Kennesaw_Mountain
   description: null
   end_date: &id017 1864-06-27
   location: Berg in Georgia, 34 km nordwestl. von Atlanta.
@@ -1400,6 +1590,12 @@ Kenesaw-Mountain (June 27, 1864):
 Lexington (September 20, 1861):
   category:
   - surrender
+  cwsac:
+  - relation: '='
+    uri: MO006
+  dbpedia:
+  - relation: '='
+    uri: http://dbpedia.org/resource/First_Battle_of_Lexington
   description: "Die Konf\xF6derierten (10.000 M., 16 Gesch.) unter GM. Price zwingen\
     \ die unionistiche Garnisson (3.000 M, 9. Gesch.) unter Oberst Mulligan zur \xDC\
     bergabe. Der Besatzung wurde freier Abzug bewilligt."
@@ -1428,6 +1624,12 @@ Lexington (September 20, 1861):
 Middletown (October 19, 1864):
   category:
   - battle
+  cwsac:
+  - relation: '='
+    uri: VA122
+  dbpedia:
+  - relation: '='
+    uri: http://dbpedia.org/resource/Battle_of_Cedar_Creek
   description: null
   end_date: &id019 1864-10-19
   location: "Kleine Stadt in Virginia, 20 km s\xFCdwestl. von Winchester, am Cedar\
@@ -1475,6 +1677,12 @@ Mobile (April 02, 1865):
   category:
   - siege
   - capture
+  cwsac:
+  - relation: '='
+    uri: AL006
+  dbpedia:
+  - relation: '='
+    uri: http://dbpedia.org/resource/Battle_of_Fort_Blakely
   description: "Die Uinionstroppen (45.000 M.) unter GM. Cranby nehmen, von der Seesiete\
     \ aus\nauf das Wirksamste unterst\xFCtzt von der Unionsflotte unter Admiral Farragut,\
     \ am 9. April\ndas von 4.000 Konf\xF6derierte verteidigte Blakely fort mit Strum,\
@@ -1502,6 +1710,12 @@ Mobile (April 02, 1865):
 Murfreesborough (December 31, 1862):
   category:
   - battle
+  cwsac:
+  - relation: '='
+    uri: TN010
+  dbpedia:
+  - relation: '='
+    uri: http://dbpedia.org/resource/Battle_of_Stones_River
   description: null
   end_date: 1863-01-03
   location: "Stadt in Tennessee, am Stone's River, 50 km s\xFCd\xF6stl. von Nashville."
@@ -1585,6 +1799,12 @@ Murfreesborough (December 31, 1862):
 Nashville (December 15, 1864):
   category:
   - battle
+  cwsac:
+  - relation: '='
+    uri: TN038
+  dbpedia:
+  - relation: '='
+    uri: http://dbpedia.org/resource/Battle_of_Nashville
   description: null
   end_date: 1864-12-16
   location: "Haupstadt von Tennessee, 930 km. s\xFCdwestl. von Washington."
@@ -1620,6 +1840,12 @@ Nashville (December 15, 1864):
 New-Hope-Church (May 28, 1864):
   category:
   - meeting
+  cwsac:
+  - relation: '='
+    uri: GA011
+  dbpedia:
+  - relation: '='
+    uri: http://dbpedia.org/resource/Battle_of_Dallas
   description: null
   end_date: &id020 1864-05-28
   location: Ort in Georgia, 50 km nordwestl. von Atlanta.
@@ -1646,6 +1872,12 @@ New-Hope-Church (May 28, 1864):
 Pamunkey (May 22, 1864):
   category:
   - meeting
+  cwsac:
+  - relation: '='
+    uri: VA055
+  dbpedia:
+  - relation: '='
+    uri: http://dbpedia.org/resource/Battle_of_North_Anna
   description: null
   end_date: 1864-05-26
   location: "Flu\xDF in Virginia, m\xFCndet in die York-Bay."
@@ -1674,6 +1906,12 @@ Pamunkey (May 22, 1864):
 Pea Ridge (March 07, 1862):
   category:
   - meeting
+  cwsac:
+  - relation: '='
+    uri: AR001
+  dbpedia:
+  - relation: '='
+    uri: http://dbpedia.org/resource/Battle_of_Pea_Ridge
   description: null
   end_date: 1862-03-08
   location: "Berg in nordwestlichen Teil des Staates Arkansas, in der N\xE4he von\
@@ -1720,6 +1958,12 @@ Pea Ridge (March 07, 1862):
 Peach-Tree-Creek (July 20, 1864):
   category:
   - battle
+  cwsac:
+  - relation: '='
+    uri: GA016
+  dbpedia:
+  - relation: '='
+    uri: http://dbpedia.org/resource/Battle_of_Peachtree_Creek
   description: null
   end_date: &id021 1864-07-20
   location: "Linker Nebenflu\xDF des Chattaboochee in Georgia, m\xFCndet 11 km nordwestl.\
@@ -1749,6 +1993,12 @@ Peach-Tree-Creek (July 20, 1864):
 Perryville (October 08, 1862):
   category:
   - battle
+  cwsac:
+  - relation: '='
+    uri: KY009
+  dbpedia:
+  - relation: '='
+    uri: http://dbpedia.org/resource/Battle_of_Perryville
   description: null
   end_date: &id022 1862-10-08
   location: "Kleine Stadt in Kentucky, 100 km s\xFCd\xF6stl. von Louisville"
@@ -1806,6 +2056,108 @@ Petersburg (June 09, 1864):
   category:
   - siege
   - capture
+  cwsac:
+  - relation: '>'
+    uri: VA098
+  - relation: '>'
+    uri: VA063
+  - relation: '>'
+    uri: VA065
+  - relation: '>'
+    uri: VA113
+  - relation: '>'
+    uri: VA067
+  - relation: '>'
+    uri: VA068
+  - relation: '>'
+    uri: VA069
+  - relation: '>'
+    uri: VA070
+  - relation: '>'
+    uri: VA071
+  - relation: '>'
+    uri: VA072
+  - relation: '>'
+    uri: VA073
+  - relation: '>'
+    uri: VA075
+  - relation: '>'
+    uri: VA074
+  - relation: '>'
+    uri: VA078
+  - relation: '>'
+    uri: VA080
+  - relation: '>'
+    uri: VA079
+  - relation: '>'
+    uri: VA085
+  - relation: '>'
+    uri: VA087
+  - relation: '>'
+    uri: VA086
+  - relation: '>'
+    uri: VA090
+  - relation: '>'
+    uri: VA083
+  - relation: '>'
+    uri: VA084
+  - relation: '>'
+    uri: VA088
+  - relation: '>'
+    uri: VA089
+  dbpedia:
+  - relation: '>'
+    uri: http://dbpedia.org/resource/First_Battle_of_Petersburg
+  - relation: '>'
+    uri: http://dbpedia.org/resource/Second_Battle_of_Petersburg
+  - relation: '>'
+    uri: http://dbpedia.org/resource/Battle_of_Jerusalem_Plank_Road
+  - relation: '>'
+    uri: http://dbpedia.org/resource/Battle_of_Staunton_River_Bridge
+  - relation: '>'
+    uri: http://dbpedia.org/resource/Battle_of_Sappony_Church
+  - relation: '>'
+    uri: http://dbpedia.org/resource/First_Battle_of_Ream's_Station
+  - relation: '>'
+    uri: http://dbpedia.org/resource/First_Battle_of_Deep_Bottom
+  - relation: '>'
+    uri: http://dbpedia.org/resource/Battle_of_the_Crater
+  - relation: '>'
+    uri: http://dbpedia.org/resource/Second_Battle_of_Deep_Bottom
+  - relation: '>'
+    uri: http://dbpedia.org/resource/Battle_of_Globe_Tavern
+  - relation: '>'
+    uri: http://dbpedia.org/resource/Second_Battle_of_Ream's_Station
+  - relation: '>'
+    uri: http://dbpedia.org/resource/Beefsteak_Raid
+  - relation: '>'
+    uri: http://dbpedia.org/resource/Battle_of_Chaffin's_Farm
+  - relation: '>'
+    uri: http://dbpedia.org/resource/Battle_of_Peebles'_Farm
+  - relation: '>'
+    uri: http://dbpedia.org/resource/Battle_of_Darbytown_and_New_Market_Roads
+  - relation: '>'
+    uri: http://dbpedia.org/resource/Battle_of_Darbytown_Road
+  - relation: '>'
+    uri: http://dbpedia.org/resource/Battle_of_Fair_Oaks_&_Darbytown_Road
+  - relation: '>'
+    uri: http://dbpedia.org/resource/Battle_of_Boydton_Plank_Road
+  - relation: '>'
+    uri: http://dbpedia.org/resource/Battle_of_Lewis's_Farm
+  - relation: '>'
+    uri: http://dbpedia.org/resource/Battle_of_White_Oak_Road
+  - relation: '>'
+    uri: http://dbpedia.org/resource/Battle_of_Dinwiddie_Court_House
+  - relation: '>'
+    uri: http://dbpedia.org/resource/Battle_of_Sutherland's_Station
+  - relation: '>'
+    uri: http://dbpedia.org/resource/Battle_of_Hatcher's_Run
+  - relation: '>'
+    uri: http://dbpedia.org/resource/Battle_of_Fort_Stedman
+  - relation: '>'
+    uri: http://dbpedia.org/resource/Battle_of_Five_Forks
+  - relation: '>'
+    uri: http://dbpedia.org/resource/Third_Battle_of_Petersburg
   description: "Die Unierten (91.000 Inft., 19.000 Kav., 10.000 Art., zus. 120.000\
     \ M.\\1) unter\nGen.-Lt. U. S. Grant zwingen nach 10 monatlicher Belagerung der\
     \ St\xE4dt Petersburg und\nRichmond, die Konf\xF6derierte (55.000 Inft., 6.500\
@@ -1863,6 +2215,12 @@ Petersburg (June 09, 1864):
 Prairie-Grove (December 07, 1862):
   category:
   - meeting
+  cwsac:
+  - relation: '='
+    uri: AR005
+  dbpedia:
+  - relation: '='
+    uri: http://dbpedia.org/resource/Battle_of_Prairie_Grove
   description: null
   end_date: &id023 1862-12-07
   location: "Dorf in nordwestlichen Arkansas, 20 km s\xFCdwestlich von Fayetteville"
@@ -1894,6 +2252,12 @@ Prairie-Grove (December 07, 1862):
 Resaca (May 14, 1864):
   category:
   - battle
+  cwsac:
+  - relation: '='
+    uri: GA008
+  dbpedia:
+  - relation: '='
+    uri: http://dbpedia.org/resource/Battle_of_Resaca
   description: null
   end_date: &id024 1864-05-14
   location: Stadt in Georgia, 100 km nordwestl. von Atlanta
@@ -1925,6 +2289,12 @@ Resaca (May 14, 1864):
 Richmond (August 30, 1862):
   category:
   - meeting
+  cwsac:
+  - relation: '='
+    uri: KY007
+  dbpedia:
+  - relation: '='
+    uri: http://dbpedia.org/resource/Battle_of_Richmond
   description: null
   end_date: &id025 1862-08-30
   location: "Stadt in Kentucky, 20 km s\xFCd\xF6stl. von Lexington."
@@ -1965,6 +2335,14 @@ Richmond (August 30, 1862):
 Ringgold (November 23, 1863):
   category:
   - battle
+  cwsac:
+  - relation: '='
+    uri: TN024
+  dbpedia:
+  - relation: '>'
+    uri: http://dbpedia.org/resource/Battle_of_Lookout_Mountain
+  - relation: '>'
+    uri: http://dbpedia.org/resource/Battle_of_Missionary_Ridge
   description: null
   end_date: 1863-11-25
   location: "Stadt in n\xF6rdlichen Georgia, knapp an der Grenze von Tennessee, 30\
@@ -2023,6 +2401,12 @@ Ringgold (November 23, 1863):
 Seven Pines (May 31, 1862):
   category:
   - battle
+  cwsac:
+  - relation: '='
+    uri: VA014
+  dbpedia:
+  - relation: '='
+    uri: http://dbpedia.org/resource/Battle_of_Seven_Pines
   description: null
   end_date: 1862-06-01
   location: "S\xFCmpfe an beiden Ufern des Chickahominyflusses in Virginia, 10 km\
@@ -2094,6 +2478,12 @@ Seven Pines (May 31, 1862):
 Shiloh (April 06, 1862):
   category:
   - battle
+  cwsac:
+  - relation: '='
+    uri: TN003
+  dbpedia:
+  - relation: '='
+    uri: http://dbpedia.org/resource/Battle_of_Shiloh
   description: null
   end_date: 1862-04-07
   location: "Dorf in S\xFCdwesten des Staates Tennessee, gegen\xFCber der Stadt Pittsburg-Landing,\
@@ -2168,6 +2558,12 @@ Shiloh (April 06, 1862):
 Spotsylvania-Court-House (May 08, 1864):
   category:
   - battle
+  cwsac:
+  - relation: '='
+    uri: VA048
+  dbpedia:
+  - relation: '='
+    uri: http://dbpedia.org/resource/Battle_of_Spotsylvania_Court_House
   description: null
   end_date: 1864-05-12
   location: "Ort in Virginia, 70 km n\xF6rdl. von Richmond"
@@ -2250,6 +2646,12 @@ Vicksburg (May 19, 1863):
   category:
   - siege
   - capture
+  cwsac:
+  - relation: '='
+    uri: MS011
+  dbpedia:
+  - relation: '='
+    uri: http://dbpedia.org/resource/Siege_of_Vicksburg
   description: 'Der Garnison, welche mit allen Ehren ausziehen durfte, wurde gegen
     das Versprechen,
 
@@ -2291,6 +2693,12 @@ Vicksburg (May 19, 1863):
 Wilderness (May 05, 1864):
   category:
   - battle
+  cwsac:
+  - relation: '='
+    uri: VA046
+  dbpedia:
+  - relation: '='
+    uri: http://dbpedia.org/resource/Battle_of_the_Wilderness
   description: null
   end_date: 1864-05-07
   location: "Waldige, zerkl\xFCftete, \"die Wildnis\" benannte Gegend im Staate Virginia,\
@@ -2369,6 +2777,12 @@ Wilderness (May 05, 1864):
 Williamsburg (May 05, 1862):
   category:
   - battle
+  cwsac:
+  - relation: '='
+    uri: VA010
+  dbpedia:
+  - relation: '='
+    uri: http://dbpedia.org/resource/Battle_of_Williamsburg
   description: null
   end_date: &id026 1862-05-05
   location: "Stadt in Virginia, 65 km s\xFCd\xF6stl. von Richmond"
@@ -2418,6 +2832,12 @@ Williamsburg (May 05, 1862):
 Wilson's Creek (August 10, 1861):
   category:
   - meeting
+  cwsac:
+  - relation: '='
+    uri: MO004
+  dbpedia:
+  - relation: '='
+    uri: http://dbpedia.org/resource/Battle_of_Wilson's_Creek
   description: "Sieg der Konf\xF6derierten (ca. 10.000 M.) unter GM. Price \xFCber\
     \ die Unierten (ca. 6.000 M.) unter GM. Lyon \u2020."
   end_date: &id027 1861-08-10
@@ -2455,6 +2875,12 @@ Wilson's Creek (August 10, 1861):
 Winchester (June 15, 1863):
   category:
   - meeting
+  cwsac:
+  - relation: '='
+    uri: VA107
+  dbpedia:
+  - relation: '='
+    uri: http://dbpedia.org/resource/Second_Battle_of_Winchester
   description: null
   end_date: &id028 1863-06-15
   location: Stadt in Virginia, 100 km westl. von Washington.
@@ -2494,6 +2920,12 @@ Winchester (June 15, 1863):
 Winchester (September 19, 1864):
   category:
   - battle
+  cwsac:
+  - relation: '='
+    uri: VA119
+  dbpedia:
+  - relation: '='
+    uri: http://dbpedia.org/resource/Battle_of_Opequon
   description: null
   end_date: &id029 1864-09-19
   location: "Stadt in Virginia, in der N\xE4he des Opequon, rechtem Nebenflu\xDF des\
