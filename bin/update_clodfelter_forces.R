@@ -5,7 +5,7 @@ suppressPackageStartupMessages({
 })
 
 clean_forces <- function(file_clodfelter_forces, file_unit_sizes) {
-  
+
   unit_sizes <- read.csv(file_unit_sizes,
                          stringsAsFactors = FALSE)
 
@@ -21,32 +21,32 @@ clean_forces <- function(file_clodfelter_forces, file_unit_sizes) {
     "brigades" = "infantry brigade",
     "companies" = "infantry company"
   )
-  
+
   unit_size_values_ <-
     expand.grid(belligerent = c("union", "confed"),
                 unit_type = c("strength", "infantry",
                               "cavalry", "crewmen")) %>%
     mutate(mean = 1, sd = NA_real_)
-  
+
   unit_size_values <-
     unit_sizes %>%
     select(belligerent, unit_type, mean, sd) %>%
-    mutate(belligerent = plyr::revalue(belligerent, 
-                                       c("Union" = "union", 
+    mutate(belligerent = plyr::revalue(belligerent,
+                                       c("Union" = "union",
                                          "Confederate" = "confed"))) %>%
     rbind(unit_size_values_)
 
-  
+
   clodfelter_forces <-
     read.csv(file_clodfelter_forces,
              stringsAsFactors = FALSE)
-  
+
   clodfelter_str <-
     clodfelter_forces %>%
-    select(battle, belligerent, 
-            strength, cavalry, infantry, 
+    select(battle, belligerent,
+            strength, cavalry, infantry,
             corps,cavalry_corps, divisions,
-            cavalry_divisions, 
+            cavalry_divisions,
             brigades, companies) %>%
      gather(unit_type, value, -battle, -belligerent, na.rm=TRUE) %>%
      mutate(unit_type =
@@ -56,11 +56,9 @@ clean_forces <- function(file_clodfelter_forces, file_unit_sizes) {
                 strength_var = value * sd ^ 2) %>%
      group_by(battle, belligerent) %>%
      select(battle, belligerent, strength_mean, strength_var) %>%
-     summarise_each(funs(sum))
-  
+    summarise_each(funs(sum))
   left_join(clodfelter_forces, clodfelter_str,
             c("battle", "belligerent"))
-  
 }
 
 build <- function(src, unit_sizes, dst) {
@@ -70,9 +68,9 @@ build <- function(src, unit_sizes, dst) {
 
 main <- function() {
   arglist <- commandArgs(TRUE)
-  src <- arglist[1]
-  unit_sizes <- arglist[2]
-  dst <- arglist[3]
+  src <- file.path(arglist[2], "clodfelter_forces.csv")
+  unit_sizes <- file.path(arglist[2], "unit_sizes.csv")
+  dst <- src
   build(src, unit_sizes, dst)
 }
 

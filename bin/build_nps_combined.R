@@ -400,16 +400,6 @@ shenandoah_battles <- unique(shenandoah_forces$cwsac_id)
 #            & nps_forces[["belligerent"]] == "Confederate",
 #            c("cas_kw_mean", "cas_m_mean")] <- c(500, 27805)
 #
-# #' Add Confederate captured to VA043
-# va043_m_mean_C <- 1600
-# nps_forces[nps_forces[["cwsac_id"]] == "VA043"
-#            & nps_forces[["belligerent"]] == "Confederate", "cas_m_mean"] <-
-#   va043_m_mean_C
-# nps_forces[nps_forces[["cwsac_id"]] == "VA043"
-#            & nps_forces[["belligerent"]] == "Confederate", "cas_kw_mean"] <-
-#   nps_forces[nps_forces[["cwsac_id"]] == "VA043"
-#              & nps_forces[["belligerent"]] == "Confederate", "cas_kwm_mean"] -
-#   va043_m_mean_C
 #
 # #' Add strengths from units
 # nps_forces %<>%

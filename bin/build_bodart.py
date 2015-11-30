@@ -106,7 +106,8 @@ def commanders_csv(src, dst):
                   'first_name',
                   'middle_name',
                   'suffix',
-                  'rank')
+                  'rank',
+                  'dbpedia')
     with open(dst, 'w') as f:
         writer = csv.DictWriter(f, fieldnames)
         writer.writeheader()
@@ -115,8 +116,6 @@ def commanders_csv(src, dst):
                 for side in ('victor', 'loser'):
                     if 'commander' in v[side]:
                       cmdrs = v[side]['commander']
-                      if not isinstance(cmdrs, list):
-                          cmdrs = [cmdrs]
                       for cmdr in cmdrs:
                           row = cmdr.copy()
                           parsed_name = nameparser.HumanName(row['name']).as_dict()
@@ -132,6 +131,8 @@ def commanders_csv(src, dst):
                           row['battle_id'] = battle
                           row['country'] = v[side]['country']
                           row['rank'] = RANKS[row['rank']]
+                          if 'dbpedia' not in row:
+                              row['dbpedia'] = None
                           writer.writerow(row)
 
 def generals_killed_csv(src, dst):
@@ -145,7 +146,8 @@ def generals_killed_csv(src, dst):
                   'middle_name',
                   'suffix',
                   'rank', 
-                  'date')
+                  'date',
+                  'dbpedia')
     with open(dst, 'w') as f:
         writer = csv.DictWriter(f, fieldnames)
         writer.writeheader()
@@ -167,6 +169,8 @@ def generals_killed_csv(src, dst):
                             row['battle_id'] = battle
                             row['country'] = v[side]['country']
                             row['rank'] = RANKS[row['rank']]
+                            if 'dbpedia' not in row:
+                                row['dbpedia'] = None
                             writer.writerow(row)
                     
 def battle_csv(src, dst):
@@ -205,11 +209,36 @@ def battle_csv(src, dst):
                 del row['category']
             writer.writerow(row)
 
-def copy_files(src, dst):
-    shutil.copy(os.path.join(src, "bodart_to_cwsac.csv"),
-                os.path.join(dst, "bodart1908_to_cwsac.csv"))
-    shutil.copy(os.path.join(src, "bodart_to_dbpedia.csv"),
-                os.path.join(dst, "bodart1908_to_dbpedia.csv"))
+def bodart_to_cwsac(src, dst):
+    with open(src, 'r') as f:
+        data = yaml.load(f)
+    fieldnames = ('from', 'to', 'relation')
+    with open(dst, 'w') as f:
+        writer = csv.DictWriter(f, fieldnames)
+        writer.writeheader()
+        for battle, v in data.items():
+            if 'cwsac' in v:
+                for link in v['cwsac']:
+                    row = {'from': battle,
+                           'to': link['uri'],
+                           'relation': link['relation']}
+                    writer.writerow(row)
+                
+
+def bodart_to_dbpedia(src, dst):
+    with open(src, 'r') as f:
+        data = yaml.load(f)
+    fieldnames = ('from', 'to', 'relation')
+    with open(dst, 'w') as f:
+        writer = csv.DictWriter(f, fieldnames)
+        writer.writeheader()
+        for battle, v in data.items():
+            if 'dbpedia' in v:
+                for link in v['dbpedia']:
+                    row = {'from': battle,
+                           'to': link['uri'],
+                           'relation': link['relation']}
+                    writer.writerow(row)
 
 def build(src, dst):
     filename = os.path.join(src, "bodart.yaml")
@@ -217,6 +246,9 @@ def build(src, dst):
     forces_csv(filename, os.path.join(dst, "bodart1909_forces.csv"))
     commanders_csv(filename, os.path.join(dst, "bodart1908_commanders.csv"))
     generals_killed_csv(filename, os.path.join(dst, "bodart1908_generals_killed.csv"))
+    bodart_to_cwsac(filename, os.path.join(dst, "bodart1908_to_dbpedia.csv"))
+    bodart_to_dbpedia(filename, os.path.join(dst, "bodart1908_to_cwsac.csv"))
+
     
 def main():
     src, dst = sys.argv[1:3]
