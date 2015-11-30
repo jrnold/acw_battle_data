@@ -1974,14 +1974,18 @@ Pea Ridge (March 07, 1862):
     commander:
     - name: Earl van Dorn
       rank: Gen.-Lt.
+      dbpedia: "Earl_Van_Dorn"
     country: Confederacy
     generals_killed:
     - name: McCulloch
       rank: Brig.-Gen.
+      dbpedia: "Ben_McCulloch"
     - name: McIntosh
       rank: Brig.-Gen.
+      dbpedia: "James_M._McIntosh"
     - name: Slack
       rank: Brig.-Gen.
+      dbpedia: "William_Y._Slack"
     guns: 72
     killed_wounded: 1100
     killed_wounded_percent: 7
@@ -2000,6 +2004,7 @@ Pea Ridge (March 07, 1862):
     commander:
     - name: Curtis
       rank: GM.
+      dbpedia: "Samuel_Ryan_Curtis"
     country: Union
     guns: 49
     killed_wounded: 1200
@@ -2062,12 +2067,15 @@ Perryville (October 08, 1862):
     commander:
     - name: Buell
       rank: GM.
+      dbpedia: "Don_Carlos_Buell"
     country: Union
     generals_killed:
     - name: J. S. Jackson
       rank: Brig.-Gen.
+      dbpedia: "James_S._Jackson"
     - name: W. R. Terrill
       rank: Brig.-Gen.
+      dbpedia: "William_R._Terrill"
     killed: 850
     killed_generals: 2
     killed_officers: 37
@@ -2095,6 +2103,7 @@ Perryville (October 08, 1862):
     commander:
     - name: Bragg
       rank: Gen.
+      dbpedia: "Braxton_Bragg"
     country: Confederacy
     killed: 520
     killed_wounded: 3150
@@ -2225,14 +2234,17 @@ Petersburg (June 09, 1864):
     commander:
     - name: R. Lee
       rank: Gen.
+      dbpedia: "Robert_E._Lee"
     country: Confederacy
     generals_killed:
     - date: 1865-04-02
       name: A. P. Hill
       rank: G.-L.
+      dbpedia: "Ambrose_Powell_Hill"
     - date: 1865-02-06
       name: J. Pegram
       rank: GM.
+      dbpedia: "John_Pegram_(general)"
     infantry: 55000
     strength: 67000
   name: Petersburg
@@ -2247,11 +2259,13 @@ Petersburg (June 09, 1864):
     commander:
     - name: U. S. Grant
       rank: Gen.-Lt.
+      dbpedia: "Ulysses_S._Grant"
     country: Union
     generals_killed:
     - date: 1864-06-28
       name: H. Burnham
       rank: B.-G.
+      dbpedia: "Hiram_Burnham"
     - date: 1864-06-29
       name: D. Bates
       rank: B.-G.
@@ -2282,6 +2296,7 @@ Prairie-Grove (December 07, 1862):
     commander:
     - name: Hindman
       rank: GM.
+      dbpedia: "Thomas_C._Hindman"
     country: Confederacy
     killed_wounded: 1000
     missing: 350
@@ -2297,6 +2312,7 @@ Prairie-Grove (December 07, 1862):
     commander:
     - name: Blunt
       rank: Brig.-Gen.
+      dbpedia: "James_G._Blunt"
     country: Union
     killed_wounded: 1000
     missing: 250
@@ -2319,6 +2335,7 @@ Resaca (May 14, 1864):
     commander:
     - name: J. Johnston
       rank: Gen.
+      dbpedia: "Joseph_E._Johnston"
     country: Confederacy
     killed_wounded: 1500
     missing: 3000
@@ -2334,6 +2351,7 @@ Resaca (May 14, 1864):
     commander:
     - name: W. T. Sherman
       rank: GM.
+      dbpedia: "William_Tecumseh_Sherman"
     country: Union
     killed_wounded: 4000
     missing: 500
@@ -2356,6 +2374,7 @@ Richmond (August 30, 1862):
     commander:
     - name: Nelson
       rank: Brig.-Gen.
+      dbpedia: "William_\"Bull\"_Nelson"
     country: Union
     killed: 210
     killed_wounded: 1050
@@ -2378,6 +2397,7 @@ Richmond (August 30, 1862):
     commander:
     - name: Kirby Smith
       rank: GM.
+      dbpedia: "Edmund_Kirby_Smith"
     country: Confederacy
     killed: 80
     killed_wounded: 450
@@ -2406,6 +2426,7 @@ Ringgold (November 23, 1863):
     commander:
     - name: R. Bragg
       rank: Gen.
+      dbpedia: "Braxton_Bragg"
     country: Confederacy
     killed: 400
     killed_generals: 0
@@ -2434,6 +2455,7 @@ Ringgold (November 23, 1863):
     commander:
     - name: U. S. Grant
       rank: GM.
+      dbpedia: "Ulysses_S._Grant"
     country: Union
     killed: 800
     killed_generals: 0
@@ -2471,6 +2493,7 @@ Seven Pines (May 31, 1862):
     commander:
     - name: McClellan
       rank: GM.
+      dbpedia: "George_B._McClellan"
     country: Union
     killed: 800
     killed_generals: 0
@@ -2504,10 +2527,12 @@ Seven Pines (May 31, 1862):
     commander:
     - name: J. Johnston
       rank: Gen.
+      dbpedia: "Joseph_E._Johnston"
     country: Confederacy
     generals_killed:
     - name: R. Hatton
       rank: Brig.-Gen.
+      dbpedia: "Robert_Hopkins_Hatton"
     killed: 1100
     killed_generals: 1
     killed_officers: 78
@@ -2548,12 +2573,15 @@ Shiloh (April 06, 1862):
     commander:
     - name: A. S. Johnston
       rank: Gen.
+      dbpedia: "Albert_Sidney_Johnston"
     country: Confederacy
     generals_killed:
     - name: A. S. Johnston
       rank: komm. Gen.
+      dbpedia: "Albert_Sidney_Johnston"
     - name: A. H. Gladden
       rank: Brig.-Gen.
+      dbpedia: "Adley_H._Gladden"
     infantry: 36000
     killed: 1730
     killed_generals: 2
@@ -2584,10 +2612,12 @@ Shiloh (April 06, 1862):
     commander:
     - name: U. S. Grant
       rank: GM.
+      dbpedia: "Ulysses_S._Grant"
     country: Union
     generals_killed:
     - name: W. H. L. Wallace
       rank: Brig.-Gen.
+      dbpedia: "William_Harvey_Lamb_Wallace"
     infantry: 54000
     killed: 1800
     killed_generals: 1
@@ -2628,16 +2658,21 @@ Spotsylvania-Court-House (May 08, 1864):
     commander:
     - name: R. Lee
       rank: Gen.
+      dbpedia: "Robert_E._Lee"
     country: Confederacy
     generals_killed:
     - name: J. E. B. Stuart
       rank: G.-L.
+      dbpedia: "J.E.B._Stuart"
     - name: J. Daniel
       rank: B.-G.
+      dbpedia: "Junius_Daniel"
     - name: A. Perrin
       rank: B.-G.
+      dbpedia: "Abner_Monroe_Perrin"
     - name: L. A. Stafford
       rank: B.-G.
+      dbpedia: "Leroy_A._Stafford"
     infantry: 39000
     killed: 1000
     killed_generals: 4
@@ -2668,14 +2703,18 @@ Spotsylvania-Court-House (May 08, 1864):
     commander:
     - name: U. S. Grant
       rank: Gen.-Lt.
+      dbpedia: "Ulysses_S._Grant"
     country: Union
     generals_killed:
     - name: J. Sedgwick
       rank: GM.
+      dbpedia: "John_Sedgwick"
     - name: J. C. Rice
       rank: B.-G.
+      dbpedia: "James_Clay_Rice"
     - name: T. G. Stevenson
       rank: B.-G.
+      dbpedia: "Thomas_G._Stevenson"
     infantry: 79000
     killed: 2730
     killed_generals: 3
@@ -2704,12 +2743,10 @@ Vicksburg (May 19, 1863):
   dbpedia:
   - relation: '='
     uri: http://dbpedia.org/resource/Siege_of_Vicksburg
-  description: 'Der Garnison, welche mit allen Ehren ausziehen durfte, wurde gegen
+  description: >-
+    Der Garnison, welche mit allen Ehren ausziehen durfte, wurde gegen
     das Versprechen,
-
     nicht weiter gegen die Unionsstaaten zu dienen, freier Abzug in die Heimat bewilligt.
-
-    '
   end_date: 1863-07-04
   location: Stadt im Staate Mississippi, am linken Ufer des Mississippistromes.
   loser:
@@ -2720,12 +2757,15 @@ Vicksburg (May 19, 1863):
     commander:
     - name: Pemberton
       rank: Gen.-Lt.
+      dbpedia: "John_C._Pemberton"
     country: Confederacy
     generals_killed:
     - name: M. E. Green
       rank: B.-G.
+      dbpedia: "Martin_E._Green"
     - name: E. D. Tracy
       rank: B.-G.
+      dbpedia: "Edward_D._Tracy"
     killed_wounded: 7000
     losses_canons: 172
     strength: 28000
@@ -2739,6 +2779,7 @@ Vicksburg (May 19, 1863):
     commander:
     - name: U. S. Grant
       rank: GM.
+      dbpedia: "Ulysses_S._Grant"
     country: Union
     killed_wounded: 9000
     strength: 75000
@@ -2764,12 +2805,15 @@ Wilderness (May 05, 1864):
     commander:
     - name: R. Lee
       rank: Gen.
+      dbpedia: "Robert_E._Lee"
     country: Confederacy
     generals_killed:
     - name: A. G. Jenkins
       rank: B.-G.
+      dbpedia: "Albert_Gallatin_Jenkins"
     - name: J. M. Jones
       rank: B.-G.
+      dbpedia: "John_M._Jones"
     guns: 224
     infantry: 49000
     killed: 1000
@@ -2800,12 +2844,15 @@ Wilderness (May 05, 1864):
     commander:
     - name: U. S. Grant
       rank: Gen.-Lt.
+      dbpedia: "Ulysses_S._Grant"
     country: Union
     generals_killed:
     - name: A. Hays
       rank: GM.
+      dbpedia: "Alexander_Hays"
     - name: J. S. Wadsworth
       rank: GM.
+      dbpedia: "James_S._Wadsworth"
     guns: 318
     infantry: 94000
     killed: 2250
@@ -2845,6 +2892,7 @@ Williamsburg (May 05, 1862):
     commander:
     - name: J. Johnston
       rank: Gen.-Lt.
+      dbpedia: "Joseph_E._Johnston"
     country: Confederacy
     killed: 300
     killed_officers: 24
@@ -2869,6 +2917,7 @@ Williamsburg (May 05, 1862):
     commander:
     - name: McClellan
       rank: GM.
+      dbpedia: "George_B._McClellan"
     country: Union
     killed: 460
     killed_officers: 27
@@ -2881,7 +2930,7 @@ Williamsburg (May 05, 1862):
     strength: 45000
     wounded: 1440
     wounded_officers: 98
-Wilson's Creek (August 10, 1861):
+"Wilson's Creek (August 10, 1861)":
   category:
   - meeting
   cwsac:
@@ -2901,10 +2950,12 @@ Wilson's Creek (August 10, 1861):
     commander:
     - name: Lyon
       rank: GM.
+      dbpedia: "Nathaniel_Lyon"
     country: Union
     generals_killed:
     - name: Lyon
       rank: Brig.-Gen.
+      dbpedia: "Nathaniel_Lyon"
     killed_wounded: 1140
     missing: 160
     strength: 6000
@@ -2920,6 +2971,7 @@ Wilson's Creek (August 10, 1861):
     commander:
     - name: Price
       rank: GM.
+      dbpedia: "Sterling_Price"
     country: Confederacy
     killed_wounded: 1230
     missing: 70
@@ -2943,6 +2995,7 @@ Winchester (June 15, 1863):
     commander:
     - name: Milroy
       rank: GM.
+      dbpedia: "Robert_H._Milroy"
     country: Union
     killed_wounded: 500
     killed_wounded_officers: 19
@@ -2965,6 +3018,7 @@ Winchester (June 15, 1863):
     commander:
     - name: Ewell
       rank: Gen.-Lt.
+      dbpedia: "Richard_Ewell"
     country: Confederacy
     killed_wounded: 300
     missing: 0
@@ -2989,12 +3043,15 @@ Winchester (September 19, 1864):
     commander:
     - name: J. A. Early
       rank: Gen.-Lt.
+      dbpedia: "Jubal_Anderson_Early"
     country: Confederacy
     generals_killed:
     - name: R. E. Rodes
       rank: GM.
+      dbpedia: "Robert_E._Rodes"
     - name: A. C. Godwin
       rank: B.-G.
+      dbpedia: "Archibald_C._Godwin"
     infantry: 11000
     killed_wounded: 2000
     killed_wounded_percent: 15.4
@@ -3016,10 +3073,12 @@ Winchester (September 19, 1864):
     commander:
     - name: P. H. Sheridan
       rank: GM.
+      dbpedia: "Philip_Sheridan"
     country: Union
     generals_killed:
     - name: D. A. Russell
       rank: GM.
+      dbpedia: "David_Allen_Russell"
     infantry: 33000
     killed_wounded: 4400
     killed_wounded_percent: 10.3
