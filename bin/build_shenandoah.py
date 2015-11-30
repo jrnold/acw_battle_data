@@ -9,6 +9,7 @@ import json
 
 import yaml
 
+BASE_URL = "http://www.nps.gov/abpp/shenandoah/"
 
 def load_data(src):
     data = []
@@ -16,7 +17,9 @@ def load_data(src):
         if fnmatch.fnmatch(filename, "*.yaml"):
             fn = path.join(src, "yaml", filename)
             with open(fn, 'r') as f:
-                data.append(yaml.load(f))
+                d = yaml.load(f)
+                d['url'] = BASE_URL + path.basename(path.splitext(fn)[0]) + '.html'
+                data.append(d)
     return data
     
 def clean_battle(battle):
@@ -36,6 +39,7 @@ def clean_battle(battle):
     row['campaign'] = battle['Campaign']
     row['county'] = ';'.join(x['name'] + ', ' + x['state']
                              for x in battle['County'])
+    row['url'] = battle['url']
     return row
     
 def build_battles(data, dst):
@@ -46,7 +50,9 @@ def build_battles(data, dst):
                   'start_date',
                   'end_date',
                   'campaign',
-                  'county')
+                  'county',
+                  'url'
+    )
     with open(path.join(dst, 'shenandoah_battles.csv'), 'w') as f:
         writer = csv.DictWriter(f, fieldnames)
         writer.writeheader()
