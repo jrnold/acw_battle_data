@@ -28,16 +28,27 @@ clean_forces <- function(file_clodfelter_forces, file_unit_sizes) {
 
   unit_size_values <-
     unit_sizes %>%
-    select(belligerent, unit_type, mean, sd) %>%
+    select(belligerent, unit_type, mean, var) %>%
     mutate(belligerent = plyr::revalue(belligerent,
                                        c("Union" = "union",
                                          "Confederate" = "confed")))
 
 
-  clodfelter_str <-
+  clodfelter_str_num <-
     clodfelter_forces %>%
     select(battle, belligerent,
-            strength, cavalry, infantry,
+           strength, cavalry, infantry
+           ) %>%
+    mutate(strength_var = rounded_var(strength),
+           cavalry_var = rounded_var(cavalry),
+           infantry_var = rounded_var(infantry),
+           str_mean_num = psum(strength, cavalry, infantry),
+           str_var_num = psum(strength_var, cavalry_var, infantry_var)) %>%
+    select(battle, belligerent, str_var_num, str_mean_num)
+
+  clodfelter_str_num <-
+    clodfelter_forces %>%
+    select(battle, belligerent,
             corps, cavalry_corps, divisions,
             cavalry_divisions,
             brigades, companies) %>%
