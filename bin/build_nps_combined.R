@@ -316,7 +316,11 @@ gen_forces <- function(cwss_forces,
            str_mean_cwss = TroopsEngaged) %>%
     mutate(str_mean_cwss = ifelse(str_mean_cwss == 0, NA_real_, str_mean_cwss),
            str_var_cwss = rounded_var(str_mean_cwss),
-           cas_kwm_var_cwss = rounded_var(cas_kwm_mean_cwss))
+           cas_kwm_var_cwss = rounded_var(cas_kwm_mean_cwss)) %>%
+    mutate(belligerent =
+             ifelse(grepl("OK00[1-3]", cwsac_id) &
+                      belligerent == "US",
+                    "Native American", belligerent))
 
   cwsac1_forces_casstr <-
     cwsac1_forces %>%
@@ -341,7 +345,11 @@ gen_forces <- function(cwss_forces,
            str_var_cwsac2 = strength_var,
            cwsac_id = battle) %>%
     select(cwsac_id, belligerent, matches("(str|cas)_")) %>%
-    filter(! cwsac_id %in% c("AL002"))
+    filter(! cwsac_id %in% c("AL002")) %>%
+    mutate(belligerent =
+             ifelse(grepl("OK00[1-3]", cwsac_id) &
+                      belligerent == "US",
+                    "Native American", belligerent))
 
   #'
   #' ## Shenandoah Data
