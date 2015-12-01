@@ -61,10 +61,7 @@ def build_greer(src, dst):
 
 def build_kennedy(src, dst):
     print("build_kennedy")
-    files = ("kennedy_battles.csv", "kennedy_casualties.csv",
-             "kennedy_to_cwsac.csv")
-    for fn in files:
-        shutil.copy(path.join(src, "rawdata", "kennedy1997", fn), dst)
+    sp.run([PYTHON, "bin/build_kennedy.py", src, dst])
 
 def build_livermore(src, dst):
     print("build_livermore")
