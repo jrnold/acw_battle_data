@@ -12,19 +12,11 @@ gen_unit_sizes <- function(dst) {
 gen_unit_size_values <- function(dst) {
   unit_sizes <- gen_unit_sizes(dst)
 
-  unit_size_values_ <-
-    expand.grid(belligerent = c("US", "Confederate"),
-                unit_type = c("strength_other"))
-  unit_size_values_$mean <- 1
-  unit_size_values_$var <- 1/12
-
   unit_sizes %>%
     select(belligerent, unit_type, mean, sd) %>%
     mutate(var = sd ^ 2) %>%
     select( - sd) %>%
-    mutate(belligerent = plyr::revalue(belligerent, c("Union" = "US"))) %>%
-    bind_rows(unit_size_values_)
-
+    mutate(belligerent = plyr::revalue(belligerent, c("Union" = "US")))
 }
 
 unit_type_map <- c(
@@ -67,9 +59,9 @@ update_forces <- function(src, dst) {
 
   forces_strengths_exact <-
     forces %>%
-    select(battle, belligerent, strength) %>%
-    mutate(str_var = rounded_var(strength),
-           str_mean = strength) %>%
+    select(battle, belligerent, strength, strength_other) %>%
+    mutate(str_var = psum(rounded_var(strength), rounded_var(strength_other)),
+           str_mean = psum(strength, strength_other)) %>%
     select(battle, belligerent, str_mean, str_var)
 
   forces_strengths <-
@@ -90,8 +82,6 @@ main <- function() {
   args <- commandArgs(TRUE)
   src <- args[1]
   dst <- args[2]
-  src <- "."
-  dst <- "data"
   update_forces(src, dst)
 }
 

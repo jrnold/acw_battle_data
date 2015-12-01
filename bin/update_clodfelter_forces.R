@@ -1,81 +1,77 @@
 #!/usr/bin/env Rscript
-suppressPackageStartupMessages({
-  library("tidyr")
-  library("dplyr")
-})
+source("R/misc.R")
 
-clean_forces <- function(file_clodfelter_forces, file_unit_sizes) {
+unit_type_map <- c(
+  "corps" = "infantry corps",
+  "cavalry_corps" = "cavalry corps",
+  "divisions" = "infantry division",
+  "cavalry_divisions" = "cavalry division",
+  "brigades" = "infantry brigade",
+  "companies" = "infantry company"
+)
 
-  unit_sizes <- read.csv(file_unit_sizes,
-                         stringsAsFactors = FALSE)
+update_forces <- function(src, dst) {
 
-  unit_type_map <- c(
-    ## "strength",
-    ## "infantry",
-    ## "cavalry",
-    ## "crewmen",
-    "corps" = "infantry corps",
-    "cavalry_corps" = "cavalry corps",
-    "divisions" = "infantry division",
-    "cavalry_divisions" = "cavalry division",
-    "brigades" = "infantry brigade",
-    "companies" = "infantry company"
-  )
+  forces <- read_csv(file.path(dst, "clodfelter_forces.csv"))
 
-  clodfelter_forces <-
-    read.csv(file_clodfelter_forces,
-             stringsAsFactors = FALSE)
+  unit_sizes <- read_csv(file.path(dst, "unit_sizes.csv"))
 
   unit_size_values <-
     unit_sizes %>%
-    select(belligerent, unit_type, mean, var) %>%
-    mutate(belligerent = plyr::revalue(belligerent,
-                                       c("Union" = "union",
-                                         "Confederate" = "confed")))
+    select(belligerent, unit_type, mean, sd) %>%
+    mutate(var = sd ^ 2) %>%
+    select( - sd) %>%
+    mutate(belligerent = plyr::revalue(belligerent, c("Union" = "US")))
 
-
-  clodfelter_str_num <-
-    clodfelter_forces %>%
+  forces_strengths_units <-
+    forces %>%
     select(battle, belligerent,
-           strength, cavalry, infantry
-           ) %>%
+           corps, cavalry_corps, divisions, cavalry_divisions, brigades,
+           companies) %>%
+    gather(unit_type, units, - battle, - belligerent, na.rm = TRUE) %>%
+    mutate(unit_type =
+             as.character(plyr::revalue(unit_type, unit_type_map,
+                                        warn_missing = FALSE))) %>%
+    left_join(unit_size_values, by = c("unit_type", "belligerent")) %>%
+    mutate(str_mean_units = units * mean,
+           str_var_units = units ^ 2 * var) %>%
+    group_by(battle, belligerent) %>%
+    summarise_each(funs(sum), matches("str_(mean|var)_units"))
+
+  forces_strengths_num <-
+    forces %>%
+    select(battle, belligerent,
+           strength, cavalry, infantry, crewmen
+    ) %>%
     mutate(strength_var = rounded_var(strength),
            cavalry_var = rounded_var(cavalry),
            infantry_var = rounded_var(infantry),
-           str_mean_num = psum(strength, cavalry, infantry),
-           str_var_num = psum(strength_var, cavalry_var, infantry_var)) %>%
+           crewmen_var = rounded_var(crewmen),
+           str_mean_num = psum(strength, cavalry, infantry, crewmen),
+           str_var_num = psum(strength_var, cavalry_var, infantry_var,
+                              crewmen_var)) %>%
     select(battle, belligerent, str_var_num, str_mean_num)
 
-  clodfelter_str_num <-
-    clodfelter_forces %>%
-    select(battle, belligerent,
-            corps, cavalry_corps, divisions,
-            cavalry_divisions,
-            brigades, companies) %>%
-     gather(unit_type, value, -battle, -belligerent, na.rm=TRUE) %>%
-     mutate(unit_type =
-              as.character(plyr::revalue(unit_type, unit_type_map))) %>%
-     left_join(unit_size_values, by = c("unit_type", "belligerent")) %>%
-     mutate(strength_mean = value * mean,
-            strength_var = value ^ 2 * var) %>%
-     group_by(battle, belligerent) %>%
-     select(battle, belligerent, strength_mean, strength_var) %>%
-    summarise_each(funs(sum))
-  left_join(clodfelter_forces, clodfelter_str,
-            c("battle", "belligerent"))
-}
+  forces_strengths <-
+    left_join(forces_strengths_num, forces_strengths_units,
+              by = c("battle", "belligerent")) %>%
+    mutate(str_mean = psum(str_mean_num, str_mean_units),
+           str_var = psum(str_var_num, str_var_units)) %>%
+    select(battle, belligerent, str_mean, str_var)
 
-build <- function(src, unit_sizes, dst) {
-  forces <- clean_forces(src, unit_sizes)
-  write.csv(forces, dst, row.names = FALSE, na = "")
+  forces2 <-
+    left_join(forces, forces_strengths,
+              by = c("battle", "belligerent"))
+  write_csv(forces2,
+            file = file.path(dst, "clodfelter_forces.csv"))
 }
 
 main <- function() {
-  arglist <- commandArgs(TRUE)
-  src <- file.path(arglist[2], "clodfelter_forces.csv")
-  unit_sizes <- file.path(arglist[2], "unit_sizes.csv")
-  dst <- src
-  build(src, unit_sizes, dst)
+  args <- commandArgs(TRUE)
+  src <- args[1]
+  dst <- args[2]
+  update_forces(src, dst)
 }
 
 main()
+

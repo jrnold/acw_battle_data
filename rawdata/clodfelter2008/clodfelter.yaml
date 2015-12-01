@@ -1902,10 +1902,14 @@ West (1863):
   forces:
     Confederate:
       casualties: 235
+      strength: 6715
+      note: "Use strength from Port Hudson Siege"
     US:
       killed: 293
       missing: 157
       wounded: 1545
+      strength: 20000
+      note: "Use strength from Port Hudson Siege"
   name: Port Hudson (first assault)
   page: 305
   start_date: 1863-5-27
@@ -1919,10 +1923,14 @@ West (1863):
     Confederate:
       killed: 22
       wounded: 25
+      strength: 6480
+      note: "Use strength from Port Hudson Siege minus first assault"
     US:
       killed: 203
       missing: 188
       wounded: 1401
+      strength: 18005
+      note: "Use strength from Port Hudson Siege minus first assault"
   name: Port Hudson (second assault)
   page: 305
   start_date: 1863-6-14
@@ -2090,10 +2098,14 @@ West (1863):
   forces:
     Confederate:
       casualties: 200
+      strength: 30000
+      note: "Use strength from Vicksburg siege"
     US:
       killed: 157
       missing: 8
       wounded: 777
+      strength: 71000
+      note: "Use strength from Vicksburg siege"
   name: Vicksburg (first assault)
   page: 305
   start_date: 1863-5-19
@@ -2106,10 +2118,14 @@ West (1863):
   forces:
     Confederate:
       casualties: 1000
+      strength: 29800
+      note: "Use strength from Vicksburg siege minus casualties from the first assault."
     US:
       killed: 502
       missing: 147
       wounded: 2550
+      strength: 70058
+      note: "Use strength from Vicksburg siege minus casualties from the first assault."
   name: Vicksburg (second assault)
   page: 305
   start_date: 1863-5-22

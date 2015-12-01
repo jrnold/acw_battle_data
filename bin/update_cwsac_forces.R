@@ -1,10 +1,6 @@
 #!/usr/bin/env Rscript
 source("R/misc.R")
 
-ROUND_METHOD <- 3
-
-src <- "rawdata"
-dst <- "data"
 
 gen_forces <- function(dst) {
   read_csv(file.path(dst, "cwsac_forces.csv"))
@@ -17,18 +13,11 @@ gen_unit_sizes <- function(dst) {
 gen_unit_size_values <- function(dst) {
   unit_sizes <- gen_unit_sizes(dst)
 
-  unit_size_values_ <-
-    expand.grid(belligerent = c("US", "Confederate"),
-                unit_type = c("strength_other"))
-  unit_size_values_$mean <- 1
-  unit_size_values_$var <- 1/12
-
   unit_sizes %>%
     select(belligerent, unit_type, mean, sd) %>%
     mutate(var = sd ^ 2) %>%
     select( - sd) %>%
-    mutate(belligerent = plyr::revalue(belligerent, c("Union" = "US"))) %>%
-    bind_rows(unit_size_values_)
+    mutate(belligerent = plyr::revalue(belligerent, c("Union" = "US")))
 
 }
 
@@ -96,7 +85,9 @@ update_forces <- function(src, dst) {
 
 main <- function() {
   args <- commandArgs(TRUE)
-  update_forces(args[1], args[2])
+  src <- args[1]
+  dst <- args[2]
+  update_forces(src, dst)
 }
 
 main()

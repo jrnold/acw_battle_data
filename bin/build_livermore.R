@@ -22,9 +22,10 @@ write_csv <- function(x, ...) {
 BELLIGERENTS <- c(UNION = "Union",
                   CONFEDERATE = "Confederate")
 
-build <- function(src, pardir, dst) {
-  LIV_BATTLES_FILE <- file.path(pardir, "LIVRMORE.csv")
-  LIV_BATTLES_MISC <- file.path(src, "misc.csv")
+build <- function(src, dst) {
+  LIV_BATTLES_FILE <- file.path(src,"dependencies", "PAR", "data",
+                                "LIVRMORE.csv")
+  LIV_BATTLES_MISC <- file.path(src, "rawdata", "livermore1900", "misc.csv")
 
   livrmore <- read_csv(LIV_BATTLES_FILE) %>%
     mutate(attacker = plyr::revalue(attacker, BELLIGERENTS),
@@ -35,7 +36,8 @@ build <- function(src, pardir, dst) {
     (livrmore
       %>% select(seq_no, battle_name, start_date, end_date, win_side)
       %>% arrange(seq_no)
-      %>% left_join(select(battle_misc, - battle_name, - win_side, - start_date, - end_date,
+      %>% left_join(select(battle_misc, - battle_name, - win_side,
+                           - start_date, - end_date,
                            - commander_union, - commander_confederate),
                     by = "seq_no")
     )
@@ -106,16 +108,16 @@ build <- function(src, pardir, dst) {
   write_csv(liv_forces, file = file.path(dst, "livermore_commanders.csv"))
 
   for (filename in COPYFILES) {
-    file.copy(file.path(src, filename), dst)
+    file.copy(file.path(src, "rawdata" , "livermore1900", filename), dst)
   }
 
 }
 
 main <- function() {
   arglist <- commandArgs(TRUE)
-  build(file.path(arglist[1], "rawdata", "livermore1900"),
-        file.path(arglist[1], "dependencies", "PAR", "data"),
-        arglist[2])
+  src <- arglist[1]
+  dst <- arglist[2]
+  build(src, dst)
 }
 
 main()
