@@ -90,8 +90,7 @@ def build_shenandoah(src, dst):
 
 def build_clodfelter(src, dst):
     print("build_clodfelter")
-    sp.run([PYTHON, "bin/build_clodfelter.py",
-            path.join(src, "rawdata", "clodfelter2008"), dst])
+    sp.run([PYTHON, "bin/build_clodfelter.py", src , dst])
     sp.run([RSCRIPT, "bin/update_clodfelter_forces.R", src, dst])
 
 def build_nps(src, dst):

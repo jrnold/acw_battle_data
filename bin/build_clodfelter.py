@@ -167,7 +167,7 @@ def dbpedia_links(data, dst, filename):
                 
 
 def build(src, dst):
-    srcfile = path.join(src, 'clodfelter.yaml')
+    srcfile = path.join(src, "rawdata", "clodfelter2008",  'clodfelter.yaml')
     with open(srcfile, 'r') as f:
         data = yaml.load(f)
 

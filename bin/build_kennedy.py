@@ -31,7 +31,6 @@ def forces_csv(src, dst):
         writer = csv.DictWriter(f, fieldnames)
         writer.writeheader()
         for battle, v in sorted(data.items()):
-            print(battle)
             for belligerent in v['forces']:
                 row = v['forces'][belligerent]
                 row['belligerent'] = belligerent
@@ -59,7 +58,7 @@ def battles_csv(src, dst):
             row['battle'] = battle
             row = dict_subset(row, fieldnames)
             writer.writerow(row)
-
+            
 def build(src, dst):
     filename = os.path.join(src, "rawdata", "kennedy1997", "kennedy1997.yaml")
     battles_csv(filename, os.path.join(dst, "kennedy1997_battles.csv"))
