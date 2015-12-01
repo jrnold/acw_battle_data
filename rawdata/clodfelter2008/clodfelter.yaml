@@ -20,9 +20,9 @@
   name: Roanoake Island
   page: 294
   start_date: 1862-2-7
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Roanoke_Island
+    url: https://dbpedia.org/resource/Battle_of_Roanoke_Island
 - cwsac:
   - id: NC003
     relation: '='
@@ -40,9 +40,9 @@
   name: New Bern
   page: 294
   start_date: 1862-3-13
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Roanoke_Island
+    url: https://dbpedia.org/resource/Battle_of_Roanoke_Island
 - cwsac:
   - id: VA008
     relation: <
@@ -62,9 +62,9 @@
   name: Hampton Roads (first day)
   page: 294
   start_date: 1862-3-8
-  wikipedia:
+  dbpedia:
   - relation: <
-    url: https://en.wikipedia.org/wiki/Battle_of_Hampton_Roads
+    url: https://dbpedia.org/resource/Battle_of_Hampton_Roads
 - cwsac:
   - id: VA008
     relation: <
@@ -82,9 +82,9 @@
   name: Hampton Roads (second day)
   page: 294
   start_date: 1862-3-9
-  wikipedia:
+  dbpedia:
   - relation: <
-    url: https://en.wikipedia.org/wiki/Battle_of_Hampton_Roads
+    url: https://dbpedia.org/resource/Battle_of_Hampton_Roads
 - cwsac:
   - id: SC002
     relation: '='
@@ -102,9 +102,9 @@
   name: Secessionville
   page: 294
   start_date: 1862-6-16
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_James_Island
+    url: https://dbpedia.org/resource/Battle_of_James_Island
 'Blockade War: 1863':
 - forces:
     Confederate:
@@ -116,9 +116,9 @@
   name: Pocataligo
   page: 306
   start_date: 1863-10-22
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Pocotaligo
+    url: https://dbpedia.org/resource/Battle_of_Pocotaligo
 - cwsac:
   - id: SC005
     relation: '='
@@ -135,9 +135,9 @@
   name: Batteries Wagner and Gregg
   page: 306
   start_date: 1863-7-10
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/First_Battle_of_Fort_Wagner
+    url: https://dbpedia.org/resource/First_Battle_of_Fort_Wagner
 - cwsac:
   - id: SC007
     relation: '='
@@ -155,9 +155,9 @@
     Union - 2318; Confederate - 641'
   page: 306
   start_date: 1863-7-18
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Second_Battle_of_Fort_Wagner
+    url: https://dbpedia.org/resource/Second_Battle_of_Fort_Wagner
 'Blockade War: 1864-65':
 - cwsac:
   - id: AL003
@@ -203,9 +203,9 @@
     '
   page: 315
   start_date: 1864-8-5
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Mobile_Bay
+    url: https://dbpedia.org/resource/Battle_of_Mobile_Bay
 - cwsac:
   - id: NC015
     relation: '='
@@ -231,9 +231,9 @@
     '
   page: 316
   start_date: 1865-1-13
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Second_Battle_of_Fort_Fisher
+    url: https://dbpedia.org/resource/Second_Battle_of_Fort_Fisher
 East (1863):
 - cwsac:
   - id: VA032
@@ -253,9 +253,9 @@ East (1863):
   name: Chancellorsville
   page: 302
   start_date: 1863-5-1
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Chancellorsville
+    url: https://dbpedia.org/resource/Battle_of_Chancellorsville
 - cwsac:
   - id: VA035
     relation: '='
@@ -271,9 +271,9 @@ East (1863):
   name: Brandy Station
   page: 302
   start_date: 1863-6-9
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Brandy_Station
+    url: https://dbpedia.org/resource/Battle_of_Brandy_Station
 - cwsac:
   - id: VA107
     relation: '='
@@ -291,9 +291,9 @@ East (1863):
   name: Winchester (second)
   page: 302
   start_date: 1863-6-14
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Second_Battle_of_Winchester
+    url: https://dbpedia.org/resource/Second_Battle_of_Winchester
 - cwsac:
   - id: PA002
     relation: '='
@@ -312,9 +312,9 @@ East (1863):
   name: Gettsyburg
   page: 302
   start_date: 1863-7-1
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Gettysburg
+    url: https://dbpedia.org/resource/Battle_of_Gettysburg
 - cwsac:
   - id: VA040
     relation: '='
@@ -329,9 +329,9 @@ East (1863):
   name: Bristoe Station
   page: 302
   start_date: 1863-10-14
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Bristoe_Station
+    url: https://dbpedia.org/resource/Battle_of_Bristoe_Station
 - cwsac:
   - id: VA042
     relation: '='
@@ -345,9 +345,9 @@ East (1863):
   name: Buckland
   page: 302
   start_date: 1863-10-19
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Buckland_Mills
+    url: https://dbpedia.org/resource/Battle_of_Buckland_Mills
 - cwsac:
   - id: VA043
     relation: '='
@@ -361,9 +361,9 @@ East (1863):
   name: Rappahannock Station
   page: 302
   start_date: 1863-11-7
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Second_Battle_of_Rappahannock_Station
+    url: https://dbpedia.org/resource/Second_Battle_of_Rappahannock_Station
 - cwsac:
   - id: VA044
     relation: '='
@@ -378,9 +378,9 @@ East (1863):
   name: Mine Run
   page: 302
   start_date: 1863-11-27
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Mine_Run
+    url: https://dbpedia.org/resource/Battle_of_Mine_Run
 'East: 1862':
 - cwsac:
   - id: VA101
@@ -399,9 +399,9 @@ East (1863):
   name: Kernstown (first)
   page: 296
   start_date: 1862-3-23
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/First_Battle_of_Kernstown
+    url: https://dbpedia.org/resource/First_Battle_of_Kernstown
 - cwsac:
   - id: VA102
     relation: '='
@@ -418,9 +418,9 @@ East (1863):
   name: McDowell
   page: 296
   start_date: 1862-5-8
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_McDowell
+    url: https://dbpedia.org/resource/Battle_of_McDowell
 - cwsac:
   - id: VA103
     relation: '='
@@ -434,9 +434,9 @@ East (1863):
   name: Front Royal
   page: 296
   start_date: 1862-5-23
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Front_Royal
+    url: https://dbpedia.org/resource/Battle_of_Front_Royal
 - cwsac:
   - id: VA104
     relation: '='
@@ -454,9 +454,9 @@ East (1863):
   name: Winchester (first)
   page: 296
   start_date: 1862-5-25
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/First_Battle_of_Winchester
+    url: https://dbpedia.org/resource/First_Battle_of_Winchester
 - cwsac:
   - id: VA105
     relation: '='
@@ -474,9 +474,9 @@ East (1863):
   name: Cross Keys
   page: 296
   start_date: 1862-6-8
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Cross_Keys
+    url: https://dbpedia.org/resource/Battle_of_Cross_Keys
 - cwsac:
   - id: VA106
     relation: '='
@@ -494,9 +494,9 @@ East (1863):
   name: Port Republic
   page: 296
   start_date: 1862-6-9
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Port_Republic
+    url: https://dbpedia.org/resource/Battle_of_Port_Republic
 - cwsac:
   - id: VA010
     relation: '='
@@ -514,9 +514,9 @@ East (1863):
   name: Williamsburg (Fort Magruder)
   page: 296
   start_date: 1862-5-5
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Williamsburg
+    url: https://dbpedia.org/resource/Battle_of_Williamsburg
 - cwsac:
   - id: VA013
     relation: '='
@@ -533,9 +533,9 @@ East (1863):
   name: Hanover Court House
   page: 297
   start_date: 1862-5-27
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Hanover_Court_House
+    url: https://dbpedia.org/resource/Battle_of_Hanover_Court_House
 - cwsac:
   - id: VA014
     relation: '='
@@ -555,9 +555,9 @@ East (1863):
   name: Fair Oaks (Seven Pines)
   page: 297
   start_date: 1862-5-31
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Seven_Pines
+    url: https://dbpedia.org/resource/Battle_of_Seven_Pines
 - end_date: 1862-7-1
   forces:
     Confederate:
@@ -572,9 +572,9 @@ East (1863):
   name: Seven Days Battles
   page: 297
   start_date: 1862-6-25
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Seven_Days_Battles
+    url: https://dbpedia.org/resource/Seven_Days_Battles
 - cwsac:
   - id: VA015
     relation: '='
@@ -592,9 +592,9 @@ East (1863):
   name: The Orchard (Seven Days)
   page: 297
   start_date: 1862-6-25
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Seven_Days_Battles
+    url: https://dbpedia.org/resource/Seven_Days_Battles
 - cwsac:
   - id: VA016
     relation: '='
@@ -610,9 +610,9 @@ East (1863):
   name: Mechanicsville (Seven Days)
   page: 297
   start_date: 1862-6-26
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Beaver_Dam_Creek
+    url: https://dbpedia.org/resource/Battle_of_Beaver_Dam_Creek
 - cwsac:
   - id: VA017
     relation: '='
@@ -629,9 +629,9 @@ East (1863):
   name: Gaines's Mill (Seven Days)
   page: 297
   start_date: 1862-6-27
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Gaines%27s_Mill
+    url: https://dbpedia.org/resource/Battle_of_Gaines%27s_Mill
 - cwsac:
   - id: VA019
     relation: '='
@@ -645,9 +645,9 @@ East (1863):
   name: Savage's Station (Seven Days)
   page: 297
   start_date: 1862-6-29
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Savage%27s_Station
+    url: https://dbpedia.org/resource/Battle_of_Savage%27s_Station
 - cwsac:
   - id: VA020
     relation: '='
@@ -666,9 +666,9 @@ East (1863):
   name: White Oak Swamp (Seven Days)
   page: 297
   start_date: 1862-6-30
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_White_Oak_Swamp
+    url: https://dbpedia.org/resource/Battle_of_White_Oak_Swamp
 - cwsac:
   - id: VA021
     relation: '='
@@ -681,9 +681,9 @@ East (1863):
   name: Malvern Hill (Seven Days)
   page: 297
   start_date: 1862-7-1
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Malvern_Hill
+    url: https://dbpedia.org/resource/Battle_of_Malvern_Hill
 - cwsac:
   - id: VA022
     relation: '='
@@ -701,9 +701,9 @@ East (1863):
   name: Cedar Mountain
   page: 297
   start_date: 1862-8-9
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Cedar_Mountain
+    url: https://dbpedia.org/resource/Battle_of_Cedar_Mountain
 - cwsac:
   - id: VA026
     relation: <
@@ -717,9 +717,9 @@ East (1863):
   name: Groveton
   page: 297
   start_date: 1862-8-28
-  wikipedia:
+  dbpedia:
   - relation: <
-    url: https://en.wikipedia.org/wiki/Second_Battle_of_Bull_Run
+    url: https://dbpedia.org/resource/Second_Battle_of_Bull_Run
 - cwsac:
   - id: VA026
     relation: <
@@ -739,9 +739,9 @@ East (1863):
   name: Second Bull Run/Chantilly (Second Manassas)
   page: 297
   start_date: 1862-8-29
-  wikipedia:
+  dbpedia:
   - relation: <
-    url: https://en.wikipedia.org/wiki/Second_Battle_of_Bull_Run
+    url: https://dbpedia.org/resource/Second_Battle_of_Bull_Run
 - cwsac:
   - id: MD002
     relation: '='
@@ -759,9 +759,9 @@ East (1863):
   name: South Mountain
   page: 297
   start_date: 1862-9-14
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_South_Mountain
+    url: https://dbpedia.org/resource/Battle_of_South_Mountain
 - cwsac:
   - id: MD003
     relation: '='
@@ -779,9 +779,9 @@ East (1863):
   name: Antietam (Sharpsburg)
   page: 297
   start_date: 1862-9-17
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Antietam
+    url: https://dbpedia.org/resource/Battle_of_Antietam
 - cwsac:
   - id: VA028
     relation: '='
@@ -799,9 +799,9 @@ East (1863):
   name: Fredericksburg
   page: 297
   start_date: 1862-12-13
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Fredericksburg
+    url: https://dbpedia.org/resource/Battle_of_Fredericksburg
 'East: 1864':
 - cwsac:
   - id: FL005
@@ -819,9 +819,9 @@ East (1863):
   name: Olustee
   page: 310
   start_date: 1864-2-10
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Olustee
+    url: https://dbpedia.org/resource/Battle_of_Olustee
 - cwsac:
   - id: VA046
     relation: '='
@@ -840,9 +840,9 @@ East (1863):
   name: Wilderness
   page: 310
   start_date: 1864-5-5
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_the_Wilderness
+    url: https://dbpedia.org/resource/Battle_of_the_Wilderness
 - cwsac:
   - id: VA048
     relation: '='
@@ -861,9 +861,9 @@ East (1863):
   name: Spotsylvania Court House
   page: 310
   start_date: 1864-5-8
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Spotsylvania_Court_House
+    url: https://dbpedia.org/resource/Battle_of_Spotsylvania_Court_House
 - cwsac:
   - id: VA052
     relation: '='
@@ -879,9 +879,9 @@ East (1863):
   name: Yellow Tavern
   page: 310
   start_date: 1864-5-11
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Yellow_Tavern
+    url: https://dbpedia.org/resource/Battle_of_Yellow_Tavern
 - cwsac:
   - id: VA055
     relation: '='
@@ -898,9 +898,9 @@ East (1863):
   name: North Anna River
   page: 310
   start_date: 1864-5-23
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_North_Anna
+    url: https://dbpedia.org/resource/Battle_of_North_Anna
 - cwsac:
   - id: VA057
     relation: '='
@@ -917,9 +917,9 @@ East (1863):
   name: Totopotomy Creek
   page: 310
   start_date: 1864-5-27
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Totopotomoy_Creek
+    url: https://dbpedia.org/resource/Battle_of_Totopotomoy_Creek
 - cwsac:
   - id: VA062
     relation: <
@@ -933,9 +933,9 @@ East (1863):
   name: Cold Harbor (assault)
   page: 310
   start_date: 1864-6-3
-  wikipedia:
+  dbpedia:
   - relation: <
-    url: https://en.wikipedia.org/wiki/Battle_of_Cold_Harbor
+    url: https://dbpedia.org/resource/Battle_of_Cold_Harbor
 - cwsac:
   - id: VA062
     relation: '='
@@ -954,9 +954,9 @@ East (1863):
   name: Cold Harbor
   page: 310
   start_date: 1864-5-31
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Cold_Harbor
+    url: https://dbpedia.org/resource/Battle_of_Cold_Harbor
 - cwsac:
   - id: VA099
     relation: '='
@@ -978,9 +978,9 @@ East (1863):
     '
   page: 310
   start_date: 1864-6-11
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Trevilian_Station
+    url: https://dbpedia.org/resource/Battle_of_Trevilian_Station
 - cwsac:
   - id: VA049
     relation: '='
@@ -994,9 +994,9 @@ East (1863):
   name: Cloyd's Mountain
   page: 310
   start_date: 1864-5-9
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Cloyd%27s_Mountain
+    url: https://dbpedia.org/resource/Battle_of_Cloyd%27s_Mountain
 - cwsac:
   - id: VA110
     relation: '='
@@ -1014,9 +1014,9 @@ East (1863):
   name: New Market
   page: 310
   start_date: 1864-5-15
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_New_Market
+    url: https://dbpedia.org/resource/Battle_of_New_Market
 - cwsac:
   - id: VA111
     relation: '='
@@ -1032,9 +1032,9 @@ East (1863):
   name: Piedmont
   page: 310
   start_date: 1864-6-5
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Piedmont
+    url: https://dbpedia.org/resource/Battle_of_Piedmont
 - cwsac:
   - id: VA012
     relation: '='
@@ -1052,9 +1052,9 @@ East (1863):
   name: Drewry's Bluff
   page: 310
   start_date: 1864-5-12
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Drewry%27s_Bluff
+    url: https://dbpedia.org/resource/Battle_of_Drewry%27s_Bluff
 - cwsac:
   - id: VA063
     relation: '='
@@ -1071,9 +1071,9 @@ East (1863):
   name: Petersburg (first assault)
   page: 310
   start_date: 1864-6-15
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Second_Battle_of_Petersburg
+    url: https://dbpedia.org/resource/Second_Battle_of_Petersburg
 - cwsac:
   - id: MD007
     relation: '='
@@ -1089,9 +1089,9 @@ East (1863):
   name: Monocacy River
   page: 310
   start_date: 1864-7-9
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Monocacy
+    url: https://dbpedia.org/resource/Battle_of_Monocacy
 - cwsac:
   - id: VA116
     relation: '='
@@ -1105,9 +1105,9 @@ East (1863):
   name: Kernstown (second)
   page: 310
   start_date: 1864-7-24
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Second_Battle_of_Kernstown
+    url: https://dbpedia.org/resource/Second_Battle_of_Kernstown
 - cwsac:
   - id: VA119
     relation: '='
@@ -1125,9 +1125,9 @@ East (1863):
   name: Opequon (Third Winchester)
   page: 310
   start_date: 1864-9-19
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Opequon
+    url: https://dbpedia.org/resource/Battle_of_Opequon
 - cwsac:
   - id: VA120
     relation: '='
@@ -1145,9 +1145,9 @@ East (1863):
   name: Fisher's Hill
   page: 310
   start_date: 1864-9-22
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Fisher%27s_Hill
+    url: https://dbpedia.org/resource/Battle_of_Fisher%27s_Hill
 - cwsac:
   - id: VA122
     relation: '='
@@ -1166,9 +1166,9 @@ East (1863):
   name: Cedar Creek
   page: 310
   start_date: 1864-10-19
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Cedar_Creek
+    url: https://dbpedia.org/resource/Battle_of_Cedar_Creek
 - cwsac:
   - id: VA070
     relation: '='
@@ -1184,9 +1184,9 @@ East (1863):
   name: Petersburg (Battle of the Crater)
   page: 310
   start_date: 1864-7-30
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_the_Crater
+    url: https://dbpedia.org/resource/Battle_of_the_Crater
 - cwsac:
   - id: http://www.nps.gov/hps/abpp/battles/va071.htm
     relation: '='
@@ -1220,9 +1220,9 @@ East (1863):
   name: Globe Tavern
   page: 310
   start_date: 1864-8-18
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Globe_Tavern
+    url: https://dbpedia.org/resource/Battle_of_Globe_Tavern
 - cwsac:
   - id: VA073
     relation: '='
@@ -1238,9 +1238,9 @@ East (1863):
   name: Reams Station
   page: 310
   start_date: 1864-8-23
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Second_Battle_of_Ream%27s_Station
+    url: https://dbpedia.org/resource/Second_Battle_of_Ream%27s_Station
 - cwsac:
   - id: VA075
     relation: '='
@@ -1257,9 +1257,9 @@ East (1863):
   name: Fort Harrison (Chaffin's Bluff)
   page: 310
   start_date: 1864-9-29
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Chaffin%27s_Farm
+    url: https://dbpedia.org/resource/Battle_of_Chaffin%27s_Farm
 - cwsac:
   - id: VA074
     relation: '='
@@ -1276,9 +1276,9 @@ East (1863):
   name: Peebles Farm
   page: 310
   start_date: 1864-9-30
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Peebles%27s_Farm
+    url: https://dbpedia.org/resource/Battle_of_Peebles%27s_Farm
 - cwsac:
   - id: VA079
     relation: '='
@@ -1295,9 +1295,9 @@ East (1863):
   name: Hatcher's Run (first)
   page: 311
   start_date: 1864-10-27
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Boydton_Plank_Road
+    url: https://dbpedia.org/resource/Battle_of_Boydton_Plank_Road
 - cwsac:
   - id: VA080
     relation: '='
@@ -1312,9 +1312,9 @@ East (1863):
   name: Fair Oaks
   page: 311
   start_date: 1864-10-27
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Fair_Oaks_%26_Darbytown_Road
+    url: https://dbpedia.org/resource/Battle_of_Fair_Oaks_%26_Darbytown_Road
 'East: 1865':
 - cwsac:
   - id: VA083
@@ -1330,9 +1330,9 @@ East (1863):
   name: Hatcher's Run (second)
   page: 317
   start_date: 1865-2-5
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Hatcher%27s_Run
+    url: https://dbpedia.org/resource/Battle_of_Hatcher%27s_Run
 - cwsac:
   - id: VA084
     relation: '='
@@ -1347,9 +1347,9 @@ East (1863):
   name: Fort Stedman
   page: 317
   start_date: 1865-3-25
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Fort_Stedman
+    url: https://dbpedia.org/resource/Battle_of_Fort_Stedman
 - cwsac:
   - id: VA088
     relation: '='
@@ -1369,9 +1369,9 @@ East (1863):
     '
   page: 317
   start_date: 1865-4-1
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Five_Forks
+    url: https://dbpedia.org/resource/Battle_of_Five_Forks
 - cwsac:
   - id: VA089
     relation: <
@@ -1386,9 +1386,9 @@ East (1863):
   name: Petersburg (second assault)
   page: 317
   start_date: 1865-4-2
-  wikipedia:
+  dbpedia:
   - relation: <
-    url: https://en.wikipedia.org/wiki/Third_Battle_of_Petersburg
+    url: https://dbpedia.org/resource/Third_Battle_of_Petersburg
 - cwsac:
   - id: VA089
     relation: <
@@ -1404,9 +1404,9 @@ East (1863):
   name: Fort Gregg
   page: 317
   start_date: 1865-4-2
-  wikipedia:
+  dbpedia:
   - relation: <
-    url: https://en.wikipedia.org/wiki/Third_Battle_of_Petersburg
+    url: https://dbpedia.org/resource/Third_Battle_of_Petersburg
 - cwsac:
   - id: VA093
     relation: '='
@@ -1423,9 +1423,9 @@ East (1863):
   name: Sayler's Creek
   page: 317
   start_date: 1865-4-6
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Sailor%27s_Creek
+    url: https://dbpedia.org/resource/Battle_of_Sailor%27s_Creek
 'Eastern Theater: 1861':
 - cwsac:
   - id: WV003
@@ -1443,9 +1443,9 @@ East (1863):
   name: Rich Mountain/Laurel Mountain, July 11-13, 1861
   page: 293
   start_date: 1861-7-11
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Rich_Mountain
+    url: https://dbpedia.org/resource/Battle_of_Rich_Mountain
 - cwsac:
   - id: VA005
     relation: '='
@@ -1463,9 +1463,9 @@ East (1863):
   name: First Bull Run (Manassas), July 21, 1861
   page: 293
   start_date: 1861-7-21
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/First_Battle_of_Bull_Run
+    url: https://dbpedia.org/resource/First_Battle_of_Bull_Run
 - cwsac:
   - id: VA006
     relation: '='
@@ -1483,9 +1483,9 @@ East (1863):
   name: Ball's Bluff, October 21, 1861
   page: 293
   start_date: 1861-10-21
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Ball%27s_Bluff
+    url: https://dbpedia.org/resource/Battle_of_Ball%27s_Bluff
 West (1862):
 - cwsac:
   - id: NM001
@@ -1503,9 +1503,9 @@ West (1862):
   name: Valverde
   page: 299
   start_date: 1862-2-21
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Valverde
+    url: https://dbpedia.org/resource/Battle_of_Valverde
 - cwsac:
   - id: NM002
     relation: '='
@@ -1524,9 +1524,9 @@ West (1862):
   name: Apache Canyon/Glorieta Pass
   page: 299
   start_date: 1862-3-26
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Glorieta_Pass
+    url: https://dbpedia.org/resource/Battle_of_Glorieta_Pass
 - cwsac:
   - id: AR001
     relation: '='
@@ -1544,9 +1544,9 @@ West (1862):
   name: Pea Ridge
   page: 299
   start_date: 1862-3-7
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Pea_Ridge
+    url: https://dbpedia.org/resource/Battle_of_Pea_Ridge
 - cwsac:
   - id: AR005
     relation: '='
@@ -1564,9 +1564,9 @@ West (1862):
   name: Prairie Grove
   page: 299
   start_date: 1862-12-7
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Prairie_Grove
+    url: https://dbpedia.org/resource/Battle_of_Prairie_Grove
 - cwsac:
   - id: KY006
     relation: '='
@@ -1585,9 +1585,9 @@ West (1862):
   name: Mill Springs (Logan's Crossroads)
   page: 299
   start_date: 1862-1-19
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Mill_Springs
+    url: https://dbpedia.org/resource/Battle_of_Mill_Springs
 - cwsac:
   - id: TN002
     relation: '='
@@ -1605,9 +1605,9 @@ West (1862):
   name: Fort Donelson
   page: 299
   start_date: 1862-2-12
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Fort_Donelson
+    url: https://dbpedia.org/resource/Battle_of_Fort_Donelson
 - cwsac:
   - id: TN003
     relation: '='
@@ -1626,9 +1626,9 @@ West (1862):
   name: Shiloh (Pittsburg Landing)
   page: 299
   start_date: 1862-4-6
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Shiloh
+    url: https://dbpedia.org/resource/Battle_of_Shiloh
 - cwsac:
   - id: LA001
     relation: '='
@@ -1651,9 +1651,9 @@ West (1862):
   name: New Orleans
   page: 299
   start_date: 1862-4-24
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Forts_Jackson_and_St._Philip
+    url: https://dbpedia.org/resource/Battle_of_Forts_Jackson_and_St._Philip
 - cwsac:
   - id: LA003
     relation: '='
@@ -1671,9 +1671,9 @@ West (1862):
   name: Baton Rouge
   page: 299
   start_date: 1862-8-5
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Baton_Rouge_(1862)
+    url: https://dbpedia.org/resource/Battle_of_Baton_Rouge_(1862)
 - cwsac:
   - id: MS001
     relation: '='
@@ -1691,9 +1691,9 @@ West (1862):
   name: Iuka
   page: 299
   start_date: 1862-9-19
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Iuka
+    url: https://dbpedia.org/resource/Battle_of_Iuka
 - cwsac:
   - id: MS002
     relation: '='
@@ -1712,9 +1712,9 @@ West (1862):
   name: Corinth
   page: 299
   start_date: 1862-10-3
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Second_Battle_of_Corinth
+    url: https://dbpedia.org/resource/Second_Battle_of_Corinth
 - cwsac:
   - id: MS003
     relation: '='
@@ -1732,9 +1732,9 @@ West (1862):
   name: Chickasaw Bluffs
   page: 300
   start_date: 1862-12-29
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Chickasaw_Bayou
+    url: https://dbpedia.org/resource/Battle_of_Chickasaw_Bayou
 - cwsac:
   - id: KY007
     relation: '='
@@ -1752,9 +1752,9 @@ West (1862):
   name: Richmond (Kentucky)
   page: 300
   start_date: 1862-8-30
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Richmond
+    url: https://dbpedia.org/resource/Battle_of_Richmond
 - cwsac:
   - id: KY009
     relation: '='
@@ -1772,9 +1772,9 @@ West (1862):
   name: Perryville
   page: 300
   start_date: 1862-10-8
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Perryville
+    url: https://dbpedia.org/resource/Battle_of_Perryville
 - cwsac:
   - id: TN008
     relation: '='
@@ -1789,9 +1789,9 @@ West (1862):
   name: Hartsville
   page: 300
   start_date: 1862-12-7
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Hartsville
+    url: https://dbpedia.org/resource/Battle_of_Hartsville
 - cwsac:
   - id: TN010
     relation: '='
@@ -1810,9 +1810,9 @@ West (1862):
   name: Stones River (Murfreesboro)
   page: 300
   start_date: 1862-12-31
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Stones_River
+    url: https://dbpedia.org/resource/Battle_of_Stones_River
 West (1863):
 - cwsac:
   - id: TX003
@@ -1834,9 +1834,9 @@ West (1863):
   name: Galveston
   page: 305
   start_date: 1863-1-1
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Galveston
+    url: https://dbpedia.org/resource/Battle_of_Galveston
 - cwsac:
   - id: OK007
     relation: '='
@@ -1851,9 +1851,9 @@ West (1863):
   name: Honey Springs
   page: 305
   start_date: 1863-7-17
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Honey_Springs
+    url: https://dbpedia.org/resource/Battle_of_Honey_Springs
 - cwsac:
   - id: AR006
     relation: '='
@@ -1870,9 +1870,9 @@ West (1863):
   name: Fort Hindman (Arkansas Post)
   page: 305
   start_date: 1863-1-11
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Arkansas_Post
+    url: https://dbpedia.org/resource/Battle_of_Arkansas_Post
 - cwsac:
   - id: LA010
     relation: '='
@@ -1893,9 +1893,9 @@ West (1863):
   name: Port Hudson (siege)
   page: 305
   start_date: 1863-5-26
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Siege_of_Port_Hudson
+    url: https://dbpedia.org/resource/Siege_of_Port_Hudson
 - cwsac:
   - id: LA010
     relation: <
@@ -1909,9 +1909,9 @@ West (1863):
   name: Port Hudson (first assault)
   page: 305
   start_date: 1863-5-27
-  wikipedia:
+  dbpedia:
   - relation: <
-    url: https://en.wikipedia.org/wiki/Siege_of_Port_Hudson
+    url: https://dbpedia.org/resource/Siege_of_Port_Hudson
 - cwsac:
   - id: LA010
     relation: <
@@ -1926,9 +1926,9 @@ West (1863):
   name: Port Hudson (second assault)
   page: 305
   start_date: 1863-6-14
-  wikipedia:
+  dbpedia:
   - relation: <
-    url: https://en.wikipedia.org/wiki/Siege_of_Port_Hudson
+    url: https://dbpedia.org/resource/Siege_of_Port_Hudson
 - cwsac:
   - id: LA013
     relation: '='
@@ -1942,9 +1942,9 @@ West (1863):
   name: Donaldsville (first)
   page: 305
   start_date: 1863-6-28
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Second_Battle_of_Donaldsonville
+    url: https://dbpedia.org/resource/Second_Battle_of_Donaldsonville
 - cwsac:
   - id: LA015
     relation: '='
@@ -1961,9 +1961,9 @@ West (1863):
   name: Donaldsville (second)
   page: 305
   start_date: 1863-7-13
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Kock%27s_Plantation
+    url: https://dbpedia.org/resource/Battle_of_Kock%27s_Plantation
 - cwsac:
   - id: MS006
     relation: '='
@@ -1981,9 +1981,9 @@ West (1863):
   name: Port Gibson
   page: 305
   start_date: 1863-5-1
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Port_Gibson
+    url: https://dbpedia.org/resource/Battle_of_Port_Gibson
 - cwsac:
   - id: MS007
     relation: '='
@@ -2001,9 +2001,9 @@ West (1863):
   name: Raymond
   page: 305
   start_date: 1863-5-12
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Raymond
+    url: https://dbpedia.org/resource/Battle_of_Raymond
 - cwsac:
   - id: MS008
     relation: '='
@@ -2021,9 +2021,9 @@ West (1863):
   name: Jackson
   page: 305
   start_date: 1863-5-14
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Jackson,_Mississippi
+    url: https://dbpedia.org/resource/Battle_of_Jackson,_Mississippi
 - cwsac:
   - id: MS009
     relation: '='
@@ -2041,9 +2041,9 @@ West (1863):
   name: Champion's Hill
   page: 305
   start_date: 1863-5-16
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Champion_Hill
+    url: https://dbpedia.org/resource/Battle_of_Champion_Hill
 - cwsac:
   - id: MS010
     relation: '='
@@ -2059,9 +2059,9 @@ West (1863):
   name: Big Black River
   page: 305
   start_date: 1863-5-17
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Big_Black_River_Bridge
+    url: https://dbpedia.org/resource/Battle_of_Big_Black_River_Bridge
 - cwsac:
   - id: MS011
     relation: '='
@@ -2081,9 +2081,9 @@ West (1863):
   name: Vicksburg (siege)
   page: 305
   start_date: 1863-5-18
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Siege_of_Vicksburg
+    url: https://dbpedia.org/resource/Siege_of_Vicksburg
 - cwsac:
   - id: MS011
     relation: <
@@ -2097,9 +2097,9 @@ West (1863):
   name: Vicksburg (first assault)
   page: 305
   start_date: 1863-5-19
-  wikipedia:
+  dbpedia:
   - relation: <
-    url: https://en.wikipedia.org/wiki/Siege_of_Vicksburg
+    url: https://dbpedia.org/resource/Siege_of_Vicksburg
 - cwsac:
   - id: MS011
     relation: <
@@ -2113,9 +2113,9 @@ West (1863):
   name: Vicksburg (second assault)
   page: 305
   start_date: 1863-5-22
-  wikipedia:
+  dbpedia:
   - relation: <
-    url: https://en.wikipedia.org/wiki/Siege_of_Vicksburg
+    url: https://dbpedia.org/resource/Siege_of_Vicksburg
 - cwsac:
   - id: AR008
     relation: '='
@@ -2129,9 +2129,9 @@ West (1863):
   name: Helena
   page: 305
   start_date: 1863-7-4
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Helena
+    url: https://dbpedia.org/resource/Battle_of_Helena
 - end_date: 1863-7-16
   forces:
     Confederate:
@@ -2147,9 +2147,9 @@ West (1863):
   name: Jackson (siege)
   page: 305
   start_date: 1863-7-10
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: http://en.wikipedia.org/wiki/Jackson_Expedition
+    url: http://dbpedia.org/resource/Jackson_Expedition
 - cwsac:
   - id: GA004
     relation: '='
@@ -2170,9 +2170,9 @@ West (1863):
   name: Chickamagua
   page: 305
   start_date: 1863-9-19
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Chickamagua
+    url: https://dbpedia.org/resource/Battle_of_Chickamagua
 - cwsac:
   - id: TN024
     relation: '='
@@ -2193,9 +2193,9 @@ West (1863):
   name: Chattanooga
   page: 305
   start_date: 1863-11-23
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Chattanooga_Campaign
+    url: https://dbpedia.org/resource/Chattanooga_Campaign
 - cwsac:
   - id: TN024
     relation: <
@@ -2208,9 +2208,9 @@ West (1863):
   name: Chattanooga (Orchard Knob/Indian Hill)
   page: 306
   start_date: 1863-11-23
-  wikipedia:
+  dbpedia:
   - relation: <
-    url: https://en.wikipedia.org/wiki/Chattanooga_Campaign
+    url: https://dbpedia.org/resource/Chattanooga_Campaign
 - cwsac:
   - id: TN024
     relation: <
@@ -2226,9 +2226,9 @@ West (1863):
   name: Chattanooga (Lookout Mountain)
   page: 306
   start_date: 1863-11-24
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Lookout_Mountain
+    url: https://dbpedia.org/resource/Battle_of_Lookout_Mountain
 - cwsac:
   - id: TN024
     relation: <
@@ -2243,9 +2243,9 @@ West (1863):
   name: Chattanooga (Tunnel Hill)
   page: 306
   start_date: 1863-11-25
-  wikipedia:
+  dbpedia:
   - relation: <
-    url: https://en.wikipedia.org/wiki/Chattanooga_Campaign
+    url: https://dbpedia.org/resource/Chattanooga_Campaign
 - cwsac:
   - id: TN024
     relation: <
@@ -2258,9 +2258,9 @@ West (1863):
   name: Chattanooga (Missionary Ridge)
   page: 306
   start_date: 1863-11-25
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Missionary_Ridge
+    url: https://dbpedia.org/resource/Battle_of_Missionary_Ridge
 - cwsac:
   - id: GA005
     relation: '='
@@ -2275,9 +2275,9 @@ West (1863):
   name: Ringgold Gap
   page: 306
   start_date: 1863-11-27
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Ringgold_Gap
+    url: https://dbpedia.org/resource/Battle_of_Ringgold_Gap
 - end_date: 1863-12-3
   forces:
     Confederate:
@@ -2291,9 +2291,9 @@ West (1863):
   name: Knoxville (siege)
   page: 306
   start_date: 1863-11-17
-  wikipedia:
+  dbpedia:
   - relation: <
-    url: http://en.wikipedia.org/wiki/Knoxville_Campaign
+    url: http://dbpedia.org/resource/Knoxville_Campaign
 - cwsac:
   - id: TN025
     relation: '='
@@ -2311,9 +2311,9 @@ West (1863):
   name: Knoxville (attack on Fort Sanders)
   page: 306
   start_date: 1863-11-29
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Fort_Sanders
+    url: https://dbpedia.org/resource/Battle_of_Fort_Sanders
 'West: 1864':
 - cwsac:
   - id: LA018
@@ -2331,9 +2331,9 @@ West (1863):
   name: Sabine Crossroads
   page: 314
   start_date: 1864-4-8
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Mansfield
+    url: https://dbpedia.org/resource/Battle_of_Mansfield
 - cwsac:
   - id: LA019
     relation: '='
@@ -2349,9 +2349,9 @@ West (1863):
   name: Pleasant Hill
   page: 314
   start_date: 1864-4-9
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Pleasant_Hill
+    url: https://dbpedia.org/resource/Battle_of_Pleasant_Hill
 - cwsac:
   - id: LA023
     relation: '='
@@ -2365,9 +2365,9 @@ West (1863):
   name: Yellow Bayou
   page: 314
   start_date: 1864-5-18
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Yellow_Bayou
+    url: https://dbpedia.org/resource/Battle_of_Yellow_Bayou
 - cwsac:
   - id: AR016
     relation: '='
@@ -2385,9 +2385,9 @@ West (1863):
   name: Jenkins Ferry
   page: 314
   start_date: 1864-4-30
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Jenkins%27_Ferry
+    url: https://dbpedia.org/resource/Battle_of_Jenkins%27_Ferry
 - cwsac:
   - id: MO021
     relation: '='
@@ -2403,9 +2403,9 @@ West (1863):
   name: Fort Davidson (Pilot Knob)
   page: 314
   start_date: 1864-12-27
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Fort_Davidson
+    url: https://dbpedia.org/resource/Battle_of_Fort_Davidson
 - cwsac:
   - id: MO027
     relation: '='
@@ -2419,9 +2419,9 @@ West (1863):
   name: Westport
   page: 314
   start_date: 1864-10-23
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Westport
+    url: https://dbpedia.org/resource/Battle_of_Westport
 - cwsac:
   - id: KS003
     relation: '='
@@ -2438,9 +2438,9 @@ West (1863):
   name: Mine Creek
   page: 314
   start_date: 1864-10-25
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Mine_Creek
+    url: https://dbpedia.org/resource/Battle_of_Mine_Creek
 - cwsac:
   - id: TN030
     relation: '='
@@ -2459,9 +2459,9 @@ West (1863):
     '
   page: 314
   start_date: 1864-4-12
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Fort_Pillow
+    url: https://dbpedia.org/resource/Battle_of_Fort_Pillow
 - cwsac:
   - id: MS014
     relation: '='
@@ -2481,9 +2481,9 @@ West (1863):
   name: Brice's Crossroads
   page: 314
   start_date: 1864-6-10
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Brice%27s_Crossroads
+    url: https://dbpedia.org/resource/Battle_of_Brice%27s_Crossroads
 - cwsac:
   - id: MS015
     relation: '='
@@ -2501,9 +2501,9 @@ West (1863):
   name: Tupelo
   page: 314
   start_date: 1864-7-14
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Tupelo
+    url: https://dbpedia.org/resource/Battle_of_Tupelo
 - cwsac:
   - id: AL007
     relation: '='
@@ -2518,9 +2518,9 @@ West (1863):
   name: Selma
   page: 314
   start_date: 1864-4-2
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Selma
+    url: https://dbpedia.org/resource/Battle_of_Selma
 - cwsac:
   - id: GA010
     relation: '='
@@ -2534,9 +2534,9 @@ West (1863):
   name: New Hope Church
   page: 314
   start_date: 1864-5-25
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_New_Hope_Church
+    url: https://dbpedia.org/resource/Battle_of_New_Hope_Church
 - cwsac:
   - id: GA015
     relation: '='
@@ -2550,9 +2550,9 @@ West (1863):
   name: Kennesaw Mountain
   page: 314
   start_date: 1864-6-27
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Kennesaw_Mountain
+    url: https://dbpedia.org/resource/Battle_of_Kennesaw_Mountain
 - cwsac:
   - id: GA016
     relation: '='
@@ -2566,9 +2566,9 @@ West (1863):
   name: Peachtree Creek
   page: 314
   start_date: 1864-7-20
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Peachtree_Creek
+    url: https://dbpedia.org/resource/Battle_of_Peachtree_Creek
 - cwsac:
   - id: GA017
     relation: '='
@@ -2584,9 +2584,9 @@ West (1863):
   name: Atlanta
   page: 314
   start_date: 1864-7-22
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Atlanta
+    url: https://dbpedia.org/resource/Battle_of_Atlanta
 - cwsac:
   - id: GA018
     relation: '='
@@ -2600,9 +2600,9 @@ West (1863):
   name: Ezra Church
   page: 314
   start_date: 1864-7-28
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Ezra_Church
+    url: https://dbpedia.org/resource/Battle_of_Ezra_Church
 - cwsac:
   - id: GA022
     relation: '='
@@ -2617,9 +2617,9 @@ West (1863):
   name: Jonesboro
   page: 314
   start_date: 1864-8-31
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Jonesborough
+    url: https://dbpedia.org/resource/Battle_of_Jonesborough
 - cwsac:
   - id: GA023
     relation: '='
@@ -2637,9 +2637,9 @@ West (1863):
   name: Allatoona
   page: 314
   start_date: 1864-10-6
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Allatoona
+    url: https://dbpedia.org/resource/Battle_of_Allatoona
 - cwsac:
   - id: TN036
     relation: '='
@@ -2657,9 +2657,9 @@ West (1863):
   name: Franklin
   page: 314
   start_date: 1864-11-30
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Franklin_(1864)
+    url: https://dbpedia.org/resource/Battle_of_Franklin_(1864)
 - cwsac:
   - id: TN038
     relation: '='
@@ -2678,9 +2678,9 @@ West (1863):
   name: Nashville
   page: 314
   start_date: 1864-12-15
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Nashville
+    url: https://dbpedia.org/resource/Battle_of_Nashville
 - cwsac:
   - id: GA025
     relation: '='
@@ -2695,9 +2695,9 @@ West (1863):
   name: Griswoldville
   page: 314
   start_date: 1864-11-22
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Griswoldville
+    url: https://dbpedia.org/resource/Griswoldville
 'West: 1865':
 - cwsac:
   - id: NC007
@@ -2714,9 +2714,9 @@ West (1863):
   name: Kinston
   page: 317
   start_date: 1865-3-8
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Kinston
+    url: https://dbpedia.org/resource/Battle_of_Kinston
 - cwsac:
   - id: NC019
     relation: '='
@@ -2733,9 +2733,9 @@ West (1863):
   name: Averasboro
   page: 317
   start_date: 1865-3-16
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Averasboro
+    url: https://dbpedia.org/resource/Battle_of_Averasboro
 - cwsac:
   - id: NC020
     relation: '='
@@ -2757,9 +2757,9 @@ West (1863):
     '
   page: 317
   start_date: 1865-3-19
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Bentonville
+    url: https://dbpedia.org/resource/Battle_of_Bentonville
 Western Theater 1861:
 - cwsac:
   - id: MO004
@@ -2778,9 +2778,9 @@ Western Theater 1861:
   name: Wilson's Creek, August 10, 1861
   page: 294
   start_date: 1861-8-10
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Wilson%27s_Creek
+    url: https://dbpedia.org/resource/Battle_of_Wilson%27s_Creek
 - cwsac:
   - id: MO009
     relation: '='
@@ -2798,6 +2798,6 @@ Western Theater 1861:
   name: Belmont, November 7, 1861
   page: 294
   start_date: 1861-11-7
-  wikipedia:
+  dbpedia:
   - relation: '='
-    url: https://en.wikipedia.org/wiki/Battle_of_Belmont
+    url: https://dbpedia.org/resource/Battle_of_Belmont

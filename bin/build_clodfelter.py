@@ -29,25 +29,14 @@ def battles(data, dst, filename):
         for theater, battles in sorted(data.items()):
             for battle in battles:
                 row = battle.copy()
-                fields = ('name', 'p', 'start', 'end')
+                fields = ('name', 'page', 'start_date', 'end_date')
                 row = dict_subset(row, fields)
-                rename(row, 'p', 'page')
-                rename(row, 'start', 'start_date')
-                rename(row, 'end', 'start_date')
                 if 'end_date' not in row:
                     row['end_date'] = row['start_date']
                 row['theater'] = theater
                 writer.writerow(row)
 
 def forces(data, dst, filename):
-    fields = set()
-    # for theater, battles in data.items():
-    #     for battle in battles:
-    #         for combatant in ('union', 'confed'):
-    #             for k in battle[combatant].keys():
-    #                 fields.add(k)
-    # for x in fields:
-    #     print("'%s'" % x + ',')
     fields = (
     'strength',
     'infantry',
@@ -79,7 +68,7 @@ def forces(data, dst, filename):
     'missing',
     'killed_wounded',
     'killed_missing',
-    'captured_missing',
+    'missing_captured',
     'wounded_missing',
     # casualties of "stuff"
     'guns_lost',
@@ -102,20 +91,10 @@ def forces(data, dst, filename):
         writer.writeheader()
         for theater, battles in sorted(data.items()):
             for battle in battles:
-                for combatant in ('union', 'confed'):
-                    row = battle[combatant].copy()
+                for belligerent in battle['forces']:
+                    row = battle['forces'][belligerent].copy()
                     row['battle'] = battle['name']
-                    row['belligerent'] = combatant
-                    rename(row, 'w', 'wounded')
-                    rename(row, 'wm', 'wounded_missing')
-                    rename(row, 'p', 'captured')
-                    rename(row, 's', 'strength')
-                    rename(row, 'c', 'casualties')
-                    rename(row, 'cm', 'captured_missing')
-                    rename(row, 'm', 'missing')
-                    rename(row, 'k', 'killed')
-                    rename(row, 'km', 'killed_missing')
-                    rename(row, 'kw', 'killed_wounded')
+                    row['belligerent'] = belligerent
                     # fix keys with spaces in them
                     for k in row:
                         if ' ' in k:
@@ -130,18 +109,12 @@ def cwsac_links(data, dst, filename):
         writer.writeheader()
         for theater, battles in sorted(data.items()):
             for battle in battles:
-                if 'links' in battle:
-                    links = battle['links']
-                    for x in links:
-                        if re.match("[A-Z]{2}[0-9]{3}", x[0]):
-                            if len(x) == 1:
-                                row = {'to': x[0], 'relation': '='}
-                            else:
-                                row = {'to': x[0], 'relation': x[1]}
-                            row['from'] = battle['name']
-                            writer.writerow(row)
-                else:
-                    print(battle)
+                if 'cwsac' in battle:
+                    for link in battle['cwsac']:
+                        row = {'from': battle['name'],
+                               'to': link['id'],
+                               'relation': link['relation']}
+                        writer.writerow(row)
 
 def dbpedia_links(data, dst, filename):
     with open(path.join(dst, filename), 'w') as f:
@@ -150,21 +123,12 @@ def dbpedia_links(data, dst, filename):
         writer.writeheader()
         for theater, battles in sorted(data.items()):
             for battle in battles:
-                if 'links' in battle:
-                    links = battle['links']
-                    for x in links:
-                        if re.search("wikipedia.org", x[0]):
-                            x[0] = re.sub(r'https?://en\.wikipedia\.org/wiki', 
-                                          r'http://dbpedia.org/resource', x[0])
-                            if len(x) == 1:
-                                row = {'to': x[0], 'relation': '='}
-                            else:
-                                row = {'to': x[0], 'relation': x[1]}
-                            row['from'] = battle['name']
-                            writer.writerow(row)
-                else:
-                    print(battle)
-                
+                if 'dbpedia' in battle:
+                    for link in battle['dbpedia']:
+                        row = {'from': battle['name'],
+                               'to': link['url'],
+                               'relation': link['relation']}
+                        writer.writerow(row)
 
 def build(src, dst):
     srcfile = path.join(src, "rawdata", "clodfelter2008",  'clodfelter.yaml')
