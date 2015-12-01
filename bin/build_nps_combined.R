@@ -149,7 +149,8 @@ gen_battles <-
            campaign_code = CampaignCode,
            result = Result,
            summary = Summary,
-           cas_kwm_mean = TotalCasualties) %>%
+           cas_kwm_mean = TotalCasualties,
+           cwss_url = URL) %>%
     mutate(cas_kwm_var = rounded_var(cas_kwm_mean)) %>%
     select(- Comment, - ID,
            - matches("summary")) %>%
@@ -398,35 +399,34 @@ gen_forces <- function(cwss_forces,
     }
   }
 
-  #' Manual edits for VA043 and VA097 (Appomattox Court House)
+  #' Manual edits
   casstr[["cas_kw_mean"]] <- NA_real_
   casstr[["cas_kw_var"]] <- NA_real_
   for (i in names(extra_data[["forces"]])) {
     x <- extra_data[["forces"]][[i]]
-    for (j in grep("^(cas|str)_.*mean", names(x), value = TRUE)) {
+    for (j in grep("^(cas|str)_.*(mean|var)", names(x), value = TRUE)) {
       keys <- str_split_fixed(i, fixed("|"), 2)
       cwsac_id <- keys[1, 1]
       belligerent <- keys[1, 2]
       rownum <- which(casstr[["cwsac_id"]] == cwsac_id &
                       casstr[["belligerent"]] == belligerent)
-      if (! is.null(x[[j]])) {
-        casstr[rownum, j] <- x[[j]]
-        casstr[rownum, gsub("_mean", "_var", j)] <- rounded_var(x[[j]])
-      } else {
-        casstr[rownum, j] <- NA_real_
-        casstr[rownum, gsub("_mean", "_var", j)] <- NA_real_
-      }
+      casstr[rownum, j] <-
+        if (! is.null(x[[j]])) {
+          x[[j]]
+        } else {
+          NA_real_
+        }
     }
   }
 
   casstr %>%
-    select(cwsac_id, belligerent,
-           str_mean, str_var,
-           cas_kwm_mean, cas_kwm_var,
-           cas_kw_mean, cas_kw_var,
-           cas_k_mean, cas_k_var,
-           cas_w_mean, cas_w_var,
-           cas_m_mean, cas_m_var) %>%
+#     select(cwsac_id, belligerent,
+#            str_mean, str_var,
+#            cas_kwm_mean, cas_kwm_var,
+#            cas_kw_mean, cas_kw_var,
+#            cas_k_mean, cas_k_var,
+#            cas_w_mean, cas_w_var,
+#            cas_m_mean, cas_m_var) %>%
     fill_casualty_vars() %>%
     filter(! cwsac_id %in% extra_data[["excluded_battles"]]) %>%
     arrange(cwsac_id, belligerent)
@@ -569,8 +569,6 @@ main <- function() {
   arglist <- commandArgs(TRUE)
   src <- arglist[1]
   dst <- arglist[2]
-  src <- "."
-  dst <- "data"
   build(src, dst)
 }
 

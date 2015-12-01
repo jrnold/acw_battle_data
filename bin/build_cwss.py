@@ -16,6 +16,8 @@ namespaces = {
 '': "http://www.w3.org/2005/Atom"
 }
 
+URL = "http://www.nps.gov/civilwar/search-battles-detail.htm?battleCode=%s"
+
 def _month_number(x):
     """Return the month number for the fullname of a month"""
     return list(calendar.month_name).index(x)
@@ -49,11 +51,11 @@ def battle_csv(root, dst):
     'ShortSummary',
     'ShortSummarySource',
     'Summary',
-    'SummarySource',
+    'SummarySource'
     # 'TheaterName',
     )
     with open(dst, 'w') as f:
-        writer = csv.DictWriter(f, fields)
+        writer = csv.DictWriter(f, list(fields) + ['URL'])
         writer.writeheader()
         for i, entry in enumerate(root.findall('.//%s' % xmlns('entry'))):
             battle = {}
@@ -67,6 +69,7 @@ def battle_csv(root, dst):
                 battle['BeginDate'] = dt.strptime(battle['BeginDate'], '%m/%d/%Y').strftime('%Y-%m-%d')
             if battle['EndDate']:
                 battle['EndDate'] = dt.strptime(battle['EndDate'], '%m/%d/%Y').strftime('%Y-%m-%d')
+            battle['URL'] = URL % battle['BattlefieldCode']
             writer.writerow(battle)
             
 def theaters_csv(root, dst):

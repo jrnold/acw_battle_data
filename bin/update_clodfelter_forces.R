@@ -22,30 +22,23 @@ clean_forces <- function(file_clodfelter_forces, file_unit_sizes) {
     "companies" = "infantry company"
   )
 
-  unit_size_values_ <-
-    expand.grid(belligerent = c("union", "confed"),
-                unit_type = c("strength", "infantry",
-                              "cavalry", "crewmen")) %>%
-    mutate(mean = 1, sd = NA_real_)
+  clodfelter_forces <-
+    read.csv(file_clodfelter_forces,
+             stringsAsFactors = FALSE)
 
   unit_size_values <-
     unit_sizes %>%
     select(belligerent, unit_type, mean, sd) %>%
     mutate(belligerent = plyr::revalue(belligerent,
                                        c("Union" = "union",
-                                         "Confederate" = "confed"))) %>%
-    rbind(unit_size_values_)
+                                         "Confederate" = "confed")))
 
-
-  clodfelter_forces <-
-    read.csv(file_clodfelter_forces,
-             stringsAsFactors = FALSE)
 
   clodfelter_str <-
     clodfelter_forces %>%
     select(battle, belligerent,
             strength, cavalry, infantry,
-            corps,cavalry_corps, divisions,
+            corps, cavalry_corps, divisions,
             cavalry_divisions,
             brigades, companies) %>%
      gather(unit_type, value, -battle, -belligerent, na.rm=TRUE) %>%
@@ -53,7 +46,7 @@ clean_forces <- function(file_clodfelter_forces, file_unit_sizes) {
               as.character(plyr::revalue(unit_type, unit_type_map))) %>%
      left_join(unit_size_values, by = c("unit_type", "belligerent")) %>%
      mutate(strength_mean = value * mean,
-                strength_var = value * sd ^ 2) %>%
+            strength_var = value ^ 2 * var) %>%
      group_by(battle, belligerent) %>%
      select(battle, belligerent, strength_mean, strength_var) %>%
     summarise_each(funs(sum))
