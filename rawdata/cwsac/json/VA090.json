@@ -1,134 +1,134 @@
 {
-  "end_date": "1865-04-02",
-  "casualties": 970,
-  "casualties_text": "970 total (US 370; CS 600)",
+  "battle": "VA090",
+  "operation": false,
+  "cwsac_reference": "VA090",
   "forces": {
     "Confederate": {
       "casualties": 600,
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Henry",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Heth",
-          "fullname": "Henry Heth"
+          "suffix": "",
+          "first_name": "Henry",
+          "rank": "Major General",
+          "fullname": "Henry Heth",
+          "navy": false
         },
         {
-          "rank": "Major General",
-          "first_name": "Cadmus",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Wilcox",
-          "fullname": "Cadmus Wilcox"
+          "suffix": "",
+          "first_name": "Cadmus",
+          "rank": "Major General",
+          "fullname": "Cadmus Wilcox",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     },
     "US": {
       "casualties": 370,
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Nelson",
-          "suffix": "",
-          "navy": false,
           "middle_name": "A.",
           "last_name": "Miles",
-          "fullname": "Nelson A. Miles"
+          "suffix": "",
+          "first_name": "Nelson",
+          "rank": "Major General",
+          "fullname": "Nelson A. Miles",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     }
   },
-  "cwsac_reference": "VA090",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va090.htm",
   "forces_text": "Divisions",
-  "start_date": "1865-04-02",
-  "preservation": "II.3",
+  "casualties_text": "970 total (US 370; CS 600)",
   "results_text": "Union victory",
-  "description": "Union columns converged on Petersburg on April 2. part Mile's force struck north from White Oak Road meeting elements of four Confederate brigades (Cooke, Scales, MacRae, McGowan) attempting to defend the South Side Railroad. The Confedeerates placed their left flank on Ocran Methodist Church, where it was overun by three Union brigades commanded by Miles. The Confederate defenders were scattered and driven northwestward. With this victory, the Federals possessed the South Side Railroad, Gen. Robert E. Lee's last supply line into Petersburg.",
-  "state": "VA",
-  "significance": "C",
-  "other_names": null,
   "dates": "April 2, 1865",
-  "battle_name": "Sutherland's Station",
-  "principal_commanders": "Maj. Gen. Nelson A. Miles [US]; Maj. Gen. Henry Heth and Maj. Gen. Cadmus Wilcox [CS]",
-  "campaign": "Appomattox Campaign [March-April 1865]",
+  "result": "Union",
+  "other_names": null,
+  "significance": "C",
+  "preservation": "II.3",
+  "state": "VA",
   "belligerents": {
-    "Confederate": {
-      "casualties": 600,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Henry",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Heth",
-          "fullname": "Henry Heth"
-        },
-        {
-          "rank": "Major General",
-          "first_name": "Cadmus",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Wilcox",
-          "fullname": "Cadmus Wilcox"
-        }
-      ],
-      "divisions": 1
-    },
-    "US": {
-      "casualties": 370,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Nelson",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "A.",
-          "last_name": "Miles",
-          "fullname": "Nelson A. Miles"
-        }
-      ],
-      "divisions": 1
-    },
     "CS": {
       "casualties": 600,
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Henry",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Heth",
-          "fullname": "Henry Heth"
+          "suffix": "",
+          "first_name": "Henry",
+          "rank": "Major General",
+          "fullname": "Henry Heth",
+          "navy": false
         },
         {
-          "rank": "Major General",
-          "first_name": "Cadmus",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Wilcox",
-          "fullname": "Cadmus Wilcox"
+          "suffix": "",
+          "first_name": "Cadmus",
+          "rank": "Major General",
+          "fullname": "Cadmus Wilcox",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
+    },
+    "Confederate": {
+      "casualties": 600,
+      "divisions": 1,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Heth",
+          "suffix": "",
+          "first_name": "Henry",
+          "rank": "Major General",
+          "fullname": "Henry Heth",
+          "navy": false
+        },
+        {
+          "middle_name": "",
+          "last_name": "Wilcox",
+          "suffix": "",
+          "first_name": "Cadmus",
+          "rank": "Major General",
+          "fullname": "Cadmus Wilcox",
+          "navy": false
+        }
+      ]
+    },
+    "US": {
+      "casualties": 370,
+      "divisions": 1,
+      "commanders": [
+        {
+          "middle_name": "A.",
+          "last_name": "Miles",
+          "suffix": "",
+          "first_name": "Nelson",
+          "rank": "Major General",
+          "fullname": "Nelson A. Miles",
+          "navy": false
+        }
+      ]
     }
   },
-  "result": "Union",
-  "battle": "VA090",
+  "campaign": "Appomattox Campaign [March-April 1865]",
+  "end_date": "1865-04-02",
+  "description": "Union columns converged on Petersburg on April 2. part Mile's force struck north from White Oak Road meeting elements of four Confederate brigades (Cooke, Scales, MacRae, McGowan) attempting to defend the South Side Railroad. The Confedeerates placed their left flank on Ocran Methodist Church, where it was overun by three Union brigades commanded by Miles. The Confederate defenders were scattered and driven northwestward. With this victory, the Federals possessed the South Side Railroad, Gen. Robert E. Lee's last supply line into Petersburg.",
   "location": [
     {
       "state": "VA",
       "place": "Dinwiddie"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/va090.htm"
+  "battle_name": "Sutherland's Station",
+  "start_date": "1865-04-02",
+  "casualties": 970,
+  "principal_commanders": "Maj. Gen. Nelson A. Miles [US]; Maj. Gen. Henry Heth and Maj. Gen. Cadmus Wilcox [CS]"
 }

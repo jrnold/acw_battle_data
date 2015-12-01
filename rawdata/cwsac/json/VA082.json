@@ -1,102 +1,102 @@
 {
-  "end_date": "1864-12-21",
-  "casualties": null,
-  "casualties_text": "Unknown",
+  "battle": "VA082",
+  "operation": false,
+  "cwsac_reference": "VA082",
   "forces": {
     "Confederate": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "C.",
           "last_name": "Breckinridge",
-          "fullname": "John C. Breckinridge"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Major General",
+          "fullname": "John C. Breckinridge",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     },
     "US": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "George",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Stoneman",
-          "fullname": "George Stoneman"
+          "suffix": "",
+          "first_name": "George",
+          "rank": "Major General",
+          "fullname": "George Stoneman",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     }
   },
-  "cwsac_reference": "VA082",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va082.htm",
   "forces_text": "Divisions",
-  "start_date": "1864-12-20",
-  "preservation": "II.3",
+  "casualties_text": "Unknown",
   "results_text": "Union victory",
-  "description": "After defeating a Confederate force at Marion on the December 17-18, Stoneman's expedition advanced to Saltville. After determined skirmishing on the part of the outnumbered Confederate defenders, the Federals captured and destroyed the saltworks, accomplishing the objective of their raid.",
-  "state": "VA",
-  "significance": "C",
-  "other_names": null,
   "dates": "December 20-21, 1864",
-  "battle_name": "Saltville",
-  "principal_commanders": "Maj. Gen. George Stoneman [US]; Maj. Gen. John C. Breckinridge [CS]",
-  "campaign": "Stoneman's Raid into Southwest Virginia [December 1864]",
+  "result": "Union",
+  "other_names": null,
+  "significance": "C",
+  "preservation": "II.3",
+  "state": "VA",
   "belligerents": {
-    "Confederate": {
+    "CS": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "C.",
           "last_name": "Breckinridge",
-          "fullname": "John C. Breckinridge"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Major General",
+          "fullname": "John C. Breckinridge",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
+    },
+    "Confederate": {
+      "divisions": 1,
+      "commanders": [
+        {
+          "middle_name": "C.",
+          "last_name": "Breckinridge",
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Major General",
+          "fullname": "John C. Breckinridge",
+          "navy": false
+        }
+      ]
     },
     "US": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "George",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Stoneman",
-          "fullname": "George Stoneman"
-        }
-      ],
-      "divisions": 1
-    },
-    "CS": {
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "John",
           "suffix": "",
-          "navy": false,
-          "middle_name": "C.",
-          "last_name": "Breckinridge",
-          "fullname": "John C. Breckinridge"
+          "first_name": "George",
+          "rank": "Major General",
+          "fullname": "George Stoneman",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     }
   },
-  "result": "Union",
-  "battle": "VA082",
+  "campaign": "Stoneman's Raid into Southwest Virginia [December 1864]",
+  "end_date": "1864-12-21",
+  "description": "After defeating a Confederate force at Marion on the December 17-18, Stoneman's expedition advanced to Saltville. After determined skirmishing on the part of the outnumbered Confederate defenders, the Federals captured and destroyed the saltworks, accomplishing the objective of their raid.",
   "location": [
     {
       "state": "VA",
       "place": "Smyth County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/va082.htm"
+  "battle_name": "Saltville",
+  "start_date": "1864-12-20",
+  "casualties": null,
+  "principal_commanders": "Maj. Gen. George Stoneman [US]; Maj. Gen. John C. Breckinridge [CS]"
 }

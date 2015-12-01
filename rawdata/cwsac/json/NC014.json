@@ -1,125 +1,125 @@
 {
-  "end_date": "1864-12-27",
-  "casualties": 320,
-  "casualties_text": "320 total",
+  "battle": "NC014",
+  "operation": false,
+  "cwsac_reference": "NC014",
   "forces": {
     "Confederate": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Robert",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Hoke",
-          "fullname": "Robert Hoke"
+          "suffix": "",
+          "first_name": "Robert",
+          "rank": "Major General",
+          "fullname": "Robert Hoke",
+          "navy": false
         }
       ],
-      "divisions": 1,
       "description": "Hoke's Division and Fort Fisher Garrison"
     },
     "US": {
-      "corps": 1,
       "commanders": [
         {
-          "rank": "Rear Admiral",
-          "first_name": "David",
-          "suffix": "",
-          "navy": true,
           "middle_name": "D.",
           "last_name": "Porter",
-          "fullname": "David D. Porter"
+          "suffix": "",
+          "first_name": "David",
+          "rank": "Rear Admiral",
+          "fullname": "David D. Porter",
+          "navy": true
         },
         {
-          "rank": "Major General",
-          "first_name": "Benjamin",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Butler",
-          "fullname": "Benjamin Butler"
+          "suffix": "",
+          "first_name": "Benjamin",
+          "rank": "Major General",
+          "fullname": "Benjamin Butler",
+          "navy": false
         }
       ],
-      "description": "Expeditionary Corps, Army of the James"
+      "description": "Expeditionary Corps, Army of the James",
+      "corps": 1
     }
   },
-  "cwsac_reference": "NC014",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/nc014.htm",
   "forces_text": "Expeditionary Corps, Army of the James [US]; Hoke's Division and Fort Fisher Garrison [CS]",
-  "start_date": "1864-12-07",
-  "preservation": "IV.1",
+  "casualties_text": "320 total",
   "results_text": "Confederate victory",
-  "description": "Maj. Gen. Benjamin Butler was relieved of command of the Army of the James and assigned to lead an amphibious expedition against Fort Fisher, which protected Wilmington, the South's last open seaport on the Atlantic coast. Learning that large numbers of Union troops had embarked from Hampton Roads on December 13, Lee dispatched Hoke's Division to meet the expected attack on Fort Fisher. On December 24, the Union fleet under Rear Adm. David D. Porter arrived to begin shelling the fort. An infantry division disembarked from transports to test the fort's defenses. The Federal assault on the fort had already begun when Hoke approached, discouraging further Union attempts. Butler called off the expedition on December 27 and returned to Fort Monroe.",
-  "state": "NC",
-  "significance": "C",
-  "other_names": null,
   "dates": "December 7-27, 1864",
-  "battle_name": "Fort Fisher",
-  "principal_commanders": "Rear Adm. David D. Porter and Maj. Gen. Benjamin Butler [US]; Maj. Gen. Robert Hoke [CS]",
-  "campaign": "Expedition Against Fort Fisher [December 1864]",
+  "result": "Confederate",
+  "other_names": null,
+  "significance": "C",
+  "preservation": "IV.1",
+  "state": "NC",
   "belligerents": {
-    "Confederate": {
+    "CS": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Robert",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Hoke",
-          "fullname": "Robert Hoke"
+          "suffix": "",
+          "first_name": "Robert",
+          "rank": "Major General",
+          "fullname": "Robert Hoke",
+          "navy": false
         }
       ],
+      "description": "Hoke's Division and Fort Fisher Garrison"
+    },
+    "Confederate": {
       "divisions": 1,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Hoke",
+          "suffix": "",
+          "first_name": "Robert",
+          "rank": "Major General",
+          "fullname": "Robert Hoke",
+          "navy": false
+        }
+      ],
       "description": "Hoke's Division and Fort Fisher Garrison"
     },
     "US": {
-      "corps": 1,
       "commanders": [
         {
-          "rank": "Rear Admiral",
-          "first_name": "David",
-          "suffix": "",
-          "navy": true,
           "middle_name": "D.",
           "last_name": "Porter",
-          "fullname": "David D. Porter"
+          "suffix": "",
+          "first_name": "David",
+          "rank": "Rear Admiral",
+          "fullname": "David D. Porter",
+          "navy": true
         },
         {
-          "rank": "Major General",
-          "first_name": "Benjamin",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Butler",
-          "fullname": "Benjamin Butler"
-        }
-      ],
-      "description": "Expeditionary Corps, Army of the James"
-    },
-    "CS": {
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Robert",
           "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Hoke",
-          "fullname": "Robert Hoke"
+          "first_name": "Benjamin",
+          "rank": "Major General",
+          "fullname": "Benjamin Butler",
+          "navy": false
         }
       ],
-      "divisions": 1,
-      "description": "Hoke's Division and Fort Fisher Garrison"
+      "description": "Expeditionary Corps, Army of the James",
+      "corps": 1
     }
   },
-  "result": "Confederate",
-  "battle": "NC014",
+  "campaign": "Expedition Against Fort Fisher [December 1864]",
+  "end_date": "1864-12-27",
+  "description": "Maj. Gen. Benjamin Butler was relieved of command of the Army of the James and assigned to lead an amphibious expedition against Fort Fisher, which protected Wilmington, the South's last open seaport on the Atlantic coast. Learning that large numbers of Union troops had embarked from Hampton Roads on December 13, Lee dispatched Hoke's Division to meet the expected attack on Fort Fisher. On December 24, the Union fleet under Rear Adm. David D. Porter arrived to begin shelling the fort. An infantry division disembarked from transports to test the fort's defenses. The Federal assault on the fort had already begun when Hoke approached, discouraging further Union attempts. Butler called off the expedition on December 27 and returned to Fort Monroe.",
   "location": [
     {
       "state": "NC",
       "place": "New Hanover County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/nc014.htm"
+  "battle_name": "Fort Fisher",
+  "start_date": "1864-12-07",
+  "casualties": 320,
+  "principal_commanders": "Rear Adm. David D. Porter and Maj. Gen. Benjamin Butler [US]; Maj. Gen. Robert Hoke [CS]"
 }

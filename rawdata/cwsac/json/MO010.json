@@ -1,111 +1,111 @@
 {
-  "end_date": "1861-12-28",
-  "casualties": 282,
-  "casualties_text": "282 total (US 72; CS 210)",
+  "battle": "MO010",
+  "operation": false,
+  "cwsac_reference": "MO010",
   "forces": {
     "Confederate": {
       "casualties": 210,
       "commanders": [
         {
-          "rank": "Colonel",
-          "first_name": "Caleb",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Dorsey",
-          "fullname": "Caleb Dorsey"
+          "suffix": "",
+          "first_name": "Caleb",
+          "rank": "Colonel",
+          "fullname": "Caleb Dorsey",
+          "navy": false
         }
       ],
       "description": "unknown"
     },
     "US": {
       "casualties": 72,
+      "strength_min": 440,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Benjamin",
-          "suffix": "",
-          "navy": false,
           "middle_name": "M.",
           "last_name": "Prentiss",
-          "fullname": "Benjamin M. Prentiss"
+          "suffix": "",
+          "first_name": "Benjamin",
+          "rank": "Brigadier General",
+          "fullname": "Benjamin M. Prentiss",
+          "navy": false
         }
       ],
       "description": "Detachments of the 3rd Missouri Cavalry Regiment (approx. 240) and Birge's Sharpshooters (approx. 200)",
-      "strength_min": 440,
       "strength_max": 440
     }
   },
-  "cwsac_reference": "MO010",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/mo010.htm",
   "forces_text": "Detachments of the 3rd Missouri Cavalry Regiment (approx. 240) and Birge's Sharpshooters (approx. 200) [US]; unknown [CS]",
-  "start_date": "1861-12-28",
-  "preservation": "III.4",
+  "casualties_text": "282 total (US 72; CS 210)",
   "results_text": "Union victory",
-  "description": "Brig. Gen. Benjamin M. Prentiss led a Union force of 5 mounted companies and 2 companies of Birge's sharpshooters into Boone County to protect the North Missouri Railroad and overawe secessionist sentiment there. After arriving in Sturgeon on December 26, Prentiss learned of a band of Rebels near Hallsville. He sent a company to Hallsville the next day that fought a Confederate force under the command of Col. Caleb Dorsey and suffered numerous casualties, including many taken prisoner, before retreating to Sturgeon. On the 28th, Prentiss set out with his entire force to meet Dorsey's Rebels. He routed one company of Confederates on the road from Hallsville to Mount Zion and learned that the rest of the force was at Mount Zion Church. Prentiss headed for the church. After a short battle, the Confederates retreated, leaving their killed and wounded on the battlefield and abandoning many animals, weapons, and supplies. This action and others curtailed Rebel recruiting activities in Central Missouri.",
-  "state": "MO",
-  "significance": "D",
-  "other_names": null,
   "dates": "December 28, 1861",
-  "battle_name": "Mount Zion Church",
-  "principal_commanders": "Brig. Gen. Benjamin M. Prentiss [US]; Col. Caleb Dorsey [CS]",
-  "campaign": "Operations in Northeast Missouri [December 1861]",
+  "result": "Union",
+  "other_names": null,
+  "significance": "D",
+  "preservation": "III.4",
+  "state": "MO",
   "belligerents": {
-    "Confederate": {
-      "casualties": 210,
-      "commanders": [
-        {
-          "rank": "Colonel",
-          "first_name": "Caleb",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Dorsey",
-          "fullname": "Caleb Dorsey"
-        }
-      ],
-      "description": "unknown"
-    },
-    "US": {
-      "casualties": 72,
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "Benjamin",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "M.",
-          "last_name": "Prentiss",
-          "fullname": "Benjamin M. Prentiss"
-        }
-      ],
-      "description": "Detachments of the 3rd Missouri Cavalry Regiment (approx. 240) and Birge's Sharpshooters (approx. 200)",
-      "strength_min": 440,
-      "strength_max": 440
-    },
     "CS": {
       "casualties": 210,
       "commanders": [
         {
-          "rank": "Colonel",
-          "first_name": "Caleb",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Dorsey",
-          "fullname": "Caleb Dorsey"
+          "suffix": "",
+          "first_name": "Caleb",
+          "rank": "Colonel",
+          "fullname": "Caleb Dorsey",
+          "navy": false
         }
       ],
       "description": "unknown"
+    },
+    "Confederate": {
+      "casualties": 210,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Dorsey",
+          "suffix": "",
+          "first_name": "Caleb",
+          "rank": "Colonel",
+          "fullname": "Caleb Dorsey",
+          "navy": false
+        }
+      ],
+      "description": "unknown"
+    },
+    "US": {
+      "casualties": 72,
+      "strength_min": 440,
+      "commanders": [
+        {
+          "middle_name": "M.",
+          "last_name": "Prentiss",
+          "suffix": "",
+          "first_name": "Benjamin",
+          "rank": "Brigadier General",
+          "fullname": "Benjamin M. Prentiss",
+          "navy": false
+        }
+      ],
+      "description": "Detachments of the 3rd Missouri Cavalry Regiment (approx. 240) and Birge's Sharpshooters (approx. 200)",
+      "strength_max": 440
     }
   },
-  "result": "Union",
-  "battle": "MO010",
+  "campaign": "Operations in Northeast Missouri [December 1861]",
+  "end_date": "1861-12-28",
+  "description": "Brig. Gen. Benjamin M. Prentiss led a Union force of 5 mounted companies and 2 companies of Birge's sharpshooters into Boone County to protect the North Missouri Railroad and overawe secessionist sentiment there. After arriving in Sturgeon on December 26, Prentiss learned of a band of Rebels near Hallsville. He sent a company to Hallsville the next day that fought a Confederate force under the command of Col. Caleb Dorsey and suffered numerous casualties, including many taken prisoner, before retreating to Sturgeon. On the 28th, Prentiss set out with his entire force to meet Dorsey's Rebels. He routed one company of Confederates on the road from Hallsville to Mount Zion and learned that the rest of the force was at Mount Zion Church. Prentiss headed for the church. After a short battle, the Confederates retreated, leaving their killed and wounded on the battlefield and abandoning many animals, weapons, and supplies. This action and others curtailed Rebel recruiting activities in Central Missouri.",
   "location": [
     {
       "state": "MO",
       "place": "Boone County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/mo010.htm"
+  "battle_name": "Mount Zion Church",
+  "start_date": "1861-12-28",
+  "casualties": 282,
+  "principal_commanders": "Brig. Gen. Benjamin M. Prentiss [US]; Col. Caleb Dorsey [CS]"
 }

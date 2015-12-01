@@ -1,104 +1,104 @@
 {
-  "end_date": "1864-08-25",
-  "casualties": 3492,
-  "casualties_text": "3,492 total",
+  "battle": "VA073",
+  "operation": false,
+  "cwsac_reference": "VA073",
   "forces": {
     "Confederate": {
-      "corps": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Henry",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Heth",
-          "fullname": "Henry Heth"
+          "suffix": "",
+          "first_name": "Henry",
+          "rank": "Major General",
+          "fullname": "Henry Heth",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
     },
     "US": {
-      "corps": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Winfield",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Scott",
           "last_name": "Hancock",
-          "fullname": "Winfield Scott Hancock"
+          "suffix": "",
+          "first_name": "Winfield",
+          "rank": "Major General",
+          "fullname": "Winfield Scott Hancock",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
     }
   },
-  "cwsac_reference": "VA073",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va073.htm",
   "forces_text": "Corps",
-  "start_date": "1864-08-25",
-  "preservation": "II.2",
+  "casualties_text": "3,492 total",
   "results_text": "Confederate victory",
-  "description": "On August 24, Union II Corps moved south along the Weldon Railroad, tearing up track, preceded by Gregg's cavalry division. On August 25, Maj. Gen. Henry Heth attacked and overran the faulty Union position at Ream's Station, capturing 9 guns, 12 colors, and many prisoners. The old II Corps was shattered. Maj. Gen. Winfield Scott Hancock withdrew to the main Union line near the Jerusalem Plank Road, bemoaning the declining combat effectiveness of his troops.",
-  "state": "VA",
-  "significance": "B",
+  "dates": "August 25, 1864",
+  "result": "Confederate",
   "other_names": [
     "Reams' Station"
   ],
-  "dates": "August 25, 1864",
-  "battle_name": "Ream's Station",
-  "principal_commanders": "Maj. Gen. Winfield Scott Hancock [US]; Maj. Gen. Henry Heth [CS]",
-  "campaign": "Richmond-Petersburg Campaign [June 1864-March 1865]",
+  "significance": "B",
+  "preservation": "II.2",
+  "state": "VA",
   "belligerents": {
-    "Confederate": {
-      "corps": 1,
+    "CS": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Henry",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Heth",
-          "fullname": "Henry Heth"
+          "suffix": "",
+          "first_name": "Henry",
+          "rank": "Major General",
+          "fullname": "Henry Heth",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
+    },
+    "Confederate": {
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Heth",
+          "suffix": "",
+          "first_name": "Henry",
+          "rank": "Major General",
+          "fullname": "Henry Heth",
+          "navy": false
+        }
+      ],
+      "corps": 1
     },
     "US": {
-      "corps": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Winfield",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Scott",
           "last_name": "Hancock",
-          "fullname": "Winfield Scott Hancock"
-        }
-      ]
-    },
-    "CS": {
-      "corps": 1,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Henry",
           "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Heth",
-          "fullname": "Henry Heth"
+          "first_name": "Winfield",
+          "rank": "Major General",
+          "fullname": "Winfield Scott Hancock",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
     }
   },
-  "result": "Confederate",
-  "battle": "VA073",
+  "campaign": "Richmond-Petersburg Campaign [June 1864-March 1865]",
+  "end_date": "1864-08-25",
+  "description": "On August 24, Union II Corps moved south along the Weldon Railroad, tearing up track, preceded by Gregg's cavalry division. On August 25, Maj. Gen. Henry Heth attacked and overran the faulty Union position at Ream's Station, capturing 9 guns, 12 colors, and many prisoners. The old II Corps was shattered. Maj. Gen. Winfield Scott Hancock withdrew to the main Union line near the Jerusalem Plank Road, bemoaning the declining combat effectiveness of his troops.",
   "location": [
     {
       "state": "VA",
       "place": "Dinwiddie County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/va073.htm"
+  "battle_name": "Ream's Station",
+  "start_date": "1864-08-25",
+  "casualties": 3492,
+  "principal_commanders": "Maj. Gen. Winfield Scott Hancock [US]; Maj. Gen. Henry Heth [CS]"
 }

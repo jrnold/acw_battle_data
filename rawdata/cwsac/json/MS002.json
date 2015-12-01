@@ -1,19 +1,19 @@
 {
-  "end_date": "1862-10-04",
-  "casualties": 7197,
-  "casualties_text": "7,197 total (US 2,359; CS 4,838)",
+  "battle": "MS002",
+  "operation": false,
+  "cwsac_reference": "MS002",
   "forces": {
     "Confederate": {
       "casualties": 4838,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Earl",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Van Dorn",
-          "fullname": "Earl Van Dorn"
+          "suffix": "",
+          "first_name": "Earl",
+          "rank": "Major General",
+          "fullname": "Earl Van Dorn",
+          "navy": false
         }
       ],
       "description": "Army of the West Tennessee",
@@ -23,90 +23,90 @@
       "casualties": 2359,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
           "middle_name": "S.",
           "last_name": "Rosecrans",
-          "fullname": "William S. Rosecrans"
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Major General",
+          "fullname": "William S. Rosecrans",
+          "navy": false
         }
       ],
       "description": "Army of the Mississippi",
       "armies": 1
     }
   },
-  "cwsac_reference": "MS002",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ms002.htm",
   "forces_text": "Army of the Mississippi [US]; Army of the West Tennessee [CS]",
-  "start_date": "1862-10-03",
-  "preservation": "IV.1",
+  "casualties_text": "7,197 total (US 2,359; CS 4,838)",
   "results_text": "Union victory",
-  "description": "After the Battle of Iuka, Maj. Gen. Sterling Price's Confederate Army of the West marched from Baldwyn to Ripley where it joined Maj. Gen. Earl Van Dorn's Army of West Tennessee. Van Dorn was senior officer and took command of the combined force numbering about 22,000 men. The Rebels marched to Pocahontas on October 1, and then moved southeast toward Corinth. They hoped to seize Corinth and then sweep into Middle Tennessee. Since the Siege of Corinth, in the spring, Union forces had erected various fortifications, an inner and intermediate line, to protect Corinth, an important transportation center. With the Confederate approach, the Federals, numbering about 23,000, occupied the outer line of fortifications and placed men in front of them. Van Dorn arrived within three miles of Corinth at 10:00 am on October 3, and moved into some fieldworks that the Confederates had erected for the siege of Corinth. The fighting began, and the Confederates steadily pushed the Yankees rearward. A gap occurred between two Union brigades which the Confederates exploited around 1:00 pm. The Union troops moved back in a futile effort to close the gap. Price then attacked and drove the Federals back further to their inner line. By evening, Van Dorn was sure that he could finish the Federals off during the next day. This confidence--combined with the heat, fatigue, and water shortages--persuaded him to cancel any further operations that day. Rosecrans regrouped his men in the fortifications to be ready for the attack to come the next morning. Van Dorn had planned to attack at daybreak, but Brig. Gen. Louis H\u00e9bert's sickness postponed it till 9:00 am. As the Confederates moved forward, Union artillery swept the field causing heavy casualties, but the Rebels continued on. They stormed Battery Powell and closed on Battery Robinett, where desperate hand-to-hand fighting ensued. A few Rebels fought their way into Corinth, but the Federals quickly drove them out. The Federals continued on, recapturing Battery Powell, and forcing Van Dorn into a general retreat. Rosecrans postponed any pursuit until the next day. As a result, Van Dorn was defeated, but not destroyed or captured, at Hatchie Bridge, Tennessee, on October 5.",
-  "state": "MS",
-  "significance": "A",
-  "other_names": null,
   "dates": "October 3-4, 1862",
-  "battle_name": "Corinth",
-  "principal_commanders": "Maj. Gen. William S. Rosecrans [US]; Maj. Gen. Earl Van Dorn [CS]",
-  "campaign": "Iuka and Corinth Operations [September-October 1862]",
+  "result": "Union",
+  "other_names": null,
+  "significance": "A",
+  "preservation": "IV.1",
+  "state": "MS",
   "belligerents": {
-    "Confederate": {
-      "casualties": 4838,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Earl",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Van Dorn",
-          "fullname": "Earl Van Dorn"
-        }
-      ],
-      "description": "Army of the West Tennessee",
-      "armies": 1
-    },
-    "US": {
-      "casualties": 2359,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "S.",
-          "last_name": "Rosecrans",
-          "fullname": "William S. Rosecrans"
-        }
-      ],
-      "description": "Army of the Mississippi",
-      "armies": 1
-    },
     "CS": {
       "casualties": 4838,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Earl",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Van Dorn",
-          "fullname": "Earl Van Dorn"
+          "suffix": "",
+          "first_name": "Earl",
+          "rank": "Major General",
+          "fullname": "Earl Van Dorn",
+          "navy": false
         }
       ],
       "description": "Army of the West Tennessee",
       "armies": 1
+    },
+    "Confederate": {
+      "casualties": 4838,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Van Dorn",
+          "suffix": "",
+          "first_name": "Earl",
+          "rank": "Major General",
+          "fullname": "Earl Van Dorn",
+          "navy": false
+        }
+      ],
+      "description": "Army of the West Tennessee",
+      "armies": 1
+    },
+    "US": {
+      "casualties": 2359,
+      "commanders": [
+        {
+          "middle_name": "S.",
+          "last_name": "Rosecrans",
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Major General",
+          "fullname": "William S. Rosecrans",
+          "navy": false
+        }
+      ],
+      "description": "Army of the Mississippi",
+      "armies": 1
     }
   },
-  "result": "Union",
-  "battle": "MS002",
+  "campaign": "Iuka and Corinth Operations [September-October 1862]",
+  "end_date": "1862-10-04",
+  "description": "After the Battle of Iuka, Maj. Gen. Sterling Price's Confederate Army of the West marched from Baldwyn to Ripley where it joined Maj. Gen. Earl Van Dorn's Army of West Tennessee. Van Dorn was senior officer and took command of the combined force numbering about 22,000 men. The Rebels marched to Pocahontas on October 1, and then moved southeast toward Corinth. They hoped to seize Corinth and then sweep into Middle Tennessee. Since the Siege of Corinth, in the spring, Union forces had erected various fortifications, an inner and intermediate line, to protect Corinth, an important transportation center. With the Confederate approach, the Federals, numbering about 23,000, occupied the outer line of fortifications and placed men in front of them. Van Dorn arrived within three miles of Corinth at 10:00 am on October 3, and moved into some fieldworks that the Confederates had erected for the siege of Corinth. The fighting began, and the Confederates steadily pushed the Yankees rearward. A gap occurred between two Union brigades which the Confederates exploited around 1:00 pm. The Union troops moved back in a futile effort to close the gap. Price then attacked and drove the Federals back further to their inner line. By evening, Van Dorn was sure that he could finish the Federals off during the next day. This confidence--combined with the heat, fatigue, and water shortages--persuaded him to cancel any further operations that day. Rosecrans regrouped his men in the fortifications to be ready for the attack to come the next morning. Van Dorn had planned to attack at daybreak, but Brig. Gen. Louis H\u00e9bert's sickness postponed it till 9:00 am. As the Confederates moved forward, Union artillery swept the field causing heavy casualties, but the Rebels continued on. They stormed Battery Powell and closed on Battery Robinett, where desperate hand-to-hand fighting ensued. A few Rebels fought their way into Corinth, but the Federals quickly drove them out. The Federals continued on, recapturing Battery Powell, and forcing Van Dorn into a general retreat. Rosecrans postponed any pursuit until the next day. As a result, Van Dorn was defeated, but not destroyed or captured, at Hatchie Bridge, Tennessee, on October 5.",
   "location": [
     {
       "state": "MS",
       "place": "Alcorn County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/ms002.htm"
+  "battle_name": "Corinth",
+  "start_date": "1862-10-03",
+  "casualties": 7197,
+  "principal_commanders": "Maj. Gen. William S. Rosecrans [US]; Maj. Gen. Earl Van Dorn [CS]"
 }

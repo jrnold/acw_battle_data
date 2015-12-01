@@ -1,113 +1,113 @@
 {
-  "end_date": "1864-04-08",
-  "casualties": 4400,
-  "casualties_text": "4,400 total (US 2,900; CS 1,500)",
+  "battle": "LA018",
+  "operation": false,
+  "cwsac_reference": "LA018",
   "forces": {
     "Confederate": {
       "casualties": 1500,
+      "divisions": 2,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Richard",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Taylor",
-          "fullname": "Richard Taylor"
+          "suffix": "",
+          "first_name": "Richard",
+          "rank": "Major General",
+          "fullname": "Richard Taylor",
+          "navy": false
         }
       ],
-      "divisions": 2,
       "description": "District of West Louisiana (two divisions)"
     },
     "US": {
       "casualties": 2900,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Nathaniel",
-          "suffix": "",
-          "navy": false,
           "middle_name": "P.",
           "last_name": "Banks",
-          "fullname": "Nathaniel P. Banks"
+          "suffix": "",
+          "first_name": "Nathaniel",
+          "rank": "Major General",
+          "fullname": "Nathaniel P. Banks",
+          "navy": false
         }
       ],
       "description": "Banks's Red River Expeditionary Force"
     }
   },
-  "cwsac_reference": "LA018",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/la018.htm",
   "forces_text": "Banks's Red River Expeditionary Force [US]; District of West Louisiana (two divisions) [CS]",
-  "start_date": "1864-04-08",
-  "preservation": "II.1",
+  "casualties_text": "4,400 total (US 2,900; CS 1,500)",
   "results_text": "Confederate victory",
-  "description": "By this time, Maj. Gen. Nathaniel P. Bank's Red River Expedition had advanced about 150 miles up Red River. Maj. Gen. Richard Taylor, without any instructions from his commander, Gen. E. Kirby Smith, decided that it was time to try and stem this Union drive. He established a defensive position just below Mansfield, near Sabine Cross-Roads, an important communications center. On April 8, Banks's men approached, driving Confederate cavalry before them. For the rest of the morning, the Federals probed the Rebel lines. In late afternoon, Taylor, though outnumbered, decided to attack. His men made a determined assault on both flanks, rolling up one and then another of Banks's divisions. Finally, about three miles from the original contact, a third Union division met Taylor's attack at 6:00 pm and halted it after more than an hour's fighting. That night, Taylor unsuccessfully attempted to turn Banks's right flank. Banks withdrew but met Taylor again on the 9th at Pleasant Hill. Mansfield was the decisive battle of the Red River Campaign, influencing Banks to retreat back toward Alexandria.",
-  "state": "LA",
-  "significance": "A",
+  "dates": "April 8, 1864",
+  "result": "Confederate",
   "other_names": [
     "Sabine Cross-Roads",
     "Pleasant Grove"
   ],
-  "dates": "April 8, 1864",
-  "battle_name": "Mansfield",
-  "principal_commanders": "Maj. Gen. Nathaniel P. Banks [US]; Maj. Gen. Richard Taylor [CS]",
-  "campaign": "Red River Campaign [March-April 1864]",
+  "significance": "A",
+  "preservation": "II.1",
+  "state": "LA",
   "belligerents": {
-    "Confederate": {
+    "CS": {
       "casualties": 1500,
+      "divisions": 2,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Richard",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Taylor",
-          "fullname": "Richard Taylor"
+          "suffix": "",
+          "first_name": "Richard",
+          "rank": "Major General",
+          "fullname": "Richard Taylor",
+          "navy": false
         }
       ],
+      "description": "District of West Louisiana (two divisions)"
+    },
+    "Confederate": {
+      "casualties": 1500,
       "divisions": 2,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Taylor",
+          "suffix": "",
+          "first_name": "Richard",
+          "rank": "Major General",
+          "fullname": "Richard Taylor",
+          "navy": false
+        }
+      ],
       "description": "District of West Louisiana (two divisions)"
     },
     "US": {
       "casualties": 2900,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Nathaniel",
-          "suffix": "",
-          "navy": false,
           "middle_name": "P.",
           "last_name": "Banks",
-          "fullname": "Nathaniel P. Banks"
+          "suffix": "",
+          "first_name": "Nathaniel",
+          "rank": "Major General",
+          "fullname": "Nathaniel P. Banks",
+          "navy": false
         }
       ],
       "description": "Banks's Red River Expeditionary Force"
-    },
-    "CS": {
-      "casualties": 1500,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Richard",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Taylor",
-          "fullname": "Richard Taylor"
-        }
-      ],
-      "divisions": 2,
-      "description": "District of West Louisiana (two divisions)"
     }
   },
-  "result": "Confederate",
-  "battle": "LA018",
+  "campaign": "Red River Campaign [March-April 1864]",
+  "end_date": "1864-04-08",
+  "description": "By this time, Maj. Gen. Nathaniel P. Bank's Red River Expedition had advanced about 150 miles up Red River. Maj. Gen. Richard Taylor, without any instructions from his commander, Gen. E. Kirby Smith, decided that it was time to try and stem this Union drive. He established a defensive position just below Mansfield, near Sabine Cross-Roads, an important communications center. On April 8, Banks's men approached, driving Confederate cavalry before them. For the rest of the morning, the Federals probed the Rebel lines. In late afternoon, Taylor, though outnumbered, decided to attack. His men made a determined assault on both flanks, rolling up one and then another of Banks's divisions. Finally, about three miles from the original contact, a third Union division met Taylor's attack at 6:00 pm and halted it after more than an hour's fighting. That night, Taylor unsuccessfully attempted to turn Banks's right flank. Banks withdrew but met Taylor again on the 9th at Pleasant Hill. Mansfield was the decisive battle of the Red River Campaign, influencing Banks to retreat back toward Alexandria.",
   "location": [
     {
       "state": "LA",
       "place": "DeSoto Parish"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/la018.htm"
+  "battle_name": "Mansfield",
+  "start_date": "1864-04-08",
+  "casualties": 4400,
+  "principal_commanders": "Maj. Gen. Nathaniel P. Banks [US]; Maj. Gen. Richard Taylor [CS]"
 }

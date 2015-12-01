@@ -1,57 +1,110 @@
 {
-  "end_date": "1864-07-24",
-  "casualties": 1800,
-  "casualties_text": "1,800 total (US 1,200; CS 600)",
+  "battle": "VA116",
+  "operation": false,
+  "cwsac_reference": "VA116",
   "forces": {
     "Confederate": {
       "casualties": 600,
+      "strength_min": 13000,
       "commanders": [
         {
-          "rank": "Lieutenant General",
-          "first_name": "Jubal",
-          "suffix": "",
-          "navy": false,
           "middle_name": "A.",
           "last_name": "Early",
-          "fullname": "Jubal A. Early"
+          "suffix": "",
+          "first_name": "Jubal",
+          "rank": "Lieutenant General",
+          "fullname": "Jubal A. Early",
+          "navy": false
         }
       ],
       "description": "13,000",
-      "strength_min": 13000,
       "strength_max": 13000
     },
     "US": {
       "casualties": 1200,
+      "strength_min": 10000,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "George",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Crook",
-          "fullname": "George Crook"
+          "suffix": "",
+          "first_name": "George",
+          "rank": "Brigadier General",
+          "fullname": "George Crook",
+          "navy": false
         }
       ],
       "description": "10,000",
-      "strength_min": 10000,
       "strength_max": 10000
     }
   },
-  "strength": 23000,
-  "cwsac_reference": "VA116",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va116.htm",
   "forces_text": "23,000 total (US 10,000; CS 13,000)",
-  "start_date": "1864-07-24",
-  "preservation": "IV.1",
+  "strength": 23000,
+  "casualties_text": "1,800 total (US 1,200; CS 600)",
   "results_text": "Confederate victory",
-  "description": "Believing that Early's army was no longer a threat in the Valley, Maj. Gen. Horatio Wright abandoned his pursuit and ordered the VI and XIX Corps to return to Washington, where they were to be sent to Grant's \"army group\" before Petersburg. Wright left Brig. Gen. George Crook with three divisions and some cavalry to hold Winchester. Under orders to prevent reinforcements from being sent to Grant, Early marched north on July 24 against Crook. After an hour of stubborn resistance at Pritchard's Hill, the Federal line collapsed and Crook's divisions streamed back in disarray through the streets of Winchester. Col. James Mulligan commanding Crook's 3rd Division was mortally wounded. Rutherford B. Hayes commanded a brigade against John C. Breckinridge's wing. Crook retreated to the Potomac River and crossed near Williamsport on July 26. As a result of this defeat and the burning of Chambersburg, Pennsylvania, on July 30, Grant returned the VI and XIX Corps and appointed Sheridan as commander of Union forces in the Valley.",
-  "state": "VA",
-  "significance": "B",
-  "other_names": null,
   "dates": "July 24, 1864",
-  "battle_name": "Kernstown, Second",
-  "principal_commanders": "Brig. Gen. George Crook [US]; Lt. Gen. Jubal A. Early [CS]",
+  "result": "Confederate",
+  "other_names": null,
+  "significance": "B",
+  "preservation": "IV.1",
+  "state": "VA",
+  "belligerents": {
+    "CS": {
+      "casualties": 600,
+      "strength_min": 13000,
+      "commanders": [
+        {
+          "middle_name": "A.",
+          "last_name": "Early",
+          "suffix": "",
+          "first_name": "Jubal",
+          "rank": "Lieutenant General",
+          "fullname": "Jubal A. Early",
+          "navy": false
+        }
+      ],
+      "description": "13,000",
+      "strength_max": 13000
+    },
+    "Confederate": {
+      "casualties": 600,
+      "strength_min": 13000,
+      "commanders": [
+        {
+          "middle_name": "A.",
+          "last_name": "Early",
+          "suffix": "",
+          "first_name": "Jubal",
+          "rank": "Lieutenant General",
+          "fullname": "Jubal A. Early",
+          "navy": false
+        }
+      ],
+      "description": "13,000",
+      "strength_max": 13000
+    },
+    "US": {
+      "casualties": 1200,
+      "strength_min": 10000,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Crook",
+          "suffix": "",
+          "first_name": "George",
+          "rank": "Brigadier General",
+          "fullname": "George Crook",
+          "navy": false
+        }
+      ],
+      "description": "10,000",
+      "strength_max": 10000
+    }
+  },
+  "campaign": "Early's Raid and Operations Against the B&O Railroad [June-August 1864]",
+  "end_date": "1864-07-24",
+  "description": "Believing that Early's army was no longer a threat in the Valley, Maj. Gen. Horatio Wright abandoned his pursuit and ordered the VI and XIX Corps to return to Washington, where they were to be sent to Grant's \"army group\" before Petersburg. Wright left Brig. Gen. George Crook with three divisions and some cavalry to hold Winchester. Under orders to prevent reinforcements from being sent to Grant, Early marched north on July 24 against Crook. After an hour of stubborn resistance at Pritchard's Hill, the Federal line collapsed and Crook's divisions streamed back in disarray through the streets of Winchester. Col. James Mulligan commanding Crook's 3rd Division was mortally wounded. Rutherford B. Hayes commanded a brigade against John C. Breckinridge's wing. Crook retreated to the Potomac River and crossed near Williamsport on July 26. As a result of this defeat and the burning of Chambersburg, Pennsylvania, on July 30, Grant returned the VI and XIX Corps and appointed Sheridan as commander of Union forces in the Valley.",
   "location": [
     {
       "state": "VA",
@@ -62,61 +115,8 @@
       "place": "Winchester"
     }
   ],
-  "belligerents": {
-    "Confederate": {
-      "casualties": 600,
-      "commanders": [
-        {
-          "rank": "Lieutenant General",
-          "first_name": "Jubal",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "A.",
-          "last_name": "Early",
-          "fullname": "Jubal A. Early"
-        }
-      ],
-      "description": "13,000",
-      "strength_min": 13000,
-      "strength_max": 13000
-    },
-    "US": {
-      "casualties": 1200,
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "George",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Crook",
-          "fullname": "George Crook"
-        }
-      ],
-      "description": "10,000",
-      "strength_min": 10000,
-      "strength_max": 10000
-    },
-    "CS": {
-      "casualties": 600,
-      "commanders": [
-        {
-          "rank": "Lieutenant General",
-          "first_name": "Jubal",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "A.",
-          "last_name": "Early",
-          "fullname": "Jubal A. Early"
-        }
-      ],
-      "description": "13,000",
-      "strength_min": 13000,
-      "strength_max": 13000
-    }
-  },
-  "result": "Confederate",
-  "battle": "VA116",
-  "campaign": "Early's Raid and Operations Against the B&O Railroad [June-August 1864]",
-  "url": "http://www.nps.gov/hps/abpp/battles/va116.htm"
+  "battle_name": "Kernstown, Second",
+  "start_date": "1864-07-24",
+  "casualties": 1800,
+  "principal_commanders": "Brig. Gen. George Crook [US]; Lt. Gen. Jubal A. Early [CS]"
 }

@@ -1,114 +1,114 @@
 {
-  "end_date": "1862-08-05",
-  "casualties": 849,
-  "casualties_text": "849 total (US 371; CS 478)",
+  "battle": "LA003",
+  "operation": false,
+  "cwsac_reference": "LA003",
   "forces": {
     "Confederate": {
-      "corps": 1,
+      "casualties": 478,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "C.",
           "last_name": "Breckinridge",
-          "fullname": "John C. Breckinridge"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Major General",
+          "fullname": "John C. Breckinridge",
+          "navy": false
         }
       ],
       "description": "Breckinridge's Corps",
-      "casualties": 478
+      "corps": 1
     },
     "US": {
       "casualties": 371,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Thomas",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Williams",
-          "fullname": "Thomas Williams"
+          "suffix": "",
+          "first_name": "Thomas",
+          "rank": "Brigadier General",
+          "fullname": "Thomas Williams",
+          "navy": false
         }
       ],
       "brigades": 1,
       "description": "2nd Brigade, Department of the Gulf"
     }
   },
-  "cwsac_reference": "LA003",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/la003.htm",
   "forces_text": "2nd Brigade, Department of the Gulf [US]; Breckinridge's Corps [CS]",
-  "start_date": "1862-08-05",
-  "preservation": "IV.1",
+  "casualties_text": "849 total (US 371; CS 478)",
   "results_text": "Union victory",
-  "description": "In an attempt to regain control of the state, Confederates wished to recapture the capital at Baton Rouge. Maj. Gen. John C. Breckinridge planned a combined land/water expedition with his corps and CSS Ram Arkansas. Advancing west from Camp Moore, the Confederate land forces, coming from the east, were only ten miles away on August 4. They reached the outskirts of the capital early in the morning, formed for an attack in two divisions, and began to drive back each Union unit they encountered. Then, Union gunboats in the river began shelling the Confederates. The Arkansas could have neutralized the Union gunboats, but her engines failed and she did not participate in the battle. Federal land forces, in the meantime, fell back to a more defensible line, and the Union commander, Brig. Gen. Thomas Williams, was killed soon after. The new commander, Col. Thomas W. Cahill, ordered a retreat to a prepared defensive line nearer the river and within the gunboats' protection. Rebels assailed the new line, but finally the Federals forced them to retire. The next day the Arkansas's engines failed again as she closed on the Union gunboats; she was blown up and scuttled by her crew. The Confederates failed to recapture the state capital.",
-  "state": "LA",
-  "significance": "B",
+  "dates": "August 5, 1862",
+  "result": "Union",
   "other_names": [
     "Magnolia Cemetery"
   ],
-  "dates": "August 5, 1862",
-  "battle_name": "Baton Rouge",
-  "principal_commanders": "Brig. Gen. Thomas Williams [US]; Maj. Gen. John C. Breckinridge [CS]",
-  "campaign": "Operations Against Baton Rouge [July-August 1862]",
+  "significance": "B",
+  "preservation": "IV.1",
+  "state": "LA",
   "belligerents": {
-    "Confederate": {
-      "corps": 1,
+    "CS": {
+      "casualties": 478,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "C.",
           "last_name": "Breckinridge",
-          "fullname": "John C. Breckinridge"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Major General",
+          "fullname": "John C. Breckinridge",
+          "navy": false
         }
       ],
       "description": "Breckinridge's Corps",
-      "casualties": 478
+      "corps": 1
+    },
+    "Confederate": {
+      "casualties": 478,
+      "commanders": [
+        {
+          "middle_name": "C.",
+          "last_name": "Breckinridge",
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Major General",
+          "fullname": "John C. Breckinridge",
+          "navy": false
+        }
+      ],
+      "description": "Breckinridge's Corps",
+      "corps": 1
     },
     "US": {
       "casualties": 371,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Thomas",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Williams",
-          "fullname": "Thomas Williams"
+          "suffix": "",
+          "first_name": "Thomas",
+          "rank": "Brigadier General",
+          "fullname": "Thomas Williams",
+          "navy": false
         }
       ],
       "brigades": 1,
       "description": "2nd Brigade, Department of the Gulf"
-    },
-    "CS": {
-      "corps": 1,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "C.",
-          "last_name": "Breckinridge",
-          "fullname": "John C. Breckinridge"
-        }
-      ],
-      "description": "Breckinridge's Corps",
-      "casualties": 478
     }
   },
-  "result": "Union",
-  "battle": "LA003",
+  "campaign": "Operations Against Baton Rouge [July-August 1862]",
+  "end_date": "1862-08-05",
+  "description": "In an attempt to regain control of the state, Confederates wished to recapture the capital at Baton Rouge. Maj. Gen. John C. Breckinridge planned a combined land/water expedition with his corps and CSS Ram Arkansas. Advancing west from Camp Moore, the Confederate land forces, coming from the east, were only ten miles away on August 4. They reached the outskirts of the capital early in the morning, formed for an attack in two divisions, and began to drive back each Union unit they encountered. Then, Union gunboats in the river began shelling the Confederates. The Arkansas could have neutralized the Union gunboats, but her engines failed and she did not participate in the battle. Federal land forces, in the meantime, fell back to a more defensible line, and the Union commander, Brig. Gen. Thomas Williams, was killed soon after. The new commander, Col. Thomas W. Cahill, ordered a retreat to a prepared defensive line nearer the river and within the gunboats' protection. Rebels assailed the new line, but finally the Federals forced them to retire. The next day the Arkansas's engines failed again as she closed on the Union gunboats; she was blown up and scuttled by her crew. The Confederates failed to recapture the state capital.",
   "location": [
     {
       "state": "LA",
       "place": "East Baton Rouge Parish"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/la003.htm"
+  "battle_name": "Baton Rouge",
+  "start_date": "1862-08-05",
+  "casualties": 849,
+  "principal_commanders": "Brig. Gen. Thomas Williams [US]; Maj. Gen. John C. Breckinridge [CS]"
 }

@@ -1,106 +1,106 @@
 {
-  "end_date": "1862-05-27",
-  "casualties": 1327,
-  "casualties_text": "1,327 total (US 397; CS 930)",
+  "battle": "VA013",
+  "operation": false,
+  "cwsac_reference": "VA013",
   "forces": {
     "Confederate": {
       "casualties": 930,
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Lawrence",
-          "navy": false,
           "middle_name": "O'B.",
+          "last_name": "Branch",
+          "first_name": "Lawrence",
+          "rank": "Brigadier General",
           "fullname": "Lawrence O'B. Branch",
-          "last_name": "Branch"
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     },
     "US": {
       "casualties": 397,
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Fitz",
-          "suffix": "",
-          "navy": false,
           "middle_name": "John",
           "last_name": "Porter",
-          "fullname": "Fitz John Porter"
+          "suffix": "",
+          "first_name": "Fitz",
+          "rank": "Brigadier General",
+          "fullname": "Fitz John Porter",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     }
   },
-  "cwsac_reference": "VA013",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va013.htm",
   "forces_text": "Divisions",
-  "start_date": "1862-05-27",
-  "preservation": "III.3",
+  "casualties_text": "1,327 total (US 397; CS 930)",
   "results_text": "Union victory",
-  "description": "On May 27, 1862, elements of Brig. Gen. Fitz John Porter's V Corps extended north to protect the right flank of McClellan's Union army that now straddled the Chickahominy River. Porter's objective was to cut the railroad and to open the Telegraph Road for Union reinforcements under Maj. Gen. Irvin McDowell that were marching south from Fredericksburg. Confederate forces, attempting to prevent this maneuver, were defeated just south of Hanover Courthouse after a stiff fight. The Union victory was moot, however, for McDowell's reinforcements were recalled to Fredericksburg upon word of Banks's rout at First Winchester.",
-  "state": "VA",
-  "significance": "C",
+  "dates": "May 27, 1862",
+  "result": "Union",
   "other_names": [
     "Slash Church"
   ],
-  "dates": "May 27, 1862",
-  "battle_name": "Hanover Court House",
-  "principal_commanders": "Brig. Gen. Fitz John Porter [US]; Brig. Gen. Lawrence O'B. Branch [CS]",
-  "campaign": "Peninsula Campaign [March-July 1862]",
+  "significance": "C",
+  "preservation": "III.3",
+  "state": "VA",
   "belligerents": {
-    "Confederate": {
+    "CS": {
       "casualties": 930,
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Lawrence",
-          "navy": false,
           "middle_name": "O'B.",
+          "last_name": "Branch",
+          "first_name": "Lawrence",
+          "rank": "Brigadier General",
           "fullname": "Lawrence O'B. Branch",
-          "last_name": "Branch"
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
+    },
+    "Confederate": {
+      "casualties": 930,
+      "divisions": 1,
+      "commanders": [
+        {
+          "middle_name": "O'B.",
+          "last_name": "Branch",
+          "first_name": "Lawrence",
+          "rank": "Brigadier General",
+          "fullname": "Lawrence O'B. Branch",
+          "navy": false
+        }
+      ]
     },
     "US": {
       "casualties": 397,
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Fitz",
-          "suffix": "",
-          "navy": false,
           "middle_name": "John",
           "last_name": "Porter",
-          "fullname": "Fitz John Porter"
-        }
-      ],
-      "divisions": 1
-    },
-    "CS": {
-      "casualties": 930,
-      "commanders": [
-        {
+          "suffix": "",
+          "first_name": "Fitz",
           "rank": "Brigadier General",
-          "first_name": "Lawrence",
-          "navy": false,
-          "middle_name": "O'B.",
-          "fullname": "Lawrence O'B. Branch",
-          "last_name": "Branch"
+          "fullname": "Fitz John Porter",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     }
   },
-  "result": "Union",
-  "battle": "VA013",
+  "campaign": "Peninsula Campaign [March-July 1862]",
+  "end_date": "1862-05-27",
+  "description": "On May 27, 1862, elements of Brig. Gen. Fitz John Porter's V Corps extended north to protect the right flank of McClellan's Union army that now straddled the Chickahominy River. Porter's objective was to cut the railroad and to open the Telegraph Road for Union reinforcements under Maj. Gen. Irvin McDowell that were marching south from Fredericksburg. Confederate forces, attempting to prevent this maneuver, were defeated just south of Hanover Courthouse after a stiff fight. The Union victory was moot, however, for McDowell's reinforcements were recalled to Fredericksburg upon word of Banks's rout at First Winchester.",
   "location": [
     {
       "state": "VA",
       "place": "Hanover County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/va013.htm"
+  "battle_name": "Hanover Court House",
+  "start_date": "1862-05-27",
+  "casualties": 1327,
+  "principal_commanders": "Brig. Gen. Fitz John Porter [US]; Brig. Gen. Lawrence O'B. Branch [CS]"
 }

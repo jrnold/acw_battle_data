@@ -1,98 +1,98 @@
 {
-  "end_date": "1864-05-20",
-  "casualties": 1500,
-  "casualties_text": "1,500 total",
+  "battle": "VA054",
+  "operation": false,
+  "cwsac_reference": "VA054",
   "forces": {
     "Confederate": {
       "commanders": [
         {
-          "rank": "General",
-          "first_name": "P.G.T.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Beauregard",
-          "fullname": "P.G.T. Beauregard"
+          "suffix": "",
+          "first_name": "P.G.T.",
+          "rank": "General",
+          "fullname": "P.G.T. Beauregard",
+          "navy": false
         }
       ]
     },
     "US": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Benjamin",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Butler",
-          "fullname": "Benjamin Butler"
+          "suffix": "",
+          "first_name": "Benjamin",
+          "rank": "Major General",
+          "fullname": "Benjamin Butler",
+          "navy": false
         }
       ]
     }
   },
-  "strength": 10000,
-  "cwsac_reference": "VA054",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va054.htm",
   "forces_text": "Divisions (10,000 total)",
-  "start_date": "1864-05-20",
-  "preservation": "II.3",
+  "strength": 10000,
+  "casualties_text": "1,500 total",
   "results_text": "Confederate victory",
-  "description": "On May 20, Confederate forces under Gen. P.G.T. Beauregard attacked Butler's Bermuda Hundred line near Ware Bottom Church. About 10,000 troops were involved in this action. After driving back Butler's advanced pickets, the Confederates constructed the Howlett Line, effectively bottling up the Federals at Bermuda Hundred. Confederate victories at Proctor's Creek and Ware Bottom Church enabled Beauregard to detach strong reinforcements for Lee's army in time for the fighting at Cold Harbor.",
-  "state": "VA",
-  "significance": "C",
-  "other_names": null,
   "dates": "May 20, 1864",
-  "battle_name": "Ware Bottom Church",
-  "principal_commanders": "Maj. Gen. Benjamin Butler [US]; Gen. P.G.T. Beauregard [CS]",
+  "result": "Confederate",
+  "other_names": null,
+  "significance": "C",
+  "preservation": "II.3",
+  "state": "VA",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Beauregard",
+          "suffix": "",
+          "first_name": "P.G.T.",
+          "rank": "General",
+          "fullname": "P.G.T. Beauregard",
+          "navy": false
+        }
+      ]
+    },
+    "Confederate": {
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Beauregard",
+          "suffix": "",
+          "first_name": "P.G.T.",
+          "rank": "General",
+          "fullname": "P.G.T. Beauregard",
+          "navy": false
+        }
+      ]
+    },
+    "US": {
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Butler",
+          "suffix": "",
+          "first_name": "Benjamin",
+          "rank": "Major General",
+          "fullname": "Benjamin Butler",
+          "navy": false
+        }
+      ]
+    }
+  },
+  "campaign": "Bermuda Hundred Campaign [May 1864]",
+  "end_date": "1864-05-20",
+  "description": "On May 20, Confederate forces under Gen. P.G.T. Beauregard attacked Butler's Bermuda Hundred line near Ware Bottom Church. About 10,000 troops were involved in this action. After driving back Butler's advanced pickets, the Confederates constructed the Howlett Line, effectively bottling up the Federals at Bermuda Hundred. Confederate victories at Proctor's Creek and Ware Bottom Church enabled Beauregard to detach strong reinforcements for Lee's army in time for the fighting at Cold Harbor.",
   "location": [
     {
       "state": "VA",
       "place": "Chesterfield County"
     }
   ],
-  "belligerents": {
-    "Confederate": {
-      "commanders": [
-        {
-          "rank": "General",
-          "first_name": "P.G.T.",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Beauregard",
-          "fullname": "P.G.T. Beauregard"
-        }
-      ]
-    },
-    "US": {
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Benjamin",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Butler",
-          "fullname": "Benjamin Butler"
-        }
-      ]
-    },
-    "CS": {
-      "commanders": [
-        {
-          "rank": "General",
-          "first_name": "P.G.T.",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Beauregard",
-          "fullname": "P.G.T. Beauregard"
-        }
-      ]
-    }
-  },
-  "result": "Confederate",
-  "battle": "VA054",
-  "campaign": "Bermuda Hundred Campaign [May 1864]",
-  "url": "http://www.nps.gov/hps/abpp/battles/va054.htm"
+  "battle_name": "Ware Bottom Church",
+  "start_date": "1864-05-20",
+  "casualties": 1500,
+  "principal_commanders": "Maj. Gen. Benjamin Butler [US]; Gen. P.G.T. Beauregard [CS]"
 }

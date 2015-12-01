@@ -1,18 +1,18 @@
 {
-  "end_date": "1864-05-24",
-  "casualties": 165,
-  "casualties_text": "165 total",
+  "battle": "VA056",
+  "operation": false,
+  "cwsac_reference": "VA056",
   "forces": {
     "Confederate": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Fitzhugh",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Lee",
-          "fullname": "Fitzhugh Lee"
+          "suffix": "",
+          "first_name": "Fitzhugh",
+          "rank": "Major General",
+          "fullname": "Fitzhugh Lee",
+          "navy": false
         }
       ],
       "brigades": 1
@@ -20,45 +20,55 @@
     "US": {
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Edward",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Wild",
-          "fullname": "Edward Wild"
+          "suffix": "",
+          "first_name": "Edward",
+          "rank": "Brigadier General",
+          "fullname": "Edward Wild",
+          "navy": false
         }
       ],
       "brigades": 1
     }
   },
-  "cwsac_reference": "VA056",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va056.htm",
   "forces_text": "Brigades",
-  "start_date": "1864-05-24",
-  "preservation": "II.3",
+  "casualties_text": "165 total",
   "results_text": "Union victory",
-  "description": "On May 24, Fitzhugh Lee's cavalry division (about 3,000 men) attacked the Union supply depot at Wilson's Wharf and was repulsed by two black regiments under Brig. Gen. Edward Wild (about 1,800 men).",
-  "state": "VA",
-  "significance": "D",
+  "dates": "May 24, 1864",
+  "result": "Union",
   "other_names": [
     "Fort Pocahontas"
   ],
-  "dates": "May 24, 1864",
-  "battle_name": "Wilson's Wharf",
-  "principal_commanders": "Brig. Gen. Edward Wild [US]; Maj. Gen. Fitzhugh Lee [CS]",
-  "campaign": "Grant's Overland Campaign [May-June 1864]",
+  "significance": "D",
+  "preservation": "II.3",
+  "state": "VA",
   "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Lee",
+          "suffix": "",
+          "first_name": "Fitzhugh",
+          "rank": "Major General",
+          "fullname": "Fitzhugh Lee",
+          "navy": false
+        }
+      ],
+      "brigades": 1
+    },
     "Confederate": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Fitzhugh",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Lee",
-          "fullname": "Fitzhugh Lee"
+          "suffix": "",
+          "first_name": "Fitzhugh",
+          "rank": "Major General",
+          "fullname": "Fitzhugh Lee",
+          "navy": false
         }
       ],
       "brigades": 1
@@ -66,39 +76,29 @@
     "US": {
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Edward",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Wild",
-          "fullname": "Edward Wild"
-        }
-      ],
-      "brigades": 1
-    },
-    "CS": {
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Fitzhugh",
           "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Lee",
-          "fullname": "Fitzhugh Lee"
+          "first_name": "Edward",
+          "rank": "Brigadier General",
+          "fullname": "Edward Wild",
+          "navy": false
         }
       ],
       "brigades": 1
     }
   },
-  "result": "Union",
-  "battle": "VA056",
+  "campaign": "Grant's Overland Campaign [May-June 1864]",
+  "end_date": "1864-05-24",
+  "description": "On May 24, Fitzhugh Lee's cavalry division (about 3,000 men) attacked the Union supply depot at Wilson's Wharf and was repulsed by two black regiments under Brig. Gen. Edward Wild (about 1,800 men).",
   "location": [
     {
       "state": "VA",
       "place": "Charles City"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/va056.htm"
+  "battle_name": "Wilson's Wharf",
+  "start_date": "1864-05-24",
+  "casualties": 165,
+  "principal_commanders": "Brig. Gen. Edward Wild [US]; Maj. Gen. Fitzhugh Lee [CS]"
 }

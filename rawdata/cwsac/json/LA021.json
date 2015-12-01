@@ -1,19 +1,19 @@
 {
-  "end_date": "1864-04-23",
-  "casualties": 600,
-  "casualties_text": "600 total (US 200; CS 400)",
+  "battle": "LA021",
+  "operation": false,
+  "cwsac_reference": "LA021",
   "forces": {
     "Confederate": {
       "casualties": 400,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Hamilton",
-          "suffix": "",
-          "navy": false,
           "middle_name": "P.",
           "last_name": "Bee",
-          "fullname": "Hamilton P. Bee"
+          "suffix": "",
+          "first_name": "Hamilton",
+          "rank": "Brigadier General",
+          "fullname": "Hamilton P. Bee",
+          "navy": false
         }
       ],
       "cavalry_divisions": 1,
@@ -23,90 +23,90 @@
       "casualties": 200,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Nathaniel",
-          "suffix": "",
-          "navy": false,
           "middle_name": "P.",
           "last_name": "Banks",
-          "fullname": "Nathaniel P. Banks"
+          "suffix": "",
+          "first_name": "Nathaniel",
+          "rank": "Major General",
+          "fullname": "Nathaniel P. Banks",
+          "navy": false
         }
       ],
       "description": "Red River Expeditionary Force (Banks's Department of the Gulf)"
     }
   },
-  "cwsac_reference": "LA021",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/la021.htm",
   "forces_text": "Red River Expeditionary Force (Banks's Department of the Gulf) [US]; Bee's Cavalry Division [CS]",
-  "start_date": "1864-04-23",
-  "preservation": null,
+  "casualties_text": "600 total (US 200; CS 400)",
   "results_text": "Union victory",
-  "description": "Near the end of the Red River Expedition, Maj. Gen. Nathaniel P. Banks's army evacuated Grand Ecore and retreated to Alexandria, pursued by Confederate forces. Banks's advance party, commanded by Brig. Gen. William H. Emory, encountered Brig. Gen. Hamilton P. Bee's cavalry division near Monett's Ferry (Cane River Crossing) on the morning of April 23. Bee had been ordered to dispute Emory's crossing, and he placed his men so that natural features covered both his flanks. Reluctant to assault the Rebels in their strong position, Emory demonstrated in front of the Confederate lines, while two brigades went in search of another crossing. One brigade found a ford, crossed, and attacked the Rebels in their flank. Bee had to retreat. Banks's men laid pontoon bridges and, by the next day, had all crossed the river. The Confederates at Monett's Ferry missed an opportunity to destroy or capture Banks's army.",
-  "state": "LA",
-  "significance": "D",
+  "dates": "April 23, 1864",
+  "result": "Union",
   "other_names": [
     "Cane River Crossing"
   ],
-  "dates": "April 23, 1864",
-  "battle_name": "Monett's Ferry",
-  "principal_commanders": "Maj. Gen. Nathaniel P. Banks [US]; Brig. Gen. Hamilton P. Bee [CS]",
-  "campaign": "Red River Campaign [March-April 1864]",
+  "significance": "D",
+  "preservation": null,
+  "state": "LA",
   "belligerents": {
-    "Confederate": {
-      "casualties": 400,
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "Hamilton",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "P.",
-          "last_name": "Bee",
-          "fullname": "Hamilton P. Bee"
-        }
-      ],
-      "cavalry_divisions": 1,
-      "description": "Bee's Cavalry Division"
-    },
-    "US": {
-      "casualties": 200,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Nathaniel",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "P.",
-          "last_name": "Banks",
-          "fullname": "Nathaniel P. Banks"
-        }
-      ],
-      "description": "Red River Expeditionary Force (Banks's Department of the Gulf)"
-    },
     "CS": {
       "casualties": 400,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Hamilton",
-          "suffix": "",
-          "navy": false,
           "middle_name": "P.",
           "last_name": "Bee",
-          "fullname": "Hamilton P. Bee"
+          "suffix": "",
+          "first_name": "Hamilton",
+          "rank": "Brigadier General",
+          "fullname": "Hamilton P. Bee",
+          "navy": false
         }
       ],
       "cavalry_divisions": 1,
       "description": "Bee's Cavalry Division"
+    },
+    "Confederate": {
+      "casualties": 400,
+      "commanders": [
+        {
+          "middle_name": "P.",
+          "last_name": "Bee",
+          "suffix": "",
+          "first_name": "Hamilton",
+          "rank": "Brigadier General",
+          "fullname": "Hamilton P. Bee",
+          "navy": false
+        }
+      ],
+      "cavalry_divisions": 1,
+      "description": "Bee's Cavalry Division"
+    },
+    "US": {
+      "casualties": 200,
+      "commanders": [
+        {
+          "middle_name": "P.",
+          "last_name": "Banks",
+          "suffix": "",
+          "first_name": "Nathaniel",
+          "rank": "Major General",
+          "fullname": "Nathaniel P. Banks",
+          "navy": false
+        }
+      ],
+      "description": "Red River Expeditionary Force (Banks's Department of the Gulf)"
     }
   },
-  "result": "Union",
-  "battle": "LA021",
+  "campaign": "Red River Campaign [March-April 1864]",
+  "end_date": "1864-04-23",
+  "description": "Near the end of the Red River Expedition, Maj. Gen. Nathaniel P. Banks's army evacuated Grand Ecore and retreated to Alexandria, pursued by Confederate forces. Banks's advance party, commanded by Brig. Gen. William H. Emory, encountered Brig. Gen. Hamilton P. Bee's cavalry division near Monett's Ferry (Cane River Crossing) on the morning of April 23. Bee had been ordered to dispute Emory's crossing, and he placed his men so that natural features covered both his flanks. Reluctant to assault the Rebels in their strong position, Emory demonstrated in front of the Confederate lines, while two brigades went in search of another crossing. One brigade found a ford, crossed, and attacked the Rebels in their flank. Bee had to retreat. Banks's men laid pontoon bridges and, by the next day, had all crossed the river. The Confederates at Monett's Ferry missed an opportunity to destroy or capture Banks's army.",
   "location": [
     {
       "state": "LA",
       "place": "Natchitoches Parish"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/la021.htm"
+  "battle_name": "Monett's Ferry",
+  "start_date": "1864-04-23",
+  "casualties": 600,
+  "principal_commanders": "Maj. Gen. Nathaniel P. Banks [US]; Brig. Gen. Hamilton P. Bee [CS]"
 }

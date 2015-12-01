@@ -1,147 +1,147 @@
 {
-  "end_date": "1865-03-10",
-  "casualties": 269,
-  "casualties_text": "269 total (US 183; CS 86)",
+  "battle": "NC018",
+  "operation": false,
+  "cwsac_reference": "NC018",
   "forces": {
     "Confederate": {
       "casualties": 86,
+      "strength_min": 3000,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Joseph",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Wheeler",
-          "fullname": "Joseph Wheeler"
+          "suffix": "",
+          "first_name": "Joseph",
+          "rank": "Major General",
+          "fullname": "Joseph Wheeler",
+          "navy": false
         },
         {
-          "rank": "Lieutenant General",
-          "first_name": "Wade",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Hampton",
-          "fullname": "Wade Hampton"
+          "suffix": "",
+          "first_name": "Wade",
+          "rank": "Lieutenant General",
+          "fullname": "Wade Hampton",
+          "navy": false
         }
       ],
       "description": "Wheeler's and Hampton's Cavalry Division (3,000)",
-      "strength_min": 3000,
       "strength_max": 3000
     },
     "US": {
       "casualties": 183,
+      "strength_min": 1850,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "H.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Judson",
           "last_name": "Kilpatrick",
-          "fullname": "H. Judson Kilpatrick"
+          "suffix": "",
+          "first_name": "H.",
+          "rank": "Brigadier General",
+          "fullname": "H. Judson Kilpatrick",
+          "navy": false
         }
       ],
       "description": "Kilpatrick's Cavalry Division (1,850)",
-      "strength_min": 1850,
       "strength_max": 1850
     }
   },
-  "cwsac_reference": "NC018",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/nc018.htm",
   "forces_text": "Kilpatrick's Cavalry Division (1,850) [US]; Wheeler's and Hampton's Cavalry Division (3,000) [CS]",
-  "start_date": "1865-03-10",
-  "preservation": "II.4",
+  "casualties_text": "269 total (US 183; CS 86)",
   "results_text": "Inconclusive",
-  "description": "As Sherman's army advanced into North Carolina, Kilpatrick's Cavalry Division screened its left flank. On the evening of March 9, two of Kilpatrick's brigades encamped near the Charles Monroe House in Cumberland (now Hoke) County. Early on the 10th, Confederate cavalry under the command of Lt. Gen. Wade Hampton surprised the Federals in their camps, driving them back in confusion and capturing wagons and artillery. The Federals regrouped and counterattacked, regaining their artillery and camps after a desperate fight. With Union reinforcements on the way, the Confederates withdrew.",
-  "state": "NC",
-  "significance": "D",
+  "dates": "March 10, 1865",
+  "result": "Inconclusive",
   "other_names": [
     "Fayetteville Road",
     "Blue's Farm"
   ],
-  "dates": "March 10, 1865",
-  "battle_name": "Monroe's Cross",
-  "principal_commanders": "Brig. Gen. H. Judson Kilpatrick [US]; Maj. Gen. Joseph Wheeler and Lt. Gen. Wade Hampton [CS]",
-  "campaign": "Carolinas Campaign [February-March 1865]",
+  "significance": "D",
+  "preservation": "II.4",
+  "state": "NC",
   "belligerents": {
-    "Confederate": {
+    "CS": {
       "casualties": 86,
+      "strength_min": 3000,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Joseph",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Wheeler",
-          "fullname": "Joseph Wheeler"
+          "suffix": "",
+          "first_name": "Joseph",
+          "rank": "Major General",
+          "fullname": "Joseph Wheeler",
+          "navy": false
         },
         {
-          "rank": "Lieutenant General",
-          "first_name": "Wade",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Hampton",
-          "fullname": "Wade Hampton"
+          "suffix": "",
+          "first_name": "Wade",
+          "rank": "Lieutenant General",
+          "fullname": "Wade Hampton",
+          "navy": false
         }
       ],
       "description": "Wheeler's and Hampton's Cavalry Division (3,000)",
+      "strength_max": 3000
+    },
+    "Confederate": {
+      "casualties": 86,
       "strength_min": 3000,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Wheeler",
+          "suffix": "",
+          "first_name": "Joseph",
+          "rank": "Major General",
+          "fullname": "Joseph Wheeler",
+          "navy": false
+        },
+        {
+          "middle_name": "",
+          "last_name": "Hampton",
+          "suffix": "",
+          "first_name": "Wade",
+          "rank": "Lieutenant General",
+          "fullname": "Wade Hampton",
+          "navy": false
+        }
+      ],
+      "description": "Wheeler's and Hampton's Cavalry Division (3,000)",
       "strength_max": 3000
     },
     "US": {
       "casualties": 183,
+      "strength_min": 1850,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "H.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Judson",
           "last_name": "Kilpatrick",
-          "fullname": "H. Judson Kilpatrick"
+          "suffix": "",
+          "first_name": "H.",
+          "rank": "Brigadier General",
+          "fullname": "H. Judson Kilpatrick",
+          "navy": false
         }
       ],
       "description": "Kilpatrick's Cavalry Division (1,850)",
-      "strength_min": 1850,
       "strength_max": 1850
-    },
-    "CS": {
-      "casualties": 86,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Joseph",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Wheeler",
-          "fullname": "Joseph Wheeler"
-        },
-        {
-          "rank": "Lieutenant General",
-          "first_name": "Wade",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Hampton",
-          "fullname": "Wade Hampton"
-        }
-      ],
-      "description": "Wheeler's and Hampton's Cavalry Division (3,000)",
-      "strength_min": 3000,
-      "strength_max": 3000
     }
   },
-  "result": "Inconclusive",
-  "battle": "NC018",
+  "campaign": "Carolinas Campaign [February-March 1865]",
+  "end_date": "1865-03-10",
+  "description": "As Sherman's army advanced into North Carolina, Kilpatrick's Cavalry Division screened its left flank. On the evening of March 9, two of Kilpatrick's brigades encamped near the Charles Monroe House in Cumberland (now Hoke) County. Early on the 10th, Confederate cavalry under the command of Lt. Gen. Wade Hampton surprised the Federals in their camps, driving them back in confusion and capturing wagons and artillery. The Federals regrouped and counterattacked, regaining their artillery and camps after a desperate fight. With Union reinforcements on the way, the Confederates withdrew.",
   "location": [
     {
       "state": "NC",
       "place": "Hoke County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/nc018.htm"
+  "battle_name": "Monroe's Cross",
+  "start_date": "1865-03-10",
+  "casualties": 269,
+  "principal_commanders": "Brig. Gen. H. Judson Kilpatrick [US]; Maj. Gen. Joseph Wheeler and Lt. Gen. Wade Hampton [CS]"
 }

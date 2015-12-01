@@ -1,104 +1,101 @@
 {
-  "end_date": "1862-06-08",
-  "casualties": 88,
-  "casualties_text": "88 total (US 23; CS 65)",
+  "battle": "TN005",
+  "operation": false,
+  "cwsac_reference": "TN005",
   "forces": {
     "Confederate": {
       "casualties": 65,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "E.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Kirby",
           "last_name": "Smith",
-          "fullname": "E. Kirby Smith"
+          "suffix": "",
+          "first_name": "E.",
+          "rank": "Major General",
+          "fullname": "E. Kirby Smith",
+          "navy": false
         }
       ],
       "description": "Department"
     },
     "US": {
       "casualties": 23,
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Negley",
-          "fullname": "James Negley"
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Brigadier General",
+          "fullname": "James Negley",
+          "navy": false
         }
       ],
-      "divisions": 1,
       "description": "Division"
     }
   },
-  "cwsac_reference": "TN005",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/tn005.htm",
   "forces_text": "Division [US]; Department [CS]",
-  "start_date": "1862-06-07",
-  "preservation": "IV.2",
+  "casualties_text": "88 total (US 23; CS 65)",
   "results_text": "Union victory",
-  "description": "In late Spring 1862, the Confederacy split its forces in Tennessee into several small commands in an attempt to complicate Federal operations. The Union had to redistribute its forces to counter the Confederate command structure changes. Maj. Gen. Ormsby Mitchel received orders to go to Huntsville, Alabama, with his division to repair railroads in the area. Soon, he occupied more than 100 miles along the Nashville & Chattanooga and Memphis & Charleston railroads. In May, Mitchel and his men sparred with Maj. Gen. Edmund Kirby Smith's men. After Mitchel received command of all Federal troops between Nashville and Huntsville, on May 29, he ordered Brig. Gen. James Negley with a small division to lead an expedition to capture Chattanooga. This force arrived before Chattanooga on June 7. Negley ordered the 79th Pennsylvania Volunteers out to reconnoiter. It found the Confederates entrenched on the opposite side of the river along the banks and atop Cameron Hill. Negley brought up two artillery batteries to open fire on the Rebel troops and the town and sent infantry to the river bank to act as sharpshooters. The Union bombardment of Chattanooga continued throughout the 7th and until noon on the 8th. The Confederates replied, but it was uncoordinated since the undisciplined gunners were allowed to do as they wished. On June 10, Smith, who had arrived on the 8th, reported that Negley had withdrawn and the Confederate loss was minor. This attack on Chattanooga was a warning that Union troops could mount assaults when they wanted.",
-  "state": "TN",
-  "significance": "D",
-  "other_names": null,
   "dates": "June 7-8, 1862",
-  "battle_name": "Chattanooga",
-  "principal_commanders": "Brig. Gen. James Negley [US]; Maj. Gen. E. Kirby Smith [CS]",
-  "campaign": "Confederate Heartland Offensive [June-October 1862]",
+  "result": "Union",
+  "other_names": null,
+  "significance": "D",
+  "preservation": "IV.2",
+  "state": "TN",
   "belligerents": {
-    "Confederate": {
-      "casualties": 65,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "E.",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "Kirby",
-          "last_name": "Smith",
-          "fullname": "E. Kirby Smith"
-        }
-      ],
-      "description": "Department"
-    },
-    "US": {
-      "casualties": 23,
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Negley",
-          "fullname": "James Negley"
-        }
-      ],
-      "divisions": 1,
-      "description": "Division"
-    },
     "CS": {
       "casualties": 65,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "E.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Kirby",
           "last_name": "Smith",
-          "fullname": "E. Kirby Smith"
+          "suffix": "",
+          "first_name": "E.",
+          "rank": "Major General",
+          "fullname": "E. Kirby Smith",
+          "navy": false
         }
       ],
       "description": "Department"
+    },
+    "Confederate": {
+      "casualties": 65,
+      "commanders": [
+        {
+          "middle_name": "Kirby",
+          "last_name": "Smith",
+          "suffix": "",
+          "first_name": "E.",
+          "rank": "Major General",
+          "fullname": "E. Kirby Smith",
+          "navy": false
+        }
+      ],
+      "description": "Department"
+    },
+    "US": {
+      "casualties": 23,
+      "divisions": 1,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Negley",
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Brigadier General",
+          "fullname": "James Negley",
+          "navy": false
+        }
+      ],
+      "description": "Division"
     }
   },
-  "result": "Union",
-  "battle": "TN005",
+  "campaign": "Confederate Heartland Offensive [June-October 1862]",
+  "end_date": "1862-06-08",
+  "description": "In late Spring 1862, the Confederacy split its forces in Tennessee into several small commands in an attempt to complicate Federal operations. The Union had to redistribute its forces to counter the Confederate command structure changes. Maj. Gen. Ormsby Mitchel received orders to go to Huntsville, Alabama, with his division to repair railroads in the area. Soon, he occupied more than 100 miles along the Nashville & Chattanooga and Memphis & Charleston railroads. In May, Mitchel and his men sparred with Maj. Gen. Edmund Kirby Smith's men. After Mitchel received command of all Federal troops between Nashville and Huntsville, on May 29, he ordered Brig. Gen. James Negley with a small division to lead an expedition to capture Chattanooga. This force arrived before Chattanooga on June 7. Negley ordered the 79th Pennsylvania Volunteers out to reconnoiter. It found the Confederates entrenched on the opposite side of the river along the banks and atop Cameron Hill. Negley brought up two artillery batteries to open fire on the Rebel troops and the town and sent infantry to the river bank to act as sharpshooters. The Union bombardment of Chattanooga continued throughout the 7th and until noon on the 8th. The Confederates replied, but it was uncoordinated since the undisciplined gunners were allowed to do as they wished. On June 10, Smith, who had arrived on the 8th, reported that Negley had withdrawn and the Confederate loss was minor. This attack on Chattanooga was a warning that Union troops could mount assaults when they wanted.",
   "location": [
     {
       "state": "TN",
@@ -109,5 +106,8 @@
       "place": "City of Chattanooga"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/tn005.htm"
+  "battle_name": "Chattanooga",
+  "start_date": "1862-06-07",
+  "casualties": 88,
+  "principal_commanders": "Brig. Gen. James Negley [US]; Maj. Gen. E. Kirby Smith [CS]"
 }

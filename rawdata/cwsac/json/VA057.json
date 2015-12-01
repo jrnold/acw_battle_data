@@ -1,57 +1,54 @@
 {
-  "end_date": "1864-05-30",
-  "casualties": 2200,
-  "casualties_text": "2,200 total (US 1,100; CS 1,100)",
+  "battle": "VA057",
+  "operation": false,
+  "cwsac_reference": "VA057",
   "forces": {
     "Confederate": {
-      "corps": 1,
+      "casualties": 1100,
       "commanders": [
         {
-          "rank": "General",
-          "first_name": "Robert",
-          "suffix": "",
-          "navy": false,
           "middle_name": "E.",
           "last_name": "Lee",
-          "fullname": "Robert E. Lee"
+          "suffix": "",
+          "first_name": "Robert",
+          "rank": "General",
+          "fullname": "Robert E. Lee",
+          "navy": false
         }
       ],
-      "casualties": 1100
+      "corps": 1
     },
     "US": {
-      "corps": 1,
+      "casualties": 1100,
       "commanders": [
         {
-          "rank": "Lieutenant General",
-          "first_name": "Ulysses",
-          "suffix": "",
-          "navy": false,
           "middle_name": "S.",
           "last_name": "Grant",
-          "fullname": "Ulysses S. Grant"
+          "suffix": "",
+          "first_name": "Ulysses",
+          "rank": "Lieutenant General",
+          "fullname": "Ulysses S. Grant",
+          "navy": false
         },
         {
-          "rank": "Major General",
-          "first_name": "George",
-          "suffix": "",
-          "navy": false,
           "middle_name": "G.",
           "last_name": "Meade",
-          "fullname": "George G. Meade"
+          "suffix": "",
+          "first_name": "George",
+          "rank": "Major General",
+          "fullname": "George G. Meade",
+          "navy": false
         }
       ],
-      "casualties": 1100
+      "corps": 1
     }
   },
-  "cwsac_reference": "VA057",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va057.htm",
   "forces_text": "Corps",
-  "start_date": "1864-05-28",
-  "preservation": "IV.1",
+  "casualties_text": "2,200 total (US 1,100; CS 1,100)",
   "results_text": "Inconclusive",
-  "description": "Operations along Totopotomoy Creek opened with cavalry combats at the Pamunkey River crossing at Dabney's Ferry (Hanovertown) and at Crump's Creek on May 27. During the cavalry fight at Haw's Shop on May 28, Union and Confederate infantry arrived in the vicinity. The Confederates entrenched behind Totopotomoy Creek. On the 29th, the Union II, IX, and V Corps probed Lee's position along the creek, while the VI Corps felt its way toward Hanover Court House. Early on the 30th, the VI Corps turned south to come in on the far right flank of the Union line (II Corps) but bogged down in swampy Crump's Creek without getting into position. The II Corps forced a crossing of Totopotomoy Creek in two places, capturing the first line of Confederate trenches, but the advance was stopped at the main line. The IX Corps maneuvered into position on the left of the II Corps, driving back Confederate pickets on the Shady Grove Road. In the meantime, the V Corps, moving near Bethesda Church on the far left flank of the Union army, was attacked by Early's corps. The Federals were driven back to Shady Grove Road after heavy fighting. Confederate Brig. Gen. George Doles was killed by a sharpshooter near Bethesda Church on June 2.",
-  "state": "VA",
-  "significance": "B",
+  "dates": "May 28-30, 1864",
+  "result": "Inconclusive",
   "other_names": [
     "Bethesda Church",
     "Crumps Creek",
@@ -59,73 +56,76 @@
     "Shady Grove Road",
     "Hanovertown"
   ],
-  "dates": "May 28-30, 1864",
-  "battle_name": "Totopotomoy Creek",
-  "principal_commanders": "Lt. Gen. Ulysses S. Grant and Maj. Gen. George G. Meade [US]; Gen. Robert E. Lee [CS]",
-  "campaign": "Grant's Overland Campaign [May-June 1864]",
+  "significance": "B",
+  "preservation": "IV.1",
+  "state": "VA",
   "belligerents": {
-    "Confederate": {
-      "corps": 1,
+    "CS": {
+      "casualties": 1100,
       "commanders": [
         {
-          "rank": "General",
-          "first_name": "Robert",
-          "suffix": "",
-          "navy": false,
           "middle_name": "E.",
           "last_name": "Lee",
-          "fullname": "Robert E. Lee"
+          "suffix": "",
+          "first_name": "Robert",
+          "rank": "General",
+          "fullname": "Robert E. Lee",
+          "navy": false
         }
       ],
-      "casualties": 1100
+      "corps": 1
+    },
+    "Confederate": {
+      "casualties": 1100,
+      "commanders": [
+        {
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "suffix": "",
+          "first_name": "Robert",
+          "rank": "General",
+          "fullname": "Robert E. Lee",
+          "navy": false
+        }
+      ],
+      "corps": 1
     },
     "US": {
-      "corps": 1,
+      "casualties": 1100,
       "commanders": [
         {
-          "rank": "Lieutenant General",
-          "first_name": "Ulysses",
-          "suffix": "",
-          "navy": false,
           "middle_name": "S.",
           "last_name": "Grant",
-          "fullname": "Ulysses S. Grant"
+          "suffix": "",
+          "first_name": "Ulysses",
+          "rank": "Lieutenant General",
+          "fullname": "Ulysses S. Grant",
+          "navy": false
         },
         {
-          "rank": "Major General",
-          "first_name": "George",
-          "suffix": "",
-          "navy": false,
           "middle_name": "G.",
           "last_name": "Meade",
-          "fullname": "George G. Meade"
-        }
-      ],
-      "casualties": 1100
-    },
-    "CS": {
-      "corps": 1,
-      "commanders": [
-        {
-          "rank": "General",
-          "first_name": "Robert",
           "suffix": "",
-          "navy": false,
-          "middle_name": "E.",
-          "last_name": "Lee",
-          "fullname": "Robert E. Lee"
+          "first_name": "George",
+          "rank": "Major General",
+          "fullname": "George G. Meade",
+          "navy": false
         }
       ],
-      "casualties": 1100
+      "corps": 1
     }
   },
-  "result": "Inconclusive",
-  "battle": "VA057",
+  "campaign": "Grant's Overland Campaign [May-June 1864]",
+  "end_date": "1864-05-30",
+  "description": "Operations along Totopotomoy Creek opened with cavalry combats at the Pamunkey River crossing at Dabney's Ferry (Hanovertown) and at Crump's Creek on May 27. During the cavalry fight at Haw's Shop on May 28, Union and Confederate infantry arrived in the vicinity. The Confederates entrenched behind Totopotomoy Creek. On the 29th, the Union II, IX, and V Corps probed Lee's position along the creek, while the VI Corps felt its way toward Hanover Court House. Early on the 30th, the VI Corps turned south to come in on the far right flank of the Union line (II Corps) but bogged down in swampy Crump's Creek without getting into position. The II Corps forced a crossing of Totopotomoy Creek in two places, capturing the first line of Confederate trenches, but the advance was stopped at the main line. The IX Corps maneuvered into position on the left of the II Corps, driving back Confederate pickets on the Shady Grove Road. In the meantime, the V Corps, moving near Bethesda Church on the far left flank of the Union army, was attacked by Early's corps. The Federals were driven back to Shady Grove Road after heavy fighting. Confederate Brig. Gen. George Doles was killed by a sharpshooter near Bethesda Church on June 2.",
   "location": [
     {
       "state": "VA",
       "place": "Hanover County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/va057.htm"
+  "battle_name": "Totopotomoy Creek",
+  "start_date": "1864-05-28",
+  "casualties": 2200,
+  "principal_commanders": "Lt. Gen. Ulysses S. Grant and Maj. Gen. George G. Meade [US]; Gen. Robert E. Lee [CS]"
 }

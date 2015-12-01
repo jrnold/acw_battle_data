@@ -1,18 +1,18 @@
 {
-  "end_date": "1863-06-30",
-  "casualties": 330,
-  "casualties_text": "330 total",
+  "battle": "PA001",
+  "operation": false,
+  "cwsac_reference": "PA001",
   "forces": {
     "Confederate": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "J.E.B.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Stuart",
-          "fullname": "J.E.B. Stuart"
+          "suffix": "",
+          "first_name": "J.E.B.",
+          "rank": "Major General",
+          "fullname": "J.E.B. Stuart",
+          "navy": false
         }
       ],
       "brigades": 1
@@ -20,83 +20,83 @@
     "US": {
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "H.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Judson",
           "last_name": "Kilpatrick",
-          "fullname": "H. Judson Kilpatrick"
+          "suffix": "",
+          "first_name": "H.",
+          "rank": "Brigadier General",
+          "fullname": "H. Judson Kilpatrick",
+          "navy": false
         }
       ],
       "brigades": 1
     }
   },
-  "cwsac_reference": "PA001",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/pa001.htm",
   "forces_text": "Brigades",
-  "start_date": "1863-06-30",
-  "preservation": null,
+  "casualties_text": "330 total",
   "results_text": "Inconclusive",
-  "description": "Maj. Gen. J.E.B. Stuart's cavalry, which was riding north to get around the Union army, attacked a Union cavalry regiment, driving it through the streets of Hanover. Brig. Gen. Farnsworth's brigade arrived and counterattacked, routing the Confederate vanguard and nearly capturing Stuart himself. Stuart counterattacked. Reinforced by Brig. Gen. George A. Custer's brigade, Farnsworth held his ground, and a stalemate ensued. Stuart was forced to continue north and east to get around the Union cavalry, further delaying his attempt to rejoin Lee's army which was then concentrating at Cashtown Gap west of Gettysburg.",
-  "state": "PA",
-  "significance": "C",
-  "other_names": null,
   "dates": "June 30, 1863",
-  "battle_name": "Hanover",
-  "principal_commanders": "Brig. Gen. H. Judson Kilpatrick [US]; Maj. Gen. J.E.B. Stuart [CS]",
-  "campaign": "Gettysburg Campaign [June-July 1863]",
+  "result": "Inconclusive",
+  "other_names": null,
+  "significance": "C",
+  "preservation": null,
+  "state": "PA",
   "belligerents": {
-    "Confederate": {
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "J.E.B.",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Stuart",
-          "fullname": "J.E.B. Stuart"
-        }
-      ],
-      "brigades": 1
-    },
-    "US": {
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "H.",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "Judson",
-          "last_name": "Kilpatrick",
-          "fullname": "H. Judson Kilpatrick"
-        }
-      ],
-      "brigades": 1
-    },
     "CS": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "J.E.B.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Stuart",
-          "fullname": "J.E.B. Stuart"
+          "suffix": "",
+          "first_name": "J.E.B.",
+          "rank": "Major General",
+          "fullname": "J.E.B. Stuart",
+          "navy": false
+        }
+      ],
+      "brigades": 1
+    },
+    "Confederate": {
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Stuart",
+          "suffix": "",
+          "first_name": "J.E.B.",
+          "rank": "Major General",
+          "fullname": "J.E.B. Stuart",
+          "navy": false
+        }
+      ],
+      "brigades": 1
+    },
+    "US": {
+      "commanders": [
+        {
+          "middle_name": "Judson",
+          "last_name": "Kilpatrick",
+          "suffix": "",
+          "first_name": "H.",
+          "rank": "Brigadier General",
+          "fullname": "H. Judson Kilpatrick",
+          "navy": false
         }
       ],
       "brigades": 1
     }
   },
-  "result": "Inconclusive",
-  "battle": "PA001",
+  "campaign": "Gettysburg Campaign [June-July 1863]",
+  "end_date": "1863-06-30",
+  "description": "Maj. Gen. J.E.B. Stuart's cavalry, which was riding north to get around the Union army, attacked a Union cavalry regiment, driving it through the streets of Hanover. Brig. Gen. Farnsworth's brigade arrived and counterattacked, routing the Confederate vanguard and nearly capturing Stuart himself. Stuart counterattacked. Reinforced by Brig. Gen. George A. Custer's brigade, Farnsworth held his ground, and a stalemate ensued. Stuart was forced to continue north and east to get around the Union cavalry, further delaying his attempt to rejoin Lee's army which was then concentrating at Cashtown Gap west of Gettysburg.",
   "location": [
     {
       "state": "PA",
       "place": "York County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/pa001.htm"
+  "battle_name": "Hanover",
+  "start_date": "1863-06-30",
+  "casualties": 330,
+  "principal_commanders": "Brig. Gen. H. Judson Kilpatrick [US]; Maj. Gen. J.E.B. Stuart [CS]"
 }

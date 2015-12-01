@@ -1,100 +1,100 @@
 {
-  "end_date": "1863-06-09",
-  "casualties": 1090,
-  "casualties_text": "1,090 total",
+  "battle": "VA035",
+  "operation": false,
+  "cwsac_reference": "VA035",
   "forces": {
     "Confederate": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "J.E.B.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Stuart",
-          "fullname": "J.E.B. Stuart"
+          "suffix": "",
+          "first_name": "J.E.B.",
+          "rank": "Major General",
+          "fullname": "J.E.B. Stuart",
+          "navy": false
         }
       ]
     },
     "US": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Alfred",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Pleasonton",
-          "fullname": "Alfred Pleasonton"
+          "suffix": "",
+          "first_name": "Alfred",
+          "rank": "Major General",
+          "fullname": "Alfred Pleasonton",
+          "navy": false
         }
       ]
     }
   },
-  "strength": 22000,
-  "cwsac_reference": "VA035",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va035.htm",
   "forces_text": "Corps (22,000 total)",
-  "start_date": "1863-06-09",
-  "preservation": "I.3",
+  "strength": 22000,
+  "casualties_text": "1,090 total",
   "results_text": "Inconclusive",
-  "description": "At dawn June 9, the Union cavalry corps under Maj. Gen. Alfred Pleasonton launched a surprise attack on Stuart's cavalry at Brandy Station. After an all-day fight in which fortunes changed repeatedly, the Federals retired without discovering Lee's infantry camped near Culpeper. This battle marked the apogee of the Confederate cavalry in the East. From this point in the war, the Federal cavalry gained strength and confidence. Brandy Station was the largest cavalry battle of the war and the opening engagement of the Gettysburg Campaign.",
-  "state": "VA",
-  "significance": "B",
+  "dates": "June 9, 1863",
+  "result": "Inconclusive",
   "other_names": [
     "Fleetwood Hill"
   ],
-  "dates": "June 9, 1863",
-  "battle_name": "Brandy Station",
-  "principal_commanders": "Maj. Gen. Alfred Pleasonton [US]; Maj. Gen. J.E.B. Stuart [CS]",
+  "significance": "B",
+  "preservation": "I.3",
+  "state": "VA",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Stuart",
+          "suffix": "",
+          "first_name": "J.E.B.",
+          "rank": "Major General",
+          "fullname": "J.E.B. Stuart",
+          "navy": false
+        }
+      ]
+    },
+    "Confederate": {
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Stuart",
+          "suffix": "",
+          "first_name": "J.E.B.",
+          "rank": "Major General",
+          "fullname": "J.E.B. Stuart",
+          "navy": false
+        }
+      ]
+    },
+    "US": {
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Pleasonton",
+          "suffix": "",
+          "first_name": "Alfred",
+          "rank": "Major General",
+          "fullname": "Alfred Pleasonton",
+          "navy": false
+        }
+      ]
+    }
+  },
+  "campaign": "Gettysburg Campaign [June-July 1863]",
+  "end_date": "1863-06-09",
+  "description": "At dawn June 9, the Union cavalry corps under Maj. Gen. Alfred Pleasonton launched a surprise attack on Stuart's cavalry at Brandy Station. After an all-day fight in which fortunes changed repeatedly, the Federals retired without discovering Lee's infantry camped near Culpeper. This battle marked the apogee of the Confederate cavalry in the East. From this point in the war, the Federal cavalry gained strength and confidence. Brandy Station was the largest cavalry battle of the war and the opening engagement of the Gettysburg Campaign.",
   "location": [
     {
       "state": "VA",
       "place": "Culpeper County"
     }
   ],
-  "belligerents": {
-    "Confederate": {
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "J.E.B.",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Stuart",
-          "fullname": "J.E.B. Stuart"
-        }
-      ]
-    },
-    "US": {
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Alfred",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Pleasonton",
-          "fullname": "Alfred Pleasonton"
-        }
-      ]
-    },
-    "CS": {
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "J.E.B.",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Stuart",
-          "fullname": "J.E.B. Stuart"
-        }
-      ]
-    }
-  },
-  "result": "Inconclusive",
-  "battle": "VA035",
-  "campaign": "Gettysburg Campaign [June-July 1863]",
-  "url": "http://www.nps.gov/hps/abpp/battles/va035.htm"
+  "battle_name": "Brandy Station",
+  "start_date": "1863-06-09",
+  "casualties": 1090,
+  "principal_commanders": "Maj. Gen. Alfred Pleasonton [US]; Maj. Gen. J.E.B. Stuart [CS]"
 }

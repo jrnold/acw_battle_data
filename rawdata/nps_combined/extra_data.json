@@ -105,18 +105,21 @@
     ],
     "cwsac_only_battles": ["MO010", "M0012", "MO022", "WV010"],
     "excluded_battles": ["AL008", "AL009", "VA126", "AR018", "GA024"],
-    "forces": [
-	{"cwsac_id": "VA043", "belligerent": "Confederate",
-	 "cas_m_mean": 1600,
+    "forces": {
+	"VA043|Confederate":
+	{"cas_m_mean": 1600,
 	 "cas_kw_mean": 441,
 	 "cas_kwm_mean": null,
+	 "str_mean": 2041,
 	 "comment": "CWSAC I has 1600 Confederate prisoners; CWSS has 2041 total Confederate casualties"},
-	{"cwsac_id": "VA097", "belligerent": "Confederate",
-	 "cas_kw_mean": 500,
+	"VA097|Confederate":
+	{"cas_kw_mean": 500,
 	 "cas_m_mean": 27805,
 	 "cas_kwm_mean": null,
+	 "str_mean": 28305,
 	 "comment": "CWSAC I has more accurate data on disaggregated casualties"},
-	{"cwsac_id": "VA097", "belligerent": "US",
-	 "cas_kwm_mean": 167}
-    ]
+	"VA097|US":
+	{"cas_kwm_mean": 167,
+	 "str_mean": 100000}
+    }
 }

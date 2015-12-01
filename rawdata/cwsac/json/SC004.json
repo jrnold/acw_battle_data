@@ -1,19 +1,19 @@
 {
-  "end_date": "1863-04-07",
-  "casualties": 36,
-  "casualties_text": "36 total (US 22; CS 14)",
+  "battle": "SC004",
+  "operation": false,
+  "cwsac_reference": "SC004",
   "forces": {
     "Confederate": {
       "casualties": 14,
       "commanders": [
         {
-          "rank": "General",
-          "first_name": "P.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "G. T.",
           "last_name": "Beauregard",
-          "fullname": "P.G.T. Beauregard"
+          "suffix": "",
+          "first_name": "P.",
+          "rank": "General",
+          "fullname": "P.G.T. Beauregard",
+          "navy": false
         }
       ]
     },
@@ -21,84 +21,84 @@
       "casualties": 22,
       "commanders": [
         {
-          "rank": "Rear Admiral",
-          "first_name": "S.",
-          "suffix": "",
-          "navy": true,
           "middle_name": "F.",
           "last_name": "Du Pont",
-          "fullname": "S. F. Du Pont"
+          "suffix": "",
+          "first_name": "S.",
+          "rank": "Rear Admiral",
+          "fullname": "S. F. Du Pont",
+          "navy": true
         }
       ]
     }
   },
-  "cwsac_reference": "SC004",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/sc004.htm",
   "forces_text": "9 warships",
-  "start_date": "1863-04-07",
-  "preservation": "III.3",
+  "casualties_text": "36 total (US 22; CS 14)",
   "results_text": "Confederate victory (Warships were repulsed.)",
-  "description": "In April, Maj. Gen. David Hunter prepared his land forces on Folly, Cole's, and North Edisto Islands to cooperate with a naval bombardment of Fort Sumter. On April 7, the South Atlantic Squadron under Rear Admiral S.F. Du Pont bombarded Fort Sumter, having little impact on the Confederate defenses of Charleston Harbor. Although several of Hunter's units had embarked on transports, the infantry were not landed, and the joint operation was abandoned. The ironclad warships Keokuk, Weehawken, Passaic, Montauk, Patapsco, New Ironsides, Catskill, Nantucket, and Nahant participated in the bombardment. Keokuk, struck more than 90 times by the accurate Confederate fire, sunk the next day.",
-  "state": "SC",
-  "significance": "C",
+  "dates": "April 7, 1863",
+  "result": "Confederate",
   "other_names": [
     "Fort Sumter"
   ],
-  "dates": "April 7, 1863",
-  "battle_name": "Charleston Harbor",
-  "principal_commanders": "Rear Adm. S.F. Du Pont [US]; Gen. P.G.T. Beauregard [CS]",
-  "campaign": "Operations Against the Defenses of Charleston [April-September 1863]",
+  "significance": "C",
+  "preservation": "III.3",
+  "state": "SC",
   "belligerents": {
-    "Confederate": {
-      "casualties": 14,
-      "commanders": [
-        {
-          "rank": "General",
-          "first_name": "P.",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "G. T.",
-          "last_name": "Beauregard",
-          "fullname": "P.G.T. Beauregard"
-        }
-      ]
-    },
-    "US": {
-      "casualties": 22,
-      "commanders": [
-        {
-          "rank": "Rear Admiral",
-          "first_name": "S.",
-          "suffix": "",
-          "navy": true,
-          "middle_name": "F.",
-          "last_name": "Du Pont",
-          "fullname": "S. F. Du Pont"
-        }
-      ]
-    },
     "CS": {
       "casualties": 14,
       "commanders": [
         {
-          "rank": "General",
-          "first_name": "P.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "G. T.",
           "last_name": "Beauregard",
-          "fullname": "P.G.T. Beauregard"
+          "suffix": "",
+          "first_name": "P.",
+          "rank": "General",
+          "fullname": "P.G.T. Beauregard",
+          "navy": false
+        }
+      ]
+    },
+    "Confederate": {
+      "casualties": 14,
+      "commanders": [
+        {
+          "middle_name": "G. T.",
+          "last_name": "Beauregard",
+          "suffix": "",
+          "first_name": "P.",
+          "rank": "General",
+          "fullname": "P.G.T. Beauregard",
+          "navy": false
+        }
+      ]
+    },
+    "US": {
+      "casualties": 22,
+      "commanders": [
+        {
+          "middle_name": "F.",
+          "last_name": "Du Pont",
+          "suffix": "",
+          "first_name": "S.",
+          "rank": "Rear Admiral",
+          "fullname": "S. F. Du Pont",
+          "navy": true
         }
       ]
     }
   },
-  "result": "Confederate",
-  "battle": "SC004",
+  "campaign": "Operations Against the Defenses of Charleston [April-September 1863]",
+  "end_date": "1863-04-07",
+  "description": "In April, Maj. Gen. David Hunter prepared his land forces on Folly, Cole's, and North Edisto Islands to cooperate with a naval bombardment of Fort Sumter. On April 7, the South Atlantic Squadron under Rear Admiral S.F. Du Pont bombarded Fort Sumter, having little impact on the Confederate defenses of Charleston Harbor. Although several of Hunter's units had embarked on transports, the infantry were not landed, and the joint operation was abandoned. The ironclad warships Keokuk, Weehawken, Passaic, Montauk, Patapsco, New Ironsides, Catskill, Nantucket, and Nahant participated in the bombardment. Keokuk, struck more than 90 times by the accurate Confederate fire, sunk the next day.",
   "location": [
     {
       "state": "SC",
       "place": "Charleston County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/sc004.htm"
+  "battle_name": "Charleston Harbor",
+  "start_date": "1863-04-07",
+  "casualties": 36,
+  "principal_commanders": "Rear Adm. S.F. Du Pont [US]; Gen. P.G.T. Beauregard [CS]"
 }

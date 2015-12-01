@@ -1,102 +1,99 @@
 {
-  "end_date": "1864-05-05",
-  "casualties": 88,
-  "casualties_text": "88 total",
+  "battle": "NC013",
+  "operation": false,
+  "cwsac_reference": "NC013",
   "forces": {
     "Confederate": {
       "ships": 1,
       "commanders": [
         {
-          "rank": "Commander",
-          "first_name": "J.W.",
-          "suffix": "",
-          "navy": true,
           "middle_name": "",
           "last_name": "Cooke",
-          "fullname": "J.W. Cooke"
+          "suffix": "",
+          "first_name": "J.W.",
+          "rank": "Commander",
+          "fullname": "J.W. Cooke",
+          "navy": true
         }
       ],
       "description": "Confederate ram"
     },
     "US": {
-      "gunboats": 9,
       "commanders": [
         {
-          "rank": "Captain",
-          "first_name": "Melancton",
-          "suffix": "",
-          "navy": true,
           "middle_name": "",
           "last_name": "Smith",
-          "fullname": "Melancton Smith"
+          "suffix": "",
+          "first_name": "Melancton",
+          "rank": "Captain",
+          "fullname": "Melancton Smith",
+          "navy": true
         }
       ],
-      "description": "9 gunboats"
+      "description": "9 gunboats",
+      "gunboats": 9
     }
   },
-  "cwsac_reference": "NC013",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/nc013.htm",
   "forces_text": "9 gunboats [US]; Confederate ram [CS]",
-  "start_date": "1864-05-05",
-  "preservation": "III.3",
+  "casualties_text": "88 total",
   "results_text": "Inconclusive",
-  "description": "On May 5, CSS Albemarle fought seven blockading Union ships to a draw at the mouth of the Roanoke River. Federals recaptured the converted steamer Bombshell. USS Sassacus was badly damaged.",
-  "state": "NC",
-  "significance": "C",
-  "other_names": null,
   "dates": "May 5, 1864",
-  "battle_name": "Albemarle Sound",
-  "principal_commanders": "Capt. (Naval) Melancton Smith [US]; Cdr. J.W. Cooke [CS]",
-  "campaign": "Operations Against Plymouth [April-May 1864]",
+  "result": "Inconclusive",
+  "other_names": null,
+  "significance": "C",
+  "preservation": "III.3",
+  "state": "NC",
   "belligerents": {
-    "Confederate": {
-      "ships": 1,
-      "commanders": [
-        {
-          "rank": "Commander",
-          "first_name": "J.W.",
-          "suffix": "",
-          "navy": true,
-          "middle_name": "",
-          "last_name": "Cooke",
-          "fullname": "J.W. Cooke"
-        }
-      ],
-      "description": "Confederate ram"
-    },
-    "US": {
-      "gunboats": 9,
-      "commanders": [
-        {
-          "rank": "Captain",
-          "first_name": "Melancton",
-          "suffix": "",
-          "navy": true,
-          "middle_name": "",
-          "last_name": "Smith",
-          "fullname": "Melancton Smith"
-        }
-      ],
-      "description": "9 gunboats"
-    },
     "CS": {
       "ships": 1,
       "commanders": [
         {
-          "rank": "Commander",
-          "first_name": "J.W.",
-          "suffix": "",
-          "navy": true,
           "middle_name": "",
           "last_name": "Cooke",
-          "fullname": "J.W. Cooke"
+          "suffix": "",
+          "first_name": "J.W.",
+          "rank": "Commander",
+          "fullname": "J.W. Cooke",
+          "navy": true
         }
       ],
       "description": "Confederate ram"
+    },
+    "Confederate": {
+      "ships": 1,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Cooke",
+          "suffix": "",
+          "first_name": "J.W.",
+          "rank": "Commander",
+          "fullname": "J.W. Cooke",
+          "navy": true
+        }
+      ],
+      "description": "Confederate ram"
+    },
+    "US": {
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Smith",
+          "suffix": "",
+          "first_name": "Melancton",
+          "rank": "Captain",
+          "fullname": "Melancton Smith",
+          "navy": true
+        }
+      ],
+      "description": "9 gunboats",
+      "gunboats": 9
     }
   },
-  "result": "Inconclusive",
-  "battle": "NC013",
+  "campaign": "Operations Against Plymouth [April-May 1864]",
+  "end_date": "1864-05-05",
+  "description": "On May 5, CSS Albemarle fought seven blockading Union ships to a draw at the mouth of the Roanoke River. Federals recaptured the converted steamer Bombshell. USS Sassacus was badly damaged.",
   "location": [
     {
       "state": "NC",
@@ -107,5 +104,8 @@
       "place": "Washington County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/nc013.htm"
+  "battle_name": "Albemarle Sound",
+  "start_date": "1864-05-05",
+  "casualties": 88,
+  "principal_commanders": "Capt. (Naval) Melancton Smith [US]; Cdr. J.W. Cooke [CS]"
 }

@@ -1,19 +1,19 @@
 {
-  "end_date": "1863-08-21",
-  "casualties": 204,
-  "casualties_text": "204 total (US 164; CS 40)",
+  "battle": "KS001",
+  "operation": false,
+  "cwsac_reference": "KS001",
   "forces": {
     "Confederate": {
       "casualties": 40,
       "commanders": [
         {
-          "rank": "Lieutenant Colonel",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
           "middle_name": "C.",
           "last_name": "Quantrill",
-          "fullname": "William C. Quantrill"
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Lieutenant Colonel",
+          "fullname": "William C. Quantrill",
+          "navy": false
         }
       ],
       "description": "Quantrill's Raiders and other guerrillas"
@@ -24,66 +24,66 @@
       "description": "No Union troops"
     }
   },
-  "cwsac_reference": "KS001",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ks001.htm",
   "forces_text": "No Union troops [US]; Quantrill's Raiders and other guerrillas [CS]",
-  "start_date": "1863-08-21",
-  "preservation": "IV.2",
+  "casualties_text": "204 total (US 164; CS 40)",
   "results_text": "Confederate victory",
-  "description": "In a supposed retaliation for a Union raid on Osceola, Missouri, Lt. Col. William C. Quantrill led a force of about 300 to 400 partisans in an attack on the city of Lawrence, Kansas. His men killed civilians-men and boys-and destroyed many of the buildings. He held the town several hours and then withdrew. The \"Lawrence Massacre\" was, perhaps, the extreme example of the vicious Kansas-Missouri border warfare.",
-  "state": "KS",
-  "significance": "C",
+  "dates": "August 21, 1863",
+  "result": "Confederate",
   "other_names": [
     "Lawrence Massacre"
   ],
-  "dates": "August 21, 1863",
-  "battle_name": "Lawrence",
-  "principal_commanders": "No Union commander [US]; Lt. Col. William C. Quantrill [CS]",
-  "campaign": "Quantrill's Raid into Kansas [August 1863]",
+  "significance": "C",
+  "preservation": "IV.2",
+  "state": "KS",
   "belligerents": {
-    "Confederate": {
-      "casualties": 40,
-      "commanders": [
-        {
-          "rank": "Lieutenant Colonel",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "C.",
-          "last_name": "Quantrill",
-          "fullname": "William C. Quantrill"
-        }
-      ],
-      "description": "Quantrill's Raiders and other guerrillas"
-    },
-    "US": {
-      "casualties": 164,
-      "commanders": [],
-      "description": "No Union troops"
-    },
     "CS": {
       "casualties": 40,
       "commanders": [
         {
-          "rank": "Lieutenant Colonel",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
           "middle_name": "C.",
           "last_name": "Quantrill",
-          "fullname": "William C. Quantrill"
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Lieutenant Colonel",
+          "fullname": "William C. Quantrill",
+          "navy": false
         }
       ],
       "description": "Quantrill's Raiders and other guerrillas"
+    },
+    "Confederate": {
+      "casualties": 40,
+      "commanders": [
+        {
+          "middle_name": "C.",
+          "last_name": "Quantrill",
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Lieutenant Colonel",
+          "fullname": "William C. Quantrill",
+          "navy": false
+        }
+      ],
+      "description": "Quantrill's Raiders and other guerrillas"
+    },
+    "US": {
+      "casualties": 164,
+      "commanders": [],
+      "description": "No Union troops"
     }
   },
-  "result": "Confederate",
-  "battle": "KS001",
+  "campaign": "Quantrill's Raid into Kansas [August 1863]",
+  "end_date": "1863-08-21",
+  "description": "In a supposed retaliation for a Union raid on Osceola, Missouri, Lt. Col. William C. Quantrill led a force of about 300 to 400 partisans in an attack on the city of Lawrence, Kansas. His men killed civilians-men and boys-and destroyed many of the buildings. He held the town several hours and then withdrew. The \"Lawrence Massacre\" was, perhaps, the extreme example of the vicious Kansas-Missouri border warfare.",
   "location": [
     {
       "state": "KS",
       "place": "Douglas County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/ks001.htm"
+  "battle_name": "Lawrence",
+  "start_date": "1863-08-21",
+  "casualties": 204,
+  "principal_commanders": "No Union commander [US]; Lt. Col. William C. Quantrill [CS]"
 }

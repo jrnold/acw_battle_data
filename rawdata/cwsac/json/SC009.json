@@ -1,118 +1,118 @@
 {
-  "end_date": "1863-09-08",
-  "casualties_text": "(US 117; CS unknown)",
+  "battle": "SC009",
+  "operation": false,
+  "cwsac_reference": "SC009",
   "forces": {
     "Confederate": {
-      "regiments": 1,
       "casualties": null,
       "commanders": [
         {
-          "rank": "General",
-          "first_name": "P.G.T.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Beauregard",
-          "fullname": "P.G.T. Beauregard"
+          "suffix": "",
+          "first_name": "P.G.T.",
+          "rank": "General",
+          "fullname": "P.G.T. Beauregard",
+          "navy": false
         }
       ],
+      "regiments": 1,
       "description": "unknown"
     },
     "US": {
       "casualties": 117,
+      "strength_min": 413,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Quincy",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Gilmore",
-          "fullname": "Quincy Gilmore"
+          "suffix": "",
+          "first_name": "Quincy",
+          "rank": "Major General",
+          "fullname": "Quincy Gilmore",
+          "navy": false
         }
       ],
       "description": "413",
-      "strength_min": 413,
       "strength_max": 413
     }
   },
-  "preservation": "III.2",
+  "url": "http://www.nps.gov/hps/abpp/battles/sc009.htm",
   "forces_text": "Regiments: total unknown (US 413; CS unknown)",
-  "start_date": "1863-09-07",
-  "location": [
-    {
-      "state": "SC",
-      "place": "Charleston County"
-    }
-  ],
-  "operation": false,
   "results_text": "Confederate victory",
-  "description": "During the night of September 6-7, Confederate forces evacuated Fort Wagner and Battery Gregg pressured by advancing Federal siegeworks. Federal troops then occupied all of Morris Island. On September 8, a storming party of about 400 marines and sailors attempted to surprise Fort Sumter. The attack was repulsed.",
-  "state": "SC",
-  "significance": "B",
+  "dates": "September 7-8, 1863",
+  "result": "Confederate",
   "other_names": [
     "Battery Gregg",
     "Fort Wagner",
     "Morris Island",
     "Fort Sumter"
   ],
-  "dates": "September 7-8, 1863",
-  "battle_name": "Charleston Harbor",
-  "principal_commanders": "Maj. Gen. Quincy Gillmore [US]; Gen. P.G.T. Beauregard [CS]",
-  "campaign": "Operations Against the Defenses of Charleston [April-September 1863]",
+  "significance": "B",
+  "preservation": "III.2",
+  "state": "SC",
   "belligerents": {
-    "Confederate": {
-      "regiments": 1,
+    "CS": {
       "casualties": null,
       "commanders": [
         {
-          "rank": "General",
-          "first_name": "P.G.T.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Beauregard",
-          "fullname": "P.G.T. Beauregard"
+          "suffix": "",
+          "first_name": "P.G.T.",
+          "rank": "General",
+          "fullname": "P.G.T. Beauregard",
+          "navy": false
         }
       ],
+      "regiments": 1,
+      "description": "unknown"
+    },
+    "Confederate": {
+      "casualties": null,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Beauregard",
+          "suffix": "",
+          "first_name": "P.G.T.",
+          "rank": "General",
+          "fullname": "P.G.T. Beauregard",
+          "navy": false
+        }
+      ],
+      "regiments": 1,
       "description": "unknown"
     },
     "US": {
       "casualties": 117,
+      "strength_min": 413,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Quincy",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Gilmore",
-          "fullname": "Quincy Gilmore"
+          "suffix": "",
+          "first_name": "Quincy",
+          "rank": "Major General",
+          "fullname": "Quincy Gilmore",
+          "navy": false
         }
       ],
       "description": "413",
-      "strength_min": 413,
       "strength_max": 413
-    },
-    "CS": {
-      "regiments": 1,
-      "casualties": null,
-      "commanders": [
-        {
-          "rank": "General",
-          "first_name": "P.G.T.",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Beauregard",
-          "fullname": "P.G.T. Beauregard"
-        }
-      ],
-      "description": "unknown"
     }
   },
-  "result": "Confederate",
-  "battle": "SC009",
-  "cwsac_reference": "SC009",
-  "url": "http://www.nps.gov/hps/abpp/battles/sc009.htm"
+  "campaign": "Operations Against the Defenses of Charleston [April-September 1863]",
+  "end_date": "1863-09-08",
+  "description": "During the night of September 6-7, Confederate forces evacuated Fort Wagner and Battery Gregg pressured by advancing Federal siegeworks. Federal troops then occupied all of Morris Island. On September 8, a storming party of about 400 marines and sailors attempted to surprise Fort Sumter. The attack was repulsed.",
+  "location": [
+    {
+      "state": "SC",
+      "place": "Charleston County"
+    }
+  ],
+  "battle_name": "Charleston Harbor",
+  "start_date": "1863-09-07",
+  "casualties_text": "(US 117; CS unknown)",
+  "principal_commanders": "Maj. Gen. Quincy Gillmore [US]; Gen. P.G.T. Beauregard [CS]"
 }

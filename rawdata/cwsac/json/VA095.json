@@ -1,142 +1,139 @@
 {
-  "end_date": "1865-04-07",
-  "casualties": 1200,
-  "casualties_text": "1,200 total (US 800 captured)",
+  "battle": "VA095",
+  "operation": false,
+  "cwsac_reference": "VA095",
   "forces": {
     "Confederate": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Thomas",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Rosser",
-          "fullname": "Thomas Rosser"
+          "suffix": "",
+          "first_name": "Thomas",
+          "rank": "Major General",
+          "fullname": "Thomas Rosser",
+          "navy": false
         },
         {
-          "rank": "Major General",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Mahone",
-          "fullname": "William Mahone"
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Major General",
+          "fullname": "William Mahone",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     },
     "US": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Colonel",
-          "first_name": "T.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Read",
-          "fullname": "T. Read"
+          "suffix": "",
+          "first_name": "T.",
+          "rank": "Colonel",
+          "fullname": "T. Read",
+          "navy": false
         },
         {
-          "rank": "Major General",
-          "first_name": "A.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "A.",
           "last_name": "Humphreys",
-          "fullname": "A. A. Humphreys"
+          "suffix": "",
+          "first_name": "A.",
+          "rank": "Major General",
+          "fullname": "A. A. Humphreys",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     }
   },
-  "cwsac_reference": "VA095",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va095.htm",
   "forces_text": "Divisions",
-  "start_date": "1865-04-06",
-  "preservation": "III.3",
+  "casualties_text": "1,200 total (US 800 captured)",
   "results_text": "Inconclusive",
-  "description": "On April 6, the Confederate cavalry fought stubbornly to secure the Appomattox River bridges. Confederate general Dearing was mortally wounded. On April 7, elements of the II Corps came up against Longstreet's rear guard attempting to fire the High Bridge and wagon bridge. Union forces were able to save the wagon bridge over which the II Corps crossed in pursuit of Lee's army. Failure to destroy this bridge enabled Union forces to catch up with the Confederates at Farmville.",
-  "state": "VA",
-  "significance": "C",
-  "other_names": null,
   "dates": "April 6-7, 1865",
-  "battle_name": "High Bridge",
-  "principal_commanders": "Col. T. Read [US], Maj. Gen. A.A. Humphreys [US]; Maj. Gen. Thomas Rosser, Maj. Gen. William Mahone [CS]",
-  "campaign": "Appomattox Campaign [March-April 1865]",
+  "result": "Inconclusive",
+  "other_names": null,
+  "significance": "C",
+  "preservation": "III.3",
+  "state": "VA",
   "belligerents": {
-    "Confederate": {
+    "CS": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Thomas",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Rosser",
-          "fullname": "Thomas Rosser"
+          "suffix": "",
+          "first_name": "Thomas",
+          "rank": "Major General",
+          "fullname": "Thomas Rosser",
+          "navy": false
         },
         {
-          "rank": "Major General",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Mahone",
-          "fullname": "William Mahone"
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Major General",
+          "fullname": "William Mahone",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
+    },
+    "Confederate": {
+      "divisions": 1,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Rosser",
+          "suffix": "",
+          "first_name": "Thomas",
+          "rank": "Major General",
+          "fullname": "Thomas Rosser",
+          "navy": false
+        },
+        {
+          "middle_name": "",
+          "last_name": "Mahone",
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Major General",
+          "fullname": "William Mahone",
+          "navy": false
+        }
+      ]
     },
     "US": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Colonel",
-          "first_name": "T.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Read",
-          "fullname": "T. Read"
+          "suffix": "",
+          "first_name": "T.",
+          "rank": "Colonel",
+          "fullname": "T. Read",
+          "navy": false
         },
         {
-          "rank": "Major General",
-          "first_name": "A.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "A.",
           "last_name": "Humphreys",
-          "fullname": "A. A. Humphreys"
-        }
-      ],
-      "divisions": 1
-    },
-    "CS": {
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Thomas",
           "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Rosser",
-          "fullname": "Thomas Rosser"
-        },
-        {
+          "first_name": "A.",
           "rank": "Major General",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Mahone",
-          "fullname": "William Mahone"
+          "fullname": "A. A. Humphreys",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     }
   },
-  "result": "Inconclusive",
-  "battle": "VA095",
+  "campaign": "Appomattox Campaign [March-April 1865]",
+  "end_date": "1865-04-07",
+  "description": "On April 6, the Confederate cavalry fought stubbornly to secure the Appomattox River bridges. Confederate general Dearing was mortally wounded. On April 7, elements of the II Corps came up against Longstreet's rear guard attempting to fire the High Bridge and wagon bridge. Union forces were able to save the wagon bridge over which the II Corps crossed in pursuit of Lee's army. Failure to destroy this bridge enabled Union forces to catch up with the Confederates at Farmville.",
   "location": [
     {
       "state": "VA",
@@ -147,5 +144,8 @@
       "place": "Cumberland County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/va095.htm"
+  "battle_name": "High Bridge",
+  "start_date": "1865-04-06",
+  "casualties": 1200,
+  "principal_commanders": "Col. T. Read [US], Maj. Gen. A.A. Humphreys [US]; Maj. Gen. Thomas Rosser, Maj. Gen. William Mahone [CS]"
 }

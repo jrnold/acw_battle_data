@@ -1,144 +1,144 @@
 {
-  "end_date": "1862-08-11",
-  "casualties": null,
-  "casualties_text": "Total unknown (US approx. 344; CS unknown)",
+  "battle": "MO014",
+  "operation": false,
+  "cwsac_reference": "MO014",
   "forces": {
     "Confederate": {
       "casualties": null,
+      "strength_min": 700,
       "commanders": [
         {
-          "rank": "Colonel",
-          "first_name": "J.T.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Hughes",
-          "fullname": "J.T. Hughes"
+          "suffix": "",
+          "first_name": "J.T.",
+          "rank": "Colonel",
+          "fullname": "J.T. Hughes",
+          "navy": false
         },
         {
-          "rank": "Colonel",
-          "first_name": "G.W.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Thompson",
-          "fullname": "G.W. Thompson"
+          "suffix": "",
+          "first_name": "G.W.",
+          "rank": "Colonel",
+          "fullname": "G.W. Thompson",
+          "navy": false
         }
       ],
       "description": "700-800",
-      "strength_min": 700,
       "strength_max": 700
     },
     "US": {
       "casualties": 344,
+      "strength_min": 344,
       "commanders": [
         {
-          "rank": "Lieutenant Colonel",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
           "middle_name": "T.",
           "last_name": "Buel",
-          "fullname": "James T. Buel"
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Lieutenant Colonel",
+          "fullname": "James T. Buel",
+          "navy": false
         }
       ],
       "description": "Garrison (approx. 300",
-      "strength_min": 344,
       "strength_max": 344
     }
   },
-  "cwsac_reference": "MO014",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/mo014.htm",
   "forces_text": "Garrison (approx. 300 [US]; 700-800[CS])",
-  "start_date": "1862-08-11",
-  "preservation": "IV.2",
+  "casualties_text": "Total unknown (US approx. 344; CS unknown)",
   "results_text": "Confederate victory",
-  "description": "On August 11, 1862, Col. J.T. Hughes's Confederate force, including William Quantrill, attacked Independence, at dawn, in two columns on different roads. They drove through the town to the Union Army camp, capturing, killing, and scattering the Yankees. Lt. Col. James T. Buel, commander of the garrison, attempted to hold out in one of the buildings with some of his men. Soon the building next to them was on fire, threatening them. Buel then, by means of a flag of truce, arranged a meeting with the Confederate commander, Col. G.W. Thompson, who had replaced Col. J.T. Hughes, killed earlier. Buel surrendered and about 150 of his men were paroled, the others had escaped, hidden, or been killed. Having taken Independence, the Rebel force headed for Kansas City. Confederate dominance in the Kansas City area continued, but not for long.",
-  "state": "MO",
-  "significance": "D",
-  "other_names": null,
   "dates": "August 11, 1862",
-  "battle_name": "Independence",
-  "principal_commanders": "Lt. Col. James T. Buel [US]; Col. J.T. Hughes and Col. G.W. Thompson [CS]",
-  "campaign": "Operations North of Boston Mountains [August-November 1862]",
+  "result": "Confederate",
+  "other_names": null,
+  "significance": "D",
+  "preservation": "IV.2",
+  "state": "MO",
   "belligerents": {
-    "Confederate": {
-      "casualties": null,
-      "commanders": [
-        {
-          "rank": "Colonel",
-          "first_name": "J.T.",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Hughes",
-          "fullname": "J.T. Hughes"
-        },
-        {
-          "rank": "Colonel",
-          "first_name": "G.W.",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Thompson",
-          "fullname": "G.W. Thompson"
-        }
-      ],
-      "description": "700-800",
-      "strength_min": 700,
-      "strength_max": 700
-    },
-    "US": {
-      "casualties": 344,
-      "commanders": [
-        {
-          "rank": "Lieutenant Colonel",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "T.",
-          "last_name": "Buel",
-          "fullname": "James T. Buel"
-        }
-      ],
-      "description": "Garrison (approx. 300",
-      "strength_min": 344,
-      "strength_max": 344
-    },
     "CS": {
       "casualties": null,
+      "strength_min": 700,
       "commanders": [
         {
-          "rank": "Colonel",
-          "first_name": "J.T.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Hughes",
-          "fullname": "J.T. Hughes"
+          "suffix": "",
+          "first_name": "J.T.",
+          "rank": "Colonel",
+          "fullname": "J.T. Hughes",
+          "navy": false
         },
         {
-          "rank": "Colonel",
-          "first_name": "G.W.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Thompson",
-          "fullname": "G.W. Thompson"
+          "suffix": "",
+          "first_name": "G.W.",
+          "rank": "Colonel",
+          "fullname": "G.W. Thompson",
+          "navy": false
         }
       ],
       "description": "700-800",
-      "strength_min": 700,
       "strength_max": 700
+    },
+    "Confederate": {
+      "casualties": null,
+      "strength_min": 700,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Hughes",
+          "suffix": "",
+          "first_name": "J.T.",
+          "rank": "Colonel",
+          "fullname": "J.T. Hughes",
+          "navy": false
+        },
+        {
+          "middle_name": "",
+          "last_name": "Thompson",
+          "suffix": "",
+          "first_name": "G.W.",
+          "rank": "Colonel",
+          "fullname": "G.W. Thompson",
+          "navy": false
+        }
+      ],
+      "description": "700-800",
+      "strength_max": 700
+    },
+    "US": {
+      "casualties": 344,
+      "strength_min": 344,
+      "commanders": [
+        {
+          "middle_name": "T.",
+          "last_name": "Buel",
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Lieutenant Colonel",
+          "fullname": "James T. Buel",
+          "navy": false
+        }
+      ],
+      "description": "Garrison (approx. 300",
+      "strength_max": 344
     }
   },
-  "result": "Confederate",
-  "battle": "MO014",
+  "campaign": "Operations North of Boston Mountains [August-November 1862]",
+  "end_date": "1862-08-11",
+  "description": "On August 11, 1862, Col. J.T. Hughes's Confederate force, including William Quantrill, attacked Independence, at dawn, in two columns on different roads. They drove through the town to the Union Army camp, capturing, killing, and scattering the Yankees. Lt. Col. James T. Buel, commander of the garrison, attempted to hold out in one of the buildings with some of his men. Soon the building next to them was on fire, threatening them. Buel then, by means of a flag of truce, arranged a meeting with the Confederate commander, Col. G.W. Thompson, who had replaced Col. J.T. Hughes, killed earlier. Buel surrendered and about 150 of his men were paroled, the others had escaped, hidden, or been killed. Having taken Independence, the Rebel force headed for Kansas City. Confederate dominance in the Kansas City area continued, but not for long.",
   "location": [
     {
       "state": "MO",
       "place": "Jackson County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/mo014.htm"
+  "battle_name": "Independence",
+  "start_date": "1862-08-11",
+  "casualties": null,
+  "principal_commanders": "Lt. Col. James T. Buel [US]; Col. J.T. Hughes and Col. G.W. Thompson [CS]"
 }

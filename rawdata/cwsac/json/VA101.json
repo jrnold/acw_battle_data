@@ -1,57 +1,110 @@
 {
-  "end_date": "1862-03-23",
-  "casualties": 1308,
-  "casualties_text": "1,308 total (US 590; CS 718)",
+  "battle": "VA101",
+  "operation": false,
+  "cwsac_reference": "VA101",
   "forces": {
     "Confederate": {
       "casualties": 718,
+      "strength_min": 3800,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Thomas",
-          "suffix": "",
-          "navy": false,
           "middle_name": "J.",
           "last_name": "Jackson",
-          "fullname": "Thomas J. Jackson"
+          "suffix": "",
+          "first_name": "Thomas",
+          "rank": "Major General",
+          "fullname": "Thomas J. Jackson",
+          "navy": false
         }
       ],
       "description": "3,800",
-      "strength_min": 3800,
       "strength_max": 3800
     },
     "US": {
       "casualties": 590,
+      "strength_min": 8500,
       "commanders": [
         {
-          "rank": "Colonel",
-          "first_name": "Nathan",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Kimball",
-          "fullname": "Nathan Kimball"
+          "suffix": "",
+          "first_name": "Nathan",
+          "rank": "Colonel",
+          "fullname": "Nathan Kimball",
+          "navy": false
         }
       ],
       "description": "8,500",
-      "strength_min": 8500,
       "strength_max": 8500
     }
   },
-  "strength": 12300,
-  "cwsac_reference": "VA101",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va101.htm",
   "forces_text": "12,300 total (US 8,500; CS 3,800)",
-  "start_date": "1862-03-23",
-  "preservation": "I.3",
+  "strength": 12300,
+  "casualties_text": "1,308 total (US 590; CS 718)",
   "results_text": "Union victory",
-  "description": "Relying on faulty intelligence that reported the Union garrison at Winchester numbered only about 3,000, \"Stonewall\" Jackson marched aggressively north with his 3,400-man division. The 8,500 Federals, commanded by Col. Nathan Kimball, stopped Jackson at Kernstown and then counterattacked turning Jackson's left flank and forcing him to retreat. Despite this Union victory, President Lincoln was disturbed by Jackson's threat to Washington and redirected substantial reinforcements to the Valley, depriving McClellan's army of these troops. McClellan claimed that the additional troops would have enabled him to take Richmond during his Peninsula campaign.",
-  "state": "VA",
-  "significance": "B",
-  "other_names": null,
   "dates": "March 23, 1862",
-  "battle_name": "Kernstown, First",
-  "principal_commanders": "Col. Nathan Kimball [US]; Maj. Gen. Thomas J. Jackson [CS]",
+  "result": "Union",
+  "other_names": null,
+  "significance": "B",
+  "preservation": "I.3",
+  "state": "VA",
+  "belligerents": {
+    "CS": {
+      "casualties": 718,
+      "strength_min": 3800,
+      "commanders": [
+        {
+          "middle_name": "J.",
+          "last_name": "Jackson",
+          "suffix": "",
+          "first_name": "Thomas",
+          "rank": "Major General",
+          "fullname": "Thomas J. Jackson",
+          "navy": false
+        }
+      ],
+      "description": "3,800",
+      "strength_max": 3800
+    },
+    "Confederate": {
+      "casualties": 718,
+      "strength_min": 3800,
+      "commanders": [
+        {
+          "middle_name": "J.",
+          "last_name": "Jackson",
+          "suffix": "",
+          "first_name": "Thomas",
+          "rank": "Major General",
+          "fullname": "Thomas J. Jackson",
+          "navy": false
+        }
+      ],
+      "description": "3,800",
+      "strength_max": 3800
+    },
+    "US": {
+      "casualties": 590,
+      "strength_min": 8500,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Kimball",
+          "suffix": "",
+          "first_name": "Nathan",
+          "rank": "Colonel",
+          "fullname": "Nathan Kimball",
+          "navy": false
+        }
+      ],
+      "description": "8,500",
+      "strength_max": 8500
+    }
+  },
+  "campaign": "Jackson's Valley Campaign [March-June 1862]",
+  "end_date": "1862-03-23",
+  "description": "Relying on faulty intelligence that reported the Union garrison at Winchester numbered only about 3,000, \"Stonewall\" Jackson marched aggressively north with his 3,400-man division. The 8,500 Federals, commanded by Col. Nathan Kimball, stopped Jackson at Kernstown and then counterattacked turning Jackson's left flank and forcing him to retreat. Despite this Union victory, President Lincoln was disturbed by Jackson's threat to Washington and redirected substantial reinforcements to the Valley, depriving McClellan's army of these troops. McClellan claimed that the additional troops would have enabled him to take Richmond during his Peninsula campaign.",
   "location": [
     {
       "state": "VA",
@@ -62,61 +115,8 @@
       "place": "Winchester"
     }
   ],
-  "belligerents": {
-    "Confederate": {
-      "casualties": 718,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Thomas",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "J.",
-          "last_name": "Jackson",
-          "fullname": "Thomas J. Jackson"
-        }
-      ],
-      "description": "3,800",
-      "strength_min": 3800,
-      "strength_max": 3800
-    },
-    "US": {
-      "casualties": 590,
-      "commanders": [
-        {
-          "rank": "Colonel",
-          "first_name": "Nathan",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Kimball",
-          "fullname": "Nathan Kimball"
-        }
-      ],
-      "description": "8,500",
-      "strength_min": 8500,
-      "strength_max": 8500
-    },
-    "CS": {
-      "casualties": 718,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Thomas",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "J.",
-          "last_name": "Jackson",
-          "fullname": "Thomas J. Jackson"
-        }
-      ],
-      "description": "3,800",
-      "strength_min": 3800,
-      "strength_max": 3800
-    }
-  },
-  "result": "Union",
-  "battle": "VA101",
-  "campaign": "Jackson's Valley Campaign [March-June 1862]",
-  "url": "http://www.nps.gov/hps/abpp/battles/va101.htm"
+  "battle_name": "Kernstown, First",
+  "start_date": "1862-03-23",
+  "casualties": 1308,
+  "principal_commanders": "Col. Nathan Kimball [US]; Maj. Gen. Thomas J. Jackson [CS]"
 }

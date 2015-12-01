@@ -1,131 +1,131 @@
 {
-  "end_date": "1861-05-19",
-  "casualties": 10,
-  "casualties_text": "10 total",
+  "battle": "VA001",
+  "operation": false,
+  "cwsac_reference": "VA001",
   "forces": {
     "Confederate": {
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Walter",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Gwynn",
-          "fullname": "Walter Gwynn"
+          "suffix": "",
+          "first_name": "Walter",
+          "rank": "Brigadier General",
+          "fullname": "Walter Gwynn",
+          "navy": false
         },
         {
-          "rank": "Captain",
-          "first_name": "Peyton",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Colquitt",
-          "fullname": "Peyton Colquitt"
+          "suffix": "",
+          "first_name": "Peyton",
+          "rank": "Captain",
+          "fullname": "Peyton Colquitt",
+          "navy": false
         }
       ],
       "description": "battery garrison"
     },
     "US": {
-      "gunboats": 2,
       "commanders": [
         {
-          "rank": "Lieutenant (Naval)",
-          "first_name": "D.L.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Braine",
-          "fullname": "D.L. Braine"
+          "suffix": "",
+          "first_name": "D.L.",
+          "rank": "Lieutenant (Naval)",
+          "fullname": "D.L. Braine",
+          "navy": false
         }
       ],
-      "description": "Two gunboats"
+      "description": "Two gunboats",
+      "gunboats": 2
     }
   },
-  "cwsac_reference": "VA001",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va001.htm",
   "forces_text": "Two gunboats [US]; battery garrison [CS]",
-  "start_date": "1861-05-18",
-  "preservation": "IV.2",
+  "casualties_text": "10 total",
   "results_text": "Inconclusive",
-  "description": "Two Union gunboats, including USS Monticello, dueled with Confederate batteries on Sewell's Point in an attempt to enforce the blockade of Hampton Roads. The two sides did each other little harm.",
-  "state": "VA",
-  "significance": "D",
-  "other_names": null,
   "dates": "May 18-19, 1861",
-  "battle_name": "Sewell's Point",
-  "principal_commanders": "Lt. (Naval) D.L. Braine [US]; Brig. Gen. Walter Gwynn and Capt. Peyton Colquitt [CS]",
-  "campaign": "Blockade of the Chesapeake Bay [May-June 1861]",
+  "result": "Inconclusive",
+  "other_names": null,
+  "significance": "D",
+  "preservation": "IV.2",
+  "state": "VA",
   "belligerents": {
-    "Confederate": {
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "Walter",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Gwynn",
-          "fullname": "Walter Gwynn"
-        },
-        {
-          "rank": "Captain",
-          "first_name": "Peyton",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Colquitt",
-          "fullname": "Peyton Colquitt"
-        }
-      ],
-      "description": "battery garrison"
-    },
-    "US": {
-      "gunboats": 2,
-      "commanders": [
-        {
-          "rank": "Lieutenant (Naval)",
-          "first_name": "D.L.",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Braine",
-          "fullname": "D.L. Braine"
-        }
-      ],
-      "description": "Two gunboats"
-    },
     "CS": {
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Walter",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Gwynn",
-          "fullname": "Walter Gwynn"
+          "suffix": "",
+          "first_name": "Walter",
+          "rank": "Brigadier General",
+          "fullname": "Walter Gwynn",
+          "navy": false
         },
         {
-          "rank": "Captain",
-          "first_name": "Peyton",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Colquitt",
-          "fullname": "Peyton Colquitt"
+          "suffix": "",
+          "first_name": "Peyton",
+          "rank": "Captain",
+          "fullname": "Peyton Colquitt",
+          "navy": false
         }
       ],
       "description": "battery garrison"
+    },
+    "Confederate": {
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Gwynn",
+          "suffix": "",
+          "first_name": "Walter",
+          "rank": "Brigadier General",
+          "fullname": "Walter Gwynn",
+          "navy": false
+        },
+        {
+          "middle_name": "",
+          "last_name": "Colquitt",
+          "suffix": "",
+          "first_name": "Peyton",
+          "rank": "Captain",
+          "fullname": "Peyton Colquitt",
+          "navy": false
+        }
+      ],
+      "description": "battery garrison"
+    },
+    "US": {
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Braine",
+          "suffix": "",
+          "first_name": "D.L.",
+          "rank": "Lieutenant (Naval)",
+          "fullname": "D.L. Braine",
+          "navy": false
+        }
+      ],
+      "description": "Two gunboats",
+      "gunboats": 2
     }
   },
-  "result": "Inconclusive",
-  "battle": "VA001",
+  "campaign": "Blockade of the Chesapeake Bay [May-June 1861]",
+  "end_date": "1861-05-19",
+  "description": "Two Union gunboats, including USS Monticello, dueled with Confederate batteries on Sewell's Point in an attempt to enforce the blockade of Hampton Roads. The two sides did each other little harm.",
   "location": [
     {
       "state": "VA",
       "place": "Norfolk City"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/va001.htm"
+  "battle_name": "Sewell's Point",
+  "start_date": "1861-05-18",
+  "casualties": 10,
+  "principal_commanders": "Lt. (Naval) D.L. Braine [US]; Brig. Gen. Walter Gwynn and Capt. Peyton Colquitt [CS]"
 }

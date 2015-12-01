@@ -1,118 +1,118 @@
 {
-  "end_date": "1864-11-30",
-  "casualties": 796,
-  "casualties_text": "796 total (US 746; CS 50)",
+  "battle": "SC010",
+  "operation": false,
+  "cwsac_reference": "SC010",
   "forces": {
     "Confederate": {
       "casualties": 50,
+      "strength_min": 1400,
       "commanders": [
         {
-          "rank": "Colonel",
-          "first_name": "Charles",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Colcock",
-          "fullname": "Charles Colcock"
+          "suffix": "",
+          "first_name": "Charles",
+          "rank": "Colonel",
+          "fullname": "Charles Colcock",
+          "navy": false
         }
       ],
       "description": "1,400",
-      "strength_min": 1400,
       "strength_max": 1400
     },
     "US": {
       "casualties": 746,
+      "strength_min": 5000,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Hatch",
-          "fullname": "John Hatch"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Major General",
+          "fullname": "John Hatch",
+          "navy": false
         }
       ],
       "description": "5,000",
-      "strength_min": 5000,
       "strength_max": 5000
     }
   },
-  "strength": 6400,
-  "cwsac_reference": "SC010",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/sc010.htm",
   "forces_text": "6,400 total (US 5,000; CS 1,400)",
-  "start_date": "1864-11-30",
-  "preservation": "II.3",
+  "strength": 6400,
+  "casualties_text": "796 total (US 746; CS 50)",
   "results_text": "Confederate victory",
-  "description": "Leaving Hilton Head on November 28, a Union expeditionary force under Maj. Gen. John P. Hatch steamed up the Broad River in transports to cut the Charleston & Savannah Railroad near Pocotaligo. Hatch disembarked at Boyd's Landing and marched inland. On November 30, Hatch encountered a Confederate force of regulars and militia under Col. Charles J. Colcock at Honey Hill. Determined attacks by U.S. Colored Troops (including the 54th Massachusetts) failed to capture the Confederate entrenchments or cut the railroad. Hatch retired after dark, withdrawing to his transports at Boyd's Neck.",
-  "state": "SC",
-  "significance": "C",
-  "other_names": null,
   "dates": "November 30, 1864",
-  "battle_name": "Honey Hill",
-  "principal_commanders": "Maj. Gen. John Hatch [US]; Col. Charles Colcock [CS]",
+  "result": "Confederate",
+  "other_names": null,
+  "significance": "C",
+  "preservation": "II.3",
+  "state": "SC",
+  "belligerents": {
+    "CS": {
+      "casualties": 50,
+      "strength_min": 1400,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Colcock",
+          "suffix": "",
+          "first_name": "Charles",
+          "rank": "Colonel",
+          "fullname": "Charles Colcock",
+          "navy": false
+        }
+      ],
+      "description": "1,400",
+      "strength_max": 1400
+    },
+    "Confederate": {
+      "casualties": 50,
+      "strength_min": 1400,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Colcock",
+          "suffix": "",
+          "first_name": "Charles",
+          "rank": "Colonel",
+          "fullname": "Charles Colcock",
+          "navy": false
+        }
+      ],
+      "description": "1,400",
+      "strength_max": 1400
+    },
+    "US": {
+      "casualties": 746,
+      "strength_min": 5000,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Hatch",
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Major General",
+          "fullname": "John Hatch",
+          "navy": false
+        }
+      ],
+      "description": "5,000",
+      "strength_max": 5000
+    }
+  },
+  "campaign": "Savannah Campaign [November-December 1864]",
+  "end_date": "1864-11-30",
+  "description": "Leaving Hilton Head on November 28, a Union expeditionary force under Maj. Gen. John P. Hatch steamed up the Broad River in transports to cut the Charleston & Savannah Railroad near Pocotaligo. Hatch disembarked at Boyd's Landing and marched inland. On November 30, Hatch encountered a Confederate force of regulars and militia under Col. Charles J. Colcock at Honey Hill. Determined attacks by U.S. Colored Troops (including the 54th Massachusetts) failed to capture the Confederate entrenchments or cut the railroad. Hatch retired after dark, withdrawing to his transports at Boyd's Neck.",
   "location": [
     {
       "state": "SC",
       "place": "Jasper County"
     }
   ],
-  "belligerents": {
-    "Confederate": {
-      "casualties": 50,
-      "commanders": [
-        {
-          "rank": "Colonel",
-          "first_name": "Charles",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Colcock",
-          "fullname": "Charles Colcock"
-        }
-      ],
-      "description": "1,400",
-      "strength_min": 1400,
-      "strength_max": 1400
-    },
-    "US": {
-      "casualties": 746,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Hatch",
-          "fullname": "John Hatch"
-        }
-      ],
-      "description": "5,000",
-      "strength_min": 5000,
-      "strength_max": 5000
-    },
-    "CS": {
-      "casualties": 50,
-      "commanders": [
-        {
-          "rank": "Colonel",
-          "first_name": "Charles",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Colcock",
-          "fullname": "Charles Colcock"
-        }
-      ],
-      "description": "1,400",
-      "strength_min": 1400,
-      "strength_max": 1400
-    }
-  },
-  "result": "Confederate",
-  "battle": "SC010",
-  "campaign": "Savannah Campaign [November-December 1864]",
-  "url": "http://www.nps.gov/hps/abpp/battles/sc010.htm"
+  "battle_name": "Honey Hill",
+  "start_date": "1864-11-30",
+  "casualties": 796,
+  "principal_commanders": "Maj. Gen. John Hatch [US]; Col. Charles Colcock [CS]"
 }

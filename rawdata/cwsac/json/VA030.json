@@ -1,100 +1,100 @@
 {
-  "end_date": "1863-04-15",
-  "casualties": null,
-  "casualties_text": "(1,160 entire siege)",
+  "battle": "VA030",
+  "operation": false,
+  "cwsac_reference": "VA030",
   "forces": {
     "Confederate": {
       "commanders": [
         {
-          "rank": "Lieutenant General",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Longstreet",
-          "fullname": "James Longstreet"
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Lieutenant General",
+          "fullname": "James Longstreet",
+          "navy": false
         }
       ]
     },
     "US": {
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Peck",
-          "fullname": "John Peck"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Brigadier General",
+          "fullname": "John Peck",
+          "navy": false
         }
       ]
     }
   },
-  "strength": 45000,
-  "cwsac_reference": "VA030",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va030.htm",
   "forces_text": "Divisions (45,000 total)",
-  "start_date": "1863-04-13",
-  "preservation": "IV.1",
+  "strength": 45000,
+  "casualties_text": "(1,160 entire siege)",
   "results_text": "Inconclusive",
-  "description": "In cooperation with D.H. Hill's advance on Washington, North Carolina, Lt. Gen. James Longstreet with Hood's and Pickett's divisions besieged the Union garrison at Suffolk commanded by Brig. Gen. John Peck. The Union works were formidable and manned by 25,000 men, opposed to Longstreet's 20,000. On April 13, the Confederate troops pushed their left flank to the Nansemond River and constructed a battery on Hill's Point, which closed off the garrison to Union shipping. On April 14, Union gunboats attempted to run the batteries at the Norfleet House slightly upstream, but Mount Washington was crippled. The Federals, at the same time, constructed batteries to command the Confederate works at Norfleet House. On April 15, these batteries were unmasked and opened fire, driving the Confederates out of this important position.",
-  "state": "VA",
-  "significance": "C",
+  "dates": "April 13-15, 1863",
+  "result": "Inconclusive",
   "other_names": [
     "Norfleet House Battery"
   ],
-  "dates": "April 13-15, 1863",
-  "battle_name": "Suffolk",
-  "principal_commanders": "Brig. Gen. John Peck [US]; Lt. Gen. James Longstreet [CS]",
+  "significance": "C",
+  "preservation": "IV.1",
+  "state": "VA",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Longstreet",
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Lieutenant General",
+          "fullname": "James Longstreet",
+          "navy": false
+        }
+      ]
+    },
+    "Confederate": {
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Longstreet",
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Lieutenant General",
+          "fullname": "James Longstreet",
+          "navy": false
+        }
+      ]
+    },
+    "US": {
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Peck",
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Brigadier General",
+          "fullname": "John Peck",
+          "navy": false
+        }
+      ]
+    }
+  },
+  "campaign": "Longstreet's Tidewater Operations [March-April 1863]",
+  "end_date": "1863-04-15",
+  "description": "In cooperation with D.H. Hill's advance on Washington, North Carolina, Lt. Gen. James Longstreet with Hood's and Pickett's divisions besieged the Union garrison at Suffolk commanded by Brig. Gen. John Peck. The Union works were formidable and manned by 25,000 men, opposed to Longstreet's 20,000. On April 13, the Confederate troops pushed their left flank to the Nansemond River and constructed a battery on Hill's Point, which closed off the garrison to Union shipping. On April 14, Union gunboats attempted to run the batteries at the Norfleet House slightly upstream, but Mount Washington was crippled. The Federals, at the same time, constructed batteries to command the Confederate works at Norfleet House. On April 15, these batteries were unmasked and opened fire, driving the Confederates out of this important position.",
   "location": [
     {
       "state": "VA",
       "place": "Suffolk"
     }
   ],
-  "belligerents": {
-    "Confederate": {
-      "commanders": [
-        {
-          "rank": "Lieutenant General",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Longstreet",
-          "fullname": "James Longstreet"
-        }
-      ]
-    },
-    "US": {
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Peck",
-          "fullname": "John Peck"
-        }
-      ]
-    },
-    "CS": {
-      "commanders": [
-        {
-          "rank": "Lieutenant General",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Longstreet",
-          "fullname": "James Longstreet"
-        }
-      ]
-    }
-  },
-  "result": "Inconclusive",
-  "battle": "VA030",
-  "campaign": "Longstreet's Tidewater Operations [March-April 1863]",
-  "url": "http://www.nps.gov/hps/abpp/battles/va030.htm"
+  "battle_name": "Suffolk",
+  "start_date": "1863-04-13",
+  "casualties": null,
+  "principal_commanders": "Brig. Gen. John Peck [US]; Lt. Gen. James Longstreet [CS]"
 }

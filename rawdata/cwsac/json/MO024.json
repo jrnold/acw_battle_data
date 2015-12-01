@@ -1,109 +1,109 @@
 {
-  "end_date": "1864-10-21",
-  "casualties": null,
-  "casualties_text": "Unknown",
+  "battle": "MO024",
+  "operation": false,
+  "cwsac_reference": "MO024",
   "forces": {
     "Confederate": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Sterling",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Price",
-          "fullname": "Sterling Price"
+          "suffix": "",
+          "first_name": "Sterling",
+          "rank": "Major General",
+          "fullname": "Sterling Price",
+          "navy": false
         }
       ],
-      "armies": 1,
-      "description": "Army of Missouri"
+      "description": "Army of Missouri",
+      "armies": 1
     },
     "US": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Samuel",
-          "suffix": "",
-          "navy": false,
           "middle_name": "R.",
           "last_name": "Curtis",
-          "fullname": "Samuel R. Curtis"
+          "suffix": "",
+          "first_name": "Samuel",
+          "rank": "Major General",
+          "fullname": "Samuel R. Curtis",
+          "navy": false
         }
       ],
-      "divisions": 1,
       "description": "1st Division, Army of the Border"
     }
   },
-  "cwsac_reference": "MO024",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/mo024.htm",
   "forces_text": "1st Division, Army of the Border [US]; Army of Missouri [CS]",
-  "start_date": "1864-10-21",
-  "preservation": "IV.1",
+  "casualties_text": "Unknown",
   "results_text": "Confederate victory",
-  "description": "Price's march along the Missouri River was slow, providing the Yankees a chance to concentrate. Maj. Gen. William S. Rosecrans, commanding the Department of the Missouri, proposed a pincer movement to trap Price and his army, but he was unable to communicate with Maj. Gen. Samuel R. Curtis, commander of the Department of Kansas, to formalize the plan. Curtis was having problems because many of his troops were Kansas militia and they refused to enter Missouri, but a force of about 2,000 men under the command of Maj. Gen. James G. Blunt did set out for Lexington. He met the Confederate troops at Lexington on the 19th, slowed their progress, but was defeated and retreated. On the 20th, Blunt's troops arrived on the Little Blue River, eight miles east of Independence. The Union force prepared to engage the Confederates again in a strong defensive position on the west bank. Curtis, however, ordered Blunt into Independence while leaving a small force, under Col. Thomas Moonlight, on the Little Blue. The next day, Curtis ordered Blunt to take all of the volunteers and return to the Little Blue. As he neared the stream, he discovered that Moonlight's small force had burned the bridge as ordered, engaged the enemy, and retreated away from the strong defensive position occupied the day before, crossing the river. Blunt entered the fray and attempted to drive the enemy back beyond the defensive position that he wished to reoccupy. The Yankees forced the Confederates to fall back, at first, but their numerical superiority took its toll in the five-hour battle. The Federals retreated to Independence and went into camp there after dark. Once again, the Confederates had been slowed and more Union reinforcements were arriving.",
-  "state": "MO",
-  "significance": "D",
+  "dates": "October 21, 1864",
+  "result": "Confederate",
   "other_names": [
     "Westport"
   ],
-  "dates": "October 21, 1864",
-  "battle_name": "Little Blue River",
-  "principal_commanders": "Maj. Gen. Samuel R. Curtis [US]; Maj. Gen. Sterling Price [CS]",
-  "campaign": "Price's Missouri Expedition [September-October 1864]",
+  "significance": "D",
+  "preservation": "IV.1",
+  "state": "MO",
   "belligerents": {
-    "Confederate": {
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Sterling",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Price",
-          "fullname": "Sterling Price"
-        }
-      ],
-      "armies": 1,
-      "description": "Army of Missouri"
-    },
-    "US": {
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Samuel",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "R.",
-          "last_name": "Curtis",
-          "fullname": "Samuel R. Curtis"
-        }
-      ],
-      "divisions": 1,
-      "description": "1st Division, Army of the Border"
-    },
     "CS": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Sterling",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Price",
-          "fullname": "Sterling Price"
+          "suffix": "",
+          "first_name": "Sterling",
+          "rank": "Major General",
+          "fullname": "Sterling Price",
+          "navy": false
         }
       ],
-      "armies": 1,
-      "description": "Army of Missouri"
+      "description": "Army of Missouri",
+      "armies": 1
+    },
+    "Confederate": {
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Price",
+          "suffix": "",
+          "first_name": "Sterling",
+          "rank": "Major General",
+          "fullname": "Sterling Price",
+          "navy": false
+        }
+      ],
+      "description": "Army of Missouri",
+      "armies": 1
+    },
+    "US": {
+      "divisions": 1,
+      "commanders": [
+        {
+          "middle_name": "R.",
+          "last_name": "Curtis",
+          "suffix": "",
+          "first_name": "Samuel",
+          "rank": "Major General",
+          "fullname": "Samuel R. Curtis",
+          "navy": false
+        }
+      ],
+      "description": "1st Division, Army of the Border"
     }
   },
-  "result": "Confederate",
-  "battle": "MO024",
+  "campaign": "Price's Missouri Expedition [September-October 1864]",
+  "end_date": "1864-10-21",
+  "description": "Price's march along the Missouri River was slow, providing the Yankees a chance to concentrate. Maj. Gen. William S. Rosecrans, commanding the Department of the Missouri, proposed a pincer movement to trap Price and his army, but he was unable to communicate with Maj. Gen. Samuel R. Curtis, commander of the Department of Kansas, to formalize the plan. Curtis was having problems because many of his troops were Kansas militia and they refused to enter Missouri, but a force of about 2,000 men under the command of Maj. Gen. James G. Blunt did set out for Lexington. He met the Confederate troops at Lexington on the 19th, slowed their progress, but was defeated and retreated. On the 20th, Blunt's troops arrived on the Little Blue River, eight miles east of Independence. The Union force prepared to engage the Confederates again in a strong defensive position on the west bank. Curtis, however, ordered Blunt into Independence while leaving a small force, under Col. Thomas Moonlight, on the Little Blue. The next day, Curtis ordered Blunt to take all of the volunteers and return to the Little Blue. As he neared the stream, he discovered that Moonlight's small force had burned the bridge as ordered, engaged the enemy, and retreated away from the strong defensive position occupied the day before, crossing the river. Blunt entered the fray and attempted to drive the enemy back beyond the defensive position that he wished to reoccupy. The Yankees forced the Confederates to fall back, at first, but their numerical superiority took its toll in the five-hour battle. The Federals retreated to Independence and went into camp there after dark. Once again, the Confederates had been slowed and more Union reinforcements were arriving.",
   "location": [
     {
       "state": "MO",
       "place": "Jackson County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/mo024.htm"
+  "battle_name": "Little Blue River",
+  "start_date": "1864-10-21",
+  "casualties": null,
+  "principal_commanders": "Maj. Gen. Samuel R. Curtis [US]; Maj. Gen. Sterling Price [CS]"
 }

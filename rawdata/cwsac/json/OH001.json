@@ -1,120 +1,120 @@
 {
-  "end_date": "1863-07-19",
-  "casualties": 925,
-  "casualties_text": "925 total (US 25; CS 900)",
+  "battle": "OH001",
+  "operation": false,
+  "cwsac_reference": "OH001",
   "forces": {
     "Confederate": {
       "casualties": 900,
+      "strength_min": 1700,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Hunt",
           "last_name": "Morgan",
-          "fullname": "John Hunt Morgan"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Brigadier General",
+          "fullname": "John Hunt Morgan",
+          "navy": false
         }
       ],
       "description": "1,700",
-      "strength_min": 1700,
       "strength_max": 1700
     },
     "US": {
       "casualties": 25,
+      "strength_min": 3000,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Edward",
-          "suffix": "",
-          "navy": false,
           "middle_name": "H.",
           "last_name": "Hobson",
-          "fullname": "Edward H. Hobson"
+          "suffix": "",
+          "first_name": "Edward",
+          "rank": "Brigadier General",
+          "fullname": "Edward H. Hobson",
+          "navy": false
         }
       ],
       "description": "3,000",
-      "strength_min": 3000,
       "strength_max": 3000
     }
   },
-  "strength": 4700,
-  "cwsac_reference": "OH001",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/oh001.htm",
   "forces_text": "Brigades: 4,700 total (US 3,000; CS 1,700)",
-  "start_date": "1863-07-19",
-  "preservation": null,
+  "strength": 4700,
+  "casualties_text": "925 total (US 25; CS 900)",
   "results_text": "Union victory",
-  "description": "On July 13, Morgan's raiders crossed into Ohio at Harrison, pursued by several columns of Union cavalry under overall direction of Brig. Gen. Edward H. Hobson. On July 19, Kautz's and Judah's brigades attacked Morgan near Buffington Island. During the night, Morgan and about 400 men escaped encirclement by following a narrow woods path. The rest of his force surrendered.",
-  "state": "OH",
-  "significance": "C",
+  "dates": "July 19, 1863",
+  "result": "Union",
   "other_names": [
     "St. Georges Creek"
   ],
-  "dates": "July 19, 1863",
-  "battle_name": "Buffington Island",
-  "principal_commanders": "Brig. Gen. Edward H. Hobson [US]; Brig. Gen. John Hunt Morgan [CS]",
+  "significance": "C",
+  "preservation": null,
+  "state": "OH",
+  "belligerents": {
+    "CS": {
+      "casualties": 900,
+      "strength_min": 1700,
+      "commanders": [
+        {
+          "middle_name": "Hunt",
+          "last_name": "Morgan",
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Brigadier General",
+          "fullname": "John Hunt Morgan",
+          "navy": false
+        }
+      ],
+      "description": "1,700",
+      "strength_max": 1700
+    },
+    "Confederate": {
+      "casualties": 900,
+      "strength_min": 1700,
+      "commanders": [
+        {
+          "middle_name": "Hunt",
+          "last_name": "Morgan",
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Brigadier General",
+          "fullname": "John Hunt Morgan",
+          "navy": false
+        }
+      ],
+      "description": "1,700",
+      "strength_max": 1700
+    },
+    "US": {
+      "casualties": 25,
+      "strength_min": 3000,
+      "commanders": [
+        {
+          "middle_name": "H.",
+          "last_name": "Hobson",
+          "suffix": "",
+          "first_name": "Edward",
+          "rank": "Brigadier General",
+          "fullname": "Edward H. Hobson",
+          "navy": false
+        }
+      ],
+      "description": "3,000",
+      "strength_max": 3000
+    }
+  },
+  "campaign": "Morgan's Raid in Kentucky, Indiana, and Ohio [July 1863]",
+  "end_date": "1863-07-19",
+  "description": "On July 13, Morgan's raiders crossed into Ohio at Harrison, pursued by several columns of Union cavalry under overall direction of Brig. Gen. Edward H. Hobson. On July 19, Kautz's and Judah's brigades attacked Morgan near Buffington Island. During the night, Morgan and about 400 men escaped encirclement by following a narrow woods path. The rest of his force surrendered.",
   "location": [
     {
       "state": "OH",
       "place": "Meigs County"
     }
   ],
-  "belligerents": {
-    "Confederate": {
-      "casualties": 900,
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "Hunt",
-          "last_name": "Morgan",
-          "fullname": "John Hunt Morgan"
-        }
-      ],
-      "description": "1,700",
-      "strength_min": 1700,
-      "strength_max": 1700
-    },
-    "US": {
-      "casualties": 25,
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "Edward",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "H.",
-          "last_name": "Hobson",
-          "fullname": "Edward H. Hobson"
-        }
-      ],
-      "description": "3,000",
-      "strength_min": 3000,
-      "strength_max": 3000
-    },
-    "CS": {
-      "casualties": 900,
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "Hunt",
-          "last_name": "Morgan",
-          "fullname": "John Hunt Morgan"
-        }
-      ],
-      "description": "1,700",
-      "strength_min": 1700,
-      "strength_max": 1700
-    }
-  },
-  "result": "Union",
-  "battle": "OH001",
-  "campaign": "Morgan's Raid in Kentucky, Indiana, and Ohio [July 1863]",
-  "url": "http://www.nps.gov/hps/abpp/battles/oh001.htm"
+  "battle_name": "Buffington Island",
+  "start_date": "1863-07-19",
+  "casualties": 925,
+  "principal_commanders": "Brig. Gen. Edward H. Hobson [US]; Brig. Gen. John Hunt Morgan [CS]"
 }

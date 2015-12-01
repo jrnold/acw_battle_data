@@ -1,115 +1,115 @@
 {
-  "end_date": "1861-07-05",
-  "casualties": 244,
-  "casualties_text": "244 total (US 44; CS 200)",
+  "battle": "MO002",
+  "operation": false,
+  "cwsac_reference": "MO002",
   "forces": {
     "Confederate": {
+      "casualties": 200,
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Governor",
-          "first_name": "Clairborne",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Jackson",
-          "fullname": "Clairborne Jackson"
+          "suffix": "",
+          "first_name": "Clairborne",
+          "rank": "Governor",
+          "fullname": "Clairborne Jackson",
+          "navy": false
         }
       ],
-      "casualties": 200,
-      "missouri_state_guard": true,
-      "divisions": 1,
-      "description": "Missouri State Guard divisions"
+      "description": "Missouri State Guard divisions",
+      "missouri_state_guard": true
     },
     "US": {
       "casualties": 44,
       "commanders": [
         {
-          "rank": "Colonel",
-          "first_name": "Franz",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Sigel",
-          "fullname": "Franz Sigel"
+          "suffix": "",
+          "first_name": "Franz",
+          "rank": "Colonel",
+          "fullname": "Franz Sigel",
+          "navy": false
         }
       ],
       "brigades": 1,
       "description": "Brigade"
     }
   },
-  "cwsac_reference": "MO002",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/mo002.htm",
   "forces_text": "Brigade [US]; Missouri State Guard divisions [CS]",
-  "start_date": "1861-07-05",
-  "preservation": "II.3",
+  "casualties_text": "244 total (US 44; CS 200)",
   "results_text": "Confederate victory",
-  "description": "Brig. Gen. Nathaniel Lyon had chased Governor Claiborne Jackson and approximately 4,000 State Militia from the State Capital at Jefferson City and from Boonville, and pursued them. Col. Franz Sigel led another force of about 1,000 into southwest Missouri in search of the governor and his loyal troops. Upon learning that Sigel had encamped at Carthage, on the night of July 4, Jackson took command of the troops with him and formulated a plan to attack the much smaller Union force. The next morning, Jackson closed up to Sigel, established a battle line on a ridge ten miles north of Carthage, and induced Sigel to attack him. Opening with artillery fire, Sigel closed to the attack. Seeing a large Confederate force-actually unarmed recruits-moving into the woods on his left, he feared that they would turn his flank. He withdrew. The Confederates pursued, but Sigel conducted a successful rearguard action. By evening, Sigel was inside Carthage and under cover of darkness; he retreated to Sarcoxie. The battle had little meaning, but the pro-Southern elements in Missouri, anxious for any good news, championed their first victory.",
-  "state": "MO",
-  "significance": "C",
-  "other_names": null,
   "dates": "July 5, 1861",
-  "battle_name": "Carthage",
-  "principal_commanders": "Col. Franz Sigel [US]; Governor Claiborne Jackson [CS]",
-  "campaign": "Operations to Control Missouri [June-October 1861]",
+  "result": "Confederate",
+  "other_names": null,
+  "significance": "C",
+  "preservation": "II.3",
+  "state": "MO",
   "belligerents": {
-    "Confederate": {
+    "CS": {
+      "casualties": 200,
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Governor",
-          "first_name": "Clairborne",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Jackson",
-          "fullname": "Clairborne Jackson"
+          "suffix": "",
+          "first_name": "Clairborne",
+          "rank": "Governor",
+          "fullname": "Clairborne Jackson",
+          "navy": false
         }
       ],
+      "description": "Missouri State Guard divisions",
+      "missouri_state_guard": true
+    },
+    "Confederate": {
       "casualties": 200,
-      "missouri_state_guard": true,
       "divisions": 1,
-      "description": "Missouri State Guard divisions"
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Jackson",
+          "suffix": "",
+          "first_name": "Clairborne",
+          "rank": "Governor",
+          "fullname": "Clairborne Jackson",
+          "navy": false
+        }
+      ],
+      "description": "Missouri State Guard divisions",
+      "missouri_state_guard": true
     },
     "US": {
       "casualties": 44,
       "commanders": [
         {
-          "rank": "Colonel",
-          "first_name": "Franz",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Sigel",
-          "fullname": "Franz Sigel"
+          "suffix": "",
+          "first_name": "Franz",
+          "rank": "Colonel",
+          "fullname": "Franz Sigel",
+          "navy": false
         }
       ],
       "brigades": 1,
       "description": "Brigade"
-    },
-    "CS": {
-      "commanders": [
-        {
-          "rank": "Governor",
-          "first_name": "Clairborne",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Jackson",
-          "fullname": "Clairborne Jackson"
-        }
-      ],
-      "casualties": 200,
-      "missouri_state_guard": true,
-      "divisions": 1,
-      "description": "Missouri State Guard divisions"
     }
   },
-  "result": "Confederate",
-  "battle": "MO002",
+  "campaign": "Operations to Control Missouri [June-October 1861]",
+  "end_date": "1861-07-05",
+  "description": "Brig. Gen. Nathaniel Lyon had chased Governor Claiborne Jackson and approximately 4,000 State Militia from the State Capital at Jefferson City and from Boonville, and pursued them. Col. Franz Sigel led another force of about 1,000 into southwest Missouri in search of the governor and his loyal troops. Upon learning that Sigel had encamped at Carthage, on the night of July 4, Jackson took command of the troops with him and formulated a plan to attack the much smaller Union force. The next morning, Jackson closed up to Sigel, established a battle line on a ridge ten miles north of Carthage, and induced Sigel to attack him. Opening with artillery fire, Sigel closed to the attack. Seeing a large Confederate force-actually unarmed recruits-moving into the woods on his left, he feared that they would turn his flank. He withdrew. The Confederates pursued, but Sigel conducted a successful rearguard action. By evening, Sigel was inside Carthage and under cover of darkness; he retreated to Sarcoxie. The battle had little meaning, but the pro-Southern elements in Missouri, anxious for any good news, championed their first victory.",
   "location": [
     {
       "state": "MO",
       "place": "Jasper County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/mo002.htm"
+  "battle_name": "Carthage",
+  "start_date": "1861-07-05",
+  "casualties": 244,
+  "principal_commanders": "Col. Franz Sigel [US]; Governor Claiborne Jackson [CS]"
 }

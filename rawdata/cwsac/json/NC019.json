@@ -1,112 +1,109 @@
 {
-  "end_date": "1865-03-16",
-  "casualties": 1419,
-  "casualties_text": "1,419 total",
+  "battle": "NC019",
+  "operation": false,
+  "cwsac_reference": "NC019",
   "forces": {
     "Confederate": {
+      "strength_min": 5400,
       "commanders": [
         {
-          "rank": "Lieutenant General",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Hardee",
-          "fullname": "William Hardee"
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Lieutenant General",
+          "fullname": "William Hardee",
+          "navy": false
         }
       ],
-      "strength_min": 5400,
       "description": "Hardee's Corps (5,400)",
       "strength_max": 5400
     },
     "US": {
+      "strength_min": 25992,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Henry",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Slocum",
-          "fullname": "Henry Slocum"
+          "suffix": "",
+          "first_name": "Henry",
+          "rank": "Major General",
+          "fullname": "Henry Slocum",
+          "navy": false
         }
       ],
-      "strength_min": 25992,
       "description": "XX Corps and XIV Corps (25,992)",
       "strength_max": 25992
     }
   },
-  "cwsac_reference": "NC019",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/nc019.htm",
   "forces_text": "XX Corps and XIV Corps (25,992) [US]; Hardee's Corps (5,400) [CS]",
-  "start_date": "1865-03-16",
-  "preservation": "III.3",
+  "casualties_text": "1,419 total",
   "results_text": "Inconclusive",
-  "description": "On the afternoon of March 15, Judson Kilpatrick's cavalry came up against Lt. Gen. William Hardee's corps-consisting of Taliaferro's and McLaw's infantry divisions and Wheeler's dismounted cavalry-deployed across the Raleigh Road near Smithville. After feeling out the Confederate defenses, Kilpatrick withdrew and called for infantry support. During the night, four divisions of the XX Corps arrived to confront the Confederates. At dawn, March 16, the Federals advanced on a division front, driving back skirmishers, but they were stopped by the main Confederate line and a counterattack. Mid-morning, the Federals renewed their advance with strong reinforcements and drove the Confederates from two lines of works, but were repulsed at a third line. Late afternoon, the Union XIV Corps began to arrive on the field but was unable to deploy before dark due to the swampy ground. Hardee retreated during the night after holding up the Union advance for nearly two days.",
-  "state": "NC",
-  "significance": "C",
+  "dates": "March 16, 1865",
+  "result": "Inconclusive",
   "other_names": [
     "Taylor's Hole Creek",
     "Smithville",
     "Smiths Ferry",
     "Black River"
   ],
-  "dates": "March 16, 1865",
-  "battle_name": "Averasborough",
-  "principal_commanders": "Maj. Gen. Henry Slocum [US]; Lt. Gen. William Hardee [CS]",
-  "campaign": "Carolinas Campaign [February-March 1865]",
+  "significance": "C",
+  "preservation": "III.3",
+  "state": "NC",
   "belligerents": {
-    "Confederate": {
+    "CS": {
+      "strength_min": 5400,
       "commanders": [
         {
-          "rank": "Lieutenant General",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Hardee",
-          "fullname": "William Hardee"
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Lieutenant General",
+          "fullname": "William Hardee",
+          "navy": false
         }
       ],
+      "description": "Hardee's Corps (5,400)",
+      "strength_max": 5400
+    },
+    "Confederate": {
       "strength_min": 5400,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Hardee",
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Lieutenant General",
+          "fullname": "William Hardee",
+          "navy": false
+        }
+      ],
       "description": "Hardee's Corps (5,400)",
       "strength_max": 5400
     },
     "US": {
+      "strength_min": 25992,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Henry",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Slocum",
-          "fullname": "Henry Slocum"
+          "suffix": "",
+          "first_name": "Henry",
+          "rank": "Major General",
+          "fullname": "Henry Slocum",
+          "navy": false
         }
       ],
-      "strength_min": 25992,
       "description": "XX Corps and XIV Corps (25,992)",
       "strength_max": 25992
-    },
-    "CS": {
-      "commanders": [
-        {
-          "rank": "Lieutenant General",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Hardee",
-          "fullname": "William Hardee"
-        }
-      ],
-      "strength_min": 5400,
-      "description": "Hardee's Corps (5,400)",
-      "strength_max": 5400
     }
   },
-  "result": "Inconclusive",
-  "battle": "NC019",
+  "campaign": "Carolinas Campaign [February-March 1865]",
+  "end_date": "1865-03-16",
+  "description": "On the afternoon of March 15, Judson Kilpatrick's cavalry came up against Lt. Gen. William Hardee's corps-consisting of Taliaferro's and McLaw's infantry divisions and Wheeler's dismounted cavalry-deployed across the Raleigh Road near Smithville. After feeling out the Confederate defenses, Kilpatrick withdrew and called for infantry support. During the night, four divisions of the XX Corps arrived to confront the Confederates. At dawn, March 16, the Federals advanced on a division front, driving back skirmishers, but they were stopped by the main Confederate line and a counterattack. Mid-morning, the Federals renewed their advance with strong reinforcements and drove the Confederates from two lines of works, but were repulsed at a third line. Late afternoon, the Union XIV Corps began to arrive on the field but was unable to deploy before dark due to the swampy ground. Hardee retreated during the night after holding up the Union advance for nearly two days.",
   "location": [
     {
       "state": "NC",
@@ -117,5 +114,8 @@
       "place": "Cumberland County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/nc019.htm"
+  "battle_name": "Averasborough",
+  "start_date": "1865-03-16",
+  "casualties": 1419,
+  "principal_commanders": "Maj. Gen. Henry Slocum [US]; Lt. Gen. William Hardee [CS]"
 }

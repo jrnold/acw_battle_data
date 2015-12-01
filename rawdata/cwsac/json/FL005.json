@@ -1,111 +1,111 @@
 {
-  "end_date": "1864-02-20",
-  "casualties": 2806,
-  "casualties_text": "2,806 total (US 1,860; CS 946)",
+  "battle": "FL005",
+  "operation": false,
+  "cwsac_reference": "FL005",
   "forces": {
     "Confederate": {
       "casualties": 946,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Joseph",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Finegan",
-          "fullname": "Joseph Finegan"
+          "suffix": "",
+          "first_name": "Joseph",
+          "rank": "Brigadier General",
+          "fullname": "Joseph Finegan",
+          "navy": false
         }
       ],
       "description": "District of East Florida"
     },
     "US": {
       "casualties": 1860,
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Truman",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Seymour",
-          "fullname": "Truman Seymour"
+          "suffix": "",
+          "first_name": "Truman",
+          "rank": "Brigadier General",
+          "fullname": "Truman Seymour",
+          "navy": false
         }
       ],
-      "divisions": 1,
       "description": "Division"
     }
   },
-  "cwsac_reference": "FL005",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/fl005.htm",
   "forces_text": "Division [US]; District of East Florida [CS]",
-  "start_date": "1864-02-20",
-  "preservation": "III.2",
+  "casualties_text": "2,806 total (US 1,860; CS 946)",
   "results_text": "Confederate victory",
-  "description": "In February 1864, the commander of the Department of the South, Maj. Gen. Quincy A. Gillmore, launched an expedition into Florida to secure Union enclaves, sever Rebel supply routes, and recruit black soldiers. Brig. Gen. Truman Seymour moved deep into the state, occupying, destroying, and liberating, meeting little resistance on February 20, he approached Brig. Gen. Joseph Finegan's 5,000 Confederates entrenched near Olustee. One infantry brigade pushed out to meet Seymour's advance units. The Union forces attacked but were repulsed. The battle raged, and as Finegan committed the last of his reserves, the Union line broke and began to retreat. Finegan did not exploit the retreat, allowing most of the fleeing Union forces to reach Jacksonville.",
-  "state": "FL",
-  "significance": "B",
+  "dates": "February 20, 1864",
+  "result": "Confederate",
   "other_names": [
     "Ocean Pond"
   ],
-  "dates": "February 20, 1864",
-  "battle_name": "Olustee",
-  "principal_commanders": "Brig. Gen. Truman Seymour [US]; Brig. Gen. Joseph Finegan [CS]",
-  "campaign": "Florida Expedition [February 1864]",
+  "significance": "B",
+  "preservation": "III.2",
+  "state": "FL",
   "belligerents": {
-    "Confederate": {
-      "casualties": 946,
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "Joseph",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Finegan",
-          "fullname": "Joseph Finegan"
-        }
-      ],
-      "description": "District of East Florida"
-    },
-    "US": {
-      "casualties": 1860,
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "Truman",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Seymour",
-          "fullname": "Truman Seymour"
-        }
-      ],
-      "divisions": 1,
-      "description": "Division"
-    },
     "CS": {
       "casualties": 946,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Joseph",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Finegan",
-          "fullname": "Joseph Finegan"
+          "suffix": "",
+          "first_name": "Joseph",
+          "rank": "Brigadier General",
+          "fullname": "Joseph Finegan",
+          "navy": false
         }
       ],
       "description": "District of East Florida"
+    },
+    "Confederate": {
+      "casualties": 946,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Finegan",
+          "suffix": "",
+          "first_name": "Joseph",
+          "rank": "Brigadier General",
+          "fullname": "Joseph Finegan",
+          "navy": false
+        }
+      ],
+      "description": "District of East Florida"
+    },
+    "US": {
+      "casualties": 1860,
+      "divisions": 1,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Seymour",
+          "suffix": "",
+          "first_name": "Truman",
+          "rank": "Brigadier General",
+          "fullname": "Truman Seymour",
+          "navy": false
+        }
+      ],
+      "description": "Division"
     }
   },
-  "result": "Confederate",
-  "battle": "FL005",
+  "campaign": "Florida Expedition [February 1864]",
+  "end_date": "1864-02-20",
+  "description": "In February 1864, the commander of the Department of the South, Maj. Gen. Quincy A. Gillmore, launched an expedition into Florida to secure Union enclaves, sever Rebel supply routes, and recruit black soldiers. Brig. Gen. Truman Seymour moved deep into the state, occupying, destroying, and liberating, meeting little resistance on February 20, he approached Brig. Gen. Joseph Finegan's 5,000 Confederates entrenched near Olustee. One infantry brigade pushed out to meet Seymour's advance units. The Union forces attacked but were repulsed. The battle raged, and as Finegan committed the last of his reserves, the Union line broke and began to retreat. Finegan did not exploit the retreat, allowing most of the fleeing Union forces to reach Jacksonville.",
   "location": [
     {
       "state": "FL",
       "place": "Baker County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/fl005.htm"
+  "battle_name": "Olustee",
+  "start_date": "1864-02-20",
+  "casualties": 2806,
+  "principal_commanders": "Brig. Gen. Truman Seymour [US]; Brig. Gen. Joseph Finegan [CS]"
 }

@@ -1,18 +1,18 @@
 {
-  "end_date": "1865-04-03",
-  "casualties": 75,
-  "casualties_text": "75 total",
+  "battle": "VA124",
+  "operation": false,
+  "cwsac_reference": "VA124",
   "forces": {
     "Confederate": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Fitzhugh",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Lee",
-          "fullname": "Fitzhugh Lee"
+          "suffix": "",
+          "first_name": "Fitzhugh",
+          "rank": "Major General",
+          "fullname": "Fitzhugh Lee",
+          "navy": false
         }
       ],
       "brigades": 1
@@ -20,83 +20,83 @@
     "US": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "George",
-          "suffix": "",
-          "navy": false,
           "middle_name": "A.",
           "last_name": "Custer",
-          "fullname": "George A. Custer"
+          "suffix": "",
+          "first_name": "George",
+          "rank": "Major General",
+          "fullname": "George A. Custer",
+          "navy": false
         }
       ],
       "brigades": 1
     }
   },
-  "cwsac_reference": "VA124",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va124.htm",
   "forces_text": "Brigades",
-  "start_date": "1865-04-03",
-  "preservation": "III.4",
+  "casualties_text": "75 total",
   "results_text": "Inconclusive",
-  "description": "Description: Rearguard cavalry action. A brigade of Union cavalry under Col. William Well's (Custer's Division) attacked Fitzhugh Lee's cavalry near Namozine Church on April 3. Confederate Gen. Rufus Barringer was captured nearby. Result(s):",
-  "state": "VA",
-  "significance": "D",
-  "other_names": null,
   "dates": "April 3, 1865",
-  "battle_name": "Namozine Church",
-  "principal_commanders": "Maj. Gen. George A. Custer [US]; Maj. Gen. Fitzhugh Lee [CS]",
-  "campaign": "Appomattox Campaign [March-April 1865]",
+  "result": "Inconclusive",
+  "other_names": null,
+  "significance": "D",
+  "preservation": "III.4",
+  "state": "VA",
   "belligerents": {
-    "Confederate": {
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Fitzhugh",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Lee",
-          "fullname": "Fitzhugh Lee"
-        }
-      ],
-      "brigades": 1
-    },
-    "US": {
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "George",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "A.",
-          "last_name": "Custer",
-          "fullname": "George A. Custer"
-        }
-      ],
-      "brigades": 1
-    },
     "CS": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Fitzhugh",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Lee",
-          "fullname": "Fitzhugh Lee"
+          "suffix": "",
+          "first_name": "Fitzhugh",
+          "rank": "Major General",
+          "fullname": "Fitzhugh Lee",
+          "navy": false
+        }
+      ],
+      "brigades": 1
+    },
+    "Confederate": {
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Lee",
+          "suffix": "",
+          "first_name": "Fitzhugh",
+          "rank": "Major General",
+          "fullname": "Fitzhugh Lee",
+          "navy": false
+        }
+      ],
+      "brigades": 1
+    },
+    "US": {
+      "commanders": [
+        {
+          "middle_name": "A.",
+          "last_name": "Custer",
+          "suffix": "",
+          "first_name": "George",
+          "rank": "Major General",
+          "fullname": "George A. Custer",
+          "navy": false
         }
       ],
       "brigades": 1
     }
   },
-  "result": "Inconclusive",
-  "battle": "VA124",
+  "campaign": "Appomattox Campaign [March-April 1865]",
+  "end_date": "1865-04-03",
+  "description": "Description: Rearguard cavalry action. A brigade of Union cavalry under Col. William Well's (Custer's Division) attacked Fitzhugh Lee's cavalry near Namozine Church on April 3. Confederate Gen. Rufus Barringer was captured nearby. Result(s):",
   "location": [
     {
       "state": "VA",
       "place": "Amelia County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/va124.htm"
+  "battle_name": "Namozine Church",
+  "start_date": "1865-04-03",
+  "casualties": 75,
+  "principal_commanders": "Maj. Gen. George A. Custer [US]; Maj. Gen. Fitzhugh Lee [CS]"
 }

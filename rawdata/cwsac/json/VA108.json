@@ -1,104 +1,104 @@
 {
-  "end_date": "1863-07-23",
-  "casualties": 440,
-  "casualties_text": "440 total",
+  "battle": "VA108",
+  "operation": false,
+  "cwsac_reference": "VA108",
   "forces": {
     "Confederate": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Richard",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Anderson",
-          "fullname": "Richard Anderson"
+          "suffix": "",
+          "first_name": "Richard",
+          "rank": "Major General",
+          "fullname": "Richard Anderson",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     },
     "US": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
           "middle_name": "H.",
           "last_name": "French",
-          "fullname": "William H. French"
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Major General",
+          "fullname": "William H. French",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     }
   },
-  "cwsac_reference": "VA108",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va108.htm",
   "forces_text": "Divisions",
-  "start_date": "1863-07-23",
-  "preservation": "III.4",
+  "casualties_text": "440 total",
   "results_text": "Inconclusive",
-  "description": "After recrossing the Potomac River at Williamsport, Lee's army withdrew up the Shenandoah Valley. Meade crossed the Potomac River east of the Blue Ridge and followed Lee into Virginia. On July 23, Meade ordered the III Corps, under Maj. Gen. William. H. French to cut off the retreating Confederate columns at Front Royal by forcing passage through Manassas Gap. At first light, French began slowly pushing Walker's Confederate brigade (Anderson's division) back into the gap. About 4:30 pm, a strong Union attack drove Walker's men until they were reinforced by Rodes's division and artillery. By dusk, the poorly coordinated Union attacks were abandoned. During the night, Confederate forces withdrew into the Luray Valley. On July 24, the Union army occupied Front Royal, but Lee's army was safely beyond pursuit.",
-  "state": "VA",
-  "significance": "D",
+  "dates": "July 23, 1863",
+  "result": "Inconclusive",
   "other_names": [
     "Wapping Heights"
   ],
-  "dates": "July 23, 1863",
-  "battle_name": "Manassas Gap",
-  "principal_commanders": "Maj. Gen. William H. French [US]; Maj. Gen. Richard Anderson [CS]",
-  "campaign": "Gettysburg Campaign [June-July 1863]",
+  "significance": "D",
+  "preservation": "III.4",
+  "state": "VA",
   "belligerents": {
-    "Confederate": {
+    "CS": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Richard",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Anderson",
-          "fullname": "Richard Anderson"
+          "suffix": "",
+          "first_name": "Richard",
+          "rank": "Major General",
+          "fullname": "Richard Anderson",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
+    },
+    "Confederate": {
+      "divisions": 1,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Anderson",
+          "suffix": "",
+          "first_name": "Richard",
+          "rank": "Major General",
+          "fullname": "Richard Anderson",
+          "navy": false
+        }
+      ]
     },
     "US": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
           "middle_name": "H.",
           "last_name": "French",
-          "fullname": "William H. French"
-        }
-      ],
-      "divisions": 1
-    },
-    "CS": {
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Richard",
           "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Anderson",
-          "fullname": "Richard Anderson"
+          "first_name": "William",
+          "rank": "Major General",
+          "fullname": "William H. French",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     }
   },
-  "result": "Inconclusive",
-  "battle": "VA108",
+  "campaign": "Gettysburg Campaign [June-July 1863]",
+  "end_date": "1863-07-23",
+  "description": "After recrossing the Potomac River at Williamsport, Lee's army withdrew up the Shenandoah Valley. Meade crossed the Potomac River east of the Blue Ridge and followed Lee into Virginia. On July 23, Meade ordered the III Corps, under Maj. Gen. William. H. French to cut off the retreating Confederate columns at Front Royal by forcing passage through Manassas Gap. At first light, French began slowly pushing Walker's Confederate brigade (Anderson's division) back into the gap. About 4:30 pm, a strong Union attack drove Walker's men until they were reinforced by Rodes's division and artillery. By dusk, the poorly coordinated Union attacks were abandoned. During the night, Confederate forces withdrew into the Luray Valley. On July 24, the Union army occupied Front Royal, but Lee's army was safely beyond pursuit.",
   "location": [
     {
       "state": "VA",
       "place": "Warren County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/va108.htm"
+  "battle_name": "Manassas Gap",
+  "start_date": "1863-07-23",
+  "casualties": 440,
+  "principal_commanders": "Maj. Gen. William H. French [US]; Maj. Gen. Richard Anderson [CS]"
 }

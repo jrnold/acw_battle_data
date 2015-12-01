@@ -1,18 +1,18 @@
 {
-  "end_date": "1863-10-14",
-  "casualties": 113,
-  "casualties_text": "113 total",
+  "battle": "VA041",
+  "operation": false,
+  "cwsac_reference": "VA041",
   "forces": {
     "Confederate": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "J.E.B.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Stuart",
-          "fullname": "J.E.B. Stuart"
+          "suffix": "",
+          "first_name": "J.E.B.",
+          "rank": "Major General",
+          "fullname": "J.E.B. Stuart",
+          "navy": false
         }
       ],
       "brigades": 1
@@ -20,45 +20,55 @@
     "US": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "G.K.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Warren",
-          "fullname": "G.K. Warren"
+          "suffix": "",
+          "first_name": "G.K.",
+          "rank": "Major General",
+          "fullname": "G.K. Warren",
+          "navy": false
         }
       ],
       "brigades": 1
     }
   },
-  "cwsac_reference": "VA041",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va041.htm",
   "forces_text": "Brigades",
-  "start_date": "1863-10-14",
-  "preservation": "III.4",
+  "casualties_text": "113 total",
   "results_text": "Inconclusive",
-  "description": "As the Federal army withdrew towards Manassas Junction, Owens and Smyth's Union brigades (Warren's II Corps) fought a rearguard action against Stuart's cavalry and infantry of Harry Hays's division near Auburn. Stuart's cavalry boldly bluffed Warren's infantry and escaped disaster. The II Corps pushed on to Catlett Station on the Orange & Alexandria Railroad.",
-  "state": "VA",
-  "significance": "D",
+  "dates": "October 14, 1863",
+  "result": "Inconclusive",
   "other_names": [
     "Coffee Hill"
   ],
-  "dates": "October 14, 1863",
-  "battle_name": "Auburn",
-  "principal_commanders": "Maj. Gen. G.K. Warren [US]; Maj. Gen. J.E.B. Stuart [CS]",
-  "campaign": "Bristoe Campaign [October-November 1863]",
+  "significance": "D",
+  "preservation": "III.4",
+  "state": "VA",
   "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Stuart",
+          "suffix": "",
+          "first_name": "J.E.B.",
+          "rank": "Major General",
+          "fullname": "J.E.B. Stuart",
+          "navy": false
+        }
+      ],
+      "brigades": 1
+    },
     "Confederate": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "J.E.B.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Stuart",
-          "fullname": "J.E.B. Stuart"
+          "suffix": "",
+          "first_name": "J.E.B.",
+          "rank": "Major General",
+          "fullname": "J.E.B. Stuart",
+          "navy": false
         }
       ],
       "brigades": 1
@@ -66,39 +76,29 @@
     "US": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "G.K.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Warren",
-          "fullname": "G.K. Warren"
-        }
-      ],
-      "brigades": 1
-    },
-    "CS": {
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "J.E.B.",
           "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Stuart",
-          "fullname": "J.E.B. Stuart"
+          "first_name": "G.K.",
+          "rank": "Major General",
+          "fullname": "G.K. Warren",
+          "navy": false
         }
       ],
       "brigades": 1
     }
   },
-  "result": "Inconclusive",
-  "battle": "VA041",
+  "campaign": "Bristoe Campaign [October-November 1863]",
+  "end_date": "1863-10-14",
+  "description": "As the Federal army withdrew towards Manassas Junction, Owens and Smyth's Union brigades (Warren's II Corps) fought a rearguard action against Stuart's cavalry and infantry of Harry Hays's division near Auburn. Stuart's cavalry boldly bluffed Warren's infantry and escaped disaster. The II Corps pushed on to Catlett Station on the Orange & Alexandria Railroad.",
   "location": [
     {
       "state": "VA",
       "place": "Fauquier County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/va041.htm"
+  "battle_name": "Auburn",
+  "start_date": "1863-10-14",
+  "casualties": 113,
+  "principal_commanders": "Maj. Gen. G.K. Warren [US]; Maj. Gen. J.E.B. Stuart [CS]"
 }

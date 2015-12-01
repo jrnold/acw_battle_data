@@ -1,112 +1,112 @@
 {
-  "end_date": "1861-11-07",
-  "casualties": 1464,
-  "casualties_text": "1,464 total (US 498; CS 966)",
+  "battle": "MO009",
+  "operation": false,
+  "cwsac_reference": "MO009",
   "forces": {
     "Confederate": {
       "casualties": 966,
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Gideon",
-          "suffix": "",
-          "navy": false,
           "middle_name": "J.",
           "last_name": "Pillow",
-          "fullname": "Gideon J. Pillow"
+          "suffix": "",
+          "first_name": "Gideon",
+          "rank": "Brigadier General",
+          "fullname": "Gideon J. Pillow",
+          "navy": false
         }
       ],
-      "divisions": 1,
       "description": "division"
     },
     "US": {
       "casualties": 498,
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Ulysses",
-          "suffix": "",
-          "navy": false,
           "middle_name": "S.",
           "last_name": "Grant",
-          "fullname": "Ulysses S. Grant"
+          "suffix": "",
+          "first_name": "Ulysses",
+          "rank": "Brigadier General",
+          "fullname": "Ulysses S. Grant",
+          "navy": false
         }
       ],
-      "divisions": 1,
       "description": "Division"
     }
   },
-  "cwsac_reference": "MO009",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/mo009.htm",
   "forces_text": "Division [US]; division [CS]",
-  "start_date": "1861-11-07",
-  "preservation": "IV.1",
+  "casualties_text": "1,464 total (US 498; CS 966)",
   "results_text": "Union victory",
-  "description": "On November 6, 1861, Brig. Gen. U.S. Grant left Cairo, Illinois, by steamers, in conjunction with two gunboats, to make a demonstration against Columbus, Kentucky. The next morning, Grant learned that Confederate troops had crossed the Mississippi River from Columbus to Belmont, Missouri, to intercept two detachments sent in pursuit of Brig. Gen. M. Jeff Thompson and, possibly, to reinforce Maj. Gen. Sterling Price's force. He landed on the Missouri shore, out of the range of Confederate artillery at Columbus, and started marching the mile to Belmont. At 9:00 in the morning, an engagement began. The Federals routed the Confederates out of their Belmont cantonment and destroyed the Rebel supplies and equipment they found because they did not have the means to carry them off. The scattered Confederate forces reorganized and received reinforcements from Columbus. Counterattacked by the Confederates, the Union force withdrew, reembarked, and returned to Cairo. Grant did not accomplish much in this operation, but, at a time when little Union action occurred anywhere, many were heartened by any activity.",
-  "state": "MO",
-  "significance": "C",
-  "other_names": null,
   "dates": "November 7, 1861",
-  "battle_name": "Belmont",
-  "principal_commanders": "Brig. Gen. Ulysses S. Grant [US]; Brig. Gen. Gideon J. Pillow [CS]",
-  "campaign": "Operations at the Ohio and Mississippi River Confluence [November 1861]",
+  "result": "Union",
+  "other_names": null,
+  "significance": "C",
+  "preservation": "IV.1",
+  "state": "MO",
   "belligerents": {
-    "Confederate": {
-      "casualties": 966,
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "Gideon",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "J.",
-          "last_name": "Pillow",
-          "fullname": "Gideon J. Pillow"
-        }
-      ],
-      "divisions": 1,
-      "description": "division"
-    },
-    "US": {
-      "casualties": 498,
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "Ulysses",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "S.",
-          "last_name": "Grant",
-          "fullname": "Ulysses S. Grant"
-        }
-      ],
-      "divisions": 1,
-      "description": "Division"
-    },
     "CS": {
       "casualties": 966,
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Gideon",
-          "suffix": "",
-          "navy": false,
           "middle_name": "J.",
           "last_name": "Pillow",
-          "fullname": "Gideon J. Pillow"
+          "suffix": "",
+          "first_name": "Gideon",
+          "rank": "Brigadier General",
+          "fullname": "Gideon J. Pillow",
+          "navy": false
         }
       ],
-      "divisions": 1,
       "description": "division"
+    },
+    "Confederate": {
+      "casualties": 966,
+      "divisions": 1,
+      "commanders": [
+        {
+          "middle_name": "J.",
+          "last_name": "Pillow",
+          "suffix": "",
+          "first_name": "Gideon",
+          "rank": "Brigadier General",
+          "fullname": "Gideon J. Pillow",
+          "navy": false
+        }
+      ],
+      "description": "division"
+    },
+    "US": {
+      "casualties": 498,
+      "divisions": 1,
+      "commanders": [
+        {
+          "middle_name": "S.",
+          "last_name": "Grant",
+          "suffix": "",
+          "first_name": "Ulysses",
+          "rank": "Brigadier General",
+          "fullname": "Ulysses S. Grant",
+          "navy": false
+        }
+      ],
+      "description": "Division"
     }
   },
-  "result": "Union",
-  "battle": "MO009",
+  "campaign": "Operations at the Ohio and Mississippi River Confluence [November 1861]",
+  "end_date": "1861-11-07",
+  "description": "On November 6, 1861, Brig. Gen. U.S. Grant left Cairo, Illinois, by steamers, in conjunction with two gunboats, to make a demonstration against Columbus, Kentucky. The next morning, Grant learned that Confederate troops had crossed the Mississippi River from Columbus to Belmont, Missouri, to intercept two detachments sent in pursuit of Brig. Gen. M. Jeff Thompson and, possibly, to reinforce Maj. Gen. Sterling Price's force. He landed on the Missouri shore, out of the range of Confederate artillery at Columbus, and started marching the mile to Belmont. At 9:00 in the morning, an engagement began. The Federals routed the Confederates out of their Belmont cantonment and destroyed the Rebel supplies and equipment they found because they did not have the means to carry them off. The scattered Confederate forces reorganized and received reinforcements from Columbus. Counterattacked by the Confederates, the Union force withdrew, reembarked, and returned to Cairo. Grant did not accomplish much in this operation, but, at a time when little Union action occurred anywhere, many were heartened by any activity.",
   "location": [
     {
       "state": "MO",
       "place": "Mississippi County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/mo009.htm"
+  "battle_name": "Belmont",
+  "start_date": "1861-11-07",
+  "casualties": 1464,
+  "principal_commanders": "Brig. Gen. Ulysses S. Grant [US]; Brig. Gen. Gideon J. Pillow [CS]"
 }

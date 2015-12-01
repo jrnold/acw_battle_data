@@ -1,104 +1,104 @@
 {
-  "end_date": "1863-05-03",
-  "casualties": 2000,
-  "casualties_text": "2,000 total",
+  "battle": "VA034",
+  "operation": false,
+  "cwsac_reference": "VA034",
   "forces": {
     "Confederate": {
-      "corps": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Jubal",
-          "suffix": "",
-          "navy": false,
           "middle_name": "A.",
           "last_name": "Early",
-          "fullname": "Jubal A. Early"
+          "suffix": "",
+          "first_name": "Jubal",
+          "rank": "Major General",
+          "fullname": "Jubal A. Early",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
     },
     "US": {
-      "corps": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Sedgwick",
-          "fullname": "John Sedgwick"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Major General",
+          "fullname": "John Sedgwick",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
     }
   },
-  "cwsac_reference": "VA034",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va034.htm",
   "forces_text": "Corps",
-  "start_date": "1863-05-03",
-  "preservation": "IV.1",
+  "casualties_text": "2,000 total",
   "results_text": "Union victory",
-  "description": "On May 1, Gen. Robert E. Lee left Maj. Gen. Jubal A. Early's division to hold Fredericksburg, while marching with the rest of the army to meet Hooker's main offensive thrust at Chancellorsville. On May 3, the Union VI Corps under Sedgwick, reinforced by John Gibbon's II Corps division, having crossed the Rappahannock River, assaulted and carried the Confederate entrenchments on Marye's Heights. The outnumbered Confederates withdrew and regrouped west and southeast of town.",
-  "state": "VA",
-  "significance": "B",
+  "dates": "May 3, 1863",
+  "result": "Union",
   "other_names": [
     "Marye's Heights"
   ],
-  "dates": "May 3, 1863",
-  "battle_name": "Fredericksburg II",
-  "principal_commanders": "Maj. Gen. John Sedgwick [US]; Maj. Gen. Jubal A. Early [CS]",
-  "campaign": "Chancellorsville Campaign [April-May 1863]",
+  "significance": "B",
+  "preservation": "IV.1",
+  "state": "VA",
   "belligerents": {
-    "Confederate": {
-      "corps": 1,
+    "CS": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Jubal",
-          "suffix": "",
-          "navy": false,
           "middle_name": "A.",
           "last_name": "Early",
-          "fullname": "Jubal A. Early"
+          "suffix": "",
+          "first_name": "Jubal",
+          "rank": "Major General",
+          "fullname": "Jubal A. Early",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
+    },
+    "Confederate": {
+      "commanders": [
+        {
+          "middle_name": "A.",
+          "last_name": "Early",
+          "suffix": "",
+          "first_name": "Jubal",
+          "rank": "Major General",
+          "fullname": "Jubal A. Early",
+          "navy": false
+        }
+      ],
+      "corps": 1
     },
     "US": {
-      "corps": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Sedgwick",
-          "fullname": "John Sedgwick"
-        }
-      ]
-    },
-    "CS": {
-      "corps": 1,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Jubal",
           "suffix": "",
-          "navy": false,
-          "middle_name": "A.",
-          "last_name": "Early",
-          "fullname": "Jubal A. Early"
+          "first_name": "John",
+          "rank": "Major General",
+          "fullname": "John Sedgwick",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
     }
   },
-  "result": "Union",
-  "battle": "VA034",
+  "campaign": "Chancellorsville Campaign [April-May 1863]",
+  "end_date": "1863-05-03",
+  "description": "On May 1, Gen. Robert E. Lee left Maj. Gen. Jubal A. Early's division to hold Fredericksburg, while marching with the rest of the army to meet Hooker's main offensive thrust at Chancellorsville. On May 3, the Union VI Corps under Sedgwick, reinforced by John Gibbon's II Corps division, having crossed the Rappahannock River, assaulted and carried the Confederate entrenchments on Marye's Heights. The outnumbered Confederates withdrew and regrouped west and southeast of town.",
   "location": [
     {
       "state": "VA",
       "place": "Fredericksburg"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/va034.htm"
+  "battle_name": "Fredericksburg II",
+  "start_date": "1863-05-03",
+  "casualties": 2000,
+  "principal_commanders": "Maj. Gen. John Sedgwick [US]; Maj. Gen. Jubal A. Early [CS]"
 }

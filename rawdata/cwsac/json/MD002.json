@@ -1,101 +1,98 @@
 {
-  "end_date": "1862-09-14",
-  "casualties": 4500,
-  "casualties_text": "4,500 total",
+  "battle": "MD002",
+  "operation": false,
+  "cwsac_reference": "MD002",
   "forces": {
     "Confederate": {
-      "corps": 1,
       "commanders": [
         {
-          "rank": "General",
-          "first_name": "Robert",
-          "suffix": "",
-          "navy": false,
           "middle_name": "E.",
           "last_name": "Lee",
-          "fullname": "Robert E. Lee"
+          "suffix": "",
+          "first_name": "Robert",
+          "rank": "General",
+          "fullname": "Robert E. Lee",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
     },
     "US": {
-      "corps": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "George",
-          "suffix": "",
-          "navy": false,
           "middle_name": "B.",
           "last_name": "McClellan",
-          "fullname": "George B. McClellan"
+          "suffix": "",
+          "first_name": "George",
+          "rank": "Major General",
+          "fullname": "George B. McClellan",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
     }
   },
-  "cwsac_reference": "MD002",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/md002.htm",
   "forces_text": "Corps",
-  "start_date": "1862-09-14",
-  "preservation": "I.3",
+  "casualties_text": "4,500 total",
   "results_text": "Union victory",
-  "description": "After invading Maryland in September 1862, Gen. Robert E. Lee divided his army to march on and invest Harpers Ferry. The Army of the Potomac under Maj. Gen. George B. McClellan pursued the Confederates to Frederick, Maryland, then advanced on South Mountain. On September 14, pitched battles were fought for possession of the South Mountain passes: Crampton's, Turner's, and Fox's Gaps. By dusk the Confederate defenders were driven back, suffering severe casualties, and McClellan was in position to destroy Lee's army before it could reconcentrate. McClellan's limited activity on September 15 after his victory at South Mountain, however, condemned the garrison at Harpers Ferry to capture and gave Lee time to unite his scattered divisions at Sharpsburg. Union general Jesse Reno and Confederate general Samuel Garland, Jr., were killed at South Mountain.",
-  "state": "MD",
-  "significance": "B",
+  "dates": "September 14, 1862",
+  "result": "Union",
   "other_names": [
     "Crampton's",
     "Turner's",
     "and Fox's Gaps"
   ],
-  "dates": "September 14, 1862",
-  "battle_name": "South Mountain",
-  "principal_commanders": "Maj. Gen. George B. McClellan [US]; Gen. Robert E. Lee [CS]",
-  "campaign": "Maryland Campaign [September 1862]",
+  "significance": "B",
+  "preservation": "I.3",
+  "state": "MD",
   "belligerents": {
-    "Confederate": {
-      "corps": 1,
+    "CS": {
       "commanders": [
         {
-          "rank": "General",
-          "first_name": "Robert",
-          "suffix": "",
-          "navy": false,
           "middle_name": "E.",
           "last_name": "Lee",
-          "fullname": "Robert E. Lee"
+          "suffix": "",
+          "first_name": "Robert",
+          "rank": "General",
+          "fullname": "Robert E. Lee",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
+    },
+    "Confederate": {
+      "commanders": [
+        {
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "suffix": "",
+          "first_name": "Robert",
+          "rank": "General",
+          "fullname": "Robert E. Lee",
+          "navy": false
+        }
+      ],
+      "corps": 1
     },
     "US": {
-      "corps": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "George",
-          "suffix": "",
-          "navy": false,
           "middle_name": "B.",
           "last_name": "McClellan",
-          "fullname": "George B. McClellan"
-        }
-      ]
-    },
-    "CS": {
-      "corps": 1,
-      "commanders": [
-        {
-          "rank": "General",
-          "first_name": "Robert",
           "suffix": "",
-          "navy": false,
-          "middle_name": "E.",
-          "last_name": "Lee",
-          "fullname": "Robert E. Lee"
+          "first_name": "George",
+          "rank": "Major General",
+          "fullname": "George B. McClellan",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
     }
   },
-  "result": "Union",
-  "battle": "MD002",
+  "campaign": "Maryland Campaign [September 1862]",
+  "end_date": "1862-09-14",
+  "description": "After invading Maryland in September 1862, Gen. Robert E. Lee divided his army to march on and invest Harpers Ferry. The Army of the Potomac under Maj. Gen. George B. McClellan pursued the Confederates to Frederick, Maryland, then advanced on South Mountain. On September 14, pitched battles were fought for possession of the South Mountain passes: Crampton's, Turner's, and Fox's Gaps. By dusk the Confederate defenders were driven back, suffering severe casualties, and McClellan was in position to destroy Lee's army before it could reconcentrate. McClellan's limited activity on September 15 after his victory at South Mountain, however, condemned the garrison at Harpers Ferry to capture and gave Lee time to unite his scattered divisions at Sharpsburg. Union general Jesse Reno and Confederate general Samuel Garland, Jr., were killed at South Mountain.",
   "location": [
     {
       "state": "MD",
@@ -106,5 +103,8 @@
       "place": "Washington County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/md002.htm"
+  "battle_name": "South Mountain",
+  "start_date": "1862-09-14",
+  "casualties": 4500,
+  "principal_commanders": "Maj. Gen. George B. McClellan [US]; Gen. Robert E. Lee [CS]"
 }

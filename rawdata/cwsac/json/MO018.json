@@ -1,114 +1,114 @@
 {
-  "end_date": "1863-01-08",
-  "casualties": 403,
-  "casualties_text": "403 total (US 163; CS 240)",
+  "battle": "MO018",
+  "operation": false,
+  "cwsac_reference": "MO018",
   "forces": {
     "Confederate": {
       "casualties": 240,
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "S.",
           "last_name": "Marmaduke",
-          "fullname": "John S. Marmaduke"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Brigadier General",
+          "fullname": "John S. Marmaduke",
+          "navy": false
         }
       ],
-      "divisions": 1,
       "description": "4th Division, I Corps, Trans-Mississippi Department"
     },
     "US": {
       "casualties": 163,
+      "strength_min": 2000,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Egbert",
-          "suffix": "",
-          "navy": false,
           "middle_name": "B.",
           "last_name": "Brown",
-          "fullname": "Egbert B. Brown"
+          "suffix": "",
+          "first_name": "Egbert",
+          "rank": "Brigadier General",
+          "fullname": "Egbert B. Brown",
+          "navy": false
         }
       ],
       "description": "Southwestern District of Missouri Troops (2,000)",
-      "strength_min": 2000,
       "strength_max": 2000
     }
   },
-  "cwsac_reference": "MO018",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/mo018.htm",
   "forces_text": "Southwestern District of Missouri Troops (2,000) [US]; 4th Division, I Corps, Trans-Mississippi Department [CS]",
-  "start_date": "1863-01-08",
-  "preservation": "IV.1",
+  "casualties_text": "403 total (US 163; CS 240)",
   "results_text": "Union victory, although the raid ultimately failed.",
-  "description": "Brig. Gen. John S. Marmaduke's expedition into Missouri reached Ozark, where it destroyed the Union post, and then approached Springfield on the morning of January 8, 1863. Springfield was an important Federal communications center and supply depot so the Rebels wished to destroy it. The Union army had constructed fortifications to defend the town. Their ranks, however, were depleted because Francis J. Herron's two divisions had not yet returned from their victory at Prairie Grove on December 7. After receiving a report on January 7 of the Rebels' approach, Brig. Gen. Egbert B. Brown set about preparing for the attack and rounding up additional troops. Around 10:00 am, the Confederates advanced in battle line to the attack. The day included desperate fighting with attacks and counterattacks until after dark, but the Federal troops held and the Rebels withdrew during the night. Brown had been wounded during the day. The Confederates appeared in force the next morning but retired without attacking. The Federal depot was successfully defended, and Union strength in the area continued.",
-  "state": "MO",
-  "significance": "D",
-  "other_names": null,
   "dates": "January 8, 1863",
-  "battle_name": "Springfield",
-  "principal_commanders": "Brig. Gen. Egbert B. Brown [US]; Brig. Gen. John S. Marmaduke [CS]",
-  "campaign": "Marmaduke's First Expedition into Missouri [January 1863]",
+  "result": "Union",
+  "other_names": null,
+  "significance": "D",
+  "preservation": "IV.1",
+  "state": "MO",
   "belligerents": {
-    "Confederate": {
-      "casualties": 240,
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "S.",
-          "last_name": "Marmaduke",
-          "fullname": "John S. Marmaduke"
-        }
-      ],
-      "divisions": 1,
-      "description": "4th Division, I Corps, Trans-Mississippi Department"
-    },
-    "US": {
-      "casualties": 163,
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "Egbert",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "B.",
-          "last_name": "Brown",
-          "fullname": "Egbert B. Brown"
-        }
-      ],
-      "description": "Southwestern District of Missouri Troops (2,000)",
-      "strength_min": 2000,
-      "strength_max": 2000
-    },
     "CS": {
       "casualties": 240,
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "S.",
           "last_name": "Marmaduke",
-          "fullname": "John S. Marmaduke"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Brigadier General",
+          "fullname": "John S. Marmaduke",
+          "navy": false
         }
       ],
-      "divisions": 1,
       "description": "4th Division, I Corps, Trans-Mississippi Department"
+    },
+    "Confederate": {
+      "casualties": 240,
+      "divisions": 1,
+      "commanders": [
+        {
+          "middle_name": "S.",
+          "last_name": "Marmaduke",
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Brigadier General",
+          "fullname": "John S. Marmaduke",
+          "navy": false
+        }
+      ],
+      "description": "4th Division, I Corps, Trans-Mississippi Department"
+    },
+    "US": {
+      "casualties": 163,
+      "strength_min": 2000,
+      "commanders": [
+        {
+          "middle_name": "B.",
+          "last_name": "Brown",
+          "suffix": "",
+          "first_name": "Egbert",
+          "rank": "Brigadier General",
+          "fullname": "Egbert B. Brown",
+          "navy": false
+        }
+      ],
+      "description": "Southwestern District of Missouri Troops (2,000)",
+      "strength_max": 2000
     }
   },
-  "result": "Union",
-  "battle": "MO018",
+  "campaign": "Marmaduke's First Expedition into Missouri [January 1863]",
+  "end_date": "1863-01-08",
+  "description": "Brig. Gen. John S. Marmaduke's expedition into Missouri reached Ozark, where it destroyed the Union post, and then approached Springfield on the morning of January 8, 1863. Springfield was an important Federal communications center and supply depot so the Rebels wished to destroy it. The Union army had constructed fortifications to defend the town. Their ranks, however, were depleted because Francis J. Herron's two divisions had not yet returned from their victory at Prairie Grove on December 7. After receiving a report on January 7 of the Rebels' approach, Brig. Gen. Egbert B. Brown set about preparing for the attack and rounding up additional troops. Around 10:00 am, the Confederates advanced in battle line to the attack. The day included desperate fighting with attacks and counterattacks until after dark, but the Federal troops held and the Rebels withdrew during the night. Brown had been wounded during the day. The Confederates appeared in force the next morning but retired without attacking. The Federal depot was successfully defended, and Union strength in the area continued.",
   "location": [
     {
       "state": "MO",
       "place": "Greene County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/mo018.htm"
+  "battle_name": "Springfield",
+  "start_date": "1863-01-08",
+  "casualties": 403,
+  "principal_commanders": "Brig. Gen. Egbert B. Brown [US]; Brig. Gen. John S. Marmaduke [CS]"
 }

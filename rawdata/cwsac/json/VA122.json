@@ -1,68 +1,130 @@
 {
-  "end_date": "1864-10-19",
-  "casualties": 8575,
-  "casualties_text": "8,575 total (US 5,665; CS 2,910)",
+  "battle": "VA122",
+  "operation": false,
+  "cwsac_reference": "VA122",
   "forces": {
     "Confederate": {
       "casualties": 2910,
+      "strength_min": 21000,
       "commanders": [
         {
-          "rank": "Lieutenant General",
-          "first_name": "Jubal",
-          "suffix": "",
-          "navy": false,
           "middle_name": "A.",
           "last_name": "Early",
-          "fullname": "Jubal A. Early"
+          "suffix": "",
+          "first_name": "Jubal",
+          "rank": "Lieutenant General",
+          "fullname": "Jubal A. Early",
+          "navy": false
         }
       ],
       "description": "21,000",
-      "strength_min": 21000,
       "strength_max": 21000
     },
     "US": {
       "casualties": 5665,
+      "strength_min": 31945,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Horatio",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Wright",
-          "fullname": "Horatio Wright"
+          "suffix": "",
+          "first_name": "Horatio",
+          "rank": "Major General",
+          "fullname": "Horatio Wright",
+          "navy": false
         },
         {
-          "rank": "Major General",
-          "first_name": "Philip",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Sheridan",
-          "fullname": "Philip Sheridan"
+          "suffix": "",
+          "first_name": "Philip",
+          "rank": "Major General",
+          "fullname": "Philip Sheridan",
+          "navy": false
         }
       ],
       "description": "31,945",
-      "strength_min": 31945,
       "strength_max": 31945
     }
   },
-  "strength": 52945,
-  "cwsac_reference": "VA122",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va122.htm",
   "forces_text": "52,945 total (US 31,945; CS 21,000)",
-  "start_date": "1864-10-19",
-  "preservation": "I.1",
+  "strength": 52945,
+  "casualties_text": "8,575 total (US 5,665; CS 2,910)",
   "results_text": "Union victory",
-  "description": "At dawn, October 19, 1864, the Confederate Army of the Valley under Lt. Gen. Jubal A. Early surprised the Federal army at Cedar Creek and routed the VIII and XIX Army Corps. Commander Maj. Gen. Philip Sheridan arrived from Winchester to rally his troops, and, in the afternoon, launched a crushing counterattack, which recovered the battlefield. Sheridan's victory at Cedar Creek broke the back of the Confederate army in the Shenandoah Valley. Lincoln rode the momentum of Sheridan's victories in the Valley and Sherman's successes in Georgia to re-election.",
-  "state": "VA",
-  "significance": "A",
+  "dates": "October 19, 1864",
+  "result": "Union",
   "other_names": [
     "Belle Grove"
   ],
-  "dates": "October 19, 1864",
-  "battle_name": "Cedar Creek",
-  "principal_commanders": "Maj. Gen. Horatio Wright and Maj. Gen. Philip Sheridan [US]; Lt. Gen. Jubal A. Early [CS]",
+  "significance": "A",
+  "preservation": "I.1",
+  "state": "VA",
+  "belligerents": {
+    "CS": {
+      "casualties": 2910,
+      "strength_min": 21000,
+      "commanders": [
+        {
+          "middle_name": "A.",
+          "last_name": "Early",
+          "suffix": "",
+          "first_name": "Jubal",
+          "rank": "Lieutenant General",
+          "fullname": "Jubal A. Early",
+          "navy": false
+        }
+      ],
+      "description": "21,000",
+      "strength_max": 21000
+    },
+    "Confederate": {
+      "casualties": 2910,
+      "strength_min": 21000,
+      "commanders": [
+        {
+          "middle_name": "A.",
+          "last_name": "Early",
+          "suffix": "",
+          "first_name": "Jubal",
+          "rank": "Lieutenant General",
+          "fullname": "Jubal A. Early",
+          "navy": false
+        }
+      ],
+      "description": "21,000",
+      "strength_max": 21000
+    },
+    "US": {
+      "casualties": 5665,
+      "strength_min": 31945,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Wright",
+          "suffix": "",
+          "first_name": "Horatio",
+          "rank": "Major General",
+          "fullname": "Horatio Wright",
+          "navy": false
+        },
+        {
+          "middle_name": "",
+          "last_name": "Sheridan",
+          "suffix": "",
+          "first_name": "Philip",
+          "rank": "Major General",
+          "fullname": "Philip Sheridan",
+          "navy": false
+        }
+      ],
+      "description": "31,945",
+      "strength_max": 31945
+    }
+  },
+  "campaign": "Sheridan's Valley Campaign [August-October 1864]",
+  "end_date": "1864-10-19",
+  "description": "At dawn, October 19, 1864, the Confederate Army of the Valley under Lt. Gen. Jubal A. Early surprised the Federal army at Cedar Creek and routed the VIII and XIX Army Corps. Commander Maj. Gen. Philip Sheridan arrived from Winchester to rally his troops, and, in the afternoon, launched a crushing counterattack, which recovered the battlefield. Sheridan's victory at Cedar Creek broke the back of the Confederate army in the Shenandoah Valley. Lincoln rode the momentum of Sheridan's victories in the Valley and Sherman's successes in Georgia to re-election.",
   "location": [
     {
       "state": "VA",
@@ -77,70 +139,8 @@
       "place": "Warren County"
     }
   ],
-  "belligerents": {
-    "Confederate": {
-      "casualties": 2910,
-      "commanders": [
-        {
-          "rank": "Lieutenant General",
-          "first_name": "Jubal",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "A.",
-          "last_name": "Early",
-          "fullname": "Jubal A. Early"
-        }
-      ],
-      "description": "21,000",
-      "strength_min": 21000,
-      "strength_max": 21000
-    },
-    "US": {
-      "casualties": 5665,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Horatio",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Wright",
-          "fullname": "Horatio Wright"
-        },
-        {
-          "rank": "Major General",
-          "first_name": "Philip",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Sheridan",
-          "fullname": "Philip Sheridan"
-        }
-      ],
-      "description": "31,945",
-      "strength_min": 31945,
-      "strength_max": 31945
-    },
-    "CS": {
-      "casualties": 2910,
-      "commanders": [
-        {
-          "rank": "Lieutenant General",
-          "first_name": "Jubal",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "A.",
-          "last_name": "Early",
-          "fullname": "Jubal A. Early"
-        }
-      ],
-      "description": "21,000",
-      "strength_min": 21000,
-      "strength_max": 21000
-    }
-  },
-  "result": "Union",
-  "battle": "VA122",
-  "campaign": "Sheridan's Valley Campaign [August-October 1864]",
-  "url": "http://www.nps.gov/hps/abpp/battles/va122.htm"
+  "battle_name": "Cedar Creek",
+  "start_date": "1864-10-19",
+  "casualties": 8575,
+  "principal_commanders": "Maj. Gen. Horatio Wright and Maj. Gen. Philip Sheridan [US]; Lt. Gen. Jubal A. Early [CS]"
 }

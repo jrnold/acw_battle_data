@@ -1,121 +1,121 @@
 {
-  "end_date": "1862-05-23",
-  "casualties": 960,
-  "casualties_text": "960 total (US 904; CS 56)",
+  "battle": "VA103",
+  "operation": false,
+  "cwsac_reference": "VA103",
   "forces": {
     "Confederate": {
       "casualties": 56,
+      "strength_min": 3000,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Thomas",
-          "suffix": "",
-          "navy": false,
           "middle_name": "J.",
           "last_name": "Jackson",
-          "fullname": "Thomas J. Jackson"
+          "suffix": "",
+          "first_name": "Thomas",
+          "rank": "Major General",
+          "fullname": "Thomas J. Jackson",
+          "navy": false
         }
       ],
       "description": "3,000",
-      "strength_min": 3000,
       "strength_max": 3000
     },
     "US": {
       "casualties": 904,
+      "strength_min": 1063,
       "commanders": [
         {
-          "rank": "Colonel",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "R.",
           "last_name": "Kenly",
-          "fullname": "John R. Kenly"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Colonel",
+          "fullname": "John R. Kenly",
+          "navy": false
         }
       ],
       "description": "1,063",
-      "strength_min": 1063,
       "strength_max": 1063
     }
   },
-  "strength": 4063,
-  "cwsac_reference": "VA103",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va103.htm",
   "forces_text": "4,063 total (US 1,063; CS 3,000)",
-  "start_date": "1862-05-23",
-  "preservation": "IV.1",
+  "strength": 4063,
+  "casualties_text": "960 total (US 904; CS 56)",
   "results_text": "Confederate victory",
-  "description": "On May 23, Confederate forces, spearheaded by the Louisiana \"Tigers\" and the 1st Maryland, surprised and overran the pickets of a 1,000-man Union garrison under Col. Kenly at Front Royal. Driven through the town, the Federals made a stand on Camp Hill and again at Guard Hill after attempting to fire the river bridges. Outnumbered and outflanked, Kenly continued the retreat to Cedarville, where two cavalry charges led by Maj. Flournoy broke the roadblock and routed the Union force. Nearly 900 Federals surrendered. Jackson's victory at Front Royal forced the Union army under Banks at Strasburg into a rapid retreat towards Winchester.",
-  "state": "VA",
-  "significance": "C",
+  "dates": "May 23, 1862",
+  "result": "Confederate",
   "other_names": [
     "Guard Hill",
     "Cedarville"
   ],
-  "dates": "May 23, 1862",
-  "battle_name": "Front Royal",
-  "principal_commanders": "Col. John R. Kenly [US]; Maj. Gen. Thomas J. Jackson [CS]",
+  "significance": "C",
+  "preservation": "IV.1",
+  "state": "VA",
+  "belligerents": {
+    "CS": {
+      "casualties": 56,
+      "strength_min": 3000,
+      "commanders": [
+        {
+          "middle_name": "J.",
+          "last_name": "Jackson",
+          "suffix": "",
+          "first_name": "Thomas",
+          "rank": "Major General",
+          "fullname": "Thomas J. Jackson",
+          "navy": false
+        }
+      ],
+      "description": "3,000",
+      "strength_max": 3000
+    },
+    "Confederate": {
+      "casualties": 56,
+      "strength_min": 3000,
+      "commanders": [
+        {
+          "middle_name": "J.",
+          "last_name": "Jackson",
+          "suffix": "",
+          "first_name": "Thomas",
+          "rank": "Major General",
+          "fullname": "Thomas J. Jackson",
+          "navy": false
+        }
+      ],
+      "description": "3,000",
+      "strength_max": 3000
+    },
+    "US": {
+      "casualties": 904,
+      "strength_min": 1063,
+      "commanders": [
+        {
+          "middle_name": "R.",
+          "last_name": "Kenly",
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Colonel",
+          "fullname": "John R. Kenly",
+          "navy": false
+        }
+      ],
+      "description": "1,063",
+      "strength_max": 1063
+    }
+  },
+  "campaign": "Jackson's Valley Campaign [March-June 1862]",
+  "end_date": "1862-05-23",
+  "description": "On May 23, Confederate forces, spearheaded by the Louisiana \"Tigers\" and the 1st Maryland, surprised and overran the pickets of a 1,000-man Union garrison under Col. Kenly at Front Royal. Driven through the town, the Federals made a stand on Camp Hill and again at Guard Hill after attempting to fire the river bridges. Outnumbered and outflanked, Kenly continued the retreat to Cedarville, where two cavalry charges led by Maj. Flournoy broke the roadblock and routed the Union force. Nearly 900 Federals surrendered. Jackson's victory at Front Royal forced the Union army under Banks at Strasburg into a rapid retreat towards Winchester.",
   "location": [
     {
       "state": "VA",
       "place": "Warren County"
     }
   ],
-  "belligerents": {
-    "Confederate": {
-      "casualties": 56,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Thomas",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "J.",
-          "last_name": "Jackson",
-          "fullname": "Thomas J. Jackson"
-        }
-      ],
-      "description": "3,000",
-      "strength_min": 3000,
-      "strength_max": 3000
-    },
-    "US": {
-      "casualties": 904,
-      "commanders": [
-        {
-          "rank": "Colonel",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "R.",
-          "last_name": "Kenly",
-          "fullname": "John R. Kenly"
-        }
-      ],
-      "description": "1,063",
-      "strength_min": 1063,
-      "strength_max": 1063
-    },
-    "CS": {
-      "casualties": 56,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Thomas",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "J.",
-          "last_name": "Jackson",
-          "fullname": "Thomas J. Jackson"
-        }
-      ],
-      "description": "3,000",
-      "strength_min": 3000,
-      "strength_max": 3000
-    }
-  },
-  "result": "Confederate",
-  "battle": "VA103",
-  "campaign": "Jackson's Valley Campaign [March-June 1862]",
-  "url": "http://www.nps.gov/hps/abpp/battles/va103.htm"
+  "battle_name": "Front Royal",
+  "start_date": "1862-05-23",
+  "casualties": 960,
+  "principal_commanders": "Col. John R. Kenly [US]; Maj. Gen. Thomas J. Jackson [CS]"
 }

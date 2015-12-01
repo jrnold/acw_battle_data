@@ -302,101 +302,127 @@ fill_casualty_vars <- function(x) {
   x
 }
 
-#'
-#' ## CWSS
-#'
-cwss_forces_casstr <-
-  cwss_forces %>%
-  mutate(BattlefieldCode =
-           ifelse(BattlefieldCode == "VA020B", "VA020", BattlefieldCode)) %>%
-  rename(cwsac_id = BattlefieldCode,
-         cas_kwm_mean_cwss = Casualties,
-         str_mean_cwss = TroopsEngaged) %>%
-  mutate(str_mean_cwss = ifelse(str_mean_cwss == 0, NA_real_, str_mean_cwss),
-         str_var_cwss = rounded_var(str_mean_cwss),
-         cas_kwm_var_cwss = rounded_var(cas_kwm_mean_cwss))
+gen_forces <- function(cwss_forces,
+                       cwsac1_forces,
+                       cwsac2_forces,
+                       shenandoah_forces,
+                       extra_data) {
+  cwss_forces_casstr <-
+    cwss_forces %>%
+    mutate(BattlefieldCode =
+             ifelse(BattlefieldCode == "VA020B", "VA020", BattlefieldCode)) %>%
+    rename(cwsac_id = BattlefieldCode,
+           cas_kwm_mean_cwss = Casualties,
+           str_mean_cwss = TroopsEngaged) %>%
+    mutate(str_mean_cwss = ifelse(str_mean_cwss == 0, NA_real_, str_mean_cwss),
+           str_var_cwss = rounded_var(str_mean_cwss),
+           cas_kwm_var_cwss = rounded_var(cas_kwm_mean_cwss))
 
-cwsac1_forces_casstr <-
-  cwsac1_forces %>%
-  mutate(cas_m_mean_cwsac1 = psum(missing, captured),
-         cas_kwm_var_cwsac1 = rounded_var(casualties),
-         cas_k_var_cwsac1 = rounded_var(killed),
-         cas_w_var_cwsac1 = rounded_var(wounded),
-         cas_m_var_cwsac1 = psum(rounded_var(missing),
-                                 rounded_var(captured))) %>%
-  rename(cas_kwm_mean_cwsac1 = casualties,
-         cas_k_mean_cwsac1 = killed,
-         cas_w_mean_cwsac1 = wounded,
-         str_mean_cwsac1 = strength_mean,
-         str_var_cwsac1 = strength_var,
-         cwsac_id = battle) %>%
-  select(cwsac_id, belligerent, matches("(str|cas)_")) %>%
-  filter(! grepl("VA020[AB]", cwsac_id))
+  cwsac1_forces_casstr <-
+    cwsac1_forces %>%
+    mutate(cas_m_mean_cwsac1 = psum(missing, captured),
+           cas_kwm_var_cwsac1 = rounded_var(casualties),
+           cas_k_var_cwsac1 = rounded_var(killed),
+           cas_w_var_cwsac1 = rounded_var(wounded),
+           cas_m_var_cwsac1 = psum(rounded_var(missing),
+                                   rounded_var(captured))) %>%
+    rename(cas_kwm_mean_cwsac1 = casualties,
+           cas_k_mean_cwsac1 = killed,
+           cas_w_mean_cwsac1 = wounded,
+           str_mean_cwsac1 = strength_mean,
+           str_var_cwsac1 = strength_var,
+           cwsac_id = battle) %>%
+    select(cwsac_id, belligerent, matches("(str|cas)_")) %>%
+    filter(! grepl("VA020[AB]", cwsac_id))
 
-cwsac2_forces_casstr <-
-  cwsac2_forces %>%
-  rename(str_mean_cwsac2 = strength_mean,
-         str_var_cwsac2 = strength_var,
-         cwsac_id = battle) %>%
-  select(cwsac_id, belligerent, matches("(str|cas)_")) %>%
-  filter(! cwsac_id %in% c("AL002"))
+  cwsac2_forces_casstr <-
+    cwsac2_forces %>%
+    rename(str_mean_cwsac2 = strength_mean,
+           str_var_cwsac2 = strength_var,
+           cwsac_id = battle) %>%
+    select(cwsac_id, belligerent, matches("(str|cas)_")) %>%
+    filter(! cwsac_id %in% c("AL002"))
 
-#'
-#' ## Shenandoah Data
-#'
-#' The Shenandoah report data is much more detailed in the disaggregation of casualties in its battles.twi
-shenandoah_forces_casstr <-
-  shenandoah_forces %>%
-  rename(cas_k_mean_shen = killed,
-         cas_w_mean_shen = wounded,
-         cas_m_mean_shen = missing_captured,
-         cas_kwm_mean_shen = casualties) %>%
-  mutate(str_mean_shen = unif_mean(strength_min, strength_max),
-         str_var_shen = ifelse(strength_min == strength_max,
-                          rounded_var(strength_min),
-                          unif_var(strength_min, strength_max)),
-         cas_k_var_shen = rounded_var(cas_k_mean_shen),
-         cas_w_var_shen = rounded_var(cas_w_mean_shen),
-         cas_m_var_shen = rounded_var(cas_m_mean_shen),
-         cas_kwm_var_shen = rounded_var(cas_kwm_mean_shen)) %>%
-  select(belligerent, cwsac_id, matches("^cas_"), matches("^str_"))
+  #'
+  #' ## Shenandoah Data
+  #'
+  #' The Shenandoah report data is much more detailed in the disaggregation of casualties in its battles.twi
+  shenandoah_forces_casstr <-
+    shenandoah_forces %>%
+    rename(cas_k_mean_shen = killed,
+           cas_w_mean_shen = wounded,
+           cas_m_mean_shen = missing_captured,
+           cas_kwm_mean_shen = casualties) %>%
+    mutate(str_mean_shen = unif_mean(strength_min, strength_max),
+           str_var_shen = ifelse(strength_min == strength_max,
+                                 rounded_var(strength_min),
+                                 unif_var(strength_min, strength_max)),
+           cas_k_var_shen = rounded_var(cas_k_mean_shen),
+           cas_w_var_shen = rounded_var(cas_w_mean_shen),
+           cas_m_var_shen = rounded_var(cas_m_mean_shen),
+           cas_kwm_var_shen = rounded_var(cas_kwm_mean_shen)) %>%
+    select(belligerent, cwsac_id, matches("^cas_"), matches("^str_"))
 
-shenandoah_battles <- unique(shenandoah_forces$cwsac_id)
+  shenandoah_battles <- unique(shenandoah_forces$cwsac_id)
 
-casstr <-
-  full_join(cwss_forces_casstr, cwsac1_forces_casstr,
-            by = c("cwsac_id", "belligerent")) %>%
-  full_join(cwsac2_forces_casstr, by = c("cwsac_id", "belligerent")) %>%
-  full_join(shenandoah_forces_casstr, by = c("cwsac_id", "belligerent"))
+  casstr <-
+    full_join(cwss_forces_casstr, cwsac1_forces_casstr,
+              by = c("cwsac_id", "belligerent")) %>%
+    full_join(cwsac2_forces_casstr, by = c("cwsac_id", "belligerent")) %>%
+    full_join(shenandoah_forces_casstr, by = c("cwsac_id", "belligerent"))
 
 
-for (j in c("mean", "var")) {
-  casstr[[paste0("cas_kwm_", j)]] <-
-    pnonmiss(casstr[[paste0("cas_kwm_", j, "_shen")]],
-             casstr[[paste0("cas_kwm_", j, "_cwss")]],
-             casstr[[paste0("cas_kwm_", j, "_cwsac1")]])
-  casstr[[paste0("str_", j)]] <-
-    pnonmiss(casstr[[paste0("str_", j, "_shen")]],
-             casstr[[paste0("str_", j, "_cwss")]],
-             casstr[[paste0("str_", j, "_cwsac2")]],
-             casstr[[paste0("str_", j, "_cwsac1")]])
-  for (i in c("k", "w", "m")) {
-    varname <- paste0("cas_", i, "_", j)
-    casstr[[varname]] <-
-      pnonmiss(casstr[[paste0(varname, "_shen")]],
-               casstr[[paste0(varname, "_cwsac")]])
+  for (j in c("mean", "var")) {
+    casstr[[paste0("cas_kwm_", j)]] <-
+      pnonmiss(casstr[[paste0("cas_kwm_", j, "_shen")]],
+               casstr[[paste0("cas_kwm_", j, "_cwss")]],
+               casstr[[paste0("cas_kwm_", j, "_cwsac1")]])
+    casstr[[paste0("str_", j)]] <-
+      pnonmiss(casstr[[paste0("str_", j, "_shen")]],
+               casstr[[paste0("str_", j, "_cwss")]],
+               casstr[[paste0("str_", j, "_cwsac2")]],
+               casstr[[paste0("str_", j, "_cwsac1")]])
+    for (i in c("k", "w", "m")) {
+      varname <- paste0("cas_", i, "_", j)
+      casstr[[varname]] <-
+        pnonmiss(casstr[[paste0(varname, "_shen")]],
+                 casstr[[paste0(varname, "_cwsac")]])
+    }
   }
+
+  #' Manual edits for VA043 and VA097 (Appomattox Court House)
+  casstr[["cas_kw_mean"]] <- NA_real_
+  casstr[["cas_kw_var"]] <- NA_real_
+  for (i in names(extra_data[["forces"]])) {
+    x <- extra_data[["forces"]][[i]]
+    for (j in grep("^(cas|str)_.*mean", names(x), value = TRUE)) {
+      keys <- str_split_fixed(i, fixed("|"), 2)
+      cwsac_id <- keys[1, 1]
+      belligerent <- keys[1, 2]
+      rownum <- which(casstr[["cwsac_id"]] == cwsac_id &
+                      casstr[["belligerent"]] == belligerent)
+      if (! is.null(x[[j]])) {
+        casstr[rownum, j] <- x[[j]]
+        casstr[rownum, gsub("_mean", "_var", j)] <- rounded_var(x[[j]])
+      } else {
+        casstr[rownum, j] <- NA_real_
+        casstr[rownum, gsub("_mean", "_var", j)] <- NA_real_
+      }
+    }
+  }
+
+  casstr %>%
+    select(cwsac_id, belligerent,
+           str_mean, str_var,
+           cas_kwm_mean, cas_kwm_var,
+           cas_kw_mean, cas_kw_var,
+           cas_k_mean, cas_k_var,
+           cas_w_mean, cas_w_var,
+           cas_m_mean, cas_m_var) %>%
+    fill_casualty_vars() %>%
+    filter(! cwsac_id %in% extra_data[["excluded_battles"]]) %>%
+    arrange(cwsac_id, belligerent)
 }
-
-#' Manual edits for VA043 and VA097 (Appomattox Court House)
-casstr[["cas_kw_mean"]] <- NA_real_
-casstr[["cas_kw_var"]] <- NA_real_
-# for (x in extra_data[["forces"]]) {
-#   for (j in paste0("cas_", c("kwm", "k", "w", "m", "kw"), "_mean")) {
-#     rownum <- which(casstr[["cwsac_id"]] == x
-#   }
-# }
-
 
 
 gen_commanders <- function(cwss_people,
@@ -407,7 +433,7 @@ gen_commanders <- function(cwss_people,
     bind_rows(cwss_people, extra_data[["people"]])
 
   cwss_commanders <-
-    bind_rows(read_csv(file.path(dst, "cwss_commanders.csv")) %>%
+    bind_rows(cwss_commanders %>%
               mutate(BattlefieldCode =
                        plyr::revalue(BattlefieldCode,
                                      c("VA020B" = "VA020",
@@ -509,6 +535,13 @@ build <- function(src, dst) {
                 latlong,
                 extra_data)
 
+  forces <-
+    gen_forces(cwss_forces,
+               cwsac1_forces,
+               cwsac2_forces,
+               shenandoah_forces,
+               extra_data)
+
   commanders <- gen_commanders(cwss_commanders = cwss_commanders,
                                cwsac_commanders = cwsac_commanders,
                                cwss_people = cwss_people,
@@ -521,7 +554,7 @@ build <- function(src, dst) {
   write_csv(battles, file.path(dst, "nps_battles.csv"))
   write_csv(commanders$commanders, file.path(dst, "nps_commanders.csv"))
   write_csv(commanders$people, file.path(dst, "nps_people.csv"))
- #   write_csv(nps_forces, file.path(dst, "nps_forces.csv"))
+  write_csv(forces, file.path(dst, "nps_forces.csv"))
 }
 
 main <- function() {

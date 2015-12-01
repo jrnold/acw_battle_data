@@ -1,104 +1,104 @@
 {
-  "end_date": "1863-04-17",
-  "casualties": null,
-  "casualties_text": "Unknown",
+  "battle": "LA008",
+  "operation": false,
+  "cwsac_reference": "LA008",
   "forces": {
     "Confederate": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Richard",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Taylor",
-          "fullname": "Richard Taylor"
+          "suffix": "",
+          "first_name": "Richard",
+          "rank": "Major General",
+          "fullname": "Richard Taylor",
+          "navy": false
         }
       ],
       "description": "District of Western Louisiana"
     },
     "US": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Cuvier",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Grover",
-          "fullname": "Cuvier Grover"
+          "suffix": "",
+          "first_name": "Cuvier",
+          "rank": "Brigadier General",
+          "fullname": "Cuvier Grover",
+          "navy": false
         }
       ],
-      "divisions": 1,
       "description": "4th Division, XIX Army Corps, Army of the Gulf"
     }
   },
-  "cwsac_reference": "LA008",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/la008.htm",
   "forces_text": "4th Division, XIX Army Corps, Army of the Gulf [US]; District of Western Louisiana [CS]",
-  "start_date": "1863-04-17",
-  "preservation": "IV.2",
+  "casualties_text": "Unknown",
   "results_text": "Union victory",
-  "description": "While Rear Adm. David G. Farragut remained above Port Hudson with USS Hartford and Albatross, Maj. Gen. Nathaniel P. Banks decided to go after Maj. Gen. Richard Taylor's Confederate forces in western Louisiana. He moved by water to Donaldsonville and began a march to Thibodeaux up Bayou Lafourche. Banks beat Taylor at Fort Bisland and Irish Bend, forcing the Rebel army to retreat up the bayou. Taylor reached Vermillionville, crossed Vermillion Bayou, destroyed the bridge, and rested. Banks, in pursuit, sent two columns, on different roads, toward Vermillion Bayou on the morning of April 17. One column reached the bayou while the bridge was burning, advanced, and began skirmishing. Confederate artillery, strategically placed, forced the Yankees back. Then Federal artillery opened a duel with its Confederate counterpart. After dark, the Rebels retreated to Opelousas. The Confederates had slowed the Union advance.",
-  "state": "LA",
-  "significance": "D",
-  "other_names": null,
   "dates": "April 17, 1863",
-  "battle_name": "Vermillion Bayou",
-  "principal_commanders": "Brig. Gen. Cuvier Grover [US]; Maj. Gen. Richard Taylor [CS]",
-  "campaign": "Operations in West Louisiana [April 1863]",
+  "result": "Union",
+  "other_names": null,
+  "significance": "D",
+  "preservation": "IV.2",
+  "state": "LA",
   "belligerents": {
-    "Confederate": {
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Richard",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Taylor",
-          "fullname": "Richard Taylor"
-        }
-      ],
-      "description": "District of Western Louisiana"
-    },
-    "US": {
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "Cuvier",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Grover",
-          "fullname": "Cuvier Grover"
-        }
-      ],
-      "divisions": 1,
-      "description": "4th Division, XIX Army Corps, Army of the Gulf"
-    },
     "CS": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Richard",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Taylor",
-          "fullname": "Richard Taylor"
+          "suffix": "",
+          "first_name": "Richard",
+          "rank": "Major General",
+          "fullname": "Richard Taylor",
+          "navy": false
         }
       ],
       "description": "District of Western Louisiana"
+    },
+    "Confederate": {
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Taylor",
+          "suffix": "",
+          "first_name": "Richard",
+          "rank": "Major General",
+          "fullname": "Richard Taylor",
+          "navy": false
+        }
+      ],
+      "description": "District of Western Louisiana"
+    },
+    "US": {
+      "divisions": 1,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Grover",
+          "suffix": "",
+          "first_name": "Cuvier",
+          "rank": "Brigadier General",
+          "fullname": "Cuvier Grover",
+          "navy": false
+        }
+      ],
+      "description": "4th Division, XIX Army Corps, Army of the Gulf"
     }
   },
-  "result": "Union",
-  "battle": "LA008",
+  "campaign": "Operations in West Louisiana [April 1863]",
+  "end_date": "1863-04-17",
+  "description": "While Rear Adm. David G. Farragut remained above Port Hudson with USS Hartford and Albatross, Maj. Gen. Nathaniel P. Banks decided to go after Maj. Gen. Richard Taylor's Confederate forces in western Louisiana. He moved by water to Donaldsonville and began a march to Thibodeaux up Bayou Lafourche. Banks beat Taylor at Fort Bisland and Irish Bend, forcing the Rebel army to retreat up the bayou. Taylor reached Vermillionville, crossed Vermillion Bayou, destroyed the bridge, and rested. Banks, in pursuit, sent two columns, on different roads, toward Vermillion Bayou on the morning of April 17. One column reached the bayou while the bridge was burning, advanced, and began skirmishing. Confederate artillery, strategically placed, forced the Yankees back. Then Federal artillery opened a duel with its Confederate counterpart. After dark, the Rebels retreated to Opelousas. The Confederates had slowed the Union advance.",
   "location": [
     {
       "state": "LA",
       "place": "Lafayette Parish"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/la008.htm"
+  "battle_name": "Vermillion Bayou",
+  "start_date": "1863-04-17",
+  "casualties": null,
+  "principal_commanders": "Brig. Gen. Cuvier Grover [US]; Maj. Gen. Richard Taylor [CS]"
 }

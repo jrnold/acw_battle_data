@@ -1,18 +1,18 @@
 {
-  "end_date": "1863-07-26",
-  "casualties": null,
-  "casualties_text": "Unknown",
+  "battle": "ND002",
+  "operation": false,
+  "cwsac_reference": "ND002",
   "forces": {
     "Native American": {
       "commanders": [
         {
-          "rank": "",
-          "first_name": "Inkpaduta",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "",
-          "fullname": "Inkpaduta"
+          "suffix": "",
+          "first_name": "Inkpaduta",
+          "rank": "",
+          "fullname": "Inkpaduta",
+          "navy": false
         }
       ],
       "description": "Santee and Teton Sioux"
@@ -20,57 +20,39 @@
     "US": {
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Henry",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Hastings",
           "last_name": "Sibley",
-          "fullname": "Henry Hastings Sibley"
+          "suffix": "",
+          "first_name": "Henry",
+          "rank": "Brigadier General",
+          "fullname": "Henry Hastings Sibley",
+          "navy": false
         }
       ],
       "description": "District of Minnesota"
-    },
-    "I": {
-      "commanders": [
-        {
-          "rank": "",
-          "first_name": "Inkpaduta",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "",
-          "fullname": "Inkpaduta"
-        }
-      ],
-      "description": "Santee and Teton Sioux"
     }
   },
-  "cwsac_reference": "ND002",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/nd002.htm",
   "forces_text": "District of Minnesota [US]; Santee and Teton Sioux [I]",
-  "start_date": "1863-07-26",
-  "preservation": "III.4",
+  "casualties_text": "Unknown",
   "results_text": "Union victory",
-  "description": "Following the Battle of Big Mound on July 24, 1863, Brig. Gen. Henry Hastings Sibley and his men moved their camp about four miles and then rested till the next day. The morning of the 26th they set out and after marching about 14 miles, found the Sioux ready for battle. At first, the fighting was long range because the Native Americans refrained from closing with the soldiers. The Native Americans did attempt to flank the left side of the camp and run off the mules. The Mounted Rangers and infantry, though, after heavy fighting, compelled the Native Americans to abandon their intentions. Following this setback, the Sioux retreated, ending the battle. Sibley resumed his march after the Native Americans the next day. The Sioux were on the run.",
-  "state": "ND",
-  "significance": "D",
-  "other_names": null,
   "dates": "July 26, 1863",
-  "battle_name": "Dead Buffalo Lake",
-  "principal_commanders": "Brig. Gen. Henry Hastings Sibley [US]; Chief Inkpaduta [I]",
-  "campaign": "Operations Against the Sioux in North Dakota [July 1863]",
+  "result": "Union",
+  "other_names": null,
+  "significance": "D",
+  "preservation": "III.4",
+  "state": "ND",
   "belligerents": {
     "Native American": {
       "commanders": [
         {
-          "rank": "",
-          "first_name": "Inkpaduta",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "",
-          "fullname": "Inkpaduta"
+          "suffix": "",
+          "first_name": "Inkpaduta",
+          "rank": "",
+          "fullname": "Inkpaduta",
+          "navy": false
         }
       ],
       "description": "Santee and Teton Sioux"
@@ -78,13 +60,13 @@
     "US": {
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Henry",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Hastings",
           "last_name": "Sibley",
-          "fullname": "Henry Hastings Sibley"
+          "suffix": "",
+          "first_name": "Henry",
+          "rank": "Brigadier General",
+          "fullname": "Henry Hastings Sibley",
+          "navy": false
         }
       ],
       "description": "District of Minnesota"
@@ -92,25 +74,29 @@
     "I": {
       "commanders": [
         {
-          "rank": "",
-          "first_name": "Inkpaduta",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "",
-          "fullname": "Inkpaduta"
+          "suffix": "",
+          "first_name": "Inkpaduta",
+          "rank": "",
+          "fullname": "Inkpaduta",
+          "navy": false
         }
       ],
       "description": "Santee and Teton Sioux"
     }
   },
-  "result": "Union",
-  "battle": "ND002",
+  "campaign": "Operations Against the Sioux in North Dakota [July 1863]",
+  "end_date": "1863-07-26",
+  "description": "Following the Battle of Big Mound on July 24, 1863, Brig. Gen. Henry Hastings Sibley and his men moved their camp about four miles and then rested till the next day. The morning of the 26th they set out and after marching about 14 miles, found the Sioux ready for battle. At first, the fighting was long range because the Native Americans refrained from closing with the soldiers. The Native Americans did attempt to flank the left side of the camp and run off the mules. The Mounted Rangers and infantry, though, after heavy fighting, compelled the Native Americans to abandon their intentions. Following this setback, the Sioux retreated, ending the battle. Sibley resumed his march after the Native Americans the next day. The Sioux were on the run.",
   "location": [
     {
       "state": "ND",
       "place": "Kidder County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/nd002.htm"
+  "battle_name": "Dead Buffalo Lake",
+  "start_date": "1863-07-26",
+  "casualties": null,
+  "principal_commanders": "Brig. Gen. Henry Hastings Sibley [US]; Chief Inkpaduta [I]"
 }

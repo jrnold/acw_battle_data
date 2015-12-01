@@ -1,18 +1,18 @@
 {
-  "end_date": "1861-11-19",
-  "casualties": null,
-  "casualties_text": "Unknown",
+  "battle": "OK001",
+  "operation": false,
+  "cwsac_reference": "OK001",
   "forces": {
     "Native American": {
       "commanders": [
         {
-          "rank": "",
-          "first_name": "Opothleyahola",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "",
-          "fullname": "Opothleyahola"
+          "suffix": "",
+          "first_name": "Opothleyahola",
+          "rank": "",
+          "fullname": "Opothleyahola",
+          "navy": false
         }
       ],
       "description": "Creek and Seminole"
@@ -20,59 +20,69 @@
     "Confederate": {
       "commanders": [
         {
-          "rank": "Colonel",
-          "first_name": "Douglas",
-          "suffix": "",
-          "navy": false,
           "middle_name": "H.",
           "last_name": "Cooper",
-          "fullname": "Douglas H. Cooper"
+          "suffix": "",
+          "first_name": "Douglas",
+          "rank": "Colonel",
+          "fullname": "Douglas H. Cooper",
+          "navy": false
         }
       ],
       "description": "Indian Department"
-    },
-    "I": {
-      "commanders": [
-        {
-          "rank": "",
-          "first_name": "Opothleyahola",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "",
-          "fullname": "Opothleyahola"
-        }
-      ],
-      "description": "Creek and Seminole"
     }
   },
-  "cwsac_reference": "OK001",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ok001.htm",
   "forces_text": "Creek and Seminole [I]; Indian Department [CS]",
-  "start_date": "1861-11-19",
-  "preservation": null,
+  "casualties_text": "Unknown",
   "results_text": "Confederate victory",
-  "description": "Col. Douglas H. Cooper, Confederate commander of the Indian Department, had not been able to reconcile differences with Chief Opothleyahola, who commanded a band of Unionist Creeks and Seminoles. Cooper set out on November 15, 1861, with about 1,400 men to either compel submission . . . or \"drive him and his party from the country.\" His force rode up the Deep Fork of the Canadian River towards Chief Opothleyahola's camp which they found deserted. On the 19th, Cooper learned from captured prisoners that part of Chief Opothleyahola's band was at the Red Fork of the Arkansas River, where they were erecting a fort. Cooper's men arrived there around 4:00 pm and ordered a cavalry charge which discovered that Chief Opothleyahola's band had recently abandoned the camp. The Confederates did find some stragglers beyond the camp and followed them, blundering into Chief Opothleyahola's camp. The Federals fired into the Rebel cavalry and, in large force, came out to attack them. They chased the Confederates back to Cooper's main force. Darkness prevented Cooper from attacking until the main enemy force was within 60 yards. A short fight ensued but Chief Opothleyahola's men broke it off and retreated back to their camp. Cooper set out for Chief Opothleyahola's camp the next morning but found it gone. The Confederates claimed victory because Chief Opothleyahola had left the area. This was the first of three encounters between Chief Opothleyahola's Union bands and Confederate troops. The chief was forced to flee Oklahoma for Kansas at the end of the year.",
-  "state": "OK",
-  "significance": "D",
+  "dates": "November 19, 1861",
+  "result": "Confederate",
   "other_names": [
     "Round Mountains"
   ],
-  "dates": "November 19, 1861",
-  "battle_name": "Round Mountain",
-  "principal_commanders": "Chief Opothleyahola [I]; Col. Douglas H. Cooper [CS]",
-  "campaign": "Operations in the Indian Territory [November-December 1861]",
+  "significance": "D",
+  "preservation": null,
+  "state": "OK",
   "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "middle_name": "H.",
+          "last_name": "Cooper",
+          "suffix": "",
+          "first_name": "Douglas",
+          "rank": "Colonel",
+          "fullname": "Douglas H. Cooper",
+          "navy": false
+        }
+      ],
+      "description": "Indian Department"
+    },
     "Native American": {
       "commanders": [
         {
-          "rank": "",
-          "first_name": "Opothleyahola",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "",
-          "fullname": "Opothleyahola"
+          "suffix": "",
+          "first_name": "Opothleyahola",
+          "rank": "",
+          "fullname": "Opothleyahola",
+          "navy": false
+        }
+      ],
+      "description": "Creek and Seminole"
+    },
+    "I": {
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "",
+          "suffix": "",
+          "first_name": "Opothleyahola",
+          "rank": "",
+          "fullname": "Opothleyahola",
+          "navy": false
         }
       ],
       "description": "Creek and Seminole"
@@ -80,48 +90,24 @@
     "Confederate": {
       "commanders": [
         {
-          "rank": "Colonel",
-          "first_name": "Douglas",
-          "suffix": "",
-          "navy": false,
           "middle_name": "H.",
           "last_name": "Cooper",
-          "fullname": "Douglas H. Cooper"
+          "suffix": "",
+          "first_name": "Douglas",
+          "rank": "Colonel",
+          "fullname": "Douglas H. Cooper",
+          "navy": false
         }
       ],
       "description": "Indian Department"
-    },
-    "CS": {
-      "commanders": [
-        {
-          "rank": "Colonel",
-          "first_name": "Douglas",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "H.",
-          "last_name": "Cooper",
-          "fullname": "Douglas H. Cooper"
-        }
-      ],
-      "description": "Indian Department"
-    },
-    "I": {
-      "commanders": [
-        {
-          "rank": "",
-          "first_name": "Opothleyahola",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "",
-          "fullname": "Opothleyahola"
-        }
-      ],
-      "description": "Creek and Seminole"
     }
   },
-  "result": "Confederate",
-  "battle": "OK001",
+  "campaign": "Operations in the Indian Territory [November-December 1861]",
+  "end_date": "1861-11-19",
+  "description": "Col. Douglas H. Cooper, Confederate commander of the Indian Department, had not been able to reconcile differences with Chief Opothleyahola, who commanded a band of Unionist Creeks and Seminoles. Cooper set out on November 15, 1861, with about 1,400 men to either compel submission . . . or \"drive him and his party from the country.\" His force rode up the Deep Fork of the Canadian River towards Chief Opothleyahola's camp which they found deserted. On the 19th, Cooper learned from captured prisoners that part of Chief Opothleyahola's band was at the Red Fork of the Arkansas River, where they were erecting a fort. Cooper's men arrived there around 4:00 pm and ordered a cavalry charge which discovered that Chief Opothleyahola's band had recently abandoned the camp. The Confederates did find some stragglers beyond the camp and followed them, blundering into Chief Opothleyahola's camp. The Federals fired into the Rebel cavalry and, in large force, came out to attack them. They chased the Confederates back to Cooper's main force. Darkness prevented Cooper from attacking until the main enemy force was within 60 yards. A short fight ensued but Chief Opothleyahola's men broke it off and retreated back to their camp. Cooper set out for Chief Opothleyahola's camp the next morning but found it gone. The Confederates claimed victory because Chief Opothleyahola had left the area. This was the first of three encounters between Chief Opothleyahola's Union bands and Confederate troops. The chief was forced to flee Oklahoma for Kansas at the end of the year.",
   "location": [],
-  "url": "http://www.nps.gov/hps/abpp/battles/ok001.htm"
+  "battle_name": "Round Mountain",
+  "start_date": "1861-11-19",
+  "casualties": null,
+  "principal_commanders": "Chief Opothleyahola [I]; Col. Douglas H. Cooper [CS]"
 }

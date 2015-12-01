@@ -1,18 +1,18 @@
 {
-  "end_date": "1861-09-10",
-  "casualties": 250,
-  "casualties_text": "250 total",
+  "battle": "WV006",
+  "operation": false,
+  "cwsac_reference": "WV006",
   "forces": {
     "Confederate": {
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Floyd",
-          "fullname": "John Floyd"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Brigadier General",
+          "fullname": "John Floyd",
+          "navy": false
         }
       ],
       "brigades": 1
@@ -20,83 +20,83 @@
     "US": {
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
           "middle_name": "S.",
           "last_name": "Rosecrans",
-          "fullname": "William S. Rosecrans"
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Brigadier General",
+          "fullname": "William S. Rosecrans",
+          "navy": false
         }
       ],
       "brigades": 1
     }
   },
-  "cwsac_reference": "WV006",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/wv006.htm",
   "forces_text": "Brigades",
-  "start_date": "1861-09-10",
-  "preservation": "III.2",
+  "casualties_text": "250 total",
   "results_text": "Union victory",
-  "description": "Learning of Col. Erastus Tyler's rout at Kessler's Cross Lanes, Brig. Gen. William S. Rosecrans moved three brigades south from Clarksburg to support him. On the afternoon of September 10, he advanced against Brig. Gen. John Floyd's camps at Carnifex Ferry. Darkness halted several hours' fighting. The strength of the Union artillery convinced Floyd to retreat during the night. Floyd blamed his defeat on his co-commander Brig. Gen. Henry Wise, contributing to further dissension in the Confederate ranks.",
-  "state": "WV",
-  "significance": "B",
-  "other_names": null,
   "dates": "September 10, 1861",
-  "battle_name": "Carnifex Ferry",
-  "principal_commanders": "Brig. Gen. William S. Rosecrans [US]; Brig. Gen. John Floyd [CS]",
-  "campaign": "Operations in Western Virginia [June-December 1861]",
+  "result": "Union",
+  "other_names": null,
+  "significance": "B",
+  "preservation": "III.2",
+  "state": "WV",
   "belligerents": {
-    "Confederate": {
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Floyd",
-          "fullname": "John Floyd"
-        }
-      ],
-      "brigades": 1
-    },
-    "US": {
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "S.",
-          "last_name": "Rosecrans",
-          "fullname": "William S. Rosecrans"
-        }
-      ],
-      "brigades": 1
-    },
     "CS": {
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Floyd",
-          "fullname": "John Floyd"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Brigadier General",
+          "fullname": "John Floyd",
+          "navy": false
+        }
+      ],
+      "brigades": 1
+    },
+    "Confederate": {
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Floyd",
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Brigadier General",
+          "fullname": "John Floyd",
+          "navy": false
+        }
+      ],
+      "brigades": 1
+    },
+    "US": {
+      "commanders": [
+        {
+          "middle_name": "S.",
+          "last_name": "Rosecrans",
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Brigadier General",
+          "fullname": "William S. Rosecrans",
+          "navy": false
         }
       ],
       "brigades": 1
     }
   },
-  "result": "Union",
-  "battle": "WV006",
+  "campaign": "Operations in Western Virginia [June-December 1861]",
+  "end_date": "1861-09-10",
+  "description": "Learning of Col. Erastus Tyler's rout at Kessler's Cross Lanes, Brig. Gen. William S. Rosecrans moved three brigades south from Clarksburg to support him. On the afternoon of September 10, he advanced against Brig. Gen. John Floyd's camps at Carnifex Ferry. Darkness halted several hours' fighting. The strength of the Union artillery convinced Floyd to retreat during the night. Floyd blamed his defeat on his co-commander Brig. Gen. Henry Wise, contributing to further dissension in the Confederate ranks.",
   "location": [
     {
       "state": "WV",
       "place": "Nicholas County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/wv006.htm"
+  "battle_name": "Carnifex Ferry",
+  "start_date": "1861-09-10",
+  "casualties": 250,
+  "principal_commanders": "Brig. Gen. William S. Rosecrans [US]; Brig. Gen. John Floyd [CS]"
 }

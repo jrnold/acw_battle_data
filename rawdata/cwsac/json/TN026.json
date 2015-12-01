@@ -1,19 +1,19 @@
 {
-  "end_date": "1863-12-14",
-  "casualties": 1600,
-  "casualties_text": "1,600 total (US 700; CS 900)",
+  "battle": "TN026",
+  "operation": false,
+  "cwsac_reference": "TN026",
   "forces": {
     "Confederate": {
       "casualties": 900,
       "commanders": [
         {
-          "rank": "Lieutenant General",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Longstreet",
-          "fullname": "James Longstreet"
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Lieutenant General",
+          "fullname": "James Longstreet",
+          "navy": false
         }
       ],
       "description": "Confederate Forces in East Tennessee"
@@ -22,88 +22,88 @@
       "casualties": 700,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Shackelford",
-          "fullname": "James Shackelford"
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Brigadier General",
+          "fullname": "James Shackelford",
+          "navy": false
         }
       ],
       "cavalry_corps": 1,
       "description": "Cavalry Corps, Department of the Ohio"
     }
   },
-  "cwsac_reference": "TN026",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/tn026.htm",
   "forces_text": "Cavalry Corps, Department of the Ohio [US]; Confederate Forces in East Tennessee [CS]",
-  "start_date": "1863-12-14",
-  "preservation": "IV.2",
+  "casualties_text": "1,600 total (US 700; CS 900)",
   "results_text": "Confederate victory",
-  "description": "Lt. Gen. James Longstreet abandoned the Siege of Knoxville, on December 4, 1863, and retreated northeast towards Rogersville, Tennessee. Union Maj. Gen. John G. Parke pursued the Confederates but not too closely. Longstreet continued to Rutledge on December 6 and Rogersville on the 9th. Parke sent Brig. Gen. J.M Shackelford on with about 4,000 cavalry and infantry to search for Longstreet. On the 13th, Shackelford was near Bean's Station on the Holston River. Longstreet decided to go back and capture Bean's Station. Three Confederate columns and artillery approached Bean's Station to catch the federals in a vice. By 2:00 am on the 14th, one column was skirmishing with Union pickets. The pickets held out as best they could and warned Shackelford of the Confederate presence. He deployed his force for an assault. Soon, the battle started and continued throughout most of the day. Confederate flanking attacks and other assaults occurred at various times and locations, but the Federals held until southern reinforcements tipped the scales. By nightfall, the Federals were retiring from Bean's Station through Bean's Gap and on to Blain's Cross Roads. Longstreet set out to attack the Union forces again the next morning, but as he approached them at Blain's Cross Roads, he found them well-entrenched. Longstreet withdrew and the Federals soon left the area. The Knoxville Campaign ended following the battle of Bean's Station. Longstreet soon went into winter quarters at Russellville. Their success meant little to Confederate efforts except to prevent disaster.",
-  "state": "TN",
-  "significance": "D",
-  "other_names": null,
   "dates": "December 14, 1863",
-  "battle_name": "Bean's Station",
-  "principal_commanders": "Brig. Gen. James Shackelford [US]; Lt. Gen. James Longstreet [CS]",
-  "campaign": "Longstreet's Knoxville Campaign [November-December 1863]",
+  "result": "Confederate",
+  "other_names": null,
+  "significance": "D",
+  "preservation": "IV.2",
+  "state": "TN",
   "belligerents": {
-    "Confederate": {
-      "casualties": 900,
-      "commanders": [
-        {
-          "rank": "Lieutenant General",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Longstreet",
-          "fullname": "James Longstreet"
-        }
-      ],
-      "description": "Confederate Forces in East Tennessee"
-    },
-    "US": {
-      "casualties": 700,
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Shackelford",
-          "fullname": "James Shackelford"
-        }
-      ],
-      "cavalry_corps": 1,
-      "description": "Cavalry Corps, Department of the Ohio"
-    },
     "CS": {
       "casualties": 900,
       "commanders": [
         {
-          "rank": "Lieutenant General",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Longstreet",
-          "fullname": "James Longstreet"
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Lieutenant General",
+          "fullname": "James Longstreet",
+          "navy": false
         }
       ],
       "description": "Confederate Forces in East Tennessee"
+    },
+    "Confederate": {
+      "casualties": 900,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Longstreet",
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Lieutenant General",
+          "fullname": "James Longstreet",
+          "navy": false
+        }
+      ],
+      "description": "Confederate Forces in East Tennessee"
+    },
+    "US": {
+      "casualties": 700,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Shackelford",
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Brigadier General",
+          "fullname": "James Shackelford",
+          "navy": false
+        }
+      ],
+      "cavalry_corps": 1,
+      "description": "Cavalry Corps, Department of the Ohio"
     }
   },
-  "result": "Confederate",
-  "battle": "TN026",
+  "campaign": "Longstreet's Knoxville Campaign [November-December 1863]",
+  "end_date": "1863-12-14",
+  "description": "Lt. Gen. James Longstreet abandoned the Siege of Knoxville, on December 4, 1863, and retreated northeast towards Rogersville, Tennessee. Union Maj. Gen. John G. Parke pursued the Confederates but not too closely. Longstreet continued to Rutledge on December 6 and Rogersville on the 9th. Parke sent Brig. Gen. J.M Shackelford on with about 4,000 cavalry and infantry to search for Longstreet. On the 13th, Shackelford was near Bean's Station on the Holston River. Longstreet decided to go back and capture Bean's Station. Three Confederate columns and artillery approached Bean's Station to catch the federals in a vice. By 2:00 am on the 14th, one column was skirmishing with Union pickets. The pickets held out as best they could and warned Shackelford of the Confederate presence. He deployed his force for an assault. Soon, the battle started and continued throughout most of the day. Confederate flanking attacks and other assaults occurred at various times and locations, but the Federals held until southern reinforcements tipped the scales. By nightfall, the Federals were retiring from Bean's Station through Bean's Gap and on to Blain's Cross Roads. Longstreet set out to attack the Union forces again the next morning, but as he approached them at Blain's Cross Roads, he found them well-entrenched. Longstreet withdrew and the Federals soon left the area. The Knoxville Campaign ended following the battle of Bean's Station. Longstreet soon went into winter quarters at Russellville. Their success meant little to Confederate efforts except to prevent disaster.",
   "location": [
     {
       "state": "TN",
       "place": "Grainger County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/tn026.htm"
+  "battle_name": "Bean's Station",
+  "start_date": "1863-12-14",
+  "casualties": 1600,
+  "principal_commanders": "Brig. Gen. James Shackelford [US]; Lt. Gen. James Longstreet [CS]"
 }

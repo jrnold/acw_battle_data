@@ -1,108 +1,108 @@
 {
-  "end_date": "1864-07-03",
-  "casualties": null,
-  "casualties_text": "Unknown",
+  "battle": "GA013",
+  "operation": true,
+  "cwsac_reference": "GA013",
   "forces": {
     "Confederate": {
       "commanders": [
         {
-          "rank": "General",
-          "first_name": "Joseph",
-          "suffix": "",
-          "navy": false,
           "middle_name": "E.",
           "last_name": "Johnston",
-          "fullname": "Joseph E. Johnston"
+          "suffix": "",
+          "first_name": "Joseph",
+          "rank": "General",
+          "fullname": "Joseph E. Johnston",
+          "navy": false
         }
       ],
-      "armies": 1,
-      "description": "Army of Tennessee"
+      "description": "Army of Tennessee",
+      "armies": 1
     },
     "US": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
           "middle_name": "T.",
           "last_name": "Sherman",
-          "fullname": "William T. Sherman"
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Major General",
+          "fullname": "William T. Sherman",
+          "navy": false
         }
       ],
       "description": "Military Division of the Mississippi"
     }
   },
-  "cwsac_reference": "GA013",
-  "operation": true,
+  "url": "http://www.nps.gov/hps/abpp/battles/ga013.htm",
   "forces_text": "Military Division of the Mississippi [US]; Army of Tennessee [CS]",
-  "start_date": "1864-06-09",
-  "preservation": "IV.1",
-  "campaign": "Atlanta Campaign [May-September 1864]",
+  "casualties_text": "Unknown",
   "results_text": "Union victory",
-  "description": "During the Atlanta Campaign, Sherman maneuvered Johnston's Confederate army out of several successive defensive positions in Cobb County. This strategy spared the Union army from making costly frontal attacks on the well-situated Confederates.\n\nSherman first found Johnston's army entrenched in the Marietta area on June 9. The Confederate's had established defensive lines along Brushy, Pine, and Lost Mountains. Sherman extended his forces beyond the Confederate lines, causing a partial Rebel withdrawal to another line of positions. After further pressure and skirmishing from Union forces, Johnston withdrew to an arc-shaped position centered on Kennesaw Mountain on June 18 and 19. Sherman made some unsuccessful attacks on this position but eventually extended the line on his right and forced Johnston to withdrawal from the Marietta area on July 2-3.",
-  "state": "GA",
-  "significance": "B",
+  "dates": "June 9-July 3, 1864",
+  "result": "Union",
   "other_names": [
     "Marietta Operations"
   ],
-  "dates": "June 9-July 3, 1864",
-  "battle_name": "Marietta [Operations]",
-  "principal_commanders": "Maj. Gen. William T. Sherman [US]; Gen. Joseph E. Johnston [CS]",
-  "assoc_battles": "Brushy Mountain, Gilgal Church, Lost Mountain, Mcaffee's Cross Road, Mud Creek, Neal Dow Station, Noonday Creek, Pine Hill, Pine Mountain, Rottenwood Creek, Ruff's Mill",
+  "significance": "B",
+  "preservation": "IV.1",
+  "state": "GA",
   "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "middle_name": "E.",
+          "last_name": "Johnston",
+          "suffix": "",
+          "first_name": "Joseph",
+          "rank": "General",
+          "fullname": "Joseph E. Johnston",
+          "navy": false
+        }
+      ],
+      "description": "Army of Tennessee",
+      "armies": 1
+    },
     "Confederate": {
       "commanders": [
         {
-          "rank": "General",
-          "first_name": "Joseph",
-          "suffix": "",
-          "navy": false,
           "middle_name": "E.",
           "last_name": "Johnston",
-          "fullname": "Joseph E. Johnston"
+          "suffix": "",
+          "first_name": "Joseph",
+          "rank": "General",
+          "fullname": "Joseph E. Johnston",
+          "navy": false
         }
       ],
-      "armies": 1,
-      "description": "Army of Tennessee"
+      "description": "Army of Tennessee",
+      "armies": 1
     },
     "US": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
           "middle_name": "T.",
           "last_name": "Sherman",
-          "fullname": "William T. Sherman"
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Major General",
+          "fullname": "William T. Sherman",
+          "navy": false
         }
       ],
       "description": "Military Division of the Mississippi"
-    },
-    "CS": {
-      "commanders": [
-        {
-          "rank": "General",
-          "first_name": "Joseph",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "E.",
-          "last_name": "Johnston",
-          "fullname": "Joseph E. Johnston"
-        }
-      ],
-      "armies": 1,
-      "description": "Army of Tennessee"
     }
   },
-  "result": "Union",
-  "battle": "GA013",
+  "campaign": "Atlanta Campaign [May-September 1864]",
+  "end_date": "1864-07-03",
+  "description": "During the Atlanta Campaign, Sherman maneuvered Johnston's Confederate army out of several successive defensive positions in Cobb County. This strategy spared the Union army from making costly frontal attacks on the well-situated Confederates.\n\nSherman first found Johnston's army entrenched in the Marietta area on June 9. The Confederate's had established defensive lines along Brushy, Pine, and Lost Mountains. Sherman extended his forces beyond the Confederate lines, causing a partial Rebel withdrawal to another line of positions. After further pressure and skirmishing from Union forces, Johnston withdrew to an arc-shaped position centered on Kennesaw Mountain on June 18 and 19. Sherman made some unsuccessful attacks on this position but eventually extended the line on his right and forced Johnston to withdrawal from the Marietta area on July 2-3.",
   "location": [
     {
       "state": "GA",
       "place": "Cobb County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/ga013.htm"
+  "battle_name": "Marietta [Operations]",
+  "start_date": "1864-06-09",
+  "casualties": null,
+  "principal_commanders": "Maj. Gen. William T. Sherman [US]; Gen. Joseph E. Johnston [CS]",
+  "assoc_battles": "Brushy Mountain, Gilgal Church, Lost Mountain, Mcaffee's Cross Road, Mud Creek, Neal Dow Station, Noonday Creek, Pine Hill, Pine Mountain, Rottenwood Creek, Ruff's Mill"
 }

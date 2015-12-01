@@ -1,107 +1,107 @@
 {
-  "end_date": "1863-05-02",
-  "casualties": null,
-  "casualties_text": "Unknown",
+  "battle": "AR007",
+  "operation": false,
+  "cwsac_reference": "AR007",
   "forces": {
     "Confederate": {
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "S.",
           "last_name": "Marmaduke",
-          "fullname": "John S. Marmaduke"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Brigadier General",
+          "fullname": "John S. Marmaduke",
+          "navy": false
         }
       ],
       "cavalry_divisions": 1,
       "description": "Marmaduke's Cavalry Division"
     },
     "US": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Vandever",
-          "fullname": "William Vandever"
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Brigadier General",
+          "fullname": "William Vandever",
+          "navy": false
         }
       ],
-      "divisions": 1,
       "description": "2nd Division, Army of the Frontier and force under command of Brig. Gen. John McNeil"
     }
   },
-  "cwsac_reference": "AR007",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ar007.htm",
   "forces_text": "2nd Division, Army of the Frontier and force under command of Brig. Gen. John McNeil [US]; Marmaduke's Cavalry Division [CS]",
-  "start_date": "1863-05-01",
-  "preservation": "II.4",
+  "casualties_text": "Unknown",
   "results_text": "Confederate tactical victory (The results, however, forced Marmaduke to end his expedition, making this a Union strategic victory.)",
-  "description": "Union Brig. Gen. William Vandever pursued Brig. Gen. John S. Marmaduke to Chalk Bluff, where the Confederates hoped to cross the St. Francis River. To ford the river, Marmaduke established a rearguard that received heavy punishment on May 1-2. Although most of Marmaduke's raiders crossed the St. Francis River, they suffered heavy casualties and therefore ended the expedition.",
-  "state": "AR",
-  "significance": "D",
-  "other_names": null,
   "dates": "May 1-2, 1863",
-  "battle_name": "Chalk Bluff",
-  "principal_commanders": "Brig. Gen. William Vandever [US]; Brig. Gen. John S. Marmaduke [CS]",
-  "campaign": "Marmaduke's Second Expedition into Missouri [April-May 1863]",
+  "result": "Confederate",
+  "other_names": null,
+  "significance": "D",
+  "preservation": "II.4",
+  "state": "AR",
   "belligerents": {
-    "Confederate": {
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "S.",
-          "last_name": "Marmaduke",
-          "fullname": "John S. Marmaduke"
-        }
-      ],
-      "cavalry_divisions": 1,
-      "description": "Marmaduke's Cavalry Division"
-    },
-    "US": {
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Vandever",
-          "fullname": "William Vandever"
-        }
-      ],
-      "divisions": 1,
-      "description": "2nd Division, Army of the Frontier and force under command of Brig. Gen. John McNeil"
-    },
     "CS": {
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "S.",
           "last_name": "Marmaduke",
-          "fullname": "John S. Marmaduke"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Brigadier General",
+          "fullname": "John S. Marmaduke",
+          "navy": false
         }
       ],
       "cavalry_divisions": 1,
       "description": "Marmaduke's Cavalry Division"
+    },
+    "Confederate": {
+      "commanders": [
+        {
+          "middle_name": "S.",
+          "last_name": "Marmaduke",
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Brigadier General",
+          "fullname": "John S. Marmaduke",
+          "navy": false
+        }
+      ],
+      "cavalry_divisions": 1,
+      "description": "Marmaduke's Cavalry Division"
+    },
+    "US": {
+      "divisions": 1,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Vandever",
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Brigadier General",
+          "fullname": "William Vandever",
+          "navy": false
+        }
+      ],
+      "description": "2nd Division, Army of the Frontier and force under command of Brig. Gen. John McNeil"
     }
   },
-  "result": "Confederate",
-  "battle": "AR007",
+  "campaign": "Marmaduke's Second Expedition into Missouri [April-May 1863]",
+  "end_date": "1863-05-02",
+  "description": "Union Brig. Gen. William Vandever pursued Brig. Gen. John S. Marmaduke to Chalk Bluff, where the Confederates hoped to cross the St. Francis River. To ford the river, Marmaduke established a rearguard that received heavy punishment on May 1-2. Although most of Marmaduke's raiders crossed the St. Francis River, they suffered heavy casualties and therefore ended the expedition.",
   "location": [
     {
       "state": "AR",
       "place": "Clay County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/ar007.htm"
+  "battle_name": "Chalk Bluff",
+  "start_date": "1863-05-01",
+  "casualties": null,
+  "principal_commanders": "Brig. Gen. William Vandever [US]; Brig. Gen. John S. Marmaduke [CS]"
 }

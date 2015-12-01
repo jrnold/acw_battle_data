@@ -1,19 +1,19 @@
 {
-  "end_date": "1863-09-10",
-  "casualties": null,
-  "casualties_text": "Total unknown (US 72; CS unknown)",
+  "battle": "AR010",
+  "operation": false,
+  "cwsac_reference": "AR010a",
   "forces": {
     "Confederate": {
       "casualties": null,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "S.",
           "last_name": "Marmaduke",
-          "fullname": "John S. Marmaduke"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Brigadier General",
+          "fullname": "John S. Marmaduke",
+          "navy": false
         }
       ],
       "description": "District of Arkansas"
@@ -22,90 +22,90 @@
       "casualties": 72,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "W.",
           "last_name": "Davidson",
-          "fullname": "John W. Davidson"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Brigadier General",
+          "fullname": "John W. Davidson",
+          "navy": false
         }
       ],
       "cavalry_divisions": 2,
       "description": "Cavalry Division, Army of Arkansas, Arkansas Expedition"
     }
   },
-  "cwsac_reference": "AR010a",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ar010a.htm",
   "forces_text": "Cavalry Division, Army of Arkansas, Arkansas Expedition [US]; District of Arkansas [CS]",
-  "start_date": "1863-09-10",
-  "preservation": "IV.2",
+  "casualties_text": "Total unknown (US 72; CS unknown)",
   "results_text": "Union victory",
-  "description": "On September 10, 1863, Maj. Gen. Fred Steele, Army of Arkansas commander, sent Brig. Gen. John W. Davidson's cavalry division across the Arkansas River to move on Little Rock, while he took other troops to attack Confederates entrenched on the north side. In his thrust toward Little Rock, Davidson ran into Confederate troops at Bayou Fourche. Aided by Union artillery fire from the north side of the river, Davidson forced them out of their position and sent them fleeing back to Little Rock, which fell to Union troops that evening. Bayou Fourche sealed Little Rock's fate. The fall of Little Rock further helped to contain the Confederate Trans-Mississippi theater, isolating it from the rest of the South.",
-  "state": "AR",
-  "significance": "B",
+  "dates": "September 10, 1863",
+  "result": "Union",
   "other_names": [
     "Little Rock"
   ],
-  "dates": "September 10, 1863",
-  "battle_name": "Bayou Forche",
-  "principal_commanders": "Brig. Gen. John W. Davidson [US]; Brig. Gen. John S. Marmaduke [CS]",
-  "campaign": "Advance on Little Rock [September-October 1863]",
+  "significance": "B",
+  "preservation": "IV.2",
+  "state": "AR",
   "belligerents": {
-    "Confederate": {
-      "casualties": null,
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "S.",
-          "last_name": "Marmaduke",
-          "fullname": "John S. Marmaduke"
-        }
-      ],
-      "description": "District of Arkansas"
-    },
-    "US": {
-      "casualties": 72,
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "W.",
-          "last_name": "Davidson",
-          "fullname": "John W. Davidson"
-        }
-      ],
-      "cavalry_divisions": 2,
-      "description": "Cavalry Division, Army of Arkansas, Arkansas Expedition"
-    },
     "CS": {
       "casualties": null,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "S.",
           "last_name": "Marmaduke",
-          "fullname": "John S. Marmaduke"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Brigadier General",
+          "fullname": "John S. Marmaduke",
+          "navy": false
         }
       ],
       "description": "District of Arkansas"
+    },
+    "Confederate": {
+      "casualties": null,
+      "commanders": [
+        {
+          "middle_name": "S.",
+          "last_name": "Marmaduke",
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Brigadier General",
+          "fullname": "John S. Marmaduke",
+          "navy": false
+        }
+      ],
+      "description": "District of Arkansas"
+    },
+    "US": {
+      "casualties": 72,
+      "commanders": [
+        {
+          "middle_name": "W.",
+          "last_name": "Davidson",
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Brigadier General",
+          "fullname": "John W. Davidson",
+          "navy": false
+        }
+      ],
+      "cavalry_divisions": 2,
+      "description": "Cavalry Division, Army of Arkansas, Arkansas Expedition"
     }
   },
-  "result": "Union",
-  "battle": "AR010",
+  "campaign": "Advance on Little Rock [September-October 1863]",
+  "end_date": "1863-09-10",
+  "description": "On September 10, 1863, Maj. Gen. Fred Steele, Army of Arkansas commander, sent Brig. Gen. John W. Davidson's cavalry division across the Arkansas River to move on Little Rock, while he took other troops to attack Confederates entrenched on the north side. In his thrust toward Little Rock, Davidson ran into Confederate troops at Bayou Fourche. Aided by Union artillery fire from the north side of the river, Davidson forced them out of their position and sent them fleeing back to Little Rock, which fell to Union troops that evening. Bayou Fourche sealed Little Rock's fate. The fall of Little Rock further helped to contain the Confederate Trans-Mississippi theater, isolating it from the rest of the South.",
   "location": [
     {
       "state": "AR",
       "place": "Pulaski County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/ar010a.htm"
+  "battle_name": "Bayou Forche",
+  "start_date": "1863-09-10",
+  "casualties": null,
+  "principal_commanders": "Brig. Gen. John W. Davidson [US]; Brig. Gen. John S. Marmaduke [CS]"
 }

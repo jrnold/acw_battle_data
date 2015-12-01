@@ -1,136 +1,136 @@
 {
-  "end_date": "1864-05-28",
-  "casualties": 744,
-  "casualties_text": "744 total (US 344; CS 400)",
+  "battle": "VA058",
+  "operation": false,
+  "cwsac_reference": "VA058",
   "forces": {
     "Confederate": {
       "casualties": 400,
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Fitzhugh",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Lee",
-          "fullname": "Fitzhugh Lee"
+          "suffix": "",
+          "first_name": "Fitzhugh",
+          "rank": "Major General",
+          "fullname": "Fitzhugh Lee",
+          "navy": false
         },
         {
-          "rank": "Major General",
-          "first_name": "Wade",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Hampton",
-          "fullname": "Wade Hampton"
+          "suffix": "",
+          "first_name": "Wade",
+          "rank": "Major General",
+          "fullname": "Wade Hampton",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     },
     "US": {
       "casualties": 344,
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "David",
-          "suffix": "",
-          "navy": false,
           "middle_name": "M.",
           "last_name": "Gregg",
-          "fullname": "David M. Gregg"
+          "suffix": "",
+          "first_name": "David",
+          "rank": "Brigadier General",
+          "fullname": "David M. Gregg",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     }
   },
-  "cwsac_reference": "VA058",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va058.htm",
   "forces_text": "Divisions",
-  "start_date": "1864-05-28",
-  "preservation": "II.3",
+  "casualties_text": "744 total (US 344; CS 400)",
   "results_text": "Inconclusive",
-  "description": "Gregg's cavalry division, supported by Torbert's division, advanced to cover the Army of the Potomac's crossing of the Pamunkey River and movement toward Totopotomoy Creek. Fitzhugh Lee's and Hampton's cavalry divisions, later reinforced by Butler's South Carolina brigade, met the Federals at Enon Church. After seven hours of mostly dismounted cavalry fighting, the Federal advance was stopped. Both Confederate and Union infantry began arriving in the vicinity as the cavalry fighting raged.",
-  "state": "VA",
-  "significance": "C",
+  "dates": "May 28, 1864",
+  "result": "Inconclusive",
   "other_names": [
     "Enon Church"
   ],
-  "dates": "May 28, 1864",
-  "battle_name": "Haw's Shop",
-  "principal_commanders": "Brig. Gen. David M. Gregg [US]; Maj. Gen. Fitzhugh Lee and Maj. Gen. Wade Hampton [CS]",
-  "campaign": "Grant's Overland Campaign [May-June 1864]",
+  "significance": "C",
+  "preservation": "II.3",
+  "state": "VA",
   "belligerents": {
-    "Confederate": {
+    "CS": {
       "casualties": 400,
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Fitzhugh",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Lee",
-          "fullname": "Fitzhugh Lee"
+          "suffix": "",
+          "first_name": "Fitzhugh",
+          "rank": "Major General",
+          "fullname": "Fitzhugh Lee",
+          "navy": false
         },
         {
-          "rank": "Major General",
-          "first_name": "Wade",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Hampton",
-          "fullname": "Wade Hampton"
+          "suffix": "",
+          "first_name": "Wade",
+          "rank": "Major General",
+          "fullname": "Wade Hampton",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
+    },
+    "Confederate": {
+      "casualties": 400,
+      "divisions": 1,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Lee",
+          "suffix": "",
+          "first_name": "Fitzhugh",
+          "rank": "Major General",
+          "fullname": "Fitzhugh Lee",
+          "navy": false
+        },
+        {
+          "middle_name": "",
+          "last_name": "Hampton",
+          "suffix": "",
+          "first_name": "Wade",
+          "rank": "Major General",
+          "fullname": "Wade Hampton",
+          "navy": false
+        }
+      ]
     },
     "US": {
       "casualties": 344,
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "David",
-          "suffix": "",
-          "navy": false,
           "middle_name": "M.",
           "last_name": "Gregg",
-          "fullname": "David M. Gregg"
-        }
-      ],
-      "divisions": 1
-    },
-    "CS": {
-      "casualties": 400,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Fitzhugh",
           "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Lee",
-          "fullname": "Fitzhugh Lee"
-        },
-        {
-          "rank": "Major General",
-          "first_name": "Wade",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Hampton",
-          "fullname": "Wade Hampton"
+          "first_name": "David",
+          "rank": "Brigadier General",
+          "fullname": "David M. Gregg",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     }
   },
-  "result": "Inconclusive",
-  "battle": "VA058",
+  "campaign": "Grant's Overland Campaign [May-June 1864]",
+  "end_date": "1864-05-28",
+  "description": "Gregg's cavalry division, supported by Torbert's division, advanced to cover the Army of the Potomac's crossing of the Pamunkey River and movement toward Totopotomoy Creek. Fitzhugh Lee's and Hampton's cavalry divisions, later reinforced by Butler's South Carolina brigade, met the Federals at Enon Church. After seven hours of mostly dismounted cavalry fighting, the Federal advance was stopped. Both Confederate and Union infantry began arriving in the vicinity as the cavalry fighting raged.",
   "location": [
     {
       "state": "VA",
       "place": "Hanover County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/va058.htm"
+  "battle_name": "Haw's Shop",
+  "start_date": "1864-05-28",
+  "casualties": 744,
+  "principal_commanders": "Brig. Gen. David M. Gregg [US]; Maj. Gen. Fitzhugh Lee and Maj. Gen. Wade Hampton [CS]"
 }

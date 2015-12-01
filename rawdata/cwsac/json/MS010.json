@@ -1,109 +1,106 @@
 {
-  "end_date": "1863-05-17",
-  "casualties": 2273,
-  "casualties_text": "2,273 total (US 273; CS 2,000)",
+  "battle": "MS010",
+  "operation": false,
+  "cwsac_reference": "MS010",
   "forces": {
     "Confederate": {
       "casualties": 2000,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "S.",
           "last_name": "Bowen",
-          "fullname": "John S. Bowen"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Brigadier General",
+          "fullname": "John S. Bowen",
+          "navy": false
         }
       ],
       "brigades": 3,
       "description": "Bridgehead Defense Force (three brigades)"
     },
     "US": {
-      "corps": 1,
+      "casualties": 273,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "A.",
           "last_name": "McClernand",
-          "fullname": "John A. McClernand"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Major General",
+          "fullname": "John A. McClernand",
+          "navy": false
         }
       ],
       "description": "XIII Army Corps, Army of the Tennessee",
-      "casualties": 273
+      "corps": 1
     }
   },
-  "cwsac_reference": "MS010",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ms010.htm",
   "forces_text": "XIII Army Corps, Army of the Tennessee [US]; Bridgehead Defense Force (three brigades) [CS]",
-  "start_date": "1863-05-17",
-  "preservation": "II.2",
+  "casualties_text": "2,273 total (US 273; CS 2,000)",
   "results_text": "Union victory",
-  "description": "Reeling from their defeat at Champion Hill, the Confederates reached Big Black River Bridge, the night of May 16-17. Lt. Gen. John C. Pemberton ordered Brig. Gen. John S. Bowen, with three brigades, to man the fortifications on the east bank of the river and impede any Union pursuit. Three divisions of Maj. Gen. John A. McClernand's XIII Army Corps moved out from Edwards Station on the morning of the 17th. The corps encountered the Confederates behind breastworks and took cover as enemy artillery began firing. Union Brig. Gen. Michael K. Lawler formed his 2nd Brigade, Carr's Division, which surged out of a meander scar, across the front of the Confederate forces, and into the enemy's breastworks, held by Vaughn's East Tennessee Brigade. Confused and panicked, the Rebels began to withdraw across the Big Black on two bridges: the railroad bridge and the steamboat dock moored athwart the river. As soon as they had crossed, the Confederates set fire to the bridges, preventing close Union pursuit. The fleeing Confederates who arrived in Vicksburg later that day were disorganized. The Union forces captured approximately 1,800 troops at Big Black, a loss that the Confederates could ill-afford. This battle sealed Vicksburg's fate: the Confederate force was bottled up at Vicksburg.",
-  "state": "MS",
-  "significance": "B",
+  "dates": "May 17, 1863",
+  "result": "Union",
   "other_names": [
     "Big Black"
   ],
-  "dates": "May 17, 1863",
-  "battle_name": "Big Black River Bridge",
-  "principal_commanders": "Maj. Gen. John A. McClernand [US]; Brig. Gen. John S. Bowen [CS]",
-  "campaign": "Grant's Operations Against Vicksburg [March-July 1863]",
+  "significance": "B",
+  "preservation": "II.2",
+  "state": "MS",
   "belligerents": {
-    "Confederate": {
-      "casualties": 2000,
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "S.",
-          "last_name": "Bowen",
-          "fullname": "John S. Bowen"
-        }
-      ],
-      "brigades": 3,
-      "description": "Bridgehead Defense Force (three brigades)"
-    },
-    "US": {
-      "corps": 1,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "A.",
-          "last_name": "McClernand",
-          "fullname": "John A. McClernand"
-        }
-      ],
-      "description": "XIII Army Corps, Army of the Tennessee",
-      "casualties": 273
-    },
     "CS": {
       "casualties": 2000,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "S.",
           "last_name": "Bowen",
-          "fullname": "John S. Bowen"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Brigadier General",
+          "fullname": "John S. Bowen",
+          "navy": false
         }
       ],
       "brigades": 3,
       "description": "Bridgehead Defense Force (three brigades)"
+    },
+    "Confederate": {
+      "casualties": 2000,
+      "commanders": [
+        {
+          "middle_name": "S.",
+          "last_name": "Bowen",
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Brigadier General",
+          "fullname": "John S. Bowen",
+          "navy": false
+        }
+      ],
+      "brigades": 3,
+      "description": "Bridgehead Defense Force (three brigades)"
+    },
+    "US": {
+      "casualties": 273,
+      "commanders": [
+        {
+          "middle_name": "A.",
+          "last_name": "McClernand",
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Major General",
+          "fullname": "John A. McClernand",
+          "navy": false
+        }
+      ],
+      "description": "XIII Army Corps, Army of the Tennessee",
+      "corps": 1
     }
   },
-  "result": "Union",
-  "battle": "MS010",
+  "campaign": "Grant's Operations Against Vicksburg [March-July 1863]",
+  "end_date": "1863-05-17",
+  "description": "Reeling from their defeat at Champion Hill, the Confederates reached Big Black River Bridge, the night of May 16-17. Lt. Gen. John C. Pemberton ordered Brig. Gen. John S. Bowen, with three brigades, to man the fortifications on the east bank of the river and impede any Union pursuit. Three divisions of Maj. Gen. John A. McClernand's XIII Army Corps moved out from Edwards Station on the morning of the 17th. The corps encountered the Confederates behind breastworks and took cover as enemy artillery began firing. Union Brig. Gen. Michael K. Lawler formed his 2nd Brigade, Carr's Division, which surged out of a meander scar, across the front of the Confederate forces, and into the enemy's breastworks, held by Vaughn's East Tennessee Brigade. Confused and panicked, the Rebels began to withdraw across the Big Black on two bridges: the railroad bridge and the steamboat dock moored athwart the river. As soon as they had crossed, the Confederates set fire to the bridges, preventing close Union pursuit. The fleeing Confederates who arrived in Vicksburg later that day were disorganized. The Union forces captured approximately 1,800 troops at Big Black, a loss that the Confederates could ill-afford. This battle sealed Vicksburg's fate: the Confederate force was bottled up at Vicksburg.",
   "location": [
     {
       "state": "MS",
@@ -114,5 +111,8 @@
       "place": "Warren County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/ms010.htm"
+  "battle_name": "Big Black River Bridge",
+  "start_date": "1863-05-17",
+  "casualties": 2273,
+  "principal_commanders": "Maj. Gen. John A. McClernand [US]; Brig. Gen. John S. Bowen [CS]"
 }

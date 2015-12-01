@@ -1,127 +1,124 @@
 {
-  "end_date": "1865-04-06",
-  "casualties": 9980,
-  "casualties_text": "9,980 total",
+  "battle": "VA093",
+  "operation": false,
+  "cwsac_reference": "VA093",
   "forces": {
     "Confederate": {
-      "corps": 1,
       "commanders": [
         {
-          "rank": "Lieutenant General",
-          "first_name": "Richard",
-          "suffix": "",
-          "navy": false,
           "middle_name": "S.",
           "last_name": "Ewell",
-          "fullname": "Richard S. Ewell"
+          "suffix": "",
+          "first_name": "Richard",
+          "rank": "Lieutenant General",
+          "fullname": "Richard S. Ewell",
+          "navy": false
         },
         {
-          "rank": "Major General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "B.",
           "last_name": "Gordon",
-          "fullname": "John B. Gordon"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Major General",
+          "fullname": "John B. Gordon",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
     },
     "US": {
-      "corps": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Philip",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Sheridan",
-          "fullname": "Philip Sheridan"
+          "suffix": "",
+          "first_name": "Philip",
+          "rank": "Major General",
+          "fullname": "Philip Sheridan",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
     }
   },
-  "cwsac_reference": "VA093",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va093.htm",
   "forces_text": "Corps",
-  "start_date": "1865-04-06",
-  "preservation": "II.2",
+  "casualties_text": "9,980 total",
   "results_text": "Union victory",
-  "description": "On April 6 at Sailor's Creek, nearly one fourth of the retreating Confederate army was cut off by Sheridan's Cavalry and elements of the II and VI Corps. Most surrendered, including Confederate generals Richard S. Ewell, Barton, Simms, Kershaw, Custis Lee, Dubose, Hunton, and Corse. This action was considered the death knell of the Confederate army. Upon seeing the survivors streaming along the road, Lee exclaimed \"My God, has the army dissolved?\"",
-  "state": "VA",
-  "significance": "B",
+  "dates": "April 6, 1865",
+  "result": "Union",
   "other_names": [
     "Hillsman Farm",
     "Lockett Farm"
   ],
-  "dates": "April 6, 1865",
-  "battle_name": "Sailor's Creek",
-  "principal_commanders": "Maj. Gen. Philip Sheridan [US]; Lt. Gen. Richard S. Ewell and Maj. Gen. John B. Gordon [CS]",
-  "campaign": "Appomattox Campaign [March-April 1865]",
+  "significance": "B",
+  "preservation": "II.2",
+  "state": "VA",
   "belligerents": {
-    "Confederate": {
-      "corps": 1,
+    "CS": {
       "commanders": [
         {
-          "rank": "Lieutenant General",
-          "first_name": "Richard",
-          "suffix": "",
-          "navy": false,
           "middle_name": "S.",
           "last_name": "Ewell",
-          "fullname": "Richard S. Ewell"
+          "suffix": "",
+          "first_name": "Richard",
+          "rank": "Lieutenant General",
+          "fullname": "Richard S. Ewell",
+          "navy": false
         },
         {
-          "rank": "Major General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "B.",
           "last_name": "Gordon",
-          "fullname": "John B. Gordon"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Major General",
+          "fullname": "John B. Gordon",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
+    },
+    "Confederate": {
+      "commanders": [
+        {
+          "middle_name": "S.",
+          "last_name": "Ewell",
+          "suffix": "",
+          "first_name": "Richard",
+          "rank": "Lieutenant General",
+          "fullname": "Richard S. Ewell",
+          "navy": false
+        },
+        {
+          "middle_name": "B.",
+          "last_name": "Gordon",
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Major General",
+          "fullname": "John B. Gordon",
+          "navy": false
+        }
+      ],
+      "corps": 1
     },
     "US": {
-      "corps": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Philip",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Sheridan",
-          "fullname": "Philip Sheridan"
-        }
-      ]
-    },
-    "CS": {
-      "corps": 1,
-      "commanders": [
-        {
-          "rank": "Lieutenant General",
-          "first_name": "Richard",
           "suffix": "",
-          "navy": false,
-          "middle_name": "S.",
-          "last_name": "Ewell",
-          "fullname": "Richard S. Ewell"
-        },
-        {
+          "first_name": "Philip",
           "rank": "Major General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "B.",
-          "last_name": "Gordon",
-          "fullname": "John B. Gordon"
+          "fullname": "Philip Sheridan",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
     }
   },
-  "result": "Union",
-  "battle": "VA093",
+  "campaign": "Appomattox Campaign [March-April 1865]",
+  "end_date": "1865-04-06",
+  "description": "On April 6 at Sailor's Creek, nearly one fourth of the retreating Confederate army was cut off by Sheridan's Cavalry and elements of the II and VI Corps. Most surrendered, including Confederate generals Richard S. Ewell, Barton, Simms, Kershaw, Custis Lee, Dubose, Hunton, and Corse. This action was considered the death knell of the Confederate army. Upon seeing the survivors streaming along the road, Lee exclaimed \"My God, has the army dissolved?\"",
   "location": [
     {
       "state": "VA",
@@ -136,5 +133,8 @@
       "place": "Nottoway County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/va093.htm"
+  "battle_name": "Sailor's Creek",
+  "start_date": "1865-04-06",
+  "casualties": 9980,
+  "principal_commanders": "Maj. Gen. Philip Sheridan [US]; Lt. Gen. Richard S. Ewell and Maj. Gen. John B. Gordon [CS]"
 }

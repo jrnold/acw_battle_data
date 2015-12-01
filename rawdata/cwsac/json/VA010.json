@@ -1,59 +1,112 @@
 {
-  "end_date": "1862-05-05",
-  "casualties": 3843,
-  "casualties_text": "3,843 total (US 2,283; CS 1,560)",
+  "battle": "VA010",
+  "operation": false,
+  "cwsac_reference": "VA010",
   "forces": {
     "Confederate": {
       "casualties": 1560,
+      "strength_min": 31823,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Longstreet",
-          "fullname": "James Longstreet"
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Major General",
+          "fullname": "James Longstreet",
+          "navy": false
         }
       ],
       "description": "31,823",
-      "strength_min": 31823,
       "strength_max": 31823
     },
     "US": {
       "casualties": 2283,
+      "strength_min": 40768,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "George",
-          "suffix": "",
-          "navy": false,
           "middle_name": "B.",
           "last_name": "McClellan",
-          "fullname": "George B. McClellan"
+          "suffix": "",
+          "first_name": "George",
+          "rank": "Major General",
+          "fullname": "George B. McClellan",
+          "navy": false
         }
       ],
       "description": "40,768",
-      "strength_min": 40768,
       "strength_max": 40768
     }
   },
-  "strength": 72591,
-  "cwsac_reference": "VA010",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va010.htm",
   "forces_text": "72,591 total (US 40,768;CS 31,823)",
-  "start_date": "1862-05-05",
-  "preservation": "III.2",
+  "strength": 72591,
+  "casualties_text": "3,843 total (US 2,283; CS 1,560)",
   "results_text": "Inconclusive",
-  "description": "In the first pitched battle of the Peninsula Campaign, nearly 41,000 Federals and 32,000 Confederates were engaged. Following up the Confederate retreat from Yorktown, Hooker's division encountered the Confederate rearguard near Williamsburg. Hooker assaulted Fort Magruder, an earthen fortification alongside the Williamsburg Road, but was repulsed. Confederate counterattacks, directed by Maj. Gen. James Longstreet, threatened to overwhelm the Union left flank, until Kearny's division arrived to stabilize the Federal position. Hancock's brigade then moved to threaten the Confederate left flank, occupying two abandoned redoubts. The Confederates counterattacked unsuccessfully. Hancock's localized success was not exploited. The Confederate army continued its withdrawal during the night.",
-  "state": "VA",
-  "significance": "B",
+  "dates": "May 5, 1862",
+  "result": "Inconclusive",
   "other_names": [
     "Fort Magruder"
   ],
-  "dates": "May 5, 1862",
-  "battle_name": "Williamsburg",
-  "principal_commanders": "Maj. Gen. George B. McClellan [US]; Maj. Gen. James Longstreet [CS]",
+  "significance": "B",
+  "preservation": "III.2",
+  "state": "VA",
+  "belligerents": {
+    "CS": {
+      "casualties": 1560,
+      "strength_min": 31823,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Longstreet",
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Major General",
+          "fullname": "James Longstreet",
+          "navy": false
+        }
+      ],
+      "description": "31,823",
+      "strength_max": 31823
+    },
+    "Confederate": {
+      "casualties": 1560,
+      "strength_min": 31823,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Longstreet",
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Major General",
+          "fullname": "James Longstreet",
+          "navy": false
+        }
+      ],
+      "description": "31,823",
+      "strength_max": 31823
+    },
+    "US": {
+      "casualties": 2283,
+      "strength_min": 40768,
+      "commanders": [
+        {
+          "middle_name": "B.",
+          "last_name": "McClellan",
+          "suffix": "",
+          "first_name": "George",
+          "rank": "Major General",
+          "fullname": "George B. McClellan",
+          "navy": false
+        }
+      ],
+      "description": "40,768",
+      "strength_max": 40768
+    }
+  },
+  "campaign": "Peninsula Campaign [March-July 1862]",
+  "end_date": "1862-05-05",
+  "description": "In the first pitched battle of the Peninsula Campaign, nearly 41,000 Federals and 32,000 Confederates were engaged. Following up the Confederate retreat from Yorktown, Hooker's division encountered the Confederate rearguard near Williamsburg. Hooker assaulted Fort Magruder, an earthen fortification alongside the Williamsburg Road, but was repulsed. Confederate counterattacks, directed by Maj. Gen. James Longstreet, threatened to overwhelm the Union left flank, until Kearny's division arrived to stabilize the Federal position. Hancock's brigade then moved to threaten the Confederate left flank, occupying two abandoned redoubts. The Confederates counterattacked unsuccessfully. Hancock's localized success was not exploited. The Confederate army continued its withdrawal during the night.",
   "location": [
     {
       "state": "VA",
@@ -64,61 +117,8 @@
       "place": "Williamsburg"
     }
   ],
-  "belligerents": {
-    "Confederate": {
-      "casualties": 1560,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Longstreet",
-          "fullname": "James Longstreet"
-        }
-      ],
-      "description": "31,823",
-      "strength_min": 31823,
-      "strength_max": 31823
-    },
-    "US": {
-      "casualties": 2283,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "George",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "B.",
-          "last_name": "McClellan",
-          "fullname": "George B. McClellan"
-        }
-      ],
-      "description": "40,768",
-      "strength_min": 40768,
-      "strength_max": 40768
-    },
-    "CS": {
-      "casualties": 1560,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Longstreet",
-          "fullname": "James Longstreet"
-        }
-      ],
-      "description": "31,823",
-      "strength_min": 31823,
-      "strength_max": 31823
-    }
-  },
-  "result": "Inconclusive",
-  "battle": "VA010",
-  "campaign": "Peninsula Campaign [March-July 1862]",
-  "url": "http://www.nps.gov/hps/abpp/battles/va010.htm"
+  "battle_name": "Williamsburg",
+  "start_date": "1862-05-05",
+  "casualties": 3843,
+  "principal_commanders": "Maj. Gen. George B. McClellan [US]; Maj. Gen. James Longstreet [CS]"
 }

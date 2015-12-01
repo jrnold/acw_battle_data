@@ -1,19 +1,19 @@
 {
-  "end_date": "1864-04-13",
-  "casualties": 207,
-  "casualties_text": "207 total (US 7; CS 200)",
+  "battle": "LA020",
+  "operation": false,
+  "cwsac_reference": "LA020",
   "forces": {
     "Confederate": {
       "casualties": 200,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Tom",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Green",
-          "fullname": "Tom Green"
+          "suffix": "",
+          "first_name": "Tom",
+          "rank": "Brigadier General",
+          "fullname": "Tom Green",
+          "navy": false
         }
       ],
       "cavalry_divisions": 1,
@@ -21,112 +21,112 @@
     },
     "US": {
       "casualties": 7,
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Thomas",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Kilby",
           "last_name": "Smith",
-          "fullname": "Thomas Kilby Smith"
+          "suffix": "",
+          "first_name": "Thomas",
+          "rank": "Brigadier General",
+          "fullname": "Thomas Kilby Smith",
+          "navy": false
         },
         {
-          "rank": "Rear Admiral",
-          "first_name": "David",
-          "suffix": "",
-          "navy": true,
           "middle_name": "D.",
           "last_name": "Porter",
-          "fullname": "David D. Porter"
+          "suffix": "",
+          "first_name": "David",
+          "rank": "Rear Admiral",
+          "fullname": "David D. Porter",
+          "navy": true
         }
       ],
-      "divisions": 1,
       "description": "Provisional division, XVII Army Corps, Army transports, and U.S. Navy Mississippi Squadron"
     }
   },
-  "cwsac_reference": "LA020",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/la020.htm",
   "forces_text": "Provisional division, XVII Army Corps, Army transports, and U.S. Navy Mississippi Squadron [US]; Green's Cavalry Division [CS]",
-  "start_date": "1864-04-12",
-  "preservation": null,
+  "casualties_text": "207 total (US 7; CS 200)",
   "results_text": "Union victory",
-  "description": "After the battle of Pleasant Hill on April 9, Brig. Gen. Tom Green led his men to Pleasant Hill Landing on the Red River, where, about 4:00 pm on April 12, they discovered grounded and damaged Union transports and gunboats, the XVI and XVII army corps river transportation, and U.S. Navy gunboats, with supplies and armament aboard. Union Brig. Gen. Thomas Kilby Smith's Provisional Division, XVII Corps, troops, and the Navy gunboats furnished protection for the army transports. Green and his men charged the boats. When Green attacked, Smith's men used great ingenuity in defending the boats and dispersing the enemy. Hiding behind bales of cotton, sacks of oats, and other ersatz obstructions, the men on the vessels, along with the Navy gunboats, repelled the attack, killed Green, and savaged the Confederate ranks. The Confederates withdrew and most of the Union transports continued downriver. On the 13th, at Campti, other boats ran aground and came under enemy fire from Brig. Gen. St. John R. Liddell's Sub-District of North Louisiana troops, which harassed the convoy throughout the 12th and 13th. The convoy rendezvoused with Maj. Gen. Nathaniel Banks's army at Grand Ecore, providing the army with badly needed supplies.",
-  "state": "LA",
-  "significance": "C",
+  "dates": "April 12-13, 1864",
+  "result": "Union",
   "other_names": [
     "Pleasant Hill Landing"
   ],
-  "dates": "April 12-13, 1864",
-  "battle_name": "Blair's Landing",
-  "principal_commanders": "Brig. Gen. Thomas Kilby Smith and Rear Adm. David D. Porter [US]; Brig. Gen. Tom Green [CS]",
-  "campaign": "Red River Campaign [March-April 1864]",
+  "significance": "C",
+  "preservation": null,
+  "state": "LA",
   "belligerents": {
-    "Confederate": {
-      "casualties": 200,
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "Tom",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Green",
-          "fullname": "Tom Green"
-        }
-      ],
-      "cavalry_divisions": 1,
-      "description": "Green's Cavalry Division"
-    },
-    "US": {
-      "casualties": 7,
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "Thomas",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "Kilby",
-          "last_name": "Smith",
-          "fullname": "Thomas Kilby Smith"
-        },
-        {
-          "rank": "Rear Admiral",
-          "first_name": "David",
-          "suffix": "",
-          "navy": true,
-          "middle_name": "D.",
-          "last_name": "Porter",
-          "fullname": "David D. Porter"
-        }
-      ],
-      "divisions": 1,
-      "description": "Provisional division, XVII Army Corps, Army transports, and U.S. Navy Mississippi Squadron"
-    },
     "CS": {
       "casualties": 200,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Tom",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Green",
-          "fullname": "Tom Green"
+          "suffix": "",
+          "first_name": "Tom",
+          "rank": "Brigadier General",
+          "fullname": "Tom Green",
+          "navy": false
         }
       ],
       "cavalry_divisions": 1,
       "description": "Green's Cavalry Division"
+    },
+    "Confederate": {
+      "casualties": 200,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Green",
+          "suffix": "",
+          "first_name": "Tom",
+          "rank": "Brigadier General",
+          "fullname": "Tom Green",
+          "navy": false
+        }
+      ],
+      "cavalry_divisions": 1,
+      "description": "Green's Cavalry Division"
+    },
+    "US": {
+      "casualties": 7,
+      "divisions": 1,
+      "commanders": [
+        {
+          "middle_name": "Kilby",
+          "last_name": "Smith",
+          "suffix": "",
+          "first_name": "Thomas",
+          "rank": "Brigadier General",
+          "fullname": "Thomas Kilby Smith",
+          "navy": false
+        },
+        {
+          "middle_name": "D.",
+          "last_name": "Porter",
+          "suffix": "",
+          "first_name": "David",
+          "rank": "Rear Admiral",
+          "fullname": "David D. Porter",
+          "navy": true
+        }
+      ],
+      "description": "Provisional division, XVII Army Corps, Army transports, and U.S. Navy Mississippi Squadron"
     }
   },
-  "result": "Union",
-  "battle": "LA020",
+  "campaign": "Red River Campaign [March-April 1864]",
+  "end_date": "1864-04-13",
+  "description": "After the battle of Pleasant Hill on April 9, Brig. Gen. Tom Green led his men to Pleasant Hill Landing on the Red River, where, about 4:00 pm on April 12, they discovered grounded and damaged Union transports and gunboats, the XVI and XVII army corps river transportation, and U.S. Navy gunboats, with supplies and armament aboard. Union Brig. Gen. Thomas Kilby Smith's Provisional Division, XVII Corps, troops, and the Navy gunboats furnished protection for the army transports. Green and his men charged the boats. When Green attacked, Smith's men used great ingenuity in defending the boats and dispersing the enemy. Hiding behind bales of cotton, sacks of oats, and other ersatz obstructions, the men on the vessels, along with the Navy gunboats, repelled the attack, killed Green, and savaged the Confederate ranks. The Confederates withdrew and most of the Union transports continued downriver. On the 13th, at Campti, other boats ran aground and came under enemy fire from Brig. Gen. St. John R. Liddell's Sub-District of North Louisiana troops, which harassed the convoy throughout the 12th and 13th. The convoy rendezvoused with Maj. Gen. Nathaniel Banks's army at Grand Ecore, providing the army with badly needed supplies.",
   "location": [
     {
       "state": "LA",
       "place": "Red River Parish"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/la020.htm"
+  "battle_name": "Blair's Landing",
+  "start_date": "1864-04-12",
+  "casualties": 207,
+  "principal_commanders": "Brig. Gen. Thomas Kilby Smith and Rear Adm. David D. Porter [US]; Brig. Gen. Tom Green [CS]"
 }

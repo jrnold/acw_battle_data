@@ -1,116 +1,116 @@
 {
-  "end_date": "1864-05-16",
-  "casualties": 6660,
-  "casualties_text": "6,660 total",
+  "battle": "VA053",
+  "operation": false,
+  "cwsac_reference": "VA053",
   "forces": {
     "Confederate": {
+      "strength_min": 18000,
       "commanders": [
         {
-          "rank": "General",
-          "first_name": "P.G.T.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Beauregard",
-          "fullname": "P.G.T. Beauregard"
+          "suffix": "",
+          "first_name": "P.G.T.",
+          "rank": "General",
+          "fullname": "P.G.T. Beauregard",
+          "navy": false
         }
       ],
-      "strength_min": 18000,
       "description": "18,000",
       "strength_max": 18000
     },
     "US": {
+      "strength_min": 30000,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Benjamin",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Butler",
-          "fullname": "Benjamin Butler"
+          "suffix": "",
+          "first_name": "Benjamin",
+          "rank": "Major General",
+          "fullname": "Benjamin Butler",
+          "navy": false
         }
       ],
-      "strength_min": 30000,
       "description": "30,000",
       "strength_max": 30000
     }
   },
-  "strength": 48000,
-  "cwsac_reference": "VA053",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va053.htm",
   "forces_text": "48,000 total (US 30,000; CS 18,000)",
-  "start_date": "1864-05-12",
-  "preservation": "IV.1",
+  "strength": 48000,
+  "casualties_text": "6,660 total",
   "results_text": "Confederate victory",
-  "description": "After his repulse at Swift Creek and Fort Clifton on May 9, Maj. Gen. Benjamin Butler withdrew into his entrenchments at Bermuda Hundred. A Confederate army of 18,000 was patched together under command of Gen. P.G.T. Beauregard to confront Butler's 30,000. On May 12, Butler moved north against the Confederate line at Drewry's Bluff but again adopted a defensive posture when his attack was not supported by gunboats. On the 13th a Union column struck the right flank of the Confederate line at the Wooldridge House, carrying a line of works. Butler remained cautious, however, giving Beauregard time to concentrate his forces. On May 16 at dawn, Ransom's Confederate division opened an attack on Butler's right flank, routing many units. Subsequent attacks lost direction in the fog, but the Federals were disorganized and demoralized. After severe fighting, Butler extricated himself from battle, withdrawing again to his Bermuda Hundred Line. This battle stopped Butler's offensive against Richmond.",
-  "state": "VA",
-  "significance": "B",
+  "dates": "May 12-16, 1864",
+  "result": "Confederate",
   "other_names": [
     "Drewry's Bluff",
     "Fort Darling"
   ],
-  "dates": "May 12-16, 1864",
-  "battle_name": "Proctor's Creek",
-  "principal_commanders": "Maj. Gen. Benjamin Butler [US]; Gen. P.G.T. Beauregard [CS]",
+  "significance": "B",
+  "preservation": "IV.1",
+  "state": "VA",
+  "belligerents": {
+    "CS": {
+      "strength_min": 18000,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Beauregard",
+          "suffix": "",
+          "first_name": "P.G.T.",
+          "rank": "General",
+          "fullname": "P.G.T. Beauregard",
+          "navy": false
+        }
+      ],
+      "description": "18,000",
+      "strength_max": 18000
+    },
+    "Confederate": {
+      "strength_min": 18000,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Beauregard",
+          "suffix": "",
+          "first_name": "P.G.T.",
+          "rank": "General",
+          "fullname": "P.G.T. Beauregard",
+          "navy": false
+        }
+      ],
+      "description": "18,000",
+      "strength_max": 18000
+    },
+    "US": {
+      "strength_min": 30000,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Butler",
+          "suffix": "",
+          "first_name": "Benjamin",
+          "rank": "Major General",
+          "fullname": "Benjamin Butler",
+          "navy": false
+        }
+      ],
+      "description": "30,000",
+      "strength_max": 30000
+    }
+  },
+  "campaign": "Bermuda Hundred Campaign [May 1864]",
+  "end_date": "1864-05-16",
+  "description": "After his repulse at Swift Creek and Fort Clifton on May 9, Maj. Gen. Benjamin Butler withdrew into his entrenchments at Bermuda Hundred. A Confederate army of 18,000 was patched together under command of Gen. P.G.T. Beauregard to confront Butler's 30,000. On May 12, Butler moved north against the Confederate line at Drewry's Bluff but again adopted a defensive posture when his attack was not supported by gunboats. On the 13th a Union column struck the right flank of the Confederate line at the Wooldridge House, carrying a line of works. Butler remained cautious, however, giving Beauregard time to concentrate his forces. On May 16 at dawn, Ransom's Confederate division opened an attack on Butler's right flank, routing many units. Subsequent attacks lost direction in the fog, but the Federals were disorganized and demoralized. After severe fighting, Butler extricated himself from battle, withdrawing again to his Bermuda Hundred Line. This battle stopped Butler's offensive against Richmond.",
   "location": [
     {
       "state": "VA",
       "place": "Chesterfield County"
     }
   ],
-  "belligerents": {
-    "Confederate": {
-      "commanders": [
-        {
-          "rank": "General",
-          "first_name": "P.G.T.",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Beauregard",
-          "fullname": "P.G.T. Beauregard"
-        }
-      ],
-      "strength_min": 18000,
-      "description": "18,000",
-      "strength_max": 18000
-    },
-    "US": {
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Benjamin",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Butler",
-          "fullname": "Benjamin Butler"
-        }
-      ],
-      "strength_min": 30000,
-      "description": "30,000",
-      "strength_max": 30000
-    },
-    "CS": {
-      "commanders": [
-        {
-          "rank": "General",
-          "first_name": "P.G.T.",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Beauregard",
-          "fullname": "P.G.T. Beauregard"
-        }
-      ],
-      "strength_min": 18000,
-      "description": "18,000",
-      "strength_max": 18000
-    }
-  },
-  "result": "Confederate",
-  "battle": "VA053",
-  "campaign": "Bermuda Hundred Campaign [May 1864]",
-  "url": "http://www.nps.gov/hps/abpp/battles/va053.htm"
+  "battle_name": "Proctor's Creek",
+  "start_date": "1864-05-12",
+  "casualties": 6660,
+  "principal_commanders": "Maj. Gen. Benjamin Butler [US]; Gen. P.G.T. Beauregard [CS]"
 }

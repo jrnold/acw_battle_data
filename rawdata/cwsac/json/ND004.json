@@ -1,134 +1,117 @@
 {
-  "end_date": "1863-09-05",
-  "casualties": 822,
-  "casualties_text": "822 total (US 72; I 750)",
+  "battle": "ND004",
+  "operation": false,
+  "cwsac_reference": "ND004",
   "forces": {
     "Native American": {
       "casualties": 750,
+      "strength_min": 1200,
       "commanders": [
         {
-          "rank": "",
-          "first_name": "Inkpaduta",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "",
-          "fullname": "Inkpaduta"
+          "suffix": "",
+          "first_name": "Inkpaduta",
+          "rank": "",
+          "fullname": "Inkpaduta",
+          "navy": false
         }
       ],
       "description": "Santee, Yankton, Cut-heads, Hunkapapa and Teton Sioux and Blackfeet (1,200-1,500)",
-      "strength_min": 1200,
       "strength_max": 1200
     },
     "US": {
       "casualties": 72,
+      "strength_min": 600,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Alfred",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Sully",
-          "fullname": "Alfred Sully"
+          "suffix": "",
+          "first_name": "Alfred",
+          "rank": "Brigadier General",
+          "fullname": "Alfred Sully",
+          "navy": false
         }
       ],
       "description": "Northwestern Expedition (600-700)",
-      "strength_min": 600,
       "strength_max": 600
-    },
-    "I": {
-      "casualties": 750,
-      "commanders": [
-        {
-          "rank": "",
-          "first_name": "Inkpaduta",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "",
-          "fullname": "Inkpaduta"
-        }
-      ],
-      "description": "Santee, Yankton, Cut-heads, Hunkapapa and Teton Sioux and Blackfeet (1,200-1,500)",
-      "strength_min": 1200,
-      "strength_max": 1200
     }
   },
-  "cwsac_reference": "ND004",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/nd004.htm",
   "forces_text": "Northwestern Expedition (600-700) [US]; Santee, Yankton, Cut-heads, Hunkapapa and Teton Sioux and Blackfeet (1,200-1,500) [I]",
-  "start_date": "1863-09-03",
-  "preservation": "III.4",
+  "casualties_text": "822 total (US 72; I 750)",
   "results_text": "Union victory",
-  "description": "Following Brig. Gen. Henry Hastings Sibley's victories over the Sioux, he left the area, crossing the James River. The Sioux then recrossed the Missouri River and returned to their old hunting grounds. Brig. Gen. Alfred Sully decided to find these Sioux and punish them, if possible. By September 3, Sully reached a lake where he found numerous remains of recently killed buffalo. A 6th Iowa Cavalry detachment discovered a Native American camp of more than 400 lodges, about 3:00 pm, which they endeavored to surround until a courier could inform Sully. Word reached Sully around 4:00 pm, and he set out with the rest of the troops, except for the poorly mounted men who remained to protect the animals and supplies. About an hour later, Sully and his men arrived at the Sioux camp and observed that the Sioux were attempting to leave. Sully sent in his troops to help the 6th Iowa Cavalry. Although the Sioux did counterattack, it was to no avail. The Sioux eventually broke under the firepower and fled, hotly pursued. Fighting subsided after dark but scattered firing continued. Sully ordered the bugler to sound rally, and all the troops remained at arms during the rest of the night. In the morning, Sully established a camp on the battlefield and, during the next two days, sent out scouting parties looking for remnants of the enemy. He also ordered the destruction of Native American foodstuffs, supplies, etc., found in the area. On September 5, one officer and 27 men from the 2nd Nebraska and 6th Iowa Cavalry regiments went in search of a surgeon and eight men missing since the battle on the 3rd. About 15 miles northwest of camp, they were attacked by a party of about 300 Sioux. The men could not stand up to this number of the enemy and began a slow retreat while returning fire. As the enemy came closer, the men panicked and stepped up their retirement despite entreaties from the officers. They eventually returned to camp and safety, after losing six men in the skirmish. Altogether, Sully's men overran a large Sioux camp, destroyed much of the contents, killed or wounded a large number of men, and captured numerous women and children. This engagement weakened but did not destroy the Native American resistance in the area.",
-  "state": "ND",
-  "significance": "D",
-  "other_names": null,
   "dates": "September 3-5, 1863",
-  "battle_name": "Whitestone Hill",
-  "principal_commanders": "Brig. Gen. Alfred Sully [US]; Chief Inkpaduta [I]",
-  "campaign": "Operations Against the Sioux in North Dakota [July 1863]",
+  "result": "Union",
+  "other_names": null,
+  "significance": "D",
+  "preservation": "III.4",
+  "state": "ND",
   "belligerents": {
     "Native American": {
       "casualties": 750,
+      "strength_min": 1200,
       "commanders": [
         {
-          "rank": "",
-          "first_name": "Inkpaduta",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "",
-          "fullname": "Inkpaduta"
+          "suffix": "",
+          "first_name": "Inkpaduta",
+          "rank": "",
+          "fullname": "Inkpaduta",
+          "navy": false
         }
       ],
       "description": "Santee, Yankton, Cut-heads, Hunkapapa and Teton Sioux and Blackfeet (1,200-1,500)",
-      "strength_min": 1200,
       "strength_max": 1200
     },
     "US": {
       "casualties": 72,
+      "strength_min": 600,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Alfred",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Sully",
-          "fullname": "Alfred Sully"
+          "suffix": "",
+          "first_name": "Alfred",
+          "rank": "Brigadier General",
+          "fullname": "Alfred Sully",
+          "navy": false
         }
       ],
       "description": "Northwestern Expedition (600-700)",
-      "strength_min": 600,
       "strength_max": 600
     },
     "I": {
       "casualties": 750,
+      "strength_min": 1200,
       "commanders": [
         {
-          "rank": "",
-          "first_name": "Inkpaduta",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "",
-          "fullname": "Inkpaduta"
+          "suffix": "",
+          "first_name": "Inkpaduta",
+          "rank": "",
+          "fullname": "Inkpaduta",
+          "navy": false
         }
       ],
       "description": "Santee, Yankton, Cut-heads, Hunkapapa and Teton Sioux and Blackfeet (1,200-1,500)",
-      "strength_min": 1200,
       "strength_max": 1200
     }
   },
-  "result": "Union",
-  "battle": "ND004",
+  "campaign": "Operations Against the Sioux in North Dakota [July 1863]",
+  "end_date": "1863-09-05",
+  "description": "Following Brig. Gen. Henry Hastings Sibley's victories over the Sioux, he left the area, crossing the James River. The Sioux then recrossed the Missouri River and returned to their old hunting grounds. Brig. Gen. Alfred Sully decided to find these Sioux and punish them, if possible. By September 3, Sully reached a lake where he found numerous remains of recently killed buffalo. A 6th Iowa Cavalry detachment discovered a Native American camp of more than 400 lodges, about 3:00 pm, which they endeavored to surround until a courier could inform Sully. Word reached Sully around 4:00 pm, and he set out with the rest of the troops, except for the poorly mounted men who remained to protect the animals and supplies. About an hour later, Sully and his men arrived at the Sioux camp and observed that the Sioux were attempting to leave. Sully sent in his troops to help the 6th Iowa Cavalry. Although the Sioux did counterattack, it was to no avail. The Sioux eventually broke under the firepower and fled, hotly pursued. Fighting subsided after dark but scattered firing continued. Sully ordered the bugler to sound rally, and all the troops remained at arms during the rest of the night. In the morning, Sully established a camp on the battlefield and, during the next two days, sent out scouting parties looking for remnants of the enemy. He also ordered the destruction of Native American foodstuffs, supplies, etc., found in the area. On September 5, one officer and 27 men from the 2nd Nebraska and 6th Iowa Cavalry regiments went in search of a surgeon and eight men missing since the battle on the 3rd. About 15 miles northwest of camp, they were attacked by a party of about 300 Sioux. The men could not stand up to this number of the enemy and began a slow retreat while returning fire. As the enemy came closer, the men panicked and stepped up their retirement despite entreaties from the officers. They eventually returned to camp and safety, after losing six men in the skirmish. Altogether, Sully's men overran a large Sioux camp, destroyed much of the contents, killed or wounded a large number of men, and captured numerous women and children. This engagement weakened but did not destroy the Native American resistance in the area.",
   "location": [
     {
       "state": "ND",
       "place": "Dickey County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/nd004.htm"
+  "battle_name": "Whitestone Hill",
+  "start_date": "1863-09-03",
+  "casualties": 822,
+  "principal_commanders": "Brig. Gen. Alfred Sully [US]; Chief Inkpaduta [I]"
 }

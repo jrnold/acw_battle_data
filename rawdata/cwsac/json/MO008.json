@@ -1,112 +1,112 @@
 {
-  "end_date": "1861-10-25",
-  "casualties": 218,
-  "casualties_text": "218 total (US 85; CS 133)",
+  "battle": "MO008",
+  "operation": false,
+  "cwsac_reference": "MO008",
   "forces": {
     "Confederate": {
+      "casualties": 133,
       "commanders": [
         {
-          "rank": "Colonel",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Frazier",
-          "fullname": "James Frazier"
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Colonel",
+          "fullname": "James Frazier",
+          "navy": false
         }
       ],
-      "casualties": 133,
-      "missouri_state_guard": true,
-      "description": "Missouri State Guard troops"
+      "description": "Missouri State Guard troops",
+      "missouri_state_guard": true
     },
     "US": {
       "casualties": 85,
       "commanders": [
         {
-          "rank": "Major",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Zagonyi",
-          "fullname": "James Zagonyi"
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Major",
+          "fullname": "James Zagonyi",
+          "navy": false
         }
       ],
       "description": "Prairie Scouts and Fr\u00e9mont's Body Guard"
     }
   },
-  "cwsac_reference": "MO008",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/mo008.htm",
   "forces_text": "Prairie Scouts and Fr\u00e9mont's Body Guard [US]; Missouri State Guard troops [CS]",
-  "start_date": "1861-10-25",
-  "preservation": "IV.2",
+  "casualties_text": "218 total (US 85; CS 133)",
   "results_text": "Union victory",
-  "description": "Having accomplished little since taking command of the Western Department, with headquarters in St. Louis, Missouri, Maj. Gen. John C. Fr\u00e9mont formulated a plan to clear Maj. Gen. Sterling Price's Rebels from the state and then, if possible, carry the war into Arkansas and Louisiana. Leaving St. Louis on October 7, 1861, Fr\u00e9mont's combined force eventually numbered more than 20,000. His accompanying cavalry force, numbering 5,000 men and other mounted troops, included Maj. Frank J. White's Prairie Scouts and Fr\u00e9mont's Body Guards under Maj. Charles Zagonyi. Maj. White became ill and turned his command over to Zagonyi. These two units operated in front of Fr\u00e9mont's army to gather intelligence. As Fr\u00e9mont neared Springfield, the local state guard commander, Col. Julian Frazier, sent out requests to nearby localities for additional troops. Fr\u00e9mont camped on the Pomme de Terre River, about 50 miles from Springfield. Zagonyi's column, though, continued on to Springfield, and Frazier's force of 1,000 to 1,500 prepared to meet it. Frazier set up an ambush along the road that Zagonyi travelled, but the Union force charged the Rebels, sending them fleeing. Zagonyi's men continued into town, hailed Federal sympathizers and released Union prisoners. Leery of a Confederate counterattack, Zagonyi departed Springfield before night, but Fr\u00e9mont's army returned, in force, a few days later and set up camp in the town. In mid-November, after Fr\u00e9mont was sacked and replaced by Maj. Gen. Hunter, the Federals evacuated Springfield and withdrew to Sedalia and Rolla. Federal troops reoccupied Springfield in early 1862 and it was a Union stronghold from then on. This engagement at Springfield was the only Union victory in southwestern Missouri in 1861.",
-  "state": "MO",
-  "significance": "D",
+  "dates": "October 25, 1861",
+  "result": "Union",
   "other_names": [
     "Zagonyi's Charge"
   ],
-  "dates": "October 25, 1861",
-  "battle_name": "Springfield",
-  "principal_commanders": "Maj. James Zagonyi [US]; Col. James Frazier [CS]",
-  "campaign": "Operations to Control Missouri [June-October 1861]",
+  "significance": "D",
+  "preservation": "IV.2",
+  "state": "MO",
   "belligerents": {
-    "Confederate": {
+    "CS": {
+      "casualties": 133,
       "commanders": [
         {
-          "rank": "Colonel",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Frazier",
-          "fullname": "James Frazier"
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Colonel",
+          "fullname": "James Frazier",
+          "navy": false
         }
       ],
+      "description": "Missouri State Guard troops",
+      "missouri_state_guard": true
+    },
+    "Confederate": {
       "casualties": 133,
-      "missouri_state_guard": true,
-      "description": "Missouri State Guard troops"
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Frazier",
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Colonel",
+          "fullname": "James Frazier",
+          "navy": false
+        }
+      ],
+      "description": "Missouri State Guard troops",
+      "missouri_state_guard": true
     },
     "US": {
       "casualties": 85,
       "commanders": [
         {
-          "rank": "Major",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Zagonyi",
-          "fullname": "James Zagonyi"
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Major",
+          "fullname": "James Zagonyi",
+          "navy": false
         }
       ],
       "description": "Prairie Scouts and Fr\u00e9mont's Body Guard"
-    },
-    "CS": {
-      "commanders": [
-        {
-          "rank": "Colonel",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Frazier",
-          "fullname": "James Frazier"
-        }
-      ],
-      "casualties": 133,
-      "missouri_state_guard": true,
-      "description": "Missouri State Guard troops"
     }
   },
-  "result": "Union",
-  "battle": "MO008",
+  "campaign": "Operations to Control Missouri [June-October 1861]",
+  "end_date": "1861-10-25",
+  "description": "Having accomplished little since taking command of the Western Department, with headquarters in St. Louis, Missouri, Maj. Gen. John C. Fr\u00e9mont formulated a plan to clear Maj. Gen. Sterling Price's Rebels from the state and then, if possible, carry the war into Arkansas and Louisiana. Leaving St. Louis on October 7, 1861, Fr\u00e9mont's combined force eventually numbered more than 20,000. His accompanying cavalry force, numbering 5,000 men and other mounted troops, included Maj. Frank J. White's Prairie Scouts and Fr\u00e9mont's Body Guards under Maj. Charles Zagonyi. Maj. White became ill and turned his command over to Zagonyi. These two units operated in front of Fr\u00e9mont's army to gather intelligence. As Fr\u00e9mont neared Springfield, the local state guard commander, Col. Julian Frazier, sent out requests to nearby localities for additional troops. Fr\u00e9mont camped on the Pomme de Terre River, about 50 miles from Springfield. Zagonyi's column, though, continued on to Springfield, and Frazier's force of 1,000 to 1,500 prepared to meet it. Frazier set up an ambush along the road that Zagonyi travelled, but the Union force charged the Rebels, sending them fleeing. Zagonyi's men continued into town, hailed Federal sympathizers and released Union prisoners. Leery of a Confederate counterattack, Zagonyi departed Springfield before night, but Fr\u00e9mont's army returned, in force, a few days later and set up camp in the town. In mid-November, after Fr\u00e9mont was sacked and replaced by Maj. Gen. Hunter, the Federals evacuated Springfield and withdrew to Sedalia and Rolla. Federal troops reoccupied Springfield in early 1862 and it was a Union stronghold from then on. This engagement at Springfield was the only Union victory in southwestern Missouri in 1861.",
   "location": [
     {
       "state": "MO",
       "place": "Greene County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/mo008.htm"
+  "battle_name": "Springfield",
+  "start_date": "1861-10-25",
+  "casualties": 218,
+  "principal_commanders": "Maj. James Zagonyi [US]; Col. James Frazier [CS]"
 }

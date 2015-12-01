@@ -1,18 +1,18 @@
 {
-  "end_date": "1863-03-03",
-  "casualties": null,
-  "casualties_text": "Unknown",
+  "battle": "GA002",
+  "operation": false,
+  "cwsac_reference": "GA002",
   "forces": {
     "Confederate": {
       "commanders": [
         {
-          "rank": "Captain",
-          "first_name": "George",
-          "suffix": "",
-          "navy": false,
           "middle_name": "A.",
           "last_name": "Anderson",
-          "fullname": "George A. Anderson"
+          "suffix": "",
+          "first_name": "George",
+          "rank": "Captain",
+          "fullname": "George A. Anderson",
+          "navy": false
         }
       ],
       "description": "Fort McAllister Garrison"
@@ -20,83 +20,83 @@
     "US": {
       "commanders": [
         {
-          "rank": "Captain",
-          "first_name": "P.",
-          "suffix": "",
-          "navy": true,
           "middle_name": "",
           "last_name": "Drayton",
-          "fullname": "P. Drayton"
+          "suffix": "",
+          "first_name": "P.",
+          "rank": "Captain",
+          "fullname": "P. Drayton",
+          "navy": true
         }
       ],
       "description": "Union Navy Flotilla"
     }
   },
-  "cwsac_reference": "GA002",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ga002.htm",
   "forces_text": "Union Navy Flotilla [US]; Fort McAllister Garrison [CS]",
-  "start_date": "1863-03-03",
-  "preservation": "III.3",
+  "casualties_text": "Unknown",
   "results_text": "Confederate victory",
-  "description": "Rear Adm. Samuel F. Du Pont [US] ordered three ironclads, Patapsco, Passaic, and Nahant, to test their guns and mechanical appliances and practice artillery firing by attacking Fort McAllister, then a small three-gun earthwork battery. On March 3, 1863, the three ironclads conducted an eight-hour bombardment. The bombardment did not destroy the battery but did some damage, while the three ironclads received some scratches and dents. The tests were helpful for knowledge and experience gained, but the fort did not fall, showing that the ironclads' firepower could not destroy an earthen fort.",
-  "state": "GA",
-  "significance": "C",
-  "other_names": null,
   "dates": "March 3, 1863",
-  "battle_name": "Fort McAllister I",
-  "principal_commanders": "Capt. (Naval) P. Drayton, U.S.N. [US]; Capt. George A. Anderson [CS]",
-  "campaign": "Naval Attacks on Fort McAllister [March 1863]",
+  "result": "Confederate",
+  "other_names": null,
+  "significance": "C",
+  "preservation": "III.3",
+  "state": "GA",
   "belligerents": {
-    "Confederate": {
-      "commanders": [
-        {
-          "rank": "Captain",
-          "first_name": "George",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "A.",
-          "last_name": "Anderson",
-          "fullname": "George A. Anderson"
-        }
-      ],
-      "description": "Fort McAllister Garrison"
-    },
-    "US": {
-      "commanders": [
-        {
-          "rank": "Captain",
-          "first_name": "P.",
-          "suffix": "",
-          "navy": true,
-          "middle_name": "",
-          "last_name": "Drayton",
-          "fullname": "P. Drayton"
-        }
-      ],
-      "description": "Union Navy Flotilla"
-    },
     "CS": {
       "commanders": [
         {
-          "rank": "Captain",
-          "first_name": "George",
-          "suffix": "",
-          "navy": false,
           "middle_name": "A.",
           "last_name": "Anderson",
-          "fullname": "George A. Anderson"
+          "suffix": "",
+          "first_name": "George",
+          "rank": "Captain",
+          "fullname": "George A. Anderson",
+          "navy": false
         }
       ],
       "description": "Fort McAllister Garrison"
+    },
+    "Confederate": {
+      "commanders": [
+        {
+          "middle_name": "A.",
+          "last_name": "Anderson",
+          "suffix": "",
+          "first_name": "George",
+          "rank": "Captain",
+          "fullname": "George A. Anderson",
+          "navy": false
+        }
+      ],
+      "description": "Fort McAllister Garrison"
+    },
+    "US": {
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Drayton",
+          "suffix": "",
+          "first_name": "P.",
+          "rank": "Captain",
+          "fullname": "P. Drayton",
+          "navy": true
+        }
+      ],
+      "description": "Union Navy Flotilla"
     }
   },
-  "result": "Confederate",
-  "battle": "GA002",
+  "campaign": "Naval Attacks on Fort McAllister [March 1863]",
+  "end_date": "1863-03-03",
+  "description": "Rear Adm. Samuel F. Du Pont [US] ordered three ironclads, Patapsco, Passaic, and Nahant, to test their guns and mechanical appliances and practice artillery firing by attacking Fort McAllister, then a small three-gun earthwork battery. On March 3, 1863, the three ironclads conducted an eight-hour bombardment. The bombardment did not destroy the battery but did some damage, while the three ironclads received some scratches and dents. The tests were helpful for knowledge and experience gained, but the fort did not fall, showing that the ironclads' firepower could not destroy an earthen fort.",
   "location": [
     {
       "state": "GA",
       "place": "Bryan County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/ga002.htm"
+  "battle_name": "Fort McAllister I",
+  "start_date": "1863-03-03",
+  "casualties": null,
+  "principal_commanders": "Capt. (Naval) P. Drayton, U.S.N. [US]; Capt. George A. Anderson [CS]"
 }

@@ -1,112 +1,112 @@
 {
-  "end_date": "1864-10-25",
-  "casualties": null,
-  "casualties_text": "Unknown",
+  "battle": "MO028",
+  "operation": false,
+  "cwsac_reference": "MO028",
   "forces": {
     "Confederate": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Sterling",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Price",
-          "fullname": "Sterling Price"
+          "suffix": "",
+          "first_name": "Sterling",
+          "rank": "Major General",
+          "fullname": "Sterling Price",
+          "navy": false
         }
       ],
-      "armies": 1,
-      "description": "Army of Missouri"
+      "description": "Army of Missouri",
+      "armies": 1
     },
     "US": {
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "McNeil",
-          "fullname": "John McNeil"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Brigadier General",
+          "fullname": "John McNeil",
+          "navy": false
         }
       ],
-      "brigades": 2,
       "cavalry_divisions": 1,
+      "brigades": 2,
       "description": "Two brigades, provisional cavalry division"
     }
   },
-  "cwsac_reference": "MO028",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/mo028.htm",
   "forces_text": "Two brigades, provisional cavalry division [US]; Army of Missouri [CS]",
-  "start_date": "1864-10-25",
-  "preservation": "III.4",
+  "casualties_text": "Unknown",
   "results_text": "Union victory",
-  "description": "Following the Battle of Mine Creek, Maj. Gen. Sterling Price continued his cartage towards Fort Scott. In late afternoon of October 25, Price's supply train had difficulty crossing the Marmiton River ford and, like at Mine Creek, Price had to make a stand. Brig. Gen. John S. McNeil, commanding two brigades of Pleasonton's cavalry division, attacked the Confederate troops that Price and his officers rallied, included a sizable number of unarmed men. McNeil observed the sizable Confederate force, not knowing that many of them were unarmed, and refrained from an all out assault. After about two hours of skirmishing, Price continued his retreat and McNeil could not mount an effective pursuit. Price's army was broken by this time, and it was simply a question of how many men he could successfully evacuate to friendly territory.",
-  "state": "MO",
-  "significance": "D",
+  "dates": "October 25, 1864",
+  "result": "Union",
   "other_names": [
     "Shiloh Creek",
     "Charlot's Farm"
   ],
-  "dates": "October 25, 1864",
-  "battle_name": "Marmiton River",
-  "principal_commanders": "Brig. Gen. John McNeil [US]; Maj. Gen. Sterling Price [CS]",
-  "campaign": "Price's Missouri Expedition [September-October 1864]",
+  "significance": "D",
+  "preservation": "III.4",
+  "state": "MO",
   "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Price",
+          "suffix": "",
+          "first_name": "Sterling",
+          "rank": "Major General",
+          "fullname": "Sterling Price",
+          "navy": false
+        }
+      ],
+      "description": "Army of Missouri",
+      "armies": 1
+    },
     "Confederate": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Sterling",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Price",
-          "fullname": "Sterling Price"
+          "suffix": "",
+          "first_name": "Sterling",
+          "rank": "Major General",
+          "fullname": "Sterling Price",
+          "navy": false
         }
       ],
-      "armies": 1,
-      "description": "Army of Missouri"
+      "description": "Army of Missouri",
+      "armies": 1
     },
     "US": {
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "McNeil",
-          "fullname": "John McNeil"
-        }
-      ],
-      "brigades": 2,
-      "cavalry_divisions": 1,
-      "description": "Two brigades, provisional cavalry division"
-    },
-    "CS": {
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Sterling",
           "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Price",
-          "fullname": "Sterling Price"
+          "first_name": "John",
+          "rank": "Brigadier General",
+          "fullname": "John McNeil",
+          "navy": false
         }
       ],
-      "armies": 1,
-      "description": "Army of Missouri"
+      "cavalry_divisions": 1,
+      "brigades": 2,
+      "description": "Two brigades, provisional cavalry division"
     }
   },
-  "result": "Union",
-  "battle": "MO028",
+  "campaign": "Price's Missouri Expedition [September-October 1864]",
+  "end_date": "1864-10-25",
+  "description": "Following the Battle of Mine Creek, Maj. Gen. Sterling Price continued his cartage towards Fort Scott. In late afternoon of October 25, Price's supply train had difficulty crossing the Marmiton River ford and, like at Mine Creek, Price had to make a stand. Brig. Gen. John S. McNeil, commanding two brigades of Pleasonton's cavalry division, attacked the Confederate troops that Price and his officers rallied, included a sizable number of unarmed men. McNeil observed the sizable Confederate force, not knowing that many of them were unarmed, and refrained from an all out assault. After about two hours of skirmishing, Price continued his retreat and McNeil could not mount an effective pursuit. Price's army was broken by this time, and it was simply a question of how many men he could successfully evacuate to friendly territory.",
   "location": [
     {
       "state": "MO",
       "place": "Vernon County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/mo028.htm"
+  "battle_name": "Marmiton River",
+  "start_date": "1864-10-25",
+  "casualties": null,
+  "principal_commanders": "Brig. Gen. John McNeil [US]; Maj. Gen. Sterling Price [CS]"
 }

@@ -1,102 +1,102 @@
 {
-  "end_date": "1864-05-07",
-  "casualties": 550,
-  "casualties_text": "550 total",
+  "battle": "VA047",
+  "operation": false,
+  "cwsac_reference": "VA047",
   "forces": {
     "Confederate": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Johnson",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Hagood",
-          "fullname": "Johnson Hagood"
+          "suffix": "",
+          "first_name": "Johnson",
+          "rank": "Brigadier General",
+          "fullname": "Johnson Hagood",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     },
     "US": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Benjamin",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Butler",
-          "fullname": "Benjamin Butler"
+          "suffix": "",
+          "first_name": "Benjamin",
+          "rank": "Major General",
+          "fullname": "Benjamin Butler",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     }
   },
-  "cwsac_reference": "VA047",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va047.htm",
   "forces_text": "Divisions",
-  "start_date": "1864-05-06",
-  "preservation": "II.3",
+  "casualties_text": "550 total",
   "results_text": "Union victory",
-  "description": "In conjunction with the opening of Grant's Overland Campaign, Maj. Gen. Benjamin Butler's Army of the James, 33,000 strong, disembarked from transports at Bermuda Hundred on May 5, threatening the Richmond-Petersburg Railroad. On May 6, Hagood's brigade stopped initial Federal probes at Port Walthall Junction. On May 7, a Union division drove Hagood's and Johnson's brigades from the depot and cut the railroad at Port Walthall Junction. Confederate defenders retired behind Swift Run Creek and awaited reinforcements.",
-  "state": "VA",
-  "significance": "C",
-  "other_names": null,
   "dates": "May 6-7, 1864",
-  "battle_name": "Port Walthall Junction",
-  "principal_commanders": "Maj. Gen. Benjamin Butler [US]; Brig. Gen. Johnson Hagood [CS]",
-  "campaign": "Bermuda Hundred Campaign [May 1864]",
+  "result": "Union",
+  "other_names": null,
+  "significance": "C",
+  "preservation": "II.3",
+  "state": "VA",
   "belligerents": {
-    "Confederate": {
+    "CS": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Johnson",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Hagood",
-          "fullname": "Johnson Hagood"
+          "suffix": "",
+          "first_name": "Johnson",
+          "rank": "Brigadier General",
+          "fullname": "Johnson Hagood",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
+    },
+    "Confederate": {
+      "divisions": 1,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Hagood",
+          "suffix": "",
+          "first_name": "Johnson",
+          "rank": "Brigadier General",
+          "fullname": "Johnson Hagood",
+          "navy": false
+        }
+      ]
     },
     "US": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Benjamin",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Butler",
-          "fullname": "Benjamin Butler"
-        }
-      ],
-      "divisions": 1
-    },
-    "CS": {
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "Johnson",
           "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Hagood",
-          "fullname": "Johnson Hagood"
+          "first_name": "Benjamin",
+          "rank": "Major General",
+          "fullname": "Benjamin Butler",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     }
   },
-  "result": "Union",
-  "battle": "VA047",
+  "campaign": "Bermuda Hundred Campaign [May 1864]",
+  "end_date": "1864-05-07",
+  "description": "In conjunction with the opening of Grant's Overland Campaign, Maj. Gen. Benjamin Butler's Army of the James, 33,000 strong, disembarked from transports at Bermuda Hundred on May 5, threatening the Richmond-Petersburg Railroad. On May 6, Hagood's brigade stopped initial Federal probes at Port Walthall Junction. On May 7, a Union division drove Hagood's and Johnson's brigades from the depot and cut the railroad at Port Walthall Junction. Confederate defenders retired behind Swift Run Creek and awaited reinforcements.",
   "location": [
     {
       "state": "VA",
       "place": "Chesterfield County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/va047.htm"
+  "battle_name": "Port Walthall Junction",
+  "start_date": "1864-05-06",
+  "casualties": 550,
+  "principal_commanders": "Maj. Gen. Benjamin Butler [US]; Brig. Gen. Johnson Hagood [CS]"
 }

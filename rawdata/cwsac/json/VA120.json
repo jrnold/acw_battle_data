@@ -1,118 +1,118 @@
 {
-  "end_date": "1864-09-22",
-  "casualties": 1763,
-  "casualties_text": "1,763 total (US 528; CS 1,235)",
+  "battle": "VA120",
+  "operation": false,
+  "cwsac_reference": "VA120",
   "forces": {
     "Confederate": {
       "casualties": 1235,
+      "strength_min": 9500,
       "commanders": [
         {
-          "rank": "Lieutenant General",
-          "first_name": "Jubal",
-          "suffix": "",
-          "navy": false,
           "middle_name": "A.",
           "last_name": "Early",
-          "fullname": "Jubal A. Early"
+          "suffix": "",
+          "first_name": "Jubal",
+          "rank": "Lieutenant General",
+          "fullname": "Jubal A. Early",
+          "navy": false
         }
       ],
       "description": "9,500",
-      "strength_min": 9500,
       "strength_max": 9500
     },
     "US": {
       "casualties": 528,
+      "strength_min": 29444,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Philip",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Sheridan",
-          "fullname": "Philip Sheridan"
+          "suffix": "",
+          "first_name": "Philip",
+          "rank": "Major General",
+          "fullname": "Philip Sheridan",
+          "navy": false
         }
       ],
       "description": "29,444",
-      "strength_min": 29444,
       "strength_max": 29444
     }
   },
-  "strength": 38944,
-  "cwsac_reference": "VA120",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va120.htm",
   "forces_text": "38,944 total (US 29,444; CS 9,500)",
-  "start_date": "1864-09-21",
-  "preservation": "I.3",
+  "strength": 38944,
+  "casualties_text": "1,763 total (US 528; CS 1,235)",
   "results_text": "Union victory",
-  "description": "Early's army, bloodied by its defeat at Opequon (Third Winchester) on September 19, took up a strong defensive position at Fisher's Hill, south of Strasburg. On September 21, the Union army advanced, driving back the skirmishers and capturing important high ground. On the 22nd, Crook's Corps moved along North Mountain to outflank Early and attacked about 4 pm. The Confederate cavalry offered little resistance, and the startled infantry were unable to face the attacking force. The Confederate defense collapsed from west to east as Sheridan's other corps join in the assault. Early retreated to Rockfish Gap near Waynesboro, opening the Valley to a Union \"scorched earth\" invasion. Mills and barns from Staunton to Strasburg were burned in what became known as the \"Burning\" or \"Red October.\"",
-  "state": "VA",
-  "significance": "B",
-  "other_names": null,
   "dates": "September 21-22, 1864",
-  "battle_name": "Fisher's Hill",
-  "principal_commanders": "Maj. Gen. Philip Sheridan [US]; Lt. Gen. Jubal A. Early [CS]",
+  "result": "Union",
+  "other_names": null,
+  "significance": "B",
+  "preservation": "I.3",
+  "state": "VA",
+  "belligerents": {
+    "CS": {
+      "casualties": 1235,
+      "strength_min": 9500,
+      "commanders": [
+        {
+          "middle_name": "A.",
+          "last_name": "Early",
+          "suffix": "",
+          "first_name": "Jubal",
+          "rank": "Lieutenant General",
+          "fullname": "Jubal A. Early",
+          "navy": false
+        }
+      ],
+      "description": "9,500",
+      "strength_max": 9500
+    },
+    "Confederate": {
+      "casualties": 1235,
+      "strength_min": 9500,
+      "commanders": [
+        {
+          "middle_name": "A.",
+          "last_name": "Early",
+          "suffix": "",
+          "first_name": "Jubal",
+          "rank": "Lieutenant General",
+          "fullname": "Jubal A. Early",
+          "navy": false
+        }
+      ],
+      "description": "9,500",
+      "strength_max": 9500
+    },
+    "US": {
+      "casualties": 528,
+      "strength_min": 29444,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Sheridan",
+          "suffix": "",
+          "first_name": "Philip",
+          "rank": "Major General",
+          "fullname": "Philip Sheridan",
+          "navy": false
+        }
+      ],
+      "description": "29,444",
+      "strength_max": 29444
+    }
+  },
+  "campaign": "Sheridan's Valley Campaign [August-October 1864]",
+  "end_date": "1864-09-22",
+  "description": "Early's army, bloodied by its defeat at Opequon (Third Winchester) on September 19, took up a strong defensive position at Fisher's Hill, south of Strasburg. On September 21, the Union army advanced, driving back the skirmishers and capturing important high ground. On the 22nd, Crook's Corps moved along North Mountain to outflank Early and attacked about 4 pm. The Confederate cavalry offered little resistance, and the startled infantry were unable to face the attacking force. The Confederate defense collapsed from west to east as Sheridan's other corps join in the assault. Early retreated to Rockfish Gap near Waynesboro, opening the Valley to a Union \"scorched earth\" invasion. Mills and barns from Staunton to Strasburg were burned in what became known as the \"Burning\" or \"Red October.\"",
   "location": [
     {
       "state": "VA",
       "place": "Shenandoah County"
     }
   ],
-  "belligerents": {
-    "Confederate": {
-      "casualties": 1235,
-      "commanders": [
-        {
-          "rank": "Lieutenant General",
-          "first_name": "Jubal",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "A.",
-          "last_name": "Early",
-          "fullname": "Jubal A. Early"
-        }
-      ],
-      "description": "9,500",
-      "strength_min": 9500,
-      "strength_max": 9500
-    },
-    "US": {
-      "casualties": 528,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Philip",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Sheridan",
-          "fullname": "Philip Sheridan"
-        }
-      ],
-      "description": "29,444",
-      "strength_min": 29444,
-      "strength_max": 29444
-    },
-    "CS": {
-      "casualties": 1235,
-      "commanders": [
-        {
-          "rank": "Lieutenant General",
-          "first_name": "Jubal",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "A.",
-          "last_name": "Early",
-          "fullname": "Jubal A. Early"
-        }
-      ],
-      "description": "9,500",
-      "strength_min": 9500,
-      "strength_max": 9500
-    }
-  },
-  "result": "Union",
-  "battle": "VA120",
-  "campaign": "Sheridan's Valley Campaign [August-October 1864]",
-  "url": "http://www.nps.gov/hps/abpp/battles/va120.htm"
+  "battle_name": "Fisher's Hill",
+  "start_date": "1864-09-21",
+  "casualties": 1763,
+  "principal_commanders": "Maj. Gen. Philip Sheridan [US]; Lt. Gen. Jubal A. Early [CS]"
 }

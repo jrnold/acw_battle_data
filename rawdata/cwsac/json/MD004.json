@@ -1,105 +1,105 @@
 {
-  "end_date": "1863-07-16",
-  "casualties": 1730,
-  "casualties_text": "1,730 total",
+  "battle": "MD004",
+  "operation": false,
+  "cwsac_reference": "MD004",
   "forces": {
     "Confederate": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "General",
-          "first_name": "Robert",
-          "suffix": "",
-          "navy": false,
           "middle_name": "E.",
           "last_name": "Lee",
-          "fullname": "Robert E. Lee"
+          "suffix": "",
+          "first_name": "Robert",
+          "rank": "General",
+          "fullname": "Robert E. Lee",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     },
     "US": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "George",
-          "suffix": "",
-          "navy": false,
           "middle_name": "G.",
           "last_name": "Meade",
-          "fullname": "George G. Meade"
+          "suffix": "",
+          "first_name": "George",
+          "rank": "Major General",
+          "fullname": "George G. Meade",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     }
   },
-  "cwsac_reference": "MD004",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/md004.htm",
   "forces_text": "Divisions",
-  "start_date": "1863-07-06",
-  "preservation": "III.3",
+  "casualties_text": "1,730 total",
   "results_text": "Inconclusive",
-  "description": "During the night of July 4-5, Lee's battered army began its retreat from Gettysburg, moving southwest on the Fairfield Road toward Hagerstown and Williamsport, screened by Stuart's cavalry. The Union infantry followed cautiously the next day, converging on Middletown, Maryland. On July 7, Imboden (CS) stopped Buford's Union cavalry from occupying Williamsport and destroying Confederate trains. Kilpatrick's cavalry division drove two Confederate cavalry brigades through Hagerstown before being forced to retire by the arrival of the rest of Stuart's command. Lee's infantry reached the rain-swollen Potomac River but could not cross, the pontoon bridge having been destroyed by a cavalry raid. On July 11, Lee entrenched a line, protecting the river crossings at Williamsport and waited for Meade's army to advance. July 12, Meade reached the vicinity and probed the Confederate line. July 13, skirmishing was heavy along the lines as Meade positioned his forces for an attack. In the meantime, the river fell enough to allow the construction of a new bridge, and Lee's army began crossing the river after dark on the 13th. On the morning of the 14th, Kilpatrick's and Buford's cavalry divisions attacked the rearguard division of Henry Heth still on the north bank, taking more than 500 prisoners. Confederate Brig. Gen. James Pettigrew was mortally wounded in the fight. On July 16, David McM. Gregg's cavalry approached Shepherdstown where Fitzhugh Lee's and J.R. Chambliss's brigades, supported by M.J. Ferguson's, held the Potomac River fords against the Union infantry. Fitzhugh Lee and Chambliss attacked Gregg, who held out against several attacks and sorties, fighting sporadically until nightfall when he withdrew.",
-  "state": "MD",
-  "significance": "C",
+  "dates": "July 6-16, 1863",
+  "result": "Inconclusive",
   "other_names": [
     "Hagerstown",
     "Falling Waters"
   ],
-  "dates": "July 6-16, 1863",
-  "battle_name": "Williamsport",
-  "principal_commanders": "Maj. Gen. George G. Meade [US]; Gen. Robert E. Lee [CS]",
-  "campaign": "Gettysburg Campaign [June-July 1863]",
+  "significance": "C",
+  "preservation": "III.3",
+  "state": "MD",
   "belligerents": {
-    "Confederate": {
+    "CS": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "General",
-          "first_name": "Robert",
-          "suffix": "",
-          "navy": false,
           "middle_name": "E.",
           "last_name": "Lee",
-          "fullname": "Robert E. Lee"
+          "suffix": "",
+          "first_name": "Robert",
+          "rank": "General",
+          "fullname": "Robert E. Lee",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
+    },
+    "Confederate": {
+      "divisions": 1,
+      "commanders": [
+        {
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "suffix": "",
+          "first_name": "Robert",
+          "rank": "General",
+          "fullname": "Robert E. Lee",
+          "navy": false
+        }
+      ]
     },
     "US": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "George",
-          "suffix": "",
-          "navy": false,
           "middle_name": "G.",
           "last_name": "Meade",
-          "fullname": "George G. Meade"
-        }
-      ],
-      "divisions": 1
-    },
-    "CS": {
-      "commanders": [
-        {
-          "rank": "General",
-          "first_name": "Robert",
           "suffix": "",
-          "navy": false,
-          "middle_name": "E.",
-          "last_name": "Lee",
-          "fullname": "Robert E. Lee"
+          "first_name": "George",
+          "rank": "Major General",
+          "fullname": "George G. Meade",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     }
   },
-  "result": "Inconclusive",
-  "battle": "MD004",
+  "campaign": "Gettysburg Campaign [June-July 1863]",
+  "end_date": "1863-07-16",
+  "description": "During the night of July 4-5, Lee's battered army began its retreat from Gettysburg, moving southwest on the Fairfield Road toward Hagerstown and Williamsport, screened by Stuart's cavalry. The Union infantry followed cautiously the next day, converging on Middletown, Maryland. On July 7, Imboden (CS) stopped Buford's Union cavalry from occupying Williamsport and destroying Confederate trains. Kilpatrick's cavalry division drove two Confederate cavalry brigades through Hagerstown before being forced to retire by the arrival of the rest of Stuart's command. Lee's infantry reached the rain-swollen Potomac River but could not cross, the pontoon bridge having been destroyed by a cavalry raid. On July 11, Lee entrenched a line, protecting the river crossings at Williamsport and waited for Meade's army to advance. July 12, Meade reached the vicinity and probed the Confederate line. July 13, skirmishing was heavy along the lines as Meade positioned his forces for an attack. In the meantime, the river fell enough to allow the construction of a new bridge, and Lee's army began crossing the river after dark on the 13th. On the morning of the 14th, Kilpatrick's and Buford's cavalry divisions attacked the rearguard division of Henry Heth still on the north bank, taking more than 500 prisoners. Confederate Brig. Gen. James Pettigrew was mortally wounded in the fight. On July 16, David McM. Gregg's cavalry approached Shepherdstown where Fitzhugh Lee's and J.R. Chambliss's brigades, supported by M.J. Ferguson's, held the Potomac River fords against the Union infantry. Fitzhugh Lee and Chambliss attacked Gregg, who held out against several attacks and sorties, fighting sporadically until nightfall when he withdrew.",
   "location": [
     {
       "state": "MD",
       "place": "Washington County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/md004.htm"
+  "battle_name": "Williamsport",
+  "start_date": "1863-07-06",
+  "casualties": 1730,
+  "principal_commanders": "Maj. Gen. George G. Meade [US]; Gen. Robert E. Lee [CS]"
 }

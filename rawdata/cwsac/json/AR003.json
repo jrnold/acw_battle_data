@@ -1,28 +1,28 @@
 {
-  "end_date": "1862-07-07",
-  "casualties": 308,
-  "casualties_text": "308 total (US 63; CS 245)",
+  "battle": "AR003",
+  "operation": false,
+  "cwsac_reference": "AR003",
   "forces": {
     "Confederate": {
       "casualties": 245,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Thomas",
-          "suffix": "",
-          "navy": false,
           "middle_name": "C.",
           "last_name": "Hindman",
-          "fullname": "Thomas C. Hindman"
+          "suffix": "",
+          "first_name": "Thomas",
+          "rank": "Major General",
+          "fullname": "Thomas C. Hindman",
+          "navy": false
         },
         {
-          "rank": "Colonel",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
           "middle_name": "H.",
           "last_name": "Parsons",
-          "fullname": "William H. Parsons"
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Colonel",
+          "fullname": "William H. Parsons",
+          "navy": false
         }
       ],
       "description": "unknown"
@@ -31,67 +31,87 @@
       "casualties": 63,
       "commanders": [
         {
-          "rank": "Colonel",
-          "first_name": "Charles",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Hovey",
-          "fullname": "Charles Hovey"
+          "suffix": "",
+          "first_name": "Charles",
+          "rank": "Colonel",
+          "fullname": "Charles Hovey",
+          "navy": false
         },
         {
-          "rank": "Brigadier General",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
           "middle_name": "P.",
           "last_name": "Benton",
-          "fullname": "William P. Benton"
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Brigadier General",
+          "fullname": "William P. Benton",
+          "navy": false
         }
       ],
       "brigades": 2,
       "description": "1st and 2nd Brigade, 1st Division, Army of the Southwest"
     }
   },
-  "cwsac_reference": "AR003",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ar003.htm",
   "forces_text": "1st and 2nd Brigade, 1st Division, Army of the Southwest [US]; unknown [CS]",
-  "start_date": "1862-07-07",
-  "preservation": "III.4",
+  "casualties_text": "308 total (US 63; CS 245)",
   "results_text": "Union victory",
-  "description": "Union Maj. Gen. Samuel R. Curtis moved on Helena, Arkansas, in search of supplies to replace those that had been promised but never delivered by the Navy. The Confederates under Maj. Gen. Thomas C. Hindman attempted to prevent this change of supply base by continually skirmishing with the Union troops. The Confederates made a stand at the Cache River on July 7. As Union Col. C.L. Harris moved forward with elements of the 11th Wisconsin, 33rd Illinois, and the 1st Indiana Cavalry, moved forward, he blundered into an ambuscade. The fighting became more general, and the Confederates, with a frontal attack, forced the Union to retreat about a quarter of a mile. The next Confederate attack, however, was stopped. With reinforcements, the Federals pursued the retreating Confederates and turned the retreat into a rout as the day progressed. Curtis was able change his supply base, but Hindman, despite suffering defeat at Hill's Plantation, remained between Curtis and Little Rock, his objective.",
-  "state": "AR",
-  "significance": "D",
+  "dates": "July 7, 1862",
+  "result": "Union",
   "other_names": [
     "Cache River",
     "Cotton Plant",
     "Round Hill"
   ],
-  "dates": "July 7, 1862",
-  "battle_name": "Hill's Plantation",
-  "principal_commanders": "Col. Charles Hovey and Brig. Gen. William P. Benton [US]; Maj. Gen. Thomas C. Hindman and Col. William H. Parsons [CS]",
-  "campaign": "Operations Near Cache River, Arkansas [July 1862]",
+  "significance": "D",
+  "preservation": "III.4",
+  "state": "AR",
   "belligerents": {
+    "CS": {
+      "casualties": 245,
+      "commanders": [
+        {
+          "middle_name": "C.",
+          "last_name": "Hindman",
+          "suffix": "",
+          "first_name": "Thomas",
+          "rank": "Major General",
+          "fullname": "Thomas C. Hindman",
+          "navy": false
+        },
+        {
+          "middle_name": "H.",
+          "last_name": "Parsons",
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Colonel",
+          "fullname": "William H. Parsons",
+          "navy": false
+        }
+      ],
+      "description": "unknown"
+    },
     "Confederate": {
       "casualties": 245,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Thomas",
-          "suffix": "",
-          "navy": false,
           "middle_name": "C.",
           "last_name": "Hindman",
-          "fullname": "Thomas C. Hindman"
+          "suffix": "",
+          "first_name": "Thomas",
+          "rank": "Major General",
+          "fullname": "Thomas C. Hindman",
+          "navy": false
         },
         {
-          "rank": "Colonel",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
           "middle_name": "H.",
           "last_name": "Parsons",
-          "fullname": "William H. Parsons"
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Colonel",
+          "fullname": "William H. Parsons",
+          "navy": false
         }
       ],
       "description": "unknown"
@@ -100,59 +120,39 @@
       "casualties": 63,
       "commanders": [
         {
-          "rank": "Colonel",
-          "first_name": "Charles",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Hovey",
-          "fullname": "Charles Hovey"
+          "suffix": "",
+          "first_name": "Charles",
+          "rank": "Colonel",
+          "fullname": "Charles Hovey",
+          "navy": false
         },
         {
-          "rank": "Brigadier General",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
           "middle_name": "P.",
           "last_name": "Benton",
-          "fullname": "William P. Benton"
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Brigadier General",
+          "fullname": "William P. Benton",
+          "navy": false
         }
       ],
       "brigades": 2,
       "description": "1st and 2nd Brigade, 1st Division, Army of the Southwest"
-    },
-    "CS": {
-      "casualties": 245,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Thomas",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "C.",
-          "last_name": "Hindman",
-          "fullname": "Thomas C. Hindman"
-        },
-        {
-          "rank": "Colonel",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "H.",
-          "last_name": "Parsons",
-          "fullname": "William H. Parsons"
-        }
-      ],
-      "description": "unknown"
     }
   },
-  "result": "Union",
-  "battle": "AR003",
+  "campaign": "Operations Near Cache River, Arkansas [July 1862]",
+  "end_date": "1862-07-07",
+  "description": "Union Maj. Gen. Samuel R. Curtis moved on Helena, Arkansas, in search of supplies to replace those that had been promised but never delivered by the Navy. The Confederates under Maj. Gen. Thomas C. Hindman attempted to prevent this change of supply base by continually skirmishing with the Union troops. The Confederates made a stand at the Cache River on July 7. As Union Col. C.L. Harris moved forward with elements of the 11th Wisconsin, 33rd Illinois, and the 1st Indiana Cavalry, moved forward, he blundered into an ambuscade. The fighting became more general, and the Confederates, with a frontal attack, forced the Union to retreat about a quarter of a mile. The next Confederate attack, however, was stopped. With reinforcements, the Federals pursued the retreating Confederates and turned the retreat into a rout as the day progressed. Curtis was able change his supply base, but Hindman, despite suffering defeat at Hill's Plantation, remained between Curtis and Little Rock, his objective.",
   "location": [
     {
       "state": "AR",
       "place": "Woodruff County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/ar003.htm"
+  "battle_name": "Hill's Plantation",
+  "start_date": "1862-07-07",
+  "casualties": 308,
+  "principal_commanders": "Col. Charles Hovey and Brig. Gen. William P. Benton [US]; Maj. Gen. Thomas C. Hindman and Col. William H. Parsons [CS]"
 }

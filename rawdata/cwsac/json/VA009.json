@@ -1,27 +1,27 @@
 {
-  "end_date": "1862-05-04",
-  "casualties": 320,
-  "casualties_text": "320 total",
+  "battle": "VA009",
+  "operation": false,
+  "cwsac_reference": "VA009",
   "forces": {
     "Confederate": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "B.",
           "last_name": "Magruder",
-          "fullname": "John B. Magruder"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Major General",
+          "fullname": "John B. Magruder",
+          "navy": false
         },
         {
-          "rank": "General",
-          "first_name": "Joseph",
-          "suffix": "",
-          "navy": false,
           "middle_name": "E.",
           "last_name": "Johnston",
-          "fullname": "Joseph E. Johnston"
+          "suffix": "",
+          "first_name": "Joseph",
+          "rank": "General",
+          "fullname": "Joseph E. Johnston",
+          "navy": false
         }
       ],
       "armies": 1
@@ -29,96 +29,93 @@
     "US": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "George",
-          "suffix": "",
-          "navy": false,
           "middle_name": "B.",
           "last_name": "McClellan",
-          "fullname": "George B. McClellan"
+          "suffix": "",
+          "first_name": "George",
+          "rank": "Major General",
+          "fullname": "George B. McClellan",
+          "navy": false
         }
       ],
       "armies": 1
     }
   },
-  "cwsac_reference": "VA009",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va009.htm",
   "forces_text": "Armies",
-  "start_date": "1862-04-05",
-  "preservation": "III.2",
+  "casualties_text": "320 total",
   "results_text": "Inconclusive",
-  "description": "Marching from Fort Monroe, Maj. Gen. George B. McClellan's army encountered Maj. Gen. John B. Magruder's small Confederate army at Yorktown behind the Warwick River. Magruder's theatrics convinced the Federals that his works were strongly held. McClellan suspended the march up the Peninsula toward Richmond, ordered the construction of siege fortifications, and brought his heavy siege guns to the front. In the meantime, Gen. Joseph E. Johnston brought reinforcements for Magruder. On 16 April, Union forces probed a weakness in the Confederate line at Lee's Mill or Dam No. 1, resulting in about 309 casualties. Failure to exploit the initial success of this attack, however, held up McClellan for two additional weeks, while he tried to convince his navy to maneuver the Confederates' big guns at Yorktown and Gloucester Point and ascend the York River to West Point thus outflanking the Warwick Line. McClellan planned for a massive bombardment to begin at dawn on May 4, but the Confederate army slipped away in the night toward Williamsburg.",
-  "state": "VA",
-  "significance": "B",
-  "other_names": null,
   "dates": "April 5-May 4, 1862",
-  "battle_name": "Yorktown",
-  "principal_commanders": "Maj. Gen. George B. McClellan [US]; Maj. Gen. John B. Magruder and Gen. Joseph E. Johnston [CS]",
-  "campaign": "Peninsula Campaign [March-July 1862]",
+  "result": "Inconclusive",
+  "other_names": null,
+  "significance": "B",
+  "preservation": "III.2",
+  "state": "VA",
   "belligerents": {
-    "Confederate": {
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "B.",
-          "last_name": "Magruder",
-          "fullname": "John B. Magruder"
-        },
-        {
-          "rank": "General",
-          "first_name": "Joseph",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "E.",
-          "last_name": "Johnston",
-          "fullname": "Joseph E. Johnston"
-        }
-      ],
-      "armies": 1
-    },
-    "US": {
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "George",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "B.",
-          "last_name": "McClellan",
-          "fullname": "George B. McClellan"
-        }
-      ],
-      "armies": 1
-    },
     "CS": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "B.",
           "last_name": "Magruder",
-          "fullname": "John B. Magruder"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Major General",
+          "fullname": "John B. Magruder",
+          "navy": false
         },
         {
-          "rank": "General",
-          "first_name": "Joseph",
-          "suffix": "",
-          "navy": false,
           "middle_name": "E.",
           "last_name": "Johnston",
-          "fullname": "Joseph E. Johnston"
+          "suffix": "",
+          "first_name": "Joseph",
+          "rank": "General",
+          "fullname": "Joseph E. Johnston",
+          "navy": false
+        }
+      ],
+      "armies": 1
+    },
+    "Confederate": {
+      "commanders": [
+        {
+          "middle_name": "B.",
+          "last_name": "Magruder",
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Major General",
+          "fullname": "John B. Magruder",
+          "navy": false
+        },
+        {
+          "middle_name": "E.",
+          "last_name": "Johnston",
+          "suffix": "",
+          "first_name": "Joseph",
+          "rank": "General",
+          "fullname": "Joseph E. Johnston",
+          "navy": false
+        }
+      ],
+      "armies": 1
+    },
+    "US": {
+      "commanders": [
+        {
+          "middle_name": "B.",
+          "last_name": "McClellan",
+          "suffix": "",
+          "first_name": "George",
+          "rank": "Major General",
+          "fullname": "George B. McClellan",
+          "navy": false
         }
       ],
       "armies": 1
     }
   },
-  "result": "Inconclusive",
-  "battle": "VA009",
+  "campaign": "Peninsula Campaign [March-July 1862]",
+  "end_date": "1862-05-04",
+  "description": "Marching from Fort Monroe, Maj. Gen. George B. McClellan's army encountered Maj. Gen. John B. Magruder's small Confederate army at Yorktown behind the Warwick River. Magruder's theatrics convinced the Federals that his works were strongly held. McClellan suspended the march up the Peninsula toward Richmond, ordered the construction of siege fortifications, and brought his heavy siege guns to the front. In the meantime, Gen. Joseph E. Johnston brought reinforcements for Magruder. On 16 April, Union forces probed a weakness in the Confederate line at Lee's Mill or Dam No. 1, resulting in about 309 casualties. Failure to exploit the initial success of this attack, however, held up McClellan for two additional weeks, while he tried to convince his navy to maneuver the Confederates' big guns at Yorktown and Gloucester Point and ascend the York River to West Point thus outflanking the Warwick Line. McClellan planned for a massive bombardment to begin at dawn on May 4, but the Confederate army slipped away in the night toward Williamsburg.",
   "location": [
     {
       "state": "VA",
@@ -129,5 +126,8 @@
       "place": "Newport News"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/va009.htm"
+  "battle_name": "Yorktown",
+  "start_date": "1862-04-05",
+  "casualties": 320,
+  "principal_commanders": "Maj. Gen. George B. McClellan [US]; Maj. Gen. John B. Magruder and Gen. Joseph E. Johnston [CS]"
 }

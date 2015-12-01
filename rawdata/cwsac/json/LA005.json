@@ -1,118 +1,118 @@
 {
-  "end_date": "1862-10-27",
-  "casualties": 315,
-  "casualties_text": "315 total (US 86; CS 229)",
+  "battle": "LA005",
+  "operation": false,
+  "cwsac_reference": "LA005",
   "forces": {
     "Confederate": {
       "casualties": 229,
+      "strength_min": 1392,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Alfred",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Mouton",
-          "fullname": "Alfred Mouton"
+          "suffix": "",
+          "first_name": "Alfred",
+          "rank": "Brigadier General",
+          "fullname": "Alfred Mouton",
+          "navy": false
         }
       ],
       "description": "18th Louisiana Infantry Regiment, Crescent Regiment, Ralston's Battery, Detachment of Cavalry, 33rd Louisiana Infantry Regiment, Terre Bonne Regiment Louisiana Militia, Semmes's Battery and 2nd Louisiana Cavalry Regiment (approx. 1,392 men)",
-      "strength_min": 1392,
       "strength_max": 1392
     },
     "US": {
       "casualties": 86,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Godfrey",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Weitzel",
-          "fullname": "Godfrey Weitzel"
+          "suffix": "",
+          "first_name": "Godfrey",
+          "rank": "Brigadier General",
+          "fullname": "Godfrey Weitzel",
+          "navy": false
         }
       ],
       "brigades": 1,
       "description": "Reserve brigade, Department of the Gulf"
     }
   },
-  "cwsac_reference": "LA005",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/la005.htm",
   "forces_text": "Reserve brigade, Department of the Gulf [US]; 18th Louisiana Infantry Regiment, Crescent Regiment, Ralston's Battery, Detachment of Cavalry, 33rd Louisiana Infantry Regiment, Terre Bonne Regiment Louisiana Militia, Semmes's Battery and 2nd Louisiana Cavalry Regiment (approx. 1,392 men) [CS]",
-  "start_date": "1862-10-27",
-  "preservation": "IV.1",
+  "casualties_text": "315 total (US 86; CS 229)",
   "results_text": "Union victory",
-  "description": "Maj. Gen. Benjamin F. Butler, commanding Union forces in the Department of the Gulf, launched an expedition into the Bayou Lafourche region to eliminate the Rebel threat from that area, to make sure that sugar and cotton products from there would come into Union hands and, in the future, to use it as a base for other military operations. He organized a brigade of about 4,000 men under the command of his protege Brig. Gen. Godfrey Weitzel to accomplish the missions. On October 25, Weitzel and his men arrived at Donaldsonville, where the Lafourche meets the Mississippi, and began an advance up the east bank of the bayou. The Confederates under the command of Brig. Gen. Alfred Mouton attempted to concentrate to meet the threat. By the 27th, the Confederates had occupied a position on the bayou above Labadieville. A little more than half the force was on the east bank while the rest of the men were on the west bank near Georgia Landing, generally without means of concentrating on one side or the other. As the Federal troops continued down the east bank, they encountered the Rebels at about 11:00 am and began skirmishing. The Confederates fell back quickly. Weitzel then began crossing his men to the west bank to attack the Rebel troops there. For some time, these Confederate troops fought resolutely and brought the Union assault to a standstill. The Rebels, however, ran out of artillery ammunition and had to withdraw to Labadieville, opening up this portion of the Lafourche to the Union.",
-  "state": "LA",
-  "significance": "C",
+  "dates": "October 27, 1862",
+  "result": "Union",
   "other_names": [
     "Labadieville",
     "Texana"
   ],
-  "dates": "October 27, 1862",
-  "battle_name": "Georgia Landing",
-  "principal_commanders": "Brig. Gen. Godfrey Weitzel [US]; Brig. Gen. Alfred Mouton [CS]",
-  "campaign": "Operations in LaFourche District [October 1862]",
+  "significance": "C",
+  "preservation": "IV.1",
+  "state": "LA",
   "belligerents": {
-    "Confederate": {
+    "CS": {
       "casualties": 229,
+      "strength_min": 1392,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Alfred",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Mouton",
-          "fullname": "Alfred Mouton"
+          "suffix": "",
+          "first_name": "Alfred",
+          "rank": "Brigadier General",
+          "fullname": "Alfred Mouton",
+          "navy": false
         }
       ],
       "description": "18th Louisiana Infantry Regiment, Crescent Regiment, Ralston's Battery, Detachment of Cavalry, 33rd Louisiana Infantry Regiment, Terre Bonne Regiment Louisiana Militia, Semmes's Battery and 2nd Louisiana Cavalry Regiment (approx. 1,392 men)",
+      "strength_max": 1392
+    },
+    "Confederate": {
+      "casualties": 229,
       "strength_min": 1392,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Mouton",
+          "suffix": "",
+          "first_name": "Alfred",
+          "rank": "Brigadier General",
+          "fullname": "Alfred Mouton",
+          "navy": false
+        }
+      ],
+      "description": "18th Louisiana Infantry Regiment, Crescent Regiment, Ralston's Battery, Detachment of Cavalry, 33rd Louisiana Infantry Regiment, Terre Bonne Regiment Louisiana Militia, Semmes's Battery and 2nd Louisiana Cavalry Regiment (approx. 1,392 men)",
       "strength_max": 1392
     },
     "US": {
       "casualties": 86,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Godfrey",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Weitzel",
-          "fullname": "Godfrey Weitzel"
+          "suffix": "",
+          "first_name": "Godfrey",
+          "rank": "Brigadier General",
+          "fullname": "Godfrey Weitzel",
+          "navy": false
         }
       ],
       "brigades": 1,
       "description": "Reserve brigade, Department of the Gulf"
-    },
-    "CS": {
-      "casualties": 229,
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "Alfred",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Mouton",
-          "fullname": "Alfred Mouton"
-        }
-      ],
-      "description": "18th Louisiana Infantry Regiment, Crescent Regiment, Ralston's Battery, Detachment of Cavalry, 33rd Louisiana Infantry Regiment, Terre Bonne Regiment Louisiana Militia, Semmes's Battery and 2nd Louisiana Cavalry Regiment (approx. 1,392 men)",
-      "strength_min": 1392,
-      "strength_max": 1392
     }
   },
-  "result": "Union",
-  "battle": "LA005",
+  "campaign": "Operations in LaFourche District [October 1862]",
+  "end_date": "1862-10-27",
+  "description": "Maj. Gen. Benjamin F. Butler, commanding Union forces in the Department of the Gulf, launched an expedition into the Bayou Lafourche region to eliminate the Rebel threat from that area, to make sure that sugar and cotton products from there would come into Union hands and, in the future, to use it as a base for other military operations. He organized a brigade of about 4,000 men under the command of his protege Brig. Gen. Godfrey Weitzel to accomplish the missions. On October 25, Weitzel and his men arrived at Donaldsonville, where the Lafourche meets the Mississippi, and began an advance up the east bank of the bayou. The Confederates under the command of Brig. Gen. Alfred Mouton attempted to concentrate to meet the threat. By the 27th, the Confederates had occupied a position on the bayou above Labadieville. A little more than half the force was on the east bank while the rest of the men were on the west bank near Georgia Landing, generally without means of concentrating on one side or the other. As the Federal troops continued down the east bank, they encountered the Rebels at about 11:00 am and began skirmishing. The Confederates fell back quickly. Weitzel then began crossing his men to the west bank to attack the Rebel troops there. For some time, these Confederate troops fought resolutely and brought the Union assault to a standstill. The Rebels, however, ran out of artillery ammunition and had to withdraw to Labadieville, opening up this portion of the Lafourche to the Union.",
   "location": [
     {
       "state": "LA",
       "place": "Lafourche Parish"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/la005.htm"
+  "battle_name": "Georgia Landing",
+  "start_date": "1862-10-27",
+  "casualties": 315,
+  "principal_commanders": "Brig. Gen. Godfrey Weitzel [US]; Brig. Gen. Alfred Mouton [CS]"
 }

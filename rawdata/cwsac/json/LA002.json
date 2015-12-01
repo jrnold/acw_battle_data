@@ -1,19 +1,19 @@
 {
-  "end_date": "1862-05-01",
-  "casualties": 0,
-  "casualties_text": "None",
+  "battle": "LA002",
+  "operation": false,
+  "cwsac_reference": "LA002",
   "forces": {
     "Confederate": {
       "casualties": 0,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Mansfield",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Lovell",
-          "fullname": "Mansfield Lovell"
+          "suffix": "",
+          "first_name": "Mansfield",
+          "rank": "Major General",
+          "fullname": "Mansfield Lovell",
+          "navy": false
         }
       ],
       "description": "Department No. 1"
@@ -22,99 +22,96 @@
       "casualties": 0,
       "commanders": [
         {
-          "rank": "Flag Officer",
-          "first_name": "David",
-          "suffix": "",
-          "navy": true,
           "middle_name": "G.",
           "last_name": "Farragut",
-          "fullname": "David G. Farragut"
+          "suffix": "",
+          "first_name": "David",
+          "rank": "Flag Officer",
+          "fullname": "David G. Farragut",
+          "navy": true
         },
         {
-          "rank": "Major General",
-          "first_name": "Benjamin",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Franklin",
           "last_name": "Butler",
-          "fullname": "Benjamin Franklin Butler"
+          "suffix": "",
+          "first_name": "Benjamin",
+          "rank": "Major General",
+          "fullname": "Benjamin Franklin Butler",
+          "navy": false
         }
       ],
       "description": "Department of the Gulf"
     }
   },
-  "cwsac_reference": "LA002",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/la002.htm",
   "forces_text": "Department of the Gulf [US]; Department No. 1 [CS]",
-  "start_date": "1862-04-25",
-  "preservation": "IV.1",
+  "casualties_text": "None",
   "results_text": "Union victory",
-  "description": "Following the passage of forts Jackson and St. Philip, near the mouth of the Mississippi River, on April 24, 1862, the Union occupation of New Orleans was inevitable. Union Flag-Officer David G. Farragut, with his squadron, continued up the Mississippi River and demanded the surrender of the City of New Orleans the next day. The city surrendered on April 28. On May 1, Maj. Gen. Benjamin Franklin Butler's army began landing at New Orleans and occupying the city. New Orleans, considered an international city and the largest city in the Confederacy, had fallen. The Union occupation of New Orleans was an event that had major international significance.",
-  "state": "LA",
-  "significance": "B",
-  "other_names": null,
   "dates": "April 25-May 1, 1862",
-  "battle_name": "New Orleans",
-  "principal_commanders": "Flag-Officer David G. Farragut and Maj. Gen. Benjamin Franklin Butler [US]; Maj. Gen. Mansfield Lovell [CS]",
-  "campaign": "Expedition to, and Capture of, New Orleans [April-May 1862]",
+  "result": "Union",
+  "other_names": null,
+  "significance": "B",
+  "preservation": "IV.1",
+  "state": "LA",
   "belligerents": {
-    "Confederate": {
-      "casualties": 0,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Mansfield",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Lovell",
-          "fullname": "Mansfield Lovell"
-        }
-      ],
-      "description": "Department No. 1"
-    },
-    "US": {
-      "casualties": 0,
-      "commanders": [
-        {
-          "rank": "Flag Officer",
-          "first_name": "David",
-          "suffix": "",
-          "navy": true,
-          "middle_name": "G.",
-          "last_name": "Farragut",
-          "fullname": "David G. Farragut"
-        },
-        {
-          "rank": "Major General",
-          "first_name": "Benjamin",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "Franklin",
-          "last_name": "Butler",
-          "fullname": "Benjamin Franklin Butler"
-        }
-      ],
-      "description": "Department of the Gulf"
-    },
     "CS": {
       "casualties": 0,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Mansfield",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Lovell",
-          "fullname": "Mansfield Lovell"
+          "suffix": "",
+          "first_name": "Mansfield",
+          "rank": "Major General",
+          "fullname": "Mansfield Lovell",
+          "navy": false
         }
       ],
       "description": "Department No. 1"
+    },
+    "Confederate": {
+      "casualties": 0,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Lovell",
+          "suffix": "",
+          "first_name": "Mansfield",
+          "rank": "Major General",
+          "fullname": "Mansfield Lovell",
+          "navy": false
+        }
+      ],
+      "description": "Department No. 1"
+    },
+    "US": {
+      "casualties": 0,
+      "commanders": [
+        {
+          "middle_name": "G.",
+          "last_name": "Farragut",
+          "suffix": "",
+          "first_name": "David",
+          "rank": "Flag Officer",
+          "fullname": "David G. Farragut",
+          "navy": true
+        },
+        {
+          "middle_name": "Franklin",
+          "last_name": "Butler",
+          "suffix": "",
+          "first_name": "Benjamin",
+          "rank": "Major General",
+          "fullname": "Benjamin Franklin Butler",
+          "navy": false
+        }
+      ],
+      "description": "Department of the Gulf"
     }
   },
-  "result": "Union",
-  "battle": "LA002",
+  "campaign": "Expedition to, and Capture of, New Orleans [April-May 1862]",
+  "end_date": "1862-05-01",
+  "description": "Following the passage of forts Jackson and St. Philip, near the mouth of the Mississippi River, on April 24, 1862, the Union occupation of New Orleans was inevitable. Union Flag-Officer David G. Farragut, with his squadron, continued up the Mississippi River and demanded the surrender of the City of New Orleans the next day. The city surrendered on April 28. On May 1, Maj. Gen. Benjamin Franklin Butler's army began landing at New Orleans and occupying the city. New Orleans, considered an international city and the largest city in the Confederacy, had fallen. The Union occupation of New Orleans was an event that had major international significance.",
   "location": [
     {
       "state": "LA",
@@ -125,5 +122,8 @@
       "place": "St. Bernard Parish"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/la002.htm"
+  "battle_name": "New Orleans",
+  "start_date": "1862-04-25",
+  "casualties": 0,
+  "principal_commanders": "Flag-Officer David G. Farragut and Maj. Gen. Benjamin Franklin Butler [US]; Maj. Gen. Mansfield Lovell [CS]"
 }

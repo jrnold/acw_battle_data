@@ -1,127 +1,127 @@
 {
-  "end_date": "1862-09-01",
-  "casualties": 2100,
-  "casualties_text": "2,100 total (US 1,300; CS 800)",
+  "battle": "VA027",
+  "operation": false,
+  "cwsac_reference": "VA027",
   "forces": {
     "Confederate": {
       "casualties": 800,
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Thomas",
-          "suffix": "",
-          "navy": false,
           "middle_name": "J.",
           "last_name": "Jackson",
-          "fullname": "Thomas J. Jackson"
+          "suffix": "",
+          "first_name": "Thomas",
+          "rank": "Major General",
+          "fullname": "Thomas J. Jackson",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     },
     "US": {
       "casualties": 1300,
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Philip",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Kearny",
-          "fullname": "Philip Kearny"
+          "suffix": "",
+          "first_name": "Philip",
+          "rank": "Major General",
+          "fullname": "Philip Kearny",
+          "navy": false
         },
         {
-          "rank": "Major General",
-          "first_name": "Isaac",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Stevens",
-          "fullname": "Isaac Stevens"
+          "suffix": "",
+          "first_name": "Isaac",
+          "rank": "Major General",
+          "fullname": "Isaac Stevens",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     }
   },
-  "cwsac_reference": "VA027",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va027.htm",
   "forces_text": "Divisions",
-  "start_date": "1862-09-01",
-  "preservation": "IV.2",
+  "casualties_text": "2,100 total (US 1,300; CS 800)",
   "results_text": "Inconclusive (Confederate strategic victory.)",
-  "description": "Making a wide flank march, Jackson hoped to cut off the Union retreat from Bull Run. On September 1, beyond Chantilly Plantation on the Little River Turnpike near Ox Hill, Jackson sent his divisions against two Union divisions under Kearny and Stevens. Confederate attacks were stopped by fierce fighting during a severe thunderstorm. Union generals Stevens and Kearny were both killed. Recognizing that his army was still in danger at Fairfax Courthouse, Maj. Gen. Pope ordered the retreat to continue to Washington. With Pope no longer a threat, Lee turned his army west and north to invade Maryland, initiating the Maryland Campaign and the battles of South Mountain and Antietam. Maj. Gen. George B. McClellan assumed command of Union forces around Washington.",
-  "state": "VA",
-  "significance": "B",
+  "dates": "September 1, 1862",
+  "result": "Inconclusive",
   "other_names": [
     "Ox Hill"
   ],
-  "dates": "September 1, 1862",
-  "battle_name": "Chantilly",
-  "principal_commanders": "Maj. Gen. Philip Kearny and Maj. Gen. Isaac Stevens [US]; Maj. Gen. Thomas J. Jackson [CS]",
-  "campaign": "Northern Virginia Campaign [August 1862]",
+  "significance": "B",
+  "preservation": "IV.2",
+  "state": "VA",
   "belligerents": {
-    "Confederate": {
+    "CS": {
       "casualties": 800,
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Thomas",
-          "suffix": "",
-          "navy": false,
           "middle_name": "J.",
           "last_name": "Jackson",
-          "fullname": "Thomas J. Jackson"
+          "suffix": "",
+          "first_name": "Thomas",
+          "rank": "Major General",
+          "fullname": "Thomas J. Jackson",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
+    },
+    "Confederate": {
+      "casualties": 800,
+      "divisions": 1,
+      "commanders": [
+        {
+          "middle_name": "J.",
+          "last_name": "Jackson",
+          "suffix": "",
+          "first_name": "Thomas",
+          "rank": "Major General",
+          "fullname": "Thomas J. Jackson",
+          "navy": false
+        }
+      ]
     },
     "US": {
       "casualties": 1300,
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Philip",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Kearny",
-          "fullname": "Philip Kearny"
+          "suffix": "",
+          "first_name": "Philip",
+          "rank": "Major General",
+          "fullname": "Philip Kearny",
+          "navy": false
         },
         {
-          "rank": "Major General",
-          "first_name": "Isaac",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Stevens",
-          "fullname": "Isaac Stevens"
-        }
-      ],
-      "divisions": 1
-    },
-    "CS": {
-      "casualties": 800,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Thomas",
           "suffix": "",
-          "navy": false,
-          "middle_name": "J.",
-          "last_name": "Jackson",
-          "fullname": "Thomas J. Jackson"
+          "first_name": "Isaac",
+          "rank": "Major General",
+          "fullname": "Isaac Stevens",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     }
   },
-  "result": "Inconclusive",
-  "battle": "VA027",
+  "campaign": "Northern Virginia Campaign [August 1862]",
+  "end_date": "1862-09-01",
+  "description": "Making a wide flank march, Jackson hoped to cut off the Union retreat from Bull Run. On September 1, beyond Chantilly Plantation on the Little River Turnpike near Ox Hill, Jackson sent his divisions against two Union divisions under Kearny and Stevens. Confederate attacks were stopped by fierce fighting during a severe thunderstorm. Union generals Stevens and Kearny were both killed. Recognizing that his army was still in danger at Fairfax Courthouse, Maj. Gen. Pope ordered the retreat to continue to Washington. With Pope no longer a threat, Lee turned his army west and north to invade Maryland, initiating the Maryland Campaign and the battles of South Mountain and Antietam. Maj. Gen. George B. McClellan assumed command of Union forces around Washington.",
   "location": [
     {
       "state": "VA",
       "place": "Fairfax County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/va027.htm"
+  "battle_name": "Chantilly",
+  "start_date": "1862-09-01",
+  "casualties": 2100,
+  "principal_commanders": "Maj. Gen. Philip Kearny and Maj. Gen. Isaac Stevens [US]; Maj. Gen. Thomas J. Jackson [CS]"
 }

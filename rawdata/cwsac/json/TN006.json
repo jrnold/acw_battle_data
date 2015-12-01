@@ -1,117 +1,117 @@
 {
-  "end_date": "1862-07-13",
-  "casualties": 1040,
-  "casualties_text": "1,040 total (US 890; CS 150)",
+  "battle": "TN006",
+  "operation": false,
+  "cwsac_reference": "TN006",
   "forces": {
     "Confederate": {
       "casualties": 150,
+      "strength_min": 1400,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Nathan",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Bedford",
           "last_name": "Forrest",
-          "fullname": "Nathan Bedford Forrest"
+          "suffix": "",
+          "first_name": "Nathan",
+          "rank": "Brigadier General",
+          "fullname": "Nathan Bedford Forrest",
+          "navy": false
         }
       ],
       "description": "equivalent of a brigade (about five cavalry units; approx. 1,400)",
-      "strength_min": 1400,
       "strength_max": 1400
     },
     "US": {
       "casualties": 890,
+      "strength_min": 900,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Thomas",
-          "suffix": "",
-          "navy": false,
           "middle_name": "T.",
           "last_name": "Crittenden",
-          "fullname": "Thomas T. Crittenden"
+          "suffix": "",
+          "first_name": "Thomas",
+          "rank": "Brigadier General",
+          "fullname": "Thomas T. Crittenden",
+          "navy": false
         }
       ],
       "description": "Detachments from four Union units (approx. 900)",
-      "strength_min": 900,
       "strength_max": 900
     }
   },
-  "cwsac_reference": "TN006",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/tn006.htm",
   "forces_text": "Detachments from four Union units (approx. 900) [US]; equivalent of a brigade (about five cavalry units; approx. 1,400) [CS]",
-  "start_date": "1862-07-13",
-  "preservation": "IV.2",
+  "casualties_text": "1,040 total (US 890; CS 150)",
   "results_text": "Confederate victory",
-  "description": "On June 10, 1862, Maj. Gen. Don Carlos Buell commanding the Army of the Ohio, started a leisurely advance toward Chattanooga, which Union Brig. Gen. James Negley and his force threatened on June 7-8. In response to the threat, the Confederate government sent Brig. Gen. Nathan Bedford Forrest to Chattanooga to organize a cavalry brigade. By July, Confederate cavalry under the command of Forrest and Col. John Hunt Morgan were raiding into Middle Tennessee and Kentucky. Perhap, the most dramatic of these cavalry raids was Forrest's capture of the Union Murfreesboro garrison on July 13, 1862. Forrest left Chattanooga on July 9 with two cavalry regiments and joined other units on the way, bringing the total force to about 1,400 men. The major objective was to strike Murfreesboro, an important Union supply center on the Nashville & Chattanooga Railroad, at dawn on July 13. The Murfreesboro garrison was camped in three locations around town and included detachments from four units comprising infantry, cavalry, and artillery, under the command of Brig. Gen. Thomas T. Crittenden who had just arrived on July 12. Between 4:15 and 4:30 am on the morning of July 13, Forrest's cavalry surprised the Union pickets on the Woodbury Pike, east of Murfreesboro, and quickly overran a Federal hospital and the camp of the 9th Pennsylvania Cavalry Regiment detachment. Additional Rebel troops attacked the camps of the other Union commands and the jail and courthouse. By late afternoon all of the Union units had surrendered to Forrest's force. The Confederates destroyed much of the Union supplies and tore up railroad track in the area, but the main result of the raid was the diversion of Union forces from a drive on Chattanooga. This raid, along with Morgan's raid into Kentucky, made possible Bragg's concentration of forces at Chattanooga and his early September invasion of Kentucky.",
-  "state": "TN",
-  "significance": "C",
-  "other_names": null,
   "dates": "July 13, 1862",
-  "battle_name": "Murfreesboro",
-  "principal_commanders": "Brig. Gen. Thomas T. Crittenden [US]; Brig. Gen. Nathan Bedford Forrest [CS]",
-  "campaign": "Confederate Heartland Offensive [June-October 1862]",
+  "result": "Confederate",
+  "other_names": null,
+  "significance": "C",
+  "preservation": "IV.2",
+  "state": "TN",
   "belligerents": {
-    "Confederate": {
-      "casualties": 150,
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "Nathan",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "Bedford",
-          "last_name": "Forrest",
-          "fullname": "Nathan Bedford Forrest"
-        }
-      ],
-      "description": "equivalent of a brigade (about five cavalry units; approx. 1,400)",
-      "strength_min": 1400,
-      "strength_max": 1400
-    },
-    "US": {
-      "casualties": 890,
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "Thomas",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "T.",
-          "last_name": "Crittenden",
-          "fullname": "Thomas T. Crittenden"
-        }
-      ],
-      "description": "Detachments from four Union units (approx. 900)",
-      "strength_min": 900,
-      "strength_max": 900
-    },
     "CS": {
       "casualties": 150,
+      "strength_min": 1400,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Nathan",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Bedford",
           "last_name": "Forrest",
-          "fullname": "Nathan Bedford Forrest"
+          "suffix": "",
+          "first_name": "Nathan",
+          "rank": "Brigadier General",
+          "fullname": "Nathan Bedford Forrest",
+          "navy": false
         }
       ],
       "description": "equivalent of a brigade (about five cavalry units; approx. 1,400)",
-      "strength_min": 1400,
       "strength_max": 1400
+    },
+    "Confederate": {
+      "casualties": 150,
+      "strength_min": 1400,
+      "commanders": [
+        {
+          "middle_name": "Bedford",
+          "last_name": "Forrest",
+          "suffix": "",
+          "first_name": "Nathan",
+          "rank": "Brigadier General",
+          "fullname": "Nathan Bedford Forrest",
+          "navy": false
+        }
+      ],
+      "description": "equivalent of a brigade (about five cavalry units; approx. 1,400)",
+      "strength_max": 1400
+    },
+    "US": {
+      "casualties": 890,
+      "strength_min": 900,
+      "commanders": [
+        {
+          "middle_name": "T.",
+          "last_name": "Crittenden",
+          "suffix": "",
+          "first_name": "Thomas",
+          "rank": "Brigadier General",
+          "fullname": "Thomas T. Crittenden",
+          "navy": false
+        }
+      ],
+      "description": "Detachments from four Union units (approx. 900)",
+      "strength_max": 900
     }
   },
-  "result": "Confederate",
-  "battle": "TN006",
+  "campaign": "Confederate Heartland Offensive [June-October 1862]",
+  "end_date": "1862-07-13",
+  "description": "On June 10, 1862, Maj. Gen. Don Carlos Buell commanding the Army of the Ohio, started a leisurely advance toward Chattanooga, which Union Brig. Gen. James Negley and his force threatened on June 7-8. In response to the threat, the Confederate government sent Brig. Gen. Nathan Bedford Forrest to Chattanooga to organize a cavalry brigade. By July, Confederate cavalry under the command of Forrest and Col. John Hunt Morgan were raiding into Middle Tennessee and Kentucky. Perhap, the most dramatic of these cavalry raids was Forrest's capture of the Union Murfreesboro garrison on July 13, 1862. Forrest left Chattanooga on July 9 with two cavalry regiments and joined other units on the way, bringing the total force to about 1,400 men. The major objective was to strike Murfreesboro, an important Union supply center on the Nashville & Chattanooga Railroad, at dawn on July 13. The Murfreesboro garrison was camped in three locations around town and included detachments from four units comprising infantry, cavalry, and artillery, under the command of Brig. Gen. Thomas T. Crittenden who had just arrived on July 12. Between 4:15 and 4:30 am on the morning of July 13, Forrest's cavalry surprised the Union pickets on the Woodbury Pike, east of Murfreesboro, and quickly overran a Federal hospital and the camp of the 9th Pennsylvania Cavalry Regiment detachment. Additional Rebel troops attacked the camps of the other Union commands and the jail and courthouse. By late afternoon all of the Union units had surrendered to Forrest's force. The Confederates destroyed much of the Union supplies and tore up railroad track in the area, but the main result of the raid was the diversion of Union forces from a drive on Chattanooga. This raid, along with Morgan's raid into Kentucky, made possible Bragg's concentration of forces at Chattanooga and his early September invasion of Kentucky.",
   "location": [
     {
       "state": "TN",
       "place": "Rutherford County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/tn006.htm"
+  "battle_name": "Murfreesboro",
+  "start_date": "1862-07-13",
+  "casualties": 1040,
+  "principal_commanders": "Brig. Gen. Thomas T. Crittenden [US]; Brig. Gen. Nathan Bedford Forrest [CS]"
 }

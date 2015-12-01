@@ -1,112 +1,112 @@
 {
-  "end_date": "1864-07-28",
-  "casualties": 3562,
-  "casualties_text": "3,562 total (US 562; CS 3,000)",
+  "battle": "GA018",
+  "operation": false,
+  "cwsac_reference": "GA018",
   "forces": {
     "Confederate": {
-      "corps": 2,
+      "casualties": 3000,
       "commanders": [
         {
-          "rank": "General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Bell",
           "last_name": "Hood",
-          "fullname": "John Bell Hood"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "General",
+          "fullname": "John Bell Hood",
+          "navy": false
         }
       ],
       "description": "two corps of Army of Tennessee",
-      "casualties": 3000
+      "corps": 2
     },
     "US": {
       "casualties": 562,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Oliver",
-          "suffix": "",
-          "navy": false,
           "middle_name": "O.",
           "last_name": "Howard",
-          "fullname": "Oliver O. Howard"
+          "suffix": "",
+          "first_name": "Oliver",
+          "rank": "Major General",
+          "fullname": "Oliver O. Howard",
+          "navy": false
         }
       ],
       "description": "Army of the Tennessee"
     }
   },
-  "cwsac_reference": "GA018",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ga018.htm",
   "forces_text": "Army of the Tennessee [US]; two corps of Army of Tennessee [CS]",
-  "start_date": "1864-07-28",
-  "preservation": "IV.2",
+  "casualties_text": "3,562 total (US 562; CS 3,000)",
   "results_text": "Union victory",
-  "description": "Earlier, Maj. Gen. William T. Sherman's forces had approached Atlanta from the east and north. Hood had not defeated them, but he had kept them away from the city. Sherman now decided to attack from the west. He ordered the Army of the Tennessee, commanded by Maj. Gen. O.O. Howard, to move from the left wing to the right and cut Hood's last railroad supply line between East Point and Atlanta. Hood foresaw such a maneuver and determined to send the two corps of Lt. Gen. Stephen D. Lee and Lt. Gen. Alexander P. Stewart to intercept and destroy the Union force. Thus, on the afternoon of July 28, the Rebels assaulted Howard at Ezra Church. Howard had anticipated such a thrust, entrenched one of his corps in the Confederates' path, and repulsed the determined attack, inflicting numerous casualties. Howard, however, failed to cut the railroad.",
-  "state": "GA",
-  "significance": "B",
+  "dates": "July 28, 1864",
+  "result": "Union",
   "other_names": [
     "Battle of the Poor House"
   ],
-  "dates": "July 28, 1864",
-  "battle_name": "Ezra Church",
-  "principal_commanders": "Maj. Gen. Oliver O. Howard [US]; Gen. John Bell Hood [CS]",
-  "campaign": "Atlanta Campaign [May-September 1864]",
+  "significance": "B",
+  "preservation": "IV.2",
+  "state": "GA",
   "belligerents": {
-    "Confederate": {
-      "corps": 2,
+    "CS": {
+      "casualties": 3000,
       "commanders": [
         {
-          "rank": "General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Bell",
           "last_name": "Hood",
-          "fullname": "John Bell Hood"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "General",
+          "fullname": "John Bell Hood",
+          "navy": false
         }
       ],
       "description": "two corps of Army of Tennessee",
-      "casualties": 3000
+      "corps": 2
+    },
+    "Confederate": {
+      "casualties": 3000,
+      "commanders": [
+        {
+          "middle_name": "Bell",
+          "last_name": "Hood",
+          "suffix": "",
+          "first_name": "John",
+          "rank": "General",
+          "fullname": "John Bell Hood",
+          "navy": false
+        }
+      ],
+      "description": "two corps of Army of Tennessee",
+      "corps": 2
     },
     "US": {
       "casualties": 562,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Oliver",
-          "suffix": "",
-          "navy": false,
           "middle_name": "O.",
           "last_name": "Howard",
-          "fullname": "Oliver O. Howard"
+          "suffix": "",
+          "first_name": "Oliver",
+          "rank": "Major General",
+          "fullname": "Oliver O. Howard",
+          "navy": false
         }
       ],
       "description": "Army of the Tennessee"
-    },
-    "CS": {
-      "corps": 2,
-      "commanders": [
-        {
-          "rank": "General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "Bell",
-          "last_name": "Hood",
-          "fullname": "John Bell Hood"
-        }
-      ],
-      "description": "two corps of Army of Tennessee",
-      "casualties": 3000
     }
   },
-  "result": "Union",
-  "battle": "GA018",
+  "campaign": "Atlanta Campaign [May-September 1864]",
+  "end_date": "1864-07-28",
+  "description": "Earlier, Maj. Gen. William T. Sherman's forces had approached Atlanta from the east and north. Hood had not defeated them, but he had kept them away from the city. Sherman now decided to attack from the west. He ordered the Army of the Tennessee, commanded by Maj. Gen. O.O. Howard, to move from the left wing to the right and cut Hood's last railroad supply line between East Point and Atlanta. Hood foresaw such a maneuver and determined to send the two corps of Lt. Gen. Stephen D. Lee and Lt. Gen. Alexander P. Stewart to intercept and destroy the Union force. Thus, on the afternoon of July 28, the Rebels assaulted Howard at Ezra Church. Howard had anticipated such a thrust, entrenched one of his corps in the Confederates' path, and repulsed the determined attack, inflicting numerous casualties. Howard, however, failed to cut the railroad.",
   "location": [
     {
       "state": "GA",
       "place": "Fulton County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/ga018.htm"
+  "battle_name": "Ezra Church",
+  "start_date": "1864-07-28",
+  "casualties": 3562,
+  "principal_commanders": "Maj. Gen. Oliver O. Howard [US]; Gen. John Bell Hood [CS]"
 }

@@ -1,18 +1,18 @@
 {
-  "end_date": "1864-03-02",
-  "casualties": null,
-  "casualties_text": "Unknown",
+  "battle": "VA125",
+  "operation": false,
+  "cwsac_reference": "VA125",
   "forces": {
     "Confederate": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Wade",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Hampton",
-          "fullname": "Wade Hampton"
+          "suffix": "",
+          "first_name": "Wade",
+          "rank": "Major General",
+          "fullname": "Wade Hampton",
+          "navy": false
         }
       ],
       "brigades": 1
@@ -20,54 +20,64 @@
     "US": {
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "H.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Judson",
           "last_name": "Kilpatrick",
-          "fullname": "H. Judson Kilpatrick"
+          "suffix": "",
+          "first_name": "H.",
+          "rank": "Brigadier General",
+          "fullname": "H. Judson Kilpatrick",
+          "navy": false
         },
         {
-          "rank": "Colonel",
-          "first_name": "Ulric",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Dahlgren",
-          "fullname": "Ulric Dahlgren"
+          "suffix": "",
+          "first_name": "Ulric",
+          "rank": "Colonel",
+          "fullname": "Ulric Dahlgren",
+          "navy": false
         }
       ],
       "brigades": 1
     }
   },
-  "cwsac_reference": "VA125",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va125.htm",
   "forces_text": "Brigades",
-  "start_date": "1864-03-02",
-  "preservation": "III.3",
+  "casualties_text": "Unknown",
   "results_text": "Confederate victory",
-  "description": "On February 28, Brig. Gen. Judson Kilpatrick left his encampment at Stevensburg with 4,000 picked men to raid Richmond. Col. Ulric Dahlgren, son of Rear Adm. John Dahlgren, commanded an advance force of 500 men. While the main body under Kilpatrick rode along the Virginia Central Railroad tearing up track, Dahlgren rode south to the James River, hoping to cross over, penetrate Richmond's defenses from the rear, and release Union prisoners at Belle Isle. Kilpatrick reached the outskirts of Richmond on March 1 and skirmished before the city's defenses, waiting for Dahlgren to rejoin the main column. Dahlgren, however, was delayed, and Kilpatrick was forced to withdraw with Confederate cavalry in pursuit. Hampton attacked Kilpatrick near Old Church on the 2nd, but the Federals found refuge with elements of Butler's command at New Kent Court House. In the meantime, Dahlgren's men, unable to penetrate Richmond's defenses, tried to escape pursuit by riding north of the city. Dahlgren's command became separated, and on March 2 his detachment of about 100 men was ambushed by a detachment of the 9th Virginia Cavalry and Home Guards in King and Queen County near Walkerton. Dahlgren was killed and most of his men captured. Papers found on Dahlgren's body that ordered him to burn Richmond and assassinate President Jefferson Davis and his cabinet caused a political furor. Southerners accused the North of initiating \"a war of extermination.\" Meade, Kilpatrick, and Lincoln all disavowed any knowledge of the Dahlgren Papers.",
-  "state": "VA",
-  "significance": "C",
+  "dates": "March 2, 1864",
+  "result": "Confederate",
   "other_names": [
     "Mantapike Hill"
   ],
-  "dates": "March 2, 1864",
-  "battle_name": "Walkerton",
-  "principal_commanders": "Brig. Gen. H. Judson Kilpatrick and Col. Ulric Dahlgren [US]; Maj. Gen. Wade Hampton [CS]",
-  "campaign": "Kilpatrick-Dahlgren Raid [March 1864]",
+  "significance": "C",
+  "preservation": "III.3",
+  "state": "VA",
   "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Hampton",
+          "suffix": "",
+          "first_name": "Wade",
+          "rank": "Major General",
+          "fullname": "Wade Hampton",
+          "navy": false
+        }
+      ],
+      "brigades": 1
+    },
     "Confederate": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Wade",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Hampton",
-          "fullname": "Wade Hampton"
+          "suffix": "",
+          "first_name": "Wade",
+          "rank": "Major General",
+          "fullname": "Wade Hampton",
+          "navy": false
         }
       ],
       "brigades": 1
@@ -75,43 +85,30 @@
     "US": {
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "H.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Judson",
           "last_name": "Kilpatrick",
-          "fullname": "H. Judson Kilpatrick"
+          "suffix": "",
+          "first_name": "H.",
+          "rank": "Brigadier General",
+          "fullname": "H. Judson Kilpatrick",
+          "navy": false
         },
         {
-          "rank": "Colonel",
-          "first_name": "Ulric",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Dahlgren",
-          "fullname": "Ulric Dahlgren"
-        }
-      ],
-      "brigades": 1
-    },
-    "CS": {
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Wade",
           "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Hampton",
-          "fullname": "Wade Hampton"
+          "first_name": "Ulric",
+          "rank": "Colonel",
+          "fullname": "Ulric Dahlgren",
+          "navy": false
         }
       ],
       "brigades": 1
     }
   },
-  "result": "Confederate",
-  "battle": "VA125",
+  "campaign": "Kilpatrick-Dahlgren Raid [March 1864]",
+  "end_date": "1864-03-02",
+  "description": "On February 28, Brig. Gen. Judson Kilpatrick left his encampment at Stevensburg with 4,000 picked men to raid Richmond. Col. Ulric Dahlgren, son of Rear Adm. John Dahlgren, commanded an advance force of 500 men. While the main body under Kilpatrick rode along the Virginia Central Railroad tearing up track, Dahlgren rode south to the James River, hoping to cross over, penetrate Richmond's defenses from the rear, and release Union prisoners at Belle Isle. Kilpatrick reached the outskirts of Richmond on March 1 and skirmished before the city's defenses, waiting for Dahlgren to rejoin the main column. Dahlgren, however, was delayed, and Kilpatrick was forced to withdraw with Confederate cavalry in pursuit. Hampton attacked Kilpatrick near Old Church on the 2nd, but the Federals found refuge with elements of Butler's command at New Kent Court House. In the meantime, Dahlgren's men, unable to penetrate Richmond's defenses, tried to escape pursuit by riding north of the city. Dahlgren's command became separated, and on March 2 his detachment of about 100 men was ambushed by a detachment of the 9th Virginia Cavalry and Home Guards in King and Queen County near Walkerton. Dahlgren was killed and most of his men captured. Papers found on Dahlgren's body that ordered him to burn Richmond and assassinate President Jefferson Davis and his cabinet caused a political furor. Southerners accused the North of initiating \"a war of extermination.\" Meade, Kilpatrick, and Lincoln all disavowed any knowledge of the Dahlgren Papers.",
   "location": [
     {
       "state": "VA",
@@ -122,5 +119,8 @@
       "place": "Queen County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/va125.htm"
+  "battle_name": "Walkerton",
+  "start_date": "1864-03-02",
+  "casualties": null,
+  "principal_commanders": "Brig. Gen. H. Judson Kilpatrick and Col. Ulric Dahlgren [US]; Maj. Gen. Wade Hampton [CS]"
 }

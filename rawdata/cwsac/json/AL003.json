@@ -1,159 +1,156 @@
 {
-  "end_date": "1864-08-23",
-  "casualties": 1822,
-  "casualties_text": "1,822 (US 322; CS 1,500)",
+  "battle": "AL003",
+  "operation": false,
+  "cwsac_reference": "AL003",
   "forces": {
     "Confederate": {
-      "ironclads": 1,
-      "gunboats": 3,
+      "casualties": 1500,
       "commanders": [
         {
-          "rank": "Admiral",
-          "first_name": "Franklin",
-          "suffix": "",
-          "navy": true,
           "middle_name": "",
           "last_name": "Buchanan",
-          "fullname": "Franklin Buchanan"
+          "suffix": "",
+          "first_name": "Franklin",
+          "rank": "Admiral",
+          "fullname": "Franklin Buchanan",
+          "navy": true
         },
         {
-          "rank": "Brigadier General",
-          "first_name": "Richard",
-          "suffix": "",
-          "navy": false,
           "middle_name": "L.",
           "last_name": "Page",
-          "fullname": "Richard L. Page"
+          "suffix": "",
+          "first_name": "Richard",
+          "rank": "Brigadier General",
+          "fullname": "Richard L. Page",
+          "navy": false
         }
       ],
       "description": "Buchanan's Flotilla (3 gunboats and an ironclad), Fort Morgan Garrison, Fort Gaines Garrison, and Fort Powell Garrison",
-      "casualties": 1500
+      "ironclads": 1,
+      "gunboats": 3
     },
     "US": {
-      "ironclads": 4,
       "casualties": 322,
+      "wooden_ships": 14,
       "commanders": [
         {
-          "rank": "Rear Admiral",
-          "first_name": "David",
-          "suffix": "",
-          "navy": true,
           "middle_name": "G.",
           "last_name": "Farragut",
-          "fullname": "David G. Farragut"
+          "suffix": "",
+          "first_name": "David",
+          "rank": "Rear Admiral",
+          "fullname": "David G. Farragut",
+          "navy": true
         },
         {
-          "rank": "Major General",
-          "first_name": "Gordon",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Granger",
-          "fullname": "Gordon Granger"
+          "suffix": "",
+          "first_name": "Gordon",
+          "rank": "Major General",
+          "fullname": "Gordon Granger",
+          "navy": false
         }
       ],
-      "wooden_ships": 14,
+      "ironclads": 4,
       "description": "Farragut's Fleet (14 wooden ships and 4 monitors) and U.S. army forces near Mobile"
     }
   },
-  "cwsac_reference": "AL003",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/al003.htm",
   "forces_text": "Farragut's Fleet (14 wooden ships and 4 monitors) and U.S. army forces near Mobile [US]; Buchanan's Flotilla (3 gunboats and an ironclad), Fort Morgan Garrison, Fort Gaines Garrison, and Fort Powell Garrison [CS]",
-  "start_date": "1864-08-02",
-  "preservation": "I.1",
+  "casualties_text": "1,822 (US 322; CS 1,500)",
   "results_text": "Union victory",
-  "description": "A combined Union force initiated operations to close Mobile Bay to blockade running. Some Union forces landed on Dauphin Island and laid siege to Fort Gaines. On August 5, Farragut's Union fleet of eighteen ships entered Mobile Bay and received a devastating fire from Forts Gaines and Morgan and other points. After passing the forts, Farragut forced the Confederate naval forces, under Adm. Franklin Buchanan, to surrender, which effectively closed Mobile Bay. By August 23, Fort Morgan, the last big holdout, fell, shutting down the port. The city, however, remained uncaptured.",
-  "state": "AL",
-  "significance": "A",
+  "dates": "August 2-23, 1864",
+  "result": "Union",
   "other_names": [
     "Passing of Forts Morgan and Gaines"
   ],
-  "dates": "August 2-23, 1864",
-  "battle_name": "Mobile Bay",
-  "principal_commanders": "Rear Adm. David G. Farragut and Maj. Gen. Gordon Granger [US]; Adm. Franklin Buchanan and Brig. Gen. Richard L. Page [CS]",
-  "campaign": "Operations in Mobile Bay [August 1864]",
+  "significance": "A",
+  "preservation": "I.1",
+  "state": "AL",
   "belligerents": {
-    "Confederate": {
-      "ironclads": 1,
-      "gunboats": 3,
+    "CS": {
+      "casualties": 1500,
       "commanders": [
         {
-          "rank": "Admiral",
-          "first_name": "Franklin",
-          "suffix": "",
-          "navy": true,
           "middle_name": "",
           "last_name": "Buchanan",
-          "fullname": "Franklin Buchanan"
+          "suffix": "",
+          "first_name": "Franklin",
+          "rank": "Admiral",
+          "fullname": "Franklin Buchanan",
+          "navy": true
         },
         {
-          "rank": "Brigadier General",
-          "first_name": "Richard",
-          "suffix": "",
-          "navy": false,
           "middle_name": "L.",
           "last_name": "Page",
-          "fullname": "Richard L. Page"
+          "suffix": "",
+          "first_name": "Richard",
+          "rank": "Brigadier General",
+          "fullname": "Richard L. Page",
+          "navy": false
         }
       ],
       "description": "Buchanan's Flotilla (3 gunboats and an ironclad), Fort Morgan Garrison, Fort Gaines Garrison, and Fort Powell Garrison",
-      "casualties": 1500
+      "ironclads": 1,
+      "gunboats": 3
+    },
+    "Confederate": {
+      "casualties": 1500,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Buchanan",
+          "suffix": "",
+          "first_name": "Franklin",
+          "rank": "Admiral",
+          "fullname": "Franklin Buchanan",
+          "navy": true
+        },
+        {
+          "middle_name": "L.",
+          "last_name": "Page",
+          "suffix": "",
+          "first_name": "Richard",
+          "rank": "Brigadier General",
+          "fullname": "Richard L. Page",
+          "navy": false
+        }
+      ],
+      "description": "Buchanan's Flotilla (3 gunboats and an ironclad), Fort Morgan Garrison, Fort Gaines Garrison, and Fort Powell Garrison",
+      "ironclads": 1,
+      "gunboats": 3
     },
     "US": {
-      "ironclads": 4,
       "casualties": 322,
+      "wooden_ships": 14,
       "commanders": [
         {
-          "rank": "Rear Admiral",
-          "first_name": "David",
-          "suffix": "",
-          "navy": true,
           "middle_name": "G.",
           "last_name": "Farragut",
-          "fullname": "David G. Farragut"
+          "suffix": "",
+          "first_name": "David",
+          "rank": "Rear Admiral",
+          "fullname": "David G. Farragut",
+          "navy": true
         },
         {
-          "rank": "Major General",
-          "first_name": "Gordon",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Granger",
-          "fullname": "Gordon Granger"
+          "suffix": "",
+          "first_name": "Gordon",
+          "rank": "Major General",
+          "fullname": "Gordon Granger",
+          "navy": false
         }
       ],
-      "wooden_ships": 14,
+      "ironclads": 4,
       "description": "Farragut's Fleet (14 wooden ships and 4 monitors) and U.S. army forces near Mobile"
-    },
-    "CS": {
-      "ironclads": 1,
-      "gunboats": 3,
-      "commanders": [
-        {
-          "rank": "Admiral",
-          "first_name": "Franklin",
-          "suffix": "",
-          "navy": true,
-          "middle_name": "",
-          "last_name": "Buchanan",
-          "fullname": "Franklin Buchanan"
-        },
-        {
-          "rank": "Brigadier General",
-          "first_name": "Richard",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "L.",
-          "last_name": "Page",
-          "fullname": "Richard L. Page"
-        }
-      ],
-      "description": "Buchanan's Flotilla (3 gunboats and an ironclad), Fort Morgan Garrison, Fort Gaines Garrison, and Fort Powell Garrison",
-      "casualties": 1500
     }
   },
-  "result": "Union",
-  "battle": "AL003",
+  "campaign": "Operations in Mobile Bay [August 1864]",
+  "end_date": "1864-08-23",
+  "description": "A combined Union force initiated operations to close Mobile Bay to blockade running. Some Union forces landed on Dauphin Island and laid siege to Fort Gaines. On August 5, Farragut's Union fleet of eighteen ships entered Mobile Bay and received a devastating fire from Forts Gaines and Morgan and other points. After passing the forts, Farragut forced the Confederate naval forces, under Adm. Franklin Buchanan, to surrender, which effectively closed Mobile Bay. By August 23, Fort Morgan, the last big holdout, fell, shutting down the port. The city, however, remained uncaptured.",
   "location": [
     {
       "state": "AL",
@@ -164,5 +161,8 @@
       "place": "Baldwin County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/al003.htm"
+  "battle_name": "Mobile Bay",
+  "start_date": "1864-08-02",
+  "casualties": 1822,
+  "principal_commanders": "Rear Adm. David G. Farragut and Maj. Gen. Gordon Granger [US]; Adm. Franklin Buchanan and Brig. Gen. Richard L. Page [CS]"
 }

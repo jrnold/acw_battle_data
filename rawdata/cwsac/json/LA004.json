@@ -1,19 +1,19 @@
 {
-  "end_date": "1862-08-09",
-  "casualties": 0,
-  "casualties_text": "None known",
+  "battle": "LA004",
+  "operation": false,
+  "cwsac_reference": "LA004",
   "forces": {
     "Confederate": {
       "casualties": 0,
       "commanders": [
         {
-          "rank": "Captain",
-          "first_name": "Phillippe",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Landry",
-          "fullname": "Phillippe Landry"
+          "suffix": "",
+          "first_name": "Phillippe",
+          "rank": "Captain",
+          "fullname": "Phillippe Landry",
+          "navy": false
         }
       ],
       "description": "a few partisans"
@@ -23,87 +23,87 @@
       "casualties": 0,
       "commanders": [
         {
-          "rank": "Rear Admiral",
-          "first_name": "David",
-          "suffix": "",
-          "navy": true,
           "middle_name": "G.",
           "last_name": "Farragut",
-          "fullname": "David G. Farragut"
+          "suffix": "",
+          "first_name": "David",
+          "rank": "Rear Admiral",
+          "fullname": "David G. Farragut",
+          "navy": true
         }
       ],
       "description": "Three Navy ships"
     }
   },
-  "cwsac_reference": "LA004",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/la004.htm",
   "forces_text": "Three Navy ships [US]; a few partisans [CS]",
-  "start_date": "1862-08-09",
-  "preservation": "IV.2",
+  "casualties_text": "None known",
   "results_text": "Union victory (inconclusive)",
-  "description": "A number of incidents of artillery firing on Union steamers passing up and down the Mississippi River at Donaldsonville influenced the U.S. Navy to undertake a retaliatory attack. Rear Adm. David G. Farragut sent the town notice of his intentions and suggested that the citizens send the women and children away. He then anchored in front of the town and fired upon it with guns and mortars. Farragut also sent a detachment ashore that set fire to the hotels, wharf buildings, and the dwelling houses and other buildings of Capt. Phillippe Landry. Landry, thought to be the captain of the partisan unit, purportedly fired on the landing party during the raid. Some citizens protested the raid, but, generally, firing on Union ships ceased thereafter.",
-  "state": "LA",
-  "significance": "D",
-  "other_names": null,
   "dates": "August 9, 1862",
-  "battle_name": "Donaldsonville",
-  "principal_commanders": "Rear Adm. David G. Farragut [US]; Capt. Phillippe Landry [CS]",
-  "campaign": "Operations Against Baton Rouge [July-August 1862]",
+  "result": "Union",
+  "other_names": null,
+  "significance": "D",
+  "preservation": "IV.2",
+  "state": "LA",
   "belligerents": {
-    "Confederate": {
-      "casualties": 0,
-      "commanders": [
-        {
-          "rank": "Captain",
-          "first_name": "Phillippe",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Landry",
-          "fullname": "Phillippe Landry"
-        }
-      ],
-      "description": "a few partisans"
-    },
-    "US": {
-      "ships": 3,
-      "casualties": 0,
-      "commanders": [
-        {
-          "rank": "Rear Admiral",
-          "first_name": "David",
-          "suffix": "",
-          "navy": true,
-          "middle_name": "G.",
-          "last_name": "Farragut",
-          "fullname": "David G. Farragut"
-        }
-      ],
-      "description": "Three Navy ships"
-    },
     "CS": {
       "casualties": 0,
       "commanders": [
         {
-          "rank": "Captain",
-          "first_name": "Phillippe",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Landry",
-          "fullname": "Phillippe Landry"
+          "suffix": "",
+          "first_name": "Phillippe",
+          "rank": "Captain",
+          "fullname": "Phillippe Landry",
+          "navy": false
         }
       ],
       "description": "a few partisans"
+    },
+    "Confederate": {
+      "casualties": 0,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Landry",
+          "suffix": "",
+          "first_name": "Phillippe",
+          "rank": "Captain",
+          "fullname": "Phillippe Landry",
+          "navy": false
+        }
+      ],
+      "description": "a few partisans"
+    },
+    "US": {
+      "ships": 3,
+      "casualties": 0,
+      "commanders": [
+        {
+          "middle_name": "G.",
+          "last_name": "Farragut",
+          "suffix": "",
+          "first_name": "David",
+          "rank": "Rear Admiral",
+          "fullname": "David G. Farragut",
+          "navy": true
+        }
+      ],
+      "description": "Three Navy ships"
     }
   },
-  "result": "Union",
-  "battle": "LA004",
+  "campaign": "Operations Against Baton Rouge [July-August 1862]",
+  "end_date": "1862-08-09",
+  "description": "A number of incidents of artillery firing on Union steamers passing up and down the Mississippi River at Donaldsonville influenced the U.S. Navy to undertake a retaliatory attack. Rear Adm. David G. Farragut sent the town notice of his intentions and suggested that the citizens send the women and children away. He then anchored in front of the town and fired upon it with guns and mortars. Farragut also sent a detachment ashore that set fire to the hotels, wharf buildings, and the dwelling houses and other buildings of Capt. Phillippe Landry. Landry, thought to be the captain of the partisan unit, purportedly fired on the landing party during the raid. Some citizens protested the raid, but, generally, firing on Union ships ceased thereafter.",
   "location": [
     {
       "state": "LA",
       "place": "Ascension Parish"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/la004.htm"
+  "battle_name": "Donaldsonville",
+  "start_date": "1862-08-09",
+  "casualties": 0,
+  "principal_commanders": "Rear Adm. David G. Farragut [US]; Capt. Phillippe Landry [CS]"
 }

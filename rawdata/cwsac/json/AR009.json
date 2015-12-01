@@ -1,114 +1,114 @@
 {
-  "end_date": "1863-09-01",
-  "casualties": 81,
-  "casualties_text": "81 total (US 16; CS 65)",
+  "battle": "AR009",
+  "operation": false,
+  "cwsac_reference": "AR009",
   "forces": {
     "Confederate": {
       "casualties": 65,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "W.L.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Cabell",
-          "fullname": "W.L. Cabell"
+          "suffix": "",
+          "first_name": "W.L.",
+          "rank": "Brigadier General",
+          "fullname": "W.L. Cabell",
+          "navy": false
         }
       ],
       "brigades": 1,
       "description": "Cabell's Brigade"
     },
     "US": {
-      "cavalry_regiments": 2,
       "casualties": 16,
       "commanders": [
         {
-          "rank": "Colonel",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
           "middle_name": "F.",
           "last_name": "Cloud",
-          "fullname": "William F. Cloud"
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Colonel",
+          "fullname": "William F. Cloud",
+          "navy": false
         }
       ],
+      "cavalry_regiments": 2,
       "description": "2nd Kansas Cavalry, 6th Missouri Cavalry, and two sections of Rabb's 2nd Indiana Battery"
     }
   },
-  "cwsac_reference": "AR009",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ar009.htm",
   "forces_text": "2nd Kansas Cavalry, 6th Missouri Cavalry, and two sections of Rabb's 2nd Indiana Battery [US]; Cabell's Brigade [CS]",
-  "start_date": "1863-09-01",
-  "preservation": "II.3",
+  "casualties_text": "81 total (US 16; CS 65)",
   "results_text": "Union victory",
-  "description": "Union Maj. Gen. James G. Blunt ordered Col. William Cloud to continue in pursuit of the Confederate forces that had withdrawn from Fort Smith and were chased to Old Jenny Lind. The Rebels turned on Cloud and skirmished with him at the base of Devil's Backbone. Cabell's forces ambushed approaching Union troops and momentarily halted their advance. Regrouping, the Union forces, with the help of artillery, advanced again and forced the Confederates to retire in disorder to Waldron.",
-  "state": "AR",
-  "significance": "C",
+  "dates": "September 1, 1863",
+  "result": "Union",
   "other_names": [
     "Backbone Mountain"
   ],
-  "dates": "September 1, 1863",
-  "battle_name": "Devil's Backbone",
-  "principal_commanders": "Col. William F. Cloud [US]; Brig. Gen. W.L. Cabell [CS]",
-  "campaign": "Operations to Control Indian Territory [June-September 1863]",
+  "significance": "C",
+  "preservation": "II.3",
+  "state": "AR",
   "belligerents": {
-    "Confederate": {
-      "casualties": 65,
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "W.L.",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Cabell",
-          "fullname": "W.L. Cabell"
-        }
-      ],
-      "brigades": 1,
-      "description": "Cabell's Brigade"
-    },
-    "US": {
-      "cavalry_regiments": 2,
-      "casualties": 16,
-      "commanders": [
-        {
-          "rank": "Colonel",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "F.",
-          "last_name": "Cloud",
-          "fullname": "William F. Cloud"
-        }
-      ],
-      "description": "2nd Kansas Cavalry, 6th Missouri Cavalry, and two sections of Rabb's 2nd Indiana Battery"
-    },
     "CS": {
       "casualties": 65,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "W.L.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Cabell",
-          "fullname": "W.L. Cabell"
+          "suffix": "",
+          "first_name": "W.L.",
+          "rank": "Brigadier General",
+          "fullname": "W.L. Cabell",
+          "navy": false
         }
       ],
       "brigades": 1,
       "description": "Cabell's Brigade"
+    },
+    "Confederate": {
+      "casualties": 65,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Cabell",
+          "suffix": "",
+          "first_name": "W.L.",
+          "rank": "Brigadier General",
+          "fullname": "W.L. Cabell",
+          "navy": false
+        }
+      ],
+      "brigades": 1,
+      "description": "Cabell's Brigade"
+    },
+    "US": {
+      "casualties": 16,
+      "commanders": [
+        {
+          "middle_name": "F.",
+          "last_name": "Cloud",
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Colonel",
+          "fullname": "William F. Cloud",
+          "navy": false
+        }
+      ],
+      "cavalry_regiments": 2,
+      "description": "2nd Kansas Cavalry, 6th Missouri Cavalry, and two sections of Rabb's 2nd Indiana Battery"
     }
   },
-  "result": "Union",
-  "battle": "AR009",
+  "campaign": "Operations to Control Indian Territory [June-September 1863]",
+  "end_date": "1863-09-01",
+  "description": "Union Maj. Gen. James G. Blunt ordered Col. William Cloud to continue in pursuit of the Confederate forces that had withdrawn from Fort Smith and were chased to Old Jenny Lind. The Rebels turned on Cloud and skirmished with him at the base of Devil's Backbone. Cabell's forces ambushed approaching Union troops and momentarily halted their advance. Regrouping, the Union forces, with the help of artillery, advanced again and forced the Confederates to retire in disorder to Waldron.",
   "location": [
     {
       "state": "AR",
       "place": "Sebastian County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/ar009.htm"
+  "battle_name": "Devil's Backbone",
+  "start_date": "1863-09-01",
+  "casualties": 81,
+  "principal_commanders": "Col. William F. Cloud [US]; Brig. Gen. W.L. Cabell [CS]"
 }

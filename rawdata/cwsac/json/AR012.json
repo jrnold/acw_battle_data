@@ -1,19 +1,19 @@
 {
-  "end_date": "1864-04-04",
-  "casualties": 92,
-  "casualties_text": "92 total (US 38; CS 54)",
+  "battle": "AR012",
+  "operation": false,
+  "cwsac_reference": "AR012",
   "forces": {
     "Confederate": {
       "casualties": 54,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "S.",
           "last_name": "Marmaduke",
-          "fullname": "John S. Marmaduke"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Brigadier General",
+          "fullname": "John S. Marmaduke",
+          "navy": false
         }
       ],
       "description": "3 cavalry brigades",
@@ -21,91 +21,88 @@
     },
     "US": {
       "casualties": 38,
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Frederick",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Steele",
-          "fullname": "Frederick Steele"
+          "suffix": "",
+          "first_name": "Frederick",
+          "rank": "Major General",
+          "fullname": "Frederick Steele",
+          "navy": false
         }
       ],
-      "divisions": 1,
       "description": "3rd Division, VII Corps and 2 cavalry brigades",
       "cavalry_brigades": 2
     }
   },
-  "cwsac_reference": "AR012",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ar012.htm",
   "forces_text": "3rd Division, VII Corps and 2 cavalry brigades [US]; 3 cavalry brigades [CS]",
-  "start_date": "1864-04-03",
-  "preservation": "II.3",
+  "casualties_text": "92 total (US 38; CS 54)",
   "results_text": "Union victory",
-  "description": "During the expedition, Union forces sought a ford to cross the Little Missouri River because other roads were impassible. They reached Elkin's Ferry before the Confederates. As they crossed, the Confederates attempted to stop them but to no avail.",
-  "state": "AR",
-  "significance": "C",
+  "dates": "April 3-4, 1864",
+  "result": "Union",
   "other_names": [
     "Okolona"
   ],
-  "dates": "April 3-4, 1864",
-  "battle_name": "Elkin's Ferry",
-  "principal_commanders": "Maj. Gen. Frederick Steele [US]; Brig. Gen. John S. Marmaduke [CS]",
-  "campaign": "Camden Expedition [April 1864]",
+  "significance": "C",
+  "preservation": "II.3",
+  "state": "AR",
   "belligerents": {
-    "Confederate": {
-      "casualties": 54,
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "S.",
-          "last_name": "Marmaduke",
-          "fullname": "John S. Marmaduke"
-        }
-      ],
-      "description": "3 cavalry brigades",
-      "cavalry_brigades": 3
-    },
-    "US": {
-      "casualties": 38,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Frederick",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Steele",
-          "fullname": "Frederick Steele"
-        }
-      ],
-      "divisions": 1,
-      "description": "3rd Division, VII Corps and 2 cavalry brigades",
-      "cavalry_brigades": 2
-    },
     "CS": {
       "casualties": 54,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "S.",
           "last_name": "Marmaduke",
-          "fullname": "John S. Marmaduke"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Brigadier General",
+          "fullname": "John S. Marmaduke",
+          "navy": false
         }
       ],
       "description": "3 cavalry brigades",
       "cavalry_brigades": 3
+    },
+    "Confederate": {
+      "casualties": 54,
+      "commanders": [
+        {
+          "middle_name": "S.",
+          "last_name": "Marmaduke",
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Brigadier General",
+          "fullname": "John S. Marmaduke",
+          "navy": false
+        }
+      ],
+      "description": "3 cavalry brigades",
+      "cavalry_brigades": 3
+    },
+    "US": {
+      "casualties": 38,
+      "divisions": 1,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Steele",
+          "suffix": "",
+          "first_name": "Frederick",
+          "rank": "Major General",
+          "fullname": "Frederick Steele",
+          "navy": false
+        }
+      ],
+      "description": "3rd Division, VII Corps and 2 cavalry brigades",
+      "cavalry_brigades": 2
     }
   },
-  "result": "Union",
-  "battle": "AR012",
+  "campaign": "Camden Expedition [April 1864]",
+  "end_date": "1864-04-04",
+  "description": "During the expedition, Union forces sought a ford to cross the Little Missouri River because other roads were impassible. They reached Elkin's Ferry before the Confederates. As they crossed, the Confederates attempted to stop them but to no avail.",
   "location": [
     {
       "state": "AR",
@@ -116,5 +113,8 @@
       "place": "Nevada County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/ar012.htm"
+  "battle_name": "Elkin's Ferry",
+  "start_date": "1864-04-03",
+  "casualties": 92,
+  "principal_commanders": "Maj. Gen. Frederick Steele [US]; Brig. Gen. John S. Marmaduke [CS]"
 }

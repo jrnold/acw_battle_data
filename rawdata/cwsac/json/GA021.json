@@ -1,18 +1,18 @@
 {
-  "end_date": "1864-08-20",
-  "casualties": null,
-  "casualties_text": "Unknown",
+  "battle": "GA021",
+  "operation": false,
+  "cwsac_reference": "GA021",
   "forces": {
     "Confederate": {
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
           "middle_name": "H.",
           "last_name": "Jackson",
-          "fullname": "William H. Jackson"
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Brigadier General",
+          "fullname": "William H. Jackson",
+          "navy": false
         }
       ],
       "cavalry_divisions": 1,
@@ -21,87 +21,87 @@
     "US": {
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "H.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Judson",
           "last_name": "Kilpatrick",
-          "fullname": "H. Judson Kilpatrick"
+          "suffix": "",
+          "first_name": "H.",
+          "rank": "Brigadier General",
+          "fullname": "H. Judson Kilpatrick",
+          "navy": false
         }
       ],
       "cavalry_divisions": 1,
       "description": "Kilpatrick's Cavalry Division"
     }
   },
-  "cwsac_reference": "GA021",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ga021.htm",
   "forces_text": "Kilpatrick's Cavalry Division [US]; Jackson's Cavalry Division [CS]",
-  "start_date": "1864-08-20",
-  "preservation": "II.4",
+  "casualties_text": "Unknown",
   "results_text": "Confederate victory",
-  "description": "While Confederate Maj. Gen. Joseph Wheeler was absent raiding Union supply lines from North Georgia to East Tennessee, Maj. Gen. William Sherman, unconcerned, sent Judson Kilpatrick to raid Rebel supply lines. Leaving on August 18, Kilpatrick hit the Atlanta & West Point Railroad that evening, tearing up a small area of tracks. Next, Kilpatrick headed for Lovejoy's Station on the Macon & Western Railroad. In transit, on the 19th, Kilpatrick's men hit the Jonesborough supply depot on the Macon & Western Railroad, burning great amounts of supplies. On the 20th, they reached Lovejoy's Station and began their destruction. Rebel infantry (Cleburne's Division) appeared and the raiders were forced to fight into the night, finally fleeing to prevent encirclement. Although Kilpatrick had destroyed supplies and track at Lovejoy's Station, the railroad line was back in operation in two days.",
-  "state": "GA",
-  "significance": "D",
-  "other_names": null,
   "dates": "August 20, 1864",
-  "battle_name": "Lovejoy's Station",
-  "principal_commanders": "Brig. Gen. H. Judson Kilpatrick [US]; Brig. Gen. William H. Jackson [CS]",
-  "campaign": "Atlanta Campaign [May-September 1864]",
+  "result": "Confederate",
+  "other_names": null,
+  "significance": "D",
+  "preservation": "II.4",
+  "state": "GA",
   "belligerents": {
-    "Confederate": {
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "H.",
-          "last_name": "Jackson",
-          "fullname": "William H. Jackson"
-        }
-      ],
-      "cavalry_divisions": 1,
-      "description": "Jackson's Cavalry Division"
-    },
-    "US": {
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "H.",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "Judson",
-          "last_name": "Kilpatrick",
-          "fullname": "H. Judson Kilpatrick"
-        }
-      ],
-      "cavalry_divisions": 1,
-      "description": "Kilpatrick's Cavalry Division"
-    },
     "CS": {
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
           "middle_name": "H.",
           "last_name": "Jackson",
-          "fullname": "William H. Jackson"
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Brigadier General",
+          "fullname": "William H. Jackson",
+          "navy": false
         }
       ],
       "cavalry_divisions": 1,
       "description": "Jackson's Cavalry Division"
+    },
+    "Confederate": {
+      "commanders": [
+        {
+          "middle_name": "H.",
+          "last_name": "Jackson",
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Brigadier General",
+          "fullname": "William H. Jackson",
+          "navy": false
+        }
+      ],
+      "cavalry_divisions": 1,
+      "description": "Jackson's Cavalry Division"
+    },
+    "US": {
+      "commanders": [
+        {
+          "middle_name": "Judson",
+          "last_name": "Kilpatrick",
+          "suffix": "",
+          "first_name": "H.",
+          "rank": "Brigadier General",
+          "fullname": "H. Judson Kilpatrick",
+          "navy": false
+        }
+      ],
+      "cavalry_divisions": 1,
+      "description": "Kilpatrick's Cavalry Division"
     }
   },
-  "result": "Confederate",
-  "battle": "GA021",
+  "campaign": "Atlanta Campaign [May-September 1864]",
+  "end_date": "1864-08-20",
+  "description": "While Confederate Maj. Gen. Joseph Wheeler was absent raiding Union supply lines from North Georgia to East Tennessee, Maj. Gen. William Sherman, unconcerned, sent Judson Kilpatrick to raid Rebel supply lines. Leaving on August 18, Kilpatrick hit the Atlanta & West Point Railroad that evening, tearing up a small area of tracks. Next, Kilpatrick headed for Lovejoy's Station on the Macon & Western Railroad. In transit, on the 19th, Kilpatrick's men hit the Jonesborough supply depot on the Macon & Western Railroad, burning great amounts of supplies. On the 20th, they reached Lovejoy's Station and began their destruction. Rebel infantry (Cleburne's Division) appeared and the raiders were forced to fight into the night, finally fleeing to prevent encirclement. Although Kilpatrick had destroyed supplies and track at Lovejoy's Station, the railroad line was back in operation in two days.",
   "location": [
     {
       "state": "GA",
       "place": "Clayton County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/ga021.htm"
+  "battle_name": "Lovejoy's Station",
+  "start_date": "1864-08-20",
+  "casualties": null,
+  "principal_commanders": "Brig. Gen. H. Judson Kilpatrick [US]; Brig. Gen. William H. Jackson [CS]"
 }

@@ -1,138 +1,138 @@
 {
-  "end_date": "1864-12-07",
-  "casualties": 422,
-  "casualties_text": "422 total (US 225; CS 197)",
+  "battle": "TN037",
+  "operation": false,
+  "cwsac_reference": "TN037",
   "forces": {
     "Confederate": {
       "casualties": 197,
+      "strength_min": 6500,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Nathan",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Bedford",
           "last_name": "Forrest",
-          "fullname": "Nathan Bedford Forrest"
+          "suffix": "",
+          "first_name": "Nathan",
+          "rank": "Major General",
+          "fullname": "Nathan Bedford Forrest",
+          "navy": false
         }
       ],
       "description": "Forrest's Cavalry, Bate's Infantry Division, and Brig. Gen. Claudius Sears's and Brig. Gen. Joseph B. Palmer's Infantry Brigades (6,500-7,000)",
-      "strength_min": 6500,
       "strength_max": 6500
     },
     "US": {
       "casualties": 225,
+      "strength_min": 8000,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Lovell",
-          "suffix": "",
-          "navy": false,
           "middle_name": "H.",
           "last_name": "Rousseau",
-          "fullname": "Lovell H. Rousseau"
+          "suffix": "",
+          "first_name": "Lovell",
+          "rank": "Major General",
+          "fullname": "Lovell H. Rousseau",
+          "navy": false
         },
         {
-          "rank": "Brigadier General",
-          "first_name": "Robert",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Milroy",
-          "fullname": "Robert Milroy"
+          "suffix": "",
+          "first_name": "Robert",
+          "rank": "Brigadier General",
+          "fullname": "Robert Milroy",
+          "navy": false
         }
       ],
       "description": "District of Tennessee (forces in Murfreesboro area; approx. 8,000)",
-      "strength_min": 8000,
       "strength_max": 8000
     }
   },
-  "cwsac_reference": "TN037",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/tn037.htm",
   "forces_text": "District of Tennessee (forces in Murfreesboro area; approx. 8,000) [US]; Forrest's Cavalry, Bate's Infantry Division, and Brig. Gen. Claudius Sears's and Brig. Gen. Joseph B. Palmer's Infantry Brigades (6,500-7,000) [CS]",
-  "start_date": "1864-12-05",
-  "preservation": "II.4",
+  "casualties_text": "422 total (US 225; CS 197)",
   "results_text": "Union victory",
-  "description": "In a last, desperate attempt to force Maj. Gen. William T. Sherman's army out of Georgia, Gen. John Bell Hood led the Army of Tennessee north toward Nashville in November 1864. Although he suffered a terrible loss at Franklin, he continued toward Nashville. In operating against Nashville, he decided that destruction of the Nashville & Chattanooga Railroad and disruption of the Union army supply depot at Murfreesboro would help his cause. He sent Maj. Gen. Nathan Bedford Forrest, on December 4, with an expedition, composed of two cavalry divisions and Maj. Gen. William B. Bate's infantry division, to Murfreesboro. On December 2, Hood had ordered Bate to destroy the railroad and blockhouses between Murfreesboro and Nashville and join Forrest for further operations; on December 4, Bate's division attacked Blockhouse No. 7 protecting the railroad crossing at Overall Creek, but Union forces fought it off. On the morning of the 5th, Forrest headed out toward Murfreesboro, splitting his force, one column to attack the fort on the hill and the other to take Blockhouse No. 4, both at La Vergne. Upon his demand for surrender at both locations, the Union garrisons did so. Outside La Vergne, Forrest hooked up with Bate's division and the command advanced on to Murfreesboro along two roads, driving the Yankees into their Fortress Rosencrans fortifications, and encamped in the city outskirts for the night. The next morning, on the 6th, Forrest ordered Bate's division to \"move upon the enemy's works.\" Fighting flared for a couple of hours, but the Yankees ceased firing and both sides glared at each other for the rest of the day. Brig. Gen. Claudius Sears's and Brig. Gen. Joseph B. Palmer's infantry brigades joined Forrest's command in the evening, further swelling his numbers. On the morning of the 7th, Maj. Gen. Lovell Rousseau, commanding all of the forces at Murfreesboro, sent two brigades out under Brig. Gen. Robert Milroy on the Salem Pike to feel out the enemy. These troops engaged the Confederates and fighting continued. At one point some of Forrest's troops broke and ran causing disorder in the Rebel ranks; even entreaties from Forrest and Bate did not stem the rout of these units. The rest of Forrest's command conducted an orderly retreat from the field and encamped for the night outside Murfreesboro. Forrest had destroyed railroad track, blockhouses, and some homes and generally disrupted Union operations in the area, but he did not accomplish much else. The raid on Murfreesboro was a minor irritation.",
-  "state": "TN",
-  "significance": "D",
+  "dates": "December 5-7, 1864",
+  "result": "Union",
   "other_names": [
     "Wilkinson Pike",
     "Cedars"
   ],
-  "dates": "December 5-7, 1864",
-  "battle_name": "Murfreesboro",
-  "principal_commanders": "Maj. Gen. Lovell H. Rousseau and Brig. Gen. Robert Milroy [US]; Maj. Gen. Nathan Bedford Forrest [CS]",
-  "campaign": "Franklin-Nashville Campaign [September-December 1864]",
+  "significance": "D",
+  "preservation": "II.4",
+  "state": "TN",
   "belligerents": {
-    "Confederate": {
+    "CS": {
       "casualties": 197,
+      "strength_min": 6500,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Nathan",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Bedford",
           "last_name": "Forrest",
-          "fullname": "Nathan Bedford Forrest"
+          "suffix": "",
+          "first_name": "Nathan",
+          "rank": "Major General",
+          "fullname": "Nathan Bedford Forrest",
+          "navy": false
         }
       ],
       "description": "Forrest's Cavalry, Bate's Infantry Division, and Brig. Gen. Claudius Sears's and Brig. Gen. Joseph B. Palmer's Infantry Brigades (6,500-7,000)",
+      "strength_max": 6500
+    },
+    "Confederate": {
+      "casualties": 197,
       "strength_min": 6500,
+      "commanders": [
+        {
+          "middle_name": "Bedford",
+          "last_name": "Forrest",
+          "suffix": "",
+          "first_name": "Nathan",
+          "rank": "Major General",
+          "fullname": "Nathan Bedford Forrest",
+          "navy": false
+        }
+      ],
+      "description": "Forrest's Cavalry, Bate's Infantry Division, and Brig. Gen. Claudius Sears's and Brig. Gen. Joseph B. Palmer's Infantry Brigades (6,500-7,000)",
       "strength_max": 6500
     },
     "US": {
       "casualties": 225,
+      "strength_min": 8000,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Lovell",
-          "suffix": "",
-          "navy": false,
           "middle_name": "H.",
           "last_name": "Rousseau",
-          "fullname": "Lovell H. Rousseau"
+          "suffix": "",
+          "first_name": "Lovell",
+          "rank": "Major General",
+          "fullname": "Lovell H. Rousseau",
+          "navy": false
         },
         {
-          "rank": "Brigadier General",
-          "first_name": "Robert",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Milroy",
-          "fullname": "Robert Milroy"
+          "suffix": "",
+          "first_name": "Robert",
+          "rank": "Brigadier General",
+          "fullname": "Robert Milroy",
+          "navy": false
         }
       ],
       "description": "District of Tennessee (forces in Murfreesboro area; approx. 8,000)",
-      "strength_min": 8000,
       "strength_max": 8000
-    },
-    "CS": {
-      "casualties": 197,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Nathan",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "Bedford",
-          "last_name": "Forrest",
-          "fullname": "Nathan Bedford Forrest"
-        }
-      ],
-      "description": "Forrest's Cavalry, Bate's Infantry Division, and Brig. Gen. Claudius Sears's and Brig. Gen. Joseph B. Palmer's Infantry Brigades (6,500-7,000)",
-      "strength_min": 6500,
-      "strength_max": 6500
     }
   },
-  "result": "Union",
-  "battle": "TN037",
+  "campaign": "Franklin-Nashville Campaign [September-December 1864]",
+  "end_date": "1864-12-07",
+  "description": "In a last, desperate attempt to force Maj. Gen. William T. Sherman's army out of Georgia, Gen. John Bell Hood led the Army of Tennessee north toward Nashville in November 1864. Although he suffered a terrible loss at Franklin, he continued toward Nashville. In operating against Nashville, he decided that destruction of the Nashville & Chattanooga Railroad and disruption of the Union army supply depot at Murfreesboro would help his cause. He sent Maj. Gen. Nathan Bedford Forrest, on December 4, with an expedition, composed of two cavalry divisions and Maj. Gen. William B. Bate's infantry division, to Murfreesboro. On December 2, Hood had ordered Bate to destroy the railroad and blockhouses between Murfreesboro and Nashville and join Forrest for further operations; on December 4, Bate's division attacked Blockhouse No. 7 protecting the railroad crossing at Overall Creek, but Union forces fought it off. On the morning of the 5th, Forrest headed out toward Murfreesboro, splitting his force, one column to attack the fort on the hill and the other to take Blockhouse No. 4, both at La Vergne. Upon his demand for surrender at both locations, the Union garrisons did so. Outside La Vergne, Forrest hooked up with Bate's division and the command advanced on to Murfreesboro along two roads, driving the Yankees into their Fortress Rosencrans fortifications, and encamped in the city outskirts for the night. The next morning, on the 6th, Forrest ordered Bate's division to \"move upon the enemy's works.\" Fighting flared for a couple of hours, but the Yankees ceased firing and both sides glared at each other for the rest of the day. Brig. Gen. Claudius Sears's and Brig. Gen. Joseph B. Palmer's infantry brigades joined Forrest's command in the evening, further swelling his numbers. On the morning of the 7th, Maj. Gen. Lovell Rousseau, commanding all of the forces at Murfreesboro, sent two brigades out under Brig. Gen. Robert Milroy on the Salem Pike to feel out the enemy. These troops engaged the Confederates and fighting continued. At one point some of Forrest's troops broke and ran causing disorder in the Rebel ranks; even entreaties from Forrest and Bate did not stem the rout of these units. The rest of Forrest's command conducted an orderly retreat from the field and encamped for the night outside Murfreesboro. Forrest had destroyed railroad track, blockhouses, and some homes and generally disrupted Union operations in the area, but he did not accomplish much else. The raid on Murfreesboro was a minor irritation.",
   "location": [
     {
       "state": "TN",
       "place": "Rutherford County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/tn037.htm"
+  "battle_name": "Murfreesboro",
+  "start_date": "1864-12-05",
+  "casualties": 422,
+  "principal_commanders": "Maj. Gen. Lovell H. Rousseau and Brig. Gen. Robert Milroy [US]; Maj. Gen. Nathan Bedford Forrest [CS]"
 }

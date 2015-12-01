@@ -1,27 +1,27 @@
 {
-  "end_date": "1864-09-30",
-  "casualties": 4430,
-  "casualties_text": "4,430 total",
+  "battle": "VA075",
+  "operation": false,
+  "cwsac_reference": "VA075",
   "forces": {
     "Confederate": {
       "commanders": [
         {
-          "rank": "General",
-          "first_name": "Robert",
-          "suffix": "",
-          "navy": false,
           "middle_name": "E.",
           "last_name": "Lee",
-          "fullname": "Robert E. Lee"
+          "suffix": "",
+          "first_name": "Robert",
+          "rank": "General",
+          "fullname": "Robert E. Lee",
+          "navy": false
         },
         {
-          "rank": "Lieutenant General",
-          "first_name": "Richard",
-          "suffix": "",
-          "navy": false,
           "middle_name": "S.",
           "last_name": "Ewell",
-          "fullname": "Richard S. Ewell"
+          "suffix": "",
+          "first_name": "Richard",
+          "rank": "Lieutenant General",
+          "fullname": "Richard S. Ewell",
+          "navy": false
         }
       ],
       "armies": 1
@@ -29,57 +29,76 @@
     "US": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Benjamin",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Butler",
-          "fullname": "Benjamin Butler"
+          "suffix": "",
+          "first_name": "Benjamin",
+          "rank": "Major General",
+          "fullname": "Benjamin Butler",
+          "navy": false
         }
       ],
       "armies": 1
     }
   },
-  "cwsac_reference": "VA075",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va075.htm",
   "forces_text": "Armies",
-  "start_date": "1864-09-29",
-  "preservation": "I.3",
+  "casualties_text": "4,430 total",
   "results_text": "Union victory",
-  "description": "During the night of September 28-29, Maj. Gen. Benjamin Butler's Army of the James crossed James River to assault the Richmond defenses north of the river. The columns attacked at dawn. After initial Union successes at New Market Heights and Fort Harrison, the Confederates rallied and contained the breakthrough. Lee reinforced his lines north of the James and, on September 30, he counterattacked unsuccessfully. The Federals entrenched, and the Confederates erected a new line of works cutting off the captured forts. Union general Burnham was killed. As Grant anticipated, Lee shifted troops to meet the threat against Richmond, weakening his lines at Petersburg.",
-  "state": "VA",
-  "significance": "B",
+  "dates": "September 29-30, 1864",
+  "result": "Union",
   "other_names": [
     "Combats at New Market Heights",
     "Forts Harrison",
     "Johnson",
     "and Gilmer; Laurel Hill"
   ],
-  "dates": "September 29-30, 1864",
-  "battle_name": "Chaffin's Farm/New Market\r\nHeights",
-  "principal_commanders": "Maj. Gen. Benjamin Butler [US]; Gen. Robert E. Lee and Lt. Gen. Richard S. Ewell [CS]",
-  "campaign": "Richmond-Petersburg Campaign [June 1864-March 1865]",
+  "significance": "B",
+  "preservation": "I.3",
+  "state": "VA",
   "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "suffix": "",
+          "first_name": "Robert",
+          "rank": "General",
+          "fullname": "Robert E. Lee",
+          "navy": false
+        },
+        {
+          "middle_name": "S.",
+          "last_name": "Ewell",
+          "suffix": "",
+          "first_name": "Richard",
+          "rank": "Lieutenant General",
+          "fullname": "Richard S. Ewell",
+          "navy": false
+        }
+      ],
+      "armies": 1
+    },
     "Confederate": {
       "commanders": [
         {
-          "rank": "General",
-          "first_name": "Robert",
-          "suffix": "",
-          "navy": false,
           "middle_name": "E.",
           "last_name": "Lee",
-          "fullname": "Robert E. Lee"
+          "suffix": "",
+          "first_name": "Robert",
+          "rank": "General",
+          "fullname": "Robert E. Lee",
+          "navy": false
         },
         {
-          "rank": "Lieutenant General",
-          "first_name": "Richard",
-          "suffix": "",
-          "navy": false,
           "middle_name": "S.",
           "last_name": "Ewell",
-          "fullname": "Richard S. Ewell"
+          "suffix": "",
+          "first_name": "Richard",
+          "rank": "Lieutenant General",
+          "fullname": "Richard S. Ewell",
+          "navy": false
         }
       ],
       "armies": 1
@@ -87,48 +106,29 @@
     "US": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Benjamin",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Butler",
-          "fullname": "Benjamin Butler"
-        }
-      ],
-      "armies": 1
-    },
-    "CS": {
-      "commanders": [
-        {
-          "rank": "General",
-          "first_name": "Robert",
           "suffix": "",
-          "navy": false,
-          "middle_name": "E.",
-          "last_name": "Lee",
-          "fullname": "Robert E. Lee"
-        },
-        {
-          "rank": "Lieutenant General",
-          "first_name": "Richard",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "S.",
-          "last_name": "Ewell",
-          "fullname": "Richard S. Ewell"
+          "first_name": "Benjamin",
+          "rank": "Major General",
+          "fullname": "Benjamin Butler",
+          "navy": false
         }
       ],
       "armies": 1
     }
   },
-  "result": "Union",
-  "battle": "VA075",
+  "campaign": "Richmond-Petersburg Campaign [June 1864-March 1865]",
+  "end_date": "1864-09-30",
+  "description": "During the night of September 28-29, Maj. Gen. Benjamin Butler's Army of the James crossed James River to assault the Richmond defenses north of the river. The columns attacked at dawn. After initial Union successes at New Market Heights and Fort Harrison, the Confederates rallied and contained the breakthrough. Lee reinforced his lines north of the James and, on September 30, he counterattacked unsuccessfully. The Federals entrenched, and the Confederates erected a new line of works cutting off the captured forts. Union general Burnham was killed. As Grant anticipated, Lee shifted troops to meet the threat against Richmond, weakening his lines at Petersburg.",
   "location": [
     {
       "state": "VA",
       "place": "Henrico County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/va075.htm"
+  "battle_name": "Chaffin's Farm/New Market\r\nHeights",
+  "start_date": "1864-09-29",
+  "casualties": 4430,
+  "principal_commanders": "Maj. Gen. Benjamin Butler [US]; Gen. Robert E. Lee and Lt. Gen. Richard S. Ewell [CS]"
 }

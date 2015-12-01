@@ -1,104 +1,104 @@
 {
-  "end_date": "1862-06-29",
-  "casualties": 4700,
-  "casualties_text": "4,700 total (US 2,500 wounded were captured)",
+  "battle": "VA019",
+  "operation": false,
+  "cwsac_reference": "VA019",
   "forces": {
     "Confederate": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "B.",
           "last_name": "Magruder",
-          "fullname": "John B. Magruder"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Major General",
+          "fullname": "John B. Magruder",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     },
     "US": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Edwin",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Sumner",
-          "fullname": "Edwin Sumner"
+          "suffix": "",
+          "first_name": "Edwin",
+          "rank": "Major General",
+          "fullname": "Edwin Sumner",
+          "navy": false
         }
       ],
-      "divisions": 1,
       "captured": 2500
     }
   },
-  "cwsac_reference": "VA019",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va019.htm",
   "forces_text": "Divisions",
-  "start_date": "1862-06-29",
-  "preservation": "IV.1",
+  "casualties_text": "4,700 total (US 2,500 wounded were captured)",
   "results_text": "Inconclusive",
-  "description": "Fourth of the Seven Days' Battles. On June 29, the main body of the Union army began a general withdrawal toward the James River. Magruder pursued along the railroad and the Williamsburg Road and struck Sumner's Corps (the Union rearguard) with three brigades near Savage's Station. Confederate Brig. Gen. Richard Giffith was mortally wounded during the fight. Jackson's divisions were stalled north of the Chickahominy. Union forces continued to withdraw across White Oak Swamp, abandoning supplies and more than 2,500 wounded soldiers in a field hospital.",
-  "state": "VA",
-  "significance": "C",
-  "other_names": null,
   "dates": "June 29, 1862",
-  "battle_name": "Savage's Station",
-  "principal_commanders": "Maj. Gen. Edwin Sumner [US]; Maj. Gen. John B. Magruder [CS]",
-  "campaign": "Peninsula Campaign [March-July 1862]",
+  "result": "Inconclusive",
+  "other_names": null,
+  "significance": "C",
+  "preservation": "IV.1",
+  "state": "VA",
   "belligerents": {
-    "Confederate": {
+    "CS": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "B.",
           "last_name": "Magruder",
-          "fullname": "John B. Magruder"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Major General",
+          "fullname": "John B. Magruder",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
+    },
+    "Confederate": {
+      "divisions": 1,
+      "commanders": [
+        {
+          "middle_name": "B.",
+          "last_name": "Magruder",
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Major General",
+          "fullname": "John B. Magruder",
+          "navy": false
+        }
+      ]
     },
     "US": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Edwin",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Sumner",
-          "fullname": "Edwin Sumner"
-        }
-      ],
-      "divisions": 1,
-      "captured": 2500
-    },
-    "CS": {
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "John",
           "suffix": "",
-          "navy": false,
-          "middle_name": "B.",
-          "last_name": "Magruder",
-          "fullname": "John B. Magruder"
+          "first_name": "Edwin",
+          "rank": "Major General",
+          "fullname": "Edwin Sumner",
+          "navy": false
         }
       ],
-      "divisions": 1
+      "captured": 2500
     }
   },
-  "result": "Inconclusive",
-  "battle": "VA019",
+  "campaign": "Peninsula Campaign [March-July 1862]",
+  "end_date": "1862-06-29",
+  "description": "Fourth of the Seven Days' Battles. On June 29, the main body of the Union army began a general withdrawal toward the James River. Magruder pursued along the railroad and the Williamsburg Road and struck Sumner's Corps (the Union rearguard) with three brigades near Savage's Station. Confederate Brig. Gen. Richard Giffith was mortally wounded during the fight. Jackson's divisions were stalled north of the Chickahominy. Union forces continued to withdraw across White Oak Swamp, abandoning supplies and more than 2,500 wounded soldiers in a field hospital.",
   "location": [
     {
       "state": "VA",
       "place": "Henrico County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/va019.htm"
+  "battle_name": "Savage's Station",
+  "start_date": "1862-06-29",
+  "casualties": 4700,
+  "principal_commanders": "Maj. Gen. Edwin Sumner [US]; Maj. Gen. John B. Magruder [CS]"
 }

@@ -1,120 +1,120 @@
 {
-  "end_date": "1864-09-19",
-  "casualties": 8630,
-  "casualties_text": "8,630 total (US 5,020; CS 3,610)",
+  "battle": "VA119",
+  "operation": false,
+  "cwsac_reference": "VA119",
   "forces": {
     "Confederate": {
       "casualties": 3610,
+      "strength_min": 15200,
       "commanders": [
         {
-          "rank": "Lieutenant General",
-          "first_name": "Jubal",
-          "suffix": "",
-          "navy": false,
           "middle_name": "A.",
           "last_name": "Early",
-          "fullname": "Jubal A. Early"
+          "suffix": "",
+          "first_name": "Jubal",
+          "rank": "Lieutenant General",
+          "fullname": "Jubal A. Early",
+          "navy": false
         }
       ],
       "description": "15,200",
-      "strength_min": 15200,
       "strength_max": 15200
     },
     "US": {
       "casualties": 5020,
+      "strength_min": 39240,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Philip",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Sheridan",
-          "fullname": "Philip Sheridan"
+          "suffix": "",
+          "first_name": "Philip",
+          "rank": "Major General",
+          "fullname": "Philip Sheridan",
+          "navy": false
         }
       ],
       "description": "39,240",
-      "strength_min": 39240,
       "strength_max": 39240
     }
   },
-  "strength": 54440,
-  "cwsac_reference": "VA119",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va119.htm",
   "forces_text": "54,440 total(US 39,240; CS 15,200)",
-  "start_date": "1864-09-19",
-  "preservation": "IV.1",
+  "strength": 54440,
+  "casualties_text": "8,630 total (US 5,020; CS 3,610)",
   "results_text": "Union victory",
-  "description": "After Kershaw's division left Winchester to rejoin Lee's army at Petersburg, Lt. Gen. Jubal A. Early renewed his raids on the B&O Railroad at Martinsburg, badly dispersing his four remaining infantry divisions. On September 19, Sheridan advanced toward Winchester along the Berryville Pike with the VI and XIX Corps, crossing Opequon Creek. The Union advance was delayed long enough for Early to concentrate his forces to meet the main assault, which continued for several hours. Casualties were very heavy. The Confederate line was gradually driven back toward the town. Mid-afternoon, Crook's (VIII) Corps and the cavalry turned the Confederate left flank. Early ordered a general retreat. Confederate generals Rodes and Goodwin were killed, Fitzhugh Lee, Terry, Johnson, and Wharton wounded. Union general Russell was killed, McIntosh, Upton, and Chapman wounded. Because of its size, intensity, and result, many historians consider this the most important conflict of the Shenandoah Valley.",
-  "state": "VA",
-  "significance": "A",
+  "dates": "September 19, 1864",
+  "result": "Union",
   "other_names": [
     "Third Winchester"
   ],
-  "dates": "September 19, 1864",
-  "battle_name": "Opequon",
-  "principal_commanders": "Maj. Gen. Philip Sheridan [US]; Lt. Gen. Jubal A. Early [CS]",
+  "significance": "A",
+  "preservation": "IV.1",
+  "state": "VA",
+  "belligerents": {
+    "CS": {
+      "casualties": 3610,
+      "strength_min": 15200,
+      "commanders": [
+        {
+          "middle_name": "A.",
+          "last_name": "Early",
+          "suffix": "",
+          "first_name": "Jubal",
+          "rank": "Lieutenant General",
+          "fullname": "Jubal A. Early",
+          "navy": false
+        }
+      ],
+      "description": "15,200",
+      "strength_max": 15200
+    },
+    "Confederate": {
+      "casualties": 3610,
+      "strength_min": 15200,
+      "commanders": [
+        {
+          "middle_name": "A.",
+          "last_name": "Early",
+          "suffix": "",
+          "first_name": "Jubal",
+          "rank": "Lieutenant General",
+          "fullname": "Jubal A. Early",
+          "navy": false
+        }
+      ],
+      "description": "15,200",
+      "strength_max": 15200
+    },
+    "US": {
+      "casualties": 5020,
+      "strength_min": 39240,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Sheridan",
+          "suffix": "",
+          "first_name": "Philip",
+          "rank": "Major General",
+          "fullname": "Philip Sheridan",
+          "navy": false
+        }
+      ],
+      "description": "39,240",
+      "strength_max": 39240
+    }
+  },
+  "campaign": "Sheridan's Valley Campaign [August-October 1864]",
+  "end_date": "1864-09-19",
+  "description": "After Kershaw's division left Winchester to rejoin Lee's army at Petersburg, Lt. Gen. Jubal A. Early renewed his raids on the B&O Railroad at Martinsburg, badly dispersing his four remaining infantry divisions. On September 19, Sheridan advanced toward Winchester along the Berryville Pike with the VI and XIX Corps, crossing Opequon Creek. The Union advance was delayed long enough for Early to concentrate his forces to meet the main assault, which continued for several hours. Casualties were very heavy. The Confederate line was gradually driven back toward the town. Mid-afternoon, Crook's (VIII) Corps and the cavalry turned the Confederate left flank. Early ordered a general retreat. Confederate generals Rodes and Goodwin were killed, Fitzhugh Lee, Terry, Johnson, and Wharton wounded. Union general Russell was killed, McIntosh, Upton, and Chapman wounded. Because of its size, intensity, and result, many historians consider this the most important conflict of the Shenandoah Valley.",
   "location": [
     {
       "state": "VA",
       "place": "Frederick County"
     }
   ],
-  "belligerents": {
-    "Confederate": {
-      "casualties": 3610,
-      "commanders": [
-        {
-          "rank": "Lieutenant General",
-          "first_name": "Jubal",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "A.",
-          "last_name": "Early",
-          "fullname": "Jubal A. Early"
-        }
-      ],
-      "description": "15,200",
-      "strength_min": 15200,
-      "strength_max": 15200
-    },
-    "US": {
-      "casualties": 5020,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Philip",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Sheridan",
-          "fullname": "Philip Sheridan"
-        }
-      ],
-      "description": "39,240",
-      "strength_min": 39240,
-      "strength_max": 39240
-    },
-    "CS": {
-      "casualties": 3610,
-      "commanders": [
-        {
-          "rank": "Lieutenant General",
-          "first_name": "Jubal",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "A.",
-          "last_name": "Early",
-          "fullname": "Jubal A. Early"
-        }
-      ],
-      "description": "15,200",
-      "strength_min": 15200,
-      "strength_max": 15200
-    }
-  },
-  "result": "Union",
-  "battle": "VA119",
-  "campaign": "Sheridan's Valley Campaign [August-October 1864]",
-  "url": "http://www.nps.gov/hps/abpp/battles/va119.htm"
+  "battle_name": "Opequon",
+  "start_date": "1864-09-19",
+  "casualties": 8630,
+  "principal_commanders": "Maj. Gen. Philip Sheridan [US]; Lt. Gen. Jubal A. Early [CS]"
 }

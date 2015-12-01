@@ -1,18 +1,18 @@
 {
-  "end_date": "1864-05-30",
-  "casualties": 900,
-  "casualties_text": "900 total",
+  "battle": "VA059",
+  "operation": false,
+  "cwsac_reference": "VA059",
   "forces": {
     "Confederate": {
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Matthew",
-          "suffix": "",
-          "navy": false,
           "middle_name": "C.",
           "last_name": "Butler",
-          "fullname": "Matthew C. Butler"
+          "suffix": "",
+          "first_name": "Matthew",
+          "rank": "Brigadier General",
+          "fullname": "Matthew C. Butler",
+          "navy": false
         }
       ],
       "brigades": 1
@@ -20,45 +20,55 @@
     "US": {
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Alfred",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Torbert",
-          "fullname": "Alfred Torbert"
+          "suffix": "",
+          "first_name": "Alfred",
+          "rank": "Brigadier General",
+          "fullname": "Alfred Torbert",
+          "navy": false
         }
       ],
       "brigades": 1
     }
   },
-  "cwsac_reference": "VA059",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va059.htm",
   "forces_text": "Brigades",
-  "start_date": "1864-05-30",
-  "preservation": "III.3",
+  "casualties_text": "900 total",
   "results_text": "Union victory",
-  "description": "With the armies stalemated along the Totopotomoy Creek line, the Federal cavalry began probing east and south. On May 30, Torbert's Division attacked and defeated Butler's Brigade near Old Church. Butler's troopers were driven steadily back on the road to Old Cold Harbor, opening the door for Sheridan's capture of the important crossroads the next day.",
-  "state": "VA",
-  "significance": "C",
+  "dates": "May 30, 1864",
+  "result": "Union",
   "other_names": [
     "Matadequin Creek"
   ],
-  "dates": "May 30, 1864",
-  "battle_name": "Old Church",
-  "principal_commanders": "Brig. Gen. Alfred Torbert [US]; Brig. Gen. Matthew C. Butler [CS]",
-  "campaign": "Grant's Overland Campaign [May-June 1864]",
+  "significance": "C",
+  "preservation": "III.3",
+  "state": "VA",
   "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "middle_name": "C.",
+          "last_name": "Butler",
+          "suffix": "",
+          "first_name": "Matthew",
+          "rank": "Brigadier General",
+          "fullname": "Matthew C. Butler",
+          "navy": false
+        }
+      ],
+      "brigades": 1
+    },
     "Confederate": {
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Matthew",
-          "suffix": "",
-          "navy": false,
           "middle_name": "C.",
           "last_name": "Butler",
-          "fullname": "Matthew C. Butler"
+          "suffix": "",
+          "first_name": "Matthew",
+          "rank": "Brigadier General",
+          "fullname": "Matthew C. Butler",
+          "navy": false
         }
       ],
       "brigades": 1
@@ -66,39 +76,29 @@
     "US": {
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Alfred",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Torbert",
-          "fullname": "Alfred Torbert"
-        }
-      ],
-      "brigades": 1
-    },
-    "CS": {
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "Matthew",
           "suffix": "",
-          "navy": false,
-          "middle_name": "C.",
-          "last_name": "Butler",
-          "fullname": "Matthew C. Butler"
+          "first_name": "Alfred",
+          "rank": "Brigadier General",
+          "fullname": "Alfred Torbert",
+          "navy": false
         }
       ],
       "brigades": 1
     }
   },
-  "result": "Union",
-  "battle": "VA059",
+  "campaign": "Grant's Overland Campaign [May-June 1864]",
+  "end_date": "1864-05-30",
+  "description": "With the armies stalemated along the Totopotomoy Creek line, the Federal cavalry began probing east and south. On May 30, Torbert's Division attacked and defeated Butler's Brigade near Old Church. Butler's troopers were driven steadily back on the road to Old Cold Harbor, opening the door for Sheridan's capture of the important crossroads the next day.",
   "location": [
     {
       "state": "VA",
       "place": "Hanover County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/va059.htm"
+  "battle_name": "Old Church",
+  "start_date": "1864-05-30",
+  "casualties": 900,
+  "principal_commanders": "Brig. Gen. Alfred Torbert [US]; Brig. Gen. Matthew C. Butler [CS]"
 }

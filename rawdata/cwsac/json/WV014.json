@@ -1,105 +1,105 @@
 {
-  "end_date": "1864-08-21",
-  "casualties": 1000,
-  "casualties_text": "1,000 total",
+  "battle": "WV014",
+  "operation": false,
+  "cwsac_reference": "WV014",
   "forces": {
     "Confederate": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Lieutenant General",
-          "first_name": "Jubal",
-          "suffix": "",
-          "navy": false,
           "middle_name": "A.",
           "last_name": "Early",
-          "fullname": "Jubal A. Early"
+          "suffix": "",
+          "first_name": "Jubal",
+          "rank": "Lieutenant General",
+          "fullname": "Jubal A. Early",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     },
     "US": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Philip",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Sheridan",
-          "fullname": "Philip Sheridan"
+          "suffix": "",
+          "first_name": "Philip",
+          "rank": "Major General",
+          "fullname": "Philip Sheridan",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     }
   },
-  "cwsac_reference": "WV014",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/wv014.htm",
   "forces_text": "Divisions",
-  "start_date": "1864-08-21",
-  "preservation": "II.4",
+  "casualties_text": "1,000 total",
   "results_text": "Inconclusive",
-  "description": "As Maj. Gen. Philip Sheridan concentrated his army near Charles Town, Lt. Gen. Jubal Early and Maj. Gen. Richard Anderson attacked the Federals with converging columns on August 21. Early moved east via Smithfield against the Union VI Corps. Anderson struck north against Wilson's Union cavalry at Summit Point. There was cavalry fighting near Berryville. The Federals fought effective delaying actions, withdrawing to near Halltown on the following day.",
-  "state": "WV",
-  "significance": "D",
+  "dates": "August 21, 1864",
+  "result": "Inconclusive",
   "other_names": [
     "Flowing Springs",
     "Cameron's Depot"
   ],
-  "dates": "August 21, 1864",
-  "battle_name": "Summit Point",
-  "principal_commanders": "Maj. Gen. Philip Sheridan [US]; Lt. Gen. Jubal A. Early [CS]",
-  "campaign": "Sheridan's Valley Campaign [August-October 1864]",
+  "significance": "D",
+  "preservation": "II.4",
+  "state": "WV",
   "belligerents": {
-    "Confederate": {
+    "CS": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Lieutenant General",
-          "first_name": "Jubal",
-          "suffix": "",
-          "navy": false,
           "middle_name": "A.",
           "last_name": "Early",
-          "fullname": "Jubal A. Early"
+          "suffix": "",
+          "first_name": "Jubal",
+          "rank": "Lieutenant General",
+          "fullname": "Jubal A. Early",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
+    },
+    "Confederate": {
+      "divisions": 1,
+      "commanders": [
+        {
+          "middle_name": "A.",
+          "last_name": "Early",
+          "suffix": "",
+          "first_name": "Jubal",
+          "rank": "Lieutenant General",
+          "fullname": "Jubal A. Early",
+          "navy": false
+        }
+      ]
     },
     "US": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Philip",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Sheridan",
-          "fullname": "Philip Sheridan"
-        }
-      ],
-      "divisions": 1
-    },
-    "CS": {
-      "commanders": [
-        {
-          "rank": "Lieutenant General",
-          "first_name": "Jubal",
           "suffix": "",
-          "navy": false,
-          "middle_name": "A.",
-          "last_name": "Early",
-          "fullname": "Jubal A. Early"
+          "first_name": "Philip",
+          "rank": "Major General",
+          "fullname": "Philip Sheridan",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     }
   },
-  "result": "Inconclusive",
-  "battle": "WV014",
+  "campaign": "Sheridan's Valley Campaign [August-October 1864]",
+  "end_date": "1864-08-21",
+  "description": "As Maj. Gen. Philip Sheridan concentrated his army near Charles Town, Lt. Gen. Jubal Early and Maj. Gen. Richard Anderson attacked the Federals with converging columns on August 21. Early moved east via Smithfield against the Union VI Corps. Anderson struck north against Wilson's Union cavalry at Summit Point. There was cavalry fighting near Berryville. The Federals fought effective delaying actions, withdrawing to near Halltown on the following day.",
   "location": [
     {
       "state": "WV",
       "place": "Jefferson County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/wv014.htm"
+  "battle_name": "Summit Point",
+  "start_date": "1864-08-21",
+  "casualties": 1000,
+  "principal_commanders": "Maj. Gen. Philip Sheridan [US]; Lt. Gen. Jubal A. Early [CS]"
 }

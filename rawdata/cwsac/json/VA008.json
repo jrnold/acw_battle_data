@@ -1,29 +1,29 @@
 {
-  "end_date": "1862-03-09",
-  "casualties": 433,
-  "casualties_text": "433 total (US 409; CS 24)",
+  "battle": "VA008",
+  "operation": false,
+  "cwsac_reference": "VA008",
   "forces": {
     "Confederate": {
       "ships": 1,
       "casualties": 24,
       "commanders": [
         {
-          "rank": "Captain",
-          "first_name": "Franklin",
-          "suffix": "",
-          "navy": true,
           "middle_name": "",
           "last_name": "Buchanan",
-          "fullname": "Franklin Buchanan"
+          "suffix": "",
+          "first_name": "Franklin",
+          "rank": "Captain",
+          "fullname": "Franklin Buchanan",
+          "navy": true
         },
         {
-          "rank": "Lieutenant",
-          "first_name": "Catesby",
-          "suffix": "",
-          "navy": false,
           "middle_name": "R.",
           "last_name": "Jones",
-          "fullname": "Catesby R. Jones"
+          "suffix": "",
+          "first_name": "Catesby",
+          "rank": "Lieutenant",
+          "fullname": "Catesby R. Jones",
+          "navy": false
         }
       ],
       "description": "1 warship"
@@ -33,110 +33,110 @@
       "casualties": 409,
       "commanders": [
         {
-          "rank": "Lieutenant",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Worden",
-          "fullname": "John Worden"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Lieutenant",
+          "fullname": "John Worden",
+          "navy": false
         }
       ],
       "description": "4 warships"
     }
   },
-  "cwsac_reference": "VA008",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va008.htm",
   "forces_text": "4 warships [US]; 1 warship [CS]",
-  "start_date": "1862-03-08",
-  "preservation": "II.2",
+  "casualties_text": "433 total (US 409; CS 24)",
   "results_text": "Inconclusive",
-  "description": "On March 8, 1862, from her berth at Norfolk, the Confederate ironclad Virginia steamed into Hampton Roads where she sank Cumberland and ran Congress aground. On March 9, the Union ironclad Monitor having fortuitously arrived to do battle, initiated the first engagement of ironclads in history. The two ships fought each other to a standstill, but Virginia retired.",
-  "state": "VA",
-  "significance": "B",
+  "dates": "March 8-9, 1862",
+  "result": "Inconclusive",
   "other_names": [
     "Monitor vs. Virginia (Merrimack)",
     "Battle of the Ironclads"
   ],
-  "dates": "March 8-9, 1862",
-  "battle_name": "Hampton Roads",
-  "principal_commanders": "Lt. John Worden [US]; Capt. (Naval) Franklin Buchanan and Lt. Catesby R. Jones [CS]",
-  "campaign": "Peninsula Campaign [March-July 1862]",
+  "significance": "B",
+  "preservation": "II.2",
+  "state": "VA",
   "belligerents": {
-    "Confederate": {
-      "ships": 1,
-      "casualties": 24,
-      "commanders": [
-        {
-          "rank": "Captain",
-          "first_name": "Franklin",
-          "suffix": "",
-          "navy": true,
-          "middle_name": "",
-          "last_name": "Buchanan",
-          "fullname": "Franklin Buchanan"
-        },
-        {
-          "rank": "Lieutenant",
-          "first_name": "Catesby",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "R.",
-          "last_name": "Jones",
-          "fullname": "Catesby R. Jones"
-        }
-      ],
-      "description": "1 warship"
-    },
-    "US": {
-      "ships": 4,
-      "casualties": 409,
-      "commanders": [
-        {
-          "rank": "Lieutenant",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Worden",
-          "fullname": "John Worden"
-        }
-      ],
-      "description": "4 warships"
-    },
     "CS": {
       "ships": 1,
       "casualties": 24,
       "commanders": [
         {
-          "rank": "Captain",
-          "first_name": "Franklin",
-          "suffix": "",
-          "navy": true,
           "middle_name": "",
           "last_name": "Buchanan",
-          "fullname": "Franklin Buchanan"
+          "suffix": "",
+          "first_name": "Franklin",
+          "rank": "Captain",
+          "fullname": "Franklin Buchanan",
+          "navy": true
         },
         {
-          "rank": "Lieutenant",
-          "first_name": "Catesby",
-          "suffix": "",
-          "navy": false,
           "middle_name": "R.",
           "last_name": "Jones",
-          "fullname": "Catesby R. Jones"
+          "suffix": "",
+          "first_name": "Catesby",
+          "rank": "Lieutenant",
+          "fullname": "Catesby R. Jones",
+          "navy": false
         }
       ],
       "description": "1 warship"
+    },
+    "Confederate": {
+      "ships": 1,
+      "casualties": 24,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Buchanan",
+          "suffix": "",
+          "first_name": "Franklin",
+          "rank": "Captain",
+          "fullname": "Franklin Buchanan",
+          "navy": true
+        },
+        {
+          "middle_name": "R.",
+          "last_name": "Jones",
+          "suffix": "",
+          "first_name": "Catesby",
+          "rank": "Lieutenant",
+          "fullname": "Catesby R. Jones",
+          "navy": false
+        }
+      ],
+      "description": "1 warship"
+    },
+    "US": {
+      "ships": 4,
+      "casualties": 409,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Worden",
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Lieutenant",
+          "fullname": "John Worden",
+          "navy": false
+        }
+      ],
+      "description": "4 warships"
     }
   },
-  "result": "Inconclusive",
-  "battle": "VA008",
+  "campaign": "Peninsula Campaign [March-July 1862]",
+  "end_date": "1862-03-09",
+  "description": "On March 8, 1862, from her berth at Norfolk, the Confederate ironclad Virginia steamed into Hampton Roads where she sank Cumberland and ran Congress aground. On March 9, the Union ironclad Monitor having fortuitously arrived to do battle, initiated the first engagement of ironclads in history. The two ships fought each other to a standstill, but Virginia retired.",
   "location": [
     {
       "state": "VA",
       "place": "Hampton Roads"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/va008.htm"
+  "battle_name": "Hampton Roads",
+  "start_date": "1862-03-08",
+  "casualties": 433,
+  "principal_commanders": "Lt. John Worden [US]; Capt. (Naval) Franklin Buchanan and Lt. Catesby R. Jones [CS]"
 }

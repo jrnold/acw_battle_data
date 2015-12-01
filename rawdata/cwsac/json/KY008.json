@@ -1,28 +1,28 @@
 {
-  "end_date": "1862-09-17",
-  "casualties": 4862,
-  "casualties_text": "4,862 total (US 4,148; CS 714)",
+  "battle": "KY008",
+  "operation": false,
+  "cwsac_reference": "KY008",
   "forces": {
     "Confederate": {
       "casualties": 714,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
           "middle_name": "R.",
           "last_name": "Chalmers",
-          "fullname": "James R. Chalmers"
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Brigadier General",
+          "fullname": "James R. Chalmers",
+          "navy": false
         },
         {
-          "rank": "General",
-          "first_name": "Braxton",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Bragg",
-          "fullname": "Braxton Bragg"
+          "suffix": "",
+          "first_name": "Braxton",
+          "rank": "General",
+          "fullname": "Braxton Bragg",
+          "navy": false
         }
       ],
       "description": "Army of the Mississippi",
@@ -32,126 +32,126 @@
       "casualties": 4148,
       "commanders": [
         {
-          "rank": "Colonel",
-          "first_name": "Cyrus",
-          "suffix": "",
-          "navy": false,
           "middle_name": "L.",
           "last_name": "Dunham",
-          "fullname": "Cyrus L. Dunham"
+          "suffix": "",
+          "first_name": "Cyrus",
+          "rank": "Colonel",
+          "fullname": "Cyrus L. Dunham",
+          "navy": false
         },
         {
-          "rank": "Colonel",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "T.",
           "last_name": "Wilder",
-          "fullname": "John T. Wilder"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Colonel",
+          "fullname": "John T. Wilder",
+          "navy": false
         }
       ],
       "description": "Union garrison"
     }
   },
-  "cwsac_reference": "KY008",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ky008.htm",
   "forces_text": "Union garrison [US]; Army of the Mississippi [CS]",
-  "start_date": "1862-09-14",
-  "preservation": "II.2",
+  "casualties_text": "4,862 total (US 4,148; CS 714)",
   "results_text": "Confederate victory",
-  "description": "In the 1862 Confederate offensive into Kentucky, Gen. Braxton Bragg's army left Chattanooga, Tennessee, in late August. Followed by Maj. Gen. Don Carlos Buell's Union Army, Bragg approached Munfordville, a station on the Louisville & Nashville Railroad and the location of the railroad bridge crossing Green River, in mid-September. Col. John T. Wilder commanded the Union garrison at Munfordville which consisted of three regiments with extensive fortifications. Wilder refused Brig. Gen. James R. Chalmers's demand to surrender on the 14th. Union forces repulsed Chalmers's attacks on the 14th, forcing the Rebels to conduct siege operations on the 15th and 16th. Late on the 16th, realizing that Buell's forces were near and not wanting to kill or injure innocent civilians, the Confederates communicated still another demand for surrender. Wilder entered enemy lines under a flag of truce, and Confederate Maj. Gen. Simon B. Buckner escorted him to view all the Rebel troops and to convince him of the futility of resisting. Impressed, Wilder surrendered. The formal ceremony occurred the next day on the 17th. With the railroad and the bridge, Munfordville was an important transportation center, and the Confederate control affected the movement of Union supplies and men.",
-  "state": "KY",
-  "significance": "B",
+  "dates": "September 14-17, 1862",
+  "result": "Confederate",
   "other_names": [
     "Green River Bridge"
   ],
-  "dates": "September 14-17, 1862",
-  "battle_name": "Munfordville",
-  "principal_commanders": "Col. Cyrus L. Dunham and Col. John T. Wilder [US]; Brig. Gen. James R. Chalmers and Gen. Braxton Bragg [CS]",
-  "campaign": "Confederate Heartland Offensive [June-October 1862]",
+  "significance": "B",
+  "preservation": "II.2",
+  "state": "KY",
   "belligerents": {
-    "Confederate": {
-      "casualties": 714,
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "R.",
-          "last_name": "Chalmers",
-          "fullname": "James R. Chalmers"
-        },
-        {
-          "rank": "General",
-          "first_name": "Braxton",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Bragg",
-          "fullname": "Braxton Bragg"
-        }
-      ],
-      "description": "Army of the Mississippi",
-      "armies": 1
-    },
-    "US": {
-      "casualties": 4148,
-      "commanders": [
-        {
-          "rank": "Colonel",
-          "first_name": "Cyrus",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "L.",
-          "last_name": "Dunham",
-          "fullname": "Cyrus L. Dunham"
-        },
-        {
-          "rank": "Colonel",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "T.",
-          "last_name": "Wilder",
-          "fullname": "John T. Wilder"
-        }
-      ],
-      "description": "Union garrison"
-    },
     "CS": {
       "casualties": 714,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
           "middle_name": "R.",
           "last_name": "Chalmers",
-          "fullname": "James R. Chalmers"
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Brigadier General",
+          "fullname": "James R. Chalmers",
+          "navy": false
         },
         {
-          "rank": "General",
-          "first_name": "Braxton",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Bragg",
-          "fullname": "Braxton Bragg"
+          "suffix": "",
+          "first_name": "Braxton",
+          "rank": "General",
+          "fullname": "Braxton Bragg",
+          "navy": false
         }
       ],
       "description": "Army of the Mississippi",
       "armies": 1
+    },
+    "Confederate": {
+      "casualties": 714,
+      "commanders": [
+        {
+          "middle_name": "R.",
+          "last_name": "Chalmers",
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Brigadier General",
+          "fullname": "James R. Chalmers",
+          "navy": false
+        },
+        {
+          "middle_name": "",
+          "last_name": "Bragg",
+          "suffix": "",
+          "first_name": "Braxton",
+          "rank": "General",
+          "fullname": "Braxton Bragg",
+          "navy": false
+        }
+      ],
+      "description": "Army of the Mississippi",
+      "armies": 1
+    },
+    "US": {
+      "casualties": 4148,
+      "commanders": [
+        {
+          "middle_name": "L.",
+          "last_name": "Dunham",
+          "suffix": "",
+          "first_name": "Cyrus",
+          "rank": "Colonel",
+          "fullname": "Cyrus L. Dunham",
+          "navy": false
+        },
+        {
+          "middle_name": "T.",
+          "last_name": "Wilder",
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Colonel",
+          "fullname": "John T. Wilder",
+          "navy": false
+        }
+      ],
+      "description": "Union garrison"
     }
   },
-  "result": "Confederate",
-  "battle": "KY008",
+  "campaign": "Confederate Heartland Offensive [June-October 1862]",
+  "end_date": "1862-09-17",
+  "description": "In the 1862 Confederate offensive into Kentucky, Gen. Braxton Bragg's army left Chattanooga, Tennessee, in late August. Followed by Maj. Gen. Don Carlos Buell's Union Army, Bragg approached Munfordville, a station on the Louisville & Nashville Railroad and the location of the railroad bridge crossing Green River, in mid-September. Col. John T. Wilder commanded the Union garrison at Munfordville which consisted of three regiments with extensive fortifications. Wilder refused Brig. Gen. James R. Chalmers's demand to surrender on the 14th. Union forces repulsed Chalmers's attacks on the 14th, forcing the Rebels to conduct siege operations on the 15th and 16th. Late on the 16th, realizing that Buell's forces were near and not wanting to kill or injure innocent civilians, the Confederates communicated still another demand for surrender. Wilder entered enemy lines under a flag of truce, and Confederate Maj. Gen. Simon B. Buckner escorted him to view all the Rebel troops and to convince him of the futility of resisting. Impressed, Wilder surrendered. The formal ceremony occurred the next day on the 17th. With the railroad and the bridge, Munfordville was an important transportation center, and the Confederate control affected the movement of Union supplies and men.",
   "location": [
     {
       "state": "KY",
       "place": "Hart County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/ky008.htm"
+  "battle_name": "Munfordville",
+  "start_date": "1862-09-14",
+  "casualties": 4862,
+  "principal_commanders": "Col. Cyrus L. Dunham and Col. John T. Wilder [US]; Brig. Gen. James R. Chalmers and Gen. Braxton Bragg [CS]"
 }

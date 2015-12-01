@@ -1,18 +1,18 @@
 {
-  "end_date": "1863-12-31",
-  "casualties": null,
-  "casualties_text": "Unknown",
+  "battle": "SC008",
+  "operation": false,
+  "cwsac_reference": "SC008",
   "forces": {
     "Confederate": {
       "commanders": [
         {
-          "rank": "General",
-          "first_name": "P.G.T.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Beauregard",
-          "fullname": "P.G.T. Beauregard"
+          "suffix": "",
+          "first_name": "P.G.T.",
+          "rank": "General",
+          "fullname": "P.G.T. Beauregard",
+          "navy": false
         }
       ],
       "description": "Fort Sumter Garrison"
@@ -20,46 +20,56 @@
     "US": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Quincy",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Gillmore",
-          "fullname": "Quincy Gillmore"
+          "suffix": "",
+          "first_name": "Quincy",
+          "rank": "Major General",
+          "fullname": "Quincy Gillmore",
+          "navy": false
         }
       ],
       "description": "Morris Island Batteries"
     }
   },
-  "cwsac_reference": "SC008",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/sc008.htm",
   "forces_text": "Morris Island Batteries [US]; Fort Sumter Garrison [CS]",
-  "start_date": "1863-08-17",
-  "preservation": "III.2",
+  "casualties_text": "Unknown",
   "results_text": "Inconclusive",
-  "description": "Federal batteries erected on Morris Island opened fire on August 17 and continued their bombardment of Fort Sumter and the Charleston defenses until August 23. Despite a severe pounding, Fort Sumter's garrison held out. Siege operations continued against Fort Wagner on Morris Island.",
-  "state": "SC",
-  "significance": "B",
+  "dates": "August 17-December 31, 1863",
+  "result": "Inconclusive",
   "other_names": [
     "Charleston Harbor",
     "Morris Island"
   ],
-  "dates": "August 17-December 31, 1863",
-  "battle_name": "Fort Sumter",
-  "principal_commanders": "Maj. Gen. Quincy Gillmore [US]; Gen. P.G.T. Beauregard [CS]",
-  "campaign": "Operations Against the Defenses of Charleston [April-September 1863]",
+  "significance": "B",
+  "preservation": "III.2",
+  "state": "SC",
   "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Beauregard",
+          "suffix": "",
+          "first_name": "P.G.T.",
+          "rank": "General",
+          "fullname": "P.G.T. Beauregard",
+          "navy": false
+        }
+      ],
+      "description": "Fort Sumter Garrison"
+    },
     "Confederate": {
       "commanders": [
         {
-          "rank": "General",
-          "first_name": "P.G.T.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Beauregard",
-          "fullname": "P.G.T. Beauregard"
+          "suffix": "",
+          "first_name": "P.G.T.",
+          "rank": "General",
+          "fullname": "P.G.T. Beauregard",
+          "navy": false
         }
       ],
       "description": "Fort Sumter Garrison"
@@ -67,39 +77,29 @@
     "US": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Quincy",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Gillmore",
-          "fullname": "Quincy Gillmore"
+          "suffix": "",
+          "first_name": "Quincy",
+          "rank": "Major General",
+          "fullname": "Quincy Gillmore",
+          "navy": false
         }
       ],
       "description": "Morris Island Batteries"
-    },
-    "CS": {
-      "commanders": [
-        {
-          "rank": "General",
-          "first_name": "P.G.T.",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Beauregard",
-          "fullname": "P.G.T. Beauregard"
-        }
-      ],
-      "description": "Fort Sumter Garrison"
     }
   },
-  "result": "Inconclusive",
-  "battle": "SC008",
+  "campaign": "Operations Against the Defenses of Charleston [April-September 1863]",
+  "end_date": "1863-12-31",
+  "description": "Federal batteries erected on Morris Island opened fire on August 17 and continued their bombardment of Fort Sumter and the Charleston defenses until August 23. Despite a severe pounding, Fort Sumter's garrison held out. Siege operations continued against Fort Wagner on Morris Island.",
   "location": [
     {
       "state": "SC",
       "place": "City of Charleston"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/sc008.htm"
+  "battle_name": "Fort Sumter",
+  "start_date": "1863-08-17",
+  "casualties": null,
+  "principal_commanders": "Maj. Gen. Quincy Gillmore [US]; Gen. P.G.T. Beauregard [CS]"
 }

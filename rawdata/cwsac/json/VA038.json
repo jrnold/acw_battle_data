@@ -1,129 +1,129 @@
 {
-  "end_date": "1863-06-21",
-  "casualties": 400,
-  "casualties_text": "400 total",
+  "battle": "VA038",
+  "operation": false,
+  "cwsac_reference": "VA038",
   "forces": {
     "Confederate": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Wade",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Hampton",
-          "fullname": "Wade Hampton"
+          "suffix": "",
+          "first_name": "Wade",
+          "rank": "Brigadier General",
+          "fullname": "Wade Hampton",
+          "navy": false
         },
         {
-          "rank": "Brigadier General",
-          "first_name": "Beverly",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Robertson",
-          "fullname": "Beverly Robertson"
+          "suffix": "",
+          "first_name": "Beverly",
+          "rank": "Brigadier General",
+          "fullname": "Beverly Robertson",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     },
     "US": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Alfred",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Pleasonton",
-          "fullname": "Alfred Pleasonton"
+          "suffix": "",
+          "first_name": "Alfred",
+          "rank": "Major General",
+          "fullname": "Alfred Pleasonton",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     }
   },
-  "cwsac_reference": "VA038",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va038.htm",
   "forces_text": "Divisions",
-  "start_date": "1863-06-21",
-  "preservation": "III.3",
+  "casualties_text": "400 total",
   "results_text": "Inconclusive",
-  "description": "On June 21, Union cavalry made a determined effort to pierce Stuart's cavalry screen. Hampton's and Robertson's brigades made a stand at Goose Creek, west of Middleburg, and beat back Gregg's division. Buford's column detoured to attack the Confederate left flank near Upperville but encountered William E. \"Grumble\" Jones's and John R. Chambliss's brigades while J.I. Gregg's and Kilpatrick's brigades advanced on the Upperville from the east along the Little River Turnpike. After furious mounted fighting, Stuart withdrew to take a strong defensive position in Ashby Gap, even as Confederate infantry crossed the Potomac into Maryland. As cavalry skirmishing diminished, Stuart made the fateful decision to strike east and make a circuit of the Union army as it marched toward Gettysburg.",
-  "state": "VA",
-  "significance": "C",
-  "other_names": null,
   "dates": "June 21, 1863",
-  "battle_name": "Upperville",
-  "principal_commanders": "Maj. Gen. Alfred Pleasonton [US]; Brig. Gen. Wade Hampton and Brig. Gen. Beverly Robertson [CS]",
-  "campaign": "Gettysburg Campaign [June-July 1863]",
+  "result": "Inconclusive",
+  "other_names": null,
+  "significance": "C",
+  "preservation": "III.3",
+  "state": "VA",
   "belligerents": {
-    "Confederate": {
+    "CS": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Wade",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Hampton",
-          "fullname": "Wade Hampton"
+          "suffix": "",
+          "first_name": "Wade",
+          "rank": "Brigadier General",
+          "fullname": "Wade Hampton",
+          "navy": false
         },
         {
-          "rank": "Brigadier General",
-          "first_name": "Beverly",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Robertson",
-          "fullname": "Beverly Robertson"
+          "suffix": "",
+          "first_name": "Beverly",
+          "rank": "Brigadier General",
+          "fullname": "Beverly Robertson",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
+    },
+    "Confederate": {
+      "divisions": 1,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Hampton",
+          "suffix": "",
+          "first_name": "Wade",
+          "rank": "Brigadier General",
+          "fullname": "Wade Hampton",
+          "navy": false
+        },
+        {
+          "middle_name": "",
+          "last_name": "Robertson",
+          "suffix": "",
+          "first_name": "Beverly",
+          "rank": "Brigadier General",
+          "fullname": "Beverly Robertson",
+          "navy": false
+        }
+      ]
     },
     "US": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Alfred",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Pleasonton",
-          "fullname": "Alfred Pleasonton"
-        }
-      ],
-      "divisions": 1
-    },
-    "CS": {
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "Wade",
           "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Hampton",
-          "fullname": "Wade Hampton"
-        },
-        {
-          "rank": "Brigadier General",
-          "first_name": "Beverly",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Robertson",
-          "fullname": "Beverly Robertson"
+          "first_name": "Alfred",
+          "rank": "Major General",
+          "fullname": "Alfred Pleasonton",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     }
   },
-  "result": "Inconclusive",
-  "battle": "VA038",
+  "campaign": "Gettysburg Campaign [June-July 1863]",
+  "end_date": "1863-06-21",
+  "description": "On June 21, Union cavalry made a determined effort to pierce Stuart's cavalry screen. Hampton's and Robertson's brigades made a stand at Goose Creek, west of Middleburg, and beat back Gregg's division. Buford's column detoured to attack the Confederate left flank near Upperville but encountered William E. \"Grumble\" Jones's and John R. Chambliss's brigades while J.I. Gregg's and Kilpatrick's brigades advanced on the Upperville from the east along the Little River Turnpike. After furious mounted fighting, Stuart withdrew to take a strong defensive position in Ashby Gap, even as Confederate infantry crossed the Potomac into Maryland. As cavalry skirmishing diminished, Stuart made the fateful decision to strike east and make a circuit of the Union army as it marched toward Gettysburg.",
   "location": [
     {
       "state": "VA",
       "place": "Loudoun County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/va038.htm"
+  "battle_name": "Upperville",
+  "start_date": "1863-06-21",
+  "casualties": 400,
+  "principal_commanders": "Maj. Gen. Alfred Pleasonton [US]; Brig. Gen. Wade Hampton and Brig. Gen. Beverly Robertson [CS]"
 }

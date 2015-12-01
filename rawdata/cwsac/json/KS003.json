@@ -1,28 +1,28 @@
 {
-  "end_date": "1864-10-25",
-  "casualties": 1300,
-  "casualties_text": "1,300 total (US 100; CS 1,200)",
+  "battle": "KS003",
+  "operation": false,
+  "cwsac_reference": "KS003",
   "forces": {
     "Confederate": {
       "casualties": 1200,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "S.",
           "last_name": "Marmaduke",
-          "fullname": "John S. Marmaduke"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Brigadier General",
+          "fullname": "John S. Marmaduke",
+          "navy": false
         },
         {
-          "rank": "Major General",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
           "middle_name": "F.",
           "last_name": "Fagan",
-          "fullname": "James F. Fagan"
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Major General",
+          "fullname": "James F. Fagan",
+          "navy": false
         }
       ],
       "cavalry_divisions": 1,
@@ -32,110 +32,110 @@
       "casualties": 100,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Alfred",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Pleasonton",
-          "fullname": "Alfred Pleasonton"
+          "suffix": "",
+          "first_name": "Alfred",
+          "rank": "Major General",
+          "fullname": "Alfred Pleasonton",
+          "navy": false
         }
       ],
       "cavalry_divisions": 1,
       "description": "Provisional cavalry division"
     }
   },
-  "cwsac_reference": "KS003",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ks003.htm",
   "forces_text": "Provisional cavalry division [US]; cavalry division [CS]",
-  "start_date": "1864-10-25",
-  "preservation": "III.3",
+  "casualties_text": "1,300 total (US 100; CS 1,200)",
   "results_text": "Union victory",
-  "description": "About six miles south of Trading Post, where the Marais de Cygnes engagement had occurred, the brigades of Col. Frederick W. Benteen and Col. John F. Phillips, of Maj. Gen. Alfred Pleasonton's Provisional Cavalry Division, overtook the Confederates as they were crossing Mine Creek. These Rebels, stalled by their wagons crossing the ford, had formed a line on the north side of Mine Creek. The Federals, although outnumbered, commenced the attack as additional troops from Pleasonton's command arrived during the fight. They soon surrounded the Rebels, resulting in the capture of about 600 men and two generals, Brig. Gen. John S. Marmaduke and Brig. Gen. William L. Cabell. Having lost this many men, Price's army was doomed. Retreat to friendly territory was the only recourse.",
-  "state": "KS",
-  "significance": "C",
+  "dates": "October 25, 1864",
+  "result": "Union",
   "other_names": [
     "Battle of the Osage"
   ],
-  "dates": "October 25, 1864",
-  "battle_name": "Mine Creek",
-  "principal_commanders": "Major Gen. Alfred Pleasonton [US]; Brig. Gen. John S. Marmaduke and Maj. Gen. James F. Fagan [CS]",
-  "campaign": "Price's Missouri Expedition [September-October 1864]",
+  "significance": "C",
+  "preservation": "III.3",
+  "state": "KS",
   "belligerents": {
-    "Confederate": {
-      "casualties": 1200,
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "S.",
-          "last_name": "Marmaduke",
-          "fullname": "John S. Marmaduke"
-        },
-        {
-          "rank": "Major General",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "F.",
-          "last_name": "Fagan",
-          "fullname": "James F. Fagan"
-        }
-      ],
-      "cavalry_divisions": 1,
-      "description": "cavalry division"
-    },
-    "US": {
-      "casualties": 100,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Alfred",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Pleasonton",
-          "fullname": "Alfred Pleasonton"
-        }
-      ],
-      "cavalry_divisions": 1,
-      "description": "Provisional cavalry division"
-    },
     "CS": {
       "casualties": 1200,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "S.",
           "last_name": "Marmaduke",
-          "fullname": "John S. Marmaduke"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Brigadier General",
+          "fullname": "John S. Marmaduke",
+          "navy": false
         },
         {
-          "rank": "Major General",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
           "middle_name": "F.",
           "last_name": "Fagan",
-          "fullname": "James F. Fagan"
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Major General",
+          "fullname": "James F. Fagan",
+          "navy": false
         }
       ],
       "cavalry_divisions": 1,
       "description": "cavalry division"
+    },
+    "Confederate": {
+      "casualties": 1200,
+      "commanders": [
+        {
+          "middle_name": "S.",
+          "last_name": "Marmaduke",
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Brigadier General",
+          "fullname": "John S. Marmaduke",
+          "navy": false
+        },
+        {
+          "middle_name": "F.",
+          "last_name": "Fagan",
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Major General",
+          "fullname": "James F. Fagan",
+          "navy": false
+        }
+      ],
+      "cavalry_divisions": 1,
+      "description": "cavalry division"
+    },
+    "US": {
+      "casualties": 100,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Pleasonton",
+          "suffix": "",
+          "first_name": "Alfred",
+          "rank": "Major General",
+          "fullname": "Alfred Pleasonton",
+          "navy": false
+        }
+      ],
+      "cavalry_divisions": 1,
+      "description": "Provisional cavalry division"
     }
   },
-  "result": "Union",
-  "battle": "KS003",
+  "campaign": "Price's Missouri Expedition [September-October 1864]",
+  "end_date": "1864-10-25",
+  "description": "About six miles south of Trading Post, where the Marais de Cygnes engagement had occurred, the brigades of Col. Frederick W. Benteen and Col. John F. Phillips, of Maj. Gen. Alfred Pleasonton's Provisional Cavalry Division, overtook the Confederates as they were crossing Mine Creek. These Rebels, stalled by their wagons crossing the ford, had formed a line on the north side of Mine Creek. The Federals, although outnumbered, commenced the attack as additional troops from Pleasonton's command arrived during the fight. They soon surrounded the Rebels, resulting in the capture of about 600 men and two generals, Brig. Gen. John S. Marmaduke and Brig. Gen. William L. Cabell. Having lost this many men, Price's army was doomed. Retreat to friendly territory was the only recourse.",
   "location": [
     {
       "state": "KS",
       "place": "Linn County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/ks003.htm"
+  "battle_name": "Mine Creek",
+  "start_date": "1864-10-25",
+  "casualties": 1300,
+  "principal_commanders": "Major Gen. Alfred Pleasonton [US]; Brig. Gen. John S. Marmaduke and Maj. Gen. James F. Fagan [CS]"
 }

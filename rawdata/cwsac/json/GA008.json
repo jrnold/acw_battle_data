@@ -1,19 +1,19 @@
 {
-  "end_date": "1864-05-15",
-  "casualties": 5547,
-  "casualties_text": "5,547 total (US 2,747; CS 2,800)",
+  "battle": "GA008",
+  "operation": false,
+  "cwsac_reference": "GA008",
   "forces": {
     "Confederate": {
       "casualties": 2800,
       "commanders": [
         {
-          "rank": "General",
-          "first_name": "Joseph",
-          "suffix": "",
-          "navy": false,
           "middle_name": "E.",
           "last_name": "Johnston",
-          "fullname": "Joseph E. Johnston"
+          "suffix": "",
+          "first_name": "Joseph",
+          "rank": "General",
+          "fullname": "Joseph E. Johnston",
+          "navy": false
         }
       ],
       "description": "Army of Tennessee",
@@ -23,83 +23,80 @@
       "casualties": 2747,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
           "middle_name": "T.",
           "last_name": "Sherman",
-          "fullname": "William T. Sherman"
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Major General",
+          "fullname": "William T. Sherman",
+          "navy": false
         }
       ],
       "description": "Military Division of the Mississippi"
     }
   },
-  "cwsac_reference": "GA008",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ga008.htm",
   "forces_text": "Military Division of the Mississippi [US]; Army of Tennessee [CS]",
-  "start_date": "1864-05-13",
-  "preservation": "II.3",
+  "casualties_text": "5,547 total (US 2,747; CS 2,800)",
   "results_text": "Inconclusive",
-  "description": "Gen. Joseph E. Johnston had withdrawn from Rocky Face Ridge to the hills around Resaca. On the 13th, the Union troops tested the Rebel lines to pinpoint their whereabouts. The next day full scale fighting occurred, and the Union troops were generally repulsed except on the Rebel right flank where Sherman did not fully exploit his advantage. On the 15th, the battle continued with no advantage to either side until Sherman sent a force across the Oostanula River, at Lay's Ferry, towards Johnston's railroad supply line. Unable to halt this Union movement, Johnston was forced to retire.",
-  "state": "GA",
-  "significance": "C",
-  "other_names": null,
   "dates": "May 13-15, 1864",
-  "battle_name": "Resaca",
-  "principal_commanders": "Maj. Gen. William T. Sherman [US]; Gen. Joseph E. Johnston [CS]",
-  "campaign": "Atlanta Campaign [May-September 1864]",
+  "result": "Inconclusive",
+  "other_names": null,
+  "significance": "C",
+  "preservation": "II.3",
+  "state": "GA",
   "belligerents": {
-    "Confederate": {
-      "casualties": 2800,
-      "commanders": [
-        {
-          "rank": "General",
-          "first_name": "Joseph",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "E.",
-          "last_name": "Johnston",
-          "fullname": "Joseph E. Johnston"
-        }
-      ],
-      "description": "Army of Tennessee",
-      "armies": 1
-    },
-    "US": {
-      "casualties": 2747,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "T.",
-          "last_name": "Sherman",
-          "fullname": "William T. Sherman"
-        }
-      ],
-      "description": "Military Division of the Mississippi"
-    },
     "CS": {
       "casualties": 2800,
       "commanders": [
         {
-          "rank": "General",
-          "first_name": "Joseph",
-          "suffix": "",
-          "navy": false,
           "middle_name": "E.",
           "last_name": "Johnston",
-          "fullname": "Joseph E. Johnston"
+          "suffix": "",
+          "first_name": "Joseph",
+          "rank": "General",
+          "fullname": "Joseph E. Johnston",
+          "navy": false
         }
       ],
       "description": "Army of Tennessee",
       "armies": 1
+    },
+    "Confederate": {
+      "casualties": 2800,
+      "commanders": [
+        {
+          "middle_name": "E.",
+          "last_name": "Johnston",
+          "suffix": "",
+          "first_name": "Joseph",
+          "rank": "General",
+          "fullname": "Joseph E. Johnston",
+          "navy": false
+        }
+      ],
+      "description": "Army of Tennessee",
+      "armies": 1
+    },
+    "US": {
+      "casualties": 2747,
+      "commanders": [
+        {
+          "middle_name": "T.",
+          "last_name": "Sherman",
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Major General",
+          "fullname": "William T. Sherman",
+          "navy": false
+        }
+      ],
+      "description": "Military Division of the Mississippi"
     }
   },
-  "result": "Inconclusive",
-  "battle": "GA008",
+  "campaign": "Atlanta Campaign [May-September 1864]",
+  "end_date": "1864-05-15",
+  "description": "Gen. Joseph E. Johnston had withdrawn from Rocky Face Ridge to the hills around Resaca. On the 13th, the Union troops tested the Rebel lines to pinpoint their whereabouts. The next day full scale fighting occurred, and the Union troops were generally repulsed except on the Rebel right flank where Sherman did not fully exploit his advantage. On the 15th, the battle continued with no advantage to either side until Sherman sent a force across the Oostanula River, at Lay's Ferry, towards Johnston's railroad supply line. Unable to halt this Union movement, Johnston was forced to retire.",
   "location": [
     {
       "state": "GA",
@@ -110,5 +107,8 @@
       "place": "Whitfield County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/ga008.htm"
+  "battle_name": "Resaca",
+  "start_date": "1864-05-13",
+  "casualties": 5547,
+  "principal_commanders": "Maj. Gen. William T. Sherman [US]; Gen. Joseph E. Johnston [CS]"
 }

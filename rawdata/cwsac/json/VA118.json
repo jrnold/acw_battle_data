@@ -1,102 +1,102 @@
 {
-  "end_date": "1864-09-04",
-  "casualties": 500,
-  "casualties_text": "500 total",
+  "battle": "VA118",
+  "operation": false,
+  "cwsac_reference": "VA118",
   "forces": {
     "Confederate": {
-      "corps": 1,
       "commanders": [
         {
-          "rank": "Lieutenant General",
-          "first_name": "Jubal",
-          "suffix": "",
-          "navy": false,
           "middle_name": "A.",
           "last_name": "Early",
-          "fullname": "Jubal A. Early"
+          "suffix": "",
+          "first_name": "Jubal",
+          "rank": "Lieutenant General",
+          "fullname": "Jubal A. Early",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
     },
     "US": {
-      "corps": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Philip",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Sheridan",
-          "fullname": "Philip Sheridan"
+          "suffix": "",
+          "first_name": "Philip",
+          "rank": "Major General",
+          "fullname": "Philip Sheridan",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
     }
   },
-  "cwsac_reference": "VA118",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va118.htm",
   "forces_text": "Corps",
-  "start_date": "1864-09-03",
-  "preservation": "II.3",
+  "casualties_text": "500 total",
   "results_text": "Inconclusive",
-  "description": "Maj. Gen. Philip Sheridan's divisions marched south from Halltown, reaching Berryville on September 3. Happening upon elements of Brig. Gen. George Crook's corps going into camp, Maj. Gen. R.H. Anderson's (Kershaw's) division attacked with limited results. During the night, Early brought up his entire army but by daylight found Sheridan's position too strongly entrenched to assault. General Early withdrew after dark behind Opequon Creek.",
-  "state": "VA",
-  "significance": "C",
-  "other_names": null,
   "dates": "September 3-4, 1864",
-  "battle_name": "Berryville",
-  "principal_commanders": "Maj. Gen. Philip Sheridan [US]; Lt. Gen. Jubal A. Early [CS]",
-  "campaign": "Sheridan's Valley Campaign [August-October 1864]",
+  "result": "Inconclusive",
+  "other_names": null,
+  "significance": "C",
+  "preservation": "II.3",
+  "state": "VA",
   "belligerents": {
-    "Confederate": {
-      "corps": 1,
+    "CS": {
       "commanders": [
         {
-          "rank": "Lieutenant General",
-          "first_name": "Jubal",
-          "suffix": "",
-          "navy": false,
           "middle_name": "A.",
           "last_name": "Early",
-          "fullname": "Jubal A. Early"
+          "suffix": "",
+          "first_name": "Jubal",
+          "rank": "Lieutenant General",
+          "fullname": "Jubal A. Early",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
+    },
+    "Confederate": {
+      "commanders": [
+        {
+          "middle_name": "A.",
+          "last_name": "Early",
+          "suffix": "",
+          "first_name": "Jubal",
+          "rank": "Lieutenant General",
+          "fullname": "Jubal A. Early",
+          "navy": false
+        }
+      ],
+      "corps": 1
     },
     "US": {
-      "corps": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Philip",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Sheridan",
-          "fullname": "Philip Sheridan"
-        }
-      ]
-    },
-    "CS": {
-      "corps": 1,
-      "commanders": [
-        {
-          "rank": "Lieutenant General",
-          "first_name": "Jubal",
           "suffix": "",
-          "navy": false,
-          "middle_name": "A.",
-          "last_name": "Early",
-          "fullname": "Jubal A. Early"
+          "first_name": "Philip",
+          "rank": "Major General",
+          "fullname": "Philip Sheridan",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
     }
   },
-  "result": "Inconclusive",
-  "battle": "VA118",
+  "campaign": "Sheridan's Valley Campaign [August-October 1864]",
+  "end_date": "1864-09-04",
+  "description": "Maj. Gen. Philip Sheridan's divisions marched south from Halltown, reaching Berryville on September 3. Happening upon elements of Brig. Gen. George Crook's corps going into camp, Maj. Gen. R.H. Anderson's (Kershaw's) division attacked with limited results. During the night, Early brought up his entire army but by daylight found Sheridan's position too strongly entrenched to assault. General Early withdrew after dark behind Opequon Creek.",
   "location": [
     {
       "state": "VA",
       "place": "Clarke County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/va118.htm"
+  "battle_name": "Berryville",
+  "start_date": "1864-09-03",
+  "casualties": 500,
+  "principal_commanders": "Maj. Gen. Philip Sheridan [US]; Lt. Gen. Jubal A. Early [CS]"
 }

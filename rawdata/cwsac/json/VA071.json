@@ -1,55 +1,52 @@
 {
-  "end_date": "1864-08-20",
-  "casualties": 4600,
-  "casualties_text": "4,600 total",
+  "battle": "VA071",
+  "operation": false,
+  "cwsac_reference": "VA071",
   "forces": {
     "Confederate": {
-      "corps": 1,
       "commanders": [
         {
-          "rank": "General",
-          "first_name": "Robert",
-          "suffix": "",
-          "navy": false,
           "middle_name": "E.",
           "last_name": "Lee",
-          "fullname": "Robert E. Lee"
+          "suffix": "",
+          "first_name": "Robert",
+          "rank": "General",
+          "fullname": "Robert E. Lee",
+          "navy": false
         },
         {
-          "rank": "Major General",
-          "first_name": "Charles",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Field",
-          "fullname": "Charles Field"
+          "suffix": "",
+          "first_name": "Charles",
+          "rank": "Major General",
+          "fullname": "Charles Field",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
     },
     "US": {
-      "corps": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Winfield",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Scott",
           "last_name": "Hancock",
-          "fullname": "Winfield Scott Hancock"
+          "suffix": "",
+          "first_name": "Winfield",
+          "rank": "Major General",
+          "fullname": "Winfield Scott Hancock",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
     }
   },
-  "cwsac_reference": "VA071",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va071.htm",
   "forces_text": "Corps",
-  "start_date": "1864-08-13",
-  "preservation": "I.3",
+  "casualties_text": "4,600 total",
   "results_text": "Confederate victory",
-  "description": "During the night of August 13-14, the Union II Corps, X Corps, and Gregg's cavalry division, all under command of Maj. Gen. Winfield Scott Hancock, crossed James River at Deep Bottom to threaten Richmond, coordinating with a movement against the Weldon Railroad at Petersburg. On August 14, the X Corps closed on New Market Heights while the II Corps extended the Federal line to the right along Bailey's Creek. During the night, the X Corps was moved to the far right flank of the Union line near Fussell's Mill. On August 16, Union assaults near Fussell's Mill were initially successful, but Confederate counterattacks drove the Federals out of a line of captured works. Heavy fighting continued throughout the remainder of the day. Confederate general John Chambliss was killed during cavalry fighting on Charles City Road. After continual skirmishing, the Federals returned to the southside of the James on the 20th, maintaining their bridgehead at Deep Bottom.",
-  "state": "VA",
-  "significance": "B",
+  "dates": "August 13-20, 1864",
+  "result": "Confederate",
   "other_names": [
     "New Market Road",
     "Fussell's Mill",
@@ -57,79 +54,82 @@
     "Charles City Road",
     "and White's Tavern"
   ],
-  "dates": "August 13-20, 1864",
-  "battle_name": "Deep Bottom II",
-  "principal_commanders": "Maj. Gen. Winfield Scott Hancock [US]; Gen. Robert E. Lee and Maj. Gen. Charles Field [CS]",
-  "campaign": "Richmond-Petersburg Campaign [June 1864-March 1865]",
+  "significance": "B",
+  "preservation": "I.3",
+  "state": "VA",
   "belligerents": {
-    "Confederate": {
-      "corps": 1,
+    "CS": {
       "commanders": [
         {
-          "rank": "General",
-          "first_name": "Robert",
-          "suffix": "",
-          "navy": false,
           "middle_name": "E.",
           "last_name": "Lee",
-          "fullname": "Robert E. Lee"
+          "suffix": "",
+          "first_name": "Robert",
+          "rank": "General",
+          "fullname": "Robert E. Lee",
+          "navy": false
         },
         {
-          "rank": "Major General",
-          "first_name": "Charles",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Field",
-          "fullname": "Charles Field"
+          "suffix": "",
+          "first_name": "Charles",
+          "rank": "Major General",
+          "fullname": "Charles Field",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
+    },
+    "Confederate": {
+      "commanders": [
+        {
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "suffix": "",
+          "first_name": "Robert",
+          "rank": "General",
+          "fullname": "Robert E. Lee",
+          "navy": false
+        },
+        {
+          "middle_name": "",
+          "last_name": "Field",
+          "suffix": "",
+          "first_name": "Charles",
+          "rank": "Major General",
+          "fullname": "Charles Field",
+          "navy": false
+        }
+      ],
+      "corps": 1
     },
     "US": {
-      "corps": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Winfield",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Scott",
           "last_name": "Hancock",
-          "fullname": "Winfield Scott Hancock"
-        }
-      ]
-    },
-    "CS": {
-      "corps": 1,
-      "commanders": [
-        {
-          "rank": "General",
-          "first_name": "Robert",
           "suffix": "",
-          "navy": false,
-          "middle_name": "E.",
-          "last_name": "Lee",
-          "fullname": "Robert E. Lee"
-        },
-        {
+          "first_name": "Winfield",
           "rank": "Major General",
-          "first_name": "Charles",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Field",
-          "fullname": "Charles Field"
+          "fullname": "Winfield Scott Hancock",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
     }
   },
-  "result": "Confederate",
-  "battle": "VA071",
+  "campaign": "Richmond-Petersburg Campaign [June 1864-March 1865]",
+  "end_date": "1864-08-20",
+  "description": "During the night of August 13-14, the Union II Corps, X Corps, and Gregg's cavalry division, all under command of Maj. Gen. Winfield Scott Hancock, crossed James River at Deep Bottom to threaten Richmond, coordinating with a movement against the Weldon Railroad at Petersburg. On August 14, the X Corps closed on New Market Heights while the II Corps extended the Federal line to the right along Bailey's Creek. During the night, the X Corps was moved to the far right flank of the Union line near Fussell's Mill. On August 16, Union assaults near Fussell's Mill were initially successful, but Confederate counterattacks drove the Federals out of a line of captured works. Heavy fighting continued throughout the remainder of the day. Confederate general John Chambliss was killed during cavalry fighting on Charles City Road. After continual skirmishing, the Federals returned to the southside of the James on the 20th, maintaining their bridgehead at Deep Bottom.",
   "location": [
     {
       "state": "VA",
       "place": "Henrico County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/va071.htm"
+  "battle_name": "Deep Bottom II",
+  "start_date": "1864-08-13",
+  "casualties": 4600,
+  "principal_commanders": "Maj. Gen. Winfield Scott Hancock [US]; Gen. Robert E. Lee and Maj. Gen. Charles Field [CS]"
 }

@@ -1,18 +1,18 @@
 {
-  "end_date": "1863-07-28",
-  "casualties": null,
-  "casualties_text": "Unknown",
+  "battle": "ND003",
+  "operation": false,
+  "cwsac_reference": "ND003",
   "forces": {
     "Native American": {
       "commanders": [
         {
-          "rank": "",
-          "first_name": "Inkpaduta",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "",
-          "fullname": "Inkpaduta"
+          "suffix": "",
+          "first_name": "Inkpaduta",
+          "rank": "",
+          "fullname": "Inkpaduta",
+          "navy": false
         }
       ],
       "description": "Santee and Teton Sioux"
@@ -20,57 +20,39 @@
     "US": {
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Henry",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Hastings",
           "last_name": "Sibley",
-          "fullname": "Henry Hastings Sibley"
+          "suffix": "",
+          "first_name": "Henry",
+          "rank": "Brigadier General",
+          "fullname": "Henry Hastings Sibley",
+          "navy": false
         }
       ],
       "description": "District of Minnesota"
-    },
-    "I": {
-      "commanders": [
-        {
-          "rank": "",
-          "first_name": "Inkpaduta",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "",
-          "fullname": "Inkpaduta"
-        }
-      ],
-      "description": "Santee and Teton Sioux"
     }
   },
-  "cwsac_reference": "ND003",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/nd003.htm",
   "forces_text": "District of Minnesota [US]; Santee and Teton Sioux [I]",
-  "start_date": "1863-07-28",
-  "preservation": "III.4",
+  "casualties_text": "Unknown",
   "results_text": "Union victory",
-  "description": "Following the Battle of Dead Buffalo Lake, Brig. Gen. Henry Hastings Sibley continued his march after the retreating Sioux until he reached Stony Lake, where his animals' exhaustion compelled him to encamp. On the 28th, the force had started out in pursuit again when Sibley discovered that a large number of Sioux was moving upon him. He ordered the men to make defensive preparations, which many had already accomplished. In the face of enemy, Sibley now resumed his march. The Sioux searched for weak points in the soldiers position. Finding none, the Sioux rode off at great speed, preventing pursuit. The Sioux had hoped to halt Sibley's advance but were unable to do so. Sibley remarked in his report that Stony Lake was \"the greatest conflict between our troops and the Indians, so far as the numbers were concerned.\"",
-  "state": "ND",
-  "significance": "D",
-  "other_names": null,
   "dates": "July 28, 1863",
-  "battle_name": "Stony Lake",
-  "principal_commanders": "Brig. Gen. Henry Hastings Sibley [US]; Chief Inkpaduta [I]",
-  "campaign": "Operations Against the Sioux in North Dakota [July 1863]",
+  "result": "Union",
+  "other_names": null,
+  "significance": "D",
+  "preservation": "III.4",
+  "state": "ND",
   "belligerents": {
     "Native American": {
       "commanders": [
         {
-          "rank": "",
-          "first_name": "Inkpaduta",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "",
-          "fullname": "Inkpaduta"
+          "suffix": "",
+          "first_name": "Inkpaduta",
+          "rank": "",
+          "fullname": "Inkpaduta",
+          "navy": false
         }
       ],
       "description": "Santee and Teton Sioux"
@@ -78,13 +60,13 @@
     "US": {
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Henry",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Hastings",
           "last_name": "Sibley",
-          "fullname": "Henry Hastings Sibley"
+          "suffix": "",
+          "first_name": "Henry",
+          "rank": "Brigadier General",
+          "fullname": "Henry Hastings Sibley",
+          "navy": false
         }
       ],
       "description": "District of Minnesota"
@@ -92,25 +74,29 @@
     "I": {
       "commanders": [
         {
-          "rank": "",
-          "first_name": "Inkpaduta",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "",
-          "fullname": "Inkpaduta"
+          "suffix": "",
+          "first_name": "Inkpaduta",
+          "rank": "",
+          "fullname": "Inkpaduta",
+          "navy": false
         }
       ],
       "description": "Santee and Teton Sioux"
     }
   },
-  "result": "Union",
-  "battle": "ND003",
+  "campaign": "Operations Against the Sioux in North Dakota [July 1863]",
+  "end_date": "1863-07-28",
+  "description": "Following the Battle of Dead Buffalo Lake, Brig. Gen. Henry Hastings Sibley continued his march after the retreating Sioux until he reached Stony Lake, where his animals' exhaustion compelled him to encamp. On the 28th, the force had started out in pursuit again when Sibley discovered that a large number of Sioux was moving upon him. He ordered the men to make defensive preparations, which many had already accomplished. In the face of enemy, Sibley now resumed his march. The Sioux searched for weak points in the soldiers position. Finding none, the Sioux rode off at great speed, preventing pursuit. The Sioux had hoped to halt Sibley's advance but were unable to do so. Sibley remarked in his report that Stony Lake was \"the greatest conflict between our troops and the Indians, so far as the numbers were concerned.\"",
   "location": [
     {
       "state": "ND",
       "place": "Burleigh County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/nd003.htm"
+  "battle_name": "Stony Lake",
+  "start_date": "1863-07-28",
+  "casualties": null,
+  "principal_commanders": "Brig. Gen. Henry Hastings Sibley [US]; Chief Inkpaduta [I]"
 }

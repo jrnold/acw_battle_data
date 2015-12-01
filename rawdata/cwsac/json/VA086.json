@@ -1,140 +1,140 @@
 {
-  "end_date": "1865-03-31",
-  "casualties": 821,
-  "casualties_text": "821 total",
+  "battle": "VA086",
+  "operation": false,
+  "cwsac_reference": "VA086",
   "forces": {
     "Confederate": {
+      "strength_min": 20030,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "George",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Pickett",
-          "fullname": "George Pickett"
+          "suffix": "",
+          "first_name": "George",
+          "rank": "Major General",
+          "fullname": "George Pickett",
+          "navy": false
         },
         {
-          "rank": "Major General",
-          "first_name": "Fitzhugh",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Lee",
-          "fullname": "Fitzhugh Lee"
+          "suffix": "",
+          "first_name": "Fitzhugh",
+          "rank": "Major General",
+          "fullname": "Fitzhugh Lee",
+          "navy": false
         }
       ],
-      "strength_min": 20030,
       "description": "20,030",
       "strength_max": 20030
     },
     "US": {
+      "strength_min": 45247,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Philip",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Sheridan",
-          "fullname": "Philip Sheridan"
+          "suffix": "",
+          "first_name": "Philip",
+          "rank": "Major General",
+          "fullname": "Philip Sheridan",
+          "navy": false
         }
       ],
-      "strength_min": 45247,
       "description": "45,247",
       "strength_max": 45247
     }
   },
-  "strength": 65277,
-  "cwsac_reference": "VA086",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va086.htm",
   "forces_text": "65,277 total (US 45,247; CS 20,030)",
-  "start_date": "1865-03-31",
-  "preservation": "II.3",
+  "strength": 65277,
+  "casualties_text": "821 total",
   "results_text": "Confederate victory",
-  "description": "On March 29, with the Cavalry Corps and the II and V Corps, Sheridan undertook a flank march to turn Gen. Robert E. Lee's Petersburg defenses. A steady downpour turned the roads to mud, slowing the advance. On March 31, Maj. Gen. W.H. Fitzhugh Lee's cavalry and Pickett's infantry division met the Union vanguard north and northwest of Dinwiddie Court House and drove it back, temporarily stalling Sheridan's movement. With Union infantry approaching from the east, Pickett withdrew before daybreak to entrench at the vital road junction at Five Forks. Lee ordered Pickett to hold this intersection at all hazard.",
-  "state": "VA",
-  "significance": "C",
-  "other_names": null,
   "dates": "March 31, 1865",
-  "battle_name": "Dinwiddie Court House",
-  "principal_commanders": "Maj. Gen. Philip Sheridan [US]; Maj. Gen. George Pickett and Maj. Gen. Fitzhugh Lee [CS]",
+  "result": "Confederate",
+  "other_names": null,
+  "significance": "C",
+  "preservation": "II.3",
+  "state": "VA",
+  "belligerents": {
+    "CS": {
+      "strength_min": 20030,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Pickett",
+          "suffix": "",
+          "first_name": "George",
+          "rank": "Major General",
+          "fullname": "George Pickett",
+          "navy": false
+        },
+        {
+          "middle_name": "",
+          "last_name": "Lee",
+          "suffix": "",
+          "first_name": "Fitzhugh",
+          "rank": "Major General",
+          "fullname": "Fitzhugh Lee",
+          "navy": false
+        }
+      ],
+      "description": "20,030",
+      "strength_max": 20030
+    },
+    "Confederate": {
+      "strength_min": 20030,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Pickett",
+          "suffix": "",
+          "first_name": "George",
+          "rank": "Major General",
+          "fullname": "George Pickett",
+          "navy": false
+        },
+        {
+          "middle_name": "",
+          "last_name": "Lee",
+          "suffix": "",
+          "first_name": "Fitzhugh",
+          "rank": "Major General",
+          "fullname": "Fitzhugh Lee",
+          "navy": false
+        }
+      ],
+      "description": "20,030",
+      "strength_max": 20030
+    },
+    "US": {
+      "strength_min": 45247,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Sheridan",
+          "suffix": "",
+          "first_name": "Philip",
+          "rank": "Major General",
+          "fullname": "Philip Sheridan",
+          "navy": false
+        }
+      ],
+      "description": "45,247",
+      "strength_max": 45247
+    }
+  },
+  "campaign": "Appomattox Campaign [March-April 1865]",
+  "end_date": "1865-03-31",
+  "description": "On March 29, with the Cavalry Corps and the II and V Corps, Sheridan undertook a flank march to turn Gen. Robert E. Lee's Petersburg defenses. A steady downpour turned the roads to mud, slowing the advance. On March 31, Maj. Gen. W.H. Fitzhugh Lee's cavalry and Pickett's infantry division met the Union vanguard north and northwest of Dinwiddie Court House and drove it back, temporarily stalling Sheridan's movement. With Union infantry approaching from the east, Pickett withdrew before daybreak to entrench at the vital road junction at Five Forks. Lee ordered Pickett to hold this intersection at all hazard.",
   "location": [
     {
       "state": "VA",
       "place": "Dinwiddie County"
     }
   ],
-  "belligerents": {
-    "Confederate": {
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "George",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Pickett",
-          "fullname": "George Pickett"
-        },
-        {
-          "rank": "Major General",
-          "first_name": "Fitzhugh",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Lee",
-          "fullname": "Fitzhugh Lee"
-        }
-      ],
-      "strength_min": 20030,
-      "description": "20,030",
-      "strength_max": 20030
-    },
-    "US": {
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Philip",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Sheridan",
-          "fullname": "Philip Sheridan"
-        }
-      ],
-      "strength_min": 45247,
-      "description": "45,247",
-      "strength_max": 45247
-    },
-    "CS": {
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "George",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Pickett",
-          "fullname": "George Pickett"
-        },
-        {
-          "rank": "Major General",
-          "first_name": "Fitzhugh",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Lee",
-          "fullname": "Fitzhugh Lee"
-        }
-      ],
-      "strength_min": 20030,
-      "description": "20,030",
-      "strength_max": 20030
-    }
-  },
-  "result": "Confederate",
-  "battle": "VA086",
-  "campaign": "Appomattox Campaign [March-April 1865]",
-  "url": "http://www.nps.gov/hps/abpp/battles/va086.htm"
+  "battle_name": "Dinwiddie Court House",
+  "start_date": "1865-03-31",
+  "casualties": 821,
+  "principal_commanders": "Maj. Gen. Philip Sheridan [US]; Maj. Gen. George Pickett and Maj. Gen. Fitzhugh Lee [CS]"
 }

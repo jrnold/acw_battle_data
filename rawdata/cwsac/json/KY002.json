@@ -1,19 +1,19 @@
 {
-  "end_date": "1861-10-21",
-  "casualties": 78,
-  "casualties_text": "78 total (US 25; CS 53)",
+  "battle": "KY002",
+  "operation": false,
+  "cwsac_reference": "KY002",
   "forces": {
     "Confederate": {
       "casualties": 53,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Felix",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Zollicoffer",
-          "fullname": "Felix Zollicoffer"
+          "suffix": "",
+          "first_name": "Felix",
+          "rank": "Brigadier General",
+          "fullname": "Felix Zollicoffer",
+          "navy": false
         }
       ],
       "brigades": 1,
@@ -21,96 +21,96 @@
     },
     "US": {
       "casualties": 25,
+      "strength_min": 7000,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Albin",
-          "suffix": "",
-          "navy": false,
           "middle_name": "F.",
           "last_name": "Schoepf",
-          "fullname": "Albin F. Schoepf"
+          "suffix": "",
+          "first_name": "Albin",
+          "rank": "Brigadier General",
+          "fullname": "Albin F. Schoepf",
+          "navy": false
         }
       ],
       "description": "Camp Wildcat Garrison and Schoepf's Brigade (approx. 7,000 men)",
-      "strength_min": 7000,
       "strength_max": 7000
     }
   },
-  "cwsac_reference": "KY002",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ky002.htm",
   "forces_text": "Camp Wildcat Garrison and Schoepf's Brigade (approx. 7,000 men) [US]; Zollicoffer's Brigade [CS]",
-  "start_date": "1861-10-21",
-  "preservation": "III.3",
+  "casualties_text": "78 total (US 25; CS 53)",
   "results_text": "Union victory",
-  "description": "Brig. Gen. Felix Zollicoffer's men occupied Cumberland Gap and took position at Cumberland Ford to counter the Unionist activity in the area. Brig. Gen. George H. Thomas sent a detachment under Col. T.T. Garrard to secure the ford on the Rockcastle River, establish a camp at Wildcat Mountain, and obstruct the Wilderness road passing through the area. Col. Garrard informed Thomas that if he did not receive reinforcements, he would have to retreat because he was outnumbered seven to one. Thomas sent Brig. Gen. A. Schoepf with what amounted to a brigade of men to Col. Garrard, bringing the total force to about 7,000. On the morning of October 21, soon after Schoepf arrived, some of his men moved forward and ran into Rebel forces, commencing a fight. The Federals repelled the Confederate attacks, in part due to fortifications, both man-made and natural. The Confederates withdrew during the night and continued their retreat to Cumberland Ford, which they reached on the 26th. A Union victory was welcomed, countering the Confederate victory at Barbourville.",
-  "state": "KY",
-  "significance": "C",
+  "dates": "October 21, 1861",
+  "result": "Union",
   "other_names": [
     "Wildcat Mountain"
   ],
-  "dates": "October 21, 1861",
-  "battle_name": "Camp Wildcat",
-  "principal_commanders": "Brig. Gen. Albin F. Schoepf [US]; Brig. Gen. Felix Zollicoffer [CS]",
-  "campaign": "Operations in Eastern Kentucky [September-December 1861]",
+  "significance": "C",
+  "preservation": "III.3",
+  "state": "KY",
   "belligerents": {
-    "Confederate": {
-      "casualties": 53,
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "Felix",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Zollicoffer",
-          "fullname": "Felix Zollicoffer"
-        }
-      ],
-      "brigades": 1,
-      "description": "Zollicoffer's Brigade"
-    },
-    "US": {
-      "casualties": 25,
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "Albin",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "F.",
-          "last_name": "Schoepf",
-          "fullname": "Albin F. Schoepf"
-        }
-      ],
-      "description": "Camp Wildcat Garrison and Schoepf's Brigade (approx. 7,000 men)",
-      "strength_min": 7000,
-      "strength_max": 7000
-    },
     "CS": {
       "casualties": 53,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Felix",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Zollicoffer",
-          "fullname": "Felix Zollicoffer"
+          "suffix": "",
+          "first_name": "Felix",
+          "rank": "Brigadier General",
+          "fullname": "Felix Zollicoffer",
+          "navy": false
         }
       ],
       "brigades": 1,
       "description": "Zollicoffer's Brigade"
+    },
+    "Confederate": {
+      "casualties": 53,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Zollicoffer",
+          "suffix": "",
+          "first_name": "Felix",
+          "rank": "Brigadier General",
+          "fullname": "Felix Zollicoffer",
+          "navy": false
+        }
+      ],
+      "brigades": 1,
+      "description": "Zollicoffer's Brigade"
+    },
+    "US": {
+      "casualties": 25,
+      "strength_min": 7000,
+      "commanders": [
+        {
+          "middle_name": "F.",
+          "last_name": "Schoepf",
+          "suffix": "",
+          "first_name": "Albin",
+          "rank": "Brigadier General",
+          "fullname": "Albin F. Schoepf",
+          "navy": false
+        }
+      ],
+      "description": "Camp Wildcat Garrison and Schoepf's Brigade (approx. 7,000 men)",
+      "strength_max": 7000
     }
   },
-  "result": "Union",
-  "battle": "KY002",
+  "campaign": "Operations in Eastern Kentucky [September-December 1861]",
+  "end_date": "1861-10-21",
+  "description": "Brig. Gen. Felix Zollicoffer's men occupied Cumberland Gap and took position at Cumberland Ford to counter the Unionist activity in the area. Brig. Gen. George H. Thomas sent a detachment under Col. T.T. Garrard to secure the ford on the Rockcastle River, establish a camp at Wildcat Mountain, and obstruct the Wilderness road passing through the area. Col. Garrard informed Thomas that if he did not receive reinforcements, he would have to retreat because he was outnumbered seven to one. Thomas sent Brig. Gen. A. Schoepf with what amounted to a brigade of men to Col. Garrard, bringing the total force to about 7,000. On the morning of October 21, soon after Schoepf arrived, some of his men moved forward and ran into Rebel forces, commencing a fight. The Federals repelled the Confederate attacks, in part due to fortifications, both man-made and natural. The Confederates withdrew during the night and continued their retreat to Cumberland Ford, which they reached on the 26th. A Union victory was welcomed, countering the Confederate victory at Barbourville.",
   "location": [
     {
       "state": "KY",
       "place": "Laurel County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/ky002.htm"
+  "battle_name": "Camp Wildcat",
+  "start_date": "1861-10-21",
+  "casualties": 78,
+  "principal_commanders": "Brig. Gen. Albin F. Schoepf [US]; Brig. Gen. Felix Zollicoffer [CS]"
 }

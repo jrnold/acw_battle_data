@@ -1,120 +1,120 @@
 {
-  "end_date": "1864-10-09",
-  "casualties": 407,
-  "casualties_text": "407 total (US 57; CS 350)",
+  "battle": "VA121",
+  "operation": false,
+  "cwsac_reference": "VA121",
   "forces": {
     "Confederate": {
       "casualties": 350,
+      "strength_min": 3500,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Thomas",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Rosser",
-          "fullname": "Thomas Rosser"
+          "suffix": "",
+          "first_name": "Thomas",
+          "rank": "Major General",
+          "fullname": "Thomas Rosser",
+          "navy": false
         }
       ],
       "description": "3,500",
-      "strength_min": 3500,
       "strength_max": 3500
     },
     "US": {
       "casualties": 57,
+      "strength_min": 6300,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Alfred",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Torbert",
-          "fullname": "Alfred Torbert"
+          "suffix": "",
+          "first_name": "Alfred",
+          "rank": "Brigadier General",
+          "fullname": "Alfred Torbert",
+          "navy": false
         }
       ],
       "description": "6,300",
-      "strength_min": 6300,
       "strength_max": 6300
     }
   },
-  "strength": 9800,
-  "cwsac_reference": "VA121",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va121.htm",
   "forces_text": "9,800 total (US 6,300; CS 3,500)",
-  "start_date": "1864-10-09",
-  "preservation": "II.3",
+  "strength": 9800,
+  "casualties_text": "407 total (US 57; CS 350)",
   "results_text": "Union victory",
-  "description": "After his victory at Fisher's Hill, Maj. Gen. Philip Sheridan pursued Early's army up the Shenandoah Valley to near Staunton. On October 6, Sheridan began withdrawing, as his cavalry burned everything that could be deemed of military significance, including barns and mills. Reinforced by Kershaw's division, Early followed. Maj. Gen. Thomas Rosser arrived from Petersburg to take command of Fitz Lee's cavalry division and harassed the retreating Federals. On October 9, Torbert's troopers turned on their pursuers, routing the divisions of Rosser and Lomax at Tom's Brook. With this victory, the Union cavalry attained overwhelming superiority in the Valley.",
-  "state": "VA",
-  "significance": "C",
+  "dates": "October 9, 1864",
+  "result": "Union",
   "other_names": [
     "Woodstock Races"
   ],
-  "dates": "October 9, 1864",
-  "battle_name": "Tom's Brook",
-  "principal_commanders": "Brig. Gen. Alfred Torbert [US]; Maj. Gen. Thomas Rosser [CS]",
+  "significance": "C",
+  "preservation": "II.3",
+  "state": "VA",
+  "belligerents": {
+    "CS": {
+      "casualties": 350,
+      "strength_min": 3500,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Rosser",
+          "suffix": "",
+          "first_name": "Thomas",
+          "rank": "Major General",
+          "fullname": "Thomas Rosser",
+          "navy": false
+        }
+      ],
+      "description": "3,500",
+      "strength_max": 3500
+    },
+    "Confederate": {
+      "casualties": 350,
+      "strength_min": 3500,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Rosser",
+          "suffix": "",
+          "first_name": "Thomas",
+          "rank": "Major General",
+          "fullname": "Thomas Rosser",
+          "navy": false
+        }
+      ],
+      "description": "3,500",
+      "strength_max": 3500
+    },
+    "US": {
+      "casualties": 57,
+      "strength_min": 6300,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Torbert",
+          "suffix": "",
+          "first_name": "Alfred",
+          "rank": "Brigadier General",
+          "fullname": "Alfred Torbert",
+          "navy": false
+        }
+      ],
+      "description": "6,300",
+      "strength_max": 6300
+    }
+  },
+  "campaign": "Sheridan's Valley Campaign [August-October 1864]",
+  "end_date": "1864-10-09",
+  "description": "After his victory at Fisher's Hill, Maj. Gen. Philip Sheridan pursued Early's army up the Shenandoah Valley to near Staunton. On October 6, Sheridan began withdrawing, as his cavalry burned everything that could be deemed of military significance, including barns and mills. Reinforced by Kershaw's division, Early followed. Maj. Gen. Thomas Rosser arrived from Petersburg to take command of Fitz Lee's cavalry division and harassed the retreating Federals. On October 9, Torbert's troopers turned on their pursuers, routing the divisions of Rosser and Lomax at Tom's Brook. With this victory, the Union cavalry attained overwhelming superiority in the Valley.",
   "location": [
     {
       "state": "VA",
       "place": "Shenandoah County"
     }
   ],
-  "belligerents": {
-    "Confederate": {
-      "casualties": 350,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Thomas",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Rosser",
-          "fullname": "Thomas Rosser"
-        }
-      ],
-      "description": "3,500",
-      "strength_min": 3500,
-      "strength_max": 3500
-    },
-    "US": {
-      "casualties": 57,
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "Alfred",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Torbert",
-          "fullname": "Alfred Torbert"
-        }
-      ],
-      "description": "6,300",
-      "strength_min": 6300,
-      "strength_max": 6300
-    },
-    "CS": {
-      "casualties": 350,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Thomas",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Rosser",
-          "fullname": "Thomas Rosser"
-        }
-      ],
-      "description": "3,500",
-      "strength_min": 3500,
-      "strength_max": 3500
-    }
-  },
-  "result": "Union",
-  "battle": "VA121",
-  "campaign": "Sheridan's Valley Campaign [August-October 1864]",
-  "url": "http://www.nps.gov/hps/abpp/battles/va121.htm"
+  "battle_name": "Tom's Brook",
+  "start_date": "1864-10-09",
+  "casualties": 407,
+  "principal_commanders": "Brig. Gen. Alfred Torbert [US]; Maj. Gen. Thomas Rosser [CS]"
 }

@@ -1,102 +1,102 @@
 {
-  "end_date": "1863-10-14",
-  "casualties": 1980,
-  "casualties_text": "1,980 total",
+  "battle": "VA040",
+  "operation": false,
+  "cwsac_reference": "VA040",
   "forces": {
     "Confederate": {
-      "corps": 1,
       "commanders": [
         {
-          "rank": "Lieutenant General",
-          "first_name": "A.P.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Hill",
-          "fullname": "A.P. Hill"
+          "suffix": "",
+          "first_name": "A.P.",
+          "rank": "Lieutenant General",
+          "fullname": "A.P. Hill",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
     },
     "US": {
-      "corps": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "G.K.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Warren",
-          "fullname": "G.K. Warren"
+          "suffix": "",
+          "first_name": "G.K.",
+          "rank": "Major General",
+          "fullname": "G.K. Warren",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
     }
   },
-  "cwsac_reference": "VA040",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va040.htm",
   "forces_text": "Corps",
-  "start_date": "1863-10-14",
-  "preservation": "I.3",
+  "casualties_text": "1,980 total",
   "results_text": "Union victory",
-  "description": "On October 14, 1863, A.P. Hill's corps stumbled upon two corps of the retreating Union army at Bristoe Station and attacked without proper reconnaissance. Union soldiers of the II Corps, posted behind the Orange & Alexandria Railroad embankment, mauled two brigades of Henry Heth's division and captured a battery of artillery. Hill reinforced his line but could make little headway against the determined defenders. After this victory, the Federals continued their withdrawal to Centreville unmolested. Lee's Bristoe offensive sputtered to a premature halt. After minor skirmishing near Manassas and Centreville, the Confederates retired slowly to Rappahannock River destroying the Orange & Alexandria Railroad as they went. At Bristoe Station, Hill lost standing in the eyes of Lee, who angrily ordered him to bury his dead and say no more about it.",
-  "state": "VA",
-  "significance": "B",
-  "other_names": null,
   "dates": "October 14, 1863",
-  "battle_name": "Bristoe Station",
-  "principal_commanders": "Maj. Gen. G.K. Warren [US]; Lt. Gen. A.P. Hill [CS]",
-  "campaign": "Bristoe Campaign [October-November 1863]",
+  "result": "Union",
+  "other_names": null,
+  "significance": "B",
+  "preservation": "I.3",
+  "state": "VA",
   "belligerents": {
-    "Confederate": {
-      "corps": 1,
+    "CS": {
       "commanders": [
         {
-          "rank": "Lieutenant General",
-          "first_name": "A.P.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Hill",
-          "fullname": "A.P. Hill"
+          "suffix": "",
+          "first_name": "A.P.",
+          "rank": "Lieutenant General",
+          "fullname": "A.P. Hill",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
+    },
+    "Confederate": {
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Hill",
+          "suffix": "",
+          "first_name": "A.P.",
+          "rank": "Lieutenant General",
+          "fullname": "A.P. Hill",
+          "navy": false
+        }
+      ],
+      "corps": 1
     },
     "US": {
-      "corps": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "G.K.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Warren",
-          "fullname": "G.K. Warren"
-        }
-      ]
-    },
-    "CS": {
-      "corps": 1,
-      "commanders": [
-        {
-          "rank": "Lieutenant General",
-          "first_name": "A.P.",
           "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Hill",
-          "fullname": "A.P. Hill"
+          "first_name": "G.K.",
+          "rank": "Major General",
+          "fullname": "G.K. Warren",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
     }
   },
-  "result": "Union",
-  "battle": "VA040",
+  "campaign": "Bristoe Campaign [October-November 1863]",
+  "end_date": "1863-10-14",
+  "description": "On October 14, 1863, A.P. Hill's corps stumbled upon two corps of the retreating Union army at Bristoe Station and attacked without proper reconnaissance. Union soldiers of the II Corps, posted behind the Orange & Alexandria Railroad embankment, mauled two brigades of Henry Heth's division and captured a battery of artillery. Hill reinforced his line but could make little headway against the determined defenders. After this victory, the Federals continued their withdrawal to Centreville unmolested. Lee's Bristoe offensive sputtered to a premature halt. After minor skirmishing near Manassas and Centreville, the Confederates retired slowly to Rappahannock River destroying the Orange & Alexandria Railroad as they went. At Bristoe Station, Hill lost standing in the eyes of Lee, who angrily ordered him to bury his dead and say no more about it.",
   "location": [
     {
       "state": "VA",
       "place": "Prince William County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/va040.htm"
+  "battle_name": "Bristoe Station",
+  "start_date": "1863-10-14",
+  "casualties": 1980,
+  "principal_commanders": "Maj. Gen. G.K. Warren [US]; Lt. Gen. A.P. Hill [CS]"
 }

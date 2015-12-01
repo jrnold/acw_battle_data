@@ -1,19 +1,19 @@
 {
-  "end_date": "1861-12-13",
-  "casualties": 283,
-  "casualties_text": "283 total (US 137; CS 146)",
+  "battle": "WV008",
+  "operation": false,
+  "cwsac_reference": "WV008",
   "forces": {
     "Confederate": {
       "casualties": 146,
       "commanders": [
         {
-          "rank": "Colonel",
-          "first_name": "Edward",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Johnson",
-          "fullname": "Edward \"Allegheny\" Johnson"
+          "suffix": "",
+          "first_name": "Edward",
+          "rank": "Colonel",
+          "fullname": "Edward \"Allegheny\" Johnson",
+          "navy": false
         }
       ],
       "brigades": 1
@@ -22,88 +22,88 @@
       "casualties": 137,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Robert",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Milroy",
-          "fullname": "Robert Milroy"
+          "suffix": "",
+          "first_name": "Robert",
+          "rank": "Brigadier General",
+          "fullname": "Robert Milroy",
+          "navy": false
         }
       ],
       "brigades": 1
     }
   },
-  "cwsac_reference": "WV008",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/wv008.htm",
   "forces_text": "Brigades",
-  "start_date": "1861-12-13",
-  "preservation": "III.3",
+  "casualties_text": "283 total (US 137; CS 146)",
   "results_text": "Inconclusive",
-  "description": "In December, Confederate forces under Col. Edward Johnson occupied the summit of Allegheny Mountain to defend the Staunton-Parkersburg Pike. A Union force under Brig. Gen. Robert Milroy attacked Johnson on December 13. Fighting continued for much of the morning as each side maneuvered to gain the advantage. Finally, Milroy's troops were repulsed, and he retreated to his camps near Cheat Mountain. At year's end, Edward Johnson remained at Camp Allegheny with five regiments, and Henry Heth was at Lewisburg with two regiments.",
-  "state": "WV",
-  "significance": "C",
+  "dates": "December 13, 1861",
+  "result": "Inconclusive",
   "other_names": [
     "Allegheny Mountain"
   ],
-  "dates": "December 13, 1861",
-  "battle_name": "Camp Alleghany",
-  "principal_commanders": "Brig. Gen. Robert Milroy [US]; Col. Edward \"Allegheny\" Johnson [CS]",
-  "campaign": "Operations in Western Virginia [June-December 1861]",
+  "significance": "C",
+  "preservation": "III.3",
+  "state": "WV",
   "belligerents": {
-    "Confederate": {
-      "casualties": 146,
-      "commanders": [
-        {
-          "rank": "Colonel",
-          "first_name": "Edward",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Johnson",
-          "fullname": "Edward \"Allegheny\" Johnson"
-        }
-      ],
-      "brigades": 1
-    },
-    "US": {
-      "casualties": 137,
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "Robert",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Milroy",
-          "fullname": "Robert Milroy"
-        }
-      ],
-      "brigades": 1
-    },
     "CS": {
       "casualties": 146,
       "commanders": [
         {
-          "rank": "Colonel",
-          "first_name": "Edward",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Johnson",
-          "fullname": "Edward \"Allegheny\" Johnson"
+          "suffix": "",
+          "first_name": "Edward",
+          "rank": "Colonel",
+          "fullname": "Edward \"Allegheny\" Johnson",
+          "navy": false
+        }
+      ],
+      "brigades": 1
+    },
+    "Confederate": {
+      "casualties": 146,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Johnson",
+          "suffix": "",
+          "first_name": "Edward",
+          "rank": "Colonel",
+          "fullname": "Edward \"Allegheny\" Johnson",
+          "navy": false
+        }
+      ],
+      "brigades": 1
+    },
+    "US": {
+      "casualties": 137,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Milroy",
+          "suffix": "",
+          "first_name": "Robert",
+          "rank": "Brigadier General",
+          "fullname": "Robert Milroy",
+          "navy": false
         }
       ],
       "brigades": 1
     }
   },
-  "result": "Inconclusive",
-  "battle": "WV008",
+  "campaign": "Operations in Western Virginia [June-December 1861]",
+  "end_date": "1861-12-13",
+  "description": "In December, Confederate forces under Col. Edward Johnson occupied the summit of Allegheny Mountain to defend the Staunton-Parkersburg Pike. A Union force under Brig. Gen. Robert Milroy attacked Johnson on December 13. Fighting continued for much of the morning as each side maneuvered to gain the advantage. Finally, Milroy's troops were repulsed, and he retreated to his camps near Cheat Mountain. At year's end, Edward Johnson remained at Camp Allegheny with five regiments, and Henry Heth was at Lewisburg with two regiments.",
   "location": [
     {
       "state": "WV",
       "place": "Pocahontas County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/wv008.htm"
+  "battle_name": "Camp Alleghany",
+  "start_date": "1861-12-13",
+  "casualties": 283,
+  "principal_commanders": "Brig. Gen. Robert Milroy [US]; Col. Edward \"Allegheny\" Johnson [CS]"
 }

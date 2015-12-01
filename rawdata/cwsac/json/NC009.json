@@ -1,107 +1,107 @@
 {
-  "end_date": "1862-12-17",
-  "casualties": 220,
-  "casualties_text": "220 total",
+  "battle": "NC009",
+  "operation": false,
+  "cwsac_reference": "NC009",
   "forces": {
     "Confederate": {
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Thomas",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Clingman",
-          "fullname": "Thomas Clingman"
+          "suffix": "",
+          "first_name": "Thomas",
+          "rank": "Brigadier General",
+          "fullname": "Thomas Clingman",
+          "navy": false
         }
       ],
       "brigades": 1,
       "description": "Clingman's Brigade"
     },
     "US": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "G.",
           "last_name": "Foster",
-          "fullname": "John G. Foster"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Brigadier General",
+          "fullname": "John G. Foster",
+          "navy": false
         }
       ],
-      "divisions": 1,
       "description": "Department of North Carolina, 1st Division"
     }
   },
-  "cwsac_reference": "NC009",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/nc009.htm",
   "forces_text": "Department of North Carolina, 1st Division [US]; Clingman's Brigade [CS]",
-  "start_date": "1862-12-17",
-  "preservation": "IV.2",
+  "casualties_text": "220 total",
   "results_text": "Union victory",
-  "description": "On December 17, Foster's expedition reached the railroad near Everettsville and began destroying the tracks north toward the Goldsborough Bridge. Clingman's Confederate brigade delayed the advance but was unable to prevent the destruction of the bridge. His mission accomplished, Foster returned to New Berne where he arrived on the 20th.",
-  "state": "NC",
-  "significance": "C",
-  "other_names": null,
   "dates": "December 17, 1862",
-  "battle_name": "Goldsborough Bridge",
-  "principal_commanders": "Brig. Gen. John G. Foster [US]; Brig. Gen. Thomas Clingman [CS]",
-  "campaign": "Goldsboro Expedition [December 1862]",
+  "result": "Union",
+  "other_names": null,
+  "significance": "C",
+  "preservation": "IV.2",
+  "state": "NC",
   "belligerents": {
-    "Confederate": {
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "Thomas",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Clingman",
-          "fullname": "Thomas Clingman"
-        }
-      ],
-      "brigades": 1,
-      "description": "Clingman's Brigade"
-    },
-    "US": {
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "G.",
-          "last_name": "Foster",
-          "fullname": "John G. Foster"
-        }
-      ],
-      "divisions": 1,
-      "description": "Department of North Carolina, 1st Division"
-    },
     "CS": {
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Thomas",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Clingman",
-          "fullname": "Thomas Clingman"
+          "suffix": "",
+          "first_name": "Thomas",
+          "rank": "Brigadier General",
+          "fullname": "Thomas Clingman",
+          "navy": false
         }
       ],
       "brigades": 1,
       "description": "Clingman's Brigade"
+    },
+    "Confederate": {
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Clingman",
+          "suffix": "",
+          "first_name": "Thomas",
+          "rank": "Brigadier General",
+          "fullname": "Thomas Clingman",
+          "navy": false
+        }
+      ],
+      "brigades": 1,
+      "description": "Clingman's Brigade"
+    },
+    "US": {
+      "divisions": 1,
+      "commanders": [
+        {
+          "middle_name": "G.",
+          "last_name": "Foster",
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Brigadier General",
+          "fullname": "John G. Foster",
+          "navy": false
+        }
+      ],
+      "description": "Department of North Carolina, 1st Division"
     }
   },
-  "result": "Union",
-  "battle": "NC009",
+  "campaign": "Goldsboro Expedition [December 1862]",
+  "end_date": "1862-12-17",
+  "description": "On December 17, Foster's expedition reached the railroad near Everettsville and began destroying the tracks north toward the Goldsborough Bridge. Clingman's Confederate brigade delayed the advance but was unable to prevent the destruction of the bridge. His mission accomplished, Foster returned to New Berne where he arrived on the 20th.",
   "location": [
     {
       "state": "NC",
       "place": "Wayne County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/nc009.htm"
+  "battle_name": "Goldsborough Bridge",
+  "start_date": "1862-12-17",
+  "casualties": 220,
+  "principal_commanders": "Brig. Gen. John G. Foster [US]; Brig. Gen. Thomas Clingman [CS]"
 }

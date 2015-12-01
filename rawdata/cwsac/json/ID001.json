@@ -1,19 +1,19 @@
 {
-  "end_date": "1863-01-29",
-  "casualties": 451,
-  "casualties_text": "451 total (US 67; I 384)",
+  "battle": "ID001",
+  "operation": false,
+  "cwsac_reference": "ID001",
   "forces": {
     "Native American": {
       "casualties": 384,
       "commanders": [
         {
-          "rank": "",
-          "first_name": "Bear Hunter",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "",
-          "fullname": "Bear Hunter"
+          "suffix": "",
+          "first_name": "Bear Hunter",
+          "rank": "",
+          "fullname": "Bear Hunter",
+          "navy": false
         }
       ],
       "description": "Shoshoni Indians"
@@ -22,61 +22,42 @@
       "casualties": 67,
       "commanders": [
         {
-          "rank": "Colonel",
-          "first_name": "Patrick",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Edward",
           "last_name": "Connor",
-          "fullname": "Patrick Edward Connor"
+          "suffix": "",
+          "first_name": "Patrick",
+          "rank": "Colonel",
+          "fullname": "Patrick Edward Connor",
+          "navy": false
         }
       ],
       "description": "District of Utah"
-    },
-    "I": {
-      "casualties": 384,
-      "commanders": [
-        {
-          "rank": "",
-          "first_name": "Bear Hunter",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "",
-          "fullname": "Bear Hunter"
-        }
-      ],
-      "description": "Shoshoni Indians"
     }
   },
-  "cwsac_reference": "ID001",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/id001.htm",
   "forces_text": "District of Utah [US]; Shoshoni Indians [I]",
-  "start_date": "1863-01-29",
-  "preservation": "III.3",
+  "casualties_text": "451 total (US 67; I 384)",
   "results_text": "Union victory (massacre)",
-  "description": "Shoshoni raids under Chief Bear Hunter during the winter of 1862-63 provoked Federal retaliation. Troops under Col. Patrick E. Connor set out from Ft. Douglas, Utah, in the deep snow of January 1863 towards Chief Bear Hunter's camp, 120 miles north near present-day Preston, Idaho. The Native American camp included about 300 Shoshoni warriors defensively placed in the Battle Creek ravine west of Bear River with high embankments in which the Indians had cut access trails. Shortly after dawn on January 29, Connor's troops appeared across the river and began crossing. Before all of the men had crossed and Connor had arrived, some troops made an unsuccessful frontal attack which the Indians easily repulsed inflicting numerous casualties. When Connor took over, he sent troops to where the ravine debouched through the bluffs. Some of these men covered the mouth of the ravine to prevent any escape while others moved down the rims, firing on the Indians below. This fire killed many of the warriors, but some attempted to escape by swimming the icy river where other troops shot them. The battle stopped by mid-morning. The troopers had killed most of the warriors plus a number of women, children and old men-and captured many of the women and children.",
-  "state": "ID",
-  "significance": "C",
+  "dates": "January 29, 1863",
+  "result": "Union",
   "other_names": [
     "Massacre at Boa Ogoi"
   ],
-  "dates": "January 29, 1863",
-  "battle_name": "Bear River",
-  "principal_commanders": "Col. Patrick Edward Connor [US]; Chief Bear Hunter [I]",
-  "campaign": "Expedition from Camp Douglas, Utah, to Cache Valley, Idaho [January 1863]",
+  "significance": "C",
+  "preservation": "III.3",
+  "state": "ID",
   "belligerents": {
     "Native American": {
       "casualties": 384,
       "commanders": [
         {
-          "rank": "",
-          "first_name": "Bear Hunter",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "",
-          "fullname": "Bear Hunter"
+          "suffix": "",
+          "first_name": "Bear Hunter",
+          "rank": "",
+          "fullname": "Bear Hunter",
+          "navy": false
         }
       ],
       "description": "Shoshoni Indians"
@@ -85,13 +66,13 @@
       "casualties": 67,
       "commanders": [
         {
-          "rank": "Colonel",
-          "first_name": "Patrick",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Edward",
           "last_name": "Connor",
-          "fullname": "Patrick Edward Connor"
+          "suffix": "",
+          "first_name": "Patrick",
+          "rank": "Colonel",
+          "fullname": "Patrick Edward Connor",
+          "navy": false
         }
       ],
       "description": "District of Utah"
@@ -100,25 +81,29 @@
       "casualties": 384,
       "commanders": [
         {
-          "rank": "",
-          "first_name": "Bear Hunter",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "",
-          "fullname": "Bear Hunter"
+          "suffix": "",
+          "first_name": "Bear Hunter",
+          "rank": "",
+          "fullname": "Bear Hunter",
+          "navy": false
         }
       ],
       "description": "Shoshoni Indians"
     }
   },
-  "result": "Union",
-  "battle": "ID001",
+  "campaign": "Expedition from Camp Douglas, Utah, to Cache Valley, Idaho [January 1863]",
+  "end_date": "1863-01-29",
+  "description": "Shoshoni raids under Chief Bear Hunter during the winter of 1862-63 provoked Federal retaliation. Troops under Col. Patrick E. Connor set out from Ft. Douglas, Utah, in the deep snow of January 1863 towards Chief Bear Hunter's camp, 120 miles north near present-day Preston, Idaho. The Native American camp included about 300 Shoshoni warriors defensively placed in the Battle Creek ravine west of Bear River with high embankments in which the Indians had cut access trails. Shortly after dawn on January 29, Connor's troops appeared across the river and began crossing. Before all of the men had crossed and Connor had arrived, some troops made an unsuccessful frontal attack which the Indians easily repulsed inflicting numerous casualties. When Connor took over, he sent troops to where the ravine debouched through the bluffs. Some of these men covered the mouth of the ravine to prevent any escape while others moved down the rims, firing on the Indians below. This fire killed many of the warriors, but some attempted to escape by swimming the icy river where other troops shot them. The battle stopped by mid-morning. The troopers had killed most of the warriors plus a number of women, children and old men-and captured many of the women and children.",
   "location": [
     {
       "state": "ID",
       "place": "Franklin County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/id001.htm"
+  "battle_name": "Bear River",
+  "start_date": "1863-01-29",
+  "casualties": 451,
+  "principal_commanders": "Col. Patrick Edward Connor [US]; Chief Bear Hunter [I]"
 }

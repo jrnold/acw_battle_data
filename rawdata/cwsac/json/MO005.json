@@ -1,144 +1,144 @@
 {
-  "end_date": "1861-09-02",
-  "casualties": null,
-  "casualties_text": "Total unknown (US 14; CS unknown)",
+  "battle": "MO005",
+  "operation": false,
+  "cwsac_reference": "MO005",
   "forces": {
     "Confederate": {
+      "casualties": null,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Sterling",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Price",
-          "fullname": "Sterling Price"
+          "suffix": "",
+          "first_name": "Sterling",
+          "rank": "Major General",
+          "fullname": "Sterling Price",
+          "navy": false
         },
         {
-          "rank": "Brigadier General",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
           "middle_name": "S.",
           "last_name": "Rains",
-          "fullname": "James S. Rains"
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Brigadier General",
+          "fullname": "James S. Rains",
+          "navy": false
         }
       ],
-      "casualties": null,
-      "missouri_state_guard": true,
-      "description": "column of Missouri State Guard"
+      "description": "column of Missouri State Guard",
+      "missouri_state_guard": true
     },
     "US": {
       "casualties": 14,
+      "strength_min": 600,
       "commanders": [
         {
-          "rank": "Colonel",
-          "first_name": "J.H.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Lane",
-          "fullname": "J.H. Lane"
+          "suffix": "",
+          "first_name": "J.H.",
+          "rank": "Colonel",
+          "fullname": "J.H. Lane",
+          "navy": false
         }
       ],
       "description": "Kansas Cavalry Brigade (approx. 600)",
-      "strength_min": 600,
       "strength_max": 600
     }
   },
-  "cwsac_reference": "MO005",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/mo005.htm",
   "forces_text": "Kansas Cavalry Brigade (approx. 600) [US]; column of Missouri State Guard [CS]",
-  "start_date": "1861-09-02",
-  "preservation": "III.4",
+  "casualties_text": "Total unknown (US 14; CS unknown)",
   "results_text": "Confederate victory",
-  "description": "Col. J.H. Lane's cavalry, comprising about 600 men, set out from Fort Scott to learn the whereabouts of a rumored Confederate force. They encountered a Confederate force, about 6,000-strong, near Big Dry Wood Creek. The Union cavalry surprised the Confederates, but their numerical superiority soon determined the encounter's outcome. They forced the Union cavalry to retire and captured their mules, and the Confederates continued on towards Lexington. The Confederates were forcing the Federals to abandon southwestern Missouri and to concentrate on holding the Missouri Valley.",
-  "state": "MO",
-  "significance": "D",
+  "dates": "September 2, 1861",
+  "result": "Confederate",
   "other_names": [
     "Big Dry Wood Creek",
     "Battle of the Mules"
   ],
-  "dates": "September 2, 1861",
-  "battle_name": "Dry Wood Creek",
-  "principal_commanders": "Col. J.H. Lane [US]; Maj. Gen. Sterling Price and Brig. Gen. James S. Rains [CS]",
-  "campaign": "Operations to Control Missouri [June-October 1861]",
+  "significance": "D",
+  "preservation": "III.4",
+  "state": "MO",
   "belligerents": {
-    "Confederate": {
+    "CS": {
+      "casualties": null,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Sterling",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Price",
-          "fullname": "Sterling Price"
+          "suffix": "",
+          "first_name": "Sterling",
+          "rank": "Major General",
+          "fullname": "Sterling Price",
+          "navy": false
         },
         {
-          "rank": "Brigadier General",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
           "middle_name": "S.",
           "last_name": "Rains",
-          "fullname": "James S. Rains"
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Brigadier General",
+          "fullname": "James S. Rains",
+          "navy": false
         }
       ],
+      "description": "column of Missouri State Guard",
+      "missouri_state_guard": true
+    },
+    "Confederate": {
       "casualties": null,
-      "missouri_state_guard": true,
-      "description": "column of Missouri State Guard"
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Price",
+          "suffix": "",
+          "first_name": "Sterling",
+          "rank": "Major General",
+          "fullname": "Sterling Price",
+          "navy": false
+        },
+        {
+          "middle_name": "S.",
+          "last_name": "Rains",
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Brigadier General",
+          "fullname": "James S. Rains",
+          "navy": false
+        }
+      ],
+      "description": "column of Missouri State Guard",
+      "missouri_state_guard": true
     },
     "US": {
       "casualties": 14,
+      "strength_min": 600,
       "commanders": [
         {
-          "rank": "Colonel",
-          "first_name": "J.H.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Lane",
-          "fullname": "J.H. Lane"
+          "suffix": "",
+          "first_name": "J.H.",
+          "rank": "Colonel",
+          "fullname": "J.H. Lane",
+          "navy": false
         }
       ],
       "description": "Kansas Cavalry Brigade (approx. 600)",
-      "strength_min": 600,
       "strength_max": 600
-    },
-    "CS": {
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Sterling",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Price",
-          "fullname": "Sterling Price"
-        },
-        {
-          "rank": "Brigadier General",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "S.",
-          "last_name": "Rains",
-          "fullname": "James S. Rains"
-        }
-      ],
-      "casualties": null,
-      "missouri_state_guard": true,
-      "description": "column of Missouri State Guard"
     }
   },
-  "result": "Confederate",
-  "battle": "MO005",
+  "campaign": "Operations to Control Missouri [June-October 1861]",
+  "end_date": "1861-09-02",
+  "description": "Col. J.H. Lane's cavalry, comprising about 600 men, set out from Fort Scott to learn the whereabouts of a rumored Confederate force. They encountered a Confederate force, about 6,000-strong, near Big Dry Wood Creek. The Union cavalry surprised the Confederates, but their numerical superiority soon determined the encounter's outcome. They forced the Union cavalry to retire and captured their mules, and the Confederates continued on towards Lexington. The Confederates were forcing the Federals to abandon southwestern Missouri and to concentrate on holding the Missouri Valley.",
   "location": [
     {
       "state": "MO",
       "place": "Vernon County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/mo005.htm"
+  "battle_name": "Dry Wood Creek",
+  "start_date": "1861-09-02",
+  "casualties": null,
+  "principal_commanders": "Col. J.H. Lane [US]; Maj. Gen. Sterling Price and Brig. Gen. James S. Rains [CS]"
 }

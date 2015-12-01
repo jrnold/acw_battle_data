@@ -1,113 +1,113 @@
 {
-  "end_date": "1862-01-03",
-  "casualties": 0,
-  "casualties_text": "None",
+  "battle": "VA100",
+  "operation": false,
+  "cwsac_reference": "VA100",
   "forces": {
     "Confederate": {
       "casualties": 0,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Samuel",
-          "suffix": "",
-          "navy": false,
           "middle_name": "G.",
           "last_name": "French",
-          "fullname": "Samuel G. French"
+          "suffix": "",
+          "first_name": "Samuel",
+          "rank": "Brigadier General",
+          "fullname": "Samuel G. French",
+          "navy": false
         }
       ],
       "description": "battery garrison"
     },
     "US": {
-      "gunboats": 2,
+      "casualties": 0,
       "commanders": [
         {
-          "rank": "Lieutenant",
-          "first_name": "R.H.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Wyman",
-          "fullname": "R.H. Wyman"
+          "suffix": "",
+          "first_name": "R.H.",
+          "rank": "Lieutenant",
+          "fullname": "R.H. Wyman",
+          "navy": false
         }
       ],
       "description": "Two gunboats",
-      "casualties": 0
+      "gunboats": 2
     }
   },
-  "cwsac_reference": "VA100",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va100.htm",
   "forces_text": "Two gunboats [US]; battery garrison [CS]",
-  "start_date": "1862-01-03",
-  "preservation": "III.3",
+  "casualties_text": "None",
   "results_text": "Inconclusive",
-  "description": "After victory at First Manassas, the Confederate army established a defensive line from Centreville along the Occoquan River to the Potomac River. In October, the Confederates constructed batteries at Evansport, Freestone Point, Shipping Point, and Cockpit Point to close the Potomac River to shipping and isolate Washington. By mid-December, the Confederates had 37 heavy guns in position along the river. On January 3, Cockpit Point was shelled by Anacostia and Yankee with neither side gaining an advantage. Union ships approached the point again on March 9 but discovered that the Confederates had abandoned their works and retired closer to Richmond, after effectively sealing off the Potomac River for nearly five months.",
-  "state": "VA",
-  "significance": "C",
+  "dates": "January 3, 1862",
+  "result": "Inconclusive",
   "other_names": [
     "Batteries at Evansport",
     "Freestone Point",
     "Shipping Point"
   ],
-  "dates": "January 3, 1862",
-  "battle_name": "Cockpit Point",
-  "principal_commanders": "Lt. R.H. Wyman [US]; Brig. Gen. Samuel G. French [CS]",
-  "campaign": "Blockade of the Potomac River [October 1861-January 1862]",
+  "significance": "C",
+  "preservation": "III.3",
+  "state": "VA",
   "belligerents": {
+    "CS": {
+      "casualties": 0,
+      "commanders": [
+        {
+          "middle_name": "G.",
+          "last_name": "French",
+          "suffix": "",
+          "first_name": "Samuel",
+          "rank": "Brigadier General",
+          "fullname": "Samuel G. French",
+          "navy": false
+        }
+      ],
+      "description": "battery garrison"
+    },
     "Confederate": {
       "casualties": 0,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Samuel",
-          "suffix": "",
-          "navy": false,
           "middle_name": "G.",
           "last_name": "French",
-          "fullname": "Samuel G. French"
+          "suffix": "",
+          "first_name": "Samuel",
+          "rank": "Brigadier General",
+          "fullname": "Samuel G. French",
+          "navy": false
         }
       ],
       "description": "battery garrison"
     },
     "US": {
-      "gunboats": 2,
-      "commanders": [
-        {
-          "rank": "Lieutenant",
-          "first_name": "R.H.",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Wyman",
-          "fullname": "R.H. Wyman"
-        }
-      ],
-      "description": "Two gunboats",
-      "casualties": 0
-    },
-    "CS": {
       "casualties": 0,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Samuel",
+          "middle_name": "",
+          "last_name": "Wyman",
           "suffix": "",
-          "navy": false,
-          "middle_name": "G.",
-          "last_name": "French",
-          "fullname": "Samuel G. French"
+          "first_name": "R.H.",
+          "rank": "Lieutenant",
+          "fullname": "R.H. Wyman",
+          "navy": false
         }
       ],
-      "description": "battery garrison"
+      "description": "Two gunboats",
+      "gunboats": 2
     }
   },
-  "result": "Inconclusive",
-  "battle": "VA100",
+  "campaign": "Blockade of the Potomac River [October 1861-January 1862]",
+  "end_date": "1862-01-03",
+  "description": "After victory at First Manassas, the Confederate army established a defensive line from Centreville along the Occoquan River to the Potomac River. In October, the Confederates constructed batteries at Evansport, Freestone Point, Shipping Point, and Cockpit Point to close the Potomac River to shipping and isolate Washington. By mid-December, the Confederates had 37 heavy guns in position along the river. On January 3, Cockpit Point was shelled by Anacostia and Yankee with neither side gaining an advantage. Union ships approached the point again on March 9 but discovered that the Confederates had abandoned their works and retired closer to Richmond, after effectively sealing off the Potomac River for nearly five months.",
   "location": [
     {
       "state": "VA",
       "place": "Prince William County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/va100.htm"
+  "battle_name": "Cockpit Point",
+  "start_date": "1862-01-03",
+  "casualties": 0,
+  "principal_commanders": "Lt. R.H. Wyman [US]; Brig. Gen. Samuel G. French [CS]"
 }

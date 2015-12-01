@@ -1,60 +1,113 @@
 {
-  "end_date": "1863-07-16",
-  "casualties": null,
-  "casualties_text": "Total unknown (US unknown; CS 18)",
+  "battle": "SC006",
+  "operation": false,
+  "cwsac_reference": "SC006",
   "forces": {
     "Confederate": {
       "casualties": 18,
+      "strength_min": 3000,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Johnson",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Hagood",
-          "fullname": "Johnson Hagood"
+          "suffix": "",
+          "first_name": "Johnson",
+          "rank": "Brigadier General",
+          "fullname": "Johnson Hagood",
+          "navy": false
         }
       ],
       "description": "3,000",
-      "strength_min": 3000,
       "strength_max": 3000
     },
     "US": {
       "casualties": null,
+      "strength_min": 3800,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Alfred",
-          "suffix": "",
-          "navy": false,
           "middle_name": "H.",
           "last_name": "Terry",
-          "fullname": "Alfred H. Terry"
+          "suffix": "",
+          "first_name": "Alfred",
+          "rank": "Brigadier General",
+          "fullname": "Alfred H. Terry",
+          "navy": false
         }
       ],
       "description": "3,800",
-      "strength_min": 3800,
       "strength_max": 3800
     }
   },
-  "strength": 6800,
-  "cwsac_reference": "SC006",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/sc006.htm",
   "forces_text": "6,800 total (US 3,800; CS 3,000)",
-  "start_date": "1863-07-16",
-  "preservation": "II.4",
+  "strength": 6800,
+  "casualties_text": "Total unknown (US unknown; CS 18)",
   "results_text": "Inconclusive",
-  "description": "To divert Confederate reinforcements from a renewed attack on Fort Wagner, Gen. Gillmore designed two feints. An amphibious force ascended Stono River to threaten the Charleston & Savannah Railroad bridge. A second force, consisting of Terry's division, landed on James Island on July 8. Terry demonstrated against the Confederate defenses. On July 16, the Confederates attacked Terry's camp at Grimball's Landing. Because of incomplete reconnaissance of the difficult, marshy ground, the disorganized Confederate attack was soon aborted. Their mission accomplished, Federal troops withdrew from the island on July 17.",
-  "state": "SC",
-  "significance": "D",
+  "dates": "July 16, 1863",
+  "result": "Inconclusive",
   "other_names": [
     "Secessionville",
     "James Island"
   ],
-  "dates": "July 16, 1863",
-  "battle_name": "Grimball's Landing",
-  "principal_commanders": "Brig. Gen. Alfred H. Terry [US]; Brig. Gen. Johnson Hagood [CS]",
+  "significance": "D",
+  "preservation": "II.4",
+  "state": "SC",
+  "belligerents": {
+    "CS": {
+      "casualties": 18,
+      "strength_min": 3000,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Hagood",
+          "suffix": "",
+          "first_name": "Johnson",
+          "rank": "Brigadier General",
+          "fullname": "Johnson Hagood",
+          "navy": false
+        }
+      ],
+      "description": "3,000",
+      "strength_max": 3000
+    },
+    "Confederate": {
+      "casualties": 18,
+      "strength_min": 3000,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Hagood",
+          "suffix": "",
+          "first_name": "Johnson",
+          "rank": "Brigadier General",
+          "fullname": "Johnson Hagood",
+          "navy": false
+        }
+      ],
+      "description": "3,000",
+      "strength_max": 3000
+    },
+    "US": {
+      "casualties": null,
+      "strength_min": 3800,
+      "commanders": [
+        {
+          "middle_name": "H.",
+          "last_name": "Terry",
+          "suffix": "",
+          "first_name": "Alfred",
+          "rank": "Brigadier General",
+          "fullname": "Alfred H. Terry",
+          "navy": false
+        }
+      ],
+      "description": "3,800",
+      "strength_max": 3800
+    }
+  },
+  "campaign": "Operations Against the Defenses of Charleston [April-September 1863]",
+  "end_date": "1863-07-16",
+  "description": "To divert Confederate reinforcements from a renewed attack on Fort Wagner, Gen. Gillmore designed two feints. An amphibious force ascended Stono River to threaten the Charleston & Savannah Railroad bridge. A second force, consisting of Terry's division, landed on James Island on July 8. Terry demonstrated against the Confederate defenses. On July 16, the Confederates attacked Terry's camp at Grimball's Landing. Because of incomplete reconnaissance of the difficult, marshy ground, the disorganized Confederate attack was soon aborted. Their mission accomplished, Federal troops withdrew from the island on July 17.",
   "location": [
     {
       "state": "SC",
@@ -65,61 +118,8 @@
       "place": "James Island"
     }
   ],
-  "belligerents": {
-    "Confederate": {
-      "casualties": 18,
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "Johnson",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Hagood",
-          "fullname": "Johnson Hagood"
-        }
-      ],
-      "description": "3,000",
-      "strength_min": 3000,
-      "strength_max": 3000
-    },
-    "US": {
-      "casualties": null,
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "Alfred",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "H.",
-          "last_name": "Terry",
-          "fullname": "Alfred H. Terry"
-        }
-      ],
-      "description": "3,800",
-      "strength_min": 3800,
-      "strength_max": 3800
-    },
-    "CS": {
-      "casualties": 18,
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "Johnson",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Hagood",
-          "fullname": "Johnson Hagood"
-        }
-      ],
-      "description": "3,000",
-      "strength_min": 3000,
-      "strength_max": 3000
-    }
-  },
-  "result": "Inconclusive",
-  "battle": "SC006",
-  "campaign": "Operations Against the Defenses of Charleston [April-September 1863]",
-  "url": "http://www.nps.gov/hps/abpp/battles/sc006.htm"
+  "battle_name": "Grimball's Landing",
+  "start_date": "1863-07-16",
+  "casualties": null,
+  "principal_commanders": "Brig. Gen. Alfred H. Terry [US]; Brig. Gen. Johnson Hagood [CS]"
 }

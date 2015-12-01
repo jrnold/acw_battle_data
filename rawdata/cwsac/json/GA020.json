@@ -1,18 +1,18 @@
 {
-  "end_date": "1864-08-15",
-  "casualties": null,
-  "casualties_text": "Unknown",
+  "battle": "GA020",
+  "operation": false,
+  "cwsac_reference": "GA020",
   "forces": {
     "Confederate": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Joseph",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Wheeler",
-          "fullname": "Joseph Wheeler"
+          "suffix": "",
+          "first_name": "Joseph",
+          "rank": "Major General",
+          "fullname": "Joseph Wheeler",
+          "navy": false
         }
       ],
       "description": "Wheeler's cavalry force"
@@ -20,83 +20,83 @@
     "US": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
           "middle_name": "B.",
           "last_name": "Steedman",
-          "fullname": "James B. Steedman"
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Major General",
+          "fullname": "James B. Steedman",
+          "navy": false
         }
       ],
       "description": "District of Etowah"
     }
   },
-  "cwsac_reference": "GA020",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ga020.htm",
   "forces_text": "District of Etowah [US]; Wheeler's cavalry force [CS]",
-  "start_date": "1864-08-14",
-  "preservation": null,
+  "casualties_text": "Unknown",
   "results_text": "Union victory (The Confederates withdrew.)",
-  "description": "Maj. Gen. Joseph Wheeler and his cavalry raided into North Georgia to destroy railroad tracks and supplies. They approached Dalton in the late afternoon of August 14 and demanded the surrender of the garrison. The Union commander, Col. Bernard Laibolt, refused to surrender and fighting ensued. Greatly outnumbered, the Union garrison retired to fortifications on a hill outside the town where they successfully held out, although the attack continued until after midnight. Skirmishing continued throughout the night. Around 5:00 am, on the 15th, Wheeler retired and became engaged with relieving infantry and cavalry under Maj. Gen. James B. Steedman's command. Eventually, Wheeler withdrew. The contending forces' reports vary greatly in describing the fighting, the casualties, and the amount of track and supplies captured and destroyed. This engagement was inconclusive, but since the Confederates withdrew, it may be termed a Union victory.",
-  "state": "GA",
-  "significance": "D",
-  "other_names": null,
   "dates": "August 14-15, 1864",
-  "battle_name": "Dalton II",
-  "principal_commanders": "Maj. Gen. James B. Steedman [US]; Maj. Gen. Joseph Wheeler [CS]",
-  "campaign": "Atlanta Campaign [May-September 1864]",
+  "result": "Union",
+  "other_names": null,
+  "significance": "D",
+  "preservation": null,
+  "state": "GA",
   "belligerents": {
-    "Confederate": {
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Joseph",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Wheeler",
-          "fullname": "Joseph Wheeler"
-        }
-      ],
-      "description": "Wheeler's cavalry force"
-    },
-    "US": {
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "B.",
-          "last_name": "Steedman",
-          "fullname": "James B. Steedman"
-        }
-      ],
-      "description": "District of Etowah"
-    },
     "CS": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Joseph",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Wheeler",
-          "fullname": "Joseph Wheeler"
+          "suffix": "",
+          "first_name": "Joseph",
+          "rank": "Major General",
+          "fullname": "Joseph Wheeler",
+          "navy": false
         }
       ],
       "description": "Wheeler's cavalry force"
+    },
+    "Confederate": {
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Wheeler",
+          "suffix": "",
+          "first_name": "Joseph",
+          "rank": "Major General",
+          "fullname": "Joseph Wheeler",
+          "navy": false
+        }
+      ],
+      "description": "Wheeler's cavalry force"
+    },
+    "US": {
+      "commanders": [
+        {
+          "middle_name": "B.",
+          "last_name": "Steedman",
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Major General",
+          "fullname": "James B. Steedman",
+          "navy": false
+        }
+      ],
+      "description": "District of Etowah"
     }
   },
-  "result": "Union",
-  "battle": "GA020",
+  "campaign": "Atlanta Campaign [May-September 1864]",
+  "end_date": "1864-08-15",
+  "description": "Maj. Gen. Joseph Wheeler and his cavalry raided into North Georgia to destroy railroad tracks and supplies. They approached Dalton in the late afternoon of August 14 and demanded the surrender of the garrison. The Union commander, Col. Bernard Laibolt, refused to surrender and fighting ensued. Greatly outnumbered, the Union garrison retired to fortifications on a hill outside the town where they successfully held out, although the attack continued until after midnight. Skirmishing continued throughout the night. Around 5:00 am, on the 15th, Wheeler retired and became engaged with relieving infantry and cavalry under Maj. Gen. James B. Steedman's command. Eventually, Wheeler withdrew. The contending forces' reports vary greatly in describing the fighting, the casualties, and the amount of track and supplies captured and destroyed. This engagement was inconclusive, but since the Confederates withdrew, it may be termed a Union victory.",
   "location": [
     {
       "state": "GA",
       "place": "Whitfield County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/ga020.htm"
+  "battle_name": "Dalton II",
+  "start_date": "1864-08-14",
+  "casualties": null,
+  "principal_commanders": "Maj. Gen. James B. Steedman [US]; Maj. Gen. Joseph Wheeler [CS]"
 }

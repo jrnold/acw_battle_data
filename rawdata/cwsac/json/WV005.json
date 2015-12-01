@@ -1,28 +1,28 @@
 {
-  "end_date": "1861-09-15",
-  "casualties": 170,
-  "casualties_text": "170 total (US 80; CS 90)",
+  "battle": "WV005",
+  "operation": false,
+  "cwsac_reference": "WV005",
   "forces": {
     "Confederate": {
       "casualties": 90,
       "commanders": [
         {
-          "rank": "General",
-          "first_name": "Robert",
-          "suffix": "",
-          "navy": false,
           "middle_name": "E.",
           "last_name": "Lee",
-          "fullname": "Robert E. Lee"
+          "suffix": "",
+          "first_name": "Robert",
+          "rank": "General",
+          "fullname": "Robert E. Lee",
+          "navy": false
         },
         {
-          "rank": "Colonel",
-          "first_name": "Albert",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Rust",
-          "fullname": "Albert Rust"
+          "suffix": "",
+          "first_name": "Albert",
+          "rank": "Colonel",
+          "fullname": "Albert Rust",
+          "navy": false
         }
       ],
       "brigades": 1
@@ -31,106 +31,106 @@
       "casualties": 80,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Joseph",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Reynolds",
-          "fullname": "Joseph Reynolds"
+          "suffix": "",
+          "first_name": "Joseph",
+          "rank": "Brigadier General",
+          "fullname": "Joseph Reynolds",
+          "navy": false
         }
       ],
       "brigades": 1
     }
   },
-  "cwsac_reference": "WV005",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/wv005.htm",
   "forces_text": "Brigades",
-  "start_date": "1861-09-12",
-  "preservation": "III.2",
+  "casualties_text": "170 total (US 80; CS 90)",
   "results_text": "Union victory",
-  "description": "Gen. Robert E. Lee directed his first offensive of the war against Brig. Gen. Joseph Reynolds's entrenchments on the summit of Cheat Mountain and in the Tygart Valley. The Confederate attacks were uncoordinated, however, and the Federal defense was so stubborn that Col. Albert Rust (leading the attacks) was convinced that he confronted an overwhelming force. He actually faced only about 300 determined Federals. Lee called off the attack and, after maneuvering in the vicinity, withdrew to Valley Head on September 17. In October, Lee renewed operations against Laurel Mountain with the troops of Floyd and Loring, but the operation was called off because of poor communication and lack of supplies. Lee was recalled to Richmond on October 30 after achieving little in western Virginia.",
-  "state": "WV",
-  "significance": "B",
+  "dates": "September 12-15, 1861",
+  "result": "Union",
   "other_names": [
     "Cheat Mountain Summit"
   ],
-  "dates": "September 12-15, 1861",
-  "battle_name": "Cheat Mountain",
-  "principal_commanders": "Brig. Gen. Joseph Reynolds [US]; Gen. Robert E. Lee and Col. Albert Rust [CS]",
-  "campaign": "Operations in Western Virginia [June-December 1861]",
+  "significance": "B",
+  "preservation": "III.2",
+  "state": "WV",
   "belligerents": {
-    "Confederate": {
-      "casualties": 90,
-      "commanders": [
-        {
-          "rank": "General",
-          "first_name": "Robert",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "E.",
-          "last_name": "Lee",
-          "fullname": "Robert E. Lee"
-        },
-        {
-          "rank": "Colonel",
-          "first_name": "Albert",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Rust",
-          "fullname": "Albert Rust"
-        }
-      ],
-      "brigades": 1
-    },
-    "US": {
-      "casualties": 80,
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "Joseph",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Reynolds",
-          "fullname": "Joseph Reynolds"
-        }
-      ],
-      "brigades": 1
-    },
     "CS": {
       "casualties": 90,
       "commanders": [
         {
-          "rank": "General",
-          "first_name": "Robert",
-          "suffix": "",
-          "navy": false,
           "middle_name": "E.",
           "last_name": "Lee",
-          "fullname": "Robert E. Lee"
+          "suffix": "",
+          "first_name": "Robert",
+          "rank": "General",
+          "fullname": "Robert E. Lee",
+          "navy": false
         },
         {
-          "rank": "Colonel",
-          "first_name": "Albert",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Rust",
-          "fullname": "Albert Rust"
+          "suffix": "",
+          "first_name": "Albert",
+          "rank": "Colonel",
+          "fullname": "Albert Rust",
+          "navy": false
+        }
+      ],
+      "brigades": 1
+    },
+    "Confederate": {
+      "casualties": 90,
+      "commanders": [
+        {
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "suffix": "",
+          "first_name": "Robert",
+          "rank": "General",
+          "fullname": "Robert E. Lee",
+          "navy": false
+        },
+        {
+          "middle_name": "",
+          "last_name": "Rust",
+          "suffix": "",
+          "first_name": "Albert",
+          "rank": "Colonel",
+          "fullname": "Albert Rust",
+          "navy": false
+        }
+      ],
+      "brigades": 1
+    },
+    "US": {
+      "casualties": 80,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Reynolds",
+          "suffix": "",
+          "first_name": "Joseph",
+          "rank": "Brigadier General",
+          "fullname": "Joseph Reynolds",
+          "navy": false
         }
       ],
       "brigades": 1
     }
   },
-  "result": "Union",
-  "battle": "WV005",
+  "campaign": "Operations in Western Virginia [June-December 1861]",
+  "end_date": "1861-09-15",
+  "description": "Gen. Robert E. Lee directed his first offensive of the war against Brig. Gen. Joseph Reynolds's entrenchments on the summit of Cheat Mountain and in the Tygart Valley. The Confederate attacks were uncoordinated, however, and the Federal defense was so stubborn that Col. Albert Rust (leading the attacks) was convinced that he confronted an overwhelming force. He actually faced only about 300 determined Federals. Lee called off the attack and, after maneuvering in the vicinity, withdrew to Valley Head on September 17. In October, Lee renewed operations against Laurel Mountain with the troops of Floyd and Loring, but the operation was called off because of poor communication and lack of supplies. Lee was recalled to Richmond on October 30 after achieving little in western Virginia.",
   "location": [
     {
       "state": "WV",
       "place": "Pocahontas County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/wv005.htm"
+  "battle_name": "Cheat Mountain",
+  "start_date": "1861-09-12",
+  "casualties": 170,
+  "principal_commanders": "Brig. Gen. Joseph Reynolds [US]; Gen. Robert E. Lee and Col. Albert Rust [CS]"
 }

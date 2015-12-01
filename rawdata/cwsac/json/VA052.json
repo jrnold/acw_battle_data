@@ -1,18 +1,18 @@
 {
-  "end_date": "1864-05-11",
-  "casualties": 800,
-  "casualties_text": "800 total",
+  "battle": "VA052",
+  "operation": false,
+  "cwsac_reference": "VA052",
   "forces": {
     "Confederate": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "J.E.B.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Stuart",
-          "fullname": "J.E.B. Stuart"
+          "suffix": "",
+          "first_name": "J.E.B.",
+          "rank": "Major General",
+          "fullname": "J.E.B. Stuart",
+          "navy": false
         }
       ],
       "brigades": 1
@@ -20,83 +20,83 @@
     "US": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Philip",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Sheridan",
-          "fullname": "Philip Sheridan"
+          "suffix": "",
+          "first_name": "Philip",
+          "rank": "Major General",
+          "fullname": "Philip Sheridan",
+          "navy": false
         }
       ],
       "brigades": 1
     }
   },
-  "cwsac_reference": "VA052",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va052.htm",
   "forces_text": "Divisions",
-  "start_date": "1864-05-11",
-  "preservation": "IV.1",
+  "casualties_text": "800 total",
   "results_text": "Union victory",
-  "description": "As the battle between Grant and Lee raged at Spotsylvania Court House, the Union cavalry corps under Maj. Gen. Philip Sheridan embarked on a cavalry raid against Richmond. After disrupting Lee's road and rail communications, Sheridan's cavalry expedition climaxed with the battle of Yellow Tavern on May 11. The outnumbered Confederate cavalry was defeated, and Maj. Gen. J.E.B. Stuart was mortally wounded. Sheridan continued south to threaten the Richmond defenses before joining Butler's command at Bermuda Hundred. After refitting, Sheridan rejoined the Army of the Potomac on May 25 for the march to the southeast and the crossing of the Pamunkey.",
-  "state": "VA",
-  "significance": "C",
-  "other_names": null,
   "dates": "May 11, 1864",
-  "battle_name": "Yellow Tavern",
-  "principal_commanders": "Maj. Gen. Philip Sheridan [US]; Maj. Gen. J.E.B. Stuart [CS]",
-  "campaign": "Grant's Overland Campaign [May-June 1864]",
+  "result": "Union",
+  "other_names": null,
+  "significance": "C",
+  "preservation": "IV.1",
+  "state": "VA",
   "belligerents": {
-    "Confederate": {
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "J.E.B.",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Stuart",
-          "fullname": "J.E.B. Stuart"
-        }
-      ],
-      "brigades": 1
-    },
-    "US": {
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Philip",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Sheridan",
-          "fullname": "Philip Sheridan"
-        }
-      ],
-      "brigades": 1
-    },
     "CS": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "J.E.B.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Stuart",
-          "fullname": "J.E.B. Stuart"
+          "suffix": "",
+          "first_name": "J.E.B.",
+          "rank": "Major General",
+          "fullname": "J.E.B. Stuart",
+          "navy": false
+        }
+      ],
+      "brigades": 1
+    },
+    "Confederate": {
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Stuart",
+          "suffix": "",
+          "first_name": "J.E.B.",
+          "rank": "Major General",
+          "fullname": "J.E.B. Stuart",
+          "navy": false
+        }
+      ],
+      "brigades": 1
+    },
+    "US": {
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Sheridan",
+          "suffix": "",
+          "first_name": "Philip",
+          "rank": "Major General",
+          "fullname": "Philip Sheridan",
+          "navy": false
         }
       ],
       "brigades": 1
     }
   },
-  "result": "Union",
-  "battle": "VA052",
+  "campaign": "Grant's Overland Campaign [May-June 1864]",
+  "end_date": "1864-05-11",
+  "description": "As the battle between Grant and Lee raged at Spotsylvania Court House, the Union cavalry corps under Maj. Gen. Philip Sheridan embarked on a cavalry raid against Richmond. After disrupting Lee's road and rail communications, Sheridan's cavalry expedition climaxed with the battle of Yellow Tavern on May 11. The outnumbered Confederate cavalry was defeated, and Maj. Gen. J.E.B. Stuart was mortally wounded. Sheridan continued south to threaten the Richmond defenses before joining Butler's command at Bermuda Hundred. After refitting, Sheridan rejoined the Army of the Potomac on May 25 for the march to the southeast and the crossing of the Pamunkey.",
   "location": [
     {
       "state": "VA",
       "place": "Henrico County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/va052.htm"
+  "battle_name": "Yellow Tavern",
+  "start_date": "1864-05-11",
+  "casualties": 800,
+  "principal_commanders": "Maj. Gen. Philip Sheridan [US]; Maj. Gen. J.E.B. Stuart [CS]"
 }

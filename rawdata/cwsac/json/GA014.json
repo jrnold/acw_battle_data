@@ -1,130 +1,130 @@
 {
-  "end_date": "1864-06-22",
-  "casualties": 1350,
-  "casualties_text": "1,350 total (US 350; CS 1,000)",
+  "battle": "GA014",
+  "operation": false,
+  "cwsac_reference": "GA014",
   "forces": {
     "Confederate": {
-      "corps": 1,
+      "casualties": 1000,
       "commanders": [
         {
-          "rank": "Lieutenant General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Bell",
           "last_name": "Hood",
-          "fullname": "John Bell Hood"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Lieutenant General",
+          "fullname": "John Bell Hood",
+          "navy": false
         }
       ],
       "description": "Hood s Corps",
-      "casualties": 1000
+      "corps": 1
     },
     "US": {
-      "corps": 2,
+      "casualties": 350,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "M.",
           "last_name": "Schofield",
-          "fullname": "John M. Schofield"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Major General",
+          "fullname": "John M. Schofield",
+          "navy": false
         },
         {
-          "rank": "Major General",
-          "first_name": "Joseph",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Hooker",
-          "fullname": "Joseph Hooker"
+          "suffix": "",
+          "first_name": "Joseph",
+          "rank": "Major General",
+          "fullname": "Joseph Hooker",
+          "navy": false
         }
       ],
       "description": "Two corps",
-      "casualties": 350
+      "corps": 2
     }
   },
-  "cwsac_reference": "GA014",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ga014.htm",
   "forces_text": "Two corps [US]; Hood s Corps [CS]",
-  "start_date": "1864-06-22",
-  "preservation": "II.3",
+  "casualties_text": "1,350 total (US 350; CS 1,000)",
   "results_text": "Union victory",
-  "description": "On the night of June 18-19, Gen. Joseph E. Johnston, fearing envelopment, moved his army to a new, previously selected position astride Kennesaw Mountain, an entrenched arc-shaped line to the west of Marietta, to protect his supply line, the Western & Atlantic Railroad. Having encountered entrenched Rebels astride Kennesaw Mountain stretching southward, Sherman fixed them in front and extended his right wing to envelop their flank and menace the railroad. Joe Johnston countered by moving John B. Hood's corps from the left flank to the right on June 22. Arriving in his new position at Mt. Zion Church, Hood decided, on his own, to attack. Warned of Hood's intentions, Union generals John Schofield and Joseph Hooker entrenched. Union artillery and swampy terrain thwarted Hood's attack and forced him to withdraw with costly casualties. Although the victor, Sherman's attempts at envelopment had momentarily failed.",
-  "state": "GA",
-  "significance": "C",
-  "other_names": null,
   "dates": "June 22, 1864",
-  "battle_name": "Kolb's Farm",
-  "principal_commanders": "Maj. Gen. John M. Schofield and Maj. Gen. Joseph Hooker [US]; Lt. Gen. John Bell Hood [CS]",
-  "campaign": "Atlanta Campaign [May-September 1864]",
+  "result": "Union",
+  "other_names": null,
+  "significance": "C",
+  "preservation": "II.3",
+  "state": "GA",
   "belligerents": {
-    "Confederate": {
-      "corps": 1,
+    "CS": {
+      "casualties": 1000,
       "commanders": [
         {
-          "rank": "Lieutenant General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Bell",
           "last_name": "Hood",
-          "fullname": "John Bell Hood"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Lieutenant General",
+          "fullname": "John Bell Hood",
+          "navy": false
         }
       ],
       "description": "Hood s Corps",
-      "casualties": 1000
+      "corps": 1
     },
-    "US": {
-      "corps": 2,
+    "Confederate": {
+      "casualties": 1000,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "John",
+          "middle_name": "Bell",
+          "last_name": "Hood",
           "suffix": "",
-          "navy": false,
+          "first_name": "John",
+          "rank": "Lieutenant General",
+          "fullname": "John Bell Hood",
+          "navy": false
+        }
+      ],
+      "description": "Hood s Corps",
+      "corps": 1
+    },
+    "US": {
+      "casualties": 350,
+      "commanders": [
+        {
           "middle_name": "M.",
           "last_name": "Schofield",
-          "fullname": "John M. Schofield"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Major General",
+          "fullname": "John M. Schofield",
+          "navy": false
         },
         {
-          "rank": "Major General",
-          "first_name": "Joseph",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Hooker",
-          "fullname": "Joseph Hooker"
+          "suffix": "",
+          "first_name": "Joseph",
+          "rank": "Major General",
+          "fullname": "Joseph Hooker",
+          "navy": false
         }
       ],
       "description": "Two corps",
-      "casualties": 350
-    },
-    "CS": {
-      "corps": 1,
-      "commanders": [
-        {
-          "rank": "Lieutenant General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "Bell",
-          "last_name": "Hood",
-          "fullname": "John Bell Hood"
-        }
-      ],
-      "description": "Hood s Corps",
-      "casualties": 1000
+      "corps": 2
     }
   },
-  "result": "Union",
-  "battle": "GA014",
+  "campaign": "Atlanta Campaign [May-September 1864]",
+  "end_date": "1864-06-22",
+  "description": "On the night of June 18-19, Gen. Joseph E. Johnston, fearing envelopment, moved his army to a new, previously selected position astride Kennesaw Mountain, an entrenched arc-shaped line to the west of Marietta, to protect his supply line, the Western & Atlantic Railroad. Having encountered entrenched Rebels astride Kennesaw Mountain stretching southward, Sherman fixed them in front and extended his right wing to envelop their flank and menace the railroad. Joe Johnston countered by moving John B. Hood's corps from the left flank to the right on June 22. Arriving in his new position at Mt. Zion Church, Hood decided, on his own, to attack. Warned of Hood's intentions, Union generals John Schofield and Joseph Hooker entrenched. Union artillery and swampy terrain thwarted Hood's attack and forced him to withdraw with costly casualties. Although the victor, Sherman's attempts at envelopment had momentarily failed.",
   "location": [
     {
       "state": "GA",
       "place": "Cobb County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/ga014.htm"
+  "battle_name": "Kolb's Farm",
+  "start_date": "1864-06-22",
+  "casualties": 1350,
+  "principal_commanders": "Maj. Gen. John M. Schofield and Maj. Gen. Joseph Hooker [US]; Lt. Gen. John Bell Hood [CS]"
 }

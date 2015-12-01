@@ -1,104 +1,104 @@
 {
-  "end_date": "1864-10-28",
-  "casualties": 1750,
-  "casualties_text": "1,750 total",
+  "battle": "VA080",
+  "operation": false,
+  "cwsac_reference": "VA080",
   "forces": {
     "Confederate": {
-      "corps": 1,
       "commanders": [
         {
-          "rank": "Lieutenant General",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Longstreet",
-          "fullname": "James Longstreet"
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Lieutenant General",
+          "fullname": "James Longstreet",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
     },
     "US": {
-      "corps": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Benjamin",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Butler",
-          "fullname": "Benjamin Butler"
+          "suffix": "",
+          "first_name": "Benjamin",
+          "rank": "Major General",
+          "fullname": "Benjamin Butler",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
     }
   },
-  "cwsac_reference": "VA080",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va080.htm",
   "forces_text": "Corps",
-  "start_date": "1864-10-27",
-  "preservation": null,
+  "casualties_text": "1,750 total",
   "results_text": "Confederate victory",
-  "description": "In combination with movements against the Boydton Plank Road at Petersburg, Maj. Gen. Benjamin Butler attacked the Richmond defenses along Darbytown Road with the X Corps. The XVIII Corps marched north to Fair Oaks where it was soundly repulsed by Field's Confederate division. Confederate forces counterattacked, taking some 600 prisoners. The Richmond defenses remained intact. Of Grant's offensives north of the James River, this was repulsed most easily.",
-  "state": "VA",
-  "significance": "C",
+  "dates": "October 27-28, 1864",
+  "result": "Confederate",
   "other_names": [
     "Second Fair Oaks"
   ],
-  "dates": "October 27-28, 1864",
-  "battle_name": "Fair Oaks & Darbytown\r\nRoad",
-  "principal_commanders": "Maj. Gen. Benjamin Butler [US]; Lt. Gen. James Longstreet [CS]",
-  "campaign": "Richmond-Petersburg Campaign [June 1864-March 1865]",
+  "significance": "C",
+  "preservation": null,
+  "state": "VA",
   "belligerents": {
-    "Confederate": {
-      "corps": 1,
+    "CS": {
       "commanders": [
         {
-          "rank": "Lieutenant General",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Longstreet",
-          "fullname": "James Longstreet"
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Lieutenant General",
+          "fullname": "James Longstreet",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
+    },
+    "Confederate": {
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Longstreet",
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Lieutenant General",
+          "fullname": "James Longstreet",
+          "navy": false
+        }
+      ],
+      "corps": 1
     },
     "US": {
-      "corps": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Benjamin",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Butler",
-          "fullname": "Benjamin Butler"
-        }
-      ]
-    },
-    "CS": {
-      "corps": 1,
-      "commanders": [
-        {
-          "rank": "Lieutenant General",
-          "first_name": "James",
           "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Longstreet",
-          "fullname": "James Longstreet"
+          "first_name": "Benjamin",
+          "rank": "Major General",
+          "fullname": "Benjamin Butler",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
     }
   },
-  "result": "Confederate",
-  "battle": "VA080",
+  "campaign": "Richmond-Petersburg Campaign [June 1864-March 1865]",
+  "end_date": "1864-10-28",
+  "description": "In combination with movements against the Boydton Plank Road at Petersburg, Maj. Gen. Benjamin Butler attacked the Richmond defenses along Darbytown Road with the X Corps. The XVIII Corps marched north to Fair Oaks where it was soundly repulsed by Field's Confederate division. Confederate forces counterattacked, taking some 600 prisoners. The Richmond defenses remained intact. Of Grant's offensives north of the James River, this was repulsed most easily.",
   "location": [
     {
       "state": "VA",
       "place": "Henrico County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/va080.htm"
+  "battle_name": "Fair Oaks & Darbytown\r\nRoad",
+  "start_date": "1864-10-27",
+  "casualties": 1750,
+  "principal_commanders": "Maj. Gen. Benjamin Butler [US]; Lt. Gen. James Longstreet [CS]"
 }

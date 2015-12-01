@@ -1,118 +1,118 @@
 {
-  "end_date": "1864-05-27",
-  "casualties": 2100,
-  "casualties_text": "2,100 total (US 1,600; CS 500)",
+  "battle": "GA012",
+  "operation": false,
+  "cwsac_reference": "GA012",
   "forces": {
     "Confederate": {
+      "casualties": 500,
       "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Patrick",
-          "suffix": "",
-          "navy": false,
           "middle_name": "R.",
           "last_name": "Cleburne",
-          "fullname": "Patrick R. Cleburne"
+          "suffix": "",
+          "first_name": "Patrick",
+          "rank": "Major General",
+          "fullname": "Patrick R. Cleburne",
+          "navy": false
         }
       ],
       "brigades": 1,
-      "description": "Cleburne's Division and Brig. Gen. John H. Kelly's Brigade",
-      "casualties": 500
+      "description": "Cleburne's Division and Brig. Gen. John H. Kelly's Brigade"
     },
     "US": {
-      "corps": 1,
+      "casualties": 1600,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Oliver",
-          "suffix": "",
-          "navy": false,
           "middle_name": "O.",
           "last_name": "Howard",
-          "fullname": "Oliver O. Howard"
+          "suffix": "",
+          "first_name": "Oliver",
+          "rank": "Major General",
+          "fullname": "Oliver O. Howard",
+          "navy": false
         }
       ],
       "description": "IV Corps",
-      "casualties": 1600
+      "corps": 1
     }
   },
-  "cwsac_reference": "GA012",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ga012.htm",
   "forces_text": "IV Corps [US]; Cleburne's Division and Brig. Gen. John H. Kelly's Brigade [CS]",
-  "start_date": "1864-05-27",
-  "preservation": "III.3",
+  "casualties_text": "2,100 total (US 1,600; CS 500)",
   "results_text": "Confederate victory",
-  "description": "After the Union defeat at New Hope Church, Maj. Gen. William T. Sherman ordered Maj. Gen. O.O. Howard to attack Gen. Joseph E. Johnston' s seemingly exposed right flank. The Confederates were ready for the attack, which did not unfold as planned because supporting troops never appeared. The Rebels repulsed the attack causing high casualties.",
-  "state": "GA",
-  "significance": "C",
+  "dates": "May 27, 1864",
+  "result": "Confederate",
   "other_names": [
     "New Hope",
     "New Hope Church"
   ],
-  "dates": "May 27, 1864",
-  "battle_name": "Pickett's Mill",
-  "principal_commanders": "Maj. Gen. Oliver O. Howard [US]; Maj. Gen. Patrick R. Cleburne [CS]",
-  "campaign": "Atlanta Campaign [May-September 1864]",
+  "significance": "C",
+  "preservation": "III.3",
+  "state": "GA",
   "belligerents": {
-    "Confederate": {
+    "CS": {
+      "casualties": 500,
       "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Patrick",
-          "suffix": "",
-          "navy": false,
           "middle_name": "R.",
           "last_name": "Cleburne",
-          "fullname": "Patrick R. Cleburne"
+          "suffix": "",
+          "first_name": "Patrick",
+          "rank": "Major General",
+          "fullname": "Patrick R. Cleburne",
+          "navy": false
         }
       ],
       "brigades": 1,
-      "description": "Cleburne's Division and Brig. Gen. John H. Kelly's Brigade",
-      "casualties": 500
+      "description": "Cleburne's Division and Brig. Gen. John H. Kelly's Brigade"
     },
-    "US": {
-      "corps": 1,
+    "Confederate": {
+      "casualties": 500,
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Oliver",
+          "middle_name": "R.",
+          "last_name": "Cleburne",
           "suffix": "",
-          "navy": false,
+          "first_name": "Patrick",
+          "rank": "Major General",
+          "fullname": "Patrick R. Cleburne",
+          "navy": false
+        }
+      ],
+      "brigades": 1,
+      "description": "Cleburne's Division and Brig. Gen. John H. Kelly's Brigade"
+    },
+    "US": {
+      "casualties": 1600,
+      "commanders": [
+        {
           "middle_name": "O.",
           "last_name": "Howard",
-          "fullname": "Oliver O. Howard"
+          "suffix": "",
+          "first_name": "Oliver",
+          "rank": "Major General",
+          "fullname": "Oliver O. Howard",
+          "navy": false
         }
       ],
       "description": "IV Corps",
-      "casualties": 1600
-    },
-    "CS": {
-      "divisions": 1,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Patrick",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "R.",
-          "last_name": "Cleburne",
-          "fullname": "Patrick R. Cleburne"
-        }
-      ],
-      "brigades": 1,
-      "description": "Cleburne's Division and Brig. Gen. John H. Kelly's Brigade",
-      "casualties": 500
+      "corps": 1
     }
   },
-  "result": "Confederate",
-  "battle": "GA012",
+  "campaign": "Atlanta Campaign [May-September 1864]",
+  "end_date": "1864-05-27",
+  "description": "After the Union defeat at New Hope Church, Maj. Gen. William T. Sherman ordered Maj. Gen. O.O. Howard to attack Gen. Joseph E. Johnston' s seemingly exposed right flank. The Confederates were ready for the attack, which did not unfold as planned because supporting troops never appeared. The Rebels repulsed the attack causing high casualties.",
   "location": [
     {
       "state": "GA",
       "place": "Paulding County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/ga012.htm"
+  "battle_name": "Pickett's Mill",
+  "start_date": "1864-05-27",
+  "casualties": 2100,
+  "principal_commanders": "Maj. Gen. Oliver O. Howard [US]; Maj. Gen. Patrick R. Cleburne [CS]"
 }

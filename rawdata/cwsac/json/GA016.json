@@ -1,19 +1,19 @@
 {
-  "end_date": "1864-07-20",
-  "casualties": 6506,
-  "casualties_text": "6,506 total (US 1,710; CS 4,796)",
+  "battle": "GA016",
+  "operation": false,
+  "cwsac_reference": "GA016",
   "forces": {
     "Confederate": {
       "casualties": 4796,
       "commanders": [
         {
-          "rank": "General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Bell",
           "last_name": "Hood",
-          "fullname": "John Bell Hood"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "General",
+          "fullname": "John Bell Hood",
+          "navy": false
         }
       ],
       "description": "Army of Tennessee",
@@ -23,88 +23,88 @@
       "casualties": 1710,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "George",
-          "suffix": "",
-          "navy": false,
           "middle_name": "H.",
           "last_name": "Thomas",
-          "fullname": "George H. Thomas"
+          "suffix": "",
+          "first_name": "George",
+          "rank": "Major General",
+          "fullname": "George H. Thomas",
+          "navy": false
         }
       ],
       "description": "Army of the Cumberland"
     }
   },
-  "cwsac_reference": "GA016",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ga016.htm",
   "forces_text": "Army of the Cumberland [US]; Army of Tennessee [CS]",
-  "start_date": "1864-07-20",
-  "preservation": "IV.2",
+  "casualties_text": "6,506 total (US 1,710; CS 4,796)",
   "results_text": "Union victory",
-  "description": "Under Gen. Joseph E. Johnston, the Army of Tennessee had retired south of Peachtree Creek, an east to west flowing stream, about three miles north of Atlanta. Sherman split his army into three columns for the assault on Atlanta with George H. Thomas's Army of the Cumberland moving from the north. Johnston had decided to attack Thomas, but Confederate President Jefferson Davis relieved him of command and appointed John B. Hood to take his place. Hood attacked Thomas after his army crossed Peachtree Creek. The determined assault threatened to overrun the Union troops at various locations. Ultimately, though, the Yankees held, and the Rebels fell back.",
-  "state": "GA",
-  "significance": "B",
-  "other_names": null,
   "dates": "July 20, 1864",
-  "battle_name": "Peachtree Creek",
-  "principal_commanders": "Maj. Gen. George H. Thomas [US]; Gen. John Bell Hood [CS]",
-  "campaign": "Atlanta Campaign [May-September 1864]",
+  "result": "Union",
+  "other_names": null,
+  "significance": "B",
+  "preservation": "IV.2",
+  "state": "GA",
   "belligerents": {
-    "Confederate": {
-      "casualties": 4796,
-      "commanders": [
-        {
-          "rank": "General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "Bell",
-          "last_name": "Hood",
-          "fullname": "John Bell Hood"
-        }
-      ],
-      "description": "Army of Tennessee",
-      "armies": 1
-    },
-    "US": {
-      "casualties": 1710,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "George",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "H.",
-          "last_name": "Thomas",
-          "fullname": "George H. Thomas"
-        }
-      ],
-      "description": "Army of the Cumberland"
-    },
     "CS": {
       "casualties": 4796,
       "commanders": [
         {
-          "rank": "General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Bell",
           "last_name": "Hood",
-          "fullname": "John Bell Hood"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "General",
+          "fullname": "John Bell Hood",
+          "navy": false
         }
       ],
       "description": "Army of Tennessee",
       "armies": 1
+    },
+    "Confederate": {
+      "casualties": 4796,
+      "commanders": [
+        {
+          "middle_name": "Bell",
+          "last_name": "Hood",
+          "suffix": "",
+          "first_name": "John",
+          "rank": "General",
+          "fullname": "John Bell Hood",
+          "navy": false
+        }
+      ],
+      "description": "Army of Tennessee",
+      "armies": 1
+    },
+    "US": {
+      "casualties": 1710,
+      "commanders": [
+        {
+          "middle_name": "H.",
+          "last_name": "Thomas",
+          "suffix": "",
+          "first_name": "George",
+          "rank": "Major General",
+          "fullname": "George H. Thomas",
+          "navy": false
+        }
+      ],
+      "description": "Army of the Cumberland"
     }
   },
-  "result": "Union",
-  "battle": "GA016",
+  "campaign": "Atlanta Campaign [May-September 1864]",
+  "end_date": "1864-07-20",
+  "description": "Under Gen. Joseph E. Johnston, the Army of Tennessee had retired south of Peachtree Creek, an east to west flowing stream, about three miles north of Atlanta. Sherman split his army into three columns for the assault on Atlanta with George H. Thomas's Army of the Cumberland moving from the north. Johnston had decided to attack Thomas, but Confederate President Jefferson Davis relieved him of command and appointed John B. Hood to take his place. Hood attacked Thomas after his army crossed Peachtree Creek. The determined assault threatened to overrun the Union troops at various locations. Ultimately, though, the Yankees held, and the Rebels fell back.",
   "location": [
     {
       "state": "GA",
       "place": "Fulton County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/ga016.htm"
+  "battle_name": "Peachtree Creek",
+  "start_date": "1864-07-20",
+  "casualties": 6506,
+  "principal_commanders": "Maj. Gen. George H. Thomas [US]; Gen. John Bell Hood [CS]"
 }

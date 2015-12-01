@@ -1,105 +1,102 @@
 {
-  "end_date": "1863-06-26",
-  "casualties": null,
-  "casualties_text": "Unknown",
+  "battle": "TN017",
+  "operation": false,
+  "cwsac_reference": "TN017",
   "forces": {
     "Confederate": {
-      "cavalry_regiments": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Alexander",
-          "suffix": "",
-          "navy": false,
           "middle_name": "P.",
           "last_name": "Stewart",
-          "fullname": "Alexander P. Stewart"
+          "suffix": "",
+          "first_name": "Alexander",
+          "rank": "Major General",
+          "fullname": "Alexander P. Stewart",
+          "navy": false
         }
       ],
       "brigades": 2,
+      "cavalry_regiments": 1,
       "description": "Bate's and Johnson's Brigades, Stewart's Division, Hardee's Corps, Army of Tennessee, and J.R. Butler's 1st [3rd] Kentucky Cavalry Regiment"
     },
     "US": {
-      "corps": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "George",
-          "suffix": "",
-          "navy": false,
           "middle_name": "H.",
           "last_name": "Thomas",
-          "fullname": "George H. Thomas"
+          "suffix": "",
+          "first_name": "George",
+          "rank": "Major General",
+          "fullname": "George H. Thomas",
+          "navy": false
         }
       ],
-      "description": "XIV Army Corps"
+      "description": "XIV Army Corps",
+      "corps": 1
     }
   },
-  "cwsac_reference": "TN017",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/tn017.htm",
   "forces_text": "XIV Army Corps [US]; Bate's and Johnson's Brigades, Stewart's Division, Hardee's Corps, Army of Tennessee, and J.R. Butler's 1st [3rd] Kentucky Cavalry Regiment [CS]",
-  "start_date": "1863-06-24",
-  "preservation": "III.3",
+  "casualties_text": "Unknown",
   "results_text": "Union victory",
-  "description": "Following the Battle of Stones River, Maj. Gen. William S. Rosecrans, commanding the Army of the Cumberland, remained in the Murfreesboro area for five and one-half months. To counter the Yankees, Gen. Braxton Bragg, commander of the Army of Tennessee, established a fortified line along the Duck River from Shelbyville to Wartrace. On the Confederate right, infantry and artillery detachments guarded Liberty, Hoover's, and Bellbuckle gaps through the mountains. Rosecrans's superiors, fearing that Bragg might detach large numbers of men to help break the Siege of Vicksburg, urged him to attack the Confederates. On June 23, 1863, he feigned an attack on Shelbyville but massed against Bragg's right. His troops struck out toward the gaps, Maj. Gen. George H. Thomas's men, on the 24th, forced Hoover's Gap. The Confederate 3rd Kentucky Cavalry Regiment, under Col. J.R. Butler, held Hoover's Gap, but the Yankees easily pushed it aside. As this unit fell back, it ran into Brig. Gen. Bushrod R. Johnson's and Brig. Gen. William B. Bate's Brigades, Stewart's Division, Hardee's Corps, Army of Tennessee, which marched off to meet Thomas and his men. Fighting continued at the gap until just before noon on the 26th, when Maj. Gen. Alexander P. Stewart, the Confederate division commander, sent a message to Johnson and Bate stating that he was pulling back and they should also. Although slowed by rain, Rosecrans moved on, forcing Bragg to give up his defensive line and fall back to Tullahoma. Rosecrans sent a flying column (Wilder's Lightning Brigade, the same that had spearheaded the thrust through Hoover's Gap on the 24th) ahead to hit the railroad in Bragg's rear. Arriving too late to destroy the Elk River railroad bridge, the Federals tore up lots of track around Decherd. Bragg evacuated Middle Tennessee.",
-  "state": "TN",
-  "significance": "C",
-  "other_names": null,
   "dates": "June 24-26, 1863",
-  "battle_name": "Hoover's Gap",
-  "principal_commanders": "Maj. Gen. George H. Thomas [US]; Maj. Gen. Alexander P. Stewart [CS]",
-  "campaign": "Tullahoma or Middle Tennessee Campaign [June 1863]",
+  "result": "Union",
+  "other_names": null,
+  "significance": "C",
+  "preservation": "III.3",
+  "state": "TN",
   "belligerents": {
-    "Confederate": {
-      "cavalry_regiments": 1,
+    "CS": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Alexander",
-          "suffix": "",
-          "navy": false,
           "middle_name": "P.",
           "last_name": "Stewart",
-          "fullname": "Alexander P. Stewart"
+          "suffix": "",
+          "first_name": "Alexander",
+          "rank": "Major General",
+          "fullname": "Alexander P. Stewart",
+          "navy": false
         }
       ],
       "brigades": 2,
+      "cavalry_regiments": 1,
+      "description": "Bate's and Johnson's Brigades, Stewart's Division, Hardee's Corps, Army of Tennessee, and J.R. Butler's 1st [3rd] Kentucky Cavalry Regiment"
+    },
+    "Confederate": {
+      "commanders": [
+        {
+          "middle_name": "P.",
+          "last_name": "Stewart",
+          "suffix": "",
+          "first_name": "Alexander",
+          "rank": "Major General",
+          "fullname": "Alexander P. Stewart",
+          "navy": false
+        }
+      ],
+      "brigades": 2,
+      "cavalry_regiments": 1,
       "description": "Bate's and Johnson's Brigades, Stewart's Division, Hardee's Corps, Army of Tennessee, and J.R. Butler's 1st [3rd] Kentucky Cavalry Regiment"
     },
     "US": {
-      "corps": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "George",
-          "suffix": "",
-          "navy": false,
           "middle_name": "H.",
           "last_name": "Thomas",
-          "fullname": "George H. Thomas"
-        }
-      ],
-      "description": "XIV Army Corps"
-    },
-    "CS": {
-      "cavalry_regiments": 1,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Alexander",
           "suffix": "",
-          "navy": false,
-          "middle_name": "P.",
-          "last_name": "Stewart",
-          "fullname": "Alexander P. Stewart"
+          "first_name": "George",
+          "rank": "Major General",
+          "fullname": "George H. Thomas",
+          "navy": false
         }
       ],
-      "brigades": 2,
-      "description": "Bate's and Johnson's Brigades, Stewart's Division, Hardee's Corps, Army of Tennessee, and J.R. Butler's 1st [3rd] Kentucky Cavalry Regiment"
+      "description": "XIV Army Corps",
+      "corps": 1
     }
   },
-  "result": "Union",
-  "battle": "TN017",
+  "campaign": "Tullahoma or Middle Tennessee Campaign [June 1863]",
+  "end_date": "1863-06-26",
+  "description": "Following the Battle of Stones River, Maj. Gen. William S. Rosecrans, commanding the Army of the Cumberland, remained in the Murfreesboro area for five and one-half months. To counter the Yankees, Gen. Braxton Bragg, commander of the Army of Tennessee, established a fortified line along the Duck River from Shelbyville to Wartrace. On the Confederate right, infantry and artillery detachments guarded Liberty, Hoover's, and Bellbuckle gaps through the mountains. Rosecrans's superiors, fearing that Bragg might detach large numbers of men to help break the Siege of Vicksburg, urged him to attack the Confederates. On June 23, 1863, he feigned an attack on Shelbyville but massed against Bragg's right. His troops struck out toward the gaps, Maj. Gen. George H. Thomas's men, on the 24th, forced Hoover's Gap. The Confederate 3rd Kentucky Cavalry Regiment, under Col. J.R. Butler, held Hoover's Gap, but the Yankees easily pushed it aside. As this unit fell back, it ran into Brig. Gen. Bushrod R. Johnson's and Brig. Gen. William B. Bate's Brigades, Stewart's Division, Hardee's Corps, Army of Tennessee, which marched off to meet Thomas and his men. Fighting continued at the gap until just before noon on the 26th, when Maj. Gen. Alexander P. Stewart, the Confederate division commander, sent a message to Johnson and Bate stating that he was pulling back and they should also. Although slowed by rain, Rosecrans moved on, forcing Bragg to give up his defensive line and fall back to Tullahoma. Rosecrans sent a flying column (Wilder's Lightning Brigade, the same that had spearheaded the thrust through Hoover's Gap on the 24th) ahead to hit the railroad in Bragg's rear. Arriving too late to destroy the Elk River railroad bridge, the Federals tore up lots of track around Decherd. Bragg evacuated Middle Tennessee.",
   "location": [
     {
       "state": "TN",
@@ -110,5 +107,8 @@
       "place": "Rutherford County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/tn017.htm"
+  "battle_name": "Hoover's Gap",
+  "start_date": "1863-06-24",
+  "casualties": null,
+  "principal_commanders": "Maj. Gen. George H. Thomas [US]; Maj. Gen. Alexander P. Stewart [CS]"
 }

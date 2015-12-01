@@ -1,18 +1,18 @@
 {
-  "end_date": "1863-11-06",
-  "casualties": 526,
-  "casualties_text": "526 total",
+  "battle": "WV012",
+  "operation": false,
+  "cwsac_reference": "WV012",
   "forces": {
     "Confederate": {
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Echols",
-          "fullname": "John Echols"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Brigadier General",
+          "fullname": "John Echols",
+          "navy": false
         }
       ],
       "brigades": 1
@@ -20,83 +20,83 @@
     "US": {
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
           "middle_name": "W.",
           "last_name": "Averell",
-          "fullname": "William W. Averell"
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Brigadier General",
+          "fullname": "William W. Averell",
+          "navy": false
         }
       ],
       "brigades": 1
     }
   },
-  "cwsac_reference": "WV012",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/wv012.htm",
   "forces_text": "Brigades",
-  "start_date": "1863-11-06",
-  "preservation": "III.3",
+  "casualties_text": "526 total",
   "results_text": "Union victory",
-  "description": "In early November, Brig. Gens. W.W. Averell and Alfred Napoleon Alexander Duffi\u00e9 embarked on a raid into southwestern Virginia to disrupt the Virginia & Tennessee Railroad. While Duffi\u00e9's column destroyed military property en route, Averell encountered and defeated a Confederate brigade under Brig. Gen. John Echols at Droop Mountain. The Union columns reunited at Lewisburg the next day but were in no condition to continue their raid. After this battle, Confederate resistance in West Virginia collapsed.",
-  "state": "WV",
-  "significance": "C",
-  "other_names": null,
   "dates": "November 6, 1863",
-  "battle_name": "Droop Mountain",
-  "principal_commanders": "Brig. Gen. William W. Averell [US]; Brig. Gen. John Echols [CS]",
-  "campaign": "Averell's Raid on the Virginia & Tennessee Railroad [November 1863]",
+  "result": "Union",
+  "other_names": null,
+  "significance": "C",
+  "preservation": "III.3",
+  "state": "WV",
   "belligerents": {
-    "Confederate": {
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Echols",
-          "fullname": "John Echols"
-        }
-      ],
-      "brigades": 1
-    },
-    "US": {
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "W.",
-          "last_name": "Averell",
-          "fullname": "William W. Averell"
-        }
-      ],
-      "brigades": 1
-    },
     "CS": {
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Echols",
-          "fullname": "John Echols"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Brigadier General",
+          "fullname": "John Echols",
+          "navy": false
+        }
+      ],
+      "brigades": 1
+    },
+    "Confederate": {
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Echols",
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Brigadier General",
+          "fullname": "John Echols",
+          "navy": false
+        }
+      ],
+      "brigades": 1
+    },
+    "US": {
+      "commanders": [
+        {
+          "middle_name": "W.",
+          "last_name": "Averell",
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Brigadier General",
+          "fullname": "William W. Averell",
+          "navy": false
         }
       ],
       "brigades": 1
     }
   },
-  "result": "Union",
-  "battle": "WV012",
+  "campaign": "Averell's Raid on the Virginia & Tennessee Railroad [November 1863]",
+  "end_date": "1863-11-06",
+  "description": "In early November, Brig. Gens. W.W. Averell and Alfred Napoleon Alexander Duffi\u00e9 embarked on a raid into southwestern Virginia to disrupt the Virginia & Tennessee Railroad. While Duffi\u00e9's column destroyed military property en route, Averell encountered and defeated a Confederate brigade under Brig. Gen. John Echols at Droop Mountain. The Union columns reunited at Lewisburg the next day but were in no condition to continue their raid. After this battle, Confederate resistance in West Virginia collapsed.",
   "location": [
     {
       "state": "WV",
       "place": "Pocahontas County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/wv012.htm"
+  "battle_name": "Droop Mountain",
+  "start_date": "1863-11-06",
+  "casualties": 526,
+  "principal_commanders": "Brig. Gen. William W. Averell [US]; Brig. Gen. John Echols [CS]"
 }

@@ -1,104 +1,104 @@
 {
-  "end_date": "1861-06-01",
-  "casualties": 10,
-  "casualties_text": "10 total",
+  "battle": "VA002",
+  "operation": false,
+  "cwsac_reference": "VA002",
   "forces": {
     "Confederate": {
       "commanders": [
         {
-          "rank": "Colonel",
-          "first_name": "Daniel",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Ruggles",
-          "fullname": "Daniel Ruggles"
+          "suffix": "",
+          "first_name": "Daniel",
+          "rank": "Colonel",
+          "fullname": "Daniel Ruggles",
+          "navy": false
         }
       ],
       "description": "battery garrison"
     },
     "US": {
-      "gunboats": 3,
       "commanders": [
         {
-          "rank": "Commander",
-          "first_name": "James",
-          "suffix": "",
-          "navy": true,
           "middle_name": "H.",
           "last_name": "Ward",
-          "fullname": "James H. Ward"
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Commander",
+          "fullname": "James H. Ward",
+          "navy": true
         }
       ],
-      "description": "3 gunboats"
+      "description": "3 gunboats",
+      "gunboats": 3
     }
   },
-  "cwsac_reference": "VA002",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va002.htm",
   "forces_text": "3 gunboats [US]; battery garrison [CS]",
-  "start_date": "1861-05-29",
-  "preservation": "II.4",
+  "casualties_text": "10 total",
   "results_text": "Inconclusive",
-  "description": "Three Union naval vessels bombarded Confederate batteries near the mouth of Aquia Creek that were built to protect the northern terminus of the railroad to Richmond. Confederates feared a landing of troops, but this did not materialize. Results of the bombardment were inconclusive, although the batteries were later withdrawn.",
-  "state": "VA",
-  "significance": "D",
-  "other_names": null,
   "dates": "May 29-June 1, 1861",
-  "battle_name": "Aquia Creek",
-  "principal_commanders": "Cdr. James H. Ward [US]; Col. Daniel Ruggles [CS]",
-  "campaign": "Blockade of the Chesapeake Bay [May-June 1861]",
+  "result": "Inconclusive",
+  "other_names": null,
+  "significance": "D",
+  "preservation": "II.4",
+  "state": "VA",
   "belligerents": {
-    "Confederate": {
-      "commanders": [
-        {
-          "rank": "Colonel",
-          "first_name": "Daniel",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Ruggles",
-          "fullname": "Daniel Ruggles"
-        }
-      ],
-      "description": "battery garrison"
-    },
-    "US": {
-      "gunboats": 3,
-      "commanders": [
-        {
-          "rank": "Commander",
-          "first_name": "James",
-          "suffix": "",
-          "navy": true,
-          "middle_name": "H.",
-          "last_name": "Ward",
-          "fullname": "James H. Ward"
-        }
-      ],
-      "description": "3 gunboats"
-    },
     "CS": {
       "commanders": [
         {
-          "rank": "Colonel",
-          "first_name": "Daniel",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Ruggles",
-          "fullname": "Daniel Ruggles"
+          "suffix": "",
+          "first_name": "Daniel",
+          "rank": "Colonel",
+          "fullname": "Daniel Ruggles",
+          "navy": false
         }
       ],
       "description": "battery garrison"
+    },
+    "Confederate": {
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Ruggles",
+          "suffix": "",
+          "first_name": "Daniel",
+          "rank": "Colonel",
+          "fullname": "Daniel Ruggles",
+          "navy": false
+        }
+      ],
+      "description": "battery garrison"
+    },
+    "US": {
+      "commanders": [
+        {
+          "middle_name": "H.",
+          "last_name": "Ward",
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Commander",
+          "fullname": "James H. Ward",
+          "navy": true
+        }
+      ],
+      "description": "3 gunboats",
+      "gunboats": 3
     }
   },
-  "result": "Inconclusive",
-  "battle": "VA002",
+  "campaign": "Blockade of the Chesapeake Bay [May-June 1861]",
+  "end_date": "1861-06-01",
+  "description": "Three Union naval vessels bombarded Confederate batteries near the mouth of Aquia Creek that were built to protect the northern terminus of the railroad to Richmond. Confederates feared a landing of troops, but this did not materialize. Results of the bombardment were inconclusive, although the batteries were later withdrawn.",
   "location": [
     {
       "state": "VA",
       "place": "Stafford County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/va002.htm"
+  "battle_name": "Aquia Creek",
+  "start_date": "1861-05-29",
+  "casualties": 10,
+  "principal_commanders": "Cdr. James H. Ward [US]; Col. Daniel Ruggles [CS]"
 }

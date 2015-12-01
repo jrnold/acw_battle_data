@@ -1,104 +1,104 @@
 {
-  "end_date": "1864-08-07",
-  "casualties": 531,
-  "casualties_text": "531 total",
+  "battle": "WV013",
+  "operation": false,
+  "cwsac_reference": "WV013",
   "forces": {
     "Confederate": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "McCausland",
-          "fullname": "John McCausland"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Brigadier General",
+          "fullname": "John McCausland",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     },
     "US": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
           "middle_name": "W.",
           "last_name": "Averell",
-          "fullname": "William W. Averell"
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Brigadier General",
+          "fullname": "William W. Averell",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     }
   },
-  "cwsac_reference": "WV013",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/wv013.htm",
   "forces_text": "Divisions",
-  "start_date": "1864-08-07",
-  "preservation": "IV.2",
+  "casualties_text": "531 total",
   "results_text": "Union victory",
-  "description": "While returning to the Shenandoah Valley after burning Chambersburg, McCausland's and Johnson's cavalry were surprised at Moorefield on August 7 and routed by pursuing Union cavalry. This defeat impeded the morale and effectiveness of the Confederate cavalry for the remainder of the 1864 Valley Campaign.",
-  "state": "WV",
-  "significance": "C",
+  "dates": "August 7, 1864",
+  "result": "Union",
   "other_names": [
     "Oldfields"
   ],
-  "dates": "August 7, 1864",
-  "battle_name": "Moorefield",
-  "principal_commanders": "Brig. Gen. William W. Averell [US]; Brig. Gen. John McCausland [CS]",
-  "campaign": "Early's Raid and Operations Against the B&O Railroad [June-August 1864]",
+  "significance": "C",
+  "preservation": "IV.2",
+  "state": "WV",
   "belligerents": {
-    "Confederate": {
+    "CS": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "McCausland",
-          "fullname": "John McCausland"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Brigadier General",
+          "fullname": "John McCausland",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
+    },
+    "Confederate": {
+      "divisions": 1,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "McCausland",
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Brigadier General",
+          "fullname": "John McCausland",
+          "navy": false
+        }
+      ]
     },
     "US": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
           "middle_name": "W.",
           "last_name": "Averell",
-          "fullname": "William W. Averell"
-        }
-      ],
-      "divisions": 1
-    },
-    "CS": {
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "John",
           "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "McCausland",
-          "fullname": "John McCausland"
+          "first_name": "William",
+          "rank": "Brigadier General",
+          "fullname": "William W. Averell",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     }
   },
-  "result": "Union",
-  "battle": "WV013",
+  "campaign": "Early's Raid and Operations Against the B&O Railroad [June-August 1864]",
+  "end_date": "1864-08-07",
+  "description": "While returning to the Shenandoah Valley after burning Chambersburg, McCausland's and Johnson's cavalry were surprised at Moorefield on August 7 and routed by pursuing Union cavalry. This defeat impeded the morale and effectiveness of the Confederate cavalry for the remainder of the 1864 Valley Campaign.",
   "location": [
     {
       "state": "WV",
       "place": "Hardy County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/wv013.htm"
+  "battle_name": "Moorefield",
+  "start_date": "1864-08-07",
+  "casualties": 531,
+  "principal_commanders": "Brig. Gen. William W. Averell [US]; Brig. Gen. John McCausland [CS]"
 }

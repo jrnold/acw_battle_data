@@ -1,122 +1,122 @@
 {
-  "end_date": "1863-07-26",
-  "casualties": 364,
-  "casualties_text": "364 total (US none; CS 364)",
+  "battle": "OH002",
+  "operation": false,
+  "cwsac_reference": "OH002",
   "forces": {
     "Confederate": {
       "casualties": 364,
+      "strength_min": 400,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Hunt",
           "last_name": "Morgan",
-          "fullname": "John Hunt Morgan"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Brigadier General",
+          "fullname": "John Hunt Morgan",
+          "navy": false
         }
       ],
       "description": "400",
-      "strength_min": 400,
       "strength_max": 400
     },
     "US": {
       "casualties": 0,
+      "strength_min": 2600,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Shackelford",
-          "fullname": "James Shackelford"
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Brigadier General",
+          "fullname": "James Shackelford",
+          "navy": false
         }
       ],
       "description": "2,600",
-      "strength_min": 2600,
       "strength_max": 2600
     }
   },
-  "strength": 3000,
-  "cwsac_reference": "OH002",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/oh002.htm",
   "forces_text": "3,000 total (US 2,600; CS 400)",
-  "start_date": "1863-07-26",
-  "preservation": null,
+  "strength": 3000,
+  "casualties_text": "364 total (US none; CS 364)",
   "results_text": "Union victory",
-  "description": "After escaping encirclement at Buffington's Island with about 400 of his men, Morgan continued east and north, attempting to find a safe crossing over the Ohio River. With several columns of Union cavalry in hot pursuit, Morgan passed through Salineville, riding down the railroad toward Smith's Ford. Turning onto the New Lisbon Road, Morgan's raiders were finally cut off. Morgan surrendered. During this raid, Morgan and his men captured and paroled about 6,000 Union soldiers and militia, destroyed 34 bridges, disrupted the railroads at more than 60 places, and diverted tens of thousands of troops from other duties.",
-  "state": "OH",
-  "significance": "D",
+  "dates": "July 26, 1863",
+  "result": "Union",
   "other_names": [
     "New Lisbon",
     "New Lisbon Road",
     "Wellsville"
   ],
-  "dates": "July 26, 1863",
-  "battle_name": "Salineville",
-  "principal_commanders": "Brig. Gen. James Shackelford [US]; Brig. Gen. John Hunt Morgan [CS]",
+  "significance": "D",
+  "preservation": null,
+  "state": "OH",
+  "belligerents": {
+    "CS": {
+      "casualties": 364,
+      "strength_min": 400,
+      "commanders": [
+        {
+          "middle_name": "Hunt",
+          "last_name": "Morgan",
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Brigadier General",
+          "fullname": "John Hunt Morgan",
+          "navy": false
+        }
+      ],
+      "description": "400",
+      "strength_max": 400
+    },
+    "Confederate": {
+      "casualties": 364,
+      "strength_min": 400,
+      "commanders": [
+        {
+          "middle_name": "Hunt",
+          "last_name": "Morgan",
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Brigadier General",
+          "fullname": "John Hunt Morgan",
+          "navy": false
+        }
+      ],
+      "description": "400",
+      "strength_max": 400
+    },
+    "US": {
+      "casualties": 0,
+      "strength_min": 2600,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Shackelford",
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Brigadier General",
+          "fullname": "James Shackelford",
+          "navy": false
+        }
+      ],
+      "description": "2,600",
+      "strength_max": 2600
+    }
+  },
+  "campaign": "Morgan's Raid in Kentucky, Indiana, and Ohio [July 1863]",
+  "end_date": "1863-07-26",
+  "description": "After escaping encirclement at Buffington's Island with about 400 of his men, Morgan continued east and north, attempting to find a safe crossing over the Ohio River. With several columns of Union cavalry in hot pursuit, Morgan passed through Salineville, riding down the railroad toward Smith's Ford. Turning onto the New Lisbon Road, Morgan's raiders were finally cut off. Morgan surrendered. During this raid, Morgan and his men captured and paroled about 6,000 Union soldiers and militia, destroyed 34 bridges, disrupted the railroads at more than 60 places, and diverted tens of thousands of troops from other duties.",
   "location": [
     {
       "state": "OH",
       "place": "Columbiana County"
     }
   ],
-  "belligerents": {
-    "Confederate": {
-      "casualties": 364,
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "Hunt",
-          "last_name": "Morgan",
-          "fullname": "John Hunt Morgan"
-        }
-      ],
-      "description": "400",
-      "strength_min": 400,
-      "strength_max": 400
-    },
-    "US": {
-      "casualties": 0,
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Shackelford",
-          "fullname": "James Shackelford"
-        }
-      ],
-      "description": "2,600",
-      "strength_min": 2600,
-      "strength_max": 2600
-    },
-    "CS": {
-      "casualties": 364,
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "Hunt",
-          "last_name": "Morgan",
-          "fullname": "John Hunt Morgan"
-        }
-      ],
-      "description": "400",
-      "strength_min": 400,
-      "strength_max": 400
-    }
-  },
-  "result": "Union",
-  "battle": "OH002",
-  "campaign": "Morgan's Raid in Kentucky, Indiana, and Ohio [July 1863]",
-  "url": "http://www.nps.gov/hps/abpp/battles/oh002.htm"
+  "battle_name": "Salineville",
+  "start_date": "1863-07-26",
+  "casualties": 364,
+  "principal_commanders": "Brig. Gen. James Shackelford [US]; Brig. Gen. John Hunt Morgan [CS]"
 }

@@ -1,19 +1,19 @@
 {
-  "end_date": "1864-12-04",
-  "casualties": 440,
-  "casualties_text": "440 total (US 190; CS 250)",
+  "battle": "GA027",
+  "operation": false,
+  "cwsac_reference": "GA027",
   "forces": {
     "Confederate": {
       "casualties": 250,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Joseph",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Wheeler",
-          "fullname": "Joseph Wheeler"
+          "suffix": "",
+          "first_name": "Joseph",
+          "rank": "Major General",
+          "fullname": "Joseph Wheeler",
+          "navy": false
         }
       ],
       "description": "Cavalry Command, Army of Tennessee"
@@ -22,88 +22,88 @@
       "casualties": 190,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "H.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Judson",
           "last_name": "Kilpatrick",
-          "fullname": "H. Judson Kilpatrick"
+          "suffix": "",
+          "first_name": "H.",
+          "rank": "Brigadier General",
+          "fullname": "H. Judson Kilpatrick",
+          "navy": false
         }
       ],
       "cavalry_divisions": 1,
       "description": "3rd Cavalry Division, Military Division of the Mississippi"
     }
   },
-  "cwsac_reference": "GA027",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ga027.htm",
   "forces_text": "3rd Cavalry Division, Military Division of the Mississippi [US]; Cavalry Command, Army of Tennessee [CS]",
-  "start_date": "1864-12-04",
-  "preservation": "IV.1",
+  "casualties_text": "440 total (US 190; CS 250)",
   "results_text": "Union victory",
-  "description": "As Sherman's infantry marched southeast through Georgia, his cavalry under Brig. Gen. Judson Kilpatrick rode northeastward. He set out on the morning of December 4 to attack Waynesborough and destroy Joseph Wheeler's cavalry command. That morning Kilpatrick's men advanced, driving the Rebel skirmishers in front of them. The Union force then came up against a defensive line of barricades which they eventually overran. As the Union advance continued, they met more barricades which required time to overcome. Finally, the Confederates fell back to a final line of barricades within the town. After furious fighting, the Union troops broke through and Wheeler's force ran.",
-  "state": "GA",
-  "significance": "C",
-  "other_names": null,
   "dates": "December 4, 1864",
-  "battle_name": "Waynesborough",
-  "principal_commanders": "Brig. Gen. H. Judson Kilpatrick [US]; Maj. Gen. Joseph Wheeler [CS]",
-  "campaign": "Savannah Campaign [November-December 1864]",
+  "result": "Union",
+  "other_names": null,
+  "significance": "C",
+  "preservation": "IV.1",
+  "state": "GA",
   "belligerents": {
-    "Confederate": {
-      "casualties": 250,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Joseph",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Wheeler",
-          "fullname": "Joseph Wheeler"
-        }
-      ],
-      "description": "Cavalry Command, Army of Tennessee"
-    },
-    "US": {
-      "casualties": 190,
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "H.",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "Judson",
-          "last_name": "Kilpatrick",
-          "fullname": "H. Judson Kilpatrick"
-        }
-      ],
-      "cavalry_divisions": 1,
-      "description": "3rd Cavalry Division, Military Division of the Mississippi"
-    },
     "CS": {
       "casualties": 250,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Joseph",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Wheeler",
-          "fullname": "Joseph Wheeler"
+          "suffix": "",
+          "first_name": "Joseph",
+          "rank": "Major General",
+          "fullname": "Joseph Wheeler",
+          "navy": false
         }
       ],
       "description": "Cavalry Command, Army of Tennessee"
+    },
+    "Confederate": {
+      "casualties": 250,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Wheeler",
+          "suffix": "",
+          "first_name": "Joseph",
+          "rank": "Major General",
+          "fullname": "Joseph Wheeler",
+          "navy": false
+        }
+      ],
+      "description": "Cavalry Command, Army of Tennessee"
+    },
+    "US": {
+      "casualties": 190,
+      "commanders": [
+        {
+          "middle_name": "Judson",
+          "last_name": "Kilpatrick",
+          "suffix": "",
+          "first_name": "H.",
+          "rank": "Brigadier General",
+          "fullname": "H. Judson Kilpatrick",
+          "navy": false
+        }
+      ],
+      "cavalry_divisions": 1,
+      "description": "3rd Cavalry Division, Military Division of the Mississippi"
     }
   },
-  "result": "Union",
-  "battle": "GA027",
+  "campaign": "Savannah Campaign [November-December 1864]",
+  "end_date": "1864-12-04",
+  "description": "As Sherman's infantry marched southeast through Georgia, his cavalry under Brig. Gen. Judson Kilpatrick rode northeastward. He set out on the morning of December 4 to attack Waynesborough and destroy Joseph Wheeler's cavalry command. That morning Kilpatrick's men advanced, driving the Rebel skirmishers in front of them. The Union force then came up against a defensive line of barricades which they eventually overran. As the Union advance continued, they met more barricades which required time to overcome. Finally, the Confederates fell back to a final line of barricades within the town. After furious fighting, the Union troops broke through and Wheeler's force ran.",
   "location": [
     {
       "state": "GA",
       "place": "Burke County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/ga027.htm"
+  "battle_name": "Waynesborough",
+  "start_date": "1864-12-04",
+  "casualties": 440,
+  "principal_commanders": "Brig. Gen. H. Judson Kilpatrick [US]; Maj. Gen. Joseph Wheeler [CS]"
 }

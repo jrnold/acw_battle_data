@@ -1,116 +1,116 @@
 {
-  "end_date": "1861-06-17",
-  "casualties": 81,
-  "casualties_text": "81 total (US 31; CS 50)",
+  "battle": "MO001",
+  "operation": false,
+  "cwsac_reference": "MO001",
   "forces": {
     "Confederate": {
+      "casualties": 50,
       "commanders": [
         {
-          "rank": "Colonel",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "S.",
           "last_name": "Marmaduke",
-          "fullname": "John S. Marmaduke"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Colonel",
+          "fullname": "John S. Marmaduke",
+          "navy": false
         }
       ],
-      "casualties": 50,
-      "missouri_state_guard": true,
-      "description": "State Guard Troops"
+      "description": "State Guard Troops",
+      "missouri_state_guard": true
     },
     "US": {
       "casualties": 31,
+      "strength_min": 1700,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Nathaniel",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Lyon",
-          "fullname": "Nathaniel Lyon"
+          "suffix": "",
+          "first_name": "Nathaniel",
+          "rank": "Brigadier General",
+          "fullname": "Nathaniel Lyon",
+          "navy": false
         }
       ],
       "description": "Combined force of Missouri troops and Regular U.S. Army (approx. 1,700)",
-      "strength_min": 1700,
       "strength_max": 1700
     }
   },
-  "cwsac_reference": "MO001",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/mo001.htm",
   "forces_text": "Combined force of Missouri troops and Regular U.S. Army (approx. 1,700) [US]; State Guard Troops [CS]",
-  "start_date": "1861-06-17",
-  "preservation": "III.3",
+  "casualties_text": "81 total (US 31; CS 50)",
   "results_text": "Union victory",
-  "description": "Claiborne Jackson, the pro-Southern Governor of Missouri, wanted the state to secede and join the Confederacy. Union Brig. Gen. Nathaniel Lyon set out to put down Jackson's Missouri State Guard, commanded by Sterling Price. Reaching Jefferson City, the state capital, Lyon discovered that Jackson and Price had retreated towards Boonville. Lyon reembarked on steamboats, transported his men to below Boonville, marched to the town, and engaged the enemy. In a short fight, Lyon dispersed the Confederates, commanded on the field by Col. John S. Marmaduke, and occupied Boonville. This early victory established Union control of the Missouri River and helped douse attempts to place Missouri in the Confederacy.",
-  "state": "MO",
-  "significance": "C",
+  "dates": "June 17, 1861",
+  "result": "Union",
   "other_names": [
     "First Battle of Boonville"
   ],
-  "dates": "June 17, 1861",
-  "battle_name": "Boonville",
-  "principal_commanders": "Brig. Gen. Nathaniel Lyon [US]; Col. John S. Marmaduke [CS]",
-  "campaign": "Operations to Control Missouri [June-October 1861]",
+  "significance": "C",
+  "preservation": "III.3",
+  "state": "MO",
   "belligerents": {
-    "Confederate": {
+    "CS": {
+      "casualties": 50,
       "commanders": [
         {
-          "rank": "Colonel",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "S.",
           "last_name": "Marmaduke",
-          "fullname": "John S. Marmaduke"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Colonel",
+          "fullname": "John S. Marmaduke",
+          "navy": false
         }
       ],
+      "description": "State Guard Troops",
+      "missouri_state_guard": true
+    },
+    "Confederate": {
       "casualties": 50,
-      "missouri_state_guard": true,
-      "description": "State Guard Troops"
+      "commanders": [
+        {
+          "middle_name": "S.",
+          "last_name": "Marmaduke",
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Colonel",
+          "fullname": "John S. Marmaduke",
+          "navy": false
+        }
+      ],
+      "description": "State Guard Troops",
+      "missouri_state_guard": true
     },
     "US": {
       "casualties": 31,
+      "strength_min": 1700,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Nathaniel",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Lyon",
-          "fullname": "Nathaniel Lyon"
+          "suffix": "",
+          "first_name": "Nathaniel",
+          "rank": "Brigadier General",
+          "fullname": "Nathaniel Lyon",
+          "navy": false
         }
       ],
       "description": "Combined force of Missouri troops and Regular U.S. Army (approx. 1,700)",
-      "strength_min": 1700,
       "strength_max": 1700
-    },
-    "CS": {
-      "commanders": [
-        {
-          "rank": "Colonel",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "S.",
-          "last_name": "Marmaduke",
-          "fullname": "John S. Marmaduke"
-        }
-      ],
-      "casualties": 50,
-      "missouri_state_guard": true,
-      "description": "State Guard Troops"
     }
   },
-  "result": "Union",
-  "battle": "MO001",
+  "campaign": "Operations to Control Missouri [June-October 1861]",
+  "end_date": "1861-06-17",
+  "description": "Claiborne Jackson, the pro-Southern Governor of Missouri, wanted the state to secede and join the Confederacy. Union Brig. Gen. Nathaniel Lyon set out to put down Jackson's Missouri State Guard, commanded by Sterling Price. Reaching Jefferson City, the state capital, Lyon discovered that Jackson and Price had retreated towards Boonville. Lyon reembarked on steamboats, transported his men to below Boonville, marched to the town, and engaged the enemy. In a short fight, Lyon dispersed the Confederates, commanded on the field by Col. John S. Marmaduke, and occupied Boonville. This early victory established Union control of the Missouri River and helped douse attempts to place Missouri in the Confederacy.",
   "location": [
     {
       "state": "MO",
       "place": "Cooper County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/mo001.htm"
+  "battle_name": "Boonville",
+  "start_date": "1861-06-17",
+  "casualties": 81,
+  "principal_commanders": "Brig. Gen. Nathaniel Lyon [US]; Col. John S. Marmaduke [CS]"
 }

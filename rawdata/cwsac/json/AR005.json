@@ -1,132 +1,132 @@
 {
-  "end_date": "1862-12-07",
-  "casualties": 2568,
-  "casualties_text": "2,568 total (US 1,251; CS 1,317)",
+  "battle": "AR005",
+  "operation": false,
+  "cwsac_reference": "AR005",
   "forces": {
     "Confederate": {
-      "corps": 1,
+      "casualties": 1317,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Thomas",
-          "suffix": "",
-          "navy": false,
           "middle_name": "C.",
           "last_name": "Hindman",
-          "fullname": "Thomas C. Hindman"
+          "suffix": "",
+          "first_name": "Thomas",
+          "rank": "Major General",
+          "fullname": "Thomas C. Hindman",
+          "navy": false
         }
       ],
       "description": "I Corps, Trans-Mississippi Army",
-      "casualties": 1317
+      "corps": 1
     },
     "US": {
       "casualties": 1251,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Francis",
-          "suffix": "",
-          "navy": false,
           "middle_name": "J.",
           "last_name": "Herron",
-          "fullname": "Francis J. Herron"
+          "suffix": "",
+          "first_name": "Francis",
+          "rank": "Brigadier General",
+          "fullname": "Francis J. Herron",
+          "navy": false
         },
         {
-          "rank": "Brigadier General",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
           "middle_name": "G.",
           "last_name": "Blunt",
-          "fullname": "James G. Blunt"
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Brigadier General",
+          "fullname": "James G. Blunt",
+          "navy": false
         }
       ],
       "description": "Army of the Frontier",
       "armies": 1
     }
   },
-  "cwsac_reference": "AR005",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ar005.htm",
   "forces_text": "Army of the Frontier [US]; I Corps, Trans-Mississippi Army [CS]",
-  "start_date": "1862-12-07",
-  "preservation": "I.3",
+  "casualties_text": "2,568 total (US 1,251; CS 1,317)",
   "results_text": "Union strategic victory",
-  "description": "Maj. Gen. Thomas C. Hindman sought to destroy Brig. Gen. Francis Herron's and Brig. Gen. James Blunt's divisions before they joined forces. Hindman placed his large force between the two Union divisions, turning on Herron first and routing his cavalry. As Hindman pursued the cavalry, he met Herron's infantry which pushed him back. The Rebels then established their line of battle on a wooded high ridge northeast of Prairie Grove Church. Herron brought his artillery across the Illinois River and initiated an artillery duel. The Union troops assaulted twice and were repulsed. The Confederates counterattacked, were halted by Union canister, and then moved forward again. Just when it looked as if the Rebel attack would roll up Herron's troops, Blunt's men assailed the Confederate left flank. As night came, neither side had won, but Hindman retreated to Van Buren. Hindman's retreat established Federal control of northwest Arkansas.",
-  "state": "AR",
-  "significance": "B",
+  "dates": "December 7, 1862",
+  "result": "Union",
   "other_names": [
     "Fayetteville"
   ],
-  "dates": "December 7, 1862",
-  "battle_name": "Prairie Grove",
-  "principal_commanders": "Brig. Gen. Francis J. Herron and Brig. Gen. James G. Blunt [US]; Maj. Gen. Thomas C. Hindman [CS]",
-  "campaign": "Prairie Grove Campaign [November 1862]",
+  "significance": "B",
+  "preservation": "I.3",
+  "state": "AR",
   "belligerents": {
-    "Confederate": {
-      "corps": 1,
+    "CS": {
+      "casualties": 1317,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Thomas",
-          "suffix": "",
-          "navy": false,
           "middle_name": "C.",
           "last_name": "Hindman",
-          "fullname": "Thomas C. Hindman"
+          "suffix": "",
+          "first_name": "Thomas",
+          "rank": "Major General",
+          "fullname": "Thomas C. Hindman",
+          "navy": false
         }
       ],
       "description": "I Corps, Trans-Mississippi Army",
-      "casualties": 1317
+      "corps": 1
+    },
+    "Confederate": {
+      "casualties": 1317,
+      "commanders": [
+        {
+          "middle_name": "C.",
+          "last_name": "Hindman",
+          "suffix": "",
+          "first_name": "Thomas",
+          "rank": "Major General",
+          "fullname": "Thomas C. Hindman",
+          "navy": false
+        }
+      ],
+      "description": "I Corps, Trans-Mississippi Army",
+      "corps": 1
     },
     "US": {
       "casualties": 1251,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Francis",
-          "suffix": "",
-          "navy": false,
           "middle_name": "J.",
           "last_name": "Herron",
-          "fullname": "Francis J. Herron"
+          "suffix": "",
+          "first_name": "Francis",
+          "rank": "Brigadier General",
+          "fullname": "Francis J. Herron",
+          "navy": false
         },
         {
-          "rank": "Brigadier General",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
           "middle_name": "G.",
           "last_name": "Blunt",
-          "fullname": "James G. Blunt"
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Brigadier General",
+          "fullname": "James G. Blunt",
+          "navy": false
         }
       ],
       "description": "Army of the Frontier",
       "armies": 1
-    },
-    "CS": {
-      "corps": 1,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Thomas",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "C.",
-          "last_name": "Hindman",
-          "fullname": "Thomas C. Hindman"
-        }
-      ],
-      "description": "I Corps, Trans-Mississippi Army",
-      "casualties": 1317
     }
   },
-  "result": "Union",
-  "battle": "AR005",
+  "campaign": "Prairie Grove Campaign [November 1862]",
+  "end_date": "1862-12-07",
+  "description": "Maj. Gen. Thomas C. Hindman sought to destroy Brig. Gen. Francis Herron's and Brig. Gen. James Blunt's divisions before they joined forces. Hindman placed his large force between the two Union divisions, turning on Herron first and routing his cavalry. As Hindman pursued the cavalry, he met Herron's infantry which pushed him back. The Rebels then established their line of battle on a wooded high ridge northeast of Prairie Grove Church. Herron brought his artillery across the Illinois River and initiated an artillery duel. The Union troops assaulted twice and were repulsed. The Confederates counterattacked, were halted by Union canister, and then moved forward again. Just when it looked as if the Rebel attack would roll up Herron's troops, Blunt's men assailed the Confederate left flank. As night came, neither side had won, but Hindman retreated to Van Buren. Hindman's retreat established Federal control of northwest Arkansas.",
   "location": [
     {
       "state": "AR",
       "place": "Washington County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/ar005.htm"
+  "battle_name": "Prairie Grove",
+  "start_date": "1862-12-07",
+  "casualties": 2568,
+  "principal_commanders": "Brig. Gen. Francis J. Herron and Brig. Gen. James G. Blunt [US]; Maj. Gen. Thomas C. Hindman [CS]"
 }

@@ -1,19 +1,19 @@
 {
-  "end_date": "1864-10-28",
-  "casualties": 3058,
-  "casualties_text": "3,058 total (1,758 US; 1,300 CS)",
+  "battle": "VA079",
+  "operation": false,
+  "cwsac_reference": "VA079",
   "forces": {
     "Confederate": {
       "casualties": 1300,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Henry",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Heth",
-          "fullname": "Henry Heth"
+          "suffix": "",
+          "first_name": "Henry",
+          "rank": "Major General",
+          "fullname": "Henry Heth",
+          "navy": false
         }
       ]
     },
@@ -21,86 +21,86 @@
       "casualties": 1758,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Winfield",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Scott",
           "last_name": "Hancock",
-          "fullname": "Winfield Scott Hancock"
+          "suffix": "",
+          "first_name": "Winfield",
+          "rank": "Major General",
+          "fullname": "Winfield Scott Hancock",
+          "navy": false
         }
       ]
     }
   },
-  "strength": 35000,
-  "cwsac_reference": "VA079",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va079.htm",
   "forces_text": "Corps (35,000 total)",
-  "start_date": "1864-10-27",
-  "preservation": "I.3",
+  "strength": 35000,
+  "casualties_text": "3,058 total (1,758 US; 1,300 CS)",
   "results_text": "Confederate victory",
-  "description": "Directed by Maj. Gen. Winfield Scott Hancock, divisions from three Union corps (II, V, and IX) and Gregg's cavalry division, numbering more than 30,000 men, withdrew from the Petersburg lines and marched west to operate against the Boydton Plank Road and South Side Railroad. The initial Union advance on October 27 gained the Boydton Plank Road, a major campaign objective. But that afternoon, a counterattack near Burgess' Mill spearheaded by Maj. Gen. Henry Heth's division and Maj. Gen. Wade Hampton's cavalry isolated the II Corps and forced a retreat. The Confederates retained control of the Boydton Plank Road for the rest of the winter.",
-  "state": "VA",
-  "significance": "B",
+  "dates": "October 27-28, 1864",
+  "result": "Confederate",
   "other_names": [
     "Hatcher's Run",
     "Burgess' Mill"
   ],
-  "dates": "October 27-28, 1864",
-  "battle_name": "Boydton Plank Road",
-  "principal_commanders": "Maj. Gen. Winfield Scott Hancock [US]; Maj. Gen. Henry Heth [CS]",
+  "significance": "B",
+  "preservation": "I.3",
+  "state": "VA",
+  "belligerents": {
+    "CS": {
+      "casualties": 1300,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Heth",
+          "suffix": "",
+          "first_name": "Henry",
+          "rank": "Major General",
+          "fullname": "Henry Heth",
+          "navy": false
+        }
+      ]
+    },
+    "Confederate": {
+      "casualties": 1300,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Heth",
+          "suffix": "",
+          "first_name": "Henry",
+          "rank": "Major General",
+          "fullname": "Henry Heth",
+          "navy": false
+        }
+      ]
+    },
+    "US": {
+      "casualties": 1758,
+      "commanders": [
+        {
+          "middle_name": "Scott",
+          "last_name": "Hancock",
+          "suffix": "",
+          "first_name": "Winfield",
+          "rank": "Major General",
+          "fullname": "Winfield Scott Hancock",
+          "navy": false
+        }
+      ]
+    }
+  },
+  "campaign": "Richmond-Petersburg Campaign [June 1864-March 1865]",
+  "end_date": "1864-10-28",
+  "description": "Directed by Maj. Gen. Winfield Scott Hancock, divisions from three Union corps (II, V, and IX) and Gregg's cavalry division, numbering more than 30,000 men, withdrew from the Petersburg lines and marched west to operate against the Boydton Plank Road and South Side Railroad. The initial Union advance on October 27 gained the Boydton Plank Road, a major campaign objective. But that afternoon, a counterattack near Burgess' Mill spearheaded by Maj. Gen. Henry Heth's division and Maj. Gen. Wade Hampton's cavalry isolated the II Corps and forced a retreat. The Confederates retained control of the Boydton Plank Road for the rest of the winter.",
   "location": [
     {
       "state": "VA",
       "place": "Dinwiddie County"
     }
   ],
-  "belligerents": {
-    "Confederate": {
-      "casualties": 1300,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Henry",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Heth",
-          "fullname": "Henry Heth"
-        }
-      ]
-    },
-    "US": {
-      "casualties": 1758,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Winfield",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "Scott",
-          "last_name": "Hancock",
-          "fullname": "Winfield Scott Hancock"
-        }
-      ]
-    },
-    "CS": {
-      "casualties": 1300,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Henry",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Heth",
-          "fullname": "Henry Heth"
-        }
-      ]
-    }
-  },
-  "result": "Confederate",
-  "battle": "VA079",
-  "campaign": "Richmond-Petersburg Campaign [June 1864-March 1865]",
-  "url": "http://www.nps.gov/hps/abpp/battles/va079.htm"
+  "battle_name": "Boydton Plank Road",
+  "start_date": "1864-10-27",
+  "casualties": 3058,
+  "principal_commanders": "Maj. Gen. Winfield Scott Hancock [US]; Maj. Gen. Henry Heth [CS]"
 }

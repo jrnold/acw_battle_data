@@ -1,117 +1,114 @@
 {
-  "end_date": "1864-06-24",
-  "casualties": 4000,
-  "casualties_text": "4,000 total",
+  "battle": "VA065",
+  "operation": false,
+  "cwsac_reference": "VA065",
   "forces": {
     "Confederate": {
-      "corps": 1,
       "commanders": [
         {
-          "rank": "General",
-          "first_name": "Robert",
-          "suffix": "",
-          "navy": false,
           "middle_name": "E.",
           "last_name": "Lee",
-          "fullname": "Robert E. Lee"
+          "suffix": "",
+          "first_name": "Robert",
+          "rank": "General",
+          "fullname": "Robert E. Lee",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
     },
     "US": {
-      "corps": 1,
       "commanders": [
         {
-          "rank": "Lieutenant General",
-          "first_name": "Ulysses",
-          "suffix": "",
-          "navy": false,
           "middle_name": "S.",
           "last_name": "Grant",
-          "fullname": "Ulysses S. Grant"
+          "suffix": "",
+          "first_name": "Ulysses",
+          "rank": "Lieutenant General",
+          "fullname": "Ulysses S. Grant",
+          "navy": false
         },
         {
-          "rank": "Major General",
-          "first_name": "George",
-          "suffix": "",
-          "navy": false,
           "middle_name": "G.",
           "last_name": "Meade",
-          "fullname": "George G. Meade"
+          "suffix": "",
+          "first_name": "George",
+          "rank": "Major General",
+          "fullname": "George G. Meade",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
     }
   },
-  "cwsac_reference": "VA065",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va065.htm",
   "forces_text": "Corps",
-  "start_date": "1864-06-21",
-  "preservation": "IV.1",
+  "casualties_text": "4,000 total",
   "results_text": "Union gained ground",
-  "description": "On June 21, the Union II Corps, supported by the VI Corps, attempted to cut the Weldon Railroad, one of the major supply lines into Petersburg. The movement was preceded by Wilson's cavalry division which began destroying tracks. On June 22, troops from Lt. Gen. A.P. Hill's corps led by Brig. Gen. William Mahone counterattacked, forcing the II Corps away from the railroad to positions on the Jerusalem Plank Road. Although the Federals were driven from their advanced positions, they were able to extend their siege lines farther to the west.",
-  "state": "VA",
-  "significance": "B",
+  "dates": "June 21-24, 1864",
+  "result": "Union",
   "other_names": [
     "First Battle of Weldon Railroad"
   ],
-  "dates": "June 21-24, 1864",
-  "battle_name": "Jerusalem Plank Road",
-  "principal_commanders": "Lt. Gen. Ulysses S. Grant and Maj. Gen. George G. Meade [US]; Gen. Robert E. Lee [CS]",
-  "campaign": "Richmond-Petersburg Campaign [June 1864-March 1865]",
+  "significance": "B",
+  "preservation": "IV.1",
+  "state": "VA",
   "belligerents": {
-    "Confederate": {
-      "corps": 1,
+    "CS": {
       "commanders": [
         {
-          "rank": "General",
-          "first_name": "Robert",
-          "suffix": "",
-          "navy": false,
           "middle_name": "E.",
           "last_name": "Lee",
-          "fullname": "Robert E. Lee"
+          "suffix": "",
+          "first_name": "Robert",
+          "rank": "General",
+          "fullname": "Robert E. Lee",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
+    },
+    "Confederate": {
+      "commanders": [
+        {
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "suffix": "",
+          "first_name": "Robert",
+          "rank": "General",
+          "fullname": "Robert E. Lee",
+          "navy": false
+        }
+      ],
+      "corps": 1
     },
     "US": {
-      "corps": 1,
       "commanders": [
         {
-          "rank": "Lieutenant General",
-          "first_name": "Ulysses",
-          "suffix": "",
-          "navy": false,
           "middle_name": "S.",
           "last_name": "Grant",
-          "fullname": "Ulysses S. Grant"
+          "suffix": "",
+          "first_name": "Ulysses",
+          "rank": "Lieutenant General",
+          "fullname": "Ulysses S. Grant",
+          "navy": false
         },
         {
-          "rank": "Major General",
-          "first_name": "George",
-          "suffix": "",
-          "navy": false,
           "middle_name": "G.",
           "last_name": "Meade",
-          "fullname": "George G. Meade"
-        }
-      ]
-    },
-    "CS": {
-      "corps": 1,
-      "commanders": [
-        {
-          "rank": "General",
-          "first_name": "Robert",
           "suffix": "",
-          "navy": false,
-          "middle_name": "E.",
-          "last_name": "Lee",
-          "fullname": "Robert E. Lee"
+          "first_name": "George",
+          "rank": "Major General",
+          "fullname": "George G. Meade",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
     }
   },
-  "result": "Union",
-  "battle": "VA065",
+  "campaign": "Richmond-Petersburg Campaign [June 1864-March 1865]",
+  "end_date": "1864-06-24",
+  "description": "On June 21, the Union II Corps, supported by the VI Corps, attempted to cut the Weldon Railroad, one of the major supply lines into Petersburg. The movement was preceded by Wilson's cavalry division which began destroying tracks. On June 22, troops from Lt. Gen. A.P. Hill's corps led by Brig. Gen. William Mahone counterattacked, forcing the II Corps away from the railroad to positions on the Jerusalem Plank Road. Although the Federals were driven from their advanced positions, they were able to extend their siege lines farther to the west.",
   "location": [
     {
       "state": "VA",
@@ -122,5 +119,8 @@
       "place": "Petersburg"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/va065.htm"
+  "battle_name": "Jerusalem Plank Road",
+  "start_date": "1864-06-21",
+  "casualties": 4000,
+  "principal_commanders": "Lt. Gen. Ulysses S. Grant and Maj. Gen. George G. Meade [US]; Gen. Robert E. Lee [CS]"
 }

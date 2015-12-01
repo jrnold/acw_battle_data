@@ -1,59 +1,112 @@
 {
-  "end_date": "1862-05-25",
-  "casualties": 2419,
-  "casualties_text": "2,419 total (US 2,019; CS 400)",
+  "battle": "VA104",
+  "operation": false,
+  "cwsac_reference": "VA104",
   "forces": {
     "Confederate": {
       "casualties": 400,
+      "strength_min": 16000,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Thomas",
-          "suffix": "",
-          "navy": false,
           "middle_name": "J.",
           "last_name": "Jackson",
-          "fullname": "Thomas J. Jackson"
+          "suffix": "",
+          "first_name": "Thomas",
+          "rank": "Major General",
+          "fullname": "Thomas J. Jackson",
+          "navy": false
         }
       ],
       "description": "16,000",
-      "strength_min": 16000,
       "strength_max": 16000
     },
     "US": {
       "casualties": 2019,
+      "strength_min": 6500,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Nathaniel",
-          "suffix": "",
-          "navy": false,
           "middle_name": "P.",
           "last_name": "Banks",
-          "fullname": "Nathaniel P. Banks"
+          "suffix": "",
+          "first_name": "Nathaniel",
+          "rank": "Major General",
+          "fullname": "Nathaniel P. Banks",
+          "navy": false
         }
       ],
       "description": "6,500",
-      "strength_min": 6500,
       "strength_max": 6500
     }
   },
-  "strength": 22500,
-  "cwsac_reference": "VA104",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va104.htm",
   "forces_text": "22,500 total (US 6,500; CS 16,000)",
-  "start_date": "1862-05-25",
-  "preservation": "IV.2",
+  "strength": 22500,
+  "casualties_text": "2,419 total (US 2,019; CS 400)",
   "results_text": "Confederate victory",
-  "description": "After skirmishing with Maj. Gen. Nathaniel P. Banks's retreating army at Middletown and Newtown on May 24, Maj. Gen. T.J. Jackson's division continued north on the Valley Pike toward Winchester. There, Banks was attempting to reorganize his army to defend the town. Ewell's division converged on Winchester from the southeast using the Front Royal Pike. On May 25, Ewell attacked Camp Hill, while the Louisiana Brigade of Jackson's division outflanked and overran the Union position on Bowers Hill. Panic spread through the Federal ranks, and many fled through Winchester. Banks's army was soundly defeated and withdrew north across the Potomac River. This was a decisive battle in Jackson's Valley Campaign.",
-  "state": "VA",
-  "significance": "A",
+  "dates": "May 25, 1862",
+  "result": "Confederate",
   "other_names": [
     "Bowers Hill"
   ],
-  "dates": "May 25, 1862",
-  "battle_name": "Winchester, First",
-  "principal_commanders": "Maj. Gen. Nathaniel P. Banks [US]; Maj. Gen. Thomas J. Jackson [CS]",
+  "significance": "A",
+  "preservation": "IV.2",
+  "state": "VA",
+  "belligerents": {
+    "CS": {
+      "casualties": 400,
+      "strength_min": 16000,
+      "commanders": [
+        {
+          "middle_name": "J.",
+          "last_name": "Jackson",
+          "suffix": "",
+          "first_name": "Thomas",
+          "rank": "Major General",
+          "fullname": "Thomas J. Jackson",
+          "navy": false
+        }
+      ],
+      "description": "16,000",
+      "strength_max": 16000
+    },
+    "Confederate": {
+      "casualties": 400,
+      "strength_min": 16000,
+      "commanders": [
+        {
+          "middle_name": "J.",
+          "last_name": "Jackson",
+          "suffix": "",
+          "first_name": "Thomas",
+          "rank": "Major General",
+          "fullname": "Thomas J. Jackson",
+          "navy": false
+        }
+      ],
+      "description": "16,000",
+      "strength_max": 16000
+    },
+    "US": {
+      "casualties": 2019,
+      "strength_min": 6500,
+      "commanders": [
+        {
+          "middle_name": "P.",
+          "last_name": "Banks",
+          "suffix": "",
+          "first_name": "Nathaniel",
+          "rank": "Major General",
+          "fullname": "Nathaniel P. Banks",
+          "navy": false
+        }
+      ],
+      "description": "6,500",
+      "strength_max": 6500
+    }
+  },
+  "campaign": "Jackson's Valley Campaign [March-June 1862]",
+  "end_date": "1862-05-25",
+  "description": "After skirmishing with Maj. Gen. Nathaniel P. Banks's retreating army at Middletown and Newtown on May 24, Maj. Gen. T.J. Jackson's division continued north on the Valley Pike toward Winchester. There, Banks was attempting to reorganize his army to defend the town. Ewell's division converged on Winchester from the southeast using the Front Royal Pike. On May 25, Ewell attacked Camp Hill, while the Louisiana Brigade of Jackson's division outflanked and overran the Union position on Bowers Hill. Panic spread through the Federal ranks, and many fled through Winchester. Banks's army was soundly defeated and withdrew north across the Potomac River. This was a decisive battle in Jackson's Valley Campaign.",
   "location": [
     {
       "state": "VA",
@@ -64,61 +117,8 @@
       "place": "Winchester"
     }
   ],
-  "belligerents": {
-    "Confederate": {
-      "casualties": 400,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Thomas",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "J.",
-          "last_name": "Jackson",
-          "fullname": "Thomas J. Jackson"
-        }
-      ],
-      "description": "16,000",
-      "strength_min": 16000,
-      "strength_max": 16000
-    },
-    "US": {
-      "casualties": 2019,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Nathaniel",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "P.",
-          "last_name": "Banks",
-          "fullname": "Nathaniel P. Banks"
-        }
-      ],
-      "description": "6,500",
-      "strength_min": 6500,
-      "strength_max": 6500
-    },
-    "CS": {
-      "casualties": 400,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Thomas",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "J.",
-          "last_name": "Jackson",
-          "fullname": "Thomas J. Jackson"
-        }
-      ],
-      "description": "16,000",
-      "strength_min": 16000,
-      "strength_max": 16000
-    }
-  },
-  "result": "Confederate",
-  "battle": "VA104",
-  "campaign": "Jackson's Valley Campaign [March-June 1862]",
-  "url": "http://www.nps.gov/hps/abpp/battles/va104.htm"
+  "battle_name": "Winchester, First",
+  "start_date": "1862-05-25",
+  "casualties": 2419,
+  "principal_commanders": "Maj. Gen. Nathaniel P. Banks [US]; Maj. Gen. Thomas J. Jackson [CS]"
 }

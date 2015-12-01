@@ -1,109 +1,109 @@
 {
-  "end_date": "1863-03-15",
-  "casualties": 7,
-  "casualties_text": "7 total",
+  "battle": "NC010",
+  "operation": false,
+  "cwsac_reference": "NC010",
   "forces": {
     "Confederate": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "D.H.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Hill",
-          "fullname": "D.H. Hill"
+          "suffix": "",
+          "first_name": "D.H.",
+          "rank": "Major General",
+          "fullname": "D.H. Hill",
+          "navy": false
         }
       ],
-      "divisions": 1,
       "description": "Hill's Division"
     },
     "US": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Lieutenant Colonel",
-          "first_name": "Hiram",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Anderson",
-          "fullname": "Hiram Anderson"
+          "suffix": "",
+          "first_name": "Hiram",
+          "rank": "Lieutenant Colonel",
+          "fullname": "Hiram Anderson",
+          "navy": false
         }
       ],
-      "divisions": 1,
       "description": "1st Division, XVIII Corps"
     }
   },
-  "cwsac_reference": "NC010",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/nc010.htm",
   "forces_text": "1st Division, XVIII Corps [US]; Hill's Division [CS]",
-  "start_date": "1863-03-13",
-  "preservation": "III.4",
+  "casualties_text": "7 total",
   "results_text": "Union victory",
-  "description": "Lt. Gen. James Longstreet took charge of the Department of Virginia and North Carolina on February 25 and initiated his Tidewater Operations. He directed D.H. Hill, commander of the North Carolina District, to advance on the Union stronghold of New Berne with about 12,000 men. Maj. Gen. William H.T. Whiting, who commanded the Wilmington garrison, refused to cooperate. After an initial success at Deep Gully on March 13, Hill marched against the well-entrenched Federals at Fort Anderson on March 14-15. Hill was forced to retire upon the arrival of Union gunboats. The city's garrison was heavily reinforced, and Hill withdrew to threaten Washington, North Carolina.",
-  "state": "NC",
-  "significance": "D",
+  "dates": "March 13-15, 1863",
+  "result": "Union",
   "other_names": [
     "Deep Gully"
   ],
-  "dates": "March 13-15, 1863",
-  "battle_name": "Fort Anderson",
-  "principal_commanders": "Lt. Col. Hiram Anderson [US]; Maj. Gen. D.H. Hill [CS]",
-  "campaign": "Longstreet's Tidewater Operations [March-April 1863]",
+  "significance": "D",
+  "preservation": "III.4",
+  "state": "NC",
   "belligerents": {
-    "Confederate": {
+    "CS": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "D.H.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Hill",
-          "fullname": "D.H. Hill"
+          "suffix": "",
+          "first_name": "D.H.",
+          "rank": "Major General",
+          "fullname": "D.H. Hill",
+          "navy": false
         }
       ],
+      "description": "Hill's Division"
+    },
+    "Confederate": {
       "divisions": 1,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Hill",
+          "suffix": "",
+          "first_name": "D.H.",
+          "rank": "Major General",
+          "fullname": "D.H. Hill",
+          "navy": false
+        }
+      ],
       "description": "Hill's Division"
     },
     "US": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Lieutenant Colonel",
-          "first_name": "Hiram",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Anderson",
-          "fullname": "Hiram Anderson"
-        }
-      ],
-      "divisions": 1,
-      "description": "1st Division, XVIII Corps"
-    },
-    "CS": {
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "D.H.",
           "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Hill",
-          "fullname": "D.H. Hill"
+          "first_name": "Hiram",
+          "rank": "Lieutenant Colonel",
+          "fullname": "Hiram Anderson",
+          "navy": false
         }
       ],
-      "divisions": 1,
-      "description": "Hill's Division"
+      "description": "1st Division, XVIII Corps"
     }
   },
-  "result": "Union",
-  "battle": "NC010",
+  "campaign": "Longstreet's Tidewater Operations [March-April 1863]",
+  "end_date": "1863-03-15",
+  "description": "Lt. Gen. James Longstreet took charge of the Department of Virginia and North Carolina on February 25 and initiated his Tidewater Operations. He directed D.H. Hill, commander of the North Carolina District, to advance on the Union stronghold of New Berne with about 12,000 men. Maj. Gen. William H.T. Whiting, who commanded the Wilmington garrison, refused to cooperate. After an initial success at Deep Gully on March 13, Hill marched against the well-entrenched Federals at Fort Anderson on March 14-15. Hill was forced to retire upon the arrival of Union gunboats. The city's garrison was heavily reinforced, and Hill withdrew to threaten Washington, North Carolina.",
   "location": [
     {
       "state": "NC",
       "place": "Craven County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/nc010.htm"
+  "battle_name": "Fort Anderson",
+  "start_date": "1863-03-13",
+  "casualties": 7,
+  "principal_commanders": "Lt. Col. Hiram Anderson [US]; Maj. Gen. D.H. Hill [CS]"
 }

@@ -1,122 +1,122 @@
 {
-  "end_date": "1864-06-28",
-  "casualties": null,
-  "casualties_text": "1,817 for entire raid",
+  "battle": "VA067",
+  "operation": false,
+  "cwsac_reference": "VA067",
   "forces": {
     "Confederate": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Wade",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Hampton",
-          "fullname": "Wade Hampton"
+          "suffix": "",
+          "first_name": "Wade",
+          "rank": "Major General",
+          "fullname": "Wade Hampton",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     },
     "US": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
           "middle_name": "H.",
           "last_name": "Wilson",
-          "fullname": "James H. Wilson"
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Brigadier General",
+          "fullname": "James H. Wilson",
+          "navy": false
         },
         {
-          "rank": "Brigadier General",
-          "first_name": "August",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Kautz",
-          "fullname": "August Kautz"
+          "suffix": "",
+          "first_name": "August",
+          "rank": "Brigadier General",
+          "fullname": "August Kautz",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     }
   },
-  "cwsac_reference": "VA067",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va067.htm",
   "forces_text": "Divisions",
-  "start_date": "1864-06-28",
-  "preservation": "III.4",
+  "casualties_text": "1,817 for entire raid",
   "results_text": "Confederate victory",
-  "description": "Maj. Gen. William H.F. \"Rooney\" Lee's cavalry division pursued Wilson's and Kautz's raiders who failed to destroy the Staunton River Bridge on June 25. Wilson and Kautz headed east and, on June 28, crossed the Nottoway River at the Double Bridges and headed north to Stony Creek Depot on the Weldon Railroad. Here, they were attacked by Maj. Gen. Wade Hampton's cavalry division. Later in the day, William H.F. Lee's Division arrived to join forces with Hampton, and the Federals were heavily pressured. During the night, Wilson and Kautz disengaged and pressed north on the Halifax Road for the supposed security of Reams Station, abandoning many fleeing slaves who had sought security with the Federal raiders.",
-  "state": "VA",
-  "significance": "D",
+  "dates": "June 28, 1864",
+  "result": "Confederate",
   "other_names": [
     "Stony Creek Depot"
   ],
-  "dates": "June 28, 1864",
-  "battle_name": "Sappony Church",
-  "principal_commanders": "Brig. Gen. James H. Wilson and Brig. Gen. August Kautz [US]; Maj. Gen. Wade Hampton [CS]",
-  "campaign": "Richmond-Petersburg Campaign [June 1864-March 1865]",
+  "significance": "D",
+  "preservation": "III.4",
+  "state": "VA",
   "belligerents": {
-    "Confederate": {
+    "CS": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Wade",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Hampton",
-          "fullname": "Wade Hampton"
+          "suffix": "",
+          "first_name": "Wade",
+          "rank": "Major General",
+          "fullname": "Wade Hampton",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
+    },
+    "Confederate": {
+      "divisions": 1,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Hampton",
+          "suffix": "",
+          "first_name": "Wade",
+          "rank": "Major General",
+          "fullname": "Wade Hampton",
+          "navy": false
+        }
+      ]
     },
     "US": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
           "middle_name": "H.",
           "last_name": "Wilson",
-          "fullname": "James H. Wilson"
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Brigadier General",
+          "fullname": "James H. Wilson",
+          "navy": false
         },
         {
-          "rank": "Brigadier General",
-          "first_name": "August",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Kautz",
-          "fullname": "August Kautz"
-        }
-      ],
-      "divisions": 1
-    },
-    "CS": {
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Wade",
           "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Hampton",
-          "fullname": "Wade Hampton"
+          "first_name": "August",
+          "rank": "Brigadier General",
+          "fullname": "August Kautz",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     }
   },
-  "result": "Confederate",
-  "battle": "VA067",
+  "campaign": "Richmond-Petersburg Campaign [June 1864-March 1865]",
+  "end_date": "1864-06-28",
+  "description": "Maj. Gen. William H.F. \"Rooney\" Lee's cavalry division pursued Wilson's and Kautz's raiders who failed to destroy the Staunton River Bridge on June 25. Wilson and Kautz headed east and, on June 28, crossed the Nottoway River at the Double Bridges and headed north to Stony Creek Depot on the Weldon Railroad. Here, they were attacked by Maj. Gen. Wade Hampton's cavalry division. Later in the day, William H.F. Lee's Division arrived to join forces with Hampton, and the Federals were heavily pressured. During the night, Wilson and Kautz disengaged and pressed north on the Halifax Road for the supposed security of Reams Station, abandoning many fleeing slaves who had sought security with the Federal raiders.",
   "location": [
     {
       "state": "VA",
       "place": "Sussex County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/va067.htm"
+  "battle_name": "Sappony Church",
+  "start_date": "1864-06-28",
+  "casualties": null,
+  "principal_commanders": "Brig. Gen. James H. Wilson and Brig. Gen. August Kautz [US]; Maj. Gen. Wade Hampton [CS]"
 }

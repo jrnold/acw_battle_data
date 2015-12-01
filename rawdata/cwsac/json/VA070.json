@@ -1,18 +1,18 @@
 {
-  "end_date": "1864-07-30",
-  "casualties": 5300,
-  "casualties_text": "5,300 total",
+  "battle": "VA070",
+  "operation": false,
+  "cwsac_reference": "VA070",
   "forces": {
     "Confederate": {
       "commanders": [
         {
-          "rank": "General",
-          "first_name": "Robert",
-          "suffix": "",
-          "navy": false,
           "middle_name": "E.",
           "last_name": "Lee",
-          "fullname": "Robert E. Lee"
+          "suffix": "",
+          "first_name": "Robert",
+          "rank": "General",
+          "fullname": "Robert E. Lee",
+          "navy": false
         }
       ],
       "description": "elements of the Army of Northern Virginia"
@@ -20,45 +20,55 @@
     "US": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Ambrose",
-          "suffix": "",
-          "navy": false,
           "middle_name": "E.",
           "last_name": "Burnside",
-          "fullname": "Ambrose E. Burnside"
+          "suffix": "",
+          "first_name": "Ambrose",
+          "rank": "Major General",
+          "fullname": "Ambrose E. Burnside",
+          "navy": false
         }
       ],
       "description": "IX Corps"
     }
   },
-  "cwsac_reference": "VA070",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va070.htm",
   "forces_text": "IX Corps [US]; elements of the Army of Northern Virginia [CS]",
-  "start_date": "1864-07-30",
-  "preservation": "III.1",
+  "casualties_text": "5,300 total",
   "results_text": "Confederate victory",
-  "description": "After weeks of preparation, on July 30 the Federals exploded a mine in Burnside's IX Corps sector beneath Pegram's Salient, blowing a gap in the Confederate defenses of Petersburg. From this propitious beginning, everything deteriorated rapidly for the Union attackers. Unit after unit charged into and around the crater, where soldiers milled in confusion. The Confederates quickly recovered and launched several counterattacks led by Maj. Gen. William Mahone. The break was sealed off, and the Federals were repulsed with severe casualties. Ferrarro's division of black soldiers was badly mauled. This may have been Grant's best chance to end the Siege of Petersburg. Instead, the soldiers settled in for another eight months of trench warfare. Maj. Gen. Ambrose E. Burnside was relieved of command for his role in the debacle.",
-  "state": "VA",
-  "significance": "A",
+  "dates": "July 30, 1864",
+  "result": "Confederate",
   "other_names": [
     "The Mine"
   ],
-  "dates": "July 30, 1864",
-  "battle_name": "Crater",
-  "principal_commanders": "Maj. Gen. Ambrose E. Burnside [US]; Gen. Robert E. Lee [CS]",
-  "campaign": "Richmond-Petersburg Campaign [June 1864-March 1865]",
+  "significance": "A",
+  "preservation": "III.1",
+  "state": "VA",
   "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "suffix": "",
+          "first_name": "Robert",
+          "rank": "General",
+          "fullname": "Robert E. Lee",
+          "navy": false
+        }
+      ],
+      "description": "elements of the Army of Northern Virginia"
+    },
     "Confederate": {
       "commanders": [
         {
-          "rank": "General",
-          "first_name": "Robert",
-          "suffix": "",
-          "navy": false,
           "middle_name": "E.",
           "last_name": "Lee",
-          "fullname": "Robert E. Lee"
+          "suffix": "",
+          "first_name": "Robert",
+          "rank": "General",
+          "fullname": "Robert E. Lee",
+          "navy": false
         }
       ],
       "description": "elements of the Army of Northern Virginia"
@@ -66,39 +76,29 @@
     "US": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Ambrose",
-          "suffix": "",
-          "navy": false,
           "middle_name": "E.",
           "last_name": "Burnside",
-          "fullname": "Ambrose E. Burnside"
+          "suffix": "",
+          "first_name": "Ambrose",
+          "rank": "Major General",
+          "fullname": "Ambrose E. Burnside",
+          "navy": false
         }
       ],
       "description": "IX Corps"
-    },
-    "CS": {
-      "commanders": [
-        {
-          "rank": "General",
-          "first_name": "Robert",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "E.",
-          "last_name": "Lee",
-          "fullname": "Robert E. Lee"
-        }
-      ],
-      "description": "elements of the Army of Northern Virginia"
     }
   },
-  "result": "Confederate",
-  "battle": "VA070",
+  "campaign": "Richmond-Petersburg Campaign [June 1864-March 1865]",
+  "end_date": "1864-07-30",
+  "description": "After weeks of preparation, on July 30 the Federals exploded a mine in Burnside's IX Corps sector beneath Pegram's Salient, blowing a gap in the Confederate defenses of Petersburg. From this propitious beginning, everything deteriorated rapidly for the Union attackers. Unit after unit charged into and around the crater, where soldiers milled in confusion. The Confederates quickly recovered and launched several counterattacks led by Maj. Gen. William Mahone. The break was sealed off, and the Federals were repulsed with severe casualties. Ferrarro's division of black soldiers was badly mauled. This may have been Grant's best chance to end the Siege of Petersburg. Instead, the soldiers settled in for another eight months of trench warfare. Maj. Gen. Ambrose E. Burnside was relieved of command for his role in the debacle.",
   "location": [
     {
       "state": "VA",
       "place": "Petersburg"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/va070.htm"
+  "battle_name": "Crater",
+  "start_date": "1864-07-30",
+  "casualties": 5300,
+  "principal_commanders": "Maj. Gen. Ambrose E. Burnside [US]; Gen. Robert E. Lee [CS]"
 }

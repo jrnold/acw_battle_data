@@ -1,18 +1,18 @@
 {
-  "end_date": "1864-05-10",
-  "casualties": 300,
-  "casualties_text": "300 total",
+  "battle": "VA109",
+  "operation": false,
+  "cwsac_reference": "VA109",
   "forces": {
     "Confederate": {
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
           "middle_name": "E.",
           "last_name": "Jones",
-          "fullname": "William E. Jones"
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Brigadier General",
+          "fullname": "William E. Jones",
+          "navy": false
         }
       ],
       "brigades": 1
@@ -20,83 +20,83 @@
     "US": {
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
           "middle_name": "W.",
           "last_name": "Averell",
-          "fullname": "William W. Averell"
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Brigadier General",
+          "fullname": "William W. Averell",
+          "navy": false
         }
       ],
       "brigades": 1
     }
   },
-  "cwsac_reference": "VA109",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va109.htm",
   "forces_text": "Brigades",
-  "start_date": "1864-05-10",
-  "preservation": "III.4",
+  "casualties_text": "300 total",
   "results_text": "Inconclusive",
-  "description": "On May 10, Brig. Gen. W.W. Averell's raiders encountered a brigade under William \"Grumble\" Jones near Cove Mountain. After delaying the Union advance, the Confederates withdrew. The next day, Averell reached the New River Bridge on the Virginia & Tennessee Railroad, which he burned.",
-  "state": "VA",
-  "significance": "D",
-  "other_names": null,
   "dates": "May 10, 1864",
-  "battle_name": "Cove Mountain",
-  "principal_commanders": "Brig. Gen. William W. Averell [US]; Brig. Gen. William E. Jones [CS]",
-  "campaign": "Crook-Averell Raid on the Virginia & Tennessee Railroad [May 1864]",
+  "result": "Inconclusive",
+  "other_names": null,
+  "significance": "D",
+  "preservation": "III.4",
+  "state": "VA",
   "belligerents": {
-    "Confederate": {
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "E.",
-          "last_name": "Jones",
-          "fullname": "William E. Jones"
-        }
-      ],
-      "brigades": 1
-    },
-    "US": {
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "W.",
-          "last_name": "Averell",
-          "fullname": "William W. Averell"
-        }
-      ],
-      "brigades": 1
-    },
     "CS": {
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
           "middle_name": "E.",
           "last_name": "Jones",
-          "fullname": "William E. Jones"
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Brigadier General",
+          "fullname": "William E. Jones",
+          "navy": false
+        }
+      ],
+      "brigades": 1
+    },
+    "Confederate": {
+      "commanders": [
+        {
+          "middle_name": "E.",
+          "last_name": "Jones",
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Brigadier General",
+          "fullname": "William E. Jones",
+          "navy": false
+        }
+      ],
+      "brigades": 1
+    },
+    "US": {
+      "commanders": [
+        {
+          "middle_name": "W.",
+          "last_name": "Averell",
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Brigadier General",
+          "fullname": "William W. Averell",
+          "navy": false
         }
       ],
       "brigades": 1
     }
   },
-  "result": "Inconclusive",
-  "battle": "VA109",
+  "campaign": "Crook-Averell Raid on the Virginia & Tennessee Railroad [May 1864]",
+  "end_date": "1864-05-10",
+  "description": "On May 10, Brig. Gen. W.W. Averell's raiders encountered a brigade under William \"Grumble\" Jones near Cove Mountain. After delaying the Union advance, the Confederates withdrew. The next day, Averell reached the New River Bridge on the Virginia & Tennessee Railroad, which he burned.",
   "location": [
     {
       "state": "VA",
       "place": "Wythe County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/va109.htm"
+  "battle_name": "Cove Mountain",
+  "start_date": "1864-05-10",
+  "casualties": 300,
+  "principal_commanders": "Brig. Gen. William W. Averell [US]; Brig. Gen. William E. Jones [CS]"
 }

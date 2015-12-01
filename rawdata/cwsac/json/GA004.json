@@ -1,28 +1,28 @@
 {
-  "end_date": "1863-09-20",
-  "casualties": 34624,
-  "casualties_text": "34,624 total (US 16,170; CS 18,454)",
+  "battle": "GA004",
+  "operation": false,
+  "cwsac_reference": "GA004",
   "forces": {
     "Confederate": {
       "casualties": 18454,
       "commanders": [
         {
-          "rank": "General",
-          "first_name": "Braxton",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Bragg",
-          "fullname": "Braxton Bragg"
+          "suffix": "",
+          "first_name": "Braxton",
+          "rank": "General",
+          "fullname": "Braxton Bragg",
+          "navy": false
         },
         {
-          "rank": "Lieutenant General",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Longstreet",
-          "fullname": "James Longstreet"
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Lieutenant General",
+          "fullname": "James Longstreet",
+          "navy": false
         }
       ],
       "description": "Army of Tennessee",
@@ -32,121 +32,118 @@
       "casualties": 16170,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
           "middle_name": "S.",
           "last_name": "Rosecrans",
-          "fullname": "William S. Rosecrans"
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Major General",
+          "fullname": "William S. Rosecrans",
+          "navy": false
         },
         {
-          "rank": "Major General",
-          "first_name": "George",
-          "suffix": "",
-          "navy": false,
           "middle_name": "H.",
           "last_name": "Thomas",
-          "fullname": "George H. Thomas"
+          "suffix": "",
+          "first_name": "George",
+          "rank": "Major General",
+          "fullname": "George H. Thomas",
+          "navy": false
         }
       ],
       "description": "The Army of the Cumberland",
       "armies": 1
     }
   },
-  "cwsac_reference": "GA004",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ga004.htm",
   "forces_text": "The Army of the Cumberland [US]; Army of Tennessee [CS]",
-  "start_date": "1863-09-18",
-  "preservation": "I.2",
+  "casualties_text": "34,624 total (US 16,170; CS 18,454)",
   "results_text": "Confederate victory",
-  "description": "After the Tullahoma Campaign, Rosecrans renewed his offensive, aiming to force the Confederates out of Chattanooga. The three army corps comprising Rosecrans' s army split and set out for Chattanooga by separate routes. In early September, Rosecrans consolidated his forces scattered in Tennessee and Georgia and forced Bragg's army out of Chattanooga, heading south. The Union troops followed it and brushed with it at Davis' Cross Roads. Bragg was determined to reoccupy Chattanooga and decided to meet a part of Rosecrans's army, defeat them, and then move back into the city. On the 17th he headed north, intending to meet and beat the XXI Army Corps. As Bragg marched north on the 18th, his cavalry and infantry fought with Union cavalry and mounted infantry which were armed with Spencer repeating rifles. Fighting began in earnest on the morning of the 19th, and Bragg's men hammered but did not break the Union line. The next day, Bragg continued his assault on the Union line on the left, and in late morning, Rosecrans was informed that he had a gap in his line. In moving units to shore up the supposed gap, Rosencrans created one, and James Longstreet's men promptly exploited it, driving one-third of the Union army, including Rosecrans himself, from the field. George H. Thomas took over command and began consolidating forces on Horseshoe Ridge and Snodgrass Hill. Although the Rebels launched determined assaults on these forces, they held until after dark. Thomas then led these men from the field leaving it to the Confederates. The Union retired to Chattanooga while the Rebels occupied the surrounding heights.",
-  "state": "GA",
-  "significance": "A",
-  "other_names": null,
   "dates": "September 18-20, 1863",
-  "battle_name": "Chickamauga",
-  "principal_commanders": "Maj. Gen. William S. Rosecrans and Maj. Gen. George H. Thomas [US]; Gen. Braxton Bragg and Lt. Gen. James Longstreet [CS]",
-  "campaign": "Chickamauga Campaign [August-September 1863]",
+  "result": "Confederate",
+  "other_names": null,
+  "significance": "A",
+  "preservation": "I.2",
+  "state": "GA",
   "belligerents": {
-    "Confederate": {
-      "casualties": 18454,
-      "commanders": [
-        {
-          "rank": "General",
-          "first_name": "Braxton",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Bragg",
-          "fullname": "Braxton Bragg"
-        },
-        {
-          "rank": "Lieutenant General",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Longstreet",
-          "fullname": "James Longstreet"
-        }
-      ],
-      "description": "Army of Tennessee",
-      "armies": 1
-    },
-    "US": {
-      "casualties": 16170,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "S.",
-          "last_name": "Rosecrans",
-          "fullname": "William S. Rosecrans"
-        },
-        {
-          "rank": "Major General",
-          "first_name": "George",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "H.",
-          "last_name": "Thomas",
-          "fullname": "George H. Thomas"
-        }
-      ],
-      "description": "The Army of the Cumberland",
-      "armies": 1
-    },
     "CS": {
       "casualties": 18454,
       "commanders": [
         {
-          "rank": "General",
-          "first_name": "Braxton",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Bragg",
-          "fullname": "Braxton Bragg"
+          "suffix": "",
+          "first_name": "Braxton",
+          "rank": "General",
+          "fullname": "Braxton Bragg",
+          "navy": false
         },
         {
-          "rank": "Lieutenant General",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Longstreet",
-          "fullname": "James Longstreet"
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Lieutenant General",
+          "fullname": "James Longstreet",
+          "navy": false
         }
       ],
       "description": "Army of Tennessee",
       "armies": 1
+    },
+    "Confederate": {
+      "casualties": 18454,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Bragg",
+          "suffix": "",
+          "first_name": "Braxton",
+          "rank": "General",
+          "fullname": "Braxton Bragg",
+          "navy": false
+        },
+        {
+          "middle_name": "",
+          "last_name": "Longstreet",
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Lieutenant General",
+          "fullname": "James Longstreet",
+          "navy": false
+        }
+      ],
+      "description": "Army of Tennessee",
+      "armies": 1
+    },
+    "US": {
+      "casualties": 16170,
+      "commanders": [
+        {
+          "middle_name": "S.",
+          "last_name": "Rosecrans",
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Major General",
+          "fullname": "William S. Rosecrans",
+          "navy": false
+        },
+        {
+          "middle_name": "H.",
+          "last_name": "Thomas",
+          "suffix": "",
+          "first_name": "George",
+          "rank": "Major General",
+          "fullname": "George H. Thomas",
+          "navy": false
+        }
+      ],
+      "description": "The Army of the Cumberland",
+      "armies": 1
     }
   },
-  "result": "Confederate",
-  "battle": "GA004",
+  "campaign": "Chickamauga Campaign [August-September 1863]",
+  "end_date": "1863-09-20",
+  "description": "After the Tullahoma Campaign, Rosecrans renewed his offensive, aiming to force the Confederates out of Chattanooga. The three army corps comprising Rosecrans' s army split and set out for Chattanooga by separate routes. In early September, Rosecrans consolidated his forces scattered in Tennessee and Georgia and forced Bragg's army out of Chattanooga, heading south. The Union troops followed it and brushed with it at Davis' Cross Roads. Bragg was determined to reoccupy Chattanooga and decided to meet a part of Rosecrans's army, defeat them, and then move back into the city. On the 17th he headed north, intending to meet and beat the XXI Army Corps. As Bragg marched north on the 18th, his cavalry and infantry fought with Union cavalry and mounted infantry which were armed with Spencer repeating rifles. Fighting began in earnest on the morning of the 19th, and Bragg's men hammered but did not break the Union line. The next day, Bragg continued his assault on the Union line on the left, and in late morning, Rosecrans was informed that he had a gap in his line. In moving units to shore up the supposed gap, Rosencrans created one, and James Longstreet's men promptly exploited it, driving one-third of the Union army, including Rosecrans himself, from the field. George H. Thomas took over command and began consolidating forces on Horseshoe Ridge and Snodgrass Hill. Although the Rebels launched determined assaults on these forces, they held until after dark. Thomas then led these men from the field leaving it to the Confederates. The Union retired to Chattanooga while the Rebels occupied the surrounding heights.",
   "location": [
     {
       "state": "GA",
@@ -157,5 +154,8 @@
       "place": "Walker County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/ga004.htm"
+  "battle_name": "Chickamauga",
+  "start_date": "1863-09-18",
+  "casualties": 34624,
+  "principal_commanders": "Maj. Gen. William S. Rosecrans and Maj. Gen. George H. Thomas [US]; Gen. Braxton Bragg and Lt. Gen. James Longstreet [CS]"
 }

@@ -1,140 +1,140 @@
 {
-  "end_date": "1864-07-15",
-  "casualties": 1948,
-  "casualties_text": "1,948 total (US 648; CS 1,300)",
+  "battle": "MS015",
+  "operation": false,
+  "cwsac_reference": "MS015",
   "forces": {
     "Confederate": {
       "casualties": 1300,
       "commanders": [
         {
-          "rank": "Lieutenant General",
-          "first_name": "Stephen",
-          "suffix": "",
-          "navy": false,
           "middle_name": "D.",
           "last_name": "Lee",
-          "fullname": "Stephen D. Lee"
+          "suffix": "",
+          "first_name": "Stephen",
+          "rank": "Lieutenant General",
+          "fullname": "Stephen D. Lee",
+          "navy": false
         },
         {
-          "rank": "Major General",
-          "first_name": "Nathan",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Bedford",
           "last_name": "Forrest",
-          "fullname": "Nathan Bedford Forrest"
+          "suffix": "",
+          "first_name": "Nathan",
+          "rank": "Major General",
+          "fullname": "Nathan Bedford Forrest",
+          "navy": false
         }
       ],
       "description": "Department of Alabama, Mississippi, and East Louisiana"
     },
     "US": {
       "casualties": 648,
+      "strength_min": 14000,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "A.J.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Smith",
-          "fullname": "A.J. Smith"
+          "suffix": "",
+          "first_name": "A.J.",
+          "rank": "Major General",
+          "fullname": "A.J. Smith",
+          "navy": false
         }
       ],
       "description": "1st and 3rd Infantry Divisions and Cavalry Division, XVI Army Corps, and 1st Brigade, U.S. Colored Troops (14,000)",
-      "strength_min": 14000,
       "strength_max": 14000
     }
   },
-  "cwsac_reference": "MS015",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ms015.htm",
   "forces_text": "1st and 3rd Infantry Divisions and Cavalry Division, XVI Army Corps, and 1st Brigade, U.S. Colored Troops (14,000) [US]; Department of Alabama, Mississippi, and East Louisiana [CS]",
-  "start_date": "1864-07-14",
-  "preservation": "IV.2",
+  "casualties_text": "1,948 total (US 648; CS 1,300)",
   "results_text": "Union victory",
-  "description": "Maj. Gen. A.J. Smith, commanding a combined force of more than 14,000 men, left LaGrange, Tennessee, on July 5, 1864, and advanced south. Smith's mission was to insure that Maj. Gen. Nathan B. Forrest and his cavalry did not raid Maj. Gen. William T. Sherman's railroad lifeline in Middle Tennessee and, thereby, prevent supplies from reaching him in his campaign against Atlanta. Laying waste to the countryside as he advanced, Smith reached Pontotoc, Mississippi, on July 11. Forrest was in nearby Okolona with about 6,000 men, but his commander, Lt. Gen. Stephen D. Lee, told him he could not attack until he was reinforced. Two days later, Smith, fearing an ambush, moved east toward Tupelo. On the previous day, Lee arrived near Pontotoc with 2,000 additional men and, under his command, the entire Confederate force engaged Smith. Within two miles of the Federals, on the night of the 13th, Lee ordered an attack for the next morning. Lee attacked at 7:30 am the next morning in a number of uncoordinated assaults which the Yankees beat back, causing heavy casualties. Lee halted the fighting after a few hours. Short on rations, Smith did not pursue but started back to Memphis on the 15th. Criticized for not destroying Forrest's command, Smith had caused much damage and had fulfilled his mission of insuring Sherman's supply lines.",
-  "state": "MS",
-  "significance": "B",
+  "dates": "July 14-15, 1864",
+  "result": "Union",
   "other_names": [
     "Harrisburg"
   ],
-  "dates": "July 14-15, 1864",
-  "battle_name": "Tupelo",
-  "principal_commanders": "Maj. Gen. A.J. Smith [US]; Lt. Gen. Stephen D. Lee and Maj. Gen. Nathan Bedford Forrest [CS]",
-  "campaign": "Forrest's Defense of Mississippi [June-August 1864]",
+  "significance": "B",
+  "preservation": "IV.2",
+  "state": "MS",
   "belligerents": {
-    "Confederate": {
-      "casualties": 1300,
-      "commanders": [
-        {
-          "rank": "Lieutenant General",
-          "first_name": "Stephen",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "D.",
-          "last_name": "Lee",
-          "fullname": "Stephen D. Lee"
-        },
-        {
-          "rank": "Major General",
-          "first_name": "Nathan",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "Bedford",
-          "last_name": "Forrest",
-          "fullname": "Nathan Bedford Forrest"
-        }
-      ],
-      "description": "Department of Alabama, Mississippi, and East Louisiana"
-    },
-    "US": {
-      "casualties": 648,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "A.J.",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Smith",
-          "fullname": "A.J. Smith"
-        }
-      ],
-      "description": "1st and 3rd Infantry Divisions and Cavalry Division, XVI Army Corps, and 1st Brigade, U.S. Colored Troops (14,000)",
-      "strength_min": 14000,
-      "strength_max": 14000
-    },
     "CS": {
       "casualties": 1300,
       "commanders": [
         {
-          "rank": "Lieutenant General",
-          "first_name": "Stephen",
-          "suffix": "",
-          "navy": false,
           "middle_name": "D.",
           "last_name": "Lee",
-          "fullname": "Stephen D. Lee"
+          "suffix": "",
+          "first_name": "Stephen",
+          "rank": "Lieutenant General",
+          "fullname": "Stephen D. Lee",
+          "navy": false
         },
         {
-          "rank": "Major General",
-          "first_name": "Nathan",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Bedford",
           "last_name": "Forrest",
-          "fullname": "Nathan Bedford Forrest"
+          "suffix": "",
+          "first_name": "Nathan",
+          "rank": "Major General",
+          "fullname": "Nathan Bedford Forrest",
+          "navy": false
         }
       ],
       "description": "Department of Alabama, Mississippi, and East Louisiana"
+    },
+    "Confederate": {
+      "casualties": 1300,
+      "commanders": [
+        {
+          "middle_name": "D.",
+          "last_name": "Lee",
+          "suffix": "",
+          "first_name": "Stephen",
+          "rank": "Lieutenant General",
+          "fullname": "Stephen D. Lee",
+          "navy": false
+        },
+        {
+          "middle_name": "Bedford",
+          "last_name": "Forrest",
+          "suffix": "",
+          "first_name": "Nathan",
+          "rank": "Major General",
+          "fullname": "Nathan Bedford Forrest",
+          "navy": false
+        }
+      ],
+      "description": "Department of Alabama, Mississippi, and East Louisiana"
+    },
+    "US": {
+      "casualties": 648,
+      "strength_min": 14000,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Smith",
+          "suffix": "",
+          "first_name": "A.J.",
+          "rank": "Major General",
+          "fullname": "A.J. Smith",
+          "navy": false
+        }
+      ],
+      "description": "1st and 3rd Infantry Divisions and Cavalry Division, XVI Army Corps, and 1st Brigade, U.S. Colored Troops (14,000)",
+      "strength_max": 14000
     }
   },
-  "result": "Union",
-  "battle": "MS015",
+  "campaign": "Forrest's Defense of Mississippi [June-August 1864]",
+  "end_date": "1864-07-15",
+  "description": "Maj. Gen. A.J. Smith, commanding a combined force of more than 14,000 men, left LaGrange, Tennessee, on July 5, 1864, and advanced south. Smith's mission was to insure that Maj. Gen. Nathan B. Forrest and his cavalry did not raid Maj. Gen. William T. Sherman's railroad lifeline in Middle Tennessee and, thereby, prevent supplies from reaching him in his campaign against Atlanta. Laying waste to the countryside as he advanced, Smith reached Pontotoc, Mississippi, on July 11. Forrest was in nearby Okolona with about 6,000 men, but his commander, Lt. Gen. Stephen D. Lee, told him he could not attack until he was reinforced. Two days later, Smith, fearing an ambush, moved east toward Tupelo. On the previous day, Lee arrived near Pontotoc with 2,000 additional men and, under his command, the entire Confederate force engaged Smith. Within two miles of the Federals, on the night of the 13th, Lee ordered an attack for the next morning. Lee attacked at 7:30 am the next morning in a number of uncoordinated assaults which the Yankees beat back, causing heavy casualties. Lee halted the fighting after a few hours. Short on rations, Smith did not pursue but started back to Memphis on the 15th. Criticized for not destroying Forrest's command, Smith had caused much damage and had fulfilled his mission of insuring Sherman's supply lines.",
   "location": [
     {
       "state": "MS",
       "place": "Lee County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/ms015.htm"
+  "battle_name": "Tupelo",
+  "start_date": "1864-07-14",
+  "casualties": 1948,
+  "principal_commanders": "Maj. Gen. A.J. Smith [US]; Lt. Gen. Stephen D. Lee and Maj. Gen. Nathan Bedford Forrest [CS]"
 }

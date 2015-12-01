@@ -1,104 +1,104 @@
 {
-  "end_date": "1864-06-24",
-  "casualties": 630,
-  "casualties_text": "630 total",
+  "battle": "VA066",
+  "operation": false,
+  "cwsac_reference": "VA066",
   "forces": {
     "Confederate": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Wade",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Hampton",
-          "fullname": "Wade Hampton"
+          "suffix": "",
+          "first_name": "Wade",
+          "rank": "Major General",
+          "fullname": "Wade Hampton",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     },
     "US": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Philip",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Sheridan",
-          "fullname": "Philip Sheridan"
+          "suffix": "",
+          "first_name": "Philip",
+          "rank": "Major General",
+          "fullname": "Philip Sheridan",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     }
   },
-  "cwsac_reference": "VA066",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va066.htm",
   "forces_text": "Divisions",
-  "start_date": "1864-06-24",
-  "preservation": "III.4",
+  "casualties_text": "630 total",
   "results_text": "Inconclusive",
-  "description": "On June 24, Maj. Gen. Wade Hampton's cavalry attempted to cut off Sheridan's cavalry returning from their raid to Trevilian Station. Sheridan fought a delaying action to protect a long supply train under his protection, then rejoined the Union army at Bermuda Hundred.",
-  "state": "VA",
-  "significance": "D",
+  "dates": "June 24, 1864",
+  "result": "Inconclusive",
   "other_names": [
     "Nance's Shop"
   ],
-  "dates": "June 24, 1864",
-  "battle_name": "Saint Mary's Church",
-  "principal_commanders": "Maj. Gen. Philip Sheridan [US]; Maj. Gen. Wade Hampton [CS]",
-  "campaign": "Grant's Overland Campaign [May-June 1864]",
+  "significance": "D",
+  "preservation": "III.4",
+  "state": "VA",
   "belligerents": {
-    "Confederate": {
+    "CS": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Wade",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Hampton",
-          "fullname": "Wade Hampton"
+          "suffix": "",
+          "first_name": "Wade",
+          "rank": "Major General",
+          "fullname": "Wade Hampton",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
+    },
+    "Confederate": {
+      "divisions": 1,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Hampton",
+          "suffix": "",
+          "first_name": "Wade",
+          "rank": "Major General",
+          "fullname": "Wade Hampton",
+          "navy": false
+        }
+      ]
     },
     "US": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Philip",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Sheridan",
-          "fullname": "Philip Sheridan"
-        }
-      ],
-      "divisions": 1
-    },
-    "CS": {
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Wade",
           "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Hampton",
-          "fullname": "Wade Hampton"
+          "first_name": "Philip",
+          "rank": "Major General",
+          "fullname": "Philip Sheridan",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     }
   },
-  "result": "Inconclusive",
-  "battle": "VA066",
+  "campaign": "Grant's Overland Campaign [May-June 1864]",
+  "end_date": "1864-06-24",
+  "description": "On June 24, Maj. Gen. Wade Hampton's cavalry attempted to cut off Sheridan's cavalry returning from their raid to Trevilian Station. Sheridan fought a delaying action to protect a long supply train under his protection, then rejoined the Union army at Bermuda Hundred.",
   "location": [
     {
       "state": "VA",
       "place": "Charles City"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/va066.htm"
+  "battle_name": "Saint Mary's Church",
+  "start_date": "1864-06-24",
+  "casualties": 630,
+  "principal_commanders": "Maj. Gen. Philip Sheridan [US]; Maj. Gen. Wade Hampton [CS]"
 }

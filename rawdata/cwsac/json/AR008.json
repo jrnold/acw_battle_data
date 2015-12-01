@@ -1,19 +1,19 @@
 {
-  "end_date": "1863-07-04",
-  "casualties": 1842,
-  "casualties_text": "1,842 total (US 206; CS 1,636)",
+  "battle": "AR008",
+  "operation": false,
+  "cwsac_reference": "AR008",
   "forces": {
     "Confederate": {
       "casualties": 1636,
       "commanders": [
         {
-          "rank": "Lieutenant General",
-          "first_name": "Theophilus",
-          "suffix": "",
-          "navy": false,
           "middle_name": "H.",
           "last_name": "Holmes",
-          "fullname": "Theophilus H. Holmes"
+          "suffix": "",
+          "first_name": "Theophilus",
+          "rank": "Lieutenant General",
+          "fullname": "Theophilus H. Holmes",
+          "navy": false
         }
       ],
       "description": "District of Arkansas"
@@ -22,86 +22,86 @@
       "casualties": 206,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Benjamin",
-          "suffix": "",
-          "navy": false,
           "middle_name": "M.",
           "last_name": "Prentiss",
-          "fullname": "Benjamin M. Prentiss"
+          "suffix": "",
+          "first_name": "Benjamin",
+          "rank": "Major General",
+          "fullname": "Benjamin M. Prentiss",
+          "navy": false
         }
       ],
       "description": "District of Eastern Arkansas"
     }
   },
-  "cwsac_reference": "AR008",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ar008.htm",
   "forces_text": "District of Eastern Arkansas [US]; District of Arkansas [CS]",
-  "start_date": "1863-07-04",
-  "preservation": "IV.1",
+  "casualties_text": "1,842 total (US 206; CS 1,636)",
   "results_text": "Union victory",
-  "description": "Lt. Gen. Theophilus Holmes's troops attacked Helena in an attempt to relieve pressure on Vicksburg. Although the Rebels had more troops and did initially capture some of the fortifications, the Union forces repelled them. Thus, Helena continued as an important Union enclave in the Trans-Mississippi theater and served as a base for the expedition that captured Little Rock.",
-  "state": "AR",
-  "significance": "B",
-  "other_names": null,
   "dates": "July 4, 1863",
-  "battle_name": "Helena",
-  "principal_commanders": "Maj. Gen. Benjamin M. Prentiss [US]; Lt. Gen. Theophilus H. Holmes [CS]",
-  "campaign": "Grant's Operations Against Vicksburg [March-July 1863]",
+  "result": "Union",
+  "other_names": null,
+  "significance": "B",
+  "preservation": "IV.1",
+  "state": "AR",
   "belligerents": {
-    "Confederate": {
-      "casualties": 1636,
-      "commanders": [
-        {
-          "rank": "Lieutenant General",
-          "first_name": "Theophilus",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "H.",
-          "last_name": "Holmes",
-          "fullname": "Theophilus H. Holmes"
-        }
-      ],
-      "description": "District of Arkansas"
-    },
-    "US": {
-      "casualties": 206,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Benjamin",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "M.",
-          "last_name": "Prentiss",
-          "fullname": "Benjamin M. Prentiss"
-        }
-      ],
-      "description": "District of Eastern Arkansas"
-    },
     "CS": {
       "casualties": 1636,
       "commanders": [
         {
-          "rank": "Lieutenant General",
-          "first_name": "Theophilus",
-          "suffix": "",
-          "navy": false,
           "middle_name": "H.",
           "last_name": "Holmes",
-          "fullname": "Theophilus H. Holmes"
+          "suffix": "",
+          "first_name": "Theophilus",
+          "rank": "Lieutenant General",
+          "fullname": "Theophilus H. Holmes",
+          "navy": false
         }
       ],
       "description": "District of Arkansas"
+    },
+    "Confederate": {
+      "casualties": 1636,
+      "commanders": [
+        {
+          "middle_name": "H.",
+          "last_name": "Holmes",
+          "suffix": "",
+          "first_name": "Theophilus",
+          "rank": "Lieutenant General",
+          "fullname": "Theophilus H. Holmes",
+          "navy": false
+        }
+      ],
+      "description": "District of Arkansas"
+    },
+    "US": {
+      "casualties": 206,
+      "commanders": [
+        {
+          "middle_name": "M.",
+          "last_name": "Prentiss",
+          "suffix": "",
+          "first_name": "Benjamin",
+          "rank": "Major General",
+          "fullname": "Benjamin M. Prentiss",
+          "navy": false
+        }
+      ],
+      "description": "District of Eastern Arkansas"
     }
   },
-  "result": "Union",
-  "battle": "AR008",
+  "campaign": "Grant's Operations Against Vicksburg [March-July 1863]",
+  "end_date": "1863-07-04",
+  "description": "Lt. Gen. Theophilus Holmes's troops attacked Helena in an attempt to relieve pressure on Vicksburg. Although the Rebels had more troops and did initially capture some of the fortifications, the Union forces repelled them. Thus, Helena continued as an important Union enclave in the Trans-Mississippi theater and served as a base for the expedition that captured Little Rock.",
   "location": [
     {
       "state": "AR",
       "place": "Phillips County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/ar008.htm"
+  "battle_name": "Helena",
+  "start_date": "1863-07-04",
+  "casualties": 1842,
+  "principal_commanders": "Maj. Gen. Benjamin M. Prentiss [US]; Lt. Gen. Theophilus H. Holmes [CS]"
 }

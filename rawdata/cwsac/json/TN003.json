@@ -1,164 +1,164 @@
 {
-  "end_date": "1862-04-07",
-  "casualties": 23746,
-  "casualties_text": "23,746 total (US 13,047; CS 10,699)",
+  "battle": "TN003",
+  "operation": false,
+  "cwsac_reference": "TN003",
   "forces": {
     "Confederate": {
       "casualties": 10699,
+      "strength_min": 44968,
       "commanders": [
         {
-          "rank": "General",
-          "first_name": "Albert",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Sidney",
           "last_name": "Johnston",
-          "fullname": "Albert Sidney Johnston"
+          "suffix": "",
+          "first_name": "Albert",
+          "rank": "General",
+          "fullname": "Albert Sidney Johnston",
+          "navy": false
         },
         {
-          "rank": "General",
-          "first_name": "P.G.T.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Beauregard",
-          "fullname": "P.G.T. Beauregard"
+          "suffix": "",
+          "first_name": "P.G.T.",
+          "rank": "General",
+          "fullname": "P.G.T. Beauregard",
+          "navy": false
         }
       ],
       "description": "Army of the Mississippi (44,968)",
-      "strength_min": 44968,
       "strength_max": 44968
     },
     "US": {
       "casualties": 13047,
+      "strength_min": 65085,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Ulysses",
-          "suffix": "",
-          "navy": false,
           "middle_name": "S.",
           "last_name": "Grant",
-          "fullname": "Ulysses S. Grant"
+          "suffix": "",
+          "first_name": "Ulysses",
+          "rank": "Major General",
+          "fullname": "Ulysses S. Grant",
+          "navy": false
         },
         {
-          "rank": "Major General",
-          "first_name": "Don",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Carlos",
           "last_name": "Buell",
-          "fullname": "Don Carlos Buell"
+          "suffix": "",
+          "first_name": "Don",
+          "rank": "Major General",
+          "fullname": "Don Carlos Buell",
+          "navy": false
         }
       ],
       "description": "Army of the Tennessee and Army of the Ohio (65,085)",
-      "strength_min": 65085,
       "strength_max": 65085
     }
   },
-  "cwsac_reference": "TN003",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/tn003.htm",
   "forces_text": "Army of the Tennessee and Army of the Ohio (65,085) [US]; Army of the Mississippi (44,968) [CS]",
-  "start_date": "1862-04-06",
-  "preservation": "III.1",
+  "casualties_text": "23,746 total (US 13,047; CS 10,699)",
   "results_text": "Union victory",
-  "description": "As a result of the fall of Forts Henry and Donelson, Confederate Gen. Albert Sidney Johnston, the commander in the area, was forced to fall back, giving up Kentucky and much of West and Middle Tennessee. He chose Corinth, Mississippi, a major transportation center, as the staging area for an offensive against Maj. Gen. Ulysses S. Grant and his Army of the Tennessee before the Army of the Ohio, under Maj. Gen. Don Carlos Buell, could join it. The Confederate retrenchment was a surprise, although a pleasant one, to the Union forces, and it took Grant, with about 40,000 men, some time to mount a southern offensive, along the Tennessee River, toward Pittsburg Landing. Grant received orders to await Buell's Army of the Ohio at Pittsburg Landing. Grant did not choose to fortify his position; rather, he set about drilling his men many of which were raw recruits. Johnston originally planned to attack Grant on April 4, but delays postponed it until the 6th. Attacking the Union troops on the morning of the 6th, the Confederates surprised them, routing many. Some Federals made determined stands and by afternoon, they had established a battle line at the sunken road, known as the \"Hornets Nest.\" Repeated Rebel attacks failed to carry the Hornets Nest, but massed artillery helped to turn the tide as Confederates surrounded the Union troops and captured, killed, or wounded most. Johnston had been mortally wounded earlier and his second in command, Gen. P.G.T. Beauregard, took over. The Union troops established another line covering Pittsburg Landing, anchored with artillery and augmented by Buell's men who began to arrive and take up positions. Fighting continued until after dark, but the Federals held. By the next morning, the combined Federal forces numbered about 40,000, outnumbering Beauregard's army of less than 30,000. Beauregard was unaware of the arrival of Buell's army and launched a counterattack in response to a two-mile advance by William Nelson's division of Buell's army at 6:00 am, which was, at first, successful. Union troops stiffened and began forcing the Confederates back. Beauregard ordered a counterattack, which stopped the Union advance but did not break its battle line. At this point, Beauregard realized that he could not win and, having suffered too many casualties, he retired from the field and headed back to Corinth. On the 8th, Grant sent Brig. Gen. William T. Sherman, with two brigades, and Brig. Gen. Thomas J. Wood, with his division, in pursuit of Beauregard. They ran into the Rebel rearguard, commanded by Col. Nathan Bedford Forrest, at Fallen Timbers. Forrest's aggressive tactics, although eventually contained, influenced the Union troops to return to Pittsburg Landing. Grant's mastery of the Confederate forces continued; he had beaten them once again. The Confederates continued to fall back until launching their mid-August offensive.",
-  "state": "TN",
-  "significance": "A",
+  "dates": "April 6-7, 1862",
+  "result": "Union",
   "other_names": [
     "Pittsburg Landing"
   ],
-  "dates": "April 6-7, 1862",
-  "battle_name": "Shiloh",
-  "principal_commanders": "Maj. Gen. Ulysses S. Grant and Maj. Gen. Don Carlos Buell [US]; Gen. Albert Sidney Johnston and Gen. P.G.T. Beauregard [CS]",
-  "campaign": "Federal Penetration up the Cumberland and Tennessee Rivers [February-June 1862]",
+  "significance": "A",
+  "preservation": "III.1",
+  "state": "TN",
   "belligerents": {
-    "Confederate": {
+    "CS": {
       "casualties": 10699,
+      "strength_min": 44968,
       "commanders": [
         {
-          "rank": "General",
-          "first_name": "Albert",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Sidney",
           "last_name": "Johnston",
-          "fullname": "Albert Sidney Johnston"
+          "suffix": "",
+          "first_name": "Albert",
+          "rank": "General",
+          "fullname": "Albert Sidney Johnston",
+          "navy": false
         },
         {
-          "rank": "General",
-          "first_name": "P.G.T.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Beauregard",
-          "fullname": "P.G.T. Beauregard"
+          "suffix": "",
+          "first_name": "P.G.T.",
+          "rank": "General",
+          "fullname": "P.G.T. Beauregard",
+          "navy": false
         }
       ],
       "description": "Army of the Mississippi (44,968)",
+      "strength_max": 44968
+    },
+    "Confederate": {
+      "casualties": 10699,
       "strength_min": 44968,
+      "commanders": [
+        {
+          "middle_name": "Sidney",
+          "last_name": "Johnston",
+          "suffix": "",
+          "first_name": "Albert",
+          "rank": "General",
+          "fullname": "Albert Sidney Johnston",
+          "navy": false
+        },
+        {
+          "middle_name": "",
+          "last_name": "Beauregard",
+          "suffix": "",
+          "first_name": "P.G.T.",
+          "rank": "General",
+          "fullname": "P.G.T. Beauregard",
+          "navy": false
+        }
+      ],
+      "description": "Army of the Mississippi (44,968)",
       "strength_max": 44968
     },
     "US": {
       "casualties": 13047,
+      "strength_min": 65085,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Ulysses",
-          "suffix": "",
-          "navy": false,
           "middle_name": "S.",
           "last_name": "Grant",
-          "fullname": "Ulysses S. Grant"
+          "suffix": "",
+          "first_name": "Ulysses",
+          "rank": "Major General",
+          "fullname": "Ulysses S. Grant",
+          "navy": false
         },
         {
-          "rank": "Major General",
-          "first_name": "Don",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Carlos",
           "last_name": "Buell",
-          "fullname": "Don Carlos Buell"
+          "suffix": "",
+          "first_name": "Don",
+          "rank": "Major General",
+          "fullname": "Don Carlos Buell",
+          "navy": false
         }
       ],
       "description": "Army of the Tennessee and Army of the Ohio (65,085)",
-      "strength_min": 65085,
       "strength_max": 65085
-    },
-    "CS": {
-      "casualties": 10699,
-      "commanders": [
-        {
-          "rank": "General",
-          "first_name": "Albert",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "Sidney",
-          "last_name": "Johnston",
-          "fullname": "Albert Sidney Johnston"
-        },
-        {
-          "rank": "General",
-          "first_name": "P.G.T.",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Beauregard",
-          "fullname": "P.G.T. Beauregard"
-        }
-      ],
-      "description": "Army of the Mississippi (44,968)",
-      "strength_min": 44968,
-      "strength_max": 44968
     }
   },
-  "result": "Union",
-  "battle": "TN003",
+  "campaign": "Federal Penetration up the Cumberland and Tennessee Rivers [February-June 1862]",
+  "end_date": "1862-04-07",
+  "description": "As a result of the fall of Forts Henry and Donelson, Confederate Gen. Albert Sidney Johnston, the commander in the area, was forced to fall back, giving up Kentucky and much of West and Middle Tennessee. He chose Corinth, Mississippi, a major transportation center, as the staging area for an offensive against Maj. Gen. Ulysses S. Grant and his Army of the Tennessee before the Army of the Ohio, under Maj. Gen. Don Carlos Buell, could join it. The Confederate retrenchment was a surprise, although a pleasant one, to the Union forces, and it took Grant, with about 40,000 men, some time to mount a southern offensive, along the Tennessee River, toward Pittsburg Landing. Grant received orders to await Buell's Army of the Ohio at Pittsburg Landing. Grant did not choose to fortify his position; rather, he set about drilling his men many of which were raw recruits. Johnston originally planned to attack Grant on April 4, but delays postponed it until the 6th. Attacking the Union troops on the morning of the 6th, the Confederates surprised them, routing many. Some Federals made determined stands and by afternoon, they had established a battle line at the sunken road, known as the \"Hornets Nest.\" Repeated Rebel attacks failed to carry the Hornets Nest, but massed artillery helped to turn the tide as Confederates surrounded the Union troops and captured, killed, or wounded most. Johnston had been mortally wounded earlier and his second in command, Gen. P.G.T. Beauregard, took over. The Union troops established another line covering Pittsburg Landing, anchored with artillery and augmented by Buell's men who began to arrive and take up positions. Fighting continued until after dark, but the Federals held. By the next morning, the combined Federal forces numbered about 40,000, outnumbering Beauregard's army of less than 30,000. Beauregard was unaware of the arrival of Buell's army and launched a counterattack in response to a two-mile advance by William Nelson's division of Buell's army at 6:00 am, which was, at first, successful. Union troops stiffened and began forcing the Confederates back. Beauregard ordered a counterattack, which stopped the Union advance but did not break its battle line. At this point, Beauregard realized that he could not win and, having suffered too many casualties, he retired from the field and headed back to Corinth. On the 8th, Grant sent Brig. Gen. William T. Sherman, with two brigades, and Brig. Gen. Thomas J. Wood, with his division, in pursuit of Beauregard. They ran into the Rebel rearguard, commanded by Col. Nathan Bedford Forrest, at Fallen Timbers. Forrest's aggressive tactics, although eventually contained, influenced the Union troops to return to Pittsburg Landing. Grant's mastery of the Confederate forces continued; he had beaten them once again. The Confederates continued to fall back until launching their mid-August offensive.",
   "location": [
     {
       "state": "TN",
       "place": "Hardin County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/tn003.htm"
+  "battle_name": "Shiloh",
+  "start_date": "1862-04-06",
+  "casualties": 23746,
+  "principal_commanders": "Maj. Gen. Ulysses S. Grant and Maj. Gen. Don Carlos Buell [US]; Gen. Albert Sidney Johnston and Gen. P.G.T. Beauregard [CS]"
 }

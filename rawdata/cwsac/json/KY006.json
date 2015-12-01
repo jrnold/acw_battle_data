@@ -1,19 +1,19 @@
 {
-  "end_date": "1862-01-19",
-  "casualties": 671,
-  "casualties_text": "671 total (US 232; CS 439)",
+  "battle": "KY006",
+  "operation": false,
+  "cwsac_reference": "KY006",
   "forces": {
     "Confederate": {
       "casualties": 439,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "George",
-          "suffix": "",
-          "navy": false,
           "middle_name": "B.",
           "last_name": "Crittenden",
-          "fullname": "George B. Crittenden"
+          "suffix": "",
+          "first_name": "George",
+          "rank": "Major General",
+          "fullname": "George B. Crittenden",
+          "navy": false
         }
       ],
       "brigades": 2,
@@ -21,50 +21,62 @@
     },
     "US": {
       "casualties": 232,
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "George",
-          "suffix": "",
-          "navy": false,
           "middle_name": "H.",
           "last_name": "Thomas",
-          "fullname": "George H. Thomas"
+          "suffix": "",
+          "first_name": "George",
+          "rank": "Brigadier General",
+          "fullname": "George H. Thomas",
+          "navy": false
         }
       ],
-      "divisions": 1,
       "description": "1st Division, Army of the Ohio, and Brig. Gen. A. Schoepf's Brigade (total of four brigades)"
     }
   },
-  "cwsac_reference": "KY006",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ky006.htm",
   "forces_text": "1st Division, Army of the Ohio, and Brig. Gen. A. Schoepf's Brigade (total of four brigades) [US]; division of two brigades [CS]",
-  "start_date": "1862-01-19",
-  "preservation": "I.3",
+  "casualties_text": "671 total (US 232; CS 439)",
   "results_text": "Union victory",
-  "description": "Although Brig. Gen. Felix K. Zollicoffer's main responsibility was to guard Cumberland Gap, in November 1861 he advanced west into Kentucky to strengthen control in the area around Somerset. He found a strong defensive position at Mill Springs and decided to make it his winter quarters. He fortified the area, especially both sides of the Cumberland River. Union Brig. Gen. George Thomas received orders to drive the Rebels across the Cumberland River and break up Maj. Gen. George B. Crittenden's army. He left Lebanon and slowly marched through rain-soaked country, arriving at Logan's Crossroads on January 17, where he waited for Brig. Gen. A. Schoepf's troops from Somerset to join him. Maj. Gen. George Crittenden, Zollicoffer's superior, had arrived at Mill Springs and taken command of the Confederate troops. He knew that Thomas was in the vicinity and decided that his best defense was to attack the Yankees. The Rebels attacked Thomas at Logan's Crossroads at dawn on January 19. Unbeknownst to the Confederates, some of Schoepf's troops had arrived and reinforced the Union force. Initially, the Rebel attack forced the first unit it hit to retire, but stiff resistance followed and Zollicoffer was killed. The Rebels made another attack but were repulsed. Union counterattacks on the Confederate right and left were successful, forcing them from the field in a retreat that ended in Murfreesboro, Tennessee. Mill Springs, along with Middle Creek, broke whatever Confederate strength there was in eastern Kentucky. Confederate fortunes did not rise again until summer when Gen. Braxton Bragg launched his offensive into Kentucky. Mill Springs was the larger of the two Union Kentucky victories in January 1862. With these victories, the Federals carried the war into Middle Tennessee in February.",
-  "state": "KY",
-  "significance": "B",
+  "dates": "January 19, 1862",
+  "result": "Union",
   "other_names": [
     "Logan's Cross-Roads",
     "Fishing Creek"
   ],
-  "dates": "January 19, 1862",
-  "battle_name": "Mill Springs",
-  "principal_commanders": "Brig. Gen. George H. Thomas [US]; Maj. Gen. George B. Crittenden [CS]",
-  "campaign": "Offensive in Eastern Kentucky [January 1862]",
+  "significance": "B",
+  "preservation": "I.3",
+  "state": "KY",
   "belligerents": {
+    "CS": {
+      "casualties": 439,
+      "commanders": [
+        {
+          "middle_name": "B.",
+          "last_name": "Crittenden",
+          "suffix": "",
+          "first_name": "George",
+          "rank": "Major General",
+          "fullname": "George B. Crittenden",
+          "navy": false
+        }
+      ],
+      "brigades": 2,
+      "description": "division of two brigades"
+    },
     "Confederate": {
       "casualties": 439,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "George",
-          "suffix": "",
-          "navy": false,
           "middle_name": "B.",
           "last_name": "Crittenden",
-          "fullname": "George B. Crittenden"
+          "suffix": "",
+          "first_name": "George",
+          "rank": "Major General",
+          "fullname": "George B. Crittenden",
+          "navy": false
         }
       ],
       "brigades": 2,
@@ -72,39 +84,24 @@
     },
     "US": {
       "casualties": 232,
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "George",
-          "suffix": "",
-          "navy": false,
           "middle_name": "H.",
           "last_name": "Thomas",
-          "fullname": "George H. Thomas"
-        }
-      ],
-      "divisions": 1,
-      "description": "1st Division, Army of the Ohio, and Brig. Gen. A. Schoepf's Brigade (total of four brigades)"
-    },
-    "CS": {
-      "casualties": 439,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "George",
           "suffix": "",
-          "navy": false,
-          "middle_name": "B.",
-          "last_name": "Crittenden",
-          "fullname": "George B. Crittenden"
+          "first_name": "George",
+          "rank": "Brigadier General",
+          "fullname": "George H. Thomas",
+          "navy": false
         }
       ],
-      "brigades": 2,
-      "description": "division of two brigades"
+      "description": "1st Division, Army of the Ohio, and Brig. Gen. A. Schoepf's Brigade (total of four brigades)"
     }
   },
-  "result": "Union",
-  "battle": "KY006",
+  "campaign": "Offensive in Eastern Kentucky [January 1862]",
+  "end_date": "1862-01-19",
+  "description": "Although Brig. Gen. Felix K. Zollicoffer's main responsibility was to guard Cumberland Gap, in November 1861 he advanced west into Kentucky to strengthen control in the area around Somerset. He found a strong defensive position at Mill Springs and decided to make it his winter quarters. He fortified the area, especially both sides of the Cumberland River. Union Brig. Gen. George Thomas received orders to drive the Rebels across the Cumberland River and break up Maj. Gen. George B. Crittenden's army. He left Lebanon and slowly marched through rain-soaked country, arriving at Logan's Crossroads on January 17, where he waited for Brig. Gen. A. Schoepf's troops from Somerset to join him. Maj. Gen. George Crittenden, Zollicoffer's superior, had arrived at Mill Springs and taken command of the Confederate troops. He knew that Thomas was in the vicinity and decided that his best defense was to attack the Yankees. The Rebels attacked Thomas at Logan's Crossroads at dawn on January 19. Unbeknownst to the Confederates, some of Schoepf's troops had arrived and reinforced the Union force. Initially, the Rebel attack forced the first unit it hit to retire, but stiff resistance followed and Zollicoffer was killed. The Rebels made another attack but were repulsed. Union counterattacks on the Confederate right and left were successful, forcing them from the field in a retreat that ended in Murfreesboro, Tennessee. Mill Springs, along with Middle Creek, broke whatever Confederate strength there was in eastern Kentucky. Confederate fortunes did not rise again until summer when Gen. Braxton Bragg launched his offensive into Kentucky. Mill Springs was the larger of the two Union Kentucky victories in January 1862. With these victories, the Federals carried the war into Middle Tennessee in February.",
   "location": [
     {
       "state": "KY",
@@ -115,5 +112,8 @@
       "place": "Wayne County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/ky006.htm"
+  "battle_name": "Mill Springs",
+  "start_date": "1862-01-19",
+  "casualties": 671,
+  "principal_commanders": "Brig. Gen. George H. Thomas [US]; Maj. Gen. George B. Crittenden [CS]"
 }

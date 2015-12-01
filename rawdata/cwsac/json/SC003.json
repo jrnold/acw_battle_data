@@ -1,107 +1,107 @@
 {
-  "end_date": "1862-06-21",
-  "casualties": 0,
-  "casualties_text": "None",
+  "battle": "SC003",
+  "operation": false,
+  "cwsac_reference": "SC003",
   "forces": {
     "Confederate": {
-      "regiments": 1,
       "casualties": 0,
       "commanders": [
         {
-          "rank": "Colonel",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "McCullough",
-          "fullname": "James McCullough"
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Colonel",
+          "fullname": "James McCullough",
+          "navy": false
         }
-      ]
+      ],
+      "regiments": 1
     },
     "US": {
-      "regiments": 1,
       "casualties": 0,
       "commanders": [
         {
-          "rank": "Lieutenant",
-          "first_name": "A.C.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Rhind",
-          "fullname": "A.C. Rhind"
+          "suffix": "",
+          "first_name": "A.C.",
+          "rank": "Lieutenant",
+          "fullname": "A.C. Rhind",
+          "navy": false
         }
-      ]
+      ],
+      "regiments": 1
     }
   },
-  "cwsac_reference": "SC003",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/sc003.htm",
   "forces_text": "Regiments",
-  "start_date": "1862-06-21",
-  "preservation": "III.4",
+  "casualties_text": "None",
   "results_text": "Union victory",
-  "description": "In June, the Federals besieging Charleston mounted an amphibious expedition to cut the Charleston & Savannah Railroad. On June 21, troops of the 55th Pennsylvania landed from the gunboat Crusader and transport Planter near Simmon's Bluff on Wadmelaw Sound, surprising and burning an encampment of the 16th South Carolina Infantry. The Confederates scattered, and the Federals returned to their ships. Despite this minor victory, the Federals abandoned their raid on the railroad. Although a bloodless raid, this engagement typified scores of similar encounters that occurred along the South Carolina coastline.",
-  "state": "SC",
-  "significance": "D",
-  "other_names": null,
   "dates": "June 21, 1862",
-  "battle_name": "Simmon's Bluff",
-  "principal_commanders": "Lt. A.C. Rhind [US]; Col. James McCullough [CS]",
-  "campaign": "Operations Against Charleston [June 1862]",
+  "result": "Union",
+  "other_names": null,
+  "significance": "D",
+  "preservation": "III.4",
+  "state": "SC",
   "belligerents": {
-    "Confederate": {
-      "regiments": 1,
+    "CS": {
       "casualties": 0,
       "commanders": [
         {
-          "rank": "Colonel",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "McCullough",
-          "fullname": "James McCullough"
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Colonel",
+          "fullname": "James McCullough",
+          "navy": false
         }
-      ]
+      ],
+      "regiments": 1
+    },
+    "Confederate": {
+      "casualties": 0,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "McCullough",
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Colonel",
+          "fullname": "James McCullough",
+          "navy": false
+        }
+      ],
+      "regiments": 1
     },
     "US": {
-      "regiments": 1,
       "casualties": 0,
       "commanders": [
         {
-          "rank": "Lieutenant",
-          "first_name": "A.C.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Rhind",
-          "fullname": "A.C. Rhind"
-        }
-      ]
-    },
-    "CS": {
-      "regiments": 1,
-      "casualties": 0,
-      "commanders": [
-        {
-          "rank": "Colonel",
-          "first_name": "James",
           "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "McCullough",
-          "fullname": "James McCullough"
+          "first_name": "A.C.",
+          "rank": "Lieutenant",
+          "fullname": "A.C. Rhind",
+          "navy": false
         }
-      ]
+      ],
+      "regiments": 1
     }
   },
-  "result": "Union",
-  "battle": "SC003",
+  "campaign": "Operations Against Charleston [June 1862]",
+  "end_date": "1862-06-21",
+  "description": "In June, the Federals besieging Charleston mounted an amphibious expedition to cut the Charleston & Savannah Railroad. On June 21, troops of the 55th Pennsylvania landed from the gunboat Crusader and transport Planter near Simmon's Bluff on Wadmelaw Sound, surprising and burning an encampment of the 16th South Carolina Infantry. The Confederates scattered, and the Federals returned to their ships. Despite this minor victory, the Federals abandoned their raid on the railroad. Although a bloodless raid, this engagement typified scores of similar encounters that occurred along the South Carolina coastline.",
   "location": [
     {
       "state": "SC",
       "place": "City of Charleston"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/sc003.htm"
+  "battle_name": "Simmon's Bluff",
+  "start_date": "1862-06-21",
+  "casualties": 0,
+  "principal_commanders": "Lt. A.C. Rhind [US]; Col. James McCullough [CS]"
 }

@@ -1,139 +1,139 @@
 {
-  "end_date": "1865-03-31",
-  "casualties": 2670,
-  "casualties_text": "2,670 (US 1,870; CS 800)",
+  "battle": "VA087",
+  "operation": false,
+  "cwsac_reference": "VA087",
   "forces": {
     "Confederate": {
-      "corps": 1,
+      "casualties": 800,
       "commanders": [
         {
-          "rank": "General",
-          "first_name": "Robert",
-          "suffix": "",
-          "navy": false,
           "middle_name": "E.",
           "last_name": "Lee",
-          "fullname": "Robert E. Lee"
+          "suffix": "",
+          "first_name": "Robert",
+          "rank": "General",
+          "fullname": "Robert E. Lee",
+          "navy": false
         },
         {
-          "rank": "Lieutenant General",
-          "first_name": "Richard",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Anderson",
-          "fullname": "Richard Anderson"
+          "suffix": "",
+          "first_name": "Richard",
+          "rank": "Lieutenant General",
+          "fullname": "Richard Anderson",
+          "navy": false
         }
       ],
-      "casualties": 800
+      "corps": 1
     },
     "US": {
-      "corps": 1,
+      "casualties": 1870,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "G.K.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Warren",
-          "fullname": "G.K. Warren"
+          "suffix": "",
+          "first_name": "G.K.",
+          "rank": "Major General",
+          "fullname": "G.K. Warren",
+          "navy": false
         }
       ],
-      "casualties": 1870
+      "corps": 1
     }
   },
-  "cwsac_reference": "VA087",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va087.htm",
   "forces_text": "Corps",
-  "start_date": "1865-03-31",
-  "preservation": "I.3",
+  "casualties_text": "2,670 (US 1,870; CS 800)",
   "results_text": "Union gained ground",
-  "description": "On March 30, Lee shifted reinforcements to meet the Federal movement to turn his right flank, placing Maj. Gen. W.H. Fitzhugh Lee's cavalry divisions at Five Forks and transferring Pickett's division from the Bermuda Hundred front to the extreme right. Warren pushed the V Corps forward and entrenched a line to cover the Boydton Plank Road from its intersection with Dabney Mill Road south to Gravelly Run. Ayres's division advanced northwest toward White Oak Road. On March 31, in combination with Maj. Gen. Philip Sheridan's thrust via Dinwiddie Court House, Warren directed his corps against the Confederate entrenchments along White Oak Road, hoping to cut Lee's communications with Pickett at Five Forks. The Union advance was stalled by a crushing counterattack directed by Maj. Gen. Bushrod Johnson, but Warren's position stabilized and his soldiers closed on the road by day's end. This fighting set up the Confederate defeat at Five Forks on April 1.",
-  "state": "VA",
-  "significance": "B",
+  "dates": "March 31, 1865",
+  "result": "Union",
   "other_names": [
     "Hatcher's Run",
     "Gravelly Run",
     "Boydton Plank Road",
     "White Oak Ridge"
   ],
-  "dates": "March 31, 1865",
-  "battle_name": "White Oak Road",
-  "principal_commanders": "Maj. Gen. G.K. Warren [US]; Gen. Robert E. Lee and Lt. Gen. Richard Anderson [CS]",
-  "campaign": "Appomattox Campaign [March-April 1865]",
+  "significance": "B",
+  "preservation": "I.3",
+  "state": "VA",
   "belligerents": {
-    "Confederate": {
-      "corps": 1,
+    "CS": {
+      "casualties": 800,
       "commanders": [
         {
-          "rank": "General",
-          "first_name": "Robert",
-          "suffix": "",
-          "navy": false,
           "middle_name": "E.",
           "last_name": "Lee",
-          "fullname": "Robert E. Lee"
+          "suffix": "",
+          "first_name": "Robert",
+          "rank": "General",
+          "fullname": "Robert E. Lee",
+          "navy": false
         },
         {
-          "rank": "Lieutenant General",
-          "first_name": "Richard",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Anderson",
-          "fullname": "Richard Anderson"
+          "suffix": "",
+          "first_name": "Richard",
+          "rank": "Lieutenant General",
+          "fullname": "Richard Anderson",
+          "navy": false
         }
       ],
-      "casualties": 800
+      "corps": 1
+    },
+    "Confederate": {
+      "casualties": 800,
+      "commanders": [
+        {
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "suffix": "",
+          "first_name": "Robert",
+          "rank": "General",
+          "fullname": "Robert E. Lee",
+          "navy": false
+        },
+        {
+          "middle_name": "",
+          "last_name": "Anderson",
+          "suffix": "",
+          "first_name": "Richard",
+          "rank": "Lieutenant General",
+          "fullname": "Richard Anderson",
+          "navy": false
+        }
+      ],
+      "corps": 1
     },
     "US": {
-      "corps": 1,
+      "casualties": 1870,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "G.K.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Warren",
-          "fullname": "G.K. Warren"
+          "suffix": "",
+          "first_name": "G.K.",
+          "rank": "Major General",
+          "fullname": "G.K. Warren",
+          "navy": false
         }
       ],
-      "casualties": 1870
-    },
-    "CS": {
-      "corps": 1,
-      "commanders": [
-        {
-          "rank": "General",
-          "first_name": "Robert",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "E.",
-          "last_name": "Lee",
-          "fullname": "Robert E. Lee"
-        },
-        {
-          "rank": "Lieutenant General",
-          "first_name": "Richard",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Anderson",
-          "fullname": "Richard Anderson"
-        }
-      ],
-      "casualties": 800
+      "corps": 1
     }
   },
-  "result": "Union",
-  "battle": "VA087",
+  "campaign": "Appomattox Campaign [March-April 1865]",
+  "end_date": "1865-03-31",
+  "description": "On March 30, Lee shifted reinforcements to meet the Federal movement to turn his right flank, placing Maj. Gen. W.H. Fitzhugh Lee's cavalry divisions at Five Forks and transferring Pickett's division from the Bermuda Hundred front to the extreme right. Warren pushed the V Corps forward and entrenched a line to cover the Boydton Plank Road from its intersection with Dabney Mill Road south to Gravelly Run. Ayres's division advanced northwest toward White Oak Road. On March 31, in combination with Maj. Gen. Philip Sheridan's thrust via Dinwiddie Court House, Warren directed his corps against the Confederate entrenchments along White Oak Road, hoping to cut Lee's communications with Pickett at Five Forks. The Union advance was stalled by a crushing counterattack directed by Maj. Gen. Bushrod Johnson, but Warren's position stabilized and his soldiers closed on the road by day's end. This fighting set up the Confederate defeat at Five Forks on April 1.",
   "location": [
     {
       "state": "VA",
       "place": "Dinwiddie County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/va087.htm"
+  "battle_name": "White Oak Road",
+  "start_date": "1865-03-31",
+  "casualties": 2670,
+  "principal_commanders": "Maj. Gen. G.K. Warren [US]; Gen. Robert E. Lee and Lt. Gen. Richard Anderson [CS]"
 }

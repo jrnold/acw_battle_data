@@ -1,102 +1,102 @@
 {
-  "end_date": "1862-06-28",
-  "casualties": 830,
-  "casualties_text": "830 total",
+  "battle": "VA018",
+  "operation": false,
+  "cwsac_reference": "VA018",
   "forces": {
     "Confederate": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "B.",
           "last_name": "Magruder",
-          "fullname": "John B. Magruder"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Major General",
+          "fullname": "John B. Magruder",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     },
     "US": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "George",
-          "suffix": "",
-          "navy": false,
           "middle_name": "B.",
           "last_name": "McClellan",
-          "fullname": "George B. McClellan"
+          "suffix": "",
+          "first_name": "George",
+          "rank": "Major General",
+          "fullname": "George B. McClellan",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     }
   },
-  "cwsac_reference": "VA018",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va018.htm",
   "forces_text": "Divisions",
-  "start_date": "1862-06-27",
-  "preservation": "IV.2",
+  "casualties_text": "830 total",
   "results_text": "Inconclusive",
-  "description": "While battle raged north of the Chickahominy River at Gaines' Mill on June 27, Magruder demonstrated against the Union line south of the river at Garnett's Farm. To escape an artillery crossfire, the Federal defenders from Maj. Gen. Samuel P. Heintzelman's III Corps refused their line along the river. The Confederates attacked again near Golding's Farm on the morning of June 28 but were easily repulsed. These \"fixing\" actions heightened the fear in the Union high command that an all out attack would be launched against them south of the river.",
-  "state": "VA",
-  "significance": "D",
-  "other_names": null,
   "dates": "June 27-28, 1862",
-  "battle_name": "Garnett's & Golding's\r\nFarms",
-  "principal_commanders": "Maj. Gen. George B. McClellan [US]; Maj. Gen. John B. Magruder [CS]",
-  "campaign": "Peninsula Campaign [March-July 1862]",
+  "result": "Inconclusive",
+  "other_names": null,
+  "significance": "D",
+  "preservation": "IV.2",
+  "state": "VA",
   "belligerents": {
-    "Confederate": {
+    "CS": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "B.",
           "last_name": "Magruder",
-          "fullname": "John B. Magruder"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Major General",
+          "fullname": "John B. Magruder",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
+    },
+    "Confederate": {
+      "divisions": 1,
+      "commanders": [
+        {
+          "middle_name": "B.",
+          "last_name": "Magruder",
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Major General",
+          "fullname": "John B. Magruder",
+          "navy": false
+        }
+      ]
     },
     "US": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "George",
-          "suffix": "",
-          "navy": false,
           "middle_name": "B.",
           "last_name": "McClellan",
-          "fullname": "George B. McClellan"
-        }
-      ],
-      "divisions": 1
-    },
-    "CS": {
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "John",
           "suffix": "",
-          "navy": false,
-          "middle_name": "B.",
-          "last_name": "Magruder",
-          "fullname": "John B. Magruder"
+          "first_name": "George",
+          "rank": "Major General",
+          "fullname": "George B. McClellan",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     }
   },
-  "result": "Inconclusive",
-  "battle": "VA018",
+  "campaign": "Peninsula Campaign [March-July 1862]",
+  "end_date": "1862-06-28",
+  "description": "While battle raged north of the Chickahominy River at Gaines' Mill on June 27, Magruder demonstrated against the Union line south of the river at Garnett's Farm. To escape an artillery crossfire, the Federal defenders from Maj. Gen. Samuel P. Heintzelman's III Corps refused their line along the river. The Confederates attacked again near Golding's Farm on the morning of June 28 but were easily repulsed. These \"fixing\" actions heightened the fear in the Union high command that an all out attack would be launched against them south of the river.",
   "location": [
     {
       "state": "VA",
       "place": "Henrico County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/va018.htm"
+  "battle_name": "Garnett's & Golding's\r\nFarms",
+  "start_date": "1862-06-27",
+  "casualties": 830,
+  "principal_commanders": "Maj. Gen. George B. McClellan [US]; Maj. Gen. John B. Magruder [CS]"
 }

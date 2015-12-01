@@ -1,98 +1,98 @@
 {
-  "end_date": "1864-10-02",
-  "casualties": 458,
-  "casualties_text": "458 total",
+  "battle": "VA076",
+  "operation": false,
+  "cwsac_reference": "VA076",
   "forces": {
     "Confederate": {
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Alfred",
-          "suffix": "",
-          "navy": false,
           "middle_name": "E.",
           "last_name": "Jackson",
-          "fullname": "Alfred E. Jackson"
+          "suffix": "",
+          "first_name": "Alfred",
+          "rank": "Brigadier General",
+          "fullname": "Alfred E. Jackson",
+          "navy": false
         }
       ]
     },
     "US": {
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Stephen",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Burbridge",
-          "fullname": "Stephen Burbridge"
+          "suffix": "",
+          "first_name": "Stephen",
+          "rank": "Brigadier General",
+          "fullname": "Stephen Burbridge",
+          "navy": false
         }
       ]
     }
   },
-  "strength": 11000,
-  "cwsac_reference": "VA076",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va076.htm",
   "forces_text": "Divisions (11,000 total)",
-  "start_date": "1864-10-02",
-  "preservation": "II.3",
+  "strength": 11000,
+  "casualties_text": "458 total",
   "results_text": "Confederate victory",
-  "description": "Union cavalry and infantry raiders led by Brig. Gen. Stephen Burbridge attempted to destroy the saltworks near Saltville. He was delayed at Clinch Mountain and Laurel Gap by a makeshift Confederate force, enabling Brig. Gen. Alfred E. Jackson to concentrate troops near Saltville to meet him. On the morning of October 1, the Federals attacked but made little headway. Confederate reinforcements continued to arrive during the day. After day-long fighting, Burbridge retired without accomplishing his objective. Afterwards, Confederate soldiers were said to have murdered, captured, and wounded black soldiers.",
-  "state": "VA",
-  "significance": "C",
-  "other_names": null,
   "dates": "October 2, 1864",
-  "battle_name": "Saltville",
-  "principal_commanders": "Brig. Gen. Stephen Burbridge [US]; Brig. Gen. Alfred E. Jackson [CS]",
+  "result": "Confederate",
+  "other_names": null,
+  "significance": "C",
+  "preservation": "II.3",
+  "state": "VA",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "middle_name": "E.",
+          "last_name": "Jackson",
+          "suffix": "",
+          "first_name": "Alfred",
+          "rank": "Brigadier General",
+          "fullname": "Alfred E. Jackson",
+          "navy": false
+        }
+      ]
+    },
+    "Confederate": {
+      "commanders": [
+        {
+          "middle_name": "E.",
+          "last_name": "Jackson",
+          "suffix": "",
+          "first_name": "Alfred",
+          "rank": "Brigadier General",
+          "fullname": "Alfred E. Jackson",
+          "navy": false
+        }
+      ]
+    },
+    "US": {
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Burbridge",
+          "suffix": "",
+          "first_name": "Stephen",
+          "rank": "Brigadier General",
+          "fullname": "Stephen Burbridge",
+          "navy": false
+        }
+      ]
+    }
+  },
+  "campaign": "Burbridge's Raid into Southwest Virginia [October 1864]",
+  "end_date": "1864-10-02",
+  "description": "Union cavalry and infantry raiders led by Brig. Gen. Stephen Burbridge attempted to destroy the saltworks near Saltville. He was delayed at Clinch Mountain and Laurel Gap by a makeshift Confederate force, enabling Brig. Gen. Alfred E. Jackson to concentrate troops near Saltville to meet him. On the morning of October 1, the Federals attacked but made little headway. Confederate reinforcements continued to arrive during the day. After day-long fighting, Burbridge retired without accomplishing his objective. Afterwards, Confederate soldiers were said to have murdered, captured, and wounded black soldiers.",
   "location": [
     {
       "state": "VA",
       "place": "Smyth County"
     }
   ],
-  "belligerents": {
-    "Confederate": {
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "Alfred",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "E.",
-          "last_name": "Jackson",
-          "fullname": "Alfred E. Jackson"
-        }
-      ]
-    },
-    "US": {
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "Stephen",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Burbridge",
-          "fullname": "Stephen Burbridge"
-        }
-      ]
-    },
-    "CS": {
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "Alfred",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "E.",
-          "last_name": "Jackson",
-          "fullname": "Alfred E. Jackson"
-        }
-      ]
-    }
-  },
-  "result": "Confederate",
-  "battle": "VA076",
-  "campaign": "Burbridge's Raid into Southwest Virginia [October 1864]",
-  "url": "http://www.nps.gov/hps/abpp/battles/va076.htm"
+  "battle_name": "Saltville",
+  "start_date": "1864-10-02",
+  "casualties": 458,
+  "principal_commanders": "Brig. Gen. Stephen Burbridge [US]; Brig. Gen. Alfred E. Jackson [CS]"
 }

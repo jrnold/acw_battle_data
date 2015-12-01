@@ -1,109 +1,109 @@
 {
-  "end_date": "1864-05-13",
-  "casualties": null,
-  "casualties_text": "Unknown",
+  "battle": "GA007",
+  "operation": false,
+  "cwsac_reference": "GA007",
   "forces": {
     "Confederate": {
       "commanders": [
         {
-          "rank": "General",
-          "first_name": "Joseph",
-          "suffix": "",
-          "navy": false,
           "middle_name": "E.",
           "last_name": "Johnston",
-          "fullname": "Joseph E. Johnston"
+          "suffix": "",
+          "first_name": "Joseph",
+          "rank": "General",
+          "fullname": "Joseph E. Johnston",
+          "navy": false
         }
       ],
-      "armies": 1,
-      "description": "Army of Tennessee"
+      "description": "Army of Tennessee",
+      "armies": 1
     },
     "US": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
           "middle_name": "T.",
           "last_name": "Sherman",
-          "fullname": "William T. Sherman"
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Major General",
+          "fullname": "William T. Sherman",
+          "navy": false
         }
       ],
       "description": "Military Division of the Mississippi"
     }
   },
-  "cwsac_reference": "GA007",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ga007.htm",
   "forces_text": "Military Division of the Mississippi [US]; Army of Tennessee [CS]",
-  "start_date": "1864-05-07",
-  "preservation": "II.3",
+  "casualties_text": "Unknown",
   "results_text": "Union victory (Union casualties were high, but they did force the Confederates off Rocky Face Ridge.)",
-  "description": "Gen. Joseph E. Johnston had entrenched his army on the long, high mountain of Rocky Face Ridge and eastward across Crow Valley. As Maj. Gen. William T. Sherman approached, he decided to demonstrate against the position with two columns while he sent a third one through Snake Creek Gap, to the right, to hit the Western & Atlantic Railroad at Resaca. The two columns engaged the enemy at Buzzard Roost (Mill Creek Gap) and at Dug Gap. In the meantime, the third column, under Maj. Gen. James Birdseye McPherson, passed through Snake Creek Gap and on the 9th advanced to the outskirts of Resaca where it found Confederates entrenched. Fearing defeat, McPherson pulled his column back to Snake Creek Gap. On the 10th, Sherman decided to take most of his men and join McPherson to take Resaca. The next morning, Sherman' s army withdrew from in front of Rocky Face Ridge. Discovering Sherman's movement, Johnston retired south towards Resaca on the 12th.",
-  "state": "GA",
-  "significance": "C",
+  "dates": "May 7-13, 1864",
+  "result": "Union",
   "other_names": [
     "Combats at Buzzard Roost",
     "Mill Creek",
     "Dug Gap"
   ],
-  "dates": "May 7-13, 1864",
-  "battle_name": "Rocky Face Ridge",
-  "principal_commanders": "Maj. Gen. William T. Sherman [US]; Gen. Joseph E. Johnston [CS]",
-  "campaign": "Atlanta Campaign [May-September 1864]",
+  "significance": "C",
+  "preservation": "II.3",
+  "state": "GA",
   "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "middle_name": "E.",
+          "last_name": "Johnston",
+          "suffix": "",
+          "first_name": "Joseph",
+          "rank": "General",
+          "fullname": "Joseph E. Johnston",
+          "navy": false
+        }
+      ],
+      "description": "Army of Tennessee",
+      "armies": 1
+    },
     "Confederate": {
       "commanders": [
         {
-          "rank": "General",
-          "first_name": "Joseph",
-          "suffix": "",
-          "navy": false,
           "middle_name": "E.",
           "last_name": "Johnston",
-          "fullname": "Joseph E. Johnston"
+          "suffix": "",
+          "first_name": "Joseph",
+          "rank": "General",
+          "fullname": "Joseph E. Johnston",
+          "navy": false
         }
       ],
-      "armies": 1,
-      "description": "Army of Tennessee"
+      "description": "Army of Tennessee",
+      "armies": 1
     },
     "US": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
           "middle_name": "T.",
           "last_name": "Sherman",
-          "fullname": "William T. Sherman"
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Major General",
+          "fullname": "William T. Sherman",
+          "navy": false
         }
       ],
       "description": "Military Division of the Mississippi"
-    },
-    "CS": {
-      "commanders": [
-        {
-          "rank": "General",
-          "first_name": "Joseph",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "E.",
-          "last_name": "Johnston",
-          "fullname": "Joseph E. Johnston"
-        }
-      ],
-      "armies": 1,
-      "description": "Army of Tennessee"
     }
   },
-  "result": "Union",
-  "battle": "GA007",
+  "campaign": "Atlanta Campaign [May-September 1864]",
+  "end_date": "1864-05-13",
+  "description": "Gen. Joseph E. Johnston had entrenched his army on the long, high mountain of Rocky Face Ridge and eastward across Crow Valley. As Maj. Gen. William T. Sherman approached, he decided to demonstrate against the position with two columns while he sent a third one through Snake Creek Gap, to the right, to hit the Western & Atlantic Railroad at Resaca. The two columns engaged the enemy at Buzzard Roost (Mill Creek Gap) and at Dug Gap. In the meantime, the third column, under Maj. Gen. James Birdseye McPherson, passed through Snake Creek Gap and on the 9th advanced to the outskirts of Resaca where it found Confederates entrenched. Fearing defeat, McPherson pulled his column back to Snake Creek Gap. On the 10th, Sherman decided to take most of his men and join McPherson to take Resaca. The next morning, Sherman' s army withdrew from in front of Rocky Face Ridge. Discovering Sherman's movement, Johnston retired south towards Resaca on the 12th.",
   "location": [
     {
       "state": "GA",
       "place": "Whitfield County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/ga007.htm"
+  "battle_name": "Rocky Face Ridge",
+  "start_date": "1864-05-07",
+  "casualties": null,
+  "principal_commanders": "Maj. Gen. William T. Sherman [US]; Gen. Joseph E. Johnston [CS]"
 }

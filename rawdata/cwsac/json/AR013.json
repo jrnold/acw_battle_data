@@ -1,18 +1,18 @@
 {
-  "end_date": "1864-04-13",
-  "casualties": null,
-  "casualties_text": "Unknown",
+  "battle": "AR013",
+  "operation": false,
+  "cwsac_reference": "AR013",
   "forces": {
     "Confederate": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Sterling",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Price",
-          "fullname": "Sterling Price"
+          "suffix": "",
+          "first_name": "Sterling",
+          "rank": "Major General",
+          "fullname": "Sterling Price",
+          "navy": false
         }
       ],
       "description": "District of Arkansas"
@@ -20,46 +20,56 @@
     "US": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Frederick",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Steele",
-          "fullname": "Frederick Steele"
+          "suffix": "",
+          "first_name": "Frederick",
+          "rank": "Major General",
+          "fullname": "Frederick Steele",
+          "navy": false
         }
       ],
       "description": "Department of Arkansas"
     }
   },
-  "cwsac_reference": "AR013",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ar013.htm",
   "forces_text": "Department of Arkansas [US]; District of Arkansas [CS]",
-  "start_date": "1864-04-09",
-  "preservation": "II.2",
+  "casualties_text": "Unknown",
   "results_text": "Union victory",
-  "description": "On April 10, Maj. Gen. Fred Steele's Union forces, combined with Brig. Gen. John M. Thayer's division, marched south from the Cornelius Farm. They soon encountered a Confederate line of battle at Prairie D'Ane and attacked, driving it back about a mile before being checked. Skirmishing continued throughout the afternoon of April 11, forcing Steele to divert line of march forces away from Shreveport toward Camden. Maj. Gen. Sterling Price's Confederates returned to Prairie D'Ane on April 13, falling upon Steele's rearguard under Thayer. After a four-hour battle, Price disengaged, and Steele's column continued to Camden, occupying the city.",
-  "state": "AR",
-  "significance": "B",
+  "dates": "April 9-13, 1864",
+  "result": "Union",
   "other_names": [
     "Gum Grove",
     "Moscow"
   ],
-  "dates": "April 9-13, 1864",
-  "battle_name": "Prairie D'Ane",
-  "principal_commanders": "Maj. Gen. Frederick Steele [US]; Maj. Gen. Sterling Price [CS]",
-  "campaign": "Camden Expedition [April 1864]",
+  "significance": "B",
+  "preservation": "II.2",
+  "state": "AR",
   "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Price",
+          "suffix": "",
+          "first_name": "Sterling",
+          "rank": "Major General",
+          "fullname": "Sterling Price",
+          "navy": false
+        }
+      ],
+      "description": "District of Arkansas"
+    },
     "Confederate": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Sterling",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Price",
-          "fullname": "Sterling Price"
+          "suffix": "",
+          "first_name": "Sterling",
+          "rank": "Major General",
+          "fullname": "Sterling Price",
+          "navy": false
         }
       ],
       "description": "District of Arkansas"
@@ -67,39 +77,29 @@
     "US": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Frederick",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Steele",
-          "fullname": "Frederick Steele"
+          "suffix": "",
+          "first_name": "Frederick",
+          "rank": "Major General",
+          "fullname": "Frederick Steele",
+          "navy": false
         }
       ],
       "description": "Department of Arkansas"
-    },
-    "CS": {
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Sterling",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Price",
-          "fullname": "Sterling Price"
-        }
-      ],
-      "description": "District of Arkansas"
     }
   },
-  "result": "Union",
-  "battle": "AR013",
+  "campaign": "Camden Expedition [April 1864]",
+  "end_date": "1864-04-13",
+  "description": "On April 10, Maj. Gen. Fred Steele's Union forces, combined with Brig. Gen. John M. Thayer's division, marched south from the Cornelius Farm. They soon encountered a Confederate line of battle at Prairie D'Ane and attacked, driving it back about a mile before being checked. Skirmishing continued throughout the afternoon of April 11, forcing Steele to divert line of march forces away from Shreveport toward Camden. Maj. Gen. Sterling Price's Confederates returned to Prairie D'Ane on April 13, falling upon Steele's rearguard under Thayer. After a four-hour battle, Price disengaged, and Steele's column continued to Camden, occupying the city.",
   "location": [
     {
       "state": "AR",
       "place": "Nevada County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/ar013.htm"
+  "battle_name": "Prairie D'Ane",
+  "start_date": "1864-04-09",
+  "casualties": null,
+  "principal_commanders": "Maj. Gen. Frederick Steele [US]; Maj. Gen. Sterling Price [CS]"
 }

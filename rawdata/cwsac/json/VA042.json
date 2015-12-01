@@ -1,105 +1,105 @@
 {
-  "end_date": "1863-10-19",
-  "casualties": 230,
-  "casualties_text": "230 total",
+  "battle": "VA042",
+  "operation": false,
+  "cwsac_reference": "VA042",
   "forces": {
     "Confederate": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "J.E.B.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Stuart",
-          "fullname": "J.E.B. Stuart"
+          "suffix": "",
+          "first_name": "J.E.B.",
+          "rank": "Major General",
+          "fullname": "J.E.B. Stuart",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     },
     "US": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "H.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Judson",
           "last_name": "Kilpatrick",
-          "fullname": "H. Judson Kilpatrick"
+          "suffix": "",
+          "first_name": "H.",
+          "rank": "Major General",
+          "fullname": "H. Judson Kilpatrick",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     }
   },
-  "cwsac_reference": "VA042",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va042.htm",
   "forces_text": "Divisions",
-  "start_date": "1863-10-19",
-  "preservation": "II.4",
+  "casualties_text": "230 total",
   "results_text": "Confederate victory",
-  "description": "After defeat at Bristoe Station and an aborted advance on Centreville, Stuart's cavalry shielded the withdrawal of Lee's army from the vicinity of Manassas Junction. Union cavalry under Kilpatrick pursued Stuart's cavalry along the Warrenton Turnpike but were lured into an ambush near Chestnut Hill and routed. The Federal troopers were scattered and chased five miles in an affair that came to be known as the \"Buckland Races.\"",
-  "state": "VA",
-  "significance": "D",
+  "dates": "October 19, 1863",
+  "result": "Confederate",
   "other_names": [
     "Buckland Races",
     "Chestnut Hill"
   ],
-  "dates": "October 19, 1863",
-  "battle_name": "Buckland Mills",
-  "principal_commanders": "Maj. Gen. H. Judson Kilpatrick [US]; Maj. Gen. J.E.B. Stuart [CS]",
-  "campaign": "Bristoe Campaign [October-November 1863]",
+  "significance": "D",
+  "preservation": "II.4",
+  "state": "VA",
   "belligerents": {
-    "Confederate": {
+    "CS": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "J.E.B.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Stuart",
-          "fullname": "J.E.B. Stuart"
+          "suffix": "",
+          "first_name": "J.E.B.",
+          "rank": "Major General",
+          "fullname": "J.E.B. Stuart",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
+    },
+    "Confederate": {
+      "divisions": 1,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Stuart",
+          "suffix": "",
+          "first_name": "J.E.B.",
+          "rank": "Major General",
+          "fullname": "J.E.B. Stuart",
+          "navy": false
+        }
+      ]
     },
     "US": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "H.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Judson",
           "last_name": "Kilpatrick",
-          "fullname": "H. Judson Kilpatrick"
-        }
-      ],
-      "divisions": 1
-    },
-    "CS": {
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "J.E.B.",
           "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Stuart",
-          "fullname": "J.E.B. Stuart"
+          "first_name": "H.",
+          "rank": "Major General",
+          "fullname": "H. Judson Kilpatrick",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     }
   },
-  "result": "Confederate",
-  "battle": "VA042",
+  "campaign": "Bristoe Campaign [October-November 1863]",
+  "end_date": "1863-10-19",
+  "description": "After defeat at Bristoe Station and an aborted advance on Centreville, Stuart's cavalry shielded the withdrawal of Lee's army from the vicinity of Manassas Junction. Union cavalry under Kilpatrick pursued Stuart's cavalry along the Warrenton Turnpike but were lured into an ambush near Chestnut Hill and routed. The Federal troopers were scattered and chased five miles in an affair that came to be known as the \"Buckland Races.\"",
   "location": [
     {
       "state": "VA",
       "place": "Fauquier County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/va042.htm"
+  "battle_name": "Buckland Mills",
+  "start_date": "1863-10-19",
+  "casualties": 230,
+  "principal_commanders": "Maj. Gen. H. Judson Kilpatrick [US]; Maj. Gen. J.E.B. Stuart [CS]"
 }

@@ -1,69 +1,140 @@
 {
-  "end_date": "1861-06-10",
-  "casualties": 87,
-  "casualties_text": "87 total (US 79; CS 8)",
+  "battle": "VA003",
+  "operation": false,
+  "cwsac_reference": "VA003",
   "forces": {
     "Confederate": {
       "casualties": 8,
+      "strength_min": 1200,
       "commanders": [
         {
-          "rank": "Colonel",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "B.",
           "last_name": "Magruder",
-          "fullname": "John B. Magruder"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Colonel",
+          "fullname": "John B. Magruder",
+          "navy": false
         },
         {
-          "rank": "Colonel",
-          "first_name": "D.H.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Hill",
-          "fullname": "D.H. Hill"
+          "suffix": "",
+          "first_name": "D.H.",
+          "rank": "Colonel",
+          "fullname": "D.H. Hill",
+          "navy": false
         }
       ],
       "description": "1,200",
-      "strength_min": 1200,
       "strength_max": 1200
     },
     "US": {
       "casualties": 79,
+      "strength_min": 3500,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Ebenezer",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Pierce",
-          "fullname": "Ebenezer Pierce"
+          "suffix": "",
+          "first_name": "Ebenezer",
+          "rank": "Brigadier General",
+          "fullname": "Ebenezer Pierce",
+          "navy": false
         }
       ],
       "description": "3,500",
-      "strength_min": 3500,
       "strength_max": 3500
     }
   },
-  "strength": 4700,
-  "cwsac_reference": "VA003",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va003.htm",
   "forces_text": "4,700 total (US 3,500; CS 1,200)",
-  "start_date": "1861-06-10",
-  "preservation": "IV.2",
+  "strength": 4700,
+  "casualties_text": "87 total (US 79; CS 8)",
   "results_text": "Confederate victory",
-  "description": "This was the first land battle in Virginia. Maj. Gen. Benjamin F. Butler sent converging columns from Hampton and Newport News against advanced Confederate outposts at Little and Big Bethel. Confederates abandoned Little Bethel and fell back to their entrenchments behind Brick Kiln Creek, near Big Bethel Church. The Federals, under immediate command of Brig. Gen. Ebenezer Pierce, pursued, attacked frontally along the road, and were repulsed. Crossing downstream, the 5th New York Zouaves attempted to turn the Confederate left flank, but were repulsed. Unit commander Col. T. Wynthrop was killed. The Union forces were disorganized and retired, returning to Hampton and Newport News. The Confederates suffered 1 killed, 7 wounded.",
-  "state": "VA",
-  "significance": "C",
+  "dates": "June 10, 1861",
+  "result": "Confederate",
   "other_names": [
     "Bethel Church",
     "Great Bethel"
   ],
-  "dates": "June 10, 1861",
-  "battle_name": "Big Bethel",
-  "principal_commanders": "Brig. Gen. Ebenezer Pierce [US]; Col. John B. Magruder and Col. D.H. Hill [CS]",
+  "significance": "C",
+  "preservation": "IV.2",
+  "state": "VA",
+  "belligerents": {
+    "CS": {
+      "casualties": 8,
+      "strength_min": 1200,
+      "commanders": [
+        {
+          "middle_name": "B.",
+          "last_name": "Magruder",
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Colonel",
+          "fullname": "John B. Magruder",
+          "navy": false
+        },
+        {
+          "middle_name": "",
+          "last_name": "Hill",
+          "suffix": "",
+          "first_name": "D.H.",
+          "rank": "Colonel",
+          "fullname": "D.H. Hill",
+          "navy": false
+        }
+      ],
+      "description": "1,200",
+      "strength_max": 1200
+    },
+    "Confederate": {
+      "casualties": 8,
+      "strength_min": 1200,
+      "commanders": [
+        {
+          "middle_name": "B.",
+          "last_name": "Magruder",
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Colonel",
+          "fullname": "John B. Magruder",
+          "navy": false
+        },
+        {
+          "middle_name": "",
+          "last_name": "Hill",
+          "suffix": "",
+          "first_name": "D.H.",
+          "rank": "Colonel",
+          "fullname": "D.H. Hill",
+          "navy": false
+        }
+      ],
+      "description": "1,200",
+      "strength_max": 1200
+    },
+    "US": {
+      "casualties": 79,
+      "strength_min": 3500,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Pierce",
+          "suffix": "",
+          "first_name": "Ebenezer",
+          "rank": "Brigadier General",
+          "fullname": "Ebenezer Pierce",
+          "navy": false
+        }
+      ],
+      "description": "3,500",
+      "strength_max": 3500
+    }
+  },
+  "campaign": "Blockade of the Chesapeake Bay [May-June 1861]",
+  "end_date": "1861-06-10",
+  "description": "This was the first land battle in Virginia. Maj. Gen. Benjamin F. Butler sent converging columns from Hampton and Newport News against advanced Confederate outposts at Little and Big Bethel. Confederates abandoned Little Bethel and fell back to their entrenchments behind Brick Kiln Creek, near Big Bethel Church. The Federals, under immediate command of Brig. Gen. Ebenezer Pierce, pursued, attacked frontally along the road, and were repulsed. Crossing downstream, the 5th New York Zouaves attempted to turn the Confederate left flank, but were repulsed. Unit commander Col. T. Wynthrop was killed. The Union forces were disorganized and retired, returning to Hampton and Newport News. The Confederates suffered 1 killed, 7 wounded.",
   "location": [
     {
       "state": "VA",
@@ -74,79 +145,8 @@
       "place": "Hampton"
     }
   ],
-  "belligerents": {
-    "Confederate": {
-      "casualties": 8,
-      "commanders": [
-        {
-          "rank": "Colonel",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "B.",
-          "last_name": "Magruder",
-          "fullname": "John B. Magruder"
-        },
-        {
-          "rank": "Colonel",
-          "first_name": "D.H.",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Hill",
-          "fullname": "D.H. Hill"
-        }
-      ],
-      "description": "1,200",
-      "strength_min": 1200,
-      "strength_max": 1200
-    },
-    "US": {
-      "casualties": 79,
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "Ebenezer",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Pierce",
-          "fullname": "Ebenezer Pierce"
-        }
-      ],
-      "description": "3,500",
-      "strength_min": 3500,
-      "strength_max": 3500
-    },
-    "CS": {
-      "casualties": 8,
-      "commanders": [
-        {
-          "rank": "Colonel",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "B.",
-          "last_name": "Magruder",
-          "fullname": "John B. Magruder"
-        },
-        {
-          "rank": "Colonel",
-          "first_name": "D.H.",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Hill",
-          "fullname": "D.H. Hill"
-        }
-      ],
-      "description": "1,200",
-      "strength_min": 1200,
-      "strength_max": 1200
-    }
-  },
-  "result": "Confederate",
-  "battle": "VA003",
-  "campaign": "Blockade of the Chesapeake Bay [May-June 1861]",
-  "url": "http://www.nps.gov/hps/abpp/battles/va003.htm"
+  "battle_name": "Big Bethel",
+  "start_date": "1861-06-10",
+  "casualties": 87,
+  "principal_commanders": "Brig. Gen. Ebenezer Pierce [US]; Col. John B. Magruder and Col. D.H. Hill [CS]"
 }

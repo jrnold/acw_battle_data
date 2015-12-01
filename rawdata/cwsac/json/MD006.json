@@ -1,102 +1,102 @@
 {
-  "end_date": "1863-07-08",
-  "casualties": 100,
-  "casualties_text": "100 total",
+  "battle": "MD006",
+  "operation": false,
+  "cwsac_reference": "MD006",
   "forces": {
     "Confederate": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "J.E.B.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Stuart",
-          "fullname": "J.E.B. Stuart"
+          "suffix": "",
+          "first_name": "J.E.B.",
+          "rank": "Major General",
+          "fullname": "J.E.B. Stuart",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     },
     "US": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Alfred",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Pleasonton",
-          "fullname": "Alfred Pleasonton"
+          "suffix": "",
+          "first_name": "Alfred",
+          "rank": "Major General",
+          "fullname": "Alfred Pleasonton",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     }
   },
-  "cwsac_reference": "MD006",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/md006.htm",
   "forces_text": "Divisions",
-  "start_date": "1863-07-08",
-  "preservation": "II.4",
+  "casualties_text": "100 total",
   "results_text": "Inconclusive",
-  "description": "On July 8, the Confederate cavalry, holding the South Mountain passes, fought a rearguard action against elements of the Union 1st and 3rd Cavalry Divisions and infantry. This action was one of a series of cavalry combats fought around Boonsboro, Hagerstown, and Williamsport.",
-  "state": "MD",
-  "significance": "D",
-  "other_names": null,
   "dates": "July 8, 1863",
-  "battle_name": "Boonsboro",
-  "principal_commanders": "Maj. Gen. Alfred Pleasonton [US]; Maj. Gen. J.E.B. Stuart [CS]",
-  "campaign": "Gettysburg Campaign [June-July 1863]",
+  "result": "Inconclusive",
+  "other_names": null,
+  "significance": "D",
+  "preservation": "II.4",
+  "state": "MD",
   "belligerents": {
-    "Confederate": {
+    "CS": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "J.E.B.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Stuart",
-          "fullname": "J.E.B. Stuart"
+          "suffix": "",
+          "first_name": "J.E.B.",
+          "rank": "Major General",
+          "fullname": "J.E.B. Stuart",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
+    },
+    "Confederate": {
+      "divisions": 1,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Stuart",
+          "suffix": "",
+          "first_name": "J.E.B.",
+          "rank": "Major General",
+          "fullname": "J.E.B. Stuart",
+          "navy": false
+        }
+      ]
     },
     "US": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Alfred",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Pleasonton",
-          "fullname": "Alfred Pleasonton"
-        }
-      ],
-      "divisions": 1
-    },
-    "CS": {
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "J.E.B.",
           "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Stuart",
-          "fullname": "J.E.B. Stuart"
+          "first_name": "Alfred",
+          "rank": "Major General",
+          "fullname": "Alfred Pleasonton",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     }
   },
-  "result": "Inconclusive",
-  "battle": "MD006",
+  "campaign": "Gettysburg Campaign [June-July 1863]",
+  "end_date": "1863-07-08",
+  "description": "On July 8, the Confederate cavalry, holding the South Mountain passes, fought a rearguard action against elements of the Union 1st and 3rd Cavalry Divisions and infantry. This action was one of a series of cavalry combats fought around Boonsboro, Hagerstown, and Williamsport.",
   "location": [
     {
       "state": "MD",
       "place": "Washington County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/md006.htm"
+  "battle_name": "Boonsboro",
+  "start_date": "1863-07-08",
+  "casualties": 100,
+  "principal_commanders": "Maj. Gen. Alfred Pleasonton [US]; Maj. Gen. J.E.B. Stuart [CS]"
 }

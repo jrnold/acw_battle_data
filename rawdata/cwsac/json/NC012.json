@@ -1,107 +1,107 @@
 {
-  "end_date": "1864-04-20",
-  "casualties": 2834,
-  "casualties_text": "2,834 total",
+  "battle": "NC012",
+  "operation": false,
+  "cwsac_reference": "NC012",
   "forces": {
     "Confederate": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Robert",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Hoke",
-          "fullname": "Robert Hoke"
+          "suffix": "",
+          "first_name": "Robert",
+          "rank": "Major General",
+          "fullname": "Robert Hoke",
+          "navy": false
         }
       ],
-      "divisions": 1,
       "description": "Hoke's Division"
     },
     "US": {
-      "regiments": 4,
       "commanders": [
         {
-          "rank": "Colonel",
-          "first_name": "Henry",
-          "suffix": "",
-          "navy": false,
           "middle_name": "W.",
           "last_name": "Wessells",
-          "fullname": "Henry W. Wessells"
+          "suffix": "",
+          "first_name": "Henry",
+          "rank": "Colonel",
+          "fullname": "Henry W. Wessells",
+          "navy": false
         }
       ],
+      "regiments": 4,
       "description": "Plymouth Garrison (4 infantry and artillery units)"
     }
   },
-  "cwsac_reference": "NC012",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/nc012.htm",
   "forces_text": "Plymouth Garrison (4 infantry and artillery units) [US]; Hoke's Division [CS]",
-  "start_date": "1864-04-17",
-  "preservation": "IV.2",
+  "casualties_text": "2,834 total",
   "results_text": "Confederate victory",
-  "description": "In a combined operation with the CSS ram Albemarle, Confederate forces under Maj. Gen. R.F. Hoke, attacked the Federal garrison at Plymouth on April 17. On April 19, the ram appeared in the river, sinking the Smithfield, damaging the Miami, and driving off the other Union ships supporting the Plymouth garrison. Confederate forces captured Fort Comfort, driving defenders into Fort Williams. On the 20th, the garrison surrendered.",
-  "state": "NC",
-  "significance": "C",
-  "other_names": null,
   "dates": "April 17-20, 1864",
-  "battle_name": "Plymouth",
-  "principal_commanders": "Col. Henry W. Wessells [US]; Maj. Gen. Robert Hoke [CS]",
-  "campaign": "Operations Against Plymouth [April-May 1864]",
+  "result": "Confederate",
+  "other_names": null,
+  "significance": "C",
+  "preservation": "IV.2",
+  "state": "NC",
   "belligerents": {
-    "Confederate": {
+    "CS": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Robert",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Hoke",
-          "fullname": "Robert Hoke"
+          "suffix": "",
+          "first_name": "Robert",
+          "rank": "Major General",
+          "fullname": "Robert Hoke",
+          "navy": false
         }
       ],
+      "description": "Hoke's Division"
+    },
+    "Confederate": {
       "divisions": 1,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Hoke",
+          "suffix": "",
+          "first_name": "Robert",
+          "rank": "Major General",
+          "fullname": "Robert Hoke",
+          "navy": false
+        }
+      ],
       "description": "Hoke's Division"
     },
     "US": {
-      "regiments": 4,
       "commanders": [
         {
-          "rank": "Colonel",
-          "first_name": "Henry",
-          "suffix": "",
-          "navy": false,
           "middle_name": "W.",
           "last_name": "Wessells",
-          "fullname": "Henry W. Wessells"
-        }
-      ],
-      "description": "Plymouth Garrison (4 infantry and artillery units)"
-    },
-    "CS": {
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Robert",
           "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Hoke",
-          "fullname": "Robert Hoke"
+          "first_name": "Henry",
+          "rank": "Colonel",
+          "fullname": "Henry W. Wessells",
+          "navy": false
         }
       ],
-      "divisions": 1,
-      "description": "Hoke's Division"
+      "regiments": 4,
+      "description": "Plymouth Garrison (4 infantry and artillery units)"
     }
   },
-  "result": "Confederate",
-  "battle": "NC012",
+  "campaign": "Operations Against Plymouth [April-May 1864]",
+  "end_date": "1864-04-20",
+  "description": "In a combined operation with the CSS ram Albemarle, Confederate forces under Maj. Gen. R.F. Hoke, attacked the Federal garrison at Plymouth on April 17. On April 19, the ram appeared in the river, sinking the Smithfield, damaging the Miami, and driving off the other Union ships supporting the Plymouth garrison. Confederate forces captured Fort Comfort, driving defenders into Fort Williams. On the 20th, the garrison surrendered.",
   "location": [
     {
       "state": "NC",
       "place": "Washington County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/nc012.htm"
+  "battle_name": "Plymouth",
+  "start_date": "1864-04-17",
+  "casualties": 2834,
+  "principal_commanders": "Col. Henry W. Wessells [US]; Maj. Gen. Robert Hoke [CS]"
 }

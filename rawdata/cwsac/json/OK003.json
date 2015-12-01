@@ -1,18 +1,18 @@
 {
-  "end_date": "1861-12-26",
-  "casualties": null,
-  "casualties_text": "Unknown",
+  "battle": "OK003",
+  "operation": false,
+  "cwsac_reference": "OK003",
   "forces": {
     "Native American": {
       "commanders": [
         {
-          "rank": "",
-          "first_name": "Opothleyahola",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "",
-          "fullname": "Opothleyahola"
+          "suffix": "",
+          "first_name": "Opothleyahola",
+          "rank": "",
+          "fullname": "Opothleyahola",
+          "navy": false
         }
       ],
       "description": "Creek and Seminole"
@@ -20,114 +20,100 @@
     "Confederate": {
       "commanders": [
         {
-          "rank": "Colonel",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
           "middle_name": "McQueen",
           "last_name": "McIntosh",
-          "fullname": "James McQueen McIntosh"
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Colonel",
+          "fullname": "James McQueen McIntosh",
+          "navy": false
         }
       ],
       "brigades": 2,
       "description": "McIntosh's and Douglas Cooper's brigades"
-    },
-    "I": {
-      "commanders": [
-        {
-          "rank": "",
-          "first_name": "Opothleyahola",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "",
-          "fullname": "Opothleyahola"
-        }
-      ],
-      "description": "Creek and Seminole"
     }
   },
-  "cwsac_reference": "OK003",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ok003.htm",
   "forces_text": "Creek and Seminole [I]; McIntosh's and Douglas Cooper's brigades [CS]",
-  "start_date": "1861-12-26",
-  "preservation": "II.2",
+  "casualties_text": "Unknown",
   "results_text": "Confederate victory",
-  "description": "Confederate troops had undertaken a campaign to subdue the Native American Union sympathizers in Indian Territory and consolidate control. They had attacked Chief Opothleyahola's band of Creeks and Seminoles earlier at Round Mountain and Chusto-Talasah. Now, they wanted to finish them off by assaulting them in their camp at Chustenahlah in a well-protected cove on Battle Creek. Col. James McQueen McIntosh and Col. Douglas H. Cooper, commanding the Indian Department, planned a combined attack with each of their columns moving on the camp from different directions. McIntosh left Fort Gibson on December 22, with 1,380 men. On the 25th, he was informed that Cooper's force could not join for a while, but he decided to attack the next day, despite being outnumbered. McIntosh attacked the camp at noon on the 26th. The Union defenders were secluded in the underbrush along the slope of a rugged hill, but as the Confederate attack came forward, the Native Americans began to fall back, taking cover for a while and then moving back. The retreat became a rout as the Federals reached their camp. They attempted to make a stand there but were forced away again. The survivors fled; many went all the way to Kansas where they found loyal Unionists. Chief Opothleyahola's band of Creeks and Seminoles mounted no resistance again.",
-  "state": "OK",
-  "significance": "B",
-  "other_names": null,
   "dates": "December 26, 1861",
-  "battle_name": "Chustenahlah",
-  "principal_commanders": "Chief Opothleyahola [I]; Col. James McQueen McIntosh [CS]",
-  "campaign": "Operations in the Indian Territory [November-December 1861]",
+  "result": "Confederate",
+  "other_names": null,
+  "significance": "B",
+  "preservation": "II.2",
+  "state": "OK",
   "belligerents": {
-    "Native American": {
-      "commanders": [
-        {
-          "rank": "",
-          "first_name": "Opothleyahola",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "",
-          "fullname": "Opothleyahola"
-        }
-      ],
-      "description": "Creek and Seminole"
-    },
-    "Confederate": {
-      "commanders": [
-        {
-          "rank": "Colonel",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "McQueen",
-          "last_name": "McIntosh",
-          "fullname": "James McQueen McIntosh"
-        }
-      ],
-      "brigades": 2,
-      "description": "McIntosh's and Douglas Cooper's brigades"
-    },
     "CS": {
       "commanders": [
         {
-          "rank": "Colonel",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
           "middle_name": "McQueen",
           "last_name": "McIntosh",
-          "fullname": "James McQueen McIntosh"
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Colonel",
+          "fullname": "James McQueen McIntosh",
+          "navy": false
         }
       ],
       "brigades": 2,
       "description": "McIntosh's and Douglas Cooper's brigades"
     },
-    "I": {
+    "Native American": {
       "commanders": [
         {
-          "rank": "",
-          "first_name": "Opothleyahola",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "",
-          "fullname": "Opothleyahola"
+          "suffix": "",
+          "first_name": "Opothleyahola",
+          "rank": "",
+          "fullname": "Opothleyahola",
+          "navy": false
         }
       ],
       "description": "Creek and Seminole"
+    },
+    "I": {
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "",
+          "suffix": "",
+          "first_name": "Opothleyahola",
+          "rank": "",
+          "fullname": "Opothleyahola",
+          "navy": false
+        }
+      ],
+      "description": "Creek and Seminole"
+    },
+    "Confederate": {
+      "commanders": [
+        {
+          "middle_name": "McQueen",
+          "last_name": "McIntosh",
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Colonel",
+          "fullname": "James McQueen McIntosh",
+          "navy": false
+        }
+      ],
+      "brigades": 2,
+      "description": "McIntosh's and Douglas Cooper's brigades"
     }
   },
-  "result": "Confederate",
-  "battle": "OK003",
+  "campaign": "Operations in the Indian Territory [November-December 1861]",
+  "end_date": "1861-12-26",
+  "description": "Confederate troops had undertaken a campaign to subdue the Native American Union sympathizers in Indian Territory and consolidate control. They had attacked Chief Opothleyahola's band of Creeks and Seminoles earlier at Round Mountain and Chusto-Talasah. Now, they wanted to finish them off by assaulting them in their camp at Chustenahlah in a well-protected cove on Battle Creek. Col. James McQueen McIntosh and Col. Douglas H. Cooper, commanding the Indian Department, planned a combined attack with each of their columns moving on the camp from different directions. McIntosh left Fort Gibson on December 22, with 1,380 men. On the 25th, he was informed that Cooper's force could not join for a while, but he decided to attack the next day, despite being outnumbered. McIntosh attacked the camp at noon on the 26th. The Union defenders were secluded in the underbrush along the slope of a rugged hill, but as the Confederate attack came forward, the Native Americans began to fall back, taking cover for a while and then moving back. The retreat became a rout as the Federals reached their camp. They attempted to make a stand there but were forced away again. The survivors fled; many went all the way to Kansas where they found loyal Unionists. Chief Opothleyahola's band of Creeks and Seminoles mounted no resistance again.",
   "location": [
     {
       "state": "OK",
       "place": "Osage County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/ok003.htm"
+  "battle_name": "Chustenahlah",
+  "start_date": "1861-12-26",
+  "casualties": null,
+  "principal_commanders": "Chief Opothleyahola [I]; Col. James McQueen McIntosh [CS]"
 }

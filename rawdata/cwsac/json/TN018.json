@@ -1,99 +1,96 @@
 {
-  "end_date": "1863-08-21",
-  "casualties": null,
-  "casualties_text": "Unknown",
+  "battle": "TN018",
+  "operation": false,
+  "cwsac_reference": "TN018",
   "forces": {
     "Confederate": {
-      "corps": 1,
       "commanders": [
         {
-          "rank": "Lieutenant General",
-          "first_name": "D.",
-          "navy": false,
           "middle_name": "H.",
+          "last_name": "Hill",
+          "first_name": "D.",
+          "rank": "Lieutenant General",
           "fullname": "D. H. Hill",
-          "last_name": "Hill"
+          "navy": false
         }
       ],
-      "description": "Hill's Corps"
+      "description": "Hill's Corps",
+      "corps": 1
     },
     "US": {
       "commanders": [
         {
-          "rank": "Colonel",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "T.",
           "last_name": "Wilder",
-          "fullname": "John T. Wilder"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Colonel",
+          "fullname": "John T. Wilder",
+          "navy": false
         }
       ],
       "brigades": 1,
       "description": "Wilder's Brigade"
     }
   },
-  "cwsac_reference": "TN018",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/tn018.htm",
   "forces_text": "Wilder's Brigade [US]; Hill's Corps [CS]",
-  "start_date": "1863-08-21",
-  "preservation": "IV.2",
+  "casualties_text": "Unknown",
   "results_text": "Successful Union demonstration",
-  "description": "On August 16, 1863, Maj. Gen. William S. Rosecrans, commander of the Army of the Cumberland, launched a campaign to take Chattanooga. Col. John T. Wilder's brigade of the Union 4th Division, XIV Army Corps marched to a location northeast of Chattanooga where the Confederates could see them, reinforcing Gen. Braxton Bragg's expectations of a Union attack on the town from that direction. On August 21, Wilder reached the Tennessee River opposite Chattanooga and ordered the 18th Indiana Light Artillery to begin shelling the town. The shells caught many soldiers and civilians in town in church observing a day of prayer and fasting. The bombardment sank two steamers docked at the landing and created a great deal of consternation amongst the Confederates. Continued periodically over the next two weeks, the shelling helped keep Bragg's attention to the northeast while the bulk of Rosecrans's army crossed the Tennessee River well west and south of Chattanooga. When Bragg learned on September 8 that the Union army was in force southwest of the city, he abandoned Chattanooga.",
-  "state": "TN",
-  "significance": "D",
-  "other_names": null,
   "dates": "August 21, 1863",
-  "battle_name": "Chattanooga",
-  "principal_commanders": "Col. John T. Wilder [US]; D.H. Hill [CS]",
-  "campaign": "Chickamauga Campaign [August-September 1863]",
+  "result": "Union",
+  "other_names": null,
+  "significance": "D",
+  "preservation": "IV.2",
+  "state": "TN",
   "belligerents": {
-    "Confederate": {
-      "corps": 1,
+    "CS": {
       "commanders": [
         {
-          "rank": "Lieutenant General",
-          "first_name": "D.",
-          "navy": false,
           "middle_name": "H.",
+          "last_name": "Hill",
+          "first_name": "D.",
+          "rank": "Lieutenant General",
           "fullname": "D. H. Hill",
-          "last_name": "Hill"
+          "navy": false
         }
       ],
-      "description": "Hill's Corps"
+      "description": "Hill's Corps",
+      "corps": 1
+    },
+    "Confederate": {
+      "commanders": [
+        {
+          "middle_name": "H.",
+          "last_name": "Hill",
+          "first_name": "D.",
+          "rank": "Lieutenant General",
+          "fullname": "D. H. Hill",
+          "navy": false
+        }
+      ],
+      "description": "Hill's Corps",
+      "corps": 1
     },
     "US": {
       "commanders": [
         {
-          "rank": "Colonel",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "T.",
           "last_name": "Wilder",
-          "fullname": "John T. Wilder"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Colonel",
+          "fullname": "John T. Wilder",
+          "navy": false
         }
       ],
       "brigades": 1,
       "description": "Wilder's Brigade"
-    },
-    "CS": {
-      "corps": 1,
-      "commanders": [
-        {
-          "rank": "Lieutenant General",
-          "first_name": "D.",
-          "navy": false,
-          "middle_name": "H.",
-          "fullname": "D. H. Hill",
-          "last_name": "Hill"
-        }
-      ],
-      "description": "Hill's Corps"
     }
   },
-  "result": "Union",
-  "battle": "TN018",
+  "campaign": "Chickamauga Campaign [August-September 1863]",
+  "end_date": "1863-08-21",
+  "description": "On August 16, 1863, Maj. Gen. William S. Rosecrans, commander of the Army of the Cumberland, launched a campaign to take Chattanooga. Col. John T. Wilder's brigade of the Union 4th Division, XIV Army Corps marched to a location northeast of Chattanooga where the Confederates could see them, reinforcing Gen. Braxton Bragg's expectations of a Union attack on the town from that direction. On August 21, Wilder reached the Tennessee River opposite Chattanooga and ordered the 18th Indiana Light Artillery to begin shelling the town. The shells caught many soldiers and civilians in town in church observing a day of prayer and fasting. The bombardment sank two steamers docked at the landing and created a great deal of consternation amongst the Confederates. Continued periodically over the next two weeks, the shelling helped keep Bragg's attention to the northeast while the bulk of Rosecrans's army crossed the Tennessee River well west and south of Chattanooga. When Bragg learned on September 8 that the Union army was in force southwest of the city, he abandoned Chattanooga.",
   "location": [
     {
       "state": "TN",
@@ -104,5 +101,8 @@
       "place": "City of Chattanooga"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/tn018.htm"
+  "battle_name": "Chattanooga",
+  "start_date": "1863-08-21",
+  "casualties": null,
+  "principal_commanders": "Col. John T. Wilder [US]; D.H. Hill [CS]"
 }

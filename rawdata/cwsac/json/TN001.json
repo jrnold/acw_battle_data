@@ -1,19 +1,19 @@
 {
-  "end_date": "1862-02-06",
-  "casualties": 119,
-  "casualties_text": "119 total (US 40; CS 79)",
+  "battle": "TN001",
+  "operation": false,
+  "cwsac_reference": "TN001",
   "forces": {
     "Confederate": {
       "casualties": 79,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Lloyd",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Tilghman",
-          "fullname": "Lloyd Tilghman"
+          "suffix": "",
+          "first_name": "Lloyd",
+          "rank": "Brigadier General",
+          "fullname": "Lloyd Tilghman",
+          "navy": false
         }
       ],
       "description": "Fort Henry Garrison"
@@ -22,99 +22,96 @@
       "casualties": 40,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Ulysses",
-          "suffix": "",
-          "navy": false,
           "middle_name": "S.",
           "last_name": "Grant",
-          "fullname": "Ulysses S. Grant"
+          "suffix": "",
+          "first_name": "Ulysses",
+          "rank": "Brigadier General",
+          "fullname": "Ulysses S. Grant",
+          "navy": false
         },
         {
-          "rank": "Flag Officer",
-          "first_name": "Andrew",
-          "suffix": "",
-          "navy": true,
           "middle_name": "H.",
           "last_name": "Foote",
-          "fullname": "Andrew H. Foote"
+          "suffix": "",
+          "first_name": "Andrew",
+          "rank": "Flag Officer",
+          "fullname": "Andrew H. Foote",
+          "navy": true
         }
       ],
       "description": "District of Cairo"
     }
   },
-  "cwsac_reference": "TN001",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/tn001.htm",
   "forces_text": "District of Cairo [US]; Fort Henry Garrison [CS]",
-  "start_date": "1862-02-06",
-  "preservation": "IV.2",
+  "casualties_text": "119 total (US 40; CS 79)",
   "results_text": "Union victory",
-  "description": "By February 1862, Fort Henry, a Confederate earthen fort on the Tennessee River with outdated guns, was partially inundated and the river threatened to flood the rest. On February 4-5, Brig. Gen. U.S. Grant landed his divisions in two different locations, one on the east bank of the Tennessee River to prevent the garrison's escape and the other to occupy the high ground on the Kentucky side which would insure the fort's fall; Flag-Officer Andrew H. Foote's seven gunboats began bombarding the fort. Brig. Gen. Lloyd Tilghman, commander of the fort's garrison, realized that it was only a matter of time before Fort Henry fell. While leaving artillery in the fort to hold off the Union fleet, he escorted the rest of his force out of the area and sent them safely off on the route to Fort Donelson, 10 miles away. Tilghman then returned to the fort and, soon afterwards, surrendered to the fleet, which had engaged the fort and closed within 400 yards. Fort Henry's fall opened the Tennessee River to Union gunboats and shipping as far as Muscle Shoals, Alabama. After the fall of Fort Donelson, ten days later, the two major water transportation routes in the Confederate west, bounded by the Appalachians and the Mississippi River, became Union highways for movement of troops and material.",
-  "state": "TN",
-  "significance": "B",
-  "other_names": null,
   "dates": "February 6, 1862",
-  "battle_name": "Fort Henry",
-  "principal_commanders": "Brig. Gen. Ulysses S. Grant and Flag-Officer Andrew H. Foote [US]; Brig. Gen. Lloyd Tilghman [CS]",
-  "campaign": "Federal Penetration up the Cumberland and Tennessee Rivers [February-June 1862]",
+  "result": "Union",
+  "other_names": null,
+  "significance": "B",
+  "preservation": "IV.2",
+  "state": "TN",
   "belligerents": {
-    "Confederate": {
-      "casualties": 79,
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "Lloyd",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Tilghman",
-          "fullname": "Lloyd Tilghman"
-        }
-      ],
-      "description": "Fort Henry Garrison"
-    },
-    "US": {
-      "casualties": 40,
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "Ulysses",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "S.",
-          "last_name": "Grant",
-          "fullname": "Ulysses S. Grant"
-        },
-        {
-          "rank": "Flag Officer",
-          "first_name": "Andrew",
-          "suffix": "",
-          "navy": true,
-          "middle_name": "H.",
-          "last_name": "Foote",
-          "fullname": "Andrew H. Foote"
-        }
-      ],
-      "description": "District of Cairo"
-    },
     "CS": {
       "casualties": 79,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Lloyd",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Tilghman",
-          "fullname": "Lloyd Tilghman"
+          "suffix": "",
+          "first_name": "Lloyd",
+          "rank": "Brigadier General",
+          "fullname": "Lloyd Tilghman",
+          "navy": false
         }
       ],
       "description": "Fort Henry Garrison"
+    },
+    "Confederate": {
+      "casualties": 79,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Tilghman",
+          "suffix": "",
+          "first_name": "Lloyd",
+          "rank": "Brigadier General",
+          "fullname": "Lloyd Tilghman",
+          "navy": false
+        }
+      ],
+      "description": "Fort Henry Garrison"
+    },
+    "US": {
+      "casualties": 40,
+      "commanders": [
+        {
+          "middle_name": "S.",
+          "last_name": "Grant",
+          "suffix": "",
+          "first_name": "Ulysses",
+          "rank": "Brigadier General",
+          "fullname": "Ulysses S. Grant",
+          "navy": false
+        },
+        {
+          "middle_name": "H.",
+          "last_name": "Foote",
+          "suffix": "",
+          "first_name": "Andrew",
+          "rank": "Flag Officer",
+          "fullname": "Andrew H. Foote",
+          "navy": true
+        }
+      ],
+      "description": "District of Cairo"
     }
   },
-  "result": "Union",
-  "battle": "TN001",
+  "campaign": "Federal Penetration up the Cumberland and Tennessee Rivers [February-June 1862]",
+  "end_date": "1862-02-06",
+  "description": "By February 1862, Fort Henry, a Confederate earthen fort on the Tennessee River with outdated guns, was partially inundated and the river threatened to flood the rest. On February 4-5, Brig. Gen. U.S. Grant landed his divisions in two different locations, one on the east bank of the Tennessee River to prevent the garrison's escape and the other to occupy the high ground on the Kentucky side which would insure the fort's fall; Flag-Officer Andrew H. Foote's seven gunboats began bombarding the fort. Brig. Gen. Lloyd Tilghman, commander of the fort's garrison, realized that it was only a matter of time before Fort Henry fell. While leaving artillery in the fort to hold off the Union fleet, he escorted the rest of his force out of the area and sent them safely off on the route to Fort Donelson, 10 miles away. Tilghman then returned to the fort and, soon afterwards, surrendered to the fleet, which had engaged the fort and closed within 400 yards. Fort Henry's fall opened the Tennessee River to Union gunboats and shipping as far as Muscle Shoals, Alabama. After the fall of Fort Donelson, ten days later, the two major water transportation routes in the Confederate west, bounded by the Appalachians and the Mississippi River, became Union highways for movement of troops and material.",
   "location": [
     {
       "state": "TN",
@@ -129,5 +126,8 @@
       "place": "Calloway County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/tn001.htm"
+  "battle_name": "Fort Henry",
+  "start_date": "1862-02-06",
+  "casualties": 119,
+  "principal_commanders": "Brig. Gen. Ulysses S. Grant and Flag-Officer Andrew H. Foote [US]; Brig. Gen. Lloyd Tilghman [CS]"
 }

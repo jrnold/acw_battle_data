@@ -1,109 +1,109 @@
 {
-  "end_date": "1863-05-01",
-  "casualties": null,
-  "casualties_text": "Unknown",
+  "battle": "MS005",
+  "operation": false,
+  "cwsac_reference": "MS005",
   "forces": {
     "Confederate": {
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Louis",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Hebert",
-          "fullname": "Louis Hebert"
+          "suffix": "",
+          "first_name": "Louis",
+          "rank": "Brigadier General",
+          "fullname": "Louis Hebert",
+          "navy": false
         }
       ],
       "brigades": 1,
       "description": "H\u00e9bert's Brigade"
     },
     "US": {
-      "corps": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
           "middle_name": "T.",
           "last_name": "Sherman",
-          "fullname": "William T. Sherman"
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Major General",
+          "fullname": "William T. Sherman",
+          "navy": false
         }
       ],
-      "description": "XV Army Corps, Department of the Tennessee"
+      "description": "XV Army Corps, Department of the Tennessee",
+      "corps": 1
     }
   },
-  "cwsac_reference": "MS005",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ms005.htm",
   "forces_text": "XV Army Corps, Department of the Tennessee [US]; H\u00e9bert's Brigade [CS]",
-  "start_date": "1863-04-29",
-  "preservation": "II.4",
+  "casualties_text": "Unknown",
   "results_text": "Confederate victory",
-  "description": "To insure that troops were not withdrawn to Grand Gulf to assist Confederates there, a combined Union army-navy force feigned an attack on Snyder's Bluff, Mississippi. After noon, on April 29th, Lt. Cdr. K. Randolph Breese, with his eight gunboats and ten transports carrying Maj. Gen. Francis Blair's division, inched up the Yazoo River to the mouth of Chickasaw Bayou where they spent the night. At 9:00 am, the next morning, the force, minus one gunboat, continued upriver to Drumgould's Bluff and engaged the enemy batteries. During the fighting, Choctaw suffered more than fifty hits, but no casualties occurred. Around 6:00 pm, the troops disembarked and marched along Blake's Levee toward the guns. As they neared Drumgould's Bluff, a battery opened on them, creating havoc and casualties. The Union advance halted and, after dark, the men reembarked on the transports. The next morning, transports disembarked other troops. The swampy terrain and enemy heavy artillery fire forced them to retire. The gunboats opened fire again, about 3:00 pm on the 1st, causing some damage. Later, the boats' fire slackened and stopped altogether after dark. Sherman had received orders to land his troops at Milliken's Bend, so the gunboats returned to their anchorages at the mouth of the Yazoo.",
-  "state": "MS",
-  "significance": "D",
+  "dates": "April 29-May 1, 1863",
+  "result": "Confederate",
   "other_names": [
     "Snyder's Mill"
   ],
-  "dates": "April 29-May 1, 1863",
-  "battle_name": "Snyder's Bluff",
-  "principal_commanders": "Maj. Gen. William T. Sherman [US]; Brig. Gen. Louis H\u00e9bert [CS]",
-  "campaign": "Grant's Operations Against Vicksburg [March-July 1863]",
+  "significance": "D",
+  "preservation": "II.4",
+  "state": "MS",
   "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Hebert",
+          "suffix": "",
+          "first_name": "Louis",
+          "rank": "Brigadier General",
+          "fullname": "Louis Hebert",
+          "navy": false
+        }
+      ],
+      "brigades": 1,
+      "description": "H\u00e9bert's Brigade"
+    },
     "Confederate": {
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Louis",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Hebert",
-          "fullname": "Louis Hebert"
+          "suffix": "",
+          "first_name": "Louis",
+          "rank": "Brigadier General",
+          "fullname": "Louis Hebert",
+          "navy": false
         }
       ],
       "brigades": 1,
       "description": "H\u00e9bert's Brigade"
     },
     "US": {
-      "corps": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
           "middle_name": "T.",
           "last_name": "Sherman",
-          "fullname": "William T. Sherman"
-        }
-      ],
-      "description": "XV Army Corps, Department of the Tennessee"
-    },
-    "CS": {
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "Louis",
           "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Hebert",
-          "fullname": "Louis Hebert"
+          "first_name": "William",
+          "rank": "Major General",
+          "fullname": "William T. Sherman",
+          "navy": false
         }
       ],
-      "brigades": 1,
-      "description": "H\u00e9bert's Brigade"
+      "description": "XV Army Corps, Department of the Tennessee",
+      "corps": 1
     }
   },
-  "result": "Confederate",
-  "battle": "MS005",
+  "campaign": "Grant's Operations Against Vicksburg [March-July 1863]",
+  "end_date": "1863-05-01",
+  "description": "To insure that troops were not withdrawn to Grand Gulf to assist Confederates there, a combined Union army-navy force feigned an attack on Snyder's Bluff, Mississippi. After noon, on April 29th, Lt. Cdr. K. Randolph Breese, with his eight gunboats and ten transports carrying Maj. Gen. Francis Blair's division, inched up the Yazoo River to the mouth of Chickasaw Bayou where they spent the night. At 9:00 am, the next morning, the force, minus one gunboat, continued upriver to Drumgould's Bluff and engaged the enemy batteries. During the fighting, Choctaw suffered more than fifty hits, but no casualties occurred. Around 6:00 pm, the troops disembarked and marched along Blake's Levee toward the guns. As they neared Drumgould's Bluff, a battery opened on them, creating havoc and casualties. The Union advance halted and, after dark, the men reembarked on the transports. The next morning, transports disembarked other troops. The swampy terrain and enemy heavy artillery fire forced them to retire. The gunboats opened fire again, about 3:00 pm on the 1st, causing some damage. Later, the boats' fire slackened and stopped altogether after dark. Sherman had received orders to land his troops at Milliken's Bend, so the gunboats returned to their anchorages at the mouth of the Yazoo.",
   "location": [
     {
       "state": "MS",
       "place": "Warren County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/ms005.htm"
+  "battle_name": "Snyder's Bluff",
+  "start_date": "1863-04-29",
+  "casualties": null,
+  "principal_commanders": "Maj. Gen. William T. Sherman [US]; Brig. Gen. Louis H\u00e9bert [CS]"
 }

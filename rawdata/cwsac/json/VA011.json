@@ -1,110 +1,110 @@
 {
-  "end_date": "1862-05-07",
-  "casualties": 242,
-  "casualties_text": "242 total (US 194; CS 48)",
+  "battle": "VA011",
+  "operation": false,
+  "cwsac_reference": "VA011",
   "forces": {
     "Confederate": {
       "casualties": 48,
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Gustavius",
-          "suffix": "",
-          "navy": false,
           "middle_name": "W.",
           "last_name": "Smith",
-          "fullname": "Gustavius W. Smith"
+          "suffix": "",
+          "first_name": "Gustavius",
+          "rank": "Major General",
+          "fullname": "Gustavius W. Smith",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     },
     "US": {
       "casualties": 194,
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
           "middle_name": "B.",
           "last_name": "Franklin",
-          "fullname": "William B. Franklin"
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Brigadier General",
+          "fullname": "William B. Franklin",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     }
   },
-  "cwsac_reference": "VA011",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va011.htm",
   "forces_text": "Divisions",
-  "start_date": "1862-05-07",
-  "preservation": "III.4",
+  "casualties_text": "242 total (US 194; CS 48)",
   "results_text": "Inconclusive",
-  "description": "Franklin's Union division landed at Eltham's Landing and was attacked by two brigades of Smith's command, reacting to the threat to the Confederate army's trains on the Barhamsville Road. Franklin's movement occurred while the Confederate army was withdrawing from the Williamsburg line.",
-  "state": "VA",
-  "significance": "D",
+  "dates": "May 7, 1862",
+  "result": "Inconclusive",
   "other_names": [
     "Barhamsville",
     "West Point"
   ],
-  "dates": "May 7, 1862",
-  "battle_name": "Eltham's Landing",
-  "principal_commanders": "Brig. Gen. William B. Franklin [US]; Maj. Gen. Gustavius W. Smith [CS]",
-  "campaign": "Peninsula Campaign [March-July 1862]",
+  "significance": "D",
+  "preservation": "III.4",
+  "state": "VA",
   "belligerents": {
-    "Confederate": {
+    "CS": {
       "casualties": 48,
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Gustavius",
-          "suffix": "",
-          "navy": false,
           "middle_name": "W.",
           "last_name": "Smith",
-          "fullname": "Gustavius W. Smith"
+          "suffix": "",
+          "first_name": "Gustavius",
+          "rank": "Major General",
+          "fullname": "Gustavius W. Smith",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
+    },
+    "Confederate": {
+      "casualties": 48,
+      "divisions": 1,
+      "commanders": [
+        {
+          "middle_name": "W.",
+          "last_name": "Smith",
+          "suffix": "",
+          "first_name": "Gustavius",
+          "rank": "Major General",
+          "fullname": "Gustavius W. Smith",
+          "navy": false
+        }
+      ]
     },
     "US": {
       "casualties": 194,
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
           "middle_name": "B.",
           "last_name": "Franklin",
-          "fullname": "William B. Franklin"
-        }
-      ],
-      "divisions": 1
-    },
-    "CS": {
-      "casualties": 48,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Gustavius",
           "suffix": "",
-          "navy": false,
-          "middle_name": "W.",
-          "last_name": "Smith",
-          "fullname": "Gustavius W. Smith"
+          "first_name": "William",
+          "rank": "Brigadier General",
+          "fullname": "William B. Franklin",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     }
   },
-  "result": "Inconclusive",
-  "battle": "VA011",
+  "campaign": "Peninsula Campaign [March-July 1862]",
+  "end_date": "1862-05-07",
+  "description": "Franklin's Union division landed at Eltham's Landing and was attacked by two brigades of Smith's command, reacting to the threat to the Confederate army's trains on the Barhamsville Road. Franklin's movement occurred while the Confederate army was withdrawing from the Williamsburg line.",
   "location": [
     {
       "state": "VA",
       "place": "New Kent County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/va011.htm"
+  "battle_name": "Eltham's Landing",
+  "start_date": "1862-05-07",
+  "casualties": 242,
+  "principal_commanders": "Brig. Gen. William B. Franklin [US]; Maj. Gen. Gustavius W. Smith [CS]"
 }

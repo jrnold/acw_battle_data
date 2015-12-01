@@ -1,139 +1,139 @@
 {
-  "end_date": "1861-10-21",
-  "casualties": 1070,
-  "casualties_text": "1,070 total (US 921; CS 149)",
+  "battle": "VA006",
+  "operation": false,
+  "cwsac_reference": "VA006",
   "forces": {
     "Confederate": {
       "casualties": 149,
+      "strength_min": 1600,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Nathan",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Evans",
-          "fullname": "Nathan Evans"
+          "suffix": "",
+          "first_name": "Nathan",
+          "rank": "Brigadier General",
+          "fullname": "Nathan Evans",
+          "navy": false
         }
       ],
       "description": "1,600",
-      "strength_min": 1600,
       "strength_max": 1600
     },
     "US": {
       "casualties": 921,
+      "strength_min": 2000,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Charles",
-          "suffix": "",
-          "navy": false,
           "middle_name": "P.",
           "last_name": "Stone",
-          "fullname": "Charles P. Stone"
+          "suffix": "",
+          "first_name": "Charles",
+          "rank": "Brigadier General",
+          "fullname": "Charles P. Stone",
+          "navy": false
         },
         {
-          "rank": "Colonel",
-          "first_name": "Edward",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Baker",
-          "fullname": "Edward Baker"
+          "suffix": "",
+          "first_name": "Edward",
+          "rank": "Colonel",
+          "fullname": "Edward Baker",
+          "navy": false
         }
       ],
       "description": "2,000",
-      "strength_min": 2000,
       "strength_max": 2000
     }
   },
-  "strength": 3600,
-  "cwsac_reference": "VA006",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va006.htm",
   "forces_text": "3,600 total (US 2,000; CS 1,600)",
-  "start_date": "1861-10-21",
-  "preservation": "III.2",
+  "strength": 3600,
+  "casualties_text": "1,070 total (US 921; CS 149)",
   "results_text": "Confederate victory",
-  "description": "Confederate Brig. Gen. Nathan \"Shanks\" Evans stopped a badly coordinated attempt by Union forces under Brig. Gen. Charles P. Stone to cross the Potomac at Harrison's Island and capture Leesburg. A timely Confederate counterattack drove the Federals over the bluff and into the river. More than 700 Federals were captured. Col. Edward D. Baker (a U.S. Senator) was killed. This Union rout had severe political ramifications in Washington and led to the establishment of the Congressional Joint Committee on the Conduct of the War.",
-  "state": "VA",
-  "significance": "B",
+  "dates": "October 21, 1861",
+  "result": "Confederate",
   "other_names": [
     "Harrison's Landing",
     "Leesburg"
   ],
-  "dates": "October 21, 1861",
-  "battle_name": "Ball's Bluff",
-  "principal_commanders": "Brig. Gen. Charles P. Stone and Col. Edward Baker [US]; Brig. Gen. Nathan Evans [CS]",
+  "significance": "B",
+  "preservation": "III.2",
+  "state": "VA",
+  "belligerents": {
+    "CS": {
+      "casualties": 149,
+      "strength_min": 1600,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Evans",
+          "suffix": "",
+          "first_name": "Nathan",
+          "rank": "Brigadier General",
+          "fullname": "Nathan Evans",
+          "navy": false
+        }
+      ],
+      "description": "1,600",
+      "strength_max": 1600
+    },
+    "Confederate": {
+      "casualties": 149,
+      "strength_min": 1600,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Evans",
+          "suffix": "",
+          "first_name": "Nathan",
+          "rank": "Brigadier General",
+          "fullname": "Nathan Evans",
+          "navy": false
+        }
+      ],
+      "description": "1,600",
+      "strength_max": 1600
+    },
+    "US": {
+      "casualties": 921,
+      "strength_min": 2000,
+      "commanders": [
+        {
+          "middle_name": "P.",
+          "last_name": "Stone",
+          "suffix": "",
+          "first_name": "Charles",
+          "rank": "Brigadier General",
+          "fullname": "Charles P. Stone",
+          "navy": false
+        },
+        {
+          "middle_name": "",
+          "last_name": "Baker",
+          "suffix": "",
+          "first_name": "Edward",
+          "rank": "Colonel",
+          "fullname": "Edward Baker",
+          "navy": false
+        }
+      ],
+      "description": "2,000",
+      "strength_max": 2000
+    }
+  },
+  "campaign": "McClellan's Operations in Northern Virginia [October-December 1861]",
+  "end_date": "1861-10-21",
+  "description": "Confederate Brig. Gen. Nathan \"Shanks\" Evans stopped a badly coordinated attempt by Union forces under Brig. Gen. Charles P. Stone to cross the Potomac at Harrison's Island and capture Leesburg. A timely Confederate counterattack drove the Federals over the bluff and into the river. More than 700 Federals were captured. Col. Edward D. Baker (a U.S. Senator) was killed. This Union rout had severe political ramifications in Washington and led to the establishment of the Congressional Joint Committee on the Conduct of the War.",
   "location": [
     {
       "state": "VA",
       "place": "Loudoun County"
     }
   ],
-  "belligerents": {
-    "Confederate": {
-      "casualties": 149,
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "Nathan",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Evans",
-          "fullname": "Nathan Evans"
-        }
-      ],
-      "description": "1,600",
-      "strength_min": 1600,
-      "strength_max": 1600
-    },
-    "US": {
-      "casualties": 921,
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "Charles",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "P.",
-          "last_name": "Stone",
-          "fullname": "Charles P. Stone"
-        },
-        {
-          "rank": "Colonel",
-          "first_name": "Edward",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Baker",
-          "fullname": "Edward Baker"
-        }
-      ],
-      "description": "2,000",
-      "strength_min": 2000,
-      "strength_max": 2000
-    },
-    "CS": {
-      "casualties": 149,
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "Nathan",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Evans",
-          "fullname": "Nathan Evans"
-        }
-      ],
-      "description": "1,600",
-      "strength_min": 1600,
-      "strength_max": 1600
-    }
-  },
-  "result": "Confederate",
-  "battle": "VA006",
-  "campaign": "McClellan's Operations in Northern Virginia [October-December 1861]",
-  "url": "http://www.nps.gov/hps/abpp/battles/va006.htm"
+  "battle_name": "Ball's Bluff",
+  "start_date": "1861-10-21",
+  "casualties": 1070,
+  "principal_commanders": "Brig. Gen. Charles P. Stone and Col. Edward Baker [US]; Brig. Gen. Nathan Evans [CS]"
 }

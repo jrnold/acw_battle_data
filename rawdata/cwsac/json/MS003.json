@@ -1,112 +1,112 @@
 {
-  "end_date": "1862-12-29",
-  "casualties": 1983,
-  "casualties_text": "1,983 total (US 1,776; CS 207)",
+  "battle": "MS003",
+  "operation": false,
+  "cwsac_reference": "MS003",
   "forces": {
     "Confederate": {
       "casualties": 207,
       "commanders": [
         {
-          "rank": "Lieutenant General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "C.",
           "last_name": "Pemberton",
-          "fullname": "John C. Pemberton"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Lieutenant General",
+          "fullname": "John C. Pemberton",
+          "navy": false
         }
       ],
       "description": "Department of Mississippi and East Louisiana"
     },
     "US": {
-      "corps": 0.5,
+      "casualties": 1776,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
           "middle_name": "T.",
           "last_name": "Sherman",
-          "fullname": "William T. Sherman"
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Major General",
+          "fullname": "William T. Sherman",
+          "navy": false
         }
       ],
       "description": "Right Wing, XIII Army Corps",
-      "casualties": 1776
+      "corps": 0.5
     }
   },
-  "cwsac_reference": "MS003",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ms003.htm",
   "forces_text": "Right Wing, XIII Army Corps [US]; Department of Mississippi and East Louisiana [CS]",
-  "start_date": "1862-12-26",
-  "preservation": "I.3",
+  "casualties_text": "1,983 total (US 1,776; CS 207)",
   "results_text": "Confederate victory",
-  "description": "On December 26, 1862, three Union divisions, under Maj. Gen. William T. Sherman, disembarked at Johnson's Plantation on the Yazoo River to approach the Vicksburg defenses from the northeast while a fourth landed farther upstream on the 27th. On the 27th, the Federals pushed their lines forward through the swamps toward Walnut Hills, which were strongly defended. On the 28th, several futile attempts were made to get around these defenses. On December 29, Sherman ordered a frontal assault which was repulsed with heavy casualties. Sherman then withdrew. This Confederate victory frustrated Grant's attempts to take Vicksburg by direct approach.",
-  "state": "MS",
-  "significance": "B",
+  "dates": "December 26-29, 1862",
+  "result": "Confederate",
   "other_names": [
     "Chickasaw Bluffs",
     "Walnut Hills"
   ],
-  "dates": "December 26-29, 1862",
-  "battle_name": "Chickasaw Bayou",
-  "principal_commanders": "Maj. Gen. William T. Sherman [US]; Lt. Gen. John C. Pemberton [CS]",
-  "campaign": "Operations Against Vicksburg [December 1862-January 1863]",
+  "significance": "B",
+  "preservation": "I.3",
+  "state": "MS",
   "belligerents": {
+    "CS": {
+      "casualties": 207,
+      "commanders": [
+        {
+          "middle_name": "C.",
+          "last_name": "Pemberton",
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Lieutenant General",
+          "fullname": "John C. Pemberton",
+          "navy": false
+        }
+      ],
+      "description": "Department of Mississippi and East Louisiana"
+    },
     "Confederate": {
       "casualties": 207,
       "commanders": [
         {
-          "rank": "Lieutenant General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "C.",
           "last_name": "Pemberton",
-          "fullname": "John C. Pemberton"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Lieutenant General",
+          "fullname": "John C. Pemberton",
+          "navy": false
         }
       ],
       "description": "Department of Mississippi and East Louisiana"
     },
     "US": {
-      "corps": 0.5,
+      "casualties": 1776,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
           "middle_name": "T.",
           "last_name": "Sherman",
-          "fullname": "William T. Sherman"
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Major General",
+          "fullname": "William T. Sherman",
+          "navy": false
         }
       ],
       "description": "Right Wing, XIII Army Corps",
-      "casualties": 1776
-    },
-    "CS": {
-      "casualties": 207,
-      "commanders": [
-        {
-          "rank": "Lieutenant General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "C.",
-          "last_name": "Pemberton",
-          "fullname": "John C. Pemberton"
-        }
-      ],
-      "description": "Department of Mississippi and East Louisiana"
+      "corps": 0.5
     }
   },
-  "result": "Confederate",
-  "battle": "MS003",
+  "campaign": "Operations Against Vicksburg [December 1862-January 1863]",
+  "end_date": "1862-12-29",
+  "description": "On December 26, 1862, three Union divisions, under Maj. Gen. William T. Sherman, disembarked at Johnson's Plantation on the Yazoo River to approach the Vicksburg defenses from the northeast while a fourth landed farther upstream on the 27th. On the 27th, the Federals pushed their lines forward through the swamps toward Walnut Hills, which were strongly defended. On the 28th, several futile attempts were made to get around these defenses. On December 29, Sherman ordered a frontal assault which was repulsed with heavy casualties. Sherman then withdrew. This Confederate victory frustrated Grant's attempts to take Vicksburg by direct approach.",
   "location": [
     {
       "state": "MS",
       "place": "Warren County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/ms003.htm"
+  "battle_name": "Chickasaw Bayou",
+  "start_date": "1862-12-26",
+  "casualties": 1983,
+  "principal_commanders": "Maj. Gen. William T. Sherman [US]; Lt. Gen. John C. Pemberton [CS]"
 }

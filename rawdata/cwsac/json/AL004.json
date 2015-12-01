@@ -1,19 +1,19 @@
 {
-  "end_date": "1864-10-29",
-  "casualties": 605,
-  "casualties_text": "605 total (US 155; CS 450)",
+  "battle": "AL004",
+  "operation": false,
+  "cwsac_reference": "AL004",
   "forces": {
     "Confederate": {
       "casualties": 450,
       "commanders": [
         {
-          "rank": "General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Bell",
           "last_name": "Hood",
-          "fullname": "John Bell Hood"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "General",
+          "fullname": "John Bell Hood",
+          "navy": false
         }
       ],
       "description": "Army of Tennessee",
@@ -21,89 +21,86 @@
     },
     "US": {
       "casualties": 155,
+      "strength_min": 5000,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Robert",
-          "suffix": "",
-          "navy": false,
           "middle_name": "S.",
           "last_name": "Granger",
-          "fullname": "Robert S. Granger"
+          "suffix": "",
+          "first_name": "Robert",
+          "rank": "Brigadier General",
+          "fullname": "Robert S. Granger",
+          "navy": false
         }
       ],
       "description": "Garrison and other troops sent there (approx. 5,000 men)",
-      "strength_min": 5000,
       "strength_max": 5000
     }
   },
-  "cwsac_reference": "AL004",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/al004.htm",
   "forces_text": "Garrison and other troops sent there (approx. 5,000 men) [US]; Army of Tennessee [CS]",
-  "start_date": "1864-10-26",
-  "preservation": "IV.2",
+  "casualties_text": "605 total (US 155; CS 450)",
   "results_text": "Union victory (Confederate forces could not cross the river.)",
-  "description": "As Gen. John B. Hood began the Franklin-Nashville Campaign during the fall of 1864, his Army of Tennessee demonstrated against Decatur, Alabama, October 26-29, in an attempt to cross the Tennessee River. Union forces, under the command of Brig. Gen. Robert S. Granger for most of the battle, numbered only about 5,000 men, but successfully prevented the much larger Confederate force from crossing the river.",
-  "state": "AL",
-  "significance": "C",
-  "other_names": null,
   "dates": "October 26-29, 1864",
-  "battle_name": "Decatur",
-  "principal_commanders": "Brig. Gen. Robert S. Granger [US]; Gen. John Bell Hood [CS]",
-  "campaign": "Franklin-Nashville Campaign [September-December 1864]",
+  "result": "Union",
+  "other_names": null,
+  "significance": "C",
+  "preservation": "IV.2",
+  "state": "AL",
   "belligerents": {
-    "Confederate": {
-      "casualties": 450,
-      "commanders": [
-        {
-          "rank": "General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "Bell",
-          "last_name": "Hood",
-          "fullname": "John Bell Hood"
-        }
-      ],
-      "description": "Army of Tennessee",
-      "armies": 1
-    },
-    "US": {
-      "casualties": 155,
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "Robert",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "S.",
-          "last_name": "Granger",
-          "fullname": "Robert S. Granger"
-        }
-      ],
-      "description": "Garrison and other troops sent there (approx. 5,000 men)",
-      "strength_min": 5000,
-      "strength_max": 5000
-    },
     "CS": {
       "casualties": 450,
       "commanders": [
         {
-          "rank": "General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Bell",
           "last_name": "Hood",
-          "fullname": "John Bell Hood"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "General",
+          "fullname": "John Bell Hood",
+          "navy": false
         }
       ],
       "description": "Army of Tennessee",
       "armies": 1
+    },
+    "Confederate": {
+      "casualties": 450,
+      "commanders": [
+        {
+          "middle_name": "Bell",
+          "last_name": "Hood",
+          "suffix": "",
+          "first_name": "John",
+          "rank": "General",
+          "fullname": "John Bell Hood",
+          "navy": false
+        }
+      ],
+      "description": "Army of Tennessee",
+      "armies": 1
+    },
+    "US": {
+      "casualties": 155,
+      "strength_min": 5000,
+      "commanders": [
+        {
+          "middle_name": "S.",
+          "last_name": "Granger",
+          "suffix": "",
+          "first_name": "Robert",
+          "rank": "Brigadier General",
+          "fullname": "Robert S. Granger",
+          "navy": false
+        }
+      ],
+      "description": "Garrison and other troops sent there (approx. 5,000 men)",
+      "strength_max": 5000
     }
   },
-  "result": "Union",
-  "battle": "AL004",
+  "campaign": "Franklin-Nashville Campaign [September-December 1864]",
+  "end_date": "1864-10-29",
+  "description": "As Gen. John B. Hood began the Franklin-Nashville Campaign during the fall of 1864, his Army of Tennessee demonstrated against Decatur, Alabama, October 26-29, in an attempt to cross the Tennessee River. Union forces, under the command of Brig. Gen. Robert S. Granger for most of the battle, numbered only about 5,000 men, but successfully prevented the much larger Confederate force from crossing the river.",
   "location": [
     {
       "state": "AL",
@@ -114,5 +111,8 @@
       "place": "Limestone County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/al004.htm"
+  "battle_name": "Decatur",
+  "start_date": "1864-10-26",
+  "casualties": 605,
+  "principal_commanders": "Brig. Gen. Robert S. Granger [US]; Gen. John Bell Hood [CS]"
 }

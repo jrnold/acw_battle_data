@@ -1,107 +1,107 @@
 {
-  "end_date": "1864-07-29",
-  "casualties": 1000,
-  "casualties_text": "1,000 total",
+  "battle": "VA069",
+  "operation": false,
+  "cwsac_reference": "VA069",
   "forces": {
     "Confederate": {
-      "corps": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Charles",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Field",
-          "fullname": "Charles Field"
+          "suffix": "",
+          "first_name": "Charles",
+          "rank": "Major General",
+          "fullname": "Charles Field",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
     },
     "US": {
-      "corps": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Winfield",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Scott",
           "last_name": "Hancock",
-          "fullname": "Winfield Scott Hancock"
+          "suffix": "",
+          "first_name": "Winfield",
+          "rank": "Major General",
+          "fullname": "Winfield Scott Hancock",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
     }
   },
-  "cwsac_reference": "VA069",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va069.htm",
   "forces_text": "Corps",
-  "start_date": "1864-07-27",
-  "preservation": "II.3",
+  "casualties_text": "1,000 total",
   "results_text": "Confederate victory",
-  "description": "During the night of July 26-27, the Union II Corps and two divisions of Sheridan's cavalry under command of Maj. Gen. Winfield Scott Hancock crossed to the north side of James River to threaten Richmond. This demonstration diverted Confederate forces from the impending attack at Petersburg on July 30. Union efforts to turn the Confederate position at New Market Heights and Fussell's Mill were abandoned when the Confederates strongly reinforced their lines and counterattacked. During the night of July 29, the Federals recrossed the river leaving a garrison as heretofore to hold the bridgehead at Deep Bottom.",
-  "state": "VA",
-  "significance": "C",
+  "dates": "July 27-29, 1864",
+  "result": "Confederate",
   "other_names": [
     "Darbytown",
     "Strawberry Plains",
     "New Market Road",
     "Gravel Hill"
   ],
-  "dates": "July 27-29, 1864",
-  "battle_name": "Deep Bottom I",
-  "principal_commanders": "Maj. Gen. Winfield Scott Hancock [US]; Maj. Gen. Charles Field [CS]",
-  "campaign": "Richmond-Petersburg Campaign [June 1864-March 1865]",
+  "significance": "C",
+  "preservation": "II.3",
+  "state": "VA",
   "belligerents": {
-    "Confederate": {
-      "corps": 1,
+    "CS": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Charles",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Field",
-          "fullname": "Charles Field"
+          "suffix": "",
+          "first_name": "Charles",
+          "rank": "Major General",
+          "fullname": "Charles Field",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
+    },
+    "Confederate": {
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Field",
+          "suffix": "",
+          "first_name": "Charles",
+          "rank": "Major General",
+          "fullname": "Charles Field",
+          "navy": false
+        }
+      ],
+      "corps": 1
     },
     "US": {
-      "corps": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Winfield",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Scott",
           "last_name": "Hancock",
-          "fullname": "Winfield Scott Hancock"
-        }
-      ]
-    },
-    "CS": {
-      "corps": 1,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Charles",
           "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Field",
-          "fullname": "Charles Field"
+          "first_name": "Winfield",
+          "rank": "Major General",
+          "fullname": "Winfield Scott Hancock",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
     }
   },
-  "result": "Confederate",
-  "battle": "VA069",
+  "campaign": "Richmond-Petersburg Campaign [June 1864-March 1865]",
+  "end_date": "1864-07-29",
+  "description": "During the night of July 26-27, the Union II Corps and two divisions of Sheridan's cavalry under command of Maj. Gen. Winfield Scott Hancock crossed to the north side of James River to threaten Richmond. This demonstration diverted Confederate forces from the impending attack at Petersburg on July 30. Union efforts to turn the Confederate position at New Market Heights and Fussell's Mill were abandoned when the Confederates strongly reinforced their lines and counterattacked. During the night of July 29, the Federals recrossed the river leaving a garrison as heretofore to hold the bridgehead at Deep Bottom.",
   "location": [
     {
       "state": "VA",
       "place": "Henrico County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/va069.htm"
+  "battle_name": "Deep Bottom I",
+  "start_date": "1864-07-27",
+  "casualties": 1000,
+  "principal_commanders": "Maj. Gen. Winfield Scott Hancock [US]; Maj. Gen. Charles Field [CS]"
 }

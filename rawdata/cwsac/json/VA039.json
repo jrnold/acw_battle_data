@@ -1,18 +1,18 @@
 {
-  "end_date": "1863-10-13",
-  "casualties": 50,
-  "casualties_text": "50 total",
+  "battle": "VA039",
+  "operation": false,
+  "cwsac_reference": "VA039",
   "forces": {
     "Confederate": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "J.E.B.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Stuart",
-          "fullname": "J.E.B. Stuart"
+          "suffix": "",
+          "first_name": "J.E.B.",
+          "rank": "Major General",
+          "fullname": "J.E.B. Stuart",
+          "navy": false
         }
       ],
       "brigades": 1
@@ -20,46 +20,56 @@
     "US": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
           "middle_name": "H.",
           "last_name": "French",
-          "fullname": "William H. French"
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Major General",
+          "fullname": "William H. French",
+          "navy": false
         }
       ],
       "brigades": 1
     }
   },
-  "cwsac_reference": "VA039",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va039.htm",
   "forces_text": "Brigades",
-  "start_date": "1863-10-13",
-  "preservation": "III.4",
+  "casualties_text": "50 total",
   "results_text": "Inconclusive",
-  "description": "After the retreat from Gettysburg, the Confederate army concentrated behind Rapidan River in Orange County. The Federals advanced to Rappahannock River in August, and in mid- September they pushed strong columns forward to confront Lee along the Rapidan. Early September, Lee dispatched two divisions of Longstreet's Corps to reinforce the Confederate army in Georgia; the Federals followed suite, sending the XI and XII Corps to Tennessee by railroad in late September after the Battle of Chickamauga (September 18-20). Early October, Lee began an offensive sweep around Meade's right flank with his remaining two corps, forcing the Federals to withdraw along the line of the Orange & Alexandria Railroad. On October 13, Stuart, with Fitzhugh Lee and Lomax's brigades, skirmished with the rearguard of the Union III Corps near Auburn. Finding himself cut off by retreating Federal columns, Stuart secreted his troopers in a wooded ravine until the unsuspecting Federals moved on.",
-  "state": "VA",
-  "significance": "D",
+  "dates": "October 13, 1863",
+  "result": "Inconclusive",
   "other_names": [
     "Catlett's Station",
     "St. Stephen's Church"
   ],
-  "dates": "October 13, 1863",
-  "battle_name": "Auburn",
-  "principal_commanders": "Maj. Gen. William H. French [US]; Maj. Gen. J.E.B. Stuart [CS]",
-  "campaign": "Bristoe Campaign [October-November 1863]",
+  "significance": "D",
+  "preservation": "III.4",
+  "state": "VA",
   "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Stuart",
+          "suffix": "",
+          "first_name": "J.E.B.",
+          "rank": "Major General",
+          "fullname": "J.E.B. Stuart",
+          "navy": false
+        }
+      ],
+      "brigades": 1
+    },
     "Confederate": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "J.E.B.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Stuart",
-          "fullname": "J.E.B. Stuart"
+          "suffix": "",
+          "first_name": "J.E.B.",
+          "rank": "Major General",
+          "fullname": "J.E.B. Stuart",
+          "navy": false
         }
       ],
       "brigades": 1
@@ -67,39 +77,29 @@
     "US": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
           "middle_name": "H.",
           "last_name": "French",
-          "fullname": "William H. French"
-        }
-      ],
-      "brigades": 1
-    },
-    "CS": {
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "J.E.B.",
           "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Stuart",
-          "fullname": "J.E.B. Stuart"
+          "first_name": "William",
+          "rank": "Major General",
+          "fullname": "William H. French",
+          "navy": false
         }
       ],
       "brigades": 1
     }
   },
-  "result": "Inconclusive",
-  "battle": "VA039",
+  "campaign": "Bristoe Campaign [October-November 1863]",
+  "end_date": "1863-10-13",
+  "description": "After the retreat from Gettysburg, the Confederate army concentrated behind Rapidan River in Orange County. The Federals advanced to Rappahannock River in August, and in mid- September they pushed strong columns forward to confront Lee along the Rapidan. Early September, Lee dispatched two divisions of Longstreet's Corps to reinforce the Confederate army in Georgia; the Federals followed suite, sending the XI and XII Corps to Tennessee by railroad in late September after the Battle of Chickamauga (September 18-20). Early October, Lee began an offensive sweep around Meade's right flank with his remaining two corps, forcing the Federals to withdraw along the line of the Orange & Alexandria Railroad. On October 13, Stuart, with Fitzhugh Lee and Lomax's brigades, skirmished with the rearguard of the Union III Corps near Auburn. Finding himself cut off by retreating Federal columns, Stuart secreted his troopers in a wooded ravine until the unsuspecting Federals moved on.",
   "location": [
     {
       "state": "VA",
       "place": "Fauquier County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/va039.htm"
+  "battle_name": "Auburn",
+  "start_date": "1863-10-13",
+  "casualties": 50,
+  "principal_commanders": "Maj. Gen. William H. French [US]; Maj. Gen. J.E.B. Stuart [CS]"
 }

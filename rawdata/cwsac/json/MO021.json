@@ -1,19 +1,19 @@
 {
-  "end_date": "1864-09-27",
-  "casualties": 1684,
-  "casualties_text": "1,684 total (US 184; CS 1,500)",
+  "battle": "MO021",
+  "operation": false,
+  "cwsac_reference": "MO021",
   "forces": {
     "Confederate": {
       "casualties": 1500,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Sterling",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Price",
-          "fullname": "Sterling Price"
+          "suffix": "",
+          "first_name": "Sterling",
+          "rank": "Major General",
+          "fullname": "Sterling Price",
+          "navy": false
         }
       ],
       "description": "Army of Missouri",
@@ -23,90 +23,90 @@
       "casualties": 184,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Thomas",
-          "suffix": "Jr.",
-          "navy": false,
           "middle_name": "",
           "last_name": "Ewing",
-          "fullname": "Thomas Ewing Jr."
+          "suffix": "Jr.",
+          "first_name": "Thomas",
+          "rank": "Brigadier General",
+          "fullname": "Thomas Ewing Jr.",
+          "navy": false
         }
       ],
       "description": "Garrison"
     }
   },
-  "cwsac_reference": "MO021",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/mo021.htm",
   "forces_text": "Garrison [US]; Army of Missouri [CS]",
-  "start_date": "1864-09-27",
-  "preservation": "I.3",
+  "casualties_text": "1,684 total (US 184; CS 1,500)",
   "results_text": "Union victory",
-  "description": "In September 1864, a Confederate army under Maj. Gen. Sterling Price crossed into Missouri with the goal of capturing St. Louis. Union Brig. Gen. Thomas Ewing moved with reinforcements down the railroad to Ironton to retard Price's advance. On the morning of September 27, the Confederates attacked, driving the Federals back into their defenses anchored by Fort Davidson. In the late afternoon, Price unsuccessfully assaulted the fort repeatedly, suffering heavy casualties. Price, considering the possible time involved, had dismissed the possibility of mounting guns on the high ground to compel the fort to surrender or to shell the garrison into submission. During the night, the Federals evacuated the fort. Price had paid a high price in lives and gave Union forces the necessary time to concentrate and oppose his raid.",
-  "state": "MO",
-  "significance": "B",
+  "dates": "September 27, 1864",
+  "result": "Union",
   "other_names": [
     "Pilot Knob"
   ],
-  "dates": "September 27, 1864",
-  "battle_name": "Fort Davidson",
-  "principal_commanders": "Brig. Gen. Thomas Ewing, Jr. [US]; Maj. Gen. Sterling Price [CS]",
-  "campaign": "Price's Missouri Expedition [September-October 1864]",
+  "significance": "B",
+  "preservation": "I.3",
+  "state": "MO",
   "belligerents": {
-    "Confederate": {
-      "casualties": 1500,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Sterling",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Price",
-          "fullname": "Sterling Price"
-        }
-      ],
-      "description": "Army of Missouri",
-      "armies": 1
-    },
-    "US": {
-      "casualties": 184,
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "Thomas",
-          "suffix": "Jr.",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Ewing",
-          "fullname": "Thomas Ewing Jr."
-        }
-      ],
-      "description": "Garrison"
-    },
     "CS": {
       "casualties": 1500,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Sterling",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Price",
-          "fullname": "Sterling Price"
+          "suffix": "",
+          "first_name": "Sterling",
+          "rank": "Major General",
+          "fullname": "Sterling Price",
+          "navy": false
         }
       ],
       "description": "Army of Missouri",
       "armies": 1
+    },
+    "Confederate": {
+      "casualties": 1500,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Price",
+          "suffix": "",
+          "first_name": "Sterling",
+          "rank": "Major General",
+          "fullname": "Sterling Price",
+          "navy": false
+        }
+      ],
+      "description": "Army of Missouri",
+      "armies": 1
+    },
+    "US": {
+      "casualties": 184,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Ewing",
+          "suffix": "Jr.",
+          "first_name": "Thomas",
+          "rank": "Brigadier General",
+          "fullname": "Thomas Ewing Jr.",
+          "navy": false
+        }
+      ],
+      "description": "Garrison"
     }
   },
-  "result": "Union",
-  "battle": "MO021",
+  "campaign": "Price's Missouri Expedition [September-October 1864]",
+  "end_date": "1864-09-27",
+  "description": "In September 1864, a Confederate army under Maj. Gen. Sterling Price crossed into Missouri with the goal of capturing St. Louis. Union Brig. Gen. Thomas Ewing moved with reinforcements down the railroad to Ironton to retard Price's advance. On the morning of September 27, the Confederates attacked, driving the Federals back into their defenses anchored by Fort Davidson. In the late afternoon, Price unsuccessfully assaulted the fort repeatedly, suffering heavy casualties. Price, considering the possible time involved, had dismissed the possibility of mounting guns on the high ground to compel the fort to surrender or to shell the garrison into submission. During the night, the Federals evacuated the fort. Price had paid a high price in lives and gave Union forces the necessary time to concentrate and oppose his raid.",
   "location": [
     {
       "state": "MO",
       "place": "Iron County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/mo021.htm"
+  "battle_name": "Fort Davidson",
+  "start_date": "1864-09-27",
+  "casualties": 1684,
+  "principal_commanders": "Brig. Gen. Thomas Ewing, Jr. [US]; Maj. Gen. Sterling Price [CS]"
 }

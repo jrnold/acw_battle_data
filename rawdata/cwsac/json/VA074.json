@@ -1,73 +1,70 @@
 {
-  "end_date": "1864-10-02",
-  "casualties": 3800,
-  "casualties_text": "3,800 total",
+  "battle": "VA074",
+  "operation": false,
+  "cwsac_reference": "VA074",
   "forces": {
     "Confederate": {
-      "corps": 1,
       "commanders": [
         {
-          "rank": "Lieutenant General",
-          "first_name": "A.P.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Hill",
-          "fullname": "A.P. Hill"
+          "suffix": "",
+          "first_name": "A.P.",
+          "rank": "Lieutenant General",
+          "fullname": "A.P. Hill",
+          "navy": false
         },
         {
-          "rank": "Major General",
-          "first_name": "Wade",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Hampton",
-          "fullname": "Wade Hampton"
+          "suffix": "",
+          "first_name": "Wade",
+          "rank": "Major General",
+          "fullname": "Wade Hampton",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
     },
     "US": {
-      "corps": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "George",
-          "suffix": "",
-          "navy": false,
           "middle_name": "G.",
           "last_name": "Meade",
-          "fullname": "George G. Meade"
+          "suffix": "",
+          "first_name": "George",
+          "rank": "Major General",
+          "fullname": "George G. Meade",
+          "navy": false
         },
         {
-          "rank": "Major General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "G.",
           "last_name": "Parke",
-          "fullname": "John G. Parke"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Major General",
+          "fullname": "John G. Parke",
+          "navy": false
         },
         {
-          "rank": "Major General",
-          "first_name": "G.K.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Warren",
-          "fullname": "G.K. Warren"
+          "suffix": "",
+          "first_name": "G.K.",
+          "rank": "Major General",
+          "fullname": "G.K. Warren",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
     }
   },
-  "cwsac_reference": "VA074",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va074.htm",
   "forces_text": "Corps",
-  "start_date": "1864-09-30",
-  "preservation": "II.2",
+  "casualties_text": "3,800 total",
   "results_text": "Union victory",
-  "description": "In combination with Maj. Gen. Benjamin Butler's offensive north of the James River, Lt. Gen. Ulysses S. Grant extended his left flank to cut Confederate lines of communication southwest of Petersburg. Two divisions of the IX corps under Maj. Gen. John G. Parke, two divisions of the V Corps under Maj. Gen. G.K. Warren, and Brig. Gen. David M. Gregg's cavalry division were assigned to the operation. On September 30, the Federals marched via Poplar Spring Church to reach Squirrel Level and Vaughan Roads. The initial Federal attack overran Fort Archer, flanking the Confederates out of their Squirrel Level Road line. Late afternoon, Confederate reinforcements arrived, slowing the Federal advance. On October 1, the Federals repulsed a Confederate counterattack directed by Lt. Gen. A.P. Hill. Reinforced by Maj. Gen. Gershom Mott's division, the Federals resumed their advance on the 2nd, captured Fort MacRae which was lightly defended, and extended their left flank to the vicinity of Peebles' and Pegram's Farms. With these limited successes, Meade suspended the offensive. A new line was entrenched from the Federal works on Weldon Railroad to Pegram's Farm.",
-  "state": "VA",
-  "significance": "B",
+  "dates": "September 30-October 2, 1864",
+  "result": "Union",
   "other_names": [
     "Poplar Springs Church",
     "Wyatt's Farm",
@@ -76,97 +73,100 @@
     "Vaughan Road",
     "Harmon Road"
   ],
-  "dates": "September 30-October 2, 1864",
-  "battle_name": "Peebles' Farm",
-  "principal_commanders": "Maj. Gen. George G. Meade, Maj. Gen. John G. Parke, and Maj. Gen. G.K. Warren [US]; Lt. Gen. A.P. Hill and Maj. Gen. Wade Hampton [CS]",
-  "campaign": "Richmond-Petersburg Campaign [June 1864-March 1865]",
+  "significance": "B",
+  "preservation": "II.2",
+  "state": "VA",
   "belligerents": {
-    "Confederate": {
-      "corps": 1,
+    "CS": {
       "commanders": [
         {
-          "rank": "Lieutenant General",
-          "first_name": "A.P.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Hill",
-          "fullname": "A.P. Hill"
+          "suffix": "",
+          "first_name": "A.P.",
+          "rank": "Lieutenant General",
+          "fullname": "A.P. Hill",
+          "navy": false
         },
         {
-          "rank": "Major General",
-          "first_name": "Wade",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Hampton",
-          "fullname": "Wade Hampton"
+          "suffix": "",
+          "first_name": "Wade",
+          "rank": "Major General",
+          "fullname": "Wade Hampton",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
+    },
+    "Confederate": {
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Hill",
+          "suffix": "",
+          "first_name": "A.P.",
+          "rank": "Lieutenant General",
+          "fullname": "A.P. Hill",
+          "navy": false
+        },
+        {
+          "middle_name": "",
+          "last_name": "Hampton",
+          "suffix": "",
+          "first_name": "Wade",
+          "rank": "Major General",
+          "fullname": "Wade Hampton",
+          "navy": false
+        }
+      ],
+      "corps": 1
     },
     "US": {
-      "corps": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "George",
-          "suffix": "",
-          "navy": false,
           "middle_name": "G.",
           "last_name": "Meade",
-          "fullname": "George G. Meade"
+          "suffix": "",
+          "first_name": "George",
+          "rank": "Major General",
+          "fullname": "George G. Meade",
+          "navy": false
         },
         {
-          "rank": "Major General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "G.",
           "last_name": "Parke",
-          "fullname": "John G. Parke"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Major General",
+          "fullname": "John G. Parke",
+          "navy": false
         },
         {
-          "rank": "Major General",
-          "first_name": "G.K.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Warren",
-          "fullname": "G.K. Warren"
-        }
-      ]
-    },
-    "CS": {
-      "corps": 1,
-      "commanders": [
-        {
-          "rank": "Lieutenant General",
-          "first_name": "A.P.",
           "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Hill",
-          "fullname": "A.P. Hill"
-        },
-        {
+          "first_name": "G.K.",
           "rank": "Major General",
-          "first_name": "Wade",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Hampton",
-          "fullname": "Wade Hampton"
+          "fullname": "G.K. Warren",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
     }
   },
-  "result": "Union",
-  "battle": "VA074",
+  "campaign": "Richmond-Petersburg Campaign [June 1864-March 1865]",
+  "end_date": "1864-10-02",
+  "description": "In combination with Maj. Gen. Benjamin Butler's offensive north of the James River, Lt. Gen. Ulysses S. Grant extended his left flank to cut Confederate lines of communication southwest of Petersburg. Two divisions of the IX corps under Maj. Gen. John G. Parke, two divisions of the V Corps under Maj. Gen. G.K. Warren, and Brig. Gen. David M. Gregg's cavalry division were assigned to the operation. On September 30, the Federals marched via Poplar Spring Church to reach Squirrel Level and Vaughan Roads. The initial Federal attack overran Fort Archer, flanking the Confederates out of their Squirrel Level Road line. Late afternoon, Confederate reinforcements arrived, slowing the Federal advance. On October 1, the Federals repulsed a Confederate counterattack directed by Lt. Gen. A.P. Hill. Reinforced by Maj. Gen. Gershom Mott's division, the Federals resumed their advance on the 2nd, captured Fort MacRae which was lightly defended, and extended their left flank to the vicinity of Peebles' and Pegram's Farms. With these limited successes, Meade suspended the offensive. A new line was entrenched from the Federal works on Weldon Railroad to Pegram's Farm.",
   "location": [
     {
       "state": "VA",
       "place": "Dinwiddie County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/va074.htm"
+  "battle_name": "Peebles' Farm",
+  "start_date": "1864-09-30",
+  "casualties": 3800,
+  "principal_commanders": "Maj. Gen. George G. Meade, Maj. Gen. John G. Parke, and Maj. Gen. G.K. Warren [US]; Lt. Gen. A.P. Hill and Maj. Gen. Wade Hampton [CS]"
 }

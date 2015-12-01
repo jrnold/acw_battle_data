@@ -1,114 +1,114 @@
 {
-  "end_date": "1862-07-01",
-  "casualties": 0,
-  "casualties_text": "None",
+  "battle": "FL002",
+  "operation": false,
+  "cwsac_reference": "FL002",
   "forces": {
     "Confederate": {
       "casualties": 0,
       "commanders": [
         {
-          "rank": "Captain",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "W.",
           "last_name": "Pearson",
-          "fullname": "John W. Pearson"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Captain",
+          "fullname": "John W. Pearson",
+          "navy": false
         }
       ],
       "companies": 1,
       "description": "Osceola Rangers, company"
     },
     "US": {
-      "gunboats": 1,
-      "commanders": [
-        {
-          "rank": "Captain",
-          "first_name": "A.J.",
-          "suffix": "",
-          "navy": true,
-          "middle_name": "",
-          "last_name": "Drake",
-          "fullname": "A.J. Drake"
-        }
-      ],
-      "description": "One gunboat",
-      "casualties": 0
-    }
-  },
-  "cwsac_reference": "FL002",
-  "operation": false,
-  "forces_text": "One gunboat [US]; Osceola Rangers, company [CS]",
-  "start_date": "1862-06-30",
-  "preservation": "IV.2",
-  "results_text": "Confederate victory (Inconclusive, but Union gunboat withdrew.)",
-  "description": "On June 30, a Union gunboat came into Tampa Bay, turned her broadside on the town, and opened her ports. The gunboat then dispatched a launch carrying 20 men and a lieutenant under a flag of truce demanding the surrender of Tampa. The Confederates refused, and the gunboat opened fire. The officer then informed the Confederates that shelling would commence at 6:00 pm after allowing time to evacuate non-combatants from the city. Firing continued sporadically into the afternoon of July 1, when the Federal gunboat withdrew.",
-  "state": "FL",
-  "significance": "D",
-  "other_names": [
-    "Yankee Outrage at Tampa"
-  ],
-  "dates": "June 30-July 1, 1862",
-  "battle_name": "Tampa",
-  "principal_commanders": "Capt. (Naval) A.J. Drake [US]; Capt. John W. Pearson [CS]",
-  "campaign": "Operations Against Tampa [June-July 1862]",
-  "belligerents": {
-    "Confederate": {
       "casualties": 0,
       "commanders": [
         {
-          "rank": "Captain",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "W.",
-          "last_name": "Pearson",
-          "fullname": "John W. Pearson"
-        }
-      ],
-      "companies": 1,
-      "description": "Osceola Rangers, company"
-    },
-    "US": {
-      "gunboats": 1,
-      "commanders": [
-        {
-          "rank": "Captain",
-          "first_name": "A.J.",
-          "suffix": "",
-          "navy": true,
           "middle_name": "",
           "last_name": "Drake",
-          "fullname": "A.J. Drake"
+          "suffix": "",
+          "first_name": "A.J.",
+          "rank": "Captain",
+          "fullname": "A.J. Drake",
+          "navy": true
         }
       ],
       "description": "One gunboat",
-      "casualties": 0
-    },
+      "gunboats": 1
+    }
+  },
+  "url": "http://www.nps.gov/hps/abpp/battles/fl002.htm",
+  "forces_text": "One gunboat [US]; Osceola Rangers, company [CS]",
+  "casualties_text": "None",
+  "results_text": "Confederate victory (Inconclusive, but Union gunboat withdrew.)",
+  "dates": "June 30-July 1, 1862",
+  "result": "Confederate",
+  "other_names": [
+    "Yankee Outrage at Tampa"
+  ],
+  "significance": "D",
+  "preservation": "IV.2",
+  "state": "FL",
+  "belligerents": {
     "CS": {
       "casualties": 0,
       "commanders": [
         {
-          "rank": "Captain",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "W.",
           "last_name": "Pearson",
-          "fullname": "John W. Pearson"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Captain",
+          "fullname": "John W. Pearson",
+          "navy": false
         }
       ],
       "companies": 1,
       "description": "Osceola Rangers, company"
+    },
+    "Confederate": {
+      "casualties": 0,
+      "commanders": [
+        {
+          "middle_name": "W.",
+          "last_name": "Pearson",
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Captain",
+          "fullname": "John W. Pearson",
+          "navy": false
+        }
+      ],
+      "companies": 1,
+      "description": "Osceola Rangers, company"
+    },
+    "US": {
+      "casualties": 0,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Drake",
+          "suffix": "",
+          "first_name": "A.J.",
+          "rank": "Captain",
+          "fullname": "A.J. Drake",
+          "navy": true
+        }
+      ],
+      "description": "One gunboat",
+      "gunboats": 1
     }
   },
-  "result": "Confederate",
-  "battle": "FL002",
+  "campaign": "Operations Against Tampa [June-July 1862]",
+  "end_date": "1862-07-01",
+  "description": "On June 30, a Union gunboat came into Tampa Bay, turned her broadside on the town, and opened her ports. The gunboat then dispatched a launch carrying 20 men and a lieutenant under a flag of truce demanding the surrender of Tampa. The Confederates refused, and the gunboat opened fire. The officer then informed the Confederates that shelling would commence at 6:00 pm after allowing time to evacuate non-combatants from the city. Firing continued sporadically into the afternoon of July 1, when the Federal gunboat withdrew.",
   "location": [
     {
       "state": "FL",
       "place": "City of Tampa"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/fl002.htm"
+  "battle_name": "Tampa",
+  "start_date": "1862-06-30",
+  "casualties": 0,
+  "principal_commanders": "Capt. (Naval) A.J. Drake [US]; Capt. John W. Pearson [CS]"
 }

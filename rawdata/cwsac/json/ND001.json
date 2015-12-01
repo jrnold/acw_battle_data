@@ -1,19 +1,19 @@
 {
-  "end_date": "1863-07-25",
-  "casualties": null,
-  "casualties_text": "Total unknown (US unknown; I 13)",
+  "battle": "ND001",
+  "operation": false,
+  "cwsac_reference": "ND001",
   "forces": {
     "Native American": {
       "casualties": 13,
       "commanders": [
         {
-          "rank": "",
-          "first_name": "Inkpaduta",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "",
-          "fullname": "Inkpaduta"
+          "suffix": "",
+          "first_name": "Inkpaduta",
+          "rank": "",
+          "fullname": "Inkpaduta",
+          "navy": false
         }
       ],
       "description": "Santee and Teton Sioux"
@@ -22,59 +22,40 @@
       "casualties": null,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Henry",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Hastings",
           "last_name": "Sibley",
-          "fullname": "Henry Hastings Sibley"
+          "suffix": "",
+          "first_name": "Henry",
+          "rank": "Brigadier General",
+          "fullname": "Henry Hastings Sibley",
+          "navy": false
         }
       ],
       "description": "District of Minnesota"
-    },
-    "I": {
-      "casualties": 13,
-      "commanders": [
-        {
-          "rank": "",
-          "first_name": "Inkpaduta",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "",
-          "fullname": "Inkpaduta"
-        }
-      ],
-      "description": "Santee and Teton Sioux"
     }
   },
-  "cwsac_reference": "ND001",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/nd001.htm",
   "forces_text": "District of Minnesota [US]; Santee and Teton Sioux [I]",
-  "start_date": "1863-07-24",
-  "preservation": "III.3",
+  "casualties_text": "Total unknown (US unknown; I 13)",
   "results_text": "Union victory",
-  "description": "Brig. Gen. Henry Hastings Sibley led his troops from Fort Ridgely, Minnesota, into the Dakotas, pursuing the Santee Sioux, who had initiated an uprising in the Minnesota River Valley in August 1862. The Santee had joined forces with the Teton Sioux. Having marched all day on July 24, 1863, Sibley's scouts, around 1:00 pm, reported that they had spotted a large Native American camp a few miles away. Sibley established a camp on a nearby salt lake and set his men to entrenching it for protection. While in the process of making camp, numerous Native Americans appeared expressing friendship. A number of them approached the scouts gathered about 300-400 yards from the camp and began talking with them. Surgeon Josiah S. Weiser, 1st Regiment Minnesota Mounted Rangers, joined the assembly, but soon afterwards a Sioux shot and killed him. The scouts attempted to kill the attacker but he escaped. Native Americans who had hidden behind the surrounding ridges now emerged and attacked. In detachments, the soldiers went out to meet the Native Americans. Sibley, with some men, approached the \"Big Mound\" on the opposite side of the ravine. He attempted to dislodge those Sioux who were on the upper part of the large ravine firing at the infantry and cavalry with impunity. The Union forces displaced these and other well-placed Sioux in the surrounding ridges by accurate artillery fire and forced them into the broken prairie where they fled in confusion. The mounted troops, with some of the infantry and artillery following, set out in pursuit. A running battle ensued for the rest of the day. Before dark, the soldiers broke off the pursuit and returned to camp as previously ordered, some not arriving until the next morning. The Sioux forces were broken and dispirited.",
-  "state": "ND",
-  "significance": "C",
-  "other_names": null,
   "dates": "July 24-25, 1863",
-  "battle_name": "Big Mound",
-  "principal_commanders": "Brig. Gen. Henry Hastings Sibley [US]; Chief Inkpaduta [I]",
-  "campaign": "Operations Against the Sioux in North Dakota [July 1863]",
+  "result": "Union",
+  "other_names": null,
+  "significance": "C",
+  "preservation": "III.3",
+  "state": "ND",
   "belligerents": {
     "Native American": {
       "casualties": 13,
       "commanders": [
         {
-          "rank": "",
-          "first_name": "Inkpaduta",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "",
-          "fullname": "Inkpaduta"
+          "suffix": "",
+          "first_name": "Inkpaduta",
+          "rank": "",
+          "fullname": "Inkpaduta",
+          "navy": false
         }
       ],
       "description": "Santee and Teton Sioux"
@@ -83,13 +64,13 @@
       "casualties": null,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Henry",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Hastings",
           "last_name": "Sibley",
-          "fullname": "Henry Hastings Sibley"
+          "suffix": "",
+          "first_name": "Henry",
+          "rank": "Brigadier General",
+          "fullname": "Henry Hastings Sibley",
+          "navy": false
         }
       ],
       "description": "District of Minnesota"
@@ -98,25 +79,29 @@
       "casualties": 13,
       "commanders": [
         {
-          "rank": "",
-          "first_name": "Inkpaduta",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "",
-          "fullname": "Inkpaduta"
+          "suffix": "",
+          "first_name": "Inkpaduta",
+          "rank": "",
+          "fullname": "Inkpaduta",
+          "navy": false
         }
       ],
       "description": "Santee and Teton Sioux"
     }
   },
-  "result": "Union",
-  "battle": "ND001",
+  "campaign": "Operations Against the Sioux in North Dakota [July 1863]",
+  "end_date": "1863-07-25",
+  "description": "Brig. Gen. Henry Hastings Sibley led his troops from Fort Ridgely, Minnesota, into the Dakotas, pursuing the Santee Sioux, who had initiated an uprising in the Minnesota River Valley in August 1862. The Santee had joined forces with the Teton Sioux. Having marched all day on July 24, 1863, Sibley's scouts, around 1:00 pm, reported that they had spotted a large Native American camp a few miles away. Sibley established a camp on a nearby salt lake and set his men to entrenching it for protection. While in the process of making camp, numerous Native Americans appeared expressing friendship. A number of them approached the scouts gathered about 300-400 yards from the camp and began talking with them. Surgeon Josiah S. Weiser, 1st Regiment Minnesota Mounted Rangers, joined the assembly, but soon afterwards a Sioux shot and killed him. The scouts attempted to kill the attacker but he escaped. Native Americans who had hidden behind the surrounding ridges now emerged and attacked. In detachments, the soldiers went out to meet the Native Americans. Sibley, with some men, approached the \"Big Mound\" on the opposite side of the ravine. He attempted to dislodge those Sioux who were on the upper part of the large ravine firing at the infantry and cavalry with impunity. The Union forces displaced these and other well-placed Sioux in the surrounding ridges by accurate artillery fire and forced them into the broken prairie where they fled in confusion. The mounted troops, with some of the infantry and artillery following, set out in pursuit. A running battle ensued for the rest of the day. Before dark, the soldiers broke off the pursuit and returned to camp as previously ordered, some not arriving until the next morning. The Sioux forces were broken and dispirited.",
   "location": [
     {
       "state": "ND",
       "place": "Kidder County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/nd001.htm"
+  "battle_name": "Big Mound",
+  "start_date": "1863-07-24",
+  "casualties": null,
+  "principal_commanders": "Brig. Gen. Henry Hastings Sibley [US]; Chief Inkpaduta [I]"
 }

@@ -1,138 +1,138 @@
 {
-  "end_date": "1864-10-15",
-  "casualties": 450,
-  "casualties_text": "450 total (US 400; CS 50)",
+  "battle": "MO022",
+  "operation": false,
+  "cwsac_reference": "MO022",
   "forces": {
     "Confederate": {
       "casualties": 50,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "B.",
           "last_name": "Clark",
-          "fullname": "John B. Clark"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Brigadier General",
+          "fullname": "John B. Clark",
+          "navy": false
         },
         {
-          "rank": "Brigadier General",
-          "first_name": "Joseph",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Shelby",
-          "fullname": "Joseph Shelby"
+          "suffix": "",
+          "first_name": "Joseph",
+          "rank": "Brigadier General",
+          "fullname": "Joseph Shelby",
+          "navy": false
         }
       ],
       "description": "unknown"
     },
     "US": {
       "casualties": 400,
+      "strength_min": 800,
       "commanders": [
         {
-          "rank": "Colonel",
-          "first_name": "Chester",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Harding",
-          "fullname": "Chester Harding"
+          "suffix": "",
+          "first_name": "Chester",
+          "rank": "Colonel",
+          "fullname": "Chester Harding",
+          "navy": false
         }
       ],
       "description": "Garrison (800)",
-      "strength_min": 800,
       "strength_max": 800
     }
   },
-  "cwsac_reference": "MO022",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/mo022.htm",
   "forces_text": "Garrison (800) [US]; unknown [CS]",
-  "start_date": "1864-10-15",
-  "preservation": "IV.2",
+  "casualties_text": "450 total (US 400; CS 50)",
   "results_text": "Confederate victory",
-  "description": "While Maj. Gen. Sterling Price led his men westward across Missouri, he decided to send a detachment to Glasgow to liberate weapons and supplies in an arms storehouse, purported to be there. This combined mounted infantry, cavalry, and artillery force laid siege to the town and the fortifications on Hereford Hill. Before dawn on October 15, Confederate artillery opened on the town and Rebels advanced on Glasgow by various routes, forcing the Yankees to fall back. The Union forces retreated out of town and up the hill toward the fortifications on Hereford Hill. There they formed a defensive line in this area, but the Confederates continued to advance. Convinced that he could not defend against another Confederate attack, Col. Chester Harding surrendered around 1:30 pm. Although Harding destroyed some Federal stores, Price's men found rifle-muskets, overcoats, and horses. The Confederates remained in town for three days before rejoining the main column with new supplies and weapons and marching on towards Kansas City. The victory and capture of supplies and weapons were a boost to Price's army's morale.",
-  "state": "MO",
-  "significance": "C",
-  "other_names": null,
   "dates": "October 15, 1864",
-  "battle_name": "Glasgow",
-  "principal_commanders": "Col. Chester Harding [US]; Brig. Gen. John B. Clark and Brig. Gen. Joseph Shelby [CS]",
-  "campaign": "Price's Missouri Expedition [September-October 1864]",
+  "result": "Confederate",
+  "other_names": null,
+  "significance": "C",
+  "preservation": "IV.2",
+  "state": "MO",
   "belligerents": {
-    "Confederate": {
-      "casualties": 50,
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "B.",
-          "last_name": "Clark",
-          "fullname": "John B. Clark"
-        },
-        {
-          "rank": "Brigadier General",
-          "first_name": "Joseph",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Shelby",
-          "fullname": "Joseph Shelby"
-        }
-      ],
-      "description": "unknown"
-    },
-    "US": {
-      "casualties": 400,
-      "commanders": [
-        {
-          "rank": "Colonel",
-          "first_name": "Chester",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Harding",
-          "fullname": "Chester Harding"
-        }
-      ],
-      "description": "Garrison (800)",
-      "strength_min": 800,
-      "strength_max": 800
-    },
     "CS": {
       "casualties": 50,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "B.",
           "last_name": "Clark",
-          "fullname": "John B. Clark"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Brigadier General",
+          "fullname": "John B. Clark",
+          "navy": false
         },
         {
-          "rank": "Brigadier General",
-          "first_name": "Joseph",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Shelby",
-          "fullname": "Joseph Shelby"
+          "suffix": "",
+          "first_name": "Joseph",
+          "rank": "Brigadier General",
+          "fullname": "Joseph Shelby",
+          "navy": false
         }
       ],
       "description": "unknown"
+    },
+    "Confederate": {
+      "casualties": 50,
+      "commanders": [
+        {
+          "middle_name": "B.",
+          "last_name": "Clark",
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Brigadier General",
+          "fullname": "John B. Clark",
+          "navy": false
+        },
+        {
+          "middle_name": "",
+          "last_name": "Shelby",
+          "suffix": "",
+          "first_name": "Joseph",
+          "rank": "Brigadier General",
+          "fullname": "Joseph Shelby",
+          "navy": false
+        }
+      ],
+      "description": "unknown"
+    },
+    "US": {
+      "casualties": 400,
+      "strength_min": 800,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Harding",
+          "suffix": "",
+          "first_name": "Chester",
+          "rank": "Colonel",
+          "fullname": "Chester Harding",
+          "navy": false
+        }
+      ],
+      "description": "Garrison (800)",
+      "strength_max": 800
     }
   },
-  "result": "Confederate",
-  "battle": "MO022",
+  "campaign": "Price's Missouri Expedition [September-October 1864]",
+  "end_date": "1864-10-15",
+  "description": "While Maj. Gen. Sterling Price led his men westward across Missouri, he decided to send a detachment to Glasgow to liberate weapons and supplies in an arms storehouse, purported to be there. This combined mounted infantry, cavalry, and artillery force laid siege to the town and the fortifications on Hereford Hill. Before dawn on October 15, Confederate artillery opened on the town and Rebels advanced on Glasgow by various routes, forcing the Yankees to fall back. The Union forces retreated out of town and up the hill toward the fortifications on Hereford Hill. There they formed a defensive line in this area, but the Confederates continued to advance. Convinced that he could not defend against another Confederate attack, Col. Chester Harding surrendered around 1:30 pm. Although Harding destroyed some Federal stores, Price's men found rifle-muskets, overcoats, and horses. The Confederates remained in town for three days before rejoining the main column with new supplies and weapons and marching on towards Kansas City. The victory and capture of supplies and weapons were a boost to Price's army's morale.",
   "location": [
     {
       "state": "MO",
       "place": "Howard County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/mo022.htm"
+  "battle_name": "Glasgow",
+  "start_date": "1864-10-15",
+  "casualties": 450,
+  "principal_commanders": "Col. Chester Harding [US]; Brig. Gen. John B. Clark and Brig. Gen. Joseph Shelby [CS]"
 }

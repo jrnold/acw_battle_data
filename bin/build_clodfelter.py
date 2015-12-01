@@ -122,9 +122,6 @@ def forces(data, dst, filename):
                             row[re.sub(' ', '_', k)] = row[k]
                             del row[k]
                     writer.writerow(row)
-    sp.run([RSCRIPT, "rawdata/clodfelter2008/clean_forces.R",
-            path.join(dst, filename), path.join(dst, "unit_sizes.csv"),
-            path.join(dst, filename)])
 
 def cwsac_links(data, dst, filename):
     with open(path.join(dst, filename), 'w') as f:

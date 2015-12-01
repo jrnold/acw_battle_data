@@ -1,112 +1,112 @@
 {
-  "end_date": "1864-01-26",
-  "casualties": 50,
-  "casualties_text": "50 total (US 20; CS 30)",
+  "battle": "AL002",
+  "operation": false,
+  "cwsac_reference": "AL002",
   "forces": {
     "Confederate": {
-      "cavalry_regiments": 1,
       "casualties": 30,
       "commanders": [
         {
-          "rank": "Lieutenant Colonel",
-          "first_name": "Moses",
-          "suffix": "",
-          "navy": false,
           "middle_name": "W.",
           "last_name": "Hannon",
-          "fullname": "Moses W. Hannon"
+          "suffix": "",
+          "first_name": "Moses",
+          "rank": "Lieutenant Colonel",
+          "fullname": "Moses W. Hannon",
+          "navy": false
         }
       ],
+      "cavalry_regiments": 1,
       "description": "1st Alabama Cavalry"
     },
     "US": {
-      "regiments": 1,
       "casualties": 20,
       "commanders": [
         {
-          "rank": "Captain",
-          "first_name": "Emil",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Adams",
-          "fullname": "Emil Adams"
+          "suffix": "",
+          "first_name": "Emil",
+          "rank": "Captain",
+          "fullname": "Emil Adams",
+          "navy": false
         }
       ],
+      "regiments": 1,
       "description": "9th Illinois Mounted Infantry"
     }
   },
-  "cwsac_reference": "AL002",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/al002.htm",
   "forces_text": "9th Illinois Mounted Infantry [US]; 1st Alabama Cavalry [CS]",
-  "start_date": "1864-01-26",
-  "preservation": "IV.1",
+  "casualties_text": "50 total (US 20; CS 30)",
   "results_text": "Union victory (The Confederate force failed in its attempt to take Athens.)",
-  "description": "Confederate cavalry, numbering about 600 men, attacked Athens, held by about 100 Union troops, around 4:00 am on the morning of January 26, 1864. After a two-hour battle, the Confederates retreated. Union forces, although greatly outnumbered and without fortifications, repulsed the attackers.",
-  "state": "AL",
-  "significance": "D",
-  "other_names": null,
   "dates": "January 26, 1864",
-  "battle_name": "Athens",
-  "principal_commanders": "Capt. Emil Adams [US]; Lt. Col. Moses W. Hannon [CS]",
-  "campaign": "Operations in North Alabama [January 1864]",
+  "result": "Union",
+  "other_names": null,
+  "significance": "D",
+  "preservation": "IV.1",
+  "state": "AL",
   "belligerents": {
-    "Confederate": {
-      "cavalry_regiments": 1,
+    "CS": {
       "casualties": 30,
       "commanders": [
         {
-          "rank": "Lieutenant Colonel",
-          "first_name": "Moses",
-          "suffix": "",
-          "navy": false,
           "middle_name": "W.",
           "last_name": "Hannon",
-          "fullname": "Moses W. Hannon"
+          "suffix": "",
+          "first_name": "Moses",
+          "rank": "Lieutenant Colonel",
+          "fullname": "Moses W. Hannon",
+          "navy": false
         }
       ],
+      "cavalry_regiments": 1,
+      "description": "1st Alabama Cavalry"
+    },
+    "Confederate": {
+      "casualties": 30,
+      "commanders": [
+        {
+          "middle_name": "W.",
+          "last_name": "Hannon",
+          "suffix": "",
+          "first_name": "Moses",
+          "rank": "Lieutenant Colonel",
+          "fullname": "Moses W. Hannon",
+          "navy": false
+        }
+      ],
+      "cavalry_regiments": 1,
       "description": "1st Alabama Cavalry"
     },
     "US": {
-      "regiments": 1,
       "casualties": 20,
       "commanders": [
         {
-          "rank": "Captain",
-          "first_name": "Emil",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Adams",
-          "fullname": "Emil Adams"
-        }
-      ],
-      "description": "9th Illinois Mounted Infantry"
-    },
-    "CS": {
-      "cavalry_regiments": 1,
-      "casualties": 30,
-      "commanders": [
-        {
-          "rank": "Lieutenant Colonel",
-          "first_name": "Moses",
           "suffix": "",
-          "navy": false,
-          "middle_name": "W.",
-          "last_name": "Hannon",
-          "fullname": "Moses W. Hannon"
+          "first_name": "Emil",
+          "rank": "Captain",
+          "fullname": "Emil Adams",
+          "navy": false
         }
       ],
-      "description": "1st Alabama Cavalry"
+      "regiments": 1,
+      "description": "9th Illinois Mounted Infantry"
     }
   },
-  "result": "Union",
-  "battle": "AL002",
+  "campaign": "Operations in North Alabama [January 1864]",
+  "end_date": "1864-01-26",
+  "description": "Confederate cavalry, numbering about 600 men, attacked Athens, held by about 100 Union troops, around 4:00 am on the morning of January 26, 1864. After a two-hour battle, the Confederates retreated. Union forces, although greatly outnumbered and without fortifications, repulsed the attackers.",
   "location": [
     {
       "state": "AL",
       "place": "Limestone County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/al002.htm"
+  "battle_name": "Athens",
+  "start_date": "1864-01-26",
+  "casualties": 50,
+  "principal_commanders": "Capt. Emil Adams [US]; Lt. Col. Moses W. Hannon [CS]"
 }

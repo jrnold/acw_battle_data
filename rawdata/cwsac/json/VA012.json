@@ -1,188 +1,188 @@
 {
-  "end_date": "1862-05-15",
-  "casualties": 41,
-  "casualties_text": "41 total",
+  "battle": "VA012",
+  "operation": false,
+  "cwsac_reference": "VA012",
   "forces": {
     "Confederate": {
       "commanders": [
         {
-          "rank": "Commander",
-          "first_name": "E.",
-          "suffix": "",
-          "navy": true,
           "middle_name": "",
           "last_name": "Farrand",
-          "fullname": "E. Farrand"
+          "suffix": "",
+          "first_name": "E.",
+          "rank": "Commander",
+          "fullname": "E. Farrand",
+          "navy": true
         },
         {
-          "rank": "Brigadier General",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Mahone",
-          "fullname": "William Mahone"
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Brigadier General",
+          "fullname": "William Mahone",
+          "navy": false
         },
         {
-          "rank": "Captain",
-          "first_name": "S.",
-          "suffix": "",
-          "navy": true,
           "middle_name": "S.",
           "last_name": "Lee",
-          "fullname": "S. S. Lee"
+          "suffix": "",
+          "first_name": "S.",
+          "rank": "Captain",
+          "fullname": "S. S. Lee",
+          "navy": true
         },
         {
-          "rank": "Lieutenant",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Taylor",
           "last_name": "Wood",
-          "fullname": "John Taylor Wood"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Lieutenant",
+          "fullname": "John Taylor Wood",
+          "navy": false
         }
       ],
       "description": "battery garrison"
     },
     "US": {
-      "gunboats": 5,
       "commanders": [
         {
-          "rank": "Commander",
-          "first_name": "John",
-          "suffix": "",
-          "navy": true,
           "middle_name": "",
           "last_name": "Rodgers",
-          "fullname": "John Rodgers"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Commander",
+          "fullname": "John Rodgers",
+          "navy": true
         }
       ],
-      "description": "5 gunboats"
+      "description": "5 gunboats",
+      "gunboats": 5
     }
   },
-  "cwsac_reference": "VA012",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va012.htm",
   "forces_text": "5 gunboats [US]; battery garrison [CS]",
-  "start_date": "1862-05-15",
-  "preservation": "III.2",
+  "casualties_text": "41 total",
   "results_text": "Confederate victory",
-  "description": "With the fall of Yorktown, the Confederate ironclad Virginia at Norfolk was scuttled to prevent her capture. This opened the James River to Federal gunboats. On May 15, five gunboats, including the ironclads Monitor and Galena, steamed up the James to test the Richmond defenses. They encountered submerged obstacles and deadly accurate fire from the batteries at Drewry's Bluff, which inflicted severe damage on the Galena. The Federal Navy was turned back.",
-  "state": "VA",
-  "significance": "B",
+  "dates": "May 15, 1862",
+  "result": "Confederate",
   "other_names": [
     "Fort Darling",
     "Fort Drewry"
   ],
-  "dates": "May 15, 1862",
-  "battle_name": "Drewry's Bluff",
-  "principal_commanders": "Cdr. John Rodgers [US]; Cdr. E. Farrand, Brig. Gen. William Mahone, Capt. (Naval) S. S. Lee, and Lt. John Taylor Wood [CS]",
-  "campaign": "Peninsula Campaign [March-July 1862]",
+  "significance": "B",
+  "preservation": "III.2",
+  "state": "VA",
   "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Farrand",
+          "suffix": "",
+          "first_name": "E.",
+          "rank": "Commander",
+          "fullname": "E. Farrand",
+          "navy": true
+        },
+        {
+          "middle_name": "",
+          "last_name": "Mahone",
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Brigadier General",
+          "fullname": "William Mahone",
+          "navy": false
+        },
+        {
+          "middle_name": "S.",
+          "last_name": "Lee",
+          "suffix": "",
+          "first_name": "S.",
+          "rank": "Captain",
+          "fullname": "S. S. Lee",
+          "navy": true
+        },
+        {
+          "middle_name": "Taylor",
+          "last_name": "Wood",
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Lieutenant",
+          "fullname": "John Taylor Wood",
+          "navy": false
+        }
+      ],
+      "description": "battery garrison"
+    },
     "Confederate": {
       "commanders": [
         {
-          "rank": "Commander",
-          "first_name": "E.",
-          "suffix": "",
-          "navy": true,
           "middle_name": "",
           "last_name": "Farrand",
-          "fullname": "E. Farrand"
+          "suffix": "",
+          "first_name": "E.",
+          "rank": "Commander",
+          "fullname": "E. Farrand",
+          "navy": true
         },
         {
-          "rank": "Brigadier General",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Mahone",
-          "fullname": "William Mahone"
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Brigadier General",
+          "fullname": "William Mahone",
+          "navy": false
         },
         {
-          "rank": "Captain",
-          "first_name": "S.",
-          "suffix": "",
-          "navy": true,
           "middle_name": "S.",
           "last_name": "Lee",
-          "fullname": "S. S. Lee"
+          "suffix": "",
+          "first_name": "S.",
+          "rank": "Captain",
+          "fullname": "S. S. Lee",
+          "navy": true
         },
         {
-          "rank": "Lieutenant",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Taylor",
           "last_name": "Wood",
-          "fullname": "John Taylor Wood"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Lieutenant",
+          "fullname": "John Taylor Wood",
+          "navy": false
         }
       ],
       "description": "battery garrison"
     },
     "US": {
-      "gunboats": 5,
       "commanders": [
         {
-          "rank": "Commander",
-          "first_name": "John",
-          "suffix": "",
-          "navy": true,
           "middle_name": "",
           "last_name": "Rodgers",
-          "fullname": "John Rodgers"
-        }
-      ],
-      "description": "5 gunboats"
-    },
-    "CS": {
-      "commanders": [
-        {
-          "rank": "Commander",
-          "first_name": "E.",
           "suffix": "",
-          "navy": true,
-          "middle_name": "",
-          "last_name": "Farrand",
-          "fullname": "E. Farrand"
-        },
-        {
-          "rank": "Brigadier General",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Mahone",
-          "fullname": "William Mahone"
-        },
-        {
-          "rank": "Captain",
-          "first_name": "S.",
-          "suffix": "",
-          "navy": true,
-          "middle_name": "S.",
-          "last_name": "Lee",
-          "fullname": "S. S. Lee"
-        },
-        {
-          "rank": "Lieutenant",
           "first_name": "John",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "Taylor",
-          "last_name": "Wood",
-          "fullname": "John Taylor Wood"
+          "rank": "Commander",
+          "fullname": "John Rodgers",
+          "navy": true
         }
       ],
-      "description": "battery garrison"
+      "description": "5 gunboats",
+      "gunboats": 5
     }
   },
-  "result": "Confederate",
-  "battle": "VA012",
+  "campaign": "Peninsula Campaign [March-July 1862]",
+  "end_date": "1862-05-15",
+  "description": "With the fall of Yorktown, the Confederate ironclad Virginia at Norfolk was scuttled to prevent her capture. This opened the James River to Federal gunboats. On May 15, five gunboats, including the ironclads Monitor and Galena, steamed up the James to test the Richmond defenses. They encountered submerged obstacles and deadly accurate fire from the batteries at Drewry's Bluff, which inflicted severe damage on the Galena. The Federal Navy was turned back.",
   "location": [
     {
       "state": "VA",
       "place": "Chesterfield County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/va012.htm"
+  "battle_name": "Drewry's Bluff",
+  "start_date": "1862-05-15",
+  "casualties": 41,
+  "principal_commanders": "Cdr. John Rodgers [US]; Cdr. E. Farrand, Brig. Gen. William Mahone, Capt. (Naval) S. S. Lee, and Lt. John Taylor Wood [CS]"
 }

@@ -1,100 +1,100 @@
 {
-  "end_date": "1863-03-17",
-  "casualties": 200,
-  "casualties_text": "200 total",
+  "battle": "VA029",
+  "operation": false,
+  "cwsac_reference": "VA029",
   "forces": {
     "Confederate": {
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Fitzhugh",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Lee",
-          "fullname": "Fitzhugh Lee"
+          "suffix": "",
+          "first_name": "Fitzhugh",
+          "rank": "Brigadier General",
+          "fullname": "Fitzhugh Lee",
+          "navy": false
         }
       ]
     },
     "US": {
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
           "middle_name": "W.",
           "last_name": "Averell",
-          "fullname": "William W. Averell"
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Brigadier General",
+          "fullname": "William W. Averell",
+          "navy": false
         }
       ]
     }
   },
-  "strength": 3000,
-  "cwsac_reference": "VA029",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va029.htm",
   "forces_text": "Divisions (3,000 total)",
-  "start_date": "1863-03-17",
-  "preservation": "III.3",
+  "strength": 3000,
+  "casualties_text": "200 total",
   "results_text": "Inconclusive",
-  "description": "Kelly's Ford was one of the early larger scale cavalry fights in Virginia that set the stage for Brandy Station and cavalry actions of the Gettysburg campaign. Twenty-one hundred troopers of Averell's cavalry division crossed the Rappahannock River to attack the Confederate cavalry. Fitzhugh Lee counterattacked with a brigade of about 800 men. The \"Gallant\" Pelham was killed. After achieving a localized success, Union forces withdrew in mid-afternoon.",
-  "state": "VA",
-  "significance": "C",
+  "dates": "March 17, 1863",
+  "result": "Inconclusive",
   "other_names": [
     "Kellysville"
   ],
-  "dates": "March 17, 1863",
-  "battle_name": "Kelly's Ford",
-  "principal_commanders": "Brig. Gen. William W. Averell [US]; Brig. Gen. Fitzhugh Lee [CS]",
+  "significance": "C",
+  "preservation": "III.3",
+  "state": "VA",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Lee",
+          "suffix": "",
+          "first_name": "Fitzhugh",
+          "rank": "Brigadier General",
+          "fullname": "Fitzhugh Lee",
+          "navy": false
+        }
+      ]
+    },
+    "Confederate": {
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Lee",
+          "suffix": "",
+          "first_name": "Fitzhugh",
+          "rank": "Brigadier General",
+          "fullname": "Fitzhugh Lee",
+          "navy": false
+        }
+      ]
+    },
+    "US": {
+      "commanders": [
+        {
+          "middle_name": "W.",
+          "last_name": "Averell",
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Brigadier General",
+          "fullname": "William W. Averell",
+          "navy": false
+        }
+      ]
+    }
+  },
+  "campaign": "Cavalry Operations along the Rappahannock [March 1863]",
+  "end_date": "1863-03-17",
+  "description": "Kelly's Ford was one of the early larger scale cavalry fights in Virginia that set the stage for Brandy Station and cavalry actions of the Gettysburg campaign. Twenty-one hundred troopers of Averell's cavalry division crossed the Rappahannock River to attack the Confederate cavalry. Fitzhugh Lee counterattacked with a brigade of about 800 men. The \"Gallant\" Pelham was killed. After achieving a localized success, Union forces withdrew in mid-afternoon.",
   "location": [
     {
       "state": "VA",
       "place": "Culpeper County"
     }
   ],
-  "belligerents": {
-    "Confederate": {
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "Fitzhugh",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Lee",
-          "fullname": "Fitzhugh Lee"
-        }
-      ]
-    },
-    "US": {
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "W.",
-          "last_name": "Averell",
-          "fullname": "William W. Averell"
-        }
-      ]
-    },
-    "CS": {
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "Fitzhugh",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Lee",
-          "fullname": "Fitzhugh Lee"
-        }
-      ]
-    }
-  },
-  "result": "Inconclusive",
-  "battle": "VA029",
-  "campaign": "Cavalry Operations along the Rappahannock [March 1863]",
-  "url": "http://www.nps.gov/hps/abpp/battles/va029.htm"
+  "battle_name": "Kelly's Ford",
+  "start_date": "1863-03-17",
+  "casualties": 200,
+  "principal_commanders": "Brig. Gen. William W. Averell [US]; Brig. Gen. Fitzhugh Lee [CS]"
 }

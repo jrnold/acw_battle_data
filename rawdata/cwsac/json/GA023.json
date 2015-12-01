@@ -1,117 +1,117 @@
 {
-  "end_date": "1864-10-05",
-  "casualties": 1505,
-  "casualties_text": "1,505 total (US 706; CS 799)",
+  "battle": "GA023",
+  "operation": false,
+  "cwsac_reference": "GA023",
   "forces": {
     "Confederate": {
       "casualties": 799,
+      "strength_min": 2000,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Samuel",
-          "suffix": "",
-          "navy": false,
           "middle_name": "G.",
           "last_name": "French",
-          "fullname": "Samuel G. French"
+          "suffix": "",
+          "first_name": "Samuel",
+          "rank": "Major General",
+          "fullname": "Samuel G. French",
+          "navy": false
         }
       ],
       "description": "one division (approx. 2,000 men)",
-      "strength_min": 2000,
       "strength_max": 2000
     },
     "US": {
       "casualties": 706,
+      "strength_min": 1944,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "M.",
           "last_name": "Corse",
-          "fullname": "John M. Corse"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Brigadier General",
+          "fullname": "John M. Corse",
+          "navy": false
         }
       ],
       "description": "One brigade (1,944 men)",
-      "strength_min": 1944,
       "strength_max": 1944
     }
   },
-  "cwsac_reference": "GA023",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ga023.htm",
   "forces_text": "One brigade (1,944 men) [US]; one division (approx. 2,000 men) [CS]",
-  "start_date": "1864-10-05",
-  "preservation": "I.3",
+  "casualties_text": "1,505 total (US 706; CS 799)",
   "results_text": "Union victory",
-  "description": "After the fall of Atlanta, Hood moved northward to threaten the Western & Atlantic Railroad, Sherman's supply line. He attacked a number of minor garrisons and damaged track during October 2-4. Sherman sent reinforcements-John M. Corse's brigade-to Allatoona just before the Rebels attacked there. Maj. Gen. Samuel G. French's Confederate division arrived near Allatoona at sunrise on the 5th. After demanding a surrender and receiving a negative reply, French attacked. The Union outer line survived a sustained two and a half hour attack, but then fell back and regrouped in an earthen \"Star\" fort of Allatoona Pass. French repeatedly attacked, but the fort held. The Rebels began to run out of ammunition, and reports of arriving Union reinforcements influenced them to move off and rejoin Hood's force.",
-  "state": "GA",
-  "significance": "B",
-  "other_names": null,
   "dates": "October 5, 1864",
-  "battle_name": "Allatoona",
-  "principal_commanders": "Brig. Gen. John M. Corse [US]; Maj. Gen. Samuel G. French [CS]",
-  "campaign": "Franklin-Nashville Campaign [September-December 1864]",
+  "result": "Union",
+  "other_names": null,
+  "significance": "B",
+  "preservation": "I.3",
+  "state": "GA",
   "belligerents": {
-    "Confederate": {
-      "casualties": 799,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Samuel",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "G.",
-          "last_name": "French",
-          "fullname": "Samuel G. French"
-        }
-      ],
-      "description": "one division (approx. 2,000 men)",
-      "strength_min": 2000,
-      "strength_max": 2000
-    },
-    "US": {
-      "casualties": 706,
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "M.",
-          "last_name": "Corse",
-          "fullname": "John M. Corse"
-        }
-      ],
-      "description": "One brigade (1,944 men)",
-      "strength_min": 1944,
-      "strength_max": 1944
-    },
     "CS": {
       "casualties": 799,
+      "strength_min": 2000,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Samuel",
-          "suffix": "",
-          "navy": false,
           "middle_name": "G.",
           "last_name": "French",
-          "fullname": "Samuel G. French"
+          "suffix": "",
+          "first_name": "Samuel",
+          "rank": "Major General",
+          "fullname": "Samuel G. French",
+          "navy": false
         }
       ],
       "description": "one division (approx. 2,000 men)",
-      "strength_min": 2000,
       "strength_max": 2000
+    },
+    "Confederate": {
+      "casualties": 799,
+      "strength_min": 2000,
+      "commanders": [
+        {
+          "middle_name": "G.",
+          "last_name": "French",
+          "suffix": "",
+          "first_name": "Samuel",
+          "rank": "Major General",
+          "fullname": "Samuel G. French",
+          "navy": false
+        }
+      ],
+      "description": "one division (approx. 2,000 men)",
+      "strength_max": 2000
+    },
+    "US": {
+      "casualties": 706,
+      "strength_min": 1944,
+      "commanders": [
+        {
+          "middle_name": "M.",
+          "last_name": "Corse",
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Brigadier General",
+          "fullname": "John M. Corse",
+          "navy": false
+        }
+      ],
+      "description": "One brigade (1,944 men)",
+      "strength_max": 1944
     }
   },
-  "result": "Union",
-  "battle": "GA023",
+  "campaign": "Franklin-Nashville Campaign [September-December 1864]",
+  "end_date": "1864-10-05",
+  "description": "After the fall of Atlanta, Hood moved northward to threaten the Western & Atlantic Railroad, Sherman's supply line. He attacked a number of minor garrisons and damaged track during October 2-4. Sherman sent reinforcements-John M. Corse's brigade-to Allatoona just before the Rebels attacked there. Maj. Gen. Samuel G. French's Confederate division arrived near Allatoona at sunrise on the 5th. After demanding a surrender and receiving a negative reply, French attacked. The Union outer line survived a sustained two and a half hour attack, but then fell back and regrouped in an earthen \"Star\" fort of Allatoona Pass. French repeatedly attacked, but the fort held. The Rebels began to run out of ammunition, and reports of arriving Union reinforcements influenced them to move off and rejoin Hood's force.",
   "location": [
     {
       "state": "GA",
       "place": "Bartow County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/ga023.htm"
+  "battle_name": "Allatoona",
+  "start_date": "1864-10-05",
+  "casualties": 1505,
+  "principal_commanders": "Brig. Gen. John M. Corse [US]; Maj. Gen. Samuel G. French [CS]"
 }

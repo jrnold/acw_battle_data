@@ -1,62 +1,59 @@
 {
-  "end_date": "1864-05-07",
-  "casualties": 29800,
-  "casualties_text": "29,800 total (US 18,400; CS 11,400)",
+  "battle": "VA046",
+  "operation": false,
+  "cwsac_reference": "VA046",
   "forces": {
     "Confederate": {
       "casualties": 11400,
+      "strength_min": 61025,
       "commanders": [
         {
-          "rank": "General",
-          "first_name": "Robert",
-          "suffix": "",
-          "navy": false,
           "middle_name": "E.",
           "last_name": "Lee",
-          "fullname": "Robert E. Lee"
+          "suffix": "",
+          "first_name": "Robert",
+          "rank": "General",
+          "fullname": "Robert E. Lee",
+          "navy": false
         }
       ],
       "description": "61,025",
-      "strength_min": 61025,
       "strength_max": 61025
     },
     "US": {
       "casualties": 18400,
+      "strength_min": 101895,
       "commanders": [
         {
-          "rank": "Lieutenant General",
-          "first_name": "Ulysses",
-          "suffix": "",
-          "navy": false,
           "middle_name": "S.",
           "last_name": "Grant",
-          "fullname": "Ulysses S. Grant"
+          "suffix": "",
+          "first_name": "Ulysses",
+          "rank": "Lieutenant General",
+          "fullname": "Ulysses S. Grant",
+          "navy": false
         },
         {
-          "rank": "Major General",
-          "first_name": "George",
-          "suffix": "",
-          "navy": false,
           "middle_name": "G.",
           "last_name": "Meade",
-          "fullname": "George G. Meade"
+          "suffix": "",
+          "first_name": "George",
+          "rank": "Major General",
+          "fullname": "George G. Meade",
+          "navy": false
         }
       ],
       "description": "101,895",
-      "strength_min": 101895,
       "strength_max": 101895
     }
   },
-  "strength": 162920,
-  "cwsac_reference": "VA046",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va046.htm",
   "forces_text": "162,920 total (US 101,895; CS 61,025)",
-  "start_date": "1864-05-05",
-  "preservation": "I.2",
+  "strength": 162920,
+  "casualties_text": "29,800 total (US 18,400; CS 11,400)",
   "results_text": "Inconclusive (Grant continued his offensive.)",
-  "description": "The opening battle of Grant's sustained offensive against the Confederate Army of Northern Virginia, known as the Overland Campaign, was fought at the Wilderness, May 5-7. On the morning of May 5, 1864, the Union V Corps attacked Ewell's Corps on the Orange Turnpike, while A.P. Hill's corps during the afternoon encountered Getty's Division (VI Corps) and Hancock's II Corps on the Plank Road. Fighting was fierce but inconclusive as both sides attempted to maneuver in the dense woods. Darkness halted the fighting, and both sides rushed forward reinforcements. At dawn on May 6, Hancock attacked along the Plank Road, driving Hill's Corps back in confusion. Longstreet's Corps arrived in time to prevent the collapse of the Confederate right flank. At noon, a devastating Confederate flank attack in Hamilton's Thicket sputtered out when Lt. Gen. James Longstreet was wounded by his own men. The IX Corps (Burnside) moved against the Confederate center, but was repulsed. Union generals James S. Wadsworth and Alexander Hays were killed. Confederate generals John M. Jones, Micah Jenkins, and Leroy A. Stafford were killed. The battle was a tactical draw. Grant, however, did not retreat as had the other Union generals before him. On May 7, the Federals advanced by the left flank toward the crossroads of Spotsylvania Courthouse.",
-  "state": "VA",
-  "significance": "A",
+  "dates": "May 5-7, 1864",
+  "result": "Inconclusive",
   "other_names": [
     "Combats at Parker's Store",
     "Craig's Meeting House",
@@ -64,79 +61,82 @@
     "Brock Road",
     "the Furnaces"
   ],
-  "dates": "May 5-7, 1864",
-  "battle_name": "Wilderness",
-  "principal_commanders": "Lt. Gen. Ulysses S. Grant and Maj. Gen. George G. Meade [US]; Gen. Robert E. Lee [CS]",
+  "significance": "A",
+  "preservation": "I.2",
+  "state": "VA",
+  "belligerents": {
+    "CS": {
+      "casualties": 11400,
+      "strength_min": 61025,
+      "commanders": [
+        {
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "suffix": "",
+          "first_name": "Robert",
+          "rank": "General",
+          "fullname": "Robert E. Lee",
+          "navy": false
+        }
+      ],
+      "description": "61,025",
+      "strength_max": 61025
+    },
+    "Confederate": {
+      "casualties": 11400,
+      "strength_min": 61025,
+      "commanders": [
+        {
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "suffix": "",
+          "first_name": "Robert",
+          "rank": "General",
+          "fullname": "Robert E. Lee",
+          "navy": false
+        }
+      ],
+      "description": "61,025",
+      "strength_max": 61025
+    },
+    "US": {
+      "casualties": 18400,
+      "strength_min": 101895,
+      "commanders": [
+        {
+          "middle_name": "S.",
+          "last_name": "Grant",
+          "suffix": "",
+          "first_name": "Ulysses",
+          "rank": "Lieutenant General",
+          "fullname": "Ulysses S. Grant",
+          "navy": false
+        },
+        {
+          "middle_name": "G.",
+          "last_name": "Meade",
+          "suffix": "",
+          "first_name": "George",
+          "rank": "Major General",
+          "fullname": "George G. Meade",
+          "navy": false
+        }
+      ],
+      "description": "101,895",
+      "strength_max": 101895
+    }
+  },
+  "campaign": "Grant's Overland Campaign [May-June 1864]",
+  "end_date": "1864-05-07",
+  "description": "The opening battle of Grant's sustained offensive against the Confederate Army of Northern Virginia, known as the Overland Campaign, was fought at the Wilderness, May 5-7. On the morning of May 5, 1864, the Union V Corps attacked Ewell's Corps on the Orange Turnpike, while A.P. Hill's corps during the afternoon encountered Getty's Division (VI Corps) and Hancock's II Corps on the Plank Road. Fighting was fierce but inconclusive as both sides attempted to maneuver in the dense woods. Darkness halted the fighting, and both sides rushed forward reinforcements. At dawn on May 6, Hancock attacked along the Plank Road, driving Hill's Corps back in confusion. Longstreet's Corps arrived in time to prevent the collapse of the Confederate right flank. At noon, a devastating Confederate flank attack in Hamilton's Thicket sputtered out when Lt. Gen. James Longstreet was wounded by his own men. The IX Corps (Burnside) moved against the Confederate center, but was repulsed. Union generals James S. Wadsworth and Alexander Hays were killed. Confederate generals John M. Jones, Micah Jenkins, and Leroy A. Stafford were killed. The battle was a tactical draw. Grant, however, did not retreat as had the other Union generals before him. On May 7, the Federals advanced by the left flank toward the crossroads of Spotsylvania Courthouse.",
   "location": [
     {
       "state": "VA",
       "place": "Spotsylvania County"
     }
   ],
-  "belligerents": {
-    "Confederate": {
-      "casualties": 11400,
-      "commanders": [
-        {
-          "rank": "General",
-          "first_name": "Robert",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "E.",
-          "last_name": "Lee",
-          "fullname": "Robert E. Lee"
-        }
-      ],
-      "description": "61,025",
-      "strength_min": 61025,
-      "strength_max": 61025
-    },
-    "US": {
-      "casualties": 18400,
-      "commanders": [
-        {
-          "rank": "Lieutenant General",
-          "first_name": "Ulysses",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "S.",
-          "last_name": "Grant",
-          "fullname": "Ulysses S. Grant"
-        },
-        {
-          "rank": "Major General",
-          "first_name": "George",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "G.",
-          "last_name": "Meade",
-          "fullname": "George G. Meade"
-        }
-      ],
-      "description": "101,895",
-      "strength_min": 101895,
-      "strength_max": 101895
-    },
-    "CS": {
-      "casualties": 11400,
-      "commanders": [
-        {
-          "rank": "General",
-          "first_name": "Robert",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "E.",
-          "last_name": "Lee",
-          "fullname": "Robert E. Lee"
-        }
-      ],
-      "description": "61,025",
-      "strength_min": 61025,
-      "strength_max": 61025
-    }
-  },
-  "result": "Inconclusive",
-  "battle": "VA046",
-  "campaign": "Grant's Overland Campaign [May-June 1864]",
-  "url": "http://www.nps.gov/hps/abpp/battles/va046.htm"
+  "battle_name": "Wilderness",
+  "start_date": "1864-05-05",
+  "casualties": 29800,
+  "principal_commanders": "Lt. Gen. Ulysses S. Grant and Maj. Gen. George G. Meade [US]; Gen. Robert E. Lee [CS]"
 }

@@ -1,127 +1,127 @@
 {
-  "end_date": "1862-09-15",
-  "casualties": 12922,
-  "casualties_text": "12,922 total (US 44k/173w/12,419 captured; CS 39k/247w)",
+  "battle": "WV010",
+  "operation": false,
+  "cwsac_reference": "WV010",
   "forces": {
     "Confederate": {
+      "killed": 39,
+      "missing": 0,
       "casualties": 286,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Thomas",
-          "suffix": "",
-          "navy": false,
           "middle_name": "J.",
           "last_name": "Jackson",
-          "fullname": "Thomas J. Jackson"
+          "suffix": "",
+          "first_name": "Thomas",
+          "rank": "Major General",
+          "fullname": "Thomas J. Jackson",
+          "navy": false
         }
       ],
-      "missing": 0,
-      "killed": 39,
-      "corps": 1,
+      "wounded": 247,
       "captured": 0,
-      "wounded": 247
+      "corps": 1
     },
     "US": {
+      "killed": 44,
+      "missing": 0,
       "casualties": 12636,
       "commanders": [
         {
-          "rank": "Colonel",
-          "first_name": "Dixon",
-          "suffix": "",
-          "navy": false,
           "middle_name": "S.",
           "last_name": "Miles",
-          "fullname": "Dixon S. Miles"
+          "suffix": "",
+          "first_name": "Dixon",
+          "rank": "Colonel",
+          "fullname": "Dixon S. Miles",
+          "navy": false
         }
       ],
-      "missing": 0,
-      "killed": 44,
-      "corps": 1,
+      "wounded": 173,
       "captured": 12419,
-      "wounded": 173
+      "corps": 1
     }
   },
-  "cwsac_reference": "WV010",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/wv010.htm",
   "forces_text": "Corps",
-  "start_date": "1862-09-12",
-  "preservation": "I.3",
+  "casualties_text": "12,922 total (US 44k/173w/12,419 captured; CS 39k/247w)",
   "results_text": "Confederate victory",
-  "description": "Learning that the garrison at Harpers Ferry had not retreated after his incursion into Maryland, Lee decided to surround the force and capture it. He divided his army into four columns, three of which converged upon and invested Harpers Ferry. On September 15, after Confederate artillery was placed on the heights overlooking the town, Union commander Col. Miles surrendered the garrison of more than 12,000. Miles was mortally wounded by a last salvo fired from a battery on Loudoun Heights. Jackson took possession of Harpers Ferry, then led most of his soldiers to join with Lee at Sharpsburg. After paroling the prisoners at Harpers Ferry, A.P. Hill's division arrived in time to save Lee's army from near-defeat at Sharpsburg.",
-  "state": "WV",
-  "significance": "B",
-  "other_names": null,
   "dates": "September 12-15, 1862",
-  "battle_name": "Harpers Ferry",
-  "principal_commanders": "Col. Dixon S. Miles [US]; Maj. Gen. Thomas J. Jackson [CS]",
-  "campaign": "Maryland Campaign [September 1862]",
+  "result": "Confederate",
+  "other_names": null,
+  "significance": "B",
+  "preservation": "I.3",
+  "state": "WV",
   "belligerents": {
-    "Confederate": {
+    "CS": {
+      "killed": 39,
+      "missing": 0,
       "casualties": 286,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Thomas",
-          "suffix": "",
-          "navy": false,
           "middle_name": "J.",
           "last_name": "Jackson",
-          "fullname": "Thomas J. Jackson"
+          "suffix": "",
+          "first_name": "Thomas",
+          "rank": "Major General",
+          "fullname": "Thomas J. Jackson",
+          "navy": false
         }
       ],
-      "missing": 0,
-      "killed": 39,
-      "corps": 1,
+      "wounded": 247,
       "captured": 0,
-      "wounded": 247
+      "corps": 1
+    },
+    "Confederate": {
+      "killed": 39,
+      "missing": 0,
+      "casualties": 286,
+      "commanders": [
+        {
+          "middle_name": "J.",
+          "last_name": "Jackson",
+          "suffix": "",
+          "first_name": "Thomas",
+          "rank": "Major General",
+          "fullname": "Thomas J. Jackson",
+          "navy": false
+        }
+      ],
+      "wounded": 247,
+      "captured": 0,
+      "corps": 1
     },
     "US": {
+      "killed": 44,
+      "missing": 0,
       "casualties": 12636,
       "commanders": [
         {
-          "rank": "Colonel",
-          "first_name": "Dixon",
-          "suffix": "",
-          "navy": false,
           "middle_name": "S.",
           "last_name": "Miles",
-          "fullname": "Dixon S. Miles"
-        }
-      ],
-      "missing": 0,
-      "killed": 44,
-      "corps": 1,
-      "captured": 12419,
-      "wounded": 173
-    },
-    "CS": {
-      "casualties": 286,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Thomas",
           "suffix": "",
-          "navy": false,
-          "middle_name": "J.",
-          "last_name": "Jackson",
-          "fullname": "Thomas J. Jackson"
+          "first_name": "Dixon",
+          "rank": "Colonel",
+          "fullname": "Dixon S. Miles",
+          "navy": false
         }
       ],
-      "missing": 0,
-      "killed": 39,
-      "corps": 1,
-      "captured": 0,
-      "wounded": 247
+      "wounded": 173,
+      "captured": 12419,
+      "corps": 1
     }
   },
-  "result": "Confederate",
-  "battle": "WV010",
+  "campaign": "Maryland Campaign [September 1862]",
+  "end_date": "1862-09-15",
+  "description": "Learning that the garrison at Harpers Ferry had not retreated after his incursion into Maryland, Lee decided to surround the force and capture it. He divided his army into four columns, three of which converged upon and invested Harpers Ferry. On September 15, after Confederate artillery was placed on the heights overlooking the town, Union commander Col. Miles surrendered the garrison of more than 12,000. Miles was mortally wounded by a last salvo fired from a battery on Loudoun Heights. Jackson took possession of Harpers Ferry, then led most of his soldiers to join with Lee at Sharpsburg. After paroling the prisoners at Harpers Ferry, A.P. Hill's division arrived in time to save Lee's army from near-defeat at Sharpsburg.",
   "location": [
     {
       "state": "WV",
       "place": "Jefferson County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/wv010.htm"
+  "battle_name": "Harpers Ferry",
+  "start_date": "1862-09-12",
+  "casualties": 12922,
+  "principal_commanders": "Col. Dixon S. Miles [US]; Maj. Gen. Thomas J. Jackson [CS]"
 }

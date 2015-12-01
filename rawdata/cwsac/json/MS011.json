@@ -1,19 +1,19 @@
 {
-  "end_date": "1863-07-04",
-  "casualties": 19233,
-  "casualties_text": "19,233 total (US 10,142; CS 9,091)",
+  "battle": "MS011",
+  "operation": false,
+  "cwsac_reference": "MS011",
   "forces": {
     "Confederate": {
       "casualties": 9091,
       "commanders": [
         {
-          "rank": "Lieutenant General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "C.",
           "last_name": "Pemberton",
-          "fullname": "John C. Pemberton"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Lieutenant General",
+          "fullname": "John C. Pemberton",
+          "navy": false
         }
       ],
       "description": "Army of Vicksburg",
@@ -23,90 +23,90 @@
       "casualties": 10142,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Ulysses",
-          "suffix": "",
-          "navy": false,
           "middle_name": "S.",
           "last_name": "Grant",
-          "fullname": "Ulysses S. Grant"
+          "suffix": "",
+          "first_name": "Ulysses",
+          "rank": "Major General",
+          "fullname": "Ulysses S. Grant",
+          "navy": false
         }
       ],
       "description": "Army of the Tennessee",
       "armies": 1
     }
   },
-  "cwsac_reference": "MS011",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ms011.htm",
   "forces_text": "Army of the Tennessee [US]; Army of Vicksburg [CS]",
-  "start_date": "1863-05-18",
-  "preservation": "I.2",
+  "casualties_text": "19,233 total (US 10,142; CS 9,091)",
   "results_text": "Union victory",
-  "description": "In May and June of 1863, Maj. Gen. Ulysses S. Grant's armies converged on Vicksburg, investing the city and entrapping a Confederate army under Lt. Gen. John Pemberton. On July 4, Vicksburg surrendered after prolonged siege operations. This was the culmination of one of the most brilliant military campaigns of the war. With the loss of Pemberton's army and this vital stronghold on the Mississippi, the Confederacy was effectively split in half. Grant's successes in the West boosted his reputation, leading ultimately to his appointment as General-in-Chief of the Union armies.",
-  "state": "MS",
-  "significance": "A",
-  "other_names": null,
   "dates": "May 18-July 4, 1863",
-  "battle_name": "Vicksburg",
-  "principal_commanders": "Maj. Gen. Ulysses S. Grant [US]; Lt. Gen. John C. Pemberton [CS]",
-  "campaign": "Grant's Operations Against Vicksburg [March-July 1863]",
+  "result": "Union",
+  "other_names": null,
+  "significance": "A",
+  "preservation": "I.2",
+  "state": "MS",
   "belligerents": {
-    "Confederate": {
-      "casualties": 9091,
-      "commanders": [
-        {
-          "rank": "Lieutenant General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "C.",
-          "last_name": "Pemberton",
-          "fullname": "John C. Pemberton"
-        }
-      ],
-      "description": "Army of Vicksburg",
-      "armies": 1
-    },
-    "US": {
-      "casualties": 10142,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Ulysses",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "S.",
-          "last_name": "Grant",
-          "fullname": "Ulysses S. Grant"
-        }
-      ],
-      "description": "Army of the Tennessee",
-      "armies": 1
-    },
     "CS": {
       "casualties": 9091,
       "commanders": [
         {
-          "rank": "Lieutenant General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "C.",
           "last_name": "Pemberton",
-          "fullname": "John C. Pemberton"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Lieutenant General",
+          "fullname": "John C. Pemberton",
+          "navy": false
         }
       ],
       "description": "Army of Vicksburg",
       "armies": 1
+    },
+    "Confederate": {
+      "casualties": 9091,
+      "commanders": [
+        {
+          "middle_name": "C.",
+          "last_name": "Pemberton",
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Lieutenant General",
+          "fullname": "John C. Pemberton",
+          "navy": false
+        }
+      ],
+      "description": "Army of Vicksburg",
+      "armies": 1
+    },
+    "US": {
+      "casualties": 10142,
+      "commanders": [
+        {
+          "middle_name": "S.",
+          "last_name": "Grant",
+          "suffix": "",
+          "first_name": "Ulysses",
+          "rank": "Major General",
+          "fullname": "Ulysses S. Grant",
+          "navy": false
+        }
+      ],
+      "description": "Army of the Tennessee",
+      "armies": 1
     }
   },
-  "result": "Union",
-  "battle": "MS011",
+  "campaign": "Grant's Operations Against Vicksburg [March-July 1863]",
+  "end_date": "1863-07-04",
+  "description": "In May and June of 1863, Maj. Gen. Ulysses S. Grant's armies converged on Vicksburg, investing the city and entrapping a Confederate army under Lt. Gen. John Pemberton. On July 4, Vicksburg surrendered after prolonged siege operations. This was the culmination of one of the most brilliant military campaigns of the war. With the loss of Pemberton's army and this vital stronghold on the Mississippi, the Confederacy was effectively split in half. Grant's successes in the West boosted his reputation, leading ultimately to his appointment as General-in-Chief of the Union armies.",
   "location": [
     {
       "state": "MS",
       "place": "Warren County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/ms011.htm"
+  "battle_name": "Vicksburg",
+  "start_date": "1863-05-18",
+  "casualties": 19233,
+  "principal_commanders": "Maj. Gen. Ulysses S. Grant [US]; Lt. Gen. John C. Pemberton [CS]"
 }

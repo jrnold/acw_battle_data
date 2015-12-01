@@ -1,18 +1,18 @@
 {
-  "end_date": "1863-06-17",
-  "casualties": 250,
-  "casualties_text": "250 total",
+  "battle": "VA036",
+  "operation": false,
+  "cwsac_reference": "VA036",
   "forces": {
     "Confederate": {
       "commanders": [
         {
-          "rank": "Colonel",
-          "first_name": "Thomas",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Munford",
-          "fullname": "Thomas Munford"
+          "suffix": "",
+          "first_name": "Thomas",
+          "rank": "Colonel",
+          "fullname": "Thomas Munford",
+          "navy": false
         }
       ],
       "brigades": 1
@@ -20,83 +20,83 @@
     "US": {
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "H.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Judson",
           "last_name": "Kilpatrick",
-          "fullname": "H. Judson Kilpatrick"
+          "suffix": "",
+          "first_name": "H.",
+          "rank": "Brigadier General",
+          "fullname": "H. Judson Kilpatrick",
+          "navy": false
         }
       ],
       "brigades": 1
     }
   },
-  "cwsac_reference": "VA036",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va036.htm",
   "forces_text": "Brigades",
-  "start_date": "1863-06-17",
-  "preservation": "III.3",
+  "casualties_text": "250 total",
   "results_text": "Inconclusive",
-  "description": "Stuart's cavalry screened the Confederate infantry as it marched north behind the sheltering Blue Ridge. The pursuing Federals of Kilpatrick's brigade, in the advance of Gregg's division, encountered Munford's troopers near the village of Aldie, resulting in four hours of stubborn fighting. Both sides made mounted assaults by regiments and squadrons. Kilpatrick was reinforced in the afternoon, and Munford withdrew toward Middleburg.",
-  "state": "VA",
-  "significance": "C",
-  "other_names": null,
   "dates": "June 17, 1863",
-  "battle_name": "Aldie",
-  "principal_commanders": "Brig. Gen. H. Judson Kilpatrick [US]; Col. Thomas Munford [CS]",
-  "campaign": "Gettysburg Campaign [June-July 1863]",
+  "result": "Inconclusive",
+  "other_names": null,
+  "significance": "C",
+  "preservation": "III.3",
+  "state": "VA",
   "belligerents": {
-    "Confederate": {
-      "commanders": [
-        {
-          "rank": "Colonel",
-          "first_name": "Thomas",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Munford",
-          "fullname": "Thomas Munford"
-        }
-      ],
-      "brigades": 1
-    },
-    "US": {
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "H.",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "Judson",
-          "last_name": "Kilpatrick",
-          "fullname": "H. Judson Kilpatrick"
-        }
-      ],
-      "brigades": 1
-    },
     "CS": {
       "commanders": [
         {
-          "rank": "Colonel",
-          "first_name": "Thomas",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Munford",
-          "fullname": "Thomas Munford"
+          "suffix": "",
+          "first_name": "Thomas",
+          "rank": "Colonel",
+          "fullname": "Thomas Munford",
+          "navy": false
+        }
+      ],
+      "brigades": 1
+    },
+    "Confederate": {
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Munford",
+          "suffix": "",
+          "first_name": "Thomas",
+          "rank": "Colonel",
+          "fullname": "Thomas Munford",
+          "navy": false
+        }
+      ],
+      "brigades": 1
+    },
+    "US": {
+      "commanders": [
+        {
+          "middle_name": "Judson",
+          "last_name": "Kilpatrick",
+          "suffix": "",
+          "first_name": "H.",
+          "rank": "Brigadier General",
+          "fullname": "H. Judson Kilpatrick",
+          "navy": false
         }
       ],
       "brigades": 1
     }
   },
-  "result": "Inconclusive",
-  "battle": "VA036",
+  "campaign": "Gettysburg Campaign [June-July 1863]",
+  "end_date": "1863-06-17",
+  "description": "Stuart's cavalry screened the Confederate infantry as it marched north behind the sheltering Blue Ridge. The pursuing Federals of Kilpatrick's brigade, in the advance of Gregg's division, encountered Munford's troopers near the village of Aldie, resulting in four hours of stubborn fighting. Both sides made mounted assaults by regiments and squadrons. Kilpatrick was reinforced in the afternoon, and Munford withdrew toward Middleburg.",
   "location": [
     {
       "state": "VA",
       "place": "Loudoun County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/va036.htm"
+  "battle_name": "Aldie",
+  "start_date": "1863-06-17",
+  "casualties": 250,
+  "principal_commanders": "Brig. Gen. H. Judson Kilpatrick [US]; Col. Thomas Munford [CS]"
 }

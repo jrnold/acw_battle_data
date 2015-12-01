@@ -1,119 +1,119 @@
 {
-  "end_date": "1863-02-03",
-  "casualties": 796,
-  "casualties_text": "796 total (US 126; CS 670)",
+  "battle": "TN012",
+  "operation": false,
+  "cwsac_reference": "TN012",
   "forces": {
     "Confederate": {
       "casualties": 670,
+      "strength_min": 2500,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Joseph",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Wheeler",
-          "fullname": "Joseph Wheeler"
+          "suffix": "",
+          "first_name": "Joseph",
+          "rank": "Major General",
+          "fullname": "Joseph Wheeler",
+          "navy": false
         }
       ],
       "description": "cavalry division (approx. 2,500)",
-      "strength_min": 2500,
       "strength_max": 2500
     },
     "US": {
       "casualties": 126,
+      "strength_min": 800,
       "commanders": [
         {
-          "rank": "Colonel",
-          "first_name": "A.C.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Harding",
-          "fullname": "A.C. Harding"
+          "suffix": "",
+          "first_name": "A.C.",
+          "rank": "Colonel",
+          "fullname": "A.C. Harding",
+          "navy": false
         }
       ],
       "description": "Detachments of two regiments: 83rd Illinois Infantry and 5th Iowa Cavalry Regiments and some artillery (approx. 800)",
-      "strength_min": 800,
       "strength_max": 800
     }
   },
-  "cwsac_reference": "TN012",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/tn012.htm",
   "forces_text": "Detachments of two regiments: 83rd Illinois Infantry and 5th Iowa Cavalry Regiments and some artillery (approx. 800) [US]; cavalry division (approx. 2,500) [CS]",
-  "start_date": "1863-02-03",
-  "preservation": "IV.2",
+  "casualties_text": "796 total (US 126; CS 670)",
   "results_text": "Union victory",
-  "description": "Under orders, in late January 1863, Confederate Maj. Gen. Joseph Wheeler, commanding two brigades of cavalry, had taken position on the Cumberland River at Palmyra to disrupt Union shipping. The Federals, however, apprised of Wheeler's intent, refrained from sending any boats up or downriver. Unable to disrupt Union shipping and realizing that he and his men could not remain in the area indefinitely, Wheeler decided to attack the garrison at Dover, Tennessee, which informers reported was small and could easily be overwhelmed. The Rebels set out for Dover and between 1:00 and 2:00 pm, on February 3, began an attack. The 800-man garrison, under the command of Col. A.C. Harding, was in and about the town of Dover where they had chosen camps that commanded the area and had dug rifle pits and battery emplacements. The Confederates mounted a determined attack using artillery fire with great skill, but were repulsed with heavy losses. By dusk, both sides were mostly without ammunition. The Confederates surveyed the Union defenses and decided that the enemy was too well-placed to allow capture. Wheeler's force retired. The Federals did send out a pursuit but to no avail. The Confederates had failed to disrupt shipping on the Cumberland River and capture the garrison at Dover. This Confederate failure left the Union in control in Middle Tennessee and a bitter Brig. Gen. Nathan Bedford Forrest denounced Wheeler, a favorite of Gen. Braxton Bragg, saying he would not again serve under him.",
-  "state": "TN",
-  "significance": "D",
+  "dates": "February 3, 1863",
+  "result": "Union",
   "other_names": [
     "Fort Donelson"
   ],
-  "dates": "February 3, 1863",
-  "battle_name": "Dover",
-  "principal_commanders": "Col. A.C. Harding [US]; Maj. Gen. Joseph Wheeler [CS]",
-  "campaign": "Middle Tennessee Operations [February-April 1863]",
+  "significance": "D",
+  "preservation": "IV.2",
+  "state": "TN",
   "belligerents": {
-    "Confederate": {
+    "CS": {
       "casualties": 670,
+      "strength_min": 2500,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Joseph",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Wheeler",
-          "fullname": "Joseph Wheeler"
+          "suffix": "",
+          "first_name": "Joseph",
+          "rank": "Major General",
+          "fullname": "Joseph Wheeler",
+          "navy": false
         }
       ],
       "description": "cavalry division (approx. 2,500)",
+      "strength_max": 2500
+    },
+    "Confederate": {
+      "casualties": 670,
       "strength_min": 2500,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Wheeler",
+          "suffix": "",
+          "first_name": "Joseph",
+          "rank": "Major General",
+          "fullname": "Joseph Wheeler",
+          "navy": false
+        }
+      ],
+      "description": "cavalry division (approx. 2,500)",
       "strength_max": 2500
     },
     "US": {
       "casualties": 126,
+      "strength_min": 800,
       "commanders": [
         {
-          "rank": "Colonel",
-          "first_name": "A.C.",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Harding",
-          "fullname": "A.C. Harding"
+          "suffix": "",
+          "first_name": "A.C.",
+          "rank": "Colonel",
+          "fullname": "A.C. Harding",
+          "navy": false
         }
       ],
       "description": "Detachments of two regiments: 83rd Illinois Infantry and 5th Iowa Cavalry Regiments and some artillery (approx. 800)",
-      "strength_min": 800,
       "strength_max": 800
-    },
-    "CS": {
-      "casualties": 670,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Joseph",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Wheeler",
-          "fullname": "Joseph Wheeler"
-        }
-      ],
-      "description": "cavalry division (approx. 2,500)",
-      "strength_min": 2500,
-      "strength_max": 2500
     }
   },
-  "result": "Union",
-  "battle": "TN012",
+  "campaign": "Middle Tennessee Operations [February-April 1863]",
+  "end_date": "1863-02-03",
+  "description": "Under orders, in late January 1863, Confederate Maj. Gen. Joseph Wheeler, commanding two brigades of cavalry, had taken position on the Cumberland River at Palmyra to disrupt Union shipping. The Federals, however, apprised of Wheeler's intent, refrained from sending any boats up or downriver. Unable to disrupt Union shipping and realizing that he and his men could not remain in the area indefinitely, Wheeler decided to attack the garrison at Dover, Tennessee, which informers reported was small and could easily be overwhelmed. The Rebels set out for Dover and between 1:00 and 2:00 pm, on February 3, began an attack. The 800-man garrison, under the command of Col. A.C. Harding, was in and about the town of Dover where they had chosen camps that commanded the area and had dug rifle pits and battery emplacements. The Confederates mounted a determined attack using artillery fire with great skill, but were repulsed with heavy losses. By dusk, both sides were mostly without ammunition. The Confederates surveyed the Union defenses and decided that the enemy was too well-placed to allow capture. Wheeler's force retired. The Federals did send out a pursuit but to no avail. The Confederates had failed to disrupt shipping on the Cumberland River and capture the garrison at Dover. This Confederate failure left the Union in control in Middle Tennessee and a bitter Brig. Gen. Nathan Bedford Forrest denounced Wheeler, a favorite of Gen. Braxton Bragg, saying he would not again serve under him.",
   "location": [
     {
       "state": "TN",
       "place": "Stewart County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/tn012.htm"
+  "battle_name": "Dover",
+  "start_date": "1863-02-03",
+  "casualties": 796,
+  "principal_commanders": "Col. A.C. Harding [US]; Maj. Gen. Joseph Wheeler [CS]"
 }

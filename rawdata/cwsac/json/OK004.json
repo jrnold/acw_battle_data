@@ -1,19 +1,19 @@
 {
-  "end_date": "1862-10-22",
-  "casualties": 164,
-  "casualties_text": "164 total (US 14; CS 150)",
+  "battle": "OK004",
+  "operation": false,
+  "cwsac_reference": "OK004",
   "forces": {
     "Confederate": {
       "casualties": 150,
       "commanders": [
         {
-          "rank": "Colonel",
-          "first_name": "Douglas",
-          "suffix": "",
-          "navy": false,
           "middle_name": "H.",
           "last_name": "Cooper",
-          "fullname": "Douglas H. Cooper"
+          "suffix": "",
+          "first_name": "Douglas",
+          "rank": "Colonel",
+          "fullname": "Douglas H. Cooper",
+          "navy": false
         }
       ],
       "brigades": 1,
@@ -21,50 +21,62 @@
     },
     "US": {
       "casualties": 14,
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
           "middle_name": "G.",
           "last_name": "Blunt",
-          "fullname": "James G. Blunt"
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Brigadier General",
+          "fullname": "James G. Blunt",
+          "navy": false
         }
       ],
-      "divisions": 1,
       "description": "1st Division, Army of the Frontier"
     }
   },
-  "cwsac_reference": "OK004",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ok004.htm",
   "forces_text": "1st Division, Army of the Frontier [US]; 1st Brigade [CS]",
-  "start_date": "1862-10-22",
-  "preservation": "III.4",
+  "casualties_text": "164 total (US 14; CS 150)",
   "results_text": "Union victory",
-  "description": "Brig. Gen. James G. Blunt and his troops attacked Col. Douglas H. Cooper and his Confederate command on Beatties Prairie near Old Fort Wayne at 7:00 am on October 22, 1862. The Confederates put up stiff resistance for a half hour, but overwhelming numbers forced them to retire from the field in haste, leaving artillery and equipage behind. This was a setback in the 1862 Confederate offensive that extended from the tidewater in the east to the plains of the Indian Territory of the west.",
-  "state": "OK",
-  "significance": "D",
+  "dates": "October 22, 1862",
+  "result": "Union",
   "other_names": [
     "Beatties Prairie",
     "Beaty's Prairie"
   ],
-  "dates": "October 22, 1862",
-  "battle_name": "Old Fort Wayne",
-  "principal_commanders": "Brig. Gen. James G. Blunt [US]; Col. Douglas H. Cooper [CS]",
-  "campaign": "Operations North of Boston Mountains [August-November 1862]",
+  "significance": "D",
+  "preservation": "III.4",
+  "state": "OK",
   "belligerents": {
+    "CS": {
+      "casualties": 150,
+      "commanders": [
+        {
+          "middle_name": "H.",
+          "last_name": "Cooper",
+          "suffix": "",
+          "first_name": "Douglas",
+          "rank": "Colonel",
+          "fullname": "Douglas H. Cooper",
+          "navy": false
+        }
+      ],
+      "brigades": 1,
+      "description": "1st Brigade"
+    },
     "Confederate": {
       "casualties": 150,
       "commanders": [
         {
-          "rank": "Colonel",
-          "first_name": "Douglas",
-          "suffix": "",
-          "navy": false,
           "middle_name": "H.",
           "last_name": "Cooper",
-          "fullname": "Douglas H. Cooper"
+          "suffix": "",
+          "first_name": "Douglas",
+          "rank": "Colonel",
+          "fullname": "Douglas H. Cooper",
+          "navy": false
         }
       ],
       "brigades": 1,
@@ -72,44 +84,32 @@
     },
     "US": {
       "casualties": 14,
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
           "middle_name": "G.",
           "last_name": "Blunt",
-          "fullname": "James G. Blunt"
-        }
-      ],
-      "divisions": 1,
-      "description": "1st Division, Army of the Frontier"
-    },
-    "CS": {
-      "casualties": 150,
-      "commanders": [
-        {
-          "rank": "Colonel",
-          "first_name": "Douglas",
           "suffix": "",
-          "navy": false,
-          "middle_name": "H.",
-          "last_name": "Cooper",
-          "fullname": "Douglas H. Cooper"
+          "first_name": "James",
+          "rank": "Brigadier General",
+          "fullname": "James G. Blunt",
+          "navy": false
         }
       ],
-      "brigades": 1,
-      "description": "1st Brigade"
+      "description": "1st Division, Army of the Frontier"
     }
   },
-  "result": "Union",
-  "battle": "OK004",
+  "campaign": "Operations North of Boston Mountains [August-November 1862]",
+  "end_date": "1862-10-22",
+  "description": "Brig. Gen. James G. Blunt and his troops attacked Col. Douglas H. Cooper and his Confederate command on Beatties Prairie near Old Fort Wayne at 7:00 am on October 22, 1862. The Confederates put up stiff resistance for a half hour, but overwhelming numbers forced them to retire from the field in haste, leaving artillery and equipage behind. This was a setback in the 1862 Confederate offensive that extended from the tidewater in the east to the plains of the Indian Territory of the west.",
   "location": [
     {
       "state": "OK",
       "place": "Delaware County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/ok004.htm"
+  "battle_name": "Old Fort Wayne",
+  "start_date": "1862-10-22",
+  "casualties": 164,
+  "principal_commanders": "Brig. Gen. James G. Blunt [US]; Col. Douglas H. Cooper [CS]"
 }

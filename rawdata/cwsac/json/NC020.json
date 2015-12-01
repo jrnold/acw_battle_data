@@ -1,132 +1,132 @@
 {
-  "end_date": "1865-03-21",
-  "casualties": 4738,
-  "casualties_text": "4,738 total (US 1,646; CS 3,092)",
+  "battle": "NC020",
+  "operation": false,
+  "cwsac_reference": "NC020",
   "forces": {
     "Confederate": {
       "casualties": 3092,
       "commanders": [
         {
-          "rank": "General",
-          "first_name": "Joseph",
-          "suffix": "",
-          "navy": false,
           "middle_name": "E.",
           "last_name": "Johnston",
-          "fullname": "Joseph E. Johnston"
+          "suffix": "",
+          "first_name": "Joseph",
+          "rank": "General",
+          "fullname": "Joseph E. Johnston",
+          "navy": false
         }
       ],
       "description": "Johnston's Army",
       "armies": 1
     },
     "US": {
-      "corps": 2,
+      "casualties": 1646,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
           "middle_name": "T.",
           "last_name": "Sherman",
-          "fullname": "William T. Sherman"
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Major General",
+          "fullname": "William T. Sherman",
+          "navy": false
         },
         {
-          "rank": "Major General",
-          "first_name": "Henry",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Slocum",
-          "fullname": "Henry Slocum"
+          "suffix": "",
+          "first_name": "Henry",
+          "rank": "Major General",
+          "fullname": "Henry Slocum",
+          "navy": false
         }
       ],
       "description": "Sherman's Right Wing (XX and XIV Corps)",
-      "casualties": 1646
+      "corps": 2
     }
   },
-  "cwsac_reference": "NC020",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/nc020.htm",
   "forces_text": "Sherman's Right Wing (XX and XIV Corps) [US]; Johnston's Army [CS]",
-  "start_date": "1865-03-19",
-  "preservation": "I.1",
+  "casualties_text": "4,738 total (US 1,646; CS 3,092)",
   "results_text": "Union victory",
-  "description": "While Slocum's advance was stalled at Averasborough by Hardee's troops, the right wing of Sherman's army under command of Maj. Gen. O.O. Howard marched toward Goldsborough. On March 19, Slocum encountered the entrenched Confederates of Gen. Joseph E. Johnston who had concentrated to meet his advance at Bentonville. Late afternoon, Johnston attacked, crushing the line of the XIV Corps. Only strong counterattacks and desperate fighting south of the Goldsborough Road blunted the Confederate offensive. Elements of the XX Corps were thrown into the action as they arrived on the field. Five Confederate attacks failed to dislodge the Federal defenders and darkness ended the first day's fighting. During the night, Johnston contracted his line into a \"V\" to protect his flanks with Mill Creek to his rear. On March 20, Slocum was heavily reinforced, but fighting was sporadic. Sherman was inclined to let Johnston retreat. On the 21st, however, Johnston remained in position while he removed his wounded. Skirmishing heated up along the entire front. In the afternoon, Maj. Gen. Joseph Mower led his Union division along a narrow trace that carried it across Mill Creek into Johnston's rear. Confederate counterattacks stopped Mower's advance, saving the army's only line of communication and retreat. Mower withdrew, ending fighting for the day. During the night, Johnston retreated across the bridge at Bentonville. Union forces pursued at first light, driving back Wheeler's rearguard and saving the bridge. Federal pursuit was halted at Hannah's Creek after a severe skirmish. Sherman, after regrouping at Goldsborough, pursued Johnston toward Raleigh. On April 18, Johnston signed an armistice with Sherman at the Bennett House, and on April 26, formally surrendered his army.",
-  "state": "NC",
-  "significance": "A",
+  "dates": "March 19-21, 1865",
+  "result": "Union",
   "other_names": [
     "Bentonsville"
   ],
-  "dates": "March 19-21, 1865",
-  "battle_name": "Bentonville",
-  "principal_commanders": "Maj. Gen. William T. Sherman and Maj. Gen. Henry Slocum [US]; Gen. Joseph E. Johnston [CS]",
-  "campaign": "Carolinas Campaign [February-March 1865]",
+  "significance": "A",
+  "preservation": "I.1",
+  "state": "NC",
   "belligerents": {
-    "Confederate": {
-      "casualties": 3092,
-      "commanders": [
-        {
-          "rank": "General",
-          "first_name": "Joseph",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "E.",
-          "last_name": "Johnston",
-          "fullname": "Joseph E. Johnston"
-        }
-      ],
-      "description": "Johnston's Army",
-      "armies": 1
-    },
-    "US": {
-      "corps": 2,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "T.",
-          "last_name": "Sherman",
-          "fullname": "William T. Sherman"
-        },
-        {
-          "rank": "Major General",
-          "first_name": "Henry",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Slocum",
-          "fullname": "Henry Slocum"
-        }
-      ],
-      "description": "Sherman's Right Wing (XX and XIV Corps)",
-      "casualties": 1646
-    },
     "CS": {
       "casualties": 3092,
       "commanders": [
         {
-          "rank": "General",
-          "first_name": "Joseph",
-          "suffix": "",
-          "navy": false,
           "middle_name": "E.",
           "last_name": "Johnston",
-          "fullname": "Joseph E. Johnston"
+          "suffix": "",
+          "first_name": "Joseph",
+          "rank": "General",
+          "fullname": "Joseph E. Johnston",
+          "navy": false
         }
       ],
       "description": "Johnston's Army",
       "armies": 1
+    },
+    "Confederate": {
+      "casualties": 3092,
+      "commanders": [
+        {
+          "middle_name": "E.",
+          "last_name": "Johnston",
+          "suffix": "",
+          "first_name": "Joseph",
+          "rank": "General",
+          "fullname": "Joseph E. Johnston",
+          "navy": false
+        }
+      ],
+      "description": "Johnston's Army",
+      "armies": 1
+    },
+    "US": {
+      "casualties": 1646,
+      "commanders": [
+        {
+          "middle_name": "T.",
+          "last_name": "Sherman",
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Major General",
+          "fullname": "William T. Sherman",
+          "navy": false
+        },
+        {
+          "middle_name": "",
+          "last_name": "Slocum",
+          "suffix": "",
+          "first_name": "Henry",
+          "rank": "Major General",
+          "fullname": "Henry Slocum",
+          "navy": false
+        }
+      ],
+      "description": "Sherman's Right Wing (XX and XIV Corps)",
+      "corps": 2
     }
   },
-  "result": "Union",
-  "battle": "NC020",
+  "campaign": "Carolinas Campaign [February-March 1865]",
+  "end_date": "1865-03-21",
+  "description": "While Slocum's advance was stalled at Averasborough by Hardee's troops, the right wing of Sherman's army under command of Maj. Gen. O.O. Howard marched toward Goldsborough. On March 19, Slocum encountered the entrenched Confederates of Gen. Joseph E. Johnston who had concentrated to meet his advance at Bentonville. Late afternoon, Johnston attacked, crushing the line of the XIV Corps. Only strong counterattacks and desperate fighting south of the Goldsborough Road blunted the Confederate offensive. Elements of the XX Corps were thrown into the action as they arrived on the field. Five Confederate attacks failed to dislodge the Federal defenders and darkness ended the first day's fighting. During the night, Johnston contracted his line into a \"V\" to protect his flanks with Mill Creek to his rear. On March 20, Slocum was heavily reinforced, but fighting was sporadic. Sherman was inclined to let Johnston retreat. On the 21st, however, Johnston remained in position while he removed his wounded. Skirmishing heated up along the entire front. In the afternoon, Maj. Gen. Joseph Mower led his Union division along a narrow trace that carried it across Mill Creek into Johnston's rear. Confederate counterattacks stopped Mower's advance, saving the army's only line of communication and retreat. Mower withdrew, ending fighting for the day. During the night, Johnston retreated across the bridge at Bentonville. Union forces pursued at first light, driving back Wheeler's rearguard and saving the bridge. Federal pursuit was halted at Hannah's Creek after a severe skirmish. Sherman, after regrouping at Goldsborough, pursued Johnston toward Raleigh. On April 18, Johnston signed an armistice with Sherman at the Bennett House, and on April 26, formally surrendered his army.",
   "location": [
     {
       "state": "NC",
       "place": "Johnston County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/nc020.htm"
+  "battle_name": "Bentonville",
+  "start_date": "1865-03-19",
+  "casualties": 4738,
+  "principal_commanders": "Maj. Gen. William T. Sherman and Maj. Gen. Henry Slocum [US]; Gen. Joseph E. Johnston [CS]"
 }

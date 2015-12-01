@@ -1,18 +1,18 @@
 {
-  "end_date": "1862-06-30",
-  "casualties": 6500,
-  "casualties_text": "6,500 total",
+  "battle": "VA020B",
+  "operation": false,
+  "cwsac_reference": "VA020b",
   "forces": {
     "Confederate": {
       "commanders": [
         {
-          "rank": "General",
-          "first_name": "Robert",
-          "suffix": "",
-          "navy": false,
           "middle_name": "E.",
           "last_name": "Lee",
-          "fullname": "Robert E. Lee"
+          "suffix": "",
+          "first_name": "Robert",
+          "rank": "General",
+          "fullname": "Robert E. Lee",
+          "navy": false
         }
       ],
       "armies": 1
@@ -20,27 +20,24 @@
     "US": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "George",
-          "suffix": "",
-          "navy": false,
           "middle_name": "B.",
           "last_name": "McClellan",
-          "fullname": "George B. McClellan"
+          "suffix": "",
+          "first_name": "George",
+          "rank": "Major General",
+          "fullname": "George B. McClellan",
+          "navy": false
         }
       ],
       "armies": 1
     }
   },
-  "cwsac_reference": "VA020b",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va020b.htm",
   "forces_text": "Armies",
-  "start_date": "1862-06-30",
-  "preservation": "I.3",
+  "casualties_text": "6,500 total",
   "results_text": "Inconclusive (Union withdrawal continued.)",
-  "description": "This is the fifth of the Seven Days' Battles. On June 30, Huger's, Longstreet's, and A.P. Hill's divisions converged on the retreating Union army in the vicinity of Glendale or Frayser's Farm. Longstreet's and Hill's attacks penetrated the Union defense near Willis Church, routing McCall's division. McCall was captured. Union counterattacks by Hooker's and Kearny's divisions sealed the break and saved their line of retreat along the Willis Church Road. Huger's advance was stopped on the Charles City Road. \"Stonewall\" Jackson's divisions were delayed by Franklin at White Oak Swamp. Confederate Maj. Gen. T.H. Holmes made a feeble attempt to turn the Union left flank at Turkey Bridge but was driven back by Federal gunboats in James River. Union generals Meade and Sumner and Confederate generals Anderson, Pender, and Featherston were wounded. This was Lee's best chance to cut off the Union army from the James River. That night, McClellan established a strong position on Malvern Hill.",
-  "state": "VA",
-  "significance": "B",
+  "dates": "June 30, 1862",
+  "result": "Inconclusive",
   "other_names": [
     "Nelson's Farm",
     "Frayser's Farm",
@@ -49,21 +46,34 @@
     "New Market Road",
     "Riddell's Shop"
   ],
-  "dates": "June 30, 1862",
-  "battle_name": "Glendale",
-  "principal_commanders": "Maj. Gen. George B. McClellan [US]; Gen. Robert E. Lee [CS]",
-  "campaign": "Peninsula Campaign [March-July 1862]",
+  "significance": "B",
+  "preservation": "I.3",
+  "state": "VA",
   "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "suffix": "",
+          "first_name": "Robert",
+          "rank": "General",
+          "fullname": "Robert E. Lee",
+          "navy": false
+        }
+      ],
+      "armies": 1
+    },
     "Confederate": {
       "commanders": [
         {
-          "rank": "General",
-          "first_name": "Robert",
-          "suffix": "",
-          "navy": false,
           "middle_name": "E.",
           "last_name": "Lee",
-          "fullname": "Robert E. Lee"
+          "suffix": "",
+          "first_name": "Robert",
+          "rank": "General",
+          "fullname": "Robert E. Lee",
+          "navy": false
         }
       ],
       "armies": 1
@@ -71,39 +81,29 @@
     "US": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "George",
-          "suffix": "",
-          "navy": false,
           "middle_name": "B.",
           "last_name": "McClellan",
-          "fullname": "George B. McClellan"
-        }
-      ],
-      "armies": 1
-    },
-    "CS": {
-      "commanders": [
-        {
-          "rank": "General",
-          "first_name": "Robert",
           "suffix": "",
-          "navy": false,
-          "middle_name": "E.",
-          "last_name": "Lee",
-          "fullname": "Robert E. Lee"
+          "first_name": "George",
+          "rank": "Major General",
+          "fullname": "George B. McClellan",
+          "navy": false
         }
       ],
       "armies": 1
     }
   },
-  "result": "Inconclusive",
-  "battle": "VA020B",
+  "campaign": "Peninsula Campaign [March-July 1862]",
+  "end_date": "1862-06-30",
+  "description": "This is the fifth of the Seven Days' Battles. On June 30, Huger's, Longstreet's, and A.P. Hill's divisions converged on the retreating Union army in the vicinity of Glendale or Frayser's Farm. Longstreet's and Hill's attacks penetrated the Union defense near Willis Church, routing McCall's division. McCall was captured. Union counterattacks by Hooker's and Kearny's divisions sealed the break and saved their line of retreat along the Willis Church Road. Huger's advance was stopped on the Charles City Road. \"Stonewall\" Jackson's divisions were delayed by Franklin at White Oak Swamp. Confederate Maj. Gen. T.H. Holmes made a feeble attempt to turn the Union left flank at Turkey Bridge but was driven back by Federal gunboats in James River. Union generals Meade and Sumner and Confederate generals Anderson, Pender, and Featherston were wounded. This was Lee's best chance to cut off the Union army from the James River. That night, McClellan established a strong position on Malvern Hill.",
   "location": [
     {
       "state": "VA",
       "place": "Henrico County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/va020b.htm"
+  "battle_name": "Glendale",
+  "start_date": "1862-06-30",
+  "casualties": 6500,
+  "principal_commanders": "Maj. Gen. George B. McClellan [US]; Gen. Robert E. Lee [CS]"
 }

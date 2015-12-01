@@ -1,104 +1,104 @@
 {
-  "end_date": "1864-06-12",
-  "casualties": 1600,
-  "casualties_text": "1,600 total",
+  "battle": "VA099",
+  "operation": false,
+  "cwsac_reference": "VA099",
   "forces": {
     "Confederate": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Wade",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Hampton",
-          "fullname": "Wade Hampton"
+          "suffix": "",
+          "first_name": "Wade",
+          "rank": "Major General",
+          "fullname": "Wade Hampton",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     },
     "US": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Philip",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Sheridan",
-          "fullname": "Philip Sheridan"
+          "suffix": "",
+          "first_name": "Philip",
+          "rank": "Major General",
+          "fullname": "Philip Sheridan",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     }
   },
-  "cwsac_reference": "VA099",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va099.htm",
   "forces_text": "Divisions",
-  "start_date": "1864-06-11",
-  "preservation": "II.2",
+  "casualties_text": "1,600 total",
   "results_text": "Confederate victory",
-  "description": "To draw off the Confederate cavalry and open the door for a general movement to the James River, Maj. Gen. Philip Sheridan mounted a large-scale cavalry raid into Louisa County, threatening to cut the Virginia Central Railroad. On June 11, Sheridan with the Gregg's and Torbert's divisions attacked Hampton's and Fitzhugh Lee's cavalry divisions at Trevilian Station. Sheridan drove a wedge between the Confederate divisions, throwing them into confusion. On the 12th, fortunes were reversed. Hampton and Lee dismounted their troopers and drew a defensive line across the railroad and the road to Gordonsville. From this advantageous position, they beat back several determined dismounted assaults. Sheridan withdrew after destroying about six miles of the Virginia Central Railroad. Confederate victory at Trevilian prevented Sheridan from reaching Charlottesville and cooperating with Hunter's army in the Valley. This was one of the bloodiest cavalry battles of the war.",
-  "state": "VA",
-  "significance": "B",
+  "dates": "June 11-12, 1864",
+  "result": "Confederate",
   "other_names": [
     "Trevilians"
   ],
-  "dates": "June 11-12, 1864",
-  "battle_name": "Trevilian Station",
-  "principal_commanders": "Maj. Gen. Philip Sheridan [US]; Maj. Gen. Wade Hampton [CS]",
-  "campaign": "Grant's Overland Campaign [May-June 1864]",
+  "significance": "B",
+  "preservation": "II.2",
+  "state": "VA",
   "belligerents": {
-    "Confederate": {
+    "CS": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Wade",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Hampton",
-          "fullname": "Wade Hampton"
+          "suffix": "",
+          "first_name": "Wade",
+          "rank": "Major General",
+          "fullname": "Wade Hampton",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
+    },
+    "Confederate": {
+      "divisions": 1,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Hampton",
+          "suffix": "",
+          "first_name": "Wade",
+          "rank": "Major General",
+          "fullname": "Wade Hampton",
+          "navy": false
+        }
+      ]
     },
     "US": {
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Philip",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Sheridan",
-          "fullname": "Philip Sheridan"
-        }
-      ],
-      "divisions": 1
-    },
-    "CS": {
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Wade",
           "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Hampton",
-          "fullname": "Wade Hampton"
+          "first_name": "Philip",
+          "rank": "Major General",
+          "fullname": "Philip Sheridan",
+          "navy": false
         }
-      ],
-      "divisions": 1
+      ]
     }
   },
-  "result": "Confederate",
-  "battle": "VA099",
+  "campaign": "Grant's Overland Campaign [May-June 1864]",
+  "end_date": "1864-06-12",
+  "description": "To draw off the Confederate cavalry and open the door for a general movement to the James River, Maj. Gen. Philip Sheridan mounted a large-scale cavalry raid into Louisa County, threatening to cut the Virginia Central Railroad. On June 11, Sheridan with the Gregg's and Torbert's divisions attacked Hampton's and Fitzhugh Lee's cavalry divisions at Trevilian Station. Sheridan drove a wedge between the Confederate divisions, throwing them into confusion. On the 12th, fortunes were reversed. Hampton and Lee dismounted their troopers and drew a defensive line across the railroad and the road to Gordonsville. From this advantageous position, they beat back several determined dismounted assaults. Sheridan withdrew after destroying about six miles of the Virginia Central Railroad. Confederate victory at Trevilian prevented Sheridan from reaching Charlottesville and cooperating with Hunter's army in the Valley. This was one of the bloodiest cavalry battles of the war.",
   "location": [
     {
       "state": "VA",
       "place": "Louisa County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/va099.htm"
+  "battle_name": "Trevilian Station",
+  "start_date": "1864-06-11",
+  "casualties": 1600,
+  "principal_commanders": "Maj. Gen. Philip Sheridan [US]; Maj. Gen. Wade Hampton [CS]"
 }

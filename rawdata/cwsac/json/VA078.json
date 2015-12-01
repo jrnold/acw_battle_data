@@ -1,104 +1,104 @@
 {
-  "end_date": "1864-10-13",
-  "casualties": 950,
-  "casualties_text": "950 total",
+  "battle": "VA078",
+  "operation": false,
+  "cwsac_reference": "VA078",
   "forces": {
     "Confederate": {
-      "corps": 1,
       "commanders": [
         {
-          "rank": "Lieutenant General",
-          "first_name": "Richard",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Anderson",
-          "fullname": "Richard Anderson"
+          "suffix": "",
+          "first_name": "Richard",
+          "rank": "Lieutenant General",
+          "fullname": "Richard Anderson",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
     },
     "US": {
-      "corps": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Alfred",
-          "suffix": "",
-          "navy": false,
           "middle_name": "H.",
           "last_name": "Terry",
-          "fullname": "Alfred H. Terry"
+          "suffix": "",
+          "first_name": "Alfred",
+          "rank": "Major General",
+          "fullname": "Alfred H. Terry",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
     }
   },
-  "cwsac_reference": "VA078",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va078.htm",
   "forces_text": "Corps",
-  "start_date": "1864-10-13",
-  "preservation": "IV.1",
+  "casualties_text": "950 total",
   "results_text": "Confederate victory",
-  "description": "On October 13, Union forces advanced to find and feel the new Confederate defensive line in front of Richmond. While mostly a battle of skirmishers, a Federal brigade assaulted fortifications north of Darbytown Road and was repulsed with heavy casualties. The Federals retired to their entrenched lines along New Market Road.",
-  "state": "VA",
-  "significance": "D",
+  "dates": "October 13, 1864",
+  "result": "Confederate",
   "other_names": [
     "Alms House"
   ],
-  "dates": "October 13, 1864",
-  "battle_name": "Darbytown Road",
-  "principal_commanders": "Maj. Gen. Alfred H. Terry [US]; Lt. Gen. Richard Anderson [CS]",
-  "campaign": "Richmond-Petersburg Campaign [June 1864-March 1865]",
+  "significance": "D",
+  "preservation": "IV.1",
+  "state": "VA",
   "belligerents": {
-    "Confederate": {
-      "corps": 1,
+    "CS": {
       "commanders": [
         {
-          "rank": "Lieutenant General",
-          "first_name": "Richard",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Anderson",
-          "fullname": "Richard Anderson"
+          "suffix": "",
+          "first_name": "Richard",
+          "rank": "Lieutenant General",
+          "fullname": "Richard Anderson",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
+    },
+    "Confederate": {
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Anderson",
+          "suffix": "",
+          "first_name": "Richard",
+          "rank": "Lieutenant General",
+          "fullname": "Richard Anderson",
+          "navy": false
+        }
+      ],
+      "corps": 1
     },
     "US": {
-      "corps": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Alfred",
-          "suffix": "",
-          "navy": false,
           "middle_name": "H.",
           "last_name": "Terry",
-          "fullname": "Alfred H. Terry"
-        }
-      ]
-    },
-    "CS": {
-      "corps": 1,
-      "commanders": [
-        {
-          "rank": "Lieutenant General",
-          "first_name": "Richard",
           "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Anderson",
-          "fullname": "Richard Anderson"
+          "first_name": "Alfred",
+          "rank": "Major General",
+          "fullname": "Alfred H. Terry",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
     }
   },
-  "result": "Confederate",
-  "battle": "VA078",
+  "campaign": "Richmond-Petersburg Campaign [June 1864-March 1865]",
+  "end_date": "1864-10-13",
+  "description": "On October 13, Union forces advanced to find and feel the new Confederate defensive line in front of Richmond. While mostly a battle of skirmishers, a Federal brigade assaulted fortifications north of Darbytown Road and was repulsed with heavy casualties. The Federals retired to their entrenched lines along New Market Road.",
   "location": [
     {
       "state": "VA",
       "place": "Henrico County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/va078.htm"
+  "battle_name": "Darbytown Road",
+  "start_date": "1864-10-13",
+  "casualties": 950,
+  "principal_commanders": "Maj. Gen. Alfred H. Terry [US]; Lt. Gen. Richard Anderson [CS]"
 }

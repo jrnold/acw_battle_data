@@ -1,128 +1,125 @@
 {
-  "end_date": "1863-09-11",
-  "casualties": null,
-  "casualties_text": "Unknown",
+  "battle": "GA003",
+  "operation": false,
+  "cwsac_reference": "GA003",
   "forces": {
     "Confederate": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Thomas",
-          "suffix": "",
-          "navy": false,
           "middle_name": "C.",
           "last_name": "Hindman",
-          "fullname": "Thomas C. Hindman"
+          "suffix": "",
+          "first_name": "Thomas",
+          "rank": "Major General",
+          "fullname": "Thomas C. Hindman",
+          "navy": false
         },
         {
-          "rank": "Major General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "C.",
           "last_name": "Breckinridge",
-          "fullname": "John C. Breckinridge"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Major General",
+          "fullname": "John C. Breckinridge",
+          "navy": false
         }
       ],
       "description": "unknown"
     },
     "US": {
+      "divisions": 2,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Negley",
-          "fullname": "James Negley"
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Major General",
+          "fullname": "James Negley",
+          "navy": false
         }
       ],
-      "divisions": 2,
       "description": "Two divisions"
     }
   },
-  "cwsac_reference": "GA003",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ga003.htm",
   "forces_text": "Two divisions [US]; unknown [CS]",
-  "start_date": "1863-09-10",
-  "preservation": "II.3",
+  "casualties_text": "Unknown",
   "results_text": "Union strategic victory",
-  "description": "After the Tullahoma Campaign, Rosecrans renewed his offensive, aiming to force the Rebels out of Chattanooga. The three corps comprising Rosecrans's army split and set out for Chattanooga by separate routes. Hearing of the Union advance, Braxton Bragg concentrated troops around Chattanooga. While Col. John T. Wilder's artillery fired on Chattanooga, Rosecrans attempted to take advantage of Bragg's situation and ordered other troops into Georgia. They raced forward, seized the important gaps, and moved out into McLemore's Cove. Negley's XIV Army Corps division, supported by Brig. Gen. Absalom Baird's division, was moving across the mouth of the cove on the Dug Gap road when Negley learned that Rebels were concentrating around Dug Gap. Moving through determined resistance, he closed on the gap, withdrawing to Davis' Cross Roads in the evening of September 10 to await the supporting division. Bragg had ordered General Hindman with his division to assault Negley at Davis' Cross Roads in the flank, while Maj. Gen. Patrick R. Cleburne's division forced its way through Dug Gap to strike Negley in front. Hindman was to receive reinforcements for this movement, but most of them did not arrive. The Rebel officers, therefore, met and decided that they could not attack in their present condition. The next morning, however, fresh troops did arrive, and the Rebels began to move on the Union line. The supporting Union division had, by now, joined Negley, and, hearing of a Confederate attack, the Union forces determined that a strategic withdrawal to Stevens Gap was in order. Negley first moved his division to the ridge east of West Chickamauga Creek where it established a defensive line. The other division then moved through them to Stevens Gap and established a defensive line there. Both divisions awaited the rest of Maj. Gen. George Thomas's corps. All of this was accomplished under constant pursuit and fire from the Confederates.",
-  "state": "GA",
-  "significance": "C",
+  "dates": "September 10-11, 1863",
+  "result": "Union",
   "other_names": [
     "Dug Gap"
   ],
-  "dates": "September 10-11, 1863",
-  "battle_name": "Davis' Cross Roads",
-  "principal_commanders": "Maj. Gen. James Negley [US]; Maj. Gen. Thomas C. Hindman and Maj. Gen. John C. Breckinridge [CS]",
-  "campaign": "Chickamauga Campaign [August-September 1863]",
+  "significance": "C",
+  "preservation": "II.3",
+  "state": "GA",
   "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "middle_name": "C.",
+          "last_name": "Hindman",
+          "suffix": "",
+          "first_name": "Thomas",
+          "rank": "Major General",
+          "fullname": "Thomas C. Hindman",
+          "navy": false
+        },
+        {
+          "middle_name": "C.",
+          "last_name": "Breckinridge",
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Major General",
+          "fullname": "John C. Breckinridge",
+          "navy": false
+        }
+      ],
+      "description": "unknown"
+    },
     "Confederate": {
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Thomas",
-          "suffix": "",
-          "navy": false,
           "middle_name": "C.",
           "last_name": "Hindman",
-          "fullname": "Thomas C. Hindman"
+          "suffix": "",
+          "first_name": "Thomas",
+          "rank": "Major General",
+          "fullname": "Thomas C. Hindman",
+          "navy": false
         },
         {
-          "rank": "Major General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "C.",
           "last_name": "Breckinridge",
-          "fullname": "John C. Breckinridge"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Major General",
+          "fullname": "John C. Breckinridge",
+          "navy": false
         }
       ],
       "description": "unknown"
     },
     "US": {
+      "divisions": 2,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Negley",
-          "fullname": "James Negley"
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Major General",
+          "fullname": "James Negley",
+          "navy": false
         }
       ],
-      "divisions": 2,
       "description": "Two divisions"
-    },
-    "CS": {
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Thomas",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "C.",
-          "last_name": "Hindman",
-          "fullname": "Thomas C. Hindman"
-        },
-        {
-          "rank": "Major General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "C.",
-          "last_name": "Breckinridge",
-          "fullname": "John C. Breckinridge"
-        }
-      ],
-      "description": "unknown"
     }
   },
-  "result": "Union",
-  "battle": "GA003",
+  "campaign": "Chickamauga Campaign [August-September 1863]",
+  "end_date": "1863-09-11",
+  "description": "After the Tullahoma Campaign, Rosecrans renewed his offensive, aiming to force the Rebels out of Chattanooga. The three corps comprising Rosecrans's army split and set out for Chattanooga by separate routes. Hearing of the Union advance, Braxton Bragg concentrated troops around Chattanooga. While Col. John T. Wilder's artillery fired on Chattanooga, Rosecrans attempted to take advantage of Bragg's situation and ordered other troops into Georgia. They raced forward, seized the important gaps, and moved out into McLemore's Cove. Negley's XIV Army Corps division, supported by Brig. Gen. Absalom Baird's division, was moving across the mouth of the cove on the Dug Gap road when Negley learned that Rebels were concentrating around Dug Gap. Moving through determined resistance, he closed on the gap, withdrawing to Davis' Cross Roads in the evening of September 10 to await the supporting division. Bragg had ordered General Hindman with his division to assault Negley at Davis' Cross Roads in the flank, while Maj. Gen. Patrick R. Cleburne's division forced its way through Dug Gap to strike Negley in front. Hindman was to receive reinforcements for this movement, but most of them did not arrive. The Rebel officers, therefore, met and decided that they could not attack in their present condition. The next morning, however, fresh troops did arrive, and the Rebels began to move on the Union line. The supporting Union division had, by now, joined Negley, and, hearing of a Confederate attack, the Union forces determined that a strategic withdrawal to Stevens Gap was in order. Negley first moved his division to the ridge east of West Chickamauga Creek where it established a defensive line. The other division then moved through them to Stevens Gap and established a defensive line there. Both divisions awaited the rest of Maj. Gen. George Thomas's corps. All of this was accomplished under constant pursuit and fire from the Confederates.",
   "location": [
     {
       "state": "GA",
@@ -133,5 +130,8 @@
       "place": "Walker County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/ga003.htm"
+  "battle_name": "Davis' Cross Roads",
+  "start_date": "1863-09-10",
+  "casualties": null,
+  "principal_commanders": "Maj. Gen. James Negley [US]; Maj. Gen. Thomas C. Hindman and Maj. Gen. John C. Breckinridge [CS]"
 }

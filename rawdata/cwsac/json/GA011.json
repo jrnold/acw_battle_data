@@ -1,19 +1,19 @@
 {
-  "end_date": "1864-06-01",
-  "casualties": 5400,
-  "casualties_text": "5,400 total (US 2,400; CS 3,000)",
+  "battle": "GA011",
+  "operation": false,
+  "cwsac_reference": "GA011",
   "forces": {
     "Confederate": {
       "casualties": 3000,
       "commanders": [
         {
-          "rank": "General",
-          "first_name": "Joseph",
-          "suffix": "",
-          "navy": false,
           "middle_name": "E.",
           "last_name": "Johnston",
-          "fullname": "Joseph E. Johnston"
+          "suffix": "",
+          "first_name": "Joseph",
+          "rank": "General",
+          "fullname": "Joseph E. Johnston",
+          "navy": false
         }
       ],
       "description": "Army of Tennessee",
@@ -23,47 +23,59 @@
       "casualties": 2400,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
           "middle_name": "T.",
           "last_name": "Sherman",
-          "fullname": "William T. Sherman"
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Major General",
+          "fullname": "William T. Sherman",
+          "navy": false
         }
       ],
       "description": "Military Division of Mississippi"
     }
   },
-  "cwsac_reference": "GA011",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ga011.htm",
   "forces_text": "Military Division of Mississippi [US]; Army of Tennessee [CS]",
-  "start_date": "1864-05-26",
-  "preservation": "IV.1",
+  "casualties_text": "5,400 total (US 2,400; CS 3,000)",
   "results_text": "Union victory",
-  "description": "Johnston's army fell back from the vicinity of Cassville-Kinston, first to Allatoona Pass and then to the Dallas area and entrenched. Sherman's army tested the Rebel line while entrenching themselves. The Battle of Dallas occurred on May 28 when Lt. Gen. William J. Hardee's corps probed the Union defensive line, held by Maj. Gen. John A. Logan's Army of the Tennessee corps, to exploit any weakness or possible withdrawal. Fighting ensued at two different points, but the Rebels were repulsed, suffering high casualties. Sherman continued looking for a way around Johnston's line, and, on June 1, his cavalry occupied Allatoona Pass, which had a railroad and would allow his men and supplies to reach him by train. Sherman abandoned his lines at Dallas on June 5 and moved toward the railhead at Allatoona Pass forcing Johnston to follow soon afterwards.",
-  "state": "GA",
-  "significance": "C",
+  "dates": "May 26-June 1, 1864 (May 28, 1864)",
+  "result": "Union",
   "other_names": [
     "New Hope Church",
     "Pumpkinvine Creek"
   ],
-  "dates": "May 26-June 1, 1864 (May 28, 1864)",
-  "battle_name": "Dallas",
-  "principal_commanders": "Maj. Gen. William T. Sherman [US]; Gen. Joseph E. Johnston [CS]",
-  "campaign": "Atlanta Campaign [May-September 1864]",
+  "significance": "C",
+  "preservation": "IV.1",
+  "state": "GA",
   "belligerents": {
+    "CS": {
+      "casualties": 3000,
+      "commanders": [
+        {
+          "middle_name": "E.",
+          "last_name": "Johnston",
+          "suffix": "",
+          "first_name": "Joseph",
+          "rank": "General",
+          "fullname": "Joseph E. Johnston",
+          "navy": false
+        }
+      ],
+      "description": "Army of Tennessee",
+      "armies": 1
+    },
     "Confederate": {
       "casualties": 3000,
       "commanders": [
         {
-          "rank": "General",
-          "first_name": "Joseph",
-          "suffix": "",
-          "navy": false,
           "middle_name": "E.",
           "last_name": "Johnston",
-          "fullname": "Joseph E. Johnston"
+          "suffix": "",
+          "first_name": "Joseph",
+          "rank": "General",
+          "fullname": "Joseph E. Johnston",
+          "navy": false
         }
       ],
       "description": "Army of Tennessee",
@@ -73,41 +85,29 @@
       "casualties": 2400,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "William",
-          "suffix": "",
-          "navy": false,
           "middle_name": "T.",
           "last_name": "Sherman",
-          "fullname": "William T. Sherman"
+          "suffix": "",
+          "first_name": "William",
+          "rank": "Major General",
+          "fullname": "William T. Sherman",
+          "navy": false
         }
       ],
       "description": "Military Division of Mississippi"
-    },
-    "CS": {
-      "casualties": 3000,
-      "commanders": [
-        {
-          "rank": "General",
-          "first_name": "Joseph",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "E.",
-          "last_name": "Johnston",
-          "fullname": "Joseph E. Johnston"
-        }
-      ],
-      "description": "Army of Tennessee",
-      "armies": 1
     }
   },
-  "result": "Union",
-  "battle": "GA011",
+  "campaign": "Atlanta Campaign [May-September 1864]",
+  "end_date": "1864-06-01",
+  "description": "Johnston's army fell back from the vicinity of Cassville-Kinston, first to Allatoona Pass and then to the Dallas area and entrenched. Sherman's army tested the Rebel line while entrenching themselves. The Battle of Dallas occurred on May 28 when Lt. Gen. William J. Hardee's corps probed the Union defensive line, held by Maj. Gen. John A. Logan's Army of the Tennessee corps, to exploit any weakness or possible withdrawal. Fighting ensued at two different points, but the Rebels were repulsed, suffering high casualties. Sherman continued looking for a way around Johnston's line, and, on June 1, his cavalry occupied Allatoona Pass, which had a railroad and would allow his men and supplies to reach him by train. Sherman abandoned his lines at Dallas on June 5 and moved toward the railhead at Allatoona Pass forcing Johnston to follow soon afterwards.",
   "location": [
     {
       "state": "GA",
       "place": "Paulding County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/ga011.htm"
+  "battle_name": "Dallas",
+  "start_date": "1864-05-26",
+  "casualties": 5400,
+  "principal_commanders": "Maj. Gen. William T. Sherman [US]; Gen. Joseph E. Johnston [CS]"
 }

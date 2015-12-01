@@ -1,19 +1,19 @@
 {
-  "end_date": "1862-11-28",
-  "casualties": 475,
-  "casualties_text": "475 total (US 40; CS 435)",
+  "battle": "AR004",
+  "operation": false,
+  "cwsac_reference": "AR004",
   "forces": {
     "Confederate": {
       "casualties": 435,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "S.",
           "last_name": "Marmaduke",
-          "fullname": "John S. Marmaduke"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Brigadier General",
+          "fullname": "John S. Marmaduke",
+          "navy": false
         }
       ],
       "description": "two cavalry brigades",
@@ -23,47 +23,59 @@
       "casualties": 40,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
           "middle_name": "G.",
           "last_name": "Blunt",
-          "fullname": "James G. Blunt"
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Brigadier General",
+          "fullname": "James G. Blunt",
+          "navy": false
         }
       ],
       "description": "Department of Missouri"
     }
   },
-  "cwsac_reference": "AR004",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/ar004.htm",
   "forces_text": "Department of Missouri [US]; two cavalry brigades [CS]",
-  "start_date": "1862-11-28",
-  "preservation": "III.3",
+  "casualties_text": "475 total (US 40; CS 435)",
   "results_text": "Confederate tactical victory",
-  "description": "In late November, Maj. Gen. Thomas C. Hindman detached Brig. Gen. John Marmaduke's cavalry from Van Buren north to occupy the Cane Hill area. Hearing of this movement, Brig. Gen. James Blunt advanced to meet Marmaduke's command and destroy it, if possible. The Union vanguard encountered Col. Joe Shelby's brigade, which fought a delaying action to protect their supply trains. Shelby gradually gave ground until establishing a strong defensive perimeter on Cove Creek where he repulsed a determined attack. The Federals withdrew to Cane Hill, while the Confederates returned to Van Buren. Although fighting well, Marmaduke's withdrawal was a setback for Hindman's plans for recapturing northwest Arkansas. Victory at Prairie Grove a few weeks later, solidified Union control of the region.",
-  "state": "AR",
-  "significance": "C",
+  "dates": "November 28, 1862",
+  "result": "Confederate",
   "other_names": [
     "Canehill",
     "Boston Mountains"
   ],
-  "dates": "November 28, 1862",
-  "battle_name": "Cane Hill",
-  "principal_commanders": "Brig. Gen. James G. Blunt [US]; Brig. Gen. John S. Marmaduke [CS]",
-  "campaign": "Prairie Grove Campaign [November 1862]",
+  "significance": "C",
+  "preservation": "III.3",
+  "state": "AR",
   "belligerents": {
+    "CS": {
+      "casualties": 435,
+      "commanders": [
+        {
+          "middle_name": "S.",
+          "last_name": "Marmaduke",
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Brigadier General",
+          "fullname": "John S. Marmaduke",
+          "navy": false
+        }
+      ],
+      "description": "two cavalry brigades",
+      "cavalry_brigades": 2
+    },
     "Confederate": {
       "casualties": 435,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "S.",
           "last_name": "Marmaduke",
-          "fullname": "John S. Marmaduke"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Brigadier General",
+          "fullname": "John S. Marmaduke",
+          "navy": false
         }
       ],
       "description": "two cavalry brigades",
@@ -73,41 +85,29 @@
       "casualties": 40,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
           "middle_name": "G.",
           "last_name": "Blunt",
-          "fullname": "James G. Blunt"
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Brigadier General",
+          "fullname": "James G. Blunt",
+          "navy": false
         }
       ],
       "description": "Department of Missouri"
-    },
-    "CS": {
-      "casualties": 435,
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "S.",
-          "last_name": "Marmaduke",
-          "fullname": "John S. Marmaduke"
-        }
-      ],
-      "description": "two cavalry brigades",
-      "cavalry_brigades": 2
     }
   },
-  "result": "Confederate",
-  "battle": "AR004",
+  "campaign": "Prairie Grove Campaign [November 1862]",
+  "end_date": "1862-11-28",
+  "description": "In late November, Maj. Gen. Thomas C. Hindman detached Brig. Gen. John Marmaduke's cavalry from Van Buren north to occupy the Cane Hill area. Hearing of this movement, Brig. Gen. James Blunt advanced to meet Marmaduke's command and destroy it, if possible. The Union vanguard encountered Col. Joe Shelby's brigade, which fought a delaying action to protect their supply trains. Shelby gradually gave ground until establishing a strong defensive perimeter on Cove Creek where he repulsed a determined attack. The Federals withdrew to Cane Hill, while the Confederates returned to Van Buren. Although fighting well, Marmaduke's withdrawal was a setback for Hindman's plans for recapturing northwest Arkansas. Victory at Prairie Grove a few weeks later, solidified Union control of the region.",
   "location": [
     {
       "state": "AR",
       "place": "Washington County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/ar004.htm"
+  "battle_name": "Cane Hill",
+  "start_date": "1862-11-28",
+  "casualties": 475,
+  "principal_commanders": "Brig. Gen. James G. Blunt [US]; Brig. Gen. John S. Marmaduke [CS]"
 }

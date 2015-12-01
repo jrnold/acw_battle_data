@@ -1,19 +1,19 @@
 {
-  "end_date": "1863-04-13",
-  "casualties": 684,
-  "casualties_text": "Total 684 (US 234; CS 450)",
+  "battle": "LA006",
+  "operation": false,
+  "cwsac_reference": "LA006",
   "forces": {
     "Confederate": {
       "casualties": 450,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Richard",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Taylor",
-          "fullname": "Richard Taylor"
+          "suffix": "",
+          "first_name": "Richard",
+          "rank": "Major General",
+          "fullname": "Richard Taylor",
+          "navy": false
         }
       ],
       "description": "District of Western Louisiana"
@@ -22,88 +22,88 @@
       "casualties": 234,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Nathaniel",
-          "suffix": "",
-          "navy": false,
           "middle_name": "P.",
           "last_name": "Banks",
-          "fullname": "Nathaniel P. Banks"
+          "suffix": "",
+          "first_name": "Nathaniel",
+          "rank": "Major General",
+          "fullname": "Nathaniel P. Banks",
+          "navy": false
         }
       ],
       "description": "Banks's Department of the Gulf, XIX Army Corps"
     }
   },
-  "cwsac_reference": "LA006",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/la006.htm",
   "forces_text": "Banks's Department of the Gulf, XIX Army Corps [US]; District of Western Louisiana [CS]",
-  "start_date": "1863-04-12",
-  "preservation": "IV.1",
+  "casualties_text": "Total 684 (US 234; CS 450)",
   "results_text": "Union victory",
-  "description": "In April 1863, Maj. Gen. Nathaniel P. Banks launched an expedition up Bayou Teche in western Louisiana aimed at Alexandria. On April 9, two divisions crossed Berwick Bay from Brashear City to the west side at Berwick. On the 12th, a third division went up the Atchafalaya River to land in the rear of Franklin intending to intercept a Rebel retreat from Fort Bisland or turn the enemy's position. Maj. Gen. Richard Taylor sent Col. Tom Green's regiment to the front to ascertain the enemy's strength and retard his advance. On the 11th, the Yankees began their advance in earnest. Late on the 12th, Union troops arrived outside the defenses in battle line. An artillery barrage ensued from both sides until dark when the Yankees, many of whom were hit by Rebel cannon fire, fell back and camped for the night. About 9:00 am on the 13th, the Union forces again advanced on Fort Bisland. Combat did not begin until after 11:00 am and continued until dusk. In addition to Rebel forces in the earthworks, the gunboat Diana, now in Confederate hands, shelled the Yankees. U.S. gunboats joined the fray in late afternoon. The fighting ceased after this. Later that night, Taylor learned that the Yankee division that went up the Atchafalaya and landed in his rear was now in a position to cut off a Confederate retreat. Taylor began evacuating supplies, men, and weapons, leaving a small force to retard any enemy movement. The next morning, the Yankees found the fort abandoned. Fort Bisland was the only fortification that could have impeded this Union offensive, and it had fallen.",
-  "state": "LA",
-  "significance": "D",
+  "dates": "April 12-13, 1863",
+  "result": "Union",
   "other_names": [
     "Bethel Place"
   ],
-  "dates": "April 12-13, 1863",
-  "battle_name": "Fort Bisland",
-  "principal_commanders": "Maj. Gen. Nathaniel P. Banks [US]; Maj. Gen. Richard Taylor [CS]",
-  "campaign": "Operations in West Louisiana [April 1863]",
+  "significance": "D",
+  "preservation": "IV.1",
+  "state": "LA",
   "belligerents": {
-    "Confederate": {
-      "casualties": 450,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Richard",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Taylor",
-          "fullname": "Richard Taylor"
-        }
-      ],
-      "description": "District of Western Louisiana"
-    },
-    "US": {
-      "casualties": 234,
-      "commanders": [
-        {
-          "rank": "Major General",
-          "first_name": "Nathaniel",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "P.",
-          "last_name": "Banks",
-          "fullname": "Nathaniel P. Banks"
-        }
-      ],
-      "description": "Banks's Department of the Gulf, XIX Army Corps"
-    },
     "CS": {
       "casualties": 450,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Richard",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Taylor",
-          "fullname": "Richard Taylor"
+          "suffix": "",
+          "first_name": "Richard",
+          "rank": "Major General",
+          "fullname": "Richard Taylor",
+          "navy": false
         }
       ],
       "description": "District of Western Louisiana"
+    },
+    "Confederate": {
+      "casualties": 450,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Taylor",
+          "suffix": "",
+          "first_name": "Richard",
+          "rank": "Major General",
+          "fullname": "Richard Taylor",
+          "navy": false
+        }
+      ],
+      "description": "District of Western Louisiana"
+    },
+    "US": {
+      "casualties": 234,
+      "commanders": [
+        {
+          "middle_name": "P.",
+          "last_name": "Banks",
+          "suffix": "",
+          "first_name": "Nathaniel",
+          "rank": "Major General",
+          "fullname": "Nathaniel P. Banks",
+          "navy": false
+        }
+      ],
+      "description": "Banks's Department of the Gulf, XIX Army Corps"
     }
   },
-  "result": "Union",
-  "battle": "LA006",
+  "campaign": "Operations in West Louisiana [April 1863]",
+  "end_date": "1863-04-13",
+  "description": "In April 1863, Maj. Gen. Nathaniel P. Banks launched an expedition up Bayou Teche in western Louisiana aimed at Alexandria. On April 9, two divisions crossed Berwick Bay from Brashear City to the west side at Berwick. On the 12th, a third division went up the Atchafalaya River to land in the rear of Franklin intending to intercept a Rebel retreat from Fort Bisland or turn the enemy's position. Maj. Gen. Richard Taylor sent Col. Tom Green's regiment to the front to ascertain the enemy's strength and retard his advance. On the 11th, the Yankees began their advance in earnest. Late on the 12th, Union troops arrived outside the defenses in battle line. An artillery barrage ensued from both sides until dark when the Yankees, many of whom were hit by Rebel cannon fire, fell back and camped for the night. About 9:00 am on the 13th, the Union forces again advanced on Fort Bisland. Combat did not begin until after 11:00 am and continued until dusk. In addition to Rebel forces in the earthworks, the gunboat Diana, now in Confederate hands, shelled the Yankees. U.S. gunboats joined the fray in late afternoon. The fighting ceased after this. Later that night, Taylor learned that the Yankee division that went up the Atchafalaya and landed in his rear was now in a position to cut off a Confederate retreat. Taylor began evacuating supplies, men, and weapons, leaving a small force to retard any enemy movement. The next morning, the Yankees found the fort abandoned. Fort Bisland was the only fortification that could have impeded this Union offensive, and it had fallen.",
   "location": [
     {
       "state": "LA",
       "place": "St. Mary Parish"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/la006.htm"
+  "battle_name": "Fort Bisland",
+  "start_date": "1863-04-12",
+  "casualties": 684,
+  "principal_commanders": "Maj. Gen. Nathaniel P. Banks [US]; Maj. Gen. Richard Taylor [CS]"
 }

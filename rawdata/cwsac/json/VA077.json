@@ -1,123 +1,123 @@
 {
-  "end_date": "1864-10-07",
-  "casualties": 1750,
-  "casualties_text": "1,750 total",
+  "battle": "VA077",
+  "operation": false,
+  "cwsac_reference": "VA077",
   "forces": {
     "Confederate": {
-      "corps": 1,
       "commanders": [
         {
-          "rank": "General",
-          "first_name": "Robert",
-          "suffix": "",
-          "navy": false,
           "middle_name": "E.",
           "last_name": "Lee",
-          "fullname": "Robert E. Lee"
+          "suffix": "",
+          "first_name": "Robert",
+          "rank": "General",
+          "fullname": "Robert E. Lee",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
     },
     "US": {
-      "corps": 1,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "August",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Kautz",
-          "fullname": "August Kautz"
+          "suffix": "",
+          "first_name": "August",
+          "rank": "Brigadier General",
+          "fullname": "August Kautz",
+          "navy": false
         },
         {
-          "rank": "Major General",
-          "first_name": "David",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Birney",
-          "fullname": "David Birney"
+          "suffix": "",
+          "first_name": "David",
+          "rank": "Major General",
+          "fullname": "David Birney",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
     }
   },
-  "cwsac_reference": "VA077",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va077.htm",
   "forces_text": "Corps",
-  "start_date": "1864-10-07",
-  "preservation": "IV.2",
+  "casualties_text": "1,750 total",
   "results_text": "Union victory",
-  "description": "Responding to the loss of Fort Harrison and the increasing Federal threat against Richmond, Gen. Robert E. Lee directed an offensive against the Union far right flank on October 7. After routing the Federal cavalry from their position covering Darbytown Road, Field's and Hoke's divisions assaulted the main Union defensive line along New Market Road and were repulsed. Confederate Gen. John Gregg of the Texas brigade was killed. The Federals were not dislodged, and Lee withdrew into the Richmond defenses.",
-  "state": "VA",
-  "significance": "C",
+  "dates": "October 7, 1864",
+  "result": "Union",
   "other_names": [
     "Johnson's Farm",
     "Fourmile Creek"
   ],
-  "dates": "October 7, 1864",
-  "battle_name": "Darbytown & New Market\r\nRoads",
-  "principal_commanders": "Brig. Gen. August Kautz and Maj. Gen. David Birney [US]; Gen. Robert E. Lee [CS]",
-  "campaign": "Richmond-Petersburg Campaign [June 1864-March 1865]",
+  "significance": "C",
+  "preservation": "IV.2",
+  "state": "VA",
   "belligerents": {
-    "Confederate": {
-      "corps": 1,
+    "CS": {
       "commanders": [
         {
-          "rank": "General",
-          "first_name": "Robert",
-          "suffix": "",
-          "navy": false,
           "middle_name": "E.",
           "last_name": "Lee",
-          "fullname": "Robert E. Lee"
+          "suffix": "",
+          "first_name": "Robert",
+          "rank": "General",
+          "fullname": "Robert E. Lee",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
+    },
+    "Confederate": {
+      "commanders": [
+        {
+          "middle_name": "E.",
+          "last_name": "Lee",
+          "suffix": "",
+          "first_name": "Robert",
+          "rank": "General",
+          "fullname": "Robert E. Lee",
+          "navy": false
+        }
+      ],
+      "corps": 1
     },
     "US": {
-      "corps": 1,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "August",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Kautz",
-          "fullname": "August Kautz"
+          "suffix": "",
+          "first_name": "August",
+          "rank": "Brigadier General",
+          "fullname": "August Kautz",
+          "navy": false
         },
         {
-          "rank": "Major General",
-          "first_name": "David",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Birney",
-          "fullname": "David Birney"
-        }
-      ]
-    },
-    "CS": {
-      "corps": 1,
-      "commanders": [
-        {
-          "rank": "General",
-          "first_name": "Robert",
           "suffix": "",
-          "navy": false,
-          "middle_name": "E.",
-          "last_name": "Lee",
-          "fullname": "Robert E. Lee"
+          "first_name": "David",
+          "rank": "Major General",
+          "fullname": "David Birney",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
     }
   },
-  "result": "Union",
-  "battle": "VA077",
+  "campaign": "Richmond-Petersburg Campaign [June 1864-March 1865]",
+  "end_date": "1864-10-07",
+  "description": "Responding to the loss of Fort Harrison and the increasing Federal threat against Richmond, Gen. Robert E. Lee directed an offensive against the Union far right flank on October 7. After routing the Federal cavalry from their position covering Darbytown Road, Field's and Hoke's divisions assaulted the main Union defensive line along New Market Road and were repulsed. Confederate Gen. John Gregg of the Texas brigade was killed. The Federals were not dislodged, and Lee withdrew into the Richmond defenses.",
   "location": [
     {
       "state": "VA",
       "place": "Henrico County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/va077.htm"
+  "battle_name": "Darbytown & New Market\r\nRoads",
+  "start_date": "1864-10-07",
+  "casualties": 1750,
+  "principal_commanders": "Brig. Gen. August Kautz and Maj. Gen. David Birney [US]; Gen. Robert E. Lee [CS]"
 }

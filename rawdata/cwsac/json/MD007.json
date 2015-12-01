@@ -1,104 +1,104 @@
 {
-  "end_date": "1864-07-09",
-  "casualties": 2359,
-  "casualties_text": "2,359 total",
+  "battle": "MD007",
+  "operation": false,
+  "cwsac_reference": "MD007",
   "forces": {
     "Confederate": {
-      "corps": 1,
       "commanders": [
         {
-          "rank": "Lieutenant General",
-          "first_name": "Jubal",
-          "suffix": "",
-          "navy": false,
           "middle_name": "A.",
           "last_name": "Early",
-          "fullname": "Jubal A. Early"
+          "suffix": "",
+          "first_name": "Jubal",
+          "rank": "Lieutenant General",
+          "fullname": "Jubal A. Early",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
     },
     "US": {
-      "corps": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Lew",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Wallace",
-          "fullname": "Lew Wallace"
+          "suffix": "",
+          "first_name": "Lew",
+          "rank": "Major General",
+          "fullname": "Lew Wallace",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
     }
   },
-  "cwsac_reference": "MD007",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/md007.htm",
   "forces_text": "Corps",
-  "start_date": "1864-07-09",
-  "preservation": "I.3",
+  "casualties_text": "2,359 total",
   "results_text": "Confederate victory",
-  "description": "After marching north through the Shenandoah Valley from Lynchburg, the Confederate army of Lt. Gen. Jubal A. Early side-stepped the Federal garrison at Harpers Ferry and crossed the Potomac River at Shepherdstown into Maryland on July 5-6. On July 9, 1864, a makeshift Union force under Maj. Gen. Lew Wallace attempted to arrest Early's invading Confederate divisions along the Monocacy River, just east of Frederick. Wallace, joined by Ricketts's Division of the VI Corps that had been rushed from the Petersburg lines, was outflanked by Gordon's Division and defeated after putting up a stiff resistance. Hearing of Early's incursion into Maryland, Grant embarked the rest of the VI Corps on transports at City Point, sending it with all dispatch to Washington. Wallace's defeat at Monocacy bought time for these veteran troops to arrive to bolster the defenses of Washington. Early's advance reached the outskirts of Washington on the afternoon of July 11, and the remaining divisions of the VI Corps began disembarking that evening. Monocacy was called the \"Battle that Saved Washington.\"",
-  "state": "MD",
-  "significance": "B",
+  "dates": "July 9, 1864",
+  "result": "Confederate",
   "other_names": [
     "Battle that Saved Washington"
   ],
-  "dates": "July 9, 1864",
-  "battle_name": "Monocacy",
-  "principal_commanders": "Maj. Gen. Lew Wallace [US]; Lt. Gen. Jubal A. Early [CS]",
-  "campaign": "Early's Raid and Operations Against the B&O Railroad [June-August 1864]",
+  "significance": "B",
+  "preservation": "I.3",
+  "state": "MD",
   "belligerents": {
-    "Confederate": {
-      "corps": 1,
+    "CS": {
       "commanders": [
         {
-          "rank": "Lieutenant General",
-          "first_name": "Jubal",
-          "suffix": "",
-          "navy": false,
           "middle_name": "A.",
           "last_name": "Early",
-          "fullname": "Jubal A. Early"
+          "suffix": "",
+          "first_name": "Jubal",
+          "rank": "Lieutenant General",
+          "fullname": "Jubal A. Early",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
+    },
+    "Confederate": {
+      "commanders": [
+        {
+          "middle_name": "A.",
+          "last_name": "Early",
+          "suffix": "",
+          "first_name": "Jubal",
+          "rank": "Lieutenant General",
+          "fullname": "Jubal A. Early",
+          "navy": false
+        }
+      ],
+      "corps": 1
     },
     "US": {
-      "corps": 1,
       "commanders": [
         {
-          "rank": "Major General",
-          "first_name": "Lew",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Wallace",
-          "fullname": "Lew Wallace"
-        }
-      ]
-    },
-    "CS": {
-      "corps": 1,
-      "commanders": [
-        {
-          "rank": "Lieutenant General",
-          "first_name": "Jubal",
           "suffix": "",
-          "navy": false,
-          "middle_name": "A.",
-          "last_name": "Early",
-          "fullname": "Jubal A. Early"
+          "first_name": "Lew",
+          "rank": "Major General",
+          "fullname": "Lew Wallace",
+          "navy": false
         }
-      ]
+      ],
+      "corps": 1
     }
   },
-  "result": "Confederate",
-  "battle": "MD007",
+  "campaign": "Early's Raid and Operations Against the B&O Railroad [June-August 1864]",
+  "end_date": "1864-07-09",
+  "description": "After marching north through the Shenandoah Valley from Lynchburg, the Confederate army of Lt. Gen. Jubal A. Early side-stepped the Federal garrison at Harpers Ferry and crossed the Potomac River at Shepherdstown into Maryland on July 5-6. On July 9, 1864, a makeshift Union force under Maj. Gen. Lew Wallace attempted to arrest Early's invading Confederate divisions along the Monocacy River, just east of Frederick. Wallace, joined by Ricketts's Division of the VI Corps that had been rushed from the Petersburg lines, was outflanked by Gordon's Division and defeated after putting up a stiff resistance. Hearing of Early's incursion into Maryland, Grant embarked the rest of the VI Corps on transports at City Point, sending it with all dispatch to Washington. Wallace's defeat at Monocacy bought time for these veteran troops to arrive to bolster the defenses of Washington. Early's advance reached the outskirts of Washington on the afternoon of July 11, and the remaining divisions of the VI Corps began disembarking that evening. Monocacy was called the \"Battle that Saved Washington.\"",
   "location": [
     {
       "state": "MD",
       "place": "Frederick County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/md007.htm"
+  "battle_name": "Monocacy",
+  "start_date": "1864-07-09",
+  "casualties": 2359,
+  "principal_commanders": "Maj. Gen. Lew Wallace [US]; Lt. Gen. Jubal A. Early [CS]"
 }

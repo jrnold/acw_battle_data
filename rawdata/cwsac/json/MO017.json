@@ -1,146 +1,146 @@
 {
-  "end_date": "1862-11-07",
-  "casualties": null,
-  "casualties_text": "Total unknown (US 113; CS unknown)",
+  "battle": "MO017",
+  "operation": false,
+  "cwsac_reference": "MO017",
   "forces": {
     "Confederate": {
       "casualties": null,
+      "strength_min": 1000,
       "commanders": [
         {
-          "rank": "Colonel",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Q.",
           "last_name": "Burbridge",
-          "fullname": "John Q. Burbridge"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Colonel",
+          "fullname": "John Q. Burbridge",
+          "navy": false
         },
         {
-          "rank": "Colonel",
-          "first_name": "Colton",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Greene",
-          "fullname": "Colton Greene"
+          "suffix": "",
+          "first_name": "Colton",
+          "rank": "Colonel",
+          "fullname": "Colton Greene",
+          "navy": false
         }
       ],
       "description": "cavalry brigade (approx. 1,000 men)",
-      "strength_min": 1000,
       "strength_max": 1000
     },
     "US": {
       "casualties": 113,
+      "strength_min": 113,
       "commanders": [
         {
-          "rank": "Captain",
-          "first_name": "Hiram",
-          "suffix": "",
-          "navy": false,
           "middle_name": "E.",
           "last_name": "Barstow",
-          "fullname": "Hiram E. Barstow"
+          "suffix": "",
+          "first_name": "Hiram",
+          "rank": "Captain",
+          "fullname": "Hiram E. Barstow",
+          "navy": false
         }
       ],
       "description": "Detachments of 10th Illinois Cavalry and State Militia (approx. 100 men)",
-      "strength_min": 113,
       "strength_max": 113
     }
   },
-  "cwsac_reference": "MO017",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/mo017.htm",
   "forces_text": "Detachments of 10th Illinois Cavalry and State Militia (approx. 100 men) [US]; cavalry brigade (approx. 1,000 men) [CS]",
-  "start_date": "1862-11-07",
-  "preservation": "IV.1",
+  "casualties_text": "Total unknown (US 113; CS unknown)",
   "results_text": "Confederate victory",
-  "description": "Having received reports that Confederate troops were in the area, Capt. Hiram E. Barstow, Union commander at Clark's Mill, sent a detachment toward Gainesville and he led another southeastward. Barstow's men ran into a Confederate force, skirmished with them and drove them back. His column then fell back to Clark's Mill where he learned that another Confederate force was coming from the northeast. Unlimbering artillery to command both approach roads, Barstow was soon engaged in a five-hour fight with the enemy. Under a white flag, the Confederates demanded a surrender, and the Union, given their numerical inferiority, accepted. The Confederates paroled the Union troops and departed after burning the blockhouse at Clark's Mill. Clark's Mill helped the Confederates to maintain a toehold in southwest Missouri.",
-  "state": "MO",
-  "significance": "D",
+  "dates": "November 7, 1862",
+  "result": "Confederate",
   "other_names": [
     "Vera Cruz"
   ],
-  "dates": "November 7, 1862",
-  "battle_name": "Clark's Mill",
-  "principal_commanders": "Capt. Hiram E. Barstow [US]; Col. John Q. Burbridge and Col. Colton Greene [CS]",
-  "campaign": "Operations North of Boston Mountains [August-November 1862]",
+  "significance": "D",
+  "preservation": "IV.1",
+  "state": "MO",
   "belligerents": {
-    "Confederate": {
+    "CS": {
       "casualties": null,
+      "strength_min": 1000,
       "commanders": [
         {
-          "rank": "Colonel",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Q.",
           "last_name": "Burbridge",
-          "fullname": "John Q. Burbridge"
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Colonel",
+          "fullname": "John Q. Burbridge",
+          "navy": false
         },
         {
-          "rank": "Colonel",
-          "first_name": "Colton",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Greene",
-          "fullname": "Colton Greene"
+          "suffix": "",
+          "first_name": "Colton",
+          "rank": "Colonel",
+          "fullname": "Colton Greene",
+          "navy": false
         }
       ],
       "description": "cavalry brigade (approx. 1,000 men)",
+      "strength_max": 1000
+    },
+    "Confederate": {
+      "casualties": null,
       "strength_min": 1000,
+      "commanders": [
+        {
+          "middle_name": "Q.",
+          "last_name": "Burbridge",
+          "suffix": "",
+          "first_name": "John",
+          "rank": "Colonel",
+          "fullname": "John Q. Burbridge",
+          "navy": false
+        },
+        {
+          "middle_name": "",
+          "last_name": "Greene",
+          "suffix": "",
+          "first_name": "Colton",
+          "rank": "Colonel",
+          "fullname": "Colton Greene",
+          "navy": false
+        }
+      ],
+      "description": "cavalry brigade (approx. 1,000 men)",
       "strength_max": 1000
     },
     "US": {
       "casualties": 113,
+      "strength_min": 113,
       "commanders": [
         {
-          "rank": "Captain",
-          "first_name": "Hiram",
-          "suffix": "",
-          "navy": false,
           "middle_name": "E.",
           "last_name": "Barstow",
-          "fullname": "Hiram E. Barstow"
+          "suffix": "",
+          "first_name": "Hiram",
+          "rank": "Captain",
+          "fullname": "Hiram E. Barstow",
+          "navy": false
         }
       ],
       "description": "Detachments of 10th Illinois Cavalry and State Militia (approx. 100 men)",
-      "strength_min": 113,
       "strength_max": 113
-    },
-    "CS": {
-      "casualties": null,
-      "commanders": [
-        {
-          "rank": "Colonel",
-          "first_name": "John",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "Q.",
-          "last_name": "Burbridge",
-          "fullname": "John Q. Burbridge"
-        },
-        {
-          "rank": "Colonel",
-          "first_name": "Colton",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Greene",
-          "fullname": "Colton Greene"
-        }
-      ],
-      "description": "cavalry brigade (approx. 1,000 men)",
-      "strength_min": 1000,
-      "strength_max": 1000
     }
   },
-  "result": "Confederate",
-  "battle": "MO017",
+  "campaign": "Operations North of Boston Mountains [August-November 1862]",
+  "end_date": "1862-11-07",
+  "description": "Having received reports that Confederate troops were in the area, Capt. Hiram E. Barstow, Union commander at Clark's Mill, sent a detachment toward Gainesville and he led another southeastward. Barstow's men ran into a Confederate force, skirmished with them and drove them back. His column then fell back to Clark's Mill where he learned that another Confederate force was coming from the northeast. Unlimbering artillery to command both approach roads, Barstow was soon engaged in a five-hour fight with the enemy. Under a white flag, the Confederates demanded a surrender, and the Union, given their numerical inferiority, accepted. The Confederates paroled the Union troops and departed after burning the blockhouse at Clark's Mill. Clark's Mill helped the Confederates to maintain a toehold in southwest Missouri.",
   "location": [
     {
       "state": "MO",
       "place": "Douglas County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/mo017.htm"
+  "battle_name": "Clark's Mill",
+  "start_date": "1862-11-07",
+  "casualties": null,
+  "principal_commanders": "Capt. Hiram E. Barstow [US]; Col. John Q. Burbridge and Col. Colton Greene [CS]"
 }

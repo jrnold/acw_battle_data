@@ -1,98 +1,98 @@
 {
-  "end_date": "1864-05-09",
-  "casualties": 1500,
-  "casualties_text": "1,500 total",
+  "battle": "VA049",
+  "operation": false,
+  "cwsac_reference": "VA049",
   "forces": {
     "Confederate": {
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Albert",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Jenkins",
-          "fullname": "Albert Jenkins"
+          "suffix": "",
+          "first_name": "Albert",
+          "rank": "Brigadier General",
+          "fullname": "Albert Jenkins",
+          "navy": false
         }
       ]
     },
     "US": {
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "George",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Crook",
-          "fullname": "George Crook"
+          "suffix": "",
+          "first_name": "George",
+          "rank": "Brigadier General",
+          "fullname": "George Crook",
+          "navy": false
         }
       ]
     }
   },
-  "strength": 10000,
-  "cwsac_reference": "VA049",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/va049.htm",
   "forces_text": "Divisions (total 10,000)",
-  "start_date": "1864-05-09",
-  "preservation": "III.3",
+  "strength": 10000,
+  "casualties_text": "1,500 total",
   "results_text": "Union victory",
-  "description": "On May 9, Crook's three brigades (6,100 men) on a raid into southwestern Virginia encountered a patchwork Confederate force under Brig. Gen. Albert Jenkins at Cloyd's Mountain. Fighting was furious and hand-to-hand. Casualties were heavy for the size of the forces engaged: Union 10%, Confederate 23%. Jenkins was mortally wounded. Crook afterwards joined forces with Averell, who had burned the New River Bridge, and the united column withdrew to Meadow Bluff after destroying several important railroad bridges.",
-  "state": "VA",
-  "significance": "C",
-  "other_names": null,
   "dates": "May 9, 1864",
-  "battle_name": "Cloyd's Mountain",
-  "principal_commanders": "Brig. Gen. George Crook [US]; Brig. Gen. Albert Jenkins [CS]",
+  "result": "Union",
+  "other_names": null,
+  "significance": "C",
+  "preservation": "III.3",
+  "state": "VA",
+  "belligerents": {
+    "CS": {
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Jenkins",
+          "suffix": "",
+          "first_name": "Albert",
+          "rank": "Brigadier General",
+          "fullname": "Albert Jenkins",
+          "navy": false
+        }
+      ]
+    },
+    "Confederate": {
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Jenkins",
+          "suffix": "",
+          "first_name": "Albert",
+          "rank": "Brigadier General",
+          "fullname": "Albert Jenkins",
+          "navy": false
+        }
+      ]
+    },
+    "US": {
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Crook",
+          "suffix": "",
+          "first_name": "George",
+          "rank": "Brigadier General",
+          "fullname": "George Crook",
+          "navy": false
+        }
+      ]
+    }
+  },
+  "campaign": "Crook-Averell Raid on the Virginia & Tennessee Railroad [May 1864]",
+  "end_date": "1864-05-09",
+  "description": "On May 9, Crook's three brigades (6,100 men) on a raid into southwestern Virginia encountered a patchwork Confederate force under Brig. Gen. Albert Jenkins at Cloyd's Mountain. Fighting was furious and hand-to-hand. Casualties were heavy for the size of the forces engaged: Union 10%, Confederate 23%. Jenkins was mortally wounded. Crook afterwards joined forces with Averell, who had burned the New River Bridge, and the united column withdrew to Meadow Bluff after destroying several important railroad bridges.",
   "location": [
     {
       "state": "VA",
       "place": "Pulaski County"
     }
   ],
-  "belligerents": {
-    "Confederate": {
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "Albert",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Jenkins",
-          "fullname": "Albert Jenkins"
-        }
-      ]
-    },
-    "US": {
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "George",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Crook",
-          "fullname": "George Crook"
-        }
-      ]
-    },
-    "CS": {
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "Albert",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Jenkins",
-          "fullname": "Albert Jenkins"
-        }
-      ]
-    }
-  },
-  "result": "Union",
-  "battle": "VA049",
-  "campaign": "Crook-Averell Raid on the Virginia & Tennessee Railroad [May 1864]",
-  "url": "http://www.nps.gov/hps/abpp/battles/va049.htm"
+  "battle_name": "Cloyd's Mountain",
+  "start_date": "1864-05-09",
+  "casualties": 1500,
+  "principal_commanders": "Brig. Gen. George Crook [US]; Brig. Gen. Albert Jenkins [CS]"
 }

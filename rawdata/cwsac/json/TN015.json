@@ -1,114 +1,114 @@
 {
-  "end_date": "1863-03-25",
-  "casualties": 311,
-  "casualties_text": "311 total (US 305; CS 6)",
+  "battle": "TN015",
+  "operation": false,
+  "cwsac_reference": "TN015",
   "forces": {
     "Confederate": {
       "casualties": 6,
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Nathan",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Bedford",
           "last_name": "Forrest",
-          "fullname": "Nathan Bedford Forrest"
+          "suffix": "",
+          "first_name": "Nathan",
+          "rank": "Brigadier General",
+          "fullname": "Nathan Bedford Forrest",
+          "navy": false
         }
       ],
-      "divisions": 1,
       "description": "Forrest's Division"
     },
     "US": {
       "casualties": 305,
+      "strength_min": 400,
       "commanders": [
         {
-          "rank": "Lieutenant Colonel",
-          "first_name": "Edward",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Bloodgood",
-          "fullname": "Edward Bloodgood"
+          "suffix": "",
+          "first_name": "Edward",
+          "rank": "Lieutenant Colonel",
+          "fullname": "Edward Bloodgood",
+          "navy": false
         }
       ],
       "description": "Detachments of the 22nd Wisconsin Volunteer Infantry, 33rd Indiana, and 19th Michigan Volunteer Infantry regiments, 1st Division, 1st Cavalry Corps (approx. 400)",
-      "strength_min": 400,
       "strength_max": 400
     }
   },
-  "cwsac_reference": "TN015",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/tn015.htm",
   "forces_text": "Detachments of the 22nd Wisconsin Volunteer Infantry, 33rd Indiana, and 19th Michigan Volunteer Infantry regiments, 1st Division, 1st Cavalry Corps (approx. 400) [US]; Forrest's Division [CS]",
-  "start_date": "1863-03-25",
-  "preservation": "II.4",
+  "casualties_text": "311 total (US 305; CS 6)",
   "results_text": "Confederate victory",
-  "description": "Union Lt. Col. Edward Bloodgood held Brentwood, a station on the Nashville & Decatur Railroad, with 400 men on the morning of March 25, 1863, when Confederate Brig. Gen. Nathan B. Forrest, with a powerful column, approached the town. The day before, Forrest had ordered Col. J.W. Starnes, commanding the 2nd Brigade, to go to Brentwood, cut the telegraph, tear up railroad track, attack the stockade, and cut off any retreat. Forrest and the other cavalry brigade joined Bloodgood about 7:00 am on the 25th. A messenger from the stockade informed Bloodgood that Forrest's men were about to attack and had destroyed railroad track. Bloodgood sought to notify his superiors and discovered that the telegraph lines were cut. Forrest sent in a demand for a surrender under a flag of truce but Bloodgood refused. Within a half hour, though, Forrest had artillery in place to shell Bloodgood's position and had surrounded the Federals with a large force. Bloodgood decided to surrender. Forrest and his men caused a lot of damage in the area during this expedition, and Brentwood, on the railroad, was a significant loss to the Federals.",
-  "state": "TN",
-  "significance": "D",
-  "other_names": null,
   "dates": "March 25, 1863",
-  "battle_name": "Brentwood",
-  "principal_commanders": "Lt. Col. Edward Bloodgood [US]; Brig. Gen. Nathan Bedford Forrest [CS]",
-  "campaign": "Middle Tennessee Operations [February-April 1863]",
+  "result": "Confederate",
+  "other_names": null,
+  "significance": "D",
+  "preservation": "II.4",
+  "state": "TN",
   "belligerents": {
-    "Confederate": {
-      "casualties": 6,
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "Nathan",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "Bedford",
-          "last_name": "Forrest",
-          "fullname": "Nathan Bedford Forrest"
-        }
-      ],
-      "divisions": 1,
-      "description": "Forrest's Division"
-    },
-    "US": {
-      "casualties": 305,
-      "commanders": [
-        {
-          "rank": "Lieutenant Colonel",
-          "first_name": "Edward",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Bloodgood",
-          "fullname": "Edward Bloodgood"
-        }
-      ],
-      "description": "Detachments of the 22nd Wisconsin Volunteer Infantry, 33rd Indiana, and 19th Michigan Volunteer Infantry regiments, 1st Division, 1st Cavalry Corps (approx. 400)",
-      "strength_min": 400,
-      "strength_max": 400
-    },
     "CS": {
       "casualties": 6,
+      "divisions": 1,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "Nathan",
-          "suffix": "",
-          "navy": false,
           "middle_name": "Bedford",
           "last_name": "Forrest",
-          "fullname": "Nathan Bedford Forrest"
+          "suffix": "",
+          "first_name": "Nathan",
+          "rank": "Brigadier General",
+          "fullname": "Nathan Bedford Forrest",
+          "navy": false
         }
       ],
-      "divisions": 1,
       "description": "Forrest's Division"
+    },
+    "Confederate": {
+      "casualties": 6,
+      "divisions": 1,
+      "commanders": [
+        {
+          "middle_name": "Bedford",
+          "last_name": "Forrest",
+          "suffix": "",
+          "first_name": "Nathan",
+          "rank": "Brigadier General",
+          "fullname": "Nathan Bedford Forrest",
+          "navy": false
+        }
+      ],
+      "description": "Forrest's Division"
+    },
+    "US": {
+      "casualties": 305,
+      "strength_min": 400,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Bloodgood",
+          "suffix": "",
+          "first_name": "Edward",
+          "rank": "Lieutenant Colonel",
+          "fullname": "Edward Bloodgood",
+          "navy": false
+        }
+      ],
+      "description": "Detachments of the 22nd Wisconsin Volunteer Infantry, 33rd Indiana, and 19th Michigan Volunteer Infantry regiments, 1st Division, 1st Cavalry Corps (approx. 400)",
+      "strength_max": 400
     }
   },
-  "result": "Confederate",
-  "battle": "TN015",
+  "campaign": "Middle Tennessee Operations [February-April 1863]",
+  "end_date": "1863-03-25",
+  "description": "Union Lt. Col. Edward Bloodgood held Brentwood, a station on the Nashville & Decatur Railroad, with 400 men on the morning of March 25, 1863, when Confederate Brig. Gen. Nathan B. Forrest, with a powerful column, approached the town. The day before, Forrest had ordered Col. J.W. Starnes, commanding the 2nd Brigade, to go to Brentwood, cut the telegraph, tear up railroad track, attack the stockade, and cut off any retreat. Forrest and the other cavalry brigade joined Bloodgood about 7:00 am on the 25th. A messenger from the stockade informed Bloodgood that Forrest's men were about to attack and had destroyed railroad track. Bloodgood sought to notify his superiors and discovered that the telegraph lines were cut. Forrest sent in a demand for a surrender under a flag of truce but Bloodgood refused. Within a half hour, though, Forrest had artillery in place to shell Bloodgood's position and had surrounded the Federals with a large force. Bloodgood decided to surrender. Forrest and his men caused a lot of damage in the area during this expedition, and Brentwood, on the railroad, was a significant loss to the Federals.",
   "location": [
     {
       "state": "TN",
       "place": "Williamson County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/tn015.htm"
+  "battle_name": "Brentwood",
+  "start_date": "1863-03-25",
+  "casualties": 311,
+  "principal_commanders": "Lt. Col. Edward Bloodgood [US]; Brig. Gen. Nathan Bedford Forrest [CS]"
 }

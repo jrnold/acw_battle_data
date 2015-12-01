@@ -1,117 +1,117 @@
 {
-  "end_date": "1863-11-03",
-  "casualties": 155,
-  "casualties_text": "155 total (US 60; CS 95)",
+  "battle": "TN022",
+  "operation": false,
+  "cwsac_reference": "TN022",
   "forces": {
     "Confederate": {
       "casualties": 95,
+      "strength_min": 2500,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
           "middle_name": "R.",
           "last_name": "Chalmers",
-          "fullname": "James R. Chalmers"
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Brigadier General",
+          "fullname": "James R. Chalmers",
+          "navy": false
         }
       ],
       "description": "cavalry division (2,500)",
-      "strength_min": 2500,
       "strength_max": 2500
     },
     "US": {
       "casualties": 60,
+      "strength_min": 850,
       "commanders": [
         {
-          "rank": "Colonel",
-          "first_name": "Edward",
-          "suffix": "",
-          "navy": false,
           "middle_name": "",
           "last_name": "Hatch",
-          "fullname": "Edward Hatch"
+          "suffix": "",
+          "first_name": "Edward",
+          "rank": "Colonel",
+          "fullname": "Edward Hatch",
+          "navy": false
         }
       ],
       "description": "3rd Cavalry Brigade (850)",
-      "strength_min": 850,
       "strength_max": 850
     }
   },
-  "cwsac_reference": "TN022",
-  "operation": false,
+  "url": "http://www.nps.gov/hps/abpp/battles/tn022.htm",
   "forces_text": "3rd Cavalry Brigade (850) [US]; cavalry division (2,500) [CS]",
-  "start_date": "1863-11-03",
-  "preservation": "IV.1",
+  "casualties_text": "155 total (US 60; CS 95)",
   "results_text": "Union victory",
-  "description": "Four minor battles occurred in 1863 at Collierville, Tennessee, during a three-month period. The November 3 fight was intended to be a Confederate cavalry raid to break up the Memphis & Charleston Railroad behind Maj. Gen. William T. Sherman's XV Army Corps, then in the process of marching to the relief of Chattanooga. But, when Brig. Gen. James R. Chalmers, leading a cavalry division riding up from Mississippi, learned that only two Union regiments defended Collierville, he decided to attack. Union Col. Edward Hatch possessed more men than Chalmers supposed, stationed at Collierville and at Germantown, five miles to the west. Scouts warned Hatch of Chalmers's approach from the south, so he ordered Collierville's defenders to be prepared and rode from Germantown with cavalry reinforcements. Chalmers, as he had done only three weeks earlier, attacked from the south. Col. Hatch arrived with help. Surprised by the unexpected appearance of the enemy on his flanks, Chalmers concluded that he was outnumbered, called off the battle, and, to ward off Union pursuit, withdrew back to Mississippi. The Memphis & Charleston Railroad remained open to Tuscumbia, Alabama, for Union troop movements.",
-  "state": "TN",
-  "significance": "D",
-  "other_names": null,
   "dates": "November 3, 1863",
-  "battle_name": "Collierville",
-  "principal_commanders": "Col. Edward Hatch [US]; Brig. Gen. James R. Chalmers [CS]",
-  "campaign": "Operations on the Memphis & Charleston Railroad [November 1863]",
+  "result": "Union",
+  "other_names": null,
+  "significance": "D",
+  "preservation": "IV.1",
+  "state": "TN",
   "belligerents": {
-    "Confederate": {
-      "casualties": 95,
-      "commanders": [
-        {
-          "rank": "Brigadier General",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "R.",
-          "last_name": "Chalmers",
-          "fullname": "James R. Chalmers"
-        }
-      ],
-      "description": "cavalry division (2,500)",
-      "strength_min": 2500,
-      "strength_max": 2500
-    },
-    "US": {
-      "casualties": 60,
-      "commanders": [
-        {
-          "rank": "Colonel",
-          "first_name": "Edward",
-          "suffix": "",
-          "navy": false,
-          "middle_name": "",
-          "last_name": "Hatch",
-          "fullname": "Edward Hatch"
-        }
-      ],
-      "description": "3rd Cavalry Brigade (850)",
-      "strength_min": 850,
-      "strength_max": 850
-    },
     "CS": {
       "casualties": 95,
+      "strength_min": 2500,
       "commanders": [
         {
-          "rank": "Brigadier General",
-          "first_name": "James",
-          "suffix": "",
-          "navy": false,
           "middle_name": "R.",
           "last_name": "Chalmers",
-          "fullname": "James R. Chalmers"
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Brigadier General",
+          "fullname": "James R. Chalmers",
+          "navy": false
         }
       ],
       "description": "cavalry division (2,500)",
-      "strength_min": 2500,
       "strength_max": 2500
+    },
+    "Confederate": {
+      "casualties": 95,
+      "strength_min": 2500,
+      "commanders": [
+        {
+          "middle_name": "R.",
+          "last_name": "Chalmers",
+          "suffix": "",
+          "first_name": "James",
+          "rank": "Brigadier General",
+          "fullname": "James R. Chalmers",
+          "navy": false
+        }
+      ],
+      "description": "cavalry division (2,500)",
+      "strength_max": 2500
+    },
+    "US": {
+      "casualties": 60,
+      "strength_min": 850,
+      "commanders": [
+        {
+          "middle_name": "",
+          "last_name": "Hatch",
+          "suffix": "",
+          "first_name": "Edward",
+          "rank": "Colonel",
+          "fullname": "Edward Hatch",
+          "navy": false
+        }
+      ],
+      "description": "3rd Cavalry Brigade (850)",
+      "strength_max": 850
     }
   },
-  "result": "Union",
-  "battle": "TN022",
+  "campaign": "Operations on the Memphis & Charleston Railroad [November 1863]",
+  "end_date": "1863-11-03",
+  "description": "Four minor battles occurred in 1863 at Collierville, Tennessee, during a three-month period. The November 3 fight was intended to be a Confederate cavalry raid to break up the Memphis & Charleston Railroad behind Maj. Gen. William T. Sherman's XV Army Corps, then in the process of marching to the relief of Chattanooga. But, when Brig. Gen. James R. Chalmers, leading a cavalry division riding up from Mississippi, learned that only two Union regiments defended Collierville, he decided to attack. Union Col. Edward Hatch possessed more men than Chalmers supposed, stationed at Collierville and at Germantown, five miles to the west. Scouts warned Hatch of Chalmers's approach from the south, so he ordered Collierville's defenders to be prepared and rode from Germantown with cavalry reinforcements. Chalmers, as he had done only three weeks earlier, attacked from the south. Col. Hatch arrived with help. Surprised by the unexpected appearance of the enemy on his flanks, Chalmers concluded that he was outnumbered, called off the battle, and, to ward off Union pursuit, withdrew back to Mississippi. The Memphis & Charleston Railroad remained open to Tuscumbia, Alabama, for Union troop movements.",
   "location": [
     {
       "state": "TN",
       "place": "Shelby County"
     }
   ],
-  "url": "http://www.nps.gov/hps/abpp/battles/tn022.htm"
+  "battle_name": "Collierville",
+  "start_date": "1863-11-03",
+  "casualties": 155,
+  "principal_commanders": "Col. Edward Hatch [US]; Brig. Gen. James R. Chalmers [CS]"
 }
