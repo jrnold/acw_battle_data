@@ -6974,6 +6974,7 @@ VA031:
   casualties_min: 1160
   casualties_text: 1,160 total for the entire siege of Suffolk, from April 11 to May
     4; 260 US, 900 CS
+  casualties_battles: ['VA030', 'VA031']
   county: Suffolk
   description: Suffolk II (Hill's Point), Virginia (VA031) , Suffolk, April 19, 1863
   end_date: '1863-04-19'
@@ -7000,6 +7001,7 @@ VA032:
   casualties_min: null
   casualties_text: 18,000 US, 12,800 CS, including the engagements at Fredericksburg
     and Salem Church
+  casualties_battles: ['VA032', 'VA033', 'VA034']
   county: Spotsylvania County
   description: Chancellorsville, Virginia (VA032) , Spotsylvania County, April 30-May
     6, 1863
@@ -7088,6 +7090,7 @@ VA038:
   casualties_max: null
   casualties_min: null
   casualties_text: for Aldie, Middleburg, and Upperville, 827 US, 510 CS
+  casualties_battles: ['VA036', 'VA037', 'VA038']
   county: Loudoun and Fauquier Counties
   description: Upperville, Virginia (VA038) , Loudoun and Fauquier Counties, June
     21, 1863
