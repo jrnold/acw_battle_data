@@ -16,21 +16,37 @@ Antietam (September 17, 1862):
     casualties_generals: 11
     casualties_officers: 837
     casualties_percent: 28.0
-    commander:
+    commanders:
     - dbpedia: Robert_E._Lee
+      first_name: R.
+      last_name: Lee
+      middle_name: ''
       name: R. Lee
       rank: Gen.
+      suffix: ''
     country: Confederacy
     generals_killed:
     - dbpedia: George_B._Anderson
+      first_name: G.
+      last_name: Anderson
+      middle_name: B.
       name: G. B. Anderson
       rank: Brig.-Gen.
+      suffix: ''
     - dbpedia: Lawrence_O'Bryan_Branch
+      first_name: L.
+      last_name: Branch
+      middle_name: O.
       name: L. O. Branch
       rank: Brig.-Gen.
+      suffix: ''
     - dbpedia: William_E._Starke
+      first_name: W.
+      last_name: Starke
+      middle_name: E.
       name: W. E. Starke
       rank: Brig.-Gen.
+      suffix: ''
     killed: 1510
     killed_generals: 3
     killed_officers: 149
@@ -60,21 +76,37 @@ Antietam (September 17, 1862):
     casualties_generals: 13
     casualties_officers: 613
     casualties_percent: 20.9
-    commander:
+    commanders:
     - dbpedia: George_B._McClellan
+      first_name: S.
+      last_name: McClellan
+      middle_name: B.
       name: S. B. McClellan
       rank: Gen.
+      suffix: ''
     country: Union
     generals_killed:
     - dbpedia: Joseph_K._Mansfield
+      first_name: J.
+      last_name: Mansfield
+      middle_name: K. F.
       name: J. K. F. Mansfield
       rank: GM.
+      suffix: ''
     - dbpedia: Israel_B._Richardson
+      first_name: J.
+      last_name: Richardson
+      middle_name: B.
       name: J. B. Richardson
       rank: GM.
+      suffix: ''
     - dbpedia: Isaac_P._Rodman
+      first_name: J.
+      last_name: Rodman
+      middle_name: P.
       name: J. P. Rodman
       rank: B.-G.
+      suffix: ''
     killed: 2100
     killed_generals: 3
     killed_officers: 139
@@ -112,10 +144,14 @@ Appomattox-Court-House (April 09, 1865):
     \ des James River], 120 km westl. von Richmond."
   loser:
     captured: 8000
-    commander:
+    commanders:
     - dbpedia: Robert_E._Lee
+      first_name: R.
+      last_name: Lee
+      middle_name: ''
       name: R. Lee
       rank: Gen.
+      suffix: ''
     country: Confederacy
     guns: 63
     strength: 28000
@@ -125,10 +161,14 @@ Appomattox-Court-House (April 09, 1865):
   page: 542
   start_date: *id002
   victor:
-    commander:
+    commanders:
     - dbpedia: Ulysses_S._Grant
+      first_name: U.
+      last_name: Grant
+      middle_name: S.
       name: U. S. Grant
       rank: Gen.-Lt.
+      suffix: ''
     country: Union
     strength: 100000
 Arkansas Post (January 11, 1863):
@@ -149,10 +189,14 @@ Arkansas Post (January 11, 1863):
     captured: 4800
     casualties: 5000
     casualties_percent: 100
-    commander:
+    commanders:
     - dbpedia: Thomas_J._Churchill
+      first_name: ''
+      last_name: Churchill
+      middle_name: ''
       name: Churchill
       rank: Brig.-Gen.
+      suffix: ''
     country: Confederacy
     killed_wounded: 200
     strength: 5000
@@ -166,10 +210,14 @@ Arkansas Post (January 11, 1863):
     captured: 0
     casualties: 1100
     casualties_percent: 4.2
-    commander:
+    commanders:
     - dbpedia: John_A._McClernand
+      first_name: ''
+      last_name: McClernand
+      middle_name: ''
       name: McClernand
       rank: GM.
+      suffix: ''
     country: Union
     killed_wounded: 1100
     strength: 28000
@@ -188,15 +236,23 @@ Atlanta (July 22, 1864):
   loser:
     casualties: 8500
     casualties_percent: 21.5
-    commander:
+    commanders:
     - dbpedia: John_Bell_Hood
+      first_name: J.
+      last_name: Hood
+      middle_name: B.
       name: J. B. Hood
       rank: Gen.
+      suffix: ''
     country: Confederacy
     generals_killed:
     - dbpedia: William_H.T._Walker
+      first_name: W.
+      last_name: Walker
+      middle_name: H. T.
       name: W. H. T. Walker
       rank: GM.
+      suffix: ''
     strength: 40000
   name: Atlanta
   order: 3
@@ -206,18 +262,30 @@ Atlanta (July 22, 1864):
   victor:
     casualties: 4000
     casualties_percent: 5.7
-    commander:
+    commanders:
     - dbpedia: William_Tecumseh_Sherman
+      first_name: W.
+      last_name: Sherman
+      middle_name: T.
       name: W. T. Sherman
       rank: GM.
+      suffix: ''
     country: Union
     generals_killed:
     - dbpedia: James_B._McPherson
+      first_name: J.
+      last_name: McPherson
+      middle_name: B.
       name: J. B. McPherson
       rank: GM.
+      suffix: ''
     - dbpedia: Daniel_McCook,_Jr.
+      first_name: D.
+      last_name: McCook
+      middle_name: ''
       name: D. McCook
       rank: B.-G.
+      suffix: ''
     strength: 70000
 Bentonville (March 05, 1865):
   category:
@@ -234,10 +302,14 @@ Bentonville (March 05, 1865):
   loser:
     casualties: 3300
     casualties_percent: 11.0
-    commander:
+    commanders:
     - dbpedia: Joseph_E._Johnston
+      first_name: J.
+      last_name: Johnston
+      middle_name: ''
       name: J. Johnston
       rank: Gen.
+      suffix: ''
     country: Confederacy
     killed_wounded: 1700
     killed_wounded_percent: 5.7
@@ -254,10 +326,14 @@ Bentonville (March 05, 1865):
     casualties_generals: 1
     casualties_officers: 85
     casualties_percent: 2.9
-    commander:
+    commanders:
     - dbpedia: William_Tecumseh_Sherman
+      first_name: W.
+      last_name: Sherman
+      middle_name: T.
       name: W. T. Sherman
       rank: GM.
+      suffix: ''
     country: Union
     killed_wounded: 1500
     killed_wounded_generals: 1
@@ -283,15 +359,23 @@ Boonsborough (September 14, 1862):
   loser:
     casualties: 2100
     casualties_percent: 14.0
-    commander:
+    commanders:
     - dbpedia: James_Longstreet
+      first_name: ''
+      last_name: Longstreet
+      middle_name: ''
       name: Longstreet
       rank: Gen.-Lt.
+      suffix: ''
     country: Confederacy
     generals_killed:
     - dbpedia: Samuel_Garland,_Jr.
+      first_name: S.
+      last_name: Garland
+      middle_name: ''
       name: S. Garland
       rank: Brig.-Gen.
+      suffix: ''
     killed: 300
     killed_wounded: 1600
     killed_wounded_percent: 10.7
@@ -310,15 +394,23 @@ Boonsborough (September 14, 1862):
     casualties_generals: 2
     casualties_officers: 81
     casualties_percent: 8
-    commander:
+    commanders:
     - dbpedia: George_B._McClellan
+      first_name: ''
+      last_name: McClellan
+      middle_name: ''
       name: McClellan
       rank: Gen.
+      suffix: ''
     country: Union
     generals_killed:
     - dbpedia: Jesse_L._Reno
+      first_name: J.
+      last_name: Reno
+      middle_name: L.
       name: J. L. Reno
       rank: GM.
+      suffix: ''
     killed: 350
     killed_generals: 1
     killed_officers: 13
@@ -350,24 +442,44 @@ Bull-Run (August 29, 1862):
     casualties_generals: 10
     casualties_officers: 699
     casualties_percent: 24.2
-    commander:
+    commanders:
     - dbpedia: John_Pope_(military_officer)
+      first_name: J.
+      last_name: Pope
+      middle_name: ''
       name: J. Pope
       rank: Gen.
+      suffix: ''
     country: Union
     generals_killed:
     - dbpedia: Philip_Kearny
+      first_name: P.
+      last_name: Kearny
+      middle_name: ''
       name: P. Kearny
       rank: GM.
+      suffix: ''
     - dbpedia: Isaac_Stevens
+      first_name: J.
+      last_name: Stevens
+      middle_name: ''
       name: J. Stevens
       rank: GM.
+      suffix: ''
     - dbpedia: Henry_Bohlen
+      first_name: H.
+      last_name: Bohlen
+      middle_name: ''
       name: H. Bohlen
       rank: B.-G.
+      suffix: ''
     - dbpedia: George_W._Taylor_(general)
+      first_name: W.
+      last_name: Taylor
+      middle_name: ''
       name: W. Taylor
       rank: B.-G.
+      suffix: ''
     killed: 1700
     killed_generals: 4
     killed_officers: 132
@@ -396,10 +508,14 @@ Bull-Run (August 29, 1862):
     casualties_generals: 4
     casualties_officers: 829
     casualties_percent: 18.9
-    commander:
+    commanders:
     - dbpedia: Robert_E._Lee
+      first_name: R.
+      last_name: Lee
+      middle_name: ''
       name: R. Lee
       rank: Gen.
+      suffix: ''
     country: Confederacy
     killed: 1550
     killed_generals: 0
@@ -439,10 +555,14 @@ Bull-Run (July 21, 1861):
     casualties: 2900
     casualties_officers: 144
     casualties_percent: 15.2
-    commander:
+    commanders:
     - dbpedia: Irvin_McDowell
+      first_name: ''
+      last_name: McDowell
+      middle_name: ''
       name: McDowell
       rank: GM.
+      suffix: ''
     country: Union
     guns: 49
     killed: 470
@@ -471,15 +591,23 @@ Bull-Run (July 21, 1861):
     casualties: 2000
     casualties_officers: 89
     casualties_percent: 11
-    commander:
+    commanders:
     - dbpedia: P.G.T._Beauregard
+      first_name: ''
+      last_name: Beauregard
+      middle_name: ''
       name: Beauregard
       rank: Gen.
+      suffix: ''
     country: Confederacy
     generals_killed:
     - dbpedia: Barnard_E._Bee_Jr.
+      first_name: ''
+      last_name: Bee
+      middle_name: ''
       name: Bee
       rank: Brig-Gen.
+      suffix: ''
     guns: 44
     killed: 400
     killed_officers: 26
@@ -511,10 +639,14 @@ Cedar Mountain (August 09, 1862):
     casualties_generals: 3
     casualties_officers: 165
     casualties_percent: 14
-    commander:
+    commanders:
     - dbpedia: Nathaniel_Prentice_Banks
+      first_name: ''
+      last_name: Banks
+      middle_name: ''
       name: Banks
       rank: GM.
+      suffix: ''
     country: Union
     killed: 330
     killed_generals: 0
@@ -539,15 +671,23 @@ Cedar Mountain (August 09, 1862):
   victor:
     casualties: 1300
     casualties_percent: 6.5
-    commander:
+    commanders:
     - dbpedia: Stonewall_Jackson
+      first_name: T.
+      last_name: Jackson
+      middle_name: J.
       name: T. J. Jackson
       rank: Gen.-Lt.
+      suffix: ''
     country: Confederacy
     generals_killed:
     - dbpedia: Charles_S._Winder
+      first_name: C.
+      last_name: Winder
+      middle_name: S.
       name: C. S. Winder
       rank: Brig. Gen.
+      suffix: ''
     killed: 230
     killed_wounded: 1300
     killed_wounded_percent: 6.5
@@ -569,15 +709,23 @@ Champion's Hill (May 16, 1863):
   loser:
     casualties: 6000
     casualties_percent: 33.3
-    commander:
+    commanders:
     - dbpedia: John_C._Pemberton
+      first_name: ''
+      last_name: Pemberton
+      middle_name: ''
       name: Pemberton
       rank: Gen.-Lt.
+      suffix: ''
     country: Confederacy
     generals_killed:
     - dbpedia: Lloyd_Tilghman
+      first_name: L.
+      last_name: Tilghman
+      middle_name: ''
       name: L. Tilghman
       rank: B.-G.
+      suffix: ''
     killed_wounded: 3000
     killed_wounded_percent: 16.6
     losses_canons: 11
@@ -595,10 +743,14 @@ Champion's Hill (May 16, 1863):
     casualties: 2500
     casualties_officers: 139
     casualties_percent: 8.4
-    commander:
+    commanders:
     - dbpedia: Ulysses_S._Grant
+      first_name: U.
+      last_name: Grant
+      middle_name: S.
       name: U. S. Grant
       rank: GM.
+      suffix: ''
     country: Union
     killed: 450
     killed_officers: 27
@@ -628,20 +780,36 @@ Chancellorsville (May 03, 1863):
     casualties_generals: 12
     casualties_officers: 990
     casualties_percent: 14.5
-    commander:
+    commanders:
     - dbpedia: Joseph_Hooker
+      first_name: ''
+      last_name: Hooker
+      middle_name: ''
       name: Hooker
       rank: GM.
+      suffix: ''
     country: Union
     generals_killed:
     - dbpedia: Hiram_George_Berry
+      first_name: H.
+      last_name: Berry
+      middle_name: G.
       name: H. G. Berry
       rank: GM.
+      suffix: ''
     - dbpedia: Amiel_Weeks_Whipple
+      first_name: ''
+      last_name: A. W. Whipple
+      middle_name: ''
       name: A. W. Whipple,
       rank: GM.
-    - name: E. Kirby
+      suffix: ''
+    - first_name: E.
+      last_name: Kirby
+      middle_name: ''
+      name: E. Kirby
       rank: B.-G.
+      suffix: ''
     guns: 404
     killed: 1600
     killed_generals: 3
@@ -671,18 +839,30 @@ Chancellorsville (May 03, 1863):
     casualties: 12800
     casualties_generals: 10
     casualties_percent: 16.0
-    commander:
+    commanders:
     - dbpedia: Robert_E._Lee
+      first_name: R.
+      last_name: Lee
+      middle_name: ''
       name: R. Lee
       rank: Gen.
+      suffix: ''
     country: Confederacy
     generals_killed:
     - dbpedia: Stonewall_Jackson
+      first_name: T.
+      last_name: Jackson
+      middle_name: J.
       name: T. J. Jackson
       rank: Gen.-Lt.
+      suffix: ''
     - dbpedia: Elisha_F._Paxton
+      first_name: E.
+      last_name: Paxton
+      middle_name: F.
       name: E. F. Paxton
       rank: B.-G.
+      suffix: ''
     guns: 170
     killed: 1700
     killed_generals: 2
@@ -728,10 +908,14 @@ Charleston (April 01, 1863):
   end_date: 1865-02-18
   location: "Bedeutendste Hafenstadt S\xFCd-Carolinas."
   loser:
-    commander:
+    commanders:
     - dbpedia: P.G.T._Beauregard
+      first_name: ''
+      last_name: Beauregard
+      middle_name: ''
       name: Beauregard
       rank: Gen.
+      suffix: ''
     country: Confederacy
   name: Charleston
   order: null
@@ -739,19 +923,35 @@ Charleston (April 01, 1863):
   page: 540
   start_date: 1863-04-01
   victor:
-    commander:
+    commanders:
     - dbpedia: David_Hunter
+      first_name: ''
+      last_name: Hunter
+      middle_name: ''
       name: Hunter
       rank: Gen.
+      suffix: ''
     - dbpedia: Quincy_Adams_Gillmore
+      first_name: ''
+      last_name: Gillmore
+      middle_name: ''
       name: Gillmore
       rank: Gen.
+      suffix: ''
     - dbpedia: Samuel_Francis_Du_Pont
+      first_name: ''
+      last_name: Dupont
+      middle_name: ''
       name: Dupont
       rank: Adm.
+      suffix: ''
     - dbpedia: John_A._Dahlgren
+      first_name: ''
+      last_name: Dahlgreen
+      middle_name: ''
       name: Dahlgreen
       rank: Adm.
+      suffix: ''
     country: Union
 Chickahominy (June 25, 1862):
   category:
@@ -802,10 +1002,14 @@ Chickahominy (June 25, 1862):
     casualties_officers: 678
     casualties_percent: 15.2
     cavalry: 7000
-    commander:
+    commanders:
     - dbpedia: George_B._McClellan
+      first_name: ''
+      last_name: McClellan
+      middle_name: ''
       name: McClellan
       rank: Gen.-Lt.
+      suffix: ''
     country: Union
     guns: 340
     infantry: 99000
@@ -841,10 +1045,14 @@ Chickahominy (June 25, 1862):
     casualties_officers: 1327
     casualties_percent: 21.2
     cavalry: 6000
-    commander:
+    commanders:
     - dbpedia: Robert_E._Lee
+      first_name: R.
+      last_name: Lee.
+      middle_name: ''
       name: R. Lee.
       rank: Gen.
+      suffix: ''
     country: Confederacy
     guns: 250
     infantry: 88000
@@ -883,15 +1091,23 @@ Chickamauga (September 19, 1863):
     casualties_officers: 1000
     casualties_percent: 29.0
     cavalry: 10000
-    commander:
+    commanders:
     - dbpedia: William_S._Rosecrans
+      first_name: ''
+      last_name: Rosecrans
+      middle_name: ''
       name: Rosecrans
       rank: GM.
+      suffix: ''
     country: Union
     generals_killed:
     - dbpedia: William_Haines_Lytle
+      first_name: W.
+      last_name: Lytle
+      middle_name: H.
       name: W. H. Lytle
       rank: B.-G.
+      suffix: ''
     guns: 246
     infantry: 47000
     killed: 1700
@@ -922,21 +1138,37 @@ Chickamauga (September 19, 1863):
     casualties_generals: 10
     casualties_percent: 25.4
     cavalry: 8000
-    commander:
+    commanders:
     - dbpedia: Braxton_Bragg
+      first_name: B.
+      last_name: Bragg
+      middle_name: ''
       name: B. Bragg
       rank: Gen.
+      suffix: ''
     country: Confederacy
     generals_killed:
     - dbpedia: Preston_Smith_(general)
+      first_name: P.
+      last_name: Smith
+      middle_name: ''
       name: P. Smith
       rank: GM.
+      suffix: ''
     - dbpedia: James_Deshler
+      first_name: J.
+      last_name: Deschler
+      middle_name: ''
       name: J. Deschler
       rank: B.-G.
+      suffix: ''
     - dbpedia: Benjamin_Hardin_Helm
+      first_name: B.
+      last_name: Helm
+      middle_name: H.
       name: B. H. Helm
       rank: B.-G.
+      suffix: ''
     infantry: 62000
     killed: 2400
     killed_generals: 3
@@ -967,10 +1199,14 @@ Chickasaw Bluffs (January 03, 1863):
     stl. von Vicksburg."
   loser:
     casualties: 1800
-    commander:
+    commanders:
     - dbpedia: William_Tecumseh_Sherman
+      first_name: ''
+      last_name: Sherman
+      middle_name: ''
       name: Sherman
       rank: GM.
+      suffix: ''
     country: Union
     killed_wounded: 1200
     missing: 600
@@ -982,10 +1218,14 @@ Chickasaw Bluffs (January 03, 1863):
   start_date: *id010
   victor:
     casualties: 200
-    commander:
+    commanders:
     - dbpedia: John_C._Pemberton
+      first_name: ''
+      last_name: Pemberton
+      middle_name: ''
       name: Pemberton
       rank: Gen.-Lt.
+      suffix: ''
     country: Confederacy
     killed_wounded: 200
     strength: 25000
@@ -1006,10 +1246,14 @@ Cold Harbor (June 03, 1864):
     casualties_generals: 1
     casualties_officers: 610
     casualties_percent: 12.8
-    commander:
+    commanders:
     - dbpedia: Ulysses_S._Grant
+      first_name: U.
+      last_name: Grant
+      middle_name: S.
       name: U. S. Grant
       rank: GL.
+      suffix: ''
     country: Union
     killed: 1900
     killed_officers: 143
@@ -1034,10 +1278,14 @@ Cold Harbor (June 03, 1864):
   victor:
     casualties: 1700
     casualties_percent: 2.7
-    commander:
+    commanders:
     - dbpedia: Robert_E._Lee
+      first_name: R.
+      last_name: Lee
+      middle_name: ''
       name: R. Lee
       rank: Gen.
+      suffix: ''
     country: Confederacy
     killed: 400
     killed_percent: 0.5
@@ -1063,10 +1311,14 @@ Corinth (October 03, 1862):
   loser:
     casualties: 6000
     casualties_percent: 27.3
-    commander:
+    commanders:
     - dbpedia: Earl_Van_Dorn
+      first_name: Earl
+      last_name: van Dorn
+      middle_name: ''
       name: Earl van Dorn
       rank: Gen.-Lt.
+      suffix: ''
     country: Confederacy
     killed: 500
     killed_wounded: 2700
@@ -1085,15 +1337,23 @@ Corinth (October 03, 1862):
     casualties_generals: 4
     casualties_officers: 147
     casualties_percent: 10.5
-    commander:
+    commanders:
     - dbpedia: William_S._Rosecrans
+      first_name: ''
+      last_name: Rosecrans
+      middle_name: ''
       name: Rosecrans
       rank: GM.
+      suffix: ''
     country: Union
     generals_killed:
     - dbpedia: Pleasant_A._Hackleman
+      first_name: P.
+      last_name: Hackleman
+      middle_name: A.
       name: P. A. Hackleman
       rank: Brig.-Gen.
+      suffix: ''
     killed: 350
     killed_generals: 1
     killed_officers: 27
@@ -1126,10 +1386,14 @@ Drewry's Bluff (May 16, 1864):
     captured: 1500
     casualties: 4500
     casualties_percent: 15
-    commander:
+    commanders:
     - dbpedia: Benjamin_Franklin_Butler_(politician)
+      first_name: ''
+      last_name: Butler
+      middle_name: ''
       name: Butler
       rank: GM.
+      suffix: ''
     country: Union
     killed_wounded: 3000
     losses_cannon: 5
@@ -1144,10 +1408,14 @@ Drewry's Bluff (May 16, 1864):
     captured: 0
     casualties: 3000
     casualties_percent: 12
-    commander:
+    commanders:
     - dbpedia: P.G.T._Beauregard
+      first_name: ''
+      last_name: Beauregard
+      middle_name: ''
       name: Beauregard
       rank: Gen.-Lt.
+      suffix: ''
     country: Confederacy
     killed_wounded: 3000
     strength: 25000
@@ -1164,10 +1432,14 @@ Durham's-Station (April 25, 1865):
   loser:
     captured: 35200
     casualties: 35200
-    commander:
+    commanders:
     - dbpedia: Joseph_E._Johnston
+      first_name: J.
+      last_name: Johnston
+      middle_name: ''
       name: J. Johnston
       rank: Gen.
+      suffix: ''
     country: Confederacy
     missing: 35200
     strength: 35200
@@ -1177,10 +1449,14 @@ Durham's-Station (April 25, 1865):
   page: 542
   start_date: *id013
   victor:
-    commander:
+    commanders:
     - dbpedia: William_Tecumseh_Sherman
+      first_name: W.
+      last_name: Sherman
+      middle_name: T.
       name: W. T. Sherman
       rank: GM.
+      suffix: ''
     country: Union
     strength: 90000
 Ezra-Church (July 28, 1864):
@@ -1198,10 +1474,14 @@ Ezra-Church (July 28, 1864):
   loser:
     casualties: 4600
     casualties_percent: 15.3
-    commander:
+    commanders:
     - dbpedia: John_Bell_Hood
+      first_name: J.
+      last_name: Hood
+      middle_name: B.
       name: J. B. Hood
       rank: Gen.
+      suffix: ''
     country: Confederacy
     strength: 30000
   name: Ezra-Church
@@ -1213,10 +1493,14 @@ Ezra-Church (July 28, 1864):
   victor:
     casualties: 700
     casualties_percent: 1.2
-    commander:
+    commanders:
     - dbpedia: William_Tecumseh_Sherman
+      first_name: W.
+      last_name: Sherman
+      middle_name: T.
       name: W. T. Sherman
       rank: GM.
+      suffix: ''
     country: Union
     strength: 60000
 Fort Donelson (February 12, 1862):
@@ -1237,10 +1521,14 @@ Fort Donelson (February 12, 1862):
     captured: 13000
     casualties: 15000
     casualties_percent: 82
-    commander:
+    commanders:
     - dbpedia: Simon_Bolivar_Buckner,_Sr.
+      first_name: ''
+      last_name: Buckner
+      middle_name: ''
       name: Buckner
       rank: Brig.-Gen.
+      suffix: ''
     country: Confederacy
     killed_wounded: 2000
     killed_wounded_percent: 12
@@ -1257,10 +1545,14 @@ Fort Donelson (February 12, 1862):
   victor:
     casualties: 2900
     casualties_percent: 10.8
-    commander:
+    commanders:
     - dbpedia: Ulysses_S._Grant
+      first_name: ''
+      last_name: Grant
+      middle_name: ''
       name: Grant
       rank: Brig.-Gen.
+      suffix: ''
     country: Union
     killed_wounded: 2660
     killed_wounded_percent: 9.9
@@ -1283,10 +1575,14 @@ Franklin (November 30, 1864):
     casualties: 2700
     casualties_percent: 10.0
     cavalry: 5000
-    commander:
-    - name: Schofield
+    commanders:
+    - dbpedia: John_Schofield
+      first_name: ''
+      last_name: Schofield
+      middle_name: ''
+      name: Schofield
       rank: GM.
-      dbpedia: "John_Schofield"
+      suffix: ''
     country: Union
     infantry: 22000
     killed: 200
@@ -1308,27 +1604,51 @@ Franklin (November 30, 1864):
     casualties_generals: 12
     casualties_percent: 17.2
     cavalry: 7000
-    commander:
-    - name: J. B. Hood
+    commanders:
+    - dbpedia: John_Bell_Hood
+      first_name: J.
+      last_name: Hood
+      middle_name: B.
+      name: J. B. Hood
       rank: Gen.
-      dbpedia: "John_Bell_Hood"
+      suffix: ''
     country: Confederacy
     generals_killed:
-    - name: P. R. Cleburne
+    - dbpedia: Patrick_Cleburne
+      first_name: P.
+      last_name: Cleburne
+      middle_name: R.
+      name: P. R. Cleburne
       rank: GM.
-      dbpedia: "Patrick_Cleburne"
-    - name: J. Adams
+      suffix: ''
+    - dbpedia: null
+      first_name: J.
+      last_name: Adams
+      middle_name: ''
+      name: J. Adams
       rank: B.-G.
-      dbpedia: null
-    - name: S. R. Gist
+      suffix: ''
+    - dbpedia: States_Rights_Gist
+      first_name: S.
+      last_name: Gist
+      middle_name: R.
+      name: S. R. Gist
       rank: B.-G.
-      dbpedia: "States_Rights_Gist"
-    - name: H. B. Gransbury
+      suffix: ''
+    - dbpedia: Hiram_B._Granbury
+      first_name: H.
+      last_name: Gransbury
+      middle_name: B.
+      name: H. B. Gransbury
       rank: B.-G.
-      dbpedia: "Hiram_B._Granbury"
-    - name: O. F. Strahl
+      suffix: ''
+    - dbpedia: Otho_F._Strahl
+      first_name: O.
+      last_name: Strahl
+      middle_name: F.
+      name: O. F. Strahl
       rank: B.-G.
-      dbpedia: "Otho_F._Strahl"
+      suffix: ''
     infantry: 30000
     killed: 1750
     killed_generals: 5
@@ -1361,18 +1681,30 @@ Fredericksburg (December 11, 1862):
     casualties_officers: 798
     casualties_percent: 11.2
     cavalry: 6000
-    commander:
-    - name: A. Burnside
+    commanders:
+    - dbpedia: Ambrose_Everett_Burnside
+      first_name: A.
+      last_name: Burnside
+      middle_name: ''
+      name: A. Burnside
       rank: BM.
-      dbpedia: "Ambrose_Everett_Burnside"
+      suffix: ''
     country: Union
     generals_killed:
-    - name: G. D. Bayard
+    - dbpedia: George_Dashiell_Bayard
+      first_name: G.
+      last_name: Bayard
+      middle_name: D.
+      name: G. D. Bayard
       rank: Brig.-Gen.
-      dbpedia: "George_Dashiell_Bayard"
-    - name: C. F. Jackson
+      suffix: ''
+    - dbpedia: Conrad_Feger_Jackson
+      first_name: C.
+      last_name: Jackson
+      middle_name: F.
+      name: C. F. Jackson
       rank: Brig.-Gen.
-      dbpedia: "Conrad_Feger_Jackson"
+      suffix: ''
     infantry: 111000
     killed: 1350
     killed_generals: 2
@@ -1402,18 +1734,30 @@ Fredericksburg (December 11, 1862):
     casualties_officers: 326
     casualties_percent: 7.0
     cavalry: 5000
-    commander:
-    - name: R. Lee
+    commanders:
+    - dbpedia: Robert_E._Lee
+      first_name: R.
+      last_name: Lee
+      middle_name: ''
+      name: R. Lee
       rank: Gen.
-      dbpedia: "Robert_E._Lee"
+      suffix: ''
     country: Confederacy
     generals_killed:
-    - name: T. R. Cobb
+    - dbpedia: Thomas_Reade_Rootes_Cobb
+      first_name: T.
+      last_name: Cobb
+      middle_name: R.
+      name: T. R. Cobb
       rank: Brig.-Gen.
-      dbpedia: "Thomas_Reade_Rootes_Cobb"
-    - name: M. Gregg
+      suffix: ''
+    - dbpedia: Maxcy_Gregg
+      first_name: M.
+      last_name: Gregg
+      middle_name: ''
+      name: M. Gregg
       rank: Brig.-Gen.
-      dbpedia: "Maxcy_Gregg"
+      suffix: ''
     infantry: 73000
     killed: 600
     killed_generals: 2
@@ -1449,27 +1793,51 @@ Gettysburg (July 01, 1863):
     casualties_generals: 20
     casualties_percent: 32.6
     cavalry: 8000
-    commander:
-    - name: R. Lee
+    commanders:
+    - dbpedia: Robert_E._Lee
+      first_name: R.
+      last_name: Lee
+      middle_name: ''
+      name: R. Lee
       rank: Gen.
-      dbpedia: "Robert_E._Lee"
+      suffix: ''
     country: Confederacy
     generals_killed:
-    - name: W. Pender
+    - dbpedia: William_Dorsey_Pender
+      first_name: W.
+      last_name: Pender
+      middle_name: ''
+      name: W. Pender
       rank: GM.
-      dbpedia: "William_Dorsey_Pender"
-    - name: A. Armistead
+      suffix: ''
+    - dbpedia: Lewis_Addison_Armistead
+      first_name: A.
+      last_name: Armistead
+      middle_name: ''
+      name: A. Armistead
       rank: B.-G.
-      dbpedia: "Lewis_Addison_Armistead"
-    - name: W. Barksdale
+      suffix: ''
+    - dbpedia: William_Barksdale
+      first_name: W.
+      last_name: Barksdale
+      middle_name: ''
+      name: W. Barksdale
       rank: B.-G.
-      dbpedia: "William_Barksdale"
-    - name: R. B. Garnett
+      suffix: ''
+    - dbpedia: Richard_B._Garnett
+      first_name: R.
+      last_name: Garnett
+      middle_name: B.
+      name: R. B. Garnett
       rank: B.-G.
-      dbpedia: "Richard_B._Garnett"
-    - name: P. J. Semmes
+      suffix: ''
+    - dbpedia: Paul_Jones_Semmes
+      first_name: P.
+      last_name: Semmes
+      middle_name: J.
+      name: P. J. Semmes
       rank: B.-G.
-      dbpedia: "Paul_Jones_Semmes"
+      suffix: ''
     guns: 250
     infantry: 60000
     killed: 2600
@@ -1498,27 +1866,51 @@ Gettysburg (July 01, 1863):
     casualties_officers: 1561
     casualties_percent: 25.0
     cavalry: 13000
-    commander:
-    - name: G. G. Meade
+    commanders:
+    - dbpedia: George_Gordon_Meade
+      first_name: G.
+      last_name: Meade
+      middle_name: G.
+      name: G. G. Meade
       rank: GM.
-      dbpedia: "George_Gordon_Meade"
+      suffix: ''
     country: Union
     generals_killed:
-    - name: J. F. Reynolds
+    - dbpedia: John_Fulton_Reynolds
+      first_name: J.
+      last_name: Reynolds
+      middle_name: F.
+      name: J. F. Reynolds
       rank: GM.
-      dbpedia: "John_Fulton_Reynolds"
-    - name: S. K. Zook
+      suffix: ''
+    - dbpedia: Samuel_K._Zook
+      first_name: S.
+      last_name: Zook
+      middle_name: K.
+      name: S. K. Zook
       rank: GM.
-      dbpedia: "Samuel_K._Zook"
-    - name: E. J. Farnsworth
+      suffix: ''
+    - dbpedia: Elon_J._Farnsworth
+      first_name: E.
+      last_name: Farnsworth
+      middle_name: J.
+      name: E. J. Farnsworth
       rank: B.-G.
-      dbpedia: "Elon_J._Farnsworth"
-    - name: S. Vincent
+      suffix: ''
+    - dbpedia: Strong_Vincent
+      first_name: S.
+      last_name: Vincent
+      middle_name: ''
+      name: S. Vincent
       rank: B.-G.
-      dbpedia: "Strong_Vincent"
-    - name: S. Weed
+      suffix: ''
+    - dbpedia: Stephen_H._Weed
+      first_name: S.
+      last_name: Weed
+      middle_name: ''
+      name: S. Weed
       rank: B.-G.
-      dbpedia: "Stephen_H._Weed"
+      suffix: ''
     guns: 300
     infantry: 77000
     killed: 3160
@@ -1558,15 +1950,23 @@ Harper's Ferry (September 15, 1862):
     \ westl. von Washington"
   loser:
     casualties: 14000
-    commander:
-    - name: D. Miles
+    commanders:
+    - dbpedia: Dixon_S._Miles
+      first_name: D.
+      last_name: Miles
+      middle_name: ''
+      name: D. Miles
       rank: Oberst
-      dbpedia: "Dixon_S._Miles"
+      suffix: ''
     country: Union
     generals_killed:
-    - name: D. Miles
+    - dbpedia: Dixon_S._Miles
+      first_name: D.
+      last_name: Miles
+      middle_name: ''
+      name: D. Miles
       rank: Brigadier Obst.
-      dbpedia: "Dixon_S._Miles"
+      suffix: ''
     guns: 73
     losses_canons: 73
     strength: 14000
@@ -1576,10 +1976,14 @@ Harper's Ferry (September 15, 1862):
   page: 527
   start_date: *id016
   victor:
-    commander:
-    - name: T. J. Jackson
+    commanders:
+    - dbpedia: Stonewall_Jackson
+      first_name: T.
+      last_name: Jackson
+      middle_name: J.
+      name: T. J. Jackson
       rank: Gen.-Lt.
-      dbpedia: "Stonewall_Jackson"
+      suffix: ''
     country: Confederacy
     strength: 30000
 Kenesaw-Mountain (June 27, 1864):
@@ -1597,10 +2001,14 @@ Kenesaw-Mountain (June 27, 1864):
   loser:
     casualties: 3000
     casualties_percent: 17
-    commander:
-    - name: W. T. Sherman
+    commanders:
+    - dbpedia: William_Tecumseh_Sherman
+      first_name: W.
+      last_name: Sherman
+      middle_name: T.
+      name: W. T. Sherman
       rank: GM.
-      dbpedia: "William_Tecumseh_Sherman"
+      suffix: ''
     country: Union
     strength: 18000
   name: Kenesaw-Mountain
@@ -1611,10 +2019,14 @@ Kenesaw-Mountain (June 27, 1864):
   victor:
     casualties: 800
     casualties_percent: 13.5
-    commander:
-    - name: J. Johnston
+    commanders:
+    - dbpedia: Joseph_E._Johnston
+      first_name: J.
+      last_name: Johnston
+      middle_name: ''
+      name: J. Johnston
       rank: Gen.
-      dbpedia: "Joseph_E._Johnston"
+      suffix: ''
     country: Confederacy
     strength: 6000
 Lexington (September 20, 1861):
@@ -1633,10 +2045,14 @@ Lexington (September 20, 1861):
   location: Stadt in den Vereinigten Staaten von Nordamerika, Missouri, am rechten
     Ufer des Missouri, 320 km nordwestl. von St. Louis.
   loser:
-    commander:
-    - name: Mulligan
+    commanders:
+    - dbpedia: James_A._Mulligan
+      first_name: ''
+      last_name: Mulligan
+      middle_name: ''
+      name: Mulligan
       rank: Oberst
-      dbpedia: "James_A._Mulligan"
+      suffix: ''
     country: Union
     guns: 9
     strength: 3000
@@ -1646,10 +2062,14 @@ Lexington (September 20, 1861):
   page: 522
   start_date: *id018
   victor:
-    commander:
-    - name: Price
+    commanders:
+    - dbpedia: Sterling_Price
+      first_name: ''
+      last_name: Price
+      middle_name: ''
+      name: Price
       rank: GM.
-      dbpedia: "Sterling_Price"
+      suffix: ''
     country: Confederacy
     guns: 16
     strength: 10000
@@ -1669,15 +2089,23 @@ Middletown (October 19, 1864):
   loser:
     casualties: 3100
     casualties_percent: 16.8
-    commander:
-    - name: J. A. Early
+    commanders:
+    - dbpedia: Jubal_Anderson_Early
+      first_name: J.
+      last_name: Early
+      middle_name: A.
+      name: J. A. Early
       rank: Gen.-Lt.
-      dbpedia: "Jubal_Anderson_Early"
+      suffix: ''
     country: Confederacy
     generals_killed:
-    - name: S. D. Ramseur
+    - dbpedia: Stephen_Dodson_Ramseur
+      first_name: S.
+      last_name: Ramseur
+      middle_name: D.
+      name: S. D. Ramseur
       rank: GM.
-      dbpedia: "Stephen_Dodson_Ramseur"
+      suffix: ''
     killed_wounded: 1900
     killed_wounded_percent: 10.5
     losses_canons: 23
@@ -1693,18 +2121,30 @@ Middletown (October 19, 1864):
   victor:
     casualties: 5700
     casualties_percent: 14.2
-    commander:
-    - name: P. H. Sheridan
+    commanders:
+    - dbpedia: Philip_Sheridan
+      first_name: P.
+      last_name: Sheridan
+      middle_name: H.
+      name: P. H. Sheridan
       rank: GM.
-      dbpedia: "Philip_Sheridan"
+      suffix: ''
     country: Union
     generals_killed:
-    - name: D. D. Bidwell
+    - dbpedia: Daniel_Davidson_Bidwell
+      first_name: D.
+      last_name: Bidwell
+      middle_name: D.
+      name: D. D. Bidwell
       rank: B.-G.
-      dbpedia: "Daniel_Davidson_Bidwell"
-    - name: C. R. Lowell
+      suffix: ''
+    - dbpedia: Charles_Russell_Lowell
+      first_name: C.
+      last_name: Lowell
+      middle_name: R.
+      name: C. R. Lowell
       rank: B.-G.
-      dbpedia: "Charles_Russell_Lowell"
+      suffix: ''
     killed_wounded: 4100
     killed_wounded_percent: 10.2
     missing: 1600
@@ -1737,13 +2177,21 @@ Mobile (April 02, 1865):
   page: 542
   start_date: 1865-04-02
   victor:
-    commander:
-    - name: Cranby
+    commanders:
+    - dbpedia: Edward_Richard_Sprigg_Canby
+      first_name: ''
+      last_name: Cranby
+      middle_name: ''
+      name: Cranby
       rank: GM.
-      dbpedia: "Edward_Richard_Sprigg_Canby"
-    - name: Farragut
+      suffix: ''
+    - dbpedia: David_Farragut
+      first_name: ''
+      last_name: Farragut
+      middle_name: ''
+      name: Farragut
       rank: Adm.
-      dbpedia: "David_Farragut"
+      suffix: ''
     country: Union
     strength: 45000
 Murfreesborough (December 31, 1862):
@@ -1764,18 +2212,30 @@ Murfreesborough (December 31, 1862):
     casualties_officers: 824
     casualties_percent: 27.5
     cavalry: 4500
-    commander:
-    - name: B. Bragg
+    commanders:
+    - dbpedia: Braxton_Bragg
+      first_name: B.
+      last_name: Bragg
+      middle_name: ''
+      name: B. Bragg
       rank: Gen.
-      dbpedia: "Braxton_Bragg"
+      suffix: ''
     country: Confederacy
     generals_killed:
-    - name: R. W. Hanson
+    - dbpedia: Roger_Hanson
+      first_name: R.
+      last_name: Hanson
+      middle_name: W.
+      name: R. W. Hanson
       rank: Brig.-Gen.
-      dbpedia: "Roger_Hanson"
-    - name: J. E. Rains
+      suffix: ''
+    - dbpedia: James_Edward_Rains
+      first_name: J.
+      last_name: Rains
+      middle_name: E.
+      name: J. E. Rains
       rank: Brig.-Gen.
-      dbpedia: "James_Edward_Rains"
+      suffix: ''
     guns: 120
     infantry: 33500
     killed: 1300
@@ -1808,18 +2268,30 @@ Murfreesborough (December 31, 1862):
     casualties_officers: 551
     casualties_percent: 30.3
     cavalry: 3200
-    commander:
-    - name: Rosecrans
+    commanders:
+    - dbpedia: William_S._Rosecrans
+      first_name: ''
+      last_name: Rosecrans
+      middle_name: ''
+      name: Rosecrans
       rank: GM.
-      dbpedia: "William_S._Rosecrans"
+      suffix: ''
     country: Union
     generals_killed:
-    - name: E. N. Kirk
+    - dbpedia: Edward_N._Kirk
+      first_name: E.
+      last_name: Kirk
+      middle_name: N.
+      name: E. N. Kirk
       rank: Brig.-Gen.
-      dbpedia: "Edward_N._Kirk"
-    - name: J. W. Sill
+      suffix: ''
+    - dbpedia: Joshua_W._Sill
+      first_name: J.
+      last_name: Sill
+      middle_name: W.
+      name: J. W. Sill
       rank: Brig.-Gen.
-      dbpedia: "Joshua_W._Sill"
+      suffix: ''
     guns: 100
     infantry: 41800
     killed: 1730
@@ -1857,10 +2329,14 @@ Nashville (December 15, 1864):
     casualties: 15000
     casualties_percent: 39.6
     cavalry: 2000
-    commander:
-    - name: J. B. Hood
+    commanders:
+    - dbpedia: John_Bell_Hood
+      first_name: J.
+      last_name: Hood
+      middle_name: B.
+      name: J. B. Hood
       rank: Gen.
-      dbpedia: "John_Bell_Hood"
+      suffix: ''
     country: Confederacy
     infantry: 36000
     losses_cannon: 51
@@ -1874,15 +2350,23 @@ Nashville (December 15, 1864):
     casualties: 3100
     casualties_percent: 5.6
     cavalry: 12000
-    commander:
-    - name: G. H. Thomas
+    commanders:
+    - dbpedia: George_Henry_Thomas
+      first_name: G.
+      last_name: Thomas
+      middle_name: H.
+      name: G. H. Thomas
       rank: GM.
-      dbpedia: "George_Henry_Thomas"
+      suffix: ''
     country: Union
     generals_killed:
-    - name: S. G. Hill
+    - dbpedia: nullo
+      first_name: S.
+      last_name: Hill
+      middle_name: G.
+      name: S. G. Hill
       rank: Brig.-Gen.
-      dbpedia: nullo
+      suffix: ''
     infantry: 43000
     strength: 55000
 New-Hope-Church (May 28, 1864):
@@ -1899,10 +2383,14 @@ New-Hope-Church (May 28, 1864):
   location: Ort in Georgia, 50 km nordwestl. von Atlanta.
   loser:
     casualties: 3000
-    commander:
-    - name: J. Johnston
+    commanders:
+    - dbpedia: Joseph_E._Johnston
+      first_name: J.
+      last_name: Johnston
+      middle_name: ''
+      name: J. Johnston
       rank: Gen.
-      dbpedia: "Joseph_E._Johnston"
+      suffix: ''
     country: Confederacy
     strength: 40000
   name: New Hope Church
@@ -1913,10 +2401,14 @@ New-Hope-Church (May 28, 1864):
   start_date: *id020
   victor:
     casualties: 2400
-    commander:
-      - name: W. T. Sherman
-        rank: Gen.-Lt.
-        dbpedia: "William_Tecumseh_Sherman"
+    commanders:
+    - dbpedia: William_Tecumseh_Sherman
+      first_name: W.
+      last_name: Sherman
+      middle_name: T.
+      name: W. T. Sherman
+      rank: Gen.-Lt.
+      suffix: ''
     country: Union
     strength: 80000
 Pamunkey (May 22, 1864):
@@ -1934,10 +2426,14 @@ Pamunkey (May 22, 1864):
   loser:
     casualties: 3000
     casualties_percent: 8
-    commander:
-      - name: R. Lee
-        rank: Gen.
-        dbpedia: "Robert_E._Lee"
+    commanders:
+    - dbpedia: Robert_E._Lee
+      first_name: R.
+      last_name: Lee
+      middle_name: ''
+      name: R. Lee
+      rank: Gen.
+      suffix: ''
     country: Confederacy
     strength: 38000
   name: Pamunkey
@@ -1949,10 +2445,14 @@ Pamunkey (May 22, 1864):
     casualties: 4000
     casualties_officers: 217
     casualties_percent: 7.9
-    commander:
-    - name: U. S. Grant
+    commanders:
+    - dbpedia: Ulysses_S._Grant
+      first_name: U.
+      last_name: Grant
+      middle_name: S.
+      name: U. S. Grant
       rank: Gen.-Lt.
-      dbpedia: "Ulysses_S._Grant"
+      suffix: ''
     country: Union
     strength: 52000
 Pea Ridge (March 07, 1862):
@@ -1971,21 +2471,37 @@ Pea Ridge (March 07, 1862):
   loser:
     casualties: 1600
     casualties_percent: 10
-    commander:
-    - name: Earl van Dorn
+    commanders:
+    - dbpedia: Earl_Van_Dorn
+      first_name: Earl
+      last_name: van Dorn
+      middle_name: ''
+      name: Earl van Dorn
       rank: Gen.-Lt.
-      dbpedia: "Earl_Van_Dorn"
+      suffix: ''
     country: Confederacy
     generals_killed:
-    - name: McCulloch
+    - dbpedia: Ben_McCulloch
+      first_name: ''
+      last_name: McCulloch
+      middle_name: ''
+      name: McCulloch
       rank: Brig.-Gen.
-      dbpedia: "Ben_McCulloch"
-    - name: McIntosh
+      suffix: ''
+    - dbpedia: James_M._McIntosh
+      first_name: ''
+      last_name: McIntosh
+      middle_name: ''
+      name: McIntosh
       rank: Brig.-Gen.
-      dbpedia: "James_M._McIntosh"
-    - name: Slack
+      suffix: ''
+    - dbpedia: William_Y._Slack
+      first_name: ''
+      last_name: Slack
+      middle_name: ''
+      name: Slack
       rank: Brig.-Gen.
-      dbpedia: "William_Y._Slack"
+      suffix: ''
     guns: 72
     killed_wounded: 1100
     killed_wounded_percent: 7
@@ -2001,10 +2517,14 @@ Pea Ridge (March 07, 1862):
   victor:
     casualties: 1400
     casualties_percent: 10.7
-    commander:
-    - name: Curtis
+    commanders:
+    - dbpedia: Samuel_Ryan_Curtis
+      first_name: ''
+      last_name: Curtis
+      middle_name: ''
+      name: Curtis
       rank: GM.
-      dbpedia: "Samuel_Ryan_Curtis"
+      suffix: ''
     country: Union
     guns: 49
     killed_wounded: 1200
@@ -2028,9 +2548,13 @@ Peach-Tree-Creek (July 20, 1864):
   loser:
     casualties: 4800
     casualties_percent: 10
-    commander:
-    - name: J. B. Hood
+    commanders:
+    - first_name: J.
+      last_name: Hood
+      middle_name: B.
+      name: J. B. Hood
       rank: Gen.
+      suffix: ''
     country: Confederacy
     strength: 48000
   name: Peach-Tree-Creek
@@ -2042,9 +2566,13 @@ Peach-Tree-Creek (July 20, 1864):
   victor:
     casualties: 1700
     casualties_percent: 2.4
-    commander:
-    - name: W. T. Sherman
+    commanders:
+    - first_name: W.
+      last_name: Sherman
+      middle_name: T.
+      name: W. T. Sherman
       rank: GM.
+      suffix: ''
     country: Union
     strength: 72000
 Perryville (October 08, 1862):
@@ -2064,18 +2592,30 @@ Perryville (October 08, 1862):
     casualties_generals: 2
     casualties_officers: 144
     casualties_percent: 17.7
-    commander:
-    - name: Buell
+    commanders:
+    - dbpedia: Don_Carlos_Buell
+      first_name: ''
+      last_name: Buell
+      middle_name: ''
+      name: Buell
       rank: GM.
-      dbpedia: "Don_Carlos_Buell"
+      suffix: ''
     country: Union
     generals_killed:
-    - name: J. S. Jackson
+    - dbpedia: James_S._Jackson
+      first_name: J.
+      last_name: Jackson
+      middle_name: S.
+      name: J. S. Jackson
       rank: Brig.-Gen.
-      dbpedia: "James_S._Jackson"
-    - name: W. R. Terrill
+      suffix: ''
+    - dbpedia: William_R._Terrill
+      first_name: W.
+      last_name: Terrill
+      middle_name: R.
+      name: W. R. Terrill
       rank: Brig.-Gen.
-      dbpedia: "William_R._Terrill"
+      suffix: ''
     killed: 850
     killed_generals: 2
     killed_officers: 37
@@ -2100,10 +2640,14 @@ Perryville (October 08, 1862):
   victor:
     casualties: 3400
     casualties_percent: 21.4
-    commander:
-    - name: Bragg
+    commanders:
+    - dbpedia: Braxton_Bragg
+      first_name: ''
+      last_name: Bragg
+      middle_name: ''
+      name: Bragg
       rank: Gen.
-      dbpedia: "Braxton_Bragg"
+      suffix: ''
     country: Confederacy
     killed: 520
     killed_wounded: 3150
@@ -2231,20 +2775,32 @@ Petersburg (June 09, 1864):
     artillery: 5500
     casualties: 40000
     cavalry: 6500
-    commander:
-    - name: R. Lee
+    commanders:
+    - dbpedia: Robert_E._Lee
+      first_name: R.
+      last_name: Lee
+      middle_name: ''
+      name: R. Lee
       rank: Gen.
-      dbpedia: "Robert_E._Lee"
+      suffix: ''
     country: Confederacy
     generals_killed:
     - date: 1865-04-02
+      dbpedia: Ambrose_Powell_Hill
+      first_name: A.
+      last_name: Hill
+      middle_name: P.
       name: A. P. Hill
       rank: G.-L.
-      dbpedia: "Ambrose_Powell_Hill"
+      suffix: ''
     - date: 1865-02-06
+      dbpedia: John_Pegram_(general)
+      first_name: J.
+      last_name: Pegram
+      middle_name: ''
       name: J. Pegram
       rank: GM.
-      dbpedia: "John_Pegram_(general)"
+      suffix: ''
     infantry: 55000
     strength: 67000
   name: Petersburg
@@ -2256,22 +2812,38 @@ Petersburg (June 09, 1864):
     artillery: 10000
     casualties: 60000
     cavalry: 19000
-    commander:
-    - name: U. S. Grant
+    commanders:
+    - dbpedia: Ulysses_S._Grant
+      first_name: U.
+      last_name: Grant
+      middle_name: S.
+      name: U. S. Grant
       rank: Gen.-Lt.
-      dbpedia: "Ulysses_S._Grant"
+      suffix: ''
     country: Union
     generals_killed:
     - date: 1864-06-28
+      dbpedia: Hiram_Burnham
+      first_name: H.
+      last_name: Burnham
+      middle_name: ''
       name: H. Burnham
       rank: B.-G.
-      dbpedia: "Hiram_Burnham"
+      suffix: ''
     - date: 1864-06-29
+      first_name: D.
+      last_name: Bates
+      middle_name: ''
       name: D. Bates
       rank: B.-G.
+      suffix: ''
     - date: 1864-08-05
+      first_name: G.
+      last_name: Stedman
+      middle_name: A.
       name: G. A. Stedman
       rank: B.-G.
+      suffix: ''
     infantry: 91000
     killed: 6000
     killed_wounded: 39000
@@ -2293,10 +2865,14 @@ Prairie-Grove (December 07, 1862):
   loser:
     casualties: 1350
     casualties_percent: 12
-    commander:
-    - name: Hindman
+    commanders:
+    - dbpedia: Thomas_C._Hindman
+      first_name: ''
+      last_name: Hindman
+      middle_name: ''
+      name: Hindman
       rank: GM.
-      dbpedia: "Thomas_C._Hindman"
+      suffix: ''
     country: Confederacy
     killed_wounded: 1000
     missing: 350
@@ -2309,10 +2885,14 @@ Prairie-Grove (December 07, 1862):
   victor:
     casualties: 1250
     casualties_percent: 8.9
-    commander:
-    - name: Blunt
+    commanders:
+    - dbpedia: James_G._Blunt
+      first_name: ''
+      last_name: Blunt
+      middle_name: ''
+      name: Blunt
       rank: Brig.-Gen.
-      dbpedia: "James_G._Blunt"
+      suffix: ''
     country: Union
     killed_wounded: 1000
     missing: 250
@@ -2332,10 +2912,14 @@ Resaca (May 14, 1864):
   loser:
     casualties: 4500
     casualties_percent: 8.6
-    commander:
-    - name: J. Johnston
+    commanders:
+    - dbpedia: Joseph_E._Johnston
+      first_name: J.
+      last_name: Johnston
+      middle_name: ''
+      name: J. Johnston
       rank: Gen.
-      dbpedia: "Joseph_E._Johnston"
+      suffix: ''
     country: Confederacy
     killed_wounded: 1500
     missing: 3000
@@ -2348,10 +2932,14 @@ Resaca (May 14, 1864):
   victor:
     casualties: 4500
     casualties_percent: 4.8
-    commander:
-    - name: W. T. Sherman
+    commanders:
+    - dbpedia: William_Tecumseh_Sherman
+      first_name: W.
+      last_name: Sherman
+      middle_name: T.
+      name: W. T. Sherman
       rank: GM.
-      dbpedia: "William_Tecumseh_Sherman"
+      suffix: ''
     country: Union
     killed_wounded: 4000
     missing: 500
@@ -2371,10 +2959,14 @@ Richmond (August 30, 1862):
   loser:
     casualties: 5400
     casualties_percent: 34.0
-    commander:
-    - name: Nelson
+    commanders:
+    - dbpedia: William_"Bull"_Nelson
+      first_name: ''
+      last_name: Nelson
+      middle_name: ''
+      name: Nelson
       rank: Brig.-Gen.
-      dbpedia: "William_\"Bull\"_Nelson"
+      suffix: ''
     country: Union
     killed: 210
     killed_wounded: 1050
@@ -2394,10 +2986,14 @@ Richmond (August 30, 1862):
   victor:
     casualties: 450
     casualties_percent: 2
-    commander:
-    - name: Kirby Smith
+    commanders:
+    - dbpedia: Edmund_Kirby_Smith
+      first_name: Kirby
+      last_name: Smith
+      middle_name: ''
+      name: Kirby Smith
       rank: GM.
-      dbpedia: "Edmund_Kirby_Smith"
+      suffix: ''
     country: Confederacy
     killed: 80
     killed_wounded: 450
@@ -2423,10 +3019,14 @@ Ringgold (November 23, 1863):
     casualties: 7000
     casualties_generals: 2
     casualties_percent: 16.0
-    commander:
-    - name: R. Bragg
+    commanders:
+    - dbpedia: Braxton_Bragg
+      first_name: R.
+      last_name: Bragg
+      middle_name: ''
+      name: R. Bragg
       rank: Gen.
-      dbpedia: "Braxton_Bragg"
+      suffix: ''
     country: Confederacy
     killed: 400
     killed_generals: 0
@@ -2452,10 +3052,14 @@ Ringgold (November 23, 1863):
     casualties_generals: 4
     casualties_officers: 501
     casualties_percent: 9.2
-    commander:
-    - name: U. S. Grant
+    commanders:
+    - dbpedia: Ulysses_S._Grant
+      first_name: U.
+      last_name: Grant
+      middle_name: S.
+      name: U. S. Grant
       rank: GM.
-      dbpedia: "Ulysses_S._Grant"
+      suffix: ''
     country: Union
     killed: 800
     killed_generals: 0
@@ -2490,10 +3094,14 @@ Seven Pines (May 31, 1862):
     casualties_generals: 2
     casualties_officers: 274
     casualties_percent: 10.0
-    commander:
-    - name: McClellan
+    commanders:
+    - dbpedia: George_B._McClellan
+      first_name: ''
+      last_name: McClellan
+      middle_name: ''
+      name: McClellan
       rank: GM.
-      dbpedia: "George_B._McClellan"
+      suffix: ''
     country: Union
     killed: 800
     killed_generals: 0
@@ -2524,15 +3132,23 @@ Seven Pines (May 31, 1862):
     casualties_generals: 5
     casualties_officers: 394
     casualties_percent: 18.0
-    commander:
-    - name: J. Johnston
+    commanders:
+    - dbpedia: Joseph_E._Johnston
+      first_name: J.
+      last_name: Johnston
+      middle_name: ''
+      name: J. Johnston
       rank: Gen.
-      dbpedia: "Joseph_E._Johnston"
+      suffix: ''
     country: Confederacy
     generals_killed:
-    - name: R. Hatton
+    - dbpedia: Robert_Hopkins_Hatton
+      first_name: R.
+      last_name: Hatton
+      middle_name: ''
+      name: R. Hatton
       rank: Brig.-Gen.
-      dbpedia: "Robert_Hopkins_Hatton"
+      suffix: ''
     killed: 1100
     killed_generals: 1
     killed_officers: 78
@@ -2570,18 +3186,30 @@ Shiloh (April 06, 1862):
     casualties_generals: 7
     casualties_percent: 27.0
     cavalry: 4000
-    commander:
-    - name: A. S. Johnston
+    commanders:
+    - dbpedia: Albert_Sidney_Johnston
+      first_name: A.
+      last_name: Johnston
+      middle_name: S.
+      name: A. S. Johnston
       rank: Gen.
-      dbpedia: "Albert_Sidney_Johnston"
+      suffix: ''
     country: Confederacy
     generals_killed:
-    - name: A. S. Johnston
+    - dbpedia: Albert_Sidney_Johnston
+      first_name: A.
+      last_name: Johnston
+      middle_name: S.
+      name: A. S. Johnston
       rank: komm. Gen.
-      dbpedia: "Albert_Sidney_Johnston"
-    - name: A. H. Gladden
+      suffix: ''
+    - dbpedia: Adley_H._Gladden
+      first_name: A.
+      last_name: Gladden
+      middle_name: H.
+      name: A. H. Gladden
       rank: Brig.-Gen.
-      dbpedia: "Adley_H._Gladden"
+      suffix: ''
     infantry: 36000
     killed: 1730
     killed_generals: 2
@@ -2609,15 +3237,23 @@ Shiloh (April 06, 1862):
     casualties_officers: 640
     casualties_percent: 25.7
     cavalry: 6000
-    commander:
-    - name: U. S. Grant
+    commanders:
+    - dbpedia: Ulysses_S._Grant
+      first_name: U.
+      last_name: Grant
+      middle_name: S.
+      name: U. S. Grant
       rank: GM.
-      dbpedia: "Ulysses_S._Grant"
+      suffix: ''
     country: Union
     generals_killed:
-    - name: W. H. L. Wallace
+    - dbpedia: William_Harvey_Lamb_Wallace
+      first_name: W.
+      last_name: Wallace
+      middle_name: H. L.
+      name: W. H. L. Wallace
       rank: Brig.-Gen.
-      dbpedia: "William_Harvey_Lamb_Wallace"
+      suffix: ''
     infantry: 54000
     killed: 1800
     killed_generals: 1
@@ -2655,24 +3291,44 @@ Spotsylvania-Court-House (May 08, 1864):
     casualties_generals: 10
     casualties_percent: 18.0
     cavalry: 7000
-    commander:
-    - name: R. Lee
+    commanders:
+    - dbpedia: Robert_E._Lee
+      first_name: R.
+      last_name: Lee
+      middle_name: ''
+      name: R. Lee
       rank: Gen.
-      dbpedia: "Robert_E._Lee"
+      suffix: ''
     country: Confederacy
     generals_killed:
-    - name: J. E. B. Stuart
+    - dbpedia: J.E.B._Stuart
+      first_name: J.
+      last_name: Stuart
+      middle_name: E. B.
+      name: J. E. B. Stuart
       rank: G.-L.
-      dbpedia: "J.E.B._Stuart"
-    - name: J. Daniel
+      suffix: ''
+    - dbpedia: Junius_Daniel
+      first_name: J.
+      last_name: Daniel
+      middle_name: ''
+      name: J. Daniel
       rank: B.-G.
-      dbpedia: "Junius_Daniel"
-    - name: A. Perrin
+      suffix: ''
+    - dbpedia: Abner_Monroe_Perrin
+      first_name: A.
+      last_name: Perrin
+      middle_name: ''
+      name: A. Perrin
       rank: B.-G.
-      dbpedia: "Abner_Monroe_Perrin"
-    - name: L. A. Stafford
+      suffix: ''
+    - dbpedia: Leroy_A._Stafford
+      first_name: L.
+      last_name: Stafford
+      middle_name: A.
+      name: L. A. Stafford
       rank: B.-G.
-      dbpedia: "Leroy_A._Stafford"
+      suffix: ''
     infantry: 39000
     killed: 1000
     killed_generals: 4
@@ -2700,21 +3356,37 @@ Spotsylvania-Court-House (May 08, 1864):
     casualties_officers: 900
     casualties_percent: 18.5
     cavalry: 12000
-    commander:
-    - name: U. S. Grant
+    commanders:
+    - dbpedia: Ulysses_S._Grant
+      first_name: U.
+      last_name: Grant
+      middle_name: S.
+      name: U. S. Grant
       rank: Gen.-Lt.
-      dbpedia: "Ulysses_S._Grant"
+      suffix: ''
     country: Union
     generals_killed:
-    - name: J. Sedgwick
+    - dbpedia: John_Sedgwick
+      first_name: J.
+      last_name: Sedgwick
+      middle_name: ''
+      name: J. Sedgwick
       rank: GM.
-      dbpedia: "John_Sedgwick"
-    - name: J. C. Rice
+      suffix: ''
+    - dbpedia: James_Clay_Rice
+      first_name: J.
+      last_name: Rice
+      middle_name: C.
+      name: J. C. Rice
       rank: B.-G.
-      dbpedia: "James_Clay_Rice"
-    - name: T. G. Stevenson
+      suffix: ''
+    - dbpedia: Thomas_G._Stevenson
+      first_name: T.
+      last_name: Stevenson
+      middle_name: G.
+      name: T. G. Stevenson
       rank: B.-G.
-      dbpedia: "Thomas_G._Stevenson"
+      suffix: ''
     infantry: 79000
     killed: 2730
     killed_generals: 3
@@ -2743,10 +3415,9 @@ Vicksburg (May 19, 1863):
   dbpedia:
   - relation: '='
     uri: http://dbpedia.org/resource/Siege_of_Vicksburg
-  description: >-
-    Der Garnison, welche mit allen Ehren ausziehen durfte, wurde gegen
-    das Versprechen,
-    nicht weiter gegen die Unionsstaaten zu dienen, freier Abzug in die Heimat bewilligt.
+  description: Der Garnison, welche mit allen Ehren ausziehen durfte, wurde gegen
+    das Versprechen, nicht weiter gegen die Unionsstaaten zu dienen, freier Abzug
+    in die Heimat bewilligt.
   end_date: 1863-07-04
   location: Stadt im Staate Mississippi, am linken Ufer des Mississippistromes.
   loser:
@@ -2754,18 +3425,30 @@ Vicksburg (May 19, 1863):
     captured_generals: 15
     captured_officers: 6000
     casualties: 28000
-    commander:
-    - name: Pemberton
+    commanders:
+    - dbpedia: John_C._Pemberton
+      first_name: ''
+      last_name: Pemberton
+      middle_name: ''
+      name: Pemberton
       rank: Gen.-Lt.
-      dbpedia: "John_C._Pemberton"
+      suffix: ''
     country: Confederacy
     generals_killed:
-    - name: M. E. Green
+    - dbpedia: Martin_E._Green
+      first_name: M.
+      last_name: Green
+      middle_name: E.
+      name: M. E. Green
       rank: B.-G.
-      dbpedia: "Martin_E._Green"
-    - name: E. D. Tracy
+      suffix: ''
+    - dbpedia: Edward_D._Tracy
+      first_name: E.
+      last_name: Tracy
+      middle_name: D.
+      name: E. D. Tracy
       rank: B.-G.
-      dbpedia: "Edward_D._Tracy"
+      suffix: ''
     killed_wounded: 7000
     losses_canons: 172
     strength: 28000
@@ -2776,10 +3459,14 @@ Vicksburg (May 19, 1863):
   start_date: 1863-05-19
   victor:
     casualties: 9000
-    commander:
-    - name: U. S. Grant
+    commanders:
+    - dbpedia: Ulysses_S._Grant
+      first_name: U.
+      last_name: Grant
+      middle_name: S.
+      name: U. S. Grant
       rank: GM.
-      dbpedia: "Ulysses_S._Grant"
+      suffix: ''
     country: Union
     killed_wounded: 9000
     strength: 75000
@@ -2802,18 +3489,30 @@ Wilderness (May 05, 1864):
     casualties_generals: 5
     casualties_percent: 12.0
     cavalry: 8000
-    commander:
-    - name: R. Lee
+    commanders:
+    - dbpedia: Robert_E._Lee
+      first_name: R.
+      last_name: Lee
+      middle_name: ''
+      name: R. Lee
       rank: Gen.
-      dbpedia: "Robert_E._Lee"
+      suffix: ''
     country: Confederacy
     generals_killed:
-    - name: A. G. Jenkins
+    - dbpedia: Albert_Gallatin_Jenkins
+      first_name: A.
+      last_name: Jenkins
+      middle_name: G.
+      name: A. G. Jenkins
       rank: B.-G.
-      dbpedia: "Albert_Gallatin_Jenkins"
-    - name: J. M. Jones
+      suffix: ''
+    - dbpedia: John_M._Jones
+      first_name: J.
+      last_name: Jones
+      middle_name: M.
+      name: J. M. Jones
       rank: B.-G.
-      dbpedia: "John_M._Jones"
+      suffix: ''
     guns: 224
     infantry: 49000
     killed: 1000
@@ -2841,18 +3540,30 @@ Wilderness (May 05, 1864):
     casualties_officers: 840
     casualties_percent: 15.0
     cavalry: 14000
-    commander:
-    - name: U. S. Grant
+    commanders:
+    - dbpedia: Ulysses_S._Grant
+      first_name: U.
+      last_name: Grant
+      middle_name: S.
+      name: U. S. Grant
       rank: Gen.-Lt.
-      dbpedia: "Ulysses_S._Grant"
+      suffix: ''
     country: Union
     generals_killed:
-    - name: A. Hays
+    - dbpedia: Alexander_Hays
+      first_name: A.
+      last_name: Hays
+      middle_name: ''
+      name: A. Hays
       rank: GM.
-      dbpedia: "Alexander_Hays"
-    - name: J. S. Wadsworth
+      suffix: ''
+    - dbpedia: James_S._Wadsworth
+      first_name: J.
+      last_name: Wadsworth
+      middle_name: S.
+      name: J. S. Wadsworth
       rank: GM.
-      dbpedia: "James_S._Wadsworth"
+      suffix: ''
     guns: 318
     infantry: 94000
     killed: 2250
@@ -2889,10 +3600,14 @@ Williamsburg (May 05, 1862):
     casualties: 1600
     casualties_officers: 102
     casualties_percent: 5.4
-    commander:
-    - name: J. Johnston
+    commanders:
+    - dbpedia: Joseph_E._Johnston
+      first_name: J.
+      last_name: Johnston
+      middle_name: ''
+      name: J. Johnston
       rank: Gen.-Lt.
-      dbpedia: "Joseph_E._Johnston"
+      suffix: ''
     country: Confederacy
     killed: 300
     killed_officers: 24
@@ -2914,10 +3629,14 @@ Williamsburg (May 05, 1862):
     casualties: 2400
     casualties_officers: 127
     casualties_percent: 5.9
-    commander:
-    - name: McClellan
+    commanders:
+    - dbpedia: George_B._McClellan
+      first_name: ''
+      last_name: McClellan
+      middle_name: ''
+      name: McClellan
       rank: GM.
-      dbpedia: "George_B._McClellan"
+      suffix: ''
     country: Union
     killed: 460
     killed_officers: 27
@@ -2930,7 +3649,7 @@ Williamsburg (May 05, 1862):
     strength: 45000
     wounded: 1440
     wounded_officers: 98
-"Wilson's Creek (August 10, 1861)":
+Wilson's Creek (August 10, 1861):
   category:
   - meeting
   cwsac:
@@ -2947,15 +3666,23 @@ Williamsburg (May 05, 1862):
   loser:
     casualties: 1300
     casualties_percent: 21.5
-    commander:
-    - name: Lyon
+    commanders:
+    - dbpedia: Nathaniel_Lyon
+      first_name: ''
+      last_name: Lyon
+      middle_name: ''
+      name: Lyon
       rank: GM.
-      dbpedia: "Nathaniel_Lyon"
+      suffix: ''
     country: Union
     generals_killed:
-    - name: Lyon
+    - dbpedia: Nathaniel_Lyon
+      first_name: ''
+      last_name: Lyon
+      middle_name: ''
+      name: Lyon
       rank: Brig.-Gen.
-      dbpedia: "Nathaniel_Lyon"
+      suffix: ''
     killed_wounded: 1140
     missing: 160
     strength: 6000
@@ -2968,10 +3695,14 @@ Williamsburg (May 05, 1862):
   victor:
     casualties: 1300
     casualties_percent: 13
-    commander:
-    - name: Price
+    commanders:
+    - dbpedia: Sterling_Price
+      first_name: ''
+      last_name: Price
+      middle_name: ''
+      name: Price
       rank: GM.
-      dbpedia: "Sterling_Price"
+      suffix: ''
     country: Confederacy
     killed_wounded: 1230
     missing: 70
@@ -2992,10 +3723,14 @@ Winchester (June 15, 1863):
     casualties: 4500
     casualties_officers: 163
     casualties_percent: 50.0
-    commander:
-    - name: Milroy
+    commanders:
+    - dbpedia: Robert_H._Milroy
+      first_name: ''
+      last_name: Milroy
+      middle_name: ''
+      name: Milroy
       rank: GM.
-      dbpedia: "Robert_H._Milroy"
+      suffix: ''
     country: Union
     killed_wounded: 500
     killed_wounded_officers: 19
@@ -3015,10 +3750,14 @@ Winchester (June 15, 1863):
   victor:
     casualties: 300
     casualties_percent: 1.6
-    commander:
-    - name: Ewell
+    commanders:
+    - dbpedia: Richard_Ewell
+      first_name: ''
+      last_name: Ewell
+      middle_name: ''
+      name: Ewell
       rank: Gen.-Lt.
-      dbpedia: "Richard_Ewell"
+      suffix: ''
     country: Confederacy
     killed_wounded: 300
     missing: 0
@@ -3040,18 +3779,30 @@ Winchester (September 19, 1864):
     casualties: 4000
     casualties_percent: 30.8
     cavalry: 2000
-    commander:
-    - name: J. A. Early
+    commanders:
+    - dbpedia: Jubal_Anderson_Early
+      first_name: J.
+      last_name: Early
+      middle_name: A.
+      name: J. A. Early
       rank: Gen.-Lt.
-      dbpedia: "Jubal_Anderson_Early"
+      suffix: ''
     country: Confederacy
     generals_killed:
-    - name: R. E. Rodes
+    - dbpedia: Robert_E._Rodes
+      first_name: R.
+      last_name: Rodes
+      middle_name: E.
+      name: R. E. Rodes
       rank: GM.
-      dbpedia: "Robert_E._Rodes"
-    - name: A. C. Godwin
+      suffix: ''
+    - dbpedia: Archibald_C._Godwin
+      first_name: A.
+      last_name: Godwin
+      middle_name: C.
+      name: A. C. Godwin
       rank: B.-G.
-      dbpedia: "Archibald_C._Godwin"
+      suffix: ''
     infantry: 11000
     killed_wounded: 2000
     killed_wounded_percent: 15.4
@@ -3070,15 +3821,23 @@ Winchester (September 19, 1864):
     casualties: 5000
     casualties_percent: 11.7
     cavalry: 10000
-    commander:
-    - name: P. H. Sheridan
+    commanders:
+    - dbpedia: Philip_Sheridan
+      first_name: P.
+      last_name: Sheridan
+      middle_name: H.
+      name: P. H. Sheridan
       rank: GM.
-      dbpedia: "Philip_Sheridan"
+      suffix: ''
     country: Union
     generals_killed:
-    - name: D. A. Russell
+    - dbpedia: David_Allen_Russell
+      first_name: D.
+      last_name: Russell
+      middle_name: A.
+      name: D. A. Russell
       rank: GM.
-      dbpedia: "David_Allen_Russell"
+      suffix: ''
     infantry: 33000
     killed_wounded: 4400
     killed_wounded_percent: 10.3
