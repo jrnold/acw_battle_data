@@ -96,6 +96,10 @@ def build_clodfelter(src, dst):
 def build_nps(src, dst):
     print("build_nps")
     sp.run([RSCRIPT, "bin/build_nps_combined.R", src, dst])
+
+def build_cdb90(src, dst):
+    print("build_cdb90")
+    sp.run([RSCRIPT, "bin/build_cdb90.R", src, dst])
     
 def build(src, dst):
     try:
@@ -126,6 +130,7 @@ def build(src, dst):
     build_phisterer(src, dst)
     build_clodfelter(src, dst)
     build_nps(src, dst)
+    build_cdb90(src, dst)
     
 def main():
     src = "."
