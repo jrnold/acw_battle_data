@@ -114,20 +114,10 @@ def commanders_csv(src, dst):
         with open(dst, 'w') as f:
             for battle, v in sorted(data.items()):
                 for side in ('victor', 'loser'):
-                    if 'commander' in v[side]:
-                      cmdrs = v[side]['commander']
+                    if 'commanders' in v[side]:
+                      cmdrs = v[side]['commanders']
                       for cmdr in cmdrs:
                           row = cmdr.copy()
-                          parsed_name = nameparser.HumanName(row['name']).as_dict()
-                          # if only one name given, it is treated as a first name
-                          if parsed_name['last'] == '':
-                              row['first_name'] = ''
-                              row['last_name'] = parsed_name['first']
-                          else:
-                              row['first_name'] = parsed_name['first']
-                              row['last_name'] = parsed_name['last']
-                          row['middle_name'] = parsed_name['middle']
-                          row['suffix'] = parsed_name['suffix']
                           row['battle_id'] = battle
                           row['country'] = v[side]['country']
                           row['rank'] = RANKS[row['rank']]
