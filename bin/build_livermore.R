@@ -1,9 +1,5 @@
 #!/usr/bin/env Rscript
-suppressPackageStartupMessages({
-  library("dplyr")
-  library("stringr")
-  library("readr")
-})
+source("R/misc.R")
 
 COPYFILES = c("livermore_to_cwsac.csv",
                "livermore_to_dbpedia.csv",
