@@ -23,27 +23,32 @@ BELLIGERENTS <- c(UNION = "Union",
                   CONFEDERATE = "Confederate")
 
 build <- function(src, dst) {
-  LIV_BATTLES_FILE <- file.path(src,"dependencies", "PAR", "data",
-                                "LIVRMORE.csv")
-  LIV_BATTLES_MISC <- file.path(src, "rawdata", "livermore1900", "misc.csv")
+  LIV_BATTLES_FILE <- file.path(src, "rawdata", "livermore1900",
+                                "livermore.csv")
 
-  livrmore <- read_csv(LIV_BATTLES_FILE) %>%
-    mutate(attacker = plyr::revalue(attacker, BELLIGERENTS),
-           win_side = plyr::revalue(win_side, BELLIGERENTS))
-  battle_misc <- read_csv(LIV_BATTLES_MISC, na = "")
+#   livrmore <- read_csv(file.path(src, "dependencies/PAR/data/LIVRMORE.csv"))
+#   for (i in c("str", "kia", "wia", "kw", "miapow")) {
+#     livrmore[[paste0("CS_", i)]] <- ifelse(livrmore[["attacker"]] == "CONFEDERATE",
+#                                            livrmore[[paste0("attacker_", i)]],
+#                                            livrmore[[paste0("defender_", i)]])
+#   }
+#   for (i in c("str", "kia", "wia", "kw", "miapow")) {
+#     livrmore[[paste0("US_", i)]] <- ifelse(livrmore[["attacker"]] == "UNION",
+#                                            livrmore[[paste0("attacker_", i)]],
+#                                            livrmore[[paste0("defender_", i)]])
+#   }
+#   write.csv(livrmore, file = "livrmore2.csv", row.names = FALSE, na = "")
+
+  livrmore <- read_csv(LIV_BATTLES_FILE)
 
   liv_battles <-
     (livrmore
-      %>% select(seq_no, battle_name, start_date, end_date, win_side)
-      %>% arrange(seq_no)
-      %>% left_join(select(battle_misc, - battle_name, - win_side,
-                           - start_date, - end_date,
-                           - commander_union, - commander_confederate),
-                    by = "seq_no")
+     %>% select(- matches("^(US|CS)_"), - matches("^commander_"))
+     %>% arrange(seq_no)
     )
 
   liv_commanders <-
-    battle_misc %>%
+    livrmore %>%
     group_by(seq_no) %>%
     do({
       bind_rows(data_frame(commander = str_split(str_trim(.$commander_union), " +")[[1]],
@@ -53,59 +58,21 @@ build <- function(src, dst) {
     }) %>%
     select(seq_no, belligerent, commander)
 
-  strcas_vars <- c("str", "kia")
-  attacker_vars <- str_c("attacker_", strcas_vars)
-  attacker_vars <- str_c("defender_", strcas_vars)
-
-  union_attacker <-
-    (livrmore
-     %>% filter(attacker == "Union")
-    )
-  union_attacking_forces <-
-    (union_attacker
-     %>% select(seq_no, starts_with("attacker_"))
-     %>% mutate(belligerent = "Union", attacker = TRUE))
-  names(union_attacking_forces) <-
-    gsub("attacker_", "", names(union_attacking_forces))
-
-  confed_defending_forces <-
-    (union_attacker
-     %>% select(seq_no, starts_with("defender_"))
-     %>% mutate(belligerent = "Confederate", attacker = FALSE)
-    )
-  names(confed_defending_forces) <-
-    gsub("defender_", "", names(confed_defending_forces))
-
-  confed_attacker <-
-    (livrmore
-     %>% filter(attacker == "Confederate")
-    )
-  confed_attacking_forces <-
-    (confed_attacker
-     %>% select(seq_no, starts_with("attacker_"))
-     %>% mutate(belligerent = "Confederate", attacker = TRUE))
-  names(confed_attacking_forces) <-
-    gsub("attacker_", "", names(confed_attacking_forces))
-
-  union_defending_forces <-
-    (confed_attacker
-     %>% select(seq_no, starts_with("defender_"))
-     %>% mutate(belligerent = "Union", attacker = FALSE)
-    )
-  names(union_defending_forces) <-
-    gsub("defender_", "", names(union_defending_forces))
-
   liv_forces <-
-    (rbind(union_attacking_forces, confed_defending_forces,
-           confed_attacking_forces, union_defending_forces)
-     %>% arrange(seq_no, belligerent)
-     # if KIA is missing, WIA is non-missing, but KWIA is non-missing,
-     # then WIA should be missing
-     %>% mutate(wia = ifelse(is.na(kia) & ! is.na(wia) & ! is.na(kw), NA, wia)))
+    livrmore %>%
+    select(seq_no, matches("^(US|CS)_")) %>%
+    gather(variable, value, - seq_no) %>%
+    separate(variable, c("belligerent", "varname")) %>%
+    mutate(belligerent = plyr::revalue(belligerent,
+                                       c("US" = "Union",
+                                         "CS" = "Confederate"))) %>%
+    spread(varname, value) %>%
+    select(seq_no, belligerent, str, kia, wia, kw, miapow) %>%
+    mutate(wia = ifelse(is.na(kia) & ! is.na(wia) & ! is.na(kw), NA, wia))
 
   write_csv(liv_battles, file = file.path(dst, "livermore_battles.csv"))
   write_csv(liv_forces, file = file.path(dst, "livermore_forces.csv"))
-  write_csv(liv_forces, file = file.path(dst, "livermore_commanders.csv"))
+  write_csv(liv_commanders, file = file.path(dst, "livermore_commanders.csv"))
 
   for (filename in COPYFILES) {
     file.copy(file.path(src, "rawdata" , "livermore1900", filename), dst)
