@@ -74,8 +74,23 @@ update_forces <- function(src, dst) {
   forces2 <-
     left_join(forces, forces_strengths,
               by = c("battle", "belligerent"))
+
+  battles_strengths <-
+    forces_strengths %>%
+    group_by(battle) %>%
+    summarise(strength_mean = sum(strength_mean),
+              strength_var = sum(strength_var))
+
+  battles <-
+    read_csv(file.path(dst, "cwsac2_battles.csv")) %>%
+    left_join(battles_strengths, by = "battle") %>%
+    mutate(strength_mean = pnonmiss(strength_mean, strength),
+           strength_var = pnonmiss(strength_var, rounded_var(strength)))
+
   write_csv(forces2,
             file = file.path(dst, "cwsac2_forces.csv"))
+  write_csv(battles,
+            file = file.path(dst, "cwsac2_battles.csv"))
 }
 
 main <- function() {

@@ -79,14 +79,34 @@ update_forces <- function(src, dst) {
   forces2 <-
     left_join(forces, forces_strengths,
               by = c("battle", "belligerent"))
+
+  battles_strengths <-
+    forces2 %>%
+    group_by(battle) %>%
+    summarise(strength_mean = sum(strength_mean),
+              strength_var = sum(strength_var),
+              casualties_agg = sum(casualties))
+
+  battles <-
+    read_csv(file.path(dst, "cwsac_battles.csv")) %>%
+    left_join(battles_strengths, by = "battle") %>%
+    mutate(strength_mean = pnonmiss(strength_mean, strength),
+           strength_var = pnonmiss(strength_var, rounded_var(strength)),
+           casualties = pnonmiss(casualties_agg, casualties)) %>%
+    select(- casualties_agg)
+
   write_csv(forces2,
             file = file.path(dst, "cwsac_forces.csv"))
+  write_csv(battles,
+            file = file.path(dst, "cwsac_battles.csv"))
 }
 
 main <- function() {
   args <- commandArgs(TRUE)
   src <- args[1]
   dst <- args[2]
+  src <- "."
+  dst <- "data"
   update_forces(src, dst)
 }
 
