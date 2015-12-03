@@ -103,29 +103,17 @@ update_commanders <- function(src, dst) {
     select(battle, belligerent, PersonID, last_name, first_name, middle_name,
            middle_initial, rank, navy)
 
-  clodfelter_results <-
+  clodfelter_commanders <-
     clodfelter_to_cwsac %>%
     filter(relation == "=") %>%
     rename(cwsac_id = to, battle = from) %>%
     select(- relation) %>%
     left_join(nps_commanders,
               by = "cwsac_id") %>%
-    bind_rows(commanders) %>%
-    select(battle, result)
+    bind_rows(commanders)
 
-  battles <-
-    left_join(clodfelter_battles, clodfelter_results,
-              by = "battle") %>%
-    arrange(battle)
-
-  write_csv(battles, file.path(dst, "clodfelter_battles.csv"))
-
-  left_join(clodfelter_battles, clodfelter_to_cwsac,
-            by = c("battle" = "from")) %>%
-    rename(cwsac_id = to) %>%
-    left_join(nps_commanders, by = "cwsac_id") %>%
-    filter(is.na(relation) | ! relation == "=") %>%
-    write_csv(file.path(dst, "clodfelter_commanders.csv"))
+  write_csv(clodfelter_commanders,
+            file.path(dst, "clodfelter_commanders.csv"))
 
 }
 
