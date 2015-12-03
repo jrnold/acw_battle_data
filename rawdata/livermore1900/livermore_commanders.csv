@@ -1,0 +1,160 @@
+seq_no,battle_name,start_date,end_date,cwsac_id,relation,belligerent,PersonID,last_name,first_name,middle_name,middle_initial,rank,navy
+1,Bull Run,1861-07-21,1861-07-21,VA005,=,Confederate,b0f7a304-f6c5-4a8d-b816-066426e5dc1c,Johnston,Joseph,,E.,Brigadier General,0
+1,Bull Run,1861-07-21,1861-07-21,VA005,=,Confederate,183d0a7d-f06a-4c7b-a575-7616e491618b,Beauregard,Pierre,Gustave Toutant,G. T.,Brigadier General,0
+1,Bull Run,1861-07-21,1861-07-21,VA005,=,US,0f05f7ed-f187-4469-8fbe-25942e7eb85b,McDowell,Irvin,,,Brigadier General,0
+2,Wilson's Creek,1861-08-10,1861-08-10,MO004,=,Confederate,8f232cc9-43e7-4627-ab45-d8fe6873c472,Price,Sterling,,,Major General,0
+2,Wilson's Creek,1861-08-10,1861-08-10,MO004,=,Confederate,536cbc9d-7b3e-4225-a660-25374cc1026e,McCulloch,Benjamin,,,Brigadier General,0
+2,Wilson's Creek,1861-08-10,1861-08-10,MO004,=,US,a590cf3d-2e52-49bb-83fc-dd1911ba651d,Lyon,Nathaniel,,,Brigadier General,0
+2,Wilson's Creek,1861-08-10,1861-08-10,MO004,=,US,4a50678b-9211-4c6a-828e-d9607876849a,Sturgis,Samuel,Davis,D.,Major General,0
+3,Fort Donelson,1862-02-12,1862-02-16,TN002,=,Confederate,a35f09f2-1d82-485d-96c1-00e23cc44a16,Floyd,John,Buchanan,B.A,Brigadier General,0
+3,Fort Donelson,1862-02-12,1862-02-16,TN002,=,Confederate,c97e392a-d319-4c82-9201-0a35f418a0a9,Pillow,Gideon,Johnson,J.,Brigadier General,0
+3,Fort Donelson,1862-02-12,1862-02-16,TN002,=,Confederate,b2dc590c-f108-4e13-a3e3-0d47a00668c3,Buckner,Simon,Bolivar,B.,Brigadier General,0
+3,Fort Donelson,1862-02-12,1862-02-16,TN002,=,US,f4036249-0d0f-4c0f-aa2e-557890e1e475,Grant,Ulysses,Simon,S.,Brigadier General,0
+3,Fort Donelson,1862-02-12,1862-02-16,TN002,=,US,571ac77d-3839-4b5f-9d47-d7e83bacfe60,Foote,Andrew,Hull,H.,Flag Officer,1
+4,Pea Ridge,1862-03-07,1862-03-07,AR001,=,Confederate,a68145ec-a562-494d-8e95-c9bd2e0ff473,Van Dorn,Earl,,,Major General,0
+4,Pea Ridge,1862-03-07,1862-03-07,AR001,=,US,e08b618c-acc7-4502-9ef8-b8546572e22d,Curtis,Samuel,,R.,Brigadier General,0
+5,Shiloh,1862-04-06,1862-04-07,TN003,=,Confederate,155b07ca-cc70-402b-968f-dee3650ff3e3,Johnston,Albert,Sidney,S.,General,0
+5,Shiloh,1862-04-06,1862-04-07,TN003,=,Confederate,183d0a7d-f06a-4c7b-a575-7616e491618b,Beauregard,Pierre,Gustave Toutant,G. T.,General,0
+5,Shiloh,1862-04-06,1862-04-07,TN003,=,US,f4036249-0d0f-4c0f-aa2e-557890e1e475,Grant,Ulysses,Simon,S.,Major General,0
+5,Shiloh,1862-04-06,1862-04-07,TN003,=,US,ae900570-5c73-4de2-b99b-e0f6fbe50ca3,Buell,Don,Carlos,C.,Major General,0
+6,Williamsburg,1862-05-04,1862-05-05,VA010,=,Confederate,0418b77d-5826-4c1d-9621-9d92c48d77b5,Longstreet,James,,,Major General,0
+6,Williamsburg,1862-05-04,1862-05-05,VA010,=,US,113829b2-e1ff-4458-8dce-9a4da30810dd,McClellan,George,Brinton,B.,Major General,0
+7,Fair Oaks,1862-05-31,1862-06-01,VA014,=,Confederate,b0f7a304-f6c5-4a8d-b816-066426e5dc1c,Johnston,Joseph,,E.,General,0
+7,Fair Oaks,1862-05-31,1862-06-01,VA014,=,Confederate,7ecf1477-925a-4b2b-b174-a549a4038ecc,Smith,Gustavus,Woodson,W.,Major General,0
+7,Fair Oaks,1862-05-31,1862-06-01,VA014,=,US,113829b2-e1ff-4458-8dce-9a4da30810dd,McClellan,George,Brinton,B.,Major General,0
+8,Seven Days' Battles,1862-06-25,1862-07-01,VA021,>,Confederate,d428cfef-5c7a-4230-b394-b195481d9a9f,Lee,Robert,,E.,General,0
+8,Seven Days' Battles,1862-06-25,1862-07-01,VA018,>,US,113829b2-e1ff-4458-8dce-9a4da30810dd,McClellan,George,Brinton,B.,Major General,0
+9,Mechaicsville,1862-06-26,1862-06-26,VA016,=,Confederate,d428cfef-5c7a-4230-b394-b195481d9a9f,Lee,Robert,,E.,General,0
+9,Mechaicsville,1862-06-26,1862-06-26,VA016,=,US,3e3bcb35-5488-46d2-8cf2-b0243ca67d45,Porter,Fitz,John,J.,Brigadier General,0
+10,Gaines's Mill,1862-06-27,1862-06-27,VA017,=,Confederate,d428cfef-5c7a-4230-b394-b195481d9a9f,Lee,Robert,,E.,General,0
+10,Gaines's Mill,1862-06-27,1862-06-27,VA017,=,US,3e3bcb35-5488-46d2-8cf2-b0243ca67d45,Porter,Fitz,John,J.,Brigadier General,0
+11,"Peach Orchard, Savage Station, Wite Oak Swamp, Glendale, Malvern Hill",1862-06-29,1862-07-01,VA020,>,Confederate,d428cfef-5c7a-4230-b394-b195481d9a9f,Lee,Robert,,E.,General,0
+11,"Peach Orchard, Savage Station, Wite Oak Swamp, Glendale, Malvern Hill",1862-06-29,1862-07-01,VA020,>,US,113829b2-e1ff-4458-8dce-9a4da30810dd,McClellan,George,Brinton,B.,Major General,0
+12,Cedar Mountain,1862-08-09,1862-08-09,VA022,=,Confederate,21d06a25-9c4f-4dea-a766-f60d20632999,Jackson,Thomas,Jonathan,J.,Major General,0
+12,Cedar Mountain,1862-08-09,1862-08-09,VA022,=,US,f2f4eda1-b51f-4f8e-ad2d-379a1eb685f3,Banks,Nathaniel,,P.,Major General,0
+13,Manasas and Chantilly,1862-08-27,1862-09-02,VA026,>,Confederate,d428cfef-5c7a-4230-b394-b195481d9a9f,Lee,Robert,,E.,General,0
+13,Manasas and Chantilly,1862-08-27,1862-09-02,VA026,>,Confederate,21d06a25-9c4f-4dea-a766-f60d20632999,Jackson,Thomas,Jonathan,J.,Major General,0
+13,Manasas and Chantilly,1862-08-27,1862-09-02,VA026,>,US,60853683-b235-4e03-abcb-68edc8339fa5,Pope,John,,,Major General,0
+13,Manasas and Chantilly,1862-08-27,1862-09-02,VA027,>,US,564b6066-81af-41f5-9fac-f0776134454b,Kearny,Philip,,,Major General,0
+13,Manasas and Chantilly,1862-08-27,1862-09-02,VA027,>,US,273ea5b9-0e1d-4993-8267-23cb229725dc,Stevens,Isaac,Ingalls,I.,Major General,0
+14,Richmond,1862-08-29,1862-08-30,KY007,=,Confederate,39787b04-6723-4729-957c-bddcae228832,Smith,Edmund,Kirby,K.,Major General,0
+14,Richmond,1862-08-29,1862-08-30,KY007,=,US,9a9f97a2-dc6b-413e-9bd4-eedd766bb2a2,Nelson,William,,,Major General,0
+15,South Mountain,1862-09-14,1862-09-14,MD002,=,Confederate,d428cfef-5c7a-4230-b394-b195481d9a9f,Lee,Robert,,E.,General,0
+15,South Mountain,1862-09-14,1862-09-14,MD002,=,US,113829b2-e1ff-4458-8dce-9a4da30810dd,McClellan,George,Brinton,B.,Major General,0
+16,Antietam,1862-09-16,1862-09-17,MD003,=,Confederate,d428cfef-5c7a-4230-b394-b195481d9a9f,Lee,Robert,,E.,General,0
+16,Antietam,1862-09-16,1862-09-17,MD003,=,US,113829b2-e1ff-4458-8dce-9a4da30810dd,McClellan,George,Brinton,B.,Major General,0
+17,Corinth,1862-10-03,1862-10-04,MS002,=,Confederate,a68145ec-a562-494d-8e95-c9bd2e0ff473,Van Dorn,Earl,,,Major General,0
+17,Corinth,1862-10-03,1862-10-04,MS002,=,US,7d67c576-bbd4-4b23-ac53-300f9522f311,Rosecrans,William,Starke,S.,Major General,0
+18,Perryville,1862-10-08,1862-10-08,KY009,=,Confederate,4b5a15e5-6c5d-492c-9ab7-32d50419cf80,Bragg,Braxton,,,General,0
+18,Perryville,1862-10-08,1862-10-08,KY009,=,US,ae900570-5c73-4de2-b99b-e0f6fbe50ca3,Buell,Don,Carlos,C.,Major General,0
+19,Prairie Grove,1862-12-07,1862-12-07,AR005,=,Confederate,839a5a85-49a8-41a6-b4a9-f76657c5d4fc,Hindman,Thomas,Carmichael,C.,Major General,0
+19,Prairie Grove,1862-12-07,1862-12-07,AR005,=,US,42af3182-e310-412a-917c-4718d4f4dda6,Herron,Francis,Jay,J.,Brigadier General,0
+19,Prairie Grove,1862-12-07,1862-12-07,AR005,=,US,a3f15046-9028-421d-bbe0-fb6c341a991f,Blunt,James,,G.,Brigadier General,0
+20,Fredericksburg,1862-12-13,1862-12-13,VA028,=,Confederate,d428cfef-5c7a-4230-b394-b195481d9a9f,Lee,Robert,,E.,General,0
+20,Fredericksburg,1862-12-13,1862-12-13,VA028,=,US,c5f9dd77-1122-48f0-8840-614720ba50d8,Burnside,Ambrose,Everett,E.,Major General,0
+21,Chicasaw Bayou and Bluff,1862-12-27,1862-12-29,MS003,=,Confederate,03c2a063-2c1f-4006-9be2-08bcb50ee9ea,Pemberton,John,Clifford,C.,Lieutenant General,0
+21,Chicasaw Bayou and Bluff,1862-12-27,1862-12-29,MS003,=,US,72fc916d-f36e-4ffa-ab9c-bec7bde07002,Sherman,William,Tecumsheh,,Major General,0
+22,Stone's River,1862-12-31,1863-01-01,TN010,=,Confederate,4b5a15e5-6c5d-492c-9ab7-32d50419cf80,Bragg,Braxton,,,General,0
+22,Stone's River,1862-12-31,1863-01-01,TN010,=,US,7d67c576-bbd4-4b23-ac53-300f9522f311,Rosecrans,William,Starke,S.,Major General,0
+23,Arkansas Post,1863-01-11,1863-01-11,AR006,=,Confederate,1a2052a6-2f63-45e6-a406-1f6eae7c8341,Churchill,Thomas,James,J.,Brigadier General,0
+23,Arkansas Post,1863-01-11,1863-01-11,AR006,=,US,8da88a4c-d429-4247-a6e8-cba41f280a10,Porter,David,Dixon,D.,Acting Rear Admiral,1
+23,Arkansas Post,1863-01-11,1863-01-11,AR006,=,US,ff3bef0a-370b-48a3-9e53-a77c9f9a5b35,McClernand,John,Alexander,A.,Major General,0
+24,Chancellorsville and Fredericksburg,1863-05-01,1863-05-04,VA032,=,Confederate,d428cfef-5c7a-4230-b394-b195481d9a9f,Lee,Robert,,E.,General,0
+24,Chancellorsville and Fredericksburg,1863-05-01,1863-05-04,VA032,=,Confederate,21d06a25-9c4f-4dea-a766-f60d20632999,Jackson,Thomas,Jonathan,J.,Major General,0
+24,Chancellorsville and Fredericksburg,1863-05-01,1863-05-04,VA032,=,US,cfa9a700-f979-46ff-bfb1-4615441ccd55,Hooker,Joseph,,,Major General,0
+25,Champion Hill,1863-05-16,1863-05-16,MS009,=,Confederate,03c2a063-2c1f-4006-9be2-08bcb50ee9ea,Pemberton,John,Clifford,C.,Lieutenant General,0
+25,Champion Hill,1863-05-16,1863-05-16,MS009,=,US,f4036249-0d0f-4c0f-aa2e-557890e1e475,Grant,Ulysses,Simon,S.,Major General,0
+26,Assault on Vicksburg,1863-05-22,1863-05-22,MS011,=,Confederate,03c2a063-2c1f-4006-9be2-08bcb50ee9ea,Pemberton,John,Clifford,C.,Lieutenant General,0
+26,Assault on Vicksburg,1863-05-22,1863-05-22,MS011,=,US,f4036249-0d0f-4c0f-aa2e-557890e1e475,Grant,Ulysses,Simon,S.,Major General,0
+27,Assault on Port Hudson,1863-05-27,1863-05-27,LA010,<,Confederate,6420b474-c728-4537-84ce-09ae419a5398,Gardner,Franklin,,,Major General,0
+27,Assault on Port Hudson,1863-05-27,1863-05-27,LA010,<,US,f2f4eda1-b51f-4f8e-ad2d-379a1eb685f3,Banks,Nathaniel,,P.,Major General,0
+28,Assault on Port Hudson,1863-06-14,1863-06-14,LA010,<,Confederate,6420b474-c728-4537-84ce-09ae419a5398,Gardner,Franklin,,,Major General,0
+28,Assault on Port Hudson,1863-06-14,1863-06-14,LA010,<,US,f2f4eda1-b51f-4f8e-ad2d-379a1eb685f3,Banks,Nathaniel,,P.,Major General,0
+29,Gettysburg,1863-07-01,1863-07-03,PA002,=,Confederate,d428cfef-5c7a-4230-b394-b195481d9a9f,Lee,Robert,,E.,General,0
+29,Gettysburg,1863-07-01,1863-07-03,PA002,=,US,15a8b826-e060-430a-bb4c-61936b75252e,Meade,George,Gordon,G.,Major General,0
+30,Assault on Fort Wagner,1863-07-18,1863-07-18,SC007,=,Confederate,183d0a7d-f06a-4c7b-a575-7616e491618b,Beauregard,Pierre,Gustave Toutant,G. T.,General,0
+30,Assault on Fort Wagner,1863-07-18,1863-07-18,SC007,=,US,29c87347-958e-438f-b06a-5b3e586564cd,Gillmore,Quincy,Adams,A.,Major General,0
+31,Chickamauga,1863-09-19,1863-09-20,GA004,=,Confederate,4b5a15e5-6c5d-492c-9ab7-32d50419cf80,Bragg,Braxton,,,General,0
+31,Chickamauga,1863-09-19,1863-09-20,GA004,=,Confederate,0418b77d-5826-4c1d-9621-9d92c48d77b5,Longstreet,James,,,Lieutenant General,0
+31,Chickamauga,1863-09-19,1863-09-20,GA004,=,US,7d67c576-bbd4-4b23-ac53-300f9522f311,Rosecrans,William,Starke,S.,Major General,0
+31,Chickamauga,1863-09-19,1863-09-20,GA004,=,US,6951057d-db32-4db5-8b3e-dea0c1101a5f,Thomas,George,,H.,Major General,0
+32,Chattanooga,1863-11-23,1863-11-25,TN024,=,Confederate,4b5a15e5-6c5d-492c-9ab7-32d50419cf80,Bragg,Braxton,,,General,0
+32,Chattanooga,1863-11-23,1863-11-25,TN024,=,US,f4036249-0d0f-4c0f-aa2e-557890e1e475,Grant,Ulysses,Simon,S.,Major General,0
+33,Mine Run,1863-11-27,1863-12-01,VA044,=,Confederate,d428cfef-5c7a-4230-b394-b195481d9a9f,Lee,Robert,,E.,General,0
+33,Mine Run,1863-11-27,1863-12-01,VA044,=,US,15a8b826-e060-430a-bb4c-61936b75252e,Meade,George,Gordon,G.,Major General,0
+34,"Olustee, Fla.",1864-02-20,1864-02-20,FL005,=,Confederate,488f8bc8-8cb9-4ad0-ab8f-82fd06799387,Finegan,Joseph,,,Brigadier General,0
+34,"Olustee, Fla.",1864-02-20,1864-02-20,FL005,=,US,ae4b233a-c76c-41c5-a0bd-ad6340f39cb9,Seymour,Truman,,,Brigadier General,0
+35,Pleasant Hill,1864-04-09,1864-04-09,LA019,=,Confederate,dd70b0b4-401c-47ce-b3fb-a2b68da3194c,Taylor,Richard,,,Major General,0
+35,Pleasant Hill,1864-04-09,1864-04-09,LA019,=,US,f2f4eda1-b51f-4f8e-ad2d-379a1eb685f3,Banks,Nathaniel,,P.,Major General,0
+36,Atlanta Campaign,1864-05-05,1864-05-28,GA011,>,Confederate,b0f7a304-f6c5-4a8d-b816-066426e5dc1c,Johnston,Joseph,,E.,General,0
+36,Atlanta Campaign,1864-05-05,1864-05-28,GA011,>,US,72fc916d-f36e-4ffa-ab9c-bec7bde07002,Sherman,William,Tecumsheh,,Major General,0
+37,Wilderness,1864-05-05,1864-05-07,VA046,=,Confederate,d428cfef-5c7a-4230-b394-b195481d9a9f,Lee,Robert,,E.,General,0
+37,Wilderness,1864-05-05,1864-05-07,VA046,=,US,f4036249-0d0f-4c0f-aa2e-557890e1e475,Grant,Ulysses,Simon,S.,Lieutenant General,0
+37,Wilderness,1864-05-05,1864-05-07,VA046,=,US,15a8b826-e060-430a-bb4c-61936b75252e,Meade,George,Gordon,G.,Major General,0
+38,Spotsylvania,1864-05-10,1864-05-10,VA048,<,Confederate,d428cfef-5c7a-4230-b394-b195481d9a9f,Lee,Robert,,E.,General,0
+38,Spotsylvania,1864-05-10,1864-05-10,VA048,<,US,f4036249-0d0f-4c0f-aa2e-557890e1e475,Grant,Ulysses,Simon,S.,Lieutenant General,0
+38,Spotsylvania,1864-05-10,1864-05-10,VA048,<,US,15a8b826-e060-430a-bb4c-61936b75252e,Meade,George,Gordon,G.,Major General,0
+39,Spotsylvania,1864-05-12,1864-05-12,VA048,<,Confederate,d428cfef-5c7a-4230-b394-b195481d9a9f,Lee,Robert,,E.,General,0
+39,Spotsylvania,1864-05-12,1864-05-12,VA048,<,US,f4036249-0d0f-4c0f-aa2e-557890e1e475,Grant,Ulysses,Simon,S.,Lieutenant General,0
+39,Spotsylvania,1864-05-12,1864-05-12,VA048,<,US,15a8b826-e060-430a-bb4c-61936b75252e,Meade,George,Gordon,G.,Major General,0
+40,Drewry's Bluff,1864-05-12,1864-05-16,VA053,=,Confederate,183d0a7d-f06a-4c7b-a575-7616e491618b,Beauregard,Pierre,Gustave Toutant,G. T.,General,0
+40,Drewry's Bluff,1864-05-12,1864-05-16,VA053,=,US,c94b93a1-0565-4e9f-95af-12f5fe7e93f8,Butler,Benjamin,Frankiln,F.,Major General,0
+41,Cold Harbor,1864-06-01,1864-06-03,VA062,=,Confederate,d428cfef-5c7a-4230-b394-b195481d9a9f,Lee,Robert,,E.,General,0
+41,Cold Harbor,1864-06-01,1864-06-03,VA062,=,US,f4036249-0d0f-4c0f-aa2e-557890e1e475,Grant,Ulysses,Simon,S.,Lieutenant General,0
+41,Cold Harbor,1864-06-01,1864-06-03,VA062,=,US,15a8b826-e060-430a-bb4c-61936b75252e,Meade,George,Gordon,G.,Major General,0
+42,Petersburg,1864-06-15,1864-06-18,VA063,=,Confederate,d428cfef-5c7a-4230-b394-b195481d9a9f,Lee,Robert,,E.,General,0
+42,Petersburg,1864-06-15,1864-06-18,VA063,=,Confederate,183d0a7d-f06a-4c7b-a575-7616e491618b,Beauregard,Pierre,Gustave Toutant,G. T.,General,0
+42,Petersburg,1864-06-15,1864-06-18,VA063,=,US,f4036249-0d0f-4c0f-aa2e-557890e1e475,Grant,Ulysses,Simon,S.,Lieutenant General,0
+42,Petersburg,1864-06-15,1864-06-18,VA063,=,US,15a8b826-e060-430a-bb4c-61936b75252e,Meade,George,Gordon,G.,Major General,0
+43,Assault on Kenesaw Mountain,1864-06-27,1864-06-27,VA070,=,Confederate,d428cfef-5c7a-4230-b394-b195481d9a9f,Lee,Robert,,E.,General,0
+43,Assault on Kenesaw Mountain,1864-06-27,1864-06-27,VA070,=,US,c5f9dd77-1122-48f0-8840-614720ba50d8,Burnside,Ambrose,Everett,E.,Major General,0
+44,"Tupelo, Miss.",1864-07-13,1864-07-15,VA071,=,Confederate,d428cfef-5c7a-4230-b394-b195481d9a9f,Lee,Robert,,E.,General,0
+44,"Tupelo, Miss.",1864-07-13,1864-07-15,VA071,=,Confederate,b8c29b14-3dbe-4c53-a8ca-6af5217d6469,Field,Charles,William,W.,Major General,0
+44,"Tupelo, Miss.",1864-07-13,1864-07-15,VA071,=,US,8d7bd2d7-7411-4cea-ace2-491a97e577ca,Hancock,Winfield,Scott,S.,Major General,0
+45,Peach-Tree Creek,1864-07-20,1864-07-20,VA072,=,Confederate,d428cfef-5c7a-4230-b394-b195481d9a9f,Lee,Robert,,E.,General,0
+45,Peach-Tree Creek,1864-07-20,1864-07-20,VA072,=,Confederate,2153a0b4-6aab-42d2-b31e-56b074ec402e,Hill,Ambrose,Powell,P.,Lieutenant General,0
+45,Peach-Tree Creek,1864-07-20,1864-07-20,VA072,=,Confederate,d87fee08-2ce1-47f6-b313-9a1dfb7a8ea7,Heth,Henry,,,Major General,0
+45,Peach-Tree Creek,1864-07-20,1864-07-20,VA072,=,Confederate,9e1353da-e14e-4a33-9169-19b95b173cd1,Mahone,William,,,Major General,0
+45,Peach-Tree Creek,1864-07-20,1864-07-20,VA072,=,US,8ca13860-937b-4df4-8f84-df7a2bf51224,Warren,Gouverneur,Kemble,K.,Major General,0
+46,Atlanta (Hood's Attack),1864-07-22,1864-07-22,GA015,=,Confederate,b0f7a304-f6c5-4a8d-b816-066426e5dc1c,Johnston,Joseph,,E.,General,0
+46,Atlanta (Hood's Attack),1864-07-22,1864-07-22,GA015,=,US,72fc916d-f36e-4ffa-ab9c-bec7bde07002,Sherman,William,Tecumsheh,,Major General,0
+47,Atlanta,1864-07-28,1864-07-28,MS015,=,Confederate,8f59c204-3c38-4233-8ff0-3b70562303ca,Lee,Stephen,Dill,D.,Lieutenant General,0
+47,Atlanta,1864-07-28,1864-07-28,MS015,=,Confederate,02b4fa9a-541a-45c7-9097-ab1aee538c6c,Forrest,Nathan,Bedford,B.,Major General,0
+47,Atlanta,1864-07-28,1864-07-28,MS015,=,US,869b58fb-03ee-4ad7-bfd4-faf6f24b9378,Smith,Andrew,Jackson,J.,Major General,0
+48,The Mine,1864-07-30,1864-07-30,GA016,=,Confederate,84b6d739-3384-4291-86ba-f75ae6637069,Hood,John,Bell,B.,General,0
+48,The Mine,1864-07-30,1864-07-30,GA016,=,US,6951057d-db32-4db5-8b3e-dea0c1101a5f,Thomas,George,,H.,Major General,0
+49,Deep Bottom,1864-08-14,1864-08-19,GA017,=,Confederate,84b6d739-3384-4291-86ba-f75ae6637069,Hood,John,Bell,B.,General,0
+49,Deep Bottom,1864-08-14,1864-08-19,GA017,=,US,72fc916d-f36e-4ffa-ab9c-bec7bde07002,Sherman,William,Tecumsheh,,Major General,0
+50,Weldon Railroad,1864-08-18,1864-08-21,GA018,=,Confederate,84b6d739-3384-4291-86ba-f75ae6637069,Hood,John,Bell,B.,General,0
+50,Weldon Railroad,1864-08-18,1864-08-21,GA018,=,US,fe627383-b1ba-4c9a-b23f-75a2cd4b5c42,Howard,Oliver,,O.,Major General,0
+51,"Jonesborough, Ga.",1864-08-31,1864-08-31,GA022,<,Confederate,b01714aa-b252-4944-816d-be76a9070175,Hardee,William,Joseph,J.,Lieutenant General,0
+51,"Jonesborough, Ga.",1864-08-31,1864-08-31,GA022,<,US,72fc916d-f36e-4ffa-ab9c-bec7bde07002,Sherman,William,Tecumsheh,,Major General,0
+52,"Jonesborough, Ga.",1864-09-01,1864-09-01,GA022,<,Confederate,b01714aa-b252-4944-816d-be76a9070175,Hardee,William,Joseph,J.,Lieutenant General,0
+52,"Jonesborough, Ga.",1864-09-01,1864-09-01,GA022,<,US,72fc916d-f36e-4ffa-ab9c-bec7bde07002,Sherman,William,Tecumsheh,,Major General,0
+53,Winchester (Opequan),1864-09-19,1864-09-19,VA119,=,Confederate,77a0625d-2996-4af0-b46f-db7388f851d5,Early,Jubal,Anderson,A.,Lieutenant General,0
+53,Winchester (Opequan),1864-09-19,1864-09-19,VA119,=,US,407e5664-e1ff-49aa-984d-79f7508a5e7f,Sheridan,Philip,Henry,H.,Major General,0
+54,"Chafin's Farm, and Forts Harrison and Gilmer",1864-09-29,1864-09-30,VA075,=,Confederate,d428cfef-5c7a-4230-b394-b195481d9a9f,Lee,Robert,,E.,General,0
+54,"Chafin's Farm, and Forts Harrison and Gilmer",1864-09-29,1864-09-30,VA075,=,Confederate,aa9a80fb-49e3-41d4-8ce5-3f5cbd961625,Ewell,Richard,Stoddert,S.,Lieutenant General,0
+54,"Chafin's Farm, and Forts Harrison and Gilmer",1864-09-29,1864-09-30,VA075,=,US,c94b93a1-0565-4e9f-95af-12f5fe7e93f8,Butler,Benjamin,Frankiln,F.,Major General,0
+55,Cedar Creek,1864-10-19,1864-10-19,VA122,=,Confederate,77a0625d-2996-4af0-b46f-db7388f851d5,Early,Jubal,Anderson,A.,Lieutenant General,0
+55,Cedar Creek,1864-10-19,1864-10-19,VA122,=,US,0feb9176-d689-4e1d-ac4a-6bb149fc6f5b,Wright,Horatio,Gouverneur,G.,Major General,0
+55,Cedar Creek,1864-10-19,1864-10-19,VA122,=,US,407e5664-e1ff-49aa-984d-79f7508a5e7f,Sheridan,Philip,Henry,H.,Major General,0
+56,Boydton Plank Road,1864-10-27,1864-10-28,VA079,=,Confederate,d87fee08-2ce1-47f6-b313-9a1dfb7a8ea7,Heth,Henry,,,Major General,0
+56,Boydton Plank Road,1864-10-27,1864-10-28,VA079,=,US,8d7bd2d7-7411-4cea-ace2-491a97e577ca,Hancock,Winfield,Scott,S.,Major General,0
+57,Franklin,1864-11-30,1864-11-30,TN036,=,Confederate,84b6d739-3384-4291-86ba-f75ae6637069,Hood,John,Bell,B.,General,0
+57,Franklin,1864-11-30,1864-11-30,TN036,=,US,d3b0a222-2294-41d9-96b9-bc78996d55ae,Schofield,John,McAllister,M.,Major General,0
+58,Nashville,1864-12-15,1864-12-16,TN038,=,Confederate,84b6d739-3384-4291-86ba-f75ae6637069,Hood,John,Bell,B.,General,0
+58,Nashville,1864-12-15,1864-12-16,TN038,=,US,6951057d-db32-4db5-8b3e-dea0c1101a5f,Thomas,George,,H.,Major General,0
+59,Hatcher's Run,1865-02-05,1865-02-07,VA083,=,Confederate,bc4a67e5-b1be-43e1-9a83-240f4fe5346b,Gordon,John,Brown,B.,Major General,0
+59,Hatcher's Run,1865-02-05,1865-02-07,VA083,=,US,0739970d-f176-49aa-958c-f26397e326bb,Humphreys,Andrew,Atkinson,A.,Major General,0
+59,Hatcher's Run,1865-02-05,1865-02-07,VA083,=,US,8ca13860-937b-4df4-8f84-df7a2bf51224,Warren,Gouverneur,Kemble,K.,Major General,0
+60,Bentonville,1865-03-19,1865-03-19,NC020,=,Confederate,b0f7a304-f6c5-4a8d-b816-066426e5dc1c,Johnston,Joseph,,E.,General,0
+60,Bentonville,1865-03-19,1865-03-19,NC020,=,US,033ec012-d845-474f-bf9c-28366e02d1a4,Sherman,William,Tecumseh,T.,Major General,0
+60,Bentonville,1865-03-19,1865-03-19,NC020,=,US,f0e3ce2c-892e-4ae0-9995-3d864cb98ac1,Slocum,Henry,Warner,W.,Major General,0
+61,Appomattox Campaign,1865-03-29,1865-04-09,VA089,>,US,f4036249-0d0f-4c0f-aa2e-557890e1e475,Grant,Ulysses,Simon,S.,Lieutenant General,0
+61,Appomattox Campaign,1865-03-29,1865-04-09,VA087,>,Confederate,d428cfef-5c7a-4230-b394-b195481d9a9f,Lee,Robert,,E.,General,0
+62,Dinwiddie Court House and White Oak Road,1865-03-29,1865-03-31,VA086,=,Confederate,e4e99b96-0c8c-43c9-b2b2-79cfdb9ed800,Pickett,George,,,Major General,0
+62,Dinwiddie Court House and White Oak Road,1865-03-29,1865-03-31,VA086,=,Confederate,67a922f1-6dc9-4ba8-89aa-e33f842197e2,Lee,Fitzhugh,,,Major General,0
+62,Dinwiddie Court House and White Oak Road,1865-03-29,1865-03-31,VA086,=,US,407e5664-e1ff-49aa-984d-79f7508a5e7f,Sheridan,Philip,Henry,H.,Major General,0
+63,Assault on Petersburg,1865-04-02,1865-04-02,VA089,=,Confederate,d428cfef-5c7a-4230-b394-b195481d9a9f,Lee,Robert,,E.,General,0
+63,Assault on Petersburg,1865-04-02,1865-04-02,VA089,=,US,f4036249-0d0f-4c0f-aa2e-557890e1e475,Grant,Ulysses,Simon,S.,Lieutenant General,0
