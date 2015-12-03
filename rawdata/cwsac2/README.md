@@ -48,18 +48,16 @@ See
 	 
 - The Battle of Athens (AL002) is redefined from the battle on January 26, 1863
   to the battle on September 23-25, 1963. Because of this I give
-  the new battle the code **AL009**.  I also think that the results in the document
-  are referring to the January battle because the September battle is unambiguously
-  a Confederate victory.
+  the new battle the code **AL009**.
 - new variables: Acreage of the battlefield area
 - revised variables: forces, principal commanders, result, battle
   dates
-- Indian forces. Oklahoma battles OK001 (Round Mountain), OK002
+- Native American forces. Oklahoma battles OK001 (Round Mountain), OK002
   (Chusto-Talasah), and OK003 (Chustenahlah) classify the Creek forces
   under Opothleyahola as [US] instead of [I].  In CWSAC II, the only
   battles involving purely American Indian forces are against the
   Union and generally part of the Sioux Wars (Minnesota, North Dakota,
-  Idaho).  This seems reasonable, the Creek and Seminole forces in the
-  Oklahoma battles seemed to genuinely be Union allies, while the
-  Sioux Indian forces fighting the Union were not allied with the
+  Idaho).  While the Creek and Seminole forces in the
+  Oklahoma battles were allied with the Union,  the
+  Sioux fighting the Union were not allied with the
   Confederacy.

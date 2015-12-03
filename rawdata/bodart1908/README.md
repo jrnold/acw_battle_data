@@ -176,7 +176,6 @@ Final total category "Gesamtsumme der Kämpfe" ("total fights")
 - "die bedeutendsten niederlagen der Foo gegen die Bar" : "the most significant defeats of Foo against Bar"
 - "die größten Siege der Foo gegen die Bar" : "the biggest victories of Foo against Bar"
 
-
 Corrections
 
 - Bodart listed the date of the Battle of Ringgold as 1863-11-13 to 1863-11-25; I changed this to 

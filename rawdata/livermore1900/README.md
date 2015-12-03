@@ -5,14 +5,6 @@ Data from
 > Thomas Leonard Livermore (1900) "Number and Losses in the Civil War in America, 1861-1865",
 > http://books.google.com/books?id=Qw8pAAAAYAAJ .
 
-## Battle Results
-
-The `LIVRMORE` dataset in PAR includes data from Livermore, taken from the battle descriptions in the text (not Table A).
-Thuse the `LIVRMORE` data includes breakdown into killed, wounded, and missing, as well as the victor of the battle.
-
-Tables `liv_battles` and `liv_forces$` combine data from several
-tables in Livermore: "Assaults on Fortified Lines" on p. 75, the
-tables on p. 76-77, and Table A (140-141).  
 
 Livermore discusses methodology on pp. 63-77. The sample of battles 
 he uses is all battles in which either side had losses (killed plus wounded) 
@@ -41,14 +33,4 @@ serving in the Union military, there is no comparable documentation on
 the total number of troops serving in the Confederate military.
 Livermore devotes p. 1-49 to developing the estimates of the size of
 Confederate Forces which are reported in this table.
-
-## LIVRMORE data
-
-## Files
-
-- `liv_battles.csv`: Battle-level data.
-- `liv_forces.csv`: Force-level data.
-- `liv_to_cwsac.csv`: Mapping battles to CWSAC reference numbers.
-- `liv_to_dbpedia.csv`: Mapping battles to dbpedia.org URIS.
-- `liv_army_sizes.csv`: Comparison of number on rolls in Confederate and Union armies; table on p. 47.
 

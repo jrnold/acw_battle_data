@@ -46,9 +46,3 @@ A list of events on p. 83--212.  Phisterer's introduction to the chronological r
 - `engagements.csv` Parsed list of events
 - `engagements_by_year.csv` Small table of the number of egagements by year.
 
-## Links
-
-Links from the "Loss in Engagement" data to CWSAC and dbpedia battles:
-
-- `phisterer_to_cwsac.csv`
-- `phisterer_to_dbpedia.csv`
