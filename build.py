@@ -109,21 +109,16 @@ def build_datapackage(src, dst):
 
 def build_docs(src, dst, docs):
     print("build_docs")
+    # create docs sources
     sp.run([PYTHON, "bin/build_docs.py",
             src, dst, docs])
-    sp.run([PYTHON, "mkdocs", "build", "--clean"])
+    # build documentation
+    sp.run(["mkdocs", "build", "--clean"])
     
 def build(src, dst, docs):
-    try:
-        os.mkdir(dst)
-    except OSError:
-        for filename in os.listdir(dst):
-            filepath = os.path.join(dst, filename)
-            try:
-                if os.path.isfile(filepath):
-                    os.unlink(filepath)
-            except Exception:
-                raise(err)
+    if path.exists(dst):
+        shutil.rmtree(dst)
+    os.makedirs(dst)
     build_unit_sizes(src, dst)    
     build_aad(src, dst)
     build_shenandoah(src, dst)    

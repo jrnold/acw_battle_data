@@ -1,5 +1,0 @@
-# metadata
-
-**path**: data/metadata
-
-

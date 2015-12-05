@@ -144,12 +144,6 @@ This is mostly a repackaging of data from other secondary and primary sources, a
 </tr>
 
 <tr>
-<td>metadata</td>
-<td>data/metadata</td>
-<td>metadata</td>
-</tr>
-
-<tr>
 <td>cwss_forces</td>
 <td>data/cwss_forces.csv</td>
 <td>cwss_forces</td>

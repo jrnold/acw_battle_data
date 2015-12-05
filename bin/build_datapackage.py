@@ -7,8 +7,17 @@ import sys
 import os
 from os import path
 import fnmatch
+import hashlib
 
 import yaml
+
+# From http://stackoverflow.com/questions/1131220/get-md5-hash-of-big-files-in-python
+def md5sum(filename):
+    md5 = hashlib.md5()
+    with open(filename, 'rb') as f:
+        for chunk in iter(lambda: f.read(128 * md5.block_size), b''):
+            md5.update(chunk)
+    return md5.hexdigest()
 
 def process_metadata(filename):
     print(filename)
@@ -28,6 +37,7 @@ def process_resource(filename):
     meta = process_metadata(filename)
     if meta and path.exists(meta['path']):
         meta['bytes'] = path.getsize(meta['path'])
+        meta['hash'] = md5sum(meta['path'])
     else:
         print("WARNING: something wrong with %s" % filename)
     return meta
