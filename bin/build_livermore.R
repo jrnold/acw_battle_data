@@ -5,16 +5,6 @@ COPYFILES = c("livermore_to_cwsac.csv",
                "livermore_to_dbpedia.csv",
                "livermore_army_sizes.csv")
 
-read_csv <- function(x, ...) {
-  tbl_df(read.csv(x, ..., stringsAsFactors = FALSE,
-                  check.names = FALSE))
-}
-
-write_csv <- function(x, ...) {
-  write.csv(x, ..., na = "", row.names = FALSE)
-}
-
-
 BELLIGERENTS <- c(UNION = "Union",
                   CONFEDERATE = "Confederate")
 
