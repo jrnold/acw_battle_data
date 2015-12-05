@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Combine individual metadata json files into datapackage.json
+Combine individual metadata files into datapackage.json
 """
 import json
 import sys
@@ -8,16 +8,39 @@ import os
 from os import path
 import fnmatch
 
+import yaml
+
+def process_metadata(filename):
+    print(filename)
+    with open(filename, 'r') as f:
+        data = yaml.load(f)
+    description = path.join(filename).replace('.yaml', '.md')
+    if path.exists(description):
+        with open(description, 'r') as f:
+            description_text = f.read()
+            data['description'] = description_text
+    return data
+
+def process_dpkg(filename):
+    return process_metadata(filename)
+
+def process_resource(filename):
+    meta = process_metadata(filename)
+    if meta and path.exists(meta['path']):
+        meta['bytes'] = path.getsize(meta['path'])
+    else:
+        print("WARNING: something wrong with %s" % filename)
+    return meta
+
 def build(src, dst):
-    with open(path.join(src, 'data.json'), 'r') as f:
-        data = json.load(f)
+    metadir = path.join(src, 'rawdata', 'metadata')
+    data = process_dpkg(path.join(metadir, 'datapackage.yaml'))
     data['resources'] = []
-    for filename in os.listdir(path.join(src, 'resources')):
-        if fnmatch.fnmatch(filename, '*.json'):
-            with open(path.join(src, 'resources', filename), 'r') as f:
-                res = json.load(f)
-                data['resources'].append(res)
-    with open(dst, 'w') as f:
+    for filename in os.listdir(path.join(metadir, 'resources')):
+        if fnmatch.fnmatch(filename, '*.yaml'):
+            res = process_resource(path.join(metadir, 'resources', filename))
+            data['resources'].append(res)
+    with open(path.join(dst, 'datapackage.json'), 'w') as f:
         json.dump(data, f)
 
 def main():

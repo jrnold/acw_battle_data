@@ -101,18 +101,19 @@ def build_cdb90(src, dst):
 
 def build_metadata(src, dst):
     print("build_metadata")
-    sp.run([PYTHON, "bin/build_metadata.py",
-            dst, path.join(src, "rawdata", "metadata", "resources")])
-    sp.run([PYTHON, "bin/metadata_to_json.py",
-            path.join(src, "rawdata", "metadata"),
-            path.join(dst, "metadata")])
+    sp.run([PYTHON, "bin/build_metadata.py", src, dst])
 
 def build_datapackage(src, dst):
     print("build_datapackage")
-    sp.run([PYTHON, "bin/build_datapackage.py",
-            path.join(dst, "metadata"), path.join(dst, "datapackage.json")])
+    sp.run([PYTHON, "bin/build_datapackage.py", src, dst])
+
+def build_docs(src, dst, docs):
+    print("build_docs")
+    sp.run([PYTHON, "bin/build_docs.py",
+            src, dst, docs])
+    sp.run([PYTHON, "mkdocs", "build", "--clean"])
     
-def build(src, dst):
+def build(src, dst, docs):
     try:
         os.mkdir(dst)
     except OSError:
@@ -152,7 +153,7 @@ def main():
     src = "."
     dst = sys.argv[1]
     docs = sys.argv[2]
-    build(src, dst)
+    build(src, dst, docs)
 
 if __name__ == "__main__":
     main()

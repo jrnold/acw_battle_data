@@ -12,8 +12,14 @@ def build_index(docs, env, metadata):
     with open(path.join(docs, 'index.md'), 'w') as f:
         f.write(rendered)
 
+def build_resource(docs, env, metadata):
+    template = env.get_template('resource.md')
+    rendered = template.render(metadata)
+    with open(path.join(docs, 'resource.md'), 'w') as f:
+        f.write(rendered)
+        
 def build_resources(docs, env, metadata):
-    data_doc_dir = path.join(docs, 'data')
+    data_doc_dir = path.join(docs, 'resources')
     if path.exists(data_doc_dir):
         shutil.rmtree(data_doc_dir)
     os.makedirs(data_doc_dir)
