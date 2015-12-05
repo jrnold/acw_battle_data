@@ -40,8 +40,7 @@ def make_metadata(src):
 
 def build_meta(src, dst):
     for filename in os.listdir(src):
-        print(filename)
-        dstfile = path.join(dst, path.splitext(path.basename(filename))[0])
+        dstfile = path.join(dst, path.splitext(path.basename(filename))[0]) + '.yaml'
         if not path.exists(dstfile):
             with open(dstfile, 'w') as f:
                 yaml.dump(make_metadata(path.join(src, filename)), f,

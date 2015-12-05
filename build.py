@@ -98,6 +98,14 @@ def build_nps(src, dst):
 def build_cdb90(src, dst):
     print("build_cdb90")
     sp.run([RSCRIPT, "bin/build_cdb90.R", src, dst])
+
+def build_metadata(src, dst):
+    print("build_metadata")
+    sp.run([PYTHON, "bin/dpkg_metadata.py",
+            dst, path.join(src, "rawdata", "metadata", "resources")])
+    sp.run([PYTHON, "bin/metadata_to_json.py",
+            path.join(src, "rawdata", "metadata"),
+            path.join(dst, "metadata")])
     
 def build(src, dst):
     try:
@@ -129,7 +137,8 @@ def build(src, dst):
     build_phisterer(src, dst)
     build_clodfelter(src, dst)
     build_cdb90(src, dst)
-    
+    build_metadata(src, dst)
+           
 def main():
     src = "."
     dst = sys.argv[1]
