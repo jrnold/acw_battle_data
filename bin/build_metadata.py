@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Tue Nov 24 00:42:38 2015
-
-@author: jrnold
+Create metadata files in yaml
 """
 import yaml
 import pandas
