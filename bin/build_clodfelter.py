@@ -23,13 +23,13 @@ def rename(x, k, j):
 
 def battles(data, dst, filename):
     with open(path.join(dst, filename), 'w') as f:
-        fieldnames = ('name', 'theater', 'start_date', 'end_date', 'page')
+        fieldnames = ('battle', 'theater', 'start_date', 'end_date', 'page')
         writer = csv.DictWriter(f, fieldnames)
         writer.writeheader()
         for theater, battles in sorted(data.items()):
             for battle in battles:
                 row = battle.copy()
-                fields = ('name', 'page', 'start_date', 'end_date')
+                fields = ('battle', 'page', 'start_date', 'end_date')
                 row = dict_subset(row, fields)
                 if 'end_date' not in row:
                     row['end_date'] = row['start_date']
@@ -93,7 +93,7 @@ def forces(data, dst, filename):
             for battle in battles:
                 for belligerent in battle['forces']:
                     row = battle['forces'][belligerent].copy()
-                    row['battle'] = battle['name']
+                    row['battle'] = battle['battle']
                     row['belligerent'] = belligerent
                     # fix keys with spaces in them
                     for k in row:
@@ -111,7 +111,7 @@ def cwsac_links(data, dst, filename):
             for battle in battles:
                 if 'cwsac' in battle:
                     for link in battle['cwsac']:
-                        row = {'from': battle['name'],
+                        row = {'from': battle['battle'],
                                'to': link['id'],
                                'relation': link['relation']}
                         writer.writerow(row)
@@ -125,7 +125,7 @@ def dbpedia_links(data, dst, filename):
             for battle in battles:
                 if 'dbpedia' in battle:
                     for link in battle['dbpedia']:
-                        row = {'from': battle['name'],
+                        row = {'from': battle['battle'],
                                'to': link['url'],
                                'relation': link['relation']}
                         writer.writerow(row)

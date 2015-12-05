@@ -13,6 +13,7 @@ import csv
 import sys
 import datetime
 import shutil
+import re
 from os import path
 
 BASE_URL = "http://aad.archives.gov/aad/"
@@ -25,6 +26,12 @@ def rm_na(x):
     
 def tf(x):
     return 1 if x.lower() == "true" else 0
+
+def clean_sig(x):
+    x = x.strip()
+    if len(x) > 1:
+        x = x[0]
+    return x
 
 fields = (
     "reference_number",
@@ -123,9 +130,9 @@ def build(src, dst):
         row["interpretive_naval"] = yn(v["Interpretive Potential: Naval Operations"]["value"])
     #    row["comments"] =  v["Comments"]["meaning"]
     #    row["dispute"] =  v["Dispute"]["meaning"]
-        row["jim"] =  v["Jim"]["value"]
-        row["ed"] =  v["Ed"]["value"]
-        row["bill"] =  v["Bill"]["value"]
+        row["jim"] =  clean_sig(v["Jim"]["value"])
+        row["ed"] =  clean_sig(v["Ed"]["value"])
+        row["bill"] =  clean_sig(v["Bill"]["value"])
         row["protected"] =  v["Protected"]["value"]
         row["percent"] =  v["Percent"]["value"]
         row["county"] =  v["County"]["value"]

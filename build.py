@@ -118,6 +118,7 @@ def build(src, dst):
     build_cwsac(src, dst)
     build_cwsac2(src, dst)
     build_cwss(src, dst)
+    build_nps(src, dst)
     build_bodart(src, dst)
     build_dyer(src, dst)
     build_wikipedia(src, dst)
@@ -129,7 +130,6 @@ def build(src, dst):
     build_nyt(src, dst)
     build_phisterer(src, dst)
     build_clodfelter(src, dst)
-    build_nps(src, dst)
     build_cdb90(src, dst)
     
 def main():

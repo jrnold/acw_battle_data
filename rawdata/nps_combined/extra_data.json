@@ -86,14 +86,14 @@
             "TheaterCode":  "MW"
         }
     ],
-    "battle_campaigns": [
-        {"battle": "MO010", "theater_code": "TM", "campaign_code": "TM61-03"},
-        {"battle": "MO012", "theater_code": "MW", "campaign_code": "MW62-03"},
-        {"battle": "MO022", "theater_code": "TM", "campaign_code": "TM64-05"},
-        {"battle": "WV009", "theater_code": "ME", "campaign_code": "ME62-03"},
-        {"battle": "AL009", "theater_code": "MW", "campaign_code": "MW64-15"},
-        {"battle": "AR018", "theater_code": "TM", "campaign_code": "TM63-08"}
-    ],
+    "battles": {
+        "MO010": {"theater_code": "TM", "campaign_code": "TM61-03"},
+        "MO012": {"theater_code": "MW", "campaign_code": "MW62-03"},
+        "MO022": {"theater_code": "TM", "campaign_code": "TM64-05"},
+        "WV009": {"theater_code": "ME", "campaign_code": "ME62-03"},
+        "AL009": {"theater_code": "MW", "campaign_code": "MW64-15"},
+        "AR018": {"theater_code": "TM", "campaign_code": "TM63-08"}
+    },
     "people": [
         {"FirstName": "Jacob",
          "MiddleName": "D.",

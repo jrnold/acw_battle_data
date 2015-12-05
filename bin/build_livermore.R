@@ -34,15 +34,10 @@ build <- function(src, dst) {
     )
 
   liv_commanders <-
-    livrmore %>%
-    group_by(seq_no) %>%
-    do({
-      bind_rows(data_frame(commander = str_split(str_trim(.$commander_union), " +")[[1]],
-                          belligerent = "Union"),
-                data_frame(commander = str_split(str_trim(.$commander_confederate), " +")[[1]],
-                           belligerent = "Confederate"))
-    }) %>%
-    select(seq_no, belligerent, commander)
+    read_csv(file.path(src, "rawdata", "livermore1900",
+                       "livermore_commanders.csv")) %>%
+    select(seq_no, belligerent, PersonID, last_name, first_name, middle_name,
+           middle_initial, rank, navy)
 
   liv_forces <-
     livrmore %>%

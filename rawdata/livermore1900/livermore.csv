@@ -1,64 +1,64 @@
-seq_no,battle_name,page,start_date,end_date,attacker,result,CS_str,CS_kia,CS_wia,CS_kw,CS_miapow,US_str,US_kia,US_wia,US_kw,US_miapow,assault_fortified,assault_outcome,union_result,confed_result,state,theater,commander_union,commander_confederate
-1,Bull Run,77,1861-07-21,1861-07-21,Union,Confederate,32232,387,1582,1969,12,28452,481,1011,1492,1216,,,Rout,Victory,VA,ME,Irvin_McDowell ,P._G._T._Beauregard Joseph_E._Johnston
-2,Wilson's Creek,78,1861-08-10,1861-08-10,Union,Confederate,11600,257,900,1157,27,5400,223,721,944,291,,,Defeat,Victory,MO,TM,Nathaniel_Lyon Samuel_D._Sturgis,Sterling_Price Benjamin_McCulloch
-3,Fort Donelson,78,1862-02-12,1862-02-16,Union,Union,21000,,2000,2000,14623,27000,500,2108,2608,224,Union,Partial Success,,,TN,MW,Ulysses_S._Grant Andrew_Hull_Foote,John_B._Floyd Gideon_Johnson_Pillow Simon_Bolivar_Buckner
-4,Pea Ridge,79,1862-03-07,1862-03-07,Confederate,Union,14000,,600,600,200,11250,203,980,1183,201,,,Victory,Defeat,AR,TM,Samuel_Ryan_Curtis,Earl_Van_Dorn
-5,Shiloh,79,1862-04-06,1862-04-07,Confederate,Union,40335,1723,8012,9735,959,62682,1754,8408,10162,2885,,,Victory,Defeat,TN,MW,Ulysses_S._Grant Don_Carlos_Buell,Albert_Sidney_Johnston P._G._T._Beauregard
-6,Williamsburg,80,1862-05-04,1862-05-05,Union,Union,31823,,1570,1570,133,40768,456,1410,1866,373,,,,Retired,VA,ME,George_B._McClellan,Joseph_E._Johnston
-7,Fair Oaks,81,1862-05-31,1862-06-01,Confederate,Union,41816,980,4749,5729,405,41797,790,3594,4384,647,,,Victory,Defeat,VA,ME,George_B._McClellan,Joseph_E._Johnston Gustavus_Woodson_Smith
-8,Seven Days' Battles,86,1862-06-25,1862-07-01,Confederate,Confederate,95481,3478,16261,19739,875,91169,1734,8062,9796,6053,,,,,VA,ME,George_B._McClellan,Robert_E._Lee John_B._Magruder
-9,Mechaicsville,82,1862-06-26,1862-06-26,Confederate,Confederate,16356,,1484,1484,,15631,49,207,256,105,Confederate,Failure,Retired,,VA,ME,Fitz_John_Porter,Robert_E._Lee
-10,Gaines's Mill,82,1862-06-27,1862-06-27,Confederate,Confederate,57018,,8751,8751,,34214,894,3107,4001,2836,,,Rout,Victory,VA,ME,Fitz_John_Porter,Robert_E._Lee
-11,"Peach Orchard, Savage Station, Wite Oak Swamp, Glendale, Malvern Hill",84,1862-06-29,1862-07-01,Confederate,Confederate,86748,,8602,8602,875,83345,724,4245,4969,3067,,,Retired,,VA,ME,George_B._McClellan Fitz_John_Porter,Robert_E._Lee John_B._Magruder
-12,Cedar Mountain,87,1862-08-09,1862-08-09,Union,Confederate,16868,231,1107,1338,,8030,314,1445,1759,594,,,Defeat,Victory,VA,ME,Nathaniel_P._Banks,Stonewall_Jackson
-13,Manasas and Chantilly,88,1862-08-27,1862-09-02,Union,Confederate,48527,1481,7627,9108,89,75696,1724,8372,10096,5958,,,Defeat,Victory,VA,ME,John_Pope_(military_officer),Robert_E._Lee Stonewall_Jackson
-14,Richmond,89,1862-08-29,1862-08-30,Confederate,Confederate,6850,78,372,450,1,6500,206,844,1050,4303,,,Rout,Victory,KY,MW,"William_""Bull""_Nelson",Edmund_Kirby_Smith
-15,South Mountain,90,1862-09-14,1862-09-14,Union,Union,17852,325,1560,1885,800,28480,325,1403,1728,85,,,Victory,Defeat,MD,ME,George_B._McClellan,Robert_E._Lee
-16,Antietam,92,1862-09-16,1862-09-17,Union,Union,51844,2700,9024,11724,2000,75316,2108,9549,11657,753,,,Victory,Defeat,MD,ME,George_B._McClellan,Robert_E._Lee
-17,Corinth,94,1862-10-03,1862-10-04,Confederate,Union,22000,473,1997,2470,1763,21147,355,1841,2196,324,Confederate,Failure,Victory,,MS,MW,William_Rosecrans,Earl_Van_Dorn
-18,Perryville,95,1862-10-08,1862-10-08,Union,Union,16000,510,2635,3145,251,36940,845,2851,3696,515,,,Victory,Defeat,KY,MW,Don_Carlos_Buell,Braxton_Bragg
-19,Prairie Grove,95,1862-12-07,1862-12-07,Confederate,Union,10000,164,817,981,336,10000,175,813,988,263,,,Victory,Defeat,AR,TM,Francis_J._Herron James_G._Blunt,Thomas_C._Hindman
-20,Fredericksburg,96,1862-12-13,1862-12-13,Union,Confederate,72497,595,4061,4656,653,106007,1284,9600,10884,1769,Union,Failure,,Victory,VA,ME,Ambrose_Burnside,Robert_E._Lee
-21,Chicasaw Bayou and Bluff,96,1862-12-27,1862-12-29,Union,Confederate,13792,63,134,197,10,30720,208,1005,1213,563,Union,Failure,,Victory,MS,MW,William_Tecumseh_Sherman,John_C._Pemberton
-22,Stone's River,97,1862-12-31,1863-01-01,Confederate,Union,34732,1294,7945,9239,2500,41400,1677,7543,9220,3686,,,Victory,Defeat,TN,MW,William_Rosecrans,Braxton_Bragg
-23,Arkansas Post,98,1863-01-11,1863-01-11,Union,Union,4564,28,81,109,4791,28944,134,898,1032,29,Union,Success,Victory,Defeat,AR,TM,John_Alexander_McClernand David_Dixon_Porter,Thomas_James_Churchill
-24,Chancellorsville and Fredericksburg,98,1863-05-01,1863-05-04,Union,Confederate,57352,1665,9081,10746,2018,97382,1575,9594,11169,5676,,,Defeat,Victory,VA,ME,Joseph_Hooker,Robert_E._Lee Stonewall_Jackson
-25,Champion Hill,99,1863-05-16,1863-05-16,Union,Union,20000,381,1800,2181,1670,29373,410,1844,2254,187,,,Victory,,MS,MW,Ulysses_S._Grant,John_C._Pemberton
-26,Assault on Vicksburg,100,1863-05-22,1863-05-22,Union,Confederate,22301,,6240,6240,,45556,502,2550,3052,147,Union,Failure,,,MS,MW,Ulysses_S._Grant,John_C._Pemberton
-27,Assault on Port Hudson,101,1863-05-27,1863-05-27,Union,Confederate,4192,,235,235,,13000,293,1545,1838,157,Union,Failure,,Victory,LA,LS,Nathaniel_P._Banks,Franklin_Gardner
-28,Assault on Port Hudson,101,1863-06-14,1863-06-14,Union,Confederate,3487,22,25,47,,6000,203,1401,1604,188,Union,Failure,,Victory,LA,LS,Nathaniel_P._Banks,Franklin_Gardner
-29,Gettysburg,102,1863-07-01,1863-07-03,Confederate,Union,75054,3903,18735,22638,5425,83289,3155,14529,17684,5365,,,Victory,Defeat,PA,ME,George_Meade,Robert_E._Lee
-30,Assault on Fort Wagner,104,1863-07-18,1863-07-18,Union,Confederate,1785,36,133,169,5,5264,246,880,1126,389,Union,Failure,,Victory,SC,LS,Quincy_Adams_Gillmore,P._G._T._Beauregard
-31,Chickamauga,105,1863-09-19,1863-09-20,Confederate,Confederate,66326,2312,14674,16986,1468,58222,1657,9756,11413,4757,,,Defeat,Victory,GA,MW,William_Rosecrans George_Henry_Thomas,Braxton_Bragg James_Longstreet
-32,Chattanooga,106,1863-11-23,1863-11-25,Union,Union,46165,361,2160,2521,4146,56359,753,4722,5475,349,Union,Success,Victory,,TN,MW,Ulysses_S._Grant,Braxton_Bragg
-33,Mine Run,108,1863-11-27,1863-12-01,Union,Confederate,44426,110,570,680,65,69643,173,1099,1272,381,,,,Victory,VA,ME,George_Meade,Robert_E._Lee
-34,"Olustee, Fla.",109,1864-02-20,1864-02-20,Confederate,Confederate,5200,93,841,934,,5115,203,1152,1355,506,,,Defeat,Victory,FL,LS,Truman_Seymour,Joseph_Finnegan_(Brigadier_general)
-35,Pleasant Hill,109,1864-04-09,1864-04-09,Union,Confederate,14300,,,1000,500,12647,150,844,994,375,,,Defeat,Victory,LA,TM,Nathaniel_P._Banks,Richard_Taylor_(general)
-36,Atlanta Campaign,119,1864-05-05,1864-05-28,Union,Union,66089,,,9187,,110123,,,10528,1240,,,,,GA,MW,William_Tecumseh_Sherman,Joseph_E._Johnston
-37,Wilderness,110,1864-05-05,1864-05-07,Union,Confederate,61025,,,7750,,101895,2246,12037,14283,3383,,,,,VA,ME,Ulysses_S._Grant George_Meade,Robert_E._Lee
-38,Spotsylvania,112,1864-05-10,1864-05-10,Union,Confederate,,,,,,37822,753,3347,4100,,Union,Failure,,,VA,ME,Ulysses_S._Grant George_Meade,Robert_E._Lee
-39,Spotsylvania,112,1864-05-12,1864-05-12,Union,Confederate,,,,,,65785,,6020,6020,800,Union,Partial Success,,,VA,ME,Ulysses_S._Grant George_Meade,Robert_E._Lee
-40,Drewry's Bluff,113,1864-05-12,1864-05-16,Union,Confederate,18025,,2860,2860,210,15800,390,2380,2770,1390,,,Defeat,Victory,VA,ME,Benjamin_Butler_(politician),P._G._T._Beauregard
-41,Cold Harbor,114,1864-06-01,1864-06-03,Union,Confederate,,,,,,107907,,,12000,,Union,Failure,,,VA,ME,Ulysses_S._Grant George_Meade,Robert_E._Lee
-42,Petersburg,115,1864-06-15,1864-06-18,Union,Confederate,41499,,,,,63797,,,8150,,Union,Partial Success,,,VA,ME,Ulysses_S._Grant George_Meade,P._G._T._Beauregard
-43,Assault on Kenesaw Mountain,120,1864-06-27,1864-06-27,Union,Confederate,17733,,,270,172,16225,,,1999,52,Union,Failure,,Victory,GA,MW,William_Tecumseh_Sherman,Joseph_E._Johnston
-44,"Tupelo, Miss.",121,1864-07-13,1864-07-15,Confederate,Union,6600,210,1116,1326,,14000,77,559,636,38,,,,Defeat,MS,MW,Andrew_Jackson_Smith,Stephen_D._Lee Nathan_Bedford_Forrest
-45,Peach-Tree Creek,122,1864-07-20,1864-07-20,Confederate,Union,18832,,,2500,,20139,,,1600,,Confederate,Failure,Victory,,GA,MW,George_Henry_Thomas,John_Bell_Hood
-46,Atlanta (Hood's Attack),122,1864-07-22,1864-07-22,Confederate,Union,36934,,,7000,1000,30477,430,1559,1989,1733,Confederate,Failure,Victory,,GA,MW,William_Tecumseh_Sherman,John_Bell_Hood
-47,Atlanta,124,1864-07-28,1864-07-28,Confederate,Union,18450,,,4100,200,13226,,,559,73,Confederate,Failure,Victory,,GA,MW,Oliver_O._Howard,John_Bell_Hood
-48,The Mine,116,1864-07-30,1864-07-30,Union,Confederate,11466,,,,,20708,,,2864,929,Union,Failure,,,VA,ME,Ambrose_Burnside,Robert_E._Lee
-49,Deep Bottom,117,1864-08-14,1864-08-19,Union,Confederate,20008,,,,,27974,328,1852,2180,721,Union,Partial Success,,,VA,ME,Winfield_Scott_Hancock,Robert_E._Lee Charles_W._Field
-50,Weldon Railroad,118,1864-08-18,1864-08-21,Union,Union,14787,,,1200,419,20289,198,1105,1303,3152,,,Victory,Defeat,VA,ME,Gouverneur_K._Warren,A._P._Hill
-51,"Jonesborough, Ga.",125,1864-08-31,1864-08-31,Confederate,Union,23811,,,1725,,14170,,,179,,Confederate,Failure,Victory,,GA,MW,William_Tecumseh_Sherman,William_J._Hardee
-52,"Jonesborough, Ga.",126,1864-09-01,1864-09-01,Union,Union,12661,,,,,20460,223,946,1169,105,Union,Success,,,GA,MW,William_Tecumseh_Sherman,William_J._Hardee
-53,Winchester (Opequan),127,1864-09-19,1864-09-19,Union,Union,17103,276,1827,2103,1818,37711,697,3983,4680,338,Union,Success,Victory,Rout,GA,MW,Philip_Sheridan,Jubal_Early
-54,"Chafin's Farm, and Forts Harrison and Gilmer",128,1864-09-29,1864-09-30,Union,Union,10836,,,,,19639,383,2299,2682,645,Union,Partial Success,,,VA,ME,Benjamin_Butler_(politician),Robert_E._Lee Richard_S._Ewell
-55,Cedar Creek,129,1864-10-19,1864-10-19,Confederate,Union,18410,320,1540,1860,1050,30829,644,3430,4074,1591,,,Victory,Rout,VA,ME,Philip_Sheridan,Jubal_Early
-56,Boydton Plank Road,130,1864-10-27,1864-10-28,Union,Confederate,20324,,,,,42823,166,1028,1194,564,,,,,VA,ME,Winfield_Scott_Hancock,Henry_Heth
-57,Franklin,131,1864-11-30,1864-11-30,Confederate,Union,26897,1750,3800,5550,702,27939,189,1033,1222,1104,Confederate,Failure,Retired,,TN,MW,John_Schofield,John_Bell_Hood
-58,Nashville,132,1864-12-15,1864-12-16,Union,Union,23207,,,,4462,49773,387,2562,2949,112,Union,Success,,Rout,TN,MW,George_Henry_Thomas,John_Bell_Hood
-59,Hatcher's Run,133,1865-02-05,1865-02-07,Union,Confederate,13835,,,,,34517,170,1160,1330,182,,,,,VA,ME,Andrew_A._Humphreys Gouverneur_K._Warren,John_Brown_Gordon
-60,Bentonville,134,1865-03-19,1865-03-19,Confederate,Union,16895,195,1313,1508,610,16127,139,794,933,170,Confederate,Failure,Victory,,NC,MW,William_Tecumseh_Sherman,Joseph_E._Johnston
-61,Appomattox Campaign,135,1865-03-29,1865-04-09,Union,Union,49496,,,6266,43230,112992,1316,7750,9066,1714,,,,,VA,ME,Ulysses_S._Grant,Robert_E._Lee
-62,Dinwiddie Court House and White Oak Road,137,1865-03-29,1865-03-31,Union,Union,20030,,,,,45247,,,2198,583,,,Victory,,VA,ME,Philip_Sheridan,George_Pickett Fitzhugh_Lee
-63,Assault on Petersburg,138,1865-04-02,1865-04-02,Union,Union,18576,,,,,63299,625,3189,3814,326,Union,Success,,Rout,VA,ME,Ulysses_S._Grant,Robert_E._Lee
+seq_no,battle_name,page,start_date,end_date,attacker,result,CS_str,CS_kia,CS_wia,CS_kw,CS_miapow,US_str,US_kia,US_wia,US_kw,US_miapow,assault_fortified,assault_outcome,union_result,confed_result,state,theater
+1,Bull Run,77,1861-07-21,1861-07-21,Union,Confederate,32232,387,1582,1969,12,28452,481,1011,1492,1216,,,Rout,Victory,VA,ME
+2,Wilson's Creek,78,1861-08-10,1861-08-10,Union,Confederate,11600,257,900,1157,27,5400,223,721,944,291,,,Defeat,Victory,MO,TM
+3,Fort Donelson,78,1862-02-12,1862-02-16,Union,Union,21000,,2000,2000,14623,27000,500,2108,2608,224,Union,Partial Success,,,TN,MW
+4,Pea Ridge,79,1862-03-07,1862-03-07,Confederate,Union,14000,,600,600,200,11250,203,980,1183,201,,,Victory,Defeat,AR,TM
+5,Shiloh,79,1862-04-06,1862-04-07,Confederate,Union,40335,1723,8012,9735,959,62682,1754,8408,10162,2885,,,Victory,Defeat,TN,MW
+6,Williamsburg,80,1862-05-04,1862-05-05,Union,Union,31823,,1570,1570,133,40768,456,1410,1866,373,,,,Retired,VA,ME
+7,Fair Oaks,81,1862-05-31,1862-06-01,Confederate,Union,41816,980,4749,5729,405,41797,790,3594,4384,647,,,Victory,Defeat,VA,ME
+8,Seven Days' Battles,86,1862-06-25,1862-07-01,Confederate,Confederate,95481,3478,16261,19739,875,91169,1734,8062,9796,6053,,,,,VA,ME
+9,Mechanicsville,82,1862-06-26,1862-06-26,Confederate,Confederate,16356,,1484,1484,,15631,49,207,256,105,Confederate,Failure,Retired,,VA,ME
+10,Gaines's Mill,82,1862-06-27,1862-06-27,Confederate,Confederate,57018,,8751,8751,,34214,894,3107,4001,2836,,,Rout,Victory,VA,ME
+11,"Peach Orchard, Savage Station, White Oak Swamp, Glendale, Malvern Hill",84,1862-06-29,1862-07-01,Confederate,Confederate,86748,,8602,8602,875,83345,724,4245,4969,3067,,,Retired,,VA,ME
+12,Cedar Mountain,87,1862-08-09,1862-08-09,Union,Confederate,16868,231,1107,1338,,8030,314,1445,1759,594,,,Defeat,Victory,VA,ME
+13,Manasas and Chantilly,88,1862-08-27,1862-09-02,Union,Confederate,48527,1481,7627,9108,89,75696,1724,8372,10096,5958,,,Defeat,Victory,VA,ME
+14,Richmond,89,1862-08-29,1862-08-30,Confederate,Confederate,6850,78,372,450,1,6500,206,844,1050,4303,,,Rout,Victory,KY,MW
+15,South Mountain,90,1862-09-14,1862-09-14,Union,Union,17852,325,1560,1885,800,28480,325,1403,1728,85,,,Victory,Defeat,MD,ME
+16,Antietam,92,1862-09-16,1862-09-17,Union,Union,51844,2700,9024,11724,2000,75316,2108,9549,11657,753,,,Victory,Defeat,MD,ME
+17,Corinth,94,1862-10-03,1862-10-04,Confederate,Union,22000,473,1997,2470,1763,21147,355,1841,2196,324,Confederate,Failure,Victory,,MS,MW
+18,Perryville,95,1862-10-08,1862-10-08,Union,Union,16000,510,2635,3145,251,36940,845,2851,3696,515,,,Victory,Defeat,KY,MW
+19,Prairie Grove,95,1862-12-07,1862-12-07,Confederate,Union,10000,164,817,981,336,10000,175,813,988,263,,,Victory,Defeat,AR,TM
+20,Fredericksburg,96,1862-12-13,1862-12-13,Union,Confederate,72497,595,4061,4656,653,106007,1284,9600,10884,1769,Union,Failure,,Victory,VA,ME
+21,Chicasaw Bayou and Bluff,96,1862-12-27,1862-12-29,Union,Confederate,13792,63,134,197,10,30720,208,1005,1213,563,Union,Failure,,Victory,MS,MW
+22,Stone's River,97,1862-12-31,1863-01-01,Confederate,Union,34732,1294,7945,9239,2500,41400,1677,7543,9220,3686,,,Victory,Defeat,TN,MW
+23,Arkansas Post,98,1863-01-11,1863-01-11,Union,Union,4564,28,81,109,4791,28944,134,898,1032,29,Union,Success,Victory,Defeat,AR,TM
+24,Chancellorsville and Fredericksburg,98,1863-05-01,1863-05-04,Union,Confederate,57352,1665,9081,10746,2018,97382,1575,9594,11169,5676,,,Defeat,Victory,VA,ME
+25,Champion Hill,99,1863-05-16,1863-05-16,Union,Union,20000,381,1800,2181,1670,29373,410,1844,2254,187,,,Victory,,MS,MW
+26,Assault on Vicksburg,100,1863-05-22,1863-05-22,Union,Confederate,22301,,6240,6240,,45556,502,2550,3052,147,Union,Failure,,,MS,MW
+27,Assault on Port Hudson,101,1863-05-27,1863-05-27,Union,Confederate,4192,,235,235,,13000,293,1545,1838,157,Union,Failure,,Victory,LA,LS
+28,Assault on Port Hudson,101,1863-06-14,1863-06-14,Union,Confederate,3487,22,25,47,,6000,203,1401,1604,188,Union,Failure,,Victory,LA,LS
+29,Gettysburg,102,1863-07-01,1863-07-03,Confederate,Union,75054,3903,18735,22638,5425,83289,3155,14529,17684,5365,,,Victory,Defeat,PA,ME
+30,Assault on Fort Wagner,104,1863-07-18,1863-07-18,Union,Confederate,1785,36,133,169,5,5264,246,880,1126,389,Union,Failure,,Victory,SC,LS
+31,Chickamauga,105,1863-09-19,1863-09-20,Confederate,Confederate,66326,2312,14674,16986,1468,58222,1657,9756,11413,4757,,,Defeat,Victory,GA,MW
+32,Chattanooga,106,1863-11-23,1863-11-25,Union,Union,46165,361,2160,2521,4146,56359,753,4722,5475,349,Union,Success,Victory,,TN,MW
+33,Mine Run,108,1863-11-27,1863-12-01,Union,Confederate,44426,110,570,680,65,69643,173,1099,1272,381,,,,Victory,VA,ME
+34,"Olustee, Fla.",109,1864-02-20,1864-02-20,Confederate,Confederate,5200,93,841,934,,5115,203,1152,1355,506,,,Defeat,Victory,FL,LS
+35,Pleasant Hill,109,1864-04-09,1864-04-09,Union,Confederate,14300,,,1000,500,12647,150,844,994,375,,,Defeat,Victory,LA,TM
+36,Atlanta Campaign,119,1864-05-05,1864-05-28,Union,Union,66089,,,9187,,110123,,,10528,1240,,,,,GA,MW
+37,Wilderness,110,1864-05-05,1864-05-07,Union,Confederate,61025,,,7750,,101895,2246,12037,14283,3383,,,,,VA,ME
+38,Spotsylvania,112,1864-05-10,1864-05-10,Union,Confederate,,,,,,37822,753,3347,4100,,Union,Failure,,,VA,ME
+39,Spotsylvania,112,1864-05-12,1864-05-12,Union,Confederate,,,,,,65785,,6020,6020,800,Union,Partial Success,,,VA,ME
+40,Drewry's Bluff,113,1864-05-12,1864-05-16,Union,Confederate,18025,,2860,2860,210,15800,390,2380,2770,1390,,,Defeat,Victory,VA,ME
+41,Cold Harbor,114,1864-06-01,1864-06-03,Union,Confederate,,,,,,107907,,,12000,,Union,Failure,,,VA,ME
+42,Petersburg,115,1864-06-15,1864-06-18,Union,Confederate,41499,,,,,63797,,,8150,,Union,Partial Success,,,VA,ME
+43,Assault on Kenesaw Mountain,120,1864-06-27,1864-06-27,Union,Confederate,17733,,,270,172,16225,,,1999,52,Union,Failure,,Victory,GA,MW
+44,"Tupelo, Miss.",121,1864-07-13,1864-07-15,Confederate,Union,6600,210,1116,1326,,14000,77,559,636,38,,,,Defeat,MS,MW
+45,Peach-Tree Creek,122,1864-07-20,1864-07-20,Confederate,Union,18832,,,2500,,20139,,,1600,,Confederate,Failure,Victory,,GA,MW
+46,Atlanta (Hood's Attack),122,1864-07-22,1864-07-22,Confederate,Union,36934,,,7000,1000,30477,430,1559,1989,1733,Confederate,Failure,Victory,,GA,MW
+47,Atlanta,124,1864-07-28,1864-07-28,Confederate,Union,18450,,,4100,200,13226,,,559,73,Confederate,Failure,Victory,,GA,MW
+48,The Mine,116,1864-07-30,1864-07-30,Union,Confederate,11466,,,,,20708,,,2864,929,Union,Failure,,,VA,ME
+49,Deep Bottom,117,1864-08-14,1864-08-19,Union,Confederate,20008,,,,,27974,328,1852,2180,721,Union,Partial Success,,,VA,ME
+50,Weldon Railroad,118,1864-08-18,1864-08-21,Union,Union,14787,,,1200,419,20289,198,1105,1303,3152,,,Victory,Defeat,VA,ME
+51,"Jonesborough, Ga.",125,1864-08-31,1864-08-31,Confederate,Union,23811,,,1725,,14170,,,179,,Confederate,Failure,Victory,,GA,MW
+52,"Jonesborough, Ga.",126,1864-09-01,1864-09-01,Union,Union,12661,,,,,20460,223,946,1169,105,Union,Success,,,GA,MW
+53,Winchester (Opequan),127,1864-09-19,1864-09-19,Union,Union,17103,276,1827,2103,1818,37711,697,3983,4680,338,Union,Success,Victory,Rout,GA,MW
+54,"Chafin's Farm, and Forts Harrison and Gilmer",128,1864-09-29,1864-09-30,Union,Union,10836,,,,,19639,383,2299,2682,645,Union,Partial Success,,,VA,ME
+55,Cedar Creek,129,1864-10-19,1864-10-19,Confederate,Union,18410,320,1540,1860,1050,30829,644,3430,4074,1591,,,Victory,Rout,VA,ME
+56,Boydton Plank Road,130,1864-10-27,1864-10-28,Union,Confederate,20324,,,,,42823,166,1028,1194,564,,,,,VA,ME
+57,Franklin,131,1864-11-30,1864-11-30,Confederate,Union,26897,1750,3800,5550,702,27939,189,1033,1222,1104,Confederate,Failure,Retired,,TN,MW
+58,Nashville,132,1864-12-15,1864-12-16,Union,Union,23207,,,,4462,49773,387,2562,2949,112,Union,Success,,Rout,TN,MW
+59,Hatcher's Run,133,1865-02-05,1865-02-07,Union,Confederate,13835,,,,,34517,170,1160,1330,182,,,,,VA,ME
+60,Bentonville,134,1865-03-19,1865-03-19,Confederate,Union,16895,195,1313,1508,610,16127,139,794,933,170,Confederate,Failure,Victory,,NC,MW
+61,Appomattox Campaign,135,1865-03-29,1865-04-09,Union,Union,49496,,,6266,43230,112992,1316,7750,9066,1714,,,,,VA,ME
+62,Dinwiddie Court House and White Oak Road,137,1865-03-29,1865-03-31,Union,Union,20030,,,,,45247,,,2198,583,,,Victory,,VA,ME
+63,Assault on Petersburg,138,1865-04-02,1865-04-02,Union,Union,18576,,,,,63299,625,3189,3814,326,Union,Success,,Rout,VA,ME
