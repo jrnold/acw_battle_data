@@ -1,0 +1,107 @@
+description: ''
+format: csv
+name: cwsac2_forces
+path: data/cwsac2_forces.csv
+schema:
+  fields:
+  - format: default
+    name: battle
+    title: battle
+    type: string
+  - format: default
+    name: belligerent
+    title: belligerent
+    type: string
+  - format: default
+    name: description
+    title: description
+    type: string
+  - format: default
+    name: strength
+    title: strength
+    type: number
+  - format: default
+    name: regiments
+    title: regiments
+    type: number
+  - format: default
+    name: companies
+    title: companies
+    type: number
+  - format: default
+    name: brigades
+    title: brigades
+    type: number
+  - format: default
+    name: divisions
+    title: divisions
+    type: number
+  - format: default
+    name: corps
+    title: corps
+    type: number
+  - format: default
+    name: armies
+    title: armies
+    type: number
+  - format: default
+    name: cavalry_regiments
+    title: cavalry_regiments
+    type: number
+  - format: default
+    name: cavalry_brigades
+    title: cavalry_brigades
+    type: number
+  - format: default
+    name: cavalry_divisions
+    title: cavalry_divisions
+    type: number
+  - format: default
+    name: cavalry_corps
+    title: cavalry_corps
+    type: number
+  - format: default
+    name: cavalry_companies
+    title: cavalry_companies
+    type: number
+  - format: default
+    name: artillery_batteries
+    title: artillery_batteries
+    type: number
+  - format: default
+    name: artillery_companies
+    title: artillery_companies
+    type: number
+  - format: default
+    name: artillery_regiments
+    title: artillery_regiments
+    type: number
+  - format: default
+    name: artillery_sections
+    title: artillery_sections
+    type: number
+  - format: default
+    name: infantry_regiments
+    title: infantry_regiments
+    type: number
+  - format: default
+    name: strength_other
+    title: strength_other
+    type: number
+  - format: default
+    name: ships
+    title: ships
+    type: number
+  - format: default
+    name: guns
+    title: guns
+    type: number
+  - format: default
+    name: strength_mean
+    title: strength_mean
+    type: number
+  - format: default
+    name: strength_var
+    title: strength_var
+    type: number
+title: cwsac2_forces

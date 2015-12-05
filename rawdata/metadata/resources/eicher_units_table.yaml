@@ -1,0 +1,39 @@
+description: ''
+format: csv
+name: eicher_units_table
+path: data/eicher_units_table.csv
+schema:
+  fields:
+  - format: default
+    name: belligerent
+    title: belligerent
+    type: string
+  - format: default
+    name: infantry
+    title: infantry
+    type: integer
+  - format: default
+    name: unit type
+    title: unit type
+    type: string
+  - format: default
+    name: low
+    title: low
+    type: integer
+  - format: default
+    name: high
+    title: high
+    type: integer
+  - format: default
+    name: avg
+    title: avg
+    type: number
+  - format: default
+    name: mode
+    title: mode
+    type: integer
+  - format: default
+    name: page
+    title: page
+    type: integer
+title: eicher_units_table

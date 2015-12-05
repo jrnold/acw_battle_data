@@ -1,0 +1,167 @@
+description: ''
+format: csv
+name: bodart1909_forces
+path: data/bodart1909_forces.csv
+schema:
+  fields:
+  - format: default
+    name: battle_id
+    title: battle_id
+    type: string
+  - format: default
+    name: country
+    title: country
+    type: string
+  - format: default
+    name: victor
+    title: victor
+    type: boolean
+  - format: default
+    name: strength
+    title: strength
+    type: number
+  - format: default
+    name: strength_engaged
+    title: strength_engaged
+    type: number
+  - format: default
+    name: infantry
+    title: infantry
+    type: number
+  - format: default
+    name: cavalry
+    title: cavalry
+    type: number
+  - format: default
+    name: artillery
+    title: artillery
+    type: number
+  - format: default
+    name: guns
+    title: guns
+    type: number
+  - format: default
+    name: killed
+    title: killed
+    type: number
+  - format: default
+    name: killed_percent
+    title: killed_percent
+    type: number
+  - format: default
+    name: killed_generals
+    title: killed_generals
+    type: number
+  - format: default
+    name: killed_officers
+    title: killed_officers
+    type: number
+  - format: default
+    name: killed_wounded
+    title: killed_wounded
+    type: number
+  - format: default
+    name: killed_wounded_percent
+    title: killed_wounded_percent
+    type: number
+  - format: default
+    name: killed_wounded_generals
+    title: killed_wounded_generals
+    type: number
+  - format: default
+    name: killed_wounded_officers
+    title: killed_wounded_officers
+    type: number
+  - format: default
+    name: wounded
+    title: wounded
+    type: number
+  - format: default
+    name: wounded_percent
+    title: wounded_percent
+    type: number
+  - format: default
+    name: wounded_generals
+    title: wounded_generals
+    type: number
+  - format: default
+    name: wounded_officers
+    title: wounded_officers
+    type: number
+  - format: default
+    name: captured
+    title: captured
+    type: number
+  - format: default
+    name: captured_generals
+    title: captured_generals
+    type: number
+  - format: default
+    name: captured_officers
+    title: captured_officers
+    type: number
+  - format: default
+    name: missing
+    title: missing
+    type: number
+  - format: default
+    name: missing_percent
+    title: missing_percent
+    type: number
+  - format: default
+    name: missing_generals
+    title: missing_generals
+    type: number
+  - format: default
+    name: missing_officers
+    title: missing_officers
+    type: number
+  - format: default
+    name: casualties
+    title: casualties
+    type: number
+  - format: default
+    name: casualties_percent
+    title: casualties_percent
+    type: number
+  - format: default
+    name: casualties_officers
+    title: casualties_officers
+    type: number
+  - format: default
+    name: casualties_generals
+    title: casualties_generals
+    type: number
+  - format: default
+    name: losses_guns
+    title: losses_guns
+    type: number
+  - format: default
+    name: losses_caissons
+    title: losses_caissons
+    type: number
+  - format: default
+    name: losses_cannon
+    title: losses_cannon
+    type: number
+  - format: default
+    name: losses_canons
+    title: losses_canons
+    type: number
+  - format: default
+    name: losses_flags
+    title: losses_flags
+    type: number
+  - format: default
+    name: losses_munition_wagons
+    title: losses_munition_wagons
+    type: number
+  - format: default
+    name: losses_wagons
+    title: losses_wagons
+    type: number
+  - format: default
+    name: other
+    title: other
+    type: string
+title: bodart1909_forces

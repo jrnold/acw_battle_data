@@ -1,0 +1,15 @@
+description: ''
+format: csv
+name: cwss_theaters
+path: data/cwss_theaters.csv
+schema:
+  fields:
+  - format: default
+    name: TheaterCode
+    title: TheaterCode
+    type: string
+  - format: default
+    name: TheaterName
+    title: TheaterName
+    type: string
+title: cwss_theaters

@@ -1,0 +1,75 @@
+description: ''
+format: csv
+name: cwss_battles
+path: data/cwss_battles.csv
+schema:
+  fields:
+  - format: default
+    name: BattlefieldCode
+    title: BattlefieldCode
+    type: string
+  - format: default
+    name: BattleName
+    title: BattleName
+    type: string
+  - format: default
+    name: BattleType
+    title: BattleType
+    type: string
+  - format: default
+    name: BeginDate
+    title: BeginDate
+    type: string
+  - format: default
+    name: EndDate
+    title: EndDate
+    type: string
+  - format: default
+    name: State
+    title: State
+    type: string
+  - format: default
+    name: TheaterCode
+    title: TheaterCode
+    type: string
+  - format: default
+    name: CampaignCode
+    title: CampaignCode
+    type: string
+  - format: default
+    name: Result
+    title: Result
+    type: string
+  - format: default
+    name: TotalCasualties
+    title: TotalCasualties
+    type: number
+  - format: default
+    name: Comment
+    title: Comment
+    type: string
+  - format: default
+    name: ID
+    title: ID
+    type: integer
+  - format: default
+    name: ShortSummary
+    title: ShortSummary
+    type: string
+  - format: default
+    name: ShortSummarySource
+    title: ShortSummarySource
+    type: string
+  - format: default
+    name: Summary
+    title: Summary
+    type: string
+  - format: default
+    name: SummarySource
+    title: SummarySource
+    type: number
+  - format: default
+    name: URL
+    title: URL
+    type: string
+title: cwss_battles

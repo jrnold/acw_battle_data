@@ -1,0 +1,19 @@
+description: ''
+format: csv
+name: CDB90_to_cwsac
+path: data/CDB90_to_cwsac.csv
+schema:
+  fields:
+  - format: default
+    name: isqno
+    title: isqno
+    type: integer
+  - format: default
+    name: cwsac_id
+    title: cwsac_id
+    type: string
+  - format: default
+    name: relation
+    title: relation
+    type: string
+title: CDB90_to_cwsac

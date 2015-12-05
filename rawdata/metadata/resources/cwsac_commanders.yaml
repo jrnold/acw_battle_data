@@ -1,0 +1,43 @@
+description: ''
+format: csv
+name: cwsac_commanders
+path: data/cwsac_commanders.csv
+schema:
+  fields:
+  - format: default
+    name: battle
+    title: battle
+    type: string
+  - format: default
+    name: belligerent
+    title: belligerent
+    type: string
+  - format: default
+    name: fullname
+    title: fullname
+    type: string
+  - format: default
+    name: rank
+    title: rank
+    type: string
+  - format: default
+    name: navy
+    title: navy
+    type: integer
+  - format: default
+    name: first_name
+    title: first_name
+    type: string
+  - format: default
+    name: last_name
+    title: last_name
+    type: string
+  - format: default
+    name: middle_name
+    title: middle_name
+    type: string
+  - format: default
+    name: suffix
+    title: suffix
+    type: string
+title: cwsac_commanders

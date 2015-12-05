@@ -1,0 +1,35 @@
+description: ''
+format: csv
+name: greer2005_weekly_casualties
+path: data/greer2005_weekly_casualties.csv
+schema:
+  fields:
+  - format: default
+    name: date
+    title: date
+    type: string
+  - format: default
+    name: description
+    title: description
+    type: string
+  - format: default
+    name: confederate
+    title: confederate
+    type: number
+  - format: default
+    name: union
+    title: union
+    type: number
+  - format: default
+    name: theater
+    title: theater
+    type: string
+  - format: default
+    name: cwsac_id
+    title: cwsac_id
+    type: string
+  - format: default
+    name: cwsac_battle_name
+    title: cwsac_battle_name
+    type: string
+title: greer2005_weekly_casualties

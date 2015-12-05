@@ -1,0 +1,255 @@
+description: ''
+format: csv
+name: nps_battles
+path: data/nps_battles.csv
+schema:
+  fields:
+  - format: default
+    name: cwsac_id
+    title: cwsac_id
+    type: string
+  - format: default
+    name: battle_name
+    title: battle_name
+    type: string
+  - format: default
+    name: battle_type_cwss
+    title: battle_type_cwss
+    type: string
+  - format: default
+    name: start_date
+    title: start_date
+    type: string
+  - format: default
+    name: end_date
+    title: end_date
+    type: string
+  - format: default
+    name: theater_code
+    title: theater_code
+    type: string
+  - format: default
+    name: campaign_code
+    title: campaign_code
+    type: string
+  - format: default
+    name: result
+    title: result
+    type: string
+  - format: default
+    name: cas_kwm_mean_cwss
+    title: cas_kwm_mean_cwss
+    type: number
+  - format: default
+    name: cwss_url
+    title: cwss_url
+    type: string
+  - format: default
+    name: cas_kwm_var_cwss
+    title: cas_kwm_var_cwss
+    type: number
+  - format: default
+    name: partof_cwss
+    title: partof_cwss
+    type: boolean
+  - format: default
+    name: operation
+    title: operation
+    type: integer
+  - format: default
+    name: forces_text
+    title: forces_text
+    type: string
+  - format: default
+    name: casualties_text
+    title: casualties_text
+    type: string
+  - format: default
+    name: results_text
+    title: results_text
+    type: string
+  - format: default
+    name: preservation
+    title: preservation
+    type: string
+  - format: default
+    name: significance
+    title: significance
+    type: string
+  - format: default
+    name: cwsac1_url
+    title: cwsac1_url
+    type: string
+  - format: default
+    name: str_mean_cwsac1
+    title: str_mean_cwsac1
+    type: number
+  - format: default
+    name: str_var_cwsac1
+    title: str_var_cwsac1
+    type: number
+  - format: default
+    name: cas_kwm_mean_cwsac1
+    title: cas_kwm_mean_cwsac1
+    type: number
+  - format: default
+    name: partof_cwsac1
+    title: partof_cwsac1
+    type: boolean
+  - format: default
+    name: cas_kwm_var_cwsac1
+    title: cas_kwm_var_cwsac1
+    type: number
+  - format: default
+    name: cwsac2_url
+    title: cwsac2_url
+    type: string
+  - format: default
+    name: study_area
+    title: study_area
+    type: number
+  - format: default
+    name: core_area
+    title: core_area
+    type: number
+  - format: default
+    name: potnr_boundary
+    title: potnr_boundary
+    type: number
+  - format: default
+    name: str_mean_cwsac2
+    title: str_mean_cwsac2
+    type: number
+  - format: default
+    name: str_var_cwsac2
+    title: str_var_cwsac2
+    type: number
+  - format: default
+    name: partof_cwsac2
+    title: partof_cwsac2
+    type: boolean
+  - format: default
+    name: interpretive_political
+    title: interpretive_political
+    type: integer
+  - format: default
+    name: interpretive_commander_loss
+    title: interpretive_commander_loss
+    type: integer
+  - format: default
+    name: interpretive_casualties
+    title: interpretive_casualties
+    type: integer
+  - format: default
+    name: interpretive_tactics_strategy
+    title: interpretive_tactics_strategy
+    type: integer
+  - format: default
+    name: interpretive_public_mind
+    title: interpretive_public_mind
+    type: integer
+  - format: default
+    name: interpretive_combat_arm
+    title: interpretive_combat_arm
+    type: integer
+  - format: default
+    name: interpretive_military_firsts
+    title: interpretive_military_firsts
+    type: integer
+  - format: default
+    name: interpretive_minority_troops
+    title: interpretive_minority_troops
+    type: integer
+  - format: default
+    name: interpretive_economic
+    title: interpretive_economic
+    type: integer
+  - format: default
+    name: interpretive_archaelolgical
+    title: interpretive_archaelolgical
+    type: integer
+  - format: default
+    name: interpretive_logistics
+    title: interpretive_logistics
+    type: integer
+  - format: default
+    name: interpretive_individual_bravery
+    title: interpretive_individual_bravery
+    type: integer
+  - format: default
+    name: interpretive_group_behavior
+    title: interpretive_group_behavior
+    type: integer
+  - format: default
+    name: interpretive_joint_ops
+    title: interpretive_joint_ops
+    type: integer
+  - format: default
+    name: interpretive_coop_armies
+    title: interpretive_coop_armies
+    type: integer
+  - format: default
+    name: interpretive_naval
+    title: interpretive_naval
+    type: integer
+  - format: default
+    name: significance_jim
+    title: significance_jim
+    type: string
+  - format: default
+    name: significance_ed
+    title: significance_ed
+    type: string
+  - format: default
+    name: significance_bill
+    title: significance_bill
+    type: string
+  - format: default
+    name: aad_url
+    title: aad_url
+    type: string
+  - format: default
+    name: battle_type_aad
+    title: battle_type_aad
+    type: string
+  - format: default
+    name: partof_aad
+    title: partof_aad
+    type: boolean
+  - format: default
+    name: shenandoah_url
+    title: shenandoah_url
+    type: string
+  - format: default
+    name: partof_shenandoah
+    title: partof_shenandoah
+    type: boolean
+  - format: default
+    name: lat
+    title: lat
+    type: number
+  - format: default
+    name: long
+    title: long
+    type: number
+  - format: default
+    name: str_mean
+    title: str_mean
+    type: number
+  - format: default
+    name: str_var
+    title: str_var
+    type: number
+  - format: default
+    name: cas_kwm_mean
+    title: cas_kwm_mean
+    type: number
+  - format: default
+    name: cas_kwm_var
+    title: cas_kwm_var
+    type: number
+  - format: default
+    name: state
+    title: state
+    type: string
+title: nps_battles

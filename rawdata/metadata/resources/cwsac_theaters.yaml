@@ -1,0 +1,19 @@
+description: ''
+format: csv
+name: cwsac_theaters
+path: data/cwsac_theaters.csv
+schema:
+  fields:
+  - format: default
+    name: theater
+    title: theater
+    type: string
+  - format: default
+    name: dbp_resource
+    title: dbp_resource
+    type: string
+  - format: default
+    name: dbp_category
+    title: dbp_category
+    type: string
+title: cwsac_theaters

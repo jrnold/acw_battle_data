@@ -1,0 +1,63 @@
+description: ''
+format: csv
+name: cwsac2_battles
+path: data/cwsac2_battles.csv
+schema:
+  fields:
+  - format: default
+    name: battle
+    title: battle
+    type: string
+  - format: default
+    name: battle_name
+    title: battle_name
+    type: string
+  - format: default
+    name: state
+    title: state
+    type: string
+  - format: default
+    name: campaign
+    title: campaign
+    type: string
+  - format: default
+    name: url
+    title: url
+    type: string
+  - format: default
+    name: forces_text
+    title: forces_text
+    type: string
+  - format: default
+    name: strength
+    title: strength
+    type: number
+  - format: default
+    name: results_text
+    title: results_text
+    type: string
+  - format: default
+    name: result
+    title: result
+    type: number
+  - format: default
+    name: study_area
+    title: study_area
+    type: number
+  - format: default
+    name: core_area
+    title: core_area
+    type: number
+  - format: default
+    name: potnr_boundary
+    title: potnr_boundary
+    type: number
+  - format: default
+    name: strength_mean
+    title: strength_mean
+    type: number
+  - format: default
+    name: strength_var
+    title: strength_var
+    type: number
+title: cwsac2_battles

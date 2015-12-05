@@ -1,0 +1,35 @@
+description: ''
+format: csv
+name: livermore_forces
+path: data/livermore_forces.csv
+schema:
+  fields:
+  - format: default
+    name: seq_no
+    title: seq_no
+    type: integer
+  - format: default
+    name: belligerent
+    title: belligerent
+    type: string
+  - format: default
+    name: str
+    title: str
+    type: number
+  - format: default
+    name: kia
+    title: kia
+    type: number
+  - format: default
+    name: wia
+    title: wia
+    type: number
+  - format: default
+    name: kw
+    title: kw
+    type: number
+  - format: default
+    name: miapow
+    title: miapow
+    type: number
+title: livermore_forces
