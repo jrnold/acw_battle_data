@@ -79,8 +79,7 @@ update_forces <- function(src, dst) {
   forces2 <-
     left_join(forces, forces_strengths,
               by = c("battle", "belligerent"))
-  write_csv(forces2,
-            file = file.path(dst, "cwsac_forces.csv"))
+  write_csv(forces2, file = file.path(dst, "cwsac_forces.csv"))
 }
 
 main <- function() {
