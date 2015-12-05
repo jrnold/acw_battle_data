@@ -36,6 +36,7 @@ def build(src, dst, docs):
         metadata = json.load(f)
     print(env.list_templates())
     build_index(docs, env, metadata)
+    build_resource(docs, env, metadata)    
     build_resources(docs, env, metadata)
 
 def main():
