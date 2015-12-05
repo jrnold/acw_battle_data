@@ -42,8 +42,7 @@ def build_bodart(src, dst):
 
 def build_dyer(src, dst):
     print("build_dyer")
-    sp.run([PYTHON, "bin/build_dyer.py",
-            path.join(src, "rawdata", "dyer1908"), dst])
+    sp.run([PYTHON, "bin/build_dyer.py", src, dst])
 
 def build_wikipedia(src, dst):
     print("build_wikipedia")
@@ -80,8 +79,7 @@ def build_nyt(src, dst):
 
 def build_phisterer(src, dst):
     print("build_phisterer")
-    sp.run([PYTHON, "bin/build_phisterer.py",
-            path.join(src, "rawdata", "phisterer1883"), dst])
+    sp.run([PYTHON, "bin/build_phisterer.py", src, dst])
 
 def build_shenandoah(src, dst):
     print("build_shenandoah")
