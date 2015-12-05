@@ -110,7 +110,7 @@ def build_metadata(src, dst):
 def build_datapackage(src, dst):
     print("build_datapackage")
     sp.run([PYTHON, "bin/build_datapackage.py",
-            path.join(dst, "metadata"), path.join(dst, "metadata.json")])
+            path.join(dst, "metadata"), path.join(dst, "datapackage.json")])
     
 def build(src, dst):
     try:
@@ -145,11 +145,13 @@ def build(src, dst):
     # metadata
     build_metadata(src, dst)
     build_datapackage(src, dst)
-    # build docsx
+    # build docs
+    build_docs(src, dst, docs)
            
 def main():
     src = "."
     dst = sys.argv[1]
+    docs = sys.argv[2]
     build(src, dst)
 
 if __name__ == "__main__":

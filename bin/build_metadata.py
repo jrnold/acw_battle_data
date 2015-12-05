@@ -20,10 +20,11 @@ import pandas
 def make_metadata(src):
     name, ext = path.splitext(path.basename(src))
     dformat = ext[1:]
-    meta = {'name': path.splitext(path.basename(src))[0],
-              'path': src,
-              'format': dformat,
-              'description': ""
+    meta = {'name': name,
+            'title': name,
+            'path': src,
+            'format': dformat,
+            'description': ""
     }
     if dformat == "csv":
         meta['schema'] = {}
