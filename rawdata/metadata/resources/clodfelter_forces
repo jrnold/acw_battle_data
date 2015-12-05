@@ -1,0 +1,182 @@
+description: ''
+format: csv
+name: clodfelter_forces
+path: data/clodfelter_forces.csv
+schema:
+  fields:
+  - format: default
+    name: battle
+    title: battle
+    type: string
+  - format: default
+    name: belligerent
+    title: belligerent
+    type: string
+  - format: default
+    name: strength
+    title: strength
+    type: number
+  - format: default
+    name: infantry
+    title: infantry
+    type: number
+  - format: default
+    name: cavalry
+    title: cavalry
+    type: number
+  - format: default
+    name: crewmen
+    title: crewmen
+    type: number
+  - format: default
+    name: corps
+    title: corps
+    type: number
+  - format: default
+    name: cavalry_corps
+    title: cavalry_corps
+    type: number
+  - format: default
+    name: divisions
+    title: divisions
+    type: number
+  - format: default
+    name: cavalry_divisions
+    title: cavalry_divisions
+    type: number
+  - format: default
+    name: brigades
+    title: brigades
+    type: number
+  - format: default
+    name: companies
+    title: companies
+    type: number
+  - format: default
+    name: frigates
+    title: frigates
+    type: number
+  - format: default
+    name: gunboats
+    title: gunboats
+    type: number
+  - format: default
+    name: ironclads
+    title: ironclads
+    type: number
+  - format: default
+    name: sloops
+    title: sloops
+    type: number
+  - format: default
+    name: steamers
+    title: steamers
+    type: number
+  - format: default
+    name: warships_and_transports
+    title: warships_and_transports
+    type: number
+  - format: default
+    name: warships
+    title: warships
+    type: number
+  - format: default
+    name: wooden_warships
+    title: wooden_warships
+    type: number
+  - format: default
+    name: guns
+    title: guns
+    type: number
+  - format: default
+    name: casualties
+    title: casualties
+    type: number
+  - format: default
+    name: captured
+    title: captured
+    type: number
+  - format: default
+    name: killed
+    title: killed
+    type: number
+  - format: default
+    name: wounded
+    title: wounded
+    type: number
+  - format: default
+    name: missing
+    title: missing
+    type: number
+  - format: default
+    name: killed_wounded
+    title: killed_wounded
+    type: number
+  - format: default
+    name: killed_missing
+    title: killed_missing
+    type: number
+  - format: default
+    name: missing_captured
+    title: missing_captured
+    type: number
+  - format: default
+    name: wounded_missing
+    title: wounded_missing
+    type: number
+  - format: default
+    name: guns_lost
+    title: guns_lost
+    type: number
+  - format: default
+    name: guns_captured
+    title: guns_captured
+    type: number
+  - format: default
+    name: small_arms_lost
+    title: small_arms_lost
+    type: number
+  - format: default
+    name: small_arms_captured
+    title: small_arms_captured
+    type: number
+  - format: default
+    name: warships_sunk
+    title: warships_sunk
+    type: number
+  - format: default
+    name: warships_damaged
+    title: warships_damaged
+    type: number
+  - format: default
+    name: gunboats_sunk
+    title: gunboats_sunk
+    type: number
+  - format: default
+    name: gunboats_captured
+    title: gunboats_captured
+    type: number
+  - format: default
+    name: ironclads_sunk
+    title: ironclads_sunk
+    type: number
+  - format: default
+    name: ironclads_captured
+    title: ironclads_captured
+    type: number
+  - format: default
+    name: forts_captured
+    title: forts_captured
+    type: number
+  - format: default
+    name: note
+    title: note
+    type: string
+  - format: default
+    name: str_mean
+    title: str_mean
+    type: number
+  - format: default
+    name: str_var
+    title: str_var
+    type: number

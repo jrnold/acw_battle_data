@@ -1,0 +1,30 @@
+description: ''
+format: csv
+name: nps_campaigns
+path: data/nps_campaigns.csv
+schema:
+  fields:
+  - format: default
+    name: CampaignCode
+    title: CampaignCode
+    type: string
+  - format: default
+    name: CampaignName
+    title: CampaignName
+    type: string
+  - format: default
+    name: CampaignDates
+    title: CampaignDates
+    type: string
+  - format: default
+    name: CampaignStartDate
+    title: CampaignStartDate
+    type: string
+  - format: default
+    name: CampaignEndDate
+    title: CampaignEndDate
+    type: string
+  - format: default
+    name: TheaterCode
+    title: TheaterCode
+    type: string

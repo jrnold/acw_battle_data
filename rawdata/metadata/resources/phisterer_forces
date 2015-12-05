@@ -1,0 +1,30 @@
+description: ''
+format: csv
+name: phisterer_forces
+path: data/phisterer_forces.csv
+schema:
+  fields:
+  - format: default
+    name: battle
+    title: battle
+    type: integer
+  - format: default
+    name: belligerent
+    title: belligerent
+    type: string
+  - format: default
+    name: casualties
+    title: casualties
+    type: number
+  - format: default
+    name: killed
+    title: killed
+    type: number
+  - format: default
+    name: wounded
+    title: wounded
+    type: number
+  - format: default
+    name: missing
+    title: missing
+    type: number

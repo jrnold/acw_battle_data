@@ -1,0 +1,18 @@
+description: ''
+format: csv
+name: cwsac2_locations
+path: data/cwsac2_locations.csv
+schema:
+  fields:
+  - format: default
+    name: battle
+    title: battle
+    type: string
+  - format: default
+    name: state
+    title: state
+    type: string
+  - format: default
+    name: location
+    title: location
+    type: string

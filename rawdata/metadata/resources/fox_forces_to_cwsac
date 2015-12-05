@@ -1,0 +1,22 @@
+description: ''
+format: csv
+name: fox_forces_to_cwsac
+path: data/fox_forces_to_cwsac.csv
+schema:
+  fields:
+  - format: default
+    name: belligerent
+    title: belligerent
+    type: string
+  - format: default
+    name: battle_name
+    title: battle_name
+    type: string
+  - format: default
+    name: cwsac_id
+    title: cwsac_id
+    type: string
+  - format: default
+    name: relation
+    title: relation
+    type: string

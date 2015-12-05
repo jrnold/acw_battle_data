@@ -1,0 +1,22 @@
+description: ''
+format: csv
+name: cwss_commanders
+path: data/cwss_commanders.csv
+schema:
+  fields:
+  - format: default
+    name: BattlefieldCode
+    title: BattlefieldCode
+    type: string
+  - format: default
+    name: belligerent
+    title: belligerent
+    type: string
+  - format: default
+    name: commander_number
+    title: commander_number
+    type: integer
+  - format: default
+    name: commander
+    title: commander
+    type: string

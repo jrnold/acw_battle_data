@@ -1,0 +1,18 @@
+description: ''
+format: csv
+name: cwss_units
+path: data/cwss_units.csv
+schema:
+  fields:
+  - format: default
+    name: ID
+    title: ID
+    type: integer
+  - format: default
+    name: UnitCode
+    title: UnitCode
+    type: string
+  - format: default
+    name: UnitName
+    title: UnitName
+    type: string

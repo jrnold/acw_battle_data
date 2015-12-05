@@ -1,0 +1,58 @@
+description: ''
+format: csv
+name: dyer_engagements
+path: data/dyer_engagements.csv
+schema:
+  fields:
+  - format: default
+    name: battle
+    title: battle
+    type: integer
+  - format: default
+    name: event_type
+    title: event_type
+    type: string
+  - format: default
+    name: state
+    title: state
+    type: string
+  - format: default
+    name: year
+    title: year
+    type: integer
+  - format: default
+    name: battle_name
+    title: battle_name
+    type: string
+  - format: default
+    name: start_date
+    title: start_date
+    type: string
+  - format: default
+    name: end_date
+    title: end_date
+    type: string
+  - format: default
+    name: text
+    title: text
+    type: string
+  - format: default
+    name: casualties
+    title: casualties
+    type: number
+  - format: default
+    name: killed
+    title: killed
+    type: number
+  - format: default
+    name: wounded
+    title: wounded
+    type: number
+  - format: default
+    name: killed_wounded
+    title: killed_wounded
+    type: number
+  - format: default
+    name: missing_captured
+    title: missing_captured
+    type: number

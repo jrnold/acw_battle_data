@@ -1,0 +1,50 @@
+description: ''
+format: csv
+name: shenandoah_forces
+path: data/shenandoah_forces.csv
+schema:
+  fields:
+  - format: default
+    name: battle_number
+    title: battle_number
+    type: integer
+  - format: default
+    name: cwsac_id
+    title: cwsac_id
+    type: string
+  - format: default
+    name: belligerent
+    title: belligerent
+    type: string
+  - format: default
+    name: description
+    title: description
+    type: string
+  - format: default
+    name: strength_min
+    title: strength_min
+    type: integer
+  - format: default
+    name: strength_max
+    title: strength_max
+    type: integer
+  - format: default
+    name: casualties_text
+    title: casualties_text
+    type: string
+  - format: default
+    name: casualties
+    title: casualties
+    type: integer
+  - format: default
+    name: killed
+    title: killed
+    type: number
+  - format: default
+    name: wounded
+    title: wounded
+    type: number
+  - format: default
+    name: missing_captured
+    title: missing_captured
+    type: number

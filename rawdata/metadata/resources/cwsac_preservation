@@ -1,0 +1,14 @@
+description: ''
+format: csv
+name: cwsac_preservation
+path: data/cwsac_preservation.csv
+schema:
+  fields:
+  - format: default
+    name: value
+    title: value
+    type: string
+  - format: default
+    name: description
+    title: description
+    type: string

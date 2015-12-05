@@ -1,0 +1,30 @@
+description: ''
+format: csv
+name: livermore_army_sizes
+path: data/livermore_army_sizes.csv
+schema:
+  fields:
+  - format: default
+    name: date
+    title: date
+    type: string
+  - format: default
+    name: No. on Union Rolls
+    title: No. on Union Rolls
+    type: integer
+  - format: default
+    name: Average
+    title: Average
+    type: number
+  - format: default
+    name: No. on Confederate Returns
+    title: No. on Confederate Returns
+    type: integer
+  - format: default
+    name: Average.1
+    title: Average.1
+    type: number
+  - format: default
+    name: Per cent.
+    title: Per cent.
+    type: number

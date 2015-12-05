@@ -1,0 +1,18 @@
+description: ''
+format: csv
+name: clodfelter_to_cwsac
+path: data/clodfelter_to_cwsac.csv
+schema:
+  fields:
+  - format: default
+    name: from
+    title: from
+    type: string
+  - format: default
+    name: to
+    title: to
+    type: string
+  - format: default
+    name: relation
+    title: relation
+    type: string

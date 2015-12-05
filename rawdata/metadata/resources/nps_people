@@ -1,0 +1,58 @@
+description: ''
+format: csv
+name: nps_people
+path: data/nps_people.csv
+schema:
+  fields:
+  - format: default
+    name: PersonID
+    title: PersonID
+    type: string
+  - format: default
+    name: ID
+    title: ID
+    type: number
+  - format: default
+    name: LastName
+    title: LastName
+    type: string
+  - format: default
+    name: Suffix
+    title: Suffix
+    type: string
+  - format: default
+    name: FirstName
+    title: FirstName
+    type: string
+  - format: default
+    name: MiddleName
+    title: MiddleName
+    type: string
+  - format: default
+    name: MiddleInitial
+    title: MiddleInitial
+    type: string
+  - format: default
+    name: Keywords
+    title: Keywords
+    type: string
+  - format: default
+    name: Rank
+    title: Rank
+    type: string
+  - format: default
+    name: Bio
+    title: Bio
+    type: string
+  - format: default
+    name: BioSource
+    title: BioSource
+    type: string
+  - format: default
+    name: NarrativeLink1
+    title: NarrativeLink1
+    type: string
+  - format: default
+    name: NarrativeLink2
+    title: NarrativeLink2
+    type: string

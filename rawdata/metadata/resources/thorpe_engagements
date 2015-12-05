@@ -1,0 +1,58 @@
+description: ''
+format: csv
+name: thorpe_engagements
+path: data/thorpe_engagements.csv
+schema:
+  fields:
+  - format: default
+    name: battleNum
+    title: battleNum
+    type: integer
+  - format: default
+    name: battleDetail
+    title: battleDetail
+    type: string
+  - format: default
+    name: beginDate
+    title: beginDate
+    type: string
+  - format: default
+    name: endDate
+    title: endDate
+    type: string
+  - format: default
+    name: unknownDay
+    title: unknownDay
+    type: boolean
+  - format: default
+    name: lat
+    title: lat
+    type: number
+  - format: default
+    name: lng
+    title: lng
+    type: number
+  - format: default
+    name: shrtNm
+    title: shrtNm
+    type: string
+  - format: default
+    name: desc
+    title: desc
+    type: string
+  - format: default
+    name: type
+    title: type
+    type: string
+  - format: default
+    name: killed
+    title: killed
+    type: integer
+  - format: default
+    name: usCasTot
+    title: usCasTot
+    type: integer
+  - format: default
+    name: csCasTot
+    title: csCasTot
+    type: integer
