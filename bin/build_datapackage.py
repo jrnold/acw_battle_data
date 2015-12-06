@@ -20,10 +20,9 @@ def md5sum(filename):
     return md5.hexdigest()
 
 def process_metadata(filename):
-    print(filename)
     with open(filename, 'r') as f:
         data = yaml.load(f)
-    description = path.join(filename).replace('.yaml', '.md')
+    description = path.join(filename).replace('.yaml', '.rst')
     if path.exists(description):
         with open(description, 'r') as f:
             description_text = f.read()

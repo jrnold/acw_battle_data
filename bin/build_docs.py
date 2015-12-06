@@ -7,36 +7,27 @@ import shutil
 import jinja2
 
 def build_index(docs, env, metadata):
-    template = env.get_template('index.md')
+    template = env.get_template('index.rst')
     rendered = template.render(metadata)
-    with open(path.join(docs, 'index.md'), 'w') as f:
+    with open(path.join(docs, 'index.rst'), 'w') as f:
         f.write(rendered)
 
-def build_resource(docs, env, metadata):
-    template = env.get_template('resource.md')
-    rendered = template.render(metadata)
-    with open(path.join(docs, 'resource.md'), 'w') as f:
-        f.write(rendered)
-        
 def build_resources(docs, env, metadata):
     data_doc_dir = path.join(docs, 'resources')
     if path.exists(data_doc_dir):
         shutil.rmtree(data_doc_dir)
     os.makedirs(data_doc_dir)
-    template = env.get_template('resource.md')
+    template = env.get_template('resource.rst')
     for res in metadata['resources']:
         rendered = template.render(res)
-        with open(path.join(data_doc_dir, res['name'] + '.md'), 'w') as f:
+        with open(path.join(data_doc_dir, res['name'] + '.rst'), 'w') as f:
             f.write(rendered)
 
 def build(src, dst, docs):
-    env = jinja2.Environment(loader = jinja2.FileSystemLoader(path.join(src, 'templates')),
-                             autoescape = False)
+    env = jinja2.Environment(loader = jinja2.FileSystemLoader(path.join(src, 'templates')), autoescape = False)
     with open(path.join(dst, 'datapackage.json'), 'r') as f:
         metadata = json.load(f)
-    print(env.list_templates())
     build_index(docs, env, metadata)
-    build_resource(docs, env, metadata)    
     build_resources(docs, env, metadata)
 
 def main():

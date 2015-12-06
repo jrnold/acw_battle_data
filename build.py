@@ -112,8 +112,8 @@ def build_docs(src, dst, docs):
     # create docs sources
     sp.run([PYTHON, "bin/build_docs.py",
             src, dst, docs])
-    # build documentation
-    sp.run(["mkdocs", "build", "--clean"])
+    sp.run(['make', '-C', 'docs', 'html'])
+    sp.run(['make', '-C', 'docs', 'pdf'])    
     
 def build(src, dst, docs):
     if path.exists(dst):

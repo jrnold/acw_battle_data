@@ -1,6 +1,0 @@
-# {{title}}
-
-**path**: {{path}}
-
-{{description}}
-
