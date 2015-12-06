@@ -4,6 +4,7 @@ from os import path
 import shutil
 import sys
 import subprocess as sp
+import argparse
 
 PYTHON = 'python3'
 RSCRIPT = 'Rscript'
@@ -133,6 +134,13 @@ def build(src, dst):
     build_cdb90(src, dst)
     
 def main():
+    parser = argparse.ArgumentParser(description = "Build the ACW battle data")
+    parser.add_argument('src', metavar='SRC',
+                        help = "source directory")
+    parser.add_argument('src', metavar='DST',
+                        help = "data build directory")
+    parser.add_argument('src', metavar='DOCS',
+                        help = "documentation directory")
     src = "."
     dst = sys.argv[1]
     build(src, dst)
