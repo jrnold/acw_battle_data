@@ -6,38 +6,44 @@ schema:
   fields:
   - format: default
     name: battle_id
-    title: battle_id
+    title: Battle Id.
     type: string
   - format: default
     name: country
-    title: country
+    title: Country
     type: string
+    description: Country of the commander
   - format: default
     name: name
-    title: name
+    title: Name
     type: string
+    description: Name of the commander
   - format: default
     name: last_name
-    title: last_name
+    title: Last Name
     type: string
   - format: default
     name: first_name
-    title: first_name
+    title: First Name
     type: string
   - format: default
     name: middle_name
-    title: middle_name
+    title: Middle Name
     type: string
   - format: default
     name: suffix
-    title: suffix
+    title: Suffix
     type: number
   - format: default
     name: rank
-    title: rank
+    title: Rank
     type: string
-  - format: default
+    description: rank of the commander
+  - format: url
     name: dbpedia
-    title: dbpedia
+    title: Dbpedia
     type: string
-title: bodart1908_commanders
+    description: dbpedia.org URI of the commandern
+    sources:
+      - "self" 
+title: "Bodart (1908) battle data: commanders"

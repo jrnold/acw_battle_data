@@ -1,4 +1,3 @@
-description: ''
 format: csv
 name: bodart1908_battles
 path: data/bodart1908_battles.csv
@@ -6,58 +5,70 @@ schema:
   fields:
   - format: default
     name: battle_id
-    title: battle_id
+    title: Battle Id
     type: string
   - format: default
     name: name
-    title: name
+    title: Battle Name
     type: string
+    description: Name of the battle (in German)
   - format: default
     name: other_name
-    title: other_name
+    title: Other Name
     type: string
+    description: Alternate names for the battle (in German)
   - format: default
     name: start_date
-    title: start_date
-    type: string
+    title: Start Date
+    type: date
   - format: default
     name: end_date
-    title: end_date
-    type: string
+    title: End Date
+    type: date
   - format: default
     name: location
-    title: location
+    title: Location
     type: string
+    description: Location of the battle (in German)
   - format: default
     name: order
-    title: order
+    title: Order
     type: number
+    description: >-
+
+      Battle severity. Bodart classifies the severity of battles on a 5 point scale.
+      
   - format: default
     name: siege
-    title: siege
-    type: integer
+    title: Siege
+    type: boolean
+    description: Was the battle a siege ("Belagerung")?
   - format: default
     name: battle
-    title: battle
-    type: integer
+    title: Battle
+    type: boolean
+    description: Was the battle a major battle ("Schlacht")?
   - format: default
     name: meeting
-    title: meeting
-    type: integer
+    title: Meeting
+    type: boolean
+    description: Was the battle a meeting or encounter ("Treffen")?
   - format: default
     name: surrender
-    title: surrender
-    type: integer
+    title: Surrender
+    type: boolean
+    description: Was the battle a surrender ("Kapitulation")?
   - format: default
     name: siege.1
     title: siege.1
     type: integer
   - format: default
     name: capture
-    title: capture
+    title: Capture
     type: integer
   - format: default
     name: page
     title: page
     type: integer
-title: bodart1908_battles
+    description: Page number in Bodart (1908)
+title: Bodart (1908) battles of the American Civil War

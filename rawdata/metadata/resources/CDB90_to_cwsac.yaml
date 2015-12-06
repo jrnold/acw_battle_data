@@ -1,4 +1,3 @@
-description: ''
 format: csv
 name: CDB90_to_cwsac
 path: data/CDB90_to_cwsac.csv
@@ -8,12 +7,16 @@ schema:
     name: isqno
     title: isqno
     type: integer
+    description: CDB90 battle sequence number
   - format: default
     name: cwsac_id
-    title: cwsac_id
+    title: CWSAC Battle Id.
     type: string
   - format: default
     name: relation
     title: relation
     type: string
-title: CDB90_to_cwsac
+    constraints:
+      enum: ["<", ">", "="]
+    description: Relationship of the CDB90 battle to the CWSAC battle. They can be the same, or one can be a subset of the other.
+title: CDB90 to CWSAC battle links

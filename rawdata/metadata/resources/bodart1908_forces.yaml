@@ -1,4 +1,3 @@
-description: ''
 format: csv
 name: bodart1908_forces
 path: data/bodart1908_forces.csv
@@ -6,162 +5,185 @@ schema:
   fields:
   - format: default
     name: battle_id
-    title: battle_id
+    title: Battle id
     type: string
   - format: default
     name: country
     title: country
     type: string
+    constraints:
+      enum: ["Conferacy", "Union"]
+    description: Belligerent (Union or Confederate) of the force.
   - format: default
     name: victor
-    title: victor
+    title: Victor
     type: boolean
+    description: Did the side win? 
   - format: default
     name: strength
-    title: strength
-    type: number
+    title: Strength
+    type: integer
+    description: Total personnel
   - format: default
     name: strength_engaged
-    title: strength_engaged
-    type: number
+    title: Strength Engaged
+    type: integer
+    description: Personnel engaged in combat
   - format: default
     name: infantry
-    title: infantry
-    type: number
+    title: Infantry
+    type: integer
+    description: Number of infantry
   - format: default
     name: cavalry
     title: cavalry
-    type: number
+    type: integer
+    description: Number of cavalry
   - format: default
     name: artillery
-    title: artillery
-    type: number
+    title: Artillery
+    type: integer
+    description: Number of artillery personnel
   - format: default
     name: guns
     title: guns
-    type: number
+    type: integer
+    description: Number of guns (artillery pieces)
   - format: default
     name: killed
-    title: killed
-    type: number
+    title: Killed
+    type: integer
   - format: default
     name: killed_percent
-    title: killed_percent
+    title: Killed (percent)
     type: number
+    constraints:
+      minimum: 0
+      maximum: 1
   - format: default
     name: killed_generals
     title: killed_generals
-    type: number
+    type: integer
   - format: default
     name: killed_officers
     title: killed_officers
-    type: number
+    type: integer
   - format: default
     name: killed_wounded
     title: killed_wounded
-    type: number
+    type: integer
   - format: default
     name: killed_wounded_percent
-    title: killed_wounded_percent
+    title: Killed Wounded (percent)
     type: number
+    constraints:
+      minimum: 0
+      maximum: 1
   - format: default
     name: killed_wounded_generals
-    title: killed_wounded_generals
-    type: number
+    title: Generals killed or wounded
+    type: integer
   - format: default
     name: killed_wounded_officers
-    title: killed_wounded_officers
-    type: number
+    title: Officers killed or wounded
+    type: integer
   - format: default
     name: wounded
     title: wounded
-    type: number
+    type: integer
   - format: default
     name: wounded_percent
-    title: wounded_percent
+    title: Wounded (percent)
     type: number
+    constraints:
+      minimum: 0
+      maximum: 1
   - format: default
     name: wounded_generals
-    title: wounded_generals
-    type: number
+    title: Generals wounded
+    type: integer
   - format: default
     name: wounded_officers
-    title: wounded_officers
-    type: number
+    title: Officers wounded
+    type: integer
   - format: default
     name: captured
     title: captured
-    type: number
+    type: integer
   - format: default
     name: captured_generals
-    title: captured_generals
-    type: number
+    title: Generals captured
+    type: integer
   - format: default
     name: captured_officers
-    title: captured_officers
-    type: number
+    title: Officers captured
+    type: integer
   - format: default
     name: missing
     title: missing
-    type: number
+    type: integer
   - format: default
     name: missing_percent
-    title: missing_percent
+    title: Missing (percent)
     type: number
+    constraints:
+      minimum: 0
+      maximum: 1
   - format: default
     name: missing_generals
-    title: missing_generals
-    type: number
+    title: Generals missing
+    type: integer
   - format: default
     name: missing_officers
-    title: missing_officers
-    type: number
+    title: Officers missing
+    type: integer
   - format: default
     name: casualties
-    title: casualties
-    type: number
+    title: Casualties
+    type: integer
+    description: Total casualties (killed, wounded, and missing or captured)
   - format: default
     name: casualties_percent
-    title: casualties_percent
+    title: Casualties (percent)
     type: number
+    constraints:
+      minimum: 0
+      maximum: 1
+    
   - format: default
     name: casualties_officers
-    title: casualties_officers
-    type: number
+    title: Casualties (officers)
+    type: integer
   - format: default
     name: casualties_generals
-    title: casualties_generals
-    type: number
+    title: Casualties (generals)
+    type: integer
   - format: default
     name: losses_guns
-    title: losses_guns
-    type: number
+    title: Losses of guns
+    type: integer
   - format: default
     name: losses_caissons
-    title: losses_caissons
-    type: number
+    title: Losses of caissons
+    type: integer
   - format: default
     name: losses_cannon
-    title: losses_cannon
-    type: number
-  - format: default
-    name: losses_canons
-    title: losses_canons
-    type: number
+    title: Losses of cannons
+    type: integer
   - format: default
     name: losses_flags
-    title: losses_flags
-    type: number
+    title: Losses of flags
+    type: integer
   - format: default
     name: losses_munition_wagons
-    title: losses_munition_wagons
-    type: number
+    title: Losses of munition wagons
+    type: integer
   - format: default
     name: losses_wagons
-    title: losses_wagons
-    type: number
+    title: Losses of wagons
+    type: integer
   - format: default
     name: other
-    title: other
+    title: Comments
     type: string
-title: bodart1909_forces
+title: "Bodart (1908) battle data: force strengths and casualties"
