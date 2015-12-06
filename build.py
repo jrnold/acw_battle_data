@@ -113,7 +113,7 @@ def build_docs(src, dst, docs):
     sp.run([PYTHON, "bin/build_docs.py",
             src, dst, docs])
     sp.run(['make', '-C', 'docs', 'html'])
-    sp.run(['make', '-C', 'docs', 'pdf'])    
+    sp.run(['make', '-C', 'docs', 'latexpdf'])    
     
 def build(src, dst, docs):
     if path.exists(dst):
