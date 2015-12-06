@@ -1,0 +1,741 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>clodfelter_forces &mdash; American Civil War Battle Data 0.0.1 documentation</title>
+    
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '0.0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="top" title="American Civil War Battle Data 0.0.1 documentation" href="../index.html" />
+    <link rel="next" title="clodfelter_to_cwsac" href="clodfelter_to_cwsac.html" />
+    <link rel="prev" title="clodfelter_commanders" href="clodfelter_commanders.html" />
+   
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9">
+
+  </head>
+  <body role="document">  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="clodfelter-forces">
+<h1>clodfelter_forces<a class="headerlink" href="#clodfelter-forces" title="Permalink to this headline">¶</a></h1>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">name:</th><td class="field-body">clodfelter_forces</td>
+</tr>
+<tr class="field-even field"><th class="field-name">path:</th><td class="field-body">data/clodfelter_forces.csv</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">format:</th><td class="field-body">csv</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="schema">
+<h2>Schema<a class="headerlink" href="#schema" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="battle">
+<h3>battle<a class="headerlink" href="#battle" title="Permalink to this headline">¶</a></h3>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">label:</th><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="belligerent">
+<h3>belligerent<a class="headerlink" href="#belligerent" title="Permalink to this headline">¶</a></h3>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">label:</th><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="strength">
+<h3>strength<a class="headerlink" href="#strength" title="Permalink to this headline">¶</a></h3>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">label:</th><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">type:</th><td class="field-body">number</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="infantry">
+<h3>infantry<a class="headerlink" href="#infantry" title="Permalink to this headline">¶</a></h3>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">label:</th><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">type:</th><td class="field-body">number</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="cavalry">
+<h3>cavalry<a class="headerlink" href="#cavalry" title="Permalink to this headline">¶</a></h3>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">label:</th><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">type:</th><td class="field-body">number</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="crewmen">
+<h3>crewmen<a class="headerlink" href="#crewmen" title="Permalink to this headline">¶</a></h3>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">label:</th><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">type:</th><td class="field-body">number</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="corps">
+<h3>corps<a class="headerlink" href="#corps" title="Permalink to this headline">¶</a></h3>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">label:</th><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">type:</th><td class="field-body">number</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="cavalry-corps">
+<h3>cavalry_corps<a class="headerlink" href="#cavalry-corps" title="Permalink to this headline">¶</a></h3>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">label:</th><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">type:</th><td class="field-body">number</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="divisions">
+<h3>divisions<a class="headerlink" href="#divisions" title="Permalink to this headline">¶</a></h3>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">label:</th><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">type:</th><td class="field-body">number</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="cavalry-divisions">
+<h3>cavalry_divisions<a class="headerlink" href="#cavalry-divisions" title="Permalink to this headline">¶</a></h3>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">label:</th><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">type:</th><td class="field-body">number</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="brigades">
+<h3>brigades<a class="headerlink" href="#brigades" title="Permalink to this headline">¶</a></h3>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">label:</th><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">type:</th><td class="field-body">number</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="companies">
+<h3>companies<a class="headerlink" href="#companies" title="Permalink to this headline">¶</a></h3>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">label:</th><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">type:</th><td class="field-body">number</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="frigates">
+<h3>frigates<a class="headerlink" href="#frigates" title="Permalink to this headline">¶</a></h3>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">label:</th><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">type:</th><td class="field-body">number</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="gunboats">
+<h3>gunboats<a class="headerlink" href="#gunboats" title="Permalink to this headline">¶</a></h3>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">label:</th><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">type:</th><td class="field-body">number</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="ironclads">
+<h3>ironclads<a class="headerlink" href="#ironclads" title="Permalink to this headline">¶</a></h3>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">label:</th><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">type:</th><td class="field-body">number</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="sloops">
+<h3>sloops<a class="headerlink" href="#sloops" title="Permalink to this headline">¶</a></h3>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">label:</th><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">type:</th><td class="field-body">number</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="steamers">
+<h3>steamers<a class="headerlink" href="#steamers" title="Permalink to this headline">¶</a></h3>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">label:</th><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">type:</th><td class="field-body">number</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="warships-and-transports">
+<h3>warships_and_transports<a class="headerlink" href="#warships-and-transports" title="Permalink to this headline">¶</a></h3>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">label:</th><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">type:</th><td class="field-body">number</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="warships">
+<h3>warships<a class="headerlink" href="#warships" title="Permalink to this headline">¶</a></h3>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">label:</th><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">type:</th><td class="field-body">number</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="wooden-warships">
+<h3>wooden_warships<a class="headerlink" href="#wooden-warships" title="Permalink to this headline">¶</a></h3>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">label:</th><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">type:</th><td class="field-body">number</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="guns">
+<h3>guns<a class="headerlink" href="#guns" title="Permalink to this headline">¶</a></h3>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">label:</th><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">type:</th><td class="field-body">number</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="casualties">
+<h3>casualties<a class="headerlink" href="#casualties" title="Permalink to this headline">¶</a></h3>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">label:</th><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">type:</th><td class="field-body">number</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="captured">
+<h3>captured<a class="headerlink" href="#captured" title="Permalink to this headline">¶</a></h3>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">label:</th><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">type:</th><td class="field-body">number</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="killed">
+<h3>killed<a class="headerlink" href="#killed" title="Permalink to this headline">¶</a></h3>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">label:</th><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">type:</th><td class="field-body">number</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="wounded">
+<h3>wounded<a class="headerlink" href="#wounded" title="Permalink to this headline">¶</a></h3>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">label:</th><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">type:</th><td class="field-body">number</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="missing">
+<h3>missing<a class="headerlink" href="#missing" title="Permalink to this headline">¶</a></h3>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">label:</th><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">type:</th><td class="field-body">number</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="killed-wounded">
+<h3>killed_wounded<a class="headerlink" href="#killed-wounded" title="Permalink to this headline">¶</a></h3>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">label:</th><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">type:</th><td class="field-body">number</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="killed-missing">
+<h3>killed_missing<a class="headerlink" href="#killed-missing" title="Permalink to this headline">¶</a></h3>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">label:</th><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">type:</th><td class="field-body">number</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="missing-captured">
+<h3>missing_captured<a class="headerlink" href="#missing-captured" title="Permalink to this headline">¶</a></h3>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">label:</th><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">type:</th><td class="field-body">number</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="wounded-missing">
+<h3>wounded_missing<a class="headerlink" href="#wounded-missing" title="Permalink to this headline">¶</a></h3>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">label:</th><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">type:</th><td class="field-body">number</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="guns-lost">
+<h3>guns_lost<a class="headerlink" href="#guns-lost" title="Permalink to this headline">¶</a></h3>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">label:</th><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">type:</th><td class="field-body">number</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="guns-captured">
+<h3>guns_captured<a class="headerlink" href="#guns-captured" title="Permalink to this headline">¶</a></h3>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">label:</th><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">type:</th><td class="field-body">number</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="small-arms-lost">
+<h3>small_arms_lost<a class="headerlink" href="#small-arms-lost" title="Permalink to this headline">¶</a></h3>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">label:</th><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">type:</th><td class="field-body">number</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="small-arms-captured">
+<h3>small_arms_captured<a class="headerlink" href="#small-arms-captured" title="Permalink to this headline">¶</a></h3>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">label:</th><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">type:</th><td class="field-body">number</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="warships-sunk">
+<h3>warships_sunk<a class="headerlink" href="#warships-sunk" title="Permalink to this headline">¶</a></h3>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">label:</th><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">type:</th><td class="field-body">number</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="warships-damaged">
+<h3>warships_damaged<a class="headerlink" href="#warships-damaged" title="Permalink to this headline">¶</a></h3>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">label:</th><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">type:</th><td class="field-body">number</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="gunboats-sunk">
+<h3>gunboats_sunk<a class="headerlink" href="#gunboats-sunk" title="Permalink to this headline">¶</a></h3>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">label:</th><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">type:</th><td class="field-body">number</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="gunboats-captured">
+<h3>gunboats_captured<a class="headerlink" href="#gunboats-captured" title="Permalink to this headline">¶</a></h3>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">label:</th><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">type:</th><td class="field-body">number</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="ironclads-sunk">
+<h3>ironclads_sunk<a class="headerlink" href="#ironclads-sunk" title="Permalink to this headline">¶</a></h3>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">label:</th><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">type:</th><td class="field-body">number</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="ironclads-captured">
+<h3>ironclads_captured<a class="headerlink" href="#ironclads-captured" title="Permalink to this headline">¶</a></h3>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">label:</th><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">type:</th><td class="field-body">number</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="forts-captured">
+<h3>forts_captured<a class="headerlink" href="#forts-captured" title="Permalink to this headline">¶</a></h3>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">label:</th><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">type:</th><td class="field-body">number</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="note">
+<h3>note<a class="headerlink" href="#note" title="Permalink to this headline">¶</a></h3>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">label:</th><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="str-mean">
+<h3>str_mean<a class="headerlink" href="#str-mean" title="Permalink to this headline">¶</a></h3>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">label:</th><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">type:</th><td class="field-body">number</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="str-var">
+<h3>str_var<a class="headerlink" href="#str-var" title="Permalink to this headline">¶</a></h3>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">label:</th><td class="field-body"></td>
+</tr>
+<tr class="field-even field"><th class="field-name">type:</th><td class="field-body">number</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">clodfelter_forces</a><ul>
+<li><a class="reference internal" href="#schema">Schema</a><ul>
+<li><a class="reference internal" href="#battle">battle</a></li>
+<li><a class="reference internal" href="#belligerent">belligerent</a></li>
+<li><a class="reference internal" href="#strength">strength</a></li>
+<li><a class="reference internal" href="#infantry">infantry</a></li>
+<li><a class="reference internal" href="#cavalry">cavalry</a></li>
+<li><a class="reference internal" href="#crewmen">crewmen</a></li>
+<li><a class="reference internal" href="#corps">corps</a></li>
+<li><a class="reference internal" href="#cavalry-corps">cavalry_corps</a></li>
+<li><a class="reference internal" href="#divisions">divisions</a></li>
+<li><a class="reference internal" href="#cavalry-divisions">cavalry_divisions</a></li>
+<li><a class="reference internal" href="#brigades">brigades</a></li>
+<li><a class="reference internal" href="#companies">companies</a></li>
+<li><a class="reference internal" href="#frigates">frigates</a></li>
+<li><a class="reference internal" href="#gunboats">gunboats</a></li>
+<li><a class="reference internal" href="#ironclads">ironclads</a></li>
+<li><a class="reference internal" href="#sloops">sloops</a></li>
+<li><a class="reference internal" href="#steamers">steamers</a></li>
+<li><a class="reference internal" href="#warships-and-transports">warships_and_transports</a></li>
+<li><a class="reference internal" href="#warships">warships</a></li>
+<li><a class="reference internal" href="#wooden-warships">wooden_warships</a></li>
+<li><a class="reference internal" href="#guns">guns</a></li>
+<li><a class="reference internal" href="#casualties">casualties</a></li>
+<li><a class="reference internal" href="#captured">captured</a></li>
+<li><a class="reference internal" href="#killed">killed</a></li>
+<li><a class="reference internal" href="#wounded">wounded</a></li>
+<li><a class="reference internal" href="#missing">missing</a></li>
+<li><a class="reference internal" href="#killed-wounded">killed_wounded</a></li>
+<li><a class="reference internal" href="#killed-missing">killed_missing</a></li>
+<li><a class="reference internal" href="#missing-captured">missing_captured</a></li>
+<li><a class="reference internal" href="#wounded-missing">wounded_missing</a></li>
+<li><a class="reference internal" href="#guns-lost">guns_lost</a></li>
+<li><a class="reference internal" href="#guns-captured">guns_captured</a></li>
+<li><a class="reference internal" href="#small-arms-lost">small_arms_lost</a></li>
+<li><a class="reference internal" href="#small-arms-captured">small_arms_captured</a></li>
+<li><a class="reference internal" href="#warships-sunk">warships_sunk</a></li>
+<li><a class="reference internal" href="#warships-damaged">warships_damaged</a></li>
+<li><a class="reference internal" href="#gunboats-sunk">gunboats_sunk</a></li>
+<li><a class="reference internal" href="#gunboats-captured">gunboats_captured</a></li>
+<li><a class="reference internal" href="#ironclads-sunk">ironclads_sunk</a></li>
+<li><a class="reference internal" href="#ironclads-captured">ironclads_captured</a></li>
+<li><a class="reference internal" href="#forts-captured">forts_captured</a></li>
+<li><a class="reference internal" href="#note">note</a></li>
+<li><a class="reference internal" href="#str-mean">str_mean</a></li>
+<li><a class="reference internal" href="#str-var">str_var</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="clodfelter_commanders.html" title="previous chapter">clodfelter_commanders</a></li>
+      <li>Next: <a href="clodfelter_to_cwsac.html" title="next chapter">clodfelter_to_cwsac</a></li>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/resources/clodfelter_forces.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2015, Jeffrey B. Arnold.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.3.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.6</a>
+      
+      |
+      <a href="../_sources/resources/clodfelter_forces.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
