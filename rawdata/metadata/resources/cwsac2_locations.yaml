@@ -1,4 +1,3 @@
-description: ''
 format: csv
 name: cwsac2_locations
 path: data/cwsac2_locations.csv
@@ -6,14 +5,25 @@ schema:
   fields:
   - format: default
     name: battle
-    title: battle
+    title: Battle
     type: string
+    constraints:
+      minLength: 5
+      maxLength: 6
+      pattern: "[A-Z]{2}[0-9]{3}[A-Z]?"
+    description: CWSAC battle identifier
   - format: default
     name: state
-    title: state
+    title: State
     type: string
+    constraints:
+      minLength: 2
+      maxLength: 2
+      pattern: "[A-Z][A-Z]"
+    description: 2-letter State abbreviation
   - format: default
     name: location
-    title: location
+    title: County or City
     type: string
-title: cwsac2_locations
+    description: County or city in which the battle occurred.
+title: "CWSAC Report Updates battle data: locations"

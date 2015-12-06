@@ -1,4 +1,3 @@
-description: ''
 format: csv
 name: cwsac_preservation
 path: data/cwsac_preservation.csv
@@ -6,10 +5,11 @@ schema:
   fields:
   - format: default
     name: value
-    title: value
+    title: Value
     type: string
   - format: default
     name: description
-    title: description
+    title: Description
     type: string
-title: cwsac_preservation
+title: "CWSAC Report Updates battle data: preservation prioritycategories"
+

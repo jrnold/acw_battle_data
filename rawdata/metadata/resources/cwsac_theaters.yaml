@@ -1,4 +1,3 @@
-description: ''
 format: csv
 name: cwsac_theaters
 path: data/cwsac_theaters.csv
@@ -6,14 +5,18 @@ schema:
   fields:
   - format: default
     name: theater
-    title: theater
+    title: Theater
     type: string
-  - format: default
+  - format: url
     name: dbp_resource
-    title: dbp_resource
+    title: DBPedia URI
     type: string
-  - format: default
+    description: >-
+      URI of the dbpedia.org category resource for the theater.
+  - format: url
     name: dbp_category
-    title: dbp_category
+    title: DBPedia URI (category)
     type: string
-title: cwsac_theaters
+    description: >-
+      URI of the dbpedia.org category resource for the theater.
+title: "CWSAC Report Updates battle data: theaters"

@@ -1,4 +1,3 @@
-description: ''
 format: csv
 name: cwsac_significance
 path: data/cwsac_significance.csv
@@ -6,10 +5,10 @@ schema:
   fields:
   - format: default
     name: value
-    title: value
+    title: Value
     type: string
   - format: default
     name: description
-    title: description
+    title: Description
     type: string
-title: cwsac_significance
+title: "CWSAC Report Updates battle data: military significance categories"

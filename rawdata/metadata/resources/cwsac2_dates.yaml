@@ -6,18 +6,27 @@ schema:
   fields:
   - format: default
     name: battle
-    title: battle
+    title: Battle
     type: string
+    constraints:
+      minLength: 5
+      maxLength: 6
+      pattern: "[A-Z]{2}[0-9]{3}[A-Z]?"
+    description: CWSAC battle identifier
   - format: default
     name: spell
-    title: spell
+    title: Spell
     type: integer
+    constraints:
+      minimum: 1
+      maximum: 2
+    description: Spell number of the battle. Only one battle had non-contiguous dates, and two spells.
   - format: default
     name: start_date
-    title: start_date
-    type: string
+    title: Start Date
+    type: date
   - format: default
     name: end_date
-    title: end_date
-    type: string
-title: cwsac2_dates
+    title: End Date
+    type: date
+title: "CWSAC Report Updates battle data: battle dates"
