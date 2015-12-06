@@ -3,35 +3,41 @@ name: fox_outcomes
 path: data/fox_outcomes.csv
 schema:
   fields:
-  - format: default
+  - constraints:
+      enum:
+      - Union
+      - Confederate
+    format: default
     name: victor
     title: Victor
     type: string
-    constraints:
-      enum: ["Union", "Confederate"]
-  - format: default
+  - constraints:
+      enum:
+      - victory
+      - assualt
+      - defense
+    format: default
     name: victory_type
     title: Victory type
     type: string
-    constraints:
-      enum: ["victory", "assualt", "defense"]
   - format: default
     name: battle_name
     title: Battle name
     type: string
-  - format: default
+  - constraints:
+      maxLength: 2
+      minLength: 2
+      pattern: '[A-Z]{2}'
+    format: default
     name: state
     title: State
     type: string
-    constraints:
-      pattern: "[A-Z]{2}"
-      minLength: 2
-      maxLength: 2
-  - format: default
+  - constraints:
+      pattern: '[A-Z]{2}[0-9]{3}[A-Z]?'
+    format: default
     name: cwsac_id
+    sources:
+    - self
     title: CWSAC Id.
     type: string
-    constraints:
-      pattern: "[A-Z]{2}[0-9]{3}[A-Z]?"
-    sources: ["self"]
 title: Fox (1898) battle outcomes

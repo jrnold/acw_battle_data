@@ -3,60 +3,64 @@ format: csv
 name: fox_forces2
 path: data/fox_forces2.csv
 schema:
-  primaryKey: ["belligerent", "battle_name"]
   fields:
-  - format: default
+  - constraints:
+      enum:
+      - Confederate
+      - US
+    format: default
     name: belligerent
     title: belligerent
     type: string
-    constraints:
-      enum: ["Confederate", "US"]
   - format: default
     name: battle_name
     title: Battle name
     type: string
-  - format: default
+  - description: Start date of the battle
+    format: default
     name: start_date
     title: start_date
     type: date
-    description: Start date of the battle
-  - format: default
+  - description: End date of the battle
+    format: default
     name: end_date
     title: end_date
     type: date
-    description: End date of the battle    
-  - format: default
+  - constraints:
+      maxLength: 2
+      minLength: 2
+      pattern: '[A-Z]{2}'
+    description: State in which the battle took place.
+    format: default
     name: state
     title: State
     type: string
-    description: State in which the battle took place.
-    constraints:
-      minLength: 2
-      maxLength: 2
-      pattern: "[A-Z]{2}"
-  - format: default
+  - description: Number of casualties (killed, wounded, and missing)
+    format: default
     name: casualties
     title: casualties
     type: integer
-    description: Number of casualties (killed, wounded, and missing)
-  - format: default
+  - description: Number killed
+    format: default
     name: killed
     title: Killed
     type: integer
-    description: Number killed
-  - format: default
+  - description: Number wounded
+    format: default
     name: wounded
     title: wounded
     type: integer
-    description: Number wounded
-  - format: default
+  - description: Number missing
+    format: default
     name: missing
     title: missing
     type: integer
-    description: Number missing
-  - format: default
+  - description: Was this a cavalry battle?
+    format: default
     name: cavalry
     title: cavalry
     type: boolean
-    description: Was this a cavalry battle?
+  primaryKey:
+  - belligerent
+  - battle_name
 title: Fox (1898) battle casualties (revised)

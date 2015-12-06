@@ -4,113 +4,111 @@ name: aad_battles
 path: data/aad_battles.csv
 schema:
   fields:
-  - format: default
+  - description: '
+
+      The reference number assigned to the battle site/event. The first two letters
+      are the abbreviation of the state in which the battle site/event is located.
+      The number reflects the order in which the battle site/events in the state were
+      assigned a reference number.'
+    format: default
     name: reference_number
     title: Reference Number
     type: string
-    description: >-
+  - description: '
 
-      The reference number assigned to the battle site/event. The first two letters are the abbreviation of the state in which the battle site/event is located. The number reflects the order in which the battle site/events in the state were assigned a reference number.
-      
-  - format: default
+      Name of the battle site/event. The events recorded in the database are primarily
+      based on the Official Records listing of Principal Military Events for the Civil
+      War.'
+    format: default
     name: Event
     title: event
     type: string
-    description: >-
+  - description: '
 
-      Name of the battle site/event. The events recorded in the database are primarily based on the Official Records listing of Principal Military Events for the Civil War.
-      
-  - format: default
+      The kind of conflict as designated in The War of the Rebellion: A Compilation
+      of the Official Records of the Union and Confederate Armies (Washington, DC:
+      GPO, 1880-1901).'
+    format: default
     name: type
     title: Type
     type: string
-    description: >-
+  - description: '
 
-       The kind of conflict as designated in The War of the Rebellion: A Compilation of the Official Records of the Union and Confederate Armies (Washington, DC: GPO, 1880-1901).
-    
-  - format: default
+      Beginning day of the event.'
+    format: default
     name: start_date
     title: Start date
     type: date
-    description: >-
+  - description: '
 
-      Beginning day of the event.
-    
-  - format: default
+      End day of the event.      '
+    format: default
     name: end_date
     title: End date
     type: date
-    description: >-
+  - constraints:
+      maxLength: 2
+      minLength: 2
+      pattern: '[A-Z]{2}'
+    description: '
 
-      End day of the event.      
-
-  - format: default
+      Two-letter abbreviation of the state in which the battle site/event is located.
+      e.g., Alabama = AL'
+    format: default
     name: state
     title: State
     type: string
-    constraints:
-      minLength: 2
-      maxLength: 2
-      pattern: "[A-Z]{2}"
-    description: >-
+  - description: '
 
-      Two-letter abbreviation of the state in which the battle site/event is located. e.g., Alabama = AL
-
-  - format: default
+      The name of the theater. 1 Main Eastern Theater of operation. 2 Lower Seaboard
+      Theater of Operation. 3 Main Western Theater of Operations & the Gulf Approach
+      (1861-1863). 4 Trans-Mississippi Theater of Operations 5 Pacific Coast Theater
+      Robert N. Scott, the overall editor of The War of the Rebellion: A Compilation
+      of the Official Records of the Union and Confederate Armies (Washington, DC:
+      The Government Printing Office, 1880-1901), arranged Series I, of that publication,
+      according to the campaigns and several theaters of operations .... The Official
+      Records editors recognized five theaters of operations, Main Eastern, Lower
+      Seaboard, Main Western, Trans-Mississippi, and Pacific Coast. Dr. Dallas D.
+      Irvine, the creator and major compiler-editor of Military Operations of the
+      Civil War: A Guide-Index to Official Records of the Union and Confederate Armies,
+      1861-1865 (Washington, DC: The Government Printing Office, 1968-80), modified
+      this arrangement by removing the Gulf Approach operations from the Main Western
+      Theater and combining them with the Lower Seaboard Theater. The Commission study
+      used Irvine''s classification system.'
+    format: default
     name: theater
     title: Theater
     type: string
-
-      The name of the theater. 1 Main Eastern Theater of operation. 2
-      Lower Seaboard Theater of Operation. 3 Main Western Theater of
-      Operations & the Gulf Approach (1861-1863). 4 Trans-Mississippi
-      Theater of Operations 5 Pacific Coast Theater Robert N. Scott,
-      the overall editor of The War of the Rebellion: A Compilation of
-      the Official Records of the Union and Confederate Armies
-      (Washington, DC: The Government Printing Office, 1880-1901),
-      arranged Series I, of that publication, according to the
-      campaigns and several theaters of operations .... The Official
-      Records editors recognized five theaters of operations, Main
-      Eastern, Lower Seaboard, Main Western, Trans-Mississippi, and
-      Pacific Coast. Dr. Dallas D. Irvine, the creator and major
-      compiler-editor of Military Operations of the Civil War: A
-      Guide-Index to Official Records of the Union and Confederate
-      Armies, 1861-1865 (Washington, DC: The Government Printing
-      Office, 1968-80), modified this arrangement by removing the Gulf
-      Approach operations from the Main Western Theater and combining
-      them with the Lower Seaboard Theater. The Commission study used
-      Irvine's classification system.
-    
-  - format: default
+  - description: ''
+    format: default
     name: campaign
     title: campaign
     type: string
-    description: >-
+  - description: '
 
-
-      
-      
-  - format: default
+      The degree of anticipated threats to the battle sites'' integrity over the next
+      10 years. The Commission assigned the degree of threat based on short- and long-term
+      threats identified by the field investigator on the battle site survey form.'
+    format: default
     name: threats
     title: threats
     type: number
-    description: >-
-      
-      The degree of anticipated threats to the battle sites' integrity over the next 10 years. The Commission assigned the degree of threat based on short- and long-term threats identified by the field investigator on the battle site survey form.
-    
-  - format: default
+  - description: '
+
+      The kind(s) of known ownership of the battle site. The Commission relied on
+      the ownership information provided on the survey forms and additional data collected
+      by staff members. The field surveyors and the Commission staff did not consult
+      official ownership records, such as County tax records or maps. Many of the
+      battle sites probably have more kinds of ownership than indicated in the Commission''s
+      database.'
+    format: default
     name: ownership_federal
     title: Ownership (Federal)
     type: boolean
-    description: >-
-      
-      The kind(s) of known ownership of the battle site. The Commission relied on the ownership information provided on the survey forms and additional data collected by staff members. The field surveyors and the Commission staff did not consult official ownership records, such as County tax records or maps. Many of the battle sites probably have more kinds of ownership than indicated in the Commission's database.
-
   - format: default
     name: ownership_local
     title: Ownership (local government)
     type: boolean
-
   - format: default
     name: ownership_private
     title: Ownership (private)
@@ -123,181 +121,239 @@ schema:
     name: ownership_unknown
     title: Ownership (unknown)
     type: boolean
-  - format: default
+  - description: '
+
+      Park means any size or kind (historical, recreations, natural, etc.) of federal,
+      state, local, or private park. A park presence does not mean that the battle
+      is interpreted or even that the battle site is protected.'
+    format: default
     name: park
     title: park
     type: boolean
-    description: >-
+  - description: 'Integrity is the measure of the battle site''s condition.
 
-       Park means any size or kind (historical, recreations, natural, etc.) of federal, state, local, or private park. A park presence does not mean that the battle is interpreted or even that the battle site is protected.
-    
-  - format: default
+      A battle site with fair integrity is largely intact with some changes in primary
+      geographical and topographical configuration and mass and scale of the buildings.
+
+      A battle site with good integrity is essentially unchanged from the historic
+      period with respect to terrain, land use, road network, and mass and scale of
+      buildings.
+
+      A battle site with poor integrity is significantly altered in terms of its primary
+      geographical and topographical configuration and mass and scale of the buildings.
+      Road construction and changes in land use are usually evident at sites with
+      poor integrity. Sites with poor integrity sometimes retain core parcels (50-200
+      acres) intact within the generally fragmented landscape.
+
+      A local site has changed beyond recognition, meaning that a local resident of
+      the time returning to the site today presumably would not recognize his surroundings.
+      Lost battlefields may retain small (1-50 acres) parcels suitable for commemoration,
+      however, the ability to interpret the battle on the landscape has been lost.'
+    format: default
     name: integrity
     title: integrity
     type: string
-    description: >-
-      Integrity is the measure of the battle site's condition.
-      
-      A battle site with fair integrity is largely intact with some changes in primary geographical and topographical configuration and mass and scale of the buildings.
-      
-      A battle site with good integrity is essentially unchanged from the historic period with respect to terrain, land use, road network, and mass and scale of buildings.
+  - constraints:
+      enum:
+      - A
+      - B
+      - C
+      - D
+    description: '
 
-      A battle site with poor integrity is significantly altered in terms of its primary geographical and topographical configuration and mass and scale of the buildings. Road construction and changes in land use are usually evident at sites with poor integrity. Sites with poor integrity sometimes retain core parcels (50-200 acres) intact within the generally fragmented landscape.
+      The Military Importance or Military Class; Military Importance = Military Class.
+      The Commission ranked each battle (and its associated battle site) within the
+      framework of its campaign and the war.
 
-      A local site has changed beyond recognition, meaning that a local resident of the time returning to the site today presumably would not recognize his surroundings. Lost battlefields may retain small (1-50 acres) parcels suitable for commemoration, however, the ability to interpret the battle on the landscape has been lost.
+      Decisive: A general engagement involving field armies in which a commander achieved
+      a vital strategic objective. Such a result might include an indisputable victory
+      on the field or be limited to the success or termination of a campaign offensive.
+      Decisive battles had a direct, observable impact on the direction, duration,
+      conduct, or outcome of the war.
 
-    
-  - format: default
+      Formative: An engagement involving divisions or detachments of the field armies
+      in which a commader accomplished a limited campaign objective of reconnaissance,
+      disruption, defense, or occupation. Formative battles had an observable influence
+      on the direction, duration, or conduct of the campaign.
+
+      Limited: An engagement, typically involving detachments of the field armies,
+      in which a commander achived a limited tactical objective of reconnaissance,
+      defense, or occupation. Limited battles maintained contact between the combatants
+      without observable influence on the direction of the campaign.
+
+      Major: An engagement of magnitude involving field armies or divisions of the
+      armies in which a commander achived an important strategic objective within
+      the context of an ongoing campaign offensive. Major battles had a direct, observable
+      impact on the direction, duration, conduct, or outcome of the campaign.'
+    format: default
     name: military
     title: military
     type: string
-    constraints:
-      enum: ["A", "B", "C", "D"]
-    description: >-
-      
-      The Military Importance or Military Class; Military Importance = Military Class. The Commission ranked each battle (and its associated battle site) within the framework of its campaign and the war.
-
-      Decisive: A general engagement involving field armies in which a commander achieved a vital strategic objective. Such a result might include an indisputable victory on the field or be limited to the success or termination of a campaign offensive. Decisive battles had a direct, observable impact on the direction, duration, conduct, or outcome of the war.
-      
-      Formative: An engagement involving divisions or detachments of the field armies in which a commader accomplished a limited campaign objective of reconnaissance, disruption, defense, or occupation. Formative battles had an observable influence on the direction, duration, or conduct of the campaign.
-      
-      Limited: An engagement, typically involving detachments of the field armies, in which a commander achived a limited tactical objective of reconnaissance, defense, or occupation. Limited battles maintained contact between the combatants without observable influence on the direction of the campaign.
-      
-      Major: An engagement of magnitude involving field armies or divisions of the armies in which a commander achived an important strategic objective within the context of an ongoing campaign offensive. Major battles had a direct, observable impact on the direction, duration, conduct, or outcome of the campaign.
-      
   - format: default
     name: interpretive_political
-    title: "Interpretive Potential: effect upon international diplomacy"
+    title: 'Interpretive Potential: effect upon international diplomacy'
     type: boolean
   - format: default
     name: interpretive_commander_loss
-    title: "Interpretive Potential: Loss of significant commander (Wounding, Death, Relieved of Command)"
+    title: 'Interpretive Potential: Loss of significant commander (Wounding, Death,
+      Relieved of Command)'
     type: boolean
   - format: default
     name: interpretive_casualties
-    title: "Interpretive Potential: Unusually High Casualties"
+    title: 'Interpretive Potential: Unusually High Casualties'
     type: boolean
   - format: default
     name: interpretive_tactics_strategy
-    title: "Interpretive Potential: Illustrates Important Lessons in Military Tactics and Strategy"
+    title: 'Interpretive Potential: Illustrates Important Lessons in Military Tactics
+      and Strategy'
     type: boolean
   - format: default
     name: interpretive_public_mind
-    title: "Interpretive Potential: Unusual Importanve in the Public Mind and Imagination"
+    title: 'Interpretive Potential: Unusual Importanve in the Public Mind and Imagination'
     type: boolean
   - format: default
     name: interpretive_combat_arm
-    title: "Interpretive Potential: Significant Participation of Cavalry, Artillery, or Other Single Combat Arm"
+    title: 'Interpretive Potential: Significant Participation of Cavalry, Artillery,
+      or Other Single Combat Arm'
     type: boolean
   - format: default
     name: interpretive_military_firsts
-    title: "Interpretive Potential: Military Firsts"
+    title: 'Interpretive Potential: Military Firsts'
     type: boolean
   - format: default
     name: interpretive_minority_troops
-    title: "Interpretive Potential: Participation of Significant Numbers of Minority Troops"
+    title: 'Interpretive Potential: Participation of Significant Numbers of Minority
+      Troops'
     type: boolean
   - format: default
     name: interpretive_economic
-    title: "Interpretive Potential: Significant Economic Consequences"
+    title: 'Interpretive Potential: Significant Economic Consequences'
     type: boolean
   - format: default
     name: interpretive_archaelolgical
-    title: "Interpretive Potential: High Archaelogical Potential"
+    title: 'Interpretive Potential: High Archaelogical Potential'
     type: boolean
   - format: default
     name: interpretive_logistics
-    title: "Interpretive Potential: Unusually Significant Logistics or Supply Feat"
+    title: 'Interpretive Potential: Unusually Significant Logistics or Supply Feat'
     type: boolean
   - format: default
     name: interpretive_individual_bravery
-    title: "Interpretive Potential: Exception Individual Initiative in Bravery or Command"
+    title: 'Interpretive Potential: Exception Individual Initiative in Bravery or
+      Command'
     type: boolean
   - format: default
     name: interpretive_group_behavior
-    title: "Interpretive Potential: Exceptional Group Behavior"
+    title: 'Interpretive Potential: Exceptional Group Behavior'
     type: boolean
   - format: default
     name: interpretive_joint_ops
-    title: "Interpretive Potential: Illustrates Joint Operations (Army, Navy)"
+    title: 'Interpretive Potential: Illustrates Joint Operations (Army, Navy)'
     type: boolean
   - format: default
     name: interpretive_coop_armies
-    title: "Interpretive Potential: Illustrates Cooperation of Separate Military Departments or Armies"
+    title: 'Interpretive Potential: Illustrates Cooperation of Separate Military Departments
+      or Armies'
     type: boolean
   - format: default
     name: interpretive_naval
-    title: "Interpretive Potential: Naval Operations"
+    title: 'Interpretive Potential: Naval Operations'
     type: boolean
-  - format: default
+  - constraints:
+      enum:
+      - A
+      - B
+      - C
+      - D
+    description: Dr. James M. McPherson. The letter in this field is Dr. McPherson's
+      initial opinion regarding the military importance of the event. (Refer to MILITARY
+      above.) An entry was made in this field only when Dr. McPherson disagreed with
+      the first military importance value assigned to the event. Differences of opinion
+      about the military importance of specific battle events were resolved at an
+      October 23, 1992 meeting.
+    format: default
     name: Military (Jim)
     title: jim
     type: string
-    constraints:
-      enum: ["A", "B", "C", "D"]
-    description: >-
-      Dr. James M. McPherson. The letter in this field is Dr. McPherson's initial opinion regarding the military importance of the event. (Refer to MILITARY above.) An entry was made in this field only when Dr. McPherson disagreed with the first military importance value assigned to the event. Differences of opinion about the military importance of specific battle events were resolved at an October 23, 1992 meeting.
-
-  - format: default
+  - constraints:
+      enum:
+      - A
+      - B
+      - C
+      - D
+    description: Dr. Edwin C. Bearss. The letter in this field is Mr. Bearss 'initial
+      opinion regarding the military importance of the event. (Refer to MILITARY above.)
+      An entry was made in this field only when Mr. Bearss disagreed with the first
+      military importance value assigned to the event. Differences of opinion about
+      the military importance of specific battle events were resolved at an October
+      23, 1992 meeting.
+    format: default
     name: ed
     title: Military (Ed)
     type: string
-    constraints:
-      enum: ["A", "B", "C", "D"]
-    description: >-
-      Dr. Edwin C. Bearss. The letter in this field is Mr. Bearss 'initial opinion regarding the military importance of the event. (Refer to MILITARY above.) An entry was made in this field only when Mr. Bearss disagreed with the first military importance value assigned to the event. Differences of opinion about the military importance of specific battle events were resolved at an October 23, 1992 meeting.
-    
-  - format: default
+  - constraints:
+      enum:
+      - A
+      - B
+      - C
+      - D
+    description: '
+
+      Dr. William J. Cooper, Jr.. The letter in this field is Dr. Cooper''s initial
+      opinion regarding the military importance of the event. (Refer to MILITARY above.)
+      An entry was made in this field only when Dr. Cooper disagreed with the first
+      military importance value assigned to the event. Differences of opinion about
+      the military importance of specific battle events were resolved at an October
+      23, 1992 meeting.'
+    format: default
     name: bill
     title: Military (Bill)
     type: string
-    constraints:
-      enum: ["A", "B", "C", "D"]
-    description: >-
+  - description: '
 
-      Dr. William J. Cooper, Jr.. The letter in this field is Dr. Cooper's initial opinion regarding the military importance of the event. (Refer to MILITARY above.) An entry was made in this field only when Dr. Cooper disagreed with the first military importance value assigned to the event. Differences of opinion about the military importance of specific battle events were resolved at an October 23, 1992 meeting.
-      
-  - format: default
+      The number of acres of the battle site that are protected; for example, by easement
+      or park status. This field is ill-defined and incomplete. The data may be inaccurate.
+      The Commission did not use the data in this field.'
+    format: default
     name: protected
     title: Protected land area (acres)
     type: number
-    description: >-
-
-      The number of acres of the battle site that are protected; for example, by easement or park status. This field is ill-defined and incomplete. The data may be inaccurate. The Commission did not use the data in this field.
-      
-  - format: default
+  - description: Percentage of the land area of the battlefield that is protected.
+      This field is ill-defined and incomplete. The data may be inaccurate. The Commission
+      did not use the data in this field.
+    format: default
     name: percent
     title: Protected (percent of land area)
     type: number
-    description: >-
-      Percentage of the land area of the battlefield that is protected. This field is ill-defined and incomplete. The data may be inaccurate. The Commission did not use the data in this field.
-      
-  - format: default
+  - description: '
+
+      The county, or counties, in which the battle site is located. In Virginia, incorporated
+      cities are not part of their surrounding jurisdiction. Note: The Commission
+      used its Counties database (counties.dbf) for county information rather than
+      this entry in the events database.'
+    format: default
     name: county
     title: County
     type: string
-    description: >-
+  - description: '
 
-      The county, or counties, in which the battle site is located. In Virginia, incorporated cities are not part of their surrounding jurisdiction. Note: The Commission used its Counties database (counties.dbf) for county information rather than this entry in the events database.
-      
-  - format: default
+      The assessed land value of the battle site. This field is incomplete and the
+      data may be inaccurate. The Commission did not use the data in this field.'
+    format: default
     name: value
     title: value
     type: string
-    description: >-
-
-      The assessed land value of the battle site. This field is incomplete and the data may be inaccurate. The Commission did not use the data in this field.
-      
-  - format: default
+  - description: '"1" = The battle site/event is one of the Commission''s Priority
+      One battlefields. "0" = The battle site/event is not one of the Commission''s
+      Priority One battlefields. This field was never completed.'
+    format: default
     name: priority1
     title: priority1
     type: boolean
-    description: >-
-      "1" = The battle site/event is one of the Commission's Priority One battlefields. "0" = The battle site/event is not one of the Commission's Priority One battlefields. This field was never completed.
-    
-  - format: url
+  - description: URL to the record on aad.archives.gov.
+    format: url
     name: url
     title: url
     type: string
-    description: URL to the record on aad.archives.gov.
-title: Records About Civil War Battle Sites, created by the CWSAC, 1990-1993, and deposited with the National Archives AAD.
+title: Records About Civil War Battle Sites, created by the CWSAC, 1990-1993, and
+  deposited with the National Archives AAD.

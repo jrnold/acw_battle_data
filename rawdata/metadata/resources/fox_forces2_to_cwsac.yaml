@@ -3,28 +3,33 @@ name: fox_forces2_to_cwsac
 path: data/fox_forces2_to_cwsac.csv
 schema:
   fields:
-  - format: default
+  - constaints:
+      enum:
+      - Confederate
+      - US
+    format: default
     name: belligerent
     title: Belligerent
     type: string
-    constaints:
-      enum: ["Confederate", "US"]
-  - format: default
+  - description: Battle name in the ``fox_forces2`` data.
+    format: default
     name: battle_name
     title: Battle Name
     type: string
-    description: Battle name in the ``fox_forces2`` data.
-  - format: default
+  - constraints:
+      pattern: '[A-Z]{3}[0-9]{2}[A-Z]?'
+    description: CWSAC battle identification code.
+    format: default
     name: cwsac_id
     title: CWSAC Id.
     type: string
-    description: CWSAC battle identification code.
-    constraints:
-      pattern: "[A-Z]{3}[0-9]{2}[A-Z]?"
-  - format: default
+  - constraints:
+      enum:
+      - <
+      - '>'
+      - '='
+    format: default
     name: relation
     title: Relation
     type: string
-    constraints:
-      enum: ["<", ">", "="]
 title: Correspondence between battles in ``fox_forces2`` and CWSAC battles
