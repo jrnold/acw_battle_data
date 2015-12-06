@@ -1,0 +1,17 @@
+format: csv
+name: burdekin_langdana_war_trend
+path: data/burdekin_langdana_war_trend.csv
+schema:
+  fields:
+  - description: First day of the quarter
+    format: default
+    name: date
+    title: Date
+    type: date
+  - description: -1 (+1) if war news is unfavorable (favorable) to Confederacy; 0
+      otherwise.
+    format: default
+    name: trend
+    title: War Trend
+    type: integer
+title: War Trend from Burdekin and Langdana (1993)

@@ -1,0 +1,48 @@
+description: ''
+format: csv
+name: navalbattles
+path: data/navalbattles.csv
+schema:
+  fields:
+  - constraints:
+      pattern: '[A-Z]{2}[0-9]{3}[A-Z]?'
+    format: default
+    name: cwsac_id
+    title: CWSAC Id.
+    type: string
+  - format: default
+    name: battle_name
+    title: Battle name
+    type: string
+  - description: Did the battle only involve naval forces?
+    format: default
+    name: all_naval
+    title: All Naval Battle?
+    type: boolean
+  - description: Did the battle involve the US Navy?
+    format: default
+    name: us_navy
+    title: US Navy
+    type: boolean
+  - description: Did the battle involve the Confederate Navy?
+    format: default
+    name: cs_navy
+    title: Confederate Navy
+    type: integer
+  - description: Did the battle involve a US fort?
+    format: default
+    name: us_fort
+    title: US Fort
+    type: integer
+  - description: Did the battle involve a Confederate fort?
+    format: default
+    name: cs_fort
+    title: Confederate Fort
+    type: integer
+  - format: default
+    name: comments
+    title: Comments
+    type: string
+sources:
+- self
+title: Naval battle data

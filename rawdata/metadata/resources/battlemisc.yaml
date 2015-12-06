@@ -1,0 +1,43 @@
+description: ''
+format: csv
+name: battlemisc
+path: data/battlemisc.csv
+schema:
+  fields:
+  - constraints:
+      pattern: '[A-Z]{2}[0-9]{3}[A-Z]?'
+    format: default
+    name: cwsac_id
+    title: CWSAC Id.
+    type: string
+  - format: default
+    name: battle_name
+    title: Battle name
+    type: string
+  - constraints:
+      enum:
+      - US
+      - Confederate
+    description: Which side was the attacker in the battle? This was coded as the
+      side which first initiated combat in that battle. It is not a measure of which
+      side was attacking in the campaign. This was coded from the descriptions in
+      the CWSAC and Wikipedia.
+    format: default
+    name: attacker
+    title: Attacker
+    type: string
+  - constraints:
+      enum:
+      - Union complete
+      - Union partial
+      - None
+      - Confederate partial
+      - Confederate complete
+    description: Did one of the sides surrender?
+    format: default
+    name: surrender
+    title: Surrender
+    type: string
+sources:
+- self
+title: Miscellaneous battle data

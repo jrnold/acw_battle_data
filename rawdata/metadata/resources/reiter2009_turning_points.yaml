@@ -1,0 +1,37 @@
+format: csv
+name: reiter2009_turning_points
+path: data/reiter2009_turning_points.csv
+schema:
+  fields:
+  - format: default
+    name: period
+    title: Period
+    type: Time period of the turning point
+  - format: default
+    name: start_date
+    title: Start Date
+    type: date
+  - description: Brief description of the turning point
+    format: default
+    name: description
+    title: Description
+    type: string
+  - constraints:
+      enum:
+      - Union
+      - Confederacy
+    description: 'Which side did the turning point favor: Union or Confederacy?'
+    format: default
+    name: favor
+    title: War Favor
+    type: string
+  - description: Did either side change war aims in the following period?
+    format: default
+    name: war_aims_change
+    title: War Aims Change
+    type: string
+  - format: default
+    name: comment
+    title: Comment
+    type: string
+title: Reiter (2009) Turning Points of the American Civil War

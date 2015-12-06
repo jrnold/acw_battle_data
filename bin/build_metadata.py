@@ -33,6 +33,7 @@ def make_metadata(src, yamlfile):
         }
         if dformat == "csv":
             meta['schema'] = {}
+            print(src)
             data = pandas.read_csv(src)
             meta['schema']['fields'] = [{'name': x,
                                          'title': x,
