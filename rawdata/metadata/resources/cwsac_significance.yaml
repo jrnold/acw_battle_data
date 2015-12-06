@@ -1,0 +1,14 @@
+format: csv
+name: cwsac_significance
+path: data/cwsac_significance.csv
+schema:
+  fields:
+  - format: default
+    name: value
+    title: Value
+    type: string
+  - format: default
+    name: description
+    title: Description
+    type: string
+title: 'CWSAC Report Updates battle data: military significance categories'

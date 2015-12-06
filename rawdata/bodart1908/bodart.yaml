@@ -728,7 +728,7 @@ Champion's Hill (May 16, 1863):
       suffix: ''
     killed_wounded: 3000
     killed_wounded_percent: 16.6
-    losses_canons: 11
+    losses_cannon: 11
     losses_munition_wagons: 28
     missing: 3000
     missing_percent: 16.7
@@ -819,7 +819,7 @@ Chancellorsville (May 03, 1863):
     killed_wounded_generals: 11
     killed_wounded_officers: 819
     killed_wounded_percent: 9.5
-    losses_canons: 120
+    losses_cannon: 120
     losses_flags: 17
     missing: 6000
     missing_generals: 1
@@ -870,7 +870,7 @@ Chancellorsville (May 03, 1863):
     killed_wounded: 10800
     killed_wounded_generals: 10
     killed_wounded_percent: 13.5
-    losses_canons: 7
+    losses_cannon: 7
     missing: 2000
     missing_generals: 0
     missing_percent: 2.5
@@ -1532,7 +1532,7 @@ Fort Donelson (February 12, 1862):
     country: Confederacy
     killed_wounded: 2000
     killed_wounded_percent: 12
-    losses_canons: 65
+    losses_cannon: 65
     losses_guns: 17000
     missing: 13000
     missing_percent: 70
@@ -1968,7 +1968,7 @@ Harper's Ferry (September 15, 1862):
       rank: Brigadier Obst.
       suffix: ''
     guns: 73
-    losses_canons: 73
+    losses_cannon: 73
     strength: 14000
   name: Harper's Ferry
   order: null
@@ -2108,7 +2108,7 @@ Middletown (October 19, 1864):
       suffix: ''
     killed_wounded: 1900
     killed_wounded_percent: 10.5
-    losses_canons: 23
+    losses_cannon: 23
     missing: 1200
     missing_percent: 6.3
     strength: 18000
@@ -2169,7 +2169,7 @@ Mobile (April 02, 1865):
   loser:
     captured: 3500
     country: Confederacy
-    losses_canons: 50
+    losses_cannon: 50
     strength: 4000
   name: Mobile
   order: null
@@ -2971,7 +2971,7 @@ Richmond (August 30, 1862):
     killed: 210
     killed_wounded: 1050
     killed_wounded_percent: 6.5
-    losses_canons: 9
+    losses_cannon: 9
     missing: 4350
     missing_percent: 27.5
     other: "alles gep\xE4ck"
@@ -3217,7 +3217,7 @@ Shiloh (April 06, 1862):
     killed_wounded: 9800
     killed_wounded_generals: 7
     killed_wounded_percent: 24.5
-    losses_canons: 30
+    losses_cannon: 30
     missing: 1000
     missing_generals: 0
     missing_percent: 2.5
@@ -3263,7 +3263,7 @@ Shiloh (April 06, 1862):
     killed_wounded_generals: 5
     killed_wounded_officers: 527
     killed_wounded_percent: 21.0
-    losses_canons: 33
+    losses_cannon: 33
     missing: 2800
     missing_generals: 2
     missing_officers: 113
@@ -3336,7 +3336,7 @@ Spotsylvania-Court-House (May 08, 1864):
     killed_wounded: 5000
     killed_wounded_generals: 8
     killed_wounded_percent: 10.0
-    losses_canons: 18
+    losses_cannon: 18
     missing: 4000
     missing_generals: 2
     missing_percent: 8.0
@@ -3450,7 +3450,7 @@ Vicksburg (May 19, 1863):
       rank: B.-G.
       suffix: ''
     killed_wounded: 7000
-    losses_canons: 172
+    losses_cannon: 172
     strength: 28000
   name: Vicksburg
   order: null
@@ -3574,7 +3574,7 @@ Wilderness (May 05, 1864):
     killed_wounded_generals: 6
     killed_wounded_officers: 704
     killed_wounded_percent: 12.1
-    losses_canons: 2
+    losses_cannon: 2
     missing: 3400
     missing_generals: 2
     missing_officers: 136

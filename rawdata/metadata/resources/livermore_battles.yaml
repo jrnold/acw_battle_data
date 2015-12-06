@@ -1,0 +1,59 @@
+description: ''
+format: csv
+name: livermore_battles
+path: data/livermore_battles.csv
+schema:
+  fields:
+  - format: default
+    name: seq_no
+    title: seq_no
+    type: integer
+  - format: default
+    name: battle_name
+    title: battle_name
+    type: string
+  - format: default
+    name: page
+    title: page
+    type: integer
+  - format: default
+    name: start_date
+    title: start_date
+    type: string
+  - format: default
+    name: end_date
+    title: end_date
+    type: string
+  - format: default
+    name: attacker
+    title: attacker
+    type: string
+  - format: default
+    name: result
+    title: result
+    type: string
+  - format: default
+    name: assault_fortified
+    title: assault_fortified
+    type: string
+  - format: default
+    name: assault_outcome
+    title: assault_outcome
+    type: string
+  - format: default
+    name: union_result
+    title: union_result
+    type: string
+  - format: default
+    name: confed_result
+    title: confed_result
+    type: string
+  - format: default
+    name: state
+    title: state
+    type: string
+  - format: default
+    name: theater
+    title: theater
+    type: string
+title: livermore_battles

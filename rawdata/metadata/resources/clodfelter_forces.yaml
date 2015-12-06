@@ -1,0 +1,284 @@
+description: ''
+format: csv
+name: clodfelter_forces
+path: data/clodfelter_forces.csv
+schema:
+  fields:
+  - format: default
+    name: battle
+    title: Battle
+    type: string
+  - format: default
+    name: belligerent
+    title: Belligerent
+    type: string
+    constraints:
+      enum: ["US", "Confederate"]
+  - format: default
+    name: strength
+    title: Strength
+    type: integer
+    constraints:
+      minimum: 0
+    description: Total number of personnel in the battle
+  - format: default
+    name: infantry
+    title: Infantry personnel
+    type: integer
+    constraints:
+      minimum: 0
+    description: Total number of infantry in the battle      
+  - format: default
+    name: cavalry
+    title: Cavalry personnel
+    type: integer
+    constraints:
+      minimum: 0
+    description: Total number of cavalry in the battle            
+  - format: default
+    name: crewmen
+    title: Crewmen
+    type: integer
+    constraints:
+      minimum: 0
+    description: Total number of naval crew in the battle
+  - format: default
+    name: corps
+    title: corps
+    type: integer
+    constraints:
+      minimum: 0
+    description: Number of corps in the battle
+  - format: default
+    name: cavalry_corps
+    title: Cavalry Corps
+    type: integer
+    constraints:
+      minimum: 0
+    description: Number of cavalry corps in the battle      
+  - format: default
+    name: divisions
+    title: Divisions
+    type: integer
+    constraints:
+      minimum: 0
+    description: Number of divisions in the battle            
+  - format: default
+    name: cavalry_divisions
+    title: Cavalry Divisions
+    type: integer
+    constraints:
+      minimum: 0
+    description: Number of cavalry divisions in the battle                  
+  - format: default
+    name: brigades
+    title: Brigades
+    type: integer
+    constraints:
+      minimum: 0
+    description: Number of brigades in the battle                        
+  - format: default
+    name: companies
+    title: Companies
+    type: integer
+    constraints:
+      minimum: 0
+    description: Number of companies in the battle                  
+  - format: default
+    name: frigates
+    title: frigates
+    type: integer
+    constraints:
+      minimum: 0
+  - format: default
+    name: gunboats
+    title: Gunboats
+    type: integer
+    constraints:
+      minimum: 0
+  - format: default
+    name: ironclads
+    title: Ironclads
+    type: integer
+    constraints:
+      minimum: 0
+  - format: default
+    name: sloops
+    title: Sloops
+    type: integer
+    constraints:
+      minimum: 0
+  - format: default
+    name: steamers
+    title: Steamers
+    type: integer
+    constraints:
+      minimum: 0
+  - format: default
+    name: warships_and_transports
+    title: Warships and Transports
+    type: integer
+    constraints:
+      minimum: 0
+  - format: default
+    name: warships
+    title: Warships
+    type: integer
+    constraints:
+      minimum: 0
+  - format: default
+    name: wooden_warships
+    title: Wooden Warships
+    type: integer
+    constraints:
+      minimum: 0
+  - format: default
+    name: guns
+    title: Guns
+    type: integer
+    constraints:
+      minimum: 0
+    description: Number of artillery pieces
+  - format: default
+    name: casualties
+    title: Casualties
+    type: integer
+    constraints:
+      minimum: 0
+    description: Casualties (killed, wounded, and missing or captured)
+  - format: default
+    name: captured
+    title: Captured
+    type: integer
+    constraints:
+      minimum: 0
+  - format: default
+    name: killed
+    title: Killed
+    type: integer
+    constraints:
+      minimum: 0
+  - format: default
+    name: wounded
+    title: Wounded
+    type: integer
+    constraints:
+      minimum: 0
+  - format: default
+    name: missing
+    title: Missing
+    type: integer
+    constraints:
+      minimum: 0
+  - format: default
+    name: killed_wounded
+    title: Killed or Wounded
+    type: integer
+    constraints:
+      minimum: 0
+  - format: default
+    name: killed_missing
+    title: Killed or Missing
+    type: integer
+    constraints:
+      minimum: 0
+  - format: default
+    name: missing_captured
+    title: Missing or Captured
+    type: integer
+    constraints:
+      minimum: 0
+  - format: default
+    name: wounded_missing
+    title: Wounded or Missing
+    type: integer
+    constraints:
+      minimum: 0
+  - format: default
+    name: guns_lost
+    title: Guns Lost
+    type: integer
+    constraints:
+      minimum: 0
+    description: Number of guns (artillery pieces) captured by the opponent.
+  - format: default
+    name: small_arms_lost
+    title: Small Arms Lost
+    type: integer
+    constraints:
+      minimum: 0
+    description: Number of small arms captured by the opponent.
+  - format: default
+    name: warships_sunk
+    title: Warships Sunk
+    type: integer
+    constraints:
+      minimum: 0
+    description: Number of warships sunk by the opponent.      
+  - format: default
+    name: warships_damaged
+    title: Warships Damaged
+    type: integer
+    constraints:
+      minimum: 0
+    description: Number of warships damaged by the opponent.            
+  - format: default
+    name: gunboats_sunk
+    title: Gunboats Sunk
+    type: integer
+    constraints:
+      minimum: 0
+    description: Number of gunboats sunk by the opponent.                  
+  - format: default
+    name: gunboats_captured
+    title: Gunboats Captured
+    type: integer
+    constraints:
+      minimum: 0
+    description: Number of gunboats captured by the opponent.
+  - format: default
+    name: ironclads_sunk
+    title: Ironclads Sunk
+    type: integer
+    constraints:
+      minimum: 0
+    description: Number of ironclads sunk by the opponent.  
+  - format: default
+    name: ironclads_captured
+    title: Ironclads Captured
+    type: integer
+    constraints:
+      minimum: 0
+    description: Number of ironclads captured by the opponent.      
+  - format: default
+    name: forts_captured
+    title: Forts Captured
+    type: integer
+    constraints:
+      minimum: 0
+    description: Number of forts captured by the opponent.        
+  - format: default
+    name: note
+    title: Note
+    type: string
+  - constraints:
+      minimum: 0
+    description: Mean of the estimated strength in personnel of the force. See code
+      for how it is calculated.
+    format: default
+    name: str_mean
+    sources:
+    - self
+    title: Strength (mean)
+    type: number
+  - constraints:
+      minimum: 0
+    description: Variance of the estimated strength in personnel of the force. See
+      code for how it is calculated.
+    format: default
+    name: str_var
+    sources:
+    - self
+    title: Strength (variance)
+    type: number
+title: "Clodfelter (2008) battle data: forces"

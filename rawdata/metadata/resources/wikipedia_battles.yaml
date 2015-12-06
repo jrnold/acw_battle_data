@@ -1,0 +1,27 @@
+description: ''
+format: csv
+name: wikipedia_battles
+path: data/wikipedia_battles.csv
+schema:
+  fields:
+  - format: default
+    name: battle
+    title: battle
+    type: string
+  - format: default
+    name: id
+    title: id
+    type: number
+  - format: default
+    name: strength
+    title: strength
+    type: number
+  - format: default
+    name: casualties
+    title: casualties
+    type: number
+  - format: default
+    name: notes
+    title: notes
+    type: string
+title: wikipedia_battles

@@ -1,0 +1,64 @@
+description: ''
+format: csv
+name: kennedy1997_forces
+path: data/kennedy1997_forces.csv
+schema:
+  fields:
+  - constraints:
+      maxLength: 6
+      minLength: 5
+      pattern: '[A-Z]{2}[0-9]{3}[A-Z]?'
+    description: CWSAC battle identifier
+    format: default
+    name: battle
+    title: Battle
+    type: string
+  - format: default
+    name: belligerent
+    title: belligerent
+    type: string
+    constraints:
+      enum:
+        - US
+        - Confederate
+        - Native American
+  - format: default
+    name: casualties_min
+    title: Casualties (min)
+    type: integer
+    constraints:
+      minimum: 0
+    description: >-
+      Casualties (killed, wounded, and missing or captured), minimum value.
+
+      This source only gives a range for a few battles. For battles where no range is given, the mimimum and maximum are set to the same value.
+  - format: default
+    name: casualties_max
+    title: Casualties (max)
+    type: integer
+    constraints:
+      minimum: 0
+    description: >-
+      Casualties (killed, wounded, and missing or captured), maximum value.      
+  - format: default
+    name: killed_wounded_min
+    title: Killed or Wounded (min)
+    type: integer
+    constraints:
+      minimum: 0
+    description: >-
+      This source only gives a range for a few battles. For battles where no range is given, the mimimum and maximum are set to the same value.
+
+  - format: default
+    name: killed_wounded_max
+    title: Killed or Wounded (max)
+    type: integer
+    constraints:
+      minimum: 0
+  - format: default
+    name: missing
+    title: Missing or captured
+    type: integer
+    constraints:
+      minimum: 0
+title: "Civil War Battlefield Guide data: forces"

@@ -1,0 +1,125 @@
+format: csv
+name: cwsac2_battles
+path: data/cwsac2_battles.csv
+schema:
+  fields:
+  - constraints:
+      maxLength: 6
+      minLength: 5
+      pattern: '[A-Z]{2}[0-9]{3}[A-Z]?'
+    description: CWSAC battle identifier
+    format: default
+    name: battle
+    title: Battle
+    type: string
+  - format: default
+    name: battle_name
+    title: Battle Name
+    type: string
+  - constraints:
+      maxLength: 2
+      minLength: 2
+      pattern: '[A-Z][A-Z]'
+    description: State in which the battle occurred. Two-letter abbreviation of the
+      state.
+    format: default
+    name: state
+    title: State
+    type: string
+  - description: Campaign of the battle
+    format: default
+    name: campaign
+    title: Campaign
+    type: string
+  - description: URL of the CWSAC Updated report
+    format: url
+    name: url
+    title: url
+    type: string
+  - description: Text description of the forces involved in the battle
+    format: default
+    name: forces_text
+    title: Forces
+    type: string
+  - constraints:
+      minimum: 0
+    description: Total personnel (on both sides) in the battle. For some battles,
+      CWSAC gives an aggregate total, but not totals for the individual sides.
+    format: default
+    name: strength
+    title: Strength
+    type: integer
+  - description: Description of the result of the battle
+    format: default
+    name: results_text
+    title: Results (text)
+    type: string
+  - description: Battle result
+    format: default
+    name: result
+    title: result
+    type: number
+  - description: 'Study area in acres
+
+      The Study Area represents the historic extent of the battle as it unfolded across
+      the landscape. The Study Area contains resources known to relate to or contribute
+      to the battle event: where troops maneuvered and deployed, immediately before
+      and after combat, and where they fought during combat. Historic accounts, terrain
+      analysis, and feature identification inform the delineation of the Study Area
+      boundary.  Historic setting, approaches, and natural features that figure importantly
+      in the battle are defining elements. The Study Area indicates the extent to
+      which historic and archeological resources associated with the battle (areas
+      of combat, command, communications, logistics, medical services, etc.) may be
+      found and protected. Surveyors delineated Study Area boundaries for every battle
+      site that was positively identified through research and field survey, regardless
+      of its present integrity.'
+    format: default
+    name: study_area
+    title: Study Area
+    type: number
+  - description: 'Core area in acres
+
+      The Core Area represents the areas of direct engagement on the battlefield.
+      Positions that delivered or received fire, and the space connecting them, fall
+      within the Core Area.  Frequently described as “hallowed ground,” land within
+      the Core Area is often the first to be targeted for protection. There may be
+      more than one Core Area on a battlefield, but all lie within the Study Area.'
+    format: default
+    name: core_area
+    title: core_area
+    type: number
+  - description: 'Potential National Register Boundary area in acres
+
+      Unlike the Study and Core Area, which are based only upon the interpretation
+      of historic events, the Potential National Register (PotNR) boundary represents
+      ABPP’s assessment of a Study Area’s current integrity (the surviving landscape
+      and features that convey the site’s historic sense of place). The PotNR boundary
+      may include all or some of the Study Area, and all or some of the Core Area.
+      Although preparing a National Register nomination may require further assessment
+      of historic integrity and more documentation than that provided by the ABPP
+      survey, PotNR boundaries identify land that merits this additional effort.'
+    format: default
+    name: potnr_boundary
+    title: potnr_boundary
+    type: number
+  - constraints:
+      minimum: 0
+    description: Mean of the estimated strength in personnel of the force. See code
+      for how it is calculated.
+    format: default
+    name: strength_mean
+    sources:
+    - self
+    title: Strength (mean)
+    type: number
+  - constraints:
+      minimum: 0
+    description: Variance of the estimated strength in personnel of the force. See
+      code for how it is calculated.
+    format: default
+    name: strength_var
+    sources:
+    - self
+    title: Strength (variance)
+    type: number
+title: 'CWSAC Report Updates battle data: battles'

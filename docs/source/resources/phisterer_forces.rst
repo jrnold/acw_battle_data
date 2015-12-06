@@ -1,0 +1,88 @@
+phisterer_forces
+================================================================================
+
+:name: phisterer_forces
+:path: data/phisterer_forces.csv
+:format: csv
+
+Phisterer (1883) data on casualties of forces.
+
+See :doc:`phisterer_battles` for more on the Phisterer (1883) data.
+
+In this data each observation is a force (belligerent, battle).
+
+
+
+Schema
+-------
+
+
+
+
+
+battle
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+:title: battle
+:type: integer
+:format: default 
+
+
+
+       
+
+belligerent
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+:title: belligerent
+:type: string
+:format: default 
+
+
+
+       
+
+casualties
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+:title: casualties
+:type: number
+:format: default 
+
+
+
+       
+
+killed
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+:title: killed
+:type: number
+:format: default 
+
+
+
+       
+
+wounded
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+:title: wounded
+:type: number
+:format: default 
+
+
+
+       
+
+missing
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+:title: missing
+:type: number
+:format: default 
+
+
+
+       
+

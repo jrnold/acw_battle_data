@@ -1,0 +1,49 @@
+format: csv
+name: bodart1908_generals_killed
+path: data/bodart1908_generals_killed.csv
+schema:
+  fields:
+  - format: default
+    name: battle_id
+    title: Battle Id.
+    type: string
+  - format: default
+    name: country
+    title: Country
+    type: string
+  - format: default
+    name: name
+    title: Name
+    type: string
+  - format: default
+    name: last_name
+    title: Last name
+    type: string
+  - format: default
+    name: first_name
+    title: First name
+    type: string
+  - format: default
+    name: middle_name
+    title: Middle name
+    type: string
+  - format: default
+    name: suffix
+    title: Suffix
+    type: number
+  - description: Rank of the general
+    format: default
+    name: rank
+    title: Rank
+    type: string
+  - description: Date the general was killed (if given).
+    format: default
+    name: date
+    title: date
+    type: date
+  - description: URI of the dbpedia.org resource for the person.
+    format: url
+    name: dbpedia
+    title: Dbpedia URI
+    type: string
+title: 'Bodart (1908) battle data: generals killed'

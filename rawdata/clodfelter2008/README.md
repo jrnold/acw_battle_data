@@ -1,6 +1,5 @@
 # Clodfelter Data
 
-## Naval Battles
 
 The following battles had a significant naval component:
 

@@ -1,0 +1,66 @@
+description: ''
+format: csv
+name: fox_forces2
+path: data/fox_forces2.csv
+schema:
+  fields:
+  - constraints:
+      enum:
+      - Confederate
+      - US
+    format: default
+    name: belligerent
+    title: belligerent
+    type: string
+  - format: default
+    name: battle_name
+    title: Battle name
+    type: string
+  - description: Start date of the battle
+    format: default
+    name: start_date
+    title: start_date
+    type: date
+  - description: End date of the battle
+    format: default
+    name: end_date
+    title: end_date
+    type: date
+  - constraints:
+      maxLength: 2
+      minLength: 2
+      pattern: '[A-Z]{2}'
+    description: State in which the battle took place.
+    format: default
+    name: state
+    title: State
+    type: string
+  - description: Number of casualties (killed, wounded, and missing)
+    format: default
+    name: casualties
+    title: casualties
+    type: integer
+  - description: Number killed
+    format: default
+    name: killed
+    title: Killed
+    type: integer
+  - description: Number wounded
+    format: default
+    name: wounded
+    title: wounded
+    type: integer
+  - description: Number missing
+    format: default
+    name: missing
+    title: missing
+    type: integer
+  - description: Was this a cavalry battle?
+    format: default
+    name: cavalry
+    title: cavalry
+    type: boolean
+  primaryKey:
+  - belligerent
+  - battle_name
+title: Fox (1898) battle casualties (revised)

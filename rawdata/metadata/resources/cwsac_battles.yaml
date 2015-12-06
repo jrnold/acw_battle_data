@@ -1,0 +1,220 @@
+format: csv
+name: cwsac_battles
+path: data/cwsac_battles.csv
+schema:
+  fields:
+  - constraints:
+      maxLength: 6
+      minLength: 5
+      pattern: '[A-Z]{2}[0-9]{3}[A-Z]?'
+    description: CWSAC battle identifier
+    format: default
+    name: battle
+    title: Battle
+    type: string
+  - description: URL of the battle summary
+    format: url
+    name: url
+    title: url
+    type: string
+  - format: default
+    name: battle_name
+    title: Battle Name
+    type: string
+  - description: '
+
+      Secondary or commonly used names, such as Elkhorn Tavern (Pea Ridge), Bull Run
+      (Manassas), and Sharpsburg (Antietam).'
+    format: default
+    name: other_names
+    title: Other Battle Names
+    type: string
+  - constraints:
+      maxLength: 2
+      minLength: 2
+      pattern: '[A-Z][A-Z]'
+    description: 2-letter State abbreviation
+    format: default
+    name: state
+    title: State
+    type: string
+  - description: The present day county or city in which the battlefield is located.
+    format: default
+    name: locations
+    title: Locations
+    type: string
+  - description: The larger military operation with which the battle is associated.
+    format: default
+    name: campaign
+    title: Campaign
+    type: string
+  - format: default
+    name: start_date
+    title: Start Date
+    type: date
+  - format: default
+    name: end_date
+    title: End Date
+    type: date
+  - description: Was the battle an operation, a series of several related battles?
+      E.g. Marietta Operations.
+    format: default
+    name: operation
+    title: operation
+    type: boolean
+  - description: If the battle was an operation, this contains the names of the battles
+      in that operation.
+    format: default
+    name: assoc_battles
+    title: Associated battles
+    type: string
+  - description: "Text description of the battle result\n\n   The victor in the battle,\
+      \ if the outcome was definitive. If the outcome was other than definitive, that\
+      \ information is provided."
+    format: default
+    name: results_text
+    title: Results
+    type: string
+  - constraints:
+      enum:
+      - Union
+      - Confederate
+      - Inconclusive
+    description: 'Categorical result of the battle: Union victory, Confederate victory,
+      or a tie.'
+    format: default
+    name: result
+    title: result
+    type: string
+  - description: "Description of the forces involved in the battle.\nCWSAC summary\n\
+      \n   In most summaries, the particular company, regiment, brigade, division,\
+      \ corps, army, garrison, detachment, or ship. Some summaries, however, indicate\
+      \ the number of troops involved. In both cases, the purpose is to provide an\
+      \ idea of the size of the engagement. Most of the forces engaged were found\
+      \ in the U.S. War Department's Official Records."
+    format: default
+    name: forces_text
+    title: forces_text
+    type: string
+  - constraints:
+      minimum: 0
+    description: Total personnel involved in the battle. In some cases, CWSAC gives
+      a number for the total personnel in the battle, but does not disaggregate by
+      side.
+    format: default
+    name: strength
+    title: strength
+    type: integer
+  - description: Description of the casualties of the battle.
+    format: default
+    name: casualties_text
+    title: casualties_text
+    type: string
+  - constraints:
+      minimum: 0
+    description: "\nTotal casualties (both sides) of the battle. In some cases, CWSAC\
+      \ gives a number for the total personnel in the battle, but does not disaggregate\
+      \ by side.\nCWSAC description of casualties\n\n   No source exists, either in\
+      \ print or in manuscript, that\n   provides casualty figures for all Civil War\
+      \ battles or even\n   for the 384 principal battles that the CWSAC studied.\
+      \ Some of\n   the casualty figures for the 384 principal battles are\n   unknown;\
+      \ in some instances reliable figures are available for\n   one of the combatants\
+      \ but not for the other. Few casualty\n   figures are definitive; sources often\
+      \ differ in their\n   figures. A variety of sources, both official and commercial,\n\
+      \   printed and in manuscript, were consulted. All casualty\n   figures were\
+      \ subjected to historical analysis before\n   inclusion in the summaries.\n\n\
+      \   A partial list of sources follows.\n\n   Dyer, Frederick. A Compendium of\
+      \ the War of the Rebellion . .. Des Moines, IA: Dyer Publishing Company, 1908.\n\
+      \n   Fox, William F. Regimental Losses in the American Civil War 1861-1865:\
+      \ A Treatise on the Extent and Nature of the Mortuary Losses in the United States\
+      \ . . . Albany, NY: Albany Publishing Company,1889.\n\n   Johnson, Robert U.,\
+      \ and Clarence C. Buell, eds. Battles and Leaders of the Civil War . . . .4\
+      \ Volumes. New York: The Century Company, 1887-88.\n\n   Livermore, Thomas L.Numbers\
+      \ and Losses in the Civil War in America 1861-65. Reprint. Dayton, OH: Morningside\
+      \ House, Inc., 1986.\n\n   U.S. Surgeon General's Office. Chronological Summary\
+      \ of Engagements and Battles [Civil War]. Washington, DC: The Government Printing\
+      \ Office, 1873.\n\n   U.S. War Department. The War of the Rebellion: A Compilation\
+      \ ofthe Official Records of the Union and Confederate Armies. 70 Volumes in\
+      \ 128. Washington, DC: The Government Printing Office, 1880-1901."
+    format: default
+    name: casualties
+    title: Casualties
+    type: integer
+  - description: "Short text summary of the battle.\nCWSAC documentation\n\n   A historical\
+      \ account or summary of the battle. A variety of sources, both general and specific,\
+      \ published and in manuscript, were consultedin the preparation of these accounts.\
+      \ The general sources consulted include those listed below. More specific published\
+      \ and manuscript sources were also consulted and analyzed.\n\n   The Conservation\
+      \ Fund. The Civil War Battlefield Guide. Edited by Frances H. Kennedy. Boston,\
+      \ MA: Houghton Mifflin Company, 1990.\n\n   Great Battles of the Civil War.\
+      \ By the editors of Civil War Times Illustrated. New York: Gallery Books, 1984.\n\
+      \n   Historical Times Illustrated Encyclopedia of the Civil War. Edited by Patricia\
+      \ L. Faust. New York: Harper & Row, Publishers, 1986.\n\n   Johnson, Robert\
+      \ U., and Clarence C. Buell, eds. Battles and Leaders of the Civil War . . .\
+      \ .4 Volumes. New York: The Century Company, 1887-88.\n\n   Long, E.B., compiler.\
+      \ The Civil War Day by Day: An Almanac 1861-1865. Garden City, NY: Doubleday\
+      \ & Company, Inc., 1971.\n\n   U.S. National Archives. A Guide-Index to the\
+      \ Official Records of the Union and Confederate Armies. Edited and compiled\
+      \ by Dallas Irvine, et al. Washington, DC: The Government Printing Office, 1968-1980.\n\
+      \   \n   U.S. Naval History Division. Civil War Naval Chronology, 1861-1865.\
+      \ Washington, DC: The Government Printing Office, 1971.\n\n   U.S. Navy Department.\
+      \ Official Records of the Union and Confederate Navies in the War of the Rebellion.\
+      \ Multivolumes. Washington, DC: The Government Printing Office, 1894-1927.\n\
+      \n   U.S. War Department. The War of the Rebellion: A Compilation ofthe Official\
+      \ Records of the Union and Confederate Armies. 70 Volumes in 128. Washington,\
+      \ DC: The Government Printing Office, 1880-1901."
+    format: default
+    name: description
+    title: Battle summary
+    type: string
+  - description: '
+
+      A designation made by the Commission based on the level of historical significance,
+      the integrity of the remaining battlefield features, and the level of threat
+      to the battlefield''s existence. For example, IV.1 (Class D) means that the
+      Commission determined that a particular battlefield site was Priority IV: Fragmented
+      Battlefields, All Military Classes, Poor Integrity. (See Table 7, pages 49-53
+      in the Report on the Nation''s Civil War Battlefield, for the preservation priority
+      of all the battlefields studied.) Class A, B, C, or D indicates a battle''s
+      (and associated battlefield''s) level of military importance within its campaign
+      and the war. (See page v of this volume for an explanation of each of the four
+      designations.) N/D indicates that no data is currently available to determine
+      the levelof threat to the site.'
+    format: default
+    name: preservation
+    title: Preservation Priority
+    type: string
+  - constraints:
+      enum:
+      - A
+      - B
+      - C
+      - D
+    description: '
+
+      Four-category classification of the military significance of the battle.'
+    format: default
+    name: significance
+    title: Military significance
+    type: string
+  - constraints:
+      minimum: 0
+    description: Mean of the estimated strength in personnel of the force. See code
+      for how it is calculated.
+    format: default
+    name: strength_mean
+    sources:
+    - self
+    title: Strength (mean)
+    type: number
+  - constraints:
+      minimum: 0
+    description: Variance of the estimated strength in personnel of the force. See
+      code for how it is calculated.
+    format: default
+    name: strength_var
+    sources:
+    - self
+    title: Strength (variance)
+    type: number
+title: 'CWSAC Report battle data: battles'

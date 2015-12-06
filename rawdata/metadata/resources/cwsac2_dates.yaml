@@ -1,0 +1,33 @@
+description: ''
+format: csv
+name: cwsac2_dates
+path: data/cwsac2_dates.csv
+schema:
+  fields:
+  - constraints:
+      maxLength: 6
+      minLength: 5
+      pattern: '[A-Z]{2}[0-9]{3}[A-Z]?'
+    description: CWSAC battle identifier
+    format: default
+    name: battle
+    title: Battle
+    type: string
+  - constraints:
+      maximum: 2
+      minimum: 1
+    description: Spell number of the battle. Only one battle had non-contiguous dates,
+      and two spells.
+    format: default
+    name: spell
+    title: Spell
+    type: integer
+  - format: default
+    name: start_date
+    title: Start Date
+    type: date
+  - format: default
+    name: end_date
+    title: End Date
+    type: date
+title: 'CWSAC Report Updates battle data: battle dates'

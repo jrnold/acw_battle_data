@@ -30,8 +30,16 @@ update_cwsac <- function(x) {
 }
 
 build <- function(src, dst) {
-  fox_forces <- read_csv(file.path(src, "fox_forces.csv"))
-  fox_forces2 <- read_csv(file.path(src, "fox_forces2.csv"))
+  foxdir <- file.path(src, "rawdata", "fox1898")
+  fox_forces <- read_csv(file.path(foxdir, "fox_forces.csv")) %>%
+    select(belligerent, battle_name, start_date, end_date,
+           state, casualties, killed, wounded, missing, aggrow, cwsac_id) %>%
+    arrange(belligerent, battle_name)
+
+  fox_forces2 <- read_csv(file.path(foxdir, "fox_forces2.csv")) %>%
+    select(belligerent, battle_name, start_date, end_date,
+           state, casualties, killed, wounded, missing, cavalry, cwsac_id) %>%
+    arrange(belligerent, battle_name)
 
   fox_forces_to_cwsac <-
     (
@@ -50,13 +58,15 @@ build <- function(src, dst) {
       %>% group_by(belligerent, battle_name)
       %>% do(update_cwsac(.$cwsac_id))
     )
+  write_csv(fox_forces %>% select(- cwsac_id), file = file.path(dst, "fox_forces.csv"))
+  write_csv(fox_forces2 %>% select(- cwsac_id), file = file.path(dst, "fox_forces2.csv"))
   write_csv(fox_forces_to_cwsac, file = file.path(dst, "fox_forces_to_cwsac.csv"))
   write_csv(fox_forces2_to_cwsac, file = file.path(dst, "fox_forces2_to_cwsac.csv"))
 }
 
 copyfiles <- function(src, dst) {
   for (fn in c("fox_forces.csv", "fox_forces2.csv", "fox_outcomes.csv")) {
-    file.copy(file.path(src, fn), dst)
+    file.copy(file.path(src, "rawdata", "fox1898", fn), dst)
   }
 }
 

@@ -1,0 +1,49 @@
+description: ''
+format: csv
+name: bodart1908_commanders
+path: data/bodart1908_commanders.csv
+schema:
+  fields:
+  - format: default
+    name: battle_id
+    title: Battle Id.
+    type: string
+  - description: Country of the commander
+    format: default
+    name: country
+    title: Country
+    type: string
+  - description: Name of the commander
+    format: default
+    name: name
+    title: Name
+    type: string
+  - format: default
+    name: last_name
+    title: Last Name
+    type: string
+  - format: default
+    name: first_name
+    title: First Name
+    type: string
+  - format: default
+    name: middle_name
+    title: Middle Name
+    type: string
+  - format: default
+    name: suffix
+    title: Suffix
+    type: number
+  - description: rank of the commander
+    format: default
+    name: rank
+    title: Rank
+    type: string
+  - description: dbpedia.org URI of the commandern
+    format: url
+    name: dbpedia
+    sources:
+    - self
+    title: Dbpedia
+    type: string
+title: 'Bodart (1908) battle data: commanders'

@@ -1,0 +1,14 @@
+format: csv
+name: cwsac_preservation
+path: data/cwsac_preservation.csv
+schema:
+  fields:
+  - format: default
+    name: value
+    title: Value
+    type: string
+  - format: default
+    name: description
+    title: Description
+    type: string
+title: 'CWSAC Report Updates battle data: preservation prioritycategories'

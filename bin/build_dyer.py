@@ -72,18 +72,27 @@ RE_TOTAL = re.compile(r"total (\d+)", re.I)
 def regroup(regex, x):
     m = regex.search(x)
     if m:
-        return m.group(1)
+        return int(m.group(1))
 
 def parse_losses(x):
     x = spaces(remove_punct(x))
     d = {}
-    d['kwm'] = regroup(RE_KWM, x)
-    d['kw'] = regroup(RE_KW, x)
+    d['kwm'] = regroup(RE_TOTAL, x) or regroup(RE_KWM, x)
     d['k'] = regroup(RE_K, x)
     d['w'] = regroup(RE_W, x)
-    d['m'] = regroup(RE_M, x)
-    d['mp'] = regroup(RE_CM, x)
-    d['total'] = regroup(RE_TOTAL, x)
+    d['kw'] = regroup(RE_KW, x)
+    d['m'] = regroup(RE_M, x) or regroup(RE_CM, x)
+    if d['kwm']:
+        for i in ('k', 'w', 'm', 'kw'):
+            d[i] = d[i] or 0
+        if not d['k'] and not d['kw'] and not d['w'] and not d['m']:
+            d['k'] = d['kw'] = d['w'] = d['m'] = None
+    if d['kw'] and not d['k'] and not d['w']:
+        d['k'] = None
+        d['w'] = None
+    elif d['kw'] is not None and d['kw'] == 0:
+        if d['k'] or d['w']:
+            d['kw'] = d['k'] + d['w']
     return d
 
 def xml_to_csv(source, writer, engagement_types):
@@ -164,14 +173,12 @@ def xml_to_csv(source, writer, engagement_types):
                         'start_date' : startDate,
                         'end_date' : endDate,
                         'text' : text.strip(),
-                        'cas_k' : losses['k'],
-                        'cas_w' : losses['w'],
-                        'cas_m' : losses['m'],
-                        'cas_kw' : losses['kw'],
-                        'cas_mp' : losses['mp'],
-                        'cas_kwm' : losses['kwm'],
-                        'cas_total' : losses['total'],
-                        'text': text,
+                        'casualties' : losses['kwm'],
+                        'killed' : losses['k'],
+                        'wounded' : losses['w'],
+                        'killed_wounded' : losses['kw'],
+                        'missing_captured' : losses['m'],
+                        'text': text
                         }
                 writer.writerow(data)
                 nevent += 1
@@ -185,7 +192,7 @@ def load_engagement_types(filename):
     return data
 
 def build_engagements(src, dst):
-    header = ['battle',
+    header = ('battle',
               'event_type',
               'state',
               'year',
@@ -193,26 +200,18 @@ def build_engagements(src, dst):
               'start_date',
               'end_date',
               'text',
-              'cas_k',
-              'cas_w',
-              'cas_m',
-              'cas_kw',
-              'cas_mp',
-              'cas_kwm',
-              'cas_total'
-         ]
+              'casualties',
+              'killed',
+              'wounded',
+              'killed_wounded',
+              'missing_captured'
+         )
     xmlfile = os.path.join(src, "Perseus_text_2001.05.0140.xml")
     url = "http://www.perseus.tufts.edu/hopper/dltext?doc=Perseus%3Atext%3A2001.05.0140"
     dstfile = os.path.join(dst, "dyer_engagements.csv")
 
     engagement_types = load_engagement_types(os.path.join(src, 'engagement_types.csv'))
     
-    # if not os.path.exists(dstfile):
-    #     r = requests.get(url)
-    #     print(r)
-    #     with open(dstfile, 'w') as f:
-    #         f.write(r.text)
-
     with open(xmlfile, 'r') as src:
         with open(dstfile, "w") as dstf:
             writer = csv.DictWriter(dstf, header)
@@ -223,8 +222,9 @@ def copyfiles(src, dst):
     shutil.copy(os.path.join(src, 'dyer_to_cwsac.csv'), dst)
 
 def build(src, dst):
-    build_engagements(src, dst)
-    copyfiles(src, dst)
+    dyer_src = os.path.join(src, 'rawdata', 'dyer1908')
+    build_engagements(dyer_src, dst)
+    copyfiles(dyer_src, dst)
 
 def main():
     src, dst = sys.argv[1:3]

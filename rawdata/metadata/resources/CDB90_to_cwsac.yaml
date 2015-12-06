@@ -1,0 +1,26 @@
+format: csv
+name: CDB90_to_cwsac
+path: data/CDB90_to_cwsac.csv
+schema:
+  fields:
+  - description: CDB90 battle sequence number
+    format: default
+    name: isqno
+    title: isqno
+    type: integer
+  - format: default
+    name: cwsac_id
+    title: CWSAC Battle Id.
+    type: string
+  - constraints:
+      enum:
+      - <
+      - '>'
+      - '='
+    description: Relationship of the CDB90 battle to the CWSAC battle. They can be
+      the same, or one can be a subset of the other.
+    format: default
+    name: relation
+    title: relation
+    type: string
+title: CDB90 to CWSAC battle links

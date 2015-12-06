@@ -1,0 +1,73 @@
+format: csv
+name: bodart1908_battles
+path: data/bodart1908_battles.csv
+schema:
+  fields:
+  - format: default
+    name: battle_id
+    title: Battle Id
+    type: string
+  - description: Name of the battle (in German)
+    format: default
+    name: name
+    title: Battle Name
+    type: string
+  - description: Alternate names for the battle (in German)
+    format: default
+    name: other_name
+    title: Other Name
+    type: string
+  - format: default
+    name: start_date
+    title: Start Date
+    type: date
+  - format: default
+    name: end_date
+    title: End Date
+    type: date
+  - description: Location of the battle (in German)
+    format: default
+    name: location
+    title: Location
+    type: string
+  - description: '
+
+      Battle severity. Bodart classifies the severity of battles on a 5 point scale.'
+    format: default
+    name: order
+    title: Order
+    type: number
+  - description: Was the battle a siege ("Belagerung")?
+    format: default
+    name: siege
+    title: Siege
+    type: boolean
+  - description: Was the battle a major battle ("Schlacht")?
+    format: default
+    name: battle
+    title: Battle
+    type: boolean
+  - description: Was the battle a meeting or encounter ("Treffen")?
+    format: default
+    name: meeting
+    title: Meeting
+    type: boolean
+  - description: Was the battle a surrender ("Kapitulation")?
+    format: default
+    name: surrender
+    title: Surrender
+    type: boolean
+  - format: default
+    name: siege.1
+    title: siege.1
+    type: integer
+  - format: default
+    name: capture
+    title: Capture
+    type: integer
+  - description: Page number in Bodart (1908)
+    format: default
+    name: page
+    title: page
+    type: integer
+title: Bodart (1908) battles of the American Civil War

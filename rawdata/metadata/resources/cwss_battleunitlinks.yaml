@@ -1,0 +1,23 @@
+description: ''
+format: csv
+name: cwss_battleunitlinks
+path: data/cwss_battleunitlinks.csv
+schema:
+  fields:
+  - format: default
+    name: BattlefieldCode
+    title: BattlefieldCode
+    type: string
+  - format: default
+    name: Comment
+    title: Comment
+    type: string
+  - format: default
+    name: Source
+    title: Source
+    type: string
+  - format: default
+    name: UnitCode
+    title: UnitCode
+    type: string
+title: cwss_battleunitlinks
