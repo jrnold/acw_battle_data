@@ -5,6 +5,8 @@ livermore_battles
 :path: data/livermore_battles.csv
 :format: csv
 
+Livermore (1900) battle data
+
 Data from
 
     Thomas Leonard Livermore (1900) "Number and Losses in the Civil War

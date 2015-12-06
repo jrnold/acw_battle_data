@@ -1,36 +1,4 @@
-Phister (1883) Statistical Record of the Armies of the United States
-=======================================================================
-
-Data from Frederick Phister (1883) "Statistical Record of the Armies of the United States", 
-http://books.google.com/books?id=cVNHr_nnLlYC .
-
-Data on casualties is from the table "Loss in Engagements, Etc." on
-p. 213-219.
-
-The caption to the 
-
-   Where the total was 500 or more on the side of the Union Troops
-
-   Although the totals given here are generally based on official medical returns, 
-   the figures must not be taken as perfectly reliable, for in many instances the returns
-   were based on estimates, and the totals of losses were, by *later* and more reliable returns,
-   sometimes considerably reduced. Confederate losses are generally based on estimates.
-
-The table is disaggregated into battles and military forces.
-
-phi_battles
----------------
-
-.. include:: _tables/phi_battles.rst
-
-
-phi_forces
----------------
-
-.. include:: _tables/phi_battles.rst
-   
-phi_to_dbpedia
----------------
+Concordance between battles in ``phisterer_battles`` and CWSAC battle identifiers.
 
 Some notes on specific battles
 

@@ -44,7 +44,7 @@ cwsac_id
 :label: 
 :type: string
 :format: default 
-
+:constraints:
     
     
     
@@ -64,7 +64,7 @@ relation
 :label: 
 :type: string
 :format: default 
-
+:constraints:
     
     
     

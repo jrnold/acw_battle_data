@@ -125,7 +125,7 @@ state
 :label: 
 :type: string
 :format: default 
-
+:constraints:
     
     :minLength: 2 
     :maxLength: 2 
@@ -264,7 +264,7 @@ military
 :label: 
 :type: string
 :format: default 
-
+:constraints:
     
     
     
@@ -465,7 +465,7 @@ Military (Jim)
 :label: 
 :type: string
 :format: default 
-
+:constraints:
     
     
     
@@ -485,7 +485,7 @@ ed
 :label: 
 :type: string
 :format: default 
-
+:constraints:
     
     
     
@@ -505,7 +505,7 @@ bill
 :label: 
 :type: string
 :format: default 
-
+:constraints:
     
     
     

@@ -1,5 +1,4 @@
-Bodart (1908) "Militär-Historisches Kreigs-Lexicon (1618-1905)"
-===============================================================
+Bodart (1908) data on battles of the American Civil War
 
 These data are from Bodart (1908), "Militär-Historisches
 Kreigs-Lexicon (1618-1905)" for the 50 battles that are part of the
@@ -179,36 +178,10 @@ Final total category "Gesamtsumme der Kämpfe" ("total fights")
 - "die bedeutendsten niederlagen der Foo gegen die Bar" : "the most significant defeats of Foo against Bar"
 - "die größten Siege der Foo gegen die Bar" : "the biggest victories of Foo against Bar"
 
-
 Corrections
 
 - Bodart listed the date of the Battle of Ringgold as 1863-11-13 to 1863-11-25; I changed this to 
   1863-11-23 to 1863-11-25, the correct dates for this battle.
-
-bod_battles
-------------
-.. include:: _tables/bod_battles.rst
-
-This table contains battle attributes, such as dates and type of battle.
-
-bod_forces
------------
-
-.. include:: _tables/bod_forces.rst
-
-This table contains force sizes and casualties for each combatant in
-each battle.
-
-I have found that the strength values in Bodart tend to be higher in
-other sources. He seems to use the total size of the unit involved in
-that theater or operations, without considering which parts of that
-unit participated in a given battle.
-
-
-bod_to_dbpedia
-----------------
-
-.. include:: _tables/bod_forces.rst
 
 Several "battles" in Bodart are more like campaigns.
 

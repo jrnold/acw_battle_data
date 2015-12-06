@@ -25,7 +25,7 @@ Schema
 :label: {{ field.label }}
 :type: {{field.type }}
 {% if field.format %}:format: {{field.format}} {% endif %}
-{% if field.constraints is defined %}
+{% if field.constraints is defined %}:constraints:
     {% if "required" in field.constraints %}:required: {{field.constraints.required}} {% endif %}
     {% if "minLength" in field.constraints %}:minLength: {{field.constraints.minLength}} {% endif %}
     {% if "maxLength" in field.constraints %}:maxLength: {{field.constraints.maxLength}} {% endif %}

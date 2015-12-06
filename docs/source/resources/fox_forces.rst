@@ -56,7 +56,7 @@ belligerent
 :label: 
 :type: string
 :format: default 
-
+:constraints:
     
     
     
@@ -109,7 +109,7 @@ state
 :label: 
 :type: string
 :format: default 
-
+:constraints:
     
     :minLength: 2 
     :maxLength: 2 

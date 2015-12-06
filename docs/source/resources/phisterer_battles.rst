@@ -5,7 +5,9 @@ phisterer_battles
 :path: data/phisterer_battles.csv
 :format: csv
 
-Data from Phisterer, Frederick (1883) *Statistical Records of the Armies
+Phister (1883) battle
+
+Data from Data from Phisterer, Frederick (1883) *Statistical Records of the Armies
 of the United States* (`Google
 books <http://books.google.com/books?id=cVNHr_nnLlYC>`__).
 
@@ -14,12 +16,12 @@ the table "Loss in engagements, etc., where the total was five hundred
 or more on the side of the Union troops--(149)." on p. 213-219. The
 caption for the table reads:
 
-Although the losses here given are generally based on official medical
-returns, the figures must not be taken as perfectly reliable, for in
-many instances the returns were based on estimates, and the totals of
-losses were, by *later* and more reliable returns, sometimes
-considerably reduced. Confederate losses are generally based on
-estimates.
+    Although the losses here given are generally based on official
+    medical returns, the figures must not be taken as perfectly
+    reliable, for in many instances the returns were based on
+    estimates, and the totals of losses were, by *later* and more
+    reliable returns, sometimes considerably reduced. Confederate
+    losses are generally based on estimates.
 
 Some notes on specific battles
 

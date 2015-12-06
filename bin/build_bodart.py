@@ -233,7 +233,7 @@ def bodart_to_dbpedia(src, dst):
 def build(src, dst):
     filename = os.path.join(src, "bodart.yaml")
     battle_csv(filename, os.path.join(dst, "bodart1908_battles.csv"))
-    forces_csv(filename, os.path.join(dst, "bodart1909_forces.csv"))
+    forces_csv(filename, os.path.join(dst, "bodart1908_forces.csv"))
     commanders_csv(filename, os.path.join(dst, "bodart1908_commanders.csv"))
     generals_killed_csv(filename, os.path.join(dst, "bodart1908_generals_killed.csv"))
     bodart_to_cwsac(filename, os.path.join(dst, "bodart1908_to_dbpedia.csv"))

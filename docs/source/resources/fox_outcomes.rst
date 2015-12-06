@@ -71,7 +71,7 @@ victor
 :label: 
 :type: string
 :format: default 
-
+:constraints:
     
     
     
@@ -91,7 +91,7 @@ victory_type
 :label: 
 :type: string
 :format: default 
-
+:constraints:
     
     
     
@@ -122,7 +122,7 @@ state
 :label: 
 :type: string
 :format: default 
-
+:constraints:
     
     :minLength: 2 
     :maxLength: 2 
@@ -142,7 +142,7 @@ cwsac_id
 :label: 
 :type: string
 :format: default 
-
+:constraints:
     
     
     

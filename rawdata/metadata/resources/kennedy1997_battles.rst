@@ -1,3 +1,5 @@
+Kennedy (1997) battle data
+
 Data from
 
     Frances H. Kennedy and the Conservation Fund (1998) "The Civil War
@@ -19,6 +21,6 @@ a few differences:
    and VA020B into VA020.
 -  Kenndy VA112 "Battle of St. Mary's Chuch" is VA066 in CWSAC.
 
-Corrections
+Corrections to the casualty data:
 
 -  Kennedy inverted the casualties for US and CS forces for TX005.
