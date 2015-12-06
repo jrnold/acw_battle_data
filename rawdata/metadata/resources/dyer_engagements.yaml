@@ -1,4 +1,3 @@
-description: ''
 format: csv
 name: dyer_engagements
 path: data/dyer_engagements.csv
@@ -6,54 +5,64 @@ schema:
   fields:
   - format: default
     name: battle
-    title: battle
+    title: Battle
     type: integer
+    description: Number of the battle (identifier)
   - format: default
     name: event_type
-    title: event_type
+    title: Event type
     type: string
+    description: "Event type: action, skirmish, siege, etc"
   - format: default
     name: state
-    title: state
+    title: State
     type: string
+    description: State in which the event occurred.
   - format: default
     name: year
-    title: year
+    title: Year
     type: integer
+    description: Year of the event.
   - format: default
     name: battle_name
-    title: battle_name
+    title: Battle Name
     type: string
   - format: default
     name: start_date
-    title: start_date
-    type: string
+    title: Start Date
+    type: date
   - format: default
     name: end_date
-    title: end_date
-    type: string
+    title: End date
+    type: date
   - format: default
     name: text
-    title: text
+    title: Text
     type: string
+    description: Original text of the engagement, including the Union forces involved.
   - format: default
     name: casualties
-    title: casualties
-    type: number
+    title: Casualties
+    type: integer
+    description: Union casualties (killed, wounded, and missing or captured).
   - format: default
     name: killed
-    title: killed
-    type: number
+    title: Killed
+    type: integer
+    description: Union killed
   - format: default
     name: wounded
-    title: wounded
-    type: number
+    title: Wounded
+    type: integer
+    description: Union wounded
   - format: default
     name: killed_wounded
-    title: killed_wounded
+    title: Killed or Wounded
     type: number
+    description: Union killed or wounded
   - format: default
     name: missing_captured
-    title: missing_captured
+    title: Missing Captured
     type: number
-title: dyer_engagements
+    description: Union missing or captured
+title: Dyer (1908) list of battles with Union forces and casualties
