@@ -2,7 +2,6 @@
 import os
 from os import path
 import shutil
-import sys
 import subprocess as sp
 import argparse
 
@@ -151,15 +150,12 @@ def build(src, dst, docs):
            
 def main():
     parser = argparse.ArgumentParser(description = "Build the ACW battle data")
-    parser.add_argument('src', metavar='SRC',
-                        help = "source directory")
-    parser.add_argument('src', metavar='DST',
+    parser.add_argument('dst', metavar = 'DST', default = "data", nargs = '?',
                         help = "data build directory")
-    parser.add_argument('src', metavar='DOCS',
-                        help = "documentation directory")
+    args = parser.parse_args()
     src = "."
-    dst = sys.argv[1]
-    docs = sys.argv[2]
+    docs = path.join(src, "docs/source")
+    dst = args.dst
     build(src, dst, docs)
 
 if __name__ == "__main__":

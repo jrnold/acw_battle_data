@@ -1,4 +1,4 @@
-kennedy1997_battles
+Civil War Battlefield Guide data: battles
 ================================================================================
 
 :name: kennedy1997_battles
@@ -44,18 +44,27 @@ Schema
 battle
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: battle
+:title: Battle
 :type: string
 :format: default 
+:constraints:
+    
+    :minLength: 5 
+    :maxLength: 6 
+    
+    :pattern: [A-Z]{2}[0-9]{3}[A-Z]? 
+    
+    
+         
 
 
-
+CWSAC battle identifier
        
 
 name
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: name
+:title: Battle name
 :type: string
 :format: default 
 
@@ -69,6 +78,15 @@ state
 :title: state
 :type: string
 :format: default 
+:constraints:
+    
+    :minLength: 2 
+    :maxLength: 2 
+    
+    :pattern: [A-Z][A-Z] 
+    
+    
+         
 
 
 
@@ -82,14 +100,14 @@ county
 :format: default 
 
 
-
+Counties in which the battle took place.
        
 
 start_date
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: start_date
-:type: string
+:title: Start Date
+:type: date
 :format: default 
 
 
@@ -99,8 +117,8 @@ start_date
 end_date
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: end_date
-:type: string
+:title: End Date
+:type: date
 :format: default 
 
 
@@ -110,41 +128,50 @@ end_date
 casualties_min
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: casualties_min
-:type: number
+:title: Casualties (min)
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
-
+Total casualties (killed, wounded, and missing or captured) for both sides, minimum value. For a few battles a total casualty value is given, while no disaggregated casualties are provided.
+This source only gives a range for a few battles. For battles where no range is given, the mimimum and maximum are set to the same value.
        
 
 casualties_max
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: casualties_max
-:type: number
+:title: Casualties (max)
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
 
+Total casualties (killed, wounded, and missing or captured) for both sides, maximum value.
        
 
 casualties_text
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: casualties_text
+:title: Casualties
 :type: string
-:format: default 
-
-
-
-       
-
-missing
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-:title: missing
-:type: number
 :format: default 
 
 

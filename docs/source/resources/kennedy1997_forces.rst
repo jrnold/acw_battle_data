@@ -1,4 +1,4 @@
-kennedy1997_forces
+Civil War Battlefield Guide data: forces
 ================================================================================
 
 :name: kennedy1997_forces
@@ -22,12 +22,21 @@ Schema
 battle
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: battle
+:title: Battle
 :type: string
 :format: default 
+:constraints:
+    
+    :minLength: 5 
+    :maxLength: 6 
+    
+    :pattern: [A-Z]{2}[0-9]{3}[A-Z]? 
+    
+    
+         
 
 
-
+CWSAC battle identifier
        
 
 belligerent
@@ -36,6 +45,15 @@ belligerent
 :title: belligerent
 :type: string
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    
+    
+    :enum: ['US', 'Confederate', 'Native American']      
 
 
 
@@ -44,42 +62,79 @@ belligerent
 casualties_min
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: casualties_min
-:type: number
+:title: Casualties (min)
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
-
+Casualties (killed, wounded, and missing or captured), minimum value.
+This source only gives a range for a few battles. For battles where no range is given, the mimimum and maximum are set to the same value.
        
 
 casualties_max
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: casualties_max
-:type: number
+:title: Casualties (max)
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
-
+Casualties (killed, wounded, and missing or captured), maximum value.      
        
 
 killed_wounded_min
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: killed_wounded_min
-:type: number
+:title: Killed or Wounded (min)
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
-
+This source only gives a range for a few battles. For battles where no range is given, the mimimum and maximum are set to the same value.
        
 
 killed_wounded_max
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: killed_wounded_max
-:type: number
+:title: Killed or Wounded (max)
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
 
@@ -88,9 +143,18 @@ killed_wounded_max
 missing
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: missing
-:type: number
+:title: Missing or captured
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
 

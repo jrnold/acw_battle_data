@@ -1,10 +1,13 @@
-livermore_commanders
+Livermore (1900) battle data: commanders
 ================================================================================
 
 :name: livermore_commanders
 :path: data/livermore_commanders.csv
 :format: csv
 
+Principal commanders of the battles listed in Livermore (1900) *Numbers and Losses in the Civil War in America*.
+
+Livermore does not directly list the principal commander of the battles. These were added for this data. They primarily follow the principal commanders for each battle given by the CWSAC (:doc:`cwsac_commanders`).
 
 
 
@@ -18,7 +21,7 @@ Schema
 seq_no
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: seq_no
+:title: Battle number
 :type: integer
 :format: default 
 
@@ -32,6 +35,15 @@ belligerent
 :title: belligerent
 :type: string
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    
+    
+    :enum: ['US', 'Confederate']      
 
 
 
@@ -42,16 +54,16 @@ PersonID
 
 :title: PersonID
 :type: string
-:format: default 
+:format: uuid 
 
 
-
+CWSS PersonID of the commander. See :doc:`cwss_persons`.
        
 
 last_name
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: last_name
+:title: Last Name
 :type: string
 :format: default 
 
@@ -62,7 +74,7 @@ last_name
 first_name
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: first_name
+:title: First Name
 :type: string
 :format: default 
 
@@ -73,7 +85,7 @@ first_name
 middle_name
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: middle_name
+:title: Middle Name
 :type: string
 :format: default 
 
@@ -84,7 +96,7 @@ middle_name
 middle_initial
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: middle_initial
+:title: Middle Initial
 :type: string
 :format: default 
 
@@ -95,7 +107,7 @@ middle_initial
 rank
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: rank
+:title: Rank
 :type: string
 :format: default 
 
@@ -107,7 +119,7 @@ navy
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 :title: navy
-:type: integer
+:type: Was the commander in the navy?
 :format: default 
 
 

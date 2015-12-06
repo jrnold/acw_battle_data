@@ -1,4 +1,4 @@
-clodfelter_forces
+Clodfelter (2008) battle data: forces
 ================================================================================
 
 :name: clodfelter_forces
@@ -18,7 +18,7 @@ Schema
 battle
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: battle
+:title: Battle
 :type: string
 :format: default 
 
@@ -29,9 +29,18 @@ battle
 belligerent
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: belligerent
+:title: Belligerent
 :type: string
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    
+    
+    :enum: ['US', 'Confederate']      
 
 
 
@@ -40,119 +49,218 @@ belligerent
 strength
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: strength
-:type: number
+:title: Strength
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
-
+Total number of personnel in the battle
        
 
 infantry
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: infantry
-:type: number
+:title: Infantry personnel
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
-
+Total number of infantry in the battle
        
 
 cavalry
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: cavalry
-:type: number
+:title: Cavalry personnel
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
-
+Total number of cavalry in the battle
        
 
 crewmen
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: crewmen
-:type: number
+:title: Crewmen
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
-
+Total number of naval crew in the battle
        
 
 corps
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 :title: corps
-:type: number
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
-
+Number of corps in the battle
        
 
 cavalry_corps
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: cavalry_corps
-:type: number
+:title: Cavalry Corps
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
-
+Number of cavalry corps in the battle
        
 
 divisions
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: divisions
-:type: number
+:title: Divisions
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
-
+Number of divisions in the battle
        
 
 cavalry_divisions
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: cavalry_divisions
-:type: number
+:title: Cavalry Divisions
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
-
+Number of cavalry divisions in the battle
        
 
 brigades
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: brigades
-:type: number
+:title: Brigades
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
-
+Number of brigades in the battle
        
 
 companies
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: companies
-:type: number
+:title: Companies
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
-
+Number of companies in the battle
        
 
 frigates
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 :title: frigates
-:type: number
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
 
@@ -161,9 +269,18 @@ frigates
 gunboats
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: gunboats
-:type: number
+:title: Gunboats
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
 
@@ -172,9 +289,18 @@ gunboats
 ironclads
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: ironclads
-:type: number
+:title: Ironclads
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
 
@@ -183,9 +309,18 @@ ironclads
 sloops
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: sloops
-:type: number
+:title: Sloops
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
 
@@ -194,9 +329,18 @@ sloops
 steamers
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: steamers
-:type: number
+:title: Steamers
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
 
@@ -205,9 +349,18 @@ steamers
 warships_and_transports
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: warships_and_transports
-:type: number
+:title: Warships and Transports
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
 
@@ -216,9 +369,18 @@ warships_and_transports
 warships
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: warships
-:type: number
+:title: Warships
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
 
@@ -227,9 +389,18 @@ warships
 wooden_warships
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: wooden_warships
-:type: number
+:title: Wooden Warships
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
 
@@ -238,31 +409,58 @@ wooden_warships
 guns
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: guns
-:type: number
+:title: Guns
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
-
+Number of artillery pieces
        
 
 casualties
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: casualties
-:type: number
+:title: Casualties
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
-
+Casualties (killed, wounded, and missing or captured)
        
 
 captured
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: captured
-:type: number
+:title: Captured
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
 
@@ -271,9 +469,18 @@ captured
 killed
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: killed
-:type: number
+:title: Killed
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
 
@@ -282,9 +489,18 @@ killed
 wounded
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: wounded
-:type: number
+:title: Wounded
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
 
@@ -293,9 +509,18 @@ wounded
 missing
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: missing
-:type: number
+:title: Missing
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
 
@@ -304,9 +529,18 @@ missing
 killed_wounded
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: killed_wounded
-:type: number
+:title: Killed or Wounded
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
 
@@ -315,9 +549,18 @@ killed_wounded
 killed_missing
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: killed_missing
-:type: number
+:title: Killed or Missing
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
 
@@ -326,9 +569,18 @@ killed_missing
 missing_captured
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: missing_captured
-:type: number
+:title: Missing or Captured
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
 
@@ -337,9 +589,18 @@ missing_captured
 wounded_missing
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: wounded_missing
-:type: number
+:title: Wounded or Missing
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
 
@@ -348,128 +609,187 @@ wounded_missing
 guns_lost
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: guns_lost
-:type: number
+:title: Guns Lost
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
-
-       
-
-guns_captured
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-:title: guns_captured
-:type: number
-:format: default 
-
-
-
+Number of guns (artillery pieces) captured by the opponent.
        
 
 small_arms_lost
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: small_arms_lost
-:type: number
+:title: Small Arms Lost
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
-
-       
-
-small_arms_captured
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-:title: small_arms_captured
-:type: number
-:format: default 
-
-
-
+Number of small arms captured by the opponent.
        
 
 warships_sunk
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: warships_sunk
-:type: number
+:title: Warships Sunk
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
-
+Number of warships sunk by the opponent.
        
 
 warships_damaged
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: warships_damaged
-:type: number
+:title: Warships Damaged
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
-
+Number of warships damaged by the opponent.
        
 
 gunboats_sunk
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: gunboats_sunk
-:type: number
+:title: Gunboats Sunk
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
-
+Number of gunboats sunk by the opponent.
        
 
 gunboats_captured
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: gunboats_captured
-:type: number
+:title: Gunboats Captured
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
-
+Number of gunboats captured by the opponent.
        
 
 ironclads_sunk
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: ironclads_sunk
-:type: number
+:title: Ironclads Sunk
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
-
+Number of ironclads sunk by the opponent.
        
 
 ironclads_captured
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: ironclads_captured
-:type: number
+:title: Ironclads Captured
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
-
+Number of ironclads captured by the opponent.
        
 
 forts_captured
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: forts_captured
-:type: number
+:title: Forts Captured
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
-
+Number of forts captured by the opponent.
        
 
 note
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: note
+:title: Note
 :type: string
 :format: default 
 
@@ -480,22 +800,40 @@ note
 str_mean
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: str_mean
+:title: Strength (mean)
 :type: number
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
-
+Mean of the estimated strength in personnel of the force. See code for how it is calculated.
        
 
 str_var
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: str_var
+:title: Strength (variance)
 :type: number
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
-
+Variance of the estimated strength in personnel of the force. See code for how it is calculated.
        
 

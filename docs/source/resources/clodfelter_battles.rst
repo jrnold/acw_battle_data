@@ -1,4 +1,4 @@
-clodfelter_battles
+Clodfelter (2008) battle data: battles
 ================================================================================
 
 :name: clodfelter_battles
@@ -33,18 +33,18 @@ Schema
 battle
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: battle
+:title: Battle
 :type: string
 :format: default 
 
 
-
+Battle name
        
 
 theater
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: theater
+:title: Theater
 :type: string
 :format: default 
 
@@ -55,8 +55,8 @@ theater
 start_date
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: start_date
-:type: string
+:title: Start date
+:type: date
 :format: default 
 
 
@@ -66,8 +66,8 @@ start_date
 end_date
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: end_date
-:type: string
+:title: End Date
+:type: date
 :format: default 
 
 
@@ -77,22 +77,32 @@ end_date
 page
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: page
+:title: Page
 :type: integer
 :format: default 
 
 
-
+Page number in Clodfelter (2008)
        
 
 result
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: result
+:title: Result
 :type: string
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    
+    
+    :enum: ['Union', 'Confederate', 'Indecisive']      
 
 
-
+Result of the battle: Union victory, Confederate victory or tie.
+Clodfelter does not classify battles by result. This variable was added. The classifications follow CWSAC (:doc:`cwsac_battles`) where available.
        
 

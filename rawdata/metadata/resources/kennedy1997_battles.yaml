@@ -17,19 +17,19 @@ schema:
     name: name
     title: Battle name
     type: string
-  - format: default
+  - constraints:
+      maxLength: 2
+      minLength: 2
+      pattern: '[A-Z][A-Z]'
+    format: default
     name: state
     title: state
     type: string
-    constraints:
-      minLength: 2
-      maxLength: 2
-      pattern: "[A-Z][A-Z]"
-  - format: default
+  - description: Counties in which the battle took place.
+    format: default
     name: county
     title: county
     type: string
-    description: Counties in which the battle took place.
   - format: default
     name: start_date
     title: Start Date
@@ -38,29 +38,30 @@ schema:
     name: end_date
     title: End Date
     type: date
-  - format: default
+  - constraints:
+      minimum: 0
+    description: 'Total casualties (killed, wounded, and missing or captured) for
+      both sides, minimum value. For a few battles a total casualty value is given,
+      while no disaggregated casualties are provided.
+
+      This source only gives a range for a few battles. For battles where no range
+      is given, the mimimum and maximum are set to the same value.'
+    format: default
     name: casualties_min
     title: Casualties (min)
     type: integer
-    constraints:
+  - constraints:
       minimum: 0
-    description: >-
-      Total casualties (killed, wounded, and missing or captured) for both sides, minimum value. For a few battles a total casualty value is given, while no disaggregated casualties are provided.
+    description: '
 
-      This source only gives a range for a few battles. For battles where no range is given, the mimimum and maximum are set to the same value.
-      
-  - format: default
+      Total casualties (killed, wounded, and missing or captured) for both sides,
+      maximum value.'
+    format: default
     name: casualties_max
     title: Casualties (max)
     type: integer
-    constraints:
-      minimum: 0
-    description: >-
-      
-      Total casualties (killed, wounded, and missing or captured) for both sides, maximum value.
-    
   - format: default
     name: casualties_text
     title: Casualties
     type: string
-title: "Civil War Battlefield Guide data: battles"
+title: 'Civil War Battlefield Guide data: battles'

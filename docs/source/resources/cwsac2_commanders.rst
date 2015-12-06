@@ -1,4 +1,4 @@
-cwsac2_commanders
+CWSAC Report Updates: commanders
 ================================================================================
 
 :name: cwsac2_commanders
@@ -18,12 +18,21 @@ Schema
 battle
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: battle
+:title: Battle
 :type: string
 :format: default 
+:constraints:
+    
+    :minLength: 5 
+    :maxLength: 6 
+    
+    :pattern: [A-Z]{2}[0-9]{3}[A-Z]? 
+    
+    
+         
 
 
-
+CWSAC battle identifier
        
 
 belligerent
@@ -32,6 +41,15 @@ belligerent
 :title: belligerent
 :type: string
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    
+    
+    :enum: ['US', 'Confederate', 'Native American']      
 
 
 
@@ -40,7 +58,7 @@ belligerent
 fullname
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: fullname
+:title: Full name
 :type: string
 :format: default 
 
@@ -51,18 +69,18 @@ fullname
 rank
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: rank
+:title: Rank
 :type: string
 :format: default 
 
 
-
+Rank of the commander at the time of the battle
        
 
 last_name
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: last_name
+:title: Last Name
 :type: string
 :format: default 
 
@@ -73,7 +91,7 @@ last_name
 first_name
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: first_name
+:title: First Name
 :type: string
 :format: default 
 
@@ -84,7 +102,7 @@ first_name
 middle_name
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: middle_name
+:title: Middle Name
 :type: string
 :format: default 
 
@@ -95,7 +113,7 @@ middle_name
 suffix
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: suffix
+:title: Suffix
 :type: string
 :format: default 
 

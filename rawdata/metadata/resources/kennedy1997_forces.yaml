@@ -13,52 +13,50 @@ schema:
     name: battle
     title: Battle
     type: string
-  - format: default
+  - constraints:
+      enum:
+      - US
+      - Confederate
+      - Native American
+    format: default
     name: belligerent
     title: belligerent
     type: string
-    constraints:
-      enum:
-        - US
-        - Confederate
-        - Native American
-  - format: default
+  - constraints:
+      minimum: 0
+    description: 'Casualties (killed, wounded, and missing or captured), minimum value.
+
+      This source only gives a range for a few battles. For battles where no range
+      is given, the mimimum and maximum are set to the same value.'
+    format: default
     name: casualties_min
     title: Casualties (min)
     type: integer
-    constraints:
+  - constraints:
       minimum: 0
-    description: >-
-      Casualties (killed, wounded, and missing or captured), minimum value.
-
-      This source only gives a range for a few battles. For battles where no range is given, the mimimum and maximum are set to the same value.
-  - format: default
+    description: 'Casualties (killed, wounded, and missing or captured), maximum value.      '
+    format: default
     name: casualties_max
     title: Casualties (max)
     type: integer
-    constraints:
+  - constraints:
       minimum: 0
-    description: >-
-      Casualties (killed, wounded, and missing or captured), maximum value.      
-  - format: default
+    description: This source only gives a range for a few battles. For battles where
+      no range is given, the mimimum and maximum are set to the same value.
+    format: default
     name: killed_wounded_min
     title: Killed or Wounded (min)
     type: integer
-    constraints:
+  - constraints:
       minimum: 0
-    description: >-
-      This source only gives a range for a few battles. For battles where no range is given, the mimimum and maximum are set to the same value.
-
-  - format: default
+    format: default
     name: killed_wounded_max
     title: Killed or Wounded (max)
     type: integer
-    constraints:
+  - constraints:
       minimum: 0
-  - format: default
+    format: default
     name: missing
     title: Missing or captured
     type: integer
-    constraints:
-      minimum: 0
-title: "Civil War Battlefield Guide data: forces"
+title: 'Civil War Battlefield Guide data: forces'

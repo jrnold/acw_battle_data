@@ -1,17 +1,35 @@
 # American Civil War Battle Data
 
-This project contains various data
+This project contains various data on the American Civil War.
+See the documentation at https://readthedocs.org/projects/acw-battle-data
 
-See documentation https://readthedocs.org/projects/acw-battle-data
+## Build
 
-## Install
-
-To build
-
+In the root directory of the project run,
 ```shell
-$ python build.py . data
+$ python build.py
 ```
+This will build the data in the directory, ``data``.
 
+## Prerequesites
+
+- Python 3
+    - jinja2
+    - lxml
+    - nameparser
+    - pandas
+    - pyparsing
+    - requests
+    - sphinx
+    - yaml
+- R
+    - **dplyr**
+    - **jsonlite**
+    - **magrittr**
+    - **pander**
+    - **stringr**
+    - **tidyr**
+- pdflatex
 
 ## Licenses
 

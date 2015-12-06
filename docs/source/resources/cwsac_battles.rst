@@ -106,9 +106,6 @@ in http://en.wikipedia.org/wiki/Chattanooga_Campaign:
 http://en.wikipedia.org/wiki/Battle_of_Lookout_Mountain on Nov 24, and
 the http://en.wikipedia.org/wiki/Battle_of_Missionary_Ridge on Nov 25.
 
-Charleston Harbor Battles
-++++++++++++++++++++++++++++++
-
 The set of battles around Charleston Harbor July to September 1863 is confusingly
 and ambiguously defined by the CWSAC. 
 
@@ -211,8 +208,8 @@ It seems that the battles break down into the following periods
 
 Thus, confusingly:
 
-- SC009: Charleston Harbor is the `Second Battle of Fort Sumter <http://en.wikipedia.org/wiki/Second_Battle_of_Fort_Sumter>`_ .
-- SC008: Fort Sumter is the  `Second Battle of Charleston Harbor <http://en.wikipedia.org/wiki/Second_Battle_of_Charleston_Harbor>`_ .
+- SC009: Charleston Harbor is the `Second Battle of Fort Sumter <http://en.wikipedia.org/wiki/Second_Battle_of_Fort_Sumter>`__ .
+- SC008: Fort Sumter is the  `Second Battle of Charleston Harbor <http://en.wikipedia.org/wiki/Second_Battle_of_Charleston_Harbor>`__ .
 
 
 

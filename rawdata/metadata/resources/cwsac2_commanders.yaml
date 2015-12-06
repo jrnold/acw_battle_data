@@ -25,12 +25,11 @@ schema:
     name: fullname
     title: Full name
     type: string
-  - format: default
+  - description: Rank of the commander at the time of the battle
+    format: default
     name: rank
     title: Rank
     type: string
-    description: >-
-      Rank of the commander at the time of the battle
   - format: default
     name: last_name
     title: Last Name
@@ -47,4 +46,4 @@ schema:
     name: suffix
     title: Suffix
     type: string
-title: "CWSAC Report Updates: commanders"
+title: 'CWSAC Report Updates: commanders'
