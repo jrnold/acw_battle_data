@@ -30,8 +30,17 @@ update_cwsac <- function(x) {
 }
 
 build <- function(src, dst) {
-  fox_forces <- read_csv(file.path(src, "fox_forces.csv"))
-  fox_forces2 <- read_csv(file.path(src, "fox_forces2.csv"))
+  fox_forces <- read_csv(file.path(src, "fox_forces.csv")) %>%
+    select(- cwsac_id) %>%
+    select(belligerent, battle_name, start_date, end_date,
+           state, casualties, killed, wounded, missing, cavalry) %>%
+    arrange(belligerent, battle_name)
+
+  fox_forces2 <- read_csv(file.path(src, "fox_forces2.csv")) %>%
+    select(- cwsac_id) %>%
+    select(belligerent, battle_name, start_date, end_date,
+           state, casualties, killed, wounded, missing, cavalry) %>%
+    arrange(belligerent, battle_name)
 
   fox_forces_to_cwsac <-
     (
