@@ -18,7 +18,7 @@ Schema
 date
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: date
 :type: string
 :format: default 
 
@@ -29,7 +29,7 @@ date
 No. on Union Rolls
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: No. on Union Rolls
 :type: integer
 :format: default 
 
@@ -40,7 +40,7 @@ No. on Union Rolls
 Average
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: Average
 :type: number
 :format: default 
 
@@ -51,7 +51,7 @@ Average
 No. on Confederate Returns
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: No. on Confederate Returns
 :type: integer
 :format: default 
 
@@ -62,7 +62,7 @@ No. on Confederate Returns
 Average.1
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: Average.1
 :type: number
 :format: default 
 
@@ -73,7 +73,7 @@ Average.1
 Per cent.
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: Per cent.
 :type: number
 :format: default 
 

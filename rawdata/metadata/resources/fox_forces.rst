@@ -7,8 +7,6 @@ Washington*, available from `Perseus <http://www.perseus.tufts.edu/hopper/text?d
 The data on casualties come from the main table in "Chapter 14: the greatest battles of the war — list of victories and defeats — chronological list of battles with loss in each, Union and Confederate", p. 544-551.
 The accompanying description reads
 
-::
-
     There were 112 battles in the war, in which one side or the other
     lost over 500 in killed and wounded. In all, there were 1,882
     general engagements, battles, skirmishes, or affairs in which at

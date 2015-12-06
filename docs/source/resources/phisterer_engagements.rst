@@ -45,7 +45,7 @@ Schema
 id
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: id
 :type: integer
 :format: default 
 
@@ -56,7 +56,7 @@ id
 start_date
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: start_date
 :type: string
 :format: default 
 
@@ -67,7 +67,7 @@ start_date
 end_date
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: end_date
 :type: string
 :format: default 
 
@@ -78,7 +78,7 @@ end_date
 monthonly
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: monthonly
 :type: boolean
 :format: default 
 
@@ -89,7 +89,7 @@ monthonly
 location
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: location
 :type: string
 :format: default 
 
@@ -100,7 +100,7 @@ location
 state
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: state
 :type: string
 :format: default 
 
@@ -111,7 +111,7 @@ state
 description
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: description
 :type: string
 :format: default 
 

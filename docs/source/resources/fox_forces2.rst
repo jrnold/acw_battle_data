@@ -51,14 +51,14 @@ See :doc:`fox_forces` for more detail on the Fox data.
 Schema
 -------
 
-:Primary Key:['belligerent', 'battle_name']
+:Primary Key: ['belligerent', 'battle_name']
 
 
 
 belligerent
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: belligerent
 :type: string
 :format: default 
 :constraints:
@@ -78,7 +78,7 @@ belligerent
 battle_name
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: Battle name
 :type: string
 :format: default 
 
@@ -89,7 +89,7 @@ battle_name
 start_date
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: start_date
 :type: date
 :format: default 
 
@@ -100,7 +100,7 @@ Start date of the battle
 end_date
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: end_date
 :type: date
 :format: default 
 
@@ -111,7 +111,7 @@ End date of the battle
 state
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: State
 :type: string
 :format: default 
 :constraints:
@@ -131,7 +131,7 @@ State in which the battle took place.
 casualties
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: casualties
 :type: integer
 :format: default 
 
@@ -142,7 +142,7 @@ Number of casualties (killed, wounded, and missing)
 killed
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: Killed
 :type: integer
 :format: default 
 
@@ -153,7 +153,7 @@ Number killed
 wounded
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: wounded
 :type: integer
 :format: default 
 
@@ -164,7 +164,7 @@ Number wounded
 missing
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: missing
 :type: integer
 :format: default 
 
@@ -175,7 +175,7 @@ Number missing
 cavalry
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: cavalry
 :type: boolean
 :format: default 
 

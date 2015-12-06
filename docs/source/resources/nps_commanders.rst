@@ -18,7 +18,7 @@ Schema
 cwsac_id
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: cwsac_id
 :type: string
 :format: default 
 
@@ -29,7 +29,7 @@ cwsac_id
 belligerent
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: belligerent
 :type: string
 :format: default 
 
@@ -40,7 +40,7 @@ belligerent
 commander_number
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: commander_number
 :type: integer
 :format: default 
 
@@ -51,7 +51,7 @@ commander_number
 PersonID
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: PersonID
 :type: string
 :format: default 
 
@@ -62,7 +62,7 @@ PersonID
 last_name
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: last_name
 :type: string
 :format: default 
 
@@ -73,7 +73,7 @@ last_name
 first_name
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: first_name
 :type: string
 :format: default 
 
@@ -84,7 +84,7 @@ first_name
 middle_name
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: middle_name
 :type: string
 :format: default 
 
@@ -95,7 +95,7 @@ middle_name
 middle_initial
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: middle_initial
 :type: string
 :format: default 
 
@@ -106,7 +106,7 @@ middle_initial
 rank
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: rank
 :type: string
 :format: default 
 
@@ -117,7 +117,7 @@ rank
 navy
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: navy
 :type: number
 :format: default 
 

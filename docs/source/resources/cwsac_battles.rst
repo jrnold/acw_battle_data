@@ -227,7 +227,7 @@ Schema
 battle
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: battle
 :type: string
 :format: default 
 
@@ -238,7 +238,7 @@ battle
 url
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: url
 :type: string
 :format: default 
 
@@ -249,7 +249,7 @@ url
 battle_name
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: battle_name
 :type: string
 :format: default 
 
@@ -260,7 +260,7 @@ battle_name
 other_names
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: other_names
 :type: string
 :format: default 
 
@@ -271,7 +271,7 @@ other_names
 state
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: state
 :type: string
 :format: default 
 
@@ -282,7 +282,7 @@ state
 locations
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: locations
 :type: string
 :format: default 
 
@@ -293,7 +293,7 @@ locations
 campaign
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: campaign
 :type: string
 :format: default 
 
@@ -304,7 +304,7 @@ campaign
 start_date
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: start_date
 :type: string
 :format: default 
 
@@ -315,7 +315,7 @@ start_date
 end_date
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: end_date
 :type: string
 :format: default 
 
@@ -326,7 +326,7 @@ end_date
 operation
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: operation
 :type: integer
 :format: default 
 
@@ -337,7 +337,7 @@ operation
 assoc_battles
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: assoc_battles
 :type: string
 :format: default 
 
@@ -348,7 +348,7 @@ assoc_battles
 results_text
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: results_text
 :type: string
 :format: default 
 
@@ -359,7 +359,7 @@ results_text
 result
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: result
 :type: string
 :format: default 
 
@@ -370,7 +370,7 @@ result
 forces_text
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: forces_text
 :type: string
 :format: default 
 
@@ -381,7 +381,7 @@ forces_text
 strength
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: strength
 :type: number
 :format: default 
 
@@ -392,7 +392,7 @@ strength
 casualties_text
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: casualties_text
 :type: string
 :format: default 
 
@@ -403,7 +403,7 @@ casualties_text
 casualties
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: casualties
 :type: number
 :format: default 
 
@@ -414,7 +414,7 @@ casualties
 description
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: description
 :type: string
 :format: default 
 
@@ -425,7 +425,7 @@ description
 preservation
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: preservation
 :type: string
 :format: default 
 
@@ -436,7 +436,7 @@ preservation
 significance
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: significance
 :type: string
 :format: default 
 
@@ -447,7 +447,7 @@ significance
 strength_mean
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: strength_mean
 :type: number
 :format: default 
 
@@ -458,7 +458,7 @@ strength_mean
 strength_var
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: strength_var
 :type: number
 :format: default 
 

@@ -18,7 +18,7 @@ Schema
 BattlefieldCode
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: BattlefieldCode
 :type: string
 :format: default 
 
@@ -29,7 +29,7 @@ BattlefieldCode
 Comment
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: Comment
 :type: string
 :format: default 
 
@@ -40,7 +40,7 @@ Comment
 Source
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: Source
 :type: string
 :format: default 
 
@@ -51,7 +51,7 @@ Source
 UnitCode
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: UnitCode
 :type: string
 :format: default 
 

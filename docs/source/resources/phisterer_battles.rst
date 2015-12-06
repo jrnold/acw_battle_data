@@ -64,7 +64,7 @@ Schema
 battle
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: battle
 :type: integer
 :format: default 
 
@@ -75,7 +75,7 @@ battle
 battle_name
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: battle_name
 :type: string
 :format: default 
 
@@ -86,7 +86,7 @@ battle_name
 state
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: state
 :type: string
 :format: default 
 
@@ -97,7 +97,7 @@ state
 start_date
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: start_date
 :type: string
 :format: default 
 
@@ -108,7 +108,7 @@ start_date
 end_date
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: end_date
 :type: string
 :format: default 
 
@@ -119,7 +119,7 @@ end_date
 surrender
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: surrender
 :type: integer
 :format: default 
 
@@ -130,7 +130,7 @@ surrender
 campaign
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: campaign
 :type: integer
 :format: default 
 
@@ -141,7 +141,7 @@ campaign
 page
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: page
 :type: integer
 :format: default 
 

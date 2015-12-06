@@ -18,7 +18,7 @@ Schema
 BattlefieldCode
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: BattlefieldCode
 :type: string
 :format: default 
 
@@ -29,7 +29,7 @@ BattlefieldCode
 belligerent
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: belligerent
 :type: string
 :format: default 
 
@@ -40,7 +40,7 @@ belligerent
 TroopsEngaged
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: TroopsEngaged
 :type: number
 :format: default 
 
@@ -51,7 +51,7 @@ TroopsEngaged
 Casualties
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: Casualties
 :type: number
 :format: default 
 

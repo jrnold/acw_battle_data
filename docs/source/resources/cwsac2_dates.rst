@@ -18,7 +18,7 @@ Schema
 battle
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: battle
 :type: string
 :format: default 
 
@@ -29,7 +29,7 @@ battle
 spell
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: spell
 :type: integer
 :format: default 
 
@@ -40,7 +40,7 @@ spell
 start_date
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: start_date
 :type: string
 :format: default 
 
@@ -51,7 +51,7 @@ start_date
 end_date
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: end_date
 :type: string
 :format: default 
 

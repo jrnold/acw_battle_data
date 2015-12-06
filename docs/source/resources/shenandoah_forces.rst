@@ -18,7 +18,7 @@ Schema
 battle_number
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: battle_number
 :type: integer
 :format: default 
 
@@ -29,7 +29,7 @@ battle_number
 cwsac_id
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: cwsac_id
 :type: string
 :format: default 
 
@@ -40,7 +40,7 @@ cwsac_id
 belligerent
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: belligerent
 :type: string
 :format: default 
 
@@ -51,7 +51,7 @@ belligerent
 description
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: description
 :type: string
 :format: default 
 
@@ -62,7 +62,7 @@ description
 strength_min
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: strength_min
 :type: integer
 :format: default 
 
@@ -73,7 +73,7 @@ strength_min
 strength_max
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: strength_max
 :type: integer
 :format: default 
 
@@ -84,7 +84,7 @@ strength_max
 casualties_text
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: casualties_text
 :type: string
 :format: default 
 
@@ -95,7 +95,7 @@ casualties_text
 casualties
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: casualties
 :type: integer
 :format: default 
 
@@ -106,7 +106,7 @@ casualties
 killed
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: killed
 :type: number
 :format: default 
 
@@ -117,7 +117,7 @@ killed
 wounded
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: wounded
 :type: number
 :format: default 
 
@@ -128,7 +128,7 @@ wounded
 missing_captured
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: missing_captured
 :type: number
 :format: default 
 

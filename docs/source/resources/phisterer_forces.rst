@@ -23,7 +23,7 @@ Schema
 battle
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: battle
 :type: integer
 :format: default 
 
@@ -34,7 +34,7 @@ battle
 belligerent
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: belligerent
 :type: string
 :format: default 
 
@@ -45,7 +45,7 @@ belligerent
 casualties
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: casualties
 :type: number
 :format: default 
 
@@ -56,7 +56,7 @@ casualties
 killed
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: killed
 :type: number
 :format: default 
 
@@ -67,7 +67,7 @@ killed
 wounded
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: wounded
 :type: number
 :format: default 
 
@@ -78,7 +78,7 @@ wounded
 missing
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: missing
 :type: number
 :format: default 
 

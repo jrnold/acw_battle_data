@@ -14,8 +14,6 @@ Washington*, available from `Perseus <http://www.perseus.tufts.edu/hopper/text?d
 The data on casualties come from the main table in "Chapter 14: the greatest battles of the war — list of victories and defeats — chronological list of battles with loss in each, Union and Confederate", p. 544-551.
 The accompanying description reads
 
-::
-
     There were 112 battles in the war, in which one side or the other
     lost over 500 in killed and wounded. In all, there were 1,882
     general engagements, battles, skirmishes, or affairs in which at
@@ -46,14 +44,14 @@ The results of battles is considered seperately in :doc:`fox_outcomes`.
 Schema
 -------
 
-:Primary Key:['belligerent', 'battle_name']
+:Primary Key: ['belligerent', 'battle_name']
 
 
 
 belligerent
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: belligerent
 :type: string
 :format: default 
 :constraints:
@@ -73,7 +71,7 @@ belligerent
 battle_name
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: Battle name
 :type: string
 :format: default 
 
@@ -84,7 +82,7 @@ battle_name
 start_date
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: start_date
 :type: date
 :format: default 
 
@@ -95,7 +93,7 @@ Start date of the battle
 end_date
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: end_date
 :type: date
 :format: default 
 
@@ -106,7 +104,7 @@ End date of the battle
 state
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: State
 :type: string
 :format: default 
 :constraints:
@@ -126,7 +124,7 @@ State in which the battle took place
 casualties
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: casualties
 :type: integer
 :format: default 
 
@@ -137,7 +135,7 @@ Number of casualties (killed, wounded, and missing)
 killed
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: Killed
 :type: integer
 :format: default 
 
@@ -148,7 +146,7 @@ Number killed
 wounded
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: wounded
 :type: integer
 :format: default 
 
@@ -159,7 +157,7 @@ Number wounded
 missing
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: missing
 :type: integer
 :format: default 
 
@@ -170,7 +168,7 @@ Number missing
 aggrow
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: Aggregate row
 :type: boolean
 :format: default 
 

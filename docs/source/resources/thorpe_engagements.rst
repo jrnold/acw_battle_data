@@ -18,7 +18,7 @@ Schema
 battleNum
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: battleNum
 :type: integer
 :format: default 
 
@@ -29,7 +29,7 @@ battleNum
 battleDetail
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: battleDetail
 :type: string
 :format: default 
 
@@ -40,7 +40,7 @@ battleDetail
 beginDate
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: beginDate
 :type: string
 :format: default 
 
@@ -51,7 +51,7 @@ beginDate
 endDate
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: endDate
 :type: string
 :format: default 
 
@@ -62,7 +62,7 @@ endDate
 unknownDay
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: unknownDay
 :type: boolean
 :format: default 
 
@@ -73,7 +73,7 @@ unknownDay
 lat
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: lat
 :type: number
 :format: default 
 
@@ -84,7 +84,7 @@ lat
 lng
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: lng
 :type: number
 :format: default 
 
@@ -95,7 +95,7 @@ lng
 shrtNm
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: shrtNm
 :type: string
 :format: default 
 
@@ -106,7 +106,7 @@ shrtNm
 desc
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: desc
 :type: string
 :format: default 
 
@@ -117,7 +117,7 @@ desc
 type
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: type
 :type: string
 :format: default 
 
@@ -128,7 +128,7 @@ type
 killed
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: killed
 :type: integer
 :format: default 
 
@@ -139,7 +139,7 @@ killed
 usCasTot
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: usCasTot
 :type: integer
 :format: default 
 
@@ -150,7 +150,7 @@ usCasTot
 csCasTot
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: csCasTot
 :type: integer
 :format: default 
 

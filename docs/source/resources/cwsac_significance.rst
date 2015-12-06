@@ -18,7 +18,7 @@ Schema
 value
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: value
 :type: string
 :format: default 
 
@@ -29,7 +29,7 @@ value
 description
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: description
 :type: string
 :format: default 
 

@@ -18,7 +18,7 @@ Schema
 campaign
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: campaign
 :type: string
 :format: default 
 
@@ -29,7 +29,7 @@ campaign
 theater
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: theater
 :type: string
 :format: default 
 
@@ -40,7 +40,7 @@ theater
 start_year
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: start_year
 :type: integer
 :format: default 
 
@@ -51,7 +51,7 @@ start_year
 start_month
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: start_month
 :type: integer
 :format: default 
 
@@ -62,7 +62,7 @@ start_month
 end_year
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: end_year
 :type: integer
 :format: default 
 
@@ -73,7 +73,7 @@ end_year
 end_month
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: end_month
 :type: integer
 :format: default 
 
@@ -84,7 +84,7 @@ end_month
 dbpedia
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: dbpedia
 :type: string
 :format: default 
 

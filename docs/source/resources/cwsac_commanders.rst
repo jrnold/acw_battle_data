@@ -18,7 +18,7 @@ Schema
 battle
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: battle
 :type: string
 :format: default 
 
@@ -29,7 +29,7 @@ battle
 belligerent
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: belligerent
 :type: string
 :format: default 
 
@@ -40,7 +40,7 @@ belligerent
 fullname
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: fullname
 :type: string
 :format: default 
 
@@ -51,7 +51,7 @@ fullname
 rank
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: rank
 :type: string
 :format: default 
 
@@ -62,7 +62,7 @@ rank
 navy
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: navy
 :type: integer
 :format: default 
 
@@ -73,7 +73,7 @@ navy
 first_name
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: first_name
 :type: string
 :format: default 
 
@@ -84,7 +84,7 @@ first_name
 last_name
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: last_name
 :type: string
 :format: default 
 
@@ -95,7 +95,7 @@ last_name
 middle_name
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: middle_name
 :type: string
 :format: default 
 
@@ -106,7 +106,7 @@ middle_name
 suffix
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: suffix
 :type: string
 :format: default 
 

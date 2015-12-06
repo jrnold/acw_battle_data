@@ -56,7 +56,7 @@ Schema
 seq_no
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: seq_no
 :type: integer
 :format: default 
 
@@ -67,7 +67,7 @@ seq_no
 battle_name
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: battle_name
 :type: string
 :format: default 
 
@@ -78,7 +78,7 @@ battle_name
 page
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: page
 :type: integer
 :format: default 
 
@@ -89,7 +89,7 @@ page
 start_date
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: start_date
 :type: string
 :format: default 
 
@@ -100,7 +100,7 @@ start_date
 end_date
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: end_date
 :type: string
 :format: default 
 
@@ -111,7 +111,7 @@ end_date
 attacker
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: attacker
 :type: string
 :format: default 
 
@@ -122,7 +122,7 @@ attacker
 result
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: result
 :type: string
 :format: default 
 
@@ -133,7 +133,7 @@ result
 assault_fortified
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: assault_fortified
 :type: string
 :format: default 
 
@@ -144,7 +144,7 @@ assault_fortified
 assault_outcome
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: assault_outcome
 :type: string
 :format: default 
 
@@ -155,7 +155,7 @@ assault_outcome
 union_result
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: union_result
 :type: string
 :format: default 
 
@@ -166,7 +166,7 @@ union_result
 confed_result
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: confed_result
 :type: string
 :format: default 
 
@@ -177,7 +177,7 @@ confed_result
 state
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: state
 :type: string
 :format: default 
 
@@ -188,7 +188,7 @@ state
 theater
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: theater
 :type: string
 :format: default 
 

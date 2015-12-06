@@ -18,7 +18,7 @@ Schema
 battle
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: battle
 :type: string
 :format: default 
 
@@ -29,7 +29,7 @@ battle
 battle_name
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: battle_name
 :type: string
 :format: default 
 
@@ -40,7 +40,7 @@ battle_name
 state
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: state
 :type: string
 :format: default 
 
@@ -51,7 +51,7 @@ state
 campaign
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: campaign
 :type: string
 :format: default 
 
@@ -62,7 +62,7 @@ campaign
 url
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: url
 :type: string
 :format: default 
 
@@ -73,7 +73,7 @@ url
 forces_text
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: forces_text
 :type: string
 :format: default 
 
@@ -84,7 +84,7 @@ forces_text
 strength
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: strength
 :type: number
 :format: default 
 
@@ -95,7 +95,7 @@ strength
 results_text
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: results_text
 :type: string
 :format: default 
 
@@ -106,7 +106,7 @@ results_text
 result
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: result
 :type: number
 :format: default 
 
@@ -117,7 +117,7 @@ result
 study_area
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: study_area
 :type: number
 :format: default 
 
@@ -128,7 +128,7 @@ study_area
 core_area
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: core_area
 :type: number
 :format: default 
 
@@ -139,7 +139,7 @@ core_area
 potnr_boundary
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: potnr_boundary
 :type: number
 :format: default 
 
@@ -150,7 +150,7 @@ potnr_boundary
 strength_mean
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: strength_mean
 :type: number
 :format: default 
 
@@ -161,7 +161,7 @@ strength_mean
 strength_var
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: strength_var
 :type: number
 :format: default 
 

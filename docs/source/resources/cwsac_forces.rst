@@ -18,7 +18,7 @@ Schema
 battle
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: battle
 :type: string
 :format: default 
 
@@ -29,7 +29,7 @@ battle
 belligerent
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: belligerent
 :type: string
 :format: default 
 
@@ -40,7 +40,7 @@ belligerent
 description
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: description
 :type: string
 :format: default 
 
@@ -51,7 +51,7 @@ description
 strength_min
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: strength_min
 :type: number
 :format: default 
 
@@ -62,7 +62,7 @@ strength_min
 strength_max
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: strength_max
 :type: number
 :format: default 
 
@@ -73,7 +73,7 @@ strength_max
 armies
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: armies
 :type: number
 :format: default 
 
@@ -84,7 +84,7 @@ armies
 corps
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: corps
 :type: number
 :format: default 
 
@@ -95,7 +95,7 @@ corps
 divisions
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: divisions
 :type: number
 :format: default 
 
@@ -106,7 +106,7 @@ divisions
 brigades
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: brigades
 :type: number
 :format: default 
 
@@ -117,7 +117,7 @@ brigades
 regiments
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: regiments
 :type: number
 :format: default 
 
@@ -128,7 +128,7 @@ regiments
 companies
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: companies
 :type: number
 :format: default 
 
@@ -139,7 +139,7 @@ companies
 cavalry_regiments
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: cavalry_regiments
 :type: number
 :format: default 
 
@@ -150,7 +150,7 @@ cavalry_regiments
 cavalry_brigades
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: cavalry_brigades
 :type: number
 :format: default 
 
@@ -161,7 +161,7 @@ cavalry_brigades
 cavalry_corps
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: cavalry_corps
 :type: number
 :format: default 
 
@@ -172,7 +172,7 @@ cavalry_corps
 cavalry_divisions
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: cavalry_divisions
 :type: number
 :format: default 
 
@@ -183,7 +183,7 @@ cavalry_divisions
 artillery_batteries
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: artillery_batteries
 :type: number
 :format: default 
 
@@ -194,7 +194,7 @@ artillery_batteries
 ships
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: ships
 :type: number
 :format: default 
 
@@ -205,7 +205,7 @@ ships
 ironclads
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: ironclads
 :type: number
 :format: default 
 
@@ -216,7 +216,7 @@ ironclads
 gunboats
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: gunboats
 :type: number
 :format: default 
 
@@ -227,7 +227,7 @@ gunboats
 wooden_ships
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: wooden_ships
 :type: number
 :format: default 
 
@@ -238,7 +238,7 @@ wooden_ships
 rams
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: rams
 :type: number
 :format: default 
 
@@ -249,7 +249,7 @@ rams
 casualties
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: casualties
 :type: number
 :format: default 
 
@@ -260,7 +260,7 @@ casualties
 killed
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: killed
 :type: number
 :format: default 
 
@@ -271,7 +271,7 @@ killed
 wounded
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: wounded
 :type: number
 :format: default 
 
@@ -282,7 +282,7 @@ wounded
 missing
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: missing
 :type: number
 :format: default 
 
@@ -293,7 +293,7 @@ missing
 captured
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: captured
 :type: number
 :format: default 
 
@@ -304,7 +304,7 @@ captured
 strength_mean
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: strength_mean
 :type: number
 :format: default 
 
@@ -315,7 +315,7 @@ strength_mean
 strength_var
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: strength_var
 :type: number
 :format: default 
 

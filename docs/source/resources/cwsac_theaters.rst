@@ -18,7 +18,7 @@ Schema
 theater
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: theater
 :type: string
 :format: default 
 
@@ -29,7 +29,7 @@ theater
 dbp_resource
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: dbp_resource
 :type: string
 :format: default 
 
@@ -40,7 +40,7 @@ dbp_resource
 dbp_category
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: dbp_category
 :type: string
 :format: default 
 

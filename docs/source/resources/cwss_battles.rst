@@ -18,7 +18,7 @@ Schema
 BattlefieldCode
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: BattlefieldCode
 :type: string
 :format: default 
 
@@ -29,7 +29,7 @@ BattlefieldCode
 BattleName
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: BattleName
 :type: string
 :format: default 
 
@@ -40,7 +40,7 @@ BattleName
 BattleType
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: BattleType
 :type: string
 :format: default 
 
@@ -51,7 +51,7 @@ BattleType
 BeginDate
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: BeginDate
 :type: string
 :format: default 
 
@@ -62,7 +62,7 @@ BeginDate
 EndDate
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: EndDate
 :type: string
 :format: default 
 
@@ -73,7 +73,7 @@ EndDate
 State
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: State
 :type: string
 :format: default 
 
@@ -84,7 +84,7 @@ State
 TheaterCode
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: TheaterCode
 :type: string
 :format: default 
 
@@ -95,7 +95,7 @@ TheaterCode
 CampaignCode
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: CampaignCode
 :type: string
 :format: default 
 
@@ -106,7 +106,7 @@ CampaignCode
 Result
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: Result
 :type: string
 :format: default 
 
@@ -117,7 +117,7 @@ Result
 TotalCasualties
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: TotalCasualties
 :type: number
 :format: default 
 
@@ -128,7 +128,7 @@ TotalCasualties
 Comment
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: Comment
 :type: string
 :format: default 
 
@@ -139,7 +139,7 @@ Comment
 ID
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: ID
 :type: integer
 :format: default 
 
@@ -150,7 +150,7 @@ ID
 ShortSummary
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: ShortSummary
 :type: string
 :format: default 
 
@@ -161,7 +161,7 @@ ShortSummary
 ShortSummarySource
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: ShortSummarySource
 :type: string
 :format: default 
 
@@ -172,7 +172,7 @@ ShortSummarySource
 Summary
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: Summary
 :type: string
 :format: default 
 
@@ -183,7 +183,7 @@ Summary
 SummarySource
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: SummarySource
 :type: number
 :format: default 
 
@@ -194,7 +194,7 @@ SummarySource
 URL
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: URL
 :type: string
 :format: default 
 

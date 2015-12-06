@@ -18,7 +18,7 @@ Schema
 from
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: from
 :type: integer
 :format: default 
 
@@ -29,7 +29,7 @@ from
 battle_name
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: battle_name
 :type: string
 :format: default 
 
@@ -40,7 +40,7 @@ battle_name
 to
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: to
 :type: string
 :format: default 
 
@@ -51,7 +51,7 @@ to
 relation
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: relation
 :type: string
 :format: default 
 

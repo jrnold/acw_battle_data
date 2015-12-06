@@ -18,7 +18,7 @@ Schema
 BattlefieldCode
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: BattlefieldCode
 :type: string
 :format: default 
 
@@ -29,7 +29,7 @@ BattlefieldCode
 belligerent
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: belligerent
 :type: string
 :format: default 
 
@@ -40,7 +40,7 @@ belligerent
 commander_number
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: commander_number
 :type: integer
 :format: default 
 
@@ -51,7 +51,7 @@ commander_number
 commander
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: commander
 :type: string
 :format: default 
 

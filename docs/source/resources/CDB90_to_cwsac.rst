@@ -18,7 +18,7 @@ Schema
 isqno
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: isqno
 :type: integer
 :format: default 
 
@@ -29,7 +29,7 @@ isqno
 cwsac_id
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: cwsac_id
 :type: string
 :format: default 
 
@@ -40,7 +40,7 @@ cwsac_id
 relation
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: relation
 :type: string
 :format: default 
 

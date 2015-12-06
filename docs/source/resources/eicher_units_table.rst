@@ -18,7 +18,7 @@ Schema
 belligerent
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: belligerent
 :type: string
 :format: default 
 
@@ -29,7 +29,7 @@ belligerent
 infantry
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: infantry
 :type: integer
 :format: default 
 
@@ -40,7 +40,7 @@ infantry
 unit type
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: unit type
 :type: string
 :format: default 
 
@@ -51,7 +51,7 @@ unit type
 low
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: low
 :type: integer
 :format: default 
 
@@ -62,7 +62,7 @@ low
 high
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: high
 :type: integer
 :format: default 
 
@@ -73,7 +73,7 @@ high
 avg
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: avg
 :type: number
 :format: default 
 
@@ -84,7 +84,7 @@ avg
 mode
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: mode
 :type: integer
 :format: default 
 
@@ -95,7 +95,7 @@ mode
 page
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: page
 :type: integer
 :format: default 
 

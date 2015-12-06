@@ -18,7 +18,7 @@ Schema
 battle
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: battle
 :type: string
 :format: default 
 
@@ -29,7 +29,7 @@ battle
 belligerent
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: belligerent
 :type: string
 :format: default 
 
@@ -40,7 +40,7 @@ belligerent
 description
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: description
 :type: string
 :format: default 
 
@@ -51,7 +51,7 @@ description
 strength
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: strength
 :type: number
 :format: default 
 
@@ -62,7 +62,7 @@ strength
 regiments
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: regiments
 :type: number
 :format: default 
 
@@ -73,7 +73,7 @@ regiments
 companies
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: companies
 :type: number
 :format: default 
 
@@ -84,7 +84,7 @@ companies
 brigades
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: brigades
 :type: number
 :format: default 
 
@@ -95,7 +95,7 @@ brigades
 divisions
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: divisions
 :type: number
 :format: default 
 
@@ -106,7 +106,7 @@ divisions
 corps
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: corps
 :type: number
 :format: default 
 
@@ -117,7 +117,7 @@ corps
 armies
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: armies
 :type: number
 :format: default 
 
@@ -128,7 +128,7 @@ armies
 cavalry_regiments
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: cavalry_regiments
 :type: number
 :format: default 
 
@@ -139,7 +139,7 @@ cavalry_regiments
 cavalry_brigades
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: cavalry_brigades
 :type: number
 :format: default 
 
@@ -150,7 +150,7 @@ cavalry_brigades
 cavalry_divisions
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: cavalry_divisions
 :type: number
 :format: default 
 
@@ -161,7 +161,7 @@ cavalry_divisions
 cavalry_corps
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: cavalry_corps
 :type: number
 :format: default 
 
@@ -172,7 +172,7 @@ cavalry_corps
 cavalry_companies
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: cavalry_companies
 :type: number
 :format: default 
 
@@ -183,7 +183,7 @@ cavalry_companies
 artillery_batteries
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: artillery_batteries
 :type: number
 :format: default 
 
@@ -194,7 +194,7 @@ artillery_batteries
 artillery_companies
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: artillery_companies
 :type: number
 :format: default 
 
@@ -205,7 +205,7 @@ artillery_companies
 artillery_regiments
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: artillery_regiments
 :type: number
 :format: default 
 
@@ -216,7 +216,7 @@ artillery_regiments
 artillery_sections
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: artillery_sections
 :type: number
 :format: default 
 
@@ -227,7 +227,7 @@ artillery_sections
 infantry_regiments
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: infantry_regiments
 :type: number
 :format: default 
 
@@ -238,7 +238,7 @@ infantry_regiments
 strength_other
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: strength_other
 :type: number
 :format: default 
 
@@ -249,7 +249,7 @@ strength_other
 ships
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: ships
 :type: number
 :format: default 
 
@@ -260,7 +260,7 @@ ships
 guns
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: guns
 :type: number
 :format: default 
 
@@ -271,7 +271,7 @@ guns
 strength_mean
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: strength_mean
 :type: number
 :format: default 
 
@@ -282,7 +282,7 @@ strength_mean
 strength_var
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: strength_var
 :type: number
 :format: default 
 

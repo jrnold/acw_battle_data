@@ -19,7 +19,7 @@ Schema
 belligerent
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: Belligerent
 :type: string
 :format: default 
 
@@ -30,7 +30,7 @@ belligerent
 battle_name
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: Battle Name
 :type: string
 :format: default 
 
@@ -41,7 +41,7 @@ Battle name in the ``fox_forces`` data.
 cwsac_id
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: CWSAC Id.
 :type: string
 :format: default 
 :constraints:
@@ -61,7 +61,7 @@ CWSAC battle identification code.
 relation
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: Relation
 :type: string
 :format: default 
 :constraints:

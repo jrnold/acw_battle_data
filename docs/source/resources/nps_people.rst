@@ -18,7 +18,7 @@ Schema
 PersonID
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: PersonID
 :type: string
 :format: default 
 
@@ -29,7 +29,7 @@ PersonID
 ID
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: ID
 :type: number
 :format: default 
 
@@ -40,7 +40,7 @@ ID
 LastName
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: LastName
 :type: string
 :format: default 
 
@@ -51,7 +51,7 @@ LastName
 Suffix
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: Suffix
 :type: string
 :format: default 
 
@@ -62,7 +62,7 @@ Suffix
 FirstName
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: FirstName
 :type: string
 :format: default 
 
@@ -73,7 +73,7 @@ FirstName
 MiddleName
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: MiddleName
 :type: string
 :format: default 
 
@@ -84,7 +84,7 @@ MiddleName
 MiddleInitial
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: MiddleInitial
 :type: string
 :format: default 
 
@@ -95,7 +95,7 @@ MiddleInitial
 Keywords
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: Keywords
 :type: string
 :format: default 
 
@@ -106,7 +106,7 @@ Keywords
 Rank
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: Rank
 :type: string
 :format: default 
 
@@ -117,7 +117,7 @@ Rank
 Bio
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: Bio
 :type: string
 :format: default 
 
@@ -128,7 +128,7 @@ Bio
 BioSource
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: BioSource
 :type: string
 :format: default 
 
@@ -139,7 +139,7 @@ BioSource
 NarrativeLink1
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: NarrativeLink1
 :type: string
 :format: default 
 
@@ -150,7 +150,7 @@ NarrativeLink1
 NarrativeLink2
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: NarrativeLink2
 :type: string
 :format: default 
 

@@ -68,7 +68,7 @@ Schema
 victor
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: Victor
 :type: string
 :format: default 
 :constraints:
@@ -88,7 +88,7 @@ victor
 victory_type
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: Victory type
 :type: string
 :format: default 
 :constraints:
@@ -108,7 +108,7 @@ victory_type
 battle_name
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: Battle name
 :type: string
 :format: default 
 
@@ -119,7 +119,7 @@ battle_name
 state
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: State
 :type: string
 :format: default 
 :constraints:
@@ -139,7 +139,7 @@ state
 cwsac_id
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: CWSAC Id.
 :type: string
 :format: default 
 :constraints:

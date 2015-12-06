@@ -21,7 +21,7 @@ Schema
 battle
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: battle
 :type: string
 :format: default 
 
@@ -32,7 +32,7 @@ battle
 belligerent
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: belligerent
 :type: string
 :format: default 
 
@@ -43,7 +43,7 @@ belligerent
 strength_min
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: strength_min
 :type: number
 :format: default 
 
@@ -54,7 +54,7 @@ strength_min
 strength_max
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: strength_max
 :type: number
 :format: default 
 
@@ -65,7 +65,7 @@ strength_max
 brigades
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: brigades
 :type: number
 :format: default 
 
@@ -76,7 +76,7 @@ brigades
 companies
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: companies
 :type: number
 :format: default 
 
@@ -87,7 +87,7 @@ companies
 divisions
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: divisions
 :type: number
 :format: default 
 
@@ -98,7 +98,7 @@ divisions
 armies
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: armies
 :type: number
 :format: default 
 
@@ -109,7 +109,7 @@ armies
 corps
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: corps
 :type: number
 :format: default 
 
@@ -120,7 +120,7 @@ corps
 regiments
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: regiments
 :type: number
 :format: default 
 
@@ -131,7 +131,7 @@ regiments
 cavalry_companies
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: cavalry_companies
 :type: number
 :format: default 
 
@@ -142,7 +142,7 @@ cavalry_companies
 cavalry_brigades
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: cavalry_brigades
 :type: number
 :format: default 
 
@@ -153,7 +153,7 @@ cavalry_brigades
 cavalry_corps
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: cavalry_corps
 :type: number
 :format: default 
 
@@ -164,7 +164,7 @@ cavalry_corps
 cavalry_divisions
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: cavalry_divisions
 :type: number
 :format: default 
 
@@ -175,7 +175,7 @@ cavalry_divisions
 cavalry_regiments
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: cavalry_regiments
 :type: number
 :format: default 
 
@@ -186,7 +186,7 @@ cavalry_regiments
 artillery_sections
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: artillery_sections
 :type: number
 :format: default 
 
@@ -197,7 +197,7 @@ artillery_sections
 artillery_battalions
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: artillery_battalions
 :type: number
 :format: default 
 
@@ -208,7 +208,7 @@ artillery_battalions
 artillery_batteries
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: artillery_batteries
 :type: number
 :format: default 
 
@@ -219,7 +219,7 @@ artillery_batteries
 artillery_companies
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: artillery_companies
 :type: number
 :format: default 
 
@@ -230,7 +230,7 @@ artillery_companies
 artillery_regiments
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: artillery_regiments
 :type: number
 :format: default 
 
@@ -241,7 +241,7 @@ artillery_regiments
 artillery_brigade
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: artillery_brigade
 :type: number
 :format: default 
 
@@ -252,7 +252,7 @@ artillery_brigade
 guns
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: guns
 :type: number
 :format: default 
 
@@ -263,7 +263,7 @@ guns
 ships
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: ships
 :type: number
 :format: default 
 
@@ -274,7 +274,7 @@ ships
 ironclads
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: ironclads
 :type: number
 :format: default 
 
@@ -285,7 +285,7 @@ ironclads
 monitors
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: monitors
 :type: number
 :format: default 
 
@@ -296,7 +296,7 @@ monitors
 wooden_warships
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: wooden_warships
 :type: number
 :format: default 
 
@@ -307,7 +307,7 @@ wooden_warships
 ships_misc
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: ships_misc
 :type: number
 :format: default 
 
@@ -318,7 +318,7 @@ ships_misc
 rams
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: rams
 :type: number
 :format: default 
 
@@ -329,7 +329,7 @@ rams
 transports
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: transports
 :type: number
 :format: default 
 
@@ -340,7 +340,7 @@ transports
 gunboats
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: gunboats
 :type: number
 :format: default 
 
@@ -351,7 +351,7 @@ gunboats
 casualties_min
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: casualties_min
 :type: number
 :format: default 
 
@@ -362,7 +362,7 @@ casualties_min
 casualties_max
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: casualties_max
 :type: number
 :format: default 
 
@@ -373,7 +373,7 @@ casualties_max
 killed_min
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: killed_min
 :type: number
 :format: default 
 
@@ -384,7 +384,7 @@ killed_min
 killed_max
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: killed_max
 :type: number
 :format: default 
 
@@ -395,7 +395,7 @@ killed_max
 wounded_min
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: wounded_min
 :type: number
 :format: default 
 
@@ -406,7 +406,7 @@ wounded_min
 wounded_max
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: wounded_max
 :type: number
 :format: default 
 
@@ -417,7 +417,7 @@ wounded_max
 missing_min
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: missing_min
 :type: number
 :format: default 
 
@@ -428,7 +428,7 @@ missing_min
 missing_max
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: missing_max
 :type: number
 :format: default 
 
@@ -439,7 +439,7 @@ missing_max
 captured_min
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: captured_min
 :type: number
 :format: default 
 
@@ -450,7 +450,7 @@ captured_min
 captured_max
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: captured_max
 :type: number
 :format: default 
 
@@ -461,7 +461,7 @@ captured_max
 killed_wounded_min
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: killed_wounded_min
 :type: number
 :format: default 
 
@@ -472,7 +472,7 @@ killed_wounded_min
 killed_wounded_max
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: killed_wounded_max
 :type: number
 :format: default 
 
@@ -483,7 +483,7 @@ killed_wounded_max
 wounded_missing_min
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: wounded_missing_min
 :type: number
 :format: default 
 
@@ -494,7 +494,7 @@ wounded_missing_min
 wounded_missing_max
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: wounded_missing_max
 :type: number
 :format: default 
 
@@ -505,7 +505,7 @@ wounded_missing_max
 captured_missing_min
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: captured_missing_min
 :type: number
 :format: default 
 
@@ -516,7 +516,7 @@ captured_missing_min
 captured_missing_max
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: captured_missing_max
 :type: number
 :format: default 
 
@@ -527,7 +527,7 @@ captured_missing_max
 losses_guns
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: losses_guns
 :type: string
 :format: default 
 
@@ -538,7 +538,7 @@ losses_guns
 losses_ships
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: losses_ships
 :type: number
 :format: default 
 
@@ -549,7 +549,7 @@ losses_ships
 losses_trains
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: losses_trains
 :type: number
 :format: default 
 
@@ -560,7 +560,7 @@ losses_trains
 losses_wagons
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: losses_wagons
 :type: number
 :format: default 
 

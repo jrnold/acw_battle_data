@@ -18,7 +18,7 @@ Schema
 cwsac_id
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: cwsac_id
 :type: string
 :format: default 
 
@@ -29,7 +29,7 @@ cwsac_id
 belligerent
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: belligerent
 :type: string
 :format: default 
 
@@ -40,7 +40,7 @@ belligerent
 cas_kwm_mean
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: cas_kwm_mean
 :type: number
 :format: default 
 
@@ -51,7 +51,7 @@ cas_kwm_mean
 cas_k_mean
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: cas_k_mean
 :type: number
 :format: default 
 
@@ -62,7 +62,7 @@ cas_k_mean
 cas_w_mean
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: cas_w_mean
 :type: number
 :format: default 
 
@@ -73,7 +73,7 @@ cas_w_mean
 cas_m_mean
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: cas_m_mean
 :type: number
 :format: default 
 
@@ -84,7 +84,7 @@ cas_m_mean
 cas_kwm_var
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: cas_kwm_var
 :type: number
 :format: default 
 
@@ -95,7 +95,7 @@ cas_kwm_var
 cas_k_var
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: cas_k_var
 :type: number
 :format: default 
 
@@ -106,7 +106,7 @@ cas_k_var
 cas_w_var
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: cas_w_var
 :type: number
 :format: default 
 
@@ -117,7 +117,7 @@ cas_w_var
 cas_m_var
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: cas_m_var
 :type: number
 :format: default 
 
@@ -128,7 +128,7 @@ cas_m_var
 cas_kw_mean
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: cas_kw_mean
 :type: number
 :format: default 
 
@@ -139,7 +139,7 @@ cas_kw_mean
 cas_kw_var
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: cas_kw_var
 :type: number
 :format: default 
 
@@ -150,7 +150,7 @@ cas_kw_var
 str_mean
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: str_mean
 :type: number
 :format: default 
 
@@ -161,7 +161,7 @@ str_mean
 str_var
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: str_var
 :type: number
 :format: default 
 
@@ -172,7 +172,7 @@ str_var
 cas_km_mean
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: cas_km_mean
 :type: number
 :format: default 
 
@@ -183,7 +183,7 @@ cas_km_mean
 cas_wm_mean
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: cas_wm_mean
 :type: number
 :format: default 
 
@@ -194,7 +194,7 @@ cas_wm_mean
 cas_km_var
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: cas_km_var
 :type: number
 :format: default 
 
@@ -205,7 +205,7 @@ cas_km_var
 cas_wm_var
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: cas_wm_var
 :type: number
 :format: default 
 

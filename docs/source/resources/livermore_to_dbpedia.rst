@@ -18,7 +18,7 @@ Schema
 seq_no
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: seq_no
 :type: integer
 :format: default 
 
@@ -29,7 +29,7 @@ seq_no
 battle_name
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: battle_name
 :type: string
 :format: default 
 
@@ -40,7 +40,7 @@ battle_name
 dbpedia
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: dbpedia
 :type: string
 :format: default 
 
@@ -51,7 +51,7 @@ dbpedia
 relation
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: relation
 :type: string
 :format: default 
 

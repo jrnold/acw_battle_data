@@ -11,7 +11,7 @@
 Schema
 -------
 
-{%if schema.primaryKey %}:Primary Key:{{ schema.primaryKey }}{% endif %}
+{%if schema.primaryKey %}:Primary Key: {{ schema.primaryKey }}{% endif %}
 {%if schema.foreignKeys %}:Foreign Keys:
 {% for fk in schema.foreignKeys %}
     :{{ fk.fields|join(', ') }}: {{fk.reference.datapackage}}, {{fk.reference.resource}}, {{fk.reference.fields|join(', ')}}
@@ -22,7 +22,7 @@ Schema
 {{ field.name }}
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: {{ field.label }}
+:title: {{ field.title }}
 :type: {{field.type }}
 {% if field.format %}:format: {{field.format}} {% endif %}
 {% if field.constraints is defined %}:constraints:

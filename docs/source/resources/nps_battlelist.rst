@@ -18,7 +18,7 @@ Schema
 cwsac_id
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: cwsac_id
 :type: string
 :format: default 
 
@@ -29,7 +29,7 @@ cwsac_id
 battle_name
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: battle_name
 :type: string
 :format: default 
 
@@ -40,7 +40,7 @@ battle_name
 cwss
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: cwss
 :type: boolean
 :format: default 
 
@@ -51,7 +51,7 @@ cwss
 cwsac1
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: cwsac1
 :type: boolean
 :format: default 
 
@@ -62,7 +62,7 @@ cwsac1
 cwsac2
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: cwsac2
 :type: boolean
 :format: default 
 
@@ -73,7 +73,7 @@ cwsac2
 aad
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: aad
 :type: boolean
 :format: default 
 
@@ -84,7 +84,7 @@ aad
 notall
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: notall
 :type: boolean
 :format: default 
 

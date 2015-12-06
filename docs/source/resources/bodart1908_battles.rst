@@ -210,7 +210,7 @@ Schema
 battle_id
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: battle_id
 :type: string
 :format: default 
 
@@ -221,7 +221,7 @@ battle_id
 name
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: name
 :type: string
 :format: default 
 
@@ -232,7 +232,7 @@ name
 other_name
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: other_name
 :type: string
 :format: default 
 
@@ -243,7 +243,7 @@ other_name
 start_date
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: start_date
 :type: string
 :format: default 
 
@@ -254,7 +254,7 @@ start_date
 end_date
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: end_date
 :type: string
 :format: default 
 
@@ -265,7 +265,7 @@ end_date
 location
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: location
 :type: string
 :format: default 
 
@@ -276,7 +276,7 @@ location
 order
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: order
 :type: number
 :format: default 
 
@@ -287,7 +287,7 @@ order
 siege
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: siege
 :type: integer
 :format: default 
 
@@ -298,7 +298,7 @@ siege
 battle
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: battle
 :type: integer
 :format: default 
 
@@ -309,7 +309,7 @@ battle
 meeting
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: meeting
 :type: integer
 :format: default 
 
@@ -320,7 +320,7 @@ meeting
 surrender
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: surrender
 :type: integer
 :format: default 
 
@@ -331,7 +331,7 @@ surrender
 siege.1
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: siege.1
 :type: integer
 :format: default 
 
@@ -342,7 +342,7 @@ siege.1
 capture
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: capture
 :type: integer
 :format: default 
 
@@ -353,7 +353,7 @@ capture
 page
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: page
 :type: integer
 :format: default 
 

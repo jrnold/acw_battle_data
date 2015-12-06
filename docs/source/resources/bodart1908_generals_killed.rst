@@ -24,7 +24,7 @@ Schema
 battle_id
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: battle_id
 :type: string
 :format: default 
 
@@ -35,7 +35,7 @@ battle_id
 country
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: country
 :type: string
 :format: default 
 
@@ -46,7 +46,7 @@ country
 name
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: name
 :type: string
 :format: default 
 
@@ -57,7 +57,7 @@ name
 last_name
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: last_name
 :type: string
 :format: default 
 
@@ -68,7 +68,7 @@ last_name
 first_name
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: first_name
 :type: string
 :format: default 
 
@@ -79,7 +79,7 @@ first_name
 middle_name
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: middle_name
 :type: string
 :format: default 
 
@@ -90,7 +90,7 @@ middle_name
 suffix
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: suffix
 :type: number
 :format: default 
 
@@ -101,7 +101,7 @@ suffix
 rank
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: rank
 :type: string
 :format: default 
 
@@ -112,7 +112,7 @@ rank
 date
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: date
 :type: string
 :format: default 
 
@@ -123,7 +123,7 @@ date
 dbpedia
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: dbpedia
 :type: string
 :format: default 
 

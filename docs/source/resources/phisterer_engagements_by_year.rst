@@ -18,7 +18,7 @@ Schema
 year
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: year
 :type: integer
 :format: default 
 
@@ -29,7 +29,7 @@ year
 engagements
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: engagements
 :type: integer
 :format: default 
 

@@ -18,7 +18,7 @@ Schema
 cwsac_id
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: cwsac_id
 :type: string
 :format: default 
 
@@ -29,7 +29,7 @@ cwsac_id
 battle_name
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: battle_name
 :type: string
 :format: default 
 
@@ -40,7 +40,7 @@ battle_name
 battle_type_cwss
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: battle_type_cwss
 :type: string
 :format: default 
 
@@ -51,7 +51,7 @@ battle_type_cwss
 start_date
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: start_date
 :type: string
 :format: default 
 
@@ -62,7 +62,7 @@ start_date
 end_date
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: end_date
 :type: string
 :format: default 
 
@@ -73,7 +73,7 @@ end_date
 theater_code
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: theater_code
 :type: string
 :format: default 
 
@@ -84,7 +84,7 @@ theater_code
 campaign_code
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: campaign_code
 :type: string
 :format: default 
 
@@ -95,7 +95,7 @@ campaign_code
 result
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: result
 :type: string
 :format: default 
 
@@ -106,7 +106,7 @@ result
 cas_kwm_mean_cwss
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: cas_kwm_mean_cwss
 :type: number
 :format: default 
 
@@ -117,7 +117,7 @@ cas_kwm_mean_cwss
 cwss_url
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: cwss_url
 :type: string
 :format: default 
 
@@ -128,7 +128,7 @@ cwss_url
 cas_kwm_var_cwss
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: cas_kwm_var_cwss
 :type: number
 :format: default 
 
@@ -139,7 +139,7 @@ cas_kwm_var_cwss
 partof_cwss
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: partof_cwss
 :type: boolean
 :format: default 
 
@@ -150,7 +150,7 @@ partof_cwss
 operation
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: operation
 :type: integer
 :format: default 
 
@@ -161,7 +161,7 @@ operation
 forces_text
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: forces_text
 :type: string
 :format: default 
 
@@ -172,7 +172,7 @@ forces_text
 casualties_text
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: casualties_text
 :type: string
 :format: default 
 
@@ -183,7 +183,7 @@ casualties_text
 results_text
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: results_text
 :type: string
 :format: default 
 
@@ -194,7 +194,7 @@ results_text
 preservation
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: preservation
 :type: string
 :format: default 
 
@@ -205,7 +205,7 @@ preservation
 significance
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: significance
 :type: string
 :format: default 
 
@@ -216,7 +216,7 @@ significance
 cwsac1_url
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: cwsac1_url
 :type: string
 :format: default 
 
@@ -227,7 +227,7 @@ cwsac1_url
 str_mean_cwsac1
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: str_mean_cwsac1
 :type: number
 :format: default 
 
@@ -238,7 +238,7 @@ str_mean_cwsac1
 str_var_cwsac1
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: str_var_cwsac1
 :type: number
 :format: default 
 
@@ -249,7 +249,7 @@ str_var_cwsac1
 cas_kwm_mean_cwsac1
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: cas_kwm_mean_cwsac1
 :type: number
 :format: default 
 
@@ -260,7 +260,7 @@ cas_kwm_mean_cwsac1
 partof_cwsac1
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: partof_cwsac1
 :type: boolean
 :format: default 
 
@@ -271,7 +271,7 @@ partof_cwsac1
 cas_kwm_var_cwsac1
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: cas_kwm_var_cwsac1
 :type: number
 :format: default 
 
@@ -282,7 +282,7 @@ cas_kwm_var_cwsac1
 cwsac2_url
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: cwsac2_url
 :type: string
 :format: default 
 
@@ -293,7 +293,7 @@ cwsac2_url
 study_area
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: study_area
 :type: number
 :format: default 
 
@@ -304,7 +304,7 @@ study_area
 core_area
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: core_area
 :type: number
 :format: default 
 
@@ -315,7 +315,7 @@ core_area
 potnr_boundary
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: potnr_boundary
 :type: number
 :format: default 
 
@@ -326,7 +326,7 @@ potnr_boundary
 str_mean_cwsac2
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: str_mean_cwsac2
 :type: number
 :format: default 
 
@@ -337,7 +337,7 @@ str_mean_cwsac2
 str_var_cwsac2
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: str_var_cwsac2
 :type: number
 :format: default 
 
@@ -348,7 +348,7 @@ str_var_cwsac2
 partof_cwsac2
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: partof_cwsac2
 :type: boolean
 :format: default 
 
@@ -359,7 +359,7 @@ partof_cwsac2
 interpretive_political
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: interpretive_political
 :type: integer
 :format: default 
 
@@ -370,7 +370,7 @@ interpretive_political
 interpretive_commander_loss
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: interpretive_commander_loss
 :type: integer
 :format: default 
 
@@ -381,7 +381,7 @@ interpretive_commander_loss
 interpretive_casualties
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: interpretive_casualties
 :type: integer
 :format: default 
 
@@ -392,7 +392,7 @@ interpretive_casualties
 interpretive_tactics_strategy
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: interpretive_tactics_strategy
 :type: integer
 :format: default 
 
@@ -403,7 +403,7 @@ interpretive_tactics_strategy
 interpretive_public_mind
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: interpretive_public_mind
 :type: integer
 :format: default 
 
@@ -414,7 +414,7 @@ interpretive_public_mind
 interpretive_combat_arm
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: interpretive_combat_arm
 :type: integer
 :format: default 
 
@@ -425,7 +425,7 @@ interpretive_combat_arm
 interpretive_military_firsts
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: interpretive_military_firsts
 :type: integer
 :format: default 
 
@@ -436,7 +436,7 @@ interpretive_military_firsts
 interpretive_minority_troops
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: interpretive_minority_troops
 :type: integer
 :format: default 
 
@@ -447,7 +447,7 @@ interpretive_minority_troops
 interpretive_economic
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: interpretive_economic
 :type: integer
 :format: default 
 
@@ -458,7 +458,7 @@ interpretive_economic
 interpretive_archaelolgical
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: interpretive_archaelolgical
 :type: integer
 :format: default 
 
@@ -469,7 +469,7 @@ interpretive_archaelolgical
 interpretive_logistics
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: interpretive_logistics
 :type: integer
 :format: default 
 
@@ -480,7 +480,7 @@ interpretive_logistics
 interpretive_individual_bravery
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: interpretive_individual_bravery
 :type: integer
 :format: default 
 
@@ -491,7 +491,7 @@ interpretive_individual_bravery
 interpretive_group_behavior
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: interpretive_group_behavior
 :type: integer
 :format: default 
 
@@ -502,7 +502,7 @@ interpretive_group_behavior
 interpretive_joint_ops
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: interpretive_joint_ops
 :type: integer
 :format: default 
 
@@ -513,7 +513,7 @@ interpretive_joint_ops
 interpretive_coop_armies
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: interpretive_coop_armies
 :type: integer
 :format: default 
 
@@ -524,7 +524,7 @@ interpretive_coop_armies
 interpretive_naval
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: interpretive_naval
 :type: integer
 :format: default 
 
@@ -535,7 +535,7 @@ interpretive_naval
 significance_jim
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: significance_jim
 :type: string
 :format: default 
 
@@ -546,7 +546,7 @@ significance_jim
 significance_ed
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: significance_ed
 :type: string
 :format: default 
 
@@ -557,7 +557,7 @@ significance_ed
 significance_bill
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: significance_bill
 :type: string
 :format: default 
 
@@ -568,7 +568,7 @@ significance_bill
 aad_url
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: aad_url
 :type: string
 :format: default 
 
@@ -579,7 +579,7 @@ aad_url
 battle_type_aad
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: battle_type_aad
 :type: string
 :format: default 
 
@@ -590,7 +590,7 @@ battle_type_aad
 partof_aad
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: partof_aad
 :type: boolean
 :format: default 
 
@@ -601,7 +601,7 @@ partof_aad
 shenandoah_url
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: shenandoah_url
 :type: string
 :format: default 
 
@@ -612,7 +612,7 @@ shenandoah_url
 partof_shenandoah
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: partof_shenandoah
 :type: boolean
 :format: default 
 
@@ -623,7 +623,7 @@ partof_shenandoah
 lat
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: lat
 :type: number
 :format: default 
 
@@ -634,7 +634,7 @@ lat
 long
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: long
 :type: number
 :format: default 
 
@@ -645,7 +645,7 @@ long
 str_mean
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: str_mean
 :type: number
 :format: default 
 
@@ -656,7 +656,7 @@ str_mean
 str_var
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: str_var
 :type: number
 :format: default 
 
@@ -667,7 +667,7 @@ str_var
 cas_kwm_mean
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: cas_kwm_mean
 :type: number
 :format: default 
 
@@ -678,7 +678,7 @@ cas_kwm_mean
 cas_kwm_var
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: cas_kwm_var
 :type: number
 :format: default 
 
@@ -689,7 +689,7 @@ cas_kwm_var
 state
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: state
 :type: string
 :format: default 
 

@@ -18,7 +18,7 @@ Schema
 battle_number
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: battle_number
 :type: integer
 :format: default 
 
@@ -29,7 +29,7 @@ battle_number
 cwsac_id
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: cwsac_id
 :type: string
 :format: default 
 
@@ -40,7 +40,7 @@ cwsac_id
 belligerent
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: belligerent
 :type: string
 :format: default 
 
@@ -51,7 +51,7 @@ belligerent
 last_name
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: last_name
 :type: string
 :format: default 
 
@@ -62,7 +62,7 @@ last_name
 first_name
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: first_name
 :type: string
 :format: default 
 
@@ -73,7 +73,7 @@ first_name
 middle_name
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: middle_name
 :type: string
 :format: default 
 
@@ -84,7 +84,7 @@ middle_name
 rank
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: rank
 :type: string
 :format: default 
 

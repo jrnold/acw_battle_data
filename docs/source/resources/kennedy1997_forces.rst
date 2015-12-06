@@ -22,7 +22,7 @@ Schema
 battle
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: battle
 :type: string
 :format: default 
 
@@ -33,7 +33,7 @@ battle
 belligerent
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: belligerent
 :type: string
 :format: default 
 
@@ -44,7 +44,7 @@ belligerent
 casualties_min
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: casualties_min
 :type: number
 :format: default 
 
@@ -55,7 +55,7 @@ casualties_min
 casualties_max
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: casualties_max
 :type: number
 :format: default 
 
@@ -66,7 +66,7 @@ casualties_max
 killed_wounded_min
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: killed_wounded_min
 :type: number
 :format: default 
 
@@ -77,7 +77,7 @@ killed_wounded_min
 killed_wounded_max
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: killed_wounded_max
 :type: number
 :format: default 
 
@@ -88,7 +88,7 @@ killed_wounded_max
 missing
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: missing
 :type: number
 :format: default 
 

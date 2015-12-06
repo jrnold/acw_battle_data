@@ -18,7 +18,7 @@ Schema
 ID
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: ID
 :type: integer
 :format: default 
 
@@ -29,7 +29,7 @@ ID
 UnitCode
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: UnitCode
 :type: string
 :format: default 
 
@@ -40,7 +40,7 @@ UnitCode
 UnitName
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: UnitName
 :type: string
 :format: default 
 

@@ -18,7 +18,7 @@ Schema
 date
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: date
 :type: string
 :format: default 
 
@@ -29,7 +29,7 @@ date
 description
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: description
 :type: string
 :format: default 
 
@@ -40,7 +40,7 @@ description
 confederate
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: confederate
 :type: number
 :format: default 
 
@@ -51,7 +51,7 @@ confederate
 union
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: union
 :type: number
 :format: default 
 
@@ -62,7 +62,7 @@ union
 theater
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: theater
 :type: string
 :format: default 
 
@@ -73,7 +73,7 @@ theater
 cwsac_id
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: cwsac_id
 :type: string
 :format: default 
 
@@ -84,7 +84,7 @@ cwsac_id
 cwsac_battle_name
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: cwsac_battle_name
 :type: string
 :format: default 
 

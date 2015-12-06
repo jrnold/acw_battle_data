@@ -18,7 +18,7 @@ Schema
 CampaignCode
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: CampaignCode
 :type: string
 :format: default 
 
@@ -29,7 +29,7 @@ CampaignCode
 CampaignName
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: CampaignName
 :type: string
 :format: default 
 
@@ -40,7 +40,7 @@ CampaignName
 CampaignDates
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: CampaignDates
 :type: string
 :format: default 
 
@@ -51,7 +51,7 @@ CampaignDates
 CampaignStartDate
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: CampaignStartDate
 :type: string
 :format: default 
 
@@ -62,7 +62,7 @@ CampaignStartDate
 CampaignEndDate
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: CampaignEndDate
 :type: string
 :format: default 
 
@@ -73,7 +73,7 @@ CampaignEndDate
 TheaterCode
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: TheaterCode
 :type: string
 :format: default 
 

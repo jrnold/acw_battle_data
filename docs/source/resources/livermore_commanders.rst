@@ -18,7 +18,7 @@ Schema
 seq_no
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: seq_no
 :type: integer
 :format: default 
 
@@ -29,7 +29,7 @@ seq_no
 belligerent
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: belligerent
 :type: string
 :format: default 
 
@@ -40,7 +40,7 @@ belligerent
 PersonID
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: PersonID
 :type: string
 :format: default 
 
@@ -51,7 +51,7 @@ PersonID
 last_name
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: last_name
 :type: string
 :format: default 
 
@@ -62,7 +62,7 @@ last_name
 first_name
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: first_name
 :type: string
 :format: default 
 
@@ -73,7 +73,7 @@ first_name
 middle_name
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: middle_name
 :type: string
 :format: default 
 
@@ -84,7 +84,7 @@ middle_name
 middle_initial
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: middle_initial
 :type: string
 :format: default 
 
@@ -95,7 +95,7 @@ middle_initial
 rank
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: rank
 :type: string
 :format: default 
 
@@ -106,7 +106,7 @@ rank
 navy
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: navy
 :type: integer
 :format: default 
 

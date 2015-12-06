@@ -18,7 +18,7 @@ Schema
 TheaterCode
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: TheaterCode
 :type: string
 :format: default 
 
@@ -29,7 +29,7 @@ TheaterCode
 TheaterName
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: TheaterName
 :type: string
 :format: default 
 

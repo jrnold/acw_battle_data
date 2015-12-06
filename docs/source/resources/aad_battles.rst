@@ -62,7 +62,7 @@ Schema
 reference_number
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: Reference Number
 :type: string
 :format: default 
 
@@ -74,7 +74,7 @@ The reference number assigned to the battle site/event. The first two letters ar
 Event
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: event
 :type: string
 :format: default 
 
@@ -86,7 +86,7 @@ Name of the battle site/event. The events recorded in the database are primarily
 type
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: Type
 :type: string
 :format: default 
 
@@ -98,7 +98,7 @@ The kind of conflict as designated in The War of the Rebellion: A Compilation of
 start_date
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: Start date
 :type: date
 :format: default 
 
@@ -110,7 +110,7 @@ Beginning day of the event.
 end_date
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: End date
 :type: date
 :format: default 
 
@@ -122,7 +122,7 @@ End day of the event.
 state
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: State
 :type: string
 :format: default 
 :constraints:
@@ -143,7 +143,7 @@ Two-letter abbreviation of the state in which the battle site/event is located. 
 theater
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: Theater
 :type: string
 :format: default 
 
@@ -155,7 +155,7 @@ The name of the theater. 1 Main Eastern Theater of operation. 2 Lower Seaboard T
 campaign
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: campaign
 :type: string
 :format: default 
 
@@ -166,7 +166,7 @@ campaign
 threats
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: threats
 :type: number
 :format: default 
 
@@ -178,7 +178,7 @@ The degree of anticipated threats to the battle sites' integrity over the next 1
 ownership_federal
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: Ownership (Federal)
 :type: boolean
 :format: default 
 
@@ -190,7 +190,7 @@ The kind(s) of known ownership of the battle site. The Commission relied on the 
 ownership_local
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: Ownership (local government)
 :type: boolean
 :format: default 
 
@@ -201,7 +201,7 @@ ownership_local
 ownership_private
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: Ownership (private)
 :type: boolean
 :format: default 
 
@@ -212,7 +212,7 @@ ownership_private
 ownership_state
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: Ownership (state government)
 :type: boolean
 :format: default 
 
@@ -223,7 +223,7 @@ ownership_state
 ownership_unknown
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: Ownership (unknown)
 :type: boolean
 :format: default 
 
@@ -234,7 +234,7 @@ ownership_unknown
 park
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: park
 :type: boolean
 :format: default 
 
@@ -246,7 +246,7 @@ Park means any size or kind (historical, recreations, natural, etc.) of federal,
 integrity
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: integrity
 :type: string
 :format: default 
 
@@ -261,7 +261,7 @@ A local site has changed beyond recognition, meaning that a local resident of th
 military
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: military
 :type: string
 :format: default 
 :constraints:
@@ -286,7 +286,7 @@ Major: An engagement of magnitude involving field armies or divisions of the arm
 interpretive_political
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: Interpretive Potential: effect upon international diplomacy
 :type: boolean
 :format: default 
 
@@ -297,7 +297,7 @@ interpretive_political
 interpretive_commander_loss
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: Interpretive Potential: Loss of significant commander (Wounding, Death, Relieved of Command)
 :type: boolean
 :format: default 
 
@@ -308,7 +308,7 @@ interpretive_commander_loss
 interpretive_casualties
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: Interpretive Potential: Unusually High Casualties
 :type: boolean
 :format: default 
 
@@ -319,7 +319,7 @@ interpretive_casualties
 interpretive_tactics_strategy
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: Interpretive Potential: Illustrates Important Lessons in Military Tactics and Strategy
 :type: boolean
 :format: default 
 
@@ -330,7 +330,7 @@ interpretive_tactics_strategy
 interpretive_public_mind
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: Interpretive Potential: Unusual Importanve in the Public Mind and Imagination
 :type: boolean
 :format: default 
 
@@ -341,7 +341,7 @@ interpretive_public_mind
 interpretive_combat_arm
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: Interpretive Potential: Significant Participation of Cavalry, Artillery, or Other Single Combat Arm
 :type: boolean
 :format: default 
 
@@ -352,7 +352,7 @@ interpretive_combat_arm
 interpretive_military_firsts
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: Interpretive Potential: Military Firsts
 :type: boolean
 :format: default 
 
@@ -363,7 +363,7 @@ interpretive_military_firsts
 interpretive_minority_troops
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: Interpretive Potential: Participation of Significant Numbers of Minority Troops
 :type: boolean
 :format: default 
 
@@ -374,7 +374,7 @@ interpretive_minority_troops
 interpretive_economic
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: Interpretive Potential: Significant Economic Consequences
 :type: boolean
 :format: default 
 
@@ -385,7 +385,7 @@ interpretive_economic
 interpretive_archaelolgical
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: Interpretive Potential: High Archaelogical Potential
 :type: boolean
 :format: default 
 
@@ -396,7 +396,7 @@ interpretive_archaelolgical
 interpretive_logistics
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: Interpretive Potential: Unusually Significant Logistics or Supply Feat
 :type: boolean
 :format: default 
 
@@ -407,7 +407,7 @@ interpretive_logistics
 interpretive_individual_bravery
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: Interpretive Potential: Exception Individual Initiative in Bravery or Command
 :type: boolean
 :format: default 
 
@@ -418,7 +418,7 @@ interpretive_individual_bravery
 interpretive_group_behavior
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: Interpretive Potential: Exceptional Group Behavior
 :type: boolean
 :format: default 
 
@@ -429,7 +429,7 @@ interpretive_group_behavior
 interpretive_joint_ops
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: Interpretive Potential: Illustrates Joint Operations (Army, Navy)
 :type: boolean
 :format: default 
 
@@ -440,7 +440,7 @@ interpretive_joint_ops
 interpretive_coop_armies
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: Interpretive Potential: Illustrates Cooperation of Separate Military Departments or Armies
 :type: boolean
 :format: default 
 
@@ -451,7 +451,7 @@ interpretive_coop_armies
 interpretive_naval
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: Interpretive Potential: Naval Operations
 :type: boolean
 :format: default 
 
@@ -462,7 +462,7 @@ interpretive_naval
 Military (Jim)
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: jim
 :type: string
 :format: default 
 :constraints:
@@ -482,7 +482,7 @@ Dr. James M. McPherson. The letter in this field is Dr. McPherson's initial opin
 ed
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: Military (Ed)
 :type: string
 :format: default 
 :constraints:
@@ -502,7 +502,7 @@ Dr. Edwin C. Bearss. The letter in this field is Mr. Bearss 'initial opinion reg
 bill
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: Military (Bill)
 :type: string
 :format: default 
 :constraints:
@@ -523,7 +523,7 @@ Dr. William J. Cooper, Jr.. The letter in this field is Dr. Cooper's initial opi
 protected
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: Protected land area (acres)
 :type: number
 :format: default 
 
@@ -535,7 +535,7 @@ The number of acres of the battle site that are protected; for example, by easem
 percent
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: Protected (percent of land area)
 :type: number
 :format: default 
 
@@ -546,7 +546,7 @@ Percentage of the land area of the battlefield that is protected. This field is 
 county
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: County
 :type: string
 :format: default 
 
@@ -558,7 +558,7 @@ The county, or counties, in which the battle site is located. In Virginia, incor
 value
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: value
 :type: string
 :format: default 
 
@@ -570,7 +570,7 @@ The assessed land value of the battle site. This field is incomplete and the dat
 priority1
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: priority1
 :type: boolean
 :format: default 
 
@@ -581,7 +581,7 @@ priority1
 url
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:label: 
+:title: url
 :type: string
 :format: url 
 
