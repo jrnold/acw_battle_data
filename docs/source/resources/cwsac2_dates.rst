@@ -1,4 +1,4 @@
-cwsac2_dates
+CWSAC Report Updates battle data: battle dates
 ================================================================================
 
 :name: cwsac2_dates
@@ -18,30 +18,48 @@ Schema
 battle
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: battle
+:title: Battle
 :type: string
 :format: default 
+:constraints:
+    
+    :minLength: 5 
+    :maxLength: 6 
+    
+    :pattern: [A-Z]{2}[0-9]{3}[A-Z]? 
+    
+    
+         
 
 
-
+CWSAC battle identifier
        
 
 spell
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: spell
+:title: Spell
 :type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 1 
+    :maximum: 2 
+         
 
 
-
+Spell number of the battle. Only one battle had non-contiguous dates, and two spells.
        
 
 start_date
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: start_date
-:type: string
+:title: Start Date
+:type: date
 :format: default 
 
 
@@ -51,8 +69,8 @@ start_date
 end_date
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: end_date
-:type: string
+:title: End Date
+:type: date
 :format: default 
 
 

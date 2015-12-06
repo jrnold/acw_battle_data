@@ -1,4 +1,4 @@
-bodart1908_generals_killed
+Bodart (1908) battle data: generals killed
 ================================================================================
 
 :name: bodart1908_generals_killed
@@ -24,7 +24,7 @@ Schema
 battle_id
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: battle_id
+:title: Battle Id.
 :type: string
 :format: default 
 
@@ -35,7 +35,7 @@ battle_id
 country
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: country
+:title: Country
 :type: string
 :format: default 
 
@@ -46,7 +46,7 @@ country
 name
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: name
+:title: Name
 :type: string
 :format: default 
 
@@ -57,7 +57,7 @@ name
 last_name
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: last_name
+:title: Last name
 :type: string
 :format: default 
 
@@ -68,7 +68,7 @@ last_name
 first_name
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: first_name
+:title: First name
 :type: string
 :format: default 
 
@@ -79,7 +79,7 @@ first_name
 middle_name
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: middle_name
+:title: Middle name
 :type: string
 :format: default 
 
@@ -90,7 +90,7 @@ middle_name
 suffix
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: suffix
+:title: Suffix
 :type: number
 :format: default 
 
@@ -101,33 +101,33 @@ suffix
 rank
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: rank
+:title: Rank
 :type: string
 :format: default 
 
 
-
+Rank of the general
        
 
 date
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 :title: date
-:type: string
+:type: date
 :format: default 
 
 
-
+Date the general was killed (if given).
        
 
 dbpedia
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: dbpedia
+:title: Dbpedia URI
 :type: string
-:format: default 
+:format: url 
 
 
-
+URI of the dbpedia.org resource for the person.
        
 

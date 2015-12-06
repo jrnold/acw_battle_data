@@ -1,4 +1,4 @@
-cwsac_campaigns
+CWSAC Report battle data: campaigns
 ================================================================================
 
 :name: cwsac_campaigns
@@ -18,31 +18,40 @@ Schema
 campaign
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: campaign
+:title: Campaign
 :type: string
 :format: default 
 
 
-
+Campaign name
        
 
 theater
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: theater
+:title: Theater
 :type: string
 :format: default 
 
 
-
+Theater of the campaign
        
 
 start_year
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: start_year
+:title: Start year
 :type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 1861 
+    :maximum: 1865 
+         
 
 
 
@@ -51,9 +60,18 @@ start_year
 start_month
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: start_month
+:title: Start month
 :type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 1 
+    :maximum: 12 
+         
 
 
 
@@ -62,9 +80,18 @@ start_month
 end_year
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: end_year
+:title: End year
 :type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 1861 
+    :maximum: 1865 
+         
 
 
 
@@ -73,9 +100,18 @@ end_year
 end_month
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: end_month
+:title: End Month
 :type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 1 
+    :maximum: 12 
+         
 
 
 
@@ -89,6 +125,6 @@ dbpedia
 :format: default 
 
 
-
+URI of the dbpedia.org resource for the campaign
        
 

@@ -1,4 +1,4 @@
-bodart1909_forces
+Bodart (1908) battle data: force strengths and casualties
 ================================================================================
 
 :name: bodart1908_forces
@@ -30,7 +30,7 @@ Schema
 battle_id
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: battle_id
+:title: Battle id
 :type: string
 :format: default 
 
@@ -44,93 +44,102 @@ country
 :title: country
 :type: string
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    
+    
+    :enum: ['Conferacy', 'Union']      
 
 
-
+Belligerent (Union or Confederate) of the force.
        
 
 victor
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: victor
+:title: Victor
 :type: boolean
 :format: default 
 
 
-
+Did the side win?
        
 
 strength
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: strength
-:type: number
+:title: Strength
+:type: integer
 :format: default 
 
 
-
+Total personnel
        
 
 strength_engaged
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: strength_engaged
-:type: number
+:title: Strength Engaged
+:type: integer
 :format: default 
 
 
-
+Personnel engaged in combat
        
 
 infantry
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: infantry
-:type: number
+:title: Infantry
+:type: integer
 :format: default 
 
 
-
+Number of infantry
        
 
 cavalry
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 :title: cavalry
-:type: number
+:type: integer
 :format: default 
 
 
-
+Number of cavalry
        
 
 artillery
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: artillery
-:type: number
+:title: Artillery
+:type: integer
 :format: default 
 
 
-
+Number of artillery personnel
        
 
 guns
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 :title: guns
-:type: number
+:type: integer
 :format: default 
 
 
-
+Number of guns (artillery pieces)
        
 
 killed
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: killed
-:type: number
+:title: Killed
+:type: integer
 :format: default 
 
 
@@ -140,9 +149,18 @@ killed
 killed_percent
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: killed_percent
+:title: Killed (percent)
 :type: number
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    :maximum: 1 
+         
 
 
 
@@ -152,7 +170,7 @@ killed_generals
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 :title: killed_generals
-:type: number
+:type: integer
 :format: default 
 
 
@@ -163,7 +181,7 @@ killed_officers
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 :title: killed_officers
-:type: number
+:type: integer
 :format: default 
 
 
@@ -174,7 +192,7 @@ killed_wounded
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 :title: killed_wounded
-:type: number
+:type: integer
 :format: default 
 
 
@@ -184,9 +202,18 @@ killed_wounded
 killed_wounded_percent
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: killed_wounded_percent
+:title: Killed Wounded (percent)
 :type: number
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    :maximum: 1 
+         
 
 
 
@@ -195,8 +222,8 @@ killed_wounded_percent
 killed_wounded_generals
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: killed_wounded_generals
-:type: number
+:title: Generals killed or wounded
+:type: integer
 :format: default 
 
 
@@ -206,8 +233,8 @@ killed_wounded_generals
 killed_wounded_officers
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: killed_wounded_officers
-:type: number
+:title: Officers killed or wounded
+:type: integer
 :format: default 
 
 
@@ -218,7 +245,7 @@ wounded
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 :title: wounded
-:type: number
+:type: integer
 :format: default 
 
 
@@ -228,9 +255,18 @@ wounded
 wounded_percent
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: wounded_percent
+:title: Wounded (percent)
 :type: number
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    :maximum: 1 
+         
 
 
 
@@ -239,8 +275,8 @@ wounded_percent
 wounded_generals
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: wounded_generals
-:type: number
+:title: Generals wounded
+:type: integer
 :format: default 
 
 
@@ -250,8 +286,8 @@ wounded_generals
 wounded_officers
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: wounded_officers
-:type: number
+:title: Officers wounded
+:type: integer
 :format: default 
 
 
@@ -262,7 +298,7 @@ captured
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 :title: captured
-:type: number
+:type: integer
 :format: default 
 
 
@@ -272,8 +308,8 @@ captured
 captured_generals
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: captured_generals
-:type: number
+:title: Generals captured
+:type: integer
 :format: default 
 
 
@@ -283,8 +319,8 @@ captured_generals
 captured_officers
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: captured_officers
-:type: number
+:title: Officers captured
+:type: integer
 :format: default 
 
 
@@ -295,7 +331,7 @@ missing
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 :title: missing
-:type: number
+:type: integer
 :format: default 
 
 
@@ -305,9 +341,18 @@ missing
 missing_percent
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: missing_percent
+:title: Missing (percent)
 :type: number
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    :maximum: 1 
+         
 
 
 
@@ -316,8 +361,8 @@ missing_percent
 missing_generals
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: missing_generals
-:type: number
+:title: Generals missing
+:type: integer
 :format: default 
 
 
@@ -327,8 +372,8 @@ missing_generals
 missing_officers
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: missing_officers
-:type: number
+:title: Officers missing
+:type: integer
 :format: default 
 
 
@@ -338,20 +383,29 @@ missing_officers
 casualties
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: casualties
-:type: number
+:title: Casualties
+:type: integer
 :format: default 
 
 
-
+Total casualties (killed, wounded, and missing or captured)
        
 
 casualties_percent
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: casualties_percent
+:title: Casualties (percent)
 :type: number
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    :maximum: 1 
+         
 
 
 
@@ -360,8 +414,8 @@ casualties_percent
 casualties_officers
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: casualties_officers
-:type: number
+:title: Casualties (officers)
+:type: integer
 :format: default 
 
 
@@ -371,8 +425,8 @@ casualties_officers
 casualties_generals
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: casualties_generals
-:type: number
+:title: Casualties (generals)
+:type: integer
 :format: default 
 
 
@@ -382,8 +436,8 @@ casualties_generals
 losses_guns
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: losses_guns
-:type: number
+:title: Losses of guns
+:type: integer
 :format: default 
 
 
@@ -393,8 +447,8 @@ losses_guns
 losses_caissons
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: losses_caissons
-:type: number
+:title: Losses of caissons
+:type: integer
 :format: default 
 
 
@@ -404,19 +458,8 @@ losses_caissons
 losses_cannon
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: losses_cannon
-:type: number
-:format: default 
-
-
-
-       
-
-losses_canons
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-:title: losses_canons
-:type: number
+:title: Losses of cannons
+:type: integer
 :format: default 
 
 
@@ -426,8 +469,8 @@ losses_canons
 losses_flags
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: losses_flags
-:type: number
+:title: Losses of flags
+:type: integer
 :format: default 
 
 
@@ -437,8 +480,8 @@ losses_flags
 losses_munition_wagons
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: losses_munition_wagons
-:type: number
+:title: Losses of munition wagons
+:type: integer
 :format: default 
 
 
@@ -448,8 +491,8 @@ losses_munition_wagons
 losses_wagons
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: losses_wagons
-:type: number
+:title: Losses of wagons
+:type: integer
 :format: default 
 
 
@@ -459,7 +502,7 @@ losses_wagons
 other
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: other
+:title: Comments
 :type: string
 :format: default 
 

@@ -1,4 +1,4 @@
-cwsac_theaters
+CWSAC Report Updates battle data: theaters
 ================================================================================
 
 :name: cwsac_theaters
@@ -18,7 +18,7 @@ Schema
 theater
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: theater
+:title: Theater
 :type: string
 :format: default 
 
@@ -29,22 +29,22 @@ theater
 dbp_resource
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: dbp_resource
+:title: DBPedia URI
 :type: string
-:format: default 
+:format: url 
 
 
-
+URI of the dbpedia.org category resource for the theater.
        
 
 dbp_category
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: dbp_category
+:title: DBPedia URI (category)
 :type: string
-:format: default 
+:format: url 
 
 
-
+URI of the dbpedia.org category resource for the theater.
        
 

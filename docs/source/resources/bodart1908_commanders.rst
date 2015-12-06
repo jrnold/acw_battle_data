@@ -1,4 +1,4 @@
-bodart1908_commanders
+Bodart (1908) battle data: commanders
 ================================================================================
 
 :name: bodart1908_commanders
@@ -24,7 +24,7 @@ Schema
 battle_id
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: battle_id
+:title: Battle Id.
 :type: string
 :format: default 
 
@@ -35,29 +35,29 @@ battle_id
 country
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: country
+:title: Country
 :type: string
 :format: default 
 
 
-
+Country of the commander
        
 
 name
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: name
+:title: Name
 :type: string
 :format: default 
 
 
-
+Name of the commander
        
 
 last_name
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: last_name
+:title: Last Name
 :type: string
 :format: default 
 
@@ -68,7 +68,7 @@ last_name
 first_name
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: first_name
+:title: First Name
 :type: string
 :format: default 
 
@@ -79,7 +79,7 @@ first_name
 middle_name
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: middle_name
+:title: Middle Name
 :type: string
 :format: default 
 
@@ -90,7 +90,7 @@ middle_name
 suffix
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: suffix
+:title: Suffix
 :type: number
 :format: default 
 
@@ -101,22 +101,22 @@ suffix
 rank
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: rank
+:title: Rank
 :type: string
 :format: default 
 
 
-
+rank of the commander
        
 
 dbpedia
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: dbpedia
+:title: Dbpedia
 :type: string
-:format: default 
+:format: url 
 
 
-
+dbpedia.org URI of the commandern
        
 

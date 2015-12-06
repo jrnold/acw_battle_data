@@ -1,4 +1,4 @@
-cwsac_significance
+CWSAC Report Updates battle data: military significance categories
 ================================================================================
 
 :name: cwsac_significance
@@ -18,7 +18,7 @@ Schema
 value
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: value
+:title: Value
 :type: string
 :format: default 
 
@@ -29,7 +29,7 @@ value
 description
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: description
+:title: Description
 :type: string
 :format: default 
 

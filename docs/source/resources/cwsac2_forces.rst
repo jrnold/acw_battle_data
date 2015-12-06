@@ -1,4 +1,4 @@
-cwsac2_forces
+CWSAC Report Updates battle data: force strengths
 ================================================================================
 
 :name: cwsac2_forces
@@ -18,12 +18,21 @@ Schema
 battle
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: battle
+:title: Battle
 :type: string
 :format: default 
+:constraints:
+    
+    :minLength: 5 
+    :maxLength: 6 
+    
+    :pattern: [A-Z]{2}[0-9]{3}[A-Z]? 
+    
+    
+         
 
 
-
+CWSAC battle identifier
        
 
 belligerent
@@ -32,6 +41,15 @@ belligerent
 :title: belligerent
 :type: string
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    
+    
+    :enum: ['US', 'Confederate', 'Native American']      
 
 
 
@@ -40,253 +58,451 @@ belligerent
 description
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: description
+:title: Description
 :type: string
 :format: default 
 
 
-
+Description of the units involved
        
 
 strength
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 :title: strength
-:type: number
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
-
+Total personnel in the force. In some cases CWSAC gives a numeric value of the forces involved. In other cases, it describes the units involved. The columns ``strength_mean`` and ``strength_var`` estimate the strength combining all information given by CWSAC.
        
 
 regiments
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: regiments
-:type: number
+:title: Regiments
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
-
+Number of regiments
        
 
 companies
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 :title: companies
-:type: number
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
-
+Number of companies
        
 
 brigades
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 :title: brigades
-:type: number
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
-
+Number of brigades
        
 
 divisions
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 :title: divisions
-:type: number
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
-
+Number of divisions
        
 
 corps
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 :title: corps
-:type: number
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
-
+Number of corps
        
 
 armies
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 :title: armies
-:type: number
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
-
+Number of armies
        
 
 cavalry_regiments
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: cavalry_regiments
-:type: number
+:title: Cavalry Regiments
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
-
+Number of cavalry regiments
        
 
 cavalry_brigades
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: cavalry_brigades
-:type: number
+:title: Cavalry Brigades
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
-
+Number of cavalry brigades
        
 
 cavalry_divisions
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: cavalry_divisions
-:type: number
+:title: Cavalry Divisions
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
-
+Number of cavalry divisions
        
 
 cavalry_corps
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: cavalry_corps
-:type: number
+:title: Cavalry Corps
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
-
+Number of cavalry corps
        
 
 cavalry_companies
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: cavalry_companies
-:type: number
+:title: Cavalry Companies
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
-
+Number of cavalry companies
        
 
 artillery_batteries
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: artillery_batteries
-:type: number
+:title: Artillery Batteries
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
-
+Number of artillery batteries
        
 
 artillery_companies
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: artillery_companies
-:type: number
+:title: Artillery Companies
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
-
+Number of artillery companies
        
 
 artillery_regiments
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: artillery_regiments
-:type: number
+:title: Artillery Regiments
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
-
+Number of artillery regiments
        
 
 artillery_sections
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: artillery_sections
-:type: number
+:title: Artillery Sections
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
-
+Number of artillery sections
        
 
 infantry_regiments
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: infantry_regiments
-:type: number
+:title: Infantry Regiments
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
-
+Number of infantry regiments
        
 
 strength_other
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: strength_other
-:type: number
+:title: Strength (other)
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
-
+Number of personnel involved other than the units listed in the description.
        
 
 ships
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: ships
-:type: number
+:title: Ships
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
-
+Number of ships involved in the battle
        
 
 guns
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: guns
-:type: number
+:title: Guns
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
-
+Number of artillery pieces involved in the battle
        
 
 strength_mean
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: strength_mean
+:title: Strength (mean)
 :type: number
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
-
+Mean of the estimated strength in personnel of the force. See code for how it is calculated.
        
 
 strength_var
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: strength_var
+:title: Strength (variance)
 :type: number
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 0 
+    
+         
 
 
-
+Variance of the estimated strength in personnel of the force. See code for how it is calculated.
        
 
