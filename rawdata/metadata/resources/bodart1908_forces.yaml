@@ -7,59 +7,61 @@ schema:
     name: battle_id
     title: Battle id
     type: string
-  - format: default
+  - constraints:
+      enum:
+      - Conferacy
+      - Union
+    description: Belligerent (Union or Confederate) of the force.
+    format: default
     name: country
     title: country
     type: string
-    constraints:
-      enum: ["Conferacy", "Union"]
-    description: Belligerent (Union or Confederate) of the force.
-  - format: default
+  - description: Did the side win?
+    format: default
     name: victor
     title: Victor
     type: boolean
-    description: Did the side win? 
-  - format: default
+  - description: Total personnel
+    format: default
     name: strength
     title: Strength
     type: integer
-    description: Total personnel
-  - format: default
+  - description: Personnel engaged in combat
+    format: default
     name: strength_engaged
     title: Strength Engaged
     type: integer
-    description: Personnel engaged in combat
-  - format: default
+  - description: Number of infantry
+    format: default
     name: infantry
     title: Infantry
     type: integer
-    description: Number of infantry
-  - format: default
+  - description: Number of cavalry
+    format: default
     name: cavalry
     title: cavalry
     type: integer
-    description: Number of cavalry
-  - format: default
+  - description: Number of artillery personnel
+    format: default
     name: artillery
     title: Artillery
     type: integer
-    description: Number of artillery personnel
-  - format: default
+  - description: Number of guns (artillery pieces)
+    format: default
     name: guns
     title: guns
     type: integer
-    description: Number of guns (artillery pieces)
   - format: default
     name: killed
     title: Killed
     type: integer
-  - format: default
+  - constraints:
+      maximum: 1
+      minimum: 0
+    format: default
     name: killed_percent
     title: Killed (percent)
     type: number
-    constraints:
-      minimum: 0
-      maximum: 1
   - format: default
     name: killed_generals
     title: killed_generals
@@ -72,13 +74,13 @@ schema:
     name: killed_wounded
     title: killed_wounded
     type: integer
-  - format: default
+  - constraints:
+      maximum: 1
+      minimum: 0
+    format: default
     name: killed_wounded_percent
     title: Killed Wounded (percent)
     type: number
-    constraints:
-      minimum: 0
-      maximum: 1
   - format: default
     name: killed_wounded_generals
     title: Generals killed or wounded
@@ -91,13 +93,13 @@ schema:
     name: wounded
     title: wounded
     type: integer
-  - format: default
+  - constraints:
+      maximum: 1
+      minimum: 0
+    format: default
     name: wounded_percent
     title: Wounded (percent)
     type: number
-    constraints:
-      minimum: 0
-      maximum: 1
   - format: default
     name: wounded_generals
     title: Generals wounded
@@ -122,13 +124,13 @@ schema:
     name: missing
     title: missing
     type: integer
-  - format: default
+  - constraints:
+      maximum: 1
+      minimum: 0
+    format: default
     name: missing_percent
     title: Missing (percent)
     type: number
-    constraints:
-      minimum: 0
-      maximum: 1
   - format: default
     name: missing_generals
     title: Generals missing
@@ -137,19 +139,18 @@ schema:
     name: missing_officers
     title: Officers missing
     type: integer
-  - format: default
+  - description: Total casualties (killed, wounded, and missing or captured)
+    format: default
     name: casualties
     title: Casualties
     type: integer
-    description: Total casualties (killed, wounded, and missing or captured)
-  - format: default
+  - constraints:
+      maximum: 1
+      minimum: 0
+    format: default
     name: casualties_percent
     title: Casualties (percent)
     type: number
-    constraints:
-      minimum: 0
-      maximum: 1
-    
   - format: default
     name: casualties_officers
     title: Casualties (officers)
@@ -186,4 +187,4 @@ schema:
     name: other
     title: Comments
     type: string
-title: "Bodart (1908) battle data: force strengths and casualties"
+title: 'Bodart (1908) battle data: force strengths and casualties'

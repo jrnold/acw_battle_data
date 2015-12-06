@@ -7,16 +7,14 @@ schema:
     name: theater
     title: Theater
     type: string
-  - format: url
+  - description: URI of the dbpedia.org category resource for the theater.
+    format: url
     name: dbp_resource
     title: DBPedia URI
     type: string
-    description: >-
-      URI of the dbpedia.org category resource for the theater.
-  - format: url
+  - description: URI of the dbpedia.org category resource for the theater.
+    format: url
     name: dbp_category
     title: DBPedia URI (category)
     type: string
-    description: >-
-      URI of the dbpedia.org category resource for the theater.
-title: "CWSAC Report Updates battle data: theaters"
+title: 'CWSAC Report Updates battle data: theaters'

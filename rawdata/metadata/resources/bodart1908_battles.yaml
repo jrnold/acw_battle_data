@@ -7,16 +7,16 @@ schema:
     name: battle_id
     title: Battle Id
     type: string
-  - format: default
+  - description: Name of the battle (in German)
+    format: default
     name: name
     title: Battle Name
     type: string
-    description: Name of the battle (in German)
-  - format: default
+  - description: Alternate names for the battle (in German)
+    format: default
     name: other_name
     title: Other Name
     type: string
-    description: Alternate names for the battle (in German)
   - format: default
     name: start_date
     title: Start Date
@@ -25,39 +25,38 @@ schema:
     name: end_date
     title: End Date
     type: date
-  - format: default
+  - description: Location of the battle (in German)
+    format: default
     name: location
     title: Location
     type: string
-    description: Location of the battle (in German)
-  - format: default
+  - description: '
+
+      Battle severity. Bodart classifies the severity of battles on a 5 point scale.'
+    format: default
     name: order
     title: Order
     type: number
-    description: >-
-
-      Battle severity. Bodart classifies the severity of battles on a 5 point scale.
-      
-  - format: default
+  - description: Was the battle a siege ("Belagerung")?
+    format: default
     name: siege
     title: Siege
     type: boolean
-    description: Was the battle a siege ("Belagerung")?
-  - format: default
+  - description: Was the battle a major battle ("Schlacht")?
+    format: default
     name: battle
     title: Battle
     type: boolean
-    description: Was the battle a major battle ("Schlacht")?
-  - format: default
+  - description: Was the battle a meeting or encounter ("Treffen")?
+    format: default
     name: meeting
     title: Meeting
     type: boolean
-    description: Was the battle a meeting or encounter ("Treffen")?
-  - format: default
+  - description: Was the battle a surrender ("Kapitulation")?
+    format: default
     name: surrender
     title: Surrender
     type: boolean
-    description: Was the battle a surrender ("Kapitulation")?
   - format: default
     name: siege.1
     title: siege.1
@@ -66,9 +65,9 @@ schema:
     name: capture
     title: Capture
     type: integer
-  - format: default
+  - description: Page number in Bodart (1908)
+    format: default
     name: page
     title: page
     type: integer
-    description: Page number in Bodart (1908)
 title: Bodart (1908) battles of the American Civil War

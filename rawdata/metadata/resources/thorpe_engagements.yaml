@@ -1,4 +1,3 @@
-description: ''
 format: csv
 name: thorpe_engagements
 path: data/thorpe_engagements.csv
@@ -6,54 +5,61 @@ schema:
   fields:
   - format: default
     name: battleNum
-    title: battleNum
+    title: Battle number
     type: integer
+    description: Battle identifier number
   - format: default
     name: battleDetail
-    title: battleDetail
+    title: Battle details
     type: string
+    description: Description of the battle
   - format: default
     name: beginDate
-    title: beginDate
-    type: string
+    title: Begin date
+    type: date
   - format: default
     name: endDate
-    title: endDate
-    type: string
+    title: End date
+    type: date
   - format: default
     name: unknownDay
-    title: unknownDay
+    title: Unknown day
     type: boolean
+    description: >-
+      Equal to 1 if the date of the battle was unknown. In which case, the first and last days of the month are used.
   - format: default
     name: lat
-    title: lat
+    title: Latitude
     type: number
   - format: default
     name: lng
-    title: lng
+    title: Longitude
     type: number
   - format: default
     name: shrtNm
-    title: shrtNm
+    title: Short name
     type: string
   - format: default
     name: desc
-    title: desc
+    title: Description
     type: string
   - format: default
     name: type
-    title: type
+    title: Type
     type: string
+    description: >-
+      Type of engagement. E.g. skirmish, siege, engagement.
   - format: default
     name: killed
-    title: killed
+    title: Killed
     type: integer
   - format: default
     name: usCasTot
-    title: usCasTot
+    title: Total US casualties
     type: integer
   - format: default
     name: csCasTot
-    title: csCasTot
+    title: Total Confederate casualties
     type: integer
-title: thorpe_engagements
+title: >-
+  Locations of engagements from Washington Post map, "Battles and casualties of the American Civil War"

@@ -1,4 +1,3 @@
-description: ''
 format: csv
 name: greer2005_weekly_casualties
 path: data/greer2005_weekly_casualties.csv
@@ -7,29 +6,45 @@ schema:
   - format: default
     name: date
     title: date
-    type: string
+    type: date
+    description: Casualties are given by week. This is the first day of that week period.
   - format: default
     name: description
-    title: description
+    title: Description
     type: string
+    description: >-
+      Description of the casualties. This can either be a battle or "attrition" (for non-battle casualties).
   - format: default
     name: confederate
-    title: confederate
+    title: Confederate casualties
     type: number
+    constraints:
+      minimum: 0
   - format: default
     name: union
-    title: union
-    type: number
+    title: Union casualties
+    type: integer
+    constraints:
+      minimum: 0
   - format: default
     name: theater
     title: theater
     type: string
+    constraints:
+      enum:
+        - Lower Seaboard
+        - Trans-Mississippi
+        - Eastern
+        - Western
+    description: Theater in which the combat casualties occurred.
   - format: default
     name: cwsac_id
-    title: cwsac_id
+    title: Cwsac Id.
     type: string
+    description: CWSAC battle associated with the casualties.
   - format: default
     name: cwsac_battle_name
-    title: cwsac_battle_name
+    title: Cwsac Battle Name
     type: string
-title: greer2005_weekly_casualties
+    description: Name of the CWSAC battle associated with the casualties.    
+title: Weekly casualty data from Greer "Counting Casualties Week-by-Week"

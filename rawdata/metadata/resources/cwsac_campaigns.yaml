@@ -3,52 +3,49 @@ name: cwsac_campaigns
 path: data/cwsac_campaigns.csv
 schema:
   fields:
-  - format: default
+  - description: Campaign name
+    format: default
     name: campaign
     title: Campaign
     type: string
-    description: Campaign name
-  - format: default
+  - description: Theater of the campaign
+    format: default
     name: theater
     title: Theater
     type: string
-    description: Theater of the campaign
-  - format: default
+  - constraints:
+      maximum: 1865
+      minimum: 1861
+    format: default
     name: start_year
     title: Start year
     type: integer
-    constraints:
-      minimum: 1861
-      maximum: 1865      
-  - format: default
+  - constraints:
+      maximum: 12
+      minimum: 1
+    format: default
     name: start_month
     title: Start month
     type: integer
-    constraints:
-      minimum: 1
-      maximum: 12
-  - format: default
+  - constraints:
+      maximum: 1865
+      minimum: 1861
+    format: default
     name: end_year
     title: End year
     type: integer
-    constraints:
-      minimum: 1861
-      maximum: 1865      
-    
-  - format: default
+  - constraints:
+      maximum: 12
+      minimum: 1
+    format: default
     name: end_month
     title: End Month
     type: integer
-    constraints:
-      minimum: 1
-      maximum: 12
-    
-  - format: default
+  - description: URI of the dbpedia.org resource for the campaign
+    format: default
     name: dbpedia
+    sources:
+    - self
     title: dbpedia
     type: string
-    description: >-
-      URI of the dbpedia.org resource for the campaign
-    sources:
-      - self
-title: "CWSAC Report battle data: campaigns"
+title: 'CWSAC Report battle data: campaigns'

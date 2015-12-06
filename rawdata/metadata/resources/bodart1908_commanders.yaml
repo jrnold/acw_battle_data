@@ -8,16 +8,16 @@ schema:
     name: battle_id
     title: Battle Id.
     type: string
-  - format: default
+  - description: Country of the commander
+    format: default
     name: country
     title: Country
     type: string
-    description: Country of the commander
-  - format: default
+  - description: Name of the commander
+    format: default
     name: name
     title: Name
     type: string
-    description: Name of the commander
   - format: default
     name: last_name
     title: Last Name
@@ -34,16 +34,16 @@ schema:
     name: suffix
     title: Suffix
     type: number
-  - format: default
+  - description: rank of the commander
+    format: default
     name: rank
     title: Rank
     type: string
-    description: rank of the commander
-  - format: url
+  - description: dbpedia.org URI of the commandern
+    format: url
     name: dbpedia
+    sources:
+    - self
     title: Dbpedia
     type: string
-    description: dbpedia.org URI of the commandern
-    sources:
-      - "self" 
-title: "Bodart (1908) battle data: commanders"
+title: 'Bodart (1908) battle data: commanders'

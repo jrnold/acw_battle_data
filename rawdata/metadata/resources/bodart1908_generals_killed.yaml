@@ -31,19 +31,19 @@ schema:
     name: suffix
     title: Suffix
     type: number
-  - format: default
+  - description: Rank of the general
+    format: default
     name: rank
     title: Rank
     type: string
-    description: Rank of the general
-  - format: default
+  - description: Date the general was killed (if given).
+    format: default
     name: date
     title: date
     type: date
-    description: Date the general was killed (if given).
-  - format: url
+  - description: URI of the dbpedia.org resource for the person.
+    format: url
     name: dbpedia
     title: Dbpedia URI
     type: string
-    description: URI of the dbpedia.org resource for the person.
-title: Bodart (1908) battle data: generals killed
+title: 'Bodart (1908) battle data: generals killed'
