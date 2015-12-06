@@ -1,39 +1,50 @@
-description: ''
 format: csv
 name: cwsac2_commanders
 path: data/cwsac2_commanders.csv
 schema:
   fields:
-  - format: default
+  - constraints:
+      maxLength: 6
+      minLength: 5
+      pattern: '[A-Z]{2}[0-9]{3}[A-Z]?'
+    description: CWSAC battle identifier
+    format: default
     name: battle
-    title: battle
+    title: Battle
     type: string
-  - format: default
+  - constraints:
+      enum:
+      - US
+      - Confederate
+      - Native American
+    format: default
     name: belligerent
     title: belligerent
     type: string
   - format: default
     name: fullname
-    title: fullname
+    title: Full name
     type: string
   - format: default
     name: rank
-    title: rank
+    title: Rank
     type: string
+    description: >-
+      Rank of the commander at the time of the battle
   - format: default
     name: last_name
-    title: last_name
+    title: Last Name
     type: string
   - format: default
     name: first_name
-    title: first_name
+    title: First Name
     type: string
   - format: default
     name: middle_name
-    title: middle_name
+    title: Middle Name
     type: string
   - format: default
     name: suffix
-    title: suffix
+    title: Suffix
     type: string
-title: cwsac2_commanders
+title: "CWSAC Report Updates: commanders"

@@ -4,44 +4,63 @@ name: kennedy1997_battles
 path: data/kennedy1997_battles.csv
 schema:
   fields:
-  - format: default
+  - constraints:
+      maxLength: 6
+      minLength: 5
+      pattern: '[A-Z]{2}[0-9]{3}[A-Z]?'
+    description: CWSAC battle identifier
+    format: default
     name: battle
-    title: battle
+    title: Battle
     type: string
   - format: default
     name: name
-    title: name
+    title: Battle name
     type: string
   - format: default
     name: state
     title: state
     type: string
+    constraints:
+      minLength: 2
+      maxLength: 2
+      pattern: "[A-Z][A-Z]"
   - format: default
     name: county
     title: county
     type: string
+    description: Counties in which the battle took place.
   - format: default
     name: start_date
-    title: start_date
-    type: string
+    title: Start Date
+    type: date
   - format: default
     name: end_date
-    title: end_date
-    type: string
+    title: End Date
+    type: date
   - format: default
     name: casualties_min
-    title: casualties_min
-    type: number
+    title: Casualties (min)
+    type: integer
+    constraints:
+      minimum: 0
+    description: >-
+      Total casualties (killed, wounded, and missing or captured) for both sides, minimum value. For a few battles a total casualty value is given, while no disaggregated casualties are provided.
+
+      This source only gives a range for a few battles. For battles where no range is given, the mimimum and maximum are set to the same value.
+      
   - format: default
     name: casualties_max
-    title: casualties_max
-    type: number
+    title: Casualties (max)
+    type: integer
+    constraints:
+      minimum: 0
+    description: >-
+      
+      Total casualties (killed, wounded, and missing or captured) for both sides, maximum value.
+    
   - format: default
     name: casualties_text
-    title: casualties_text
+    title: Casualties
     type: string
-  - format: default
-    name: missing
-    title: missing
-    type: number
-title: kennedy1997_battles
+title: "Civil War Battlefield Guide data: battles"
