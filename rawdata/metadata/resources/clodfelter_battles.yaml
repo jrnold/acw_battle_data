@@ -8,34 +8,34 @@ schema:
     name: battle
     title: Battle
     type: string
-  - format: default
+  - constraints:
+      enum:
+      - East
+      - West
+      - Blockade War
+    format: default
     name: theater
     title: Theater
     type: string
-    constraints:
+  - constraints:
       enum:
-        - East
-        - West
-        - Blockade War
-  - format: default
+      - 'Eastern Theater: 1861'
+      - 'Western Theater: 1861'
+      - 'The Blockade War: 1861-2'
+      - 'East: 1862'
+      - 'West: 1862'
+      - 'East: 1863'
+      - 'West: 1863'
+      - 'The Blockade War: 1863'
+      - 'East: 1864'
+      - 'West: 1864'
+      - 'The Blockade War: 1864-5'
+      - 'East: 1865'
+      - 'West: 1865'
+    format: default
     name: theater_years
     title: theater_years
     type: string
-    constraints:
-      enum:
-        - "Eastern Theater: 1861"
-        - "Western Theater: 1861"
-        - "The Blockade War: 1861-2"
-        - "East: 1862"
-        - "West: 1862"
-        - "East: 1863"
-        - "West: 1863"
-        - "The Blockade War: 1863"
-        - "East: 1864"
-        - "West: 1864"
-        - "The Blockade War: 1864-5"          
-        - "East: 1865"
-        - "West: 1865"
   - format: default
     name: start_date
     title: Start date
