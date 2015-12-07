@@ -2,6 +2,8 @@ description: ''
 format: csv
 name: aad_battles
 path: data/aad_battles.csv
+sources:
+  - CWSAC_AAD
 schema:
   fields:
   - description: '

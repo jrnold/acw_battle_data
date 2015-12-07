@@ -1,6 +1,6 @@
 format: csv
-name: cwsac2_locations
-path: data/cwsac2_locations.csv
+name: cws2_locations
+path: data/cws2_locations.csv
 schema:
   fields:
   - constraints:
@@ -26,4 +26,27 @@ schema:
     name: location
     title: County or City
     type: string
+sources:
+- CWSII
+- CWSIIAL
+- CWSIIAR
+- CWSIICO
+- CWSIIDC
+- CWSIIFL
+- CWSIIGA
+- CWSIIKS
+- CWSIIKY
+- CWSIIMN
+- CWSIILA
+- CWSIIMD
+- CWSIIMO
+- CWSIINC
+- CWSIIND
+- CWSIIOH
+- CWSIIOK
+- CWSIIPA
+- CWSIISC
+- CWSIITN
+- CWSIIVA
+- CWSIIWV
 title: 'CWSAC Report Updates battle data: locations'

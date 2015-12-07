@@ -120,17 +120,17 @@ def locations_csv(data, filename):
                 writer.writerow(row)
 
 def copy_json(src, dst):
-    shutil.copy(path.join(src, 'cwsac2.json'), dst)
+    shutil.copy(path.join(src, 'cws2.json'), dst)
     
 def build(src, dst):
-    with open(path.join(src, "cwsac2.json"), 'r') as f:
+    with open(path.join(src, "cws2.json"), 'r') as f:
         data = json.load(f)
     
-    battle_csv(data, path.join(dst, 'cwsac2_battles.csv'))
-    forces_csv(data, path.join(dst, 'cwsac2_forces.csv'))
-    commanders_csv(data, path.join(dst, 'cwsac2_commanders.csv'))
-    dates_csv(data, path.join(dst, 'cwsac2_dates.csv'))
-    locations_csv(data, path.join(dst, 'cwsac2_locations.csv'))
+    battle_csv(data, path.join(dst, 'cws2_battles.csv'))
+    forces_csv(data, path.join(dst, 'cws2_forces.csv'))
+    commanders_csv(data, path.join(dst, 'cws2_commanders.csv'))
+    dates_csv(data, path.join(dst, 'cws2_dates.csv'))
+    locations_csv(data, path.join(dst, 'cws2_locations.csv'))
     copy_json(src, dst)
     
                 

@@ -11,4 +11,9 @@ schema:
     name: description
     title: Description
     type: string
+sources:
+- CWSAC1993
+- CWSAC1997
+- CWSAC_by_state
+- CWSAC_by_campgn
 title: 'CWSAC Report Updates battle data: military significance categories'

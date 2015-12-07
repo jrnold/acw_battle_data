@@ -217,4 +217,9 @@ schema:
     - self
     title: Strength (variance)
     type: number
+sources:
+- CWSAC1993
+- CWSAC1997
+- CWSAC_by_state
+- CWSAC_by_campgn
 title: 'CWSAC Report battle data: battles'

@@ -2,4 +2,10 @@ description: ''
 format: json
 name: nytimes_civil_war_chronology
 path: data/nytimes_civil_war_chronology.json
+sources:
+- NYT186%d
+- NYT186%d
+- NYT186%d
+- NYT186%d
+- NYT186%d
 title: nytimes_civil_war_chronology

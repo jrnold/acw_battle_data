@@ -101,8 +101,8 @@ schema:
     title: cas_kwm_var_cwsac1
     type: number
   - format: default
-    name: cwsac2_url
-    title: cwsac2_url
+    name: cws2_url
+    title: cws2_url
     type: string
   - format: default
     name: study_area
@@ -117,16 +117,16 @@ schema:
     title: potnr_boundary
     type: number
   - format: default
-    name: str_mean_cwsac2
-    title: str_mean_cwsac2
+    name: str_mean_cws2
+    title: str_mean_cws2
     type: number
   - format: default
-    name: str_var_cwsac2
-    title: str_var_cwsac2
+    name: str_var_cws2
+    title: str_var_cws2
     type: number
   - format: default
-    name: partof_cwsac2
-    title: partof_cwsac2
+    name: partof_cws2
+    title: partof_cws2
     type: boolean
   - format: default
     name: interpretive_political

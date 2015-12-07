@@ -1,6 +1,6 @@
 format: csv
-name: cwsac2_forces
-path: data/cwsac2_forces.csv
+name: cws2_forces
+path: data/cws2_forces.csv
 schema:
   fields:
   - constraints:
@@ -189,4 +189,27 @@ schema:
     - self
     title: Strength (variance)
     type: number
+sources:
+- CWSII
+- CWSIIAL
+- CWSIIAR
+- CWSIICO
+- CWSIIDC
+- CWSIIFL
+- CWSIIGA
+- CWSIIKS
+- CWSIIKY
+- CWSIIMN
+- CWSIILA
+- CWSIIMD
+- CWSIIMO
+- CWSIINC
+- CWSIIND
+- CWSIIOH
+- CWSIIOK
+- CWSIIPA
+- CWSIISC
+- CWSIITN
+- CWSIIVA
+- CWSIIWV
 title: 'CWSAC Report Updates battle data: force strengths'

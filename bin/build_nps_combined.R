@@ -6,7 +6,7 @@ aad_to_cwsac_id <- function(x) {
   plyr::revalue(x, c("AR010A" = "AR010", "GA013A" = "GA013"))
 }
 #' Fix CWSACII ids
-cwsac2_to_cwsac_id <- function(x) {
+cws2_to_cwsac_id <- function(x) {
   plyr::revalue(x, c("AL002" = "AL009"))
 }
 
@@ -18,7 +18,7 @@ cwsac2_to_cwsac_id <- function(x) {
 #'
 gen_battlelist <-
   function(cwss_battles, cwsac1_battles,
-           cwsac2_battles, aad_battles) {
+           cws2_battles, aad_battles) {
 
   battlelist_cwss <-
     cwss_battles %>%
@@ -32,11 +32,11 @@ gen_battlelist <-
     rename(cwsac_id = battle, battle_name_cwsac1 = battle_name) %>%
     mutate(cwsac1 = TRUE)
 
-  battlelist_cwsac2 <-
-    cwsac2_battles %>%
+  battlelist_cws2 <-
+    cws2_battles %>%
     select(battle, battle_name) %>%
-    rename(cwsac_id = battle, battle_name_cwsac2 = battle_name) %>%
-    mutate(cwsac2 = TRUE)
+    rename(cwsac_id = battle, battle_name_cws2 = battle_name) %>%
+    mutate(cws2 = TRUE)
 
   battlelist_aad <-
     aad_battles %>%
@@ -48,16 +48,16 @@ gen_battlelist <-
   nps_battlelist <-
     battlelist_cwss %>%
     full_join(battlelist_cwsac1, by = "cwsac_id") %>%
-    full_join(battlelist_cwsac2, by = "cwsac_id") %>%
+    full_join(battlelist_cws2, by = "cwsac_id") %>%
     full_join(battlelist_aad, by = "cwsac_id") %>%
     mutate(battle_name = pnonmiss(battle_name, battle_name_cwsac1,
-                                  battle_name_cwsac2, battle_name_aad)) %>%
-    select(- battle_name_cwsac1, - battle_name_cwsac2, - battle_name_aad) %>%
+                                  battle_name_cws2, battle_name_aad)) %>%
+    select(- battle_name_cwsac1, - battle_name_cws2, - battle_name_aad) %>%
     mutate(cwss = ! is.na(cwss),
            cwsac1 = ! is.na(cwsac1),
-           cwsac2 = ! is.na(cwsac2),
+           cws2 = ! is.na(cws2),
            aad = ! is.na(aad),
-           notall = ! apply(cbind(cwss, cwsac1, cwsac2, aad), 1, all))
+           notall = ! apply(cbind(cwss, cwsac1, cws2, aad), 1, all))
   nps_battlelist
 }
 
@@ -121,7 +121,7 @@ gen_battlelist <-
 #' Combine battle-level stats for each battle.
 #'
 gen_battles <-
-  function(cwss_battles, cwsac1_battles, cwsac2_battles,
+  function(cwss_battles, cwsac1_battles, cws2_battles,
            aad_battles, shenandoah_battles,
            latlong, extra_data, forces) {
 
@@ -173,14 +173,14 @@ gen_battles <-
                                          c("Inconclusive" = "Indecisive")),
            cas_kwm_var_cwsac1 = rounded_var(cas_kwm_mean_cwsac1))
 
-  nps_battles_cwsac2 <- cwsac2_battles %>%
+  nps_battles_cws2 <- cws2_battles %>%
     select(battle, url, study_area, core_area, potnr_boundary,
            battle_name, strength_mean, strength_var) %>%
-    rename(cwsac_id = battle, cwsac2_url = url,
-           battle_name_cwsac2 = battle_name,
-           str_mean_cwsac2 = strength_mean,
-           str_var_cwsac2 = strength_var) %>%
-    mutate(partof_cwsac2 = TRUE)
+    rename(cwsac_id = battle, cws2_url = url,
+           battle_name_cws2 = battle_name,
+           str_mean_cws2 = strength_mean,
+           str_var_cws2 = strength_var) %>%
+    mutate(partof_cws2 = TRUE)
 
   nps_battles_aad <- aad_battles %>%
     mutate(reference_number = aad_to_cwsac_id(reference_number),
@@ -217,7 +217,7 @@ gen_battles <-
   nps_battles <-
     nps_battles_cwss %>%
       full_join(nps_battles_cwsac1, by = "cwsac_id") %>%
-      full_join(nps_battles_cwsac2, by = "cwsac_id") %>%
+      full_join(nps_battles_cws2, by = "cwsac_id") %>%
       full_join(nps_battles_aad, by = "cwsac_id") %>%
       full_join(nps_battles_shenandoah, by = "cwsac_id") %>%
       left_join(nps_latlong, by = "cwsac_id") %>%
@@ -225,12 +225,12 @@ gen_battles <-
       filter(! cwsac_id %in% excluded_battles) %>%
       mutate(partof_cwss = ! is.na(partof_cwss),
              partof_cwsac1 = ! is.na(partof_cwsac1),
-             partof_cwsac2 = ! is.na(partof_cwsac2),
+             partof_cws2 = ! is.na(partof_cws2),
              partof_aad = ! is.na(partof_aad),
              partof_shenandoah = ! is.na(partof_shenandoah),
              battle_name =
                pnonmiss(battle_name, battle_name_cwsac1,
-                        battle_name_cwsac2,
+                        battle_name_cws2,
                         battle_name_aad),
              result = pnonmiss(result, result_cwsac1),
              start_date = pnonmiss(start_date, start_date_cwsac1),
@@ -239,8 +239,8 @@ gen_battles <-
                                      cas_kwm_mean_cwsac1),
              cas_kwm_var = pnonmiss(cas_kwm_var, cas_kwm_var_cwss,
                                     cas_kwm_var_cwsac1),
-             str_mean = pnonmiss(str_mean, str_mean_cwsac2, str_mean_cwsac1),
-             str_var = pnonmiss(str_var, str_var_cwsac2, str_var_cwsac2),
+             str_mean = pnonmiss(str_mean, str_mean_cws2, str_mean_cwsac1),
+             str_var = pnonmiss(str_var, str_var_cws2, str_var_cws2),
              state = str_sub(cwsac_id, 1, 2)) %>%
       select(- matches("battle_name_(cwsac[12]|aad)"),
              - matches("(start|end)_date_cwsac[12]"),
@@ -326,7 +326,7 @@ fill_casualty_vars <- function(x) {
 
 gen_forces <- function(cwss_forces,
                        cwsac1_forces,
-                       cwsac2_forces,
+                       cws2_forces,
                        shenandoah_forces,
                        extra_data) {
   cwss_forces_casstr <-
@@ -361,10 +361,10 @@ gen_forces <- function(cwss_forces,
     select(cwsac_id, belligerent, matches("(str|cas)_")) %>%
     filter(! grepl("VA020[AB]", cwsac_id))
 
-  cwsac2_forces_casstr <-
-    cwsac2_forces %>%
-    rename(str_mean_cwsac2 = strength_mean,
-           str_var_cwsac2 = strength_var,
+  cws2_forces_casstr <-
+    cws2_forces %>%
+    rename(str_mean_cws2 = strength_mean,
+           str_var_cws2 = strength_var,
            cwsac_id = battle) %>%
     select(cwsac_id, belligerent, matches("(str|cas)_")) %>%
     filter(! cwsac_id %in% c("AL002")) %>%
@@ -398,7 +398,7 @@ gen_forces <- function(cwss_forces,
   casstr <-
     full_join(cwss_forces_casstr, cwsac1_forces_casstr,
               by = c("cwsac_id", "belligerent")) %>%
-    full_join(cwsac2_forces_casstr, by = c("cwsac_id", "belligerent")) %>%
+    full_join(cws2_forces_casstr, by = c("cwsac_id", "belligerent")) %>%
     full_join(shenandoah_forces_casstr, by = c("cwsac_id", "belligerent"))
 
 
@@ -410,7 +410,7 @@ gen_forces <- function(cwss_forces,
     casstr[[paste0("str_", j)]] <-
       pnonmiss(casstr[[paste0("str_", j, "_shen")]],
                casstr[[paste0("str_", j, "_cwss")]],
-               casstr[[paste0("str_", j, "_cwsac2")]],
+               casstr[[paste0("str_", j, "_cws2")]],
                casstr[[paste0("str_", j, "_cwsac1")]])
     for (i in c("k", "w", "m")) {
       varname <- paste0("cas_", i, "_", j)
@@ -514,11 +514,11 @@ build <- function(src, dst) {
   cwsac1_forces <-
     read_csv(file.path(dst, "cwsac_forces.csv"))
 
-  cwsac2_battles <-
-    read_csv(file.path(dst, "cwsac2_battles.csv"))
+  cws2_battles <-
+    read_csv(file.path(dst, "cws2_battles.csv"))
 
-  cwsac2_forces <-
-    read_csv(file.path(dst, "cwsac2_forces.csv"))
+  cws2_forces <-
+    read_csv(file.path(dst, "cws2_forces.csv"))
 
   cwss_battles <-
     read_csv(file.path(dst, "cwss_battles.csv"))
@@ -550,19 +550,19 @@ build <- function(src, dst) {
 
   battlelist <-
     gen_battlelist(cwss_battles, cwsac1_battles,
-                   cwsac2_battles, aad_battles)
+                   cws2_battles, aad_battles)
 
   forces <-
     gen_forces(cwss_forces,
                cwsac1_forces,
-               cwsac2_forces,
+               cws2_forces,
                shenandoah_forces,
                extra_data)
 
   battles <-
     gen_battles(cwss_battles,
                 cwsac1_battles,
-                cwsac2_battles,
+                cws2_battles,
                 aad_battles,
                 shenandoah_battles,
                 latlong,

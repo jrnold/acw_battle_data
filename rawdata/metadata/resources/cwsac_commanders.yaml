@@ -40,4 +40,9 @@ schema:
     name: suffix
     title: suffix
     type: string
+sources:
+- CWSAC1993
+- CWSAC1997
+- CWSAC_by_state
+- CWSAC_by_campgn
 title: cwsac_commanders

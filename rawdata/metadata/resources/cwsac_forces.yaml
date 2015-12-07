@@ -116,4 +116,9 @@ schema:
     name: strength_var
     title: strength_var
     type: number
+sources:
+- CWSAC1993
+- CWSAC1997
+- CWSAC_by_state
+- CWSAC_by_campgn
 title: cwsac_forces

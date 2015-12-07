@@ -20,4 +20,6 @@ schema:
     name: Casualties
     title: Casualties
     type: number
+sources:
+- CWSS
 title: cwss_forces

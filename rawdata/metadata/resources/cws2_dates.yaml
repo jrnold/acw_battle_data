@@ -1,7 +1,7 @@
 description: ''
 format: csv
-name: cwsac2_dates
-path: data/cwsac2_dates.csv
+name: cws2_dates
+path: data/cws2_dates.csv
 schema:
   fields:
   - constraints:
@@ -30,4 +30,27 @@ schema:
     name: end_date
     title: End Date
     type: date
+sources:
+- CWSII
+- CWSIIAL
+- CWSIIAR
+- CWSIICO
+- CWSIIDC
+- CWSIIFL
+- CWSIIGA
+- CWSIIKS
+- CWSIIKY
+- CWSIIMN
+- CWSIILA
+- CWSIIMD
+- CWSIIMO
+- CWSIINC
+- CWSIIND
+- CWSIIOH
+- CWSIIOK
+- CWSIIPA
+- CWSIISC
+- CWSIITN
+- CWSIIVA
+- CWSIIWV
 title: 'CWSAC Report Updates battle data: battle dates'

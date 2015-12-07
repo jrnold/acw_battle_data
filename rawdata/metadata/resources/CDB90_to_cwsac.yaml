@@ -1,6 +1,10 @@
 format: csv
 name: CDB90_to_cwsac
 path: data/CDB90_to_cwsac.csv
+sources:
+  - self
+  - cdb90
+  - CWSAC1997
 schema:
   fields:
   - description: CDB90 battle sequence number

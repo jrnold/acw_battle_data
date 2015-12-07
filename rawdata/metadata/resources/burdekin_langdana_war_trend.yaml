@@ -1,6 +1,8 @@
 format: csv
 name: burdekin_langdana_war_trend
 path: data/burdekin_langdana_war_trend.csv
+sources:
+  - BurdekinLangdana1993
 schema:
   fields:
   - description: First day of the quarter

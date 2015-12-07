@@ -19,11 +19,11 @@ def build_cwsac(src, dst):
     sp.check_call([PYTHON, 'bin/build_cwsac.py', path.join(src, "rawdata", "cwsac"), dst])
     sp.check_call([RSCRIPT, 'bin/update_cwsac_forces.R', src, dst])
 
-def build_cwsac2(src, dst):
-    print("build_cwsac2")
-    sp.check_call([PYTHON, 'bin/build_cwsac2.py',
-            path.join(src, "rawdata", "cwsac2"), dst])
-    sp.check_call([RSCRIPT, 'bin/update_cwsac2_forces.R', src, dst])    
+def build_cws2(src, dst):
+    print("build_cws2")
+    sp.check_call([PYTHON, 'bin/build_cws2.py',
+            path.join(src, "rawdata", "cws2"), dst])
+    sp.check_call([RSCRIPT, 'bin/update_cws2_forces.R', src, dst])    
 
 def build_cwss(src, dst):
     print("build_cwss")
@@ -124,7 +124,7 @@ def build(src, dst, docs):
     build_aad(src, dst)
     build_shenandoah(src, dst)    
     build_cwsac(src, dst)
-    build_cwsac2(src, dst)
+    build_cws2(src, dst)
     build_cwss(src, dst)
     build_nps(src, dst)
     build_bodart(src, dst)

@@ -1,6 +1,6 @@
 format: csv
-name: cwsac2_commanders
-path: data/cwsac2_commanders.csv
+name: cws2_commanders
+path: data/cws2_commanders.csv
 schema:
   fields:
   - constraints:
@@ -46,4 +46,27 @@ schema:
     name: suffix
     title: Suffix
     type: string
+sources:
+- CWSII
+- CWSIIAL
+- CWSIIAR
+- CWSIICO
+- CWSIIDC
+- CWSIIFL
+- CWSIIGA
+- CWSIIKS
+- CWSIIKY
+- CWSIIMN
+- CWSIILA
+- CWSIIMD
+- CWSIIMO
+- CWSIINC
+- CWSIIND
+- CWSIIOH
+- CWSIIOK
+- CWSIIPA
+- CWSIISC
+- CWSIITN
+- CWSIIVA
+- CWSIIWV
 title: 'CWSAC Report Updates: commanders'
