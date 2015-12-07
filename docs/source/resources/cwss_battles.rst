@@ -1,6 +1,6 @@
-############
-cwss_battles
-############
+#########################
+CWSS battle data: battles
+#########################
 
 :name: cwss_battles
 :path: data/cwss_battles.csv
@@ -15,42 +15,46 @@ cwss_battles
 Schema
 ======
 
-==================  =======  ==================
-BattlefieldCode     string   BattlefieldCode
-BattleName          string   BattleName
-BattleType          string   BattleType
-BeginDate           string   BeginDate
-EndDate             string   EndDate
+==================  =======  ====================
+BattlefieldCode     string   Battlefield code
+BattleName          string   Battle name
+BattleType          string   Battle type
+BeginDate           date     Begin date
+EndDate             date     End date
 State               string   State
 TheaterCode         string   TheaterCode
 CampaignCode        string   CampaignCode
 Result              string   Result
-TotalCasualties     number   TotalCasualties
+TotalCasualties     integer  TotalCasualties
 Comment             string   Comment
 ID                  integer  ID
-ShortSummary        string   ShortSummary
-ShortSummarySource  string   ShortSummarySource
+ShortSummary        string   Short summary
+ShortSummarySource  string   Short summary source
 Summary             string   Summary
-SummarySource       number   SummarySource
+SummarySource       string   Summary source
 URL                 string   URL
-==================  =======  ==================
+==================  =======  ====================
 
 BattlefieldCode
 ---------------
 
-:title: BattlefieldCode
+:title: Battlefield code
 :type: string
 :format: default
+:constraints:
+    :minLength: 5
+    :maxLength: 6
+    :pattern: [A-Z]{2}[0-9]{3}[A-Z]?
+    
 
-
-
+CWSAC battle identifier
 
 
        
 BattleName
 ----------
 
-:title: BattleName
+:title: Battle name
 :type: string
 :format: default
 
@@ -62,7 +66,7 @@ BattleName
 BattleType
 ----------
 
-:title: BattleType
+:title: Battle type
 :type: string
 :format: default
 
@@ -74,8 +78,8 @@ BattleType
 BeginDate
 ---------
 
-:title: BeginDate
-:type: string
+:title: Begin date
+:type: date
 :format: default
 
 
@@ -86,8 +90,8 @@ BeginDate
 EndDate
 -------
 
-:title: EndDate
-:type: string
+:title: End date
+:type: date
 :format: default
 
 
@@ -101,7 +105,11 @@ State
 :title: State
 :type: string
 :format: default
-
+:constraints:
+    :minLength: 2
+    :maxLength: 2
+    :pattern: [A-Z][A-Z]
+    
 
 
 
@@ -147,9 +155,11 @@ TotalCasualties
 ---------------
 
 :title: TotalCasualties
-:type: number
+:type: integer
 :format: default
-
+:constraints:
+    :minimum: 0
+    
 
 
 
@@ -182,7 +192,7 @@ ID
 ShortSummary
 ------------
 
-:title: ShortSummary
+:title: Short summary
 :type: string
 :format: default
 
@@ -194,7 +204,7 @@ ShortSummary
 ShortSummarySource
 ------------------
 
-:title: ShortSummarySource
+:title: Short summary source
 :type: string
 :format: default
 
@@ -218,8 +228,8 @@ Summary
 SummarySource
 -------------
 
-:title: SummarySource
-:type: number
+:title: Summary source
+:type: string
 :format: default
 
 
@@ -232,7 +242,7 @@ URL
 
 :title: URL
 :type: string
-:format: default
+:format: url
 
 
 

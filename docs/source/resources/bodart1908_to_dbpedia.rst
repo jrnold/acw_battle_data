@@ -1,6 +1,6 @@
-#####################
-bodart1908_to_dbpedia
-#####################
+######################################################################
+Correspondence between Bodart (1908) battles and dbpedia.org resources
+######################################################################
 
 :name: bodart1908_to_dbpedia
 :path: data/bodart1908_to_dbpedia.csv

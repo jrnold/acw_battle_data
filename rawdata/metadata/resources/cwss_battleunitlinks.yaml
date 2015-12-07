@@ -4,9 +4,14 @@ name: cwss_battleunitlinks
 path: data/cwss_battleunitlinks.csv
 schema:
   fields:
-  - format: default
+  - constraints:
+      maxLength: 6
+      minLength: 5
+      pattern: '[A-Z]{2}[0-9]{3}[A-Z]?'
+    description: CWSAC battle identifier
+    format: default
     name: BattlefieldCode
-    title: BattlefieldCode
+    title: Battlefield code
     type: string
   - format: default
     name: Comment
@@ -18,8 +23,8 @@ schema:
     type: string
   - format: default
     name: UnitCode
-    title: UnitCode
+    title: Unit code
     type: string
 sources:
 - CWSS
-title: cwss_battleunitlinks
+title: CWSS units in each battle

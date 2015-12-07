@@ -16,21 +16,25 @@ Schema
 ======
 
 ================  =======  ================
-BattlefieldCode   string   BattlefieldCode
+BattlefieldCode   string   Battlefield code
 belligerent       string   belligerent
-commander_number  integer  commander_number
-commander         string   commander
+commander_number  integer  Commander number
+commander         string   Commander
 ================  =======  ================
 
 BattlefieldCode
 ---------------
 
-:title: BattlefieldCode
+:title: Battlefield code
 :type: string
 :format: default
+:constraints:
+    :minLength: 5
+    :maxLength: 6
+    :pattern: [A-Z]{2}[0-9]{3}[A-Z]?
+    
 
-
-
+CWSAC battle identifier
 
 
        
@@ -40,7 +44,9 @@ belligerent
 :title: belligerent
 :type: string
 :format: default
-
+:constraints:
+    :enum: ['US', 'Confederate', 'Native American']
+    
 
 
 
@@ -49,7 +55,7 @@ belligerent
 commander_number
 ----------------
 
-:title: commander_number
+:title: Commander number
 :type: integer
 :format: default
 
@@ -61,7 +67,7 @@ commander_number
 commander
 ---------
 
-:title: commander
+:title: Commander
 :type: string
 :format: default
 

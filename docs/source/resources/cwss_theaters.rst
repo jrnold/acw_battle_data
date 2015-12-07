@@ -1,5 +1,5 @@
 #############
-cwss_theaters
+CWSS theaters
 #############
 
 :name: cwss_theaters
@@ -15,15 +15,15 @@ cwss_theaters
 Schema
 ======
 
-===========  ======  ===========
-TheaterCode  string  TheaterCode
-TheaterName  string  TheaterName
-===========  ======  ===========
+===========  ======  ============
+TheaterCode  string  Theater code
+TheaterName  string  Theater name
+===========  ======  ============
 
 TheaterCode
 -----------
 
-:title: TheaterCode
+:title: Theater code
 :type: string
 :format: default
 
@@ -35,7 +35,7 @@ TheaterCode
 TheaterName
 -----------
 
-:title: TheaterName
+:title: Theater name
 :type: string
 :format: default
 

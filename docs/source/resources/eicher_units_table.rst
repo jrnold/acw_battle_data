@@ -1,6 +1,6 @@
-##################
-eicher_units_table
-##################
+##########################
+Eicher table of unit sizes
+##########################
 
 :name: eicher_units_table
 :path: data/eicher_units_table.csv
@@ -118,7 +118,7 @@ page
 :format: default
 
 
-
+Page number in Eicher and Eicher (2002)
 
 
        

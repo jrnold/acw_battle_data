@@ -1,6 +1,6 @@
-############
-cwss_persons
-############
+###########
+CWSS people
+###########
 
 :name: cwss_persons
 :path: data/cwss_persons.csv
@@ -36,7 +36,7 @@ PersonID
 
 :title: PersonID
 :type: string
-:format: default
+:format: uuid
 
 
 

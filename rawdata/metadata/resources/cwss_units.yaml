@@ -8,14 +8,14 @@ schema:
     name: ID
     title: ID
     type: integer
-  - format: default
+  - format: uuid
     name: UnitCode
-    title: UnitCode
+    title: Unit code
     type: string
   - format: default
     name: UnitName
-    title: UnitName
+    title: Unit name
     type: string
 sources:
 - CWSS
-title: cwss_units
+title: CWSS military units

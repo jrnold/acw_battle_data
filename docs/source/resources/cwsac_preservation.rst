@@ -1,6 +1,6 @@
-#################################################################
-CWSAC Report Updates battle data: preservation prioritycategories
-#################################################################
+####################################################
+CWSAC Report (1993) preservation priority categories
+####################################################
 
 :name: cwsac_preservation
 :path: data/cwsac_preservation.csv
@@ -11,8 +11,6 @@ CWSAC Report Updates battle data: preservation prioritycategories
 **Sources:**
 - CWSAC1993
 - CWSAC1997
-- CWSAC_by_state
-- CWSAC_by_campgn
 
 
 Schema

@@ -1,6 +1,6 @@
-############
-cwsac_forces
-############
+#######################################
+CWSAC Report (1993) battle data: forces
+#######################################
 
 :name: cwsac_forces
 :path: data/cwsac_forces.csv

@@ -1,6 +1,6 @@
-############################################################
-Dyer (1908) list of battles with Union forces and casualties
-############################################################
+###########################
+Dyer (1908) list of battles
+###########################
 
 :name: dyer_engagements
 :path: data/dyer_engagements.csv

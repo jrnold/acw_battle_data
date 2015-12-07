@@ -6,12 +6,12 @@ schema:
   fields:
   - format: default
     name: TheaterCode
-    title: TheaterCode
+    title: Theater code
     type: string
   - format: default
     name: TheaterName
-    title: TheaterName
+    title: Theater name
     type: string
 sources:
 - CWSS
-title: cwss_theaters
+title: CWSS theaters

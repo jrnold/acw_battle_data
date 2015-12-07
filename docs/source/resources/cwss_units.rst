@@ -1,6 +1,6 @@
-##########
-cwss_units
-##########
+###################
+CWSS military units
+###################
 
 :name: cwss_units
 :path: data/cwss_units.csv
@@ -15,11 +15,11 @@ cwss_units
 Schema
 ======
 
-========  =======  ========
+========  =======  =========
 ID        integer  ID
-UnitCode  string   UnitCode
-UnitName  string   UnitName
-========  =======  ========
+UnitCode  string   Unit code
+UnitName  string   Unit name
+========  =======  =========
 
 ID
 --
@@ -36,9 +36,9 @@ ID
 UnitCode
 --------
 
-:title: UnitCode
+:title: Unit code
 :type: string
-:format: default
+:format: uuid
 
 
 
@@ -48,7 +48,7 @@ UnitCode
 UnitName
 --------
 
-:title: UnitName
+:title: Unit name
 :type: string
 :format: default
 

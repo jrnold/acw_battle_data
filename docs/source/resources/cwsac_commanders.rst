@@ -1,6 +1,6 @@
-################
-cwsac_commanders
-################
+###########################################
+CWSAC Report (1993) battle data: commanders
+###########################################
 
 :name: cwsac_commanders
 :path: data/cwsac_commanders.csv

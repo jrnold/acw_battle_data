@@ -4,7 +4,7 @@ name: cwss_persons
 path: data/cwss_persons.csv
 schema:
   fields:
-  - format: default
+  - format: uuid
     name: PersonID
     title: PersonID
     type: string
@@ -58,4 +58,4 @@ schema:
     type: string
 sources:
 - CWSS
-title: cwss_persons
+title: CWSS people

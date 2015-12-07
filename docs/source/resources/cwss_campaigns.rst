@@ -1,6 +1,6 @@
-##############
-cwss_campaigns
-##############
+##################
+CWSS campaign list
+##################
 
 :name: cwss_campaigns
 :path: data/cwss_campaigns.csv
@@ -15,19 +15,19 @@ cwss_campaigns
 Schema
 ======
 
-=================  ======  =================
-CampaignCode       string  CampaignCode
-CampaignName       string  CampaignName
-CampaignDates      string  CampaignDates
-CampaignStartDate  string  CampaignStartDate
-CampaignEndDate    string  CampaignEndDate
-TheaterCode        string  TheaterCode
-=================  ======  =================
+=================  ======  ===================
+CampaignCode       string  Campaign code
+CampaignName       string  Campaign name
+CampaignDates      string  Campaign dates
+CampaignStartDate  date    Campaign start date
+CampaignEndDate    date    Campaign end date
+TheaterCode        string  Theater code
+=================  ======  ===================
 
 CampaignCode
 ------------
 
-:title: CampaignCode
+:title: Campaign code
 :type: string
 :format: default
 
@@ -39,7 +39,7 @@ CampaignCode
 CampaignName
 ------------
 
-:title: CampaignName
+:title: Campaign name
 :type: string
 :format: default
 
@@ -51,7 +51,7 @@ CampaignName
 CampaignDates
 -------------
 
-:title: CampaignDates
+:title: Campaign dates
 :type: string
 :format: default
 
@@ -63,8 +63,8 @@ CampaignDates
 CampaignStartDate
 -----------------
 
-:title: CampaignStartDate
-:type: string
+:title: Campaign start date
+:type: date
 :format: default
 
 
@@ -75,8 +75,8 @@ CampaignStartDate
 CampaignEndDate
 ---------------
 
-:title: CampaignEndDate
-:type: string
+:title: Campaign end date
+:type: date
 :format: default
 
 
@@ -87,7 +87,7 @@ CampaignEndDate
 TheaterCode
 -----------
 
-:title: TheaterCode
+:title: Theater code
 :type: string
 :format: default
 

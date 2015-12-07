@@ -1,6 +1,6 @@
-##########################################
-CWSAC Report Updates battle data: theaters
-##########################################
+############################
+CWSAC Report (1993) theaters
+############################
 
 :name: cwsac_theaters
 :path: data/cwsac_theaters.csv
@@ -46,6 +46,8 @@ dbp_resource
 
 URI of the dbpedia.org category resource for the theater.
 
+**Sources:**
+- self
 
        
 dbp_category
@@ -58,6 +60,8 @@ dbp_category
 
 URI of the dbpedia.org category resource for the theater.
 
+**Sources:**
+- self
 
        
 

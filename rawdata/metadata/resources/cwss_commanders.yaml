@@ -4,21 +4,31 @@ name: cwss_commanders
 path: data/cwss_commanders.csv
 schema:
   fields:
-  - format: default
+  - constraints:
+      maxLength: 6
+      minLength: 5
+      pattern: '[A-Z]{2}[0-9]{3}[A-Z]?'
+    description: CWSAC battle identifier
+    format: default
     name: BattlefieldCode
-    title: BattlefieldCode
+    title: Battlefield code
     type: string
-  - format: default
+  - constraints:
+      enum:
+      - US
+      - Confederate
+      - Native American
+    format: default
     name: belligerent
     title: belligerent
     type: string
   - format: default
     name: commander_number
-    title: commander_number
+    title: Commander number
     type: integer
   - format: default
     name: commander
-    title: commander
+    title: Commander
     type: string
 sources:
 - CWSS

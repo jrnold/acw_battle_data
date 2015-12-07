@@ -4,22 +4,36 @@ name: cwss_forces
 path: data/cwss_forces.csv
 schema:
   fields:
-  - format: default
+  - constraints:
+      maxLength: 6
+      minLength: 5
+      pattern: '[A-Z]{2}[0-9]{3}[A-Z]?'
+    description: CWSAC battle identifier
+    format: default
     name: BattlefieldCode
     title: BattlefieldCode
     type: string
-  - format: default
+  - constraints:
+      enum:
+      - US
+      - Confederate
+      - Native American
+    format: default
     name: belligerent
     title: belligerent
     type: string
-  - format: default
+  - constraints:
+      minimum: 0
+    format: default
     name: TroopsEngaged
-    title: TroopsEngaged
-    type: number
-  - format: default
+    title: Troops engaged
+    type: integer
+  - constraints:
+      minimum: 0
+    format: default
     name: Casualties
     title: Casualties
-    type: number
+    type: integer
 sources:
 - CWSS
-title: cwss_forces
+title: 'CWSS battle data: forces'

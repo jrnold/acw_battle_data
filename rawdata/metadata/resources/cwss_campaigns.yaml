@@ -6,28 +6,28 @@ schema:
   fields:
   - format: default
     name: CampaignCode
-    title: CampaignCode
+    title: Campaign code
     type: string
   - format: default
     name: CampaignName
-    title: CampaignName
+    title: Campaign name
     type: string
   - format: default
     name: CampaignDates
-    title: CampaignDates
+    title: Campaign dates
     type: string
   - format: default
     name: CampaignStartDate
-    title: CampaignStartDate
-    type: string
+    title: Campaign start date
+    type: date
   - format: default
     name: CampaignEndDate
-    title: CampaignEndDate
-    type: string
+    title: Campaign end date
+    type: date
   - format: default
     name: TheaterCode
-    title: TheaterCode
+    title: Theater code
     type: string
 sources:
 - CWSS
-title: cwss_campaigns
+title: CWSS campaign list

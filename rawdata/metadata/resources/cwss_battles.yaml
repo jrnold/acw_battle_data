@@ -4,27 +4,36 @@ name: cwss_battles
 path: data/cwss_battles.csv
 schema:
   fields:
-  - format: default
+  - constraints:
+      maxLength: 6
+      minLength: 5
+      pattern: '[A-Z]{2}[0-9]{3}[A-Z]?'
+    description: CWSAC battle identifier
+    format: default
     name: BattlefieldCode
-    title: BattlefieldCode
+    title: Battlefield code
     type: string
   - format: default
     name: BattleName
-    title: BattleName
+    title: Battle name
     type: string
   - format: default
     name: BattleType
-    title: BattleType
+    title: Battle type
     type: string
   - format: default
     name: BeginDate
-    title: BeginDate
-    type: string
+    title: Begin date
+    type: date
   - format: default
     name: EndDate
-    title: EndDate
-    type: string
-  - format: default
+    title: End date
+    type: date
+  - constraints:
+      maxLength: 2
+      minLength: 2
+      pattern: '[A-Z][A-Z]'
+    format: default
     name: State
     title: State
     type: string
@@ -40,10 +49,12 @@ schema:
     name: Result
     title: Result
     type: string
-  - format: default
+  - constraints:
+      minimum: 0
+    format: default
     name: TotalCasualties
     title: TotalCasualties
-    type: number
+    type: integer
   - format: default
     name: Comment
     title: Comment
@@ -54,11 +65,11 @@ schema:
     type: integer
   - format: default
     name: ShortSummary
-    title: ShortSummary
+    title: Short summary
     type: string
   - format: default
     name: ShortSummarySource
-    title: ShortSummarySource
+    title: Short summary source
     type: string
   - format: default
     name: Summary
@@ -66,12 +77,12 @@ schema:
     type: string
   - format: default
     name: SummarySource
-    title: SummarySource
-    type: number
-  - format: default
+    title: Summary source
+    type: string
+  - format: url
     name: URL
     title: URL
     type: string
 sources:
 - CWSS
-title: cwss_battles
+title: 'CWSS battle data: battles'

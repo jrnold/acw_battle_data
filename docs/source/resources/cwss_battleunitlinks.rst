@@ -1,6 +1,6 @@
-####################
-cwss_battleunitlinks
-####################
+#########################
+CWSS units in each battle
+#########################
 
 :name: cwss_battleunitlinks
 :path: data/cwss_battleunitlinks.csv
@@ -15,22 +15,26 @@ cwss_battleunitlinks
 Schema
 ======
 
-===============  ======  ===============
-BattlefieldCode  string  BattlefieldCode
+===============  ======  ================
+BattlefieldCode  string  Battlefield code
 Comment          string  Comment
 Source           string  Source
-UnitCode         string  UnitCode
-===============  ======  ===============
+UnitCode         string  Unit code
+===============  ======  ================
 
 BattlefieldCode
 ---------------
 
-:title: BattlefieldCode
+:title: Battlefield code
 :type: string
 :format: default
+:constraints:
+    :minLength: 5
+    :maxLength: 6
+    :pattern: [A-Z]{2}[0-9]{3}[A-Z]?
+    
 
-
-
+CWSAC battle identifier
 
 
        
@@ -61,7 +65,7 @@ Source
 UnitCode
 --------
 
-:title: UnitCode
+:title: Unit code
 :type: string
 :format: default
 

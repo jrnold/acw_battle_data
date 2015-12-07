@@ -10,11 +10,15 @@ schema:
   - description: URI of the dbpedia.org category resource for the theater.
     format: url
     name: dbp_resource
+    sources:
+    - self
     title: DBPedia URI
     type: string
   - description: URI of the dbpedia.org category resource for the theater.
     format: url
     name: dbp_category
+    sources:
+    - self
     title: DBPedia URI (category)
     type: string
 sources:
@@ -22,4 +26,4 @@ sources:
 - CWSAC1997
 - CWSAC_by_state
 - CWSAC_by_campgn
-title: 'CWSAC Report Updates battle data: theaters'
+title: CWSAC Report (1993) theaters
