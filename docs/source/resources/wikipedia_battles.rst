@@ -1,5 +1,6 @@
+#################
 wikipedia_battles
-================================================================================
+#################
 
 :name: wikipedia_battles
 :path: data/wikipedia_battles.csv
@@ -20,64 +21,73 @@ from the `Updated CWSAC Reports
 force size is provided in that source.
 
 
-
 Schema
--------
+======
 
-
-
-
+----------  ------  ----------
+battle      string  battle
+id          number  id
+strength    number  strength
+casualties  number  casualties
+notes       string  notes
+----------  ------  ----------
 
 battle
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+------
 
 :title: battle
 :type: string
-:format: default 
+:format: default
+
+
 
 
 
        
-
 id
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+--
 
 :title: id
 :type: number
-:format: default 
+:format: default
+
+
 
 
 
        
-
 strength
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+--------
 
 :title: strength
 :type: number
-:format: default 
+:format: default
+
+
 
 
 
        
-
 casualties
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+----------
 
 :title: casualties
 :type: number
-:format: default 
+:format: default
+
+
 
 
 
        
-
 notes
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----
 
 :title: notes
 :type: string
-:format: default 
+:format: default
+
+
 
 
 

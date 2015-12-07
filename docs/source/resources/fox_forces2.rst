@@ -1,5 +1,6 @@
+######################################
 Fox (1898) battle casualties (revised)
-================================================================================
+######################################
 
 :name: fox_forces2
 :path: data/fox_forces2.csv
@@ -47,20 +48,33 @@ missing; total, 22,968.
 See :doc:`fox_forces` for more detail on the Fox data.
 
 
+**Sources:**
+
+- fox1898regimental
 
 Schema
--------
+======
 
 :Primary Key: ['belligerent', 'battle_name']
-
-
+-----------  -------  -----------
+belligerent  string   belligerent
+battle_name  string   Battle name
+start_date   date     start_date
+end_date     date     end_date
+state        string   State
+casualties   integer  casualties
+killed       integer  Killed
+wounded      integer  wounded
+missing      integer  missing
+cavalry      boolean  cavalry
+-----------  -------  -----------
 
 belligerent
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----------
 
 :title: belligerent
 :type: string
-:format: default 
+:format: default
 :constraints:
     
     
@@ -69,117 +83,128 @@ belligerent
     
     
     
-    :enum: ['Confederate', 'US']      
+    :enum: ['Confederate', 'US']     
+
+
 
 
 
        
-
 battle_name
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----------
 
 :title: Battle name
 :type: string
-:format: default 
+:format: default
+
+
 
 
 
        
-
 start_date
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+----------
 
 :title: start_date
 :type: date
-:format: default 
+:format: default
 
 
 Start date of the battle
-       
 
+
+       
 end_date
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+--------
 
 :title: end_date
 :type: date
-:format: default 
+:format: default
 
 
 End date of the battle
-       
 
+
+       
 state
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----
 
 :title: State
 :type: string
-:format: default 
+:format: default
 :constraints:
     
-    :minLength: 2 
-    :maxLength: 2 
+    :minLength: 2
+    :maxLength: 2
     
-    :pattern: [A-Z]{2} 
+    :pattern: [A-Z]{2}
     
     
          
 
 
 State in which the battle took place.
-       
 
+
+       
 casualties
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+----------
 
 :title: casualties
 :type: integer
-:format: default 
+:format: default
 
 
 Number of casualties (killed, wounded, and missing)
-       
 
+
+       
 killed
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+------
 
 :title: Killed
 :type: integer
-:format: default 
+:format: default
 
 
 Number killed
-       
 
+
+       
 wounded
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-------
 
 :title: wounded
 :type: integer
-:format: default 
+:format: default
 
 
 Number wounded
-       
 
+
+       
 missing
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-------
 
 :title: missing
 :type: integer
-:format: default 
+:format: default
 
 
 Number missing
-       
 
+
+       
 cavalry
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-------
 
 :title: cavalry
 :type: boolean
-:format: default 
+:format: default
 
 
 Was this a cavalry battle?
+
+
        
 

@@ -1,5 +1,6 @@
+#########################################
 Civil War Battlefield Guide data: battles
-================================================================================
+#########################################
 
 :name: kennedy1997_battles
 :path: data/kennedy1997_battles.csv
@@ -33,157 +34,180 @@ Corrections to the casualty data:
 -  Kennedy inverted the casualties for US and CS forces for TX005.
 
 
+**Sources:**
+
+- KennedyConservation1998
 
 Schema
--------
+======
 
-
-
-
+---------------  -------  ----------------
+battle           string   Battle
+name             string   Battle name
+state            string   state
+county           string   county
+start_date       date     Start Date
+end_date         date     End Date
+casualties_min   integer  Casualties (min)
+casualties_max   integer  Casualties (max)
+casualties_text  string   Casualties
+missing          number   missing
+---------------  -------  ----------------
 
 battle
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+------
 
 :title: Battle
 :type: string
-:format: default 
+:format: default
 :constraints:
     
-    :minLength: 5 
-    :maxLength: 6 
+    :minLength: 5
+    :maxLength: 6
     
-    :pattern: [A-Z]{2}[0-9]{3}[A-Z]? 
+    :pattern: [A-Z]{2}[0-9]{3}[A-Z]?
     
     
          
 
 
 CWSAC battle identifier
-       
 
+
+       
 name
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+----
 
 :title: Battle name
 :type: string
-:format: default 
+:format: default
+
+
 
 
 
        
-
 state
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----
 
 :title: state
 :type: string
-:format: default 
+:format: default
 :constraints:
     
-    :minLength: 2 
-    :maxLength: 2 
+    :minLength: 2
+    :maxLength: 2
     
-    :pattern: [A-Z][A-Z] 
+    :pattern: [A-Z][A-Z]
     
     
          
 
 
 
-       
 
+
+       
 county
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+------
 
 :title: county
 :type: string
-:format: default 
+:format: default
 
 
 Counties in which the battle took place.
-       
 
+
+       
 start_date
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+----------
 
 :title: Start Date
 :type: date
-:format: default 
+:format: default
+
+
 
 
 
        
-
 end_date
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+--------
 
 :title: End Date
 :type: date
-:format: default 
+:format: default
+
+
 
 
 
        
-
 casualties_min
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+--------------
 
 :title: Casualties (min)
 :type: integer
-:format: default 
+:format: default
 :constraints:
     
     
     
     
     
-    :minimum: 0 
+    :minimum: 0
     
          
 
 
 Total casualties (killed, wounded, and missing or captured) for both sides, minimum value. For a few battles a total casualty value is given, while no disaggregated casualties are provided.
 This source only gives a range for a few battles. For battles where no range is given, the mimimum and maximum are set to the same value.
-       
 
+
+       
 casualties_max
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+--------------
 
 :title: Casualties (max)
 :type: integer
-:format: default 
+:format: default
 :constraints:
     
     
     
     
     
-    :minimum: 0 
+    :minimum: 0
     
          
 
 
 
 Total casualties (killed, wounded, and missing or captured) for both sides, maximum value.
-       
 
+
+       
 casualties_text
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+---------------
 
 :title: Casualties
 :type: string
-:format: default 
+:format: default
+
+
 
 
 
        
-
 missing
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-------
 
 :title: missing
 :type: number
-:format: default 
+:format: default
+
+
 
 
 

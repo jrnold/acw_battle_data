@@ -1,5 +1,6 @@
+###########################################
 War Trend from Burdekin and Langdana (1993)
-================================================================================
+###########################################
 
 :name: burdekin_langdana_war_trend
 :path: data/burdekin_langdana_war_trend.csv
@@ -19,33 +20,40 @@ The variable is set to 0 in 1864Q2 and 1864Q3 because the Northern offensive sta
 
 
 
+**Sources:**
+
+- BurdekinLangdana1993
 
 Schema
--------
+======
 
-
-
-
+-----  -------  ---------
+date   date     Date
+trend  integer  War Trend
+-----  -------  ---------
 
 date
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+----
 
 :title: Date
 :type: date
-:format: default 
+:format: default
 
 
 First day of the quarter
-       
 
+
+       
 trend
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----
 
 :title: War Trend
 :type: integer
-:format: default 
+:format: default
 
 
 -1 (+1) if war news is unfavorable (favorable) to Confederacy; 0 otherwise.
+
+
        
 

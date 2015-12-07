@@ -1,5 +1,6 @@
+##########################################
 Bodart (1908) battle data: generals killed
-================================================================================
+##########################################
 
 :name: bodart1908_generals_killed
 :path: data/bodart1908_generals_killed.csv
@@ -22,121 +23,144 @@ Bodart's correpondence of ranks
 - Brig.-Gen. = brigadier-general = Brigade-general
 
 
+**Sources:**
+
+- Bodart1908
 
 Schema
--------
+======
 
-
-
-
+-----------  ------  -----------
+battle_id    string  Battle Id.
+belligerent  string  belligerent
+name         string  Name
+last_name    string  Last name
+first_name   string  First name
+middle_name  string  Middle name
+suffix       number  Suffix
+rank         string  Rank
+date         date    date
+dbpedia      string  Dbpedia URI
+-----------  ------  -----------
 
 battle_id
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+---------
 
 :title: Battle Id.
 :type: string
-:format: default 
+:format: default
+
+
 
 
 
        
-
 belligerent
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----------
 
 :title: belligerent
 :type: string
-:format: default 
+:format: default
+
+
 
 
 
        
-
 name
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+----
 
 :title: Name
 :type: string
-:format: default 
+:format: default
+
+
 
 
 
        
-
 last_name
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+---------
 
 :title: Last name
 :type: string
-:format: default 
+:format: default
+
+
 
 
 
        
-
 first_name
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+----------
 
 :title: First name
 :type: string
-:format: default 
+:format: default
+
+
 
 
 
        
-
 middle_name
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----------
 
 :title: Middle name
 :type: string
-:format: default 
+:format: default
+
+
 
 
 
        
-
 suffix
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+------
 
 :title: Suffix
 :type: number
-:format: default 
+:format: default
+
+
 
 
 
        
-
 rank
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+----
 
 :title: Rank
 :type: string
-:format: default 
+:format: default
 
 
 Rank of the general
-       
 
+
+       
 date
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+----
 
 :title: date
 :type: date
-:format: default 
+:format: default
 
 
 Date the general was killed (if given).
-       
 
+
+       
 dbpedia
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-------
 
 :title: Dbpedia URI
 :type: string
-:format: url 
+:format: url
 
 
 URI of the dbpedia.org resource for the person.
+
+
        
 

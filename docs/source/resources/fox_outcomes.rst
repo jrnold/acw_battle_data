@@ -1,5 +1,6 @@
+##########################
 Fox (1898) battle outcomes
-================================================================================
+##########################
 
 :name: fox_outcomes
 :path: data/fox_outcomes.csv
@@ -57,20 +58,27 @@ With regards to battles not considered, Fox writes,
 
 
 
+**Sources:**
+
+- fox1898regimental
 
 Schema
--------
+======
 
-
-
-
+------------  ------  ------------
+victor        string  Victor
+victory_type  string  Victory type
+battle_name   string  Battle name
+state         string  State
+cwsac_id      string  CWSAC Id.
+------------  ------  ------------
 
 victor
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+------
 
 :title: Victor
 :type: string
-:format: default 
+:format: default
 :constraints:
     
     
@@ -79,18 +87,19 @@ victor
     
     
     
-    :enum: ['Union', 'Confederate']      
+    :enum: ['Union', 'Confederate']     
+
+
 
 
 
        
-
 victory_type
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+------------
 
 :title: Victory type
 :type: string
-:format: default 
+:format: default
 :constraints:
     
     
@@ -99,60 +108,67 @@ victory_type
     
     
     
-    :enum: ['victory', 'assualt', 'defense']      
+    :enum: ['victory', 'assualt', 'defense']     
+
+
 
 
 
        
-
 battle_name
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----------
 
 :title: Battle name
 :type: string
-:format: default 
+:format: default
+
+
 
 
 
        
-
 state
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----
 
 :title: State
 :type: string
-:format: default 
+:format: default
 :constraints:
     
-    :minLength: 2 
-    :maxLength: 2 
+    :minLength: 2
+    :maxLength: 2
     
-    :pattern: [A-Z]{2} 
+    :pattern: [A-Z]{2}
     
     
          
+
+
 
 
 
        
-
 cwsac_id
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+--------
 
 :title: CWSAC Id.
 :type: string
-:format: default 
+:format: default
 :constraints:
     
     
     
     
-    :pattern: [A-Z]{2}[0-9]{3}[A-Z]? 
+    :pattern: [A-Z]{2}[0-9]{3}[A-Z]?
     
     
          
 
 
+
+
+**Sources:**
+- fox1898regimental
 
        
 

@@ -1,5 +1,6 @@
+######################################
 Clodfelter (2008) battle data: battles
-================================================================================
+######################################
 
 :name: clodfelter_battles
 :path: data/clodfelter_battles.csv
@@ -33,75 +34,89 @@ The following battles had a significant naval component.
    Bombardment + assault on fort.
 
 
+**Sources:**
+
+- Clodfelter2008
 
 Schema
--------
+======
 
-
-
-
+-------------  -------  -------------
+battle         string   Battle
+theater        string   Theater
+theater_years  string   theater_years
+start_date     date     Start date
+end_date       date     End Date
+result         string   Result
+page           integer  Page
+-------------  -------  -------------
 
 battle
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+------
 
 :title: Battle
 :type: string
-:format: default 
+:format: default
 
 
 Battle name
-       
 
+
+       
 theater
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-------
 
 :title: Theater
 :type: string
-:format: default 
+:format: default
+
+
 
 
 
        
-
 theater_years
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-------------
 
 :title: theater_years
 :type: string
-:format: default 
+:format: default
+
+
 
 
 
        
-
 start_date
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+----------
 
 :title: Start date
 :type: date
-:format: default 
+:format: default
+
+
 
 
 
        
-
 end_date
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+--------
 
 :title: End Date
 :type: date
-:format: default 
+:format: default
+
+
 
 
 
        
-
 result
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+------
 
 :title: Result
 :type: string
-:format: default 
+:format: default
 :constraints:
     
     
@@ -110,21 +125,26 @@ result
     
     
     
-    :enum: ['Union', 'Confederate', 'Indecisive']      
+    :enum: ['Union', 'Confederate', 'Indecisive']     
 
 
 Result of the battle: Union victory, Confederate victory or tie.
 Clodfelter does not classify battles by result. This variable was added. The classifications follow CWSAC (:doc:`cwsac_battles`) where available.
-       
 
+**Sources:**
+- Clodfelter2008
+
+       
 page
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+----
 
 :title: Page
 :type: integer
-:format: default 
+:format: default
 
 
 Page number in Clodfelter (2008)
+
+
        
 

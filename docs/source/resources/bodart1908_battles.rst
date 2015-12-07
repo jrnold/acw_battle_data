@@ -1,5 +1,6 @@
+###############################################
 Bodart (1908) battles of the American Civil War
-================================================================================
+###############################################
 
 :name: bodart1908_battles
 :path: data/bodart1908_battles.csv
@@ -259,174 +260,203 @@ The sources cited by Bodart are (p. 29):
 
 
 
+**Sources:**
+
+- Bodart1908
 
 Schema
--------
+======
 
-
-
-
+---------------------  -------  -------------
+battle_id              integer  Battle number
+name                   string   Battle name
+other_names            string   Other name(s)
+start_date             date     Start Date
+end_date               date     End Date
+location               string   Location
+category_schlacht      boolean  Battle
+category_treffen       boolean  Meeting
+category_belagerung    boolean  Siege
+category_kapitulation  boolean  Surrender
+category_einnahme      integer  Capture
+category_size          integer  Size
+page                   integer  page
+---------------------  -------  -------------
 
 battle_id
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+---------
 
 :title: Battle number
 :type: integer
-:format: default 
+:format: default
 :constraints:
     
     
     
     
     
-    :minimum: 1 
+    :minimum: 1
     
          
 
 
 
-       
 
+
+       
 name
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+----
 
 :title: Battle name
 :type: string
-:format: default 
+:format: default
 
 
 Name of the battle
-       
 
+
+       
 other_names
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----------
 
 :title: Other name(s)
 :type: string
-:format: default 
+:format: default
 
 
 Alternate names for the battle
-       
 
+
+       
 start_date
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+----------
 
 :title: Start Date
 :type: date
-:format: default 
+:format: default
+
+
 
 
 
        
-
 end_date
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+--------
 
 :title: End Date
 :type: date
-:format: default 
+:format: default
+
+
 
 
 
        
-
 location
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+--------
 
 :title: Location
 :type: string
-:format: default 
+:format: default
 
 
 Location of the battle (in German)
-       
 
+
+       
 category_schlacht
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----------------
 
 :title: Battle
 :type: boolean
-:format: default 
+:format: default
 
 
 Was the battle a major battle ("Schlacht")?
-       
 
+
+       
 category_treffen
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+----------------
 
 :title: Meeting
 :type: boolean
-:format: default 
+:format: default
 
 
 Was the battle a meeting or encounter ("Treffen")?
-       
 
+
+       
 category_belagerung
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-------------------
 
 :title: Siege
 :type: boolean
-:format: default 
+:format: default
 
 
 Was the battle a siege ("Belagerung")?
-       
 
+
+       
 category_kapitulation
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+---------------------
 
 :title: Surrender
 :type: boolean
-:format: default 
+:format: default
 
 
 Was the battle a surrender ("Kapitulation")?
-       
 
+
+       
 category_einnahme
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----------------
 
 :title: Capture
 :type: integer
-:format: default 
+:format: default
 
 
 Was the battle a capture ("Einnahme")?
-       
 
+
+       
 category_size
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-------------
 
 :title: Size
 :type: integer
-:format: default 
+:format: default
 :constraints:
     
     
     
     
     
-    :minimum: 1 
-    :maximum: 6 
+    :minimum: 1
+    :maximum: 6
          
 
 
 Category of the battle based on total casualties. For land battles the categories area
 1. > 30,000 2. > 20,000  3. > 10,000  4. > 5,000 5. > 3,000 6. > 1,000
 
-       
 
+
+       
 page
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+----
 
 :title: page
 :type: integer
-:format: default 
+:format: default
 
 
 Page number in Bodart (1908)
+
+
        
 

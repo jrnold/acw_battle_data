@@ -1,5 +1,6 @@
+############################################################
 Dyer (1908) list of battles with Union forces and casualties
-================================================================================
+############################################################
 
 :name: dyer_engagements
 :path: data/dyer_engagements.csv
@@ -22,154 +23,185 @@ This corresponds to pages 662-991 of Dyer's *Compendium*, ignoring indexes.
 
 
 
+**Sources:**
+
+- DyerBattles
+
+- dyer1908_war_rebel
 
 Schema
--------
+======
 
-
-
-
+----------------  -------  -----------------
+battle            integer  Battle
+event_type        string   Event type
+state             string   State
+year              integer  Year
+battle_name       string   Battle Name
+start_date        date     Start Date
+end_date          date     End date
+text              string   Text
+casualties        integer  Casualties
+killed            integer  Killed
+wounded           integer  Wounded
+killed_wounded    number   Killed or Wounded
+missing_captured  number   Missing Captured
+----------------  -------  -----------------
 
 battle
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+------
 
 :title: Battle
 :type: integer
-:format: default 
+:format: default
 
 
 Number of the battle (identifier)
-       
 
+
+       
 event_type
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+----------
 
 :title: Event type
 :type: string
-:format: default 
+:format: default
 
 
 Event type: action, skirmish, siege, etc
-       
 
+
+       
 state
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----
 
 :title: State
 :type: string
-:format: default 
+:format: default
 
 
 State in which the event occurred.
-       
 
+
+       
 year
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+----
 
 :title: Year
 :type: integer
-:format: default 
+:format: default
 
 
 Year of the event.
-       
 
+
+       
 battle_name
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----------
 
 :title: Battle Name
 :type: string
-:format: default 
+:format: default
+
+
 
 
 
        
-
 start_date
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+----------
 
 :title: Start Date
 :type: date
-:format: default 
+:format: default
+
+
 
 
 
        
-
 end_date
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+--------
 
 :title: End date
 :type: date
-:format: default 
+:format: default
+
+
 
 
 
        
-
 text
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+----
 
 :title: Text
 :type: string
-:format: default 
+:format: default
 
 
 Original text of the engagement, including the Union forces involved.
-       
 
+
+       
 casualties
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+----------
 
 :title: Casualties
 :type: integer
-:format: default 
+:format: default
 
 
 Union casualties (killed, wounded, and missing or captured).
-       
 
+
+       
 killed
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+------
 
 :title: Killed
 :type: integer
-:format: default 
+:format: default
 
 
 Union killed
-       
 
+
+       
 wounded
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-------
 
 :title: Wounded
 :type: integer
-:format: default 
+:format: default
 
 
 Union wounded
-       
 
+
+       
 killed_wounded
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+--------------
 
 :title: Killed or Wounded
 :type: number
-:format: default 
+:format: default
 
 
 Union killed or wounded
-       
 
+
+       
 missing_captured
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+----------------
 
 :title: Missing Captured
 :type: number
-:format: default 
+:format: default
 
 
 Union missing or captured
+
+
        
 

@@ -1,5 +1,6 @@
+###################
 clodfelter_to_cwsac
-================================================================================
+###################
 
 :name: clodfelter_to_cwsac
 :path: data/clodfelter_to_cwsac.csv
@@ -7,42 +8,51 @@ clodfelter_to_cwsac
 
 
 
+**Sources:**
+
+- Clodfelter2008
 
 Schema
--------
+======
 
-
-
-
+--------  ------  --------
+from      string  from
+to        string  to
+relation  string  relation
+--------  ------  --------
 
 from
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+----
 
 :title: from
 :type: string
-:format: default 
+:format: default
+
+
 
 
 
        
-
 to
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+--
 
 :title: to
 :type: string
-:format: default 
+:format: default
+
+
 
 
 
        
-
 relation
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+--------
 
 :title: relation
 :type: string
-:format: default 
+:format: default
+
+
 
 
 

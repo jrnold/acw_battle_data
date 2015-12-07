@@ -1,5 +1,6 @@
+#############
 nps_campaigns
-================================================================================
+#############
 
 :name: nps_campaigns
 :path: data/nps_campaigns.csv
@@ -7,75 +8,86 @@ nps_campaigns
 
 
 
-
 Schema
--------
+======
 
-
-
-
+-----------------  ------  -----------------
+CampaignCode       string  CampaignCode
+CampaignName       string  CampaignName
+CampaignDates      string  CampaignDates
+CampaignStartDate  string  CampaignStartDate
+CampaignEndDate    string  CampaignEndDate
+TheaterCode        string  TheaterCode
+-----------------  ------  -----------------
 
 CampaignCode
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+------------
 
 :title: CampaignCode
 :type: string
-:format: default 
+:format: default
+
+
 
 
 
        
-
 CampaignName
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+------------
 
 :title: CampaignName
 :type: string
-:format: default 
+:format: default
+
+
 
 
 
        
-
 CampaignDates
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-------------
 
 :title: CampaignDates
 :type: string
-:format: default 
+:format: default
+
+
 
 
 
        
-
 CampaignStartDate
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----------------
 
 :title: CampaignStartDate
 :type: string
-:format: default 
+:format: default
+
+
 
 
 
        
-
 CampaignEndDate
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+---------------
 
 :title: CampaignEndDate
 :type: string
-:format: default 
+:format: default
+
+
 
 
 
        
-
 TheaterCode
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----------
 
 :title: TheaterCode
 :type: string
-:format: default 
+:format: default
+
+
 
 
 

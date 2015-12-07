@@ -1,5 +1,6 @@
+{{ '#' * title|length }}
 {{ title }}
-================================================================================
+{{ '#' * title|length }}
 
 :Version: {{ version }}
 :License: `{{ license.type }} <{{license.url}}>`__
@@ -10,13 +11,19 @@
 
 *keywords:* {{ keywords|join(', ') }}
 
+{% if sources|length %}
+**Sources:**
+{% for src in sources -%}
+- {{src}}
+{% endfor -%}
+{% endif %}
+
 .. toctree::
    :caption: Resources
    :maxdepth: 1
    :glob:
    
    resources/*
-       
        
 
 Indices and tables

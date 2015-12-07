@@ -1,5 +1,6 @@
+#################################
 CWSAC Report battle data: battles
-================================================================================
+#################################
 
 :name: cwsac_battles
 :path: data/cwsac_battles.csv
@@ -213,173 +214,215 @@ Thus, confusingly:
 
 
 
+**Sources:**
+
+- CWSAC1993
+
+- CWSAC1997
+
+- CWSAC_by_state
+
+- CWSAC_by_campgn
 
 Schema
--------
+======
 
-
-
-
+---------------  -------  ---------------------
+battle           string   Battle
+url              string   url
+battle_name      string   Battle Name
+other_names      string   Other Battle Names
+state            string   State
+locations        string   Locations
+campaign         string   Campaign
+start_date       date     Start Date
+end_date         date     End Date
+operation        boolean  operation
+assoc_battles    string   Associated battles
+results_text     string   Results
+result           string   result
+forces_text      string   forces_text
+strength         integer  strength
+casualties_text  string   casualties_text
+casualties       integer  Casualties
+description      string   Battle summary
+preservation     string   Preservation Priority
+significance     string   Military significance
+strength_mean    number   Strength (mean)
+strength_var     number   Strength (variance)
+---------------  -------  ---------------------
 
 battle
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+------
 
 :title: Battle
 :type: string
-:format: default 
+:format: default
 :constraints:
     
-    :minLength: 5 
-    :maxLength: 6 
+    :minLength: 5
+    :maxLength: 6
     
-    :pattern: [A-Z]{2}[0-9]{3}[A-Z]? 
+    :pattern: [A-Z]{2}[0-9]{3}[A-Z]?
     
     
          
 
 
 CWSAC battle identifier
-       
 
+
+       
 url
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+---
 
 :title: url
 :type: string
-:format: url 
+:format: url
 
 
 URL of the battle summary
-       
 
+
+       
 battle_name
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----------
 
 :title: Battle Name
 :type: string
-:format: default 
+:format: default
+
+
 
 
 
        
-
 other_names
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----------
 
 :title: Other Battle Names
 :type: string
-:format: default 
+:format: default
 
 
 
 Secondary or commonly used names, such as Elkhorn Tavern (Pea Ridge), Bull Run (Manassas), and Sharpsburg (Antietam).
-       
 
+
+       
 state
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----
 
 :title: State
 :type: string
-:format: default 
+:format: default
 :constraints:
     
-    :minLength: 2 
-    :maxLength: 2 
+    :minLength: 2
+    :maxLength: 2
     
-    :pattern: [A-Z][A-Z] 
+    :pattern: [A-Z][A-Z]
     
     
          
 
 
 2-letter State abbreviation
-       
 
+
+       
 locations
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+---------
 
 :title: Locations
 :type: string
-:format: default 
+:format: default
 
 
 The present day county or city in which the battlefield is located.
-       
 
+
+       
 campaign
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+--------
 
 :title: Campaign
 :type: string
-:format: default 
+:format: default
 
 
 The larger military operation with which the battle is associated.
-       
 
+
+       
 start_date
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+----------
 
 :title: Start Date
 :type: date
-:format: default 
+:format: default
+
+
 
 
 
        
-
 end_date
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+--------
 
 :title: End Date
 :type: date
-:format: default 
+:format: default
+
+
 
 
 
        
-
 operation
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+---------
 
 :title: operation
 :type: boolean
-:format: default 
+:format: default
 
 
 Was the battle an operation, a series of several related battles? E.g. Marietta Operations.
-       
 
+
+       
 assoc_battles
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-------------
 
 :title: Associated battles
 :type: string
-:format: default 
+:format: default
 
 
 If the battle was an operation, this contains the names of the battles in that operation.
-       
 
+
+       
 results_text
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+------------
 
 :title: Results
 :type: string
-:format: default 
+:format: default
 
 
 Text description of the battle result
 
    The victor in the battle, if the outcome was definitive. If the outcome was other than definitive, that information is provided.
-       
 
+
+       
 result
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+------
 
 :title: result
 :type: string
-:format: default 
+:format: default
 :constraints:
     
     
@@ -388,70 +431,74 @@ result
     
     
     
-    :enum: ['Union', 'Confederate', 'Inconclusive']      
+    :enum: ['Union', 'Confederate', 'Inconclusive']     
 
 
 Categorical result of the battle: Union victory, Confederate victory, or a tie.
-       
 
+
+       
 forces_text
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----------
 
 :title: forces_text
 :type: string
-:format: default 
+:format: default
 
 
 Description of the forces involved in the battle.
 CWSAC summary
 
    In most summaries, the particular company, regiment, brigade, division, corps, army, garrison, detachment, or ship. Some summaries, however, indicate the number of troops involved. In both cases, the purpose is to provide an idea of the size of the engagement. Most of the forces engaged were found in the U.S. War Department's Official Records.
-       
 
+
+       
 strength
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+--------
 
 :title: strength
 :type: integer
-:format: default 
+:format: default
 :constraints:
     
     
     
     
     
-    :minimum: 0 
+    :minimum: 0
     
          
 
 
 Total personnel involved in the battle. In some cases, CWSAC gives a number for the total personnel in the battle, but does not disaggregate by side.
-       
 
+
+       
 casualties_text
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+---------------
 
 :title: casualties_text
 :type: string
-:format: default 
+:format: default
 
 
 Description of the casualties of the battle.
-       
 
+
+       
 casualties
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+----------
 
 :title: Casualties
 :type: integer
-:format: default 
+:format: default
 :constraints:
     
     
     
     
     
-    :minimum: 0 
+    :minimum: 0
     
          
 
@@ -485,14 +532,15 @@ CWSAC description of casualties
    U.S. Surgeon General's Office. Chronological Summary of Engagements and Battles [Civil War]. Washington, DC: The Government Printing Office, 1873.
 
    U.S. War Department. The War of the Rebellion: A Compilation ofthe Official Records of the Union and Confederate Armies. 70 Volumes in 128. Washington, DC: The Government Printing Office, 1880-1901.
-       
 
+
+       
 description
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----------
 
 :title: Battle summary
 :type: string
-:format: default 
+:format: default
 
 
 Short text summary of the battle.
@@ -517,26 +565,28 @@ CWSAC documentation
    U.S. Navy Department. Official Records of the Union and Confederate Navies in the War of the Rebellion. Multivolumes. Washington, DC: The Government Printing Office, 1894-1927.
 
    U.S. War Department. The War of the Rebellion: A Compilation ofthe Official Records of the Union and Confederate Armies. 70 Volumes in 128. Washington, DC: The Government Printing Office, 1880-1901.
-       
 
+
+       
 preservation
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+------------
 
 :title: Preservation Priority
 :type: string
-:format: default 
+:format: default
 
 
 
 A designation made by the Commission based on the level of historical significance, the integrity of the remaining battlefield features, and the level of threat to the battlefield's existence. For example, IV.1 (Class D) means that the Commission determined that a particular battlefield site was Priority IV: Fragmented Battlefields, All Military Classes, Poor Integrity. (See Table 7, pages 49-53 in the Report on the Nation's Civil War Battlefield, for the preservation priority of all the battlefields studied.) Class A, B, C, or D indicates a battle's (and associated battlefield's) level of military importance within its campaign and the war. (See page v of this volume for an explanation of each of the four designations.) N/D indicates that no data is currently available to determine the levelof threat to the site.
-       
 
+
+       
 significance
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+------------
 
 :title: Military significance
 :type: string
-:format: default 
+:format: default
 :constraints:
     
     
@@ -545,50 +595,64 @@ significance
     
     
     
-    :enum: ['A', 'B', 'C', 'D']      
+    :enum: ['A', 'B', 'C', 'D']     
 
 
 
 Four-category classification of the military significance of the battle.
-       
 
+
+       
 strength_mean
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-------------
 
 :title: Strength (mean)
 :type: number
-:format: default 
+:format: default
 :constraints:
     
     
     
     
     
-    :minimum: 0 
+    :minimum: 0
     
          
 
 
 Mean of the estimated strength in personnel of the force. See code for how it is calculated.
-       
 
+**Sources:**
+- CWSAC1993
+- CWSAC1997
+- CWSAC_by_state
+- CWSAC_by_campgn
+
+       
 strength_var
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+------------
 
 :title: Strength (variance)
 :type: number
-:format: default 
+:format: default
 :constraints:
     
     
     
     
     
-    :minimum: 0 
+    :minimum: 0
     
          
 
 
 Variance of the estimated strength in personnel of the force. See code for how it is calculated.
+
+**Sources:**
+- CWSAC1993
+- CWSAC1997
+- CWSAC_by_state
+- CWSAC_by_campgn
+
        
 

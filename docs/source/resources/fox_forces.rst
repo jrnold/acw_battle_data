@@ -1,5 +1,6 @@
+############################
 Fox (1898) battle casualties
-================================================================================
+############################
 
 :name: fox_forces
 :path: data/fox_forces.csv
@@ -40,20 +41,33 @@ force level casualties.
 The results of battles is considered seperately in :doc:`fox_outcomes`.
 
 
+**Sources:**
+
+- fox1898regimental
 
 Schema
--------
+======
 
 :Primary Key: ['belligerent', 'battle_name']
-
-
+-----------  -------  -------------
+belligerent  string   belligerent
+battle_name  string   Battle name
+start_date   date     start_date
+end_date     date     end_date
+state        string   State
+casualties   integer  casualties
+killed       integer  Killed
+wounded      integer  wounded
+missing      integer  missing
+aggrow       boolean  Aggregate row
+-----------  -------  -------------
 
 belligerent
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----------
 
 :title: belligerent
 :type: string
-:format: default 
+:format: default
 :constraints:
     
     
@@ -62,117 +76,128 @@ belligerent
     
     
     
-    :enum: ['Confederate', 'US']      
+    :enum: ['Confederate', 'US']     
+
+
 
 
 
        
-
 battle_name
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----------
 
 :title: Battle name
 :type: string
-:format: default 
+:format: default
+
+
 
 
 
        
-
 start_date
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+----------
 
 :title: start_date
 :type: date
-:format: default 
+:format: default
 
 
 Start date of the battle
-       
 
+
+       
 end_date
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+--------
 
 :title: end_date
 :type: date
-:format: default 
+:format: default
 
 
 End date of the battle
-       
 
+
+       
 state
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----
 
 :title: State
 :type: string
-:format: default 
+:format: default
 :constraints:
     
-    :minLength: 2 
-    :maxLength: 2 
+    :minLength: 2
+    :maxLength: 2
     
-    :pattern: [A-Z]{2} 
+    :pattern: [A-Z]{2}
     
     
          
 
 
 State in which the battle took place
-       
 
+
+       
 casualties
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+----------
 
 :title: casualties
 :type: integer
-:format: default 
+:format: default
 
 
 Number of casualties (killed, wounded, and missing)
-       
 
+
+       
 killed
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+------
 
 :title: Killed
 :type: integer
-:format: default 
+:format: default
 
 
 Number killed
-       
 
+
+       
 wounded
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-------
 
 :title: wounded
 :type: integer
-:format: default 
+:format: default
 
 
 Number wounded
-       
 
+
+       
 missing
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-------
 
 :title: missing
 :type: integer
-:format: default 
+:format: default
 
 
 Number missing
-       
 
+
+       
 aggrow
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+------
 
 :title: Aggregate row
 :type: boolean
-:format: default 
+:format: default
 
 
 Does this row aggregate casualties from several battles?
+
+
        
 

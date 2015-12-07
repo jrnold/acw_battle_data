@@ -1,5 +1,6 @@
+#####################
 phisterer_engagements
-================================================================================
+#####################
 
 :name: phisterer_engagements
 :path: data/phisterer_engagements.csv
@@ -34,86 +35,103 @@ chronological record is:
 
 
 
+**Sources:**
+
+- Phisterer1883
 
 Schema
--------
+======
 
-
-
-
+-----------  -------  -----------
+id           integer  id
+start_date   string   start_date
+end_date     string   end_date
+monthonly    boolean  monthonly
+location     string   location
+state        string   state
+description  string   description
+-----------  -------  -----------
 
 id
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+--
 
 :title: id
 :type: integer
-:format: default 
+:format: default
+
+
 
 
 
        
-
 start_date
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+----------
 
 :title: start_date
 :type: string
-:format: default 
+:format: default
+
+
 
 
 
        
-
 end_date
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+--------
 
 :title: end_date
 :type: string
-:format: default 
+:format: default
+
+
 
 
 
        
-
 monthonly
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+---------
 
 :title: monthonly
 :type: boolean
-:format: default 
+:format: default
+
+
 
 
 
        
-
 location
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+--------
 
 :title: location
 :type: string
-:format: default 
+:format: default
+
+
 
 
 
        
-
 state
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----
 
 :title: state
 :type: string
-:format: default 
+:format: default
+
+
 
 
 
        
-
 description
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----------
 
 :title: description
 :type: string
-:format: default 
+:format: default
+
+
 
 
 

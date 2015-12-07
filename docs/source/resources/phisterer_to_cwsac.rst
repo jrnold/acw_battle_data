@@ -1,5 +1,6 @@
+##################
 phisterer_to_cwsac
-================================================================================
+##################
 
 :name: phisterer_to_cwsac
 :path: data/phisterer_to_cwsac.csv
@@ -32,42 +33,51 @@ Some notes on specific battles
 
 
 
+**Sources:**
+
+- Phisterer1883
 
 Schema
--------
+======
 
-
-
-
+--------  -------  --------
+from      integer  from
+to        string   to
+relation  string   relation
+--------  -------  --------
 
 from
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+----
 
 :title: from
 :type: integer
-:format: default 
+:format: default
+
+
 
 
 
        
-
 to
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+--
 
 :title: to
 :type: string
-:format: default 
+:format: default
+
+
 
 
 
        
-
 relation
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+--------
 
 :title: relation
 :type: string
-:format: default 
+:format: default
+
+
 
 
 

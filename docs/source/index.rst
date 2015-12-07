@@ -1,5 +1,6 @@
+##############################
 American Civil War Battle Data
-================================================================================
+##############################
 
 :Version: 0.0.1
 :License: `ODC-BY <http://opendatacommons.org/licenses/by/1.0/>`__
@@ -12,13 +13,14 @@ This is mostly a repackaging of data from other secondary and primary sources, a
 
 *keywords:* American Civil War, battle, war, casualties, commanders
 
+
+
 .. toctree::
    :caption: Resources
    :maxdepth: 1
    :glob:
    
    resources/*
-       
        
 
 Indices and tables

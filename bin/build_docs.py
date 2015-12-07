@@ -3,6 +3,7 @@ import os
 from os import path
 import json
 import shutil
+from tabulate import tabulate
 
 import jinja2
 
@@ -19,6 +20,8 @@ def build_resources(docs, env, metadata):
     os.makedirs(data_doc_dir)
     template = env.get_template('resource.rst')
     for res in metadata['resources']:
+        if 'schema' in res:
+            res['summary_table'] = tabulate([[x['name'], x['type'], x['title']] for x in res['schema']['fields']])
         rendered = template.render(res)
         with open(path.join(data_doc_dir, res['name'] + '.rst'), 'w') as f:
             f.write(rendered)

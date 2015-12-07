@@ -1,5 +1,6 @@
+#################
 livermore_battles
-================================================================================
+#################
 
 :name: livermore_battles
 :path: data/livermore_battles.csv
@@ -45,152 +46,181 @@ Livermore devotes p. 1-49 to developing the estimates of the size of
 Confederate Forces which are reported in this table.
 
 
+**Sources:**
+
+- Livermore1900
 
 Schema
--------
+======
 
-
-
-
+-----------------  -------  -----------------
+seq_no             integer  seq_no
+battle_name        string   battle_name
+page               integer  page
+start_date         string   start_date
+end_date           string   end_date
+attacker           string   attacker
+result             string   result
+assault_fortified  string   assault_fortified
+assault_outcome    string   assault_outcome
+union_result       string   union_result
+confed_result      string   confed_result
+state              string   state
+theater            string   theater
+-----------------  -------  -----------------
 
 seq_no
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+------
 
 :title: seq_no
 :type: integer
-:format: default 
+:format: default
+
+
 
 
 
        
-
 battle_name
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----------
 
 :title: battle_name
 :type: string
-:format: default 
+:format: default
+
+
 
 
 
        
-
 page
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+----
 
 :title: page
 :type: integer
-:format: default 
+:format: default
+
+
 
 
 
        
-
 start_date
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+----------
 
 :title: start_date
 :type: string
-:format: default 
+:format: default
+
+
 
 
 
        
-
 end_date
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+--------
 
 :title: end_date
 :type: string
-:format: default 
+:format: default
+
+
 
 
 
        
-
 attacker
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+--------
 
 :title: attacker
 :type: string
-:format: default 
+:format: default
+
+
 
 
 
        
-
 result
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+------
 
 :title: result
 :type: string
-:format: default 
+:format: default
+
+
 
 
 
        
-
 assault_fortified
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----------------
 
 :title: assault_fortified
 :type: string
-:format: default 
+:format: default
+
+
 
 
 
        
-
 assault_outcome
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+---------------
 
 :title: assault_outcome
 :type: string
-:format: default 
+:format: default
+
+
 
 
 
        
-
 union_result
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+------------
 
 :title: union_result
 :type: string
-:format: default 
+:format: default
+
+
 
 
 
        
-
 confed_result
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-------------
 
 :title: confed_result
 :type: string
-:format: default 
+:format: default
+
+
 
 
 
        
-
 state
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----
 
 :title: state
 :type: string
-:format: default 
+:format: default
+
+
 
 
 
        
-
 theater
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-------
 
 :title: theater
 :type: string
-:format: default 
+:format: default
+
+
 
 
 

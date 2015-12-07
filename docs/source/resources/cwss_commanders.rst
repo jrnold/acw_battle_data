@@ -1,5 +1,6 @@
+###############
 cwss_commanders
-================================================================================
+###############
 
 :name: cwss_commanders
 :path: data/cwss_commanders.csv
@@ -7,53 +8,64 @@ cwss_commanders
 
 
 
+**Sources:**
+
+- CWSS
 
 Schema
--------
+======
 
-
-
-
+----------------  -------  ----------------
+BattlefieldCode   string   BattlefieldCode
+belligerent       string   belligerent
+commander_number  integer  commander_number
+commander         string   commander
+----------------  -------  ----------------
 
 BattlefieldCode
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+---------------
 
 :title: BattlefieldCode
 :type: string
-:format: default 
+:format: default
+
+
 
 
 
        
-
 belligerent
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----------
 
 :title: belligerent
 :type: string
-:format: default 
+:format: default
+
+
 
 
 
        
-
 commander_number
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+----------------
 
 :title: commander_number
 :type: integer
-:format: default 
+:format: default
+
+
 
 
 
        
-
 commander
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+---------
 
 :title: commander
 :type: string
-:format: default 
+:format: default
+
+
 
 
 

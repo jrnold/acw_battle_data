@@ -1,5 +1,6 @@
+#########################
 Miscellaneous battle data
-================================================================================
+#########################
 
 :name: battlemisc
 :path: data/battlemisc.csv
@@ -16,51 +17,59 @@ The extra data includes:
   
 
 
+**Sources:**
+
+- self
 
 Schema
--------
+======
 
-
-
-
+-----------  ------  -----------
+cwsac_id     string  CWSAC Id.
+battle_name  string  Battle name
+attacker     string  Attacker
+surrender    string  Surrender
+-----------  ------  -----------
 
 cwsac_id
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+--------
 
 :title: CWSAC Id.
 :type: string
-:format: default 
+:format: default
 :constraints:
     
     
     
     
-    :pattern: [A-Z]{2}[0-9]{3}[A-Z]? 
+    :pattern: [A-Z]{2}[0-9]{3}[A-Z]?
     
     
          
 
 
 
-       
 
+
+       
 battle_name
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----------
 
 :title: Battle name
 :type: string
-:format: default 
+:format: default
+
+
 
 
 
        
-
 attacker
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+--------
 
 :title: Attacker
 :type: string
-:format: default 
+:format: default
 :constraints:
     
     
@@ -69,18 +78,19 @@ attacker
     
     
     
-    :enum: ['US', 'Confederate']      
+    :enum: ['US', 'Confederate']     
 
 
 Which side was the attacker in the battle? This was coded as the side which first initiated combat in that battle. It is not a measure of which side was attacking in the campaign. This was coded from the descriptions in the CWSAC and Wikipedia.
-       
 
+
+       
 surrender
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+---------
 
 :title: Surrender
 :type: string
-:format: default 
+:format: default
 :constraints:
     
     
@@ -89,9 +99,11 @@ surrender
     
     
     
-    :enum: ['Union complete', 'Union partial', 'None', 'Confederate partial', 'Confederate complete']      
+    :enum: ['Union complete', 'Union partial', 'None', 'Confederate partial', 'Confederate complete']     
 
 
 Did one of the sides surrender?
+
+
        
 

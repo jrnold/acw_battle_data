@@ -1,5 +1,6 @@
+##############
 nps_commanders
-================================================================================
+##############
 
 :name: nps_commanders
 :path: data/nps_commanders.csv
@@ -7,119 +8,138 @@ nps_commanders
 
 
 
-
 Schema
--------
+======
 
-
-
-
+----------------  -------  ----------------
+cwsac_id          string   cwsac_id
+belligerent       string   belligerent
+commander_number  integer  commander_number
+PersonID          string   PersonID
+last_name         string   last_name
+first_name        string   first_name
+middle_name       string   middle_name
+middle_initial    string   middle_initial
+rank              string   rank
+navy              number   navy
+----------------  -------  ----------------
 
 cwsac_id
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+--------
 
 :title: cwsac_id
 :type: string
-:format: default 
+:format: default
+
+
 
 
 
        
-
 belligerent
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----------
 
 :title: belligerent
 :type: string
-:format: default 
+:format: default
+
+
 
 
 
        
-
 commander_number
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+----------------
 
 :title: commander_number
 :type: integer
-:format: default 
+:format: default
+
+
 
 
 
        
-
 PersonID
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+--------
 
 :title: PersonID
 :type: string
-:format: default 
+:format: default
+
+
 
 
 
        
-
 last_name
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+---------
 
 :title: last_name
 :type: string
-:format: default 
+:format: default
+
+
 
 
 
        
-
 first_name
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+----------
 
 :title: first_name
 :type: string
-:format: default 
+:format: default
+
+
 
 
 
        
-
 middle_name
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----------
 
 :title: middle_name
 :type: string
-:format: default 
+:format: default
+
+
 
 
 
        
-
 middle_initial
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+--------------
 
 :title: middle_initial
 :type: string
-:format: default 
+:format: default
+
+
 
 
 
        
-
 rank
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+----
 
 :title: rank
 :type: string
-:format: default 
+:format: default
+
+
 
 
 
        
-
 navy
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+----
 
 :title: navy
 :type: number
-:format: default 
+:format: default
+
+
 
 
 

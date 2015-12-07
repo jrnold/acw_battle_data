@@ -1,5 +1,6 @@
+####################
 cwss_battleunitlinks
-================================================================================
+####################
 
 :name: cwss_battleunitlinks
 :path: data/cwss_battleunitlinks.csv
@@ -7,53 +8,64 @@ cwss_battleunitlinks
 
 
 
+**Sources:**
+
+- CWSS
 
 Schema
--------
+======
 
-
-
-
+---------------  ------  ---------------
+BattlefieldCode  string  BattlefieldCode
+Comment          string  Comment
+Source           string  Source
+UnitCode         string  UnitCode
+---------------  ------  ---------------
 
 BattlefieldCode
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+---------------
 
 :title: BattlefieldCode
 :type: string
-:format: default 
+:format: default
+
+
 
 
 
        
-
 Comment
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-------
 
 :title: Comment
 :type: string
-:format: default 
+:format: default
+
+
 
 
 
        
-
 Source
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+------
 
 :title: Source
 :type: string
-:format: default 
+:format: default
+
+
 
 
 
        
-
 UnitCode
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+--------
 
 :title: UnitCode
 :type: string
-:format: default 
+:format: default
+
+
 
 
 

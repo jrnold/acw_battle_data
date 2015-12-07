@@ -1,5 +1,6 @@
+######################################################
 Reiter (2009) Turning Points of the American Civil War
-================================================================================
+######################################################
 
 :name: reiter2009_turning_points
 :path: data/reiter2009_turning_points.csv
@@ -11,53 +12,64 @@ Chapter 8 of discusses five turning points (and associated periods) of the Ameri
 Four of these turning points are based off of those listed by James McPherson in *The Battle Cry of Freedom*; the fifth is the end of the war.
 
 
+**Sources:**
+
+- Reiter2009
 
 Schema
--------
+======
 
-
-
-
+---------------  --------------------------------  ---------------
+period           Time period of the turning point  Period
+start_date       date                              Start Date
+description      string                            Description
+favor            string                            War Favor
+war_aims_change  string                            War Aims Change
+comment          string                            Comment
+---------------  --------------------------------  ---------------
 
 period
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+------
 
 :title: Period
 :type: Time period of the turning point
-:format: default 
+:format: default
+
+
 
 
 
        
-
 start_date
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+----------
 
 :title: Start Date
 :type: date
-:format: default 
+:format: default
+
+
 
 
 
        
-
 description
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----------
 
 :title: Description
 :type: string
-:format: default 
+:format: default
 
 
 Brief description of the turning point
-       
 
+
+       
 favor
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----
 
 :title: War Favor
 :type: string
-:format: default 
+:format: default
 :constraints:
     
     
@@ -66,29 +78,33 @@ favor
     
     
     
-    :enum: ['Union', 'Confederacy']      
+    :enum: ['Union', 'Confederacy']     
 
 
 Which side did the turning point favor: Union or Confederacy?
-       
 
+
+       
 war_aims_change
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+---------------
 
 :title: War Aims Change
 :type: string
-:format: default 
+:format: default
 
 
 Did either side change war aims in the following period?
-       
 
+
+       
 comment
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-------
 
 :title: Comment
 :type: string
-:format: default 
+:format: default
+
+
 
 
 

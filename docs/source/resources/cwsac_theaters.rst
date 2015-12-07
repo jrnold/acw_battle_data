@@ -1,5 +1,6 @@
+##########################################
 CWSAC Report Updates battle data: theaters
-================================================================================
+##########################################
 
 :name: cwsac_theaters
 :path: data/cwsac_theaters.csv
@@ -7,44 +8,59 @@ CWSAC Report Updates battle data: theaters
 
 
 
+**Sources:**
+
+- CWSAC1993
+
+- CWSAC1997
+
+- CWSAC_by_state
+
+- CWSAC_by_campgn
 
 Schema
--------
+======
 
-
-
-
+------------  ------  ----------------------
+theater       string  Theater
+dbp_resource  string  DBPedia URI
+dbp_category  string  DBPedia URI (category)
+------------  ------  ----------------------
 
 theater
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-------
 
 :title: Theater
 :type: string
-:format: default 
+:format: default
+
+
 
 
 
        
-
 dbp_resource
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+------------
 
 :title: DBPedia URI
 :type: string
-:format: url 
+:format: url
 
 
 URI of the dbpedia.org category resource for the theater.
-       
 
+
+       
 dbp_category
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+------------
 
 :title: DBPedia URI (category)
 :type: string
-:format: url 
+:format: url
 
 
 URI of the dbpedia.org category resource for the theater.
+
+
        
 
