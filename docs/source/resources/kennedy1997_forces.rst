@@ -13,13 +13,13 @@ See :doc:`kennedy1997_battles` for more information.
 
 
 **Sources:**
-
 - KennedyConservation1998
+
 
 Schema
 ======
 
-------------------  -------  -----------------------
+==================  =======  =======================
 battle              string   Battle
 belligerent         string   belligerent
 casualties_min      integer  Casualties (min)
@@ -27,7 +27,7 @@ casualties_max      integer  Casualties (max)
 killed_wounded_min  integer  Killed or Wounded (min)
 killed_wounded_max  integer  Killed or Wounded (max)
 missing             integer  Missing or captured
-------------------  -------  -----------------------
+==================  =======  =======================
 
 battle
 ------
@@ -36,15 +36,10 @@ battle
 :type: string
 :format: default
 :constraints:
-    
     :minLength: 5
     :maxLength: 6
-    
     :pattern: [A-Z]{2}[0-9]{3}[A-Z]?
     
-    
-         
-
 
 CWSAC battle identifier
 
@@ -57,15 +52,8 @@ belligerent
 :type: string
 :format: default
 :constraints:
+    :enum: ['US', 'Confederate', 'Native American']
     
-    
-    
-    
-    
-    
-    
-    :enum: ['US', 'Confederate', 'Native American']     
-
 
 
 
@@ -78,15 +66,8 @@ casualties_min
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Casualties (killed, wounded, and missing or captured), minimum value.
 This source only gives a range for a few battles. For battles where no range is given, the mimimum and maximum are set to the same value.
@@ -100,15 +81,8 @@ casualties_max
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Casualties (killed, wounded, and missing or captured), maximum value.      
 
@@ -121,15 +95,8 @@ killed_wounded_min
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 This source only gives a range for a few battles. For battles where no range is given, the mimimum and maximum are set to the same value.
 
@@ -142,15 +109,8 @@ killed_wounded_max
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 
 
@@ -163,15 +123,8 @@ missing
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 
 

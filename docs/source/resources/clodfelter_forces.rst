@@ -9,13 +9,13 @@ Clodfelter (2008) battle data: forces
 
 
 **Sources:**
-
 - Clodfelter2008
+
 
 Schema
 ======
 
------------------------  -------  -----------------------
+=======================  =======  =======================
 battle                   string   Battle
 belligerent              string   Belligerent
 strength                 integer  Strength
@@ -60,7 +60,7 @@ forts_captured           integer  Forts Captured
 note                     string   Note
 str_mean                 number   Strength (mean)
 str_var                  number   Strength (variance)
------------------------  -------  -----------------------
+=======================  =======  =======================
 
 battle
 ------
@@ -81,15 +81,8 @@ belligerent
 :type: string
 :format: default
 :constraints:
+    :enum: ['US', 'Confederate']
     
-    
-    
-    
-    
-    
-    
-    :enum: ['US', 'Confederate']     
-
 
 
 
@@ -102,15 +95,8 @@ strength
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Total number of personnel in the battle
 
@@ -123,15 +109,8 @@ infantry
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Total number of infantry in the battle
 
@@ -144,15 +123,8 @@ cavalry
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Total number of cavalry in the battle
 
@@ -165,15 +137,8 @@ crewmen
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Total number of naval crew in the battle
 
@@ -186,15 +151,8 @@ corps
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Number of corps in the battle
 
@@ -207,15 +165,8 @@ cavalry_corps
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Number of cavalry corps in the battle
 
@@ -228,15 +179,8 @@ divisions
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Number of divisions in the battle
 
@@ -249,15 +193,8 @@ cavalry_divisions
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Number of cavalry divisions in the battle
 
@@ -270,15 +207,8 @@ brigades
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Number of brigades in the battle
 
@@ -291,15 +221,8 @@ companies
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Number of companies in the battle
 
@@ -312,15 +235,8 @@ frigates
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 
 
@@ -333,15 +249,8 @@ gunboats
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 
 
@@ -354,15 +263,8 @@ ironclads
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 
 
@@ -375,15 +277,8 @@ sloops
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 
 
@@ -396,15 +291,8 @@ steamers
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 
 
@@ -417,15 +305,8 @@ warships_and_transports
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 
 
@@ -438,15 +319,8 @@ warships
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 
 
@@ -459,15 +333,8 @@ wooden_warships
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 
 
@@ -480,15 +347,8 @@ guns
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Number of artillery pieces
 
@@ -501,15 +361,8 @@ casualties
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Casualties (killed, wounded, and missing or captured)
 
@@ -522,15 +375,8 @@ captured
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 
 
@@ -543,15 +389,8 @@ killed
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 
 
@@ -564,15 +403,8 @@ wounded
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 
 
@@ -585,15 +417,8 @@ missing
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 
 
@@ -606,15 +431,8 @@ killed_wounded
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 
 
@@ -627,15 +445,8 @@ killed_missing
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 
 
@@ -648,15 +459,8 @@ missing_captured
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 
 
@@ -669,15 +473,8 @@ wounded_missing
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 
 
@@ -690,15 +487,8 @@ guns_lost
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Number of guns (artillery pieces) captured by the opponent.
 
@@ -723,15 +513,8 @@ small_arms_lost
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Number of small arms captured by the opponent.
 
@@ -756,15 +539,8 @@ warships_sunk
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Number of warships sunk by the opponent.
 
@@ -777,15 +553,8 @@ warships_damaged
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Number of warships damaged by the opponent.
 
@@ -798,15 +567,8 @@ gunboats_sunk
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Number of gunboats sunk by the opponent.
 
@@ -819,15 +581,8 @@ gunboats_captured
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Number of gunboats captured by the opponent.
 
@@ -840,15 +595,8 @@ ironclads_sunk
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Number of ironclads sunk by the opponent.
 
@@ -861,15 +609,8 @@ ironclads_captured
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Number of ironclads captured by the opponent.
 
@@ -882,15 +623,8 @@ forts_captured
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Number of forts captured by the opponent.
 
@@ -915,20 +649,13 @@ str_mean
 :type: number
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Mean of the estimated strength in personnel of the force. See code for how it is calculated.
 
 **Sources:**
-- Clodfelter2008
+- self
 
        
 str_var
@@ -938,20 +665,13 @@ str_var
 :type: number
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Variance of the estimated strength in personnel of the force. See code for how it is calculated.
 
 **Sources:**
-- Clodfelter2008
+- self
 
        
 

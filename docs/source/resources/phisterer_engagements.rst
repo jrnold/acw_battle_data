@@ -36,13 +36,13 @@ chronological record is:
 
 
 **Sources:**
-
 - Phisterer1883
+
 
 Schema
 ======
 
------------  -------  -----------
+===========  =======  ===========
 id           integer  id
 start_date   string   start_date
 end_date     string   end_date
@@ -50,7 +50,7 @@ monthonly    boolean  monthonly
 location     string   location
 state        string   state
 description  string   description
------------  -------  -----------
+===========  =======  ===========
 
 id
 --

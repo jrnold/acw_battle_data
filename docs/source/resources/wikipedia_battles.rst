@@ -21,16 +21,18 @@ from the `Updated CWSAC Reports
 force size is provided in that source.
 
 
+
+
 Schema
 ======
 
-----------  ------  ----------
+==========  ======  ==========
 battle      string  battle
 id          number  id
 strength    number  strength
 casualties  number  casualties
 notes       string  notes
-----------  ------  ----------
+==========  ======  ==========
 
 battle
 ------

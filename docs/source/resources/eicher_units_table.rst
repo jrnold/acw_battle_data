@@ -9,13 +9,13 @@ eicher_units_table
 
 
 **Sources:**
-
 - eicher2002civil
+
 
 Schema
 ======
 
------------  -------  -----------
+===========  =======  ===========
 belligerent  string   belligerent
 infantry     integer  infantry
 unit type    string   unit type
@@ -24,7 +24,7 @@ high         integer  high
 avg          number   avg
 mode         integer  mode
 page         integer  page
------------  -------  -----------
+===========  =======  ===========
 
 belligerent
 -----------

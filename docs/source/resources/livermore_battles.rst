@@ -47,13 +47,13 @@ Confederate Forces which are reported in this table.
 
 
 **Sources:**
-
 - Livermore1900
+
 
 Schema
 ======
 
------------------  -------  -----------------
+=================  =======  =================
 seq_no             integer  seq_no
 battle_name        string   battle_name
 page               integer  page
@@ -67,7 +67,7 @@ union_result       string   union_result
 confed_result      string   confed_result
 state              string   state
 theater            string   theater
------------------  -------  -----------------
+=================  =======  =================
 
 seq_no
 ------

@@ -9,19 +9,16 @@ cwsac_forces
 
 
 **Sources:**
-
 - CWSAC1993
-
 - CWSAC1997
-
 - CWSAC_by_state
-
 - CWSAC_by_campgn
+
 
 Schema
 ======
 
--------------------  ------  -------------------
+===================  ======  ===================
 battle               string  battle
 belligerent          string  belligerent
 description          string  description
@@ -50,7 +47,7 @@ missing              number  missing
 captured             number  captured
 strength_mean        number  strength_mean
 strength_var         number  strength_var
--------------------  ------  -------------------
+===================  ======  ===================
 
 battle
 ------

@@ -9,18 +9,18 @@ livermore_to_cwsac
 
 
 **Sources:**
-
 - Livermore1900
+
 
 Schema
 ======
 
------------  -------  -----------
+===========  =======  ===========
 from         integer  from
 battle_name  string   battle_name
 to           string   to
 relation     string   relation
------------  -------  -----------
+===========  =======  ===========
 
 from
 ----

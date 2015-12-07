@@ -8,14 +8,16 @@ wikipedia_to_cwsac
 
 
 
+
+
 Schema
 ======
 
---------  ------  --------
+========  ======  ========
 from      string  from
 to        string  to
 relation  string  relation
---------  ------  --------
+========  ======  ========
 
 from
 ----

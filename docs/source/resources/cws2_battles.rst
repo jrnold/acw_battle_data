@@ -9,55 +9,34 @@ CWSAC Report Updates battle data: battles
 
 
 **Sources:**
-
 - CWSII
-
 - CWSIIAL
-
 - CWSIIAR
-
 - CWSIICO
-
 - CWSIIDC
-
 - CWSIIFL
-
 - CWSIIGA
-
 - CWSIIKS
-
 - CWSIIKY
-
 - CWSIIMN
-
 - CWSIILA
-
 - CWSIIMD
-
 - CWSIIMO
-
 - CWSIINC
-
 - CWSIIND
-
 - CWSIIOH
-
 - CWSIIOK
-
 - CWSIIPA
-
 - CWSIISC
-
 - CWSIITN
-
 - CWSIIVA
-
 - CWSIIWV
+
 
 Schema
 ======
 
---------------  -------  -------------------
+==============  =======  ===================
 battle          string   Battle
 battle_name     string   Battle Name
 state           string   State
@@ -72,7 +51,7 @@ core_area       number   core_area
 potnr_boundary  number   potnr_boundary
 strength_mean   number   Strength (mean)
 strength_var    number   Strength (variance)
---------------  -------  -------------------
+==============  =======  ===================
 
 battle
 ------
@@ -81,15 +60,10 @@ battle
 :type: string
 :format: default
 :constraints:
-    
     :minLength: 5
     :maxLength: 6
-    
     :pattern: [A-Z]{2}[0-9]{3}[A-Z]?
     
-    
-         
-
 
 CWSAC battle identifier
 
@@ -114,15 +88,10 @@ state
 :type: string
 :format: default
 :constraints:
-    
     :minLength: 2
     :maxLength: 2
-    
     :pattern: [A-Z][A-Z]
     
-    
-         
-
 
 State in which the battle occurred. Two-letter abbreviation of the state.
 
@@ -171,15 +140,8 @@ strength
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Total personnel (on both sides) in the battle. For some battles, CWSAC gives an aggregate total, but not totals for the individual sides.
 
@@ -255,41 +217,13 @@ strength_mean
 :type: number
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Mean of the estimated strength in personnel of the force. See code for how it is calculated.
 
 **Sources:**
-- CWSII
-- CWSIIAL
-- CWSIIAR
-- CWSIICO
-- CWSIIDC
-- CWSIIFL
-- CWSIIGA
-- CWSIIKS
-- CWSIIKY
-- CWSIIMN
-- CWSIILA
-- CWSIIMD
-- CWSIIMO
-- CWSIINC
-- CWSIIND
-- CWSIIOH
-- CWSIIOK
-- CWSIIPA
-- CWSIISC
-- CWSIITN
-- CWSIIVA
-- CWSIIWV
+- self
 
        
 strength_var
@@ -299,41 +233,13 @@ strength_var
 :type: number
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Variance of the estimated strength in personnel of the force. See code for how it is calculated.
 
 **Sources:**
-- CWSII
-- CWSIIAL
-- CWSIIAR
-- CWSIICO
-- CWSIIDC
-- CWSIIFL
-- CWSIIGA
-- CWSIIKS
-- CWSIIKY
-- CWSIIMN
-- CWSIILA
-- CWSIIMD
-- CWSIIMO
-- CWSIINC
-- CWSIIND
-- CWSIIOH
-- CWSIIOK
-- CWSIIPA
-- CWSIISC
-- CWSIITN
-- CWSIIVA
-- CWSIIWV
+- self
 
        
 

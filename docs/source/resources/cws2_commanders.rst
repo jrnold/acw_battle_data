@@ -9,55 +9,34 @@ CWSAC Report Updates: commanders
 
 
 **Sources:**
-
 - CWSII
-
 - CWSIIAL
-
 - CWSIIAR
-
 - CWSIICO
-
 - CWSIIDC
-
 - CWSIIFL
-
 - CWSIIGA
-
 - CWSIIKS
-
 - CWSIIKY
-
 - CWSIIMN
-
 - CWSIILA
-
 - CWSIIMD
-
 - CWSIIMO
-
 - CWSIINC
-
 - CWSIIND
-
 - CWSIIOH
-
 - CWSIIOK
-
 - CWSIIPA
-
 - CWSIISC
-
 - CWSIITN
-
 - CWSIIVA
-
 - CWSIIWV
+
 
 Schema
 ======
 
------------  ------  -----------
+===========  ======  ===========
 battle       string  Battle
 belligerent  string  belligerent
 fullname     string  Full name
@@ -66,7 +45,7 @@ last_name    string  Last Name
 first_name   string  First Name
 middle_name  string  Middle Name
 suffix       string  Suffix
------------  ------  -----------
+===========  ======  ===========
 
 battle
 ------
@@ -75,15 +54,10 @@ battle
 :type: string
 :format: default
 :constraints:
-    
     :minLength: 5
     :maxLength: 6
-    
     :pattern: [A-Z]{2}[0-9]{3}[A-Z]?
     
-    
-         
-
 
 CWSAC battle identifier
 
@@ -96,15 +70,8 @@ belligerent
 :type: string
 :format: default
 :constraints:
+    :enum: ['US', 'Confederate', 'Native American']
     
-    
-    
-    
-    
-    
-    
-    :enum: ['US', 'Confederate', 'Native American']     
-
 
 
 

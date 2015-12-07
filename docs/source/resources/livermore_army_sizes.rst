@@ -9,20 +9,20 @@ livermore_army_sizes
 
 
 **Sources:**
-
 - Livermore1900
+
 
 Schema
 ======
 
---------------------------  -------  --------------------------
+==========================  =======  ==========================
 date                        string   date
 No. on Union Rolls          integer  No. on Union Rolls
 Average                     number   Average
 No. on Confederate Returns  integer  No. on Confederate Returns
 Average.1                   number   Average.1
 Per cent.                   number   Per cent.
---------------------------  -------  --------------------------
+==========================  =======  ==========================
 
 date
 ----

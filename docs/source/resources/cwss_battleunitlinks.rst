@@ -9,18 +9,18 @@ cwss_battleunitlinks
 
 
 **Sources:**
-
 - CWSS
+
 
 Schema
 ======
 
----------------  ------  ---------------
+===============  ======  ===============
 BattlefieldCode  string  BattlefieldCode
 Comment          string  Comment
 Source           string  Source
 UnitCode         string  UnitCode
----------------  ------  ---------------
+===============  ======  ===============
 
 BattlefieldCode
 ---------------

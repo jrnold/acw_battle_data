@@ -12,17 +12,17 @@ This is the correpsondence between battles in Bodart (1908), e.g. :doc:`bodart19
 
 
 **Sources:**
-
 - Bodart1908
+
 
 Schema
 ======
 
---------  ------  --------
+========  ======  ========
 from      string  from
 to        string  to
 relation  string  relation
---------  ------  --------
+========  ======  ========
 
 from
 ----

@@ -21,16 +21,16 @@ The variable is set to 0 in 1864Q2 and 1864Q3 because the Northern offensive sta
 
 
 **Sources:**
-
 - BurdekinLangdana1993
+
 
 Schema
 ======
 
------  -------  ---------
+=====  =======  =========
 date   date     Date
 trend  integer  War Trend
------  -------  ---------
+=====  =======  =========
 
 date
 ----

@@ -8,10 +8,12 @@ nps_commanders
 
 
 
+
+
 Schema
 ======
 
-----------------  -------  ----------------
+================  =======  ================
 cwsac_id          string   cwsac_id
 belligerent       string   belligerent
 commander_number  integer  commander_number
@@ -22,7 +24,7 @@ middle_name       string   middle_name
 middle_initial    string   middle_initial
 rank              string   rank
 navy              number   navy
-----------------  -------  ----------------
+================  =======  ================
 
 cwsac_id
 --------

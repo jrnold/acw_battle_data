@@ -53,13 +53,13 @@ The original documentation reads:
 
 
 **Sources:**
-
 - CWSAC_AAD
+
 
 Schema
 ======
 
--------------------------------  -------  ---------------------------------------------------------------------------------------------------
+===============================  =======  ===================================================================================================
 reference_number                 string   Reference Number
 event                            string   event
 type                             string   Type
@@ -101,7 +101,7 @@ county                           string   County
 value                            string   value
 priority1                        boolean  priority1
 url                              string   url
--------------------------------  -------  ---------------------------------------------------------------------------------------------------
+===============================  =======  ===================================================================================================
 
 reference_number
 ----------------
@@ -302,15 +302,8 @@ military
 :type: string
 :format: default
 :constraints:
+    :enum: ['A', 'B', 'C', 'D']
     
-    
-    
-    
-    
-    
-    
-    :enum: ['A', 'B', 'C', 'D']     
-
 
 
 The Military Importance or Military Class; Military Importance = Military Class. The Commission ranked each battle (and its associated battle site) within the framework of its campaign and the war.
@@ -532,15 +525,8 @@ ed
 :type: string
 :format: default
 :constraints:
+    :enum: ['A', 'B', 'C', 'D']
     
-    
-    
-    
-    
-    
-    
-    :enum: ['A', 'B', 'C', 'D']     
-
 
 Dr. Edwin C. Bearss. The letter in this field is Mr. Bearss 'initial opinion regarding the military importance of the event. (Refer to MILITARY above.) An entry was made in this field only when Mr. Bearss disagreed with the first military importance value assigned to the event. Differences of opinion about the military importance of specific battle events were resolved at an October 23, 1992 meeting.
 
@@ -553,15 +539,8 @@ bill
 :type: string
 :format: default
 :constraints:
+    :enum: ['A', 'B', 'C', 'D']
     
-    
-    
-    
-    
-    
-    
-    :enum: ['A', 'B', 'C', 'D']     
-
 
 
 Dr. William J. Cooper, Jr.. The letter in this field is Dr. Cooper's initial opinion regarding the military importance of the event. (Refer to MILITARY above.) An entry was made in this field only when Dr. Cooper disagreed with the first military importance value assigned to the event. Differences of opinion about the military importance of specific battle events were resolved at an October 23, 1992 meeting.

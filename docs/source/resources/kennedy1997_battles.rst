@@ -35,13 +35,13 @@ Corrections to the casualty data:
 
 
 **Sources:**
-
 - KennedyConservation1998
+
 
 Schema
 ======
 
----------------  -------  ----------------
+===============  =======  ================
 battle           string   Battle
 name             string   Battle name
 state            string   state
@@ -52,7 +52,7 @@ casualties_min   integer  Casualties (min)
 casualties_max   integer  Casualties (max)
 casualties_text  string   Casualties
 missing          number   missing
----------------  -------  ----------------
+===============  =======  ================
 
 battle
 ------
@@ -61,15 +61,10 @@ battle
 :type: string
 :format: default
 :constraints:
-    
     :minLength: 5
     :maxLength: 6
-    
     :pattern: [A-Z]{2}[0-9]{3}[A-Z]?
     
-    
-         
-
 
 CWSAC battle identifier
 
@@ -94,15 +89,10 @@ state
 :type: string
 :format: default
 :constraints:
-    
     :minLength: 2
     :maxLength: 2
-    
     :pattern: [A-Z][A-Z]
     
-    
-         
-
 
 
 
@@ -151,15 +141,8 @@ casualties_min
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Total casualties (killed, wounded, and missing or captured) for both sides, minimum value. For a few battles a total casualty value is given, while no disaggregated casualties are provided.
 This source only gives a range for a few battles. For battles where no range is given, the mimimum and maximum are set to the same value.
@@ -173,15 +156,8 @@ casualties_max
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 
 Total casualties (killed, wounded, and missing or captured) for both sides, maximum value.

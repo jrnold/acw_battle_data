@@ -24,13 +24,13 @@ Bodart's correpondence of ranks
 
 
 **Sources:**
-
 - Bodart1908
+
 
 Schema
 ======
 
------------  ------  -----------
+===========  ======  ===========
 battle_id    string  Battle Id.
 belligerent  string  belligerent
 name         string  Name
@@ -41,7 +41,7 @@ suffix       number  Suffix
 rank         string  Rank
 date         date    date
 dbpedia      string  Dbpedia URI
------------  ------  -----------
+===========  ======  ===========
 
 battle_id
 ---------

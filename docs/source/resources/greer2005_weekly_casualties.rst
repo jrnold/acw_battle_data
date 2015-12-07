@@ -14,13 +14,13 @@ Greer primarily relies upon the casualty figures from Kennedy *The Civil War Bat
 
 
 **Sources:**
-
 - Greer2005
+
 
 Schema
 ======
 
------------------  -------  ----------------------
+=================  =======  ======================
 date               date     date
 description        string   Description
 confederate        number   Confederate casualties
@@ -28,7 +28,7 @@ union              integer  Union casualties
 theater            string   theater
 cwsac_id           string   Cwsac Id.
 cwsac_battle_name  string   Cwsac Battle Name
------------------  -------  ----------------------
+=================  =======  ======================
 
 date
 ----
@@ -61,15 +61,8 @@ confederate
 :type: number
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 
 
@@ -82,15 +75,8 @@ union
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 
 
@@ -103,15 +89,8 @@ theater
 :type: string
 :format: default
 :constraints:
+    :enum: ['Lower Seaboard', 'Trans-Mississippi', 'Eastern', 'Western']
     
-    
-    
-    
-    
-    
-    
-    :enum: ['Lower Seaboard', 'Trans-Mississippi', 'Eastern', 'Western']     
-
 
 Theater in which the combat casualties occurred.
 

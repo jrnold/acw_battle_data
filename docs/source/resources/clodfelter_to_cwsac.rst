@@ -9,17 +9,17 @@ clodfelter_to_cwsac
 
 
 **Sources:**
-
 - Clodfelter2008
+
 
 Schema
 ======
 
---------  ------  --------
+========  ======  ========
 from      string  from
 to        string  to
 relation  string  relation
---------  ------  --------
+========  ======  ========
 
 from
 ----

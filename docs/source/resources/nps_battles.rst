@@ -8,10 +8,12 @@ nps_battles
 
 
 
+
+
 Schema
 ======
 
--------------------------------  -------  -------------------------------
+===============================  =======  ===============================
 cwsac_id                         string   cwsac_id
 battle_name                      string   battle_name
 battle_type_cwss                 string   battle_type_cwss
@@ -75,7 +77,7 @@ str_var                          number   str_var
 cas_kwm_mean                     number   cas_kwm_mean
 cas_kwm_var                      number   cas_kwm_var
 state                            string   state
--------------------------------  -------  -------------------------------
+===============================  =======  ===============================
 
 cwsac_id
 --------

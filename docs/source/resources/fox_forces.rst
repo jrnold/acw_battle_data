@@ -42,14 +42,14 @@ The results of battles is considered seperately in :doc:`fox_outcomes`.
 
 
 **Sources:**
-
 - fox1898regimental
+
 
 Schema
 ======
 
 :Primary Key: ['belligerent', 'battle_name']
------------  -------  -------------
+===========  =======  =============
 belligerent  string   belligerent
 battle_name  string   Battle name
 start_date   date     start_date
@@ -60,7 +60,7 @@ killed       integer  Killed
 wounded      integer  wounded
 missing      integer  missing
 aggrow       boolean  Aggregate row
------------  -------  -------------
+===========  =======  =============
 
 belligerent
 -----------
@@ -69,15 +69,8 @@ belligerent
 :type: string
 :format: default
 :constraints:
+    :enum: ['Confederate', 'US']
     
-    
-    
-    
-    
-    
-    
-    :enum: ['Confederate', 'US']     
-
 
 
 
@@ -126,15 +119,10 @@ state
 :type: string
 :format: default
 :constraints:
-    
     :minLength: 2
     :maxLength: 2
-    
     :pattern: [A-Z]{2}
     
-    
-         
-
 
 State in which the battle took place
 

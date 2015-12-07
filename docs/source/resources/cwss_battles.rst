@@ -9,13 +9,13 @@ cwss_battles
 
 
 **Sources:**
-
 - CWSS
+
 
 Schema
 ======
 
-------------------  -------  ------------------
+==================  =======  ==================
 BattlefieldCode     string   BattlefieldCode
 BattleName          string   BattleName
 BattleType          string   BattleType
@@ -33,7 +33,7 @@ ShortSummarySource  string   ShortSummarySource
 Summary             string   Summary
 SummarySource       number   SummarySource
 URL                 string   URL
-------------------  -------  ------------------
+==================  =======  ==================
 
 BattlefieldCode
 ---------------

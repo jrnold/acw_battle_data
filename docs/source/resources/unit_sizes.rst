@@ -8,10 +8,12 @@ unit_sizes
 
 
 
+
+
 Schema
 ======
 
------------  ------  -----------
+===========  ======  ===========
 belligerent  string  belligerent
 unit_type    string  unit_type
 mean         number  mean
@@ -21,7 +23,7 @@ p25          number  p25
 median       number  median
 p75          number  p75
 p975         number  p975
------------  ------  -----------
+===========  ======  ===========
 
 belligerent
 -----------

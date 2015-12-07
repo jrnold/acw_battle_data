@@ -9,13 +9,13 @@ shenandoah_battles
 
 
 **Sources:**
-
 - NPS1992
+
 
 Schema
 ======
 
--------------  -------  -------------
+=============  =======  =============
 battle_number  integer  battle_number
 battle_name    string   battle_name
 cwsac_id       string   cwsac_id
@@ -24,7 +24,7 @@ end_date       string   end_date
 campaign       string   campaign
 county         string   county
 url            string   url
--------------  -------  -------------
+=============  =======  =============
 
 battle_number
 -------------

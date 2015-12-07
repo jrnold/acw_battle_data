@@ -9,22 +9,19 @@ CWSAC Report Updates battle data: military significance categories
 
 
 **Sources:**
-
 - CWSAC1993
-
 - CWSAC1997
-
 - CWSAC_by_state
-
 - CWSAC_by_campgn
+
 
 Schema
 ======
 
------------  ------  -----------
+===========  ======  ===========
 value        string  Value
 description  string  Description
------------  ------  -----------
+===========  ======  ===========
 
 value
 -----

@@ -8,10 +8,12 @@ nps_people
 
 
 
+
+
 Schema
 ======
 
---------------  ------  --------------
+==============  ======  ==============
 PersonID        string  PersonID
 ID              number  ID
 LastName        string  LastName
@@ -25,7 +27,7 @@ Bio             string  Bio
 BioSource       string  BioSource
 NarrativeLink1  string  NarrativeLink1
 NarrativeLink2  string  NarrativeLink2
---------------  ------  --------------
+==============  ======  ==============
 
 PersonID
 --------

@@ -12,13 +12,13 @@ Clodfelter does not directly list the principal commander of the battles. These 
 
 
 **Sources:**
-
 - Clodfelter2008
+
 
 Schema
 ======
 
-----------------  -------  ----------------
+================  =======  ================
 battle            string   battle
 belligerent       string   belligerent
 commander_number  integer  commander_number
@@ -29,7 +29,7 @@ middle_name       string   middle_name
 middle_initial    string   middle_initial
 rank              string   rank
 navy              number   navy
-----------------  -------  ----------------
+================  =======  ================
 
 battle
 ------

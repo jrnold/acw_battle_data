@@ -9,19 +9,18 @@ dyer_to_cwsac
 
 
 **Sources:**
-
 - DyerBattles
-
 - dyer1908_war_rebel
+
 
 Schema
 ======
 
---------  -------  --------
+========  =======  ========
 from      integer  from
 to        string   to
 relation  string   relation
---------  -------  --------
+========  =======  ========
 
 from
 ----

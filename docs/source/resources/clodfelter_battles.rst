@@ -35,13 +35,13 @@ The following battles had a significant naval component.
 
 
 **Sources:**
-
 - Clodfelter2008
+
 
 Schema
 ======
 
--------------  -------  -------------
+=============  =======  =============
 battle         string   Battle
 theater        string   Theater
 theater_years  string   theater_years
@@ -49,7 +49,7 @@ start_date     date     Start date
 end_date       date     End Date
 result         string   Result
 page           integer  Page
--------------  -------  -------------
+=============  =======  =============
 
 battle
 ------
@@ -118,21 +118,15 @@ result
 :type: string
 :format: default
 :constraints:
+    :enum: ['Union', 'Confederate', 'Indecisive']
     
-    
-    
-    
-    
-    
-    
-    :enum: ['Union', 'Confederate', 'Indecisive']     
-
 
 Result of the battle: Union victory, Confederate victory or tie.
 Clodfelter does not classify battles by result. This variable was added. The classifications follow CWSAC (:doc:`cwsac_battles`) where available.
 
 **Sources:**
-- Clodfelter2008
+- self
+- CWSAC1993b
 
        
 page

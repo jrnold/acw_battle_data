@@ -34,17 +34,17 @@ Some notes on specific battles
 
 
 **Sources:**
-
 - Phisterer1883
+
 
 Schema
 ======
 
---------  -------  --------
+========  =======  ========
 from      integer  from
 to        string   to
 relation  string   relation
---------  -------  --------
+========  =======  ========
 
 from
 ----

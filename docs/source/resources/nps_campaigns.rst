@@ -8,17 +8,19 @@ nps_campaigns
 
 
 
+
+
 Schema
 ======
 
------------------  ------  -----------------
+=================  ======  =================
 CampaignCode       string  CampaignCode
 CampaignName       string  CampaignName
 CampaignDates      string  CampaignDates
 CampaignStartDate  string  CampaignStartDate
 CampaignEndDate    string  CampaignEndDate
 TheaterCode        string  TheaterCode
------------------  ------  -----------------
+=================  ======  =================
 
 CampaignCode
 ------------

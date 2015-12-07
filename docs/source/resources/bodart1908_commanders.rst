@@ -15,13 +15,13 @@ This table contains the commanders of each force in each battle in Bodart.
 
 
 **Sources:**
-
 - Bodart1908
+
 
 Schema
 ======
 
------------  ------  -----------
+===========  ======  ===========
 battle_id    string  Battle Id.
 belligerent  string  belligerent
 name         string  Name
@@ -31,7 +31,7 @@ middle_name  string  Middle Name
 suffix       number  Suffix
 rank         string  Rank
 dbpedia      string  Dbpedia
------------  ------  -----------
+===========  ======  ===========
 
 battle_id
 ---------
@@ -140,7 +140,7 @@ dbpedia
 dbpedia.org URI of the commandern
 
 **Sources:**
-- Bodart1908
+- self
 
        
 

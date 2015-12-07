@@ -9,23 +9,20 @@ CWSAC Report Updates battle data: theaters
 
 
 **Sources:**
-
 - CWSAC1993
-
 - CWSAC1997
-
 - CWSAC_by_state
-
 - CWSAC_by_campgn
+
 
 Schema
 ======
 
-------------  ------  ----------------------
+============  ======  ======================
 theater       string  Theater
 dbp_resource  string  DBPedia URI
 dbp_category  string  DBPedia URI (category)
-------------  ------  ----------------------
+============  ======  ======================
 
 theater
 -------

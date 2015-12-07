@@ -9,60 +9,39 @@ CWSAC Report Updates battle data: battle dates
 
 
 **Sources:**
-
 - CWSII
-
 - CWSIIAL
-
 - CWSIIAR
-
 - CWSIICO
-
 - CWSIIDC
-
 - CWSIIFL
-
 - CWSIIGA
-
 - CWSIIKS
-
 - CWSIIKY
-
 - CWSIIMN
-
 - CWSIILA
-
 - CWSIIMD
-
 - CWSIIMO
-
 - CWSIINC
-
 - CWSIIND
-
 - CWSIIOH
-
 - CWSIIOK
-
 - CWSIIPA
-
 - CWSIISC
-
 - CWSIITN
-
 - CWSIIVA
-
 - CWSIIWV
+
 
 Schema
 ======
 
-----------  -------  ----------
+==========  =======  ==========
 battle      string   Battle
 spell       integer  Spell
 start_date  date     Start Date
 end_date    date     End Date
-----------  -------  ----------
+==========  =======  ==========
 
 battle
 ------
@@ -71,15 +50,10 @@ battle
 :type: string
 :format: default
 :constraints:
-    
     :minLength: 5
     :maxLength: 6
-    
     :pattern: [A-Z]{2}[0-9]{3}[A-Z]?
     
-    
-         
-
 
 CWSAC battle identifier
 
@@ -92,15 +66,9 @@ spell
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 1
     :maximum: 2
-         
-
+    
 
 Spell number of the battle. Only one battle had non-contiguous dates, and two spells.
 

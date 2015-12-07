@@ -9,16 +9,16 @@ cwss_theaters
 
 
 **Sources:**
-
 - CWSS
+
 
 Schema
 ======
 
------------  ------  -----------
+===========  ======  ===========
 TheaterCode  string  TheaterCode
 TheaterName  string  TheaterName
------------  ------  -----------
+===========  ======  ===========
 
 TheaterCode
 -----------

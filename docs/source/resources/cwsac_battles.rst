@@ -215,19 +215,16 @@ Thus, confusingly:
 
 
 **Sources:**
-
 - CWSAC1993
-
 - CWSAC1997
-
 - CWSAC_by_state
-
 - CWSAC_by_campgn
+
 
 Schema
 ======
 
----------------  -------  ---------------------
+===============  =======  =====================
 battle           string   Battle
 url              string   url
 battle_name      string   Battle Name
@@ -250,7 +247,7 @@ preservation     string   Preservation Priority
 significance     string   Military significance
 strength_mean    number   Strength (mean)
 strength_var     number   Strength (variance)
----------------  -------  ---------------------
+===============  =======  =====================
 
 battle
 ------
@@ -259,15 +256,10 @@ battle
 :type: string
 :format: default
 :constraints:
-    
     :minLength: 5
     :maxLength: 6
-    
     :pattern: [A-Z]{2}[0-9]{3}[A-Z]?
     
-    
-         
-
 
 CWSAC battle identifier
 
@@ -317,15 +309,10 @@ state
 :type: string
 :format: default
 :constraints:
-    
     :minLength: 2
     :maxLength: 2
-    
     :pattern: [A-Z][A-Z]
     
-    
-         
-
 
 2-letter State abbreviation
 
@@ -424,15 +411,8 @@ result
 :type: string
 :format: default
 :constraints:
+    :enum: ['Union', 'Confederate', 'Inconclusive']
     
-    
-    
-    
-    
-    
-    
-    :enum: ['Union', 'Confederate', 'Inconclusive']     
-
 
 Categorical result of the battle: Union victory, Confederate victory, or a tie.
 
@@ -460,15 +440,8 @@ strength
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Total personnel involved in the battle. In some cases, CWSAC gives a number for the total personnel in the battle, but does not disaggregate by side.
 
@@ -493,15 +466,8 @@ casualties
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 
 Total casualties (both sides) of the battle. In some cases, CWSAC gives a number for the total personnel in the battle, but does not disaggregate by side.
@@ -588,15 +554,8 @@ significance
 :type: string
 :format: default
 :constraints:
+    :enum: ['A', 'B', 'C', 'D']
     
-    
-    
-    
-    
-    
-    
-    :enum: ['A', 'B', 'C', 'D']     
-
 
 
 Four-category classification of the military significance of the battle.
@@ -610,23 +569,13 @@ strength_mean
 :type: number
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Mean of the estimated strength in personnel of the force. See code for how it is calculated.
 
 **Sources:**
-- CWSAC1993
-- CWSAC1997
-- CWSAC_by_state
-- CWSAC_by_campgn
+- self
 
        
 strength_var
@@ -636,23 +585,13 @@ strength_var
 :type: number
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Variance of the estimated strength in personnel of the force. See code for how it is calculated.
 
 **Sources:**
-- CWSAC1993
-- CWSAC1997
-- CWSAC_by_state
-- CWSAC_by_campgn
+- self
 
        
 

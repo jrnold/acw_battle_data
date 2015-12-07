@@ -10,18 +10,18 @@ Correspondence between the observations in the revised Fox battle data (:doc:`fo
 
 
 **Sources:**
-
 - fox1898regimental
+
 
 Schema
 ======
 
------------  ------  -----------
+===========  ======  ===========
 belligerent  string  Belligerent
 battle_name  string  Battle Name
 cwsac_id     string  CWSAC Id.
 relation     string  Relation
------------  ------  -----------
+===========  ======  ===========
 
 belligerent
 -----------
@@ -54,15 +54,8 @@ cwsac_id
 :type: string
 :format: default
 :constraints:
-    
-    
-    
-    
     :pattern: [A-Z]{3}[0-9]{2}[A-Z]?
     
-    
-         
-
 
 CWSAC battle identification code.
 
@@ -75,15 +68,8 @@ relation
 :type: string
 :format: default
 :constraints:
+    :enum: ['<', '>', '=']
     
-    
-    
-    
-    
-    
-    
-    :enum: ['<', '>', '=']     
-
 
 
 

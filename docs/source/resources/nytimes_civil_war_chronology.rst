@@ -9,14 +9,10 @@ nytimes_civil_war_chronology
 
 
 **Sources:**
-
+- NYT186%d
+- NYT186%d
+- NYT186%d
+- NYT186%d
 - NYT186%d
 
-- NYT186%d
-
-- NYT186%d
-
-- NYT186%d
-
-- NYT186%d
 

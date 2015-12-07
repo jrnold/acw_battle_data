@@ -9,21 +9,19 @@ CDB90 to CWSAC battle links
 
 
 **Sources:**
-
 - self
-
 - cdb90
-
 - CWSAC1997
+
 
 Schema
 ======
 
---------  -------  ----------------
+========  =======  ================
 isqno     integer  isqno
 cwsac_id  string   CWSAC Battle Id.
 relation  string   relation
---------  -------  ----------------
+========  =======  ================
 
 isqno
 -----
@@ -56,15 +54,8 @@ relation
 :type: string
 :format: default
 :constraints:
+    :enum: ['<', '>', '=']
     
-    
-    
-    
-    
-    
-    
-    :enum: ['<', '>', '=']     
-
 
 Relationship of the CDB90 battle to the CWSAC battle. They can be the same, or one can be a subset of the other.
 

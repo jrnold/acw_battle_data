@@ -24,15 +24,14 @@ This corresponds to pages 662-991 of Dyer's *Compendium*, ignoring indexes.
 
 
 **Sources:**
-
 - DyerBattles
-
 - dyer1908_war_rebel
+
 
 Schema
 ======
 
-----------------  -------  -----------------
+================  =======  =================
 battle            integer  Battle
 event_type        string   Event type
 state             string   State
@@ -46,7 +45,7 @@ killed            integer  Killed
 wounded           integer  Wounded
 killed_wounded    number   Killed or Wounded
 missing_captured  number   Missing Captured
-----------------  -------  -----------------
+================  =======  =================
 
 battle
 ------

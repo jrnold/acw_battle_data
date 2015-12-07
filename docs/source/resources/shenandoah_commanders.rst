@@ -9,13 +9,13 @@ shenandoah_commanders
 
 
 **Sources:**
-
 - NPS1992
+
 
 Schema
 ======
 
--------------  -------  -------------
+=============  =======  =============
 battle_number  integer  battle_number
 cwsac_id       string   cwsac_id
 belligerent    string   belligerent
@@ -23,7 +23,7 @@ last_name      string   last_name
 first_name     string   first_name
 middle_name    string   middle_name
 rank           string   rank
--------------  -------  -------------
+=============  =======  =============
 
 battle_number
 -------------

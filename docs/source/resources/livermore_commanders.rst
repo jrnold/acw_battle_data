@@ -12,13 +12,13 @@ Livermore does not directly list the principal commander of the battles. These w
 
 
 **Sources:**
-
 - Livermore1900
+
 
 Schema
 ======
 
---------------  ------------------------------  --------------
+==============  ==============================  ==============
 seq_no          integer                         Battle number
 belligerent     string                          belligerent
 PersonID        string                          PersonID
@@ -28,7 +28,7 @@ middle_name     string                          Middle Name
 middle_initial  string                          Middle Initial
 rank            string                          Rank
 navy            Was the commander in the navy?  navy
---------------  ------------------------------  --------------
+==============  ==============================  ==============
 
 seq_no
 ------
@@ -49,15 +49,8 @@ belligerent
 :type: string
 :format: default
 :constraints:
+    :enum: ['US', 'Confederate']
     
-    
-    
-    
-    
-    
-    
-    :enum: ['US', 'Confederate']     
-
 
 
 

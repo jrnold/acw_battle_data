@@ -8,10 +8,12 @@ nps_battlelist
 
 
 
+
+
 Schema
 ======
 
------------  -------  -----------
+===========  =======  ===========
 cwsac_id     string   cwsac_id
 battle_name  string   battle_name
 cwss         boolean  cwss
@@ -19,7 +21,7 @@ cwsac1       boolean  cwsac1
 cws2         boolean  cws2
 aad          boolean  aad
 notall       boolean  notall
------------  -------  -----------
+===========  =======  ===========
 
 cwsac_id
 --------

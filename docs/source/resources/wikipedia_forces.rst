@@ -11,10 +11,12 @@ American Civil War battle casualty and forces size data from the English Wikiped
 See :doc:`wikipedia_battles`.
 
 
+
+
 Schema
 ======
 
---------------------  ------  --------------------
+====================  ======  ====================
 battle                string  battle
 belligerent           string  belligerent
 strength_min          number  strength_min
@@ -65,7 +67,7 @@ losses_guns           string  losses_guns
 losses_ships          number  losses_ships
 losses_trains         number  losses_trains
 losses_wagons         number  losses_wagons
---------------------  ------  --------------------
+====================  ======  ====================
 
 battle
 ------

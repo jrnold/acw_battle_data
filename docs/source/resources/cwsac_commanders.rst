@@ -9,19 +9,16 @@ cwsac_commanders
 
 
 **Sources:**
-
 - CWSAC1993
-
 - CWSAC1997
-
 - CWSAC_by_state
-
 - CWSAC_by_campgn
+
 
 Schema
 ======
 
------------  -------  -----------
+===========  =======  ===========
 battle       string   battle
 belligerent  string   belligerent
 fullname     string   fullname
@@ -31,7 +28,7 @@ first_name   string   first_name
 last_name    string   last_name
 middle_name  string   middle_name
 suffix       string   suffix
------------  -------  -----------
+===========  =======  ===========
 
 battle
 ------

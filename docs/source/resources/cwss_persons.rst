@@ -9,13 +9,13 @@ cwss_persons
 
 
 **Sources:**
-
 - CWSS
+
 
 Schema
 ======
 
---------------  -------  --------------
+==============  =======  ==============
 PersonID        string   PersonID
 ID              integer  ID
 LastName        string   LastName
@@ -29,7 +29,7 @@ Bio             string   Bio
 BioSource       string   BioSource
 NarrativeLink1  string   NarrativeLink1
 NarrativeLink2  string   NarrativeLink2
---------------  -------  --------------
+==============  =======  ==============
 
 PersonID
 --------

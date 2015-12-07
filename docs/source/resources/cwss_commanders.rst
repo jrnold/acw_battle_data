@@ -9,18 +9,18 @@ cwss_commanders
 
 
 **Sources:**
-
 - CWSS
+
 
 Schema
 ======
 
-----------------  -------  ----------------
+================  =======  ================
 BattlefieldCode   string   BattlefieldCode
 belligerent       string   belligerent
 commander_number  integer  commander_number
 commander         string   commander
-----------------  -------  ----------------
+================  =======  ================
 
 BattlefieldCode
 ---------------

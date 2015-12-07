@@ -9,13 +9,13 @@ livermore_forces
 
 
 **Sources:**
-
 - Livermore1900
+
 
 Schema
 ======
 
------------  -------  -----------
+===========  =======  ===========
 seq_no       integer  seq_no
 belligerent  string   belligerent
 str          number   str
@@ -23,7 +23,7 @@ kia          number   kia
 wia          number   wia
 kw           number   kw
 miapow       number   miapow
------------  -------  -----------
+===========  =======  ===========
 
 seq_no
 ------

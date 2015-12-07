@@ -59,19 +59,19 @@ With regards to battles not considered, Fox writes,
 
 
 **Sources:**
-
 - fox1898regimental
+
 
 Schema
 ======
 
-------------  ------  ------------
+============  ======  ============
 victor        string  Victor
 victory_type  string  Victory type
 battle_name   string  Battle name
 state         string  State
 cwsac_id      string  CWSAC Id.
-------------  ------  ------------
+============  ======  ============
 
 victor
 ------
@@ -80,15 +80,8 @@ victor
 :type: string
 :format: default
 :constraints:
+    :enum: ['Union', 'Confederate']
     
-    
-    
-    
-    
-    
-    
-    :enum: ['Union', 'Confederate']     
-
 
 
 
@@ -101,15 +94,8 @@ victory_type
 :type: string
 :format: default
 :constraints:
+    :enum: ['victory', 'assualt', 'defense']
     
-    
-    
-    
-    
-    
-    
-    :enum: ['victory', 'assualt', 'defense']     
-
 
 
 
@@ -134,15 +120,10 @@ state
 :type: string
 :format: default
 :constraints:
-    
     :minLength: 2
     :maxLength: 2
-    
     :pattern: [A-Z]{2}
     
-    
-         
-
 
 
 
@@ -155,20 +136,13 @@ cwsac_id
 :type: string
 :format: default
 :constraints:
-    
-    
-    
-    
     :pattern: [A-Z]{2}[0-9]{3}[A-Z]?
     
-    
-         
-
 
 
 
 **Sources:**
-- fox1898regimental
+- self
 
        
 

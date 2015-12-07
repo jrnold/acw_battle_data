@@ -55,13 +55,13 @@ Some notes on specific battles
 
 
 **Sources:**
-
 - Phisterer1883
+
 
 Schema
 ======
 
------------  -------  -----------
+===========  =======  ===========
 battle       integer  battle
 battle_name  string   battle_name
 state        string   state
@@ -70,7 +70,7 @@ end_date     string   end_date
 surrender    integer  surrender
 campaign     integer  campaign
 page         integer  page
------------  -------  -----------
+===========  =======  ===========
 
 battle
 ------

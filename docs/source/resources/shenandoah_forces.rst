@@ -9,13 +9,13 @@ shenandoah_forces
 
 
 **Sources:**
-
 - NPS1992
+
 
 Schema
 ======
 
-----------------  -------  ----------------
+================  =======  ================
 battle_number     integer  battle_number
 cwsac_id          string   cwsac_id
 belligerent       string   belligerent
@@ -27,7 +27,7 @@ casualties        integer  casualties
 killed            number   killed
 wounded           number   wounded
 missing_captured  number   missing_captured
-----------------  -------  ----------------
+================  =======  ================
 
 battle_number
 -------------

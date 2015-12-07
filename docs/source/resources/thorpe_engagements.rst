@@ -16,13 +16,13 @@ The data consist of 4,340 engagements, the locations of those engagements, and c
 
 
 **Sources:**
-
 - Thorpe2011
+
 
 Schema
 ======
 
-------------  -------  ----------------------------
+============  =======  ============================
 battleNum     integer  Battle number
 battleDetail  string   Battle details
 beginDate     date     Begin date
@@ -36,7 +36,7 @@ type          string   Type
 killed        integer  Killed
 usCasTot      integer  Total US casualties
 csCasTot      integer  Total Confederate casualties
-------------  -------  ----------------------------
+============  =======  ============================
 
 battleNum
 ---------

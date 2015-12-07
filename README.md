@@ -22,6 +22,7 @@ This will build the data in the directory, ``data``.
     - requests
     - sphinx
     - yaml
+	- tabulate
 - R
     - **dplyr**
     - **jsonlite**

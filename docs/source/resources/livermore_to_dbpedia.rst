@@ -9,18 +9,18 @@ livermore_to_dbpedia
 
 
 **Sources:**
-
 - Livermore1900
+
 
 Schema
 ======
 
------------  -------  -----------
+===========  =======  ===========
 seq_no       integer  seq_no
 battle_name  string   battle_name
 dbpedia      string   dbpedia
 relation     string   relation
------------  -------  -----------
+===========  =======  ===========
 
 seq_no
 ------

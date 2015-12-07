@@ -49,14 +49,14 @@ See :doc:`fox_forces` for more detail on the Fox data.
 
 
 **Sources:**
-
 - fox1898regimental
+
 
 Schema
 ======
 
 :Primary Key: ['belligerent', 'battle_name']
------------  -------  -----------
+===========  =======  ===========
 belligerent  string   belligerent
 battle_name  string   Battle name
 start_date   date     start_date
@@ -67,7 +67,7 @@ killed       integer  Killed
 wounded      integer  wounded
 missing      integer  missing
 cavalry      boolean  cavalry
------------  -------  -----------
+===========  =======  ===========
 
 belligerent
 -----------
@@ -76,15 +76,8 @@ belligerent
 :type: string
 :format: default
 :constraints:
+    :enum: ['Confederate', 'US']
     
-    
-    
-    
-    
-    
-    
-    :enum: ['Confederate', 'US']     
-
 
 
 
@@ -133,15 +126,10 @@ state
 :type: string
 :format: default
 :constraints:
-    
     :minLength: 2
     :maxLength: 2
-    
     :pattern: [A-Z]{2}
     
-    
-         
-
 
 State in which the battle took place.
 

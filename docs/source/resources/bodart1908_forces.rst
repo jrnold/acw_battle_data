@@ -21,13 +21,13 @@ unit participated in a given battle.
 
 
 **Sources:**
-
 - Bodart1908
+
 
 Schema
 ======
 
------------------------  -------  --------------------------
+=======================  =======  ==========================
 battle_id                string   Battle id
 belligerent              string   belligerent
 strength                 integer  Strength
@@ -67,7 +67,7 @@ losses_flags             integer  Losses of flags
 losses_munition_wagons   integer  Losses of munition wagons
 losses_wagons            integer  Losses of wagons
 note                     string   note
------------------------  -------  --------------------------
+=======================  =======  ==========================
 
 battle_id
 ---------
@@ -184,15 +184,9 @@ killed_percent
 :type: number
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     :maximum: 1
-         
-
+    
 
 
 
@@ -241,15 +235,9 @@ killed_wounded_percent
 :type: number
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     :maximum: 1
-         
-
+    
 
 
 
@@ -298,15 +286,9 @@ wounded_percent
 :type: number
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     :maximum: 1
-         
-
+    
 
 
 
@@ -391,15 +373,9 @@ missing_percent
 :type: number
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     :maximum: 1
-         
-
+    
 
 
 
@@ -448,15 +424,9 @@ casualties_percent
 :type: number
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     :maximum: 1
-         
-
+    
 
 
 

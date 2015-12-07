@@ -261,13 +261,13 @@ The sources cited by Bodart are (p. 29):
 
 
 **Sources:**
-
 - Bodart1908
+
 
 Schema
 ======
 
----------------------  -------  -------------
+=====================  =======  =============
 battle_id              integer  Battle number
 name                   string   Battle name
 other_names            string   Other name(s)
@@ -281,7 +281,7 @@ category_kapitulation  boolean  Surrender
 category_einnahme      integer  Capture
 category_size          integer  Size
 page                   integer  page
----------------------  -------  -------------
+=====================  =======  =============
 
 battle_id
 ---------
@@ -290,15 +290,8 @@ battle_id
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 1
     
-         
-
 
 
 
@@ -431,15 +424,9 @@ category_size
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 1
     :maximum: 6
-         
-
+    
 
 Category of the battle based on total casualties. For land battles the categories area
 1. > 30,000 2. > 20,000  3. > 10,000  4. > 5,000 5. > 3,000 6. > 1,000

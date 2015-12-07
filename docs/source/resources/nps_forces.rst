@@ -8,10 +8,12 @@ nps_forces
 
 
 
+
+
 Schema
 ======
 
-------------  ------  ------------
+============  ======  ============
 cwsac_id      string  cwsac_id
 belligerent   string  belligerent
 cas_kwm_mean  number  cas_kwm_mean
@@ -30,7 +32,7 @@ cas_km_mean   number  cas_km_mean
 cas_wm_mean   number  cas_wm_mean
 cas_km_var    number  cas_km_var
 cas_wm_var    number  cas_wm_var
-------------  ------  ------------
+============  ======  ============
 
 cwsac_id
 --------

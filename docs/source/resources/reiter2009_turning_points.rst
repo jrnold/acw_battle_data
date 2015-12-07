@@ -13,20 +13,20 @@ Four of these turning points are based off of those listed by James McPherson in
 
 
 **Sources:**
-
 - Reiter2009
+
 
 Schema
 ======
 
----------------  --------------------------------  ---------------
+===============  ================================  ===============
 period           Time period of the turning point  Period
 start_date       date                              Start Date
 description      string                            Description
 favor            string                            War Favor
 war_aims_change  string                            War Aims Change
 comment          string                            Comment
----------------  --------------------------------  ---------------
+===============  ================================  ===============
 
 period
 ------
@@ -71,15 +71,8 @@ favor
 :type: string
 :format: default
 :constraints:
+    :enum: ['Union', 'Confederacy']
     
-    
-    
-    
-    
-    
-    
-    :enum: ['Union', 'Confederacy']     
-
 
 Which side did the turning point favor: Union or Confederacy?
 

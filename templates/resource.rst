@@ -10,10 +10,10 @@
 
 {% if sources is defined -%}
 **Sources:**
-{% for src in sources %}
+{% for src in sources -%}
 - {{src}}
-{% endfor %}
-{% endif -%}
+{% endfor -%}
+{% endif %}
 
 {% if schema is defined -%}
 Schema
@@ -44,35 +44,35 @@ Schema
 :constraints:
     {% if "required" in field.constraints -%}
     :required: {{field.constraints.required}}
-    {%- endif %}
+    {% endif -%}
     {% if "minLength" in field.constraints -%}
     :minLength: {{field.constraints.minLength}}
-    {%- endif %}
+    {% endif -%}
     {% if "maxLength" in field.constraints -%}
     :maxLength: {{field.constraints.maxLength}}
-    {%- endif %}
+    {% endif -%}
     {% if "unique" in field.constraints -%}
     :unique: {{field.constraints.unique}}
-    {%- endif %}
+    {% endif -%}
     {% if "pattern" in field.constraints -%}
     :pattern: {{field.constraints.pattern}}
-    {%- endif %}
+    {% endif -%}
     {% if "minimum" in field.constraints -%}
     :minimum: {{field.constraints.minimum}}
-    {%- endif %}
+    {% endif -%}
     {% if "maximum" in field.constraints -%}
     :maximum: {{field.constraints.maximum}}
-    {%- endif %}
+    {% endif -%}
     {% if "enum" in field.constraints -%}
     :enum: {{field.constraints.enum}}
-    {%- endif %}     
+    {% endif -%}     
 {% endif %}
 
 {{ field.description }}
 
 {% if field.sources is defined -%}
 **Sources:**
-{% for src in sources -%}
+{% for src in field.sources -%}
 - {{src}}
 {% endfor -%}
 {% endif %}

@@ -14,20 +14,20 @@ In this data each observation is a force (belligerent, battle).
 
 
 **Sources:**
-
 - Phisterer1883
+
 
 Schema
 ======
 
------------  -------  -----------
+===========  =======  ===========
 battle       integer  battle
 belligerent  string   belligerent
 casualties   number   casualties
 killed       number   killed
 wounded      number   wounded
 missing      number   missing
------------  -------  -----------
+===========  =======  ===========
 
 battle
 ------

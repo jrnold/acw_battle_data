@@ -12,13 +12,13 @@ List of naval battles, which navies they involved, and whether they involved lan
 
 
 **Sources:**
-
 - self
+
 
 Schema
 ======
 
------------  -------  -----------------
+===========  =======  =================
 cwsac_id     string   CWSAC Id.
 battle_name  string   Battle name
 all_naval    boolean  All Naval Battle?
@@ -27,7 +27,7 @@ cs_navy      integer  Confederate Navy
 us_fort      integer  US Fort
 cs_fort      integer  Confederate Fort
 comments     string   Comments
------------  -------  -----------------
+===========  =======  =================
 
 cwsac_id
 --------
@@ -36,15 +36,8 @@ cwsac_id
 :type: string
 :format: default
 :constraints:
-    
-    
-    
-    
     :pattern: [A-Z]{2}[0-9]{3}[A-Z]?
     
-    
-         
-
 
 
 

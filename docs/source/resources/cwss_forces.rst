@@ -9,18 +9,18 @@ cwss_forces
 
 
 **Sources:**
-
 - CWSS
+
 
 Schema
 ======
 
----------------  ------  ---------------
+===============  ======  ===============
 BattlefieldCode  string  BattlefieldCode
 belligerent      string  belligerent
 TroopsEngaged    number  TroopsEngaged
 Casualties       number  Casualties
----------------  ------  ---------------
+===============  ======  ===============
 
 BattlefieldCode
 ---------------

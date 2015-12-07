@@ -21,7 +21,8 @@ def build_resources(docs, env, metadata):
     template = env.get_template('resource.rst')
     for res in metadata['resources']:
         if 'schema' in res:
-            res['summary_table'] = tabulate([[x['name'], x['type'], x['title']] for x in res['schema']['fields']])
+            res['summary_table'] = tabulate([[x['name'], x['type'], x['title']] for x in res['schema']['fields']],
+                                            tablefmt="rst")
         rendered = template.render(res)
         with open(path.join(data_doc_dir, res['name'] + '.rst'), 'w') as f:
             f.write(rendered)

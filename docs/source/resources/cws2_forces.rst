@@ -9,55 +9,34 @@ CWSAC Report Updates battle data: force strengths
 
 
 **Sources:**
-
 - CWSII
-
 - CWSIIAL
-
 - CWSIIAR
-
 - CWSIICO
-
 - CWSIIDC
-
 - CWSIIFL
-
 - CWSIIGA
-
 - CWSIIKS
-
 - CWSIIKY
-
 - CWSIIMN
-
 - CWSIILA
-
 - CWSIIMD
-
 - CWSIIMO
-
 - CWSIINC
-
 - CWSIIND
-
 - CWSIIOH
-
 - CWSIIOK
-
 - CWSIIPA
-
 - CWSIISC
-
 - CWSIITN
-
 - CWSIIVA
-
 - CWSIIWV
+
 
 Schema
 ======
 
--------------------  -------  -------------------
+===================  =======  ===================
 battle               string   Battle
 belligerent          string   belligerent
 description          string   Description
@@ -83,7 +62,7 @@ ships                integer  Ships
 guns                 integer  Guns
 strength_mean        number   Strength (mean)
 strength_var         number   Strength (variance)
--------------------  -------  -------------------
+===================  =======  ===================
 
 battle
 ------
@@ -92,15 +71,10 @@ battle
 :type: string
 :format: default
 :constraints:
-    
     :minLength: 5
     :maxLength: 6
-    
     :pattern: [A-Z]{2}[0-9]{3}[A-Z]?
     
-    
-         
-
 
 CWSAC battle identifier
 
@@ -113,15 +87,8 @@ belligerent
 :type: string
 :format: default
 :constraints:
+    :enum: ['US', 'Confederate', 'Native American']
     
-    
-    
-    
-    
-    
-    
-    :enum: ['US', 'Confederate', 'Native American']     
-
 
 
 
@@ -146,15 +113,8 @@ strength
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Total personnel in the force. In some cases CWSAC gives a numeric value of the forces involved. In other cases, it describes the units involved. The columns ``strength_mean`` and ``strength_var`` estimate the strength combining all information given by CWSAC.
 
@@ -167,15 +127,8 @@ regiments
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Number of regiments
 
@@ -188,15 +141,8 @@ companies
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Number of companies
 
@@ -209,15 +155,8 @@ brigades
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Number of brigades
 
@@ -230,15 +169,8 @@ divisions
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Number of divisions
 
@@ -251,15 +183,8 @@ corps
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Number of corps
 
@@ -272,15 +197,8 @@ armies
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Number of armies
 
@@ -293,15 +211,8 @@ cavalry_regiments
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Number of cavalry regiments
 
@@ -314,15 +225,8 @@ cavalry_brigades
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Number of cavalry brigades
 
@@ -335,15 +239,8 @@ cavalry_divisions
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Number of cavalry divisions
 
@@ -356,15 +253,8 @@ cavalry_corps
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Number of cavalry corps
 
@@ -377,15 +267,8 @@ cavalry_companies
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Number of cavalry companies
 
@@ -398,15 +281,8 @@ artillery_batteries
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Number of artillery batteries
 
@@ -419,15 +295,8 @@ artillery_companies
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Number of artillery companies
 
@@ -440,15 +309,8 @@ artillery_regiments
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Number of artillery regiments
 
@@ -461,15 +323,8 @@ artillery_sections
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Number of artillery sections
 
@@ -482,15 +337,8 @@ infantry_regiments
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Number of infantry regiments
 
@@ -503,15 +351,8 @@ strength_other
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Number of personnel involved other than the units listed in the description.
 
@@ -524,15 +365,8 @@ ships
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Number of ships involved in the battle
 
@@ -545,15 +379,8 @@ guns
 :type: integer
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Number of artillery pieces involved in the battle
 
@@ -566,41 +393,13 @@ strength_mean
 :type: number
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Mean of the estimated strength in personnel of the force. See code for how it is calculated.
 
 **Sources:**
-- CWSII
-- CWSIIAL
-- CWSIIAR
-- CWSIICO
-- CWSIIDC
-- CWSIIFL
-- CWSIIGA
-- CWSIIKS
-- CWSIIKY
-- CWSIIMN
-- CWSIILA
-- CWSIIMD
-- CWSIIMO
-- CWSIINC
-- CWSIIND
-- CWSIIOH
-- CWSIIOK
-- CWSIIPA
-- CWSIISC
-- CWSIITN
-- CWSIIVA
-- CWSIIWV
+- self
 
        
 strength_var
@@ -610,41 +409,13 @@ strength_var
 :type: number
 :format: default
 :constraints:
-    
-    
-    
-    
-    
     :minimum: 0
     
-         
-
 
 Variance of the estimated strength in personnel of the force. See code for how it is calculated.
 
 **Sources:**
-- CWSII
-- CWSIIAL
-- CWSIIAR
-- CWSIICO
-- CWSIIDC
-- CWSIIFL
-- CWSIIGA
-- CWSIIKS
-- CWSIIKY
-- CWSIIMN
-- CWSIILA
-- CWSIIMD
-- CWSIIMO
-- CWSIINC
-- CWSIIND
-- CWSIIOH
-- CWSIIOK
-- CWSIIPA
-- CWSIISC
-- CWSIITN
-- CWSIIVA
-- CWSIIWV
+- self
 
        
 
