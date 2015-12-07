@@ -6,7 +6,7 @@ from citeproc import CitationStylesStyle, CitationStylesBibliography
 from citeproc import formatter
 from citeproc import Citation, CitationItem
 
-bib_source = BibTeX('acwbd.bib')
+bib_source = BibTeX('acwbd.bibtex')
 
 bib_style = CitationStylesStyle('harvard1', validate=False)
 

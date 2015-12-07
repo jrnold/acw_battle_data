@@ -11,6 +11,8 @@ import hashlib
 
 import yaml
 
+#CITEPROC_JAVA = "citeproc-java-0.6/bin/citeproc-java"
+
 # From http://stackoverflow.com/questions/1131220/get-md5-hash-of-big-files-in-python
 def md5sum(filename):
     md5 = hashlib.md5()

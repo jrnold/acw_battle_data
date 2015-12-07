@@ -115,6 +115,7 @@ def build_docs(src, dst, docs):
     # create docs sources
     sp.check_call([PYTHON, "bin/build_docs.py",
             src, dst, docs])
+
     
 def build(src, dst, docs):
     if path.exists(dst):
