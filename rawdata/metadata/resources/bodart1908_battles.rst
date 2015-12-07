@@ -117,12 +117,12 @@ Bodart classifies battles into the following cateogies:
 
 - Belagerung : siege
 - Einnahme : taking
+- Gefecht :  battle
 - Treffen : meeting, encounter
 - Schlacht : battle
 - Kapitulation : surrender
 - Erstürmung : storming
 - Einschliessung : confinement
-- Gefecht :  battle
 - Überfall : raid
 - Vergebliche belagerung : unsuccessful siege
 - Seeschlacht : naval battle 
@@ -140,6 +140,9 @@ There is also a category entitled "Summe der"
 - Kämpfe zur See ("battles at sea")
 - Belagerungen ("siege")
 - Kapitulation ("surrender")
+
+Bodart also classifies battles into ranks (1--6).
+
 
 Final total category "Gesamtsumme der Kämpfe" ("total fights")
 

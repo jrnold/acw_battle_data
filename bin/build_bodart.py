@@ -23,8 +23,13 @@ RANKS = {"Gen.-Lt." : "Lt. Gen", # "General-Leutnant",
          "Brigadier Obst." : "Col.", # Brigadier Oberst" 
 }
 
-CATEGORIES = ("battle", "meeting", "surrender",
-              "siege", "capture")
+CATEGORIES = ("Schlacht",
+              "Treffen",
+              "Kapitulation",
+              "Einnahme",
+              "Belagerung",
+              )
+
 
 def dict_remove(x, exclude = []):
     return dict((k, v) for k, v in x.items() if k not in exclude)
@@ -34,7 +39,7 @@ def dict_subset(x, include = []):
 
 fields_forces = (
     "battle_id",
-    "country",
+    "belligerent",
     "victor",
     "strength",
     "strength_engaged",
@@ -72,35 +77,29 @@ fields_forces = (
     "losses_flags",
     "losses_munition_wagons",
     "losses_wagons",
-    "other"
+    "note"
 )
 
 def forces_csv(src, dst):
     with open(src, 'r') as f:
         data = yaml.load(f)
-    # Get fieldnames
-    # fieldnames = set()
-    # for battle, v in sorted(data.items()):
-    #     for force in ('victor', 'loser'):
-    #         for field, v2 in sorted(v[force].items()):
-    #             fieldnames.add(field)
     fieldnames = fields_forces
     with open(dst, 'w') as f:
         writer = csv.DictWriter(f, fieldnames)
         writer.writeheader()
         with open(dst, 'w') as f:
-            for battle, v in sorted(data.items()):
+            for battle_id, v in enumerate(data):
                 for side in ('victor', 'loser'):
                     row = dict_subset(v[side], fieldnames)
                     row['victor'] = (side == 'victor')
-                    row['battle_id'] = battle
+                    row['battle_id'] = battle_id
                     writer.writerow(row)
 
 def commanders_csv(src, dst):
     with open(src, 'r') as f:
         data = yaml.load(f)
     fieldnames = ('battle_id',
-                  'country',
+                  'belligerent',
                   'name',
                   'last_name',
                   'first_name',
@@ -112,24 +111,26 @@ def commanders_csv(src, dst):
         writer = csv.DictWriter(f, fieldnames)
         writer.writeheader()
         with open(dst, 'w') as f:
-            for battle, v in sorted(data.items()):
+            for battle_id, v in enumerate(data):
                 for side in ('victor', 'loser'):
                     if 'commanders' in v[side]:
                       cmdrs = v[side]['commanders']
                       for cmdr in cmdrs:
                           row = cmdr.copy()
-                          row['battle_id'] = battle
-                          row['country'] = v[side]['country']
+                          row['battle_id'] = battle_id
+                          row['belligerent'] = v[side]['belligerent']
                           row['rank'] = RANKS[row['rank']]
                           if 'dbpedia' not in row:
                               row['dbpedia'] = None
+                          else:
+                              row['dbpedia'] = "https://dbpedia.org/resource/%s" % row['dbpedia']
                           writer.writerow(row)
 
 def generals_killed_csv(src, dst):
     with open(src, 'r') as f:
         data = yaml.load(f)
     fieldnames = ('battle_id',
-                  'country',
+                  'belligerent',
                   'name',
                   'last_name',
                   'first_name',
@@ -142,32 +143,25 @@ def generals_killed_csv(src, dst):
         writer = csv.DictWriter(f, fieldnames)
         writer.writeheader()
         with open(dst, 'w') as f:
-            for battle, v in sorted(data.items()):
+            for battle_id, v in enumerate(data):
                 for side in ('victor', 'loser'):
                     if 'generals_killed' in v[side]:
                         for x in v[side]['generals_killed']:
                             row = x.copy()
-                            parsed_name = nameparser.HumanName(row['name']).as_dict()
-                            if parsed_name['last'] == '':
-                                row['first_name'] = ''
-                                row['last_name'] = parsed_name['first']
-                            else:
-                                row['first_name'] = parsed_name['first']
-                                row['last_name'] = parsed_name['last']
-                            row['middle_name'] = parsed_name['middle']
-                            row['suffix'] = parsed_name['suffix']
-                            row['battle_id'] = battle
-                            row['country'] = v[side]['country']
+                            row['battle_id'] = battle_id
+                            row['belligerent'] = v[side]['belligerent']
                             row['rank'] = RANKS[row['rank']]
                             if 'dbpedia' not in row:
                                 row['dbpedia'] = None
+                            else:
+                                row['dbpedia'] = "https://dbpedia.org/resource/%s" % row['dbpedia']
                             writer.writerow(row)
                     
 def battle_csv(src, dst):
     fields = [
         'battle_id',
         'name', 
-        'other_name', 
+        'other_names', 
         'start_date',
         'end_date',
         'location',
@@ -184,19 +178,13 @@ def battle_csv(src, dst):
     with open(dst, 'w') as f:
         writer = csv.DictWriter(f, fields)
         writer.writeheader()
-        for battle, v in sorted(data.items()):
+        for battle_id, v in enumerate(data):
             row = dict_subset(v, fields + ['category'])
-            if 'other_name' in row:
-                if len(row['other_name']):
-                    row['other_name'] = ';'.join(row['other_name'])
-                else:
-                    del row['other_name']
-            row['battle_id'] = battle
-            if 'category' in row:
-                if len(row['category']):
-                    for category in CATEGORIES:
-                        row[category] = int(category in row['category'])
-                del row['category']
+            row['other_names'] = ';'.join(row['other_names'])
+            row['battle_id'] = battle_id
+            for category in CATEGORIES:
+                row['category_' + category.lower()] = int(category in row['category'])
+            del row['category']
             writer.writerow(row)
 
 def bodart_to_cwsac(src, dst):

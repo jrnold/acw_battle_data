@@ -1,7 +1,109 @@
-'Blockade War: 1861-1862':
-- cwsac:
+- battle: Rich Mountain/Laurel Mountain, July 11-13, 1861
+  cwsac:
+  - id: WV003
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Rich_Mountain
+  end_date: 1861-7-11
+  forces:
+    Confederate:
+      captured: 554
+      killed_wounded: 170
+      strength: 5300
+    US:
+      killed: 12
+      strength: 6000
+      wounded: 49
+  page: 293
+  start_date: 1861-7-11
+- battle: First Bull Run (Manassas), July 21, 1861
+  cwsac:
+  - id: VA005
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/First_Battle_of_Bull_Run
+  forces:
+    Confederate:
+      killed: 387
+      missing: 13
+      strength: 32232
+      wounded: 1582
+    US:
+      killed: 460
+      missing_captured: 1312
+      strength: 28452
+      wounded: 1124
+  page: 293
+  start_date: 1861-7-21
+- battle: Ball's Bluff, October 21, 1861
+  cwsac:
+  - id: VA006
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Ball%27s_Bluff
+  forces:
+    Confederate:
+      killed: 33
+      missing: 1
+      strength: 3000
+      wounded: 115
+    US:
+      captured: 714
+      killed: 49
+      strength: 1700
+      wounded: 158
+  page: 293
+  start_date: 1861-10-21
+- battle: Wilson's Creek, August 10, 1861
+  cwsac:
+  - id: MO004
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Wilson%27s_Creek
+  forces:
+    Confederate:
+      killed: 105
+      missing: 117
+      strength: 15396
+      wounded: 419
+    US:
+      killed: 258
+      missing: 186
+      strength: 5600
+      wounded: 873
+  page: 294
+  start_date: 1861-8-10
+- battle: Belmont, November 7, 1861
+  cwsac:
+  - id: MO009
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Belmont
+  forces:
+    Confederate:
+      captured: 117
+      killed: 105
+      strength: 5000
+      wounded: 419
+    US:
+      captured: 104
+      killed: 120
+      strength: 3114
+      wounded: 383
+  page: 294
+  start_date: 1861-11-7
+- battle: Roanoake Island
+  cwsac:
   - id: NC002
     relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Roanoke_Island
   end_date: 1862-2-8
   forces:
     Confederate:
@@ -17,15 +119,15 @@
       strength: 13000
       warships and transports: 80
       wounded_missing: 242
-  battle: Roanoake Island
   page: 294
   start_date: 1862-2-7
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Roanoke_Island
-- cwsac:
+- battle: New Bern
+  cwsac:
   - id: NC003
     relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_New_Bern
   forces:
     Confederate:
       killed: 68
@@ -37,15 +139,15 @@
       missing: 1
       strength: 11000
       wounded: 385
-  battle: New Bern
   page: 294
   start_date: 1862-3-13
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Roanoke_Island
-- cwsac:
+- battle: Hampton Roads (first day)
+  cwsac:
   - id: VA008
     relation: <
+  dbpedia:
+  - relation: <
+    url: https://dbpedia.org/resource/Battle_of_Hampton_Roads
   forces:
     Confederate:
       crewmen: 350
@@ -59,15 +161,15 @@
       warships sunk: 2
       wooden warships: 5
       wounded: 146
-  battle: Hampton Roads (first day)
   page: 294
   start_date: 1862-3-8
+- battle: Hampton Roads (second day)
+  cwsac:
+  - id: VA008
+    relation: <
   dbpedia:
   - relation: <
     url: https://dbpedia.org/resource/Battle_of_Hampton_Roads
-- cwsac:
-  - id: VA008
-    relation: <
   forces:
     Confederate:
       casualties: 0
@@ -79,15 +181,15 @@
       guns: 2
       ironclads: 1
       wounded: 2
-  battle: Hampton Roads (second day)
   page: 294
   start_date: 1862-3-9
-  dbpedia:
-  - relation: <
-    url: https://dbpedia.org/resource/Battle_of_Hampton_Roads
-- cwsac:
+- battle: Secessionville
+  cwsac:
   - id: SC002
     relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_James_Island
   forces:
     Confederate:
       killed: 52
@@ -99,29 +201,1436 @@
       missing_captured: 89
       strength: 4500
       wounded: 487
-  battle: Secessionville
   page: 294
   start_date: 1862-6-16
+- battle: Kernstown (first)
+  cwsac:
+  - id: VA101
+    relation: '='
   dbpedia:
   - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_James_Island
-'Blockade War: 1863':
-- forces:
+    url: https://dbpedia.org/resource/First_Battle_of_Kernstown
+  forces:
+    Confederate:
+      killed: 80
+      missing: 263
+      strength: 4200
+      wounded: 375
+    US:
+      killed: 118
+      missing: 22
+      strength: 9000
+      wounded: 450
+  page: 296
+  start_date: 1862-3-23
+- battle: McDowell
+  cwsac:
+  - id: VA102
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_McDowell
+  forces:
+    Confederate:
+      killed: 75
+      strength: 5000
+      wounded: 423
+    US:
+      killed: 26
+      missing: 3
+      strength: 2500
+      wounded: 227
+  page: 296
+  start_date: 1862-5-8
+- battle: Front Royal
+  cwsac:
+  - id: VA103
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Front_Royal
+  forces:
+    Confederate:
+      killed_wounded: 50
+      strength: 16000
+    US:
+      casualties: 904
+      strength: 1063
+  page: 296
+  start_date: 1862-5-23
+- battle: Winchester (first)
+  cwsac:
+  - id: VA104
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/First_Battle_of_Winchester
+  forces:
+    Confederate:
+      killed: 68
+      missing: 3
+      strength: 17500
+      wounded: 329
+    US:
+      captured: 1714
+      killed: 62
+      strength: 8500
+      wounded: 243
+  page: 296
+  start_date: 1862-5-25
+- battle: Cross Keys
+  cwsac:
+  - id: VA105
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Cross_Keys
+  forces:
+    Confederate:
+      killed: 41
+      missing: 15
+      strength: 6500
+      wounded: 232
+    US:
+      killed: 114
+      missing: 127
+      strength: 12000
+      wounded: 443
+  page: 296
+  start_date: 1862-6-8
+- battle: Port Republic
+  cwsac:
+  - id: VA106
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Port_Republic
+  forces:
+    Confederate:
+      killed: 98
+      missing: 45
+      strength: 15000
+      wounded: 719
+    US:
+      captured: 558
+      killed: 67
+      strength: 5000
+      wounded: 393
+  page: 296
+  start_date: 1862-6-9
+- battle: Williamsburg (Fort Magruder)
+  cwsac:
+  - id: VA010
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Williamsburg
+  forces:
+    Confederate:
+      killed: 288
+      missing: 297
+      strength: 31823
+      wounded: 975
+    US:
+      killed: 468
+      missing: 373
+      strength: 40768
+      wounded: 1442
+  page: 296
+  start_date: 1862-5-5
+- battle: Hanover Court House
+  cwsac:
+  - id: VA013
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Hanover_Court_House
+  forces:
+    Confederate:
+      captured: 730
+      killed_wounded: 270
+      strength: 3000
+    US:
+      killed: 62
+      missing: 70
+      strength: 6000
+      wounded: 223
+  page: 297
+  start_date: 1862-5-27
+- battle: Fair Oaks (Seven Pines)
+  cwsac:
+  - id: VA014
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Seven_Pines
+  end_date: 1862-6-1
+  forces:
+    Confederate:
+      killed: 980
+      missing: 405
+      strength: 41816
+      wounded: 4749
+    US:
+      captured: 347
+      killed: 790
+      missing: 647
+      strength: 41797
+      wounded: 3594
+  page: 297
+  start_date: 1862-5-31
+- battle: Seven Days Battles
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Seven_Days_Battles
+  end_date: 1862-7-1
+  forces:
+    Confederate:
+      missing_captured: 875
+      strength: 3478
+      wounded: 16261
+    US:
+      killed: 1734
+      missing_captured: 6053
+      strength: 91169
+      wounded: 8062
+  page: 297
+  start_date: 1862-6-25
+- battle: The Orchard (Seven Days)
+  cwsac:
+  - id: VA015
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Seven_Days_Battles
+  forces:
+    Confederate:
+      killed: 40
+      missing: 13
+      strength: 6000
+      wounded: 263
+    US:
+      killed: 51
+      missing: 64
+      strength: 6000
+      wounded: 401
+  page: 297
+  start_date: 1862-6-25
+- battle: Mechanicsville (Seven Days)
+  cwsac:
+  - id: VA016
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Beaver_Dam_Creek
+  forces:
+    Confederate:
+      casualties: 1484
+      strength: 16356
+    US:
+      killed: 49
+      missing: 105
+      strength: 15631
+      wounded: 207
+  page: 297
+  start_date: 1862-6-26
+- battle: Gaines's Mill (Seven Days)
+  cwsac:
+  - id: VA017
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Gaines%27s_Mill
+  forces:
+    Confederate:
+      casualties: 8751
+      strength: 57018
+    US:
+      guns lost: 22
+      killed: 894
+      missing_captured: 2836
+      strength: 34214
+      wounded: 3107
+  page: 297
+  start_date: 1862-6-27
+- battle: Savage's Station (Seven Days)
+  cwsac:
+  - id: VA019
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Savage%27s_Station
+  forces:
+    Confederate:
+      casualties: 626
+      divisions: 4
+    US:
+      casualties: 1590
+      divisions: 3
+  page: 297
+  start_date: 1862-6-29
+- battle: White Oak Swamp (Seven Days)
+  cwsac:
+  - id: VA020
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_White_Oak_Swamp
+  forces:
+    Confederate:
+      divisions: 2
+      killed: 638
+      missing: 221
+      wounded: 2814
+    US:
+      divisions: 4
+      guns lost: 18
+      killed: 297
+      missing: 1804
+      wounded: 1696
+  page: 297
+  start_date: 1862-6-30
+- battle: Malvern Hill (Seven Days)
+  cwsac:
+  - id: VA021
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Malvern_Hill
+  forces:
+    Confederate:
+      strength: 5355
+    US:
+      casualties: 3214
+      strength: 83345
+  page: 297
+  start_date: 1862-7-1
+- battle: Cedar Mountain
+  cwsac:
+  - id: VA022
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Cedar_Mountain
+  forces:
+    Confederate:
+      killed: 231
+      missing: 31
+      strength: 16868
+      wounded: 1107
+    US:
+      killed: 314
+      missing: 594
+      strength: 8030
+      wounded: 1445
+  page: 297
+  start_date: 1862-8-9
+- battle: Groveton
+  cwsac:
+  - id: VA026
+    relation: <
+  dbpedia:
+  - relation: <
+    url: https://dbpedia.org/resource/Second_Battle_of_Bull_Run
+  forces:
+    Confederate:
+      casualties: 1000
+      strength: 6000
+    US:
+      casualties: 1000
+      strength: 2800
+  page: 297
+  start_date: 1862-8-28
+- battle: Second Bull Run/Chantilly (Second Manassas)
+  cwsac:
+  - id: VA026
+    relation: <
+  dbpedia:
+  - relation: <
+    url: https://dbpedia.org/resource/Second_Battle_of_Bull_Run
+  end_date: 1862-9-1
+  forces:
+    Confederate:
+      killed: 1481
+      missing: 89
+      strength: 48527
+      wounded: 7627
+    US:
+      guns lost: 30
+      killed: 1724
+      missing_captured: 5958
+      strength: 75696
+      wounded: 8372
+  page: 297
+  start_date: 1862-8-29
+- battle: South Mountain
+  cwsac:
+  - id: MD002
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_South_Mountain
+  forces:
+    Confederate:
+      killed: 325
+      missing_captured: 800
+      strength: 17852
+      wounded: 1560
+    US:
+      killed: 325
+      missing: 85
+      strength: 28480
+      wounded: 1403
+  page: 297
+  start_date: 1862-9-14
+- battle: Antietam (Sharpsburg)
+  cwsac:
+  - id: MD003
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Antietam
+  forces:
+    Confederate:
+      killed: 1546
+      missing: 1018
+      strength: 39000
+      wounded: 7752
+    US:
+      killed: 2108
+      missing: 753
+      strength: 75316
+      wounded: 9549
+  page: 297
+  start_date: 1862-9-17
+- battle: Fredericksburg
+  cwsac:
+  - id: VA028
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Fredericksburg
+  forces:
+    Confederate:
+      killed: 595
+      missing: 653
+      strength: 72497
+      wounded: 4074
+    US:
+      killed: 1284
+      missing: 1769
+      strength: 106007
+      wounded: 9600
+  page: 297
+  start_date: 1862-12-13
+- battle: Valverde
+  cwsac:
+  - id: NM001
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Valverde
+  forces:
+    Confederate:
+      killed: 36
+      strength: 2515
+      wounded: 150
+    US:
+      killed: 68
+      missing: 35
+      strength: 3810
+      wounded: 157
+  page: 299
+  start_date: 1862-2-21
+- battle: Apache Canyon/Glorieta Pass
+  cwsac:
+  - id: NM002
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Glorieta_Pass
+  end_date: 1862-3-28
+  forces:
+    Confederate:
+      captured: 102
+      killed: 47
+      strength: 900
+      wounded: 64
+    US:
+      captured: 16
+      killed: 54
+      strength: 1342
+      wounded: 94
+  page: 299
+  start_date: 1862-3-26
+- battle: Pea Ridge
+  cwsac:
+  - id: AR001
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Pea_Ridge
+  end_date: 1862-3-8
+  forces:
+    Confederate:
+      captured: 200
+      killed_wounded: 800
+      strength: 17000
+    US:
+      killed: 203
+      missing_captured: 210
+      strength: 1125
+      wounded: 980
+  page: 299
+  start_date: 1862-3-7
+- battle: Prairie Grove
+  cwsac:
+  - id: AR005
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Prairie_Grove
+  forces:
+    Confederate:
+      killed: 164
+      missing: 336
+      strength: 12051
+      wounded: 817
+    US:
+      killed: 175
+      missing: 263
+      strength: 9546
+      wounded: 813
+  page: 299
+  start_date: 1862-12-7
+- battle: Mill Springs (Logan's Crossroads)
+  cwsac:
+  - id: KY006
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Mill_Springs
+  end_date: 1862-1-20
+  forces:
+    Confederate:
+      guns lost: 12
+      killed: 125
+      missing: 99
+      strength: 4500
+      wounded: 309
+    US:
+      killed: 40
+      strength: 4000
+      wounded: 207
+  page: 299
+  start_date: 1862-1-19
+- battle: Fort Donelson
+  cwsac:
+  - id: TN002
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Fort_Donelson
+  end_date: 1862-2-16
+  forces:
+    Confederate:
+      casualties: 14623
+      killed_wounded: 2000
+      strength: 17500
+    US:
+      killed: 500
+      missing: 224
+      strength: 27500
+      wounded: 2108
+  page: 299
+  start_date: 1862-2-12
+- battle: Shiloh (Pittsburg Landing)
+  cwsac:
+  - id: TN003
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Shiloh
+  end_date: 1862-4-7
+  forces:
+    Confederate:
+      killed: 1723
+      missing_captured: 959
+      strength: 40335
+      wounded: 8012
+    US:
+      killed: 1754
+      missing_captured: 2885
+      strength: 66812
+      wounded: 8408
+  page: 299
+  start_date: 1862-4-6
+- battle: New Orleans
+  cwsac:
+  - id: LA001
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Forts_Jackson_and_St._Philip
+  forces:
+    Confederate:
+      gunboats: 10
+      gunboats sunk: 9
+      guns: 126
+      killed: 185
+      strength: 1100
+      wounded: 39
+    US:
+      frigates: 2
+      gunboats: 9
+      gunboats sunk: 1
+      guns: 243
+      killed: 37
+      sloops: 7
+      wounded: 149
+  page: 299
+  start_date: 1862-4-24
+- battle: Baton Rouge
+  cwsac:
+  - id: LA003
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Baton_Rouge_(1862)
+  forces:
+    Confederate:
+      captured: 57
+      killed: 84
+      strength: 2600
+      wounded: 315
+    US:
+      captured: 33
+      killed: 84
+      strength: 2500
+      wounded: 266
+  page: 299
+  start_date: 1862-8-5
+- battle: Iuka
+  cwsac:
+  - id: MS001
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Iuka
+  forces:
+    Confederate:
+      killed: 262
+      missing: 561
+      strength: 3179
+      wounded: 692
+    US:
+      killed: 144
+      missing: 40
+      strength: 4500
+      wounded: 598
+  page: 299
+  start_date: 1862-9-19
+- battle: Corinth
+  cwsac:
+  - id: MS002
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Second_Battle_of_Corinth
+  end_date: 1862-10-4
+  forces:
+    Confederate:
+      killed: 473
+      missing: 1763
+      strength: 22000
+      wounded: 1997
+    US:
+      killed: 355
+      missing: 324
+      strength: 21147
+      wounded: 1841
+  page: 299
+  start_date: 1862-10-3
+- battle: Chickasaw Bluffs
+  cwsac:
+  - id: MS003
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Chickasaw_Bayou
+  forces:
+    Confederate:
+      killed: 63
+      missing: 10
+      strength: 13792
+      wounded: 134
+    US:
+      killed: 208
+      missing_captured: 563
+      strength: 30720
+      wounded: 1005
+  page: 300
+  start_date: 1862-12-29
+- battle: Richmond (Kentucky)
+  cwsac:
+  - id: KY007
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Richmond
+  forces:
+    Confederate:
+      killed: 78
+      missing: 1
+      strength: 6800
+      wounded: 372
+    US:
+      killed: 206
+      missing_captured: 4303
+      strength: 6500
+      wounded: 844
+  page: 300
+  start_date: 1862-8-30
+- battle: Perryville
+  cwsac:
+  - id: KY009
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Perryville
+  forces:
+    Confederate:
+      killed: 510
+      missing_captured: 251
+      strength: 16000
+      wounded: 2635
+    US:
+      killed: 845
+      missing_captured: 515
+      strength: 36940
+      wounded: 2851
+  page: 300
+  start_date: 1862-10-8
+- battle: Hartsville
+  cwsac:
+  - id: TN008
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Hartsville
+  forces:
+    Confederate:
+      casualties: 125
+      strength: 2000
+    US:
+      captured: 1762
+      killed_wounded: 300
+      strength: 2100
+  page: 300
+  start_date: 1862-12-7
+- battle: Stones River (Murfreesboro)
+  cwsac:
+  - id: TN010
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Stones_River
+  end_date: 1863-1-2
+  forces:
+    Confederate:
+      killed: 1294
+      missing_captured: 2500
+      strength: 37713
+      wounded: 7945
+    US:
+      killed: 1677
+      missing_captured: 3686
+      strength: 44000
+      wounded: 7543
+  page: 300
+  start_date: 1862-12-31
+- battle: Chancellorsville
+  cwsac:
+  - id: VA032
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Chancellorsville
+  end_date: 1863-5-6
+  forces:
+    Confederate:
+      killed: 1665
+      missing: 2081
+      strength: 60892
+      wounded: 9081
+    US:
+      killed: 1606
+      missing_captured: 5919
+      strength: 97382
+      wounded: 9762
+  page: 302
+  start_date: 1863-5-1
+- battle: Brandy Station
+  cwsac:
+  - id: VA035
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Brandy_Station
+  forces:
+    Confederate:
+      casualties: 523
+      cavalry: 10000
+    US:
+      captured: 486
+      cavalry: 12000
+      killed: 69
+      wounded: 352
+  page: 302
+  start_date: 1863-6-9
+- battle: Winchester (second)
+  cwsac:
+  - id: VA107
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Second_Battle_of_Winchester
+  end_date: 1863-6-15
+  forces:
+    Confederate:
+      casualties: 269
+      strength: 14000
+    US:
+      guns lost: 23
+      killed: 95
+      missing: 4058
+      strength: 5100
+      wounded: 348
+  page: 302
+  start_date: 1863-6-14
+- battle: Gettsyburg
+  cwsac:
+  - id: PA002
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Gettysburg
+  end_date: 1863-7-3
+  forces:
+    Confederate:
+      killed: 3903
+      missing_captured: 5425
+      strength: 70226
+      wounded: 18735
+    US:
+      killed: 3155
+      missing_captured: 5365
+      strength: 88289
+      wounded: 14529
+  page: 302
+  start_date: 1863-7-1
+- battle: Bristoe Station
+  cwsac:
+  - id: VA040
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Bristoe_Station
+  forces:
+    Confederate:
+      brigades: 2
+      captured: 450
+      killed_wounded: 1400
+    US:
+      casualties: 548
+      divisions: 3
+  page: 302
+  start_date: 1863-10-14
+- battle: Buckland
+  cwsac:
+  - id: VA042
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Buckland_Mills
+  forces:
+    Confederate:
+      casualties: 408
+      cavalry divisions: 1
+    US:
+      casualties: 1251
+      cavalry divisions: 1
+  page: 302
+  start_date: 1863-10-19
+- battle: Rappahannock Station
+  cwsac:
+  - id: VA043
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Second_Battle_of_Rappahannock_Station
+  forces:
+    Confederate:
+      casualties: 2033
+      strength: 2800
+    US:
+      casualties: 461
+      corps: 1
+  page: 302
+  start_date: 1863-11-7
+- battle: Mine Run
+  cwsac:
+  - id: VA044
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Mine_Run
+  end_date: 1863-12-1
+  forces:
+    Confederate:
+      casualties: 629
+      strength: 48586
+    US:
+      casualties: 1653
+      strength: 84274
+  page: 302
+  start_date: 1863-11-27
+- battle: Galveston
+  cwsac:
+  - id: TX003
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Galveston
+  forces:
+    Confederate:
+      guns: 3
+      killed: 27
+      steamers: 2
+      strength: 800
+      wounded: 116
+    US:
+      captured: 600
+      companies: 3
+      gunboats: 5
+      gunboats captured: 1
+      gunboats sunk: 1
+      guns: 28
+  page: 305
+  start_date: 1863-1-1
+- battle: Honey Springs
+  cwsac:
+  - id: OK007
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Honey_Springs
+  forces:
+    Confederate:
+      casualties: 181
+      strength: 5000
+    US:
+      killed: 13
+      strength: 4000
+      wounded: 62
+  page: 305
+  start_date: 1863-7-17
+- battle: Fort Hindman (Arkansas Post)
+  cwsac:
+  - id: AR006
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Arkansas_Post
+  forces:
+    Confederate:
+      captured: 4791
+      killed_wounded: 109
+      strength: 5000
+    US:
+      killed: 140
+      strength: 29000
+      warships: 13
+      wounded: 923
+  page: 305
+  start_date: 1863-1-11
+- battle: Port Hudson (siege)
+  cwsac:
+  - id: LA010
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Siege_of_Port_Hudson
+  end_date: 1863-7-9
+  forces:
+    Confederate:
+      captured: 6340
+      guns: 57
+      guns lost: 57
+      killed_wounded: 623
+      strength: 6715
+    US:
+      guns: 90
+      killed: 707
+      missing: 319
+      strength: 20000
+      wounded: 3336
+  page: 305
+  start_date: 1863-5-26
+- battle: Port Hudson (first assault)
+  cwsac:
+  - id: LA010
+    relation: <
+  dbpedia:
+  - relation: <
+    url: https://dbpedia.org/resource/Siege_of_Port_Hudson
+  forces:
+    Confederate:
+      casualties: 235
+      note: Use strength from Port Hudson Siege
+      strength: 6715
+    US:
+      killed: 293
+      missing: 157
+      note: Use strength from Port Hudson Siege
+      strength: 20000
+      wounded: 1545
+  page: 305
+  start_date: 1863-5-27
+- battle: Port Hudson (second assault)
+  cwsac:
+  - id: LA010
+    relation: <
+  dbpedia:
+  - relation: <
+    url: https://dbpedia.org/resource/Siege_of_Port_Hudson
+  forces:
+    Confederate:
+      killed: 22
+      note: Use strength from Port Hudson Siege minus first assault
+      strength: 6480
+      wounded: 25
+    US:
+      killed: 203
+      missing: 188
+      note: Use strength from Port Hudson Siege minus first assault
+      strength: 18005
+      wounded: 1401
+  page: 305
+  start_date: 1863-6-14
+- battle: Donaldsville (first)
+  cwsac:
+  - id: LA013
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Second_Battle_of_Donaldsonville
+  forces:
+    Confederate:
+      casualties: 261
+      strength: 800
+    US:
+      killed_wounded: 24
+      strength: 225
+  page: 305
+  start_date: 1863-6-28
+- battle: Donaldsville (second)
+  cwsac:
+  - id: LA015
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Kock%27s_Plantation
+  forces:
+    Confederate:
+      brigades: 2
+      killed: 9
+      wounded: 24
+    US:
+      brigades: 2
+      killed: 50
+      missing_captured: 186
+      wounded: 223
+  page: 305
+  start_date: 1863-7-13
+- battle: Port Gibson
+  cwsac:
+  - id: MS006
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Port_Gibson
+  forces:
+    Confederate:
+      killed: 68
+      missing: 384
+      strength: 5500
+      wounded: 380
+    US:
+      killed: 131
+      missing: 25
+      strength: 23000
+      wounded: 719
+  page: 305
+  start_date: 1863-5-1
+- battle: Raymond
+  cwsac:
+  - id: MS007
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Raymond
+  forces:
+    Confederate:
+      killed: 73
+      missing: 190
+      strength: 4000
+      wounded: 251
+    US:
+      killed: 66
+      missing: 37
+      strength: 25000
+      wounded: 339
+  page: 305
+  start_date: 1863-5-12
+- battle: Jackson
+  cwsac:
+  - id: MS008
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Jackson,_Mississippi
+  forces:
+    Confederate:
+      killed: 17
+      missing: 118
+      strength: 6000
+      wounded: 66
+    US:
+      killed: 48
+      missing: 11
+      strength: 25000
+      wounded: 273
+  page: 305
+  start_date: 1863-5-14
+- battle: Champion's Hill
+  cwsac:
+  - id: MS009
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Champion_Hill
+  forces:
+    Confederate:
+      killed: 381
+      missing_captured: 1670
+      strength: 21800
+      wounded: 1800
+    US:
+      killed: 410
+      missing: 187
+      strength: 29373
+      wounded: 1844
+  page: 305
+  start_date: 1863-5-16
+- battle: Big Black River
+  cwsac:
+  - id: MS010
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Big_Black_River_Bridge
+  forces:
+    Confederate:
+      brigades: 1
+      casualties: 1751
+    US:
+      divisions: 2
+      killed: 39
+      missing: 3
+      wounded: 237
+  page: 305
+  start_date: 1863-5-17
+- battle: Vicksburg (siege)
+  cwsac:
+  - id: MS011
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Siege_of_Vicksburg
+  end_date: 1863-7-4
+  forces:
+    Confederate:
+      captured: 29396
+      guns lost: 172
+      killed_wounded: 4910
+      small arms lost: 60000
+      strength: 30000
+    US:
+      casualties: 5000
+      note: 'casualties for entire campaign from April 30 to July 4: 1514 k, 7395
+        w, 453 cm'
+      strength: 71000
+  page: 305
+  start_date: 1863-5-18
+- battle: Vicksburg (first assault)
+  cwsac:
+  - id: MS011
+    relation: <
+  dbpedia:
+  - relation: <
+    url: https://dbpedia.org/resource/Siege_of_Vicksburg
+  forces:
+    Confederate:
+      casualties: 200
+      note: Use strength from Vicksburg siege
+      strength: 30000
+    US:
+      killed: 157
+      missing: 8
+      note: Use strength from Vicksburg siege
+      strength: 71000
+      wounded: 777
+  page: 305
+  start_date: 1863-5-19
+- battle: Vicksburg (second assault)
+  cwsac:
+  - id: MS011
+    relation: <
+  dbpedia:
+  - relation: <
+    url: https://dbpedia.org/resource/Siege_of_Vicksburg
+  forces:
+    Confederate:
+      casualties: 1000
+      note: Use strength from Vicksburg siege minus casualties from the first assault.
+      strength: 29800
+    US:
+      killed: 502
+      missing: 147
+      note: Use strength from Vicksburg siege minus casualties from the first assault.
+      strength: 70058
+      wounded: 2550
+  page: 305
+  start_date: 1863-5-22
+- battle: Helena
+  cwsac:
+  - id: AR008
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Helena
+  forces:
+    Confederate:
+      casualties: 1636
+      strength: 7646
+    US:
+      casualties: 239
+      strength: 4129
+  page: 305
+  start_date: 1863-7-4
+- battle: Jackson (siege)
+  dbpedia:
+  - relation: '='
+    url: http://dbpedia.org/resource/Jackson_Expedition
+  end_date: 1863-7-16
+  forces:
+    Confederate:
+      killed: 71
+      missing_captured: 764
+      strength: 31000
+      wounded: 584
+    US:
+      killed: 129
+      missing: 231
+      strength: 50000
+      wounded: 762
+  page: 305
+  start_date: 1863-7-10
+- battle: Chickamagua
+  cwsac:
+  - id: GA004
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Chickamagua
+  end_date: 1863-9-20
+  forces:
+    Confederate:
+      guns: 200
+      killed: 2312
+      missing: 1468
+      strength: 66326
+      wounded: 14674
+    US:
+      guns: 170
+      killed: 1657
+      missing_captured: 4757
+      strength: 58222
+      wounded: 9756
+  page: 305
+  start_date: 1863-9-19
+- battle: Chattanooga
+  cwsac:
+  - id: TN024
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Chattanooga_Campaign
+  end_date: 1863-11-25
+  forces:
+    Confederate:
+      guns lost: 41
+      killed: 361
+      missing_captured: 4146
+      small arms lost: 7000
+      strength: 40929
+      wounded: 2160
+    US:
+      killed: 753
+      missing_captured: 349
+      strength: 56359
+      wounded: 4722
+  page: 305
+  start_date: 1863-11-23
+- battle: Chattanooga (Orchard Knob/Indian Hill)
+  cwsac:
+  - id: TN024
+    relation: <
+  dbpedia:
+  - relation: <
+    url: https://dbpedia.org/resource/Chattanooga_Campaign
+  forces:
+    Confederate:
+      casualties: 1000
+    US:
+      casualties: 1100
+      strength: 25000
+  page: 306
+  start_date: 1863-11-23
+- battle: Chattanooga (Lookout Mountain)
+  cwsac:
+  - id: TN024
+    relation: <
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Lookout_Mountain
+  forces:
+    Confederate:
+      brigades: 3
+      casualties: 500
+    US:
+      killed: 81
+      missing: 8
+      strength: 12000
+      wounded: 540
+  page: 306
+  start_date: 1863-11-24
+- battle: Chattanooga (Tunnel Hill)
+  cwsac:
+  - id: TN024
+    relation: <
+  dbpedia:
+  - relation: <
+    url: https://dbpedia.org/resource/Chattanooga_Campaign
+  forces:
+    Confederate:
+      casualties: 222
+      divisions: 1
+    US:
+      captured: 261
+      divisions: 4
+      killed_wounded: 1240
+  page: 306
+  start_date: 1863-11-25
+- battle: Chattanooga (Missionary Ridge)
+  cwsac:
+  - id: TN024
+    relation: <
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Missionary_Ridge
+  forces:
+    Confederate:
+      killed_wounded: 3000
+    US:
+      casualties: 3170
+      strength: 24536
+  page: 306
+  start_date: 1863-11-25
+- battle: Ringgold Gap
+  cwsac:
+  - id: GA005
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Ringgold_Gap
+  forces:
+    Confederate:
+      casualties: 221
+      strength: 4100
+    US:
+      captured: 100
+      killed_wounded: 342
+      strength: 12000
+  page: 306
+  start_date: 1863-11-27
+- battle: Knoxville (siege)
+  dbpedia:
+  - relation: <
+    url: http://dbpedia.org/resource/Knoxville_Campaign
+  end_date: 1863-12-3
+  forces:
+    Confederate:
+      casualties: 1142
+      strength: 15000
+    US:
+      killed: 92
+      missing_captured: 207
+      strength: 25000
+      wounded: 394
+  page: 306
+  start_date: 1863-11-17
+- battle: Knoxville (attack on Fort Sanders)
+  cwsac:
+  - id: TN025
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Fort_Sanders
+  forces:
+    Confederate:
+      captured: 226
+      killed: 129
+      strength: 3000
+      wounded: 458
+    US:
+      guns: 12
+      killed: 8
+      strength: 440
+      wounded: 5
+  page: 306
+  start_date: 1863-11-29
+- battle: Pocataligo
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Pocotaligo
+  forces:
     Confederate:
       casualties: 163
       strength: 2200
     US:
       casualties: 340
       strength: 4500
-  battle: Pocataligo
   page: 306
   start_date: 1863-10-22
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Pocotaligo
-- cwsac:
+- battle: Batteries Wagner and Gregg
+  cwsac:
   - id: SC005
     relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/First_Battle_of_Fort_Wagner
   end_date: 1863-7-11
   forces:
     Confederate:
@@ -132,15 +1641,15 @@
       missing_captured: 167
       strength: 3000
       wounded: 123
-  battle: Batteries Wagner and Gregg
   page: 306
   start_date: 1863-7-10
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/First_Battle_of_Fort_Wagner
-- cwsac:
+- battle: Battery Wagner
+  cwsac:
   - id: SC007
     relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Second_Battle_of_Fort_Wagner
   forces:
     Confederate:
       killed_wounded: 188
@@ -150,18 +1659,910 @@
       missing: 391
       strength: 6000
       wounded: 890
-  battle: Battery Wagner
   note: 'Total casualties at Battery Wagner from July 10 to September 7, 1863, were:
     Union - 2318; Confederate - 641'
   page: 306
   start_date: 1863-7-18
+- battle: Olustee
+  cwsac:
+  - id: FL005
+    relation: '='
   dbpedia:
   - relation: '='
-    url: https://dbpedia.org/resource/Second_Battle_of_Fort_Wagner
-'Blockade War: 1864-65':
-- cwsac:
+    url: https://dbpedia.org/resource/Battle_of_Olustee
+  forces:
+    Confederate:
+      killed_missing: 93
+      strength: 5200
+      wounded: 841
+    US:
+      killed: 231
+      missing: 506
+      strength: 5115
+      wounded: 1124
+  page: 310
+  start_date: 1864-2-10
+- battle: Wilderness
+  cwsac:
+  - id: VA046
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_the_Wilderness
+  end_date: 1864-5-6
+  forces:
+    Confederate:
+      killed: 1957
+      missing: 1701
+      strength: 61025
+      wounded: 7467
+    US:
+      killed: 2246
+      missing_captured: 3383
+      strength: 101895
+      wounded: 12037
+  page: 310
+  start_date: 1864-5-5
+- battle: Spotsylvania Court House
+  cwsac:
+  - id: VA048
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Spotsylvania_Court_House
+  end_date: 1864-5-18
+  forces:
+    Confederate:
+      killed: 1929
+      missing: 5719
+      strength: 56000
+      wounded: 4803
+    US:
+      killed: 2725
+      missing: 2258
+      strength: 101000
+      wounded: 13416
+  page: 310
+  start_date: 1864-5-8
+- battle: Yellow Tavern
+  cwsac:
+  - id: VA052
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Yellow_Tavern
+  forces:
+    Confederate:
+      killed: 106
+      missing: 178
+      strength: 4500
+      wounded: 332
+    US:
+      casualties: 625
+      strength: 10000
+  page: 310
+  start_date: 1864-5-11
+- battle: North Anna River
+  cwsac:
+  - id: VA055
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_North_Anna
+  end_date: 1864-5-26
+  forces:
+    Confederate:
+      killed: 198
+      missing: 734
+      strength: 50000
+      wounded: 618
+    US:
+      casualties: 1973
+      strength: 100000
+  page: 310
+  start_date: 1864-5-23
+- battle: Totopotomy Creek
+  cwsac:
+  - id: VA057
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Totopotomoy_Creek
+  end_date: 1864-5-31
+  forces:
+    Confederate:
+      killed: 342
+      missing: 367
+      strength: 50000
+      wounded: 882
+    US:
+      casualties: 2103
+      strength: 100000
+  page: 310
+  start_date: 1864-5-27
+- battle: Cold Harbor (assault)
+  cwsac:
+  - id: VA062
+    relation: <
+  dbpedia:
+  - relation: <
+    url: https://dbpedia.org/resource/Battle_of_Cold_Harbor
+  forces:
+    Confederate:
+      casualties: 1500
+      strength: 59000
+    US:
+      casualties: 7000
+      strength: 60000
+  page: 310
+  start_date: 1864-6-3
+- battle: Cold Harbor
+  cwsac:
+  - id: VA062
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Cold_Harbor
+  end_date: 1864-6-12
+  forces:
+    Confederate:
+      killed: 1057
+      missing: 1132
+      strength: 59000
+      wounded: 3105
+    US:
+      killed: 1769
+      missing: 1537
+      strength: 108000
+      wounded: 6752
+  page: 310
+  start_date: 1864-5-31
+- battle: Trevilian Station
+  cwsac:
+  - id: VA099
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Trevilian_Station
+  end_date: 1864-6-12
+  forces:
+    Confederate:
+      killed: 126
+      missing: 318
+      strength: 5000
+      wounded: 338
+    US:
+      killed: 102
+      missing: 435
+      strength: 8000
+      wounded: 470
+  note: 'Confederate values for June 7-24.
+
+    '
+  page: 310
+  start_date: 1864-6-11
+- battle: Cloyd's Mountain
+  cwsac:
+  - id: VA049
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Cloyd%27s_Mountain
+  forces:
+    Confederate:
+      casualties: 543
+      strength: 2400
+    US:
+      casualties: 688
+      strength: 6155
+  page: 310
+  start_date: 1864-5-9
+- battle: New Market
+  cwsac:
+  - id: VA110
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_New_Market
+  forces:
+    Confederate:
+      killed: 42
+      missing: 13
+      strength: 3500
+      wounded: 484
+    US:
+      killed: 93
+      missing: 256
+      strength: 5200
+      wounded: 482
+  page: 310
+  start_date: 1864-5-15
+- battle: Piedmont
+  cwsac:
+  - id: VA111
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Piedmont
+  forces:
+    Confederate:
+      captured: 1000
+      killed_wounded: 460
+      strength: 8500
+    US:
+      killed: 130
+      strength: 16000
+      wounded: 650
+  page: 310
+  start_date: 1864-6-5
+- battle: Drewry's Bluff
+  cwsac:
+  - id: VA012
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Drewry%27s_Bluff
+  end_date: 1864-5-16
+  forces:
+    Confederate:
+      killed: 355
+      strength: 18025
+      wounded: 2151
+    US:
+      killed: 390
+      missing: 1390
+      strength: 15800
+      wounded: 2380
+  page: 310
+  start_date: 1864-5-12
+- battle: Petersburg (first assault)
+  cwsac:
+  - id: VA063
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Second_Battle_of_Petersburg
+  end_date: 1864-6-18
+  forces:
+    Confederate:
+      casualties: 4752
+      strength: 41499
+    US:
+      killed: 1688
+      missing: 1185
+      strength: 63797
+      wounded: 8513
+  page: 310
+  start_date: 1864-6-15
+- battle: Monocacy River
+  cwsac:
+  - id: MD007
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Monocacy
+  forces:
+    Confederate:
+      casualties: 700
+      strength: 14000
+    US:
+      killed: 90
+      missing_captured: 1290
+      strength: 6050
+      wounded: 579
+  page: 310
+  start_date: 1864-7-9
+- battle: Kernstown (second)
+  cwsac:
+  - id: VA116
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Second_Battle_of_Kernstown
+  forces:
+    Confederate:
+      strength: 14000
+    US:
+      captured: 479
+      killed_wounded: 706
+      strength: 8000
+  page: 310
+  start_date: 1864-7-24
+- battle: Opequon (Third Winchester)
+  cwsac:
+  - id: VA119
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Opequon
+  forces:
+    Confederate:
+      killed: 276
+      missing_captured: 1818
+      strength: 17103
+      wounded: 1827
+    US:
+      killed: 697
+      missing: 338
+      strength: 37711
+      wounded: 3983
+  page: 310
+  start_date: 1864-9-19
+- battle: Fisher's Hill
+  cwsac:
+  - id: VA120
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Fisher%27s_Hill
+  forces:
+    Confederate:
+      captured: 1100
+      guns lost: 25
+      killed_wounded: 300
+      strength: 8000
+    US:
+      killed: 52
+      missing: 19
+      strength: 30000
+      wounded: 457
+  page: 310
+  start_date: 1864-9-22
+- battle: Cedar Creek
+  cwsac:
+  - id: VA122
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Cedar_Creek
+  forces:
+    Confederate:
+      guns lost: 25
+      killed: 320
+      missing_captured: 1050
+      strength: 18410
+      wounded: 1540
+    US:
+      killed: 644
+      missing_captured: 1591
+      strength: 30829
+      wounded: 3430
+  page: 310
+  start_date: 1864-10-19
+- battle: Petersburg (Battle of the Crater)
+  cwsac:
+  - id: VA070
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_the_Crater
+  forces:
+    Confederate:
+      casualties: 1182
+      strength: 11466
+    US:
+      killed: 504
+      missing_captured: 1413
+      strength: 20708
+      wounded: 1181
+  page: 310
+  start_date: 1864-7-30
+- battle: Deep Bottom Run
+  cwsac:
+  - id: VA071
+    relation: '='
+  end_date: 1864-8-20
+  forces:
+    Confederate:
+      casualties: 1000
+      strength: 20008
+    US:
+      casualties: 2899
+      strength: 27974
+  page: 310
+  start_date: 1864-8-13
+- battle: Globe Tavern
+  cwsac:
+  - id: VA072
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Globe_Tavern
+  end_date: 1864-8-21
+  forces:
+    Confederate:
+      killed_wounded: 1200
+      missing: 419
+      strength: 14787
+    US:
+      killed: 251
+      missing_captured: 2879
+      strength: 20289
+      wounded: 1148
+  page: 310
+  start_date: 1864-8-18
+- battle: Reams Station
+  cwsac:
+  - id: VA073
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Second_Battle_of_Ream%27s_Station
+  forces:
+    Confederate:
+      casualties: 720
+      divisions: 1
+    US:
+      captured: 2073
+      divisions: 3
+      killed: 140
+      wounded: 529
+  page: 310
+  start_date: 1864-8-23
+- battle: Fort Harrison (Chaffin's Bluff)
+  cwsac:
+  - id: VA075
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Chaffin%27s_Farm
+  end_date: 1864-9-30
+  forces:
+    Confederate:
+      casualties: 2000
+      strength: 10836
+    US:
+      killed: 383
+      missing: 645
+      strength: 19639
+      wounded: 2299
+  page: 310
+  start_date: 1864-9-29
+- battle: Peebles Farm
+  cwsac:
+  - id: VA074
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Peebles%27s_Farm
+  end_date: 1864-10-1
+  forces:
+    Confederate:
+      casualties: 900
+      divisions: 3
+    US:
+      divisions: 4
+      killed: 187
+      missing: 1802
+      wounded: 900
+  page: 310
+  start_date: 1864-9-30
+- battle: Hatcher's Run (first)
+  cwsac:
+  - id: VA079
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Boydton_Plank_Road
+  end_date: 1864-10-28
+  forces:
+    Confederate:
+      casualties: 900
+      strength: 20324
+    US:
+      killed: 166
+      missing: 564
+      strength: 42823
+      wounded: 1028
+  page: 311
+  start_date: 1864-10-27
+- battle: Fair Oaks
+  cwsac:
+  - id: VA080
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Fair_Oaks_%26_Darbytown_Road
+  end_date: 1864-10-28
+  forces:
+    Confederate:
+      casualties: 451
+      strength: 10000
+    US:
+      casualties: 1103
+      strength: 40000
+  page: 311
+  start_date: 1864-10-27
+- battle: Sabine Crossroads
+  cwsac:
+  - id: LA018
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Mansfield
+  forces:
+    Confederate:
+      casualties: 900
+      strength: 8800
+    US:
+      captured: 1397
+      guns lost: 20
+      killed: 108
+      strength: 12000
+      wounded: 643
+  page: 314
+  start_date: 1864-4-8
+- battle: Pleasant Hill
+  cwsac:
+  - id: LA019
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Pleasant_Hill
+  forces:
+    Confederate:
+      casualties: 1626
+      strength: 12500
+    US:
+      killed: 150
+      missing: 375
+      strength: 12247
+      wounded: 844
+  page: 314
+  start_date: 1864-4-9
+- battle: Yellow Bayou
+  cwsac:
+  - id: LA023
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Yellow_Bayou
+  forces:
+    Confederate:
+      casualties: 608
+      strength: 5000
+    US:
+      casualties: 350
+      strength: 5000
+  page: 314
+  start_date: 1864-5-18
+- battle: Jenkins Ferry
+  cwsac:
+  - id: AR016
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Jenkins%27_Ferry
+  forces:
+    Confederate:
+      killed: 86
+      missing: 1
+      strength: 4000
+      wounded: 356
+    US:
+      killed: 64
+      missing: 86
+      strength: 6000
+      wounded: 378
+  page: 314
+  start_date: 1864-4-30
+- battle: Fort Davidson (Pilot Knob)
+  cwsac:
+  - id: MO021
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Fort_Davidson
+  forces:
+    Confederate:
+      casualties: 1500
+      strength: 12000
+    US:
+      killed: 28
+      missing: 100
+      strength: 1000
+      wounded: 59
+  page: 314
+  start_date: 1864-12-27
+- battle: Westport
+  cwsac:
+  - id: MO027
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Westport
+  forces:
+    Confederate:
+      casualties: 492
+      strength: 9000
+    US:
+      casualties: 500
+      strength: 20000
+  page: 314
+  start_date: 1864-10-23
+- battle: Mine Creek
+  cwsac:
+  - id: KS003
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Mine_Creek
+  forces:
+    Confederate:
+      captured: 560
+      killed: 300
+      strength: 6500
+      wounded: 250
+    US:
+      killed: 15
+      strength: 2600
+      wounded: 94
+  page: 314
+  start_date: 1864-10-25
+- battle: Fort Pillow
+  cwsac:
+  - id: TN030
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Fort_Pillow
+  forces:
+    Confederate:
+      killed: 14
+      strength: 1500
+      wounded: 86
+    US:
+      captured: 226
+      killed: 221
+      strength: 557
+  note: 'Union killed include 204 black troops, most of whom were killed after capture.
+
+    '
+  page: 314
+  start_date: 1864-4-12
+- battle: Brice's Crossroads
+  cwsac:
+  - id: MS014
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Brice%27s_Crossroads
+  forces:
+    Confederate:
+      guns: 8
+      killed: 96
+      strength: 4800
+      wounded: 396
+    US:
+      captured: 1623
+      guns: 22
+      guns lost: 18
+      killed: 223
+      strength: 8300
+      wounded: 394
+  page: 314
+  start_date: 1864-6-10
+- battle: Tupelo
+  cwsac:
+  - id: MS015
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Tupelo
+  end_date: 1864-7-15
+  forces:
+    Confederate:
+      killed: 210
+      strength: 6600
+      wounded: 1116
+    US:
+      killed: 77
+      missing: 38
+      strength: 14200
+      wounded: 559
+  page: 314
+  start_date: 1864-7-14
+- battle: Selma
+  cwsac:
+  - id: AL007
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Selma
+  end_date: 1864-4-3
+  forces:
+    Confederate:
+      casualties: 4000
+      strength: 7000
+    US:
+      casualties: 400
+      strength: 12500
+  page: 314
+  start_date: 1864-4-2
+- battle: New Hope Church
+  cwsac:
+  - id: GA010
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_New_Hope_Church
+  forces:
+    Confederate:
+      casualties: 800
+      corps: 1
+    US:
+      casualties: 1665
+      corps: 1
+  page: 314
+  start_date: 1864-5-25
+- battle: Kennesaw Mountain
+  cwsac:
+  - id: GA015
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Kennesaw_Mountain
+  forces:
+    Confederate:
+      casualties: 552
+      strength: 17700
+    US:
+      casualties: 2500
+      strength: 16000
+  page: 314
+  start_date: 1864-6-27
+- battle: Peachtree Creek
+  cwsac:
+  - id: GA016
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Peachtree_Creek
+  forces:
+    Confederate:
+      casualties: 2500
+      strength: 18832
+    US:
+      casualties: 1600
+      strength: 20139
+  page: 314
+  start_date: 1864-7-20
+- battle: Atlanta
+  cwsac:
+  - id: GA017
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Atlanta
+  forces:
+    Confederate:
+      casualties: 8000
+      strength: 36934
+    US:
+      killed: 500
+      missing: 1081
+      strength: 30477
+      wounded: 2141
+  page: 314
+  start_date: 1864-7-22
+- battle: Ezra Church
+  cwsac:
+  - id: GA018
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Ezra_Church
+  forces:
+    Confederate:
+      casualties: 2500
+      strength: 12000
+    US:
+      casualties: 632
+      strength: 25000
+  page: 314
+  start_date: 1864-7-28
+- battle: Jonesboro
+  cwsac:
+  - id: GA022
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Jonesborough
+  end_date: 1864-9-1
+  forces:
+    Confederate:
+      casualties: 2725
+      strength: 12500
+    US:
+      casualties: 1454
+      strength: 60000
+  page: 314
+  start_date: 1864-8-31
+- battle: Allatoona
+  cwsac:
+  - id: GA023
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Allatoona
+  forces:
+    Confederate:
+      killed: 122
+      missing: 234
+      strength: 3000
+      wounded: 443
+    US:
+      killed: 142
+      missing: 212
+      strength: 1944
+      wounded: 352
+  page: 314
+  start_date: 1864-10-6
+- battle: Franklin
+  cwsac:
+  - id: TN036
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Franklin_(1864)
+  forces:
+    Confederate:
+      killed: 1481
+      missing: 702
+      strength: 26897
+      wounded: 3800
+    US:
+      killed: 189
+      missing: 1104
+      strength: 27939
+      wounded: 1033
+  page: 314
+  start_date: 1864-11-30
+- battle: Nashville
+  cwsac:
+  - id: TN038
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Nashville
+  end_date: 1864-12-16
+  forces:
+    Confederate:
+      captured: 4462
+      guns lost: 53
+      killed_wounded: 1500
+      strength: 23207
+    US:
+      killed: 387
+      missing: 112
+      strength: 43260
+      wounded: 2562
+  page: 314
+  start_date: 1864-12-15
+- battle: Griswoldville
+  cwsac:
+  - id: GA025
+    relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Griswoldville
+  forces:
+    Confederate:
+      killed: 51
+      strength: 3000
+      wounded: 472
+    US:
+      casualties: 62
+      strength: 1500
+  page: 314
+  start_date: 1864-11-22
+- battle: Mobile Bay
+  cwsac:
   - id: AL003
     relation: <
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Mobile_Bay
   forces:
     Confederate:
       captured: 243
@@ -181,7 +2582,6 @@
       killed: 172
       wooden warships: 14
       wounded: 170
-  battle: Mobile Bay
   note: 'The Union includes 93 killed on the sunken ironclad Tecumseh, 25 killed,
 
     28 wouned on the flagship Hartford, and 11 killed, 43 wounded on the 24
@@ -203,12 +2603,13 @@
     '
   page: 315
   start_date: 1864-8-5
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Mobile_Bay
-- cwsac:
+- battle: Fort Fisher
+  cwsac:
   - id: NC015
     relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Second_Battle_of_Fort_Fisher
   end_date: 1865-1-15
   forces:
     Confederate:
@@ -220,7 +2621,6 @@
       missing: 57
       strength: 10000
       wounded: 1009
-  battle: Fort Fisher
   note: 'Union strength consists of 8,000 soldiers, 1,600 sailors, and 400 Marines.
 
     Army 184 k, 749 w, 22 m. Navy: 82 k, 269 w, 35 m.
@@ -231,1092 +2631,13 @@
     '
   page: 316
   start_date: 1865-1-13
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Second_Battle_of_Fort_Fisher
-"East: 1863":
-- cwsac:
-  - id: VA032
-    relation: '='
-  end_date: 1863-5-6
-  forces:
-    Confederate:
-      killed: 1665
-      missing: 2081
-      strength: 60892
-      wounded: 9081
-    US:
-      killed: 1606
-      missing_captured: 5919
-      strength: 97382
-      wounded: 9762
-  battle: Chancellorsville
-  page: 302
-  start_date: 1863-5-1
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Chancellorsville
-- cwsac:
-  - id: VA035
-    relation: '='
-  forces:
-    Confederate:
-      casualties: 523
-      cavalry: 10000
-    US:
-      captured: 486
-      cavalry: 12000
-      killed: 69
-      wounded: 352
-  battle: Brandy Station
-  page: 302
-  start_date: 1863-6-9
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Brandy_Station
-- cwsac:
-  - id: VA107
-    relation: '='
-  end_date: 1863-6-15
-  forces:
-    Confederate:
-      casualties: 269
-      strength: 14000
-    US:
-      guns lost: 23
-      killed: 95
-      missing: 4058
-      strength: 5100
-      wounded: 348
-  battle: Winchester (second)
-  page: 302
-  start_date: 1863-6-14
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Second_Battle_of_Winchester
-- cwsac:
-  - id: PA002
-    relation: '='
-  end_date: 1863-7-3
-  forces:
-    Confederate:
-      killed: 3903
-      missing_captured: 5425
-      strength: 70226
-      wounded: 18735
-    US:
-      killed: 3155
-      missing_captured: 5365
-      strength: 88289
-      wounded: 14529
-  battle: Gettsyburg
-  page: 302
-  start_date: 1863-7-1
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Gettysburg
-- cwsac:
-  - id: VA040
-    relation: '='
-  forces:
-    Confederate:
-      brigades: 2
-      captured: 450
-      killed_wounded: 1400
-    US:
-      casualties: 548
-      divisions: 3
-  battle: Bristoe Station
-  page: 302
-  start_date: 1863-10-14
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Bristoe_Station
-- cwsac:
-  - id: VA042
-    relation: '='
-  forces:
-    Confederate:
-      casualties: 408
-      cavalry divisions: 1
-    US:
-      casualties: 1251
-      cavalry divisions: 1
-  battle: Buckland
-  page: 302
-  start_date: 1863-10-19
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Buckland_Mills
-- cwsac:
-  - id: VA043
-    relation: '='
-  forces:
-    Confederate:
-      casualties: 2033
-      strength: 2800
-    US:
-      casualties: 461
-      corps: 1
-  battle: Rappahannock Station
-  page: 302
-  start_date: 1863-11-7
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Second_Battle_of_Rappahannock_Station
-- cwsac:
-  - id: VA044
-    relation: '='
-  end_date: 1863-12-1
-  forces:
-    Confederate:
-      casualties: 629
-      strength: 48586
-    US:
-      casualties: 1653
-      strength: 84274
-  battle: Mine Run
-  page: 302
-  start_date: 1863-11-27
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Mine_Run
-'East: 1862':
-- cwsac:
-  - id: VA101
-    relation: '='
-  forces:
-    Confederate:
-      killed: 80
-      missing: 263
-      strength: 4200
-      wounded: 375
-    US:
-      killed: 118
-      missing: 22
-      strength: 9000
-      wounded: 450
-  battle: Kernstown (first)
-  page: 296
-  start_date: 1862-3-23
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/First_Battle_of_Kernstown
-- cwsac:
-  - id: VA102
-    relation: '='
-  forces:
-    Confederate:
-      killed: 75
-      strength: 5000
-      wounded: 423
-    US:
-      killed: 26
-      missing: 3
-      strength: 2500
-      wounded: 227
-  battle: McDowell
-  page: 296
-  start_date: 1862-5-8
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_McDowell
-- cwsac:
-  - id: VA103
-    relation: '='
-  forces:
-    Confederate:
-      killed_wounded: 50
-      strength: 16000
-    US:
-      casualties: 904
-      strength: 1063
-  battle: Front Royal
-  page: 296
-  start_date: 1862-5-23
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Front_Royal
-- cwsac:
-  - id: VA104
-    relation: '='
-  forces:
-    Confederate:
-      killed: 68
-      missing: 3
-      strength: 17500
-      wounded: 329
-    US:
-      captured: 1714
-      killed: 62
-      strength: 8500
-      wounded: 243
-  battle: Winchester (first)
-  page: 296
-  start_date: 1862-5-25
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/First_Battle_of_Winchester
-- cwsac:
-  - id: VA105
-    relation: '='
-  forces:
-    Confederate:
-      killed: 41
-      missing: 15
-      strength: 6500
-      wounded: 232
-    US:
-      killed: 114
-      missing: 127
-      strength: 12000
-      wounded: 443
-  battle: Cross Keys
-  page: 296
-  start_date: 1862-6-8
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Cross_Keys
-- cwsac:
-  - id: VA106
-    relation: '='
-  forces:
-    Confederate:
-      killed: 98
-      missing: 45
-      strength: 15000
-      wounded: 719
-    US:
-      captured: 558
-      killed: 67
-      strength: 5000
-      wounded: 393
-  battle: Port Republic
-  page: 296
-  start_date: 1862-6-9
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Port_Republic
-- cwsac:
-  - id: VA010
-    relation: '='
-  forces:
-    Confederate:
-      killed: 288
-      missing: 297
-      strength: 31823
-      wounded: 975
-    US:
-      killed: 468
-      missing: 373
-      strength: 40768
-      wounded: 1442
-  battle: Williamsburg (Fort Magruder)
-  page: 296
-  start_date: 1862-5-5
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Williamsburg
-- cwsac:
-  - id: VA013
-    relation: '='
-  forces:
-    Confederate:
-      captured: 730
-      killed_wounded: 270
-      strength: 3000
-    US:
-      killed: 62
-      missing: 70
-      strength: 6000
-      wounded: 223
-  battle: Hanover Court House
-  page: 297
-  start_date: 1862-5-27
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Hanover_Court_House
-- cwsac:
-  - id: VA014
-    relation: '='
-  end_date: 1862-6-1
-  forces:
-    Confederate:
-      killed: 980
-      missing: 405
-      strength: 41816
-      wounded: 4749
-    US:
-      captured: 347
-      killed: 790
-      missing: 647
-      strength: 41797
-      wounded: 3594
-  battle: Fair Oaks (Seven Pines)
-  page: 297
-  start_date: 1862-5-31
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Seven_Pines
-- end_date: 1862-7-1
-  forces:
-    Confederate:
-      missing_captured: 875
-      strength: 3478
-      wounded: 16261
-    US:
-      killed: 1734
-      missing_captured: 6053
-      strength: 91169
-      wounded: 8062
-  battle: Seven Days Battles
-  page: 297
-  start_date: 1862-6-25
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Seven_Days_Battles
-- cwsac:
-  - id: VA015
-    relation: '='
-  forces:
-    Confederate:
-      killed: 40
-      missing: 13
-      strength: 6000
-      wounded: 263
-    US:
-      killed: 51
-      missing: 64
-      strength: 6000
-      wounded: 401
-  battle: The Orchard (Seven Days)
-  page: 297
-  start_date: 1862-6-25
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Seven_Days_Battles
-- cwsac:
-  - id: VA016
-    relation: '='
-  forces:
-    Confederate:
-      casualties: 1484
-      strength: 16356
-    US:
-      killed: 49
-      missing: 105
-      strength: 15631
-      wounded: 207
-  battle: Mechanicsville (Seven Days)
-  page: 297
-  start_date: 1862-6-26
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Beaver_Dam_Creek
-- cwsac:
-  - id: VA017
-    relation: '='
-  forces:
-    Confederate:
-      casualties: 8751
-      strength: 57018
-    US:
-      guns lost: 22
-      killed: 894
-      missing_captured: 2836
-      strength: 34214
-      wounded: 3107
-  battle: Gaines's Mill (Seven Days)
-  page: 297
-  start_date: 1862-6-27
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Gaines%27s_Mill
-- cwsac:
-  - id: VA019
-    relation: '='
-  forces:
-    Confederate:
-      casualties: 626
-      divisions: 4
-    US:
-      casualties: 1590
-      divisions: 3
-  battle: Savage's Station (Seven Days)
-  page: 297
-  start_date: 1862-6-29
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Savage%27s_Station
-- cwsac:
-  - id: VA020
-    relation: '='
-  forces:
-    Confederate:
-      divisions: 2
-      killed: 638
-      missing: 221
-      wounded: 2814
-    US:
-      divisions: 4
-      guns lost: 18
-      killed: 297
-      missing: 1804
-      wounded: 1696
-  battle: White Oak Swamp (Seven Days)
-  page: 297
-  start_date: 1862-6-30
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_White_Oak_Swamp
-- cwsac:
-  - id: VA021
-    relation: '='
-  forces:
-    Confederate:
-      strength: 5355
-    US:
-      casualties: 3214
-      strength: 83345
-  battle: Malvern Hill (Seven Days)
-  page: 297
-  start_date: 1862-7-1
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Malvern_Hill
-- cwsac:
-  - id: VA022
-    relation: '='
-  forces:
-    Confederate:
-      killed: 231
-      missing: 31
-      strength: 16868
-      wounded: 1107
-    US:
-      killed: 314
-      missing: 594
-      strength: 8030
-      wounded: 1445
-  battle: Cedar Mountain
-  page: 297
-  start_date: 1862-8-9
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Cedar_Mountain
-- cwsac:
-  - id: VA026
-    relation: <
-  forces:
-    Confederate:
-      casualties: 1000
-      strength: 6000
-    US:
-      casualties: 1000
-      strength: 2800
-  battle: Groveton
-  page: 297
-  start_date: 1862-8-28
-  dbpedia:
-  - relation: <
-    url: https://dbpedia.org/resource/Second_Battle_of_Bull_Run
-- cwsac:
-  - id: VA026
-    relation: <
-  end_date: 1862-9-1
-  forces:
-    Confederate:
-      killed: 1481
-      missing: 89
-      strength: 48527
-      wounded: 7627
-    US:
-      guns lost: 30
-      killed: 1724
-      missing_captured: 5958
-      strength: 75696
-      wounded: 8372
-  battle: Second Bull Run/Chantilly (Second Manassas)
-  page: 297
-  start_date: 1862-8-29
-  dbpedia:
-  - relation: <
-    url: https://dbpedia.org/resource/Second_Battle_of_Bull_Run
-- cwsac:
-  - id: MD002
-    relation: '='
-  forces:
-    Confederate:
-      killed: 325
-      missing_captured: 800
-      strength: 17852
-      wounded: 1560
-    US:
-      killed: 325
-      missing: 85
-      strength: 28480
-      wounded: 1403
-  battle: South Mountain
-  page: 297
-  start_date: 1862-9-14
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_South_Mountain
-- cwsac:
-  - id: MD003
-    relation: '='
-  forces:
-    Confederate:
-      killed: 1546
-      missing: 1018
-      strength: 39000
-      wounded: 7752
-    US:
-      killed: 2108
-      missing: 753
-      strength: 75316
-      wounded: 9549
-  battle: Antietam (Sharpsburg)
-  page: 297
-  start_date: 1862-9-17
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Antietam
-- cwsac:
-  - id: VA028
-    relation: '='
-  forces:
-    Confederate:
-      killed: 595
-      missing: 653
-      strength: 72497
-      wounded: 4074
-    US:
-      killed: 1284
-      missing: 1769
-      strength: 106007
-      wounded: 9600
-  battle: Fredericksburg
-  page: 297
-  start_date: 1862-12-13
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Fredericksburg
-'East: 1864':
-- cwsac:
-  - id: FL005
-    relation: '='
-  forces:
-    Confederate:
-      killed_missing: 93
-      strength: 5200
-      wounded: 841
-    US:
-      killed: 231
-      missing: 506
-      strength: 5115
-      wounded: 1124
-  battle: Olustee
-  page: 310
-  start_date: 1864-2-10
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Olustee
-- cwsac:
-  - id: VA046
-    relation: '='
-  end_date: 1864-5-6
-  forces:
-    Confederate:
-      killed: 1957
-      missing: 1701
-      strength: 61025
-      wounded: 7467
-    US:
-      killed: 2246
-      missing_captured: 3383
-      strength: 101895
-      wounded: 12037
-  battle: Wilderness
-  page: 310
-  start_date: 1864-5-5
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_the_Wilderness
-- cwsac:
-  - id: VA048
-    relation: '='
-  end_date: 1864-5-18
-  forces:
-    Confederate:
-      killed: 1929
-      missing: 5719
-      strength: 56000
-      wounded: 4803
-    US:
-      killed: 2725
-      missing: 2258
-      strength: 101000
-      wounded: 13416
-  battle: Spotsylvania Court House
-  page: 310
-  start_date: 1864-5-8
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Spotsylvania_Court_House
-- cwsac:
-  - id: VA052
-    relation: '='
-  forces:
-    Confederate:
-      killed: 106
-      missing: 178
-      strength: 4500
-      wounded: 332
-    US:
-      casualties: 625
-      strength: 10000
-  battle: Yellow Tavern
-  page: 310
-  start_date: 1864-5-11
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Yellow_Tavern
-- cwsac:
-  - id: VA055
-    relation: '='
-  end_date: 1864-5-26
-  forces:
-    Confederate:
-      killed: 198
-      missing: 734
-      strength: 50000
-      wounded: 618
-    US:
-      casualties: 1973
-      strength: 100000
-  battle: North Anna River
-  page: 310
-  start_date: 1864-5-23
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_North_Anna
-- cwsac:
-  - id: VA057
-    relation: '='
-  end_date: 1864-5-31
-  forces:
-    Confederate:
-      killed: 342
-      missing: 367
-      strength: 50000
-      wounded: 882
-    US:
-      casualties: 2103
-      strength: 100000
-  battle: Totopotomy Creek
-  page: 310
-  start_date: 1864-5-27
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Totopotomoy_Creek
-- cwsac:
-  - id: VA062
-    relation: <
-  forces:
-    Confederate:
-      casualties: 1500
-      strength: 59000
-    US:
-      casualties: 7000
-      strength: 60000
-  battle: Cold Harbor (assault)
-  page: 310
-  start_date: 1864-6-3
-  dbpedia:
-  - relation: <
-    url: https://dbpedia.org/resource/Battle_of_Cold_Harbor
-- cwsac:
-  - id: VA062
-    relation: '='
-  end_date: 1864-6-12
-  forces:
-    Confederate:
-      killed: 1057
-      missing: 1132
-      strength: 59000
-      wounded: 3105
-    US:
-      killed: 1769
-      missing: 1537
-      strength: 108000
-      wounded: 6752
-  battle: Cold Harbor
-  page: 310
-  start_date: 1864-5-31
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Cold_Harbor
-- cwsac:
-  - id: VA099
-    relation: '='
-  end_date: 1864-6-12
-  forces:
-    Confederate:
-      killed: 126
-      missing: 318
-      strength: 5000
-      wounded: 338
-    US:
-      killed: 102
-      missing: 435
-      strength: 8000
-      wounded: 470
-  battle: Trevilian Station
-  note: 'Confederate values for June 7-24.
-
-    '
-  page: 310
-  start_date: 1864-6-11
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Trevilian_Station
-- cwsac:
-  - id: VA049
-    relation: '='
-  forces:
-    Confederate:
-      casualties: 543
-      strength: 2400
-    US:
-      casualties: 688
-      strength: 6155
-  battle: Cloyd's Mountain
-  page: 310
-  start_date: 1864-5-9
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Cloyd%27s_Mountain
-- cwsac:
-  - id: VA110
-    relation: '='
-  forces:
-    Confederate:
-      killed: 42
-      missing: 13
-      strength: 3500
-      wounded: 484
-    US:
-      killed: 93
-      missing: 256
-      strength: 5200
-      wounded: 482
-  battle: New Market
-  page: 310
-  start_date: 1864-5-15
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_New_Market
-- cwsac:
-  - id: VA111
-    relation: '='
-  forces:
-    Confederate:
-      captured: 1000
-      killed_wounded: 460
-      strength: 8500
-    US:
-      killed: 130
-      strength: 16000
-      wounded: 650
-  battle: Piedmont
-  page: 310
-  start_date: 1864-6-5
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Piedmont
-- cwsac:
-  - id: VA012
-    relation: '='
-  end_date: 1864-5-16
-  forces:
-    Confederate:
-      killed: 355
-      strength: 18025
-      wounded: 2151
-    US:
-      killed: 390
-      missing: 1390
-      strength: 15800
-      wounded: 2380
-  battle: Drewry's Bluff
-  page: 310
-  start_date: 1864-5-12
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Drewry%27s_Bluff
-- cwsac:
-  - id: VA063
-    relation: '='
-  end_date: 1864-6-18
-  forces:
-    Confederate:
-      casualties: 4752
-      strength: 41499
-    US:
-      killed: 1688
-      missing: 1185
-      strength: 63797
-      wounded: 8513
-  battle: Petersburg (first assault)
-  page: 310
-  start_date: 1864-6-15
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Second_Battle_of_Petersburg
-- cwsac:
-  - id: MD007
-    relation: '='
-  forces:
-    Confederate:
-      casualties: 700
-      strength: 14000
-    US:
-      killed: 90
-      missing_captured: 1290
-      strength: 6050
-      wounded: 579
-  battle: Monocacy River
-  page: 310
-  start_date: 1864-7-9
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Monocacy
-- cwsac:
-  - id: VA116
-    relation: '='
-  forces:
-    Confederate:
-      strength: 14000
-    US:
-      captured: 479
-      killed_wounded: 706
-      strength: 8000
-  battle: Kernstown (second)
-  page: 310
-  start_date: 1864-7-24
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Second_Battle_of_Kernstown
-- cwsac:
-  - id: VA119
-    relation: '='
-  forces:
-    Confederate:
-      killed: 276
-      missing_captured: 1818
-      strength: 17103
-      wounded: 1827
-    US:
-      killed: 697
-      missing: 338
-      strength: 37711
-      wounded: 3983
-  battle: Opequon (Third Winchester)
-  page: 310
-  start_date: 1864-9-19
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Opequon
-- cwsac:
-  - id: VA120
-    relation: '='
-  forces:
-    Confederate:
-      captured: 1100
-      guns lost: 25
-      killed_wounded: 300
-      strength: 8000
-    US:
-      killed: 52
-      missing: 19
-      strength: 30000
-      wounded: 457
-  battle: Fisher's Hill
-  page: 310
-  start_date: 1864-9-22
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Fisher%27s_Hill
-- cwsac:
-  - id: VA122
-    relation: '='
-  forces:
-    Confederate:
-      guns lost: 25
-      killed: 320
-      missing_captured: 1050
-      strength: 18410
-      wounded: 1540
-    US:
-      killed: 644
-      missing_captured: 1591
-      strength: 30829
-      wounded: 3430
-  battle: Cedar Creek
-  page: 310
-  start_date: 1864-10-19
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Cedar_Creek
-- cwsac:
-  - id: VA070
-    relation: '='
-  forces:
-    Confederate:
-      casualties: 1182
-      strength: 11466
-    US:
-      killed: 504
-      missing_captured: 1413
-      strength: 20708
-      wounded: 1181
-  battle: Petersburg (Battle of the Crater)
-  page: 310
-  start_date: 1864-7-30
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_the_Crater
-- cwsac:
-  - id: VA071
-    relation: '='
-  end_date: 1864-8-20
-  forces:
-    Confederate:
-      casualties: 1000
-      strength: 20008
-    US:
-      casualties: 2899
-      strength: 27974
-  battle: Deep Bottom Run
-  page: 310
-  start_date: 1864-8-13
-- cwsac:
-  - id: VA072
-    relation: '='
-  end_date: 1864-8-21
-  forces:
-    Confederate:
-      killed_wounded: 1200
-      missing: 419
-      strength: 14787
-    US:
-      killed: 251
-      missing_captured: 2879
-      strength: 20289
-      wounded: 1148
-  battle: Globe Tavern
-  page: 310
-  start_date: 1864-8-18
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Globe_Tavern
-- cwsac:
-  - id: VA073
-    relation: '='
-  forces:
-    Confederate:
-      casualties: 720
-      divisions: 1
-    US:
-      captured: 2073
-      divisions: 3
-      killed: 140
-      wounded: 529
-  battle: Reams Station
-  page: 310
-  start_date: 1864-8-23
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Second_Battle_of_Ream%27s_Station
-- cwsac:
-  - id: VA075
-    relation: '='
-  end_date: 1864-9-30
-  forces:
-    Confederate:
-      casualties: 2000
-      strength: 10836
-    US:
-      killed: 383
-      missing: 645
-      strength: 19639
-      wounded: 2299
-  battle: Fort Harrison (Chaffin's Bluff)
-  page: 310
-  start_date: 1864-9-29
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Chaffin%27s_Farm
-- cwsac:
-  - id: VA074
-    relation: '='
-  end_date: 1864-10-1
-  forces:
-    Confederate:
-      casualties: 900
-      divisions: 3
-    US:
-      divisions: 4
-      killed: 187
-      missing: 1802
-      wounded: 900
-  battle: Peebles Farm
-  page: 310
-  start_date: 1864-9-30
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Peebles%27s_Farm
-- cwsac:
-  - id: VA079
-    relation: '='
-  end_date: 1864-10-28
-  forces:
-    Confederate:
-      casualties: 900
-      strength: 20324
-    US:
-      killed: 166
-      missing: 564
-      strength: 42823
-      wounded: 1028
-  battle: Hatcher's Run (first)
-  page: 311
-  start_date: 1864-10-27
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Boydton_Plank_Road
-- cwsac:
-  - id: VA080
-    relation: '='
-  end_date: 1864-10-28
-  forces:
-    Confederate:
-      casualties: 451
-      strength: 10000
-    US:
-      casualties: 1103
-      strength: 40000
-  battle: Fair Oaks
-  page: 311
-  start_date: 1864-10-27
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Fair_Oaks_%26_Darbytown_Road
-'East: 1865':
-- cwsac:
+- battle: Hatcher's Run (second)
+  cwsac:
   - id: VA083
     relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Hatcher%27s_Run
   end_date: 1865-2-7
   forces:
     Confederate:
@@ -1325,15 +2646,15 @@
       killed: 170
       strength: 35000
       wounded: 1160
-  battle: Hatcher's Run (second)
   page: 317
   start_date: 1865-2-5
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Hatcher%27s_Run
-- cwsac:
+- battle: Fort Stedman
+  cwsac:
   - id: VA084
     relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Fort_Stedman
   forces:
     Confederate:
       captured: 1900
@@ -1342,15 +2663,15 @@
     US:
       casualties: 2080
       corps: 1
-  battle: Fort Stedman
   page: 317
   start_date: 1865-3-25
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Fort_Stedman
-- cwsac:
+- battle: Five Forks
+  cwsac:
   - id: VA088
     relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Five_Forks
   forces:
     Confederate:
       captured: 5200
@@ -1359,7 +2680,6 @@
       casualties: 1111
       cavalry: 12000
       infantry: 16000
-  battle: Five Forks
   note: 'For Union, the V Corps lost 634.
 
     For Confederacy, the V Corps lost 3,422.
@@ -1367,12 +2687,13 @@
     '
   page: 317
   start_date: 1865-4-1
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Five_Forks
-- cwsac:
+- battle: Petersburg (second assault)
+  cwsac:
   - id: VA089
     relation: <
+  dbpedia:
+  - relation: <
+    url: https://dbpedia.org/resource/Third_Battle_of_Petersburg
   forces:
     Confederate:
       strength: 18579
@@ -1381,15 +2702,15 @@
       missing: 326
       strength: 63299
       wounded: 3189
-  battle: Petersburg (second assault)
   page: 317
   start_date: 1865-4-2
+- battle: Fort Gregg
+  cwsac:
+  - id: VA089
+    relation: <
   dbpedia:
   - relation: <
     url: https://dbpedia.org/resource/Third_Battle_of_Petersburg
-- cwsac:
-  - id: VA089
-    relation: <
   forces:
     Confederate:
       killed: 55
@@ -1399,15 +2720,15 @@
       killed: 122
       strength: 8000
       wounded: 592
-  battle: Fort Gregg
   page: 317
   start_date: 1865-4-2
-  dbpedia:
-  - relation: <
-    url: https://dbpedia.org/resource/Third_Battle_of_Petersburg
-- cwsac:
+- battle: Sayler's Creek
+  cwsac:
   - id: VA093
     relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Sailor%27s_Creek
   forces:
     Confederate:
       captured: 6000
@@ -1418,1304 +2739,15 @@
       corps: 1
       killed: 166
       wounded_missing: 1014
-  battle: Sayler's Creek
   page: 317
   start_date: 1865-4-6
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Sailor%27s_Creek
-'Eastern Theater: 1861':
-- cwsac:
-  - id: WV003
-    relation: '='
-  end_date: 1861-7-11
-  forces:
-    Confederate:
-      captured: 554
-      killed_wounded: 170
-      strength: 5300
-    US:
-      killed: 12
-      strength: 6000
-      wounded: 49
-  battle: Rich Mountain/Laurel Mountain, July 11-13, 1861
-  page: 293
-  start_date: 1861-7-11
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Rich_Mountain
-- cwsac:
-  - id: VA005
-    relation: '='
-  forces:
-    Confederate:
-      killed: 387
-      missing: 13
-      strength: 32232
-      wounded: 1582
-    US:
-      killed: 460
-      missing_captured: 1312
-      strength: 28452
-      wounded: 1124
-  battle: First Bull Run (Manassas), July 21, 1861
-  page: 293
-  start_date: 1861-7-21
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/First_Battle_of_Bull_Run
-- cwsac:
-  - id: VA006
-    relation: '='
-  forces:
-    Confederate:
-      killed: 33
-      missing: 1
-      strength: 3000
-      wounded: 115
-    US:
-      captured: 714
-      killed: 49
-      strength: 1700
-      wounded: 158
-  battle: Ball's Bluff, October 21, 1861
-  page: 293
-  start_date: 1861-10-21
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Ball%27s_Bluff
-"West: 1862":
-- cwsac:
-  - id: NM001
-    relation: '='
-  forces:
-    Confederate:
-      killed: 36
-      strength: 2515
-      wounded: 150
-    US:
-      killed: 68
-      missing: 35
-      strength: 3810
-      wounded: 157
-  battle: Valverde
-  page: 299
-  start_date: 1862-2-21
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Valverde
-- cwsac:
-  - id: NM002
-    relation: '='
-  end_date: 1862-3-28
-  forces:
-    Confederate:
-      captured: 102
-      killed: 47
-      strength: 900
-      wounded: 64
-    US:
-      captured: 16
-      killed: 54
-      strength: 1342
-      wounded: 94
-  battle: Apache Canyon/Glorieta Pass
-  page: 299
-  start_date: 1862-3-26
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Glorieta_Pass
-- cwsac:
-  - id: AR001
-    relation: '='
-  end_date: 1862-3-8
-  forces:
-    Confederate:
-      captured: 200
-      killed_wounded: 800
-      strength: 17000
-    US:
-      killed: 203
-      missing_captured: 210
-      strength: 1125
-      wounded: 980
-  battle: Pea Ridge
-  page: 299
-  start_date: 1862-3-7
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Pea_Ridge
-- cwsac:
-  - id: AR005
-    relation: '='
-  forces:
-    Confederate:
-      killed: 164
-      missing: 336
-      strength: 12051
-      wounded: 817
-    US:
-      killed: 175
-      missing: 263
-      strength: 9546
-      wounded: 813
-  battle: Prairie Grove
-  page: 299
-  start_date: 1862-12-7
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Prairie_Grove
-- cwsac:
-  - id: KY006
-    relation: '='
-  end_date: 1862-1-20
-  forces:
-    Confederate:
-      guns lost: 12
-      killed: 125
-      missing: 99
-      strength: 4500
-      wounded: 309
-    US:
-      killed: 40
-      strength: 4000
-      wounded: 207
-  battle: Mill Springs (Logan's Crossroads)
-  page: 299
-  start_date: 1862-1-19
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Mill_Springs
-- cwsac:
-  - id: TN002
-    relation: '='
-  end_date: 1862-2-16
-  forces:
-    Confederate:
-      casualties: 14623
-      killed_wounded: 2000
-      strength: 17500
-    US:
-      killed: 500
-      missing: 224
-      strength: 27500
-      wounded: 2108
-  battle: Fort Donelson
-  page: 299
-  start_date: 1862-2-12
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Fort_Donelson
-- cwsac:
-  - id: TN003
-    relation: '='
-  end_date: 1862-4-7
-  forces:
-    Confederate:
-      killed: 1723
-      missing_captured: 959
-      strength: 40335
-      wounded: 8012
-    US:
-      killed: 1754
-      missing_captured: 2885
-      strength: 66812
-      wounded: 8408
-  battle: Shiloh (Pittsburg Landing)
-  page: 299
-  start_date: 1862-4-6
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Shiloh
-- cwsac:
-  - id: LA001
-    relation: '='
-  forces:
-    Confederate:
-      gunboats: 10
-      gunboats sunk: 9
-      guns: 126
-      killed: 185
-      strength: 1100
-      wounded: 39
-    US:
-      frigates: 2
-      gunboats: 9
-      gunboats sunk: 1
-      guns: 243
-      killed: 37
-      sloops: 7
-      wounded: 149
-  battle: New Orleans
-  page: 299
-  start_date: 1862-4-24
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Forts_Jackson_and_St._Philip
-- cwsac:
-  - id: LA003
-    relation: '='
-  forces:
-    Confederate:
-      captured: 57
-      killed: 84
-      strength: 2600
-      wounded: 315
-    US:
-      captured: 33
-      killed: 84
-      strength: 2500
-      wounded: 266
-  battle: Baton Rouge
-  page: 299
-  start_date: 1862-8-5
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Baton_Rouge_(1862)
-- cwsac:
-  - id: MS001
-    relation: '='
-  forces:
-    Confederate:
-      killed: 262
-      missing: 561
-      strength: 3179
-      wounded: 692
-    US:
-      killed: 144
-      missing: 40
-      strength: 4500
-      wounded: 598
-  battle: Iuka
-  page: 299
-  start_date: 1862-9-19
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Iuka
-- cwsac:
-  - id: MS002
-    relation: '='
-  end_date: 1862-10-4
-  forces:
-    Confederate:
-      killed: 473
-      missing: 1763
-      strength: 22000
-      wounded: 1997
-    US:
-      killed: 355
-      missing: 324
-      strength: 21147
-      wounded: 1841
-  battle: Corinth
-  page: 299
-  start_date: 1862-10-3
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Second_Battle_of_Corinth
-- cwsac:
-  - id: MS003
-    relation: '='
-  forces:
-    Confederate:
-      killed: 63
-      missing: 10
-      strength: 13792
-      wounded: 134
-    US:
-      killed: 208
-      missing_captured: 563
-      strength: 30720
-      wounded: 1005
-  battle: Chickasaw Bluffs
-  page: 300
-  start_date: 1862-12-29
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Chickasaw_Bayou
-- cwsac:
-  - id: KY007
-    relation: '='
-  forces:
-    Confederate:
-      killed: 78
-      missing: 1
-      strength: 6800
-      wounded: 372
-    US:
-      killed: 206
-      missing_captured: 4303
-      strength: 6500
-      wounded: 844
-  battle: Richmond (Kentucky)
-  page: 300
-  start_date: 1862-8-30
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Richmond
-- cwsac:
-  - id: KY009
-    relation: '='
-  forces:
-    Confederate:
-      killed: 510
-      missing_captured: 251
-      strength: 16000
-      wounded: 2635
-    US:
-      killed: 845
-      missing_captured: 515
-      strength: 36940
-      wounded: 2851
-  battle: Perryville
-  page: 300
-  start_date: 1862-10-8
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Perryville
-- cwsac:
-  - id: TN008
-    relation: '='
-  forces:
-    Confederate:
-      casualties: 125
-      strength: 2000
-    US:
-      captured: 1762
-      killed_wounded: 300
-      strength: 2100
-  battle: Hartsville
-  page: 300
-  start_date: 1862-12-7
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Hartsville
-- cwsac:
-  - id: TN010
-    relation: '='
-  end_date: 1863-1-2
-  forces:
-    Confederate:
-      killed: 1294
-      missing_captured: 2500
-      strength: 37713
-      wounded: 7945
-    US:
-      killed: 1677
-      missing_captured: 3686
-      strength: 44000
-      wounded: 7543
-  battle: Stones River (Murfreesboro)
-  page: 300
-  start_date: 1862-12-31
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Stones_River
-"West: 1863":
-- cwsac:
-  - id: TX003
-    relation: '='
-  forces:
-    Confederate:
-      guns: 3
-      killed: 27
-      steamers: 2
-      strength: 800
-      wounded: 116
-    US:
-      captured: 600
-      companies: 3
-      gunboats: 5
-      gunboats captured: 1
-      gunboats sunk: 1
-      guns: 28
-  battle: Galveston
-  page: 305
-  start_date: 1863-1-1
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Galveston
-- cwsac:
-  - id: OK007
-    relation: '='
-  forces:
-    Confederate:
-      casualties: 181
-      strength: 5000
-    US:
-      killed: 13
-      strength: 4000
-      wounded: 62
-  battle: Honey Springs
-  page: 305
-  start_date: 1863-7-17
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Honey_Springs
-- cwsac:
-  - id: AR006
-    relation: '='
-  forces:
-    Confederate:
-      captured: 4791
-      killed_wounded: 109
-      strength: 5000
-    US:
-      killed: 140
-      strength: 29000
-      warships: 13
-      wounded: 923
-  battle: Fort Hindman (Arkansas Post)
-  page: 305
-  start_date: 1863-1-11
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Arkansas_Post
-- cwsac:
-  - id: LA010
-    relation: '='
-  end_date: 1863-7-9
-  forces:
-    Confederate:
-      captured: 6340
-      guns: 57
-      guns lost: 57
-      killed_wounded: 623
-      strength: 6715
-    US:
-      guns: 90
-      killed: 707
-      missing: 319
-      strength: 20000
-      wounded: 3336
-  battle: Port Hudson (siege)
-  page: 305
-  start_date: 1863-5-26
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Siege_of_Port_Hudson
-- cwsac:
-  - id: LA010
-    relation: <
-  forces:
-    Confederate:
-      casualties: 235
-      strength: 6715
-      note: "Use strength from Port Hudson Siege"
-    US:
-      killed: 293
-      missing: 157
-      wounded: 1545
-      strength: 20000
-      note: "Use strength from Port Hudson Siege"
-  battle: Port Hudson (first assault)
-  page: 305
-  start_date: 1863-5-27
-  dbpedia:
-  - relation: <
-    url: https://dbpedia.org/resource/Siege_of_Port_Hudson
-- cwsac:
-  - id: LA010
-    relation: <
-  forces:
-    Confederate:
-      killed: 22
-      wounded: 25
-      strength: 6480
-      note: "Use strength from Port Hudson Siege minus first assault"
-    US:
-      killed: 203
-      missing: 188
-      wounded: 1401
-      strength: 18005
-      note: "Use strength from Port Hudson Siege minus first assault"
-  battle: Port Hudson (second assault)
-  page: 305
-  start_date: 1863-6-14
-  dbpedia:
-  - relation: <
-    url: https://dbpedia.org/resource/Siege_of_Port_Hudson
-- cwsac:
-  - id: LA013
-    relation: '='
-  forces:
-    Confederate:
-      casualties: 261
-      strength: 800
-    US:
-      killed_wounded: 24
-      strength: 225
-  battle: Donaldsville (first)
-  page: 305
-  start_date: 1863-6-28
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Second_Battle_of_Donaldsonville
-- cwsac:
-  - id: LA015
-    relation: '='
-  forces:
-    Confederate:
-      brigades: 2
-      killed: 9
-      wounded: 24
-    US:
-      brigades: 2
-      killed: 50
-      missing_captured: 186
-      wounded: 223
-  battle: Donaldsville (second)
-  page: 305
-  start_date: 1863-7-13
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Kock%27s_Plantation
-- cwsac:
-  - id: MS006
-    relation: '='
-  forces:
-    Confederate:
-      killed: 68
-      missing: 384
-      strength: 5500
-      wounded: 380
-    US:
-      killed: 131
-      missing: 25
-      strength: 23000
-      wounded: 719
-  battle: Port Gibson
-  page: 305
-  start_date: 1863-5-1
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Port_Gibson
-- cwsac:
-  - id: MS007
-    relation: '='
-  forces:
-    Confederate:
-      killed: 73
-      missing: 190
-      strength: 4000
-      wounded: 251
-    US:
-      killed: 66
-      missing: 37
-      strength: 25000
-      wounded: 339
-  battle: Raymond
-  page: 305
-  start_date: 1863-5-12
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Raymond
-- cwsac:
-  - id: MS008
-    relation: '='
-  forces:
-    Confederate:
-      killed: 17
-      missing: 118
-      strength: 6000
-      wounded: 66
-    US:
-      killed: 48
-      missing: 11
-      strength: 25000
-      wounded: 273
-  battle: Jackson
-  page: 305
-  start_date: 1863-5-14
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Jackson,_Mississippi
-- cwsac:
-  - id: MS009
-    relation: '='
-  forces:
-    Confederate:
-      killed: 381
-      missing_captured: 1670
-      strength: 21800
-      wounded: 1800
-    US:
-      killed: 410
-      missing: 187
-      strength: 29373
-      wounded: 1844
-  battle: Champion's Hill
-  page: 305
-  start_date: 1863-5-16
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Champion_Hill
-- cwsac:
-  - id: MS010
-    relation: '='
-  forces:
-    Confederate:
-      brigades: 1
-      casualties: 1751
-    US:
-      divisions: 2
-      killed: 39
-      missing: 3
-      wounded: 237
-  battle: Big Black River
-  page: 305
-  start_date: 1863-5-17
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Big_Black_River_Bridge
-- cwsac:
-  - id: MS011
-    relation: '='
-  end_date: 1863-7-4
-  forces:
-    Confederate:
-      captured: 29396
-      guns lost: 172
-      killed_wounded: 4910
-      small arms lost: 60000
-      strength: 30000
-    US:
-      casualties: 5000
-      note: 'casualties for entire campaign from April 30 to July 4: 1514 k, 7395
-        w, 453 cm'
-      strength: 71000
-  battle: Vicksburg (siege)
-  page: 305
-  start_date: 1863-5-18
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Siege_of_Vicksburg
-- cwsac:
-  - id: MS011
-    relation: <
-  forces:
-    Confederate:
-      casualties: 200
-      strength: 30000
-      note: "Use strength from Vicksburg siege"
-    US:
-      killed: 157
-      missing: 8
-      wounded: 777
-      strength: 71000
-      note: "Use strength from Vicksburg siege"
-  battle: Vicksburg (first assault)
-  page: 305
-  start_date: 1863-5-19
-  dbpedia:
-  - relation: <
-    url: https://dbpedia.org/resource/Siege_of_Vicksburg
-- cwsac:
-  - id: MS011
-    relation: <
-  forces:
-    Confederate:
-      casualties: 1000
-      strength: 29800
-      note: "Use strength from Vicksburg siege minus casualties from the first assault."
-    US:
-      killed: 502
-      missing: 147
-      wounded: 2550
-      strength: 70058
-      note: "Use strength from Vicksburg siege minus casualties from the first assault."
-  battle: Vicksburg (second assault)
-  page: 305
-  start_date: 1863-5-22
-  dbpedia:
-  - relation: <
-    url: https://dbpedia.org/resource/Siege_of_Vicksburg
-- cwsac:
-  - id: AR008
-    relation: '='
-  forces:
-    Confederate:
-      casualties: 1636
-      strength: 7646
-    US:
-      casualties: 239
-      strength: 4129
-  battle: Helena
-  page: 305
-  start_date: 1863-7-4
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Helena
-- end_date: 1863-7-16
-  forces:
-    Confederate:
-      killed: 71
-      missing_captured: 764
-      strength: 31000
-      wounded: 584
-    US:
-      killed: 129
-      missing: 231
-      strength: 50000
-      wounded: 762
-  battle: Jackson (siege)
-  page: 305
-  start_date: 1863-7-10
-  dbpedia:
-  - relation: '='
-    url: http://dbpedia.org/resource/Jackson_Expedition
-- cwsac:
-  - id: GA004
-    relation: '='
-  end_date: 1863-9-20
-  forces:
-    Confederate:
-      guns: 200
-      killed: 2312
-      missing: 1468
-      strength: 66326
-      wounded: 14674
-    US:
-      guns: 170
-      killed: 1657
-      missing_captured: 4757
-      strength: 58222
-      wounded: 9756
-  battle: Chickamagua
-  page: 305
-  start_date: 1863-9-19
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Chickamagua
-- cwsac:
-  - id: TN024
-    relation: '='
-  end_date: 1863-11-25
-  forces:
-    Confederate:
-      guns lost: 41
-      killed: 361
-      missing_captured: 4146
-      small arms lost: 7000
-      strength: 40929
-      wounded: 2160
-    US:
-      killed: 753
-      missing_captured: 349
-      strength: 56359
-      wounded: 4722
-  battle: Chattanooga
-  page: 305
-  start_date: 1863-11-23
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Chattanooga_Campaign
-- cwsac:
-  - id: TN024
-    relation: <
-  forces:
-    Confederate:
-      casualties: 1000
-    US:
-      casualties: 1100
-      strength: 25000
-  battle: Chattanooga (Orchard Knob/Indian Hill)
-  page: 306
-  start_date: 1863-11-23
-  dbpedia:
-  - relation: <
-    url: https://dbpedia.org/resource/Chattanooga_Campaign
-- cwsac:
-  - id: TN024
-    relation: <
-  forces:
-    Confederate:
-      brigades: 3
-      casualties: 500
-    US:
-      killed: 81
-      missing: 8
-      strength: 12000
-      wounded: 540
-  battle: Chattanooga (Lookout Mountain)
-  page: 306
-  start_date: 1863-11-24
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Lookout_Mountain
-- cwsac:
-  - id: TN024
-    relation: <
-  forces:
-    Confederate:
-      casualties: 222
-      divisions: 1
-    US:
-      captured: 261
-      divisions: 4
-      killed_wounded: 1240
-  battle: Chattanooga (Tunnel Hill)
-  page: 306
-  start_date: 1863-11-25
-  dbpedia:
-  - relation: <
-    url: https://dbpedia.org/resource/Chattanooga_Campaign
-- cwsac:
-  - id: TN024
-    relation: <
-  forces:
-    Confederate:
-      killed_wounded: 3000
-    US:
-      casualties: 3170
-      strength: 24536
-  battle: Chattanooga (Missionary Ridge)
-  page: 306
-  start_date: 1863-11-25
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Missionary_Ridge
-- cwsac:
-  - id: GA005
-    relation: '='
-  forces:
-    Confederate:
-      casualties: 221
-      strength: 4100
-    US:
-      captured: 100
-      killed_wounded: 342
-      strength: 12000
-  battle: Ringgold Gap
-  page: 306
-  start_date: 1863-11-27
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Ringgold_Gap
-- end_date: 1863-12-3
-  forces:
-    Confederate:
-      casualties: 1142
-      strength: 15000
-    US:
-      killed: 92
-      missing_captured: 207
-      strength: 25000
-      wounded: 394
-  battle: Knoxville (siege)
-  page: 306
-  start_date: 1863-11-17
-  dbpedia:
-  - relation: <
-    url: http://dbpedia.org/resource/Knoxville_Campaign
-- cwsac:
-  - id: TN025
-    relation: '='
-  forces:
-    Confederate:
-      captured: 226
-      killed: 129
-      strength: 3000
-      wounded: 458
-    US:
-      guns: 12
-      killed: 8
-      strength: 440
-      wounded: 5
-  battle: Knoxville (attack on Fort Sanders)
-  page: 306
-  start_date: 1863-11-29
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Fort_Sanders
-'West: 1864':
-- cwsac:
-  - id: LA018
-    relation: '='
-  forces:
-    Confederate:
-      casualties: 900
-      strength: 8800
-    US:
-      captured: 1397
-      guns lost: 20
-      killed: 108
-      strength: 12000
-      wounded: 643
-  battle: Sabine Crossroads
-  page: 314
-  start_date: 1864-4-8
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Mansfield
-- cwsac:
-  - id: LA019
-    relation: '='
-  forces:
-    Confederate:
-      casualties: 1626
-      strength: 12500
-    US:
-      killed: 150
-      missing: 375
-      strength: 12247
-      wounded: 844
-  battle: Pleasant Hill
-  page: 314
-  start_date: 1864-4-9
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Pleasant_Hill
-- cwsac:
-  - id: LA023
-    relation: '='
-  forces:
-    Confederate:
-      casualties: 608
-      strength: 5000
-    US:
-      casualties: 350
-      strength: 5000
-  battle: Yellow Bayou
-  page: 314
-  start_date: 1864-5-18
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Yellow_Bayou
-- cwsac:
-  - id: AR016
-    relation: '='
-  forces:
-    Confederate:
-      killed: 86
-      missing: 1
-      strength: 4000
-      wounded: 356
-    US:
-      killed: 64
-      missing: 86
-      strength: 6000
-      wounded: 378
-  battle: Jenkins Ferry
-  page: 314
-  start_date: 1864-4-30
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Jenkins%27_Ferry
-- cwsac:
-  - id: MO021
-    relation: '='
-  forces:
-    Confederate:
-      casualties: 1500
-      strength: 12000
-    US:
-      killed: 28
-      missing: 100
-      strength: 1000
-      wounded: 59
-  battle: Fort Davidson (Pilot Knob)
-  page: 314
-  start_date: 1864-12-27
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Fort_Davidson
-- cwsac:
-  - id: MO027
-    relation: '='
-  forces:
-    Confederate:
-      casualties: 492
-      strength: 9000
-    US:
-      casualties: 500
-      strength: 20000
-  battle: Westport
-  page: 314
-  start_date: 1864-10-23
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Westport
-- cwsac:
-  - id: KS003
-    relation: '='
-  forces:
-    Confederate:
-      captured: 560
-      killed: 300
-      strength: 6500
-      wounded: 250
-    US:
-      killed: 15
-      strength: 2600
-      wounded: 94
-  battle: Mine Creek
-  page: 314
-  start_date: 1864-10-25
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Mine_Creek
-- cwsac:
-  - id: TN030
-    relation: '='
-  forces:
-    Confederate:
-      killed: 14
-      strength: 1500
-      wounded: 86
-    US:
-      captured: 226
-      killed: 221
-      strength: 557
-  battle: Fort Pillow
-  note: 'Union killed include 204 black troops, most of whom were killed after capture.
-
-    '
-  page: 314
-  start_date: 1864-4-12
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Fort_Pillow
-- cwsac:
-  - id: MS014
-    relation: '='
-  forces:
-    Confederate:
-      guns: 8
-      killed: 96
-      strength: 4800
-      wounded: 396
-    US:
-      captured: 1623
-      guns: 22
-      guns lost: 18
-      killed: 223
-      strength: 8300
-      wounded: 394
-  battle: Brice's Crossroads
-  page: 314
-  start_date: 1864-6-10
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Brice%27s_Crossroads
-- cwsac:
-  - id: MS015
-    relation: '='
-  end_date: 1864-7-15
-  forces:
-    Confederate:
-      killed: 210
-      strength: 6600
-      wounded: 1116
-    US:
-      killed: 77
-      missing: 38
-      strength: 14200
-      wounded: 559
-  battle: Tupelo
-  page: 314
-  start_date: 1864-7-14
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Tupelo
-- cwsac:
-  - id: AL007
-    relation: '='
-  end_date: 1864-4-3
-  forces:
-    Confederate:
-      casualties: 4000
-      strength: 7000
-    US:
-      casualties: 400
-      strength: 12500
-  battle: Selma
-  page: 314
-  start_date: 1864-4-2
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Selma
-- cwsac:
-  - id: GA010
-    relation: '='
-  forces:
-    Confederate:
-      casualties: 800
-      corps: 1
-    US:
-      casualties: 1665
-      corps: 1
-  battle: New Hope Church
-  page: 314
-  start_date: 1864-5-25
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_New_Hope_Church
-- cwsac:
-  - id: GA015
-    relation: '='
-  forces:
-    Confederate:
-      casualties: 552
-      strength: 17700
-    US:
-      casualties: 2500
-      strength: 16000
-  battle: Kennesaw Mountain
-  page: 314
-  start_date: 1864-6-27
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Kennesaw_Mountain
-- cwsac:
-  - id: GA016
-    relation: '='
-  forces:
-    Confederate:
-      casualties: 2500
-      strength: 18832
-    US:
-      casualties: 1600
-      strength: 20139
-  battle: Peachtree Creek
-  page: 314
-  start_date: 1864-7-20
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Peachtree_Creek
-- cwsac:
-  - id: GA017
-    relation: '='
-  forces:
-    Confederate:
-      casualties: 8000
-      strength: 36934
-    US:
-      killed: 500
-      missing: 1081
-      strength: 30477
-      wounded: 2141
-  battle: Atlanta
-  page: 314
-  start_date: 1864-7-22
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Atlanta
-- cwsac:
-  - id: GA018
-    relation: '='
-  forces:
-    Confederate:
-      casualties: 2500
-      strength: 12000
-    US:
-      casualties: 632
-      strength: 25000
-  battle: Ezra Church
-  page: 314
-  start_date: 1864-7-28
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Ezra_Church
-- cwsac:
-  - id: GA022
-    relation: '='
-  end_date: 1864-9-1
-  forces:
-    Confederate:
-      casualties: 2725
-      strength: 12500
-    US:
-      casualties: 1454
-      strength: 60000
-  battle: Jonesboro
-  page: 314
-  start_date: 1864-8-31
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Jonesborough
-- cwsac:
-  - id: GA023
-    relation: '='
-  forces:
-    Confederate:
-      killed: 122
-      missing: 234
-      strength: 3000
-      wounded: 443
-    US:
-      killed: 142
-      missing: 212
-      strength: 1944
-      wounded: 352
-  battle: Allatoona
-  page: 314
-  start_date: 1864-10-6
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Allatoona
-- cwsac:
-  - id: TN036
-    relation: '='
-  forces:
-    Confederate:
-      killed: 1481
-      missing: 702
-      strength: 26897
-      wounded: 3800
-    US:
-      killed: 189
-      missing: 1104
-      strength: 27939
-      wounded: 1033
-  battle: Franklin
-  page: 314
-  start_date: 1864-11-30
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Franklin_(1864)
-- cwsac:
-  - id: TN038
-    relation: '='
-  end_date: 1864-12-16
-  forces:
-    Confederate:
-      captured: 4462
-      guns lost: 53
-      killed_wounded: 1500
-      strength: 23207
-    US:
-      killed: 387
-      missing: 112
-      strength: 43260
-      wounded: 2562
-  battle: Nashville
-  page: 314
-  start_date: 1864-12-15
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Nashville
-- cwsac:
-  - id: GA025
-    relation: '='
-  forces:
-    Confederate:
-      killed: 51
-      strength: 3000
-      wounded: 472
-    US:
-      casualties: 62
-      strength: 1500
-  battle: Griswoldville
-  page: 314
-  start_date: 1864-11-22
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Griswoldville
-'West: 1865':
-- cwsac:
+- battle: Kinston
+  cwsac:
   - id: NC007
     relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Kinston
   end_date: 1865-3-10
   forces:
     Confederate:
@@ -2725,15 +2757,15 @@
       captured: 1000
       killed_wounded: 257
       strength: 15000
-  battle: Kinston
   page: 317
   start_date: 1865-3-8
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Kinston
-- cwsac:
+- battle: Averasboro
+  cwsac:
   - id: NC019
     relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Averasboro
   forces:
     Confederate:
       killed: 108
@@ -2744,15 +2776,15 @@
       missing: 54
       strength: 22000
       wounded: 533
-  battle: Averasboro
   page: 317
   start_date: 1865-3-16
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Averasboro
-- cwsac:
+- battle: Bentonville
+  cwsac:
   - id: NC020
     relation: '='
+  dbpedia:
+  - relation: '='
+    url: https://dbpedia.org/resource/Battle_of_Bentonville
   end_date: 1865-3-21
   forces:
     Confederate:
@@ -2765,53 +2797,8 @@
       missing: 287
       strength: 31127
       wounded: 1168
-  battle: Bentonville
   note: 'Union forces start at 16,127 but reinfored by 15,000.
 
     '
   page: 317
   start_date: 1865-3-19
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Bentonville
-"Western Theater: 1861":
-- cwsac:
-  - id: MO004
-    relation: '='
-  forces:
-    Confederate:
-      killed: 105
-      missing: 117
-      strength: 15396
-      wounded: 419
-    US:
-      killed: 258
-      missing: 186
-      strength: 5600
-      wounded: 873
-  battle: Wilson's Creek, August 10, 1861
-  page: 294
-  start_date: 1861-8-10
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Wilson%27s_Creek
-- cwsac:
-  - id: MO009
-    relation: '='
-  forces:
-    Confederate:
-      captured: 117
-      killed: 105
-      strength: 5000
-      wounded: 419
-    US:
-      captured: 104
-      killed: 120
-      strength: 3114
-      wounded: 383
-  battle: Belmont, November 7, 1861
-  page: 294
-  start_date: 1861-11-7
-  dbpedia:
-  - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_Belmont

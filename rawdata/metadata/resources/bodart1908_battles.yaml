@@ -6,16 +6,18 @@ schema:
   - format: default
     name: battle_id
     title: Battle Id
-    type: string
+    type: integer
+    constraints:
+      minimum: 1
   - description: Name of the battle (in German)
     format: default
     name: name
-    title: Battle Name
+    title: Battle name
     type: string
   - description: Alternate names for the battle (in German)
     format: default
-    name: other_name
-    title: Other Name
+    name: other_names
+    title: Other name(s)
     type: string
   - format: default
     name: start_date
@@ -39,32 +41,29 @@ schema:
     type: number
   - description: Was the battle a siege ("Belagerung")?
     format: default
-    name: siege
+    name: category_belagerung
     title: Siege
     type: boolean
   - description: Was the battle a major battle ("Schlacht")?
     format: default
-    name: battle
+    name: category_schlacht
     title: Battle
     type: boolean
   - description: Was the battle a meeting or encounter ("Treffen")?
     format: default
-    name: meeting
+    name: category_treffen
     title: Meeting
     type: boolean
   - description: Was the battle a surrender ("Kapitulation")?
     format: default
-    name: surrender
+    name: category_kapitulation
     title: Surrender
     type: boolean
   - format: default
-    name: siege.1
-    title: siege.1
-    type: integer
-  - format: default
-    name: capture
+    name: category_einnahme
     title: Capture
     type: integer
+    description: Was the battle a capture ("Einnahme")?
   - description: Page number in Bodart (1908)
     format: default
     name: page

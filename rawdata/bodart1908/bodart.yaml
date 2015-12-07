@@ -18,7 +18,7 @@
     commanders:
     - {dbpedia: Irvin_McDowell, first_name: '', last_name: McDowell, middle_name: '',
       name: McDowell, rank: GM., suffix: ''}
-    country: Union
+    belligerent: Union
     guns: 49
     killed: 470
     killed_officers: 16
@@ -39,7 +39,7 @@
   name: Bull-Run
   number: 11
   order: 4
-  other_name: [Manassas-Junction]
+  other_names: [Manassas-Junction]
   page: 522
   start_date: *id001
   victor:
@@ -47,9 +47,9 @@
     casualties_officers: 89
     casualties_percent: 11
     commanders:
-    - {dbpedia: P.G.T._Beauregard, first_name: '', last_name: Beauregard, middle_name: '',
+    - {dbpedia: P._G._T._Beauregard, first_name: '', last_name: Beauregard, middle_name: '',
       name: Beauregard, rank: Gen., suffix: ''}
-    country: Confederacy
+    belligerent: Confederacy
     generals_killed:
     - {dbpedia: Barnard_E._Bee_Jr., first_name: '', last_name: Bee, middle_name: '',
       name: Bee, rank: Brig-Gen., suffix: ''}
@@ -83,7 +83,7 @@
     commanders:
     - {dbpedia: Nathaniel_Prentice_Banks, first_name: '', last_name: Banks, middle_name: '',
       name: Banks, rank: GM., suffix: ''}
-    country: Union
+    belligerent: Union
     killed: 330
     killed_generals: 0
     killed_officers: 26
@@ -102,7 +102,7 @@
   name: Cedar Mountain
   number: 10
   order: 5
-  other_name: []
+  other_names: []
   page: 525
   start_date: *id002
   victor:
@@ -111,7 +111,7 @@
     commanders:
     - {dbpedia: Stonewall_Jackson, first_name: T., last_name: Jackson, middle_name: J.,
       name: T. J. Jackson, rank: Gen.-Lt., suffix: ''}
-    country: Confederacy
+    belligerent: Confederacy
     generals_killed:
     - {dbpedia: Charles_S._Winder, first_name: C., last_name: Winder, middle_name: S.,
       name: C. S. Winder, rank: Brig. Gen., suffix: ''}
@@ -138,7 +138,7 @@
     commanders:
     - {dbpedia: John_Pope_(military_officer), first_name: J., last_name: Pope, middle_name: '',
       name: J. Pope, rank: Gen., suffix: ''}
-    country: Union
+    belligerent: Union
     generals_killed:
     - {dbpedia: Philip_Kearny, first_name: P., last_name: Kearny, middle_name: '',
       name: P. Kearny, rank: GM., suffix: ''}
@@ -168,7 +168,7 @@
   name: Bull Run
   number: 1
   order: 2
-  other_name: [Manassas-Junction]
+  other_names: [Manassas-Junction]
   page: 526
   start_date: 1862-08-29
   victor:
@@ -179,7 +179,7 @@
     commanders:
     - {dbpedia: Robert_E._Lee, first_name: R., last_name: Lee, middle_name: '', name: R.
         Lee, rank: Gen., suffix: ''}
-    country: Confederacy
+    belligerent: Confederacy
     killed: 1550
     killed_generals: 0
     killed_officers: 141
@@ -211,20 +211,20 @@
     commanders:
     - {dbpedia: William_"Bull"_Nelson, first_name: '', last_name: Nelson, middle_name: '',
       name: Nelson, rank: Brig.-Gen., suffix: ''}
-    country: Union
+    belligerent: Union
     killed: 210
     killed_wounded: 1050
     killed_wounded_percent: 6.5
     losses_cannon: 9
     missing: 4350
     missing_percent: 27.5
-    other: "alles gep\xE4ck"
+    note: "alles gep\xE4ck"
     strength: 16000
     wounded: 840
   name: Richmond
   number: 12
   order: 4
-  other_name: [Rogersville]
+  other_names: [Rogersville]
   page: 526
   start_date: *id003
   victor:
@@ -233,7 +233,7 @@
     commanders:
     - {dbpedia: Edmund_Kirby_Smith, first_name: Kirby, last_name: Smith, middle_name: '',
       name: Kirby Smith, rank: GM., suffix: ''}
-    country: Confederacy
+    belligerent: Confederacy
     killed: 80
     killed_wounded: 450
     missing: 0
@@ -253,7 +253,7 @@
     commanders:
     - {dbpedia: James_Longstreet, first_name: '', last_name: Longstreet, middle_name: '',
       name: Longstreet, rank: Gen.-Lt., suffix: ''}
-    country: Confederacy
+    belligerent: Confederacy
     generals_killed:
     - {dbpedia: 'Samuel_Garland,_Jr.', first_name: S., last_name: Garland, middle_name: '',
       name: S. Garland, rank: Brig.-Gen., suffix: ''}
@@ -266,7 +266,7 @@
     wounded: 1300
   name: Boonsborough
   order: 5
-  other_name: [South-Mountain]
+  other_names: [South-Mountain]
   page: 527
   start_date: *id004
   victor:
@@ -277,7 +277,7 @@
     commanders:
     - {dbpedia: George_B._McClellan, first_name: '', last_name: McClellan, middle_name: '',
       name: McClellan, rank: Gen., suffix: ''}
-    country: Union
+    belligerent: Union
     generals_killed:
     - {dbpedia: Jesse_L._Reno, first_name: J., last_name: Reno, middle_name: L., name: J.
         L. Reno, rank: GM., suffix: ''}
@@ -311,7 +311,7 @@
     commanders:
     - {dbpedia: Dixon_S._Miles, first_name: D., last_name: Miles, middle_name: '',
       name: D. Miles, rank: Oberst, suffix: ''}
-    country: Union
+    belligerent: Union
     generals_killed:
     - {dbpedia: Dixon_S._Miles, first_name: D., last_name: Miles, middle_name: '',
       name: D. Miles, rank: Brigadier Obst., suffix: ''}
@@ -320,14 +320,14 @@
     strength: 14000
   name: Harper's Ferry
   order: null
-  other_name: []
+  other_names: []
   page: 527
   start_date: *id005
   victor:
     commanders:
     - {dbpedia: Stonewall_Jackson, first_name: T., last_name: Jackson, middle_name: J.,
       name: T. J. Jackson, rank: Gen.-Lt., suffix: ''}
-    country: Confederacy
+    belligerent: Confederacy
     strength: 30000
 - category: [Schlacht]
   cwsac:
@@ -346,7 +346,7 @@
     commanders:
     - {dbpedia: Robert_E._Lee, first_name: R., last_name: Lee, middle_name: '', name: R.
         Lee, rank: Gen., suffix: ''}
-    country: Confederacy
+    belligerent: Confederacy
     generals_killed:
     - {dbpedia: George_B._Anderson, first_name: G., last_name: Anderson, middle_name: B.,
       name: G. B. Anderson, rank: Brig.-Gen., suffix: ''}
@@ -374,7 +374,7 @@
     wounded_percent: 19.7
   name: Antietam
   order: 2
-  other_name: [Sharpsburg]
+  other_names: [Sharpsburg]
   page: 527
   start_date: *id006
   victor:
@@ -385,7 +385,7 @@
     commanders:
     - {dbpedia: George_B._McClellan, first_name: S., last_name: McClellan, middle_name: B.,
       name: S. B. McClellan, rank: Gen., suffix: ''}
-    country: Union
+    belligerent: Union
     generals_killed:
     - {dbpedia: Joseph_K._Mansfield, first_name: J., last_name: Mansfield, middle_name: K.
         F., name: J. K. F. Mansfield, rank: GM., suffix: ''}
@@ -425,7 +425,7 @@
     commanders:
     - {dbpedia: Earl_Van_Dorn, first_name: Earl, last_name: van Dorn, middle_name: '',
       name: Earl van Dorn, rank: Gen.-Lt., suffix: ''}
-    country: Confederacy
+    belligerent: Confederacy
     killed: 500
     killed_wounded: 2700
     killed_wounded_percent: 12.3
@@ -435,7 +435,7 @@
     wounded: 2200
   name: Corinth
   order: 4
-  other_name: []
+  other_names: []
   page: 528
   start_date: 1862-10-03
   victor:
@@ -446,7 +446,7 @@
     commanders:
     - {dbpedia: William_S._Rosecrans, first_name: '', last_name: Rosecrans, middle_name: '',
       name: Rosecrans, rank: GM., suffix: ''}
-    country: Union
+    belligerent: Union
     generals_killed:
     - {dbpedia: Pleasant_A._Hackleman, first_name: P., last_name: Hackleman, middle_name: A.,
       name: P. A. Hackleman, rank: Brig.-Gen., suffix: ''}
@@ -481,7 +481,7 @@
     commanders:
     - {dbpedia: Don_Carlos_Buell, first_name: '', last_name: Buell, middle_name: '',
       name: Buell, rank: GM., suffix: ''}
-    country: Union
+    belligerent: Union
     generals_killed:
     - {dbpedia: James_S._Jackson, first_name: J., last_name: Jackson, middle_name: S.,
       name: J. S. Jackson, rank: Brig.-Gen., suffix: ''}
@@ -505,7 +505,7 @@
     wounded_officers: 94
   name: Perryville
   order: 4
-  other_name: []
+  other_names: []
   page: 528
   start_date: *id007
   victor:
@@ -514,7 +514,7 @@
     commanders:
     - {dbpedia: Braxton_Bragg, first_name: '', last_name: Bragg, middle_name: '',
       name: Bragg, rank: Gen., suffix: ''}
-    country: Confederacy
+    belligerent: Confederacy
     killed: 520
     killed_wounded: 3150
     killed_wounded_percent: 19.8
@@ -537,13 +537,13 @@
     commanders:
     - {dbpedia: Thomas_C._Hindman, first_name: '', last_name: Hindman, middle_name: '',
       name: Hindman, rank: GM., suffix: ''}
-    country: Confederacy
+    belligerent: Confederacy
     killed_wounded: 1000
     missing: 350
     strength: 11000
   name: Prairie-Grove
   order: 6
-  other_name: []
+  other_names: []
   page: 528
   start_date: *id008
   victor:
@@ -552,7 +552,7 @@
     commanders:
     - {dbpedia: James_G._Blunt, first_name: '', last_name: Blunt, middle_name: '',
       name: Blunt, rank: Brig.-Gen., suffix: ''}
-    country: Union
+    belligerent: Union
     killed_wounded: 1000
     missing: 250
     strength: 14000
@@ -573,7 +573,7 @@
     commanders:
     - {dbpedia: Ambrose_Everett_Burnside, first_name: A., last_name: Burnside, middle_name: '',
       name: A. Burnside, rank: BM., suffix: ''}
-    country: Union
+    belligerent: Union
     generals_killed:
     - {dbpedia: George_Dashiell_Bayard, first_name: G., last_name: Bayard, middle_name: D.,
       name: G. D. Bayard, rank: Brig.-Gen., suffix: ''}
@@ -599,7 +599,7 @@
     wounded_percent: 8.3
   name: Fredericksburg
   order: 3
-  other_name: []
+  other_names: []
   page: 529
   start_date: 1862-12-11
   victor:
@@ -611,7 +611,7 @@
     commanders:
     - {dbpedia: Robert_E._Lee, first_name: R., last_name: Lee, middle_name: '', name: R.
         Lee, rank: Gen., suffix: ''}
-    country: Confederacy
+    belligerent: Confederacy
     generals_killed:
     - {dbpedia: Thomas_Reade_Rootes_Cobb, first_name: T., last_name: Cobb, middle_name: R.,
       name: T. R. Cobb, rank: Brig.-Gen., suffix: ''}
@@ -651,7 +651,7 @@
     commanders:
     - {dbpedia: Nathaniel_Lyon, first_name: '', last_name: Lyon, middle_name: '',
       name: Lyon, rank: GM., suffix: ''}
-    country: Union
+    belligerent: Union
     generals_killed:
     - {dbpedia: Nathaniel_Lyon, first_name: '', last_name: Lyon, middle_name: '',
       name: Lyon, rank: Brig.-Gen., suffix: ''}
@@ -661,7 +661,7 @@
   name: Wilson's Creek
   number: 1
   order: 6
-  other_name: [Oak-Hills]
+  other_names: [Oak-Hills]
   page: 522
   start_date: *id009
   victor:
@@ -670,7 +670,7 @@
     commanders:
     - {dbpedia: Sterling_Price, first_name: '', last_name: Price, middle_name: '',
       name: Price, rank: GM., suffix: ''}
-    country: Confederacy
+    belligerent: Confederacy
     killed_wounded: 1230
     missing: 70
     strength: 10000
@@ -691,7 +691,7 @@
     commanders:
     - {dbpedia: Braxton_Bragg, first_name: B., last_name: Bragg, middle_name: '',
       name: B. Bragg, rank: Gen., suffix: ''}
-    country: Confederacy
+    belligerent: Confederacy
     generals_killed:
     - {dbpedia: Roger_Hanson, first_name: R., last_name: Hanson, middle_name: W.,
       name: R. W. Hanson, rank: Brig.-Gen., suffix: ''}
@@ -719,7 +719,7 @@
     wounded_percent: 21.1
   name: Murfreesborough
   order: 2
-  other_name: [Stone's River]
+  other_names: [Stone's River]
   page: 529
   start_date: 1862-12-31
   victor:
@@ -731,7 +731,7 @@
     commanders:
     - {dbpedia: William_S._Rosecrans, first_name: '', last_name: Rosecrans, middle_name: '',
       name: Rosecrans, rank: GM., suffix: ''}
-    country: Union
+    belligerent: Union
     generals_killed:
     - {dbpedia: Edward_N._Kirk, first_name: E., last_name: Kirk, middle_name: N.,
       name: E. N. Kirk, rank: Brig.-Gen., suffix: ''}
@@ -772,13 +772,13 @@
     commanders:
     - {dbpedia: William_Tecumseh_Sherman, first_name: '', last_name: Sherman, middle_name: '',
       name: Sherman, rank: GM., suffix: ''}
-    country: Union
+    belligerent: Union
     killed_wounded: 1200
     missing: 600
     strength: 33000
   name: Chickasaw Bluffs
   order: 6
-  other_name: []
+  other_names: []
   page: 530
   start_date: *id010
   victor:
@@ -786,7 +786,7 @@
     commanders:
     - {dbpedia: John_C._Pemberton, first_name: '', last_name: Pemberton, middle_name: '',
       name: Pemberton, rank: Gen.-Lt., suffix: ''}
-    country: Confederacy
+    belligerent: Confederacy
     killed_wounded: 200
     strength: 25000
 - category: [Treffen, Kapitulation]
@@ -805,12 +805,12 @@
     commanders:
     - {dbpedia: Thomas_J._Churchill, first_name: '', last_name: Churchill, middle_name: '',
       name: Churchill, rank: Brig.-Gen., suffix: ''}
-    country: Confederacy
+    belligerent: Confederacy
     killed_wounded: 200
     strength: 5000
   name: Arkansas Post
   order: 4
-  other_name: [Fort Hindman]
+  other_names: [Fort Hindman]
   page: 530
   start_date: *id011
   victor:
@@ -820,7 +820,7 @@
     commanders:
     - {dbpedia: John_A._McClernand, first_name: '', last_name: McClernand, middle_name: '',
       name: McClernand, rank: GM., suffix: ''}
-    country: Union
+    belligerent: Union
     killed_wounded: 1100
     strength: 28000
 - category: [Schlacht]
@@ -839,7 +839,7 @@
     commanders:
     - {dbpedia: Joseph_Hooker, first_name: '', last_name: Hooker, middle_name: '',
       name: Hooker, rank: GM., suffix: ''}
-    country: Union
+    belligerent: Union
     generals_killed:
     - {dbpedia: Hiram_George_Berry, first_name: H., last_name: Berry, middle_name: G.,
       name: H. G. Berry, rank: GM., suffix: ''}
@@ -869,7 +869,7 @@
     wounded_percent: 8.2
   name: Chancellorsville
   order: 1
-  other_name: []
+  other_names: []
   page: 530
   start_date: 1863-05-03
   victor:
@@ -879,7 +879,7 @@
     commanders:
     - {dbpedia: Robert_E._Lee, first_name: R., last_name: Lee, middle_name: '', name: R.
         Lee, rank: Gen., suffix: ''}
-    country: Confederacy
+    belligerent: Confederacy
     generals_killed:
     - {dbpedia: Stonewall_Jackson, first_name: T., last_name: Jackson, middle_name: J.,
       name: T. J. Jackson, rank: Gen.-Lt., suffix: ''}
@@ -914,7 +914,7 @@
     commanders:
     - {dbpedia: John_C._Pemberton, first_name: '', last_name: Pemberton, middle_name: '',
       name: Pemberton, rank: Gen.-Lt., suffix: ''}
-    country: Confederacy
+    belligerent: Confederacy
     generals_killed:
     - {dbpedia: Lloyd_Tilghman, first_name: L., last_name: Tilghman, middle_name: '',
       name: L. Tilghman, rank: B.-G., suffix: ''}
@@ -927,7 +927,7 @@
     strength: 18000
   name: Champion's Hill
   order: 4
-  other_name: [Baker's Creek]
+  other_names: [Baker's Creek]
   page: 531
   start_date: *id012
   victor:
@@ -937,7 +937,7 @@
     commanders:
     - {dbpedia: Ulysses_S._Grant, first_name: U., last_name: Grant, middle_name: S.,
       name: U. S. Grant, rank: GM., suffix: ''}
-    country: Union
+    belligerent: Union
     killed: 450
     killed_officers: 27
     killed_wounded: 2300
@@ -964,7 +964,7 @@
     commanders:
     - {dbpedia: Robert_H._Milroy, first_name: '', last_name: Milroy, middle_name: '',
       name: Milroy, rank: GM., suffix: ''}
-    country: Union
+    belligerent: Union
     killed_wounded: 500
     killed_wounded_officers: 19
     killed_wounded_percent: 5.5
@@ -977,7 +977,7 @@
     strength: 9000
   name: Winchester
   order: 4
-  other_name: []
+  other_names: []
   page: 531
   start_date: *id013
   victor:
@@ -986,7 +986,7 @@
     commanders:
     - {dbpedia: Richard_Ewell, first_name: '', last_name: Ewell, middle_name: '',
       name: Ewell, rank: Gen.-Lt., suffix: ''}
-    country: Confederacy
+    belligerent: Confederacy
     killed_wounded: 300
     missing: 0
     strength: 18000
@@ -1006,7 +1006,7 @@
     commanders:
     - {dbpedia: Robert_E._Lee, first_name: R., last_name: Lee, middle_name: '', name: R.
         Lee, rank: Gen., suffix: ''}
-    country: Confederacy
+    belligerent: Confederacy
     generals_killed:
     - {dbpedia: William_Dorsey_Pender, first_name: W., last_name: Pender, middle_name: '',
       name: W. Pender, rank: GM., suffix: ''}
@@ -1037,7 +1037,7 @@
     wounded_percent: 18.8
   name: Gettysburg
   order: 1
-  other_name: []
+  other_names: []
   page: 532
   start_date: 1863-07-01
   victor:
@@ -1049,7 +1049,7 @@
     commanders:
     - {dbpedia: George_Gordon_Meade, first_name: G., last_name: Meade, middle_name: G.,
       name: G. G. Meade, rank: GM., suffix: ''}
-    country: Union
+    belligerent: Union
     generals_killed:
     - {dbpedia: John_Fulton_Reynolds, first_name: J., last_name: Reynolds, middle_name: F.,
       name: J. F. Reynolds, rank: GM., suffix: ''}
@@ -1100,7 +1100,7 @@
     commanders:
     - {dbpedia: John_C._Pemberton, first_name: '', last_name: Pemberton, middle_name: '',
       name: Pemberton, rank: Gen.-Lt., suffix: ''}
-    country: Confederacy
+    belligerent: Confederacy
     generals_killed:
     - {dbpedia: Martin_E._Green, first_name: M., last_name: Green, middle_name: E.,
       name: M. E. Green, rank: B.-G., suffix: ''}
@@ -1111,7 +1111,7 @@
     strength: 28000
   name: Vicksburg
   order: null
-  other_name: []
+  other_names: []
   page: 532
   start_date: 1863-05-19
   victor:
@@ -1119,7 +1119,7 @@
     commanders:
     - {dbpedia: Ulysses_S._Grant, first_name: U., last_name: Grant, middle_name: S.,
       name: U. S. Grant, rank: GM., suffix: ''}
-    country: Union
+    belligerent: Union
     killed_wounded: 9000
     strength: 75000
 - category: [Schlacht]
@@ -1140,7 +1140,7 @@
     commanders:
     - {dbpedia: William_S._Rosecrans, first_name: '', last_name: Rosecrans, middle_name: '',
       name: Rosecrans, rank: GM., suffix: ''}
-    country: Union
+    belligerent: Union
     generals_killed:
     - {dbpedia: William_Haines_Lytle, first_name: W., last_name: Lytle, middle_name: H.,
       name: W. H. Lytle, rank: B.-G., suffix: ''}
@@ -1166,7 +1166,7 @@
     wounded_percent: 17.2
   name: Chickamauga
   order: 1
-  other_name: []
+  other_names: []
   page: 533
   start_date: 1863-09-19
   victor:
@@ -1177,7 +1177,7 @@
     commanders:
     - {dbpedia: Braxton_Bragg, first_name: B., last_name: Bragg, middle_name: '',
       name: B. Bragg, rank: Gen., suffix: ''}
-    country: Confederacy
+    belligerent: Confederacy
     generals_killed:
     - {dbpedia: Preston_Smith_(general), first_name: P., last_name: Smith, middle_name: '',
       name: P. Smith, rank: GM., suffix: ''}
@@ -1217,7 +1217,7 @@
     commanders:
     - {dbpedia: Braxton_Bragg, first_name: R., last_name: Bragg, middle_name: '',
       name: R. Bragg, rank: Gen., suffix: ''}
-    country: Confederacy
+    belligerent: Confederacy
     killed: 400
     killed_generals: 0
     killed_wounded: 2600
@@ -1232,7 +1232,7 @@
     wounded_generals: 2
   name: Ringgold
   order: 3
-  other_name: [Chattanooga, Missionary Ridge]
+  other_names: [Chattanooga, Missionary Ridge]
   page: 533
   start_date: 1863-11-23
   victor:
@@ -1243,7 +1243,7 @@
     commanders:
     - {dbpedia: Ulysses_S._Grant, first_name: U., last_name: Grant, middle_name: S.,
       name: U. S. Grant, rank: GM., suffix: ''}
-    country: Union
+    belligerent: Union
     killed: 800
     killed_generals: 0
     killed_officers: 71
@@ -1274,20 +1274,20 @@
     commanders:
     - {dbpedia: James_A._Mulligan, first_name: '', last_name: Mulligan, middle_name: '',
       name: Mulligan, rank: Oberst, suffix: ''}
-    country: Union
+    belligerent: Union
     guns: 9
     strength: 3000
   name: Lexington
   number: 3
   order: null
-  other_name: []
+  other_names: []
   page: 522
   start_date: *id014
   victor:
     commanders:
     - {dbpedia: Sterling_Price, first_name: '', last_name: Price, middle_name: '',
       name: Price, rank: GM., suffix: ''}
-    country: Confederacy
+    belligerent: Confederacy
     guns: 16
     strength: 10000
 - category: [Schlacht]
@@ -1308,7 +1308,7 @@
     commanders:
     - {dbpedia: Robert_E._Lee, first_name: R., last_name: Lee, middle_name: '', name: R.
         Lee, rank: Gen., suffix: ''}
-    country: Confederacy
+    belligerent: Confederacy
     generals_killed:
     - {dbpedia: Albert_Gallatin_Jenkins, first_name: A., last_name: Jenkins, middle_name: G.,
       name: A. G. Jenkins, rank: B.-G., suffix: ''}
@@ -1331,7 +1331,7 @@
     wounded_percent: 9.8
   name: Wilderness
   order: 2
-  other_name: []
+  other_names: []
   page: 535
   start_date: 1864-05-05
   victor:
@@ -1344,7 +1344,7 @@
     commanders:
     - {dbpedia: Ulysses_S._Grant, first_name: U., last_name: Grant, middle_name: S.,
       name: U. S. Grant, rank: Gen.-Lt., suffix: ''}
-    country: Union
+    belligerent: Union
     generals_killed:
     - {dbpedia: Alexander_Hays, first_name: A., last_name: Hays, middle_name: '',
       name: A. Hays, rank: GM., suffix: ''}
@@ -1387,7 +1387,7 @@
     commanders:
     - {dbpedia: Robert_E._Lee, first_name: R., last_name: Lee, middle_name: '', name: R.
         Lee, rank: Gen., suffix: ''}
-    country: Confederacy
+    belligerent: Confederacy
     generals_killed:
     - {dbpedia: J.E.B._Stuart, first_name: J., last_name: Stuart, middle_name: E.
         B., name: J. E. B. Stuart, rank: G.-L., suffix: ''}
@@ -1414,7 +1414,7 @@
     wounded_percent: 8.0
   name: Spotsylvania-Court-House
   order: 2
-  other_name: []
+  other_names: []
   page: 535
   start_date: 1864-05-08
   victor:
@@ -1427,7 +1427,7 @@
     commanders:
     - {dbpedia: Ulysses_S._Grant, first_name: U., last_name: Grant, middle_name: S.,
       name: U. S. Grant, rank: Gen.-Lt., suffix: ''}
-    country: Union
+    belligerent: Union
     generals_killed:
     - {dbpedia: John_Sedgwick, first_name: J., last_name: Sedgwick, middle_name: '',
       name: J. Sedgwick, rank: GM., suffix: ''}
@@ -1467,13 +1467,13 @@
     commanders:
     - {dbpedia: Joseph_E._Johnston, first_name: J., last_name: Johnston, middle_name: '',
       name: J. Johnston, rank: Gen., suffix: ''}
-    country: Confederacy
+    belligerent: Confederacy
     killed_wounded: 1500
     missing: 3000
     strength: 52000
   name: Resaca
   order: 4
-  other_name: []
+  other_names: []
   page: 536
   start_date: *id015
   victor:
@@ -1482,7 +1482,7 @@
     commanders:
     - {dbpedia: William_Tecumseh_Sherman, first_name: W., last_name: Sherman, middle_name: T.,
       name: W. T. Sherman, rank: GM., suffix: ''}
-    country: Union
+    belligerent: Union
     killed_wounded: 4000
     missing: 500
     strength: 93000
@@ -1502,14 +1502,14 @@
     commanders:
     - {dbpedia: Benjamin_Franklin_Butler_(politician), first_name: '', last_name: Butler,
       middle_name: '', name: Butler, rank: GM., suffix: ''}
-    country: Union
+    belligerent: Union
     killed_wounded: 3000
     losses_cannon: 5
     losses_flags: 5
     strength: 30000
-  name: Drewry's Bluff
+  name: "Drewry's Bluff"
   order: 4
-  other_name: []
+  other_names: []
   page: 536
   start_date: *id016
   victor:
@@ -1519,7 +1519,7 @@
     commanders:
     - {dbpedia: P.G.T._Beauregard, first_name: '', last_name: Beauregard, middle_name: '',
       name: Beauregard, rank: Gen.-Lt., suffix: ''}
-    country: Confederacy
+    belligerent: Confederacy
     killed_wounded: 3000
     strength: 25000
 - category: [Treffen]
@@ -1536,11 +1536,11 @@
     commanders:
     - {dbpedia: Robert_E._Lee, first_name: R., last_name: Lee, middle_name: '', name: R.
         Lee, rank: Gen., suffix: ''}
-    country: Confederacy
+    belligerent: Confederacy
     strength: 38000
   name: Pamunkey
   order: 4
-  other_name: []
+  other_names: []
   page: 536
   start_date: 1864-05-22
   victor:
@@ -1550,7 +1550,7 @@
     commanders:
     - {dbpedia: Ulysses_S._Grant, first_name: U., last_name: Grant, middle_name: S.,
       name: U. S. Grant, rank: Gen.-Lt., suffix: ''}
-    country: Union
+    belligerent: Union
     strength: 52000
 - category: [Treffen]
   cwsac:
@@ -1565,11 +1565,11 @@
     commanders:
     - {dbpedia: Joseph_E._Johnston, first_name: J., last_name: Johnston, middle_name: '',
       name: J. Johnston, rank: Gen., suffix: ''}
-    country: Confederacy
+    belligerent: Confederacy
     strength: 40000
   name: New Hope Church
   order: 4
-  other_name: [Dallas]
+  other_names: [Dallas]
   page: 536
   start_date: *id017
   victor:
@@ -1577,7 +1577,7 @@
     commanders:
     - {dbpedia: William_Tecumseh_Sherman, first_name: W., last_name: Sherman, middle_name: T.,
       name: W. T. Sherman, rank: Gen.-Lt., suffix: ''}
-    country: Union
+    belligerent: Union
     strength: 80000
 - category: [Schlacht]
   cwsac:
@@ -1595,7 +1595,7 @@
     commanders:
     - {dbpedia: Ulysses_S._Grant, first_name: U., last_name: Grant, middle_name: S.,
       name: U. S. Grant, rank: GL., suffix: ''}
-    country: Union
+    belligerent: Union
     killed: 1900
     killed_officers: 143
     killed_percent: 1.9
@@ -1613,7 +1613,7 @@
     wounded_percent: 9.1
   name: Cold Harbor
   order: 3
-  other_name: []
+  other_names: []
   page: 537
   start_date: *id018
   victor:
@@ -1622,7 +1622,7 @@
     commanders:
     - {dbpedia: Robert_E._Lee, first_name: R., last_name: Lee, middle_name: '', name: R.
         Lee, rank: Gen., suffix: ''}
-    country: Confederacy
+    belligerent: Confederacy
     killed: 400
     killed_percent: 0.5
     killed_wounded: 1700
@@ -1646,11 +1646,11 @@
     commanders:
     - {dbpedia: William_Tecumseh_Sherman, first_name: W., last_name: Sherman, middle_name: T.,
       name: W. T. Sherman, rank: GM., suffix: ''}
-    country: Union
+    belligerent: Union
     strength: 18000
   name: Kenesaw-Mountain
   order: 5
-  other_name: []
+  other_names: []
   page: 537
   start_date: *id019
   victor:
@@ -1659,7 +1659,7 @@
     commanders:
     - {dbpedia: Joseph_E._Johnston, first_name: J., last_name: Johnston, middle_name: '',
       name: J. Johnston, rank: Gen., suffix: ''}
-    country: Confederacy
+    belligerent: Confederacy
     strength: 6000
 - category: [Schlacht]
   cwsac:
@@ -1676,11 +1676,11 @@
     commanders:
     - {first_name: J., last_name: Hood, middle_name: B., name: J. B. Hood, rank: Gen.,
       suffix: ''}
-    country: Confederacy
+    belligerent: Confederacy
     strength: 48000
   name: Peach-Tree-Creek
   order: 4
-  other_name: [Atlanta]
+  other_names: [Atlanta]
   page: 538
   start_date: *id020
   victor:
@@ -1689,7 +1689,7 @@
     commanders:
     - {first_name: W., last_name: Sherman, middle_name: T., name: W. T. Sherman, rank: GM.,
       suffix: ''}
-    country: Union
+    belligerent: Union
     strength: 72000
 - category: [Schlacht]
   cwsac:
@@ -1705,14 +1705,14 @@
     commanders:
     - {dbpedia: John_Bell_Hood, first_name: J., last_name: Hood, middle_name: B.,
       name: J. B. Hood, rank: Gen., suffix: ''}
-    country: Confederacy
+    belligerent: Confederacy
     generals_killed:
     - {dbpedia: William_H.T._Walker, first_name: W., last_name: Walker, middle_name: H.
         T., name: W. H. T. Walker, rank: GM., suffix: ''}
     strength: 40000
   name: Atlanta
   order: 3
-  other_name: []
+  other_names: []
   page: 538
   start_date: *id021
   victor:
@@ -1721,7 +1721,7 @@
     commanders:
     - {dbpedia: William_Tecumseh_Sherman, first_name: W., last_name: Sherman, middle_name: T.,
       name: W. T. Sherman, rank: GM., suffix: ''}
-    country: Union
+    belligerent: Union
     generals_killed:
     - {dbpedia: James_B._McPherson, first_name: J., last_name: McPherson, middle_name: B.,
       name: J. B. McPherson, rank: GM., suffix: ''}
@@ -1744,7 +1744,7 @@
     commanders:
     - {dbpedia: 'Simon_Bolivar_Buckner,_Sr.', first_name: '', last_name: Buckner,
       middle_name: '', name: Buckner, rank: Brig.-Gen., suffix: ''}
-    country: Confederacy
+    belligerent: Confederacy
     killed_wounded: 2000
     killed_wounded_percent: 12
     losses_cannon: 65
@@ -1755,7 +1755,7 @@
   name: Fort Donelson
   number: 4
   order: 3
-  other_name: []
+  other_names: []
   page: 523
   start_date: 1862-02-12
   victor:
@@ -1764,7 +1764,7 @@
     commanders:
     - {dbpedia: Ulysses_S._Grant, first_name: '', last_name: Grant, middle_name: '',
       name: Grant, rank: Brig.-Gen., suffix: ''}
-    country: Union
+    belligerent: Union
     killed_wounded: 2660
     killed_wounded_percent: 9.9
     missing: 240
@@ -1784,11 +1784,11 @@
     commanders:
     - {dbpedia: John_Bell_Hood, first_name: J., last_name: Hood, middle_name: B.,
       name: J. B. Hood, rank: Gen., suffix: ''}
-    country: Confederacy
+    belligerent: Confederacy
     strength: 30000
   name: Ezra-Church
   order: 4
-  other_name: [Atlanta]
+  other_names: [Atlanta]
   page: 538
   start_date: *id022
   victor:
@@ -1797,7 +1797,7 @@
     commanders:
     - {dbpedia: William_Tecumseh_Sherman, first_name: W., last_name: Sherman, middle_name: T.,
       name: W. T. Sherman, rank: GM., suffix: ''}
-    country: Union
+    belligerent: Union
     strength: 60000
 - category: [Schlacht]
   cwsac:
@@ -1815,7 +1815,7 @@
     commanders:
     - {dbpedia: Jubal_Anderson_Early, first_name: J., last_name: Early, middle_name: A.,
       name: J. A. Early, rank: Gen.-Lt., suffix: ''}
-    country: Confederacy
+    belligerent: Confederacy
     generals_killed:
     - {dbpedia: Robert_E._Rodes, first_name: R., last_name: Rodes, middle_name: E.,
       name: R. E. Rodes, rank: GM., suffix: ''}
@@ -1831,7 +1831,7 @@
     strength: 13000
   name: Winchester
   order: 4
-  other_name: [Opequon]
+  other_names: [Opequon]
   page: 539
   start_date: *id023
   victor:
@@ -1841,7 +1841,7 @@
     commanders:
     - {dbpedia: Philip_Sheridan, first_name: P., last_name: Sheridan, middle_name: H.,
       name: P. H. Sheridan, rank: GM., suffix: ''}
-    country: Union
+    belligerent: Union
     generals_killed:
     - {dbpedia: David_Allen_Russell, first_name: D., last_name: Russell, middle_name: A.,
       name: D. A. Russell, rank: GM., suffix: ''}
@@ -1866,7 +1866,7 @@
     commanders:
     - {dbpedia: Jubal_Anderson_Early, first_name: J., last_name: Early, middle_name: A.,
       name: J. A. Early, rank: Gen.-Lt., suffix: ''}
-    country: Confederacy
+    belligerent: Confederacy
     generals_killed:
     - {dbpedia: Stephen_Dodson_Ramseur, first_name: S., last_name: Ramseur, middle_name: D.,
       name: S. D. Ramseur, rank: GM., suffix: ''}
@@ -1878,7 +1878,7 @@
     strength: 18000
   name: Middletown
   order: 4
-  other_name: [Cedar Creek]
+  other_names: [Cedar Creek]
   page: 539
   start_date: *id024
   victor:
@@ -1887,7 +1887,7 @@
     commanders:
     - {dbpedia: Philip_Sheridan, first_name: P., last_name: Sheridan, middle_name: H.,
       name: P. H. Sheridan, rank: GM., suffix: ''}
-    country: Union
+    belligerent: Union
     generals_killed:
     - {dbpedia: Daniel_Davidson_Bidwell, first_name: D., last_name: Bidwell, middle_name: D.,
       name: D. D. Bidwell, rank: B.-G., suffix: ''}
@@ -1913,7 +1913,7 @@
     commanders:
     - {dbpedia: John_Schofield, first_name: '', last_name: Schofield, middle_name: '',
       name: Schofield, rank: GM., suffix: ''}
-    country: Union
+    belligerent: Union
     infantry: 22000
     killed: 200
     killed_percent: 0.8
@@ -1926,7 +1926,7 @@
     wounded_percent: 4.0
   name: Franklin
   order: 4
-  other_name: []
+  other_names: []
   page: 540
   start_date: *id025
   victor:
@@ -1937,7 +1937,7 @@
     commanders:
     - {dbpedia: John_Bell_Hood, first_name: J., last_name: Hood, middle_name: B.,
       name: J. B. Hood, rank: Gen., suffix: ''}
-    country: Confederacy
+    belligerent: Confederacy
     generals_killed:
     - {dbpedia: Patrick_Cleburne, first_name: P., last_name: Cleburne, middle_name: R.,
       name: P. R. Cleburne, rank: GM., suffix: ''}
@@ -1978,13 +1978,13 @@
     commanders:
     - {dbpedia: John_Bell_Hood, first_name: J., last_name: Hood, middle_name: B.,
       name: J. B. Hood, rank: Gen., suffix: ''}
-    country: Confederacy
+    belligerent: Confederacy
     infantry: 36000
     losses_cannon: 51
     strength: 38000
   name: Nashville
   order: 3
-  other_name: []
+  other_names: []
   page: 540
   start_date: 1864-12-15
   victor:
@@ -1994,7 +1994,7 @@
     commanders:
     - {dbpedia: George_Henry_Thomas, first_name: G., last_name: Thomas, middle_name: H.,
       name: G. H. Thomas, rank: GM., suffix: ''}
-    country: Union
+    belligerent: Union
     generals_killed:
     - {dbpedia: nullo, first_name: S., last_name: Hill, middle_name: G., name: S.
         G. Hill, rank: Brig.-Gen., suffix: ''}
@@ -2021,12 +2021,12 @@
   location: "Bedeutendste Hafenstadt S\xFCd-Carolinas."
   loser:
     commanders:
-    - {dbpedia: P.G.T._Beauregard, first_name: '', last_name: Beauregard, middle_name: '',
+    - {dbpedia: P._G._T._Beauregard, first_name: '', last_name: Beauregard, middle_name: '',
       name: Beauregard, rank: Gen., suffix: ''}
-    country: Confederacy
+    belligerent: Confederacy
   name: Charleston
   order: null
-  other_name: []
+  other_names: []
   page: 540
   start_date: 1863-04-01
   victor:
@@ -2039,7 +2039,7 @@
       name: Dupont, rank: Adm., suffix: ''}
     - {dbpedia: John_A._Dahlgren, first_name: '', last_name: Dahlgreen, middle_name: '',
       name: Dahlgreen, rank: Adm., suffix: ''}
-    country: Union
+    belligerent: Union
 - category: [Schlacht]
   cwsac:
   - {relation: '=', uri: NC020}
@@ -2054,7 +2054,7 @@
     commanders:
     - {dbpedia: Joseph_E._Johnston, first_name: J., last_name: Johnston, middle_name: '',
       name: J. Johnston, rank: Gen., suffix: ''}
-    country: Confederacy
+    belligerent: Confederacy
     killed_wounded: 1700
     killed_wounded_percent: 5.7
     missing: 1600
@@ -2062,7 +2062,7 @@
     strength: 30000
   name: Bentonville
   order: 4
-  other_name: []
+  other_names: []
   page: 541
   start_date: *id026
   victor:
@@ -2073,7 +2073,7 @@
     commanders:
     - {dbpedia: William_Tecumseh_Sherman, first_name: W., last_name: Sherman, middle_name: T.,
       name: W. T. Sherman, rank: GM., suffix: ''}
-    country: Union
+    belligerent: Union
     killed_wounded: 1500
     killed_wounded_generals: 1
     killed_wounded_officers: 78
@@ -2151,7 +2151,7 @@
     commanders:
     - {dbpedia: Robert_E._Lee, first_name: R., last_name: Lee, middle_name: '', name: R.
         Lee, rank: Gen., suffix: ''}
-    country: Confederacy
+    belligerent: Confederacy
     generals_killed:
     - {date: 1865-04-02, dbpedia: Ambrose_Powell_Hill, first_name: A., last_name: Hill,
       middle_name: P., name: A. P. Hill, rank: G.-L., suffix: ''}
@@ -2161,7 +2161,7 @@
     strength: 67000
   name: Petersburg
   order: null
-  other_name: []
+  other_names: []
   page: 541
   start_date: 1864-06-09
   victor:
@@ -2171,7 +2171,7 @@
     commanders:
     - {dbpedia: Ulysses_S._Grant, first_name: U., last_name: Grant, middle_name: S.,
       name: U. S. Grant, rank: Gen.-Lt., suffix: ''}
-    country: Union
+    belligerent: Union
     generals_killed:
     - {date: 1864-06-28, dbpedia: Hiram_Burnham, first_name: H., last_name: Burnham,
       middle_name: '', name: H. Burnham, rank: B.-G., suffix: ''}
@@ -2196,10 +2196,10 @@
     \ machen 3.500 Gefangene,\nerbeuten 50 Gesch\xFCtze.\n"
   end_date: 1865-04-09
   location: Seefestung in Alabama, an der gleichnamigen Bai.
-  loser: {captured: 3500, country: Confederacy, losses_cannon: 50, strength: 4000}
+  loser: {captured: 3500, belligerent: Confederacy, losses_cannon: 50, strength: 4000}
   name: Mobile
   order: null
-  other_name: []
+  other_names: []
   page: 542
   start_date: 1865-04-02
   victor:
@@ -2208,7 +2208,7 @@
       name: Cranby, rank: GM., suffix: ''}
     - {dbpedia: David_Farragut, first_name: '', last_name: Farragut, middle_name: '',
       name: Farragut, rank: Adm., suffix: ''}
-    country: Union
+    belligerent: Union
     strength: 45000
 - category: [Kapitulation]
   cwsac:
@@ -2228,19 +2228,19 @@
     commanders:
     - {dbpedia: Robert_E._Lee, first_name: R., last_name: Lee, middle_name: '', name: R.
         Lee, rank: Gen., suffix: ''}
-    country: Confederacy
+    belligerent: Confederacy
     guns: 63
     strength: 28000
   name: Appomattox-Court-House
   order: null
-  other_name: []
+  other_names: []
   page: 542
   start_date: *id027
   victor:
     commanders:
     - {dbpedia: Ulysses_S._Grant, first_name: U., last_name: Grant, middle_name: S.,
       name: U. S. Grant, rank: Gen.-Lt., suffix: ''}
-    country: Union
+    belligerent: Union
     strength: 100000
 - category: [Treffen]
   cwsac:
@@ -2257,7 +2257,7 @@
     commanders:
     - {dbpedia: Earl_Van_Dorn, first_name: Earl, last_name: van Dorn, middle_name: '',
       name: Earl van Dorn, rank: Gen.-Lt., suffix: ''}
-    country: Confederacy
+    belligerent: Confederacy
     generals_killed:
     - {dbpedia: Ben_McCulloch, first_name: '', last_name: McCulloch, middle_name: '',
       name: McCulloch, rank: Brig.-Gen., suffix: ''}
@@ -2274,7 +2274,7 @@
   name: Pea Ridge
   number: 5
   order: 3
-  other_name: [Elkhorn-Tavern]
+  other_names: [Elkhorn-Tavern]
   page: 523
   start_date: 1862-03-07
   victor:
@@ -2283,7 +2283,7 @@
     commanders:
     - {dbpedia: Samuel_Ryan_Curtis, first_name: '', last_name: Curtis, middle_name: '',
       name: Curtis, rank: GM., suffix: ''}
-    country: Union
+    belligerent: Union
     guns: 49
     killed_wounded: 1200
     killed_wounded_percent: 10.0
@@ -2304,19 +2304,19 @@
     commanders:
     - {dbpedia: Joseph_E._Johnston, first_name: J., last_name: Johnston, middle_name: '',
       name: J. Johnston, rank: Gen., suffix: ''}
-    country: Confederacy
+    belligerent: Confederacy
     missing: 35200
     strength: 35200
-  name: Durham's-Station
+  name: "Durham's-Station"
   order: null
-  other_name: []
+  other_names: []
   page: 542
   start_date: *id028
   victor:
     commanders:
     - {dbpedia: William_Tecumseh_Sherman, first_name: W., last_name: Sherman, middle_name: T.,
       name: W. T. Sherman, rank: GM., suffix: ''}
-    country: Union
+    belligerent: Union
     strength: 90000
 - category: [Schlacht]
   cwsac:
@@ -2335,7 +2335,7 @@
     commanders:
     - {dbpedia: Albert_Sidney_Johnston, first_name: A., last_name: Johnston, middle_name: S.,
       name: A. S. Johnston, rank: Gen., suffix: ''}
-    country: Confederacy
+    belligerent: Confederacy
     generals_killed:
     - {dbpedia: Albert_Sidney_Johnston, first_name: A., last_name: Johnston, middle_name: S.,
       name: A. S. Johnston, rank: komm. Gen., suffix: ''}
@@ -2359,7 +2359,7 @@
   name: Shiloh
   number: 6
   order: 2
-  other_name: [Pittsburg-Landing]
+  other_names: [Pittsburg-Landing]
   page: 523
   start_date: 1862-04-06
   victor:
@@ -2371,7 +2371,7 @@
     commanders:
     - {dbpedia: Ulysses_S._Grant, first_name: U., last_name: Grant, middle_name: S.,
       name: U. S. Grant, rank: GM., suffix: ''}
-    country: Union
+    belligerent: Union
     generals_killed:
     - {dbpedia: William_Harvey_Lamb_Wallace, first_name: W., last_name: Wallace, middle_name: H.
         L., name: W. H. L. Wallace, rank: Brig.-Gen., suffix: ''}
@@ -2409,7 +2409,7 @@
     commanders:
     - {dbpedia: Joseph_E._Johnston, first_name: J., last_name: Johnston, middle_name: '',
       name: J. Johnston, rank: Gen.-Lt., suffix: ''}
-    country: Confederacy
+    belligerent: Confederacy
     killed: 300
     killed_officers: 24
     killed_wounded: 1300
@@ -2424,7 +2424,7 @@
   name: Williamsburg
   number: 7
   order: 5
-  other_name: []
+  other_names: []
   page: 524
   start_date: *id029
   victor:
@@ -2434,7 +2434,7 @@
     commanders:
     - {dbpedia: George_B._McClellan, first_name: '', last_name: McClellan, middle_name: '',
       name: McClellan, rank: GM., suffix: ''}
-    country: Union
+    belligerent: Union
     killed: 460
     killed_officers: 27
     killed_wounded: 1900
@@ -2463,7 +2463,7 @@
     commanders:
     - {dbpedia: George_B._McClellan, first_name: '', last_name: McClellan, middle_name: '',
       name: McClellan, rank: GM., suffix: ''}
-    country: Union
+    belligerent: Union
     killed: 800
     killed_generals: 0
     killed_officers: 41
@@ -2484,7 +2484,7 @@
   name: Seven Pines
   number: 8
   order: 3
-  other_name: [Fair-Oaks, White-Oak-Swamp]
+  other_names: [Fair-Oaks, White-Oak-Swamp]
   page: 524
   start_date: 1862-05-31
   victor:
@@ -2495,7 +2495,7 @@
     commanders:
     - {dbpedia: Joseph_E._Johnston, first_name: J., last_name: Johnston, middle_name: '',
       name: J. Johnston, rank: Gen., suffix: ''}
-    country: Confederacy
+    belligerent: Confederacy
     generals_killed:
     - {dbpedia: Robert_Hopkins_Hatton, first_name: R., last_name: Hatton, middle_name: '',
       name: R. Hatton, rank: Brig.-Gen., suffix: ''}
@@ -2552,7 +2552,7 @@
     commanders:
     - {dbpedia: George_B._McClellan, first_name: '', last_name: McClellan, middle_name: '',
       name: McClellan, rank: Gen.-Lt., suffix: ''}
-    country: Union
+    belligerent: Union
     guns: 340
     infantry: 99000
     killed: 1700
@@ -2575,7 +2575,7 @@
   name: Chickahominy
   number: 9
   order: 1
-  other_name: [Mechanicsville, Gaine's Mill, Cold Harbor, Malvern Hill]
+  other_names: [Mechanicsville, "Gaine's Mill", Cold Harbor, Malvern Hill]
   page: 525
   start_date: 1862-06-25
   victor:
@@ -2587,7 +2587,7 @@
     commanders:
     - {dbpedia: Robert_E._Lee, first_name: R., last_name: Lee., middle_name: '', name: R.
         Lee., rank: Gen., suffix: ''}
-    country: Confederacy
+    belligerent: Confederacy
     guns: 250
     infantry: 88000
     killed: 3200
