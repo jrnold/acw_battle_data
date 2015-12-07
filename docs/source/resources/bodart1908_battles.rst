@@ -323,39 +323,6 @@ location
 Location of the battle (in German)
        
 
-category
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-:title: Category
-:type: integer
-:format: default 
-:constraints:
-    
-    
-    
-    
-    
-    :minimum: 1 
-    :maximum: 6 
-         
-
-
-
-Category of the battle based on total casualties. For land battles the categories area
-1. > 30,000 2. > 20,000 3. > 10,000 4. > 5,000 5. > 3,000 6. > 1,000
-       
-
-category_belagerung
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-:title: Siege
-:type: boolean
-:format: default 
-
-
-Was the battle a siege ("Belagerung")?
-       
-
 category_schlacht
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -378,6 +345,17 @@ category_treffen
 Was the battle a meeting or encounter ("Treffen")?
        
 
+category_belagerung
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+:title: Siege
+:type: boolean
+:format: default 
+
+
+Was the battle a siege ("Belagerung")?
+       
+
 category_kapitulation
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -398,6 +376,28 @@ category_einnahme
 
 
 Was the battle a capture ("Einnahme")?
+       
+
+category_size
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+:title: Size
+:type: integer
+:format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 1 
+    :maximum: 6 
+         
+
+
+Category of the battle based on total casualties. For land battles the categories area
+1. > 30,000 2. > 20,000  3. > 10,000  4. > 5,000 5. > 3,000 6. > 1,000
+
        
 
 page

@@ -11,11 +11,6 @@ schema:
     name: belligerent
     title: belligerent
     type: string
-  - description: Did the side win?
-    format: default
-    name: victor
-    title: Victor
-    type: boolean
   - description: Total personnel
     format: default
     name: strength

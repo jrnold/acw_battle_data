@@ -38,35 +38,15 @@ battle_id
 
        
 
-country
+belligerent
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: country
+:title: belligerent
 :type: string
 :format: default 
-:constraints:
-    
-    
-    
-    
-    
-    
-    
-    :enum: ['Conferacy', 'Union']      
 
 
-Belligerent (Union or Confederate) of the force.
-       
 
-victor
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-:title: Victor
-:type: boolean
-:format: default 
-
-
-Did the side win?
        
 
 strength
@@ -466,6 +446,17 @@ losses_cannon
 
        
 
+losses_canons
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+:title: losses_canons
+:type: number
+:format: default 
+
+
+
+       
+
 losses_flags
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -499,10 +490,10 @@ losses_wagons
 
        
 
-other
+note
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: Comments
+:title: note
 :type: string
 :format: default 
 

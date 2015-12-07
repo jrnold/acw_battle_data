@@ -71,7 +71,7 @@ reference_number
 The reference number assigned to the battle site/event. The first two letters are the abbreviation of the state in which the battle site/event is located. The number reflects the order in which the battle site/events in the state were assigned a reference number.
        
 
-Event
+event
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 :title: event
@@ -80,7 +80,6 @@ Event
 
 
 
-Name of the battle site/event. The events recorded in the database are primarily based on the Official Records listing of Principal Military Events for the Civil War.
        
 
 type
@@ -117,27 +116,6 @@ end_date
 
 
 End day of the event.      
-       
-
-state
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-:title: State
-:type: string
-:format: default 
-:constraints:
-    
-    :minLength: 2 
-    :maxLength: 2 
-    
-    :pattern: [A-Z]{2} 
-    
-    
-         
-
-
-
-Two-letter abbreviation of the state in which the battle site/event is located. e.g., Alabama = AL
        
 
 theater
@@ -459,24 +437,15 @@ interpretive_naval
 
        
 
-Military (Jim)
+jim
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 :title: jim
 :type: string
 :format: default 
-:constraints:
-    
-    
-    
-    
-    
-    
-    
-    :enum: ['A', 'B', 'C', 'D']      
 
 
-Dr. James M. McPherson. The letter in this field is Dr. McPherson's initial opinion regarding the military importance of the event. (Refer to MILITARY above.) An entry was made in this field only when Dr. McPherson disagreed with the first military importance value assigned to the event. Differences of opinion about the military importance of specific battle events were resolved at an October 23, 1992 meeting.
+
        
 
 ed

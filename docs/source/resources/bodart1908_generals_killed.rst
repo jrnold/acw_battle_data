@@ -41,10 +41,10 @@ battle_id
 
        
 
-country
+belligerent
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: Country
+:title: belligerent
 :type: string
 :format: default 
 

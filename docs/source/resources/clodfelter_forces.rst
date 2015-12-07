@@ -626,6 +626,17 @@ guns_lost
 Number of guns (artillery pieces) captured by the opponent.
        
 
+guns_captured
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+:title: guns_captured
+:type: number
+:format: default 
+
+
+
+       
+
 small_arms_lost
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -644,6 +655,17 @@ small_arms_lost
 
 
 Number of small arms captured by the opponent.
+       
+
+small_arms_captured
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+:title: small_arms_captured
+:type: number
+:format: default 
+
+
+
        
 
 warships_sunk

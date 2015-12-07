@@ -63,6 +63,17 @@ theater
 
        
 
+theater_years
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+:title: theater_years
+:type: string
+:format: default 
+
+
+
+       
+
 start_date
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -85,17 +96,6 @@ end_date
 
        
 
-page
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-:title: Page
-:type: integer
-:format: default 
-
-
-Page number in Clodfelter (2008)
-       
-
 result
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -115,5 +115,16 @@ result
 
 Result of the battle: Union victory, Confederate victory or tie.
 Clodfelter does not classify battles by result. This variable was added. The classifications follow CWSAC (:doc:`cwsac_battles`) where available.
+       
+
+page
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+:title: Page
+:type: integer
+:format: default 
+
+
+Page number in Clodfelter (2008)
        
 

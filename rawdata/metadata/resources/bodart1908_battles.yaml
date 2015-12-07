@@ -32,18 +32,6 @@ schema:
     name: location
     title: Location
     type: string
-  - format: default
-    name: order
-    title: order
-    type: number
-  - format: default
-    name: siege
-    title: siege
-    type: number
-  - format: default
-    name: battle
-    title: battle
-    type: number
   - description: Was the battle a major battle ("Schlacht")?
     format: default
     name: category_schlacht
