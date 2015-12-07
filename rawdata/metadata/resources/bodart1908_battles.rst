@@ -69,11 +69,23 @@ His description of the data (p. 45-47, Google Books translation from German to E
     Where it was feasible, the loss of trophies and
     war material were attached.  
 
-    The strength information those forces were always given, which were disposable for battle, and therefore in an emergency could still be used, and not merely those which really came into the fight. The author went here based on the consideration that even the presence of a number of troops at one of the battle-field not too distant places affect the enemy in his dispositions, and could act affecting the course of events, therefore, those troops when they where also fight and the decision took no part, were included.
+    The strength information those forces were always given, which
+    were disposable for battle, and therefore in an emergency could
+    still be used, and not merely those which really came into the
+    fight. The author went here based on the consideration that even
+    the presence of a number of troops at one of the battle-field not
+    too distant places affect the enemy in his dispositions, and could
+    act affecting the course of events, therefore, those troops when
+    they where also fight and the decision took no part, were
+    included.
     
-    The next to each conflict in the parentheses point to emphasize its meaning at first glance in the manner that the paragraph in question "Lio category called, in which ranks of battle.
+    The next to each conflict in the parentheses point to emphasize
+    its meaning at first glance in the manner that the paragraph in
+    question "Lio category called, in which ranks of battle.
     
-    For the rank classification or categories of fighting, the total amount of losses (bloody and bloodless) both opponents were decisive for the author, taken together, u. ZW. Range from the
+    For the rank classification or categories of fighting, the total
+    amount of losses (bloody and bloodless) both opponents were
+    decisive for the author, taken together, u. ZW. Range from the
 
     Fight on land in the
     
@@ -93,9 +105,16 @@ His description of the data (p. 45-47, Google Books translation from German to E
     - 5th category ... 1,000
     - 6th category ... 500      
 
-    Left the battles which the first three categories innate (about 250 in number), and which represent the greatest fights of modern times and the most recent time, was already at the point where they reach the treatise, a bouncing into your eyes preferably sooner so that readers will point out at once that he has to do here with a meaningful fight.
+    Left the battles which the first three categories innate (about
+    250 in number), and which represent the greatest fights of modern
+    times and the most recent time, was already at the point where
+    they reach the treatise, a bouncing into your eyes preferably
+    sooner so that readers will point out at once that he has to do
+    here with a meaningful fight.
       
-    The strength and casualty figures have been rounded up by the author after u. Btw. In such a way that a number of less than 50 men on 50, such a of less than 100 men were rounded down to 100.
+    The strength and casualty figures have been rounded up by the
+    author after u. Btw. In such a way that a number of less than 50
+    men on 50, such a of less than 100 men were rounded down to 100.
 
 And on page 601:
 
