@@ -117,6 +117,10 @@ schema:
     title: potnr_boundary
     type: number
   - format: default
+    name: battle_name_cws2
+    title: battle_name_cws2
+    type: string
+  - format: default
     name: str_mean_cws2
     title: str_mean_cws2
     type: number

@@ -59,10 +59,10 @@ cwsac1
 
        
 
-cwsac2
+cws2
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: cwsac2
+:title: cws2
 :type: boolean
 :format: default 
 

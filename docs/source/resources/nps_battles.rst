@@ -279,10 +279,10 @@ cas_kwm_var_cwsac1
 
        
 
-cwsac2_url
+cws2_url
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: cwsac2_url
+:title: cws2_url
 :type: string
 :format: default 
 
@@ -323,10 +323,21 @@ potnr_boundary
 
        
 
-str_mean_cwsac2
+battle_name_cws2
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: str_mean_cwsac2
+:title: battle_name_cws2
+:type: string
+:format: default 
+
+
+
+       
+
+str_mean_cws2
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+:title: str_mean_cws2
 :type: number
 :format: default 
 
@@ -334,10 +345,10 @@ str_mean_cwsac2
 
        
 
-str_var_cwsac2
+str_var_cws2
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: str_var_cwsac2
+:title: str_var_cws2
 :type: number
 :format: default 
 
@@ -345,10 +356,10 @@ str_var_cwsac2
 
        
 
-partof_cwsac2
+partof_cws2
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: partof_cwsac2
+:title: partof_cws2
 :type: boolean
 :format: default 
 

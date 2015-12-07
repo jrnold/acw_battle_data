@@ -2,8 +2,6 @@ description: ''
 format: csv
 name: battlemisc
 path: data/battlemisc.csv
-sources:
-  - self
 schema:
   fields:
   - constraints:
