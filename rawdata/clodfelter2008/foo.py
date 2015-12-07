@@ -1,7 +1,7 @@
 import yaml
+from os import path
 
-
-with open("clodfelter.yaml", "r") as f:
+with open(path.expanduser("~/Downloads/clodfelter.yaml"), "r") as f:
     data = yaml.load(f)
 
 theaters = ("Eastern Theater: 1861", "Western Theater: 1861",
@@ -11,7 +11,9 @@ theaters = ("Eastern Theater: 1861", "Western Theater: 1861",
             "East: 1865", "West: 1865")
 newdata = []
 for k in theaters:
-    newdata += data[k]
+    for btl in data[k]:
+        btl['theater'] = k
+        newdata.append(btl)
 
-with open("clodfelter2.yaml", "w") as f:
+with open("clodfelter.yaml", "w") as f:
     yaml.dump(newdata, f, default_flow_style = False)

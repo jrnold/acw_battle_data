@@ -1,4 +1,4 @@
-- battle: Rich Mountain/Laurel Mountain, July 11-13, 1861
+- battle: Rich Mountain/Laurel Mountain
   cwsac:
   - id: WV003
     relation: '='
@@ -17,7 +17,8 @@
       wounded: 49
   page: 293
   start_date: 1861-7-11
-- battle: First Bull Run (Manassas), July 21, 1861
+  theater: 'Eastern Theater: 1861'
+- battle: First Bull Run (Manassas)
   cwsac:
   - id: VA005
     relation: '='
@@ -37,7 +38,8 @@
       wounded: 1124
   page: 293
   start_date: 1861-7-21
-- battle: Ball's Bluff, October 21, 1861
+  theater: 'Eastern Theater: 1861'
+- battle: "Ball's Bluff"
   cwsac:
   - id: VA006
     relation: '='
@@ -57,7 +59,8 @@
       wounded: 158
   page: 293
   start_date: 1861-10-21
-- battle: Wilson's Creek, August 10, 1861
+  theater: 'Eastern Theater: 1861'
+- battle: "Wilson's Creek"
   cwsac:
   - id: MO004
     relation: '='
@@ -77,7 +80,8 @@
       wounded: 873
   page: 294
   start_date: 1861-8-10
-- battle: Belmont, November 7, 1861
+  theater: 'Western Theater: 1861'
+- battle: Belmont
   cwsac:
   - id: MO009
     relation: '='
@@ -97,6 +101,7 @@
       wounded: 383
   page: 294
   start_date: 1861-11-7
+  theater: 'Western Theater: 1861'
 - battle: Roanoake Island
   cwsac:
   - id: NC002
@@ -121,13 +126,14 @@
       wounded_missing: 242
   page: 294
   start_date: 1862-2-7
+  theater: 'Blockade War: 1861-1862'
 - battle: New Bern
   cwsac:
   - id: NC003
     relation: '='
   dbpedia:
   - relation: '='
-    url: https://dbpedia.org/resource/Battle_of_New_Bern
+    url: https://dbpedia.org/resource/Battle_of_Roanoke_Island
   forces:
     Confederate:
       killed: 68
@@ -141,6 +147,7 @@
       wounded: 385
   page: 294
   start_date: 1862-3-13
+  theater: 'Blockade War: 1861-1862'
 - battle: Hampton Roads (first day)
   cwsac:
   - id: VA008
@@ -163,6 +170,7 @@
       wounded: 146
   page: 294
   start_date: 1862-3-8
+  theater: 'Blockade War: 1861-1862'
 - battle: Hampton Roads (second day)
   cwsac:
   - id: VA008
@@ -183,6 +191,7 @@
       wounded: 2
   page: 294
   start_date: 1862-3-9
+  theater: 'Blockade War: 1861-1862'
 - battle: Secessionville
   cwsac:
   - id: SC002
@@ -203,6 +212,7 @@
       wounded: 487
   page: 294
   start_date: 1862-6-16
+  theater: 'Blockade War: 1861-1862'
 - battle: Kernstown (first)
   cwsac:
   - id: VA101
@@ -223,6 +233,7 @@
       wounded: 450
   page: 296
   start_date: 1862-3-23
+  theater: 'East: 1862'
 - battle: McDowell
   cwsac:
   - id: VA102
@@ -242,6 +253,7 @@
       wounded: 227
   page: 296
   start_date: 1862-5-8
+  theater: 'East: 1862'
 - battle: Front Royal
   cwsac:
   - id: VA103
@@ -258,6 +270,7 @@
       strength: 1063
   page: 296
   start_date: 1862-5-23
+  theater: 'East: 1862'
 - battle: Winchester (first)
   cwsac:
   - id: VA104
@@ -278,6 +291,7 @@
       wounded: 243
   page: 296
   start_date: 1862-5-25
+  theater: 'East: 1862'
 - battle: Cross Keys
   cwsac:
   - id: VA105
@@ -298,6 +312,7 @@
       wounded: 443
   page: 296
   start_date: 1862-6-8
+  theater: 'East: 1862'
 - battle: Port Republic
   cwsac:
   - id: VA106
@@ -318,6 +333,7 @@
       wounded: 393
   page: 296
   start_date: 1862-6-9
+  theater: 'East: 1862'
 - battle: Williamsburg (Fort Magruder)
   cwsac:
   - id: VA010
@@ -338,6 +354,7 @@
       wounded: 1442
   page: 296
   start_date: 1862-5-5
+  theater: 'East: 1862'
 - battle: Hanover Court House
   cwsac:
   - id: VA013
@@ -357,6 +374,7 @@
       wounded: 223
   page: 297
   start_date: 1862-5-27
+  theater: 'East: 1862'
 - battle: Fair Oaks (Seven Pines)
   cwsac:
   - id: VA014
@@ -379,6 +397,7 @@
       wounded: 3594
   page: 297
   start_date: 1862-5-31
+  theater: 'East: 1862'
 - battle: Seven Days Battles
   dbpedia:
   - relation: '='
@@ -396,6 +415,7 @@
       wounded: 8062
   page: 297
   start_date: 1862-6-25
+  theater: 'East: 1862'
 - battle: The Orchard (Seven Days)
   cwsac:
   - id: VA015
@@ -416,6 +436,7 @@
       wounded: 401
   page: 297
   start_date: 1862-6-25
+  theater: 'East: 1862'
 - battle: Mechanicsville (Seven Days)
   cwsac:
   - id: VA016
@@ -434,7 +455,8 @@
       wounded: 207
   page: 297
   start_date: 1862-6-26
-- battle: Gaines's Mill (Seven Days)
+  theater: 'East: 1862'
+- battle: "Gaines's Mill (Seven Days)"
   cwsac:
   - id: VA017
     relation: '='
@@ -453,7 +475,8 @@
       wounded: 3107
   page: 297
   start_date: 1862-6-27
-- battle: Savage's Station (Seven Days)
+  theater: 'East: 1862'
+- battle: "Savage's Station (Seven Days)"
   cwsac:
   - id: VA019
     relation: '='
@@ -469,6 +492,7 @@
       divisions: 3
   page: 297
   start_date: 1862-6-29
+  theater: 'East: 1862'
 - battle: White Oak Swamp (Seven Days)
   cwsac:
   - id: VA020
@@ -490,6 +514,7 @@
       wounded: 1696
   page: 297
   start_date: 1862-6-30
+  theater: 'East: 1862'
 - battle: Malvern Hill (Seven Days)
   cwsac:
   - id: VA021
@@ -505,6 +530,7 @@
       strength: 83345
   page: 297
   start_date: 1862-7-1
+  theater: 'East: 1862'
 - battle: Cedar Mountain
   cwsac:
   - id: VA022
@@ -525,6 +551,7 @@
       wounded: 1445
   page: 297
   start_date: 1862-8-9
+  theater: 'East: 1862'
 - battle: Groveton
   cwsac:
   - id: VA026
@@ -541,6 +568,7 @@
       strength: 2800
   page: 297
   start_date: 1862-8-28
+  theater: 'East: 1862'
 - battle: Second Bull Run/Chantilly (Second Manassas)
   cwsac:
   - id: VA026
@@ -563,6 +591,7 @@
       wounded: 8372
   page: 297
   start_date: 1862-8-29
+  theater: 'East: 1862'
 - battle: South Mountain
   cwsac:
   - id: MD002
@@ -583,6 +612,7 @@
       wounded: 1403
   page: 297
   start_date: 1862-9-14
+  theater: 'East: 1862'
 - battle: Antietam (Sharpsburg)
   cwsac:
   - id: MD003
@@ -603,6 +633,7 @@
       wounded: 9549
   page: 297
   start_date: 1862-9-17
+  theater: 'East: 1862'
 - battle: Fredericksburg
   cwsac:
   - id: VA028
@@ -623,6 +654,7 @@
       wounded: 9600
   page: 297
   start_date: 1862-12-13
+  theater: 'East: 1862'
 - battle: Valverde
   cwsac:
   - id: NM001
@@ -642,6 +674,7 @@
       wounded: 157
   page: 299
   start_date: 1862-2-21
+  theater: 'West: 1862'
 - battle: Apache Canyon/Glorieta Pass
   cwsac:
   - id: NM002
@@ -663,6 +696,7 @@
       wounded: 94
   page: 299
   start_date: 1862-3-26
+  theater: 'West: 1862'
 - battle: Pea Ridge
   cwsac:
   - id: AR001
@@ -683,6 +717,7 @@
       wounded: 980
   page: 299
   start_date: 1862-3-7
+  theater: 'West: 1862'
 - battle: Prairie Grove
   cwsac:
   - id: AR005
@@ -703,7 +738,8 @@
       wounded: 813
   page: 299
   start_date: 1862-12-7
-- battle: Mill Springs (Logan's Crossroads)
+  theater: 'West: 1862'
+- battle: "Mill Springs (Logan's Crossroads)"
   cwsac:
   - id: KY006
     relation: '='
@@ -724,6 +760,7 @@
       wounded: 207
   page: 299
   start_date: 1862-1-19
+  theater: 'West: 1862'
 - battle: Fort Donelson
   cwsac:
   - id: TN002
@@ -744,6 +781,7 @@
       wounded: 2108
   page: 299
   start_date: 1862-2-12
+  theater: 'West: 1862'
 - battle: Shiloh (Pittsburg Landing)
   cwsac:
   - id: TN003
@@ -765,6 +803,7 @@
       wounded: 8408
   page: 299
   start_date: 1862-4-6
+  theater: 'West: 1862'
 - battle: New Orleans
   cwsac:
   - id: LA001
@@ -790,6 +829,7 @@
       wounded: 149
   page: 299
   start_date: 1862-4-24
+  theater: 'West: 1862'
 - battle: Baton Rouge
   cwsac:
   - id: LA003
@@ -810,6 +850,7 @@
       wounded: 266
   page: 299
   start_date: 1862-8-5
+  theater: 'West: 1862'
 - battle: Iuka
   cwsac:
   - id: MS001
@@ -830,6 +871,7 @@
       wounded: 598
   page: 299
   start_date: 1862-9-19
+  theater: 'West: 1862'
 - battle: Corinth
   cwsac:
   - id: MS002
@@ -851,6 +893,7 @@
       wounded: 1841
   page: 299
   start_date: 1862-10-3
+  theater: 'West: 1862'
 - battle: Chickasaw Bluffs
   cwsac:
   - id: MS003
@@ -871,6 +914,7 @@
       wounded: 1005
   page: 300
   start_date: 1862-12-29
+  theater: 'West: 1862'
 - battle: Richmond (Kentucky)
   cwsac:
   - id: KY007
@@ -891,6 +935,7 @@
       wounded: 844
   page: 300
   start_date: 1862-8-30
+  theater: 'West: 1862'
 - battle: Perryville
   cwsac:
   - id: KY009
@@ -911,6 +956,7 @@
       wounded: 2851
   page: 300
   start_date: 1862-10-8
+  theater: 'West: 1862'
 - battle: Hartsville
   cwsac:
   - id: TN008
@@ -928,6 +974,7 @@
       strength: 2100
   page: 300
   start_date: 1862-12-7
+  theater: 'West: 1862'
 - battle: Stones River (Murfreesboro)
   cwsac:
   - id: TN010
@@ -949,6 +996,7 @@
       wounded: 7543
   page: 300
   start_date: 1862-12-31
+  theater: 'West: 1862'
 - battle: Chancellorsville
   cwsac:
   - id: VA032
@@ -970,6 +1018,7 @@
       wounded: 9762
   page: 302
   start_date: 1863-5-1
+  theater: 'East: 1863'
 - battle: Brandy Station
   cwsac:
   - id: VA035
@@ -988,6 +1037,7 @@
       wounded: 352
   page: 302
   start_date: 1863-6-9
+  theater: 'East: 1863'
 - battle: Winchester (second)
   cwsac:
   - id: VA107
@@ -1008,6 +1058,7 @@
       wounded: 348
   page: 302
   start_date: 1863-6-14
+  theater: 'East: 1863'
 - battle: Gettsyburg
   cwsac:
   - id: PA002
@@ -1029,6 +1080,7 @@
       wounded: 14529
   page: 302
   start_date: 1863-7-1
+  theater: 'East: 1863'
 - battle: Bristoe Station
   cwsac:
   - id: VA040
@@ -1046,6 +1098,7 @@
       divisions: 3
   page: 302
   start_date: 1863-10-14
+  theater: 'East: 1863'
 - battle: Buckland
   cwsac:
   - id: VA042
@@ -1062,6 +1115,7 @@
       cavalry divisions: 1
   page: 302
   start_date: 1863-10-19
+  theater: 'East: 1863'
 - battle: Rappahannock Station
   cwsac:
   - id: VA043
@@ -1078,6 +1132,7 @@
       corps: 1
   page: 302
   start_date: 1863-11-7
+  theater: 'East: 1863'
 - battle: Mine Run
   cwsac:
   - id: VA044
@@ -1095,6 +1150,7 @@
       strength: 84274
   page: 302
   start_date: 1863-11-27
+  theater: 'East: 1863'
 - battle: Galveston
   cwsac:
   - id: TX003
@@ -1118,6 +1174,7 @@
       guns: 28
   page: 305
   start_date: 1863-1-1
+  theater: 'West: 1863'
 - battle: Honey Springs
   cwsac:
   - id: OK007
@@ -1135,6 +1192,7 @@
       wounded: 62
   page: 305
   start_date: 1863-7-17
+  theater: 'West: 1863'
 - battle: Fort Hindman (Arkansas Post)
   cwsac:
   - id: AR006
@@ -1154,6 +1212,7 @@
       wounded: 923
   page: 305
   start_date: 1863-1-11
+  theater: 'West: 1863'
 - battle: Port Hudson (siege)
   cwsac:
   - id: LA010
@@ -1177,6 +1236,7 @@
       wounded: 3336
   page: 305
   start_date: 1863-5-26
+  theater: 'West: 1863'
 - battle: Port Hudson (first assault)
   cwsac:
   - id: LA010
@@ -1197,6 +1257,7 @@
       wounded: 1545
   page: 305
   start_date: 1863-5-27
+  theater: 'West: 1863'
 - battle: Port Hudson (second assault)
   cwsac:
   - id: LA010
@@ -1218,6 +1279,7 @@
       wounded: 1401
   page: 305
   start_date: 1863-6-14
+  theater: 'West: 1863'
 - battle: Donaldsville (first)
   cwsac:
   - id: LA013
@@ -1234,6 +1296,7 @@
       strength: 225
   page: 305
   start_date: 1863-6-28
+  theater: 'West: 1863'
 - battle: Donaldsville (second)
   cwsac:
   - id: LA015
@@ -1253,6 +1316,7 @@
       wounded: 223
   page: 305
   start_date: 1863-7-13
+  theater: 'West: 1863'
 - battle: Port Gibson
   cwsac:
   - id: MS006
@@ -1273,6 +1337,7 @@
       wounded: 719
   page: 305
   start_date: 1863-5-1
+  theater: 'West: 1863'
 - battle: Raymond
   cwsac:
   - id: MS007
@@ -1293,6 +1358,7 @@
       wounded: 339
   page: 305
   start_date: 1863-5-12
+  theater: 'West: 1863'
 - battle: Jackson
   cwsac:
   - id: MS008
@@ -1313,6 +1379,7 @@
       wounded: 273
   page: 305
   start_date: 1863-5-14
+  theater: 'West: 1863'
 - battle: Champion's Hill
   cwsac:
   - id: MS009
@@ -1333,6 +1400,7 @@
       wounded: 1844
   page: 305
   start_date: 1863-5-16
+  theater: 'West: 1863'
 - battle: Big Black River
   cwsac:
   - id: MS010
@@ -1351,6 +1419,7 @@
       wounded: 237
   page: 305
   start_date: 1863-5-17
+  theater: 'West: 1863'
 - battle: Vicksburg (siege)
   cwsac:
   - id: MS011
@@ -1373,6 +1442,7 @@
       strength: 71000
   page: 305
   start_date: 1863-5-18
+  theater: 'West: 1863'
 - battle: Vicksburg (first assault)
   cwsac:
   - id: MS011
@@ -1393,6 +1463,7 @@
       wounded: 777
   page: 305
   start_date: 1863-5-19
+  theater: 'West: 1863'
 - battle: Vicksburg (second assault)
   cwsac:
   - id: MS011
@@ -1413,6 +1484,7 @@
       wounded: 2550
   page: 305
   start_date: 1863-5-22
+  theater: 'West: 1863'
 - battle: Helena
   cwsac:
   - id: AR008
@@ -1429,6 +1501,7 @@
       strength: 4129
   page: 305
   start_date: 1863-7-4
+  theater: 'West: 1863'
 - battle: Jackson (siege)
   dbpedia:
   - relation: '='
@@ -1447,6 +1520,7 @@
       wounded: 762
   page: 305
   start_date: 1863-7-10
+  theater: 'West: 1863'
 - battle: Chickamagua
   cwsac:
   - id: GA004
@@ -1470,6 +1544,7 @@
       wounded: 9756
   page: 305
   start_date: 1863-9-19
+  theater: 'West: 1863'
 - battle: Chattanooga
   cwsac:
   - id: TN024
@@ -1493,6 +1568,7 @@
       wounded: 4722
   page: 305
   start_date: 1863-11-23
+  theater: 'West: 1863'
 - battle: Chattanooga (Orchard Knob/Indian Hill)
   cwsac:
   - id: TN024
@@ -1508,6 +1584,7 @@
       strength: 25000
   page: 306
   start_date: 1863-11-23
+  theater: 'West: 1863'
 - battle: Chattanooga (Lookout Mountain)
   cwsac:
   - id: TN024
@@ -1526,6 +1603,7 @@
       wounded: 540
   page: 306
   start_date: 1863-11-24
+  theater: 'West: 1863'
 - battle: Chattanooga (Tunnel Hill)
   cwsac:
   - id: TN024
@@ -1543,6 +1621,7 @@
       killed_wounded: 1240
   page: 306
   start_date: 1863-11-25
+  theater: 'West: 1863'
 - battle: Chattanooga (Missionary Ridge)
   cwsac:
   - id: TN024
@@ -1558,6 +1637,7 @@
       strength: 24536
   page: 306
   start_date: 1863-11-25
+  theater: 'West: 1863'
 - battle: Ringgold Gap
   cwsac:
   - id: GA005
@@ -1575,6 +1655,7 @@
       strength: 12000
   page: 306
   start_date: 1863-11-27
+  theater: 'West: 1863'
 - battle: Knoxville (siege)
   dbpedia:
   - relation: <
@@ -1591,6 +1672,7 @@
       wounded: 394
   page: 306
   start_date: 1863-11-17
+  theater: 'West: 1863'
 - battle: Knoxville (attack on Fort Sanders)
   cwsac:
   - id: TN025
@@ -1611,6 +1693,7 @@
       wounded: 5
   page: 306
   start_date: 1863-11-29
+  theater: 'West: 1863'
 - battle: Pocataligo
   dbpedia:
   - relation: '='
@@ -1624,6 +1707,7 @@
       strength: 4500
   page: 306
   start_date: 1863-10-22
+  theater: 'Blockade War: 1863'
 - battle: Batteries Wagner and Gregg
   cwsac:
   - id: SC005
@@ -1643,6 +1727,7 @@
       wounded: 123
   page: 306
   start_date: 1863-7-10
+  theater: 'Blockade War: 1863'
 - battle: Battery Wagner
   cwsac:
   - id: SC007
@@ -1663,6 +1748,7 @@
     Union - 2318; Confederate - 641'
   page: 306
   start_date: 1863-7-18
+  theater: 'Blockade War: 1863'
 - battle: Olustee
   cwsac:
   - id: FL005
@@ -1682,6 +1768,7 @@
       wounded: 1124
   page: 310
   start_date: 1864-2-10
+  theater: 'East: 1864'
 - battle: Wilderness
   cwsac:
   - id: VA046
@@ -1703,6 +1790,7 @@
       wounded: 12037
   page: 310
   start_date: 1864-5-5
+  theater: 'East: 1864'
 - battle: Spotsylvania Court House
   cwsac:
   - id: VA048
@@ -1724,6 +1812,7 @@
       wounded: 13416
   page: 310
   start_date: 1864-5-8
+  theater: 'East: 1864'
 - battle: Yellow Tavern
   cwsac:
   - id: VA052
@@ -1742,6 +1831,7 @@
       strength: 10000
   page: 310
   start_date: 1864-5-11
+  theater: 'East: 1864'
 - battle: North Anna River
   cwsac:
   - id: VA055
@@ -1761,6 +1851,7 @@
       strength: 100000
   page: 310
   start_date: 1864-5-23
+  theater: 'East: 1864'
 - battle: Totopotomy Creek
   cwsac:
   - id: VA057
@@ -1780,6 +1871,7 @@
       strength: 100000
   page: 310
   start_date: 1864-5-27
+  theater: 'East: 1864'
 - battle: Cold Harbor (assault)
   cwsac:
   - id: VA062
@@ -1796,6 +1888,7 @@
       strength: 60000
   page: 310
   start_date: 1864-6-3
+  theater: 'East: 1864'
 - battle: Cold Harbor
   cwsac:
   - id: VA062
@@ -1817,6 +1910,7 @@
       wounded: 6752
   page: 310
   start_date: 1864-5-31
+  theater: 'East: 1864'
 - battle: Trevilian Station
   cwsac:
   - id: VA099
@@ -1841,7 +1935,8 @@
     '
   page: 310
   start_date: 1864-6-11
-- battle: Cloyd's Mountain
+  theater: 'East: 1864'
+- battle: "Cloyd's Mountain"
   cwsac:
   - id: VA049
     relation: '='
@@ -1857,6 +1952,7 @@
       strength: 6155
   page: 310
   start_date: 1864-5-9
+  theater: 'East: 1864'
 - battle: New Market
   cwsac:
   - id: VA110
@@ -1877,6 +1973,7 @@
       wounded: 482
   page: 310
   start_date: 1864-5-15
+  theater: 'East: 1864'
 - battle: Piedmont
   cwsac:
   - id: VA111
@@ -1895,6 +1992,7 @@
       wounded: 650
   page: 310
   start_date: 1864-6-5
+  theater: 'East: 1864'
 - battle: Drewry's Bluff
   cwsac:
   - id: VA012
@@ -1915,6 +2013,7 @@
       wounded: 2380
   page: 310
   start_date: 1864-5-12
+  theater: 'East: 1864'
 - battle: Petersburg (first assault)
   cwsac:
   - id: VA063
@@ -1934,6 +2033,7 @@
       wounded: 8513
   page: 310
   start_date: 1864-6-15
+  theater: 'East: 1864'
 - battle: Monocacy River
   cwsac:
   - id: MD007
@@ -1952,6 +2052,7 @@
       wounded: 579
   page: 310
   start_date: 1864-7-9
+  theater: 'East: 1864'
 - battle: Kernstown (second)
   cwsac:
   - id: VA116
@@ -1968,6 +2069,7 @@
       strength: 8000
   page: 310
   start_date: 1864-7-24
+  theater: 'East: 1864'
 - battle: Opequon (Third Winchester)
   cwsac:
   - id: VA119
@@ -1988,7 +2090,8 @@
       wounded: 3983
   page: 310
   start_date: 1864-9-19
-- battle: Fisher's Hill
+  theater: 'East: 1864'
+- battle: "Fisher's Hill"
   cwsac:
   - id: VA120
     relation: '='
@@ -2008,6 +2111,7 @@
       wounded: 457
   page: 310
   start_date: 1864-9-22
+  theater: 'East: 1864'
 - battle: Cedar Creek
   cwsac:
   - id: VA122
@@ -2029,6 +2133,7 @@
       wounded: 3430
   page: 310
   start_date: 1864-10-19
+  theater: 'East: 1864'
 - battle: Petersburg (Battle of the Crater)
   cwsac:
   - id: VA070
@@ -2047,6 +2152,7 @@
       wounded: 1181
   page: 310
   start_date: 1864-7-30
+  theater: 'East: 1864'
 - battle: Deep Bottom Run
   cwsac:
   - id: VA071
@@ -2061,6 +2167,7 @@
       strength: 27974
   page: 310
   start_date: 1864-8-13
+  theater: 'East: 1864'
 - battle: Globe Tavern
   cwsac:
   - id: VA072
@@ -2081,6 +2188,7 @@
       wounded: 1148
   page: 310
   start_date: 1864-8-18
+  theater: 'East: 1864'
 - battle: Reams Station
   cwsac:
   - id: VA073
@@ -2099,7 +2207,8 @@
       wounded: 529
   page: 310
   start_date: 1864-8-23
-- battle: Fort Harrison (Chaffin's Bluff)
+  theater: 'East: 1864'
+- battle: "Fort Harrison (Chaffin's Bluff)"
   cwsac:
   - id: VA075
     relation: '='
@@ -2118,6 +2227,7 @@
       wounded: 2299
   page: 310
   start_date: 1864-9-29
+  theater: 'East: 1864'
 - battle: Peebles Farm
   cwsac:
   - id: VA074
@@ -2137,7 +2247,8 @@
       wounded: 900
   page: 310
   start_date: 1864-9-30
-- battle: Hatcher's Run (first)
+  theater: 'East: 1864'
+- battle: "Hatcher's Run (first)"
   cwsac:
   - id: VA079
     relation: '='
@@ -2156,6 +2267,7 @@
       wounded: 1028
   page: 311
   start_date: 1864-10-27
+  theater: 'East: 1864'
 - battle: Fair Oaks
   cwsac:
   - id: VA080
@@ -2173,6 +2285,7 @@
       strength: 40000
   page: 311
   start_date: 1864-10-27
+  theater: 'East: 1864'
 - battle: Sabine Crossroads
   cwsac:
   - id: LA018
@@ -2192,6 +2305,7 @@
       wounded: 643
   page: 314
   start_date: 1864-4-8
+  theater: 'West: 1864'
 - battle: Pleasant Hill
   cwsac:
   - id: LA019
@@ -2210,6 +2324,7 @@
       wounded: 844
   page: 314
   start_date: 1864-4-9
+  theater: 'West: 1864'
 - battle: Yellow Bayou
   cwsac:
   - id: LA023
@@ -2226,6 +2341,7 @@
       strength: 5000
   page: 314
   start_date: 1864-5-18
+  theater: 'West: 1864'
 - battle: Jenkins Ferry
   cwsac:
   - id: AR016
@@ -2246,6 +2362,7 @@
       wounded: 378
   page: 314
   start_date: 1864-4-30
+  theater: 'West: 1864'
 - battle: Fort Davidson (Pilot Knob)
   cwsac:
   - id: MO021
@@ -2264,6 +2381,7 @@
       wounded: 59
   page: 314
   start_date: 1864-12-27
+  theater: 'West: 1864'
 - battle: Westport
   cwsac:
   - id: MO027
@@ -2280,6 +2398,7 @@
       strength: 20000
   page: 314
   start_date: 1864-10-23
+  theater: 'West: 1864'
 - battle: Mine Creek
   cwsac:
   - id: KS003
@@ -2299,6 +2418,7 @@
       wounded: 94
   page: 314
   start_date: 1864-10-25
+  theater: 'West: 1864'
 - battle: Fort Pillow
   cwsac:
   - id: TN030
@@ -2320,7 +2440,8 @@
     '
   page: 314
   start_date: 1864-4-12
-- battle: Brice's Crossroads
+  theater: 'West: 1864'
+- battle: "Brice's Crossroads"
   cwsac:
   - id: MS014
     relation: '='
@@ -2342,6 +2463,7 @@
       wounded: 394
   page: 314
   start_date: 1864-6-10
+  theater: 'West: 1864'
 - battle: Tupelo
   cwsac:
   - id: MS015
@@ -2362,6 +2484,7 @@
       wounded: 559
   page: 314
   start_date: 1864-7-14
+  theater: 'West: 1864'
 - battle: Selma
   cwsac:
   - id: AL007
@@ -2379,6 +2502,7 @@
       strength: 12500
   page: 314
   start_date: 1864-4-2
+  theater: 'West: 1864'
 - battle: New Hope Church
   cwsac:
   - id: GA010
@@ -2395,6 +2519,7 @@
       corps: 1
   page: 314
   start_date: 1864-5-25
+  theater: 'West: 1864'
 - battle: Kennesaw Mountain
   cwsac:
   - id: GA015
@@ -2411,6 +2536,7 @@
       strength: 16000
   page: 314
   start_date: 1864-6-27
+  theater: 'West: 1864'
 - battle: Peachtree Creek
   cwsac:
   - id: GA016
@@ -2427,6 +2553,7 @@
       strength: 20139
   page: 314
   start_date: 1864-7-20
+  theater: 'West: 1864'
 - battle: Atlanta
   cwsac:
   - id: GA017
@@ -2445,6 +2572,7 @@
       wounded: 2141
   page: 314
   start_date: 1864-7-22
+  theater: 'West: 1864'
 - battle: Ezra Church
   cwsac:
   - id: GA018
@@ -2461,6 +2589,7 @@
       strength: 25000
   page: 314
   start_date: 1864-7-28
+  theater: 'West: 1864'
 - battle: Jonesboro
   cwsac:
   - id: GA022
@@ -2478,6 +2607,7 @@
       strength: 60000
   page: 314
   start_date: 1864-8-31
+  theater: 'West: 1864'
 - battle: Allatoona
   cwsac:
   - id: GA023
@@ -2498,6 +2628,7 @@
       wounded: 352
   page: 314
   start_date: 1864-10-6
+  theater: 'West: 1864'
 - battle: Franklin
   cwsac:
   - id: TN036
@@ -2518,6 +2649,7 @@
       wounded: 1033
   page: 314
   start_date: 1864-11-30
+  theater: 'West: 1864'
 - battle: Nashville
   cwsac:
   - id: TN038
@@ -2539,6 +2671,7 @@
       wounded: 2562
   page: 314
   start_date: 1864-12-15
+  theater: 'West: 1864'
 - battle: Griswoldville
   cwsac:
   - id: GA025
@@ -2556,6 +2689,7 @@
       strength: 1500
   page: 314
   start_date: 1864-11-22
+  theater: 'West: 1864'
 - battle: Mobile Bay
   cwsac:
   - id: AL003
@@ -2603,6 +2737,7 @@
     '
   page: 315
   start_date: 1864-8-5
+  theater: 'Blockade War: 1864-65'
 - battle: Fort Fisher
   cwsac:
   - id: NC015
@@ -2631,7 +2766,8 @@
     '
   page: 316
   start_date: 1865-1-13
-- battle: Hatcher's Run (second)
+  theater: 'Blockade War: 1864-65'
+- battle: "Hatcher's Run (second)"
   cwsac:
   - id: VA083
     relation: '='
@@ -2648,6 +2784,7 @@
       wounded: 1160
   page: 317
   start_date: 1865-2-5
+  theater: 'East: 1865'
 - battle: Fort Stedman
   cwsac:
   - id: VA084
@@ -2665,6 +2802,7 @@
       corps: 1
   page: 317
   start_date: 1865-3-25
+  theater: 'East: 1865'
 - battle: Five Forks
   cwsac:
   - id: VA088
@@ -2687,6 +2825,7 @@
     '
   page: 317
   start_date: 1865-4-1
+  theater: 'East: 1865'
 - battle: Petersburg (second assault)
   cwsac:
   - id: VA089
@@ -2704,6 +2843,7 @@
       wounded: 3189
   page: 317
   start_date: 1865-4-2
+  theater: 'East: 1865'
 - battle: Fort Gregg
   cwsac:
   - id: VA089
@@ -2722,7 +2862,8 @@
       wounded: 592
   page: 317
   start_date: 1865-4-2
-- battle: Sayler's Creek
+  theater: 'East: 1865'
+- battle: "Sayler's Creek"
   cwsac:
   - id: VA093
     relation: '='
@@ -2741,6 +2882,7 @@
       wounded_missing: 1014
   page: 317
   start_date: 1865-4-6
+  theater: 'East: 1865'
 - battle: Kinston
   cwsac:
   - id: NC007
@@ -2759,6 +2901,7 @@
       strength: 15000
   page: 317
   start_date: 1865-3-8
+  theater: 'West: 1865'
 - battle: Averasboro
   cwsac:
   - id: NC019
@@ -2778,6 +2921,7 @@
       wounded: 533
   page: 317
   start_date: 1865-3-16
+  theater: 'West: 1865'
 - battle: Bentonville
   cwsac:
   - id: NC020
@@ -2802,3 +2946,4 @@
     '
   page: 317
   start_date: 1865-3-19
+  theater: 'West: 1865'

@@ -158,7 +158,7 @@ def generals_killed_csv(src, dst):
                             writer.writerow(row)
                     
 def battle_csv(src, dst):
-    fields = [
+    fields = (
         'battle_id',
         'name', 
         'other_names', 
@@ -168,11 +168,13 @@ def battle_csv(src, dst):
         'order', 
         'siege',
         'battle',
-        'meeting',
-        'surrender',
-        'siege',
-        'capture',
-        'page']
+        'category_schlacht',
+        'category_treffen',
+        'category_belagerung',
+        'category_kapitulation',
+        'category_einnahme',
+        'page'
+    )
     with open(src, 'r') as f:
         data = yaml.load(f)
     with open(dst, 'w') as f:

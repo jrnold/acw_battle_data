@@ -24,17 +24,13 @@ def rename(x, k, j):
 def battles(data, dst, filename):
     with open(path.join(dst, filename), 'w') as f:
         fieldnames = ('battle', 'theater', 'start_date', 'end_date', 'page')
-        writer = csv.DictWriter(f, fieldnames)
+        writer = csv.DictWriter(f, fieldnames, extrasaction = 'ignore')
         writer.writeheader()
-        for theater, battles in sorted(data.items()):
-            for battle in battles:
-                row = battle.copy()
-                fields = ('battle', 'page', 'start_date', 'end_date')
-                row = dict_subset(row, fields)
-                if 'end_date' not in row:
-                    row['end_date'] = row['start_date']
-                row['theater'] = theater
-                writer.writerow(row)
+        for i, battle in enumerate(data):
+            if 'end_date' not in battle:
+                battle['end_date'] = battle['start_date']
+            battle['number'] = i
+            writer.writerow(battle)
 
 def forces(data, dst, filename):
     fields = (
@@ -89,46 +85,43 @@ def forces(data, dst, filename):
         fieldnames = ['battle', 'belligerent'] + list(fields)
         writer = csv.DictWriter(f, fieldnames)
         writer.writeheader()
-        for theater, battles in sorted(data.items()):
-            for battle in battles:
-                for belligerent in battle['forces']:
-                    row = battle['forces'][belligerent].copy()
-                    row['battle'] = battle['battle']
-                    row['belligerent'] = belligerent
-                    # fix keys with spaces in them
-                    for k in row:
-                        if ' ' in k:
-                            row[re.sub(' ', '_', k)] = row[k]
-                            del row[k]
-                    writer.writerow(row)
+        for battle in battles:
+            for belligerent in battle['forces']:
+                row = battle['forces'][belligerent].copy()
+                row['battle'] = battle['battle']
+                row['belligerent'] = belligerent
+                # fix keys with spaces in them
+                for k in row:
+                    if ' ' in k:
+                        row[re.sub(' ', '_', k)] = row[k]
+                        del row[k]
+                writer.writerow(row)
 
 def cwsac_links(data, dst, filename):
     with open(path.join(dst, filename), 'w') as f:
         fieldnames = ('from', 'to', 'relation')
         writer = csv.DictWriter(f, fieldnames)
         writer.writeheader()
-        for theater, battles in sorted(data.items()):
-            for battle in battles:
-                if 'cwsac' in battle:
-                    for link in battle['cwsac']:
-                        row = {'from': battle['battle'],
-                               'to': link['id'],
-                               'relation': link['relation']}
-                        writer.writerow(row)
+        for battle in battles:
+            if 'cwsac' in battle:
+                for link in battle['cwsac']:
+                    row = {'from': battle['battle'],
+                           'to': link['id'],
+                           'relation': link['relation']}
+                    writer.writerow(row)
 
 def dbpedia_links(data, dst, filename):
     with open(path.join(dst, filename), 'w') as f:
         fieldnames = ('from', 'to', 'relation')
         writer = csv.DictWriter(f, fieldnames)
         writer.writeheader()
-        for theater, battles in sorted(data.items()):
-            for battle in battles:
-                if 'dbpedia' in battle:
-                    for link in battle['dbpedia']:
-                        row = {'from': battle['battle'],
-                               'to': link['url'],
-                               'relation': link['relation']}
-                        writer.writerow(row)
+        for battle in battles:
+            if 'dbpedia' in battle:
+                for link in battle['dbpedia']:
+                    row = {'from': battle['battle'],
+                           'to': link['url'],
+                           'relation': link['relation']}
+                    writer.writerow(row)
 
 def build(src, dst):
     srcfile = path.join(src, "rawdata", "clodfelter2008",  'clodfelter.yaml')
