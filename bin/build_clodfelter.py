@@ -23,15 +23,37 @@ def rename(x, k, j):
 
 def battles(data, dst, filename):
     with open(path.join(dst, filename), 'w') as f:
-        fieldnames = ('battle', 'theater', 'start_date', 'end_date', 'page')
+        fieldnames = ('battle', 'theater', 'theater_years', 'start_date', 'end_date', 'result', 'page')
         writer = csv.DictWriter(f, fieldnames, extrasaction = 'ignore')
         writer.writeheader()
         for i, battle in enumerate(data):
             if 'end_date' not in battle:
                 battle['end_date'] = battle['start_date']
+            battle['theater_years'] = battle['theater']
+            if re.search("East", battle['theater_years']):
+                battle['theater'] = "Eastern"
+            if re.search("West", battle['theater_years']):
+                battle['theater'] = "Western"
+            if re.search("Blockade", battle['theater_years']):
+                battle['theater'] = "Blockade"
             battle['number'] = i
             writer.writerow(battle)
 
+def commanders(data, dst, filename):
+    with open(path.join(dst, filename), 'w') as f:
+        fieldnames = ('battle', 'belligerent', 'commander_number',
+                      'PersonID', 'last_name', 'first_name', 'middle_name', 'middle_initial', 'rank', 'navy')
+        writer = csv.DictWriter(f, fieldnames)
+        writer.writeheader()
+        for i, battle in enumerate(data):
+            for belligerent in battle['forces']:
+                force = battle['forces'][belligerent]
+                for j, cdr in enumerate(force['commanders']):
+                    cdr['battle'] = battle['battle']
+                    cdr['belligerent'] = belligerent
+                    cdr['commander_number'] = j
+                    writer.writerow(cdr)
+            
 def forces(data, dst, filename):
     fields = (
     'strength',
@@ -85,16 +107,13 @@ def forces(data, dst, filename):
         fieldnames = ['battle', 'belligerent'] + list(fields)
         writer = csv.DictWriter(f, fieldnames)
         writer.writeheader()
-        for battle in battles:
+        for i, battle in enumerate(data):
             for belligerent in battle['forces']:
                 row = battle['forces'][belligerent].copy()
                 row['battle'] = battle['battle']
                 row['belligerent'] = belligerent
+                del row['commanders']
                 # fix keys with spaces in them
-                for k in row:
-                    if ' ' in k:
-                        row[re.sub(' ', '_', k)] = row[k]
-                        del row[k]
                 writer.writerow(row)
 
 def cwsac_links(data, dst, filename):
@@ -102,7 +121,7 @@ def cwsac_links(data, dst, filename):
         fieldnames = ('from', 'to', 'relation')
         writer = csv.DictWriter(f, fieldnames)
         writer.writeheader()
-        for battle in battles:
+        for i, battle in enumerate(data):
             if 'cwsac' in battle:
                 for link in battle['cwsac']:
                     row = {'from': battle['battle'],
@@ -115,7 +134,7 @@ def dbpedia_links(data, dst, filename):
         fieldnames = ('from', 'to', 'relation')
         writer = csv.DictWriter(f, fieldnames)
         writer.writeheader()
-        for battle in battles:
+        for i, battle in enumerate(data):
             if 'dbpedia' in battle:
                 for link in battle['dbpedia']:
                     row = {'from': battle['battle'],
@@ -130,6 +149,7 @@ def build(src, dst):
 
     battles(data, dst, 'clodfelter_battles.csv')
     forces(data, dst, 'clodfelter_forces.csv')
+    commanders(data, dst, 'clodfelter_commanders.csv')
     cwsac_links(data, dst, 'clodfelter_to_cwsac.csv')
     dbpedia_links(data, dst, 'clodfelter_to_dbpedia.csv')
 

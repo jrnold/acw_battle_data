@@ -8,17 +8,13 @@ schema:
     title: battle
     type: string
   - format: default
-    name: cwsac_id
-    title: cwsac_id
-    type: string
-  - format: default
     name: belligerent
     title: belligerent
     type: string
   - format: default
     name: commander_number
     title: commander_number
-    type: number
+    type: integer
   - format: default
     name: PersonID
     title: PersonID

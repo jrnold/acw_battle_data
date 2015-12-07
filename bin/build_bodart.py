@@ -158,35 +158,31 @@ def generals_killed_csv(src, dst):
                             writer.writerow(row)
                     
 def battle_csv(src, dst):
-    fields = (
+    fields = [
         'battle_id',
-        'name', 
+        'name',
         'other_names', 
         'start_date',
         'end_date',
         'location',
-        'order', 
-        'siege',
-        'battle',
         'category_schlacht',
         'category_treffen',
         'category_belagerung',
         'category_kapitulation',
         'category_einnahme',
+        'category_size',
         'page'
-    )
+    ]
     with open(src, 'r') as f:
         data = yaml.load(f)
     with open(dst, 'w') as f:
-        writer = csv.DictWriter(f, fields)
+        writer = csv.DictWriter(f, fields, extrasaction = 'ignore')
         writer.writeheader()
-        for battle_id, v in enumerate(data):
-            row = dict_subset(v, fields + ['category'])
+        for battle_id, row in enumerate(data):
             row['other_names'] = ';'.join(row['other_names'])
             row['battle_id'] = battle_id
             for category in CATEGORIES:
                 row['category_' + category.lower()] = int(category in row['category'])
-            del row['category']
             writer.writerow(row)
 
 def bodart_to_cwsac(src, dst):
@@ -196,10 +192,10 @@ def bodart_to_cwsac(src, dst):
     with open(dst, 'w') as f:
         writer = csv.DictWriter(f, fieldnames)
         writer.writeheader()
-        for battle, v in data.items():
+        for battle_id, v in enumerate(data):
             if 'cwsac' in v:
                 for link in v['cwsac']:
-                    row = {'from': battle,
+                    row = {'from': battle_id,
                            'to': link['uri'],
                            'relation': link['relation']}
                     writer.writerow(row)
@@ -212,7 +208,7 @@ def bodart_to_dbpedia(src, dst):
     with open(dst, 'w') as f:
         writer = csv.DictWriter(f, fieldnames)
         writer.writeheader()
-        for battle, v in data.items():
+        for battle, v in enumerate(data):
             if 'dbpedia' in v:
                 for link in v['dbpedia']:
                     row = {'from': battle,

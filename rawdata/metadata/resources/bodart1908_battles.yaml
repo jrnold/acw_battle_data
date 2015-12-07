@@ -3,12 +3,12 @@ name: bodart1908_battles
 path: data/bodart1908_battles.csv
 schema:
   fields:
-  - format: default
+  - constraints:
+      minimum: 1
+    format: default
     name: battle_id
     title: Battle number
     type: integer
-    constraints:
-      minimum: 1
   - description: Name of the battle
     format: default
     name: name
@@ -32,31 +32,18 @@ schema:
     name: location
     title: Location
     type: string
-  - description: >-
-
-      Category of the battle based on total casualties.
-      For land battles the categories area
-
-      1. > 30,000
-      2. > 20,000
-      3. > 10,000
-      4. > 5,000
-      5. > 3,000
-      6. > 1,000
-
-    format: default
-    name: category
-    title: Category
-    type: integer
-    constraints:
-      minimum: 1
-      maximum: 6
-      
-  - description: Was the battle a siege ("Belagerung")?
-    format: default
-    name: category_belagerung
-    title: Siege
-    type: boolean
+  - format: default
+    name: order
+    title: order
+    type: number
+  - format: default
+    name: siege
+    title: siege
+    type: number
+  - format: default
+    name: battle
+    title: battle
+    type: number
   - description: Was the battle a major battle ("Schlacht")?
     format: default
     name: category_schlacht
@@ -67,16 +54,34 @@ schema:
     name: category_treffen
     title: Meeting
     type: boolean
+  - description: Was the battle a siege ("Belagerung")?
+    format: default
+    name: category_belagerung
+    title: Siege
+    type: boolean
   - description: Was the battle a surrender ("Kapitulation")?
     format: default
     name: category_kapitulation
     title: Surrender
     type: boolean
-  - format: default
+  - description: Was the battle a capture ("Einnahme")?
+    format: default
     name: category_einnahme
     title: Capture
     type: integer
-    description: Was the battle a capture ("Einnahme")?
+  - constraints:
+      maximum: 6
+      minimum: 1
+    description: 'Category of the battle based on total casualties. For land battles
+      the categories area
+
+      1. > 30,000 2. > 20,000  3. > 10,000  4. > 5,000 5. > 3,000 6. > 1,000
+
+      '
+    format: default
+    name: category_size
+    title: Size
+    type: integer
   - description: Page number in Bodart (1908)
     format: default
     name: page

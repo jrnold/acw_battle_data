@@ -8,8 +8,8 @@ schema:
     title: Battle Id.
     type: string
   - format: default
-    name: country
-    title: Country
+    name: belligerent
+    title: belligerent
     type: string
   - format: default
     name: name

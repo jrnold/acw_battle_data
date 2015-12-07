@@ -7,14 +7,9 @@ schema:
     name: battle_id
     title: Battle id
     type: string
-  - constraints:
-      enum:
-      - Conferacy
-      - Union
-    description: Belligerent (Union or Confederate) of the force.
-    format: default
-    name: country
-    title: country
+  - format: default
+    name: belligerent
+    title: belligerent
     type: string
   - description: Did the side win?
     format: default
@@ -172,6 +167,10 @@ schema:
     title: Losses of cannons
     type: integer
   - format: default
+    name: losses_canons
+    title: losses_canons
+    type: number
+  - format: default
     name: losses_flags
     title: Losses of flags
     type: integer
@@ -184,7 +183,7 @@ schema:
     title: Losses of wagons
     type: integer
   - format: default
-    name: other
-    title: Comments
+    name: note
+    title: note
     type: string
 title: 'Bodart (1908) battle data: force strengths and casualties'

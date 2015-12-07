@@ -5,16 +5,17 @@ Bodart (1908) battles of the American Civil War
 :path: data/bodart1908_battles.csv
 :format: csv
 
-Bodart (1908) data on battles of the American Civil War
+Bodart (1908) *Militär-historisches kreigs-lexikon* data on battles of the American Civil War
 
 These data are from Bodart (1908) *Militär-Historisches Kreigs-Lexicon (1618-1905)*.
-The *Kriegs-Lexicon* includes over 600 battles from European wars 1618--1905.
+The *Kreigs-Lexicon* includes over 600 battles from European wars 1618--1905.
 
   The most important Engagements, meetings, battles, sieges,
   assaults, capitulations all wars, with the exception of the colonial
   wars in periods of 1618-1905.
 
-This data only includes the 50 battles that are part of the American Civil War (Nordamerikanischer Bürgerkrieg), pp. 522-542.
+This data only includes the 50 battles that are part of the American Civil War (pp. 522-542, ).
+In Bodart, the war is called Nordamerikanischer Bürgerkrieg, the Conderacy is referred to as Konföderierten (Suudstaaten), and the US as Unierten (Nordstaaten).
 
 His criteria for including battles in his list is that they were either
 
@@ -22,18 +23,13 @@ His criteria for including battles in his list is that they were either
   - or involved great number of losses
 
     - land battle: Losses of greater than 2,000 men on both sides
-    - sea battle: Because sea battles had fewer men, some with losses of less than 1000 were included.
+    - sea battle: Because sea battles had fewer men, some with losses of less than 1,000 were included.
 
 Bodart determines the victor of the battle as follows
 
 1. the side that claimed the battlefield or achieved purpose of fighting
 2. else, the side which had a lower percentage of casualties 
    
-In his figues of force strength, Bodart includes all forces that could
-be disposable for the battle, even if they did not participate. His
-reasoning is that even if not used, they influence the disposition and
-tactics of the enemy.
-
 His description of the data (p. 45-47, Google Books translation from German to English):
 
     On admission, the statistically treated battles meeting, sieges,
@@ -80,15 +76,63 @@ His description of the data (p. 45-47, Google Books translation from German to E
     Where it was feasible, the loss of trophies and
     war material were attached.  
 
-    When the strength data were always armed forces led those who were
-    the battle for disposable and emergency could be used, therefore,
-    still in and not just those who were really in the fight. Author
-    went here from consideration of that that even that of a number of
-    troops at a the field of battle not too distant places the
-    opponent in his dispositions affect and presence on the course of
-    events influence affect could, therefore those troops if they are
-    also on the fight and the decision took no share, were included.
+    The strength information those forces were always given, which were disposable for battle, and therefore in an emergency could still be used, and not merely those which really came into the fight. The author went here based on the consideration that even the presence of a number of troops at one of the battle-field not too distant places affect the enemy in his dispositions, and could act affecting the course of events, therefore, those troops when they where also fight and the decision took no part, were included.
+    
+    The next to each conflict in the parentheses point to emphasize its meaning at first glance in the manner that the paragraph in question "Lio category called, in which ranks of battle.
+    
+    For the rank classification or categories of fighting, the total amount of losses (bloody and bloodless) both opponents were decisive for the author, taken together, u. ZW. Range from the
 
+    Fight on land in the
+    
+    - 1st category, those in which the total casualties reached at least 30,000
+    - 2nd category ... 20,000
+    - 3rd category ... 10,000
+    - 4th category ... 5,000
+    - 5th category ... 3,000
+    - 6th category ... 1,000      
+
+    In the battles at sea in the
+
+    - 1st category, those in which the total casualties reached at least 10,000
+    - 2nd category ... 5,000
+    - 3rd category ... 3,000
+    - 4th category ... 2,000
+    - 5th category ... 1,000
+    - 6th category ... 500      
+
+    Left the battles which the first three categories innate (about 250 in number), and which represent the greatest fights of modern times and the most recent time, was already at the point where they reach the treatise, a bouncing into your eyes preferably sooner so that readers will point out at once that he has to do here with a meaningful fight.
+      
+    The strength and casualty figures have been rounded up by the author after u. Btw. In such a way that a number of less than 50 men on 50, such a of less than 100 men were rounded down to 100.
+
+And on page 601:
+
+   With regard to the rank classification of fighting in six
+   categories, is with regard to the land battles, and -meeting
+   -Gefechte, and referenced with respect to the sea-battles,
+   and -meeting -Gefechte to the "Explanatory Preface" in the on page
+   47 apparent explanation.
+   
+   With regard to the rank classification of fights included in the
+   column "attack, siege, storming, surrender fortified places" is
+   expressly noted that not as the sum total of the mutual losses as a
+   basis of classification used in the battles, meetings and
+   engagements in these battles, but the strength of the occupation of
+   the fortified place in question, so that a besieged fortress with a
+   garrison of more than 30,000 men under the struggles 1st order, one
+   with 20,000 to 30,000 men in the 2nd order, etc., as set out on
+   page 47 included, has been.  With regard to the "capitulations in
+   the open field," so the overall strength of the resultant army
+   served as the basis for the ranking classification, again after the
+   numeral regular gradation of the six categories, as discussed on
+   page 47 concerning the fighting on land.
+
+
+Locations of data on the American Civil War
+
+- The costliest battles of the war leading states since 1618: p. 843
+- The largest victories and commanders. p. 774
+- Generals killed in battle. p. 911-
+    
 Translations of the German terms used in Bodart
 
 - Streitkräfte = "armed forces"
@@ -124,12 +168,12 @@ Bodart classifies battles into the following cateogies:
 
 - Belagerung : siege
 - Einnahme : taking
+- Gefecht :  battle
 - Treffen : meeting, encounter
 - Schlacht : battle
 - Kapitulation : surrender
 - Erstürmung : storming
 - Einschliessung : confinement
-- Gefecht :  battle
 - Überfall : raid
 - Vergebliche belagerung : unsuccessful siege
 - Seeschlacht : naval battle 
@@ -141,7 +185,7 @@ These battle types are placed into 4 larger categories (see pp 602-607) with sub
 - "Angriff, Erstürmung, Belagerung, Kapitulation befestigter Plätse" ("Attack, assault, siege, capitulation fortified places")
 - "Kapitulation auf freiem Felde ("surrenders (not after a siege)")
 
-There is also a category entitled "Summe der"
+There is also a category entitled "Summe der" (total of the ...)
 
 - Kämpfe zu Lande ("battles on land")
 - Kämpfe zur See ("battles at sea")
@@ -186,6 +230,15 @@ The relevant data that I extract from this text is,
   - gesamt-starke = 54000
   - commander "GM. Buell"
 
+The sources cited by Bodart are (p. 29):
+
+- Badeau "Military History of Ulysses S. Grant"
+- Century Company "Battles and leaders of the civil war"
+- Lee-Childe "Le general Lee, sa vie er ses campagnes"
+- Official Records of the Union and Confederate armies
+- Paris, comte de "Histoire de la guerre civile en Amerique"
+
+
 
 
 Schema
@@ -198,9 +251,18 @@ Schema
 battle_id
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: Battle Id
-:type: string
+:title: Battle number
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 1 
+    
+         
 
 
 
@@ -209,23 +271,23 @@ battle_id
 name
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: Battle Name
+:title: Battle name
 :type: string
 :format: default 
 
 
-Name of the battle (in German)
+Name of the battle
        
 
-other_name
+other_names
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: Other Name
+:title: Other name(s)
 :type: string
 :format: default 
 
 
-Alternate names for the battle (in German)
+Alternate names for the battle
        
 
 start_date
@@ -261,19 +323,29 @@ location
 Location of the battle (in German)
        
 
-order
+category
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-:title: Order
-:type: number
+:title: Category
+:type: integer
 :format: default 
+:constraints:
+    
+    
+    
+    
+    
+    :minimum: 1 
+    :maximum: 6 
+         
 
 
 
-Battle severity. Bodart classifies the severity of battles on a 5 point scale.
+Category of the battle based on total casualties. For land battles the categories area
+1. > 30,000 2. > 20,000 3. > 10,000 4. > 5,000 5. > 3,000 6. > 1,000
        
 
-siege
+category_belagerung
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 :title: Siege
@@ -284,7 +356,7 @@ siege
 Was the battle a siege ("Belagerung")?
        
 
-battle
+category_schlacht
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 :title: Battle
@@ -295,7 +367,7 @@ battle
 Was the battle a major battle ("Schlacht")?
        
 
-meeting
+category_treffen
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 :title: Meeting
@@ -306,7 +378,7 @@ meeting
 Was the battle a meeting or encounter ("Treffen")?
        
 
-surrender
+category_kapitulation
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 :title: Surrender
@@ -317,18 +389,7 @@ surrender
 Was the battle a surrender ("Kapitulation")?
        
 
-siege.1
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-:title: siege.1
-:type: integer
-:format: default 
-
-
-
-       
-
-capture
+category_einnahme
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 :title: Capture
@@ -336,7 +397,7 @@ capture
 :format: default 
 
 
-
+Was the battle a capture ("Einnahme")?
        
 
 page

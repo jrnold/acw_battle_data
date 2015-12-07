@@ -8,10 +8,9 @@ schema:
     name: battle_id
     title: Battle Id.
     type: string
-  - description: Country of the commander
-    format: default
-    name: country
-    title: Country
+  - format: default
+    name: belligerent
+    title: belligerent
     type: string
   - description: Name of the commander
     format: default

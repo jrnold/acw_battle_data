@@ -582,14 +582,13 @@ build <- function(src, dst) {
   write_csv(commanders$commanders, file.path(dst, "nps_commanders.csv"))
   write_csv(commanders$people, file.path(dst, "nps_people.csv"))
 
-
 }
 
-# main <- function() {
-#   arglist <- commandArgs(TRUE)
-#   src <- arglist[1]
-#   dst <- arglist[2]
-#   build(src, dst)
-# }
-#
-# main()
+main <- function() {
+  arglist <- commandArgs(TRUE)
+  src <- arglist[1]
+  dst <- arglist[2]
+  build(src, dst)
+}
+
+main()

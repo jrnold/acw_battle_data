@@ -66,64 +66,11 @@ update_forces <- function(src, dst) {
             file = file.path(dst, "clodfelter_forces.csv"))
 }
 
-update_battles <- function(src, dst) {
-  clodfelter_to_cwsac <- read_csv(file.path(dst, "clodfelter_to_cwsac.csv"))
-  clodfelter_battles <- read_csv(file.path(dst, "clodfelter_battles.csv"))
-  nps_battles <- read_csv(file.path(dst, "nps_battles.csv"))
-  results <- read_csv(file.path(src, "rawdata", "clodfelter2008",
-                                "results.csv")) %>%
-    select(battle, result2)
-
-  clodfelter_results <-
-    clodfelter_to_cwsac %>%
-    filter(relation == "=") %>%
-    rename(cwsac_id = to, battle = from) %>%
-    select(- relation) %>%
-    left_join(nps_battles %>% select(cwsac_id, result),
-              by = "cwsac_id") %>%
-    left_join(results, by = "battle") %>%
-    mutate(result = pnonmiss(result2, result)) %>%
-    select(battle, result)
-
-  battles <-
-    left_join(clodfelter_battles, clodfelter_results,
-              by = "battle") %>%
-    arrange(battle)
-
-  write_csv(battles, file.path(dst, "clodfelter_battles.csv"))
-
-}
-
-update_commanders <- function(src, dst) {
-  clodfelter_to_cwsac <- read_csv(file.path(dst, "clodfelter_to_cwsac.csv"))
-  clodfelter_battles <- read_csv(file.path(dst, "clodfelter_battles.csv"))
-  nps_commanders <- read_csv(file.path(dst, "nps_commanders.csv"))
-  commanders <- read_csv(file.path(src, "rawdata", "clodfelter2008",
-                                "commanders.csv")) %>%
-    select(battle, belligerent, PersonID, last_name, first_name, middle_name,
-           middle_initial, rank, navy)
-
-  clodfelter_commanders <-
-    clodfelter_to_cwsac %>%
-    filter(relation == "=") %>%
-    rename(cwsac_id = to, battle = from) %>%
-    select(- relation) %>%
-    left_join(nps_commanders,
-              by = "cwsac_id") %>%
-    bind_rows(commanders)
-
-  write_csv(clodfelter_commanders,
-            file.path(dst, "clodfelter_commanders.csv"))
-
-}
-
 main <- function() {
   args <- commandArgs(TRUE)
   src <- args[1]
   dst <- args[2]
   update_forces(src, dst)
-  update_battles(src, dst)
-  update_commanders(src, dst)
 }
 
 main()

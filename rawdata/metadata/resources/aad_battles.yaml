@@ -14,13 +14,8 @@ schema:
     name: reference_number
     title: Reference Number
     type: string
-  - description: '
-
-      Name of the battle site/event. The events recorded in the database are primarily
-      based on the Official Records listing of Principal Military Events for the Civil
-      War.'
-    format: default
-    name: Event
+  - format: default
+    name: event
     title: event
     type: string
   - description: '
@@ -46,18 +41,6 @@ schema:
     name: end_date
     title: End date
     type: date
-  - constraints:
-      maxLength: 2
-      minLength: 2
-      pattern: '[A-Z]{2}'
-    description: '
-
-      Two-letter abbreviation of the state in which the battle site/event is located.
-      e.g., Alabama = AL'
-    format: default
-    name: state
-    title: State
-    type: string
   - description: '
 
       The name of the theater. 1 Main Eastern Theater of operation. 2 Lower Seaboard
@@ -259,20 +242,8 @@ schema:
     name: interpretive_naval
     title: 'Interpretive Potential: Naval Operations'
     type: boolean
-  - constraints:
-      enum:
-      - A
-      - B
-      - C
-      - D
-    description: Dr. James M. McPherson. The letter in this field is Dr. McPherson's
-      initial opinion regarding the military importance of the event. (Refer to MILITARY
-      above.) An entry was made in this field only when Dr. McPherson disagreed with
-      the first military importance value assigned to the event. Differences of opinion
-      about the military importance of specific battle events were resolved at an
-      October 23, 1992 meeting.
-    format: default
-    name: Military (Jim)
+  - format: default
+    name: jim
     title: jim
     type: string
   - constraints:

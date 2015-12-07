@@ -249,8 +249,8 @@
         navy: false
         rank: Brigadier General
       gunboats: 7
-      gunboats captured: 5
-      guns lost: 32
+      gunboats_captured: 5
+      guns_lost: 32
       killed: 24
       strength: 3000
       wounded_missing: 222
@@ -265,7 +265,7 @@
         rank: Brigadier General
       killed: 41
       strength: 13000
-      warships and transports: 80
+      warships_and_transports: 80
       wounded_missing: 242
   page: 294
   result: Union
@@ -348,9 +348,9 @@
         rank: Lieutenant
       guns: 219
       killed: 257
-      warships damaged: 1
-      warships sunk: 2
-      wooden warships: 5
+      warships_damaged: 1
+      warships_sunk: 2
+      wooden_warships: 5
       wounded: 146
   page: 294
   result: Union
@@ -948,7 +948,7 @@
         middle_name: John
         navy: false
         rank: Brigadier General
-      guns lost: 22
+      guns_lost: 22
       killed: 894
       missing_captured: 2836
       strength: 34214
@@ -1038,7 +1038,7 @@
         navy: false
         rank: Major General
       divisions: 4
-      guns lost: 18
+      guns_lost: 18
       killed: 297
       missing: 1804
       wounded: 1696
@@ -1199,7 +1199,7 @@
         middle_name: ''
         navy: false
         rank: Major General
-      guns lost: 30
+      guns_lost: 30
       killed: 1724
       missing_captured: 5958
       strength: 75696
@@ -1521,7 +1521,7 @@
         middle_name: Bibb
         navy: false
         rank: Major General
-      guns lost: 12
+      guns_lost: 12
       killed: 125
       missing: 99
       strength: 4500
@@ -1679,7 +1679,7 @@
         navy: true
         rank: Commander
       gunboats: 10
-      gunboats sunk: 9
+      gunboats_sunk: 9
       guns: 126
       killed: 185
       strength: 1100
@@ -1695,7 +1695,7 @@
         rank: Flag Officer
       frigates: 2
       gunboats: 9
-      gunboats sunk: 1
+      gunboats_sunk: 1
       guns: 243
       killed: 37
       sloops: 7
@@ -2118,7 +2118,7 @@
         middle_name: Huston
         navy: false
         rank: Brigadier General
-      guns lost: 23
+      guns_lost: 23
       killed: 95
       missing: 4058
       strength: 5100
@@ -2211,7 +2211,7 @@
   forces:
     Confederate:
       casualties: 408
-      cavalry divisions: 1
+      cavalry_divisions: 1
       commanders:
       - PersonID: 6df9b482-4757-474f-80a9-bd1d82228a63
         first_name: James
@@ -2222,7 +2222,7 @@
         rank: Major General
     US:
       casualties: 1251
-      cavalry divisions: 1
+      cavalry_divisions: 1
       commanders:
       - PersonID: 7830dd73-a91e-4fe5-b112-4492303f8c2d
         first_name: Hugh
@@ -2345,8 +2345,8 @@
         rank: Commander
       companies: 3
       gunboats: 5
-      gunboats captured: 1
-      gunboats sunk: 1
+      gunboats_captured: 1
+      gunboats_sunk: 1
       guns: 28
   page: 305
   result: Confederate
@@ -2451,7 +2451,7 @@
         navy: false
         rank: Major General
       guns: 57
-      guns lost: 57
+      guns_lost: 57
       killed_wounded: 623
       strength: 6715
     US:
@@ -2845,9 +2845,9 @@
         middle_name: Clifford
         navy: false
         rank: Lieutenant General
-      guns lost: 172
+      guns_lost: 172
       killed_wounded: 4910
-      small arms lost: 60000
+      small_arms_lost: 60000
       strength: 30000
     US:
       casualties: 5000
@@ -3090,10 +3090,10 @@
         middle_name: ''
         navy: false
         rank: General
-      guns lost: 41
+      guns_lost: 41
       killed: 361
       missing_captured: 4146
-      small arms lost: 7000
+      small_arms_lost: 7000
       strength: 40929
       wounded: 2160
     US:
@@ -4194,7 +4194,7 @@
         middle_name: Anderson
         navy: false
         rank: Lieutenant General
-      guns lost: 25
+      guns_lost: 25
       killed_wounded: 300
       strength: 8000
     US:
@@ -4231,7 +4231,7 @@
         middle_name: Anderson
         navy: false
         rank: Lieutenant General
-      guns lost: 25
+      guns_lost: 25
       killed: 320
       missing_captured: 1050
       strength: 18410
@@ -4633,7 +4633,7 @@
         middle_name: ''
         navy: false
         rank: Major General
-      guns lost: 20
+      guns_lost: 20
       killed: 108
       strength: 12000
       wounded: 643
@@ -4941,7 +4941,7 @@
         navy: false
         rank: Brigadier General
       guns: 22
-      guns lost: 18
+      guns_lost: 18
       killed: 223
       strength: 8300
       wounded: 394
@@ -5338,7 +5338,7 @@
         middle_name: Bell
         navy: false
         rank: General
-      guns lost: 53
+      guns_lost: 53
       killed_wounded: 1500
       strength: 23207
     US:
@@ -5426,12 +5426,12 @@
         navy: false
         rank: Brigadier General
       crewmen: 470
-      forts captured: 1
+      forts_captured: 1
       gunboats: 3
-      gunboats captured: 2
+      gunboats_captured: 2
       guns: 91
       ironclads: 1
-      ironclads captured: 1
+      ironclads_captured: 1
       killed_wounded: 69
     US:
       commanders:
@@ -5452,9 +5452,9 @@
       crewmen: 3000
       guns: 199
       ironclads: 4
-      ironclads sunk: 1
+      ironclads_sunk: 1
       killed: 172
-      wooden warships: 14
+      wooden_warships: 14
       wounded: 170
   note: 'The Union includes 93 killed on the sunken ironclad Tecumseh, 25 killed,
 
@@ -5772,7 +5772,7 @@
       killed_wounded: 2000
       strength: 10000
     US:
-      cavalry corps: 1
+      cavalry_corps: 1
       commanders:
       - PersonID: 407e5664-e1ff-49aa-984d-79f7508a5e7f
         first_name: Philip

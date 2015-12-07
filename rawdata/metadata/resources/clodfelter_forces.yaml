@@ -1,4 +1,3 @@
-description: ''
 format: csv
 name: clodfelter_forces
 path: data/clodfelter_forces.csv
@@ -203,6 +202,10 @@ schema:
     name: guns_lost
     title: Guns Lost
     type: integer
+  - format: default
+    name: guns_captured
+    title: guns_captured
+    type: number
   - constraints:
       minimum: 0
     description: Number of small arms captured by the opponent.
@@ -210,6 +213,10 @@ schema:
     name: small_arms_lost
     title: Small Arms Lost
     type: integer
+  - format: default
+    name: small_arms_captured
+    title: small_arms_captured
+    type: number
   - constraints:
       minimum: 0
     description: Number of warships sunk by the opponent.

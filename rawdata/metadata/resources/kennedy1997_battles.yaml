@@ -64,4 +64,8 @@ schema:
     name: casualties_text
     title: Casualties
     type: string
+  - format: default
+    name: missing
+    title: missing
+    type: number
 title: 'Civil War Battlefield Guide data: battles'

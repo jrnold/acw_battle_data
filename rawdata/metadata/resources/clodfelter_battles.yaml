@@ -13,6 +13,10 @@ schema:
     title: Theater
     type: string
   - format: default
+    name: theater_years
+    title: theater_years
+    type: string
+  - format: default
     name: start_date
     title: Start date
     type: date
@@ -20,11 +24,6 @@ schema:
     name: end_date
     title: End Date
     type: date
-  - description: Page number in Clodfelter (2008)
-    format: default
-    name: page
-    title: Page
-    type: integer
   - constraints:
       enum:
       - Union
@@ -41,4 +40,9 @@ schema:
     - CWSAC1993b
     title: Result
     type: string
+  - description: Page number in Clodfelter (2008)
+    format: default
+    name: page
+    title: Page
+    type: integer
 title: 'Clodfelter (2008) battle data: battles'

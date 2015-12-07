@@ -1,14 +1,19 @@
-import csv
 import yaml
-from os import path
+import re
 
-with open(path.expanduser("clodfelter.yaml"), "r") as f:
+with open("clodfelter.yaml", "r") as f:
     data = yaml.load(f)
 
+def rename(x, k, j):
+    if k in x:
+        x[j] = x[k]
+        del x[k]
+          
 for battle in data:
-    for k in battle["forces"]:
-        for cdr in battle["forces"][k]['commanders']:
-            cdr['navy'] = (cdr['navy'] == '1')
+    for belligerent in battle['forces']:
+          for k in battle['forces'][belligerent]:
+             if ' ' in k:
+                 rename(battle['forces'][belligerent], k, re.sub(' ', '_', k))
 
 with open("clodfelter-new.yaml", "w") as f:
     yaml.dump(data, f, default_flow_style = False)
