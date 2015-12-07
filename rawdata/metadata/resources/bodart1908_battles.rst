@@ -178,3 +178,12 @@ The relevant data that I extract from this text is,
 - Union force
   - gesamt-starke = 54000
   - commander "GM. Buell"
+
+The sources cited by Bodart are (p. 29):
+
+- Badeau "Military History of Ulysses S. Grant"
+- Century Company "Battles and leaders of the civil war"
+- Lee-Childe "Le general Lee, sa vie er ses campagnes"
+- Official Records of the Union and Confederate armies
+- Paris, comte de "Histoire de la guerre civile en Amerique"
+
