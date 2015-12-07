@@ -11,7 +11,7 @@ schema:
     name: battle_name
     title: battle_name
     type: string
-  - format: default
+  - format: url
     name: dbpedia
     title: dbpedia
     type: string
@@ -21,4 +21,4 @@ schema:
     type: string
 sources:
 - Livermore1900
-title: livermore_to_dbpedia
+title: Correspondence between Livermore (1900) battles and dbpedia.org resources

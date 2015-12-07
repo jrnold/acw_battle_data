@@ -7,34 +7,56 @@ schema:
     name: battle
     title: battle
     type: integer
+    constraints:
+      minimum: 2262
+      maximum: 2410
+    description: >-
+      Identifier number of the battle.
+
+      These are the numbers used in Phisterer (1883). They start at 2262 because 1-2261
+      refer to the events in the chronological record (see :doc:`phisterer_chronological`).
+      
   - format: default
     name: battle_name
-    title: battle_name
+    title: Battle name
     type: string
   - format: default
     name: state
     title: state
     type: string
+    constraints:
+      pattern: "[A-Z][A-Z]"
+    description: >-
+      Two-letter state code for the state of the battle.
   - format: default
     name: start_date
-    title: start_date
-    type: string
+    title: Start date
+    type: date
   - format: default
     name: end_date
-    title: end_date
-    type: string
+    title: End date
+    type: date
   - format: default
     name: surrender
     title: surrender
-    type: integer
+    type: boolean
+    description: >-
+      Was the engagement a surrender rather than a battle?
+
+      Examples include the surrenders of Johnston, 
   - format: default
     name: campaign
-    title: campaign
-    type: integer
+    title: Campaign
+    type: boolean
+    description: >-
+      Was the engagement a campaign rather than a battle?
+
+      Phisterer includes entries for the surrenders of Johnston, Taylor, Sam Jones, Jeff Thompson, and Kirby Smith at the end of the war.
   - format: default
     name: page
-    title: page
+    title: Page
     type: integer
+    description: Page number in Phisterer (1883).
 sources:
 - Phisterer1883
-title: phisterer_battles
+title: "Phisterer (1883) battle data: battle list"

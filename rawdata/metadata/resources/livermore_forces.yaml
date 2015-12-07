@@ -7,30 +7,48 @@ schema:
     name: seq_no
     title: seq_no
     type: integer
+    constraints:
+      minimum: 1
+    description: Battle number.
   - format: default
     name: belligerent
-    title: belligerent
+    title: Belligerent
     type: string
+    constraints:
+      enum:
+        - US
+        - Confederate
   - format: default
     name: str
     title: str
-    type: number
+    type: integer
+    constraints:
+      minimum: 0
   - format: default
     name: kia
-    title: kia
-    type: number
+    title: Killed
+    type: integer
+    constraints:
+      minimum: 0
+    description: 
   - format: default
     name: wia
-    title: wia
-    type: number
+    title: Wounded
+    type: integer
+    constraints:
+      minimum: 0
   - format: default
     name: kw
-    title: kw
-    type: number
+    title: Killed or Wounded
+    type: integer
+    constraints:
+      minimum: 0
   - format: default
     name: miapow
-    title: miapow
-    type: number
+    title: Missing or Captured
+    type: integer
+    constraints:
+      minimum: 0
 sources:
 - Livermore1900
-title: livermore_forces
+title: "Livermore (1900) battle data: force strengths and casualties"
