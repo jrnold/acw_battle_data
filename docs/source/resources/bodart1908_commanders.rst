@@ -21,6 +21,8 @@ This table contains the commanders of each force in each battle in Bodart.
 Schema
 ======
 
+
+
 ===========  ======  ===========
 battle_id    string  Battle Id.
 belligerent  string  belligerent

@@ -65,6 +65,8 @@ With regards to battles not considered, Fox writes,
 Schema
 ======
 
+
+
 ============  ======  ============
 victor        string  Victor
 victory_type  string  Victory type

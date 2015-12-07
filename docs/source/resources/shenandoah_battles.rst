@@ -1,6 +1,6 @@
-##################
-shenandoah_battles
-##################
+##################################################
+NPS Shenandoah Report battle data: list of battles
+##################################################
 
 :name: shenandoah_battles
 :path: data/shenandoah_battles.csv
@@ -14,6 +14,8 @@ shenandoah_battles
 
 Schema
 ======
+
+
 
 =============  =======  =============
 battle_number  integer  battle_number

@@ -1,6 +1,6 @@
-################
-livermore_forces
-################
+############################################################
+Livermore (1900) battle data: force strengths and casualties
+############################################################
 
 :name: livermore_forces
 :path: data/livermore_forces.csv
@@ -15,15 +15,17 @@ livermore_forces
 Schema
 ======
 
-===========  =======  ===========
+
+
+===========  =======  ===================
 seq_no       integer  seq_no
-belligerent  string   belligerent
-str          number   str
-kia          number   kia
-wia          number   wia
-kw           number   kw
-miapow       number   miapow
-===========  =======  ===========
+belligerent  string   Belligerent
+str          integer  str
+kia          integer  Killed
+wia          integer  Wounded
+kw           integer  Killed or Wounded
+miapow       integer  Missing or Captured
+===========  =======  ===================
 
 seq_no
 ------
@@ -31,19 +33,23 @@ seq_no
 :title: seq_no
 :type: integer
 :format: default
+:constraints:
+    :minimum: 1
+    
 
-
-
+Battle number.
 
 
        
 belligerent
 -----------
 
-:title: belligerent
+:title: Belligerent
 :type: string
 :format: default
-
+:constraints:
+    :enum: ['US', 'Confederate']
+    
 
 
 
@@ -53,9 +59,11 @@ str
 ---
 
 :title: str
-:type: number
+:type: integer
 :format: default
-
+:constraints:
+    :minimum: 0
+    
 
 
 
@@ -64,22 +72,26 @@ str
 kia
 ---
 
-:title: kia
-:type: number
+:title: Killed
+:type: integer
 :format: default
+:constraints:
+    :minimum: 0
+    
 
-
-
+None
 
 
        
 wia
 ---
 
-:title: wia
-:type: number
+:title: Wounded
+:type: integer
 :format: default
-
+:constraints:
+    :minimum: 0
+    
 
 
 
@@ -88,10 +100,12 @@ wia
 kw
 --
 
-:title: kw
-:type: number
+:title: Killed or Wounded
+:type: integer
 :format: default
-
+:constraints:
+    :minimum: 0
+    
 
 
 
@@ -100,10 +114,12 @@ kw
 miapow
 ------
 
-:title: miapow
-:type: number
+:title: Missing or Captured
+:type: integer
 :format: default
-
+:constraints:
+    :minimum: 0
+    
 
 
 

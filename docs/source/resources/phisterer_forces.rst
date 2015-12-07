@@ -20,6 +20,8 @@ In this data each observation is a force (belligerent, battle).
 Schema
 ======
 
+
+
 ===========  =======  ===========
 battle       integer  battle
 belligerent  string   belligerent

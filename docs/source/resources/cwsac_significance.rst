@@ -18,6 +18,8 @@ CWSAC Report Updates battle data: military significance categories
 Schema
 ======
 
+
+
 ===========  ======  ===========
 value        string  Value
 description  string  Description

@@ -41,6 +41,8 @@ Corrections to the casualty data:
 Schema
 ======
 
+
+
 ===============  =======  ================
 battle           string   Battle
 name             string   Battle name

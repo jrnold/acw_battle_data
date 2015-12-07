@@ -16,6 +16,8 @@ See :doc:`wikipedia_battles`.
 Schema
 ======
 
+
+
 ====================  ======  ====================
 battle                string  battle
 belligerent           string  belligerent

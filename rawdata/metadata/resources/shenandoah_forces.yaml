@@ -3,77 +3,71 @@ name: shenandoah_forces
 path: data/shenandoah_forces.csv
 schema:
   fields:
-  - format: default
+  - description: Battle number in the NPS Shenandoah report.
+    format: default
     name: battle_number
     title: Battle number
     type: integer
-    description: >-
-      Battle number in the NPS Shenandoah report.
   - format: default
     name: cwsac_id
     title: CWSAC Id.
     type: string
-  - format: default
+  - constraints:
+      enum:
+      - US
+      - Confederate
+    format: default
     name: belligerent
     title: Belligerent
-    constraints:
-      enum:
-        - US
-        - Confederate
     type: string
   - format: default
     name: description
     title: Description
     type: string
-  - format: default
+  - description: 'Strength in personnel of the force (minimum value).
+
+      If no range is given, the maximum and minimum are set to the same value.'
+    format: default
     name: strength_min
     title: Strength (min)
     type: integer
-    description: >-
-      Strength in personnel of the force (minimum value).
+  - description: 'Strength in personnel of the force (maximum value).
 
-      If no range is given, the maximum and minimum are set to the same value.
-  - format: default
+      If no range is given, the maximum and minimum are set to the same value.'
+    format: default
     name: strength_max
     title: Strength (max)
     type: integer
-    description: >-
-      Strength in personnel of the force (maximum value).
-
-      If no range is given, the maximum and minimum are set to the same value.
-    
-  - format: default
+  - description: Text describing the casualties of the battle.
+    format: default
     name: casualties_text
     title: casualties_text
     type: string
-    description: Text describing the casualties of the battle.
-  - format: default
+  - constraints:
+      minimum: 0
+    description: Total casualties (killed, wounded, and missing or captured)
+    format: default
     name: casualties
     title: Casualties
     type: integer
-    constraints:
+  - constraints:
       minimum: 0
-    description: >-
-      Total casualties (killed, wounded, and missing or captured)
-  - format: default
+    format: default
     name: killed
     title: Killed
     type: integer
-    constraints:
+  - constraints:
       minimum: 0
-  - format: default
+    format: default
     name: wounded
     title: Wounded
     type: integer
-    constraints:
+  - constraints:
       minimum: 0
-  - format: default
+    format: default
     name: missing_captured
     title: Missing or Captured
     type: integer
-    constraints:
-      minimum: 0
 sources:
 - NPS1992
-title: "NPS Shenandoah Report battle data: force strengths and casualties"
-
+title: 'NPS Shenandoah Report battle data: force strengths and casualties'

@@ -15,6 +15,8 @@ Clodfelter (2008) battle data: forces
 Schema
 ======
 
+
+
 =======================  =======  =======================
 battle                   string   Battle
 belligerent              string   Belligerent

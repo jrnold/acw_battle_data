@@ -19,6 +19,8 @@ See :doc:`kennedy1997_battles` for more information.
 Schema
 ======
 
+
+
 ==================  =======  =======================
 battle              string   Battle
 belligerent         string   belligerent

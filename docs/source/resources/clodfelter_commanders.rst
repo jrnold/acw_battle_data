@@ -18,6 +18,8 @@ Clodfelter does not directly list the principal commander of the battles. These 
 Schema
 ======
 
+
+
 ================  =======  ================
 battle            string   battle
 belligerent       string   belligerent

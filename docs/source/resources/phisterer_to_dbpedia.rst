@@ -18,6 +18,8 @@ See :doc:`phisterer_to_cwsac` for notes on specific battles.
 Schema
 ======
 
+
+
 ========  =======  ========
 from      integer  from
 to        string   to

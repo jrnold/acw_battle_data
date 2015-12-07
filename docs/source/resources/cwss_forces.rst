@@ -15,6 +15,8 @@ CWSS battle data: forces
 Schema
 ======
 
+
+
 ===============  =======  ===============
 BattlefieldCode  string   BattlefieldCode
 belligerent      string   belligerent

@@ -22,6 +22,8 @@ The data consist of 4,340 engagements, the locations of those engagements, and c
 Schema
 ======
 
+
+
 ============  =======  ============================
 battleNum     integer  Battle number
 battleDetail  string   Battle details

@@ -36,6 +36,8 @@ CWSAC Report Updates battle data: locations
 Schema
 ======
 
+
+
 ========  ======  ==============
 battle    string  Battle
 state     string  State

@@ -1,4 +1,4 @@
-Battle-level data of the battles in the original reports of the Civil War Sites Advisory Commision compiled during 1990-1993.
+gBattle-level data of the battles in the original reports of the Civil War Sites Advisory Commision compiled during 1990-1993.
 
 These reports were deposited with the `National Archives <https://archives.gov>`__ `Access to Archival Databases <https://aad.archives.gov/aad/series-description.jsp?s=1076&cat=WR25&bc=,sl>`__.
 

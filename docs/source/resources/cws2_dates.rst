@@ -36,6 +36,8 @@ CWSAC Report Updates battle data: battle dates
 Schema
 ======
 
+
+
 ==========  =======  ==========
 battle      string   Battle
 spell       integer  Spell

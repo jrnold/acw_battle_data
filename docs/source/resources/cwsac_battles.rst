@@ -224,6 +224,8 @@ Thus, confusingly:
 Schema
 ======
 
+
+
 ===============  =======  =====================
 battle           string   Battle
 url              string   url

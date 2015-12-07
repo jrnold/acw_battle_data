@@ -13,6 +13,8 @@ nps_forces
 Schema
 ======
 
+
+
 ============  ======  ============
 cwsac_id      string  cwsac_id
 belligerent   string  belligerent

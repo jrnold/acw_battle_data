@@ -13,6 +13,8 @@ nps_campaigns
 Schema
 ======
 
+
+
 =================  ======  =================
 CampaignCode       string  CampaignCode
 CampaignName       string  CampaignName

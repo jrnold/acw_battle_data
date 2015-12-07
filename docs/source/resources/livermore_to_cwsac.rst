@@ -1,6 +1,6 @@
-##################
-livermore_to_cwsac
-##################
+#################################################################
+Correspondence between Livermore (1900) battles and CWSAC battles
+#################################################################
 
 :name: livermore_to_cwsac
 :path: data/livermore_to_cwsac.csv
@@ -14,6 +14,8 @@ livermore_to_cwsac
 
 Schema
 ======
+
+
 
 ===========  =======  ===========
 from         integer  from

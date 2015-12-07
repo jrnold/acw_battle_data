@@ -18,6 +18,8 @@ CWSAC Report (1993) theaters
 Schema
 ======
 
+
+
 ============  ======  ======================
 theater       string  Theater
 dbp_resource  string  DBPedia URI

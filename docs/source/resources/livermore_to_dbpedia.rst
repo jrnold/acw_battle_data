@@ -1,6 +1,6 @@
-####################
-livermore_to_dbpedia
-####################
+#########################################################################
+Correspondence between Livermore (1900) battles and dbpedia.org resources
+#########################################################################
 
 :name: livermore_to_dbpedia
 :path: data/livermore_to_dbpedia.csv
@@ -14,6 +14,8 @@ livermore_to_dbpedia
 
 Schema
 ======
+
+
 
 ===========  =======  ===========
 seq_no       integer  seq_no
@@ -51,7 +53,7 @@ dbpedia
 
 :title: dbpedia
 :type: string
-:format: default
+:format: url
 
 
 

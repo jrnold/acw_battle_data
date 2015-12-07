@@ -3,26 +3,25 @@ name: livermore_battles
 path: data/livermore_battles.csv
 schema:
   fields:
-  - format: default
+  - constraints:
+      minimum: 1
+    descripion: Battle number, as used in the ``LIVRMORE`` dataset in the ``PAR``
+      data collection.
+    format: default
     name: seq_no
+    sources:
+    - PAR
     title: seq_no
     type: integer
-    constraints:
-      minimum: 1
-    sources:
-      - PAR
-    descripion: >-
-      Battle number, as used in the ``LIVRMORE`` dataset in the ``PAR`` data collection.
   - format: default
     name: battle_name
     title: Battle name
     type: string
-  - format: default
+  - description: Page in Livermore (1900) in which the battle description appears.
+    format: default
     name: page
     title: page
     type: integer
-    description: >-
-      Page in Livermore (1900) in which the battle description appears.
   - format: default
     name: start_date
     title: Start date
@@ -31,123 +30,114 @@ schema:
     name: end_date
     title: End date
     type: date
-  - format: default
+  - constraints:
+      enum:
+      - US
+      - Confederate
+    description: 'Was the Confederate or the US the attacker in the battle?
+
+      This did not appear directly in Livermore (1900), but is from the ``PAR`` database.'
+    format: default
     name: attacker
+    sources:
+    - PAR
     title: attacker
     type: string
-    sources:
-      - PAR
-    constraints:
+  - constraints:
       enum:
-        - US
-        - Confederate
-    description: >-
-      Was the Confederate or the US the attacker in the battle?
+      - US
+      - Confederate
+    description: 'Confederate or Union victory.
 
-      This did not appear directly in Livermore (1900), but is from the ``PAR`` database.
-      
-  - format: default
+      This did not appear directly in Livermore (1900), but is from the ``PAR`` database.'
+    format: default
     name: result
+    sources:
+    - PAR
     title: result
     type: string
-    sources:
-      - PAR
-    constraints:
+  - constraints:
       enum:
-        - US
-        - Confederate
-    description: >-
-      Confederate or Union victory.
+      - US
+      - Confederate
+    description: '"Confederate" if it was a Confederate assault on Union fortified
+      lines; "US" if it was a Union assault on Confederate fortified lines; missing
+      if it was not an assault on foritied lines.
 
-      This did not appear directly in Livermore (1900), but is from the ``PAR`` database.
-      
-  - format: default
+      This comes from the Table "Assaults on Fortified Lines" on p. 75.'
+    format: default
     name: assault_fortified
     title: Assault on fortified lines
     type: string
-    constraints:
+  - constraints:
       enum:
-        - US
-        - Confederate
-    description: >-
-      "Confederate" if it was a Confederate assault on Union fortified lines;
-      "US" if it was a Union assault on Confederate fortified lines;
-      missing if it was not an assault on foritied lines.
+      - Failure
+      - Success
+      - Partial Success
+    description: 'Assault outcome; missing if the battle was not an assault.
 
-      This comes from the Table "Assaults on Fortified Lines" on p. 75.
-      
-  - format: default
+      This comes from the Table "Assaults on Fortified Lines" on p. 75.'
+    format: default
     name: assault_outcome
     title: Assault outcome
     type: string
-    constraints:
+  - constraints:
       enum:
-        - Failure
-        - Success
-        - Partial Success
-    description: >-
-      Assault outcome; missing if the battle was not an assault.
+      - Defeat
+      - Retired
+      - Rout
+      - Victory
+    description: 'Union result for the battle.
 
-      This comes from the Table "Assaults on Fortified Lines" on p. 75.
-    
-  - format: default
+      Seperate Union and Confederate results are given because the results in the
+      tables are not symmetric. In some cases, one side is missing. In some cases,
+      even if side has a victory, the other side can have a loss or a rout.
+
+      This comes from the tables "Routs", "Victories", and "Battles Fought to Cover
+      a Prearranged Movement, Pursuing which the Army Retired after Repelling Attack",
+      on p. 76--77.'
+    format: default
     name: union_result
     title: Union result
-    constraints:
-      enum:
-        - Defeat
-        - Retired
-        - Rout
-        - Victory
     type: string
-    description: >-
-      Union result for the battle.
+  - constraints:
+      enum:
+      - Defeat
+      - Retired
+      - Rout
+      - Victory
+    description: 'Confederate result of the battle
 
-      Seperate Union and Confederate results are given because the results in the tables are not symmetric.
-      In some cases, one side is missing. In some cases, even if side has a victory, the other side can have a loss or a rout.
-
-      This comes from the tables "Routs", "Victories", and "Battles Fought to Cover a Prearranged Movement, Pursuing which the Army Retired after Repelling Attack", on p. 76--77.
-      
-  - format: default
+      This comes from the tables "Routs", "Victories", and "Battles Fought to Cover
+      a Prearranged Movement, Pursuing which the Army Retired after Repelling Attack",
+      on p. 76--77.'
+    format: default
     name: confed_result
     title: Confederate result
     type: string
-    constraints:
-      enum:
-        - Defeat
-        - Retired
-        - Rout
-        - Victory
-    description: >-
-      Confederate result of the battle
-
-      This comes from the tables "Routs", "Victories", and "Battles Fought to Cover a Prearranged Movement, Pursuing which the Army Retired after Repelling Attack", on p. 76--77.
-      
-  - format: default
+  - constraints:
+      maxLength: 2
+      minLength: 2
+      pattern: '[A-Z][A-Z]'
+    description: Two-letter abbreviation of the state in which the battle was fought.
+    format: default
     name: state
     title: State
     type: string
-    constraints:
-      minLength: 2
-      maxLength: 2
-      pattern: "[A-Z][A-Z]"
-    description: >-
-      Two-letter abbreviation of the state in which the battle was fought.
-  - format: default
+  - constraints:
+      enum:
+      - MW
+      - ME
+      - LS
+      - TM
+    description: CWSAC theater of the battle. See :doc:`cwss_theaters`.
+    format: default
     name: theater
+    sources:
+    - self
     title: Theater
     type: string
-    constraints:
-      enum:
-        - MW
-        - ME
-        - LS
-        - TM
-    description: >-
-      CWSAC theater of the battle. See :doc:`cwss_theaters`.
-    sources:
-      - self
 sources:
 - Livermore1900
 - PAR
-title: "Livermore (1900) battle data: battle list"
+title: 'Livermore (1900) battle data: battle list'

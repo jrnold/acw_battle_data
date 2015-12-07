@@ -15,6 +15,8 @@ CWSS units in each battle
 Schema
 ======
 
+
+
 ===============  ======  ================
 BattlefieldCode  string  Battlefield code
 Comment          string  Comment

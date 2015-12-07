@@ -15,6 +15,8 @@ CWSS battle data: battles
 Schema
 ======
 
+
+
 ==================  =======  ====================
 BattlefieldCode     string   Battlefield code
 BattleName          string   Battle name

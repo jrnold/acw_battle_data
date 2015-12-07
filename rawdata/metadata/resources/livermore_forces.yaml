@@ -3,52 +3,52 @@ name: livermore_forces
 path: data/livermore_forces.csv
 schema:
   fields:
-  - format: default
+  - constraints:
+      minimum: 1
+    description: Battle number.
+    format: default
     name: seq_no
     title: seq_no
     type: integer
-    constraints:
-      minimum: 1
-    description: Battle number.
-  - format: default
+  - constraints:
+      enum:
+      - US
+      - Confederate
+    format: default
     name: belligerent
     title: Belligerent
     type: string
-    constraints:
-      enum:
-        - US
-        - Confederate
-  - format: default
+  - constraints:
+      minimum: 0
+    format: default
     name: str
     title: str
     type: integer
-    constraints:
+  - constraints:
       minimum: 0
-  - format: default
+    description: null
+    format: default
     name: kia
     title: Killed
     type: integer
-    constraints:
+  - constraints:
       minimum: 0
-    description: 
-  - format: default
+    format: default
     name: wia
     title: Wounded
     type: integer
-    constraints:
+  - constraints:
       minimum: 0
-  - format: default
+    format: default
     name: kw
     title: Killed or Wounded
     type: integer
-    constraints:
+  - constraints:
       minimum: 0
-  - format: default
+    format: default
     name: miapow
     title: Missing or Captured
     type: integer
-    constraints:
-      minimum: 0
 sources:
 - Livermore1900
-title: "Livermore (1900) battle data: force strengths and casualties"
+title: 'Livermore (1900) battle data: force strengths and casualties'

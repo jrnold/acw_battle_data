@@ -26,6 +26,8 @@ force size is provided in that source.
 Schema
 ======
 
+
+
 ==========  ======  ==========
 battle      string  battle
 id          number  id

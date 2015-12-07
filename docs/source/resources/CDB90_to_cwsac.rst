@@ -17,6 +17,8 @@ CDB90 to CWSAC battle links
 Schema
 ======
 
+
+
 ========  =======  ================
 isqno     integer  isqno
 cwsac_id  string   CWSAC Battle Id.

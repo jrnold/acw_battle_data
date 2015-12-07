@@ -31,6 +31,8 @@ This corresponds to pages 662-991 of Dyer's *Compendium*, ignoring indexes.
 Schema
 ======
 
+
+
 ================  =======  =================
 battle            integer  Battle
 event_type        string   Event type

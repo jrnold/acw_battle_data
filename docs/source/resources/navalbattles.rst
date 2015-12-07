@@ -18,6 +18,8 @@ List of naval battles, which navies they involved, and whether they involved lan
 Schema
 ======
 
+
+
 ===========  =======  =================
 cwsac_id     string   CWSAC Id.
 battle_name  string   Battle name

@@ -12,11 +12,13 @@ Livermore does not directly list the principal commander of the battles. These w
 
 
 **Sources:**
-- Livermore1900
+- self
 
 
 Schema
 ======
+
+
 
 ==============  ==============================  ==============
 seq_no          integer                         Battle number

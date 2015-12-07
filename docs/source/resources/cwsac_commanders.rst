@@ -18,6 +18,8 @@ CWSAC Report (1993) battle data: commanders
 Schema
 ======
 
+
+
 ===========  =======  ===========
 battle       string   battle
 belligerent  string   belligerent

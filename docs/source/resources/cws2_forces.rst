@@ -36,6 +36,8 @@ CWSAC Report Updates battle data: force strengths
 Schema
 ======
 
+
+
 ===================  =======  ===================
 battle               string   Battle
 belligerent          string   belligerent

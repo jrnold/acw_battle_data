@@ -15,6 +15,8 @@ cwss_commanders
 Schema
 ======
 
+
+
 ================  =======  ================
 BattlefieldCode   string   Battlefield code
 belligerent       string   belligerent

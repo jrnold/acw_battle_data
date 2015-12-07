@@ -36,6 +36,8 @@ CWSAC Report Updates battle data: battles
 Schema
 ======
 
+
+
 ==============  =======  ===================
 battle          string   Battle
 battle_name     string   Battle Name

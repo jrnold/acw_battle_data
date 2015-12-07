@@ -18,6 +18,8 @@ This is the correpsondence between battles in Bodart (1908), e.g. :doc:`bodart19
 Schema
 ======
 
+
+
 ========  ======  ========
 from      string  from
 to        string  to

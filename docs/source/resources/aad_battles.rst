@@ -59,6 +59,8 @@ The original documentation reads:
 Schema
 ======
 
+
+
 ===============================  =======  ===================================================================================================
 reference_number                 string   Reference Number
 event                            string   event

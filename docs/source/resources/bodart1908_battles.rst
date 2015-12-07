@@ -267,6 +267,8 @@ The sources cited by Bodart are (p. 29):
 Schema
 ======
 
+
+
 =====================  =======  =============
 battle_id              integer  Battle number
 name                   string   Battle name

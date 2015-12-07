@@ -27,6 +27,8 @@ unit participated in a given battle.
 Schema
 ======
 
+
+
 =======================  =======  ==========================
 battle_id                string   Battle id
 belligerent              string   belligerent

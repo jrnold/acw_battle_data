@@ -18,6 +18,8 @@ CWSAC Report battle data: campaigns
 Schema
 ======
 
+
+
 ===========  =======  ===========
 campaign     string   Campaign
 theater      string   Theater

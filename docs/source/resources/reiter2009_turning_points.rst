@@ -19,6 +19,8 @@ Four of these turning points are based off of those listed by James McPherson in
 Schema
 ======
 
+
+
 ===============  ================================  ===============
 period           Time period of the turning point  Period
 start_date       date                              Start Date

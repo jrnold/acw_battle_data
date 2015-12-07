@@ -13,6 +13,8 @@ nps_battlelist
 Schema
 ======
 
+
+
 ===========  =======  ===========
 cwsac_id     string   cwsac_id
 battle_name  string   battle_name

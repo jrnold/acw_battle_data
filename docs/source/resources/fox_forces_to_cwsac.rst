@@ -16,6 +16,8 @@ Correspondence between the observations in the revised Fox battle data (:doc:`fo
 Schema
 ======
 
+
+
 ===========  ======  ===========
 belligerent  string  Belligerent
 battle_name  string  Battle Name

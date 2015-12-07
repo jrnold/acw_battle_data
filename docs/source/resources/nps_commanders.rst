@@ -13,6 +13,8 @@ nps_commanders
 Schema
 ======
 
+
+
 ================  =======  ================
 cwsac_id          string   cwsac_id
 belligerent       string   belligerent

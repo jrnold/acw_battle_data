@@ -18,6 +18,8 @@ CWSAC Report (1993) battle data: forces
 Schema
 ======
 
+
+
 ===================  ======  ===================
 battle               string  battle
 belligerent          string  belligerent

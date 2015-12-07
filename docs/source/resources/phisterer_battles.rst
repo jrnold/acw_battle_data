@@ -1,6 +1,6 @@
-#################
-phisterer_battles
-#################
+#########################################
+Phisterer (1883) battle data: battle list
+#########################################
 
 :name: phisterer_battles
 :path: data/phisterer_battles.csv
@@ -61,15 +61,17 @@ Some notes on specific battles
 Schema
 ======
 
+
+
 ===========  =======  ===========
 battle       integer  battle
-battle_name  string   battle_name
+battle_name  string   Battle name
 state        string   state
-start_date   string   start_date
-end_date     string   end_date
-surrender    integer  surrender
-campaign     integer  campaign
-page         integer  page
+start_date   date     Start date
+end_date     date     End date
+surrender    boolean  surrender
+campaign     boolean  Campaign
+page         integer  Page
 ===========  =======  ===========
 
 battle
@@ -78,16 +80,20 @@ battle
 :title: battle
 :type: integer
 :format: default
+:constraints:
+    :minimum: 2262
+    :maximum: 2410
+    
 
-
-
+Identifier number of the battle.
+These are the numbers used in Phisterer (1883). They start at 2262 because 1-2261 refer to the events in the chronological record (see :doc:`phisterer_engagements`).
 
 
        
 battle_name
 -----------
 
-:title: battle_name
+:title: Battle name
 :type: string
 :format: default
 
@@ -102,17 +108,19 @@ state
 :title: state
 :type: string
 :format: default
+:constraints:
+    :pattern: [A-Z][A-Z]
+    
 
-
-
+Two-letter state code for the state of the battle.
 
 
        
 start_date
 ----------
 
-:title: start_date
-:type: string
+:title: Start date
+:type: date
 :format: default
 
 
@@ -123,8 +131,8 @@ start_date
 end_date
 --------
 
-:title: end_date
-:type: string
+:title: End date
+:type: date
 :format: default
 
 
@@ -136,35 +144,37 @@ surrender
 ---------
 
 :title: surrender
-:type: integer
+:type: boolean
 :format: default
 
 
-
+Was the engagement a surrender rather than a battle?
+Examples include the surrenders of Johnston, 
 
 
        
 campaign
 --------
 
-:title: campaign
-:type: integer
+:title: Campaign
+:type: boolean
 :format: default
 
 
-
+Was the engagement a campaign rather than a battle?
+Phisterer includes entries for the surrenders of Johnston, Taylor, Sam Jones, Jeff Thompson, and Kirby Smith at the end of the war.
 
 
        
 page
 ----
 
-:title: page
+:title: Page
 :type: integer
 :format: default
 
 
-
+Page number in Phisterer (1883).
 
 
        

@@ -36,6 +36,8 @@ CWSAC Report Updates: commanders
 Schema
 ======
 
+
+
 ===========  ======  ===========
 battle       string  Battle
 belligerent  string  belligerent

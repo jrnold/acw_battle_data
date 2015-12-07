@@ -24,6 +24,8 @@ The extra data includes:
 Schema
 ======
 
+
+
 ===========  ======  ===========
 cwsac_id     string  CWSAC Id.
 battle_name  string  Battle name

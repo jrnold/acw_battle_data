@@ -30,6 +30,8 @@ Bodart's correpondence of ranks
 Schema
 ======
 
+
+
 ===========  ======  ===========
 battle_id    string  Battle Id.
 belligerent  string  belligerent

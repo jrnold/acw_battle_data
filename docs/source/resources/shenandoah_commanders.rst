@@ -1,6 +1,6 @@
-#####################
-shenandoah_commanders
-#####################
+#############################################
+NPS Shenandoah Report battle data: commanders
+#############################################
 
 :name: shenandoah_commanders
 :path: data/shenandoah_commanders.csv
@@ -14,6 +14,8 @@ shenandoah_commanders
 
 Schema
 ======
+
+
 
 =============  =======  =============
 battle_number  integer  battle_number

@@ -1,6 +1,6 @@
-#####################
-phisterer_engagements
-#####################
+##################################################
+Phisterer (1883) chronological list of engagements
+##################################################
 
 :name: phisterer_engagements
 :path: data/phisterer_engagements.csv
@@ -42,14 +42,16 @@ chronological record is:
 Schema
 ======
 
+
+
 ===========  =======  ===========
 id           integer  id
 start_date   string   start_date
-end_date     string   end_date
+end_date     date     end_date
 monthonly    boolean  monthonly
-location     string   location
-state        string   state
-description  string   description
+location     string   Location
+state        string   State
+description  string   Description
 ===========  =======  ===========
 
 id
@@ -60,7 +62,7 @@ id
 :format: default
 
 
-
+Identifier number. These are the numbers given to the engagements in Phisterer (1883).
 
 
        
@@ -80,7 +82,7 @@ end_date
 --------
 
 :title: end_date
-:type: string
+:type: date
 :format: default
 
 
@@ -96,14 +98,14 @@ monthonly
 :format: default
 
 
-
+For some engagements only the months, and not the exact days are given. For these the first and last days of the month are used as the start and end dates, and this variable is set to true.
 
 
        
 location
 --------
 
-:title: location
+:title: Location
 :type: string
 :format: default
 
@@ -115,10 +117,12 @@ location
 state
 -----
 
-:title: state
+:title: State
 :type: string
 :format: default
-
+:constraints:
+    :pattern: [A-Z][A-Z]
+    
 
 
 
@@ -127,7 +131,7 @@ state
 description
 -----------
 
-:title: description
+:title: Description
 :type: string
 :format: default
 

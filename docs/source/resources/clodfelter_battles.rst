@@ -41,6 +41,8 @@ The following battles had a significant naval component.
 Schema
 ======
 
+
+
 =============  =======  =============
 battle         string   Battle
 theater        string   Theater

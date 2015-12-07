@@ -15,6 +15,8 @@ Eicher table of unit sizes
 Schema
 ======
 
+
+
 ===========  =======  ===========
 belligerent  string   belligerent
 infantry     integer  infantry

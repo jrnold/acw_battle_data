@@ -27,7 +27,7 @@ Schema
 {% for fk in schema.foreignKeys -%}
     :{{ fk.fields|join(', ') }}: {{fk.reference.datapackage}}, {{fk.reference.resource}}, {{fk.reference.fields|join(', ')}}
 {% endfor -%}
-{% endif -%}
+{% endif %}
 
 {{summary_table}}
 
