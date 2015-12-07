@@ -38,7 +38,7 @@
     wounded_officers: 78
   name: Bull-Run
   number: 11
-  order: 4
+  category: 4
   other_names: [Manassas-Junction]
   page: 522
   start_date: *id001
@@ -101,7 +101,7 @@
     wounded_officers: 102
   name: Cedar Mountain
   number: 10
-  order: 5
+  category: 5
   other_names: []
   page: 525
   start_date: *id002
@@ -167,7 +167,7 @@
     wounded_percent: 14.2
   name: Bull Run
   number: 1
-  order: 2
+  category: 2
   other_names: [Manassas-Junction]
   page: 526
   start_date: 1862-08-29
@@ -223,7 +223,7 @@
     wounded: 840
   name: Richmond
   number: 12
-  order: 4
+  category: 4
   other_names: [Rogersville]
   page: 526
   start_date: *id003
@@ -265,7 +265,7 @@
     strength: 15000
     wounded: 1300
   name: Boonsborough
-  order: 5
+  category: 5
   other_names: [South-Mountain]
   page: 527
   start_date: *id004
@@ -319,7 +319,7 @@
     losses_cannon: 73
     strength: 14000
   name: Harper's Ferry
-  order: null
+  category: null
   other_names: []
   page: 527
   start_date: *id005
@@ -373,7 +373,7 @@
     wounded_officers: 638
     wounded_percent: 19.7
   name: Antietam
-  order: 2
+  category: 2
   other_names: [Sharpsburg]
   page: 527
   start_date: *id006
@@ -434,7 +434,7 @@
     strength: 22000
     wounded: 2200
   name: Corinth
-  order: 4
+  category: 4
   other_names: []
   page: 528
   start_date: 1862-10-03
@@ -504,7 +504,7 @@
     wounded_generals: 0
     wounded_officers: 94
   name: Perryville
-  order: 4
+  category: 4
   other_names: []
   page: 528
   start_date: *id007
@@ -542,7 +542,7 @@
     missing: 350
     strength: 11000
   name: Prairie-Grove
-  order: 6
+  category: 6
   other_names: []
   page: 528
   start_date: *id008
@@ -598,7 +598,7 @@
     wounded_officers: 654
     wounded_percent: 8.3
   name: Fredericksburg
-  order: 3
+  category: 3
   other_names: []
   page: 529
   start_date: 1862-12-11
@@ -660,7 +660,7 @@
     strength: 6000
   name: Wilson's Creek
   number: 1
-  order: 6
+  category: 6
   other_names: [Oak-Hills]
   page: 522
   start_date: *id009
@@ -718,7 +718,7 @@
     wounded_officers: 656
     wounded_percent: 21.1
   name: Murfreesborough
-  order: 2
+  category: 2
   other_names: [Stone's River]
   page: 529
   start_date: 1862-12-31
@@ -777,7 +777,7 @@
     missing: 600
     strength: 33000
   name: Chickasaw Bluffs
-  order: 6
+  category: 6
   other_names: []
   page: 530
   start_date: *id010
@@ -809,7 +809,7 @@
     killed_wounded: 200
     strength: 5000
   name: Arkansas Post
-  order: 4
+  category: 4
   other_names: [Fort Hindman]
   page: 530
   start_date: *id011
@@ -868,7 +868,7 @@
     wounded_officers: 656
     wounded_percent: 8.2
   name: Chancellorsville
-  order: 1
+  category: 1
   other_names: []
   page: 530
   start_date: 1863-05-03
@@ -926,7 +926,7 @@
     missing_percent: 16.7
     strength: 18000
   name: Champion's Hill
-  order: 4
+  category: 4
   other_names: [Baker's Creek]
   page: 531
   start_date: *id012
@@ -976,7 +976,7 @@
     missing_percent: 44.5
     strength: 9000
   name: Winchester
-  order: 4
+  category: 4
   other_names: []
   page: 531
   start_date: *id013
@@ -1036,7 +1036,7 @@
     wounded_generals: 13
     wounded_percent: 18.8
   name: Gettysburg
-  order: 1
+  category: 1
   other_names: []
   page: 532
   start_date: 1863-07-01
@@ -1110,7 +1110,7 @@
     losses_cannon: 172
     strength: 28000
   name: Vicksburg
-  order: null
+  category: null
   other_names: []
   page: 532
   start_date: 1863-05-19
@@ -1165,7 +1165,7 @@
     wounded_officers: 752
     wounded_percent: 17.2
   name: Chickamauga
-  order: 1
+  category: 1
   other_names: []
   page: 533
   start_date: 1863-09-19
@@ -1231,7 +1231,7 @@
     wounded: 2200
     wounded_generals: 2
   name: Ringgold
-  order: 3
+  category: 3
   other_names: [Chattanooga, Missionary Ridge]
   page: 533
   start_date: 1863-11-23
@@ -1279,7 +1279,7 @@
     strength: 3000
   name: Lexington
   number: 3
-  order: null
+  category: null
   other_names: []
   page: 522
   start_date: *id014
@@ -1330,7 +1330,7 @@
     wounded_generals: 3
     wounded_percent: 9.8
   name: Wilderness
-  order: 2
+  category: 2
   other_names: []
   page: 535
   start_date: 1864-05-05
@@ -1413,7 +1413,7 @@
     wounded_generals: 4
     wounded_percent: 8.0
   name: Spotsylvania-Court-House
-  order: 2
+  category: 2
   other_names: []
   page: 535
   start_date: 1864-05-08
@@ -1472,7 +1472,7 @@
     missing: 3000
     strength: 52000
   name: Resaca
-  order: 4
+  category: 4
   other_names: []
   page: 536
   start_date: *id015
@@ -1508,7 +1508,7 @@
     losses_flags: 5
     strength: 30000
   name: "Drewry's Bluff"
-  order: 4
+  category: 4
   other_names: []
   page: 536
   start_date: *id016
@@ -1539,7 +1539,7 @@
     belligerent: Confederacy
     strength: 38000
   name: Pamunkey
-  order: 4
+  category: 4
   other_names: []
   page: 536
   start_date: 1864-05-22
@@ -1568,7 +1568,7 @@
     belligerent: Confederacy
     strength: 40000
   name: New Hope Church
-  order: 4
+  category: 4
   other_names: [Dallas]
   page: 536
   start_date: *id017
@@ -1612,7 +1612,7 @@
     wounded_officers: 432
     wounded_percent: 9.1
   name: Cold Harbor
-  order: 3
+  category: 3
   other_names: []
   page: 537
   start_date: *id018
@@ -1649,7 +1649,7 @@
     belligerent: Union
     strength: 18000
   name: Kenesaw-Mountain
-  order: 5
+  category: 5
   other_names: []
   page: 537
   start_date: *id019
@@ -1679,7 +1679,7 @@
     belligerent: Confederacy
     strength: 48000
   name: Peach-Tree-Creek
-  order: 4
+  category: 4
   other_names: [Atlanta]
   page: 538
   start_date: *id020
@@ -1711,7 +1711,7 @@
         T., name: W. H. T. Walker, rank: GM., suffix: ''}
     strength: 40000
   name: Atlanta
-  order: 3
+  category: 3
   other_names: []
   page: 538
   start_date: *id021
@@ -1754,7 +1754,7 @@
     strength: 17000
   name: Fort Donelson
   number: 4
-  order: 3
+  category: 3
   other_names: []
   page: 523
   start_date: 1862-02-12
@@ -1787,7 +1787,7 @@
     belligerent: Confederacy
     strength: 30000
   name: Ezra-Church
-  order: 4
+  category: 4
   other_names: [Atlanta]
   page: 538
   start_date: *id022
@@ -1830,7 +1830,7 @@
     missing_percent: 15.4
     strength: 13000
   name: Winchester
-  order: 4
+  category: 4
   other_names: [Opequon]
   page: 539
   start_date: *id023
@@ -1877,7 +1877,7 @@
     missing_percent: 6.3
     strength: 18000
   name: Middletown
-  order: 4
+  category: 4
   other_names: [Cedar Creek]
   page: 539
   start_date: *id024
@@ -1925,7 +1925,7 @@
     wounded: 1100
     wounded_percent: 4.0
   name: Franklin
-  order: 4
+  category: 4
   other_names: []
   page: 540
   start_date: *id025
@@ -1983,7 +1983,7 @@
     losses_cannon: 51
     strength: 38000
   name: Nashville
-  order: 3
+  category: 3
   other_names: []
   page: 540
   start_date: 1864-12-15
@@ -2025,7 +2025,7 @@
       name: Beauregard, rank: Gen., suffix: ''}
     belligerent: Confederacy
   name: Charleston
-  order: null
+  category: null
   other_names: []
   page: 540
   start_date: 1863-04-01
@@ -2061,7 +2061,7 @@
     missing_percent: 5.3
     strength: 30000
   name: Bentonville
-  order: 4
+  category: 4
   other_names: []
   page: 541
   start_date: *id026
@@ -2160,7 +2160,7 @@
     infantry: 55000
     strength: 67000
   name: Petersburg
-  order: null
+  category: null
   other_names: []
   page: 541
   start_date: 1864-06-09
@@ -2198,7 +2198,7 @@
   location: Seefestung in Alabama, an der gleichnamigen Bai.
   loser: {captured: 3500, belligerent: Confederacy, losses_cannon: 50, strength: 4000}
   name: Mobile
-  order: null
+  category: null
   other_names: []
   page: 542
   start_date: 1865-04-02
@@ -2232,7 +2232,7 @@
     guns: 63
     strength: 28000
   name: Appomattox-Court-House
-  order: null
+  category: null
   other_names: []
   page: 542
   start_date: *id027
@@ -2273,7 +2273,7 @@
     strength: 16000
   name: Pea Ridge
   number: 5
-  order: 3
+  category: 3
   other_names: [Elkhorn-Tavern]
   page: 523
   start_date: 1862-03-07
@@ -2308,7 +2308,7 @@
     missing: 35200
     strength: 35200
   name: "Durham's-Station"
-  order: null
+  category: null
   other_names: []
   page: 542
   start_date: *id028
@@ -2358,7 +2358,7 @@
     wounded_percent: 20.2
   name: Shiloh
   number: 6
-  order: 2
+  category: 2
   other_names: [Pittsburg-Landing]
   page: 523
   start_date: 1862-04-06
@@ -2423,7 +2423,7 @@
     wounded_officers: 75
   name: Williamsburg
   number: 7
-  order: 5
+  category: 5
   other_names: []
   page: 524
   start_date: *id029
@@ -2483,7 +2483,7 @@
     wounded_percent: 7.3
   name: Seven Pines
   number: 8
-  order: 3
+  category: 3
   other_names: [Fair-Oaks, White-Oak-Swamp]
   page: 524
   start_date: 1862-05-31
@@ -2574,7 +2574,7 @@
     wounded_percent: 7.9
   name: Chickahominy
   number: 9
-  order: 1
+  category: 1
   other_names: [Mechanicsville, "Gaine's Mill", Cold Harbor, Malvern Hill]
   page: 525
   start_date: 1862-06-25

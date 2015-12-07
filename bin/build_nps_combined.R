@@ -576,21 +576,20 @@ build <- function(src, dst) {
 
   write_csv(theaters, file.path(dst, "nps_theaters.csv"))
   write_csv(campaigns, file.path(dst, "nps_campaigns.csv"))
-
   write_csv(battlelist, file.path(dst, "nps_battlelist.csv"))
   write_csv(battles, file.path(dst, "nps_battles.csv"))
+  write_csv(forces, file.path(dst, "nps_forces.csv"))
   write_csv(commanders$commanders, file.path(dst, "nps_commanders.csv"))
   write_csv(commanders$people, file.path(dst, "nps_people.csv"))
-  write_csv(forces, file.path(dst, "nps_forces.csv"))
+
+
 }
 
-main <- function() {
-  arglist <- commandArgs(TRUE)
-  src <- arglist[1]
-  dst <- arglist[2]
-  src <- "."
-  dst <- "data"
-  build(src, dst)
-}
-
-main()
+# main <- function() {
+#   arglist <- commandArgs(TRUE)
+#   src <- arglist[1]
+#   dst <- arglist[2]
+#   build(src, dst)
+# }
+#
+# main()

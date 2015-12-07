@@ -9,13 +9,44 @@
   forces:
     Confederate:
       captured: 554
+      commanders:
+      - PersonID: 488ca773-3d4d-4cdb-b636-1bc4c39b119c
+        first_name: John
+        last_name: Pegram
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Lieutenant Colonel
+      - PersonID: 386fe044-f4a0-4128-9e79-be5dcaa66241
+        first_name: Robert
+        last_name: Garnett
+        middle_initial: S.
+        middle_name: Selden
+        navy: '0'
+        rank: Brigadier General
       killed_wounded: 170
       strength: 5300
     US:
+      commanders:
+      - PersonID: 113829b2-e1ff-4458-8dce-9a4da30810dd
+        first_name: George
+        last_name: McClellan
+        middle_initial: B.
+        middle_name: Brinton
+        navy: '0'
+        rank: Major General
+      - PersonID: 7d67c576-bbd4-4b23-ac53-300f9522f311
+        first_name: William
+        last_name: Rosecrans
+        middle_initial: S.
+        middle_name: Starke
+        navy: '0'
+        rank: Brigadier General
       killed: 12
       strength: 6000
       wounded: 49
   page: 293
+  result: Union
   start_date: 1861-7-11
   theater: 'Eastern Theater: 1861'
 - battle: First Bull Run (Manassas)
@@ -27,19 +58,43 @@
     url: https://dbpedia.org/resource/First_Battle_of_Bull_Run
   forces:
     Confederate:
+      commanders:
+      - PersonID: b0f7a304-f6c5-4a8d-b816-066426e5dc1c
+        first_name: Joseph
+        last_name: Johnston
+        middle_initial: E.
+        middle_name: ''
+        navy: '0'
+        rank: Brigadier General
+      - PersonID: 183d0a7d-f06a-4c7b-a575-7616e491618b
+        first_name: Pierre
+        last_name: Beauregard
+        middle_initial: G. T.
+        middle_name: Gustave Toutant
+        navy: '0'
+        rank: Brigadier General
       killed: 387
       missing: 13
       strength: 32232
       wounded: 1582
     US:
+      commanders:
+      - PersonID: 0f05f7ed-f187-4469-8fbe-25942e7eb85b
+        first_name: Irvin
+        last_name: McDowell
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Brigadier General
       killed: 460
       missing_captured: 1312
       strength: 28452
       wounded: 1124
   page: 293
+  result: Confederate
   start_date: 1861-7-21
   theater: 'Eastern Theater: 1861'
-- battle: "Ball's Bluff"
+- battle: Ball's Bluff
   cwsac:
   - id: VA006
     relation: '='
@@ -48,19 +103,43 @@
     url: https://dbpedia.org/resource/Battle_of_Ball%27s_Bluff
   forces:
     Confederate:
+      commanders:
+      - PersonID: 6bce5d35-7ced-46f5-8786-31eb932c1354
+        first_name: Nathan
+        last_name: Evans
+        middle_initial: G.
+        middle_name: George
+        navy: '0'
+        rank: Brigadier General
       killed: 33
       missing: 1
       strength: 3000
       wounded: 115
     US:
       captured: 714
+      commanders:
+      - PersonID: f06a78fa-f99c-4b7e-bea7-89aa4829c315
+        first_name: Charles
+        last_name: Stone
+        middle_initial: P.
+        middle_name: Pomeroy
+        navy: '0'
+        rank: Brigadier General
+      - PersonID: 4b479de3-ec5f-4531-af8e-903c593a7b78
+        first_name: Edward
+        last_name: Baker
+        middle_initial: D.
+        middle_name: Dickinson
+        navy: '0'
+        rank: Colonel
       killed: 49
       strength: 1700
       wounded: 158
   page: 293
+  result: Confederate
   start_date: 1861-10-21
   theater: 'Eastern Theater: 1861'
-- battle: "Wilson's Creek"
+- battle: Wilson's Creek
   cwsac:
   - id: MO004
     relation: '='
@@ -69,16 +148,47 @@
     url: https://dbpedia.org/resource/Battle_of_Wilson%27s_Creek
   forces:
     Confederate:
+      commanders:
+      - PersonID: 8f232cc9-43e7-4627-ab45-d8fe6873c472
+        first_name: Sterling
+        last_name: Price
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Major General
+      - PersonID: 536cbc9d-7b3e-4225-a660-25374cc1026e
+        first_name: Benjamin
+        last_name: McCulloch
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Brigadier General
       killed: 105
       missing: 117
       strength: 15396
       wounded: 419
     US:
+      commanders:
+      - PersonID: a590cf3d-2e52-49bb-83fc-dd1911ba651d
+        first_name: Nathaniel
+        last_name: Lyon
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Brigadier General
+      - PersonID: 4a50678b-9211-4c6a-828e-d9607876849a
+        first_name: Samuel
+        last_name: Sturgis
+        middle_initial: D.
+        middle_name: Davis
+        navy: '0'
+        rank: Major General
       killed: 258
       missing: 186
       strength: 5600
       wounded: 873
   page: 294
+  result: Confederate
   start_date: 1861-8-10
   theater: 'Western Theater: 1861'
 - battle: Belmont
@@ -91,15 +201,32 @@
   forces:
     Confederate:
       captured: 117
+      commanders:
+      - PersonID: c97e392a-d319-4c82-9201-0a35f418a0a9
+        first_name: Gideon
+        last_name: Pillow
+        middle_initial: J.
+        middle_name: Johnson
+        navy: '0'
+        rank: Brigadier General
       killed: 105
       strength: 5000
       wounded: 419
     US:
       captured: 104
+      commanders:
+      - PersonID: f4036249-0d0f-4c0f-aa2e-557890e1e475
+        first_name: Ulysses
+        last_name: Grant
+        middle_initial: S.
+        middle_name: Simon
+        navy: '0'
+        rank: Brigadier General
       killed: 120
       strength: 3114
       wounded: 383
   page: 294
+  result: Union
   start_date: 1861-11-7
   theater: 'Western Theater: 1861'
 - battle: Roanoake Island
@@ -113,6 +240,14 @@
   forces:
     Confederate:
       captured: 2675
+      commanders:
+      - PersonID: 2f7d8b0b-710b-4f79-b13e-2cf4b9844059
+        first_name: Henry
+        last_name: Wise
+        middle_initial: A.
+        middle_name: Alexander
+        navy: '0'
+        rank: Brigadier General
       gunboats: 7
       gunboats captured: 5
       guns lost: 32
@@ -120,11 +255,20 @@
       strength: 3000
       wounded_missing: 222
     US:
+      commanders:
+      - PersonID: c5f9dd77-1122-48f0-8840-614720ba50d8
+        first_name: Ambrose
+        last_name: Burnside
+        middle_initial: E.
+        middle_name: Everett
+        navy: '0'
+        rank: Brigadier General
       killed: 41
       strength: 13000
       warships and transports: 80
       wounded_missing: 242
   page: 294
+  result: Union
   start_date: 1862-2-7
   theater: 'Blockade War: 1861-1862'
 - battle: New Bern
@@ -136,16 +280,33 @@
     url: https://dbpedia.org/resource/Battle_of_Roanoke_Island
   forces:
     Confederate:
+      commanders:
+      - PersonID: 31a0d649-84f2-4b86-a4aa-155dd8a544fe
+        first_name: Lawrence
+        last_name: Branch
+        middle_initial: O.
+        middle_name: O'Bryan
+        navy: '0'
+        rank: Brigadier General
       killed: 68
       missing: 425
       strength: 5000
       wounded: 116
     US:
+      commanders:
+      - PersonID: c5f9dd77-1122-48f0-8840-614720ba50d8
+        first_name: Ambrose
+        last_name: Burnside
+        middle_initial: E.
+        middle_name: Everett
+        navy: '0'
+        rank: Brigadier General
       killed: 90
       missing: 1
       strength: 11000
       wounded: 385
   page: 294
+  result: Union
   start_date: 1862-3-13
   theater: 'Blockade War: 1861-1862'
 - battle: Hampton Roads (first day)
@@ -157,11 +318,34 @@
     url: https://dbpedia.org/resource/Battle_of_Hampton_Roads
   forces:
     Confederate:
+      commanders:
+      - PersonID: 12c2d009-5e2f-47cb-b9e7-31e07bc73edd
+        first_name: Frankiln
+        last_name: Buchanan
+        middle_initial: ''
+        middle_name: ''
+        navy: '1'
+        rank: Captain
+      - PersonID: 135f4732-a9b3-4a23-a530-8a6e922812c6
+        first_name: Catesby
+        last_name: Jones
+        middle_initial: R.
+        middle_name: Roger
+        navy: '0'
+        rank: Lieutenant
       crewmen: 350
       guns: 2
       ironclads: 1
       wounded: 19
     US:
+      commanders:
+      - PersonID: ec3537d2-26fb-441d-bf2c-a1eed0e78171
+        first_name: John
+        last_name: Worden
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Lieutenant
       guns: 219
       killed: 257
       warships damaged: 1
@@ -169,6 +353,8 @@
       wooden warships: 5
       wounded: 146
   page: 294
+  result: Union
+  result_comment: ''
   start_date: 1862-3-8
   theater: 'Blockade War: 1861-1862'
 - battle: Hampton Roads (second day)
@@ -181,15 +367,40 @@
   forces:
     Confederate:
       casualties: 0
+      commanders:
+      - PersonID: 12c2d009-5e2f-47cb-b9e7-31e07bc73edd
+        first_name: Frankiln
+        last_name: Buchanan
+        middle_initial: ''
+        middle_name: ''
+        navy: '1'
+        rank: Captain
+      - PersonID: 135f4732-a9b3-4a23-a530-8a6e922812c6
+        first_name: Catesby
+        last_name: Jones
+        middle_initial: R.
+        middle_name: Roger
+        navy: '0'
+        rank: Lieutenant
       crewmen: 340
       guns: 10
       ironclads: 1
     US:
+      commanders:
+      - PersonID: ec3537d2-26fb-441d-bf2c-a1eed0e78171
+        first_name: John
+        last_name: Worden
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Lieutenant
       crewmen: 58
       guns: 2
       ironclads: 1
       wounded: 2
   page: 294
+  result: Union
+  result_comment: ''
   start_date: 1862-3-9
   theater: 'Blockade War: 1861-1862'
 - battle: Secessionville
@@ -201,16 +412,33 @@
     url: https://dbpedia.org/resource/Battle_of_James_Island
   forces:
     Confederate:
+      commanders:
+      - PersonID: 6bce5d35-7ced-46f5-8786-31eb932c1354
+        first_name: Nathan
+        last_name: Evans
+        middle_initial: G.
+        middle_name: George
+        navy: '0'
+        rank: Brigadier General
       killed: 52
       missing: 8
       strength: 3100
       wounded: 144
     US:
+      commanders:
+      - PersonID: d2efdb4f-e327-44a6-bd45-a345dd06d37d
+        first_name: Henry
+        last_name: Benham
+        middle_initial: W.
+        middle_name: Washington
+        navy: '0'
+        rank: Brigadier General
       killed: 107
       missing_captured: 89
       strength: 4500
       wounded: 487
   page: 294
+  result: Confederate
   start_date: 1862-6-16
   theater: 'Blockade War: 1861-1862'
 - battle: Kernstown (first)
@@ -222,16 +450,33 @@
     url: https://dbpedia.org/resource/First_Battle_of_Kernstown
   forces:
     Confederate:
+      commanders:
+      - PersonID: 21d06a25-9c4f-4dea-a766-f60d20632999
+        first_name: Thomas
+        last_name: Jackson
+        middle_initial: J.
+        middle_name: Jonathan
+        navy: '0'
+        rank: Major General
       killed: 80
       missing: 263
       strength: 4200
       wounded: 375
     US:
+      commanders:
+      - PersonID: cc0f3d5e-05e5-431e-82dc-f7ef2a53cdb5
+        first_name: Nathan
+        last_name: Kimball
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Colonel
       killed: 118
       missing: 22
       strength: 9000
       wounded: 450
   page: 296
+  result: Union
   start_date: 1862-3-23
   theater: 'East: 1862'
 - battle: McDowell
@@ -243,15 +488,39 @@
     url: https://dbpedia.org/resource/Battle_of_McDowell
   forces:
     Confederate:
+      commanders:
+      - PersonID: 21d06a25-9c4f-4dea-a766-f60d20632999
+        first_name: Thomas
+        last_name: Jackson
+        middle_initial: J.
+        middle_name: Jonathan
+        navy: '0'
+        rank: Major General
       killed: 75
       strength: 5000
       wounded: 423
     US:
+      commanders:
+      - PersonID: 8c251b93-5768-4630-ae9a-dd45b4e785c6
+        first_name: Robert
+        last_name: Milroy
+        middle_initial: H.
+        middle_name: Huston
+        navy: '0'
+        rank: Brigadier General
+      - PersonID: 009983b0-ccd0-4ed6-814e-c729a69e69e3
+        first_name: Robert
+        last_name: Schenck
+        middle_initial: C.
+        middle_name: Cumming
+        navy: '0'
+        rank: Brigadier General
       killed: 26
       missing: 3
       strength: 2500
       wounded: 227
   page: 296
+  result: Confederate
   start_date: 1862-5-8
   theater: 'East: 1862'
 - battle: Front Royal
@@ -263,12 +532,29 @@
     url: https://dbpedia.org/resource/Battle_of_Front_Royal
   forces:
     Confederate:
+      commanders:
+      - PersonID: 21d06a25-9c4f-4dea-a766-f60d20632999
+        first_name: Thomas
+        last_name: Jackson
+        middle_initial: J.
+        middle_name: Jonathan
+        navy: '0'
+        rank: Major General
       killed_wounded: 50
       strength: 16000
     US:
       casualties: 904
+      commanders:
+      - PersonID: 89baa468-4d55-4b97-a5a6-bc79bd433235
+        first_name: John
+        last_name: Kenly
+        middle_initial: R.
+        middle_name: ''
+        navy: '0'
+        rank: Colonel
       strength: 1063
   page: 296
+  result: Confederate
   start_date: 1862-5-23
   theater: 'East: 1862'
 - battle: Winchester (first)
@@ -280,16 +566,33 @@
     url: https://dbpedia.org/resource/First_Battle_of_Winchester
   forces:
     Confederate:
+      commanders:
+      - PersonID: 21d06a25-9c4f-4dea-a766-f60d20632999
+        first_name: Thomas
+        last_name: Jackson
+        middle_initial: J.
+        middle_name: Jonathan
+        navy: '0'
+        rank: Major General
       killed: 68
       missing: 3
       strength: 17500
       wounded: 329
     US:
       captured: 1714
+      commanders:
+      - PersonID: f2f4eda1-b51f-4f8e-ad2d-379a1eb685f3
+        first_name: Nathaniel
+        last_name: Banks
+        middle_initial: P.
+        middle_name: ''
+        navy: '0'
+        rank: Major General
       killed: 62
       strength: 8500
       wounded: 243
   page: 296
+  result: Confederate
   start_date: 1862-5-25
   theater: 'East: 1862'
 - battle: Cross Keys
@@ -301,16 +604,33 @@
     url: https://dbpedia.org/resource/Battle_of_Cross_Keys
   forces:
     Confederate:
+      commanders:
+      - PersonID: aa9a80fb-49e3-41d4-8ce5-3f5cbd961625
+        first_name: Richard
+        last_name: Ewell
+        middle_initial: S.
+        middle_name: Stoddert
+        navy: '0'
+        rank: Major General
       killed: 41
       missing: 15
       strength: 6500
       wounded: 232
     US:
+      commanders:
+      - PersonID: b6775ad7-2f56-4d49-9aee-b4e4898e8b5e
+        first_name: John
+        last_name: "Fr\xE9mont"
+        middle_initial: C.
+        middle_name: Charles
+        navy: '0'
+        rank: Major General
       killed: 114
       missing: 127
       strength: 12000
       wounded: 443
   page: 296
+  result: Confederate
   start_date: 1862-6-8
   theater: 'East: 1862'
 - battle: Port Republic
@@ -322,16 +642,33 @@
     url: https://dbpedia.org/resource/Battle_of_Port_Republic
   forces:
     Confederate:
+      commanders:
+      - PersonID: 21d06a25-9c4f-4dea-a766-f60d20632999
+        first_name: Thomas
+        last_name: Jackson
+        middle_initial: J.
+        middle_name: Jonathan
+        navy: '0'
+        rank: Major General
       killed: 98
       missing: 45
       strength: 15000
       wounded: 719
     US:
       captured: 558
+      commanders:
+      - PersonID: 1c028c2f-3439-4a15-ac1a-d9f9f9ab7210
+        first_name: Erastus
+        last_name: Tyler
+        middle_initial: B.
+        middle_name: Barnard
+        navy: '0'
+        rank: Brigadier General
       killed: 67
       strength: 5000
       wounded: 393
   page: 296
+  result: Confederate
   start_date: 1862-6-9
   theater: 'East: 1862'
 - battle: Williamsburg (Fort Magruder)
@@ -343,16 +680,33 @@
     url: https://dbpedia.org/resource/Battle_of_Williamsburg
   forces:
     Confederate:
+      commanders:
+      - PersonID: 0418b77d-5826-4c1d-9621-9d92c48d77b5
+        first_name: James
+        last_name: Longstreet
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Major General
       killed: 288
       missing: 297
       strength: 31823
       wounded: 975
     US:
+      commanders:
+      - PersonID: 113829b2-e1ff-4458-8dce-9a4da30810dd
+        first_name: George
+        last_name: McClellan
+        middle_initial: B.
+        middle_name: Brinton
+        navy: '0'
+        rank: Major General
       killed: 468
       missing: 373
       strength: 40768
       wounded: 1442
   page: 296
+  result: Indecisive
   start_date: 1862-5-5
   theater: 'East: 1862'
 - battle: Hanover Court House
@@ -365,14 +719,31 @@
   forces:
     Confederate:
       captured: 730
+      commanders:
+      - PersonID: 31a0d649-84f2-4b86-a4aa-155dd8a544fe
+        first_name: Lawrence
+        last_name: Branch
+        middle_initial: O.
+        middle_name: O'Bryan
+        navy: '0'
+        rank: Brigadier General
       killed_wounded: 270
       strength: 3000
     US:
+      commanders:
+      - PersonID: 3e3bcb35-5488-46d2-8cf2-b0243ca67d45
+        first_name: Fitz
+        last_name: Porter
+        middle_initial: J.
+        middle_name: John
+        navy: '0'
+        rank: Brigadier General
       killed: 62
       missing: 70
       strength: 6000
       wounded: 223
   page: 297
+  result: Union
   start_date: 1862-5-27
   theater: 'East: 1862'
 - battle: Fair Oaks (Seven Pines)
@@ -385,35 +756,92 @@
   end_date: 1862-6-1
   forces:
     Confederate:
+      commanders:
+      - PersonID: b0f7a304-f6c5-4a8d-b816-066426e5dc1c
+        first_name: Joseph
+        last_name: Johnston
+        middle_initial: E.
+        middle_name: ''
+        navy: '0'
+        rank: General
+      - PersonID: 7ecf1477-925a-4b2b-b174-a549a4038ecc
+        first_name: Gustavus
+        last_name: Smith
+        middle_initial: W.
+        middle_name: Woodson
+        navy: '0'
+        rank: Major General
       killed: 980
       missing: 405
       strength: 41816
       wounded: 4749
     US:
       captured: 347
+      commanders:
+      - PersonID: 113829b2-e1ff-4458-8dce-9a4da30810dd
+        first_name: George
+        last_name: McClellan
+        middle_initial: B.
+        middle_name: Brinton
+        navy: '0'
+        rank: Major General
       killed: 790
       missing: 647
       strength: 41797
       wounded: 3594
   page: 297
+  result: Indecisive
   start_date: 1862-5-31
   theater: 'East: 1862'
 - battle: Seven Days Battles
+  cwsac:
+  - id: VA015
+    relation: '>'
+  - id: VA016
+    relation: '>'
+  - id: VA017
+    relation: '>'
+  - id: VA018
+    relation: '>'
+  - id: VA019
+    relation: '>'
+  - id: VA020
+    relation: '>'
+  - id: VA021
+    relation: '>'
   dbpedia:
   - relation: '='
     url: https://dbpedia.org/resource/Seven_Days_Battles
   end_date: 1862-7-1
   forces:
     Confederate:
+      commanders:
+      - PersonID: d428cfef-5c7a-4230-b394-b195481d9a9f
+        first_name: Robert
+        last_name: Lee
+        middle_initial: E.
+        middle_name: ''
+        navy: '0'
+        rank: General
       missing_captured: 875
       strength: 3478
       wounded: 16261
     US:
+      commanders:
+      - PersonID: 113829b2-e1ff-4458-8dce-9a4da30810dd
+        first_name: George
+        last_name: McClellan
+        middle_initial: B.
+        middle_name: Brinton
+        navy: '0'
+        rank: Major General
       killed: 1734
       missing_captured: 6053
       strength: 91169
       wounded: 8062
   page: 297
+  result: Confederate
+  result_comment: ''
   start_date: 1862-6-25
   theater: 'East: 1862'
 - battle: The Orchard (Seven Days)
@@ -425,16 +853,34 @@
     url: https://dbpedia.org/resource/Seven_Days_Battles
   forces:
     Confederate:
+      commanders:
+      - PersonID: d428cfef-5c7a-4230-b394-b195481d9a9f
+        first_name: Robert
+        last_name: Lee
+        middle_initial: E.
+        middle_name: ''
+        navy: '0'
+        rank: General
       killed: 40
       missing: 13
       strength: 6000
       wounded: 263
     US:
+      commanders:
+      - PersonID: 113829b2-e1ff-4458-8dce-9a4da30810dd
+        first_name: George
+        last_name: McClellan
+        middle_initial: B.
+        middle_name: Brinton
+        navy: '0'
+        rank: Major General
       killed: 51
       missing: 64
       strength: 6000
       wounded: 401
   page: 297
+  partof: Seven Days Battles
+  result: Indecisive
   start_date: 1862-6-25
   theater: 'East: 1862'
 - battle: Mechanicsville (Seven Days)
@@ -447,16 +893,34 @@
   forces:
     Confederate:
       casualties: 1484
+      commanders:
+      - PersonID: d428cfef-5c7a-4230-b394-b195481d9a9f
+        first_name: Robert
+        last_name: Lee
+        middle_initial: E.
+        middle_name: ''
+        navy: '0'
+        rank: General
       strength: 16356
     US:
+      commanders:
+      - PersonID: 3e3bcb35-5488-46d2-8cf2-b0243ca67d45
+        first_name: Fitz
+        last_name: Porter
+        middle_initial: J.
+        middle_name: John
+        navy: '0'
+        rank: Brigadier General
       killed: 49
       missing: 105
       strength: 15631
       wounded: 207
   page: 297
+  partof: Seven Days Battles
+  result: Union
   start_date: 1862-6-26
   theater: 'East: 1862'
-- battle: "Gaines's Mill (Seven Days)"
+- battle: Gaines's Mill (Seven Days)
   cwsac:
   - id: VA017
     relation: '='
@@ -466,17 +930,35 @@
   forces:
     Confederate:
       casualties: 8751
+      commanders:
+      - PersonID: d428cfef-5c7a-4230-b394-b195481d9a9f
+        first_name: Robert
+        last_name: Lee
+        middle_initial: E.
+        middle_name: ''
+        navy: '0'
+        rank: General
       strength: 57018
     US:
+      commanders:
+      - PersonID: 3e3bcb35-5488-46d2-8cf2-b0243ca67d45
+        first_name: Fitz
+        last_name: Porter
+        middle_initial: J.
+        middle_name: John
+        navy: '0'
+        rank: Brigadier General
       guns lost: 22
       killed: 894
       missing_captured: 2836
       strength: 34214
       wounded: 3107
   page: 297
+  partof: Seven Days Battles
+  result: Confederate
   start_date: 1862-6-27
   theater: 'East: 1862'
-- battle: "Savage's Station (Seven Days)"
+- battle: Savage's Station (Seven Days)
   cwsac:
   - id: VA019
     relation: '='
@@ -486,11 +968,29 @@
   forces:
     Confederate:
       casualties: 626
+      commanders:
+      - PersonID: 256b790f-0cad-46d6-80aa-7e176890da83
+        first_name: John
+        last_name: Magruder
+        middle_initial: B.
+        middle_name: Bankhead
+        navy: '0'
+        rank: Major General
       divisions: 4
     US:
       casualties: 1590
+      commanders:
+      - PersonID: f2b24743-4d9d-4422-b830-26ecf22d9bd1
+        first_name: Edwin
+        last_name: Sumner
+        middle_initial: V.
+        middle_name: Vose
+        navy: '0'
+        rank: Major General
       divisions: 3
   page: 297
+  partof: Seven Days Battles
+  result: Indecisive
   start_date: 1862-6-29
   theater: 'East: 1862'
 - battle: White Oak Swamp (Seven Days)
@@ -502,17 +1002,49 @@
     url: https://dbpedia.org/resource/Battle_of_White_Oak_Swamp
   forces:
     Confederate:
+      commanders:
+      - PersonID: 21d06a25-9c4f-4dea-a766-f60d20632999
+        first_name: Thomas
+        last_name: Jackson
+        middle_initial: J.
+        middle_name: Jonathan
+        navy: '0'
+        rank: Major General
+      - PersonID: d428cfef-5c7a-4230-b394-b195481d9a9f
+        first_name: Robert
+        last_name: Lee
+        middle_initial: E.
+        middle_name: ''
+        navy: '0'
+        rank: General
       divisions: 2
       killed: 638
       missing: 221
       wounded: 2814
     US:
+      commanders:
+      - PersonID: a6b7f4dd-efc1-43ae-ba35-a53ed768fd63
+        first_name: William
+        last_name: Franklin
+        middle_initial: B.
+        middle_name: Buel
+        navy: '0'
+        rank: Major General
+      - PersonID: 113829b2-e1ff-4458-8dce-9a4da30810dd
+        first_name: George
+        last_name: McClellan
+        middle_initial: B.
+        middle_name: Brinton
+        navy: '0'
+        rank: Major General
       divisions: 4
       guns lost: 18
       killed: 297
       missing: 1804
       wounded: 1696
   page: 297
+  partof: Seven Days Battles
+  result: Indecisive
   start_date: 1862-6-30
   theater: 'East: 1862'
 - battle: Malvern Hill (Seven Days)
@@ -524,11 +1056,29 @@
     url: https://dbpedia.org/resource/Battle_of_Malvern_Hill
   forces:
     Confederate:
+      commanders:
+      - PersonID: d428cfef-5c7a-4230-b394-b195481d9a9f
+        first_name: Robert
+        last_name: Lee
+        middle_initial: E.
+        middle_name: ''
+        navy: '0'
+        rank: General
       strength: 5355
     US:
       casualties: 3214
+      commanders:
+      - PersonID: 113829b2-e1ff-4458-8dce-9a4da30810dd
+        first_name: George
+        last_name: McClellan
+        middle_initial: B.
+        middle_name: Brinton
+        navy: '0'
+        rank: Major General
       strength: 83345
   page: 297
+  partof: Seven Days Battles
+  result: Union
   start_date: 1862-7-1
   theater: 'East: 1862'
 - battle: Cedar Mountain
@@ -540,16 +1090,33 @@
     url: https://dbpedia.org/resource/Battle_of_Cedar_Mountain
   forces:
     Confederate:
+      commanders:
+      - PersonID: 21d06a25-9c4f-4dea-a766-f60d20632999
+        first_name: Thomas
+        last_name: Jackson
+        middle_initial: J.
+        middle_name: Jonathan
+        navy: '0'
+        rank: Major General
       killed: 231
       missing: 31
       strength: 16868
       wounded: 1107
     US:
+      commanders:
+      - PersonID: f2f4eda1-b51f-4f8e-ad2d-379a1eb685f3
+        first_name: Nathaniel
+        last_name: Banks
+        middle_initial: P.
+        middle_name: ''
+        navy: '0'
+        rank: Major General
       killed: 314
       missing: 594
       strength: 8030
       wounded: 1445
   page: 297
+  result: Confederate
   start_date: 1862-8-9
   theater: 'East: 1862'
 - battle: Groveton
@@ -562,11 +1129,36 @@
   forces:
     Confederate:
       casualties: 1000
+      commanders:
+      - PersonID: d428cfef-5c7a-4230-b394-b195481d9a9f
+        first_name: Robert
+        last_name: Lee
+        middle_initial: E.
+        middle_name: ''
+        navy: '0'
+        rank: General
+      - PersonID: 21d06a25-9c4f-4dea-a766-f60d20632999
+        first_name: Thomas
+        last_name: Jackson
+        middle_initial: J.
+        middle_name: Jonathan
+        navy: '0'
+        rank: Major General
       strength: 6000
     US:
       casualties: 1000
+      commanders:
+      - PersonID: 60853683-b235-4e03-abcb-68edc8339fa5
+        first_name: John
+        last_name: Pope
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Major General
       strength: 2800
   page: 297
+  result: Confederate
+  result_comment: ''
   start_date: 1862-8-28
   theater: 'East: 1862'
 - battle: Second Bull Run/Chantilly (Second Manassas)
@@ -579,17 +1171,42 @@
   end_date: 1862-9-1
   forces:
     Confederate:
+      commanders:
+      - PersonID: d428cfef-5c7a-4230-b394-b195481d9a9f
+        first_name: Robert
+        last_name: Lee
+        middle_initial: E.
+        middle_name: ''
+        navy: '0'
+        rank: General
+      - PersonID: 21d06a25-9c4f-4dea-a766-f60d20632999
+        first_name: Thomas
+        last_name: Jackson
+        middle_initial: J.
+        middle_name: Jonathan
+        navy: '0'
+        rank: Major General
       killed: 1481
       missing: 89
       strength: 48527
       wounded: 7627
     US:
+      commanders:
+      - PersonID: 60853683-b235-4e03-abcb-68edc8339fa5
+        first_name: John
+        last_name: Pope
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Major General
       guns lost: 30
       killed: 1724
       missing_captured: 5958
       strength: 75696
       wounded: 8372
   page: 297
+  result: Confederate
+  result_comment: ''
   start_date: 1862-8-29
   theater: 'East: 1862'
 - battle: South Mountain
@@ -601,16 +1218,33 @@
     url: https://dbpedia.org/resource/Battle_of_South_Mountain
   forces:
     Confederate:
+      commanders:
+      - PersonID: d428cfef-5c7a-4230-b394-b195481d9a9f
+        first_name: Robert
+        last_name: Lee
+        middle_initial: E.
+        middle_name: ''
+        navy: '0'
+        rank: General
       killed: 325
       missing_captured: 800
       strength: 17852
       wounded: 1560
     US:
+      commanders:
+      - PersonID: 113829b2-e1ff-4458-8dce-9a4da30810dd
+        first_name: George
+        last_name: McClellan
+        middle_initial: B.
+        middle_name: Brinton
+        navy: '0'
+        rank: Major General
       killed: 325
       missing: 85
       strength: 28480
       wounded: 1403
   page: 297
+  result: Indecisive
   start_date: 1862-9-14
   theater: 'East: 1862'
 - battle: Antietam (Sharpsburg)
@@ -622,16 +1256,33 @@
     url: https://dbpedia.org/resource/Battle_of_Antietam
   forces:
     Confederate:
+      commanders:
+      - PersonID: d428cfef-5c7a-4230-b394-b195481d9a9f
+        first_name: Robert
+        last_name: Lee
+        middle_initial: E.
+        middle_name: ''
+        navy: '0'
+        rank: General
       killed: 1546
       missing: 1018
       strength: 39000
       wounded: 7752
     US:
+      commanders:
+      - PersonID: 113829b2-e1ff-4458-8dce-9a4da30810dd
+        first_name: George
+        last_name: McClellan
+        middle_initial: B.
+        middle_name: Brinton
+        navy: '0'
+        rank: Major General
       killed: 2108
       missing: 753
       strength: 75316
       wounded: 9549
   page: 297
+  result: Indecisive
   start_date: 1862-9-17
   theater: 'East: 1862'
 - battle: Fredericksburg
@@ -643,16 +1294,33 @@
     url: https://dbpedia.org/resource/Battle_of_Fredericksburg
   forces:
     Confederate:
+      commanders:
+      - PersonID: d428cfef-5c7a-4230-b394-b195481d9a9f
+        first_name: Robert
+        last_name: Lee
+        middle_initial: E.
+        middle_name: ''
+        navy: '0'
+        rank: General
       killed: 595
       missing: 653
       strength: 72497
       wounded: 4074
     US:
+      commanders:
+      - PersonID: c5f9dd77-1122-48f0-8840-614720ba50d8
+        first_name: Ambrose
+        last_name: Burnside
+        middle_initial: E.
+        middle_name: Everett
+        navy: '0'
+        rank: Major General
       killed: 1284
       missing: 1769
       strength: 106007
       wounded: 9600
   page: 297
+  result: Confederate
   start_date: 1862-12-13
   theater: 'East: 1862'
 - battle: Valverde
@@ -664,15 +1332,39 @@
     url: https://dbpedia.org/resource/Battle_of_Valverde
   forces:
     Confederate:
+      commanders:
+      - PersonID: 9839110b-154f-4796-aa4f-dd402e2382ca
+        first_name: Henry
+        last_name: Sibley
+        middle_initial: H.
+        middle_name: Hastings
+        navy: '0'
+        rank: Brigadier General
+      - PersonID: 1f2d408e-a3d6-431d-aefe-9d6df9e7902b
+        first_name: Thomas
+        last_name: Green
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Colonel
       killed: 36
       strength: 2515
       wounded: 150
     US:
+      commanders:
+      - PersonID: 30a29258-21ca-4370-8924-ee4559fe526b
+        first_name: Edward
+        last_name: Canby
+        middle_initial: R. S.
+        middle_name: Richard Sprigg
+        navy: '0'
+        rank: Colonel
       killed: 68
       missing: 35
       strength: 3810
       wounded: 157
   page: 299
+  result: Confederate
   start_date: 1862-2-21
   theater: 'West: 1862'
 - battle: Apache Canyon/Glorieta Pass
@@ -686,15 +1378,46 @@
   forces:
     Confederate:
       captured: 102
+      commanders:
+      - PersonID: 2828095d-0ca4-4577-86db-715eeb9ec93c
+        first_name: Charles
+        last_name: Pyron
+        middle_initial: L.
+        middle_name: ''
+        navy: '0'
+        rank: Major
+      - PersonID: a0843832-94ac-4663-b4bc-288b8d1b817f
+        first_name: William
+        last_name: Scurry
+        middle_initial: R.
+        middle_name: Read
+        navy: '0'
+        rank: Lieutenant Colonel
       killed: 47
       strength: 900
       wounded: 64
     US:
       captured: 16
+      commanders:
+      - PersonID: a858e995-675f-4386-9c26-6579fa7533dc
+        first_name: John
+        last_name: Chivington
+        middle_initial: M.
+        middle_name: Milton
+        navy: '0'
+        rank: Major
+      - PersonID: a05df089-6f23-4706-9b71-b25bcdba94c4
+        first_name: John
+        last_name: Slough
+        middle_initial: P.
+        middle_name: Potts
+        navy: '0'
+        rank: Colonel
       killed: 54
       strength: 1342
       wounded: 94
   page: 299
+  result: Union
   start_date: 1862-3-26
   theater: 'West: 1862'
 - battle: Pea Ridge
@@ -708,14 +1431,31 @@
   forces:
     Confederate:
       captured: 200
+      commanders:
+      - PersonID: a68145ec-a562-494d-8e95-c9bd2e0ff473
+        first_name: Earl
+        last_name: Van Dorn
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Major General
       killed_wounded: 800
       strength: 17000
     US:
+      commanders:
+      - PersonID: e08b618c-acc7-4502-9ef8-b8546572e22d
+        first_name: Samuel
+        last_name: Curtis
+        middle_initial: R.
+        middle_name: ''
+        navy: '0'
+        rank: Brigadier General
       killed: 203
       missing_captured: 210
       strength: 1125
       wounded: 980
   page: 299
+  result: Union
   start_date: 1862-3-7
   theater: 'West: 1862'
 - battle: Prairie Grove
@@ -727,19 +1467,43 @@
     url: https://dbpedia.org/resource/Battle_of_Prairie_Grove
   forces:
     Confederate:
+      commanders:
+      - PersonID: 839a5a85-49a8-41a6-b4a9-f76657c5d4fc
+        first_name: Thomas
+        last_name: Hindman
+        middle_initial: C.
+        middle_name: Carmichael
+        navy: '0'
+        rank: Major General
       killed: 164
       missing: 336
       strength: 12051
       wounded: 817
     US:
+      commanders:
+      - PersonID: 42af3182-e310-412a-917c-4718d4f4dda6
+        first_name: Francis
+        last_name: Herron
+        middle_initial: J.
+        middle_name: Jay
+        navy: '0'
+        rank: Brigadier General
+      - PersonID: a3f15046-9028-421d-bbe0-fb6c341a991f
+        first_name: James
+        last_name: Blunt
+        middle_initial: G.
+        middle_name: ''
+        navy: '0'
+        rank: Brigadier General
       killed: 175
       missing: 263
       strength: 9546
       wounded: 813
   page: 299
+  result: Union
   start_date: 1862-12-7
   theater: 'West: 1862'
-- battle: "Mill Springs (Logan's Crossroads)"
+- battle: Mill Springs (Logan's Crossroads)
   cwsac:
   - id: KY006
     relation: '='
@@ -749,16 +1513,33 @@
   end_date: 1862-1-20
   forces:
     Confederate:
+      commanders:
+      - PersonID: adcab55a-f4fc-44be-a271-cf0364c28a3b
+        first_name: George
+        last_name: Crittenden
+        middle_initial: B.
+        middle_name: Bibb
+        navy: '0'
+        rank: Major General
       guns lost: 12
       killed: 125
       missing: 99
       strength: 4500
       wounded: 309
     US:
+      commanders:
+      - PersonID: 6951057d-db32-4db5-8b3e-dea0c1101a5f
+        first_name: George
+        last_name: Thomas
+        middle_initial: H.
+        middle_name: ''
+        navy: '0'
+        rank: Brigadier General
       killed: 40
       strength: 4000
       wounded: 207
   page: 299
+  result: Union
   start_date: 1862-1-19
   theater: 'West: 1862'
 - battle: Fort Donelson
@@ -772,14 +1553,52 @@
   forces:
     Confederate:
       casualties: 14623
+      commanders:
+      - PersonID: a35f09f2-1d82-485d-96c1-00e23cc44a16
+        first_name: John
+        last_name: Floyd
+        middle_initial: B.A
+        middle_name: Buchanan
+        navy: '0'
+        rank: Brigadier General
+      - PersonID: c97e392a-d319-4c82-9201-0a35f418a0a9
+        first_name: Gideon
+        last_name: Pillow
+        middle_initial: J.
+        middle_name: Johnson
+        navy: '0'
+        rank: Brigadier General
+      - PersonID: b2dc590c-f108-4e13-a3e3-0d47a00668c3
+        first_name: Simon
+        last_name: Buckner
+        middle_initial: B.
+        middle_name: Bolivar
+        navy: '0'
+        rank: Brigadier General
       killed_wounded: 2000
       strength: 17500
     US:
+      commanders:
+      - PersonID: f4036249-0d0f-4c0f-aa2e-557890e1e475
+        first_name: Ulysses
+        last_name: Grant
+        middle_initial: S.
+        middle_name: Simon
+        navy: '0'
+        rank: Brigadier General
+      - PersonID: 571ac77d-3839-4b5f-9d47-d7e83bacfe60
+        first_name: Andrew
+        last_name: Foote
+        middle_initial: H.
+        middle_name: Hull
+        navy: '1'
+        rank: Flag Officer
       killed: 500
       missing: 224
       strength: 27500
       wounded: 2108
   page: 299
+  result: Union
   start_date: 1862-2-12
   theater: 'West: 1862'
 - battle: Shiloh (Pittsburg Landing)
@@ -792,16 +1611,47 @@
   end_date: 1862-4-7
   forces:
     Confederate:
+      commanders:
+      - PersonID: 155b07ca-cc70-402b-968f-dee3650ff3e3
+        first_name: Albert
+        last_name: Johnston
+        middle_initial: S.
+        middle_name: Sidney
+        navy: '0'
+        rank: General
+      - PersonID: 183d0a7d-f06a-4c7b-a575-7616e491618b
+        first_name: Pierre
+        last_name: Beauregard
+        middle_initial: G. T.
+        middle_name: Gustave Toutant
+        navy: '0'
+        rank: General
       killed: 1723
       missing_captured: 959
       strength: 40335
       wounded: 8012
     US:
+      commanders:
+      - PersonID: f4036249-0d0f-4c0f-aa2e-557890e1e475
+        first_name: Ulysses
+        last_name: Grant
+        middle_initial: S.
+        middle_name: Simon
+        navy: '0'
+        rank: Major General
+      - PersonID: ae900570-5c73-4de2-b99b-e0f6fbe50ca3
+        first_name: Don
+        last_name: Buell
+        middle_initial: C.
+        middle_name: Carlos
+        navy: '0'
+        rank: Major General
       killed: 1754
       missing_captured: 2885
       strength: 66812
       wounded: 8408
   page: 299
+  result: Union
   start_date: 1862-4-6
   theater: 'West: 1862'
 - battle: New Orleans
@@ -813,6 +1663,21 @@
     url: https://dbpedia.org/resource/Battle_of_Forts_Jackson_and_St._Philip
   forces:
     Confederate:
+      commanders:
+      - PersonID: 76873401-00d0-4430-a320-c35d2a6828be
+        first_name: Johnson
+        last_name: Duncan
+        middle_initial: K.
+        middle_name: Kelly
+        navy: '0'
+        rank: Brigadier General
+      - PersonID: 117bf5ff-1db0-4b84-9a31-7f77ad69e8be
+        first_name: John
+        last_name: Mitchell
+        middle_initial: K.
+        middle_name: ''
+        navy: '1'
+        rank: Commander
       gunboats: 10
       gunboats sunk: 9
       guns: 126
@@ -820,6 +1685,14 @@
       strength: 1100
       wounded: 39
     US:
+      commanders:
+      - PersonID: 7a5f39ff-efc9-4ccd-a5ed-56ad106e2f26
+        first_name: David
+        last_name: Farragut
+        middle_initial: G.
+        middle_name: Glasgow
+        navy: '1'
+        rank: Flag Officer
       frigates: 2
       gunboats: 9
       gunboats sunk: 1
@@ -828,6 +1701,7 @@
       sloops: 7
       wounded: 149
   page: 299
+  result: Union
   start_date: 1862-4-24
   theater: 'West: 1862'
 - battle: Baton Rouge
@@ -840,15 +1714,32 @@
   forces:
     Confederate:
       captured: 57
+      commanders:
+      - PersonID: f6caa729-7cfc-4aec-a064-e40c1cfdf01b
+        first_name: John
+        last_name: Breckinridge
+        middle_initial: C.
+        middle_name: Cabell
+        navy: '0'
+        rank: Major General
       killed: 84
       strength: 2600
       wounded: 315
     US:
       captured: 33
+      commanders:
+      - PersonID: 112c0903-05c0-43af-b85c-599f4eb2a25a
+        first_name: Thomas
+        last_name: Williams
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Brigadier General
       killed: 84
       strength: 2500
       wounded: 266
   page: 299
+  result: Union
   start_date: 1862-8-5
   theater: 'West: 1862'
 - battle: Iuka
@@ -860,16 +1751,33 @@
     url: https://dbpedia.org/resource/Battle_of_Iuka
   forces:
     Confederate:
+      commanders:
+      - PersonID: 8f232cc9-43e7-4627-ab45-d8fe6873c472
+        first_name: Sterling
+        last_name: Price
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Major General
       killed: 262
       missing: 561
       strength: 3179
       wounded: 692
     US:
+      commanders:
+      - PersonID: 7d67c576-bbd4-4b23-ac53-300f9522f311
+        first_name: William
+        last_name: Rosecrans
+        middle_initial: S.
+        middle_name: Starke
+        navy: '0'
+        rank: Major General
       killed: 144
       missing: 40
       strength: 4500
       wounded: 598
   page: 299
+  result: Union
   start_date: 1862-9-19
   theater: 'West: 1862'
 - battle: Corinth
@@ -882,16 +1790,33 @@
   end_date: 1862-10-4
   forces:
     Confederate:
+      commanders:
+      - PersonID: a68145ec-a562-494d-8e95-c9bd2e0ff473
+        first_name: Earl
+        last_name: Van Dorn
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Major General
       killed: 473
       missing: 1763
       strength: 22000
       wounded: 1997
     US:
+      commanders:
+      - PersonID: 7d67c576-bbd4-4b23-ac53-300f9522f311
+        first_name: William
+        last_name: Rosecrans
+        middle_initial: S.
+        middle_name: Starke
+        navy: '0'
+        rank: Major General
       killed: 355
       missing: 324
       strength: 21147
       wounded: 1841
   page: 299
+  result: Union
   start_date: 1862-10-3
   theater: 'West: 1862'
 - battle: Chickasaw Bluffs
@@ -903,16 +1828,33 @@
     url: https://dbpedia.org/resource/Battle_of_Chickasaw_Bayou
   forces:
     Confederate:
+      commanders:
+      - PersonID: 03c2a063-2c1f-4006-9be2-08bcb50ee9ea
+        first_name: John
+        last_name: Pemberton
+        middle_initial: C.
+        middle_name: Clifford
+        navy: '0'
+        rank: Lieutenant General
       killed: 63
       missing: 10
       strength: 13792
       wounded: 134
     US:
+      commanders:
+      - PersonID: 72fc916d-f36e-4ffa-ab9c-bec7bde07002
+        first_name: William
+        last_name: Sherman
+        middle_initial: ''
+        middle_name: Tecumsheh
+        navy: '0'
+        rank: Major General
       killed: 208
       missing_captured: 563
       strength: 30720
       wounded: 1005
   page: 300
+  result: Confederate
   start_date: 1862-12-29
   theater: 'West: 1862'
 - battle: Richmond (Kentucky)
@@ -924,16 +1866,33 @@
     url: https://dbpedia.org/resource/Battle_of_Richmond
   forces:
     Confederate:
+      commanders:
+      - PersonID: 39787b04-6723-4729-957c-bddcae228832
+        first_name: Edmund
+        last_name: Smith
+        middle_initial: K.
+        middle_name: Kirby
+        navy: '0'
+        rank: Major General
       killed: 78
       missing: 1
       strength: 6800
       wounded: 372
     US:
+      commanders:
+      - PersonID: 9a9f97a2-dc6b-413e-9bd4-eedd766bb2a2
+        first_name: William
+        last_name: Nelson
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Major General
       killed: 206
       missing_captured: 4303
       strength: 6500
       wounded: 844
   page: 300
+  result: Confederate
   start_date: 1862-8-30
   theater: 'West: 1862'
 - battle: Perryville
@@ -945,16 +1904,33 @@
     url: https://dbpedia.org/resource/Battle_of_Perryville
   forces:
     Confederate:
+      commanders:
+      - PersonID: 4b5a15e5-6c5d-492c-9ab7-32d50419cf80
+        first_name: Braxton
+        last_name: Bragg
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: General
       killed: 510
       missing_captured: 251
       strength: 16000
       wounded: 2635
     US:
+      commanders:
+      - PersonID: ae900570-5c73-4de2-b99b-e0f6fbe50ca3
+        first_name: Don
+        last_name: Buell
+        middle_initial: C.
+        middle_name: Carlos
+        navy: '0'
+        rank: Major General
       killed: 845
       missing_captured: 515
       strength: 36940
       wounded: 2851
   page: 300
+  result: Union
   start_date: 1862-10-8
   theater: 'West: 1862'
 - battle: Hartsville
@@ -967,12 +1943,29 @@
   forces:
     Confederate:
       casualties: 125
+      commanders:
+      - PersonID: 813a4704-9ba5-4fda-b14d-f0c9136f575a
+        first_name: John
+        last_name: Morgan
+        middle_initial: H.
+        middle_name: Hunt
+        navy: '0'
+        rank: Brigadier General
       strength: 2000
     US:
       captured: 1762
+      commanders:
+      - PersonID: e836ca76-6e2c-40ae-8c75-42bc9848504c
+        first_name: Absalom
+        last_name: Moore
+        middle_initial: B.
+        middle_name: ''
+        navy: '0'
+        rank: Colonel
       killed_wounded: 300
       strength: 2100
   page: 300
+  result: Confederate
   start_date: 1862-12-7
   theater: 'West: 1862'
 - battle: Stones River (Murfreesboro)
@@ -985,16 +1978,33 @@
   end_date: 1863-1-2
   forces:
     Confederate:
+      commanders:
+      - PersonID: 4b5a15e5-6c5d-492c-9ab7-32d50419cf80
+        first_name: Braxton
+        last_name: Bragg
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: General
       killed: 1294
       missing_captured: 2500
       strength: 37713
       wounded: 7945
     US:
+      commanders:
+      - PersonID: 7d67c576-bbd4-4b23-ac53-300f9522f311
+        first_name: William
+        last_name: Rosecrans
+        middle_initial: S.
+        middle_name: Starke
+        navy: '0'
+        rank: Major General
       killed: 1677
       missing_captured: 3686
       strength: 44000
       wounded: 7543
   page: 300
+  result: Union
   start_date: 1862-12-31
   theater: 'West: 1862'
 - battle: Chancellorsville
@@ -1007,16 +2017,40 @@
   end_date: 1863-5-6
   forces:
     Confederate:
+      commanders:
+      - PersonID: d428cfef-5c7a-4230-b394-b195481d9a9f
+        first_name: Robert
+        last_name: Lee
+        middle_initial: E.
+        middle_name: ''
+        navy: '0'
+        rank: General
+      - PersonID: 21d06a25-9c4f-4dea-a766-f60d20632999
+        first_name: Thomas
+        last_name: Jackson
+        middle_initial: J.
+        middle_name: Jonathan
+        navy: '0'
+        rank: Major General
       killed: 1665
       missing: 2081
       strength: 60892
       wounded: 9081
     US:
+      commanders:
+      - PersonID: cfa9a700-f979-46ff-bfb1-4615441ccd55
+        first_name: Joseph
+        last_name: Hooker
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Major General
       killed: 1606
       missing_captured: 5919
       strength: 97382
       wounded: 9762
   page: 302
+  result: Confederate
   start_date: 1863-5-1
   theater: 'East: 1863'
 - battle: Brandy Station
@@ -1030,12 +2064,29 @@
     Confederate:
       casualties: 523
       cavalry: 10000
+      commanders:
+      - PersonID: 6df9b482-4757-474f-80a9-bd1d82228a63
+        first_name: James
+        last_name: Stuart
+        middle_initial: E. B.
+        middle_name: Ewell Brown
+        navy: '0'
+        rank: Major General
     US:
       captured: 486
       cavalry: 12000
+      commanders:
+      - PersonID: 90849b39-6f3a-4d88-af29-ddded5d1733a
+        first_name: Alfred
+        last_name: Pleasonton
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Major General
       killed: 69
       wounded: 352
   page: 302
+  result: Indecisive
   start_date: 1863-6-9
   theater: 'East: 1863'
 - battle: Winchester (second)
@@ -1049,14 +2100,31 @@
   forces:
     Confederate:
       casualties: 269
+      commanders:
+      - PersonID: aa9a80fb-49e3-41d4-8ce5-3f5cbd961625
+        first_name: Richard
+        last_name: Ewell
+        middle_initial: S.
+        middle_name: Stoddert
+        navy: '0'
+        rank: Lieutenant General
       strength: 14000
     US:
+      commanders:
+      - PersonID: 8c251b93-5768-4630-ae9a-dd45b4e785c6
+        first_name: Robert
+        last_name: Milroy
+        middle_initial: H.
+        middle_name: Huston
+        navy: '0'
+        rank: Brigadier General
       guns lost: 23
       killed: 95
       missing: 4058
       strength: 5100
       wounded: 348
   page: 302
+  result: Confederate
   start_date: 1863-6-14
   theater: 'East: 1863'
 - battle: Gettsyburg
@@ -1069,16 +2137,33 @@
   end_date: 1863-7-3
   forces:
     Confederate:
+      commanders:
+      - PersonID: d428cfef-5c7a-4230-b394-b195481d9a9f
+        first_name: Robert
+        last_name: Lee
+        middle_initial: E.
+        middle_name: ''
+        navy: '0'
+        rank: General
       killed: 3903
       missing_captured: 5425
       strength: 70226
       wounded: 18735
     US:
+      commanders:
+      - PersonID: 15a8b826-e060-430a-bb4c-61936b75252e
+        first_name: George
+        last_name: Meade
+        middle_initial: G.
+        middle_name: Gordon
+        navy: '0'
+        rank: Major General
       killed: 3155
       missing_captured: 5365
       strength: 88289
       wounded: 14529
   page: 302
+  result: Union
   start_date: 1863-7-1
   theater: 'East: 1863'
 - battle: Bristoe Station
@@ -1092,11 +2177,28 @@
     Confederate:
       brigades: 2
       captured: 450
+      commanders:
+      - PersonID: 2153a0b4-6aab-42d2-b31e-56b074ec402e
+        first_name: Ambrose
+        last_name: Hill
+        middle_initial: P.
+        middle_name: Powell
+        navy: '0'
+        rank: Lieutenant General
       killed_wounded: 1400
     US:
       casualties: 548
+      commanders:
+      - PersonID: 8ca13860-937b-4df4-8f84-df7a2bf51224
+        first_name: Gouverneur
+        last_name: Warren
+        middle_initial: K.
+        middle_name: Kemble
+        navy: '0'
+        rank: Major General
       divisions: 3
   page: 302
+  result: Union
   start_date: 1863-10-14
   theater: 'East: 1863'
 - battle: Buckland
@@ -1110,10 +2212,27 @@
     Confederate:
       casualties: 408
       cavalry divisions: 1
+      commanders:
+      - PersonID: 6df9b482-4757-474f-80a9-bd1d82228a63
+        first_name: James
+        last_name: Stuart
+        middle_initial: E. B.
+        middle_name: Ewell Brown
+        navy: '0'
+        rank: Major General
     US:
       casualties: 1251
       cavalry divisions: 1
+      commanders:
+      - PersonID: 7830dd73-a91e-4fe5-b112-4492303f8c2d
+        first_name: Hugh
+        last_name: Kilpatrick
+        middle_initial: J.
+        middle_name: Judson
+        navy: '0'
+        rank: Major General
   page: 302
+  result: Confederate
   start_date: 1863-10-19
   theater: 'East: 1863'
 - battle: Rappahannock Station
@@ -1126,11 +2245,28 @@
   forces:
     Confederate:
       casualties: 2033
+      commanders:
+      - PersonID: d428cfef-5c7a-4230-b394-b195481d9a9f
+        first_name: Robert
+        last_name: Lee
+        middle_initial: E.
+        middle_name: ''
+        navy: '0'
+        rank: General
       strength: 2800
     US:
       casualties: 461
+      commanders:
+      - PersonID: 15a8b826-e060-430a-bb4c-61936b75252e
+        first_name: George
+        last_name: Meade
+        middle_initial: G.
+        middle_name: Gordon
+        navy: '0'
+        rank: Major General
       corps: 1
   page: 302
+  result: Union
   start_date: 1863-11-7
   theater: 'East: 1863'
 - battle: Mine Run
@@ -1144,11 +2280,28 @@
   forces:
     Confederate:
       casualties: 629
+      commanders:
+      - PersonID: d428cfef-5c7a-4230-b394-b195481d9a9f
+        first_name: Robert
+        last_name: Lee
+        middle_initial: E.
+        middle_name: ''
+        navy: '0'
+        rank: General
       strength: 48586
     US:
       casualties: 1653
+      commanders:
+      - PersonID: 15a8b826-e060-430a-bb4c-61936b75252e
+        first_name: George
+        last_name: Meade
+        middle_initial: G.
+        middle_name: Gordon
+        navy: '0'
+        rank: Major General
       strength: 84274
   page: 302
+  result: Indecisive
   start_date: 1863-11-27
   theater: 'East: 1863'
 - battle: Galveston
@@ -1160,6 +2313,14 @@
     url: https://dbpedia.org/resource/Battle_of_Galveston
   forces:
     Confederate:
+      commanders:
+      - PersonID: 256b790f-0cad-46d6-80aa-7e176890da83
+        first_name: John
+        last_name: Magruder
+        middle_initial: B.
+        middle_name: Bankhead
+        navy: '0'
+        rank: Major General
       guns: 3
       killed: 27
       steamers: 2
@@ -1167,12 +2328,28 @@
       wounded: 116
     US:
       captured: 600
+      commanders:
+      - PersonID: fc3770be-57d2-408b-b564-a47752d56116
+        first_name: Isaac
+        last_name: Burrell
+        middle_initial: S.
+        middle_name: ''
+        navy: '0'
+        rank: Colonel
+      - PersonID: 65815655-0c83-4511-9e7b-2ce4d0ca632c
+        first_name: William
+        last_name: Renshaw
+        middle_initial: B.
+        middle_name: Bainbridge
+        navy: '1'
+        rank: Commander
       companies: 3
       gunboats: 5
       gunboats captured: 1
       gunboats sunk: 1
       guns: 28
   page: 305
+  result: Confederate
   start_date: 1863-1-1
   theater: 'West: 1863'
 - battle: Honey Springs
@@ -1185,12 +2362,29 @@
   forces:
     Confederate:
       casualties: 181
+      commanders:
+      - PersonID: 0585679d-c4d3-46b9-a774-1c06c6d7f9e9
+        first_name: Douglas
+        last_name: Cooper
+        middle_initial: H.
+        middle_name: Hancock
+        navy: '0'
+        rank: Brigadier General
       strength: 5000
     US:
+      commanders:
+      - PersonID: a3f15046-9028-421d-bbe0-fb6c341a991f
+        first_name: James
+        last_name: Blunt
+        middle_initial: G.
+        middle_name: ''
+        navy: '0'
+        rank: Major General
       killed: 13
       strength: 4000
       wounded: 62
   page: 305
+  result: Union
   start_date: 1863-7-17
   theater: 'West: 1863'
 - battle: Fort Hindman (Arkansas Post)
@@ -1203,14 +2397,38 @@
   forces:
     Confederate:
       captured: 4791
+      commanders:
+      - PersonID: 1a2052a6-2f63-45e6-a406-1f6eae7c8341
+        first_name: Thomas
+        last_name: Churchill
+        middle_initial: J.
+        middle_name: James
+        navy: '0'
+        rank: Brigadier General
       killed_wounded: 109
       strength: 5000
     US:
+      commanders:
+      - PersonID: 8da88a4c-d429-4247-a6e8-cba41f280a10
+        first_name: David
+        last_name: Porter
+        middle_initial: D.
+        middle_name: Dixon
+        navy: '1'
+        rank: Acting Rear Admiral
+      - PersonID: ff3bef0a-370b-48a3-9e53-a77c9f9a5b35
+        first_name: John
+        last_name: McClernand
+        middle_initial: A.
+        middle_name: Alexander
+        navy: '0'
+        rank: Major General
       killed: 140
       strength: 29000
       warships: 13
       wounded: 923
   page: 305
+  result: Union
   start_date: 1863-1-11
   theater: 'West: 1863'
 - battle: Port Hudson (siege)
@@ -1224,17 +2442,34 @@
   forces:
     Confederate:
       captured: 6340
+      commanders:
+      - PersonID: 6420b474-c728-4537-84ce-09ae419a5398
+        first_name: Franklin
+        last_name: Gardner
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Major General
       guns: 57
       guns lost: 57
       killed_wounded: 623
       strength: 6715
     US:
+      commanders:
+      - PersonID: f2f4eda1-b51f-4f8e-ad2d-379a1eb685f3
+        first_name: Nathaniel
+        last_name: Banks
+        middle_initial: P.
+        middle_name: ''
+        navy: '0'
+        rank: Major General
       guns: 90
       killed: 707
       missing: 319
       strength: 20000
       wounded: 3336
   page: 305
+  result: Union
   start_date: 1863-5-26
   theater: 'West: 1863'
 - battle: Port Hudson (first assault)
@@ -1247,15 +2482,34 @@
   forces:
     Confederate:
       casualties: 235
+      commanders:
+      - PersonID: 6420b474-c728-4537-84ce-09ae419a5398
+        first_name: Franklin
+        last_name: Gardner
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Major General
       note: Use strength from Port Hudson Siege
       strength: 6715
     US:
+      commanders:
+      - PersonID: f2f4eda1-b51f-4f8e-ad2d-379a1eb685f3
+        first_name: Nathaniel
+        last_name: Banks
+        middle_initial: P.
+        middle_name: ''
+        navy: '0'
+        rank: Major General
       killed: 293
       missing: 157
       note: Use strength from Port Hudson Siege
       strength: 20000
       wounded: 1545
   page: 305
+  partof: Port Hudson (siege)
+  result: Union
+  result_comment: ''
   start_date: 1863-5-27
   theater: 'West: 1863'
 - battle: Port Hudson (second assault)
@@ -1267,17 +2521,36 @@
     url: https://dbpedia.org/resource/Siege_of_Port_Hudson
   forces:
     Confederate:
+      commanders:
+      - PersonID: 6420b474-c728-4537-84ce-09ae419a5398
+        first_name: Franklin
+        last_name: Gardner
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Major General
       killed: 22
       note: Use strength from Port Hudson Siege minus first assault
       strength: 6480
       wounded: 25
     US:
+      commanders:
+      - PersonID: f2f4eda1-b51f-4f8e-ad2d-379a1eb685f3
+        first_name: Nathaniel
+        last_name: Banks
+        middle_initial: P.
+        middle_name: ''
+        navy: '0'
+        rank: Major General
       killed: 203
       missing: 188
       note: Use strength from Port Hudson Siege minus first assault
       strength: 18005
       wounded: 1401
   page: 305
+  partof: Port Hudson (siege)
+  result: Union
+  result_comment: ''
   start_date: 1863-6-14
   theater: 'West: 1863'
 - battle: Donaldsville (first)
@@ -1290,11 +2563,28 @@
   forces:
     Confederate:
       casualties: 261
+      commanders:
+      - PersonID: 1f2d408e-a3d6-431d-aefe-9d6df9e7902b
+        first_name: Thomas
+        last_name: Green
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Brigadier General
       strength: 800
     US:
+      commanders:
+      - PersonID: 75f89742-e9e6-44e6-895c-c1b4d481fcab
+        first_name: Joseph
+        last_name: Bullen
+        middle_initial: D.
+        middle_name: ''
+        navy: '0'
+        rank: Major
       killed_wounded: 24
       strength: 225
   page: 305
+  result: Indecisive
   start_date: 1863-6-28
   theater: 'West: 1863'
 - battle: Donaldsville (second)
@@ -1307,14 +2597,38 @@
   forces:
     Confederate:
       brigades: 2
+      commanders:
+      - PersonID: 1f2d408e-a3d6-431d-aefe-9d6df9e7902b
+        first_name: Thomas
+        last_name: Green
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Brigadier General
       killed: 9
       wounded: 24
     US:
       brigades: 2
+      commanders:
+      - PersonID: 6039ac35-5424-47ea-972c-11111315b2fc
+        first_name: Godfrey
+        last_name: Weitzel
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Brigadier General
+      - PersonID: d28cf4ce-7176-40e5-81a3-d822f31ae359
+        first_name: Cuvier
+        last_name: Grover
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Brigadier General
       killed: 50
       missing_captured: 186
       wounded: 223
   page: 305
+  result: Confederate
   start_date: 1863-7-13
   theater: 'West: 1863'
 - battle: Port Gibson
@@ -1326,16 +2640,33 @@
     url: https://dbpedia.org/resource/Battle_of_Port_Gibson
   forces:
     Confederate:
+      commanders:
+      - PersonID: 121a2f46-8937-472b-aca1-7a6afd0d8f57
+        first_name: John
+        last_name: Bowen
+        middle_initial: S.
+        middle_name: Stevens
+        navy: '0'
+        rank: Brigadier General
       killed: 68
       missing: 384
       strength: 5500
       wounded: 380
     US:
+      commanders:
+      - PersonID: f4036249-0d0f-4c0f-aa2e-557890e1e475
+        first_name: Ulysses
+        last_name: Grant
+        middle_initial: S.
+        middle_name: Simon
+        navy: '0'
+        rank: Major General
       killed: 131
       missing: 25
       strength: 23000
       wounded: 719
   page: 305
+  result: Union
   start_date: 1863-5-1
   theater: 'West: 1863'
 - battle: Raymond
@@ -1347,16 +2678,33 @@
     url: https://dbpedia.org/resource/Battle_of_Raymond
   forces:
     Confederate:
+      commanders:
+      - PersonID: 55cf9433-a8d5-4665-96cc-3f8dd99995ef
+        first_name: John
+        last_name: Gregg
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Brigadier General
       killed: 73
       missing: 190
       strength: 4000
       wounded: 251
     US:
+      commanders:
+      - PersonID: fb4ade2a-549d-4707-9784-5c2d3a928df6
+        first_name: James
+        last_name: McPherson
+        middle_initial: B.
+        middle_name: Birdseye
+        navy: '0'
+        rank: Major General
       killed: 66
       missing: 37
       strength: 25000
       wounded: 339
   page: 305
+  result: Union
   start_date: 1863-5-12
   theater: 'West: 1863'
 - battle: Jackson
@@ -1368,16 +2716,40 @@
     url: https://dbpedia.org/resource/Battle_of_Jackson,_Mississippi
   forces:
     Confederate:
+      commanders:
+      - PersonID: b0f7a304-f6c5-4a8d-b816-066426e5dc1c
+        first_name: Joseph
+        last_name: Johnston
+        middle_initial: E.
+        middle_name: ''
+        navy: '0'
+        rank: General
+      - PersonID: 55cf9433-a8d5-4665-96cc-3f8dd99995ef
+        first_name: John
+        last_name: Gregg
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Brigadier General
       killed: 17
       missing: 118
       strength: 6000
       wounded: 66
     US:
+      commanders:
+      - PersonID: f4036249-0d0f-4c0f-aa2e-557890e1e475
+        first_name: Ulysses
+        last_name: Grant
+        middle_initial: S.
+        middle_name: Simon
+        navy: '0'
+        rank: Major General
       killed: 48
       missing: 11
       strength: 25000
       wounded: 273
   page: 305
+  result: Union
   start_date: 1863-5-14
   theater: 'West: 1863'
 - battle: Champion's Hill
@@ -1389,16 +2761,33 @@
     url: https://dbpedia.org/resource/Battle_of_Champion_Hill
   forces:
     Confederate:
+      commanders:
+      - PersonID: 03c2a063-2c1f-4006-9be2-08bcb50ee9ea
+        first_name: John
+        last_name: Pemberton
+        middle_initial: C.
+        middle_name: Clifford
+        navy: '0'
+        rank: Lieutenant General
       killed: 381
       missing_captured: 1670
       strength: 21800
       wounded: 1800
     US:
+      commanders:
+      - PersonID: f4036249-0d0f-4c0f-aa2e-557890e1e475
+        first_name: Ulysses
+        last_name: Grant
+        middle_initial: S.
+        middle_name: Simon
+        navy: '0'
+        rank: Major General
       killed: 410
       missing: 187
       strength: 29373
       wounded: 1844
   page: 305
+  result: Union
   start_date: 1863-5-16
   theater: 'West: 1863'
 - battle: Big Black River
@@ -1412,12 +2801,29 @@
     Confederate:
       brigades: 1
       casualties: 1751
+      commanders:
+      - PersonID: 121a2f46-8937-472b-aca1-7a6afd0d8f57
+        first_name: John
+        last_name: Bowen
+        middle_initial: S.
+        middle_name: Stevens
+        navy: '0'
+        rank: Brigadier General
     US:
+      commanders:
+      - PersonID: ff3bef0a-370b-48a3-9e53-a77c9f9a5b35
+        first_name: John
+        last_name: McClernand
+        middle_initial: A.
+        middle_name: Alexander
+        navy: '0'
+        rank: Major General
       divisions: 2
       killed: 39
       missing: 3
       wounded: 237
   page: 305
+  result: Union
   start_date: 1863-5-17
   theater: 'West: 1863'
 - battle: Vicksburg (siege)
@@ -1431,16 +2837,33 @@
   forces:
     Confederate:
       captured: 29396
+      commanders:
+      - PersonID: 03c2a063-2c1f-4006-9be2-08bcb50ee9ea
+        first_name: John
+        last_name: Pemberton
+        middle_initial: C.
+        middle_name: Clifford
+        navy: '0'
+        rank: Lieutenant General
       guns lost: 172
       killed_wounded: 4910
       small arms lost: 60000
       strength: 30000
     US:
       casualties: 5000
+      commanders:
+      - PersonID: f4036249-0d0f-4c0f-aa2e-557890e1e475
+        first_name: Ulysses
+        last_name: Grant
+        middle_initial: S.
+        middle_name: Simon
+        navy: '0'
+        rank: Major General
       note: 'casualties for entire campaign from April 30 to July 4: 1514 k, 7395
         w, 453 cm'
       strength: 71000
   page: 305
+  result: Union
   start_date: 1863-5-18
   theater: 'West: 1863'
 - battle: Vicksburg (first assault)
@@ -1453,15 +2876,34 @@
   forces:
     Confederate:
       casualties: 200
+      commanders:
+      - PersonID: 03c2a063-2c1f-4006-9be2-08bcb50ee9ea
+        first_name: John
+        last_name: Pemberton
+        middle_initial: C.
+        middle_name: Clifford
+        navy: '0'
+        rank: Lieutenant General
       note: Use strength from Vicksburg siege
       strength: 30000
     US:
+      commanders:
+      - PersonID: f4036249-0d0f-4c0f-aa2e-557890e1e475
+        first_name: Ulysses
+        last_name: Grant
+        middle_initial: S.
+        middle_name: Simon
+        navy: '0'
+        rank: Major General
       killed: 157
       missing: 8
       note: Use strength from Vicksburg siege
       strength: 71000
       wounded: 777
   page: 305
+  partof: Vicksburg (siege)
+  result: Union
+  result_comment: ''
   start_date: 1863-5-19
   theater: 'West: 1863'
 - battle: Vicksburg (second assault)
@@ -1474,15 +2916,34 @@
   forces:
     Confederate:
       casualties: 1000
+      commanders:
+      - PersonID: 03c2a063-2c1f-4006-9be2-08bcb50ee9ea
+        first_name: John
+        last_name: Pemberton
+        middle_initial: C.
+        middle_name: Clifford
+        navy: '0'
+        rank: Lieutenant General
       note: Use strength from Vicksburg siege minus casualties from the first assault.
       strength: 29800
     US:
+      commanders:
+      - PersonID: f4036249-0d0f-4c0f-aa2e-557890e1e475
+        first_name: Ulysses
+        last_name: Grant
+        middle_initial: S.
+        middle_name: Simon
+        navy: '0'
+        rank: Major General
       killed: 502
       missing: 147
       note: Use strength from Vicksburg siege minus casualties from the first assault.
       strength: 70058
       wounded: 2550
   page: 305
+  partof: Vicksburg (siege)
+  result: Union
+  result_comment: ''
   start_date: 1863-5-22
   theater: 'West: 1863'
 - battle: Helena
@@ -1495,11 +2956,28 @@
   forces:
     Confederate:
       casualties: 1636
+      commanders:
+      - PersonID: 65f2acff-a023-45b9-8957-6b89af4343b7
+        first_name: Theophilus
+        last_name: Holmes
+        middle_initial: H.
+        middle_name: Hunter
+        navy: '0'
+        rank: Lieutenant General
       strength: 7646
     US:
       casualties: 239
+      commanders:
+      - PersonID: 84cac7af-39b5-4fda-af6a-303608eec2c3
+        first_name: Benjamin
+        last_name: Prentiss
+        middle_initial: M.
+        middle_name: Mayberry
+        navy: '0'
+        rank: Major General
       strength: 4129
   page: 305
+  result: Union
   start_date: 1863-7-4
   theater: 'West: 1863'
 - battle: Jackson (siege)
@@ -1509,16 +2987,34 @@
   end_date: 1863-7-16
   forces:
     Confederate:
+      commanders:
+      - PersonID: b0f7a304-f6c5-4a8d-b816-066426e5dc1c
+        first_name: Joseph
+        last_name: Johnston
+        middle_initial: E.
+        middle_name: ''
+        navy: ''
+        rank: General
       killed: 71
       missing_captured: 764
       strength: 31000
       wounded: 584
     US:
+      commanders:
+      - PersonID: 033ec012-d845-474f-bf9c-28366e02d1a4
+        first_name: William
+        last_name: Sherman
+        middle_initial: T.
+        middle_name: ''
+        navy: ''
+        rank: Major General
       killed: 129
       missing: 231
       strength: 50000
       wounded: 762
   page: 305
+  result: Union
+  result_comment: ''
   start_date: 1863-7-10
   theater: 'West: 1863'
 - battle: Chickamagua
@@ -1531,18 +3027,49 @@
   end_date: 1863-9-20
   forces:
     Confederate:
+      commanders:
+      - PersonID: 4b5a15e5-6c5d-492c-9ab7-32d50419cf80
+        first_name: Braxton
+        last_name: Bragg
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: General
+      - PersonID: 0418b77d-5826-4c1d-9621-9d92c48d77b5
+        first_name: James
+        last_name: Longstreet
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Lieutenant General
       guns: 200
       killed: 2312
       missing: 1468
       strength: 66326
       wounded: 14674
     US:
+      commanders:
+      - PersonID: 7d67c576-bbd4-4b23-ac53-300f9522f311
+        first_name: William
+        last_name: Rosecrans
+        middle_initial: S.
+        middle_name: Starke
+        navy: '0'
+        rank: Major General
+      - PersonID: 6951057d-db32-4db5-8b3e-dea0c1101a5f
+        first_name: George
+        last_name: Thomas
+        middle_initial: H.
+        middle_name: ''
+        navy: '0'
+        rank: Major General
       guns: 170
       killed: 1657
       missing_captured: 4757
       strength: 58222
       wounded: 9756
   page: 305
+  result: Confederate
   start_date: 1863-9-19
   theater: 'West: 1863'
 - battle: Chattanooga
@@ -1555,6 +3082,14 @@
   end_date: 1863-11-25
   forces:
     Confederate:
+      commanders:
+      - PersonID: 4b5a15e5-6c5d-492c-9ab7-32d50419cf80
+        first_name: Braxton
+        last_name: Bragg
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: General
       guns lost: 41
       killed: 361
       missing_captured: 4146
@@ -1562,11 +3097,20 @@
       strength: 40929
       wounded: 2160
     US:
+      commanders:
+      - PersonID: f4036249-0d0f-4c0f-aa2e-557890e1e475
+        first_name: Ulysses
+        last_name: Grant
+        middle_initial: S.
+        middle_name: Simon
+        navy: '0'
+        rank: Major General
       killed: 753
       missing_captured: 349
       strength: 56359
       wounded: 4722
   page: 305
+  result: Union
   start_date: 1863-11-23
   theater: 'West: 1863'
 - battle: Chattanooga (Orchard Knob/Indian Hill)
@@ -1579,10 +3123,29 @@
   forces:
     Confederate:
       casualties: 1000
+      commanders:
+      - PersonID: 4b5a15e5-6c5d-492c-9ab7-32d50419cf80
+        first_name: Braxton
+        last_name: Bragg
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: General
     US:
       casualties: 1100
+      commanders:
+      - PersonID: f4036249-0d0f-4c0f-aa2e-557890e1e475
+        first_name: Ulysses
+        last_name: Grant
+        middle_initial: S.
+        middle_name: Simon
+        navy: '0'
+        rank: Major General
       strength: 25000
   page: 306
+  partof: Chattanooga
+  result: Union
+  result_comment: Union forces took Orchard Knob
   start_date: 1863-11-23
   theater: 'West: 1863'
 - battle: Chattanooga (Lookout Mountain)
@@ -1596,12 +3159,31 @@
     Confederate:
       brigades: 3
       casualties: 500
+      commanders:
+      - PersonID: 4b5a15e5-6c5d-492c-9ab7-32d50419cf80
+        first_name: Braxton
+        last_name: Bragg
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: General
     US:
+      commanders:
+      - PersonID: f4036249-0d0f-4c0f-aa2e-557890e1e475
+        first_name: Ulysses
+        last_name: Grant
+        middle_initial: S.
+        middle_name: Simon
+        navy: '0'
+        rank: Major General
       killed: 81
       missing: 8
       strength: 12000
       wounded: 540
   page: 306
+  partof: Chattanooga
+  result: Union
+  result_comment: ''
   start_date: 1863-11-24
   theater: 'West: 1863'
 - battle: Chattanooga (Tunnel Hill)
@@ -1614,12 +3196,31 @@
   forces:
     Confederate:
       casualties: 222
+      commanders:
+      - PersonID: 4b5a15e5-6c5d-492c-9ab7-32d50419cf80
+        first_name: Braxton
+        last_name: Bragg
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: General
       divisions: 1
     US:
       captured: 261
+      commanders:
+      - PersonID: f4036249-0d0f-4c0f-aa2e-557890e1e475
+        first_name: Ulysses
+        last_name: Grant
+        middle_initial: S.
+        middle_name: Simon
+        navy: '0'
+        rank: Major General
       divisions: 4
       killed_wounded: 1240
   page: 306
+  partof: Chattanooga
+  result: Union
+  result_comment: Confederate forces held the line
   start_date: 1863-11-25
   theater: 'West: 1863'
 - battle: Chattanooga (Missionary Ridge)
@@ -1631,11 +3232,30 @@
     url: https://dbpedia.org/resource/Battle_of_Missionary_Ridge
   forces:
     Confederate:
+      commanders:
+      - PersonID: 4b5a15e5-6c5d-492c-9ab7-32d50419cf80
+        first_name: Braxton
+        last_name: Bragg
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: General
       killed_wounded: 3000
     US:
       casualties: 3170
+      commanders:
+      - PersonID: f4036249-0d0f-4c0f-aa2e-557890e1e475
+        first_name: Ulysses
+        last_name: Grant
+        middle_initial: S.
+        middle_name: Simon
+        navy: '0'
+        rank: Major General
       strength: 24536
   page: 306
+  partof: Chattanooga
+  result: Union
+  result_comment: Union forces took the rifle pits and Confederate forces retreated
   start_date: 1863-11-25
   theater: 'West: 1863'
 - battle: Ringgold Gap
@@ -1648,12 +3268,29 @@
   forces:
     Confederate:
       casualties: 221
+      commanders:
+      - PersonID: 6aa89d0e-8209-4236-869e-6de6b4865ca0
+        first_name: Patrick
+        last_name: Cleburne
+        middle_initial: R.
+        middle_name: Ronayne
+        navy: '0'
+        rank: Major General
       strength: 4100
     US:
       captured: 100
+      commanders:
+      - PersonID: cfa9a700-f979-46ff-bfb1-4615441ccd55
+        first_name: Joseph
+        last_name: Hooker
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Major General
       killed_wounded: 342
       strength: 12000
   page: 306
+  result: Confederate
   start_date: 1863-11-27
   theater: 'West: 1863'
 - battle: Knoxville (siege)
@@ -1664,13 +3301,31 @@
   forces:
     Confederate:
       casualties: 1142
+      commanders:
+      - PersonID: 4b5a15e5-6c5d-492c-9ab7-32d50419cf80
+        first_name: Braxton
+        last_name: Bragg
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: General
       strength: 15000
     US:
+      commanders:
+      - PersonID: f4036249-0d0f-4c0f-aa2e-557890e1e475
+        first_name: Ulysses
+        last_name: Grant
+        middle_initial: S.
+        middle_name: Simon
+        navy: '0'
+        rank: Major General
       killed: 92
       missing_captured: 207
       strength: 25000
       wounded: 394
   page: 306
+  result: Union
+  result_comment: ''
   start_date: 1863-11-17
   theater: 'West: 1863'
 - battle: Knoxville (attack on Fort Sanders)
@@ -1683,15 +3338,32 @@
   forces:
     Confederate:
       captured: 226
+      commanders:
+      - PersonID: 0418b77d-5826-4c1d-9621-9d92c48d77b5
+        first_name: James
+        last_name: Longstreet
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Lieutenant General
       killed: 129
       strength: 3000
       wounded: 458
     US:
+      commanders:
+      - PersonID: c5f9dd77-1122-48f0-8840-614720ba50d8
+        first_name: Ambrose
+        last_name: Burnside
+        middle_initial: E.
+        middle_name: Everett
+        navy: '0'
+        rank: Major General
       guns: 12
       killed: 8
       strength: 440
       wounded: 5
   page: 306
+  result: Union
   start_date: 1863-11-29
   theater: 'West: 1863'
 - battle: Pocataligo
@@ -1701,11 +3373,29 @@
   forces:
     Confederate:
       casualties: 163
+      commanders:
+      - PersonID: ''
+        first_name: William
+        last_name: Walker
+        middle_initial: 'S. '
+        middle_name: ''
+        navy: ''
+        rank: Colonel
       strength: 2200
     US:
       casualties: 340
+      commanders:
+      - PersonID: 0bbf8c45-2f41-4b08-98ce-222e943adac8
+        first_name: John
+        last_name: Brannan
+        middle_initial: M.
+        middle_name: ''
+        navy: ''
+        rank: Brigadier General
       strength: 4500
   page: 306
+  result: Confederate
+  result_comment: ''
   start_date: 1863-10-22
   theater: 'Blockade War: 1863'
 - battle: Batteries Wagner and Gregg
@@ -1718,14 +3408,31 @@
   end_date: 1863-7-11
   forces:
     Confederate:
+      commanders:
+      - PersonID: 183d0a7d-f06a-4c7b-a575-7616e491618b
+        first_name: Pierre
+        last_name: Beauregard
+        middle_initial: G. T.
+        middle_name: Gustave Toutant
+        navy: '0'
+        rank: General
       killed_wounded: 12
       strength: 1500
     US:
+      commanders:
+      - PersonID: 29c87347-958e-438f-b06a-5b3e586564cd
+        first_name: Quincy
+        last_name: Gillmore
+        middle_initial: A.
+        middle_name: Adams
+        navy: '0'
+        rank: Brigadier General
       killed: 49
       missing_captured: 167
       strength: 3000
       wounded: 123
   page: 306
+  result: Confederate
   start_date: 1863-7-10
   theater: 'Blockade War: 1863'
 - battle: Battery Wagner
@@ -1737,9 +3444,25 @@
     url: https://dbpedia.org/resource/Second_Battle_of_Fort_Wagner
   forces:
     Confederate:
+      commanders:
+      - PersonID: 183d0a7d-f06a-4c7b-a575-7616e491618b
+        first_name: Pierre
+        last_name: Beauregard
+        middle_initial: G. T.
+        middle_name: Gustave Toutant
+        navy: '0'
+        rank: General
       killed_wounded: 188
       strength: 1300
     US:
+      commanders:
+      - PersonID: 29c87347-958e-438f-b06a-5b3e586564cd
+        first_name: Quincy
+        last_name: Gillmore
+        middle_initial: A.
+        middle_name: Adams
+        navy: '0'
+        rank: Major General
       killed: 246
       missing: 391
       strength: 6000
@@ -1747,6 +3470,7 @@
   note: 'Total casualties at Battery Wagner from July 10 to September 7, 1863, were:
     Union - 2318; Confederate - 641'
   page: 306
+  result: Confederate
   start_date: 1863-7-18
   theater: 'Blockade War: 1863'
 - battle: Olustee
@@ -1758,15 +3482,32 @@
     url: https://dbpedia.org/resource/Battle_of_Olustee
   forces:
     Confederate:
+      commanders:
+      - PersonID: 488f8bc8-8cb9-4ad0-ab8f-82fd06799387
+        first_name: Joseph
+        last_name: Finegan
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Brigadier General
       killed_missing: 93
       strength: 5200
       wounded: 841
     US:
+      commanders:
+      - PersonID: ae4b233a-c76c-41c5-a0bd-ad6340f39cb9
+        first_name: Truman
+        last_name: Seymour
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Brigadier General
       killed: 231
       missing: 506
       strength: 5115
       wounded: 1124
   page: 310
+  result: Confederate
   start_date: 1864-2-10
   theater: 'East: 1864'
 - battle: Wilderness
@@ -1779,16 +3520,40 @@
   end_date: 1864-5-6
   forces:
     Confederate:
+      commanders:
+      - PersonID: d428cfef-5c7a-4230-b394-b195481d9a9f
+        first_name: Robert
+        last_name: Lee
+        middle_initial: E.
+        middle_name: ''
+        navy: '0'
+        rank: General
       killed: 1957
       missing: 1701
       strength: 61025
       wounded: 7467
     US:
+      commanders:
+      - PersonID: f4036249-0d0f-4c0f-aa2e-557890e1e475
+        first_name: Ulysses
+        last_name: Grant
+        middle_initial: S.
+        middle_name: Simon
+        navy: '0'
+        rank: Lieutenant General
+      - PersonID: 15a8b826-e060-430a-bb4c-61936b75252e
+        first_name: George
+        last_name: Meade
+        middle_initial: G.
+        middle_name: Gordon
+        navy: '0'
+        rank: Major General
       killed: 2246
       missing_captured: 3383
       strength: 101895
       wounded: 12037
   page: 310
+  result: Indecisive
   start_date: 1864-5-5
   theater: 'East: 1864'
 - battle: Spotsylvania Court House
@@ -1801,16 +3566,40 @@
   end_date: 1864-5-18
   forces:
     Confederate:
+      commanders:
+      - PersonID: d428cfef-5c7a-4230-b394-b195481d9a9f
+        first_name: Robert
+        last_name: Lee
+        middle_initial: E.
+        middle_name: ''
+        navy: '0'
+        rank: General
       killed: 1929
       missing: 5719
       strength: 56000
       wounded: 4803
     US:
+      commanders:
+      - PersonID: f4036249-0d0f-4c0f-aa2e-557890e1e475
+        first_name: Ulysses
+        last_name: Grant
+        middle_initial: S.
+        middle_name: Simon
+        navy: '0'
+        rank: Lieutenant General
+      - PersonID: 15a8b826-e060-430a-bb4c-61936b75252e
+        first_name: George
+        last_name: Meade
+        middle_initial: G.
+        middle_name: Gordon
+        navy: '0'
+        rank: Major General
       killed: 2725
       missing: 2258
       strength: 101000
       wounded: 13416
   page: 310
+  result: Indecisive
   start_date: 1864-5-8
   theater: 'East: 1864'
 - battle: Yellow Tavern
@@ -1822,14 +3611,31 @@
     url: https://dbpedia.org/resource/Battle_of_Yellow_Tavern
   forces:
     Confederate:
+      commanders:
+      - PersonID: 6df9b482-4757-474f-80a9-bd1d82228a63
+        first_name: James
+        last_name: Stuart
+        middle_initial: E. B.
+        middle_name: Ewell Brown
+        navy: '0'
+        rank: Major General
       killed: 106
       missing: 178
       strength: 4500
       wounded: 332
     US:
       casualties: 625
+      commanders:
+      - PersonID: 407e5664-e1ff-49aa-984d-79f7508a5e7f
+        first_name: Philip
+        last_name: Sheridan
+        middle_initial: H.
+        middle_name: Henry
+        navy: '0'
+        rank: Major General
       strength: 10000
   page: 310
+  result: Union
   start_date: 1864-5-11
   theater: 'East: 1864'
 - battle: North Anna River
@@ -1842,14 +3648,38 @@
   end_date: 1864-5-26
   forces:
     Confederate:
+      commanders:
+      - PersonID: d428cfef-5c7a-4230-b394-b195481d9a9f
+        first_name: Robert
+        last_name: Lee
+        middle_initial: E.
+        middle_name: ''
+        navy: '0'
+        rank: General
       killed: 198
       missing: 734
       strength: 50000
       wounded: 618
     US:
       casualties: 1973
+      commanders:
+      - PersonID: f4036249-0d0f-4c0f-aa2e-557890e1e475
+        first_name: Ulysses
+        last_name: Grant
+        middle_initial: S.
+        middle_name: Simon
+        navy: '0'
+        rank: Lieutenant General
+      - PersonID: 15a8b826-e060-430a-bb4c-61936b75252e
+        first_name: George
+        last_name: Meade
+        middle_initial: G.
+        middle_name: Gordon
+        navy: '0'
+        rank: Major General
       strength: 100000
   page: 310
+  result: Indecisive
   start_date: 1864-5-23
   theater: 'East: 1864'
 - battle: Totopotomy Creek
@@ -1862,14 +3692,38 @@
   end_date: 1864-5-31
   forces:
     Confederate:
+      commanders:
+      - PersonID: d428cfef-5c7a-4230-b394-b195481d9a9f
+        first_name: Robert
+        last_name: Lee
+        middle_initial: E.
+        middle_name: ''
+        navy: '0'
+        rank: General
       killed: 342
       missing: 367
       strength: 50000
       wounded: 882
     US:
       casualties: 2103
+      commanders:
+      - PersonID: f4036249-0d0f-4c0f-aa2e-557890e1e475
+        first_name: Ulysses
+        last_name: Grant
+        middle_initial: S.
+        middle_name: Simon
+        navy: '0'
+        rank: Lieutenant General
+      - PersonID: 15a8b826-e060-430a-bb4c-61936b75252e
+        first_name: George
+        last_name: Meade
+        middle_initial: G.
+        middle_name: Gordon
+        navy: '0'
+        rank: Major General
       strength: 100000
   page: 310
+  result: Indecisive
   start_date: 1864-5-27
   theater: 'East: 1864'
 - battle: Cold Harbor (assault)
@@ -1882,11 +3736,37 @@
   forces:
     Confederate:
       casualties: 1500
+      commanders:
+      - PersonID: d428cfef-5c7a-4230-b394-b195481d9a9f
+        first_name: Robert
+        last_name: Lee
+        middle_initial: E.
+        middle_name: ''
+        navy: '0'
+        rank: General
       strength: 59000
     US:
       casualties: 7000
+      commanders:
+      - PersonID: f4036249-0d0f-4c0f-aa2e-557890e1e475
+        first_name: Ulysses
+        last_name: Grant
+        middle_initial: S.
+        middle_name: Simon
+        navy: '0'
+        rank: Lieutenant General
+      - PersonID: 15a8b826-e060-430a-bb4c-61936b75252e
+        first_name: George
+        last_name: Meade
+        middle_initial: G.
+        middle_name: Gordon
+        navy: '0'
+        rank: Major General
       strength: 60000
   page: 310
+  partof: Cold Harbor
+  result: Indecisive
+  result_comment: ''
   start_date: 1864-6-3
   theater: 'East: 1864'
 - battle: Cold Harbor
@@ -1899,16 +3779,40 @@
   end_date: 1864-6-12
   forces:
     Confederate:
+      commanders:
+      - PersonID: d428cfef-5c7a-4230-b394-b195481d9a9f
+        first_name: Robert
+        last_name: Lee
+        middle_initial: E.
+        middle_name: ''
+        navy: '0'
+        rank: General
       killed: 1057
       missing: 1132
       strength: 59000
       wounded: 3105
     US:
+      commanders:
+      - PersonID: f4036249-0d0f-4c0f-aa2e-557890e1e475
+        first_name: Ulysses
+        last_name: Grant
+        middle_initial: S.
+        middle_name: Simon
+        navy: '0'
+        rank: Lieutenant General
+      - PersonID: 15a8b826-e060-430a-bb4c-61936b75252e
+        first_name: George
+        last_name: Meade
+        middle_initial: G.
+        middle_name: Gordon
+        navy: '0'
+        rank: Major General
       killed: 1769
       missing: 1537
       strength: 108000
       wounded: 6752
   page: 310
+  result: Confederate
   start_date: 1864-5-31
   theater: 'East: 1864'
 - battle: Trevilian Station
@@ -1921,11 +3825,27 @@
   end_date: 1864-6-12
   forces:
     Confederate:
+      commanders:
+      - PersonID: 0db13c2e-98a9-4187-be39-484c4d272d30
+        first_name: Wade
+        last_name: Hampton
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Major General
       killed: 126
       missing: 318
       strength: 5000
       wounded: 338
     US:
+      commanders:
+      - PersonID: 407e5664-e1ff-49aa-984d-79f7508a5e7f
+        first_name: Philip
+        last_name: Sheridan
+        middle_initial: H.
+        middle_name: Henry
+        navy: '0'
+        rank: Major General
       killed: 102
       missing: 435
       strength: 8000
@@ -1934,9 +3854,10 @@
 
     '
   page: 310
+  result: Confederate
   start_date: 1864-6-11
   theater: 'East: 1864'
-- battle: "Cloyd's Mountain"
+- battle: Cloyd's Mountain
   cwsac:
   - id: VA049
     relation: '='
@@ -1946,11 +3867,28 @@
   forces:
     Confederate:
       casualties: 543
+      commanders:
+      - PersonID: 862c24e1-e6e0-4349-b796-8568994296f3
+        first_name: Albert
+        last_name: Jenkins
+        middle_initial: G.
+        middle_name: ''
+        navy: '0'
+        rank: Brigadier General
       strength: 2400
     US:
       casualties: 688
+      commanders:
+      - PersonID: e82a23ec-2fd8-4772-910a-a24756c57052
+        first_name: George
+        last_name: Crook
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Brigadier General
       strength: 6155
   page: 310
+  result: Union
   start_date: 1864-5-9
   theater: 'East: 1864'
 - battle: New Market
@@ -1962,16 +3900,33 @@
     url: https://dbpedia.org/resource/Battle_of_New_Market
   forces:
     Confederate:
+      commanders:
+      - PersonID: f6caa729-7cfc-4aec-a064-e40c1cfdf01b
+        first_name: John
+        last_name: Breckinridge
+        middle_initial: C.
+        middle_name: Cabell
+        navy: '0'
+        rank: Major General
       killed: 42
       missing: 13
       strength: 3500
       wounded: 484
     US:
+      commanders:
+      - PersonID: 2f47ce28-50f4-4728-8a6f-01d50726a032
+        first_name: Franz
+        last_name: Sigel
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Major General
       killed: 93
       missing: 256
       strength: 5200
       wounded: 482
   page: 310
+  result: Confederate
   start_date: 1864-5-15
   theater: 'East: 1864'
 - battle: Piedmont
@@ -1984,13 +3939,30 @@
   forces:
     Confederate:
       captured: 1000
+      commanders:
+      - PersonID: 0769dc65-a460-4629-b6bc-68a36ab8786e
+        first_name: William
+        last_name: Jones
+        middle_initial: E.
+        middle_name: Edmondson
+        navy: '0'
+        rank: Brigadier General
       killed_wounded: 460
       strength: 8500
     US:
+      commanders:
+      - PersonID: 5eec596f-c299-41da-96b6-984213b14c9e
+        first_name: David
+        last_name: Hunter
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Major General
       killed: 130
       strength: 16000
       wounded: 650
   page: 310
+  result: Union
   start_date: 1864-6-5
   theater: 'East: 1864'
 - battle: Drewry's Bluff
@@ -2003,15 +3975,46 @@
   end_date: 1864-5-16
   forces:
     Confederate:
+      commanders:
+      - PersonID: 630fb1e5-bd14-423e-8d72-02d7358f2f13
+        first_name: Ebenezer
+        last_name: Farrand
+        middle_initial: ''
+        middle_name: ''
+        navy: '1'
+        rank: Commander
+      - PersonID: 9e1353da-e14e-4a33-9169-19b95b173cd1
+        first_name: William
+        last_name: Mahone
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Brigadier General
+      - PersonID: 4791baa5-ea93-4b1e-ad9b-2d36c87d2242
+        first_name: Sidney
+        last_name: Lee
+        middle_initial: S.
+        middle_name: Smith
+        navy: '1'
+        rank: Captain
       killed: 355
       strength: 18025
       wounded: 2151
     US:
+      commanders:
+      - PersonID: 6b88e299-58f8-4232-adf9-ae82f62ea3cf
+        first_name: John
+        last_name: Rodgers
+        middle_initial: ''
+        middle_name: ''
+        navy: '1'
+        rank: Commander
       killed: 390
       missing: 1390
       strength: 15800
       wounded: 2380
   page: 310
+  result: Confederate
   start_date: 1864-5-12
   theater: 'East: 1864'
 - battle: Petersburg (first assault)
@@ -2025,13 +4028,44 @@
   forces:
     Confederate:
       casualties: 4752
+      commanders:
+      - PersonID: d428cfef-5c7a-4230-b394-b195481d9a9f
+        first_name: Robert
+        last_name: Lee
+        middle_initial: E.
+        middle_name: ''
+        navy: '0'
+        rank: General
+      - PersonID: 183d0a7d-f06a-4c7b-a575-7616e491618b
+        first_name: Pierre
+        last_name: Beauregard
+        middle_initial: G. T.
+        middle_name: Gustave Toutant
+        navy: '0'
+        rank: General
       strength: 41499
     US:
+      commanders:
+      - PersonID: f4036249-0d0f-4c0f-aa2e-557890e1e475
+        first_name: Ulysses
+        last_name: Grant
+        middle_initial: S.
+        middle_name: Simon
+        navy: '0'
+        rank: Lieutenant General
+      - PersonID: 15a8b826-e060-430a-bb4c-61936b75252e
+        first_name: George
+        last_name: Meade
+        middle_initial: G.
+        middle_name: Gordon
+        navy: '0'
+        rank: Major General
       killed: 1688
       missing: 1185
       strength: 63797
       wounded: 8513
   page: 310
+  result: Confederate
   start_date: 1864-6-15
   theater: 'East: 1864'
 - battle: Monocacy River
@@ -2044,13 +4078,30 @@
   forces:
     Confederate:
       casualties: 700
+      commanders:
+      - PersonID: 77a0625d-2996-4af0-b46f-db7388f851d5
+        first_name: Jubal
+        last_name: Early
+        middle_initial: A.
+        middle_name: Anderson
+        navy: '0'
+        rank: Lieutenant General
       strength: 14000
     US:
+      commanders:
+      - PersonID: 2a86c08b-654e-47fd-a1a4-3c79cedcbceb
+        first_name: Lewis
+        last_name: Wallace
+        middle_initial: ''
+        middle_name: '"Lew"'
+        navy: '0'
+        rank: Major General
       killed: 90
       missing_captured: 1290
       strength: 6050
       wounded: 579
   page: 310
+  result: Confederate
   start_date: 1864-7-9
   theater: 'East: 1864'
 - battle: Kernstown (second)
@@ -2062,12 +4113,29 @@
     url: https://dbpedia.org/resource/Second_Battle_of_Kernstown
   forces:
     Confederate:
+      commanders:
+      - PersonID: 77a0625d-2996-4af0-b46f-db7388f851d5
+        first_name: Jubal
+        last_name: Early
+        middle_initial: A.
+        middle_name: Anderson
+        navy: '0'
+        rank: Lieutenant General
       strength: 14000
     US:
       captured: 479
+      commanders:
+      - PersonID: e82a23ec-2fd8-4772-910a-a24756c57052
+        first_name: George
+        last_name: Crook
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Brigadier General
       killed_wounded: 706
       strength: 8000
   page: 310
+  result: Confederate
   start_date: 1864-7-24
   theater: 'East: 1864'
 - battle: Opequon (Third Winchester)
@@ -2079,19 +4147,36 @@
     url: https://dbpedia.org/resource/Battle_of_Opequon
   forces:
     Confederate:
+      commanders:
+      - PersonID: 77a0625d-2996-4af0-b46f-db7388f851d5
+        first_name: Jubal
+        last_name: Early
+        middle_initial: A.
+        middle_name: Anderson
+        navy: '0'
+        rank: Lieutenant General
       killed: 276
       missing_captured: 1818
       strength: 17103
       wounded: 1827
     US:
+      commanders:
+      - PersonID: 407e5664-e1ff-49aa-984d-79f7508a5e7f
+        first_name: Philip
+        last_name: Sheridan
+        middle_initial: H.
+        middle_name: Henry
+        navy: '0'
+        rank: Major General
       killed: 697
       missing: 338
       strength: 37711
       wounded: 3983
   page: 310
+  result: Union
   start_date: 1864-9-19
   theater: 'East: 1864'
-- battle: "Fisher's Hill"
+- battle: Fisher's Hill
   cwsac:
   - id: VA120
     relation: '='
@@ -2101,15 +4186,32 @@
   forces:
     Confederate:
       captured: 1100
+      commanders:
+      - PersonID: 77a0625d-2996-4af0-b46f-db7388f851d5
+        first_name: Jubal
+        last_name: Early
+        middle_initial: A.
+        middle_name: Anderson
+        navy: '0'
+        rank: Lieutenant General
       guns lost: 25
       killed_wounded: 300
       strength: 8000
     US:
+      commanders:
+      - PersonID: 407e5664-e1ff-49aa-984d-79f7508a5e7f
+        first_name: Philip
+        last_name: Sheridan
+        middle_initial: H.
+        middle_name: Henry
+        navy: '0'
+        rank: Major General
       killed: 52
       missing: 19
       strength: 30000
       wounded: 457
   page: 310
+  result: Union
   start_date: 1864-9-22
   theater: 'East: 1864'
 - battle: Cedar Creek
@@ -2121,17 +4223,41 @@
     url: https://dbpedia.org/resource/Battle_of_Cedar_Creek
   forces:
     Confederate:
+      commanders:
+      - PersonID: 77a0625d-2996-4af0-b46f-db7388f851d5
+        first_name: Jubal
+        last_name: Early
+        middle_initial: A.
+        middle_name: Anderson
+        navy: '0'
+        rank: Lieutenant General
       guns lost: 25
       killed: 320
       missing_captured: 1050
       strength: 18410
       wounded: 1540
     US:
+      commanders:
+      - PersonID: 0feb9176-d689-4e1d-ac4a-6bb149fc6f5b
+        first_name: Horatio
+        last_name: Wright
+        middle_initial: G.
+        middle_name: Gouverneur
+        navy: '0'
+        rank: Major General
+      - PersonID: 407e5664-e1ff-49aa-984d-79f7508a5e7f
+        first_name: Philip
+        last_name: Sheridan
+        middle_initial: H.
+        middle_name: Henry
+        navy: '0'
+        rank: Major General
       killed: 644
       missing_captured: 1591
       strength: 30829
       wounded: 3430
   page: 310
+  result: Union
   start_date: 1864-10-19
   theater: 'East: 1864'
 - battle: Petersburg (Battle of the Crater)
@@ -2144,13 +4270,30 @@
   forces:
     Confederate:
       casualties: 1182
+      commanders:
+      - PersonID: d428cfef-5c7a-4230-b394-b195481d9a9f
+        first_name: Robert
+        last_name: Lee
+        middle_initial: E.
+        middle_name: ''
+        navy: '0'
+        rank: General
       strength: 11466
     US:
+      commanders:
+      - PersonID: c5f9dd77-1122-48f0-8840-614720ba50d8
+        first_name: Ambrose
+        last_name: Burnside
+        middle_initial: E.
+        middle_name: Everett
+        navy: '0'
+        rank: Major General
       killed: 504
       missing_captured: 1413
       strength: 20708
       wounded: 1181
   page: 310
+  result: Confederate
   start_date: 1864-7-30
   theater: 'East: 1864'
 - battle: Deep Bottom Run
@@ -2161,11 +4304,35 @@
   forces:
     Confederate:
       casualties: 1000
+      commanders:
+      - PersonID: d428cfef-5c7a-4230-b394-b195481d9a9f
+        first_name: Robert
+        last_name: Lee
+        middle_initial: E.
+        middle_name: ''
+        navy: '0'
+        rank: General
+      - PersonID: b8c29b14-3dbe-4c53-a8ca-6af5217d6469
+        first_name: Charles
+        last_name: Field
+        middle_initial: W.
+        middle_name: William
+        navy: '0'
+        rank: Major General
       strength: 20008
     US:
       casualties: 2899
+      commanders:
+      - PersonID: 8d7bd2d7-7411-4cea-ace2-491a97e577ca
+        first_name: Winfield
+        last_name: Hancock
+        middle_initial: S.
+        middle_name: Scott
+        navy: '0'
+        rank: Major General
       strength: 27974
   page: 310
+  result: Confederate
   start_date: 1864-8-13
   theater: 'East: 1864'
 - battle: Globe Tavern
@@ -2178,15 +4345,53 @@
   end_date: 1864-8-21
   forces:
     Confederate:
+      commanders:
+      - PersonID: d428cfef-5c7a-4230-b394-b195481d9a9f
+        first_name: Robert
+        last_name: Lee
+        middle_initial: E.
+        middle_name: ''
+        navy: '0'
+        rank: General
+      - PersonID: 2153a0b4-6aab-42d2-b31e-56b074ec402e
+        first_name: Ambrose
+        last_name: Hill
+        middle_initial: P.
+        middle_name: Powell
+        navy: '0'
+        rank: Lieutenant General
+      - PersonID: d87fee08-2ce1-47f6-b313-9a1dfb7a8ea7
+        first_name: Henry
+        last_name: Heth
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Major General
+      - PersonID: 9e1353da-e14e-4a33-9169-19b95b173cd1
+        first_name: William
+        last_name: Mahone
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Major General
       killed_wounded: 1200
       missing: 419
       strength: 14787
     US:
+      commanders:
+      - PersonID: 8ca13860-937b-4df4-8f84-df7a2bf51224
+        first_name: Gouverneur
+        last_name: Warren
+        middle_initial: K.
+        middle_name: Kemble
+        navy: '0'
+        rank: Major General
       killed: 251
       missing_captured: 2879
       strength: 20289
       wounded: 1148
   page: 310
+  result: Union
   start_date: 1864-8-18
   theater: 'East: 1864'
 - battle: Reams Station
@@ -2199,16 +4404,33 @@
   forces:
     Confederate:
       casualties: 720
+      commanders:
+      - PersonID: d87fee08-2ce1-47f6-b313-9a1dfb7a8ea7
+        first_name: Henry
+        last_name: Heth
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Major General
       divisions: 1
     US:
       captured: 2073
+      commanders:
+      - PersonID: 8d7bd2d7-7411-4cea-ace2-491a97e577ca
+        first_name: Winfield
+        last_name: Hancock
+        middle_initial: S.
+        middle_name: Scott
+        navy: '0'
+        rank: Major General
       divisions: 3
       killed: 140
       wounded: 529
   page: 310
+  result: Confederate
   start_date: 1864-8-23
   theater: 'East: 1864'
-- battle: "Fort Harrison (Chaffin's Bluff)"
+- battle: Fort Harrison (Chaffin's Bluff)
   cwsac:
   - id: VA075
     relation: '='
@@ -2219,13 +4441,37 @@
   forces:
     Confederate:
       casualties: 2000
+      commanders:
+      - PersonID: d428cfef-5c7a-4230-b394-b195481d9a9f
+        first_name: Robert
+        last_name: Lee
+        middle_initial: E.
+        middle_name: ''
+        navy: '0'
+        rank: General
+      - PersonID: aa9a80fb-49e3-41d4-8ce5-3f5cbd961625
+        first_name: Richard
+        last_name: Ewell
+        middle_initial: S.
+        middle_name: Stoddert
+        navy: '0'
+        rank: Lieutenant General
       strength: 10836
     US:
+      commanders:
+      - PersonID: c94b93a1-0565-4e9f-95af-12f5fe7e93f8
+        first_name: Benjamin
+        last_name: Butler
+        middle_initial: F.
+        middle_name: Frankiln
+        navy: '0'
+        rank: Major General
       killed: 383
       missing: 645
       strength: 19639
       wounded: 2299
   page: 310
+  result: Union
   start_date: 1864-9-29
   theater: 'East: 1864'
 - battle: Peebles Farm
@@ -2239,16 +4485,54 @@
   forces:
     Confederate:
       casualties: 900
+      commanders:
+      - PersonID: 2153a0b4-6aab-42d2-b31e-56b074ec402e
+        first_name: Ambrose
+        last_name: Hill
+        middle_initial: P.
+        middle_name: Powell
+        navy: '0'
+        rank: Lieutenant General
+      - PersonID: 0db13c2e-98a9-4187-be39-484c4d272d30
+        first_name: Wade
+        last_name: Hampton
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Major General
       divisions: 3
     US:
+      commanders:
+      - PersonID: 15a8b826-e060-430a-bb4c-61936b75252e
+        first_name: George
+        last_name: Meade
+        middle_initial: G.
+        middle_name: Gordon
+        navy: '0'
+        rank: Major General
+      - PersonID: 87cff8b4-f792-44ed-a7cc-9bc684d88994
+        first_name: John
+        last_name: Parke
+        middle_initial: G.
+        middle_name: Grubb
+        navy: '0'
+        rank: Major General
+      - PersonID: 8ca13860-937b-4df4-8f84-df7a2bf51224
+        first_name: Gouverneur
+        last_name: Warren
+        middle_initial: K.
+        middle_name: Kemble
+        navy: '0'
+        rank: Major General
       divisions: 4
       killed: 187
       missing: 1802
       wounded: 900
   page: 310
+  result: Union
   start_date: 1864-9-30
   theater: 'East: 1864'
-- battle: "Hatcher's Run (first)"
+- battle: Hatcher's Run (first)
   cwsac:
   - id: VA079
     relation: '='
@@ -2259,13 +4543,30 @@
   forces:
     Confederate:
       casualties: 900
+      commanders:
+      - PersonID: d87fee08-2ce1-47f6-b313-9a1dfb7a8ea7
+        first_name: Henry
+        last_name: Heth
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Major General
       strength: 20324
     US:
+      commanders:
+      - PersonID: 8d7bd2d7-7411-4cea-ace2-491a97e577ca
+        first_name: Winfield
+        last_name: Hancock
+        middle_initial: S.
+        middle_name: Scott
+        navy: '0'
+        rank: Major General
       killed: 166
       missing: 564
       strength: 42823
       wounded: 1028
   page: 311
+  result: Confederate
   start_date: 1864-10-27
   theater: 'East: 1864'
 - battle: Fair Oaks
@@ -2279,11 +4580,28 @@
   forces:
     Confederate:
       casualties: 451
+      commanders:
+      - PersonID: 0418b77d-5826-4c1d-9621-9d92c48d77b5
+        first_name: James
+        last_name: Longstreet
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Lieutenant General
       strength: 10000
     US:
       casualties: 1103
+      commanders:
+      - PersonID: c94b93a1-0565-4e9f-95af-12f5fe7e93f8
+        first_name: Benjamin
+        last_name: Butler
+        middle_initial: F.
+        middle_name: Frankiln
+        navy: '0'
+        rank: Major General
       strength: 40000
   page: 311
+  result: Confederate
   start_date: 1864-10-27
   theater: 'East: 1864'
 - battle: Sabine Crossroads
@@ -2296,14 +4614,31 @@
   forces:
     Confederate:
       casualties: 900
+      commanders:
+      - PersonID: dd70b0b4-401c-47ce-b3fb-a2b68da3194c
+        first_name: Richard
+        last_name: Taylor
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Major General
       strength: 8800
     US:
       captured: 1397
+      commanders:
+      - PersonID: f2f4eda1-b51f-4f8e-ad2d-379a1eb685f3
+        first_name: Nathaniel
+        last_name: Banks
+        middle_initial: P.
+        middle_name: ''
+        navy: '0'
+        rank: Major General
       guns lost: 20
       killed: 108
       strength: 12000
       wounded: 643
   page: 314
+  result: Confederate
   start_date: 1864-4-8
   theater: 'West: 1864'
 - battle: Pleasant Hill
@@ -2316,13 +4651,30 @@
   forces:
     Confederate:
       casualties: 1626
+      commanders:
+      - PersonID: dd70b0b4-401c-47ce-b3fb-a2b68da3194c
+        first_name: Richard
+        last_name: Taylor
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Major General
       strength: 12500
     US:
+      commanders:
+      - PersonID: f2f4eda1-b51f-4f8e-ad2d-379a1eb685f3
+        first_name: Nathaniel
+        last_name: Banks
+        middle_initial: P.
+        middle_name: ''
+        navy: '0'
+        rank: Major General
       killed: 150
       missing: 375
       strength: 12247
       wounded: 844
   page: 314
+  result: Union
   start_date: 1864-4-9
   theater: 'West: 1864'
 - battle: Yellow Bayou
@@ -2335,11 +4687,28 @@
   forces:
     Confederate:
       casualties: 608
+      commanders:
+      - PersonID: dd70b0b4-401c-47ce-b3fb-a2b68da3194c
+        first_name: Richard
+        last_name: Taylor
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Major General
       strength: 5000
     US:
       casualties: 350
+      commanders:
+      - PersonID: 20e1eb2c-b6ef-40fd-9762-ebbac239e67b
+        first_name: Joseph
+        last_name: Mower
+        middle_initial: A.
+        middle_name: Anthony
+        navy: '0'
+        rank: Brigadier General
       strength: 5000
   page: 314
+  result: Union
   start_date: 1864-5-18
   theater: 'West: 1864'
 - battle: Jenkins Ferry
@@ -2351,16 +4720,33 @@
     url: https://dbpedia.org/resource/Battle_of_Jenkins%27_Ferry
   forces:
     Confederate:
+      commanders:
+      - PersonID: 39787b04-6723-4729-957c-bddcae228832
+        first_name: Edmund
+        last_name: Smith
+        middle_initial: K.
+        middle_name: Kirby
+        navy: '0'
+        rank: General
       killed: 86
       missing: 1
       strength: 4000
       wounded: 356
     US:
+      commanders:
+      - PersonID: d84237f6-ba30-44d3-9aa9-7e2aafed4d9a
+        first_name: Frederick
+        last_name: Steele
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Major General
       killed: 64
       missing: 86
       strength: 6000
       wounded: 378
   page: 314
+  result: Union
   start_date: 1864-4-30
   theater: 'West: 1864'
 - battle: Fort Davidson (Pilot Knob)
@@ -2373,13 +4759,30 @@
   forces:
     Confederate:
       casualties: 1500
+      commanders:
+      - PersonID: 8f232cc9-43e7-4627-ab45-d8fe6873c472
+        first_name: Sterling
+        last_name: Price
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Major General
       strength: 12000
     US:
+      commanders:
+      - PersonID: aa1614b8-da23-4624-a541-822e2a02f462
+        first_name: Thomas
+        last_name: Ewing
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Brigadier General
       killed: 28
       missing: 100
       strength: 1000
       wounded: 59
   page: 314
+  result: Union
   start_date: 1864-12-27
   theater: 'West: 1864'
 - battle: Westport
@@ -2392,11 +4795,28 @@
   forces:
     Confederate:
       casualties: 492
+      commanders:
+      - PersonID: 8f232cc9-43e7-4627-ab45-d8fe6873c472
+        first_name: Sterling
+        last_name: Price
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Major General
       strength: 9000
     US:
       casualties: 500
+      commanders:
+      - PersonID: e08b618c-acc7-4502-9ef8-b8546572e22d
+        first_name: Samuel
+        last_name: Curtis
+        middle_initial: R.
+        middle_name: ''
+        navy: '0'
+        rank: Major General
       strength: 20000
   page: 314
+  result: Union
   start_date: 1864-10-23
   theater: 'West: 1864'
 - battle: Mine Creek
@@ -2409,14 +4829,38 @@
   forces:
     Confederate:
       captured: 560
+      commanders:
+      - PersonID: 7b7bfdd4-920e-4d28-a2eb-44e33941d4b0
+        first_name: John
+        last_name: Marmaduke
+        middle_initial: S.
+        middle_name: ''
+        navy: '0'
+        rank: Brigadier General
+      - PersonID: 66599684-582c-4caa-aff0-7220f9c67c1f
+        first_name: James
+        last_name: Fagan
+        middle_initial: F.
+        middle_name: Fleming
+        navy: '0'
+        rank: Major General
       killed: 300
       strength: 6500
       wounded: 250
     US:
+      commanders:
+      - PersonID: 90849b39-6f3a-4d88-af29-ddded5d1733a
+        first_name: Alfred
+        last_name: Pleasonton
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Major General
       killed: 15
       strength: 2600
       wounded: 94
   page: 314
+  result: Union
   start_date: 1864-10-25
   theater: 'West: 1864'
 - battle: Fort Pillow
@@ -2428,20 +4872,44 @@
     url: https://dbpedia.org/resource/Battle_of_Fort_Pillow
   forces:
     Confederate:
+      commanders:
+      - PersonID: 02b4fa9a-541a-45c7-9097-ab1aee538c6c
+        first_name: Nathan
+        last_name: Forrest
+        middle_initial: B.
+        middle_name: Bedford
+        navy: '0'
+        rank: Major General
       killed: 14
       strength: 1500
       wounded: 86
     US:
       captured: 226
+      commanders:
+      - PersonID: 5d3d236b-0b8d-48c6-9fa0-6e0a74d03904
+        first_name: Lionel
+        last_name: Booth
+        middle_initial: F.
+        middle_name: ''
+        navy: '0'
+        rank: Major
+      - PersonID: ce80fc18-1765-4e09-9333-858f7e9fdd6b
+        first_name: William
+        last_name: Bradford
+        middle_initial: F.
+        middle_name: ''
+        navy: '0'
+        rank: Major
       killed: 221
       strength: 557
   note: 'Union killed include 204 black troops, most of whom were killed after capture.
 
     '
   page: 314
+  result: Confederate
   start_date: 1864-4-12
   theater: 'West: 1864'
-- battle: "Brice's Crossroads"
+- battle: Brice's Crossroads
   cwsac:
   - id: MS014
     relation: '='
@@ -2450,18 +4918,35 @@
     url: https://dbpedia.org/resource/Battle_of_Brice%27s_Crossroads
   forces:
     Confederate:
+      commanders:
+      - PersonID: 02b4fa9a-541a-45c7-9097-ab1aee538c6c
+        first_name: Nathan
+        last_name: Forrest
+        middle_initial: B.
+        middle_name: Bedford
+        navy: '0'
+        rank: Major General
       guns: 8
       killed: 96
       strength: 4800
       wounded: 396
     US:
       captured: 1623
+      commanders:
+      - PersonID: 4a50678b-9211-4c6a-828e-d9607876849a
+        first_name: Samuel
+        last_name: Sturgis
+        middle_initial: D.
+        middle_name: Davis
+        navy: '0'
+        rank: Brigadier General
       guns: 22
       guns lost: 18
       killed: 223
       strength: 8300
       wounded: 394
   page: 314
+  result: Confederate
   start_date: 1864-6-10
   theater: 'West: 1864'
 - battle: Tupelo
@@ -2474,15 +4959,39 @@
   end_date: 1864-7-15
   forces:
     Confederate:
+      commanders:
+      - PersonID: 8f59c204-3c38-4233-8ff0-3b70562303ca
+        first_name: Stephen
+        last_name: Lee
+        middle_initial: D.
+        middle_name: Dill
+        navy: '0'
+        rank: Lieutenant General
+      - PersonID: 02b4fa9a-541a-45c7-9097-ab1aee538c6c
+        first_name: Nathan
+        last_name: Forrest
+        middle_initial: B.
+        middle_name: Bedford
+        navy: '0'
+        rank: Major General
       killed: 210
       strength: 6600
       wounded: 1116
     US:
+      commanders:
+      - PersonID: 869b58fb-03ee-4ad7-bfd4-faf6f24b9378
+        first_name: Andrew
+        last_name: Smith
+        middle_initial: J.
+        middle_name: Jackson
+        navy: '0'
+        rank: Major General
       killed: 77
       missing: 38
       strength: 14200
       wounded: 559
   page: 314
+  result: Union
   start_date: 1864-7-14
   theater: 'West: 1864'
 - battle: Selma
@@ -2496,11 +5005,28 @@
   forces:
     Confederate:
       casualties: 4000
+      commanders:
+      - PersonID: 02b4fa9a-541a-45c7-9097-ab1aee538c6c
+        first_name: Nathan
+        last_name: Forrest
+        middle_initial: B.
+        middle_name: Bedford
+        navy: '0'
+        rank: Lieutenant General
       strength: 7000
     US:
       casualties: 400
+      commanders:
+      - PersonID: 460c9e8f-625e-490f-8eda-7385907b8d3f
+        first_name: James
+        last_name: Wilson
+        middle_initial: H.
+        middle_name: Harrison
+        navy: '0'
+        rank: Major General
       strength: 12500
   page: 314
+  result: Union
   start_date: 1864-4-2
   theater: 'West: 1864'
 - battle: New Hope Church
@@ -2513,11 +5039,35 @@
   forces:
     Confederate:
       casualties: 800
+      commanders:
+      - PersonID: b0f7a304-f6c5-4a8d-b816-066426e5dc1c
+        first_name: Joseph
+        last_name: Johnston
+        middle_initial: E.
+        middle_name: ''
+        navy: '0'
+        rank: General
       corps: 1
     US:
       casualties: 1665
+      commanders:
+      - PersonID: 72fc916d-f36e-4ffa-ab9c-bec7bde07002
+        first_name: William
+        last_name: Sherman
+        middle_initial: ''
+        middle_name: Tecumsheh
+        navy: '0'
+        rank: Major General
+      - PersonID: cfa9a700-f979-46ff-bfb1-4615441ccd55
+        first_name: Joseph
+        last_name: Hooker
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Major General
       corps: 1
   page: 314
+  result: Confederate
   start_date: 1864-5-25
   theater: 'West: 1864'
 - battle: Kennesaw Mountain
@@ -2530,11 +5080,28 @@
   forces:
     Confederate:
       casualties: 552
+      commanders:
+      - PersonID: b0f7a304-f6c5-4a8d-b816-066426e5dc1c
+        first_name: Joseph
+        last_name: Johnston
+        middle_initial: E.
+        middle_name: ''
+        navy: '0'
+        rank: General
       strength: 17700
     US:
       casualties: 2500
+      commanders:
+      - PersonID: 72fc916d-f36e-4ffa-ab9c-bec7bde07002
+        first_name: William
+        last_name: Sherman
+        middle_initial: ''
+        middle_name: Tecumsheh
+        navy: '0'
+        rank: Major General
       strength: 16000
   page: 314
+  result: Confederate
   start_date: 1864-6-27
   theater: 'West: 1864'
 - battle: Peachtree Creek
@@ -2547,11 +5114,28 @@
   forces:
     Confederate:
       casualties: 2500
+      commanders:
+      - PersonID: 84b6d739-3384-4291-86ba-f75ae6637069
+        first_name: John
+        last_name: Hood
+        middle_initial: B.
+        middle_name: Bell
+        navy: '0'
+        rank: General
       strength: 18832
     US:
       casualties: 1600
+      commanders:
+      - PersonID: 6951057d-db32-4db5-8b3e-dea0c1101a5f
+        first_name: George
+        last_name: Thomas
+        middle_initial: H.
+        middle_name: ''
+        navy: '0'
+        rank: Major General
       strength: 20139
   page: 314
+  result: Union
   start_date: 1864-7-20
   theater: 'West: 1864'
 - battle: Atlanta
@@ -2564,13 +5148,30 @@
   forces:
     Confederate:
       casualties: 8000
+      commanders:
+      - PersonID: 84b6d739-3384-4291-86ba-f75ae6637069
+        first_name: John
+        last_name: Hood
+        middle_initial: B.
+        middle_name: Bell
+        navy: '0'
+        rank: General
       strength: 36934
     US:
+      commanders:
+      - PersonID: 72fc916d-f36e-4ffa-ab9c-bec7bde07002
+        first_name: William
+        last_name: Sherman
+        middle_initial: ''
+        middle_name: Tecumsheh
+        navy: '0'
+        rank: Major General
       killed: 500
       missing: 1081
       strength: 30477
       wounded: 2141
   page: 314
+  result: Union
   start_date: 1864-7-22
   theater: 'West: 1864'
 - battle: Ezra Church
@@ -2583,11 +5184,28 @@
   forces:
     Confederate:
       casualties: 2500
+      commanders:
+      - PersonID: 84b6d739-3384-4291-86ba-f75ae6637069
+        first_name: John
+        last_name: Hood
+        middle_initial: B.
+        middle_name: Bell
+        navy: '0'
+        rank: General
       strength: 12000
     US:
       casualties: 632
+      commanders:
+      - PersonID: fe627383-b1ba-4c9a-b23f-75a2cd4b5c42
+        first_name: Oliver
+        last_name: Howard
+        middle_initial: O.
+        middle_name: ''
+        navy: '0'
+        rank: Major General
       strength: 25000
   page: 314
+  result: Union
   start_date: 1864-7-28
   theater: 'West: 1864'
 - battle: Jonesboro
@@ -2601,11 +5219,28 @@
   forces:
     Confederate:
       casualties: 2725
+      commanders:
+      - PersonID: b01714aa-b252-4944-816d-be76a9070175
+        first_name: William
+        last_name: Hardee
+        middle_initial: J.
+        middle_name: Joseph
+        navy: '0'
+        rank: Lieutenant General
       strength: 12500
     US:
       casualties: 1454
+      commanders:
+      - PersonID: 72fc916d-f36e-4ffa-ab9c-bec7bde07002
+        first_name: William
+        last_name: Sherman
+        middle_initial: ''
+        middle_name: Tecumsheh
+        navy: '0'
+        rank: Major General
       strength: 60000
   page: 314
+  result: Union
   start_date: 1864-8-31
   theater: 'West: 1864'
 - battle: Allatoona
@@ -2617,16 +5252,33 @@
     url: https://dbpedia.org/resource/Battle_of_Allatoona
   forces:
     Confederate:
+      commanders:
+      - PersonID: 2306a312-6705-4e62-893d-8789639a1555
+        first_name: Samuel
+        last_name: French
+        middle_initial: G.
+        middle_name: Gibbs
+        navy: '0'
+        rank: Major General
       killed: 122
       missing: 234
       strength: 3000
       wounded: 443
     US:
+      commanders:
+      - PersonID: 157b4c7c-6c0e-4aa8-9b7f-44ccb3754a88
+        first_name: John
+        last_name: Corse
+        middle_initial: M.
+        middle_name: Murray
+        navy: '0'
+        rank: Brigadier General
       killed: 142
       missing: 212
       strength: 1944
       wounded: 352
   page: 314
+  result: Union
   start_date: 1864-10-6
   theater: 'West: 1864'
 - battle: Franklin
@@ -2638,16 +5290,33 @@
     url: https://dbpedia.org/resource/Battle_of_Franklin_(1864)
   forces:
     Confederate:
+      commanders:
+      - PersonID: 84b6d739-3384-4291-86ba-f75ae6637069
+        first_name: John
+        last_name: Hood
+        middle_initial: B.
+        middle_name: Bell
+        navy: '0'
+        rank: General
       killed: 1481
       missing: 702
       strength: 26897
       wounded: 3800
     US:
+      commanders:
+      - PersonID: d3b0a222-2294-41d9-96b9-bc78996d55ae
+        first_name: John
+        last_name: Schofield
+        middle_initial: M.
+        middle_name: McAllister
+        navy: '0'
+        rank: Major General
       killed: 189
       missing: 1104
       strength: 27939
       wounded: 1033
   page: 314
+  result: Union
   start_date: 1864-11-30
   theater: 'West: 1864'
 - battle: Nashville
@@ -2661,15 +5330,32 @@
   forces:
     Confederate:
       captured: 4462
+      commanders:
+      - PersonID: 84b6d739-3384-4291-86ba-f75ae6637069
+        first_name: John
+        last_name: Hood
+        middle_initial: B.
+        middle_name: Bell
+        navy: '0'
+        rank: General
       guns lost: 53
       killed_wounded: 1500
       strength: 23207
     US:
+      commanders:
+      - PersonID: 6951057d-db32-4db5-8b3e-dea0c1101a5f
+        first_name: George
+        last_name: Thomas
+        middle_initial: H.
+        middle_name: ''
+        navy: '0'
+        rank: Major General
       killed: 387
       missing: 112
       strength: 43260
       wounded: 2562
   page: 314
+  result: Union
   start_date: 1864-12-15
   theater: 'West: 1864'
 - battle: Griswoldville
@@ -2681,13 +5367,37 @@
     url: https://dbpedia.org/resource/Griswoldville
   forces:
     Confederate:
+      commanders:
+      - PersonID: febc5475-788a-489f-a2df-ab0aa9ab65ee
+        first_name: Pleasant
+        last_name: Philips
+        middle_initial: J.
+        middle_name: ''
+        navy: '0'
+        rank: Brigadier General
+      - PersonID: 22dc9bfe-6bfa-4f8a-a48f-694e947cc8d7
+        first_name: Joseph
+        last_name: Wheeler
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Major General
       killed: 51
       strength: 3000
       wounded: 472
     US:
       casualties: 62
+      commanders:
+      - PersonID: 92e6e174-42f6-43f7-a778-dd620c12a02c
+        first_name: Charles
+        last_name: Walcutt
+        middle_initial: C.
+        middle_name: Carroll
+        navy: '0'
+        rank: Brigadier General
       strength: 1500
   page: 314
+  result: Union
   start_date: 1864-11-22
   theater: 'West: 1864'
 - battle: Mobile Bay
@@ -2700,6 +5410,21 @@
   forces:
     Confederate:
       captured: 243
+      commanders:
+      - PersonID: 12c2d009-5e2f-47cb-b9e7-31e07bc73edd
+        first_name: Frankiln
+        last_name: Buchanan
+        middle_initial: ''
+        middle_name: ''
+        navy: '1'
+        rank: Admiral
+      - PersonID: 0aae1532-be13-4465-b162-a89c8b8dda4a
+        first_name: Richard
+        last_name: Page
+        middle_initial: L.
+        middle_name: Lucian
+        navy: '0'
+        rank: Brigadier General
       crewmen: 470
       forts captured: 1
       gunboats: 3
@@ -2709,6 +5434,21 @@
       ironclads captured: 1
       killed_wounded: 69
     US:
+      commanders:
+      - PersonID: 7a5f39ff-efc9-4ccd-a5ed-56ad106e2f26
+        first_name: David
+        last_name: Farragut
+        middle_initial: G.
+        middle_name: Glasgow
+        navy: '1'
+        rank: Rear Admiral
+      - PersonID: c66b4ad0-8194-4dda-a234-c04e1e4e502e
+        first_name: Gordon
+        last_name: Granger
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Major General
       crewmen: 3000
       guns: 199
       ironclads: 4
@@ -2736,6 +5476,8 @@
 
     '
   page: 315
+  result: Union
+  result_comment: ''
   start_date: 1864-8-5
   theater: 'Blockade War: 1864-65'
 - battle: Fort Fisher
@@ -2749,9 +5491,46 @@
   forces:
     Confederate:
       captured: 2083
+      commanders:
+      - PersonID: 4b5a15e5-6c5d-492c-9ab7-32d50419cf80
+        first_name: Braxton
+        last_name: Bragg
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: General
+      - PersonID: 6650b484-9515-4e17-bafe-7110fbbf68e2
+        first_name: Robert
+        last_name: Hoke
+        middle_initial: F.
+        middle_name: Frederick
+        navy: '0'
+        rank: Major General
+      - PersonID: 95b3e009-6f58-43ad-aed1-baf83100fbbd
+        first_name: Charles
+        last_name: Lamb
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Colonel
       killed_wounded: 500
       strength: 3000
     US:
+      commanders:
+      - PersonID: 8da88a4c-d429-4247-a6e8-cba41f280a10
+        first_name: David
+        last_name: Porter
+        middle_initial: D.
+        middle_name: Dixon
+        navy: '1'
+        rank: Rear Admiral
+      - PersonID: 5128b598-2305-4d47-8406-f865aefdc4c7
+        first_name: Alfred
+        last_name: Terry
+        middle_initial: H.
+        middle_name: Howe
+        navy: '0'
+        rank: Major General
       killed: 266
       missing: 57
       strength: 10000
@@ -2765,9 +5544,10 @@
 
     '
   page: 316
+  result: Union
   start_date: 1865-1-13
   theater: 'Blockade War: 1864-65'
-- battle: "Hatcher's Run (second)"
+- battle: Hatcher's Run (second)
   cwsac:
   - id: VA083
     relation: '='
@@ -2777,12 +5557,36 @@
   end_date: 1865-2-7
   forces:
     Confederate:
+      commanders:
+      - PersonID: bc4a67e5-b1be-43e1-9a83-240f4fe5346b
+        first_name: John
+        last_name: Gordon
+        middle_initial: B.
+        middle_name: Brown
+        navy: '0'
+        rank: Major General
       strength: 14000
     US:
+      commanders:
+      - PersonID: 0739970d-f176-49aa-958c-f26397e326bb
+        first_name: Andrew
+        last_name: Humphreys
+        middle_initial: A.
+        middle_name: Atkinson
+        navy: '0'
+        rank: Major General
+      - PersonID: 8ca13860-937b-4df4-8f84-df7a2bf51224
+        first_name: Gouverneur
+        last_name: Warren
+        middle_initial: K.
+        middle_name: Kemble
+        navy: '0'
+        rank: Major General
       killed: 170
       strength: 35000
       wounded: 1160
   page: 317
+  result: Union
   start_date: 1865-2-5
   theater: 'East: 1865'
 - battle: Fort Stedman
@@ -2795,12 +5599,36 @@
   forces:
     Confederate:
       captured: 1900
+      commanders:
+      - PersonID: d428cfef-5c7a-4230-b394-b195481d9a9f
+        first_name: Robert
+        last_name: Lee
+        middle_initial: E.
+        middle_name: ''
+        navy: '0'
+        rank: General
+      - PersonID: bc4a67e5-b1be-43e1-9a83-240f4fe5346b
+        first_name: John
+        last_name: Gordon
+        middle_initial: B.
+        middle_name: Brown
+        navy: '0'
+        rank: Major General
       killed_wounded: 2900
       strength: 12000
     US:
       casualties: 2080
+      commanders:
+      - PersonID: 87cff8b4-f792-44ed-a7cc-9bc684d88994
+        first_name: John
+        last_name: Parke
+        middle_initial: G.
+        middle_name: Grubb
+        navy: '0'
+        rank: Major General
       corps: 1
   page: 317
+  result: Union
   start_date: 1865-3-25
   theater: 'East: 1865'
 - battle: Five Forks
@@ -2813,10 +5641,26 @@
   forces:
     Confederate:
       captured: 5200
+      commanders:
+      - PersonID: e4e99b96-0c8c-43c9-b2b2-79cfdb9ed800
+        first_name: George
+        last_name: Pickett
+        middle_initial: ''
+        middle_name: ''
+        navy: '0'
+        rank: Major General
       strength: 19000
     US:
       casualties: 1111
       cavalry: 12000
+      commanders:
+      - PersonID: 407e5664-e1ff-49aa-984d-79f7508a5e7f
+        first_name: Philip
+        last_name: Sheridan
+        middle_initial: H.
+        middle_name: Henry
+        navy: '0'
+        rank: Major General
       infantry: 16000
   note: 'For Union, the V Corps lost 634.
 
@@ -2824,6 +5668,7 @@
 
     '
   page: 317
+  result: Union
   start_date: 1865-4-1
   theater: 'East: 1865'
 - battle: Petersburg (second assault)
@@ -2835,13 +5680,31 @@
     url: https://dbpedia.org/resource/Third_Battle_of_Petersburg
   forces:
     Confederate:
+      commanders:
+      - PersonID: d428cfef-5c7a-4230-b394-b195481d9a9f
+        first_name: Robert
+        last_name: Lee
+        middle_initial: E.
+        middle_name: ''
+        navy: '0'
+        rank: General
       strength: 18579
     US:
+      commanders:
+      - PersonID: f4036249-0d0f-4c0f-aa2e-557890e1e475
+        first_name: Ulysses
+        last_name: Grant
+        middle_initial: S.
+        middle_name: Simon
+        navy: '0'
+        rank: Lieutenant General
       killed: 625
       missing: 326
       strength: 63299
       wounded: 3189
   page: 317
+  result: Union
+  result_comment: ''
   start_date: 1865-4-2
   theater: 'East: 1865'
 - battle: Fort Gregg
@@ -2853,17 +5716,35 @@
     url: https://dbpedia.org/resource/Third_Battle_of_Petersburg
   forces:
     Confederate:
+      commanders:
+      - PersonID: d428cfef-5c7a-4230-b394-b195481d9a9f
+        first_name: Robert
+        last_name: Lee
+        middle_initial: E.
+        middle_name: ''
+        navy: '0'
+        rank: General
       killed: 55
       strength: 214
       wounded: 129
     US:
+      commanders:
+      - PersonID: f4036249-0d0f-4c0f-aa2e-557890e1e475
+        first_name: Ulysses
+        last_name: Grant
+        middle_initial: S.
+        middle_name: Simon
+        navy: '0'
+        rank: Lieutenant General
       killed: 122
       strength: 8000
       wounded: 592
   page: 317
+  result: Union
+  result_comment: ''
   start_date: 1865-4-2
   theater: 'East: 1865'
-- battle: "Sayler's Creek"
+- battle: Sayler's Creek
   cwsac:
   - id: VA093
     relation: '='
@@ -2873,14 +5754,38 @@
   forces:
     Confederate:
       captured: 6000
+      commanders:
+      - PersonID: aa9a80fb-49e3-41d4-8ce5-3f5cbd961625
+        first_name: Richard
+        last_name: Ewell
+        middle_initial: S.
+        middle_name: Stoddert
+        navy: '0'
+        rank: Lieutenant General
+      - PersonID: bc4a67e5-b1be-43e1-9a83-240f4fe5346b
+        first_name: John
+        last_name: Gordon
+        middle_initial: B.
+        middle_name: Brown
+        navy: '0'
+        rank: Major General
       killed_wounded: 2000
       strength: 10000
     US:
       cavalry corps: 1
+      commanders:
+      - PersonID: 407e5664-e1ff-49aa-984d-79f7508a5e7f
+        first_name: Philip
+        last_name: Sheridan
+        middle_initial: H.
+        middle_name: Henry
+        navy: '0'
+        rank: Major General
       corps: 1
       killed: 166
       wounded_missing: 1014
   page: 317
+  result: Union
   start_date: 1865-4-6
   theater: 'East: 1865'
 - battle: Kinston
@@ -2894,12 +5799,29 @@
   forces:
     Confederate:
       casualties: 134
+      commanders:
+      - PersonID: 6bce5d35-7ced-46f5-8786-31eb932c1354
+        first_name: Nathan
+        last_name: Evans
+        middle_initial: G.
+        middle_name: George
+        navy: '0'
+        rank: Brigadier General
       strength: 8500
     US:
       captured: 1000
+      commanders:
+      - PersonID: f7a09726-833c-415e-acbc-7eab70718f97
+        first_name: John
+        last_name: Foster
+        middle_initial: G.
+        middle_name: Gray
+        navy: '0'
+        rank: Brigadier General
       killed_wounded: 257
       strength: 15000
   page: 317
+  result: Union
   start_date: 1865-3-8
   theater: 'West: 1865'
 - battle: Averasboro
@@ -2911,15 +5833,32 @@
     url: https://dbpedia.org/resource/Battle_of_Averasboro
   forces:
     Confederate:
+      commanders:
+      - PersonID: b01714aa-b252-4944-816d-be76a9070175
+        first_name: William
+        last_name: Hardee
+        middle_initial: J.
+        middle_name: Joseph
+        navy: '0'
+        rank: Lieutenant General
       killed: 108
       strength: 11000
       wounded_missing: 757
     US:
+      commanders:
+      - PersonID: f0e3ce2c-892e-4ae0-9995-3d864cb98ac1
+        first_name: Henry
+        last_name: Slocum
+        middle_initial: W.
+        middle_name: Warner
+        navy: '0'
+        rank: Major General
       killed: 95
       missing: 54
       strength: 22000
       wounded: 533
   page: 317
+  result: Indecisive
   start_date: 1865-3-16
   theater: 'West: 1865'
 - battle: Bentonville
@@ -2932,11 +5871,34 @@
   end_date: 1865-3-21
   forces:
     Confederate:
+      commanders:
+      - PersonID: b0f7a304-f6c5-4a8d-b816-066426e5dc1c
+        first_name: Joseph
+        last_name: Johnston
+        middle_initial: E.
+        middle_name: ''
+        navy: '0'
+        rank: General
       killed: 228
       missing: 658
       strength: 16895
       wounded: 1467
     US:
+      commanders:
+      - PersonID: 033ec012-d845-474f-bf9c-28366e02d1a4
+        first_name: William
+        last_name: Sherman
+        middle_initial: T.
+        middle_name: Tecumseh
+        navy: '0'
+        rank: Major General
+      - PersonID: f0e3ce2c-892e-4ae0-9995-3d864cb98ac1
+        first_name: Henry
+        last_name: Slocum
+        middle_initial: W.
+        middle_name: Warner
+        navy: '0'
+        rank: Major General
       killed: 191
       missing: 287
       strength: 31127
@@ -2945,5 +5907,6 @@
 
     '
   page: 317
+  result: Union
   start_date: 1865-3-19
   theater: 'West: 1865'

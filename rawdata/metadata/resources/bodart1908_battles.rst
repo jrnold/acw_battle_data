@@ -16,18 +16,13 @@ His criteria for including battles in his list is that they were either
   - or involved great number of losses
 
     - land battle: Losses of greater than 2,000 men on both sides
-    - sea battle: Because sea battles had fewer men, some with losses of less than 1000 were included.
+    - sea battle: Because sea battles had fewer men, some with losses of less than 1,000 were included.
 
 Bodart determines the victor of the battle as follows
 
 1. the side that claimed the battlefield or achieved purpose of fighting
 2. else, the side which had a lower percentage of casualties 
    
-In his figues of force strength, Bodart includes all forces that could
-be disposable for the battle, even if they did not participate. His
-reasoning is that even if not used, they influence the disposition and
-tactics of the enemy.
-
 His description of the data (p. 45-47, Google Books translation from German to English):
 
     On admission, the statistically treated battles meeting, sieges,

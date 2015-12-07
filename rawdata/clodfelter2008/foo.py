@@ -1,19 +1,34 @@
+import csv
 import yaml
 from os import path
 
-with open(path.expanduser("~/Downloads/clodfelter.yaml"), "r") as f:
+with open(path.expanduser("clodfelter.yaml"), "r") as f:
     data = yaml.load(f)
 
-theaters = ("Eastern Theater: 1861", "Western Theater: 1861",
-            "Blockade War: 1861-1862", "East: 1862", "West: 1862",
-            "East: 1863", "West: 1863", "Blockade War: 1863",
-            "East: 1864", "West: 1864", "Blockade War: 1864-65",
-            "East: 1865", "West: 1865")
-newdata = []
-for k in theaters:
-    for btl in data[k]:
-        btl['theater'] = k
-        newdata.append(btl)
+commanders = {}
+with open("../../data/nps_commanders.csv", "r") as f:
+    for row in csv.DictReader(f):
+        if row['belligerent'] == "Native American":
+            continue
+        if row['cwsac_id'] not in commanders:
+            commanders[row['cwsac_id']] = {'US': [],
+                                         'Confederate': []}
+        keys = ('PersonID', 'last_name', 'first_name',
+                'middle_name', 'middle_initial', 'rank', 'navy')
+        d = dict((k, row[k]) for k in keys)
+        commanders[row['cwsac_id']][row['belligerent']].append(d)
 
-with open("clodfelter.yaml", "w") as f:
-    yaml.dump(newdata, f, default_flow_style = False)
+for battle in data:
+    cwsac = None
+    if 'cwsac' in battle:
+        for x in battle['cwsac']:
+            if x['relation'] == "=":
+                v = commanders[x['id']]
+                battle['forces']['US']['commanders'] = v['US']
+                battle['forces']['Confederate']['commanders'] = v['Confederate']
+                continue
+    else:
+        print(battle['battle'])        
+
+with open("clodfelter-new.yaml", "w") as f:
+    yaml.dump(data, f, default_flow_style = False)
