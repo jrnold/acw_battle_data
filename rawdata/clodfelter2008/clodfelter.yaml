@@ -15,14 +15,14 @@
         last_name: Pegram
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Lieutenant Colonel
       - PersonID: 386fe044-f4a0-4128-9e79-be5dcaa66241
         first_name: Robert
         last_name: Garnett
         middle_initial: S.
         middle_name: Selden
-        navy: '0'
+        navy: false
         rank: Brigadier General
       killed_wounded: 170
       strength: 5300
@@ -33,14 +33,14 @@
         last_name: McClellan
         middle_initial: B.
         middle_name: Brinton
-        navy: '0'
+        navy: false
         rank: Major General
       - PersonID: 7d67c576-bbd4-4b23-ac53-300f9522f311
         first_name: William
         last_name: Rosecrans
         middle_initial: S.
         middle_name: Starke
-        navy: '0'
+        navy: false
         rank: Brigadier General
       killed: 12
       strength: 6000
@@ -64,14 +64,14 @@
         last_name: Johnston
         middle_initial: E.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Brigadier General
       - PersonID: 183d0a7d-f06a-4c7b-a575-7616e491618b
         first_name: Pierre
         last_name: Beauregard
         middle_initial: G. T.
         middle_name: Gustave Toutant
-        navy: '0'
+        navy: false
         rank: Brigadier General
       killed: 387
       missing: 13
@@ -84,7 +84,7 @@
         last_name: McDowell
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Brigadier General
       killed: 460
       missing_captured: 1312
@@ -109,7 +109,7 @@
         last_name: Evans
         middle_initial: G.
         middle_name: George
-        navy: '0'
+        navy: false
         rank: Brigadier General
       killed: 33
       missing: 1
@@ -123,14 +123,14 @@
         last_name: Stone
         middle_initial: P.
         middle_name: Pomeroy
-        navy: '0'
+        navy: false
         rank: Brigadier General
       - PersonID: 4b479de3-ec5f-4531-af8e-903c593a7b78
         first_name: Edward
         last_name: Baker
         middle_initial: D.
         middle_name: Dickinson
-        navy: '0'
+        navy: false
         rank: Colonel
       killed: 49
       strength: 1700
@@ -154,14 +154,14 @@
         last_name: Price
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Major General
       - PersonID: 536cbc9d-7b3e-4225-a660-25374cc1026e
         first_name: Benjamin
         last_name: McCulloch
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Brigadier General
       killed: 105
       missing: 117
@@ -174,14 +174,14 @@
         last_name: Lyon
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Brigadier General
       - PersonID: 4a50678b-9211-4c6a-828e-d9607876849a
         first_name: Samuel
         last_name: Sturgis
         middle_initial: D.
         middle_name: Davis
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 258
       missing: 186
@@ -207,7 +207,7 @@
         last_name: Pillow
         middle_initial: J.
         middle_name: Johnson
-        navy: '0'
+        navy: false
         rank: Brigadier General
       killed: 105
       strength: 5000
@@ -220,7 +220,7 @@
         last_name: Grant
         middle_initial: S.
         middle_name: Simon
-        navy: '0'
+        navy: false
         rank: Brigadier General
       killed: 120
       strength: 3114
@@ -246,7 +246,7 @@
         last_name: Wise
         middle_initial: A.
         middle_name: Alexander
-        navy: '0'
+        navy: false
         rank: Brigadier General
       gunboats: 7
       gunboats captured: 5
@@ -261,7 +261,7 @@
         last_name: Burnside
         middle_initial: E.
         middle_name: Everett
-        navy: '0'
+        navy: false
         rank: Brigadier General
       killed: 41
       strength: 13000
@@ -286,7 +286,7 @@
         last_name: Branch
         middle_initial: O.
         middle_name: O'Bryan
-        navy: '0'
+        navy: false
         rank: Brigadier General
       killed: 68
       missing: 425
@@ -299,7 +299,7 @@
         last_name: Burnside
         middle_initial: E.
         middle_name: Everett
-        navy: '0'
+        navy: false
         rank: Brigadier General
       killed: 90
       missing: 1
@@ -324,14 +324,14 @@
         last_name: Buchanan
         middle_initial: ''
         middle_name: ''
-        navy: '1'
+        navy: true
         rank: Captain
       - PersonID: 135f4732-a9b3-4a23-a530-8a6e922812c6
         first_name: Catesby
         last_name: Jones
         middle_initial: R.
         middle_name: Roger
-        navy: '0'
+        navy: false
         rank: Lieutenant
       crewmen: 350
       guns: 2
@@ -344,7 +344,7 @@
         last_name: Worden
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Lieutenant
       guns: 219
       killed: 257
@@ -373,14 +373,14 @@
         last_name: Buchanan
         middle_initial: ''
         middle_name: ''
-        navy: '1'
+        navy: true
         rank: Captain
       - PersonID: 135f4732-a9b3-4a23-a530-8a6e922812c6
         first_name: Catesby
         last_name: Jones
         middle_initial: R.
         middle_name: Roger
-        navy: '0'
+        navy: false
         rank: Lieutenant
       crewmen: 340
       guns: 10
@@ -392,7 +392,7 @@
         last_name: Worden
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Lieutenant
       crewmen: 58
       guns: 2
@@ -418,7 +418,7 @@
         last_name: Evans
         middle_initial: G.
         middle_name: George
-        navy: '0'
+        navy: false
         rank: Brigadier General
       killed: 52
       missing: 8
@@ -431,7 +431,7 @@
         last_name: Benham
         middle_initial: W.
         middle_name: Washington
-        navy: '0'
+        navy: false
         rank: Brigadier General
       killed: 107
       missing_captured: 89
@@ -456,7 +456,7 @@
         last_name: Jackson
         middle_initial: J.
         middle_name: Jonathan
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 80
       missing: 263
@@ -469,7 +469,7 @@
         last_name: Kimball
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Colonel
       killed: 118
       missing: 22
@@ -494,7 +494,7 @@
         last_name: Jackson
         middle_initial: J.
         middle_name: Jonathan
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 75
       strength: 5000
@@ -506,14 +506,14 @@
         last_name: Milroy
         middle_initial: H.
         middle_name: Huston
-        navy: '0'
+        navy: false
         rank: Brigadier General
       - PersonID: 009983b0-ccd0-4ed6-814e-c729a69e69e3
         first_name: Robert
         last_name: Schenck
         middle_initial: C.
         middle_name: Cumming
-        navy: '0'
+        navy: false
         rank: Brigadier General
       killed: 26
       missing: 3
@@ -538,7 +538,7 @@
         last_name: Jackson
         middle_initial: J.
         middle_name: Jonathan
-        navy: '0'
+        navy: false
         rank: Major General
       killed_wounded: 50
       strength: 16000
@@ -550,7 +550,7 @@
         last_name: Kenly
         middle_initial: R.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Colonel
       strength: 1063
   page: 296
@@ -572,7 +572,7 @@
         last_name: Jackson
         middle_initial: J.
         middle_name: Jonathan
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 68
       missing: 3
@@ -586,7 +586,7 @@
         last_name: Banks
         middle_initial: P.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 62
       strength: 8500
@@ -610,7 +610,7 @@
         last_name: Ewell
         middle_initial: S.
         middle_name: Stoddert
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 41
       missing: 15
@@ -623,7 +623,7 @@
         last_name: "Fr\xE9mont"
         middle_initial: C.
         middle_name: Charles
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 114
       missing: 127
@@ -648,7 +648,7 @@
         last_name: Jackson
         middle_initial: J.
         middle_name: Jonathan
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 98
       missing: 45
@@ -662,7 +662,7 @@
         last_name: Tyler
         middle_initial: B.
         middle_name: Barnard
-        navy: '0'
+        navy: false
         rank: Brigadier General
       killed: 67
       strength: 5000
@@ -686,7 +686,7 @@
         last_name: Longstreet
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 288
       missing: 297
@@ -699,7 +699,7 @@
         last_name: McClellan
         middle_initial: B.
         middle_name: Brinton
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 468
       missing: 373
@@ -725,7 +725,7 @@
         last_name: Branch
         middle_initial: O.
         middle_name: O'Bryan
-        navy: '0'
+        navy: false
         rank: Brigadier General
       killed_wounded: 270
       strength: 3000
@@ -736,7 +736,7 @@
         last_name: Porter
         middle_initial: J.
         middle_name: John
-        navy: '0'
+        navy: false
         rank: Brigadier General
       killed: 62
       missing: 70
@@ -762,14 +762,14 @@
         last_name: Johnston
         middle_initial: E.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: General
       - PersonID: 7ecf1477-925a-4b2b-b174-a549a4038ecc
         first_name: Gustavus
         last_name: Smith
         middle_initial: W.
         middle_name: Woodson
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 980
       missing: 405
@@ -783,7 +783,7 @@
         last_name: McClellan
         middle_initial: B.
         middle_name: Brinton
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 790
       missing: 647
@@ -821,7 +821,7 @@
         last_name: Lee
         middle_initial: E.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: General
       missing_captured: 875
       strength: 3478
@@ -833,7 +833,7 @@
         last_name: McClellan
         middle_initial: B.
         middle_name: Brinton
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 1734
       missing_captured: 6053
@@ -859,7 +859,7 @@
         last_name: Lee
         middle_initial: E.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: General
       killed: 40
       missing: 13
@@ -872,7 +872,7 @@
         last_name: McClellan
         middle_initial: B.
         middle_name: Brinton
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 51
       missing: 64
@@ -899,7 +899,7 @@
         last_name: Lee
         middle_initial: E.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: General
       strength: 16356
     US:
@@ -909,7 +909,7 @@
         last_name: Porter
         middle_initial: J.
         middle_name: John
-        navy: '0'
+        navy: false
         rank: Brigadier General
       killed: 49
       missing: 105
@@ -936,7 +936,7 @@
         last_name: Lee
         middle_initial: E.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: General
       strength: 57018
     US:
@@ -946,7 +946,7 @@
         last_name: Porter
         middle_initial: J.
         middle_name: John
-        navy: '0'
+        navy: false
         rank: Brigadier General
       guns lost: 22
       killed: 894
@@ -974,7 +974,7 @@
         last_name: Magruder
         middle_initial: B.
         middle_name: Bankhead
-        navy: '0'
+        navy: false
         rank: Major General
       divisions: 4
     US:
@@ -985,7 +985,7 @@
         last_name: Sumner
         middle_initial: V.
         middle_name: Vose
-        navy: '0'
+        navy: false
         rank: Major General
       divisions: 3
   page: 297
@@ -1008,14 +1008,14 @@
         last_name: Jackson
         middle_initial: J.
         middle_name: Jonathan
-        navy: '0'
+        navy: false
         rank: Major General
       - PersonID: d428cfef-5c7a-4230-b394-b195481d9a9f
         first_name: Robert
         last_name: Lee
         middle_initial: E.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: General
       divisions: 2
       killed: 638
@@ -1028,14 +1028,14 @@
         last_name: Franklin
         middle_initial: B.
         middle_name: Buel
-        navy: '0'
+        navy: false
         rank: Major General
       - PersonID: 113829b2-e1ff-4458-8dce-9a4da30810dd
         first_name: George
         last_name: McClellan
         middle_initial: B.
         middle_name: Brinton
-        navy: '0'
+        navy: false
         rank: Major General
       divisions: 4
       guns lost: 18
@@ -1062,7 +1062,7 @@
         last_name: Lee
         middle_initial: E.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: General
       strength: 5355
     US:
@@ -1073,7 +1073,7 @@
         last_name: McClellan
         middle_initial: B.
         middle_name: Brinton
-        navy: '0'
+        navy: false
         rank: Major General
       strength: 83345
   page: 297
@@ -1096,7 +1096,7 @@
         last_name: Jackson
         middle_initial: J.
         middle_name: Jonathan
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 231
       missing: 31
@@ -1109,7 +1109,7 @@
         last_name: Banks
         middle_initial: P.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 314
       missing: 594
@@ -1135,14 +1135,14 @@
         last_name: Lee
         middle_initial: E.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: General
       - PersonID: 21d06a25-9c4f-4dea-a766-f60d20632999
         first_name: Thomas
         last_name: Jackson
         middle_initial: J.
         middle_name: Jonathan
-        navy: '0'
+        navy: false
         rank: Major General
       strength: 6000
     US:
@@ -1153,7 +1153,7 @@
         last_name: Pope
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Major General
       strength: 2800
   page: 297
@@ -1177,14 +1177,14 @@
         last_name: Lee
         middle_initial: E.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: General
       - PersonID: 21d06a25-9c4f-4dea-a766-f60d20632999
         first_name: Thomas
         last_name: Jackson
         middle_initial: J.
         middle_name: Jonathan
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 1481
       missing: 89
@@ -1197,7 +1197,7 @@
         last_name: Pope
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Major General
       guns lost: 30
       killed: 1724
@@ -1224,7 +1224,7 @@
         last_name: Lee
         middle_initial: E.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: General
       killed: 325
       missing_captured: 800
@@ -1237,7 +1237,7 @@
         last_name: McClellan
         middle_initial: B.
         middle_name: Brinton
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 325
       missing: 85
@@ -1262,7 +1262,7 @@
         last_name: Lee
         middle_initial: E.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: General
       killed: 1546
       missing: 1018
@@ -1275,7 +1275,7 @@
         last_name: McClellan
         middle_initial: B.
         middle_name: Brinton
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 2108
       missing: 753
@@ -1300,7 +1300,7 @@
         last_name: Lee
         middle_initial: E.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: General
       killed: 595
       missing: 653
@@ -1313,7 +1313,7 @@
         last_name: Burnside
         middle_initial: E.
         middle_name: Everett
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 1284
       missing: 1769
@@ -1338,14 +1338,14 @@
         last_name: Sibley
         middle_initial: H.
         middle_name: Hastings
-        navy: '0'
+        navy: false
         rank: Brigadier General
       - PersonID: 1f2d408e-a3d6-431d-aefe-9d6df9e7902b
         first_name: Thomas
         last_name: Green
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Colonel
       killed: 36
       strength: 2515
@@ -1357,7 +1357,7 @@
         last_name: Canby
         middle_initial: R. S.
         middle_name: Richard Sprigg
-        navy: '0'
+        navy: false
         rank: Colonel
       killed: 68
       missing: 35
@@ -1384,14 +1384,14 @@
         last_name: Pyron
         middle_initial: L.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Major
       - PersonID: a0843832-94ac-4663-b4bc-288b8d1b817f
         first_name: William
         last_name: Scurry
         middle_initial: R.
         middle_name: Read
-        navy: '0'
+        navy: false
         rank: Lieutenant Colonel
       killed: 47
       strength: 900
@@ -1404,14 +1404,14 @@
         last_name: Chivington
         middle_initial: M.
         middle_name: Milton
-        navy: '0'
+        navy: false
         rank: Major
       - PersonID: a05df089-6f23-4706-9b71-b25bcdba94c4
         first_name: John
         last_name: Slough
         middle_initial: P.
         middle_name: Potts
-        navy: '0'
+        navy: false
         rank: Colonel
       killed: 54
       strength: 1342
@@ -1437,7 +1437,7 @@
         last_name: Van Dorn
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Major General
       killed_wounded: 800
       strength: 17000
@@ -1448,7 +1448,7 @@
         last_name: Curtis
         middle_initial: R.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Brigadier General
       killed: 203
       missing_captured: 210
@@ -1473,7 +1473,7 @@
         last_name: Hindman
         middle_initial: C.
         middle_name: Carmichael
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 164
       missing: 336
@@ -1486,14 +1486,14 @@
         last_name: Herron
         middle_initial: J.
         middle_name: Jay
-        navy: '0'
+        navy: false
         rank: Brigadier General
       - PersonID: a3f15046-9028-421d-bbe0-fb6c341a991f
         first_name: James
         last_name: Blunt
         middle_initial: G.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Brigadier General
       killed: 175
       missing: 263
@@ -1519,7 +1519,7 @@
         last_name: Crittenden
         middle_initial: B.
         middle_name: Bibb
-        navy: '0'
+        navy: false
         rank: Major General
       guns lost: 12
       killed: 125
@@ -1533,7 +1533,7 @@
         last_name: Thomas
         middle_initial: H.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Brigadier General
       killed: 40
       strength: 4000
@@ -1559,21 +1559,21 @@
         last_name: Floyd
         middle_initial: B.A
         middle_name: Buchanan
-        navy: '0'
+        navy: false
         rank: Brigadier General
       - PersonID: c97e392a-d319-4c82-9201-0a35f418a0a9
         first_name: Gideon
         last_name: Pillow
         middle_initial: J.
         middle_name: Johnson
-        navy: '0'
+        navy: false
         rank: Brigadier General
       - PersonID: b2dc590c-f108-4e13-a3e3-0d47a00668c3
         first_name: Simon
         last_name: Buckner
         middle_initial: B.
         middle_name: Bolivar
-        navy: '0'
+        navy: false
         rank: Brigadier General
       killed_wounded: 2000
       strength: 17500
@@ -1584,14 +1584,14 @@
         last_name: Grant
         middle_initial: S.
         middle_name: Simon
-        navy: '0'
+        navy: false
         rank: Brigadier General
       - PersonID: 571ac77d-3839-4b5f-9d47-d7e83bacfe60
         first_name: Andrew
         last_name: Foote
         middle_initial: H.
         middle_name: Hull
-        navy: '1'
+        navy: true
         rank: Flag Officer
       killed: 500
       missing: 224
@@ -1617,14 +1617,14 @@
         last_name: Johnston
         middle_initial: S.
         middle_name: Sidney
-        navy: '0'
+        navy: false
         rank: General
       - PersonID: 183d0a7d-f06a-4c7b-a575-7616e491618b
         first_name: Pierre
         last_name: Beauregard
         middle_initial: G. T.
         middle_name: Gustave Toutant
-        navy: '0'
+        navy: false
         rank: General
       killed: 1723
       missing_captured: 959
@@ -1637,14 +1637,14 @@
         last_name: Grant
         middle_initial: S.
         middle_name: Simon
-        navy: '0'
+        navy: false
         rank: Major General
       - PersonID: ae900570-5c73-4de2-b99b-e0f6fbe50ca3
         first_name: Don
         last_name: Buell
         middle_initial: C.
         middle_name: Carlos
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 1754
       missing_captured: 2885
@@ -1669,14 +1669,14 @@
         last_name: Duncan
         middle_initial: K.
         middle_name: Kelly
-        navy: '0'
+        navy: false
         rank: Brigadier General
       - PersonID: 117bf5ff-1db0-4b84-9a31-7f77ad69e8be
         first_name: John
         last_name: Mitchell
         middle_initial: K.
         middle_name: ''
-        navy: '1'
+        navy: true
         rank: Commander
       gunboats: 10
       gunboats sunk: 9
@@ -1691,7 +1691,7 @@
         last_name: Farragut
         middle_initial: G.
         middle_name: Glasgow
-        navy: '1'
+        navy: true
         rank: Flag Officer
       frigates: 2
       gunboats: 9
@@ -1720,7 +1720,7 @@
         last_name: Breckinridge
         middle_initial: C.
         middle_name: Cabell
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 84
       strength: 2600
@@ -1733,7 +1733,7 @@
         last_name: Williams
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Brigadier General
       killed: 84
       strength: 2500
@@ -1757,7 +1757,7 @@
         last_name: Price
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 262
       missing: 561
@@ -1770,7 +1770,7 @@
         last_name: Rosecrans
         middle_initial: S.
         middle_name: Starke
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 144
       missing: 40
@@ -1796,7 +1796,7 @@
         last_name: Van Dorn
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 473
       missing: 1763
@@ -1809,7 +1809,7 @@
         last_name: Rosecrans
         middle_initial: S.
         middle_name: Starke
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 355
       missing: 324
@@ -1834,7 +1834,7 @@
         last_name: Pemberton
         middle_initial: C.
         middle_name: Clifford
-        navy: '0'
+        navy: false
         rank: Lieutenant General
       killed: 63
       missing: 10
@@ -1847,7 +1847,7 @@
         last_name: Sherman
         middle_initial: ''
         middle_name: Tecumsheh
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 208
       missing_captured: 563
@@ -1872,7 +1872,7 @@
         last_name: Smith
         middle_initial: K.
         middle_name: Kirby
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 78
       missing: 1
@@ -1885,7 +1885,7 @@
         last_name: Nelson
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 206
       missing_captured: 4303
@@ -1910,7 +1910,7 @@
         last_name: Bragg
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: General
       killed: 510
       missing_captured: 251
@@ -1923,7 +1923,7 @@
         last_name: Buell
         middle_initial: C.
         middle_name: Carlos
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 845
       missing_captured: 515
@@ -1949,7 +1949,7 @@
         last_name: Morgan
         middle_initial: H.
         middle_name: Hunt
-        navy: '0'
+        navy: false
         rank: Brigadier General
       strength: 2000
     US:
@@ -1960,7 +1960,7 @@
         last_name: Moore
         middle_initial: B.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Colonel
       killed_wounded: 300
       strength: 2100
@@ -1984,7 +1984,7 @@
         last_name: Bragg
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: General
       killed: 1294
       missing_captured: 2500
@@ -1997,7 +1997,7 @@
         last_name: Rosecrans
         middle_initial: S.
         middle_name: Starke
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 1677
       missing_captured: 3686
@@ -2023,14 +2023,14 @@
         last_name: Lee
         middle_initial: E.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: General
       - PersonID: 21d06a25-9c4f-4dea-a766-f60d20632999
         first_name: Thomas
         last_name: Jackson
         middle_initial: J.
         middle_name: Jonathan
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 1665
       missing: 2081
@@ -2043,7 +2043,7 @@
         last_name: Hooker
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 1606
       missing_captured: 5919
@@ -2070,7 +2070,7 @@
         last_name: Stuart
         middle_initial: E. B.
         middle_name: Ewell Brown
-        navy: '0'
+        navy: false
         rank: Major General
     US:
       captured: 486
@@ -2081,7 +2081,7 @@
         last_name: Pleasonton
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 69
       wounded: 352
@@ -2106,7 +2106,7 @@
         last_name: Ewell
         middle_initial: S.
         middle_name: Stoddert
-        navy: '0'
+        navy: false
         rank: Lieutenant General
       strength: 14000
     US:
@@ -2116,7 +2116,7 @@
         last_name: Milroy
         middle_initial: H.
         middle_name: Huston
-        navy: '0'
+        navy: false
         rank: Brigadier General
       guns lost: 23
       killed: 95
@@ -2143,7 +2143,7 @@
         last_name: Lee
         middle_initial: E.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: General
       killed: 3903
       missing_captured: 5425
@@ -2156,7 +2156,7 @@
         last_name: Meade
         middle_initial: G.
         middle_name: Gordon
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 3155
       missing_captured: 5365
@@ -2183,7 +2183,7 @@
         last_name: Hill
         middle_initial: P.
         middle_name: Powell
-        navy: '0'
+        navy: false
         rank: Lieutenant General
       killed_wounded: 1400
     US:
@@ -2194,7 +2194,7 @@
         last_name: Warren
         middle_initial: K.
         middle_name: Kemble
-        navy: '0'
+        navy: false
         rank: Major General
       divisions: 3
   page: 302
@@ -2218,7 +2218,7 @@
         last_name: Stuart
         middle_initial: E. B.
         middle_name: Ewell Brown
-        navy: '0'
+        navy: false
         rank: Major General
     US:
       casualties: 1251
@@ -2229,7 +2229,7 @@
         last_name: Kilpatrick
         middle_initial: J.
         middle_name: Judson
-        navy: '0'
+        navy: false
         rank: Major General
   page: 302
   result: Confederate
@@ -2251,7 +2251,7 @@
         last_name: Lee
         middle_initial: E.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: General
       strength: 2800
     US:
@@ -2262,7 +2262,7 @@
         last_name: Meade
         middle_initial: G.
         middle_name: Gordon
-        navy: '0'
+        navy: false
         rank: Major General
       corps: 1
   page: 302
@@ -2286,7 +2286,7 @@
         last_name: Lee
         middle_initial: E.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: General
       strength: 48586
     US:
@@ -2297,7 +2297,7 @@
         last_name: Meade
         middle_initial: G.
         middle_name: Gordon
-        navy: '0'
+        navy: false
         rank: Major General
       strength: 84274
   page: 302
@@ -2319,7 +2319,7 @@
         last_name: Magruder
         middle_initial: B.
         middle_name: Bankhead
-        navy: '0'
+        navy: false
         rank: Major General
       guns: 3
       killed: 27
@@ -2334,14 +2334,14 @@
         last_name: Burrell
         middle_initial: S.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Colonel
       - PersonID: 65815655-0c83-4511-9e7b-2ce4d0ca632c
         first_name: William
         last_name: Renshaw
         middle_initial: B.
         middle_name: Bainbridge
-        navy: '1'
+        navy: true
         rank: Commander
       companies: 3
       gunboats: 5
@@ -2368,7 +2368,7 @@
         last_name: Cooper
         middle_initial: H.
         middle_name: Hancock
-        navy: '0'
+        navy: false
         rank: Brigadier General
       strength: 5000
     US:
@@ -2378,7 +2378,7 @@
         last_name: Blunt
         middle_initial: G.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 13
       strength: 4000
@@ -2403,7 +2403,7 @@
         last_name: Churchill
         middle_initial: J.
         middle_name: James
-        navy: '0'
+        navy: false
         rank: Brigadier General
       killed_wounded: 109
       strength: 5000
@@ -2414,14 +2414,14 @@
         last_name: Porter
         middle_initial: D.
         middle_name: Dixon
-        navy: '1'
+        navy: true
         rank: Acting Rear Admiral
       - PersonID: ff3bef0a-370b-48a3-9e53-a77c9f9a5b35
         first_name: John
         last_name: McClernand
         middle_initial: A.
         middle_name: Alexander
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 140
       strength: 29000
@@ -2448,7 +2448,7 @@
         last_name: Gardner
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Major General
       guns: 57
       guns lost: 57
@@ -2461,7 +2461,7 @@
         last_name: Banks
         middle_initial: P.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Major General
       guns: 90
       killed: 707
@@ -2488,7 +2488,7 @@
         last_name: Gardner
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Major General
       note: Use strength from Port Hudson Siege
       strength: 6715
@@ -2499,7 +2499,7 @@
         last_name: Banks
         middle_initial: P.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 293
       missing: 157
@@ -2527,7 +2527,7 @@
         last_name: Gardner
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 22
       note: Use strength from Port Hudson Siege minus first assault
@@ -2540,7 +2540,7 @@
         last_name: Banks
         middle_initial: P.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 203
       missing: 188
@@ -2569,7 +2569,7 @@
         last_name: Green
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Brigadier General
       strength: 800
     US:
@@ -2579,7 +2579,7 @@
         last_name: Bullen
         middle_initial: D.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Major
       killed_wounded: 24
       strength: 225
@@ -2603,7 +2603,7 @@
         last_name: Green
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Brigadier General
       killed: 9
       wounded: 24
@@ -2615,14 +2615,14 @@
         last_name: Weitzel
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Brigadier General
       - PersonID: d28cf4ce-7176-40e5-81a3-d822f31ae359
         first_name: Cuvier
         last_name: Grover
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Brigadier General
       killed: 50
       missing_captured: 186
@@ -2646,7 +2646,7 @@
         last_name: Bowen
         middle_initial: S.
         middle_name: Stevens
-        navy: '0'
+        navy: false
         rank: Brigadier General
       killed: 68
       missing: 384
@@ -2659,7 +2659,7 @@
         last_name: Grant
         middle_initial: S.
         middle_name: Simon
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 131
       missing: 25
@@ -2684,7 +2684,7 @@
         last_name: Gregg
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Brigadier General
       killed: 73
       missing: 190
@@ -2697,7 +2697,7 @@
         last_name: McPherson
         middle_initial: B.
         middle_name: Birdseye
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 66
       missing: 37
@@ -2722,14 +2722,14 @@
         last_name: Johnston
         middle_initial: E.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: General
       - PersonID: 55cf9433-a8d5-4665-96cc-3f8dd99995ef
         first_name: John
         last_name: Gregg
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Brigadier General
       killed: 17
       missing: 118
@@ -2742,7 +2742,7 @@
         last_name: Grant
         middle_initial: S.
         middle_name: Simon
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 48
       missing: 11
@@ -2767,7 +2767,7 @@
         last_name: Pemberton
         middle_initial: C.
         middle_name: Clifford
-        navy: '0'
+        navy: false
         rank: Lieutenant General
       killed: 381
       missing_captured: 1670
@@ -2780,7 +2780,7 @@
         last_name: Grant
         middle_initial: S.
         middle_name: Simon
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 410
       missing: 187
@@ -2807,7 +2807,7 @@
         last_name: Bowen
         middle_initial: S.
         middle_name: Stevens
-        navy: '0'
+        navy: false
         rank: Brigadier General
     US:
       commanders:
@@ -2816,7 +2816,7 @@
         last_name: McClernand
         middle_initial: A.
         middle_name: Alexander
-        navy: '0'
+        navy: false
         rank: Major General
       divisions: 2
       killed: 39
@@ -2843,7 +2843,7 @@
         last_name: Pemberton
         middle_initial: C.
         middle_name: Clifford
-        navy: '0'
+        navy: false
         rank: Lieutenant General
       guns lost: 172
       killed_wounded: 4910
@@ -2857,7 +2857,7 @@
         last_name: Grant
         middle_initial: S.
         middle_name: Simon
-        navy: '0'
+        navy: false
         rank: Major General
       note: 'casualties for entire campaign from April 30 to July 4: 1514 k, 7395
         w, 453 cm'
@@ -2882,7 +2882,7 @@
         last_name: Pemberton
         middle_initial: C.
         middle_name: Clifford
-        navy: '0'
+        navy: false
         rank: Lieutenant General
       note: Use strength from Vicksburg siege
       strength: 30000
@@ -2893,7 +2893,7 @@
         last_name: Grant
         middle_initial: S.
         middle_name: Simon
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 157
       missing: 8
@@ -2922,7 +2922,7 @@
         last_name: Pemberton
         middle_initial: C.
         middle_name: Clifford
-        navy: '0'
+        navy: false
         rank: Lieutenant General
       note: Use strength from Vicksburg siege minus casualties from the first assault.
       strength: 29800
@@ -2933,7 +2933,7 @@
         last_name: Grant
         middle_initial: S.
         middle_name: Simon
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 502
       missing: 147
@@ -2962,7 +2962,7 @@
         last_name: Holmes
         middle_initial: H.
         middle_name: Hunter
-        navy: '0'
+        navy: false
         rank: Lieutenant General
       strength: 7646
     US:
@@ -2973,7 +2973,7 @@
         last_name: Prentiss
         middle_initial: M.
         middle_name: Mayberry
-        navy: '0'
+        navy: false
         rank: Major General
       strength: 4129
   page: 305
@@ -2993,7 +2993,7 @@
         last_name: Johnston
         middle_initial: E.
         middle_name: ''
-        navy: ''
+        navy: false
         rank: General
       killed: 71
       missing_captured: 764
@@ -3006,7 +3006,7 @@
         last_name: Sherman
         middle_initial: T.
         middle_name: ''
-        navy: ''
+        navy: false
         rank: Major General
       killed: 129
       missing: 231
@@ -3033,14 +3033,14 @@
         last_name: Bragg
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: General
       - PersonID: 0418b77d-5826-4c1d-9621-9d92c48d77b5
         first_name: James
         last_name: Longstreet
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Lieutenant General
       guns: 200
       killed: 2312
@@ -3054,14 +3054,14 @@
         last_name: Rosecrans
         middle_initial: S.
         middle_name: Starke
-        navy: '0'
+        navy: false
         rank: Major General
       - PersonID: 6951057d-db32-4db5-8b3e-dea0c1101a5f
         first_name: George
         last_name: Thomas
         middle_initial: H.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Major General
       guns: 170
       killed: 1657
@@ -3088,7 +3088,7 @@
         last_name: Bragg
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: General
       guns lost: 41
       killed: 361
@@ -3103,7 +3103,7 @@
         last_name: Grant
         middle_initial: S.
         middle_name: Simon
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 753
       missing_captured: 349
@@ -3129,7 +3129,7 @@
         last_name: Bragg
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: General
     US:
       casualties: 1100
@@ -3139,7 +3139,7 @@
         last_name: Grant
         middle_initial: S.
         middle_name: Simon
-        navy: '0'
+        navy: false
         rank: Major General
       strength: 25000
   page: 306
@@ -3165,7 +3165,7 @@
         last_name: Bragg
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: General
     US:
       commanders:
@@ -3174,7 +3174,7 @@
         last_name: Grant
         middle_initial: S.
         middle_name: Simon
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 81
       missing: 8
@@ -3202,7 +3202,7 @@
         last_name: Bragg
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: General
       divisions: 1
     US:
@@ -3213,7 +3213,7 @@
         last_name: Grant
         middle_initial: S.
         middle_name: Simon
-        navy: '0'
+        navy: false
         rank: Major General
       divisions: 4
       killed_wounded: 1240
@@ -3238,7 +3238,7 @@
         last_name: Bragg
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: General
       killed_wounded: 3000
     US:
@@ -3249,7 +3249,7 @@
         last_name: Grant
         middle_initial: S.
         middle_name: Simon
-        navy: '0'
+        navy: false
         rank: Major General
       strength: 24536
   page: 306
@@ -3274,7 +3274,7 @@
         last_name: Cleburne
         middle_initial: R.
         middle_name: Ronayne
-        navy: '0'
+        navy: false
         rank: Major General
       strength: 4100
     US:
@@ -3285,7 +3285,7 @@
         last_name: Hooker
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Major General
       killed_wounded: 342
       strength: 12000
@@ -3307,7 +3307,7 @@
         last_name: Bragg
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: General
       strength: 15000
     US:
@@ -3317,7 +3317,7 @@
         last_name: Grant
         middle_initial: S.
         middle_name: Simon
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 92
       missing_captured: 207
@@ -3344,7 +3344,7 @@
         last_name: Longstreet
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Lieutenant General
       killed: 129
       strength: 3000
@@ -3356,7 +3356,7 @@
         last_name: Burnside
         middle_initial: E.
         middle_name: Everett
-        navy: '0'
+        navy: false
         rank: Major General
       guns: 12
       killed: 8
@@ -3379,7 +3379,7 @@
         last_name: Walker
         middle_initial: 'S. '
         middle_name: ''
-        navy: ''
+        navy: false
         rank: Colonel
       strength: 2200
     US:
@@ -3390,7 +3390,7 @@
         last_name: Brannan
         middle_initial: M.
         middle_name: ''
-        navy: ''
+        navy: false
         rank: Brigadier General
       strength: 4500
   page: 306
@@ -3414,7 +3414,7 @@
         last_name: Beauregard
         middle_initial: G. T.
         middle_name: Gustave Toutant
-        navy: '0'
+        navy: false
         rank: General
       killed_wounded: 12
       strength: 1500
@@ -3425,7 +3425,7 @@
         last_name: Gillmore
         middle_initial: A.
         middle_name: Adams
-        navy: '0'
+        navy: false
         rank: Brigadier General
       killed: 49
       missing_captured: 167
@@ -3450,7 +3450,7 @@
         last_name: Beauregard
         middle_initial: G. T.
         middle_name: Gustave Toutant
-        navy: '0'
+        navy: false
         rank: General
       killed_wounded: 188
       strength: 1300
@@ -3461,7 +3461,7 @@
         last_name: Gillmore
         middle_initial: A.
         middle_name: Adams
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 246
       missing: 391
@@ -3488,7 +3488,7 @@
         last_name: Finegan
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Brigadier General
       killed_missing: 93
       strength: 5200
@@ -3500,7 +3500,7 @@
         last_name: Seymour
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Brigadier General
       killed: 231
       missing: 506
@@ -3526,7 +3526,7 @@
         last_name: Lee
         middle_initial: E.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: General
       killed: 1957
       missing: 1701
@@ -3539,14 +3539,14 @@
         last_name: Grant
         middle_initial: S.
         middle_name: Simon
-        navy: '0'
+        navy: false
         rank: Lieutenant General
       - PersonID: 15a8b826-e060-430a-bb4c-61936b75252e
         first_name: George
         last_name: Meade
         middle_initial: G.
         middle_name: Gordon
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 2246
       missing_captured: 3383
@@ -3572,7 +3572,7 @@
         last_name: Lee
         middle_initial: E.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: General
       killed: 1929
       missing: 5719
@@ -3585,14 +3585,14 @@
         last_name: Grant
         middle_initial: S.
         middle_name: Simon
-        navy: '0'
+        navy: false
         rank: Lieutenant General
       - PersonID: 15a8b826-e060-430a-bb4c-61936b75252e
         first_name: George
         last_name: Meade
         middle_initial: G.
         middle_name: Gordon
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 2725
       missing: 2258
@@ -3617,7 +3617,7 @@
         last_name: Stuart
         middle_initial: E. B.
         middle_name: Ewell Brown
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 106
       missing: 178
@@ -3631,7 +3631,7 @@
         last_name: Sheridan
         middle_initial: H.
         middle_name: Henry
-        navy: '0'
+        navy: false
         rank: Major General
       strength: 10000
   page: 310
@@ -3654,7 +3654,7 @@
         last_name: Lee
         middle_initial: E.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: General
       killed: 198
       missing: 734
@@ -3668,14 +3668,14 @@
         last_name: Grant
         middle_initial: S.
         middle_name: Simon
-        navy: '0'
+        navy: false
         rank: Lieutenant General
       - PersonID: 15a8b826-e060-430a-bb4c-61936b75252e
         first_name: George
         last_name: Meade
         middle_initial: G.
         middle_name: Gordon
-        navy: '0'
+        navy: false
         rank: Major General
       strength: 100000
   page: 310
@@ -3698,7 +3698,7 @@
         last_name: Lee
         middle_initial: E.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: General
       killed: 342
       missing: 367
@@ -3712,14 +3712,14 @@
         last_name: Grant
         middle_initial: S.
         middle_name: Simon
-        navy: '0'
+        navy: false
         rank: Lieutenant General
       - PersonID: 15a8b826-e060-430a-bb4c-61936b75252e
         first_name: George
         last_name: Meade
         middle_initial: G.
         middle_name: Gordon
-        navy: '0'
+        navy: false
         rank: Major General
       strength: 100000
   page: 310
@@ -3742,7 +3742,7 @@
         last_name: Lee
         middle_initial: E.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: General
       strength: 59000
     US:
@@ -3753,14 +3753,14 @@
         last_name: Grant
         middle_initial: S.
         middle_name: Simon
-        navy: '0'
+        navy: false
         rank: Lieutenant General
       - PersonID: 15a8b826-e060-430a-bb4c-61936b75252e
         first_name: George
         last_name: Meade
         middle_initial: G.
         middle_name: Gordon
-        navy: '0'
+        navy: false
         rank: Major General
       strength: 60000
   page: 310
@@ -3785,7 +3785,7 @@
         last_name: Lee
         middle_initial: E.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: General
       killed: 1057
       missing: 1132
@@ -3798,14 +3798,14 @@
         last_name: Grant
         middle_initial: S.
         middle_name: Simon
-        navy: '0'
+        navy: false
         rank: Lieutenant General
       - PersonID: 15a8b826-e060-430a-bb4c-61936b75252e
         first_name: George
         last_name: Meade
         middle_initial: G.
         middle_name: Gordon
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 1769
       missing: 1537
@@ -3831,7 +3831,7 @@
         last_name: Hampton
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 126
       missing: 318
@@ -3844,7 +3844,7 @@
         last_name: Sheridan
         middle_initial: H.
         middle_name: Henry
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 102
       missing: 435
@@ -3873,7 +3873,7 @@
         last_name: Jenkins
         middle_initial: G.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Brigadier General
       strength: 2400
     US:
@@ -3884,7 +3884,7 @@
         last_name: Crook
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Brigadier General
       strength: 6155
   page: 310
@@ -3906,7 +3906,7 @@
         last_name: Breckinridge
         middle_initial: C.
         middle_name: Cabell
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 42
       missing: 13
@@ -3919,7 +3919,7 @@
         last_name: Sigel
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 93
       missing: 256
@@ -3945,7 +3945,7 @@
         last_name: Jones
         middle_initial: E.
         middle_name: Edmondson
-        navy: '0'
+        navy: false
         rank: Brigadier General
       killed_wounded: 460
       strength: 8500
@@ -3956,7 +3956,7 @@
         last_name: Hunter
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 130
       strength: 16000
@@ -3981,21 +3981,21 @@
         last_name: Farrand
         middle_initial: ''
         middle_name: ''
-        navy: '1'
+        navy: true
         rank: Commander
       - PersonID: 9e1353da-e14e-4a33-9169-19b95b173cd1
         first_name: William
         last_name: Mahone
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Brigadier General
       - PersonID: 4791baa5-ea93-4b1e-ad9b-2d36c87d2242
         first_name: Sidney
         last_name: Lee
         middle_initial: S.
         middle_name: Smith
-        navy: '1'
+        navy: true
         rank: Captain
       killed: 355
       strength: 18025
@@ -4007,7 +4007,7 @@
         last_name: Rodgers
         middle_initial: ''
         middle_name: ''
-        navy: '1'
+        navy: true
         rank: Commander
       killed: 390
       missing: 1390
@@ -4034,14 +4034,14 @@
         last_name: Lee
         middle_initial: E.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: General
       - PersonID: 183d0a7d-f06a-4c7b-a575-7616e491618b
         first_name: Pierre
         last_name: Beauregard
         middle_initial: G. T.
         middle_name: Gustave Toutant
-        navy: '0'
+        navy: false
         rank: General
       strength: 41499
     US:
@@ -4051,14 +4051,14 @@
         last_name: Grant
         middle_initial: S.
         middle_name: Simon
-        navy: '0'
+        navy: false
         rank: Lieutenant General
       - PersonID: 15a8b826-e060-430a-bb4c-61936b75252e
         first_name: George
         last_name: Meade
         middle_initial: G.
         middle_name: Gordon
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 1688
       missing: 1185
@@ -4084,7 +4084,7 @@
         last_name: Early
         middle_initial: A.
         middle_name: Anderson
-        navy: '0'
+        navy: false
         rank: Lieutenant General
       strength: 14000
     US:
@@ -4094,7 +4094,7 @@
         last_name: Wallace
         middle_initial: ''
         middle_name: '"Lew"'
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 90
       missing_captured: 1290
@@ -4119,7 +4119,7 @@
         last_name: Early
         middle_initial: A.
         middle_name: Anderson
-        navy: '0'
+        navy: false
         rank: Lieutenant General
       strength: 14000
     US:
@@ -4130,7 +4130,7 @@
         last_name: Crook
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Brigadier General
       killed_wounded: 706
       strength: 8000
@@ -4153,7 +4153,7 @@
         last_name: Early
         middle_initial: A.
         middle_name: Anderson
-        navy: '0'
+        navy: false
         rank: Lieutenant General
       killed: 276
       missing_captured: 1818
@@ -4166,7 +4166,7 @@
         last_name: Sheridan
         middle_initial: H.
         middle_name: Henry
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 697
       missing: 338
@@ -4192,7 +4192,7 @@
         last_name: Early
         middle_initial: A.
         middle_name: Anderson
-        navy: '0'
+        navy: false
         rank: Lieutenant General
       guns lost: 25
       killed_wounded: 300
@@ -4204,7 +4204,7 @@
         last_name: Sheridan
         middle_initial: H.
         middle_name: Henry
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 52
       missing: 19
@@ -4229,7 +4229,7 @@
         last_name: Early
         middle_initial: A.
         middle_name: Anderson
-        navy: '0'
+        navy: false
         rank: Lieutenant General
       guns lost: 25
       killed: 320
@@ -4243,14 +4243,14 @@
         last_name: Wright
         middle_initial: G.
         middle_name: Gouverneur
-        navy: '0'
+        navy: false
         rank: Major General
       - PersonID: 407e5664-e1ff-49aa-984d-79f7508a5e7f
         first_name: Philip
         last_name: Sheridan
         middle_initial: H.
         middle_name: Henry
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 644
       missing_captured: 1591
@@ -4276,7 +4276,7 @@
         last_name: Lee
         middle_initial: E.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: General
       strength: 11466
     US:
@@ -4286,7 +4286,7 @@
         last_name: Burnside
         middle_initial: E.
         middle_name: Everett
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 504
       missing_captured: 1413
@@ -4310,14 +4310,14 @@
         last_name: Lee
         middle_initial: E.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: General
       - PersonID: b8c29b14-3dbe-4c53-a8ca-6af5217d6469
         first_name: Charles
         last_name: Field
         middle_initial: W.
         middle_name: William
-        navy: '0'
+        navy: false
         rank: Major General
       strength: 20008
     US:
@@ -4328,7 +4328,7 @@
         last_name: Hancock
         middle_initial: S.
         middle_name: Scott
-        navy: '0'
+        navy: false
         rank: Major General
       strength: 27974
   page: 310
@@ -4351,28 +4351,28 @@
         last_name: Lee
         middle_initial: E.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: General
       - PersonID: 2153a0b4-6aab-42d2-b31e-56b074ec402e
         first_name: Ambrose
         last_name: Hill
         middle_initial: P.
         middle_name: Powell
-        navy: '0'
+        navy: false
         rank: Lieutenant General
       - PersonID: d87fee08-2ce1-47f6-b313-9a1dfb7a8ea7
         first_name: Henry
         last_name: Heth
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Major General
       - PersonID: 9e1353da-e14e-4a33-9169-19b95b173cd1
         first_name: William
         last_name: Mahone
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Major General
       killed_wounded: 1200
       missing: 419
@@ -4384,7 +4384,7 @@
         last_name: Warren
         middle_initial: K.
         middle_name: Kemble
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 251
       missing_captured: 2879
@@ -4410,7 +4410,7 @@
         last_name: Heth
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Major General
       divisions: 1
     US:
@@ -4421,7 +4421,7 @@
         last_name: Hancock
         middle_initial: S.
         middle_name: Scott
-        navy: '0'
+        navy: false
         rank: Major General
       divisions: 3
       killed: 140
@@ -4447,14 +4447,14 @@
         last_name: Lee
         middle_initial: E.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: General
       - PersonID: aa9a80fb-49e3-41d4-8ce5-3f5cbd961625
         first_name: Richard
         last_name: Ewell
         middle_initial: S.
         middle_name: Stoddert
-        navy: '0'
+        navy: false
         rank: Lieutenant General
       strength: 10836
     US:
@@ -4464,7 +4464,7 @@
         last_name: Butler
         middle_initial: F.
         middle_name: Frankiln
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 383
       missing: 645
@@ -4491,14 +4491,14 @@
         last_name: Hill
         middle_initial: P.
         middle_name: Powell
-        navy: '0'
+        navy: false
         rank: Lieutenant General
       - PersonID: 0db13c2e-98a9-4187-be39-484c4d272d30
         first_name: Wade
         last_name: Hampton
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Major General
       divisions: 3
     US:
@@ -4508,21 +4508,21 @@
         last_name: Meade
         middle_initial: G.
         middle_name: Gordon
-        navy: '0'
+        navy: false
         rank: Major General
       - PersonID: 87cff8b4-f792-44ed-a7cc-9bc684d88994
         first_name: John
         last_name: Parke
         middle_initial: G.
         middle_name: Grubb
-        navy: '0'
+        navy: false
         rank: Major General
       - PersonID: 8ca13860-937b-4df4-8f84-df7a2bf51224
         first_name: Gouverneur
         last_name: Warren
         middle_initial: K.
         middle_name: Kemble
-        navy: '0'
+        navy: false
         rank: Major General
       divisions: 4
       killed: 187
@@ -4549,7 +4549,7 @@
         last_name: Heth
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Major General
       strength: 20324
     US:
@@ -4559,7 +4559,7 @@
         last_name: Hancock
         middle_initial: S.
         middle_name: Scott
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 166
       missing: 564
@@ -4586,7 +4586,7 @@
         last_name: Longstreet
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Lieutenant General
       strength: 10000
     US:
@@ -4597,7 +4597,7 @@
         last_name: Butler
         middle_initial: F.
         middle_name: Frankiln
-        navy: '0'
+        navy: false
         rank: Major General
       strength: 40000
   page: 311
@@ -4620,7 +4620,7 @@
         last_name: Taylor
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Major General
       strength: 8800
     US:
@@ -4631,7 +4631,7 @@
         last_name: Banks
         middle_initial: P.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Major General
       guns lost: 20
       killed: 108
@@ -4657,7 +4657,7 @@
         last_name: Taylor
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Major General
       strength: 12500
     US:
@@ -4667,7 +4667,7 @@
         last_name: Banks
         middle_initial: P.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 150
       missing: 375
@@ -4693,7 +4693,7 @@
         last_name: Taylor
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Major General
       strength: 5000
     US:
@@ -4704,7 +4704,7 @@
         last_name: Mower
         middle_initial: A.
         middle_name: Anthony
-        navy: '0'
+        navy: false
         rank: Brigadier General
       strength: 5000
   page: 314
@@ -4726,7 +4726,7 @@
         last_name: Smith
         middle_initial: K.
         middle_name: Kirby
-        navy: '0'
+        navy: false
         rank: General
       killed: 86
       missing: 1
@@ -4739,7 +4739,7 @@
         last_name: Steele
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 64
       missing: 86
@@ -4765,7 +4765,7 @@
         last_name: Price
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Major General
       strength: 12000
     US:
@@ -4775,7 +4775,7 @@
         last_name: Ewing
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Brigadier General
       killed: 28
       missing: 100
@@ -4801,7 +4801,7 @@
         last_name: Price
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Major General
       strength: 9000
     US:
@@ -4812,7 +4812,7 @@
         last_name: Curtis
         middle_initial: R.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Major General
       strength: 20000
   page: 314
@@ -4835,14 +4835,14 @@
         last_name: Marmaduke
         middle_initial: S.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Brigadier General
       - PersonID: 66599684-582c-4caa-aff0-7220f9c67c1f
         first_name: James
         last_name: Fagan
         middle_initial: F.
         middle_name: Fleming
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 300
       strength: 6500
@@ -4854,7 +4854,7 @@
         last_name: Pleasonton
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 15
       strength: 2600
@@ -4878,7 +4878,7 @@
         last_name: Forrest
         middle_initial: B.
         middle_name: Bedford
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 14
       strength: 1500
@@ -4891,14 +4891,14 @@
         last_name: Booth
         middle_initial: F.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Major
       - PersonID: ce80fc18-1765-4e09-9333-858f7e9fdd6b
         first_name: William
         last_name: Bradford
         middle_initial: F.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Major
       killed: 221
       strength: 557
@@ -4924,7 +4924,7 @@
         last_name: Forrest
         middle_initial: B.
         middle_name: Bedford
-        navy: '0'
+        navy: false
         rank: Major General
       guns: 8
       killed: 96
@@ -4938,7 +4938,7 @@
         last_name: Sturgis
         middle_initial: D.
         middle_name: Davis
-        navy: '0'
+        navy: false
         rank: Brigadier General
       guns: 22
       guns lost: 18
@@ -4965,14 +4965,14 @@
         last_name: Lee
         middle_initial: D.
         middle_name: Dill
-        navy: '0'
+        navy: false
         rank: Lieutenant General
       - PersonID: 02b4fa9a-541a-45c7-9097-ab1aee538c6c
         first_name: Nathan
         last_name: Forrest
         middle_initial: B.
         middle_name: Bedford
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 210
       strength: 6600
@@ -4984,7 +4984,7 @@
         last_name: Smith
         middle_initial: J.
         middle_name: Jackson
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 77
       missing: 38
@@ -5011,7 +5011,7 @@
         last_name: Forrest
         middle_initial: B.
         middle_name: Bedford
-        navy: '0'
+        navy: false
         rank: Lieutenant General
       strength: 7000
     US:
@@ -5022,7 +5022,7 @@
         last_name: Wilson
         middle_initial: H.
         middle_name: Harrison
-        navy: '0'
+        navy: false
         rank: Major General
       strength: 12500
   page: 314
@@ -5045,7 +5045,7 @@
         last_name: Johnston
         middle_initial: E.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: General
       corps: 1
     US:
@@ -5056,14 +5056,14 @@
         last_name: Sherman
         middle_initial: ''
         middle_name: Tecumsheh
-        navy: '0'
+        navy: false
         rank: Major General
       - PersonID: cfa9a700-f979-46ff-bfb1-4615441ccd55
         first_name: Joseph
         last_name: Hooker
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Major General
       corps: 1
   page: 314
@@ -5086,7 +5086,7 @@
         last_name: Johnston
         middle_initial: E.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: General
       strength: 17700
     US:
@@ -5097,7 +5097,7 @@
         last_name: Sherman
         middle_initial: ''
         middle_name: Tecumsheh
-        navy: '0'
+        navy: false
         rank: Major General
       strength: 16000
   page: 314
@@ -5120,7 +5120,7 @@
         last_name: Hood
         middle_initial: B.
         middle_name: Bell
-        navy: '0'
+        navy: false
         rank: General
       strength: 18832
     US:
@@ -5131,7 +5131,7 @@
         last_name: Thomas
         middle_initial: H.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Major General
       strength: 20139
   page: 314
@@ -5154,7 +5154,7 @@
         last_name: Hood
         middle_initial: B.
         middle_name: Bell
-        navy: '0'
+        navy: false
         rank: General
       strength: 36934
     US:
@@ -5164,7 +5164,7 @@
         last_name: Sherman
         middle_initial: ''
         middle_name: Tecumsheh
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 500
       missing: 1081
@@ -5190,7 +5190,7 @@
         last_name: Hood
         middle_initial: B.
         middle_name: Bell
-        navy: '0'
+        navy: false
         rank: General
       strength: 12000
     US:
@@ -5201,7 +5201,7 @@
         last_name: Howard
         middle_initial: O.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Major General
       strength: 25000
   page: 314
@@ -5225,7 +5225,7 @@
         last_name: Hardee
         middle_initial: J.
         middle_name: Joseph
-        navy: '0'
+        navy: false
         rank: Lieutenant General
       strength: 12500
     US:
@@ -5236,7 +5236,7 @@
         last_name: Sherman
         middle_initial: ''
         middle_name: Tecumsheh
-        navy: '0'
+        navy: false
         rank: Major General
       strength: 60000
   page: 314
@@ -5258,7 +5258,7 @@
         last_name: French
         middle_initial: G.
         middle_name: Gibbs
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 122
       missing: 234
@@ -5271,7 +5271,7 @@
         last_name: Corse
         middle_initial: M.
         middle_name: Murray
-        navy: '0'
+        navy: false
         rank: Brigadier General
       killed: 142
       missing: 212
@@ -5296,7 +5296,7 @@
         last_name: Hood
         middle_initial: B.
         middle_name: Bell
-        navy: '0'
+        navy: false
         rank: General
       killed: 1481
       missing: 702
@@ -5309,7 +5309,7 @@
         last_name: Schofield
         middle_initial: M.
         middle_name: McAllister
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 189
       missing: 1104
@@ -5336,7 +5336,7 @@
         last_name: Hood
         middle_initial: B.
         middle_name: Bell
-        navy: '0'
+        navy: false
         rank: General
       guns lost: 53
       killed_wounded: 1500
@@ -5348,7 +5348,7 @@
         last_name: Thomas
         middle_initial: H.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 387
       missing: 112
@@ -5373,14 +5373,14 @@
         last_name: Philips
         middle_initial: J.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Brigadier General
       - PersonID: 22dc9bfe-6bfa-4f8a-a48f-694e947cc8d7
         first_name: Joseph
         last_name: Wheeler
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 51
       strength: 3000
@@ -5393,7 +5393,7 @@
         last_name: Walcutt
         middle_initial: C.
         middle_name: Carroll
-        navy: '0'
+        navy: false
         rank: Brigadier General
       strength: 1500
   page: 314
@@ -5416,14 +5416,14 @@
         last_name: Buchanan
         middle_initial: ''
         middle_name: ''
-        navy: '1'
+        navy: true
         rank: Admiral
       - PersonID: 0aae1532-be13-4465-b162-a89c8b8dda4a
         first_name: Richard
         last_name: Page
         middle_initial: L.
         middle_name: Lucian
-        navy: '0'
+        navy: false
         rank: Brigadier General
       crewmen: 470
       forts captured: 1
@@ -5440,14 +5440,14 @@
         last_name: Farragut
         middle_initial: G.
         middle_name: Glasgow
-        navy: '1'
+        navy: true
         rank: Rear Admiral
       - PersonID: c66b4ad0-8194-4dda-a234-c04e1e4e502e
         first_name: Gordon
         last_name: Granger
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Major General
       crewmen: 3000
       guns: 199
@@ -5497,21 +5497,21 @@
         last_name: Bragg
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: General
       - PersonID: 6650b484-9515-4e17-bafe-7110fbbf68e2
         first_name: Robert
         last_name: Hoke
         middle_initial: F.
         middle_name: Frederick
-        navy: '0'
+        navy: false
         rank: Major General
       - PersonID: 95b3e009-6f58-43ad-aed1-baf83100fbbd
         first_name: Charles
         last_name: Lamb
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Colonel
       killed_wounded: 500
       strength: 3000
@@ -5522,14 +5522,14 @@
         last_name: Porter
         middle_initial: D.
         middle_name: Dixon
-        navy: '1'
+        navy: true
         rank: Rear Admiral
       - PersonID: 5128b598-2305-4d47-8406-f865aefdc4c7
         first_name: Alfred
         last_name: Terry
         middle_initial: H.
         middle_name: Howe
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 266
       missing: 57
@@ -5563,7 +5563,7 @@
         last_name: Gordon
         middle_initial: B.
         middle_name: Brown
-        navy: '0'
+        navy: false
         rank: Major General
       strength: 14000
     US:
@@ -5573,14 +5573,14 @@
         last_name: Humphreys
         middle_initial: A.
         middle_name: Atkinson
-        navy: '0'
+        navy: false
         rank: Major General
       - PersonID: 8ca13860-937b-4df4-8f84-df7a2bf51224
         first_name: Gouverneur
         last_name: Warren
         middle_initial: K.
         middle_name: Kemble
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 170
       strength: 35000
@@ -5605,14 +5605,14 @@
         last_name: Lee
         middle_initial: E.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: General
       - PersonID: bc4a67e5-b1be-43e1-9a83-240f4fe5346b
         first_name: John
         last_name: Gordon
         middle_initial: B.
         middle_name: Brown
-        navy: '0'
+        navy: false
         rank: Major General
       killed_wounded: 2900
       strength: 12000
@@ -5624,7 +5624,7 @@
         last_name: Parke
         middle_initial: G.
         middle_name: Grubb
-        navy: '0'
+        navy: false
         rank: Major General
       corps: 1
   page: 317
@@ -5647,7 +5647,7 @@
         last_name: Pickett
         middle_initial: ''
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: Major General
       strength: 19000
     US:
@@ -5659,7 +5659,7 @@
         last_name: Sheridan
         middle_initial: H.
         middle_name: Henry
-        navy: '0'
+        navy: false
         rank: Major General
       infantry: 16000
   note: 'For Union, the V Corps lost 634.
@@ -5686,7 +5686,7 @@
         last_name: Lee
         middle_initial: E.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: General
       strength: 18579
     US:
@@ -5696,7 +5696,7 @@
         last_name: Grant
         middle_initial: S.
         middle_name: Simon
-        navy: '0'
+        navy: false
         rank: Lieutenant General
       killed: 625
       missing: 326
@@ -5722,7 +5722,7 @@
         last_name: Lee
         middle_initial: E.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: General
       killed: 55
       strength: 214
@@ -5734,7 +5734,7 @@
         last_name: Grant
         middle_initial: S.
         middle_name: Simon
-        navy: '0'
+        navy: false
         rank: Lieutenant General
       killed: 122
       strength: 8000
@@ -5760,14 +5760,14 @@
         last_name: Ewell
         middle_initial: S.
         middle_name: Stoddert
-        navy: '0'
+        navy: false
         rank: Lieutenant General
       - PersonID: bc4a67e5-b1be-43e1-9a83-240f4fe5346b
         first_name: John
         last_name: Gordon
         middle_initial: B.
         middle_name: Brown
-        navy: '0'
+        navy: false
         rank: Major General
       killed_wounded: 2000
       strength: 10000
@@ -5779,7 +5779,7 @@
         last_name: Sheridan
         middle_initial: H.
         middle_name: Henry
-        navy: '0'
+        navy: false
         rank: Major General
       corps: 1
       killed: 166
@@ -5805,7 +5805,7 @@
         last_name: Evans
         middle_initial: G.
         middle_name: George
-        navy: '0'
+        navy: false
         rank: Brigadier General
       strength: 8500
     US:
@@ -5816,7 +5816,7 @@
         last_name: Foster
         middle_initial: G.
         middle_name: Gray
-        navy: '0'
+        navy: false
         rank: Brigadier General
       killed_wounded: 257
       strength: 15000
@@ -5839,7 +5839,7 @@
         last_name: Hardee
         middle_initial: J.
         middle_name: Joseph
-        navy: '0'
+        navy: false
         rank: Lieutenant General
       killed: 108
       strength: 11000
@@ -5851,7 +5851,7 @@
         last_name: Slocum
         middle_initial: W.
         middle_name: Warner
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 95
       missing: 54
@@ -5877,7 +5877,7 @@
         last_name: Johnston
         middle_initial: E.
         middle_name: ''
-        navy: '0'
+        navy: false
         rank: General
       killed: 228
       missing: 658
@@ -5890,14 +5890,14 @@
         last_name: Sherman
         middle_initial: T.
         middle_name: Tecumseh
-        navy: '0'
+        navy: false
         rank: Major General
       - PersonID: f0e3ce2c-892e-4ae0-9995-3d864cb98ac1
         first_name: Henry
         last_name: Slocum
         middle_initial: W.
         middle_name: Warner
-        navy: '0'
+        navy: false
         rank: Major General
       killed: 191
       missing: 287
