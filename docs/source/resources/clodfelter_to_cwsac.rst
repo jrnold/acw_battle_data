@@ -9,7 +9,7 @@ clodfelter_to_cwsac
 
 
 **Sources:**
-- Clodfelter2008
+- Clodfelter, Michael. 2008. Warfare and Armed Conflicts: A Statistical Encyclopedia of Casualty and Other Figures, 1494- 2007. 3rd ed. McFarland & Company.; None
 
 
 Schema

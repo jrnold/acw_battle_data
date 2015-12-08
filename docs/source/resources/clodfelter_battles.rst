@@ -35,7 +35,7 @@ The following battles had a significant naval component.
 
 
 **Sources:**
-- Clodfelter2008
+- Clodfelter, Michael. 2008. Warfare and Armed Conflicts: A Statistical Encyclopedia of Casualty and Other Figures, 1494- 2007. 3rd ed. McFarland & Company.; None
 
 
 Schema
@@ -131,8 +131,8 @@ Result of the battle: Union victory, Confederate victory or tie.
 Clodfelter does not classify battles by result. This variable was added. The classifications follow CWSAC (:doc:`cwsac_battles`) where available.
 
 **Sources:**
-- self
-- CWSAC1993b
+- jrnold; jeffrey.arnold@gmail.com
+- Staff of the Civil War Sites Advisory Commission. 1997. Report on the Nation’s Civil War Battlefields: Technical Volume iI: Battle Summaries. http://www.nps.gov/abpp/battles/tvii.htm (December 7, 2015).; http://www.nps.gov/abpp/battles/tvii.htm
 
        
 page

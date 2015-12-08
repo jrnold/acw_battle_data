@@ -2,9 +2,9 @@ format: json
 name: nytimes_civil_war_chronology
 path: data/nytimes_civil_war_chronology.json
 sources:
-- NYT186%d
-- NYT186%d
-- NYT186%d
-- NYT186%d
-- NYT186%d
+- NYT1861
+- NYT1862
+- NYT1863
+- NYT1864
+- NYT1865
 title: nytimes_civil_war_chronology

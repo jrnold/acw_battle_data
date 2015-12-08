@@ -14,7 +14,7 @@ Greer primarily relies upon the casualty figures from Kennedy *The Civil War Bat
 
 
 **Sources:**
-- Greer2005
+- Greer, Darroch. 2005. “Counting Civil War Casualties, Week-by-Week, for the Abraham Lincoln Presidential Library and Museum.” http://www.brcweb.com/alplm/BRC_Counting_Casualties.pdf.; http://www.brcweb.com/alplm/BRC_Counting_Casualties.pdf
 
 
 Schema

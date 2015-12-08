@@ -9,7 +9,7 @@ Clodfelter (2008) battle data: forces
 
 
 **Sources:**
-- Clodfelter2008
+- Clodfelter, Michael. 2008. Warfare and Armed Conflicts: A Statistical Encyclopedia of Casualty and Other Figures, 1494- 2007. 3rd ed. McFarland & Company.; None
 
 
 Schema
@@ -657,7 +657,7 @@ str_mean
 Mean of the estimated strength in personnel of the force. See code for how it is calculated.
 
 **Sources:**
-- self
+- jrnold; jeffrey.arnold@gmail.com
 
        
 str_var
@@ -673,7 +673,7 @@ str_var
 Variance of the estimated strength in personnel of the force. See code for how it is calculated.
 
 **Sources:**
-- self
+- jrnold; jeffrey.arnold@gmail.com
 
        
 

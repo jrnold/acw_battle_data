@@ -12,7 +12,7 @@ Livermore does not directly list the principal commander of the battles. These w
 
 
 **Sources:**
-- self
+- jrnold; jeffrey.arnold@gmail.com
 
 
 Schema

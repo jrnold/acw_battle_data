@@ -12,7 +12,7 @@ List of naval battles, which navies they involved, and whether they involved lan
 
 
 **Sources:**
-- self
+- jrnold; jeffrey.arnold@gmail.com
 
 
 Schema

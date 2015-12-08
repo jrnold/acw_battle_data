@@ -15,7 +15,7 @@ This table contains the commanders of each force in each battle in Bodart.
 
 
 **Sources:**
-- Bodart1908
+- Bodart, Gaston. 1908. Militär-Historisches Kreigs-Lexikon, (1618-1905). Stern. http://books.google.com/books?id=Eo4DAAAAYAAJ.; http://books.google.com/books?id=Eo4DAAAAYAAJ
 
 
 Schema
@@ -142,7 +142,7 @@ dbpedia
 dbpedia.org URI of the commandern
 
 **Sources:**
-- self
+- jrnold; jeffrey.arnold@gmail.com
 
        
 

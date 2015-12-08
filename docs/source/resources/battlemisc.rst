@@ -18,7 +18,7 @@ The extra data includes:
 
 
 **Sources:**
-- self
+- jrnold; jeffrey.arnold@gmail.com
 
 
 Schema

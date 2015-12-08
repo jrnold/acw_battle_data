@@ -3,10 +3,11 @@ import os
 from os import path
 import json
 import shutil
+import subprocess as sp
 from tabulate import tabulate
 
 import jinja2
-
+    
 def build_index(docs, env, metadata):
     template = env.get_template('index.rst')
     rendered = template.render(metadata)

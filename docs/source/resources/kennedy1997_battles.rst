@@ -35,7 +35,7 @@ Corrections to the casualty data:
 
 
 **Sources:**
-- KennedyConservation1998
+- Kennedy, Frances H., Conservation Fund (Arlington, Va.). 1998. The Civil War Battlefield Guide. Houghton Mifflin. http://books.google.com/books?id=qHObJArDHZMC.; http://books.google.com/books?id=qHObJArDHZMC
 
 
 Schema

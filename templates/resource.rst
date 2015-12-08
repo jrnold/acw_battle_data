@@ -11,7 +11,7 @@
 {% if sources is defined -%}
 **Sources:**
 {% for src in sources -%}
-- {{src}}
+- {{src.name}}{% if src.url is defined %}; {{src.url}}{% endif %}{% if src.email is defined %}; {{src.email}}{% endif %}
 {% endfor -%}
 {% endif %}
 
@@ -73,7 +73,7 @@ Schema
 {% if field.sources is defined -%}
 **Sources:**
 {% for src in field.sources -%}
-- {{src}}
+- {{src.name}}{% if src.url is defined %}; {{src.url}}{% endif %}{% if src.email is defined %}; {{src.email}}{% endif %}
 {% endfor -%}
 {% endif %}
        

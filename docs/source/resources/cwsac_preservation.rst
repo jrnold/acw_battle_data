@@ -9,8 +9,8 @@ CWSAC Report (1993) preservation priority categories
 
 
 **Sources:**
-- CWSAC1993
-- CWSAC1997
+- Staff of the Civil War Sites Advisory Commission. 1993. Civil War Sites Advisory Commission Report on the Nation’s Civil War Battlefields. http://www.nps.gov/abpp/cwsac/cws0-1.html (December 7, 2015).; http://www.nps.gov/abpp/cwsac/cws0-1.html
+- Staff of the Civil War Sites Advisory Commission. 1997. Report on the Nation’s Civil War Battlefields: Technical Volume iI: Battle Summaries. http://www.nps.gov/abpp/battles/tvii.htm (December 7, 2015).; http://www.nps.gov/abpp/battles/tvii.htm
 
 
 Schema
