@@ -12,8 +12,8 @@ import subprocess as sp
 
 import yaml
 
-#CITEPROC_JAVA = "citeproc-java-0.6/bin/citeproc-java"
-
+CITEPROC_JAVA = path.join("dependencies", "citeproc-java-0.6",
+                          "bin", "citeproc-java")
 
 def citeproc(bib, keys = [],
                   style = "american-political-science-association",
@@ -21,7 +21,8 @@ def citeproc(bib, keys = [],
                   locale = "en-US",
                   citation = False,
                   ret_list = False):
-    args = ["-b", bib,
+    args = [CITEPROC_JAVA,
+            "-b", bib,
             "-s", style,
             "-f", format,
             "-l", locale] + keys
@@ -29,9 +30,7 @@ def citeproc(bib, keys = [],
         args.append("-c")
     if ret_list:
         args.append("--list")
-    binpath = path.join("dependencies", "citeproc-java-0.6",
-                        "bin", "citeproc-java")
-    return sp.check_output([binpath] + args)
+    return sp.check_output(args)
     
 def get_keys_urls(bib):
     with open(bib, 'r', encoding = 'utf8') as f:
@@ -47,10 +46,11 @@ def get_keys_urls(bib):
 def get_source_dict(bib):
     citations = get_keys_urls(bib)
     for k, v in citations.items():
-        v['name'] = str(citeproc(bib, [k]).strip(), encoding = 'utf8')
-        print(v['name'])
-    citations['self'] = {'name': 'jrnold', 'email': 'jeffrey.arnold@gmail.com'}
-    print(citations)
+        v['text'] = str(citeproc(bib, [k]).strip(), encoding = 'utf8')
+        v['name'] = k
+    citations['self'] = {'name': 'jrnold',
+                         'email': 'jeffrey.arnold@gmail.com',
+                         'text': "Jeffrey B. Arnold"}
     return citations
     
 def replace_sources(keys, sources):
@@ -64,10 +64,7 @@ def replace_sources(keys, sources):
     
 def replace_all_sources(bib, data):
     sources = get_source_dict(bib)
-    try:
-        data['sources'] = replace_sources(data['sources'], sources)
-    except KeyError:
-        pass
+    data['sources'] = sources
     for res in data['resources']:
         try:
             res['sources'] = replace_sources(res['sources'], sources)

@@ -20,8 +20,7 @@ The variable is set to 0 in 1864Q2 and 1864Q3 because the Northern offensive sta
 
 
 
-**Sources:**
-- Burdekin, Richard C. K., and Farrokh K. Langdana. 1993. “War Finance in the Southern Confederacy, 1861-1865.” Explorations in Economic History 30(3): 352 – 376. http://www.sciencedirect.com/science/article/B6WFJ-45PMM8X-D/2/0332a9f88be4f3e45940cc43f8263a42.; http://www.sciencedirect.com/science/article/B6WFJ-45PMM8X-D/2/0332a9f88be4f3e45940cc43f8263a42
+Sources: [BurdekinLangdana1993]_
 
 
 Schema

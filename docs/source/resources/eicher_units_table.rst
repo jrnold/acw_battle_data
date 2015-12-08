@@ -8,8 +8,7 @@ Eicher table of unit sizes
 
 
 
-**Sources:**
-- Eicher, J., and D. Eicher. 2002. Civil War High Commands. Stanford University Press. https://books.google.com/books?id=Fs0Ajlnjl6AC.; https://books.google.com/books?id=Fs0Ajlnjl6AC
+Sources: [eicher2002civil]_
 
 
 Schema

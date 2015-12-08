@@ -21,8 +21,7 @@ Confederate Forces which are reported in this table.
 The data exclude the columns with averages, and the size of the Confederate army as a percent of the Union army since they can be calculated from the column with the number in each army at each date.
 
 
-**Sources:**
-- Livermore, Thomas Leonard. 1900. Number and Losses in the Civil War in America, 1861-65. Houghton, Mifflin; Company. http://books.google.com/books?id=Qw8pAAAAYAAJ.; http://books.google.com/books?id=Qw8pAAAAYAAJ
+Sources: [Livermore1900]_
 
 
 Schema

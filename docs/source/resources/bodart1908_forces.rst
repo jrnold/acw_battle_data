@@ -20,8 +20,7 @@ that theater or operations, without considering which parts of that
 unit participated in a given battle.
 
 
-**Sources:**
-- Bodart, Gaston. 1908. Militär-Historisches Kreigs-Lexikon, (1618-1905). Stern. http://books.google.com/books?id=Eo4DAAAAYAAJ.; http://books.google.com/books?id=Eo4DAAAAYAAJ
+Sources: [Bodart1908]_
 
 
 Schema

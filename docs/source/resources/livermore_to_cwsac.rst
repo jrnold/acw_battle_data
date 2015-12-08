@@ -8,8 +8,7 @@ Correspondence between Livermore (1900) battles and CWSAC battles
 
 
 
-**Sources:**
-- Livermore, Thomas Leonard. 1900. Number and Losses in the Civil War in America, 1861-65. Houghton, Mifflin; Company. http://books.google.com/books?id=Qw8pAAAAYAAJ.; http://books.google.com/books?id=Qw8pAAAAYAAJ
+Sources: [Livermore1900]_
 
 
 Schema

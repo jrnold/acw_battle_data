@@ -34,8 +34,7 @@ Corrections to the casualty data:
 -  Kennedy inverted the casualties for US and CS forces for TX005.
 
 
-**Sources:**
-- Kennedy, Frances H., Conservation Fund (Arlington, Va.). 1998. The Civil War Battlefield Guide. Houghton Mifflin. http://books.google.com/books?id=qHObJArDHZMC.; http://books.google.com/books?id=qHObJArDHZMC
+Sources: [KennedyConservation1998]_
 
 
 Schema

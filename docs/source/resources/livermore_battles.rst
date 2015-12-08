@@ -29,9 +29,7 @@ defeats, Livermore writes,
 
 
 
-**Sources:**
-- Livermore, Thomas Leonard. 1900. Number and Losses in the Civil War in America, 1861-65. Houghton, Mifflin; Company. http://books.google.com/books?id=Qw8pAAAAYAAJ.; http://books.google.com/books?id=Qw8pAAAAYAAJ
-- U.S. Army Concepts Analysis Agency. 1994. “PAR Datadisk (personnel Attrition Rates in Historical Land Combat Operations) (revised) Version 2.1 (computer Diskette).” http://oai.dtic.mil/oai/oai?verb=getRecord&metadataPrefix=html&identifier=ADM000368.; http://oai.dtic.mil/oai/oai?verb=getRecord&metadataPrefix=html&identifier=ADM000368
+Sources: [Livermore1900]_, [ACAA1994]_
 
 
 Schema
@@ -67,8 +65,7 @@ seq_no
 
 
 
-**Sources:**
-- U.S. Army Concepts Analysis Agency. 1994. “PAR Datadisk (personnel Attrition Rates in Historical Land Combat Operations) (revised) Version 2.1 (computer Diskette).” http://oai.dtic.mil/oai/oai?verb=getRecord&metadataPrefix=html&identifier=ADM000368.; http://oai.dtic.mil/oai/oai?verb=getRecord&metadataPrefix=html&identifier=ADM000368
+Sources: [Livermore1900]_, [ACAA1994]_
 
        
 battle_name
@@ -132,8 +129,7 @@ attacker
 Was the Confederate or the US the attacker in the battle?
 This did not appear directly in Livermore (1900), but is from the ``PAR`` database.
 
-**Sources:**
-- U.S. Army Concepts Analysis Agency. 1994. “PAR Datadisk (personnel Attrition Rates in Historical Land Combat Operations) (revised) Version 2.1 (computer Diskette).” http://oai.dtic.mil/oai/oai?verb=getRecord&metadataPrefix=html&identifier=ADM000368.; http://oai.dtic.mil/oai/oai?verb=getRecord&metadataPrefix=html&identifier=ADM000368
+Sources: [Livermore1900]_, [ACAA1994]_
 
        
 result
@@ -149,8 +145,7 @@ result
 Confederate or Union victory.
 This did not appear directly in Livermore (1900), but is from the ``PAR`` database.
 
-**Sources:**
-- U.S. Army Concepts Analysis Agency. 1994. “PAR Datadisk (personnel Attrition Rates in Historical Land Combat Operations) (revised) Version 2.1 (computer Diskette).” http://oai.dtic.mil/oai/oai?verb=getRecord&metadataPrefix=html&identifier=ADM000368.; http://oai.dtic.mil/oai/oai?verb=getRecord&metadataPrefix=html&identifier=ADM000368
+Sources: [Livermore1900]_, [ACAA1994]_
 
        
 assault_fortified
@@ -242,8 +237,7 @@ theater
 
 CWSAC theater of the battle. See :doc:`cwss_theaters`.
 
-**Sources:**
-- jrnold; jeffrey.arnold@gmail.com
+Sources: [Livermore1900]_, [ACAA1994]_
 
        
 

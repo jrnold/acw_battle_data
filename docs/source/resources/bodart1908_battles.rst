@@ -260,8 +260,7 @@ The sources cited by Bodart are (p. 29):
 
 
 
-**Sources:**
-- Bodart, Gaston. 1908. Militär-Historisches Kreigs-Lexikon, (1618-1905). Stern. http://books.google.com/books?id=Eo4DAAAAYAAJ.; http://books.google.com/books?id=Eo4DAAAAYAAJ
+Sources: [Bodart1908]_
 
 
 Schema

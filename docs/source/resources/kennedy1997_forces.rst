@@ -12,8 +12,7 @@ Force level data on casualties from Frances H. Kennedy (1997) *The Civil War Bat
 See :doc:`kennedy1997_battles` for more information.
 
 
-**Sources:**
-- Kennedy, Frances H., Conservation Fund (Arlington, Va.). 1998. The Civil War Battlefield Guide. Houghton Mifflin. http://books.google.com/books?id=qHObJArDHZMC.; http://books.google.com/books?id=qHObJArDHZMC
+Sources: [KennedyConservation1998]_
 
 
 Schema

@@ -11,8 +11,7 @@ Concordance between battles in ``phisterer_battles`` and dbpedia.org URIs.
 See :doc:`phisterer_to_cwsac` for notes on specific battles.
 
 
-**Sources:**
-- Phisterer, Frederick. 1883. Statistical Records of the Armies of the United States. C. Scribner’s Sons. http://books.google.com/books?id=cVNHr_nnLlYC.; http://books.google.com/books?id=cVNHr_nnLlYC
+Sources: [Phisterer1883]_
 
 
 Schema

@@ -8,8 +8,7 @@ NPS Shenandoah Report battle data: force strengths and casualties
 
 
 
-**Sources:**
-- National Park Service. 1992. Study of Civil War Sites in the Shenandoah Valley of Virginia. http://www.nps.gov/abpp/shenandoah/svs0-1.html (December 7, 2015).; http://www.nps.gov/abpp/shenandoah/svs0-1.html
+Sources: [NPS1992]_
 
 
 Schema

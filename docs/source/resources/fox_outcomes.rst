@@ -58,8 +58,7 @@ With regards to battles not considered, Fox writes,
 
 
 
-**Sources:**
-- Fox, William Freeman. 1898. Regimental Losses in the American Civil War, 1861-1865. A Treatise on the Extent and Nature of the Mortuary Losses in the Union Regiments, with Full and Exhaustive Statistics Compiled from the Official Records on File in the State Military Bureaus and at Washington. Albany Pub. Co. http://books.google.com/books?id=R5YukgAACAAJ.; http://books.google.com/books?id=R5YukgAACAAJ
+Sources: [fox1898regimental]_
 
 
 Schema
@@ -143,8 +142,7 @@ cwsac_id
 
 
 
-**Sources:**
-- jrnold; jeffrey.arnold@gmail.com
+Sources: [fox1898regimental]_
 
        
 

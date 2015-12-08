@@ -35,8 +35,7 @@ chronological record is:
 
 
 
-**Sources:**
-- Phisterer, Frederick. 1883. Statistical Records of the Armies of the United States. C. Scribner’s Sons. http://books.google.com/books?id=cVNHr_nnLlYC.; http://books.google.com/books?id=cVNHr_nnLlYC
+Sources: [Phisterer1883]_
 
 
 Schema
