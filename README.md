@@ -11,6 +11,16 @@ $ python build.py
 ```
 This will build the data in the directory, ``data``.
 
+To build html documenation
+```shell
+$ cd docs/ && make html
+```
+and pdf documentation
+```shell
+$ cd docs/ && make html
+```
+
+
 ## Prerequesites
 
 - Python 3
@@ -31,6 +41,7 @@ This will build the data in the directory, ``data``.
     - **stringr**
     - **tidyr**
 - pdflatex
+- [citeproc-java](http://michel-kraemer.github.io/citeproc-java/). Used to render the citations.
 
 ## Licenses
 
