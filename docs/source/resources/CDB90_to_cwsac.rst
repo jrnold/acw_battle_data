@@ -10,8 +10,8 @@ CDB90 to CWSAC battle links
 
 **Sources:**
 - jrnold; jeffrey.arnold@gmail.com
-- U.S. Army Concepts Analysis Agency. 1991. “Database of Battles-Version 1990 (computer Diskette).” http://www.dtic.mil/docs/citations/ADM000121.; http://www.dtic.mil/docs/citations/ADM000121
-- Staff of the Civil War Sites Advisory Commission. 1997. Report on the Nation’s Civil War Battlefields: Technical Volume iI: Battle Summaries. http://www.nps.gov/abpp/battles/tvii.htm (December 7, 2015).; http://www.nps.gov/abpp/battles/tvii.htm
+- cdb90; http://www.dtic.mil/docs/citations/ADM000121
+- CWSAC1997; http://www.nps.gov/abpp/battles/tvii.htm
 
 
 Schema

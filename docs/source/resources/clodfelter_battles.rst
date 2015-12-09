@@ -35,7 +35,7 @@ The following battles had a significant naval component.
 
 
 **Sources:**
-- Clodfelter, Michael. 2008. Warfare and Armed Conflicts: A Statistical Encyclopedia of Casualty and Other Figures, 1494- 2007. 3rd ed. McFarland & Company.; None
+- Clodfelter2008; None
 
 
 Schema
@@ -132,7 +132,7 @@ Clodfelter does not classify battles by result. This variable was added. The cla
 
 **Sources:**
 - jrnold; jeffrey.arnold@gmail.com
-- Staff of the Civil War Sites Advisory Commission. 1997. Report on the Nation’s Civil War Battlefields: Technical Volume iI: Battle Summaries. http://www.nps.gov/abpp/battles/tvii.htm (December 7, 2015).; http://www.nps.gov/abpp/battles/tvii.htm
+- CWSAC1997; http://www.nps.gov/abpp/battles/tvii.htm
 
        
 page

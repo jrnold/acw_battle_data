@@ -24,8 +24,8 @@ This corresponds to pages 662-991 of Dyer's *Compendium*, ignoring indexes.
 
 
 **Sources:**
-- Dyer, Frederick H. “Compendium of the War of the Rebellion: Battles” ed. Perseus Digital Library. http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A2001.05.0140.; http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A2001.05.0140
-- Dyer, F.H. 1908. A Compendium of the War of the Rebellion. The Dyer publishing company. http://books.google.com/books?id=OBkNAQAAMAAJ.; http://books.google.com/books?id=OBkNAQAAMAAJ
+- DyerBattles; http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A2001.05.0140
+- dyer1908_war_rebel; http://books.google.com/books?id=OBkNAQAAMAAJ
 
 
 Schema

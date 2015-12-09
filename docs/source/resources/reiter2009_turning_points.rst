@@ -13,7 +13,7 @@ Four of these turning points are based off of those listed by James McPherson in
 
 
 **Sources:**
-- Reiter, Dan. 2009. How wars end. Princeton University Press. http://books.google.com/books?id=-_Avp1TNYjMC.; http://books.google.com/books?id=-_Avp1TNYjMC
+- Reiter2009; http://books.google.com/books?id=-_Avp1TNYjMC
 
 
 Schema

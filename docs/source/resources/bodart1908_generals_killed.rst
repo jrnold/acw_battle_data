@@ -24,7 +24,7 @@ Bodart's correpondence of ranks
 
 
 **Sources:**
-- Bodart, Gaston. 1908. Militär-Historisches Kreigs-Lexikon, (1618-1905). Stern. http://books.google.com/books?id=Eo4DAAAAYAAJ.; http://books.google.com/books?id=Eo4DAAAAYAAJ
+- Bodart1908; http://books.google.com/books?id=Eo4DAAAAYAAJ
 
 
 Schema

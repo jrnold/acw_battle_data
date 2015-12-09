@@ -11,14 +11,14 @@ schema:
     format: url
     name: dbp_resource
     sources:
-    - self
+    - jrnold
     title: DBPedia URI
     type: string
   - description: URI of the dbpedia.org category resource for the theater.
     format: url
     name: dbp_category
     sources:
-    - self
+    - jrnold
     title: DBPedia URI (category)
     type: string
 sources:

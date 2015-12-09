@@ -9,7 +9,7 @@ clodfelter_to_dbpedia
 
 
 **Sources:**
-- Clodfelter, Michael. 2008. Warfare and Armed Conflicts: A Statistical Encyclopedia of Casualty and Other Figures, 1494- 2007. 3rd ed. McFarland & Company.; None
+- Clodfelter2008; None
 
 
 Schema

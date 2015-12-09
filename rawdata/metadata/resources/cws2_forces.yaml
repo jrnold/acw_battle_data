@@ -176,7 +176,7 @@ schema:
     format: default
     name: strength_mean
     sources:
-    - self
+    - jrnold
     title: Strength (mean)
     type: number
   - constraints:
@@ -186,7 +186,7 @@ schema:
     format: default
     name: strength_var
     sources:
-    - self
+    - jrnold
     title: Strength (variance)
     type: number
 sources:

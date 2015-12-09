@@ -9,7 +9,7 @@ CWSS theaters
 
 
 **Sources:**
-- National Park Service. “Civil War Soldiers and Sailors Database (cWSS).” http://www.nps.gov/civilwar/soldiers-and-sailors-database.htm (December 7, 2015).; http://www.nps.gov/civilwar/soldiers-and-sailors-database.htm
+- CWSS; http://www.nps.gov/civilwar/soldiers-and-sailors-database.htm
 
 
 Schema

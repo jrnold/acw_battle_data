@@ -53,7 +53,7 @@ The original documentation reads:
 
 
 **Sources:**
-- Civil War Sites Advisory Commission. Records About Civil War Battle Sites, Created, 1990 - 1993, Documenting the Period 4/12/1861 - 5/13/1865. ed. The National Archives. Data Files ; Textual Records. https://aad.archives.gov/aad/series-description.jsp?s=1076&cat=WR25&bc=,sl (December 7, 2015).; https://aad.archives.gov/aad/series-description.jsp?s=1076&cat=WR25&bc=,sl
+- CWSAC_AAD; https://aad.archives.gov/aad/series-description.jsp?s=1076&cat=WR25&bc=,sl
 
 
 Schema
