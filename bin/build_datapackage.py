@@ -12,45 +12,11 @@ import subprocess as sp
 
 import yaml
 
-CITEPROC_JAVA = path.join("dependencies", "citeproc-java-0.6",
-                          "bin", "citeproc-java")
-
-def citeproc(bib, keys = [],
-                  style = "american-political-science-association",
-                  format = "text",
-                  locale = "en-US",
-                  citation = False,
-                  ret_list = False):
-    args = [CITEPROC_JAVA,
-            "-b", bib,
-            "-s", style,
-            "-f", format,
-            "-l", locale] + keys
-    if citation:
-        args.append("-c")
-    if ret_list:
-        args.append("--list")
-    return sp.check_output(args)
-    
-def get_keys_urls(bib):
-    with open(bib, 'r', encoding = 'utf8') as f:
-        data = json.load(f)
-    ret = {}
-    for x in data:
-        try:
-            ret[x['id']] = {'url': x['URL']}
-        except KeyError:
-            ret[x['id']] = {'url': None}
-    return ret
-
-def get_source_dict(bib):
-    citations = get_keys_urls(bib)
-    for k, v in citations.items():
-        v['text'] = str(citeproc(bib, [k]).strip(), encoding = 'utf8')
-        v['name'] = k
-    citations['self'] = {'name': 'jrnold',
-                         'email': 'jeffrey.arnold@gmail.com',
-                         'text': "Jeffrey B. Arnold"}
+def get_source_dict(filename):
+    with open(filename, 'r', encoding = 'utf8') as f:
+        citations = yaml.load(f)
+    for k in citations:
+        citations[k]['name'] = k
     return citations
     
 def replace_sources(keys, sources):
@@ -114,7 +80,7 @@ def build(src, dst):
         if fnmatch.fnmatch(filename, '*.yaml'):
             res = process_resource(path.join(metadir, 'resources', filename))
             data['resources'].append(res)
-    bib = path.join(src, 'bib.json')
+    bib = path.join(src, 'rawdata', 'metadata', 'sources.yaml')
     replace_all_sources(bib, data)
     with open(path.join(dst, 'datapackage.json'), 'w') as f:
         json.dump(data, f)

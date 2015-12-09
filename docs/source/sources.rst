@@ -89,6 +89,8 @@ Sources
 
 .. [Helmbold1993b] Helmbold, Robert L. 1993. Personnel Attrition Rates in Historical Land Combat Operations: A Catalog of Attrition and Casualty Data Bases on Diskettes Usable with Personal Computers. U.S. Army Concepts Analysis Agency. Research Paper. http://handle.dtic.mil/100.2/ADA279069. http://handle.dtic.mil/100.2/ADA279069
 
+.. [jrnold] Jeffrey B. Arnold 
+
 .. [KennedyConservation1998] Kennedy, Frances H., Conservation Fund (Arlington, Va.). 1998. The Civil War Battlefield Guide. Houghton Mifflin. http://books.google.com/books?id=qHObJArDHZMC. http://books.google.com/books?id=qHObJArDHZMC
 
 .. [Livermore1900] Livermore, Thomas Leonard. 1900. Number and Losses in the Civil War in America, 1861-65. Houghton, Mifflin; Company. http://books.google.com/books?id=Qw8pAAAAYAAJ. http://books.google.com/books?id=Qw8pAAAAYAAJ
@@ -112,8 +114,6 @@ Sources
 .. [Reiter2009] Reiter, Dan. 2009. How wars end. Princeton University Press. http://books.google.com/books?id=-_Avp1TNYjMC. http://books.google.com/books?id=-_Avp1TNYjMC
 
 .. [Schwab1901] Schwab, John Christopher. 1901. The Confederate States of America, 1861-1865: A Financial and Industrial History of the South During the Civil War. C. Scribner’s Sons. http://books.google.com/books?id=4TEOAAAAIAAJ. http://books.google.com/books?id=4TEOAAAAIAAJ
-
-.. [self] Jeffrey B. Arnold 
 
 .. [Thorpe2011] Thorpe, Gene. 2011. “Battles and Casualties of the Civil War Map.” The Washington Post. http://www.washingtonpost.com/wp-srv/lifestyle/special/civil-war-interactive/civil-war-battles-and-casualties-interactive-map/ (December 7, 2015). http://www.washingtonpost.com/wp-srv/lifestyle/special/civil-war-interactive/civil-war-battles-and-casualties-interactive-map/
 
