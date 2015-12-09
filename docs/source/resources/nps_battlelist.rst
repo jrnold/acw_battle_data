@@ -1,13 +1,15 @@
-##############
-nps_battlelist
-##############
+#########################################################################
+Comparison of battles in CWSAC AAD, CWSAC Report, CWSAC Updates, and CWSS
+#########################################################################
 
 :name: nps_battlelist
 :path: data/nps_battlelist.csv
 :format: csv
 
+List of battles included in the AAD CWSAC Reports (1990-1993), CWSAC Report Battle Summaries (1997), CWSAC Report Updates (2009-2013), and the CWSS. All these reports from the National Park Service use the same battle identifiers, but they differ slightly in their composition.
 
 
+Sources: [CWSAC1997]_, [CWSAC_AAD]_, [CWSAC_by_state]_, [CWSS]_, [CWSII]_, [CWSIIAL]_, [CWSIIAR]_, [CWSIICO]_, [CWSIIDC]_, [CWSIIFL]_, [CWSIIGA]_, [CWSIIIN]_, [CWSIIKS]_, [CWSIIKY]_, [CWSIILA]_, [CWSIIMD]_, [CWSIIMN]_, [CWSIIMO]_, [CWSIINC]_, [CWSIIND]_, [CWSIIOH]_, [CWSIIOK]_, [CWSIIPA]_, [CWSIISC]_, [CWSIITN]_, [CWSIITX]_, [CWSIIVA]_, [CWSIIWV]_
 
 
 Schema

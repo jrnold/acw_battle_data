@@ -1,6 +1,6 @@
-##########
-nps_forces
-##########
+#####################################
+NPS combined data battle data: forces
+#####################################
 
 :name: nps_forces
 :path: data/nps_forces.csv

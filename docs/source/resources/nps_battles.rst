@@ -1,6 +1,6 @@
-###########
-nps_battles
-###########
+######################################
+NPS combined data battle data: battles
+######################################
 
 :name: nps_battles
 :path: data/nps_battles.csv
@@ -72,12 +72,12 @@ battle_type_aad                  string   battle_type_aad
 partof_aad                       boolean  partof_aad
 shenandoah_url                   string   shenandoah_url
 partof_shenandoah                boolean  partof_shenandoah
-lat                              number   lat
-long                             number   long
-str_mean                         number   str_mean
-str_var                          number   str_var
-cas_kwm_mean                     number   cas_kwm_mean
-cas_kwm_var                      number   cas_kwm_var
+lat                              number   Latitude
+long                             number   Longitude
+str_mean                         number   Strength (mean)
+str_var                          number   Strength (variance)
+cas_kwm_mean                     number   Total casualties (mean)
+cas_kwm_var                      number   Total casualties (variance)
 state                            string   state
 ===============================  =======  ===============================
 
@@ -756,7 +756,7 @@ partof_shenandoah
 lat
 ---
 
-:title: lat
+:title: Latitude
 :type: number
 :format: default
 
@@ -768,7 +768,7 @@ lat
 long
 ----
 
-:title: long
+:title: Longitude
 :type: number
 :format: default
 
@@ -780,48 +780,48 @@ long
 str_mean
 --------
 
-:title: str_mean
+:title: Strength (mean)
 :type: number
 :format: default
 
 
-
+Estimated strength (personnal) for both sides (mean).
 
 
        
 str_var
 -------
 
-:title: str_var
+:title: Strength (variance)
 :type: number
 :format: default
 
 
-
+Estimated strength (personnal) for both sides (variance).
 
 
        
 cas_kwm_mean
 ------------
 
-:title: cas_kwm_mean
+:title: Total casualties (mean)
 :type: number
 :format: default
 
 
-
+Estimated total casualties (killed, wounded, and missing or captured) for both sides (mean).
 
 
        
 cas_kwm_var
 -----------
 
-:title: cas_kwm_var
+:title: Total casualties (variance)
 :type: number
 :format: default
 
 
-
+Estimated total casualties (killed, wounded, and missing or captured) for both sides (variance).
 
 
        

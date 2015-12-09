@@ -1,6 +1,6 @@
-#############
-nps_campaigns
-#############
+########################################
+NPS combined data battle data: campaigns
+########################################
 
 :name: nps_campaigns
 :path: data/nps_campaigns.csv

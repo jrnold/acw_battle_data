@@ -229,30 +229,40 @@ schema:
     type: boolean
   - format: default
     name: lat
-    title: lat
+    title: Latitude
     type: number
   - format: default
     name: long
-    title: long
+    title: Longitude
     type: number
-  - format: default
+  - description: Estimated strength (personnal) for both sides (mean).
+    format: default
     name: str_mean
-    title: str_mean
+    title: Strength (mean)
     type: number
-  - format: default
+  - constrains:
+      minimum: 0
+    description: Estimated strength (personnal) for both sides (variance).
+    format: default
     name: str_var
-    title: str_var
+    title: Strength (variance)
     type: number
-  - format: default
+  - description: Estimated total casualties (killed, wounded, and missing or captured)
+      for both sides (mean).
+    format: default
     name: cas_kwm_mean
-    title: cas_kwm_mean
+    title: Total casualties (mean)
     type: number
-  - format: default
+  - constrains:
+      minimum: 0
+    description: Estimated total casualties (killed, wounded, and missing or captured)
+      for both sides (variance).
+    format: default
     name: cas_kwm_var
-    title: cas_kwm_var
+    title: Total casualties (variance)
     type: number
   - format: default
     name: state
     title: state
     type: string
-title: nps_battles
+title: 'NPS combined data battle data: battles'
