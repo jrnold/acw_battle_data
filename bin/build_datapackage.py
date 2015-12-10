@@ -65,25 +65,27 @@ def process_dpkg(filename):
 
 def process_resource(filename):
     meta = process_metadata(filename)
-    if meta and path.exists(meta['path']):
+    if path.exists(meta['path']):
         meta['bytes'] = path.getsize(meta['path'])
         meta['hash'] = md5sum(meta['path'])
+        return meta        
     else:
-        print("WARNING: something wrong with %s" % filename)
-    return meta
+        print("ERROR: %s does not exist" % filename)
 
 def build(src, dst):
     metadir = path.join(src, 'rawdata', 'metadata')
+    meta_res_dir =  path.join(metadir, 'resources')
     data = process_dpkg(path.join(metadir, 'datapackage.yaml'))
     data['resources'] = []
-    for filename in os.listdir(path.join(metadir, 'resources')):
+    for filename in os.listdir(meta_res_dir):
         if fnmatch.fnmatch(filename, '*.yaml'):
-            res = process_resource(path.join(metadir, 'resources', filename))
+            res = process_resource(path.join(meta_res_dir, filename))
             data['resources'].append(res)
-    bib = path.join(src, 'rawdata', 'metadata', 'sources.yaml')
+    bib = path.join(metadir, 'sources.yaml')
     replace_all_sources(bib, data)
     with open(path.join(dst, 'datapackage.json'), 'w') as f:
         json.dump(data, f)
+        print("Writing: %s" % path.join(dst, 'datapackage.json'))
 
 def main():
     src = sys.argv[1]
