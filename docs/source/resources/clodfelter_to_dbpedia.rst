@@ -8,8 +8,7 @@ clodfelter_to_dbpedia
 
 
 
-**Sources:**
-- Clodfelter2008; None
+Sources: [Clodfelter2008]_
 
 
 Schema

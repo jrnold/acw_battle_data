@@ -8,8 +8,7 @@ Correspondence between Livermore (1900) battles and dbpedia.org resources
 
 
 
-**Sources:**
-- Livermore1900; http://books.google.com/books?id=Qw8pAAAAYAAJ
+Sources: [Livermore1900]_
 
 
 Schema

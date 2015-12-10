@@ -11,8 +11,7 @@ List of naval battles
 List of naval battles, which navies they involved, and whether they involved land fortifications. These were coded for this data primarily using the descriptions of the battles in the CWSAC and Wikipedia.
 
 
-**Sources:**
-- jrnold; jeffrey.arnold@gmail.com
+Sources: [jrnold]_
 
 
 Schema
@@ -20,16 +19,18 @@ Schema
 
 
 
-===========  =======  =================
+===========  =======  ==============================================================================================================================
 cwsac_id     string   CWSAC Id.
 battle_name  string   Battle name
-all_naval    boolean  All Naval Battle?
+us_ships     integer  Union ships
+cs_ships     integer  Confederate ships
+all_naval    boolean  All Naval Battle? This is defined as a battle between two naval forces, or ships and a fort when no land forces were involved.
 us_navy      boolean  US Navy
 cs_navy      integer  Confederate Navy
 us_fort      integer  US Fort
 cs_fort      integer  Confederate Fort
 comments     string   Comments
-===========  =======  =================
+===========  =======  ==============================================================================================================================
 
 cwsac_id
 --------
@@ -57,10 +58,34 @@ battle_name
 
 
        
+us_ships
+--------
+
+:title: Union ships
+:type: integer
+:format: default
+
+
+Number of Union ships (including gunships, wooden warships, ironclads, and rams; excluding transports)
+
+
+       
+cs_ships
+--------
+
+:title: Confederate ships
+:type: integer
+:format: default
+
+
+Number of Confederate ships (including gunships, wooden warships, ironclads, and rams; excluding transports)
+
+
+       
 all_naval
 ---------
 
-:title: All Naval Battle?
+:title: All Naval Battle? This is defined as a battle between two naval forces, or ships and a fort when no land forces were involved.
 :type: boolean
 :format: default
 

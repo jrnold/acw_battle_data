@@ -1,6 +1,6 @@
-##############
-nps_commanders
-##############
+#########################################
+NPS combined data battle data: commanders
+#########################################
 
 :name: nps_commanders
 :path: data/nps_commanders.csv
@@ -25,7 +25,7 @@ first_name        string   first_name
 middle_name       string   middle_name
 middle_initial    string   middle_initial
 rank              string   rank
-navy              number   navy
+navy              boolean  navy
 ================  =======  ================
 
 cwsac_id
@@ -140,7 +140,7 @@ navy
 ----
 
 :title: navy
-:type: number
+:type: boolean
 :format: default
 
 

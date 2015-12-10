@@ -8,8 +8,7 @@ NPS Shenandoah Report battle data: list of battles
 
 
 
-**Sources:**
-- NPS1992; http://www.nps.gov/abpp/shenandoah/svs0-1.html
+Sources: [NPS1992]_
 
 
 Schema

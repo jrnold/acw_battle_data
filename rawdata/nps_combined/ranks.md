@@ -1,0 +1,11 @@
+Confederate:
+- General
+- Major General
+- Lt. General
+- Brigadier General
+- Colonel
+- Lt. Colonel
+- Major
+- Captain
+- 1st Lieutenant
+- 2nd Lieutenant

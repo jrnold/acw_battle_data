@@ -8,8 +8,7 @@ phisterer_engagements_by_year
 
 
 
-**Sources:**
-- Phisterer1883; http://books.google.com/books?id=cVNHr_nnLlYC
+Sources: [Phisterer1883]_
 
 
 Schema

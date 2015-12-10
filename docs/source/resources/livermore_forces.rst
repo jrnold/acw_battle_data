@@ -8,8 +8,7 @@ Livermore (1900) battle data: force strengths and casualties
 
 
 
-**Sources:**
-- Livermore1900; http://books.google.com/books?id=Qw8pAAAAYAAJ
+Sources: [Livermore1900]_
 
 
 Schema

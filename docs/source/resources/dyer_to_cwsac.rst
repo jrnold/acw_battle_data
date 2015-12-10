@@ -8,9 +8,7 @@ dyer_to_cwsac
 
 
 
-**Sources:**
-- DyerBattles; http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A2001.05.0140
-- dyer1908_war_rebel; http://books.google.com/books?id=OBkNAQAAMAAJ
+Sources: [DyerBattles]_, [dyer1908_war_rebel]_
 
 
 Schema

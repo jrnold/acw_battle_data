@@ -8,8 +8,7 @@ CWSS units in each battle
 
 
 
-**Sources:**
-- CWSS; http://www.nps.gov/civilwar/soldiers-and-sailors-database.htm
+Sources: [CWSS]_
 
 
 Schema

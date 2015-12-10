@@ -1,6 +1,6 @@
-##########
-nps_people
-##########
+#########################
+NPS combined data: people
+#########################
 
 :name: nps_people
 :path: data/nps_people.csv

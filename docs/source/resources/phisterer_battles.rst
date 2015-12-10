@@ -54,8 +54,7 @@ Some notes on specific battles
 -  2397: http://en.wikipedia.org/wiki/Wilson%27s\_raid
 
 
-**Sources:**
-- Phisterer1883; http://books.google.com/books?id=cVNHr_nnLlYC
+Sources: [Phisterer1883]_
 
 
 Schema

@@ -58,8 +58,7 @@ With regards to battles not considered, Fox writes,
 
 
 
-**Sources:**
-- fox1898regimental; http://books.google.com/books?id=R5YukgAACAAJ
+Sources: [fox1898regimental]_
 
 
 Schema
@@ -143,8 +142,7 @@ cwsac_id
 
 
 
-**Sources:**
-- jrnold; jeffrey.arnold@gmail.com
+Sources: [fox1898regimental]_
 
        
 

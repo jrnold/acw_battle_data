@@ -142,19 +142,25 @@ def build(src, dst):
         row["priority1"] =  tf(v["Priority1"]["value"])
         rows += [row]
 
-    with open(path.join(dst, "aad_battles.csv"), 'w') as f:
+    dst_file = path.join(dst, "aad_battles.csv") 
+    with open(dst_file, 'w') as f:
         writer = csv.DictWriter(f, fields)
         writer.writeheader()  
         writer.writerows(rows)
+    print("Writing: %s" % dst_file)        
 
 def copy_files(src, dst):
-    shutil.copy(path.join(src, "rawdata", "aad", "events.json"),
-                path.join(dst_dir, 'aad_events.json'))
+    src_file = path.join(src, "rawdata", "aad", "events.json")
+    dst_file = path.join(dst, 'aad_events.json')
+    shutil.copy(src_file, dst_file)
+    print("Writing: %s" % dst_file)
 
 def main():
+    print("Building AAD data")
     src = sys.argv[1] 
     dst = sys.argv[2]
     build(src, dst)
+    copy_files(src, dst)
 
 if __name__ == "__main__":
     main()

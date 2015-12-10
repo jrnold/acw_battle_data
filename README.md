@@ -40,8 +40,9 @@ $ cd docs/ && make html
     - **pander**
     - **stringr**
     - **tidyr**
+    - **RSQLite**
 - pdflatex
-- [citeproc-java](http://michel-kraemer.github.io/citeproc-java/). Used to render the citations.
+
 
 ## Licenses
 

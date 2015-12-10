@@ -13,8 +13,7 @@ Greer primarily relies upon the casualty figures from Kennedy *The Civil War Bat
 
 
 
-**Sources:**
-- Greer2005; http://www.brcweb.com/alplm/BRC_Counting_Casualties.pdf
+Sources: [Greer2005]_
 
 
 Schema

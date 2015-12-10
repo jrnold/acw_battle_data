@@ -14,8 +14,7 @@ See :doc:`bodart1908_battles` for more information on this source.
 This table contains the commanders of each force in each battle in Bodart.
 
 
-**Sources:**
-- Bodart1908; http://books.google.com/books?id=Eo4DAAAAYAAJ
+Sources: [Bodart1908]_
 
 
 Schema
@@ -141,8 +140,7 @@ dbpedia
 
 dbpedia.org URI of the commandern
 
-**Sources:**
-- jrnold; jeffrey.arnold@gmail.com
+Sources: [Bodart1908]_
 
        
 

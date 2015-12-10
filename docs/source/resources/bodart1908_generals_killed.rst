@@ -23,8 +23,7 @@ Bodart's correpondence of ranks
 - Brig.-Gen. = brigadier-general = Brigade-general
 
 
-**Sources:**
-- Bodart1908; http://books.google.com/books?id=Eo4DAAAAYAAJ
+Sources: [Bodart1908]_
 
 
 Schema

@@ -53,10 +53,12 @@ def build_battles(data, dst):
                   'county',
                   'url'
     )
-    with open(path.join(dst, 'shenandoah_battles.csv'), 'w') as f:
+    dst_file = path.join(dst, 'shenandoah_battles.csv') 
+    with open(dst_file, 'w') as f:
         writer = csv.DictWriter(f, fieldnames)
         writer.writeheader()
         writer.writerows(battles)
+    print("Writing: %s" % dst_file)
         
 def clean_forces(battle):
     forces = []
@@ -93,11 +95,13 @@ def build_forces(data, dst):
                   'killed',
                   'wounded',
                   'missing_captured')
-    with open(path.join(dst, 'shenandoah_forces.csv'), 'w') as f:
+    dst_file = path.join(dst, 'shenandoah_forces.csv') 
+    with open(dst_file, 'w') as f:
         writer = csv.DictWriter(f, fieldnames)
         writer.writeheader()
         for battle in data:
             writer.writerows(clean_forces(battle))
+    print("Writing: %s" % dst_file)            
             
 def clean_commanders(battle):
     ret = []
@@ -127,17 +131,22 @@ def build_commanders(data, dst):
                   'first_name',
                   'middle_name',
                   'rank')
-    with open(path.join(dst, 'shenandoah_commanders.csv'), 'w') as f:
+    dst_file = path.join(dst, 'shenandoah_commanders.csv') 
+    with open(dst_file, 'w') as f:
         writer = csv.DictWriter(f, fieldnames)
         writer.writeheader()
         for battle in data:
             writer.writerows(clean_commanders(battle))
-            
+    print("Writing: %s" % dst_file)
+
 def build_json(data, dst):
-    with open(path.join(dst, 'shenandoah.json'), 'w') as f:
+    dst_file = path.join(dst, 'shenandoah.json') 
+    with open(dst_file, 'w') as f:
         json.dump(data, f)
+    print("Writing: %s" % dst_file)
     
 def build(src, dst):
+    print("Building Shenandoah data")
     data = load_data(src)
     build_battles(data, dst)
     build_forces(data, dst)

@@ -41,8 +41,7 @@ force level casualties.
 The results of battles is considered seperately in :doc:`fox_outcomes`.
 
 
-**Sources:**
-- fox1898regimental; http://books.google.com/books?id=R5YukgAACAAJ
+Sources: [fox1898regimental]_
 
 
 Schema

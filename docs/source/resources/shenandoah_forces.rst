@@ -8,8 +8,7 @@ NPS Shenandoah Report battle data: force strengths and casualties
 
 
 
-**Sources:**
-- NPS1992; http://www.nps.gov/abpp/shenandoah/svs0-1.html
+Sources: [NPS1992]_
 
 
 Schema

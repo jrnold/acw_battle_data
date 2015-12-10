@@ -214,11 +214,7 @@ Thus, confusingly:
 
 
 
-**Sources:**
-- CWSAC1993; http://www.nps.gov/abpp/cwsac/cws0-1.html
-- CWSAC1997; http://www.nps.gov/abpp/battles/tvii.htm
-- CWSAC_by_state; http://www.nps.gov/abpp/battles/bystate.htm
-- CWSAC_by_campgn; http://www.nps.gov/abpp/battles/bycampgn.htm
+Sources: [CWSAC1993]_, [CWSAC1997]_, [CWSAC_by_state]_, [CWSAC_by_campgn]_
 
 
 Schema
@@ -576,8 +572,7 @@ strength_mean
 
 Mean of the estimated strength in personnel of the force. See code for how it is calculated.
 
-**Sources:**
-- jrnold; jeffrey.arnold@gmail.com
+Sources: [CWSAC1993]_, [CWSAC1997]_, [CWSAC_by_state]_, [CWSAC_by_campgn]_
 
        
 strength_var
@@ -592,8 +587,7 @@ strength_var
 
 Variance of the estimated strength in personnel of the force. See code for how it is calculated.
 
-**Sources:**
-- jrnold; jeffrey.arnold@gmail.com
+Sources: [CWSAC1993]_, [CWSAC1997]_, [CWSAC_by_state]_, [CWSAC_by_campgn]_
 
        
 

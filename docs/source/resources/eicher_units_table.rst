@@ -8,8 +8,7 @@ Eicher table of unit sizes
 
 
 
-**Sources:**
-- eicher2002civil; https://books.google.com/books?id=Fs0Ajlnjl6AC
+Sources: [eicher2002civil]_
 
 
 Schema

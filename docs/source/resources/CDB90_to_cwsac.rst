@@ -8,10 +8,7 @@ CDB90 to CWSAC battle links
 
 
 
-**Sources:**
-- jrnold; jeffrey.arnold@gmail.com
-- cdb90; http://www.dtic.mil/docs/citations/ADM000121
-- CWSAC1997; http://www.nps.gov/abpp/battles/tvii.htm
+Sources: [jrnold]_, [cdb90]_, [CWSAC1997]_
 
 
 Schema

@@ -12,8 +12,7 @@ Force level data on casualties from Frances H. Kennedy (1997) *The Civil War Bat
 See :doc:`kennedy1997_battles` for more information.
 
 
-**Sources:**
-- KennedyConservation1998; http://books.google.com/books?id=qHObJArDHZMC
+Sources: [KennedyConservation1998]_
 
 
 Schema

@@ -52,8 +52,7 @@ The original documentation reads:
     The records in this file potentially identify the following information: state and county or counties of the historic site, the type of battle or event that occurred there, the theater of operations and the campaign to which the engagement relates, the dates of the battle or event, the current ownership of the site, and the assessment of three subject area experts of the military significance, physical integrity, historic preservation status, and interpretive potential of the site or event, and whether it should be a priority for protection of cultural property.
 
 
-**Sources:**
-- CWSAC_AAD; https://aad.archives.gov/aad/series-description.jsp?s=1076&cat=WR25&bc=,sl
+Sources: [CWSAC_AAD]_
 
 
 Schema

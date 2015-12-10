@@ -2,7 +2,7 @@
 American Civil War Battle Data
 ##############################
 
-:Version: 0.0.1
+:Version: 0.0.2
 :License: `ODC-BY <http://opendatacommons.org/licenses/by/1.0/>`__
 :Author: Jeffrey B. Arnold <jeffrey.arnold@gmail.com> (http://jrnold.me)		    
 :Homepage: https://github.com/jrnold/acw_battle_data
@@ -13,19 +13,27 @@ This is mostly a repackaging of data from other secondary and primary sources, a
 
 *keywords:* American Civil War, battle, war, casualties, commanders
 
-
+Resources
+=========
 
 .. toctree::
-   :caption: Resources
    :maxdepth: 1
    :glob:
    
    resources/*
-       
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+   :hidden:
+   
+   *
+   
 
 Indices and tables
 ==================
 
+* :doc:`Sources`
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`

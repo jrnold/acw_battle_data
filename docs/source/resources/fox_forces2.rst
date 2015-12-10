@@ -48,8 +48,7 @@ missing; total, 22,968.
 See :doc:`fox_forces` for more detail on the Fox data.
 
 
-**Sources:**
-- fox1898regimental; http://books.google.com/books?id=R5YukgAACAAJ
+Sources: [fox1898regimental]_
 
 
 Schema

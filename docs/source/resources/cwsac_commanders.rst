@@ -8,11 +8,7 @@ CWSAC Report (1993) battle data: commanders
 
 
 
-**Sources:**
-- CWSAC1993; http://www.nps.gov/abpp/cwsac/cws0-1.html
-- CWSAC1997; http://www.nps.gov/abpp/battles/tvii.htm
-- CWSAC_by_state; http://www.nps.gov/abpp/battles/bystate.htm
-- CWSAC_by_campgn; http://www.nps.gov/abpp/battles/bycampgn.htm
+Sources: [CWSAC1993]_, [CWSAC1997]_, [CWSAC_by_state]_, [CWSAC_by_campgn]_
 
 
 Schema

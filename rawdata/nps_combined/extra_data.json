@@ -179,5 +179,20 @@
 	 "cas_kwm_var": null,
 	 "comment": "Use the disaggregated CWSAC values rather than the CWSS values"
 	}
+    },
+    "battleunitlinks": {
+	"WV009|US": [],
+	"WV009|Confederate": [],
+	"MO020|US": [],
+	"WO020|Confederate": [],
+	"MO010": {
+	    "US": ["UMO0003RC", "UMOBIRG0SG"],
+	    "Confederate": ["CMO0004RCS1"]
+	},
+	"MO012": {
+	    "US": [],
+	    "Confederate": []
+	},
+	"WO012|Confederate": []
     }
 }

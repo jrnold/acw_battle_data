@@ -260,8 +260,7 @@ The sources cited by Bodart are (p. 29):
 
 
 
-**Sources:**
-- Bodart1908; http://books.google.com/books?id=Eo4DAAAAYAAJ
+Sources: [Bodart1908]_
 
 
 Schema

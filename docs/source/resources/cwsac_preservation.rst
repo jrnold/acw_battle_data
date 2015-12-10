@@ -8,9 +8,7 @@ CWSAC Report (1993) preservation priority categories
 
 
 
-**Sources:**
-- CWSAC1993; http://www.nps.gov/abpp/cwsac/cws0-1.html
-- CWSAC1997; http://www.nps.gov/abpp/battles/tvii.htm
+Sources: [CWSAC1993]_, [CWSAC1997]_
 
 
 Schema

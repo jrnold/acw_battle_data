@@ -11,24 +11,27 @@
 
 *keywords:* {{ keywords|join(', ') }}
 
-{% if sources|length %}
-**Sources:**
-{% for src in sources -%}
-- {{src.name}}{% if src.url is defined %}; {{src.url}}{% endif %}{% if src.email is defined %}; {{src.email}}{% endif %}
-{% endfor -%}
-{% endif %}
+Resources
+=========
 
 .. toctree::
-   :caption: Resources
    :maxdepth: 1
    :glob:
    
    resources/*
-       
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+   :hidden:
+   
+   *
+   
 
 Indices and tables
 ==================
 
+* :doc:`Sources`
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`

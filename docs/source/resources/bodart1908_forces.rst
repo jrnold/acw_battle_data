@@ -20,8 +20,7 @@ that theater or operations, without considering which parts of that
 unit participated in a given battle.
 
 
-**Sources:**
-- Bodart1908; http://books.google.com/books?id=Eo4DAAAAYAAJ
+Sources: [Bodart1908]_
 
 
 Schema

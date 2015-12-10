@@ -8,8 +8,7 @@ Clodfelter (2008) battle data: forces
 
 
 
-**Sources:**
-- Clodfelter2008; None
+Sources: [Clodfelter2008]_
 
 
 Schema
@@ -656,8 +655,7 @@ str_mean
 
 Mean of the estimated strength in personnel of the force. See code for how it is calculated.
 
-**Sources:**
-- jrnold; jeffrey.arnold@gmail.com
+Sources: [Clodfelter2008]_
 
        
 str_var
@@ -672,8 +670,7 @@ str_var
 
 Variance of the estimated strength in personnel of the force. See code for how it is calculated.
 
-**Sources:**
-- jrnold; jeffrey.arnold@gmail.com
+Sources: [Clodfelter2008]_
 
        
 

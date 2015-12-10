@@ -13,8 +13,7 @@ See :doc:`phisterer_battles` for more on the Phisterer (1883) data.
 In this data each observation is a force (belligerent, battle).
 
 
-**Sources:**
-- Phisterer1883; http://books.google.com/books?id=cVNHr_nnLlYC
+Sources: [Phisterer1883]_
 
 
 Schema

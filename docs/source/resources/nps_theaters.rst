@@ -1,6 +1,6 @@
-############
-nps_theaters
-############
+#######################################
+NPS combined data battle data: theaters
+#######################################
 
 :name: nps_theaters
 :path: data/nps_theaters.csv

@@ -64,6 +64,7 @@ def battle_csv(src, dst):
             for category in CATEGORIES:
                 row['category_' + category.lower()] = int(category in row['category'])
             writer.writerow(row)
+    print("Writing: %s" % dst)            
 
 fields_forces = (
     "battle_id",
@@ -121,7 +122,8 @@ def forces_csv(src, dst):
                     row['battle_id'] = battle_id
                     row['belligerent'] = side
                     writer.writerow(row)
-
+    print("Writing: %s" % dst)
+    
 def commanders_csv(src, dst):
     with open(src, 'r') as f:
         data = yaml.load(f)
@@ -149,7 +151,8 @@ def commanders_csv(src, dst):
                           else:
                               row['dbpedia'] = "https://dbpedia.org/resource/%s" % row['dbpedia']
                           writer.writerow(row)
-
+    print("Writing: %s" % dst)
+    
 def generals_killed_csv(src, dst):
     with open(src, 'r') as f:
         data = yaml.load(f)
@@ -179,7 +182,7 @@ def generals_killed_csv(src, dst):
                             else:
                                 row['dbpedia'] = "https://dbpedia.org/resource/%s" % row['dbpedia']
                             writer.writerow(row)
-                    
+    print("Writing: %s" % dst)                    
 
 def bodart_to_cwsac(src, dst):
     with open(src, 'r') as f:
@@ -195,7 +198,7 @@ def bodart_to_cwsac(src, dst):
                            'to': link['uri'],
                            'relation': link['relation']}
                     writer.writerow(row)
-                
+    print("Writing: %s" % dst)                
 
 def bodart_to_dbpedia(src, dst):
     with open(src, 'r') as f:
@@ -211,6 +214,7 @@ def bodart_to_dbpedia(src, dst):
                            'to': link['uri'],
                            'relation': link['relation']}
                     writer.writerow(row)
+    print("Writing: %s" % dst)
 
 def build(src, dst):
     filename = os.path.join(src, "bodart.yaml")
@@ -223,6 +227,7 @@ def build(src, dst):
 
     
 def main():
+    print("Building Bodart data")
     src, dst = sys.argv[1:3]
     build(src, dst)
     

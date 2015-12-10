@@ -9,10 +9,7 @@
 {{ description }}
 
 {% if sources is defined -%}
-**Sources:**
-{% for src in sources -%}
-- {{src.name}}{% if src.url is defined %}; {{src.url}}{% endif %}{% if src.email is defined %}; {{src.email}}{% endif %}
-{% endfor -%}
+Sources: {{ sources|map(attribute='name')|map('citation')|join(', ') }}
 {% endif %}
 
 {% if schema is defined -%}
@@ -29,7 +26,7 @@ Schema
 {% endfor -%}
 {% endif %}
 
-{{summary_table}}
+{{ summary_table|rsttable }}
 
 {% for field in schema.fields -%}
 {{ field.name }}
@@ -71,10 +68,7 @@ Schema
 {{ field.description }}
 
 {% if field.sources is defined -%}
-**Sources:**
-{% for src in field.sources -%}
-- {{src.name}}{% if src.url is defined %}; {{src.url}}{% endif %}{% if src.email is defined %}; {{src.email}}{% endif %}
-{% endfor -%}
+Sources: {{ sources|map(attribute='name')|map('citation')|join(', ') }}
 {% endif %}
        
 {% endfor %}
