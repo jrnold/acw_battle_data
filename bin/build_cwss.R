@@ -15,7 +15,8 @@ regiments_unitz <- tbl(nps_cwss, "Regiments_Unitz") %>%
          REG_TYPE,
          REG_SPECIAL,
          REG_DUPLICATE,
-         REG_ETHNIC) %>%
+         REG_ETHNIC,
+         REG_UNIT_NAME) %>%
   collect() %>%
   filter(! str_detect(REG_UNIT_CODE, regex("^admin", ignore = TRUE))) %>%
   setNames(tolower(gsub("REG_", "", names(.))))

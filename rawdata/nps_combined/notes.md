@@ -21,7 +21,7 @@ Union forces
 
 Confederate Forces
 
-- Army of East Kentucky, Dept of SW Virginia (Humphrey Marshall)
+- Army of East Kentucky, Dept of SW Virginia (Humphrey Marshall) 'CVA0029RI' Same as in KY005 (Middle Creek)
 
 Militia of Wise, Scott, and Lee counties. Small force of about 1500 troops.
 
