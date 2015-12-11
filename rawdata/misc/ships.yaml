@@ -1,6 +1,15 @@
 AL003:
   name: "Mobile Bay"
-  ships:
+  sources:
+    - https://en.wikipedia.org/wiki/Mobile_Bay_order_of_battle
+  fortifications:
+    - Confederate
+  Confederate:
+    - ["CSS_Selma_(1856)"]
+    - ["CSS_Morgan"]
+    - ["CSS_Gaines"]
+    - ["CSS_Tennessee_(1863)"]
+  US:
   - ["USS Brooklyn", "USS_Brooklyn_1858"]
   - ["USS Galena", "USS_Galena_1862"]
   - ["USS Hartford", "USS_Hartford_1858"]
@@ -20,10 +29,24 @@ AL003:
   - ["USS Tecumseh", "USS_Tecumseh_1863"]
   - ["USS Winnebago", "USS_Winnebago_1863"]
 
+AL006:
+  name: Fort Blakely
+  fortifications:
+    - Confederate
+  sources:
+    - https://en.wikipedia.org/wiki/Battle_of_Fort_Blakely
+    - http://www.nps.gov/abpp/CWSII/CWSACReportAlabamaUpdate.pdf
+  Confederate:
+    - ["CSS_Nashville_(1864)"]
+    - ["CSS_Huntsville"]
+    - ["CSS_Morgan"]
+
 AR002:
   name: Saint Charles
+  sources:
+    - https://en.wikipedia.org/wiki/Battle_of_Saint_Charles
   US:
-    - {"name": "USS Mound City", "link": "USS_Mound_City_(1861)"}
+    - ["USS Mound City", "USS_Mound_City_(1861)"]
     - ["St. Louis", "USS_Baron_DeKalb_(1861)"]
     - ["Lexington", "USS_Lexington_(1861)"]
     - ["Conestoga", "USS_Conestoga_(1861)"]
@@ -32,6 +55,8 @@ AR002:
     - "http://www.nps.gov/abpp/CWSII/ArkansasBattlefieldProfiles/Pea%20Ridge%20to%20Saint%20Charles.pdf"
 AR006:
   name: Arkansas Post
+  sources:
+    - https://en.wikipedia.org/wiki/Fort_Hindman_Union_order_of_battle
   US:
     - ["USS Baron DeKalb", "USS Baron DeKalb (1861)"]
     - ["USS Cincinnati", "USS Cincinnati (1861)"]
@@ -46,26 +71,49 @@ AR006:
     - "https://en.wikipedia.org/wiki/Fort_Hindman_Union_order_of_battle"
 FL001:
   name: Santa Rosa Island
+  fortifications:
+    - US
+  sources:
+    - https://en.wikipedia.org/wiki/Battle_of_Santa_Rosa_Island
   Confederate:
     - ["CSS Neaffie", null]
   sources:
     - "https://en.wikipedia.org/wiki/Battle_of_Santa_Rosa_Island"
 FL002:
   name: Tampa
+  fortifications:
+    - Confederate
+  sources:
+    - https://en.wikipedia.org/wiki/Battle_of_Tampa
   US:
     - ["USS Sagamore", "USS_Sagamore_(1861)"]
-GA001:
-  name: Fort Pulaski
+
+FL004:
+  name: Fort Brooke
   sources:
-    - https://en.wikipedia.org/wiki/Siege_of_Fort_Pulaski
-  US: []
-  note: >-
-    US ships did not directly participate in the bombardment of the fort since they could not approach close enough.
+    - https://en.wikipedia.org/wiki/Battle_of_Fort_Brooke
+  fortififications:
+    - Confederate
+  US:
+    - ["USS_Tahoma_(1861)"]
+    - ["USS_Adela"]
+    
+# GA001:
+#   name: Fort Pulaski
+#   fortifications:
+#     - Confederate
+#   sources:
+#     - https://en.wikipedia.org/wiki/Siege_of_Fort_Pulaski
+#   US: []
+#   note: >-
+#     US ships did not directly participate in the bombardment of the fort since they could not approach close enough.
   
 GA002:
   name: Ft McAllister
   sources:
     - https://en.wikipedia.org/wiki/Battle_of_Fort_McAllister_(1863)
+  fortifications:
+    - Confederate
   US:
     - ["USS Montauk", "USS_Montauk_(1862)"]
     - ["USS Patapsco", "USS_Patapsco_(1862)"]
@@ -82,6 +130,8 @@ LA001:
   name: Forts Jackson & St. Philip
   sources:
     - "https://en.wikipedia.org/wiki/Battle_of_Forts_Jackson_and_St._Philip"
+  fortifications:
+    - Confederate
   US:
     - ["USS_Cayuga_(1861)"]
     - ["USS_Pensacola_(1859)"]
@@ -131,6 +181,8 @@ LA003:
 
 LA010:
   name: Port Hudson
+  fortifications:
+    - Confederate
   US:
   - ["USS Hartford", "USS Hartford (1858)"]
   - ["USS Richmond", "USS Richmond (1860)"]
@@ -153,8 +205,38 @@ LA013:
     - ["USS Winona", "USS_Winona_(1861)"]
     - ["USS Princess Royal", "USS_Princess_Royal"]
 
+FL003:
+  name: "St John's Bluff"
+  fortifications:
+    - Confederate
+  US:
+    - ["USS_Paul_Jones_(1862)"]
+    - ["USS_Cimarron_(1862)"]
+    - ["USS_Uncas_(1843)"]
+    - ["USS_Patroon_(1859)"]
+    - ["USS_E._B._Hale_(1861)"]
+    - ["USS_Water_Witch_(1851)"]
+
+LA006:
+  name: Fort Bisland
+  fortifications:
+    - Confederate
+  US: []
+  Confederate:
+     - ["CSS Diana", "USS_Diana_(1862)"]
+    
+LA007:
+  name: Irish Bend
+  US: []
+  Confederate:
+     - ["CSS Diana", "USS_Diana_(1862)"]
+
+     
+
 MO012:
   name:  New Madrid/Island No. 10
+  fortifications:
+    - Confederate
   US:
   - ["USS Benton", "USS Benton (1861)"]
   - ["USS Mound City", "USS Mound City"]
@@ -165,6 +247,9 @@ MO012:
     
 NC001:
   name: Hatteras Inlet Batteries
+  fortifications:
+    - Confederate
+  
   source: "https://en.wikipedia.org/wiki/Battle_of_Hatteras_Inlet_Batteries"
   US:
     - ["USS Monticello", "Monticello (1859)"]
@@ -177,7 +262,10 @@ NC001:
 
 NC002:
   name: Roanoke Island
-  sources: "https://en.wikipedia.org/wiki/Battle_of_Roanoke_Island"
+  fortifications:
+    - Confederate
+  sources:
+    - "https://en.wikipedia.org/wiki/Battle_of_Roanoke_Island"
   Confederate:
     - ["CSS Sea-Bird", "CSS Sea-Bird"]
     - ["CSS Curlew", "CSS_Curlew"]
@@ -215,6 +303,8 @@ NC002:
     - ["USS Sentinel", null]
 "NC003":
   name: New Berne
+  fortifications:
+    - Confederate
   sources:
     - "https://en.wikipedia.org/wiki/New_Bern_order_of_battle"
   US:
@@ -232,8 +322,20 @@ NC002:
     - ["Morse", "Morse (1861)"]
     - ["John L. Lockwood", "John L. Lockwood (1854)"]
     - ["Henry Brinker", "Henry Brinker (1861)"]
+
+NC004:
+  name: Fort Macon
+  sources:
+    - https://en.wikipedia.org/wiki/Siege_of_Fort_Macon
+  US:
+    - ["USS_Daylight_(1859)"]
+    - ["USS_State_of_Georgia_(1851)"]
+    - ["USS_Chippewa_(1861)"]
+    - ["USS_Gemsbok_(1861)"]
+  
 NC012:
   name: Plymouth
+  
   sources:
     - "https://en.wikipedia.org/wiki/Battle_of_Plymouth_(1864)"
   US:
@@ -245,10 +347,31 @@ NC012:
   Confederate:
     - ["CSS Albemarle", "CSS_Albemarle"]
     - ["CSS Cotton Plant", "CSS_Cotton_Plant"]
+
+NC013:
+  name: Albemerle Sound
+  sources:
+    - https://en.wikipedia.org/wiki/Battle_of_Albemarle_Sound
+  US:
+    - ["USS Syracuse"]
+    - ["USS Commodore Hull"]
+    - ["Ceres (1856)"]
+    - ["Miami (1861)"]
+    - ["Wyalusing (1863)"]
+    - ["Sassacus (1862)"]
+    - ["Mattabesett (1864)"] 
+    - ["Whitehead (1861)"]
+  Confederate:
+    - ["CSS Albemarle"]
+    - ["CSS Bombshell"]
+    - ["CSS Cotton Plant"]
+  
 NC014:
   name: Fort Fisher
   sources:
     - https://en.wikipedia.org/wiki/First_Battle_of_Fort_Fisher
+  fortifications:
+    - Confederate
   US:
   - ["USS Canonicus (1863)"]
   - ["USS Huron (1862)"]
@@ -313,6 +436,8 @@ NC014:
   
 NC015:
   name: Fort Fisher
+  fortifications:
+    - Confederate
   sources:
     - https://en.wikipedia.org/wiki/Second_Battle_of_Fort_Fisher
   US:
@@ -377,6 +502,8 @@ NC015:
 NC016:
   sources:
     - https://en.wikipedia.org/wiki/Wilmington_Union_order_of_battle
+  fortifications:
+    - Confederate
   name: Wilmington
   US:
   - ["USS Bat (1864)"]
@@ -416,10 +543,14 @@ NC016:
 
 SC003:
   name: "Simmon's Bluff"
+  fortifications:
+    - Confederate
   US:
     - ["USS Crusader", "USS_Crusader_(1858)"]
 SC004:
   name: "Charleston Harbor"
+  fortifications:
+    - Confederate
   US:
     - ["USS Weehawken", "USS_Weehawken_(1862)"]
     - ["USS Passaic", "USS_Passaic_(1862)"]
@@ -433,6 +564,8 @@ SC004:
     - ["CSS Palmetto State", "CSS_Palmetto_State"]
 SC005:
   name: Fort Wagner I
+  fortifications:
+    - Confederate
   sources:
     - "http://www.nps.gov/abpp/CWSII/SouthCarolinaBattlefieldProfiles/SouthCarolinaBattlefieldProfiles.pdf"
   US:
@@ -443,6 +576,8 @@ SC005:
     
 SC007:
   name: Fort Wagner, Morris Island
+  fortifications:
+    - Confederate
   sources:
     - "https://en.wikipedia.org/wiki/Siege_of_Charleston_Harbor_Union_order_of_battle"
   US:
@@ -466,6 +601,8 @@ SC009:
   name: Charleston Harbor II
   sources:
     - "https://en.wikipedia.org/wiki/Siege_of_Charleston_Harbor_Union_order_of_battle"
+  fortifications:
+    - Confederate
   US:
     - ["USS Montauk", "USS Montauk 1862"]
     - ["USS Nahant", "USS Nahant 1862"]
@@ -483,6 +620,8 @@ SC009:
 TN001:
   name: Fort Henry
       - "https://en.wikipedia.org/wiki/Battle_of_Fort_Henry"
+  fortifications:
+    - Confederate
   US:
     - ["USS Cincinnati", "USS_Cincinnati_(1861)"]
     - ["USS Carondelet", "USS_Carondelet_(1861)"]
@@ -495,6 +634,8 @@ TN002:
   name: Fort Donelson
   source:
     - "https://en.wikipedia.org/wiki/Fort_Donelson_Union_order_of_battle"
+  fortifications:
+    - Confederate
   US:
     - ["USS Carondelet", "USS_Carondelet_(1861)"]
     - ["USS St. Louis", "USS_Baron_DeKalb_(1861)"]
@@ -533,6 +674,8 @@ TN004:
     - ["CSS Little Rebel"]
 TN030:
   name: Fort Pillow
+  fortifications:
+    - US
   sources:
     - "https://en.wikipedia.org/wiki/Battle_of_Fort_Pillow"
   US:
@@ -547,6 +690,8 @@ TX001:
     - ["USS_Henry_Janes_(1861)"]
 TX002:
   name: Galveston
+  fortifications:
+    - Confederate
   sources:
     - "https://en.wikipedia.org/wiki/USS_Westfield_(1861)"
     - 
@@ -558,6 +703,9 @@ TX002:
     - ["USS_Henry_Janes_(1861)"]
 TX003:
   name: Galveston
+  fortifications:
+    - Confederate
+  
   sources:
     - "https://en.wikipedia.org/wiki/Battle_of_Galveston"
   US:
@@ -581,6 +729,8 @@ TX006:
     - ["USS_Clifton_(1861)"]
 VA001:
   name: "Sewell's Point"
+  fortifications:
+    - Confederate
   sources:
     - "https://en.wikipedia.org/wiki/Battle_of_Sewell%27s_Point"
   US:
@@ -588,6 +738,8 @@ VA001:
     - ["USS_Thomas_Freeborn"]
 VA002:
   name: Aquia Creek
+  fortifications:
+    - Confederate
   sources:
     - "https://en.wikipedia.org/wiki/Battle_of_Aquia_Creek"
   US:
@@ -622,6 +774,8 @@ VA008:
     - ["CSS_Beaufort"]
 VA012:
   name: "Drewry's Bluff"
+  fortifications:
+    - Confederate
   sources:
     - https://en.wikipedia.org/wiki/Battle_of_Drewry%27s_Bluff
   US:
@@ -632,6 +786,8 @@ VA012:
     - ["USRC_Naugatuck"]
 VA030:
   name: Suffolk (Norfleet)
+  fortifications:
+    - Confederate
   sources:
     - "http://www.nps.gov/abpp/CWSII/VirginiaBattlefieldProfiles/Staunton%20River%20Bridge%20to%20Swift%20Creek.pdf"
     - "https://en.wikipedia.org/wiki/Battle_of_Suffolk_(Norfleet_House)"
@@ -650,6 +806,8 @@ VA030:
     - ["USS West End", null]
 VA031:
   name: "Suffolk (Hill's Point)"
+  fortifications:
+    - Confederate
   sources:
     - "https://en.wikipedia.org/wiki/Suffolk_Union_order_of_battle"
   US:
@@ -658,14 +816,18 @@ VA031:
     - ["USS_Primrose_(1863)"]
     - ["USS Teaser", "CSS_Teaser"]
     - ["USS_Yankee_(1861)"]
-    - ["USS_Mount_Washington_(1846)"]
     - ["USS_Zouave_(1861)"]
     - ["USS_Coeur_de_Lion_(1861)"]
     - ["USS_Alert_(1861)"]
     - ["USS_Smith-Briggs"]
     - ["USS West End", null]
+  note: >-
+    These are the ships for the siege. USS Mount Washington was removed because it was damaged at Norfleet House.
+    
 VA100:
   name: Cockpit Point
+  fortifications:
+    - Confederate
   sources:
     - "https://en.wikipedia.org/wiki/Battle_of_Cockpit_Point"
   US:
