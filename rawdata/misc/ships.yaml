@@ -250,7 +250,8 @@ NC001:
   fortifications:
     - Confederate
   
-  source: "https://en.wikipedia.org/wiki/Battle_of_Hatteras_Inlet_Batteries"
+  sources:
+    - "https://en.wikipedia.org/wiki/Battle_of_Hatteras_Inlet_Batteries"
   US:
     - ["USS Monticello", "Monticello (1859)"]
     - ["USS Harriet Lane", "USS Harriet Lane"]
@@ -632,7 +633,7 @@ TN001:
     - ["USS Lexington", "USS_Lexington_(1861)"]
 TN002:
   name: Fort Donelson
-  source:
+  sources:
     - "https://en.wikipedia.org/wiki/Fort_Donelson_Union_order_of_battle"
   fortifications:
     - Confederate
