@@ -5,29 +5,29 @@ AL003:
   fortifications:
     - Confederate
   Confederate:
-    - ["CSS_Selma_(1856)"]
-    - ["CSS_Morgan"]
-    - ["CSS_Gaines"]
-    - ["CSS_Tennessee_(1863)"]
+    - ["CSS Selma (1856)"]
+    - ["CSS Morgan"]
+    - ["CSS Gaines"]
+    - ["CSS Tennessee (1863)"]
   US:
-  - ["USS Brooklyn", "USS_Brooklyn_1858"]
-  - ["USS Galena", "USS_Galena_1862"]
-  - ["USS Hartford", "USS_Hartford_1858"]
-  - ["USS Itasca", "USS_Itasca_1861"]
-  - ["USS Kennebec", "USS_Kennebec_1861"]
-  - ["USS Lackawanna", "USS_Lackawanna_1862"]
-  - ["USS Metacomet", "USS_Metacomet_1863"]
-  - ["USS Monongahela", "USS_Monongahela_1862"]
-  - ["USS Octorara", "USS_Octorara_1861"]
-  - ["USS Oneida", "USS_Oneida_1861"]
-  - ["USS Ossipee", "USS_Ossipee_1861"]
-  - ["USS Port Royal", "USS_Port Royal_1862"]
-  - ["USS Richmond", "USS_Richmond_1860"]
-  - ["USS Seminole", "USS_Seminole_1859"]
-  - ["USS Chickasaw", "USS_Chickasaw_1864"]
-  - ["USS Manhattan", "USS_Manhattan_1863"]
-  - ["USS Tecumseh", "USS_Tecumseh_1863"]
-  - ["USS Winnebago", "USS_Winnebago_1863"]
+  - ["USS Brooklyn (1858)"]
+  - ["USS Chickasaw (1864)"]
+  - ["USS Galena (1862)"]
+  - ["USS Hartford (1858)"]
+  - ["USS Itasca (1861)"]
+  - ["USS Kennebec (1861)"]
+  - ["USS Lackawanna (1862)"]
+  - ["USS Manhattan (1863)"]
+  - ["USS Metacomet (1863)"]
+  - ["USS Monongahela (1862)"]
+  - ["USS Octorara (1861)"]
+  - ["USS Oneida (1861)"]
+  - ["USS Ossipee (1861)"]
+  - ["USS Port Royal (1862)"]
+  - ["USS Richmond (1860)"]
+  - ["USS Seminole (1859)"]
+  - ["USS Tecumseh (1863)"]
+  - ["USS Winnebago (1863)"]
 
 AL006:
   name: Fort Blakely
@@ -37,19 +37,19 @@ AL006:
     - https://en.wikipedia.org/wiki/Battle_of_Fort_Blakely
     - http://www.nps.gov/abpp/CWSII/CWSACReportAlabamaUpdate.pdf
   Confederate:
-    - ["CSS_Nashville_(1864)"]
-    - ["CSS_Huntsville"]
-    - ["CSS_Morgan"]
+    - ["CSS Nashville (1864)"]
+    - ["CSS Huntsville"]
+    - ["CSS Morgan"]
 
 AR002:
   name: Saint Charles
   sources:
     - https://en.wikipedia.org/wiki/Battle_of_Saint_Charles
   US:
-    - ["USS Mound City", "USS_Mound_City_(1861)"]
-    - ["St. Louis", "USS_Baron_DeKalb_(1861)"]
-    - ["Lexington", "USS_Lexington_(1861)"]
-    - ["Conestoga", "USS_Conestoga_(1861)"]
+    - ["USS Mound City (1861)"]
+    - ["USS Baron DeKalb (1861)"]
+    - ["USS Lexington (1861)"]
+    - ["USS Conestoga (1861)"]
   sources:
     - "http://www.encyclopediaofarkansas.net/encyclopedia/entry-detail.aspx?entryID=532"
     - "http://www.nps.gov/abpp/CWSII/ArkansasBattlefieldProfiles/Pea%20Ridge%20to%20Saint%20Charles.pdf"
@@ -58,15 +58,15 @@ AR006:
   sources:
     - https://en.wikipedia.org/wiki/Fort_Hindman_Union_order_of_battle
   US:
-    - ["USS Baron DeKalb", "USS Baron DeKalb (1861)"]
-    - ["USS Cincinnati", "USS Cincinnati (1861)"]
-    - ["USS Louisville ", "USS Louisville (1862)"]
-    - ["USS Glide", "USS Glide (1862)"]
-    - ["USS Rattler", "USS Rattler (1862)"]
-    - ["USS Black Hawk", "USS Black Hawk (1848)"]
-    - ["USS Lexington", "USS Lexington (1861)"]
-    - ["USS Monarch", "USS Monarch (1862)"]
-    - ["USS New Era", "USS New Era (1862)"]
+    - ["USS Baron DeKalb (1861)"]
+    - ["USS Cincinnati (1861)"]
+    - ["USS Louisville (1862)"]
+    - ["USS Glide (1862)"]
+    - ["USS Rattler (1862)"]
+    - ["USS Black Hawk (1848)"]
+    - ["USS Lexington (1861)"]
+    - ["USS Monarch (1862)"]
+    - ["USS New Era (1862)"]
   sources:
     - "https://en.wikipedia.org/wiki/Fort_Hindman_Union_order_of_battle"
 FL001:
@@ -76,7 +76,7 @@ FL001:
   sources:
     - https://en.wikipedia.org/wiki/Battle_of_Santa_Rosa_Island
   Confederate:
-    - ["CSS Neaffie", null]
+    - ["CSS Neaffie"]
   sources:
     - "https://en.wikipedia.org/wiki/Battle_of_Santa_Rosa_Island"
 FL002:
@@ -86,8 +86,8 @@ FL002:
   sources:
     - https://en.wikipedia.org/wiki/Battle_of_Tampa
   US:
-    - ["USS Sagamore", "USS_Sagamore_(1861)"]
-
+    - ["USS Sagamore (1861)"]
+ 
 FL004:
   name: Fort Brooke
   sources:
@@ -95,8 +95,8 @@ FL004:
   fortififications:
     - Confederate
   US:
-    - ["USS_Tahoma_(1861)"]
-    - ["USS_Adela"]
+    - ["USS Tahoma (1861)"]
+    - ["USS Adela"]
     
 # GA001:
 #   name: Fort Pulaski
@@ -276,24 +276,24 @@ NC002:
     - ["CSS Forrest", "CSS_Forrest"]
     - ["CSS Black Warrior", "CSS_Black_Warrior"]
   US:
-    - ["Southfield", "Southfield (1857)"]
-    - ["Delaware", "Delaware (1861)"]
-    - ["Stars and Stripes", "Stars and Stripes (1861)"]
-    - ["Louisiana", "Louisiana (1861)"]
-    - ["Underwriter", "Underwriter (1852)"]
-    - ["Commodore Perry", "Commodore Perry"]
-    - ["Valley City", "Valley City (1859)"]
-    - ["Commodore Barney", "Commodore Barney (1859)"]
-    - ["Hunchback", "Hunchback"]
-    - ["Morse", "Morse"]
-    - ["Whitehead", "Whitehead"]
-    - ["John L. Lockwood", "John L. Lockwood (1854)"]
-    - ["Henry Brinker", "Henry Brinker (1861)"]
-    - ["Isaac N. Seymour", "Isaac N. Seymour (1860)"]
-    - ["Ceres ", "Ceres  (1856)"]
-    - ["General Putnam", "General Putnam (1857)"]
-    - ["Shawsheen", "Shawsheen (1855)"]
-    - ["Granite", "Granite (1862)"]
+    - ["Southfield", "USS Southfield (1857)"]
+    - ["Delaware", "USS Delaware (1861)"]
+    - ["Stars and Stripes", "USS Stars and Stripes (1861)"]
+    - ["Louisiana", "USS Louisiana (1861)"]
+    - ["Underwriter", "USS Underwriter (1852)"]
+    - ["Commodore Perry", "USS Commodore Perry"]
+    - ["Valley City", "USS Valley City (1859)"]
+    - ["Commodore Barney", "USS Commodore Barney (1859)"]
+    - ["Hunchback", "USS Hunchback"]
+    - ["Morse", "USS Morse"]
+    - ["Whitehead", "USS Whitehead"]
+    - ["John L. Lockwood", "USS John L. Lockwood (1854)"]
+    - ["Henry Brinker", "USS Henry Brinker (1861)"]
+    - ["Isaac N. Seymour", "USS Isaac N. Seymour (1860)"]
+    - ["Ceres ", "USS Ceres  (1856)"]
+    - ["General Putnam", "USS General Putnam (1857)"]
+    - ["Shawsheen", "USS Shawsheen (1855)"]
+    - ["Granite", "USS Granite (1862)"]
     - ["USS Picket", null]
     - ["USS Vidette", null]
     - ["USS Hussar", null]
@@ -309,20 +309,20 @@ NC002:
   sources:
     - "https://en.wikipedia.org/wiki/New_Bern_order_of_battle"
   US:
-    - ["Philadelphia", "Philadelphia (1861)"]
-    - ["Stars and Stripes", "Stars and Stripes (1861)"]
-    - ["Louisiana", "Louisiana (1861)"]
-    - ["Hetzel", "Hetzel (1861)"]
-    - ["Underwriter", "Underwriter (1852)"]
-    - ["Delaware", "Delaware (1861)"]
-    - ["Commodore Perry", "Commodore Perry"]
-    - ["Valley City", "Valley City (1859)"]
-    - ["Commodore Barney", "Commodore Barney (1859)"]
-    - ["Hunchback", "Hunchback"]
-    - ["Southfield", "Southfield (1857)"]
-    - ["Morse", "Morse (1861)"]
-    - ["John L. Lockwood", "John L. Lockwood (1854)"]
-    - ["Henry Brinker", "Henry Brinker (1861)"]
+    - ["Philadelphia", "USS Philadelphia (1861)"]
+    - ["Stars and Stripes", "USS Stars and Stripes (1861)"]
+    - ["Louisiana", "USS Louisiana (1861)"]
+    - ["Hetzel", "USS Hetzel (1861)"]
+    - ["Underwriter", "USS Underwriter (1852)"]
+    - ["Delaware", "USS Delaware (1861)"]
+    - ["Commodore Perry", "USS Commodore Perry"]
+    - ["Valley City", "USS Valley City (1859)"]
+    - ["Commodore Barney", "USS Commodore Barney (1859)"]
+    - ["Hunchback", "USS Hunchback"]
+    - ["Southfield", "USS Southfield (1857)"]
+    - ["Morse", "USS Morse (1861)"]
+    - ["John L. Lockwood", "USS John L. Lockwood (1854)"]
+    - ["Henry Brinker", "USS Henry Brinker (1861)"]
 
 NC004:
   name: Fort Macon

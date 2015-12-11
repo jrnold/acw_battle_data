@@ -52,27 +52,27 @@ https://en.wikipedia.org/wiki/Island_Number_Ten_Union_order_of_battle
 - 1st Division (Stanley)
 
   - 1st Brigade: 
-      - 27th Ohio
-      - 39th Ohio
+      - 27th Ohio: UOH0027RI
+      - 39th Ohio: UOH0029RI
   - 2nd Brigade
-      - 43rd Ohio
-      - 63rd Ohio
+      - 43rd Ohio: UOH0029RI
+      - 63rd Ohio: UOH0063RI
 - 2nd Division (Hamilton)
   - 1st Brigade
-      - 59th Indiana
-      - 5th Iowa
+      - 59th Indiana: UIN0059RI
+      - 5th Iowa: UIA0005RI
   - 2nd Brigade
-      - 10th Iowa
-      - 26th Missouri
+      - 10th Iowa: UIA0010RI
+      - 26th Missouri: UMO0026RI
   - Artillery
-      - 11th Battery, Ohio Light Artillery
+      - 11th Battery, Ohio Light Artillery: UOH0011YAL
 - 3rd Division (Palmer)
     - 1st Brigade
-        - 34th Indiana
-        - 47th Indiana
+        - 34th Indiana: UIN0034RI
+        - 47th Indiana: UIN0047RI
     - 2nd Brigade
-        - 43rd Indiana
-        - 46th Indiana
+        - 43rd Indiana: UIN0043RI
+        - 46th Indiana: UIN0046RI
     - Cavalry
         - 7th Illinois
 - 4th Division (Paine)
