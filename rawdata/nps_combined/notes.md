@@ -1,3 +1,12 @@
+- Unit: [UC]
+- State: [A-Z]{2}
+- Unit ID: [A-Z0-9]{4}  If an ordinal, zero-padded integer. If a name, then the 1st four letters.
+- Unit Type:
+- Special:
+- Ethnic:
+- Unit Arm:
+- Additional (optional): ([0-9]{3})?
+
 # Units
 
 ## MO010 Mount Zion Church
@@ -156,7 +165,6 @@ https://en.wikipedia.org/wiki/Island_Number_Ten_Union_order_of_battle
 - Rucker's Co (Art)
 - Pointe Coupee (Louisiana) Art
 - 1st Alabama
-      
 
 ## MO022 Glasgow
 

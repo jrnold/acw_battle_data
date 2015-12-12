@@ -159,10 +159,10 @@ LA001:
     - ["CSS_Mississippi"]
     - ["CSS_Stonewall_Jackson"]
     - ["CSS_Resolute"]
-    - ["CSS Warrior", null]
-    - ["CSS Defiance", null]
-    - ["CSS General Lovell", null]
-    - ["CSS General Breckinridge", null]
+    - ["CSS Warrior"]
+    - ["CSS Defiance"]
+    - ["CSS General Lovell"]
+    - ["CSS General Breckinridge"]
 LA003:
   name: Baton Rouge
   sources:
@@ -294,14 +294,14 @@ NC002:
     - ["General Putnam", "USS General Putnam (1857)"]
     - ["Shawsheen", "USS Shawsheen (1855)"]
     - ["Granite", "USS Granite (1862)"]
-    - ["USS Picket", null]
-    - ["USS Vidette", null]
-    - ["USS Hussar", null]
-    - ["USS Lancer", null]
-    - ["USS Ranger", null]
-    - ["USS Chasseur", null]
-    - ["USS Pioneer", null]
-    - ["USS Sentinel", null]
+    - ["USS Picket"]
+    - ["USS Vidette"]
+    - ["USS Hussar"]
+    - ["USS Lancer"]
+    - ["USS Ranger"]
+    - ["USS Chasseur"]
+    - ["USS Pioneer"]
+    - ["USS Sentinel"]
 "NC003":
   name: New Berne
   fortifications:
@@ -582,19 +582,19 @@ SC007:
   sources:
     - "https://en.wikipedia.org/wiki/Siege_of_Charleston_Harbor_Union_order_of_battle"
   US:
-    - ["USS Montauk", "USS Montauk 1862"]
-    - ["USS Nahant", "USS Nahant 1862"]
-    - ["USS Catskill", "USS Catskill 1862"]
-    - ["USS Passaic", "USS Passaic 1862"]
-    - ["USS Patapsco", "USS Patapsco 1862"]
+    - ["USS Montauk", "USS Montauk (1862)"]
+    - ["USS Nahant", "USS Nahant (1862)"]
+    - ["USS Catskill", "USS Catskill (1862)"]
+    - ["USS Passaic", "USS Passaic (1862)"]
+    - ["USS Patapsco", "USS Patapsco (1862)"]
     - ["USS New Ironsides", "USS New Ironsides"]
-    - ["USS Canandaigua", "USS Canandaigua 1862"]
-    - ["USS Mahaska", "USS Mahaska 1861"]
-    - ["USS Ottawa", "USS Ottawa 1861"]
-    - ["USS Wissahickon", "USS Wissahickon 1861"]
-    - ["USS Dai Ching", "USS Dai Ching 1863"]
-    - ["USS Lodona", "USS Lodona 1862"]
-    - ["USS Seneca", "USS Seneca 1861"]
+    - ["USS Canandaigua", "USS Canandaigua (1862)"]
+    - ["USS Mahaska", "USS Mahaska (1861)"]
+    - ["USS Ottawa", "USS Ottawa (1861)"]
+    - ["USS Wissahickon", "USS Wissahickon (1861)"]
+    - ["USS Dai Ching", "USS Dai Ching (1863)"]
+    - ["USS Lodona", "USS Lodona (1862)"]
+    - ["USS Seneca", "USS Seneca (1861)"]
   notes: >-
     These are the ships in the Siege of Charleston. Do not know which of these were used in this engagement.
 
@@ -605,19 +605,19 @@ SC009:
   fortifications:
     - Confederate
   US:
-    - ["USS Montauk", "USS Montauk 1862"]
-    - ["USS Nahant", "USS Nahant 1862"]
-    - ["USS Catskill", "USS Catskill 1862"]
-    - ["USS Passaic", "USS Passaic 1862"]
-    - ["USS Patapsco", "USS Patapsco 1862"]
+    - ["USS Montauk", "USS Montauk (1862)"]
+    - ["USS Nahant", "USS Nahant (1862)"]
+    - ["USS Catskill", "USS Catskill (1862)"]
+    - ["USS Passaic", "USS Passaic (1862)"]
+    - ["USS Patapsco", "USS Patapsco (1862)"]
     - ["USS New Ironsides", "USS New Ironsides"]
-    - ["USS Canandaigua", "USS Canandaigua 1862"]
-    - ["USS Mahaska", "USS Mahaska 1861"]
-    - ["USS Ottawa", "USS Ottawa 1861"]
-    - ["USS Wissahickon", "USS Wissahickon 1861"]
-    - ["USS Dai Ching", "USS Dai Ching 1863"]
-    - ["USS Lodona", "USS Lodona 1862"]
-    - ["USS Seneca", "USS Seneca 1861"]
+    - ["USS Canandaigua", "USS Canandaigua (1862)"]
+    - ["USS Mahaska", "USS Mahaska (1861)"]
+    - ["USS Ottawa", "USS Ottawa (1861)"]
+    - ["USS Wissahickon", "USS Wissahickon (1861)"]
+    - ["USS Dai Ching", "USS Dai Ching (1863)"]
+    - ["USS Lodona", "USS Lodona (1862)"]
+    - ["USS Seneca", "USS Seneca (1861)"]
 TN001:
   name: Fort Henry
       - "https://en.wikipedia.org/wiki/Battle_of_Fort_Henry"
@@ -804,7 +804,7 @@ VA030:
     - ["USS_Coeur_de_Lion_(1861)"]
     - ["USS_Alert_(1861)"]
     - ["USS_Smith-Briggs"]
-    - ["USS West End", null]
+    - ["USS West End"]
 VA031:
   name: "Suffolk (Hill's Point)"
   fortifications:
@@ -821,7 +821,7 @@ VA031:
     - ["USS_Coeur_de_Lion_(1861)"]
     - ["USS_Alert_(1861)"]
     - ["USS_Smith-Briggs"]
-    - ["USS West End", null]
+    - ["USS West End"]
   note: >-
     These are the ships for the siege. USS Mount Washington was removed because it was damaged at Norfleet House.
     
