@@ -74,7 +74,7 @@ https://en.wikipedia.org/wiki/Island_Number_Ten_Union_order_of_battle
         - 43rd Indiana: UIN0043RI
         - 46th Indiana: UIN0046RI
     - Cavalry
-        - 7th Illinois
+        - 7th Illinois UIL0007RC
 - 4th Division (Paine)
     - 1st Brigade
         - 10th Ill
