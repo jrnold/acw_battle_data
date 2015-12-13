@@ -11,7 +11,9 @@ battles:
       units:
       - code: UMOBIRG0SG
         name: Birge's Sharpshooters (5 companies)
+        comment: 5 companies        
       - code: UMO0003RC
+        comment: 5 companies
         name: 3rd Regiment, Missouri Cavalry (5 companies)
     date: Dec 28, 1861
     name: Mount Zion Church
@@ -91,6 +93,7 @@ battles:
         name: 26th Ill
       - code: UUR0004RC
         name: 4th US Cavalry (3 companies)
+        comment: 3 companies
       - code: UIN0059RI
         name: 59th Indiana
       - code: UIA0002RC
@@ -105,14 +108,20 @@ battles:
         name: 64th Ill Sharpshooters
       - code: UIL0001RC
         name: 1st Ill Cav, Co. H and I
+        comment: >-
+          Companies "H" and "I"
       - code: UMI0001RAL
         name: 1st Mich Artillery, Battery C & H
+        comment: >-
+          Batteries "C" and "H"
       - code: UOH0027RI
         name: 27th Ohio
       - code: UIL0002RC
         name: 2nd Regiment, Illinois Cavalry (4 companies)
+        comment: 4 companies
       - code: UUR0001RI01
         name: 1st US Infantry (6 companies)
+        comment: 6 companies
       - code: UOH0063RI
         name: 63rd Ohio
       - code: UIL0027RI
@@ -149,16 +158,20 @@ battles:
         name: 10th Il
       - code: UIL0002RAL
         name: 2nd Illinois Light Artillery (Battery I)
+        comment: Battery "I"
       - code: UIL0051RI
         name: 51st Ill
       - code: UIL0001RAL
         name: 1st Illinois Artillery, Battery C
+        comment: Battery "C"
       - code: UMO0022RI
         name: 22nd Missouri Infantry Regiment
       - code: UMO0001RAL
         name: 1st Missouri Light Artillery (Battery G)
+        comment: Battery "G"        
       - code: UUR0002RA
         name: 2nd US Artillery, Battery F
+        comment: Battery "F"
       - code: UIN0046RI
         name: 46th Indiana
       - code: UIN0034RI
