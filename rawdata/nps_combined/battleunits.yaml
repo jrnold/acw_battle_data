@@ -1,193 +1,265 @@
-units:  []
-battles: 
-    MO010:
-      name: Mount Zion Church
-      date: Dec 28, 1861
-      note: >-
-        CWSAC report lists for the US 5 companies of 3rd Missouri Cavalry, and 5 companies of Birge's Western Sharpshooters,
-        and for the Confederates, Dorsey's Battalion, Missouri Cavalry.
-        
-        The Confederate commander is [Caleb Dorsey](https://en.wikipedia.org/wiki/Caleb_W._Dorsey), who commanded the 4th Cavalry Regiment of the 2nd Division of the Missouri State Guard.
+battles:
+  MO010:
+    Confederate:
+      source: ''
+      units:
+      - unit_code: CMO0004RCS1
+        unit_name: Dorsey's Battalion, Missouri Cavalry. 4th Regiment, Missouri Cavalry
+          State Guard
+    US:
+      source: ''
+      units:
+      - code: UMOBIRG0SG
+        name: Birge's Sharpshooters (5 companies)
+      - code: UMO0003RC
+        name: 3rd Regiment, Missouri Cavalry (5 companies)
+    date: Dec 28, 1861
+    name: Mount Zion Church
+    note: 'CWSAC report lists for the US 5 companies of 3rd Missouri Cavalry, and
+      5 companies of Birge''s Western Sharpshooters, and for the Confederates, Dorsey''s
+      Battalion, Missouri Cavalry.
 
-      US:
-        source: ""
-        units:
-          UMO0003RC: "3rd Regiment, Missouri Cavalry (5 companies)"
-          UMOBIRG0SG: "Birge's Sharpshooters (5 companies)"
-      Confederate:
-        source: ""
-        units:
-          CMO0004RCS1: "Dorsey's Battalion, Missouri Cavalry. 4th Regiment, Missouri Cavalry State Guard"
+      The Confederate commander is [Caleb Dorsey](https://en.wikipedia.org/wiki/Caleb_W._Dorsey),
+      who commanded the 4th Cavalry Regiment of the 2nd Division of the Missouri State
+      Guard.'
+  MO012:
+    Confederate:
+      source: https://en.wikipedia.org/wiki/Island_Number_Ten_Confederate_order_of_battle
+      units:
+      - unit_code: CLAPOIN0A
+        unit_name: Pointe Coupee (Louisiana) Art
+      - unit_code: CAR0004BI
+        unit_name: 4th Ark Battalion
+      - unit_code: CTN0014RC01
+        unit_name: Neely's Tenn Company (Cav)
+      - unit_code: CTNSCOTCAL
+        unit_name: Bankhead's Tenn Battery
+      - unit_code: CTNSTERCAH
+        unit_name: Sterling's Tenn Co. (Art)
+      - unit_code: CTN0006RC
+        unit_name: Wheeler's Tenn Co. (Cav)
+      - unit_code: CTN0046RI01
+        unit_name: 46th Tenn
+      - unit_code: CLA0011RI
+        unit_name: 11th Louisiana
+      - unit_code: CTN0055RI
+        unit_name: 55th Tenn
+      - unit_code: CTNSTEWCA
+        unit_name: Stewart's Heavy Artillery Co.
+      - unit_code: CTNFISHCA
+        unit_name: Fisher's Tenn Co. (Art)
+      - unit_code: CTN0040RI
+        unit_name: 40th Tenn
+      - unit_code: CAL0001RI
+        unit_name: 1st Alabama
+      - unit_code: CMSHUDSC
+        unit_name: Hudson's Miss Squadron (Cav)
+      - unit_code: CLA0012RI
+        unit_name: 12th Louisiana
+      - unit_code: CTN0005RI
+        unit_name: 5th Tenn
+      - unit_code: CTNJOHNCAH
+        unit_name: Johnston's Tenn Siege Battery (Southern Guards)
+      - unit_code: CAR0012RI
+        unit_name: 12th Arkansas
+      - unit_code: CTN0001RAH
+        unit_name: Jackson's Tenn Co. (Art)
+      - unit_code: XXXXXXXXX
+        unit_name: Rucker's Co (Art)
+      - unit_code: CAL0001RI02
+        unit_name: 1st Alabama, Tenn, & Miss
+      - unit_code: CTN0031RI01
+        unit_name: 31st Tenn
+      - unit_code: CTN0004RI01
+        unit_name: 4th Tenn
+      - unit_code: CAR0011RI01
+        unit_name: 11th Arkansas
+    US:
+      source: https://en.wikipedia.org/wiki/Island_Number_Ten_Union_order_of_battle
+      units:
+      - code: UWI0006YAL
+        name: 6th Battery, Wisc Artillery
+      - code: UIA0010RI
+        name: 10th Iowa
+      - code: UWI0007YAL
+        name: 7th Battery, Wisc Artillery
+      - code: UIL0047RI
+        name: 47th Ill
+      - code: UMOENGIREV
+        name: Engineer Regiment of the West
+      - code: UIL0026RI
+        name: 26th Ill
+      - code: UUR0004RC
+        name: 4th US Cavalry (3 companies)
+      - code: UIN0059RI
+        name: 59th Indiana
+      - code: UIA0002RC
+        name: 2nd Regiment, Iowa Cavalry
+      - code: UWI0008RI
+        name: 8th Wisconsin
+      - code: UOH0011YAL
+        name: 11th Battery, Ohio Light Artillery
+      - code: UMI0002RC
+        name: 2nd Michigan Cavalry
+      - code: UIL0064RI
+        name: 64th Ill Sharpshooters
+      - code: UIL0001RC
+        name: 1st Ill Cav, Co. H and I
+      - code: UMI0001RAL
+        name: 1st Mich Artillery, Battery C & H
+      - code: UOH0027RI
+        name: 27th Ohio
+      - code: UIL0002RC
+        name: 2nd Regiment, Illinois Cavalry (4 companies)
+      - code: UUR0001RI01
+        name: 1st US Infantry (6 companies)
+      - code: UOH0063RI
+        name: 63rd Ohio
+      - code: UIL0027RI
+        name: 27th Illinois
+      - code: UIN0043RI
+        name: 43rd Indiana
+      - code: UIL0042RI
+        name: 42nd Illinois
+      - code: UMO0026RI
+        name: 26th Missouri
+      - code: UIN0047RI
+        name: 47th Indiana
+      - code: UMI0003RC
+        name: 3rd Michigan Cavalry
+      - code: UIL0022RI
+        name: 22nd Ill
+      - code: UIA0005RI
+        name: 5th Iowa
+      - code: UIL0007RC
+        name: 7th Illinois
+      - code: UWI0005YAL
+        name: 5th Battery, Wisc Artillery
+      - code: UMO0011RI
+        name: 11th Mo
+      - code: UWI0015RI
+        name: 15th Wisconsin
+      - code: UOH0029RI
+        name: 43rd Ohio
+      - code: UIL0016RI
+        name: 16th Ill
+      - code: UWI0002YAL
+        name: 2nd Battery, Iowa Artillery
+      - code: UIL0010RI01
+        name: 10th Il
+      - code: UIL0002RAL
+        name: 2nd Illinois Light Artillery (Battery I)
+      - code: UIL0051RI
+        name: 51st Ill
+      - code: UIL0001RAL
+        name: 1st Illinois Artillery, Battery C
+      - code: UMO0022RI
+        name: 22nd Missouri Infantry Regiment
+      - code: UMO0001RAL
+        name: 1st Missouri Light Artillery (Battery G)
+      - code: UUR0002RA
+        name: 2nd US Artillery, Battery F
+      - code: UIN0046RI
+        name: 46th Indiana
+      - code: UIN0034RI
+        name: 34th Indiana
+    date: Feb 28 to Apr 8, 1862
+    name: New Madrid/Battle of Island Number 10
+  MO022:
+    Confederate:
+      source: http://www.nps.gov/abpp/CWSII/MissouriBattlefieldProfiles/Fort%20Davidson%20to%20Kirksville.pdf
+      units:
+      - unit_code: CMO0008RC
+        unit_name: 8th Mo Cav
+      - unit_code: CMOHUNTRC
+        unit_name: Hunter's Mo Cav
+      - unit_code: CMO0003RC01
+        unit_name: 3rd Mo Cav
+      - unit_code: CMOJACKRC
+        unit_name: Jackman's Mo Cav
+      - unit_code: CMO0007RC
+        unit_name: 7th Mo Cav
+      - unit_code: XXXXXXXXX
+        unit_name: Collin's Missouri Battery, Shelby's Division
+      - unit_code: CMO0010RC
+        unit_name: 10th Mo Cav
+      - unit_code: CMO0004RC
+        unit_name: 4th Mo Cav
+    US:
+      source: http://www.nps.gov/abpp/CWSII/MissouriBattlefieldProfiles/Fort%20Davidson%20to%20Kirksville.pdf
+      units:
+      - code: UMO0009RCY
+        name: Missouri 9th State Militia Cavalry
+      - code: UIL0017RC
+        name: Illinois 17th Cavalry
+      - code: UMO0042RI
+        name: Missouri 42nd Infantry
+      - code: UUS0062RI00C
+        name: US 62nd Colored Infantry
+      - code: UMO0012RC
+        name: Missouri 12th Cavalry
+    date: Oct 15, 1864
+    name: Glasgow
+    notes: 'The units in Dyer and the CWSAC Report Update disagree. CWSAC report lists:
+      43rd Missouri infantry, 4th provisional reg enrolled Missouri militia, 9th cavalry
+      missouri state militia, 13th Missouri cavalry, 2 companies citizen militia.
 
-    MO012:
-      name: New Madrid/Battle of Island Number 10
-      date: Feb 28 to Apr 8, 1862
-      US:
-        source: "https://en.wikipedia.org/wiki/Island_Number_Ten_Union_order_of_battle"
-        units:
-            UOH0027RI: 27th Ohio
-            UOH0029RI: 39th Ohio
-            UOH0029RI: 43rd Ohio
-            UOH0063RI: 63rd Ohio
-            UIN0059RI: 59th Indiana
-            UIA0005RI: 5th Iowa
-            UIA0010RI: 10th Iowa
-            UMO0026RI: 26th Missouri
-            UOH0011YAL: 11th Battery, Ohio Light Artillery
-            UIN0034RI: 34th Indiana 
-            UIN0047RI: 47th Indiana
-            UIN0043RI: 43rd Indiana
-            UIN0046RI: 46th Indiana
-            UIL0007RC: 7th Illinois
-            UIL0010RI01: 10th Il
-            UIL0016RI: 16th Ill 
-            UIL0022RI: 22nd Ill
-            UIL0051RI: 51st Ill
-            UIL0001RC: "1st Ill Cav, Co. H and I"
-            UIL0064RI: 64th Ill Sharpshooters
-            UIL0047RI: 47th Ill
-            UWI0008RI: 8th Wisconsin
-            UIL0026RI: 26th Ill
-            UMO0011RI: 11th Mo
-            UMO0001RAL: "Battery M, 1st Mo. Artillery"
-            UMI0002RC: 2nd Michigan Cavalry
-            UMI0003RC: 3rd Michigan Cavalry
-            UWI0002YAL:
-            UWI0002YAL: 2nd Battery, Iowa Artillery
-            UWI0005YAL: 5th Battery, Wisc Artillery
-            UWI0006YAL: 6th Battery, Wisc Artillery
-            UWI0007YAL: 7th Battery, Wisc Artillery
-            UMI0001RAL: 1st Mich Artillery, Battery C & H
-            UIL0001RAL: 1st Illinois Artillery, Battery C
-            UUR0002RA: 2nd US Artillery, Battery F
-            UMOENGIREV : Engineer Regiment of the West
-            UMO0022RI: 22nd Missouri Infantry Regiment
-            UIA0002RC: 2nd Regiment, Iowa Cavalry
-            UIL0002RC: 2nd Regiment, Illinois Cavalry (4 companies)
-            UUR0004RC: 4th US Cavalry (3 companies)
-            UUR0001RI01: 1st US Infantry (6 companies)
-            UIL0027RI: 27th Illinois
-            UIL0042RI: 42nd Illinois
-            UWI0015RI : 15th Wisconsin
-            UIL0002RAL: 2nd Illinois Light Artillery (Battery I)
-            UMO0001RAL: 1st Missouri Light Artillery (Battery G)
+      CWSAC report update lists Marmaduke''s brigade, Jackman''s Brigage (Shelby''s
+      division), and Collin''s Missouri Battery (Shelby''s Division). Components of
+      Confederate brigades from the [Westport Order of Battle](https://en.wikipedia.org/wiki/Westport_Confederate_order_of_battle).'
+  WV009:
+    Confederate:
+      notes: CWSAC Update lists "Army of East Kentucky and Wharton's Brigade, Dept
+        of SW Virginia".
+      source: http://www.nps.gov/abpp/CWSII/WestVirginiaBattlefieldProfiles/Moorefield%20to%20Princeton%20Courthouse.pdf
+      units:
+      - unit_code: CVA0029RI
+        unit_name: Army of East Kentucky, Dept of SW Virginia (Humphrey Marshall)
+      - unit_code: XXXXXXXXX
+        unit_name: Wharton's Brigage; 56th Virginia Infantry
+    US:
+      notes: 'CWSAC Update lists "District of Kanawha". Dyer lists: KY Simmon''s Battery
+        Light Arty, OH 28th, 34th, 37th Infantry, WV 2nd cavalry (detachment)'
+      source: http://www.nps.gov/abpp/CWSII/WestVirginiaBattlefieldProfiles/Moorefield%20to%20Princeton%20Courthouse.pdf;
+        Dyer, p. 972
+      units:
+      - code: UKYSIMMYAL
+        name: Simmon's Battery Light Artillery
+      - code: UOH0034RI
+        name: Ohio 34th Infantry
+      - code: UOH0028RI
+        name: Ohio 28th Infantry
+      - code: UOH0037RI
+        name: Ohio 37th Infantry
+      - code: UWV0002RC
+        name: West Virginia 2nd Cavalry (detachment)
+    date: May 15-17, 1862
+    name: Princeton Court House
+    notes: 'Also Look at Battle of Middle Creek (Jan 10, 1862)
 
-      Confederate:
-        source: "https://en.wikipedia.org/wiki/Island_Number_Ten_Confederate_order_of_battle"
-        units:
-            CAR0011RI01: 11th Arkansas
-            CAR0012RI: 12th Arkansas
-            XXXXXXXXX: "Upton's Heavy Artillery Co."
-            CTNSTEWCA: "Stewart's Heavy Artillery Co."
-            CTN0005RI: 5th Tenn
-            CTN0040RI: 40th Tenn
-            CAL0001RI02: 1st Alabama, Tenn, & Miss
-            CTNSCOTCAL: "Bankhead's Tenn Battery"
-            CLA0012RI: 12th Louisiana
-            CTN0004RI01: 4th Tenn
-            CTN0031RI01: 31st Tenn
-            CLA0011RI: 11th Louisiana
-            XXXXXXXXX: 5th Louisiana Battalion
-            CAR0004BI: 4th Ark Battalion
-            CTN0055RI: 55th Tenn
-            CTN0046RI01: 46th Tenn
-            XXXXXXXXX: "Haywood's Tenn Co. (Cav)"
-            CMSHUDSC: "Hudson's Miss Squadron (Cav)"
-            CTN0014RC01: "Neely's Tenn Company (Cav)"
-            CTN0006RC: "Wheeler's Tenn Co. (Cav)"
-            CTN0001RAH: "Jackson's Tenn Co. (Art)"
-            CTNSTERCAH: "Sterling's Tenn Co. (Art)"
-            XXXXXXXXX: "Humes's Tenn Co. (Art)"
-            XXXXXXXXX: "Hoadley's Ark Co. (Art)"
-            XXXXXXXXX: "Jones's Tenn Co. (Art)"
-            XXXXXXXXX: "Dismuke's Ark Co. (Art)"
-            CTNFISHCA: "Fisher's Tenn Co. (Art)"
-            CTNJOHNCAH: "Johnston's Tenn Siege Battery (Southern Guards)"
-            XXXXXXXXX: "Rucker's Co (Art)"
-            CLAPOIN0A: Pointe Coupee (Louisiana) Art
-            CAL0001RI: 1st Alabama
+      Union forces
 
-    MO022:
-      name: Glasgow
-      date: Oct 15, 1864
-      notes: >-
-        The units in Dyer and the CWSAC Report Update disagree. CWSAC report lists: 43rd Missouri infantry, 4th provisional reg enrolled Missouri militia, 9th cavalry missouri state militia, 13th Missouri cavalry, 2 companies citizen militia.
+      - Kanawha Division (2 brigades) (Jacob Cox)
 
-        CWSAC report update lists Marmaduke's brigade, Jackman's Brigage (Shelby's division), and Collin's Missouri Battery (Shelby's Division). Components of Confederate brigades from the [Westport Order of Battle](https://en.wikipedia.org/wiki/Westport_Confederate_order_of_battle).
+      At time of battle (Dyer, p. 338)
 
+      - 1st Brigade (Scammon): 2? Ohio Infantry, 23rd Ohio Infantry, 30th Ohio Infantry,
+      1st Ohio Indepdent Battery - 2nd Brigade (Moor): 28th Ohio Infantry, 24th Ohio
+      Infantry, 37th Ohio Infantry, 47th Ohio Infantry, Simmonds''s Ky Battery - 3rd
+      Bridade (Crook): 11th Ohio Infantry; 36th Ohio Infantry; 44th Ohio Infantry;
+      47th Ohio Infantry - 4th Brigade (Lightburn): 4th WV Infantry; 9th WV Infantry;
+      1st WV Cav Det; Schambecks Ill Cavalry - Unattached: 8th WV Infantry; 60th Ohio
+      Infantry; 2nd WV Cav; 3rd Indpt Co Ohio Cavalry
 
-      US:
-        source: "http://www.nps.gov/abpp/CWSII/MissouriBattlefieldProfiles/Fort%20Davidson%20to%20Kirksville.pdf"
-        units:
-          UIL0017RC: Illinois 17th Cavalry
-          UMO0012RC: Missouri 12th Cavalry
-          UMO0009RCY: Missouri 9th State Militia Cavalry
-          UMO0042RI: Missouri 42nd Infantry
-          UUS0062RI00C: US 62nd Colored Infantry
-      Confederate:
-        source: "http://www.nps.gov/abpp/CWSII/MissouriBattlefieldProfiles/Fort%20Davidson%20to%20Kirksville.pdf"        
-        units: 
-            CMO0003RC01: 3rd Mo Cav
-            CMO0004RC: 4th Mo Cav
-            CMO0007RC: 7th Mo Cav
-            CMO0008RC: 8th Mo Cav
-            CMO0010RC: 10th Mo Cav
-            XXXXXXXXX: 14th Mo Cav
-            XXXXXXXXX: "Hogan's Engineer Co"
-            CMOHUNTRC: "Hunter's Mo Cav"
-            CMOJACKRC: "Jackman's Mo Cav"
-            XXXXXXXXX: "Schnable's Mo Cav Battalion"
-            XXXXXXXXX: "Williams' Mo Cav Battalion"
-            XXXXXXXXX: "Collin's Missouri Battery, Shelby's Division"
+      From Dyer p. 972
 
-    WV009:
-      name: Princeton Court House
-      date: May 15-17, 1862
-      notes: >-
-        Also Look at Battle of Middle Creek (Jan 10, 1862)
+      - KY Simmons'' Battery Light Arty - OH 28th Infantry - OH 34th Infantry - OH
+      37th Infantry - WV 2nd Cav (det)
 
-        Union forces
+      Confederate Forces
 
-        - Kanawha Division (2 brigades) (Jacob Cox)
+      - Army of East Kentucky, Dept of SW Virginia (Humphrey Marshall) ''CVA0029RI''
+      Same as in KY005 (Middle Creek)
 
-        At time of battle (Dyer, p. 338)
-
-        - 1st Brigade (Scammon): 2? Ohio Infantry, 23rd Ohio Infantry, 30th Ohio Infantry, 1st Ohio Indepdent Battery
-        - 2nd Brigade (Moor): 28th Ohio Infantry, 24th Ohio Infantry, 37th Ohio Infantry, 47th Ohio Infantry, Simmonds's Ky Battery
-        - 3rd Bridade (Crook): 11th Ohio Infantry; 36th Ohio Infantry; 44th Ohio Infantry; 47th Ohio Infantry
-        - 4th Brigade (Lightburn): 4th WV Infantry; 9th WV Infantry; 1st WV Cav Det; Schambecks Ill Cavalry
-        - Unattached: 8th WV Infantry; 60th Ohio Infantry; 2nd WV Cav; 3rd Indpt Co Ohio Cavalry
-
-        From Dyer p. 972
-
-        - KY Simmons' Battery Light Arty
-        - OH 28th Infantry
-        - OH 34th Infantry
-        - OH 37th Infantry
-        - WV 2nd Cav (det)
-
-        Confederate Forces
-
-        - Army of East Kentucky, Dept of SW Virginia (Humphrey Marshall) 'CVA0029RI' Same as in KY005 (Middle Creek)
-
-        Militia of Wise, Scott, and Lee counties. Small force of about 1500 troops.
-        
-      US:
-        notes: >-
-          CWSAC Update lists "District of Kanawha". Dyer lists: KY Simmon's Battery Light Arty, OH 28th, 34th, 37th Infantry, WV 2nd cavalry (detachment)
-          
-        source: "http://www.nps.gov/abpp/CWSII/WestVirginiaBattlefieldProfiles/Moorefield%20to%20Princeton%20Courthouse.pdf; Dyer, p. 972"
-        units: 
-            UKYSIMMYAL: "Simmon's Battery Light Artillery"
-            UOH0028RI: Ohio 28th Infantry
-            UOH0034RI: Ohio 34th Infantry
-            UOH0037RI: Ohio 37th Infantry
-            UWV0002RC: West Virginia 2nd Cavalry (detachment)
-      Confederate:
-        notes: >-
-          CWSAC Update lists "Army of East Kentucky and Wharton's Brigade, Dept of SW Virginia".
-        source: "http://www.nps.gov/abpp/CWSII/WestVirginiaBattlefieldProfiles/Moorefield%20to%20Princeton%20Courthouse.pdf"
-        units:
-          CVA0029RI: Army of East Kentucky, Dept of SW Virginia (Humphrey Marshall)
-          XXXXXXXXX: "Wharton's Brigage; 51st Virginia Infantry"
-          XXXXXXXXX: "Wharton's Brigage; 56th Virginia Infantry"          
+      Militia of Wise, Scott, and Lee counties. Small force of about 1500 troops.'
+units: []
