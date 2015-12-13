@@ -93,12 +93,12 @@ gen_battlelist <-
 #'
 #' 	- SC008 Fort Sumter II
 #'
-#'     - 1863-8-17 to 1863-12-31 : AAD, CWSAC I
+#'    - 1863-8-17 to 1863-12-31 : AAD, CWSAC I
 #' 		- 1863-8-17 to 1863-9-8 : CWSAC II, CWSS
 #'
 #' 	- SC009 Charleston Harbor II
 #'
-#'     - 1863-9-7 to 1863-9-8: AAD, CWSAC I
+#'    - 1863-9-7 to 1863-9-8: AAD, CWSAC I
 #' 		- 1963-8-22 to 1863-8-23 and 1863-9-5 to 1863-9-8 : CWSAC II
 #' 		- 1863-9-5 to 1863-9-8 : CWSS
 #'
@@ -108,7 +108,7 @@ gen_battlelist <-
 #' - AL008 Ebenezer Church (?): only appears in CWSS (but no data). This is probably the battle on April 1, 1865 between Wilson and Forrest, the day before the Battle of Selma on April 2, 1865.
 #' - White Oak Swamp and Glendale (VA020)
 #'
-#'     - Split into VA020a (White Oak Swamp) into VA020b (Glendale) : AAD, CWSAC I
+#'    - Split into VA020a (White Oak Swamp) into VA020b (Glendale) : AAD, CWSAC I
 #' 	  - Combined: CWSAC II
 #' 	  - CWSAC has data with VA020A, VA020B, and VA020
 #'
