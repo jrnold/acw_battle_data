@@ -11,6 +11,17 @@ schema:
     name: UnitCode
     title: Unit code
     type: string
+    description: >-
+      - Side: [UC]
+      - Unit ID: [A-Z0-9]{4}
+      - Type: [ABCDLRSXYo]
+      - Function: [ACEGIMS0]
+      - Ethnic: [IC]?
+      - Special [BDEGHJLMNPRSTUVWXYZ]?
+      - Additional ID. 3 digit number.
+      
+
+      
   - format: default
     name: UnitName
     title: Unit name
