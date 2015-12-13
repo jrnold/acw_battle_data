@@ -7,14 +7,12 @@ battles:
         unit_name: Dorsey's Battalion, Missouri Cavalry. 4th Regiment, Missouri Cavalry
           State Guard
     US:
-      source: ''
+      source: DYER
       units:
       - code: UMOBIRG0SG
-        name: Birge's Sharpshooters (5 companies)
-        comment: 5 companies        
+        name: 14th Infantry. Birge's Sharpshooters
       - code: UMO0003RC
-        comment: 5 companies
-        name: 3rd Regiment, Missouri Cavalry (5 companies)
+        name: 3rd Regiment, Missouri Cavalry
     date: Dec 28, 1861
     name: Mount Zion Church
     note: 'CWSAC report lists for the US 5 companies of 3rd Missouri Cavalry, and
@@ -223,7 +221,7 @@ battles:
       - unit_code: CMO0004RC
         unit_name: 4th Mo Cav
     US:
-      source: http://www.nps.gov/abpp/CWSII/MissouriBattlefieldProfiles/Fort%20Davidson%20to%20Kirksville.pdf
+      source: DYER
       units:
       - code: UMO0009RCY
         name: Missouri 9th State Militia Cavalry
@@ -244,6 +242,7 @@ battles:
       CWSAC report update lists Marmaduke''s brigade, Jackman''s Brigage (Shelby''s
       division), and Collin''s Missouri Battery (Shelby''s Division). Components of
       Confederate brigades from the [Westport Order of Battle](https://en.wikipedia.org/wiki/Westport_Confederate_order_of_battle).'
+
   WV009:
     Confederate:
       notes: >-
@@ -269,8 +268,7 @@ battles:
     US:
       notes: 'CWSAC Update lists "District of Kanawha". Dyer lists: KY Simmon''s Battery
         Light Arty, OH 28th, 34th, 37th Infantry, WV 2nd cavalry (detachment)'
-      source: http://www.nps.gov/abpp/CWSII/WestVirginiaBattlefieldProfiles/Moorefield%20to%20Princeton%20Courthouse.pdf;
-        Dyer, p. 972
+      source: DYER
       units:
       - code: UKYSIMMYAL
         name: Simmon's Battery Light Artillery
@@ -285,7 +283,8 @@ battles:
         comment: Detachment
     date: May 15-17, 1862
     name: Princeton Court House
-    notes: 'Also Look at Battle of Middle Creek (Jan 10, 1862)
+    notes: >-
+      Also Look at Battle of Middle Creek (Jan 10, 1862)
 
       Union forces
 
