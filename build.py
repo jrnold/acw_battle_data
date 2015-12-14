@@ -101,6 +101,10 @@ def build_cdb90(src, dst):
 def build_misc(src, dst):
     print("build_misc")
     sp.check_call([PYTHON, "bin/build_misc.py", src, dst])
+
+def build_ships(src, dst):
+    print("build_ships")
+    sp.check_call([PYTHON, "bin/build_ships.py", src, dst])
     
 def build_metadata(src, dst):
     print("build_metadata")
@@ -126,8 +130,8 @@ def build(src, dst, docs):
     build_shenandoah(src, dst)    
     build_cwsac(src, dst)
     build_cws2(src, dst)
-    build_cwss(src, dst)
-    build_nps(src, dst)
+    #build_cwss(src, dst)
+    #build_nps(src, dst)
     build_bodart(src, dst)
     build_dyer(src, dst)
     build_wikipedia(src, dst)
@@ -140,6 +144,7 @@ def build(src, dst, docs):
     build_phisterer(src, dst)
     build_clodfelter(src, dst)
     build_cdb90(src, dst)
+    build_ships(src, dst)
     build_misc(src, dst)
     # metadata
     build_metadata(src, dst)

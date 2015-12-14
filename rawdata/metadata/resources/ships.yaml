@@ -1,0 +1,20 @@
+format: csv
+name: ships
+path: data/ships.csv
+schema:
+  fields:
+  - format: default
+    name: name
+    title: Ship name
+    type: string
+  - format: default
+    name: belligerent
+    title: Belligerent
+    type: string
+  - format: default
+    name: url_dbpedia
+    title: dbpedia Link
+    type: string
+sources:
+  - jrnold
+title: Ship List
