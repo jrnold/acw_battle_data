@@ -28,7 +28,7 @@ duplicate  number  duplicate
 ethnic     string  ethnic
 unit_name  string  unit_name
 notes      string  notes
-function   string  function
+func       string  func
 =========  ======  =========
 
 unit_code
@@ -163,10 +163,10 @@ notes
 
 
        
-function
---------
+func
+----
 
-:title: function
+:title: func
 :type: string
 :format: default
 

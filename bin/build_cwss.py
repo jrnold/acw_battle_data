@@ -263,7 +263,9 @@ def build_units(src, dst):
     data = pandas.read_csv(srcfile, sep = '\t')
     data.rename(columns = lambda k: k.lower().replace('reg_', ''),
                 inplace = True)
-    data = data.query('~ isdelete')    
+    data.rename(columns = {'function': 'func'}, inplace = True)
+    data = data.query('~ isdelete')
+    data = data[~ data.unit_code.str.match('admin[0-9]', flags = re.IGNORECASE)]
     for x in ('pubdate',
               'updatedate',
               'updateby',
