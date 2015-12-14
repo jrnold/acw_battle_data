@@ -63,6 +63,7 @@ def make_metadata(src, yamlfile):
     return meta
 
 def build_meta(src, dst):
+    print("Building metadata")
     metadir = path.join(src, "rawdata", "metadata", "resources")
     for filename in os.listdir(dst):
         if not filename in ("datapackage.json", ):

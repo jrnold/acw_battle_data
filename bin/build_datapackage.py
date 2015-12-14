@@ -77,9 +77,8 @@ def build(src, dst):
     meta_res_dir =  path.join(metadir, 'resources')
     data = process_dpkg(path.join(metadir, 'datapackage.yaml'))
     data['resources'] = []
-    for filename in os.listdir(meta_res_dir):
+    for filename in sorted(os.listdir(meta_res_dir)):
         if fnmatch.fnmatch(filename, '*.yaml'):
-            print(filename)
             res = process_resource(path.join(meta_res_dir, filename))
             if res:
                 data['resources'].append(res)
