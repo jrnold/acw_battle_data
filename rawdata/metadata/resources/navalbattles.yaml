@@ -10,51 +10,25 @@ schema:
     title: CWSAC Id.
     type: string
   - format: default
-    name: battle_name
-    title: Battle name
-    type: string
+    name: confederate_ships
+    title: confederate_ships
+    type: integer
   - description: Number of Union ships (including gunships, wooden warships, ironclads,
       and rams; excluding transports)
     format: default
     name: us_ships
     title: Union ships
     type: integer
-  - description: Number of Confederate ships (including gunships, wooden warships,
-      ironclads, and rams; excluding transports)
+  - description: Were any Confederate fortifications involved in the battle?
     format: default
-    name: cs_ships
-    title: Confederate ships
-    type: integer
-  - description: Did the battle only involve naval forces?
-    format: default
-    name: all_naval
-    title: All Naval Battle? This is defined as a battle between two naval forces,
-      or ships and a fort when no land forces were involved.
+    name: confederate_fortifications
+    title: confederate_fortifications
     type: boolean
-  - description: Did the battle involve the US Navy?
+  - description: Were any US fortifications involved in the battle?
     format: default
-    name: us_navy
-    title: US Navy
+    name: us_fortifications
+    title: us_fortifications
     type: boolean
-  - description: Did the battle involve the Confederate Navy?
-    format: default
-    name: cs_navy
-    title: Confederate Navy
-    type: integer
-  - description: Did the battle involve a US fort?
-    format: default
-    name: us_fort
-    title: US Fort
-    type: integer
-  - description: Did the battle involve a Confederate fort?
-    format: default
-    name: cs_fort
-    title: Confederate Fort
-    type: integer
-  - format: default
-    name: comments
-    title: Comments
-    type: string
 sources:
 - jrnold
-title: Naval battle data
+title: List of naval battles
