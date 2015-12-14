@@ -1,6 +1,65 @@
 #!/usr/bin/env Rscript
 source("R/misc.R")
 
+# Need to fix commanders
+        ## # Fix commanders for VA068
+        ## writer.writerow({"BattlefieldCode": "VA068",
+        ##                  "belligerent": "Confederate",
+        ##                  "commander_number": 1,
+        ##                  "commander": "9e1353da-e14e-4a33-9169-19b95b173cd1"})
+        ## writer.writerow({"BattlefieldCode": "VA068",
+        ##                  "belligerent": "Confederate",
+        ##                  "commander_number": 2,
+        ##                  "commander": "67a922f1-6dc9-4ba8-89aa-e33f842197e2"})
+        ## # James Wilson
+        ## writer.writerow({"BattlefieldCode": "VA068",
+        ##                  "belligerent": "US",
+        ##                  "commander_number": 1,
+        ##                  "commander": "460c9e8f-625e-490f-8eda-7385907b8d3f"})
+        ## # August Kautz
+        ## writer.writerow({"BattlefieldCode": "VA068",
+        ##                  "belligerent": "US",
+        ##                  "commander_number": 2,
+        ##                  "commander": "cb8dc6d1-211d-4278-875a-5f479f65d85b"})
+        ## # Add Mahone for VA072
+        ## writer.writerow({"BattlefieldCode": "VA072",
+        ##                  "belligerent": "Confederate",
+        ##                  "commander_number": 4,
+        ##                  "commander": "9e1353da-e14e-4a33-9169-19b95b173cd1"})
+        ## # Add Fitzhugh Lee for VA086
+        ## writer.writerow({"BattlefieldCode": "VA086",
+        ##                  "belligerent": "Confederate",
+        ##                  "commander_number": 2,
+        ##                 "commander": "67a922f1-6dc9-4ba8-89aa-e33f842197e2"})
+        ## # Add Renshaw for TX003
+        ## writer.writerow({"BattlefieldCode": "TX003",
+        ##                  "belligerent": "US",
+        ##                  "commander_number": 2,
+        ##                  "commander": "65815655-0c83-4511-9e7b-2ce4d0ca632c"})
+        ## # Fix commanders for VA095
+        ## # US: A. A. Humphreys
+        ## writer.writerow({"BattlefieldCode": "VA095",
+        ##                  "belligerent": "US",
+        ##                  "commander_number": 1,
+        ##                  "commander": "0739970d-f176-49aa-958c-f26397e326bb"})
+        ## # CS: Thomas Rosser
+        ## writer.writerow({"BattlefieldCode": "VA095",
+        ##                  "belligerent": "Confederate",
+        ##                  "commander_number": 1,
+        ##                  "commander": "0dca3f2d-e93f-4908-bda9-bb23f411857b"})
+        ## # CS: William Mahone
+        ## writer.writerow({"BattlefieldCode": "VA095",
+        ##                  "belligerent": "Confederate",
+        ##                  "commander_number": 2,
+        ##                  "commander": "9e1353da-e14e-4a33-9169-19b95b173cd1"})
+        ## # Change US SC009 commander to Quincy Gilmore
+        ## writer.writerow({"BattlefieldCode": "SC009",
+        ##                  "belligerent": "US",
+        ##                  "commander_number": 1,
+        ##                  "commander": "0da38dda-60e3-47f7-a3fa-4f8c10e1900d"})
+                        
+
+
 #' Fix AAD reference IDs
 aad_to_cwsac_id <- function(x) {
   plyr::revalue(x, c("AR010A" = "AR010", "GA013A" = "GA013"))

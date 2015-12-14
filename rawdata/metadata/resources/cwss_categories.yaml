@@ -19,28 +19,4 @@ schema:
     name: description
     title: description
     type: string
-  - format: default
-    name: isdelete
-    title: isdelete
-    type: boolean
-  - format: default
-    name: pubdate
-    title: pubdate
-    type: string
-  - format: default
-    name: updatedate
-    title: updatedate
-    type: string
-  - format: default
-    name: updateby
-    title: updateby
-    type: number
-  - format: default
-    name: updatetype
-    title: updatetype
-    type: string
-  - format: default
-    name: comments
-    title: comments
-    type: number
 title: cwss_categories

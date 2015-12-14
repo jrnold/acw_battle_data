@@ -3,30 +3,21 @@ name: cwss_unittiles
 path: data/cwss_unittiles.csv
 schema:
   fields:
-  - format: default
+  - constraints:
+      pattern: '[A-Z]{2}'
+    description: 2-letter abbreviation of the state or unit type. This includes more
+      than states, e.g. US for Union Colored troops, and UR for Union regular army.
+    format: default
     name: state
     title: state
     type: string
-    constraints:
-      pattern: "[A-Z]{2}"
-    description: >-
-      2-letter abbreviation of the state or unit type. This includes more than states, e.g. US for Union Colored troops, and UR for Union regular army.
-      
   - format: default
     name: side
     title: side
     type: string
-  - format: default
+  - description: Unit type
+    format: default
     name: title
     title: Unit Title
-    type: string
-    description: Unit type
-  - format: default
-    name: isdelete
-    title: isdelete
-    type: boolean
-  - format: default
-    name: pubdate
-    title: pubdate
     type: string
 title: CWSS Unit Titles

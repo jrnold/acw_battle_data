@@ -4,19 +4,15 @@ path: data/cwss_state_names.csv
 schema:
   fields:
   - format: default
-    name: state_abbr
-    title: state_abbr
+    name: abbr
+    title: abbr
     type: string
   - format: default
-    name: state_name
-    title: state_name
+    name: name
+    title: name
     type: string
   - format: default
-    name: state_isdelete
-    title: state_isdelete
-    type: boolean
-  - format: default
-    name: state_pubdate
-    title: state_pubdate
+    name: pubdate
+    title: pubdate
     type: string
 title: cwss_state_names

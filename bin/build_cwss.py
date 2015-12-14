@@ -161,7 +161,7 @@ def commander_csv(root, dst):
                 enemy = "Native American"
             for i, ordinal in enumerate(("First", "Second", "Third")):
                 if properties.find(xmlns("d:%sEnemyCommander" % ordinal)).text is not None:
-                    if re.search("\\S", properties.find(xmlns("d:%sEnemyCommander" % ordinal)).text) and battlecode not in ("VA068", "VA095"):
+                    if re.search("\\S", properties.find(xmlns("d:%sEnemyCommander" % ordinal)).text):
                         writer.writerow({'BattlefieldCode' : battlecode.upper(),
                                          'belligerent' : enemy,
                                          'commander_number' : i + 1,
@@ -170,73 +170,18 @@ def commander_csv(root, dst):
                 if properties.find(xmlns("d:%sUSCommander" % ordinal)).text is not None:
                     if (battlecode == "MO026" and ordinal == "Second"):
                         # Fix Alfred Pleasonton for MO026
+                        # The XML file gives the name rather than the UUID
                         writer.writerow({'BattlefieldCode': "MO026",
                                          "belligerent": "US",
                                          "commander_number": 2,
                                          "commander": "90849b39-6f3a-4d88-af29-ddded5d1733a"})
                     else:
-                        if re.search("\\S", properties.find(xmlns("d:%sUSCommander" % ordinal)).text) and battlecode not in ("VA068", "VA095", "SC009"):
+                        if re.search("\\S", properties.find(xmlns("d:%sUSCommander" % ordinal)).text):
                             writer.writerow({'BattlefieldCode' : battlecode.upper(),
                                              'belligerent' : "US",
                                              'commander_number' : i + 1,  
                                              'commander' : guid_clean(properties.find(xmlns("d:%sUSCommander" % ordinal)).text)
                             })
-        # Fix commanders for VA068
-        writer.writerow({"BattlefieldCode": "VA068",
-                         "belligerent": "Confederate",
-                         "commander_number": 1,
-                         "commander": "9e1353da-e14e-4a33-9169-19b95b173cd1"})
-        writer.writerow({"BattlefieldCode": "VA068",
-                         "belligerent": "Confederate",
-                         "commander_number": 2,
-                         "commander": "67a922f1-6dc9-4ba8-89aa-e33f842197e2"})
-        # James Wilson
-        writer.writerow({"BattlefieldCode": "VA068",
-                         "belligerent": "US",
-                         "commander_number": 1,
-                         "commander": "460c9e8f-625e-490f-8eda-7385907b8d3f"})
-        # August Kautz
-        writer.writerow({"BattlefieldCode": "VA068",
-                         "belligerent": "US",
-                         "commander_number": 2,
-                         "commander": "cb8dc6d1-211d-4278-875a-5f479f65d85b"})
-        # Add Mahone for VA072
-        writer.writerow({"BattlefieldCode": "VA072",
-                         "belligerent": "Confederate",
-                         "commander_number": 4,
-                         "commander": "9e1353da-e14e-4a33-9169-19b95b173cd1"})
-        # Add Fitzhugh Lee for VA086
-        writer.writerow({"BattlefieldCode": "VA086",
-                         "belligerent": "Confederate",
-                         "commander_number": 2,
-                        "commander": "67a922f1-6dc9-4ba8-89aa-e33f842197e2"})
-        # Add Renshaw for TX003
-        writer.writerow({"BattlefieldCode": "TX003",
-                         "belligerent": "US",
-                         "commander_number": 2,
-                         "commander": "65815655-0c83-4511-9e7b-2ce4d0ca632c"})
-        # Fix commanders for VA095
-        # US: A. A. Humphreys
-        writer.writerow({"BattlefieldCode": "VA095",
-                         "belligerent": "US",
-                         "commander_number": 1,
-                         "commander": "0739970d-f176-49aa-958c-f26397e326bb"})
-        # CS: Thomas Rosser
-        writer.writerow({"BattlefieldCode": "VA095",
-                         "belligerent": "Confederate",
-                         "commander_number": 1,
-                         "commander": "0dca3f2d-e93f-4908-bda9-bb23f411857b"})
-        # CS: William Mahone
-        writer.writerow({"BattlefieldCode": "VA095",
-                         "belligerent": "Confederate",
-                         "commander_number": 2,
-                         "commander": "9e1353da-e14e-4a33-9169-19b95b173cd1"})
-        # Change US SC009 commander to Quincy Gilmore
-        writer.writerow({"BattlefieldCode": "SC009",
-                         "belligerent": "US",
-                         "commander_number": 1,
-                         "commander": "0da38dda-60e3-47f7-a3fa-4f8c10e1900d"})
-                        
                                         
 def forces_csv(root, dst):
     fields = ('BattlefieldCode', 'belligerent', 'TroopsEngaged', "Casualties")
@@ -316,12 +261,17 @@ def build_units(src, dst):
                         'data', 'new', 'tsv', 'Regiments_Unitz.tsv')
     dstfile = path.join(dst, 'cwss_regiments_units.csv')
     data = pandas.read_csv(srcfile, sep = '\t')
-    data.rename(columns = lambda k: k.lower(), inplace = True)
-    for x in ('reg_pubdate',
-              'reg_updatedate',
-              'reg_updateby',
-              'reg_comments',
-              'reg_updatetype'):
+    data.rename(columns = lambda k: k.lower().replace('reg_', ''),
+                inplace = True)
+    data = data.query('~ isdelete')    
+    for x in ('pubdate',
+              'updatedate',
+              'updateby',
+              'comments',
+              'updatetype',
+              'isdelete',
+              'longhistory',
+              'history'):
         del data[x]
     print("Writing: %s" % dstfile)
     data.to_csv(dstfile, index = False)
@@ -330,15 +280,18 @@ def build_state_names(src, dst):
     srcfile = path.join(src, 'dependencies', 'cwss',
                         'data', 'new', 'tsv', 'State_Name.tsv')
     dstfile = path.join(dst, 'cwss_state_names.csv')
-    state_names = pandas.read_csv(srcfile, sep = '\t')
-    state_names.rename(columns = lambda k: k.lower(), inplace = True)
-    for x in ('state_updateby',
-              'state_updatedate',
-              'state_updatetype',
-              'state_comments'):
-        del state_names[x]
+    data = pandas.read_csv(srcfile, sep = '\t')
+    data.rename(columns = lambda k: k.lower().replace('state_', ''),
+                       inplace = True)
+    data = data.query('~ isdelete')        
+    for x in ('updateby',
+              'updatedate',
+              'updatetype',
+              'isdelete',
+              'comments'):
+        del data[x]
     print("Writing: %s" % dstfile)
-    state_names.to_csv(dstfile, index = False)
+    data.to_csv(dstfile, index = False)
 
 def build_unit_titles(src, dst):
     src_unititles = path.join(src, 'dependencies', 'cwss',
@@ -350,14 +303,16 @@ def build_unit_titles(src, dst):
     contitles = pandas.read_csv(src_contitles, sep = '\t')
     newdata = pandas.concat([unititles, contitles])
     newdata.rename(columns = lambda k: k.lower(), inplace = True)
+    newdata = newdata.query('~ isdelete')    
     for col in ('updatedate',
                 'updateby',
                 'updatetype',
+                'isdelete',
                 'comments',
                 'pubdate'):
         del newdata[col]
-    newdata.to_replace({'side': {'C': 'Confederate',
-                                 'U': 'US'}})
+    newdata.replace({'side': {'C': 'Confederate',
+                              'U': 'US'}})
     print("Writing: %s" % dstfile)
     newdata.to_csv(dstfile, index = False)
 
@@ -365,10 +320,18 @@ def build_category(src, dst):
     srcfile = path.join(src, 'dependencies', 'cwss',
                           'data', 'new', 'tsv', 'Category.tsv')
     dstfile = path.join(dst, 'cwss_categories.csv')
-    newdata = pandas.read_csv(srcfile, sep = '\t')
-    newdata.rename(columns = lambda k: k.lower(), inplace = True)
+    data = pandas.read_csv(srcfile, sep = '\t')
+    data.rename(columns = lambda k: k.lower(), inplace = True)
+    data = data.query('~ isdelete')
+    for col in ('updatedate',
+                'updateby',
+                'isdelete',
+                'updatetype',
+                'comments',
+                'pubdate'):
+        del data[col]
     print("Writing: %s" % dstfile)
-    newdata.to_csv(dstfile, index = False)
+    data.to_csv(dstfile, index = False)
 
 def build(src, dst):
     parser = ET.XMLParser(encoding = 'cp1252')

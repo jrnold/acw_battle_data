@@ -16,17 +16,16 @@ Schema
 
 
 
-==============  =======  ==============
-state_abbr      string   state_abbr
-state_name      string   state_name
-state_isdelete  boolean  state_isdelete
-state_pubdate   string   state_pubdate
-==============  =======  ==============
+=======  ======  =======
+abbr     string  abbr
+name     string  name
+pubdate  string  pubdate
+=======  ======  =======
 
-state_abbr
-----------
+abbr
+----
 
-:title: state_abbr
+:title: abbr
 :type: string
 :format: default
 
@@ -35,10 +34,10 @@ state_abbr
 
 
        
-state_name
-----------
+name
+----
 
-:title: state_name
+:title: name
 :type: string
 :format: default
 
@@ -47,22 +46,10 @@ state_name
 
 
        
-state_isdelete
---------------
+pubdate
+-------
 
-:title: state_isdelete
-:type: boolean
-:format: default
-
-
-
-
-
-       
-state_pubdate
--------------
-
-:title: state_pubdate
+:title: pubdate
 :type: string
 :format: default
 

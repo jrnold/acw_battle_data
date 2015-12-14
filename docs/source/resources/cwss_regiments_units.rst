@@ -1,6 +1,6 @@
-####################
-cwss_regiments_units
-####################
+###############
+CWSS unit lists
+###############
 
 :name: cwss_regiments_units
 :path: data/cwss_regiments_units.csv
@@ -16,52 +16,25 @@ Schema
 
 
 
-===============  =======  ===============
-reg_unit_code    string   reg_unit_code
-reg_side         string   reg_side
-reg_state        string   reg_state
-reg_ordinal      string   reg_ordinal
-reg_arm          string   reg_arm
-reg_type         string   reg_type
-reg_special      string   reg_special
-reg_duplicate    number   reg_duplicate
-reg_ethnic       string   reg_ethnic
-reg_history      string   reg_history
-reg_unit_name    string   reg_unit_name
-reg_notes        string   reg_notes
-reg_function     string   reg_function
-reg_longhistory  string   reg_longhistory
-reg_isdelete     boolean  reg_isdelete
-===============  =======  ===============
+=========  ======  =========
+unit_code  string  unit_code
+side       string  side
+state      string  state
+ordinal    string  ordinal
+arm        string  arm
+type       string  type
+special    string  special
+duplicate  number  duplicate
+ethnic     string  ethnic
+unit_name  string  unit_name
+notes      string  notes
+function   string  function
+=========  ======  =========
 
-reg_unit_code
--------------
-
-:title: reg_unit_code
-:type: string
-:format: default
-
-
-
-
-
-       
-reg_side
---------
-
-:title: reg_side
-:type: string
-:format: default
-
-
-
-
-
-       
-reg_state
+unit_code
 ---------
 
-:title: reg_state
+:title: unit_code
 :type: string
 :format: default
 
@@ -70,10 +43,10 @@ reg_state
 
 
        
-reg_ordinal
------------
+side
+----
 
-:title: reg_ordinal
+:title: side
 :type: string
 :format: default
 
@@ -82,10 +55,22 @@ reg_ordinal
 
 
        
-reg_arm
+state
+-----
+
+:title: state
+:type: string
+:format: default
+
+
+
+
+
+       
+ordinal
 -------
 
-:title: reg_arm
+:title: ordinal
 :type: string
 :format: default
 
@@ -94,10 +79,10 @@ reg_arm
 
 
        
-reg_type
---------
+arm
+---
 
-:title: reg_type
+:title: arm
 :type: string
 :format: default
 
@@ -106,10 +91,10 @@ reg_type
 
 
        
-reg_special
------------
+type
+----
 
-:title: reg_special
+:title: type
 :type: string
 :format: default
 
@@ -118,10 +103,22 @@ reg_special
 
 
        
-reg_duplicate
--------------
+special
+-------
 
-:title: reg_duplicate
+:title: special
+:type: string
+:format: default
+
+
+
+
+
+       
+duplicate
+---------
+
+:title: duplicate
 :type: number
 :format: default
 
@@ -130,10 +127,10 @@ reg_duplicate
 
 
        
-reg_ethnic
-----------
+ethnic
+------
 
-:title: reg_ethnic
+:title: ethnic
 :type: string
 :format: default
 
@@ -142,34 +139,10 @@ reg_ethnic
 
 
        
-reg_history
------------
-
-:title: reg_history
-:type: string
-:format: default
-
-
-
-
-
-       
-reg_unit_name
--------------
-
-:title: reg_unit_name
-:type: string
-:format: default
-
-
-
-
-
-       
-reg_notes
+unit_name
 ---------
 
-:title: reg_notes
+:title: unit_name
 :type: string
 :format: default
 
@@ -178,10 +151,10 @@ reg_notes
 
 
        
-reg_function
-------------
+notes
+-----
 
-:title: reg_function
+:title: notes
 :type: string
 :format: default
 
@@ -190,23 +163,11 @@ reg_function
 
 
        
-reg_longhistory
----------------
+function
+--------
 
-:title: reg_longhistory
+:title: function
 :type: string
-:format: default
-
-
-
-
-
-       
-reg_isdelete
-------------
-
-:title: reg_isdelete
-:type: boolean
 :format: default
 
 

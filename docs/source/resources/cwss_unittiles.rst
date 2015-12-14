@@ -1,6 +1,6 @@
-##############
-cwss_unittiles
-##############
+################
+CWSS Unit Titles
+################
 
 :name: cwss_unittiles
 :path: data/cwss_unittiles.csv
@@ -16,13 +16,11 @@ Schema
 
 
 
-========  =======  ========
-state     string   state
-side      string   side
-title     string   title
-isdelete  boolean  isdelete
-pubdate   string   pubdate
-========  =======  ========
+=====  ======  ==========
+state  string  state
+side   string  side
+title  string  Unit Title
+=====  ======  ==========
 
 state
 -----
@@ -30,9 +28,11 @@ state
 :title: state
 :type: string
 :format: default
+:constraints:
+    :pattern: [A-Z]{2}
+    
 
-
-
+2-letter abbreviation of the state or unit type. This includes more than states, e.g. US for Union Colored troops, and UR for Union regular army.
 
 
        
@@ -51,36 +51,12 @@ side
 title
 -----
 
-:title: title
+:title: Unit Title
 :type: string
 :format: default
 
 
-
-
-
-       
-isdelete
---------
-
-:title: isdelete
-:type: boolean
-:format: default
-
-
-
-
-
-       
-pubdate
--------
-
-:title: pubdate
-:type: string
-:format: default
-
-
-
+Unit type
 
 
        
