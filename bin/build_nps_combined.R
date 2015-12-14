@@ -2,140 +2,6 @@
 source("R/misc.R")
 
 
-{"BattlefieldCode": "MO012",
-         "belligerent": "Confederate",
-         "Name": "William W. Mackall",
-         "PersonID": "9514b7b0-7398-44aa-89c2-0e8a1f09f32f",
-         "commander_number": 1},
-        {"BattlefieldCode": "MO012",
-         "belligerent": "Confederate",
-         "Name": "John P. McCown",
-         "PersonID": "398e7c38-3636-45b4-aa8f-600546e762ca",
-          "commander_number": 2},
-        {"BattlefieldCode": "MO012",
-         "belligerent": "US",
-         "Name": "John Pope",
-         "PersonID": "60853683-b235-4e03-abcb-68edc8339fa5",
-         "commander_number": 1},
-        {"BattlefieldCode": "MO012",
-         "belligerent": "US",
-         "Name": "Andrew H. Foote",
-         "PersonID": "571ac77d-3839-4b5f-9d47-d7e83bacfe60",
-         "commander_number": 2},
-        {"BattlefieldCode": "MO010",
-         "belligerent": "Confederate",
-         "Name": "Caleb Dorsey",
-         "PersonID": "73e2e794-9dab-40f5-b28f-25ad915208d4",
-         "commander_number": 1},
-        {"BattlefieldCode": "MO010",
-         "belligerent": "US",
-         "Name": "Benjamin Prentiss",
-         "PersonID": "84cac7af-39b5-4fda-af6a-303608eec2c3",
-         "commander_number": 1},
-        {"BattlefieldCode": "MO022",
-         "belligerent": "Confederate",
-         "Name": "Joe Shelby",
-         "PersonID": "874fad05-2f21-424a-8f03-1358747940d4",
-         "commander_number": 1},
-        {"BattlefieldCode": "MO022",
-         "belligerent": "Confederate",
-         "Name": "John G. Clark",
-         "PersonID": "bfab9af5-0976-464c-bd74-f04426f499ba",
-         "commander_number": 2},
-        {"BattlefieldCode": "MO022",
-         "belligerent": "US",
-         "Name": "Chester Harding",
-         "PersonID": "c906863d-cc4c-4dff-9f12-cbe9abda060e",
-         "commander_number": 1},
-        {"BattlefieldCode":"WV009",
-         "belligerent": "Confederate",
-         "Name": "Humphrey Marshall",
-         "PersonID": "177215cb-88d2-431e-8beb-c53e83c3b83c",
-         "commander_number": 1},
-        {"BattlefieldCode": "WV009",
-         "belligerent": "US",
-         "Name": "Jacob D. Cox",
-         "PersonID": "322caa07-991a-497a-91dc-38cead426f64",
-         "commander_number": 1},
-        {"BattlefieldCode": "AL009",
-         "belligerent": "Confederate",
-         "Name": "Nathan Bedford Forrest",
-         "PersonID": "02b4fa9a-541a-45c7-9097-ab1aee538c6c",
-         "commander_number": 1},
-        {"BattlefieldCode": "AL009",
-          "belligerent": "US",
-          "Name": "Wallace Campbell",
-          "commander_number": 1,
-          "PersonID": null},
-        {"BattlefieldCode": "AL009",
-          "belligerent": "US",
-          "Name": "Jonas Elliott",
-          "commander_number": 2,
-          "PersonID": null},
-        {"BattlefieldCode": "AL009",
-          "belligerent": "US",
-          "Name": "W. H. Lathrop",
-          "commander_number": 3,
-          "PersonID": null}
-# Need to fix commanders
-        ## # Fix commanders for VA068
-        ## writer.writerow({"BattlefieldCode": "VA068",
-        ##                  "belligerent": "Confederate",
-        ##                  "commander_number": 1,
-        ##                  "commander": "9e1353da-e14e-4a33-9169-19b95b173cd1"})
-        ## writer.writerow({"BattlefieldCode": "VA068",
-        ##                  "belligerent": "Confederate",
-        ##                  "commander_number": 2,
-        ##                  "commander": "67a922f1-6dc9-4ba8-89aa-e33f842197e2"})
-        ## # James Wilson
-        ## writer.writerow({"BattlefieldCode": "VA068",
-        ##                  "belligerent": "US",
-        ##                  "commander_number": 1,
-        ##                  "commander": "460c9e8f-625e-490f-8eda-7385907b8d3f"})
-        ## # August Kautz
-        ## writer.writerow({"BattlefieldCode": "VA068",
-        ##                  "belligerent": "US",
-        ##                  "commander_number": 2,
-        ##                  "commander": "cb8dc6d1-211d-4278-875a-5f479f65d85b"})
-        ## # Add Mahone for VA072
-        ## writer.writerow({"BattlefieldCode": "VA072",
-        ##                  "belligerent": "Confederate",
-        ##                  "commander_number": 4,
-        ##                  "commander": "9e1353da-e14e-4a33-9169-19b95b173cd1"})
-        ## # Add Fitzhugh Lee for VA086
-        ## writer.writerow({"BattlefieldCode": "VA086",
-        ##                  "belligerent": "Confederate",
-        ##                  "commander_number": 2,
-        ##                 "commander": "67a922f1-6dc9-4ba8-89aa-e33f842197e2"})
-        ## # Add Renshaw for TX003
-        ## writer.writerow({"BattlefieldCode": "TX003",
-        ##                  "belligerent": "US",
-        ##                  "commander_number": 2,
-        ##                  "commander": "65815655-0c83-4511-9e7b-2ce4d0ca632c"})
-        ## # Fix commanders for VA095
-        ## # US: A. A. Humphreys
-        ## writer.writerow({"BattlefieldCode": "VA095",
-        ##                  "belligerent": "US",
-        ##                  "commander_number": 1,
-        ##                  "commander": "0739970d-f176-49aa-958c-f26397e326bb"})
-        ## # CS: Thomas Rosser
-        ## writer.writerow({"BattlefieldCode": "VA095",
-        ##                  "belligerent": "Confederate",
-        ##                  "commander_number": 1,
-        ##                  "commander": "0dca3f2d-e93f-4908-bda9-bb23f411857b"})
-        ## # CS: William Mahone
-        ## writer.writerow({"BattlefieldCode": "VA095",
-        ##                  "belligerent": "Confederate",
-        ##                  "commander_number": 2,
-        ##                  "commander": "9e1353da-e14e-4a33-9169-19b95b173cd1"})
-        ## # Change US SC009 commander to Quincy Gilmore
-        ## writer.writerow({"BattlefieldCode": "SC009",
-        ##                  "belligerent": "US",
-        ##                  "commander_number": 1,
-        ##                  "commander": "0da38dda-60e3-47f7-a3fa-4f8c10e1900d"})
-                        
-
-
 #' Fix AAD reference IDs
 aad_to_cwsac_id <- function(x) {
   plyr::revalue(x, c("AR010A" = "AR010", "GA013A" = "GA013"))
@@ -174,7 +40,7 @@ gen_battlelist <-
     mutate(cws2 = TRUE)
 
   battlelist_aad <-
-    aad_battles %>%
+    aacd_battles %>%
     mutate(reference_number = aad_to_cwsac_id(reference_number)) %>%
     select(reference_number, event) %>%
     rename(cwsac_id = reference_number, battle_name_aad = event) %>%
