@@ -13,7 +13,7 @@ See the `source <https://github.com/jrnold/acw_battle_data/blob/master/rawdata/u
 This data is used for estimates of strenghts in battles when the source gives only the number and types of units (e.g. :doc:`clodfelter_forces`, :doc:`cwsac_forces`, :doc:`cws2_forces`).
 
 
-Sources: [jrnold]_, [Livermore1900]_
+Sources: [jrnold]_, [eicher2002civil]_, [Livermore1900]_
 
 
 Schema

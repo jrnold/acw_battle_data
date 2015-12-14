@@ -32,10 +32,10 @@ def replace_all_sources(bib, data):
     sources = get_source_dict(bib)
     data['sources'] = sources
     for res in data['resources']:
-        try:
+        if 'sources' in res:
             res['sources'] = replace_sources(res['sources'], sources)
-        except KeyError:
-            pass
+        else:
+            res['sources'] = []
         if 'schema' in res:
             for col in res['schema']['fields']:
                try:
@@ -68,9 +68,9 @@ def process_resource(filename):
     if path.exists(meta['path']):
         meta['bytes'] = path.getsize(meta['path'])
         meta['hash'] = md5sum(meta['path'])
-        return meta        
+        return meta
     else:
-        print("ERROR: %s does not exist" % filename)
+        print("ERROR: %s: %s does not exist" % (filename, meta['path']))
 
 def build(src, dst):
     metadir = path.join(src, 'rawdata', 'metadata')
@@ -79,8 +79,10 @@ def build(src, dst):
     data['resources'] = []
     for filename in os.listdir(meta_res_dir):
         if fnmatch.fnmatch(filename, '*.yaml'):
+            print(filename)
             res = process_resource(path.join(meta_res_dir, filename))
-            data['resources'].append(res)
+            if res:
+                data['resources'].append(res)
     bib = path.join(metadir, 'sources.yaml')
     replace_all_sources(bib, data)
     with open(path.join(dst, 'datapackage.json'), 'w') as f:

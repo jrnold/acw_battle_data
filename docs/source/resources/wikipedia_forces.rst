@@ -11,6 +11,7 @@ American Civil War battle casualty and forces size data from the English Wikiped
 See :doc:`wikipedia_battles`.
 
 
+Sources: 
 
 
 Schema

@@ -8,8 +8,8 @@ import yaml
 
 FILES = ('ships.csv',)
 
-def build_ships_in_battles(miscdir, dst):
-    filename = path.join(miscdir, "ships_in_battles.yaml")
+def build_ships_in_battles(src, dst):
+    filename = path.join(src, "rawdata", "ships", "ships_in_battles.yaml")
     with open(filename, "r") as f:
         data = yaml.load(f)
     ships = []
@@ -24,25 +24,25 @@ def build_ships_in_battles(miscdir, dst):
                 pass
     dstfile = path.join(dst, 'ships_in_battles.csv')
     with open(dstfile, 'w') as f:
-        print("Writing %s" % dstfile)
+        print("Writing: %s" % dstfile)
         fieldnames = ('cwsac_id', 'belligerent', 'ship')
         writer = csv.DictWriter(f, fieldnames)
         writer.writeheader()
         writer.writerows(ships)
 
-def copyfiles(miscdir, dst):
+def copyfiles(src, dst):
     for fn in FILES:
-        srcfile = path.join(miscdir, fn)
+        srcfile = path.join(src, "rawdata", "ships", fn)
         dstfile = path.join(dst, fn)
-        print("Writing %s" % dstfile)
+        print("Writing: %s" % dstfile)
         shutil.copy(srcfile, dstfile)
 
 def main():
     src = sys.argv[1]
     dst = sys.argv[2]
-    miscdir = path.join(src , 'rawdata' , 'misc')
-    copyfiles(miscdir, dst)
-    build_ships_in_battles(miscdir, dst)
+    print("Building ships data")
+    copyfiles(src, dst)
+    build_ships_in_battles(src, dst)
     
 if __name__ == '__main__':
     main()

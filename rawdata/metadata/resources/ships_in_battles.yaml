@@ -3,24 +3,22 @@ name: ships_in_battles
 path: data/ships_in_battles.csv
 schema:
   fields:
-  - format: default
+  - description: CWSAC identifier of the battle. See :doc:`cwsac_battles`.
+    format: default
     name: cwsac_id
     title: CWSAC Id.
     type: string
-    description: >-
-      CWSAC identifier of the battle. See :doc:`cwsac_battles`.
   - format: default
     name: belligerent
     title: Belligerent
     type: string
-  - format: default
+  - description: 'Name of ship
+
+      These names match those in :doc:`ships`.'
+    format: default
     name: ship
     title: Ship name
     type: string
-    description: >-
-      Name of ship
-
-      These names match those in :doc:`ships`.
 sources:
-  - jrnold
+- jrnold
 title: Ships in battles
