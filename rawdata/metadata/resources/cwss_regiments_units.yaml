@@ -1,0 +1,74 @@
+format: csv
+name: cwss_regiments_units
+path: data/cwss_regiments_units.csv
+schema:
+  fields:
+  - format: default
+    name: reg_unit_code
+    title: Unit code
+    type: string
+  - format: default
+    name: reg_side
+    title: Side
+    type: string
+  - format: default
+    name: reg_state
+    title: State
+    type: string
+    description: >-
+      Regiment state. However, this includes more than states. E.g. US stands for Union Colored troops, and UR for Union regular army. See :doc:`cwss_state_names`.
+  - format: default
+    name: reg_ordinal
+    title: Ordinal
+    type: string
+    description: >-
+      Ordinal number of the regiment (if any).
+  - format: default
+    name: reg_arm
+    title: Arm
+    type: string
+    description: >-
+      Arm of the unit, e.g. Infantry, Cavalry, Artillery, etc.
+  - format: default
+    name: reg_type
+    title: Type
+    type: string
+  - format: default
+    name: reg_special
+    title: Special
+    type: string
+  - format: default
+    name: reg_duplicate
+    title: reg_duplicate
+    type: number
+  - format: default
+    name: reg_ethnic
+    title: Ethnic unit
+    type: string
+  - format: default
+    name: reg_history
+    title: Regiment history
+    type: string
+  - format: default
+    name: reg_unit_name
+    title: Unit name
+    type: string
+    description: >-
+      Unit name
+  - format: default
+    name: reg_notes
+    title: Notes
+    type: string
+  - format: default
+    name: reg_function
+    title: Function
+    type: string
+  - format: default
+    name: reg_longhistory
+    title: Long unit history
+    type: string
+  - format: default
+    name: reg_isdelete
+    title: reg_isdelete
+    type: boolean
+title: CWSS unit lists

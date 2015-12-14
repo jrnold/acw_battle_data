@@ -8,6 +8,7 @@ import calendar
 import sys
 from os import path
 
+import pandas
 import pyparsing as pp
 
 namespaces = {
@@ -54,6 +55,7 @@ def battle_csv(root, dst):
     'SummarySource'
     # 'TheaterName',
     )
+    print("Writing: %s" % dst)
     with open(dst, 'w') as f:
         writer = csv.DictWriter(f, list(fields) + ['URL'])
         writer.writeheader()
@@ -74,6 +76,7 @@ def battle_csv(root, dst):
             
 def theaters_csv(root, dst):
     theaters = {}
+    print("Writing: %s" % dst)    
     with open(dst, 'w') as f:
         writer = csv.DictWriter(f, ('TheaterCode', 'TheaterName'))
         writer.writeheader()
@@ -112,6 +115,7 @@ def parse_month_range(x):
         
 def campaigns_csv(root, dst):
     campaigns = {}
+    print("Writing: %s" % dst)
     with open(dst, 'w') as f:
         writer = csv.DictWriter(f, ('CampaignCode', 'CampaignName', 'CampaignDates', 
                                     'CampaignStartDate', 'CampaignEndDate', 'TheaterCode'))
@@ -142,6 +146,7 @@ def guid_clean(x):
            
 def commander_csv(root, dst):
     fields = ('BattlefieldCode', 'belligerent', 'commander_number', 'commander')
+    print("Writing: %s" % dst)            
     with open(dst, 'w') as f:
         writer = csv.DictWriter(f, fields)
         writer.writeheader()
@@ -236,6 +241,7 @@ def commander_csv(root, dst):
 def forces_csv(root, dst):
     fields = ('BattlefieldCode', 'belligerent', 'TroopsEngaged', "Casualties")
     with open(dst, 'w') as f:
+        print("Writing: %s" % dst)        
         writer = csv.DictWriter(f, fields)
         writer.writeheader()
         for entry in root.findall('.//%s' % xmlns('entry')):
@@ -261,6 +267,7 @@ def forces_csv(root, dst):
 def people_csv(root, dst):
     fields = ("PersonID", "ID", "LastName", "Suffix", "FirstName", "MiddleName", "MiddleInitial", "Keywords", "Rank", "Bio", "BioSource", "NarrativeLink1", "NarrativeLink2")
     with open(dst, 'w') as f:
+        print("Writing: %s" % dst)        
         writer = csv.DictWriter(f, fields)
         writer.writeheader()
         for i, entry in enumerate(root.findall('.//%s' % xmlns('entry'))):
@@ -293,6 +300,7 @@ def battleunitslink_csv(root, dst):
     'UnitCode'
     )
     with open(dst, 'w') as f:
+        print("Writing: %s" % dst)
         writer = csv.DictWriter(f, fields)
         writer.writeheader()
         for i, entry in enumerate(root.findall('.//%s' % xmlns('entry'))):            
@@ -303,27 +311,69 @@ def battleunitslink_csv(root, dst):
             row['BattlefieldCode'] = row['BattlefieldCode'].upper()
             writer.writerow(row)
             
-def units_csv(root, dst):
-    fields = (
-    'ID',
-    'UnitCode',
-    'UnitName',
-    )
-    with open(dst, 'w') as f:
-        writer = csv.DictWriter(f, fields)
-        writer.writeheader()
-        for i, entry in enumerate(root.findall('.//%s' % xmlns('entry'))):           
-            row = {}
-            properties = entry.find('./%s/%s' % (xmlns('content'), xmlns('m:properties'))) 
-            for fld in fields:
-                row[fld] = properties.find(xmlns('d:%s' % fld)).text
-            writer.writerow(row) 
+def build_units(src, dst):
+    srcfile = path.join(src, 'dependencies', 'cwss',
+                        'data', 'new', 'tsv', 'Regiments_Unitz.tsv')
+    dstfile = path.join(dst, 'cwss_regiments_units.csv')
+    data = pandas.read_csv(srcfile, sep = '\t')
+    data.rename(columns = lambda k: k.lower(), inplace = True)
+    for x in ('reg_pubdate',
+              'reg_updatedate',
+              'reg_updateby',
+              'reg_comments',
+              'reg_updatetype'):
+        del data[x]
+    print("Writing: %s" % dstfile)
+    data.to_csv(dstfile, index = False)
+
+def build_state_names(src, dst):
+    srcfile = path.join(src, 'dependencies', 'cwss',
+                        'data', 'new', 'tsv', 'State_Name.tsv')
+    dstfile = path.join(dst, 'cwss_state_names.csv')
+    state_names = pandas.read_csv(srcfile, sep = '\t')
+    state_names.rename(columns = lambda k: k.lower(), inplace = True)
+    for x in ('state_updateby',
+              'state_updatedate',
+              'state_updatetype',
+              'state_comments'):
+        del state_names[x]
+    print("Writing: %s" % dstfile)
+    state_names.to_csv(dstfile, index = False)
+
+def build_unit_titles(src, dst):
+    src_unititles = path.join(src, 'dependencies', 'cwss',
+                          'data', 'new', 'tsv', 'Unititle.tsv')
+    src_contitles = path.join(src, 'dependencies', 'cwss',
+                          'data', 'new', 'tsv', 'Contitle.tsv')
+    dstfile = path.join(dst, 'cwss_unittiles.csv')
+    unititles = pandas.read_csv(src_unititles, sep = '\t')
+    contitles = pandas.read_csv(src_contitles, sep = '\t')
+    newdata = pandas.concat([unititles, contitles])
+    newdata.rename(columns = lambda k: k.lower(), inplace = True)
+    for col in ('updatedate',
+                'updateby',
+                'updatetype',
+                'comments',
+                'pubdate'):
+        del newdata[col]
+    newdata.to_replace({'side': {'C': 'Confederate',
+                                 'U': 'US'}})
+    print("Writing: %s" % dstfile)
+    newdata.to_csv(dstfile, index = False)
+
+def build_category(src, dst):
+    srcfile = path.join(src, 'dependencies', 'cwss',
+                          'data', 'new', 'tsv', 'Category.tsv')
+    dstfile = path.join(dst, 'cwss_categories.csv')
+    newdata = pandas.read_csv(srcfile, sep = '\t')
+    newdata.rename(columns = lambda k: k.lower(), inplace = True)
+    print("Writing: %s" % dstfile)
+    newdata.to_csv(dstfile, index = False)
 
 def build(src, dst):
-    
     parser = ET.XMLParser(encoding = 'cp1252')
-
-    with open(path.join(src, 'battle.xml'), 'rb') as f:
+    cwssdir = path.join(src, 'dependencies', 'cwss')
+    with open(path.join(cwssdir, 'data', 'old', 'battle.xml'), 'rb') as f:
         battles = ET.fromstring(f.read(), parser)    
     commander_csv(battles, path.join(dst, "cwss_commanders.csv"))
     battle_csv(battles, path.join(dst, 'cwss_battles.csv'))
@@ -331,21 +381,21 @@ def build(src, dst):
     theaters_csv(battles, path.join(dst, 'cwss_theaters.csv'))
     campaigns_csv(battles, path.join(dst, 'cwss_campaigns.csv'))
 
-    with open(path.join(src, 'persons.xml'), 'rb') as f:
+    with open(path.join(cwssdir, 'data', 'old', 'persons.xml'), 'rb') as f:
             persons = ET.fromstring(f.read(), parser)  
     people_csv(persons, path.join(dst, 'cwss_persons.csv'))
 
-    with open(path.join(src, 'battleunitlink.xml'), 'rb') as f:
+    with open(path.join(cwssdir, 'data', 'old', 'battleunitlink.xml'), 'rb') as f:
             battleunitlinks = ET.fromstring(f.read(), parser)  
     battleunitslink_csv(battleunitlinks, path.join(dst, 'cwss_battleunitlinks.csv'))
-
-    with open(path.join(src, 'units.xml'), 'rb') as f:
-            battleunitlinks = ET.fromstring(f.read(), parser)  
-    units_csv(battleunitlinks, path.join(dst, 'cwss_units.csv'))
+    build_unit_titles(src, dst)
+    build_state_names(src, dst)
+    build_category(src, dst)
+    build_units(src, dst)
 
 def main():
-    src = sys.argv[1]
-    dst = sys.argv[2]
+    src = str(sys.argv[1])
+    dst = str(sys.argv[2])
     build(src, dst)
 
 if __name__ == "__main__":

@@ -1,0 +1,22 @@
+format: csv
+name: cwss_state_names
+path: data/cwss_state_names.csv
+schema:
+  fields:
+  - format: default
+    name: state_abbr
+    title: state_abbr
+    type: string
+  - format: default
+    name: state_name
+    title: state_name
+    type: string
+  - format: default
+    name: state_isdelete
+    title: state_isdelete
+    type: boolean
+  - format: default
+    name: state_pubdate
+    title: state_pubdate
+    type: string
+title: cwss_state_names

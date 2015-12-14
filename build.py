@@ -27,8 +27,7 @@ def build_cws2(src, dst):
 
 def build_cwss(src, dst):
     print("build_cwss")
-    sp.check_call([PYTHON, 'bin/build_cwss.py',
-            path.join(src, "rawdata", "cwss"), dst])
+    sp.check_call([PYTHON, 'bin/build_cwss.py', src, dst])
 
 def build_unit_sizes(src, dst):
     print("build_unit_sizes")
@@ -120,7 +119,6 @@ def build_docs(src, dst, docs):
     sp.check_call([PYTHON, "bin/build_docs.py",
             src, dst, docs])
 
-    
 def build(src, dst, docs):
     if path.exists(dst):
         shutil.rmtree(dst)
@@ -130,7 +128,7 @@ def build(src, dst, docs):
     build_shenandoah(src, dst)    
     build_cwsac(src, dst)
     build_cws2(src, dst)
-    #build_cwss(src, dst)
+    build_cwss(src, dst)
     #build_nps(src, dst)
     build_bodart(src, dst)
     build_dyer(src, dst)
