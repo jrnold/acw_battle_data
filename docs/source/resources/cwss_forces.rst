@@ -6,6 +6,9 @@ CWSS battle data: forces
 :path: data/cwss_forces.csv
 :format: csv
 
+Force strength and casualty data from the CWSS database.
+
+This was extracted from the CWSS database file ``battle.xml``.
 
 
 Sources: [CWSS]_

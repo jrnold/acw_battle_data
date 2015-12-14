@@ -3,16 +3,16 @@ name: cwss_state_names
 path: data/cwss_state_names.csv
 schema:
   fields:
-  - format: default
+  - constraints:
+      maxLength: 2
+      minLength: 2
+      pattern: '[A-Z]{2}'
+    format: default
     name: abbr
-    title: abbr
+    title: Abbreviation
     type: string
   - format: default
     name: name
-    title: name
+    title: Name
     type: string
-  - format: default
-    name: pubdate
-    title: pubdate
-    type: string
-title: cwss_state_names
+title: CWSS unit state names

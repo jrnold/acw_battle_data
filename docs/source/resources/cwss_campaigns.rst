@@ -6,6 +6,10 @@ CWSS campaign list
 :path: data/cwss_campaigns.csv
 :format: csv
 
+Campaigns of CWSS battles. Each battle in  :doc:`cwss_battles` has a campaign, and each campaign has a theater in :doc:`cwss_theaters`.
+
+This data was extracted from the CWSS database file ``battle.xml``.
+
 
 
 Sources: [CWSS]_

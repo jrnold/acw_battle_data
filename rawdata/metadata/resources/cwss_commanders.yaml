@@ -21,14 +21,19 @@ schema:
     name: belligerent
     title: belligerent
     type: string
-  - format: default
+  - description: Number of the commander for each side? This does not indicate relative
+      rank of the commanders, but is to serve as a unique ID of the commander when
+      there are multiple commanders on a side in a battle.
+    format: default
     name: commander_number
     title: Commander number
     type: integer
-  - format: default
+  - description: Unique commander identifier corresponding to the ``PersonID`` in
+      :doc:`cwss_persons`.
+    format: uuid
     name: commander
-    title: Commander
+    title: Commander ID
     type: string
 sources:
 - CWSS
-title: cwss_commanders
+title: "CWSS battle data: principal commanders"

@@ -289,6 +289,7 @@ def build_state_names(src, dst):
     for x in ('updateby',
               'updatedate',
               'updatetype',
+              'pubdate',              
               'isdelete',
               'comments'):
         del data[x]
@@ -325,6 +326,9 @@ def build_category(src, dst):
     data = pandas.read_csv(srcfile, sep = '\t')
     data.rename(columns = lambda k: k.lower(), inplace = True)
     data = data.query('~ isdelete')
+    data['abbr'] = data['abbr'].str.strip()
+    # these are not used
+    data = data.query('abbr != ["C1", "C2"]')
     for col in ('updatedate',
                 'updateby',
                 'isdelete',

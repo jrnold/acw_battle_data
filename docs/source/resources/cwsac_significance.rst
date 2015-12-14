@@ -6,6 +6,8 @@ CWSAC Report Updates battle data: military significance categories
 :path: data/cwsac_significance.csv
 :format: csv
 
+Military significance categories of CWSAC battles (:doc:`cwsac_battles`).
+
 
 
 Sources: [CWSAC1993]_, [CWSAC1997]_, [CWSAC_by_state]_, [CWSAC_by_campgn]_

@@ -7,16 +7,30 @@ schema:
     name: pk_id
     title: pk_id
     type: integer
+    description: Unique identifier
   - format: default
     name: category
     title: category
     type: string
+    constraints:
+      enum:
+        - SCharacter
+        - Unittype
+        - Function
+    description: >-
+      If "SCharacter", an abbrevation for the column ``special`` (speical units). If "Function", an abbreviation for the column ``function`` (function of the unit). If "Unitype", an abbreviation fo the column ``type`` in :doc:`cwss_regiments_units`.
   - format: default
     name: abbr
     title: abbr
     type: string
+    constraints:
+      minLength: 1
+      maxLength: 1
+      pattern: "[A-Z0]"
+    description: >-
+      Abbreviations appearing in columns ``special``, ``function``, and ``type`` of the table :doc:`cwss_regiments_units`.
   - format: default
     name: description
-    title: description
+    title: Description
     type: string
-title: cwss_categories
+title: CWSS unit category abbreviations

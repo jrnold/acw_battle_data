@@ -7,48 +7,72 @@ schema:
     name: unit_code
     title: unit_code
     type: string
-  - format: default
+  - constraints:
+      enum:
+      - US
+      - Confederate
+    description: Side of each force
+    format: default
     name: side
-    title: side
+    title: Side
     type: string
-  - format: default
+  - constraints:
+      maxLength: 2
+      minLength: 2
+      pattern: '[A-Z]{2}'
+    description: Home state of the unit. This includes codes for "non-states", e.g.
+      US for US Colored troops, and UR for US Regular Army. See :doc:`cwss_state_names`
+      for the abbreviations.
+    format: default
     name: state
-    title: state
+    title: State
     type: string
-  - format: default
+  - description: Ordinal number of the unit, if any. E.g. 1 for the 1st New York Infantry
+      Regiment.
+    format: default
     name: ordinal
     title: ordinal
     type: string
-  - format: default
+  - description: Combat arm of the unit. E.g. cavalry, artillery, infantry. See :doc:`cwss_categories`
+      for the abbrevations.
+    format: default
     name: arm
     title: arm
     type: string
-  - format: default
+  - description: Type (size) of the unit. E.g. regiment, company, battalion, squadron.
+      See :doc:`cwss_categories` for the abbreviations.
+    format: default
     name: type
-    title: type
+    title: Type
     type: string
-  - format: default
+  - description: Codes for special units, e.g. Marine, Home Guard, Heavy Artillery,
+      Light Artiller, State.  See :doc:`cwss_categories` for the abbreviations.
+    format: default
     name: special
-    title: special
+    title: Special
     type: string
   - format: default
     name: duplicate
     title: duplicate
     type: number
-  - format: default
+  - description: 'Indicator for "ethnic" units: C if colored, I if Native American.
+      See :doc:`cwss_categories` for the abbreviations.'
+    format: default
     name: ethnic
     title: ethnic
     type: string
   - format: default
     name: unit_name
-    title: unit_name
+    title: Unit name
     type: string
   - format: default
     name: notes
-    title: notes
+    title: Notes
     type: string
-  - format: default
+  - description: Unit function. This column is practically a duplicate of `arm`; I
+      am unsure of the difference.
+    format: default
     name: func
     title: func
     type: string
-title: CWSS unit lists
+title: CWSS units (regiments)
