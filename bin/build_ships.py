@@ -8,6 +8,33 @@ import yaml
 
 FILES = ('ships.csv',)
 
+def build_navalbattles(src, dst):
+    filename = path.join(src, "rawdata", "ships", "ships_in_battles.yaml")
+    with open(filename, "r") as f:
+        data = yaml.load(f)
+    battles = []
+    for battle in data:
+        confederate_ships = len(battle['Confederate']) if 'Confederate' in battle else 0
+        us_ships = len(battle['US']) if 'US' in battle else 0
+        btl = {'cwsac_id': battle['cwsac_id'],
+               'confederate_ships': 
+        for belligerent in ('Confederate', 'US'):
+            try:
+                for ship in battle[belligerent]:
+                    ships.append({'cwsac_id': battle['cwsac_id'],
+                                  'belligerent': belligerent,
+                                  'ship': ship})
+            except KeyError:
+                pass
+    dstfile = path.join(dst, 'ships_in_battles.csv')
+    with open(dstfile, 'w') as f:
+        print("Writing: %s" % dstfile)
+        fieldnames = ('cwsac_id', 'belligerent', 'ship')
+        writer = csv.DictWriter(f, fieldnames)
+        writer.writeheader()
+        writer.writerows(ships)
+    
+
 def build_ships_in_battles(src, dst):
     filename = path.join(src, "rawdata", "ships", "ships_in_battles.yaml")
     with open(filename, "r") as f:
