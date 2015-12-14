@@ -1,6 +1,6 @@
-###############
-cwss_commanders
-###############
+######################################
+CWSS battle data: principal commanders
+######################################
 
 :name: cwss_commanders
 :path: data/cwss_commanders.csv

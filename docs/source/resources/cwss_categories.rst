@@ -1,6 +1,6 @@
-###############
-cwss_categories
-###############
+################################
+CWSS unit category abbreviations
+################################
 
 :name: cwss_categories
 :path: data/cwss_categories.csv
@@ -28,7 +28,7 @@ Schema
 pk_id        integer  pk_id
 category     string   category
 abbr         string   abbr
-description  string   description
+description  string   Description
 ===========  =======  ===========
 
 pk_id
@@ -39,7 +39,7 @@ pk_id
 :format: default
 
 
-
+Unique identifier
 
 
        
@@ -49,9 +49,11 @@ category
 :title: category
 :type: string
 :format: default
+:constraints:
+    :enum: ['SCharacter', 'Unittype', 'Function']
+    
 
-
-
+If "SCharacter", an abbrevation for the column ``special`` (speical units). If "Function", an abbreviation for the column ``function`` (function of the unit). If "Unitype", an abbreviation fo the column ``type`` in :doc:`cwss_regiments_units`.
 
 
        
@@ -61,16 +63,20 @@ abbr
 :title: abbr
 :type: string
 :format: default
+:constraints:
+    :minLength: 1
+    :maxLength: 1
+    :pattern: [A-Z0]
+    
 
-
-
+Abbreviations appearing in columns ``special``, ``function``, and ``type`` of the table :doc:`cwss_regiments_units`.
 
 
        
 description
 -----------
 
-:title: description
+:title: Description
 :type: string
 :format: default
 

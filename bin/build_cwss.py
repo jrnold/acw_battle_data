@@ -265,7 +265,10 @@ def build_units(src, dst):
                 inplace = True)
     data.rename(columns = {'function': 'func'}, inplace = True)
     data = data.query('~ isdelete')
+    # remove some test rows
     data = data[~ data.unit_code.str.match('admin[0-9]', flags = re.IGNORECASE)]
+    # clean whitepace
+    data.func = data.func.str.strip()
     for x in ('pubdate',
               'updatedate',
               'updateby',
@@ -273,6 +276,7 @@ def build_units(src, dst):
               'updatetype',
               'isdelete',
               'longhistory',
+              'arm',
               'history'):
         del data[x]
     print("Writing: %s" % dstfile)

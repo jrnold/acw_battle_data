@@ -33,12 +33,6 @@ schema:
     name: ordinal
     title: ordinal
     type: string
-  - description: Combat arm of the unit. E.g. cavalry, artillery, infantry. See :doc:`cwss_categories`
-      for the abbrevations.
-    format: default
-    name: arm
-    title: arm
-    type: string
   - description: Type (size) of the unit. E.g. regiment, company, battalion, squadron.
       See :doc:`cwss_categories` for the abbreviations.
     format: default
