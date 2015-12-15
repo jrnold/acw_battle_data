@@ -2,7 +2,7 @@ source("R/misc.R")
 
 build <- function(src, dst) {
   file_units <- file.path(dst, "cwss_regiments_units.csv")
-  file_battleunits <- file.path(dst, "cwss_battleunitlinks.csv")
+  file_battleunits <- file.path(dst, "cwss_battle_units.csv")
 
   units <- read_csv(file_units)
   battleunits <- read_csv(file_battleunits)

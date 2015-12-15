@@ -4,17 +4,38 @@ path: data/ships.csv
 schema:
   fields:
   - format: default
+    name: ship_id
+    title: Ship identifier
+    type: string
+  - description: Name of ship, not including the prefix or year of launch.
+    format: default
     name: name
     title: Ship name
     type: string
-  - format: default
+  - constraints:
+      enum:
+      - US
+      - Confederate
+    format: default
     name: belligerent
     title: Belligerent
     type: string
-  - format: default
+  - description: URI of the dbpedia.org resource.
+    format: url
     name: url_dbpedia
     title: dbpedia Link
     type: string
+  - description: URL of the ship in the Naval History and Heritage Ship Histories,
+      either the  `Dictionary of American Naval Fighting Ships (DANFS) <http://www.history.navy.mil/research/histories/ship-histories/danfs.html>`__
+      or `Confederate Ships<http://www.history.navy.mil/research/histories/ship-histories/confederate_ships.html>`__.
+    format: url
+    name: url_danfs
+    title: DANFS URL
+    type: string
+  - format: default
+    name: notes
+    title: notes
+    type: string
 sources:
 - jrnold
-title: Ship List
+title: Union and Confederate ship list

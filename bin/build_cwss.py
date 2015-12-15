@@ -356,11 +356,11 @@ def build(src, dst):
 
     with open(path.join(cwssdir, 'data', 'old', 'persons.xml'), 'rb') as f:
             persons = ET.fromstring(f.read(), parser)  
-    people_csv(persons, path.join(dst, 'cwss_persons.csv'))
+    people_csv(persons, path.join(dst, 'cwss_people.csv'))
 
     with open(path.join(cwssdir, 'data', 'old', 'battleunitlink.xml'), 'rb') as f:
             battleunitlinks = ET.fromstring(f.read(), parser)  
-    battleunitslink_csv(battleunitlinks, path.join(dst, 'cwss_battleunitlinks.csv'))
+    battleunitslink_csv(battleunitlinks, path.join(dst, 'cwss_battle_units.csv'))
     build_unit_titles(src, dst)
     build_state_names(src, dst)
     build_category(src, dst)

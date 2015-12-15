@@ -1,6 +1,6 @@
 format: csv
-name: cwss_battleunitlinks
-path: data/cwss_battleunitlinks.csv
+name: 'CWSS battle data: units engaged'
+path: data/cwss_battle_units.csv
 schema:
   fields:
   - constraints:
