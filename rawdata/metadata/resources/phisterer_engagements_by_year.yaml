@@ -5,12 +5,12 @@ schema:
   fields:
   - format: default
     name: year
-    title: year
+    title: Year
     type: integer
   - format: default
     name: engagements
-    title: engagements
+    title: Numbe of Engagements
     type: integer
-sources:
+sources: 
 - Phisterer1883
-title: phisterer_engagements_by_year
+title: Phisterer (1883) number of engagements by year
