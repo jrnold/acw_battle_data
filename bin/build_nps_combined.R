@@ -40,7 +40,7 @@ gen_battlelist <-
     mutate(cws2 = TRUE)
 
   battlelist_aad <-
-    aacd_battles %>%
+    aad_battles %>%
     mutate(reference_number = aad_to_cwsac_id(reference_number)) %>%
     select(reference_number, event) %>%
     rename(cwsac_id = reference_number, battle_name_aad = event) %>%
@@ -455,13 +455,14 @@ gen_forces <- function(cwss_forces,
     arrange(cwsac_id, belligerent)
 }
 
+gen_people <- function(cwss_people, extra_people) {
+    people <-
+      bind_rows(cwss_people, extra_data[["people"]])
+}
 
 gen_commanders <- function(cwss_people,
                            cwss_commanders,
-                           cwsac_commanders,
-                           extra_data) {
-  people <-
-    bind_rows(cwss_people, extra_data[["people"]])
+                           cwsac_commanders) {
 
   cwss_commanders <-
     bind_rows(cwss_commanders %>%
@@ -555,35 +556,36 @@ build <- function(src, dst) {
                    cws2_battles,
                    aad_battles)
 
-  forces <-
-    gen_forces(cwss_forces,
-               cwsac_forces,
-               cws2_forces,
-               shenandoah_forces,
-               extra_data)
+#   forces <-
+#     gen_forces(cwss_forces,
+#                cwsac_forces,
+#                cws2_forces,
+#                shenandoah_forces,
+#                extra_data)
+#
+#   battles <-
+#     gen_battles(cwss_battles,
+#                 cwsac_battles,
+#                 cws2_battles,
+#                 aad_battles,
+#                 shenandoah_battles,
+#                 latlong,
+#                 extra_data,
+#                 forces)
 
-  battles <-
-    gen_battles(cwss_battles,
-                cwsac_battles,
-                cws2_battles,
-                aad_battles,
-                shenandoah_battles,
-                latlong,
-                extra_data,
-                forces)
+#   commanders <- gen_commanders(cwss_commanders = cwss_commanders,
+#                                cwsac_commanders = cwsac_commanders,
+#                                cwss_people = cwss_people,
+#                                extra_data = extra_data)
 
-  commanders <- gen_commanders(cwss_commanders = cwss_commanders,
-                               cwsac_commanders = cwsac_commanders,
-                               cwss_people = cwss_people,
-                               extra_data = extra_data)
-
+  write_csv(battlelist, file.path(dst, "nps_battlelist.csv"))
   write_csv(cwss_theaters, file.path(dst, "nps_theaters.csv"))
   write_csv(cwss_campaigns, file.path(dst, "nps_campaigns.csv"))
-  write_csv(battlelist, file.path(dst, "nps_battlelist.csv"))
-  write_csv(battles, file.path(dst, "nps_battles.csv"))
-  write_csv(forces, file.path(dst, "nps_forces.csv"))
-  write_csv(commanders$commanders, file.path(dst, "nps_commanders.csv"))
-  write_csv(commanders$people, file.path(dst, "nps_people.csv"))
+
+#   write_csv(battles, file.path(dst, "nps_battles.csv"))
+#   write_csv(forces, file.path(dst, "nps_forces.csv"))
+#   write_csv(commanders$commanders, file.path(dst, "nps_commanders.csv"))
+#   write_csv(commanders$people, file.path(dst, "nps_people.csv"))
 
 }
 
@@ -591,7 +593,7 @@ main <- function() {
   arglist <- commandArgs(TRUE)
   src <- arglist[1]
   dst <- arglist[2]
-  #build(src, dst)
+  build(src, dst)
 }
 
 main()

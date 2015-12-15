@@ -129,7 +129,7 @@ def build(src, dst, docs):
     build_cwsac(src, dst)
     build_cws2(src, dst)
     build_cwss(src, dst)
-    #build_nps(src, dst)
+    build_nps(src, dst)
     build_bodart(src, dst)
     build_dyer(src, dst)
     build_wikipedia(src, dst)
