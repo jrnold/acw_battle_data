@@ -153,7 +153,8 @@ gen_battles <-
            summary = Summary,
            cwss_url = URL) %>%
     select(- Comment, - ID, - State,
-           - matches("summary")) %>%
+           - matches("summary"),
+           - TotalCasualties) %>%
     mutate(partof_cwss = TRUE,
            result = plyr::revalue(result, CWSS_RESULTS))
 
@@ -162,7 +163,7 @@ gen_battles <-
     select(battle, operation, forces_text, casualties_text, results_text,
            preservation, significance, url, battle_name,
            start_date, end_date,
-           result, strength_mean, strength_var, casualties) %>%
+           result, casualties) %>%
     rename(cwsac_url = url, cwsac_id = battle,
            battle_name_cwsac = battle_name,
            start_date_cwsac = start_date,
@@ -174,7 +175,7 @@ gen_battles <-
 
   nps_battles_cws2 <- cws2_battles %>%
     select(battle, url, study_area, core_area, potnr_boundary,
-           battle_name, strength_mean, strength_var) %>%
+           battle_name) %>%
     rename(cwsac_id = battle, cws2_url = url,
            battle_name_cws2 = battle_name) %>%
     mutate(partof_cws2 = TRUE)
@@ -203,14 +204,6 @@ gen_battles <-
   nps_latlong <- latlong %>%
     select(cwsac_id, lat, long)
 
-#   forces_agg <-
-#     forces %>%
-#     group_by(cwsac_id) %>%
-#     summarise(str_mean = sum(str_mean),
-#               str_var = sum(str_var),
-#               cas_kwm_mean = sum(cas_kwm_mean),
-#               cas_kwm_var = sum(cas_kwm_var))
-
   nps_battles <-
     nps_battles_cwss %>%
       full_join(nps_battles_cwsac, by = "cwsac_id") %>%
@@ -232,15 +225,9 @@ gen_battles <-
              result = pnonmiss(result, result_cwsac),
              start_date = pnonmiss(start_date, start_date_cwsac),
              end_date = pnonmiss(end_date, end_date_cwsac),
-#              cas_kwm_mean = pnonmiss(cas_kwm_mean, cas_kwm_mean_cwss,
-#                                      cas_kwm_mean_cwsac),
-#              cas_kwm_var = pnonmiss(cas_kwm_var, cas_kwm_var_cwss,
-#                                     cas_kwm_var_cwsac),
-#              str_mean = pnonmiss(str_mean, str_mean_cws2, str_mean_cwsac),
-#              str_var = pnonmiss(str_var, str_var_cws2, str_var_cws2),
              state = str_sub(cwsac_id, 1, 2)) %>%
       select(- matches("battle_name_(cwsac[12]|aad)"),
-             - matches("(start|end)_date_cwsac[12]"),
+             - matches("(start|end)_date_cwsac"),
              - matches("result_cwsac"),
              - matches("(cas_(mean|var)|str)_(cwsac[12]|cwss)"))
 
@@ -464,6 +451,7 @@ gen_people <- function(cwss_people, extra_people) {
                        narrative_link_1 = NarrativeLink1,
                        narrative_link_2 = NarrativeLink2
                        ) %>%
+                select(- ID) %>%
                 mutate(added = FALSE),
               extra_people %>% mutate(added = TRUE))
 }
@@ -476,6 +464,10 @@ gen_commanders <- function(cwss_commanders,
                            extra_commanders,
                            people,
                            excluded_battles) {
+
+  people_ <- select(people, person_id,
+                    last_name, suffix, first_name,
+                    middle_name, middle_initial)
 
   cwss_commanders_ <- cwss_commanders %>%
     mutate(BattlefieldCode =
@@ -490,7 +482,7 @@ gen_commanders <- function(cwss_commanders,
     rename(cwsac_id = BattlefieldCode) %>%
     bind_rows(select(extra_commanders, - name) %>%
                 mutate(added = TRUE)) %>%
-    left_join(people, by = c("commander" = "person_id"))
+    left_join(people_, by = c("commander" = "person_id"))
 
   cwsac_commanders_ <-
     cwsac_commanders %>%

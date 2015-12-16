@@ -4,55 +4,55 @@ path: data/nps_people.csv
 schema:
   fields:
   - format: default
-    name: PersonID
-    title: PersonID
+    name: person_id
+    title: person_id
     type: string
   - format: default
-    name: ID
-    title: ID
-    type: number
-  - format: default
-    name: LastName
-    title: LastName
+    name: last_name
+    title: last_name
     type: string
   - format: default
-    name: Suffix
-    title: Suffix
+    name: suffix
+    title: suffix
     type: string
   - format: default
-    name: FirstName
-    title: FirstName
+    name: first_name
+    title: first_name
     type: string
   - format: default
-    name: MiddleName
-    title: MiddleName
+    name: middle_name
+    title: middle_name
     type: string
   - format: default
-    name: MiddleInitial
-    title: MiddleInitial
+    name: middle_initial
+    title: middle_initial
     type: string
   - format: default
-    name: Keywords
-    title: Keywords
+    name: keywords
+    title: keywords
     type: string
   - format: default
-    name: Rank
-    title: Rank
+    name: rank
+    title: rank
     type: string
   - format: default
-    name: Bio
-    title: Bio
+    name: bio
+    title: bio
     type: string
   - format: default
-    name: BioSource
-    title: BioSource
+    name: bio_source
+    title: bio_source
     type: string
   - format: default
-    name: NarrativeLink1
-    title: NarrativeLink1
+    name: narrative_link_1
+    title: narrative_link_1
     type: string
   - format: default
-    name: NarrativeLink2
-    title: NarrativeLink2
+    name: narrative_link_2
+    title: narrative_link_2
     type: string
+  - format: default
+    name: added
+    title: added
+    type: boolean
 title: 'NPS combined data: people'

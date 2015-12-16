@@ -16,12 +16,20 @@ schema:
     title: commander_number
     type: integer
   - format: default
-    name: PersonID
-    title: PersonID
+    name: commander
+    title: commander
     type: string
+  - format: default
+    name: added
+    title: added
+    type: boolean
   - format: default
     name: last_name
     title: last_name
+    type: string
+  - format: default
+    name: suffix
+    title: suffix
     type: string
   - format: default
     name: first_name

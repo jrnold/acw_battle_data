@@ -36,17 +36,9 @@ schema:
     title: result
     type: string
   - format: default
-    name: cas_kwm_mean_cwss
-    title: cas_kwm_mean_cwss
-    type: number
-  - format: default
     name: cwss_url
     title: cwss_url
     type: string
-  - format: default
-    name: cas_kwm_var_cwss
-    title: cas_kwm_var_cwss
-    type: number
   - format: default
     name: partof_cwss
     title: partof_cwss
@@ -76,29 +68,21 @@ schema:
     title: significance
     type: string
   - format: default
-    name: cwsac1_url
-    title: cwsac1_url
+    name: cwsac_url
+    title: cwsac_url
     type: string
   - format: default
-    name: str_mean_cwsac1
-    title: str_mean_cwsac1
+    name: battle_name_cwsac
+    title: battle_name_cwsac
+    type: string
+  - format: default
+    name: casualties
+    title: casualties
     type: number
   - format: default
-    name: str_var_cwsac1
-    title: str_var_cwsac1
-    type: number
-  - format: default
-    name: cas_kwm_mean_cwsac1
-    title: cas_kwm_mean_cwsac1
-    type: number
-  - format: default
-    name: partof_cwsac1
-    title: partof_cwsac1
+    name: partof_cwsac
+    title: partof_cwsac
     type: boolean
-  - format: default
-    name: cas_kwm_var_cwsac1
-    title: cas_kwm_var_cwsac1
-    type: number
   - format: default
     name: cws2_url
     title: cws2_url
@@ -119,14 +103,6 @@ schema:
     name: battle_name_cws2
     title: battle_name_cws2
     type: string
-  - format: default
-    name: str_mean_cws2
-    title: str_mean_cws2
-    type: number
-  - format: default
-    name: str_var_cws2
-    title: str_var_cws2
-    type: number
   - format: default
     name: partof_cws2
     title: partof_cws2
@@ -234,32 +210,6 @@ schema:
   - format: default
     name: long
     title: Longitude
-    type: number
-  - description: Estimated strength (personnal) for both sides (mean).
-    format: default
-    name: str_mean
-    title: Strength (mean)
-    type: number
-  - constrains:
-      minimum: 0
-    description: Estimated strength (personnal) for both sides (variance).
-    format: default
-    name: str_var
-    title: Strength (variance)
-    type: number
-  - description: Estimated total casualties (killed, wounded, and missing or captured)
-      for both sides (mean).
-    format: default
-    name: cas_kwm_mean
-    title: Total casualties (mean)
-    type: number
-  - constrains:
-      minimum: 0
-    description: Estimated total casualties (killed, wounded, and missing or captured)
-      for both sides (variance).
-    format: default
-    name: cas_kwm_var
-    title: Total casualties (variance)
     type: number
   - format: default
     name: state

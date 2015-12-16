@@ -1,6 +1,6 @@
-##################################
-Distributions of peronnel in units
-##################################
+###################################
+Distributions of personnel in units
+###################################
 
 :name: unit_sizes
 :path: data/unit_sizes.csv

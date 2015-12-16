@@ -18,6 +18,7 @@ import os
 import os.path
 import re
 import json
+import urllib.parse
 
 import requests
 
@@ -62,7 +63,18 @@ for i in range(1, MAX_PAGE + 1):
             with open(os.path.join(DST_DIR, '%s.html' % battle), 'w') as f2:
                 f2.write(text)
                 print("writing to %s/%s.html" % (DST_DIR, battle))
-            events[href] = parser(soup2)
+
+            parsed_url = urllib.parse.urlparse(href)
+            params1 = urllib.parse.parse_qs(parsed_url.query)
+            params2 = {'dt': params1['dt'][0],
+                       'rid': params1['rid'][0]}
+            url = urllib.parse.urlunparse(('http:', 
+                                           'aad.archives.gov',
+                                           'aad' + '/' + parsed_url.path,
+                                           '',
+                                           urllib.parse.urlencode(params2),
+                                           ''))
+            events[url] = parser(soup2)
             nrecords += 1
 
 with open(DST_JSON, 'w') as f:
