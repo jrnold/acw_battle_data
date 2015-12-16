@@ -334,6 +334,7 @@ gen_forces <- function(cwss_forces,
 
   cwsac_forces_casstr <-
     cwsac_forces %>%
+    filter(! battle %in% c("VA020A", "VA020B")) %>%
     mutate(cas_m_mean_cwsac = psum(missing, captured),
            cas_kwm_mean_cwsac = casualties,
            cas_k_mean_cwsac = killed,
@@ -479,6 +480,7 @@ gen_commanders <- function(cwss_commanders,
                                 "Native American", belligerent),
            added = FALSE) %>%
     filter(! BattlefieldCode %in% c("VA068", "VA095")) %>%
+    filter(! (BattlefieldCode == "SC009" & belligerent == "US")) %>%
     rename(cwsac_id = BattlefieldCode) %>%
     bind_rows(select(extra_commanders, - name) %>%
                 mutate(added = TRUE)) %>%
@@ -498,8 +500,9 @@ gen_commanders <- function(cwss_commanders,
             select(cwsac_commanders_, cwsac_id, belligerent,
                    last_name, rank, navy),
             by = c("cwsac_id", "belligerent", "last_name")) %>%
+    group_by(cwsac_id, belligerent) %>%
+    mutate(commander_number = row_number()) %>%
     arrange(cwsac_id, belligerent, commander_number)
-
 }
 
 gen_units <- function(cwss_units, extra_units) {
