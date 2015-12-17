@@ -41,6 +41,8 @@ $ cd docs/ && make html
     - **stringr**
     - **tidyr**
     - **RSQLite**
+    - **purrr**
+    - **yaml**
 - pdflatex
 
 

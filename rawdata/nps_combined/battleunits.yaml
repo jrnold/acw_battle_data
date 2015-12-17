@@ -9,10 +9,10 @@ battles:
     US:
       source: DYER
       units:
-      - code: UMOBIRG0SG
-        name: 14th Infantry. Birge's Sharpshooters
-      - code: UMO0003RC
-        name: 3rd Regiment, Missouri Cavalry
+      - unit_code: UMOBIRG0SG
+        unit_name: 14th Infantry. Birge's Sharpshooters
+      - unit_code: UMO0003RC
+        unit_name: 3rd Regiment, Missouri Cavalry
     date: Dec 28, 1861
     name: Mount Zion Church
     note: 'CWSAC report lists for the US 5 companies of 3rd Missouri Cavalry, and
@@ -101,103 +101,103 @@ battles:
     US:
       source: https://en.wikipedia.org/wiki/Island_Number_Ten_Union_order_of_battle
       units:
-      - code: UWI0006YAL
-        name: 6th Battery, Wisc Artillery
-      - code: UIA0010RI
-        name: 10th Iowa
-      - code: UWI0007YAL
-        name: 7th Battery, Wisc Artillery
-      - code: UIL0047RI
-        name: 47th Ill
-      - code: UMOENGIREV
-        name: Engineer Regiment of the West
-      - code: UIL0026RI
-        name: 26th Ill
-      - code: UUR0004RC
-        name: 4th US Cavalry (3 companies)
+      - unit_code: UWI0006YAL
+        unit_name: 6th Battery, Wisc Artillery
+      - unit_code: UIA0010RI
+        unit_name: 10th Iowa
+      - unit_code: UWI0007YAL
+        unit_name: 7th Battery, Wisc Artillery
+      - unit_code: UIL0047RI
+        unit_name: 47th Ill
+      - unit_code: UMOENGIREV
+        unit_name: Engineer Regiment of the West
+      - unit_code: UIL0026RI
+        unit_name: 26th Ill
+      - unit_code: UUR0004RC
+        unit_name: 4th US Cavalry (3 companies)
         comment: 3 companies
-      - code: UIN0059RI
-        name: 59th Indiana
-      - code: UIA0002RC
-        name: 2nd Regiment, Iowa Cavalry
-      - code: UWI0008RI
-        name: 8th Wisconsin
-      - code: UOH0011YAL
-        name: 11th Battery, Ohio Light Artillery
-      - code: UMI0002RC
-        name: 2nd Michigan Cavalry
-      - code: UIL0064RI
-        name: 64th Ill Sharpshooters
-      - code: UIL0001RC
-        name: 1st Ill Cav, Co. H and I
+      - unit_code: UIN0059RI
+        unit_name: 59th Indiana
+      - unit_code: UIA0002RC
+        unit_name: 2nd Regiment, Iowa Cavalry
+      - unit_code: UWI0008RI
+        unit_name: 8th Wisconsin
+      - unit_code: UOH0011YAL
+        unit_name: 11th Battery, Ohio Light Artillery
+      - unit_code: UMI0002RC
+        unit_name: 2nd Michigan Cavalry
+      - unit_code: UIL0064RI
+        unit_name: 64th Ill Sharpshooters
+      - unit_code: UIL0001RC
+        unit_name: 1st Ill Cav, Co. H and I
         comment: >-
           Companies "H" and "I"
-      - code: UMI0001RAL
-        name: 1st Mich Artillery, Battery C & H
+      - unit_code: UMI0001RAL
+        unit_name: 1st Mich Artillery, Battery C & H
         comment: >-
           Batteries "C" and "H"
-      - code: UOH0027RI
-        name: 27th Ohio
-      - code: UIL0002RC
-        name: 2nd Regiment, Illinois Cavalry (4 companies)
+      - unit_code: UOH0027RI
+        unit_name: 27th Ohio
+      - unit_code: UIL0002RC
+        unit_name: 2nd Regiment, Illinois Cavalry (4 companies)
         comment: 4 companies
-      - code: UUR0001RI01
-        name: 1st US Infantry (6 companies)
+      - unit_code: UUR0001RI01
+        unit_name: 1st US Infantry (6 companies)
         comment: 6 companies
-      - code: UOH0063RI
-        name: 63rd Ohio
-      - code: UIL0027RI
-        name: 27th Illinois
-      - code: UIN0043RI
-        name: 43rd Indiana
-      - code: UIL0042RI
-        name: 42nd Illinois
-      - code: UMO0026RI
-        name: 26th Missouri
-      - code: UIN0047RI
-        name: 47th Indiana
-      - code: UMI0003RC
-        name: 3rd Michigan Cavalry
-      - code: UIL0022RI
-        name: 22nd Ill
-      - code: UIA0005RI
-        name: 5th Iowa
-      - code: UIL0007RC
-        name: 7th Illinois
-      - code: UWI0005YAL
-        name: 5th Battery, Wisc Artillery
-      - code: UMO0011RI
-        name: 11th Mo
-      - code: UWI0015RI
-        name: 15th Wisconsin
-      - code: UOH0029RI
-        name: 43rd Ohio
-      - code: UIL0016RI
-        name: 16th Ill
-      - code: UWI0002YAL
-        name: 2nd Battery, Iowa Artillery
-      - code: UIL0010RI01
-        name: 10th Il
-      - code: UIL0002RAL
-        name: 2nd Illinois Light Artillery (Battery I)
+      - unit_code: UOH0063RI
+        unit_name: 63rd Ohio
+      - unit_code: UIL0027RI
+        unit_name: 27th Illinois
+      - unit_code: UIN0043RI
+        unit_name: 43rd Indiana
+      - unit_code: UIL0042RI
+        unit_name: 42nd Illinois
+      - unit_code: UMO0026RI
+        unit_name: 26th Missouri
+      - unit_code: UIN0047RI
+        unit_name: 47th Indiana
+      - unit_code: UMI0003RC
+        unit_name: 3rd Michigan Cavalry
+      - unit_code: UIL0022RI
+        unit_name: 22nd Ill
+      - unit_code: UIA0005RI
+        unit_name: 5th Iowa
+      - unit_code: UIL0007RC
+        unit_name: 7th Illinois
+      - unit_code: UWI0005YAL
+        unit_name: 5th Battery, Wisc Artillery
+      - unit_code: UMO0011RI
+        unit_name: 11th Mo
+      - unit_code: UWI0015RI
+        unit_name: 15th Wisconsin
+      - unit_code: UOH0029RI
+        unit_name: 43rd Ohio
+      - unit_code: UIL0016RI
+        unit_name: 16th Ill
+      - unit_code: UWI0002YAL
+        unit_name: 2nd Battery, Iowa Artillery
+      - unit_code: UIL0010RI01
+        unit_name: 10th Il
+      - unit_code: UIL0002RAL
+        unit_name: 2nd Illinois Light Artillery (Battery I)
         comment: Battery "I"
-      - code: UIL0051RI
-        name: 51st Ill
-      - code: UIL0001RAL
-        name: 1st Illinois Artillery, Battery C
+      - unit_code: UIL0051RI
+        unit_name: 51st Ill
+      - unit_code: UIL0001RAL
+        unit_name: 1st Illinois Artillery, Battery C
         comment: Battery "C"
-      - code: UMO0022RI
-        name: 22nd Missouri Infantry Regiment
-      - code: UMO0001RAL
-        name: 1st Missouri Light Artillery (Battery G)
+      - unit_code: UMO0022RI
+        unit_name: 22nd Missouri Infantry Regiment
+      - unit_code: UMO0001RAL
+        unit_name: 1st Missouri Light Artillery (Battery G)
         comment: Battery "G"        
-      - code: UUR0002RA
-        name: 2nd US Artillery, Battery F
+      - unit_code: UUR0002RA
+        unit_name: 2nd US Artillery, Battery F
         comment: Battery "F"
-      - code: UIN0046RI
-        name: 46th Indiana
-      - code: UIN0034RI
-        name: 34th Indiana
+      - unit_code: UIN0046RI
+        unit_name: 46th Indiana
+      - unit_code: UIN0034RI
+        unit_name: 34th Indiana
     date: Feb 28 to Apr 8, 1862
     name: New Madrid/Battle of Island Number 10
   MO022:
@@ -223,16 +223,16 @@ battles:
     US:
       source: DYER
       units:
-      - code: UMO0009RCY
-        name: Missouri 9th State Militia Cavalry
-      - code: UIL0017RC
-        name: Illinois 17th Cavalry
-      - code: UMO0042RI
-        name: Missouri 42nd Infantry
-      - code: UUS0062RI00C
-        name: US 62nd Colored Infantry
-      - code: UMO0012RC
-        name: Missouri 12th Cavalry
+      - unit_code: UMO0009RCY
+        unit_name: Missouri 9th State Militia Cavalry
+      - unit_code: UIL0017RC
+        unit_name: Illinois 17th Cavalry
+      - unit_code: UMO0042RI
+        unit_name: Missouri 42nd Infantry
+      - unit_code: UUS0062RI00C
+        unit_name: US 62nd Colored Infantry
+      - unit_code: UMO0012RC
+        unit_name: Missouri 12th Cavalry
     date: Oct 15, 1864
     name: Glasgow
     notes: 'The units in Dyer and the CWSAC Report Update disagree. CWSAC report lists:
@@ -270,16 +270,16 @@ battles:
         Light Arty, OH 28th, 34th, 37th Infantry, WV 2nd cavalry (detachment)'
       source: DYER
       units:
-      - code: UKYSIMMYAL
-        name: Simmon's Battery Light Artillery
-      - code: UOH0034RI
-        name: Ohio 34th Infantry
-      - code: UOH0028RI
-        name: Ohio 28th Infantry
-      - code: UOH0037RI
-        name: Ohio 37th Infantry
-      - code: UWV0002RC
-        name: West Virginia 2nd Cavalry
+      - unit_code: UKYSIMMYAL
+        unit_name: Simmon's Battery Light Artillery
+      - unit_code: UOH0034RI
+        unit_name: Ohio 34th Infantry
+      - unit_code: UOH0028RI
+        unit_name: Ohio 28th Infantry
+      - unit_code: UOH0037RI
+        unit_name: Ohio 37th Infantry
+      - unit_code: UWV0002RC
+        unit_name: West Virginia 2nd Cavalry
         comment: Detachment
     date: May 15-17, 1862
     name: Princeton Court House

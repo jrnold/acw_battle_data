@@ -4,13 +4,18 @@ suppressPackageStartupMessages({
   library("magrittr")
   library("stringr")
   library("tidyr")
+  library("yaml")
+  library("purrr")
 })
 
 #'
 #' # Utility Functions
 #'
-write_csv <- function(x, ...) {
-  write.csv(x, ..., na = "", row.names = FALSE)
+write_csv <- function(x, file, ..., log = TRUE) {
+  if (log) {
+    message("Writing: ", file, "\n")
+  }
+  write.csv(x, file, ..., na = "", row.names = FALSE)
 }
 
 read_csv <- function(x, ...) {
@@ -85,3 +90,5 @@ rounded_var <- function(x, method = 1) {
   }
   vapply(x, f, 0)
 }
+
+

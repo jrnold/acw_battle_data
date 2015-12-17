@@ -1,6 +1,6 @@
-##################################################################
-Correspondence between battles in ``fox_forces`` and CWSAC battles
-##################################################################
+###############################################
+Correspondence ``fox_forces`` and CWSAC battles
+###############################################
 
 :name: fox_forces_to_cwsac
 :path: data/fox_forces_to_cwsac.csv

@@ -15,8 +15,7 @@ import datetime
 import shutil
 import re
 from os import path
-
-BASE_URL = "http://aad.archives.gov/aad/"
+import urllib.parse
 
 def yn(x):
     return 1 if x.lower() == "y" else 0
@@ -85,15 +84,26 @@ def build(src, dst):
     with open(path.join(src, "rawdata", "aad", "events.json"), 'r') as f:
         data = json.load(f)
 
-    # use reference number to sort rows
+    # clean up url
     newdata = {}
     for k, v in data.items():
-        newdata[v["Reference Number"]["value"].upper()] = v
+        parsed_url = urllib.parse.urlparse(k)
+        params1 = urllib.parse.parse_qs(parsed_url.query)
+        params2 = {'dt': params1['dt'][0],
+                   'rid': params1['rid'][0]}
+        url = urllib.parse.urlunparse(('http:', 
+                                       'aad.archives.gov',
+                                       'aad' + '/' + parsed_url.path,
+                                       '',
+                                       urllib.parse.urlencode(params2),
+                                       ''))
+        newdata[url] = v
+
 
     rows = []
-    for k, v in sorted(newdata.items()):
+    for k, v in sorted(newdata.items(), key = lambda x: x[1]["Reference Number"]["value"]):
         row = {}
-        row["url"] = "%s/%s" % (BASE_URL, k)
+        row["url"] = k
         row["reference_number"] = v["Reference Number"]["value"].upper()
         row["event"] = v["Event"]["meaning"]
         row["type"] = v["Type"]["meaning"]

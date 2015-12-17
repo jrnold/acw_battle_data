@@ -1,0 +1,66 @@
+format: csv
+name: nps_units
+path: data/nps_units.csv
+schema:
+  fields:
+  - format: default
+    name: unit_code
+    title: unit_code
+    type: string
+  - format: default
+    name: side
+    title: side
+    type: string
+  - format: default
+    name: state
+    title: state
+    type: string
+  - format: default
+    name: ordinal
+    title: ordinal
+    type: string
+  - format: default
+    name: type
+    title: type
+    type: string
+  - format: default
+    name: special
+    title: special
+    type: string
+  - format: default
+    name: duplicate
+    title: duplicate
+    type: number
+  - format: default
+    name: ethnic
+    title: ethnic
+    type: string
+  - format: default
+    name: unit_name
+    title: unit_name
+    type: string
+  - format: default
+    name: notes
+    title: notes
+    type: string
+  - format: default
+    name: func
+    title: func
+    type: string
+  - format: default
+    name: added
+    title: added
+    type: boolean
+  - format: default
+    name: unit_type
+    title: unit_type
+    type: string
+  - format: default
+    name: unit_arm
+    title: unit_arm
+    type: string
+  - format: default
+    name: unit_special
+    title: unit_special
+    type: string
+title: nps_units

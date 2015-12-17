@@ -1,6 +1,6 @@
-#############
-dyer_to_cwsac
-#############
+############################################################
+Correspondence between Dyer (1908) battles and CWSAC battles
+############################################################
 
 :name: dyer_to_cwsac
 :path: data/dyer_to_cwsac.csv
