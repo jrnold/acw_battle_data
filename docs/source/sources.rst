@@ -3,6 +3,7 @@ Sources
 ############
 
 
+
 .. [ACAA1994] U.S. Army Concepts Analysis Agency. 1994. “PAR Datadisk (personnel Attrition Rates in Historical Land Combat Operations) (revised) Version 2.1 (computer Diskette).” http://oai.dtic.mil/oai/oai?verb=getRecord&metadataPrefix=html&identifier=ADM000368. http://oai.dtic.mil/oai/oai?verb=getRecord&metadataPrefix=html&identifier=ADM000368
 
 .. [Bodart1908] Bodart, Gaston. 1908. Militär-Historisches Kreigs-Lexikon, (1618-1905). Stern. http://books.google.com/books?id=Eo4DAAAAYAAJ. http://books.google.com/books?id=Eo4DAAAAYAAJ
@@ -118,3 +119,12 @@ Sources
 .. [Thorpe2011] Thorpe, Gene. 2011. “Battles and Casualties of the Civil War Map.” The Washington Post. http://www.washingtonpost.com/wp-srv/lifestyle/special/civil-war-interactive/civil-war-battles-and-casualties-interactive-map/ (December 7, 2015). http://www.washingtonpost.com/wp-srv/lifestyle/special/civil-war-interactive/civil-war-battles-and-casualties-interactive-map/
 
   
+
+Other Data Sources
+===================
+
+There are other data sources on the American Civil War that are not included in this data collection.
+These include:
+
+- The Nafzier Orders of Battle collection. A collection of 7895 orders of battles from 1600-1945, that includes 812 orders of battle from the American Civil War. These are available from the `US Army Combined Arms Research Library <http://cdm16040.contentdm.oclc.org/cdm/singleitem/collection/p4013coll11/id/1277>`__.
+- American Civil War Research Database. This contains soldier's records, regimental rosters and chronicles, and officer profiles. http://www.civilwardata.com/

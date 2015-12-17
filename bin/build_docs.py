@@ -5,9 +5,9 @@ from os import path
 import json
 import shutil
 import subprocess as sp
+
 from tabulate import tabulate
 
-import jinja2
 
 def filter_citation(value):
     """ Jinja2 filter for restructured text citation """
@@ -22,6 +22,16 @@ def build_file(dstfile, template, env, metadata):
     rendered = template.render(metadata)
     with open(dstfile, 'w') as f:
         f.write(rendered)
+
+def build_data_page(docs, env, metadata):
+    res_table = []
+    for res in metadata['resources']:
+        row = ["`%s <resources/%s.html>`__" % (path.basename(res['path']), res['name']),
+               res['title']]
+        res_table.append(row)
+    metadata['resources_table'] = res_table
+    build_file(path.join(docs, 'data.rst'), 'data.rst',
+               env, metadata)
 
 def build_resources(docs, env, metadata):
     data_doc_dir = path.join(docs, 'resources')
@@ -57,6 +67,7 @@ def build(src, dst, docs):
     update_version(path.join(docs, "conf.py"), metadata)
     build_file(path.join(docs, "index.rst"), 'index.rst', env, metadata)
     build_file(path.join(docs, "sources.rst"), 'sources.rst', env, metadata)
+    build_data_page(docs, env, metadata)
     build_resources(docs, env, metadata)
 
 def main():
