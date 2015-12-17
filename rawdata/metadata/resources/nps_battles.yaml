@@ -72,14 +72,6 @@ schema:
     title: cwsac_url
     type: string
   - format: default
-    name: battle_name_cwsac
-    title: battle_name_cwsac
-    type: string
-  - format: default
-    name: casualties
-    title: casualties
-    type: number
-  - format: default
     name: partof_cwsac
     title: partof_cwsac
     type: boolean
@@ -99,10 +91,6 @@ schema:
     name: potnr_boundary
     title: potnr_boundary
     type: number
-  - format: default
-    name: battle_name_cws2
-    title: battle_name_cws2
-    type: string
   - format: default
     name: partof_cws2
     title: partof_cws2
@@ -215,4 +203,12 @@ schema:
     name: state
     title: state
     type: string
+  - format: default
+    name: str_total
+    title: str_total
+    type: number
+  - format: default
+    name: cas_kwm_total
+    title: cas_kwm_total
+    type: number
 title: 'NPS combined data battle data: battles'

@@ -7,15 +7,15 @@ import shutil
 import subprocess as sp
 
 from tabulate import tabulate
-
+import jinja2
 
 def filter_citation(value):
     """ Jinja2 filter for restructured text citation """
     return '[' + value.strip() + ']_'
 
-def filter_table(value):
+def filter_table(value, headers = ()):
     """ Jinja2 filter for an restructured text table """
-    return tabulate(value, tablefmt="rst")
+    return tabulate(value, tablefmt="rst", headers = headers)
     
 def build_file(dstfile, template, env, metadata):
     template = env.get_template(template)

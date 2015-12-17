@@ -235,13 +235,13 @@ gen_battles <-
              start_date = pnonmiss(start_date, start_date_cwsac),
              end_date = pnonmiss(end_date, end_date_cwsac),
              state = str_sub(cwsac_id, 1, 2),
-             str_total = pnonmiss(str_forces, str_cwss, str_cws2, str_cwsac),
+             str_total = pnonmiss(str_forces, str_cws2, str_cwsac),
              cas_kwm_total = pnonmiss(cas_kwm_forces,
                                       cas_kwm_cwss, cas_kwm_cwsac)) %>%
-      select(- matches("battle_name_(cwsac[12]|aad)"),
+      select(- matches("battle_name_(cwsac|cws2|aad)"),
              - matches("(start|end)_date_cwsac"),
              - matches("result_cwsac"),
-             - matches("(cas_(mean|var)|str)_(cwsac[12]|cwss)"))
+             - matches("(cas_kwm|str)_(forces|cwsac|cws2|cwss)"))
 
   #' Fill in campaigns and theaters,
   extra_battles <- extra_battles
@@ -652,9 +652,7 @@ main <- function() {
   arglist <- commandArgs(TRUE)
   src <- arglist[1]
   dst <- arglist[2]
-  src <- "."
-  dst <- "data"
-  #build(src, dst)
+  build(src, dst)
 }
 
 main()

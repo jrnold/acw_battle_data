@@ -5,6 +5,8 @@ Resources
 Datasets included in this collection:
 
 ====================================================================================  ===================================================================================================================
+Resource                                                                              Description
+====================================================================================  ===================================================================================================================
 `CDB90_to_cwsac.csv <resources/CDB90_to_cwsac.html>`__                                CDB90 to CWSAC battle links
 `aad_battles.csv <resources/aad_battles.html>`__                                      Records About Civil War Battle Sites, created by the CWSAC, 1990-1993, and deposited with the National Archives AAD
 `aad_events.json <resources/aad_events.html>`__                                       Records About Civil War Battle Sites, created by the CWSAC, 1990-1993, and deposited with the National Archives AAD
@@ -64,6 +66,15 @@ Datasets included in this collection:
 `livermore_to_cwsac.csv <resources/livermore_to_cwsac.html>`__                        Correspondence between Livermore (1900) battles and CWSAC battles
 `livermore_to_dbpedia.csv <resources/livermore_to_dbpedia.html>`__                    Correspondence between Livermore (1900) battles and dbpedia.org resources
 `navalbattles.csv <resources/navalbattles.html>`__                                    List of naval battles
+`nps_battle_units.csv <resources/nps_battle_units.html>`__                            nps_battle_units
+`nps_battlelist.csv <resources/nps_battlelist.html>`__                                Comparison of battles in CWSAC AAD, CWSAC Report, CWSAC Updates, and CWSS
+`nps_battles.csv <resources/nps_battles.html>`__                                      NPS combined data battle data: battles
+`nps_campaigns.csv <resources/nps_campaigns.html>`__                                  NPS combined data battle data: campaigns
+`nps_commanders.csv <resources/nps_commanders.html>`__                                NPS combined data battle data: commanders
+`nps_forces.csv <resources/nps_forces.html>`__                                        NPS combined data battle data: forces
+`nps_people.csv <resources/nps_people.html>`__                                        NPS combined data: people
+`nps_theaters.csv <resources/nps_theaters.html>`__                                    NPS combined data battle data: theaters
+`nps_units.csv <resources/nps_units.html>`__                                          nps_units
 `nytimes_civil_war_chronology.json <resources/nytimes_civil_war_chronology.html>`__   nytimes_civil_war_chronology
 `phisterer_battles.csv <resources/phisterer_battles.html>`__                          Phisterer (1883) battle data: battle list
 `phisterer_engagements.csv <resources/phisterer_engagements.html>`__                  Phisterer (1883) chronological list of engagements

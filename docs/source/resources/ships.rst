@@ -87,7 +87,7 @@ url_danfs
 :format: url
 
 
-URL of the ship in the Naval History and Heritage Ship Histories, either the  `Dictionary of American Naval Fighting Ships (DANFS) <http://www.history.navy.mil/research/histories/ship-histories/danfs.html>`__ or `Confederate Ships<http://www.history.navy.mil/research/histories/ship-histories/confederate_ships.html>`__.
+URL of the ship in the Naval History and Heritage Ship Histories, either the Dictionary of American Naval Fighting Ships  (`DANFS <http://www.history.navy.mil/research/histories/ship-histories/danfs.html>`__) or `Confederate Ships <http://www.history.navy.mil/research/histories/ship-histories/confederate_ships.html>`__.
 
 
        

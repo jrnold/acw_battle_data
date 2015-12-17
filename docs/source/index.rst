@@ -14,7 +14,7 @@ This is mostly a repackaging of data from other secondary and primary sources, a
 *keywords:* American Civil War, battle, war, casualties, commanders
 
 
-.. toctree:: Table of Contents
+.. toctree::
    :maxdepth: 1
    :glob:
    :includehidden:
