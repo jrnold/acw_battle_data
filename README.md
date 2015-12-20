@@ -23,16 +23,12 @@ $ cd docs/ && make html
 
 ## Prerequesites
 
-- Python 3
-    - jinja2
-    - lxml
-    - nameparser
-    - pandas
-    - pyparsing
-    - requests
-    - sphinx
-    - yaml
-	- tabulate
+For python dependencies create and activate a [conda](http://conda.pydata.org/docs/using/envs.html#create-a-separate-environment) environment.
+
+```shell
+conda env create -f environment.yml
+```
+
 - R
     - **dplyr**
     - **jsonlite**
