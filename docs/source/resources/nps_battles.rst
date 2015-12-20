@@ -37,14 +37,11 @@ results_text                     string   results_text
 preservation                     string   preservation
 significance                     string   significance
 cwsac_url                        string   cwsac_url
-battle_name_cwsac                string   battle_name_cwsac
-casualties                       number   casualties
 partof_cwsac                     boolean  partof_cwsac
 cws2_url                         string   cws2_url
 study_area                       number   study_area
 core_area                        number   core_area
 potnr_boundary                   number   potnr_boundary
-battle_name_cws2                 string   battle_name_cws2
 partof_cws2                      boolean  partof_cws2
 interpretive_political           integer  interpretive_political
 interpretive_commander_loss      integer  interpretive_commander_loss
@@ -73,6 +70,8 @@ partof_shenandoah                boolean  partof_shenandoah
 lat                              number   Latitude
 long                             number   Longitude
 state                            string   state
+str_total                        number   str_total
+cas_kwm_total                    number   cas_kwm_total
 ===============================  =======  ===============================
 
 cwsac_id
@@ -279,30 +278,6 @@ cwsac_url
 
 
        
-battle_name_cwsac
------------------
-
-:title: battle_name_cwsac
-:type: string
-:format: default
-
-
-
-
-
-       
-casualties
-----------
-
-:title: casualties
-:type: number
-:format: default
-
-
-
-
-
-       
 partof_cwsac
 ------------
 
@@ -356,18 +331,6 @@ potnr_boundary
 
 :title: potnr_boundary
 :type: number
-:format: default
-
-
-
-
-
-       
-battle_name_cws2
-----------------
-
-:title: battle_name_cws2
-:type: string
 :format: default
 
 
@@ -704,6 +667,30 @@ state
 
 :title: state
 :type: string
+:format: default
+
+
+
+
+
+       
+str_total
+---------
+
+:title: str_total
+:type: number
+:format: default
+
+
+
+
+
+       
+cas_kwm_total
+-------------
+
+:title: cas_kwm_total
+:type: number
 :format: default
 
 

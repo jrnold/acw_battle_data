@@ -13,27 +13,24 @@ This is mostly a repackaging of data from other secondary and primary sources, a
 
 *keywords:* American Civil War, battle, war, casualties, commanders
 
-Resources
-=========
 
 .. toctree::
    :maxdepth: 1
    :glob:
-   
-   resources/*
+   :includehidden:
+
+   *
 
 .. toctree::
-   :maxdepth: 1
    :glob:
    :hidden:
-   
-   *
+
+   resources/*
    
 
 Indices and tables
 ==================
 
-* :doc:`Sources`
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`

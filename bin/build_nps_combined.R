@@ -134,6 +134,7 @@ gen_battles <-
            shenandoah_battles,
            latlong,
            extra_battles,
+           forces,
            excluded_battles) {
 
   nps_battles_cwss <- cwss_battles %>%
@@ -151,10 +152,10 @@ gen_battles <-
            campaign_code = CampaignCode,
            result = Result,
            summary = Summary,
+           cas_kwm_cwss = TotalCasualties,
            cwss_url = URL) %>%
     select(- Comment, - ID, - State,
-           - matches("summary"),
-           - TotalCasualties) %>%
+           - matches("summary")) %>%
     mutate(partof_cwss = TRUE,
            result = plyr::revalue(result, CWSS_RESULTS))
 
@@ -163,21 +164,24 @@ gen_battles <-
     select(battle, operation, forces_text, casualties_text, results_text,
            preservation, significance, url, battle_name,
            start_date, end_date,
-           result, casualties) %>%
+           result, casualties, strength) %>%
     rename(cwsac_url = url, cwsac_id = battle,
            battle_name_cwsac = battle_name,
            start_date_cwsac = start_date,
            end_date_cwsac = end_date,
-           result_cwsac = result) %>%
+           result_cwsac = result,
+           cas_kwm_cwsac = casualties,
+           str_cwsac = strength) %>%
     mutate(partof_cwsac = TRUE,
            result_cwsac = plyr::revalue(result_cwsac,
                                          c("Inconclusive" = "Indecisive")))
 
   nps_battles_cws2 <- cws2_battles %>%
     select(battle, url, study_area, core_area, potnr_boundary,
-           battle_name) %>%
+           battle_name, strength) %>%
     rename(cwsac_id = battle, cws2_url = url,
-           battle_name_cws2 = battle_name) %>%
+           battle_name_cws2 = battle_name,
+           str_cws2 = strength) %>%
     mutate(partof_cws2 = TRUE)
 
   nps_battles_aad <- aad_battles %>%
@@ -204,6 +208,11 @@ gen_battles <-
   nps_latlong <- latlong %>%
     select(cwsac_id, lat, long)
 
+  forces_agg <- forces %>%
+    group_by(cwsac_id) %>%
+    summarize(cas_kwm_forces = sum(cas_kwm_mean),
+              str_forces = sum(str_mean))
+
   nps_battles <-
     nps_battles_cwss %>%
       full_join(nps_battles_cwsac, by = "cwsac_id") %>%
@@ -211,7 +220,7 @@ gen_battles <-
       full_join(nps_battles_aad, by = "cwsac_id") %>%
       full_join(nps_battles_shenandoah, by = "cwsac_id") %>%
       left_join(nps_latlong, by = "cwsac_id") %>%
-      # left_join(forces_agg, by = "cwsac_id") %>%
+      left_join(forces_agg, by = "cwsac_id") %>%
       filter(! cwsac_id %in% excluded_battles) %>%
       mutate(partof_cwss = ! is.na(partof_cwss),
              partof_cwsac = ! is.na(partof_cwsac),
@@ -225,11 +234,14 @@ gen_battles <-
              result = pnonmiss(result, result_cwsac),
              start_date = pnonmiss(start_date, start_date_cwsac),
              end_date = pnonmiss(end_date, end_date_cwsac),
-             state = str_sub(cwsac_id, 1, 2)) %>%
-      select(- matches("battle_name_(cwsac[12]|aad)"),
+             state = str_sub(cwsac_id, 1, 2),
+             str_total = pnonmiss(str_forces, str_cws2, str_cwsac),
+             cas_kwm_total = pnonmiss(cas_kwm_forces,
+                                      cas_kwm_cwss, cas_kwm_cwsac)) %>%
+      select(- matches("battle_name_(cwsac|cws2|aad)"),
              - matches("(start|end)_date_cwsac"),
              - matches("result_cwsac"),
-             - matches("(cas_(mean|var)|str)_(cwsac[12]|cwss)"))
+             - matches("(cas_kwm|str)_(forces|cwsac|cws2|cwss)"))
 
   #' Fill in campaigns and theaters,
   extra_battles <- extra_battles
@@ -619,6 +631,7 @@ build <- function(src, dst) {
                 shenandoah_battles,
                 latlong,
                 extra_battles,
+                forces,
                 extra_data[["excluded_battles"]])
 
 
@@ -639,8 +652,6 @@ main <- function() {
   arglist <- commandArgs(TRUE)
   src <- arglist[1]
   dst <- arglist[2]
-  src <- "."
-  dst <- "data"
   build(src, dst)
 }
 

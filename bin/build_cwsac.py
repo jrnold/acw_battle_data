@@ -150,8 +150,9 @@ def copy_json(data, dst):
         json.dump(data, f)
 
 def build(src, dst):
+    srcdir = path.join(src, "rawdata", "cwsac")
     data = {}
-    json_dir = path.join(src, 'json')
+    json_dir = path.join(srcdir, 'json')
     for filename in os.listdir(json_dir):
         with open(path.join(json_dir, filename), 'r') as f:
             data[path.splitext(filename)[0]] = json.load(f)
@@ -159,10 +160,10 @@ def build(src, dst):
     battle_csv(data, path.join(dst, 'cwsac_battles.csv'))
     forces_csv(data, path.join(dst, 'cwsac_forces.csv'))
     commanders_csv(data, path.join(dst, 'cwsac_commanders.csv'))
-    copy_campaigns(src, dst)
-    copy_theaters(src, dst)
-    copy_significance(src, dst)
-    copy_preservation(src, dst)
+    copy_campaigns(srcdir, dst)
+    copy_theaters(srcdir, dst)
+    copy_significance(srcdir, dst)
+    copy_preservation(srcdir, dst)
     copy_json(data, dst)
 
 def main():

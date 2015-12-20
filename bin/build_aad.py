@@ -84,24 +84,8 @@ def build(src, dst):
     with open(path.join(src, "rawdata", "aad", "events.json"), 'r') as f:
         data = json.load(f)
 
-    # clean up url
-    newdata = {}
-    for k, v in data.items():
-        parsed_url = urllib.parse.urlparse(k)
-        params1 = urllib.parse.parse_qs(parsed_url.query)
-        params2 = {'dt': params1['dt'][0],
-                   'rid': params1['rid'][0]}
-        url = urllib.parse.urlunparse(('http:', 
-                                       'aad.archives.gov',
-                                       'aad' + '/' + parsed_url.path,
-                                       '',
-                                       urllib.parse.urlencode(params2),
-                                       ''))
-        newdata[url] = v
-
-
     rows = []
-    for k, v in sorted(newdata.items(), key = lambda x: x[1]["Reference Number"]["value"]):
+    for k, v in sorted(data.items(), key = lambda x: x[1]["Reference Number"]["value"]):
         row = {}
         row["url"] = k
         row["reference_number"] = v["Reference Number"]["value"].upper()

@@ -5,7 +5,7 @@ import shutil
 import subprocess as sp
 import argparse
 
-PYTHON = 'python3'
+PYTHON = 'python'
 RSCRIPT = 'Rscript'
 
 SRC = "."
@@ -16,13 +16,12 @@ def build_aad(src, dst):
 
 def build_cwsac(src, dst):
     print("build_cwsac")
-    sp.check_call([PYTHON, 'bin/build_cwsac.py', path.join(src, "rawdata", "cwsac"), dst])
+    sp.check_call([PYTHON, 'bin/build_cwsac.py', src, dst])
     sp.check_call([RSCRIPT, 'bin/update_cwsac_forces.R', src, dst])
 
 def build_cws2(src, dst):
     print("build_cws2")
-    sp.check_call([PYTHON, 'bin/build_cws2.py',
-            path.join(src, "rawdata", "cws2"), dst])
+    sp.check_call([PYTHON, 'bin/build_cws2.py', src, dst])
     sp.check_call([RSCRIPT, 'bin/update_cws2_forces.R', src, dst])    
 
 def build_cwss(src, dst):
@@ -36,8 +35,7 @@ def build_unit_sizes(src, dst):
 
 def build_bodart(src, dst):
     print("build_bodart")
-    sp.check_call([PYTHON, "bin/build_bodart.py",
-            path.join(src, "rawdata", "bodart1908"), dst])
+    sp.check_call([PYTHON, "bin/build_bodart.py", src, dst])
 
 def build_dyer(src, dst):
     print("build_dyer")
@@ -45,8 +43,7 @@ def build_dyer(src, dst):
 
 def build_wikipedia(src, dst):
     print("build_wikipedia")
-    sp.check_call([PYTHON, "bin/build_wikipedia.py",
-            path.join(src, "rawdata", "en.wikipedia.org"), dst])
+    sp.check_call([PYTHON, "bin/build_wikipedia.py", src, dst])
 
 def build_fox(src, dst):
     print("build_fox")
@@ -62,13 +59,12 @@ def build_kennedy(src, dst):
 
 def build_livermore(src, dst):
     print("build_livermore")
-    sp.check_call([RSCRIPT, "bin/build_livermore.R",
-            src, dst])
+    sp.check_call([RSCRIPT, "bin/build_livermore.R", src, dst])
+            
 
 def build_thorpe(src, dst):
     print("build_thorpe")
-    sp.check_call([PYTHON, "bin/build_thorpe.py",
-            path.join(src, "rawdata", "thorpe"), dst])
+    sp.check_call([PYTHON, "bin/build_thorpe.py", src, dst])
 
 def build_nyt(src, dst):
     print("build_nyt")
@@ -81,8 +77,7 @@ def build_phisterer(src, dst):
 
 def build_shenandoah(src, dst):
     print("build_shenandoah")
-    sp.check_call([PYTHON, "bin/build_shenandoah.py",
-            path.join(src, "rawdata", "shenandoah"), dst])
+    sp.check_call([PYTHON, "bin/build_shenandoah.py", src, dst])
 
 def build_clodfelter(src, dst):
     print("build_clodfelter")
@@ -116,8 +111,7 @@ def build_datapackage(src, dst):
 def build_docs(src, dst, docs):
     print("build_docs")
     # create docs sources
-    sp.check_call([PYTHON, "bin/build_docs.py",
-            src, dst, docs])
+    sp.check_call([PYTHON, "bin/build_docs.py", src, dst, docs])
 
 def build(src, dst, docs):
     if path.exists(dst):

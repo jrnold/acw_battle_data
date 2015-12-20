@@ -123,7 +123,8 @@ def copy_json(src, dst):
     shutil.copy(path.join(src, 'cws2.json'), dst)
     
 def build(src, dst):
-    with open(path.join(src, "cws2.json"), 'r') as f:
+    srcdir = path.join(src, "rawdata", "cws2")
+    with open(path.join(srcdir, "cws2.json"), 'r') as f:
         data = json.load(f)
     
     battle_csv(data, path.join(dst, 'cws2_battles.csv'))
@@ -131,7 +132,7 @@ def build(src, dst):
     commanders_csv(data, path.join(dst, 'cws2_commanders.csv'))
     dates_csv(data, path.join(dst, 'cws2_dates.csv'))
     locations_csv(data, path.join(dst, 'cws2_locations.csv'))
-    copy_json(src, dst)
+    copy_json(srcdir, dst)
     
                 
 def main():

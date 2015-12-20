@@ -217,7 +217,8 @@ def bodart_to_dbpedia(src, dst):
     print("Writing: %s" % dst)
 
 def build(src, dst):
-    filename = os.path.join(src, "bodart.yaml")
+    srcdir = os.path.join(src, "rawdata", "bodart1908")
+    filename = os.path.join(srcdir, "bodart.yaml")
     battle_csv(filename, os.path.join(dst, "bodart1908_battles.csv"))
     forces_csv(filename, os.path.join(dst, "bodart1908_forces.csv"))
     commanders_csv(filename, os.path.join(dst, "bodart1908_commanders.csv"))

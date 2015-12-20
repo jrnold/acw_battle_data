@@ -57,7 +57,8 @@ def parse_xml(src):
             
     
 def build(src, dst):
-    srcfile = path.join(src, "cwFourYearsSec.xml")
+    srcdir = path.join(src, "rawdata", "thorpe")
+    srcfile = path.join(srcdir, "cwFourYearsSec.xml")
     dstfile = path.join(dst, "thorpe_engagements.csv")
     data = parse_xml(srcfile)
     fields = ['battleNum',

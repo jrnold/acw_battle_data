@@ -147,7 +147,8 @@ def build_json(data, dst):
     
 def build(src, dst):
     print("Building Shenandoah data")
-    data = load_data(src)
+    srcdir = path.join(src, "rawdata", "shenandoah")
+    data = load_data(srcdir)
     build_battles(data, dst)
     build_forces(data, dst)
     build_commanders(data, dst)
@@ -155,8 +156,6 @@ def build(src, dst):
  
 def main():
     src, dst = sys.argv[1:3]
-    #src = "../rawdata/shenandoah"
-    #dst = "../data"
     build(src, dst)
 
 if __name__ == "__main__":

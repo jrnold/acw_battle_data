@@ -136,8 +136,9 @@ def copyfiles(src, dst):
     shutil.copy(path.join(src, "wikipedia_to_cwsac.csv"), dst)
 
 def build(src, dst):
-    tocsv(src, dst)
-    copyfiles(src, dst)
+    srcdir = path.join(src, "rawdata", "en.wikipedia.org")
+    tocsv(srcdir, dst)
+    copyfiles(srcdir, dst)
 
 def main():
     src, dst = sys.argv[1:3]

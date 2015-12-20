@@ -11,27 +11,24 @@
 
 *keywords:* {{ keywords|join(', ') }}
 
-Resources
-=========
 
 .. toctree::
    :maxdepth: 1
    :glob:
-   
-   resources/*
+   :includehidden:
+
+   *
 
 .. toctree::
-   :maxdepth: 1
    :glob:
    :hidden:
-   
-   *
+
+   resources/*
    
 
 Indices and tables
 ==================
 
-* :doc:`Sources`
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`

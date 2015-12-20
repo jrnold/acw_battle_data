@@ -13,7 +13,7 @@ suppressPackageStartupMessages({
 #'
 write_csv <- function(x, file, ..., log = TRUE) {
   if (log) {
-    message("Writing: ", file, "\n")
+    message("Writing: ", file)
   }
   write.csv(x, file, ..., na = "", row.names = FALSE)
 }
