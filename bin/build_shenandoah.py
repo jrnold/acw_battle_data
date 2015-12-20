@@ -7,9 +7,6 @@ import csv
 import datetime
 import json
 
-print(sys.path)
-print(os.getenv('PATH'))
-
 import yaml
 
 BASE_URL = "http://www.nps.gov/abpp/shenandoah/"
