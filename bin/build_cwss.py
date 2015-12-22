@@ -256,7 +256,10 @@ def battleunitslink_csv(root, comments, dst):
             row = {}
             properties = entry.find('./%s/%s' % (xmlns('content'), xmlns('m:properties'))) 
             for fld in ('BattlefieldCode', 'Comment', 'Source', 'UnitCode'):
-                row[fld] = properties.find(xmlns('d:%s' % fld)).text
+                try:
+                    row[fld] = properties.find(xmlns('d:%s' % fld)).text.strip()
+                except AttributeError:
+                    row[fld] = None
             row['BattlefieldCode'] = row['BattlefieldCode'].upper()
             try:
                 row.update(comments[(row['BattlefieldCode'], row['UnitCode'])])
@@ -278,7 +281,9 @@ def build_units(src, dst):
     # clean whitepace
     data.func = data.func.str.strip()
     for i in ('type', 'special', 'ethnic', 'unit_name', 'func'):
-        data[i] = data[i].str.replace('0', '')
+        data.replace({i: {'0': ''}}, inplace = True)
+    data.replace({'side': {'U': 'US', 'C': 'Confederate'}},
+                 inplace = True)
     data.duplicate = data.duplicate.fillna(0).astype('int64')
     for x in ('pubdate',
               'updatedate',

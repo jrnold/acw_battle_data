@@ -523,11 +523,11 @@ gen_units <- function(cwss_units, extra_units) {
                         {
                           bind_rows(.,
                                     select(parse_unit_code(.$unit_code),
-                                       -unit_code))
+                                           -unit_code))
                         }
     bind_rows(mutate(cwss_units,
                      added = FALSE),
-            extra_units)
+              extra_units)
 
 }
 
