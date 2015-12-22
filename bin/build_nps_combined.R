@@ -518,9 +518,16 @@ gen_commanders <- function(cwss_commanders,
 }
 
 gen_units <- function(cwss_units, extra_units) {
-  bind_rows(mutate(cwss_units, added = FALSE),
-            mutate(jsonlite:::simplify(extra_units),
-                   added = TRUE))
+  extra_units <- mutate(jsonlite:::simplify(extra_units),
+                        added = TRUE) %>%
+                        {
+                          bind_rows(.,
+                                    select(parse_unit_code(.$unit_code),
+                                       -unit_code))
+                        }
+    bind_rows(mutate(cwss_units,
+                     added = FALSE),
+            extra_units)
 
 }
 

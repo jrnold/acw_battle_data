@@ -61,7 +61,7 @@ battles:
         unit_name: 55th Tenn
       - unit_code: CTN0046RI01
         unit_name: 46th Tenn
-        
+
       - unit_code: CLAPOIN0A
         unit_name: Pointe Coupee (Louisiana) Art
       - unit_code: CTN0014RC01
@@ -97,7 +97,7 @@ battles:
         unit_name: Rucker's Artillery Co.
       - unit_code: CTNJOHNCAH
         unit_name: "Johnston's Tenn Siege Battery (Southern Guards)"
-        
+
     US:
       source: https://en.wikipedia.org/wiki/Island_Number_Ten_Union_order_of_battle
       units:
@@ -190,7 +190,7 @@ battles:
         unit_name: 22nd Missouri Infantry Regiment
       - unit_code: UMO0001RAL
         unit_name: 1st Missouri Light Artillery (Battery G)
-        comment: Battery "G"        
+        comment: Battery "G"
       - unit_code: UUR0002RA
         unit_name: 2nd US Artillery, Battery F
         comment: Battery "F"
@@ -264,7 +264,7 @@ battles:
       - unit_code: CVA0056RI
         unit_name: 56th Virginia Infantry
       - unit_code: CVA0051RI
-        unit_name: 51st Virginia Infantry        
+        unit_name: 51st Virginia Infantry
     US:
       notes: 'CWSAC Update lists "District of Kanawha". Dyer lists: KY Simmon''s Battery
         Light Arty, OH 28th, 34th, 37th Infantry, WV 2nd cavalry (detachment)'
@@ -317,59 +317,29 @@ battles:
 units:
   - unit_code: CTNRUCKCA
     unit_name: "Rucker's Artillery Company"
-    unit_type: C
-    unit_arm: A
   - unit_code: CMOCOLLYA
     unit_name: "Collin's Missouri Battery"
-    unit_type: "Y"
-    unit_arm: A
-  - unit_code: CVAJEFFBA
+  - unit_code: CVAJEFFYA
     unit_name: "Jeffree's battery"
-    unit_type: "Y"
-    unit_arm: A
   - unit_code: CTNUPTOCAH
     unit_name: "Upton's Heavy Artillery Company"
-    unit_type: "C"
-    unit_arm: A
-    unit_special: H
   - unit_code: UTNSTEWCAH
     unit_name: "Stewart's Heavy Artillery Company"
-    unit_type: "C"
-    unit_arm: A
-    unit_special: H
   - unit_code: CTNHAYWCC
     unit_name: "Haywood's Tennessee Cavalry Company"
-    unit_type: C
-    unit_arm: C
   - unit_code: CTNNEELCC
     unit_name: "Neely's Tennessee Cavalry Company"
-    unit_type: C
-    unit_arm: C
   - unit_code: CTNWHEECC
     unit_name: "Wheeler's Tennessee Cavalry Company"
-    unit_type: C
-    unit_arm: C
   - unit_code: CTNSTERCA
     unit_name: "Sterling's Tennessee Artillery Company"
-    unit_type: C
-    unit_arm: A
   - unit_code: CTNHUMECA
     unit_name: "Hume's Tennessee Artillery Company"
-    unit_type: C
-    unit_arm: A
   - unit_code: CARHOADCA
-    unit_name: Hoadley's Arkansas Artillery Company
-    unit_type: C
-    unit_arm: A
+    unit_name: "Hoadley's Arkansas Artillery Company"
   - unit_code: CTNJONECA
     unit_name: "Jones's Tennessee Artillery Company"
-    unit_type: C
-    unit_arm: A
   - unit_code: CARDISMCA
-    unit_name: Dismuke's Arkansas Artillery Company
-    unit_type: C
-    unit_arm: A
+    unit_name: "Dismuke's Arkansas Artillery Company"
   - unit_code: CLA0005BI
     unit_name: 5th Louisiana Battalion
-    unit_type: B
-    unit_arm: I

@@ -24,25 +24,12 @@ Schema
 
 
 
-===========  =======  ===========
-pk_id        integer  pk_id
-category     string   category
-abbr         string   abbr
-description  string   Description
-===========  =======  ===========
+===========  ======  ===========
+category     string  category
+abbr         string  abbr
+description  string  Description
+===========  ======  ===========
 
-pk_id
------
-
-:title: pk_id
-:type: integer
-:format: default
-
-
-Unique identifier
-
-
-       
 category
 --------
 

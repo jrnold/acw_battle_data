@@ -3,11 +3,6 @@ name: cwss_categories
 path: data/cwss_categories.csv
 schema:
   fields:
-  - description: Unique identifier
-    format: default
-    name: pk_id
-    title: pk_id
-    type: integer
   - constraints:
       enum:
       - SCharacter

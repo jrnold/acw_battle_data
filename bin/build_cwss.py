@@ -269,6 +269,9 @@ def build_units(src, dst):
     data = data[~ data.unit_code.str.match('admin[0-9]', flags = re.IGNORECASE)]
     # clean whitepace
     data.func = data.func.str.strip()
+    for i in ('type', 'special', 'ethnic', 'unit_name', 'func'):
+        data[i] = data[i].str.replace('0', '')
+    data.duplicate = data.duplicate.fillna(0).astype('int64')
     for x in ('pubdate',
               'updatedate',
               'updateby',
@@ -276,7 +279,6 @@ def build_units(src, dst):
               'updatetype',
               'isdelete',
               'longhistory',
-              'arm',
               'history'):
         del data[x]
     print("Writing: %s" % dstfile)
@@ -329,16 +331,16 @@ def build_category(src, dst):
     dstfile = path.join(dst, 'cwss_categories.csv')
     data = pandas.read_csv(srcfile, sep = '\t')
     data.rename(columns = lambda k: k.lower(), inplace = True)
-    data = data.query('~ isdelete')
     data['abbr'] = data['abbr'].str.strip()
-    # these are not used
-    data = data.query('abbr != ["C1", "C2"]')
+    data['description'] = data['description'].str.strip()
+    data = data.query('~ isdelete & abbr != ["0", "o", "C1", "C2"]')
     for col in ('updatedate',
                 'updateby',
                 'isdelete',
                 'updatetype',
                 'comments',
-                'pubdate'):
+                'pubdate',
+                'pk_id'):
         del data[col]
     print("Writing: %s" % dstfile)
     data.to_csv(dstfile, index = False)

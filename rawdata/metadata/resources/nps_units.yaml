@@ -20,6 +20,10 @@ schema:
     title: ordinal
     type: string
   - format: default
+    name: arm
+    title: arm
+    type: string
+  - format: default
     name: type
     title: type
     type: string
@@ -51,16 +55,4 @@ schema:
     name: added
     title: added
     type: boolean
-  - format: default
-    name: unit_type
-    title: unit_type
-    type: string
-  - format: default
-    name: unit_arm
-    title: unit_arm
-    type: string
-  - format: default
-    name: unit_special
-    title: unit_special
-    type: string
 title: nps_units

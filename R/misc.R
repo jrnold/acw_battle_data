@@ -19,7 +19,7 @@ write_csv <- function(x, file, ..., log = TRUE) {
 }
 
 read_csv <- function(x, ...) {
-  read.csv(x, ..., stringsAsFactors = FALSE)
+  read.csv(x, ..., stringsAsFactors = FALSE, na = "")
 }
 
 psum <- function(...) {
@@ -89,6 +89,44 @@ rounded_var <- function(x, method = 1) {
     }
   }
   vapply(x, f, 0)
+}
+
+# Parse CWSS unit code into components
+parse_unit_code <- function(x) {
+  side <- str_sub(x, 1, 1)
+  state <- str_sub(x, 2, 3)
+  ordinal <- str_replace(str_sub(x, 4, 7), "^0+", "")
+  type <- str_sub(x, 8, 8)
+  arm <- str_sub(x, 9, 9)
+  special <- str_sub(x, 10, 10)
+  duplicate <- as.integer(str_sub(x, 11, 11))
+  duplicate[duplicate == 0] <- NA_integer_
+  ethnic <- str_sub(x, 12, 12)
+  f <- function(x) ifelse(x == "0" | x == "", NA_character_, x)
+  data_frame(unit_code = x,
+             side = side,
+             state = state,
+             ordinal = ordinal,
+             type = f(type),
+             arm = f(arm),
+             special = f(special),
+             duplicate = duplicate,
+             ethnic = f(ethnic))
+}
+
+#' Generate CWSS unit code from components
+gen_unit_code <- function(side, state, ordinal, type, arm, special,
+                          duplicate, ethnic) {
+  f <- function(x) ifelse(is.na(x), "0", x)
+  paste0(paste0(side,
+                state,
+                str_pad(ordinal, 4, "left", "0")),
+         str_replace(paste0(f(type),
+                            f(arm),
+                            f(special),
+                            f(duplicate),
+                            f(ethnic), sep = ""),
+                     "0+$", ""))
 }
 
 
