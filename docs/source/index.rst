@@ -13,10 +13,10 @@ This is mostly a repackaging of data from other secondary and primary sources, a
 
 *keywords:* American Civil War, battle, war, casualties, commanders
 
-## Downloads
+Downloads
 
-- `acw_battle_data-0.0.2.tar.gz <https://s3.amazonaws.com/data.jrnold.me/aws_battle_data/aws_battle_data-0.0.2.tar.gz>`__
-- `acw_battle_data-0.0.2.zip <https://s3.amazonaws.com/data.jrnold.me/aws_battle_data/aws_battle_data-0.0.2.zip>`__
+- `acw_battle_data-0.0.2.tar.gz <https://s3.amazonaws.com/data.jrnold.me/acw_battle_data/acw_battle_data-0.0.2.tar.gz>`__
+- `acw_battle_data-0.0.2.zip <https://s3.amazonaws.com/data.jrnold.me/acw_battle_data/acw_battle_data-0.0.2.zip>`__
 
 
 .. toctree::
