@@ -24,6 +24,22 @@ schema:
     name: UnitCode
     title: Unit code
     type: string
+  - format: default
+    name: companies
+    title: companies
+    type: number
+  - format: default
+    name: batteries
+    title: batteries
+    type: number
+  - format: default
+    name: detachment
+    title: detachment
+    type: number
+  - format: default
+    name: section
+    title: section
+    type: number
 sources:
 - CWSS
 title: CWSS units in each battle

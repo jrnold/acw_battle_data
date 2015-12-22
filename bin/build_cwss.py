@@ -237,12 +237,16 @@ def people_csv(root, dst):
                 row["LastName"] = "Watie"
             writer.writerow(row)   
             
-def battleunitslink_csv(root, dst):
+def battleunitslink_csv(root, comments, dst):
     fields = (
     'BattlefieldCode',
     'Comment',
     'Source',
-    'UnitCode'
+    'UnitCode',
+    'companies',
+    'batteries',
+    'detachment',
+    'section'
     )
     with open(dst, 'w') as f:
         print("Writing: %s" % dst)
@@ -251,9 +255,13 @@ def battleunitslink_csv(root, dst):
         for i, entry in enumerate(root.findall('.//%s' % xmlns('entry'))):            
             row = {}
             properties = entry.find('./%s/%s' % (xmlns('content'), xmlns('m:properties'))) 
-            for fld in fields:
+            for fld in ('BattlefieldCode', 'Comment', 'Source', 'UnitCode'):
                 row[fld] = properties.find(xmlns('d:%s' % fld)).text
             row['BattlefieldCode'] = row['BattlefieldCode'].upper()
+            try:
+                row.update(comments[(row['BattlefieldCode'], row['UnitCode'])])
+            except KeyError:
+                pass
             writer.writerow(row)
             
 def build_units(src, dst):
@@ -361,9 +369,15 @@ def build(src, dst):
             persons = ET.fromstring(f.read(), parser)  
     people_csv(persons, path.join(dst, 'cwss_people.csv'))
 
+    comments = {}
+    with open(path.join(src, 'rawdata', 'cwss', 'battle_units.csv'), 'r') as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            comments[(row['BattlefieldCode'], row['UnitCode'])] = dict((k, v) for k, v in row.items()
+                                                                       if k in ('companies', 'batteries', 'detachment', 'section'))
     with open(path.join(cwssdir, 'data', 'old', 'battleunitlink.xml'), 'rb') as f:
-            battleunitlinks = ET.fromstring(f.read(), parser)  
-    battleunitslink_csv(battleunitlinks, path.join(dst, 'cwss_battle_units.csv'))
+            battleunitlinks = ET.fromstring(f.read(), parser)
+    battleunitslink_csv(battleunitlinks, comments, path.join(dst, 'cwss_battle_units.csv'))
     build_unit_titles(src, dst)
     build_state_names(src, dst)
     build_category(src, dst)

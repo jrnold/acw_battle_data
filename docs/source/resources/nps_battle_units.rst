@@ -21,6 +21,10 @@ cwsac_id     string  cwsac_id
 comment      string  comment
 Source       string  Source
 unit_code    string  unit_code
+companies    number  companies
+batteries    number  batteries
+detachment   number  detachment
+section      number  section
 belligerent  string  belligerent
 added        string  added
 unit_name    string  unit_name
@@ -67,6 +71,54 @@ unit_code
 
 :title: unit_code
 :type: string
+:format: default
+
+
+
+
+
+       
+companies
+---------
+
+:title: companies
+:type: number
+:format: default
+
+
+
+
+
+       
+batteries
+---------
+
+:title: batteries
+:type: number
+:format: default
+
+
+
+
+
+       
+detachment
+----------
+
+:title: detachment
+:type: number
+:format: default
+
+
+
+
+
+       
+section
+-------
+
+:title: section
+:type: number
 :format: default
 
 
