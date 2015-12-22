@@ -24,6 +24,10 @@ BattlefieldCode  string  Battlefield code
 Comment          string  Comment
 Source           string  Source
 UnitCode         string  Unit code
+companies        number  companies
+batteries        number  batteries
+detachment       number  detachment
+section          number  section
 ===============  ======  ================
 
 BattlefieldCode
@@ -71,6 +75,54 @@ UnitCode
 
 :title: Unit code
 :type: string
+:format: default
+
+
+
+
+
+       
+companies
+---------
+
+:title: companies
+:type: number
+:format: default
+
+
+
+
+
+       
+batteries
+---------
+
+:title: batteries
+:type: number
+:format: default
+
+
+
+
+
+       
+detachment
+----------
+
+:title: detachment
+:type: number
+:format: default
+
+
+
+
+
+       
+section
+-------
+
+:title: section
+:type: number
 :format: default
 
 
