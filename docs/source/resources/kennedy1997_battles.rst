@@ -3,7 +3,7 @@ Civil War Battlefield Guide data: battles
 #########################################
 
 :name: kennedy1997_battles
-:path: data/kennedy1997_battles.csv
+:path: kennedy1997_battles.csv
 :format: csv
 
 Kennedy (1997) battle data

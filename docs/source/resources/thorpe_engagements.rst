@@ -3,7 +3,7 @@ Locations of engagements from Washington Post map, "Battles and casualties of th
 #####################################################################################################
 
 :name: thorpe_engagements
-:path: data/thorpe_engagements.csv
+:path: thorpe_engagements.csv
 :format: csv
 
 Data on the location of engagements in the American Civil War from the *Washington Post* interactive map "Battles and Casualties of the American Civil War" by Gene Thorpe:

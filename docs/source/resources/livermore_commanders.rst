@@ -3,7 +3,7 @@ Livermore (1900) battle data: commanders
 ########################################
 
 :name: livermore_commanders
-:path: data/livermore_commanders.csv
+:path: livermore_commanders.csv
 :format: csv
 
 Principal commanders of the battles listed in Livermore (1900) *Numbers and Losses in the Civil War in America*.

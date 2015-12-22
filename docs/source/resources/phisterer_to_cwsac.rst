@@ -3,7 +3,7 @@ phisterer_to_cwsac
 ##################
 
 :name: phisterer_to_cwsac
-:path: data/phisterer_to_cwsac.csv
+:path: phisterer_to_cwsac.csv
 :format: csv
 
 Concordance between battles in ``phisterer_battles`` and CWSAC battle identifiers.

@@ -3,7 +3,7 @@ NPS combined data: people
 #########################
 
 :name: nps_people
-:path: data/nps_people.csv
+:path: nps_people.csv
 :format: csv
 
 People data for the combined National Park Services data.

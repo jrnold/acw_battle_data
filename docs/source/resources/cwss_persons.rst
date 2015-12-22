@@ -3,7 +3,7 @@ CWSS people
 ###########
 
 :name: cwss_persons
-:path: data/cwss_people.csv
+:path: cwss_people.csv
 :format: csv
 
 People appearing in the CWSS data. Each observation is a person. These are mostly commanders of battles in :doc:`cwss_commanders`.

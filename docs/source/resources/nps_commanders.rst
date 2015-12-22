@@ -3,7 +3,7 @@ NPS combined data battle data: commanders
 #########################################
 
 :name: nps_commanders
-:path: data/nps_commanders.csv
+:path: nps_commanders.csv
 :format: csv
 
 Principal commanders of the battle data combining the National Park Services reports: Shenandoah, preliminary CWSAC reports in the AAD (1990-1993), CWSAC Report battle summaries (1997), Civil War Soldiers and Sailors (CWSS) database, and the CWSAC Report Updates (2009-2013).

@@ -3,7 +3,7 @@ Dyer (1908) list of battles
 ###########################
 
 :name: dyer_engagements
-:path: data/dyer_engagements.csv
+:path: dyer_engagements.csv
 :format: csv
 
 Engagements and casualties in Frederick Dyer *Compendium of the War of the Rebellion* (1908)

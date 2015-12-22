@@ -3,7 +3,7 @@ CWSAC Report (1993) theaters
 ############################
 
 :name: cwsac_theaters
-:path: data/cwsac_theaters.csv
+:path: cwsac_theaters.csv
 :format: csv
 
 

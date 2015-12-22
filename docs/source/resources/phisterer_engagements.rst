@@ -3,7 +3,7 @@ Phisterer (1883) chronological list of engagements
 ##################################################
 
 :name: phisterer_engagements
-:path: data/phisterer_engagements.csv
+:path: phisterer_engagements.csv
 :format: csv
 
 Phisterer (1883) chronological list of engagements

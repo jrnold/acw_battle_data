@@ -3,7 +3,7 @@ wikipedia_battles
 #################
 
 :name: wikipedia_battles
-:path: data/wikipedia_battles.csv
+:path: wikipedia_battles.csv
 :format: csv
 
 American Civil War battle data from the English Wikipedia.

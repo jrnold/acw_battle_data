@@ -3,7 +3,7 @@ Comparison of battles in CWSAC AAD, CWSAC Report, CWSAC Updates, and CWSS
 #########################################################################
 
 :name: nps_battlelist
-:path: data/nps_battlelist.csv
+:path: nps_battlelist.csv
 :format: csv
 
 List of battles included in the AAD CWSAC Reports (1990-1993), CWSAC Report Battle Summaries (1997), CWSAC Report Updates (2009-2013), and the CWSS. All these reports from the National Park Service use the same battle identifiers, but they differ slightly in their composition.

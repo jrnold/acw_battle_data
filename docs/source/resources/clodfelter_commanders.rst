@@ -3,7 +3,7 @@ Clodfelter (2008) battle data: commanders
 #########################################
 
 :name: clodfelter_commanders
-:path: data/clodfelter_commanders.csv
+:path: clodfelter_commanders.csv
 :format: csv
 
 Principal commanders of the battles listed in Clodfelter (2008) *Warfare and Armed Conflicts*.

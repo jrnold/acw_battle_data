@@ -3,7 +3,7 @@ phisterer_to_dbpedia
 ####################
 
 :name: phisterer_to_dbpedia
-:path: data/phisterer_to_dbpedia.csv
+:path: phisterer_to_dbpedia.csv
 :format: csv
 
 Concordance between battles in ``phisterer_battles`` and dbpedia.org URIs.

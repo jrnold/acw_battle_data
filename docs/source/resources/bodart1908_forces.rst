@@ -3,7 +3,7 @@ Bodart (1908) battle data: force strengths and casualties
 #########################################################
 
 :name: bodart1908_forces
-:path: data/bodart1908_forces.csv
+:path: bodart1908_forces.csv
 :format: csv
 
 Bodart (1908) data on force sizes and casualties in battles of the American Civil War

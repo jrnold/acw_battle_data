@@ -3,7 +3,7 @@ Fox (1898) battle casualties (revised)
 ######################################
 
 :name: fox_forces2
-:path: data/fox_forces2.csv
+:path: fox_forces2.csv
 :format: csv
 
 Data from William F. Fox *Regimental Losses in the American Civil War,

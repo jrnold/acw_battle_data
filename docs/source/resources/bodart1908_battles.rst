@@ -3,7 +3,7 @@ Bodart (1908) battles of the American Civil War
 ###############################################
 
 :name: bodart1908_battles
-:path: data/bodart1908_battles.csv
+:path: bodart1908_battles.csv
 :format: csv
 
 Bodart (1908) *Militär-historisches kreigs-lexikon* data on battles of the American Civil War

@@ -3,7 +3,7 @@ CWSS campaign list
 ##################
 
 :name: cwss_campaigns
-:path: data/cwss_campaigns.csv
+:path: cwss_campaigns.csv
 :format: csv
 
 Campaigns of CWSS battles. Each battle in  :doc:`cwss_battles` has a campaign, and each campaign has a theater in :doc:`cwss_theaters`.

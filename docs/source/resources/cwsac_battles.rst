@@ -3,7 +3,7 @@ CWSAC Report battle data: battles
 #################################
 
 :name: cwsac_battles
-:path: data/cwsac_battles.csv
+:path: cwsac_battles.csv
 :format: csv
 
 Civil War Sites Advisory Commission 1993 Report battle data

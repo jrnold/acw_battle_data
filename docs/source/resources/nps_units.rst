@@ -3,7 +3,7 @@ nps_units
 #########
 
 :name: nps_units
-:path: data/nps_units.csv
+:path: nps_units.csv
 :format: csv
 
 

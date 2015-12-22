@@ -3,7 +3,7 @@ CWSAC Report Updates: commanders
 ################################
 
 :name: cws2_commanders
-:path: data/cws2_commanders.csv
+:path: cws2_commanders.csv
 :format: csv
 
 

@@ -3,7 +3,7 @@ NPS Shenandoah Report battle data: list of battles
 ##################################################
 
 :name: shenandoah_battles
-:path: data/shenandoah_battles.csv
+:path: shenandoah_battles.csv
 :format: csv
 
 

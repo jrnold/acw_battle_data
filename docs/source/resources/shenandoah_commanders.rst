@@ -3,7 +3,7 @@ NPS Shenandoah Report battle data: commanders
 #############################################
 
 :name: shenandoah_commanders
-:path: data/shenandoah_commanders.csv
+:path: shenandoah_commanders.csv
 :format: csv
 
 

@@ -3,7 +3,7 @@ CWSS battle data: battles
 #########################
 
 :name: cwss_battles
-:path: data/cwss_battles.csv
+:path: cwss_battles.csv
 :format: csv
 
 Battles of the Civil War Soldiers and Sailors (CWSS) database.

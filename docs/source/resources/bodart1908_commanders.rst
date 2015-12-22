@@ -3,7 +3,7 @@ Bodart (1908) battle data: commanders
 #####################################
 
 :name: bodart1908_commanders
-:path: data/bodart1908_commanders.csv
+:path: bodart1908_commanders.csv
 :format: csv
 
 Bodart (1908) data on the commanders of battles of the American Civil War

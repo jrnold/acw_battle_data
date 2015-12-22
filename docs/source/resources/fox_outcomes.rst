@@ -3,7 +3,7 @@ Fox (1898) battle outcomes
 ##########################
 
 :name: fox_outcomes
-:path: data/fox_outcomes.csv
+:path: fox_outcomes.csv
 :format: csv
 
 Battle outcome from William F. Fox *Regimental Losses in the American Civil War,

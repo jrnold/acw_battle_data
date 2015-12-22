@@ -3,7 +3,7 @@ CWSS battle data: principal commanders
 ######################################
 
 :name: cwss_commanders
-:path: data/cwss_commanders.csv
+:path: cwss_commanders.csv
 :format: csv
 
 Principal commanders of the battles in the CWSS database.

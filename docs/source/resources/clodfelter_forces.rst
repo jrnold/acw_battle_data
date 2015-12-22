@@ -3,7 +3,7 @@ Clodfelter (2008) battle data: forces
 #####################################
 
 :name: clodfelter_forces
-:path: data/clodfelter_forces.csv
+:path: clodfelter_forces.csv
 :format: csv
 
 

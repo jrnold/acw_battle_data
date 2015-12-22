@@ -3,7 +3,7 @@ NPS Shenandoah Report battle data: force strengths and casualties
 #################################################################
 
 :name: shenandoah_forces
-:path: data/shenandoah_forces.csv
+:path: shenandoah_forces.csv
 :format: csv
 
 

@@ -3,7 +3,7 @@ Records About Civil War Battle Sites, created by the CWSAC, 1990-1993, and depos
 ###################################################################################################################
 
 :name: aad_battles
-:path: data/aad_battles.csv
+:path: aad_battles.csv
 :format: csv
 
 gBattle-level data of the battles in the original reports of the Civil War Sites Advisory Commision compiled during 1990-1993.

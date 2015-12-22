@@ -3,7 +3,7 @@ Size of the Union and Confederate Armies (Livermore, 1900)
 ##########################################################
 
 :name: livermore_army_sizes
-:path: data/livermore_army_sizes.csv
+:path: livermore_army_sizes.csv
 :format: csv
 
 Size of the Union and Confederate Armies from Livermore (1900)

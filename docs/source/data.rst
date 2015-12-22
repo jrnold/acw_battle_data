@@ -37,7 +37,7 @@ Resource                                                                        
 `cwsac_preservation.csv <resources/cwsac_preservation.html>`__                        CWSAC Report (1993) preservation priority categories
 `cwsac_significance.csv <resources/cwsac_significance.html>`__                        CWSAC Report Updates battle data: military significance categories
 `cwsac_theaters.csv <resources/cwsac_theaters.html>`__                                CWSAC Report (1993) theaters
-`cwss_battle_units.csv <resources/CWSS battle data: units engaged.html>`__            CWSS units in each battle
+`cwss_battle_units.csv <resources/cwss_battle_units.html>`__                          CWSS battle data: units engaged
 `cwss_battles.csv <resources/cwss_battles.html>`__                                    CWSS battle data: battles
 `cwss_campaigns.csv <resources/cwss_campaigns.html>`__                                CWSS campaign list
 `cwss_categories.csv <resources/cwss_categories.html>`__                              CWSS unit category abbreviations

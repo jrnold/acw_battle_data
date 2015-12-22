@@ -3,7 +3,7 @@ Miscellaneous battle data
 #########################
 
 :name: battlemisc
-:path: data/battlemisc.csv
+:path: battlemisc.csv
 :format: csv
 
 Miscellaneous battle data.

@@ -3,7 +3,7 @@ CWSAC Report (1993) battle data
 ###############################
 
 :name: cwsac
-:path: data/cwsac.json
+:path: cwsac.json
 :format: json
 
 Data from the CWSAC Report (1993)

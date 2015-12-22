@@ -3,7 +3,7 @@ Ships in battles
 ################
 
 :name: ships_in_battles
-:path: data/ships_in_battles.csv
+:path: ships_in_battles.csv
 :format: csv
 
 Ships in each battle. The CWSAC battle list is used as the unit of observation.

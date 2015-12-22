@@ -3,7 +3,7 @@ CWSAC Report Updates battle data: force strengths
 #################################################
 
 :name: cws2_forces
-:path: data/cws2_forces.csv
+:path: cws2_forces.csv
 :format: csv
 
 
