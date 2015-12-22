@@ -20,10 +20,6 @@ schema:
     title: ordinal
     type: string
   - format: default
-    name: arm
-    title: arm
-    type: string
-  - format: default
     name: type
     title: type
     type: string

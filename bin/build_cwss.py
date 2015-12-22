@@ -279,7 +279,8 @@ def build_units(src, dst):
               'updatetype',
               'isdelete',
               'longhistory',
-              'history'):
+              'history',
+              'arm'):
         del data[x]
     print("Writing: %s" % dstfile)
     data.to_csv(dstfile, index = False)

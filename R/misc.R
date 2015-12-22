@@ -97,7 +97,7 @@ parse_unit_code <- function(x) {
   state <- str_sub(x, 2, 3)
   ordinal <- str_replace(str_sub(x, 4, 7), "^0+", "")
   type <- str_sub(x, 8, 8)
-  arm <- str_sub(x, 9, 9)
+  func <- str_sub(x, 9, 9)
   special <- str_sub(x, 10, 10)
   duplicate <- as.integer(str_sub(x, 11, 11))
   duplicate[duplicate == 0] <- NA_integer_
@@ -108,7 +108,7 @@ parse_unit_code <- function(x) {
              state = state,
              ordinal = ordinal,
              type = f(type),
-             arm = f(arm),
+             func = f(func),
              special = f(special),
              duplicate = duplicate,
              ethnic = f(ethnic))

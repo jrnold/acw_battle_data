@@ -24,7 +24,6 @@ unit_code  string  unit_code
 side       string  Side
 state      string  State
 ordinal    string  ordinal
-arm        string  arm
 type       string  Type
 special    string  Special
 duplicate  number  duplicate
@@ -85,18 +84,6 @@ ordinal
 
 
 Ordinal number of the unit, if any. E.g. 1 for the 1st New York Infantry Regiment.
-
-
-       
-arm
----
-
-:title: arm
-:type: string
-:format: default
-
-
-
 
 
        

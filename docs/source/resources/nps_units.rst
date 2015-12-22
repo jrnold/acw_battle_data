@@ -21,7 +21,6 @@ unit_code  string   unit_code
 side       string   side
 state      string   state
 ordinal    string   ordinal
-arm        string   arm
 type       string   type
 special    string   special
 duplicate  number   duplicate
@@ -72,18 +71,6 @@ ordinal
 -------
 
 :title: ordinal
-:type: string
-:format: default
-
-
-
-
-
-       
-arm
----
-
-:title: arm
 :type: string
 :format: default
 
