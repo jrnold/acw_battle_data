@@ -284,6 +284,8 @@ def build_units(src, dst):
         data.replace({i: {'0': ''}}, inplace = True)
     data.replace({'side': {'U': 'US', 'C': 'Confederate'}},
                  inplace = True)
+    # Fix bad funcs
+    data.loc[data['unit_code'].isin(('CAL0105R', 'CVA0108R0M')), 'func'] = None
     data.duplicate = data.duplicate.fillna(0).astype('int64')
     for x in ('pubdate',
               'updatedate',
