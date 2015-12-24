@@ -92,6 +92,10 @@ def build_cdb90(src, dst):
     print("build_cdb90")
     sp.check_call([RSCRIPT, "bin/build_cdb90.R", src, dst])
 
+def build_civilwarorg(src, dst):
+    print("build_civilwarorg")
+    sp.check_call([PYTHON, "bin/build_civilwarorg.py", src, dst])
+    
 def build_misc(src, dst):
     print("build_misc")
     sp.check_call([PYTHON, "bin/build_misc.py", src, dst])
@@ -137,6 +141,7 @@ def build(src, dst, docs, bucket):
     build_clodfelter(src, dst)
     build_cdb90(src, dst)
     build_ships(src, dst)
+    build_civilwarorg(src, dst)    
     build_misc(src, dst)
     # metadata
     build_metadata(src, dst)

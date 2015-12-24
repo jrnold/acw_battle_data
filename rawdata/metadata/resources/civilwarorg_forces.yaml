@@ -1,0 +1,49 @@
+format: csv
+name: civilwarorg_forces
+path: data/civilwarorg_forces.csv
+schema:
+  fields:
+  - format: default
+    name: id
+    title: Battle id
+    type: string
+  - constraints:
+      enum:
+      - US
+      - Confderate
+    format: default
+    name: belligerent
+    title: Belligerent
+    type: string
+  - constraints:
+      min: 0
+    description: Troops engaged in the battle.
+    format: default
+    name: strength
+    title: Strength
+    type: integer
+  - constraints:
+      min: 0
+    format: default
+    name: casualties
+    title: Total casualties
+    type: integer
+  - constraints:
+      min: 0
+    format: default
+    name: killed
+    title: Killed
+    type: integer
+  - constraints:
+      min: 0
+    format: default
+    name: wounded
+    title: Wounded
+    type: integer
+  - constraints:
+      min: 0
+    format: default
+    name: missing_captured
+    title: Missing and Captured
+    type: integer
+title: Strengths and casualties for forces in the civilwar.org battle data.

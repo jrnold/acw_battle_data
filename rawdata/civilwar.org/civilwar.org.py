@@ -6,6 +6,7 @@ This is a temporary script file.
 """
 import re
 import json
+import os.path
 
 import requests
 from bs4 import BeautifulSoup
@@ -38,9 +39,9 @@ def get_forces_small(soup):
         forces = soup.find('h3', class_ = 'alt',
                            text = 'Forces Engaged').\
             find_next_sibling('ul').find_all('li')
-        ret['union_forces'] = re.search('[0-9,]+', forces[0].\
+        ret['union_strength'] = re.search('[0-9,]+', forces[0].\
             get_text().strip()).group(0).replace(',', '')
-        ret['confederate_forces'] = re.search('[0-9,]+', forces[1].\
+        ret['confederate_strength'] = re.search('[0-9,]+', forces[1].\
             get_text().strip()).group(0).replace(',', '')
     except AttributeError:
         pass
@@ -71,8 +72,8 @@ def get_union_commander_small(soup):
             find_next_sibling('ul').li.find_all('a')
 
         for cmdr in commanders:
-            data.append({'union_commander_name': cmdr.text.strip(),
-                         'union_commander_url': cmdr['href']})
+            data.append({'name': cmdr.text.strip(),
+                         'url': cmdr['href']})
     except AttributeError:
         pass
     return data
@@ -85,8 +86,8 @@ def get_confederate_commander_small(soup):
                                           text = 'Confederate Commander').\
             find_next_sibling('ul').li.find_all('a')
         for cmdr in commanders:
-            data.append({'confederate_commander_name': cmdr.text.strip(),
-                         'confederate_commander_url': cmdr['href']})
+            data.append({'name': cmdr.text.strip(),
+                         'url': cmdr['href']})
     except AttributeError:
         pass
     return data
@@ -158,8 +159,8 @@ def get_union_commander(soup):
         find_all('a')
     data = []
     for cmdr in commanders:
-        data.append({'union_commander_name': cmdr.text,
-                     'union_commander_url': cmdr['href']})
+        data.append({'name': cmdr.text,
+                     'url': cmdr['href']})
     return data
 
 def get_confederate_commander(soup):
@@ -168,8 +169,8 @@ def get_confederate_commander(soup):
         find_all('a')
     data = []
     for cmdr in commanders:
-        data.append({'confederate_commander_name': cmdr.text,
-                     'confederate_commander_url': cmdr['href']})
+        data.append({'name': cmdr.text,
+                     'url': cmdr['href']})
     return data
 
 def get_total_casualties(soup):
@@ -233,29 +234,28 @@ def parse_battle_large(soup):
     data['battle_dates'] = get_battle_dates(soup)
     data['location'] = get_location(soup)
     data['campaign'] = get_campaign(soup)
-    data['total_forces'] = get_total_engaged(soup)
-    data['union_forces'] = get_union_forces(soup)
-    data['confederate_forces'] = get_confederate_forces(soup)
+    data['total_strength'] = get_total_engaged(soup)
+    data['union_strength'] = get_union_forces(soup)
+    data['confederate_strength'] = get_confederate_forces(soup)
     data['total_casualties'] = get_total_casualties(soup)
     for k, v in get_union_casualties(soup).items():
         data[k] = v
     for k, v in get_confederate_casualties(soup).items():
         data[k] = v
     data['confederate_commanders'] = get_confederate_commander(soup)
-    data['union_commanders'] = get_confederate_commander(soup)
+    data['union_commanders'] = get_union_commander(soup)
     data['result'] = get_result(soup)
     return data
 
-def get_battle_page(href):
-    soup = BeautifulSoup(requests.get(href).text, 'lxml')
+def get_battle_page(url):
+    soup = BeautifulSoup(requests.get(url).text, 'lxml')
     if soup.find('li', class_ = 'nav-facts'):
-        print('FACTS')
-        href += '?tab=facts'
-        pg = parse_battle_large(BeautifulSoup(requests.get(href).text, 'lxml'))
-        pg['url'] = href
+        soup = BeautifulSoup(requests.get(url + '?tab=facts').text, 'lxml')
+        pg = parse_battle_large(soup)
     else:
         pg = parse_battle_small(soup)
-        pg['url'] = href
+    pg['url'] = url
+    pg['id'] = os.path.splitext(os.path.basename(url))[0]
     return pg
 
 

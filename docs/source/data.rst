@@ -18,6 +18,9 @@ Resource                                                                        
 `bodart1908_to_cwsac.csv <resources/bodart1908_to_cwsac.html>`__                      Correspondence between Bodart (1908) battles and CWSAC battle IDs
 `bodart1908_to_dbpedia.csv <resources/bodart1908_to_dbpedia.html>`__                  Correspondence between Bodart (1908) battles and dbpedia.org resources
 `burdekin_langdana_war_trend.csv <resources/burdekin_langdana_war_trend.html>`__      War Trend from Burdekin and Langdana (1993)
+`civilwarorg_battles.csv <resources/civilwarorg_battles.html>`__                      Batte data from civilwar.org
+`civilwarorg_commanders.csv <resources/civilwarorg_commanders.html>`__                Commanders in civilwar.org battle data
+`civilwarorg_forces.csv <resources/civilwarorg_forces.html>`__                        Strengths and casualties for forces in the civilwar.org battle data.
 `clodfelter_battles.csv <resources/clodfelter_battles.html>`__                        Clodfelter (2008) battle data: battles
 `clodfelter_commanders.csv <resources/clodfelter_commanders.html>`__                  Clodfelter (2008) battle data: commanders
 `clodfelter_forces.csv <resources/clodfelter_forces.html>`__                          Clodfelter (2008) battle data: forces
