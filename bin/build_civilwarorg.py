@@ -3,7 +3,33 @@ import json
 import csv
 import sys
 import shutil
+import re
 from os import path
+
+STATES = {
+    "Alabama": "AL",
+    "Arizona": "AZ",
+    "Arkansas": "AR",
+    "Colorado": "CO",
+    "District of Columbia": "DC",
+    "Florida": "FL",
+    "Georgia": "GA",
+    "Kansas": "KS",
+    "Kentucky": "KY",
+    "Louisiana": "LA",
+    "Maryland": "MD",
+    "Mississippi": "MS",
+    "Missouri": "MO",
+    "New Mexico": "NM",
+    "North Carolina": "NC",
+    "Oklahoma": "OK",
+    "Pennsylvania": "PA",
+    "South Carolina": "SC",
+    "Tennessee": "TN",
+    "Texas": "TX",
+    "Virginia": "VA",
+    "West Virginia": "WV"
+}
 
 def build_forces(data, dst):
     fields = ('id',
@@ -61,6 +87,7 @@ def build_battles(data, dst):
               'dates',
               'alternate_names',
               'location',
+              'state',
               'campaign',              
               'result',
               'total_casualties',
@@ -69,7 +96,11 @@ def build_battles(data, dst):
         print("Writing: %s" % dst)
         writer = csv.DictWriter(f, fields, extrasaction = 'ignore')
         writer.writeheader()
-        writer.writerows(data)
+        for row in data:
+            m = re.match('^(.*),(.*?)$', row['location'])
+            row['location'] = m.group(1).strip()
+            row['state'] = STATES[m.group(2).strip()]
+            writer.writerow(row)
 
 
 def build(src, dst):

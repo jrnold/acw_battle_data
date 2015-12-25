@@ -35,7 +35,14 @@ def dbpedia_describe(resource, fmt = 'ntriples'):
     else:
         return None
     return r.text
-    
+
+def query_dbpedia(query):
+    sparql = SPARQLWrapper("http://dbpedia.org/sparql")
+    sparql.setQuery(query)
+    sparql.setReturnFormat(JSON)
+    results = sparql.query().convert()
+    return results    
+
 def query_or_load(query, results_store):
     if not path.exists(results_store):
         sparql = SPARQLWrapper("http://dbpedia.org/sparql")

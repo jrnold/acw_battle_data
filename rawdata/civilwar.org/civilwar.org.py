@@ -231,7 +231,7 @@ def parse_battle_large(soup):
     data = {}
     data['description'] = get_description(soup)
     data['alternate_names'] = get_alternate_names(soup)
-    data['battle_dates'] = get_battle_dates(soup)
+    data['dates'] = get_battle_dates(soup)
     data['location'] = get_location(soup)
     data['campaign'] = get_campaign(soup)
     data['total_strength'] = get_total_engaged(soup)

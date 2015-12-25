@@ -30,6 +30,10 @@ schema:
     name: location
     title: Locations
     type: string
+  - format: default
+    name: state
+    title: state
+    type: string
   - description: Compaign of the battle.
     format: default
     name: campaign

@@ -28,7 +28,6 @@ Irregular Units
 select distinct ?unit where {
   ?unit dct:subject/skos:broader* dbc:Irregular_forces_of_the_American_Civil_War
 }
-
 ```
 
 Lists of Military_units_and_formations_of_the_Confederate_States_Army .

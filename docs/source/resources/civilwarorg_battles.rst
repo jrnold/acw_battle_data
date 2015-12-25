@@ -25,6 +25,7 @@ url               string  url
 dates             string  dates
 alternate_names   string  Alternate Names
 location          string  Locations
+state             string  state
 campaign          string  Campaign
 result            string  Result
 total_casualties  string  Total casualties
@@ -95,6 +96,18 @@ location
 --------
 
 :title: Locations
+:type: string
+:format: default
+
+
+
+
+
+       
+state
+-----
+
+:title: state
 :type: string
 :format: default
 
