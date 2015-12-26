@@ -22,7 +22,8 @@ Schema
 id                string  Battle id
 name              string  Battle name
 url               string  url
-dates             string  dates
+start_date        date    Start date
+end_date          date    End date
 alternate_names   string  Alternate Names
 location          string  Locations
 state             string  state
@@ -30,6 +31,8 @@ campaign          string  Campaign
 result            string  Result
 total_casualties  string  Total casualties
 total_strength    string  Total strength
+cwsac_id          string  CWSAC Id.
+dbpedia_url       string  dbpedia.org link
 ================  ======  ================
 
 id
@@ -68,15 +71,27 @@ URL of the battle on civilwar.org.
 
 
        
-dates
------
+start_date
+----------
 
-:title: dates
-:type: string
+:title: Start date
+:type: date
 :format: default
 
 
-Dates of the battle. This is currently an unparsed string.
+
+
+
+       
+end_date
+--------
+
+:title: End date
+:type: date
+:format: default
+
+
+
 
 
        
@@ -162,6 +177,33 @@ total_strength
 
 Total of Confederate and Union strength (forces engaged).
 
+
+       
+cwsac_id
+--------
+
+:title: CWSAC Id.
+:type: string
+:format: default
+:constraints:
+    
+
+CWSAC battle identifier. See :doc:`cwsac_battles`.
+
+Sources: 
+
+       
+dbpedia_url
+-----------
+
+:title: dbpedia.org link
+:type: string
+:format: url
+
+
+Link to dbpedia.org resource.
+
+Sources: 
 
        
 

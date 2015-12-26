@@ -112,7 +112,8 @@ def build_battles(data, links, dst):
               'result',
               'total_casualties',
               'total_strength',
-              'cwsac_id')
+              'cwsac_id',
+              'dbpedia_url')
     with open(dst, 'w') as f:
         print("Writing: %s" % dst)
         writer = csv.DictWriter(f, fields, extrasaction = 'ignore')
@@ -134,7 +135,8 @@ def build_battles(data, links, dst):
                 row['end_date'] = datetime.date(year, month2, day2)
             else:
                 print(row['dates'])
-            row['cwsac_id'] = links[row['id']]
+            row['cwsac_id'] = links[row['id']]['cwsac']
+            row['dbpedia_url'] = links[row['id']]['dbpedia']
             writer.writerow(row)
 
 def build(src, dst):
@@ -146,7 +148,8 @@ def build(src, dst):
         reader = csv.DictReader(f)
         links = {}
         for row in reader:
-            links[row['id']] = row['cwsac_id']
+            links[row['id']] = {'cwsac' : row['cwsac_id'] if row['cwsac_id'] != '' else None,
+                                'dbpedia': row['dbpedia_url']}
     build_battles(data, links, path.join(dst, 'civilwarorg_battles.csv'))
     build_forces(data, path.join(dst, 'civilwarorg_forces.csv'))
     build_commanders(data, path.join(dst, 'civilwarorg_commanders.csv'))

@@ -17,11 +17,14 @@ schema:
     name: url
     title: url
     type: string
-  - description: Dates of the battle. This is currently an unparsed string.
-    format: default
-    name: dates
-    title: dates
-    type: string
+  - format: default
+    name: start_date
+    title: Start date
+    type: date
+  - format: default
+    name: end_date
+    title: End date
+    type: date
   - format: default
     name: alternate_names
     title: Alternate Names
@@ -53,5 +56,21 @@ schema:
     format: default
     name: total_strength
     title: Total strength
+    type: string
+  - constraints:
+    - pattern: '[A-Z]{2}[0-9]{3}'
+    description: CWSAC battle identifier. See :doc:`cwsac_battles`.
+    format: default
+    name: cwsac_id
+    sources:
+    - jrnold
+    title: CWSAC Id.
+    type: string
+  - description: Link to dbpedia.org resource.
+    format: url
+    name: dbpedia_url
+    sources:
+    - jrnold
+    title: dbpedia.org link
     type: string
 title: Batte data from civilwar.org
