@@ -3,7 +3,7 @@ Civil War Battlefield Guide data: forces
 ########################################
 
 :name: kennedy1997_forces
-:path: data/kennedy1997_forces.csv
+:path: kennedy1997_forces.csv
 :format: csv
 
 Kennedy (1997) casualty data

@@ -3,7 +3,7 @@ Phisterer (1883) battle data: force casualties
 ##############################################
 
 :name: phisterer_forces
-:path: data/phisterer_forces.csv
+:path: phisterer_forces.csv
 :format: csv
 
 Phisterer (1883) data on casualties of forces.

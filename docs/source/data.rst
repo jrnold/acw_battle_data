@@ -18,6 +18,9 @@ Resource                                                                        
 `bodart1908_to_cwsac.csv <resources/bodart1908_to_cwsac.html>`__                      Correspondence between Bodart (1908) battles and CWSAC battle IDs
 `bodart1908_to_dbpedia.csv <resources/bodart1908_to_dbpedia.html>`__                  Correspondence between Bodart (1908) battles and dbpedia.org resources
 `burdekin_langdana_war_trend.csv <resources/burdekin_langdana_war_trend.html>`__      War Trend from Burdekin and Langdana (1993)
+`civilwarorg_battles.csv <resources/civilwarorg_battles.html>`__                      Batte data from civilwar.org
+`civilwarorg_commanders.csv <resources/civilwarorg_commanders.html>`__                Commanders in civilwar.org battle data
+`civilwarorg_forces.csv <resources/civilwarorg_forces.html>`__                        Strengths and casualties for forces in the civilwar.org battle data.
 `clodfelter_battles.csv <resources/clodfelter_battles.html>`__                        Clodfelter (2008) battle data: battles
 `clodfelter_commanders.csv <resources/clodfelter_commanders.html>`__                  Clodfelter (2008) battle data: commanders
 `clodfelter_forces.csv <resources/clodfelter_forces.html>`__                          Clodfelter (2008) battle data: forces
@@ -37,13 +40,14 @@ Resource                                                                        
 `cwsac_preservation.csv <resources/cwsac_preservation.html>`__                        CWSAC Report (1993) preservation priority categories
 `cwsac_significance.csv <resources/cwsac_significance.html>`__                        CWSAC Report Updates battle data: military significance categories
 `cwsac_theaters.csv <resources/cwsac_theaters.html>`__                                CWSAC Report (1993) theaters
-`cwss_battle_units.csv <resources/CWSS battle data: units engaged.html>`__            CWSS units in each battle
+`cwss_battle_units.csv <resources/cwss_battle_units.html>`__                          CWSS battle data: units engaged
 `cwss_battles.csv <resources/cwss_battles.html>`__                                    CWSS battle data: battles
 `cwss_campaigns.csv <resources/cwss_campaigns.html>`__                                CWSS campaign list
 `cwss_categories.csv <resources/cwss_categories.html>`__                              CWSS unit category abbreviations
 `cwss_commanders.csv <resources/cwss_commanders.html>`__                              CWSS battle data: principal commanders
 `cwss_forces.csv <resources/cwss_forces.html>`__                                      CWSS battle data: forces
 `cwss_people.csv <resources/cwss_persons.html>`__                                     CWSS people
+`cwss_people_keywords.csv <resources/cwss_people_keywords.html>`__                    CWSS people data: kewyords
 `cwss_regiments_units.csv <resources/cwss_regiments_units.html>`__                    CWSS units (regiments)
 `cwss_state_names.csv <resources/cwss_state_names.html>`__                            CWSS unit state names
 `cwss_theaters.csv <resources/cwss_theaters.html>`__                                  CWSS theaters

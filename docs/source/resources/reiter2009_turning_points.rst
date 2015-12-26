@@ -3,7 +3,7 @@ Reiter (2009) Turning Points of the American Civil War
 ######################################################
 
 :name: reiter2009_turning_points
-:path: data/reiter2009_turning_points.csv
+:path: reiter2009_turning_points.csv
 :format: csv
 
 Turning Points of the American Civil War in Dan Reiter (2009) *How Wars End*.

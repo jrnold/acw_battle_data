@@ -3,7 +3,7 @@ Correspondence between Bodart (1908) battles and CWSAC battle IDs
 #################################################################
 
 :name: bodart1908_to_cwsac
-:path: data/bodart1908_to_cwsac.csv
+:path: bodart1908_to_cwsac.csv
 :format: csv
 
 Correspondence between battles in Bodart (1908) and CWSAC battle identifiers.

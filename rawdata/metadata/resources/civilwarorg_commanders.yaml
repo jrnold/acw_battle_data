@@ -1,0 +1,27 @@
+format: csv
+name: civilwarorg_commanders
+path: data/civilwarorg_commanders.csv
+schema:
+  fields:
+  - format: default
+    name: id
+    title: Battle id
+    type: string
+  - constraints:
+      enum:
+      - US
+      - Confederate
+    format: default
+    name: belligerent
+    title: belligerent
+    type: string
+  - format: default
+    name: name
+    title: Commander Name
+    type: string
+  - description: URL to the biography of the commander at http://www.civilwar.org/education/history/biographies/.
+    format: url
+    name: url
+    title: Commander's Bio URL
+    type: string
+title: Commanders in civilwar.org battle data

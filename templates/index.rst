@@ -11,6 +11,11 @@
 
 *keywords:* {{ keywords|join(', ') }}
 
+Downloads
+
+- `acw_battle_data-{{version}}.tar.gz <https://s3.amazonaws.com/{{aws_bucket}}/acw_battle_data/acw_battle_data-{{version}}.tar.gz>`__
+- `acw_battle_data-{{version}}.zip <https://s3.amazonaws.com/{{aws_bucket}}/acw_battle_data/acw_battle_data-{{version}}.zip>`__
+
 
 .. toctree::
    :maxdepth: 1

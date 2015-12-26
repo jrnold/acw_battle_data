@@ -3,7 +3,7 @@ Correspondence between Livermore (1900) battles and CWSAC battles
 #################################################################
 
 :name: livermore_to_cwsac
-:path: data/livermore_to_cwsac.csv
+:path: livermore_to_cwsac.csv
 :format: csv
 
 

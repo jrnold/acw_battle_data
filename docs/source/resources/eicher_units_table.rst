@@ -3,7 +3,7 @@ Eicher table of unit sizes
 ##########################
 
 :name: eicher_units_table
-:path: data/eicher_units_table.csv
+:path: eicher_units_table.csv
 :format: csv
 
 

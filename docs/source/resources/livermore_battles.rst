@@ -3,7 +3,7 @@ Livermore (1900) battle data: battle list
 #########################################
 
 :name: livermore_battles
-:path: data/livermore_battles.csv
+:path: livermore_battles.csv
 :format: csv
 
 Battle data from Livermore (1900) *Number and Losses in the Civil War in America, 1861-1865*.

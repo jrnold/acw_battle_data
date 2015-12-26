@@ -1,0 +1,15 @@
+format: csv
+name: cwss_people_keywords
+path: data/cwss_people_keywords.csv
+schema:
+  fields:
+  - description: CWSS person identifier. See :doc:`cwss_people`.
+    format: uuid
+    name: PersonID
+    title: PersonID
+    type: string
+  - format: default
+    name: Keyword
+    title: Keyword
+    type: string
+title: 'CWSS people data: kewyords'

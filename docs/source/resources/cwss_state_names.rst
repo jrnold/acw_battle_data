@@ -3,7 +3,7 @@ CWSS unit state names
 #####################
 
 :name: cwss_state_names
-:path: data/cwss_state_names.csv
+:path: cwss_state_names.csv
 :format: csv
 
 Descriptions of the unit type associated with the state abbreviations of units in :doc:`cwss_units` column `state`.

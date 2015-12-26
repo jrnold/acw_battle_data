@@ -3,7 +3,7 @@ Clodfelter (2008) battle data: battles
 ######################################
 
 :name: clodfelter_battles
-:path: data/clodfelter_battles.csv
+:path: clodfelter_battles.csv
 :format: csv
 
 Battle data for the battles of the American Civil War in Clodfelter, M. (2008) *Warfare And Armed Conflicts: A Statistical

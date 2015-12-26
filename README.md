@@ -5,23 +5,13 @@ See the documentation at https://readthedocs.org/projects/acw-battle-data
 
 ## Build
 
-In the root directory of the project run,
 ```shell
-$ python build.py
-```
-This will build the data in the directory, ``data``.
-
-To build html documenation
-```shell
-$ cd docs/ && make html
-```
-and pdf documentation
-```shell
-$ cd docs/ && make html
+$ source activate acw_battle_data
+$ make build
+$ make docs
 ```
 
-
-## Prerequesites
+## Prerequisites
 
 For python dependencies create and activate a [conda](http://conda.pydata.org/docs/using/envs.html#create-a-separate-environment) environment.
 
@@ -29,18 +19,13 @@ For python dependencies create and activate a [conda](http://conda.pydata.org/do
 conda env create -f environment.yml
 ```
 
-- R
-    - **dplyr**
-    - **jsonlite**
-    - **magrittr**
-    - **pander**
-    - **stringr**
-    - **tidyr**
-    - **RSQLite**
-    - **purrr**
-    - **yaml**
-- pdflatex
+R package dependencies are managed using packrat
 
+Additional dependencies
+
+- pdflatex (for building a pdf of the manual)
+- bash
+- [jq](https://stedolan.github.io/jq/)
 
 ## Licenses
 

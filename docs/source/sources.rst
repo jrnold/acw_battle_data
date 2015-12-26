@@ -12,6 +12,8 @@ Sources
 
 .. [cdb90] U.S. Army Concepts Analysis Agency. 1991. “Database of Battles-Version 1990 (computer Diskette).” http://www.dtic.mil/docs/citations/ADM000121. http://www.dtic.mil/docs/citations/ADM000121
 
+.. [civilwarorg] "Civil War Battlefields - Learn About The American Civil War." Civil War Trust: Saving America's Civil War Battlefields. Accessed December 24, 2015.  http://www.civilwar.org/battlefields/
+
 .. [Clodfelter2008] Clodfelter, Michael. 2008. Warfare and Armed Conflicts: A Statistical Encyclopedia of Casualty and Other Figures, 1494- 2007. 3rd ed. McFarland & Company. None
 
 .. [CWSAC1993] Staff of the Civil War Sites Advisory Commission. 1993. Civil War Sites Advisory Commission Report on the Nation’s Civil War Battlefields. http://www.nps.gov/abpp/cwsac/cws0-1.html (December 7, 2015). http://www.nps.gov/abpp/cwsac/cws0-1.html

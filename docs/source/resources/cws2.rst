@@ -3,7 +3,7 @@ CWSAC Report Updates battle data
 ################################
 
 :name: cws2
-:path: data/cws2.json
+:path: cws2.json
 :format: json
 
 Data from the CWSAC Report Updates

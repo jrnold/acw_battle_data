@@ -1,5 +1,5 @@
 format: csv
-name: 'CWSS battle data: units engaged'
+name: cwss_battle_units
 path: data/cwss_battle_units.csv
 schema:
   fields:
@@ -42,4 +42,4 @@ schema:
     type: number
 sources:
 - CWSS
-title: CWSS units in each battle
+title: 'CWSS battle data: units engaged'

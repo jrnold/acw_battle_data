@@ -3,7 +3,7 @@ wikipedia_to_cwsac
 ##################
 
 :name: wikipedia_to_cwsac
-:path: data/wikipedia_to_cwsac.csv
+:path: wikipedia_to_cwsac.csv
 :format: csv
 
 

@@ -1,0 +1,76 @@
+format: csv
+name: civilwarorg_battles
+path: data/civilwarorg_battles.csv
+schema:
+  fields:
+  - description: Battle identifier - the basename sans extentension of the URL.
+    format: default
+    name: id
+    title: Battle id
+    type: string
+  - format: default
+    name: name
+    title: Battle name
+    type: string
+  - description: URL of the battle on civilwar.org.
+    format: url
+    name: url
+    title: url
+    type: string
+  - format: default
+    name: start_date
+    title: Start date
+    type: date
+  - format: default
+    name: end_date
+    title: End date
+    type: date
+  - format: default
+    name: alternate_names
+    title: Alternate Names
+    type: string
+  - format: default
+    name: location
+    title: Locations
+    type: string
+  - format: default
+    name: state
+    title: state
+    type: string
+  - description: Compaign of the battle.
+    format: default
+    name: campaign
+    title: Campaign
+    type: string
+  - description: 'Battle result: Union victory, Confederate victory, or Inconclusive'
+    format: default
+    name: result
+    title: Result
+    type: string
+  - description: Total of Confederate and Union casualties
+    format: default
+    name: total_casualties
+    title: Total casualties
+    type: string
+  - description: Total of Confederate and Union strength (forces engaged).
+    format: default
+    name: total_strength
+    title: Total strength
+    type: string
+  - constraints:
+    - pattern: '[A-Z]{2}[0-9]{3}'
+    description: CWSAC battle identifier. See :doc:`cwsac_battles`.
+    format: default
+    name: cwsac_id
+    sources:
+    - jrnold
+    title: CWSAC Id.
+    type: string
+  - description: Link to dbpedia.org resource.
+    format: url
+    name: dbpedia_url
+    sources:
+    - jrnold
+    title: dbpedia.org link
+    type: string
+title: Batte data from civilwar.org

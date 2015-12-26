@@ -3,7 +3,7 @@ Bodart (1908) battle data: generals killed
 ##########################################
 
 :name: bodart1908_generals_killed
-:path: data/bodart1908_generals_killed.csv
+:path: bodart1908_generals_killed.csv
 :format: csv
 
 Bodart (1908) data on the generals killed in battles of the American Civil War

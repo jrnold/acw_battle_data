@@ -3,7 +3,7 @@ CWSS battle data: forces
 ########################
 
 :name: cwss_forces
-:path: data/cwss_forces.csv
+:path: cwss_forces.csv
 :format: csv
 
 Force strength and casualty data from the CWSS database.

@@ -3,7 +3,7 @@ CWSS theaters
 #############
 
 :name: cwss_theaters
-:path: data/cwss_theaters.csv
+:path: cwss_theaters.csv
 :format: csv
 
 Theaters of the war used in :doc:`cwss_battles`. The National Park Service divides the American Civil War into five theaters: Eastern, Western, Lower Seaboard, Trans-Mississippi, and Pacific.

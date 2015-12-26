@@ -68,6 +68,7 @@ def process_resource(filename):
     if path.exists(meta['path']):
         meta['bytes'] = path.getsize(meta['path'])
         meta['hash'] = md5sum(meta['path'])
+        meta['path'] = path.basename(meta['path'])
         return meta
     else:
         print("ERROR: %s: %s does not exist" % (filename, meta['path']))

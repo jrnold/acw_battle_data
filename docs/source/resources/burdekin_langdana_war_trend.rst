@@ -3,7 +3,7 @@ War Trend from Burdekin and Langdana (1993)
 ###########################################
 
 :name: burdekin_langdana_war_trend
-:path: data/burdekin_langdana_war_trend.csv
+:path: burdekin_langdana_war_trend.csv
 :format: csv
 
 War Trend variable used in Burdekin and Langdana (1993) "War Finance in the Southern Confederacy, 1861-1865", *Explorations in Economic History*

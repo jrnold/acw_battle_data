@@ -3,7 +3,7 @@ clodfelter_to_dbpedia
 #####################
 
 :name: clodfelter_to_dbpedia
-:path: data/clodfelter_to_dbpedia.csv
+:path: clodfelter_to_dbpedia.csv
 :format: csv
 
 

@@ -3,7 +3,7 @@ nps_battle_units
 ################
 
 :name: nps_battle_units
-:path: data/nps_battle_units.csv
+:path: nps_battle_units.csv
 :format: csv
 
 

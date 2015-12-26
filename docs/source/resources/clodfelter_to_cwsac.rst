@@ -3,7 +3,7 @@ clodfelter_to_cwsac
 ###################
 
 :name: clodfelter_to_cwsac
-:path: data/clodfelter_to_cwsac.csv
+:path: clodfelter_to_cwsac.csv
 :format: csv
 
 

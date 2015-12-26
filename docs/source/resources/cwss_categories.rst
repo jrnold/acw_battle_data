@@ -3,7 +3,7 @@ CWSS unit category abbreviations
 ################################
 
 :name: cwss_categories
-:path: data/cwss_categories.csv
+:path: cwss_categories.csv
 :format: csv
 
 Category abbreviations used in :doc:`cwss_units`.

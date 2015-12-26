@@ -3,7 +3,7 @@ CWSAC Report Updates battle data: battles
 #########################################
 
 :name: cws2_battles
-:path: data/cws2_battles.csv
+:path: cws2_battles.csv
 :format: csv
 
 

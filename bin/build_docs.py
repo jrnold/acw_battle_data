@@ -58,12 +58,13 @@ def update_version(conffile, metadata):
     with open(conffile, 'w') as f:
         f.writelines(newconf)
 
-def build(src, dst, docs):
+def build(src, dst, docs, bucket):
     env = jinja2.Environment(loader = jinja2.FileSystemLoader(path.join(src, 'templates')), autoescape = False)
     env.filters['citation'] = filter_citation
     env.filters['rsttable'] = filter_table
     with open(path.join(dst, 'datapackage.json'), 'r') as f:
         metadata = json.load(f)
+    metadata['aws_bucket'] = bucket
     update_version(path.join(docs, "conf.py"), metadata)
     build_file(path.join(docs, "index.rst"), 'index.rst', env, metadata)
     build_file(path.join(docs, "sources.rst"), 'sources.rst', env, metadata)
@@ -74,7 +75,8 @@ def main():
     src = sys.argv[1]
     dst = sys.argv[2]
     docs = sys.argv[3]
-    build(src, dst, docs)
+    bucket = sys.argv[4]
+    build(src, dst, docs, bucket)
 
 if __name__ == '__main__':
     main()

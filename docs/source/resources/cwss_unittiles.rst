@@ -3,7 +3,7 @@ CWSS Unit Titles
 ################
 
 :name: cwss_unittiles
-:path: data/cwss_unittiles.csv
+:path: cwss_unittiles.csv
 :format: csv
 
 

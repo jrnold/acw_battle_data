@@ -92,6 +92,10 @@ def build_cdb90(src, dst):
     print("build_cdb90")
     sp.check_call([RSCRIPT, "bin/build_cdb90.R", src, dst])
 
+def build_civilwarorg(src, dst):
+    print("build_civilwarorg")
+    sp.check_call([PYTHON, "bin/build_civilwarorg.py", src, dst])
+    
 def build_misc(src, dst):
     print("build_misc")
     sp.check_call([PYTHON, "bin/build_misc.py", src, dst])
@@ -108,12 +112,12 @@ def build_datapackage(src, dst):
     print("build_datapackage")
     sp.check_call([PYTHON, "bin/build_datapackage.py", src, dst])
 
-def build_docs(src, dst, docs):
+def build_docs(src, dst, docs, bucket):
     print("build_docs")
     # create docs sources
-    sp.check_call([PYTHON, "bin/build_docs.py", src, dst, docs])
+    sp.check_call([PYTHON, "bin/build_docs.py", src, dst, docs, bucket])
 
-def build(src, dst, docs):
+def build(src, dst, docs, bucket):
     if path.exists(dst):
         shutil.rmtree(dst)
     os.makedirs(dst)
@@ -137,22 +141,26 @@ def build(src, dst, docs):
     build_clodfelter(src, dst)
     build_cdb90(src, dst)
     build_ships(src, dst)
+    build_civilwarorg(src, dst)    
     build_misc(src, dst)
     # metadata
     build_metadata(src, dst)
     build_datapackage(src, dst)
     # build docs
-    build_docs(src, dst, docs)
+    build_docs(src, dst, docs, bucket)
            
 def main():
     parser = argparse.ArgumentParser(description = "Build the ACW battle data")
     parser.add_argument('dst', metavar = 'DST', default = "data", nargs = '?',
                         help = "data build directory")
+    parser.add_argument('--bucket', metavar = 'BUCKET',
+                        default = "data.jrnold.me",
+                        help = "AWS bucket with the data")
+    
     args = parser.parse_args()
     src = "."
     docs = path.join(src, "docs/source")
-    dst = args.dst
-    build(src, dst, docs)
+    build(src, args.dst, docs, args.bucket)
 
 if __name__ == "__main__":
     main()

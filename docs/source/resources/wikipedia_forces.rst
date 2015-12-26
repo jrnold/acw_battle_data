@@ -3,7 +3,7 @@ wikipedia_forces
 ################
 
 :name: wikipedia_forces
-:path: data/wikipedia_forces.csv
+:path: wikipedia_forces.csv
 :format: csv
 
 American Civil War battle casualty and forces size data from the English Wikipedia.

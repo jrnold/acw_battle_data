@@ -3,7 +3,7 @@ Phisterer (1883) battle data: battle list
 #########################################
 
 :name: phisterer_battles
-:path: data/phisterer_battles.csv
+:path: phisterer_battles.csv
 :format: csv
 
 Phister (1883) battle

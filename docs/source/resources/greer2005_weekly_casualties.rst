@@ -3,7 +3,7 @@ Weekly casualty data from Greer "Counting Casualties Week-by-Week"
 ##################################################################
 
 :name: greer2005_weekly_casualties
-:path: data/greer2005_weekly_casualties.csv
+:path: greer2005_weekly_casualties.csv
 :format: csv
 
 Weekly casualties from Greer (2005) *Counting Casualties Week by Week*

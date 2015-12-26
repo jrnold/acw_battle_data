@@ -3,7 +3,7 @@ Correspondence between Livermore (1900) battles and dbpedia.org resources
 #########################################################################
 
 :name: livermore_to_dbpedia
-:path: data/livermore_to_dbpedia.csv
+:path: livermore_to_dbpedia.csv
 :format: csv
 
 

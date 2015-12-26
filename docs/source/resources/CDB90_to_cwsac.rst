@@ -3,7 +3,7 @@ CDB90 to CWSAC battle links
 ###########################
 
 :name: CDB90_to_cwsac
-:path: data/CDB90_to_cwsac.csv
+:path: CDB90_to_cwsac.csv
 :format: csv
 
 

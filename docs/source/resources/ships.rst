@@ -3,7 +3,7 @@ Union and Confederate ship list
 ###############################
 
 :name: ships
-:path: data/ships.csv
+:path: ships.csv
 :format: csv
 
 Names of ships and links to `dbpedia.org <http://dbpedia.org>`__ and the Dictionary of American Naval Fighting Ships (DANFS).

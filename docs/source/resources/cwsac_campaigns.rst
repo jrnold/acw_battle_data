@@ -3,7 +3,7 @@ CWSAC Report battle data: campaigns
 ###################################
 
 :name: cwsac_campaigns
-:path: data/cwsac_campaigns.csv
+:path: cwsac_campaigns.csv
 :format: csv
 
 

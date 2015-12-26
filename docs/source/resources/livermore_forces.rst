@@ -3,7 +3,7 @@ Livermore (1900) battle data: force strengths and casualties
 ############################################################
 
 :name: livermore_forces
-:path: data/livermore_forces.csv
+:path: livermore_forces.csv
 :format: csv
 
 

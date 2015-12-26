@@ -3,7 +3,7 @@ Distributions of personnel in units
 ###################################
 
 :name: unit_sizes
-:path: data/unit_sizes.csv
+:path: unit_sizes.csv
 :format: csv
 
 Distributions of the number of personnel per unit (e.g. regiment,
