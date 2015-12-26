@@ -28,7 +28,6 @@ suffix            string   suffix
 first_name        string   first_name
 middle_name       string   middle_name
 middle_initial    string   middle_initial
-keywords          string   keywords
 rank              string   rank
 bio               string   bio
 bio_source        string   bio_source
@@ -101,18 +100,6 @@ middle_initial
 --------------
 
 :title: middle_initial
-:type: string
-:format: default
-
-
-
-
-
-       
-keywords
---------
-
-:title: keywords
 :type: string
 :format: default
 

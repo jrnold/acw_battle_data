@@ -32,10 +32,6 @@ schema:
     title: MiddleInitial
     type: string
   - format: default
-    name: Keywords
-    title: Keywords
-    type: string
-  - format: default
     name: Rank
     title: Rank
     type: string

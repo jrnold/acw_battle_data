@@ -457,7 +457,6 @@ gen_people <- function(cwss_people, extra_people) {
                        middle_name = MiddleName,
                        middle_initial = MiddleInitial,
                        suffix = Suffix,
-                       keywords = Keywords,
                        rank = Rank,
                        bio = Bio,
                        bio_source = BioSource,

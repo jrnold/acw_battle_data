@@ -27,7 +27,6 @@ Suffix          string   Suffix
 FirstName       string   FirstName
 MiddleName      string   MiddleName
 MiddleInitial   string   MiddleInitial
-Keywords        string   Keywords
 Rank            string   Rank
 Bio             string   Bio
 BioSource       string   BioSource
@@ -111,18 +110,6 @@ MiddleInitial
 -------------
 
 :title: MiddleInitial
-:type: string
-:format: default
-
-
-
-
-
-       
-Keywords
---------
-
-:title: Keywords
 :type: string
 :format: default
 

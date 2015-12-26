@@ -47,6 +47,7 @@ Resource                                                                        
 `cwss_commanders.csv <resources/cwss_commanders.html>`__                              CWSS battle data: principal commanders
 `cwss_forces.csv <resources/cwss_forces.html>`__                                      CWSS battle data: forces
 `cwss_people.csv <resources/cwss_persons.html>`__                                     CWSS people
+`cwss_people_keywords.csv <resources/cwss_people_keywords.html>`__                    CWSS people data: kewyords
 `cwss_regiments_units.csv <resources/cwss_regiments_units.html>`__                    CWSS units (regiments)
 `cwss_state_names.csv <resources/cwss_state_names.html>`__                            CWSS unit state names
 `cwss_theaters.csv <resources/cwss_theaters.html>`__                                  CWSS theaters

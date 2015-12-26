@@ -28,10 +28,6 @@ schema:
     title: middle_initial
     type: string
   - format: default
-    name: keywords
-    title: keywords
-    type: string
-  - format: default
     name: rank
     title: rank
     type: string

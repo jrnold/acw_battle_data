@@ -10,6 +10,7 @@ from os import path
 
 import pandas
 import pyparsing as pp
+import yaml
 
 namespaces = {
 'd' : "http://schemas.microsoft.com/ado/2007/08/dataservices",
@@ -210,7 +211,9 @@ def forces_csv(root, dst):
                           })
                           
 def people_csv(root, dst):
-    fields = ("PersonID", "ID", "LastName", "Suffix", "FirstName", "MiddleName", "MiddleInitial", "Keywords", "Rank", "Bio", "BioSource", "NarrativeLink1", "NarrativeLink2")
+    fields = ("PersonID", "ID",
+              "LastName", "Suffix", "FirstName", "MiddleName", "MiddleInitial",
+              "Rank", "Bio", "BioSource", "NarrativeLink1", "NarrativeLink2")
     with open(dst, 'w') as f:
         print("Writing: %s" % dst)        
         writer = csv.DictWriter(f, fields)
@@ -236,6 +239,66 @@ def people_csv(root, dst):
                 row["FirstName"] = "Stand"
                 row["LastName"] = "Watie"
             writer.writerow(row)   
+
+def people_keywords_csv(root, dst):
+    fields = ("PersonID", "Keyword")
+    with open(dst, 'w') as f:
+        print("Writing: %s" % dst)      
+        writer = csv.DictWriter(f, fields)
+        writer.writeheader()
+        for i, entry in enumerate(root.findall('.//%s' % xmlns('entry'))):
+            properties = entry.find('./%s/%s' % (xmlns('content'), xmlns('m:properties')))
+            id = properties.find(xmlns('d:PersonID')).text
+            row = {'PersonID': id}
+            keywords = properties.find(xmlns('d:Keywords')).text
+            if keywords is None:
+                continue
+            replacements = (
+                (';', ','),
+                ('""', '"'),       
+                ('" "', '", "'),
+                (', ,', ', '),
+                (" 'CS", ' "CS'),
+                ('"Brigadier General,', '"Brigadier General",'),
+                ('"Brigadier General,', '"Brigadier General",'),
+                ('"European American"Major General"', '"European American", "Major General"'),
+                ('European American" Commanders', 'European American", Commanders'),
+                ('"KS - Slave State, "John Brown",', '"KS - Slave State", "John Brown",'),
+                ('"European American" Minister', '"European American", Minister'),
+                ('"European American "Commanders', '"European American", Commanders'),
+                ('"Major General, Male', '"Major General", Male'),
+                ('"Lieutenant Colonel, Male', '"Lieutenant Colonel", Male'),
+                ('"Brigadier General" Male', '"Brigadier General", Male'),
+                ('"CS - Commander - VA064,"CS - Commander - VA114"', '"CS - Commander - VA064", "CS - Commander - VA114"'),
+                
+                )
+            for strfrom, strto in replacements:
+                keywords = keywords.replace(strfrom, strto)
+            if id in ("ecb8a078-2c3c-4056-b2b5-013fe3e91fa3",
+                      "f2f4eda1-b51f-4f8e-ad2d-379a1eb685f3",
+                      "15a8b826-e060-430a-bb4c-61936b75252e",
+                      "22dc9bfe-6bfa-4f8a-a48f-694e947cc8d7",
+                      "02b4fa9a-541a-45c7-9097-ab1aee538c6c",
+                      "d428cfef-5c7a-4230-b394-b195481d9a9f",
+                      "d6d0545e-4764-49d2-bcdd-b97262573342",
+                      "d3b0a222-2294-41d9-96b9-bc78996d55ae",
+                      "8f232cc9-43e7-4627-ab45-d8fe6873c472",
+                      "77a0625d-2996-4af0-b46f-db7388f851d5",
+                      "21d06a25-9c4f-4dea-a766-f60d20632999",
+                      "84b6d739-3384-4291-86ba-f75ae6637069",
+                      "a3f15046-9028-421d-bbe0-fb6c341a991f",
+            ):
+                # missing final quote
+                keywords += '"'
+            try:
+                # The list of keywords is not really yaml
+                # It is quoted and unquoted strings separated by commas
+                # But it is consistent with syntax for a yaml list and easier than writing a regex.
+                for kw in yaml.load("[" + keywords + "]"):
+                    row['Keyword'] = kw
+                    writer.writerow(row)
+            except TypeError:
+                pass
             
 def battleunitslink_csv(root, comments, dst):
     fields = (
@@ -375,6 +438,7 @@ def build(src, dst):
     with open(path.join(cwssdir, 'data', 'old', 'persons.xml'), 'rb') as f:
             persons = ET.fromstring(f.read(), parser)  
     people_csv(persons, path.join(dst, 'cwss_people.csv'))
+    people_keywords_csv(persons, path.join(dst, 'cwss_people_keywords.csv'))    
 
     comments = {}
     with open(path.join(src, 'rawdata', 'cwss', 'battle_units.csv'), 'r') as f:
