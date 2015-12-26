@@ -4,6 +4,7 @@ import csv
 import sys
 import shutil
 import re
+import datetime
 from os import path
 
 STATES = {
@@ -30,6 +31,24 @@ STATES = {
     "Virginia": "VA",
     "West Virginia": "WV"
 }
+
+MONTHS = ['January',
+          'February',
+          'March',
+          'April',
+          'May',
+          'June',
+          'July',
+          'August',
+          'September',
+          'October',
+          'November',
+          'December']
+
+REGEX_DATE = re.compile(''.join(('(?P<m>%s) (?P<d>\d+)',
+                                '(?: - (?P<m2>%s)? *(?P<d2>\d+))?',
+                                ', (?P<year>\d{4})'))
+                        % ('|'.join(MONTHS), '|'.join(MONTHS)))
 
 def build_forces(data, dst):
     fields = ('id',
@@ -80,18 +99,20 @@ def build_commanders(data, dst):
         writer.writerows(commanders)
         
 
-def build_battles(data, dst):
+def build_battles(data, links, dst):
     fields = ('id',
               'name',
               'url',
-              'dates',
+              'start_date',
+              'end_date',
               'alternate_names',
               'location',
               'state',
               'campaign',              
               'result',
               'total_casualties',
-              'total_strength')
+              'total_strength',
+              'cwsac_id')
     with open(dst, 'w') as f:
         print("Writing: %s" % dst)
         writer = csv.DictWriter(f, fields, extrasaction = 'ignore')
@@ -100,15 +121,33 @@ def build_battles(data, dst):
             m = re.match('^(.*),(.*?)$', row['location'])
             row['location'] = m.group(1).strip()
             row['state'] = STATES[m.group(2).strip()]
+            m = REGEX_DATE.match(row['dates'])
+            if m:
+                year = int(m.group('year'))
+                day1 = int(m.group('d'))
+                day2 = int(m.group('d2')) if m.group('d2') else day1
+                month1 = MONTHS.index(m.group('m')) + 1
+                month2 = MONTHS.index(m.group('m2')) + 1 if m.group('m2') else month1
+                row['start_date'] = datetime.date(year, month1, day1)
+                if row['id'] == 'stones-river':
+                    row['start_date'] = row['start_date'].replace(year = 1862)
+                row['end_date'] = datetime.date(year, month2, day2)
+            else:
+                print(row['dates'])
+            row['cwsac_id'] = links[row['id']]
             writer.writerow(row)
-
 
 def build(src, dst):
     srcdir = path.join(src, 'rawdata', 'civilwar.org')
     srcfile = path.join(srcdir, 'civilwar.org.json')
     with open(srcfile, 'r') as f:
         data = json.load(f)
-    build_battles(data, path.join(dst, 'civilwarorg_battles.csv'))
+    with open(path.join(srcdir, 'cwsac_links.csv')) as f:
+        reader = csv.DictReader(f)
+        links = {}
+        for row in reader:
+            links[row['id']] = row['cwsac_id']
+    build_battles(data, links, path.join(dst, 'civilwarorg_battles.csv'))
     build_forces(data, path.join(dst, 'civilwarorg_forces.csv'))
     build_commanders(data, path.join(dst, 'civilwarorg_commanders.csv'))
 
