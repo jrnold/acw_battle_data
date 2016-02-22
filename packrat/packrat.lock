@@ -5,8 +5,8 @@ Repos: CRAN.CRAN=https://cran.rstudio.com
 
 Package: BH
 Source: CRAN
-Version: 1.58.0-1
-Hash: 4f6db3b5311bb006f536a2e67278d058
+Version: 1.60.0-1
+Hash: 889445e87a2acd4cc58440957f3b0d1a
 
 Package: DBI
 Source: CRAN
@@ -15,13 +15,13 @@ Hash: 096699d1ac1cf530acfc646a0c90ee5d
 
 Package: R6
 Source: CRAN
-Version: 2.1.1
-Hash: 20a88b2c9c84aecff2702789a4d102f5
+Version: 2.1.2
+Hash: c515e41c73294952cbb33ee1c1be5a2d
 
 Package: Rcpp
 Source: CRAN
-Version: 0.12.2
-Hash: 1928c2b7372e3f033217335f3fad25a3
+Version: 0.12.3
+Hash: 11ace6a9a186c17a42e0fa2c49af1223
 
 Package: assertthat
 Source: CRAN
@@ -39,15 +39,20 @@ Version: 1.17.1
 Hash: 97cb6f6293cd18d17df77a6383cc6763
 Requires: bitops
 
+Package: curl
+Source: CRAN
+Version: 0.9.6
+Hash: 21fb53e12f47bff18a2db6ab69bd87a0
+
 Package: digest
 Source: CRAN
-Version: 0.6.8
-Hash: de202f956596a476d09304e3a2ebf1e5
+Version: 0.6.9
+Hash: fd55d5a024f160fc001a5ece1e27782d
 
 Package: dplyr
 Source: CRAN
 Version: 0.4.3
-Hash: 6747c41888a187a26ac4b03789b52a06
+Hash: d7005d9f57021e610fa38635d7a0b8e0
 Requires: BH, DBI, R6, Rcpp, assertthat, lazyeval, magrittr
 
 Package: evaluate
@@ -68,8 +73,8 @@ Hash: 114ef5abcf58bebbf6ac083b9cacbbd8
 
 Package: htmltools
 Source: CRAN
-Version: 0.2.6
-Hash: 595e7dea94f5f049dfc1ed739f5161af
+Version: 0.3
+Hash: 7ccc01f4d22d73d0d9b0d2a7781e7ff6
 Requires: digest
 
 Package: jsonlite
@@ -78,19 +83,21 @@ Version: 0.9.19
 Hash: 4a983f753b6e88ae0f5a6ac152d8cc32
 
 Package: knitr
-Source: github
-Version: 1.11.3
-Hash: 9a8f57729675712c25abb41eca3cee2f
+Source: CRAN
+Version: 1.12.3
+Hash: d537760d13021cf23fa2446381d9e0b2
 Requires: digest, evaluate, formatR, highr, markdown, stringr, yaml
-GithubRepo: knitr
-GithubUsername: yihui
-GithubRef: master
-GithubSha1: 2e87031fc906b1230646b2e889df243400e48188
 
 Package: lazyeval
 Source: CRAN
 Version: 0.1.10
 Hash: 9679f1ac7f6bc07bc79755f34cd15e1f
+
+Package: lubridate
+Source: CRAN
+Version: 1.5.0
+Hash: 038715dfce23c748aef45c22f46e4b75
+Requires: stringr
 
 Package: magrittr
 Source: CRAN
@@ -116,25 +123,31 @@ Hash: 29eacc43b096c5b1a82c8d54a49b030b
 Package: pander
 Source: CRAN
 Version: 0.6.0
-Hash: 06f966dcb230ac80768e97ca02c02029
+Hash: 2b49d44755c35ff78ed0218c514eead9
 Requires: Rcpp, digest
 
 Package: plyr
 Source: CRAN
 Version: 1.8.3
-Hash: 5cf4672c5940e265f2602d5d806d303d
+Hash: e38fe93fa50135fac98421abb43bbfea
 Requires: Rcpp
 
 Package: purrr
 Source: CRAN
-Version: 0.1.0
-Hash: ef025c4a29bb6a503e40d253ce2a3f6a
-Requires: BH, Rcpp, dplyr, magrittr
+Version: 0.2.1
+Hash: 6cf4530f9dc63cbb1ba710053f15b121
+Requires: BH, Rcpp, dplyr, lazyeval, magrittr
+
+Package: readr
+Source: CRAN
+Version: 0.2.2
+Hash: 6650aa16750d22092970ea3e06a49e0e
+Requires: BH, Rcpp, curl
 
 Package: rmarkdown
 Source: CRAN
-Version: 0.8.1
-Hash: 13ce5c86c765918f857c602d97d1ffb9
+Version: 0.9.2
+Hash: 62ef7e7066b3e768f7684feb9bf9d693
 Requires: caTools, htmltools, knitr, yaml
 
 Package: stringi
@@ -150,8 +163,8 @@ Requires: magrittr, stringi
 
 Package: tidyr
 Source: CRAN
-Version: 0.3.1
-Hash: 1606e7bf29585ceb6ae1c309d8695793
+Version: 0.4.1
+Hash: f7651db13e8cff93626958d4331a21e7
 Requires: Rcpp, dplyr, lazyeval, magrittr, stringi
 
 Package: yaml
