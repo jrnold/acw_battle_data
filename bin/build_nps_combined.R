@@ -11,6 +11,7 @@ cws2_to_cwsac_id <- function(x) {
   plyr::revalue(x, c("AL002" = "AL009"))
 }
 
+
 #'
 #' # Battlelist Comparisons
 #'
