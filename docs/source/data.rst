@@ -78,7 +78,11 @@ Resource                                                                        
 `nps_forces.csv <resources/nps_forces.html>`__                                        NPS combined data battle data: forces
 `nps_people.csv <resources/nps_people.html>`__                                        NPS combined data: people
 `nps_theaters.csv <resources/nps_theaters.html>`__                                    NPS combined data battle data: theaters
-`nps_units.csv <resources/nps_units.html>`__                                          nps_units
+`nps_unit_categories_ethnic.csv <resources/nps_unit_categories_ethnic.html>`__        NPS ethnic categories of units.
+`nps_unit_categories_function.csv <resources/nps_unit_categories_function.html>`__    nps_unit_categories_function
+`nps_unit_categories_special.csv <resources/nps_unit_categories_special.html>`__      NPS combined categories of special functions of unit.
+`nps_unit_categories_type.csv <resources/nps_unit_categories_type.html>`__            NPS combined data categories of types of data.
+`nps_units.csv <resources/nps_units.html>`__                                          NPS Units
 `nytimes_civil_war_chronology.json <resources/nytimes_civil_war_chronology.html>`__   nytimes_civil_war_chronology
 `phisterer_battles.csv <resources/phisterer_battles.html>`__                          Phisterer (1883) battle data: battle list
 `phisterer_engagements.csv <resources/phisterer_engagements.html>`__                  Phisterer (1883) chronological list of engagements

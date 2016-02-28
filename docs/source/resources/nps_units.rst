@@ -1,5 +1,5 @@
 #########
-nps_units
+NPS Units
 #########
 
 :name: nps_units
@@ -16,20 +16,18 @@ Schema
 
 
 
-=========  =======  =========
-unit_code  string   unit_code
-side       string   side
-state      string   state
-ordinal    string   ordinal
-type       string   type
-special    string   special
-duplicate  number   duplicate
-ethnic     string   ethnic
-unit_name  string   unit_name
-notes      string   notes
-func       string   func
-added      boolean  added
-=========  =======  =========
+=========  ======  =========
+unit_code  string  unit_code
+unit_name  string  unit_name
+side       string  side
+state      string  state
+ordinal    string  ordinal
+type       string  type
+func       string  func
+special    string  special
+ethnic     string  ethnic
+duplicate  number  duplicate
+=========  ======  =========
 
 unit_code
 ---------
@@ -40,6 +38,18 @@ unit_code
 
 
 
+
+
+       
+unit_name
+---------
+
+:title: unit_name
+:type: string
+:format: default
+
+
+Unit name.
 
 
        
@@ -61,7 +71,11 @@ state
 :title: state
 :type: string
 :format: default
-
+:constraints:
+    :minLength: 2
+    :maxLength: 2
+    :pattern: [A-Z]{2}
+    
 
 
 
@@ -75,7 +89,8 @@ ordinal
 :format: default
 
 
-
+Unit number.
+For example, for the Massachussets 1st Infantry Regiment, the value of ``ordinal`` is 1.
 
 
        
@@ -85,69 +100,13 @@ type
 :title: type
 :type: string
 :format: default
+:constraints:
+    :minLength: 1
+    :maxLength: 1
+    
 
-
-
-
-
-       
-special
--------
-
-:title: special
-:type: string
-:format: default
-
-
-
-
-
-       
-duplicate
----------
-
-:title: duplicate
-:type: number
-:format: default
-
-
-
-
-
-       
-ethnic
-------
-
-:title: ethnic
-:type: string
-:format: default
-
-
-
-
-
-       
-unit_name
----------
-
-:title: unit_name
-:type: string
-:format: default
-
-
-
-
-
-       
-notes
------
-
-:title: notes
-:type: string
-:format: default
-
-
-
+Unit type: regiment, squadron, battery, company.
+See ``nps_unit_categories_type`` for descriptions of the categories in this column..
 
 
        
@@ -159,19 +118,51 @@ func
 :format: default
 
 
-
+Unit function. Examples include: "Artillery", "Cavalry", "Infantry".
 
 
        
-added
------
+special
+-------
 
-:title: added
-:type: boolean
+:title: special
+:type: string
+:format: default
+:constraints:
+    :minLength: 1
+    :maxLength: 1
+    
+
+Additional category of the unit for special units. Examples include: "Veteran (Non Volunteer)", "State Militia", "Mounted", "Heavy Artillery", "Home Guard".
+See ``nps_unit_categories_special`` for descriptions of the categories in this column.
+
+
+       
+ethnic
+------
+
+:title: ethnic
+:type: string
+:format: default
+:constraints:
+    :minLength: 1
+    :maxLength: 1
+    
+
+Ethnic type of the unit, if any. The only two ethnic types are colored ("C") and Native American ("I").
+See ``nps_unit_categories_ethnic`` for descriptions of the categories in this column.
+
+
+       
+duplicate
+---------
+
+:title: duplicate
+:type: number
 :format: default
 
 
-
+Number to disambiguate units if there are multiple units with the same unit code.
 
 
        

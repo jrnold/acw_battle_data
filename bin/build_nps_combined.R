@@ -527,7 +527,9 @@ gen_units <- function(cwss_units, extra_units) {
                         }
     bind_rows(mutate(cwss_units,
                      added = FALSE),
-              extra_units)
+              extra_units) %>%
+      select(unit_code, unit_name, side, state, ordinal,
+             type, func, special, ethnic, duplicate)
 
 }
 
@@ -555,6 +557,11 @@ gen_battle_units <- function(cwss_battle_units, extra_battle_units) {
                      added = FALSE),
             extra_battle_units_)
 
+}
+
+filter_categories <- function(x, category_) {
+  filter(x, category == category_) %>%
+    select(-category)
 }
 
 #' Build Everything
@@ -604,6 +611,8 @@ build <- function(src, dst) {
   shenandoah_forces <-
     read_csv(file.path(dst, "shenandoah_forces.csv"))
 
+  categories <- read_csv(file.path(dst, "cwss_categories.csv"))
+
   battlelist <-
     gen_battlelist(cwss_battles,
                    cwsac_battles,
@@ -641,9 +650,12 @@ build <- function(src, dst) {
                 forces,
                 extra_data[["excluded_battles"]])
 
+  unit_categories_function <- filter_categories(categories, "Function")
+  unit_categories_special <- filter_categories(categories, "SCharacter")
+  unit_categories_ethnic <- filter_categories(categories, "Ethnic")
+  unit_categories_type <- filter_categories(categories, "Unitype")
 
   write_csv(battlelist, file.path(dst, "nps_battlelist.csv"))
-
   write_csv(cwss_theaters, file.path(dst, "nps_theaters.csv"))
   write_csv(cwss_campaigns, file.path(dst, "nps_campaigns.csv"))
   write_csv(commanders, file.path(dst, "nps_commanders.csv"))
@@ -652,7 +664,14 @@ build <- function(src, dst) {
   write_csv(battle_units, file.path(dst, "nps_battle_units.csv"))
   write_csv(battles, file.path(dst, "nps_battles.csv"))
   write_csv(forces, file.path(dst, "nps_forces.csv"))
-
+  write_csv(unit_categories_function,
+            file.path(dst, "nps_unit_categories_function.csv"))
+  write_csv(unit_categories_special,
+            file.path(dst, "nps_unit_categories_special.csv"))
+  write_csv(unit_categories_type,
+            file.path(dst, "nps_unit_categories_type.csv"))
+  write_csv(unit_categories_ethnic,
+            file.path(dst, "nps_unit_categories_ethnic.csv"))
 }
 
 main <- function() {

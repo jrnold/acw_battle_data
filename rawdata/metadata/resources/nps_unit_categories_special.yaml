@@ -1,0 +1,18 @@
+description: Descriptions of the unit type categories in ``nps_units.special``.
+format: csv
+name: nps_unit_categories_special
+path: data/nps_unit_categories_special.csv
+schema:
+  fields:
+  - constraints:
+      maxLength: 1
+      minLength: 1
+    format: default
+    name: abbr
+    title: abbr
+    type: string
+  - format: default
+    name: description
+    title: description
+    type: string
+title: NPS combined categories of special functions of unit.
