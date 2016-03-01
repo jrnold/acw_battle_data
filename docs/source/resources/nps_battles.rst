@@ -65,8 +65,6 @@ significance_bill                string   significance_bill
 aad_url                          string   aad_url
 battle_type_aad                  string   battle_type_aad
 partof_aad                       boolean  partof_aad
-shenandoah_url                   string   shenandoah_url
-partof_shenandoah                boolean  partof_shenandoah
 lat                              number   Latitude
 long                             number   Longitude
 state                            string   state
@@ -606,30 +604,6 @@ partof_aad
 ----------
 
 :title: partof_aad
-:type: boolean
-:format: default
-
-
-
-
-
-       
-shenandoah_url
---------------
-
-:title: shenandoah_url
-:type: string
-:format: default
-
-
-
-
-
-       
-partof_shenandoah
------------------
-
-:title: partof_shenandoah
 :type: boolean
 :format: default
 

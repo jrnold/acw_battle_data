@@ -12,9 +12,13 @@ schema:
     name: unit_name
     title: unit_name
     type: string
-  - format: default
-    name: side
-    title: side
+  - constraints:
+      enum:
+      - US
+      - Confederate
+    format: default
+    name: belligerent
+    title: belligerent
     type: string
   - constraints:
       maxLength: 2

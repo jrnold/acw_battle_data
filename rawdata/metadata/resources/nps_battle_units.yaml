@@ -8,12 +8,8 @@ schema:
     title: cwsac_id
     type: string
   - format: default
-    name: comment
-    title: comment
-    type: string
-  - format: default
-    name: Source
-    title: Source
+    name: belligerent
+    title: belligerent
     type: string
   - format: default
     name: unit_code
@@ -35,16 +31,22 @@ schema:
     name: section
     title: section
     type: number
-  - format: default
-    name: belligerent
-    title: belligerent
-    type: string
-  - format: default
+  - description: 'If ``true``, then this was in the original CWSS data. If ``false``,
+      then this unit was added by the author for this dataset.
+
+      Currently, the only units added were those appearing in battles omitted from
+      the original CWSS data.'
+    format: default
     name: added
     title: added
     type: string
+  - description: Original source for the CWSS data.
+    format: default
+    name: src
+    title: Source
+    type: string
   - format: default
-    name: unit_name
-    title: unit_name
+    name: comment
+    title: comment
     type: string
 title: nps_battle_units

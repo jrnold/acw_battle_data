@@ -18,16 +18,15 @@ Schema
 
 ===========  ======  ===========
 cwsac_id     string  cwsac_id
-comment      string  comment
-Source       string  Source
+belligerent  string  belligerent
 unit_code    string  unit_code
 companies    number  companies
 batteries    number  batteries
 detachment   number  detachment
 section      number  section
-belligerent  string  belligerent
 added        string  added
-unit_name    string  unit_name
+src          string  Source
+comment      string  comment
 ===========  ======  ===========
 
 cwsac_id
@@ -42,22 +41,10 @@ cwsac_id
 
 
        
-comment
--------
+belligerent
+-----------
 
-:title: comment
-:type: string
-:format: default
-
-
-
-
-
-       
-Source
-------
-
-:title: Source
+:title: belligerent
 :type: string
 :format: default
 
@@ -126,18 +113,6 @@ section
 
 
        
-belligerent
------------
-
-:title: belligerent
-:type: string
-:format: default
-
-
-
-
-
-       
 added
 -----
 
@@ -146,14 +121,27 @@ added
 :format: default
 
 
-
+If ``true``, then this was in the original CWSS data. If ``false``, then this unit was added by the author for this dataset.
+Currently, the only units added were those appearing in battles omitted from the original CWSS data.
 
 
        
-unit_name
----------
+src
+---
 
-:title: unit_name
+:title: Source
+:type: string
+:format: default
+
+
+Original source for the CWSS data.
+
+
+       
+comment
+-------
+
+:title: comment
 :type: string
 :format: default
 

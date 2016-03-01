@@ -16,18 +16,18 @@ Schema
 
 
 
-=========  ======  =========
-unit_code  string  unit_code
-unit_name  string  unit_name
-side       string  side
-state      string  state
-ordinal    string  ordinal
-type       string  type
-func       string  func
-special    string  special
-ethnic     string  ethnic
-duplicate  number  duplicate
-=========  ======  =========
+===========  ======  ===========
+unit_code    string  unit_code
+unit_name    string  unit_name
+belligerent  string  belligerent
+state        string  state
+ordinal      string  ordinal
+type         string  type
+func         string  func
+special      string  special
+ethnic       string  ethnic
+duplicate    number  duplicate
+===========  ======  ===========
 
 unit_code
 ---------
@@ -53,13 +53,15 @@ Unit name.
 
 
        
-side
-----
+belligerent
+-----------
 
-:title: side
+:title: belligerent
 :type: string
 :format: default
-
+:constraints:
+    :enum: ['US', 'Confederate']
+    
 
 
 

@@ -184,14 +184,6 @@ schema:
     title: partof_aad
     type: boolean
   - format: default
-    name: shenandoah_url
-    title: shenandoah_url
-    type: string
-  - format: default
-    name: partof_shenandoah
-    title: partof_shenandoah
-    type: boolean
-  - format: default
     name: lat
     title: Latitude
     type: number

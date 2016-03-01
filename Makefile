@@ -14,6 +14,4 @@ pdf:
 
 # Deploy data to S3
 deploy:
-	./deploy.sh
-
-
+	./bin/deploy.sh
