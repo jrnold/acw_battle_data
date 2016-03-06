@@ -57,8 +57,8 @@ Requires: BH, DBI, R6, Rcpp, assertthat, lazyeval, magrittr
 
 Package: evaluate
 Source: CRAN
-Version: 0.8
-Hash: aac00bd789bac10970b50e3b7e0cab04
+Version: 0.8.3
+Hash: af30a08e081f5ba083cc8f0545391151
 Requires: stringr
 
 Package: formatR
@@ -146,8 +146,8 @@ Requires: BH, Rcpp, curl
 
 Package: rmarkdown
 Source: CRAN
-Version: 0.9.2
-Hash: 62ef7e7066b3e768f7684feb9bf9d693
+Version: 0.9.5
+Hash: c47e8fb40e81162783fe1335a13a0ca3
 Requires: caTools, htmltools, knitr, yaml
 
 Package: stringi
