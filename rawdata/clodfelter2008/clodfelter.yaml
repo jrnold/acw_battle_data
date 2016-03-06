@@ -1,9 +1,9 @@
 - battle: Rich Mountain/Laurel Mountain
   cwsac:
   - id: WV003
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Rich_Mountain
   end_date: 1861-7-11
   forces:
@@ -52,9 +52,9 @@
 - battle: First Bull Run (Manassas)
   cwsac:
   - id: VA005
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/First_Battle_of_Bull_Run
   forces:
     Confederate:
@@ -97,9 +97,9 @@
 - battle: Ball's Bluff
   cwsac:
   - id: VA006
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Ball%27s_Bluff
   forces:
     Confederate:
@@ -142,9 +142,9 @@
 - battle: Wilson's Creek
   cwsac:
   - id: MO004
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Wilson%27s_Creek
   forces:
     Confederate:
@@ -194,9 +194,9 @@
 - battle: Belmont
   cwsac:
   - id: MO009
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Belmont
   forces:
     Confederate:
@@ -232,9 +232,9 @@
 - battle: Roanoake Island
   cwsac:
   - id: NC002
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Roanoke_Island
   end_date: 1862-2-8
   forces:
@@ -274,9 +274,9 @@
 - battle: New Bern
   cwsac:
   - id: NC003
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Roanoke_Island
   forces:
     Confederate:
@@ -406,9 +406,9 @@
 - battle: Secessionville
   cwsac:
   - id: SC002
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_James_Island
   forces:
     Confederate:
@@ -444,9 +444,9 @@
 - battle: Kernstown (first)
   cwsac:
   - id: VA101
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/First_Battle_of_Kernstown
   forces:
     Confederate:
@@ -482,9 +482,9 @@
 - battle: McDowell
   cwsac:
   - id: VA102
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_McDowell
   forces:
     Confederate:
@@ -526,9 +526,9 @@
 - battle: Front Royal
   cwsac:
   - id: VA103
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Front_Royal
   forces:
     Confederate:
@@ -560,9 +560,9 @@
 - battle: Winchester (first)
   cwsac:
   - id: VA104
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/First_Battle_of_Winchester
   forces:
     Confederate:
@@ -598,9 +598,9 @@
 - battle: Cross Keys
   cwsac:
   - id: VA105
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Cross_Keys
   forces:
     Confederate:
@@ -636,9 +636,9 @@
 - battle: Port Republic
   cwsac:
   - id: VA106
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Port_Republic
   forces:
     Confederate:
@@ -674,9 +674,9 @@
 - battle: Williamsburg (Fort Magruder)
   cwsac:
   - id: VA010
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Williamsburg
   forces:
     Confederate:
@@ -712,9 +712,9 @@
 - battle: Hanover Court House
   cwsac:
   - id: VA013
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Hanover_Court_House
   forces:
     Confederate:
@@ -749,9 +749,9 @@
 - battle: Fair Oaks (Seven Pines)
   cwsac:
   - id: VA014
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Seven_Pines
   end_date: 1862-6-1
   forces:
@@ -796,21 +796,21 @@
 - battle: Seven Days Battles
   cwsac:
   - id: VA015
-    relation: '>'
+    relation: 'gt'
   - id: VA016
-    relation: '>'
+    relation: 'gt'
   - id: VA017
-    relation: '>'
+    relation: 'gt'
   - id: VA018
-    relation: '>'
+    relation: 'gt'
   - id: VA019
-    relation: '>'
+    relation: 'gt'
   - id: VA020
-    relation: '>'
+    relation: 'gt'
   - id: VA021
-    relation: '>'
+    relation: 'gt'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Seven_Days_Battles
   end_date: 1862-7-1
   forces:
@@ -847,9 +847,9 @@
 - battle: The Orchard (Seven Days)
   cwsac:
   - id: VA015
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Seven_Days_Battles
   forces:
     Confederate:
@@ -886,9 +886,9 @@
 - battle: Mechanicsville (Seven Days)
   cwsac:
   - id: VA016
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Beaver_Dam_Creek
   forces:
     Confederate:
@@ -923,9 +923,9 @@
 - battle: Gaines's Mill (Seven Days)
   cwsac:
   - id: VA017
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Gaines%27s_Mill
   forces:
     Confederate:
@@ -961,9 +961,9 @@
 - battle: Savage's Station (Seven Days)
   cwsac:
   - id: VA019
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Savage%27s_Station
   forces:
     Confederate:
@@ -996,9 +996,9 @@
 - battle: White Oak Swamp (Seven Days)
   cwsac:
   - id: VA020
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_White_Oak_Swamp
   forces:
     Confederate:
@@ -1050,9 +1050,9 @@
 - battle: Malvern Hill (Seven Days)
   cwsac:
   - id: VA021
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Malvern_Hill
   forces:
     Confederate:
@@ -1084,9 +1084,9 @@
 - battle: Cedar Mountain
   cwsac:
   - id: VA022
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Cedar_Mountain
   forces:
     Confederate:
@@ -1212,9 +1212,9 @@
 - battle: South Mountain
   cwsac:
   - id: MD002
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_South_Mountain
   forces:
     Confederate:
@@ -1250,9 +1250,9 @@
 - battle: Antietam (Sharpsburg)
   cwsac:
   - id: MD003
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Antietam
   forces:
     Confederate:
@@ -1288,9 +1288,9 @@
 - battle: Fredericksburg
   cwsac:
   - id: VA028
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Fredericksburg
   forces:
     Confederate:
@@ -1326,9 +1326,9 @@
 - battle: Valverde
   cwsac:
   - id: NM001
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Valverde
   forces:
     Confederate:
@@ -1370,9 +1370,9 @@
 - battle: Apache Canyon/Glorieta Pass
   cwsac:
   - id: NM002
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Glorieta_Pass
   end_date: 1862-3-28
   forces:
@@ -1423,9 +1423,9 @@
 - battle: Pea Ridge
   cwsac:
   - id: AR001
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Pea_Ridge
   end_date: 1862-3-8
   forces:
@@ -1461,9 +1461,9 @@
 - battle: Prairie Grove
   cwsac:
   - id: AR005
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Prairie_Grove
   forces:
     Confederate:
@@ -1506,9 +1506,9 @@
 - battle: Mill Springs (Logan's Crossroads)
   cwsac:
   - id: KY006
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Mill_Springs
   end_date: 1862-1-20
   forces:
@@ -1545,9 +1545,9 @@
 - battle: Fort Donelson
   cwsac:
   - id: TN002
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Fort_Donelson
   end_date: 1862-2-16
   forces:
@@ -1604,9 +1604,9 @@
 - battle: Shiloh (Pittsburg Landing)
   cwsac:
   - id: TN003
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Shiloh
   end_date: 1862-4-7
   forces:
@@ -1657,9 +1657,9 @@
 - battle: New Orleans
   cwsac:
   - id: LA001
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Forts_Jackson_and_St._Philip
   forces:
     Confederate:
@@ -1707,9 +1707,9 @@
 - battle: Baton Rouge
   cwsac:
   - id: LA003
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Baton_Rouge_(1862)
   forces:
     Confederate:
@@ -1745,9 +1745,9 @@
 - battle: Iuka
   cwsac:
   - id: MS001
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Iuka
   forces:
     Confederate:
@@ -1783,9 +1783,9 @@
 - battle: Corinth
   cwsac:
   - id: MS002
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Second_Battle_of_Corinth
   end_date: 1862-10-4
   forces:
@@ -1822,9 +1822,9 @@
 - battle: Chickasaw Bluffs
   cwsac:
   - id: MS003
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Chickasaw_Bayou
   forces:
     Confederate:
@@ -1860,9 +1860,9 @@
 - battle: Richmond (Kentucky)
   cwsac:
   - id: KY007
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Richmond
   forces:
     Confederate:
@@ -1898,9 +1898,9 @@
 - battle: Perryville
   cwsac:
   - id: KY009
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Perryville
   forces:
     Confederate:
@@ -1936,9 +1936,9 @@
 - battle: Hartsville
   cwsac:
   - id: TN008
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Hartsville
   forces:
     Confederate:
@@ -1971,9 +1971,9 @@
 - battle: Stones River (Murfreesboro)
   cwsac:
   - id: TN010
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Stones_River
   end_date: 1863-1-2
   forces:
@@ -2010,9 +2010,9 @@
 - battle: Chancellorsville
   cwsac:
   - id: VA032
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Chancellorsville
   end_date: 1863-5-6
   forces:
@@ -2056,9 +2056,9 @@
 - battle: Brandy Station
   cwsac:
   - id: VA035
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Brandy_Station
   forces:
     Confederate:
@@ -2092,9 +2092,9 @@
 - battle: Winchester (second)
   cwsac:
   - id: VA107
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Second_Battle_of_Winchester
   end_date: 1863-6-15
   forces:
@@ -2130,9 +2130,9 @@
 - battle: Gettsyburg
   cwsac:
   - id: PA002
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Gettysburg
   end_date: 1863-7-3
   forces:
@@ -2169,9 +2169,9 @@
 - battle: Bristoe Station
   cwsac:
   - id: VA040
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Bristoe_Station
   forces:
     Confederate:
@@ -2204,9 +2204,9 @@
 - battle: Buckland
   cwsac:
   - id: VA042
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Buckland_Mills
   forces:
     Confederate:
@@ -2238,9 +2238,9 @@
 - battle: Rappahannock Station
   cwsac:
   - id: VA043
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Second_Battle_of_Rappahannock_Station
   forces:
     Confederate:
@@ -2272,9 +2272,9 @@
 - battle: Mine Run
   cwsac:
   - id: VA044
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Mine_Run
   end_date: 1863-12-1
   forces:
@@ -2307,9 +2307,9 @@
 - battle: Galveston
   cwsac:
   - id: TX003
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Galveston
   forces:
     Confederate:
@@ -2355,9 +2355,9 @@
 - battle: Honey Springs
   cwsac:
   - id: OK007
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Honey_Springs
   forces:
     Confederate:
@@ -2390,9 +2390,9 @@
 - battle: Fort Hindman (Arkansas Post)
   cwsac:
   - id: AR006
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Arkansas_Post
   forces:
     Confederate:
@@ -2434,9 +2434,9 @@
 - battle: Port Hudson (siege)
   cwsac:
   - id: LA010
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Siege_of_Port_Hudson
   end_date: 1863-7-9
   forces:
@@ -2556,9 +2556,9 @@
 - battle: Donaldsville (first)
   cwsac:
   - id: LA013
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Second_Battle_of_Donaldsonville
   forces:
     Confederate:
@@ -2590,9 +2590,9 @@
 - battle: Donaldsville (second)
   cwsac:
   - id: LA015
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Kock%27s_Plantation
   forces:
     Confederate:
@@ -2634,9 +2634,9 @@
 - battle: Port Gibson
   cwsac:
   - id: MS006
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Port_Gibson
   forces:
     Confederate:
@@ -2672,9 +2672,9 @@
 - battle: Raymond
   cwsac:
   - id: MS007
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Raymond
   forces:
     Confederate:
@@ -2710,9 +2710,9 @@
 - battle: Jackson
   cwsac:
   - id: MS008
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Jackson,_Mississippi
   forces:
     Confederate:
@@ -2755,9 +2755,9 @@
 - battle: Champion's Hill
   cwsac:
   - id: MS009
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Champion_Hill
   forces:
     Confederate:
@@ -2793,9 +2793,9 @@
 - battle: Big Black River
   cwsac:
   - id: MS010
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Big_Black_River_Bridge
   forces:
     Confederate:
@@ -2829,9 +2829,9 @@
 - battle: Vicksburg (siege)
   cwsac:
   - id: MS011
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Siege_of_Vicksburg
   end_date: 1863-7-4
   forces:
@@ -2949,9 +2949,9 @@
 - battle: Helena
   cwsac:
   - id: AR008
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Helena
   forces:
     Confederate:
@@ -2982,7 +2982,7 @@
   theater: 'West: 1863'
 - battle: Jackson (siege)
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: http://dbpedia.org/resource/Jackson_Expedition
   end_date: 1863-7-16
   forces:
@@ -3020,9 +3020,9 @@
 - battle: Chickamagua
   cwsac:
   - id: GA004
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Chickamagua
   end_date: 1863-9-20
   forces:
@@ -3075,9 +3075,9 @@
 - battle: Chattanooga
   cwsac:
   - id: TN024
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Chattanooga_Campaign
   end_date: 1863-11-25
   forces:
@@ -3153,7 +3153,7 @@
   - id: TN024
     relation: <
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Lookout_Mountain
   forces:
     Confederate:
@@ -3228,7 +3228,7 @@
   - id: TN024
     relation: <
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Missionary_Ridge
   forces:
     Confederate:
@@ -3261,9 +3261,9 @@
 - battle: Ringgold Gap
   cwsac:
   - id: GA005
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Ringgold_Gap
   forces:
     Confederate:
@@ -3331,9 +3331,9 @@
 - battle: Knoxville (attack on Fort Sanders)
   cwsac:
   - id: TN025
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Fort_Sanders
   forces:
     Confederate:
@@ -3368,7 +3368,7 @@
   theater: 'West: 1863'
 - battle: Pocataligo
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Pocotaligo
   forces:
     Confederate:
@@ -3401,9 +3401,9 @@
 - battle: Batteries Wagner and Gregg
   cwsac:
   - id: SC005
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/First_Battle_of_Fort_Wagner
   end_date: 1863-7-11
   forces:
@@ -3438,9 +3438,9 @@
 - battle: Battery Wagner
   cwsac:
   - id: SC007
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Second_Battle_of_Fort_Wagner
   forces:
     Confederate:
@@ -3476,9 +3476,9 @@
 - battle: Olustee
   cwsac:
   - id: FL005
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Olustee
   forces:
     Confederate:
@@ -3513,9 +3513,9 @@
 - battle: Wilderness
   cwsac:
   - id: VA046
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_the_Wilderness
   end_date: 1864-5-6
   forces:
@@ -3559,9 +3559,9 @@
 - battle: Spotsylvania Court House
   cwsac:
   - id: VA048
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Spotsylvania_Court_House
   end_date: 1864-5-18
   forces:
@@ -3605,9 +3605,9 @@
 - battle: Yellow Tavern
   cwsac:
   - id: VA052
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Yellow_Tavern
   forces:
     Confederate:
@@ -3641,9 +3641,9 @@
 - battle: North Anna River
   cwsac:
   - id: VA055
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_North_Anna
   end_date: 1864-5-26
   forces:
@@ -3685,9 +3685,9 @@
 - battle: Totopotomy Creek
   cwsac:
   - id: VA057
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Totopotomoy_Creek
   end_date: 1864-5-31
   forces:
@@ -3772,9 +3772,9 @@
 - battle: Cold Harbor
   cwsac:
   - id: VA062
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Cold_Harbor
   end_date: 1864-6-12
   forces:
@@ -3818,9 +3818,9 @@
 - battle: Trevilian Station
   cwsac:
   - id: VA099
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Trevilian_Station
   end_date: 1864-6-12
   forces:
@@ -3860,9 +3860,9 @@
 - battle: Cloyd's Mountain
   cwsac:
   - id: VA049
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Cloyd%27s_Mountain
   forces:
     Confederate:
@@ -3894,9 +3894,9 @@
 - battle: New Market
   cwsac:
   - id: VA110
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_New_Market
   forces:
     Confederate:
@@ -3932,9 +3932,9 @@
 - battle: Piedmont
   cwsac:
   - id: VA111
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Piedmont
   forces:
     Confederate:
@@ -3968,9 +3968,9 @@
 - battle: Drewry's Bluff
   cwsac:
   - id: VA012
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Drewry%27s_Bluff
   end_date: 1864-5-16
   forces:
@@ -4020,9 +4020,9 @@
 - battle: Petersburg (first assault)
   cwsac:
   - id: VA063
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Second_Battle_of_Petersburg
   end_date: 1864-6-18
   forces:
@@ -4071,9 +4071,9 @@
 - battle: Monocacy River
   cwsac:
   - id: MD007
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Monocacy
   forces:
     Confederate:
@@ -4107,9 +4107,9 @@
 - battle: Kernstown (second)
   cwsac:
   - id: VA116
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Second_Battle_of_Kernstown
   forces:
     Confederate:
@@ -4141,9 +4141,9 @@
 - battle: Opequon (Third Winchester)
   cwsac:
   - id: VA119
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Opequon
   forces:
     Confederate:
@@ -4179,9 +4179,9 @@
 - battle: Fisher's Hill
   cwsac:
   - id: VA120
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Fisher%27s_Hill
   forces:
     Confederate:
@@ -4217,9 +4217,9 @@
 - battle: Cedar Creek
   cwsac:
   - id: VA122
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Cedar_Creek
   forces:
     Confederate:
@@ -4263,9 +4263,9 @@
 - battle: Petersburg (Battle of the Crater)
   cwsac:
   - id: VA070
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_the_Crater
   forces:
     Confederate:
@@ -4299,7 +4299,7 @@
 - battle: Deep Bottom Run
   cwsac:
   - id: VA071
-    relation: '='
+    relation: 'eq'
   end_date: 1864-8-20
   forces:
     Confederate:
@@ -4338,9 +4338,9 @@
 - battle: Globe Tavern
   cwsac:
   - id: VA072
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Globe_Tavern
   end_date: 1864-8-21
   forces:
@@ -4397,9 +4397,9 @@
 - battle: Reams Station
   cwsac:
   - id: VA073
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Second_Battle_of_Ream%27s_Station
   forces:
     Confederate:
@@ -4433,9 +4433,9 @@
 - battle: Fort Harrison (Chaffin's Bluff)
   cwsac:
   - id: VA075
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Chaffin%27s_Farm
   end_date: 1864-9-30
   forces:
@@ -4477,9 +4477,9 @@
 - battle: Peebles Farm
   cwsac:
   - id: VA074
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Peebles%27s_Farm
   end_date: 1864-10-1
   forces:
@@ -4535,9 +4535,9 @@
 - battle: Hatcher's Run (first)
   cwsac:
   - id: VA079
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Boydton_Plank_Road
   end_date: 1864-10-28
   forces:
@@ -4572,9 +4572,9 @@
 - battle: Fair Oaks
   cwsac:
   - id: VA080
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Fair_Oaks_%26_Darbytown_Road
   end_date: 1864-10-28
   forces:
@@ -4607,9 +4607,9 @@
 - battle: Sabine Crossroads
   cwsac:
   - id: LA018
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Mansfield
   forces:
     Confederate:
@@ -4644,9 +4644,9 @@
 - battle: Pleasant Hill
   cwsac:
   - id: LA019
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Pleasant_Hill
   forces:
     Confederate:
@@ -4680,9 +4680,9 @@
 - battle: Yellow Bayou
   cwsac:
   - id: LA023
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Yellow_Bayou
   forces:
     Confederate:
@@ -4714,9 +4714,9 @@
 - battle: Jenkins Ferry
   cwsac:
   - id: AR016
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Jenkins%27_Ferry
   forces:
     Confederate:
@@ -4752,9 +4752,9 @@
 - battle: Fort Davidson (Pilot Knob)
   cwsac:
   - id: MO021
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Fort_Davidson
   forces:
     Confederate:
@@ -4788,9 +4788,9 @@
 - battle: Westport
   cwsac:
   - id: MO027
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Westport
   forces:
     Confederate:
@@ -4822,9 +4822,9 @@
 - battle: Mine Creek
   cwsac:
   - id: KS003
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Mine_Creek
   forces:
     Confederate:
@@ -4866,9 +4866,9 @@
 - battle: Fort Pillow
   cwsac:
   - id: TN030
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Fort_Pillow
   forces:
     Confederate:
@@ -4912,9 +4912,9 @@
 - battle: Brice's Crossroads
   cwsac:
   - id: MS014
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Brice%27s_Crossroads
   forces:
     Confederate:
@@ -4952,9 +4952,9 @@
 - battle: Tupelo
   cwsac:
   - id: MS015
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Tupelo
   end_date: 1864-7-15
   forces:
@@ -4997,9 +4997,9 @@
 - battle: Selma
   cwsac:
   - id: AL007
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Selma
   end_date: 1864-4-3
   forces:
@@ -5032,9 +5032,9 @@
 - battle: New Hope Church
   cwsac:
   - id: GA010
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_New_Hope_Church
   forces:
     Confederate:
@@ -5073,9 +5073,9 @@
 - battle: Kennesaw Mountain
   cwsac:
   - id: GA015
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Kennesaw_Mountain
   forces:
     Confederate:
@@ -5107,9 +5107,9 @@
 - battle: Peachtree Creek
   cwsac:
   - id: GA016
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Peachtree_Creek
   forces:
     Confederate:
@@ -5141,9 +5141,9 @@
 - battle: Atlanta
   cwsac:
   - id: GA017
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Atlanta
   forces:
     Confederate:
@@ -5177,9 +5177,9 @@
 - battle: Ezra Church
   cwsac:
   - id: GA018
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Ezra_Church
   forces:
     Confederate:
@@ -5211,9 +5211,9 @@
 - battle: Jonesboro
   cwsac:
   - id: GA022
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Jonesborough
   end_date: 1864-9-1
   forces:
@@ -5246,9 +5246,9 @@
 - battle: Allatoona
   cwsac:
   - id: GA023
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Allatoona
   forces:
     Confederate:
@@ -5284,9 +5284,9 @@
 - battle: Franklin
   cwsac:
   - id: TN036
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Franklin_(1864)
   forces:
     Confederate:
@@ -5322,9 +5322,9 @@
 - battle: Nashville
   cwsac:
   - id: TN038
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Nashville
   end_date: 1864-12-16
   forces:
@@ -5361,9 +5361,9 @@
 - battle: Griswoldville
   cwsac:
   - id: GA025
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Griswoldville
   forces:
     Confederate:
@@ -5405,7 +5405,7 @@
   - id: AL003
     relation: <
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Mobile_Bay
   forces:
     Confederate:
@@ -5483,9 +5483,9 @@
 - battle: Fort Fisher
   cwsac:
   - id: NC015
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Second_Battle_of_Fort_Fisher
   end_date: 1865-1-15
   forces:
@@ -5550,9 +5550,9 @@
 - battle: Hatcher's Run (second)
   cwsac:
   - id: VA083
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Hatcher%27s_Run
   end_date: 1865-2-7
   forces:
@@ -5592,9 +5592,9 @@
 - battle: Fort Stedman
   cwsac:
   - id: VA084
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Fort_Stedman
   forces:
     Confederate:
@@ -5634,9 +5634,9 @@
 - battle: Five Forks
   cwsac:
   - id: VA088
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Five_Forks
   forces:
     Confederate:
@@ -5747,9 +5747,9 @@
 - battle: Sayler's Creek
   cwsac:
   - id: VA093
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Sailor%27s_Creek
   forces:
     Confederate:
@@ -5791,9 +5791,9 @@
 - battle: Kinston
   cwsac:
   - id: NC007
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Kinston
   end_date: 1865-3-10
   forces:
@@ -5827,9 +5827,9 @@
 - battle: Averasboro
   cwsac:
   - id: NC019
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Averasboro
   forces:
     Confederate:
@@ -5864,9 +5864,9 @@
 - battle: Bentonville
   cwsac:
   - id: NC020
-    relation: '='
+    relation: 'eq'
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     url: https://dbpedia.org/resource/Battle_of_Bentonville
   end_date: 1865-3-21
   forces:

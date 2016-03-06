@@ -3,22 +3,27 @@ name: CDB90_to_cwsac
 path: data/CDB90_to_cwsac.csv
 schema:
   fields:
-  - description: CDB90 battle sequence number
+  - description: Identifier of the battle in CDB90 (``CDB90/battles.isqno``).
     format: default
-    name: isqno
-    title: isqno
-    type: integer
-  - format: default
-    name: cwsac_id
-    title: CWSAC Battle Id.
+    name: from
+    title: from
+    type: string
+  - constraints:
+      pattern: '[A-Z]{2}[0-9]{3}[A-Z]?'
+    description: Identifier of the battle in CWSAC. See :doc:`cwsac_battles`.
+    format: default
+    name: to
+    title: to
     type: string
   - constraints:
       enum:
-      - <
-      - '>'
-      - '='
-    description: Relationship of the CDB90 battle to the CWSAC battle. They can be
-      the same, or one can be a subset of the other.
+      - eq
+      - lt
+      - gt
+    description: 'Relationship between the events:
+
+      - "eq": same event - "gt": ``from`` includes ``to`` (``to`` is a part of ``from``).
+      - "lt": ``from`` is included by ``to`` (``from`` is part of ``to``).'
     format: default
     name: relation
     title: relation

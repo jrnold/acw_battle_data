@@ -16,17 +16,17 @@ Schema
 
 
 
-========  =======  ========
-from      integer  from
-to        string   to
-relation  string   relation
-========  =======  ========
+========  ======  ============
+from      string  Belligerent
+to        string  CWSAC Id.
+relation  string  Relationship
+========  ======  ============
 
 from
 ----
 
-:title: from
-:type: integer
+:title: Belligerent
+:type: string
 :format: default
 
 
@@ -37,24 +37,29 @@ from
 to
 --
 
-:title: to
+:title: CWSAC Id.
 :type: string
 :format: default
+:constraints:
+    :pattern: [A-Z]{3}[0-9]{2}[A-Z]?
+    
 
-
-
+CWSAC battle identification code. See :doc:`cwsac_battles`.
 
 
        
 relation
 --------
 
-:title: relation
+:title: Relationship
 :type: string
 :format: default
+:constraints:
+    :enum: ['gt', 'lt', 'eq']
+    
 
-
-
+Relationship between the events:
+- "eq": same event - "gt": ``from`` includes ``to`` (``to`` is a part of ``from``). - "lt": ``from`` is included by ``to`` (``from`` is part of ``to``).
 
 
        

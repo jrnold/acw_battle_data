@@ -3,15 +3,28 @@ name: clodfelter_to_cwsac
 path: data/clodfelter_to_cwsac.csv
 schema:
   fields:
-  - format: default
+  - description: Identifier of the battle in :doc:`clodfelter_battles`.
+    format: default
     name: from
     title: from
     type: string
-  - format: default
+  - constraints:
+      pattern: '[A-Z]{2}[0-9]{3}[A-Z]?'
+    description: Identifier of the battle in CWSAC.
+    format: default
     name: to
     title: to
     type: string
-  - format: default
+  - constraints:
+      enum:
+      - eq
+      - lt
+      - gt
+    description: 'Relationship between the events:
+
+      - "eq": same event - "gt": ``from`` includes ``to`` (``to`` is a part of ``from``).
+      - "lt": ``from`` is included by ``to`` (``from`` is part of ``to``).'
+    format: default
     name: relation
     title: relation
     type: string

@@ -19,21 +19,21 @@ Schema
 
 
 
-========  =======  ========
-from      integer  from
-to        string   to
-relation  string   relation
-========  =======  ========
+========  ======  ========
+from      string  from
+to        string  to
+relation  string  relation
+========  ======  ========
 
 from
 ----
 
 :title: from
-:type: integer
+:type: string
 :format: default
 
 
-
+Identifier of battle in the Phisterer data (:doc:`phisterer_battles`).
 
 
        
@@ -45,7 +45,7 @@ to
 :format: default
 
 
-
+URI of the battle in dbpedia.org.
 
 
        
@@ -55,9 +55,12 @@ relation
 :title: relation
 :type: string
 :format: default
+:constraints:
+    :enum: ['eq', 'lt', 'gt']
+    
 
-
-
+Relationship between the events:
+- "eq": same event - "gt": ``from`` includes ``to`` (``to`` is a part of ``from``). - "lt": ``from`` is included by ``to`` (``from`` is part of ``to``).
 
 
        

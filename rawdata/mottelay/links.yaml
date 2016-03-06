@@ -6,9 +6,9 @@
   event: Engagement
   location: Big Bethel, VA
   'no': '2'
-  links: 
-    - ['http://en.wikipedia.org/wiki/Battle_of_Big_Bethel', '=']
-    - ['VA003', '=']
+  links:
+    - ['http://en.wikipedia.org/wiki/Battle_of_Big_Bethel', 'eq']
+    - ['VA003', 'eq']
 - date: '1861-06-17'
   event: Action
   location: Vienna, VA
@@ -18,13 +18,13 @@
   location: Booneville, MO
   'no': '4'
   links:
-    - ['MO001', '=']
-    - ['http://en.wikipedia.org/wiki/Battle_of_Boonville', '=']
+    - ['MO001', 'eq']
+    - ['http://en.wikipedia.org/wiki/Battle_of_Boonville', 'eq']
 - date: '1861-06-26'
   event: Skirmish
   location: Frankfort, WV
   'no': '5'
-  links: 
+  links:
 - date: '1861-07-05'
   event: Skirmish
   location: Newport News, VA
@@ -42,8 +42,8 @@
   location: Bull Run, VA
   'no': '9'
   links:
-    - ['http://en.wikipedia.org/wiki/First_Battle_of_Bull_Run', '=']
-    - ['VA005', '=']
+    - ['http://en.wikipedia.org/wiki/First_Battle_of_Bull_Run', 'eq']
+    - ['VA005', 'eq']
 - date: '1861-07-25'
   event: Skirmish
   location: Mesilla, NM
@@ -61,8 +61,8 @@
   location: "Wilson's Creek, MO"
   'no': '13'
   links:
-    - ['http://en.wikipedia.org/wiki/Battle_of_Wilson%27s_Creek', '=']
-    - ['MO004', '=']
+    - ['http://en.wikipedia.org/wiki/Battle_of_Wilson%27s_Creek', 'eq']
+    - ['MO004', 'eq']
 - date: '1861-08-19'
   event: Battle
   location: Charleston, MO
@@ -79,7 +79,7 @@
   event: Engagement
   location: Cheat Mountain, WV
   'no': '17'
-  links: 
+  links:
     - ["http://en.wikipedia.org/wiki/Battle_of_Cheat_Mountain", "="]
     - ["WV005", "="]
 - date: '1861-09-17'
@@ -109,7 +109,7 @@
   event: Engagement
   location: Green Brier, WV
   'no': '23'
-  links: 
+  links:
     - ["http://en.wikipedia.org/wiki/Battle_of_Greenbrier_River", "="]
     - ["WV007", "="]
 - date: '1861-10-09'
@@ -169,7 +169,7 @@
   event: Fed. Charge
   location: Springfield, MO
   'no': '35'
-  links: 
+  links:
     - ["http://en.wikipedia.org/wiki/First_Battle_of_Springfield", "="]
     - ["MO008", "="]
 - date: '1861-10-29'
@@ -370,7 +370,7 @@
     - ["VA020B", ">"]
     - ["http://en.wikipedia.org/wiki/Battle_of_Malvern_Hill", ">"]
     - ["VA021", ">"]
-    
+
 - date: '1862-06-27'
   event: Battle
   location: "Gaine's Mill, VA"

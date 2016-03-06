@@ -93,11 +93,11 @@ def build_commanders(data, dst):
             commanders.append({'id': battle['id'], 'belligerent': 'Confederate',
                                'name': cdr['name'], 'url': cdr['url']})
     with open(dst, 'w') as f:
-        print("Writing: %s" % dst)        
+        print("Writing: %s" % dst)
         writer = csv.DictWriter(f, fields, extrasaction = 'raise')
         writer.writeheader()
         writer.writerows(commanders)
-        
+
 
 def build_battles(data, links, dst):
     fields = ('id',
@@ -108,7 +108,7 @@ def build_battles(data, links, dst):
               'alternate_names',
               'location',
               'state',
-              'campaign',              
+              'campaign',
               'result',
               'total_casualties',
               'total_strength',
@@ -144,7 +144,7 @@ def build(src, dst):
     srcfile = path.join(srcdir, 'civilwar.org.json')
     with open(srcfile, 'r') as f:
         data = json.load(f)
-    with open(path.join(srcdir, 'cwsac_links.csv')) as f:
+    with open(path.join(srcdir, 'links.csv')) as f:
         reader = csv.DictReader(f)
         links = {}
         for row in reader:

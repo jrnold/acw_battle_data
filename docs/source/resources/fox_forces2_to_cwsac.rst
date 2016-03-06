@@ -17,17 +17,17 @@ Schema
 
 
 
-===========  ======  ===========
-belligerent  string  Belligerent
+===========  ======  ============
+belligerent  string  belligerent
 battle_name  string  Battle Name
-cwsac_id     string  CWSAC Id.
-relation     string  Relation
-===========  ======  ===========
+to           string  to
+relation     string  Relationship
+===========  ======  ============
 
 belligerent
 -----------
 
-:title: Belligerent
+:title: belligerent
 :type: string
 :format: default
 
@@ -44,35 +44,34 @@ battle_name
 :format: default
 
 
-Battle name in the ``fox_forces2`` data.
+Battle name in :doc:`fox_forces2`.
 
 
        
-cwsac_id
---------
+to
+--
 
-:title: CWSAC Id.
+:title: to
 :type: string
 :format: default
-:constraints:
-    :pattern: [A-Z]{3}[0-9]{2}[A-Z]?
-    
 
-CWSAC battle identification code.
+
+
 
 
        
 relation
 --------
 
-:title: Relation
+:title: Relationship
 :type: string
 :format: default
 :constraints:
-    :enum: ['<', '>', '=']
+    :enum: ['gt', 'lt', 'eq']
     
 
-
+Relationship between the events:
+- "eq": same event - "gt": ``from`` includes ``to`` (``to`` is a part of ``from``). - "lt": ``from`` is included by ``to`` (``from`` is part of ``to``).
 
 
        

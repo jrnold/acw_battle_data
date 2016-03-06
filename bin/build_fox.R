@@ -25,8 +25,8 @@ na_fill <- function(x, fill = 0) {
 
 update_cwsac <- function(x) {
     cwsacids <- str_split(x, "\\s+")[[1]]
-    relations <- if (length(x) > 1) ">" else "="
-    data_frame(cwsac_id = cwsacids, relation = relations)
+    relations <- if (length(x) > 1) "eq" else "lt"
+    data_frame(to = cwsacids, relation = relations)
 }
 
 build <- function(src, dst) {

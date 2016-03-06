@@ -5,6 +5,7 @@ build <- function(src, dst) {
   dst_file <- file.path(dst, "CDB90_to_cwsac.csv")
   read_csv(file.path(src, "rawdata", "cdb90", "CDB90_to_cwsac.csv")) %>%
     select(isqno, cwsac_id, relation) %>%
+    rename(from = isqno, to = cwsac_id) %>%
     write_csv(file = dst_file)
   cat("Writing: ", dst_file, "\n")
 }

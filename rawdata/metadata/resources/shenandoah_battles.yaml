@@ -3,33 +3,38 @@ name: shenandoah_battles
 path: data/shenandoah_battles.csv
 schema:
   fields:
-  - format: default
+  - description: Unique identifier in the Shenandoah data.
+    format: default
     name: battle_number
-    title: battle_number
+    title: Battle Number
     type: integer
   - format: default
     name: battle_name
-    title: battle_name
+    title: Battle Name
     type: string
-  - format: default
+  - constraints:
+      pattern: '[A-Z]{2}[0-9]{3}[A-Z]?'
+    description: Identifier of the battle in CWSAC. See :doc:`cwsac_battles`.
+    format: default
     name: cwsac_id
     title: cwsac_id
     type: string
   - format: default
     name: start_date
-    title: start_date
-    type: string
+    title: Start Date
+    type: date
   - format: default
     name: end_date
-    title: end_date
-    type: string
+    title: End Eate
+    type: date
   - format: default
     name: campaign
-    title: campaign
+    title: Campaign
     type: string
-  - format: default
+  - description: County of the battle
+    format: default
     name: county
-    title: county
+    title: County
     type: string
   - format: default
     name: url

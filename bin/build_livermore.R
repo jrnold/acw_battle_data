@@ -12,19 +12,6 @@ build <- function(src, dst) {
   LIV_BATTLES_FILE <- file.path(src, "rawdata", "livermore1900",
                                 "livermore.csv")
 
-#   livrmore <- read_csv(file.path(src, "dependencies/PAR/data/LIVRMORE.csv"))
-#   for (i in c("str", "kia", "wia", "kw", "miapow")) {
-#     livrmore[[paste0("CS_", i)]] <- ifelse(livrmore[["attacker"]] == "CONFEDERATE",
-#                                            livrmore[[paste0("attacker_", i)]],
-#                                            livrmore[[paste0("defender_", i)]])
-#   }
-#   for (i in c("str", "kia", "wia", "kw", "miapow")) {
-#     livrmore[[paste0("US_", i)]] <- ifelse(livrmore[["attacker"]] == "UNION",
-#                                            livrmore[[paste0("attacker_", i)]],
-#                                            livrmore[[paste0("defender_", i)]])
-#   }
-#   write.csv(livrmore, file = "livrmore2.csv", row.names = FALSE, na = "")
-
   livrmore <- read_csv(LIV_BATTLES_FILE)
 
   liv_battles <-
@@ -51,9 +38,21 @@ build <- function(src, dst) {
     select(seq_no, belligerent, str, kia, wia, kw, miapow) %>%
     mutate(wia = ifelse(is.na(kia) & ! is.na(wia) & ! is.na(kw), NA, wia))
 
+  livermore_to_cwsac <-
+    read_csv(file.path(src, "rawdata", "livermore1900",
+    "livermore_to_cwsac.csv")) %>%
+    select(from, to, relation)
+
+  livermore_to_dbpedia <-
+      read_csv(file.path(src, "rawdata", "livermore1900",
+      "livermore_to_dbpedia.csv")) %>%
+      select(from, to, relation)
+
   write_csv(liv_battles, file = file.path(dst, "livermore_battles.csv"))
   write_csv(liv_forces, file = file.path(dst, "livermore_forces.csv"))
   write_csv(liv_commanders, file = file.path(dst, "livermore_commanders.csv"))
+  write_csv(livermore_to_cwsac, file = file.path(dst, "livermore_to_cwsac.csv"))
+  write_csv(livermore_to_dbpedia, file = file.path(dst, "livermore_to_dbpedia.csv"))
 
   for (filename in COPYFILES) {
     file.copy(file.path(src, "rawdata" , "livermore1900", filename), dst)

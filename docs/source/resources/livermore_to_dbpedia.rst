@@ -16,46 +16,33 @@ Schema
 
 
 
-===========  =======  ===========
-seq_no       integer  seq_no
-battle_name  string   battle_name
-dbpedia      string   dbpedia
-relation     string   relation
-===========  =======  ===========
+========  =======  ========
+from      integer  from
+to        string   to
+relation  string   relation
+========  =======  ========
 
-seq_no
-------
+from
+----
 
-:title: seq_no
+:title: from
 :type: integer
 :format: default
 
 
-
-
-
-       
-battle_name
------------
-
-:title: battle_name
-:type: string
-:format: default
-
-
-
+Battle identifier in :doc:`livermore_battles`.
 
 
        
-dbpedia
--------
+to
+--
 
-:title: dbpedia
+:title: to
 :type: string
 :format: url
 
 
-
+URI in dbpedia.org.
 
 
        
@@ -65,9 +52,12 @@ relation
 :title: relation
 :type: string
 :format: default
+:constraints:
+    :enum: ['eq', 'lt', 'gt']
+    
 
-
-
+Relationship between the events:
+- "eq": same event - "gt": ``from`` includes ``to`` (``to`` is a part of ``from``). - "lt": ``from`` is included by ``to`` (``from`` is part of ``to``).
 
 
        

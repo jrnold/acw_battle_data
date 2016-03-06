@@ -33,7 +33,7 @@ from
 :format: default
 
 
-
+Identifier of the battle in ``bodart1908_battles.battle_id``
 
 
        
@@ -45,7 +45,7 @@ to
 :format: default
 
 
-
+Identifier of the battle in dbpedia.org.
 
 
        
@@ -55,9 +55,12 @@ relation
 :title: relation
 :type: string
 :format: default
+:constraints:
+    :enum: ['eq', 'lt', 'gt']
+    
 
-
-
+Relationship between the events:
+- "eq": same event - "gt": ``from`` includes ``to`` (``to`` is a part of ``from``). - "lt": ``from`` is included by ``to`` (``from`` is part of ``to``).
 
 
        

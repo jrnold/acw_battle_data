@@ -17,32 +17,32 @@ Schema
 
 
 =============  =======  =============
-battle_number  integer  battle_number
-battle_name    string   battle_name
+battle_number  integer  Battle Number
+battle_name    string   Battle Name
 cwsac_id       string   cwsac_id
-start_date     string   start_date
-end_date       string   end_date
-campaign       string   campaign
-county         string   county
+start_date     date     Start Date
+end_date       date     End Eate
+campaign       string   Campaign
+county         string   County
 url            string   url
 =============  =======  =============
 
 battle_number
 -------------
 
-:title: battle_number
+:title: Battle Number
 :type: integer
 :format: default
 
 
-
+Unique identifier in the Shenandoah data.
 
 
        
 battle_name
 -----------
 
-:title: battle_name
+:title: Battle Name
 :type: string
 :format: default
 
@@ -57,17 +57,19 @@ cwsac_id
 :title: cwsac_id
 :type: string
 :format: default
+:constraints:
+    :pattern: [A-Z]{2}[0-9]{3}[A-Z]?
+    
 
-
-
+Identifier of the battle in CWSAC. See :doc:`cwsac_battles`.
 
 
        
 start_date
 ----------
 
-:title: start_date
-:type: string
+:title: Start Date
+:type: date
 :format: default
 
 
@@ -78,8 +80,8 @@ start_date
 end_date
 --------
 
-:title: end_date
-:type: string
+:title: End Eate
+:type: date
 :format: default
 
 
@@ -90,7 +92,7 @@ end_date
 campaign
 --------
 
-:title: campaign
+:title: Campaign
 :type: string
 :format: default
 
@@ -102,12 +104,12 @@ campaign
 county
 ------
 
-:title: county
+:title: County
 :type: string
 :format: default
 
 
-
+County of the battle
 
 
        

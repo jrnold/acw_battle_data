@@ -2,10 +2,10 @@
   - Schlacht
   category_size: 4
   cwsac:
-  - relation: '='
+  - relation: 'eq'
     uri: VA005
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     uri: http://dbpedia.org/resource/First_Battle_of_Bull_Run
   description: "Sieg der Confederacyn (S\xFCdstaaten) 32.000 M., 44 Gesch., unter\
     \ Gen. Beauregard \xFCber die Unierten (Nordstaaten) 35.000 M., 49 Gesch., unter\
@@ -90,10 +90,10 @@
   - Treffen
   category_size: 5
   cwsac:
-  - relation: '='
+  - relation: 'eq'
     uri: VA022
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     uri: http://dbpedia.org/resource/Battle_of_Cedar_Mountain
   description: "Sieg der Konf\xF6derierte (20.000 M.) unter Gen.-Lt. T. J. Jackson\
     \ \xFCber die Unierte\n(18.000 M.) unter GM. Banks.\n"
@@ -166,10 +166,10 @@
   - Schlacht
   category_size: 2
   cwsac:
-  - relation: '='
+  - relation: 'eq'
     uri: VA026
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     uri: http://dbpedia.org/resource/Second_Battle_of_Bull_Run
   description: null
   end_date: 1862-08-30
@@ -278,10 +278,10 @@
   - Treffen
   category_size: 4
   cwsac:
-  - relation: '='
+  - relation: 'eq'
     uri: KY007
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     uri: http://dbpedia.org/resource/Battle_of_Richmond
   description: null
   end_date: &id003 1862-08-30
@@ -336,10 +336,10 @@
   - Treffen
   category_size: 5
   cwsac:
-  - relation: '='
+  - relation: 'eq'
     uri: MD002
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     uri: http://dbpedia.org/resource/Battle_of_South_Mountain
   description: null
   end_date: &id004 1862-09-14
@@ -417,10 +417,10 @@
   - Kapitulation
   category_size: null
   cwsac:
-  - relation: '='
+  - relation: 'eq'
     uri: WV010
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     uri: http://dbpedia.org/resource/Battle_of_Harpers_Ferry
   description: "Die Konf\xF6derierte (30.000 M.) unter Gen.-Lt. T. J. Jackson zwingen\
     \ nach zweit\xE4giger\nBeschie\xDFung die unionistische Beasatzung (14.000 M.,\
@@ -472,10 +472,10 @@
   - Schlacht
   category_size: 2
   cwsac:
-  - relation: '='
+  - relation: 'eq'
     uri: MD003
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     uri: http://dbpedia.org/resource/Battle_of_Antietam
   description: null
   end_date: &id006 1862-09-17
@@ -600,10 +600,10 @@
   - Schlacht
   category_size: 4
   cwsac:
-  - relation: '='
+  - relation: 'eq'
     uri: MS002
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     uri: http://dbpedia.org/resource/Second_Battle_of_Corinth
   description: null
   end_date: 1862-10-04
@@ -674,10 +674,10 @@
   - Schlacht
   category_size: 4
   cwsac:
-  - relation: '='
+  - relation: 'eq'
     uri: KY009
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     uri: http://dbpedia.org/resource/Battle_of_Perryville
   description: null
   end_date: &id007 1862-10-08
@@ -757,10 +757,10 @@
   - Treffen
   category_size: 6
   cwsac:
-  - relation: '='
+  - relation: 'eq'
     uri: AR005
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     uri: http://dbpedia.org/resource/Battle_of_Prairie_Grove
   description: null
   end_date: &id008 1862-12-07
@@ -805,10 +805,10 @@
   - Schlacht
   category_size: 3
   cwsac:
-  - relation: '='
+  - relation: 'eq'
     uri: VA028
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     uri: http://dbpedia.org/resource/Battle_of_Fredericksburg
   description: null
   end_date: 1862-12-15
@@ -919,10 +919,10 @@
   - Treffen
   category_size: 6
   cwsac:
-  - relation: '='
+  - relation: 'eq'
     uri: MO004
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     uri: http://dbpedia.org/resource/Battle_of_Wilson's_Creek
   description: "Sieg der Konf\xF6derierten (ca. 10.000 M.) unter GM. Price \xFCber\
     \ die Unierten (ca. 6.000 M.) unter GM. Lyon \u2020."
@@ -979,10 +979,10 @@
   - Schlacht
   category_size: 2
   cwsac:
-  - relation: '='
+  - relation: 'eq'
     uri: TN010
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     uri: http://dbpedia.org/resource/Battle_of_Stones_River
   description: null
   end_date: 1863-01-03
@@ -1099,10 +1099,10 @@
   - Treffen
   category_size: 6
   cwsac:
-  - relation: '='
+  - relation: 'eq'
     uri: MS003
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     uri: http://dbpedia.org/resource/Battle_of_Chickasaw_Bayou
   description: null
   end_date: &id010 1863-01-03
@@ -1146,10 +1146,10 @@
   - Kapitulation
   category_size: 4
   cwsac:
-  - relation: '='
+  - relation: 'eq'
     uri: AR006
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     uri: http://dbpedia.org/resource/Battle_of_Fort_Hindman
   description: null
   end_date: &id011 1863-01-11
@@ -1196,10 +1196,10 @@
   - Schlacht
   category_size: 1
   cwsac:
-  - relation: '='
+  - relation: 'eq'
     uri: VA032
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     uri: http://dbpedia.org/resource/Battle_of_Chancellorsville
   description: null
   end_date: 1863-05-05
@@ -1312,10 +1312,10 @@
   - Schlacht
   category_size: 4
   cwsac:
-  - relation: '='
+  - relation: 'eq'
     uri: MS009
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     uri: http://dbpedia.org/resource/Battle_of_Champion_Hill
   description: null
   end_date: &id012 1863-05-16
@@ -1382,10 +1382,10 @@
   - Treffen
   category_size: 4
   cwsac:
-  - relation: '='
+  - relation: 'eq'
     uri: VA107
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     uri: http://dbpedia.org/resource/Second_Battle_of_Winchester
   description: null
   end_date: &id013 1863-06-15
@@ -1438,10 +1438,10 @@
   - Schlacht
   category_size: 1
   cwsac:
-  - relation: '='
+  - relation: 'eq'
     uri: PA002
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     uri: http://dbpedia.org/resource/Battle_of_Gettysburg
   description: null
   end_date: 1863-07-03
@@ -1596,10 +1596,10 @@
   - Einnahme
   category_size: null
   cwsac:
-  - relation: '='
+  - relation: 'eq'
     uri: MS011
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     uri: http://dbpedia.org/resource/Siege_of_Vicksburg
   description: Der Garnison, welche mit allen Ehren ausziehen durfte, wurde gegen
     das Versprechen, nicht weiter gegen die Unionsstaaten zu dienen, freier Abzug
@@ -1661,10 +1661,10 @@
   - Schlacht
   category_size: 1
   cwsac:
-  - relation: '='
+  - relation: 'eq'
     uri: GA004
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     uri: http://dbpedia.org/resource/Battle_of_Chickamauga
   description: null
   end_date: 1863-09-20
@@ -1774,12 +1774,12 @@
   - Schlacht
   category_size: 3
   cwsac:
-  - relation: '='
+  - relation: 'eq'
     uri: TN024
   dbpedia:
-  - relation: '>'
+  - relation: 'gt'
     uri: http://dbpedia.org/resource/Battle_of_Lookout_Mountain
-  - relation: '>'
+  - relation: 'gt'
     uri: http://dbpedia.org/resource/Battle_of_Missionary_Ridge
   description: null
   end_date: 1863-11-25
@@ -1851,10 +1851,10 @@
   - Kapitulation
   category_size: null
   cwsac:
-  - relation: '='
+  - relation: 'eq'
     uri: MO006
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     uri: http://dbpedia.org/resource/First_Battle_of_Lexington
   description: "Die Konf\xF6derierten (10.000 M., 16 Gesch.) unter GM. Price zwingen\
     \ die unionistiche Garnisson (3.000 M, 9. Gesch.) unter Oberst Mulligan zur \xDC\
@@ -1897,10 +1897,10 @@
   - Schlacht
   category_size: 2
   cwsac:
-  - relation: '='
+  - relation: 'eq'
     uri: VA046
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     uri: http://dbpedia.org/resource/Battle_of_the_Wilderness
   description: null
   end_date: 1864-05-07
@@ -2012,10 +2012,10 @@
   - Schlacht
   category_size: 2
   cwsac:
-  - relation: '='
+  - relation: 'eq'
     uri: VA048
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     uri: http://dbpedia.org/resource/Battle_of_Spotsylvania_Court_House
   description: null
   end_date: 1864-05-12
@@ -2145,10 +2145,10 @@
   - Schlacht
   category_size: 4
   cwsac:
-  - relation: '='
+  - relation: 'eq'
     uri: GA008
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     uri: http://dbpedia.org/resource/Battle_of_Resaca
   description: null
   end_date: &id015 1864-05-14
@@ -2193,10 +2193,10 @@
   - Treffen
   category_size: 4
   cwsac:
-  - relation: '='
+  - relation: 'eq'
     uri: VA053
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     uri: http://dbpedia.org/resource/Battle_of_Proctor's_Creek
   description: null
   end_date: &id016 1864-05-16
@@ -2244,10 +2244,10 @@
   - Treffen
   category_size: 4
   cwsac:
-  - relation: '='
+  - relation: 'eq'
     uri: VA055
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     uri: http://dbpedia.org/resource/Battle_of_North_Anna
   description: null
   end_date: 1864-05-26
@@ -2289,10 +2289,10 @@
   - Treffen
   category_size: 4
   cwsac:
-  - relation: '='
+  - relation: 'eq'
     uri: GA011
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     uri: http://dbpedia.org/resource/Battle_of_Dallas
   description: null
   end_date: &id017 1864-05-28
@@ -2332,10 +2332,10 @@
   - Schlacht
   category_size: 3
   cwsac:
-  - relation: '='
+  - relation: 'eq'
     uri: VA062
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     uri: http://dbpedia.org/resource/Battle_of_Cold_Harbor
   description: null
   end_date: &id018 1864-06-03
@@ -2400,10 +2400,10 @@
   - Treffen
   category_size: 5
   cwsac:
-  - relation: '='
+  - relation: 'eq'
     uri: GA015
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     uri: http://dbpedia.org/resource/Battle_of_Kennesaw_Mountain
   description: null
   end_date: &id019 1864-06-27
@@ -2444,10 +2444,10 @@
   - Schlacht
   category_size: 4
   cwsac:
-  - relation: '='
+  - relation: 'eq'
     uri: GA016
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     uri: http://dbpedia.org/resource/Battle_of_Peachtree_Creek
   description: null
   end_date: &id020 1864-07-20
@@ -2488,10 +2488,10 @@
   - Schlacht
   category_size: 3
   cwsac:
-  - relation: '='
+  - relation: 'eq'
     uri: GA017
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     uri: http://dbpedia.org/resource/Battle_of_Atlanta
   description: null
   end_date: &id021 1864-07-22
@@ -2556,10 +2556,10 @@
   - Kapitulation
   category_size: 3
   cwsac:
-  - relation: '='
+  - relation: 'eq'
     uri: TN002
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     uri: http://dbpedia.org/resource/Battle_of_Fort_Donelson
   description: null
   end_date: 1862-02-15
@@ -2613,10 +2613,10 @@
   - Schlacht
   category_size: 4
   cwsac:
-  - relation: '='
+  - relation: 'eq'
     uri: GA018
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     uri: http://dbpedia.org/resource/Battle_of_Ezra_Church
   description: null
   end_date: &id022 1864-07-28
@@ -2658,10 +2658,10 @@
   - Schlacht
   category_size: 4
   cwsac:
-  - relation: '='
+  - relation: 'eq'
     uri: VA119
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     uri: http://dbpedia.org/resource/Battle_of_Opequon
   description: null
   end_date: &id023 1864-09-19
@@ -2741,10 +2741,10 @@
   - Schlacht
   category_size: 4
   cwsac:
-  - relation: '='
+  - relation: 'eq'
     uri: VA122
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     uri: http://dbpedia.org/resource/Battle_of_Cedar_Creek
   description: null
   end_date: &id024 1864-10-19
@@ -2819,10 +2819,10 @@
   - Schlacht
   category_size: 4
   cwsac:
-  - relation: '='
+  - relation: 'eq'
     uri: TN036
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     uri: http://dbpedia.org/resource/Battle_of_Franklin_(1864)
   description: null
   end_date: &id025 1864-11-30
@@ -2924,10 +2924,10 @@
   - Schlacht
   category_size: 3
   cwsac:
-  - relation: '='
+  - relation: 'eq'
     uri: TN038
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     uri: http://dbpedia.org/resource/Battle_of_Nashville
   description: null
   end_date: 1864-12-16
@@ -2981,22 +2981,22 @@
   - Belagerung
   category_size: null
   cwsac:
-  - relation: '>'
+  - relation: 'gt'
     uri: SC008
-  - relation: '>'
+  - relation: 'gt'
     uri: SC009
-  - relation: '>'
+  - relation: 'gt'
     uri: SC006
-  - relation: '>'
+  - relation: 'gt'
     uri: SC004
   dbpedia:
-  - relation: '>'
+  - relation: 'gt'
     uri: http://dbpedia.org/resource/Second_Battle_of_Fort_Sumter
-  - relation: '>'
+  - relation: 'gt'
     uri: http://dbpedia.org/resource/Second_Battle_of_Charleston_Harbor
-  - relation: '>'
+  - relation: 'gt'
     uri: http://dbpedia.org/resource/Battle_of_Grimball's_Landing
-  - relation: '>'
+  - relation: 'gt'
     uri: http://dbpedia.org/resource/First_Battle_of_Charleston_Harbor
   description: "Die Konf\xF6derierte unter Gen. Beauregard behaupten sich erfolgreich\
     \ gegen alle\nAngriffe der Unierten zu Lande und zur See unter Generalen Hunter\
@@ -3057,10 +3057,10 @@
   - Schlacht
   category_size: 4
   cwsac:
-  - relation: '='
+  - relation: 'eq'
     uri: NC020
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     uri: http://dbpedia.org/resource/Battle_of_Bentonville
   description: null
   end_date: &id026 1865-03-20
@@ -3116,106 +3116,106 @@
   - Einnahme
   category_size: null
   cwsac:
-  - relation: '>'
+  - relation: 'gt'
     uri: VA098
-  - relation: '>'
+  - relation: 'gt'
     uri: VA063
-  - relation: '>'
+  - relation: 'gt'
     uri: VA065
-  - relation: '>'
+  - relation: 'gt'
     uri: VA113
-  - relation: '>'
+  - relation: 'gt'
     uri: VA067
-  - relation: '>'
+  - relation: 'gt'
     uri: VA068
-  - relation: '>'
+  - relation: 'gt'
     uri: VA069
-  - relation: '>'
+  - relation: 'gt'
     uri: VA070
-  - relation: '>'
+  - relation: 'gt'
     uri: VA071
-  - relation: '>'
+  - relation: 'gt'
     uri: VA072
-  - relation: '>'
+  - relation: 'gt'
     uri: VA073
-  - relation: '>'
+  - relation: 'gt'
     uri: VA075
-  - relation: '>'
+  - relation: 'gt'
     uri: VA074
-  - relation: '>'
+  - relation: 'gt'
     uri: VA078
-  - relation: '>'
+  - relation: 'gt'
     uri: VA080
-  - relation: '>'
+  - relation: 'gt'
     uri: VA079
-  - relation: '>'
+  - relation: 'gt'
     uri: VA085
-  - relation: '>'
+  - relation: 'gt'
     uri: VA087
-  - relation: '>'
+  - relation: 'gt'
     uri: VA086
-  - relation: '>'
+  - relation: 'gt'
     uri: VA090
-  - relation: '>'
+  - relation: 'gt'
     uri: VA083
-  - relation: '>'
+  - relation: 'gt'
     uri: VA084
-  - relation: '>'
+  - relation: 'gt'
     uri: VA088
-  - relation: '>'
+  - relation: 'gt'
     uri: VA089
   dbpedia:
-  - relation: '>'
+  - relation: 'gt'
     uri: http://dbpedia.org/resource/First_Battle_of_Petersburg
-  - relation: '>'
+  - relation: 'gt'
     uri: http://dbpedia.org/resource/Second_Battle_of_Petersburg
-  - relation: '>'
+  - relation: 'gt'
     uri: http://dbpedia.org/resource/Battle_of_Jerusalem_Plank_Road
-  - relation: '>'
+  - relation: 'gt'
     uri: http://dbpedia.org/resource/Battle_of_Staunton_River_Bridge
-  - relation: '>'
+  - relation: 'gt'
     uri: http://dbpedia.org/resource/Battle_of_Sappony_Church
-  - relation: '>'
+  - relation: 'gt'
     uri: http://dbpedia.org/resource/First_Battle_of_Ream's_Station
-  - relation: '>'
+  - relation: 'gt'
     uri: http://dbpedia.org/resource/First_Battle_of_Deep_Bottom
-  - relation: '>'
+  - relation: 'gt'
     uri: http://dbpedia.org/resource/Battle_of_the_Crater
-  - relation: '>'
+  - relation: 'gt'
     uri: http://dbpedia.org/resource/Second_Battle_of_Deep_Bottom
-  - relation: '>'
+  - relation: 'gt'
     uri: http://dbpedia.org/resource/Battle_of_Globe_Tavern
-  - relation: '>'
+  - relation: 'gt'
     uri: http://dbpedia.org/resource/Second_Battle_of_Ream's_Station
-  - relation: '>'
+  - relation: 'gt'
     uri: http://dbpedia.org/resource/Beefsteak_Raid
-  - relation: '>'
+  - relation: 'gt'
     uri: http://dbpedia.org/resource/Battle_of_Chaffin's_Farm
-  - relation: '>'
+  - relation: 'gt'
     uri: http://dbpedia.org/resource/Battle_of_Peebles'_Farm
-  - relation: '>'
+  - relation: 'gt'
     uri: http://dbpedia.org/resource/Battle_of_Darbytown_and_New_Market_Roads
-  - relation: '>'
+  - relation: 'gt'
     uri: http://dbpedia.org/resource/Battle_of_Darbytown_Road
-  - relation: '>'
+  - relation: 'gt'
     uri: http://dbpedia.org/resource/Battle_of_Fair_Oaks_&_Darbytown_Road
-  - relation: '>'
+  - relation: 'gt'
     uri: http://dbpedia.org/resource/Battle_of_Boydton_Plank_Road
-  - relation: '>'
+  - relation: 'gt'
     uri: http://dbpedia.org/resource/Battle_of_Lewis's_Farm
-  - relation: '>'
+  - relation: 'gt'
     uri: http://dbpedia.org/resource/Battle_of_White_Oak_Road
-  - relation: '>'
+  - relation: 'gt'
     uri: http://dbpedia.org/resource/Battle_of_Dinwiddie_Court_House
-  - relation: '>'
+  - relation: 'gt'
     uri: http://dbpedia.org/resource/Battle_of_Sutherland's_Station
-  - relation: '>'
+  - relation: 'gt'
     uri: http://dbpedia.org/resource/Battle_of_Hatcher's_Run
-  - relation: '>'
+  - relation: 'gt'
     uri: http://dbpedia.org/resource/Battle_of_Fort_Stedman
-  - relation: '>'
+  - relation: 'gt'
     uri: http://dbpedia.org/resource/Battle_of_Five_Forks
-  - relation: '>'
+  - relation: 'gt'
     uri: http://dbpedia.org/resource/Third_Battle_of_Petersburg
   description: "Die Unierten (91.000 Inft., 19.000 Kav., 10.000 Art., zus. 120.000\
     \ M.\\1) unter\nGen.-Lt. U. S. Grant zwingen nach 10 monatlicher Belagerung der\
@@ -3310,10 +3310,10 @@
   - Einnahme
   category_size: null
   cwsac:
-  - relation: '='
+  - relation: 'eq'
     uri: AL006
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     uri: http://dbpedia.org/resource/Battle_of_Fort_Blakely
   description: "Die Uinionstroppen (45.000 M.) unter GM. Cranby nehmen, von der Seesiete\
     \ aus\nauf das Wirksamste unterst\xFCtzt von der Unionsflotte unter Admiral Farragut,\
@@ -3355,10 +3355,10 @@
   - Kapitulation
   category_size: null
   cwsac:
-  - relation: '='
+  - relation: 'eq'
     uri: VA097
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     uri: http://dbpedia.org/resource/Battle_of_Appomattox_Court_House
   description: "Die Unionsarmee (ca. 100.000 M.) unter Gen.-Lt. U. S. Grant zwingt\
     \ die virginische\nHauptarmee der Kon\xF6derierten (28.000 M., 63 Gesch.) unter\
@@ -3402,10 +3402,10 @@
   - Treffen
   category_size: 3
   cwsac:
-  - relation: '='
+  - relation: 'eq'
     uri: AR001
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     uri: http://dbpedia.org/resource/Battle_of_Pea_Ridge
   description: null
   end_date: 1862-03-08
@@ -3522,10 +3522,10 @@
   - Schlacht
   category_size: 2
   cwsac:
-  - relation: '='
+  - relation: 'eq'
     uri: TN003
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     uri: http://dbpedia.org/resource/Battle_of_Shiloh
   description: null
   end_date: 1862-04-07
@@ -3629,10 +3629,10 @@
   - Schlacht
   category_size: 5
   cwsac:
-  - relation: '='
+  - relation: 'eq'
     uri: VA010
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     uri: http://dbpedia.org/resource/Battle_of_Williamsburg
   description: null
   end_date: &id029 1862-05-05
@@ -3696,10 +3696,10 @@
   - Schlacht
   category_size: 3
   cwsac:
-  - relation: '='
+  - relation: 'eq'
     uri: VA014
   dbpedia:
-  - relation: '='
+  - relation: 'eq'
     uri: http://dbpedia.org/resource/Battle_of_Seven_Pines
   description: null
   end_date: 1862-06-01
@@ -3790,38 +3790,38 @@
   - Schlacht
   category_size: 1
   cwsac:
-  - relation: '>'
+  - relation: 'gt'
     uri: VA020B
-  - relation: '>'
+  - relation: 'gt'
     uri: VA016
-  - relation: '>'
+  - relation: 'gt'
     uri: VA017
-  - relation: '>'
+  - relation: 'gt'
     uri: VA018
-  - relation: '>'
+  - relation: 'gt'
     uri: VA020A
-  - relation: '>'
+  - relation: 'gt'
     uri: VA021
-  - relation: '>'
+  - relation: 'gt'
     uri: VA015
-  - relation: '>'
+  - relation: 'gt'
     uri: VA019
   dbpedia:
-  - relation: '>'
+  - relation: 'gt'
     uri: http://dbpedia.org/resource/Battle_of_Glendale
-  - relation: '>'
+  - relation: 'gt'
     uri: http://dbpedia.org/resource/Battle_of_Beaver_Dam_Creek
-  - relation: '>'
+  - relation: 'gt'
     uri: http://dbpedia.org/resource/Battle_of_Gaines's_Mill
-  - relation: '>'
+  - relation: 'gt'
     uri: http://dbpedia.org/resource/Battle_of_Garnett's_&_Golding's_Farm
-  - relation: '>'
+  - relation: 'gt'
     uri: http://dbpedia.org/resource/Battle_of_White_Oak_Swamp
-  - relation: '>'
+  - relation: 'gt'
     uri: http://dbpedia.org/resource/Battle_of_Malvern_Hill
-  - relation: '>'
+  - relation: 'gt'
     uri: http://dbpedia.org/resource/Battle_of_Oak_Grove
-  - relation: '>'
+  - relation: 'gt'
     uri: http://dbpedia.org/resource/Battle_of_Savage's_Station
   description: null
   end_date: 1862-07-01

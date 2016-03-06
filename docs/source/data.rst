@@ -101,5 +101,5 @@ Resource                                                                        
 `unit_sizes.csv <resources/unit_sizes.html>`__                                        Distributions of personnel in units
 `wikipedia_battles.csv <resources/wikipedia_battles.html>`__                          wikipedia_battles
 `wikipedia_forces.csv <resources/wikipedia_forces.html>`__                            wikipedia_forces
-`wikipedia_to_cwsac.csv <resources/wikipedia_to_cwsac.html>`__                        wikipedia_to_cwsac
+`wikipedia_to_cwsac.csv <resources/wikipedia_to_cwsac.html>`__                        Correspondence between Wikipedia articles and CWSAC battles.
 ====================================================================================  ===================================================================================================================

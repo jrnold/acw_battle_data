@@ -16,33 +16,35 @@ Schema
 
 
 
-========  =======  ================
-isqno     integer  isqno
-cwsac_id  string   CWSAC Battle Id.
-relation  string   relation
-========  =======  ================
+========  ======  ========
+from      string  from
+to        string  to
+relation  string  relation
+========  ======  ========
 
-isqno
------
+from
+----
 
-:title: isqno
-:type: integer
-:format: default
-
-
-CDB90 battle sequence number
-
-
-       
-cwsac_id
---------
-
-:title: CWSAC Battle Id.
+:title: from
 :type: string
 :format: default
 
 
+Identifier of the battle in CDB90 (``CDB90/battles.isqno``).
 
+
+       
+to
+--
+
+:title: to
+:type: string
+:format: default
+:constraints:
+    :pattern: [A-Z]{2}[0-9]{3}[A-Z]?
+    
+
+Identifier of the battle in CWSAC. See :doc:`cwsac_battles`.
 
 
        
@@ -53,10 +55,11 @@ relation
 :type: string
 :format: default
 :constraints:
-    :enum: ['<', '>', '=']
+    :enum: ['eq', 'lt', 'gt']
     
 
-Relationship of the CDB90 battle to the CWSAC battle. They can be the same, or one can be a subset of the other.
+Relationship between the events:
+- "eq": same event - "gt": ``from`` includes ``to`` (``to`` is a part of ``from``). - "lt": ``from`` is included by ``to`` (``from`` is part of ``to``).
 
 
        
