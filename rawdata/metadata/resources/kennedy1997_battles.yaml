@@ -67,6 +67,13 @@ schema:
     name: missing
     title: missing
     type: number
+  - description: CWSAC battle identifiers of the battles. These are almost the same
+      as the Kennedy identifiers with a few exceptions. All battles are one-to-one
+      mappings onto the CWSAC battles.
+    format: default
+    name: cwsac_id
+    title: CWSAC Id
+    type: string
 sources:
 - KennedyConservation1998
 title: 'Civil War Battlefield Guide data: battles'

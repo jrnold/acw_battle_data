@@ -6962,19 +6962,8 @@ VA030:
   description: Suffolk I, Virginia (VA030) , Suffolk, April 13-15, 1863
   end_date: '1863-04-15'
   filename: cw_005303_suffolkivirg.htm
-  forces:
-    Confederate:
-      casualties_max: null
-      casualties_min: null
-      killed_wounded_max: null
-      killed_wounded_min: null
-      missing: null
-    US:
-      casualties_max: null
-      casualties_min: null
-      killed_wounded_max: null
-      killed_wounded_min: null
-      missing: null
+  forces: null
+  note: 'Casualties are included in VA031'
   name: Suffolk I
   start_date: '1863-04-13'
   state: ''
@@ -7044,19 +7033,8 @@ VA033:
   description: Salem Church, Virginia (VA033) , Spotsylvania County, May 3-4, 1863
   end_date: '1863-05-04'
   filename: cw_005503_salemchurchv.htm
-  forces:
-    Confederate:
-      casualties_max: null
-      casualties_min: null
-      killed_wounded_max: null
-      killed_wounded_min: null
-      missing: null
-    US:
-      casualties_max: null
-      casualties_min: null
-      killed_wounded_max: null
-      killed_wounded_min: null
-      missing: null
+  forces: null
+  note: 'Casualties are included in VA032'
   name: Salem Church
   start_date: '1863-05-03'
   state: ''
@@ -7066,19 +7044,8 @@ VA034:
   description: Fredericksburg II, Virginia (VA034) , Fredericksburg, May 3, 1863
   end_date: '1863-05-03'
   filename: cw_005502_fredericksbu.htm
-  forces:
-    Confederate:
-      casualties_max: null
-      casualties_min: null
-      killed_wounded_max: null
-      killed_wounded_min: null
-      missing: null
-    US:
-      casualties_max: null
-      casualties_min: null
-      killed_wounded_max: null
-      killed_wounded_min: null
-      missing: null
+  forces: null
+  note: 'Casualties are included in VA032'
   name: Fredericksburg II
   start_date: '1863-05-03'
   state: ''
@@ -7113,19 +7080,8 @@ VA036:
   description: Aldie, Virginia (VA036) , Loudoun County, June 17, 1863
   end_date: '1863-06-17'
   filename: cw_005703_aldievirgini.htm
-  forces:
-    Confederate:
-      casualties_max: null
-      casualties_min: null
-      killed_wounded_max: null
-      killed_wounded_min: null
-      missing: null
-    US:
-      casualties_max: null
-      casualties_min: null
-      killed_wounded_max: null
-      killed_wounded_min: null
-      missing: null
+  note: 'Casualties are included in VA038'
+  forces: null
   name: Aldie
   start_date: '1863-06-17'
   state: ''
@@ -7136,19 +7092,8 @@ VA037:
     17-19, 1863
   end_date: '1863-06-19'
   filename: cw_005704_middleburgvi.htm
-  forces:
-    Confederate:
-      casualties_max: null
-      casualties_min: null
-      killed_wounded_max: null
-      killed_wounded_min: null
-      missing: null
-    US:
-      casualties_max: null
-      casualties_min: null
-      killed_wounded_max: null
-      killed_wounded_min: null
-      missing: null
+  note: 'Casualties are included in VA038'
+  forces: null
   name: Middleburg
   start_date: '1863-06-17'
   state: ''
@@ -8973,6 +8918,7 @@ VA112:
     County, June 24, 1864
   end_date: '1864-06-24'
   filename: cw_008711_samariachurc.htm
+  cwsac: VA066
   forces:
     Confederate:
       casualties_max: 250

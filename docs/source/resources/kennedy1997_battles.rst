@@ -53,6 +53,7 @@ casualties_min   integer  Casualties (min)
 casualties_max   integer  Casualties (max)
 casualties_text  string   Casualties
 missing          number   missing
+cwsac_id         string   CWSAC Id
 ===============  =======  ================
 
 battle
@@ -186,6 +187,18 @@ missing
 
 
 
+
+
+       
+cwsac_id
+--------
+
+:title: CWSAC Id
+:type: string
+:format: default
+
+
+CWSAC battle identifiers of the battles. These are almost the same as the Kennedy identifiers with a few exceptions. All battles are one-to-one mappings onto the CWSAC battles.
 
 
        

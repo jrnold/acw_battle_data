@@ -28,6 +28,8 @@ casualties_max      integer  Casualties (max)
 killed_wounded_min  integer  Killed or Wounded (min)
 killed_wounded_max  integer  Killed or Wounded (max)
 missing             integer  Missing or captured
+aggregate           boolean  Is aggregate?
+cwsac_id            string   CWSAC Id
 ==================  =======  =======================
 
 battle
@@ -42,7 +44,7 @@ battle
     :pattern: [A-Z]{2}[0-9]{3}[A-Z]?
     
 
-CWSAC battle identifier
+Battle identifier These are almost the same as the Kennedy identifiers with a few exceptions. See the field ``cwsac_id`` for the CWSAC identifier.
 
 
        
@@ -128,6 +130,30 @@ missing
     
 
 
+
+
+       
+aggregate
+---------
+
+:title: Is aggregate?
+:type: boolean
+:format: default
+
+
+True if the casualties data for the battle aggregates the casualties for several battles.
+
+
+       
+cwsac_id
+--------
+
+:title: CWSAC Id
+:type: string
+:format: default
+
+
+CWSAC battle identifiers of the battles. In a few battles the casualties include several battles. In these cases the CWSAC battle identifiers are space separated.
 
 
        

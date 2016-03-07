@@ -34,6 +34,7 @@ schema:
     type: string
   - constraints:
       pattern: '[A-Z]{2}[0-9]{3}[A-Z]?'
+    description: Battle identifier in CWSAC (:doc:`cwsac_battles`).
     format: default
     name: cwsac_id
     sources:

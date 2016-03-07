@@ -26,16 +26,30 @@ def forces_csv(src, dst):
                   'casualties_max',
                   'killed_wounded_min',
                   'killed_wounded_max',
-                  'missing')
+                  'missing',
+                  'aggregate',
+                  'cwsac_id')
     with open(dst, 'w') as f:
         writer = csv.DictWriter(f, fieldnames)
         writer.writeheader()
         for battle, v in sorted(data.items()):
-            for belligerent in v['forces']:
-                row = v['forces'][belligerent]
-                row['belligerent'] = belligerent
-                row['battle'] = battle
-                writer.writerow(row)
+            if v['forces']:
+                try:
+                    cwsac = ' '.join(v['casualties_battles'])
+                    aggregate = True
+                except KeyError:
+                    aggregate = False
+                    try:
+                        cwsac = v['cwsac']
+                    except KeyError:
+                        cwsac = battle
+                for belligerent in v['forces']:
+                    row = v['forces'][belligerent]
+                    row['belligerent'] = belligerent
+                    row['battle'] = battle
+                    row['cwsac_id'] = cwsac
+                    row['aggregate'] = aggregate
+                    writer.writerow(row)
 
 def battles_csv(src, dst):
     with open(src, 'r') as f:
@@ -49,24 +63,30 @@ def battles_csv(src, dst):
                   'casualties_min',
                   'casualties_max',
                   'casualties_text',
-                  'missing')
+                  'missing',
+                  'cwsac_id')
     with open(dst, 'w') as f:
         writer = csv.DictWriter(f, fieldnames)
         writer.writeheader()
         for battle, v in sorted(data.items()):
             row = v
             row['battle'] = battle
+            if 'cwsac' not in row:
+                row['cwsac_id'] = battle
+            else:
+                row['cwsac_id'] = row['cwsac']
+                del row['cwsac']
             row = dict_subset(row, fieldnames)
             writer.writerow(row)
-            
+
 def build(src, dst):
     filename = os.path.join(src, "rawdata", "kennedy1997", "kennedy1997.yaml")
     battles_csv(filename, os.path.join(dst, "kennedy1997_battles.csv"))
     forces_csv(filename, os.path.join(dst, "kennedy1997_forces.csv"))
-    
+
 def main():
     src, dst = sys.argv[1:3]
     build(src, dst)
-    
+
 if __name__ == "__main__":
     main()

@@ -140,7 +140,7 @@ cwsac_id
     :pattern: [A-Z]{2}[0-9]{3}[A-Z]?
     
 
-
+Battle identifier in CWSAC (:doc:`cwsac_battles`).
 
 Sources: [fox1898regimental]_
 

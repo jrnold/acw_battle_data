@@ -7,7 +7,8 @@ schema:
       maxLength: 6
       minLength: 5
       pattern: '[A-Z]{2}[0-9]{3}[A-Z]?'
-    description: CWSAC battle identifier
+    description: Battle identifier These are almost the same as the Kennedy identifiers
+      with a few exceptions. See the field ``cwsac_id`` for the CWSAC identifier.
     format: default
     name: battle
     title: Battle
@@ -58,6 +59,19 @@ schema:
     name: missing
     title: Missing or captured
     type: integer
+  - description: True if the casualties data for the battle aggregates the casualties
+      for several battles.
+    format: default
+    name: aggregate
+    title: Is aggregate?
+    type: boolean
+  - description: CWSAC battle identifiers of the battles. In a few battles the casualties
+      include several battles. In these cases the CWSAC battle identifiers are space
+      separated.
+    format: default
+    name: cwsac_id
+    title: CWSAC Id
+    type: string
 sources:
 - KennedyConservation1998
 title: 'Civil War Battlefield Guide data: forces'
