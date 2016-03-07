@@ -1,4 +1,6 @@
 DATA_DIR = data
+BUCKET = data.jrnold.me/acw_battle_data
+REGION = us-east-1
 
 build:
 	python build.py $(DATA_DIR)
@@ -14,4 +16,4 @@ pdf:
 
 # Deploy data to S3
 deploy:
-	./bin/deploy.sh
+	python ./bin/deploy.py $(DATA_DIR) $(BUCKET) $(REGION)
