@@ -17,7 +17,7 @@ Schema
 
 
 ===========  =======  ===================
-seq_no       integer  seq_no
+par_id       integer  seq_no
 belligerent  string   Belligerent
 str          integer  str
 kia          integer  Killed
@@ -26,7 +26,7 @@ kw           integer  Killed or Wounded
 miapow       integer  Missing or Captured
 ===========  =======  ===================
 
-seq_no
+par_id
 ------
 
 :title: seq_no
@@ -36,8 +36,9 @@ seq_no
     :minimum: 1
     
 
-Battle number.
 
+
+Sources: [Livermore1900]_
 
        
 belligerent

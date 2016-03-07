@@ -38,7 +38,7 @@ Schema
 
 
 =================  =======  ==========================
-seq_no             integer  seq_no
+par_id             integer  seq_no
 battle_name        string   Battle name
 page               integer  page
 start_date         date     Start date
@@ -53,7 +53,7 @@ state              string   State
 theater            string   Theater
 =================  =======  ==========================
 
-seq_no
+par_id
 ------
 
 :title: seq_no

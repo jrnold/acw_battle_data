@@ -4,18 +4,8 @@ suppressPackageStartupMessages({
   library("dplyr")
 })
 
-read_csv <- function(x, ...) {
-  read.csv(x, ..., stringsAsFactors = FALSE)
-}
-read_delim <- function(x, ...) {
-  read.delim(x, ..., stringsAsFactors = FALSE)
-}
-
 toint <- function(x) {
   str_replace_all(x, "[^0-9]", "")
-}
-write_csv <- function(x, ... ) {
-  write.csv(x, ..., row.names = FALSE, na = "")
 }
 
 na_fill <- function(x, fill = 0) {

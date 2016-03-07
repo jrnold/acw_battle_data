@@ -3,7 +3,11 @@ name: fox_forces2_to_cwsac
 path: data/fox_forces2_to_cwsac.csv
 schema:
   fields:
-  - format: default
+  - constraints:
+      enum:
+      - Confederate
+      - US
+    format: default
     name: belligerent
     title: belligerent
     type: string

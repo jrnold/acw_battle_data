@@ -5,10 +5,10 @@ schema:
   fields:
   - constraints:
       minimum: 1
-    descripion: Battle number, as used in the ``LIVRMORE`` dataset in the ``PAR``
+    descripion: Battle identifier used in the ``LIVRMORE`` dataset in the ``PAR``
       data collection.
     format: default
-    name: seq_no
+    name: par_id
     sources:
     - ACAA1994
     title: seq_no

@@ -20,7 +20,7 @@ Schema
 
 
 ==============  ==============================  ==============
-seq_no          integer                         Battle number
+par_id          integer                         seq_no
 belligerent     string                          belligerent
 PersonID        string                          PersonID
 last_name       string                          Last Name
@@ -31,16 +31,19 @@ rank            string                          Rank
 navy            Was the commander in the navy?  navy
 ==============  ==============================  ==============
 
-seq_no
+par_id
 ------
 
-:title: Battle number
+:title: seq_no
 :type: integer
 :format: default
+:constraints:
+    :minimum: 1
+    
 
 
 
-
+Sources: [jrnold]_
 
        
 belligerent

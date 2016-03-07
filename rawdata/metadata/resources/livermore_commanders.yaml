@@ -3,9 +3,15 @@ name: livermore_commanders
 path: data/livermore_commanders.csv
 schema:
   fields:
-  - format: default
-    name: seq_no
-    title: Battle number
+  - constraints:
+      minimum: 1
+    descripion: Battle identifier used in the ``LIVRMORE`` dataset in the ``PAR``
+      data collection. See :doc:`livermore_battles`.
+    format: default
+    name: par_id
+    sources:
+    - ACAA1994
+    title: seq_no
     type: integer
   - constraints:
       enum:

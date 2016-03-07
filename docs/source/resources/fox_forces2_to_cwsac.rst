@@ -30,7 +30,9 @@ belligerent
 :title: belligerent
 :type: string
 :format: default
-
+:constraints:
+    :enum: ['Confederate', 'US']
+    
 
 
 

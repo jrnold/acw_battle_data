@@ -5,9 +5,12 @@ schema:
   fields:
   - constraints:
       minimum: 1
-    description: Battle number.
+    descripion: Battle identifier used in the ``LIVRMORE`` dataset in the ``PAR``
+      data collection. See :doc:`livermore_battles`.
     format: default
-    name: seq_no
+    name: par_id
+    sources:
+    - ACAA1994
     title: seq_no
     type: integer
   - constraints:
