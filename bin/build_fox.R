@@ -3,6 +3,7 @@ suppressPackageStartupMessages({
   library("stringr")
   library("dplyr")
 })
+source("R/misc.R")
 
 toint <- function(x) {
   str_replace_all(x, "[^0-9]", "")
@@ -15,7 +16,7 @@ na_fill <- function(x, fill = 0) {
 
 update_cwsac <- function(x) {
     cwsacids <- str_split(x, "\\s+")[[1]]
-    relations <- if (length(x) > 1) "eq" else "lt"
+    relations <- if (length(x) > 1) "gt" else "eq"
     data_frame(to = cwsacids, relation = relations)
 }
 
@@ -38,7 +39,9 @@ build <- function(src, dst) {
       %>% filter(cwsac_id != "")
       %>% group_by(belligerent, battle_name)
       %>% do(update_cwsac(.$cwsac_id))
-    )
+      %>% group_by(belligerent, to)
+      %>% mutate(relation = ifelse(relation == "eq" & n() > 1, "lt", relation))
+      )
 
   fox_forces2_to_cwsac <-
     (
@@ -47,6 +50,7 @@ build <- function(src, dst) {
       %>% filter(cwsac_id != "")
       %>% group_by(belligerent, battle_name)
       %>% do(update_cwsac(.$cwsac_id))
+      %>% mutate(relation = ifelse(relation == "eq" & n() > 1, "lt", relation))
     )
   write_csv(fox_forces %>% select(- cwsac_id), file = file.path(dst, "fox_forces.csv"))
   write_csv(fox_forces2 %>% select(- cwsac_id), file = file.path(dst, "fox_forces2.csv"))
@@ -55,7 +59,7 @@ build <- function(src, dst) {
 }
 
 copyfiles <- function(src, dst) {
-  for (fn in c("fox_forces.csv", "fox_forces2.csv", "fox_outcomes.csv")) {
+  for (fn in c("fox_outcomes.csv")) {
     file.copy(file.path(src, "rawdata", "fox1898", fn), dst)
   }
 }

@@ -129,4 +129,7 @@ gen_unit_code <- function(side, state, ordinal, type, arm, special,
                      "0+$", ""))
 }
 
-
+na_fill <- function(x, fill = 0) {
+  x[is.na(x)] <- fill
+  x
+}

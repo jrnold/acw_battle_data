@@ -10,7 +10,10 @@ Data from William F. Fox *Regimental Losses in the American Civil War,
 1861-1865: A Treatise on the extent and nature of the mortuary losses in
 the Union regiments, with full and exhaustive statistics compiled from
 the official records on file in the state military bureaus and at
-Washington*, available from `Perseus <http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A2001.05.0068>`__.
+Washington*, Chapter 14 "The Greatest Battles of the War, list of victories and defeats, chronological list
+of battles with loss in each, Union and Confederate", p. 543--.
+
+Available from `Perseus <http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A2001.05.0068>`__.
 The unit of observation is the force (battle, belligerent), because the reporting of casualties for durations and locations differs between the Union and Confederate forces.
 
 This data is similar to :doc:`fox_forces`, but differs in some revisions, which largely come from the notes in the souce table.

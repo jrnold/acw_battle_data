@@ -10,7 +10,9 @@ Battle casualty data from William F. Fox *Regimental Losses in the American Civi
 1861-1865: A Treatise on the extent and nature of the mortuary losses in
 the Union regiments, with full and exhaustive statistics compiled from
 the official records on file in the state military bureaus and at
-Washington*, available from `Perseus <http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A2001.05.0068>`__.
+Washington*, Chapter 14 "The Greatest Battles of the War, list of victories and defeats, chronological list
+of battles with loss in each, Union and Confederate", p. 543--.
+Available from `Perseus <http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A2001.05.0068>`__.
 
 The data on casualties come from the main table in "Chapter 14: the greatest battles of the war — list of victories and defeats — chronological list of battles with loss in each, Union and Confederate", p. 544-551.
 The accompanying description reads
@@ -38,7 +40,7 @@ The accompanying description reads
 The data in that tables are split into a table with battles and one with
 force level casualties.
 
-The results of battles is considered seperately in :doc:`fox_outcomes`.
+The results of battles is considered separately in :doc:`fox_outcomes`.
 
 
 Sources: [fox1898regimental]_

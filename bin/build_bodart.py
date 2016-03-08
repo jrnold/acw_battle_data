@@ -20,7 +20,7 @@ RANKS = {"Gen.-Lt." : "Lt. Gen", # "General-Leutnant",
          "komm. Gen." : "Gen.", # "General",
          "Brig-Gen." : "Brig. Gen.", # Brigade-General",
          "G.-L." : "Lt. Gen.", # "General-Leutnant",
-         "Brigadier Obst." : "Col.", # Brigadier Oberst" 
+         "Brigadier Obst." : "Col.", # Brigadier Oberst"
 }
 
 CATEGORIES = ("Schlacht",
@@ -41,7 +41,7 @@ def battle_csv(src, dst):
     fields = [
         'battle_id',
         'name',
-        'other_names', 
+        'other_names',
         'start_date',
         'end_date',
         'location',
@@ -64,7 +64,7 @@ def battle_csv(src, dst):
             for category in CATEGORIES:
                 row['category_' + category.lower()] = int(category in row['category'])
             writer.writerow(row)
-    print("Writing: %s" % dst)            
+    print("Writing: %s" % dst)
 
 fields_forces = (
     "battle_id",
@@ -76,7 +76,7 @@ fields_forces = (
     "artillery",
     "guns",
     "killed",
-    "killed_percent",    
+    "killed_percent",
     "killed_generals",
     "killed_officers",
     "killed_wounded",
@@ -123,7 +123,7 @@ def forces_csv(src, dst):
                     row['belligerent'] = side
                     writer.writerow(row)
     print("Writing: %s" % dst)
-    
+
 def commanders_csv(src, dst):
     with open(src, 'r') as f:
         data = yaml.load(f)
@@ -152,7 +152,7 @@ def commanders_csv(src, dst):
                               row['dbpedia'] = "https://dbpedia.org/resource/%s" % row['dbpedia']
                           writer.writerow(row)
     print("Writing: %s" % dst)
-    
+
 def generals_killed_csv(src, dst):
     with open(src, 'r') as f:
         data = yaml.load(f)
@@ -163,7 +163,7 @@ def generals_killed_csv(src, dst):
                   'first_name',
                   'middle_name',
                   'suffix',
-                  'rank', 
+                  'rank',
                   'date',
                   'dbpedia')
     with open(dst, 'w') as f:
@@ -182,7 +182,7 @@ def generals_killed_csv(src, dst):
                             else:
                                 row['dbpedia'] = "https://dbpedia.org/resource/%s" % row['dbpedia']
                             writer.writerow(row)
-    print("Writing: %s" % dst)                    
+    print("Writing: %s" % dst)
 
 def bodart_to_cwsac(src, dst):
     with open(src, 'r') as f:
@@ -198,7 +198,7 @@ def bodart_to_cwsac(src, dst):
                            'to': link['uri'],
                            'relation': link['relation']}
                     writer.writerow(row)
-    print("Writing: %s" % dst)                
+    print("Writing: %s" % dst)
 
 def bodart_to_dbpedia(src, dst):
     with open(src, 'r') as f:
@@ -223,14 +223,14 @@ def build(src, dst):
     forces_csv(filename, os.path.join(dst, "bodart1908_forces.csv"))
     commanders_csv(filename, os.path.join(dst, "bodart1908_commanders.csv"))
     generals_killed_csv(filename, os.path.join(dst, "bodart1908_generals_killed.csv"))
-    bodart_to_cwsac(filename, os.path.join(dst, "bodart1908_to_dbpedia.csv"))
-    bodart_to_dbpedia(filename, os.path.join(dst, "bodart1908_to_cwsac.csv"))
+    bodart_to_cwsac(filename, os.path.join(dst, "bodart1908_to_cwsac.csv"))
+    bodart_to_dbpedia(filename, os.path.join(dst, "bodart1908_to_dbpedia.csv"))
 
-    
+
 def main():
     print("Building Bodart data")
     src, dst = sys.argv[1:3]
     build(src, dst)
-    
+
 if __name__ == "__main__":
     main()

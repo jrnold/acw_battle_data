@@ -10,7 +10,10 @@ Battle outcome from William F. Fox *Regimental Losses in the American Civil War,
 1861-1865: A Treatise on the extent and nature of the mortuary losses in
 the Union regiments, with full and exhaustive statistics compiled from
 the official records on file in the state military bureaus and at
-Washington*, available from `Perseus <http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A2001.05.0068>`__.
+Washington*.
+Chapter 14 "The Greatest Battles of the War, list of victories and defeats, chronological list
+of battles with loss in each, Union and Confederate".
+Available from `Perseus <http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A2001.05.0068>`__.
 
 Fox categorizes battles by their outcome for a subset of those battles for which casualty figures are provided, in :doc:`fox_forces`. In some cases, the battle definitions are slightly different.
 
@@ -55,7 +58,6 @@ With regards to battles not considered, Fox writes,
 
     Other instances on each side could be mentioned, but they would invite
     discussion and are better omitted.
-
 
 
 Sources: [fox1898regimental]_
