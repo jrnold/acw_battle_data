@@ -60,7 +60,7 @@ def battle_csv(src, dst):
         writer.writeheader()
         for battle_id, row in enumerate(data):
             row['other_names'] = ';'.join(row['other_names'])
-            row['battle_id'] = battle_id
+            row['battle_id'] = battle_id + 1
             for category in CATEGORIES:
                 row['category_' + category.lower()] = int(category in row['category'])
             writer.writerow(row)
@@ -119,7 +119,7 @@ def forces_csv(src, dst):
             for battle_id, v in enumerate(data):
                 for side in v['forces']:
                     row = v['forces'][side]
-                    row['battle_id'] = battle_id
+                    row['battle_id'] = battle_id + 1
                     row['belligerent'] = side
                     writer.writerow(row)
     print("Writing: %s" % dst)
@@ -143,7 +143,7 @@ def commanders_csv(src, dst):
             for battle_id, v in enumerate(data):
                 for side in v['forces']:
                     for i, row in enumerate(v['forces'][side]['commanders']):
-                          row['battle_id'] = battle_id
+                          row['battle_id'] = battle_id + 1
                           row['belligerent'] = side
                           row['rank'] = RANKS[row['rank']]
                           if 'dbpedia' not in row:
@@ -174,7 +174,7 @@ def generals_killed_csv(src, dst):
                 for side in v['forces']:
                     if 'generals_killed' in v['forces'][side]:
                         for i, row in enumerate(v['forces'][side]['generals_killed']):
-                            row['battle_id'] = battle_id
+                            row['battle_id'] = battle_id + 1
                             row['belligerent'] = side
                             row['rank'] = RANKS[row['rank']]
                             if 'dbpedia' not in row:
@@ -194,7 +194,7 @@ def bodart_to_cwsac(src, dst):
         for battle_id, v in enumerate(data):
             if 'cwsac' in v:
                 for link in v['cwsac']:
-                    row = {'from': battle_id,
+                    row = {'from': battle_id + 1,
                            'to': link['uri'],
                            'relation': link['relation']}
                     writer.writerow(row)
@@ -207,10 +207,10 @@ def bodart_to_dbpedia(src, dst):
     with open(dst, 'w') as f:
         writer = csv.DictWriter(f, fieldnames)
         writer.writeheader()
-        for battle, v in enumerate(data):
+        for battle_id, v in enumerate(data):
             if 'dbpedia' in v:
                 for link in v['dbpedia']:
-                    row = {'from': battle,
+                    row = {'from': battle_id + 1,
                            'to': link['uri'],
                            'relation': link['relation']}
                     writer.writerow(row)
