@@ -9,11 +9,6 @@ toint <- function(x) {
   str_replace_all(x, "[^0-9]", "")
 }
 
-na_fill <- function(x, fill = 0) {
-  x[is.na(x)] <- fill
-  x
-}
-
 update_cwsac <- function(x) {
     cwsacids <- str_split(x, "\\s+")[[1]]
     relations <- if (length(x) > 1) "gt" else "eq"
