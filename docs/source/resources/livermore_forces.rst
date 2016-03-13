@@ -17,7 +17,7 @@ Schema
 
 
 ===========  =======  ===================
-par_id       integer  seq_no
+battle_id    integer  battle_id
 belligerent  string   Belligerent
 str          integer  str
 kia          integer  Killed
@@ -26,19 +26,16 @@ kw           integer  Killed or Wounded
 miapow       integer  Missing or Captured
 ===========  =======  ===================
 
-par_id
-------
+battle_id
+---------
 
-:title: seq_no
+:title: battle_id
 :type: integer
 :format: default
-:constraints:
-    :minimum: 1
-    
 
 
 
-Sources: [Livermore1900]_
+
 
        
 belligerent

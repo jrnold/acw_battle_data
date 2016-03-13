@@ -38,7 +38,7 @@ Schema
 
 
 =================  =======  ==========================
-par_id             integer  seq_no
+battle_id          integer  battle_id
 battle_name        string   Battle name
 page               integer  page
 start_date         date     Start date
@@ -53,19 +53,16 @@ state              string   State
 theater            string   Theater
 =================  =======  ==========================
 
-par_id
-------
+battle_id
+---------
 
-:title: seq_no
+:title: battle_id
 :type: integer
 :format: default
-:constraints:
-    :minimum: 1
-    
 
 
 
-Sources: [Livermore1900]_, [ACAA1994]_
+
 
        
 battle_name

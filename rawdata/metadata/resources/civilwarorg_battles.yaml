@@ -3,14 +3,13 @@ name: civilwarorg_battles
 path: data/civilwarorg_battles.csv
 schema:
   fields:
-  - description: Battle identifier - the basename sans extentension of the URL.
-    format: default
-    name: id
-    title: Battle id
+  - format: default
+    name: battle_id
+    title: Battle
     type: string
   - format: default
-    name: name
-    title: Battle name
+    name: battle_name
+    title: battle_name
     type: string
   - description: URL of the battle on civilwar.org.
     format: url

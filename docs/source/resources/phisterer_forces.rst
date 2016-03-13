@@ -22,7 +22,7 @@ Schema
 
 
 ===========  =======  ===========
-battle       integer  battle
+battle_id    integer  battle_id
 belligerent  string   belligerent
 casualties   number   casualties
 killed       number   killed
@@ -30,10 +30,10 @@ wounded      number   wounded
 missing      number   missing
 ===========  =======  ===========
 
-battle
-------
+battle_id
+---------
 
-:title: battle
+:title: battle_id
 :type: integer
 :format: default
 

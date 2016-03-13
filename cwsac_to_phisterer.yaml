@@ -145,54 +145,14 @@
 - cwsac:
   - description: Beaver Dam Creek , VA (1862-06-26 - 1862-06-26)
     id: VA016
-  phisterer:
-  - description: Seven Day's retreat; includes Mechanicsville, Gaines' Mills, Chickahominy,
-      Peach Orchard, Savage Station, Charles City Cross Roads, and Malvern Hill, VA
-      (1862-6-26 - 1862-7-1)
-    id: 2280
-  relation: gt
-  start_date: '1862-06-26'
-- cwsac:
   - description: Gaines' Mill , VA (1862-06-27 - 1862-06-27)
     id: VA017
-  phisterer:
-  - description: Seven Day's retreat; includes Mechanicsville, Gaines' Mills, Chickahominy,
-      Peach Orchard, Savage Station, Charles City Cross Roads, and Malvern Hill, VA
-      (1862-6-26 - 1862-7-1)
-    id: 2280
-  relation: gt
-  start_date: '1862-06-27'
-- cwsac:
   - description: Garnett's & Golding's Farms , VA (1862-06-27 - 1862-06-28)
     id: VA018
-  phisterer:
-  - description: Seven Day's retreat; includes Mechanicsville, Gaines' Mills, Chickahominy,
-      Peach Orchard, Savage Station, Charles City Cross Roads, and Malvern Hill, VA
-      (1862-6-26 - 1862-7-1)
-    id: 2280
-  relation: gt
-  start_date: '1862-06-27'
-- cwsac:
   - description: Savage's Station , VA (1862-06-29 - 1862-06-29)
     id: VA019
-  phisterer:
-  - description: Seven Day's retreat; includes Mechanicsville, Gaines' Mills, Chickahominy,
-      Peach Orchard, Savage Station, Charles City Cross Roads, and Malvern Hill, VA
-      (1862-6-26 - 1862-7-1)
-    id: 2280
-  relation: gt
-  start_date: '1862-06-29'
-- cwsac:
   - description: Glendale/White Oak Swamp , VA (1862-06-30 - 1862-06-30)
     id: VA020
-  phisterer:
-  - description: Seven Day's retreat; includes Mechanicsville, Gaines' Mills, Chickahominy,
-      Peach Orchard, Savage Station, Charles City Cross Roads, and Malvern Hill, VA
-      (1862-6-26 - 1862-7-1)
-    id: 2280
-  relation: gt
-  start_date: '1862-06-30'
-- cwsac:
   - description: Malvern Hill , VA (1862-07-01 - 1862-07-01)
     id: VA021
   phisterer:
@@ -200,8 +160,9 @@
       Peach Orchard, Savage Station, Charles City Cross Roads, and Malvern Hill, VA
       (1862-6-26 - 1862-7-1)
     id: 2280
-  relation: gt
-  start_date: '1862-07-01'
+  relation: eq
+  start_date: '1862-06-26'
+
 - cwsac:
   - description: Murfreesboro I , TN (1862-07-13 - 1862-07-13)
     id: TN006
@@ -213,11 +174,15 @@
 - cwsac:
   - description: Kirksville , MO (1862-08-06 - 1862-08-09)
     id: MO013
+  - description: Independence I , MO (1862-08-11 - 1862-08-11)
+    id: MO014
+  - description: Lone Jack , MO (1862-08-15 - 1862-08-16)
+    id: MO015
   phisterer:
   - description: Guerilla campaign in Missouri; includes with Porter's and Poindexter's
       Guerillas, MO (1862-7-20 - 1862-9-20)
     id: 2283
-  relation: gt
+  relation: eq
   start_date: '1862-08-06'
 - cwsac:
   - description: Cedar Mountain , VA (1862-08-09 - 1862-08-09)
@@ -227,39 +192,16 @@
     id: 2282
   relation: eq
   start_date: '1862-08-09'
-- cwsac:
-  - description: Independence I , MO (1862-08-11 - 1862-08-11)
-    id: MO014
-  phisterer:
-  - description: Guerilla campaign in Missouri; includes with Porter's and Poindexter's
-      Guerillas, MO (1862-7-20 - 1862-9-20)
-    id: 2283
-  relation: gt
-  start_date: '1862-08-11'
-- cwsac:
-  - description: Lone Jack , MO (1862-08-15 - 1862-08-16)
-    id: MO015
-  phisterer:
-  - description: Guerilla campaign in Missouri; includes with Porter's and Poindexter's
-      Guerillas, MO (1862-7-20 - 1862-9-20)
-    id: 2283
-  relation: gt
-  start_date: '1862-08-15'
+
 - cwsac:
   - description: Manassas II , VA (1862-08-28 - 1862-08-30)
     id: VA026
   phisterer:
   - description: Groveton and Gainesville, Va, VA (1862-8-28 - 1862-8-29)
     id: 2284
-  relation: lt
-  start_date: '1862-08-28'
-- cwsac:
-  - description: Manassas II , VA (1862-08-28 - 1862-08-30)
-    id: VA026
-  phisterer:
   - description: Bull Run, Va (2d), VA (1862-8-30 - 1862-8-30)
     id: 2285
-  relation: lt
+  relation: eq
   start_date: '1862-08-28'
 - cwsac:
   - description: Richmond , KY (1862-08-29 - 1862-08-30)
@@ -369,27 +311,15 @@
 - cwsac:
   - description: Kinston , NC (1862-12-14 - 1862-12-14)
     id: NC007
-  phisterer:
-  - description: Foster's expedition to Goldsboro, N.C., NC (1862-12-12 - 1862-12-18)
-    id: 2298
-  relation: gt
-  start_date: '1862-12-14'
-- cwsac:
   - description: White Hall , NC (1862-12-16 - 1862-12-16)
     id: NC008
-  phisterer:
-  - description: Foster's expedition to Goldsboro, N.C., NC (1862-12-12 - 1862-12-18)
-    id: 2298
-  relation: gt
-  start_date: '1862-12-16'
-- cwsac:
   - description: Goldsborough Bridge , NC (1862-12-17 - 1862-12-17)
     id: NC009
   phisterer:
   - description: Foster's expedition to Goldsboro, N.C., NC (1862-12-12 - 1862-12-18)
     id: 2298
-  relation: gt
-  start_date: '1862-12-17'
+  relation: eq
+  start_date: '1862-12-14'
 - cwsac:
   - description: Chickasaw Bayou , MS (1862-12-26 - 1862-12-29)
     id: MS003
@@ -445,7 +375,7 @@
   - description: Streight's raid from Tuscumbia, Ala., to Rome, Ga., AL (1863-4-27
       - 1863-5-3)
     id: 2307
-  relation: gt
+  relation: lt
   start_date: '1863-04-30'
 - cwsac:
   - description: Port Gibson , MS (1863-05-01 - 1863-05-01)
@@ -620,12 +550,43 @@
 - cwsac:
   - description: Rocky Face Ridge , GA (1864-05-07 - 1864-05-13)
     id: GA007
+  - description: Resaca , GA (1864-05-13 - 1864-05-15)
+    id: GA008
+  - description: Adairsville , GA (1864-05-17 - 1864-05-17)
+    id: GA009
+  - description: New Hope Church , GA (1864-05-25 - 1864-06-05)
+    id: GA010
+  - description: Pickett's Mill , GA (1864-05-27 - 1864-05-27)
+    id: GA012
+  - description: Dallas , GA (1864-05-28 - 1864-06-28)
+    id: GA011
+  - description: Marietta Operations , GA (1864-06-10 - 1864-07-03)
+    id: GA013
+  - description: Kolb's Farm , GA (1864-06-22 - 1864-06-22)
+    id: GA014
+  - description: Kennesaw Mountain , GA (1864-06-27 - 1864-06-27)
+    id: GA015
+  - description: Peachtree Creek , GA (1864-07-20 - 1864-07-20)
+    id: GA016
+  - description: Atlanta , GA (1864-07-22 - 1864-07-22)
+    id: GA017
+  - description: Ezra Church , GA (1864-07-28 - 1864-07-28)
+    id: GA018
+  - description: Utoy Creek , GA (1864-08-05 - 1864-08-07)
+    id: GA019
+  - description: Dalton II , GA (1864-08-14 - 1864-08-15)
+    id: GA020
+  - description: Lovejoy's Station , GA (1864-08-20 - 1864-08-20)
+    id: GA021
+  - description: Jonesborough , GA (1864-08-31 - 1864-09-01)
+    id: GA022
   phisterer:
   - description: Campaign in Northern Georgia, from Chattanooga, Tenn., to Atlanta,
       Ga., TN (1864-5-5 - 1864-9-8)
     id: 2372
-  relation: gt
+  relation: eq
   start_date: '1864-05-07'
+
 - cwsac:
   - description: Rocky Face Ridge , GA (1864-05-07 - 1864-05-13)
     id: GA007
@@ -668,15 +629,7 @@
     id: 2337
   relation: eq
   start_date: '1864-05-12'
-- cwsac:
-  - description: Resaca , GA (1864-05-13 - 1864-05-15)
-    id: GA008
-  phisterer:
-  - description: Campaign in Northern Georgia, from Chattanooga, Tenn., to Atlanta,
-      Ga., TN (1864-5-5 - 1864-9-8)
-    id: 2372
-  relation: gt
-  start_date: '1864-05-13'
+
 - cwsac:
   - description: Resaca , GA (1864-05-13 - 1864-05-15)
     id: GA008
@@ -693,15 +646,7 @@
     id: 2339
   relation: eq
   start_date: '1864-05-15'
-- cwsac:
-  - description: Adairsville , GA (1864-05-17 - 1864-05-17)
-    id: GA009
-  phisterer:
-  - description: Campaign in Northern Georgia, from Chattanooga, Tenn., to Atlanta,
-      Ga., TN (1864-5-5 - 1864-9-8)
-    id: 2372
-  relation: gt
-  start_date: '1864-05-17'
+
 - cwsac:
   - description: Ware Bottom Church , VA (1864-05-20 - 1864-05-29)
     id: VA054
@@ -718,33 +663,7 @@
     id: 2341
   relation: eq
   start_date: '1864-05-23'
-- cwsac:
-  - description: New Hope Church , GA (1864-05-25 - 1864-06-05)
-    id: GA010
-  phisterer:
-  - description: Campaign in Northern Georgia, from Chattanooga, Tenn., to Atlanta,
-      Ga., TN (1864-5-5 - 1864-9-8)
-    id: 2372
-  relation: gt
-  start_date: '1864-05-25'
-- cwsac:
-  - description: Pickett's Mill , GA (1864-05-27 - 1864-05-27)
-    id: GA012
-  phisterer:
-  - description: Campaign in Northern Georgia, from Chattanooga, Tenn., to Atlanta,
-      Ga., TN (1864-5-5 - 1864-9-8)
-    id: 2372
-  relation: gt
-  start_date: '1864-05-27'
-- cwsac:
-  - description: Dallas , GA (1864-05-28 - 1864-06-28)
-    id: GA011
-  phisterer:
-  - description: Campaign in Northern Georgia, from Chattanooga, Tenn., to Atlanta,
-      Ga., TN (1864-5-5 - 1864-9-8)
-    id: 2372
-  relation: gt
-  start_date: '1864-05-28'
+
 - cwsac:
   - description: Dallas , GA (1864-05-28 - 1864-06-28)
     id: GA011
@@ -769,15 +688,7 @@
     id: 2344
   relation: eq
   start_date: '1864-06-05'
-- cwsac:
-  - description: Marietta Operations , GA (1864-06-10 - 1864-07-03)
-    id: GA013
-  phisterer:
-  - description: Campaign in Northern Georgia, from Chattanooga, Tenn., to Atlanta,
-      Ga., TN (1864-5-5 - 1864-9-8)
-    id: 2372
-  relation: gt
-  start_date: '1864-06-10'
+
 - cwsac:
   - description: Brices Cross Roads , MS (1864-06-10 - 1864-06-10)
     id: MS014
@@ -794,7 +705,7 @@
       Culp's House, general assault, June 27th; McAfee's Cross Roads, Lattemore's
       Mills, and Powder Springs., GA (1864-6-9 - 1864-6-30)
     id: 2345
-  relation: gt
+  relation: eq
   start_date: '1864-06-10'
 - cwsac:
   - description: Cynthiana , KY (1864-06-11 - 1864-06-12)
@@ -837,52 +748,32 @@
     id: 2353
   relation: eq
   start_date: '1864-06-21'
+
 - cwsac:
   - description: Kolb's Farm , GA (1864-06-22 - 1864-06-22)
     id: GA014
-  phisterer:
-  - description: Campaign in Northern Georgia, from Chattanooga, Tenn., to Atlanta,
-      Ga., TN (1864-5-5 - 1864-9-8)
-    id: 2372
-  relation: gt
-  start_date: '1864-06-22'
-- cwsac:
-  - description: Kolb's Farm , GA (1864-06-22 - 1864-06-22)
-    id: GA014
+  - description: Kennesaw Mountain , GA (1864-06-27 - 1864-06-27)
+    id: GA015
   phisterer:
   - description: Kenesaw Mountain, Ga.; includes Pine Mountain, Pine Knob, Golgotha,
       Culp's House, general assault, June 27th; McAfee's Cross Roads, Lattemore's
       Mills, and Powder Springs., GA (1864-6-9 - 1864-6-30)
     id: 2345
-  relation: gt
+  relation: eq
   start_date: '1864-06-22'
 - cwsac:
   - description: Staunton River Bridge , VA (1864-06-25 - 1864-06-25)
     id: VA113
+  - description: Sappony Church , VA (1864-06-28 - 1864-06-28)
+    id: VA067
+  - description: Ream's Station I , VA (1864-06-29 - 1864-06-29)
+    id: VA068
   phisterer:
   - description: Wilson's raid on the Weldon Railroad, Va., VA (1864-6-22 - 1864-6-30)
     id: 2352
-  relation: gt
+  relation: eq
   start_date: '1864-06-25'
-- cwsac:
-  - description: Kennesaw Mountain , GA (1864-06-27 - 1864-06-27)
-    id: GA015
-  phisterer:
-  - description: Campaign in Northern Georgia, from Chattanooga, Tenn., to Atlanta,
-      Ga., TN (1864-5-5 - 1864-9-8)
-    id: 2372
-  relation: gt
-  start_date: '1864-06-27'
-- cwsac:
-  - description: Kennesaw Mountain , GA (1864-06-27 - 1864-06-27)
-    id: GA015
-  phisterer:
-  - description: Kenesaw Mountain, Ga.; includes Pine Mountain, Pine Knob, Golgotha,
-      Culp's House, general assault, June 27th; McAfee's Cross Roads, Lattemore's
-      Mills, and Powder Springs., GA (1864-6-9 - 1864-6-30)
-    id: 2345
-  relation: gt
-  start_date: '1864-06-27'
+
 - cwsac:
   - description: Kennesaw Mountain , GA (1864-06-27 - 1864-06-27)
     id: GA015
@@ -892,22 +783,7 @@
     id: 2354
   relation: eq
   start_date: '1864-06-27'
-- cwsac:
-  - description: Sappony Church , VA (1864-06-28 - 1864-06-28)
-    id: VA067
-  phisterer:
-  - description: Wilson's raid on the Weldon Railroad, Va., VA (1864-6-22 - 1864-6-30)
-    id: 2352
-  relation: gt
-  start_date: '1864-06-28'
-- cwsac:
-  - description: Ream's Station I , VA (1864-06-29 - 1864-06-29)
-    id: VA068
-  phisterer:
-  - description: Wilson's raid on the Weldon Railroad, Va., VA (1864-6-22 - 1864-6-30)
-    id: 2352
-  relation: gt
-  start_date: '1864-06-29'
+
 - cwsac:
   - description: Monocacy , MD (1864-07-09 - 1864-07-09)
     id: MD007
@@ -925,15 +801,7 @@
     id: 2358
   relation: eq
   start_date: '1864-07-14'
-- cwsac:
-  - description: Peachtree Creek , GA (1864-07-20 - 1864-07-20)
-    id: GA016
-  phisterer:
-  - description: Campaign in Northern Georgia, from Chattanooga, Tenn., to Atlanta,
-      Ga., TN (1864-5-5 - 1864-9-8)
-    id: 2372
-  relation: gt
-  start_date: '1864-07-20'
+
 - cwsac:
   - description: Peachtree Creek , GA (1864-07-20 - 1864-07-20)
     id: GA016
@@ -950,15 +818,7 @@
     id: 2360
   relation: eq
   start_date: '1864-07-22'
-- cwsac:
-  - description: Atlanta , GA (1864-07-22 - 1864-07-22)
-    id: GA017
-  phisterer:
-  - description: Campaign in Northern Georgia, from Chattanooga, Tenn., to Atlanta,
-      Ga., TN (1864-5-5 - 1864-9-8)
-    id: 2372
-  relation: gt
-  start_date: '1864-07-22'
+
 - cwsac:
   - description: Kernstown II , VA (1864-07-24 - 1864-07-24)
     id: VA116
@@ -975,15 +835,7 @@
     id: 2364
   relation: eq
   start_date: '1864-07-28'
-- cwsac:
-  - description: Ezra Church , GA (1864-07-28 - 1864-07-28)
-    id: GA018
-  phisterer:
-  - description: Campaign in Northern Georgia, from Chattanooga, Tenn., to Atlanta,
-      Ga., TN (1864-5-5 - 1864-9-8)
-    id: 2372
-  relation: gt
-  start_date: '1864-07-28'
+
 - cwsac:
   - description: Crater , VA (1864-07-30 - 1864-07-30)
     id: VA070
@@ -992,15 +844,7 @@
     id: 2365
   relation: eq
   start_date: '1864-07-30'
-- cwsac:
-  - description: Utoy Creek , GA (1864-08-05 - 1864-08-07)
-    id: GA019
-  phisterer:
-  - description: Campaign in Northern Georgia, from Chattanooga, Tenn., to Atlanta,
-      Ga., TN (1864-5-5 - 1864-9-8)
-    id: 2372
-  relation: gt
-  start_date: '1864-08-05'
+
 - cwsac:
   - description: Deep Bottom II , VA (1864-08-13 - 1864-08-20)
     id: VA071
@@ -1009,15 +853,7 @@
     id: 2367
   relation: eq
   start_date: '1864-08-13'
-- cwsac:
-  - description: Dalton II , GA (1864-08-14 - 1864-08-15)
-    id: GA020
-  phisterer:
-  - description: Campaign in Northern Georgia, from Chattanooga, Tenn., to Atlanta,
-      Ga., TN (1864-5-5 - 1864-9-8)
-    id: 2372
-  relation: gt
-  start_date: '1864-08-14'
+
 - cwsac:
   - description: Globe Tavern , VA (1864-08-18 - 1864-08-21)
     id: VA072
@@ -1026,15 +862,7 @@
     id: 2368
   relation: eq
   start_date: '1864-08-18'
-- cwsac:
-  - description: Lovejoy's Station , GA (1864-08-20 - 1864-08-20)
-    id: GA021
-  phisterer:
-  - description: Campaign in Northern Georgia, from Chattanooga, Tenn., to Atlanta,
-      Ga., TN (1864-5-5 - 1864-9-8)
-    id: 2372
-  relation: gt
-  start_date: '1864-08-20'
+
 - cwsac:
   - description: Summit Point , WV (1864-08-21 - 1864-08-21)
     id: WV014
@@ -1059,15 +887,7 @@
     id: 2371
   relation: eq
   start_date: '1864-08-31'
-- cwsac:
-  - description: Jonesborough , GA (1864-08-31 - 1864-09-01)
-    id: GA022
-  phisterer:
-  - description: Campaign in Northern Georgia, from Chattanooga, Tenn., to Atlanta,
-      Ga., TN (1864-5-5 - 1864-9-8)
-    id: 2372
-  relation: gt
-  start_date: '1864-08-31'
+
 - cwsac:
   - description: Opequon , VA (1864-09-19 - 1864-09-19)
     id: VA119
@@ -1079,11 +899,31 @@
 - cwsac:
   - description: Fort Davidson , MO (1864-09-26 - 1864-09-28)
     id: MO021
+  - description: Glasgow , MO (1864-10-15 - 1864-10-15)
+    id: MO022
+  - description: Lexington II , MO (1864-10-19 - 1864-10-19)
+    id: MO023
+  - description: Little Blue River , MO (1864-10-21 - 1864-10-21)
+    id: MO024
+  - description: Independence II , MO (1864-10-22 - 1864-10-22)
+    id: MO025
+  - description: Byram's Ford , MO (1864-10-22 - 1864-10-23)
+    id: MO026
+  - description: Westport , MO (1864-10-23 - 1864-10-23)
+    id: MO027
+  - description: Marais Des Cygnes , KS (1864-10-25 - 1864-10-25)
+    id: KS004
+  - description: Marmiton River , MO (1864-10-25 - 1864-10-25)
+    id: MO028
+  - description: Mine Creek , KS (1864-10-25 - 1864-10-25)
+    id: KS003
+  - description: Newtonia II , MO (1864-10-28 - 1864-10-28)
+    id: MO029
   phisterer:
   - description: Price's invasion of Missouri; includes a number of engagements.,
       MO (1864-9-24 - 1864-10-28)
     id: 2376
-  relation: gt
+  relation: eq
   start_date: '1864-09-26'
 - cwsac:
   - description: Chaffin's Farm / New Market Heights , VA (1864-09-29 - 1864-09-30)
@@ -1109,24 +949,8 @@
     id: 2379
   relation: eq
   start_date: '1864-10-05'
-- cwsac:
-  - description: Glasgow , MO (1864-10-15 - 1864-10-15)
-    id: MO022
-  phisterer:
-  - description: Price's invasion of Missouri; includes a number of engagements.,
-      MO (1864-9-24 - 1864-10-28)
-    id: 2376
-  relation: gt
-  start_date: '1864-10-15'
-- cwsac:
-  - description: Lexington II , MO (1864-10-19 - 1864-10-19)
-    id: MO023
-  phisterer:
-  - description: Price's invasion of Missouri; includes a number of engagements.,
-      MO (1864-9-24 - 1864-10-28)
-    id: 2376
-  relation: gt
-  start_date: '1864-10-19'
+
+
 - cwsac:
   - description: Cedar Creek , VA (1864-10-19 - 1864-10-19)
     id: VA122
@@ -1135,69 +959,7 @@
     id: 2380
   relation: eq
   start_date: '1864-10-19'
-- cwsac:
-  - description: Little Blue River , MO (1864-10-21 - 1864-10-21)
-    id: MO024
-  phisterer:
-  - description: Price's invasion of Missouri; includes a number of engagements.,
-      MO (1864-9-24 - 1864-10-28)
-    id: 2376
-  relation: gt
-  start_date: '1864-10-21'
-- cwsac:
-  - description: Byram's Ford , MO (1864-10-22 - 1864-10-23)
-    id: MO026
-  phisterer:
-  - description: Price's invasion of Missouri; includes a number of engagements.,
-      MO (1864-9-24 - 1864-10-28)
-    id: 2376
-  relation: gt
-  start_date: '1864-10-22'
-- cwsac:
-  - description: Independence II , MO (1864-10-22 - 1864-10-22)
-    id: MO025
-  phisterer:
-  - description: Price's invasion of Missouri; includes a number of engagements.,
-      MO (1864-9-24 - 1864-10-28)
-    id: 2376
-  relation: gt
-  start_date: '1864-10-22'
-- cwsac:
-  - description: Westport , MO (1864-10-23 - 1864-10-23)
-    id: MO027
-  phisterer:
-  - description: Price's invasion of Missouri; includes a number of engagements.,
-      MO (1864-9-24 - 1864-10-28)
-    id: 2376
-  relation: gt
-  start_date: '1864-10-23'
-- cwsac:
-  - description: Marais Des Cygnes , KS (1864-10-25 - 1864-10-25)
-    id: KS004
-  phisterer:
-  - description: Price's invasion of Missouri; includes a number of engagements.,
-      MO (1864-9-24 - 1864-10-28)
-    id: 2376
-  relation: gt
-  start_date: '1864-10-25'
-- cwsac:
-  - description: Marmiton River , MO (1864-10-25 - 1864-10-25)
-    id: MO028
-  phisterer:
-  - description: Price's invasion of Missouri; includes a number of engagements.,
-      MO (1864-9-24 - 1864-10-28)
-    id: 2376
-  relation: gt
-  start_date: '1864-10-25'
-- cwsac:
-  - description: Mine Creek , KS (1864-10-25 - 1864-10-25)
-    id: KS003
-  phisterer:
-  - description: Price's invasion of Missouri; includes a number of engagements.,
-      MO (1864-9-24 - 1864-10-28)
-    id: 2376
-  relation: gt
-  start_date: '1864-10-25'
+
 - cwsac:
   - description: Fair Oaks & Darbytown Road , VA (1864-10-27 - 1864-10-28)
     id: VA080
@@ -1214,15 +976,7 @@
     id: 2381
   relation: eq
   start_date: '1864-10-27'
-- cwsac:
-  - description: Newtonia II , MO (1864-10-28 - 1864-10-28)
-    id: MO029
-  phisterer:
-  - description: Price's invasion of Missouri; includes a number of engagements.,
-      MO (1864-9-24 - 1864-10-28)
-    id: 2376
-  relation: gt
-  start_date: '1864-10-28'
+
 - cwsac:
   - description: Honey Hill , SC (1864-11-30 - 1864-11-30)
     id: SC010
@@ -1326,7 +1080,7 @@
   - description: Wilson's raid from Chickasaw, Ala., to Macon, Ga.; includes a number
       of engagements, GA (1865-3-22 - 1865-4-24)
     id: 2397
-  relation: gt
+  relation: lt
   start_date: '1865-04-02'
 - cwsac:
   - description: Petersburg III , VA (1865-04-02 - 1865-04-02)

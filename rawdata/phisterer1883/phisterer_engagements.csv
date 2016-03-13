@@ -1,4 +1,4 @@
-id,start_date,end_date,monthonly,location,state,description
+battle_id,start_date,end_date,monthonly,location,state,battle_name
 1,1861-4-12,1861-4-13,False,"Fort Sumter, S.C.",SC,"Battery E, 1st IJ. S. Artillery. In saluting the flag before the evacuation on April 15th, Private Daniel Hough was killed and three men wounded by the premature explosion of a gun."
 2,1861-4-18,1861-4-18,False,"Harper's Ferry, Va.",VA,Detachment of ordnance men.
 3,1861-4-19,1861-4-19,False,"Streets of Baltimore, Md.",MD,6th Massachusetts State Militia and 26th Pennsylvania Volunteers.
@@ -652,7 +652,7 @@ id,start_date,end_date,monthonly,location,state,description
 651,1862-11-18,1862-11-18,False,"Cove Creek, N. C.",NC,3d New York Cavalry.
 652,1862-11-18,1862-11-18,False,"Rural Hills, Tenn",TN,8th Kentucky Cavalry.
 653,1862-11-1,1862-11-30,True,"Bayoo Bontecar, near Fort Pike, La.",LA,31st Massachnsetts Volunteers.
-654,1862-11-24,1862-11-24,False,"Beaver Creek, Texas Co., Mo. ",MO,3d Missouri Cavalry and 21st Iowa Volunteers. 
+654,1862-11-24,1862-11-24,False,"Beaver Creek, Texas Co., Mo. ",MO,3d Missouri Cavalry and 21st Iowa Volunteers.
 655,1862-11-25,1862-11-25,False,"Camp Babeock, Ark.",AR,3d Kansas Indian Home Guards.
 656,1862-11-25,1862-11-25,False,"Crawford County, Mo.",MO,Missouri Eurolled Militia.
 657,1862-11-26,1862-11-26,False,"Cold Enob Mountains (or Sinking Creek, or Frankfort), Va.",VA,2d West Virginia Cavalry.
@@ -782,7 +782,7 @@ id,start_date,end_date,monthonly,location,state,description
 781,1863-2-23,1863-2-23,False,"Athens, Ky.",KY,Organizations not specified.
 782,1863-2-24,1863-2-24,False,"Mississippi River, below Vicksburg.",,U. S. Steamer Indianola.
 783,1863-2-25,1863-2-25,False,Hart wood Church. Va.,VA,Brig.-General Averill's Cavalry Brigade.
-784,1863-2-26,1863-2-26,False,"Strasburg Road, Va. ",VA,13th Pennsylvania and 1st New York Cavalry. 
+784,1863-2-26,1863-2-26,False,"Strasburg Road, Va. ",VA,13th Pennsylvania and 1st New York Cavalry.
 785,1863-2-27,1863-2-27,False,"Near Newbern, N. C.",NC,"Detachment of 3d New York Cavalry, commanded by Cap tain Jacobs."
 786,1863-3-1,1863-3-31,True,"Bradyville, Tenn.",TN,1st Tennessee and 3d and 4th Ohio Cavalry.
 787,1863-3-2,1863-3-2,False,"Eagleville, Tenn.",TN,"15th, 16th, 18th, and 19th U. S. Infantry."

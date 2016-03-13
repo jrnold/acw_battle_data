@@ -4,8 +4,8 @@ path: data/civilwarorg_forces.csv
 schema:
   fields:
   - format: default
-    name: id
-    title: Battle id
+    name: battle_id
+    title: Battle
     type: string
   - constraints:
       enum:

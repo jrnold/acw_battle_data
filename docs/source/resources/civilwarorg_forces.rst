@@ -19,7 +19,7 @@ Schema
 
 
 ================  =======  ====================
-id                string   Battle id
+battle_id         string   Battle
 belligerent       string   Belligerent
 strength          integer  Strength
 casualties        integer  Total casualties
@@ -28,10 +28,10 @@ wounded           integer  Wounded
 missing_captured  integer  Missing and Captured
 ================  =======  ====================
 
-id
---
+battle_id
+---------
 
-:title: Battle id
+:title: Battle
 :type: string
 :format: default
 

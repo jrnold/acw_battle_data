@@ -4,8 +4,8 @@ path: data/phisterer_forces.csv
 schema:
   fields:
   - format: default
-    name: battle
-    title: battle
+    name: battle_id
+    title: battle_id
     type: integer
   - format: default
     name: belligerent

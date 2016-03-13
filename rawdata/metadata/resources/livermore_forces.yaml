@@ -3,15 +3,9 @@ name: livermore_forces
 path: data/livermore_forces.csv
 schema:
   fields:
-  - constraints:
-      minimum: 1
-    descripion: Battle identifier used in the ``LIVRMORE`` dataset in the ``PAR``
-      data collection. See :doc:`livermore_battles`.
-    format: default
-    name: par_id
-    sources:
-    - ACAA1994
-    title: seq_no
+  - format: default
+    name: battle_id
+    title: battle_id
     type: integer
   - constraints:
       enum:

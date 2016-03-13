@@ -63,7 +63,7 @@ Schema
 
 
 ===========  =======  ===========
-battle       integer  battle
+battle_id    integer  Battle
 battle_name  string   Battle name
 state        string   state
 start_date   date     Start date
@@ -73,10 +73,10 @@ campaign     boolean  Campaign
 page         integer  Page
 ===========  =======  ===========
 
-battle
-------
+battle_id
+---------
 
-:title: battle
+:title: Battle
 :type: integer
 :format: default
 :constraints:

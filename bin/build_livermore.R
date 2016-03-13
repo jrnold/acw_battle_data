@@ -17,25 +17,25 @@ build <- function(src, dst) {
   liv_battles <-
     (livrmore
      %>% select(- matches("^(US|CS)_"), - matches("^commander_"))
-     %>% arrange(par_id)
+     %>% arrange(battle_id)
     )
 
   liv_commanders <-
     read_csv(file.path(src, "rawdata", "livermore1900",
                        "livermore_commanders.csv")) %>%
-    select(par_id, belligerent, PersonID, last_name, first_name, middle_name,
+    select(battle_id, belligerent, PersonID, last_name, first_name, middle_name,
            middle_initial, rank, navy)
 
   liv_forces <-
     livrmore %>%
-    select(par_id, matches("^(US|CS)_")) %>%
-    gather(variable, value, - par_id) %>%
+    select(battle_id, matches("^(US|CS)_")) %>%
+    gather(variable, value, - battle_id) %>%
     separate(variable, c("belligerent", "varname")) %>%
     mutate(belligerent = plyr::revalue(belligerent,
                                        c("US" = "Union",
                                          "CS" = "Confederate"))) %>%
     spread(varname, value) %>%
-    select(par_id, belligerent, str, kia, wia, kw, miapow) %>%
+    select(battle_id, belligerent, str, kia, wia, kw, miapow) %>%
     mutate(wia = ifelse(is.na(kia) & ! is.na(wia) & ! is.na(kw), NA, wia))
 
   livermore_to_cwsac <-

@@ -18,28 +18,28 @@ def build_losses(src, dst):
         fieldnames = reader.fieldnames
         data = [row for row in reader]
     with open(path.join(dst, 'phisterer_battles.csv'), 'w') as f:
-        fieldnames = ('battle', 'battle_name', 'state', 'start_date', 'end_date', 'surrender', 'campaign', 'page')
+        fieldnames = ('battle_id', 'battle_name', 'state', 'start_date', 'end_date', 'surrender', 'campaign', 'page')
         writer = csv.DictWriter(f, fieldnames, extrasaction = 'ignore')
         writer.writeheader()
         for row in data:
             writer.writerow(row)
     with open(path.join(dst, 'phisterer_forces.csv'), 'w') as f:
-        fieldnames = ('battle', 'belligerent', 'casualties', 'killed', 'wounded', 'missing')
+        fieldnames = ('battle_id', 'belligerent', 'casualties', 'killed', 'wounded', 'missing')
         writer = csv.DictWriter(f, fieldnames)
         writer.writeheader()
         for row in data:
-            cs = {'battle': row['battle'],
+            cs = {'battle_id': row['battle_id'],
                   'belligerent': 'Confederate',
                   'casualties': row['cs_losses']}
-            writer.writerow(cs)            
-            us = {'battle': row['battle'],
+            writer.writerow(cs)
+            us = {'battle_id': row['battle_id'],
                   'belligerent': 'US',
                   'casualties': row['us_losses'],
                   'killed': row['us_killed'],
                   'wounded': row['us_wounded'],
                   'missing': row['us_missing']}
             writer.writerow(us)
-    
+
 
 def copyfiles(src, dst):
     filelist = ("phisterer_engagements_by_year.csv",

@@ -11,8 +11,8 @@ schema:
       These are the numbers used in Phisterer (1883). They start at 2262 because 1-2261
       refer to the events in the chronological record (see :doc:`phisterer_engagements`).'
     format: default
-    name: battle
-    title: battle
+    name: battle_id
+    title: Battle
     type: integer
   - format: default
     name: battle_name

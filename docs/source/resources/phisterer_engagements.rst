@@ -44,19 +44,19 @@ Schema
 
 
 ===========  =======  ===========
-id           integer  id
+battle_id    integer  Battle
 start_date   string   start_date
 end_date     date     end_date
 monthonly    boolean  monthonly
 location     string   Location
 state        string   State
-description  string   Description
+battle_name  string   Battle name
 ===========  =======  ===========
 
-id
---
+battle_id
+---------
 
-:title: id
+:title: Battle
 :type: integer
 :format: default
 
@@ -127,10 +127,10 @@ state
 
 
        
-description
+battle_name
 -----------
 
-:title: Description
+:title: Battle name
 :type: string
 :format: default
 

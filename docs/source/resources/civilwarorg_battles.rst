@@ -19,8 +19,8 @@ Schema
 
 
 ================  ======  ================
-id                string  Battle id
-name              string  Battle name
+battle_id         string  Battle
+battle_name       string  battle_name
 url               string  url
 start_date        date    Start date
 end_date          date    End date
@@ -35,22 +35,22 @@ cwsac_id          string  CWSAC Id.
 dbpedia_url       string  dbpedia.org link
 ================  ======  ================
 
-id
---
+battle_id
+---------
 
-:title: Battle id
+:title: Battle
 :type: string
 :format: default
 
 
-Battle identifier - the basename sans extentension of the URL.
+
 
 
        
-name
-----
+battle_name
+-----------
 
-:title: Battle name
+:title: battle_name
 :type: string
 :format: default
 

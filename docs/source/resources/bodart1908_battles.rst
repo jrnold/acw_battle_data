@@ -270,7 +270,7 @@ Schema
 
 =====================  =======  =============
 battle_id              integer  Battle number
-name                   string   Battle name
+battle_name            string   Battle name
 other_names            string   Other name(s)
 start_date             date     Start Date
 end_date               date     End Date
@@ -298,8 +298,8 @@ battle_id
 
 
        
-name
-----
+battle_name
+-----------
 
 :title: Battle name
 :type: string

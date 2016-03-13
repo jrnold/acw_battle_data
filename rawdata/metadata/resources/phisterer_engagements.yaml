@@ -6,8 +6,8 @@ schema:
   - description: Identifier number. These are the numbers given to the engagements
       in Phisterer (1883).
     format: default
-    name: id
-    title: id
+    name: battle_id
+    title: Battle
     type: integer
   - format: default
     name: start_date
@@ -35,8 +35,8 @@ schema:
     title: State
     type: string
   - format: default
-    name: description
-    title: Description
+    name: battle_name
+    title: Battle name
     type: string
 sources:
 - Phisterer1883

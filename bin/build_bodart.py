@@ -158,7 +158,7 @@ def generals_killed_csv(src, dst):
         data = yaml.load(f)
     fieldnames = ('battle_id',
                   'belligerent',
-                  'name',
+                  'full_name',
                   'last_name',
                   'first_name',
                   'middle_name',

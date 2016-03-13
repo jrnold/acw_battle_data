@@ -19,16 +19,16 @@ Schema
 
 
 ===========  ======  ===================
-id           string  Battle id
+battle_id    string  Battle
 belligerent  string  belligerent
 name         string  Commander Name
 url          string  Commander's Bio URL
 ===========  ======  ===================
 
-id
---
+battle_id
+---------
 
-:title: Battle id
+:title: Battle
 :type: string
 :format: default
 

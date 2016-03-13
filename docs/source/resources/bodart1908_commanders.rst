@@ -25,7 +25,7 @@ Schema
 ===========  ======  ===========
 battle_id    string  Battle Id.
 belligerent  string  belligerent
-name         string  Name
+full_name    string  Name
 last_name    string  Last Name
 first_name   string  First Name
 middle_name  string  Middle Name
@@ -58,8 +58,8 @@ belligerent
 
 
        
-name
-----
+full_name
+---------
 
 :title: Name
 :type: string
