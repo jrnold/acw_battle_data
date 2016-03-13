@@ -1,11 +1,12 @@
-- category:
+- battle_name: Bull-Run
+  category:
   - Schlacht
   category_size: 4
   cwsac:
-  - relation: 'eq'
+  - relation: eq
     uri: VA005
   dbpedia:
-  - relation: 'eq'
+  - relation: eq
     uri: http://dbpedia.org/resource/First_Battle_of_Bull_Run
   description: "Sieg der Confederacyn (S\xFCdstaaten) 32.000 M., 44 Gesch., unter\
     \ Gen. Beauregard \xFCber die Unierten (Nordstaaten) 35.000 M., 49 Gesch., unter\
@@ -21,17 +22,17 @@
       commanders:
       - dbpedia: P._G._T._Beauregard
         first_name: ''
+        full_name: Beauregard
         last_name: Beauregard
         middle_name: ''
-        name: Beauregard
         rank: Gen.
         suffix: ''
       generals_killed:
       - dbpedia: Barnard_E._Bee_Jr.
         first_name: ''
+        full_name: Bee
         last_name: Bee
         middle_name: ''
-        name: Bee
         rank: Brig-Gen.
         suffix: ''
       guns: 44
@@ -54,9 +55,9 @@
       commanders:
       - dbpedia: Irvin_McDowell
         first_name: ''
+        full_name: McDowell
         last_name: McDowell
         middle_name: ''
-        name: McDowell
         rank: GM.
         suffix: ''
       guns: 49
@@ -79,21 +80,21 @@
   location: "Kleiner Nebenflu\xDF des Potomac in den Vereinigten Staaten von Nodramerika,\
     \ Virginia; die Schlacht fand an beiden Flu\xDFufern, ca. 35-45 km. s\xFCdwestl.\
     \ von Washington statt)."
-  name: Bull-Run
   number: 11
   other_names:
   - Manassas-Junction
   page: 522
   result: Confederate
   start_date: *id001
-- category:
+- battle_name: Cedar Mountain
+  category:
   - Treffen
   category_size: 5
   cwsac:
-  - relation: 'eq'
+  - relation: eq
     uri: VA022
   dbpedia:
-  - relation: 'eq'
+  - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Cedar_Mountain
   description: "Sieg der Konf\xF6derierte (20.000 M.) unter Gen.-Lt. T. J. Jackson\
     \ \xFCber die Unierte\n(18.000 M.) unter GM. Banks.\n"
@@ -106,17 +107,17 @@
       commanders:
       - dbpedia: Stonewall_Jackson
         first_name: T.
+        full_name: T. J. Jackson
         last_name: Jackson
         middle_name: J.
-        name: T. J. Jackson
         rank: Gen.-Lt.
         suffix: ''
       generals_killed:
       - dbpedia: Charles_S._Winder
         first_name: C.
+        full_name: C. S. Winder
         last_name: Winder
         middle_name: S.
-        name: C. S. Winder
         rank: Brig. Gen.
         suffix: ''
       killed: 230
@@ -134,9 +135,9 @@
       commanders:
       - dbpedia: Nathaniel_Prentice_Banks
         first_name: ''
+        full_name: Banks
         last_name: Banks
         middle_name: ''
-        name: Banks
         rank: GM.
         suffix: ''
       killed: 330
@@ -156,20 +157,20 @@
       wounded_officers: 102
   location: "Berg in Virginia, am Cedar Creek, Nebenflu\xDF des Shenandoah, 75 km\
     \ westl. von Washington.\n"
-  name: Cedar Mountain
   number: 10
   other_names: []
   page: 525
   result: Confederate
   start_date: *id002
-- category:
+- battle_name: Bull Run
+  category:
   - Schlacht
   category_size: 2
   cwsac:
-  - relation: 'eq'
+  - relation: eq
     uri: VA026
   dbpedia:
-  - relation: 'eq'
+  - relation: eq
     uri: http://dbpedia.org/resource/Second_Battle_of_Bull_Run
   description: null
   end_date: 1862-08-30
@@ -183,9 +184,9 @@
       commanders:
       - dbpedia: Robert_E._Lee
         first_name: R.
+        full_name: R. Lee
         last_name: Lee
         middle_name: ''
-        name: R. Lee
         rank: Gen.
         suffix: ''
       killed: 1550
@@ -214,38 +215,38 @@
       commanders:
       - dbpedia: John_Pope_(military_officer)
         first_name: J.
+        full_name: J. Pope
         last_name: Pope
         middle_name: ''
-        name: J. Pope
         rank: Gen.
         suffix: ''
       generals_killed:
       - dbpedia: Philip_Kearny
         first_name: P.
+        full_name: P. Kearny
         last_name: Kearny
         middle_name: ''
-        name: P. Kearny
         rank: GM.
         suffix: ''
       - dbpedia: Isaac_Stevens
         first_name: J.
+        full_name: J. Stevens
         last_name: Stevens
         middle_name: ''
-        name: J. Stevens
         rank: GM.
         suffix: ''
       - dbpedia: Henry_Bohlen
         first_name: H.
+        full_name: H. Bohlen
         last_name: Bohlen
         middle_name: ''
-        name: H. Bohlen
         rank: B.-G.
         suffix: ''
       - dbpedia: George_W._Taylor_(general)
         first_name: W.
+        full_name: W. Taylor
         last_name: Taylor
         middle_name: ''
-        name: W. Taylor
         rank: B.-G.
         suffix: ''
       killed: 1700
@@ -267,21 +268,21 @@
       wounded_percent: 14.2
   location: "Kleiner Nebenflu\xDF des Potomac in Virginien, 45 km s\xFCdwestl. von\
     \ Washington\n"
-  name: Bull Run
   number: 1
   other_names:
   - Manassas-Junction
   page: 526
   result: Confederate
   start_date: 1862-08-29
-- category:
+- battle_name: Richmond
+  category:
   - Treffen
   category_size: 4
   cwsac:
-  - relation: 'eq'
+  - relation: eq
     uri: KY007
   dbpedia:
-  - relation: 'eq'
+  - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Richmond
   description: null
   end_date: &id003 1862-08-30
@@ -293,9 +294,9 @@
       commanders:
       - dbpedia: Edmund_Kirby_Smith
         first_name: Kirby
+        full_name: Kirby Smith
         last_name: Smith
         middle_name: ''
-        name: Kirby Smith
         rank: GM.
         suffix: ''
       killed: 80
@@ -310,9 +311,9 @@
       commanders:
       - dbpedia: William_"Bull"_Nelson
         first_name: ''
+        full_name: Nelson
         last_name: Nelson
         middle_name: ''
-        name: Nelson
         rank: Brig.-Gen.
         suffix: ''
       killed: 210
@@ -325,21 +326,21 @@
       strength: 16000
       wounded: 840
   location: "Stadt in Kentucky, 20 km s\xFCd\xF6stl. von Lexington."
-  name: Richmond
   number: 12
   other_names:
   - Rogersville
   page: 526
   result: Confederate
   start_date: *id003
-- category:
+- battle_name: Boonsborough
+  category:
   - Treffen
   category_size: 5
   cwsac:
-  - relation: 'eq'
+  - relation: eq
     uri: MD002
   dbpedia:
-  - relation: 'eq'
+  - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_South_Mountain
   description: null
   end_date: &id004 1862-09-14
@@ -351,17 +352,17 @@
       commanders:
       - dbpedia: James_Longstreet
         first_name: ''
+        full_name: Longstreet
         last_name: Longstreet
         middle_name: ''
-        name: Longstreet
         rank: Gen.-Lt.
         suffix: ''
       generals_killed:
       - dbpedia: Samuel_Garland,_Jr.
         first_name: S.
+        full_name: S. Garland
         last_name: Garland
         middle_name: ''
-        name: S. Garland
         rank: Brig.-Gen.
         suffix: ''
       killed: 300
@@ -380,17 +381,17 @@
       commanders:
       - dbpedia: George_B._McClellan
         first_name: ''
+        full_name: McClellan
         last_name: McClellan
         middle_name: ''
-        name: McClellan
         rank: Gen.
         suffix: ''
       generals_killed:
       - dbpedia: Jesse_L._Reno
         first_name: J.
+        full_name: J. L. Reno
         last_name: Reno
         middle_name: L.
-        name: J. L. Reno
         rank: GM.
         suffix: ''
       killed: 350
@@ -407,20 +408,20 @@
       wounded_generals: 1
       wounded_officers: 66
   location: Dorf in Maryland, 22 km nordl. von Sharpsburg.
-  name: Boonsborough
   other_names:
   - South-Mountain
   page: 527
   result: Union
   start_date: *id004
-- category:
+- battle_name: Harper's Ferry
+  category:
   - Kapitulation
   category_size: null
   cwsac:
-  - relation: 'eq'
+  - relation: eq
     uri: WV010
   dbpedia:
-  - relation: 'eq'
+  - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Harpers_Ferry
   description: "Die Konf\xF6derierte (30.000 M.) unter Gen.-Lt. T. J. Jackson zwingen\
     \ nach zweit\xE4giger\nBeschie\xDFung die unionistische Beasatzung (14.000 M.,\
@@ -433,9 +434,9 @@
       commanders:
       - dbpedia: Stonewall_Jackson
         first_name: T.
+        full_name: T. J. Jackson
         last_name: Jackson
         middle_name: J.
-        name: T. J. Jackson
         rank: Gen.-Lt.
         suffix: ''
       strength: 30000
@@ -445,17 +446,17 @@
       commanders:
       - dbpedia: Dixon_S._Miles
         first_name: D.
+        full_name: D. Miles
         last_name: Miles
         middle_name: ''
-        name: D. Miles
         rank: Oberst
         suffix: ''
       generals_killed:
       - dbpedia: Dixon_S._Miles
         first_name: D.
+        full_name: D. Miles
         last_name: Miles
         middle_name: ''
-        name: D. Miles
         rank: Brigadier Obst.
         suffix: ''
       guns: 73
@@ -463,19 +464,19 @@
       strength: 14000
   location: "Stadt in Virginia, am Einfu\xDF des Shenandoah in den Potomac, 80 km\
     \ westl. von Washington"
-  name: Harper's Ferry
   other_names: []
   page: 527
   result: Confederate
   start_date: *id005
-- category:
+- battle_name: Antietam
+  category:
   - Schlacht
   category_size: 2
   cwsac:
-  - relation: 'eq'
+  - relation: eq
     uri: MD003
   dbpedia:
-  - relation: 'eq'
+  - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Antietam
   description: null
   end_date: &id006 1862-09-17
@@ -489,31 +490,31 @@
       commanders:
       - dbpedia: Robert_E._Lee
         first_name: R.
+        full_name: R. Lee
         last_name: Lee
         middle_name: ''
-        name: R. Lee
         rank: Gen.
         suffix: ''
       generals_killed:
       - dbpedia: George_B._Anderson
         first_name: G.
+        full_name: G. B. Anderson
         last_name: Anderson
         middle_name: B.
-        name: G. B. Anderson
         rank: Brig.-Gen.
         suffix: ''
       - dbpedia: Lawrence_O'Bryan_Branch
         first_name: L.
+        full_name: L. O. Branch
         last_name: Branch
         middle_name: O.
-        name: L. O. Branch
         rank: Brig.-Gen.
         suffix: ''
       - dbpedia: William_E._Starke
         first_name: W.
+        full_name: W. E. Starke
         last_name: Starke
         middle_name: E.
-        name: W. E. Starke
         rank: Brig.-Gen.
         suffix: ''
       killed: 1510
@@ -543,31 +544,31 @@
       commanders:
       - dbpedia: George_B._McClellan
         first_name: S.
+        full_name: S. B. McClellan
         last_name: McClellan
         middle_name: B.
-        name: S. B. McClellan
         rank: Gen.
         suffix: ''
       generals_killed:
       - dbpedia: Joseph_K._Mansfield
         first_name: J.
+        full_name: J. K. F. Mansfield
         last_name: Mansfield
         middle_name: K. F.
-        name: J. K. F. Mansfield
         rank: GM.
         suffix: ''
       - dbpedia: Israel_B._Richardson
         first_name: J.
+        full_name: J. B. Richardson
         last_name: Richardson
         middle_name: B.
-        name: J. B. Richardson
         rank: GM.
         suffix: ''
       - dbpedia: Isaac_P._Rodman
         first_name: J.
+        full_name: J. P. Rodman
         last_name: Rodman
         middle_name: P.
-        name: J. P. Rodman
         rank: B.-G.
         suffix: ''
       killed: 2100
@@ -590,20 +591,20 @@
       wounded_percent: 16.0
   location: "Linker Nebenflu\xDF des Potomac in Marylang, m\xFCndet unterhalb Sharpsburg,\
     \ 25 km n\xF6rdl. von Harper's Ferry."
-  name: Antietam
   other_names:
   - Sharpsburg
   page: 527
   result: Union
   start_date: *id006
-- category:
+- battle_name: Corinth
+  category:
   - Schlacht
   category_size: 4
   cwsac:
-  - relation: 'eq'
+  - relation: eq
     uri: MS002
   dbpedia:
-  - relation: 'eq'
+  - relation: eq
     uri: http://dbpedia.org/resource/Second_Battle_of_Corinth
   description: null
   end_date: 1862-10-04
@@ -615,9 +616,9 @@
       commanders:
       - dbpedia: Earl_Van_Dorn
         first_name: Earl
+        full_name: Earl van Dorn
         last_name: van Dorn
         middle_name: ''
-        name: Earl van Dorn
         rank: Gen.-Lt.
         suffix: ''
       killed: 500
@@ -636,17 +637,17 @@
       commanders:
       - dbpedia: William_S._Rosecrans
         first_name: ''
+        full_name: Rosecrans
         last_name: Rosecrans
         middle_name: ''
-        name: Rosecrans
         rank: GM.
         suffix: ''
       generals_killed:
       - dbpedia: Pleasant_A._Hackleman
         first_name: P.
+        full_name: P. A. Hackleman
         last_name: Hackleman
         middle_name: A.
-        name: P. A. Hackleman
         rank: Brig.-Gen.
         suffix: ''
       killed: 350
@@ -665,19 +666,19 @@
       wounded_generals: 3
       wounded_officers: 115
   location: "Stadt im \xE4u\xDFersten Nordosten des Staates Mississippi."
-  name: Corinth
   other_names: []
   page: 528
   result: Union
   start_date: 1862-10-03
-- category:
+- battle_name: Perryville
+  category:
   - Schlacht
   category_size: 4
   cwsac:
-  - relation: 'eq'
+  - relation: eq
     uri: KY009
   dbpedia:
-  - relation: 'eq'
+  - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Perryville
   description: null
   end_date: &id007 1862-10-08
@@ -689,9 +690,9 @@
       commanders:
       - dbpedia: Braxton_Bragg
         first_name: ''
+        full_name: Bragg
         last_name: Bragg
         middle_name: ''
-        name: Bragg
         rank: Gen.
         suffix: ''
       killed: 520
@@ -711,24 +712,24 @@
       commanders:
       - dbpedia: Don_Carlos_Buell
         first_name: ''
+        full_name: Buell
         last_name: Buell
         middle_name: ''
-        name: Buell
         rank: GM.
         suffix: ''
       generals_killed:
       - dbpedia: James_S._Jackson
         first_name: J.
+        full_name: J. S. Jackson
         last_name: Jackson
         middle_name: S.
-        name: J. S. Jackson
         rank: Brig.-Gen.
         suffix: ''
       - dbpedia: William_R._Terrill
         first_name: W.
+        full_name: W. R. Terrill
         last_name: Terrill
         middle_name: R.
-        name: W. R. Terrill
         rank: Brig.-Gen.
         suffix: ''
       killed: 850
@@ -748,19 +749,19 @@
       wounded_generals: 0
       wounded_officers: 94
   location: "Kleine Stadt in Kentucky, 100 km s\xFCd\xF6stl. von Louisville"
-  name: Perryville
   other_names: []
   page: 528
   result: Confederate
   start_date: *id007
-- category:
+- battle_name: Prairie-Grove
+  category:
   - Treffen
   category_size: 6
   cwsac:
-  - relation: 'eq'
+  - relation: eq
     uri: AR005
   dbpedia:
-  - relation: 'eq'
+  - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Prairie_Grove
   description: null
   end_date: &id008 1862-12-07
@@ -772,9 +773,9 @@
       commanders:
       - dbpedia: Thomas_C._Hindman
         first_name: ''
+        full_name: Hindman
         last_name: Hindman
         middle_name: ''
-        name: Hindman
         rank: GM.
         suffix: ''
       killed_wounded: 1000
@@ -787,28 +788,28 @@
       commanders:
       - dbpedia: James_G._Blunt
         first_name: ''
+        full_name: Blunt
         last_name: Blunt
         middle_name: ''
-        name: Blunt
         rank: Brig.-Gen.
         suffix: ''
       killed_wounded: 1000
       missing: 250
       strength: 14000
   location: "Dorf in nordwestlichen Arkansas, 20 km s\xFCdwestlich von Fayetteville"
-  name: Prairie-Grove
   other_names: []
   page: 528
   result: Union
   start_date: *id008
-- category:
+- battle_name: Fredericksburg
+  category:
   - Schlacht
   category_size: 3
   cwsac:
-  - relation: 'eq'
+  - relation: eq
     uri: VA028
   dbpedia:
-  - relation: 'eq'
+  - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Fredericksburg
   description: null
   end_date: 1862-12-15
@@ -823,24 +824,24 @@
       commanders:
       - dbpedia: Robert_E._Lee
         first_name: R.
+        full_name: R. Lee
         last_name: Lee
         middle_name: ''
-        name: R. Lee
         rank: Gen.
         suffix: ''
       generals_killed:
       - dbpedia: Thomas_Reade_Rootes_Cobb
         first_name: T.
+        full_name: T. R. Cobb
         last_name: Cobb
         middle_name: R.
-        name: T. R. Cobb
         rank: Brig.-Gen.
         suffix: ''
       - dbpedia: Maxcy_Gregg
         first_name: M.
+        full_name: M. Gregg
         last_name: Gregg
         middle_name: ''
-        name: M. Gregg
         rank: Brig.-Gen.
         suffix: ''
       infantry: 73000
@@ -871,24 +872,24 @@
       commanders:
       - dbpedia: Ambrose_Everett_Burnside
         first_name: A.
+        full_name: A. Burnside
         last_name: Burnside
         middle_name: ''
-        name: A. Burnside
         rank: BM.
         suffix: ''
       generals_killed:
       - dbpedia: George_Dashiell_Bayard
         first_name: G.
+        full_name: G. D. Bayard
         last_name: Bayard
         middle_name: D.
-        name: G. D. Bayard
         rank: Brig.-Gen.
         suffix: ''
       - dbpedia: Conrad_Feger_Jackson
         first_name: C.
+        full_name: C. F. Jackson
         last_name: Jackson
         middle_name: F.
-        name: C. F. Jackson
         rank: Brig.-Gen.
         suffix: ''
       infantry: 111000
@@ -910,19 +911,19 @@
       wounded_officers: 654
       wounded_percent: 8.3
   location: "Stadt in Virginia, 80 km s\xFCdwsestl. von Washington"
-  name: Fredericksburg
   other_names: []
   page: 529
   result: Confederate
   start_date: 1862-12-11
-- category:
+- battle_name: Wilson's Creek
+  category:
   - Treffen
   category_size: 6
   cwsac:
-  - relation: 'eq'
+  - relation: eq
     uri: MO004
   dbpedia:
-  - relation: 'eq'
+  - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Wilson's_Creek
   description: "Sieg der Konf\xF6derierten (ca. 10.000 M.) unter GM. Price \xFCber\
     \ die Unierten (ca. 6.000 M.) unter GM. Lyon \u2020."
@@ -935,9 +936,9 @@
       commanders:
       - dbpedia: Sterling_Price
         first_name: ''
+        full_name: Price
         last_name: Price
         middle_name: ''
-        name: Price
         rank: GM.
         suffix: ''
       killed_wounded: 1230
@@ -950,17 +951,17 @@
       commanders:
       - dbpedia: Nathaniel_Lyon
         first_name: ''
+        full_name: Lyon
         last_name: Lyon
         middle_name: ''
-        name: Lyon
         rank: GM.
         suffix: ''
       generals_killed:
       - dbpedia: Nathaniel_Lyon
         first_name: ''
+        full_name: Lyon
         last_name: Lyon
         middle_name: ''
-        name: Lyon
         rank: Brig.-Gen.
         suffix: ''
       killed_wounded: 1140
@@ -968,21 +969,21 @@
       strength: 6000
   location: "Flu\xDF in den Vereinigten Staaten van Nordamerika, Missouri, in der\
     \ N\xE4he von Springfield, 320 km s\xFCdwestl. von St. Louis)."
-  name: Wilson's Creek
   number: 1
   other_names:
   - Oak-Hills
   page: 522
   result: Confederate
   start_date: *id009
-- category:
+- battle_name: Murfreesborough
+  category:
   - Schlacht
   category_size: 2
   cwsac:
-  - relation: 'eq'
+  - relation: eq
     uri: TN010
   dbpedia:
-  - relation: 'eq'
+  - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Stones_River
   description: null
   end_date: 1863-01-03
@@ -997,24 +998,24 @@
       commanders:
       - dbpedia: Braxton_Bragg
         first_name: B.
+        full_name: B. Bragg
         last_name: Bragg
         middle_name: ''
-        name: B. Bragg
         rank: Gen.
         suffix: ''
       generals_killed:
       - dbpedia: Roger_Hanson
         first_name: R.
+        full_name: R. W. Hanson
         last_name: Hanson
         middle_name: W.
-        name: R. W. Hanson
         rank: Brig.-Gen.
         suffix: ''
       - dbpedia: James_Edward_Rains
         first_name: J.
+        full_name: J. E. Rains
         last_name: Rains
         middle_name: E.
-        name: J. E. Rains
         rank: Brig.-Gen.
         suffix: ''
       guns: 120
@@ -1047,24 +1048,24 @@
       commanders:
       - dbpedia: William_S._Rosecrans
         first_name: ''
+        full_name: Rosecrans
         last_name: Rosecrans
         middle_name: ''
-        name: Rosecrans
         rank: GM.
         suffix: ''
       generals_killed:
       - dbpedia: Edward_N._Kirk
         first_name: E.
+        full_name: E. N. Kirk
         last_name: Kirk
         middle_name: N.
-        name: E. N. Kirk
         rank: Brig.-Gen.
         suffix: ''
       - dbpedia: Joshua_W._Sill
         first_name: J.
+        full_name: J. W. Sill
         last_name: Sill
         middle_name: W.
-        name: J. W. Sill
         rank: Brig.-Gen.
         suffix: ''
       guns: 100
@@ -1089,20 +1090,20 @@
       wounded_officers: 405
       wounded_percent: 17.5
   location: "Stadt in Tennessee, am Stone's River, 50 km s\xFCd\xF6stl. von Nashville."
-  name: Murfreesborough
   other_names:
   - Stone's River
   page: 529
   result: Union
   start_date: 1862-12-31
-- category:
+- battle_name: Chickasaw Bluffs
+  category:
   - Treffen
   category_size: 6
   cwsac:
-  - relation: 'eq'
+  - relation: eq
     uri: MS003
   dbpedia:
-  - relation: 'eq'
+  - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Chickasaw_Bayou
   description: null
   end_date: &id010 1863-01-03
@@ -1113,9 +1114,9 @@
       commanders:
       - dbpedia: John_C._Pemberton
         first_name: ''
+        full_name: Pemberton
         last_name: Pemberton
         middle_name: ''
-        name: Pemberton
         rank: Gen.-Lt.
         suffix: ''
       killed_wounded: 200
@@ -1126,9 +1127,9 @@
       commanders:
       - dbpedia: William_Tecumseh_Sherman
         first_name: ''
+        full_name: Sherman
         last_name: Sherman
         middle_name: ''
-        name: Sherman
         rank: GM.
         suffix: ''
       killed_wounded: 1200
@@ -1136,20 +1137,20 @@
       strength: 33000
   location: "Verschanzungen der Konf\xF6derierte in Mississippi, 3-10 km nord\xF6\
     stl. von Vicksburg."
-  name: Chickasaw Bluffs
   other_names: []
   page: 530
   result: Confederate
   start_date: *id010
-- category:
+- battle_name: Arkansas Post
+  category:
   - Treffen
   - Kapitulation
   category_size: 4
   cwsac:
-  - relation: 'eq'
+  - relation: eq
     uri: AR006
   dbpedia:
-  - relation: 'eq'
+  - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Fort_Hindman
   description: null
   end_date: &id011 1863-01-11
@@ -1162,9 +1163,9 @@
       commanders:
       - dbpedia: Thomas_J._Churchill
         first_name: ''
+        full_name: Churchill
         last_name: Churchill
         middle_name: ''
-        name: Churchill
         rank: Brig.-Gen.
         suffix: ''
       killed_wounded: 200
@@ -1177,29 +1178,29 @@
       commanders:
       - dbpedia: John_A._McClernand
         first_name: ''
+        full_name: McClernand
         last_name: McClernand
         middle_name: ''
-        name: McClernand
         rank: GM.
         suffix: ''
       killed_wounded: 1100
       strength: 28000
   location: "Verschanztes Lager der Konf\xF6derierte am linken Ufer des Arkansas-River\
     \ im Staate Arkansas, 100 km s\xFCd\xF6stl. von Little Rock"
-  name: Arkansas Post
   other_names:
   - Fort Hindman
   page: 530
   result: Union
   start_date: *id011
-- category:
+- battle_name: Chancellorsville
+  category:
   - Schlacht
   category_size: 1
   cwsac:
-  - relation: 'eq'
+  - relation: eq
     uri: VA032
   dbpedia:
-  - relation: 'eq'
+  - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Chancellorsville
   description: null
   end_date: 1863-05-05
@@ -1212,24 +1213,24 @@
       commanders:
       - dbpedia: Robert_E._Lee
         first_name: R.
+        full_name: R. Lee
         last_name: Lee
         middle_name: ''
-        name: R. Lee
         rank: Gen.
         suffix: ''
       generals_killed:
       - dbpedia: Stonewall_Jackson
         first_name: T.
+        full_name: T. J. Jackson
         last_name: Jackson
         middle_name: J.
-        name: T. J. Jackson
         rank: Gen.-Lt.
         suffix: ''
       - dbpedia: Elisha_F._Paxton
         first_name: E.
+        full_name: E. F. Paxton
         last_name: Paxton
         middle_name: F.
-        name: E. F. Paxton
         rank: B.-G.
         suffix: ''
       guns: 170
@@ -1256,30 +1257,30 @@
       commanders:
       - dbpedia: Joseph_Hooker
         first_name: ''
+        full_name: Hooker
         last_name: Hooker
         middle_name: ''
-        name: Hooker
         rank: GM.
         suffix: ''
       generals_killed:
       - dbpedia: Hiram_George_Berry
         first_name: H.
+        full_name: H. G. Berry
         last_name: Berry
         middle_name: G.
-        name: H. G. Berry
         rank: GM.
         suffix: ''
       - dbpedia: Amiel_Weeks_Whipple
         first_name: ''
+        full_name: A. W. Whipple,
         last_name: A. W. Whipple
         middle_name: ''
-        name: A. W. Whipple,
         rank: GM.
         suffix: ''
       - first_name: E.
+        full_name: E. Kirby
         last_name: Kirby
         middle_name: ''
-        name: E. Kirby
         rank: B.-G.
         suffix: ''
       guns: 404
@@ -1303,19 +1304,19 @@
       wounded_officers: 656
       wounded_percent: 8.2
   location: Stadt in Virginia, 15 km westl. von Fredericksburg
-  name: Chancellorsville
   other_names: []
   page: 530
   result: Confederate
   start_date: 1863-05-03
-- category:
+- battle_name: Champion's Hill
+  category:
   - Schlacht
   category_size: 4
   cwsac:
-  - relation: 'eq'
+  - relation: eq
     uri: MS009
   dbpedia:
-  - relation: 'eq'
+  - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Champion_Hill
   description: null
   end_date: &id012 1863-05-16
@@ -1327,17 +1328,17 @@
       commanders:
       - dbpedia: John_C._Pemberton
         first_name: ''
+        full_name: Pemberton
         last_name: Pemberton
         middle_name: ''
-        name: Pemberton
         rank: Gen.-Lt.
         suffix: ''
       generals_killed:
       - dbpedia: Lloyd_Tilghman
         first_name: L.
+        full_name: L. Tilghman
         last_name: Tilghman
         middle_name: ''
-        name: L. Tilghman
         rank: B.-G.
         suffix: ''
       killed_wounded: 3000
@@ -1355,9 +1356,9 @@
       commanders:
       - dbpedia: Ulysses_S._Grant
         first_name: U.
+        full_name: U. S. Grant
         last_name: Grant
         middle_name: S.
-        name: U. S. Grant
         rank: GM.
         suffix: ''
       killed: 450
@@ -1372,20 +1373,20 @@
       wounded: 1850
       wounded_officers: 108
   location: "Berg im Staate Mississippi, 30 km \xF6stl. von Vicksburg."
-  name: Champion's Hill
   other_names:
   - Baker's Creek
   page: 531
   result: Union
   start_date: *id012
-- category:
+- battle_name: Winchester
+  category:
   - Treffen
   category_size: 4
   cwsac:
-  - relation: 'eq'
+  - relation: eq
     uri: VA107
   dbpedia:
-  - relation: 'eq'
+  - relation: eq
     uri: http://dbpedia.org/resource/Second_Battle_of_Winchester
   description: null
   end_date: &id013 1863-06-15
@@ -1397,9 +1398,9 @@
       commanders:
       - dbpedia: Richard_Ewell
         first_name: ''
+        full_name: Ewell
         last_name: Ewell
         middle_name: ''
-        name: Ewell
         rank: Gen.-Lt.
         suffix: ''
       killed_wounded: 300
@@ -1413,9 +1414,9 @@
       commanders:
       - dbpedia: Robert_H._Milroy
         first_name: ''
+        full_name: Milroy
         last_name: Milroy
         middle_name: ''
-        name: Milroy
         rank: GM.
         suffix: ''
       killed_wounded: 500
@@ -1429,19 +1430,19 @@
       missing_percent: 44.5
       strength: 9000
   location: Stadt in Virginia, 100 km westl. von Washington.
-  name: Winchester
   other_names: []
   page: 531
   result: Confederate
   start_date: *id013
-- category:
+- battle_name: Gettysburg
+  category:
   - Schlacht
   category_size: 1
   cwsac:
-  - relation: 'eq'
+  - relation: eq
     uri: PA002
   dbpedia:
-  - relation: 'eq'
+  - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Gettysburg
   description: null
   end_date: 1863-07-03
@@ -1455,45 +1456,45 @@
       commanders:
       - dbpedia: Robert_E._Lee
         first_name: R.
+        full_name: R. Lee
         last_name: Lee
         middle_name: ''
-        name: R. Lee
         rank: Gen.
         suffix: ''
       generals_killed:
       - dbpedia: William_Dorsey_Pender
         first_name: W.
+        full_name: W. Pender
         last_name: Pender
         middle_name: ''
-        name: W. Pender
         rank: GM.
         suffix: ''
       - dbpedia: Lewis_Addison_Armistead
         first_name: A.
+        full_name: A. Armistead
         last_name: Armistead
         middle_name: ''
-        name: A. Armistead
         rank: B.-G.
         suffix: ''
       - dbpedia: William_Barksdale
         first_name: W.
+        full_name: W. Barksdale
         last_name: Barksdale
         middle_name: ''
-        name: W. Barksdale
         rank: B.-G.
         suffix: ''
       - dbpedia: Richard_B._Garnett
         first_name: R.
+        full_name: R. B. Garnett
         last_name: Garnett
         middle_name: B.
-        name: R. B. Garnett
         rank: B.-G.
         suffix: ''
       - dbpedia: Paul_Jones_Semmes
         first_name: P.
+        full_name: P. J. Semmes
         last_name: Semmes
         middle_name: J.
-        name: P. J. Semmes
         rank: B.-G.
         suffix: ''
       guns: 250
@@ -1523,45 +1524,45 @@
       commanders:
       - dbpedia: George_Gordon_Meade
         first_name: G.
+        full_name: G. G. Meade
         last_name: Meade
         middle_name: G.
-        name: G. G. Meade
         rank: GM.
         suffix: ''
       generals_killed:
       - dbpedia: John_Fulton_Reynolds
         first_name: J.
+        full_name: J. F. Reynolds
         last_name: Reynolds
         middle_name: F.
-        name: J. F. Reynolds
         rank: GM.
         suffix: ''
       - dbpedia: Samuel_K._Zook
         first_name: S.
+        full_name: S. K. Zook
         last_name: Zook
         middle_name: K.
-        name: S. K. Zook
         rank: GM.
         suffix: ''
       - dbpedia: Elon_J._Farnsworth
         first_name: E.
+        full_name: E. J. Farnsworth
         last_name: Farnsworth
         middle_name: J.
-        name: E. J. Farnsworth
         rank: B.-G.
         suffix: ''
       - dbpedia: Strong_Vincent
         first_name: S.
+        full_name: S. Vincent
         last_name: Vincent
         middle_name: ''
-        name: S. Vincent
         rank: B.-G.
         suffix: ''
       - dbpedia: Stephen_H._Weed
         first_name: S.
+        full_name: S. Weed
         last_name: Weed
         middle_name: ''
-        name: S. Weed
         rank: B.-G.
         suffix: ''
       guns: 300
@@ -1586,20 +1587,20 @@
       wounded_officers: 1135
       wounded_percent: 16.0
   location: "Stadt in Pennsylvania, 58 km s\xFCdwestl. von Harrisburg."
-  name: Gettysburg
   other_names: []
   page: 532
   result: Union
   start_date: 1863-07-01
-- category:
+- battle_name: Vicksburg
+  category:
   - Belagerung
   - Einnahme
   category_size: null
   cwsac:
-  - relation: 'eq'
+  - relation: eq
     uri: MS011
   dbpedia:
-  - relation: 'eq'
+  - relation: eq
     uri: http://dbpedia.org/resource/Siege_of_Vicksburg
   description: Der Garnison, welche mit allen Ehren ausziehen durfte, wurde gegen
     das Versprechen, nicht weiter gegen die Unionsstaaten zu dienen, freier Abzug
@@ -1615,24 +1616,24 @@
       commanders:
       - dbpedia: John_C._Pemberton
         first_name: ''
+        full_name: Pemberton
         last_name: Pemberton
         middle_name: ''
-        name: Pemberton
         rank: Gen.-Lt.
         suffix: ''
       generals_killed:
       - dbpedia: Martin_E._Green
         first_name: M.
+        full_name: M. E. Green
         last_name: Green
         middle_name: E.
-        name: M. E. Green
         rank: B.-G.
         suffix: ''
       - dbpedia: Edward_D._Tracy
         first_name: E.
+        full_name: E. D. Tracy
         last_name: Tracy
         middle_name: D.
-        name: E. D. Tracy
         rank: B.-G.
         suffix: ''
       killed_wounded: 7000
@@ -1644,27 +1645,27 @@
       commanders:
       - dbpedia: Ulysses_S._Grant
         first_name: U.
+        full_name: U. S. Grant
         last_name: Grant
         middle_name: S.
-        name: U. S. Grant
         rank: GM.
         suffix: ''
       killed_wounded: 9000
       strength: 75000
   location: Stadt im Staate Mississippi, am linken Ufer des Mississippistromes.
-  name: Vicksburg
   other_names: []
   page: 532
   result: Union
   start_date: 1863-05-19
-- category:
+- battle_name: Chickamauga
+  category:
   - Schlacht
   category_size: 1
   cwsac:
-  - relation: 'eq'
+  - relation: eq
     uri: GA004
   dbpedia:
-  - relation: 'eq'
+  - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Chickamauga
   description: null
   end_date: 1863-09-20
@@ -1678,31 +1679,31 @@
       commanders:
       - dbpedia: Braxton_Bragg
         first_name: B.
+        full_name: B. Bragg
         last_name: Bragg
         middle_name: ''
-        name: B. Bragg
         rank: Gen.
         suffix: ''
       generals_killed:
       - dbpedia: Preston_Smith_(general)
         first_name: P.
+        full_name: P. Smith
         last_name: Smith
         middle_name: ''
-        name: P. Smith
         rank: GM.
         suffix: ''
       - dbpedia: James_Deshler
         first_name: J.
+        full_name: J. Deschler
         last_name: Deschler
         middle_name: ''
-        name: J. Deschler
         rank: B.-G.
         suffix: ''
       - dbpedia: Benjamin_Hardin_Helm
         first_name: B.
+        full_name: B. H. Helm
         last_name: Helm
         middle_name: H.
-        name: B. H. Helm
         rank: B.-G.
         suffix: ''
       infantry: 62000
@@ -1730,17 +1731,17 @@
       commanders:
       - dbpedia: William_S._Rosecrans
         first_name: ''
+        full_name: Rosecrans
         last_name: Rosecrans
         middle_name: ''
-        name: Rosecrans
         rank: GM.
         suffix: ''
       generals_killed:
       - dbpedia: William_Haines_Lytle
         first_name: W.
+        full_name: W. H. Lytle
         last_name: Lytle
         middle_name: H.
-        name: W. H. Lytle
         rank: B.-G.
         suffix: ''
       guns: 246
@@ -1765,21 +1766,21 @@
       wounded_percent: 17.2
   location: "Linker Nebenflu\xDF des Tennessee; die Schlacht fand an beiden Ufern\
     \ des Flusses and der Grenze der Staaten Georgia und Tennessee statt."
-  name: Chickamauga
   other_names: []
   page: 533
   result: Confederate
   start_date: 1863-09-19
-- category:
+- battle_name: Ringgold
+  category:
   - Schlacht
   category_size: 3
   cwsac:
-  - relation: 'eq'
+  - relation: eq
     uri: TN024
   dbpedia:
-  - relation: 'gt'
+  - relation: gt
     uri: http://dbpedia.org/resource/Battle_of_Lookout_Mountain
-  - relation: 'gt'
+  - relation: gt
     uri: http://dbpedia.org/resource/Battle_of_Missionary_Ridge
   description: null
   end_date: 1863-11-25
@@ -1792,9 +1793,9 @@
       commanders:
       - dbpedia: Braxton_Bragg
         first_name: R.
+        full_name: R. Bragg
         last_name: Bragg
         middle_name: ''
-        name: R. Bragg
         rank: Gen.
         suffix: ''
       killed: 400
@@ -1818,9 +1819,9 @@
       commanders:
       - dbpedia: Ulysses_S._Grant
         first_name: U.
+        full_name: U. S. Grant
         last_name: Grant
         middle_name: S.
-        name: U. S. Grant
         rank: GM.
         suffix: ''
       killed: 800
@@ -1840,21 +1841,21 @@
       wounded_officers: 400
   location: "Stadt in n\xF6rdlichen Georgia, knapp an der Grenze von Tennessee, 30\
     \ km s\xFCd\xF6stl. von Chattanooga in Tennessee."
-  name: Ringgold
   other_names:
   - Chattanooga
   - Missionary Ridge
   page: 533
   result: Union
   start_date: 1863-11-23
-- category:
+- battle_name: Lexington
+  category:
   - Kapitulation
   category_size: null
   cwsac:
-  - relation: 'eq'
+  - relation: eq
     uri: MO006
   dbpedia:
-  - relation: 'eq'
+  - relation: eq
     uri: http://dbpedia.org/resource/First_Battle_of_Lexington
   description: "Die Konf\xF6derierten (10.000 M., 16 Gesch.) unter GM. Price zwingen\
     \ die unionistiche Garnisson (3.000 M, 9. Gesch.) unter Oberst Mulligan zur \xDC\
@@ -1866,9 +1867,9 @@
       commanders:
       - dbpedia: Sterling_Price
         first_name: ''
+        full_name: Price
         last_name: Price
         middle_name: ''
-        name: Price
         rank: GM.
         suffix: ''
       guns: 16
@@ -1878,29 +1879,29 @@
       commanders:
       - dbpedia: James_A._Mulligan
         first_name: ''
+        full_name: Mulligan
         last_name: Mulligan
         middle_name: ''
-        name: Mulligan
         rank: Oberst
         suffix: ''
       guns: 9
       strength: 3000
   location: Stadt in den Vereinigten Staaten von Nordamerika, Missouri, am rechten
     Ufer des Missouri, 320 km nordwestl. von St. Louis.
-  name: Lexington
   number: 3
   other_names: []
   page: 522
   result: Confederate
   start_date: *id014
-- category:
+- battle_name: Wilderness
+  category:
   - Schlacht
   category_size: 2
   cwsac:
-  - relation: 'eq'
+  - relation: eq
     uri: VA046
   dbpedia:
-  - relation: 'eq'
+  - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_the_Wilderness
   description: null
   end_date: 1864-05-07
@@ -1915,24 +1916,24 @@
       commanders:
       - dbpedia: Robert_E._Lee
         first_name: R.
+        full_name: R. Lee
         last_name: Lee
         middle_name: ''
-        name: R. Lee
         rank: Gen.
         suffix: ''
       generals_killed:
       - dbpedia: Albert_Gallatin_Jenkins
         first_name: A.
+        full_name: A. G. Jenkins
         last_name: Jenkins
         middle_name: G.
-        name: A. G. Jenkins
         rank: B.-G.
         suffix: ''
       - dbpedia: John_M._Jones
         first_name: J.
+        full_name: J. M. Jones
         last_name: Jones
         middle_name: M.
-        name: J. M. Jones
         rank: B.-G.
         suffix: ''
       guns: 224
@@ -1961,24 +1962,24 @@
       commanders:
       - dbpedia: Ulysses_S._Grant
         first_name: U.
+        full_name: U. S. Grant
         last_name: Grant
         middle_name: S.
-        name: U. S. Grant
         rank: Gen.-Lt.
         suffix: ''
       generals_killed:
       - dbpedia: Alexander_Hays
         first_name: A.
+        full_name: A. Hays
         last_name: Hays
         middle_name: ''
-        name: A. Hays
         rank: GM.
         suffix: ''
       - dbpedia: James_S._Wadsworth
         first_name: J.
+        full_name: J. S. Wadsworth
         last_name: Wadsworth
         middle_name: S.
-        name: J. S. Wadsworth
         rank: GM.
         suffix: ''
       guns: 318
@@ -2003,19 +2004,19 @@
       wounded_percent: 10.2
   location: "Waldige, zerkl\xFCftete, \"die Wildnis\" benannte Gegend im Staate Virginia,\
     \ am rechten Ufer des Rapidan, 100 km nordwestl. von Richmond."
-  name: Wilderness
   other_names: []
   page: 535
   result: Union
   start_date: 1864-05-05
-- category:
+- battle_name: Spotsylvania-Court-House
+  category:
   - Schlacht
   category_size: 2
   cwsac:
-  - relation: 'eq'
+  - relation: eq
     uri: VA048
   dbpedia:
-  - relation: 'eq'
+  - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Spotsylvania_Court_House
   description: null
   end_date: 1864-05-12
@@ -2030,38 +2031,38 @@
       commanders:
       - dbpedia: Robert_E._Lee
         first_name: R.
+        full_name: R. Lee
         last_name: Lee
         middle_name: ''
-        name: R. Lee
         rank: Gen.
         suffix: ''
       generals_killed:
       - dbpedia: J.E.B._Stuart
         first_name: J.
+        full_name: J. E. B. Stuart
         last_name: Stuart
         middle_name: E. B.
-        name: J. E. B. Stuart
         rank: G.-L.
         suffix: ''
       - dbpedia: Junius_Daniel
         first_name: J.
+        full_name: J. Daniel
         last_name: Daniel
         middle_name: ''
-        name: J. Daniel
         rank: B.-G.
         suffix: ''
       - dbpedia: Abner_Monroe_Perrin
         first_name: A.
+        full_name: A. Perrin
         last_name: Perrin
         middle_name: ''
-        name: A. Perrin
         rank: B.-G.
         suffix: ''
       - dbpedia: Leroy_A._Stafford
         first_name: L.
+        full_name: L. A. Stafford
         last_name: Stafford
         middle_name: A.
-        name: L. A. Stafford
         rank: B.-G.
         suffix: ''
       infantry: 39000
@@ -2090,31 +2091,31 @@
       commanders:
       - dbpedia: Ulysses_S._Grant
         first_name: U.
+        full_name: U. S. Grant
         last_name: Grant
         middle_name: S.
-        name: U. S. Grant
         rank: Gen.-Lt.
         suffix: ''
       generals_killed:
       - dbpedia: John_Sedgwick
         first_name: J.
+        full_name: J. Sedgwick
         last_name: Sedgwick
         middle_name: ''
-        name: J. Sedgwick
         rank: GM.
         suffix: ''
       - dbpedia: James_Clay_Rice
         first_name: J.
+        full_name: J. C. Rice
         last_name: Rice
         middle_name: C.
-        name: J. C. Rice
         rank: B.-G.
         suffix: ''
       - dbpedia: Thomas_G._Stevenson
         first_name: T.
+        full_name: T. G. Stevenson
         last_name: Stevenson
         middle_name: G.
-        name: T. G. Stevenson
         rank: B.-G.
         suffix: ''
       infantry: 79000
@@ -2136,19 +2137,19 @@
       wounded_officers: 668
       wounded_percent: 13.5
   location: "Ort in Virginia, 70 km n\xF6rdl. von Richmond"
-  name: Spotsylvania-Court-House
   other_names: []
   page: 535
   result: Union
   start_date: 1864-05-08
-- category:
+- battle_name: Resaca
+  category:
   - Schlacht
   category_size: 4
   cwsac:
-  - relation: 'eq'
+  - relation: eq
     uri: GA008
   dbpedia:
-  - relation: 'eq'
+  - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Resaca
   description: null
   end_date: &id015 1864-05-14
@@ -2160,9 +2161,9 @@
       commanders:
       - dbpedia: Joseph_E._Johnston
         first_name: J.
+        full_name: J. Johnston
         last_name: Johnston
         middle_name: ''
-        name: J. Johnston
         rank: Gen.
         suffix: ''
       killed_wounded: 1500
@@ -2175,28 +2176,28 @@
       commanders:
       - dbpedia: William_Tecumseh_Sherman
         first_name: W.
+        full_name: W. T. Sherman
         last_name: Sherman
         middle_name: T.
-        name: W. T. Sherman
         rank: GM.
         suffix: ''
       killed_wounded: 4000
       missing: 500
       strength: 93000
   location: Stadt in Georgia, 100 km nordwestl. von Atlanta
-  name: Resaca
   other_names: []
   page: 536
   result: Union
   start_date: *id015
-- category:
+- battle_name: Drewry's Bluff
+  category:
   - Treffen
   category_size: 4
   cwsac:
-  - relation: 'eq'
+  - relation: eq
     uri: VA053
   dbpedia:
-  - relation: 'eq'
+  - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Proctor's_Creek
   description: null
   end_date: &id016 1864-05-16
@@ -2209,9 +2210,9 @@
       commanders:
       - dbpedia: P.G.T._Beauregard
         first_name: ''
+        full_name: Beauregard
         last_name: Beauregard
         middle_name: ''
-        name: Beauregard
         rank: Gen.-Lt.
         suffix: ''
       killed_wounded: 3000
@@ -2224,9 +2225,9 @@
       commanders:
       - dbpedia: Benjamin_Franklin_Butler_(politician)
         first_name: ''
+        full_name: Butler
         last_name: Butler
         middle_name: ''
-        name: Butler
         rank: GM.
         suffix: ''
       killed_wounded: 3000
@@ -2235,19 +2236,19 @@
       strength: 30000
   location: "Ort in Virginia, am rechten Ufer des James River, 11 km s\xFCdl. von\
     \ Richmond"
-  name: Drewry's Bluff
   other_names: []
   page: 536
   result: Confederate
   start_date: *id016
-- category:
+- battle_name: Pamunkey
+  category:
   - Treffen
   category_size: 4
   cwsac:
-  - relation: 'eq'
+  - relation: eq
     uri: VA055
   dbpedia:
-  - relation: 'eq'
+  - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_North_Anna
   description: null
   end_date: 1864-05-26
@@ -2259,9 +2260,9 @@
       commanders:
       - dbpedia: Robert_E._Lee
         first_name: R.
+        full_name: R. Lee
         last_name: Lee
         middle_name: ''
-        name: R. Lee
         rank: Gen.
         suffix: ''
       strength: 38000
@@ -2273,26 +2274,26 @@
       commanders:
       - dbpedia: Ulysses_S._Grant
         first_name: U.
+        full_name: U. S. Grant
         last_name: Grant
         middle_name: S.
-        name: U. S. Grant
         rank: Gen.-Lt.
         suffix: ''
       strength: 52000
   location: "Flu\xDF in Virginia, m\xFCndet in die York-Bay."
-  name: Pamunkey
   other_names: []
   page: 536
   result: Union
   start_date: 1864-05-22
-- category:
+- battle_name: New Hope Church
+  category:
   - Treffen
   category_size: 4
   cwsac:
-  - relation: 'eq'
+  - relation: eq
     uri: GA011
   dbpedia:
-  - relation: 'eq'
+  - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Dallas
   description: null
   end_date: &id017 1864-05-28
@@ -2303,9 +2304,9 @@
       commanders:
       - dbpedia: Joseph_E._Johnston
         first_name: J.
+        full_name: J. Johnston
         last_name: Johnston
         middle_name: ''
-        name: J. Johnston
         rank: Gen.
         suffix: ''
       strength: 40000
@@ -2315,27 +2316,27 @@
       commanders:
       - dbpedia: William_Tecumseh_Sherman
         first_name: W.
+        full_name: W. T. Sherman
         last_name: Sherman
         middle_name: T.
-        name: W. T. Sherman
         rank: Gen.-Lt.
         suffix: ''
       strength: 80000
   location: Ort in Georgia, 50 km nordwestl. von Atlanta.
-  name: New Hope Church
   other_names:
   - Dallas
   page: 536
   result: Union
   start_date: *id017
-- category:
+- battle_name: Cold Harbor
+  category:
   - Schlacht
   category_size: 3
   cwsac:
-  - relation: 'eq'
+  - relation: eq
     uri: VA062
   dbpedia:
-  - relation: 'eq'
+  - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Cold_Harbor
   description: null
   end_date: &id018 1864-06-03
@@ -2347,9 +2348,9 @@
       commanders:
       - dbpedia: Robert_E._Lee
         first_name: R.
+        full_name: R. Lee
         last_name: Lee
         middle_name: ''
-        name: R. Lee
         rank: Gen.
         suffix: ''
       killed: 400
@@ -2370,9 +2371,9 @@
       commanders:
       - dbpedia: Ulysses_S._Grant
         first_name: U.
+        full_name: U. S. Grant
         last_name: Grant
         middle_name: S.
-        name: U. S. Grant
         rank: GL.
         suffix: ''
       killed: 1900
@@ -2391,19 +2392,19 @@
       wounded_officers: 432
       wounded_percent: 9.1
   location: "Ort in Virginia, 13 km nord\xF6stl. von Richmond."
-  name: Cold Harbor
   other_names: []
   page: 537
   result: Confederate
   start_date: *id018
-- category:
+- battle_name: Kenesaw-Mountain
+  category:
   - Treffen
   category_size: 5
   cwsac:
-  - relation: 'eq'
+  - relation: eq
     uri: GA015
   dbpedia:
-  - relation: 'eq'
+  - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Kennesaw_Mountain
   description: null
   end_date: &id019 1864-06-27
@@ -2415,9 +2416,9 @@
       commanders:
       - dbpedia: Joseph_E._Johnston
         first_name: J.
+        full_name: J. Johnston
         last_name: Johnston
         middle_name: ''
-        name: J. Johnston
         rank: Gen.
         suffix: ''
       strength: 6000
@@ -2428,26 +2429,26 @@
       commanders:
       - dbpedia: William_Tecumseh_Sherman
         first_name: W.
+        full_name: W. T. Sherman
         last_name: Sherman
         middle_name: T.
-        name: W. T. Sherman
         rank: GM.
         suffix: ''
       strength: 18000
   location: Berg in Georgia, 34 km nordwestl. von Atlanta.
-  name: Kenesaw-Mountain
   other_names: []
   page: 537
   result: Confederate
   start_date: *id019
-- category:
+- battle_name: Peach-Tree-Creek
+  category:
   - Schlacht
   category_size: 4
   cwsac:
-  - relation: 'eq'
+  - relation: eq
     uri: GA016
   dbpedia:
-  - relation: 'eq'
+  - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Peachtree_Creek
   description: null
   end_date: &id020 1864-07-20
@@ -2458,9 +2459,9 @@
       casualties_percent: 10
       commanders:
       - first_name: J.
+        full_name: J. B. Hood
         last_name: Hood
         middle_name: B.
-        name: J. B. Hood
         rank: Gen.
         suffix: ''
       strength: 48000
@@ -2470,28 +2471,28 @@
       casualties_percent: 2.4
       commanders:
       - first_name: W.
+        full_name: W. T. Sherman
         last_name: Sherman
         middle_name: T.
-        name: W. T. Sherman
         rank: GM.
         suffix: ''
       strength: 72000
   location: "Linker Nebenflu\xDF des Chattaboochee in Georgia, m\xFCndet 11 km nordwestl.\
     \ von Atlanta."
-  name: Peach-Tree-Creek
   other_names:
   - Atlanta
   page: 538
   result: Union
   start_date: *id020
-- category:
+- battle_name: Atlanta
+  category:
   - Schlacht
   category_size: 3
   cwsac:
-  - relation: 'eq'
+  - relation: eq
     uri: GA017
   dbpedia:
-  - relation: 'eq'
+  - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Atlanta
   description: null
   end_date: &id021 1864-07-22
@@ -2503,17 +2504,17 @@
       commanders:
       - dbpedia: John_Bell_Hood
         first_name: J.
+        full_name: J. B. Hood
         last_name: Hood
         middle_name: B.
-        name: J. B. Hood
         rank: Gen.
         suffix: ''
       generals_killed:
       - dbpedia: William_H.T._Walker
         first_name: W.
+        full_name: W. H. T. Walker
         last_name: Walker
         middle_name: H. T.
-        name: W. H. T. Walker
         rank: GM.
         suffix: ''
       strength: 40000
@@ -2524,42 +2525,42 @@
       commanders:
       - dbpedia: William_Tecumseh_Sherman
         first_name: W.
+        full_name: W. T. Sherman
         last_name: Sherman
         middle_name: T.
-        name: W. T. Sherman
         rank: GM.
         suffix: ''
       generals_killed:
       - dbpedia: James_B._McPherson
         first_name: J.
+        full_name: J. B. McPherson
         last_name: McPherson
         middle_name: B.
-        name: J. B. McPherson
         rank: GM.
         suffix: ''
       - dbpedia: Daniel_McCook,_Jr.
         first_name: D.
+        full_name: D. McCook
         last_name: McCook
         middle_name: ''
-        name: D. McCook
         rank: B.-G.
         suffix: ''
       strength: 70000
   location: "Hauptstadt des Staates Georgia, 880 km s\xFCdwestl. von Washington"
-  name: Atlanta
   other_names: []
   page: 538
   result: Union
   start_date: *id021
-- category:
+- battle_name: Fort Donelson
+  category:
   - Schlacht
   - Kapitulation
   category_size: 3
   cwsac:
-  - relation: 'eq'
+  - relation: eq
     uri: TN002
   dbpedia:
-  - relation: 'eq'
+  - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Fort_Donelson
   description: null
   end_date: 1862-02-15
@@ -2572,9 +2573,9 @@
       commanders:
       - dbpedia: Simon_Bolivar_Buckner,_Sr.
         first_name: ''
+        full_name: Buckner
         last_name: Buckner
         middle_name: ''
-        name: Buckner
         rank: Brig.-Gen.
         suffix: ''
       killed_wounded: 2000
@@ -2591,9 +2592,9 @@
       commanders:
       - dbpedia: Ulysses_S._Grant
         first_name: ''
+        full_name: Grant
         last_name: Grant
         middle_name: ''
-        name: Grant
         rank: Brig.-Gen.
         suffix: ''
       killed_wounded: 2660
@@ -2603,20 +2604,20 @@
       strength: 27000
   location: "Verschanzungen der Konf\xF6derierten in Tennessee, am linken Ufer des\
     \ Cumberlandflusses, n\xF6rdl. von Dover, 110 km. nordwestl. von Nashville"
-  name: Fort Donelson
   number: 4
   other_names: []
   page: 523
   result: Union
   start_date: 1862-02-12
-- category:
+- battle_name: Ezra-Church
+  category:
   - Schlacht
   category_size: 4
   cwsac:
-  - relation: 'eq'
+  - relation: eq
     uri: GA018
   dbpedia:
-  - relation: 'eq'
+  - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Ezra_Church
   description: null
   end_date: &id022 1864-07-28
@@ -2628,9 +2629,9 @@
       commanders:
       - dbpedia: John_Bell_Hood
         first_name: J.
+        full_name: J. B. Hood
         last_name: Hood
         middle_name: B.
-        name: J. B. Hood
         rank: Gen.
         suffix: ''
       strength: 30000
@@ -2641,27 +2642,27 @@
       commanders:
       - dbpedia: William_Tecumseh_Sherman
         first_name: W.
+        full_name: W. T. Sherman
         last_name: Sherman
         middle_name: T.
-        name: W. T. Sherman
         rank: GM.
         suffix: ''
       strength: 60000
   location: Ord in Georgia, 5 km westl. von Atlanta
-  name: Ezra-Church
   other_names:
   - Atlanta
   page: 538
   result: Union
   start_date: *id022
-- category:
+- battle_name: Winchester
+  category:
   - Schlacht
   category_size: 4
   cwsac:
-  - relation: 'eq'
+  - relation: eq
     uri: VA119
   dbpedia:
-  - relation: 'eq'
+  - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Opequon
   description: null
   end_date: &id023 1864-09-19
@@ -2674,24 +2675,24 @@
       commanders:
       - dbpedia: Jubal_Anderson_Early
         first_name: J.
+        full_name: J. A. Early
         last_name: Early
         middle_name: A.
-        name: J. A. Early
         rank: Gen.-Lt.
         suffix: ''
       generals_killed:
       - dbpedia: Robert_E._Rodes
         first_name: R.
+        full_name: R. E. Rodes
         last_name: Rodes
         middle_name: E.
-        name: R. E. Rodes
         rank: GM.
         suffix: ''
       - dbpedia: Archibald_C._Godwin
         first_name: A.
+        full_name: A. C. Godwin
         last_name: Godwin
         middle_name: C.
-        name: A. C. Godwin
         rank: B.-G.
         suffix: ''
       infantry: 11000
@@ -2710,17 +2711,17 @@
       commanders:
       - dbpedia: Philip_Sheridan
         first_name: P.
+        full_name: P. H. Sheridan
         last_name: Sheridan
         middle_name: H.
-        name: P. H. Sheridan
         rank: GM.
         suffix: ''
       generals_killed:
       - dbpedia: David_Allen_Russell
         first_name: D.
+        full_name: D. A. Russell
         last_name: Russell
         middle_name: A.
-        name: D. A. Russell
         rank: GM.
         suffix: ''
       infantry: 33000
@@ -2731,20 +2732,20 @@
       strength: 43000
   location: "Stadt in Virginia, in der N\xE4he des Opequon, rechtem Nebenflu\xDF des\
     \ Potomac."
-  name: Winchester
   other_names:
   - Opequon
   page: 539
   result: Union
   start_date: *id023
-- category:
+- battle_name: Middletown
+  category:
   - Schlacht
   category_size: 4
   cwsac:
-  - relation: 'eq'
+  - relation: eq
     uri: VA122
   dbpedia:
-  - relation: 'eq'
+  - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Cedar_Creek
   description: null
   end_date: &id024 1864-10-19
@@ -2756,17 +2757,17 @@
       commanders:
       - dbpedia: Jubal_Anderson_Early
         first_name: J.
+        full_name: J. A. Early
         last_name: Early
         middle_name: A.
-        name: J. A. Early
         rank: Gen.-Lt.
         suffix: ''
       generals_killed:
       - dbpedia: Stephen_Dodson_Ramseur
         first_name: S.
+        full_name: S. D. Ramseur
         last_name: Ramseur
         middle_name: D.
-        name: S. D. Ramseur
         rank: GM.
         suffix: ''
       killed_wounded: 1900
@@ -2782,24 +2783,24 @@
       commanders:
       - dbpedia: Philip_Sheridan
         first_name: P.
+        full_name: P. H. Sheridan
         last_name: Sheridan
         middle_name: H.
-        name: P. H. Sheridan
         rank: GM.
         suffix: ''
       generals_killed:
       - dbpedia: Daniel_Davidson_Bidwell
         first_name: D.
+        full_name: D. D. Bidwell
         last_name: Bidwell
         middle_name: D.
-        name: D. D. Bidwell
         rank: B.-G.
         suffix: ''
       - dbpedia: Charles_Russell_Lowell
         first_name: C.
+        full_name: C. R. Lowell
         last_name: Lowell
         middle_name: R.
-        name: C. R. Lowell
         rank: B.-G.
         suffix: ''
       killed_wounded: 4100
@@ -2809,20 +2810,20 @@
       strength: 40000
   location: "Kleine Stadt in Virginia, 20 km s\xFCdwestl. von Winchester, am Cedar\
     \ Creek, Nebenflu\xDF des Shenandoah."
-  name: Middletown
   other_names:
   - Cedar Creek
   page: 539
   result: Union
   start_date: *id024
-- category:
+- battle_name: Franklin
+  category:
   - Schlacht
   category_size: 4
   cwsac:
-  - relation: 'eq'
+  - relation: eq
     uri: TN036
   dbpedia:
-  - relation: 'eq'
+  - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Franklin_(1864)
   description: null
   end_date: &id025 1864-11-30
@@ -2836,45 +2837,45 @@
       commanders:
       - dbpedia: John_Bell_Hood
         first_name: J.
+        full_name: J. B. Hood
         last_name: Hood
         middle_name: B.
-        name: J. B. Hood
         rank: Gen.
         suffix: ''
       generals_killed:
       - dbpedia: Patrick_Cleburne
         first_name: P.
+        full_name: P. R. Cleburne
         last_name: Cleburne
         middle_name: R.
-        name: P. R. Cleburne
         rank: GM.
         suffix: ''
       - dbpedia: null
         first_name: J.
+        full_name: J. Adams
         last_name: Adams
         middle_name: ''
-        name: J. Adams
         rank: B.-G.
         suffix: ''
       - dbpedia: States_Rights_Gist
         first_name: S.
+        full_name: S. R. Gist
         last_name: Gist
         middle_name: R.
-        name: S. R. Gist
         rank: B.-G.
         suffix: ''
       - dbpedia: Hiram_B._Granbury
         first_name: H.
+        full_name: H. B. Gransbury
         last_name: Gransbury
         middle_name: B.
-        name: H. B. Gransbury
         rank: B.-G.
         suffix: ''
       - dbpedia: Otho_F._Strahl
         first_name: O.
+        full_name: O. F. Strahl
         last_name: Strahl
         middle_name: F.
-        name: O. F. Strahl
         rank: B.-G.
         suffix: ''
       infantry: 30000
@@ -2899,9 +2900,9 @@
       commanders:
       - dbpedia: John_Schofield
         first_name: ''
+        full_name: Schofield
         last_name: Schofield
         middle_name: ''
-        name: Schofield
         rank: GM.
         suffix: ''
       infantry: 22000
@@ -2915,19 +2916,19 @@
       wounded: 1100
       wounded_percent: 4.0
   location: "Dorf in Tennessee, 30 km s\xFCdl. von Nashville."
-  name: Franklin
   other_names: []
   page: 540
   result: Confederate
   start_date: *id025
-- category:
+- battle_name: Nashville
+  category:
   - Schlacht
   category_size: 3
   cwsac:
-  - relation: 'eq'
+  - relation: eq
     uri: TN038
   dbpedia:
-  - relation: 'eq'
+  - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Nashville
   description: null
   end_date: 1864-12-16
@@ -2940,9 +2941,9 @@
       commanders:
       - dbpedia: John_Bell_Hood
         first_name: J.
+        full_name: J. B. Hood
         last_name: Hood
         middle_name: B.
-        name: J. B. Hood
         rank: Gen.
         suffix: ''
       infantry: 36000
@@ -2956,47 +2957,47 @@
       commanders:
       - dbpedia: George_Henry_Thomas
         first_name: G.
+        full_name: G. H. Thomas
         last_name: Thomas
         middle_name: H.
-        name: G. H. Thomas
         rank: GM.
         suffix: ''
       generals_killed:
       - dbpedia: nullo
         first_name: S.
+        full_name: S. G. Hill
         last_name: Hill
         middle_name: G.
-        name: S. G. Hill
         rank: Brig.-Gen.
         suffix: ''
       infantry: 43000
       strength: 55000
   location: "Haupstadt von Tennessee, 930 km. s\xFCdwestl. von Washington."
-  name: Nashville
   other_names: []
   page: 540
   result: Union
   start_date: 1864-12-15
-- category:
+- battle_name: Charleston
+  category:
   - Belagerung
   category_size: null
   cwsac:
-  - relation: 'gt'
+  - relation: gt
     uri: SC008
-  - relation: 'gt'
+  - relation: gt
     uri: SC009
-  - relation: 'gt'
+  - relation: gt
     uri: SC006
-  - relation: 'gt'
+  - relation: gt
     uri: SC004
   dbpedia:
-  - relation: 'gt'
+  - relation: gt
     uri: http://dbpedia.org/resource/Second_Battle_of_Fort_Sumter
-  - relation: 'gt'
+  - relation: gt
     uri: http://dbpedia.org/resource/Second_Battle_of_Charleston_Harbor
-  - relation: 'gt'
+  - relation: gt
     uri: http://dbpedia.org/resource/Battle_of_Grimball's_Landing
-  - relation: 'gt'
+  - relation: gt
     uri: http://dbpedia.org/resource/First_Battle_of_Charleston_Harbor
   description: "Die Konf\xF6derierte unter Gen. Beauregard behaupten sich erfolgreich\
     \ gegen alle\nAngriffe der Unierten zu Lande und zur See unter Generalen Hunter\
@@ -3011,9 +3012,9 @@
       commanders:
       - dbpedia: P._G._T._Beauregard
         first_name: ''
+        full_name: Beauregard
         last_name: Beauregard
         middle_name: ''
-        name: Beauregard
         rank: Gen.
         suffix: ''
     US:
@@ -3021,46 +3022,46 @@
       commanders:
       - dbpedia: David_Hunter
         first_name: ''
+        full_name: Hunter
         last_name: Hunter
         middle_name: ''
-        name: Hunter
         rank: Gen.
         suffix: ''
       - dbpedia: Quincy_Adams_Gillmore
         first_name: ''
+        full_name: Gillmore
         last_name: Gillmore
         middle_name: ''
-        name: Gillmore
         rank: Gen.
         suffix: ''
       - dbpedia: Samuel_Francis_Du_Pont
         first_name: ''
+        full_name: Dupont
         last_name: Dupont
         middle_name: ''
-        name: Dupont
         rank: Adm.
         suffix: ''
       - dbpedia: John_A._Dahlgren
         first_name: ''
+        full_name: Dahlgreen
         last_name: Dahlgreen
         middle_name: ''
-        name: Dahlgreen
         rank: Adm.
         suffix: ''
   location: "Bedeutendste Hafenstadt S\xFCd-Carolinas."
-  name: Charleston
   other_names: []
   page: 540
   result: Union
   start_date: 1863-04-01
-- category:
+- battle_name: Bentonville
+  category:
   - Schlacht
   category_size: 4
   cwsac:
-  - relation: 'eq'
+  - relation: eq
     uri: NC020
   dbpedia:
-  - relation: 'eq'
+  - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Bentonville
   description: null
   end_date: &id026 1865-03-20
@@ -3072,9 +3073,9 @@
       commanders:
       - dbpedia: Joseph_E._Johnston
         first_name: J.
+        full_name: J. Johnston
         last_name: Johnston
         middle_name: ''
-        name: J. Johnston
         rank: Gen.
         suffix: ''
       killed_wounded: 1700
@@ -3091,9 +3092,9 @@
       commanders:
       - dbpedia: William_Tecumseh_Sherman
         first_name: W.
+        full_name: W. T. Sherman
         last_name: Sherman
         middle_name: T.
-        name: W. T. Sherman
         rank: GM.
         suffix: ''
       killed_wounded: 1500
@@ -3106,116 +3107,116 @@
       missing_percnet: 0
       strength: 60000
   location: "Dorf in Nord-Carolina, ca. 60 km. s\xFCd\xF6stl. von Raleigh."
-  name: Bentonville
   other_names: []
   page: 541
   result: Union
   start_date: *id026
-- category:
+- battle_name: Petersburg
+  category:
   - Belagerung
   - Einnahme
   category_size: null
   cwsac:
-  - relation: 'gt'
+  - relation: gt
     uri: VA098
-  - relation: 'gt'
+  - relation: gt
     uri: VA063
-  - relation: 'gt'
+  - relation: gt
     uri: VA065
-  - relation: 'gt'
+  - relation: gt
     uri: VA113
-  - relation: 'gt'
+  - relation: gt
     uri: VA067
-  - relation: 'gt'
+  - relation: gt
     uri: VA068
-  - relation: 'gt'
+  - relation: gt
     uri: VA069
-  - relation: 'gt'
+  - relation: gt
     uri: VA070
-  - relation: 'gt'
+  - relation: gt
     uri: VA071
-  - relation: 'gt'
+  - relation: gt
     uri: VA072
-  - relation: 'gt'
+  - relation: gt
     uri: VA073
-  - relation: 'gt'
+  - relation: gt
     uri: VA075
-  - relation: 'gt'
+  - relation: gt
     uri: VA074
-  - relation: 'gt'
+  - relation: gt
     uri: VA078
-  - relation: 'gt'
+  - relation: gt
     uri: VA080
-  - relation: 'gt'
+  - relation: gt
     uri: VA079
-  - relation: 'gt'
+  - relation: gt
     uri: VA085
-  - relation: 'gt'
+  - relation: gt
     uri: VA087
-  - relation: 'gt'
+  - relation: gt
     uri: VA086
-  - relation: 'gt'
+  - relation: gt
     uri: VA090
-  - relation: 'gt'
+  - relation: gt
     uri: VA083
-  - relation: 'gt'
+  - relation: gt
     uri: VA084
-  - relation: 'gt'
+  - relation: gt
     uri: VA088
-  - relation: 'gt'
+  - relation: gt
     uri: VA089
   dbpedia:
-  - relation: 'gt'
+  - relation: gt
     uri: http://dbpedia.org/resource/First_Battle_of_Petersburg
-  - relation: 'gt'
+  - relation: gt
     uri: http://dbpedia.org/resource/Second_Battle_of_Petersburg
-  - relation: 'gt'
+  - relation: gt
     uri: http://dbpedia.org/resource/Battle_of_Jerusalem_Plank_Road
-  - relation: 'gt'
+  - relation: gt
     uri: http://dbpedia.org/resource/Battle_of_Staunton_River_Bridge
-  - relation: 'gt'
+  - relation: gt
     uri: http://dbpedia.org/resource/Battle_of_Sappony_Church
-  - relation: 'gt'
+  - relation: gt
     uri: http://dbpedia.org/resource/First_Battle_of_Ream's_Station
-  - relation: 'gt'
+  - relation: gt
     uri: http://dbpedia.org/resource/First_Battle_of_Deep_Bottom
-  - relation: 'gt'
+  - relation: gt
     uri: http://dbpedia.org/resource/Battle_of_the_Crater
-  - relation: 'gt'
+  - relation: gt
     uri: http://dbpedia.org/resource/Second_Battle_of_Deep_Bottom
-  - relation: 'gt'
+  - relation: gt
     uri: http://dbpedia.org/resource/Battle_of_Globe_Tavern
-  - relation: 'gt'
+  - relation: gt
     uri: http://dbpedia.org/resource/Second_Battle_of_Ream's_Station
-  - relation: 'gt'
+  - relation: gt
     uri: http://dbpedia.org/resource/Beefsteak_Raid
-  - relation: 'gt'
+  - relation: gt
     uri: http://dbpedia.org/resource/Battle_of_Chaffin's_Farm
-  - relation: 'gt'
+  - relation: gt
     uri: http://dbpedia.org/resource/Battle_of_Peebles'_Farm
-  - relation: 'gt'
+  - relation: gt
     uri: http://dbpedia.org/resource/Battle_of_Darbytown_and_New_Market_Roads
-  - relation: 'gt'
+  - relation: gt
     uri: http://dbpedia.org/resource/Battle_of_Darbytown_Road
-  - relation: 'gt'
+  - relation: gt
     uri: http://dbpedia.org/resource/Battle_of_Fair_Oaks_&_Darbytown_Road
-  - relation: 'gt'
+  - relation: gt
     uri: http://dbpedia.org/resource/Battle_of_Boydton_Plank_Road
-  - relation: 'gt'
+  - relation: gt
     uri: http://dbpedia.org/resource/Battle_of_Lewis's_Farm
-  - relation: 'gt'
+  - relation: gt
     uri: http://dbpedia.org/resource/Battle_of_White_Oak_Road
-  - relation: 'gt'
+  - relation: gt
     uri: http://dbpedia.org/resource/Battle_of_Dinwiddie_Court_House
-  - relation: 'gt'
+  - relation: gt
     uri: http://dbpedia.org/resource/Battle_of_Sutherland's_Station
-  - relation: 'gt'
+  - relation: gt
     uri: http://dbpedia.org/resource/Battle_of_Hatcher's_Run
-  - relation: 'gt'
+  - relation: gt
     uri: http://dbpedia.org/resource/Battle_of_Fort_Stedman
-  - relation: 'gt'
+  - relation: gt
     uri: http://dbpedia.org/resource/Battle_of_Five_Forks
-  - relation: 'gt'
+  - relation: gt
     uri: http://dbpedia.org/resource/Third_Battle_of_Petersburg
   description: "Die Unierten (91.000 Inft., 19.000 Kav., 10.000 Art., zus. 120.000\
     \ M.\\1) unter\nGen.-Lt. U. S. Grant zwingen nach 10 monatlicher Belagerung der\
@@ -3233,26 +3234,26 @@
       commanders:
       - dbpedia: Robert_E._Lee
         first_name: R.
+        full_name: R. Lee
         last_name: Lee
         middle_name: ''
-        name: R. Lee
         rank: Gen.
         suffix: ''
       generals_killed:
       - date: 1865-04-02
         dbpedia: Ambrose_Powell_Hill
         first_name: A.
+        full_name: A. P. Hill
         last_name: Hill
         middle_name: P.
-        name: A. P. Hill
         rank: G.-L.
         suffix: ''
       - date: 1865-02-06
         dbpedia: John_Pegram_(general)
         first_name: J.
+        full_name: J. Pegram
         last_name: Pegram
         middle_name: ''
-        name: J. Pegram
         rank: GM.
         suffix: ''
       infantry: 55000
@@ -3265,32 +3266,32 @@
       commanders:
       - dbpedia: Ulysses_S._Grant
         first_name: U.
+        full_name: U. S. Grant
         last_name: Grant
         middle_name: S.
-        name: U. S. Grant
         rank: Gen.-Lt.
         suffix: ''
       generals_killed:
       - date: 1864-06-28
         dbpedia: Hiram_Burnham
         first_name: H.
+        full_name: H. Burnham
         last_name: Burnham
         middle_name: ''
-        name: H. Burnham
         rank: B.-G.
         suffix: ''
       - date: 1864-06-29
         first_name: D.
+        full_name: D. Bates
         last_name: Bates
         middle_name: ''
-        name: D. Bates
         rank: B.-G.
         suffix: ''
       - date: 1864-08-05
         first_name: G.
+        full_name: G. A. Stedman
         last_name: Stedman
         middle_name: A.
-        name: G. A. Stedman
         rank: B.-G.
         suffix: ''
       infantry: 91000
@@ -3300,20 +3301,20 @@
       strength: 120000
       wounded: 33000
   location: "Stadt in Virginia, 40 km. s\xFCdlich von Richmond."
-  name: Petersburg
   other_names: []
   page: 541
   result: Union
   start_date: 1864-06-09
-- category:
+- battle_name: Mobile
+  category:
   - Belagerung
   - Einnahme
   category_size: null
   cwsac:
-  - relation: 'eq'
+  - relation: eq
     uri: AL006
   dbpedia:
-  - relation: 'eq'
+  - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Fort_Blakely
   description: "Die Uinionstroppen (45.000 M.) unter GM. Cranby nehmen, von der Seesiete\
     \ aus\nauf das Wirksamste unterst\xFCtzt von der Unionsflotte unter Admiral Farragut,\
@@ -3324,41 +3325,41 @@
     Confederate:
       belligerent: Confederacy
       captured: 3500
+      commanders: []
       losses_cannon: 50
       strength: 4000
-      commanders: []
     US:
       belligerent: Union
       commanders:
       - dbpedia: Edward_Richard_Sprigg_Canby
         first_name: ''
+        full_name: Cranby
         last_name: Cranby
         middle_name: ''
-        name: Cranby
         rank: GM.
         suffix: ''
       - dbpedia: David_Farragut
         first_name: ''
+        full_name: Farragut
         last_name: Farragut
         middle_name: ''
-        name: Farragut
         rank: Adm.
         suffix: ''
       strength: 45000
   location: Seefestung in Alabama, an der gleichnamigen Bai.
-  name: Mobile
   other_names: []
   page: 542
   result: Union
   start_date: 1865-04-02
-- category:
+- battle_name: Appomattox-Court-House
+  category:
   - Kapitulation
   category_size: null
   cwsac:
-  - relation: 'eq'
+  - relation: eq
     uri: VA097
   dbpedia:
-  - relation: 'eq'
+  - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Appomattox_Court_House
   description: "Die Unionsarmee (ca. 100.000 M.) unter Gen.-Lt. U. S. Grant zwingt\
     \ die virginische\nHauptarmee der Kon\xF6derierten (28.000 M., 63 Gesch.) unter\
@@ -3373,9 +3374,9 @@
       commanders:
       - dbpedia: Robert_E._Lee
         first_name: R.
+        full_name: R. Lee
         last_name: Lee
         middle_name: ''
-        name: R. Lee
         rank: Gen.
         suffix: ''
       guns: 63
@@ -3385,27 +3386,27 @@
       commanders:
       - dbpedia: Ulysses_S._Grant
         first_name: U.
+        full_name: U. S. Grant
         last_name: Grant
         middle_name: S.
-        name: U. S. Grant
         rank: Gen.-Lt.
         suffix: ''
       strength: 100000
   location: "Ort in Virginia, am rechten Ufer des Appomattox [ rechter Nebenflu\xDF\
     \ des James River], 120 km westl. von Richmond."
-  name: Appomattox-Court-House
   other_names: []
   page: 542
   result: Union
   start_date: *id027
-- category:
+- battle_name: Pea Ridge
+  category:
   - Treffen
   category_size: 3
   cwsac:
-  - relation: 'eq'
+  - relation: eq
     uri: AR001
   dbpedia:
-  - relation: 'eq'
+  - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Pea_Ridge
   description: null
   end_date: 1862-03-08
@@ -3417,31 +3418,31 @@
       commanders:
       - dbpedia: Earl_Van_Dorn
         first_name: Earl
+        full_name: Earl van Dorn
         last_name: van Dorn
         middle_name: ''
-        name: Earl van Dorn
         rank: Gen.-Lt.
         suffix: ''
       generals_killed:
       - dbpedia: Ben_McCulloch
         first_name: ''
+        full_name: McCulloch
         last_name: McCulloch
         middle_name: ''
-        name: McCulloch
         rank: Brig.-Gen.
         suffix: ''
       - dbpedia: James_M._McIntosh
         first_name: ''
+        full_name: McIntosh
         last_name: McIntosh
         middle_name: ''
-        name: McIntosh
         rank: Brig.-Gen.
         suffix: ''
       - dbpedia: William_Y._Slack
         first_name: ''
+        full_name: Slack
         last_name: Slack
         middle_name: ''
-        name: Slack
         rank: Brig.-Gen.
         suffix: ''
       guns: 72
@@ -3457,9 +3458,9 @@
       commanders:
       - dbpedia: Samuel_Ryan_Curtis
         first_name: ''
+        full_name: Curtis
         last_name: Curtis
         middle_name: ''
-        name: Curtis
         rank: GM.
         suffix: ''
       guns: 49
@@ -3470,14 +3471,14 @@
       strength: 12000
   location: "Berg in nordwestlichen Teil des Staates Arkansas, in der N\xE4he von\
     \ Bentonville"
-  name: Pea Ridge
   number: 5
   other_names:
   - Elkhorn-Tavern
   page: 523
   result: Union
   start_date: 1862-03-07
-- category:
+- battle_name: Durham's-Station
+  category:
   - Kapitulation
   category_size: null
   description: "Die Unionstroppen (90.000 M.) unter GM. W. T. Sherman zwingen die\
@@ -3494,9 +3495,9 @@
       commanders:
       - dbpedia: Joseph_E._Johnston
         first_name: J.
+        full_name: J. Johnston
         last_name: Johnston
         middle_name: ''
-        name: J. Johnston
         rank: Gen.
         suffix: ''
       missing: 35200
@@ -3506,26 +3507,26 @@
       commanders:
       - dbpedia: William_Tecumseh_Sherman
         first_name: W.
+        full_name: W. T. Sherman
         last_name: Sherman
         middle_name: T.
-        name: W. T. Sherman
         rank: GM.
         suffix: ''
       strength: 90000
   location: Ort in Nord-Carolina, 30 km nordwestl. von Raleigh.
-  name: Durham's-Station
   other_names: []
   page: 542
   result: Union
   start_date: *id028
-- category:
+- battle_name: Shiloh
+  category:
   - Schlacht
   category_size: 2
   cwsac:
-  - relation: 'eq'
+  - relation: eq
     uri: TN003
   dbpedia:
-  - relation: 'eq'
+  - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Shiloh
   description: null
   end_date: 1862-04-07
@@ -3539,24 +3540,24 @@
       commanders:
       - dbpedia: Albert_Sidney_Johnston
         first_name: A.
+        full_name: A. S. Johnston
         last_name: Johnston
         middle_name: S.
-        name: A. S. Johnston
         rank: Gen.
         suffix: ''
       generals_killed:
       - dbpedia: Albert_Sidney_Johnston
         first_name: A.
+        full_name: A. S. Johnston
         last_name: Johnston
         middle_name: S.
-        name: A. S. Johnston
         rank: komm. Gen.
         suffix: ''
       - dbpedia: Adley_H._Gladden
         first_name: A.
+        full_name: A. H. Gladden
         last_name: Gladden
         middle_name: H.
-        name: A. H. Gladden
         rank: Brig.-Gen.
         suffix: ''
       infantry: 36000
@@ -3584,17 +3585,17 @@
       commanders:
       - dbpedia: Ulysses_S._Grant
         first_name: U.
+        full_name: U. S. Grant
         last_name: Grant
         middle_name: S.
-        name: U. S. Grant
         rank: GM.
         suffix: ''
       generals_killed:
       - dbpedia: William_Harvey_Lamb_Wallace
         first_name: W.
+        full_name: W. H. L. Wallace
         last_name: Wallace
         middle_name: H. L.
-        name: W. H. L. Wallace
         rank: Brig.-Gen.
         suffix: ''
       infantry: 54000
@@ -3618,21 +3619,21 @@
       wounded_percent: 18.0
   location: "Dorf in S\xFCdwesten des Staates Tennessee, gegen\xFCber der Stadt Pittsburg-Landing,\
     \ am Tennessee-Flusse, 150 km. \xF6stl. von Memphis."
-  name: Shiloh
   number: 6
   other_names:
   - Pittsburg-Landing
   page: 523
   result: Union
   start_date: 1862-04-06
-- category:
+- battle_name: Williamsburg
+  category:
   - Schlacht
   category_size: 5
   cwsac:
-  - relation: 'eq'
+  - relation: eq
     uri: VA010
   dbpedia:
-  - relation: 'eq'
+  - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Williamsburg
   description: null
   end_date: &id029 1862-05-05
@@ -3645,9 +3646,9 @@
       commanders:
       - dbpedia: Joseph_E._Johnston
         first_name: J.
+        full_name: J. Johnston
         last_name: Johnston
         middle_name: ''
-        name: J. Johnston
         rank: Gen.-Lt.
         suffix: ''
       killed: 300
@@ -3669,9 +3670,9 @@
       commanders:
       - dbpedia: George_B._McClellan
         first_name: ''
+        full_name: McClellan
         last_name: McClellan
         middle_name: ''
-        name: McClellan
         rank: GM.
         suffix: ''
       killed: 460
@@ -3686,20 +3687,20 @@
       wounded: 1440
       wounded_officers: 98
   location: "Stadt in Virginia, 65 km s\xFCd\xF6stl. von Richmond"
-  name: Williamsburg
   number: 7
   other_names: []
   page: 524
   result: Union
   start_date: *id029
-- category:
+- battle_name: Seven Pines
+  category:
   - Schlacht
   category_size: 3
   cwsac:
-  - relation: 'eq'
+  - relation: eq
     uri: VA014
   dbpedia:
-  - relation: 'eq'
+  - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Seven_Pines
   description: null
   end_date: 1862-06-01
@@ -3713,17 +3714,17 @@
       commanders:
       - dbpedia: Joseph_E._Johnston
         first_name: J.
+        full_name: J. Johnston
         last_name: Johnston
         middle_name: ''
-        name: J. Johnston
         rank: Gen.
         suffix: ''
       generals_killed:
       - dbpedia: Robert_Hopkins_Hatton
         first_name: R.
+        full_name: R. Hatton
         last_name: Hatton
         middle_name: ''
-        name: R. Hatton
         rank: Brig.-Gen.
         suffix: ''
       killed: 1100
@@ -3754,9 +3755,9 @@
       commanders:
       - dbpedia: George_B._McClellan
         first_name: ''
+        full_name: McClellan
         last_name: McClellan
         middle_name: ''
-        name: McClellan
         rank: GM.
         suffix: ''
       killed: 800
@@ -3778,7 +3779,6 @@
       wounded_percent: 7.3
   location: "S\xFCmpfe an beiden Ufern des Chickahominyflusses in Virginia, 10 km\
     \ \xF6stl. von Richmond."
-  name: Seven Pines
   number: 8
   other_names:
   - Fair-Oaks
@@ -3786,40 +3786,41 @@
   page: 524
   result: Confederate
   start_date: 1862-05-31
-- category:
+- battle_name: Chickahominy
+  category:
   - Schlacht
   category_size: 1
   cwsac:
-  - relation: 'gt'
+  - relation: gt
     uri: VA020
-  - relation: 'gt'
+  - relation: gt
     uri: VA016
-  - relation: 'gt'
+  - relation: gt
     uri: VA017
-  - relation: 'gt'
+  - relation: gt
     uri: VA018
-  - relation: 'gt'
+  - relation: gt
     uri: VA021
-  - relation: 'gt'
+  - relation: gt
     uri: VA015
-  - relation: 'gt'
+  - relation: gt
     uri: VA019
   dbpedia:
-  - relation: 'gt'
+  - relation: gt
     uri: http://dbpedia.org/resource/Battle_of_Glendale
-  - relation: 'gt'
+  - relation: gt
     uri: http://dbpedia.org/resource/Battle_of_Beaver_Dam_Creek
-  - relation: 'gt'
+  - relation: gt
     uri: http://dbpedia.org/resource/Battle_of_Gaines's_Mill
-  - relation: 'gt'
+  - relation: gt
     uri: http://dbpedia.org/resource/Battle_of_Garnett's_&_Golding's_Farm
-  - relation: 'gt'
+  - relation: gt
     uri: http://dbpedia.org/resource/Battle_of_White_Oak_Swamp
-  - relation: 'gt'
+  - relation: gt
     uri: http://dbpedia.org/resource/Battle_of_Malvern_Hill
-  - relation: 'gt'
+  - relation: gt
     uri: http://dbpedia.org/resource/Battle_of_Oak_Grove
-  - relation: 'gt'
+  - relation: gt
     uri: http://dbpedia.org/resource/Battle_of_Savage's_Station
   description: null
   end_date: 1862-07-01
@@ -3834,9 +3835,9 @@
       commanders:
       - dbpedia: Robert_E._Lee
         first_name: R.
+        full_name: R. Lee.
         last_name: Lee.
         middle_name: ''
-        name: R. Lee.
         rank: Gen.
         suffix: ''
       guns: 250
@@ -3867,9 +3868,9 @@
       commanders:
       - dbpedia: George_B._McClellan
         first_name: ''
+        full_name: McClellan
         last_name: McClellan
         middle_name: ''
-        name: McClellan
         rank: Gen.-Lt.
         suffix: ''
       guns: 340
@@ -3895,7 +3896,6 @@
     \ geschlagen\nwurde, ist ein linker Nebenflu\xDF des James River in Virginien;\
     \ das Schlachtfeld 10 km n\xF6rdl.,\n20-25 km \xF6stl. und s\xFCd\xF6stl. von\
     \ Richmond.\n"
-  name: Chickahominy
   number: 9
   other_names:
   - Mechanicsville

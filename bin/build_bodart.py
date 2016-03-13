@@ -40,7 +40,7 @@ def dict_subset(x, include = []):
 def battle_csv(src, dst):
     fields = [
         'battle_id',
-        'name',
+        'battle_name',
         'other_names',
         'start_date',
         'end_date',
@@ -129,7 +129,7 @@ def commanders_csv(src, dst):
         data = yaml.load(f)
     fieldnames = ('battle_id',
                   'belligerent',
-                  'name',
+                  'full_name',
                   'last_name',
                   'first_name',
                   'middle_name',
