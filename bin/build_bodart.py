@@ -4,8 +4,8 @@ import os.path
 import sys
 import shutil
 
-import nameparser
 import yaml
+import json
 
 RANKS = {"Gen.-Lt." : "Lt. Gen", # "General-Leutnant",
          "Gen." : "Gen.", # "General",
@@ -188,17 +188,14 @@ def generals_killed_csv(src, dst):
 def bodart_to_cwsac(src, dst):
     with open(src, 'r') as f:
         data = yaml.load(f)
-    fieldnames = ('from', 'to', 'relation')
+    ret = []
+    for battle_id, v in enumerate(data):
+        if 'cwsac' in v:
+            ret.append({'battles_from': [battle_id + 1],
+                        'battles_to': v['cwsac']['ids'],
+                        'relation': v['cwsac']['relation']})
     with open(dst, 'w') as f:
-        writer = csv.DictWriter(f, fieldnames)
-        writer.writeheader()
-        for battle_id, v in enumerate(data):
-            if 'cwsac' in v:
-                for link in v['cwsac']:
-                    row = {'from': battle_id + 1,
-                           'to': link['uri'],
-                           'relation': link['relation']}
-                    writer.writerow(row)
+        json.dump(ret, f)
     print("Writing: %s" % dst)
 
 def bodart_to_dbpedia(src, dst):
@@ -224,7 +221,7 @@ def build(src, dst):
     forces_csv(filename, os.path.join(dst, "bodart1908_forces.csv"))
     commanders_csv(filename, os.path.join(dst, "bodart1908_commanders.csv"))
     generals_killed_csv(filename, os.path.join(dst, "bodart1908_generals_killed.csv"))
-    bodart_to_cwsac(filename, os.path.join(dst, "bodart1908_to_cwsac.csv"))
+    bodart_to_cwsac(filename, os.path.join(dst, "bodart1908_to_cwsac.json"))
     bodart_to_dbpedia(filename, os.path.join(dst, "bodart1908_to_dbpedia.csv"))
 
 

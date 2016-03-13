@@ -73,3 +73,10 @@ schema:
     title: dbpedia.org link
     type: string
 title: Batte data from civilwar.org
+description: >
+  Data from the list of battles in `civilwar.org <https://civilwar.org>`, the website of the Civil War Trust,
+  a nonprofit with the purpose of preserving Civil War battlefields.
+
+  The battles listed on civilwar.org are largely a subset of the battles in CWSAC.
+  The number of battles listed in civilwar.org is much smaller than the number of CWSAC battle.
+  Each battle in civilwar.org maps to at most one battle in CWSAC, with one battle in civilwar.org (Picacho Peak) not appearing in CWSAC.

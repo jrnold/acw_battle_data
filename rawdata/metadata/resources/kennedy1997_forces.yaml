@@ -10,7 +10,7 @@ schema:
     description: Battle identifier These are almost the same as the Kennedy identifiers
       with a few exceptions. See the field ``cwsac_id`` for the CWSAC identifier.
     format: default
-    name: battle
+    name: battle_id
     title: Battle
     type: string
   - constraints:
@@ -65,12 +65,12 @@ schema:
     name: aggregate
     title: Is aggregate?
     type: boolean
-  - description: CWSAC battle identifiers of the battles. In a few battles the casualties
-      include several battles. In these cases the CWSAC battle identifiers are space
-      separated.
+  - description: >
+      In a few battles the casualties include several battles.
+      In these cases the identifiers are space separated.
     format: default
-    name: cwsac_id
-    title: CWSAC Id
+    name: battles_aggregated
+    title: Battles aggregated
     type: string
 sources:
 - KennedyConservation1998

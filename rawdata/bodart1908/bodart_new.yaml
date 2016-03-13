@@ -1,11 +1,11 @@
 - battle_name: Bull-Run
-  state: VA
   category:
   - Schlacht
   category_size: 4
   cwsac:
-  - relation: eq
-    uri: VA005
+    ids:
+    - VA005
+    relation: eq
   dbpedia:
   - relation: eq
     uri: http://dbpedia.org/resource/First_Battle_of_Bull_Run
@@ -87,14 +87,15 @@
   page: 522
   result: Confederate
   start_date: *id001
-- battle_name: Cedar Mountain
   state: VA
+- battle_name: Cedar Mountain
   category:
   - Treffen
   category_size: 5
   cwsac:
-  - relation: eq
-    uri: VA022
+    ids:
+    - VA022
+    relation: eq
   dbpedia:
   - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Cedar_Mountain
@@ -164,14 +165,15 @@
   page: 525
   result: Confederate
   start_date: *id002
-- battle_name: Bull Run
   state: VA
+- battle_name: Bull Run
   category:
   - Schlacht
   category_size: 2
   cwsac:
-  - relation: eq
-    uri: VA026
+    ids:
+    - VA026
+    relation: eq
   dbpedia:
   - relation: eq
     uri: http://dbpedia.org/resource/Second_Battle_of_Bull_Run
@@ -277,14 +279,15 @@
   page: 526
   result: Confederate
   start_date: 1862-08-29
+  state: VA
 - battle_name: Richmond
-  state: KY
   category:
   - Treffen
   category_size: 4
   cwsac:
-  - relation: eq
-    uri: KY007
+    ids:
+    - KY007
+    relation: eq
   dbpedia:
   - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Richmond
@@ -336,14 +339,15 @@
   page: 526
   result: Confederate
   start_date: *id003
+  state: KY
 - battle_name: Boonsborough
-  state: MD
   category:
   - Treffen
   category_size: 5
   cwsac:
-  - relation: eq
-    uri: MD002
+    ids:
+    - MD002
+    relation: eq
   dbpedia:
   - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_South_Mountain
@@ -418,14 +422,15 @@
   page: 527
   result: Union
   start_date: *id004
+  state: MD
 - battle_name: Harper's Ferry
-  state: WV
   category:
   - Kapitulation
   category_size: null
   cwsac:
-  - relation: eq
-    uri: WV010
+    ids:
+    - WV010
+    relation: eq
   dbpedia:
   - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Harpers_Ferry
@@ -474,14 +479,15 @@
   page: 527
   result: Confederate
   start_date: *id005
+  state: WV
 - battle_name: Antietam
-  state: MD
   category:
   - Schlacht
   category_size: 2
   cwsac:
-  - relation: eq
-    uri: MD003
+    ids:
+    - MD003
+    relation: eq
   dbpedia:
   - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Antietam
@@ -603,14 +609,15 @@
   page: 527
   result: Union
   start_date: *id006
+  state: MD
 - battle_name: Corinth
-  state: MS
   category:
   - Schlacht
   category_size: 4
   cwsac:
-  - relation: eq
-    uri: MS002
+    ids:
+    - MS002
+    relation: eq
   dbpedia:
   - relation: eq
     uri: http://dbpedia.org/resource/Second_Battle_of_Corinth
@@ -678,13 +685,15 @@
   page: 528
   result: Union
   start_date: 1862-10-03
+  state: MS
 - battle_name: Perryville
   category:
   - Schlacht
   category_size: 4
   cwsac:
-  - relation: eq
-    uri: KY009
+    ids:
+    - KY009
+    relation: eq
   dbpedia:
   - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Perryville
@@ -766,8 +775,9 @@
   - Treffen
   category_size: 6
   cwsac:
-  - relation: eq
-    uri: AR005
+    ids:
+    - AR005
+    relation: eq
   dbpedia:
   - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Prairie_Grove
@@ -814,8 +824,9 @@
   - Schlacht
   category_size: 3
   cwsac:
-  - relation: eq
-    uri: VA028
+    ids:
+    - VA028
+    relation: eq
   dbpedia:
   - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Fredericksburg
@@ -928,8 +939,9 @@
   - Treffen
   category_size: 6
   cwsac:
-  - relation: eq
-    uri: MO004
+    ids:
+    - MO004
+    relation: eq
   dbpedia:
   - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Wilson's_Creek
@@ -988,8 +1000,9 @@
   - Schlacht
   category_size: 2
   cwsac:
-  - relation: eq
-    uri: TN010
+    ids:
+    - TN010
+    relation: eq
   dbpedia:
   - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Stones_River
@@ -1108,8 +1121,9 @@
   - Treffen
   category_size: 6
   cwsac:
-  - relation: eq
-    uri: MS003
+    ids:
+    - MS003
+    relation: eq
   dbpedia:
   - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Chickasaw_Bayou
@@ -1155,8 +1169,9 @@
   - Kapitulation
   category_size: 4
   cwsac:
-  - relation: eq
-    uri: AR006
+    ids:
+    - AR006
+    relation: eq
   dbpedia:
   - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Fort_Hindman
@@ -1205,8 +1220,9 @@
   - Schlacht
   category_size: 1
   cwsac:
-  - relation: eq
-    uri: VA032
+    ids:
+    - VA032
+    relation: eq
   dbpedia:
   - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Chancellorsville
@@ -1321,8 +1337,9 @@
   - Schlacht
   category_size: 4
   cwsac:
-  - relation: eq
-    uri: MS009
+    ids:
+    - MS009
+    relation: eq
   dbpedia:
   - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Champion_Hill
@@ -1391,8 +1408,9 @@
   - Treffen
   category_size: 4
   cwsac:
-  - relation: eq
-    uri: VA107
+    ids:
+    - VA107
+    relation: eq
   dbpedia:
   - relation: eq
     uri: http://dbpedia.org/resource/Second_Battle_of_Winchester
@@ -1447,8 +1465,9 @@
   - Schlacht
   category_size: 1
   cwsac:
-  - relation: eq
-    uri: PA002
+    ids:
+    - PA002
+    relation: eq
   dbpedia:
   - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Gettysburg
@@ -1605,8 +1624,9 @@
   - Einnahme
   category_size: null
   cwsac:
-  - relation: eq
-    uri: MS011
+    ids:
+    - MS011
+    relation: eq
   dbpedia:
   - relation: eq
     uri: http://dbpedia.org/resource/Siege_of_Vicksburg
@@ -1670,8 +1690,9 @@
   - Schlacht
   category_size: 1
   cwsac:
-  - relation: eq
-    uri: GA004
+    ids:
+    - GA004
+    relation: eq
   dbpedia:
   - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Chickamauga
@@ -1783,8 +1804,9 @@
   - Schlacht
   category_size: 3
   cwsac:
-  - relation: eq
-    uri: TN024
+    ids:
+    - TN024
+    relation: eq
   dbpedia:
   - relation: gt
     uri: http://dbpedia.org/resource/Battle_of_Lookout_Mountain
@@ -1860,8 +1882,9 @@
   - Kapitulation
   category_size: null
   cwsac:
-  - relation: eq
-    uri: MO006
+    ids:
+    - MO006
+    relation: eq
   dbpedia:
   - relation: eq
     uri: http://dbpedia.org/resource/First_Battle_of_Lexington
@@ -1906,8 +1929,9 @@
   - Schlacht
   category_size: 2
   cwsac:
-  - relation: eq
-    uri: VA046
+    ids:
+    - VA046
+    relation: eq
   dbpedia:
   - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_the_Wilderness
@@ -2021,8 +2045,9 @@
   - Schlacht
   category_size: 2
   cwsac:
-  - relation: eq
-    uri: VA048
+    ids:
+    - VA048
+    relation: eq
   dbpedia:
   - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Spotsylvania_Court_House
@@ -2154,8 +2179,9 @@
   - Schlacht
   category_size: 4
   cwsac:
-  - relation: eq
-    uri: GA008
+    ids:
+    - GA008
+    relation: eq
   dbpedia:
   - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Resaca
@@ -2202,8 +2228,9 @@
   - Treffen
   category_size: 4
   cwsac:
-  - relation: eq
-    uri: VA053
+    ids:
+    - VA053
+    relation: eq
   dbpedia:
   - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Proctor's_Creek
@@ -2253,8 +2280,9 @@
   - Treffen
   category_size: 4
   cwsac:
-  - relation: eq
-    uri: VA055
+    ids:
+    - VA055
+    relation: eq
   dbpedia:
   - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_North_Anna
@@ -2298,8 +2326,9 @@
   - Treffen
   category_size: 4
   cwsac:
-  - relation: eq
-    uri: GA011
+    ids:
+    - GA011
+    relation: eq
   dbpedia:
   - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Dallas
@@ -2341,8 +2370,9 @@
   - Schlacht
   category_size: 3
   cwsac:
-  - relation: eq
-    uri: VA062
+    ids:
+    - VA062
+    relation: eq
   dbpedia:
   - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Cold_Harbor
@@ -2409,8 +2439,9 @@
   - Treffen
   category_size: 5
   cwsac:
-  - relation: eq
-    uri: GA015
+    ids:
+    - GA015
+    relation: eq
   dbpedia:
   - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Kennesaw_Mountain
@@ -2453,8 +2484,9 @@
   - Schlacht
   category_size: 4
   cwsac:
-  - relation: eq
-    uri: GA016
+    ids:
+    - GA016
+    relation: eq
   dbpedia:
   - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Peachtree_Creek
@@ -2497,8 +2529,9 @@
   - Schlacht
   category_size: 3
   cwsac:
-  - relation: eq
-    uri: GA017
+    ids:
+    - GA017
+    relation: eq
   dbpedia:
   - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Atlanta
@@ -2565,8 +2598,9 @@
   - Kapitulation
   category_size: 3
   cwsac:
-  - relation: eq
-    uri: TN002
+    ids:
+    - TN002
+    relation: eq
   dbpedia:
   - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Fort_Donelson
@@ -2622,8 +2656,9 @@
   - Schlacht
   category_size: 4
   cwsac:
-  - relation: eq
-    uri: GA018
+    ids:
+    - GA018
+    relation: eq
   dbpedia:
   - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Ezra_Church
@@ -2667,8 +2702,9 @@
   - Schlacht
   category_size: 4
   cwsac:
-  - relation: eq
-    uri: VA119
+    ids:
+    - VA119
+    relation: eq
   dbpedia:
   - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Opequon
@@ -2750,8 +2786,9 @@
   - Schlacht
   category_size: 4
   cwsac:
-  - relation: eq
-    uri: VA122
+    ids:
+    - VA122
+    relation: eq
   dbpedia:
   - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Cedar_Creek
@@ -2828,8 +2865,9 @@
   - Schlacht
   category_size: 4
   cwsac:
-  - relation: eq
-    uri: TN036
+    ids:
+    - TN036
+    relation: eq
   dbpedia:
   - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Franklin_(1864)
@@ -2933,8 +2971,9 @@
   - Schlacht
   category_size: 3
   cwsac:
-  - relation: eq
-    uri: TN038
+    ids:
+    - TN038
+    relation: eq
   dbpedia:
   - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Nashville
@@ -2990,14 +3029,12 @@
   - Belagerung
   category_size: null
   cwsac:
-  - relation: gt
-    uri: SC008
-  - relation: gt
-    uri: SC009
-  - relation: gt
-    uri: SC006
-  - relation: gt
-    uri: SC004
+    ids:
+    - SC008
+    - SC009
+    - SC006
+    - SC004
+    relation: eq
   dbpedia:
   - relation: gt
     uri: http://dbpedia.org/resource/Second_Battle_of_Fort_Sumter
@@ -3066,8 +3103,9 @@
   - Schlacht
   category_size: 4
   cwsac:
-  - relation: eq
-    uri: NC020
+    ids:
+    - NC020
+    relation: eq
   dbpedia:
   - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Bentonville
@@ -3125,54 +3163,32 @@
   - Einnahme
   category_size: null
   cwsac:
-  - relation: gt
-    uri: VA098
-  - relation: gt
-    uri: VA063
-  - relation: gt
-    uri: VA065
-  - relation: gt
-    uri: VA113
-  - relation: gt
-    uri: VA067
-  - relation: gt
-    uri: VA068
-  - relation: gt
-    uri: VA069
-  - relation: gt
-    uri: VA070
-  - relation: gt
-    uri: VA071
-  - relation: gt
-    uri: VA072
-  - relation: gt
-    uri: VA073
-  - relation: gt
-    uri: VA075
-  - relation: gt
-    uri: VA074
-  - relation: gt
-    uri: VA078
-  - relation: gt
-    uri: VA080
-  - relation: gt
-    uri: VA079
-  - relation: gt
-    uri: VA085
-  - relation: gt
-    uri: VA087
-  - relation: gt
-    uri: VA086
-  - relation: gt
-    uri: VA090
-  - relation: gt
-    uri: VA083
-  - relation: gt
-    uri: VA084
-  - relation: gt
-    uri: VA088
-  - relation: gt
-    uri: VA089
+    ids:
+    - VA098
+    - VA063
+    - VA065
+    - VA113
+    - VA067
+    - VA068
+    - VA069
+    - VA070
+    - VA071
+    - VA072
+    - VA073
+    - VA075
+    - VA074
+    - VA078
+    - VA080
+    - VA079
+    - VA085
+    - VA087
+    - VA086
+    - VA090
+    - VA083
+    - VA084
+    - VA088
+    - VA089
+    relation: eq
   dbpedia:
   - relation: gt
     uri: http://dbpedia.org/resource/First_Battle_of_Petersburg
@@ -3319,8 +3335,9 @@
   - Einnahme
   category_size: null
   cwsac:
-  - relation: eq
-    uri: AL006
+    ids:
+    - AL006
+    relation: eq
   dbpedia:
   - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Fort_Blakely
@@ -3364,8 +3381,9 @@
   - Kapitulation
   category_size: null
   cwsac:
-  - relation: eq
-    uri: VA097
+    ids:
+    - VA097
+    relation: eq
   dbpedia:
   - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Appomattox_Court_House
@@ -3411,8 +3429,9 @@
   - Treffen
   category_size: 3
   cwsac:
-  - relation: eq
-    uri: AR001
+    ids:
+    - AR001
+    relation: eq
   dbpedia:
   - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Pea_Ridge
@@ -3531,8 +3550,9 @@
   - Schlacht
   category_size: 2
   cwsac:
-  - relation: eq
-    uri: TN003
+    ids:
+    - TN003
+    relation: eq
   dbpedia:
   - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Shiloh
@@ -3638,8 +3658,9 @@
   - Schlacht
   category_size: 5
   cwsac:
-  - relation: eq
-    uri: VA010
+    ids:
+    - VA010
+    relation: eq
   dbpedia:
   - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Williamsburg
@@ -3705,8 +3726,9 @@
   - Schlacht
   category_size: 3
   cwsac:
-  - relation: eq
-    uri: VA014
+    ids:
+    - VA014
+    relation: eq
   dbpedia:
   - relation: eq
     uri: http://dbpedia.org/resource/Battle_of_Seven_Pines
@@ -3799,20 +3821,15 @@
   - Schlacht
   category_size: 1
   cwsac:
-  - relation: gt
-    uri: VA020
-  - relation: gt
-    uri: VA016
-  - relation: gt
-    uri: VA017
-  - relation: gt
-    uri: VA018
-  - relation: gt
-    uri: VA021
-  - relation: gt
-    uri: VA015
-  - relation: gt
-    uri: VA019
+    ids:
+    - VA020
+    - VA016
+    - VA017
+    - VA018
+    - VA021
+    - VA015
+    - VA019
+    relation: eq
   dbpedia:
   - relation: gt
     uri: http://dbpedia.org/resource/Battle_of_Glendale

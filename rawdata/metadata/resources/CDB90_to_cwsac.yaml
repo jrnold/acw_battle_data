@@ -20,9 +20,11 @@ schema:
       - eq
       - lt
       - gt
-    description: 'Relationship between the events:
+    description: >
+      Relationship between the events:
 
-      - "eq": same event - "gt": ``from`` includes ``to`` (``to`` is a part of ``from``).
+      - "eq": same event
+      - "gt": ``from`` includes ``to`` (``to`` is a part of ``from``).
       - "lt": ``from`` is included by ``to`` (``from`` is part of ``to``).'
     format: default
     name: relation
@@ -33,3 +35,5 @@ sources:
 - cdb90
 - CWSAC1997
 title: CDB90 to CWSAC battle links
+description: >
+  Each of the CDB90 battles maps onto one CWSAC battles.

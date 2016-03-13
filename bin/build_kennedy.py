@@ -2,11 +2,9 @@
 import csv
 import os.path
 import sys
-import shutil
 
-import nameparser
 import yaml
-
+import json
 
 CATEGORIES = ("battle", "meeting", "surrender",
               "siege", "capture")
@@ -20,7 +18,7 @@ def dict_subset(x, include = []):
 def forces_csv(src, dst):
     with open(src, 'r') as f:
         data = yaml.load(f)
-    fieldnames = ('battle',
+    fieldnames = ('battle_id',
                   'belligerent',
                   'casualties_min',
                   'casualties_max',
@@ -35,27 +33,24 @@ def forces_csv(src, dst):
         for battle, v in sorted(data.items()):
             if v['forces']:
                 try:
-                    cwsac = ' '.join(v['casualties_battles'])
-                    aggregate = True
+                    battles_aggregated = ' '.join(v['casualties_battles'])
+                    aggregate = 1
                 except KeyError:
-                    aggregate = False
-                    try:
-                        cwsac = v['cwsac']
-                    except KeyError:
-                        cwsac = battle
+                    aggregate = 0
+                    battles_aggregated = battle
                 for belligerent in v['forces']:
                     row = v['forces'][belligerent]
                     row['belligerent'] = belligerent
-                    row['battle'] = battle
-                    row['cwsac_id'] = cwsac
+                    row['battle_id'] = battle
                     row['aggregate'] = aggregate
+                    row['battles_aggregated'] = battles_aggregated
                     writer.writerow(row)
 
 def battles_csv(src, dst):
     with open(src, 'r') as f:
         data = yaml.load(f)
-    fieldnames = ('battle',
-                  'name',
+    fieldnames = ('battle_id',
+                  'battle_name',
                   'state',
                   'county',
                   'start_date',
@@ -79,10 +74,30 @@ def battles_csv(src, dst):
             row = dict_subset(row, fieldnames)
             writer.writerow(row)
 
+def forces_to_cwsac(src, dst):
+    with open(src, 'r') as f:
+        data = yaml.load(f)
+    ret = []
+    for battle, v in sorted(data.items()):
+        if v['forces']:
+            try:
+                cwsac = v['casualties_battles']
+            except KeyError:
+                try:
+                    cwsac = [v['cwsac']]
+                except KeyError:
+                    cwsac = [battle]
+            ret.append({'battles_from': [battle],
+                         'battles_to': cwsac,
+                         'relation': 'eq'})
+    with open(dst, 'w') as f:
+        json.dump(ret, f)
+
 def build(src, dst):
     filename = os.path.join(src, "rawdata", "kennedy1997", "kennedy1997.yaml")
     battles_csv(filename, os.path.join(dst, "kennedy1997_battles.csv"))
     forces_csv(filename, os.path.join(dst, "kennedy1997_forces.csv"))
+    forces_to_cwsac(filename, os.path.join(dst, "kennedy1997_forces_to_cwsac.json"))
 
 def main():
     src, dst = sys.argv[1:3]
