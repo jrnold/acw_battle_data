@@ -1,0 +1,683 @@
+- cwsac:
+  - description: Manassas I , VA (1861-07-21 - 1861-07-21)
+    id: VA005
+  livermore:
+  - description: Bull Run, July 21, 1861 , VA (1861-07-21 - 1861-07-21)
+    id: 1
+  relation: eq
+  start_date: '1861-07-21'
+- cwsac:
+  - description: Wilson's Creek , MO (1861-08-10 - 1861-08-10)
+    id: MO004
+  livermore:
+  - description: Wilson's Creek, Mo., August 10, 1861 , MO (1861-08-10 - 1861-08-10)
+    id: 2
+  relation: eq
+  start_date: '1861-08-10'
+- cwsac:
+  - description: Fort Donelson , TN (1862-02-12 - 1862-02-16)
+    id: TN002
+  livermore:
+  - description: Fort Donelson, February 12-16, 1862 , TN (1862-02-12 - 1862-02-16)
+    id: 3
+  relation: eq
+  start_date: '1862-02-12'
+- cwsac:
+  - description: Pea Ridge , AR (1862-03-06 - 1862-03-08)
+    id: AR001
+  livermore:
+  - description: Pea Ridge, Ark., March 7, 1862 , AR (1862-03-07 - 1862-03-07)
+    id: 4
+  relation: eq
+  start_date: '1862-03-06'
+- cwsac:
+  - description: Shiloh , TN (1862-04-06 - 1862-04-07)
+    id: TN003
+  livermore:
+  - description: Shiloh, April 6, 7, 1862 , TN (1862-04-06 - 1862-04-07)
+    id: 5
+  relation: eq
+  start_date: '1862-04-06'
+- cwsac:
+  - description: Williamsburg , VA (1862-05-05 - 1862-05-05)
+    id: VA010
+  livermore:
+  - description: Williamsburg, May 4, 5, 1862 , VA (1862-05-04 - 1862-05-05)
+    id: 6
+  relation: eq
+  start_date: '1862-05-05'
+- cwsac:
+  - description: Seven Pines , VA (1862-05-31 - 1862-06-01)
+    id: VA014
+  livermore:
+  - description: Fair Oaks, May 31, June 1, 1862 , VA (1862-05-31 - 1862-06-01)
+    id: 7
+  relation: eq
+  start_date: '1862-05-31'
+- cwsac:
+  - description: Beaver Dam Creek , VA (1862-06-26 - 1862-06-26)
+    id: VA016
+  livermore:
+  - description: Seven Days' Battles, June 25-July 1, 1862 , VA (1862-06-25 - 1862-07-01)
+    id: 8
+  relation: gt
+  start_date: '1862-06-26'
+- cwsac:
+  - description: Beaver Dam Creek , VA (1862-06-26 - 1862-06-26)
+    id: VA016
+  livermore:
+  - description: Mechanicsville, June 26, 1862 , VA (1862-06-26 - 1862-06-26)
+    id: 9
+  relation: eq
+  start_date: '1862-06-26'
+- cwsac:
+  - description: Gaines' Mill , VA (1862-06-27 - 1862-06-27)
+    id: VA017
+  livermore:
+  - description: Seven Days' Battles, June 25-July 1, 1862 , VA (1862-06-25 - 1862-07-01)
+    id: 8
+  relation: gt
+  start_date: '1862-06-27'
+- cwsac:
+  - description: Garnett's & Golding's Farms , VA (1862-06-27 - 1862-06-28)
+    id: VA018
+  livermore:
+  - description: Seven Days' Battles, June 25-July 1, 1862 , VA (1862-06-25 - 1862-07-01)
+    id: 8
+  relation: gt
+  start_date: '1862-06-27'
+- cwsac:
+  - description: Gaines' Mill , VA (1862-06-27 - 1862-06-27)
+    id: VA017
+  livermore:
+  - description: Gaines's Mill, June 27, 1862 , VA (1862-06-27 - 1862-06-27)
+    id: 10
+  relation: eq
+  start_date: '1862-06-27'
+- cwsac:
+  - description: Garnett's & Golding's Farms , VA (1862-06-27 - 1862-06-28)
+    id: VA018
+  livermore:
+  - description: Peach Orchard, Savage Station, June 29, 1862. White Oak Swamp, Glendale,  June
+      30, 1862. Malvern Hill, July 1, 1862 , VA (1862-06-29 - 1862-07-01)
+    id: 11
+  relation: gt
+  start_date: '1862-06-27'
+- cwsac:
+  - description: Savage's Station , VA (1862-06-29 - 1862-06-29)
+    id: VA019
+  livermore:
+  - description: Seven Days' Battles, June 25-July 1, 1862 , VA (1862-06-25 - 1862-07-01)
+    id: 8
+  relation: gt
+  start_date: '1862-06-29'
+- cwsac:
+  - description: Savage's Station , VA (1862-06-29 - 1862-06-29)
+    id: VA019
+  livermore:
+  - description: Peach Orchard, Savage Station, June 29, 1862. White Oak Swamp, Glendale,  June
+      30, 1862. Malvern Hill, July 1, 1862 , VA (1862-06-29 - 1862-07-01)
+    id: 11
+  relation: gt
+  start_date: '1862-06-29'
+- cwsac:
+  - description: Glendale/White Oak Swamp , VA (1862-06-30 - 1862-06-30)
+    id: VA020
+  livermore:
+  - description: Seven Days' Battles, June 25-July 1, 1862 , VA (1862-06-25 - 1862-07-01)
+    id: 8
+  relation: gt
+  start_date: '1862-06-30'
+- cwsac:
+  - description: Glendale/White Oak Swamp , VA (1862-06-30 - 1862-06-30)
+    id: VA020
+  livermore:
+  - description: Peach Orchard, Savage Station, June 29, 1862. White Oak Swamp, Glendale,  June
+      30, 1862. Malvern Hill, July 1, 1862 , VA (1862-06-29 - 1862-07-01)
+    id: 11
+  relation: gt
+  start_date: '1862-06-30'
+- cwsac:
+  - description: Malvern Hill , VA (1862-07-01 - 1862-07-01)
+    id: VA021
+  livermore:
+  - description: Seven Days' Battles, June 25-July 1, 1862 , VA (1862-06-25 - 1862-07-01)
+    id: 8
+  relation: gt
+  start_date: '1862-07-01'
+- cwsac:
+  - description: Malvern Hill , VA (1862-07-01 - 1862-07-01)
+    id: VA021
+  livermore:
+  - description: Peach Orchard, Savage Station, June 29, 1862. White Oak Swamp, Glendale,  June
+      30, 1862. Malvern Hill, July 1, 1862 , VA (1862-06-29 - 1862-07-01)
+    id: 11
+  relation: gt
+  start_date: '1862-07-01'
+- cwsac:
+  - description: Cedar Mountain , VA (1862-08-09 - 1862-08-09)
+    id: VA022
+  livermore:
+  - description: Cedar Mountain, August 9, 1862 , VA (1862-08-09 - 1862-08-09)
+    id: 12
+  relation: eq
+  start_date: '1862-08-09'
+- cwsac:
+  - description: Manassas II , VA (1862-08-28 - 1862-08-30)
+    id: VA026
+  livermore:
+  - description: Manasas and Chantilly, August 27-September 2, 1862 , VA (1862-08-27
+      - 1862-09-02)
+    id: 13
+  relation: gt
+  start_date: '1862-08-28'
+- cwsac:
+  - description: Richmond , KY (1862-08-29 - 1862-08-30)
+    id: KY007
+  livermore:
+  - description: Richmond, Ky., August 29, 30, 1862 , KY (1862-08-29 - 1862-08-30)
+    id: 14
+  relation: eq
+  start_date: '1862-08-29'
+- cwsac:
+  - description: Chantilly , VA (1862-09-01 - 1862-09-01)
+    id: VA027
+  livermore:
+  - description: Manasas and Chantilly, August 27-September 2, 1862 , VA (1862-08-27
+      - 1862-09-02)
+    id: 13
+  relation: gt
+  start_date: '1862-09-01'
+- cwsac:
+  - description: South Mountain , MD (1862-09-14 - 1862-09-14)
+    id: MD002
+  livermore:
+  - description: South Mountain, September 14, 1862 , MD (1862-09-14 - 1862-09-14)
+    id: 15
+  relation: eq
+  start_date: '1862-09-14'
+- cwsac:
+  - description: Antietam , MD (1862-09-16 - 1862-09-17)
+    id: MD003
+  livermore:
+  - description: Antietam, September 16, 17, 1862 , MD (1862-09-16 - 1862-09-17)
+    id: 16
+  relation: eq
+  start_date: '1862-09-16'
+- cwsac:
+  - description: Corinth II , MS (1862-10-03 - 1862-10-04)
+    id: MS002
+  livermore:
+  - description: Corinth, October 3, 4, 1862 , MS (1862-10-03 - 1862-10-04)
+    id: 17
+  relation: eq
+  start_date: '1862-10-03'
+- cwsac:
+  - description: Perryville , KY (1862-10-08 - 1862-10-08)
+    id: KY009
+  livermore:
+  - description: Perryville, October 8,1862 , KY (1862-10-08 - 1862-10-08)
+    id: 18
+  relation: eq
+  start_date: '1862-10-08'
+- cwsac:
+  - description: Prairie Grove , AR (1862-12-07 - 1862-12-07)
+    id: AR005
+  livermore:
+  - description: Prairie Grove, Ark., December 7, 1862 , AR (1862-12-07 - 1862-12-07)
+    id: 19
+  relation: eq
+  start_date: '1862-12-07'
+- cwsac:
+  - description: Fredericksburg I , VA (1862-12-11 - 1862-12-15)
+    id: VA028
+  livermore:
+  - description: Fredericksburg, December 12, 1862 , VA (1862-12-13 - 1862-12-13)
+    id: 20
+  relation: eq
+  start_date: '1862-12-11'
+- cwsac:
+  - description: Chickasaw Bayou , MS (1862-12-26 - 1862-12-29)
+    id: MS003
+  livermore:
+  - description: Chicasaw Bayou and Bluff, December 27, 29, 1862 , MS (1862-12-27
+      - 1862-12-29)
+    id: 21
+  relation: eq
+  start_date: '1862-12-26'
+- cwsac:
+  - description: Stones River , TN (1862-12-31 - 1863-01-02)
+    id: TN010
+  livermore:
+  - description: Stone's River, December 31, 1862, January 1, 1863 , TN (1862-12-31
+      - 1863-01-01)
+    id: 22
+  relation: eq
+  start_date: '1862-12-31'
+- cwsac:
+  - description: Arkansas Post , AR (1863-01-09 - 1863-01-11)
+    id: AR006
+  livermore:
+  - description: Arkansas Post, January 11, 1863 , AR (1863-01-11 - 1863-01-11)
+    id: 23
+  relation: eq
+  start_date: '1863-01-09'
+- cwsac:
+  - description: Chancellorsville , VA (1863-04-30 - 1863-05-06)
+    id: VA032
+  livermore:
+  - description: Chancellorsville and Fredericksburg, May 1-4, 1863 , VA (1863-05-01
+      - 1863-05-04)
+    id: 24
+  relation: eq
+  start_date: '1863-04-30'
+- cwsac:
+  - description: Champion Hill , MS (1863-05-16 - 1863-05-16)
+    id: MS009
+  livermore:
+  - description: Champion Hill, May 16, 1863 , MS (1863-05-16 - 1863-05-16)
+    id: 25
+  relation: eq
+  start_date: '1863-05-16'
+- cwsac:
+  - description: Vicksburg , MS (1863-05-18 - 1863-07-04)
+    id: MS011
+  livermore:
+  - description: Assault on Vicksburg, May 22, 1863 , MS (1863-05-22 - 1863-05-22)
+    id: 26
+  relation: lt
+  start_date: '1863-05-18'
+- cwsac:
+  - description: Port Hudson , LA (1863-05-22 - 1863-07-09)
+    id: LA010
+  livermore:
+  - description: Assault on Port Hudson, May 27, 1863 , LA (1863-05-27 - 1863-05-27)
+    id: 27
+  relation: lt
+  start_date: '1863-05-22'
+- cwsac:
+  - description: Port Hudson , LA (1863-05-22 - 1863-07-09)
+    id: LA010
+  livermore:
+  - description: Assault on Port Hudson, June 14, 1863 , LA (1863-06-14 - 1863-06-14)
+    id: 28
+  relation: lt
+  start_date: '1863-05-22'
+- cwsac:
+  - description: Gettysburg , PA (1863-07-01 - 1863-07-03)
+    id: PA002
+  livermore:
+  - description: Gettysburg, July 1-3, 1863 , PA (1863-07-01 - 1863-07-03)
+    id: 29
+  relation: eq
+  start_date: '1863-07-01'
+- cwsac:
+  - description: Fort Wagner II/Morris Island , SC (1863-07-18 - 1863-07-18)
+    id: SC007
+  livermore:
+  - description: Assault on Fort Wagner, July 18, 1863 , SC (1863-07-18 - 1863-07-18)
+    id: 30
+  relation: eq
+  start_date: '1863-07-18'
+- cwsac:
+  - description: Chickamauga , GA (1863-09-18 - 1863-09-20)
+    id: GA004
+  livermore:
+  - description: Chickamauga, September 19, 20, 1863 , GA (1863-09-19 - 1863-09-20)
+    id: 31
+  relation: eq
+  start_date: '1863-09-18'
+- cwsac:
+  - description: Chattanooga III , TN (1863-11-23 - 1863-11-25)
+    id: TN024
+  livermore:
+  - description: Chattanooga, November 23-25, 1863 , TN (1863-11-23 - 1863-11-25)
+    id: 32
+  relation: eq
+  start_date: '1863-11-23'
+- cwsac:
+  - description: Mine Run , VA (1863-11-26 - 1863-12-02)
+    id: VA044
+  livermore:
+  - description: Mine Run, November 27-December 1, 1863 , VA (1863-11-27 - 1863-12-01)
+    id: 33
+  relation: eq
+  start_date: '1863-11-26'
+- cwsac:
+  - description: Olustee , FL (1864-02-20 - 1864-02-20)
+    id: FL005
+  livermore:
+  - description: Olustee, Fla., February 20, 1864 , FL (1864-02-20 - 1864-02-20)
+    id: 34
+  relation: eq
+  start_date: '1864-02-20'
+- cwsac:
+  - description: Pleasant Hill , LA (1864-04-09 - 1864-04-09)
+    id: LA019
+  livermore:
+  - description: Pleasant Hill, April 9, 1864 , LA (1864-04-09 - 1864-04-09)
+    id: 35
+  relation: eq
+  start_date: '1864-04-09'
+- cwsac:
+  - description: Wilderness , VA (1864-05-05 - 1864-05-06)
+    id: VA046
+  livermore:
+  - description: Wilderness, May 5-7, 1864 , VA (1864-05-05 - 1864-05-07)
+    id: 37
+  relation: eq
+  start_date: '1864-05-05'
+- cwsac:
+  - description: Rocky Face Ridge , GA (1864-05-07 - 1864-05-13)
+    id: GA007
+  livermore:
+  - description: Atlanta Campaign, May, 1864 , GA (1864-05-05 - 1864-05-28)
+    id: 36
+  relation: gt
+  start_date: '1864-05-07'
+- cwsac:
+  - description: Spotsylvania Court House , VA (1864-05-08 - 1864-05-21)
+    id: VA048
+  livermore:
+  - description: Spottsylvania, May 10, 1864 , VA (1864-05-10 - 1864-05-10)
+    id: 38
+  relation: lt
+  start_date: '1864-05-08'
+- cwsac:
+  - description: Spotsylvania Court House , VA (1864-05-08 - 1864-05-21)
+    id: VA048
+  livermore:
+  - description: Spottsylvania, May 12, 1864 , VA (1864-05-12 - 1864-05-12)
+    id: 39
+  relation: lt
+  start_date: '1864-05-08'
+- cwsac:
+  - description: Proctor's Creek , VA (1864-05-12 - 1864-05-16)
+    id: VA053
+  livermore:
+  - description: Drewry's Bluff, May 12-16, 1864 , VA (1864-05-12 - 1864-05-16)
+    id: 40
+  relation: eq
+  start_date: '1864-05-12'
+- cwsac:
+  - description: Resaca , GA (1864-05-13 - 1864-05-15)
+    id: GA008
+  livermore:
+  - description: Atlanta Campaign, May, 1864 , GA (1864-05-05 - 1864-05-28)
+    id: 36
+  relation: gt
+  start_date: '1864-05-13'
+- cwsac:
+  - description: Adairsville , GA (1864-05-17 - 1864-05-17)
+    id: GA009
+  livermore:
+  - description: Atlanta Campaign, May, 1864 , GA (1864-05-05 - 1864-05-28)
+    id: 36
+  relation: gt
+  start_date: '1864-05-17'
+- cwsac:
+  - description: New Hope Church , GA (1864-05-25 - 1864-06-05)
+    id: GA010
+  livermore:
+  - description: Atlanta Campaign, May, 1864 , GA (1864-05-05 - 1864-05-28)
+    id: 36
+  relation: gt
+  start_date: '1864-05-25'
+- cwsac:
+  - description: Pickett's Mill , GA (1864-05-27 - 1864-05-27)
+    id: GA012
+  livermore:
+  - description: Atlanta Campaign, May, 1864 , GA (1864-05-05 - 1864-05-28)
+    id: 36
+  relation: gt
+  start_date: '1864-05-27'
+- cwsac:
+  - description: Dallas , GA (1864-05-28 - 1864-06-28)
+    id: GA011
+  livermore:
+  - description: Atlanta Campaign, May, 1864 , GA (1864-05-05 - 1864-05-28)
+    id: 36
+  relation: gt
+  start_date: '1864-05-28'
+- cwsac:
+  - description: Cold Harbor , VA (1864-05-31 - 1864-06-12)
+    id: VA062
+  livermore:
+  - description: Cold Harbor, June 1-3, 1864 , VA (1864-06-01 - 1864-06-03)
+    id: 41
+  relation: eq
+  start_date: '1864-05-31'
+- cwsac:
+  - description: Petersburg II , VA (1864-06-15 - 1864-06-18)
+    id: VA063
+  livermore:
+  - description: Petersburg, June 15-18, 1864 , VA (1864-06-15 - 1864-06-18)
+    id: 42
+  relation: eq
+  start_date: '1864-06-15'
+- cwsac:
+  - description: Kennesaw Mountain , GA (1864-06-27 - 1864-06-27)
+    id: GA015
+  livermore:
+  - description: Atlanta, July 22, 1864 (Hood's Attack) , GA (1864-07-22 - 1864-07-22)
+    id: 46
+  relation: eq
+  start_date: '1864-06-27'
+- cwsac:
+  - description: Tupelo , MS (1864-07-14 - 1864-07-15)
+    id: MS015
+  livermore:
+  - description: Atlanta, July 28, 1864 , GA (1864-07-28 - 1864-07-28)
+    id: 47
+  relation: eq
+  start_date: '1864-07-14'
+- cwsac:
+  - description: Peachtree Creek , GA (1864-07-20 - 1864-07-20)
+    id: GA016
+  livermore:
+  - description: The Mine, July 30, 1864 , VA (1864-07-30 - 1864-07-30)
+    id: 48
+  relation: eq
+  start_date: '1864-07-20'
+- cwsac:
+  - description: Atlanta , GA (1864-07-22 - 1864-07-22)
+    id: GA017
+  livermore:
+  - description: Deep Bottom, August 14-19, 1864 , VA (1864-08-14 - 1864-08-19)
+    id: 49
+  relation: eq
+  start_date: '1864-07-22'
+- cwsac:
+  - description: Ezra Church , GA (1864-07-28 - 1864-07-28)
+    id: GA018
+  livermore:
+  - description: Weldon Railroad, August 18-21, 1864 , VA (1864-08-18 - 1864-08-21)
+    id: 50
+  relation: eq
+  start_date: '1864-07-28'
+- cwsac:
+  - description: Crater , VA (1864-07-30 - 1864-07-30)
+    id: VA070
+  livermore:
+  - description: Assault on Kenesaw Mountain, June 27, 1864 , GA (1864-06-27 - 1864-06-27)
+    id: 43
+  relation: eq
+  start_date: '1864-07-30'
+- cwsac:
+  - description: Deep Bottom II , VA (1864-08-13 - 1864-08-20)
+    id: VA071
+  livermore:
+  - description: Tupelo, Miss., July 13-15, 1864 , MS (1864-07-13 - 1864-07-15)
+    id: 44
+  relation: eq
+  start_date: '1864-08-13'
+- cwsac:
+  - description: Globe Tavern , VA (1864-08-18 - 1864-08-21)
+    id: VA072
+  livermore:
+  - description: Peach-Tree Creek, July 20, 1864 , GA (1864-07-20 - 1864-07-20)
+    id: 45
+  relation: eq
+  start_date: '1864-08-18'
+- cwsac:
+  - description: Jonesborough , GA (1864-08-31 - 1864-09-01)
+    id: GA022
+  livermore:
+  - description: Jonesborough, Ga., August 31, 1864 , GA (1864-08-31 - 1864-08-31)
+    id: 51
+  relation: lt
+  start_date: '1864-08-31'
+- cwsac:
+  - description: Jonesborough , GA (1864-08-31 - 1864-09-01)
+    id: GA022
+  livermore:
+  - description: Jonesborough, Ga., September 1, 1864 , GA (1864-09-01 - 1864-09-01)
+    id: 52
+  relation: lt
+  start_date: '1864-08-31'
+- cwsac:
+  - description: Opequon , VA (1864-09-19 - 1864-09-19)
+    id: VA119
+  livermore:
+  - description: Winchester (Opequan), September 19, 1864 , GA (1864-09-19 - 1864-09-19)
+    id: 53
+  relation: eq
+  start_date: '1864-09-19'
+- cwsac:
+  - description: Chaffin's Farm / New Market Heights , VA (1864-09-29 - 1864-09-30)
+    id: VA075
+  livermore:
+  - description: Chafin's Farm, and Forts Harrison and Gilmer, September 29, 30, 1864
+      , VA (1864-09-29 - 1864-09-30)
+    id: 54
+  relation: eq
+  start_date: '1864-09-29'
+- cwsac:
+  - description: Cedar Creek , VA (1864-10-19 - 1864-10-19)
+    id: VA122
+  livermore:
+  - description: Cedar Creek, October 19, 1864 , VA (1864-10-19 - 1864-10-19)
+    id: 55
+  relation: eq
+  start_date: '1864-10-19'
+- cwsac:
+  - description: Boydton Plank Road , VA (1864-10-27 - 1864-10-27)
+    id: VA079
+  livermore:
+  - description: Boydton Plank Road, October 27, 28, 1864 , VA (1864-10-27 - 1864-10-28)
+    id: 56
+  relation: eq
+  start_date: '1864-10-27'
+- cwsac:
+  - description: Franklin II , TN (1864-11-30 - 1864-11-30)
+    id: TN036
+  livermore:
+  - description: Franklin, November 30, 1864 , TN (1864-11-30 - 1864-11-30)
+    id: 57
+  relation: eq
+  start_date: '1864-11-30'
+- cwsac:
+  - description: Nashville , TN (1864-12-15 - 1864-12-16)
+    id: TN038
+  livermore:
+  - description: Nashville, December 15, 16, 1864 , TN (1864-12-15 - 1864-12-16)
+    id: 58
+  relation: eq
+  start_date: '1864-12-15'
+- cwsac:
+  - description: Hatcher's Run , VA (1865-02-05 - 1865-02-07)
+    id: VA083
+  livermore:
+  - description: Hatcher's Run, February, 5-7, 1865 , VA (1865-02-05 - 1865-02-07)
+    id: 59
+  relation: eq
+  start_date: '1865-02-05'
+- cwsac:
+  - description: Bentonville , NC (1865-03-19 - 1865-03-21)
+    id: NC020
+  livermore:
+  - description: Bentonville, March 19, 1865 , NC (1865-03-19 - 1865-03-19)
+    id: 60
+  relation: eq
+  start_date: '1865-03-19'
+- cwsac:
+  - description: Lewis's Farm , VA (1865-03-29 - 1865-03-29)
+    id: VA085
+  livermore:
+  - description: Appomattox Campaign, March 29-April 9, 1865 , VA (1865-03-29 - 1865-04-09)
+    id: 61
+  relation: gt
+  start_date: '1865-03-29'
+- cwsac:
+  - description: White Oak Road , VA (1865-03-31 - 1865-03-31)
+    id: VA087
+  livermore:
+  - description: Appomattox Campaign, March 29-April 9, 1865 , VA (1865-03-29 - 1865-04-09)
+    id: 61
+  relation: gt
+  start_date: '1865-03-31'
+- cwsac:
+  - description: Dinwiddie Court House , VA (1865-03-31 - 1865-03-31)
+    id: VA086
+  livermore:
+  - description: Appomattox Campaign, March 29-April 9, 1865 , VA (1865-03-29 - 1865-04-09)
+    id: 61
+  relation: gt
+  start_date: '1865-03-31'
+- cwsac:
+  - description: Dinwiddie Court House , VA (1865-03-31 - 1865-03-31)
+    id: VA086
+  livermore:
+  - description: Dinwiddie Court House and White Oak Road, March 29-31, 1865 , VA
+      (1865-03-29 - 1865-03-31)
+    id: 62
+  relation: eq
+  start_date: '1865-03-31'
+- cwsac:
+  - description: Five Forks , VA (1865-04-01 - 1865-04-01)
+    id: VA088
+  livermore:
+  - description: Appomattox Campaign, March 29-April 9, 1865 , VA (1865-03-29 - 1865-04-09)
+    id: 61
+  relation: gt
+  start_date: '1865-04-01'
+- cwsac:
+  - description: Petersburg III , VA (1865-04-02 - 1865-04-02)
+    id: VA089
+  livermore:
+  - description: Appomattox Campaign, March 29-April 9, 1865 , VA (1865-03-29 - 1865-04-09)
+    id: 61
+  relation: gt
+  start_date: '1865-04-02'
+- cwsac:
+  - description: Sutherland's Station , VA (1865-04-02 - 1865-04-02)
+    id: VA090
+  livermore:
+  - description: Appomattox Campaign, March 29-April 9, 1865 , VA (1865-03-29 - 1865-04-09)
+    id: 61
+  relation: gt
+  start_date: '1865-04-02'
+- cwsac:
+  - description: Petersburg III , VA (1865-04-02 - 1865-04-02)
+    id: VA089
+  livermore:
+  - description: Assault at Petersburg, April 2, 1865 , VA (1865-04-02 - 1865-04-02)
+    id: 63
+  relation: eq
+  start_date: '1865-04-02'
+- cwsac:
+  - description: Namozine Church , VA (1865-04-03 - 1865-04-03)
+    id: VA124
+  livermore:
+  - description: Appomattox Campaign, March 29-April 9, 1865 , VA (1865-03-29 - 1865-04-09)
+    id: 61
+  relation: gt
+  start_date: '1865-04-03'
+- cwsac:
+  - description: Amelia Springs , VA (1865-04-05 - 1865-04-05)
+    id: VA091
+  livermore:
+  - description: Appomattox Campaign, March 29-April 9, 1865 , VA (1865-03-29 - 1865-04-09)
+    id: 61
+  relation: gt
+  start_date: '1865-04-05'
