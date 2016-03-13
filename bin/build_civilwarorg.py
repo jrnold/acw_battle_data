@@ -51,7 +51,7 @@ REGEX_DATE = re.compile(''.join(('(?P<m>%s) (?P<d>\d+)',
                         % ('|'.join(MONTHS), '|'.join(MONTHS)))
 
 def build_forces(data, dst):
-    fields = ('id',
+    fields = ('battle_id',
               'belligerent',
               'strength',
               'casualties',
@@ -60,13 +60,13 @@ def build_forces(data, dst):
               'missing_captured')
     forces = []
     for battle in data:
-        union = {'id': battle['id'], 'belligerent': 'US'}
+        union = {'battle_id': battle['id'], 'belligerent': 'US'}
         union['casualties'] = battle['union_casualties'] if 'union_casualties' in battle else None
         union['strength'] = battle['union_strength'] if 'union_strength' in battle else None
         union['killed'] = battle['union_killed'] if 'union_killed' in battle else None
         union['wounded'] = battle['union_wounded'] if 'union_wounded' in battle else None
         forces.append(union)
-        confederate = {'id': battle['id'], 'belligerent': 'Commanders'}
+        confederate = {'battle_id': battle['id'], 'belligerent': 'Confederate'}
         confederate['casualties'] = battle['confederate_casualties'] if 'confederate_casualties' in battle else None
         confederate['strength'] = battle['confederate_strength'] if 'confederate_strength' in battle else None
         confederate['killed'] = battle['confederate_killed'] if 'confederate_killed' in battle else None
@@ -80,17 +80,17 @@ def build_forces(data, dst):
         writer.writerows(forces)
 
 def build_commanders(data, dst):
-    fields = ('id',
+    fields = ('battle_id',
               'belligerent',
               'name',
               'url')
     commanders = []
     for battle in data:
         for cdr in battle['union_commanders']:
-            commanders.append({'id': battle['id'], 'belligerent': 'US',
+            commanders.append({'battle_id': battle['id'], 'belligerent': 'US',
                                'name': cdr['name'], 'url': cdr['url']})
         for cdr in battle['confederate_commanders']:
-            commanders.append({'id': battle['id'], 'belligerent': 'Confederate',
+            commanders.append({'battle_id': battle['id'], 'belligerent': 'Confederate',
                                'name': cdr['name'], 'url': cdr['url']})
     with open(dst, 'w') as f:
         print("Writing: %s" % dst)
@@ -100,8 +100,8 @@ def build_commanders(data, dst):
 
 
 def build_battles(data, links, dst):
-    fields = ('id',
-              'name',
+    fields = ('battle_id',
+              'battle_name',
               'url',
               'start_date',
               'end_date',
@@ -137,6 +137,8 @@ def build_battles(data, links, dst):
                 print(row['dates'])
             row['cwsac_id'] = links[row['id']]['cwsac']
             row['dbpedia_url'] = links[row['id']]['dbpedia']
+            row['battle_id'] = row['id']
+            row['battle_name'] = row['name']
             writer.writerow(row)
 
 def build(src, dst):
