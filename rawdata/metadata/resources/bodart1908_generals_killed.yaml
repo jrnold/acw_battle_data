@@ -12,7 +12,7 @@ schema:
     title: belligerent
     type: string
   - format: default
-    name: name
+    name: full_name
     title: Name
     type: string
   - format: default

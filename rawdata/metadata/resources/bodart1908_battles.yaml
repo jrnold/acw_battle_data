@@ -11,7 +11,7 @@ schema:
     type: integer
   - description: Name of the battle
     format: default
-    name: name
+    name: battle_name
     title: Battle name
     type: string
   - description: Alternate names for the battle

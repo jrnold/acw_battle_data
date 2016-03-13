@@ -13,7 +13,7 @@ schema:
     type: string
   - description: Name of the commander
     format: default
-    name: name
+    name: full_name
     title: Name
     type: string
   - format: default
