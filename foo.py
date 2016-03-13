@@ -10,13 +10,13 @@ import yaml
 #
 #fox = pd.read_csv("data/fox_forces2.csv")
 
-phi2cwsac = pd.read_csv("data/phisterer_to_cwsac.csv")
-phi = pd.read_csv("data/phisterer_battles.csv")
+to_cwsac = pd.read_csv("data/livermore_to_cwsac.csv")
+btl = pd.read_csv("data/livermore_battles.csv")
 cwsac = pd.read_csv("data/nps_battles.csv")
 
 
 results = []
-for row in phi2cwsac.itertuples():
+for row in to_cwsac.itertuples():
     print(row)
     _id = row[1]
     cwsac_id = row[2]
@@ -25,7 +25,7 @@ for row in phi2cwsac.itertuples():
                                                 cwsac_battle['state'],
                                                 cwsac_battle['start_date'],
                                                 cwsac_battle['end_date'],))
-    battle = phi[phi.battle == _id]
+    battle = btl[btl.par_id == _id]
     description = ('%s, %s (%s - %s)' % (battle.iloc[0,:]['battle_name'],
                                                 battle.iloc[0,:]['state'],
                                                 battle.iloc[0,:]['start_date'],
@@ -36,5 +36,5 @@ for row in phi2cwsac.itertuples():
                     'relation': row[3]})
                   
 results.sort(key = lambda x: x['start_date'])
-with open('cwsac_to_phisterer.csv', 'w') as f:
+with open('cwsac_to_livermore.csv', 'w') as f:
     yaml.dump(results, f, default_flow_style = False)
