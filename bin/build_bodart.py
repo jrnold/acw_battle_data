@@ -45,6 +45,7 @@ def battle_csv(src, dst):
         'start_date',
         'end_date',
         'location',
+        'state',
         'category_schlacht',
         'category_treffen',
         'category_belagerung',

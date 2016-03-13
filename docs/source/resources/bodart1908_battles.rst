@@ -275,6 +275,7 @@ other_names            string   Other name(s)
 start_date             date     Start Date
 end_date               date     End Date
 location               string   Location
+state                  string   State
 category_schlacht      boolean  Battle
 category_treffen       boolean  Meeting
 category_belagerung    boolean  Siege
@@ -355,6 +356,21 @@ location
 
 
 Location of the battle (in German)
+
+
+       
+state
+-----
+
+:title: State
+:type: string
+:format: default
+:constraints:
+    :pattern: [A-Z]{2}
+    
+
+State in which the battle occurred.
+Two-letter abbreviation.
 
 
        

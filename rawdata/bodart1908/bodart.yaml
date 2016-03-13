@@ -1,4 +1,5 @@
 - battle_name: Bull-Run
+  state: VA
   category:
   - Schlacht
   category_size: 4
@@ -87,6 +88,7 @@
   result: Confederate
   start_date: *id001
 - battle_name: Cedar Mountain
+  state: VA
   category:
   - Treffen
   category_size: 5
@@ -163,6 +165,7 @@
   result: Confederate
   start_date: *id002
 - battle_name: Bull Run
+  state: VA
   category:
   - Schlacht
   category_size: 2
@@ -275,6 +278,7 @@
   result: Confederate
   start_date: 1862-08-29
 - battle_name: Richmond
+  state: KY
   category:
   - Treffen
   category_size: 4
@@ -333,6 +337,7 @@
   result: Confederate
   start_date: *id003
 - battle_name: Boonsborough
+  state: MD
   category:
   - Treffen
   category_size: 5
@@ -414,6 +419,7 @@
   result: Union
   start_date: *id004
 - battle_name: Harper's Ferry
+  state: WV
   category:
   - Kapitulation
   category_size: null
@@ -469,6 +475,7 @@
   result: Confederate
   start_date: *id005
 - battle_name: Antietam
+  state: MD
   category:
   - Schlacht
   category_size: 2
@@ -597,6 +604,7 @@
   result: Union
   start_date: *id006
 - battle_name: Corinth
+  state: MS
   category:
   - Schlacht
   category_size: 4
@@ -671,6 +679,7 @@
   result: Union
   start_date: 1862-10-03
 - battle_name: Perryville
+  state: KY
   category:
   - Schlacht
   category_size: 4
@@ -754,6 +763,7 @@
   result: Confederate
   start_date: *id007
 - battle_name: Prairie-Grove
+  state: AR
   category:
   - Treffen
   category_size: 6
@@ -802,6 +812,7 @@
   result: Union
   start_date: *id008
 - battle_name: Fredericksburg
+  state: VA
   category:
   - Schlacht
   category_size: 3
@@ -916,6 +927,7 @@
   result: Confederate
   start_date: 1862-12-11
 - battle_name: Wilson's Creek
+  state: MO
   category:
   - Treffen
   category_size: 6
@@ -976,6 +988,7 @@
   result: Confederate
   start_date: *id009
 - battle_name: Murfreesborough
+  state: TN
   category:
   - Schlacht
   category_size: 2
@@ -1096,6 +1109,7 @@
   result: Union
   start_date: 1862-12-31
 - battle_name: Chickasaw Bluffs
+  state: MS
   category:
   - Treffen
   category_size: 6
@@ -1142,6 +1156,7 @@
   result: Confederate
   start_date: *id010
 - battle_name: Arkansas Post
+  state: AR
   category:
   - Treffen
   - Kapitulation
@@ -1193,6 +1208,7 @@
   result: Union
   start_date: *id011
 - battle_name: Chancellorsville
+  state: VA
   category:
   - Schlacht
   category_size: 1
@@ -1309,6 +1325,7 @@
   result: Confederate
   start_date: 1863-05-03
 - battle_name: Champion's Hill
+  state: MS
   category:
   - Schlacht
   category_size: 4
@@ -1379,6 +1396,7 @@
   result: Union
   start_date: *id012
 - battle_name: Winchester
+  state: VA
   category:
   - Treffen
   category_size: 4
@@ -1435,6 +1453,7 @@
   result: Confederate
   start_date: *id013
 - battle_name: Gettysburg
+  state: PA
   category:
   - Schlacht
   category_size: 1
@@ -1592,6 +1611,7 @@
   result: Union
   start_date: 1863-07-01
 - battle_name: Vicksburg
+  state: MS
   category:
   - Belagerung
   - Einnahme
@@ -1658,6 +1678,7 @@
   result: Union
   start_date: 1863-05-19
 - battle_name: Chickamauga
+  state: GA
   category:
   - Schlacht
   category_size: 1
@@ -1771,6 +1792,7 @@
   result: Confederate
   start_date: 1863-09-19
 - battle_name: Ringgold
+  state: TN
   category:
   - Schlacht
   category_size: 3
@@ -1848,6 +1870,7 @@
   result: Union
   start_date: 1863-11-23
 - battle_name: Lexington
+  state: MO
   category:
   - Kapitulation
   category_size: null
@@ -1894,6 +1917,7 @@
   result: Confederate
   start_date: *id014
 - battle_name: Wilderness
+  state: VA
   category:
   - Schlacht
   category_size: 2
@@ -2009,6 +2033,7 @@
   result: Union
   start_date: 1864-05-05
 - battle_name: Spotsylvania-Court-House
+  state: VA
   category:
   - Schlacht
   category_size: 2
@@ -2142,6 +2167,7 @@
   result: Union
   start_date: 1864-05-08
 - battle_name: Resaca
+  state: GA
   category:
   - Schlacht
   category_size: 4
@@ -2190,6 +2216,7 @@
   result: Union
   start_date: *id015
 - battle_name: Drewry's Bluff
+  state: VA
   category:
   - Treffen
   category_size: 4
@@ -2241,6 +2268,7 @@
   result: Confederate
   start_date: *id016
 - battle_name: Pamunkey
+  state: VA
   category:
   - Treffen
   category_size: 4
@@ -2286,6 +2314,7 @@
   result: Union
   start_date: 1864-05-22
 - battle_name: New Hope Church
+  state: GA
   category:
   - Treffen
   category_size: 4
@@ -2329,6 +2358,7 @@
   result: Union
   start_date: *id017
 - battle_name: Cold Harbor
+  state: VA
   category:
   - Schlacht
   category_size: 3
@@ -2397,6 +2427,7 @@
   result: Confederate
   start_date: *id018
 - battle_name: Kenesaw-Mountain
+  state: GA
   category:
   - Treffen
   category_size: 5
@@ -2441,6 +2472,7 @@
   result: Confederate
   start_date: *id019
 - battle_name: Peach-Tree-Creek
+  state: GA
   category:
   - Schlacht
   category_size: 4
@@ -2485,6 +2517,7 @@
   result: Union
   start_date: *id020
 - battle_name: Atlanta
+  state: GA
   category:
   - Schlacht
   category_size: 3
@@ -2552,6 +2585,7 @@
   result: Union
   start_date: *id021
 - battle_name: Fort Donelson
+  state: TN
   category:
   - Schlacht
   - Kapitulation
@@ -2610,6 +2644,7 @@
   result: Union
   start_date: 1862-02-12
 - battle_name: Ezra-Church
+  state: GA
   category:
   - Schlacht
   category_size: 4
@@ -2655,6 +2690,7 @@
   result: Union
   start_date: *id022
 - battle_name: Winchester
+  state: VA
   category:
   - Schlacht
   category_size: 4
@@ -2738,6 +2774,7 @@
   result: Union
   start_date: *id023
 - battle_name: Middletown
+  state: VA
   category:
   - Schlacht
   category_size: 4
@@ -2816,6 +2853,7 @@
   result: Union
   start_date: *id024
 - battle_name: Franklin
+  state: TN
   category:
   - Schlacht
   category_size: 4
@@ -2921,6 +2959,7 @@
   result: Confederate
   start_date: *id025
 - battle_name: Nashville
+  state: TN
   category:
   - Schlacht
   category_size: 3
@@ -2978,6 +3017,7 @@
   result: Union
   start_date: 1864-12-15
 - battle_name: Charleston
+  state: SC
   category:
   - Belagerung
   category_size: null
@@ -3054,6 +3094,7 @@
   result: Union
   start_date: 1863-04-01
 - battle_name: Bentonville
+  state: NC
   category:
   - Schlacht
   category_size: 4
@@ -3112,6 +3153,7 @@
   result: Union
   start_date: *id026
 - battle_name: Petersburg
+  state: VA
   category:
   - Belagerung
   - Einnahme
@@ -3306,6 +3348,7 @@
   result: Union
   start_date: 1864-06-09
 - battle_name: Mobile
+  state: AL
   category:
   - Belagerung
   - Einnahme
@@ -3352,6 +3395,7 @@
   result: Union
   start_date: 1865-04-02
 - battle_name: Appomattox-Court-House
+  state: VA
   category:
   - Kapitulation
   category_size: null
@@ -3399,6 +3443,7 @@
   result: Union
   start_date: *id027
 - battle_name: Pea Ridge
+  state: AR
   category:
   - Treffen
   category_size: 3
@@ -3478,6 +3523,7 @@
   result: Union
   start_date: 1862-03-07
 - battle_name: Durham's-Station
+  state: NC
   category:
   - Kapitulation
   category_size: null
@@ -3519,6 +3565,7 @@
   result: Union
   start_date: *id028
 - battle_name: Shiloh
+  state: TN
   category:
   - Schlacht
   category_size: 2
@@ -3626,6 +3673,7 @@
   result: Union
   start_date: 1862-04-06
 - battle_name: Williamsburg
+  state: VA
   category:
   - Schlacht
   category_size: 5
@@ -3693,6 +3741,7 @@
   result: Union
   start_date: *id029
 - battle_name: Seven Pines
+  state: VA
   category:
   - Schlacht
   category_size: 3
@@ -3787,6 +3836,7 @@
   result: Confederate
   start_date: 1862-05-31
 - battle_name: Chickahominy
+  state: VA
   category:
   - Schlacht
   category_size: 1

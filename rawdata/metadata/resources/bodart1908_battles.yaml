@@ -32,6 +32,15 @@ schema:
     name: location
     title: Location
     type: string
+  - constraints:
+      pattern: '[A-Z]{2}'
+    description: 'State in which the battle occurred.
+
+      Two-letter abbreviation.'
+    format: default
+    name: state
+    title: State
+    type: string
   - description: Was the battle a major battle ("Schlacht")?
     format: default
     name: category_schlacht
