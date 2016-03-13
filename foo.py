@@ -29,7 +29,7 @@ for row in bod2cwsac.itertuples():
                                                 battle.iloc[0,:]['start_date'],
                                                 battle.iloc[0,:]['end_date'],))                                               
     results.append({'cwsac': [{'id': cwsac_id, 'description': cwsac_description}],
-                    'phisterer': [{'id': liv_id, 'description': description}],
+                    'phisterer': [{'id': _id, 'description': description}],
                     'start_date': cwsac_battle['start_date'],
                     'relation': row[3]})
                   
