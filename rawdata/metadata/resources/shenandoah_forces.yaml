@@ -3,10 +3,9 @@ name: shenandoah_forces
 path: data/shenandoah_forces.csv
 schema:
   fields:
-  - description: Battle number in the NPS Shenandoah report.
-    format: default
+  - format: default
     name: battle_number
-    title: Battle number
+    title: battle_number
     type: integer
   - format: default
     name: cwsac_id

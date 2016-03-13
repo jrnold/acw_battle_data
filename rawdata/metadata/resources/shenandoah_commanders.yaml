@@ -17,19 +17,19 @@ schema:
     type: string
   - format: default
     name: last_name
-    title: last_name
+    title: Last name
     type: string
   - format: default
     name: first_name
-    title: first_name
+    title: First name
     type: string
   - format: default
     name: middle_name
-    title: middle_name
+    title: Middle name
     type: string
   - format: default
     name: rank
-    title: rank
+    title: Rank
     type: string
 sources:
 - NPS1992

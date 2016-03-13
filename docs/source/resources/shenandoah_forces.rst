@@ -17,7 +17,7 @@ Schema
 
 
 ================  =======  ===================
-battle_number     integer  Battle number
+battle_number     integer  battle_number
 cwsac_id          string   CWSAC Id.
 belligerent       string   Belligerent
 description       string   Description
@@ -33,12 +33,12 @@ missing_captured  integer  Missing or Captured
 battle_number
 -------------
 
-:title: Battle number
+:title: battle_number
 :type: integer
 :format: default
 
 
-Battle number in the NPS Shenandoah report.
+
 
 
        

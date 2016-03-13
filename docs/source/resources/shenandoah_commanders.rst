@@ -20,10 +20,10 @@ Schema
 battle_number  integer  battle_number
 cwsac_id       string   cwsac_id
 belligerent    string   belligerent
-last_name      string   last_name
-first_name     string   first_name
-middle_name    string   middle_name
-rank           string   rank
+last_name      string   Last name
+first_name     string   First name
+middle_name    string   Middle name
+rank           string   Rank
 =============  =======  =============
 
 battle_number
@@ -65,7 +65,7 @@ belligerent
 last_name
 ---------
 
-:title: last_name
+:title: Last name
 :type: string
 :format: default
 
@@ -77,7 +77,7 @@ last_name
 first_name
 ----------
 
-:title: first_name
+:title: First name
 :type: string
 :format: default
 
@@ -89,7 +89,7 @@ first_name
 middle_name
 -----------
 
-:title: middle_name
+:title: Middle name
 :type: string
 :format: default
 
@@ -101,7 +101,7 @@ middle_name
 rank
 ----
 
-:title: rank
+:title: Rank
 :type: string
 :format: default
 

@@ -16,21 +16,21 @@ Schema
 
 
 
-=============  =======  =============
-battle_number  integer  Battle Number
-battle_name    string   Battle Name
-cwsac_id       string   cwsac_id
-start_date     date     Start Date
-end_date       date     End Eate
-campaign       string   Campaign
-county         string   County
-url            string   url
-=============  =======  =============
+===========  =======  ===========
+battle_id    integer  Battle Id.
+battle_name  string   Battle Name
+cwsac_id     string   cwsac_id
+start_date   date     Start Date
+end_date     date     End Eate
+campaign     string   Campaign
+county       string   County
+url          string   url
+===========  =======  ===========
 
-battle_number
--------------
+battle_id
+---------
 
-:title: Battle Number
+:title: Battle Id.
 :type: integer
 :format: default
 

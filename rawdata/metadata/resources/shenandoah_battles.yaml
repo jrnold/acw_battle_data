@@ -5,8 +5,8 @@ schema:
   fields:
   - description: Unique identifier in the Shenandoah data.
     format: default
-    name: battle_number
-    title: Battle Number
+    name: battle_id
+    title: Battle Id.
     type: integer
   - format: default
     name: battle_name
