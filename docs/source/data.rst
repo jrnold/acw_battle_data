@@ -24,8 +24,8 @@ Resource                                                                        
 `clodfelter_battles.csv <resources/clodfelter_battles.html>`__                        Clodfelter (2008) battle data: battles
 `clodfelter_commanders.csv <resources/clodfelter_commanders.html>`__                  Clodfelter (2008) battle data: commanders
 `clodfelter_forces.csv <resources/clodfelter_forces.html>`__                          Clodfelter (2008) battle data: forces
-`clodfelter_to_cwsac.csv <resources/clodfelter_to_cwsac.html>`__                      clodfelter_to_cwsac
-`clodfelter_to_dbpedia.csv <resources/clodfelter_to_dbpedia.html>`__                  clodfelter_to_dbpedia
+`clodfelter_to_cwsac.json <resources/clodfelter_to_cwsac.html>`__                     Correspondence between Clodfelter and CWSAC battles.
+`clodfelter_to_dbpedia.json <resources/clodfelter_to_dbpedia.html>`__                 clodfelter_to_dbpedia
 `cws2.json <resources/cws2.html>`__                                                   CWSAC Report Updates battle data
 `cws2_battles.csv <resources/cws2_battles.html>`__                                    CWSAC Report Updates battle data: battles
 `cws2_commanders.csv <resources/cws2_commanders.html>`__                              CWSAC Report Updates: commanders

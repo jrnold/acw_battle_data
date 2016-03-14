@@ -1,34 +1,6 @@
-format: csv
+format: json
 name: clodfelter_to_dbpedia
-path: data/clodfelter_to_dbpedia.csv
-schema:
-  fields:
-  - constaints:
-      enum:
-      - Confederate
-      - US
-    format: default
-    name: from
-    title: Belligerent
-    type: string
-  - description: dbpedia.org URI.
-    format: default
-    name: to
-    title: Debpedia URI
-    type: string
-  - constraints:
-      enum:
-      - gt
-      - lt
-      - eq
-    description: 'Relationship between the events:
-
-      - "eq": same event - "gt": ``from`` includes ``to`` (``to`` is a part of ``from``).
-      - "lt": ``from`` is included by ``to`` (``from`` is part of ``to``).'
-    format: default
-    name: relation
-    title: Relationship
-    type: string
+path: data/clodfelter_to_dbpedia.json
 sources:
 - Clodfelter2008
 title: clodfelter_to_dbpedia

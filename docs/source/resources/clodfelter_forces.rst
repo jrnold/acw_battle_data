@@ -17,7 +17,7 @@ Schema
 
 
 =======================  =======  =======================
-battle                   string   Battle
+battle_id                string   battle_id
 belligerent              string   Belligerent
 strength                 integer  Strength
 infantry                 integer  Infantry personnel
@@ -63,10 +63,10 @@ str_mean                 number   Strength (mean)
 str_var                  number   Strength (variance)
 =======================  =======  =======================
 
-battle
-------
+battle_id
+---------
 
-:title: Battle
+:title: battle_id
 :type: string
 :format: default
 

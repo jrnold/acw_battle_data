@@ -4,8 +4,8 @@ path: data/clodfelter_forces.csv
 schema:
   fields:
   - format: default
-    name: battle
-    title: Battle
+    name: battle_id
+    title: battle_id
     type: string
   - constraints:
       enum:

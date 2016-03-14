@@ -28,10 +28,51 @@ The following battles had a significant naval component.
 Quirks of the battles in this data:
 
 - Vicksburg: divided into the overall siege and two Assaults
-- Port Hudson: divided into the overall siege and two Assaults
-- Chattanooga: divided into four battles
-- Hampton Roads: separate entries for each day
-- Seven Days Battles. An entry for the entire Seven Days battles plus entries for each battle.
-- 2nd Bull Run: two battles: Groveton, Chantilly/2nd Bull run
-- 3rd Petersburg split into two battles: assault and Fort Gregg
-- Mobile Bay does not include the entire siege
+
+    - Vicksburg (siege) on 1863-5-18 to 1863-7-4
+    - Vicksburg (1st assault) on 1863-5-19
+    - Vicksburg (2nd assault) on 1863-5-22
+
+- Port Hudson is divided into the overall siege and two Assaults
+
+    - Port Hudson (Siege) on 1863-5-26 to 1863-7-9
+    - Port Hudson (1st assault) on 1863-5-27
+    - Port Hudson (2nd assault) on 1863-6-14
+
+- Chattanooga: includes a battle for the overall battle and four separate Battles
+
+    - Chattanooga on 1863-11-23 to 1863-11-25
+    - Chattanooga (Orchard Knob/Indian Hill) on 11-23
+    - Chattanooga (Lookout Mountain) on 11-24
+    - Chattanooga (Tunnel Hill) on 11-25
+    - Chattanooga (Missionary Ridge) on 11-25
+- Cold Harbor: includes a battle for the overall siege and one for the assault
+
+    - Cold Harbor (assault) on 1864-6-3
+    - Cold Harbor on 1864-5-31 to 1864-6-12
+
+- The Battle of Hampton Roads on March 8-9, 1862 is split into battles for each day
+
+    - Hampton Roads (first day) on 1862-03-08
+    - Hampton Roads (second day) on 1862-03-09
+
+- Seven Days Battles includes an entry for the entire Seven Days Battles (June 25-July 1),
+  as well as one for each separate battle.
+
+    - The Orchard (Seven Days)
+    - Mechanicsville (Seven Days)
+    - Gaines's Mill (Seven Days)
+    - Savage's Station (Seven Days)
+    - White Oak Swamp (Seven Days)
+    - Malvern Hill (Seven Days)
+    
+- 2nd Bull Run (Manasas) [VA026] (1862-8-28 to 1862-8-30) and Chantilly [VA027] (1862-9-1) are divided into two battles:
+    - Groveton (1862-8-28)
+    - Second Bull Run/Chantilly (Second Manassas) (1862-8-29 to 1862-9-1)
+
+- 3rd Petersburg on 1865-04-02 is split into two battles
+
+    - Fort Gregg on 1865-04-02
+    - Petersburg (2nd Assault) on 1865-04-02
+
+- Mobile Bay only includes the assault on August 5, 1864 and not the entire siege.

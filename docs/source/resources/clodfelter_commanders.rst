@@ -20,7 +20,7 @@ Schema
 
 
 ================  =======  ================
-battle            string   battle
+battle_id         string   battle_id
 belligerent       string   belligerent
 commander_number  integer  commander_number
 PersonID          string   PersonID
@@ -32,10 +32,10 @@ rank              string   rank
 navy              number   navy
 ================  =======  ================
 
-battle
-------
+battle_id
+---------
 
-:title: battle
+:title: battle_id
 :type: string
 :format: default
 

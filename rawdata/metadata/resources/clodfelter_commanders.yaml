@@ -4,8 +4,8 @@ path: data/clodfelter_commanders.csv
 schema:
   fields:
   - format: default
-    name: battle
-    title: battle
+    name: battle_id
+    title: battle_id
     type: string
   - format: default
     name: belligerent

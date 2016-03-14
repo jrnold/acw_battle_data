@@ -1,0 +1,1007 @@
+- battles_cwsac:
+  - description: Rich Mountain (1861-07-11-1861-07-11)
+    id: WV003
+  battles_from:
+  - description: 1861-7-11 to 1861-7-11
+    id: Rich Mountain/Laurel Mountain
+  relation: eq
+- battles_cwsac:
+  - description: Manassas, First (1861-07-21-1861-07-21)
+    id: VA005
+  battles_from:
+  - description: 1861-7-21 to 1861-7-21
+    id: First Bull Run (Manassas)
+  relation: eq
+- battles_cwsac:
+  - description: Ball's Bluff (1861-10-21-1861-10-21)
+    id: VA006
+  battles_from:
+  - description: 1861-10-21 to 1861-10-21
+    id: Ball's Bluff
+  relation: eq
+- battles_cwsac:
+  - description: Wilson's Creek (1861-08-10-1861-08-10)
+    id: MO004
+  battles_from:
+  - description: 1861-8-10 to 1861-8-10
+    id: Wilson's Creek
+  relation: eq
+- battles_cwsac:
+  - description: Belmont (1861-11-07-1861-11-07)
+    id: MO009
+  battles_from:
+  - description: 1861-11-7 to 1861-11-7
+    id: Belmont
+  relation: eq
+- battles_cwsac:
+  - description: Roanoke Island (1862-02-07-1862-02-08)
+    id: NC002
+  battles_from:
+  - description: 1862-2-7 to 1862-2-8
+    id: Roanoake Island
+  relation: eq
+- battles_cwsac:
+  - description: New Berne (1862-03-14-1862-03-14)
+    id: NC003
+  battles_from:
+  - description: 1862-3-13 to 1862-3-13
+    id: New Bern
+  relation: eq
+- battles_cwsac:
+  - &id001
+    description: Hampton Roads (1862-03-08-1862-03-09)
+    id: VA008
+  battles_from:
+  - description: 1862-3-8 to 1862-3-8
+    id: Hampton Roads (first day)
+  relation: <
+- battles_cwsac:
+  - *id001
+  battles_from:
+  - description: 1862-3-9 to 1862-3-9
+    id: Hampton Roads (second day)
+  relation: <
+- battles_cwsac:
+  - description: Secessionville (1862-06-16-1862-06-16)
+    id: SC002
+  battles_from:
+  - description: 1862-6-16 to 1862-6-16
+    id: Secessionville
+  relation: eq
+- battles_cwsac:
+  - description: Kernstown, First (1862-03-23-1862-03-23)
+    id: VA101
+  battles_from:
+  - description: 1862-3-23 to 1862-3-23
+    id: Kernstown (first)
+  relation: eq
+- battles_cwsac:
+  - description: McDowell (1862-05-08-1862-05-08)
+    id: VA102
+  battles_from:
+  - description: 1862-5-8 to 1862-5-8
+    id: McDowell
+  relation: eq
+- battles_cwsac:
+  - description: Front Royal (1862-05-23-1862-05-23)
+    id: VA103
+  battles_from:
+  - description: 1862-5-23 to 1862-5-23
+    id: Front Royal
+  relation: eq
+- battles_cwsac:
+  - description: Winchester, First (1862-05-25-1862-05-25)
+    id: VA104
+  battles_from:
+  - description: 1862-5-25 to 1862-5-25
+    id: Winchester (first)
+  relation: eq
+- battles_cwsac:
+  - description: Cross Keys (1862-06-08-1862-06-08)
+    id: VA105
+  battles_from:
+  - description: 1862-6-8 to 1862-6-8
+    id: Cross Keys
+  relation: eq
+- battles_cwsac:
+  - description: Port Republic (1862-06-09-1862-06-09)
+    id: VA106
+  battles_from:
+  - description: 1862-6-9 to 1862-6-9
+    id: Port Republic
+  relation: eq
+- battles_cwsac:
+  - description: Williamsburg (1862-05-05-1862-05-05)
+    id: VA010
+  battles_from:
+  - description: 1862-5-5 to 1862-5-5
+    id: Williamsburg (Fort Magruder)
+  relation: eq
+- battles_cwsac:
+  - description: Hanover Court House (1862-05-27-1862-05-27)
+    id: VA013
+  battles_from:
+  - description: 1862-5-27 to 1862-5-27
+    id: Hanover Court House
+  relation: eq
+- battles_cwsac:
+  - description: Seven Pines (1862-05-31-1862-06-01)
+    id: VA014
+  battles_from:
+  - description: 1862-5-31 to 1862-6-1
+    id: Fair Oaks (Seven Pines)
+  relation: eq
+- battles_cwsac:
+  - &id002
+    description: Oak Grove (1862-06-25-1862-06-25)
+    id: VA015
+  - &id003
+    description: Beaver Dam Creek (1862-06-26-1862-06-26)
+    id: VA016
+  - &id004
+    description: Gaines' Mill (1862-06-27-1862-06-27)
+    id: VA017
+  - description: 'Garnett''s & Golding''s
+
+      Farms (1862-06-27-1862-06-28)'
+    id: VA018
+  - &id005
+    description: Savage's Station (1862-06-29-1862-06-29)
+    id: VA019
+  - &id006
+    description: Glendale/White Oak Swamp (1862-06-30-1862-06-30)
+    id: VA020
+  - &id007
+    description: Malvern Hill (1862-07-01-1862-07-01)
+    id: VA021
+  battles_from:
+  - description: 1862-6-25 to 1862-7-1
+    id: Seven Days Battles
+  relation: gt
+- battles_cwsac:
+  - *id002
+  battles_from:
+  - description: 1862-6-25 to 1862-6-25
+    id: The Orchard (Seven Days)
+  relation: eq
+- battles_cwsac:
+  - *id003
+  battles_from:
+  - description: 1862-6-26 to 1862-6-26
+    id: Mechanicsville (Seven Days)
+  relation: eq
+- battles_cwsac:
+  - *id004
+  battles_from:
+  - description: 1862-6-27 to 1862-6-27
+    id: Gaines's Mill (Seven Days)
+  relation: eq
+- battles_cwsac:
+  - *id005
+  battles_from:
+  - description: 1862-6-29 to 1862-6-29
+    id: Savage's Station (Seven Days)
+  relation: eq
+- battles_cwsac:
+  - *id006
+  battles_from:
+  - description: 1862-6-30 to 1862-6-30
+    id: White Oak Swamp (Seven Days)
+  relation: eq
+- battles_cwsac:
+  - *id007
+  battles_from:
+  - description: 1862-7-1 to 1862-7-1
+    id: Malvern Hill (Seven Days)
+  relation: eq
+- battles_cwsac:
+  - description: Cedar Mountain (1862-08-09-1862-08-09)
+    id: VA022
+  battles_from:
+  - description: 1862-8-9 to 1862-8-9
+    id: Cedar Mountain
+  relation: eq
+- battles_cwsac:
+  - &id008
+    description: Manassas, Second (1862-08-28-1862-08-30)
+    id: VA026
+  battles_from:
+  - description: 1862-8-28 to 1862-8-28
+    id: Groveton
+  relation: <
+- battles_cwsac:
+  - *id008
+  battles_from:
+  - description: 1862-8-29 to 1862-9-1
+    id: Second Bull Run/Chantilly (Second Manassas)
+  relation: <
+- battles_cwsac:
+  - description: South Mountain (1862-09-14-1862-09-14)
+    id: MD002
+  battles_from:
+  - description: 1862-9-14 to 1862-9-14
+    id: South Mountain
+  relation: eq
+- battles_cwsac:
+  - description: Antietam (1862-09-16-1862-09-18)
+    id: MD003
+  battles_from:
+  - description: 1862-9-17 to 1862-9-17
+    id: Antietam (Sharpsburg)
+  relation: eq
+- battles_cwsac:
+  - description: Fredericksburg I (1862-12-11-1862-12-15)
+    id: VA028
+  battles_from:
+  - description: 1862-12-13 to 1862-12-13
+    id: Fredericksburg
+  relation: eq
+- battles_cwsac:
+  - description: Valverde (1862-02-20-1862-02-21)
+    id: NM001
+  battles_from:
+  - description: 1862-2-21 to 1862-2-21
+    id: Valverde
+  relation: eq
+- battles_cwsac:
+  - description: Glorieta Pass (1862-03-26-1862-03-28)
+    id: NM002
+  battles_from:
+  - description: 1862-3-26 to 1862-3-28
+    id: Apache Canyon/Glorieta Pass
+  relation: eq
+- battles_cwsac:
+  - description: Pea Ridge (1862-03-06-1862-03-08)
+    id: AR001
+  battles_from:
+  - description: 1862-3-7 to 1862-3-8
+    id: Pea Ridge
+  relation: eq
+- battles_cwsac:
+  - description: Prairie Grove (1862-12-07-1862-12-07)
+    id: AR005
+  battles_from:
+  - description: 1862-12-7 to 1862-12-7
+    id: Prairie Grove
+  relation: eq
+- battles_cwsac:
+  - description: Mill Springs (1862-01-19-1862-01-19)
+    id: KY006
+  battles_from:
+  - description: 1862-1-19 to 1862-1-20
+    id: Mill Springs (Logan's Crossroads)
+  relation: eq
+- battles_cwsac:
+  - description: Fort Donelson (1862-02-11-1862-02-16)
+    id: TN002
+  battles_from:
+  - description: 1862-2-12 to 1862-2-16
+    id: Fort Donelson
+  relation: eq
+- battles_cwsac:
+  - description: Shiloh (1862-04-06-1862-04-07)
+    id: TN003
+  battles_from:
+  - description: 1862-4-6 to 1862-4-7
+    id: Shiloh (Pittsburg Landing)
+  relation: eq
+- battles_cwsac:
+  - description: Forts Jackson and St. Philip (1862-04-16-1862-04-28)
+    id: LA001
+  battles_from:
+  - description: 1862-4-24 to 1862-4-24
+    id: New Orleans
+  relation: eq
+- battles_cwsac:
+  - description: Baton Rouge (1862-08-05-1862-08-05)
+    id: LA003
+  battles_from:
+  - description: 1862-8-5 to 1862-8-5
+    id: Baton Rouge
+  relation: eq
+- battles_cwsac:
+  - description: Iuka (1862-09-19-1862-09-19)
+    id: MS001
+  battles_from:
+  - description: 1862-9-19 to 1862-9-19
+    id: Iuka
+  relation: eq
+- battles_cwsac:
+  - description: Corinth (1862-10-03-1862-10-04)
+    id: MS002
+  battles_from:
+  - description: 1862-10-3 to 1862-10-4
+    id: Corinth
+  relation: eq
+- battles_cwsac:
+  - description: Chickasaw Bayou (1862-12-26-1862-12-29)
+    id: MS003
+  battles_from:
+  - description: 1862-12-29 to 1862-12-29
+    id: Chickasaw Bluffs
+  relation: eq
+- battles_cwsac:
+  - description: Richmond (1862-08-29-1862-08-30)
+    id: KY007
+  battles_from:
+  - description: 1862-8-30 to 1862-8-30
+    id: Richmond (Kentucky)
+  relation: eq
+- battles_cwsac:
+  - description: Perryville (1862-10-08-1862-10-08)
+    id: KY009
+  battles_from:
+  - description: 1862-10-8 to 1862-10-8
+    id: Perryville
+  relation: eq
+- battles_cwsac:
+  - description: Hartsville (1862-12-07-1862-12-07)
+    id: TN008
+  battles_from:
+  - description: 1862-12-7 to 1862-12-7
+    id: Hartsville
+  relation: eq
+- battles_cwsac:
+  - description: Stones River (1862-12-31-1863-01-02)
+    id: TN010
+  battles_from:
+  - description: 1862-12-31 to 1863-1-2
+    id: Stones River (Murfreesboro)
+  relation: eq
+- battles_cwsac:
+  - description: Chancellorsville (1863-04-30-1863-05-06)
+    id: VA032
+  battles_from:
+  - description: 1863-5-1 to 1863-5-6
+    id: Chancellorsville
+  relation: eq
+- battles_cwsac:
+  - description: Brandy Station (1863-06-09-1863-06-09)
+    id: VA035
+  battles_from:
+  - description: 1863-6-9 to 1863-6-9
+    id: Brandy Station
+  relation: eq
+- battles_cwsac:
+  - description: Winchester, Second (1863-06-13-1863-06-15)
+    id: VA107
+  battles_from:
+  - description: 1863-6-14 to 1863-6-15
+    id: Winchester (second)
+  relation: eq
+- battles_cwsac:
+  - description: Gettysburg (1863-07-01-1863-07-03)
+    id: PA002
+  battles_from:
+  - description: 1863-7-1 to 1863-7-3
+    id: Gettsyburg
+  relation: eq
+- battles_cwsac:
+  - description: Bristoe Station (1863-10-14-1863-10-14)
+    id: VA040
+  battles_from:
+  - description: 1863-10-14 to 1863-10-14
+    id: Bristoe Station
+  relation: eq
+- battles_cwsac:
+  - description: Buckland Mills (1863-10-19-1863-10-19)
+    id: VA042
+  battles_from:
+  - description: 1863-10-19 to 1863-10-19
+    id: Buckland
+  relation: eq
+- battles_cwsac:
+  - description: Rappahannock Station (1863-11-07-1863-11-07)
+    id: VA043
+  battles_from:
+  - description: 1863-11-7 to 1863-11-7
+    id: Rappahannock Station
+  relation: eq
+- battles_cwsac:
+  - description: Mine Run (1863-11-27-1863-12-02)
+    id: VA044
+  battles_from:
+  - description: 1863-11-27 to 1863-12-1
+    id: Mine Run
+  relation: eq
+- battles_cwsac:
+  - description: Galveston (1863-01-01-1863-01-01)
+    id: TX003
+  battles_from:
+  - description: 1863-1-1 to 1863-1-1
+    id: Galveston
+  relation: eq
+- battles_cwsac:
+  - description: Honey Springs (1863-07-17-1863-07-17)
+    id: OK007
+  battles_from:
+  - description: 1863-7-17 to 1863-7-17
+    id: Honey Springs
+  relation: eq
+- battles_cwsac:
+  - description: Arkansas Post (1863-01-09-1863-01-11)
+    id: AR006
+  battles_from:
+  - description: 1863-1-11 to 1863-1-11
+    id: Fort Hindman (Arkansas Post)
+  relation: eq
+- battles_cwsac:
+  - &id009
+    description: Port Hudson (1863-05-21-1863-07-09)
+    id: LA010
+  battles_from:
+  - description: 1863-5-26 to 1863-7-9
+    id: Port Hudson (siege)
+  relation: eq
+- battles_cwsac:
+  - *id009
+  battles_from:
+  - description: 1863-5-27 to 1863-5-27
+    id: Port Hudson (first assault)
+  relation: <
+- battles_cwsac:
+  - *id009
+  battles_from:
+  - description: 1863-6-14 to 1863-6-14
+    id: Port Hudson (second assault)
+  relation: <
+- battles_cwsac:
+  - description: Donaldsonville (1863-06-28-1863-06-28)
+    id: LA013
+  battles_from:
+  - description: 1863-6-28 to 1863-6-28
+    id: Donaldsville (first)
+  relation: eq
+- battles_cwsac:
+  - description: Kock's Plantation (1863-07-12-1863-07-13)
+    id: LA015
+  battles_from:
+  - description: 1863-7-13 to 1863-7-13
+    id: Donaldsville (second)
+  relation: eq
+- battles_cwsac:
+  - description: Port Gibson (1863-05-01-1863-05-01)
+    id: MS006
+  battles_from:
+  - description: 1863-5-1 to 1863-5-1
+    id: Port Gibson
+  relation: eq
+- battles_cwsac:
+  - description: Raymond (1863-05-12-1863-05-12)
+    id: MS007
+  battles_from:
+  - description: 1863-5-12 to 1863-5-12
+    id: Raymond
+  relation: eq
+- battles_cwsac:
+  - description: Jackson (1863-05-14-1863-05-14)
+    id: MS008
+  battles_from:
+  - description: 1863-5-14 to 1863-5-14
+    id: Jackson
+  relation: eq
+- battles_cwsac:
+  - description: Champion Hill (1863-05-16-1863-05-16)
+    id: MS009
+  battles_from:
+  - description: 1863-5-16 to 1863-5-16
+    id: Champion's Hill
+  relation: eq
+- battles_cwsac:
+  - description: Big Black River Bridge (1863-05-17-1863-05-17)
+    id: MS010
+  battles_from:
+  - description: 1863-5-17 to 1863-5-17
+    id: Big Black River
+  relation: eq
+- battles_cwsac:
+  - &id010
+    description: Vicksburg (1863-05-18-1863-07-04)
+    id: MS011
+  battles_from:
+  - description: 1863-5-18 to 1863-7-4
+    id: Vicksburg (siege)
+  relation: eq
+- battles_cwsac:
+  - *id010
+  battles_from:
+  - description: 1863-5-19 to 1863-5-19
+    id: Vicksburg (first assault)
+  relation: <
+- battles_cwsac:
+  - *id010
+  battles_from:
+  - description: 1863-5-22 to 1863-5-22
+    id: Vicksburg (second assault)
+  relation: <
+- battles_cwsac:
+  - description: Helena (1863-07-04-1863-07-04)
+    id: AR008
+  battles_from:
+  - description: 1863-7-4 to 1863-7-4
+    id: Helena
+  relation: eq
+- battles_cwsac:
+  - description: Chickamauga (1863-09-18-1863-09-20)
+    id: GA004
+  battles_from:
+  - description: 1863-9-19 to 1863-9-20
+    id: Chickamagua
+  relation: eq
+- battles_cwsac:
+  - &id011
+    description: Chattanooga (1863-11-23-1863-11-25)
+    id: TN024
+  battles_from:
+  - description: 1863-11-23 to 1863-11-25
+    id: Chattanooga
+  relation: eq
+- battles_cwsac:
+  - *id011
+  battles_from:
+  - description: 1863-11-23 to 1863-11-23
+    id: Chattanooga (Orchard Knob/Indian Hill)
+  relation: <
+- battles_cwsac:
+  - *id011
+  battles_from:
+  - description: 1863-11-24 to 1863-11-24
+    id: Chattanooga (Lookout Mountain)
+  relation: <
+- battles_cwsac:
+  - *id011
+  battles_from:
+  - description: 1863-11-25 to 1863-11-25
+    id: Chattanooga (Tunnel Hill)
+  relation: <
+- battles_cwsac:
+  - *id011
+  battles_from:
+  - description: 1863-11-25 to 1863-11-25
+    id: Chattanooga (Missionary Ridge)
+  relation: <
+- battles_cwsac:
+  - description: Ringgold Gap (1863-11-27-1863-11-27)
+    id: GA005
+  battles_from:
+  - description: 1863-11-27 to 1863-11-27
+    id: Ringgold Gap
+  relation: eq
+- battles_cwsac:
+  - description: Fort Sanders (1863-11-29-1863-11-29)
+    id: TN025
+  battles_from:
+  - description: 1863-11-29 to 1863-11-29
+    id: Knoxville (attack on Fort Sanders)
+  relation: eq
+- battles_cwsac:
+  - description: Fort Wagner (1863-07-10-1863-07-11)
+    id: SC005
+  battles_from:
+  - description: 1863-7-10 to 1863-7-11
+    id: Batteries Wagner and Gregg
+  relation: eq
+- battles_cwsac:
+  - description: Fort Wagner/Morris Island (1863-07-18-1863-09-07)
+    id: SC007
+  battles_from:
+  - description: 1863-7-18 to 1863-7-18
+    id: Battery Wagner
+  relation: eq
+- battles_cwsac:
+  - description: Olustee (1864-02-20-1864-02-20)
+    id: FL005
+  battles_from:
+  - description: 1864-2-10 to 1864-2-10
+    id: Olustee
+  relation: eq
+- battles_cwsac:
+  - description: Wilderness (1864-05-05-1864-05-07)
+    id: VA046
+  battles_from:
+  - description: 1864-5-5 to 1864-5-6
+    id: Wilderness
+  relation: eq
+- battles_cwsac:
+  - description: Spotsylvania Court House (1864-05-08-1864-05-21)
+    id: VA048
+  battles_from:
+  - description: 1864-5-8 to 1864-5-18
+    id: Spotsylvania Court House
+  relation: eq
+- battles_cwsac:
+  - description: Yellow Tavern (1864-05-11-1864-05-11)
+    id: VA052
+  battles_from:
+  - description: 1864-5-11 to 1864-5-11
+    id: Yellow Tavern
+  relation: eq
+- battles_cwsac:
+  - description: North Anna (1864-05-23-1864-05-26)
+    id: VA055
+  battles_from:
+  - description: 1864-5-23 to 1864-5-26
+    id: North Anna River
+  relation: eq
+- battles_cwsac:
+  - description: Totopotomoy Creek (1864-05-28-1864-05-30)
+    id: VA057
+  battles_from:
+  - description: 1864-5-27 to 1864-5-31
+    id: Totopotomy Creek
+  relation: eq
+- battles_cwsac:
+  - &id012
+    description: Cold Harbor (1864-05-31-1864-06-12)
+    id: VA062
+  battles_from:
+  - description: 1864-6-3 to 1864-6-3
+    id: Cold Harbor (assault)
+  relation: <
+- battles_cwsac:
+  - *id012
+  battles_from:
+  - description: 1864-5-31 to 1864-6-12
+    id: Cold Harbor
+  relation: eq
+- battles_cwsac:
+  - description: Trevilian Station (1864-06-11-1864-06-12)
+    id: VA099
+  battles_from:
+  - description: 1864-6-11 to 1864-6-12
+    id: Trevilian Station
+  relation: eq
+- battles_cwsac:
+  - description: Cloyd's Mountain (1864-05-09-1864-05-09)
+    id: VA049
+  battles_from:
+  - description: 1864-5-9 to 1864-5-9
+    id: Cloyd's Mountain
+  relation: eq
+- battles_cwsac:
+  - description: New Market (1864-05-15-1864-05-15)
+    id: VA110
+  battles_from:
+  - description: 1864-5-15 to 1864-5-15
+    id: New Market
+  relation: eq
+- battles_cwsac:
+  - description: Piedmont (1864-06-05-1864-06-06)
+    id: VA111
+  battles_from:
+  - description: 1864-6-5 to 1864-6-5
+    id: Piedmont
+  relation: eq
+- battles_cwsac:
+  - description: Drewry's Bluff (1862-05-15-1862-05-15)
+    id: VA012
+  battles_from:
+  - description: 1864-5-12 to 1864-5-16
+    id: Drewry's Bluff
+  relation: eq
+- battles_cwsac:
+  - description: Petersburg (1864-06-15-1864-06-18)
+    id: VA063
+  battles_from:
+  - description: 1864-6-15 to 1864-6-18
+    id: Petersburg (first assault)
+  relation: eq
+- battles_cwsac:
+  - description: Monocacy (1864-07-09-1864-07-09)
+    id: MD007
+  battles_from:
+  - description: 1864-7-9 to 1864-7-9
+    id: Monocacy River
+  relation: eq
+- battles_cwsac:
+  - description: Kernstown, Second (1864-07-24-1864-07-24)
+    id: VA116
+  battles_from:
+  - description: 1864-7-24 to 1864-7-24
+    id: Kernstown (second)
+  relation: eq
+- battles_cwsac:
+  - description: Opequon (1864-09-19-1864-09-19)
+    id: VA119
+  battles_from:
+  - description: 1864-9-19 to 1864-9-19
+    id: Opequon (Third Winchester)
+  relation: eq
+- battles_cwsac:
+  - description: Fisher's Hill (1864-09-21-1864-09-22)
+    id: VA120
+  battles_from:
+  - description: 1864-9-22 to 1864-9-22
+    id: Fisher's Hill
+  relation: eq
+- battles_cwsac:
+  - description: Cedar Creek (1864-10-19-1864-10-19)
+    id: VA122
+  battles_from:
+  - description: 1864-10-19 to 1864-10-19
+    id: Cedar Creek
+  relation: eq
+- battles_cwsac:
+  - description: Crater (1864-07-30-1864-07-30)
+    id: VA070
+  battles_from:
+  - description: 1864-7-30 to 1864-7-30
+    id: Petersburg (Battle of the Crater)
+  relation: eq
+- battles_cwsac:
+  - description: Deep Bottom II (1864-08-13-1864-08-20)
+    id: VA071
+  battles_from:
+  - description: 1864-8-13 to 1864-8-20
+    id: Deep Bottom Run
+  relation: eq
+- battles_cwsac:
+  - description: Globe Tavern (1864-08-18-1864-08-21)
+    id: VA072
+  battles_from:
+  - description: 1864-8-18 to 1864-8-21
+    id: Globe Tavern
+  relation: eq
+- battles_cwsac:
+  - description: Ream's Station (1864-08-25-1864-08-25)
+    id: VA073
+  battles_from:
+  - description: 1864-8-23 to 1864-8-23
+    id: Reams Station
+  relation: eq
+- battles_cwsac:
+  - description: 'Chaffin''s Farm/New Market
+
+      Heights (1864-09-29-1864-09-30)'
+    id: VA075
+  battles_from:
+  - description: 1864-9-29 to 1864-9-30
+    id: Fort Harrison (Chaffin's Bluff)
+  relation: eq
+- battles_cwsac:
+  - description: Peebles' Farm (1864-09-30-1864-10-02)
+    id: VA074
+  battles_from:
+  - description: 1864-9-30 to 1864-10-1
+    id: Peebles Farm
+  relation: eq
+- battles_cwsac:
+  - description: Boydton Plank Road (1864-10-27-1864-10-28)
+    id: VA079
+  battles_from:
+  - description: 1864-10-27 to 1864-10-28
+    id: Hatcher's Run (first)
+  relation: eq
+- battles_cwsac:
+  - description: 'Fair Oaks & Darbytown
+
+      Road (1864-10-27-1864-10-28)'
+    id: VA080
+  battles_from:
+  - description: 1864-10-27 to 1864-10-28
+    id: Fair Oaks
+  relation: eq
+- battles_cwsac:
+  - description: Mansfield (1864-04-08-1864-04-08)
+    id: LA018
+  battles_from:
+  - description: 1864-4-8 to 1864-4-8
+    id: Sabine Crossroads
+  relation: eq
+- battles_cwsac:
+  - description: Pleasant Hill (1864-04-09-1864-04-09)
+    id: LA019
+  battles_from:
+  - description: 1864-4-9 to 1864-4-9
+    id: Pleasant Hill
+  relation: eq
+- battles_cwsac:
+  - description: Yellow Bayou (1864-05-18-1864-05-18)
+    id: LA023
+  battles_from:
+  - description: 1864-5-18 to 1864-5-18
+    id: Yellow Bayou
+  relation: eq
+- battles_cwsac:
+  - description: Jenkins' Ferry (1864-04-30-1864-04-30)
+    id: AR016
+  battles_from:
+  - description: 1864-4-30 to 1864-4-30
+    id: Jenkins Ferry
+  relation: eq
+- battles_cwsac:
+  - description: Fort Davidson (1864-09-27-1864-09-27)
+    id: MO021
+  battles_from:
+  - description: 1864-12-27 to 1864-12-27
+    id: Fort Davidson (Pilot Knob)
+  relation: eq
+- battles_cwsac:
+  - description: Westport (1864-10-23-1864-10-23)
+    id: MO027
+  battles_from:
+  - description: 1864-10-23 to 1864-10-23
+    id: Westport
+  relation: eq
+- battles_cwsac:
+  - description: Mine Creek (1864-10-25-1864-10-25)
+    id: KS003
+  battles_from:
+  - description: 1864-10-25 to 1864-10-25
+    id: Mine Creek
+  relation: eq
+- battles_cwsac:
+  - description: Fort Pillow (1864-04-12-1864-04-12)
+    id: TN030
+  battles_from:
+  - description: 1864-4-12 to 1864-4-12
+    id: Fort Pillow
+  relation: eq
+- battles_cwsac:
+  - description: Brice's Cross Roads (1864-06-10-1864-06-10)
+    id: MS014
+  battles_from:
+  - description: 1864-6-10 to 1864-6-10
+    id: Brice's Crossroads
+  relation: eq
+- battles_cwsac:
+  - description: Tupelo (1864-07-14-1864-07-15)
+    id: MS015
+  battles_from:
+  - description: 1864-7-14 to 1864-7-15
+    id: Tupelo
+  relation: eq
+- battles_cwsac:
+  - description: Selma (1865-04-02-1865-04-02)
+    id: AL007
+  battles_from:
+  - description: 1864-4-2 to 1864-4-3
+    id: Selma
+  relation: eq
+- battles_cwsac:
+  - description: New Hope Church (1864-05-25-1864-05-26)
+    id: GA010
+  battles_from:
+  - description: 1864-5-25 to 1864-5-25
+    id: New Hope Church
+  relation: eq
+- battles_cwsac:
+  - description: Kennesaw Mountain (1864-06-27-1864-06-27)
+    id: GA015
+  battles_from:
+  - description: 1864-6-27 to 1864-6-27
+    id: Kennesaw Mountain
+  relation: eq
+- battles_cwsac:
+  - description: Peachtree Creek (1864-07-20-1864-07-20)
+    id: GA016
+  battles_from:
+  - description: 1864-7-20 to 1864-7-20
+    id: Peachtree Creek
+  relation: eq
+- battles_cwsac:
+  - description: Atlanta (1864-07-22-1864-07-22)
+    id: GA017
+  battles_from:
+  - description: 1864-7-22 to 1864-7-22
+    id: Atlanta
+  relation: eq
+- battles_cwsac:
+  - description: Ezra Church (1864-07-28-1864-07-28)
+    id: GA018
+  battles_from:
+  - description: 1864-7-28 to 1864-7-28
+    id: Ezra Church
+  relation: eq
+- battles_cwsac:
+  - description: Jonesborough (1864-08-31-1864-09-01)
+    id: GA022
+  battles_from:
+  - description: 1864-8-31 to 1864-9-1
+    id: Jonesboro
+  relation: eq
+- battles_cwsac:
+  - description: Allatoona (1864-10-05-1864-10-05)
+    id: GA023
+  battles_from:
+  - description: 1864-10-6 to 1864-10-6
+    id: Allatoona
+  relation: eq
+- battles_cwsac:
+  - description: Franklin (1864-11-30-1864-11-30)
+    id: TN036
+  battles_from:
+  - description: 1864-11-30 to 1864-11-30
+    id: Franklin
+  relation: eq
+- battles_cwsac:
+  - description: Nashville (1864-12-15-1864-12-16)
+    id: TN038
+  battles_from:
+  - description: 1864-12-15 to 1864-12-16
+    id: Nashville
+  relation: eq
+- battles_cwsac:
+  - description: Griswoldville (1864-11-22-1864-11-22)
+    id: GA025
+  battles_from:
+  - description: 1864-11-22 to 1864-11-22
+    id: Griswoldville
+  relation: eq
+- battles_cwsac:
+  - description: Mobile Bay (1864-08-02-1864-08-23)
+    id: AL003
+  battles_from:
+  - description: 1864-8-5 to 1864-8-5
+    id: Mobile Bay
+  relation: <
+- battles_cwsac:
+  - description: Fort Fisher (1865-01-13-1865-01-15)
+    id: NC015
+  battles_from:
+  - description: 1865-1-13 to 1865-1-15
+    id: Fort Fisher
+  relation: eq
+- battles_cwsac:
+  - description: Hatcher's Run (1865-02-05-1865-02-07)
+    id: VA083
+  battles_from:
+  - description: 1865-2-5 to 1865-2-7
+    id: Hatcher's Run (second)
+  relation: eq
+- battles_cwsac:
+  - description: Fort Stedman (1865-03-25-1865-03-25)
+    id: VA084
+  battles_from:
+  - description: 1865-3-25 to 1865-3-25
+    id: Fort Stedman
+  relation: eq
+- battles_cwsac:
+  - description: Five Forks (1865-04-01-1865-04-01)
+    id: VA088
+  battles_from:
+  - description: 1865-4-1 to 1865-4-1
+    id: Five Forks
+  relation: eq
+- battles_cwsac:
+  - &id013
+    description: Petersburg (1865-04-02-1865-04-02)
+    id: VA089
+  battles_from:
+  - description: 1865-4-2 to 1865-4-2
+    id: Petersburg (second assault)
+  relation: <
+- battles_cwsac:
+  - *id013
+  battles_from:
+  - description: 1865-4-2 to 1865-4-2
+    id: Fort Gregg
+  relation: <
+- battles_cwsac:
+  - description: Sailor's Creek (1865-04-06-1865-04-06)
+    id: VA093
+  battles_from:
+  - description: 1865-4-6 to 1865-4-6
+    id: Sayler's Creek
+  relation: eq
+- battles_cwsac:
+  - description: Kinston (1862-12-14-1862-12-14)
+    id: NC007
+  battles_from:
+  - description: 1865-3-8 to 1865-3-10
+    id: Kinston
+  relation: eq
+- battles_cwsac:
+  - description: Averasborough (1865-03-16-1865-03-16)
+    id: NC019
+  battles_from:
+  - description: 1865-3-16 to 1865-3-16
+    id: Averasboro
+  relation: eq
+- battles_cwsac:
+  - description: Bentonville (1865-03-19-1865-03-21)
+    id: NC020
+  battles_from:
+  - description: 1865-3-19 to 1865-3-21
+    id: Bentonville
+  relation: eq

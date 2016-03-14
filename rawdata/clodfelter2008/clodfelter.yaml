@@ -1,10 +1,4 @@
 - battle_id: Rich Mountain/Laurel Mountain
-  cwsac:
-  - id: WV003
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Rich_Mountain
   end_date: 1861-7-11
   forces:
     Confederate:
@@ -50,12 +44,7 @@
   start_date: 1861-7-11
   theater: 'Eastern Theater: 1861'
 - battle_id: First Bull Run (Manassas)
-  cwsac:
-  - id: VA005
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/First_Battle_of_Bull_Run
+  end_date: 1861-7-21
   forces:
     Confederate:
       commanders:
@@ -95,12 +84,7 @@
   start_date: 1861-7-21
   theater: 'Eastern Theater: 1861'
 - battle_id: Ball's Bluff
-  cwsac:
-  - id: VA006
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Ball%27s_Bluff
+  end_date: &id001 1861-10-21
   forces:
     Confederate:
       commanders:
@@ -137,15 +121,10 @@
       wounded: 158
   page: 293
   result: Confederate
-  start_date: 1861-10-21
+  start_date: *id001
   theater: 'Eastern Theater: 1861'
 - battle_id: Wilson's Creek
-  cwsac:
-  - id: MO004
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Wilson%27s_Creek
+  end_date: 1861-8-10
   forces:
     Confederate:
       commanders:
@@ -192,12 +171,7 @@
   start_date: 1861-8-10
   theater: 'Western Theater: 1861'
 - battle_id: Belmont
-  cwsac:
-  - id: MO009
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Belmont
+  end_date: 1861-11-7
   forces:
     Confederate:
       captured: 117
@@ -230,12 +204,6 @@
   start_date: 1861-11-7
   theater: 'Western Theater: 1861'
 - battle_id: Roanoake Island
-  cwsac:
-  - id: NC002
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Roanoke_Island
   end_date: 1862-2-8
   forces:
     Confederate:
@@ -272,12 +240,7 @@
   start_date: 1862-2-7
   theater: 'Blockade War: 1861-1862'
 - battle_id: New Bern
-  cwsac:
-  - id: NC003
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Roanoke_Island
+  end_date: 1862-3-13
   forces:
     Confederate:
       commanders:
@@ -310,12 +273,7 @@
   start_date: 1862-3-13
   theater: 'Blockade War: 1861-1862'
 - battle_id: Hampton Roads (first day)
-  cwsac:
-  - id: VA008
-    relation: <
-  dbpedia:
-  - relation: <
-    url: https://dbpedia.org/resource/Battle_of_Hampton_Roads
+  end_date: 1862-3-8
   forces:
     Confederate:
       commanders:
@@ -358,12 +316,7 @@
   start_date: 1862-3-8
   theater: 'Blockade War: 1861-1862'
 - battle_id: Hampton Roads (second day)
-  cwsac:
-  - id: VA008
-    relation: <
-  dbpedia:
-  - relation: <
-    url: https://dbpedia.org/resource/Battle_of_Hampton_Roads
+  end_date: 1862-3-9
   forces:
     Confederate:
       casualties: 0
@@ -404,12 +357,7 @@
   start_date: 1862-3-9
   theater: 'Blockade War: 1861-1862'
 - battle_id: Secessionville
-  cwsac:
-  - id: SC002
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_James_Island
+  end_date: 1862-6-16
   forces:
     Confederate:
       commanders:
@@ -442,12 +390,7 @@
   start_date: 1862-6-16
   theater: 'Blockade War: 1861-1862'
 - battle_id: Kernstown (first)
-  cwsac:
-  - id: VA101
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/First_Battle_of_Kernstown
+  end_date: 1862-3-23
   forces:
     Confederate:
       commanders:
@@ -480,12 +423,7 @@
   start_date: 1862-3-23
   theater: 'East: 1862'
 - battle_id: McDowell
-  cwsac:
-  - id: VA102
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_McDowell
+  end_date: 1862-5-8
   forces:
     Confederate:
       commanders:
@@ -524,12 +462,7 @@
   start_date: 1862-5-8
   theater: 'East: 1862'
 - battle_id: Front Royal
-  cwsac:
-  - id: VA103
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Front_Royal
+  end_date: 1862-5-23
   forces:
     Confederate:
       commanders:
@@ -558,12 +491,7 @@
   start_date: 1862-5-23
   theater: 'East: 1862'
 - battle_id: Winchester (first)
-  cwsac:
-  - id: VA104
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/First_Battle_of_Winchester
+  end_date: 1862-5-25
   forces:
     Confederate:
       commanders:
@@ -596,12 +524,7 @@
   start_date: 1862-5-25
   theater: 'East: 1862'
 - battle_id: Cross Keys
-  cwsac:
-  - id: VA105
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Cross_Keys
+  end_date: 1862-6-8
   forces:
     Confederate:
       commanders:
@@ -634,12 +557,7 @@
   start_date: 1862-6-8
   theater: 'East: 1862'
 - battle_id: Port Republic
-  cwsac:
-  - id: VA106
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Port_Republic
+  end_date: 1862-6-9
   forces:
     Confederate:
       commanders:
@@ -672,12 +590,7 @@
   start_date: 1862-6-9
   theater: 'East: 1862'
 - battle_id: Williamsburg (Fort Magruder)
-  cwsac:
-  - id: VA010
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Williamsburg
+  end_date: 1862-5-5
   forces:
     Confederate:
       commanders:
@@ -710,12 +623,7 @@
   start_date: 1862-5-5
   theater: 'East: 1862'
 - battle_id: Hanover Court House
-  cwsac:
-  - id: VA013
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Hanover_Court_House
+  end_date: 1862-5-27
   forces:
     Confederate:
       captured: 730
@@ -747,12 +655,6 @@
   start_date: 1862-5-27
   theater: 'East: 1862'
 - battle_id: Fair Oaks (Seven Pines)
-  cwsac:
-  - id: VA014
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Seven_Pines
   end_date: 1862-6-1
   forces:
     Confederate:
@@ -794,24 +696,6 @@
   start_date: 1862-5-31
   theater: 'East: 1862'
 - battle_id: Seven Days Battles
-  cwsac:
-  - id: VA015
-    relation: gt
-  - id: VA016
-    relation: gt
-  - id: VA017
-    relation: gt
-  - id: VA018
-    relation: gt
-  - id: VA019
-    relation: gt
-  - id: VA020
-    relation: gt
-  - id: VA021
-    relation: gt
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Seven_Days_Battles
   end_date: 1862-7-1
   forces:
     Confederate:
@@ -845,12 +729,7 @@
   start_date: 1862-6-25
   theater: 'East: 1862'
 - battle_id: The Orchard (Seven Days)
-  cwsac:
-  - id: VA015
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Seven_Days_Battles
+  end_date: 1862-6-25
   forces:
     Confederate:
       commanders:
@@ -884,12 +763,7 @@
   start_date: 1862-6-25
   theater: 'East: 1862'
 - battle_id: Mechanicsville (Seven Days)
-  cwsac:
-  - id: VA016
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Beaver_Dam_Creek
+  end_date: 1862-6-26
   forces:
     Confederate:
       casualties: 1484
@@ -921,12 +795,7 @@
   start_date: 1862-6-26
   theater: 'East: 1862'
 - battle_id: Gaines's Mill (Seven Days)
-  cwsac:
-  - id: VA017
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Gaines%27s_Mill
+  end_date: 1862-6-27
   forces:
     Confederate:
       casualties: 8751
@@ -959,12 +828,7 @@
   start_date: 1862-6-27
   theater: 'East: 1862'
 - battle_id: Savage's Station (Seven Days)
-  cwsac:
-  - id: VA019
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Savage%27s_Station
+  end_date: 1862-6-29
   forces:
     Confederate:
       casualties: 626
@@ -994,12 +858,7 @@
   start_date: 1862-6-29
   theater: 'East: 1862'
 - battle_id: White Oak Swamp (Seven Days)
-  cwsac:
-  - id: VA020
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_White_Oak_Swamp
+  end_date: 1862-6-30
   forces:
     Confederate:
       commanders:
@@ -1048,12 +907,7 @@
   start_date: 1862-6-30
   theater: 'East: 1862'
 - battle_id: Malvern Hill (Seven Days)
-  cwsac:
-  - id: VA021
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Malvern_Hill
+  end_date: 1862-7-1
   forces:
     Confederate:
       commanders:
@@ -1082,12 +936,7 @@
   start_date: 1862-7-1
   theater: 'East: 1862'
 - battle_id: Cedar Mountain
-  cwsac:
-  - id: VA022
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Cedar_Mountain
+  end_date: 1862-8-9
   forces:
     Confederate:
       commanders:
@@ -1120,12 +969,7 @@
   start_date: 1862-8-9
   theater: 'East: 1862'
 - battle_id: Groveton
-  cwsac:
-  - id: VA026
-    relation: <
-  dbpedia:
-  - relation: <
-    url: https://dbpedia.org/resource/Second_Battle_of_Bull_Run
+  end_date: 1862-8-28
   forces:
     Confederate:
       casualties: 1000
@@ -1162,12 +1006,6 @@
   start_date: 1862-8-28
   theater: 'East: 1862'
 - battle_id: Second Bull Run/Chantilly (Second Manassas)
-  cwsac:
-  - id: VA026
-    relation: <
-  dbpedia:
-  - relation: <
-    url: https://dbpedia.org/resource/Second_Battle_of_Bull_Run
   end_date: 1862-9-1
   forces:
     Confederate:
@@ -1210,12 +1048,7 @@
   start_date: 1862-8-29
   theater: 'East: 1862'
 - battle_id: South Mountain
-  cwsac:
-  - id: MD002
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_South_Mountain
+  end_date: 1862-9-14
   forces:
     Confederate:
       commanders:
@@ -1248,12 +1081,7 @@
   start_date: 1862-9-14
   theater: 'East: 1862'
 - battle_id: Antietam (Sharpsburg)
-  cwsac:
-  - id: MD003
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Antietam
+  end_date: 1862-9-17
   forces:
     Confederate:
       commanders:
@@ -1286,12 +1114,7 @@
   start_date: 1862-9-17
   theater: 'East: 1862'
 - battle_id: Fredericksburg
-  cwsac:
-  - id: VA028
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Fredericksburg
+  end_date: &id002 1862-12-13
   forces:
     Confederate:
       commanders:
@@ -1321,15 +1144,10 @@
       wounded: 9600
   page: 297
   result: Confederate
-  start_date: 1862-12-13
+  start_date: *id002
   theater: 'East: 1862'
 - battle_id: Valverde
-  cwsac:
-  - id: NM001
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Valverde
+  end_date: 1862-2-21
   forces:
     Confederate:
       commanders:
@@ -1368,12 +1186,6 @@
   start_date: 1862-2-21
   theater: 'West: 1862'
 - battle_id: Apache Canyon/Glorieta Pass
-  cwsac:
-  - id: NM002
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Glorieta_Pass
   end_date: 1862-3-28
   forces:
     Confederate:
@@ -1421,12 +1233,6 @@
   start_date: 1862-3-26
   theater: 'West: 1862'
 - battle_id: Pea Ridge
-  cwsac:
-  - id: AR001
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Pea_Ridge
   end_date: 1862-3-8
   forces:
     Confederate:
@@ -1459,12 +1265,7 @@
   start_date: 1862-3-7
   theater: 'West: 1862'
 - battle_id: Prairie Grove
-  cwsac:
-  - id: AR005
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Prairie_Grove
+  end_date: 1862-12-7
   forces:
     Confederate:
       commanders:
@@ -1504,12 +1305,6 @@
   start_date: 1862-12-7
   theater: 'West: 1862'
 - battle_id: Mill Springs (Logan's Crossroads)
-  cwsac:
-  - id: KY006
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Mill_Springs
   end_date: 1862-1-20
   forces:
     Confederate:
@@ -1543,12 +1338,6 @@
   start_date: 1862-1-19
   theater: 'West: 1862'
 - battle_id: Fort Donelson
-  cwsac:
-  - id: TN002
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Fort_Donelson
   end_date: 1862-2-16
   forces:
     Confederate:
@@ -1602,12 +1391,6 @@
   start_date: 1862-2-12
   theater: 'West: 1862'
 - battle_id: Shiloh (Pittsburg Landing)
-  cwsac:
-  - id: TN003
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Shiloh
   end_date: 1862-4-7
   forces:
     Confederate:
@@ -1655,12 +1438,7 @@
   start_date: 1862-4-6
   theater: 'West: 1862'
 - battle_id: New Orleans
-  cwsac:
-  - id: LA001
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Forts_Jackson_and_St._Philip
+  end_date: 1862-4-24
   forces:
     Confederate:
       commanders:
@@ -1705,12 +1483,7 @@
   start_date: 1862-4-24
   theater: 'West: 1862'
 - battle_id: Baton Rouge
-  cwsac:
-  - id: LA003
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Baton_Rouge_(1862)
+  end_date: 1862-8-5
   forces:
     Confederate:
       captured: 57
@@ -1743,12 +1516,7 @@
   start_date: 1862-8-5
   theater: 'West: 1862'
 - battle_id: Iuka
-  cwsac:
-  - id: MS001
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Iuka
+  end_date: 1862-9-19
   forces:
     Confederate:
       commanders:
@@ -1781,12 +1549,6 @@
   start_date: 1862-9-19
   theater: 'West: 1862'
 - battle_id: Corinth
-  cwsac:
-  - id: MS002
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Second_Battle_of_Corinth
   end_date: 1862-10-4
   forces:
     Confederate:
@@ -1820,12 +1582,7 @@
   start_date: 1862-10-3
   theater: 'West: 1862'
 - battle_id: Chickasaw Bluffs
-  cwsac:
-  - id: MS003
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Chickasaw_Bayou
+  end_date: &id003 1862-12-29
   forces:
     Confederate:
       commanders:
@@ -1855,15 +1612,10 @@
       wounded: 1005
   page: 300
   result: Confederate
-  start_date: 1862-12-29
+  start_date: *id003
   theater: 'West: 1862'
 - battle_id: Richmond (Kentucky)
-  cwsac:
-  - id: KY007
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Richmond
+  end_date: 1862-8-30
   forces:
     Confederate:
       commanders:
@@ -1896,12 +1648,7 @@
   start_date: 1862-8-30
   theater: 'West: 1862'
 - battle_id: Perryville
-  cwsac:
-  - id: KY009
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Perryville
+  end_date: 1862-10-8
   forces:
     Confederate:
       commanders:
@@ -1934,12 +1681,7 @@
   start_date: 1862-10-8
   theater: 'West: 1862'
 - battle_id: Hartsville
-  cwsac:
-  - id: TN008
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Hartsville
+  end_date: 1862-12-7
   forces:
     Confederate:
       casualties: 125
@@ -1969,12 +1711,6 @@
   start_date: 1862-12-7
   theater: 'West: 1862'
 - battle_id: Stones River (Murfreesboro)
-  cwsac:
-  - id: TN010
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Stones_River
   end_date: 1863-1-2
   forces:
     Confederate:
@@ -2008,12 +1744,6 @@
   start_date: 1862-12-31
   theater: 'West: 1862'
 - battle_id: Chancellorsville
-  cwsac:
-  - id: VA032
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Chancellorsville
   end_date: 1863-5-6
   forces:
     Confederate:
@@ -2054,12 +1784,7 @@
   start_date: 1863-5-1
   theater: 'East: 1863'
 - battle_id: Brandy Station
-  cwsac:
-  - id: VA035
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Brandy_Station
+  end_date: 1863-6-9
   forces:
     Confederate:
       casualties: 523
@@ -2090,12 +1815,6 @@
   start_date: 1863-6-9
   theater: 'East: 1863'
 - battle_id: Winchester (second)
-  cwsac:
-  - id: VA107
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Second_Battle_of_Winchester
   end_date: 1863-6-15
   forces:
     Confederate:
@@ -2128,12 +1847,6 @@
   start_date: 1863-6-14
   theater: 'East: 1863'
 - battle_id: Gettsyburg
-  cwsac:
-  - id: PA002
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Gettysburg
   end_date: 1863-7-3
   forces:
     Confederate:
@@ -2167,12 +1880,7 @@
   start_date: 1863-7-1
   theater: 'East: 1863'
 - battle_id: Bristoe Station
-  cwsac:
-  - id: VA040
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Bristoe_Station
+  end_date: &id004 1863-10-14
   forces:
     Confederate:
       brigades: 2
@@ -2199,15 +1907,10 @@
       divisions: 3
   page: 302
   result: Union
-  start_date: 1863-10-14
+  start_date: *id004
   theater: 'East: 1863'
 - battle_id: Buckland
-  cwsac:
-  - id: VA042
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Buckland_Mills
+  end_date: &id005 1863-10-19
   forces:
     Confederate:
       casualties: 408
@@ -2233,15 +1936,10 @@
         rank: Major General
   page: 302
   result: Confederate
-  start_date: 1863-10-19
+  start_date: *id005
   theater: 'East: 1863'
 - battle_id: Rappahannock Station
-  cwsac:
-  - id: VA043
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Second_Battle_of_Rappahannock_Station
+  end_date: 1863-11-7
   forces:
     Confederate:
       casualties: 2033
@@ -2270,12 +1968,6 @@
   start_date: 1863-11-7
   theater: 'East: 1863'
 - battle_id: Mine Run
-  cwsac:
-  - id: VA044
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Mine_Run
   end_date: 1863-12-1
   forces:
     Confederate:
@@ -2305,12 +1997,7 @@
   start_date: 1863-11-27
   theater: 'East: 1863'
 - battle_id: Galveston
-  cwsac:
-  - id: TX003
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Galveston
+  end_date: 1863-1-1
   forces:
     Confederate:
       commanders:
@@ -2353,12 +2040,7 @@
   start_date: 1863-1-1
   theater: 'West: 1863'
 - battle_id: Honey Springs
-  cwsac:
-  - id: OK007
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Honey_Springs
+  end_date: 1863-7-17
   forces:
     Confederate:
       casualties: 181
@@ -2388,12 +2070,7 @@
   start_date: 1863-7-17
   theater: 'West: 1863'
 - battle_id: Fort Hindman (Arkansas Post)
-  cwsac:
-  - id: AR006
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Arkansas_Post
+  end_date: 1863-1-11
   forces:
     Confederate:
       captured: 4791
@@ -2432,12 +2109,6 @@
   start_date: 1863-1-11
   theater: 'West: 1863'
 - battle_id: Port Hudson (siege)
-  cwsac:
-  - id: LA010
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Siege_of_Port_Hudson
   end_date: 1863-7-9
   forces:
     Confederate:
@@ -2473,12 +2144,7 @@
   start_date: 1863-5-26
   theater: 'West: 1863'
 - battle_id: Port Hudson (first assault)
-  cwsac:
-  - id: LA010
-    relation: <
-  dbpedia:
-  - relation: <
-    url: https://dbpedia.org/resource/Siege_of_Port_Hudson
+  end_date: 1863-5-27
   forces:
     Confederate:
       casualties: 235
@@ -2513,12 +2179,7 @@
   start_date: 1863-5-27
   theater: 'West: 1863'
 - battle_id: Port Hudson (second assault)
-  cwsac:
-  - id: LA010
-    relation: <
-  dbpedia:
-  - relation: <
-    url: https://dbpedia.org/resource/Siege_of_Port_Hudson
+  end_date: 1863-6-14
   forces:
     Confederate:
       commanders:
@@ -2554,12 +2215,7 @@
   start_date: 1863-6-14
   theater: 'West: 1863'
 - battle_id: Donaldsville (first)
-  cwsac:
-  - id: LA013
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Second_Battle_of_Donaldsonville
+  end_date: 1863-6-28
   forces:
     Confederate:
       casualties: 261
@@ -2588,12 +2244,7 @@
   start_date: 1863-6-28
   theater: 'West: 1863'
 - battle_id: Donaldsville (second)
-  cwsac:
-  - id: LA015
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Kock%27s_Plantation
+  end_date: 1863-7-13
   forces:
     Confederate:
       brigades: 2
@@ -2632,12 +2283,7 @@
   start_date: 1863-7-13
   theater: 'West: 1863'
 - battle_id: Port Gibson
-  cwsac:
-  - id: MS006
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Port_Gibson
+  end_date: 1863-5-1
   forces:
     Confederate:
       commanders:
@@ -2670,12 +2316,7 @@
   start_date: 1863-5-1
   theater: 'West: 1863'
 - battle_id: Raymond
-  cwsac:
-  - id: MS007
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Raymond
+  end_date: 1863-5-12
   forces:
     Confederate:
       commanders:
@@ -2708,12 +2349,7 @@
   start_date: 1863-5-12
   theater: 'West: 1863'
 - battle_id: Jackson
-  cwsac:
-  - id: MS008
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Jackson,_Mississippi
+  end_date: 1863-5-14
   forces:
     Confederate:
       commanders:
@@ -2753,12 +2389,7 @@
   start_date: 1863-5-14
   theater: 'West: 1863'
 - battle_id: Champion's Hill
-  cwsac:
-  - id: MS009
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Champion_Hill
+  end_date: 1863-5-16
   forces:
     Confederate:
       commanders:
@@ -2791,12 +2422,7 @@
   start_date: 1863-5-16
   theater: 'West: 1863'
 - battle_id: Big Black River
-  cwsac:
-  - id: MS010
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Big_Black_River_Bridge
+  end_date: 1863-5-17
   forces:
     Confederate:
       brigades: 1
@@ -2827,12 +2453,6 @@
   start_date: 1863-5-17
   theater: 'West: 1863'
 - battle_id: Vicksburg (siege)
-  cwsac:
-  - id: MS011
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Siege_of_Vicksburg
   end_date: 1863-7-4
   forces:
     Confederate:
@@ -2867,12 +2487,7 @@
   start_date: 1863-5-18
   theater: 'West: 1863'
 - battle_id: Vicksburg (first assault)
-  cwsac:
-  - id: MS011
-    relation: <
-  dbpedia:
-  - relation: <
-    url: https://dbpedia.org/resource/Siege_of_Vicksburg
+  end_date: 1863-5-19
   forces:
     Confederate:
       casualties: 200
@@ -2907,12 +2522,7 @@
   start_date: 1863-5-19
   theater: 'West: 1863'
 - battle_id: Vicksburg (second assault)
-  cwsac:
-  - id: MS011
-    relation: <
-  dbpedia:
-  - relation: <
-    url: https://dbpedia.org/resource/Siege_of_Vicksburg
+  end_date: 1863-5-22
   forces:
     Confederate:
       casualties: 1000
@@ -2947,12 +2557,7 @@
   start_date: 1863-5-22
   theater: 'West: 1863'
 - battle_id: Helena
-  cwsac:
-  - id: AR008
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Helena
+  end_date: 1863-7-4
   forces:
     Confederate:
       casualties: 1636
@@ -2981,9 +2586,6 @@
   start_date: 1863-7-4
   theater: 'West: 1863'
 - battle_id: Jackson (siege)
-  dbpedia:
-  - relation: eq
-    url: http://dbpedia.org/resource/Jackson_Expedition
   end_date: 1863-7-16
   forces:
     Confederate:
@@ -3018,12 +2620,6 @@
   start_date: 1863-7-10
   theater: 'West: 1863'
 - battle_id: Chickamagua
-  cwsac:
-  - id: GA004
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Chickamagua
   end_date: 1863-9-20
   forces:
     Confederate:
@@ -3073,12 +2669,6 @@
   start_date: 1863-9-19
   theater: 'West: 1863'
 - battle_id: Chattanooga
-  cwsac:
-  - id: TN024
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Chattanooga_Campaign
   end_date: 1863-11-25
   forces:
     Confederate:
@@ -3114,12 +2704,7 @@
   start_date: 1863-11-23
   theater: 'West: 1863'
 - battle_id: Chattanooga (Orchard Knob/Indian Hill)
-  cwsac:
-  - id: TN024
-    relation: <
-  dbpedia:
-  - relation: <
-    url: https://dbpedia.org/resource/Chattanooga_Campaign
+  end_date: &id006 1863-11-23
   forces:
     Confederate:
       casualties: 1000
@@ -3146,15 +2731,10 @@
   partof: Chattanooga
   result: Union
   result_comment: Union forces took Orchard Knob
-  start_date: 1863-11-23
+  start_date: *id006
   theater: 'West: 1863'
 - battle_id: Chattanooga (Lookout Mountain)
-  cwsac:
-  - id: TN024
-    relation: <
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Lookout_Mountain
+  end_date: &id007 1863-11-24
   forces:
     Confederate:
       brigades: 3
@@ -3184,15 +2764,10 @@
   partof: Chattanooga
   result: Union
   result_comment: ''
-  start_date: 1863-11-24
+  start_date: *id007
   theater: 'West: 1863'
 - battle_id: Chattanooga (Tunnel Hill)
-  cwsac:
-  - id: TN024
-    relation: <
-  dbpedia:
-  - relation: <
-    url: https://dbpedia.org/resource/Chattanooga_Campaign
+  end_date: &id008 1863-11-25
   forces:
     Confederate:
       casualties: 222
@@ -3221,15 +2796,10 @@
   partof: Chattanooga
   result: Union
   result_comment: Confederate forces held the line
-  start_date: 1863-11-25
+  start_date: *id008
   theater: 'West: 1863'
 - battle_id: Chattanooga (Missionary Ridge)
-  cwsac:
-  - id: TN024
-    relation: <
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Missionary_Ridge
+  end_date: &id009 1863-11-25
   forces:
     Confederate:
       commanders:
@@ -3256,15 +2826,10 @@
   partof: Chattanooga
   result: Union
   result_comment: Union forces took the rifle pits and Confederate forces retreated
-  start_date: 1863-11-25
+  start_date: *id009
   theater: 'West: 1863'
 - battle_id: Ringgold Gap
-  cwsac:
-  - id: GA005
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Ringgold_Gap
+  end_date: &id010 1863-11-27
   forces:
     Confederate:
       casualties: 221
@@ -3291,12 +2856,9 @@
       strength: 12000
   page: 306
   result: Confederate
-  start_date: 1863-11-27
+  start_date: *id010
   theater: 'West: 1863'
 - battle_id: Knoxville (siege)
-  dbpedia:
-  - relation: <
-    url: http://dbpedia.org/resource/Knoxville_Campaign
   end_date: 1863-12-3
   forces:
     Confederate:
@@ -3329,12 +2891,7 @@
   start_date: 1863-11-17
   theater: 'West: 1863'
 - battle_id: Knoxville (attack on Fort Sanders)
-  cwsac:
-  - id: TN025
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Fort_Sanders
+  end_date: &id011 1863-11-29
   forces:
     Confederate:
       captured: 226
@@ -3364,12 +2921,10 @@
       wounded: 5
   page: 306
   result: Union
-  start_date: 1863-11-29
+  start_date: *id011
   theater: 'West: 1863'
 - battle_id: Pocataligo
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Pocotaligo
+  end_date: &id012 1863-10-22
   forces:
     Confederate:
       casualties: 163
@@ -3396,15 +2951,9 @@
   page: 306
   result: Confederate
   result_comment: ''
-  start_date: 1863-10-22
+  start_date: *id012
   theater: 'Blockade War: 1863'
 - battle_id: Batteries Wagner and Gregg
-  cwsac:
-  - id: SC005
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/First_Battle_of_Fort_Wagner
   end_date: 1863-7-11
   forces:
     Confederate:
@@ -3436,12 +2985,7 @@
   start_date: 1863-7-10
   theater: 'Blockade War: 1863'
 - battle_id: Battery Wagner
-  cwsac:
-  - id: SC007
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Second_Battle_of_Fort_Wagner
+  end_date: 1863-7-18
   forces:
     Confederate:
       commanders:
@@ -3474,12 +3018,7 @@
   start_date: 1863-7-18
   theater: 'Blockade War: 1863'
 - battle_id: Olustee
-  cwsac:
-  - id: FL005
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Olustee
+  end_date: 1864-2-10
   forces:
     Confederate:
       commanders:
@@ -3511,12 +3050,6 @@
   start_date: 1864-2-10
   theater: 'East: 1864'
 - battle_id: Wilderness
-  cwsac:
-  - id: VA046
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_the_Wilderness
   end_date: 1864-5-6
   forces:
     Confederate:
@@ -3557,12 +3090,6 @@
   start_date: 1864-5-5
   theater: 'East: 1864'
 - battle_id: Spotsylvania Court House
-  cwsac:
-  - id: VA048
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Spotsylvania_Court_House
   end_date: 1864-5-18
   forces:
     Confederate:
@@ -3603,12 +3130,7 @@
   start_date: 1864-5-8
   theater: 'East: 1864'
 - battle_id: Yellow Tavern
-  cwsac:
-  - id: VA052
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Yellow_Tavern
+  end_date: 1864-5-11
   forces:
     Confederate:
       commanders:
@@ -3639,12 +3161,6 @@
   start_date: 1864-5-11
   theater: 'East: 1864'
 - battle_id: North Anna River
-  cwsac:
-  - id: VA055
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_North_Anna
   end_date: 1864-5-26
   forces:
     Confederate:
@@ -3683,12 +3199,6 @@
   start_date: 1864-5-23
   theater: 'East: 1864'
 - battle_id: Totopotomy Creek
-  cwsac:
-  - id: VA057
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Totopotomoy_Creek
   end_date: 1864-5-31
   forces:
     Confederate:
@@ -3727,12 +3237,7 @@
   start_date: 1864-5-27
   theater: 'East: 1864'
 - battle_id: Cold Harbor (assault)
-  cwsac:
-  - id: VA062
-    relation: <
-  dbpedia:
-  - relation: <
-    url: https://dbpedia.org/resource/Battle_of_Cold_Harbor
+  end_date: 1864-6-3
   forces:
     Confederate:
       casualties: 1500
@@ -3770,12 +3275,6 @@
   start_date: 1864-6-3
   theater: 'East: 1864'
 - battle_id: Cold Harbor
-  cwsac:
-  - id: VA062
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Cold_Harbor
   end_date: 1864-6-12
   forces:
     Confederate:
@@ -3816,12 +3315,6 @@
   start_date: 1864-5-31
   theater: 'East: 1864'
 - battle_id: Trevilian Station
-  cwsac:
-  - id: VA099
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Trevilian_Station
   end_date: 1864-6-12
   forces:
     Confederate:
@@ -3858,12 +3351,7 @@
   start_date: 1864-6-11
   theater: 'East: 1864'
 - battle_id: Cloyd's Mountain
-  cwsac:
-  - id: VA049
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Cloyd%27s_Mountain
+  end_date: 1864-5-9
   forces:
     Confederate:
       casualties: 543
@@ -3892,12 +3380,7 @@
   start_date: 1864-5-9
   theater: 'East: 1864'
 - battle_id: New Market
-  cwsac:
-  - id: VA110
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_New_Market
+  end_date: 1864-5-15
   forces:
     Confederate:
       commanders:
@@ -3930,12 +3413,7 @@
   start_date: 1864-5-15
   theater: 'East: 1864'
 - battle_id: Piedmont
-  cwsac:
-  - id: VA111
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Piedmont
+  end_date: 1864-6-5
   forces:
     Confederate:
       captured: 1000
@@ -3966,12 +3444,6 @@
   start_date: 1864-6-5
   theater: 'East: 1864'
 - battle_id: Drewry's Bluff
-  cwsac:
-  - id: VA012
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Drewry%27s_Bluff
   end_date: 1864-5-16
   forces:
     Confederate:
@@ -4018,12 +3490,6 @@
   start_date: 1864-5-12
   theater: 'East: 1864'
 - battle_id: Petersburg (first assault)
-  cwsac:
-  - id: VA063
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Second_Battle_of_Petersburg
   end_date: 1864-6-18
   forces:
     Confederate:
@@ -4069,12 +3535,7 @@
   start_date: 1864-6-15
   theater: 'East: 1864'
 - battle_id: Monocacy River
-  cwsac:
-  - id: MD007
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Monocacy
+  end_date: 1864-7-9
   forces:
     Confederate:
       casualties: 700
@@ -4105,12 +3566,7 @@
   start_date: 1864-7-9
   theater: 'East: 1864'
 - battle_id: Kernstown (second)
-  cwsac:
-  - id: VA116
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Second_Battle_of_Kernstown
+  end_date: 1864-7-24
   forces:
     Confederate:
       commanders:
@@ -4139,12 +3595,7 @@
   start_date: 1864-7-24
   theater: 'East: 1864'
 - battle_id: Opequon (Third Winchester)
-  cwsac:
-  - id: VA119
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Opequon
+  end_date: 1864-9-19
   forces:
     Confederate:
       commanders:
@@ -4177,12 +3628,7 @@
   start_date: 1864-9-19
   theater: 'East: 1864'
 - battle_id: Fisher's Hill
-  cwsac:
-  - id: VA120
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Fisher%27s_Hill
+  end_date: 1864-9-22
   forces:
     Confederate:
       captured: 1100
@@ -4215,12 +3661,7 @@
   start_date: 1864-9-22
   theater: 'East: 1864'
 - battle_id: Cedar Creek
-  cwsac:
-  - id: VA122
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Cedar_Creek
+  end_date: &id013 1864-10-19
   forces:
     Confederate:
       commanders:
@@ -4258,15 +3699,10 @@
       wounded: 3430
   page: 310
   result: Union
-  start_date: 1864-10-19
+  start_date: *id013
   theater: 'East: 1864'
 - battle_id: Petersburg (Battle of the Crater)
-  cwsac:
-  - id: VA070
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_the_Crater
+  end_date: 1864-7-30
   forces:
     Confederate:
       casualties: 1182
@@ -4297,9 +3733,6 @@
   start_date: 1864-7-30
   theater: 'East: 1864'
 - battle_id: Deep Bottom Run
-  cwsac:
-  - id: VA071
-    relation: eq
   end_date: 1864-8-20
   forces:
     Confederate:
@@ -4336,12 +3769,6 @@
   start_date: 1864-8-13
   theater: 'East: 1864'
 - battle_id: Globe Tavern
-  cwsac:
-  - id: VA072
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Globe_Tavern
   end_date: 1864-8-21
   forces:
     Confederate:
@@ -4395,12 +3822,7 @@
   start_date: 1864-8-18
   theater: 'East: 1864'
 - battle_id: Reams Station
-  cwsac:
-  - id: VA073
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Second_Battle_of_Ream%27s_Station
+  end_date: 1864-8-23
   forces:
     Confederate:
       casualties: 720
@@ -4431,12 +3853,6 @@
   start_date: 1864-8-23
   theater: 'East: 1864'
 - battle_id: Fort Harrison (Chaffin's Bluff)
-  cwsac:
-  - id: VA075
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Chaffin%27s_Farm
   end_date: 1864-9-30
   forces:
     Confederate:
@@ -4475,12 +3891,6 @@
   start_date: 1864-9-29
   theater: 'East: 1864'
 - battle_id: Peebles Farm
-  cwsac:
-  - id: VA074
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Peebles%27s_Farm
   end_date: 1864-10-1
   forces:
     Confederate:
@@ -4533,12 +3943,6 @@
   start_date: 1864-9-30
   theater: 'East: 1864'
 - battle_id: Hatcher's Run (first)
-  cwsac:
-  - id: VA079
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Boydton_Plank_Road
   end_date: 1864-10-28
   forces:
     Confederate:
@@ -4570,12 +3974,6 @@
   start_date: 1864-10-27
   theater: 'East: 1864'
 - battle_id: Fair Oaks
-  cwsac:
-  - id: VA080
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Fair_Oaks_%26_Darbytown_Road
   end_date: 1864-10-28
   forces:
     Confederate:
@@ -4605,12 +4003,7 @@
   start_date: 1864-10-27
   theater: 'East: 1864'
 - battle_id: Sabine Crossroads
-  cwsac:
-  - id: LA018
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Mansfield
+  end_date: 1864-4-8
   forces:
     Confederate:
       casualties: 900
@@ -4642,12 +4035,7 @@
   start_date: 1864-4-8
   theater: 'West: 1864'
 - battle_id: Pleasant Hill
-  cwsac:
-  - id: LA019
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Pleasant_Hill
+  end_date: 1864-4-9
   forces:
     Confederate:
       casualties: 1626
@@ -4678,12 +4066,7 @@
   start_date: 1864-4-9
   theater: 'West: 1864'
 - battle_id: Yellow Bayou
-  cwsac:
-  - id: LA023
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Yellow_Bayou
+  end_date: 1864-5-18
   forces:
     Confederate:
       casualties: 608
@@ -4712,12 +4095,7 @@
   start_date: 1864-5-18
   theater: 'West: 1864'
 - battle_id: Jenkins Ferry
-  cwsac:
-  - id: AR016
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Jenkins%27_Ferry
+  end_date: 1864-4-30
   forces:
     Confederate:
       commanders:
@@ -4750,12 +4128,7 @@
   start_date: 1864-4-30
   theater: 'West: 1864'
 - battle_id: Fort Davidson (Pilot Knob)
-  cwsac:
-  - id: MO021
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Fort_Davidson
+  end_date: &id014 1864-12-27
   forces:
     Confederate:
       casualties: 1500
@@ -4783,15 +4156,10 @@
       wounded: 59
   page: 314
   result: Union
-  start_date: 1864-12-27
+  start_date: *id014
   theater: 'West: 1864'
 - battle_id: Westport
-  cwsac:
-  - id: MO027
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Westport
+  end_date: &id015 1864-10-23
   forces:
     Confederate:
       casualties: 492
@@ -4817,15 +4185,10 @@
       strength: 20000
   page: 314
   result: Union
-  start_date: 1864-10-23
+  start_date: *id015
   theater: 'West: 1864'
 - battle_id: Mine Creek
-  cwsac:
-  - id: KS003
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Mine_Creek
+  end_date: &id016 1864-10-25
   forces:
     Confederate:
       captured: 560
@@ -4861,15 +4224,10 @@
       wounded: 94
   page: 314
   result: Union
-  start_date: 1864-10-25
+  start_date: *id016
   theater: 'West: 1864'
 - battle_id: Fort Pillow
-  cwsac:
-  - id: TN030
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Fort_Pillow
+  end_date: 1864-4-12
   forces:
     Confederate:
       commanders:
@@ -4910,12 +4268,7 @@
   start_date: 1864-4-12
   theater: 'West: 1864'
 - battle_id: Brice's Crossroads
-  cwsac:
-  - id: MS014
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Brice%27s_Crossroads
+  end_date: 1864-6-10
   forces:
     Confederate:
       commanders:
@@ -4950,12 +4303,6 @@
   start_date: 1864-6-10
   theater: 'West: 1864'
 - battle_id: Tupelo
-  cwsac:
-  - id: MS015
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Tupelo
   end_date: 1864-7-15
   forces:
     Confederate:
@@ -4995,12 +4342,6 @@
   start_date: 1864-7-14
   theater: 'West: 1864'
 - battle_id: Selma
-  cwsac:
-  - id: AL007
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Selma
   end_date: 1864-4-3
   forces:
     Confederate:
@@ -5030,12 +4371,7 @@
   start_date: 1864-4-2
   theater: 'West: 1864'
 - battle_id: New Hope Church
-  cwsac:
-  - id: GA010
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_New_Hope_Church
+  end_date: 1864-5-25
   forces:
     Confederate:
       casualties: 800
@@ -5071,12 +4407,7 @@
   start_date: 1864-5-25
   theater: 'West: 1864'
 - battle_id: Kennesaw Mountain
-  cwsac:
-  - id: GA015
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Kennesaw_Mountain
+  end_date: 1864-6-27
   forces:
     Confederate:
       casualties: 552
@@ -5105,12 +4436,7 @@
   start_date: 1864-6-27
   theater: 'West: 1864'
 - battle_id: Peachtree Creek
-  cwsac:
-  - id: GA016
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Peachtree_Creek
+  end_date: 1864-7-20
   forces:
     Confederate:
       casualties: 2500
@@ -5139,12 +4465,7 @@
   start_date: 1864-7-20
   theater: 'West: 1864'
 - battle_id: Atlanta
-  cwsac:
-  - id: GA017
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Atlanta
+  end_date: 1864-7-22
   forces:
     Confederate:
       casualties: 8000
@@ -5175,12 +4496,7 @@
   start_date: 1864-7-22
   theater: 'West: 1864'
 - battle_id: Ezra Church
-  cwsac:
-  - id: GA018
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Ezra_Church
+  end_date: 1864-7-28
   forces:
     Confederate:
       casualties: 2500
@@ -5209,12 +4525,6 @@
   start_date: 1864-7-28
   theater: 'West: 1864'
 - battle_id: Jonesboro
-  cwsac:
-  - id: GA022
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Jonesborough
   end_date: 1864-9-1
   forces:
     Confederate:
@@ -5244,12 +4554,7 @@
   start_date: 1864-8-31
   theater: 'West: 1864'
 - battle_id: Allatoona
-  cwsac:
-  - id: GA023
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Allatoona
+  end_date: 1864-10-6
   forces:
     Confederate:
       commanders:
@@ -5282,12 +4587,7 @@
   start_date: 1864-10-6
   theater: 'West: 1864'
 - battle_id: Franklin
-  cwsac:
-  - id: TN036
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Franklin_(1864)
+  end_date: &id017 1864-11-30
   forces:
     Confederate:
       commanders:
@@ -5317,15 +4617,9 @@
       wounded: 1033
   page: 314
   result: Union
-  start_date: 1864-11-30
+  start_date: *id017
   theater: 'West: 1864'
 - battle_id: Nashville
-  cwsac:
-  - id: TN038
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Nashville
   end_date: 1864-12-16
   forces:
     Confederate:
@@ -5359,12 +4653,7 @@
   start_date: 1864-12-15
   theater: 'West: 1864'
 - battle_id: Griswoldville
-  cwsac:
-  - id: GA025
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Griswoldville
+  end_date: &id018 1864-11-22
   forces:
     Confederate:
       commanders:
@@ -5398,15 +4687,10 @@
       strength: 1500
   page: 314
   result: Union
-  start_date: 1864-11-22
+  start_date: *id018
   theater: 'West: 1864'
 - battle_id: Mobile Bay
-  cwsac:
-  - id: AL003
-    relation: <
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Mobile_Bay
+  end_date: 1864-8-5
   forces:
     Confederate:
       captured: 243
@@ -5481,12 +4765,6 @@
   start_date: 1864-8-5
   theater: 'Blockade War: 1864-65'
 - battle_id: Fort Fisher
-  cwsac:
-  - id: NC015
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Second_Battle_of_Fort_Fisher
   end_date: 1865-1-15
   forces:
     Confederate:
@@ -5548,12 +4826,6 @@
   start_date: 1865-1-13
   theater: 'Blockade War: 1864-65'
 - battle_id: Hatcher's Run (second)
-  cwsac:
-  - id: VA083
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Hatcher%27s_Run
   end_date: 1865-2-7
   forces:
     Confederate:
@@ -5590,12 +4862,7 @@
   start_date: 1865-2-5
   theater: 'East: 1865'
 - battle_id: Fort Stedman
-  cwsac:
-  - id: VA084
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Fort_Stedman
+  end_date: 1865-3-25
   forces:
     Confederate:
       captured: 1900
@@ -5632,12 +4899,7 @@
   start_date: 1865-3-25
   theater: 'East: 1865'
 - battle_id: Five Forks
-  cwsac:
-  - id: VA088
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Five_Forks
+  end_date: 1865-4-1
   forces:
     Confederate:
       captured: 5200
@@ -5672,12 +4934,7 @@
   start_date: 1865-4-1
   theater: 'East: 1865'
 - battle_id: Petersburg (second assault)
-  cwsac:
-  - id: VA089
-    relation: <
-  dbpedia:
-  - relation: <
-    url: https://dbpedia.org/resource/Third_Battle_of_Petersburg
+  end_date: 1865-4-2
   forces:
     Confederate:
       commanders:
@@ -5708,12 +4965,7 @@
   start_date: 1865-4-2
   theater: 'East: 1865'
 - battle_id: Fort Gregg
-  cwsac:
-  - id: VA089
-    relation: <
-  dbpedia:
-  - relation: <
-    url: https://dbpedia.org/resource/Third_Battle_of_Petersburg
+  end_date: 1865-4-2
   forces:
     Confederate:
       commanders:
@@ -5745,12 +4997,7 @@
   start_date: 1865-4-2
   theater: 'East: 1865'
 - battle_id: Sayler's Creek
-  cwsac:
-  - id: VA093
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Sailor%27s_Creek
+  end_date: 1865-4-6
   forces:
     Confederate:
       captured: 6000
@@ -5789,12 +5036,6 @@
   start_date: 1865-4-6
   theater: 'East: 1865'
 - battle_id: Kinston
-  cwsac:
-  - id: NC007
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Kinston
   end_date: 1865-3-10
   forces:
     Confederate:
@@ -5825,12 +5066,7 @@
   start_date: 1865-3-8
   theater: 'West: 1865'
 - battle_id: Averasboro
-  cwsac:
-  - id: NC019
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Averasboro
+  end_date: 1865-3-16
   forces:
     Confederate:
       commanders:
@@ -5862,12 +5098,6 @@
   start_date: 1865-3-16
   theater: 'West: 1865'
 - battle_id: Bentonville
-  cwsac:
-  - id: NC020
-    relation: eq
-  dbpedia:
-  - relation: eq
-    url: https://dbpedia.org/resource/Battle_of_Bentonville
   end_date: 1865-3-21
   forces:
     Confederate:

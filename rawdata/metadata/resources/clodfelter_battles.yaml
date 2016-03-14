@@ -3,10 +3,9 @@ name: clodfelter_battles
 path: data/clodfelter_battles.csv
 schema:
   fields:
-  - description: Battle name
-    format: default
-    name: battle
-    title: Battle
+  - format: default
+    name: battle_id
+    title: battle_id
     type: string
   - constraints:
       enum:

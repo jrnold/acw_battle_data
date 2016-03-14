@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """ create csv tables from clodfelter.yaml """
 import csv
+import json
 import re
 import shutil
-import sys
 import subprocess as sp
+import sys
 from os import path
-
 
 import yaml
 
@@ -23,7 +23,7 @@ def rename(x, k, j):
 
 def battles(data, dst, filename):
     with open(path.join(dst, filename), 'w') as f:
-        fieldnames = ('battle', 'theater', 'theater_years', 'start_date', 'end_date', 'result', 'page')
+        fieldnames = ('battle_id', 'theater', 'theater_years', 'start_date', 'end_date', 'result', 'page')
         writer = csv.DictWriter(f, fieldnames, extrasaction = 'ignore')
         writer.writeheader()
         for i, battle in enumerate(data):
@@ -41,7 +41,7 @@ def battles(data, dst, filename):
 
 def commanders(data, dst, filename):
     with open(path.join(dst, filename), 'w') as f:
-        fieldnames = ('battle', 'belligerent', 'commander_number',
+        fieldnames = ('battle_id', 'belligerent', 'commander_number',
                       'PersonID', 'last_name', 'first_name', 'middle_name', 'middle_initial', 'rank', 'navy')
         writer = csv.DictWriter(f, fieldnames)
         writer.writeheader()
@@ -49,11 +49,11 @@ def commanders(data, dst, filename):
             for belligerent in battle['forces']:
                 force = battle['forces'][belligerent]
                 for j, cdr in enumerate(force['commanders']):
-                    cdr['battle'] = battle['battle']
+                    cdr['battle_id'] = battle['battle_id']
                     cdr['belligerent'] = belligerent
                     cdr['commander_number'] = j
                     writer.writerow(cdr)
-            
+
 def forces(data, dst, filename):
     fields = (
     'strength',
@@ -104,43 +104,41 @@ def forces(data, dst, filename):
     'note'
     )
     with open(path.join(dst, filename), 'w') as f:
-        fieldnames = ['battle', 'belligerent'] + list(fields)
+        fieldnames = ['battle_id', 'belligerent'] + list(fields)
         writer = csv.DictWriter(f, fieldnames)
         writer.writeheader()
         for i, battle in enumerate(data):
             for belligerent in battle['forces']:
                 row = battle['forces'][belligerent].copy()
-                row['battle'] = battle['battle']
+                row['battle_id'] = battle['battle_id']
                 row['belligerent'] = belligerent
                 del row['commanders']
                 # fix keys with spaces in them
                 writer.writerow(row)
 
-def cwsac_links(data, dst, filename):
-    with open(path.join(dst, filename), 'w') as f:
-        fieldnames = ('from', 'to', 'relation')
-        writer = csv.DictWriter(f, fieldnames)
-        writer.writeheader()
-        for i, battle in enumerate(data):
-            if 'cwsac' in battle:
-                for link in battle['cwsac']:
-                    row = {'from': battle['battle'],
-                           'to': link['id'],
-                           'relation': link['relation']}
-                    writer.writerow(row)
+def cwsac_links(src, dst):
+    with open(src, 'r') as f:
+        data = yaml.load(f)
+    ret = []
+    for x in data:
+        toadd = {'relation': x['relation']}
+        toadd['battles_from'] = [btl['id'] for btl in x['battles_from']]
+        toadd['battles_cwsac'] = [btl['id'] for btl in x['battles_cwsac']]
+        ret.append(toadd)
+    with open(dst, 'w') as f:
+        json.dump(ret, f)
 
-def dbpedia_links(data, dst, filename):
-    with open(path.join(dst, filename), 'w') as f:
-        fieldnames = ('from', 'to', 'relation')
-        writer = csv.DictWriter(f, fieldnames)
-        writer.writeheader()
-        for i, battle in enumerate(data):
-            if 'dbpedia' in battle:
-                for link in battle['dbpedia']:
-                    row = {'from': battle['battle'],
-                           'to': link['url'],
-                           'relation': link['relation']}
-                    writer.writerow(row)
+def dbpedia_links(src, dst):
+    with open(src, 'r') as f:
+        data = yaml.load(f)
+    ret = []
+    for x in data:
+        toadd = {'relation': x['relation']}
+        toadd['battles_from'] = [btl['id'] for btl in x['battles_from']]
+        toadd['battles_dbpedia'] = x['battles_dbpedia']
+        ret.append(toadd)
+    with open(dst, 'w') as f:
+        json.dump(ret, f)
 
 def build(src, dst):
     srcfile = path.join(src, "rawdata", "clodfelter2008",  'clodfelter.yaml')
@@ -150,12 +148,13 @@ def build(src, dst):
     battles(data, dst, 'clodfelter_battles.csv')
     forces(data, dst, 'clodfelter_forces.csv')
     commanders(data, dst, 'clodfelter_commanders.csv')
-    cwsac_links(data, dst, 'clodfelter_to_cwsac.csv')
-    dbpedia_links(data, dst, 'clodfelter_to_dbpedia.csv')
+    cwsac_links(path.join(src, "rawdata", "clodfelter2008", 'clodfelter_to_cwsac.yaml'),
+                path.join(dst, 'clodfelter_to_cwsac.json'))
+    dbpedia_links(path.join(src, "rawdata", "clodfelter2008", 'clodfelter_to_dbpedia.yaml'),
+                path.join(dst, 'clodfelter_to_dbpedia.json'))
 
 def main():
     build(*sys.argv[1:3])
 
 if __name__ == "__main__":
     main()
-    
