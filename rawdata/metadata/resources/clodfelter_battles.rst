@@ -24,3 +24,14 @@ The following battles had a significant naval component.
 -  Mobile Bay (Aug 5, 1864): Mostly ships.
 -  Fort Fisher (Jan 13-15). Both sides had significant land forces.
    Bombardment + assault on fort.
+
+Quirks of the battles in this data:
+
+- Vicksburg: divided into the overall siege and two Assaults
+- Port Hudson: divided into the overall siege and two Assaults
+- Chattanooga: divided into four battles
+- Hampton Roads: separate entries for each day
+- Seven Days Battles. An entry for the entire Seven Days battles plus entries for each battle.
+- 2nd Bull Run: two battles: Groveton, Chantilly/2nd Bull run
+- 3rd Petersburg split into two battles: assault and Fort Gregg
+- Mobile Bay does not include the entire siege
