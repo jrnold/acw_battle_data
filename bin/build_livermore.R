@@ -1,9 +1,7 @@
 #!/usr/bin/env Rscript
 source("R/misc.R")
 
-COPYFILES = c("livermore_to_cwsac.csv",
-               "livermore_to_dbpedia.csv",
-               "livermore_army_sizes.csv")
+COPYFILES = c("livermore_army_sizes.csv")
 
 BELLIGERENTS <- c(UNION = "Union",
                   CONFEDERATE = "Confederate")
@@ -15,10 +13,9 @@ build <- function(src, dst) {
   livrmore <- read_csv(LIV_BATTLES_FILE)
 
   liv_battles <-
-    (livrmore
-     %>% select(- matches("^(US|CS)_"), - matches("^commander_"))
-     %>% arrange(battle_id)
-    )
+    livrmore %>%
+    select(- matches("^(US|CS)_"), - matches("^commander_")) %>%
+    arrange(battle_id)
 
   liv_commanders <-
     read_csv(file.path(src, "rawdata", "livermore1900",
@@ -38,21 +35,9 @@ build <- function(src, dst) {
     select(battle_id, belligerent, str, kia, wia, kw, miapow) %>%
     mutate(wia = ifelse(is.na(kia) & ! is.na(wia) & ! is.na(kw), NA, wia))
 
-  livermore_to_cwsac <-
-    read_csv(file.path(src, "rawdata", "livermore1900",
-    "livermore_to_cwsac.csv")) %>%
-    select(from, to, relation)
-
-  livermore_to_dbpedia <-
-      read_csv(file.path(src, "rawdata", "livermore1900",
-      "livermore_to_dbpedia.csv")) %>%
-      select(from, to, relation)
-
   write_csv(liv_battles, file = file.path(dst, "livermore_battles.csv"))
   write_csv(liv_forces, file = file.path(dst, "livermore_forces.csv"))
   write_csv(liv_commanders, file = file.path(dst, "livermore_commanders.csv"))
-  write_csv(livermore_to_cwsac, file = file.path(dst, "livermore_to_cwsac.csv"))
-  write_csv(livermore_to_dbpedia, file = file.path(dst, "livermore_to_dbpedia.csv"))
 
   for (filename in COPYFILES) {
     file.copy(file.path(src, "rawdata" , "livermore1900", filename), dst)

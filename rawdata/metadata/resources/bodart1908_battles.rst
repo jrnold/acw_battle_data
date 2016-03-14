@@ -21,8 +21,8 @@ His criteria for including battles in his list is that they were either
 Bodart determines the victor of the battle as follows
 
 1. the side that claimed the battlefield or achieved purpose of fighting
-2. else, the side which had a lower percentage of casualties 
-   
+2. else, the side which had a lower percentage of casualties
+
 His description of the data (p. 45-47, Google Books translation from German to English):
 
     On admission, the statistically treated battles meeting, sieges,
@@ -67,7 +67,7 @@ His description of the data (p. 45-47, Google Books translation from German to E
     amount is.
 
     Where it was feasible, the loss of trophies and
-    war material were attached.  
+    war material were attached.
 
     The strength information those forces were always given, which
     were disposable for battle, and therefore in an emergency could
@@ -78,23 +78,23 @@ His description of the data (p. 45-47, Google Books translation from German to E
     act affecting the course of events, therefore, those troops when
     they where also fight and the decision took no part, were
     included.
-    
+
     The next to each conflict in the parentheses point to emphasize
     its meaning at first glance in the manner that the paragraph in
     question "Lio category called, in which ranks of battle.
-    
+
     For the rank classification or categories of fighting, the total
     amount of losses (bloody and bloodless) both opponents were
     decisive for the author, taken together, u. ZW. Range from the
 
     Fight on land in the
-    
+
     - 1st category, those in which the total casualties reached at least 30,000
     - 2nd category ... 20,000
     - 3rd category ... 10,000
     - 4th category ... 5,000
     - 5th category ... 3,000
-    - 6th category ... 1,000      
+    - 6th category ... 1,000
 
     In the battles at sea in the
 
@@ -103,7 +103,7 @@ His description of the data (p. 45-47, Google Books translation from German to E
     - 3rd category ... 3,000
     - 4th category ... 2,000
     - 5th category ... 1,000
-    - 6th category ... 500      
+    - 6th category ... 500
 
     Left the battles which the first three categories innate (about
     250 in number), and which represent the greatest fights of modern
@@ -111,7 +111,7 @@ His description of the data (p. 45-47, Google Books translation from German to E
     they reach the treatise, a bouncing into your eyes preferably
     sooner so that readers will point out at once that he has to do
     here with a meaningful fight.
-      
+
     The strength and casualty figures have been rounded up by the
     author after u. Btw. In such a way that a number of less than 50
     men on 50, such a of less than 100 men were rounded down to 100.
@@ -123,7 +123,7 @@ And on page 601:
    -Gefechte, and referenced with respect to the sea-battles,
    and -meeting -Gefechte to the "Explanatory Preface" in the on page
    47 apparent explanation.
-   
+
    With regard to the rank classification of fights included in the
    column "attack, siege, storming, surrender fortified places" is
    expressly noted that not as the sum total of the mutual losses as a
@@ -144,7 +144,7 @@ Locations of data on the American Civil War
 - The costliest battles of the war leading states since 1618: p. 843
 - The largest victories and commanders. p. 774
 - Generals killed in battle. p. 911-
-    
+
 Translations of the German terms used in Bodart
 
 - Streitkräfte = "armed forces"
@@ -153,7 +153,7 @@ Translations of the German terms used in Bodart
   - "kavallerie" = cavalry
   - "artillerie" = artillery
   - "Gesamt - Stärke" = "Total - Strength"
-  - "geschütze", "gesch." = guns 
+  - "geschütze", "gesch." = guns
 - "verluste" = casualties
   - "tot" = killed
   - "verwundet", "verw." = wounded
@@ -174,7 +174,7 @@ Translations of the German terms used in Bodart
    - "Gewehre" = "guns"
 - "kanonen", "kan." = cannon
 - "fahnen" = flags
-- "geschütze", "gesch." = guns 
+- "geschütze", "gesch." = guns
 
 Bodart classifies battles into the following cateogies:
 
@@ -188,7 +188,7 @@ Bodart classifies battles into the following cateogies:
 - Einschliessung : confinement
 - Überfall : raid
 - Vergebliche belagerung : unsuccessful siege
-- Seeschlacht : naval battle 
+- Seeschlacht : naval battle
 
 These battle types are placed into 4 larger categories (see pp 602-607) with subcategories.
 
@@ -211,23 +211,23 @@ Final total category "Gesamtsumme der Kämpfe" ("total fights")
 
 Corrections
 
-- Bodart listed the date of the Battle of Ringgold as 1863-11-13 to 1863-11-25; I changed this to 
+- Bodart listed the date of the Battle of Ringgold as 1863-11-13 to 1863-11-25; I changed this to
   1863-11-23 to 1863-11-25, the correct dates for this battle.
 
 Several "battles" in Bodart are campaigns.  For exmample, Petersburg
 spans June 9, 1864 (First Battle of Petersburg) to April 3, 1865
 (capture of Petersburg after the Third Battle of Petersburg). This
 includes parts of the Richmond-Petersburg Campaign and Appomattox
-Campaign. 
+Campaign.
 
 While most entries are presented in an almost tabular form, some
 entries only have a paragraph of text.  An example of this is from
 p. 528, Schlacht bei Perryville,
 
  Sieg der Konföderierten (68.000 M.) unter Gen. Bragg über die Unierten
- (54.000 M.) unter GM. Buell. 
+ (54.000 M.) unter GM. Buell.
 
-The Google Books translation of this passage is 
+The Google Books translation of this passage is
 
  Victory for the Confederates (68,000 meters) under General. Bragg on the Uniate
  (54,000 meters) in GM. Buell."
@@ -250,3 +250,13 @@ The sources cited by Bodart are (p. 29):
 - Official Records of the Union and Confederate armies
 - Paris, comte de "Histoire de la guerre civile en Amerique"
 
+
+Notable quirks of this dataset:
+
+  - Seven Days Battles are combined into a single battle: Chickahominy (June 25-July 1, 1862)
+  - There is a single battle for the Siege of Petersburg (June 9, 1864 to
+    April 3, 1865)
+  - There is a single battle for the Siege of Charleston (April 1,
+    1863 to February 18, 1865)
+  - It includes a battle for the surrender Joseph E. Johnston
+    at Durham''s Station in North Carolina.

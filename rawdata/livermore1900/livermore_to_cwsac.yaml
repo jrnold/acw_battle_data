@@ -1,4 +1,4 @@
-- cwsac:
+- battles_cwsac:
   - description: Manassas I , VA (1861-07-21 - 1861-07-21)
     id: VA005
   battles_from:
@@ -6,7 +6,7 @@
     id: 1
   relation: eq
   start_date: '1861-07-21'
-- cwsac:
+- battles_cwsac:
   - description: Wilson's Creek , MO (1861-08-10 - 1861-08-10)
     id: MO004
   battles_from:
@@ -14,7 +14,7 @@
     id: 2
   relation: eq
   start_date: '1861-08-10'
-- cwsac:
+- battles_cwsac:
   - description: Fort Donelson , TN (1862-02-12 - 1862-02-16)
     id: TN002
   battles_from:
@@ -22,7 +22,7 @@
     id: 3
   relation: eq
   start_date: '1862-02-12'
-- cwsac:
+- battles_cwsac:
   - description: Pea Ridge , AR (1862-03-06 - 1862-03-08)
     id: AR001
   battles_from:
@@ -30,7 +30,7 @@
     id: 4
   relation: eq
   start_date: '1862-03-06'
-- cwsac:
+- battles_cwsac:
   - description: Shiloh , TN (1862-04-06 - 1862-04-07)
     id: TN003
   battles_from:
@@ -38,7 +38,7 @@
     id: 5
   relation: eq
   start_date: '1862-04-06'
-- cwsac:
+- battles_cwsac:
   - description: Williamsburg , VA (1862-05-05 - 1862-05-05)
     id: VA010
   battles_from:
@@ -46,7 +46,7 @@
     id: 6
   relation: eq
   start_date: '1862-05-05'
-- cwsac:
+- battles_cwsac:
   - description: Seven Pines , VA (1862-05-31 - 1862-06-01)
     id: VA014
   battles_from:
@@ -54,7 +54,7 @@
     id: 7
   relation: eq
   start_date: '1862-05-31'
-- cwsac:
+- battles_cwsac:
   - description: Beaver Dam Creek , VA (1862-06-26 - 1862-06-26)
     id: VA016
   battles_from:
@@ -62,7 +62,7 @@
     id: 9
   relation: eq
   start_date: '1862-06-26'
-- cwsac:
+- battles_cwsac:
   - description: Gaines' Mill , VA (1862-06-27 - 1862-06-27)
     id: VA017
   - description: Garnett's & Golding's Farms , VA (1862-06-27 - 1862-06-28)
@@ -72,7 +72,7 @@
     id: 10
   relation: eq
   start_date: '1862-06-27'
-- cwsac:
+- battles_cwsac:
   - description: Savage's Station , VA (1862-06-29 - 1862-06-29)
     id: VA019
   - description: Glendale/White Oak Swamp , VA (1862-06-30 - 1862-06-30)
@@ -85,7 +85,7 @@
     id: 11
   relation: eq
   start_date: '1862-06-29'
-- cwsac:
+- battles_cwsac:
   - description: Cedar Mountain , VA (1862-08-09 - 1862-08-09)
     id: VA022
   battles_from:
@@ -93,7 +93,7 @@
     id: 12
   relation: eq
   start_date: '1862-08-09'
-- cwsac:
+- battles_cwsac:
   - description: Manassas II , VA (1862-08-28 - 1862-08-30)
     id: VA026
   - description: Chantilly , VA (1862-09-01 - 1862-09-01)
@@ -104,7 +104,7 @@
     id: 13
   relation: gt
   start_date: '1862-08-28'
-- cwsac:
+- battles_cwsac:
   - description: Richmond , KY (1862-08-29 - 1862-08-30)
     id: KY007
   battles_from:
@@ -112,7 +112,7 @@
     id: 14
   relation: eq
   start_date: '1862-08-29'
-- cwsac:
+- battles_cwsac:
   - description: South Mountain , MD (1862-09-14 - 1862-09-14)
     id: MD002
   battles_from:
@@ -120,7 +120,7 @@
     id: 15
   relation: eq
   start_date: '1862-09-14'
-- cwsac:
+- battles_cwsac:
   - description: Antietam , MD (1862-09-16 - 1862-09-17)
     id: MD003
   battles_from:
@@ -128,7 +128,7 @@
     id: 16
   relation: eq
   start_date: '1862-09-16'
-- cwsac:
+- battles_cwsac:
   - description: Corinth II , MS (1862-10-03 - 1862-10-04)
     id: MS002
   battles_from:
@@ -136,7 +136,7 @@
     id: 17
   relation: eq
   start_date: '1862-10-03'
-- cwsac:
+- battles_cwsac:
   - description: Perryville , KY (1862-10-08 - 1862-10-08)
     id: KY009
   battles_from:
@@ -144,7 +144,7 @@
     id: 18
   relation: eq
   start_date: '1862-10-08'
-- cwsac:
+- battles_cwsac:
   - description: Prairie Grove , AR (1862-12-07 - 1862-12-07)
     id: AR005
   battles_from:
@@ -152,7 +152,7 @@
     id: 19
   relation: eq
   start_date: '1862-12-07'
-- cwsac:
+- battles_cwsac:
   - description: Fredericksburg I , VA (1862-12-11 - 1862-12-15)
     id: VA028
   battles_from:
@@ -160,7 +160,7 @@
     id: 20
   relation: eq
   start_date: '1862-12-11'
-- cwsac:
+- battles_cwsac:
   - description: Chickasaw Bayou , MS (1862-12-26 - 1862-12-29)
     id: MS003
   battles_from:
@@ -169,7 +169,7 @@
     id: 21
   relation: eq
   start_date: '1862-12-26'
-- cwsac:
+- battles_cwsac:
   - description: Stones River , TN (1862-12-31 - 1863-01-02)
     id: TN010
   battles_from:
@@ -178,7 +178,7 @@
     id: 22
   relation: eq
   start_date: '1862-12-31'
-- cwsac:
+- battles_cwsac:
   - description: Arkansas Post , AR (1863-01-09 - 1863-01-11)
     id: AR006
   battles_from:
@@ -186,7 +186,7 @@
     id: 23
   relation: eq
   start_date: '1863-01-09'
-- cwsac:
+- battles_cwsac:
   - description: Chancellorsville , VA (1863-04-30 - 1863-05-06)
     id: VA032
   battles_from:
@@ -195,7 +195,7 @@
     id: 24
   relation: eq
   start_date: '1863-04-30'
-- cwsac:
+- battles_cwsac:
   - description: Champion Hill , MS (1863-05-16 - 1863-05-16)
     id: MS009
   battles_from:
@@ -203,7 +203,7 @@
     id: 25
   relation: eq
   start_date: '1863-05-16'
-- cwsac:
+- battles_cwsac:
   - description: Vicksburg , MS (1863-05-18 - 1863-07-04)
     id: MS011
   battles_from:
@@ -211,7 +211,7 @@
     id: 26
   relation: lt
   start_date: '1863-05-18'
-- cwsac:
+- battles_cwsac:
   - description: Port Hudson , LA (1863-05-22 - 1863-07-09)
     id: LA010
   battles_from:
@@ -221,7 +221,7 @@
     id: 28
   relation: lt
   start_date: '1863-05-22'
-- cwsac:
+- battles_cwsac:
   - description: Gettysburg , PA (1863-07-01 - 1863-07-03)
     id: PA002
   battles_from:
@@ -229,7 +229,7 @@
     id: 29
   relation: eq
   start_date: '1863-07-01'
-- cwsac:
+- battles_cwsac:
   - description: Fort Wagner II/Morris Island , SC (1863-07-18 - 1863-07-18)
     id: SC007
   battles_from:
@@ -237,7 +237,7 @@
     id: 30
   relation: eq
   start_date: '1863-07-18'
-- cwsac:
+- battles_cwsac:
   - description: Chickamauga , GA (1863-09-18 - 1863-09-20)
     id: GA004
   battles_from:
@@ -245,7 +245,7 @@
     id: 31
   relation: eq
   start_date: '1863-09-18'
-- cwsac:
+- battles_cwsac:
   - description: Chattanooga III , TN (1863-11-23 - 1863-11-25)
     id: TN024
   battles_from:
@@ -253,7 +253,7 @@
     id: 32
   relation: eq
   start_date: '1863-11-23'
-- cwsac:
+- battles_cwsac:
   - description: Mine Run , VA (1863-11-26 - 1863-12-02)
     id: VA044
   battles_from:
@@ -261,7 +261,7 @@
     id: 33
   relation: eq
   start_date: '1863-11-26'
-- cwsac:
+- battles_cwsac:
   - description: Olustee , FL (1864-02-20 - 1864-02-20)
     id: FL005
   battles_from:
@@ -269,7 +269,7 @@
     id: 34
   relation: eq
   start_date: '1864-02-20'
-- cwsac:
+- battles_cwsac:
   - description: Pleasant Hill , LA (1864-04-09 - 1864-04-09)
     id: LA019
   battles_from:
@@ -277,7 +277,7 @@
     id: 35
   relation: eq
   start_date: '1864-04-09'
-- cwsac:
+- battles_cwsac:
   - description: Wilderness , VA (1864-05-05 - 1864-05-06)
     id: VA046
   battles_from:
@@ -285,7 +285,7 @@
     id: 37
   relation: eq
   start_date: '1864-05-05'
-- cwsac:
+- battles_cwsac:
   - description: Rocky Face Ridge , GA (1864-05-07 - 1864-05-13)
     id: GA007
   - description: Resaca , GA (1864-05-13 - 1864-05-15)
@@ -304,7 +304,7 @@
   relation: neq
   start_date: '1864-05-07'
 
-- cwsac:
+- battles_cwsac:
   - description: Spotsylvania Court House , VA (1864-05-08 - 1864-05-21)
     id: VA048
   battles_from:
@@ -314,7 +314,7 @@
     id: 39
   relation: eq
   start_date: '1864-05-08'
-- cwsac:
+- battles_cwsac:
   - description: Proctor's Creek , VA (1864-05-12 - 1864-05-16)
     id: VA053
   battles_from:
@@ -323,7 +323,7 @@
   relation: eq
   start_date: '1864-05-12'
 
-- cwsac:
+- battles_cwsac:
   - description: Cold Harbor , VA (1864-05-31 - 1864-06-12)
     id: VA062
   battles_from:
@@ -331,7 +331,7 @@
     id: 41
   relation: eq
   start_date: '1864-05-31'
-- cwsac:
+- battles_cwsac:
   - description: Petersburg II , VA (1864-06-15 - 1864-06-18)
     id: VA063
   battles_from:
@@ -339,7 +339,7 @@
     id: 42
   relation: eq
   start_date: '1864-06-15'
-- cwsac:
+- battles_cwsac:
   - description: Kennesaw Mountain , GA (1864-06-27 - 1864-06-27)
     id: GA015
   battles_from:
@@ -347,7 +347,7 @@
     id: 46
   relation: eq
   start_date: '1864-06-27'
-- cwsac:
+- battles_cwsac:
   - description: Tupelo , MS (1864-07-14 - 1864-07-15)
     id: MS015
   battles_from:
@@ -355,7 +355,7 @@
     id: 47
   relation: eq
   start_date: '1864-07-14'
-- cwsac:
+- battles_cwsac:
   - description: Peachtree Creek , GA (1864-07-20 - 1864-07-20)
     id: GA016
   battles_from:
@@ -363,7 +363,7 @@
     id: 48
   relation: eq
   start_date: '1864-07-20'
-- cwsac:
+- battles_cwsac:
   - description: Atlanta , GA (1864-07-22 - 1864-07-22)
     id: GA017
   battles_from:
@@ -371,7 +371,7 @@
     id: 49
   relation: eq
   start_date: '1864-07-22'
-- cwsac:
+- battles_cwsac:
   - description: Ezra Church , GA (1864-07-28 - 1864-07-28)
     id: GA018
   battles_from:
@@ -379,7 +379,7 @@
     id: 50
   relation: eq
   start_date: '1864-07-28'
-- cwsac:
+- battles_cwsac:
   - description: Crater , VA (1864-07-30 - 1864-07-30)
     id: VA070
   battles_from:
@@ -387,7 +387,7 @@
     id: 43
   relation: eq
   start_date: '1864-07-30'
-- cwsac:
+- battles_cwsac:
   - description: Deep Bottom II , VA (1864-08-13 - 1864-08-20)
     id: VA071
   battles_from:
@@ -395,7 +395,7 @@
     id: 44
   relation: eq
   start_date: '1864-08-13'
-- cwsac:
+- battles_cwsac:
   - description: Globe Tavern , VA (1864-08-18 - 1864-08-21)
     id: VA072
   battles_from:
@@ -403,7 +403,7 @@
     id: 45
   relation: eq
   start_date: '1864-08-18'
-- cwsac:
+- battles_cwsac:
   - description: Jonesborough , GA (1864-08-31 - 1864-09-01)
     id: GA022
   - description: Jonesborough , GA (1864-08-31 - 1864-09-01)
@@ -413,7 +413,7 @@
     id: 51
   relation: eq
   start_date: '1864-08-31'
-- cwsac:
+- battles_cwsac:
   - description: Opequon , VA (1864-09-19 - 1864-09-19)
     id: VA119
   battles_from:
@@ -421,7 +421,7 @@
     id: 53
   relation: eq
   start_date: '1864-09-19'
-- cwsac:
+- battles_cwsac:
   - description: Chaffin's Farm / New Market Heights , VA (1864-09-29 - 1864-09-30)
     id: VA075
   battles_from:
@@ -430,7 +430,7 @@
     id: 54
   relation: eq
   start_date: '1864-09-29'
-- cwsac:
+- battles_cwsac:
   - description: Cedar Creek , VA (1864-10-19 - 1864-10-19)
     id: VA122
   battles_from:
@@ -438,7 +438,7 @@
     id: 55
   relation: eq
   start_date: '1864-10-19'
-- cwsac:
+- battles_cwsac:
   - description: Boydton Plank Road , VA (1864-10-27 - 1864-10-27)
     id: VA079
   battles_from:
@@ -446,7 +446,7 @@
     id: 56
   relation: eq
   start_date: '1864-10-27'
-- cwsac:
+- battles_cwsac:
   - description: Franklin II , TN (1864-11-30 - 1864-11-30)
     id: TN036
   battles_from:
@@ -454,7 +454,7 @@
     id: 57
   relation: eq
   start_date: '1864-11-30'
-- cwsac:
+- battles_cwsac:
   - description: Nashville , TN (1864-12-15 - 1864-12-16)
     id: TN038
   battles_from:
@@ -462,7 +462,7 @@
     id: 58
   relation: eq
   start_date: '1864-12-15'
-- cwsac:
+- battles_cwsac:
   - description: Hatcher's Run , VA (1865-02-05 - 1865-02-07)
     id: VA083
   battles_from:
@@ -470,7 +470,7 @@
     id: 59
   relation: eq
   start_date: '1865-02-05'
-- cwsac:
+- battles_cwsac:
   - description: Bentonville , NC (1865-03-19 - 1865-03-21)
     id: NC020
   battles_from:
@@ -478,7 +478,7 @@
     id: 60
   relation: eq
   start_date: '1865-03-19'
-- cwsac:
+- battles_cwsac:
   - description: Lewis's Farm , VA (1865-03-29 - 1865-03-29)
     id: VA085
   - description: White Oak Road , VA (1865-03-31 - 1865-03-31)
@@ -500,7 +500,7 @@
     id: 61
   relation: eq
   start_date: '1865-03-31'
-- cwsac:
+- battles_cwsac:
   - description: Dinwiddie Court House , VA (1865-03-31 - 1865-03-31)
     id: VA086
   battles_from:
@@ -510,7 +510,7 @@
   relation: eq
   start_date: '1865-03-31'
 
-- cwsac:
+- battles_cwsac:
   - description: Petersburg III , VA (1865-04-02 - 1865-04-02)
     id: VA089
   battles_from:

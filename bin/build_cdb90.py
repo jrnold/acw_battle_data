@@ -9,7 +9,6 @@ def build(src, dst):
         data = [row for row in reader]
     ret = []
     for row in data:
-        print(row)
         ret.append({
             'battles_from': [row['isqno']],
             'battles_cwsac': [row['cwsac_id']],

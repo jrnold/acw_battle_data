@@ -22,7 +22,7 @@ defeats, Livermore writes,
 Some quirks of the data:
 
 - The Appomattox Campaign is treated as a single battle: Appomattox Campaign, March 29-April 9, 1865
-- There is an entry for the full Seven Days Battles as well as separate entries for
+- There is an entry for the full Seven Days Battles (June 25-July 1, 1862) as well as separate entries for
 
   - Mechanicsville, June 26, 1862
   - Gaines's Mill, June 27, 1862

@@ -1,33 +1,6 @@
-format: csv
+format: json
 name: livermore_to_cwsac
-path: data/livermore_to_cwsac.csv
-schema:
-  fields:
-  - description: Identifier of battle in the Livermore data (:doc:`livermore_battles`).
-    format: default
-    name: from
-    title: from
-    type: string
-  - constraints:
-      pattern: '[A-Z]{2}[0-9]{3}[A-Z]?'
-    description: Identifier of the battle in CWSAC battles (:doc:`cwsac_battles`).
-    format: default
-    name: to
-    title: to
-    type: string
-  - constraints:
-      enum:
-      - eq
-      - lt
-      - gt
-    description: 'Relationship between the events:
-
-      - "eq": same event - "gt": ``from`` includes ``to`` (``to`` is a part of ``from``).
-      - "lt": ``from`` is included by ``to`` (``from`` is part of ``to``).'
-    format: default
-    name: relation
-    title: relation
-    type: string
+path: data/livermore_to_cwsac.json
 sources:
 - Livermore1900
 title: Correspondence between Livermore (1900) battles and CWSAC battles

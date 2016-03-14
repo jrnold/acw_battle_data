@@ -60,7 +60,7 @@ def build_kennedy(src, dst):
 def build_livermore(src, dst):
     print("build_livermore")
     sp.check_call([RSCRIPT, "bin/build_livermore.R", src, dst])
-
+    sp.check_call([PYTHON, "bin/build_livermore_to_cwsac.py", src, dst])
 
 def build_thorpe(src, dst):
     print("build_thorpe")
@@ -134,7 +134,7 @@ def build(src, dst, docs, bucket):
     build_fox(src, dst)
     build_greer(src, dst)
     #build_kennedy(src, dst)
-    #build_livermore(src, dst)
+    build_livermore(src, dst)
     build_thorpe(src, dst)
     build_nyt(src, dst)
     build_phisterer(src, dst)
