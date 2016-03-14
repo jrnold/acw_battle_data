@@ -1,15 +1,6 @@
-description: 'Each of the CDB90 battles maps onto only one CWSAC battle.
-
-  '
 format: json
 name: cdb90_to_cwsac
 path: data/cdb90_to_cwsac.json
-schema:
-  fields:
-  - format: default
-    name: data/cdb90_to_cwsac.json
-    title: data/cdb90_to_cwsac.json
-    type: string
 sources:
 - jrnold
 - cdb90

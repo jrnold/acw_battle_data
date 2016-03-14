@@ -19,3 +19,16 @@ defeats, Livermore writes,
     abandoned; when considered tactically, the retreating army was
     successful in the battle itself.
 
+Some quirks of the data:
+
+- The Appomattox Campaign is treated as a single battle: Appomattox Campaign, March 29-April 9, 1865
+- There is an entry for the full Seven Days Battles as well as separate entries for
+
+  - Mechanicsville, June 26, 1862
+  - Gaines's Mill, June 27, 1862
+  - Peach Orchard, Savage Station, June 29, 1862. White Oak Swamp, Glendale, June 30, 1862. Malvern Hill, July 1, 1862
+
+- There are battles for the Assaults on Port Hudson (May 27 and June 14, 1863), but no entry for the entire Siege of Port Hudson. This means that these battles are coded as Confederate victories since the Union failed in these assaults, even though it won the siege.
+- There is a battle for the Assault on Vicksburg (May 22, 1863), but no entry for the entire Siege. This means that Vicksburg is coded as a Confederate victory since the Union failed in the assault, even though it won the siege.
+- There are separate battles for different days of Spottsylvania (May 10, 12, 1864)
+- There is a single battle for the Atlanta Campaign, May, 1864.

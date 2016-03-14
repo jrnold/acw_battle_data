@@ -1,16 +1,3 @@
-description: 'Data from Gaston Bodart (1908) *Kriegs-Lexikon (1618-1905)*, an encyclopedia
-  of battles covering the years 1618-1905. Among those battles are some from the American
-  Civil War.
-
-  Notable quirks of this dataset:
-
-  - Seven Days Battles are combined into a single battle: Chickahominy (June 25-July
-  1, 1862) - There is a single battle for the Siege of Petersburg (June 9, 1864 to
-  April 3, 1865) - There is a single battle for the Siege of Charleston (April 1,
-  1863 to February 18, 1865) - It includes a battle for the surrender Joseph E. Johnston
-  at Durham''s Station in North Carolina.
-
-  '
 format: csv
 name: bodart1908_battles
 path: data/bodart1908_battles.csv
