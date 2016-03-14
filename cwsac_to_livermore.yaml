@@ -1,7 +1,7 @@
 - cwsac:
   - description: Manassas I , VA (1861-07-21 - 1861-07-21)
     id: VA005
-  phisterer:
+  battles_from:
   - description: Bull Run, July 21, 1861, VA (1861-07-21 - 1861-07-21)
     id: 1
   relation: eq
@@ -9,7 +9,7 @@
 - cwsac:
   - description: Wilson's Creek , MO (1861-08-10 - 1861-08-10)
     id: MO004
-  phisterer:
+  battles_from:
   - description: Wilson's Creek, Mo., August 10, 1861, MO (1861-08-10 - 1861-08-10)
     id: 2
   relation: eq
@@ -17,7 +17,7 @@
 - cwsac:
   - description: Fort Donelson , TN (1862-02-12 - 1862-02-16)
     id: TN002
-  phisterer:
+  battles_from:
   - description: Fort Donelson, February 12-16, 1862, TN (1862-02-12 - 1862-02-16)
     id: 3
   relation: eq
@@ -25,7 +25,7 @@
 - cwsac:
   - description: Pea Ridge , AR (1862-03-06 - 1862-03-08)
     id: AR001
-  phisterer:
+  battles_from:
   - description: Pea Ridge, Ark., March 7, 1862, AR (1862-03-07 - 1862-03-07)
     id: 4
   relation: eq
@@ -33,7 +33,7 @@
 - cwsac:
   - description: Shiloh , TN (1862-04-06 - 1862-04-07)
     id: TN003
-  phisterer:
+  battles_from:
   - description: Shiloh, April 6, 7, 1862, TN (1862-04-06 - 1862-04-07)
     id: 5
   relation: eq
@@ -41,7 +41,7 @@
 - cwsac:
   - description: Williamsburg , VA (1862-05-05 - 1862-05-05)
     id: VA010
-  phisterer:
+  battles_from:
   - description: Williamsburg, May 4, 5, 1862, VA (1862-05-04 - 1862-05-05)
     id: 6
   relation: eq
@@ -49,15 +49,17 @@
 - cwsac:
   - description: Seven Pines , VA (1862-05-31 - 1862-06-01)
     id: VA014
-  phisterer:
+  battles_from:
   - description: Fair Oaks, May 31, June 1, 1862, VA (1862-05-31 - 1862-06-01)
     id: 7
   relation: eq
   start_date: '1862-05-31'
 - cwsac:
+
+- cwsac:
   - description: Beaver Dam Creek , VA (1862-06-26 - 1862-06-26)
     id: VA016
-  phisterer:
+  battles_from:
   - description: Mechanicsville, June 26, 1862, VA (1862-06-26 - 1862-06-26)
     id: 9
   relation: eq
@@ -67,12 +69,11 @@
     id: VA017
   - description: Garnett's & Golding's Farms , VA (1862-06-27 - 1862-06-28)
     id: VA018
-  phisterer:
+  battles_from:
   - description: Gaines's Mill, June 27, 1862, VA (1862-06-27 - 1862-06-27)
     id: 10
   relation: eq
   start_date: '1862-06-27'
-
 - cwsac:
   - description: Savage's Station , VA (1862-06-29 - 1862-06-29)
     id: VA019
@@ -80,7 +81,7 @@
     id: VA020
   - description: Malvern Hill , VA (1862-07-01 - 1862-07-01)
     id: VA021
-  phisterer:
+  battles_from:
   - description: Peach Orchard, Savage Station, June 29, 1862. White Oak Swamp, Glendale,  June
       30, 1862. Malvern Hill, July 1, 1862, VA (1862-06-29 - 1862-07-01)
     id: 11
@@ -89,7 +90,7 @@
 - cwsac:
   - description: Cedar Mountain , VA (1862-08-09 - 1862-08-09)
     id: VA022
-  phisterer:
+  battles_from:
   - description: Cedar Mountain, August 9, 1862, VA (1862-08-09 - 1862-08-09)
     id: 12
   relation: eq
@@ -99,7 +100,7 @@
     id: VA026
   - description: Chantilly , VA (1862-09-01 - 1862-09-01)
     id: VA027
-  phisterer:
+  battles_from:
   - description: Manasas and Chantilly, August 27-September 2, 1862, VA (1862-08-27
       - 1862-09-02)
     id: 13
@@ -108,7 +109,7 @@
 - cwsac:
   - description: Richmond , KY (1862-08-29 - 1862-08-30)
     id: KY007
-  phisterer:
+  battles_from:
   - description: Richmond, Ky., August 29, 30, 1862, KY (1862-08-29 - 1862-08-30)
     id: 14
   relation: eq
@@ -116,7 +117,7 @@
 - cwsac:
   - description: South Mountain , MD (1862-09-14 - 1862-09-14)
     id: MD002
-  phisterer:
+  battles_from:
   - description: South Mountain, September 14, 1862, MD (1862-09-14 - 1862-09-14)
     id: 15
   relation: eq
@@ -124,7 +125,7 @@
 - cwsac:
   - description: Antietam , MD (1862-09-16 - 1862-09-17)
     id: MD003
-  phisterer:
+  battles_from:
   - description: Antietam, September 16, 17, 1862, MD (1862-09-16 - 1862-09-17)
     id: 16
   relation: eq
@@ -132,7 +133,7 @@
 - cwsac:
   - description: Corinth II , MS (1862-10-03 - 1862-10-04)
     id: MS002
-  phisterer:
+  battles_from:
   - description: Corinth, October 3, 4, 1862, MS (1862-10-03 - 1862-10-04)
     id: 17
   relation: eq
@@ -140,7 +141,7 @@
 - cwsac:
   - description: Perryville , KY (1862-10-08 - 1862-10-08)
     id: KY009
-  phisterer:
+  battles_from:
   - description: Perryville, October 8,1862, KY (1862-10-08 - 1862-10-08)
     id: 18
   relation: eq
@@ -148,7 +149,7 @@
 - cwsac:
   - description: Prairie Grove , AR (1862-12-07 - 1862-12-07)
     id: AR005
-  phisterer:
+  battles_from:
   - description: Prairie Grove, Ark., December 7, 1862, AR (1862-12-07 - 1862-12-07)
     id: 19
   relation: eq
@@ -156,7 +157,7 @@
 - cwsac:
   - description: Fredericksburg I , VA (1862-12-11 - 1862-12-15)
     id: VA028
-  phisterer:
+  battles_from:
   - description: Fredericksburg, December 12, 1862, VA (1862-12-13 - 1862-12-13)
     id: 20
   relation: eq
@@ -164,7 +165,7 @@
 - cwsac:
   - description: Chickasaw Bayou , MS (1862-12-26 - 1862-12-29)
     id: MS003
-  phisterer:
+  battles_from:
   - description: Chicasaw Bayou and Bluff, December 27, 29, 1862, MS (1862-12-27 -
       1862-12-29)
     id: 21
@@ -173,7 +174,7 @@
 - cwsac:
   - description: Stones River , TN (1862-12-31 - 1863-01-02)
     id: TN010
-  phisterer:
+  battles_from:
   - description: Stone's River, December 31, 1862, January 1, 1863, TN (1862-12-31
       - 1863-01-01)
     id: 22
@@ -182,7 +183,7 @@
 - cwsac:
   - description: Arkansas Post , AR (1863-01-09 - 1863-01-11)
     id: AR006
-  phisterer:
+  battles_from:
   - description: Arkansas Post, January 11, 1863, AR (1863-01-11 - 1863-01-11)
     id: 23
   relation: eq
@@ -190,7 +191,7 @@
 - cwsac:
   - description: Chancellorsville , VA (1863-04-30 - 1863-05-06)
     id: VA032
-  phisterer:
+  battles_from:
   - description: Chancellorsville and Fredericksburg, May 1-4, 1863, VA (1863-05-01
       - 1863-05-04)
     id: 24
@@ -199,7 +200,7 @@
 - cwsac:
   - description: Champion Hill , MS (1863-05-16 - 1863-05-16)
     id: MS009
-  phisterer:
+  battles_from:
   - description: Champion Hill, May 16, 1863, MS (1863-05-16 - 1863-05-16)
     id: 25
   relation: eq
@@ -207,7 +208,7 @@
 - cwsac:
   - description: Vicksburg , MS (1863-05-18 - 1863-07-04)
     id: MS011
-  phisterer:
+  battles_from:
   - description: Assault on Vicksburg, May 22, 1863, MS (1863-05-22 - 1863-05-22)
     id: 26
   relation: lt
@@ -215,7 +216,7 @@
 - cwsac:
   - description: Port Hudson , LA (1863-05-22 - 1863-07-09)
     id: LA010
-  phisterer:
+  battles_from:
   - description: Assault on Port Hudson, May 27, 1863, LA (1863-05-27 - 1863-05-27)
     id: 27
   - description: Assault on Port Hudson, June 14, 1863, LA (1863-06-14 - 1863-06-14)
@@ -225,7 +226,7 @@
 - cwsac:
   - description: Gettysburg , PA (1863-07-01 - 1863-07-03)
     id: PA002
-  phisterer:
+  battles_from:
   - description: Gettysburg, July 1-3, 1863, PA (1863-07-01 - 1863-07-03)
     id: 29
   relation: eq
@@ -233,7 +234,7 @@
 - cwsac:
   - description: Fort Wagner II/Morris Island , SC (1863-07-18 - 1863-07-18)
     id: SC007
-  phisterer:
+  battles_from:
   - description: Assault on Fort Wagner, July 18, 1863, SC (1863-07-18 - 1863-07-18)
     id: 30
   relation: eq
@@ -241,7 +242,7 @@
 - cwsac:
   - description: Chickamauga , GA (1863-09-18 - 1863-09-20)
     id: GA004
-  phisterer:
+  battles_from:
   - description: Chickamauga, September 19, 20, 1863, GA (1863-09-19 - 1863-09-20)
     id: 31
   relation: eq
@@ -249,7 +250,7 @@
 - cwsac:
   - description: Chattanooga III , TN (1863-11-23 - 1863-11-25)
     id: TN024
-  phisterer:
+  battles_from:
   - description: Chattanooga, November 23-25, 1863, TN (1863-11-23 - 1863-11-25)
     id: 32
   relation: eq
@@ -257,7 +258,7 @@
 - cwsac:
   - description: Mine Run , VA (1863-11-26 - 1863-12-02)
     id: VA044
-  phisterer:
+  battles_from:
   - description: Mine Run, November 27-December 1, 1863, VA (1863-11-27 - 1863-12-01)
     id: 33
   relation: eq
@@ -265,7 +266,7 @@
 - cwsac:
   - description: Olustee , FL (1864-02-20 - 1864-02-20)
     id: FL005
-  phisterer:
+  battles_from:
   - description: Olustee, Fla., February 20, 1864, FL (1864-02-20 - 1864-02-20)
     id: 34
   relation: eq
@@ -273,7 +274,7 @@
 - cwsac:
   - description: Pleasant Hill , LA (1864-04-09 - 1864-04-09)
     id: LA019
-  phisterer:
+  battles_from:
   - description: Pleasant Hill, April 9, 1864, LA (1864-04-09 - 1864-04-09)
     id: 35
   relation: eq
@@ -281,7 +282,7 @@
 - cwsac:
   - description: Wilderness , VA (1864-05-05 - 1864-05-06)
     id: VA046
-  phisterer:
+  battles_from:
   - description: Wilderness, May 5-7, 1864, VA (1864-05-05 - 1864-05-07)
     id: 37
   relation: eq
@@ -299,7 +300,7 @@
     id: GA012
   - description: Dallas , GA (1864-05-28 - 1864-06-28)
     id: GA011
-  phisterer:
+  battles_from:
   - description: Atlanta Campaign, May, 1864, GA (1864-05-05 - 1864-05-28)
     id: 36
   relation: neq
@@ -308,7 +309,7 @@
 - cwsac:
   - description: Spotsylvania Court House , VA (1864-05-08 - 1864-05-21)
     id: VA048
-  phisterer:
+  battles_from:
   - description: Spottsylvania, May 10, 1864, VA (1864-05-10 - 1864-05-10)
     id: 38
   - description: Spottsylvania, May 12, 1864, VA (1864-05-12 - 1864-05-12)
@@ -318,7 +319,7 @@
 - cwsac:
   - description: Proctor's Creek , VA (1864-05-12 - 1864-05-16)
     id: VA053
-  phisterer:
+  battles_from:
   - description: Drewry's Bluff, May 12-16, 1864, VA (1864-05-12 - 1864-05-16)
     id: 40
   relation: eq
@@ -327,7 +328,7 @@
 - cwsac:
   - description: Cold Harbor , VA (1864-05-31 - 1864-06-12)
     id: VA062
-  phisterer:
+  battles_from:
   - description: Cold Harbor, June 1-3, 1864, VA (1864-06-01 - 1864-06-03)
     id: 41
   relation: eq
@@ -335,7 +336,7 @@
 - cwsac:
   - description: Petersburg II , VA (1864-06-15 - 1864-06-18)
     id: VA063
-  phisterer:
+  battles_from:
   - description: Petersburg, June 15-18, 1864, VA (1864-06-15 - 1864-06-18)
     id: 42
   relation: eq
@@ -343,7 +344,7 @@
 - cwsac:
   - description: Kennesaw Mountain , GA (1864-06-27 - 1864-06-27)
     id: GA015
-  phisterer:
+  battles_from:
   - description: Atlanta, July 22, 1864 (Hood's Attack), GA (1864-07-22 - 1864-07-22)
     id: 46
   relation: eq
@@ -351,7 +352,7 @@
 - cwsac:
   - description: Tupelo , MS (1864-07-14 - 1864-07-15)
     id: MS015
-  phisterer:
+  battles_from:
   - description: Atlanta, July 28, 1864, GA (1864-07-28 - 1864-07-28)
     id: 47
   relation: eq
@@ -359,7 +360,7 @@
 - cwsac:
   - description: Peachtree Creek , GA (1864-07-20 - 1864-07-20)
     id: GA016
-  phisterer:
+  battles_from:
   - description: The Mine, July 30, 1864, VA (1864-07-30 - 1864-07-30)
     id: 48
   relation: eq
@@ -367,7 +368,7 @@
 - cwsac:
   - description: Atlanta , GA (1864-07-22 - 1864-07-22)
     id: GA017
-  phisterer:
+  battles_from:
   - description: Deep Bottom, August 14-19, 1864, VA (1864-08-14 - 1864-08-19)
     id: 49
   relation: eq
@@ -375,7 +376,7 @@
 - cwsac:
   - description: Ezra Church , GA (1864-07-28 - 1864-07-28)
     id: GA018
-  phisterer:
+  battles_from:
   - description: Weldon Railroad, August 18-21, 1864, VA (1864-08-18 - 1864-08-21)
     id: 50
   relation: eq
@@ -383,7 +384,7 @@
 - cwsac:
   - description: Crater , VA (1864-07-30 - 1864-07-30)
     id: VA070
-  phisterer:
+  battles_from:
   - description: Assault on Kenesaw Mountain, June 27, 1864, GA (1864-06-27 - 1864-06-27)
     id: 43
   relation: eq
@@ -391,7 +392,7 @@
 - cwsac:
   - description: Deep Bottom II , VA (1864-08-13 - 1864-08-20)
     id: VA071
-  phisterer:
+  battles_from:
   - description: Tupelo, Miss., July 13-15, 1864, MS (1864-07-13 - 1864-07-15)
     id: 44
   relation: eq
@@ -399,7 +400,7 @@
 - cwsac:
   - description: Globe Tavern , VA (1864-08-18 - 1864-08-21)
     id: VA072
-  phisterer:
+  battles_from:
   - description: Peach-Tree Creek, July 20, 1864, GA (1864-07-20 - 1864-07-20)
     id: 45
   relation: eq
@@ -409,7 +410,7 @@
     id: GA022
   - description: Jonesborough , GA (1864-08-31 - 1864-09-01)
     id: GA022
-  phisterer:
+  battles_from:
   - description: Jonesborough, Ga., August 31, 1864, GA (1864-08-31 - 1864-08-31)
     id: 51
   relation: eq
@@ -417,7 +418,7 @@
 - cwsac:
   - description: Opequon , VA (1864-09-19 - 1864-09-19)
     id: VA119
-  phisterer:
+  battles_from:
   - description: Winchester (Opequan), September 19, 1864, GA (1864-09-19 - 1864-09-19)
     id: 53
   relation: eq
@@ -425,7 +426,7 @@
 - cwsac:
   - description: Chaffin's Farm / New Market Heights , VA (1864-09-29 - 1864-09-30)
     id: VA075
-  phisterer:
+  battles_from:
   - description: Chafin's Farm, and Forts Harrison and Gilmer, September 29, 30, 1864,
       VA (1864-09-29 - 1864-09-30)
     id: 54
@@ -434,7 +435,7 @@
 - cwsac:
   - description: Cedar Creek , VA (1864-10-19 - 1864-10-19)
     id: VA122
-  phisterer:
+  battles_from:
   - description: Cedar Creek, October 19, 1864, VA (1864-10-19 - 1864-10-19)
     id: 55
   relation: eq
@@ -442,7 +443,7 @@
 - cwsac:
   - description: Boydton Plank Road , VA (1864-10-27 - 1864-10-27)
     id: VA079
-  phisterer:
+  battles_from:
   - description: Boydton Plank Road, October 27, 28, 1864, VA (1864-10-27 - 1864-10-28)
     id: 56
   relation: eq
@@ -450,7 +451,7 @@
 - cwsac:
   - description: Franklin II , TN (1864-11-30 - 1864-11-30)
     id: TN036
-  phisterer:
+  battles_from:
   - description: Franklin, November 30, 1864, TN (1864-11-30 - 1864-11-30)
     id: 57
   relation: eq
@@ -458,7 +459,7 @@
 - cwsac:
   - description: Nashville , TN (1864-12-15 - 1864-12-16)
     id: TN038
-  phisterer:
+  battles_from:
   - description: Nashville, December 15, 16, 1864, TN (1864-12-15 - 1864-12-16)
     id: 58
   relation: eq
@@ -466,7 +467,7 @@
 - cwsac:
   - description: Hatcher's Run , VA (1865-02-05 - 1865-02-07)
     id: VA083
-  phisterer:
+  battles_from:
   - description: Hatcher's Run, February, 5-7, 1865, VA (1865-02-05 - 1865-02-07)
     id: 59
   relation: eq
@@ -474,7 +475,7 @@
 - cwsac:
   - description: Bentonville , NC (1865-03-19 - 1865-03-21)
     id: NC020
-  phisterer:
+  battles_from:
   - description: Bentonville, March 19, 1865, NC (1865-03-19 - 1865-03-19)
     id: 60
   relation: eq
@@ -496,7 +497,7 @@
     id: VA091
   - description: Namozine Church , VA (1865-04-03 - 1865-04-03)
     id: VA124
-  phisterer:
+  battles_from:
   - description: Appomattox Campaign, March 29-April 9, 1865, VA (1865-03-29 - 1865-04-09)
     id: 61
   relation: eq
@@ -504,7 +505,7 @@
 - cwsac:
   - description: Dinwiddie Court House , VA (1865-03-31 - 1865-03-31)
     id: VA086
-  phisterer:
+  battles_from:
   - description: Dinwiddie Court House and White Oak Road, March 29-31, 1865, VA (1865-03-29
       - 1865-03-31)
     id: 62
@@ -514,7 +515,7 @@
 - cwsac:
   - description: Petersburg III , VA (1865-04-02 - 1865-04-02)
     id: VA089
-  phisterer:
+  battles_from:
   - description: Assault at Petersburg, April 2, 1865, VA (1865-04-02 - 1865-04-02)
     id: 63
   relation: eq

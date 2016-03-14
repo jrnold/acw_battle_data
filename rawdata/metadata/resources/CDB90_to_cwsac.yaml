@@ -1,39 +1,17 @@
-format: csv
-name: CDB90_to_cwsac
-path: data/CDB90_to_cwsac.csv
+description: 'Each of the CDB90 battles maps onto only one CWSAC battle.
+
+  '
+format: json
+name: cdb90_to_cwsac
+path: data/cdb90_to_cwsac.json
 schema:
   fields:
-  - description: Identifier of the battle in CDB90 (``CDB90/battles.isqno``).
-    format: default
-    name: from
-    title: from
-    type: string
-  - constraints:
-      pattern: '[A-Z]{2}[0-9]{3}[A-Z]?'
-    description: Identifier of the battle in CWSAC. See :doc:`cwsac_battles`.
-    format: default
-    name: to
-    title: to
-    type: string
-  - constraints:
-      enum:
-      - eq
-      - lt
-      - gt
-    description: >
-      Relationship between the events:
-
-      - "eq": same event
-      - "gt": ``from`` includes ``to`` (``to`` is a part of ``from``).
-      - "lt": ``from`` is included by ``to`` (``from`` is part of ``to``).'
-    format: default
-    name: relation
-    title: relation
+  - format: default
+    name: data/cdb90_to_cwsac.json
+    title: data/cdb90_to_cwsac.json
     type: string
 sources:
 - jrnold
 - cdb90
 - CWSAC1997
 title: CDB90 to CWSAC battle links
-description: >
-  Each of the CDB90 battles maps onto one CWSAC battles.

@@ -22,7 +22,7 @@ def build_cwsac(src, dst):
 def build_cws2(src, dst):
     print("build_cws2")
     sp.check_call([PYTHON, 'bin/build_cws2.py', src, dst])
-    sp.check_call([RSCRIPT, 'bin/update_cws2_forces.R', src, dst])    
+    sp.check_call([RSCRIPT, 'bin/update_cws2_forces.R', src, dst])
 
 def build_cwss(src, dst):
     print("build_cwss")
@@ -60,7 +60,7 @@ def build_kennedy(src, dst):
 def build_livermore(src, dst):
     print("build_livermore")
     sp.check_call([RSCRIPT, "bin/build_livermore.R", src, dst])
-            
+
 
 def build_thorpe(src, dst):
     print("build_thorpe")
@@ -90,12 +90,12 @@ def build_nps(src, dst):
 
 def build_cdb90(src, dst):
     print("build_cdb90")
-    sp.check_call([RSCRIPT, "bin/build_cdb90.R", src, dst])
+    sp.check_call([PYTHON, "bin/build_cdb90.py", src, dst])
 
 def build_civilwarorg(src, dst):
     print("build_civilwarorg")
     sp.check_call([PYTHON, "bin/build_civilwarorg.py", src, dst])
-    
+
 def build_misc(src, dst):
     print("build_misc")
     sp.check_call([PYTHON, "bin/build_misc.py", src, dst])
@@ -103,7 +103,7 @@ def build_misc(src, dst):
 def build_ships(src, dst):
     print("build_ships")
     sp.check_call([PYTHON, "bin/build_ships.py", src, dst])
-    
+
 def build_metadata(src, dst):
     print("build_metadata")
     sp.check_call([PYTHON, "bin/build_metadata.py", src, dst])
@@ -121,9 +121,9 @@ def build(src, dst, docs, bucket):
     if path.exists(dst):
         shutil.rmtree(dst)
     os.makedirs(dst)
-    build_unit_sizes(src, dst)    
+    build_unit_sizes(src, dst)
     build_aad(src, dst)
-    build_shenandoah(src, dst)    
+    build_shenandoah(src, dst)
     build_cwsac(src, dst)
     build_cws2(src, dst)
     build_cwss(src, dst)
@@ -133,22 +133,22 @@ def build(src, dst, docs, bucket):
     build_wikipedia(src, dst)
     build_fox(src, dst)
     build_greer(src, dst)
-    build_kennedy(src, dst)
-    build_livermore(src, dst)
+    #build_kennedy(src, dst)
+    #build_livermore(src, dst)
     build_thorpe(src, dst)
     build_nyt(src, dst)
     build_phisterer(src, dst)
     build_clodfelter(src, dst)
     build_cdb90(src, dst)
     build_ships(src, dst)
-    build_civilwarorg(src, dst)    
+    build_civilwarorg(src, dst)
     build_misc(src, dst)
     # metadata
     build_metadata(src, dst)
     build_datapackage(src, dst)
     # build docs
     build_docs(src, dst, docs, bucket)
-           
+
 def main():
     parser = argparse.ArgumentParser(description = "Build the ACW battle data")
     parser.add_argument('dst', metavar = 'DST', default = "data", nargs = '?',
@@ -156,7 +156,7 @@ def main():
     parser.add_argument('--bucket', metavar = 'BUCKET',
                         default = "data.jrnold.me",
                         help = "AWS bucket with the data")
-    
+
     args = parser.parse_args()
     src = "."
     docs = path.join(src, "docs/source")

@@ -7,7 +7,7 @@ Datasets included in this collection:
 ====================================================================================  ===================================================================================================================
 Resource                                                                              Description
 ====================================================================================  ===================================================================================================================
-`CDB90_to_cwsac.csv <resources/CDB90_to_cwsac.html>`__                                CDB90 to CWSAC battle links
+`cdb90_to_cwsac.json <resources/cdb90_to_cwsac.html>`__                               CDB90 to CWSAC battle links
 `aad_battles.csv <resources/aad_battles.html>`__                                      Records About Civil War Battle Sites, created by the CWSAC, 1990-1993, and deposited with the National Archives AAD
 `aad_events.json <resources/aad_events.html>`__                                       Records About Civil War Battle Sites, created by the CWSAC, 1990-1993, and deposited with the National Archives AAD
 `battlemisc.csv <resources/battlemisc.html>`__                                        Miscellaneous battle data
@@ -15,8 +15,7 @@ Resource                                                                        
 `bodart1908_commanders.csv <resources/bodart1908_commanders.html>`__                  Bodart (1908) battle data: commanders
 `bodart1908_forces.csv <resources/bodart1908_forces.html>`__                          Bodart (1908) battle data: force strengths and casualties
 `bodart1908_generals_killed.csv <resources/bodart1908_generals_killed.html>`__        Bodart (1908) battle data: generals killed
-`bodart1908_to_cwsac.csv <resources/bodart1908_to_cwsac.html>`__                      Correspondence between Bodart (1908) battles and CWSAC battle IDs
-`bodart1908_to_dbpedia.csv <resources/bodart1908_to_dbpedia.html>`__                  Correspondence between Bodart (1908) battles and dbpedia.org resources
+`bodart1908_to_cwsac.json <resources/bodart1908_to_cwsac.html>`__                     Correspondence between Bodart (1908) battles and CWSAC battle IDs
 `burdekin_langdana_war_trend.csv <resources/burdekin_langdana_war_trend.html>`__      War Trend from Burdekin and Langdana (1993)
 `civilwarorg_battles.csv <resources/civilwarorg_battles.html>`__                      Batte data from civilwar.org
 `civilwarorg_commanders.csv <resources/civilwarorg_commanders.html>`__                Commanders in civilwar.org battle data
@@ -61,14 +60,6 @@ Resource                                                                        
 `fox_forces_to_cwsac.csv <resources/fox_forces_to_cwsac.html>`__                      Correspondence ``fox_forces`` and CWSAC battles
 `fox_outcomes.csv <resources/fox_outcomes.html>`__                                    Fox (1898) battle outcomes
 `greer2005_weekly_casualties.csv <resources/greer2005_weekly_casualties.html>`__      Weekly casualty data from Greer "Counting Casualties Week-by-Week"
-`kennedy1997_battles.csv <resources/kennedy1997_battles.html>`__                      Civil War Battlefield Guide data: battles
-`kennedy1997_forces.csv <resources/kennedy1997_forces.html>`__                        Civil War Battlefield Guide data: forces
-`livermore_army_sizes.csv <resources/livermore_army_sizes.html>`__                    Size of the Union and Confederate Armies (Livermore, 1900)
-`livermore_battles.csv <resources/livermore_battles.html>`__                          Livermore (1900) battle data: battle list
-`livermore_commanders.csv <resources/livermore_commanders.html>`__                    Livermore (1900) battle data: commanders
-`livermore_forces.csv <resources/livermore_forces.html>`__                            Livermore (1900) battle data: force strengths and casualties
-`livermore_to_cwsac.csv <resources/livermore_to_cwsac.html>`__                        Correspondence between Livermore (1900) battles and CWSAC battles
-`livermore_to_dbpedia.csv <resources/livermore_to_dbpedia.html>`__                    Correspondence between Livermore (1900) battles and dbpedia.org resources
 `navalbattles.csv <resources/navalbattles.html>`__                                    List of naval battles
 `nps_battle_units.csv <resources/nps_battle_units.html>`__                            nps_battle_units
 `nps_battlelist.csv <resources/nps_battlelist.html>`__                                Comparison of battles in CWSAC AAD, CWSAC Report, CWSAC Updates, and CWSS

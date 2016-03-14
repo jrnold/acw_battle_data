@@ -1,4 +1,4 @@
-battle_id,battle_name,page,start_date,end_date,attacker,result,CS_str,CS_kia,CS_wia,CS_kw,CS_miapow,US_str,US_kia,US_wia,US_kw,US_miapow,assault_fortified,assault_outcome,union_result,confed_result,state,theater
+par_id,battle_name,page,start_date,end_date,attacker,result,CS_str,CS_kia,CS_wia,CS_kw,CS_miapow,US_str,US_kia,US_wia,US_kw,US_miapow,assault_fortified,assault_outcome,union_result,confed_result,state,theater
 1,"Bull Run, July 21, 1861",77,1861-07-21,1861-07-21,Union,Confederate,32232,387,1582,1969,12,28452,481,1011,1492,1216,,,Rout,Victory,VA,ME
 2,"Wilson's Creek, Mo., August 10, 1861",78,1861-08-10,1861-08-10,Union,Confederate,11600,257,900,1157,27,5400,223,721,944,291,,,Defeat,Victory,MO,TM
 3,"Fort Donelson, February 12-16, 1862",78,1862-02-12,1862-02-16,Union,Union,21000,,2000,2000,14623,27000,500,2108,2608,224,Union,Partial Success,,,TN,MW
@@ -19,7 +19,7 @@ battle_id,battle_name,page,start_date,end_date,attacker,result,CS_str,CS_kia,CS_
 18,"Perryville, October 8,1862",95,1862-10-08,1862-10-08,Union,Union,16000,510,2635,3145,251,36940,845,2851,3696,515,,,Victory,Defeat,KY,MW
 19,"Prairie Grove, Ark., December 7, 1862",95,1862-12-07,1862-12-07,Confederate,Union,10000,164,817,981,336,10000,175,813,988,263,,,Victory,Defeat,AR,TM
 20,"Fredericksburg, December 12, 1862",96,1862-12-13,1862-12-13,Union,Confederate,72497,595,4061,4656,653,106007,1284,9600,10884,1769,Union,Failure,,Victory,VA,ME
-21,"Chicasaw Bayou and Bluff, December 27, 29, 1862",96,1862-12-27,1862-12-29,Union,Confederate,13792,63,134,197,10,30720,208,1005,1213,563,Union,Failure,,Victory,MS,MW
+21,"Chickasaw Bayou and Bluff, December 27, 29, 1862",96,1862-12-27,1862-12-29,Union,Confederate,13792,63,134,197,10,30720,208,1005,1213,563,Union,Failure,,Victory,MS,MW
 22,"Stone's River, December 31, 1862, January 1, 1863",97,1862-12-31,1863-01-01,Confederate,Union,34732,1294,7945,9239,2500,41400,1677,7543,9220,3686,,,Victory,Defeat,TN,MW
 23,"Arkansas Post, January 11, 1863",98,1863-01-11,1863-01-11,Union,Union,4564,28,81,109,4791,28944,134,898,1032,29,Union,Success,Victory,Defeat,AR,TM
 24,"Chancellorsville and Fredericksburg, May 1-4, 1863",98,1863-05-01,1863-05-04,Union,Confederate,57352,1665,9081,10746,2018,97382,1575,9594,11169,5676,,,Defeat,Victory,VA,ME

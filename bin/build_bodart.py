@@ -218,7 +218,7 @@ def build(src, dst):
     commanders_csv(filename, os.path.join(dst, "bodart1908_commanders.csv"))
     generals_killed_csv(filename, os.path.join(dst, "bodart1908_generals_killed.csv"))
     bodart_to_cwsac(filename, os.path.join(dst, "bodart1908_to_cwsac.json"))
-    bodart_to_dbpedia(filename, os.path.join(dst, "bodart1908_to_dbpedia.csv"))
+    bodart_to_dbpedia(filename, os.path.join(dst, "bodart1908_to_dbpedia.json"))
 
 
 def main():

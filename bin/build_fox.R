@@ -28,25 +28,21 @@ build <- function(src, dst) {
     arrange(belligerent, battle_name)
 
   fox_forces_to_cwsac <-
-    (
-      fox_forces
-      %>% select(belligerent, battle_name, cwsac_id)
-      %>% filter(cwsac_id != "")
-      %>% group_by(belligerent, battle_name)
-      %>% do(update_cwsac(.$cwsac_id))
-      %>% group_by(belligerent, to)
-      %>% mutate(relation = ifelse(relation == "eq" & n() > 1, "lt", relation))
-      )
+      fox_forces %>%
+       select(belligerent, battle_name, cwsac_id) %>%
+       filter(cwsac_id != "") %>%
+       group_by(belligerent, battle_name) %>%
+       do(update_cwsac(.$cwsac_id)) %>%
+       group_by(belligerent, to) %>%
+       mutate(relation = ifelse(relation == "eq" & n() > 1, "lt", relation))
 
-  fox_forces2_to_cwsac <-
-    (
-      fox_forces2
-      %>% select(belligerent, battle_name, cwsac_id)
-      %>% filter(cwsac_id != "")
-      %>% group_by(belligerent, battle_name)
-      %>% do(update_cwsac(.$cwsac_id))
-      %>% mutate(relation = ifelse(relation == "eq" & n() > 1, "lt", relation))
-    )
+  fox_forces2_to_cwsac <- fox_forces2 %>%
+      select(belligerent, battle_name, cwsac_id) %>%
+      filter(cwsac_id != "") %>%
+      group_by(belligerent, battle_name) %>%
+      do(update_cwsac(.$cwsac_id)) %>%
+      mutate(relation = ifelse(relation == "eq" & n() > 1, "lt", relation))
+
   write_csv(fox_forces %>% select(- cwsac_id), file = file.path(dst, "fox_forces.csv"))
   write_csv(fox_forces2 %>% select(- cwsac_id), file = file.path(dst, "fox_forces2.csv"))
   write_csv(fox_forces_to_cwsac, file = file.path(dst, "fox_forces_to_cwsac.csv"))
