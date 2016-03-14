@@ -88,8 +88,7 @@ Resource                                                                        
 `phisterer_engagements.csv <resources/phisterer_engagements.html>`__                  Phisterer (1883) chronological list of engagements
 `phisterer_engagements_by_year.csv <resources/phisterer_engagements_by_year.html>`__  Phisterer (1883) number of engagements by year
 `phisterer_forces.csv <resources/phisterer_forces.html>`__                            Phisterer (1883) battle data: force casualties
-`phisterer_to_cwsac.csv <resources/phisterer_to_cwsac.html>`__                        phisterer_to_cwsac
-`phisterer_to_dbpedia.csv <resources/phisterer_to_dbpedia.html>`__                    phisterer_to_dbpedia
+`phisterer_to_cwsac.json <resources/phisterer_to_cwsac.html>`__                       Concordance between battles in Phisterer data and CWSAC battles.
 `reiter2009_turning_points.csv <resources/reiter2009_turning_points.html>`__          Reiter (2009) Turning Points of the American Civil War
 `shenandoah.json <resources/shenandoah.html>`__                                       NPS Shenandoah Report battle data
 `shenandoah_battles.csv <resources/shenandoah_battles.html>`__                        NPS Shenandoah Report battle data: list of battles
