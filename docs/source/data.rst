@@ -61,6 +61,9 @@ Resource                                                                        
 `fox_forces_to_cwsac.csv <resources/fox_forces_to_cwsac.html>`__                      Correspondence ``fox_forces`` and CWSAC battles
 `fox_outcomes.csv <resources/fox_outcomes.html>`__                                    Fox (1898) battle outcomes
 `greer2005_weekly_casualties.csv <resources/greer2005_weekly_casualties.html>`__      Weekly casualty data from Greer "Counting Casualties Week-by-Week"
+`kennedy1997_battles.csv <resources/kennedy1997_battles.html>`__                      Civil War Battlefield Guide data: battles
+`kennedy1997_forces.csv <resources/kennedy1997_forces.html>`__                        Civil War Battlefield Guide data: forces
+`kennedy1997_forces_to_cwsac.json <resources/kennedy1997_forces_to_cwsac.html>`__     Mapping between Kennedy (1997) data on forces and CWSAC battles
 `livermore_army_sizes.csv <resources/livermore_army_sizes.html>`__                    Size of the Union and Confederate Armies (Livermore, 1900)
 `livermore_battles.csv <resources/livermore_battles.html>`__                          Livermore (1900) battle data: battle list
 `livermore_commanders.csv <resources/livermore_commanders.html>`__                    Livermore (1900) battle data: commanders

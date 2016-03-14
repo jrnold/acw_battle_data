@@ -133,7 +133,7 @@ def build(src, dst, docs, bucket):
     build_wikipedia(src, dst)
     build_fox(src, dst)
     build_greer(src, dst)
-    #build_kennedy(src, dst)
+    build_kennedy(src, dst)
     build_livermore(src, dst)
     build_thorpe(src, dst)
     build_nyt(src, dst)

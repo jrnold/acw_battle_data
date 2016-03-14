@@ -26,7 +26,7 @@ def forces_csv(src, dst):
                   'killed_wounded_max',
                   'missing',
                   'aggregate',
-                  'cwsac_id')
+                  'battles_aggregated')
     with open(dst, 'w') as f:
         writer = csv.DictWriter(f, fieldnames)
         writer.writeheader()
