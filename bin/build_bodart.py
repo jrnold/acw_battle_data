@@ -59,9 +59,8 @@ def battle_csv(src, dst):
     with open(dst, 'w') as f:
         writer = csv.DictWriter(f, fields, extrasaction = 'ignore')
         writer.writeheader()
-        for battle_id, row in enumerate(data):
+        for row in data:
             row['other_names'] = ';'.join(row['other_names'])
-            row['battle_id'] = battle_id + 1
             for category in CATEGORIES:
                 row['category_' + category.lower()] = int(category in row['category'])
             writer.writerow(row)
@@ -117,10 +116,10 @@ def forces_csv(src, dst):
         writer = csv.DictWriter(f, fieldnames, extrasaction = 'ignore')
         writer.writeheader()
         with open(dst, 'w') as f:
-            for battle_id, v in enumerate(data):
-                for side in v['forces']:
-                    row = v['forces'][side]
-                    row['battle_id'] = battle_id + 1
+            for battle in data:
+                for side in battle['forces']:
+                    row = battle['forces'][side]
+                    row['battle_id'] = battle['battle_id']
                     row['belligerent'] = side
                     writer.writerow(row)
     print("Writing: %s" % dst)
@@ -141,10 +140,10 @@ def commanders_csv(src, dst):
         writer = csv.DictWriter(f, fieldnames, extrasaction = 'ignore')
         writer.writeheader()
         with open(dst, 'w') as f:
-            for battle_id, v in enumerate(data):
-                for side in v['forces']:
-                    for i, row in enumerate(v['forces'][side]['commanders']):
-                          row['battle_id'] = battle_id + 1
+            for battle in data:
+                for side in battle['forces']:
+                    for i, row in enumerate(battle['forces'][side]['commanders']):
+                          row['battle_id'] = battle['battle_id']
                           row['belligerent'] = side
                           row['rank'] = RANKS[row['rank']]
                           if 'dbpedia' not in row:
@@ -171,11 +170,11 @@ def generals_killed_csv(src, dst):
         writer = csv.DictWriter(f, fieldnames, extrasaction = 'ignore')
         writer.writeheader()
         with open(dst, 'w') as f:
-            for battle_id, v in enumerate(data):
-                for side in v['forces']:
-                    if 'generals_killed' in v['forces'][side]:
-                        for i, row in enumerate(v['forces'][side]['generals_killed']):
-                            row['battle_id'] = battle_id + 1
+            for battle in data:
+                for side in battle['forces']:
+                    if 'generals_killed' in battle['forces'][side]:
+                        for i, row in enumerate(battle['forces'][side]['generals_killed']):
+                            row['battle_id'] = battle['battle_id']
                             row['belligerent'] = side
                             row['rank'] = RANKS[row['rank']]
                             if 'dbpedia' not in row:
@@ -189,11 +188,11 @@ def bodart_to_cwsac(src, dst):
     with open(src, 'r') as f:
         data = yaml.load(f)
     ret = []
-    for battle_id, v in enumerate(data):
-        if 'cwsac' in v:
-            ret.append({'battles_from': [battle_id + 1],
-                        'battles_to': v['cwsac']['ids'],
-                        'relation': v['cwsac']['relation']})
+    for battle in data:
+        if 'cwsac' in battle:
+            ret.append({'battles_from': [battle['battle_id']],
+                        'battles_to': battle['cwsac']['ids'],
+                        'relation': battle['cwsac']['relation']})
     with open(dst, 'w') as f:
         json.dump(ret, f)
     print("Writing: %s" % dst)
@@ -201,17 +200,14 @@ def bodart_to_cwsac(src, dst):
 def bodart_to_dbpedia(src, dst):
     with open(src, 'r') as f:
         data = yaml.load(f)
-    fieldnames = ('from', 'to', 'relation')
+    ret = []
+    for battle in data:
+        if 'cwsac' in battle:
+            ret.append({'battles_from': [battle['battle_id']],
+                        'battles_to': battle['dbpedia']['ids'],
+                        'relation': battle['dbpedia']['relation']})
     with open(dst, 'w') as f:
-        writer = csv.DictWriter(f, fieldnames)
-        writer.writeheader()
-        for battle_id, v in enumerate(data):
-            if 'dbpedia' in v:
-                for link in v['dbpedia']:
-                    row = {'from': battle_id + 1,
-                           'to': link['uri'],
-                           'relation': link['relation']}
-                    writer.writerow(row)
+        json.dump(ret, f)
     print("Writing: %s" % dst)
 
 def build(src, dst):

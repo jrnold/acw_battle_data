@@ -629,14 +629,15 @@
   category_size: 1
   cwsac:
     ids:
-    - VA020
+    - VA015
     - VA016
     - VA017
     - VA018
-    - VA021
-    - VA015
     - VA019
+    - VA020
+    - VA021
     relation: eq
+    comment: Stats for this includes the entire Seven Days Battles.
   dbpedia:
     ids:
     - http://dbpedia.org/resource/Battle_of_Glendale
@@ -3576,17 +3577,23 @@
   category_size: null
   cwsac:
     ids:
+    - SC004
+    - SC005
+    - SC006
+    - SC007
     - SC008
     - SC009
-    - SC006
-    - SC004
-    relation: eq
+    relation: neq
+    note: >
+      This includes all battles in the "Operations Agains the Operations Against the Defenses of Charleston [April-September 1863]"
   dbpedia:
     ids:
+    - http://dbpedia.org/resource/First_Battle_of_Charleston_Harbor
+    - http://dbpedia.org/resource/First_Battle_of_Fort_Wagner
+    - http://dbpedia.org/resource/Battle_of_Grimball's_Landing
+    - http://dbpedia.org/resource/Second_Battle_of_Fort_Wagner
     - http://dbpedia.org/resource/Second_Battle_of_Fort_Sumter
     - http://dbpedia.org/resource/Second_Battle_of_Charleston_Harbor
-    - http://dbpedia.org/resource/Battle_of_Grimball's_Landing
-    - http://dbpedia.org/resource/First_Battle_of_Charleston_Harbor
     relation: gt
   description: "Die Konf\xF6derierte unter Gen. Beauregard behaupten sich erfolgreich\
     \ gegen alle\nAngriffe der Unierten zu Lande und zur See unter Generalen Hunter\
@@ -3711,10 +3718,8 @@
   category_size: null
   cwsac:
     ids:
-    - VA098
     - VA063
     - VA065
-    - VA113
     - VA067
     - VA068
     - VA069
@@ -3722,20 +3727,26 @@
     - VA071
     - VA072
     - VA073
-    - VA075
     - VA074
+    - VA075
     - VA078
-    - VA080
     - VA079
-    - VA085
-    - VA087
-    - VA086
-    - VA090
+    - VA080
     - VA083
     - VA084
+    - VA085
+    - VA086
+    - VA087
     - VA088
     - VA089
-    relation: eq
+    - VA090
+    - VA098
+    - VA113
+    relation: neq
+    comment: >
+      This includes all CWSAC battles in the Richmond-Petersburg Campaign [June 1864-March 1865],
+      and some in the Appomattox Campaign prior to April 3, 1865.
+
   dbpedia:
     ids:
     - http://dbpedia.org/resource/First_Battle_of_Petersburg
@@ -3764,7 +3775,7 @@
     - http://dbpedia.org/resource/Battle_of_Fort_Stedman
     - http://dbpedia.org/resource/Battle_of_Five_Forks
     - http://dbpedia.org/resource/Third_Battle_of_Petersburg
-    relation: gt
+    relation: neq
   description: "Die Unierten (91.000 Inft., 19.000 Kav., 10.000 Art., zus. 120.000\
     \ M.\\1) unter\nGen.-Lt. U. S. Grant zwingen nach 10 monatlicher Belagerung der\
     \ St\xE4dt Petersburg und\nRichmond, die Konf\xF6derierte (55.000 Inft., 6.500\
