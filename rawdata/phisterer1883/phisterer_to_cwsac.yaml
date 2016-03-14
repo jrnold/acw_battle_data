@@ -182,7 +182,7 @@
   - description: Guerilla campaign in Missouri; includes with Porter's and Poindexter's
       Guerillas, MO (1862-7-20 - 1862-9-20)
     id: 2283
-  relation: eq
+  relation: lt
   start_date: '1862-08-06'
 - cwsac:
   - description: Cedar Mountain , VA (1862-08-09 - 1862-08-09)
@@ -192,7 +192,6 @@
     id: 2282
   relation: eq
   start_date: '1862-08-09'
-
 - cwsac:
   - description: Manassas II , VA (1862-08-28 - 1862-08-30)
     id: VA026
@@ -320,6 +319,8 @@
     id: 2298
   relation: eq
   start_date: '1862-12-14'
+  comment: >
+    This includes all battles in the campaign Goldsboro Expedition [December 1862]
 - cwsac:
   - description: Chickasaw Bayou , MS (1862-12-26 - 1862-12-29)
     id: MS003
@@ -688,6 +689,21 @@
     id: 2344
   relation: eq
   start_date: '1864-06-05'
+- cwsac:
+  - description: Marietta Operations , GA (1864-06-10 - 1864-07-03)
+    id: GA013
+  - description: Kolb's Farm , GA (1864-06-22 - 1864-06-22)
+    id: GA014
+  - description: Kennesaw Mountain , GA (1864-06-27 - 1864-06-27)
+    id: GA015
+  phisterer:
+  - description: >-
+      Kenesaw Mountain, Ga.; includes Pine Mountain, Pine Knob, Golgotha,
+      Culp's House, general assault, June 27th; McAfee's Cross Roads, Lattemore's
+      Mills, and Powder Springs., GA (1864-6-9 - 1864-6-30)
+    id: 2345
+  relation: eq
+  start_date: '1864-06-10'
 
 - cwsac:
   - description: Brices Cross Roads , MS (1864-06-10 - 1864-06-10)
@@ -697,16 +713,7 @@
     id: 2346
   relation: eq
   start_date: '1864-06-10'
-- cwsac:
-  - description: Marietta Operations , GA (1864-06-10 - 1864-07-03)
-    id: GA013
-  phisterer:
-  - description: Kenesaw Mountain, Ga.; includes Pine Mountain, Pine Knob, Golgotha,
-      Culp's House, general assault, June 27th; McAfee's Cross Roads, Lattemore's
-      Mills, and Powder Springs., GA (1864-6-9 - 1864-6-30)
-    id: 2345
-  relation: eq
-  start_date: '1864-06-10'
+
 - cwsac:
   - description: Cynthiana , KY (1864-06-11 - 1864-06-12)
     id: KY011
@@ -727,7 +734,8 @@
   - description: Petersburg II , VA (1864-06-15 - 1864-06-18)
     id: VA063
   phisterer:
-  - description: Petersburg, Va.; includes Baylor's Farm, Walthal, and Weir Bottom
+  - description: >-
+      Petersburg, Va.; includes Baylor's Farm, Walthal, and Weir Bottom
       Church, VA (1864-6-15 - 1864-6-19)
     id: 2349
   relation: eq
@@ -750,18 +758,6 @@
   start_date: '1864-06-21'
 
 - cwsac:
-  - description: Kolb's Farm , GA (1864-06-22 - 1864-06-22)
-    id: GA014
-  - description: Kennesaw Mountain , GA (1864-06-27 - 1864-06-27)
-    id: GA015
-  phisterer:
-  - description: Kenesaw Mountain, Ga.; includes Pine Mountain, Pine Knob, Golgotha,
-      Culp's House, general assault, June 27th; McAfee's Cross Roads, Lattemore's
-      Mills, and Powder Springs., GA (1864-6-9 - 1864-6-30)
-    id: 2345
-  relation: eq
-  start_date: '1864-06-22'
-- cwsac:
   - description: Staunton River Bridge , VA (1864-06-25 - 1864-06-25)
     id: VA113
   - description: Sappony Church , VA (1864-06-28 - 1864-06-28)
@@ -775,11 +771,11 @@
   start_date: '1864-06-25'
 
 - cwsac:
-  - description: Kennesaw Mountain , GA (1864-06-27 - 1864-06-27)
+  - description: Kennesaw Mountain , GA (1864-06-27)
     id: GA015
   phisterer:
-  - description: Kenesaw Mountain, general assault. See No. 2345, GA (1864-6-27 -
-      1864-6-27)
+  - description: >
+      Kenesaw Mountain, general assault. See No. 2345, GA (1864-6-27)
     id: 2354
   relation: eq
   start_date: '1864-06-27'
@@ -792,6 +788,7 @@
     id: 2357
   relation: eq
   start_date: '1864-07-09'
+
 - cwsac:
   - description: Tupelo , MS (1864-07-14 - 1864-07-15)
     id: MS015
@@ -888,6 +885,16 @@
   relation: eq
   start_date: '1864-08-31'
 
+# TODO
+# - cwsac:
+#   - description:
+#     id:
+#   phisterer:
+#   - description: Campaign in Northern Georgia, from Chattanooga, Tenn., to Atlanta, Ga. (May 5 to Sept 8, 1864)
+#     id: 2372
+#   relation: gt
+#   comment: ''
+
 - cwsac:
   - description: Opequon , VA (1864-09-19 - 1864-09-19)
     id: VA119
@@ -896,6 +903,7 @@
     id: 2374
   relation: eq
   start_date: '1864-09-19'
+
 - cwsac:
   - description: Fort Davidson , MO (1864-09-26 - 1864-09-28)
     id: MO021
@@ -949,7 +957,6 @@
     id: 2379
   relation: eq
   start_date: '1864-10-05'
-
 
 - cwsac:
   - description: Cedar Creek , VA (1864-10-19 - 1864-10-19)
@@ -1047,8 +1054,14 @@
   phisterer:
   - description: Fort Steadman, in front of Petersburg, Va., VA (1865-3-25 - 1865-3-25)
     id: 2394
+  - description: Petersburg, Va., VA (1865-3-25)
+    id: 2395
   relation: eq
   start_date: '1865-03-25'
+  comment: >
+    It's unclear whether 2395 also refers to Fort Stedman. Including it gives
+    Confederate casualties in line with other sources, but Union casualties double
+    those of other sources.
 - cwsac:
   - description: Spanish Fort , AL (1865-03-27 - 1865-04-08)
     id: AL005
@@ -1057,6 +1070,19 @@
     id: 2396
   relation: eq
   start_date: '1865-03-27'
+- cwsac:
+  - description: Selma , AL (1865-04-02 - 1865-04-02)
+    id: AL007
+  phisterer:
+  - description: >
+      Wilson's raid from Chickasaw, Ala., to Macon, Ga.; includes a number
+      of engagements, GA (1865-3-22 - 1865-4-24)
+    id: 2397
+  relation: gt
+  start_date: '1865-04-02'
+  comment: >
+    Selman (AL007) was the only major battle in this raid, but this is marked
+    as greater than that single battle since it includes the whole raid.
 - cwsac:
   - description: White Oak Road , VA (1865-03-31 - 1865-03-31)
     id: VA087
@@ -1073,15 +1099,7 @@
     id: 2399
   relation: eq
   start_date: '1865-04-01'
-- cwsac:
-  - description: Selma , AL (1865-04-02 - 1865-04-02)
-    id: AL007
-  phisterer:
-  - description: Wilson's raid from Chickasaw, Ala., to Macon, Ga.; includes a number
-      of engagements, GA (1865-3-22 - 1865-4-24)
-    id: 2397
-  relation: lt
-  start_date: '1865-04-02'
+
 - cwsac:
   - description: Petersburg III , VA (1865-04-02 - 1865-04-02)
     id: VA089
