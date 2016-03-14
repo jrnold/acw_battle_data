@@ -3,6 +3,15 @@ name: fox_forces2
 path: data/fox_forces2.csv
 schema:
   fields:
+  - name: battle_id
+    type: string
+    constraints:
+      pattern: '[UC][1-9]+'
+    title: Battle Id.
+    description: >
+      Unique battle identifier.
+
+      These are different than those in :doc:`fox_forces`.
   - constraints:
       enum:
       - Confederate

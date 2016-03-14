@@ -1,12 +1,12 @@
 List of battles included in the AAD CWSAC Reports (1990-1993), CWSAC Report Battle Summaries (1997), CWSAC Report Updates (2009-2013), and the CWSS. All these reports from the National Park Service use the same battle identifiers, but they differ slightly in their composition.
 
 
-A couple notes about the set of battles in these data. 
+A couple notes about the set of battles in these data.
 
-- In an update on the status of battlefields `Civil War Sites Advisory Commission Report Update & Resurvey <http://www.nps.gov/history/hps/abpp/CWSII/CWSII.htm>`_, 
+- In an update on the status of battlefields `Civil War Sites Advisory Commission Report Update & Resurvey <http://www.nps.gov/history/hps/abpp/CWSII/CWSII.htm>`_,
   the following changes were made.
-  
-  - AR018,  Battle of Bayou Meto (Reed's Bridge) on Aug 27, 1863 (part of the Advance on Little Rock campaign) was added. See 
+
+  - AR018,  Battle of Bayou Meto (Reed's Bridge) on Aug 27, 1863 (part of the Advance on Little Rock campaign) was added. See
     `Civil War Battlefields in the State of Arkansas - Arkansas Post to Devils Backbone <http://www.nps.gov/history/hps/abpp/CWSII/ArkansasBattlefieldProfiles/Arkansas%20Post%20to%20Devils%20Backbone.pdf>`_.
   - SC007. Fort Wagner II. Dates changed to 7-18. `Report Update
     <http://www.nps.gov/history/hps/abpp/CWSII/SouthCarolinaBattlefieldProfiles/SouthCarolinaBattlefieldProfiles.pdf>`_.
@@ -18,7 +18,7 @@ A couple notes about the set of battles in these data.
     assault on Fort Sumter is the only engagement referenced in the
     initial CWSAC report.  `Report Update
     <http://www.nps.gov/history/hps/abpp/CWSII/SouthCarolinaBattlefieldProfiles/SouthCarolinaBattlefieldProfiles.pdf>`_.
-    
+
     - Aug 22-23, 1863 Bombardment of Charleston by the Swamp Angel
     - Sept 5-8, 1863. Assault on Fort Sumter.
 
@@ -46,11 +46,11 @@ These battles are largely the same as in the first CWSAC, with a few exceptions.
     Advisory Commission Report: Commonwealth of Virigina
     <http://www.nps.gov/hps/abpp/CWSII/CWSACReportVirginiaUpdate.pdf>`_
     (p. 8).
-    
+
 - The Battle of Bayou Meto (AR018) was added. However, it does not
   appear to have been added strictly due to historical judgment of
   importance.  No military significance or casualties is given for
-  this battle.  
+  this battle.
 
 	The CWSAC did not list Bayou Meto (Reed’s Bridge) as one of
 	the principal battles of the Civil War. In 2002, however, the
@@ -70,17 +70,17 @@ These battles are largely the same as in the first CWSAC, with a few exceptions.
 - new variables: Acreage of the battlefield area
 - revised variables: forces, principal commanders, result, battle
   dates
-- Indian forces. Oklahoma battles OK001 (Round Mountain), OK002
+- Native American forces. Oklahoma battles OK001 (Round Mountain), OK002
   (Chusto-Talasah), and OK003 (Chustenahlah) classify the Creek forces
   under Opothleyahola as [US] instead of [I].  In CWSAC II, the only
-  battles involving purely American Indian forces are against the
+  battles involving purely Native American forces are against the
   Union and generally part of the Sioux Wars (Minnesota, North Dakota,
   Idaho).  This seems reasonable, the Creek and Seminole forces in the
   Oklahoma battles were Union allies, while the
   Sioux Indian forces fighting the Union were not allied with the
   Confederacy.
 
-For the most part, each CWSAC battle page corresponds to a single Wikipedia page, 
+For the most part, each CWSAC battle page corresponds to a single Wikipedia page,
 making linking the two easy.
 
 The one exception is that CWSAC considers the Battle of Chattanooga
@@ -91,7 +91,7 @@ http://en.wikipedia.org/wiki/Battle_of_Lookout_Mountain on Nov 24, and
 the http://en.wikipedia.org/wiki/Battle_of_Missionary_Ridge on Nov 25.
 
 The set of battles around Charleston Harbor July to September 1863 is confusingly
-and ambiguously defined by the CWSAC. 
+and ambiguously defined by the CWSAC.
 
 +-------+----------------------+--------+---------------+--------------------------+
 | cwsac | name                 | result | cwsac I       | cwasc II                 |
@@ -157,8 +157,8 @@ CWSAC Charleston Harbor II (SC009)
   attempted to surprise Fort Sumter. The attack was repulsed.
   http://www.nps.gov/hps/abpp/battles/sc009.htm
 
-CWSAC II added the August bombardment of Charleston by the "The Swamp Angel" 
-to Charleston Harbor II.  
+CWSAC II added the August bombardment of Charleston by the "The Swamp Angel"
+to Charleston Harbor II.
 
 In Wikipedia
 
@@ -172,7 +172,7 @@ Timeline of July-September events in the  1863 siege of Charleston
 - July 10-11. First Battle of Fort Wagner. Failed Union assault.
 - July 16. Battle of Grimball's landing. Union defeated in attempt to take Charleston by land.
 - July 18. Second failed assault on Fort Wagner
-- July 19 Union begins siege of Fort Wagner 
+- July 19 Union begins siege of Fort Wagner
 - Aug 17. Batteries on Morris Island begin bombarding Fort Sumter
 - Aug 22-23. Bombardment of Charleston Island by the Swamp Angel (a battery on Morris Island)
 - Aug 23. Batteries on Morris Island switch bombardment to Fort Wagner.
@@ -194,4 +194,3 @@ Thus, confusingly:
 
 - SC009: Charleston Harbor is the `Second Battle of Fort Sumter <http://en.wikipedia.org/wiki/Second_Battle_of_Fort_Sumter>`__ .
 - SC008: Fort Sumter is the  `Second Battle of Charleston Harbor <http://en.wikipedia.org/wiki/Second_Battle_of_Charleston_Harbor>`__ .
-
