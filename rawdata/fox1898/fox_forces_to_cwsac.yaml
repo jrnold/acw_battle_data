@@ -249,7 +249,7 @@
   - description: Savage's Station, VA (1862-06-29)
     id: VA019
   battles_from:
-  - description: Savage Station, Va. (1862-6-29)
+  - description: Savage Station, va (1862-6-29)
     id: U39
   relation: eq
 - battles_cwsac:
@@ -267,32 +267,51 @@
     id: U41
   relation: eq
 - battles_cwsac:
+  - description: Oak Grove, VA (1862-06-25)
+    id: VA015
+  - description: Beaver Dam Creek, VA (1862-06-26)
+    id: VA016
+  - description: Gaines' Mill, VA (1862-06-27)
+    id: VA017
+  - description: Garnett's & Golding's Farms, VA (1862-06-27 to 1862-06-28)
+    id: VA018
+  - description: Savage's Station, VA (1862-06-29)
+    id: VA019
+  - description: Glendale/White Oak Swamp, VA (1862-06-30)
+    id: VA020
+  - description: Malvern Hill, VA (1862-07-01)
+    id: VA021
+  battles_from:
+  - description: Seven Days Battle, Va. (1862-6-25 to 1862-7-1)
+    id: U42
+  relation: eq
+- battles_cwsac:
   - description: Hill's Plantation, AR (1862-07-07)
     id: AR003
   battles_from:
   - description: Bayou Cache, Ark. (1862-7-7)
-    id: U42
+    id: U43
   relation: eq
 - battles_cwsac:
   - description: Murfreesboro I, TN (1862-07-13)
     id: TN006
   battles_from:
   - description: Murfreesboro, Tenn. (1862-7-13)
-    id: U43
+    id: U44
   relation: eq
 - battles_cwsac:
   - description: Baton Rouge, LA (1862-08-05)
     id: LA003
   battles_from:
   - description: Baton Rouge, La. (1862-8-5)
-    id: U44
+    id: U45
   relation: eq
 - battles_cwsac:
   - description: Cedar Mountain, VA (1862-08-09)
     id: VA022
   battles_from:
   - description: Cedar Mountain, Va. (1862-8-9)
-    id: U45
+    id: U46
   relation: eq
 - battles_cwsac:
   - description: Rappahannock Station I, VA (1862-08-22 to 1862-08-25)
@@ -307,227 +326,222 @@
     id: VA027
   battles_from:
   - description: Manassas, Va. (1862-8-16 to 1862-8-31)
-    id: U46
+    id: U47
   relation: eq
 - battles_cwsac:
   - description: Richmond, KY (1862-08-29 to 1862-08-30)
     id: KY007
   battles_from:
   - description: Richmond, Ky. (1862-8-30)
-    id: U47
+    id: U48
   relation: eq
 - battles_cwsac:
   - description: Harpers Ferry, WV (1862-09-12 to 1862-09-15)
     id: WV010
   battles_from:
   - description: Harper's Ferry, Va. (1862-9-12 to 1862-9-15)
-    id: U49
+    id: U50
   relation: eq
 - battles_cwsac:
   - description: Corinth II, MS (1862-10-03 to 1862-10-04)
     id: MS002
   battles_from:
   - description: Crampton's Gap, Md (1862-9-14)
-    id: U50
+    id: U51
   relation: eq
 - battles_cwsac:
   - description: South Mountain, MD (1862-09-14)
     id: MD002
   battles_from:
   - description: South Mountain, Md (1862-9-14)
-    id: U51
+    id: U52
   relation: eq
 - battles_cwsac:
   - description: Munfordville, KY (1862-09-14 to 1862-09-17)
     id: KY008
   battles_from:
   - description: Munfordville, Ky. (1862-9-14 to 1862-9-16)
-    id: U52
+    id: U53
   relation: eq
 - battles_cwsac:
   - description: Antietam, MD (1862-09-16 to 1862-09-17)
     id: MD003
   battles_from:
   - description: Antietam, Md (1862-9-17)
-    id: U53
+    id: U54
   relation: eq
 - battles_cwsac:
   - description: Iuka, MS (1862-09-19)
     id: MS001
   battles_from:
   - description: Iuka, Miss. (1862-9-19)
-    id: U54
+    id: U55
   relation: eq
 - battles_cwsac:
   - description: Shepherdstown, WV (1862-09-19 to 1862-09-20)
     id: WV016
   battles_from:
   - description: Shepherdstown Ford, Va. (1862-9-19 to 1862-9-20)
-    id: U55
+    id: U56
   relation: eq
 - battles_cwsac:
   - description: Corinth II, MS (1862-10-03 to 1862-10-04)
     id: MS002
   battles_from:
   - description: Corinth, Miss. (1862-10-3 to 1862-10-4)
-    id: U56
+    id: U57
   relation: eq
 - battles_cwsac:
   - description: Hatchie's Bridge, TN (1862-10-06)
     id: TN007
   battles_from:
   - description: Hatchie Bridge, Miss. (1862-10-5)
-    id: U57
+    id: U58
   relation: eq
 - battles_cwsac:
   - description: Perryville, KY (1862-10-08)
     id: KY009
   battles_from:
   - description: Chaplin Hills, Ky. (1862-10-8)
-    id: U58
+    id: U59
   relation: eq
 - battles_cwsac:
   - description: Georgia Landing, LA (1862-10-27)
     id: LA005
   battles_from:
   - description: Georgia Landing, La. (1862-10-27)
-    id: U61
+    id: U62
   relation: eq
 - battles_cwsac:
   - description: Hartsville, TN (1862-12-07)
     id: TN008
   battles_from:
   - description: Hartsville, Tenn. (1862-12-7)
-    id: U63
+    id: U64
   relation: eq
 - battles_cwsac:
   - description: Prairie Grove, AR (1862-12-07)
     id: AR005
   battles_from:
   - description: Prairie Grove, Ark. (1862-12-7)
-    id: U64
+    id: U65
   relation: eq
 - battles_cwsac:
   - description: Kinston, NC (1862-12-14)
     id: NC007
   battles_from:
   - description: Kinston; Goldsborough, N. C. (1862-12-12 to 1862-12-17)
-    id: U65
+    id: U66
   relation: eq
 - battles_cwsac:
   - description: Fredericksburg I, VA (1862-12-11 to 1862-12-15)
     id: VA028
   battles_from:
   - description: Fredericksburg, Va. (1862-12-13)
-    id: U66
+    id: U67
   relation: eq
 - battles_cwsac:
   - description: Chickasaw Bayou, MS (1862-12-26 to 1862-12-29)
     id: MS003
   battles_from:
   - description: Chickasaw Bluffs, Miss. (1862-12-28 to 1862-12-29)
-    id: U67
+    id: U68
   relation: eq
 - battles_cwsac:
   - description: Parker's Cross Roads, TN (1862-12-31)
     id: TN011
   battles_from:
   - description: Parker's Cross Roads, Tenn. (1862-12-30)
-    id: U68
+    id: U69
   relation: eq
 - battles_cwsac:
   - description: Stones River, TN (1862-12-31 to 1863-01-02)
     id: TN010
   battles_from:
   - description: Stone's River, Tenn. (1862-12-31)
-    id: U69
+    id: U70
   relation: eq
 - battles_cwsac:
   - description: Springfield II, MO (1863-01-08)
     id: MO018
   battles_from:
   - description: Springfield, Mo. (1863-1-7 to 1863-1-8)
-    id: U70
+    id: U71
   relation: eq
 - battles_cwsac:
   - description: Hartville, MO (1863-01-09 to 1863-01-11)
     id: MO019
   battles_from:
   - description: Hartsville, Mo. (1863-1-11)
-    id: U71
+    id: U72
   relation: eq
 - battles_cwsac:
   - description: Arkansas Post, AR (1863-01-09 to 1863-01-11)
     id: AR006
   battles_from:
   - description: Arkansas Post, Ark. (1863-1-11)
-    id: U72
+    id: U73
   relation: eq
 - battles_cwsac:
   - description: Dover, TN (1863-02-03)
     id: TN012
   battles_from:
   - description: Fort Donelson, Tenn. (1863-2-3)
-    id: U74
+    id: U75
   relation: eq
 - battles_cwsac:
   - description: Thompson's Station, TN (1863-03-04 to 1863-03-05)
     id: TN013
   battles_from:
   - description: Thompson's Station, Tenn. (1863-3-4 to 1863-3-5)
-    id: U75
+    id: U76
   relation: eq
 - battles_cwsac:
   - description: Kelly's Ford, VA (1863-03-17)
     id: VA029
   battles_from:
   - description: Kelly's Ford, Va. (1863-3-17)
-    id: U76
+    id: U77
   relation: eq
 - battles_cwsac:
   - description: Fort Bisland, LA (1863-04-12 to 1863-04-13)
     id: LA006
   battles_from:
   - description: Fort Bisland, La. (1863-4-13)
-    id: U77
+    id: U78
   relation: eq
 - battles_cwsac:
   - description: Irish Bend, LA (1863-04-14)
     id: LA007
   battles_from:
   - description: Irish Bend, La. (1863-4-14)
-    id: U78
+    id: U79
   relation: eq
 - battles_cwsac:
-  - description: Suffolk, VA
-    id: VA030
-  - description: Suffolk, VA
+  - description: Suffolk I, VA (1863-04-19)
     id: VA031
+  - description: Suffolk II, VA
+    id: VA030
   battles_from:
   - description: Siege of Suffolk, Va. (1863-4-11 to 1863-4-30)
-    id: U79
+    id: U80
   relation: eq
 - battles_cwsac:
   - description: Port Gibson, MS (1863-05-01)
     id: MS006
   battles_from:
   - description: Magnolia Hills, Miss. (1863-5-1)
-    id: U80
+    id: U81
   relation: eq
 - battles_cwsac:
   - description: Chancellorsville, VA (1863-04-30 to 1863-05-06)
     id: VA032
-  battles_from:
-  - description: Chancellorsville, Va. (1863-5-1 to 1863-5-4)
-    id: U81
-  relation: eq
-- battles_cwsac:
   - description: Salem Church, VA (1863-05-03 to 1863-05-04)
     id: VA033
   - description: Fredericksburg II, VA (1863-05-03)
     id: VA034
   battles_from:
-  - description: Marye's Heights and Salem Church (1863-5-3 to 1863-5-4)
+  - description: Chancellorsville, Va. (1863-5-1 to 1863-5-4)
     id: U82
   relation: eq
 - battles_cwsac:
@@ -704,6 +718,13 @@
     id: U119
   relation: eq
 - battles_cwsac:
+  - description: Fort Wagner II/Morris Island, SC (1863-07-18)
+    id: SC007
+  battles_from:
+  - description: Siege of Fort Wagner, S. C. (1863-7-1 to 1863-7-31)
+    id: U120
+  relation: eq
+- battles_cwsac:
   - description: Manassas Gap, VA (1863-07-23)
     id: VA108
   battles_from:
@@ -763,383 +784,289 @@
   - description: Chattanooga III, TN (1863-11-23 to 1863-11-25)
     id: TN024
   battles_from:
-  - description: Missionary Ridge (Chattanooga, Tenn) (1863-11-25)
+  - description: Chattanooga, Tenn. (1863-11-23 to 1863-11-25)
     id: U137
-  - description: Orchard Knob (Chattanooga, Tenn) (1863-11-23)
-    id: U138
-  - description: Lookout Mountain (Chattanooga, Tenn) (1863-11-24 to 1865-11-24)
-    id: U139
   relation: eq
 - battles_cwsac:
   - description: Ringgold Gap, GA (1863-11-27)
     id: GA005
   battles_from:
   - description: Ringgold; Graysville, Ga. (1863-11-27)
-    id: U140
+    id: U138
   relation: eq
 - battles_cwsac:
   - description: Mine Run, VA (1863-11-26 to 1863-12-02)
     id: VA044
   battles_from:
   - description: Mine Run Campaign, Va. (1863-11-26 to 1863-11-30)
-    id: U141
+    id: U139
   relation: eq
 - battles_cwsac:
   - description: Bean's Station, TN (1863-12-14)
     id: TN026
   battles_from:
   - description: Bean's Station, Tenn. (1863-12-14)
-    id: U143
+    id: U141
   relation: eq
 - battles_cwsac:
   - description: Mossy Creek, TN (1863-12-29)
     id: TN027
   battles_from:
   - description: Mossy Creek, Tenn. (1863-12-29)
-    id: U144
+    id: U142
   relation: eq
 - battles_cwsac:
   - description: Morton's Ford, VA (1864-02-06 to 1864-02-07)
     id: VA045
   battles_from:
   - description: Morton's Ford, Va. (1864-2-6)
-    id: U146
+    id: U144
   relation: eq
 - battles_cwsac:
   - description: Olustee, FL (1864-02-20)
     id: FL005
   battles_from:
   - description: Olustee, Fla. (1864-2-20)
-    id: U147
+    id: U145
   relation: eq
 - battles_cwsac:
   - description: Dalton I, GA (1864-02-22 to 1864-02-27)
     id: GA006
   battles_from:
   - description: Buzzard's Roost, Ga. (1864-2-27)
-    id: U148
+    id: U146
   relation: eq
 - battles_cwsac:
   - description: Pleasant Hill, LA (1864-04-09)
     id: LA019
   battles_from:
   - description: Sabine Cross Roads, La and Pleasant Hill, La. (1864-4-8 to 1864-4-9)
-    id: U151
+    id: U149
   relation: eq
 - battles_cwsac:
   - description: Plymouth, NC (1864-04-17 to 1864-04-20)
     id: NC012
   battles_from:
   - description: Plymouth, N. C. (1864-4-17 to 1864-4-20)
-    id: U152
+    id: U150
   relation: eq
 - battles_cwsac:
   - description: Monett's Ferry, LA (1864-04-23)
     id: LA021
   battles_from:
   - description: Cane River, La. (1864-4-23)
-    id: U153
+    id: U151
   relation: eq
 - battles_cwsac:
   - description: Marks' Mills, AR (1864-04-25)
     id: AR015
   battles_from:
   - description: Marks's Mills, Ark. (1864-4-25)
-    id: U154
+    id: U152
   relation: eq
 - battles_cwsac:
   - description: Jenkin's Ferry, AR (1864-04-30)
     id: AR016
   battles_from:
   - description: Jenkins's Ferry, Ark. (1864-4-30)
-    id: U155
+    id: U153
   relation: eq
 - battles_cwsac:
   - description: Rocky Face Ridge, GA (1864-05-07 to 1864-05-13)
     id: GA007
-  battles_from:
-  - description: Rocky Face Ridge (Atlanta Campaign) (1864-5-5 to 1864-5-9)
-    id: U157
-  relation: eq
-- battles_cwsac:
   - description: Resaca, GA (1864-05-13 to 1864-05-15)
     id: GA008
-  battles_from:
-  - description: Resaca (Atlanta Campaign) (1864-5-13 to 1864-5-15)
-    id: U158
-  relation: eq
-- battles_cwsac:
+  - description: Adairsville, GA (1864-05-17)
+    id: GA009
   - description: New Hope Church, GA (1864-05-25 to 1864-06-05)
     id: GA010
-  battles_from:
-  - description: New Hope Church (Atlanta Campaign) (1864-5-25)
-    id: U159
-  relation: eq
-- battles_cwsac:
+  - description: Dallas, GA (1864-05-28 to 1864-06-28)
+    id: GA011
   - description: Pickett's Mill, GA (1864-05-27)
     id: GA012
   battles_from:
-  - description: Pickett's Mills (Atlanta Campaign) (1864-5-27)
-    id: U160
+  - description: Atlanta Campaign, Ga. (1864-5-5 to 1864-5-31)
+    id: U155
   relation: eq
 - battles_cwsac:
-  - description: Adairsville, GA (1864-05-17)
-    id: GA009
-  battles_from:
-  - description: Adairsville, Cassville, Rome Cross Roads, etc (Atlanta Campaign)
-      (1864-5-1 to 1864-5-31)
-    id: U162
-  relation: lt
-- battles_cwsac:
-  - description: Marietta Operations
+  - description: Marietta Operations, GA (1864-06-10 to 1864-07-03)
     id: GA013
-  battles_from:
-  - description: Kenesaw Mountain (Atlanta Campaign) 1864-6-20 to 1864-6-30
-    id: U166
-  - description: Lattimore's Mill; Powder Springs, etc (Atlanta Campaign)
-    id: U168
-  - description: Pine Mountain (Atlanta Campaign) 1864-6-14 to 1864-6-19
-    id: U164
-  - description: Nickajack Creek (Atlanta Campaign) 1864-7-2 to 1864-7-5
-    id: U169
-- battles_cwsac:
   - description: Kolb's Farm, GA (1864-06-22)
     id: GA014
-  battles_from:
-  - description: Culp's House (Atlanta Campaign) (1864-6-22)
-    id: U165
-  relation: eq
-- battles_cwsac:
   - description: Kennesaw Mountain, GA (1864-06-27)
     id: GA015
   battles_from:
-  - description: null
-    id: U167
+  - description: Atlanta Campaign, Ga. (1864-6-1 to 1864-6-30)
+    id: U156
   relation: eq
 - battles_cwsac:
   - description: Peachtree Creek, GA (1864-07-20)
     id: GA016
-  battles_from:
-  - description: Peach Tree Creek (Atlanta Campaign) (1864-7-20)
-    id: U171
-  relation: eq
-- battles_cwsac:
   - description: Atlanta, GA (1864-07-22)
     id: GA017
-  battles_from:
-  - description: Atlanta (Atlanta Campaign) (1864-7-21 to 1864-7-22)
-    id: U172
-  relation: eq
-- battles_cwsac:
   - description: Ezra Church, GA (1864-07-28)
     id: GA018
   battles_from:
-  - description: Ezra Chapel (Atlanta Campaign) (1864-7-28)
-    id: U173
+  - description: Atlanta Campaign, Ga. (1864-7-1 to 1864-7-31)
+    id: U157
   relation: eq
 - battles_cwsac:
   - description: Utoy Creek, GA (1864-08-05 to 1864-08-07)
     id: GA019
+  - description: Dalton II, GA (1864-08-14 to 1864-08-15)
+    id: GA020
+  - description: Lovejoy's Station, GA (1864-08-20)
+    id: GA021
   battles_from:
-  - description: Utoy Creek (Atlanta Campaign) (1864-8-5 to 1864-8-6)
-    id: U175
+  - description: Atlanta Campaign, Ga. (1864-8-1 to 1864-8-31)
+    id: U158
   relation: eq
 - battles_cwsac:
   - description: Jonesborough, GA (1864-08-31 to 1864-09-01)
     id: GA022
-  - description: Lovejoy's Station (1864-8-20)
-    id: GA021
   battles_from:
-  - description: Jonesboro and Lovejoy's Station (1864-9-1)
-    id: U177
-  comment: 'Even though Lovejoy''s station is out of the date range, include it since
-    it is mentioned by name.
-
-    '
+  - description: Atlanta Campaign, Ga. (1864-9-1)
+    id: U159
   relation: eq
 - battles_cwsac:
   - description: Wilderness, VA (1864-05-05 to 1864-05-06)
     id: VA046
   battles_from:
   - description: Wilderness, Va. (1864-5-5 to 1864-5-7)
-    id: U178
+    id: U161
   relation: eq
 - battles_cwsac:
   - description: Spotsylvania Court House, VA (1864-05-08 to 1864-05-21)
     id: VA048
   battles_from:
   - description: Spotsylvania, Va. (1864-5-8 to 1864-5-21)
-    id: U179
+    id: U162
   relation: eq
-- battles_cwsac:
-  - description: Spotsylvania Court House, VA (1864-05-08 to 1864-05-21)
-    id: VA048
-  battles_from:
-  - description: Alsop's Farm (Spotsylvania) (1864-5-8)
-    id: U180
-  relation: lt
-- battles_cwsac:
-  - description: Spotsylvania Court House, VA (1864-05-08 to 1864-05-21)
-    id: VA048
-  battles_from:
-  - description: Po River, Laurel Hill, and Upton's Charge (Spotsylvania) (1864-5-10)
-    id: U181
-  relation: lt
-- battles_cwsac:
-  - description: Spotsylvania Court House, VA (1864-05-08 to 1864-05-21)
-    id: VA048
-  battles_from:
-  - description: Hancock's Assault, the "Angle", and general attack of May 12 (Spotsylvania)
-      (1864-5-12)
-    id: U182
-  relation: lt
-- battles_cwsac:
-  - description: Spotsylvania Court House, VA (1864-05-08 to 1864-05-21)
-    id: VA048
-  battles_from:
-  - description: Spotsylvania (Spotsylvania) (1864-5-18)
-    id: U183
-  relation: lt
-- battles_cwsac:
-  - description: Spotsylvania Court House, VA (1864-05-08 to 1864-05-21)
-    id: VA048
-  battles_from:
-  - description: Fredericksburg Pike (Spotsylvania) (1864-5-19)
-    id: U184
-  relation: lt
-- battles_cwsac:
-  - description: Spotsylvania Court House, VA (1864-05-08 to 1864-05-21)
-    id: VA048
-  battles_from:
-  - description: Todd's Tavern; Corbin's Bridge; Ny River; Guinea Station etc. (Spotsylvania)
-      (1864-5-8 to 1864-5-21)
-    id: U185
-  relation: lt
 - battles_cwsac:
   - description: Port Walthall Junction, VA (1864-05-06 to 1864-05-07)
     id: VA047
   battles_from:
   - description: Walthall; Chester Station, Va. (1864-5-6 to 1864-5-7)
-    id: U186
+    id: U163
   relation: eq
 - battles_cwsac:
   - description: Chester Station, VA (1864-05-10)
     id: VA051
   battles_from:
   - description: Arrowfield Church, Va. (1864-5-9 to 1864-5-10)
-    id: U187
+    id: U164
   relation: eq
 - battles_cwsac:
   - description: Proctor's Creek, VA (1864-05-12 to 1864-05-16)
     id: VA053
   battles_from:
   - description: Drewry's Bluff, Va. (1864-5-12 to 1864-5-16)
-    id: U188
+    id: U165
   relation: eq
 - battles_cwsac:
   - description: Ware Bottom Church, VA (1864-05-20 to 1864-05-29)
     id: VA054
   battles_from:
   - description: Ware Bottom Church, Va. (1864-5-18 to 1864-5-20)
-    id: U189
+    id: U166
   relation: eq
 - battles_cwsac:
   - description: Cloyd's Mountain, VA (1864-05-09)
     id: VA049
   battles_from:
   - description: Cloyd's Mountain, W. Va. (1864-5-9 to 1864-5-10)
-    id: U192
+    id: U169
   relation: eq
 - battles_cwsac:
   - description: Yellow Tavern, VA (1864-05-11)
     id: VA052
   battles_from:
   - description: Yellow Tavern, Va. (1864-5-11)
-    id: U193
+    id: U170
   relation: eq
 - battles_cwsac:
   - description: New Market, VA (1864-05-15)
     id: VA110
   battles_from:
   - description: Newmarket, Va. (1864-5-15)
-    id: U195
+    id: U172
   relation: eq
 - battles_cwsac:
   - description: Yellow Bayou, LA (1864-05-18)
     id: LA023
   battles_from:
   - description: Bayou Glaize, La. (1864-5-18)
-    id: U196
+    id: U173
   relation: eq
 - battles_cwsac:
   - description: North Anna, VA (1864-05-23 to 1864-05-26)
     id: VA055
   battles_from:
   - description: North Anna, Va. (1864-5-23 to 1864-5-27)
-    id: U197
+    id: U174
   relation: eq
 - battles_cwsac:
   - description: Totopotomoy Creek, VA (1864-05-28 to 1864-05-30)
     id: VA057
   battles_from:
   - description: Totopotomoy, Va. (1864-5-28 to 1864-5-31)
-    id: U198
+    id: U175
   relation: eq
 - battles_cwsac:
   - description: Cold Harbor, VA (1864-05-31 to 1864-06-12)
     id: VA062
   battles_from:
   - description: Cold Harbor, Va. (1864-6-2 to 1864-6-4)
-    id: U201
+    id: U178
   relation: eq
 - battles_cwsac:
   - description: Piedmont, VA (1864-06-05)
     id: VA111
   battles_from:
   - description: Piedmont, Va. (1864-6-5)
-    id: U203
+    id: U180
   relation: eq
 - battles_cwsac:
   - description: Brices Cross Roads, MS (1864-06-10)
     id: MS014
   battles_from:
   - description: Brice's Cross Roads, Miss. (1864-6-10)
-    id: U204
+    id: U181
   relation: eq
 - battles_cwsac:
   - description: Lynchburg, VA (1864-06-17 to 1864-06-18)
     id: VA064
   battles_from:
   - description: Lynchburg, Va. (1864-6-17 to 1864-6-18)
-    id: U205
+    id: U182
   relation: eq
 - battles_cwsac:
   - description: Trevilian Station, VA (1864-06-11 to 1864-06-12)
     id: VA099
   battles_from:
   - description: Trevilian Station, Va. (1864-6-11 to 1864-6-12)
-    id: U206
+    id: U183
   relation: eq
 - battles_cwsac:
   - description: Saint Mary's Church, VA (1864-06-24)
     id: VA066
   battles_from:
   - description: St. Mary's Church, Va. (1864-6-24)
-    id: U208
+    id: U185
   relation: eq
 - battles_cwsac:
   - description: Petersburg II, VA (1864-06-15 to 1864-06-18)
     id: VA063
   battles_from:
   - description: Petersburg Assault, Va. (1864-6-15 to 1864-6-19)
-    id: U209
+    id: U186
   relation: eq
 - battles_cwsac:
   - description: Jerusalem Plank Road, VA (1864-06-21 to 1864-06-23)
     id: VA065
   battles_from:
   - description: Jerusalem Road, Va. (1864-6-22)
-    id: U210
+    id: U187
   relation: eq
 - battles_cwsac:
   - description: Staunton River Bridge, VA (1864-06-25)
@@ -1150,412 +1077,412 @@
     id: VA068
   battles_from:
   - description: Wilson's Raid, Va. (1864-6-22 to 1864-6-29)
-    id: U211
+    id: U188
   relation: eq
 - battles_cwsac:
   - description: Monocacy, MD (1864-07-09)
     id: MD007
   battles_from:
   - description: Monocacy, Md (1864-7-9)
-    id: U215
+    id: U192
   relation: eq
 - battles_cwsac:
   - description: Fort Stevens, DC (1864-07-11 to 1864-07-12)
     id: DC001
   battles_from:
   - description: Fort Stevens, D. C (1864-7-12)
-    id: U216
+    id: U193
   relation: eq
 - battles_cwsac:
   - description: Tupelo, MS (1864-07-14 to 1864-07-15)
     id: MS015
   battles_from:
   - description: Tupelo, Miss. (1864-7-13)
-    id: U217
+    id: U194
   relation: eq
 - battles_cwsac:
   - description: Rutherford's Farm, VA (1864-07-20)
     id: VA115
   battles_from:
   - description: Carter's Farm, Va. (1864-7-20)
-    id: U219
+    id: U196
   relation: eq
 - battles_cwsac:
   - description: Kernstown II, VA (1864-07-24)
     id: VA116
   battles_from:
   - description: Winchester, Va. (1864-7-24)
-    id: U220
+    id: U197
   relation: eq
 - battles_cwsac:
   - description: Deep Bottom I, VA (1864-07-27)
     id: VA069
   battles_from:
   - description: Strawberry Plains, Va. (1864-7-26 to 1864-7-29)
-    id: U221
+    id: U198
   relation: eq
 - battles_cwsac:
   - description: Crater, VA (1864-07-30)
     id: VA070
   battles_from:
   - description: Petersburg Mine, Va. (1864-7-30)
-    id: U222
+    id: U199
   relation: eq
 - battles_cwsac:
   - description: Deep Bottom II, VA (1864-08-13 to 1864-08-20)
     id: VA071
   battles_from:
   - description: Deep Bottom, Va. (1864-8-14 to 1864-8-16)
-    id: U225
+    id: U202
   relation: eq
 - battles_cwsac:
   - description: Globe Tavern, VA (1864-08-18 to 1864-08-21)
     id: VA072
   battles_from:
   - description: Weldon Railroad, Va. (1864-8-18 to 1864-8-20)
-    id: U226
+    id: U203
   relation: eq
 - battles_cwsac:
   - description: Ream's Station II, VA (1864-08-25)
     id: VA073
   battles_from:
   - description: Ream's Station, Va. (1864-8-25)
-    id: U228
+    id: U205
   relation: eq
 - battles_cwsac:
   - description: Smithfield Crossing, WV (1864-08-28 to 1864-08-29)
     id: WV015
   battles_from:
   - description: Smithfield, Va. (1864-8-25)
-    id: U229
+    id: U206
   - description: Smithfield, Va. (1864-8-29)
-    id: U231
+    id: U208
   relation: eq
 - battles_cwsac:
   - description: Berryville, VA (1864-09-03 to 1864-09-04)
     id: VA118
   battles_from:
   - description: Berryville, Va. (1864-9-3)
-    id: U233
+    id: U210
   relation: eq
 - battles_cwsac:
   - description: Opequon, VA (1864-09-19)
     id: VA119
   battles_from:
   - description: Opequon, Va. (1864-9-19)
-    id: U234
+    id: U211
   relation: eq
 - battles_cwsac:
   - description: Fisher's Hill, VA (1864-09-21 to 1864-09-22)
     id: VA120
   battles_from:
   - description: Fisher's Hill, Va. (1864-9-22)
-    id: U235
+    id: U212
   relation: eq
 - battles_cwsac:
   - description: Fort Davidson, MO (1864-09-26 to 1864-09-28)
     id: MO021
   battles_from:
   - description: Fort Davidson, Mo. (1864-9-26)
-    id: U236
+    id: U213
   relation: eq
 - battles_cwsac:
   - description: Chaffin's Farm / New Market Heights, VA (1864-09-29 to 1864-09-30)
     id: VA075
   battles_from:
   - description: Chaffin's Farm, Va. (1864-9-28)
-    id: U237
+    id: U214
   relation: eq
 - battles_cwsac:
   - description: Peebles' Farm, VA (1864-09-30 to 1864-10-02)
     id: VA074
   battles_from:
   - description: Poplar Spring Church, Va. (1864-9-30)
-    id: U238
+    id: U215
   relation: eq
 - battles_cwsac:
   - description: Saltville I, VA (1864-10-02)
     id: VA076
   battles_from:
   - description: Saltville, Va. (1864-10-2)
-    id: U240
+    id: U217
   relation: eq
 - battles_cwsac:
   - description: Allatoona, GA (1864-10-05)
     id: GA023
   battles_from:
   - description: Allatoona Pass, Ga. (1864-10-5)
-    id: U241
+    id: U218
   relation: eq
 - battles_cwsac:
   - description: Darbytown & New Market Roads, VA (1864-10-07)
     id: VA077
   battles_from:
   - description: Darbytown Road, Va. (1864-10-7)
-    id: U242
+    id: U219
   relation: eq
 - battles_cwsac:
   - description: Tom's Brook, VA (1864-10-09)
     id: VA121
   battles_from:
   - description: Tom's Brook; Woodstock, Va. (1864-10-9)
-    id: U243
+    id: U220
   relation: eq
 - battles_cwsac:
   - description: Darbytown Road, VA (1864-10-13)
     id: VA078
   battles_from:
   - description: Darbytown Road, Va. (1864-10-13)
-    id: U245
+    id: U222
   relation: eq
 - battles_cwsac:
   - description: Cedar Creek, VA (1864-10-19)
     id: VA122
   battles_from:
   - description: Cedar Creek, Va. (1864-10-19)
-    id: U246
+    id: U223
   relation: eq
 - battles_cwsac:
   - description: Little Blue River, MO (1864-10-21)
     id: MO024
   battles_from:
   - description: Little Blue, Mo. (1864-10-21)
-    id: U247
+    id: U224
   relation: eq
 - battles_cwsac:
   - description: Independence II, MO (1864-10-22)
     id: MO025
   battles_from:
   - description: Independence, Mo. (1864-10-22)
-    id: U248
+    id: U225
   relation: eq
 - battles_cwsac:
   - description: Decatur, AL (1864-10-26 to 1864-10-29)
     id: AL004
   battles_from:
   - description: Decatur, Ala. (1864-10-26)
-    id: U249
+    id: U226
   relation: eq
 - battles_cwsac:
   - description: Boydton Plank Road, VA (1864-10-27)
     id: VA079
   battles_from:
   - description: Boydton Road, Va. (1864-10-27)
-    id: U250
+    id: U227
   relation: eq
 - battles_cwsac:
   - description: Fair Oaks & Darbytown Road, VA (1864-10-27 to 1864-10-28)
     id: VA080
   battles_from:
   - description: Darbytown Road; Fair Oaks, Va. (1864-10-27)
-    id: U251
+    id: U228
   relation: eq
 - battles_cwsac:
   - description: Griswoldville, GA (1864-11-22)
     id: GA025
   battles_from:
   - description: Griswoldville, Ga. (1864-11-22)
-    id: U254
+    id: U231
   relation: eq
 - battles_cwsac:
   - description: Honey Hill, SC (1864-11-30)
     id: SC010
   battles_from:
   - description: Honey Hill, S. C. (1864-11-30)
-    id: U255
+    id: U232
   relation: eq
 - battles_cwsac:
   - description: Franklin II, TN (1864-11-30)
     id: TN036
   battles_from:
   - description: Franklin, Tenn. (1864-11-30)
-    id: U256
+    id: U233
   relation: eq
 - battles_cwsac:
   - description: Murfreesboro II, TN (1864-12-05 to 1864-12-07)
     id: TN037
   battles_from:
   - description: Murfreesboro, Tenn. (1864-12-5)
-    id: U258
+    id: U235
   relation: eq
 - battles_cwsac:
   - description: Fort Mcallister II, GA (1864-12-13)
     id: GA028
   battles_from:
   - description: Fort McAllister, Ga. (1864-12-13)
-    id: U260
+    id: U237
   relation: eq
 - battles_cwsac:
   - description: Nashville, TN (1864-12-15 to 1864-12-16)
     id: TN038
   battles_from:
   - description: Nashville, Tenn. (1864-12-15 to 1864-12-16)
-    id: U261
+    id: U238
   relation: eq
 - battles_cwsac:
   - description: Marion, VA (1864-12-16 to 1864-12-18)
     id: VA081
   battles_from:
   - description: Marion, Va. (1864-12-18)
-    id: U262
+    id: U239
   relation: eq
 - battles_cwsac:
   - description: Fort Fisher II, NC (1865-01-13 to 1865-01-15)
     id: NC015
   battles_from:
   - description: Fort Fisher, N. C. (1865-1-15)
-    id: U265
+    id: U242
   relation: eq
 - battles_cwsac:
   - description: Rivers' Bridge, SC (1865-02-02 to 1865-02-03)
     id: SC011
   battles_from:
   - description: Rivers's Bridge, S. C. (1865-2-3 to 1865-2-9)
-    id: U267
+    id: U244
   relation: eq
 - battles_cwsac:
   - description: Hatcher's Run, VA (1865-02-05 to 1865-02-07)
     id: VA083
   battles_from:
   - description: Dabney's Mills, Va. (1865-2-5 to 1865-2-7)
-    id: U268
+    id: U245
   relation: eq
 - battles_cwsac:
   - description: Wilmington, NC (1865-02-12 to 1865-02-22)
     id: NC016
   battles_from:
   - description: Sugar Loaf Battery, N. C. (1865-2-11)
-    id: U270
+    id: U247
   - description: Town Creek, N. C. (1865-2-20)
-    id: U271
+    id: U248
   relation: eq
 - battles_cwsac:
   - description: Natural Bridge, FL (1865-03-06)
     id: FL006
   battles_from:
   - description: National Bridge, Fla. (1865-3-6)
-    id: U273
+    id: U250
   relation: eq
 - battles_cwsac:
   - description: Wyse Fork, NC (1865-03-07 to 1865-03-10)
     id: NC017
   battles_from:
   - description: Wilcox's Bridge, N. C. (1865-3-8 to 1865-3-10)
-    id: U274
+    id: U251
   relation: eq
 - battles_cwsac:
   - description: Monroe's Cross Roads, NC (1865-03-10)
     id: NC018
   battles_from:
   - description: Monroe's Cross Roads, N. C. (1865-3-10)
-    id: U275
+    id: U252
   relation: eq
 - battles_cwsac:
   - description: Averasborough, NC (1865-03-16)
     id: NC019
   battles_from:
   - description: Averasboro, N. C. (1865-3-16)
-    id: U276
+    id: U253
   relation: eq
 - battles_cwsac:
   - description: Bentonville, NC (1865-03-19 to 1865-03-21)
     id: NC020
   battles_from:
   - description: Bentonville, N. C. (1865-3-19)
-    id: U277
+    id: U254
   relation: eq
 - battles_cwsac:
   - description: Fort Stedman, VA (1865-03-25)
     id: VA084
   battles_from:
   - description: Fort Stedman, Va. (1865-3-25)
-    id: U278
+    id: U255
   - description: Petersburg, Va. (1865-3-25)
-    id: U279
+    id: U256
   relation: eq
 - battles_cwsac:
   - description: Lewis's Farm, VA (1865-03-29)
     id: VA085
   battles_from:
   - description: Gravelly Run, Va. (1865-3-29)
-    id: U280
+    id: U257
   relation: eq
 - battles_cwsac:
   - description: White Oak Road, VA (1865-03-31)
     id: VA087
   battles_from:
   - description: White Oak Road, Va. (1865-3-31)
-    id: U281
+    id: U258
   relation: eq
 - battles_cwsac:
   - description: Dinwiddie Court House, VA (1865-03-31)
     id: VA086
   battles_from:
   - description: Dinwiddie C. H., Va. (1865-3-31)
-    id: U283
+    id: U260
   relation: eq
 - battles_cwsac:
   - description: Five Forks, VA (1865-04-01)
     id: VA088
   battles_from:
   - description: Five Forks, Va. (1865-4-1)
-    id: U284
+    id: U261
   relation: eq
 - battles_cwsac:
   - description: Selma, AL (1865-04-02)
     id: AL007
   battles_from:
   - description: Selma, Ala. (1865-4-2)
-    id: U285
+    id: U262
   relation: eq
 - battles_cwsac:
   - description: Petersburg III, VA (1865-04-02)
     id: VA089
   battles_from:
   - description: Fall of Petersburg, Va. (1865-4-2)
-    id: U286
+    id: U263
   relation: eq
 - battles_cwsac:
   - description: Namozine Church, VA (1865-04-03)
     id: VA124
   battles_from:
   - description: Namozin Church, Va. (1865-4-3)
-    id: U287
+    id: U264
   relation: eq
 - battles_cwsac:
   - description: Amelia Springs, VA (1865-04-05)
     id: VA091
   battles_from:
   - description: Amelia Springs, Va. (1865-4-5)
-    id: U288
+    id: U265
   relation: eq
 - battles_cwsac:
   - description: Sailor's Creek, VA (1865-04-06)
     id: VA093
   battles_from:
   - description: Sailor's Creek, Va. (1865-4-6)
-    id: U289
+    id: U266
   relation: eq
 - battles_cwsac:
   - description: Cumberland Church, VA (1865-04-07)
     id: VA094
   battles_from:
   - description: Farmville, Va. (1865-4-7)
-    id: U290
+    id: U267
   relation: eq
 - battles_cwsac:
   - description: Spanish Fort, AL (1865-03-27 to 1865-04-08)
     id: AL005
   battles_from:
   - description: Spanish Fort, Ala. (1865-4-8)
-    id: U291
+    id: U268
   relation: eq
 - battles_cwsac:
   - description: Fort Blakely, AL (1865-04-02 to 1865-04-09)
     id: AL006
   battles_from:
   - description: Fort Blakely, Ala. (1865-4-9)
-    id: U292
+    id: U269
   relation: eq
 - battles_cwsac:
   - description: Manassas I, VA (1861-07-21)
@@ -1723,72 +1650,42 @@
 - battles_cwsac:
   - description: Oak Grove, VA (1862-06-25)
     id: VA015
-  battles_from:
-  - description: Oak Grove (Seven Days Battle) (1862-6-25)
-    id: C25
-  relation: eq
-- battles_cwsac:
   - description: Beaver Dam Creek, VA (1862-06-26)
     id: VA016
-  battles_from:
-  - description: Mechanicsville (Seven Days Battle) (1862-6-26)
-    id: C26
-  relation: eq
-- battles_cwsac:
   - description: Gaines' Mill, VA (1862-06-27)
     id: VA017
-  battles_from:
-  - description: Gaine's Mill (1862-6-27)
-    id: C27
-  relation: eq
-- battles_cwsac:
   - description: Garnett's & Golding's Farms, VA (1862-06-27 to 1862-06-28)
     id: VA018
-  battles_from:
-  - description: Garnett's Farm, and Golding's Farm (1862-6-28)
-    id: C28
-  relation: eq
-- battles_cwsac:
   - description: Savage's Station, VA (1862-06-29)
     id: VA019
-  battles_from:
-  - description: Savage Station and Peach Orchard (1862-6-29)
-    id: C29
-  relation: eq
-- battles_cwsac:
   - description: Glendale/White Oak Swamp, VA (1862-06-30)
     id: VA020
-  battles_from:
-  - description: White Oak Swamp and Glendale (or Charles City Cross Roads) (1862-6-30)
-    id: C30
-  relation: eq
-- battles_cwsac:
   - description: Malvern Hill, VA (1862-07-01)
     id: VA021
   battles_from:
-  - description: Malvern Hill (1862-7-1)
-    id: C31
+  - description: Seven Days Battle, Va. (1862-6-25 to 1862-7-1)
+    id: C25
   relation: eq
 - battles_cwsac:
   - description: Baton Rouge, LA (1862-08-05)
     id: LA003
   battles_from:
   - description: Baton Rouge, La. (1862-8-5)
-    id: C32
+    id: C26
   relation: eq
 - battles_cwsac:
   - description: Cedar Mountain, VA (1862-08-09)
     id: VA022
   battles_from:
   - description: Cedar Mountain, Va. (1862-8-9)
-    id: C33
+    id: C27
   relation: eq
 - battles_cwsac:
   - description: Richmond, KY (1862-08-29 to 1862-08-30)
     id: KY007
   battles_from:
   - description: Richmond, Ky. (1862-8-30)
-    id: C34
+    id: C28
   relation: eq
 - battles_cwsac:
   - description: Rappahannock Station I, VA (1862-08-22 to 1862-08-25)
@@ -1803,7 +1700,7 @@
     id: VA027
   battles_from:
   - description: Manassas, Va. (1862-8-21 to 1862-9-2)
-    id: C35
+    id: C29
   relation: eq
 - battles_cwsac:
   - description: Harpers Ferry, WV (1862-09-12 to 1862-09-15)
@@ -1816,21 +1713,21 @@
     id: WV016
   battles_from:
   - description: Maryland Campaign, Md (1862-9-12 to 1862-9-20)
-    id: C37
+    id: C31
   relation: eq
 - battles_cwsac:
   - description: Munfordville, KY (1862-09-14 to 1862-09-17)
     id: KY008
   battles_from:
   - description: Munfordville, Ky. (1862-9-14 to 1862-9-17)
-    id: C38
+    id: C32
   relation: eq
 - battles_cwsac:
   - description: Iuka, MS (1862-09-19)
     id: MS001
   battles_from:
   - description: Iuka, Miss. (1862-9-19)
-    id: C39
+    id: C33
   relation: eq
 - battles_cwsac:
   - description: Corinth II, MS (1862-10-03 to 1862-10-04)
@@ -1839,56 +1736,56 @@
     id: TN007
   battles_from:
   - description: Corinth, Miss. (1862-10-3 to 1862-10-5)
-    id: C40
+    id: C34
   relation: eq
 - battles_cwsac:
   - description: Perryville, KY (1862-10-08)
     id: KY009
   battles_from:
   - description: Chaplin Hills, Ky. (1862-10-8)
-    id: C41
+    id: C35
   relation: eq
 - battles_cwsac:
   - description: Hartsville, TN (1862-12-07)
     id: TN008
   battles_from:
   - description: Hartsville, Tenn. (1862-12-7)
-    id: C44
+    id: C38
   relation: eq
 - battles_cwsac:
   - description: Prairie Grove, AR (1862-12-07)
     id: AR005
   battles_from:
   - description: Prairie Grove, Ark. (1862-12-7)
-    id: C45
+    id: C39
   relation: eq
 - battles_cwsac:
   - description: Kinston, NC (1862-12-14)
     id: NC007
   battles_from:
   - description: Kinston, Whitehall, N. C. (1862-12-12 to 1862-12-17)
-    id: C46
+    id: C40
   relation: eq
 - battles_cwsac:
   - description: Fredericksburg I, VA (1862-12-11 to 1862-12-15)
     id: VA028
   battles_from:
   - description: Fredericksburg, Va. (1862-12-13)
-    id: C47
+    id: C41
   relation: eq
 - battles_cwsac:
   - description: Chickasaw Bayou, MS (1862-12-26 to 1862-12-29)
     id: MS003
   battles_from:
   - description: Chickasaw Bluffs, Miss. (1862-12-26 to 1862-12-29)
-    id: C48
+    id: C42
   relation: eq
 - battles_cwsac:
   - description: Stones River, TN (1862-12-31 to 1863-01-02)
     id: TN010
   battles_from:
   - description: Stone's River, Tenn. (1862-12-31)
-    id: C49
+    id: C43
   relation: eq
 - battles_cwsac:
   - description: Springfield II, MO (1863-01-08)
@@ -1897,333 +1794,309 @@
     id: MO019
   battles_from:
   - description: Springfield; Hartsville, Mo. (1863-1-2 to 1863-1-11)
-    id: C50
+    id: C44
   relation: eq
 - battles_cwsac:
   - description: Thompson's Station, TN (1863-03-04 to 1863-03-05)
     id: TN013
   battles_from:
   - description: Thompson's Station, Tenn. (1863-3-5)
-    id: C52
+    id: C46
   relation: eq
 - battles_cwsac:
   - description: Kelly's Ford, VA (1863-03-17)
     id: VA029
   battles_from:
   - description: Kelly's Ford, Va. (1863-3-17)
-    id: C53
+    id: C47
   relation: eq
 - battles_cwsac:
   - description: Port Gibson, MS (1863-05-01)
     id: MS006
   battles_from:
   - description: Magnolia Hills, Miss. (1863-5-1)
-    id: C54
+    id: C48
   relation: eq
 - battles_cwsac:
   - description: Fredericksburg II, VA (1863-05-03)
     id: VA034
   battles_from:
   - description: Chancellorsville, Va. (1863-5-1 to 1863-5-4)
-    id: C55
+    id: C49
   relation: eq
 - battles_cwsac:
   - description: Raymond, MS (1863-05-12)
     id: MS007
   battles_from:
   - description: Raymond, Miss. (1863-5-12)
-    id: C56
+    id: C50
   relation: eq
 - battles_cwsac:
   - description: Champion Hill, MS (1863-05-16)
     id: MS009
   battles_from:
   - description: Champion's Hill, Miss. (1863-5-16)
-    id: C57
+    id: C51
   relation: eq
 - battles_cwsac:
   - description: Milliken's Bend, LA (1863-06-07)
     id: LA011
   battles_from:
   - description: Milliken's Bend, La. (1863-6-6)
-    id: C58
+    id: C52
   relation: eq
 - battles_cwsac:
   - description: Brandy Station, VA (1863-06-09)
     id: VA035
   battles_from:
   - description: Beverly Ford, Va. (1863-6-9)
-    id: C59
+    id: C53
   relation: eq
 - battles_cwsac:
   - description: Upperville, VA (1863-06-21)
     id: VA038
   battles_from:
   - description: Middleburg; Upperville, Va. (1863-6-10 to 1863-6-24)
-    id: C60
+    id: C54
   relation: eq
 - battles_cwsac:
   - description: Winchester II, VA (1863-06-13 to 1863-06-15)
     id: VA107
   battles_from:
   - description: Winchester, Va. (1863-6-13)
-    id: C61
+    id: C55
   relation: eq
 - battles_cwsac:
   - description: Hanover, PA (1863-06-30)
     id: PA001
   battles_from:
   - description: Hanover, Pa (1863-6-30)
-    id: C62
+    id: C56
   relation: eq
 - battles_cwsac:
   - description: Gettysburg, PA (1863-07-01 to 1863-07-03)
     id: PA002
   battles_from:
   - description: Gettysburg, Pa (1863-7-1 to 1863-7-3)
-    id: C63
+    id: C57
   relation: eq
 - battles_cwsac:
   - description: Helena, AR (1863-07-04)
     id: AR008
   battles_from:
   - description: Helena, Ark. (1863-7-4)
-    id: C64
+    id: C58
   relation: eq
 - battles_cwsac:
   - description: Williamsport, MD (1863-07-06)
     id: MD004
   battles_from:
   - description: Hagerstown; Williamsport, Md (1863-7-6)
-    id: C65
+    id: C59
   relation: eq
 - battles_cwsac:
   - description: Plains Store, LA (1863-05-21)
     id: LA009
   battles_from:
   - description: Plain's Store, La. (1863-5-21)
-    id: C68
+    id: C62
   relation: eq
 - battles_cwsac:
   - description: Port Hudson, LA (1863-05-22 to 1863-07-09)
     id: LA010
   battles_from:
   - description: Port Hudson, La. (1863-5-25 to 1863-7-9)
-    id: C69
+    id: C63
   relation: eq
 - battles_cwsac:
   - description: Fort Wagner I, SC (1863-07-10 to 1863-07-11)
     id: SC005
   battles_from:
   - description: Morris Island, S. C. (1863-7-10)
-    id: C70
+    id: C64
   relation: eq
 - battles_cwsac:
   - description: Fort Wagner I, SC (1863-07-10 to 1863-07-11)
     id: SC005
   battles_from:
   - description: Fort Wagner, S. C. (1863-7-11)
-    id: C71
+    id: C65
   relation: eq
 - battles_cwsac:
   - description: Fort Wagner II/Morris Island, SC (1863-07-18)
     id: SC007
   battles_from:
   - description: Fort Wagner, S. C. (1863-7-18)
-    id: C72
+    id: C66
   relation: eq
 - battles_cwsac:
-  - description: Fort Sumter II, SC (1863-08-17 to 1863-09-08)
-    id: SC008
+  - description: Fort Wagner II/Morris Island, SC (1863-07-18)
+    id: SC007
   battles_from:
   - description: Charleston Harbor, S. C. (1863-7-19 to 1863-9-6)
-    id: C73
+    id: C67
   relation: eq
 - battles_cwsac:
   - description: Chickamauga, GA (1863-09-18 to 1863-09-20)
     id: GA004
   battles_from:
   - description: Chickamauga, Ga. (1863-9-19 to 1863-9-20)
-    id: C75
+    id: C69
   relation: eq
 - battles_cwsac:
   - description: Buckland Mills, VA (1863-10-19)
     id: VA042
   battles_from:
   - description: Cavalry Affairs, Va. (1863-10-10 to 1863-10-21)
-    id: C76
+    id: C70
   relation: eq
 - battles_cwsac:
   - description: Bristoe Station, VA (1863-10-14)
     id: VA040
   battles_from:
   - description: Bristoe Station, Va. (1863-10-14)
-    id: C77
+    id: C71
   relation: eq
 - battles_cwsac:
   - description: Wauhatchie, TN (1863-10-28 to 1863-10-29)
     id: TN021
   battles_from:
   - description: Wauhatchie, Tenn. (1863-10-27)
-    id: C78
+    id: C72
   relation: eq
 - battles_cwsac:
   - description: Droop Mountain, WV (1863-11-06)
     id: WV012
   battles_from:
   - description: Droop Mountain, Va. (1863-11-6)
-    id: C79
+    id: C73
   relation: eq
 - battles_cwsac:
   - description: Rappahannock Station II, VA (1863-11-07)
     id: VA043
   battles_from:
   - description: Rappahannock Station, Va. (1863-11-7)
-    id: C81
+    id: C75
   relation: eq
 - battles_cwsac:
   - description: Chattanooga III, TN (1863-11-23 to 1863-11-25)
     id: TN024
   battles_from:
   - description: Missionary Ridge, Tenn. (1863-11-23 to 1863-11-25)
-    id: C82
+    id: C76
   relation: eq
 - battles_cwsac:
   - description: Mine Run, VA (1863-11-26 to 1863-12-02)
     id: VA044
   battles_from:
   - description: Mine Run Campaign, Va. (1863-11-26 to 1863-11-30)
-    id: C83
+    id: C77
   relation: eq
 - battles_cwsac:
+  - description: Campbell's Station, TN (1863-11-16)
+    id: TN023
   - description: Fort Sanders, TN (1863-11-29)
     id: TN025
   battles_from:
   - description: Fort Sanders, Tenn. (1863-11-29)
-    id: C85
+    id: C79
   relation: eq
 - battles_cwsac:
   - description: Olustee, FL (1864-02-20)
     id: FL005
   battles_from:
   - description: Olustee, Fla. (1864-2-20)
-    id: C86
+    id: C80
   relation: eq
 - battles_cwsac:
-  - description: Marks' Mills, AR (1864-04-25)
-    id: AR015
-  battles_from:
-  - description: Marks's Mills, Ark. (1864-4-25)
-    id: C87
-  relation: eq
-- battles_cwsac:
-  - description: Jenkin's Ferry, AR (1864-04-30)
-    id: AR016
-  battles_from:
-  - description: Jenkins's Ferry, Ark. (1864-4-30)
-    id: C88
-  relation: eq
-- battles_cwsac:
-  - id: GA007
-  - id: GA008
-  - id: GA009
-  battles_from:
-  - description: Rocky Face Ridge; Resaca (Atlanta Campaign) (1864-5-7 to 1864-5-20)
-    id: C89
-  relation: eq
-- battles_cwsac:
-  - id: GA010
-  - id: GA011
-  - id: GA012
-  battles_from:
-  - description: New Hope Church; Dallas (Atlanta Campaign) (1864-5-20 to 1864-6-4)
-    id: C90
-  relation: eq
-- battles_cwsac:
-  - id: GA013
-  - id: GA014
-  - id: GA015
+  - description: Marietta Operations, GA (1864-06-10 to 1864-07-03)
+    id: GA013
+  - description: Kennesaw Mountain, GA (1864-06-27)
+    id: GA015
+  - description: Kolb's Farm, GA (1864-06-22)
+    id: GA014
   battles_from:
   - description: Kenesaw Mountain (Atlanta Campaign) (1864-6-4 to 1864-7-4)
-    id: C91
+    id: C82
   relation: eq
 - battles_cwsac:
-  - id: GA016
-  - id: GA017
-  - id: GA018
+  - description: Peachtree Creek, GA (1864-07-20)
+    id: GA016
+  - description: Atlanta, GA (1864-07-22)
+    id: GA017
   battles_from:
   - description: Peach Tree Creek; Atlanta (Atlanta Campaign) (1864-7-4 to 1864-7-31)
-    id: C92
+    id: C83
   relation: eq
 - battles_cwsac:
-  - id: GA019
-  - id: GA020
-  - id: GA021
-  - id: GA022
+  - description: Utoy Creek, GA (1864-08-05 to 1864-08-07)
+    id: GA019
+  - description: Jonesborough, GA (1864-08-31 to 1864-09-01)
+    id: GA022
   battles_from:
   - description: Utoy Creek; Jonesboro (Atlanta Campaign) (1864-7-31 to 1864-9-1)
-    id: C93
+    id: C84
   relation: eq
 - battles_cwsac:
   - description: New Market, VA (1864-05-15)
     id: VA110
   battles_from:
   - description: New Market, Va. (1864-5-15)
-    id: C95
+    id: C86
   relation: eq
 - battles_cwsac:
   - description: Brices Cross Roads, MS (1864-06-10)
     id: MS014
   battles_from:
   - description: Brice's Cross Roads, Miss. (1864-6-10 to 1864-6-11)
-    id: C96
+    id: C87
   relation: eq
 - battles_cwsac:
   - description: Tupelo, MS (1864-07-14 to 1864-07-15)
     id: MS015
   battles_from:
   - description: Tupelo, Miss. (1864-7-13 to 1864-7-15)
-    id: C98
+    id: C89
   relation: eq
 - battles_cwsac:
   - description: Opequon, VA (1864-09-19)
     id: VA119
   battles_from:
   - description: Opequon, Va. (1864-9-19)
-    id: C99
+    id: C90
   relation: eq
 - battles_cwsac:
   - description: Fisher's Hill, VA (1864-09-21 to 1864-09-22)
     id: VA120
   battles_from:
   - description: Fisher's Hill, Va. (1864-9-22)
-    id: C100
+    id: C91
   relation: eq
 - battles_cwsac:
   - description: Allatoona, GA (1864-10-05)
     id: GA023
   battles_from:
   - description: Allatoona Pass, Ga. (1864-10-5)
-    id: C101
+    id: C92
   relation: eq
 - battles_cwsac:
   - description: Cedar Creek, VA (1864-10-19)
     id: VA122
   battles_from:
   - description: Cedar Creek, Va. (1864-10-19)
-    id: C102
+    id: C93
   relation: eq
 - battles_cwsac:
   - description: Averasborough, NC (1865-03-16)
     id: NC019
   battles_from:
   - description: Averasboro, N. C. (1865-3-16)
-    id: C103
+    id: C94
   relation: eq
 - battles_cwsac:
   - description: Bentonville, NC (1865-03-19 to 1865-03-21)
     id: NC020
   battles_from:
   - description: Bentonville, N. C. (1865-3-19)
-    id: C104
+    id: C95
   relation: eq

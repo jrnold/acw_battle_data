@@ -3,15 +3,16 @@ name: fox_forces2
 path: data/fox_forces2.csv
 schema:
   fields:
-  - name: battle_id
-    type: string
-    constraints:
+  - constraints:
       pattern: '[UC][1-9]+'
-    title: Battle Id.
-    description: >
-      Unique battle identifier.
+    description: 'Unique battle identifier.
 
       These are different than those in :doc:`fox_forces`.
+
+      '
+    name: battle_id
+    title: Battle Id.
+    type: string
   - constraints:
       enum:
       - Confederate
@@ -24,16 +25,6 @@ schema:
     name: battle_name
     title: Battle name
     type: string
-  - description: Start date of the battle
-    format: default
-    name: start_date
-    title: start_date
-    type: date
-  - description: End date of the battle
-    format: default
-    name: end_date
-    title: end_date
-    type: date
   - constraints:
       maxLength: 2
       minLength: 2
@@ -43,11 +34,6 @@ schema:
     name: state
     title: State
     type: string
-  - description: Number of casualties (killed, wounded, and missing)
-    format: default
-    name: casualties
-    title: casualties
-    type: integer
   - description: Number killed
     format: default
     name: killed
@@ -63,11 +49,30 @@ schema:
     name: missing
     title: missing
     type: integer
+  - description: Number of casualties (killed, wounded, and missing)
+    format: default
+    name: casualties
+    title: casualties
+    type: integer
   - description: Was this a cavalry battle?
     format: default
     name: cavalry
     title: cavalry
     type: boolean
+  - description: Start date of the battle
+    format: default
+    name: start_date
+    title: start_date
+    type: date
+  - description: End date of the battle
+    format: default
+    name: end_date
+    title: end_date
+    type: date
+  - format: default
+    name: orig_id
+    title: orig_id
+    type: string
   primaryKey:
   - belligerent
   - battle_name

@@ -15,7 +15,7 @@ import requests
 _months = dict(zip(["Jan", "Feb", "March", "April", "May", "June",
                    "July", "Aug", "Sept", "Oct", "Nov", "Dec"],
                   range(1, 13)))
-    
+
 STATES = {
     'Minnesota': 'MN',
     'California': 'CA',
@@ -163,7 +163,7 @@ def xml_to_csv(source, writer, engagement_types):
                 text = elem.findtext("p").strip()
                 ## Casualties
                 losses = parse_losses(text)
-                
+
                 #print nevent, state, year, startDate, endDate, event_type
                 data = {'battle' : nevent,
                         'event_type' : event_type,
@@ -211,27 +211,20 @@ def build_engagements(src, dst):
     dstfile = os.path.join(dst, "dyer_engagements.csv")
 
     engagement_types = load_engagement_types(os.path.join(src, 'engagement_types.csv'))
-    
+
     with open(xmlfile, 'r') as src:
         with open(dstfile, "w") as dstf:
             writer = csv.DictWriter(dstf, header)
             writer.writeheader()
             xml_to_csv(src, writer, engagement_types)
 
-def copyfiles(src, dst):
-    shutil.copy(os.path.join(src, 'dyer_to_cwsac.csv'), dst)
-
 def build(src, dst):
     dyer_src = os.path.join(src, 'rawdata', 'dyer1908')
     build_engagements(dyer_src, dst)
-    copyfiles(dyer_src, dst)
 
 def main():
     src, dst = sys.argv[1:3]
     build(src, dst)
-    
+
 if __name__ == "__main__":
-    main()                     
-    
-
-
+    main()

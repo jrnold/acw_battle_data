@@ -53,12 +53,11 @@ Resource                                                                        
 `cwss_theaters.csv <resources/cwss_theaters.html>`__                                  CWSS theaters
 `cwss_unittiles.csv <resources/cwss_unittiles.html>`__                                CWSS Unit Titles
 `dyer_engagements.csv <resources/dyer_engagements.html>`__                            Dyer (1908) list of battles
-`dyer_to_cwsac.csv <resources/dyer_to_cwsac.html>`__                                  Correspondence between Dyer (1908) battles and CWSAC battles
 `eicher_units_table.csv <resources/eicher_units_table.html>`__                        Eicher table of unit sizes
 `fox_forces.csv <resources/fox_forces.html>`__                                        Fox (1898) battle casualties
 `fox_forces2.csv <resources/fox_forces2.html>`__                                      Fox (1898) battle casualties (revised)
-`fox_forces2_to_cwsac.csv <resources/fox_forces2_to_cwsac.html>`__                    Correspondence ``fox_forces2`` and CWSAC battles
-`fox_forces_to_cwsac.csv <resources/fox_forces_to_cwsac.html>`__                      Correspondence ``fox_forces`` and CWSAC battles
+`fox_forces2_to_cwsac.json <resources/fox_forces2_to_cwsac.html>`__                   Correspondence ``fox_forces2`` and CWSAC battles
+`fox_forces_to_cwsac.json <resources/fox_forces_to_cwsac.html>`__                     Correspondence ``fox_forces`` and CWSAC battles
 `fox_outcomes.csv <resources/fox_outcomes.html>`__                                    Fox (1898) battle outcomes
 `greer2005_weekly_casualties.csv <resources/greer2005_weekly_casualties.html>`__      Weekly casualty data from Greer "Counting Casualties Week-by-Week"
 `kennedy1997_battles.csv <resources/kennedy1997_battles.html>`__                      Civil War Battlefield Guide data: battles

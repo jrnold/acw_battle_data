@@ -1,41 +1,6 @@
-format: csv
+format: json
 name: fox_forces_to_cwsac
-path: data/fox_forces_to_cwsac.csv
-schema:
-  fields:
-  - constraints:
-      enum:
-      - Confederate
-      - US
-    format: default
-    name: belligerent
-    title: belligerent
-    type: string
-  - description: Battle name in :doc:`fox_forces`.
-    format: default
-    name: battle_name
-    title: Battle Name
-    type: string
-  - constraints:
-      pattern: '[A-Z]{3}[0-9]{2}[A-Z]?'
-    description: CWSAC battle identification code. See :doc:`cwsac_battles`.
-    format: default
-    name: to
-    title: CWSAC Id.
-    type: string
-  - constraints:
-      enum:
-      - gt
-      - lt
-      - eq
-    description: 'Relationship between the events:
-
-      - "eq": same event - "gt": ``from`` includes ``to`` (``to`` is a part of ``from``).
-      - "lt": ``from`` is included by ``to`` (``from`` is part of ``to``).'
-    format: default
-    name: relation
-    title: Relationship
-    type: string
+path: data/fox_forces_to_cwsac.json
 sources:
 - fox1898regimental
 title: Correspondence ``fox_forces`` and CWSAC battles

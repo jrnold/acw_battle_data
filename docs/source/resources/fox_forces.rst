@@ -52,19 +52,36 @@ Schema
 :Primary Key: ['belligerent', 'battle_name']
 
 
-===========  =======  =============
+===========  =======  ===========
+battle_id    string   Battle Id.
 belligerent  string   belligerent
 battle_name  string   Battle name
-start_date   date     start_date
-end_date     date     end_date
 state        string   State
-casualties   integer  casualties
 killed       integer  Killed
 wounded      integer  wounded
 missing      integer  missing
-aggrow       boolean  Aggregate row
-===========  =======  =============
+casualties   integer  casualties
+0            integer  0
+comment      string   comment
+start_date   date     start_date
+end_date     date     end_date
+===========  =======  ===========
 
+battle_id
+---------
+
+:title: Battle Id.
+:type: string
+:constraints:
+    :pattern: [UC][1-9]+
+    
+
+Unique battle identifier.
+These are different than those in :doc:`fox_forces2`.
+
+
+
+       
 belligerent
 -----------
 
@@ -91,30 +108,6 @@ battle_name
 
 
        
-start_date
-----------
-
-:title: start_date
-:type: date
-:format: default
-
-
-Start date of the battle
-
-
-       
-end_date
---------
-
-:title: end_date
-:type: date
-:format: default
-
-
-End date of the battle
-
-
-       
 state
 -----
 
@@ -128,18 +121,6 @@ state
     
 
 State in which the battle took place
-
-
-       
-casualties
-----------
-
-:title: casualties
-:type: integer
-:format: default
-
-
-Number of casualties (killed, wounded, and missing)
 
 
        
@@ -179,15 +160,63 @@ Number missing
 
 
        
-aggrow
-------
+casualties
+----------
 
-:title: Aggregate row
-:type: boolean
+:title: casualties
+:type: integer
 :format: default
 
 
-Does this row aggregate casualties from several battles?
+Number of casualties (killed, wounded, and missing)
+
+
+       
+0
+-
+
+:title: 0
+:type: integer
+:format: default
+
+
+
+
+
+       
+comment
+-------
+
+:title: comment
+:type: string
+:format: default
+
+
+
+
+
+       
+start_date
+----------
+
+:title: start_date
+:type: date
+:format: default
+
+
+Start date of the battle
+
+
+       
+end_date
+--------
+
+:title: end_date
+:type: date
+:format: default
+
+
+End date of the battle
 
 
        

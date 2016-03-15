@@ -6,9 +6,7 @@ NPS combined data battle data: battles
 :path: nps_battles.csv
 :format: csv
 
-Battle level data combining the National Park Services reports: Shenandoah, preliminary CWSAC reports in the AAD (1990-1993), CWSAC Report battle summaries (1997), Civil War Soldiers and Sailors (CWSS) database, and the CWSAC Report Updates (2009-2013).
-
-
+Battle level data combining the National Park Services reports: preliminary CWSAC reports in the AAD (1990-1993), CWSAC Report battle summaries (1997), Civil War Soldiers and Sailors (CWSS) database, and the CWSAC Report Updates (2009-2013).
 
 
 Sources: 

@@ -47,7 +47,7 @@ def build_wikipedia(src, dst):
 
 def build_fox(src, dst):
     print("build_fox")
-    sp.check_call([RSCRIPT, "bin/build_fox.R", src, dst])
+    sp.check_call([PYTHON, "bin/build_fox.py", src, dst])
 
 def build_greer(src, dst):
     print("build_greer")

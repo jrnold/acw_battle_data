@@ -73,10 +73,10 @@ See :doc:`fox_forces` for more detail on the Fox data.
    - Todd's Tavern; Corbin's Bridge; Ny River; Guinea Station etc. (Spotsylvania) (1864-5-8 to 1864-5-21)
 
 - Wilson's Raid, Va. (1864-6-22 to 1864-6-29) includes several battles
-- Union casualties for Smithfield Cross (WV015) are given for separate days
-- Union casualties for Wilmington (NC015) is split into
+- Union casualties for Smithfield Crossing (WV015) are given for separate days. Battles of Halltown, VA on Aug 24 and Aug 26
+  may also be part of this battle, but it is unclear if they are the same enagement.
+- Union casualties for Wilmington (NC016) is split into
 
-  - James's Island, S. C. (1865-2-10)
   - Sugar Loaf Battery, N. C. (1865-2-11)
   - Town Creek, N. C. (1865-2-20)
 
