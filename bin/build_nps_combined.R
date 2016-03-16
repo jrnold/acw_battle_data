@@ -165,8 +165,10 @@ gen_battles <-
     select(battle, operation, forces_text, casualties_text, results_text,
            preservation, significance, url, battle_name,
            start_date, end_date,
-           result, casualties, strength) %>%
-    rename(cwsac_url = url, cwsac_id = battle,
+           result, casualties, strength,
+           other_names) %>%
+    rename(cwsac_url = url,
+           cwsac_id = battle,
            battle_name_cwsac = battle_name,
            start_date_cwsac = start_date,
            end_date_cwsac = end_date,

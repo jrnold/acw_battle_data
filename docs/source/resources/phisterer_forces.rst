@@ -19,6 +19,7 @@ Sources: [Phisterer1883]_
 Schema
 ======
 
+:Primary Key: ['battle_id', 'belligerent']
 
 
 ===========  =======  ===========
@@ -48,7 +49,9 @@ belligerent
 :title: belligerent
 :type: string
 :format: default
-
+:constraints:
+    :enum: ['US', 'Confederate']
+    
 
 
 
@@ -60,7 +63,9 @@ casualties
 :title: casualties
 :type: number
 :format: default
-
+:constraints:
+    :minimum: 0
+    
 
 
 
@@ -72,7 +77,9 @@ killed
 :title: killed
 :type: number
 :format: default
-
+:constraints:
+    :minimum: 0
+    
 
 
 
@@ -84,7 +91,9 @@ wounded
 :title: wounded
 :type: number
 :format: default
-
+:constraints:
+    :minimum: 0
+    
 
 
 
@@ -96,7 +105,9 @@ missing
 :title: missing
 :type: number
 :format: default
-
+:constraints:
+    :minimum: 0
+    
 
 
 

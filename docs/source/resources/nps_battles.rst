@@ -35,6 +35,7 @@ results_text                     string   results_text
 preservation                     string   preservation
 significance                     string   significance
 cwsac_url                        string   cwsac_url
+other_names                      string   other_names
 partof_cwsac                     boolean  partof_cwsac
 cws2_url                         string   cws2_url
 study_area                       number   study_area
@@ -266,6 +267,18 @@ cwsac_url
 ---------
 
 :title: cwsac_url
+:type: string
+:format: default
+
+
+
+
+
+       
+other_names
+-----------
+
+:title: other_names
 :type: string
 :format: default
 

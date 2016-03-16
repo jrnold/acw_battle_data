@@ -72,6 +72,10 @@ schema:
     title: cwsac_url
     type: string
   - format: default
+    name: other_names
+    title: other_names
+    type: string
+  - format: default
     name: partof_cwsac
     title: partof_cwsac
     type: boolean

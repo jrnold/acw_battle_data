@@ -7,7 +7,7 @@ schema:
       maxLength: 6
       minLength: 5
       pattern: '[A-Z]{2}[0-9]{3}[A-Z]?'
-    description: CWSAC battle identifier
+    description: Battle identifier
     format: default
     name: battle_id
     title: Battle
@@ -51,10 +51,8 @@ schema:
     type: integer
   - constraints:
       minimum: 0
-    description: '
-
-      Total casualties (killed, wounded, and missing or captured) for both sides,
-      maximum value.'
+    description: Total casualties (killed, wounded, and missing or captured) for both
+      sides, maximum value.
     format: default
     name: casualties_max
     title: Casualties (max)
@@ -67,13 +65,17 @@ schema:
     name: missing
     title: missing
     type: number
-  - description: CWSAC battle identifiers of the battles. These are almost the same
+  - constraints:
+      pattern: '[A-Z]{2}[0-9]{3}[A-Z]?'
+    description: CWSAC battle identifiers of the battles. These are almost the same
       as the Kennedy identifiers with a few exceptions. All battles are one-to-one
       mappings onto the CWSAC battles.
     format: default
     name: cwsac_id
     title: CWSAC Id
     type: string
+  primaryKey:
+  - battle_id
 sources:
 - KennedyConservation1998
 title: 'Civil War Battlefield Guide data: battles'

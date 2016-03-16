@@ -7,6 +7,7 @@ Datasets included in this collection:
 ====================================================================================  ===================================================================================================================
 Resource                                                                              Description
 ====================================================================================  ===================================================================================================================
+`cdb90_to_cwsac.json <resources/cdb90_to_cwsac.html>`__                               CDB90 to CWSAC battle links
 `aad_battles.csv <resources/aad_battles.html>`__                                      Records About Civil War Battle Sites, created by the CWSAC, 1990-1993, and deposited with the National Archives AAD
 `aad_events.json <resources/aad_events.html>`__                                       Records About Civil War Battle Sites, created by the CWSAC, 1990-1993, and deposited with the National Archives AAD
 `battlemisc.csv <resources/battlemisc.html>`__                                        Miscellaneous battle data
@@ -17,7 +18,6 @@ Resource                                                                        
 `bodart1908_to_cwsac.json <resources/bodart1908_to_cwsac.html>`__                     Correspondence between Bodart (1908) battles and CWSAC battle IDs
 `bodart1908_to_dbpedia.json <resources/bodart1908_to_dbpedia.html>`__                 Correspondence between Bodart (1908) battles and dbpedia.org resources
 `burdekin_langdana_war_trend.csv <resources/burdekin_langdana_war_trend.html>`__      War Trend from Burdekin and Langdana (1993)
-`cdb90_to_cwsac.json <resources/cdb90_to_cwsac.html>`__                               CDB90 to CWSAC battle links
 `civilwarorg_battles.csv <resources/civilwarorg_battles.html>`__                      Batte data from civilwar.org
 `civilwarorg_commanders.csv <resources/civilwarorg_commanders.html>`__                Commanders in civilwar.org battle data
 `civilwarorg_forces.csv <resources/civilwarorg_forces.html>`__                        Strengths and casualties for forces in the civilwar.org battle data.
@@ -54,9 +54,7 @@ Resource                                                                        
 `cwss_unittiles.csv <resources/cwss_unittiles.html>`__                                CWSS Unit Titles
 `dyer_engagements.csv <resources/dyer_engagements.html>`__                            Dyer (1908) list of battles
 `eicher_units_table.csv <resources/eicher_units_table.html>`__                        Eicher table of unit sizes
-`fox_forces.csv <resources/fox_forces.html>`__                                        Fox (1898) battle casualties
-`fox_forces2.csv <resources/fox_forces2.html>`__                                      Fox (1898) battle casualties (revised)
-`fox_forces2_to_cwsac.json <resources/fox_forces2_to_cwsac.html>`__                   Correspondence ``fox_forces2`` and CWSAC battles
+`fox_forces.csv <resources/fox_forces.html>`__                                        Fox (1898) battle casualties (revised)
 `fox_forces_to_cwsac.json <resources/fox_forces_to_cwsac.html>`__                     Correspondence ``fox_forces`` and CWSAC battles
 `fox_outcomes.csv <resources/fox_outcomes.html>`__                                    Fox (1898) battle outcomes
 `greer2005_weekly_casualties.csv <resources/greer2005_weekly_casualties.html>`__      Weekly casualty data from Greer "Counting Casualties Week-by-Week"
@@ -97,7 +95,4 @@ Resource                                                                        
 `ships_in_battles.csv <resources/ships_in_battles.html>`__                            Ships in battles
 `thorpe_engagements.csv <resources/thorpe_engagements.html>`__                        Locations of engagements from Washington Post map, "Battles and casualties of the American Civil War"
 `unit_sizes.csv <resources/unit_sizes.html>`__                                        Distributions of personnel in units
-`wikipedia_battles.csv <resources/wikipedia_battles.html>`__                          wikipedia_battles
-`wikipedia_forces.csv <resources/wikipedia_forces.html>`__                            wikipedia_forces
-`wikipedia_to_cwsac.csv <resources/wikipedia_to_cwsac.html>`__                        Correspondence between Wikipedia articles and CWSAC battles.
 ====================================================================================  ===================================================================================================================

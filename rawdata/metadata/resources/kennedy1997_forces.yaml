@@ -73,6 +73,9 @@ schema:
     name: battles_aggregated
     title: Battles aggregated
     type: string
+  primaryKey:
+  - battle_id
+  - belligerent
 sources:
 - KennedyConservation1998
 title: 'Civil War Battlefield Guide data: forces'

@@ -35,15 +35,13 @@ schema:
     type: date
   - description: 'Was the engagement a surrender rather than a battle?
 
-      Examples include the surrenders of Johnston, '
+      Phisterer includes entries for the surrenders of Johnston, Taylor, Sam Jones,
+      Jeff Thompson, and Kirby Smith at the end of the war.'
     format: default
     name: surrender
     title: surrender
     type: boolean
-  - description: 'Was the engagement a campaign rather than a battle?
-
-      Phisterer includes entries for the surrenders of Johnston, Taylor, Sam Jones,
-      Jeff Thompson, and Kirby Smith at the end of the war.'
+  - description: Was the engagement a campaign rather than a battle?
     format: default
     name: campaign
     title: Campaign
@@ -53,6 +51,8 @@ schema:
     name: page
     title: Page
     type: integer
+  primaryKey:
+  - battle_id
 sources:
 - Phisterer1883
 title: 'Phisterer (1883) battle data: battle list'

@@ -18,6 +18,7 @@ Sources: [KennedyConservation1998]_
 Schema
 ======
 
+:Primary Key: ['battle_id', 'belligerent']
 
 
 ==================  =======  =======================

@@ -40,6 +40,7 @@ Sources: [KennedyConservation1998]_
 Schema
 ======
 
+:Primary Key: ['battle_id']
 
 
 ===============  =======  ================
@@ -68,7 +69,7 @@ battle_id
     :pattern: [A-Z]{2}[0-9]{3}[A-Z]?
     
 
-CWSAC battle identifier
+Battle identifier
 
 
        
@@ -161,7 +162,6 @@ casualties_max
     :minimum: 0
     
 
-
 Total casualties (killed, wounded, and missing or captured) for both sides, maximum value.
 
 
@@ -196,7 +196,9 @@ cwsac_id
 :title: CWSAC Id
 :type: string
 :format: default
-
+:constraints:
+    :pattern: [A-Z]{2}[0-9]{3}[A-Z]?
+    
 
 CWSAC battle identifiers of the battles. These are almost the same as the Kennedy identifiers with a few exceptions. All battles are one-to-one mappings onto the CWSAC battles.
 

@@ -7,26 +7,41 @@ schema:
     name: battle_id
     title: battle_id
     type: integer
-  - format: default
+  - constraints:
+      enum:
+      - US
+      - Confederate
+    format: default
     name: belligerent
     title: belligerent
     type: string
-  - format: default
+  - constraints:
+      minimum: 0
+    format: default
     name: casualties
     title: casualties
     type: number
-  - format: default
+  - constraints:
+      minimum: 0
+    format: default
     name: killed
     title: killed
     type: number
-  - format: default
+  - constraints:
+      minimum: 0
+    format: default
     name: wounded
     title: wounded
     type: number
-  - format: default
+  - constraints:
+      minimum: 0
+    format: default
     name: missing
     title: missing
     type: number
+  primaryKey:
+  - battle_id
+  - belligerent
 sources:
 - Phisterer1883
 title: 'Phisterer (1883) battle data: force casualties'

@@ -41,10 +41,6 @@ def build_dyer(src, dst):
     print("build_dyer")
     sp.check_call([PYTHON, "bin/build_dyer.py", src, dst])
 
-def build_wikipedia(src, dst):
-    print("build_wikipedia")
-    sp.check_call([PYTHON, "bin/build_wikipedia.py", src, dst])
-
 def build_fox(src, dst):
     print("build_fox")
     sp.check_call([PYTHON, "bin/build_fox.py", src, dst])
@@ -130,7 +126,6 @@ def build(src, dst, docs, bucket):
     build_nps(src, dst)
     build_bodart(src, dst)
     build_dyer(src, dst)
-    build_wikipedia(src, dst)
     build_fox(src, dst)
     build_greer(src, dst)
     build_kennedy(src, dst)

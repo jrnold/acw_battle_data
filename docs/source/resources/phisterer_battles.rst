@@ -92,6 +92,7 @@ Sources: [Phisterer1883]_
 Schema
 ======
 
+:Primary Key: ['battle_id']
 
 
 ===========  =======  ===========
@@ -180,7 +181,7 @@ surrender
 
 
 Was the engagement a surrender rather than a battle?
-Examples include the surrenders of Johnston, 
+Phisterer includes entries for the surrenders of Johnston, Taylor, Sam Jones, Jeff Thompson, and Kirby Smith at the end of the war.
 
 
        
@@ -193,7 +194,6 @@ campaign
 
 
 Was the engagement a campaign rather than a battle?
-Phisterer includes entries for the surrenders of Johnston, Taylor, Sam Jones, Jeff Thompson, and Kirby Smith at the end of the war.
 
 
        

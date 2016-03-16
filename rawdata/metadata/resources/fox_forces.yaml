@@ -1,15 +1,11 @@
 format: csv
-name: fox_forces2
-path: data/fox_forces2.csv
+name: fox_forces
+path: data/fox_forces.csv
 schema:
   fields:
   - constraints:
-      pattern: '[UC][1-9]+'
-    description: 'Unique battle identifier.
-
-      These are different than those in :doc:`fox_forces`.
-
-      '
+      pattern: '[UC][1-9]+[A-Z]?'
+    description: Unique battle identifier.
     name: battle_id
     title: Battle Id.
     type: string
@@ -25,40 +21,6 @@ schema:
     name: battle_name
     title: Battle name
     type: string
-  - constraints:
-      maxLength: 2
-      minLength: 2
-      pattern: '[A-Z]{2}'
-    description: State in which the battle took place.
-    format: default
-    name: state
-    title: State
-    type: string
-  - description: Number killed
-    format: default
-    name: killed
-    title: Killed
-    type: integer
-  - description: Number wounded
-    format: default
-    name: wounded
-    title: wounded
-    type: integer
-  - description: Number missing
-    format: default
-    name: missing
-    title: missing
-    type: integer
-  - description: Number of casualties (killed, wounded, and missing)
-    format: default
-    name: casualties
-    title: casualties
-    type: integer
-  - description: Was this a cavalry battle?
-    format: default
-    name: cavalry
-    title: cavalry
-    type: boolean
   - description: Start date of the battle
     format: default
     name: start_date
@@ -69,13 +31,62 @@ schema:
     name: end_date
     title: end_date
     type: date
-  - format: default
-    name: orig_id
-    title: orig_id
+  - constraints:
+      maxLength: 2
+      minLength: 2
+      pattern: '[A-Z]{2}'
+    description: State in which the battle took place.
+    format: default
+    name: state
+    title: State
     type: string
+  - constraints:
+      minimum: 0
+    description: Number killed
+    format: default
+    name: killed
+    title: Killed
+    type: integer
+  - constraints:
+      minimum: 0
+    description: Number wounded
+    format: default
+    name: wounded
+    title: wounded
+    type: integer
+  - constraints:
+      minimum: 0
+    description: Number missing
+    format: default
+    name: missing
+    title: missing
+    type: integer
+  - constraints:
+      minimum: 0
+    description: Number of casualties (killed, wounded, and missing)
+    format: default
+    name: casualties
+    title: casualties
+    type: integer
+  - description: For observations that aggregate battles from a campaign, the IDs
+      of those observations. The IDs are space separated.
+    format: default
+    name: aggregregates_battles
+    title: aggregregates_battles
+    type: string
+  - description: Comments attached to the observation. These are generally footnotes
+      from the original source.
+    format: default
+    name: comment
+    title: comment
+    type: string
+  - description: Was this observation derived from notes in a footnotes?
+    format: default
+    name: from_footnote
+    title: from_footnote
+    type: boolean
   primaryKey:
-  - belligerent
-  - battle_name
+  - battle_id
 sources:
 - fox1898regimental
 title: Fox (1898) battle casualties (revised)
