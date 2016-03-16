@@ -788,6 +788,17 @@
     id: U137
   relation: eq
 - battles_cwsac:
+  - description: Chattanooga III, TN (1863-11-23 to 1863-11-25)
+    id: TN024
+  battles_from:
+  - description: Missionary Ridge (Chattanooga, Tenn) (1863-11-25)
+    id: U137A
+  - description: Orchard Knob (Chattanooga, Tenn) (1863-11-23)
+    id: U137B
+  - description: Lookout Mountain (Chattanooga, Tenn) (1863-11-24 to 1865-11-24)
+    id: U137C
+  relation: eq
+- battles_cwsac:
   - description: Ringgold Gap, GA (1863-11-27)
     id: GA005
   battles_from:
@@ -889,6 +900,44 @@
     id: U155
   relation: eq
 - battles_cwsac:
+  - description: Rocky Face Ridge, GA (1864-05-07 to 1864-05-13)
+    id: GA007
+  battles_from:
+  - description: Rocky Face Ridge (Atlanta Campaign) (1864-5-5 to 1864-5-9)
+    id: U157
+  relation: eq
+
+- battles_cwsac:
+  - description: Resaca, GA (1864-05-13 to 1864-05-15)
+    id: GA008
+  battles_from:
+  - description: Resaca (Atlanta Campaign) (1864-5-13 to 1864-5-15)
+    id: U155B
+  relation: eq
+- battles_cwsac:
+  - description: New Hope Church, GA (1864-05-25 to 1864-06-05)
+    id: GA010
+  battles_from:
+  - description: New Hope Church (Atlanta Campaign) (1864-5-25)
+    id: U155C
+  relation: eq
+- battles_cwsac:
+  - description: Pickett's Mill, GA (1864-05-27)
+    id: GA012
+  battles_from:
+  - description: Pickett's Mills (Atlanta Campaign) (1864-5-27)
+    id: U155D
+  relation: eq
+- battles_cwsac:
+  - description: Adairsville, GA (1864-05-17)
+    id: GA009
+  battles_from:
+  - description: Adairsville, Cassville, Rome Cross Roads, etc (Atlanta Campaign)
+      (1864-5-1 to 1864-5-31)
+    id: U155F
+  relation: lt
+
+- battles_cwsac:
   - description: Marietta Operations, GA (1864-06-10 to 1864-07-03)
     id: GA013
   - description: Kolb's Farm, GA (1864-06-22)
@@ -899,6 +948,34 @@
   - description: Atlanta Campaign, Ga. (1864-6-1 to 1864-6-30)
     id: U156
   relation: eq
+
+- battles_cwsac:
+  - description: Marietta Operations
+    id: GA013
+  battles_from:
+  - description: Kenesaw Mountain (Atlanta Campaign) 1864-6-20 to 1864-6-30
+    id: U156D
+  - description: Lattimore's Mill; Powder Springs, etc (Atlanta Campaign)
+    id: U156F
+  - description: Pine Mountain (Atlanta Campaign) 1864-6-14 to 1864-6-19
+    id: U156B
+  - description: Nickajack Creek (Atlanta Campaign) 1864-7-2 to 1864-7-5
+    id: U157A
+- battles_cwsac:
+  - description: Kolb's Farm, GA (1864-06-22)
+    id: GA014
+  battles_from:
+  - description: Culp's House (Atlanta Campaign) (1864-6-22)
+    id: U156C
+  relation: eq
+- battles_cwsac:
+  - description: Kennesaw Mountain, GA (1864-06-27)
+    id: GA015
+  battles_from:
+  - description: Assault on Kenesaw (June 27)
+    id: U156E
+  relation: eq
+
 - battles_cwsac:
   - description: Peachtree Creek, GA (1864-07-20)
     id: GA016
@@ -910,24 +987,63 @@
   - description: Atlanta Campaign, Ga. (1864-7-1 to 1864-7-31)
     id: U157
   relation: eq
+
+- battles_cwsac:
+  - description: Peachtree Creek, GA (1864-07-20)
+    id: GA016
+  battles_from:
+  - description: Peach Tree Creek (Atlanta Campaign) (1864-7-20)
+    id: U157C
+  relation: eq
+- battles_cwsac:
+  - description: Atlanta, GA (1864-07-22)
+    id: GA017
+  battles_from:
+  - description: Atlanta (Atlanta Campaign) (1864-7-21 to 1864-7-22)
+    id: U157D
+  relation: eq
+- battles_cwsac:
+  - description: Ezra Church, GA (1864-07-28)
+    id: GA018
+  battles_from:
+  - description: Ezra Chapel (Atlanta Campaign) (1864-7-28)
+    id: U157E
+  relation: eq
+
 - battles_cwsac:
   - description: Utoy Creek, GA (1864-08-05 to 1864-08-07)
     id: GA019
   - description: Dalton II, GA (1864-08-14 to 1864-08-15)
     id: GA020
-  - description: Lovejoy's Station, GA (1864-08-20)
-    id: GA021
   battles_from:
   - description: Atlanta Campaign, Ga. (1864-8-1 to 1864-8-31)
     id: U158
   relation: eq
+  comment: >
+    Put Lovejoy's Station in Sept 1 even though it was on Aug 20th since
+    it is mentioned by name in the footnote for that
+
+- battles_cwsac:
+  - description: Utoy Creek, GA (1864-08-05 to 1864-08-07)
+    id: GA019
+  battles_from:
+  - description: Utoy Creek Aug 5, 6
+    id: U158A
+  relation: eq
+
 - battles_cwsac:
   - description: Jonesborough, GA (1864-08-31 to 1864-09-01)
     id: GA022
+  - description: Lovejoy's Station, GA (1864-08-20)
+    id: GA021
   battles_from:
   - description: Atlanta Campaign, Ga. (1864-9-1)
     id: U159
   relation: eq
+  comment: >
+    This includes Lovejoy's Station though it was on Aug 20th since
+    it is mentioned by name in the footnote.
+
 - battles_cwsac:
   - description: Wilderness, VA (1864-05-05 to 1864-05-06)
     id: VA046
@@ -942,6 +1058,18 @@
   - description: Spotsylvania, Va. (1864-5-8 to 1864-5-21)
     id: U162
   relation: eq
+- battles_cwsac:
+  - description: Spotsylvania Court House, VA (1864-05-08 to 1864-05-21)
+    id: VA048
+  battles_from:
+  - id: U162A
+  - id: U162B
+  - id: U162C
+  - id: U162D
+  - id: U162E
+  - id: U162F
+  relation: eq
+
 - battles_cwsac:
   - description: Port Walthall Junction, VA (1864-05-06 to 1864-05-07)
     id: VA047
@@ -1666,6 +1794,50 @@
   - description: Seven Days Battle, Va. (1862-6-25 to 1862-7-1)
     id: C25
   relation: eq
+
+- battles_cwsac:
+  - description: Oak Grove, VA (1862-06-25)
+    id: VA015
+  battles_from:
+  - id: C25A
+  relation: eq
+- battles_cwsac:
+  - description: Beaver Dam Creek, VA (1862-06-26)
+    id: VA016
+  battles_from:
+  - id: C25B
+  relation: eq
+- battles_cwsac:
+  - description: Gaines' Mill, VA (1862-06-27)
+    id: VA017
+  battles_from:
+  - id: C25C
+  relation: eq
+- battles_cwsac:
+  - description: Garnett's & Golding's Farms, VA (1862-06-27 to 1862-06-28)
+    id: VA018
+  battles_from:
+  - id: C25D
+  relation: eq
+- battles_cwsac:
+  - description: Savage's Station, VA (1862-06-29)
+    id: VA019
+  battles_from:
+  - id: C25E
+  relation: eq
+- battles_cwsac:
+  - description: Glendale/White Oak Swamp, VA (1862-06-30)
+    id: VA020
+  battles_from:
+  - id: C25F
+  relation: eq
+- battles_cwsac:
+  - description: Malvern Hill, VA (1862-07-01)
+    id: VA021
+  battles_from:
+  - id: C25G
+  relation: eq
+
 - battles_cwsac:
   - description: Baton Rouge, LA (1862-08-05)
     id: LA003
@@ -1853,6 +2025,13 @@
     id: C53
   relation: eq
 - battles_cwsac:
+  - description: Brandy Station, VA (1863-06-09)
+    id: VA035
+  battles_from:
+  - description: Beverly Ford, Va. (1863-6-9)
+    id: C53A
+  relation: eq
+- battles_cwsac:
   - description: Upperville, VA (1863-06-21)
     id: VA038
   battles_from:
@@ -2009,6 +2188,22 @@
     id: C80
   relation: eq
 - battles_cwsac:
+  - id: GA007
+  - id: GA008
+  - id: GA009
+  battles_from:
+  - description: Rocky Face Ridge; Resaca (Atlanta Campaign) (1864-5-7 to 1864-5-20)
+    id: C83
+  relation: eq
+- battles_cwsac:
+  - id: GA010
+  - id: GA011
+  - id: GA012
+  battles_from:
+  - description: New Hope Church; Dallas (Atlanta Campaign) (1864-5-20 to 1864-6-4)
+    id: C84
+  relation: eq
+- battles_cwsac:
   - description: Marietta Operations, GA (1864-06-10 to 1864-07-03)
     id: GA013
   - description: Kennesaw Mountain, GA (1864-06-27)
@@ -2017,7 +2212,7 @@
     id: GA014
   battles_from:
   - description: Kenesaw Mountain (Atlanta Campaign) (1864-6-4 to 1864-7-4)
-    id: C82
+    id: C85
   relation: eq
 - battles_cwsac:
   - description: Peachtree Creek, GA (1864-07-20)
@@ -2026,7 +2221,7 @@
     id: GA017
   battles_from:
   - description: Peach Tree Creek; Atlanta (Atlanta Campaign) (1864-7-4 to 1864-7-31)
-    id: C83
+    id: C86
   relation: eq
 - battles_cwsac:
   - description: Utoy Creek, GA (1864-08-05 to 1864-08-07)
@@ -2035,68 +2230,77 @@
     id: GA022
   battles_from:
   - description: Utoy Creek; Jonesboro (Atlanta Campaign) (1864-7-31 to 1864-9-1)
-    id: C84
+    id: C87
+  relation: eq
+- battles_cwsac:
+  - description: Utoy Creek, GA (1864-08-05 to 1864-08-07)
+    id: GA019
+  - description: Jonesborough, GA (1864-08-31 to 1864-09-01)
+    id: GA022
+  battles_from:
+  - description: Utoy Creek; Jonesboro (Atlanta Campaign) (1864-7-31 to 1864-9-1)
+    id: C87A
   relation: eq
 - battles_cwsac:
   - description: New Market, VA (1864-05-15)
     id: VA110
   battles_from:
   - description: New Market, Va. (1864-5-15)
-    id: C86
+    id: C89
   relation: eq
 - battles_cwsac:
   - description: Brices Cross Roads, MS (1864-06-10)
     id: MS014
   battles_from:
   - description: Brice's Cross Roads, Miss. (1864-6-10 to 1864-6-11)
-    id: C87
+    id: C90
   relation: eq
 - battles_cwsac:
   - description: Tupelo, MS (1864-07-14 to 1864-07-15)
     id: MS015
   battles_from:
   - description: Tupelo, Miss. (1864-7-13 to 1864-7-15)
-    id: C89
+    id: C92
   relation: eq
 - battles_cwsac:
   - description: Opequon, VA (1864-09-19)
     id: VA119
   battles_from:
   - description: Opequon, Va. (1864-9-19)
-    id: C90
+    id: C93
   relation: eq
 - battles_cwsac:
   - description: Fisher's Hill, VA (1864-09-21 to 1864-09-22)
     id: VA120
   battles_from:
   - description: Fisher's Hill, Va. (1864-9-22)
-    id: C91
+    id: C94
   relation: eq
 - battles_cwsac:
   - description: Allatoona, GA (1864-10-05)
     id: GA023
   battles_from:
   - description: Allatoona Pass, Ga. (1864-10-5)
-    id: C92
+    id: C95
   relation: eq
 - battles_cwsac:
   - description: Cedar Creek, VA (1864-10-19)
     id: VA122
   battles_from:
   - description: Cedar Creek, Va. (1864-10-19)
-    id: C93
+    id: C96
   relation: eq
 - battles_cwsac:
   - description: Averasborough, NC (1865-03-16)
     id: NC019
   battles_from:
   - description: Averasboro, N. C. (1865-3-16)
-    id: C94
+    id: C97
   relation: eq
 - battles_cwsac:
   - description: Bentonville, NC (1865-03-19 to 1865-03-21)
     id: NC020
   battles_from:
   - description: Bentonville, N. C. (1865-3-19)
-    id: C95
+    id: C98
   relation: eq

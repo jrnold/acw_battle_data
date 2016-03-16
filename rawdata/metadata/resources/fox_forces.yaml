@@ -1,13 +1,13 @@
 format: csv
-name: fox_forces
-path: data/fox_forces.csv
+name: fox_forces2
+path: data/fox_forces2.csv
 schema:
   fields:
   - constraints:
       pattern: '[UC][1-9]+'
     description: 'Unique battle identifier.
 
-      These are different than those in :doc:`fox_forces2`.
+      These are different than those in :doc:`fox_forces`.
 
       '
     name: battle_id
@@ -29,7 +29,7 @@ schema:
       maxLength: 2
       minLength: 2
       pattern: '[A-Z]{2}'
-    description: State in which the battle took place
+    description: State in which the battle took place.
     format: default
     name: state
     title: State
@@ -54,14 +54,11 @@ schema:
     name: casualties
     title: casualties
     type: integer
-  - format: default
-    name: '0'
-    title: '0'
-    type: integer
-  - format: default
-    name: comment
-    title: comment
-    type: string
+  - description: Was this a cavalry battle?
+    format: default
+    name: cavalry
+    title: cavalry
+    type: boolean
   - description: Start date of the battle
     format: default
     name: start_date
@@ -72,9 +69,13 @@ schema:
     name: end_date
     title: end_date
     type: date
+  - format: default
+    name: orig_id
+    title: orig_id
+    type: string
   primaryKey:
   - belligerent
   - battle_name
 sources:
 - fox1898regimental
-title: Fox (1898) battle casualties
+title: Fox (1898) battle casualties (revised)

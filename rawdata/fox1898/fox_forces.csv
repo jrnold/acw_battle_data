@@ -1,369 +1,408 @@
-battle_id,belligerent,battle_name,state,killed,wounded,missing,casualties,0,comment,start_date,end_date
-U1,US,"Big Bethel, Va.",VA,18,53,5,76,0,,1861-6-10,1861-6-10
-U2,US,"Carthage, Mo.",MO,13,31,0,44,0,,1861-7-5,1861-7-5
-U3,US,"Rich Mountain, W. Va.",WV,12,49,0,61,0,,1861-7-11,1861-7-11
-U4,US,"Blackburn's Ford, Va.",VA,19,38,26,83,0,,1861-7-18,1861-7-18
-U5,US,"First Bull Run, Va.",VA,470,1071,1793,3334,0,,1861-7-21,1861-7-21
-U6,US,"Wilson's Creek, Mo.",MO,223,721,291,1235,0,,1861-8-10,1861-8-10
-U7,US,"Carnifex Ferry, W. Va.",WV,17,141,0,158,0,,1861-9-10,1861-9-10
-U8,US,"Greenbrier River, W. Va.",WV,8,35,0,43,0,,1861-10-3,1861-10-3
-U9,US,"Ball's Bluff, Va.",VA,49,158,714,921,0,,1861-10-21,1861-10-21
-U10,US,"Belmont, Mo.",MO,80,322,99,501,0,,1861-11-7,1861-11-7
-U11,US,"Camp Alleghany, W. Va.",WV,20,107,10,137,0,,1861-12-13,1861-12-13
-U12,US,"Dranesville, Va.",VA,7,61,0,68,0,,1861-12-20,1861-12-20
-U13,US,"Mill Springs, Ky.",KY,39,207,0,246,0,,1862-1-19,1862-1-19
-U14,US,"Roanoke Island, N. C.",NC,37,214,13,264,0,,1862-2-8,1862-2-8
-U15,US,"Fort Donelson, Tenn.",TN,500,2108,224,2832,0,,1862-2-15,1862-2-15
-U16,US,"New Madrid, Mo.",MO,8,21,3,32,0,,1862-3-1,1862-3-14
-U17,US,"Pea Ridge, Mo.",MO,203,980,201,1384,0,,1862-3-6,1862-3-8
-U18,US,"New Berne, N. C.",NC,90,380,1,471,0,,1862-3-14,1862-3-14
-U19,US,"Kernstown, Va.",VA,118,450,22,590,0,,1862-3-23,1862-3-23
-U20,US,"Shiloh, Tenn.",TN,1754,8408,2885,13047,0,,1862-4-6,1862-4-7
-U21,US,"Camden, N. C. (South Mills)",NC,13,101,13,127,0,,1862-4-19,1862-4-19
-U22,US,"Farmington, Miss.",MS,16,148,14,178,0,,1862-5-9,1862-5-9
-U23,US,"Williamsburg, Va.",VA,456,1410,373,2239,0,,1862-5-5,1862-5-5
-U24,US,"West Point, Va.",VA,48,110,28,186,0,,1862-5-7,1862-5-7
-U25,US,"McDowell, Va.",VA,26,227,3,256,0,,1862-5-8,1862-5-8
-U26,US,"Princeton, W. Va.",WV,23,69,21,113,0,,1862-5-16,1862-5-17
-U27,US,"Russell House, Miss.",MS,10,31,0,41,0,,1862-5-17,1862-5-17
-U28,US,"Lewisburg, W. Va.",WV,13,53,7,73,0,,1862-5-23,1862-5-23
-U29,US,"Front Royal and Winchester, Va.",VA,62,243,1714,2019,0,,1862-5-23,1862-5-25
-U30,US,"Hanover Court House, Va.",VA,62,223,70,355,0,,1862-5-27,1862-5-27
-U31,US,"Fair Oaks, Va. (Seven Pines)",VA,790,3594,647,5031,0,,1862-5-31,1862-5-31
-U32,US,"Cross Keys, Va.",VA,114,443,127,684,0,,1862-6-8,1862-6-8
-U33,US,"Port Republic, Va.",VA,67,393,558,1018,0,,1862-6-9,1862-6-9
-U34,US,"Secessionville, S. C.",SC,107,487,89,683,0,,1862-6-16,1862-6-16
-U35,US,"Oak Grove, Va.",VA,67,504,55,626,0,,1862-6-25,1862-6-25
-U36,US,"Mechanicsville, Va.",VA,49,207,105,361,0,,1862-6-26,1862-6-26
-U37,US,"Gaines's Mill, Va.",VA,894,3107,2836,6837,0,,1862-6-27,1862-6-27
-U38,US,"Golding's Farm, Va.",VA,37,227,104,368,0,"Includes loss at Garnett's Farm on the previons day,",1862-6-28,1862-6-28
-U39,US,"Savage Station, va",VA,80,412,1098,1590,0,Includes loss at Peach Orchard (or Allen's Farm) on same day.,1862-6-29,1862-6-29
-U40,US,"Glendale, Va.",VA,210,1513,1130,2853,0,"Includes loss at White Oak Swamp, and Charles City Cross Roads.",1862-6-30,1862-6-30
-U41,US,"Malvern Hill, Va.",VA,397,2092,725,3214,0,,1862-7-1,1862-7-1
-U42,US,"Seven Days Battle, Va.",VA,1734,8062,6053,15849,1,,1862-6-25,1862-7-1
-U43,US,"Bayou Cache, Ark.",AR,6,57,0,63,0,,1862-7-7,1862-7-7
-U44,US,"Murfreesboro, Tenn.",TN,19,120,46,185,0,Not including men surrendered in the capitulation.,1862-7-13,1862-7-13
-U45,US,"Baton Rouge, La.",LA,84,266,33,383,0,,1862-8-5,1862-8-5
-U46,US,"Cedar Mountain, Va.",VA,314,1445,622,2381,0,,1862-8-9,1862-8-9
-U47,US,"Manassas, Va.",VA,1747,8452,4263,14462,0,"Includes Bristoe Station, Groveton, Gainesville, Chantilly and the Rappahannock.",1862-8-16,1862-8-31
-U48,US,"Richmond, Ky.",KY,206,844,4303,5353,0,,1862-8-30,1862-8-30
-U49,US,"Fayetteville, W. Va.",WV,25,95,190,310,0,,1862-9-10,1862-9-11
-U50,US,"Harper's Ferry, Va.",VA,44,173,12520,12737,0,,1862-9-12,1862-9-15
-U51,US,"Crampton's Gap, Md",MD,113,418,2,533,0,,1862-9-14,1862-9-14
-U52,US,"South Mountain, Md",MD,325,1403,85,1813,0,,1862-9-14,1862-9-14
-U53,US,"Munfordville, Ky.",KY,15,57,4076,4148,0,,1862-9-14,1862-9-16
-U54,US,"Antietam, Md",MD,2108,9549,753,12410,0,,1862-9-17,1862-9-17
-U55,US,"Iuka, Miss.",MS,141,613,36,790,0,,1862-9-19,1862-9-19
-U56,US,"Shepherdstown Ford, Va.",VA,71,161,131,363,0,,1862-9-19,1862-9-20
-U57,US,"Corinth, Miss.",MS,355,1841,324,2520,0,,1862-10-3,1862-10-4
-U58,US,"Hatchie Bridge, Miss.",MS,46,493,31,570,0,,1862-10-5,1862-10-5
-U59,US,"Chaplin Hills, Ky.",KY,845,2851,515,4211,0,,1862-10-8,1862-10-8
-U60,US,"Lawrenceburg, Ky. (Dog Walk)",KY,8,20,13,41,0,,1862-10-8,1862-10-9
-U61,US,"Pocotaligo, S. C.",SC,43,294,3,340,0,,1862-10-22,1862-10-22
-U62,US,"Georgia Landing, La.",LA,18,74,5,97,0,,1862-10-27,1862-10-27
-U63,US,"Coffeeville, Miss.",MS,10,63,41,114,0,,1862-12-5,1862-12-5
-U64,US,"Hartsville, Tenn.",TN,58,204,1834,2096,0,,1862-12-7,1862-12-7
-U65,US,"Prairie Grove, Ark.",AR,175,813,263,1251,0,,1862-12-7,1862-12-7
-U66,US,"Kinston; Goldsborough, N. C.",NC,92,487,12,591,0,,1862-12-12,1862-12-17
-U67,US,"Fredericksburg, Va.",VA,1284,9600,1769,12653,0,,1862-12-13,1862-12-13
-U68,US,"Chickasaw Bluffs, Miss.",MS,208,1005,563,1776,0,,1862-12-28,1862-12-29
-U69,US,"Parker's Cross Roads, Tenn.",TN,27,140,70,237,0,,1862-12-30,1862-12-30
-U70,US,"Stone's River, Tenn.",TN,1730,7802,3717,13249,0,"Includes loss at Knob Gap, Dec. 26th; and at Jefferson Dec. 30th; also, losses Jan. 1, 2, 1863.",1862-12-31,1862-12-31
-U71,US,"Springfield, Mo.",MO,14,146,5,165,0,,1863-1-7,1863-1-8
-U72,US,"Hartsville, Mo.",MO,7,64,2,73,0,,1863-1-11,1863-1-11
-U73,US,"Arkansas Post, Ark.",AR,134,898,29,1061,0,,1863-1-11,1863-1-11
-U74,US,"Deserted House, Va.",VA,23,108,12,143,0,,1863-1-30,1863-1-30
-U75,US,"Fort Donelson, Tenn.",TN,14,54,10,78,0,,1863-2-3,1863-2-3
-U76,US,"Thompson's Station, Tenn.",TN,48,247,1151,1446,0,,1863-3-4,1863-3-5
-U77,US,"Kelly's Ford, Va.",VA,6,50,22,78,0,,1863-3-17,1863-3-17
-U78,US,"Fort Bisland, La.",LA,40,184,,224,0,,1863-4-13,1863-4-13
-U79,US,"Irish Bend, La.",LA,49,274,30,353,0,,1863-4-14,1863-4-14
-U80,US,"Siege of Suffolk, Va.",VA,41,223,2,266,0,,1863-4-11,1863-4-30
-U81,US,"Magnolia Hills, Miss.",MS,131,719,25,875,0,"Port Gibson, Miss.",1863-5-1,1863-5-1
-U82,US,"Chancellorsville, Va.",VA,1606,9762,5919,17287,0,"Includes loss at Marye's Heights and Salem Church, viz.; 493 killed, 2,710 wounded, 1,497 missing. Also, loss at Fitzhugh's Crossing.",1863-5-1,1863-5-4
-U83,US,"Raymond, Miss.",MS,66,339,37,442,0,,1863-5-12,1863-5-12
-U84,US,"Jackson, Miss.",MS,42,251,7,300,0,,1863-5-14,1863-5-14
-U85,US,"Champion's Hill, Miss.",MS,410,1844,187,2441,0,,1863-5-16,1863-5-16
-U86,US,"Black River Bridge, Miss.",MS,39,237,3,279,0,,1863-5-17,1863-5-17
-U87,US,"Assault on Vicksburg, Miss.",MS,157,777,8,942,0,,1863-5-19,1863-5-19
-U88,US,"Assault on Vicksburg, Miss.",MS,502,2550,147,3199,0,,1863-5-22,1863-5-22
-U89,US,"Vicksburg Trenches, Miss.",MS,147,613,9,769,0,,1863-5-23,1863-7-4
-U90,US,"Plain's Store, La.",LA,15,71,14,100,0,,1863-5-21,1863-5-21
-U91,US,"Assault on Port Hudson, La.",LA,293,1545,157,1995,0,,1863-5-27,1863-5-27
-U92,US,"Assault on Port Hudson, La.",LA,203,1401,162,1766,0,,1863-6-14,1863-6-14
-U93,US,"Port Hudson Trenches, La.",LA,211,390,0,601,0,,1863-5-26,1863-7-9
-U94,US,"Franklin's Crossing, Va.",VA,9,48,0,57,0,,1863-6-5,1863-6-5
-U95,US,"Milliken's Bend, La.",LA,118,310,0,428,0,,1863-6-6,1863-6-8
-U96,US,"Beverly Ford, Va.",VA,81,403,382,866,0,Cavalry engagement.,1863-6-9,1863-6-9
-U97,US,"Winchester, Va.",VA,95,348,4000,4443,0,,1863-6-13,1863-6-15
-U98,US,"Aldie, Va.",VA,50,131,124,305,0,Cavalry engagement.,1863-6-17,1863-6-17
-U99,US,"Middleburg, Va.",VA,16,46,37,99,0,Cavalry engagement.,1863-6-19,1863-6-19
-U100,US,"Upperville, Va.",VA,12,130,67,209,0,Cavalry engagement.,1863-6-21,1863-6-21
-U101,US,"La Fourche Crossing, La.",LA,8,40,0,48,0,,1863-6-21,1863-6-21
-U102,US,"Hill's Plantation, Miss.",MS,10,9,28,47,0,,1863-6-22,1863-6-22
-U103,US,"Hoover's Gap, Tenn.",TN,27,177,2,206,0,,1863-6-24,1863-6-24
-U104,US,"Liberty Gap, Tenn.",TN,42,232,1,275,0,,1863-6-25,1863-6-25
-U105,US,"Shelbyville, Tenn.",TN,15,64,10,89,0,Includes losses at Guy's Gap and Middleton.,1863-6-27,1863-6-27
-U106,US,"Morgan's Raid, Ky.",KY,19,47,8,74,0,,1863-7-2,1863-7-26
-U107,US,"Helena, Ark.",AR,57,146,36,239,0,,1863-7-4,1863-7-4
-U108,US,"Jackson, Miss.",MS,129,762,231,1122,0,,1863-7-9,1863-7-16
-U109,US,"Hanover, Pa",PA,19,73,123,215,0,Cavalry engagement.,1863-6-30,1863-6-30
-U110,US,"Gettysburg, Pa",PA,3070,14497,5434,23001,0,,1863-7-1,1863-7-3
-U111,US,"Hagerstown, Md",MD,19,50,194,263,0,Cavalry engagement.,1863-7-6,1863-7-6
-U112,US,"Williamsport, Md",MD,14,37,69,120,0,Cavalry engagement.,1863-7-6,1863-7-6
-U113,US,"Boonsborough, Md",MD,8,54,18,80,0,Cavalry engagement.,1863-7-7,1863-7-9
-U114,US,"Hagerstown, Md",MD,5,31,13,49,0,Cavalry engagement.,1863-7-11,1863-7-11
-U115,US,"Funkstown, Md",MD,14,77,6,97,0,,1863-7-12,1863-7-12
-U116,US,"Falling Waters, Md",MD,31,58,32,121,0,Cavalry engagement.,1863-7-14,1863-7-14
-U117,US,"Shepherdstown, Va.",VA,8,72,24,104,0,Cavalry engagement.,1863-7-16,1863-7-16
-U118,US,"Assault on Fort Wagner, S. C.",SC,49,123,167,339,0,,1863-7-11,1863-7-11
-U119,US,"Assault on Fort Wagner, S. C.",SC,246,880,389,1515,0,,1863-7-18,1863-7-18
-U120,US,"Siege of Fort Wagner, S. C.",SC,71,278,9,358,0,,1863-7-1,1863-7-31
-U121,US,"Donaldsonville, La.",LA,56,223,186,465,0,,1863-7-13,1863-7-13
-U122,US,"Manassas Gap, Va.",VA,9,12,8,29,0,Cavalry engagement.,1863-7-21,1863-7-21
-U123,US,"Wapping Heights, Va.",VA,20,83,0,103,0,,1863-7-23,1863-7-23
-U124,US,"Brandy Station, Va.",VA,21,104,20,145,0,Cavalry engagement.,1863-8-1,1863-8-1
-U125,US,"White Sulphur Springs, Va.",VA,26,125,67,218,0,Cavalry engagement.,1863-8-26,1863-8-27
-U126,US,"Chickamauga, Ga.",GA,1656,9749,4774,16179,0,,1863-9-19,1863-9-20
-U127,US,"Morganzia, La.",LA,16,45,453,514,0,,1863-9-29,1863-9-29
-U128,US,"Bristoe Station, Va.",VA,50,335,161,546,0,,1863-10-14,1863-10-14
-U129,US,"Philadelphia, Tenn.",TN,7,25,447,479,0,,1863-10-20,1863-10-20
-U130,US,"Wauhatchie, Tenn.",TN,75,300,8,383,0,,1863-10-27,1863-10-27
-U131,US,"Grand Coteau, La.",LA,25,129,562,716,0,,1863-11-3,1863-11-3
-U132,US,"Droop Mountain, W. Va.",WV,30,88,1,119,0,,1863-11-6,1863-11-6
-U133,US,"Rappahannock Station, Va.",VA,83,328,6,417,0,,1863-11-7,1863-11-7
-U134,US,"Kelly's Ford, Va.",VA,6,39,0,45,0,,1863-11-7,1863-11-7
-U135,US,"Campbell's Station, Tenn.",TN,31,211,74,316,0,,1863-11-16,1863-11-16
-U136,US,"Siege of Knoxville, Tenn.",TN,92,393,202,687,0,,1863-11-1,1863-11-30
-U137,US,"Chattanooga, Tenn.",TN,687,4346,349,5382,0,"Or, Missionary Ridge; Includes Orchard Knob, Nov. 23 (loss about 200); and Lookout Mountain, Nov. 24 (500).",1863-11-23,1863-11-25
-U138,US,"Ringgold; Graysville, Ga.",GA,65,367,0,432,0,,1863-11-27,1863-11-27
-U139,US,"Mine Run Campaign, Va.",VA,173,1099,381,1653,0,,1863-11-26,1863-11-30
-U140,US,"Walker's Ford, W. Va.",WV,9,43,12,64,0,,1863-12-2,1863-12-2
-U141,US,"Bean's Station, Tenn.",TN,16,51,48,115,0,,1863-12-14,1863-12-14
-U142,US,"Mossy Creek, Tenn.",TN,18,86,5,109,0,,1863-12-29,1863-12-29
-U143,US,"Bachelor's Creek, N. C.",NC,9,15,302,326,0,,1864-2-1,1864-2-3
-U144,US,"Morton's Ford, Va.",VA,10,208,42,260,0,,1864-2-6,1864-2-6
-U145,US,"Olustee, Fla.",FL,203,1152,506,1861,0,,1864-2-20,1864-2-20
-U146,US,"Buzzard's Roost, Ga.",GA,17,272,0,289,0,,1864-2-27,1864-2-27
-U147,US,"Yazoo City, Miss.",MS,21,89,21,131,0,,1864-3-5,1864-3-5
-U148,US,"Okolona, Ark.",AR,16,74,0,90,0,,1864-4-3,1864-4-3
-U149,US,"Sabine Cross Roads, La and Pleasant Hill, La.",LA,258,1487,1772,3517,0,,1864-4-8,1864-4-9
-U150,US,"Plymouth, N. C.",NC,20,80,1500,1600,0,,1864-4-17,1864-4-20
-U151,US,"Cane River, La.",LA,40,160,0,200,0,,1864-4-23,1864-4-23
-U152,US,"Marks's Mills, Ark.",AR,100,250,100,450,0,,1864-4-25,1864-4-25
-U153,US,"Jenkins's Ferry, Ark.",AR,64,378,86,528,0,,1864-4-30,1864-4-30
-U154,US,"Alexandria, La.",LA,23,67,21,111,0,,1864-5-1,1864-5-1
-U155,US,"Atlanta Campaign, Ga.",GA,1458,7436,405,9299,1,"Includes Rocky Face Ridge, May 5-9 (loss about 900); Resaca, May 13-15 (3,000); New Hope Church, May 25 (1,000); Pickett's Mills, May 27 (1,900); Dallas, May 28-31 (1,800); Adairsville, Cassville, Rome Cross Roads, etc.",1864-5-5,1864-5-31
-U156,US,"Atlanta Campaign, Ga.",GA,1125,5740,665,7530,0,"Includes Dallas, June 1-4 (900); Pine Mountain, June 14-19 (1,100); Culp's House, June 22 (700); Kenesaw Mountain, June 20-30 (1,200); Assault on Kenesaw, June 27 (3,000); Lattimore's Mill; Powder Springs, etc.",1864-6-1,1864-6-30
-U157,US,"Atlanta Campaign, Ga.",GA,1110,5915,2694,9719,0,"Includes Nickajack Creek, July 2-5 (450); Chattahoochie, July 6-10 (850); Peach Tree Creek, July 20 (2,200); Atlanta, July 21, 22 (4,200); Ezra Chapel, July 28 (850); and others.",1864-7-1,1864-7-31
-U158,US,"Atlanta Campaign, Ga.",GA,453,2318,466,3237,0,"Includes Utoy Creek, Aug. 5, 6 (800); and Siege of Atlanta.",1864-8-1,1864-8-31
-U159,US,"Atlanta Campaign, Ga.",GA,277,1413,212,1902,0,Jonesboro and Lovejoy's Station.,1864-9-1,1864-9-1
-U160,US,"Atlanta Campaign, Ga.",GA,4423,22822,4442,31687,1,,1864-5-5,1864-9-1
-U161,US,"Wilderness, Va.",VA,2246,12037,3383,17666,0,,1864-5-5,1864-5-7
-U162,US,"Spotsylvania, Va.",VA,2725,13416,2258,18399,0,"Includes Alsop's Farm, May 8 (loss about 1,800); Po River, Laurel Hill, and Upton's Charge, May 10 (5,000); Hancock's Assault, the ��_��_��_Angle,��_�� and general attack of May 12 (8,500); Spotsylvania, May 18 (800); Fredericksburg Pike, May 19 (1,400); Todd's Tavern; Corbin's Bridge; Ny River; Guinea Station etc.",1864-5-8,1864-5-21
-U163,US,"Walthall; Chester Station, Va.",VA,48,256,70,374,0,,1864-5-6,1864-5-7
-U164,US,"Arrowfield Church, Va.",VA,36,188,19,243,0,,1864-5-9,1864-5-10
-U165,US,"Drewry's Bluff, Va.",VA,390,2380,1390,4160,0,,1864-5-12,1864-5-16
-U166,US,"Ware Bottom Church, Va.",VA,103,796,49,948,0,,1864-5-18,1864-5-20
-U167,US,"Bermuda Hundred, Va.",VA,18,89,21,128,0,,1864-5-21,1864-5-31
-U168,US,"Kautz's Cavalry Raid, Va.",VA,14,60,31,105,0,Cavalry engagements.,1864-5-7,1864-5-16
-U169,US,"Cloyd's Mountain, W. Va.",WV,108,508,72,688,0,,1864-5-9,1864-5-10
-U170,US,"Yellow Tavern, Va.",VA,35,142,82,259,0,Cavalry engagements.,1864-5-11,1864-5-11
-U171,US,"Meadow Bridges, Va.",VA,15,128,27,170,0,Cavalry engagements.,1864-5-12,1864-5-12
-U172,US,"Newmarket, Va.",VA,93,482,256,831,0,,1864-5-15,1864-5-15
-U173,US,"Bayou Glaize, La.",LA,54,261,6,321,0,,1864-5-18,1864-5-18
-U174,US,"North Anna, Va.",VA,186,942,165,1293,0,,1864-5-23,1864-5-27
-U175,US,"Totopotomoy, Va.",VA,101,518,52,671,0,,1864-5-28,1864-5-31
-U176,US,"Sheridan's Cavalry, Va.",VA,110,450,96,656,0,Cavalry engagements.,1864-5-25,1864-5-30
-U177,US,"Bethesda Church, Va.",VA,194,824,348,1366,0,,1864-6-1,1864-6-1
-U178,US,"Cold Harbor, Va.",VA,1844,9077,1816,12737,0,"Includes assault of Sixth and Eighteenth Corps, June 1; also, losses of the Fifth and Ninth Corps at Bethesda Church on June 2d and subsequently; also, Cavalry Corps at Cold Harbor, May 31 and June 1; also, loss in the trenches at Cold Harbor, June 4-14.",1864-6-2,1864-6-4
-U179,US,"Bermuda Hundred, Va.",VA,25,134,98,257,0,,1864-6-1,1864-6-14
-U180,US,"Piedmont, Va.",VA,130,650,0,780,0,,1864-6-5,1864-6-5
-U181,US,"Brice's Cross Roads, Miss.",MS,223,394,1623,2240,0,,1864-6-10,1864-6-10
-U182,US,"Lynchburg, Va.",VA,103,564,271,938,0,,1864-6-17,1864-6-18
-U183,US,"Trevilian Station, Va.",VA,102,470,435,1007,0,Cavalry engagements.,1864-6-11,1864-6-12
-U184,US,"White House, Va.",VA,10,51,22,83,0,Cavalry engagements.,1864-6-21,1864-6-21
-U185,US,"St. Mary's Church, Va.",VA,29,188,122,339,0,Cavalry engagements.,1864-6-24,1864-6-24
-U186,US,"Petersburg Assault, Va.",VA,1688,8513,1185,11386,0,,1864-6-15,1864-6-19
-U187,US,"Jerusalem Road, Va.",VA,142,654,2166,2962,0,"Known, also, as Weldon Railroad, and Williams's Farm.",1864-6-22,1864-6-22
-U188,US,"Wilson's Raid, Va.",VA,71,262,1119,1452,0,Cavalry engagements.,1864-6-22,1864-6-29
-U189,US,"Petersburg Trenches, Va.",VA,112,506,151,769,0,,1864-6-20,1864-6-30
-U190,US,"Fort Johnson, S. C.",SC,19,97,135,251,0,,1864-7-2,1864-7-2
-U191,US,"John's Island, S. C.",SC,16,82,12,110,0,,1864-7-5,1864-7-7
-U192,US,"Monocacy, Md",MD,123,603,568,1294,0,,1864-7-9,1864-7-9
-U193,US,"Fort Stevens, D. C",DC,54,319,0,373,0,,1864-7-12,1864-7-12
-U194,US,"Tupelo, Miss.",MS,59,453,16,528,0,,1864-7-13,1864-7-13
-U195,US,"Island Ford, Va.",VA,65,301,56,422,0,,1864-7-18,1864-7-18
-U196,US,"Carter's Farm, Va.",VA,37,175,30,242,0,,1864-7-20,1864-7-20
-U197,US,"Winchester, Va.",VA,134,678,391,1203,0,,1864-7-24,1864-7-24
-U198,US,"Strawberry Plains, Va.",VA,62,340,86,488,0,,1864-7-26,1864-7-29
-U199,US,"Petersburg Mine, Va.",VA,504,1881,1413,3798,0,,1864-7-30,1864-7-30
-U200,US,"Petersburg Trenches, Va.",VA,349,1587,145,2081,0,,1864-7-1,1864-7-31
-U201,US,"White Post, Va.",VA,30,70,200,300,0,Cavalry engagements.,1864-8-11,1864-8-11
-U202,US,"Deep Bottom, Va.",VA,327,1851,721,2899,0,,1864-8-14,1864-8-16
-U203,US,"Weldon Railroad, Va.",VA,251,1148,2879,4278,0,,1864-8-18,1864-8-20
-U204,US,"Halltown, Va.",VA,9,37,16,62,0,,1864-8-24,1864-8-24
-U205,US,"Ream's Station, Va.",VA,140,529,2073,2742,0,,1864-8-25,1864-8-25
-U206,US,"Smithfield, Va.",VA,20,61,100,181,0,Cavalry engagements.,1864-8-25,1864-8-25
-U207,US,"Halltown, Va.",VA,30,141,0,171,0,,1864-8-26,1864-8-26
-U208,US,"Smithfield, Va.",VA,10,90,0,100,0,,1864-8-29,1864-8-29
-U209,US,Siege of Petersburg,VA,158,623,296,1077,0,Includes operations on the north side of the James.,1864-8-1,1864-8-31
-U210,US,"Berryville, Va.",VA,30,182,100,312,0,,1864-9-3,1864-9-3
-U211,US,"Opequon, Va.",VA,697,3983,338,5018,0,,1864-9-19,1864-9-19
-U212,US,"Fisher's Hill, Va.",VA,52,457,19,528,0,,1864-9-22,1864-9-22
-U213,US,"Fort Davidson, Mo.",MO,28,56,100,184,0,Cavalry engagements.,1864-9-26,1864-9-26
-U214,US,"Chaffin's Farm, Va.",VA,383,2299,645,3327,0,,1864-9-28,1864-9-28
-U215,US,"Poplar Spring Church, Va.",VA,187,900,1802,2889,0,"Known, also, as Peebles's Farm, and Pegram's Farm.",1864-9-30,1864-9-30
-U216,US,"Petersburg Trenches, Va.",VA,74,304,424,802,0,Includes operations on the north side of the James.,1864-9-1,1864-9-30
-U217,US,"Saltville, Va.",VA,54,190,104,348,0,Cavalry engagements.,1864-10-2,1864-10-2
-U218,US,"Allatoona Pass, Ga.",GA,142,352,212,706,0,,1864-10-5,1864-10-5
-U219,US,"Darbytown Road, Va.",VA,49,253,156,458,0,,1864-10-7,1864-10-7
-U220,US,"Tom's Brook; Woodstock, Va.",VA,9,67,0,76,0,Cavalry engagements.,1864-10-9,1864-10-9
-U221,US,"Strasburg, Va.",VA,30,144,40,214,0,Cavalry engagements.,1864-10-13,1864-10-13
-U222,US,"Darbytown Road, Va.",VA,36,358,43,437,0,,1864-10-13,1864-10-13
-U223,US,"Cedar Creek, Va.",VA,644,3430,1591,5665,0,,1864-10-19,1864-10-19
-U224,US,"Little Blue, Mo.",MO,18,83,14,115,0,Cavalry engagements.,1864-10-21,1864-10-21
-U225,US,"Independence, Mo.",MO,14,58,11,83,0,Cavalry engagements.,1864-10-22,1864-10-22
-U226,US,"Decatur, Ala.",VA,10,45,100,155,0,Cavalry engagements.,1864-10-26,1864-10-26
-U227,US,"Boydton Road, Va.",VA,166,1028,564,1758,0,Cavalry engagements.,1864-10-27,1864-10-27
-U228,US,"Darbytown Road; Fair Oaks, Va.",VA,118,787,698,1603,0,,1864-10-27,1864-10-27
-U229,US,"Petersburg Trenches, Va.",VA,159,520,633,1312,0,Includes operations on the north side of the James.,1864-10-1,1864-10-31
-U230,US,"Rood's Hill, Va.",VA,18,52,10,80,0,Cavalry engagements.,1864-11-22,1864-11-22
-U231,US,"Griswoldville, Ga.",GA,10,52,0,62,0,,1864-11-22,1864-11-22
-U232,US,"Honey Hill, S. C.",SC,91,631,26,748,0,,1864-11-30,1864-11-30
-U233,US,"Franklin, Tenn.",TN,189,1033,1104,2326,0,,1864-11-30,1864-11-30
-U234,US,Siege of Petersburg,VA,57,258,108,423,0,Includes operations on the north side of the James.,1864-11-1,1864-11-30
-U235,US,"Murfreesboro, Tenn.",TN,30,175,0,205,0,,1864-12-5,1864-12-5
-U236,US,"Deveaux's Neck, S. C.",SC,39,390,200,629,0,,1864-12-6,1864-12-9
-U237,US,"Fort McAllister, Ga.",GA,24,110,0,134,0,,1864-12-13,1864-12-13
-U238,US,"Nashville, Tenn.",TN,387,2558,112,3057,0,,1864-12-15,1864-12-16
-U239,US,"Marion, Va.",VA,18,58,0,76,0,,1864-12-18,1864-12-18
-U240,US,"Egypt Station, Miss.",MS,23,88,7,118,0,Cavalry engagements.,1864-12-28,1864-12-28
-U241,US,"Siege of Petersburg, Va.",VA,66,278,269,613,0,Includes operations on the north side of the James.,1864-12-1,1864-12-31
-U242,US,"Fort Fisher, N. C.",NC,184,749,22,955,0,,1865-1-15,1865-1-15
-U243,US,"Siege of Petersburg, Va.",VA,51,269,81,401,0,Includes operations on the north side of the James.,1865-1-1,1865-1-31
-U244,US,"Rivers's Bridge, S. C.",SC,18,70,4,92,0,,1865-2-3,1865-2-9
-U245,US,"Dabney's Mills, Va.",VA,171,1181,187,1539,0,"Known, also, as Hatcher's Run.",1865-2-5,1865-2-7
-U246,US,"James's Island, S. C.",SC,20,76,0,96,0,,1865-2-10,1865-2-10
-U247,US,"Sugar Loaf Battery, N. C.",NC,14,114,0,128,0,,1865-2-11,1865-2-11
-U248,US,"Town Creek, N. C.",NC,30,154,0,184,0,,1865-2-20,1865-2-20
-U249,US,"Siege of Petersburg, Va.",VA,43,257,72,372,0,Includes operations on the north side of the James.,1865-2-1,1865-2-28
-U250,US,"National Bridge, Fla.",FL,22,46,13,81,0,,1865-3-6,1865-3-6
-U251,US,"Wilcox's Bridge, N. C.",NC,64,319,953,1336,0,,1865-3-8,1865-3-10
-U252,US,"Monroe's Cross Roads, N. C.",NC,19,61,103,183,0,,1865-3-10,1865-3-10
-U253,US,"Averasboro, N. C.",NC,93,531,54,678,0,,1865-3-16,1865-3-16
-U254,US,"Bentonville, N. C.",NC,191,1168,287,1646,0,,1865-3-19,1865-3-19
-U255,US,"Fort Stedman, Va.",VA,72,450,522,1044,0,,1865-3-25,1865-3-25
-U256,US,"Petersburg, Va.",VA,103,864,209,1176,0,,1865-3-25,1865-3-25
-U257,US,"Gravelly Run, Va.",VA,55,306,22,383,0,,1865-3-29,1865-3-29
-U258,US,"White Oak Road, Va.",VA,177,1134,556,1867,0,,1865-3-31,1865-3-31
-U259,US,"Siege of Petersburg, Va.",VA,58,272,98,428,0,,1865-3-1,1865-3-31
-U260,US,"Dinwiddie C. H., Va.",VA,67,354,0,421,0,Cavalry engagements.,1865-3-31,1865-3-31
-U261,US,"Five Forks, Va.",VA,124,706,54,884,0,,1865-4-1,1865-4-1
-U262,US,"Selma, Ala.",VA,42,270,7,319,0,Cavalry engagements.,1865-4-2,1865-4-2
-U263,US,"Fall of Petersburg, Va.",VA,296,2565,500,3361,0,,1865-4-2,1865-4-2
-U264,US,"Namozin Church, Va.",VA,10,85,0,95,0,Cavalry engagements.,1865-4-3,1865-4-3
-U265,US,"Amelia Springs, Va.",VA,20,96,0,116,0,Cavalry engagements.,1865-4-5,1865-4-5
-U266,US,"Sailor's Creek, Va.",VA,166,1014,0,1180,0,,1865-4-6,1865-4-6
-U267,US,"Farmville, Va.",VA,58,504,9,571,0,,1865-4-7,1865-4-7
-U268,US,"Spanish Fort, Ala.",VA,100,695,0,795,0,,1865-4-8,1865-4-8
-U269,US,"Fort Blakely, Ala.",VA,113,516,0,629,0,,1865-4-9,1865-4-9
-U270,US,"Columbus; West Point, Ga.",GA,13,53,0,66,0,Cavalry engagements.,1865-4-16,1865-4-16
-C1,Confederate,"First Bull Run, Va.",VA,387,1582,13,1982,0,"Killed from Gen. Pillow's Report: Official Records, Vol. VII, p. 291.; Missing May include some of the wounded.",1861-7-21,1861-7-21
-C2,Confederate,"Wilson's Creek, Mo.",MO,265,800,30,1095,0,,1861-8-10,1861-8-10
-C3,Confederate,"Greenbrier River, W. Va.",WV,6,33,13,52,0,,1861-10-3,1861-10-3
-C4,Confederate,"Ball's Bluff, Va.",VA,36,117,2,155,0,,1861-10-21,1861-10-21
-C5,Confederate,"Belmont, Mo.",MO,105,419,117,641,0,,1861-11-7,1861-11-7
-C6,Confederate,"Camp Alleghany, W. Va.",WV,20,96,28,144,0,,1861-12-13,1861-12-13
-C7,Confederate,"Dranesville, Va.",VA,43,143,8,194,0,,1861-12-20,1861-12-20
-C8,Confederate,"Mill Springs, Ky.",KY,125,309,95,529,0,,1862-1-19,1862-1-19
-C9,Confederate,"Roanoke Island, N. C.",NC,23,58,2527,2608,0,,1862-2-8,1862-2-8
-C10,Confederate,"Fort Donelson, Tenn.",TN,466,1534,13829,15829,0,,1862-2-14,1862-2-16
-C11,Confederate,"New Berne, N. C.",NC,64,101,413,578,0,,1862-3-14,1862-3-14
-C12,Confederate,"Kernstown, Va.",VA,80,375,263,718,0,,1862-3-23,1862-3-23
-C13,Confederate,"Shiloh, Tenn.",TN,1723,8012,959,10694,0,,1862-4-6,1862-4-7
-C14,Confederate,"Camden, N. C.",NC,6,19,3,28,0,,1862-4-19,1862-4-19
-C15,Confederate,"Williamsburg, Va.",VA,288,975,297,1560,0,,1862-5-5,1862-5-5
-C16,Confederate,"West Point, Va.",VA,8,40,0,48,0,,1862-5-7,1862-5-7
-C17,Confederate,"McDowell, Va.",VA,75,423,0,498,0,,1862-5-8,1862-5-8
-C18,Confederate,"Front Royal; Winchester, Va.",VA,39,172,3,214,0,,1862-5-23,1862-5-25
-C19,Confederate,"Hanover C. H., Va.",VA,73,192,0,265,0,,1862-5-27,1862-5-27
-C20,Confederate,"Fair Oaks, Va.",VA,980,4749,405,6134,0,,1862-5-31,1862-5-31
-C21,Confederate,"Harrisonburg, Va.",VA,17,50,3,70,0,,1862-6-6,1862-6-6
-C22,Confederate,"Cross Keys, Va.",VA,56,392,47,495,0,,1862-6-8,1862-6-8
-C23,Confederate,"Port Republic, Va.",VA,78,533,4,615,0,,1862-6-9,1862-6-9
-C24,Confederate,"Secessionville, S. C.",SC,52,144,8,204,0,,1862-6-16,1862-6-16
-C25,Confederate,"Seven Days Battle, Va.",VA,3478,16261,875,20614,0,"Approximate division of loss: June 25, Oak Grove, 441; June 26, Mechanicsville, 1,365; June 27, Gaines's Mill, 8,751; June 28, Garnett's Farm, and Golding's Farm, 461; June 29, Savage Station and Peach Orchard, 626; June 30, White Oak Swamp and Glendale (or Charles City Cross Roads), 3,615, July 1, Malvern Hill, 5,355; total, 20,614.--Official Records, Vol. XI, Part II, pp. 973-984: Confederate Reports.",1862-6-25,1862-7-1
-C26,Confederate,"Baton Rouge, La.",LA,84,313,56,453,0,,1862-8-5,1862-8-5
-C27,Confederate,"Cedar Mountain, Va.",VA,223,1060,31,1314,0,,1862-8-9,1862-8-9
-C28,Confederate,"Richmond, Ky.",KY,78,372,1,451,0,,1862-8-30,1862-8-30
-C29,Confederate,"Manassas, Va.",VA,1481,7627,89,9197,0,"Includes Rappahannock and Chantilly; compiled from official reports of Longstreet, Jackson and Stuart.",1862-8-21,1862-9-2
-C30,Confederate,"Fayetteville, W. Va.",WV,16,32,0,48,0,,1862-9-10,1862-9-10
-C31,Confederate,"Maryland Campaign, Md",MD,1886,9348,1367,12601,0,"Includes Harper's Ferry, Crampton's Gap, South Mountain, Antietam, and Shepherdstown.",1862-9-12,1862-9-20
-C32,Confederate,"Munfordville, Ky.",KY,40,211,0,251,0,,1862-9-14,1862-9-17
-C33,Confederate,"Iuka, Miss.",MS,86,408,199,693,0,,1862-9-19,1862-9-19
-C34,Confederate,"Corinth, Miss.",MS,505,2150,2183,4838,0,"Includes loss at Hatchie River, October 5th.",1862-10-3,1862-10-5
-C35,Confederate,"Chaplin Hills, Ky.",KY,510,2635,251,3396,0,,1862-10-8,1862-10-8
-C36,Confederate,"Pocotaligo, S. C.",SC,21,124,18,163,0,,1862-10-22,1862-10-22
-C37,Confederate,"Coffeeville, Miss.",MS,7,43,10,60,0,,1862-12-5,1862-12-5
-C38,Confederate,"Hartsville, Tenn.",TN,21,104,14,139,0,,1862-12-7,1862-12-7
-C39,Confederate,"Prairie Grove, Ark.",AR,164,817,0,981,0,,1862-12-7,1862-12-7
-C40,Confederate,"Kinston, Whitehall, N. C.",VA,71,268,400,739,0,,1862-12-12,1862-12-17
-C41,Confederate,"Fredericksburg, Va.",VA,596,4068,651,5315,0,,1862-12-13,1862-12-13
-C42,Confederate,"Chickasaw Bluffs, Miss.",MS,57,120,10,187,0,,1862-12-26,1862-12-29
-C43,Confederate,"Stone's River, Tenn.",TN,1294,7945,1027,10266,0,,1862-12-31,1862-12-31
-C44,Confederate,"Springfield; Hartsville, Mo.",MO,32,201,29,262,0,,1863-1-2,1863-1-11
-C45,Confederate,"Deserted House, Va.",VA,8,31,0,39,0,,1863-1-30,1863-1-30
-C46,Confederate,"Thompson's Station, Tenn.",TN,56,289,12,357,0,,1863-3-5,1863-3-5
-C47,Confederate,"Kelly's Ford, Va.",VA,11,88,34,133,0,,1863-3-17,1863-3-17
-C48,Confederate,"Magnolia Hills, Miss.",MS,68,380,384,832,0,,1863-5-1,1863-5-1
-C49,Confederate,"Chancellorsville, Va.",VA,1665,9081,2018,12764,0,,1863-5-1,1863-5-4
-C50,Confederate,"Raymond, Miss.",MS,73,251,190,514,0,,1863-5-12,1863-5-12
-C51,Confederate,"Champion's Hill, Miss.",MS,380,1018,2441,3839,0,,1863-5-16,1863-5-16
-C52,Confederate,"Milliken's Bend, La.",LA,101,285,266,652,0,,1863-6-6,1863-6-6
-C53,Confederate,"Beverly Ford, Va.",VA,51,250,132,433,0,"Not including 90 killed, wounded, and missing in White's battalion.",1863-6-9,1863-6-9
-C54,Confederate,"Middleburg; Upperville, Va.",VA,65,279,166,510,0,,1863-6-10,1863-6-24
-C55,Confederate,"Winchester, Va.",VA,47,219,3,269,0,,1863-6-13,1863-6-13
-C56,Confederate,"Hanover, Pa",PA,9,50,58,117,0,,1863-6-30,1863-6-30
-C57,Confederate,"Gettysburg, Pa",PA,2592,12706,5150,20448,0,"The records on file at Washington bear the names of 6,802 wounded, and 5,425 unwounded Confederates captured at Gettysburg. The official reports of Longstreet, Ewell, Hill, and Stuart indicate a loss (after making necessary deductions) of 2,701 killed, 12,739 wounded, 7,528 missing; total, 22,968.",1863-7-1,1863-7-3
-C58,Confederate,"Helena, Ark.",AR,173,645,772,1590,0,,1863-7-4,1863-7-4
-C59,Confederate,"Hagerstown; Williamsport, Md",MD,8,65,181,254,0,,1863-7-6,1863-7-6
-C60,Confederate,"Jackson, Miss.",MS,71,504,765,1340,0,,1863-7-9,1863-7-16
-C61,Confederate,"Funkstown; Boonsborough, Md",MD,26,130,60,216,0,,1863-7-12,1863-7-12
-C62,Confederate,"Plain's Store, La.",LA,12,36,0,48,0,,1863-5-21,1863-5-21
-C63,Confederate,"Port Hudson, La.",LA,176,447,0,623,0,,1863-5-25,1863-7-9
-C64,Confederate,"Morris Island, S. C.",SC,40,124,127,291,0,,1863-7-10,1863-7-10
-C65,Confederate,"Fort Wagner, S. C.",SC,6,6,0,12,0,,1863-7-11,1863-7-11
-C66,Confederate,"Fort Wagner, S. C.",SC,36,140,5,181,0,,1863-7-18,1863-7-18
-C67,Confederate,"Charleston Harbor, S. C.",SC,75,404,27,506,0,,1863-7-19,1863-9-6
-C68,Confederate,"Rocky Gap, Va.",VA,20,129,13,162,0,,1863-8-26,1863-8-27
-C69,Confederate,"Chickamauga, Ga.",GA,2068,13085,1303,16456,0,With the exception of Scott's Brigade the cavalry losses are not included.,1863-9-19,1863-9-20
-C70,Confederate,"Cavalry Affairs, Va.",VA,74,477,89,640,0,"Hampton's and Fitz Lee's Cavalry, at Culpeper, Buckland Mills and other places.",1863-10-10,1863-10-21
-C71,Confederate,"Bristoe Station, Va.",VA,136,797,445,1378,0,,1863-10-14,1863-10-14
-C72,Confederate,"Wauhatchie, Tenn.",TN,33,306,58,397,0,,1863-10-27,1863-10-27
-C73,Confederate,"Droop Mountain, Va.",VA,,,,275,0,,1863-11-6,1863-11-6
-C74,Confederate,"Kelly's Ford, Va.",VA,,,,359,0,,1863-11-7,1863-11-7
-C75,Confederate,"Rappahannock Station, Va.",VA,,,,1674,0,,1863-11-7,1863-11-7
-C76,Confederate,"Missionary Ridge, Tenn.",TN,361,2160,4146,6667,0,Including Lookout Mountain.,1863-11-23,1863-11-25
-C77,Confederate,"Mine Run Campaign, Va.",VA,110,570,65,745,0,,1863-11-26,1863-11-30
-C78,Confederate,"Knoxville, Tenn.",TN,198,850,248,1296,0,,1863-11-14,1863-11-30
-C79,Confederate,"Fort Sanders, Tenn.",TN,129,458,226,813,0,"Included, also, in losses November 14-30, 1863--Knoxville.",1863-11-29,1863-11-29
-C80,Confederate,"Olustee, Fla.",FL,93,847,6,946,0,,1864-2-20,1864-2-20
-C81,Confederate,"Marks's Mills, Ark.",AR,41,108,144,293,0,,1864-4-25,1864-4-25
-C82,Confederate,"Jenkins's Ferry, Ark.",AR,86,356,1,443,0,,1864-4-30,1864-4-30
-C83,Confederate,Rocky Face Ridge; Resaca (Atlanta Campaign),GA,444,2828,1984,5256,0,,1864-5-7,1864-5-20
-C84,Confederate,New Hope Church; Dallas (Atlanta Campaign),GA,309,1921,1352,3582,0,,1864-5-20,1864-6-4
-C85,Confederate,Kenesaw Mountain (Atlanta Campaign),GA,468,3480,2394,6342,0,,1864-6-4,1864-7-4
-C86,Confederate,Peach Tree Creek; Atlanta (Atlanta Campaign),GA,1341,7500,5361,14202,0,,1864-7-4,1864-7-31
-C87,Confederate,Utoy Creek; Jonesboro (Atlanta Campaign),GA,482,3223,0,3705,0,"As stated by Dr. Foard, Medical Director of Johnston's (and Hood's) Army, and does not include the missing. Sherman's Army captured 12,983 Confederates during the Atlanta campaign, which should be added to the above losses.",1864-7-31,1864-9-1
-C88,Confederate,Cavalry Engagements (Atlanta Campaign),GA,73,341,0,414,0,"As stated by Dr. Foard, Medical Director of Johnston's (and Hood's) Army, and does not include the missing. Sherman's Army captured 12,983 Confederates during the Atlanta campaign, which should be added to the above losses.",1864-5-6,1864-5-31
-C89,Confederate,"New Market, Va.",VA,34,484,13,531,0,,1864-5-15,1864-5-15
-C90,Confederate,"Brice's Cross Roads, Miss.",MS,96,396,0,492,0,,1864-6-10,1864-6-11
-C91,Confederate,"Johns Island; James Island, S. C.",SC,33,92,0,125,0,,1864-7-1,1864-7-11
-C92,Confederate,"Tupelo, Miss.",MS,210,1049,49,1308,0,,1864-7-13,1864-7-15
-C93,Confederate,"Opequon, Va.",VA,226,1567,1818,3611,0,"Not including the loss in the cavalry, which was reported as slight.",1864-9-19,1864-9-19
-C94,Confederate,"Fisher's Hill, Va.",VA,30,210,995,1235,0,"Not including the loss in the cavalry, which was reported as slight.",1864-9-22,1864-9-22
-C95,Confederate,"Allatoona Pass, Ga.",VA,127,456,290,873,0,,1864-10-5,1864-10-5
-C96,Confederate,"Cedar Creek, Va.",GA,320,1540,1050,2910,0,"General Early reported his loss at Cedar Creek at 1,860 killed and wounded, and ""something over 1,000 prisoners.""",1864-10-19,1864-10-19
-C97,Confederate,"Averasboro, N. C.",VA,108,540,217,865,0,,1865-3-16,1865-3-16
-C98,Confederate,"Bentonville, N. C.",NC,239,1694,673,2606,0,,1865-3-19,1865-3-19
+battle_id,belligerent,battle_name,footnotes,state,killed,wounded,missing,casualties,aggregregates_battles,cavalry,comment,start_date,end_date,
+U1,US,"Big Bethel, Va.",,VA,18,53,5,76,,,,1861-6-10,1861-6-10,
+U2,US,"Carthage, Mo.",,MO,13,31,0,44,,,,1861-7-5,1861-7-5,
+U3,US,"Rich Mountain, W. Va.",,WV,12,49,0,61,,,,1861-7-11,1861-7-11,
+U4,US,"Blackburn's Ford, Va.",,VA,19,38,26,83,,,,1861-7-18,1861-7-18,
+U5,US,"First Bull Run, Va.",,VA,470,1071,1793,3334,,,,1861-7-21,1861-7-21,
+U6,US,"Wilson's Creek, Mo.",,MO,223,721,291,1235,,,,1861-8-10,1861-8-10,
+U7,US,"Carnifex Ferry, W. Va.",,WV,17,141,0,158,,,,1861-9-10,1861-9-10,
+U8,US,"Greenbrier River, W. Va.",,WV,8,35,0,43,,,,1861-10-3,1861-10-3,
+U9,US,"Ball's Bluff, Va.",,VA,49,158,714,921,,,,1861-10-21,1861-10-21,
+U10,US,"Belmont, Mo.",,MO,80,322,99,501,,,,1861-11-7,1861-11-7,
+U11,US,"Camp Alleghany, W. Va.",,WV,20,107,10,137,,,,1861-12-13,1861-12-13,
+U12,US,"Dranesville, Va.",,VA,7,61,0,68,,,,1861-12-20,1861-12-20,
+U13,US,"Mill Springs, Ky.",,KY,39,207,0,246,,,,1862-1-19,1862-1-19,
+U14,US,"Roanoke Island, N. C.",,NC,37,214,13,264,,,,1862-2-8,1862-2-8,
+U15,US,"Fort Donelson, Tenn.",,TN,500,2108,224,2832,,,,1862-2-15,1862-2-15,
+U16,US,"New Madrid, Mo.",,MO,8,21,3,32,,,,1862-3-1,1862-3-14,
+U17,US,"Pea Ridge, Mo.",,MO,203,980,201,1384,,,,1862-3-6,1862-3-8,
+U18,US,"New Berne, N. C.",,NC,90,380,1,471,,,,1862-3-14,1862-3-14,
+U19,US,"Kernstown, Va.",,VA,118,450,22,590,,,,1862-3-23,1862-3-23,
+U20,US,"Shiloh, Tenn.",,TN,1754,8408,2885,13047,,,,1862-4-6,1862-4-7,
+U21,US,"Camden, N. C. (South Mills)",,NC,13,101,13,127,,,,1862-4-19,1862-4-19,
+U22,US,"Farmington, Miss.",,MS,16,148,14,178,,,,1862-5-9,1862-5-9,
+U23,US,"Williamsburg, Va.",,VA,456,1410,373,2239,,,,1862-5-5,1862-5-5,
+U24,US,"West Point, Va.",,VA,48,110,28,186,,,,1862-5-7,1862-5-7,
+U25,US,"McDowell, Va.",,VA,26,227,3,256,,,,1862-5-8,1862-5-8,
+U26,US,"Princeton, W. Va.",,WV,23,69,21,113,,,,1862-5-16,1862-5-17,
+U27,US,"Russell House, Miss.",,MS,10,31,0,41,,,,1862-5-17,1862-5-17,
+U28,US,"Lewisburg, W. Va.",,WV,13,53,7,73,,,,1862-5-23,1862-5-23,
+U29,US,"Front Royal and Winchester, Va.",,VA,62,243,1714,2019,,,,1862-5-23,1862-5-25,
+U30,US,"Hanover Court House, Va.",,VA,62,223,70,355,,,,1862-5-27,1862-5-27,
+U31,US,"Fair Oaks, Va. (Seven Pines)",,VA,790,3594,647,5031,,,,1862-5-31,1862-5-31,
+U32,US,"Cross Keys, Va.",,VA,114,443,127,684,,,,1862-6-8,1862-6-8,
+U33,US,"Port Republic, Va.",,VA,67,393,558,1018,,,,1862-6-9,1862-6-9,
+U34,US,"Secessionville, S. C.",,SC,107,487,89,683,,,,1862-6-16,1862-6-16,
+U35,US,"Oak Grove, Va.",,VA,67,504,55,626,,,,1862-6-25,1862-6-25,
+U36,US,"Mechanicsville, Va.",,VA,49,207,105,361,,,,1862-6-26,1862-6-26,
+U37,US,"Gaines's Mill, Va.",,VA,894,3107,2836,6837,,,,1862-6-27,1862-6-27,
+U38,US,"Golding's Farm, Va.",,VA,37,227,104,368,,,"Includes loss at Garnett's Farm on the previons day,",1862-6-28,1862-6-28,
+U39,US,"Savage Station, va",,VA,80,412,1098,1590,,,Includes loss at Peach Orchard (or Allen's Farm) on same day.,1862-6-29,1862-6-29,
+U40,US,"Glendale, Va.",,VA,210,1513,1130,2853,,,"Includes loss at White Oak Swamp, and Charles City Cross Roads.",1862-6-30,1862-6-30,
+U41,US,"Malvern Hill, Va.",,VA,397,2092,725,3214,,,,1862-7-1,1862-7-1,
+U42,US,"Seven Days Battle, Va.",,VA,1734,8062,6053,15849,U35 U36 U37 U38 U39 U40 U41,,,1862-6-25,1862-7-1,
+U43,US,"Bayou Cache, Ark.",,AR,6,57,0,63,,,,1862-7-7,1862-7-7,
+U44,US,"Murfreesboro, Tenn.",,TN,19,120,46,185,,,Not including men surrendered in the capitulation.,1862-7-13,1862-7-13,
+U45,US,"Baton Rouge, La.",,LA,84,266,33,383,,,,1862-8-5,1862-8-5,
+U46,US,"Cedar Mountain, Va.",,VA,314,1445,622,2381,,,,1862-8-9,1862-8-9,
+U47,US,"Manassas, Va.",,VA,1747,8452,4263,14462,,,"Includes Bristoe Station, Groveton, Gainesville, Chantilly and the Rappahannock.",1862-8-16,1862-8-31,
+U48,US,"Richmond, Ky.",,KY,206,844,4303,5353,,,,1862-8-30,1862-8-30,
+U49,US,"Fayetteville, W. Va.",,WV,25,95,190,310,,,,1862-9-10,1862-9-11,
+U50,US,"Harper's Ferry, Va.",,VA,44,173,12520,12737,,,,1862-9-12,1862-9-15,
+U51,US,"Crampton's Gap, Md",,MD,113,418,2,533,,,,1862-9-14,1862-9-14,
+U52,US,"South Mountain, Md",,MD,325,1403,85,1813,,,,1862-9-14,1862-9-14,
+U53,US,"Munfordville, Ky.",,KY,15,57,4076,4148,,,,1862-9-14,1862-9-16,
+U54,US,"Antietam, Md",,MD,2108,9549,753,12410,,,,1862-9-17,1862-9-17,
+U55,US,"Iuka, Miss.",,MS,141,613,36,790,,,,1862-9-19,1862-9-19,
+U56,US,"Shepherdstown Ford, Va.",,VA,71,161,131,363,,,,1862-9-19,1862-9-20,
+U57,US,"Corinth, Miss.",,MS,355,1841,324,2520,,,,1862-10-3,1862-10-4,
+U58,US,"Hatchie Bridge, Miss.",,MS,46,493,31,570,,,,1862-10-5,1862-10-5,
+U59,US,"Chaplin Hills, Ky.",,KY,845,2851,515,4211,,,,1862-10-8,1862-10-8,
+U60,US,"Lawrenceburg, Ky. (Dog Walk)",,KY,8,20,13,41,,,,1862-10-8,1862-10-9,
+U61,US,"Pocotaligo, S. C.",,SC,43,294,3,340,,,,1862-10-22,1862-10-22,
+U62,US,"Georgia Landing, La.",,LA,18,74,5,97,,,,1862-10-27,1862-10-27,
+U63,US,"Coffeeville, Miss.",,MS,10,63,41,114,,,,1862-12-5,1862-12-5,
+U64,US,"Hartsville, Tenn.",,TN,58,204,1834,2096,,,,1862-12-7,1862-12-7,
+U65,US,"Prairie Grove, Ark.",,AR,175,813,263,1251,,,,1862-12-7,1862-12-7,
+U66,US,"Kinston; Goldsborough, N. C.",,NC,92,487,12,591,,,,1862-12-12,1862-12-17,
+U67,US,"Fredericksburg, Va.",,VA,1284,9600,1769,12653,,,,1862-12-13,1862-12-13,
+U68,US,"Chickasaw Bluffs, Miss.",,MS,208,1005,563,1776,,,,1862-12-28,1862-12-29,
+U69,US,"Parker's Cross Roads, Tenn.",,TN,27,140,70,237,,,,1862-12-30,1862-12-30,
+U70,US,"Stone's River, Tenn.",,TN,1730,7802,3717,13249,,,"Includes loss at Knob Gap, Dec. 26th; and at Jefferson Dec. 30th; also, losses Jan. 1, 2, 1863.",1862-12-31,1862-12-31,
+U71,US,"Springfield, Mo.",,MO,14,146,5,165,,,,1863-1-7,1863-1-8,
+U72,US,"Hartsville, Mo.",,MO,7,64,2,73,,,,1863-1-11,1863-1-11,
+U73,US,"Arkansas Post, Ark.",,AR,134,898,29,1061,,,,1863-1-11,1863-1-11,
+U74,US,"Deserted House, Va.",,VA,23,108,12,143,,,,1863-1-30,1863-1-30,
+U75,US,"Fort Donelson, Tenn.",,TN,14,54,10,78,,,,1863-2-3,1863-2-3,
+U76,US,"Thompson's Station, Tenn.",,TN,48,247,1151,1446,,,,1863-3-4,1863-3-5,
+U77,US,"Kelly's Ford, Va.",,VA,6,50,22,78,,,,1863-3-17,1863-3-17,
+U78,US,"Fort Bisland, La.",,LA,40,184,,224,,,,1863-4-13,1863-4-13,
+U79,US,"Irish Bend, La.",,LA,49,274,30,353,,,,1863-4-14,1863-4-14,
+U80,US,"Siege of Suffolk, Va.",,VA,41,223,2,266,,,,1863-4-11,1863-4-30,
+U81,US,"Magnolia Hills, Miss.",,MS,131,719,25,875,,,"Port Gibson, Miss.",1863-5-1,1863-5-1,
+U82,US,"Chancellorsville, Va.",,VA,1606,9762,5919,17287,,,"Includes loss at Marye's Heights and Salem Church, viz.; 493 killed, 2,710 wounded, 1,497 missing. Also, loss at Fitzhugh's Crossing.",1863-5-1,1863-5-4,
+U83,US,"Raymond, Miss.",,MS,66,339,37,442,,,,1863-5-12,1863-5-12,
+U84,US,"Jackson, Miss.",,MS,42,251,7,300,,,,1863-5-14,1863-5-14,
+U85,US,"Champion's Hill, Miss.",,MS,410,1844,187,2441,,,,1863-5-16,1863-5-16,
+U86,US,"Black River Bridge, Miss.",,MS,39,237,3,279,,,,1863-5-17,1863-5-17,
+U87,US,"Assault on Vicksburg, Miss.",,MS,157,777,8,942,,,,1863-5-19,1863-5-19,
+U88,US,"Assault on Vicksburg, Miss.",,MS,502,2550,147,3199,,,,1863-5-22,1863-5-22,
+U89,US,"Vicksburg Trenches, Miss.",,MS,147,613,9,769,,,,1863-5-23,1863-7-4,
+U90,US,"Plain's Store, La.",,LA,15,71,14,100,,,,1863-5-21,1863-5-21,
+U91,US,"Assault on Port Hudson, La.",,LA,293,1545,157,1995,,,,1863-5-27,1863-5-27,
+U92,US,"Assault on Port Hudson, La.",,LA,203,1401,162,1766,,,,1863-6-14,1863-6-14,
+U93,US,"Port Hudson Trenches, La.",,LA,211,390,0,601,,,,1863-5-26,1863-7-9,
+U94,US,"Franklin's Crossing, Va.",,VA,9,48,0,57,,,,1863-6-5,1863-6-5,
+U95,US,"Milliken's Bend, La.",,LA,118,310,0,428,,,,1863-6-6,1863-6-8,
+U96,US,"Beverly Ford, Va.",,VA,81,403,382,866,,1,Cavalry engagement.,1863-6-9,1863-6-9,
+U97,US,"Winchester, Va.",,VA,95,348,4000,4443,,,,1863-6-13,1863-6-15,
+U98,US,"Aldie, Va.",,VA,50,131,124,305,,1,Cavalry engagement.,1863-6-17,1863-6-17,
+U99,US,"Middleburg, Va.",,VA,16,46,37,99,,1,Cavalry engagement.,1863-6-19,1863-6-19,
+U100,US,"Upperville, Va.",,VA,12,130,67,209,,1,Cavalry engagement.,1863-6-21,1863-6-21,
+U101,US,"La Fourche Crossing, La.",,LA,8,40,0,48,,,,1863-6-21,1863-6-21,
+U102,US,"Hill's Plantation, Miss.",,MS,10,9,28,47,,,,1863-6-22,1863-6-22,
+U103,US,"Hoover's Gap, Tenn.",,TN,27,177,2,206,,,,1863-6-24,1863-6-24,
+U104,US,"Liberty Gap, Tenn.",,TN,42,232,1,275,,,,1863-6-25,1863-6-25,
+U105,US,"Shelbyville, Tenn.",,TN,15,64,10,89,,,Includes losses at Guy's Gap and Middleton.,1863-6-27,1863-6-27,
+U106,US,"Morgan's Raid, Ky.",,KY,19,47,8,74,,,,1863-7-2,1863-7-26,
+U107,US,"Helena, Ark.",,AR,57,146,36,239,,,,1863-7-4,1863-7-4,
+U108,US,"Jackson, Miss.",,MS,129,762,231,1122,,,,1863-7-9,1863-7-16,
+U109,US,"Hanover, Pa",,PA,19,73,123,215,,1,Cavalry engagement.,1863-6-30,1863-6-30,
+U110,US,"Gettysburg, Pa",,PA,3070,14497,5434,23001,,,,1863-7-1,1863-7-3,
+U111,US,"Hagerstown, Md",,MD,19,50,194,263,,1,Cavalry engagement.,1863-7-6,1863-7-6,
+U112,US,"Williamsport, Md",,MD,14,37,69,120,,1,Cavalry engagement.,1863-7-6,1863-7-6,
+U113,US,"Boonsborough, Md",,MD,8,54,18,80,,1,Cavalry engagement.,1863-7-7,1863-7-9,
+U114,US,"Hagerstown, Md",,MD,5,31,13,49,,1,Cavalry engagement.,1863-7-11,1863-7-11,
+U115,US,"Funkstown, Md",,MD,14,77,6,97,,,,1863-7-12,1863-7-12,
+U116,US,"Falling Waters, Md",,MD,31,58,32,121,,1,Cavalry engagement.,1863-7-14,1863-7-14,
+U117,US,"Shepherdstown, Va.",,VA,8,72,24,104,,1,Cavalry engagement.,1863-7-16,1863-7-16,
+U118,US,"Assault on Fort Wagner, S. C.",,SC,49,123,167,339,,,,1863-7-11,1863-7-11,
+U119,US,"Assault on Fort Wagner, S. C.",,SC,246,880,389,1515,,,,1863-7-18,1863-7-18,
+U120,US,"Siege of Fort Wagner, S. C.",,SC,71,278,9,358,,,,1863-7-1,1863-7-31,
+U121,US,"Donaldsonville, La.",,LA,56,223,186,465,,,,1863-7-13,1863-7-13,
+U122,US,"Manassas Gap, Va.",,VA,9,12,8,29,,1,Cavalry engagement.,1863-7-21,1863-7-21,
+U123,US,"Wapping Heights, Va.",,VA,20,83,0,103,,,,1863-7-23,1863-7-23,
+U124,US,"Brandy Station, Va.",,VA,21,104,20,145,,1,Cavalry engagement.,1863-8-1,1863-8-1,
+U125,US,"White Sulphur Springs, Va.",,VA,26,125,67,218,,1,Cavalry engagement.,1863-8-26,1863-8-27,
+U126,US,"Chickamauga, Ga.",,GA,1656,9749,4774,16179,,,,1863-9-19,1863-9-20,
+U127,US,"Morganzia, La.",,LA,16,45,453,514,,,,1863-9-29,1863-9-29,
+U128,US,"Bristoe Station, Va.",,VA,50,335,161,546,,,,1863-10-14,1863-10-14,
+U129,US,"Philadelphia, Tenn.",,TN,7,25,447,479,,,,1863-10-20,1863-10-20,
+U130,US,"Wauhatchie, Tenn.",,TN,75,300,8,383,,,,1863-10-27,1863-10-27,
+U131,US,"Grand Coteau, La.",,LA,25,129,562,716,,,,1863-11-3,1863-11-3,
+U132,US,"Droop Mountain, W. Va.",,WV,30,88,1,119,,,,1863-11-6,1863-11-6,
+U133,US,"Rappahannock Station, Va.",,VA,83,328,6,417,,,,1863-11-7,1863-11-7,
+U134,US,"Kelly's Ford, Va.",,VA,6,39,0,45,,,,1863-11-7,1863-11-7,
+U135,US,"Campbell's Station, Tenn.",,TN,31,211,74,316,,,,1863-11-16,1863-11-16,
+U136,US,"Siege of Knoxville, Tenn.",,TN,92,393,202,687,,,,1863-11-1,1863-11-30,
+U137,US,"Chattanooga, Tenn.",,TN,687,4346,349,5382,,,"Or, Missionary Ridge; Includes Orchard Knob, Nov. 23 (loss about 200); and Lookout Mountain, Nov. 24 (500).",1863-11-23,1863-11-25,
+U137A,US,"Missionary Ridge (Chattanooga, Tenn)",1,TN,597,3781,304,4682,,,,1863-11-25,1863-11-25,
+U137B,US,"Orchard Knob (Chattanooga, Tenn)",1,TN,26,161,13,200,,,,1863-11-23,1863-11-23,
+U137C,US,"Lookout Mountain (Chattanooga, Tenn)",1,TN,64,404,32,500,,,,1863-11-24,1865-11-24,
+U137D,US,"Ringgold; Graysville, Ga.",,GA,65,367,0,432,,,,1863-11-27,1863-11-27,
+U139,US,"Mine Run Campaign, Va.",,VA,173,1099,381,1653,,,,1863-11-26,1863-11-30,
+U140,US,"Walker's Ford, W. Va.",,WV,9,43,12,64,,,,1863-12-2,1863-12-2,
+U141,US,"Bean's Station, Tenn.",,TN,16,51,48,115,,,,1863-12-14,1863-12-14,
+U142,US,"Mossy Creek, Tenn.",,TN,18,86,5,109,,,,1863-12-29,1863-12-29,
+U143,US,"Bachelor's Creek, N. C.",,NC,9,15,302,326,,,,1864-2-1,1864-2-3,
+U144,US,"Morton's Ford, Va.",,VA,10,208,42,260,,,,1864-2-6,1864-2-6,
+U145,US,"Olustee, Fla.",,FL,203,1152,506,1861,,,,1864-2-20,1864-2-20,
+U146,US,"Buzzard's Roost, Ga.",,GA,17,272,0,289,,,,1864-2-27,1864-2-27,
+U147,US,"Yazoo City, Miss.",,MS,21,89,21,131,,,,1864-3-5,1864-3-5,
+U148,US,"Okolona, Ark.",,AR,16,74,0,90,,,,1864-4-3,1864-4-3,
+U149,US,"Sabine Cross Roads, La and Pleasant Hill, La.",,LA,258,1487,1772,3517,,,,1864-4-8,1864-4-9,
+U150,US,"Plymouth, N. C.",,NC,20,80,1500,1600,,,,1864-4-17,1864-4-20,
+U151,US,"Cane River, La.",,LA,40,160,0,200,,,,1864-4-23,1864-4-23,
+U152,US,"Marks's Mills, Ark.",,AR,100,250,100,450,,,,1864-4-25,1864-4-25,
+U153,US,"Jenkins's Ferry, Ark.",,AR,64,378,86,528,,,,1864-4-30,1864-4-30,
+U154,US,"Alexandria, La.",,LA,23,67,21,111,,,,1864-5-1,1864-5-1,
+U155,US,"Atlanta Campaign, Ga.",,GA,1458,7436,405,9299,,,"Includes Rocky Face Ridge, May 5-9 (loss about 900); Resaca, May 13-15 (3,000); New Hope Church, May 25 (1,000); Pickett's Mills, May 27 (1,900); Dallas, May 28-31 (1,800); Adairsville, Cassville, Rome Cross Roads, etc.",1864-5-5,1864-5-31,
+U155A,US,"Atlanta Campaign, Ga. (May 1-31): Rocky Face Ridge, May 5-9",1,GA,141,720,39,900,,,,1864-5-5,1864-5-9,
+U155B,US,"Atlanta Campaign, Ga. (May 1-31): Resaca, May 13-15",1,GA,470,2399,131,3000,,,,1864-5-13,1864-5-15,
+U155C,US,"Atlanta Campaign, Ga. (May 1-31): New Hope Church, May 25",1,GA,157,800,43,1000,,,,1864-5-25,1864-5-25,
+U155D,US,"Atlanta Campaign, Ga. (May 1-31): Pickett's Mills, May 27",1,GA,298,1519,83,1900,,,,1864-5-27,1864-5-27,
+U155E,US,"Atlanta Campaign, Ga. (May 1-31): Dallas, May 28-31",1,GA,282,1439,79,1800,,,,1864-5-28,1864-5-31,
+U155F,US,"Atlanta Campaign, Ga. (May 1-31): Adairsville, Cassville, Rome Cross Roads, etc",1,GA,110,559,30,699,,,,1864-5-1,1864-5-31,
+U156,US,"Atlanta Campaign, Ga.",,GA,1125,5740,665,7530,,,"Includes Dallas, June 1-4 (900); Pine Mountain, June 14-19 (1,100); Culp's House, June 22 (700); Kenesaw Mountain, June 20-30 (1,200); Assault on Kenesaw, June 27 (3,000); Lattimore's Mill; Powder Springs, etc.",1864-6-1,1864-6-30,
+U156A,US,"Atlanta Campaign, Ga. (June 1-30): Dallas, June 1-4",1,GA,134,686,80,900,,,,1864-6-1,1864-6-4,
+U156B,US,"Atlanta Campaign, Ga. (June 1-30):  Pine Mountain, June 14-19",1,GA,164,839,97,1100,,,,1864-6-14,1864-6-19,
+U156C,US,"Atlanta Campaign, Ga. (June 1-30):  Culp's House, June 22",1,GA,104,534,62,700,,,,1864-6-22,1864-6-22,
+U156D,US,"Atlanta Campaign, Ga. (June 1-30):  Kenesaw Mountain, June 20-30",1,GA,179,915,106,1200,,,,1864-6-20,1864-6-30,
+U156E,US,"Atlanta Campaign, Ga. (June 1-30): Assault on Kenesaw, June 27",1,GA,448,2287,265,3000,,,,1864-6-27,1864-6-27,
+U156F,US,"Atlanta Campaign, Ga. (June 1-30): Lattimore's Mill; Powder Springs, etc",1,GA,96,480,55,631,,,,1864-6-1,1864-6-30,
+U157,US,"Atlanta Campaign, Ga.",,GA,1110,5915,2694,9719,,,"Includes Nickajack Creek, July 2-5 (450); Chattahoochie, July 6-10 (850); Peach Tree Creek, July 20 (2,200); Atlanta, July 21, 22 (4,200); Ezra Chapel, July 28 (850); and others.",1864-7-1,1864-7-31,
+U157A,US,"Atlanta Campaign, Ga. (July 1-31): Nickajack Creek, July 2-5",1,GA,51,274,125,450,,,,1864-7-2,1864-7-5,U157
+U157B,US,"Atlanta Campaign, Ga. (July 1-31): Chattahoochie, July 6-10",1,GA,97,517,236,850,,,,1864-7-6,1864-7-10,U157
+U157C,US,"Atlanta Campaign, Ga. (July 1-31): Peach Tree Creek, July 20",1,GA,251,1339,610,2200,,,,1864-7-20,1864-7-20,U158
+U157D,US,"Atlanta Campaign, Ga. (July 1-31): Atlanta, July 21, 22",1,GA,480,2556,1164,4200,,,,1864-7-21,1864-7-22,U158
+U157E,US,"Atlanta Campaign, Ga. (July 1-31): Ezra Chapel, July 28",1,GA,97,517,236,850,,,,1864-7-28,1864-7-28,U158
+U157F,US,"Atlanta Campaign, Ga. (July 1-31): others",1,GA,134,712,323,1169,,,,1864-7-1,1864-7-31,U158
+U158,US,"Atlanta Campaign, Ga.",,GA,453,2318,466,3237,,,"Includes Utoy Creek, Aug. 5, 6 (800); and Siege of Atlanta.",1864-8-1,1864-8-31,
+U158A,US,"Atlanta Campaign, Ga. (Aug 1-31): Utoy Creek",1,GA,112,573,115,800,,,,1864-8-5,1864-8-6,
+U158B,US,"Atlanta Campaign, Ga. (Aug 1-31): Siege of Atlanta",1,GA,341,1745,351,2437,,,,1864-8-1,1864-8-31,
+U159,US,"Atlanta Campaign, Ga.",,GA,277,1413,212,1902,,,Jonesboro and Lovejoy's Station.,1864-9-1,1864-9-1,
+U160,US,"Atlanta Campaign, Ga.",,GA,4423,22822,4442,31687,U155 U156 U157 U158 U159,,,1864-5-5,1864-9-1,
+U161,US,"Wilderness, Va.",,VA,2246,12037,3383,17666,,,,1864-5-5,1864-5-7,
+U162,US,"Spotsylvania, Va.",,VA,2725,13416,2258,18399,,,"Includes Alsop's Farm, May 8 (loss about 1,800); Po River, Laurel Hill, and Upton's Charge, May 10 (5,000); Hancock's Assault, the ""Angle"" and general attack of May 12 (8,500); Spotsylvania, May 18 (800); Fredericksburg Pike, May 19 (1,400); Todd's Tavern; Corbin's Bridge; Ny River; Guinea Station etc.",1864-5-8,1864-5-21,
+U162A,US,"Spotsylvania, Va.:  Alsop's Farm, May 8",1,VA,267,1312,221,1800,,,,1864-5-8,1864-5-8,
+U162B,US,"Spotsylvania, Va.:  Po River, Laurel Hill, and Upton's Charge, May 10",1,VA,740,3646,614,5000,,,,1864-5-10,1864-5-10,
+U162C,US,"Spotsylvania, Va.:  Hancock's Assault, the ""Angle"", and general attack of May 12",1,VA,1259,6198,1043,8500,,,,1864-5-12,1864-5-12,
+U162D,US,"Spotsylvania, Va.:  Spotsylvania, May 18",1,VA,119,583,98,800,,,,1864-5-18,1864-5-18,
+U162E,US,"Spotsylvania, Va.:  Fredericksburg Pike, May 19",1,VA,207,1021,172,1400,,,,1864-5-19,1864-5-19,
+U162F,US,"Spotsylvania, Va.:  Todd's Tavern; Corbin's Bridge; Ny River; Guinea Station etc.",1,VA,133,656,110,899,,,,1864-5-8,1864-5-21,
+U163,US,"Walthall; Chester Station, Va.",,VA,48,256,70,374,,,,1864-5-6,1864-5-7,
+U164,US,"Arrowfield Church, Va.",,VA,36,188,19,243,,,,1864-5-9,1864-5-10,
+U165,US,"Drewry's Bluff, Va.",,VA,390,2380,1390,4160,,,,1864-5-12,1864-5-16,
+U166,US,"Ware Bottom Church, Va.",,VA,103,796,49,948,,,,1864-5-18,1864-5-20,
+U167,US,"Bermuda Hundred, Va.",,VA,18,89,21,128,,,,1864-5-21,1864-5-31,
+U168,US,"Kautz's Cavalry Raid, Va.",,VA,14,60,31,105,,1,Cavalry engagements.,1864-5-7,1864-5-16,
+U169,US,"Cloyd's Mountain, W. Va.",,WV,108,508,72,688,,,,1864-5-9,1864-5-10,
+U170,US,"Yellow Tavern, Va.",,VA,35,142,82,259,,1,Cavalry engagements.,1864-5-11,1864-5-11,
+U171,US,"Meadow Bridges, Va.",,VA,15,128,27,170,,1,Cavalry engagements.,1864-5-12,1864-5-12,
+U172,US,"Newmarket, Va.",,VA,93,482,256,831,,,,1864-5-15,1864-5-15,
+U173,US,"Bayou Glaize, La.",,LA,54,261,6,321,,,,1864-5-18,1864-5-18,
+U174,US,"North Anna, Va.",,VA,186,942,165,1293,,,,1864-5-23,1864-5-27,
+U175,US,"Totopotomoy, Va.",,VA,101,518,52,671,,,,1864-5-28,1864-5-31,
+U176,US,"Sheridan's Cavalry, Va.",,VA,110,450,96,656,,1,Cavalry engagements.,1864-5-25,1864-5-30,
+U177,US,"Bethesda Church, Va.",,VA,194,824,348,1366,,,,1864-6-1,1864-6-1,
+U178,US,"Cold Harbor, Va.",,VA,1844,9077,1816,12737,,,"Includes assault of Sixth and Eighteenth Corps, June 1; also, losses of the Fifth and Ninth Corps at Bethesda Church on June 2d and subsequently; also, Cavalry Corps at Cold Harbor, May 31 and June 1; also, loss in the trenches at Cold Harbor, June 4-14.",1864-6-2,1864-6-4,
+U179,US,"Bermuda Hundred, Va.",,VA,25,134,98,257,,,,1864-6-1,1864-6-14,
+U180,US,"Piedmont, Va.",,VA,130,650,0,780,,,,1864-6-5,1864-6-5,
+U181,US,"Brice's Cross Roads, Miss.",,MS,223,394,1623,2240,,,,1864-6-10,1864-6-10,
+U182,US,"Lynchburg, Va.",,VA,103,564,271,938,,,,1864-6-17,1864-6-18,
+U183,US,"Trevilian Station, Va.",,VA,102,470,435,1007,,1,Cavalry engagements.,1864-6-11,1864-6-12,
+U184,US,"White House, Va.",,VA,10,51,22,83,,1,Cavalry engagements.,1864-6-21,1864-6-21,
+U185,US,"St. Mary's Church, Va.",,VA,29,188,122,339,,1,Cavalry engagements.,1864-6-24,1864-6-24,
+U186,US,"Petersburg Assault, Va.",,VA,1688,8513,1185,11386,,,,1864-6-15,1864-6-19,
+U187,US,"Jerusalem Road, Va.",,VA,142,654,2166,2962,,,"Known, also, as Weldon Railroad, and Williams's Farm.",1864-6-22,1864-6-22,
+U188,US,"Wilson's Raid, Va.",,VA,71,262,1119,1452,,1,Cavalry engagements.,1864-6-22,1864-6-29,
+U189,US,"Petersburg Trenches, Va.",,VA,112,506,151,769,,,,1864-6-20,1864-6-30,
+U190,US,"Fort Johnson, S. C.",,SC,19,97,135,251,,,,1864-7-2,1864-7-2,
+U191,US,"John's Island, S. C.",,SC,16,82,12,110,,,,1864-7-5,1864-7-7,
+U192,US,"Monocacy, Md",,MD,123,603,568,1294,,,,1864-7-9,1864-7-9,
+U193,US,"Fort Stevens, D. C",,DC,54,319,0,373,,,,1864-7-12,1864-7-12,
+U194,US,"Tupelo, Miss.",,MS,59,453,16,528,,,,1864-7-13,1864-7-13,
+U195,US,"Island Ford, Va.",,VA,65,301,56,422,,,,1864-7-18,1864-7-18,
+U196,US,"Carter's Farm, Va.",,VA,37,175,30,242,,,,1864-7-20,1864-7-20,
+U197,US,"Winchester, Va.",,VA,134,678,391,1203,,,,1864-7-24,1864-7-24,
+U198,US,"Strawberry Plains, Va.",,VA,62,340,86,488,,,,1864-7-26,1864-7-29,
+U199,US,"Petersburg Mine, Va.",,VA,504,1881,1413,3798,,,,1864-7-30,1864-7-30,
+U200,US,"Petersburg Trenches, Va.",,VA,349,1587,145,2081,,,,1864-7-1,1864-7-31,
+U201,US,"White Post, Va.",,VA,30,70,200,300,,1,Cavalry engagements.,1864-8-11,1864-8-11,
+U202,US,"Deep Bottom, Va.",,VA,327,1851,721,2899,,,,1864-8-14,1864-8-16,
+U203,US,"Weldon Railroad, Va.",,VA,251,1148,2879,4278,,,,1864-8-18,1864-8-20,
+U204,US,"Halltown, Va.",,VA,9,37,16,62,,,,1864-8-24,1864-8-24,
+U205,US,"Ream's Station, Va.",,VA,140,529,2073,2742,,,,1864-8-25,1864-8-25,
+U206,US,"Smithfield, Va.",,VA,20,61,100,181,,1,Cavalry engagements.,1864-8-25,1864-8-25,
+U207,US,"Halltown, Va.",,VA,30,141,0,171,,,,1864-8-26,1864-8-26,
+U208,US,"Smithfield, Va.",,VA,10,90,0,100,,,,1864-8-29,1864-8-29,
+U209,US,Siege of Petersburg,,VA,158,623,296,1077,,,Includes operations on the north side of the James.,1864-8-1,1864-8-31,
+U210,US,"Berryville, Va.",,VA,30,182,100,312,,,,1864-9-3,1864-9-3,
+U211,US,"Opequon, Va.",,VA,697,3983,338,5018,,,,1864-9-19,1864-9-19,
+U212,US,"Fisher's Hill, Va.",,VA,52,457,19,528,,,,1864-9-22,1864-9-22,
+U213,US,"Fort Davidson, Mo.",,MO,28,56,100,184,,1,Cavalry engagements.,1864-9-26,1864-9-26,
+U214,US,"Chaffin's Farm, Va.",,VA,383,2299,645,3327,,,,1864-9-28,1864-9-28,
+U215,US,"Poplar Spring Church, Va.",,VA,187,900,1802,2889,,,"Known, also, as Peebles's Farm, and Pegram's Farm.",1864-9-30,1864-9-30,
+U216,US,"Petersburg Trenches, Va.",,VA,74,304,424,802,,,Includes operations on the north side of the James.,1864-9-1,1864-9-30,
+U217,US,"Saltville, Va.",,VA,54,190,104,348,,1,Cavalry engagements.,1864-10-2,1864-10-2,
+U218,US,"Allatoona Pass, Ga.",,GA,142,352,212,706,,,,1864-10-5,1864-10-5,
+U219,US,"Darbytown Road, Va.",,VA,49,253,156,458,,,,1864-10-7,1864-10-7,
+U220,US,"Tom's Brook; Woodstock, Va.",,VA,9,67,0,76,,1,Cavalry engagements.,1864-10-9,1864-10-9,
+U221,US,"Strasburg, Va.",,VA,30,144,40,214,,1,Cavalry engagements.,1864-10-13,1864-10-13,
+U222,US,"Darbytown Road, Va.",,VA,36,358,43,437,,,,1864-10-13,1864-10-13,
+U223,US,"Cedar Creek, Va.",,VA,644,3430,1591,5665,,,,1864-10-19,1864-10-19,
+U224,US,"Little Blue, Mo.",,MO,18,83,14,115,,1,Cavalry engagements.,1864-10-21,1864-10-21,
+U225,US,"Independence, Mo.",,MO,14,58,11,83,,1,Cavalry engagements.,1864-10-22,1864-10-22,
+U226,US,"Decatur, Ala.",,VA,10,45,100,155,,1,Cavalry engagements.,1864-10-26,1864-10-26,
+U227,US,"Boydton Road, Va.",,VA,166,1028,564,1758,,,Cavalry engagements.,1864-10-27,1864-10-27,
+U228,US,"Darbytown Road; Fair Oaks, Va.",,VA,118,787,698,1603,,,,1864-10-27,1864-10-27,
+U229,US,"Petersburg Trenches, Va.",,VA,159,520,633,1312,,,Includes operations on the north side of the James.,1864-10-1,1864-10-31,
+U230,US,"Rood's Hill, Va.",,VA,18,52,10,80,,1,Cavalry engagements.,1864-11-22,1864-11-22,
+U231,US,"Griswoldville, Ga.",,GA,10,52,0,62,,,,1864-11-22,1864-11-22,
+U232,US,"Honey Hill, S. C.",,SC,91,631,26,748,,,,1864-11-30,1864-11-30,
+U233,US,"Franklin, Tenn.",,TN,189,1033,1104,2326,,,,1864-11-30,1864-11-30,
+U234,US,Siege of Petersburg,,VA,57,258,108,423,,,Includes operations on the north side of the James.,1864-11-1,1864-11-30,
+U235,US,"Murfreesboro, Tenn.",,TN,30,175,0,205,,,,1864-12-5,1864-12-5,
+U236,US,"Deveaux's Neck, S. C.",,SC,39,390,200,629,,,,1864-12-6,1864-12-9,
+U237,US,"Fort McAllister, Ga.",,GA,24,110,0,134,,,,1864-12-13,1864-12-13,
+U238,US,"Nashville, Tenn.",,TN,387,2558,112,3057,,,,1864-12-15,1864-12-16,
+U239,US,"Marion, Va.",,VA,18,58,0,76,,,,1864-12-18,1864-12-18,
+U240,US,"Egypt Station, Miss.",,MS,23,88,7,118,,1,Cavalry engagements.,1864-12-28,1864-12-28,
+U241,US,"Siege of Petersburg, Va.",,VA,66,278,269,613,,,Includes operations on the north side of the James.,1864-12-1,1864-12-31,
+U242,US,"Fort Fisher, N. C.",,NC,184,749,22,955,,,,1865-1-15,1865-1-15,
+U243,US,"Siege of Petersburg, Va.",,VA,51,269,81,401,,,Includes operations on the north side of the James.,1865-1-1,1865-1-31,
+U244,US,"Rivers's Bridge, S. C.",,SC,18,70,4,92,,,,1865-2-3,1865-2-9,
+U245,US,"Dabney's Mills, Va.",,VA,171,1181,187,1539,,,"Known, also, as Hatcher's Run.",1865-2-5,1865-2-7,
+U246,US,"James's Island, S. C.",,SC,20,76,0,96,,,,1865-2-10,1865-2-10,
+U247,US,"Sugar Loaf Battery, N. C.",,NC,14,114,0,128,,,,1865-2-11,1865-2-11,
+U248,US,"Town Creek, N. C.",,NC,30,154,0,184,,,,1865-2-20,1865-2-20,
+U249,US,"Siege of Petersburg, Va.",,VA,43,257,72,372,,,Includes operations on the north side of the James.,1865-2-1,1865-2-28,
+U250,US,"National Bridge, Fla.",,FL,22,46,13,81,,,,1865-3-6,1865-3-6,
+U251,US,"Wilcox's Bridge, N. C.",,NC,64,319,953,1336,,,,1865-3-8,1865-3-10,
+U252,US,"Monroe's Cross Roads, N. C.",,NC,19,61,103,183,,,,1865-3-10,1865-3-10,
+U253,US,"Averasboro, N. C.",,NC,93,531,54,678,,,,1865-3-16,1865-3-16,
+U254,US,"Bentonville, N. C.",,NC,191,1168,287,1646,,,,1865-3-19,1865-3-19,
+U255,US,"Fort Stedman, Va.",,VA,72,450,522,1044,,,,1865-3-25,1865-3-25,
+U256,US,"Petersburg, Va.",,VA,103,864,209,1176,,,,1865-3-25,1865-3-25,
+U257,US,"Gravelly Run, Va.",,VA,55,306,22,383,,,,1865-3-29,1865-3-29,
+U258,US,"White Oak Road, Va.",,VA,177,1134,556,1867,,,,1865-3-31,1865-3-31,
+U259,US,"Siege of Petersburg, Va.",,VA,58,272,98,428,,,,1865-3-1,1865-3-31,
+U260,US,"Dinwiddie C. H., Va.",,VA,67,354,0,421,,1,Cavalry engagements.,1865-3-31,1865-3-31,
+U261,US,"Five Forks, Va.",,VA,124,706,54,884,,,,1865-4-1,1865-4-1,
+U262,US,"Selma, Ala.",,VA,42,270,7,319,,1,Cavalry engagements.,1865-4-2,1865-4-2,
+U263,US,"Fall of Petersburg, Va.",,VA,296,2565,500,3361,,,,1865-4-2,1865-4-2,
+U264,US,"Namozin Church, Va.",,VA,10,85,0,95,,1,Cavalry engagements.,1865-4-3,1865-4-3,
+U265,US,"Amelia Springs, Va.",,VA,20,96,0,116,,1,Cavalry engagements.,1865-4-5,1865-4-5,
+U266,US,"Sailor's Creek, Va.",,VA,166,1014,0,1180,,,,1865-4-6,1865-4-6,
+U267,US,"Farmville, Va.",,VA,58,504,9,571,,,,1865-4-7,1865-4-7,
+U268,US,"Spanish Fort, Ala.",,VA,100,695,0,795,,,,1865-4-8,1865-4-8,
+U269,US,"Fort Blakely, Ala.",,VA,113,516,0,629,,,,1865-4-9,1865-4-9,
+U270,US,"Columbus; West Point, Ga.",,GA,13,53,0,66,,1,Cavalry engagements.,1865-4-16,1865-4-16,
+C1,Confederate,"First Bull Run, Va.",,VA,387,1582,13,1982,,,"Killed from Gen. Pillow's Report: Official Records, Vol. VII, p. 291.; Missing May include some of the wounded.",1861-7-21,1861-7-21,
+C2,Confederate,"Wilson's Creek, Mo.",,MO,265,800,30,1095,,,,1861-8-10,1861-8-10,
+C3,Confederate,"Greenbrier River, W. Va.",,WV,6,33,13,52,,,,1861-10-3,1861-10-3,
+C4,Confederate,"Ball's Bluff, Va.",,VA,36,117,2,155,,,,1861-10-21,1861-10-21,
+C5,Confederate,"Belmont, Mo.",,MO,105,419,117,641,,,,1861-11-7,1861-11-7,
+C6,Confederate,"Camp Alleghany, W. Va.",,WV,20,96,28,144,,,,1861-12-13,1861-12-13,
+C7,Confederate,"Dranesville, Va.",,VA,43,143,8,194,,,,1861-12-20,1861-12-20,
+C8,Confederate,"Mill Springs, Ky.",,KY,125,309,95,529,,,,1862-1-19,1862-1-19,
+C9,Confederate,"Roanoke Island, N. C.",,NC,23,58,2527,2608,,,,1862-2-8,1862-2-8,
+C10,Confederate,"Fort Donelson, Tenn.",,TN,466,1534,13829,15829,,,,1862-2-14,1862-2-16,
+C11,Confederate,"New Berne, N. C.",,NC,64,101,413,578,,,,1862-3-14,1862-3-14,
+C12,Confederate,"Kernstown, Va.",,VA,80,375,263,718,,,,1862-3-23,1862-3-23,
+C13,Confederate,"Shiloh, Tenn.",,TN,1723,8012,959,10694,,,,1862-4-6,1862-4-7,
+C14,Confederate,"Camden, N. C.",,NC,6,19,3,28,,,,1862-4-19,1862-4-19,
+C15,Confederate,"Williamsburg, Va.",,VA,288,975,297,1560,,,,1862-5-5,1862-5-5,
+C16,Confederate,"West Point, Va.",,VA,8,40,0,48,,,,1862-5-7,1862-5-7,
+C17,Confederate,"McDowell, Va.",,VA,75,423,0,498,,,,1862-5-8,1862-5-8,
+C18,Confederate,"Front Royal; Winchester, Va.",,VA,39,172,3,214,,,,1862-5-23,1862-5-25,
+C19,Confederate,"Hanover C. H., Va.",,VA,73,192,0,265,,,,1862-5-27,1862-5-27,
+C20,Confederate,"Fair Oaks, Va.",,VA,980,4749,405,6134,,,,1862-5-31,1862-5-31,
+C21,Confederate,"Harrisonburg, Va.",,VA,17,50,3,70,,,,1862-6-6,1862-6-6,
+C22,Confederate,"Cross Keys, Va.",,VA,56,392,47,495,,,,1862-6-8,1862-6-8,
+C23,Confederate,"Port Republic, Va.",,VA,78,533,4,615,,,,1862-6-9,1862-6-9,
+C24,Confederate,"Secessionville, S. C.",,SC,52,144,8,204,,,,1862-6-16,1862-6-16,
+C25,Confederate,"Seven Days Battle, Va.",,VA,3478,16261,875,20614,,,"Approximate division of loss: June 25, Oak Grove, 441; June 26, Mechanicsville, 1,365; June 27, Gaines's Mill, 8,751; June 28, Garnett's Farm, and Golding's Farm, 461; June 29, Savage Station and Peach Orchard, 626; June 30, White Oak Swamp and Glendale (or Charles City Cross Roads), 3,615, July 1, Malvern Hill, 5,355; total, 20,614.--Official Records, Vol. XI, Part II, pp. 973-984: Confederate Reports.",1862-6-25,1862-7-1,
+C25A,Confederate,"Seven Days Battle: June 25, Oak Grove",1,VA,74,348,19,441,,,,1862-6-25,1862-6-25,
+C25B,Confederate,"Seven Days Battle: June 26, Mechanicsville",1,VA,230,1077,58,1365,,,,1862-6-26,1862-6-26,
+C25C,Confederate,"Seven Days Battle: June 27, Gaine's Mill",1,VA,1477,6903,371,8751,,,,1862-6-27,1862-6-27,
+C25D,Confederate,"Seven Days Battle: June 28, Garnett's Farm, and Golding's Farm",1,VA,78,364,19,461,,,,1862-6-28,1862-6-28,
+C25E,Confederate,"Seven Days Battle: June 29, Savage Station and Peach Orchard",1,VA,106,494,26,626,,,,1862-6-29,1862-6-29,
+C25F,Confederate,"Seven Days Battle: June 30, White Oak Swamp and Glendale (or Charles City Cross Roads)",1,VA,610,2852,153,3615,,,,1862-6-30,1862-6-30,
+C25G,Confederate,"Seven Days Battle: July 1, Malvern Hill",1,VA,904,4224,227,5355,,,,1862-7-1,1862-7-1,
+C26,Confederate,"Baton Rouge, La.",,LA,84,313,56,453,,,,1862-8-5,1862-8-5,
+C27,Confederate,"Cedar Mountain, Va.",,VA,223,1060,31,1314,,,,1862-8-9,1862-8-9,
+C28,Confederate,"Richmond, Ky.",,KY,78,372,1,451,,,,1862-8-30,1862-8-30,
+C29,Confederate,"Manassas, Va.",,VA,1481,7627,89,9197,,,"Includes Rappahannock and Chantilly; compiled from official reports of Longstreet, Jackson and Stuart.",1862-8-21,1862-9-2,
+C30,Confederate,"Fayetteville, W. Va.",,WV,16,32,0,48,,,,1862-9-10,1862-9-10,
+C31,Confederate,"Maryland Campaign, Md",,MD,1886,9348,1367,12601,,,"Includes Harper's Ferry, Crampton's Gap, South Mountain, Antietam, and Shepherdstown.",1862-9-12,1862-9-20,
+C32,Confederate,"Munfordville, Ky.",,KY,40,211,0,251,,,,1862-9-14,1862-9-17,
+C33,Confederate,"Iuka, Miss.",,MS,86,408,199,693,,,,1862-9-19,1862-9-19,
+C34,Confederate,"Corinth, Miss.",,MS,505,2150,2183,4838,,,"Includes loss at Hatchie River, October 5th.",1862-10-3,1862-10-5,
+C35,Confederate,"Chaplin Hills, Ky.",,KY,510,2635,251,3396,,,,1862-10-8,1862-10-8,
+C36,Confederate,"Pocotaligo, S. C.",,SC,21,124,18,163,,,,1862-10-22,1862-10-22,
+C37,Confederate,"Coffeeville, Miss.",,MS,7,43,10,60,,,,1862-12-5,1862-12-5,
+C38,Confederate,"Hartsville, Tenn.",,TN,21,104,14,139,,,,1862-12-7,1862-12-7,
+C39,Confederate,"Prairie Grove, Ark.",,AR,164,817,0,981,,,,1862-12-7,1862-12-7,
+C40,Confederate,"Kinston, Whitehall, N. C.",,VA,71,268,400,739,,,,1862-12-12,1862-12-17,
+C41,Confederate,"Fredericksburg, Va.",,VA,596,4068,651,5315,,,,1862-12-13,1862-12-13,
+C42,Confederate,"Chickasaw Bluffs, Miss.",,MS,57,120,10,187,,,,1862-12-26,1862-12-29,
+C43,Confederate,"Stone's River, Tenn.",,TN,1294,7945,1027,10266,,,,1862-12-31,1862-12-31,
+C44,Confederate,"Springfield; Hartsville, Mo.",,MO,32,201,29,262,,,,1863-1-2,1863-1-11,
+C45,Confederate,"Deserted House, Va.",,VA,8,31,0,39,,,,1863-1-30,1863-1-30,
+C46,Confederate,"Thompson's Station, Tenn.",,TN,56,289,12,357,,,,1863-3-5,1863-3-5,
+C47,Confederate,"Kelly's Ford, Va.",,VA,11,88,34,133,,,,1863-3-17,1863-3-17,
+C48,Confederate,"Magnolia Hills, Miss.",,MS,68,380,384,832,,,,1863-5-1,1863-5-1,
+C49,Confederate,"Chancellorsville, Va.",,VA,1665,9081,2018,12764,,,,1863-5-1,1863-5-4,
+C50,Confederate,"Raymond, Miss.",,MS,73,251,190,514,,,,1863-5-12,1863-5-12,
+C51,Confederate,"Champion's Hill, Miss.",,MS,380,1018,2441,3839,,,,1863-5-16,1863-5-16,
+C52,Confederate,"Milliken's Bend, La.",,LA,101,285,266,652,,,,1863-6-6,1863-6-6,
+C53,Confederate,"Beverly Ford, Va.",,VA,51,250,132,433,,,"Not including 90 killed, wounded, and missing in White's battalion.",1863-6-9,1863-6-9,
+C53A,Confederate,"Beverly Ford, Va.",1,VA,62,302,159,523,,,"Includes the 90 killed, wounded, and missing in White's battalion.",1863-6-9,1863-6-9,
+C54,Confederate,"Middleburg; Upperville, Va.",,VA,65,279,166,510,,,,1863-6-10,1863-6-24,
+C55,Confederate,"Winchester, Va.",,VA,47,219,3,269,,,,1863-6-13,1863-6-13,
+C56,Confederate,"Hanover, Pa",,PA,9,50,58,117,,,,1863-6-30,1863-6-30,
+C57,Confederate,"Gettysburg, Pa",,PA,2592,12706,5150,20448,,,"The records on file at Washington bear the names of 6,802 wounded, and 5,425 unwounded Confederates captured at Gettysburg. The official reports of Longstreet, Ewell, Hill, and Stuart indicate a loss (after making necessary deductions) of 2,701 killed, 12,739 wounded, 7,528 missing; total, 22,968.",1863-7-1,1863-7-3,
+C58,Confederate,"Helena, Ark.",,AR,173,645,772,1590,,,,1863-7-4,1863-7-4,
+C59,Confederate,"Hagerstown; Williamsport, Md",,MD,8,65,181,254,,,,1863-7-6,1863-7-6,
+C60,Confederate,"Jackson, Miss.",,MS,71,504,765,1340,,,,1863-7-9,1863-7-16,
+C61,Confederate,"Funkstown; Boonsborough, Md",,MD,26,130,60,216,,,,1863-7-12,1863-7-12,
+C62,Confederate,"Plain's Store, La.",,LA,12,36,0,48,,,,1863-5-21,1863-5-21,
+C63,Confederate,"Port Hudson, La.",,LA,176,447,0,623,,,,1863-5-25,1863-7-9,
+C64,Confederate,"Morris Island, S. C.",,SC,40,124,127,291,,,,1863-7-10,1863-7-10,
+C65,Confederate,"Fort Wagner, S. C.",,SC,6,6,0,12,,,,1863-7-11,1863-7-11,
+C66,Confederate,"Fort Wagner, S. C.",,SC,36,140,5,181,,,,1863-7-18,1863-7-18,
+C67,Confederate,"Charleston Harbor, S. C.",,SC,75,404,27,506,,,,1863-7-19,1863-9-6,
+C68,Confederate,"Rocky Gap, Va.",,VA,20,129,13,162,,,,1863-8-26,1863-8-27,
+C69,Confederate,"Chickamauga, Ga.",,GA,2068,13085,1303,16456,,,With the exception of Scott's Brigade the cavalry losses are not included.,1863-9-19,1863-9-20,
+C70,Confederate,"Cavalry Affairs, Va.",,VA,74,477,89,640,,,"Hampton's and Fitz Lee's Cavalry, at Culpeper, Buckland Mills and other places.",1863-10-10,1863-10-21,
+C71,Confederate,"Bristoe Station, Va.",,VA,136,797,445,1378,,,,1863-10-14,1863-10-14,
+C72,Confederate,"Wauhatchie, Tenn.",,TN,33,306,58,397,,,,1863-10-27,1863-10-27,
+C73,Confederate,"Droop Mountain, Va.",,VA,,,,275,,,,1863-11-6,1863-11-6,
+C74,Confederate,"Kelly's Ford, Va.",,VA,,,,359,,,,1863-11-7,1863-11-7,
+C75,Confederate,"Rappahannock Station, Va.",,VA,,,,1674,,,,1863-11-7,1863-11-7,
+C76,Confederate,"Missionary Ridge, Tenn.",,TN,361,2160,4146,6667,,,Including Lookout Mountain.,1863-11-23,1863-11-25,
+C77,Confederate,"Mine Run Campaign, Va.",,VA,110,570,65,745,,,,1863-11-26,1863-11-30,
+C78,Confederate,"Knoxville, Tenn.",,TN,198,850,248,1296,,,,1863-11-14,1863-11-30,
+C79,Confederate,"Fort Sanders, Tenn.",,TN,129,458,226,813,,,"Included, also, in losses November 14-30, 1863--Knoxville.",1863-11-29,1863-11-29,
+C80,Confederate,"Olustee, Fla.",,FL,93,847,6,946,,,,1864-2-20,1864-2-20,
+C81,Confederate,"Marks's Mills, Ark.",,AR,41,108,144,293,,,,1864-4-25,1864-4-25,
+C82,Confederate,"Jenkins's Ferry, Ark.",,AR,86,356,1,443,,,,1864-4-30,1864-4-30,
+C83,Confederate,Rocky Face Ridge; Resaca (Atlanta Campaign),,GA,444,2828,1984,5256,,,,1864-5-7,1864-5-20,
+C84,Confederate,New Hope Church; Dallas (Atlanta Campaign),,GA,309,1921,1352,3582,,,,1864-5-20,1864-6-4,
+C85,Confederate,Kenesaw Mountain (Atlanta Campaign),,GA,468,3480,2394,6342,,,,1864-6-4,1864-7-4,
+C86,Confederate,Peach Tree Creek; Atlanta (Atlanta Campaign),,GA,1341,7500,5361,14202,,,,1864-7-4,1864-7-31,
+C87,Confederate,Utoy Creek; Jonesboro (Atlanta Campaign),,GA,482,3223,0,3705,,,"As stated by Dr. Foard, Medical Director of Johnston's (and Hood's) Army, and does not include the missing. Sherman's Army captured 12,983 Confederates during the Atlanta campaign, which should be added to the above losses.",1864-7-31,1864-9-1,
+C88,Confederate,Cavalry Engagements (Atlanta Campaign),,GA,73,341,0,414,,,"As stated by Dr. Foard, Medical Director of Johnston's (and Hood's) Army, and does not include the missing. Sherman's Army captured 12,983 Confederates during the Atlanta campaign, which should be added to the above losses.",1864-5-6,1864-5-31,
+C87A,Confederate,Utoy Creek; Jonesboro (Atlanta Campaign),1,GA,482,3223,1641,5346,,,Includes captured in Atlanta Campaign,1864-7-31,1864-9-1,
+C88A,Confederate,Cavalry Engagements (Atlanta Campaign),1,GA,73,341,251,665,,,Includes captured in Atlanta Campaign,1864-5-6,1864-5-31,
+C89,Confederate,"New Market, Va.",,VA,34,484,13,531,,,,1864-5-15,1864-5-15,
+C90,Confederate,"Brice's Cross Roads, Miss.",,MS,96,396,0,492,,,,1864-6-10,1864-6-11,
+C91,Confederate,"Johns Island; James Island, S. C.",,SC,33,92,0,125,,,,1864-7-1,1864-7-11,
+C92,Confederate,"Tupelo, Miss.",,MS,210,1049,49,1308,,,,1864-7-13,1864-7-15,
+C93,Confederate,"Opequon, Va.",,VA,226,1567,1818,3611,,,"Not including the loss in the cavalry, which was reported as slight.",1864-9-19,1864-9-19,
+C94,Confederate,"Fisher's Hill, Va.",,VA,30,210,995,1235,,,"Not including the loss in the cavalry, which was reported as slight.",1864-9-22,1864-9-22,
+C95,Confederate,"Allatoona Pass, Ga.",,VA,127,456,290,873,,,,1864-10-5,1864-10-5,
+C96,Confederate,"Cedar Creek, Va.",,GA,320,1540,1050,2910,,,"General Early reported his loss at Cedar Creek at 1,860 killed and wounded, and ""something over 1,000 prisoners.""",1864-10-19,1864-10-19,
+C97,Confederate,"Averasboro, N. C.",,VA,108,540,217,865,,,,1865-3-16,1865-3-16,
+C98,Confederate,"Bentonville, N. C.",,NC,239,1694,673,2606,,,,1865-3-19,1865-3-19,
