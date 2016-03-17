@@ -21,7 +21,7 @@ def build_to_cwsac(src, dst):
         data = yaml.load(f)
     for x in data:
         x['battles_from'] = [btl['id'] for btl in x['battles_from']]
-        x['battles_cwsac'] = [btl['id'] for btl in x['battles_cwsac']]
+        x['battles_to'] = [btl['id'] for btl in x['battles_cwsac']]
     with open(dst, 'w') as f:
         json.dump(data, f)
         print("wrote %s" % dst)

@@ -51,7 +51,7 @@ def build_to_cwsac(src, dst):
     ret = []
     for row in data:
         newrow = {'relation': row['relation']}
-        newrow['battles_cwsac'] = [x['id'] for x in row['battles_cwsac']]
+        newrow['battles_to'] = [x['id'] for x in row['battles_cwsac']]
         newrow['battles_from'] = [x['id'] for x in row['battles_from']]
         ret.append(newrow)
     with open(dstfile, 'w') as f:

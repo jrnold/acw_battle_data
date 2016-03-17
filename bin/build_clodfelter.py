@@ -123,7 +123,7 @@ def cwsac_links(src, dst):
     for x in data:
         toadd = {'relation': x['relation']}
         toadd['battles_from'] = [btl['id'] for btl in x['battles_from']]
-        toadd['battles_cwsac'] = [btl['id'] for btl in x['battles_cwsac']]
+        toadd['battles_to'] = [btl['id'] for btl in x['battles_cwsac']]
         ret.append(toadd)
     with open(dst, 'w') as f:
         json.dump(ret, f)
@@ -135,7 +135,7 @@ def dbpedia_links(src, dst):
     for x in data:
         toadd = {'relation': x['relation']}
         toadd['battles_from'] = [btl['id'] for btl in x['battles_from']]
-        toadd['battles_dbpedia'] = x['battles_dbpedia']
+        toadd['battles_to'] = x['battles_dbpedia']
         ret.append(toadd)
     with open(dst, 'w') as f:
         json.dump(ret, f)
