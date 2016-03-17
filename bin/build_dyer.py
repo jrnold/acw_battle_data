@@ -165,7 +165,7 @@ def xml_to_csv(source, writer, engagement_types):
                 losses = parse_losses(text)
 
                 #print nevent, state, year, startDate, endDate, event_type
-                data = {'battle' : nevent,
+                data = {'battle_id' : nevent,
                         'event_type' : event_type,
                         'state' :STATES[state],
                         'year' : year,
@@ -177,8 +177,7 @@ def xml_to_csv(source, writer, engagement_types):
                         'killed' : losses['k'],
                         'wounded' : losses['w'],
                         'killed_wounded' : losses['kw'],
-                        'missing_captured' : losses['m'],
-                        'text': text
+                        'missing_captured' : losses['m']
                         }
                 writer.writerow(data)
                 nevent += 1
@@ -192,7 +191,7 @@ def load_engagement_types(filename):
     return data
 
 def build_engagements(src, dst):
-    header = ('battle',
+    header = ('battle_id',
               'event_type',
               'state',
               'year',

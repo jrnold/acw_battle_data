@@ -32,7 +32,7 @@ Schema
 
 
 ================  =======  =================
-battle            integer  Battle
+battle_id         integer  battle_id
 event_type        string   Event type
 state             string   State
 year              integer  Year
@@ -47,15 +47,15 @@ killed_wounded    number   Killed or Wounded
 missing_captured  number   Missing Captured
 ================  =======  =================
 
-battle
-------
+battle_id
+---------
 
-:title: Battle
+:title: battle_id
 :type: integer
 :format: default
 
 
-Number of the battle (identifier)
+
 
 
        
