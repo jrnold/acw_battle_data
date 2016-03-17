@@ -16,6 +16,26 @@ _months = dict(zip(["Jan", "Feb", "March", "April", "May", "June",
                    "July", "Aug", "Sept", "Oct", "Nov", "Dec"],
                   range(1, 13)))
 
+MISSING_DATES = {
+    625: {'start_date': '1863-12-12'},
+    626: {'start_date': '1863-12-13'},
+    742: {'start_date': '1864-04-06'},
+    1613: {'start_date': '1864-07-22'},
+    9195: {'start_date': '1862-09-27'},
+    3305: {'start_date': '1863-02-14', 'end_date': '1863-02-28'},
+    8194: {'start_date': '1864-02-06', 'end_date': '1864-02-08'}
+}
+
+MISSING_EVENTS = {
+    4319: 'Reoccupation', # Re-occupation of New Madrid
+    6348: "Reopening", # Oct. 26-29: Re-opening, Tennessee River
+    5295: 'Expedition', # 1st Exp. for relief of Fort Sumpter
+    5298: 'Expedition',  # 2nd Exp. for relief of Fort Sumpter
+    5555: 'Raid', # Pittinger's Raid on Georgia State R. R. Raid
+    5810: 'Raid', # '63: Carter's Raid into Eastern Tennessee and Southwest Virginia
+    7602: 'March' # "Mud March," Burnside's
+}
+
 STATES = {
     'Minnesota': 'MN',
     'California': 'CA',
@@ -110,55 +130,52 @@ def xml_to_csv(source, writer, engagement_types):
             if elem.tag == "div3" and elem.get('ana') == "interp-event":
                 head = elem.find("head")
                 ## Parse Date
-                startDate = None
-                endDate = None
-                date = head.find("date")
-                if date is not None:
-                    date_value = date.get("value")
-                    if re.match("186[1-5]-00", date_value) is not None:
-                        yyyy = int(date_value[:4])
-                        if date.text == "Jan. to April":
-                            startDate = date_(yyyy, 1, 1)
-                            endDate = date_(yyyy, 4, 30)
-                        else:
-                            for k, v in _months.items():
-                                if date.text.startswith(k):
-                                    startDate = date_(yyyy, v, 1)
-                                    if v is not 12:
-                                        endDate = date_(yyyy, v + 1, 1) - timedelta(1)
-                                    else:
-                                        endDate = date_(yyyy, 12, 31)
-                                    break
-                    else:
-                        startDate = datetime_.strptime(date_value,
-                                                       "%Y-%m-%d").date()
+                if nevent in MISSING_DATES:
+                    date = MISSING_DATES[nevent]
+                    startDate = date['start_date']
+                    try:
+                        endDate = date['end_date']
+                    except KeyError:
                         endDate = startDate
-                elif head.find("dateRange") is not None:
-                    date_range = head.find("dateRange")
-                    if date_range.text == "Feb. 14-29":
-                        startDate = date_(1863, 2, 14)
-                        endDate = date_(1863, 2, 28)
-                    elif date_range.text == "Feb 6-8":
-                        startDate = date_(1864, 2, 6)
-                        endDate = date_(1864, 2, 8)
-                    else:
+                else:
+                    startDate = None
+                    endDate = None
+                    date = head.find("date")
+                    if date is not None:
+                        date_value = date.get("value")
+                        if re.match("186[1-5]-00", date_value) is not None:
+                            yyyy = int(date_value[:4])
+                            if date.text == "Jan. to April":
+                                startDate = date_(yyyy, 1, 1)
+                                endDate = date_(yyyy, 4, 30)
+                            else:
+                                for k, v in _months.items():
+                                    if date.text.startswith(k):
+                                        startDate = date_(yyyy, v, 1)
+                                        if v is not 12:
+                                            endDate = date_(yyyy, v + 1, 1) - timedelta(1)
+                                        else:
+                                            endDate = date_(yyyy, 12, 31)
+                                        break
+                        else:
+                            startDate = datetime_.strptime(date_value,
+                                                           "%Y-%m-%d").date()
+                            endDate = startDate
+                    elif head.find("dateRange") is not None:
+                        date_range = head.find("dateRange")
                         startDate = datetime_.strptime(date_range.get("from"),
                                                    "%Y-%m-%d").date()
                         endDate = datetime_.strptime(date_range.get("to"),
                                                  "%Y-%m-%d").date()
                 # Event type
-                event_type_tmp = head.findtext("rs")
-                if event_type_tmp in engagement_types:
-                    event_type = engagement_types[event_type_tmp]
+
+                if nevent in MISSING_EVENTS:
+                    event_type = MISSING_EVENTS[nevent]
                 else:
-                    if nevent == 4319:
-                        event_type = "Reoccupation" # Re-occupation of New Madrid
-                    elif nevent == 6348:
-                        event_type = "Reopening" # Oct. 26-29: Re-opening, Tennessee River
-                    else:
-                        event_type = ""
+                    event_type = engagement_types[head.findtext("rs")]
                 ## head_text
-                event = tostring(head, method = "text", encoding = 'utf-8').decode('utf-8')
+                event = tostring(head, method = "text", encoding = 'utf-8').\
+                    decode('utf-8')
                 # Text
                 text = elem.findtext("p").strip()
                 ## Casualties

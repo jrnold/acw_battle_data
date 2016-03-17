@@ -77,7 +77,9 @@ state
 :title: State
 :type: string
 :format: default
-
+:constraints:
+    :pattern: [A-Z]{2}
+    
 
 State in which the event occurred.
 
@@ -89,7 +91,10 @@ year
 :title: Year
 :type: integer
 :format: default
-
+:constraints:
+    :minimum: 1860
+    :maximum: 1865
+    
 
 Year of the event.
 
@@ -149,7 +154,9 @@ casualties
 :title: Casualties
 :type: integer
 :format: default
-
+:constraints:
+    :minimum: 0
+    
 
 Union casualties (killed, wounded, and missing or captured).
 
@@ -161,7 +168,9 @@ killed
 :title: Killed
 :type: integer
 :format: default
-
+:constraints:
+    :minimum: 0
+    
 
 Union killed
 
@@ -173,7 +182,9 @@ wounded
 :title: Wounded
 :type: integer
 :format: default
-
+:constraints:
+    :minimum: 0
+    
 
 Union wounded
 
@@ -185,7 +196,9 @@ killed_wounded
 :title: Killed or Wounded
 :type: number
 :format: default
-
+:constraints:
+    :minimum: 0
+    
 
 Union killed or wounded
 
@@ -197,7 +210,9 @@ missing_captured
 :title: Missing Captured
 :type: number
 :format: default
-
+:constraints:
+    :minimum: 0
+    
 
 Union missing or captured
 
