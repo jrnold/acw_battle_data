@@ -4,8 +4,8 @@ path: data/shenandoah_commanders.csv
 schema:
   fields:
   - format: default
-    name: battle_number
-    title: battle_number
+    name: battle_id
+    title: battle_id
     type: integer
   - format: default
     name: cwsac_id

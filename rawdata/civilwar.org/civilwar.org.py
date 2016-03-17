@@ -138,7 +138,7 @@ def get_union_forces(soup):
         ret = soup.find('div', class_ = 'bfs-engaged').\
             find('div', class_ = 'forces').\
             find('div', class_ = 'union').get_text()
-        return re.search('[0-9,]', ret).group(0).replace(',', '')
+        return re.search(r'[0-9,]+', ret).group(0).replace(',', '')
     except AttributeError:
         return None
 
@@ -148,7 +148,7 @@ def get_confederate_forces(soup):
         ret = soup.find('div', class_ = 'bfs-engaged').\
             find('div', class_ = 'forces').\
             find('div', class_ = 'confederate').get_text()
-        return re.search('[0-9,]', ret).group(0).replace(',', '')
+        return re.search(r'[0-9,]+', ret).group(0).replace(',', '')
     except AttributeError:
         return None
 
@@ -177,27 +177,18 @@ def get_total_casualties(soup):
     return soup.find('div', class_ = 'bfs-casualties').\
         find('p').get_text()
 
+def extract_casualties(x, type):
+    pat = re.search(r'([0-9,]+|\(Unknown\))\s+%s' % type, x, re.I)
+    return None if pat == "(Unknown)" else pat.group(1).replace(',', '')
+
 def get_union_casualties(soup):
     cas = soup.find('div', class_ = 'bfs-forces').\
         find('h3', text = 'Union').\
         find_next_sibling('p').get_text()
     data = {}
-    try:
-        data['union_killed'] = re.search(r'([0-9,]+) killed', cas).group(1).replace(',', '')
-    except AttributeError:
-        pass
-    try:
-        data['union_wounded'] = re.search(r'([0-9,]+) wounded', cas).group(1).replace(',', '')
-    except AttributeError:
-        pass
-    try:
-        data['union_missing'] = re.search(r'([0-9,]+) missing', cas).group(1).replace(',', '')
-    except AttributeError:
-        pass
-    try:
-        data['union_casualties'] = re.search(r'([0-9,]+) total', cas).group(1).replace(',', '')
-    except AttributeError:
-        pass
+    for k, v in (('killed', 'killed'), ('wounded', 'wounded'),
+                 ('missing', 'missing'), ('casualties', 'total')):
+        data['union_' + k] = extract_casualties(cas, v)
     return data
 
 def get_confederate_casualties(soup):
@@ -205,22 +196,9 @@ def get_confederate_casualties(soup):
         find('h3', text = 'Confederate').\
         find_next_sibling('p').get_text()
     data = {}
-    try:
-        data['confederate_killed'] = re.search(r'([0-9,]+) killed', cas).group(1).replace(',', '')
-    except AttributeError:
-        pass
-    try:
-        data['confederate_wounded'] = re.search(r'([0-9,]+) wounded', cas).group(1).replace(',', '')
-    except AttributeError:
-        pass
-    try:
-        data['confederate_missing'] = re.search(r'([0-9,]+) missing', cas).group(1).replace(',', '')
-    except AttributeError:
-        pass
-    try:
-        data['confederate_casualties'] = re.search(r'([0-9,]+) total', cas).group(1).replace(',', '')
-    except AttributeError:
-        pass
+    for k, v in (('killed', 'killed'), ('wounded', 'wounded'),
+                 ('missing', 'missing'), ('casualties', 'total')):
+        data['confederate_' + k] = extract_casualties(cas, v)
     return data
 
 def get_result(soup):
@@ -275,7 +253,7 @@ def get_battle_links():
         json.dump(data, f)
 
 def main():
-    pass
+    get_battle_links()
 
 if __name__ == "__main__":
     main()

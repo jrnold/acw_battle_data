@@ -65,12 +65,13 @@ def build_forces(data, dst):
         union['strength'] = battle['union_strength'] if 'union_strength' in battle else None
         union['killed'] = battle['union_killed'] if 'union_killed' in battle else None
         union['wounded'] = battle['union_wounded'] if 'union_wounded' in battle else None
+        union['missing_captured'] = battle['union_missing'] if 'union_missing' in battle else None
         forces.append(union)
         confederate = {'battle_id': battle['id'], 'belligerent': 'Confederate'}
         confederate['casualties'] = battle['confederate_casualties'] if 'confederate_casualties' in battle else None
         confederate['strength'] = battle['confederate_strength'] if 'confederate_strength' in battle else None
         confederate['killed'] = battle['confederate_killed'] if 'confederate_killed' in battle else None
-        confederate['wounded'] = battle['confederate_wounded'] if 'confederate_wounded' in battle else None
+        confederate['missing_captured'] = battle['confederate_missing'] if 'confederate_missing' in battle else None
         forces.append(confederate)
 
     with open(dst, 'w') as f:

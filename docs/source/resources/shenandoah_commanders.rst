@@ -16,20 +16,20 @@ Schema
 
 
 
-=============  =======  =============
-battle_number  integer  battle_number
-cwsac_id       string   cwsac_id
-belligerent    string   belligerent
-last_name      string   Last name
-first_name     string   First name
-middle_name    string   Middle name
-rank           string   Rank
-=============  =======  =============
+===========  =======  ===========
+battle_id    integer  battle_id
+cwsac_id     string   cwsac_id
+belligerent  string   belligerent
+last_name    string   Last name
+first_name   string   First name
+middle_name  string   Middle name
+rank         string   Rank
+===========  =======  ===========
 
-battle_number
--------------
+battle_id
+---------
 
-:title: battle_number
+:title: battle_id
 :type: integer
 :format: default
 

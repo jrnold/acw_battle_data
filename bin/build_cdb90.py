@@ -11,7 +11,7 @@ def build(src, dst):
     for row in data:
         ret.append({
             'battles_from': [row['isqno']],
-            'battles_cwsac': [row['cwsac_id']],
+            'battles_to': [row['cwsac_id']],
             'relation': 'eq'
         })
     with open(dst, 'w') as f:

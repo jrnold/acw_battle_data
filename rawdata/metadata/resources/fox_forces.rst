@@ -74,7 +74,7 @@ See :doc:`fox_forces` for more detail on the Fox data.
 
 - Wilson's Raid, Va. (1864-6-22 to 1864-6-29) includes several battles
 - Union casualties for Smithfield Crossing (WV015) are given for separate days. Battles of Halltown, VA on Aug 24 and Aug 26
-  may also be part of this battle, but it is unclear if they are the same enagement.
+  may also be part of this battle, but it is unclear if they are the same engagement.
 - Union casualties for Wilmington (NC016) is split into
 
   - Sugar Loaf Battery, N. C. (1865-2-11)

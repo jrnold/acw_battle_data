@@ -64,8 +64,7 @@ def clean_forces(battle):
     forces = []
     for i in ("U", "C"):
         x = {}
-        x["battle_number"] = battle["Number"]
-        x["cwsac_id"] = battle["CWSAC"]
+        x["battle_id"] = battle["Number"]
         if i == "U":
             x["belligerent"] = "US"
         else:
@@ -84,8 +83,7 @@ def clean_forces(battle):
     return forces
 
 def build_forces(data, dst):
-    fieldnames = ('battle_number',
-                  'cwsac_id',
+    fieldnames = ('battle_id',
                   'belligerent',
                   'description',
                   'strength_min',
@@ -107,7 +105,7 @@ def clean_commanders(battle):
     ret = []
     for i in ("U", "C"):
         x = {}
-        x["battle_number"] = battle["Number"]
+        x["battle_id"] = battle["Number"]
         x["cwsac_id"] = battle["CWSAC"]
         if i == "U":
             x["belligerent"] = "US"
@@ -124,7 +122,7 @@ def clean_commanders(battle):
     return ret
 
 def build_commanders(data, dst):
-    fieldnames = ('battle_number',
+    fieldnames = ('battle_id',
                   'cwsac_id',
                   'belligerent',
                   'last_name',

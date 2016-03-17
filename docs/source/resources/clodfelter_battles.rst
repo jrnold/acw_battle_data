@@ -54,6 +54,7 @@ Quirks of the battles in this data:
     - Chattanooga (Lookout Mountain) on 11-24
     - Chattanooga (Tunnel Hill) on 11-25
     - Chattanooga (Missionary Ridge) on 11-25
+
 - Cold Harbor: includes a battle for the overall siege and one for the assault
 
     - Cold Harbor (assault) on 1864-6-3
@@ -73,7 +74,7 @@ Quirks of the battles in this data:
     - Savage's Station (Seven Days)
     - White Oak Swamp (Seven Days)
     - Malvern Hill (Seven Days)
-    
+
 - 2nd Bull Run (Manasas) [VA026] (1862-8-28 to 1862-8-30) and Chantilly [VA027] (1862-9-1) are divided into two battles:
     - Groveton (1862-8-28)
     - Second Bull Run/Chantilly (Second Manassas) (1862-8-29 to 1862-9-1)

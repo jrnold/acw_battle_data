@@ -17,8 +17,7 @@ Schema
 
 
 ================  =======  ===================
-battle_number     integer  battle_number
-cwsac_id          string   CWSAC Id.
+battle_id         integer  battle_id
 belligerent       string   Belligerent
 description       string   Description
 strength_min      integer  Strength (min)
@@ -30,23 +29,11 @@ wounded           integer  Wounded
 missing_captured  integer  Missing or Captured
 ================  =======  ===================
 
-battle_number
--------------
+battle_id
+---------
 
-:title: battle_number
+:title: battle_id
 :type: integer
-:format: default
-
-
-
-
-
-       
-cwsac_id
---------
-
-:title: CWSAC Id.
-:type: string
 :format: default
 
 
