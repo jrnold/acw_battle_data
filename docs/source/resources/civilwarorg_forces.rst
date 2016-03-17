@@ -25,6 +25,7 @@ strength          integer  Strength
 casualties        integer  Total casualties
 killed            integer  Killed
 wounded           integer  Wounded
+killed_wounded    number   killed_wounded
 missing_captured  integer  Missing and Captured
 ================  =======  ====================
 
@@ -101,6 +102,18 @@ wounded
 :format: default
 :constraints:
     
+
+
+
+
+       
+killed_wounded
+--------------
+
+:title: killed_wounded
+:type: number
+:format: default
+
 
 
 

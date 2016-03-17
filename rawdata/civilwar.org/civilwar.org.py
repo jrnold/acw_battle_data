@@ -189,10 +189,6 @@ def get_casualties(soup, text):
     for k, v in (('killed', 'killed'), ('wounded', 'wounded'),
                  ('missing_captured', 'missing'), ('casualties', 'total')):
         data[k] = parse_casualties(el.get_text(), v)
-    print()
-    print(el)
-    print(data)
-    print()
     return data
 
 def get_result(soup):
@@ -244,15 +240,8 @@ def get_battle_links():
         btl['name'] = name
         data.append(btl)
     with open(dst, 'w') as f:
-        json.dump(data, f)
+        json.dump(data, f, indent = 1)
         
-casualties_text = BeautifulSoup("""<p>
-<span>(Unknown)</span> <em>killed</em><br />
-<span>(Unknown)</span> <em>wounded</em><br />
-<span>(Unknown)</span> <em>missing &amp; captured</em><br />
-500 <em>total</em><br />
-</p>""", "lxml")
-
 
 def main():
     get_battle_links()

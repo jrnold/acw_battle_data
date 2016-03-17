@@ -40,6 +40,10 @@ schema:
     name: wounded
     title: Wounded
     type: integer
+  - format: default
+    name: killed_wounded
+    title: killed_wounded
+    type: number
   - constraints:
       min: 0
     format: default
