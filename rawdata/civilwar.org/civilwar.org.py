@@ -177,28 +177,22 @@ def get_total_casualties(soup):
     return soup.find('div', class_ = 'bfs-casualties').\
         find('p').get_text()
 
-def extract_casualties(x, type):
-    pat = re.search(r'([0-9,]+|\(Unknown\))\s+%s' % type, x, re.I)
-    return None if pat == "(Unknown)" else pat.group(1).replace(',', '')
+def parse_casualties(x, type):
+    cas = re.search(r'([0-9,]+|\(Unknown\))\s+%s' % type, x, re.I).group(1)
+    return None if cas == "(Unknown)" else int(cas.replace(',', ''))
 
-def get_union_casualties(soup):
-    cas = soup.find('div', class_ = 'bfs-forces').\
-        find('h3', text = 'Union').\
-        find_next_sibling('p').get_text()
+def get_casualties(soup, text):
+    el = soup.find('div', class_ = 'bfs-forces').\
+        find('h3', text = text).\
+        find_next_sibling('p')
     data = {}
     for k, v in (('killed', 'killed'), ('wounded', 'wounded'),
-                 ('missing', 'missing'), ('casualties', 'total')):
-        data['union_' + k] = extract_casualties(cas, v)
-    return data
-
-def get_confederate_casualties(soup):
-    cas = soup.find('div', class_ = 'bfs-forces').\
-        find('h3', text = 'Confederate').\
-        find_next_sibling('p').get_text()
-    data = {}
-    for k, v in (('killed', 'killed'), ('wounded', 'wounded'),
-                 ('missing', 'missing'), ('casualties', 'total')):
-        data['confederate_' + k] = extract_casualties(cas, v)
+                 ('missing_captured', 'missing'), ('casualties', 'total')):
+        data[k] = parse_casualties(el.get_text(), v)
+    print()
+    print(el)
+    print(data)
+    print()
     return data
 
 def get_result(soup):
@@ -216,10 +210,10 @@ def parse_battle_large(soup):
     data['union_strength'] = get_union_forces(soup)
     data['confederate_strength'] = get_confederate_forces(soup)
     data['total_casualties'] = get_total_casualties(soup)
-    for k, v in get_union_casualties(soup).items():
-        data[k] = v
-    for k, v in get_confederate_casualties(soup).items():
-        data[k] = v
+    for k, v in get_casualties(soup, 'Union').items():
+        data['union_' + k] = v
+    for k, v in get_casualties(soup, 'Confederate').items():
+        data['confederate_' + k] = v
     data['confederate_commanders'] = get_confederate_commander(soup)
     data['union_commanders'] = get_union_commander(soup)
     data['result'] = get_result(soup)
@@ -251,9 +245,18 @@ def get_battle_links():
         data.append(btl)
     with open(dst, 'w') as f:
         json.dump(data, f)
+        
+casualties_text = BeautifulSoup("""<p>
+<span>(Unknown)</span> <em>killed</em><br />
+<span>(Unknown)</span> <em>wounded</em><br />
+<span>(Unknown)</span> <em>missing &amp; captured</em><br />
+500 <em>total</em><br />
+</p>""", "lxml")
+
 
 def main():
     get_battle_links()
+    pass
 
 if __name__ == "__main__":
     main()

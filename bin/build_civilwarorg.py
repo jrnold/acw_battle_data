@@ -49,6 +49,25 @@ REGEX_DATE = re.compile(''.join(('(?P<m>%s) (?P<d>\d+)',
                                 '(?: - (?P<m2>%s)? *(?P<d2>\d+))?',
                                 ', (?P<year>\d{4})'))
                         % ('|'.join(MONTHS), '|'.join(MONTHS)))
+                        
+def get_force(x, belligerent):
+    ret = {'battle_id': x['id'], 'belligerent': belligerent}
+    prefix = 'union' if belligerent == 'US' else 'confederate'
+    for k in ('casualties', 'strength', 'killed', 'wounded', 'missing_captured'):
+        try:
+            ret[k] = x[prefix + '_' + k]
+        except KeyError:
+            ret[k] = None
+    if ret['casualties'] and ret['killed'] and ret['wounded'] and ret['missing_captured'] is None:
+        ret['casualties'] = None
+    if ret['casualties'] and ret['killed'] is None and ret['wounded'] is None and ret['missing_captured']:
+        ret['killed_wounded'] = ret['casualties'] - ret['missing_captured']
+    elif ret['wounded'] is not None and ret['killed'] is not None:
+        ret['killed_wounded'] = ret['killed'] + ret['wounded']
+    else:
+        ret['killed_wounded'] = None
+    return ret
+        
 
 def build_forces(data, dst):
     fields = ('battle_id',
@@ -57,23 +76,12 @@ def build_forces(data, dst):
               'casualties',
               'killed',
               'wounded',
+              'killed_wounded',
               'missing_captured')
     forces = []
     for battle in data:
-        union = {'battle_id': battle['id'], 'belligerent': 'US'}
-        union['casualties'] = battle['union_casualties'] if 'union_casualties' in battle else None
-        union['strength'] = battle['union_strength'] if 'union_strength' in battle else None
-        union['killed'] = battle['union_killed'] if 'union_killed' in battle else None
-        union['wounded'] = battle['union_wounded'] if 'union_wounded' in battle else None
-        union['missing_captured'] = battle['union_missing'] if 'union_missing' in battle else None
-        forces.append(union)
-        confederate = {'battle_id': battle['id'], 'belligerent': 'Confederate'}
-        confederate['casualties'] = battle['confederate_casualties'] if 'confederate_casualties' in battle else None
-        confederate['strength'] = battle['confederate_strength'] if 'confederate_strength' in battle else None
-        confederate['killed'] = battle['confederate_killed'] if 'confederate_killed' in battle else None
-        confederate['missing_captured'] = battle['confederate_missing'] if 'confederate_missing' in battle else None
-        forces.append(confederate)
-
+        forces.append(get_force(battle, 'US'))
+        forces.append(get_force(battle, 'Confederate'))
     with open(dst, 'w') as f:
         print("Writing: %s" % dst)
         writer = csv.DictWriter(f, fields, extrasaction = 'raise')
