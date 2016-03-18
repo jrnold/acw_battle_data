@@ -61,10 +61,6 @@ schema:
     name: casualties_text
     title: Casualties
     type: string
-  - format: default
-    name: missing
-    title: missing
-    type: number
   - constraints:
       pattern: '[A-Z]{2}[0-9]{3}[A-Z]?'
     description: CWSAC battle identifiers of the battles. These are almost the same
