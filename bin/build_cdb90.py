@@ -15,7 +15,7 @@ def build(src, dst):
             'relation': 'eq'
         })
     with open(dst, 'w') as f:
-        json.dump(dst, f)
+        json.dump(ret, f)
 
 def main():
     print("Building CDB90 data")
