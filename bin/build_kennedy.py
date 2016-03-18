@@ -83,7 +83,7 @@ def forces_to_cwsac(src, dst):
                     cwsac = [battle['cwsac_id']]
                 except KeyError:
                     cwsac = [battle['battle_id']]
-            ret.append({'battles_from': [battle],
+            ret.append({'battles_from': [battle['battle_id']],
                          'battles_to': cwsac,
                          'relation': 'eq'})
     with open(dst, 'w') as f:
