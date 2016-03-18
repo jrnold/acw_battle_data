@@ -58,7 +58,6 @@ def battles_csv(src, dst):
                   'casualties_min',
                   'casualties_max',
                   'casualties_text',
-                  'missing',
                   'cwsac_id')
     with open(dst, 'w') as f:
         writer = csv.DictWriter(f, fieldnames)
@@ -66,7 +65,7 @@ def battles_csv(src, dst):
         for battle in data:
             row = battle.copy()
             if 'cwsac_id' not in row:
-                battle['cwsac_id'] = battle['battle_id']
+                row['cwsac_id'] = row['battle_id']
             row = dict_subset(row, fieldnames)
             writer.writerow(row)
 
@@ -77,7 +76,7 @@ def forces_to_cwsac(src, dst):
     for battle in data:
         if battle['forces']:
             try:
-                cwsac = battle['casualties_battles']
+                cwsac = battle['forces']['casualties_battles']
             except KeyError:
                 try:
                     cwsac = [battle['cwsac_id']]
