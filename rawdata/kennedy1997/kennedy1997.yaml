@@ -1,4 +1,5 @@
-AL001:
+- battle_id: AL001
+  battle_name: Day's Gap
   campaign: 'Streight''s Raid Through Alabama: April-May 1863'
   casualties_max: null
   casualties_min: null
@@ -20,10 +21,10 @@ AL001:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Day's Gap
   start_date: '1863-04-30'
   state: AL
-AL002:
+- battle_id: AL002
+  battle_name: Athens
   campaign: 'Deep South: January-February 1864'
   casualties_max: null
   casualties_min: null
@@ -45,10 +46,10 @@ AL002:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Athens
   start_date: '1864-01-26'
   state: AL
-AL003:
+- battle_id: AL003
+  battle_name: Mobile Bay
   campaign: 'Mobile Bay: August 1864'
   casualties_max: null
   casualties_min: null
@@ -71,10 +72,10 @@ AL003:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Mobile Bay
   start_date: '1864-08-02'
   state: AL
-AL004:
+- battle_id: AL004
+  battle_name: Decatur
   campaign: 'Hood''s March to Tennessee: October-December 1864'
   casualties_max: null
   casualties_min: null
@@ -97,10 +98,10 @@ AL004:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Decatur
   start_date: '1864-10-26'
   state: AL
-AL005:
+- battle_id: AL005
+  battle_name: Spanish Fort
   campaign: 'Mobile Campaign: March-April 1865'
   casualties_max: null
   casualties_min: null
@@ -122,10 +123,10 @@ AL005:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Spanish Fort
   start_date: '1865-03-27'
   state: AL
-AL006:
+- battle_id: AL006
+  battle_name: Fort Blakely
   campaign: 'Mobile Campaign: March-April 1865'
   casualties_max: null
   casualties_min: null
@@ -147,10 +148,10 @@ AL006:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Fort Blakely
   start_date: '1865-04-02'
   state: AL
-AL007:
+- battle_id: AL007
+  battle_name: Selma
   campaign: 'Wilson''s Raid in Alabama and Georgia: March-May 1865'
   casualties_max: null
   casualties_min: null
@@ -172,10 +173,10 @@ AL007:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Selma
   start_date: '1865-04-02'
   state: AL
-AR001:
+- battle_id: AR001
+  battle_name: Pea Ridge
   campaign: 'Pea Ridge, Arkansas: March 1862'
   casualties_max: null
   casualties_min: null
@@ -197,10 +198,10 @@ AR001:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Pea Ridge
   start_date: '1862-03-06'
   state: AR
-AR002:
+- battle_id: AR002
+  battle_name: St. Charles
   campaign: 'Arkansas: June-July 1862'
   casualties_max: null
   casualties_min: null
@@ -222,10 +223,10 @@ AR002:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: St. Charles
   start_date: '1862-06-17'
   state: AR
-AR003:
+- battle_id: AR003
+  battle_name: Hill's Plantation
   campaign: 'Arkansas: June-July 1862'
   casualties_max: null
   casualties_min: null
@@ -247,10 +248,10 @@ AR003:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Hill's Plantation
   start_date: '1862-07-07'
   state: AR
-AR004:
+- battle_id: AR004
+  battle_name: Cane Hill
   campaign: 'Arkansas: November-December 1862'
   casualties_max: null
   casualties_min: null
@@ -272,10 +273,10 @@ AR004:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Cane Hill
   start_date: '1862-11-28'
   state: AR
-AR005:
+- battle_id: AR005
+  battle_name: Prairie Grove
   campaign: 'Arkansas: November-December 1862'
   casualties_max: null
   casualties_min: null
@@ -297,10 +298,10 @@ AR005:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Prairie Grove
   start_date: '1862-12-07'
   state: AR
-AR006:
+- battle_id: AR006
+  battle_name: Arkansas Post
   campaign: 'Vicksburg Campaign and Siege: December 1862-July 1863'
   casualties_max: null
   casualties_min: null
@@ -322,10 +323,10 @@ AR006:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Arkansas Post
   start_date: '1863-01-09'
   state: AR
-AR007:
+- battle_id: AR007
+  battle_name: Chalk Bluff
   campaign: 'Missouri and Arkansas: January-May 1863'
   casualties_max: 100
   casualties_min: 0
@@ -347,10 +348,10 @@ AR007:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Chalk Bluff
   start_date: '1863-05-01'
   state: AR
-AR008:
+- battle_id: AR008
+  battle_name: Helena
   campaign: 'Vicksburg Campaign and Siege: December 1862-July 1863'
   casualties_max: null
   casualties_min: null
@@ -372,10 +373,10 @@ AR008:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Helena
   start_date: '1863-07-04'
   state: AR
-AR009:
+- battle_id: AR009
+  battle_name: Devil's Backbone
   campaign: 'Arkansas, Idaho, and Oklahoma: January-September 1863; February 1864'
   casualties_max: null
   casualties_min: null
@@ -398,10 +399,10 @@ AR009:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Devil's Backbone
   start_date: '1863-09-01'
   state: AR
-AR010:
+- battle_id: AR010
+  battle_name: Bayou Fourche (Little Rock)
   campaign: 'Arkansas: September-October 1863'
   casualties_max: null
   casualties_min: null
@@ -424,10 +425,10 @@ AR010:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Bayou Fourche (Little Rock)
   start_date: '1863-09-10'
   state: AR
-AR011:
+- battle_id: AR011
+  battle_name: Pine Bluff
   campaign: 'Arkansas: September-October 1863'
   casualties_max: null
   casualties_min: null
@@ -449,10 +450,10 @@ AR011:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Pine Bluff
   start_date: '1863-10-25'
   state: AR
-AR012:
+- battle_id: AR012
+  battle_name: Elkin's Ferry
   campaign: 'Camden, Arkansas, Expedition: April-June 1864'
   casualties_max: null
   casualties_min: null
@@ -475,10 +476,10 @@ AR012:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Elkin's Ferry
   start_date: '1864-04-03'
   state: AR
-AR013:
+- battle_id: AR013
+  battle_name: Prairie D'Ane
   campaign: 'Camden, Arkansas, Expedition: April-June 1864'
   casualties_max: null
   casualties_min: null
@@ -500,10 +501,10 @@ AR013:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Prairie D'Ane
   start_date: '1864-04-10'
   state: AR
-AR014:
+- battle_id: AR014
+  battle_name: Poison Spring
   campaign: 'Camden, Arkansas, Expedition: April-June 1864'
   casualties_max: null
   casualties_min: null
@@ -525,10 +526,10 @@ AR014:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Poison Spring
   start_date: '1864-04-18'
   state: AR
-AR015:
+- battle_id: AR015
+  battle_name: Marks' Mills
   campaign: 'Camden, Arkansas, Expedition: April-June 1864'
   casualties_max: null
   casualties_min: null
@@ -550,10 +551,10 @@ AR015:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Marks' Mills
   start_date: '1864-04-25'
   state: AR
-AR016:
+- battle_id: AR016
+  battle_name: Jenkins' Ferry
   campaign: 'Camden, Arkansas, Expedition: April-June 1864'
   casualties_max: null
   casualties_min: null
@@ -575,10 +576,10 @@ AR016:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Jenkins' Ferry
   start_date: '1864-04-30'
   state: AR
-AR017:
+- battle_id: AR017
+  battle_name: Ditch Bayou (Old River Lake)
   campaign: 'Camden, Arkansas, Expedition: April-June 1864'
   casualties_max: null
   casualties_min: null
@@ -601,10 +602,10 @@ AR017:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Ditch Bayou (Old River Lake)
   start_date: '1864-06-06'
   state: AR
-CO001:
+- battle_id: CO001
+  battle_name: Sand Creek
   campaign: 'Sand Creek, Colorado Territory: November 1864'
   casualties_max: null
   casualties_min: null
@@ -627,10 +628,10 @@ CO001:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Sand Creek
   start_date: '1864-11-29'
   state: CO
-DC001:
+- battle_id: DC001
+  battle_name: Fort Stevens
   campaign: 'Early in Maryland, Pennsylvania, and the Shenandoah Valley: July-August
     1864'
   casualties_max: null
@@ -654,10 +655,10 @@ DC001:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Fort Stevens
   start_date: '1864-07-11'
   state: DC
-FL001:
+- battle_id: FL001
+  battle_name: Santa Rosa Island
   campaign: 'Florida: October 1861'
   casualties_max: null
   casualties_min: null
@@ -679,10 +680,10 @@ FL001:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Santa Rosa Island
   start_date: '1861-10-09'
   state: FL
-FL002:
+- battle_id: FL002
+  battle_name: Tampa
   campaign: 'Florida: June-October 1862'
   casualties_max: 0
   casualties_min: 0
@@ -704,10 +705,10 @@ FL002:
       killed_wounded_max: 0
       killed_wounded_min: 0
       missing: 0
-  name: Tampa
   start_date: '1862-06-30'
   state: FL
-FL003:
+- battle_id: FL003
+  battle_name: St. Johns Bluff
   campaign: 'Florida: June-October 1862'
   casualties_max: null
   casualties_min: null
@@ -729,10 +730,10 @@ FL003:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: St. Johns Bluff
   start_date: '1862-10-01'
   state: FL
-FL004:
+- battle_id: FL004
+  battle_name: Fort Brooke
   campaign: 'Florida: October 1863 and February 1864'
   casualties_max: null
   casualties_min: null
@@ -754,10 +755,10 @@ FL004:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Fort Brooke
   start_date: '1863-10-16'
   state: FL
-FL005:
+- battle_id: FL005
+  battle_name: Olustee
   campaign: 'Florida: October 1863 and February 1864'
   casualties_max: null
   casualties_min: null
@@ -779,10 +780,10 @@ FL005:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Olustee
   start_date: '1864-02-20'
   state: FL
-FL006:
+- battle_id: FL006
+  battle_name: Natural Bridge
   campaign: 'Florida: March 1865'
   casualties_max: null
   casualties_min: null
@@ -804,10 +805,10 @@ FL006:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Natural Bridge
   start_date: '1865-03-06'
   state: FL
-GA001:
+- battle_id: GA001
+  battle_name: Fort Pulaski
   campaign: 'Fort Pulaski: April 1862'
   casualties_max: null
   casualties_min: null
@@ -829,10 +830,10 @@ GA001:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Fort Pulaski
   start_date: '1862-04-10'
   state: GA
-GA002:
+- battle_id: GA002
+  battle_name: Fort McAllister I
   campaign: 'Union Naval Attacks on Fort McAllister: January-March 1863'
   casualties_max: null
   casualties_min: null
@@ -855,10 +856,10 @@ GA002:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Fort McAllister I
   start_date: '1863-01-27'
   state: GA
-GA003:
+- battle_id: GA003
+  battle_name: Davis' Cross Roads
   campaign: 'Chickamauga Campaign: August-September 1863'
   casualties_max: null
   casualties_min: null
@@ -881,10 +882,10 @@ GA003:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Davis' Cross Roads
   start_date: '1863-09-10'
   state: GA
-GA004:
+- battle_id: GA004
+  battle_name: Chickamauga
   campaign: 'Chickamauga Campaign: August-September 1863'
   casualties_max: null
   casualties_min: null
@@ -907,10 +908,10 @@ GA004:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Chickamauga
   start_date: '1863-09-18'
   state: GA
-GA005:
+- battle_id: GA005
+  battle_name: Ringgold Gap
   campaign: 'Chattanooga-Ringgold Campaign: November 1863'
   casualties_max: null
   casualties_min: null
@@ -932,10 +933,10 @@ GA005:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Ringgold Gap
   start_date: '1863-11-27'
   state: GA
-GA006:
+- battle_id: GA006
+  battle_name: Dalton I
   campaign: 'Deep South: January-February 1864'
   casualties_max: null
   casualties_min: null
@@ -958,10 +959,10 @@ GA006:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Dalton I
   start_date: '1864-02-22'
   state: GA
-GA007:
+- battle_id: GA007
+  battle_name: Rocky Face Ridge
   campaign: 'Atlanta Campaign: May-September 1864'
   casualties_max: null
   casualties_min: null
@@ -984,10 +985,10 @@ GA007:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Rocky Face Ridge
   start_date: '1864-05-07'
   state: GA
-GA008:
+- battle_id: GA008
+  battle_name: Resaca
   campaign: 'Atlanta Campaign: May-September 1864'
   casualties_max: null
   casualties_min: null
@@ -1010,10 +1011,10 @@ GA008:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Resaca
   start_date: '1864-05-13'
   state: GA
-GA009:
+- battle_id: GA009
+  battle_name: Adairsville
   campaign: 'Atlanta Campaign: May-September 1864'
   casualties_max: null
   casualties_min: null
@@ -1036,10 +1037,10 @@ GA009:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Adairsville
   start_date: '1864-05-17'
   state: GA
-GA010:
+- battle_id: GA010
+  battle_name: New Hope Church
   campaign: 'Atlanta Campaign: May-September 1864'
   casualties_max: null
   casualties_min: null
@@ -1061,10 +1062,10 @@ GA010:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: New Hope Church
   start_date: '1864-05-25'
   state: GA
-GA011:
+- battle_id: GA011
+  battle_name: Dallas
   campaign: 'Atlanta Campaign: May-September 1864'
   casualties_max: null
   casualties_min: null
@@ -1086,10 +1087,10 @@ GA011:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Dallas
   start_date: '1864-05-28'
   state: GA
-GA012:
+- battle_id: GA012
+  battle_name: Pickett's Mill
   campaign: 'Atlanta Campaign: May-September 1864'
   casualties_max: null
   casualties_min: null
@@ -1111,10 +1112,10 @@ GA012:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Pickett's Mill
   start_date: '1864-05-27'
   state: GA
-GA013:
+- battle_id: GA013
+  battle_name: Lost Mountain-Brushy Mountain Line
   campaign: 'Atlanta Campaign: May-September 1864'
   casualties_max: null
   casualties_min: null
@@ -1137,10 +1138,10 @@ GA013:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Lost Mountain-Brushy Mountain Line
   start_date: '1864-06-09'
   state: GA
-GA014:
+- battle_id: GA014
+  battle_name: Kolb's Farm
   campaign: 'Atlanta Campaign: May-September 1864'
   casualties_max: null
   casualties_min: null
@@ -1162,10 +1163,10 @@ GA014:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Kolb's Farm
   start_date: '1864-06-22'
   state: GA
-GA015:
+- battle_id: GA015
+  battle_name: Kennesaw Mountain
   campaign: 'Atlanta Campaign: May-September 1864'
   casualties_max: null
   casualties_min: null
@@ -1187,10 +1188,10 @@ GA015:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Kennesaw Mountain
   start_date: '1864-06-27'
   state: GA
-GA016:
+- battle_id: GA016
+  battle_name: Peachtree Creek
   campaign: 'Atlanta Campaign: May-September 1864'
   casualties_max: null
   casualties_min: null
@@ -1212,10 +1213,10 @@ GA016:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Peachtree Creek
   start_date: '1864-07-20'
   state: GA
-GA017:
+- battle_id: GA017
+  battle_name: Atlanta
   campaign: 'Atlanta Campaign: May-September 1864'
   casualties_max: null
   casualties_min: null
@@ -1237,10 +1238,10 @@ GA017:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Atlanta
   start_date: '1864-07-22'
   state: GA
-GA018:
+- battle_id: GA018
+  battle_name: Ezra Church
   campaign: 'Atlanta Campaign: May-September 1864'
   casualties_max: null
   casualties_min: null
@@ -1262,10 +1263,10 @@ GA018:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Ezra Church
   start_date: '1864-07-28'
   state: GA
-GA019:
+- battle_id: GA019
+  battle_name: Utoy Creek
   campaign: 'Atlanta Campaign: May-September 1864'
   casualties_max: null
   casualties_min: null
@@ -1287,10 +1288,10 @@ GA019:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Utoy Creek
   start_date: '1864-08-05'
   state: GA
-GA020:
+- battle_id: GA020
+  battle_name: Dalton II
   campaign: 'Atlanta Campaign: May-September 1864'
   casualties_max: null
   casualties_min: null
@@ -1313,10 +1314,10 @@ GA020:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Dalton II
   start_date: '1864-08-14'
   state: GA
-GA021:
+- battle_id: GA021
+  battle_name: Lovejoy's Station
   campaign: 'Atlanta Campaign: May-September 1864'
   casualties_max: null
   casualties_min: null
@@ -1338,10 +1339,10 @@ GA021:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Lovejoy's Station
   start_date: '1864-08-20'
   state: GA
-GA022:
+- battle_id: GA022
+  battle_name: Jonesboro
   campaign: 'Atlanta Campaign: May-September 1864'
   casualties_max: null
   casualties_min: null
@@ -1364,10 +1365,10 @@ GA022:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Jonesboro
   start_date: '1864-08-31'
   state: GA
-GA023:
+- battle_id: GA023
+  battle_name: Allatoona
   campaign: 'Hood''s March to Tennessee: October-December 1864'
   casualties_max: null
   casualties_min: null
@@ -1389,10 +1390,10 @@ GA023:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Allatoona
   start_date: '1864-10-05'
   state: GA
-GA024:
+- battle_id: GA024
+  battle_name: Dalton III
   campaign: 'Hood''s March to Tennessee: October-December 1864'
   casualties_max: null
   casualties_min: null
@@ -1415,10 +1416,10 @@ GA024:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: 751
-  name: Dalton III
   start_date: '1864-10-13'
   state: GA
-GA025:
+- battle_id: GA025
+  battle_name: Griswoldville
   campaign: 'Sherman''s March to the Sea: November-December 1864'
   casualties_max: null
   casualties_min: null
@@ -1441,10 +1442,10 @@ GA025:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Griswoldville
   start_date: '1864-11-22'
   state: GA
-GA026:
+- battle_id: GA026
+  battle_name: Buck Head Creek
   campaign: 'Sherman''s March to the Sea: November-December 1864'
   casualties_max: null
   casualties_min: null
@@ -1466,10 +1467,10 @@ GA026:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Buck Head Creek
   start_date: '1864-11-28'
   state: GA
-GA027:
+- battle_id: GA027
+  battle_name: Waynesborough
   campaign: 'Sherman''s March to the Sea: November-December 1864'
   casualties_max: null
   casualties_min: null
@@ -1491,10 +1492,10 @@ GA027:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Waynesborough
   start_date: '1864-12-04'
   state: GA
-GA028:
+- battle_id: GA028
+  battle_name: Fort McAllister II
   campaign: 'Sherman''s March to the Sea: November-December 1864'
   casualties_max: null
   casualties_min: null
@@ -1516,10 +1517,10 @@ GA028:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Fort McAllister II
   start_date: '1864-12-13'
   state: GA
-ID001:
+- battle_id: ID001
+  battle_name: Bear River
   campaign: 'Arkansas, Idaho, and Oklahoma: January-September 1863; February 1864'
   casualties_max: null
   casualties_min: null
@@ -1541,10 +1542,10 @@ ID001:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Bear River
   start_date: '1863-01-29'
   state: ID
-IN001:
+- battle_id: IN001
+  battle_name: Corydon
   campaign: 'Morgan''s Indiana and Ohio Raid: July 1863'
   casualties_max: null
   casualties_min: null
@@ -1566,10 +1567,10 @@ IN001:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Corydon
   start_date: '1863-07-09'
   state: IN
-KS001:
+- battle_id: KS001
+  battle_name: Lawrence
   campaign: 'Kansas: August-October 1863'
   casualties_max: null
   casualties_min: null
@@ -1591,10 +1592,10 @@ KS001:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Lawrence
   start_date: '1863-08-21'
   state: KS
-KS002:
+- battle_id: KS002
+  battle_name: Baxter Springs
   campaign: 'Kansas: August-October 1863'
   casualties_max: null
   casualties_min: null
@@ -1616,10 +1617,10 @@ KS002:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Baxter Springs
   start_date: '1863-10-06'
   state: KS
-KS003:
+- battle_id: KS003
+  battle_name: Mine Creek
   campaign: 'Price in Missouri and Kansas: September-October 1864'
   casualties_max: null
   casualties_min: null
@@ -1641,10 +1642,10 @@ KS003:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Mine Creek
   start_date: '1864-10-25'
   state: KS
-KS004:
+- battle_id: KS004
+  battle_name: Marais des Cygnes
   campaign: 'Price in Missouri and Kansas: September-October 1864'
   casualties_max: null
   casualties_min: null
@@ -1666,10 +1667,10 @@ KS004:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Marais des Cygnes
   start_date: '1864-10-25'
   state: KS
-KY001:
+- battle_id: KY001
+  battle_name: Barbourville
   campaign: 'Kentucky: September-December 1861'
   casualties_max: null
   casualties_min: null
@@ -1691,10 +1692,10 @@ KY001:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Barbourville
   start_date: '1861-09-19'
   state: KY
-KY002:
+- battle_id: KY002
+  battle_name: Camp Wildcat
   campaign: 'Kentucky: September-December 1861'
   casualties_max: null
   casualties_min: null
@@ -1716,10 +1717,10 @@ KY002:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Camp Wildcat
   start_date: '1861-10-21'
   state: KY
-KY003:
+- battle_id: KY003
+  battle_name: Ivy Mountain
   campaign: 'Kentucky: September-December 1861'
   casualties_max: null
   casualties_min: null
@@ -1741,10 +1742,10 @@ KY003:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Ivy Mountain
   start_date: '1861-11-08'
   state: KY
-KY004:
+- battle_id: KY004
+  battle_name: Rowlett's Station
   campaign: 'Kentucky: September-December 1861'
   casualties_max: null
   casualties_min: null
@@ -1766,10 +1767,10 @@ KY004:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Rowlett's Station
   start_date: '1861-12-17'
   state: KY
-KY005:
+- battle_id: KY005
+  battle_name: Middle Creek
   campaign: 'Kentucky: January 1862'
   casualties_max: null
   casualties_min: null
@@ -1791,10 +1792,10 @@ KY005:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Middle Creek
   start_date: '1862-01-10'
   state: KY
-KY006:
+- battle_id: KY006
+  battle_name: Mill Springs
   campaign: 'Kentucky: January 1862'
   casualties_max: null
   casualties_min: null
@@ -1817,10 +1818,10 @@ KY006:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Mill Springs
   start_date: '1862-01-19'
   state: KY
-KY007:
+- battle_id: KY007
+  battle_name: Richmond
   campaign: 'Confederate Heartland Offensive: June-October 1862'
   casualties_max: null
   casualties_min: null
@@ -1842,10 +1843,10 @@ KY007:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Richmond
   start_date: '1862-08-29'
   state: KY
-KY008:
+- battle_id: KY008
+  battle_name: Munfordville (Battle for the Bridge)
   campaign: 'Confederate Heartland Offensive: June-October 1862'
   casualties_max: null
   casualties_min: null
@@ -1868,10 +1869,10 @@ KY008:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Munfordville (Battle for the Bridge)
   start_date: '1862-09-14'
   state: KY
-KY009:
+- battle_id: KY009
+  battle_name: Perryville
   campaign: 'Confederate Heartland Offensive: June-October 1862'
   casualties_max: null
   casualties_min: null
@@ -1893,10 +1894,10 @@ KY009:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Perryville
   start_date: '1862-10-08'
   state: KY
-KY010:
+- battle_id: KY010
+  battle_name: Paducah
   campaign: 'Forrest''s Raid on Paducah and Fort Pillow: March-April 1864'
   casualties_max: null
   casualties_min: null
@@ -1918,10 +1919,10 @@ KY010:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Paducah
   start_date: '1864-03-25'
   state: KY
-KY011:
+- battle_id: KY011
+  battle_name: Cynthiana
   campaign: 'Morgan''s Last Kentucky Raid: June 1864'
   casualties_max: null
   casualties_min: null
@@ -1943,10 +1944,10 @@ KY011:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Cynthiana
   start_date: '1864-06-11'
   state: KY
-LA001:
+- battle_id: LA001
+  battle_name: Fort Jackson and Fort St. Philip
   campaign: 'New Orleans: April-May 1862'
   casualties_max: null
   casualties_min: null
@@ -1969,10 +1970,10 @@ LA001:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Fort Jackson and Fort St. Philip
   start_date: '1862-04-16'
   state: LA
-LA002:
+- battle_id: LA002
+  battle_name: New Orleans
   campaign: 'New Orleans: April-May 1862'
   casualties_max: 0
   casualties_min: 0
@@ -1995,10 +1996,10 @@ LA002:
       killed_wounded_max: 0
       killed_wounded_min: 0
       missing: 0
-  name: New Orleans
   start_date: '1862-04-25'
   state: LA
-LA003:
+- battle_id: LA003
+  battle_name: Baton Rouge
   campaign: 'Louisiana: August-October 1862'
   casualties_max: null
   casualties_min: null
@@ -2021,10 +2022,10 @@ LA003:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Baton Rouge
   start_date: '1862-08-05'
   state: LA
-LA004:
+- battle_id: LA004
+  battle_name: Donaldsonville I
   campaign: 'Louisiana: August-October 1862'
   casualties_max: null
   casualties_min: null
@@ -2046,10 +2047,10 @@ LA004:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Donaldsonville I
   start_date: '1862-08-09'
   state: LA
-LA005:
+- battle_id: LA005
+  battle_name: Georgia Landing
   campaign: 'Louisiana: August-October 1862'
   casualties_max: null
   casualties_min: null
@@ -2072,10 +2073,10 @@ LA005:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Georgia Landing
   start_date: '1862-10-27'
   state: LA
-LA006:
+- battle_id: LA006
+  battle_name: Fort Bisland
   campaign: 'West Louisiana: April 1863'
   casualties_max: null
   casualties_min: null
@@ -2097,10 +2098,10 @@ LA006:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Fort Bisland
   start_date: '1863-04-12'
   state: LA
-LA007:
+- battle_id: LA007
+  battle_name: Irish Bend
   campaign: 'West Louisiana: April 1863'
   casualties_max: null
   casualties_min: null
@@ -2122,10 +2123,10 @@ LA007:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Irish Bend
   start_date: '1863-04-14'
   state: LA
-LA008:
+- battle_id: LA008
+  battle_name: Vermillion Bayou
   campaign: 'West Louisiana: April 1863'
   casualties_max: null
   casualties_min: null
@@ -2147,10 +2148,10 @@ LA008:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Vermillion Bayou
   start_date: '1863-04-17'
   state: LA
-LA009:
+- battle_id: LA009
+  battle_name: Plains Store
   campaign: 'Siege of Port Hudson: May-July 1863'
   casualties_max: null
   casualties_min: null
@@ -2173,10 +2174,10 @@ LA009:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Plains Store
   start_date: '1863-05-21'
   state: LA
-LA010:
+- battle_id: LA010
+  battle_name: Siege of Port Hudson
   campaign: 'Siege of Port Hudson: May-July 1863'
   casualties_max: null
   casualties_min: null
@@ -2199,10 +2200,10 @@ LA010:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Siege of Port Hudson
   start_date: '1863-05-22'
   state: LA
-LA011:
+- battle_id: LA011
+  battle_name: Milliken's Bend
   campaign: 'Vicksburg Campaign and Siege: December 1862-July 1863'
   casualties_max: null
   casualties_min: null
@@ -2224,10 +2225,10 @@ LA011:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Milliken's Bend
   start_date: '1863-06-07'
   state: LA
-LA012:
+- battle_id: LA012
+  battle_name: Lafourche Crossing
   campaign: 'Louisiana: June-September 1863'
   casualties_max: null
   casualties_min: null
@@ -2250,10 +2251,10 @@ LA012:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Lafourche Crossing
   start_date: '1863-06-20'
   state: LA
-LA013:
+- battle_id: LA013
+  battle_name: Donaldsonville II
   campaign: 'Louisiana: June-September 1863'
   casualties_max: null
   casualties_min: null
@@ -2275,10 +2276,10 @@ LA013:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Donaldsonville II
   start_date: '1863-06-28'
   state: LA
-LA014:
+- battle_id: LA014
+  battle_name: Goodrich's Landing
   campaign: 'Vicksburg Campaign and Siege: December 1862-July 1863'
   casualties_max: null
   casualties_min: null
@@ -2301,10 +2302,10 @@ LA014:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Goodrich's Landing
   start_date: '1863-06-29'
   state: LA
-LA015:
+- battle_id: LA015
+  battle_name: Kock's Plantation
   campaign: 'Louisiana: June-September 1863'
   casualties_max: null
   casualties_min: null
@@ -2327,10 +2328,10 @@ LA015:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Kock's Plantation
   start_date: '1863-07-12'
   state: LA
-LA016:
+- battle_id: LA016
+  battle_name: Stirling's Plantation
   campaign: 'Louisiana: June-September 1863'
   casualties_max: null
   casualties_min: null
@@ -2353,10 +2354,10 @@ LA016:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Stirling's Plantation
   start_date: '1863-09-29'
   state: LA
-LA017:
+- battle_id: LA017
+  battle_name: Fort DeRussy
   campaign: 'Red River Campaign: March-May 1864'
   casualties_max: null
   casualties_min: null
@@ -2378,10 +2379,10 @@ LA017:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Fort DeRussy
   start_date: '1864-03-14'
   state: LA
-LA018:
+- battle_id: LA018
+  battle_name: Mansfield
   campaign: 'Red River Campaign: March-May 1864'
   casualties_max: null
   casualties_min: null
@@ -2403,10 +2404,10 @@ LA018:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Mansfield
   start_date: '1864-04-08'
   state: LA
-LA019:
+- battle_id: LA019
+  battle_name: Pleasant Hill
   campaign: 'Red River Campaign: March-May 1864'
   casualties_max: null
   casualties_min: null
@@ -2429,10 +2430,10 @@ LA019:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Pleasant Hill
   start_date: '1864-04-09'
   state: LA
-LA020:
+- battle_id: LA020
+  battle_name: Blair's Landing
   campaign: 'Red River Campaign: March-May 1864'
   casualties_max: null
   casualties_min: null
@@ -2454,10 +2455,10 @@ LA020:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Blair's Landing
   start_date: '1864-04-12'
   state: LA
-LA021:
+- battle_id: LA021
+  battle_name: Monett's Ferry
   campaign: 'Red River Campaign: March-May 1864'
   casualties_max: null
   casualties_min: null
@@ -2480,10 +2481,10 @@ LA021:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Monett's Ferry
   start_date: '1864-04-23'
   state: LA
-LA022:
+- battle_id: LA022
+  battle_name: Mansura
   campaign: 'Red River Campaign: March-May 1864'
   casualties_max: null
   casualties_min: null
@@ -2505,10 +2506,10 @@ LA022:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Mansura
   start_date: '1864-05-16'
   state: LA
-LA023:
+- battle_id: LA023
+  battle_name: Yellow Bayou
   campaign: 'Red River Campaign: March-May 1864'
   casualties_max: null
   casualties_min: null
@@ -2530,10 +2531,10 @@ LA023:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Yellow Bayou
   start_date: '1864-05-18'
   state: LA
-MD001:
+- battle_id: MD001
+  battle_name: Hancock
   campaign: 'Jackson Against the B & O Railroad: January 1862'
   casualties_max: 25
   casualties_min: 25
@@ -2556,10 +2557,10 @@ MD001:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Hancock
   start_date: '1862-01-05'
   state: MD
-MD002:
+- battle_id: MD002
+  battle_name: South Mountain
   campaign: 'Maryland Campaign: September 1862'
   casualties_max: null
   casualties_min: null
@@ -2582,10 +2583,10 @@ MD002:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: South Mountain
   start_date: '1862-09-14'
   state: MD
-MD003:
+- battle_id: MD003
+  battle_name: Antietam
   campaign: 'Maryland Campaign: September 1862'
   casualties_max: null
   casualties_min: null
@@ -2607,10 +2608,10 @@ MD003:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Antietam
   start_date: '1862-09-17'
   state: MD
-MD004:
+- battle_id: MD004
+  battle_name: Williamsport
   campaign: 'Gettysburg Campaign: June-July 1863'
   casualties_max: null
   casualties_min: null
@@ -2632,10 +2633,10 @@ MD004:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Williamsport
   start_date: '1863-07-06'
   state: MD
-MD006:
+- battle_id: MD006
+  battle_name: Boonsboro-Funkstown-Falling Waters
   campaign: 'Gettysburg Campaign: June-July 1863'
   casualties_max: null
   casualties_min: null
@@ -2658,10 +2659,10 @@ MD006:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Boonsboro-Funkstown-Falling Waters
   start_date: '1863-07-08'
   state: MD
-MD007:
+- battle_id: MD007
+  battle_name: Monocacy
   campaign: 'Early in Maryland, Pennsylvania, and the Shenandoah Valley: July-August
     1864'
   casualties_max: null
@@ -2684,10 +2685,10 @@ MD007:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Monocacy
   start_date: '1864-07-09'
   state: MD
-MD008:
+- battle_id: MD008
+  battle_name: Folck's Mill
   campaign: 'Early in Maryland, Pennsylvania, and the Shenandoah Valley: July-August
     1864'
   casualties_max: null
@@ -2710,10 +2711,10 @@ MD008:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Folck's Mill
   start_date: '1864-08-01'
   state: MD
-MN001:
+- battle_id: MN001
+  battle_name: Fort Ridgely
   campaign: 'U.S.-Dakota Conflict of 1862: August-September 1862'
   casualties_max: null
   casualties_min: null
@@ -2735,10 +2736,10 @@ MN001:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Fort Ridgely
   start_date: '1862-08-20'
   state: MN
-MN002:
+- battle_id: MN002
+  battle_name: Wood Lake
   campaign: 'U.S.-Dakota Conflict of 1862: August-September 1862'
   casualties_max: null
   casualties_min: null
@@ -2761,10 +2762,10 @@ MN002:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Wood Lake
   start_date: '1862-09-23'
   state: MN
-MO001:
+- battle_id: MO001
+  battle_name: Boonville
   campaign: 'Missouri: June-October 1861'
   casualties_max: null
   casualties_min: null
@@ -2786,10 +2787,10 @@ MO001:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Boonville
   start_date: '1861-06-17'
   state: MO
-MO002:
+- battle_id: MO002
+  battle_name: Carthage
   campaign: 'Missouri: June-October 1861'
   casualties_max: null
   casualties_min: null
@@ -2811,10 +2812,10 @@ MO002:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Carthage
   start_date: '1861-07-05'
   state: MO
-MO003:
+- battle_id: MO003
+  battle_name: Liberty (Blue Mills Landing)
   campaign: 'Missouri: June-October 1861'
   casualties_max: null
   casualties_min: null
@@ -2837,10 +2838,10 @@ MO003:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Liberty (Blue Mills Landing)
   start_date: '1861-09-17'
   state: MO
-MO004:
+- battle_id: MO004
+  battle_name: Wilson's Creek
   campaign: 'Missouri: June-October 1861'
   casualties_max: null
   casualties_min: null
@@ -2863,10 +2864,10 @@ MO004:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Wilson's Creek
   start_date: '1861-08-10'
   state: MO
-MO005:
+- battle_id: MO005
+  battle_name: Dry Wood Creek
   campaign: 'Missouri: June-October 1861'
   casualties_max: null
   casualties_min: null
@@ -2888,10 +2889,10 @@ MO005:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Dry Wood Creek
   start_date: '1861-09-02'
   state: MO
-MO006:
+- battle_id: MO006
+  battle_name: Lexington I
   campaign: 'Missouri: June-October 1861'
   casualties_max: null
   casualties_min: null
@@ -2914,10 +2915,10 @@ MO006:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Lexington I
   start_date: '1861-09-13'
   state: MO
-MO007:
+- battle_id: MO007
+  battle_name: Fredericktown
   campaign: 'Missouri: June-October 1861'
   casualties_max: null
   casualties_min: null
@@ -2939,10 +2940,10 @@ MO007:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Fredericktown
   start_date: '1861-10-21'
   state: MO
-MO008:
+- battle_id: MO008
+  battle_name: Springfield I
   campaign: 'Missouri: June-October 1861'
   casualties_max: null
   casualties_min: null
@@ -2964,10 +2965,10 @@ MO008:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Springfield I
   start_date: '1861-10-25'
   state: MO
-MO009:
+- battle_id: MO009
+  battle_name: Belmont
   campaign: 'Grant on the Mississippi River: November 1861'
   casualties_max: null
   casualties_min: null
@@ -2989,10 +2990,10 @@ MO009:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Belmont
   start_date: '1861-11-07'
   state: MO
-MO010:
+- battle_id: MO010
+  battle_name: Mount Zion Church
   campaign: 'Missouri: December 1861-January 1862'
   casualties_max: null
   casualties_min: null
@@ -3014,10 +3015,10 @@ MO010:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Mount Zion Church
   start_date: '1861-12-28'
   state: MO
-MO011:
+- battle_id: MO011
+  battle_name: Roan's Tan Yard
   campaign: 'Missouri: December 1861-January 1862'
   casualties_max: null
   casualties_min: null
@@ -3039,10 +3040,10 @@ MO011:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Roan's Tan Yard
   start_date: '1862-01-08'
   state: MO
-MO012:
+- battle_id: MO012
+  battle_name: New Madrid/Island No. 10
   campaign: 'Middle Mississippi River: February-June 1862'
   casualties_max: null
   casualties_min: null
@@ -3065,10 +3066,10 @@ MO012:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: New Madrid/Island No. 10
   start_date: '1862-02-28'
   state: MO
-MO013:
+- battle_id: MO013
+  battle_name: Kirksville
   campaign: 'Missouri and Oklahoma: August-November 1862'
   casualties_max: null
   casualties_min: null
@@ -3090,10 +3091,10 @@ MO013:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Kirksville
   start_date: '1862-08-06'
   state: MO
-MO014:
+- battle_id: MO014
+  battle_name: Independence I
   campaign: 'Missouri and Oklahoma: August-November 1862'
   casualties_max: null
   casualties_min: null
@@ -3115,10 +3116,10 @@ MO014:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Independence I
   start_date: '1862-08-11'
   state: MO
-MO015:
+- battle_id: MO015
+  battle_name: Lone Jack
   campaign: 'Missouri and Oklahoma: August-November 1862'
   casualties_max: null
   casualties_min: null
@@ -3140,10 +3141,10 @@ MO015:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Lone Jack
   start_date: '1862-08-15'
   state: MO
-MO016:
+- battle_id: MO016
+  battle_name: Newtonia I
   campaign: 'Missouri and Oklahoma: August-November 1862'
   casualties_max: null
   casualties_min: null
@@ -3165,10 +3166,10 @@ MO016:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Newtonia I
   start_date: '1862-09-30'
   state: MO
-MO017:
+- battle_id: MO017
+  battle_name: Clark's Mill
   campaign: 'Missouri and Oklahoma: August-November 1862'
   casualties_max: null
   casualties_min: null
@@ -3190,10 +3191,10 @@ MO017:
       killed_wounded_max: 6
       killed_wounded_min: 6
       missing: 113
-  name: Clark's Mill
   start_date: '1862-11-07'
   state: MO
-MO018:
+- battle_id: MO018
+  battle_name: Springfield II
   campaign: 'Missouri and Arkansas: January-May 1863'
   casualties_max: null
   casualties_min: null
@@ -3215,10 +3216,10 @@ MO018:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Springfield II
   start_date: '1863-01-08'
   state: MO
-MO019:
+- battle_id: MO019
+  battle_name: Hartville
   campaign: 'Missouri and Arkansas: January-May 1863'
   casualties_max: null
   casualties_min: null
@@ -3240,10 +3241,10 @@ MO019:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Hartville
   start_date: '1863-01-09'
   state: MO
-MO020:
+- battle_id: MO020
+  battle_name: Cape Girardeau
   campaign: 'Missouri and Arkansas: January-May 1863'
   casualties_max: null
   casualties_min: null
@@ -3265,10 +3266,10 @@ MO020:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Cape Girardeau
   start_date: '1863-04-26'
   state: MO
-MO021:
+- battle_id: MO021
+  battle_name: Pilot Knob
   campaign: 'Price in Missouri and Kansas: September-October 1864'
   casualties_max: null
   casualties_min: null
@@ -3290,10 +3291,10 @@ MO021:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Pilot Knob
   start_date: '1864-09-26'
   state: MO
-MO022:
+- battle_id: MO022
+  battle_name: Glasgow
   campaign: 'Price in Missouri and Kansas: September-October 1864'
   casualties_max: null
   casualties_min: null
@@ -3315,10 +3316,10 @@ MO022:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Glasgow
   start_date: '1864-10-15'
   state: MO
-MO023:
+- battle_id: MO023
+  battle_name: Lexington II
   campaign: 'Price in Missouri and Kansas: September-October 1864'
   casualties_max: null
   casualties_min: null
@@ -3340,10 +3341,10 @@ MO023:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Lexington II
   start_date: '1864-10-19'
   state: MO
-MO024:
+- battle_id: MO024
+  battle_name: Little Blue River
   campaign: 'Price in Missouri and Kansas: September-October 1864'
   casualties_max: null
   casualties_min: null
@@ -3365,10 +3366,10 @@ MO024:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Little Blue River
   start_date: '1864-10-21'
   state: MO
-MO025:
+- battle_id: MO025
+  battle_name: Independence II
   campaign: 'Price in Missouri and Kansas: September-October 1864'
   casualties_max: null
   casualties_min: null
@@ -3390,10 +3391,10 @@ MO025:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Independence II
   start_date: '1864-10-22'
   state: MO
-MO026:
+- battle_id: MO026
+  battle_name: Big Blue River (Byram's Ford)
   campaign: 'Price in Missouri and Kansas: September-October 1864'
   casualties_max: null
   casualties_min: null
@@ -3416,10 +3417,10 @@ MO026:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Big Blue River (Byram's Ford)
   start_date: '1864-10-22'
   state: MO
-MO027:
+- battle_id: MO027
+  battle_name: Westport
   campaign: 'Price in Missouri and Kansas: September-October 1864'
   casualties_max: null
   casualties_min: null
@@ -3441,10 +3442,10 @@ MO027:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Westport
   start_date: '1864-10-23'
   state: MO
-MO028:
+- battle_id: MO028
+  battle_name: Marmaton River
   campaign: 'Price in Missouri and Kansas: September-October 1864'
   casualties_max: null
   casualties_min: null
@@ -3466,10 +3467,10 @@ MO028:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Marmaton River
   start_date: '1864-10-25'
   state: MO
-MO029:
+- battle_id: MO029
+  battle_name: Newtonia II
   campaign: 'Price in Missouri and Kansas: September-October 1864'
   casualties_max: null
   casualties_min: null
@@ -3491,10 +3492,10 @@ MO029:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Newtonia II
   start_date: '1864-10-28'
   state: MO
-MS001:
+- battle_id: MS001
+  battle_name: Iuka
   campaign: 'Iuka and Corinth, Mississippi, Campaign: September-October 1862'
   casualties_max: null
   casualties_min: null
@@ -3516,10 +3517,10 @@ MS001:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Iuka
   start_date: '1862-09-19'
   state: MS
-MS002:
+- battle_id: MS002
+  battle_name: Corinth
   campaign: 'Iuka and Corinth, Mississippi, Campaign: September-October 1862'
   casualties_max: null
   casualties_min: null
@@ -3542,10 +3543,10 @@ MS002:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Corinth
   start_date: '1862-10-03'
   state: MS
-MS003:
+- battle_id: MS003
+  battle_name: Chickasaw Bayou
   campaign: 'Vicksburg Campaign and Siege: December 1862-July 1863'
   casualties_max: null
   casualties_min: null
@@ -3568,10 +3569,10 @@ MS003:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Chickasaw Bayou
   start_date: '1862-12-26'
   state: MS
-MS004:
+- battle_id: MS004
+  battle_name: Grand Gulf
   campaign: 'Vicksburg Campaign and Siege: December 1862-July 1863'
   casualties_max: null
   casualties_min: null
@@ -3593,10 +3594,10 @@ MS004:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Grand Gulf
   start_date: '1863-04-29'
   state: MS
-MS005:
+- battle_id: MS005
+  battle_name: Snyder's Bluff
   campaign: 'Vicksburg Campaign and Siege: December 1862-July 1863'
   casualties_max: null
   casualties_min: null
@@ -3619,10 +3620,10 @@ MS005:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Snyder's Bluff
   start_date: '1863-04-29'
   state: MS
-MS006:
+- battle_id: MS006
+  battle_name: Port Gibson
   campaign: 'Vicksburg Campaign and Siege: December 1862-July 1863'
   casualties_max: null
   casualties_min: null
@@ -3644,10 +3645,10 @@ MS006:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Port Gibson
   start_date: '1863-05-01'
   state: MS
-MS007:
+- battle_id: MS007
+  battle_name: Raymond
   campaign: 'Vicksburg Campaign and Siege: December 1862-July 1863'
   casualties_max: null
   casualties_min: null
@@ -3669,10 +3670,10 @@ MS007:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Raymond
   start_date: '1863-05-12'
   state: MS
-MS008:
+- battle_id: MS008
+  battle_name: Jackson
   campaign: 'Vicksburg Campaign and Siege: December 1862-July 1863'
   casualties_max: null
   casualties_min: null
@@ -3694,10 +3695,10 @@ MS008:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Jackson
   start_date: '1863-05-14'
   state: MS
-MS009:
+- battle_id: MS009
+  battle_name: Champion Hill
   campaign: 'Vicksburg Campaign and Siege: December 1862-July 1863'
   casualties_max: null
   casualties_min: null
@@ -3719,10 +3720,10 @@ MS009:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Champion Hill
   start_date: '1863-05-16'
   state: MS
-MS010:
+- battle_id: MS010
+  battle_name: Big Black River Bridge
   campaign: 'Vicksburg Campaign and Siege: December 1862-July 1863'
   casualties_max: null
   casualties_min: null
@@ -3745,10 +3746,10 @@ MS010:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Big Black River Bridge
   start_date: '1863-05-17'
   state: MS
-MS011:
+- battle_id: MS011
+  battle_name: Battle and Siege of Vicksburg
   campaign: 'Vicksburg Campaign and Siege: December 1862-July 1863'
   casualties_max: null
   casualties_min: null
@@ -3771,10 +3772,10 @@ MS011:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Battle and Siege of Vicksburg
   start_date: '1863-05-18'
   state: MS
-MS012:
+- battle_id: MS012
+  battle_name: Meridian
   campaign: 'Deep South: January-February 1864'
   casualties_max: null
   casualties_min: null
@@ -3797,10 +3798,10 @@ MS012:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Meridian
   start_date: '1864-02-14'
   state: MS
-MS013:
+- battle_id: MS013
+  battle_name: Okolona
   campaign: 'Deep South: January-February 1864'
   casualties_max: null
   casualties_min: null
@@ -3822,10 +3823,10 @@ MS013:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Okolona
   start_date: '1864-02-22'
   state: MS
-MS014:
+- battle_id: MS014
+  battle_name: Brices Cross Roads
   campaign: 'Forrest''s Defense of Mississippi: June-August 1864'
   casualties_max: null
   casualties_min: null
@@ -3848,10 +3849,10 @@ MS014:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Brices Cross Roads
   start_date: '1864-06-10'
   state: MS
-MS015:
+- battle_id: MS015
+  battle_name: Tupelo
   campaign: 'Forrest''s Defense of Mississippi: June-August 1864'
   casualties_max: null
   casualties_min: null
@@ -3873,10 +3874,10 @@ MS015:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Tupelo
   start_date: '1864-07-14'
   state: MS
-MS016:
+- battle_id: MS016
+  battle_name: Siege of Corinth
   campaign: 'Cumberland and Tennessee Rivers: February-June 1862'
   casualties_max: null
   casualties_min: null
@@ -3899,10 +3900,10 @@ MS016:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Siege of Corinth
   start_date: '1862-04-29'
   state: MS
-NC001:
+- battle_id: NC001
+  battle_name: Hatteras Inlet Forts
   campaign: 'North Carolina: August 1861; February-December 1862'
   casualties_max: null
   casualties_min: null
@@ -3925,10 +3926,10 @@ NC001:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Hatteras Inlet Forts
   start_date: '1861-08-28'
   state: NC
-NC002:
+- battle_id: NC002
+  battle_name: Roanoke Island
   campaign: 'North Carolina: August 1861; February-December 1862'
   casualties_max: null
   casualties_min: null
@@ -3951,10 +3952,10 @@ NC002:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Roanoke Island
   start_date: '1862-02-07'
   state: NC
-NC003:
+- battle_id: NC003
+  battle_name: New Bern
   campaign: 'North Carolina: August 1861; February-December 1862'
   casualties_max: null
   casualties_min: null
@@ -3976,10 +3977,10 @@ NC003:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: New Bern
   start_date: '1862-03-14'
   state: NC
-NC004:
+- battle_id: NC004
+  battle_name: Fort Macon
   campaign: 'North Carolina: August 1861; February-December 1862'
   casualties_max: null
   casualties_min: null
@@ -4002,10 +4003,10 @@ NC004:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Fort Macon
   start_date: '1862-03-23'
   state: NC
-NC005:
+- battle_id: NC005
+  battle_name: South Mills
   campaign: 'North Carolina: August 1861; February-December 1862'
   casualties_max: null
   casualties_min: null
@@ -4027,10 +4028,10 @@ NC005:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: South Mills
   start_date: '1862-04-19'
   state: NC
-NC006:
+- battle_id: NC006
+  battle_name: Tranter's Creek
   campaign: 'North Carolina: August 1861; February-December 1862'
   casualties_max: 40
   casualties_min: 40
@@ -4052,10 +4053,10 @@ NC006:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Tranter's Creek
   start_date: '1862-06-05'
   state: NC
-NC007:
+- battle_id: NC007
+  battle_name: Kinston
   campaign: 'North Carolina: August 1861; February-December 1862'
   casualties_max: null
   casualties_min: null
@@ -4077,10 +4078,10 @@ NC007:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Kinston
   start_date: '1862-12-14'
   state: NC
-NC008:
+- battle_id: NC008
+  battle_name: White Hall
   campaign: 'North Carolina: August 1861; February-December 1862'
   casualties_max: 150
   casualties_min: 150
@@ -4102,10 +4103,10 @@ NC008:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: White Hall
   start_date: '1862-12-16'
   state: NC
-NC009:
+- battle_id: NC009
+  battle_name: Goldsboro Bridge
   campaign: 'North Carolina: August 1861; February-December 1862'
   casualties_max: 220
   casualties_min: 220
@@ -4128,10 +4129,10 @@ NC009:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Goldsboro Bridge
   start_date: '1862-12-17'
   state: NC
-NC010:
+- battle_id: NC010
+  battle_name: Fort Anderson
   campaign: 'Longstreet''s Tidewater Campaign: March-April 1863'
   casualties_max: 7
   casualties_min: 7
@@ -4154,10 +4155,10 @@ NC010:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Fort Anderson
   start_date: '1863-03-13'
   state: NC
-NC011:
+- battle_id: NC011
+  battle_name: Washington
   campaign: 'Longstreet''s Tidewater Campaign: March-April 1863'
   casualties_max: 100
   casualties_min: 100
@@ -4180,10 +4181,10 @@ NC011:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Washington
   start_date: '1863-03-30'
   state: NC
-NC012:
+- battle_id: NC012
+  battle_name: Plymouth
   campaign: 'North Carolina: April-May 1864'
   casualties_max: null
   casualties_min: null
@@ -4206,10 +4207,10 @@ NC012:
       killed_wounded_max: 66
       killed_wounded_min: 66
       missing: 2834
-  name: Plymouth
   start_date: '1864-04-17'
   state: NC
-NC013:
+- battle_id: NC013
+  battle_name: Albemarle Sound
   campaign: 'North Carolina: April-May 1864'
   casualties_max: 88
   casualties_min: 88
@@ -4232,10 +4233,10 @@ NC013:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Albemarle Sound
   start_date: '1864-05-05'
   state: NC
-NC014:
+- battle_id: NC014
+  battle_name: Fort Fisher I
   campaign: 'North Carolina: December 1864-February 1865'
   casualties_max: 320
   casualties_min: 320
@@ -4258,10 +4259,10 @@ NC014:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Fort Fisher I
   start_date: '1864-12-07'
   state: NC
-NC015:
+- battle_id: NC015
+  battle_name: Fort Fisher II
   campaign: 'North Carolina: December 1864-February 1865'
   casualties_max: null
   casualties_min: null
@@ -4284,10 +4285,10 @@ NC015:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Fort Fisher II
   start_date: '1865-01-13'
   state: NC
-NC016:
+- battle_id: NC016
+  battle_name: Wilmington
   campaign: 'North Carolina: December 1864-February 1865'
   casualties_max: 1150
   casualties_min: 1150
@@ -4310,10 +4311,10 @@ NC016:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Wilmington
   start_date: '1865-02-12'
   state: NC
-NC017:
+- battle_id: NC017
+  battle_name: Wyse Fork
   campaign: 'Sherman''s Carolina Campaign: February-March 1865'
   casualties_max: null
   casualties_min: null
@@ -4335,10 +4336,10 @@ NC017:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Wyse Fork
   start_date: '1865-03-07'
   state: NC
-NC018:
+- battle_id: NC018
+  battle_name: Monroe's Cross Roads
   campaign: 'Sherman''s Carolina Campaign: February-March 1865'
   casualties_max: null
   casualties_min: null
@@ -4361,10 +4362,10 @@ NC018:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Monroe's Cross Roads
   start_date: '1865-03-10'
   state: NC
-NC019:
+- battle_id: NC019
+  battle_name: Averasboro
   campaign: 'Sherman''s Carolina Campaign: February-March 1865'
   casualties_max: null
   casualties_min: null
@@ -4387,10 +4388,10 @@ NC019:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Averasboro
   start_date: '1865-03-16'
   state: NC
-NC020:
+- battle_id: NC020
+  battle_name: Bentonville
   campaign: 'Sherman''s Carolina Campaign: February-March 1865'
   casualties_max: null
   casualties_min: null
@@ -4413,10 +4414,10 @@ NC020:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Bentonville
   start_date: '1865-03-19'
   state: NC
-ND001:
+- battle_id: ND001
+  battle_name: Big Mound
   campaign: 'North Dakota: July-September 1863'
   casualties_max: null
   casualties_min: null
@@ -4438,10 +4439,10 @@ ND001:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Big Mound
   start_date: '1863-07-24'
   state: ND
-ND002:
+- battle_id: ND002
+  battle_name: Dead Buffalo Lake
   campaign: 'North Dakota: July-September 1863'
   casualties_max: null
   casualties_min: null
@@ -4463,10 +4464,10 @@ ND002:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Dead Buffalo Lake
   start_date: '1863-07-26'
   state: ND
-ND003:
+- battle_id: ND003
+  battle_name: Stony Lake
   campaign: 'North Dakota: July-September 1863'
   casualties_max: null
   casualties_min: null
@@ -4488,10 +4489,10 @@ ND003:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Stony Lake
   start_date: '1863-07-28'
   state: ND
-ND004:
+- battle_id: ND004
+  battle_name: Whitestone Hill
   campaign: 'North Dakota: July-September 1863'
   casualties_max: null
   casualties_min: null
@@ -4514,10 +4515,10 @@ ND004:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Whitestone Hill
   start_date: '1863-09-03'
   state: ND
-ND005:
+- battle_id: ND005
+  battle_name: Killdeer Mountain
   campaign: 'Dakota Territory: July 1864'
   casualties_max: null
   casualties_min: null
@@ -4540,10 +4541,10 @@ ND005:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Killdeer Mountain
   start_date: '1864-07-28'
   state: ND
-NM001:
+- battle_id: NM001
+  battle_name: Valverde
   campaign: 'Sibley''s New Mexico Campaign: February-March 1862'
   casualties_max: null
   casualties_min: null
@@ -4565,10 +4566,10 @@ NM001:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Valverde
   start_date: '1862-02-20'
   state: NM
-NM002:
+- battle_id: NM002
+  battle_name: Glorieta Pass
   campaign: 'Sibley''s New Mexico Campaign: February-March 1862'
   casualties_max: null
   casualties_min: null
@@ -4591,10 +4592,10 @@ NM002:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Glorieta Pass
   start_date: '1862-03-26'
   state: NM
-OH001:
+- battle_id: OH001
+  battle_name: Buffington Island
   campaign: 'Morgan''s Indiana and Ohio Raid: July 1863'
   casualties_max: null
   casualties_min: null
@@ -4616,10 +4617,10 @@ OH001:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Buffington Island
   start_date: '1863-07-19'
   state: OH
-OH002:
+- battle_id: OH002
+  battle_name: Salineville
   campaign: 'Morgan''s Indiana and Ohio Raid: July 1863'
   casualties_max: null
   casualties_min: null
@@ -4641,10 +4642,10 @@ OH002:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Salineville
   start_date: '1863-07-26'
   state: OH
-OK001:
+- battle_id: OK001
+  battle_name: Round Mountain
   campaign: 'Indian Territory: November-December 1861'
   casualties_max: null
   casualties_min: null
@@ -4666,10 +4667,10 @@ OK001:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Round Mountain
   start_date: '1861-11-19'
   state: OK
-OK002:
+- battle_id: OK002
+  battle_name: Chusto-Talasah
   campaign: 'Indian Territory: November-December 1861'
   casualties_max: null
   casualties_min: null
@@ -4691,10 +4692,10 @@ OK002:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Chusto-Talasah
   start_date: '1861-12-09'
   state: OK
-OK003:
+- battle_id: OK003
+  battle_name: Chustenahlah
   campaign: 'Indian Territory: November-December 1861'
   casualties_max: null
   casualties_min: null
@@ -4716,10 +4717,10 @@ OK003:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Chustenahlah
   start_date: '1861-12-26'
   state: OK
-OK005:
+- battle_id: OK005
+  battle_name: Middle Boggy
   campaign: 'Arkansas, Idaho, and Oklahoma: January-September 1863; February 1864'
   casualties_max: null
   casualties_min: null
@@ -4741,10 +4742,10 @@ OK005:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Middle Boggy
   start_date: '1864-02-13'
   state: OK
-OK006:
+- battle_id: OK006
+  battle_name: Cabin Creek
   campaign: 'Arkansas, Idaho, and Oklahoma: January-September 1863; February 1864'
   casualties_max: null
   casualties_min: null
@@ -4766,10 +4767,10 @@ OK006:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Cabin Creek
   start_date: '1863-07-01'
   state: OK
-OK007:
+- battle_id: OK007
+  battle_name: Honey Springs
   campaign: 'Arkansas, Idaho, and Oklahoma: January-September 1863; February 1864'
   casualties_max: null
   casualties_min: null
@@ -4792,10 +4793,10 @@ OK007:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Honey Springs
   start_date: '1863-07-17'
   state: OK
-PA001:
+- battle_id: PA001
+  battle_name: Hanover
   campaign: 'Gettysburg Campaign: June-July 1863'
   casualties_max: null
   casualties_min: null
@@ -4817,10 +4818,10 @@ PA001:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Hanover
   start_date: '1863-06-30'
   state: PA
-PA002:
+- battle_id: PA002
+  battle_name: Gettysburg
   campaign: 'Gettysburg Campaign: June-July 1863'
   casualties_max: null
   casualties_min: null
@@ -4842,10 +4843,10 @@ PA002:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Gettysburg
   start_date: '1863-07-01'
   state: PA
-SC001:
+- battle_id: SC001
+  battle_name: Fort Sumter I
   campaign: 'Charleston Harbor: April 1861'
   casualties_max: null
   casualties_min: null
@@ -4868,10 +4869,10 @@ SC001:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Fort Sumter I
   start_date: '1861-04-12'
   state: SC
-SC002:
+- battle_id: SC002
+  battle_name: Secessionville
   campaign: 'Charleston: June 1862'
   casualties_max: null
   casualties_min: null
@@ -4894,10 +4895,10 @@ SC002:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Secessionville
   start_date: '1862-06-16'
   state: SC
-SC003:
+- battle_id: SC003
+  battle_name: Simmons' Bluff
   campaign: 'Charleston: June 1862'
   casualties_max: null
   casualties_min: null
@@ -4920,10 +4921,10 @@ SC003:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Simmons' Bluff
   start_date: '1862-06-21'
   state: SC
-SC004:
+- battle_id: SC004
+  battle_name: Charleston Harbor I
   campaign: 'Charleston: April-September 1863'
   casualties_max: null
   casualties_min: null
@@ -4946,10 +4947,10 @@ SC004:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Charleston Harbor I
   start_date: '1863-04-07'
   state: SC
-SC005:
+- battle_id: SC005
+  battle_name: Fort Wagner I, Morris Island
   campaign: 'Charleston: April-September 1863'
   casualties_max: null
   casualties_min: null
@@ -4972,10 +4973,10 @@ SC005:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Fort Wagner I, Morris Island
   start_date: '1863-07-10'
   state: SC
-SC006:
+- battle_id: SC006
+  battle_name: Grimball's Landing
   campaign: 'Charleston: April-September 1863'
   casualties_max: null
   casualties_min: null
@@ -4998,10 +4999,10 @@ SC006:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Grimball's Landing
   start_date: '1863-07-16'
   state: SC
-SC007:
+- battle_id: SC007
+  battle_name: Fort Wagner II, Morris Island
   campaign: 'Charleston: April-September 1863'
   casualties_max: null
   casualties_min: null
@@ -5024,10 +5025,10 @@ SC007:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Fort Wagner II, Morris Island
   start_date: '1863-07-18'
   state: SC
-SC008:
+- battle_id: SC008
+  battle_name: Fort Sumter II
   campaign: 'Charleston: April-September 1863'
   casualties_max: null
   casualties_min: null
@@ -5050,10 +5051,10 @@ SC008:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Fort Sumter II
   start_date: '1863-08-17'
   state: SC
-SC009:
+- battle_id: SC009
+  battle_name: Charleston Harbor II
   campaign: 'Charleston: April-September 1863'
   casualties_max: null
   casualties_min: null
@@ -5076,10 +5077,10 @@ SC009:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Charleston Harbor II
   start_date: '1863-09-05'
   state: SC
-SC010:
+- battle_id: SC010
+  battle_name: Honey Hill
   campaign: 'Sherman''s March to the Sea: November-December 1864'
   casualties_max: null
   casualties_min: null
@@ -5101,10 +5102,10 @@ SC010:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Honey Hill
   start_date: '1864-11-30'
   state: SC
-SC011:
+- battle_id: SC011
+  battle_name: Rivers Bridge
   campaign: 'Sherman''s Carolina Campaign: February-March 1865'
   casualties_max: null
   casualties_min: null
@@ -5127,10 +5128,10 @@ SC011:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Rivers Bridge
   start_date: '1865-02-02'
   state: SC
-TN001:
+- battle_id: TN001
+  battle_name: Fort Henry
   campaign: 'Cumberland and Tennessee Rivers: February-June 1862'
   casualties_max: null
   casualties_min: null
@@ -5152,10 +5153,10 @@ TN001:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Fort Henry
   start_date: '1862-02-06'
   state: TN
-TN002:
+- battle_id: TN002
+  battle_name: Fort Donelson
   campaign: 'Cumberland and Tennessee Rivers: February-June 1862'
   casualties_max: null
   casualties_min: null
@@ -5178,10 +5179,10 @@ TN002:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Fort Donelson
   start_date: '1862-02-12'
   state: TN
-TN003:
+- battle_id: TN003
+  battle_name: Shiloh
   campaign: 'Cumberland and Tennessee Rivers: February-June 1862'
   casualties_max: null
   casualties_min: null
@@ -5203,10 +5204,10 @@ TN003:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Shiloh
   start_date: '1862-04-06'
   state: TN
-TN004:
+- battle_id: TN004
+  battle_name: Memphis I
   campaign: 'Middle Mississippi River: February-June 1862'
   casualties_max: null
   casualties_min: null
@@ -5228,10 +5229,10 @@ TN004:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Memphis I
   start_date: '1862-06-06'
   state: TN
-TN005:
+- battle_id: TN005
+  battle_name: Chattanooga I
   campaign: 'Confederate Heartland Offensive: June-October 1862'
   casualties_max: null
   casualties_min: null
@@ -5254,10 +5255,10 @@ TN005:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Chattanooga I
   start_date: '1862-06-07'
   state: TN
-TN006:
+- battle_id: TN006
+  battle_name: Murfreesboro I
   campaign: 'Confederate Heartland Offensive: June-October 1862'
   casualties_max: null
   casualties_min: null
@@ -5279,10 +5280,10 @@ TN006:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Murfreesboro I
   start_date: '1862-07-13'
   state: TN
-TN007:
+- battle_id: TN007
+  battle_name: Davis Bridge (Hatchie Bridge)
   campaign: 'Iuka and Corinth, Mississippi, Campaign: September-October 1862'
   casualties_max: null
   casualties_min: null
@@ -5305,10 +5306,10 @@ TN007:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Davis Bridge (Hatchie Bridge)
   start_date: '1862-10-06'
   state: TN
-TN008:
+- battle_id: TN008
+  battle_name: Hartsville
   campaign: 'Stones River Campaign: December 1862-January 1863'
   casualties_max: null
   casualties_min: null
@@ -5330,10 +5331,10 @@ TN008:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Hartsville
   start_date: '1862-12-07'
   state: TN
-TN009:
+- battle_id: TN009
+  battle_name: Jackson
   campaign: 'Forrest''s Raid into West Tennessee: December 1862'
   casualties_max: null
   casualties_min: null
@@ -5355,10 +5356,10 @@ TN009:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Jackson
   start_date: '1862-12-19'
   state: TN
-TN010:
+- battle_id: TN010
+  battle_name: Stones River
   campaign: 'Stones River Campaign: December 1862-January 1863'
   casualties_max: null
   casualties_min: null
@@ -5381,10 +5382,10 @@ TN010:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Stones River
   start_date: '1862-12-31'
   state: TN
-TN011:
+- battle_id: TN011
+  battle_name: Parker's Cross Roads
   campaign: 'Forrest''s Raid into West Tennessee: December 1862'
   casualties_max: null
   casualties_min: null
@@ -5407,10 +5408,10 @@ TN011:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Parker's Cross Roads
   start_date: '1862-12-31'
   state: TN
-TN012:
+- battle_id: TN012
+  battle_name: Dover
   campaign: 'Middle Tennessee: February-April 1863'
   casualties_max: null
   casualties_min: null
@@ -5432,10 +5433,10 @@ TN012:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Dover
   start_date: '1863-02-03'
   state: TN
-TN013:
+- battle_id: TN013
+  battle_name: Thompson's Station
   campaign: 'Middle Tennessee: February-April 1863'
   casualties_max: null
   casualties_min: null
@@ -5458,10 +5459,10 @@ TN013:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Thompson's Station
   start_date: '1863-03-04'
   state: TN
-TN014:
+- battle_id: TN014
+  battle_name: Vaught's Hill
   campaign: 'Middle Tennessee: February-April 1863'
   casualties_max: null
   casualties_min: null
@@ -5483,10 +5484,10 @@ TN014:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Vaught's Hill
   start_date: '1863-03-20'
   state: TN
-TN015:
+- battle_id: TN015
+  battle_name: Brentwood
   campaign: 'Middle Tennessee: February-April 1863'
   casualties_max: null
   casualties_min: null
@@ -5508,10 +5509,10 @@ TN015:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Brentwood
   start_date: '1863-03-25'
   state: TN
-TN016:
+- battle_id: TN016
+  battle_name: Franklin I
   campaign: 'Middle Tennessee: February-April 1863'
   casualties_max: null
   casualties_min: null
@@ -5534,10 +5535,10 @@ TN016:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Franklin I
   start_date: '1863-04-10'
   state: TN
-TN017:
+- battle_id: TN017
+  battle_name: Hoover's Gap
   campaign: 'Tullahoma Campaign: June 1863'
   casualties_max: null
   casualties_min: null
@@ -5560,10 +5561,10 @@ TN017:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Hoover's Gap
   start_date: '1863-06-24'
   state: TN
-TN018:
+- battle_id: TN018
+  battle_name: Chattanooga II
   campaign: 'Chickamauga Campaign: August-September 1863'
   casualties_max: null
   casualties_min: null
@@ -5586,10 +5587,10 @@ TN018:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Chattanooga II
   start_date: '1863-08-21'
   state: TN
-TN019:
+- battle_id: TN019
+  battle_name: Blountville
   campaign: 'East Tennessee: September-October 1863'
   casualties_max: null
   casualties_min: null
@@ -5611,10 +5612,10 @@ TN019:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Blountville
   start_date: '1863-09-22'
   state: TN
-TN020:
+- battle_id: TN020
+  battle_name: Blue Springs
   campaign: 'East Tennessee: September-October 1863'
   casualties_max: null
   casualties_min: null
@@ -5636,10 +5637,10 @@ TN020:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Blue Springs
   start_date: '1863-10-10'
   state: TN
-TN021:
+- battle_id: TN021
+  battle_name: Wauhatchie
   campaign: 'The Cracker Line: October 1863'
   casualties_max: null
   casualties_min: null
@@ -5662,10 +5663,10 @@ TN021:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Wauhatchie
   start_date: '1863-10-28'
   state: TN
-TN022:
+- battle_id: TN022
+  battle_name: Collierville
   campaign: 'Memphis & Charleston Railroad: November 1863'
   casualties_max: null
   casualties_min: null
@@ -5687,10 +5688,10 @@ TN022:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Collierville
   start_date: '1863-11-03'
   state: TN
-TN023:
+- battle_id: TN023
+  battle_name: Campbell's Station
   campaign: 'Knoxville Campaign: November-December 1863'
   casualties_max: null
   casualties_min: null
@@ -5712,10 +5713,10 @@ TN023:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Campbell's Station
   start_date: '1863-11-16'
   state: TN
-TN024:
+- battle_id: TN024
+  battle_name: Chattanooga III
   campaign: 'Chattanooga-Ringgold Campaign: November 1863'
   casualties_max: null
   casualties_min: null
@@ -5738,10 +5739,10 @@ TN024:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Chattanooga III
   start_date: '1863-11-23'
   state: TN
-TN025:
+- battle_id: TN025
+  battle_name: Fort Sanders
   campaign: 'Knoxville Campaign: November-December 1863'
   casualties_max: null
   casualties_min: null
@@ -5763,10 +5764,10 @@ TN025:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Fort Sanders
   start_date: '1863-11-29'
   state: TN
-TN026:
+- battle_id: TN026
+  battle_name: Bean's Station
   campaign: 'Knoxville Campaign: November-December 1863'
   casualties_max: null
   casualties_min: null
@@ -5788,10 +5789,10 @@ TN026:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Bean's Station
   start_date: '1863-12-14'
   state: TN
-TN027:
+- battle_id: TN027
+  battle_name: Mossy Creek
   campaign: 'East Tennessee: December 1863-January 1864'
   casualties_max: null
   casualties_min: null
@@ -5813,10 +5814,10 @@ TN027:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Mossy Creek
   start_date: '1863-12-29'
   state: TN
-TN028:
+- battle_id: TN028
+  battle_name: Dandridge
   campaign: 'East Tennessee: December 1863-January 1864'
   casualties_max: null
   casualties_min: null
@@ -5838,10 +5839,10 @@ TN028:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Dandridge
   start_date: '1864-01-17'
   state: TN
-TN029:
+- battle_id: TN029
+  battle_name: Fair Garden
   campaign: 'East Tennessee: December 1863-January 1864'
   casualties_max: null
   casualties_min: null
@@ -5863,10 +5864,10 @@ TN029:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Fair Garden
   start_date: '1864-01-27'
   state: TN
-TN030:
+- battle_id: TN030
+  battle_name: Fort Pillow
   campaign: 'Forrest''s Raid on Paducah and Fort Pillow: March-April 1864'
   casualties_max: null
   casualties_min: null
@@ -5888,10 +5889,10 @@ TN030:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Fort Pillow
   start_date: '1864-04-12'
   state: TN
-TN031:
+- battle_id: TN031
+  battle_name: Memphis II
   campaign: 'Forrest''s Defense of Mississippi: June-August 1864'
   casualties_max: null
   casualties_min: null
@@ -5913,10 +5914,10 @@ TN031:
       killed_wounded_max: 80
       killed_wounded_min: 80
       missing: 400
-  name: Memphis II
   start_date: '1864-08-21'
   state: TN
-TN032:
+- battle_id: TN032
+  battle_name: Johnsonville
   campaign: 'Forrest''s Raid into West Tennessee: October-November 1864'
   casualties_max: null
   casualties_min: null
@@ -5938,10 +5939,10 @@ TN032:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Johnsonville
   start_date: '1864-11-03'
   state: TN
-TN033:
+- battle_id: TN033
+  battle_name: Bull's Gap
   campaign: 'Southwest Virginia and East Tennessee: September-December 1864'
   casualties_max: null
   casualties_min: null
@@ -5964,10 +5965,10 @@ TN033:
       killed_wounded_max: 24
       killed_wounded_min: 24
       missing: 300
-  name: Bull's Gap
   start_date: '1864-11-11'
   state: TN
-TN034:
+- battle_id: TN034
+  battle_name: Columbia
   campaign: 'Hood''s March to Tennessee: October-December 1864'
   casualties_max: null
   casualties_min: null
@@ -5989,10 +5990,10 @@ TN034:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Columbia
   start_date: '1864-11-24'
   state: TN
-TN035:
+- battle_id: TN035
+  battle_name: Spring Hill
   campaign: 'Hood''s March to Tennessee: October-December 1864'
   casualties_max: null
   casualties_min: null
@@ -6015,10 +6016,10 @@ TN035:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Spring Hill
   start_date: '1864-11-29'
   state: TN
-TN036:
+- battle_id: TN036
+  battle_name: Franklin II
   campaign: 'Hood''s March to Tennessee: October-December 1864'
   casualties_max: null
   casualties_min: null
@@ -6041,10 +6042,10 @@ TN036:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Franklin II
   start_date: '1864-11-30'
   state: TN
-TN037:
+- battle_id: TN037
+  battle_name: Murfreesboro II
   campaign: 'Hood''s March to Tennessee: October-December 1864'
   casualties_max: null
   casualties_min: null
@@ -6067,10 +6068,10 @@ TN037:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Murfreesboro II
   start_date: '1864-12-05'
   state: TN
-TN038:
+- battle_id: TN038
+  battle_name: Nashville
   campaign: 'Hood''s March to Tennessee: October-December 1864'
   casualties_max: null
   casualties_min: null
@@ -6092,10 +6093,10 @@ TN038:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Nashville
   start_date: '1864-12-15'
   state: TN
-TX001:
+- battle_id: TX001
+  battle_name: Sabine Pass I
   campaign: 'Blockade of the Texas Coast: September 1862-January 1863'
   casualties_max: null
   casualties_min: null
@@ -6117,10 +6118,10 @@ TX001:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Sabine Pass I
   start_date: '1862-09-24'
   state: TX
-TX002:
+- battle_id: TX002
+  battle_name: Galveston I
   campaign: 'Blockade of the Texas Coast: September 1862-January 1863'
   casualties_max: null
   casualties_min: null
@@ -6142,10 +6143,10 @@ TX002:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Galveston I
   start_date: '1862-10-04'
   state: TX
-TX003:
+- battle_id: TX003
+  battle_name: Galveston II
   campaign: 'Blockade of the Texas Coast: September 1862-January 1863'
   casualties_max: null
   casualties_min: null
@@ -6167,10 +6168,10 @@ TX003:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Galveston II
   start_date: '1863-01-01'
   state: TX
-TX005:
+- battle_id: TX005
+  battle_name: 'Palmito Ranch '
   campaign: 'Texas: May 1865'
   casualties_max: null
   casualties_min: null
@@ -6192,10 +6193,10 @@ TX005:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: 'Palmito Ranch '
   start_date: '1865-05-12'
   state: TX
-TX006:
+- battle_id: TX006
+  battle_name: Sabine Pass II
   campaign: 'Blockade of the Texas Coast: September 1863'
   casualties_max: null
   casualties_min: null
@@ -6217,10 +6218,10 @@ TX006:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Sabine Pass II
   start_date: '1863-09-08'
   state: TX
-VA001:
+- battle_id: VA001
+  battle_name: Sewell's Point
   campaign: 'The Blockade of Chesapeake Bay and the Potomac River: May-June 1861'
   casualties_max: 10
   casualties_min: 10
@@ -6242,10 +6243,10 @@ VA001:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Sewell's Point
   start_date: '1861-05-18'
-  state: ''
-VA002:
+  state: VA
+- battle_id: VA002
+  battle_name: Aquia Creek
   campaign: 'The Blockade of Chesapeake Bay and the Potomac River: May-June 1861'
   casualties_max: 0
   casualties_min: 0
@@ -6267,10 +6268,10 @@ VA002:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Aquia Creek
   start_date: '1861-05-29'
-  state: ''
-VA003:
+  state: VA
+- battle_id: VA003
+  battle_name: Big Bethel
   campaign: 'The Blockade of Chesapeake Bay and the Potomac River: May-June 1861'
   casualties_max: null
   casualties_min: null
@@ -6292,10 +6293,10 @@ VA003:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Big Bethel
   start_date: '1861-06-10'
-  state: ''
-VA004:
+  state: VA
+- battle_id: VA004
+  battle_name: Blackburn's Ford
   campaign: 'Manassas Campaign: July 1861'
   casualties_max: null
   casualties_min: null
@@ -6318,10 +6319,10 @@ VA004:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Blackburn's Ford
   start_date: '1861-07-18'
-  state: ''
-VA005:
+  state: VA
+- battle_id: VA005
+  battle_name: First Manassas
   campaign: 'Manassas Campaign: July 1861'
   casualties_max: null
   casualties_min: null
@@ -6344,10 +6345,10 @@ VA005:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: First Manassas
   start_date: '1861-07-21'
-  state: ''
-VA006:
+  state: VA
+- battle_id: VA006
+  battle_name: Ball's Bluff
   campaign: 'Northern Virginia: October-December 1861'
   casualties_max: null
   casualties_min: null
@@ -6369,10 +6370,10 @@ VA006:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Ball's Bluff
   start_date: '1861-10-21'
-  state: ''
-VA007:
+  state: VA
+- battle_id: VA007
+  battle_name: Dranesville
   campaign: 'Northern Virginia: October-December 1861'
   casualties_max: null
   casualties_min: null
@@ -6394,10 +6395,10 @@ VA007:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Dranesville
   start_date: '1861-12-20'
-  state: ''
-VA008:
+  state: VA
+- battle_id: VA008
+  battle_name: Hampton Roads
   campaign: 'Peninsula Campaign: March-August 1862'
   casualties_max: null
   casualties_min: null
@@ -6419,10 +6420,10 @@ VA008:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Hampton Roads
   start_date: '1862-03-08'
-  state: ''
-VA009:
+  state: VA
+- battle_id: VA009
+  battle_name: Siege of Yorktown
   campaign: 'Peninsula Campaign: March-August 1862'
   casualties_max: null
   casualties_min: null
@@ -6445,10 +6446,10 @@ VA009:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Siege of Yorktown
   start_date: '1862-04-15'
-  state: ''
-VA010:
+  state: VA
+- battle_id: VA010
+  battle_name: Williamsburg
   campaign: 'Peninsula Campaign: March-August 1862'
   casualties_max: null
   casualties_min: null
@@ -6471,10 +6472,10 @@ VA010:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Williamsburg
   start_date: '1862-05-05'
-  state: ''
-VA011:
+  state: VA
+- battle_id: VA011
+  battle_name: Eltham's Landing
   campaign: 'Peninsula Campaign: March-August 1862'
   casualties_max: null
   casualties_min: null
@@ -6496,10 +6497,10 @@ VA011:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Eltham's Landing
   start_date: '1862-05-07'
-  state: ''
-VA012:
+  state: VA
+- battle_id: VA012
+  battle_name: Drewry's Bluff
   campaign: 'Peninsula Campaign: March-August 1862'
   casualties_max: null
   casualties_min: null
@@ -6521,10 +6522,10 @@ VA012:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Drewry's Bluff
   start_date: '1862-05-15'
-  state: ''
-VA013:
+  state: VA
+- battle_id: VA013
+  battle_name: Hanover Court House
   campaign: 'Peninsula Campaign: March-August 1862'
   casualties_max: null
   casualties_min: null
@@ -6546,10 +6547,10 @@ VA013:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Hanover Court House
   start_date: '1862-05-27'
-  state: ''
-VA014:
+  state: VA
+- battle_id: VA014
+  battle_name: Seven Pines
   campaign: 'Peninsula Campaign: March-August 1862'
   casualties_max: null
   casualties_min: null
@@ -6571,10 +6572,10 @@ VA014:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Seven Pines
   start_date: '1862-05-31'
-  state: ''
-VA015:
+  state: VA
+- battle_id: VA015
+  battle_name: Oak Grove
   campaign: 'Peninsula Campaign: March-August 1862'
   casualties_max: null
   casualties_min: null
@@ -6596,10 +6597,10 @@ VA015:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Oak Grove
   start_date: '1862-06-25'
-  state: ''
-VA016:
+  state: VA
+- battle_id: VA016
+  battle_name: Beaver Dam Creek (Mechanicsville/ Ellerson's Mill)
   campaign: 'Peninsula Campaign: March-August 1862'
   casualties_max: null
   casualties_min: null
@@ -6622,10 +6623,10 @@ VA016:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Beaver Dam Creek (Mechanicsville/ Ellerson's Mill)
   start_date: '1862-06-26'
-  state: ''
-VA017:
+  state: VA
+- battle_id: VA017
+  battle_name: Gaines' Mill
   campaign: 'Peninsula Campaign: March-August 1862'
   casualties_max: null
   casualties_min: null
@@ -6647,10 +6648,10 @@ VA017:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Gaines' Mill
   start_date: '1862-06-27'
-  state: ''
-VA018:
+  state: VA
+- battle_id: VA018
+  battle_name: Garnett's and Golding's Farms
   campaign: 'Peninsula Campaign: March-August 1862'
   casualties_max: null
   casualties_min: null
@@ -6673,10 +6674,10 @@ VA018:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Garnett's and Golding's Farms
   start_date: '1862-06-27'
-  state: ''
-VA019:
+  state: VA
+- battle_id: VA019
+  battle_name: Savage's Station
   campaign: 'Peninsula Campaign: March-August 1862'
   casualties_max: null
   casualties_min: null
@@ -6698,10 +6699,10 @@ VA019:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Savage's Station
   start_date: '1862-06-29'
-  state: ''
-VA020:
+  state: VA
+- battle_id: VA020
+  battle_name: Glendale and White Oak Swamp
   campaign: 'Peninsula Campaign: March-August 1862'
   casualties_max: null
   casualties_min: null
@@ -6723,10 +6724,10 @@ VA020:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Glendale and White Oak Swamp
   start_date: '1862-06-30'
-  state: ''
-VA021:
+  state: VA
+- battle_id: VA021
+  battle_name: Malvern Hill
   campaign: 'Peninsula Campaign: March-August 1862'
   casualties_max: null
   casualties_min: null
@@ -6748,10 +6749,10 @@ VA021:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Malvern Hill
   start_date: '1862-07-01'
-  state: ''
-VA022:
+  state: VA
+- battle_id: VA022
+  battle_name: Cedar Mountain
   campaign: 'Northern Virginia Campaign: August-September 1862'
   casualties_max: null
   casualties_min: null
@@ -6773,10 +6774,10 @@ VA022:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Cedar Mountain
   start_date: '1862-08-09'
-  state: ''
-VA023:
+  state: VA
+- battle_id: VA023
+  battle_name: Rappahannock River
   campaign: 'Northern Virginia Campaign: August-September 1862'
   casualties_max: 225
   casualties_min: 225
@@ -6799,10 +6800,10 @@ VA023:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Rappahannock River
   start_date: '1862-08-22'
-  state: ''
-VA024:
+  state: VA
+- battle_id: VA024
+  battle_name: Manassas Station/Junction
   campaign: 'Northern Virginia Campaign: August-September 1862'
   casualties_max: null
   casualties_min: null
@@ -6825,10 +6826,10 @@ VA024:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Manassas Station/Junction
   start_date: '1862-08-26'
-  state: ''
-VA025:
+  state: VA
+- battle_id: VA025
+  battle_name: Thoroughfare Gap
   campaign: 'Northern Virginia Campaign: August-September 1862'
   casualties_max: 100
   casualties_min: 100
@@ -6851,10 +6852,10 @@ VA025:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Thoroughfare Gap
   start_date: '1862-08-28'
-  state: ''
-VA026:
+  state: VA
+- battle_id: VA026
+  battle_name: Second Manassas
   campaign: 'Northern Virginia Campaign: August-September 1862'
   casualties_max: null
   casualties_min: null
@@ -6877,10 +6878,10 @@ VA026:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Second Manassas
   start_date: '1862-08-28'
-  state: ''
-VA027:
+  state: VA
+- battle_id: VA027
+  battle_name: Chantilly
   campaign: 'Northern Virginia Campaign: August-September 1862'
   casualties_max: null
   casualties_min: null
@@ -6902,10 +6903,10 @@ VA027:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Chantilly
   start_date: '1862-09-01'
-  state: ''
-VA028:
+  state: VA
+- battle_id: VA028
+  battle_name: Fredericksburg I
   campaign: 'Fredericksburg: December 1862'
   casualties_max: null
   casualties_min: null
@@ -6928,10 +6929,10 @@ VA028:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Fredericksburg I
   start_date: '1862-12-11'
-  state: ''
-VA029:
+  state: VA
+- battle_id: VA029
+  battle_name: Kelly's Ford
   campaign: 'Cavalry Along the Rappahannock: March 1863'
   casualties_max: null
   casualties_min: null
@@ -6953,21 +6954,21 @@ VA029:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Kelly's Ford
   start_date: '1863-03-17'
-  state: ''
-VA030:
+  state: VA
+- battle_id: VA030
+  battle_name: Suffolk I
   campaign: 'Longstreet''s Tidewater Campaign: March-April 1863'
   county: Suffolk
   description: Suffolk I, Virginia (VA030) , Suffolk, April 13-15, 1863
   end_date: '1863-04-15'
   filename: cw_005303_suffolkivirg.htm
   forces: null
-  note: 'Casualties are included in VA031'
-  name: Suffolk I
+  note: Casualties are included in VA031
   start_date: '1863-04-13'
-  state: ''
-VA031:
+  state: VA
+- battle_id: VA031
+  battle_name: Suffolk II (Hill's Point)
   campaign: 'Longstreet''s Tidewater Campaign: March-April 1863'
   casualties_battles:
   - VA030
@@ -6993,10 +6994,10 @@ VA031:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Suffolk II (Hill's Point)
   start_date: '1863-04-19'
-  state: ''
-VA032:
+  state: VA
+- battle_id: VA032
+  battle_name: Chancellorsville
   campaign: 'Chancellorsville Campaign: April-May 1863'
   casualties_battles:
   - VA032
@@ -7024,32 +7025,32 @@ VA032:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Chancellorsville
   start_date: '1863-04-30'
-  state: ''
-VA033:
+  state: VA
+- battle_id: VA033
+  battle_name: Salem Church
   campaign: 'Chancellorsville Campaign: April-May 1863'
   county: Spotsylvania County
   description: Salem Church, Virginia (VA033) , Spotsylvania County, May 3-4, 1863
   end_date: '1863-05-04'
   filename: cw_005503_salemchurchv.htm
   forces: null
-  note: 'Casualties are included in VA032'
-  name: Salem Church
+  note: Casualties are included in VA032
   start_date: '1863-05-03'
-  state: ''
-VA034:
+  state: VA
+- battle_id: VA034
+  battle_name: Fredericksburg II
   campaign: 'Chancellorsville Campaign: April-May 1863'
   county: Fredericksburg
   description: Fredericksburg II, Virginia (VA034) , Fredericksburg, May 3, 1863
   end_date: '1863-05-03'
   filename: cw_005502_fredericksbu.htm
   forces: null
-  note: 'Casualties are included in VA032'
-  name: Fredericksburg II
+  note: Casualties are included in VA032
   start_date: '1863-05-03'
-  state: ''
-VA035:
+  state: VA
+- battle_id: VA035
+  battle_name: Brandy Station
   campaign: 'Gettysburg Campaign: June-July 1863'
   casualties_max: null
   casualties_min: null
@@ -7071,33 +7072,33 @@ VA035:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Brandy Station
   start_date: '1863-06-09'
-  state: ''
-VA036:
+  state: VA
+- battle_id: VA036
+  battle_name: Aldie
   campaign: 'Gettysburg Campaign: June-July 1863'
   county: Loudoun County
   description: Aldie, Virginia (VA036) , Loudoun County, June 17, 1863
   end_date: '1863-06-17'
   filename: cw_005703_aldievirgini.htm
-  note: 'Casualties are included in VA038'
   forces: null
-  name: Aldie
+  note: Casualties are included in VA038
   start_date: '1863-06-17'
-  state: ''
-VA037:
+  state: VA
+- battle_id: VA037
+  battle_name: Middleburg
   campaign: 'Gettysburg Campaign: June-July 1863'
   county: Loudoun and Fauquier Counties
   description: Middleburg, Virginia (VA037) , Loudoun and Fauquier Counties, June
     17-19, 1863
   end_date: '1863-06-19'
   filename: cw_005704_middleburgvi.htm
-  note: 'Casualties are included in VA038'
   forces: null
-  name: Middleburg
+  note: Casualties are included in VA038
   start_date: '1863-06-17'
-  state: ''
-VA038:
+  state: VA
+- battle_id: VA038
+  battle_name: Upperville
   campaign: 'Gettysburg Campaign: June-July 1863'
   casualties_battles:
   - VA036
@@ -7124,10 +7125,10 @@ VA038:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Upperville
   start_date: '1863-06-21'
-  state: ''
-VA039:
+  state: VA
+- battle_id: VA039
+  battle_name: Auburn I
   campaign: 'Bristoe Campaign: October-November 1863'
   casualties_max: 50
   casualties_min: 50
@@ -7149,10 +7150,10 @@ VA039:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Auburn I
   start_date: '1863-10-13'
-  state: ''
-VA040:
+  state: VA
+- battle_id: VA040
+  battle_name: Bristoe Station
   campaign: 'Bristoe Campaign: October-November 1863'
   casualties_max: null
   casualties_min: null
@@ -7175,10 +7176,10 @@ VA040:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Bristoe Station
   start_date: '1863-10-14'
-  state: ''
-VA041:
+  state: VA
+- battle_id: VA041
+  battle_name: Auburn II
   campaign: 'Bristoe Campaign: October-November 1863'
   casualties_max: 113
   casualties_min: 113
@@ -7200,10 +7201,10 @@ VA041:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Auburn II
   start_date: '1863-10-14'
-  state: ''
-VA042:
+  state: VA
+- battle_id: VA042
+  battle_name: Buckland Mills
   campaign: 'Bristoe Campaign: October-November 1863'
   casualties_max: 230
   casualties_min: 230
@@ -7225,10 +7226,10 @@ VA042:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Buckland Mills
   start_date: '1863-10-19'
-  state: ''
-VA043:
+  state: VA
+- battle_id: VA043
+  battle_name: Rappahannock Station
   campaign: 'Bristoe Campaign: October-November 1863'
   casualties_max: null
   casualties_min: null
@@ -7251,10 +7252,10 @@ VA043:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Rappahannock Station
   start_date: '1863-11-07'
-  state: ''
-VA044:
+  state: VA
+- battle_id: VA044
+  battle_name: Mine Run
   campaign: 'Mine Run Campaign: November-December 1863'
   casualties_max: null
   casualties_min: null
@@ -7277,10 +7278,10 @@ VA044:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Mine Run
   start_date: '1863-11-26'
-  state: ''
-VA045:
+  state: VA
+- battle_id: VA045
+  battle_name: Morton's Ford
   campaign: 'Rapidan River, Virginia: February 1864'
   casualties_max: 723
   casualties_min: 723
@@ -7303,10 +7304,10 @@ VA045:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Morton's Ford
   start_date: '1864-02-06'
-  state: ''
-VA046:
+  state: VA
+- battle_id: VA046
+  battle_name: Wilderness
   campaign: 'Grant''s Overland Campaign: May-June 1864'
   casualties_max: null
   casualties_min: null
@@ -7328,10 +7329,10 @@ VA046:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Wilderness
   start_date: '1864-05-05'
-  state: ''
-VA047:
+  state: VA
+- battle_id: VA047
+  battle_name: Port Walthall Junction
   campaign: 'Bermuda Hundred Campaign: May 1864'
   casualties_max: 560
   casualties_min: 560
@@ -7354,10 +7355,10 @@ VA047:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Port Walthall Junction
   start_date: '1864-05-06'
-  state: ''
-VA048:
+  state: VA
+- battle_id: VA048
+  battle_name: Spotsylvania Court House
   campaign: 'Grant''s Overland Campaign: May-June 1864'
   casualties_max: null
   casualties_min: null
@@ -7380,10 +7381,10 @@ VA048:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Spotsylvania Court House
   start_date: '1864-05-08'
-  state: ''
-VA049:
+  state: VA
+- battle_id: VA049
+  battle_name: Cloyd's Mountain
   campaign: 'Southwest Virginia: May 1864'
   casualties_max: null
   casualties_min: null
@@ -7405,10 +7406,10 @@ VA049:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Cloyd's Mountain
   start_date: '1864-05-09'
-  state: ''
-VA050:
+  state: VA
+- battle_id: VA050
+  battle_name: Swift Creek and Fort Clifton
   campaign: 'Bermuda Hundred Campaign: May 1864'
   casualties_max: 990
   casualties_min: 990
@@ -7431,10 +7432,10 @@ VA050:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Swift Creek and Fort Clifton
   start_date: '1864-05-09'
-  state: ''
-VA051:
+  state: VA
+- battle_id: VA051
+  battle_name: Chester Station
   campaign: 'Bermuda Hundred Campaign: May 1864'
   casualties_max: 569
   casualties_min: 569
@@ -7456,10 +7457,10 @@ VA051:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Chester Station
   start_date: '1864-05-10'
-  state: ''
-VA052:
+  state: VA
+- battle_id: VA052
+  battle_name: Yellow Tavern
   campaign: 'Grant''s Overland Campaign: May-June 1864'
   casualties_max: 800
   casualties_min: 800
@@ -7481,10 +7482,10 @@ VA052:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Yellow Tavern
   start_date: '1864-05-11'
-  state: ''
-VA053:
+  state: VA
+- battle_id: VA053
+  battle_name: Proctor's Creek (Drewry's Bluff)
   campaign: 'Bermuda Hundred Campaign: May 1864'
   casualties_max: null
   casualties_min: null
@@ -7507,10 +7508,10 @@ VA053:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Proctor's Creek (Drewry's Bluff)
   start_date: '1864-05-12'
-  state: ''
-VA054:
+  state: VA
+- battle_id: VA054
+  battle_name: Ware Bottom Church and Howlett Line
   campaign: 'Bermuda Hundred Campaign: May 1864'
   casualties_max: 1500
   casualties_min: 1500
@@ -7533,10 +7534,10 @@ VA054:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Ware Bottom Church and Howlett Line
   start_date: '1864-05-20'
-  state: ''
-VA055:
+  state: VA
+- battle_id: VA055
+  battle_name: North Anna
   campaign: 'Grant''s Overland Campaign: May-June 1864'
   casualties_max: null
   casualties_min: null
@@ -7559,10 +7560,10 @@ VA055:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: North Anna
   start_date: '1864-05-23'
-  state: ''
-VA056:
+  state: VA
+- battle_id: VA056
+  battle_name: Wilson's Wharf
   campaign: 'Grant''s Overland Campaign: May-June 1864'
   casualties_max: null
   casualties_min: null
@@ -7584,10 +7585,10 @@ VA056:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Wilson's Wharf
   start_date: '1864-05-24'
-  state: ''
-VA057:
+  state: VA
+- battle_id: VA057
+  battle_name: Totopotomoy Creek and Bethesda Church
   campaign: 'Grant''s Overland Campaign: May-June 1864'
   casualties_max: null
   casualties_min: null
@@ -7610,10 +7611,10 @@ VA057:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Totopotomoy Creek and Bethesda Church
   start_date: '1864-05-28'
-  state: ''
-VA058:
+  state: VA
+- battle_id: VA058
+  battle_name: Haw's Shop
   campaign: 'Grant''s Overland Campaign: May-June 1864'
   casualties_max: null
   casualties_min: null
@@ -7635,10 +7636,10 @@ VA058:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Haw's Shop
   start_date: '1864-05-28'
-  state: ''
-VA059:
+  state: VA
+- battle_id: VA059
+  battle_name: Matadequin Creek (Old Church)
   campaign: 'Grant''s Overland Campaign: May-June 1864'
   casualties_max: null
   casualties_min: null
@@ -7661,10 +7662,10 @@ VA059:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Matadequin Creek (Old Church)
   start_date: '1864-05-30'
-  state: ''
-VA062:
+  state: VA
+- battle_id: VA062
+  battle_name: Cold Harbor
   campaign: 'Grant''s Overland Campaign: May-June 1864'
   casualties_max: null
   casualties_min: null
@@ -7686,10 +7687,10 @@ VA062:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Cold Harbor
   start_date: '1864-05-31'
-  state: ''
-VA063:
+  state: VA
+- battle_id: VA063
+  battle_name: Petersburg II
   campaign: 'Richmond-Petersburg Campaign: June 1864-March 1865'
   casualties_max: null
   casualties_min: null
@@ -7712,10 +7713,10 @@ VA063:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Petersburg II
   start_date: '1864-06-15'
-  state: ''
-VA064:
+  state: VA
+- battle_id: VA064
+  battle_name: Lynchburg
   campaign: 'Shenandoah Valley: May-June 1864'
   casualties_max: null
   casualties_min: null
@@ -7737,10 +7738,10 @@ VA064:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Lynchburg
   start_date: '1864-06-17'
-  state: ''
-VA065:
+  state: VA
+- battle_id: VA065
+  battle_name: Jerusalem Plank Road
   campaign: 'Richmond-Petersburg Campaign: June 1864-March 1865'
   casualties_max: null
   casualties_min: null
@@ -7763,10 +7764,10 @@ VA065:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Jerusalem Plank Road
   start_date: '1864-06-21'
-  state: ''
-VA067:
+  state: VA
+- battle_id: VA067
+  battle_name: Sappony Church
   campaign: 'Richmond-Petersburg Campaign: June 1864-March 1865'
   casualties_max: null
   casualties_min: null
@@ -7788,10 +7789,10 @@ VA067:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Sappony Church
   start_date: '1864-06-28'
-  state: ''
-VA068:
+  state: VA
+- battle_id: VA068
+  battle_name: Reams Station I
   campaign: 'Richmond-Petersburg Campaign: June 1864-March 1865'
   casualties_max: 1445
   casualties_min: 1445
@@ -7813,10 +7814,10 @@ VA068:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Reams Station I
   start_date: '1864-06-29'
-  state: ''
-VA069:
+  state: VA
+- battle_id: VA069
+  battle_name: First Deep Bottom
   campaign: 'Richmond-Petersburg Campaign: June 1864-March 1865'
   casualties_max: 1000
   casualties_min: 1000
@@ -7838,10 +7839,10 @@ VA069:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: First Deep Bottom
   start_date: '1864-07-27'
-  state: ''
-VA070:
+  state: VA
+- battle_id: VA070
+  battle_name: The Crater
   campaign: 'Richmond-Petersburg Campaign: June 1864-March 1865'
   casualties_max: null
   casualties_min: null
@@ -7863,10 +7864,10 @@ VA070:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: The Crater
   start_date: '1864-07-30'
-  state: ''
-VA071:
+  state: VA
+- battle_id: VA071
+  battle_name: Second Deep Bottom
   campaign: 'Richmond-Petersburg Campaign: June 1864-March 1865'
   casualties_max: null
   casualties_min: null
@@ -7889,10 +7890,10 @@ VA071:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Second Deep Bottom
   start_date: '1864-08-13'
-  state: ''
-VA072:
+  state: VA
+- battle_id: VA072
+  battle_name: Globe Tavern
   campaign: 'Richmond-Petersburg Campaign: June 1864-March 1865'
   casualties_max: null
   casualties_min: null
@@ -7914,10 +7915,10 @@ VA072:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Globe Tavern
   start_date: '1864-08-18'
-  state: ''
-VA073:
+  state: VA
+- battle_id: VA073
+  battle_name: Reams Station II
   campaign: 'Richmond-Petersburg Campaign: June 1864-March 1865'
   casualties_max: null
   casualties_min: null
@@ -7939,10 +7940,10 @@ VA073:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Reams Station II
   start_date: '1864-08-25'
-  state: ''
-VA074:
+  state: VA
+- battle_id: VA074
+  battle_name: Peebles' Farm
   campaign: 'Richmond-Petersburg Campaign: June 1864-March 1865'
   casualties_max: null
   casualties_min: null
@@ -7965,10 +7966,10 @@ VA074:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Peebles' Farm
   start_date: '1864-09-30'
-  state: ''
-VA075:
+  state: VA
+- battle_id: VA075
+  battle_name: Chaffin's Farm and New Market Heights
   campaign: 'Richmond-Petersburg Campaign: June 1864-March 1865'
   casualties_max: null
   casualties_min: null
@@ -7991,10 +7992,10 @@ VA075:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Chaffin's Farm and New Market Heights
   start_date: '1864-09-29'
-  state: ''
-VA076:
+  state: VA
+- battle_id: VA076
+  battle_name: Saltville I
   campaign: 'Southwest Virginia and East Tennessee: September-December 1864'
   casualties_max: null
   casualties_min: null
@@ -8016,10 +8017,10 @@ VA076:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Saltville I
   start_date: '1864-10-02'
-  state: ''
-VA077:
+  state: VA
+- battle_id: VA077
+  battle_name: Darbytown and New Market Roads
   campaign: 'Richmond-Petersburg Campaign: June 1864-March 1865'
   casualties_max: null
   casualties_min: null
@@ -8042,10 +8043,10 @@ VA077:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Darbytown and New Market Roads
   start_date: '1864-10-07'
-  state: ''
-VA078:
+  state: VA
+- battle_id: VA078
+  battle_name: Darbytown Road
   campaign: 'Richmond-Petersburg Campaign: June 1864-March 1865'
   casualties_max: null
   casualties_min: null
@@ -8067,10 +8068,10 @@ VA078:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Darbytown Road
   start_date: '1864-10-13'
-  state: ''
-VA079:
+  state: VA
+- battle_id: VA079
+  battle_name: Boydton Plank Road
   campaign: 'Richmond-Petersburg Campaign: June 1864-March 1865'
   casualties_max: null
   casualties_min: null
@@ -8093,10 +8094,10 @@ VA079:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Boydton Plank Road
   start_date: '1864-10-27'
-  state: ''
-VA080:
+  state: VA
+- battle_id: VA080
+  battle_name: Fair Oaks and Darbytown Road
   campaign: 'Richmond-Petersburg Campaign: June 1864-March 1865'
   casualties_max: null
   casualties_min: null
@@ -8119,10 +8120,10 @@ VA080:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Fair Oaks and Darbytown Road
   start_date: '1864-10-27'
-  state: ''
-VA081:
+  state: VA
+- battle_id: VA081
+  battle_name: Marion
   campaign: 'Southwest Virginia and East Tennessee: September-December 1864'
   casualties_max: 300
   casualties_min: 300
@@ -8144,10 +8145,10 @@ VA081:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Marion
   start_date: '1864-12-16'
-  state: ''
-VA082:
+  state: VA
+- battle_id: VA082
+  battle_name: Saltville II
   campaign: 'Southwest Virginia and East Tennessee: September-December 1864'
   casualties_max: null
   casualties_min: null
@@ -8169,10 +8170,10 @@ VA082:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Saltville II
   start_date: '1864-12-20'
-  state: ''
-VA083:
+  state: VA
+- battle_id: VA083
+  battle_name: Hatcher's Run
   campaign: 'Richmond-Petersburg Campaign: June 1864-March 1865'
   casualties_max: null
   casualties_min: null
@@ -8194,10 +8195,10 @@ VA083:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Hatcher's Run
   start_date: '1865-02-05'
-  state: ''
-VA084:
+  state: VA
+- battle_id: VA084
+  battle_name: Fort Stedman
   campaign: 'Richmond-Petersburg Campaign: June 1864-March 1865'
   casualties_max: null
   casualties_min: null
@@ -8219,10 +8220,10 @@ VA084:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Fort Stedman
   start_date: '1865-03-25'
-  state: ''
-VA085:
+  state: VA
+- battle_id: VA085
+  battle_name: Lewis's Farm
   campaign: 'Appomattox Campaign: March-April 1865'
   casualties_max: null
   casualties_min: null
@@ -8244,10 +8245,10 @@ VA085:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Lewis's Farm
   start_date: '1865-03-29'
-  state: ''
-VA086:
+  state: VA
+- battle_id: VA086
+  battle_name: Dinwiddie Court House
   campaign: 'Appomattox Campaign: March-April 1865'
   casualties_max: null
   casualties_min: null
@@ -8270,10 +8271,10 @@ VA086:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Dinwiddie Court House
   start_date: '1865-03-31'
-  state: ''
-VA087:
+  state: VA
+- battle_id: VA087
+  battle_name: White Oak Road
   campaign: 'Appomattox Campaign: March-April 1865'
   casualties_max: null
   casualties_min: null
@@ -8295,10 +8296,10 @@ VA087:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: White Oak Road
   start_date: '1865-03-31'
-  state: ''
-VA088:
+  state: VA
+- battle_id: VA088
+  battle_name: Five Forks
   campaign: 'Appomattox Campaign: March-April 1865'
   casualties_max: null
   casualties_min: null
@@ -8320,10 +8321,10 @@ VA088:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Five Forks
   start_date: '1865-04-01'
-  state: ''
-VA089:
+  state: VA
+- battle_id: VA089
+  battle_name: Petersburg III
   campaign: 'Appomattox Campaign: March-April 1865'
   casualties_max: null
   casualties_min: null
@@ -8346,10 +8347,10 @@ VA089:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Petersburg III
   start_date: '1865-04-02'
-  state: ''
-VA090:
+  state: VA
+- battle_id: VA090
+  battle_name: Sutherland Station
   campaign: 'Appomattox Campaign: March-April 1865'
   casualties_max: null
   casualties_min: null
@@ -8371,10 +8372,10 @@ VA090:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Sutherland Station
   start_date: '1865-04-02'
-  state: ''
-VA091:
+  state: VA
+- battle_id: VA091
+  battle_name: Amelia Springs
   campaign: 'Appomattox Campaign: March-April 1865'
   casualties_max: null
   casualties_min: null
@@ -8396,10 +8397,10 @@ VA091:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Amelia Springs
   start_date: '1865-04-05'
-  state: ''
-VA092:
+  state: VA
+- battle_id: VA092
+  battle_name: Rice's Station
   campaign: 'Appomattox Campaign: March-April 1865'
   casualties_max: null
   casualties_min: null
@@ -8421,10 +8422,10 @@ VA092:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Rice's Station
   start_date: '1865-04-06'
-  state: ''
-VA093:
+  state: VA
+- battle_id: VA093
+  battle_name: Sailor's Creek
   campaign: 'Appomattox Campaign: March-April 1865'
   casualties_max: null
   casualties_min: null
@@ -8447,10 +8448,10 @@ VA093:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Sailor's Creek
   start_date: '1865-04-06'
-  state: ''
-VA094:
+  state: VA
+- battle_id: VA094
+  battle_name: Cumberland Church
   campaign: 'Appomattox Campaign: March-April 1865'
   casualties_max: null
   casualties_min: null
@@ -8472,10 +8473,10 @@ VA094:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Cumberland Church
   start_date: '1865-04-07'
-  state: ''
-VA095:
+  state: VA
+- battle_id: VA095
+  battle_name: High Bridge
   campaign: 'Appomattox Campaign: March-April 1865'
   casualties_max: null
   casualties_min: null
@@ -8498,10 +8499,10 @@ VA095:
       killed_wounded_max: 47
       killed_wounded_min: 47
       missing: 800
-  name: High Bridge
   start_date: '1865-04-06'
-  state: ''
-VA096:
+  state: VA
+- battle_id: VA096
+  battle_name: Appomattox Station
   campaign: 'Appomattox Campaign: March-April 1865'
   casualties_max: null
   casualties_min: null
@@ -8524,10 +8525,10 @@ VA096:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Appomattox Station
   start_date: '1865-04-08'
-  state: ''
-VA097:
+  state: VA
+- battle_id: VA097
+  battle_name: Appomattox Court House
   campaign: 'Appomattox Campaign: March-April 1865'
   casualties_max: null
   casualties_min: null
@@ -8550,10 +8551,10 @@ VA097:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Appomattox Court House
   start_date: '1865-04-09'
-  state: ''
-VA098:
+  state: VA
+- battle_id: VA098
+  battle_name: Petersburg I
   campaign: 'Richmond-Petersburg Campaign: June 1864-March 1865'
   casualties_max: 120
   casualties_min: 120
@@ -8575,10 +8576,10 @@ VA098:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Petersburg I
   start_date: '1864-06-09'
-  state: ''
-VA099:
+  state: VA
+- battle_id: VA099
+  battle_name: Trevilian Station
   campaign: 'Grant''s Overland Campaign: May-June 1864'
   casualties_max: null
   casualties_min: null
@@ -8600,10 +8601,10 @@ VA099:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Trevilian Station
   start_date: '1864-06-11'
-  state: ''
-VA100:
+  state: VA
+- battle_id: VA100
+  battle_name: Cockpit Point
   campaign: 'Blockade of the Potomac River: September 1861-March 1862'
   casualties_max: null
   casualties_min: null
@@ -8626,10 +8627,10 @@ VA100:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Cockpit Point
   start_date: '1862-01-03'
-  state: ''
-VA101:
+  state: VA
+- battle_id: VA101
+  battle_name: First Kernstown
   campaign: 'Jackson''s Shenandoah Valley Campaign: March-June 1862'
   casualties_max: null
   casualties_min: null
@@ -8652,10 +8653,10 @@ VA101:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: First Kernstown
   start_date: '1862-03-23'
-  state: ''
-VA102:
+  state: VA
+- battle_id: VA102
+  battle_name: McDowell
   campaign: 'Jackson''s Shenandoah Valley Campaign: March-June 1862'
   casualties_max: null
   casualties_min: null
@@ -8677,10 +8678,10 @@ VA102:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: McDowell
   start_date: '1862-05-08'
-  state: ''
-VA103:
+  state: VA
+- battle_id: VA103
+  battle_name: Front Royal
   campaign: 'Jackson''s Shenandoah Valley Campaign: March-June 1862'
   casualties_max: null
   casualties_min: null
@@ -8702,10 +8703,10 @@ VA103:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Front Royal
   start_date: '1862-05-23'
-  state: ''
-VA104:
+  state: VA
+- battle_id: VA104
+  battle_name: First Winchester
   campaign: 'Jackson''s Shenandoah Valley Campaign: March-June 1862'
   casualties_max: null
   casualties_min: null
@@ -8728,10 +8729,10 @@ VA104:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: First Winchester
   start_date: '1862-05-25'
-  state: ''
-VA105:
+  state: VA
+- battle_id: VA105
+  battle_name: Cross Keys
   campaign: 'Jackson''s Shenandoah Valley Campaign: March-June 1862'
   casualties_max: null
   casualties_min: null
@@ -8753,10 +8754,10 @@ VA105:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Cross Keys
   start_date: '1862-06-08'
-  state: ''
-VA106:
+  state: VA
+- battle_id: VA106
+  battle_name: Port Republic
   campaign: 'Jackson''s Shenandoah Valley Campaign: March-June 1862'
   casualties_max: null
   casualties_min: null
@@ -8778,10 +8779,10 @@ VA106:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Port Republic
   start_date: '1862-06-09'
-  state: ''
-VA107:
+  state: VA
+- battle_id: VA107
+  battle_name: Second Winchester
   campaign: 'Gettysburg Campaign: June-July 1863'
   casualties_max: null
   casualties_min: null
@@ -8804,10 +8805,10 @@ VA107:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Second Winchester
   start_date: '1863-06-13'
-  state: ''
-VA108:
+  state: VA
+- battle_id: VA108
+  battle_name: Manassas Gap
   campaign: 'Gettysburg Campaign: June-July 1863'
   casualties_max: 440
   casualties_min: 440
@@ -8830,10 +8831,10 @@ VA108:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Manassas Gap
   start_date: '1863-07-23'
-  state: ''
-VA109:
+  state: VA
+- battle_id: VA109
+  battle_name: Cove Mountain
   campaign: 'Southwest Virginia: May 1864'
   casualties_max: 300
   casualties_min: 300
@@ -8855,10 +8856,10 @@ VA109:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Cove Mountain
   start_date: '1864-05-10'
-  state: ''
-VA110:
+  state: VA
+- battle_id: VA110
+  battle_name: New Market
   campaign: 'Shenandoah Valley: May-June 1864'
   casualties_max: null
   casualties_min: null
@@ -8880,10 +8881,10 @@ VA110:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: New Market
   start_date: '1864-05-15'
-  state: ''
-VA111:
+  state: VA
+- battle_id: VA111
+  battle_name: Piedmont
   campaign: 'Shenandoah Valley: May-June 1864'
   casualties_max: null
   casualties_min: null
@@ -8905,20 +8906,20 @@ VA111:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Piedmont
   start_date: '1864-06-05'
-  state: ''
-VA112:
+  state: VA
+- battle_id: VA112
+  battle_name: Samaria Church (Saint Mary's Church)
   campaign: 'Grant''s Overland Campaign: May-June 1864'
   casualties_max: null
   casualties_min: null
   casualties_text: 350 US, 250 CS
   county: Charles City County
+  cwsac_id: VA066
   description: Samaria Church (Saint Mary's Church), Virginia (VA112) , Charles City
     County, June 24, 1864
   end_date: '1864-06-24'
   filename: cw_008711_samariachurc.htm
-  cwsac: VA066
   forces:
     Confederate:
       casualties_max: 250
@@ -8932,10 +8933,10 @@ VA112:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Samaria Church (Saint Mary's Church)
   start_date: '1864-06-24'
-  state: ''
-VA113:
+  state: VA
+- battle_id: VA113
+  battle_name: Staunton River Bridge
   campaign: 'Richmond-Petersburg Campaign: June 1864-March 1865'
   casualties_max: 150
   casualties_min: 150
@@ -8958,10 +8959,10 @@ VA113:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Staunton River Bridge
   start_date: '1864-06-25'
-  state: ''
-VA114:
+  state: VA
+- battle_id: VA114
+  battle_name: Cool Spring
   campaign: 'Early in Maryland, Pennsylvania, and the Shenandoah Valley: July-August
     1864'
   casualties_max: null
@@ -8984,10 +8985,10 @@ VA114:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Cool Spring
   start_date: '1864-07-17'
-  state: ''
-VA115:
+  state: VA
+- battle_id: VA115
+  battle_name: Rutherford's Farm
   campaign: 'Early in Maryland, Pennsylvania, and the Shenandoah Valley: July-August
     1864'
   casualties_max: null
@@ -9011,10 +9012,10 @@ VA115:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Rutherford's Farm
   start_date: '1864-07-20'
-  state: ''
-VA116:
+  state: VA
+- battle_id: VA116
+  battle_name: Second Kernstown
   campaign: 'Early in Maryland, Pennsylvania, and the Shenandoah Valley: July-August
     1864'
   casualties_max: null
@@ -9038,10 +9039,10 @@ VA116:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Second Kernstown
   start_date: '1864-07-24'
-  state: ''
-VA117:
+  state: VA
+- battle_id: VA117
+  battle_name: Guard Hill
   campaign: 'Sheridan''s Shenandoah Valley Campaign: August 1864-March 1865'
   casualties_max: null
   casualties_min: null
@@ -9063,10 +9064,10 @@ VA117:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Guard Hill
   start_date: '1864-08-16'
-  state: ''
-VA118:
+  state: VA
+- battle_id: VA118
+  battle_name: Berryville
   campaign: 'Sheridan''s Shenandoah Valley Campaign: August 1864-March 1865'
   casualties_max: null
   casualties_min: null
@@ -9088,10 +9089,10 @@ VA118:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Berryville
   start_date: '1864-09-03'
-  state: ''
-VA119:
+  state: VA
+- battle_id: VA119
+  battle_name: Opequon (Third Winchester)
   campaign: 'Sheridan''s Shenandoah Valley Campaign: August 1864-March 1865'
   casualties_max: null
   casualties_min: null
@@ -9114,10 +9115,10 @@ VA119:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Opequon (Third Winchester)
   start_date: '1864-09-19'
-  state: ''
-VA120:
+  state: VA
+- battle_id: VA120
+  battle_name: Fisher's Hill
   campaign: 'Sheridan''s Shenandoah Valley Campaign: August 1864-March 1865'
   casualties_max: null
   casualties_min: null
@@ -9140,10 +9141,10 @@ VA120:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Fisher's Hill
   start_date: '1864-09-21'
-  state: ''
-VA121:
+  state: VA
+- battle_id: VA121
+  battle_name: Tom's Brook
   campaign: 'Sheridan''s Shenandoah Valley Campaign: August 1864-March 1865'
   casualties_max: null
   casualties_min: null
@@ -9165,10 +9166,10 @@ VA121:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Tom's Brook
   start_date: '1864-10-09'
-  state: ''
-VA122:
+  state: VA
+- battle_id: VA122
+  battle_name: Cedar Creek
   campaign: 'Sheridan''s Shenandoah Valley Campaign: August 1864-March 1865'
   casualties_max: null
   casualties_min: null
@@ -9191,10 +9192,10 @@ VA122:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Cedar Creek
   start_date: '1864-10-19'
-  state: ''
-VA123:
+  state: VA
+- battle_id: VA123
+  battle_name: Waynesboro
   campaign: 'Sheridan''s Shenandoah Valley Campaign: August 1864-March 1865'
   casualties_max: null
   casualties_min: null
@@ -9216,10 +9217,10 @@ VA123:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Waynesboro
   start_date: '1865-03-02'
-  state: ''
-VA124:
+  state: VA
+- battle_id: VA124
+  battle_name: Namozine Church
   campaign: 'Appomattox Campaign: March-April 1865'
   casualties_max: null
   casualties_min: null
@@ -9241,10 +9242,10 @@ VA124:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Namozine Church
   start_date: '1865-04-03'
-  state: ''
-VA125:
+  state: VA
+- battle_id: VA125
+  battle_name: Walkerton
   campaign: 'Kilpatrick-Dahlgren Raid: February-March 1864'
   casualties_max: null
   casualties_min: null
@@ -9266,10 +9267,10 @@ VA125:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Walkerton
   start_date: '1864-03-02'
-  state: ''
-WV001:
+  state: VA
+- battle_id: WV001
+  battle_name: Philippi
   campaign: 'West Virginia: June-December 1861'
   casualties_max: null
   casualties_min: null
@@ -9291,10 +9292,10 @@ WV001:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Philippi
   start_date: '1861-06-03'
   state: WV
-WV002:
+- battle_id: WV002
+  battle_name: Hoke's Run (Falling Waters)
   campaign: 'Manassas Campaign: July 1861'
   casualties_max: null
   casualties_min: null
@@ -9317,10 +9318,10 @@ WV002:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Hoke's Run (Falling Waters)
   start_date: '1861-07-02'
   state: WV
-WV003:
+- battle_id: WV003
+  battle_name: Rich Mountain
   campaign: 'West Virginia: June-December 1861'
   casualties_max: null
   casualties_min: null
@@ -9342,10 +9343,10 @@ WV003:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Rich Mountain
   start_date: '1861-07-11'
   state: WV
-WV004:
+- battle_id: WV004
+  battle_name: Kessler's Cross Lanes
   campaign: 'West Virginia: June-December 1861'
   casualties_max: null
   casualties_min: null
@@ -9368,10 +9369,10 @@ WV004:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Kessler's Cross Lanes
   start_date: '1861-08-26'
   state: WV
-WV005:
+- battle_id: WV005
+  battle_name: Cheat Mountain
   campaign: 'West Virginia: June-December 1861'
   casualties_max: null
   casualties_min: null
@@ -9394,10 +9395,10 @@ WV005:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Cheat Mountain
   start_date: '1861-09-12'
   state: WV
-WV006:
+- battle_id: WV006
+  battle_name: Carnifex Ferry
   campaign: 'West Virginia: June-December 1861'
   casualties_max: null
   casualties_min: null
@@ -9420,10 +9421,10 @@ WV006:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Carnifex Ferry
   start_date: '1861-09-10'
   state: WV
-WV007:
+- battle_id: WV007
+  battle_name: Greenbrier River
   campaign: 'West Virginia: June-December 1861'
   casualties_max: null
   casualties_min: null
@@ -9446,10 +9447,10 @@ WV007:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Greenbrier River
   start_date: '1861-10-03'
   state: WV
-WV008:
+- battle_id: WV008
+  battle_name: Camp Allegheny
   campaign: 'West Virginia: June-December 1861'
   casualties_max: null
   casualties_min: null
@@ -9472,10 +9473,10 @@ WV008:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Camp Allegheny
   start_date: '1861-12-13'
   state: WV
-WV009:
+- battle_id: WV009
+  battle_name: Princeton Court House Princeton
   campaign: 'Jackson''s Shenandoah Valley Campaign: March-June 1862'
   casualties_max: null
   casualties_min: null
@@ -9498,10 +9499,10 @@ WV009:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Princeton Court House Princeton
   start_date: '1862-05-15'
   state: WV
-WV010:
+- battle_id: WV010
+  battle_name: Harpers Ferry
   campaign: 'Maryland Campaign: September 1862'
   casualties_max: null
   casualties_min: null
@@ -9524,10 +9525,10 @@ WV010:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Harpers Ferry
   start_date: '1862-09-12'
   state: WV
-WV012:
+- battle_id: WV012
+  battle_name: Droop Mountain
   campaign: 'Virginia & Tennessee Railroad: November 1863'
   casualties_max: null
   casualties_min: null
@@ -9550,10 +9551,10 @@ WV012:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Droop Mountain
   start_date: '1863-11-06'
   state: WV
-WV013:
+- battle_id: WV013
+  battle_name: Moorefield
   campaign: 'Early in Maryland, Pennsylvania, and the Shenandoah Valley: July-August
     1864'
   casualties_max: null
@@ -9576,10 +9577,10 @@ WV013:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Moorefield
   start_date: '1864-08-07'
   state: WV
-WV014:
+- battle_id: WV014
+  battle_name: Summit Point and Cameron's Depot
   campaign: 'Sheridan''s Shenandoah Valley Campaign: August 1864-March 1865'
   casualties_max: null
   casualties_min: null
@@ -9602,10 +9603,10 @@ WV014:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Summit Point and Cameron's Depot
   start_date: '1864-08-21'
   state: WV
-WV015:
+- battle_id: WV015
+  battle_name: Smithfield Crossing
   campaign: 'Sheridan''s Shenandoah Valley Campaign: August 1864-March 1865'
   casualties_max: null
   casualties_min: null
@@ -9628,10 +9629,10 @@ WV015:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Smithfield Crossing
   start_date: '1864-08-28'
   state: WV
-WV016:
+- battle_id: WV016
+  battle_name: Shepherdstown
   campaign: 'Maryland Campaign: September 1862'
   casualties_max: null
   casualties_min: null
@@ -9654,6 +9655,5 @@ WV016:
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
-  name: Shepherdstown
   start_date: '1862-09-19'
   state: WV

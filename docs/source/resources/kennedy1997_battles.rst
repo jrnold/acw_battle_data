@@ -53,7 +53,6 @@ end_date         date     End Date
 casualties_min   integer  Casualties (min)
 casualties_max   integer  Casualties (max)
 casualties_text  string   Casualties
-missing          number   missing
 cwsac_id         string   CWSAC Id
 ===============  =======  ================
 
@@ -171,18 +170,6 @@ casualties_text
 
 :title: Casualties
 :type: string
-:format: default
-
-
-
-
-
-       
-missing
--------
-
-:title: missing
-:type: number
 :format: default
 
 

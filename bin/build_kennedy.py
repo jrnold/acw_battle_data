@@ -30,18 +30,18 @@ def forces_csv(src, dst):
     with open(dst, 'w') as f:
         writer = csv.DictWriter(f, fieldnames)
         writer.writeheader()
-        for battle, v in sorted(data.items()):
-            if v['forces']:
+        for battle in data:
+            if battle['forces']:
                 try:
-                    battles_aggregated = ' '.join(v['casualties_battles'])
+                    battles_aggregated = ' '.join(battle['casualties_battles'])
                     aggregate = 1
                 except KeyError:
                     aggregate = 0
                     battles_aggregated = battle
-                for belligerent in v['forces']:
-                    row = v['forces'][belligerent]
+                for belligerent in battle['forces']:
+                    row = battle['forces'][belligerent]
                     row['belligerent'] = belligerent
-                    row['battle_id'] = battle
+                    row['battle_id'] = battle['battle_id']
                     row['aggregate'] = aggregate
                     row['battles_aggregated'] = battles_aggregated
                     writer.writerow(row)
@@ -58,19 +58,14 @@ def battles_csv(src, dst):
                   'casualties_min',
                   'casualties_max',
                   'casualties_text',
-                  'missing',
                   'cwsac_id')
     with open(dst, 'w') as f:
         writer = csv.DictWriter(f, fieldnames)
         writer.writeheader()
-        for battle, v in sorted(data.items()):
-            row = v
-            row['battle'] = battle
-            if 'cwsac' not in row:
-                row['cwsac_id'] = battle
-            else:
-                row['cwsac_id'] = row['cwsac']
-                del row['cwsac']
+        for battle in data:
+            row = battle.copy()
+            if 'cwsac_id' not in row:
+                row['cwsac_id'] = row['battle_id']
             row = dict_subset(row, fieldnames)
             writer.writerow(row)
 
@@ -78,16 +73,16 @@ def forces_to_cwsac(src, dst):
     with open(src, 'r') as f:
         data = yaml.load(f)
     ret = []
-    for battle, v in sorted(data.items()):
-        if v['forces']:
+    for battle in data:
+        if battle['forces']:
             try:
-                cwsac = v['casualties_battles']
+                cwsac = battle['forces']['casualties_battles']
             except KeyError:
                 try:
-                    cwsac = [v['cwsac']]
+                    cwsac = [battle['cwsac_id']]
                 except KeyError:
-                    cwsac = [battle]
-            ret.append({'battles_from': [battle],
+                    cwsac = [battle['battle_id']]
+            ret.append({'battles_from': [battle['battle_id']],
                          'battles_to': cwsac,
                          'relation': 'eq'})
     with open(dst, 'w') as f:

@@ -96,6 +96,10 @@ def build_misc(src, dst):
     print("build_misc")
     sp.check_call([PYTHON, "bin/build_misc.py", src, dst])
 
+def build_battlemisc(src, dst):
+    print("build_battlemisc")
+    sp.check_call([PYTHON, "bin/build_battlemisc.py", src, dst])
+
 def build_ships(src, dst):
     print("build_ships")
     sp.check_call([PYTHON, "bin/build_ships.py", src, dst])
@@ -138,6 +142,7 @@ def build(src, dst, docs, bucket):
     build_ships(src, dst)
     build_civilwarorg(src, dst)
     build_misc(src, dst)
+    build_battlemisc(src, dst)
     # metadata
     build_metadata(src, dst)
     build_datapackage(src, dst)

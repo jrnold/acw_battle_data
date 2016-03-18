@@ -25,12 +25,14 @@ Schema
 
 
 
-===========  ======  ===========
-cwsac_id     string  CWSAC Id.
-battle_name  string  Battle name
-attacker     string  Attacker
-surrender    string  Surrender
-===========  ======  ===========
+===========  =======  ===========
+cwsac_id     string   CWSAC Id.
+battle_name  string   Battle name
+attacker     string   Attacker
+surrender    string   Surrender
+siege        integer  siege
+naval        number   naval
+===========  =======  ===========
 
 cwsac_id
 --------
@@ -83,6 +85,30 @@ surrender
     
 
 Did one of the sides surrender?
+
+
+       
+siege
+-----
+
+:title: siege
+:type: integer
+:format: default
+
+
+
+
+
+       
+naval
+-----
+
+:title: naval
+:type: number
+:format: default
+
+
+
 
 
        

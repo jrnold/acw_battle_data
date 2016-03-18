@@ -4,10 +4,10 @@ from os import path
 import sys
 import csv
 
+import pandas as pd
 import yaml
 
-FILES = ('battlemisc.csv',
-         'burdekin_langdana_war_trend.csv',
+FILES = ('burdekin_langdana_war_trend.csv',
          'reiter2009_turning_points.csv')
 
 def copyfiles(miscdir, dst):
@@ -22,6 +22,6 @@ def main():
     dst = sys.argv[2]
     miscdir = path.join(src , 'rawdata' , 'misc')
     copyfiles(miscdir, dst)
-    
+
 if __name__ == '__main__':
     main()
