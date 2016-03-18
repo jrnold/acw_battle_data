@@ -37,6 +37,14 @@ schema:
     name: surrender
     title: Surrender
     type: string
+  - format: default
+    name: siege
+    title: siege
+    type: integer
+  - format: default
+    name: naval
+    title: naval
+    type: number
 sources:
 - jrnold
 title: Miscellaneous battle data
