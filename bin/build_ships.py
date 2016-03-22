@@ -17,10 +17,10 @@ def build_navalbattles(src, dst):
         confederate_ships = len(battle['Confederate'])
         us_ships = len(battle['US'])
         us_fortifications = 'US' in battle['fortifications']
-        confederate_fortifications = 'Confederate' in battle['fortifications']        
+        confederate_fortifications = 'Confederate' in battle['fortifications']
         btl = {'cwsac_id': battle['cwsac_id'],
                'confederate_ships': confederate_ships,
-               'us_ships': confederate_ships,
+               'us_ships': us_ships,
                'confederate_fortifications': confederate_fortifications,
                'us_fortifications': confederate_fortifications}
         battles.append(btl)
@@ -35,7 +35,7 @@ def build_navalbattles(src, dst):
         writer = csv.DictWriter(f, fieldnames)
         writer.writeheader()
         writer.writerows(battles)
-    
+
 
 def build_ships_in_battles(src, dst):
     filename = path.join(src, "rawdata", "ships", "ships_in_battles.yaml")
@@ -72,7 +72,7 @@ def main():
     print("Building ships data")
     copyfiles(src, dst)
     build_ships_in_battles(src, dst)
-    build_navalbattles(src, dst)    
-    
+    build_navalbattles(src, dst)
+
 if __name__ == '__main__':
     main()
