@@ -334,16 +334,16 @@ gen_forces <- function(cwss_forces,
     cwss_forces %>%
     filter(!BattlefieldCode %in% c("VA020A")) %>%
     mutate(BattlefieldCode = cwss_to_cwsac_id(BattlefieldCode)) %>%
-    rename(cwsac_id = BattlefieldCode) %>%    
-    left_join(mutate(cwss_zero_casualties, zero_cas = TRUE), by = "cwsac_id") %>%
-    mutate(str_mean_cwss = ifelse(TroopsEngaged == 0, NA_real_, TroopsEngaged),
-           str_var_cwss = rounded_var(str_mean_cwss),
-           cas_kwm_mean_cwss = ifelse(Casualties == 0 & is.na(zero_cas), NA_real_, Casualties),
-           cas_kwm_var_cwss = rounded_var(cas_kwm_mean_cwss),
-           belligerent =
+    rename(cwsac_id = BattlefieldCode) %>%
+    mutate(belligerent =
              ifelse(grepl("OK00[1-3]", cwsac_id) &
                       belligerent == "US",
                     "Native American", belligerent)) %>%
+    left_join(mutate(cwss_zero_casualties, zero_cas = TRUE), by = c("cwsac_id", "belligerent")) %>%
+    mutate(str_mean_cwss = ifelse(TroopsEngaged == 0, NA_real_, TroopsEngaged),
+           str_var_cwss = rounded_var(str_mean_cwss),
+           cas_kwm_mean_cwss = ifelse(Casualties == 0 & is.na(zero_cas), NA_real_, Casualties),
+           cas_kwm_var_cwss = rounded_var(cas_kwm_mean_cwss)) %>%
     select(cwsac_id, belligerent, matches("^(cas|str)_"))
 
   cwsac_forces_casstr <-
