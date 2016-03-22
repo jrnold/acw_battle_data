@@ -67,7 +67,7 @@ Resource                                                                        
 `livermore_forces.csv <resources/livermore_forces.html>`__                            Livermore (1900) battle data: force strengths and casualties
 `livermore_to_cwsac.json <resources/livermore_to_cwsac.html>`__                       Correspondence between Livermore (1900) battles and CWSAC battles
 `navalbattles.csv <resources/navalbattles.html>`__                                    List of naval battles
-`nps_battle_units.csv <resources/nps_battle_units.html>`__                            nps_battle_units
+`nps_battle_units.csv <resources/nps_battle_units.html>`__                            National Park Service combined battle data: Battle in each battle
 `nps_battlelist.csv <resources/nps_battlelist.html>`__                                Comparison of battles in CWSAC AAD, CWSAC Report, CWSAC Updates, and CWSS
 `nps_battles.csv <resources/nps_battles.html>`__                                      NPS combined data battle data: battles
 `nps_campaigns.csv <resources/nps_campaigns.html>`__                                  NPS combined data battle data: campaigns
