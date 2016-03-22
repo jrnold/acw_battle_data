@@ -6,9 +6,9 @@ NPS combined data battle data: campaigns
 :path: nps_campaigns.csv
 :format: csv
 
-Campaigns in the National Park Services reports: Shenandoah, preliminary CWSAC reports in the AAD (1990-1993), CWSAC Report battle summaries (1997), Civil War Soldiers and Sailors (CWSS) database, and the CWSAC Report Updates (2009-2013).
-This dataset the same as :doc:`cwss_campaigns`.
+Campaigns in the National Park Services Civil War battle data.
 
+These data are a copy of the CWSS campaign list, :doc:`cwss_campaigns`.
 
 
 Sources: 

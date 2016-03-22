@@ -3,76 +3,127 @@ name: nps_forces
 path: data/nps_forces.csv
 schema:
   fields:
-  - format: default
+  - constraints:
+      maxLength: 6
+      minLength: 5
+      pattern: '[A-Z]{2}[0-9]{3}[A-Z]?'
+    description: CWSAC battle identifier
+    format: default
     name: cwsac_id
-    title: cwsac_id
+    title: CWSAC Id.
     type: string
-  - format: default
+  - constraints:
+      enum:
+      - US
+      - Confederate
+      - Native American
+    description: 'Side of the force: Confederate or Union or Native American.'
+    format: default
     name: belligerent
     title: belligerent
     type: string
-  - format: default
+  - constraints:
+      minimum: 0
+    description: Number of casualties (killed, wounded, or missing). Mean estimate.
+    format: default
     name: cas_kwm_mean
-    title: cas_kwm_mean
+    title: Casualties (mean)
     type: number
-  - format: default
+  - constraints:
+      minimum: 0
+    description: Number killed. Mean estimate.
+    format: default
     name: cas_k_mean
-    title: cas_k_mean
+    title: Killed (mean)
     type: number
-  - format: default
+  - constraints:
+      minimum: 0
+    description: Number wounded. Mean estimate.
+    format: default
     name: cas_w_mean
-    title: cas_w_mean
+    title: Wounded (mean)
     type: number
-  - format: default
+  - constraints:
+      minimum: 0
+    description: Number missing or captured. Mean estimate.
+    format: default
     name: cas_m_mean
-    title: cas_m_mean
+    title: Missing or captured (mean)
     type: number
-  - format: default
+  - constraints:
+      minimum: 0
+    description: Number of casualties (killed, wounded, or missing). Variance of estimate.
+    format: default
     name: cas_kwm_var
-    title: cas_kwm_var
+    title: Casualties (variance)
     type: number
-  - format: default
+  - constraints:
+      minimum: 0
+    description: Number killed. Variance of estimate.
+    format: default
     name: cas_k_var
-    title: cas_k_var
+    title: Killed (variance)
     type: number
-  - format: default
+  - constraints:
+      minimum: 0
+    description: Number killed. Variance of estimate.
+    format: default
     name: cas_w_var
-    title: cas_w_var
+    title: Wounded (variance)
     type: number
-  - format: default
+  - constraints:
+      minimum: 0
+    description: Number missing or captured. Variance of estimate.
+    format: default
     name: cas_m_var
-    title: cas_m_var
+    title: Missing or captured (variance)
     type: number
-  - format: default
+  - constraints:
+      minimum: 0
+    format: default
     name: cas_kw_mean
-    title: cas_kw_mean
+    title: Killed or wounded (mean)
     type: number
-  - format: default
+  - constraints:
+      minimum: 0
+    format: default
     name: cas_kw_var
-    title: cas_kw_var
+    title: Killed or wounded (variance)
     type: number
-  - format: default
+  - constraints:
+      minimum: 0
+    format: default
     name: str_mean
-    title: str_mean
+    title: Personnel (mean)
     type: number
-  - format: default
+  - constraints:
+      minimum: 0
+    format: default
     name: str_var
-    title: str_var
+    title: Personnel (variance)
     type: number
-  - format: default
+  - constraints:
+      minimum: 0
+    format: default
     name: cas_km_mean
-    title: cas_km_mean
+    title: Killed or missing (mean)
     type: number
-  - format: default
+  - constraints:
+      minimum: 0
+    format: default
     name: cas_wm_mean
-    title: cas_wm_mean
+    title: Wounded or missing (mean)
     type: number
-  - format: default
+  - constraints:
+      minimum: 0
+    format: default
     name: cas_km_var
-    title: cas_km_var
+    title: Killed or missing (variance)
     type: number
-  - format: default
+  - constraints:
+      minimum: 0
+    format: default
     name: cas_wm_var
-    title: cas_wm_var
+    title: Wounded or missing (variance)
     type: number
 title: 'NPS combined data battle data: forces'

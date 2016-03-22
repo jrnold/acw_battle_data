@@ -3,23 +3,37 @@ name: cwsac_forces
 path: data/cwsac_forces.csv
 schema:
   fields:
-  - format: default
+  - constraints:
+      maxLength: 6
+      minLength: 5
+      pattern: '[A-Z]{2}[0-9]{3}[A-Z]?'
+    description: CWSAC battle identifier
+    format: default
     name: battle
-    title: battle
+    title: Battle
     type: string
-  - format: default
+  - constraints:
+      enum:
+      - US
+      - Confederate
+      - Native American
+    description: 'Side of the force: Confederate or Union or Native American.'
+    format: default
     name: belligerent
     title: belligerent
     type: string
-  - format: default
+  - description: Description of the force, often including the units involved.
+    format: default
     name: description
     title: description
     type: string
-  - format: default
+  - description: Minimum forces engaged.
+    format: default
     name: strength_min
     title: strength_min
     type: number
-  - format: default
+  - description: Maximum sources engaged.
+    format: default
     name: strength_max
     title: strength_max
     type: number

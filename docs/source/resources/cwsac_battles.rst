@@ -101,7 +101,6 @@ other_names
 :format: default
 
 
-
 Secondary or commonly used names, such as Elkhorn Tavern (Pea Ridge), Bull Run (Manassas), and Sharpsburg (Antietam).
 
 

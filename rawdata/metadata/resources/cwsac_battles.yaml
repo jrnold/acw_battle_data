@@ -21,10 +21,8 @@ schema:
     name: battle_name
     title: Battle Name
     type: string
-  - description: '
-
-      Secondary or commonly used names, such as Elkhorn Tavern (Pea Ridge), Bull Run
-      (Manassas), and Sharpsburg (Antietam).'
+  - description: Secondary or commonly used names, such as Elkhorn Tavern (Pea Ridge),
+      Bull Run (Manassas), and Sharpsburg (Antietam).
     format: default
     name: other_names
     title: Other Battle Names

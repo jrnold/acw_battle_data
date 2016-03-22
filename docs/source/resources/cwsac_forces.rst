@@ -17,7 +17,7 @@ Schema
 
 
 ===================  ======  ===================
-battle               string  battle
+battle               string  Battle
 belligerent          string  belligerent
 description          string  description
 strength_min         number  strength_min
@@ -50,12 +50,16 @@ strength_var         number  strength_var
 battle
 ------
 
-:title: battle
+:title: Battle
 :type: string
 :format: default
+:constraints:
+    :minLength: 5
+    :maxLength: 6
+    :pattern: [A-Z]{2}[0-9]{3}[A-Z]?
+    
 
-
-
+CWSAC battle identifier
 
 
        
@@ -65,9 +69,11 @@ belligerent
 :title: belligerent
 :type: string
 :format: default
+:constraints:
+    :enum: ['US', 'Confederate', 'Native American']
+    
 
-
-
+Side of the force: Confederate or Union or Native American.
 
 
        
@@ -79,7 +85,7 @@ description
 :format: default
 
 
-
+Description of the force, often including the units involved.
 
 
        
@@ -91,7 +97,7 @@ strength_min
 :format: default
 
 
-
+Minimum forces engaged.
 
 
        
@@ -103,7 +109,7 @@ strength_max
 :format: default
 
 
-
+Maximum sources engaged.
 
 
        
