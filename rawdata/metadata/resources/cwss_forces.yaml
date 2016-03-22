@@ -23,12 +23,22 @@ schema:
     type: string
   - constraints:
       minimum: 0
+    description: 'Number of troops engaged.
+
+      A value of "0" means missing.
+
+      '
     format: default
     name: TroopsEngaged
     title: Troops engaged
     type: integer
   - constraints:
       minimum: 0
+    description: 'Number of troops engaged.
+
+      A value of "0" can mean *either* missing or that there were zero casualties.
+
+      '
     format: default
     name: Casualties
     title: Casualties

@@ -66,6 +66,8 @@ TroopsEngaged
     :minimum: 0
     
 
+Number of troops engaged.
+A value of "0" means missing.
 
 
 
@@ -80,6 +82,8 @@ Casualties
     :minimum: 0
     
 
+Number of troops engaged.
+A value of "0" can mean *either* missing or that there were zero casualties.
 
 
 

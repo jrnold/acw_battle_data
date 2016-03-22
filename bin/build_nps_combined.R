@@ -5,15 +5,15 @@ BELLIGERENTS <- c("U" = "US", "C" = "Confederate")
 
 #' Fix AAD reference IDs
 aad_to_cwsac_id <- function(x) {
-  plyr::revalue(x, c("AR010A" = "AR010", "GA013A" = "GA013"))
+  plyr::revalue(x, c("AR010A" = "AR010", "GA013A" = "GA013"), warn_missing = FALSE)
 }
 #' Fix CWSACII ids
 cws2_to_cwsac_id <- function(x) {
-  plyr::revalue(x, c("AL002" = "AL009"))
+  plyr::revalue(x, c("AL002" = "AL009"), warn_missing = FALSE)
 }
 #' Fix CWSS ids
 cwss_to_cwsac_id <- function(x) {
-  plyr::revalue(x, c("VA020A" = "VA020", "VA020B" = "VA020"))
+  plyr::revalue(x, c("VA020A" = "VA020", "VA020B" = "VA020"), warn_missing = FALSE)
 }
 
 
@@ -127,6 +127,8 @@ CWSS_RESULTS = c("Union Victory" = "Union",
                  "Confederate Victory (tactical)" = "Confederate",
                  "Confederate Victory" = "Confederate")
 
+
+
 #'
 #' # Battle-Level Data
 #'
@@ -144,8 +146,7 @@ gen_battles <-
 
   nps_battles_cwss <- cwss_battles %>%
     filter(!BattlefieldCode %in% c("VA020A")) %>%
-    mutate(BattlefieldCode =
-             plyr::revalue(BattlefieldCode, c("VA020B" = "VA020")),
+    mutate(BattlefieldCode = cwss_to_cwsac_id(BattlefieldCode),
            BattleName = ifelse(BattlefieldCode == "VA020",
                                "Glendale/White Oak Swamp", BattleName)) %>%
     rename(cwsac_id = BattlefieldCode,
@@ -324,23 +325,26 @@ gen_forces <- function(cwss_forces,
                        cwsac_forces,
                        cws2_forces,
                        extra_forces,
-                       excluded_battles) {
+                       excluded_battles,
+                       cwss_zero_casualties) {
+  
   # Adjust VA020. Only use cas/strength from VA020.
   # Drop AL002, since it refers to a different battle than the Battle of Athens
   cwss_forces_casstr <-
     cwss_forces %>%
     filter(!BattlefieldCode %in% c("VA020A")) %>%
     mutate(BattlefieldCode = cwss_to_cwsac_id(BattlefieldCode)) %>%
-    rename(cwsac_id = BattlefieldCode,
-           cas_kwm_mean_cwss = Casualties,
-           str_mean_cwss = TroopsEngaged) %>%
-    mutate(str_mean_cwss = ifelse(str_mean_cwss == 0, NA_real_, str_mean_cwss),
+    rename(cwsac_id = BattlefieldCode) %>%    
+    left_join(mutate(cwss_zero_casualties, zero_cas = TRUE), by = "cwsac_id") %>%
+    mutate(str_mean_cwss = ifelse(TroopsEngaged == 0, NA_real_, TroopsEngaged),
            str_var_cwss = rounded_var(str_mean_cwss),
+           cas_kwm_mean_cwss = ifelse(Casualties == 0 & is.na(zero_cas), NA_real_, Casualties),
            cas_kwm_var_cwss = rounded_var(cas_kwm_mean_cwss),
            belligerent =
              ifelse(grepl("OK00[1-3]", cwsac_id) &
                       belligerent == "US",
-                    "Native American", belligerent))
+                    "Native American", belligerent)) %>%
+    select(cwsac_id, belligerent, matches("^(cas|str)_"))
 
   cwsac_forces_casstr <-
     cwsac_forces %>%
@@ -358,7 +362,7 @@ gen_forces <- function(cwss_forces,
            cas_w_var_cwsac = rounded_var(cas_w_mean_cwsac),
            cas_m_var_cwsac = rounded_var(cas_m_mean_cwsac),
            cwsac_id = battle) %>%
-    select(cwsac_id, belligerent, matches("(str|cas)_"))
+    select(cwsac_id, belligerent, matches("^(str|cas)_"))
 
   cws2_forces_casstr <-
     cws2_forces %>%
@@ -583,6 +587,8 @@ build <- function(src, dst) {
   cwss_units <- read_csv(file.path(dst, "cwss_regiments_units.csv"))
   cwss_battle_units <-
     read_csv(file.path(dst, "cwss_battle_units.csv"))
+  cwss_zero_casualties <-
+    read_csv(file.path(src, "rawdata", "nps_combined", "zero_casualties.csv"))
 
 
   categories <- read_csv(file.path(dst, "cwss_categories.csv"))
@@ -610,7 +616,8 @@ build <- function(src, dst) {
                cwsac_forces,
                cws2_forces,
                extra_forces,
-               extra_data[["excluded_battles"]])
+               extra_data[["excluded_battles"]],
+               cwss_zero_casualties)
 
   battles <-
     gen_battles(cwss_battles,
