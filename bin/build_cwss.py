@@ -440,6 +440,8 @@ def build(src, dst):
     people_csv(persons, path.join(dst, 'cwss_people.csv'))
     people_keywords_csv(persons, path.join(dst, 'cwss_people_keywords.csv'))    
 
+    # This file includes the "parsed" comments. Number of batteries, companies, detachments, etc. mentioned
+    # in the comments about the unit.
     comments = {}
     with open(path.join(src, 'rawdata', 'cwss', 'battle_units.csv'), 'r') as f:
         reader = csv.DictReader(f)

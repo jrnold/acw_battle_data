@@ -1,15 +1,19 @@
 #!/usr/bin/env Rscript
 source("R/misc.R")
 
-BELLIGERENTS <-c("U" = "US", "C" = "Confederate")
+BELLIGERENTS <- c("U" = "US", "C" = "Confederate")
 
 #' Fix AAD reference IDs
-aad_to_cwsac_id <-function(x) {
+aad_to_cwsac_id <- function(x) {
   plyr::revalue(x, c("AR010A" = "AR010", "GA013A" = "GA013"))
 }
 #' Fix CWSACII ids
-cws2_to_cwsac_id <-function(x) {
+cws2_to_cwsac_id <- function(x) {
   plyr::revalue(x, c("AL002" = "AL009"))
+}
+#' Fix CWSS ids
+cwss_to_cwsac_id <- function(x) {
+  plyr::revalue(x, c("VA020A" = "VA020", "VA020B" = "VA020"))
 }
 
 
@@ -55,7 +59,7 @@ gen_battlelist <-
     full_join(battlelist_aad, by = "cwsac_id") %>%
     mutate(battle_name = pnonmiss(battle_name, battle_name_cwsac,
                                   battle_name_cws2, battle_name_aad)) %>%
-    select(- battle_name_cwsac, - battle_name_cws2, - battle_name_aad) %>%
+    select(-battle_name_cwsac, -battle_name_cws2, -battle_name_aad) %>%
     mutate(cwss = !is.na(cwss),
            cwsac = !is.na(cwsac),
            cws2 = !is.na(cws2),
@@ -155,8 +159,8 @@ gen_battles <-
            summary = Summary,
            cas_kwm_cwss = TotalCasualties,
            cwss_url = URL) %>%
-    select(- Comment, - ID, - State,
-           - matches("summary")) %>%
+    select(-Comment, -ID, -State,
+           -matches("summary")) %>%
     mutate(partof_cwss = TRUE,
            result = plyr::revalue(result, CWSS_RESULTS))
 
@@ -177,8 +181,7 @@ gen_battles <-
            str_cwsac = strength) %>%
     mutate(partof_cwsac = TRUE,
            result_cwsac = plyr::revalue(result_cwsac,
-                                         c("Inconclusive" = "Indecisive")))
-
+                                        c("Inconclusive" = "Indecisive")))
   nps_battles_cws2 <- cws2_battles %>%
     select(battle, url, study_area, core_area, potnr_boundary,
            battle_name, strength) %>%
@@ -235,10 +238,10 @@ gen_battles <-
              str_total = pnonmiss(str_forces, str_cws2, str_cwsac),
              cas_kwm_total = pnonmiss(cas_kwm_forces,
                                       cas_kwm_cwss, cas_kwm_cwsac)) %>%
-      select(- matches("battle_name_(cwsac|cws2|aad)"),
-             - matches("(start|end)_date_cwsac"),
-             - matches("result_cwsac"),
-             - matches("(cas_kwm|str)_(forces|cwsac|cws2|cwss)"))
+      select(-matches("battle_name_(cwsac|cws2|aad)"),
+             -matches("(start|end)_date_cwsac"),
+             -matches("result_cwsac"),
+             -matches("(cas_kwm|str)_(forces|cwsac|cws2|cwss)"))
 
   #' Fill in campaigns and theaters,
   extra_battles <- extra_battles
@@ -327,8 +330,7 @@ gen_forces <- function(cwss_forces,
   cwss_forces_casstr <-
     cwss_forces %>%
     filter(!BattlefieldCode %in% c("VA020A")) %>%
-    mutate(BattlefieldCode =
-             ifelse(BattlefieldCode == "VA020B", "VA020", BattlefieldCode)) %>%
+    mutate(BattlefieldCode = cwss_to_cwsac_id(BattlefieldCode)) %>%
     rename(cwsac_id = BattlefieldCode,
            cas_kwm_mean_cwss = Casualties,
            str_mean_cwss = TroopsEngaged) %>%
@@ -454,18 +456,16 @@ gen_commanders <- function(cwss_commanders,
                     middle_name, middle_initial)
 
   cwss_commanders_ <- cwss_commanders %>%
-    mutate(BattlefieldCode =
-             plyr::revalue(BattlefieldCode,
-                           c("VA020B" = "VA020",
-                             "VA020A" = "VA020")),
+    mutate(BattlefieldCode = cwss_to_cwsac_id(BattlefieldCode),
            belligerent = ifelse(grepl("OK00[1-3]", BattlefieldCode) &
                                 belligerent == "US",
                                 "Native American", belligerent),
            added = FALSE) %>%
+    # These are battles with incorrect commanders
     filter(!BattlefieldCode %in% c("VA068", "VA095")) %>%
     filter(!(BattlefieldCode == "SC009" & belligerent == "US")) %>%
     rename(cwsac_id = BattlefieldCode) %>%
-    bind_rows(select(extra_commanders, - name) %>%
+    bind_rows(select(extra_commanders, -name) %>%
                 mutate(added = TRUE)) %>%
     left_join(people_, by = c("commander" = "person_id"))
 
@@ -521,9 +521,8 @@ gen_battle_units <- function(cwss_battle_units, extra_battle_units) {
                mutate(cwsac_id = k)
            }) %>% bind_rows()
 
-
-
   bind_rows(cwss_battle_units %>%
+              mutate(BattlefieldCode = cwss_to_cwsac_id(BattlefieldCode)) %>%
               rename(cwsac_id = BattlefieldCode,
                      comment = Comment,
                      unit_code = UnitCode,
