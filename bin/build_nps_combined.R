@@ -163,7 +163,8 @@ gen_battles <-
     select(-Comment, -ID, -State,
            -matches("summary")) %>%
     mutate(partof_cwss = TRUE,
-           result = plyr::revalue(result, CWSS_RESULTS))
+           result = plyr::revalue(result, CWSS_RESULTS),
+           cas_kwm_cwss = ifelse(cas_kwm_cwss == 0, NA_real_, cas_kwm_cwss))
 
   nps_battles_cwsac <- cwsac_battles %>%
     filter(!battle %in% c("VA020A", "VA020B")) %>%
@@ -327,7 +328,7 @@ gen_forces <- function(cwss_forces,
                        extra_forces,
                        excluded_battles,
                        cwss_zero_casualties) {
-  
+
   # Adjust VA020. Only use cas/strength from VA020.
   # Drop AL002, since it refers to a different battle than the Battle of Athens
   cwss_forces_casstr <-
@@ -657,6 +658,7 @@ main <- function() {
   arglist <- commandArgs(TRUE)
   src <- arglist[1]
   dst <- arglist[2]
+  stopifnot(!is.na(src) & !is.na(dst))
   build(src, dst)
 }
 

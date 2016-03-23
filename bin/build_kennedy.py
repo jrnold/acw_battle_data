@@ -37,7 +37,7 @@ def forces_csv(src, dst):
                     aggregate = 1
                 except KeyError:
                     aggregate = 0
-                    battles_aggregated = battle
+                    battles_aggregated = battle['battle_id']
                 for belligerent in battle['forces']:
                     row = battle['forces'][belligerent]
                     row['belligerent'] = belligerent
