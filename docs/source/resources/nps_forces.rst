@@ -26,26 +26,26 @@ Schema
 
 
 
-============  ======  ==============================
-cwsac_id      string  CWSAC Id.
-belligerent   string  belligerent
-cas_kwm_mean  number  Casualties (mean)
-cas_k_mean    number  Killed (mean)
-cas_w_mean    number  Wounded (mean)
-cas_m_mean    number  Missing or captured (mean)
-cas_kwm_var   number  Casualties (variance)
-cas_k_var     number  Killed (variance)
-cas_w_var     number  Wounded (variance)
-cas_m_var     number  Missing or captured (variance)
-cas_kw_mean   number  Killed or wounded (mean)
-cas_kw_var    number  Killed or wounded (variance)
-str_mean      number  Personnel (mean)
-str_var       number  Personnel (variance)
-cas_km_mean   number  Killed or missing (mean)
-cas_wm_mean   number  Wounded or missing (mean)
-cas_km_var    number  Killed or missing (variance)
-cas_wm_var    number  Wounded or missing (variance)
-============  ======  ==============================
+===================  ======  ==============================
+cwsac_id             string  CWSAC Id.
+belligerent          string  belligerent
+casualties_kwm_mean  number  Casualties (mean)
+casualties_k_mean    number  Killed (mean)
+casualties_w_mean    number  Wounded (mean)
+casualties_m_mean    number  Missing or captured (mean)
+casualties_kwm_var   number  Casualties (variance)
+casualties_k_var     number  Killed (variance)
+casualties_w_var     number  Wounded (variance)
+casualties_m_var     number  Missing or captured (variance)
+casualties_kw_mean   number  Killed or wounded (mean)
+casualties_kw_var    number  Killed or wounded (variance)
+strength_mean        number  Personnel (mean)
+strength_var         number  Personnel (variance)
+casualties_km_mean   number  Killed or missing (mean)
+casualties_wm_mean   number  Wounded or missing (mean)
+casualties_km_var    number  Killed or missing (variance)
+casualties_wm_var    number  Wounded or missing (variance)
+===================  ======  ==============================
 
 cwsac_id
 --------
@@ -77,8 +77,8 @@ Side of the force: Confederate or Union or Native American.
 
 
        
-cas_kwm_mean
-------------
+casualties_kwm_mean
+-------------------
 
 :title: Casualties (mean)
 :type: number
@@ -91,8 +91,8 @@ Number of casualties (killed, wounded, or missing). Mean estimate.
 
 
        
-cas_k_mean
-----------
+casualties_k_mean
+-----------------
 
 :title: Killed (mean)
 :type: number
@@ -105,8 +105,8 @@ Number killed. Mean estimate.
 
 
        
-cas_w_mean
-----------
+casualties_w_mean
+-----------------
 
 :title: Wounded (mean)
 :type: number
@@ -119,8 +119,8 @@ Number wounded. Mean estimate.
 
 
        
-cas_m_mean
-----------
+casualties_m_mean
+-----------------
 
 :title: Missing or captured (mean)
 :type: number
@@ -133,8 +133,8 @@ Number missing or captured. Mean estimate.
 
 
        
-cas_kwm_var
------------
+casualties_kwm_var
+------------------
 
 :title: Casualties (variance)
 :type: number
@@ -147,8 +147,8 @@ Number of casualties (killed, wounded, or missing). Variance of estimate.
 
 
        
-cas_k_var
----------
+casualties_k_var
+----------------
 
 :title: Killed (variance)
 :type: number
@@ -161,8 +161,8 @@ Number killed. Variance of estimate.
 
 
        
-cas_w_var
----------
+casualties_w_var
+----------------
 
 :title: Wounded (variance)
 :type: number
@@ -175,8 +175,8 @@ Number killed. Variance of estimate.
 
 
        
-cas_m_var
----------
+casualties_m_var
+----------------
 
 :title: Missing or captured (variance)
 :type: number
@@ -189,8 +189,8 @@ Number missing or captured. Variance of estimate.
 
 
        
-cas_kw_mean
------------
+casualties_kw_mean
+------------------
 
 :title: Killed or wounded (mean)
 :type: number
@@ -203,8 +203,8 @@ cas_kw_mean
 
 
        
-cas_kw_var
-----------
+casualties_kw_var
+-----------------
 
 :title: Killed or wounded (variance)
 :type: number
@@ -217,8 +217,8 @@ cas_kw_var
 
 
        
-str_mean
---------
+strength_mean
+-------------
 
 :title: Personnel (mean)
 :type: number
@@ -231,8 +231,8 @@ str_mean
 
 
        
-str_var
--------
+strength_var
+------------
 
 :title: Personnel (variance)
 :type: number
@@ -245,8 +245,8 @@ str_var
 
 
        
-cas_km_mean
------------
+casualties_km_mean
+------------------
 
 :title: Killed or missing (mean)
 :type: number
@@ -259,8 +259,8 @@ cas_km_mean
 
 
        
-cas_wm_mean
------------
+casualties_wm_mean
+------------------
 
 :title: Wounded or missing (mean)
 :type: number
@@ -273,8 +273,8 @@ cas_wm_mean
 
 
        
-cas_km_var
-----------
+casualties_km_var
+-----------------
 
 :title: Killed or missing (variance)
 :type: number
@@ -287,8 +287,8 @@ cas_km_var
 
 
        
-cas_wm_var
-----------
+casualties_wm_var
+-----------------
 
 :title: Wounded or missing (variance)
 :type: number

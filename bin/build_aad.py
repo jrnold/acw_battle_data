@@ -1,13 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Wed Nov 19 07:35:54 2014
-
-Convert events.json to a csv table
-
-@author: jrnold
-"""
-
 import json
 import csv
 import sys
@@ -19,10 +11,10 @@ import urllib.parse
 
 def yn(x):
     return 1 if x.lower() == "y" else 0
-    
+
 def rm_na(x):
     return x if x in "N/A" else None
-    
+
 def tf(x):
     return 1 if x.lower() == "true" else 0
 
@@ -67,15 +59,15 @@ fields = (
     "interpretive_naval",
     # "comments",
     # "dispute",
-    "jim",
-    "ed",
-    "bill",
-    "protected",
-    "percent",
+    "military_jim",
+    "military_ed",
+    "military_bill",
+    "protected_acres",
+    "protected_percent",
     "county",
     # "acreage",
     # "unprotect",
-    "value",
+    "land_value",
     "priority1",
     "url"
 )
@@ -124,24 +116,24 @@ def build(src, dst):
         row["interpretive_naval"] = yn(v["Interpretive Potential: Naval Operations"]["value"])
     #    row["comments"] =  v["Comments"]["meaning"]
     #    row["dispute"] =  v["Dispute"]["meaning"]
-        row["jim"] =  clean_sig(v["Jim"]["value"])
-        row["ed"] =  clean_sig(v["Ed"]["value"])
-        row["bill"] =  clean_sig(v["Bill"]["value"])
-        row["protected"] =  v["Protected"]["value"]
-        row["percent"] =  v["Percent"]["value"]
+        row["military_jim"] =  clean_sig(v["Jim"]["value"])
+        row["military_ed"] =  clean_sig(v["Ed"]["value"])
+        row["military_bill"] =  clean_sig(v["Bill"]["value"])
+        row["protected_acres"] =  v["Protected"]["value"]
+        row["protected_percent"] =  v["Percent"]["value"]
         row["county"] =  v["County"]["value"]
         #row["acreage"] =  v["Acreage"]["value"]
         #row["unprotect"] =  v["Unprotect"]["value"]
-        row["value"] =  v["Value"]["value"]
+        row["land_value"] =  v["Value"]["value"]
         row["priority1"] =  tf(v["Priority1"]["value"])
         rows += [row]
 
-    dst_file = path.join(dst, "aad_battles.csv") 
+    dst_file = path.join(dst, "aad_battles.csv")
     with open(dst_file, 'w') as f:
         writer = csv.DictWriter(f, fields)
-        writer.writeheader()  
+        writer.writeheader()
         writer.writerows(rows)
-    print("Writing: %s" % dst_file)        
+    print("Writing: %s" % dst_file)
 
 def copy_files(src, dst):
     src_file = path.join(src, "rawdata", "aad", "events.json")
@@ -151,7 +143,7 @@ def copy_files(src, dst):
 
 def main():
     print("Building AAD data")
-    src = sys.argv[1] 
+    src = sys.argv[1]
     dst = sys.argv[2]
     build(src, dst)
     copy_files(src, dst)

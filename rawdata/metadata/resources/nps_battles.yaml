@@ -317,8 +317,8 @@ schema:
       total personnel is given, even though the individual Confederate and Union values
       are missing.
     format: default
-    name: str_total
-    title: str_total
+    name: strength
+    title: Strength
     type: number
   - constraints:
       minimum: 0
@@ -326,7 +326,7 @@ schema:
       data from the CWSS and CWSAC sources. For some battle the total personnel is
       given, even though the individual Confederate and Union values are missing.
     format: default
-    name: cas_kwm_total
-    title: cas_kwm_total
+    name: casualties_kwm
+    title: Casualties
     type: number
 title: 'NPS combined data battle data: battles'

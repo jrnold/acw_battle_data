@@ -117,6 +117,10 @@ def build_docs(src, dst, docs, bucket):
     # create docs sources
     sp.check_call([PYTHON, "bin/build_docs.py", src, dst, docs, bucket])
 
+def build_wikipedia(src, dst):
+    print("build_wikipedia")
+    sp.check_call([PYTHON, "bin/build_wikipedia.py", src, dst])
+
 def build(src, dst, docs, bucket):
     if path.exists(dst):
         shutil.rmtree(dst)

@@ -69,8 +69,8 @@ partof_aad                       boolean  partof_aad
 lat                              number   Latitude
 long                             number   Longitude
 state                            string   State
-str_total                        number   str_total
-cas_kwm_total                    number   cas_kwm_total
+strength                         number   Strength
+casualties_kwm                   number   Casualties
 ===============================  =======  ===============================
 
 cwsac_id
@@ -679,10 +679,10 @@ state
 
 
        
-str_total
----------
+strength
+--------
 
-:title: str_total
+:title: Strength
 :type: number
 :format: default
 :constraints:
@@ -693,10 +693,10 @@ Total (Confederate and Union) personnel engaged in the battle. This combines dat
 
 
        
-cas_kwm_total
--------------
+casualties_kwm
+--------------
 
-:title: cas_kwm_total
+:title: Casualties
 :type: number
 :format: default
 :constraints:

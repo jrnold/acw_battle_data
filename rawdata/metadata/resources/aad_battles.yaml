@@ -241,9 +241,21 @@ schema:
     name: interpretive_naval
     title: 'Interpretive Potential: Naval Operations'
     type: boolean
-  - format: default
-    name: jim
-    title: jim
+  - constraints:
+      enum:
+      - A
+      - B
+      - C
+      - D
+    description: Dr. James M. McPherson. The letter in this field is Dr. McPherson's
+      initial opinion regarding the military importance of the event. (Refer to MILITARY
+      above.) An entry was made in this field only when Dr. McPherson disagreed with
+      the first military importance value assigned to the event. Differences of opinion
+      about the military importance of specific battle events were resolved at an
+      October 23, 1992 meeting.
+    format: default
+    name: military_jim
+    title: Military Importance (James McPherson)
     type: string
   - constraints:
       enum:
@@ -258,8 +270,8 @@ schema:
       the military importance of specific battle events were resolved at an October
       23, 1992 meeting.
     format: default
-    name: ed
-    title: Military (Ed)
+    name: military_ed
+    title: Military Importance (Edwin Bearss)
     type: string
   - constraints:
       enum:
@@ -276,8 +288,8 @@ schema:
       the military importance of specific battle events were resolved at an October
       23, 1992 meeting.'
     format: default
-    name: bill
-    title: Military (Bill)
+    name: military_bill
+    title: Military Importance (william_cooper)
     type: string
   - description: '
 
@@ -285,33 +297,30 @@ schema:
       or park status. This field is ill-defined and incomplete. The data may be inaccurate.
       The Commission did not use the data in this field.'
     format: default
-    name: protected
+    name: protected_acres
     title: Protected land area (acres)
     type: number
   - description: Percentage of the land area of the battlefield that is protected.
       This field is ill-defined and incomplete. The data may be inaccurate. The Commission
       did not use the data in this field.
     format: default
-    name: percent
+    name: protected_percent
     title: Protected (percent of land area)
     type: number
-  - description: '
-
-      The county, or counties, in which the battle site is located. In Virginia, incorporated
-      cities are not part of their surrounding jurisdiction. Note: The Commission
-      used its Counties database (counties.dbf) for county information rather than
-      this entry in the events database.'
+  - description: 'The county, or counties, in which the battle site is located. In
+      Virginia, incorporated cities are not part of their surrounding jurisdiction.
+      Note: The Commission used its Counties database (counties.dbf) for county information
+      rather than this entry in the events database.'
     format: default
     name: county
     title: County
     type: string
-  - description: '
-
-      The assessed land value of the battle site. This field is incomplete and the
-      data may be inaccurate. The Commission did not use the data in this field.'
+  - description: The assessed land value of the battle site. This field is incomplete
+      and the data may be inaccurate. The Commission did not use the data in this
+      field.
     format: default
-    name: value
-    title: value
+    name: land_value
+    title: Land value
     type: string
   - description: '"1" = The battle site/event is one of the Commission''s Priority
       One battlefields. "0" = The battle site/event is not one of the Commission''s

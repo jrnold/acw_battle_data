@@ -93,13 +93,13 @@ interpretive_group_behavior      boolean  Interpretive Potential: Exceptional Gr
 interpretive_joint_ops           boolean  Interpretive Potential: Illustrates Joint Operations (Army, Navy)
 interpretive_coop_armies         boolean  Interpretive Potential: Illustrates Cooperation of Separate Military Departments or Armies
 interpretive_naval               boolean  Interpretive Potential: Naval Operations
-jim                              string   jim
-ed                               string   Military (Ed)
-bill                             string   Military (Bill)
-protected                        number   Protected land area (acres)
-percent                          number   Protected (percent of land area)
+military_jim                     string   Military Importance (James McPherson)
+military_ed                      string   Military Importance (Edwin Bearss)
+military_bill                    string   Military Importance (william_cooper)
+protected_acres                  number   Protected land area (acres)
+protected_percent                number   Protected (percent of land area)
 county                           string   County
-value                            string   value
+land_value                       string   Land value
 priority1                        boolean  priority1
 url                              string   url
 ===============================  =======  ===================================================================================================
@@ -507,22 +507,24 @@ interpretive_naval
 
 
        
-jim
----
+military_jim
+------------
 
-:title: jim
+:title: Military Importance (James McPherson)
 :type: string
 :format: default
+:constraints:
+    :enum: ['A', 'B', 'C', 'D']
+    
 
-
-
+Dr. James M. McPherson. The letter in this field is Dr. McPherson's initial opinion regarding the military importance of the event. (Refer to MILITARY above.) An entry was made in this field only when Dr. McPherson disagreed with the first military importance value assigned to the event. Differences of opinion about the military importance of specific battle events were resolved at an October 23, 1992 meeting.
 
 
        
-ed
---
+military_ed
+-----------
 
-:title: Military (Ed)
+:title: Military Importance (Edwin Bearss)
 :type: string
 :format: default
 :constraints:
@@ -533,10 +535,10 @@ Dr. Edwin C. Bearss. The letter in this field is Mr. Bearss 'initial opinion reg
 
 
        
-bill
-----
+military_bill
+-------------
 
-:title: Military (Bill)
+:title: Military Importance (william_cooper)
 :type: string
 :format: default
 :constraints:
@@ -548,8 +550,8 @@ Dr. William J. Cooper, Jr.. The letter in this field is Dr. Cooper's initial opi
 
 
        
-protected
----------
+protected_acres
+---------------
 
 :title: Protected land area (acres)
 :type: number
@@ -561,8 +563,8 @@ The number of acres of the battle site that are protected; for example, by easem
 
 
        
-percent
--------
+protected_percent
+-----------------
 
 :title: Protected (percent of land area)
 :type: number
@@ -581,18 +583,16 @@ county
 :format: default
 
 
-
 The county, or counties, in which the battle site is located. In Virginia, incorporated cities are not part of their surrounding jurisdiction. Note: The Commission used its Counties database (counties.dbf) for county information rather than this entry in the events database.
 
 
        
-value
------
+land_value
+----------
 
-:title: value
+:title: Land value
 :type: string
 :format: default
-
 
 
 The assessed land value of the battle site. This field is incomplete and the data may be inaccurate. The Commission did not use the data in this field.
