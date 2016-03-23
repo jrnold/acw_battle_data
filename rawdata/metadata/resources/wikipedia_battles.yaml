@@ -1,0 +1,18 @@
+format: csv
+name: wikipedia_battles
+path: data/wikipedia_battles.csv
+schema:
+  fields:
+  - format: default
+    name: battle
+    title: battle
+    type: string
+  - format: default
+    name: id
+    title: id
+    type: number
+  - format: default
+    name: cwsac_id
+    title: cwsac_id
+    type: string
+title: wikipedia_battles

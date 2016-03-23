@@ -9,9 +9,7 @@ import yaml
 BATTLE_FIELDS = (
     'battle',
     'id',
-    'strength',
-    'casualties',
-    'notes'
+    'cwsac_id'
 )
 
 FORCES_FIELDS = (
@@ -65,13 +63,20 @@ def var_to_range(x, k):
 
 def forces_csv(data, filename):
     with open(filename, 'w') as f:
-        writer = csv.DictWriter(f, FORCES_FIELDS)
+        writer = csv.DictWriter(f, FORCES_FIELDS, extrasaction='ignore')
         writer.writeheader()
         for battle, battledata in sorted(data.items()):
             for force, forcedata in (battledata['belligerents'].items()):
                 row = forcedata.copy()
                 row['battle'] = battle
-                row['belligerent'] = force
+                if force == 'US':
+                    row['belligerent'] = 'US'
+                elif force == 'CS':
+                    row['belligerent'] = 'Confederate'
+                elif force == 'I':
+                    row['belligerent'] = 'Native American'
+                else:
+                    raise Exception('%s is not a valid belligerent' % force)
                 for k in ('strength', 'casualties', 'killed', 'wounded', 'missing',
                           'captured', 'killed_wounded', 'wounded_missing',
                           'captured_missing'):
@@ -80,7 +85,7 @@ def forces_csv(data, filename):
 
 def battles_csv(data, filename):
     with open(filename, 'w') as f:
-        writer = csv.DictWriter(f, BATTLE_FIELDS)
+        writer = csv.DictWriter(f, BATTLE_FIELDS, extrasaction='ignore')
         writer.writeheader()
         for battle, battledata in sorted(data.items()):
             row = battledata.copy()
@@ -88,20 +93,13 @@ def battles_csv(data, filename):
             del row['belligerents']
             writer.writerow(row)
 
-def tocsv(src, dst):
-    srcfile = path.join(src, "wiki_casualties.yaml")
-    with open(srcfile, "r") as f:
-        data = yaml.load(f)
-    battles_csv(data, path.join(dst, "wikipedia_battles.csv"))
-    forces_csv(data, path.join(dst, "wikipedia_forces.csv"))
-
-def copyfiles(src, dst):
-    shutil.copy(path.join(src, "wikipedia_to_cwsac.csv"), dst)
 
 def build(src, dst):
     srcdir = path.join(src, "rawdata", "en.wikipedia.org")
-    tocsv(srcdir, dst)
-    copyfiles(srcdir, dst)
+    with open(path.join(srcdir, 'wikipedia_casualties.yaml'), 'r') as f:
+        data = yaml.load(f)
+    battles_csv(data, path.join(dst, 'wikipedia_battles.csv'))
+    forces_csv(data, path.join(dst, 'wikipedia_forces.csv'))
 
 def main():
     src, dst = sys.argv[1:3]

@@ -95,4 +95,6 @@ Resource                                                                        
 `ships_in_battles.csv <resources/ships_in_battles.html>`__                            Ships in battles
 `thorpe_engagements.csv <resources/thorpe_engagements.html>`__                        Locations of engagements from Washington Post map, "Battles and casualties of the American Civil War"
 `unit_sizes.csv <resources/unit_sizes.html>`__                                        Distributions of personnel in units
+`wikipedia_battles.csv <resources/wikipedia_battles.html>`__                          wikipedia_battles
+`wikipedia_forces.csv <resources/wikipedia_forces.html>`__                            wikipedia_forces
 ====================================================================================  ===================================================================================================================

@@ -145,6 +145,7 @@ def build(src, dst, docs, bucket):
     build_cdb90(src, dst)
     build_ships(src, dst)
     build_civilwarorg(src, dst)
+    build_wikipedia(src, dst)
     build_misc(src, dst)
     build_battlemisc(src, dst)
     # metadata
