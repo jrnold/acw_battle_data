@@ -17,7 +17,7 @@ Schema
 
 
 ====================  ======  ====================
-battle                string  battle
+battle_id             string  battle_id
 belligerent           string  belligerent
 strength_min          number  strength_min
 strength_max          number  strength_max
@@ -39,10 +39,10 @@ captured_missing_min  number  captured_missing_min
 captured_missing_max  number  captured_missing_max
 ====================  ======  ====================
 
-battle
-------
+battle_id
+---------
 
-:title: battle
+:title: battle_id
 :type: string
 :format: default
 

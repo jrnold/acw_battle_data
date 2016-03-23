@@ -7,13 +7,13 @@ from os import path
 import yaml
 
 BATTLE_FIELDS = (
-    'battle',
+    'battle_id',
     'id',
     'cwsac_id'
 )
 
 FORCES_FIELDS = (
-    'battle',
+    'battle_id',
     'belligerent',
     'strength_min',
     'strength_max',
@@ -68,7 +68,7 @@ def forces_csv(data, filename):
         for battle, battledata in sorted(data.items()):
             for force, forcedata in (battledata['belligerents'].items()):
                 row = forcedata.copy()
-                row['battle'] = battle
+                row['battle_id'] = battle
                 if force == 'US':
                     row['belligerent'] = 'US'
                 elif force == 'CS':
@@ -89,7 +89,7 @@ def battles_csv(data, filename):
         writer.writeheader()
         for battle, battledata in sorted(data.items()):
             row = battledata.copy()
-            row['battle'] = battle
+            row['battle_id'] = battle
             del row['belligerents']
             writer.writerow(row)
 

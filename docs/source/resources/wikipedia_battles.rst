@@ -16,16 +16,16 @@ Schema
 
 
 
-========  ======  ========
-battle    string  battle
-id        number  id
-cwsac_id  string  cwsac_id
-========  ======  ========
+=========  ======  =========
+battle_id  string  battle_id
+id         number  id
+cwsac_id   string  cwsac_id
+=========  ======  =========
 
-battle
-------
+battle_id
+---------
 
-:title: battle
+:title: battle_id
 :type: string
 :format: default
 
