@@ -86,7 +86,7 @@ def build(src, dst):
     bib = path.join(metadir, 'sources.yaml')
     replace_all_sources(bib, data)
     with open(path.join(dst, 'datapackage.json'), 'w') as f:
-        json.dump(data, f)
+        json.dump(data, f, indent = 2)
         print("Writing: %s" % path.join(dst, 'datapackage.json'))
 
 def main():
