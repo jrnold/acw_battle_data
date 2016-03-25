@@ -3879,14 +3879,19 @@ Siege_of_Port_Hudson:
       strength: 30000-40000
   cwsac_id: LA010
 Siege_of_Vicksburg:
+  id: 711554904
   belligerents:
     CS:
       captured: 29495
       killed_wounded: 3202
+      casualties: 32697
       strength: '33000'
     US:
       casualties: '4835'
       strength: '77000'
+      killed: 766
+      wounded: 3793
+      missing: 276
   cwsac_id: MS011
 Siege_of_Yorktown_(1862):
   belligerents:
