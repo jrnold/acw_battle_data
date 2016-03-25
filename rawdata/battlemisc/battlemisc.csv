@@ -1,18 +1,18 @@
 cwsac_id,battle_name,attacker,surrender,siege,naval
 AL001,Day's Gap,Confederate,None,0,
 AL002,Athens I,Confederate,None,0,
-AL003,Mobile Bay,US,Confederate complete,1,1
+AL003,Mobile Bay,US,Confederate complete,1,Yes
 AL004,Decatur,Confederate,None,0,
 AL005,Spanish Fort,US,None,1,
 AL006,Fort Blakely,US,Confederate complete,1,
 AL007,Selma,US,Confederate partial,0,
 AL008,Athens II,Confederate,Union complete,0,
 AR001,Pea Ridge,Confederate,None,0,
-AR002,Saint Charles,US,None,0,1
+AR002,Saint Charles,US,None,0,Partial
 AR003,Hill's Plantation,US,None,0,
 AR004,Cane Hill,US,None,0,
 AR005,Prairie Grove,Confederate,None,0,
-AR006,Arkansas Post,US,Confederate complete,0,1
+AR006,Arkansas Post,US,Confederate complete,0,Partial
 AR007,Chalk Bluff,US,None,0,
 AR008,Helena,Confederate,None,0,
 AR009,Devil's Backbone,Confederate,None,0,
@@ -27,13 +27,13 @@ AR017,Old River Lake,US,None,0,
 AR018,Bayou Meto,US,None,0,
 DC001,Fort Stevens,Confederate,None,0,
 FL001,Santa Rosa Island,Confederate,None,0,
-FL002,Tampa,US,None,0,1
+FL002,Tampa,US,None,0,Yes
 FL003,Saint John's Bluff,US,None,0,
-FL004,Fort Brooke,US,None,0,1
+FL004,Fort Brooke,US,None,0,Partial
 FL005,Olustee,US,None,0,
 FL006,Natural Bridge,US,None,0,
 GA001,Fort Pulaski,US,Confederate complete,0,
-GA002,Fort McAllister I,US,None,0,1
+GA002,Fort McAllister I,US,None,0,Yes
 GA003,Davis' Cross Roads,Confederate,None,0,
 GA004,Chickamauga,Confederate,None,0,
 GA005,Ringgold Gap,US,None,0,
@@ -74,7 +74,7 @@ KY008,Munfordville,Confederate,Union complete,0,
 KY009,Perryville,US,None,0,
 KY010,Paducah,Confederate,None,0,
 KY011,Cynthiana,Confederate,None,0,
-LA001,Forts Jackson and St. Philip,US,Confederate complete,0,1
+LA001,Forts Jackson and St. Philip,US,Confederate complete,0,Yes
 LA002,New Orleans,US,None,0,
 LA003,Baton Rouge,Confederate,None,0,
 LA004,Donaldsonville I,US,None,0,
@@ -115,7 +115,7 @@ MO008,Springfield I,US,None,0,
 MO009,Belmont,US,None,0,
 MO010,Mount Zion Church,US,None,0,
 MO011,Roan's Tan Yard,US,None,0,
-MO012,New Madrid/Island No. 10,US,Confederate complete,1,1
+MO012,New Madrid/Island No. 10,US,Confederate complete,1,Partial
 MO013,Kirksville,US,None,0,
 MO014,Independence I,Confederate,Union complete,0,
 MO015,Lone Jack,US,None,0,
@@ -149,10 +149,10 @@ MS013,Okolona,Confederate,None,0,
 MS014,Brice's Cross Roads,Confederate,None,0,
 MS015,Tupelo,Confederate,None,0,
 MS016,Siege of Corinth,US,None,1,
-NC001,Hatteras Inlet Batteries,US,Confederate complete,0,1
-NC002,Roanoke Island,US,Confederate complete,0,1
-NC003,New Berne,US,None,0,
-NC004,Fort Macon,US,Confederate complete,1,1
+NC001,Hatteras Inlet Batteries,US,Confederate complete,0,Partial
+NC002,Roanoke Island,US,Confederate complete,0,Partial
+NC003,New Berne,US,None,0,Partial
+NC004,Fort Macon,US,Confederate complete,1,Partial
 NC005,South Mills,US,None,0,
 NC006,Tranter's Creek,US,None,0,
 NC007,Kinston,US,None,0,
@@ -160,10 +160,10 @@ NC008,White Hall,US,None,0,
 NC009,Goldsborough Bridge,US,None,0,
 NC010,Fort Anderson,Confederate,None,0,
 NC011,Washington,Confederate,None,1,
-NC012,Plymouth,Confederate,Union complete,0,1
-NC013,Albemarle Sound,Confederate,None,0,1
-NC014,Fort Fisher I,US,None,1,1
-NC015,Fort Fisher II,US,Confederate complete,0,1
+NC012,Plymouth,Confederate,Union complete,0,Partial
+NC013,Albemarle Sound,Confederate,None,0,Yes
+NC014,Fort Fisher I,US,None,1,Partial
+NC015,Fort Fisher II,US,Confederate complete,0,Partial
 NC016,Wilmington,US,None,0,
 NC017,Wyse Fork,US,None,0,
 NC018,Monroe's Cross Roads,US,None,0,
@@ -182,21 +182,21 @@ OK006,Cabin Creek,US,None,0,
 OK007,Honey Springs,US,None,0,
 PA001,Hanover,Confederate,None,0,
 PA002,Gettysburg,Confederate,None,0,
-SC001,Fort Sumter I,Confederate,None,1,1
+SC001,Fort Sumter I,Confederate,None,1,Partial
 SC002,Secessionville,US,None,0,
 SC003,Simmon's Bluff,US,None,0,
-SC004,Charleston Harbor I,US,None,0,1
+SC004,Charleston Harbor I,US,None,0,Yes
 SC005,Fort Wagner I,US,None,0,
 SC006,Grimball's Landing,Confederate,None,0,
-SC007,Fort Wagner II,US,None,1,1
-SC008,Fort Sumter II,US,None,1,1
-SC009,Charleston Harbor II,US,None,0,1
+SC007,Fort Wagner II,US,None,1,Partial
+SC008,Fort Sumter II,US,None,1,Partial
+SC009,Charleston Harbor II,US,None,0,Partial
 SC010,Honey Hill,US,None,0,
 SC011,Rivers' Bridge,US,None,0,
-TN001,Fort Henry,US,None,0,1
-TN002,Fort Donelson,US,Confederate complete,0,1
+TN001,Fort Henry,US,None,0,Partial
+TN002,Fort Donelson,US,Confederate complete,0,Partial
 TN003,Shiloh,Confederate,None,0,
-TN004,Memphis I,US,None,0,1
+TN004,Memphis I,US,None,0,Yes
 TN005,Chattanooga I,US,None,0,
 TN006,Murfreesboro I,Confederate,Union complete,0,
 TN007,Hatchie's Bridge (Davis Bridge),Confederate,None,0,
@@ -222,7 +222,7 @@ TN026,Bean's Station,Confederate,None,0,
 TN027,Mossy Creek,Confederate,None,0,
 TN028,Dandridge,Confederate,None,0,
 TN029,Fair Garden,US,None,0,
-TN030,Fort Pillow,Confederate,Union complete,0,1
+TN030,Fort Pillow,Confederate,Union complete,0,Partial
 TN031,Memphis II,Confederate,Union partial,0,
 TN032,Johnsonville,Confederate,None,0,
 TN033,Bull's Gap,Confederate,Union partial,0,
@@ -231,23 +231,23 @@ TN035,Spring Hill,Confederate,None,0,
 TN036,Franklin II,Confederate,None,0,
 TN037,Murfreesboro II,Confederate,None,0,
 TN038,Nashville,US,None,0,
-TX001,Sabine Pass I,US,None,0,1
-TX002,Galveston I,US,None,0,1
-TX003,Galveston II,Confederate,Union complete,0,1
+TX001,Sabine Pass I,US,None,0,Partial
+TX002,Galveston I,US,None,0,Yes
+TX003,Galveston II,Confederate,Union complete,0,Yes
 TX005,Palmito Ranch,US,None,0,
-TX006,Sabine Pass II,US,None,0,1
-VA001,Sewell's Point,US,None,0,1
-VA002,Aquia Creek,US,None,0,1
+TX006,Sabine Pass II,US,None,0,Partial
+VA001,Sewell's Point,US,None,0,Yes
+VA002,Aquia Creek,US,None,0,Yes
 VA003,Big Bethel,US,None,0,
 VA004,Blackburn's Ford,US,None,0,
 VA005,Manassas I,US,None,0,
 VA006,Balls Bluff,US,Union partial,0,
 VA007,Dranesville,US,None,0,
-VA008,Hampton Roads,Confederate,None,0,1
+VA008,Hampton Roads,Confederate,None,0,Yes
 VA009,Yorktown,US,None,1,
 VA010,Williamsburg,US,None,0,
 VA011,Eltham's Landing,Confederate,None,0,
-VA012,Drewry's Bluff,US,None,0,1
+VA012,Drewry's Bluff,US,None,0,Yes
 VA013,Hanover Courthouse,Confederate,None,0,
 VA014,Seven Pines,Confederate,None,0,
 VA015,Oak Grove,US,None,0,
@@ -333,7 +333,7 @@ VA096,Appomattox Station,US,None,0,
 VA097,Appomattox Courthouse,Confederate,Confederate complete,0,
 VA098,Petersburg I,US,None,0,
 VA099,Trevilian Station,US,None,0,
-VA100,Cockpit Point,US,None,0,1
+VA100,Cockpit Point,US,None,0,Yes
 VA101,Kernstown I,Confederate,None,0,
 VA102,McDowell,US,None,0,
 VA103,Front Royal,Confederate,Union partial,0,

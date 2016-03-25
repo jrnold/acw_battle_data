@@ -30,8 +30,8 @@ cwsac_id     string   CWSAC Id.
 battle_name  string   Battle name
 attacker     string   Attacker
 surrender    string   Surrender
-siege        integer  siege
-naval        number   naval
+siege        boolean  siege
+naval        string   naval
 ===========  =======  ===========
 
 cwsac_id
@@ -92,7 +92,7 @@ siege
 -----
 
 :title: siege
-:type: integer
+:type: boolean
 :format: default
 
 
@@ -104,11 +104,13 @@ naval
 -----
 
 :title: naval
-:type: number
+:type: string
 :format: default
+:constraints:
+    :enum: ['Yes', 'No', 'Partial']
+    
 
-
-
+Was this a naval battles? "Yes" if at least one of the side's forces consisted of only ships, e.g. ship vs. ship battles or ship vs. land fortifications. If "Partial", then land forces were involved on both sides, but ships were part of at least one side's forces. If "No", then no naval forces were involved.
 
 
        

@@ -40,11 +40,20 @@ schema:
   - format: default
     name: siege
     title: siege
-    type: integer
-  - format: default
+    type: boolean
+  - constraints:
+      enum:
+      - 'Yes'
+      - 'No'
+      - Partial
+    description: Was this a naval battles? "Yes" if at least one of the side's forces
+      consisted of only ships, e.g. ship vs. ship battles or ship vs. land fortifications.
+      If "Partial", then land forces were involved on both sides, but ships were part
+      of at least one side's forces. If "No", then no naval forces were involved.
+    format: default
     name: naval
     title: naval
-    type: number
+    type: string
 sources:
 - jrnold
 title: Miscellaneous battle data

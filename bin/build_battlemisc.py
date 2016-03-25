@@ -5,8 +5,8 @@ import pandas as pd
 
 def build(src, dst):
     data = pd.read_csv(src)
-    for i in ('siege', 'naval'):
-        data[i] = data[i].fillna(0)
+    data['siege'] = data['siege'].fillna(0)
+    data['naval'] = data['naval'].fillna('No')
     data.to_csv(dst, index = False)
 
 def main():
