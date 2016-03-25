@@ -1777,6 +1777,7 @@ Battle_of_Johnsonville:
       killed: 2
       strength: null
       wounded: 9
+      missing: 0
     US:
       captured: 150
       gunboats: 3
@@ -3663,17 +3664,20 @@ Second_Battle_of_Chattanooga:
       casualties: null
   cwsac_id: TN018
 Second_Battle_of_Corinth:
+  id: 710228128
   belligerents:
     CS:
       captured_missing: 1763
       killed: 473
       strength: '22000'
       wounded: 1997
+      casualties: 4233
     US:
       killed: 355
       missing: 324
       strength: '23000'
       wounded: 1841
+      casualties: 2520
   cwsac_id: MS002
 Second_Battle_of_Dalton:
   belligerents:
