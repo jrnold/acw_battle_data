@@ -1,6 +1,7 @@
 - battles_cwsac:
   - battle_name: Fort Sumter I
     cwsac_id: SC001
+    other_names: ''
   battles_from:
   - battle_id: '5300'
     battle_name: 'April 12-14: Bombardment of Fort Sumpter, and surrender'
@@ -9,6 +10,7 @@
   - battle_name: Sewell's Point
     cwsac_id: VA001
     end_date: 1861-05-19
+    other_names: ''
     start_date: 1861-05-18
     state:
     - VA
@@ -20,6 +22,7 @@
   - battle_name: Philippi
     cwsac_id: WV001
     end_date: 1861-06-03
+    other_names: Philippi Races
     start_date: 1861-06-03
     state:
     - WV
@@ -31,6 +34,7 @@
   - battle_name: Big Bethel
     cwsac_id: VA003
     end_date: 1861-06-10
+    other_names: Bethel Church; Great Bethel
     start_date: 1861-06-10
     state:
     - VA
@@ -42,6 +46,7 @@
   - battle_name: Boonville
     cwsac_id: MO001
     end_date: 1861-06-17
+    other_names: First Battle of Boonville
     start_date: 1861-06-17
     state:
     - MO
@@ -53,6 +58,7 @@
   - battle_name: Hoke's Run
     cwsac_id: WV002
     end_date: 1861-07-02
+    other_names: Falling Waters; Hainesville
     start_date: 1861-07-02
     state:
     - WV
@@ -64,6 +70,7 @@
   - battle_name: Carthage
     cwsac_id: MO002
     end_date: 1861-07-05
+    other_names: ''
     start_date: 1861-07-05
     state:
     - MO
@@ -75,6 +82,7 @@
   - battle_name: Rich Mountain
     cwsac_id: WV003
     end_date: 1861-07-11
+    other_names: ''
     start_date: 1861-07-11
     state:
     - WV
@@ -86,6 +94,7 @@
   - battle_name: Blackburn's Ford
     cwsac_id: VA004
     end_date: 1861-07-18
+    other_names: Bull Run
     start_date: 1861-07-18
     state:
     - VA
@@ -98,6 +107,7 @@
   - battle_name: Manassas I
     cwsac_id: VA005
     end_date: 1861-07-21
+    other_names: First Bull Run
     start_date: 1861-07-21
     state:
     - VA
@@ -109,6 +119,7 @@
   - battle_name: Wilson's Creek
     cwsac_id: MO004
     end_date: 1861-08-10
+    other_names: Oak Hills
     start_date: 1861-08-10
     state:
     - MO
@@ -120,6 +131,7 @@
   - battle_name: Kessler's Cross Lanes
     cwsac_id: WV004
     end_date: 1861-08-26
+    other_names: Cross Lanes
     start_date: 1861-08-26
     state:
     - WV
@@ -131,6 +143,7 @@
   - battle_name: Hatteras Inlet Batteries
     cwsac_id: NC001
     end_date: 1861-08-29
+    other_names: Forts Clark and Hatteras
     start_date: 1861-08-28
     state:
     - NC
@@ -142,6 +155,7 @@
   - battle_name: Dry Wood Creek
     cwsac_id: MO005
     end_date: 1861-09-02
+    other_names: Big Dry Wood Creek; Battle of the Mules
     start_date: 1861-09-02
     state:
     - MO
@@ -153,6 +167,7 @@
   - battle_name: Carnifex Ferry
     cwsac_id: WV006
     end_date: 1861-09-10
+    other_names: ''
     start_date: 1861-09-10
     state:
     - WV
@@ -164,6 +179,7 @@
   - battle_name: Cheat Mountain
     cwsac_id: WV005
     end_date: 1861-09-15
+    other_names: Cheat Mountain Summit
     start_date: 1861-09-12
     state:
     - WV
@@ -175,6 +191,7 @@
   - battle_name: Lexington I
     cwsac_id: MO006
     end_date: 1861-09-20
+    other_names: Battle of the Hemp Bales
     start_date: 1861-09-13
     state:
     - MO
@@ -189,6 +206,7 @@
   - battle_name: Liberty
     cwsac_id: MO003
     end_date: 1861-09-17
+    other_names: Blue Mills Landing; Blue Mills
     start_date: 1861-09-17
     state:
     - MO
@@ -200,6 +218,7 @@
   - battle_name: Barbourville
     cwsac_id: KY001
     end_date: 1861-09-19
+    other_names: ''
     start_date: 1861-09-19
     state:
     - KY
@@ -211,6 +230,7 @@
   - battle_name: Greenbrier River
     cwsac_id: WV007
     end_date: 1861-10-03
+    other_names: Camp Bartow
     start_date: 1861-10-03
     state:
     - WV
@@ -222,6 +242,7 @@
   - battle_name: Santa Rosa Island
     cwsac_id: FL001
     end_date: 1861-10-09
+    other_names: ''
     start_date: 1861-10-09
     state:
     - FL
@@ -233,6 +254,7 @@
   - battle_name: Camp Wildcat
     cwsac_id: KY002
     end_date: 1861-10-21
+    other_names: Wildcat Mountain
     start_date: 1861-10-21
     state:
     - KY
@@ -244,6 +266,7 @@
   - battle_name: Ball's Bluff
     cwsac_id: VA006
     end_date: 1861-10-21
+    other_names: Harrison's Landing; Leesburg
     start_date: 1861-10-21
     state:
     - MD
@@ -253,11 +276,11 @@
     battle_name: 'Oct. 21: Engagement, Ball''s Bluff, Leesburg, Harrison''s Island,
       Conrad''s Ferry'
     year: '1861'
-# TODO
 - battles_cwsac:
   - battle_name: Fredericktown
     cwsac_id: MO007
     end_date: 1861-10-21
+    other_names: ''
     start_date: 1861-10-21
     state:
     - MO
@@ -269,6 +292,7 @@
   - battle_name: Springfield I
     cwsac_id: MO008
     end_date: 1861-10-25
+    other_names: Zagonyi's Charge
     start_date: 1861-10-25
     state:
     - MO
@@ -280,6 +304,7 @@
   - battle_name: Belmont
     cwsac_id: MO009
     end_date: 1861-11-07
+    other_names: ''
     start_date: 1861-11-07
     state:
     - MO
@@ -292,6 +317,7 @@
   - battle_name: Ivy Mountain
     cwsac_id: KY003
     end_date: 1861-11-09
+    other_names: Ivy Creek; Ivy Narrows
     start_date: 1861-11-08
     state:
     - KY
@@ -306,6 +332,7 @@
   - battle_name: Round Mountain
     cwsac_id: OK001
     end_date: 1861-11-19
+    other_names: Round Mountains
     start_date: 1861-11-19
     state:
     - OK
@@ -314,6 +341,7 @@
   - battle_name: Chusto-Talasah
     cwsac_id: OK002
     end_date: 1861-12-09
+    other_names: Caving Banks
     start_date: 1861-12-09
     state:
     - OK
@@ -322,6 +350,7 @@
   - battle_name: Camp Allegheny
     cwsac_id: WV008
     end_date: 1861-12-13
+    other_names: Allegheny Mountain
     start_date: 1861-12-13
     state:
     - WV
@@ -334,6 +363,7 @@
   - battle_name: Rowlett's Station
     cwsac_id: KY004
     end_date: 1861-12-17
+    other_names: Woodsonville; Green River
     start_date: 1861-12-17
     state:
     - KY
@@ -345,6 +375,7 @@
   - battle_name: Dranesville
     cwsac_id: VA007
     end_date: 1861-12-20
+    other_names: ''
     start_date: 1861-12-20
     state:
     - VA
@@ -356,6 +387,7 @@
   - battle_name: Chustenahlah
     cwsac_id: OK003
     end_date: 1861-12-26
+    other_names: ''
     start_date: 1861-12-26
     state:
     - OK
@@ -364,6 +396,7 @@
   - battle_name: Mount Zion Church
     cwsac_id: MO010
     end_date: 1861-12-28
+    other_names: ''
     start_date: 1861-12-28
     state:
     - MO
@@ -375,16 +408,17 @@
   - battle_name: Cockpit Point
     cwsac_id: VA100
     end_date: 1862-01-03
+    other_names: Batteries at Evansport; Freestone Point; Shipping Point
     start_date: 1862-01-03
     state:
     - MD
     - VA
   battles_from: []
-# HERE
 - battles_cwsac:
   - battle_name: Hancock
     cwsac_id: MD001
     end_date: 1862-01-06
+    other_names: Romney Campaign
     start_date: 1862-01-05
     state:
     - WV
@@ -409,6 +443,7 @@
   - battle_name: Roan's Tan Yard
     cwsac_id: MO011
     end_date: 1862-01-08
+    other_names: Silver Creek
     start_date: 1862-01-08
     state:
     - MO
@@ -420,6 +455,7 @@
   - battle_name: Middle Creek
     cwsac_id: KY005
     end_date: 1862-01-10
+    other_names: ''
     start_date: 1862-01-10
     state:
     - KY
@@ -431,6 +467,7 @@
   - battle_name: Mill Springs
     cwsac_id: KY006
     end_date: 1862-01-19
+    other_names: Logan's Cross-Roads; Fishing Creek
     start_date: 1862-01-19
     state:
     - KY
@@ -443,6 +480,7 @@
   - battle_name: Fort Henry
     cwsac_id: TN001
     end_date: 1862-02-06
+    other_names: ''
     start_date: 1862-02-06
     state:
     - KY
@@ -458,6 +496,7 @@
   - battle_name: Roanoke Island
     cwsac_id: NC002
     end_date: 1862-02-08
+    other_names: Fort Huger
     start_date: 1862-02-07
     state:
     - NC
@@ -469,6 +508,7 @@
   - battle_name: Fort Donelson
     cwsac_id: TN002
     end_date: 1862-02-16
+    other_names: ''
     start_date: 1862-02-12
     state:
     - TN
@@ -480,6 +520,7 @@
   - battle_name: Valverde
     cwsac_id: NM001
     end_date: 1862-02-21
+    other_names: ''
     start_date: 1862-02-20
     state:
     - NM
@@ -488,6 +529,7 @@
   - battle_name: New Madrid/Island No. 10
     cwsac_id: MO012
     end_date: 1862-04-08
+    other_names: ''
     start_date: 1862-02-28
     state:
     - MO
@@ -507,6 +549,7 @@
   - battle_name: Pea Ridge
     cwsac_id: AR001
     end_date: 1862-03-08
+    other_names: Elkhorn Tavern
     start_date: 1862-03-06
     state:
     - AR
@@ -519,6 +562,7 @@
   - battle_name: Hampton Roads
     cwsac_id: VA008
     end_date: 1862-03-09
+    other_names: Monitor vs. Virginia (Merrimack); Battle of the Ironclads
     start_date: 1862-03-08
     state:
     - VA
@@ -530,6 +574,7 @@
   - battle_name: New Berne
     cwsac_id: NC003
     end_date: 1862-03-14
+    other_names: ''
     start_date: 1862-03-14
     state:
     - NC
@@ -541,6 +586,7 @@
   - battle_name: Fort Macon
     cwsac_id: NC004
     end_date: 1862-04-26
+    other_names: ''
     start_date: 1862-03-23
     state:
     - NC
@@ -555,6 +601,7 @@
   - battle_name: Kernstown I
     cwsac_id: VA101
     end_date: 1862-03-23
+    other_names: ''
     start_date: 1862-03-23
     state:
     - VA
@@ -566,6 +613,7 @@
   - battle_name: Glorieta Pass
     cwsac_id: NM002
     end_date: 1862-03-28
+    other_names: La Glorieta Pass
     start_date: 1862-03-26
     state:
     - NM
@@ -574,6 +622,7 @@
   - battle_name: Yorktown
     cwsac_id: VA009
     end_date: 1862-05-04
+    other_names: ''
     start_date: 1862-04-05
     state:
     - VA
@@ -585,6 +634,7 @@
   - battle_name: Shiloh
     cwsac_id: TN003
     end_date: 1862-04-07
+    other_names: Pittsburg Landing
     start_date: 1862-04-06
     state:
     - TN
@@ -596,6 +646,7 @@
   - battle_name: Fort Pulaski
     cwsac_id: GA001
     end_date: 1862-04-11
+    other_names: ''
     start_date: 1862-04-10
     state:
     - SC
@@ -608,6 +659,7 @@
   - battle_name: Forts Jackson and Saint Philip
     cwsac_id: LA001
     end_date: 1862-04-28
+    other_names: ''
     start_date: 1862-04-18
     state:
     - LA
@@ -622,6 +674,7 @@
   - battle_name: South Mills
     cwsac_id: NC005
     end_date: 1862-04-19
+    other_names: Camden
     start_date: 1862-04-19
     state:
     - NC
@@ -633,6 +686,7 @@
   - battle_name: New Orleans
     cwsac_id: LA002
     end_date: 1862-05-01
+    other_names: ''
     start_date: 1862-04-25
     state:
     - LA
@@ -644,6 +698,7 @@
   - battle_name: Corinth I
     cwsac_id: MS016
     end_date: 1862-05-30
+    other_names: ''
     start_date: 1862-04-29
     state:
     - MS
@@ -653,6 +708,7 @@
   - battle_name: Williamsburg
     cwsac_id: VA010
     end_date: 1862-05-05
+    other_names: Fort Magruder
     start_date: 1862-05-05
     state:
     - VA
@@ -664,6 +720,7 @@
   - battle_name: Eltham's Landing
     cwsac_id: VA011
     end_date: 1862-05-07
+    other_names: Barhamsville; West Point
     start_date: 1862-05-07
     state:
     - VA
@@ -743,6 +800,7 @@
   - battle_name: McDowell
     cwsac_id: VA102
     end_date: 1862-05-08
+    other_names: Sitlington's Hill
     start_date: 1862-05-08
     state:
     - VA
@@ -754,6 +812,7 @@
   - battle_name: Drewry's Bluff
     cwsac_id: VA012
     end_date: 1862-05-15
+    other_names: Fort Darling; Fort Drewry
     start_date: 1862-05-15
     state:
     - VA
@@ -821,6 +880,7 @@
   - battle_name: Princeton Court House
     cwsac_id: WV009
     end_date: 1862-05-17
+    other_names: Princton Court House; WV
     start_date: 1862-05-15
     state:
     - WV
@@ -832,6 +892,7 @@
   - battle_name: Front Royal
     cwsac_id: VA103
     end_date: 1862-05-23
+    other_names: Guard Hill; Cedarville
     start_date: 1862-05-23
     state:
     - VA
@@ -843,6 +904,7 @@
   - battle_name: Winchester I
     cwsac_id: VA104
     end_date: 1862-05-25
+    other_names: Bowers Hill
     start_date: 1862-05-25
     state:
     - VA
@@ -854,6 +916,7 @@
   - battle_name: Hanover Court House
     cwsac_id: VA013
     end_date: 1862-05-27
+    other_names: Slash Church
     start_date: 1862-05-27
     state:
     - VA
@@ -866,6 +929,7 @@
   - battle_name: Seven Pines
     cwsac_id: VA014
     end_date: 1862-06-01
+    other_names: Fair Oaks; Fair Oaks Station
     start_date: 1862-05-31
     state:
     - VA
@@ -877,6 +941,7 @@
   - battle_name: Tranter's Creek
     cwsac_id: NC006
     end_date: 1862-06-05
+    other_names: ''
     start_date: 1862-06-05
     state:
     - NC
@@ -888,6 +953,7 @@
   - battle_name: Memphis I
     cwsac_id: TN004
     end_date: 1862-06-06
+    other_names: ''
     start_date: 1862-06-06
     state:
     - AR
@@ -900,6 +966,7 @@
   - battle_name: Chattanooga I
     cwsac_id: TN005
     end_date: 1862-06-08
+    other_names: ''
     start_date: 1862-06-07
     state:
     - TN
@@ -911,9 +978,11 @@
   - battle_name: Cross Keys
     cwsac_id: VA105
     end_date: 1862-06-08
+    other_names: ''
     start_date: 1862-06-08
     state:
     - VA
+  battles_from:
   - battle_id: '7235'
     battle_name: 'June 8: Battle of Cross Keys'
     year: '1862'
@@ -921,6 +990,7 @@
   - battle_name: Port Republic
     cwsac_id: VA106
     end_date: 1862-06-09
+    other_names: ''
     start_date: 1862-06-09
     state:
     - VA
@@ -932,6 +1002,7 @@
   - battle_name: Secessionville
     cwsac_id: SC002
     end_date: 1862-06-16
+    other_names: Ft. Lamar; James Island
     start_date: 1862-06-16
     state:
     - SC
@@ -943,6 +1014,7 @@
   - battle_name: Saint Charles
     cwsac_id: AR002
     end_date: 1862-06-17
+    other_names: ''
     start_date: 1862-06-17
     state:
     - AR
@@ -954,6 +1026,7 @@
   - battle_name: Simmon's Bluff
     cwsac_id: SC003
     end_date: 1862-06-21
+    other_names: ''
     start_date: 1862-06-21
     state:
     - SC
@@ -965,6 +1038,7 @@
   - battle_name: Oak Grove
     cwsac_id: VA015
     end_date: 1862-06-25
+    other_names: French's Field; King's School House
     start_date: 1862-06-25
     state:
     - VA
@@ -977,6 +1051,7 @@
   - battle_name: Beaver Dam Creek
     cwsac_id: VA016
     end_date: 1862-06-26
+    other_names: Mechanicsville; Ellerson's Mill
     start_date: 1862-06-26
     state:
     - VA
@@ -989,6 +1064,7 @@
   - battle_name: Gaines' Mill
     cwsac_id: VA017
     end_date: 1862-06-27
+    other_names: First Cold Harbor
     start_date: 1862-06-27
     state:
     - VA
@@ -1004,6 +1080,7 @@
   - battle_name: Garnett's & Golding's Farms
     cwsac_id: VA018
     end_date: 1862-06-28
+    other_names: ''
     start_date: 1862-06-27
     state:
     - VA
@@ -1015,6 +1092,7 @@
   - battle_name: Savage's Station
     cwsac_id: VA019
     end_date: 1862-06-29
+    other_names: ''
     start_date: 1862-06-29
     state:
     - VA
@@ -1026,6 +1104,7 @@
   - battle_name: Tampa
     cwsac_id: FL002
     end_date: 1862-07-01
+    other_names: Yankee Outrage at Tampa
     start_date: 1862-06-30
     state:
     - FL
@@ -1034,6 +1113,8 @@
   - battle_name: Glendale/White Oak Swamp
     cwsac_id: VA020
     end_date: 1862-06-30
+    other_names: Nelson's Farm; Frayser's Farm; Charles City Crossroads; White Oak
+      Swamp; New Market Road; Riddell's Shop
     start_date: 1862-06-30
     state:
     - VA
@@ -1049,6 +1130,7 @@
   - battle_name: Malvern Hill
     cwsac_id: VA021
     end_date: 1862-07-01
+    other_names: Poindexter's Farm
     start_date: 1862-07-01
     state:
     - VA
@@ -1060,6 +1142,7 @@
   - battle_name: Hill's Plantation
     cwsac_id: AR003
     end_date: 1862-07-07
+    other_names: Cache River; Cotton Plant; Round Hill
     start_date: 1862-07-07
     state:
     - AR
@@ -1072,6 +1155,7 @@
   - battle_name: Murfreesboro I
     cwsac_id: TN006
     end_date: 1862-07-13
+    other_names: ''
     start_date: 1862-07-13
     state:
     - TN
@@ -1083,6 +1167,7 @@
   - battle_name: Baton Rouge
     cwsac_id: LA003
     end_date: 1862-08-05
+    other_names: Magnolia Cemetery
     start_date: 1862-08-05
     state:
     - LA
@@ -1094,6 +1179,7 @@
   - battle_name: Kirksville
     cwsac_id: MO013
     end_date: 1862-08-09
+    other_names: ''
     start_date: 1862-08-06
     state:
     - MO
@@ -1199,6 +1285,7 @@
   - battle_name: Donaldsonville I
     cwsac_id: LA004
     end_date: 1862-08-09
+    other_names: ''
     start_date: 1862-08-09
     state:
     - LA
@@ -1220,6 +1307,7 @@
   - battle_name: Cedar Mountain
     cwsac_id: VA022
     end_date: 1862-08-09
+    other_names: Slaughter's Mountain; Cedar Run
     start_date: 1862-08-09
     state:
     - VA
@@ -1267,6 +1355,7 @@
   - battle_name: Independence I
     cwsac_id: MO014
     end_date: 1862-08-11
+    other_names: ''
     start_date: 1862-08-11
     state:
     - MO
@@ -1373,6 +1462,7 @@
   - battle_name: Lone Jack
     cwsac_id: MO015
     end_date: 1862-08-16
+    other_names: ''
     start_date: 1862-08-15
     state:
     - MO
@@ -1437,6 +1527,7 @@
   - battle_name: Fort Ridgley
     cwsac_id: MN001
     end_date: 1862-08-22
+    other_names: ''
     start_date: 1862-08-20
     state:
     - MN
@@ -1459,6 +1550,7 @@
   - battle_name: Rappahannock Station I
     cwsac_id: VA023
     end_date: 1862-08-25
+    other_names: Waterloo Bridge; White Sulphur Springs; Lee Springs; Freeman's Ford
     start_date: 1862-08-22
     state:
     - VA
@@ -1551,6 +1643,7 @@
   - battle_name: Manassas Station Operations
     cwsac_id: VA024
     end_date: 1862-08-27
+    other_names: ''
     start_date: 1862-08-26
     state:
     - VA
@@ -1701,6 +1794,7 @@
   - battle_name: Thoroughfare Gap
     cwsac_id: VA025
     end_date: 1862-08-28
+    other_names: Chapman's Mill
     start_date: 1862-08-28
     state:
     - VA
@@ -1852,6 +1946,8 @@
   - battle_name: Manassas II
     cwsac_id: VA026
     end_date: 1862-08-30
+    other_names: Manassas; Second Bull Run; Manassas Plains; Groveton; Gainesville;
+      Brawner's Farm
     start_date: 1862-08-28
     state:
     - VA
@@ -1981,6 +2077,7 @@
   - battle_name: Richmond
     cwsac_id: KY007
     end_date: 1862-08-30
+    other_names: ''
     start_date: 1862-08-29
     state:
     - KY
@@ -2006,6 +2103,7 @@
   - battle_name: Chantilly
     cwsac_id: VA027
     end_date: 1862-09-01
+    other_names: Ox Hill
     start_date: 1862-09-01
     state:
     - VA
@@ -2092,6 +2190,7 @@
   - battle_name: Harpers Ferry
     cwsac_id: WV010
     end_date: 1862-09-15
+    other_names: ''
     start_date: 1862-09-12
     state:
     - WV
@@ -2196,6 +2295,7 @@
   - battle_name: Munfordville
     cwsac_id: KY008
     end_date: 1862-09-17
+    other_names: Green River Bridge
     start_date: 1862-09-14
     state:
     - KY
@@ -2261,6 +2361,7 @@
   - battle_name: South Mountain
     cwsac_id: MD002
     end_date: 1862-09-14
+    other_names: Crampton's; Turner's; and Fox's Gaps
     start_date: 1862-09-14
     state:
     - MD
@@ -2327,6 +2428,7 @@
   - battle_name: Antietam
     cwsac_id: MD003
     end_date: 1862-09-17
+    other_names: Sharpsburg
     start_date: 1862-09-16
     state:
     - WV
@@ -2383,6 +2485,7 @@
   - battle_name: Shepherdstown
     cwsac_id: WV016
     end_date: 1862-09-20
+    other_names: Boteler's Ford
     start_date: 1862-09-19
     state:
     - WV
@@ -2458,6 +2561,7 @@
   - battle_name: Iuka
     cwsac_id: MS001
     end_date: 1862-09-19
+    other_names: ''
     start_date: 1862-09-19
     state:
     - MS
@@ -2466,6 +2570,7 @@
   - battle_name: Wood Lake
     cwsac_id: MN002
     end_date: 1862-09-23
+    other_names: ''
     start_date: 1862-09-23
     state:
     - MN
@@ -2488,6 +2593,7 @@
   - battle_name: Sabine Pass I
     cwsac_id: TX001
     end_date: 1862-09-25
+    other_names: ''
     start_date: 1862-09-24
     state:
     - TX
@@ -2509,6 +2615,7 @@
   - battle_name: Newtonia I
     cwsac_id: MO016
     end_date: 1862-09-30
+    other_names: ''
     start_date: 1862-09-30
     state:
     - MO
@@ -2572,6 +2679,7 @@
   - battle_name: Saint John's Bluff
     cwsac_id: FL003
     end_date: 1862-10-03
+    other_names: ''
     start_date: 1862-10-01
     state:
     - FL
@@ -2593,6 +2701,7 @@
   - battle_name: Corinth II
     cwsac_id: MS002
     end_date: 1862-10-04
+    other_names: ''
     start_date: 1862-10-03
     state:
     - MS
@@ -2641,6 +2750,7 @@
   - battle_name: Galveston I
     cwsac_id: TX002
     end_date: 1862-10-04
+    other_names: ''
     start_date: 1862-10-04
     state:
     - TX
@@ -2649,6 +2759,7 @@
   - battle_name: Hatchie's Bridge
     cwsac_id: TN007
     end_date: 1862-10-06
+    other_names: Davis Bridge; Matamora
     start_date: 1862-10-06
     state:
     - MS
@@ -2684,6 +2795,7 @@
   - battle_name: Perryville
     cwsac_id: KY009
     end_date: 1862-10-08
+    other_names: ''
     start_date: 1862-10-08
     state:
     - KY
@@ -2749,6 +2861,7 @@
   - battle_name: Old Fort Wayne
     cwsac_id: OK004
     end_date: 1862-10-22
+    other_names: Beatties Prairie; Beaty's Prairie
     start_date: 1862-10-22
     state:
     - AR
@@ -2784,6 +2897,7 @@
   - battle_name: Georgia Landing
     cwsac_id: LA005
     end_date: 1862-10-27
+    other_names: Labadieville; Texana
     start_date: 1862-10-27
     state:
     - LA
@@ -2824,6 +2938,7 @@
   - battle_name: Clark's Mill
     cwsac_id: MO017
     end_date: 1862-11-07
+    other_names: Vera Cruz
     start_date: 1862-11-07
     state:
     - MO
@@ -2872,6 +2987,7 @@
   - battle_name: Cane Hill
     cwsac_id: AR004
     end_date: 1862-11-28
+    other_names: Canehill; Boston Mountains
     start_date: 1862-11-28
     state:
     - AR
@@ -2926,6 +3042,7 @@
   - battle_name: Hartsville
     cwsac_id: TN008
     end_date: 1862-12-07
+    other_names: ''
     start_date: 1862-12-07
     state:
     - TN
@@ -2949,6 +3066,7 @@
   - battle_name: Prairie Grove
     cwsac_id: AR005
     end_date: 1862-12-07
+    other_names: Fayetteville
     start_date: 1862-12-07
     state:
     - AR
@@ -2990,6 +3108,7 @@
   - battle_name: Fredericksburg I
     cwsac_id: VA028
     end_date: 1862-12-15
+    other_names: Marye's Heights
     start_date: 1862-12-11
     state:
     - VA
@@ -3067,6 +3186,7 @@
   - battle_name: Kinston
     cwsac_id: NC007
     end_date: 1862-12-14
+    other_names: ''
     start_date: 1862-12-14
     state:
     - NC
@@ -3141,6 +3261,7 @@
   - battle_name: White Hall
     cwsac_id: NC008
     end_date: 1862-12-16
+    other_names: Whitehall; White Hall Ferry
     start_date: 1862-12-16
     state:
     - NC
@@ -3199,6 +3320,7 @@
   - battle_name: Goldsborough Bridge
     cwsac_id: NC009
     end_date: 1862-12-17
+    other_names: ''
     start_date: 1862-12-17
     state:
     - NC
@@ -3283,6 +3405,7 @@
   - battle_name: Jackson
     cwsac_id: TN009
     end_date: 1862-12-19
+    other_names: ''
     start_date: 1862-12-19
     state:
     - TN
@@ -3331,6 +3454,7 @@
   - battle_name: Chickasaw Bayou
     cwsac_id: MS003
     end_date: 1862-12-29
+    other_names: Chickasaw Bluffs; Walnut Hills
     start_date: 1862-12-26
     state:
     - MS
@@ -3339,6 +3463,7 @@
   - battle_name: Parker's Cross Roads
     cwsac_id: TN011
     end_date: 1862-12-31
+    other_names: ''
     start_date: 1862-12-31
     state:
     - TN
@@ -3417,6 +3542,7 @@
   - battle_name: Stones River
     cwsac_id: TN010
     end_date: 1863-01-02
+    other_names: Murfreesboro
     start_date: 1862-12-31
     state:
     - TN
@@ -3438,6 +3564,7 @@
   - battle_name: Galveston II
     cwsac_id: TX003
     end_date: 1863-01-01
+    other_names: ''
     start_date: 1863-01-01
     state:
     - TX
@@ -3462,6 +3589,7 @@
   - battle_name: Springfield II
     cwsac_id: MO018
     end_date: 1863-01-08
+    other_names: ''
     start_date: 1863-01-08
     state:
     - MO
@@ -3485,6 +3613,7 @@
   - battle_name: Hartville
     cwsac_id: MO019
     end_date: 1863-01-11
+    other_names: ''
     start_date: 1863-01-09
     state:
     - MO
@@ -3521,6 +3650,7 @@
   - battle_name: Arkansas Post
     cwsac_id: AR006
     end_date: 1863-01-11
+    other_names: Fort Hindman
     start_date: 1863-01-09
     state:
     - AR
@@ -3602,6 +3732,7 @@
   - battle_name: Bear River
     cwsac_id: ID001
     end_date: 1863-01-29
+    other_names: Massacre at Boa Ogoi
     start_date: 1863-01-29
     state:
     - ID
@@ -3610,6 +3741,7 @@
   - battle_name: Dover
     cwsac_id: TN012
     end_date: 1863-02-03
+    other_names: Fort Donelson
     start_date: 1863-02-03
     state:
     - TN
@@ -3676,6 +3808,7 @@
   - battle_name: Fort Mcallister I
     cwsac_id: GA002
     end_date: 1863-03-03
+    other_names: ''
     start_date: 1863-02-27
     state:
     - GA
@@ -3684,6 +3817,7 @@
   - battle_name: Thompson's Station
     cwsac_id: TN013
     end_date: 1863-03-05
+    other_names: ''
     start_date: 1863-03-04
     state:
     - TN
@@ -3783,6 +3917,7 @@
   - battle_name: Fort Anderson
     cwsac_id: NC010
     end_date: 1863-03-15
+    other_names: Deep Gully
     start_date: 1863-03-13
     state:
     - NC
@@ -3804,6 +3939,7 @@
   - battle_name: Kelly's Ford
     cwsac_id: VA029
     end_date: 1863-03-17
+    other_names: Kellysville
     start_date: 1863-03-17
     state:
     - VA
@@ -3868,6 +4004,7 @@
   - battle_name: Vaught's Hill
     cwsac_id: TN014
     end_date: 1863-03-20
+    other_names: Milton
     start_date: 1863-03-20
     state:
     - TN
@@ -3904,6 +4041,7 @@
   - battle_name: Brentwood
     cwsac_id: TN015
     end_date: 1863-03-25
+    other_names: ''
     start_date: 1863-03-25
     state:
     - TN
@@ -3942,6 +4080,7 @@
   - battle_name: Washington
     cwsac_id: NC011
     end_date: 1863-04-20
+    other_names: ''
     start_date: 1863-03-30
     state:
     - NC
@@ -4008,6 +4147,7 @@
   - battle_name: Charleston Harbor I
     cwsac_id: SC004
     end_date: 1863-04-07
+    other_names: Fort Sumter
     start_date: 1863-04-07
     state:
     - SC
@@ -4044,6 +4184,7 @@
   - battle_name: Franklin I
     cwsac_id: TN016
     end_date: 1863-04-10
+    other_names: ''
     start_date: 1863-04-10
     state:
     - TN
@@ -4163,6 +4304,7 @@
   - battle_name: Fort Bisland
     cwsac_id: LA006
     end_date: 1863-04-13
+    other_names: Bethel Place
     start_date: 1863-04-12
     state:
     - LA
@@ -4283,6 +4425,7 @@
   - battle_name: Suffolk II
     cwsac_id: VA030
     end_date: 1863-05-14
+    other_names: Norfleet House Battery
     start_date: 1863-04-13
     state:
     - VA
@@ -4344,6 +4487,7 @@
   - battle_name: Irish Bend
     cwsac_id: LA007
     end_date: 1863-04-14
+    other_names: Nerson's Woods; Franklin
     start_date: 1863-04-14
     state:
     - LA
@@ -4473,6 +4617,7 @@
   - battle_name: Vermillion Bayou
     cwsac_id: LA008
     end_date: 1863-04-17
+    other_names: ''
     start_date: 1863-04-17
     state:
     - LA
@@ -4581,6 +4726,7 @@
   - battle_name: Suffolk I
     cwsac_id: VA031
     end_date: 1863-04-19
+    other_names: Fort Huger; Hill's Point
     start_date: 1863-04-19
     state:
     - VA
@@ -4639,6 +4785,7 @@
   - battle_name: Cape Girardeau
     cwsac_id: MO020
     end_date: 1863-04-26
+    other_names: ''
     start_date: 1863-04-26
     state:
     - MO
@@ -4708,6 +4855,7 @@
   - battle_name: Grand Gulf
     cwsac_id: MS004
     end_date: 1863-04-29
+    other_names: ''
     start_date: 1863-04-29
     state:
     - MS
@@ -4766,6 +4914,7 @@
   - battle_name: Snyder's Bluff
     cwsac_id: MS005
     end_date: 1863-05-01
+    other_names: Snyder's Mill
     start_date: 1863-04-29
     state:
     - MS
@@ -4774,6 +4923,7 @@
   - battle_name: Chancellorsville
     cwsac_id: VA032
     end_date: 1863-05-06
+    other_names: ''
     start_date: 1863-04-30
     state:
     - VA
@@ -4878,6 +5028,7 @@
   - battle_name: Day's Gap
     cwsac_id: AL001
     end_date: 1863-04-30
+    other_names: Sand Mountain
     start_date: 1863-04-30
     state:
     - AL
@@ -4930,6 +5081,7 @@
   - battle_name: Port Gibson
     cwsac_id: MS006
     end_date: 1863-05-01
+    other_names: Thompson's Hill
     start_date: 1863-05-01
     state:
     - MS
@@ -4938,6 +5090,7 @@
   - battle_name: Chalk Bluff
     cwsac_id: AR007
     end_date: 1863-05-02
+    other_names: ''
     start_date: 1863-05-01
     state:
     - AR
@@ -4959,6 +5112,7 @@
   - battle_name: Fredericksburg II
     cwsac_id: VA034
     end_date: 1863-05-03
+    other_names: Marye's Heights
     start_date: 1863-05-03
     state:
     - VA
@@ -5251,6 +5405,7 @@
   - battle_name: Salem Church
     cwsac_id: VA033
     end_date: 1863-05-04
+    other_names: Banks' Ford
     start_date: 1863-05-03
     state:
     - VA
@@ -5551,6 +5706,7 @@
   - battle_name: Raymond
     cwsac_id: MS007
     end_date: 1863-05-12
+    other_names: ''
     start_date: 1863-05-12
     state:
     - MS
@@ -5559,6 +5715,7 @@
   - battle_name: Jackson
     cwsac_id: MS008
     end_date: 1863-05-14
+    other_names: ''
     start_date: 1863-05-14
     state:
     - MS
@@ -5567,6 +5724,7 @@
   - battle_name: Champion Hill
     cwsac_id: MS009
     end_date: 1863-05-16
+    other_names: Bakers Creek
     start_date: 1863-05-16
     state:
     - MS
@@ -5575,6 +5733,7 @@
   - battle_name: Big Black River Bridge
     cwsac_id: MS010
     end_date: 1863-05-17
+    other_names: Big Black
     start_date: 1863-05-17
     state:
     - MS
@@ -5583,6 +5742,7 @@
   - battle_name: Vicksburg
     cwsac_id: MS011
     end_date: 1863-07-04
+    other_names: ''
     start_date: 1863-05-18
     state:
     - MS
@@ -5591,6 +5751,7 @@
   - battle_name: Plains Store
     cwsac_id: LA009
     end_date: 1863-05-21
+    other_names: Springfield Road
     start_date: 1863-05-21
     state:
     - LA
@@ -5631,6 +5792,7 @@
   - battle_name: Port Hudson
     cwsac_id: LA010
     end_date: 1863-07-09
+    other_names: ''
     start_date: 1863-05-22
     state:
     - LA
@@ -5677,6 +5839,7 @@
   - battle_name: Milliken's Bend
     cwsac_id: LA011
     end_date: 1863-06-07
+    other_names: ''
     start_date: 1863-06-07
     state:
     - MS
@@ -5741,6 +5904,7 @@
   - battle_name: Brandy Station
     cwsac_id: VA035
     end_date: 1863-06-09
+    other_names: Fleetwood Hill
     start_date: 1863-06-09
     state:
     - VA
@@ -5829,6 +5993,7 @@
   - battle_name: Winchester II
     cwsac_id: VA107
     end_date: 1863-06-15
+    other_names: ''
     start_date: 1863-06-13
     state:
     - VA
@@ -5900,6 +6065,7 @@
   - battle_name: Middleburg
     cwsac_id: VA037
     end_date: 1863-06-19
+    other_names: ''
     start_date: 1863-06-17
     state:
     - VA
@@ -5937,6 +6103,7 @@
   - battle_name: Aldie
     cwsac_id: VA036
     end_date: 1863-06-17
+    other_names: ''
     start_date: 1863-06-17
     state:
     - VA
@@ -6027,6 +6194,7 @@
   - battle_name: LaFourche Crossing
     cwsac_id: LA012
     end_date: 1863-06-21
+    other_names: Lafourche Crossing
     start_date: 1863-06-20
     state:
     - LA
@@ -6089,6 +6257,7 @@
   - battle_name: Upperville
     cwsac_id: VA038
     end_date: 1863-06-21
+    other_names: ''
     start_date: 1863-06-21
     state:
     - VA
@@ -6182,6 +6351,7 @@
   - battle_name: Hoover's Gap
     cwsac_id: TN017
     end_date: 1863-06-26
+    other_names: ''
     start_date: 1863-06-24
     state:
     - TN
@@ -6294,6 +6464,7 @@
   - battle_name: Donaldsonville II
     cwsac_id: LA013
     end_date: 1863-06-28
+    other_names: ''
     start_date: 1863-06-28
     state:
     - LA
@@ -6367,6 +6538,7 @@
   - battle_name: Goddrich's Landing
     cwsac_id: LA014
     end_date: 1863-06-30
+    other_names: The Mounds; Lake Providence
     start_date: 1863-06-29
     state:
     - MS
@@ -6428,6 +6600,7 @@
   - battle_name: Hanover
     cwsac_id: PA001
     end_date: 1863-06-30
+    other_names: ''
     start_date: 1863-06-30
     state:
     - PA
@@ -6479,6 +6652,7 @@
   - battle_name: Cabin Creek
     cwsac_id: OK006
     end_date: 1863-07-02
+    other_names: ''
     start_date: 1863-07-01
     state:
     - OK
@@ -6487,6 +6661,7 @@
   - battle_name: Gettysburg
     cwsac_id: PA002
     end_date: 1863-07-03
+    other_names: ''
     start_date: 1863-07-01
     state:
     - PA
@@ -6560,6 +6735,7 @@
   - battle_name: Helena
     cwsac_id: AR008
     end_date: 1863-07-04
+    other_names: ''
     start_date: 1863-07-04
     state:
     - AR
@@ -6610,6 +6786,7 @@
   - battle_name: Williamsport
     cwsac_id: MD004
     end_date: 1863-07-06
+    other_names: Hagerstown; Falling Waters
     start_date: 1863-07-06
     state:
     - WV
@@ -6680,6 +6857,7 @@
   - battle_name: Boonsboro
     cwsac_id: MD006
     end_date: 1863-07-14
+    other_names: ''
     start_date: 1863-07-08
     state:
     - MD
@@ -6735,6 +6913,7 @@
   - battle_name: Corydon
     cwsac_id: IN001
     end_date: 1863-07-09
+    other_names: ''
     start_date: 1863-07-09
     state:
     - KY
@@ -6765,6 +6944,7 @@
   - battle_name: Fort Wagner I
     cwsac_id: SC005
     end_date: 1863-07-11
+    other_names: First Assault; Morris Island
     start_date: 1863-07-10
     state:
     - SC
@@ -6827,6 +7007,7 @@
   - battle_name: Kock's Plantation
     cwsac_id: LA015
     end_date: 1863-07-15
+    other_names: Cox's Plantation
     start_date: 1863-07-12
     state:
     - LA
@@ -6835,6 +7016,7 @@
   - battle_name: Grimball's Island
     cwsac_id: SC006
     end_date: 1863-07-16
+    other_names: Secessionville; James Island
     start_date: 1863-07-16
     state:
     - SC
@@ -6898,6 +7080,7 @@
   - battle_name: Honey Springs
     cwsac_id: OK007
     end_date: 1863-07-17
+    other_names: Elk Creek; Shaw's Inn
     start_date: 1863-07-17
     state:
     - OK
@@ -6906,6 +7089,7 @@
   - battle_name: Fort Wagner II/Morris Island
     cwsac_id: SC007
     end_date: 1863-07-18
+    other_names: Second Assault; Morris Island
     start_date: 1863-07-18
     state:
     - SC
@@ -6954,6 +7138,7 @@
   - battle_name: Buffington Island
     cwsac_id: OH001
     end_date: 1863-07-19
+    other_names: St. Georges Creek
     start_date: 1863-07-19
     state:
     - OH
@@ -6962,6 +7147,7 @@
   - battle_name: Manassas Gap
     cwsac_id: VA108
     end_date: 1863-07-23
+    other_names: Wapping Heights
     start_date: 1863-07-23
     state:
     - VA
@@ -7045,6 +7231,7 @@
   - battle_name: Big Mound
     cwsac_id: ND001
     end_date: 1863-07-24
+    other_names: ''
     start_date: 1863-07-24
     state:
     - ND
@@ -7053,6 +7240,7 @@
   - battle_name: Dead Buffalo Lake
     cwsac_id: ND002
     end_date: 1863-07-26
+    other_names: ''
     start_date: 1863-07-26
     state:
     - ND
@@ -7061,6 +7249,7 @@
   - battle_name: Salineville
     cwsac_id: OH002
     end_date: 1863-07-26
+    other_names: New Lisbon; New Lisbon Road; Wellsville
     start_date: 1863-07-26
     state:
     - OH
@@ -7069,6 +7258,7 @@
   - battle_name: Stony Lake
     cwsac_id: ND003
     end_date: 1863-07-28
+    other_names: ''
     start_date: 1863-07-28
     state:
     - ND
@@ -7077,6 +7267,7 @@
   - battle_name: Fort Sumter II
     cwsac_id: SC008
     end_date: 1863-09-08
+    other_names: Charleston Harbor; Morris Island
     start_date: 1863-08-17
     state:
     - SC
@@ -7099,6 +7290,7 @@
   - battle_name: Chattanooga II
     cwsac_id: TN018
     end_date: 1863-08-21
+    other_names: ''
     start_date: 1863-08-21
     state:
     - TN
@@ -7208,6 +7400,7 @@
   - battle_name: Lawrence
     cwsac_id: KS001
     end_date: 1863-08-21
+    other_names: Lawrence Massacre
     start_date: 1863-08-21
     state:
     - KS
@@ -7270,6 +7463,7 @@
   - battle_name: Devil's Backbone
     cwsac_id: AR009
     end_date: 1863-09-01
+    other_names: Backbone Mountain
     start_date: 1863-09-01
     state:
     - AR
@@ -7352,6 +7546,7 @@
   - battle_name: Whitestone Hill
     cwsac_id: ND004
     end_date: 1863-09-04
+    other_names: ''
     start_date: 1863-09-03
     state:
     - ND
@@ -7360,6 +7555,7 @@
   - battle_name: Charleston Harbor II
     cwsac_id: SC009
     end_date: 1863-09-08
+    other_names: Battery Gregg; Fort Wagner; Morris Island; Fort Sumter
     start_date: 1863-09-05
     state:
     - SC
@@ -7382,6 +7578,7 @@
   - battle_name: Sabine Pass II
     cwsac_id: TX006
     end_date: 1863-09-08
+    other_names: ''
     start_date: 1863-09-08
     state:
     - TX
@@ -7404,6 +7601,7 @@
   - battle_name: Bayou Fourche
     cwsac_id: AR010
     end_date: 1863-09-10
+    other_names: Little Rock
     start_date: 1863-09-10
     state:
     - AR
@@ -7468,6 +7666,7 @@
   - battle_name: Davis' Cross Roads
     cwsac_id: GA003
     end_date: 1863-09-11
+    other_names: Dug Gap
     start_date: 1863-09-10
     state:
     - GA
@@ -7567,6 +7766,7 @@
   - battle_name: Chickamauga
     cwsac_id: GA004
     end_date: 1863-09-20
+    other_names: ''
     start_date: 1863-09-18
     state:
     - GA
@@ -7729,6 +7929,7 @@
   - battle_name: Blountsville
     cwsac_id: TN019
     end_date: 1863-09-22
+    other_names: ''
     start_date: 1863-09-22
     state:
     - TN
@@ -7946,6 +8147,7 @@
   - battle_name: Stirling's Plantation
     cwsac_id: LA016
     end_date: 1863-09-29
+    other_names: Fordoche Bridge
     start_date: 1863-09-29
     state:
     - LA
@@ -8011,6 +8213,7 @@
   - battle_name: Baxter Springs
     cwsac_id: KS002
     end_date: 1863-10-06
+    other_names: Baxter Springs Massacre
     start_date: 1863-10-06
     state:
     - KS
@@ -8033,6 +8236,7 @@
   - battle_name: Blue Springs
     cwsac_id: TN020
     end_date: 1863-10-10
+    other_names: ''
     start_date: 1863-10-10
     state:
     - TN
@@ -8200,6 +8404,7 @@
   - battle_name: Auburn I
     cwsac_id: VA039
     end_date: 1863-10-13
+    other_names: Catlett's Station; St. Stephen's Church
     start_date: 1863-10-13
     state:
     - VA
@@ -8349,6 +8554,7 @@
   - battle_name: Auburn II
     cwsac_id: VA041
     end_date: 1863-10-14
+    other_names: Coffee Hill
     start_date: 1863-10-14
     state:
     - VA
@@ -8531,6 +8737,7 @@
   - battle_name: Bristoe Station
     cwsac_id: VA040
     end_date: 1863-10-14
+    other_names: ''
     start_date: 1863-10-14
     state:
     - VA
@@ -8713,6 +8920,7 @@
   - battle_name: Fort Brooke
     cwsac_id: FL004
     end_date: 1863-10-18
+    other_names: ''
     start_date: 1863-10-16
     state:
     - FL
@@ -8721,6 +8929,7 @@
   - battle_name: Buckland Mills
     cwsac_id: VA042
     end_date: 1863-10-19
+    other_names: Buckland Races; Chestnut Hill
     start_date: 1863-10-19
     state:
     - VA
@@ -8851,6 +9060,7 @@
   - battle_name: Pine Bluff
     cwsac_id: AR011
     end_date: 1863-10-25
+    other_names: ''
     start_date: 1863-10-25
     state:
     - AR
@@ -8873,6 +9083,7 @@
   - battle_name: Wauhatchie
     cwsac_id: TN021
     end_date: 1863-10-29
+    other_names: Brown's Ferry
     start_date: 1863-10-28
     state:
     - TN
@@ -8980,6 +9191,7 @@
   - battle_name: Collierville
     cwsac_id: TN022
     end_date: 1863-11-03
+    other_names: ''
     start_date: 1863-11-03
     state:
     - TN
@@ -9046,6 +9258,7 @@
   - battle_name: Droop Mountain
     cwsac_id: WV012
     end_date: 1863-11-06
+    other_names: ''
     start_date: 1863-11-06
     state:
     - WV
@@ -9114,6 +9327,7 @@
   - battle_name: Rappahannock Station II
     cwsac_id: VA043
     end_date: 1863-11-07
+    other_names: ''
     start_date: 1863-11-07
     state:
     - VA
@@ -9257,6 +9471,7 @@
   - battle_name: Campbell's Station
     cwsac_id: TN023
     end_date: 1863-11-16
+    other_names: ''
     start_date: 1863-11-16
     state:
     - TN
@@ -9383,6 +9598,7 @@
   - battle_name: Chattanooga III
     cwsac_id: TN024
     end_date: 1863-11-25
+    other_names: ''
     start_date: 1863-11-23
     state:
     - TN
@@ -9591,6 +9807,7 @@
   - battle_name: Mine Run
     cwsac_id: VA044
     end_date: 1863-12-02
+    other_names: Payne's Farm; New Hope Church
     start_date: 1863-11-26
     state:
     - VA
@@ -9648,6 +9865,7 @@
   - battle_name: Ringgold Gap
     cwsac_id: GA005
     end_date: 1863-11-27
+    other_names: ''
     start_date: 1863-11-27
     state:
     - GA
@@ -9676,6 +9894,7 @@
   - battle_name: Fort Sanders
     cwsac_id: TN025
     end_date: 1863-11-29
+    other_names: Fort Loudon
     start_date: 1863-11-29
     state:
     - TN
@@ -9793,6 +10012,7 @@
   - battle_name: Bean's Station
     cwsac_id: TN026
     end_date: 1863-12-14
+    other_names: ''
     start_date: 1863-12-14
     state:
     - TN
@@ -9910,6 +10130,7 @@
   - battle_name: Mossy Creek
     cwsac_id: TN027
     end_date: 1863-12-29
+    other_names: ''
     start_date: 1863-12-29
     state:
     - TN
@@ -9975,6 +10196,7 @@
   - battle_name: Dandridge
     cwsac_id: TN028
     end_date: 1864-01-17
+    other_names: ''
     start_date: 1864-01-17
     state:
     - TN
@@ -10049,6 +10271,7 @@
   - battle_name: Athens
     cwsac_id: AL002
     end_date: 1864-01-26
+    other_names: ''
     start_date: 1864-01-26
     state:
     - AL
@@ -10171,6 +10394,7 @@
   - battle_name: Fair Garden
     cwsac_id: TN029
     end_date: 1864-01-28
+    other_names: ''
     start_date: 1864-01-27
     state:
     - TN
@@ -10329,6 +10553,7 @@
   - battle_name: Morton's Ford
     cwsac_id: VA045
     end_date: 1864-02-07
+    other_names: Rapidan River
     start_date: 1864-02-06
     state:
     - VA
@@ -10459,6 +10684,7 @@
   - battle_name: Middle Boggy Depot
     cwsac_id: OK005
     end_date: 1864-02-13
+    other_names: Middle Boggy
     start_date: 1864-02-13
     state:
     - OK
@@ -10467,6 +10693,7 @@
   - battle_name: Meridian
     cwsac_id: MS012
     end_date: 1864-02-20
+    other_names: ''
     start_date: 1864-02-14
     state:
     - MS
@@ -10475,6 +10702,7 @@
   - battle_name: Olustee
     cwsac_id: FL005
     end_date: 1864-02-20
+    other_names: Ocean Pond
     start_date: 1864-02-20
     state:
     - FL
@@ -10556,6 +10784,7 @@
   - battle_name: Okolona
     cwsac_id: MS013
     end_date: 1864-02-22
+    other_names: ''
     start_date: 1864-02-22
     state:
     - MS
@@ -10564,6 +10793,7 @@
   - battle_name: Dalton I
     cwsac_id: GA006
     end_date: 1864-02-27
+    other_names: ''
     start_date: 1864-02-22
     state:
     - GA
@@ -10608,6 +10838,7 @@
   - battle_name: Walkerton
     cwsac_id: VA125
     end_date: 1864-03-02
+    other_names: Mantapike Hill
     start_date: 1864-03-02
     state:
     - VA
@@ -10700,6 +10931,7 @@
   - battle_name: Fort DeRussy
     cwsac_id: LA017
     end_date: 1864-03-14
+    other_names: ''
     start_date: 1864-03-14
     state:
     - LA
@@ -10783,6 +11015,7 @@
   - battle_name: Paducah
     cwsac_id: KY010
     end_date: 1864-03-25
+    other_names: ''
     start_date: 1864-03-25
     state:
     - KY
@@ -10806,6 +11039,7 @@
   - battle_name: Elkin's Ferry
     cwsac_id: AR012
     end_date: 1864-04-04
+    other_names: Okolona
     start_date: 1864-04-03
     state:
     - AR
@@ -10889,6 +11123,7 @@
   - battle_name: Mansfield
     cwsac_id: LA018
     end_date: 1864-04-08
+    other_names: Sabine Cross-Roads; Pleasant Grove
     start_date: 1864-04-08
     state:
     - LA
@@ -10987,6 +11222,7 @@
   - battle_name: Pleasant Hill
     cwsac_id: LA019
     end_date: 1864-04-09
+    other_names: ''
     start_date: 1864-04-09
     state:
     - LA
@@ -11064,6 +11300,7 @@
   - battle_name: Prairie D'Ane
     cwsac_id: AR013
     end_date: 1864-04-13
+    other_names: Gum Grove; Moscow
     start_date: 1864-04-10
     state:
     - AR
@@ -11144,6 +11381,7 @@
   - battle_name: Fort Pillow
     cwsac_id: TN030
     end_date: 1864-04-12
+    other_names: ''
     start_date: 1864-04-12
     state:
     - TN
@@ -11199,6 +11437,7 @@
   - battle_name: Blair's Landing
     cwsac_id: LA020
     end_date: 1864-04-12
+    other_names: Pleasant Hill Landing
     start_date: 1864-04-12
     state:
     - LA
@@ -11269,6 +11508,7 @@
   - battle_name: Plymouth
     cwsac_id: NC012
     end_date: 1864-04-20
+    other_names: ''
     start_date: 1864-04-17
     state:
     - NC
@@ -11295,6 +11535,7 @@
   - battle_name: Poison Spring
     cwsac_id: AR014
     end_date: 1864-04-18
+    other_names: ''
     start_date: 1864-04-18
     state:
     - AR
@@ -11351,6 +11592,7 @@
   - battle_name: Monett's Ferry
     cwsac_id: LA021
     end_date: 1864-04-23
+    other_names: Cane River Crossing
     start_date: 1864-04-23
     state:
     - LA
@@ -11449,6 +11691,7 @@
   - battle_name: Marks' Mills
     cwsac_id: AR015
     end_date: 1864-04-25
+    other_names: ''
     start_date: 1864-04-25
     state:
     - AR
@@ -11506,6 +11749,7 @@
   - battle_name: Jenkin's Ferry
     cwsac_id: AR016
     end_date: 1864-04-30
+    other_names: ''
     start_date: 1864-04-30
     state:
     - AR
@@ -11564,6 +11808,7 @@
   - battle_name: Albemarle Sound
     cwsac_id: NC013
     end_date: 1864-05-05
+    other_names: ''
     start_date: 1864-05-05
     state:
     - NC
@@ -11626,6 +11871,8 @@
   - battle_name: Wilderness
     cwsac_id: VA046
     end_date: 1864-05-06
+    other_names: Combats at Parker's Store; Craig's Meeting House; Todd's Tavern;
+      Brock Road; the Furnaces
     start_date: 1864-05-05
     state:
     - VA
@@ -11888,6 +12135,7 @@
   - battle_name: Port Walthall Junction
     cwsac_id: VA047
     end_date: 1864-05-07
+    other_names: ''
     start_date: 1864-05-06
     state:
     - VA
@@ -12108,6 +12356,7 @@
   - battle_name: Rocky Face Ridge
     cwsac_id: GA007
     end_date: 1864-05-13
+    other_names: Combats at Buzzard Roost; Mill Creek; Dug Gap
     start_date: 1864-05-07
     state:
     - GA
@@ -12304,6 +12553,10 @@
   - battle_name: Spotsylvania Court House
     cwsac_id: VA048
     end_date: 1864-05-21
+    other_names: Combats at Laurel Hill and Corbin's Bridge (May 8); Ni River (May
+      9); Laurel Hill; Po River; and Bloody Angle (May 10); Salient or Bloody Angle
+      (May 12-13); Piney Branch Church (May 15); Harrison House (May 18); Harris Farm
+      (May 19)
     start_date: 1864-05-08
     state:
     - VA
@@ -12606,6 +12859,7 @@
   - battle_name: Cloyd's Mountain
     cwsac_id: VA049
     end_date: 1864-05-09
+    other_names: ''
     start_date: 1864-05-09
     state:
     - VA
@@ -12959,6 +13213,7 @@
   - battle_name: Swift Creek
     cwsac_id: VA050
     end_date: 1864-05-09
+    other_names: Arrowfield Church
     start_date: 1864-05-09
     state:
     - VA
@@ -13312,6 +13567,7 @@
   - battle_name: Cove Mountain
     cwsac_id: VA109
     end_date: 1864-05-10
+    other_names: ''
     start_date: 1864-05-10
     state:
     - VA
@@ -13681,6 +13937,7 @@
   - battle_name: Chester Station
     cwsac_id: VA051
     end_date: 1864-05-10
+    other_names: ''
     start_date: 1864-05-10
     state:
     - VA
@@ -14050,6 +14307,7 @@
   - battle_name: Yellow Tavern
     cwsac_id: VA052
     end_date: 1864-05-11
+    other_names: ''
     start_date: 1864-05-11
     state:
     - VA
@@ -14062,6 +14320,7 @@
   - battle_name: Proctor's Creek
     cwsac_id: VA053
     end_date: 1864-05-16
+    other_names: Drewry's Bluff; Fort Darling
     start_date: 1864-05-12
     state:
     - VA
@@ -14074,6 +14333,7 @@
   - battle_name: Resaca
     cwsac_id: GA008
     end_date: 1864-05-15
+    other_names: ''
     start_date: 1864-05-13
     state:
     - GA
@@ -14085,18 +14345,19 @@
   - battle_name: New Market
     cwsac_id: VA110
     end_date: 1864-05-15
+    other_names: ''
     start_date: 1864-05-15
     state:
     - VA
   battles_from:
   - battle_id: '8351'
     battle_name: 'May 15: Engagement, New Market'
-
     year: '1864'
 - battles_cwsac:
   - battle_name: Mansura
     cwsac_id: LA022
     end_date: 1864-05-16
+    other_names: Smith's Place; Marksville
     start_date: 1864-05-16
     state:
     - LA
@@ -14105,12 +14366,11 @@
     battle_name: 'May 16: Engagement, Mansura, Belle Prairie, or Smith''s Plantation,
       Marksville'
     year: '1864'
-
-# TODO
 - battles_cwsac:
   - battle_name: Adairsville
     cwsac_id: GA009
     end_date: 1864-05-17
+    other_names: ''
     start_date: 1864-05-17
     state:
     - GA
@@ -14122,6 +14382,7 @@
   - battle_name: Yellow Bayou
     cwsac_id: LA023
     end_date: 1864-05-18
+    other_names: Norwood's Plantation
     start_date: 1864-05-18
     state:
     - LA
@@ -14130,12 +14391,11 @@
     battle_name: 'May 18: Engagement, Yellow Bayou, Bayou de Glaze, Norwood''s Plantation
       or Old Oaks'
     year: '1864'
-
-# TODO
 - battles_cwsac:
   - battle_name: Ware Bottom Church
     cwsac_id: VA054
     end_date: 1864-05-29
+    other_names: ''
     start_date: 1864-05-20
     state:
     - VA
@@ -14181,11 +14441,12 @@
       5th Arty. Union loss, 103 killed, 564 wounded, 273 missing. Total, 940.
     wounded: '564'
     year: '1864'
-
 - battles_cwsac:
   - battle_name: North Anna
     cwsac_id: VA055
     end_date: 1864-05-26
+    other_names: Telegraph Road Bridge; Jericho Mill (May 23); Ox Ford; Quarles Mill;
+      Hanover Junction (May 24)
     start_date: 1864-05-23
     state:
     - VA
@@ -14197,6 +14458,7 @@
   - battle_name: Wilson's Wharf
     cwsac_id: VA056
     end_date: 1864-05-24
+    other_names: Fort Pocahontas
     start_date: 1864-05-24
     state:
     - VA
@@ -14204,11 +14466,11 @@
   - battle_id: '8382'
     battle_name: 'May 24: Action, Wilson''s Wharf Landing'
     year: '1864'
-# TODO
 - battles_cwsac:
   - battle_name: New Hope Church
     cwsac_id: GA010
     end_date: 1864-06-05
+    other_names: ''
     start_date: 1864-05-25
     state:
     - GA
@@ -14217,6 +14479,7 @@
   - battle_name: Pickett's Mill
     cwsac_id: GA012
     end_date: 1864-05-27
+    other_names: New Hope; New Hope Church
     start_date: 1864-05-27
     state:
     - GA
@@ -14228,6 +14491,8 @@
   - battle_name: Totopotomoy Creek
     cwsac_id: VA057
     end_date: 1864-05-30
+    other_names: Bethesda Church; Crumps Creek; Matadequin Creek; Shady Grove Road;
+      Hanovertown
     start_date: 1864-05-28
     state:
     - VA
@@ -14240,6 +14505,7 @@
   - battle_name: Dallas
     cwsac_id: GA011
     end_date: 1864-06-28
+    other_names: New Hope Church; Pumpkinvine Creek
     start_date: 1864-05-28
     state:
     - GA
@@ -14248,6 +14514,7 @@
   - battle_name: Haw's Shop
     cwsac_id: VA058
     end_date: 1864-05-28
+    other_names: Enon Church
     start_date: 1864-05-28
     state:
     - VA
@@ -14259,6 +14526,7 @@
   - battle_name: Old Church
     cwsac_id: VA059
     end_date: 1864-05-30
+    other_names: Matadequin Creek
     start_date: 1864-05-30
     state:
     - VA
@@ -14270,6 +14538,7 @@
   - battle_name: Cold Harbor
     cwsac_id: VA062
     end_date: 1864-06-12
+    other_names: Second Cold Harbor
     start_date: 1864-05-31
     state:
     - VA
@@ -14281,6 +14550,7 @@
   - battle_name: Piedmont
     cwsac_id: VA111
     end_date: 1864-06-05
+    other_names: Piedmont
     start_date: 1864-06-05
     state:
     - VA
@@ -14292,6 +14562,8 @@
   - battle_name: Old River Lake
     cwsac_id: AR017
     end_date: 1864-06-06
+    other_names: Ditch Bayou; Lake Chicot; Lake Village; Furlough; Fish Bayou; Grand
+      Lake
     start_date: 1864-06-06
     state:
     - AR
@@ -14304,6 +14576,7 @@
   - battle_name: Petersburg I
     cwsac_id: VA098
     end_date: 1864-06-09
+    other_names: Old Men and Young Boys
     start_date: 1864-06-09
     state:
     - VA
@@ -14311,16 +14584,15 @@
   - battle_id: '8447'
     battle_name: 'June 9: Engagement, Petersburg'
     year: '1864'
-# TODO
 - battles_cwsac:
   - battle_name: Marietta Operations
     cwsac_id: GA013
     end_date: 1864-07-03
+    other_names: Marietta Operations
     start_date: 1864-06-10
     state:
     - GA
   battles_from:
-    year: '1864'
   - battle_id: '1562'
     battle_name: 'July --: Scout to Pickens County'
     casualties: ''
@@ -14428,6 +14700,7 @@
   - battle_name: Brices Cross Roads
     cwsac_id: MS014
     end_date: 1864-06-10
+    other_names: Tishomingo Creek
     start_date: 1864-06-10
     state:
     - MS
@@ -14436,6 +14709,7 @@
   - battle_name: Trevilian Station
     cwsac_id: VA099
     end_date: 1864-06-12
+    other_names: Trevilians
     start_date: 1864-06-11
     state:
     - VA
@@ -14736,6 +15010,7 @@
   - battle_name: Cynthiana
     cwsac_id: KY011
     end_date: 1864-06-12
+    other_names: Kellar's Bridge
     start_date: 1864-06-11
     state:
     - KY
@@ -14747,6 +15022,7 @@
   - battle_name: Petersburg II
     cwsac_id: VA063
     end_date: 1864-06-18
+    other_names: Assault on Petersburg
     start_date: 1864-06-15
     state:
     - VA
@@ -14758,6 +15034,7 @@
   - battle_name: Lynchburg
     cwsac_id: VA064
     end_date: 1864-06-18
+    other_names: ''
     start_date: 1864-06-17
     state:
     - VA
@@ -14765,11 +15042,11 @@
   - battle_id: '8489'
     battle_name: 'June 17-18: Engagement, Lynchburg'
     year: '1864'
-# TODO
 - battles_cwsac:
   - battle_name: Jerusalem Plank Road
     cwsac_id: VA065
     end_date: 1864-06-23
+    other_names: First Battle of Weldon Railroad
     start_date: 1864-06-21
     state:
     - VA
@@ -14959,6 +15236,7 @@
   - battle_name: Kolb's Farm
     cwsac_id: GA014
     end_date: 1864-06-22
+    other_names: ''
     start_date: 1864-06-22
     state:
     - GA
@@ -14970,6 +15248,7 @@
   - battle_name: Saint Mary's Church
     cwsac_id: VA066
     end_date: 1864-06-24
+    other_names: Nance's Shop
     start_date: 1864-06-24
     state:
     - VA
@@ -14977,11 +15256,11 @@
   - battle_id: '8526'
     battle_name: 'June 24: Engagement, Samaria Church, Saint Mary''s Church'
     year: '1864'
-# TODO
 - battles_cwsac:
   - battle_name: Staunton River Bridge
     cwsac_id: VA113
     end_date: 1864-06-25
+    other_names: Blacks and Whites; Old Men and Young Boys
     start_date: 1864-06-25
     state:
     - VA
@@ -15073,6 +15352,7 @@
   - battle_name: Kennesaw Mountain
     cwsac_id: GA015
     end_date: 1864-06-27
+    other_names: ''
     start_date: 1864-06-27
     state:
     - GA
@@ -15084,6 +15364,7 @@
   - battle_name: Sappony Church
     cwsac_id: VA067
     end_date: 1864-06-28
+    other_names: Stony Creek Depot
     start_date: 1864-06-28
     state:
     - VA
@@ -15095,6 +15376,7 @@
   - battle_name: Ream's Station I
     cwsac_id: VA068
     end_date: 1864-06-29
+    other_names: Reams' Station
     start_date: 1864-06-29
     state:
     - VA
@@ -15102,11 +15384,11 @@
   - battle_id: '8536'
     battle_name: 'June 29: Engagement, Ream''s Station'
     year: '1864'
-
 - battles_cwsac:
   - battle_name: Monocacy
     cwsac_id: MD007
     end_date: 1864-07-09
+    other_names: Battle that Saved Washington
     start_date: 1864-07-09
     state:
     - MD
@@ -15114,11 +15396,11 @@
   - battle_id: '3062'
     battle_name: 'July 9: Battle of Monocacy'
     year: '1864'
-# TODO
 - battles_cwsac:
   - battle_name: Fort Stevens
     cwsac_id: DC001
     end_date: 1864-07-12
+    other_names: Washington
     start_date: 1864-07-11
     state:
     - DC
@@ -15127,15 +15409,16 @@
   - battle_name: Tupelo
     cwsac_id: MS015
     end_date: 1864-07-15
+    other_names: Harrisburg
     start_date: 1864-07-14
     state:
     - MS
   battles_from: []
-# TODO
 - battles_cwsac:
   - battle_name: Cool Spring
     cwsac_id: VA114
     end_date: 1864-07-18
+    other_names: Island Ford; Parkers Ford; Snickers Ferry; Castleman's Ferry
     start_date: 1864-07-17
     state:
     - VA
@@ -15199,11 +15482,11 @@
     text: NEW YORK--13th Cavalry (Detachment).
     wounded: ''
     year: '1864'
-# TODO
 - battles_cwsac:
   - battle_name: Rutherford's Farm
     cwsac_id: VA115
     end_date: 1864-07-20
+    other_names: ''
     start_date: 1864-07-20
     state:
     - VA
@@ -15293,6 +15576,7 @@
   - battle_name: Peachtree Creek
     cwsac_id: GA016
     end_date: 1864-07-20
+    other_names: ''
     start_date: 1864-07-20
     state:
     - GA
@@ -15304,6 +15588,7 @@
   - battle_name: Atlanta
     cwsac_id: GA017
     end_date: 1864-07-22
+    other_names: ''
     start_date: 1864-07-22
     state:
     - GA
@@ -15315,6 +15600,7 @@
   - battle_name: Kernstown II
     cwsac_id: VA116
     end_date: 1864-07-24
+    other_names: ''
     start_date: 1864-07-24
     state:
     - VA
@@ -15326,6 +15612,7 @@
   - battle_name: Deep Bottom I
     cwsac_id: VA069
     end_date: 1864-07-27
+    other_names: Darbytown; Strawberry Plains; New Market Road; Gravel Hill
     start_date: 1864-07-27
     state:
     - VA
@@ -15338,6 +15625,7 @@
   - battle_name: Killdeer Mountain
     cwsac_id: ND005
     end_date: 1864-07-29
+    other_names: Tahkahokuty Mountain
     start_date: 1864-07-28
     state:
     - ND
@@ -15346,6 +15634,7 @@
   - battle_name: Ezra Church
     cwsac_id: GA018
     end_date: 1864-07-28
+    other_names: Battle of the Poor House
     start_date: 1864-07-28
     state:
     - GA
@@ -15357,6 +15646,7 @@
   - battle_name: Crater
     cwsac_id: VA070
     end_date: 1864-07-30
+    other_names: The Mine
     start_date: 1864-07-30
     state:
     - VA
@@ -15364,11 +15654,11 @@
   - battle_id: '8602'
     battle_name: 'July 30: Explosion of Petersburg Mine and assault on the Crater'
     year: '1864'
-# TODO
 - battles_cwsac:
   - battle_name: Folck's Mill
     cwsac_id: MD008
     end_date: 1864-08-01
+    other_names: Cumberland
     start_date: 1864-08-01
     state:
     - MD
@@ -15403,6 +15693,7 @@
   - battle_name: Mobile Bay
     cwsac_id: AL003
     end_date: 1864-08-23
+    other_names: Passing of Forts Morgan and Gaines
     start_date: 1864-08-02
     state:
     - AL
@@ -15417,6 +15708,7 @@
   - battle_name: Utoy Creek
     cwsac_id: GA019
     end_date: 1864-08-07
+    other_names: ''
     start_date: 1864-08-05
     state:
     - GA
@@ -15428,6 +15720,7 @@
   - battle_name: Moorefield
     cwsac_id: WV013
     end_date: 1864-08-07
+    other_names: Oldfields
     start_date: 1864-08-07
     state:
     - WV
@@ -15439,6 +15732,8 @@
   - battle_name: Deep Bottom II
     cwsac_id: VA071
     end_date: 1864-08-20
+    other_names: New Market Road; Fussell's Mill; Bailey's Creek; Charles City Road;
+      and White's Tavern
     start_date: 1864-08-13
     state:
     - VA
@@ -15454,6 +15749,7 @@
   - battle_name: Dalton II
     cwsac_id: GA020
     end_date: 1864-08-15
+    other_names: ''
     start_date: 1864-08-14
     state:
     - GA
@@ -15461,11 +15757,11 @@
   - battle_id: '1645'
     battle_name: 'Aug. 14-15: Actions, Dalton'
     year: '1864'
-
 - battles_cwsac:
   - battle_name: Guard Hill
     cwsac_id: VA117
     end_date: 1864-08-16
+    other_names: Front Royal; Cedarville
     start_date: 1864-08-16
     state:
     - VA
@@ -15477,6 +15773,8 @@
   - battle_name: Globe Tavern
     cwsac_id: VA072
     end_date: 1864-08-21
+    other_names: Second Battle of Weldon Railroad; Yellow Tavern; Yellow House; Blick's
+      Station
     start_date: 1864-08-18
     state:
     - VA
@@ -15489,6 +15787,7 @@
   - battle_name: Lovejoy's Station
     cwsac_id: GA021
     end_date: 1864-08-20
+    other_names: ''
     start_date: 1864-08-20
     state:
     - GA
@@ -15496,11 +15795,11 @@
   - battle_id: '1656'
     battle_name: 'Aug. 20: Combat, Lovejoy Station (Macon and Western R. R.)'
     year: '1864'
-# TODO
 - battles_cwsac:
   - battle_name: Summit Point
     cwsac_id: WV014
     end_date: 1864-08-21
+    other_names: Flowing Springs; Cameron's Depot
     start_date: 1864-08-21
     state:
     - WV
@@ -15659,6 +15958,7 @@
   - battle_name: Memphis II
     cwsac_id: TN031
     end_date: 1864-08-21
+    other_names: ''
     start_date: 1864-08-21
     state:
     - TN
@@ -15670,6 +15970,7 @@
   - battle_name: Ream's Station II
     cwsac_id: VA073
     end_date: 1864-08-25
+    other_names: Reams' Station
     start_date: 1864-08-25
     state:
     - VA
@@ -15681,6 +15982,7 @@
   - battle_name: Smithfield Crossing
     cwsac_id: WV015
     end_date: 1864-08-29
+    other_names: ''
     start_date: 1864-08-28
     state:
     - WV
@@ -15692,6 +15994,7 @@
   - battle_name: Jonesborough
     cwsac_id: GA022
     end_date: 1864-09-01
+    other_names: ''
     start_date: 1864-08-31
     state:
     - GA
@@ -15703,6 +16006,7 @@
   - battle_name: Berryville
     cwsac_id: VA118
     end_date: 1864-09-04
+    other_names: ''
     start_date: 1864-09-03
     state:
     - VA
@@ -15714,6 +16018,7 @@
   - battle_name: Opequon
     cwsac_id: VA119
     end_date: 1864-09-19
+    other_names: Third Winchester
     start_date: 1864-09-19
     state:
     - VA
@@ -15725,6 +16030,7 @@
   - battle_name: Fisher's Hill
     cwsac_id: VA120
     end_date: 1864-09-22
+    other_names: ''
     start_date: 1864-09-21
     state:
     - VA
@@ -15736,6 +16042,7 @@
   - battle_name: Fort Davidson
     cwsac_id: MO021
     end_date: 1864-09-28
+    other_names: Pilot Knob
     start_date: 1864-09-26
     state:
     - MO
@@ -15744,6 +16051,8 @@
   - battle_name: Chaffin's Farm / New Market Heights
     cwsac_id: VA075
     end_date: 1864-09-30
+    other_names: Combats at New Market Heights; Forts Harrison; Johnson; and Gilmer;
+      Laurel Hill
     start_date: 1864-09-29
     state:
     - VA
@@ -15756,6 +16065,8 @@
   - battle_name: Peebles' Farm
     cwsac_id: VA074
     end_date: 1864-10-02
+    other_names: Poplar Springs Church; Wyatt's Farm; Chappell's House; Pegram's Farm;
+      Vaughan Road; Harmon Road
     start_date: 1864-09-30
     state:
     - VA
@@ -15768,6 +16079,7 @@
   - battle_name: Saltville I
     cwsac_id: VA076
     end_date: 1864-10-02
+    other_names: ''
     start_date: 1864-10-02
     state:
     - VA
@@ -15779,6 +16091,7 @@
   - battle_name: Allatoona
     cwsac_id: GA023
     end_date: 1864-10-05
+    other_names: ''
     start_date: 1864-10-05
     state:
     - GA
@@ -15790,6 +16103,7 @@
   - battle_name: Darbytown & New Market Roads
     cwsac_id: VA077
     end_date: 1864-10-07
+    other_names: Johnson's Farm; Fourmile Creek
     start_date: 1864-10-07
     state:
     - VA
@@ -15802,6 +16116,7 @@
   - battle_name: Tom's Brook
     cwsac_id: VA121
     end_date: 1864-10-09
+    other_names: Woodstock Races
     start_date: 1864-10-09
     state:
     - VA
@@ -15814,6 +16129,7 @@
   - battle_name: Darbytown Road
     cwsac_id: VA078
     end_date: 1864-10-13
+    other_names: Alms House
     start_date: 1864-10-13
     state:
     - VA
@@ -15825,6 +16141,7 @@
   - battle_name: Glasgow
     cwsac_id: MO022
     end_date: 1864-10-15
+    other_names: ''
     start_date: 1864-10-15
     state:
     - MO
@@ -15836,6 +16153,7 @@
   - battle_name: Cedar Creek
     cwsac_id: VA122
     end_date: 1864-10-19
+    other_names: Belle Grove
     start_date: 1864-10-19
     state:
     - VA
@@ -15847,6 +16165,7 @@
   - battle_name: Lexington II
     cwsac_id: MO023
     end_date: 1864-10-19
+    other_names: ''
     start_date: 1864-10-19
     state:
     - MO
