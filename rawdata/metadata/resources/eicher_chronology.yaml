@@ -1,0 +1,19 @@
+format: csv
+name: eicher_chronology
+path: data/eicher_chronology.csv
+schema:
+  fields:
+  - format: default
+    name: date
+    title: Date
+    type: date
+  - description: 'Description of the event.
+
+      '
+    format: default
+    name: event
+    title: Event
+    type: string
+sources:
+- Eicher2001
+title: Chronology of Some Important Civil War Dates from Eicher and Eicher (2001)

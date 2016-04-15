@@ -121,6 +121,10 @@ def build_wikipedia(src, dst):
     print("build_wikipedia")
     sp.check_call([PYTHON, "bin/build_wikipedia.py", src, dst])
 
+def build_eicher(src, dst):
+    print("build_eicher")
+    sp.check_call([PYTHON, "bin/build_eicher.py", src, dst])
+
 def build(src, dst, docs, bucket):
     if path.exists(dst):
         shutil.rmtree(dst)
@@ -146,6 +150,7 @@ def build(src, dst, docs, bucket):
     build_ships(src, dst)
     build_civilwarorg(src, dst)
     build_wikipedia(src, dst)
+    build_eicher(src, dst)
     build_misc(src, dst)
     build_battlemisc(src, dst)
     # metadata
