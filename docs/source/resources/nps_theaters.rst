@@ -19,15 +19,31 @@ Schema
 
 
 
-===========  ======  ===========
-TheaterCode  string  TheaterCode
-TheaterName  string  TheaterName
-===========  ======  ===========
+=================  ======  ==================
+TheaterCode        string  Theater Code
+TheaterName        string  Theater Name
+WikipediaCategory  string  Wikipedia Category
+WikipediaPage      string  Wikipedia Page
+=================  ======  ==================
 
 TheaterCode
 -----------
 
-:title: TheaterCode
+:title: Theater Code
+:type: string
+:format: default
+:constraints:
+    :pattern: [A-Z]{2}
+    
+
+CWSS Theater Code
+
+
+       
+TheaterName
+-----------
+
+:title: Theater Name
 :type: string
 :format: default
 
@@ -36,16 +52,30 @@ TheaterCode
 
 
        
-TheaterName
------------
+WikipediaCategory
+-----------------
 
-:title: TheaterName
+:title: Wikipedia Category
 :type: string
 :format: default
 
 
+Title of the English Wikipedia category for the theater.
+
+Sources: 
+
+       
+WikipediaPage
+-------------
+
+:title: Wikipedia Page
+:type: string
+:format: default
 
 
+Title of the English Wikipedia category for the theater.
+
+Sources: 
 
        
 

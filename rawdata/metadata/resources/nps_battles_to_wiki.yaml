@@ -1,0 +1,31 @@
+format: csv
+name: nps_battles_to_wiki
+path: data/nps_battles_to_wiki.csv
+schema:
+  fields:
+  - constraints:
+      pattern: '[A-Z]{3}[0-9]{2}'
+    description: CWSAC ID
+    format: default
+    name: cwsac_id
+    title: CWSAC Id
+    type: string
+  - description: URI of the dbepdia resource for the battle.
+    format: default
+    name: dbpedia_uri
+    title: Dbpedia URI
+    type: url
+  - description: Title of the English Wikipedia page for the battle.
+    format: default
+    name: wikipedia_title
+    title: Wikipedia Page
+    type: string
+  - description: One of "=" for equality, "<" for a subset of, and ">" for a superevent
+      of.
+    format: default
+    name: relation
+    title: relation
+    type: string
+sources:
+- jrnold
+title: NPSA Battles to Dbpedia/Wikipedia Correspondence

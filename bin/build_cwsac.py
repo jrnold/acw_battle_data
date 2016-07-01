@@ -132,7 +132,7 @@ def copy_preservation(src, dst):
 def copy_significance(src, dst):
     shutil.copy(path.join(src, 'significance.csv'),
                 path.join(dst, 'cwsac_significance.csv'))
-    
+
 def copy_theaters(src, dst):
     shutil.copy(path.join(src, 'theaters.csv'),
                 path.join(dst, 'cwsac_theaters.csv'))
@@ -140,10 +140,6 @@ def copy_theaters(src, dst):
 def copy_campaigns(src, dst):
     shutil.copy(path.join(src, 'campaigns.csv'),
                 path.join(dst, 'cwsac_campaigns.csv'))
-
-def copy_cwsac_to_dbpedia(src, dst):
-    shutil.copy(path.join(src, 'cwsac_to_dbpedia.csv'),
-                path.join(dst, 'cwsac_to_dbpedia.csv'))
 
 def copy_json(data, dst):
     with open(path.join(dst, 'cwsac.json'), 'w') as f:
@@ -156,7 +152,7 @@ def build(src, dst):
     for filename in os.listdir(json_dir):
         with open(path.join(json_dir, filename), 'r') as f:
             data[path.splitext(filename)[0]] = json.load(f)
-            
+
     battle_csv(data, path.join(dst, 'cwsac_battles.csv'))
     forces_csv(data, path.join(dst, 'cwsac_forces.csv'))
     commanders_csv(data, path.join(dst, 'cwsac_commanders.csv'))
@@ -173,4 +169,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-                   

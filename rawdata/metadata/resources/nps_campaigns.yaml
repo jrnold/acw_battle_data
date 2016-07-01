@@ -3,28 +3,48 @@ name: nps_campaigns
 path: data/nps_campaigns.csv
 schema:
   fields:
-  - format: default
+  - constraints:
+      pattern: '[A-Z]{2}[0-9]{3}'
+    description: CWSS Campaign Code
+    format: default
     name: CampaignCode
     title: CampaignCode
     type: string
   - format: default
     name: CampaignName
-    title: CampaignName
+    title: Campaign Name
     type: string
-  - format: default
+  - description: Dates of the campaign (as a string)
+    format: default
     name: CampaignDates
     title: CampaignDates
     type: string
   - format: default
     name: CampaignStartDate
-    title: CampaignStartDate
+    title: Start Date
     type: string
   - format: default
     name: CampaignEndDate
-    title: CampaignEndDate
-    type: string
-  - format: default
+    title: End Date
+    type: date
+  - constraints:
+      pattern: '[A-Z]{2}'
+    format: default
     name: TheaterCode
     title: TheaterCode
+    type: string
+  - description: Title of the English Wikipedia page for the campaign
+    format: default
+    name: WikipediaPage
+    source:
+    - jrnold
+    title: Wikipedia Page
+    type: string
+  - description: Title of the English Wikipedia category for the campaign
+    format: default
+    name: WikipediaCategory
+    source:
+    - jrnold
+    title: Wikipedia Category
     type: string
 title: 'NPS combined data battle data: campaigns'

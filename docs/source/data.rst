@@ -7,6 +7,7 @@ Datasets included in this collection:
 ====================================================================================  ===================================================================================================================
 Resource                                                                              Description
 ====================================================================================  ===================================================================================================================
+`cdb90_to_cwsac.json <resources/cdb90_to_cwsac.html>`__                               CDB90 to CWSAC battle links
 `aad_battles.csv <resources/aad_battles.html>`__                                      Records About Civil War Battle Sites, created by the CWSAC, 1990-1993, and deposited with the National Archives AAD
 `aad_events.json <resources/aad_events.html>`__                                       Records About Civil War Battle Sites, created by the CWSAC, 1990-1993, and deposited with the National Archives AAD
 `battlemisc.csv <resources/battlemisc.html>`__                                        Miscellaneous battle data
@@ -17,7 +18,6 @@ Resource                                                                        
 `bodart1908_to_cwsac.json <resources/bodart1908_to_cwsac.html>`__                     Correspondence between Bodart (1908) battles and CWSAC battle IDs
 `bodart1908_to_dbpedia.json <resources/bodart1908_to_dbpedia.html>`__                 Correspondence between Bodart (1908) battles and dbpedia.org resources
 `burdekin_langdana_war_trend.csv <resources/burdekin_langdana_war_trend.html>`__      War Trend from Burdekin and Langdana (1993)
-`cdb90_to_cwsac.json <resources/cdb90_to_cwsac.html>`__                               CDB90 to CWSAC battle links
 `civilwarorg_battles.csv <resources/civilwarorg_battles.html>`__                      Batte data from civilwar.org
 `civilwarorg_commanders.csv <resources/civilwarorg_commanders.html>`__                Commanders in civilwar.org battle data
 `civilwarorg_forces.csv <resources/civilwarorg_forces.html>`__                        Strengths and casualties for forces in the civilwar.org battle data.
@@ -71,6 +71,7 @@ Resource                                                                        
 `nps_battle_units.csv <resources/nps_battle_units.html>`__                            National Park Service combined battle data: Battle in each battle
 `nps_battlelist.csv <resources/nps_battlelist.html>`__                                Comparison of battles in CWSAC AAD, CWSAC Report, CWSAC Updates, and CWSS
 `nps_battles.csv <resources/nps_battles.html>`__                                      NPS combined data battle data: battles
+`nps_battles_to_wiki.csv <resources/nps_battles_to_wiki.html>`__                      NPSA Battles to Dbpedia/Wikipedia Correspondence
 `nps_campaigns.csv <resources/nps_campaigns.html>`__                                  NPS combined data battle data: campaigns
 `nps_commanders.csv <resources/nps_commanders.html>`__                                NPS combined data battle data: commanders
 `nps_forces.csv <resources/nps_forces.html>`__                                        NPS combined data battle data: forces
