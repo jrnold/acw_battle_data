@@ -14,7 +14,7 @@ build <- function(src, dst) {
 
   liv_battles <-
     livrmore %>%
-    select(- matches("^(US|CS)_"), - matches("^commander_")) %>%
+    select(-matches("(US|CS)_.*")) %>%
     arrange(battle_id)
 
   liv_commanders <-
