@@ -84,10 +84,10 @@ def main(args):
 	# parse command line arguments. This is also a nice way to make a self documenting
 	# script.
 	parser = argparse.ArgumentParser(description = "Download full texts of the English Wikipedia pages of battles in CWSAC")
-	parser.add_argument('dst', metavar = "DST", nargs = 1,
-						help = "Destination directory to save the files to")
 	parser.add_argument('rootdir', metavar = "ROOTDIR", nargs = 1,
 						help = "Root directory of the ACW Battles project")
+	parser.add_argument('dst', metavar = "DST", nargs = 1,
+						help = "Destination directory to save the files to")
 	pargs = parser.parse_args(args)
 	download_all_battles(pargs.dst[0], pargs.rootdir[0])
 
