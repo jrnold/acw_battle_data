@@ -1,9 +1,15 @@
 #!/usr/bin/env python3
+"""
+Download and build everything for the ACW Battles data
+
+This is really ugly
+"""
 import os
 from os import path
 import shutil
 import subprocess as sp
 import argparse
+
 
 PYTHON = 'python'
 RSCRIPT = 'Rscript'
@@ -125,8 +131,13 @@ def build_eicher(src, dst):
     print("build_eicher")
     sp.check_call([PYTHON, "bin/build_eicher.py", src, dst])
 
+def download_wikipedia(src, dst):
+    print("build_wikidata")
+    sp.check_call([PYTHON, "bin/download_wikipedia.py", src, path.join(src, 'wikipedia')])
+
 def build(src, dst, docs, bucket):
     if path.exists(dst):
+        print("%s exists; removing %s" % (dst, dst))
         shutil.rmtree(dst)
     os.makedirs(dst)
     build_unit_sizes(src, dst)
@@ -153,6 +164,8 @@ def build(src, dst, docs, bucket):
     build_eicher(src, dst)
     build_misc(src, dst)
     build_battlemisc(src, dst)
+    # Download wikipedia pages for battles
+    download_wikipedia(src, dst)
     # metadata
     build_metadata(src, dst)
     build_datapackage(src, dst)
