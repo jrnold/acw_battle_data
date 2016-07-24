@@ -3,12 +3,29 @@ name: nps_theaters
 path: data/nps_theaters.csv
 schema:
   fields:
-  - format: default
+  - constraints:
+      pattern: '[A-Z]{2}'
+    description: CWSS Theater Code
+    format: default
     name: TheaterCode
-    title: TheaterCode
+    title: Theater Code
     type: string
   - format: default
     name: TheaterName
-    title: TheaterName
+    title: Theater Name
+    type: string
+  - description: Title of the English Wikipedia category for the theater.
+    format: default
+    name: WikipediaCategory
+    sources:
+    - jrnold
+    title: Wikipedia Category
+    type: string
+  - description: Title of the English Wikipedia category for the theater.
+    format: default
+    name: WikipediaPage
+    sources:
+    - jrnold
+    title: Wikipedia Page
     type: string
 title: 'NPS combined data battle data: theaters'

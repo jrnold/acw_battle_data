@@ -556,6 +556,8 @@ filter_categories <- function(x, category_) {
     select(-category)
 }
 
+
+
 #' Build Everything
 build <- function(src, dst) {
   nps_dir <- file.path(src, "rawdata", "nps_combined")
@@ -566,6 +568,8 @@ build <- function(src, dst) {
   extra_data <- yaml.load_file(file.path(nps_dir, "extra.yaml"))
   extra_people <- read_csv(file.path(nps_dir, "people.csv"))
   extra_commanders <- read_csv(file.path(nps_dir, "commanders.csv"))
+  theaters_to_wiki <- read_csv(file.path(nps_dir, "theaters_to_wiki.csv"))
+  campaigns_to_wiki <- read_csv(file.path(nps_dir, "campaigns_to_wiki.csv"))
   latlong <-
     read_csv(file.path(src, "rawdata", "nps_combined", "latlong.csv"))
 
@@ -638,14 +642,31 @@ build <- function(src, dst) {
                 forces,
                 extra_data[["excluded_battles"]])
 
+  theaters <-
+    left_join(cwss_theaters,
+              select(theaters_to_wiki, TheaterCode, WikipediaCategory,
+                     WikipediaPage),
+              by = "TheaterCode")
+
+  campaigns <-
+    left_join(cwss_campaigns,
+              select(campaigns_to_wiki, CampaignCode, WikipediaPage,
+                     WikipediaCategory),
+              by = "CampaignCode")
+
+
   unit_categories_function <- filter_categories(categories, "Function")
   unit_categories_special <- filter_categories(categories, "SCharacter")
   unit_categories_ethnic <- filter_categories(categories, "Ethnic")
   unit_categories_type <- filter_categories(categories, "Unitype")
 
+  # Copy files
+  file.copy(file.path(nps_dir, "battles_to_wiki.csv"),
+            file.path(dst, "nps_battles_to_wiki.csv"))
+
   write_csv(battlelist, file.path(dst, "nps_battlelist.csv"))
-  write_csv(cwss_theaters, file.path(dst, "nps_theaters.csv"))
-  write_csv(cwss_campaigns, file.path(dst, "nps_campaigns.csv"))
+  write_csv(theaters, file.path(dst, "nps_theaters.csv"))
+  write_csv(campaigns, file.path(dst, "nps_campaigns.csv"))
   write_csv(commanders, file.path(dst, "nps_commanders.csv"))
   write_csv(people, file.path(dst, "nps_people.csv"))
   write_csv(units, file.path(dst, "nps_units.csv"))

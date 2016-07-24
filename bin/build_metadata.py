@@ -17,6 +17,7 @@ type_convert = {'int64': 'integer',
         'datetime64': 'datetime',
         'bool': 'boolean'}
 
+IGNORE_FILES = ("datapackage.json", "wikipedia")
 
 def make_metadata(src, yamlfile):
     if path.exists(yamlfile):
@@ -66,14 +67,14 @@ def build_meta(src, dst):
     print("Building metadata")
     metadir = path.join(src, "rawdata", "metadata", "resources")
     for filename in os.listdir(dst):
-        if not filename in ("datapackage.json", ):
+        if not filename in IGNORE_FILES:
             name = path.splitext(filename)[0]
             ymlfile = path.join(metadir, name + '.yaml')
             resfile = path.join(dst, filename)
             meta = make_metadata(resfile, ymlfile)
             with open(ymlfile, 'w') as f:
                 yaml.dump(meta, f, default_flow_style=False, allow_unicode=True)
-                         
+
 
 def main():
     src = sys.argv[1]
@@ -82,6 +83,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-    
-    

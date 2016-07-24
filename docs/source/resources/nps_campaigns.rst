@@ -19,14 +19,16 @@ Schema
 
 
 
-=================  ======  =================
+=================  ======  ==================
 CampaignCode       string  CampaignCode
-CampaignName       string  CampaignName
+CampaignName       string  Campaign Name
 CampaignDates      string  CampaignDates
-CampaignStartDate  string  CampaignStartDate
-CampaignEndDate    string  CampaignEndDate
+CampaignStartDate  string  Start Date
+CampaignEndDate    date    End Date
 TheaterCode        string  TheaterCode
-=================  ======  =================
+WikipediaPage      string  Wikipedia Page
+WikipediaCategory  string  Wikipedia Category
+=================  ======  ==================
 
 CampaignCode
 ------------
@@ -34,16 +36,18 @@ CampaignCode
 :title: CampaignCode
 :type: string
 :format: default
+:constraints:
+    :pattern: [A-Z]{2}[0-9]{3}
+    
 
-
-
+CWSS Campaign Code
 
 
        
 CampaignName
 ------------
 
-:title: CampaignName
+:title: Campaign Name
 :type: string
 :format: default
 
@@ -60,14 +64,14 @@ CampaignDates
 :format: default
 
 
-
+Dates of the campaign (as a string)
 
 
        
 CampaignStartDate
 -----------------
 
-:title: CampaignStartDate
+:title: Start Date
 :type: string
 :format: default
 
@@ -79,8 +83,8 @@ CampaignStartDate
 CampaignEndDate
 ---------------
 
-:title: CampaignEndDate
-:type: string
+:title: End Date
+:type: date
 :format: default
 
 
@@ -94,9 +98,35 @@ TheaterCode
 :title: TheaterCode
 :type: string
 :format: default
+:constraints:
+    :pattern: [A-Z]{2}
+    
 
 
 
+
+       
+WikipediaPage
+-------------
+
+:title: Wikipedia Page
+:type: string
+:format: default
+
+
+Title of the English Wikipedia page for the campaign
+
+
+       
+WikipediaCategory
+-----------------
+
+:title: Wikipedia Category
+:type: string
+:format: default
+
+
+Title of the English Wikipedia category for the campaign
 
 
        
