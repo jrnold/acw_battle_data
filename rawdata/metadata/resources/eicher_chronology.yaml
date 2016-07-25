@@ -14,6 +14,14 @@ schema:
     name: event
     title: Event
     type: string
+  - format: default
+    name: superevent
+    title: superevent
+    type: string
+  - format: default
+    name: subevent
+    title: subevent
+    type: string
 sources:
 - Eicher2001
 title: Chronology of Some Important Civil War Dates from Eicher and Eicher (2001)

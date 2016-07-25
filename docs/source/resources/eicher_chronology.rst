@@ -33,10 +33,12 @@ Schema
 
 
 
-=====  ======  =====
-date   date    Date
-event  string  Event
-=====  ======  =====
+==========  ======  ==========
+date        date    Date
+event       string  Event
+superevent  string  superevent
+subevent    string  subevent
+==========  ======  ==========
 
 date
 ----
@@ -59,6 +61,30 @@ event
 
 
 Description of the event.
+
+
+
+       
+superevent
+----------
+
+:title: superevent
+:type: string
+:format: default
+
+
+
+
+
+       
+subevent
+--------
+
+:title: subevent
+:type: string
+:format: default
+
+
 
 
 
