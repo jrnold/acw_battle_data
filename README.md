@@ -19,6 +19,12 @@ For python dependencies create and activate a [conda](http://conda.pydata.org/do
 conda env create -f environment.yml
 ```
 
+If you are using Windows, then run the following command instead.
+
+```shell
+conda env create -f environment_win64.yml
+```
+
 R package dependencies are managed using packrat
 
 Additional dependencies
