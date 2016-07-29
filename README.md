@@ -19,7 +19,7 @@ For python dependencies create and activate a [conda](http://conda.pydata.org/do
 conda env create -f environment.yml
 ```
 
-If you are using Windows, then run the following command instead.
+If you are using Windows 64bit, run the following command instead. It will allow you to download the correct packages from other Anaconda channels.
 
 ```shell
 conda env create -f environment_win64.yml
