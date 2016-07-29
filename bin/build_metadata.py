@@ -39,6 +39,7 @@ def make_metadata(src, yamlfile):
 
     if meta['format'] == "csv":
         fields = dict((x['name'], x) for x in meta['schema']['fields'])
+        print(src)
         data = pandas.read_csv(src)
         # Remake fields
         # - fixes changes in field order
