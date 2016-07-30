@@ -17,17 +17,22 @@ The `--recursive` argument is needed because this repository depends on several 
 If you did not originally clone the repository with this argument, you can initialize
 the submodules with
 ```console
-$ git submodule --init
+$ git submodule init
 ```
 The submodules are initialized if the sub-directories of `dependencies` (e.g. `dependencies/cwss`) are not empty.
 
 Before starting, a copy of the [Civil War Soldiers and Sailors Database](https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm) needs to be installed. This is not included in the repository directly since it is several gigs.
+
 ```console
 $ cd dependencies/cwss
-$ python download.py
+$ python aws.py download
 ```
 See the instructions in `dependencies/cwss/README.md` for more detailed instructions;
-this step requires installing the [AWS command line interface](https://aws.amazon.com/cli/).
+this step requires installing the [AWS command line interface](https://aws.amazon.com/cli/). You do not need to configure credentials in order to download the data using AWS-CLI.
+
+```console
+$ pip install awscli
+```
 
 To build the data, run the following from the main directory
 ```shell
