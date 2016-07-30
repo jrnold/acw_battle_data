@@ -31,7 +31,7 @@ battle_fields = (#'belligerents',
 
 def battle_csv(data, filename):
     # keys = set()
-    with open(filename, 'w') as f:
+    with open(filename, 'w', encoding='utf8') as f:
         writer = csv.DictWriter(f, battle_fields)
         writer.writeheader()
         for battle, battle_data in sorted(data.items()):
@@ -68,7 +68,7 @@ forces_fields = ('battle',
 
 def forces_csv(data, filename):
     # fields = set()
-    with open(filename, 'w') as f:
+    with open(filename, 'w', encoding='utf8') as f:
         writer = csv.DictWriter(f, forces_fields)
         writer.writeheader()
         for battle, battle_data in data.items():
@@ -88,7 +88,7 @@ commanders_fields = ('battle', 'belligerent', 'fullname', 'rank',
                      'last_name', 'first_name', 'middle_name', 'suffix')
 
 def commanders_csv(data, filename):
-    with open(filename, 'w') as f:
+    with open(filename, 'w', encoding='utf8') as f:
         writer = csv.DictWriter(f, commanders_fields)
         writer.writeheader()
         for battle, battle_data in sorted(data.items()):
@@ -100,7 +100,7 @@ def commanders_csv(data, filename):
                     writer.writerow(row)
 
 def dates_csv(data, filename):
-    with open(filename, 'w') as f:
+    with open(filename, 'w', encoding='utf8') as f:
         writer = csv.DictWriter(f, ('battle', 'spell', 'start_date', 'end_date'))
         writer.writeheader()
         for battle, battle_data in sorted(data.items()):
@@ -110,7 +110,7 @@ def dates_csv(data, filename):
                 writer.writerow(row)
 
 def locations_csv(data, filename):
-    with open(filename, 'w') as f:
+    with open(filename, 'w', encoding='utf8') as f:
         writer = csv.DictWriter(f, ('battle', 'state', 'location'))
         writer.writeheader()
         for battle, battle_data in sorted(data.items()):
@@ -124,7 +124,7 @@ def copy_json(src, dst):
     
 def build(src, dst):
     srcdir = path.join(src, "rawdata", "cws2")
-    with open(path.join(srcdir, "cws2.json"), 'r') as f:
+    with open(path.join(srcdir, "cws2.json"), 'r', encoding='utf8') as f:
         data = json.load(f)
     
     battle_csv(data, path.join(dst, 'cws2_battles.csv'))

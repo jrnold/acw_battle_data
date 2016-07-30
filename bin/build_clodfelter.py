@@ -22,7 +22,7 @@ def rename(x, k, j):
         del x[k]
 
 def battles(data, dst, filename):
-    with open(path.join(dst, filename), 'w') as f:
+    with open(path.join(dst, filename), 'w', encoding='utf8') as f:
         fieldnames = ('battle_id', 'theater', 'theater_years', 'start_date', 'end_date', 'result', 'page')
         writer = csv.DictWriter(f, fieldnames, extrasaction = 'ignore')
         writer.writeheader()
@@ -40,7 +40,7 @@ def battles(data, dst, filename):
             writer.writerow(battle)
 
 def commanders(data, dst, filename):
-    with open(path.join(dst, filename), 'w') as f:
+    with open(path.join(dst, filename), 'w', encoding='utf8') as f:
         fieldnames = ('battle_id', 'belligerent', 'commander_number',
                       'PersonID', 'last_name', 'first_name', 'middle_name', 'middle_initial', 'rank', 'navy')
         writer = csv.DictWriter(f, fieldnames)
@@ -103,7 +103,7 @@ def forces(data, dst, filename):
     # misc
     'note'
     )
-    with open(path.join(dst, filename), 'w') as f:
+    with open(path.join(dst, filename), 'w', encoding='utf8') as f:
         fieldnames = ['battle_id', 'belligerent'] + list(fields)
         writer = csv.DictWriter(f, fieldnames)
         writer.writeheader()
@@ -117,7 +117,7 @@ def forces(data, dst, filename):
                 writer.writerow(row)
 
 def cwsac_links(src, dst):
-    with open(src, 'r') as f:
+    with open(src, 'r', encoding='utf8') as f:
         data = yaml.load(f)
     ret = []
     for x in data:
@@ -125,11 +125,11 @@ def cwsac_links(src, dst):
         toadd['battles_from'] = [btl['id'] for btl in x['battles_from']]
         toadd['battles_to'] = [btl['id'] for btl in x['battles_cwsac']]
         ret.append(toadd)
-    with open(dst, 'w') as f:
+    with open(dst, 'w', encoding='utf8') as f:
         json.dump(ret, f)
 
 def dbpedia_links(src, dst):
-    with open(src, 'r') as f:
+    with open(src, 'r', encoding='utf8') as f:
         data = yaml.load(f)
     ret = []
     for x in data:
@@ -137,12 +137,12 @@ def dbpedia_links(src, dst):
         toadd['battles_from'] = [btl['id'] for btl in x['battles_from']]
         toadd['battles_to'] = x['battles_dbpedia']
         ret.append(toadd)
-    with open(dst, 'w') as f:
+    with open(dst, 'w', encoding='utf8') as f:
         json.dump(ret, f)
 
 def build(src, dst):
     srcfile = path.join(src, "rawdata", "clodfelter2008",  'clodfelter.yaml')
-    with open(srcfile, 'r') as f:
+    with open(srcfile, 'r', encoding='utf8') as f:
         data = yaml.load(f)
 
     battles(data, dst, 'clodfelter_battles.csv')

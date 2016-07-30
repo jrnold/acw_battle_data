@@ -54,9 +54,9 @@ def battle_csv(src, dst):
         'category_size',
         'page'
     ]
-    with open(src, 'r') as f:
+    with open(src, 'r', encoding='utf8') as f:
         data = yaml.load(f)
-    with open(dst, 'w') as f:
+    with open(dst, 'w', encoding='utf8') as f:
         writer = csv.DictWriter(f, fields, extrasaction = 'ignore')
         writer.writeheader()
         for row in data:
@@ -109,10 +109,10 @@ fields_forces = (
 )
 
 def forces_csv(src, dst):
-    with open(src, 'r') as f:
+    with open(src, 'r', encoding='utf8') as f:
         data = yaml.load(f)
     fieldnames = fields_forces
-    with open(dst, 'w') as f:
+    with open(dst, 'w', encoding='utf8') as f:
         writer = csv.DictWriter(f, fieldnames, extrasaction = 'ignore')
         writer.writeheader()
         with open(dst, 'w') as f:
@@ -125,7 +125,7 @@ def forces_csv(src, dst):
     print("Writing: %s" % dst)
 
 def commanders_csv(src, dst):
-    with open(src, 'r') as f:
+    with open(src, 'r', encoding='utf8') as f:
         data = yaml.load(f)
     fieldnames = ('battle_id',
                   'belligerent',
@@ -136,7 +136,7 @@ def commanders_csv(src, dst):
                   'suffix',
                   'rank',
                   'dbpedia')
-    with open(dst, 'w') as f:
+    with open(dst, 'w', encoding='utf8') as f:
         writer = csv.DictWriter(f, fieldnames, extrasaction = 'ignore')
         writer.writeheader()
         with open(dst, 'w') as f:
@@ -154,7 +154,7 @@ def commanders_csv(src, dst):
     print("Writing: %s" % dst)
 
 def generals_killed_csv(src, dst):
-    with open(src, 'r') as f:
+    with open(src, 'r', encoding='utf8') as f:
         data = yaml.load(f)
     fieldnames = ('battle_id',
                   'belligerent',
@@ -166,7 +166,7 @@ def generals_killed_csv(src, dst):
                   'rank',
                   'date',
                   'dbpedia')
-    with open(dst, 'w') as f:
+    with open(dst, 'w', encoding='utf8') as f:
         writer = csv.DictWriter(f, fieldnames, extrasaction = 'ignore')
         writer.writeheader()
         with open(dst, 'w') as f:
@@ -185,7 +185,7 @@ def generals_killed_csv(src, dst):
     print("Writing: %s" % dst)
 
 def bodart_to_cwsac(src, dst):
-    with open(src, 'r') as f:
+    with open(src, 'r', encoding='utf8') as f:
         data = yaml.load(f)
     ret = []
     for battle in data:
@@ -193,12 +193,12 @@ def bodart_to_cwsac(src, dst):
             ret.append({'battles_from': [battle['battle_id']],
                         'battles_to': battle['cwsac']['ids'],
                         'relation': battle['cwsac']['relation']})
-    with open(dst, 'w') as f:
+    with open(dst, 'w', encoding='utf8') as f:
         json.dump(ret, f)
     print("Writing: %s" % dst)
 
 def bodart_to_dbpedia(src, dst):
-    with open(src, 'r') as f:
+    with open(src, 'r', encoding='utf8') as f:
         data = yaml.load(f)
     ret = []
     for battle in data:
@@ -206,7 +206,7 @@ def bodart_to_dbpedia(src, dst):
             ret.append({'battles_from': [battle['battle_id']],
                         'battles_to': battle['dbpedia']['ids'],
                         'relation': battle['dbpedia']['relation']})
-    with open(dst, 'w') as f:
+    with open(dst, 'w', encoding='utf8') as f:
         json.dump(ret, f)
     print("Writing: %s" % dst)
 
