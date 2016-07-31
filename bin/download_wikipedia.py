@@ -56,7 +56,7 @@ def download_battle(battle, dst):
 
 
 def get_battle_titles(src):
-	with open(src, 'r') as f:
+	with open(src, 'r', encoding="utf8") as f:
 		reader = csv.DictReader(f)
 		# This is an example of a python list comprehension
 		# See http://treyhunner.com/2015/12/python-list-comprehensions-now-in-color/

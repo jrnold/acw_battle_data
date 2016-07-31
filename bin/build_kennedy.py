@@ -16,7 +16,7 @@ def dict_subset(x, include = []):
     return dict((k, v) for k, v in x.items() if k in include)
 
 def forces_csv(src, dst):
-    with open(src, 'r') as f:
+    with open(src, 'r', encoding="utf8") as f:
         data = yaml.load(f)
     fieldnames = ('battle_id',
                   'belligerent',
@@ -27,7 +27,7 @@ def forces_csv(src, dst):
                   'missing',
                   'aggregate',
                   'battles_aggregated')
-    with open(dst, 'w') as f:
+    with open(dst, 'w', encoding="utf8") as f:
         writer = csv.DictWriter(f, fieldnames)
         writer.writeheader()
         for battle in data:
@@ -47,7 +47,7 @@ def forces_csv(src, dst):
                     writer.writerow(row)
 
 def battles_csv(src, dst):
-    with open(src, 'r') as f:
+    with open(src, 'r', encoding="utf8") as f:
         data = yaml.load(f)
     fieldnames = ('battle_id',
                   'battle_name',
@@ -59,7 +59,7 @@ def battles_csv(src, dst):
                   'casualties_max',
                   'casualties_text',
                   'cwsac_id')
-    with open(dst, 'w') as f:
+    with open(dst, 'w', encoding="utf8") as f:
         writer = csv.DictWriter(f, fieldnames)
         writer.writeheader()
         for battle in data:
@@ -70,7 +70,7 @@ def battles_csv(src, dst):
             writer.writerow(row)
 
 def forces_to_cwsac(src, dst):
-    with open(src, 'r') as f:
+    with open(src, 'r', encoding="utf8") as f:
         data = yaml.load(f)
     ret = []
     for battle in data:
@@ -85,7 +85,7 @@ def forces_to_cwsac(src, dst):
             ret.append({'battles_from': [battle['battle_id']],
                          'battles_to': cwsac,
                          'relation': 'eq'})
-    with open(dst, 'w') as f:
+    with open(dst, 'w', encoding="utf8") as f:
         json.dump(ret, f)
 
 def build(src, dst):

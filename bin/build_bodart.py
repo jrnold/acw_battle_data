@@ -115,13 +115,12 @@ def forces_csv(src, dst):
     with open(dst, 'w', encoding='utf8') as f:
         writer = csv.DictWriter(f, fieldnames, extrasaction = 'ignore')
         writer.writeheader()
-        with open(dst, 'w') as f:
-            for battle in data:
-                for side in battle['forces']:
-                    row = battle['forces'][side]
-                    row['battle_id'] = battle['battle_id']
-                    row['belligerent'] = side
-                    writer.writerow(row)
+        for battle in data:
+            for side in battle['forces']:
+                row = battle['forces'][side]
+                row['battle_id'] = battle['battle_id']
+                row['belligerent'] = side
+                writer.writerow(row)
     print("Writing: %s" % dst)
 
 def commanders_csv(src, dst):
@@ -139,18 +138,17 @@ def commanders_csv(src, dst):
     with open(dst, 'w', encoding='utf8') as f:
         writer = csv.DictWriter(f, fieldnames, extrasaction = 'ignore')
         writer.writeheader()
-        with open(dst, 'w') as f:
-            for battle in data:
-                for side in battle['forces']:
-                    for i, row in enumerate(battle['forces'][side]['commanders']):
-                          row['battle_id'] = battle['battle_id']
-                          row['belligerent'] = side
-                          row['rank'] = RANKS[row['rank']]
-                          if 'dbpedia' not in row:
-                              row['dbpedia'] = None
-                          else:
-                              row['dbpedia'] = "https://dbpedia.org/resource/%s" % row['dbpedia']
-                          writer.writerow(row)
+        for battle in data:
+            for side in battle['forces']:
+                for i, row in enumerate(battle['forces'][side]['commanders']):
+                      row['battle_id'] = battle['battle_id']
+                      row['belligerent'] = side
+                      row['rank'] = RANKS[row['rank']]
+                      if 'dbpedia' not in row:
+                          row['dbpedia'] = None
+                      else:
+                          row['dbpedia'] = "https://dbpedia.org/resource/%s" % row['dbpedia']
+                      writer.writerow(row)
     print("Writing: %s" % dst)
 
 def generals_killed_csv(src, dst):
@@ -169,19 +167,18 @@ def generals_killed_csv(src, dst):
     with open(dst, 'w', encoding='utf8') as f:
         writer = csv.DictWriter(f, fieldnames, extrasaction = 'ignore')
         writer.writeheader()
-        with open(dst, 'w') as f:
-            for battle in data:
-                for side in battle['forces']:
-                    if 'generals_killed' in battle['forces'][side]:
-                        for i, row in enumerate(battle['forces'][side]['generals_killed']):
-                            row['battle_id'] = battle['battle_id']
-                            row['belligerent'] = side
-                            row['rank'] = RANKS[row['rank']]
-                            if 'dbpedia' not in row:
-                                row['dbpedia'] = None
-                            else:
-                                row['dbpedia'] = "https://dbpedia.org/resource/%s" % row['dbpedia']
-                            writer.writerow(row)
+        for battle in data:
+            for side in battle['forces']:
+                if 'generals_killed' in battle['forces'][side]:
+                    for i, row in enumerate(battle['forces'][side]['generals_killed']):
+                        row['battle_id'] = battle['battle_id']
+                        row['belligerent'] = side
+                        row['rank'] = RANKS[row['rank']]
+                        if 'dbpedia' not in row:
+                            row['dbpedia'] = None
+                        else:
+                            row['dbpedia'] = "https://dbpedia.org/resource/%s" % row['dbpedia']
+                        writer.writerow(row)
     print("Writing: %s" % dst)
 
 def bodart_to_cwsac(src, dst):

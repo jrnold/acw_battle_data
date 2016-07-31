@@ -17,12 +17,12 @@ def build_outcomes(src, dst):
     print("wrote %s" % dst)
 
 def build_to_cwsac(src, dst):
-    with open(src, 'r') as f:
+    with open(src, 'r', encoding='utf-8') as f:
         data = yaml.load(f)
     for x in data:
         x['battles_from'] = [btl['id'] for btl in x['battles_from']]
         x['battles_to'] = [btl['id'] for btl in x['battles_cwsac']]
-    with open(dst, 'w') as f:
+    with open(dst, 'w', encoding='utf-8') as f:
         json.dump(data, f)
         print("wrote %s" % dst)
 

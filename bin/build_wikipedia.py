@@ -62,7 +62,7 @@ def var_to_range(x, k):
         del x[k]
 
 def forces_csv(data, filename):
-    with open(filename, 'w') as f:
+    with open(filename, 'w', encoding="utf8") as f:
         writer = csv.DictWriter(f, FORCES_FIELDS, extrasaction='ignore')
         writer.writeheader()
         for battle, battledata in sorted(data.items()):
@@ -84,7 +84,7 @@ def forces_csv(data, filename):
                 writer.writerow(row)
 
 def battles_csv(data, filename):
-    with open(filename, 'w') as f:
+    with open(filename, 'w', encoding="utf8") as f:
         writer = csv.DictWriter(f, BATTLE_FIELDS, extrasaction='ignore')
         writer.writeheader()
         for battle, battledata in sorted(data.items()):
@@ -96,7 +96,7 @@ def battles_csv(data, filename):
 
 def build(src, dst):
     srcdir = path.join(src, "rawdata", "en.wikipedia.org")
-    with open(path.join(srcdir, 'wikipedia_casualties.yaml'), 'r') as f:
+    with open(path.join(srcdir, 'wikipedia_casualties.yaml'), 'r', encoding="utf8") as f:
         data = yaml.load(f)
     battles_csv(data, path.join(dst, 'wikipedia_battles.csv'))
     forces_csv(data, path.join(dst, 'wikipedia_forces.csv'))
