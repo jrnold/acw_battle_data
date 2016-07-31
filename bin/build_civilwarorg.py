@@ -82,7 +82,7 @@ def build_forces(data, dst):
     for battle in data:
         forces.append(get_force(battle, 'US'))
         forces.append(get_force(battle, 'Confederate'))
-    with open(dst, 'w') as f:
+    with open(dst, 'w', encoding='utf8') as f:
         print("Writing: %s" % dst)
         writer = csv.DictWriter(f, fields, extrasaction = 'raise')
         writer.writeheader()
@@ -101,7 +101,7 @@ def build_commanders(data, dst):
         for cdr in battle['confederate_commanders']:
             commanders.append({'battle_id': battle['id'], 'belligerent': 'Confederate',
                                'name': cdr['name'], 'url': cdr['url']})
-    with open(dst, 'w') as f:
+    with open(dst, 'w', encoding='utf8') as f:
         print("Writing: %s" % dst)
         writer = csv.DictWriter(f, fields, extrasaction = 'raise')
         writer.writeheader()
@@ -123,7 +123,7 @@ def build_battles(data, links, dst):
               'total_strength',
               'cwsac_id',
               'dbpedia_url')
-    with open(dst, 'w') as f:
+    with open(dst, 'w', encoding='utf8') as f:
         print("Writing: %s" % dst)
         writer = csv.DictWriter(f, fields, extrasaction = 'ignore')
         writer.writeheader()
@@ -153,7 +153,7 @@ def build_battles(data, links, dst):
 def build(src, dst):
     srcdir = path.join(src, 'rawdata', 'civilwar.org')
     srcfile = path.join(srcdir, 'civilwar.org.json')
-    with open(srcfile, 'r') as f:
+    with open(srcfile, 'r', encoding='utf8') as f:
         data = json.load(f)
     with open(path.join(srcdir, 'links.csv')) as f:
         reader = csv.DictReader(f)

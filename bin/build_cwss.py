@@ -57,7 +57,7 @@ def battle_csv(root, dst):
     # 'TheaterName',
     )
     print("Writing: %s" % dst)
-    with open(dst, 'w') as f:
+    with open(dst, 'w', encoding='utf8') as f:
         writer = csv.DictWriter(f, list(fields) + ['URL'])
         writer.writeheader()
         for i, entry in enumerate(root.findall('.//%s' % xmlns('entry'))):
@@ -78,7 +78,7 @@ def battle_csv(root, dst):
 def theaters_csv(root, dst):
     theaters = {}
     print("Writing: %s" % dst)    
-    with open(dst, 'w') as f:
+    with open(dst, 'w', encoding='utf8') as f:
         writer = csv.DictWriter(f, ('TheaterCode', 'TheaterName'))
         writer.writeheader()
         for i, entry in enumerate(root.findall('.//%s' % xmlns('entry'))):
@@ -117,7 +117,7 @@ def parse_month_range(x):
 def campaigns_csv(root, dst):
     campaigns = {}
     print("Writing: %s" % dst)
-    with open(dst, 'w') as f:
+    with open(dst, 'w', encoding='utf8') as f:
         writer = csv.DictWriter(f, ('CampaignCode', 'CampaignName', 'CampaignDates', 
                                     'CampaignStartDate', 'CampaignEndDate', 'TheaterCode'))
         writer.writeheader()
@@ -148,7 +148,7 @@ def guid_clean(x):
 def commander_csv(root, dst):
     fields = ('BattlefieldCode', 'belligerent', 'commander_number', 'commander')
     print("Writing: %s" % dst)            
-    with open(dst, 'w') as f:
+    with open(dst, 'w', encoding='utf8') as f:
         writer = csv.DictWriter(f, fields)
         writer.writeheader()
         for entry in root.findall('.//%s' % xmlns('entry')):
@@ -186,7 +186,7 @@ def commander_csv(root, dst):
                                         
 def forces_csv(root, dst):
     fields = ('BattlefieldCode', 'belligerent', 'TroopsEngaged', "Casualties")
-    with open(dst, 'w') as f:
+    with open(dst, 'w', encoding='utf8') as f:
         print("Writing: %s" % dst)        
         writer = csv.DictWriter(f, fields)
         writer.writeheader()
@@ -214,7 +214,7 @@ def people_csv(root, dst):
     fields = ("PersonID", "ID",
               "LastName", "Suffix", "FirstName", "MiddleName", "MiddleInitial",
               "Rank", "Bio", "BioSource", "NarrativeLink1", "NarrativeLink2")
-    with open(dst, 'w') as f:
+    with open(dst, 'w', encoding='utf8') as f:
         print("Writing: %s" % dst)        
         writer = csv.DictWriter(f, fields)
         writer.writeheader()
@@ -242,7 +242,7 @@ def people_csv(root, dst):
 
 def people_keywords_csv(root, dst):
     fields = ("PersonID", "Keyword")
-    with open(dst, 'w') as f:
+    with open(dst, 'w', encoding='utf8') as f:
         print("Writing: %s" % dst)      
         writer = csv.DictWriter(f, fields)
         writer.writeheader()
@@ -311,7 +311,7 @@ def battleunitslink_csv(root, comments, dst):
     'detachment',
     'section'
     )
-    with open(dst, 'w') as f:
+    with open(dst, 'w', encoding='utf8') as f:
         print("Writing: %s" % dst)
         writer = csv.DictWriter(f, fields)
         writer.writeheader()
@@ -443,7 +443,7 @@ def build(src, dst):
     # This file includes the "parsed" comments. Number of batteries, companies, detachments, etc. mentioned
     # in the comments about the unit.
     comments = {}
-    with open(path.join(src, 'rawdata', 'cwss', 'battle_units.csv'), 'r') as f:
+    with open(path.join(src, 'rawdata', 'cwss', 'battle_units.csv'), 'r', encoding='utf8') as f:
         reader = csv.DictReader(f)
         for row in reader:
             comments[(row['BattlefieldCode'], row['UnitCode'])] = dict((k, v) for k, v in row.items()

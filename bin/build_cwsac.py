@@ -90,7 +90,7 @@ belligerent_fields = [
 ]
 
 def forces_csv(data, filename):
-    with open(filename, 'w') as f:
+    with open(filename, 'w', encoding='utf8') as f:
         writer = csv.DictWriter(f, belligerent_fields)
         writer.writeheader()
         for battle, battle_data in sorted(data.items()):
@@ -113,7 +113,7 @@ commanders_fields = (
 )
 
 def commanders_csv(data, filename):
-    with open(filename, 'w') as f:
+    with open(filename, 'w', encoding='utf8') as f:
         writer = csv.DictWriter(f, commanders_fields)
         writer.writeheader()
         for battle, battle_data in sorted(data.items()):
@@ -142,7 +142,7 @@ def copy_campaigns(src, dst):
                 path.join(dst, 'cwsac_campaigns.csv'))
 
 def copy_json(data, dst):
-    with open(path.join(dst, 'cwsac.json'), 'w') as f:
+    with open(path.join(dst, 'cwsac.json'), 'w', encoding='utf8') as f:
         json.dump(data, f)
 
 def build(src, dst):
@@ -150,7 +150,7 @@ def build(src, dst):
     data = {}
     json_dir = path.join(srcdir, 'json')
     for filename in os.listdir(json_dir):
-        with open(path.join(json_dir, filename), 'r') as f:
+        with open(path.join(json_dir, filename), 'r', encoding='utf8') as f:
             data[path.splitext(filename)[0]] = json.load(f)
 
     battle_csv(data, path.join(dst, 'cwsac_battles.csv'))

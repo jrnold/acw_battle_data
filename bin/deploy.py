@@ -8,7 +8,7 @@ import os
 import sys
 
 def get_version(filename):
-    with open(filename, 'r') as f:
+    with open(filename, 'r', encoding="utf8") as f:
         version = json.load(f)['version']
     return version
 

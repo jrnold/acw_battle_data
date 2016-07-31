@@ -4,7 +4,7 @@ import sys
 import os.path as path
 
 def build(src, dst):
-    with open(src, 'r') as f:
+    with open(src, 'r', encoding='utf8') as f:
         reader = csv.DictReader(f)
         data = [row for row in reader]
     ret = []
@@ -14,7 +14,7 @@ def build(src, dst):
             'battles_to': [row['cwsac_id']],
             'relation': 'eq'
         })
-    with open(dst, 'w') as f:
+    with open(dst, 'w', encoding='utf8') as f:
         json.dump(ret, f)
 
 def main():
