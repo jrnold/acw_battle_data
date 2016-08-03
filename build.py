@@ -164,8 +164,6 @@ def build(src, dst, docs, bucket):
     build_eicher(src, dst)
     build_misc(src, dst)
     build_battlemisc(src, dst)
-    # Download wikipedia pages for battles
-    download_wikipedia(src, dst)
     # metadata
     build_metadata(src, dst)
     build_datapackage(src, dst)
