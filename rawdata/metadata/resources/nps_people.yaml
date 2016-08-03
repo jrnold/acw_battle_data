@@ -51,4 +51,9 @@ schema:
     name: added
     title: added
     type: boolean
+  - description: dbpedia uri for additional information about people
+    format: default
+    name: dbpedia_uri
+    title: dbpedia_uri
+    type: string
 title: 'NPS combined data: people'
