@@ -571,6 +571,7 @@ build <- function(src, dst) {
   theaters_to_wiki <- read_csv(file.path(nps_dir, "theaters_to_wiki.csv"))
   campaigns_to_wiki <- read_csv(file.path(nps_dir, "campaigns_to_wiki.csv"))
   units_to_wiki <- read_csv(file.path(nps_dir, "units_to_wiki.csv"))
+  people_to_wiki <- read_csv(file.path(nps_dir, "people_to_wiki.csv"))
   latlong <-
     read_csv(file.path(src, "rawdata", "nps_combined", "latlong.csv"))
 
@@ -614,6 +615,10 @@ build <- function(src, dst) {
                    aad_battles)
 
   people <- gen_people(cwss_people, extra_people)
+  people <-
+    left_join(people,
+              select(people_to_wiki, person_id, dbpedia_uri),
+              by = "person_id")
 
   commanders <- gen_commanders(cwss_commanders,
                                cwsac_commanders,

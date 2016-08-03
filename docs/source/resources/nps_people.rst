@@ -10,6 +10,8 @@ People data for the combined National Park Services data.
 
 These data are a slightly edited version of the CWSS data, :doc:`cwss_people`.
 
+Individuals' DBPedia URIs were pulled from DBPedia and matched with unit names through a combination of regex merges using fuzzyjoin, humaniformat, and manual matching.
+
 
 Sources: 
 
@@ -32,6 +34,7 @@ bio_source        string   bio_source
 narrative_link_1  string   narrative_link_1
 narrative_link_2  string   narrative_link_2
 added             boolean  added
+dbpedia_uri       string   dbpedia_uri
 ================  =======  ================
 
 person_id
@@ -175,6 +178,18 @@ added
 
 
 
+
+
+       
+dbpedia_uri
+-----------
+
+:title: dbpedia_uri
+:type: string
+:format: default
+
+
+dbpedia uri for additional information about people
 
 
        
