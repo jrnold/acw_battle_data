@@ -570,6 +570,7 @@ build <- function(src, dst) {
   extra_commanders <- read_csv(file.path(nps_dir, "commanders.csv"))
   theaters_to_wiki <- read_csv(file.path(nps_dir, "theaters_to_wiki.csv"))
   campaigns_to_wiki <- read_csv(file.path(nps_dir, "campaigns_to_wiki.csv"))
+  units_to_wiki <- read_csv(file.path(nps_dir, "units_to_wiki.csv"))
   latlong <-
     read_csv(file.path(src, "rawdata", "nps_combined", "latlong.csv"))
 
@@ -621,6 +622,10 @@ build <- function(src, dst) {
                                extra_data[["excluded_battles"]])
 
   units <- gen_units(cwss_units, extra_battle_units[["units"]])
+  units <-
+    left_join(units,
+              select(units_to_wiki, unit_code, dbpedia_uri),
+              by = "unit_code")
   battle_units <- gen_battle_units(cwss_battle_units,
                                    extra_battle_units[["battles"]])
 

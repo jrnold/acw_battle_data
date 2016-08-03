@@ -6,7 +6,7 @@ NPS Units
 :path: nps_units.csv
 :format: csv
 
-
+Unit DBPedia URIs were pulled from DBPedia and matched with unit names through a combination of regex merges using fuzzyjoin and manual matching.
 
 Sources: 
 
@@ -27,6 +27,7 @@ func         string  func
 special      string  special
 ethnic       string  ethnic
 duplicate    number  duplicate
+dbpedia_uri  string  dbpedia_uri
 ===========  ======  ===========
 
 unit_code
@@ -165,6 +166,18 @@ duplicate
 
 
 Number to disambiguate units if there are multiple units with the same unit code.
+
+
+       
+dbpedia_uri
+-----------
+
+:title: dbpedia_uri
+:type: string
+:format: default
+
+
+dbpedia uri for additional information about units
 
 
        
