@@ -74,7 +74,7 @@ def build(src, dst):
               'killed',
               'usCasTot',
               'csCasTot']
-    with open(dstfile, 'w') as f:
+    with open(dstfile, 'w', encoding='utf8') as f:
         reader = csv.DictWriter(f, fieldnames = fields)
         reader.writeheader()
         for i, row in enumerate(data):

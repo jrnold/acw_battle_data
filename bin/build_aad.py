@@ -73,7 +73,7 @@ fields = (
 )
 
 def build(src, dst):
-    with open(path.join(src, "rawdata", "aad", "events.json"), 'r') as f:
+    with open(path.join(src, "rawdata", "aad", "events.json"), 'r', encoding="utf8") as f:
         data = json.load(f)
 
     rows = []
@@ -129,7 +129,7 @@ def build(src, dst):
         rows += [row]
 
     dst_file = path.join(dst, "aad_battles.csv")
-    with open(dst_file, 'w') as f:
+    with open(dst_file, 'w', encoding="utf8") as f:
         writer = csv.DictWriter(f, fields)
         writer.writeheader()
         writer.writerows(rows)

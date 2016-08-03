@@ -35,7 +35,7 @@ $ source activate acw_battle_data
 $ make build
 ```
 
-To build the [Sphinx documentation](http://www.sphinx-doc.org/en/stable/contents.html) for the project run,
+To build the [Sphinx documentation](http://www.sphinx-doc.org/en/stable/contents.html) for the project run
 ```
 $ make docs
 ```

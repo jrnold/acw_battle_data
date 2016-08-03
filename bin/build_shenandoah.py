@@ -16,7 +16,7 @@ def load_data(src):
     for filename in os.listdir(path.join(src, "yaml")):
         if fnmatch.fnmatch(filename, "*.yaml"):
             fn = path.join(src, "yaml", filename)
-            with open(fn, 'r') as f:
+            with open(fn, 'r', encoding="utf8") as f:
                 d = yaml.load(f)
                 d['url'] = BASE_URL + path.basename(path.splitext(fn)[0]) + '.html'
                 data.append(d)
@@ -54,7 +54,7 @@ def build_battles(data, dst):
                   'url'
     )
     dst_file = path.join(dst, 'shenandoah_battles.csv')
-    with open(dst_file, 'w') as f:
+    with open(dst_file, 'w', encoding="utf8") as f:
         writer = csv.DictWriter(f, fieldnames)
         writer.writeheader()
         writer.writerows(battles)
@@ -94,7 +94,7 @@ def build_forces(data, dst):
                   'wounded',
                   'missing_captured')
     dst_file = path.join(dst, 'shenandoah_forces.csv')
-    with open(dst_file, 'w') as f:
+    with open(dst_file, 'w', encoding="utf8") as f:
         writer = csv.DictWriter(f, fieldnames)
         writer.writeheader()
         for battle in data:
@@ -130,7 +130,7 @@ def build_commanders(data, dst):
                   'middle_name',
                   'rank')
     dst_file = path.join(dst, 'shenandoah_commanders.csv')
-    with open(dst_file, 'w') as f:
+    with open(dst_file, 'w', encoding="utf8") as f:
         writer = csv.DictWriter(f, fieldnames)
         writer.writeheader()
         for battle in data:
@@ -139,7 +139,7 @@ def build_commanders(data, dst):
 
 def build_json(data, dst):
     dst_file = path.join(dst, 'shenandoah.json')
-    with open(dst_file, 'w') as f:
+    with open(dst_file, 'w', encoding="utf8") as f:
         json.dump(data, f)
     print("Writing: %s" % dst_file)
 

@@ -173,7 +173,7 @@ core_area
 
 
 Core area in acres
-The Core Area represents the areas of direct engagement on the battlefield. Positions that delivered or received fire, and the space connecting them, fall within the Core Area.  Frequently described as “hallowed ground,” land within the Core Area is often the first to be targeted for protection. There may be more than one Core Area on a battlefield, but all lie within the Study Area.
+The Core Area represents the areas of direct engagement on the battlefield. Positions that delivered or received fire, and the space connecting them, fall within the Core Area.  Frequently described as "hallowed ground," land within the Core Area is often the first to be targeted for protection. There may be more than one Core Area on a battlefield, but all lie within the Study Area.
 
 
        
@@ -186,7 +186,7 @@ potnr_boundary
 
 
 Potential National Register Boundary area in acres
-Unlike the Study and Core Area, which are based only upon the interpretation of historic events, the Potential National Register (PotNR) boundary represents ABPP’s assessment of a Study Area’s current integrity (the surviving landscape and features that convey the site’s historic sense of place). The PotNR boundary may include all or some of the Study Area, and all or some of the Core Area. Although preparing a National Register nomination may require further assessment of historic integrity and more documentation than that provided by the ABPP survey, PotNR boundaries identify land that merits this additional effort.
+Unlike the Study and Core Area, which are based only upon the interpretation of historic events, the Potential National Register (PotNR) boundary represents ABPP�s assessment of a Study Area�s current integrity (the surviving landscape and features that convey the site�s historic sense of place). The PotNR boundary may include all or some of the Study Area, and all or some of the Core Area. Although preparing a National Register nomination may require further assessment of historic integrity and more documentation than that provided by the ABPP survey, PotNR boundaries identify land that merits this additional effort.
 
 
        
