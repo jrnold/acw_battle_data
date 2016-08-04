@@ -130,6 +130,7 @@ def build_wikipedia(src, dst):
 def build_eicher(src, dst):
     print("build_eicher")
     sp.check_call([PYTHON, "bin/build_eicher.py", src, dst])
+    sp.check_call([RSCRIPT, "bin/update_eicher.R", src, dst])
 
 def download_wikipedia(src, dst):
     print("build_wikidata")
