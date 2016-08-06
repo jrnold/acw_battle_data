@@ -83,4 +83,9 @@ schema:
     name: duplicate
     title: duplicate
     type: number
+  - description: dbpedia uri for additional information about units
+    format: default
+    name: dbpedia_uri
+    title: dbpedia_uri
+    type: string
 title: NPS Units

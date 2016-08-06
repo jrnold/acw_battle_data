@@ -18,7 +18,7 @@ def get_source_dict(filename):
     for k in citations:
         citations[k]['name'] = k
     return citations
-    
+
 def replace_sources(keys, sources):
     newsrc = []
     for k in keys:
@@ -27,7 +27,7 @@ def replace_sources(keys, sources):
         else:
             print("ERROR: source %s not found" % k)
     return newsrc
-    
+
 def replace_all_sources(bib, data):
     sources = get_source_dict(bib)
     data['sources'] = sources
@@ -41,7 +41,7 @@ def replace_all_sources(bib, data):
                try:
                     col['sources'] = replace_sources(col['sources'], sources)
                except KeyError:
-                    pass                 
+                    pass
 # From http://stackoverflow.com/questions/1131220/get-md5-hash-of-big-files-in-python
 def md5sum(filename):
     md5 = hashlib.md5()
@@ -51,11 +51,11 @@ def md5sum(filename):
     return md5.hexdigest()
 
 def process_metadata(filename):
-    with open(filename, 'r') as f:
+    with open(filename, 'r', encoding='utf8') as f:
         data = yaml.load(f)
     description = path.join(filename).replace('.yaml', '.rst')
     if path.exists(description):
-        with open(description, 'r') as f:
+        with open(description, 'r', encoding='utf8') as f:
             description_text = f.read()
             data['description'] = description_text
     return data
@@ -85,7 +85,7 @@ def build(src, dst):
                 data['resources'].append(res)
     bib = path.join(metadir, 'sources.yaml')
     replace_all_sources(bib, data)
-    with open(path.join(dst, 'datapackage.json'), 'w') as f:
+    with open(path.join(dst, 'datapackage.json'), 'w', encoding="utf8") as f:
         json.dump(data, f, indent = 2)
         print("Writing: %s" % path.join(dst, 'datapackage.json'))
 

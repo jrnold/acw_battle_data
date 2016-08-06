@@ -21,7 +21,12 @@ IGNORE_FILES = ("datapackage.json", "wikipedia")
 
 def make_metadata(src, yamlfile):
     if path.exists(yamlfile):
+<<<<<<< HEAD
         with open(yamlfile, 'r', encoding = 'utf-8') as f:
+=======
+        with open(yamlfile, 'r', encoding="utf8") as f:
+            print(yamlfile)
+>>>>>>> 80d08f1d2cbb95e92fbf9cbe49150afb4ef783aa
             meta = yaml.load(f)
         newfile = False
     else:
@@ -40,7 +45,7 @@ def make_metadata(src, yamlfile):
     if meta['format'] == "csv":
         fields = dict((x['name'], x) for x in meta['schema']['fields'])
         print(src)
-        data = pandas.read_csv(src)
+        data = pandas.read_csv(src, encoding='utf8')
         # Remake fields
         # - fixes changes in field order
         # - adds new fields
@@ -73,7 +78,7 @@ def build_meta(src, dst):
             ymlfile = path.join(metadir, name + '.yaml')
             resfile = path.join(dst, filename)
             meta = make_metadata(resfile, ymlfile)
-            with open(ymlfile, 'w') as f:
+            with open(ymlfile, 'w', encoding="utf8") as f:
                 yaml.dump(meta, f, default_flow_style=False, allow_unicode=True)
 
 

@@ -16,17 +16,17 @@ def dict_subset(x, include = []):
     return dict((k, v) for k, v in x.items() if k in include)
 
 def build_losses(src, dst):
-    with open(path.join(src, *_PHISTERER_DIR, 'phisterer_losses.csv'), 'r') as f:
+    with open(path.join(src, *_PHISTERER_DIR, 'phisterer_losses.csv'), 'r', encoding="utf8") as f:
         reader = csv.DictReader(f)
         fieldnames = reader.fieldnames
         data = [row for row in reader]
-    with open(path.join(dst, 'phisterer_battles.csv'), 'w') as f:
+    with open(path.join(dst, 'phisterer_battles.csv'), 'w', encoding="utf8") as f:
         fieldnames = ('battle_id', 'battle_name', 'state', 'start_date', 'end_date', 'surrender', 'campaign', 'page')
         writer = csv.DictWriter(f, fieldnames, extrasaction = 'ignore')
         writer.writeheader()
         for row in data:
             writer.writerow(row)
-    with open(path.join(dst, 'phisterer_forces.csv'), 'w') as f:
+    with open(path.join(dst, 'phisterer_forces.csv'), 'w', encoding="utf8") as f:
         fieldnames = ('battle_id', 'belligerent', 'casualties', 'killed', 'wounded', 'missing')
         writer = csv.DictWriter(f, fieldnames)
         writer.writeheader()
@@ -46,7 +46,7 @@ def build_losses(src, dst):
 def build_to_cwsac(src, dst):
     srcfile = path.join(src, *_PHISTERER_DIR, 'phisterer_to_cwsac.yaml')
     dstfile = path.join(dst, 'phisterer_to_cwsac.json')
-    with open(srcfile, 'r') as f:
+    with open(srcfile, 'r', encoding="utf8") as f:
         data = yaml.load(f)
     ret = []
     for row in data:
@@ -54,7 +54,7 @@ def build_to_cwsac(src, dst):
         newrow['battles_to'] = [x['id'] for x in row['battles_cwsac']]
         newrow['battles_from'] = [x['id'] for x in row['battles_from']]
         ret.append(newrow)
-    with open(dstfile, 'w') as f:
+    with open(dstfile, 'w', encoding="utf8") as f:
         json.dump(ret, f)
 
 def copyfiles(src, dst):
