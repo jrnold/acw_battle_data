@@ -54,9 +54,9 @@ def battle_csv(src, dst):
         'category_size',
         'page'
     ]
-    with open(src, 'r', encoding='utf8') as f:
+    with open(src, 'r', encoding='utf-8') as f:
         data = yaml.load(f)
-    with open(dst, 'w', encoding='utf8') as f:
+    with open(dst, 'w', encoding='utf-8') as f:
         writer = csv.DictWriter(f, fields, extrasaction = 'ignore')
         writer.writeheader()
         for row in data:
