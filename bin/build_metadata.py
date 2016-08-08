@@ -21,12 +21,7 @@ IGNORE_FILES = ("datapackage.json", "wikipedia")
 
 def make_metadata(src, yamlfile):
     if path.exists(yamlfile):
-<<<<<<< HEAD
         with open(yamlfile, 'r', encoding = 'utf-8') as f:
-=======
-        with open(yamlfile, 'r', encoding="utf8") as f:
-            print(yamlfile)
->>>>>>> 80d08f1d2cbb95e92fbf9cbe49150afb4ef783aa
             meta = yaml.load(f)
         newfile = False
     else:
