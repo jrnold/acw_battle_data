@@ -14,7 +14,21 @@ schema:
     type: string
   - constraints:
       pattern: '[A-Z]{2}'
-    description: State in which the event occurred.
+    description: 'State in which the event occurred. This uses the standard two letter
+      abbreviations
+
+      with the following exceptions.
+
+
+      - "DT": Dakota Territory
+
+      - "OK": anachronistically used for the Indian Territory
+
+      - "FR": France
+
+      - "MX": Mexico
+
+      '
     format: default
     name: state
     title: State
