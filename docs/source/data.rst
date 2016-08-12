@@ -53,6 +53,7 @@ Resource                                                                        
 `cwss_theaters.csv <resources/cwss_theaters.html>`__                                  CWSS theaters
 `cwss_unittiles.csv <resources/cwss_unittiles.html>`__                                CWSS Unit Titles
 `dyer_engagements.csv <resources/dyer_engagements.html>`__                            Dyer (1908) list of battles
+`dyer_to_cwsac.json <resources/dyer_to_cwsac.html>`__                                 dyer_to_cwsac
 `eicher_chronology.csv <resources/eicher_chronology.html>`__                          Chronology of Some Important Civil War Dates from Eicher and Eicher (2001)
 `eicher_units_table.csv <resources/eicher_units_table.html>`__                        Eicher table of unit sizes
 `fox_forces.csv <resources/fox_forces.html>`__                                        Fox (1898) battle casualties (revised)

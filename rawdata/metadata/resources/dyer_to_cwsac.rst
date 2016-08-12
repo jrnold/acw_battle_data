@@ -1,0 +1,1 @@
+All elements have an equal relationship between Dyer and CWSAC.

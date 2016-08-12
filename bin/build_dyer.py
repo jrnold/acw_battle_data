@@ -17,10 +17,12 @@ def dyer_to_cwsac(src, dst):
         data = yaml.load(f)
     ret = []
     for battle in data:
-        if 'battles_from' in battle:
-        	# This is what needs work. I can't figure out how the syntax to reference the correct keys.
-            ret.append({'battles_from': battle['battle_name']['cwsac_id'],
-                        'battles_to': battle['battles_from']['cwsac_id']})
+    	if 'battles_from' in battle:
+        # This is what needs work. I can't figure out how the syntax to reference the correct keys.
+            battle_id = [x['battle_id'] for x in battle['battles_from']]
+            cwsac_id = [x['cwsac_id'] for x in battle['battles_cwsac']]
+            ret.append({'battles_from': battle_id,
+                        'battles_to': cwsac_id})
     with open(dst, 'w', encoding='utf8') as f:
         json.dump(ret, f)
     print("Writing: %s" % dst)
