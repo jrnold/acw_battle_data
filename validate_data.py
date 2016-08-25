@@ -1,4 +1,5 @@
 from goodtables import processors
+import datapackage
 import os
 
 
@@ -12,6 +13,12 @@ for file in filenames:
 
 schema = 'datapackage.json'
 schemafile = os.path.join(system_path, src_folder, schema)
+dp = datapackage.DataPackage(schemafile)
+try:
+	dp.validate()
+except datapackage.exceptions.ValidationError as e:
+	pass
+
 # processor is currently giving an invalid schema error
 processor = processors.SchemaProcessor(format='csv', schema=schemafile)
 for file in files:
