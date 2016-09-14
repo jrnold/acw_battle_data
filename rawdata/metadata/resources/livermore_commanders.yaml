@@ -15,7 +15,7 @@ schema:
     name: belligerent
     title: belligerent
     type: string
-  - description: CWSS PersonID of the commander. See :doc:`cwss_persons`.
+  - description: CWSS PersonID of the commander. See :doc:`cwss_people`.
     format: uuid
     name: PersonID
     title: PersonID

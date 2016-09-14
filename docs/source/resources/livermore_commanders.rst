@@ -65,7 +65,7 @@ PersonID
 :format: uuid
 
 
-CWSS PersonID of the commander. See :doc:`cwss_persons`.
+CWSS PersonID of the commander. See :doc:`cwss_people`.
 
 
        

@@ -2,7 +2,7 @@
 CWSS people
 ###########
 
-:name: cwss_persons
+:name: cwss_people
 :path: cwss_people.csv
 :format: csv
 

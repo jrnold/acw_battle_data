@@ -79,7 +79,7 @@ commander
 :format: uuid
 
 
-Unique commander identifier corresponding to the ``PersonID`` in :doc:`cwss_persons`.
+Unique commander identifier corresponding to the ``PersonID`` in :doc:`cwss_people`.
 
 
        

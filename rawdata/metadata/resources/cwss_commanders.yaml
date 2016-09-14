@@ -29,7 +29,7 @@ schema:
     title: Commander number
     type: integer
   - description: Unique commander identifier corresponding to the ``PersonID`` in
-      :doc:`cwss_persons`.
+      :doc:`cwss_people`.
     format: uuid
     name: commander
     title: Commander ID
