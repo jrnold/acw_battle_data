@@ -39,7 +39,7 @@ def deploy(data_dir, bucket, region):
                  '--exclude', '*',
                  '--include', 'acw_battle_data*.tar.gz',
                  '--include', 'acw_battle_data*.zip',
-                 '--region', region,
+
                   ".", 's3://%s/' % bucket])
 
 def main():

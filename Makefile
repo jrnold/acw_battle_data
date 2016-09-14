@@ -1,6 +1,6 @@
 DATA_DIR = data
-BUCKET = data.jrnold.me/acw_battle_data
-REGION = us-east-1
+BUCKET = jrnold-data/acw_battle_data
+REGION = us-west-2
 
 build:
 	python build.py $(DATA_DIR)
