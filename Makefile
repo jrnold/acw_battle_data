@@ -5,13 +5,10 @@ REGION = us-west-2
 build:
 	python build.py $(DATA_DIR)
 
-docs: html pdf
+docs: html
 
 html:
 	make -C docs html
-
-pdf:
-	make -C docs pdf
 
 
 # Deploy data to S3
