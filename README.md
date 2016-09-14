@@ -21,10 +21,10 @@ $ git submodule --init
 ```
 The submodules are initialized if the sub-directories of `dependencies` (e.g. `dependencies/cwss`) are not empty.
 
-Before starting, a copy of the [Civil War Soldiers and Sailors Database](https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm) needs to be installed. This is not included in the repository directly since it is several gigs.
+Before starting, a copy of the [Civil War Soldiers and Sailors Database](https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm) needs to be downloaded. This is not included in the repository directly since it is several gigs.
 ```console
 $ cd dependencies/cwss
-$ python download.py
+$ python aws.py download
 ```
 See the instructions in `dependencies/cwss/README.md` for more detailed instructions;
 this step requires installing the [AWS command line interface](https://aws.amazon.com/cli/).
