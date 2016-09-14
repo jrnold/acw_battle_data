@@ -15,8 +15,8 @@ This is mostly a repackaging of data from other secondary and primary sources, a
 
 Downloads
 
-- `acw_battle_data-3.1.0.tar.gz <https://s3.amazonaws.com/data.jrnold.me/acw_battle_data/acw_battle_data-3.1.0.tar.gz>`__
-- `acw_battle_data-3.1.0.zip <https://s3.amazonaws.com/data.jrnold.me/acw_battle_data/acw_battle_data-3.1.0.zip>`__
+- `acw_battle_data-3.1.0.tar.gz <https://s3.amazonaws.com/jrnold-data/acw_battle_data/acw_battle_data-3.1.0.tar.gz>`__
+- `acw_battle_data-3.1.0.zip <https://s3.amazonaws.com/jrnold-data/acw_battle_data/acw_battle_data-3.1.0.zip>`__
 
 
 .. toctree::

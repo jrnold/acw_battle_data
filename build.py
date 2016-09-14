@@ -175,7 +175,7 @@ def main():
     parser.add_argument('dst', metavar = 'DST', default = "data", nargs = '?',
                         help = "data build directory")
     parser.add_argument('--bucket', metavar = 'BUCKET',
-                        default = "data.jrnold.me",
+                        default = "jrnold-data",
                         help = "AWS bucket with the data")
 
     args = parser.parse_args()
