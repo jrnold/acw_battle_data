@@ -49,7 +49,8 @@ def make_metadata(src, yamlfile):
         new_fields = []
         for k in fields:
             if k not in list(data.columns.values):
-                print("WARNING: %s: column %s in metadata is not in data" % (src, k))
+                print("WARNING: %s: column %s in metadata is not in data" %
+                        (src, k))
         for k in list(data.columns.values):
             try:
                 new_fields.append(fields[k])

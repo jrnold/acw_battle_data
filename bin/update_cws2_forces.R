@@ -55,7 +55,7 @@ update_forces <- function(src, dst) {
     mutate(str_units_mean = units * mean,
            str_units_var = units ^ 2 * var) %>%
     group_by(battle, belligerent) %>%
-    summarise_each(funs(sum), matches("str_units_(mean|var)"))
+    summarise_at(vars(matches("str_units_(mean|var)")), funs(sum))
 
   forces_strengths_exact <-
     forces %>%
@@ -101,4 +101,3 @@ main <- function() {
 }
 
 main()
-
