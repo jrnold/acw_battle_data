@@ -10,7 +10,7 @@ def build_forces(src, dst):
     data = pd.read_csv(src)
     data['from_footnote'] = data['battle_id'].str.match('[UC][1-9]+[A-Z]').\
         astype(int)
-    data.to_csv(dst, index=False)
+    data.to_csv(dst, index=False, float_format='%g')
     print("wrote %s" % dst)
 
 

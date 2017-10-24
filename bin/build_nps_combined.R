@@ -257,7 +257,9 @@ gen_battles <-
       nps_battles[nps_battles[["cwsac_id"]] == i, j] <- x[[j]]
     }
   }
-  nps_battles
+  nps_battles %>%
+    # needed so that it writes out to csv as an integer and not 1e+05
+    mutate(strength=as.integer(strength))
 }
 
 
@@ -432,7 +434,9 @@ gen_forces <- function(cwss_forces,
            matches("^strength_(mean|var)$")) %>%
     fill_casualty_vars() %>%
     filter(!cwsac_id %in% excluded_battles) %>%
-    arrange(cwsac_id, belligerent)
+    arrange(cwsac_id, belligerent) %>%
+    # needed so that it writes as integer and not 1e+05
+    mutate(strength_mean = as.integer(strength_mean))
 
 }
 

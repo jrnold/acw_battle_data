@@ -51,7 +51,7 @@ Resource                                                                        
 `cwss_regiments_units.csv <resources/cwss_regiments_units.html>`__                    CWSS units (regiments)
 `cwss_state_names.csv <resources/cwss_state_names.html>`__                            CWSS unit state names
 `cwss_theaters.csv <resources/cwss_theaters.html>`__                                  CWSS theaters
-`cwss_unittiles.csv <resources/cwss_unittiles.html>`__                                CWSS Unit Titles
+`cwss_unit_tiles.csv <resources/cwss_unit_tiles.html>`__                              CWSS Unit Titles
 `dyer_engagements.csv <resources/dyer_engagements.html>`__                            Dyer (1908) list of battles
 `eicher_chronology.csv <resources/eicher_chronology.html>`__                          Chronology of Some Important Civil War Dates from Eicher and Eicher (2001)
 `eicher_units_table.csv <resources/eicher_units_table.html>`__                        Eicher table of unit sizes
