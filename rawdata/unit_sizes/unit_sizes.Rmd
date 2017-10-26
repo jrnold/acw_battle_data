@@ -575,7 +575,7 @@ for (belligerent in names(unit_sizes)) {
 unit_sizes_df <- do.call(rbind, unit_sizes_df)
 unit_sizes_df <- 
   (mutate(unit_sizes_df,
-         belligerent = plyr::revalue(belligerent, c(union = "Union", confed = "Confederate")),
+         belligerent = recode(belligerent, union = "Union", confed = "Confederate"),
          unit_type = gsub("_", " ", unit_type)
           )
    %>% select(belligerent, unit_type,

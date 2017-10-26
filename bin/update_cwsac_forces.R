@@ -16,16 +16,16 @@ gen_unit_size_values <- function(dst) {
   unit_sizes %>%
     select(belligerent, unit_type, mean, sd) %>%
     mutate(var = sd ^ 2) %>%
-    select( - sd) %>%
-    mutate(belligerent = plyr::revalue(belligerent, c("Union" = "US")))
+    select( -sd) %>%
+    mutate(belligerent = recode(belligerent, "Union" = "US"))
 
 }
 
-unit_type_map <- c(
+unit_type_map <- list(
   "regiments" = "infantry regiment",
   "companies" = "infantry company",
   "brigades" = "infantry brigade",
-  "divisions"= "infantry division",
+  "divisions" = "infantry division",
   "corps" = "infantry corps",
   "armies" = "army",
   "cavalry_regiments" = "cavalry regiment",
@@ -51,8 +51,7 @@ update_forces <- function(src, dst) {
            matches("artillery_")) %>%
     gather(unit_type, units, - battle, - belligerent, na.rm = TRUE) %>%
     mutate(unit_type =
-             as.character(plyr::revalue(unit_type, unit_type_map,
-                                        warn_missing = FALSE))) %>%
+             as.character(recode(unit_type, UQS(unit_type_map)))) %>%
     left_join(unit_size_values, by = c("unit_type", "belligerent")) %>%
     mutate(str_units_mean = units * mean,
            str_units_var = units ^ 2 * var) %>%
@@ -90,9 +89,12 @@ update_forces <- function(src, dst) {
   battles <-
     read_csv(file.path(dst, "cwsac_battles.csv")) %>%
     left_join(battles_strengths, by = "battle") %>%
-    mutate(strength_mean = pnonmiss(strength_mean, strength),
-           strength_var = pnonmiss(strength_var, rounded_var(strength)),
-           casualties = pnonmiss(casualties_agg, casualties)) %>%
+    mutate(strength_mean = coalesce(as.numeric(strength_mean),
+                                    as.numeric(strength)),
+           strength_var = coalesce(as.numeric(strength_var),
+                                   rounded_var(strength)),
+           casualties = coalesce(as.numeric(casualties_agg),
+                                 as.numeric(casualties))) %>%
     select(- casualties_agg)
 
   write_csv(forces2,

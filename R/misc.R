@@ -1,11 +1,11 @@
 suppressPackageStartupMessages({
-  library("dplyr")
+  library("tidyverse")
+  library("readr")
   library("jsonlite")
   library("magrittr")
   library("stringr")
-  library("tidyr")
   library("yaml")
-  library("purrr")
+  library("rlang")
 })
 
 #'
@@ -15,7 +15,7 @@ write_csv <- function(x, file, ..., log = TRUE) {
   if (log) {
     message("Writing: ", file)
   }
-  write.csv(x, file, ..., na = "", row.names = FALSE)
+  readr::write_csv(x, file, ..., na = "")
 }
 
 read_csv <- function(x, ...) {
@@ -32,16 +32,6 @@ psum <- function(...) {
   })
 }
 
-pnonmiss <- function(...) {
-  apply(cbind(...), 1, function(x) {
-    i <- ! is.na(x)
-    if (any(i)) {
-      x[min(which(i, arr.ind = TRUE))]
-    } else {
-      NA
-    }
-  })
-}
 
 #' Calculate trailing zeros
 #'

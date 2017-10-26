@@ -1,7 +1,7 @@
 #!/usr/bin/env Rscript
 source("R/misc.R")
 
-unit_type_map <- c(
+unit_type_map <- list(
   "corps" = "infantry corps",
   "cavalry_corps" = "cavalry corps",
   "divisions" = "infantry division",
@@ -19,8 +19,8 @@ update_forces <- function(src, dst) {
     unit_sizes %>%
     select(belligerent, unit_type, mean, sd) %>%
     mutate(var = sd ^ 2) %>%
-    select( - sd) %>%
-    mutate(belligerent = plyr::revalue(belligerent, c("Union" = "US")))
+    select(-sd) %>%
+    mutate(belligerent = recode(belligerent, "Union" = "US"))
 
   forces_strengths_units <-
     forces %>%
@@ -29,8 +29,7 @@ update_forces <- function(src, dst) {
            companies) %>%
     gather(unit_type, units, - battle_id, - belligerent, na.rm = TRUE) %>%
     mutate(unit_type =
-             as.character(plyr::revalue(unit_type, unit_type_map,
-                                        warn_missing = FALSE))) %>%
+             as.character(recode(unit_type, UQS(unit_type_map)))) %>%
     left_join(unit_size_values, by = c("unit_type", "belligerent")) %>%
     mutate(str_mean_units = units * mean,
            str_var_units = units ^ 2 * var) %>%

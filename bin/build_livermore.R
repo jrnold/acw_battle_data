@@ -28,9 +28,9 @@ build <- function(src, dst) {
     select(battle_id, matches("^(US|CS)_")) %>%
     gather(variable, value, - battle_id) %>%
     separate(variable, c("belligerent", "varname")) %>%
-    mutate(belligerent = plyr::revalue(belligerent,
-                                       c("US" = "Union",
-                                         "CS" = "Confederate"))) %>%
+    mutate(belligerent = recode(belligerent,
+                                "US" = "Union",
+                                "CS" = "Confederate")) %>%
     spread(varname, value) %>%
     select(battle_id, belligerent, str, kia, wia, kw, miapow) %>%
     mutate(wia = ifelse(is.na(kia) & ! is.na(wia) & ! is.na(kw), NA, wia))

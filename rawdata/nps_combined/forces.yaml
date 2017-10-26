@@ -1,66 +1,72 @@
 GA028|Confederate:
-  comment: Strength needs to be at least as large as the casualties, and this was
-    surrender.
-  str_mean: 250
-  str_var: null
+  comment: Strength needs to be at least as large as the casualties. The value
+    of Confederate casualties in CWSS is 250, but it is 71 in other places.
+  casualties_kwm_mean: 71
+  casualties_kwm_var: null
+  strength_mean: 120
+  strength_var: null
 KY007|US:
   comment: set strength to slightly more than the number of casualties since the Union
     side was routed.
-  str_mean: 6000
-  str_var: null
+  strength_mean: 6000
+  strength_var: null
 MO014|US:
   comment: Set strength to casualties.
-  str_mean: 344
-  str_var: null
+  strength_mean: 344
+  strength_var: null
+MO019|US:
+  comment: Set the Union strength to casualties value. This was a Union surrender.
+  strength_mean: 119
+  strength_var: null
 NC012|US:
   comment: Set strength to casualties.
-  str_mean: 2900
-  str_var: null
+  strength_mean: 2900
+  strength_var: null
 TN006|US:
   comment: Set strength to casualties.
-  str_mean: 1200
-  str_var: null
+  strength_mean: 1200
+  strength_var: null
 TN015|US:
   comment: Set strength to slightly higher than casualties. In CWSAC, strength = 400,
     casualties = 305. In CWSS, casualties = 529.
-  str_mean: 600
-  str_var: null
+  strength_mean: 600
+  strength_var: null
 TX003|US:
   comment: Set strength equal to casualties
-  str_mean: 600
-  str_var: null
+  strength_mean: 600
+  strength_var: null
 VA043|Confederate:
-  cas_kw_mean: 441
-  cas_kwm_mean: null
-  cas_m_mean: 1600
-  cas_m_var: null
+  casualties_kw_mean: 441
+  casualties_kwm_mean: null
+  casualties_m_mean: 1600
+  casualties_m_var: null
   comment: CWSAC I has 1600 Confederate prisoners; CWSS has 2041 total Confederate
     casualties
-  str_kw_var: null
-  str_mean: 2041
-  str_var: null
+  casualties_kw_var: null
+  strength_mean: 2041
+  strength_var: null
 VA097|Confederate:
-  cas_kw_mean: 500
-  cas_kw_var: null
-  cas_kwm_mean: null
-  cas_kwm_var: null
-  cas_m_mean: 27805
-  cas_m_var: null
+  casualties_kw_mean: 500
+  casualties_kw_var: null
+  casualties_kwm_mean: null
+  casualties_kwm_var: null
+  casualties_m_mean: 27805
+  casualties_m_var: null
   comment: CWSAC I has more accurate data on disaggregated casualties
-  str_mean: 28305
-  str_var: null
+  strength_mean: 28305
+  strength_var: null
 VA097|US:
-  cas_kwm_mean: 167
-  str_mean: 100000
+  casualties_kwm_mean: 167
+  strength_mean: 100000
 WV010|US:
-  cas_k_mean: 44
-  cas_k_var: null
-  cas_kwm_mean: 12922
-  cas_kwm_var: null
-  cas_m_mean: 12419
-  cas_m_var: null
-  cas_w_mean: 173
-  cas_w_var: null
+  casualties_k_mean: 44
+  casualties_k_var: null
+  casualties_kwm_mean: 12922
+  casualties_kwm_var: null
+  casualties_m_mean: 12419
+  casualties_m_var: null
+  casualties_w_mean: 173
+  casualties_w_var: null
   comment: Use the disaggregated CWSAC values rather than the CWSS values
-  str_mean: 12922
-  str_var: null
+  strength_mean: 12922
+  strength_var: null

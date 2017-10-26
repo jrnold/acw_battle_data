@@ -6,15 +6,15 @@ BELLIGERENTS <- c("U" = "US", "C" = "Confederate")
 
 #' Fix AAD reference IDs
 aad_to_cwsac_id <- function(x) {
-  plyr::revalue(x, c("AR010A" = "AR010", "GA013A" = "GA013"), warn_missing = FALSE)
+  recode(x, "AR010A" = "AR010", "GA013A" = "GA013")
 }
 #' Fix CWSACII ids
 cws2_to_cwsac_id <- function(x) {
-  plyr::revalue(x, c("AL002" = "AL009"), warn_missing = FALSE)
+  recode(x, "AL002" = "AL009")
 }
 #' Fix CWSS ids
 cwss_to_cwsac_id <- function(x) {
-  plyr::revalue(x, c("VA020A" = "VA020", "VA020B" = "VA020"), warn_missing = FALSE)
+  recode(x, "VA020A" = "VA020", "VA020B" = "VA020")
 }
 
 
@@ -58,7 +58,7 @@ gen_battlelist <-
     full_join(battlelist_cwsac, by = "cwsac_id") %>%
     full_join(battlelist_cws2, by = "cwsac_id") %>%
     full_join(battlelist_aad, by = "cwsac_id") %>%
-    mutate(battle_name = pnonmiss(battle_name, battle_name_cwsac,
+    mutate(battle_name = coalesce(battle_name, battle_name_cwsac,
                                   battle_name_cws2, battle_name_aad)) %>%
     select(-battle_name_cwsac, -battle_name_cws2, -battle_name_aad) %>%
     mutate(cwss = !is.na(cwss),
@@ -123,10 +123,10 @@ gen_battlelist <-
 #' Which to exclude?
 #'
 
-CWSS_RESULTS = c("Union Victory" = "Union",
-                 "Union Victory (strategic)" = "Union",
-                 "Confederate Victory (tactical)" = "Confederate",
-                 "Confederate Victory" = "Confederate")
+CWSS_RESULTS = list("Union Victory" = "Union",
+                   "Union Victory (strategic)" = "Union",
+                   "Confederate Victory (tactical)" = "Confederate",
+                   "Confederate Victory" = "Confederate")
 
 
 
@@ -164,7 +164,7 @@ gen_battles <-
     select(-Comment, -ID, -State,
            -matches("summary")) %>%
     mutate(partof_cwss = TRUE,
-           result = plyr::revalue(result, CWSS_RESULTS),
+           result = recode(result, UQS(CWSS_RESULTS)),
            casualties_kwm_cwss =
              ifelse(casualties_kwm_cwss == 0, NA_real_, casualties_kwm_cwss))
 
@@ -184,20 +184,21 @@ gen_battles <-
            casualties_kwm_cwsac = casualties,
            strength_cwsac = strength) %>%
     mutate(partof_cwsac = TRUE,
-           result_cwsac = plyr::revalue(result_cwsac,
-                                        c("Inconclusive" = "Indecisive")))
+           result_cwsac = recode(result_cwsac,
+                                 "Inconclusive" = "Indecisive"))
   nps_battles_cws2 <- cws2_battles %>%
     select(battle, url, study_area, core_area, potnr_boundary,
            battle_name, strength) %>%
     rename(cwsac_id = battle, cws2_url = url,
            battle_name_cws2 = battle_name,
            strength_cws2 = strength) %>%
-    mutate(partof_cws2 = TRUE)
+    mutate(partof_cws2 = TRUE,
+           strength_cws2 = as.numeric(strength_cws2))
 
   nps_battles_aad <- aad_battles %>%
     mutate(reference_number = aad_to_cwsac_id(reference_number),
            reference_number =
-             plyr::revalue(reference_number, c("VA020B" = "VA020"))) %>%
+             recode(reference_number, "VA020B" = "VA020")) %>%
     filter(!reference_number %in% c("VA020A")) %>%
     select(reference_number, matches("^interpretive_"),
            military_jim, military_ed, military_bill, url, type, event) %>%
@@ -232,18 +233,20 @@ gen_battles <-
              partof_cws2 = !is.na(partof_cws2),
              partof_aad = !is.na(partof_aad),
              battle_name =
-               pnonmiss(battle_name, battle_name_cwsac,
+               coalesce(battle_name,
+                        battle_name_cwsac,
                         battle_name_cws2,
                         battle_name_aad),
-             result = pnonmiss(result, result_cwsac),
-             start_date = pnonmiss(start_date, start_date_cwsac),
-             end_date = pnonmiss(end_date, end_date_cwsac),
+             result = coalesce(result, result_cwsac),
+             start_date = coalesce(start_date, start_date_cwsac),
+             end_date = coalesce(end_date, end_date_cwsac),
              state = str_sub(cwsac_id, 1, 2),
-             strength = pnonmiss(strength_forces, strength_cws2,
-               strength_cwsac),
-             casualties_kwm = pnonmiss(casualties_kwm_forces,
-                                       casualties_kwm_cwss,
-                                       casualties_kwm_cwsac)) %>%
+             strength = coalesce(as.numeric(strength_forces),
+                                 as.numeric(strength_cws2),
+                                 as.numeric(strength_cwsac)),
+             casualties_kwm = coalesce(as.numeric(casualties_kwm_forces),
+                                       as.numeric(casualties_kwm_cwss),
+                                       as.numeric(casualties_kwm_cwsac))) %>%
       select(-matches("battle_name_(cwsac|cws2|aad)"),
              -matches("(start|end)_date_cwsac"),
              -matches("result_cwsac"),
@@ -257,9 +260,7 @@ gen_battles <-
       nps_battles[nps_battles[["cwsac_id"]] == i, j] <- x[[j]]
     }
   }
-  nps_battles %>%
-    # needed so that it writes out to csv as an integer and not 1e+05
-    mutate(strength=as.integer(strength))
+  nps_battles
 }
 
 
@@ -336,6 +337,7 @@ gen_forces <- function(cwss_forces,
                        cwss_zero_casualties) {
 
   # Adjust VA020. Only use cas/strength from VA020.
+  # The casualties for GA028 are incorrect
   # Drop AL002, since it refers to a different battle than the Battle of Athens
   cwss_forces_casstr <-
     cwss_forces %>%
@@ -360,9 +362,9 @@ gen_forces <- function(cwss_forces,
     cwsac_forces %>%
     filter(!battle %in% c("VA020A", "VA020B")) %>%
     mutate(casualties_m_mean_cwsac = psum(missing, captured),
-           casualties_kwm_mean_cwsac = casualties,
-           casualties_k_mean_cwsac = killed,
-           casualties_w_mean_cwsac = wounded,
+           casualties_kwm_mean_cwsac = as.numeric(casualties),
+           casualties_k_mean_cwsac = as.numeric(killed),
+           casualties_w_mean_cwsac = as.numeric(wounded),
            strength_mean_cwsac = unif_mean(strength_min, strength_max),
            strength_var_cwsac = ifelse(strength_min == strength_max,
                                   rounded_var(strength_min),
@@ -376,8 +378,8 @@ gen_forces <- function(cwss_forces,
 
   cws2_forces_casstr <-
     cws2_forces %>%
-    rename(strength_mean_cws2 = strength,
-           cwsac_id = battle) %>%
+    rename(cwsac_id = battle) %>%
+    mutate(strength_mean_cws2 = as.numeric(strength)) %>%
     select(cwsac_id, belligerent, matches("(strength|casualties)_")) %>%
     filter(!cwsac_id %in% c("AL002")) %>%
     mutate(belligerent =
@@ -394,16 +396,15 @@ gen_forces <- function(cwss_forces,
 
   for (j in c("mean", "var")) {
     casstr[[paste0("casualties_kwm_", j)]] <-
-      pnonmiss(casstr[[paste0("casualties_kwm_", j, "_cwss")]],
-               casstr[[paste0("casualties_kwm_", j, "_cwsac")]])
+      coalesce(as.numeric(casstr[[paste0("casualties_kwm_", j, "_cwss")]]),
+               as.numeric(casstr[[paste0("casualties_kwm_", j, "_cwsac")]]))
     casstr[[paste0("strength_", j)]] <-
-      pnonmiss(casstr[[paste0("strength_", j, "_cwss")]],
-               casstr[[paste0("strength_", j, "_cws2")]],
-               casstr[[paste0("strength_", j, "_cwsac")]])
+      coalesce(as.numeric(casstr[[paste0("strength_", j, "_cwss")]]),
+               as.numeric(casstr[[paste0("strength_", j, "_cws2")]]),
+               as.numeric(casstr[[paste0("strength_", j, "_cwsac")]]))
     for (i in c("k", "w", "m")) {
       varname <- paste0("casualties_", i, "_", j)
-      casstr[[varname]] <-
-        pnonmiss(casstr[[paste0(varname, "_cwsac")]])
+      casstr[[varname]] <- casstr[[paste0(varname, "_cwsac")]]
     }
   }
 
@@ -411,10 +412,11 @@ gen_forces <- function(cwss_forces,
   casstr[["casualties_kw_mean"]] <- NA_real_
   casstr[["casualties_kw_var"]] <- NA_real_
   for (i in names(extra_forces)) {
+    # browser()
     x <- extra_forces[[i]]
     for (j in grep("^(casualties|strength)_.*(mean|var)",
                    names(x), value = TRUE)) {
-      keys <- strength_split_fixed(i, fixed("|"), 2)
+      keys <- str_split_fixed(i, fixed("|"), 2)
       cwsac_id <- keys[1, 1]
       belligerent <- keys[1, 2]
       rownum <- which(casstr[["cwsac_id"]] == cwsac_id &
@@ -427,6 +429,7 @@ gen_forces <- function(cwss_forces,
         }
     }
   }
+  #  browser()
 
   casstr %>%
     select(cwsac_id, belligerent,
