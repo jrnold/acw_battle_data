@@ -28,3 +28,9 @@
 
     - removed column `battle_type_cwss`
     - renamed column `battle_type_aad` to `battle_type`
+
+# 5.0.1 (2017-10-31)
+
+## Bug fixes
+
+- In CWSAC data, change value of strength for AR002 from 50 to missing.
