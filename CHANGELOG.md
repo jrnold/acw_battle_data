@@ -18,3 +18,13 @@
 
 - `nps_forces.csv`, `nps_battles.csv`: fix incorrect cases in which casualties were greater than strengths. This included GA028, MO014, MO017, TN006, TN015.
 - Remove exponential notation for large round strength and casualty figures in csv files.
+
+# 5.0.0 (2017-10-30)
+
+## Changes
+
+- `nps_battles.csv`: Both CWSS and AAD sources provide battle types, but AAD is
+    is more complete, to only include it.
+
+    - removed column `battle_type_cwss`
+    - renamed column `battle_type_aad` to `battle_type`
