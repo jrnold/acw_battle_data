@@ -10,6 +10,8 @@ docs: html
 html:
 	make -C docs html
 
+clean:
+	rm -rf *.tar.gz *.zip
 
 # Deploy data to S3
 deploy:
