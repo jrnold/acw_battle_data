@@ -2,7 +2,7 @@
 American Civil War Battle Data
 ##############################
 
-:Version: 6.0.0
+:Version: 6.0.1
 :License: `ODC-BY <http://opendatacommons.org/licenses/by/1.0/>`__
 :Author: Jeffrey B. Arnold <jeffrey.arnold@gmail.com> (http://jrnold.me)
 :Homepage: https://github.com/jrnold/acw_battle_data
@@ -15,8 +15,8 @@ This is mostly a repackaging of data from other secondary and primary sources, a
 
 Downloads
 
-- `acw_battle_data-6.0.0.tar.gz <https://jrnold-data.s3.amazonaws.com/acw_battle_data/acw_battle_data-6.0.0.tar.gz>`__
-- `acw_battle_data-6.0.0.zip <https://jrnold-data.s3.amazonaws.com/acw_battle_data/acw_battle_data-6.0.0.zip>`__
+- `acw_battle_data-6.0.1.tar.gz <https://jrnold-data.s3.amazonaws.com/acw_battle_data/acw_battle_data-6.0.1.tar.gz>`__
+- `acw_battle_data-6.0.1.zip <https://jrnold-data.s3.amazonaws.com/acw_battle_data/acw_battle_data-6.0.1.zip>`__
 
 
 .. toctree::
