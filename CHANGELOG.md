@@ -18,3 +18,9 @@
 
 - `nps_forces.csv`, `nps_battles.csv`: fix incorrect cases in which casualties were greater than strengths. This included GA028, MO014, MO017, TN006, TN015.
 - Remove exponential notation for large round strength and casualty figures in csv files.
+
+# 5.0.2 (2017-10-31)
+
+## Bug fixes
+
+- `fox_forces_to_cwsac.json`: Fix incorrect match of U51 to MS002.

@@ -1,0 +1,910 @@
+- CampaignCode: LS61-01
+  CampaignName: Operations in Charleston Harbor
+  CampaignDates: April 1861
+  CampaignStartDate: -39721.0
+  CampaignEndDate: -39692.0
+  TheaterCode: LS
+  attacker: Union
+- CampaignCode: LS61-02
+  CampaignName: Operations of Gulf Blockading Squadron
+  CampaignDates: October 1861
+  CampaignStartDate: -39538.0
+  CampaignEndDate: -39508.0
+  TheaterCode: LS
+  attacker: Union
+- CampaignCode: LS62-01
+  CampaignName: Operations Against Fort Pulaski
+  CampaignDates: April 1862
+  CampaignStartDate: -39356.0
+  CampaignEndDate: -39327.0
+  TheaterCode: LS
+  attacker: Union
+- CampaignCode: LS62-02
+  CampaignName: Expedition to and Capture of New Orleans
+  CampaignDates: April-May 1862
+  CampaignStartDate: -39356.0
+  CampaignEndDate: -39296.0
+  TheaterCode: LS
+  attacker: Union
+- CampaignCode: LS62-03
+  CampaignName: Operations Against Charleston
+  CampaignDates: June 1862
+  CampaignStartDate: -39295.0
+  CampaignEndDate: -39266.0
+  TheaterCode: LS
+  attacker: Union
+- CampaignCode: LS62-04
+  CampaignName: Union Operations Against Tampa
+  CampaignDates: June-July 1862
+  CampaignStartDate: -39295.0
+  CampaignEndDate: -39235.0
+  TheaterCode: LS
+  attacker: Union
+- CampaignCode: LS62-05
+  CampaignName: Confederate Offensive Against Baton Rouge
+  CampaignDates: July-August 1862
+  CampaignStartDate: -39265.0
+  CampaignEndDate: -39204.0
+  TheaterCode: LS
+  attacker: Confederate
+- CampaignCode: LS62-06
+  CampaignName: Expedition From Hilton Head, SC to St. John Bluff, FL
+  CampaignDates: September-October 1862
+  CampaignStartDate: -39203.0
+  CampaignEndDate: -39143.0
+  TheaterCode: LS
+  attacker: ''
+- CampaignCode: LS62-07
+  CampaignName: Operations in Lafourche District
+  CampaignDates: October 1862
+  CampaignStartDate: -39173.0
+  CampaignEndDate: -39143.0
+  TheaterCode: LS
+  attacker: ''
+- CampaignCode: LS63-01
+  CampaignName: Union Naval Attacks on Fort McAllister
+  CampaignDates: March 1863
+  CampaignStartDate: -39022.0
+  CampaignEndDate: -38992.0
+  TheaterCode: LS
+  attacker: Union
+- CampaignCode: LS63-02
+  CampaignName: Operations in West Louisiana
+  CampaignDates: April 1863
+  CampaignStartDate: -38991.0
+  CampaignEndDate: -38962.0
+  TheaterCode: LS
+  attacker: Union
+  victor: Union
+  comment: >-
+    Union operations by Nathaniel Banks taken to secure the Bayou Teche region
+    and Alexandria, LA.
+- CampaignCode: LS63-03
+  CampaignName: Operations Against Defenses of Charleston
+  CampaignDates: April-September 1863
+  CampaignStartDate: -38991.0
+  CampaignEndDate: -38809.0
+  TheaterCode: LS
+  attacker: Union
+  victor: Confederate
+  comment: >-
+    Objective was to capture the Port of Charleston.
+    The Union fails to take Charleston.
+- CampaignCode: LS63-04
+  CampaignName: Siege of Port Hudson
+  CampaignDates: May-July 1863
+  CampaignStartDate: -38961.0
+  CampaignEndDate: -38870.0
+  TheaterCode: LS
+  attacker: Union
+  victor: Union
+- CampaignCode: LS63-05
+  CampaignName: Taylor's Operations in Louisiana West of Mississippi
+  CampaignDates: June-September 1863
+  CampaignStartDate: -38930.0
+  CampaignEndDate: -38809.0
+  TheaterCode: LS
+  attacker: Confederate
+- CampaignCode: LS63-06
+  CampaignName: Expedition to Destroy Ships in Hillsboro River
+  CampaignDates: October 1863
+  CampaignStartDate: -38808.0
+  CampaignEndDate: -38778.0
+  TheaterCode: LS
+  attacker: Union
+  victor: Union
+  comments: >
+    Objective was to destroy two blockade runners at the a shipyard near
+    Tampa. The objective was achieved.
+- CampaignCode: LS64-01
+  CampaignName: Florida Expedition
+  CampaignDates: February 1864
+  CampaignStartDate: -38685.0
+  CampaignEndDate: -38657.0
+  TheaterCode: LS
+  attacker: Union
+  victor: Confederate
+  comments: >-
+    Union forces under Truman Seymour intended to disrput Confederate food
+    supply in Florida. He changed objectives and attempted to take Tallahassee.
+    The Union forces were defeated at the Battle of Olustee.
+- CampaignCode: LS65-01
+  CampaignName: Operations in the Vicinity of St Mark's Florida
+  CampaignDates: March 1865
+  CampaignStartDate: -38291.0
+  CampaignEndDate: -38261.0
+  TheaterCode: LS
+  attacker: Union
+  victor: Confederate
+  comments: >-
+    Union forces intended to capture Tallahassee. They were defeated at the
+    Battle of Natural Bridge.
+- CampaignCode: ME61-01
+  CampaignName: Union Blockade of Chesapeake Bay
+  CampaignDates: May-June 1861
+  CampaignStartDate: -39691.0
+  CampaignEndDate: -39631.0
+  TheaterCode: ME
+  attacker: Union
+  victor: Confederate
+  comment: >
+    A Confederate victory at Mathias Point maintained the ability of
+    Confederate blockade runners to escape Richmond.
+- CampaignCode: ME61-02
+  CampaignName: Operations in Western Virginia
+  CampaignDates: June-December 1861
+  CampaignStartDate: -39660.0
+  CampaignEndDate: -39447.0
+  TheaterCode: ME
+  attacker: Union
+  victor: Union
+  comment: >
+    Union forces occupied and secured the western portion of Virginia.
+- CampaignCode: ME61-03
+  CampaignName: Manassas Campaign
+  CampaignDates: July 1861
+  CampaignStartDate: -39630.0
+  CampaignEndDate: -39600.0
+  TheaterCode: ME
+  attacker: Union
+  victor: Confederate
+  comment: >
+    Union forces under McDowell attempt to defeat Bureagard's army at
+    Manassas. The Union loses the First Battle of Manassas.
+- CampaignCode: ME61-04
+  CampaignName: Union Blockade of Carolina Coast
+  CampaignDates: August 1861
+  CampaignStartDate: -39599.0
+  CampaignEndDate: -39569.0
+  TheaterCode: ME
+  attacker: Union
+  victor: Union
+  comment: >
+    Union forces aim to capture batteries protecting the Hatteras Inlet.
+    They succeed.
+- CampaignCode: ME61-05
+  CampaignName: McClellan's Operations in Northern Virginia
+  CampaignDates: October-December 1861
+  CampaignStartDate: -39538.0
+  CampaignEndDate: -39447.0
+  TheaterCode: ME
+  attacker: Union
+  victor: Confederate
+  comment: >
+    Union forces under McClellan move across the Potomac to recon.
+    They are defeated at Ball's Bluff.
+- CampaignCode: ME61-06
+  CampaignName: Confederate Blockade of the Potomac River
+  CampaignDates: October 1861-January 1862
+  CampaignStartDate: -39538.0
+  CampaignEndDate: -39416.0
+  TheaterCode: ME
+  attacker: Inconclusive
+  victor: Union
+  comment: >
+    Confederate forces established batteries along the Potomac river to
+    blockade it. They succeed, but ultimately retrat to Richmond.
+- CampaignCode: ME62-01
+  CampaignName: Jackson's Operations Against the B&O RR
+  CampaignDates: January 1862
+  CampaignStartDate: -39446.0
+  CampaignEndDate: -39416.0
+  TheaterCode: ME
+  attacker: Confederate
+  victor: Union
+  comment: >
+    Jackson's Confederate forces aimed to disrupt the B&O railroad and C&C
+    canal. They are defeated at Hancock, and fail to cross the Potomac.
+- CampaignCode: ME62-02
+  CampaignName: Burnside's North Carolina Expedition
+  CampaignDates: February-June 1862
+  CampaignStartDate: -39415.0
+  CampaignEndDate: -39266.0
+  TheaterCode: ME
+  attacker: Union
+  victor: Union
+  comment: >
+    The objective was to close blockade running ports in the outer banks.
+    Burnside takes and occupies Roanoke Island, New Bern, Morehead City, Beaufort and Washington, North Carolina.
+- CampaignCode: ME62-03
+  CampaignName: Jackson's Valley Campaign
+  CampaignDates: March-June 1862
+  CampaignStartDate: -39387.0
+  CampaignEndDate: -39266.0
+  TheaterCode: ME
+  attacker: Confederate
+  victor: Confederate
+  comment: >
+    Jackson's forces engage Union forces in the Shennadoah valley and prevent
+    them from reinforcing Richmond.
+- CampaignCode: ME62-04
+  CampaignName: Peninsula Campaign
+  CampaignDates: March-July 1862
+  CampaignStartDate: -39387.0
+  CampaignEndDate: -39235.0
+  TheaterCode: ME
+  attacker: Union
+  victor: Confederate
+  comment: >
+    McClellan attempts to take Richmond. Union forces are defeated in the 7 days battles.
+- CampaignCode: ME62-05
+  CampaignName: Northern Virginia Campaign
+  CampaignDates: August 1862
+  CampaignStartDate: -39234.0
+  CampaignEndDate: -39204.0
+  TheaterCode: ME
+  attacker: Confederate
+- CampaignCode: ME62-06
+  CampaignName: Maryland Campaign
+  CampaignDates: September 1862
+  CampaignStartDate: -39203.0
+  CampaignEndDate: -39174.0
+  TheaterCode: ME
+  attacker: Confederate
+- CampaignCode: ME62-07
+  CampaignName: Fredericksburg Campaign
+  CampaignDates: November-December 1862
+  CampaignStartDate: -39142.0
+  CampaignEndDate: -39082.0
+  TheaterCode: ME
+  attacker: Union
+- CampaignCode: ME62-08
+  CampaignName: Goldsboro Expedition
+  CampaignDates: December 1862
+  CampaignStartDate: -39112.0
+  CampaignEndDate: -39082.0
+  TheaterCode: ME
+  attacker: ''
+- CampaignCode: ME63-01
+  CampaignName: Longstreet's Tidewater Operations
+  CampaignDates: March-April 1863
+  CampaignStartDate: -39022.0
+  CampaignEndDate: -38962.0
+  TheaterCode: ME
+  attacker: Confederate
+- CampaignCode: ME63-02
+  CampaignName: Cavalry Operations Along the Rappahannock
+  CampaignDates: March 1863
+  CampaignStartDate: -39022.0
+  CampaignEndDate: -38992.0
+  TheaterCode: ME
+  attacker: ''
+- CampaignCode: ME63-03
+  CampaignName: Chancellorsville Campaign
+  CampaignDates: April-May 1863
+  CampaignStartDate: -38991.0
+  CampaignEndDate: -38931.0
+  TheaterCode: ME
+  attacker: Union
+- CampaignCode: ME63-04
+  CampaignName: Gettysburg Campaign
+  CampaignDates: June-July 1863
+  CampaignStartDate: -38930.0
+  CampaignEndDate: -38870.0
+  TheaterCode: ME
+  attacker: Confederate
+- CampaignCode: ME63-05
+  CampaignName: Bristoe Campaign
+  CampaignDates: October-November 1863
+  CampaignStartDate: -38808.0
+  CampaignEndDate: -38748.0
+  TheaterCode: ME
+  attacker: ''
+- CampaignCode: ME63-06
+  CampaignName: Averell's Raid On the Virginia & Tennessee RR
+  CampaignDates: November 1863
+  CampaignStartDate: -38777.0
+  CampaignEndDate: -38748.0
+  TheaterCode: ME
+  attacker: Union
+- CampaignCode: ME63-07
+  CampaignName: Mine Run Campaign
+  CampaignDates: November-December 1863
+  CampaignStartDate: -38777.0
+  CampaignEndDate: -38717.0
+  TheaterCode: ME
+  attacker: ''
+- CampaignCode: ME64-01
+  CampaignName: Demonstration on the Rapidan River
+  CampaignDates: February 1864
+  CampaignStartDate: -38685.0
+  CampaignEndDate: -38657.0
+  TheaterCode: ME
+  attacker: ''
+- CampaignCode: ME64-02
+  CampaignName: Kilpatrick-Dahlgren Raid
+  CampaignDates: March 1864
+  CampaignStartDate: -38656.0
+  CampaignEndDate: -38626.0
+  TheaterCode: ME
+  attacker: ''
+- CampaignCode: ME64-03
+  CampaignName: Operations Against Plymouth and New Berne
+  CampaignDates: April-May 1864
+  CampaignStartDate: -38625.0
+  CampaignEndDate: -38565.0
+  TheaterCode: ME
+  attacker: ''
+- CampaignCode: ME64-04
+  CampaignName: Crook-Averell Raid on the Virginia & Tennessee
+  CampaignDates: May 1864
+  CampaignStartDate: -38595.0
+  CampaignEndDate: -38565.0
+  TheaterCode: ME
+  attacker: ''
+- CampaignCode: ME64-05
+  CampaignName: Bermuda Hundred Campaign
+  CampaignDates: May 1864
+  CampaignStartDate: -38595.0
+  CampaignEndDate: -38565.0
+  TheaterCode: ME
+  attacker: ''
+- CampaignCode: ME64-06
+  CampaignName: Grant's Overland Campaign
+  CampaignDates: May-June 1864
+  CampaignStartDate: -38595.0
+  CampaignEndDate: -38535.0
+  TheaterCode: ME
+  attacker: Union
+- CampaignCode: ME64-07
+  CampaignName: Lynchburg Campaign
+  CampaignDates: May-June 1864
+  CampaignStartDate: -38595.0
+  CampaignEndDate: -38535.0
+  TheaterCode: ME
+  attacker: ''
+- CampaignCode: ME64-08
+  CampaignName: Early's Raid and Operations Against B&O RR
+  CampaignDates: June-August 1864
+  CampaignStartDate: -38564.0
+  CampaignEndDate: -38473.0
+  TheaterCode: ME
+  attacker: Confederate
+- CampaignCode: ME64-09
+  CampaignName: Richmand-Petersburg Campaign
+  CampaignDates: June-December 1864
+  CampaignStartDate: -38564.0
+  CampaignEndDate: -38351.0
+  TheaterCode: ME
+  attacker: Union
+- CampaignCode: ME64-10
+  CampaignName: Sheridan's Valley Campaign
+  CampaignDates: August-October 1864
+  CampaignStartDate: -38503.0
+  CampaignEndDate: -38412.0
+  TheaterCode: ME
+  attacker: Union
+- CampaignCode: ME64-11
+  CampaignName: Expedition Against Fort Fisher
+  CampaignDates: December 1864
+  CampaignStartDate: -38381.0
+  CampaignEndDate: -38351.0
+  TheaterCode: ME
+  attacker: ''
+- CampaignCode: ME65-01
+  CampaignName: Operations Against Fort Fisher & Wilmington
+  CampaignDates: January-February 1865
+  CampaignStartDate: -38350.0
+  CampaignEndDate: -38292.0
+  TheaterCode: ME
+  attacker: ''
+- CampaignCode: ME65-02
+  CampaignName: Richmond-Petersburg Campaign Continued
+  CampaignDates: January-March 1865
+  CampaignStartDate: -38350.0
+  CampaignEndDate: -38261.0
+  TheaterCode: ME
+  attacker: Union
+- CampaignCode: ME65-03
+  CampaignName: Sheridan's Expedition to Petersburg
+  CampaignDates: March 1865
+  CampaignStartDate: -38291.0
+  CampaignEndDate: -38261.0
+  TheaterCode: ME
+  attacker: Union
+- CampaignCode: ME65-04
+  CampaignName: Appomatox Campaign
+  CampaignDates: March-April 1865
+  CampaignStartDate: -38291.0
+  CampaignEndDate: -38231.0
+  TheaterCode: ME
+  attacker: Union
+- CampaignCode: MW61-01
+  CampaignName: Confederate Offensive In Eastern Kentucky
+  CampaignDates: September-December 1861
+  CampaignStartDate: -39568.0
+  CampaignEndDate: -39447.0
+  TheaterCode: MW
+  attacker: Confederate
+- CampaignCode: MW61-02
+  CampaignName: Operations at the Ohio - Mississippi River Confluence
+  CampaignDates: November 1861
+  CampaignStartDate: -39507.0
+  CampaignEndDate: -39478.0
+  TheaterCode: MW
+  attacker: ''
+- CampaignCode: MW62-01
+  CampaignName: Thomas's Offensive in Eastern Kentucky
+  CampaignDates: January 1862
+  CampaignStartDate: -39446.0
+  CampaignEndDate: -39416.0
+  TheaterCode: MW
+  attacker: ''
+- CampaignCode: MW62-02
+  CampaignName: Union Penetration Up the Cumberland & Tennessee Rivers
+  CampaignDates: February-June 1862
+  CampaignStartDate: -39415.0
+  CampaignEndDate: -39266.0
+  TheaterCode: MW
+  attacker: Union
+- CampaignCode: MW62-03
+  CampaignName: Joint Operations Against New Madrid Island No. 10
+  CampaignDates: February-June 1862
+  CampaignStartDate: -39415.0
+  CampaignEndDate: -39266.0
+  TheaterCode: MW
+  attacker: Union
+- CampaignCode: MW62-04
+  CampaignName: Confederate Heartland Offensive
+  CampaignDates: June-October 1862
+  CampaignStartDate: -39295.0
+  CampaignEndDate: -39143.0
+  TheaterCode: MW
+  attacker: Confederate
+- CampaignCode: MW62-05
+  CampaignName: Iuka and Corinth Operations
+  CampaignDates: September-October 1862
+  CampaignStartDate: -39203.0
+  CampaignEndDate: -39143.0
+  TheaterCode: MW
+  attacker: ''
+- CampaignCode: MW62-06
+  CampaignName: Stones River Campaign
+  CampaignDates: December 1862-January 1863
+  CampaignStartDate: -39112.0
+  CampaignEndDate: -39051.0
+  TheaterCode: MW
+  attacker: ''
+- CampaignCode: MW62-07
+  CampaignName: Forrest's Expedition Into West Tennessee
+  CampaignDates: December 1862-January 1863
+  CampaignStartDate: -39112.0
+  CampaignEndDate: -39051.0
+  TheaterCode: MW
+  attacker: Confederate
+- CampaignCode: MW62-08
+  CampaignName: Operations Against Vicksburg
+  CampaignDates: December 1862-January 1863
+  CampaignStartDate: -39112.0
+  CampaignEndDate: -39051.0
+  TheaterCode: MW
+  attacker: Union
+- CampaignCode: MW63-01
+  CampaignName: Grant's Operations Against Vicksburg
+  CampaignDates: March-July 1863
+  CampaignStartDate: -39022.0
+  CampaignEndDate: -38870.0
+  TheaterCode: MW
+  attacker: Union
+- CampaignCode: MW63-02
+  CampaignName: Middle Tennessee Operations
+  CampaignDates: February-April 1863
+  CampaignStartDate: -39050.0
+  CampaignEndDate: -38962.0
+  TheaterCode: MW
+  attacker: ''
+- CampaignCode: MW63-03
+  CampaignName: 'Streight''s Raid: Tuscumbia Alabama Toward Rome, Georgia'
+  CampaignDates: April 1863
+  CampaignStartDate: -38991.0
+  CampaignEndDate: -38962.0
+  TheaterCode: MW
+  attacker: Union
+- CampaignCode: MW63-04
+  CampaignName: Tullahoma (of Middle Tennessee) Campaign
+  CampaignDates: June 1863
+  CampaignStartDate: -38930.0
+  CampaignEndDate: -38901.0
+  TheaterCode: MW
+  attacker: Union
+  victor: Union
+  comment: >
+    Union Army of the Cumberland's commanded by William Rosecrans attempted to
+    control middle Tennesse and capture Chattanooga. They succeed in taking
+    Chattanooga.
+- CampaignCode: MW63-05
+  CampaignName: Morgan's Raid in Kentucky Indiana and Ohio
+  CampaignDates: July 1863
+  CampaignStartDate: -38900.0
+  CampaignEndDate: -38870.0
+  TheaterCode: MW
+  attacker: Confederate
+  victor: Union
+  comment: >
+    Morgan's Confederate forces were all captured.
+- CampaignCode: MW63-06
+  CampaignName: Chickamauga Campaign
+  CampaignDates: August-September 1863
+  CampaignStartDate: -38869.0
+  CampaignEndDate: -38809.0
+  TheaterCode: MW
+  attacker: Union
+  victor: Confederate
+  comment: >
+    A campaign the Union Army of the Cumberland commanded by Rosecrans and
+    and the Confederate Army of Tennessee commanded by Bragg. The Union
+    attempted to move into Northern Georgia from Chattanooga. They were
+    defeated at Chickamagua.
+- CampaignCode: MW63-07
+  CampaignName: East Tennessee Campaign
+  CampaignDates: September-October 1863
+  CampaignStartDate: -38838.0
+  CampaignEndDate: -38778.0
+  TheaterCode: MW
+  attacker: ''
+- CampaignCode: MW63-08
+  CampaignName: Reopening the Tennessee River
+  CampaignDates: October 1863
+  CampaignStartDate: -38808.0
+  CampaignEndDate: -38778.0
+  TheaterCode: MW
+  attacker: ''
+- CampaignCode: MW63-09
+  CampaignName: Operations on the Memphis and Charleston RR
+  CampaignDates: November 1863
+  CampaignStartDate: -38777.0
+  CampaignEndDate: -38748.0
+  TheaterCode: MW
+  attacker: ''
+- CampaignCode: MW63-10
+  CampaignName: Chattanooga-Ringgold Campaign
+  CampaignDates: November 1863
+  CampaignStartDate: -38777.0
+  CampaignEndDate: -38748.0
+  TheaterCode: MW
+  attacker: ''
+- CampaignCode: MW63-11
+  CampaignName: Longstreet's Knoxville Campaign
+  CampaignDates: November-December 1863
+  CampaignStartDate: -38777.0
+  CampaignEndDate: -38717.0
+  TheaterCode: MW
+  attacker: Confederate
+- CampaignCode: MW64-01
+  CampaignName: Operations About Dandridge Tennessee
+  CampaignDates: December 1863-January 1864
+  CampaignStartDate: -38747.0
+  CampaignEndDate: -38686.0
+  TheaterCode: MW
+  attacker: ''
+- CampaignCode: MW64-02
+  CampaignName: Operations in North Alabama
+  CampaignDates: January 1864
+  CampaignStartDate: -38716.0
+  CampaignEndDate: -38686.0
+  TheaterCode: MW
+  attacker: ''
+- CampaignCode: MW64-03
+  CampaignName: Meridian and Yazoo River Expeditions
+  CampaignDates: February 1864
+  CampaignStartDate: -38685.0
+  CampaignEndDate: -38657.0
+  TheaterCode: MW
+  attacker: ''
+- CampaignCode: MW64-04
+  CampaignName: Forrest's Expedition Into West Tennessee and Kentucky
+  CampaignDates: February 1864
+  CampaignStartDate: -38685.0
+  CampaignEndDate: -38657.0
+  TheaterCode: MW
+  attacker: Confederate
+- CampaignCode: MW64-05
+  CampaignName: Atlanta Campaign
+  CampaignDates: March-April 1864
+  CampaignStartDate: -38656.0
+  CampaignEndDate: -38596.0
+  TheaterCode: MW
+  attacker: ''
+- CampaignCode: MW64-06
+  CampaignName: Morgan's Raid Into Kentucky
+  CampaignDates: May-September 1864
+  CampaignStartDate: -38595.0
+  CampaignEndDate: -38443.0
+  TheaterCode: MW
+  attacker: Confedearte
+- CampaignCode: MW64-07
+  CampaignName: Forrest's Defense Of Mississippi
+  CampaignDates: June 1864
+  CampaignStartDate: -38564.0
+  CampaignEndDate: -38535.0
+  TheaterCode: MW
+  attacker: ''
+- CampaignCode: MW64-08
+  CampaignName: Operations in Mobile Bat
+  CampaignDates: June-August 1864
+  CampaignStartDate: -38564.0
+  CampaignEndDate: -38473.0
+  TheaterCode: MW
+  attacker: Union
+- CampaignCode: MW64-09
+  CampaignName: Burbridge's Raid into Southwest Virginia
+  CampaignDates: August 1864
+  CampaignStartDate: -38503.0
+  CampaignEndDate: -38473.0
+  TheaterCode: MW
+  attacker: Union
+- CampaignCode: MW64-10
+  CampaignName: Hood's Operations Against Sherman's Communications
+  CampaignDates: October 1864
+  CampaignStartDate: -38442.0
+  CampaignEndDate: -38412.0
+  TheaterCode: MW
+  attacker: Confederate
+- CampaignCode: MW64-11
+  CampaignName: Forrest's Raid Into West Tennessee
+  CampaignDates: November 1864
+  CampaignStartDate: -38411.0
+  CampaignEndDate: -38382.0
+  TheaterCode: MW
+  attacker: Confederate
+- CampaignCode: MW64-12
+  CampaignName: Breckenridge's Advance into East Tennessee
+  CampaignDates: November-December 1864
+  CampaignStartDate: -38411.0
+  CampaignEndDate: -38351.0
+  TheaterCode: MW
+  attacker: Confederate
+- CampaignCode: MW64-13
+  CampaignName: Savannah Campaign
+  CampaignDates: September-December 1864
+  CampaignStartDate: -38472.0
+  CampaignEndDate: -38351.0
+  TheaterCode: MW
+  attacker: ''
+- CampaignCode: MW64-14
+  CampaignName: Franklin-Nashville Campaign
+  CampaignDates: December 1864
+  CampaignStartDate: -38381.0
+  CampaignEndDate: -38351.0
+  TheaterCode: MW
+  attacker: ''
+- CampaignCode: MW65-01
+  CampaignName: Campaign of the Carolina's
+  CampaignDates: February-March 1865
+  CampaignStartDate: -38319.0
+  CampaignEndDate: -38261.0
+  TheaterCode: MW
+  attacker: ''
+- CampaignCode: MW65-02
+  CampaignName: Mobile Campaign
+  CampaignDates: March-April 1865
+  CampaignStartDate: -38291.0
+  CampaignEndDate: -38231.0
+  TheaterCode: MW
+  attacker: ''
+- CampaignCode: MW65-03
+  CampaignName: 'Wilson''s Raid: Chickasaw Alabama and Macon Georgia'
+  CampaignDates: April 1865
+  CampaignStartDate: -38260.0
+  CampaignEndDate: -38231.0
+  TheaterCode: MW
+  attacker: Union
+- CampaignCode: PC63-01
+  CampaignName: Expedition From Camp Douglas Utah to Cache Valley
+  CampaignDates: January 29, 1863
+  CampaignStartDate: -708935.0
+  CampaignEndDate: -708905.0
+  TheaterCode: PC
+  attacker: Union
+- CampaignCode: TM61-01
+  CampaignName: Operations to Constrol Missouri
+  CampaignDates: June-October 1861
+  CampaignStartDate: -39660.0
+  CampaignEndDate: -39508.0
+  TheaterCode: TM
+  attacker: ''
+- CampaignCode: TM61-02
+  CampaignName: Operations in the Indian Territory
+  CampaignDates: November-December 1861
+  CampaignStartDate: -39507.0
+  CampaignEndDate: -39447.0
+  TheaterCode: TM
+  attacker: ''
+- CampaignCode: TM61-03
+  CampaignName: Operations in Northeast Missouri
+  CampaignDates: December 1861
+  CampaignStartDate: -39477.0
+  CampaignEndDate: -39447.0
+  TheaterCode: TM
+  attacker: ''
+- CampaignCode: TM62-01
+  CampaignName: Sobley's New Mexico Operations
+  CampaignDates: February-March 1862
+  CampaignStartDate: -39415.0
+  CampaignEndDate: -39357.0
+  TheaterCode: TM
+  attacker: Confederate
+- CampaignCode: TM62-02
+  CampaignName: Pea Ridge Campaign
+  CampaignDates: March 1862
+  CampaignStartDate: -39387.0
+  CampaignEndDate: -39357.0
+  TheaterCode: TM
+  attacker: Union
+- CampaignCode: TM62-03
+  CampaignName: Operations on White River
+  CampaignDates: June 1862
+  CampaignStartDate: -39295.0
+  CampaignEndDate: -39266.0
+  TheaterCode: TM
+  attacker: Union
+- CampaignCode: TM62-04
+  CampaignName: Operations Near Cacke River Arkansas
+  CampaignDates: July 1862
+  CampaignStartDate: -39265.0
+  CampaignEndDate: -39235.0
+  TheaterCode: TM
+  attacker: Confederate
+  comments: >
+    Unclear. Curtis moves Union forces towards Helena. Hindman attacks.
+    Then Union forces pursue.
+- CampaignCode: TM62-05
+  CampaignName: Confederate Offensive North of Boston Mountains
+  CampaignDates: August-November 1862
+  CampaignStartDate: -39234.0
+  CampaignEndDate: -39113.0
+  TheaterCode: TM
+  attacker: Confederate
+- CampaignCode: TM62-06
+  CampaignName: Operations to Suppress the Sioux Uprising
+  CampaignDates: August-September 1862
+  CampaignStartDate: -39234.0
+  CampaignEndDate: -39174.0
+  TheaterCode: TM
+  attacker: Union
+- CampaignCode: TM62-07
+  CampaignName: Operations to Blockade the Texas Coast
+  CampaignDates: September 1862-January 1863
+  CampaignStartDate: -39203.0
+  CampaignEndDate: -39051.0
+  TheaterCode: TM
+  attacker: Union
+- CampaignCode: TM62-08
+  CampaignName: Prairie Grove Campaign
+  CampaignDates: November 1862
+  CampaignStartDate: -39142.0
+  CampaignEndDate: -39113.0
+  TheaterCode: TM
+  attacker: Union
+- CampaignCode: TM63-01
+  CampaignName: Confederate Offensive Against Galveston
+  CampaignDates: December 1862-January 1863
+  CampaignStartDate: -39112.0
+  CampaignEndDate: -39051.0
+  TheaterCode: TM
+  attacker: Confederate
+- CampaignCode: TM63-02
+  CampaignName: Marmaduke's Expedition Into Missouri
+  CampaignDates: January 1863
+  CampaignStartDate: -39081.0
+  CampaignEndDate: -39051.0
+  TheaterCode: TM
+  attacker: Confederate
+- CampaignCode: TM63-03
+  CampaignName: Marmaduke's Second Expedition Into Missouri
+  CampaignDates: April-May 1863
+  CampaignStartDate: -38991.0
+  CampaignEndDate: -38931.0
+  TheaterCode: TM
+  attacker: Confederate
+- CampaignCode: TM63-04
+  CampaignName: Operations to Control Indian Territory
+  CampaignDates: June-September 1863
+  CampaignStartDate: -38930.0
+  CampaignEndDate: -38809.0
+  TheaterCode: TM
+  attacker: ''
+- CampaignCode: TM63-05
+  CampaignName: Operations Against the Sioux In North Dakota
+  CampaignDates: July 1863
+  CampaignStartDate: -38900.0
+  CampaignEndDate: -38870.0
+  TheaterCode: TM
+  attacker: Union
+- CampaignCode: TM63-06
+  CampaignName: Quantrill's Raid Into Kansas
+  CampaignDates: August 1863
+  CampaignStartDate: -38869.0
+  CampaignEndDate: -38839.0
+  TheaterCode: TM
+  attacker: Confederate
+- CampaignCode: TM63-07
+  CampaignName: Operations to Blockade the Texas Coast
+  CampaignDates: September 1863
+  CampaignStartDate: -38838.0
+  CampaignEndDate: -38809.0
+  TheaterCode: TM
+  attacker: Union
+- CampaignCode: TM63-08
+  CampaignName: Union Advance on Little Rock
+  CampaignDates: September-October 1863
+  CampaignStartDate: -38838.0
+  CampaignEndDate: -38778.0
+  TheaterCode: TM
+  attacker: Union
+- CampaignCode: TM63-09
+  CampaignName: Union Occupation of Indian Territory North of Arkansas
+  CampaignDates: October 1863
+  CampaignStartDate: -38808.0
+  CampaignEndDate: -38778.0
+  TheaterCode: TM
+  attacker: Union
+- CampaignCode: TM64-01
+  CampaignName: Red River Campaign
+  CampaignDates: March-April 1864
+  CampaignStartDate: -38656.0
+  CampaignEndDate: -38596.0
+  TheaterCode: TM
+  attacker: Union
+- CampaignCode: TM64-02
+  CampaignName: Camden Expedition
+  CampaignDates: April 1864
+  CampaignStartDate: -38625.0
+  CampaignEndDate: -38596.0
+  TheaterCode: TM
+  attacker: Union
+- CampaignCode: TM64-03
+  CampaignName: Expedition to Lake Village
+  CampaignDates: June 1864
+  CampaignStartDate: -38564.0
+  CampaignEndDate: -38535.0
+  TheaterCode: TM
+  attacker: Union
+- CampaignCode: TM64-04
+  CampaignName: Sully's Expedition Against Indians in Dakota Territories
+  CampaignDates: July 1864
+  CampaignStartDate: -38534.0
+  CampaignEndDate: -38504.0
+  TheaterCode: TM
+  attacker: Union
+- CampaignCode: TM64-05
+  CampaignName: Price's Missouri Expedition
+  CampaignDates: September-October 1864
+  CampaignStartDate: -38472.0
+  CampaignEndDate: -38412.0
+  TheaterCode: TM
+  attacker: Confederate
+- CampaignCode: TM64-06
+  CampaignName: Sand Creek Campaign
+  CampaignDates: November 1864
+  CampaignStartDate: -38411.0
+  CampaignEndDate: -38382.0
+  TheaterCode: TM
+  attacker: Union
+- CampaignCode: TM65-01
+  CampaignName: Expedition From Brazos Santiago
+  CampaignDates: May 1865
+  CampaignStartDate: -38230.0
+  CampaignEndDate: -38200.0
+  TheaterCode: TM
+  attacker: Union
