@@ -51,3 +51,9 @@
 
 - removed `kennedy1997_forces_to_cwsac`: this was no longer necessary since CWSAC IDs
     are included in the forces table.
+
+# 6.0.1 (2017-11-01)
+
+## Bug fixes
+
+- `aad_battles.csv`, `aad_events.csv`, `nps_battles`: Remove duplicate VA125 record
