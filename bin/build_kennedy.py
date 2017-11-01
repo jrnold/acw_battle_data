@@ -1,6 +1,5 @@
-""" Create csv files from bodart1908/battles.py """
+"""Create csv files from bodart1908/battles.py."""
 import csv
-import json
 import os.path
 import sys
 
@@ -10,14 +9,17 @@ CATEGORIES = ("battle", "meeting", "surrender", "siege", "capture")
 
 
 def dict_remove(x, exclude=[]):
+    """Remove keys from a dict."""
     return dict((k, v) for k, v in x.items() if k not in exclude)
 
 
 def dict_subset(x, include=[]):
+    """Subset a dict."""
     return dict((k, v) for k, v in x.items() if k in include)
 
 
 def forces_csv(src, dst):
+    """Write Kennedy force level data to csv."""
     with open(src, 'r', encoding="utf8") as f:
         data = yaml.load(f)
     fieldnames = ('battle_id', 'belligerent', 'casualties_min',
@@ -30,9 +32,7 @@ def forces_csv(src, dst):
             if battle['forces']:
                 try:
                     battles_aggregated = ' '.join(battle['casualties_battles'])
-                    aggregate = 1
                 except KeyError:
-                    aggregate = 0
                     battles_aggregated = battle['battle_id']
                 for belligerent in battle['forces']:
                     row = battle['forces'][belligerent]
@@ -42,6 +42,7 @@ def forces_csv(src, dst):
 
 
 def battles_csv(src, dst):
+    """Write Kennedy battle-level data to csv."""
     with open(src, 'r', encoding="utf8") as f:
         data = yaml.load(f)
     fieldnames = ('battle_id', 'battle_name', 'state', 'county', 'start_date',
@@ -59,12 +60,14 @@ def battles_csv(src, dst):
 
 
 def build(src, dst):
+    """Create all output files for the Kennedy data."""
     filename = os.path.join(src, "rawdata", "kennedy1997", "kennedy1997.yaml")
     battles_csv(filename, os.path.join(dst, "kennedy1997_battles.csv"))
     forces_csv(filename, os.path.join(dst, "kennedy1997_forces.csv"))
 
 
 def main():
+    """Command-line interface."""
     src, dst = sys.argv[1:3]
     build(src, dst)
 

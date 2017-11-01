@@ -1,4 +1,4 @@
-""" Create csv files from bodart1908/battles.py """
+"""Create Bodart data."""
 import csv
 import json
 import os.path
@@ -32,14 +32,17 @@ CATEGORIES = (
 
 
 def dict_remove(x, exclude=[]):
+    """Remove items from a dict."""
     return dict((k, v) for k, v in x.items() if k not in exclude)
 
 
 def dict_subset(x, include=[]):
+    """Subset a dict."""
     return dict((k, v) for k, v in x.items() if k in include)
 
 
 def battle_csv(src, dst):
+    """Create a csv file with battle-level data for Bodart."""
     fields = [
         'battle_id', 'battle_name', 'other_names', 'start_date', 'end_date',
         'location', 'state', 'category_schlacht', 'category_treffen',

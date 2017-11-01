@@ -51,4 +51,3 @@
 
 - removed `kennedy1997_forces_to_cwsac`: this was no longer necessary since CWSAC IDs
     are included in the forces table.
-- changed format of `fox_forces_to_cwsac.json`
