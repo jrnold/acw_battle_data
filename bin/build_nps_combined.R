@@ -152,7 +152,6 @@ gen_battles <-
                                "Glendale/White Oak Swamp", BattleName)) %>%
     rename(cwsac_id = BattlefieldCode,
            battle_name = BattleName,
-           battle_type_cwss = BattleType,
            start_date = BeginDate,
            end_date = EndDate,
            theater_code = TheaterCode,
@@ -161,7 +160,7 @@ gen_battles <-
            summary = Summary,
            casualties_kwm_cwss = TotalCasualties,
            cwss_url = URL) %>%
-    select(-Comment, -ID, -State,
+    select(-Comment, -ID, -State, -BattleType,
            -matches("summary")) %>%
     mutate(partof_cwss = TRUE,
            result = recode(result, UQS(CWSS_RESULTS)),
@@ -206,8 +205,8 @@ gen_battles <-
            significance_jim = military_jim,
            significance_ed = military_ed,
            significance_bill = military_bill,
-           battle_type_aad = type,
            aad_url = url,
+           battle_type = type,
            battle_name_aad = event) %>%
     mutate(partof_aad = TRUE)
 

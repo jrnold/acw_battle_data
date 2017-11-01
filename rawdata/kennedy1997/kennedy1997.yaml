@@ -8908,14 +8908,13 @@
       missing: null
   start_date: '1864-06-05'
   state: VA
-- battle_id: VA112
+- battle_id: VA066
   battle_name: Samaria Church (Saint Mary's Church)
   campaign: 'Grant''s Overland Campaign: May-June 1864'
   casualties_max: null
   casualties_min: null
   casualties_text: 350 US, 250 CS
   county: Charles City County
-  cwsac_id: VA066
   description: Samaria Church (Saint Mary's Church), Virginia (VA112) , Charles City
     County, June 24, 1864
   end_date: '1864-06-24'
@@ -8935,6 +8934,8 @@
       missing: null
   start_date: '1864-06-24'
   state: VA
+  comment: >
+    Original battle ID of VA112 replaced with the CWSAC ID of VA066.
 - battle_id: VA113
   battle_name: Staunton River Bridge
   campaign: 'Richmond-Petersburg Campaign: June 1864-March 1865'

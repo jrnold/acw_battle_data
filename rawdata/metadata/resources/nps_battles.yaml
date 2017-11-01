@@ -16,35 +16,6 @@ schema:
     name: battle_name
     title: battle_name
     type: string
-  - constraints:
-      enum:
-      - Action
-      - Assault
-      - Attack
-      - Battle
-      - Bombardment
-      - Bombardment and Capture
-      - Capture
-      - Capture and Destruction
-      - Combat
-      - Demonstration
-      - Engagement
-      - Engagement and Occupation
-      - Explosion and Assault
-      - No Data
-      - Occupation
-      - Operations
-      - Raid
-      - Recapture
-      - Siege
-      - Siege and Capture
-      - Siege and Pursuit
-    description: Battle type in the CWSS. Examples include "Battle", "Combat", "Siege",
-      and "Raid".
-    format: default
-    name: battle_type_cwss
-    title: battle_type_cwss
-    type: string
   - format: default
     name: start_date
     title: Start date
@@ -284,9 +255,33 @@ schema:
     name: aad_url
     title: aad_url
     type: string
-  - format: default
-    name: battle_type_aad
-    title: battle_type_aad
+  - constraints:
+      enum:
+      - Action
+      - Attack
+      - Naval Operations
+      - Demonstration
+      - Siege & Capture
+      - Engagement
+      - Battle
+      - Skirmish
+      - Bombardment
+      - Operation
+      - Naval
+      - Combat
+      - Assault
+      - Massacre
+      - Siege
+      - Bombardment & Capture
+      - Occupation
+      - Capture
+      - Advance & Siege
+      - Expedition
+      - Recapture
+    description: Type of battle. Both the AAD and CWSS provide battle type categories.
+      However, the AAD is more complete and so is the one used.
+    name: battle_type
+    title: Battle Type
     type: string
   - format: default
     name: partof_aad

@@ -5,7 +5,7 @@
   "forces": {
     "Confederate": {
       "casualties": 155,
-      "strength_min": 50,
+      "strength_min": null,
       "commanders": [
         {
           "middle_name": null,
@@ -18,7 +18,7 @@
         }
       ],
       "description": "fifty men and C.S. boats",
-      "strength_max": 50
+      "strength_max": null
     },
     "US": {
       "casualties": 135,
@@ -57,68 +57,6 @@
   "significance": "C",
   "preservation": "III.3",
   "state": "AR",
-  "belligerents": {
-    "CS": {
-      "casualties": 155,
-      "strength_min": 50,
-      "commanders": [
-        {
-          "middle_name": null,
-          "last_name": "Fry",
-          "suffix": null,
-          "first_name": "Joseph",
-          "rank": "Captain (Navy)",
-          "fullname": "Joseph Fry",
-          "navy": true
-        }
-      ],
-      "description": "fifty men and C.S. boats",
-      "strength_max": 50
-    },
-    "Confederate": {
-      "casualties": 155,
-      "strength_min": 50,
-      "commanders": [
-        {
-          "middle_name": null,
-          "last_name": "Fry",
-          "suffix": null,
-          "first_name": "Joseph",
-          "rank": "Captain (Navy)",
-          "fullname": "Joseph Fry",
-          "navy": true
-        }
-      ],
-      "description": "fifty men and C.S. boats",
-      "strength_max": 50
-    },
-    "US": {
-      "casualties": 135,
-      "commanders": [
-        {
-          "middle_name": "N.",
-          "last_name": "Fitch",
-          "suffix": "",
-          "first_name": "Graham",
-          "rank": "Colonel",
-          "fullname": "Graham N. Fitch",
-          "navy": false
-        },
-        {
-          "middle_name": "H.",
-          "last_name": "Kilty",
-          "suffix": "",
-          "first_name": "Augustus",
-          "rank": "Commander",
-          "fullname": "Augustus H. Kilty",
-          "navy": true
-        }
-      ],
-      "regiments": 1,
-      "description": "46th Indiana and Union Gunboat",
-      "gunboats": 1
-    }
-  },
   "campaign": "Operations on the White River [June 1862]",
   "end_date": "1862-06-17",
   "description": "On the morning of June 17, USS Mound City, St. Louis, Lexington, Conestoga, and transports proceeded up White River towards Saint Charles attempting to resupply Maj. Gen. Samuel R. Curtis's army near Jacksonport. A few miles below Saint Charles, the 46th Indiana Infantry under the command of Col. Graham N. Fitch disembarked, formed a skirmish line, and proceeded upriver towards the Rebel batteries on Saint Charles bluffs, under the command of Capt. Joseph Fry, C.S.N. At the same time, the Union gunboats went upriver to engage the Rebel batteries; Mound City was hit and her steam drum exploded scalding most of the crew to death. More than 125 sailors from the Mound City were killed, but the other ship was towed to safety. Col. Fitch halted the gunboat activities to prevent further loss and then undertook an attack on the Confederate batteries with his infantry. He turned the Rebel flank which ended the firing from the batteries and left Saint Charles open to Federal occupation.",

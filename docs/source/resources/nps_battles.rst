@@ -22,7 +22,6 @@ Schema
 ===============================  =======  ===============================
 cwsac_id                         string   CWSAC Id.
 battle_name                      string   battle_name
-battle_type_cwss                 string   battle_type_cwss
 start_date                       date     Start date
 end_date                         date     End date
 theater_code                     string   theater_code
@@ -64,7 +63,7 @@ significance_jim                 string   significance_jim
 significance_ed                  string   significance_ed
 significance_bill                string   significance_bill
 aad_url                          string   aad_url
-battle_type_aad                  string   battle_type_aad
+battle_type                      string   Battle Type
 partof_aad                       boolean  partof_aad
 lat                              number   Latitude
 long                             number   Longitude
@@ -98,20 +97,6 @@ battle_name
 
 
 
-
-
-       
-battle_type_cwss
-----------------
-
-:title: battle_type_cwss
-:type: string
-:format: default
-:constraints:
-    :enum: ['Action', 'Assault', 'Attack', 'Battle', 'Bombardment', 'Bombardment and Capture', 'Capture', 'Capture and Destruction', 'Combat', 'Demonstration', 'Engagement', 'Engagement and Occupation', 'Explosion and Assault', 'No Data', 'Occupation', 'Operations', 'Raid', 'Recapture', 'Siege', 'Siege and Capture', 'Siege and Pursuit']
-    
-
-Battle type in the CWSS. Examples include "Battle", "Combat", "Siege", and "Raid".
 
 
        
@@ -617,15 +602,16 @@ URL of the initial battle's report for the CWSAC as archived by the AAD.
 
 
        
-battle_type_aad
----------------
+battle_type
+-----------
 
-:title: battle_type_aad
+:title: Battle Type
 :type: string
-:format: default
+:constraints:
+    :enum: ['Action', 'Attack', 'Naval Operations', 'Demonstration', 'Siege & Capture', 'Engagement', 'Battle', 'Skirmish', 'Bombardment', 'Operation', 'Naval', 'Combat', 'Assault', 'Massacre', 'Siege', 'Bombardment & Capture', 'Occupation', 'Capture', 'Advance & Siege', 'Expedition', 'Recapture']
+    
 
-
-
+Type of battle. Both the AAD and CWSS provide battle type categories. However, the AAD is more complete and so is the one used.
 
 
        

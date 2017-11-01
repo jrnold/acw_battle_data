@@ -6,9 +6,12 @@ schema:
   - constraints:
       maxLength: 6
       minLength: 5
-      pattern: '[A-Z]{2}[0-9]{3}[A-Z]?'
-    description: Battle identifier These are almost the same as the Kennedy identifiers
+      pattern: '[A-Z]{2}[0-9]{3}[A-Z]?( [A-Z]{2}[0-9]{3}[A-Z]?)*'
+    description: 'Battle identifier These are almost the same as the Kennedy identifiers
       with a few exceptions. See the field ``cwsac_id`` for the CWSAC identifier.
+
+      In a few battles the casualties include several battles. In these cases the
+      identifiers are space separated.'
     format: default
     name: battle_id
     title: Battle
@@ -59,20 +62,6 @@ schema:
     name: missing
     title: Missing or captured
     type: integer
-  - description: True if the casualties data for the battle aggregates the casualties
-      for several battles.
-    format: default
-    name: aggregate
-    title: Is aggregate?
-    type: boolean
-  - description: 'In a few battles the casualties include several battles. In these
-      cases the identifiers are space separated.
-
-      '
-    format: default
-    name: battles_aggregated
-    title: Battles aggregated
-    type: string
   primaryKey:
   - battle_id
   - belligerent

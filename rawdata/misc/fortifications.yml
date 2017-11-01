@@ -580,28 +580,37 @@
   start_date: '1863-08-21'
   end_date: '1863-08-21'
   cwsac_url: http://www.nps.gov/abpp/battles/ks001.htm
-  us_fortification: .na
-  confederate_fortification: .na
+  us_fortification: none
+  confederate_fortification: none
   fortifications: ''
   comments: ''
+  attacker: Confederate
+  comments: >
+    Confederate forces commanded by William Quantrail attack civilians in
+    Lawrence, Kansas.
 - cwsac_id: KS002
   battle_name: Baxter Springs
   start_date: '1863-10-06'
   end_date: '1863-10-06'
   cwsac_url: http://www.nps.gov/abpp/battles/ks002.htm
-  us_fortification: .na
-  confederate_fortification: .na
+  us_fortification: permanent
+  confederate_fortification: none
   fortifications: ''
-  comments: ''
+  attacker: Confederate
+  comments: >
+    Confederate forces commanded by William Quantrill attack Fort Blair.
 - cwsac_id: KS003
   battle_name: Mine Creek
   start_date: '1864-10-25'
   end_date: '1864-10-25'
   cwsac_url: http://www.nps.gov/abpp/battles/ks003.htm
-  us_fortification: .na
-  confederate_fortification: .na
+  us_fortification: none
+  confederate_fortification: none
   fortifications: ''
-  comments: ''
+  attacker: Union
+  comments: >
+    Union cavalry forces attacked Confederate forces as they were crossing
+    Mine Creek. Given the timing, there wasn't time for defensive works.
 - cwsac_id: KS004
   battle_name: Marais Des Cygnes
   start_date: '1864-10-25'

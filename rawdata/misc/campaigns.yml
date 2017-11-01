@@ -254,6 +254,11 @@
   CampaignEndDate: -39204.0
   TheaterCode: ME
   attacker: Confederate
+  victor: Confederate
+  wikipedia: https://en.wikipedia.org/wiki/Northern_Virginia_Campaign
+  comment: >
+    After the Peninsula campaign, Robert E. Lee moves northward and
+    defeats John Pope's Army of the Virginia.
 - CampaignCode: ME62-06
   CampaignName: Maryland Campaign
   CampaignDates: September 1862
@@ -261,6 +266,10 @@
   CampaignEndDate: -39174.0
   TheaterCode: ME
   attacker: Confederate
+  victor: Union
+  wikipedia: https://en.wikipedia.org/wiki/Maryland_Campaign
+  comment: >
+    Robert E. Lee invades the North. He is defeated at the Battle of Antietam.
 - CampaignCode: ME62-07
   CampaignName: Fredericksburg Campaign
   CampaignDates: November-December 1862
@@ -268,13 +277,31 @@
   CampaignEndDate: -39082.0
   TheaterCode: ME
   attacker: Union
+  victor: Confederate
+  comment: >
+    Army of the Potomac commanded by Ambrose Burnside attempted to cross
+    the Rappahannock River at Fredericksburg and move on Richmond.
+    They are defeated by Robert E. Lee and the Army of Northern Virgina at
+    the Battle of Fredericksburg.
 - CampaignCode: ME62-08
   CampaignName: Goldsboro Expedition
   CampaignDates: December 1862
   CampaignStartDate: -39112.0
   CampaignEndDate: -39082.0
   TheaterCode: ME
-  attacker: ''
+  attacker: Confederate
+  victor: Union
+  union_commanders:
+    - name: John G. Foster
+      url: https://en.wikipedia.org/wiki/John_G._Foster
+  confederate_commanders:
+    - name: Thomas L. Clingman
+      url: https://en.wikipedia.org/wiki/Thomas_Lanier_Clingman
+  comment: >
+    Confederate forces commanded by Thomas Clingman attempted to secure
+    the Wilimington and Weldon Railroad bridge in order to disrupt the Union
+    supply chain from the port of Wilmington. Union victory at the Battle of
+    Goldsborough Bridge.
 - CampaignCode: ME63-01
   CampaignName: Longstreet's Tidewater Operations
   CampaignDates: March-April 1863
@@ -858,7 +885,14 @@
   CampaignStartDate: -38808.0
   CampaignEndDate: -38778.0
   TheaterCode: TM
-  attacker: Union
+  attacker: Confederate
+  victor: Confederate
+  comment: >
+    The only CWSAC battle in this is the Battle of Baxter Springs.
+    The Union forces hasd already established a presence in Kansas with Fort Blair.
+    If the objective was to capture Fort Blair, Quantrail failed. But given
+    his guerilla tactics, the objective was likely to harass Union forces,
+    at which he succeeded
 - CampaignCode: TM64-01
   CampaignName: Red River Campaign
   CampaignDates: March-April 1864
@@ -866,6 +900,20 @@
   CampaignEndDate: -38596.0
   TheaterCode: TM
   attacker: Union
+  victor: Confederate
+  union commanders:
+    - name: Nathaniel P. Banks
+      url: https://en.wikipedia.org/wiki/Nathaniel_Banks
+  confederate commanders:
+    - name: Richard Taylor
+      url: https://en.wikipedia.org/wiki/Richard_Taylor_(general)
+  comment: >
+    The objective of the Red River Campaign was to control the interior of
+    Louisiana. Forces commanded by Nathaniel Banks would move along the
+    Red River to Shreveport to link with forces commanded by Frederick Steele.
+    Union forces suffered defeats at the Battle of Mansfield and Pleasant Hill
+    and failed to achieve its objectives.
+  wikipedia: https://en.wikipedia.org/wiki/Red_River_Campaign
 - CampaignCode: TM64-02
   CampaignName: Camden Expedition
   CampaignDates: April 1864
@@ -873,6 +921,21 @@
   CampaignEndDate: -38596.0
   TheaterCode: TM
   attacker: Union
+  victor: Confederate
+  union commanders:
+    - name: Frederick Steele
+      url: https://en.wikipedia.org/wiki/Frederick_Steele
+  confederate commanders:
+    - name: Sterling Price
+      url: https://en.wikipedia.org/wiki/Sterling_Price
+  comment: >
+    A Union army spring offensive. Forces commanded by Frederick Steele
+    were to move to Shreveport, Louisiana  to link with other Union forces
+    commanded by Nathaniel Banks and David Porter. The larger objective
+    was to assert control over southern Arkansas.  Union forces suffered
+    defeats at the Battle of Mansfield and Marks' Mills and failed to capture
+    Shreveport or Texas.
+  wikipedia: https://en.wikipedia.org/wiki/Camden_Expedition
 - CampaignCode: TM64-03
   CampaignName: Expedition to Lake Village
   CampaignDates: June 1864
@@ -880,6 +943,12 @@
   CampaignEndDate: -38535.0
   TheaterCode: TM
   attacker: Union
+  victor: Union
+  comment: >
+    A small campaign by a US Forces commanded by Joseph Mower to show
+    "through a forceful demonstration" intentions towards Lake Village, MO.
+    The Union forces defeats Confederate forces at the Battle of Old River Lake
+    and reach Lake Village.
 - CampaignCode: TM64-04
   CampaignName: Sully's Expedition Against Indians in Dakota Territories
   CampaignDates: July 1864
@@ -887,6 +956,12 @@
   CampaignEndDate: -38504.0
   TheaterCode: TM
   attacker: Union
+  victor: Union
+  comment: >
+    Union forces commanded by Alfred Sully were to secure a line
+    of communication and transportation to Montana and Idaho, and remove
+    the Sioux Threat. The Union forces defeat Sioux forces at the Battles of
+    Killdeer and Badlands, and push most Sioux west of the Missouri.
 - CampaignCode: TM64-05
   CampaignName: Price's Missouri Expedition
   CampaignDates: September-October 1864
@@ -894,6 +969,10 @@
   CampaignEndDate: -38412.0
   TheaterCode: TM
   attacker: Confederate
+  victor: Union
+  comment: >
+    Confederate Cavalry raid by Sterling Price in order to recapture Missouri.
+    Price's forces are defeated at the Battle of Westport.
 - CampaignCode: TM64-06
   CampaignName: Sand Creek Campaign
   CampaignDates: November 1864
@@ -901,6 +980,11 @@
   CampaignEndDate: -38382.0
   TheaterCode: TM
   attacker: Union
+  victor: Union
+  comment: >
+    Presumably, Union forces by John Chivington's objective was to pacify
+    the Southern Cheyenne commanded by Black Kettle. Though they surrendered,
+    Union forces massacred them at the Sand Creek massacre.
 - CampaignCode: TM65-01
   CampaignName: Expedition From Brazos Santiago
   CampaignDates: May 1865
@@ -908,3 +992,6 @@
   CampaignEndDate: -38200.0
   TheaterCode: TM
   attacker: Union
+  victor: Confederate
+  comments: >
+    Union
