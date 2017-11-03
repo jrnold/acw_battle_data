@@ -819,8 +819,8 @@
   filename: cw_002301_fortpulaskig.htm
   forces:
     Confederate:
-      casualties_max: 1
-      casualties_min: 1
+      casualties_max: 364
+      casualties_min: 364
       killed_wounded_max: null
       killed_wounded_min: null
       missing: null
@@ -832,6 +832,9 @@
       missing: null
   start_date: '1862-04-10'
   state: GA
+  comment: >
+    The value of 1 Confedederate casualty is wrong. Use the value of 364
+    from CWSAC.
 - battle_id: GA002
   battle_name: Fort McAllister I
   campaign: 'Union Naval Attacks on Fort McAllister: January-March 1863'
@@ -3055,10 +3058,10 @@
   filename: cw_002001_newmadridisl.htm
   forces:
     Confederate:
-      casualties_max: 7000
-      casualties_min: 7000
-      killed_wounded_max: 0
-      killed_wounded_min: 0
+      casualties_max: null
+      casualties_min: null
+      killed_wounded_max: null
+      killed_wounded_min: null
       missing: 7000
     US:
       casualties_max: 51

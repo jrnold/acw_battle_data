@@ -57,3 +57,24 @@
 ## Bug fixes
 
 - `aad_battles.csv`, `aad_events.csv`, `nps_battles`: Remove duplicate VA125 record
+
+# 6.0.2 (2017-11-02)
+
+## Bug fixes
+
+- `wikipedia.org`: Fix casualty values for
+- `data-raw/fox1898/fox_forces.csv`: Remove total missing and total casualty values for U63.
+    Although the Confederate entry for Port Hudson includes values from May-July, it does
+    not include the values of the captured.
+- `data/nps_forces.csv`: Change GA001 CS casualties to 364. It was previously a 1, which
+    was the US casualties.
+- `data/cwss_forces.csv`: Change GA001 CS casualties to 364
+- `data/kennedy1997_forces.csv`:
+
+  - Change GA001 CS casualties to 364
+  - Change MO012 CS killed/wounded from 0 to missing. Kennedy only gives the number of
+      of Confederates captured, which does not imply no killed or wounded.
+
+- `data/civilwar.org_forces`:
+
+  - Change Confederate casualties and strength to 230 for "fort-mcallister"

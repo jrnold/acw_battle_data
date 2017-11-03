@@ -1,4 +1,4 @@
-""" Convert Civil War Soldiers and Sailors XML file to csv tables """
+"""Convert Civil War Soldiers and Sailors XML file to csv tables."""
 import calendar
 import csv
 import re
@@ -253,27 +253,26 @@ def forces_csv(root, dst):
             # NC002 battle code is empty
             if battlecode in ("NC002", "MO026"):
                 enemy = "Confederate"
-            if battlecode in ("MN002"):
+            if battlecode in ("MN002",):
                 enemy = "Native American"
+            enemy_troops = properties.find(xmlns("d:EnemyTroopsEngaged")).text
+            enemy_casualties = properties.find(xmlns("d:EnemyCasualties")).text
+            if battlecode in ("GA001", ):
+                # Fix typo for Confederate casualties
+                enemy_casualties = 364
+            us_troops = properties.find(xmlns("d:USTroopsEngaged")).text
+            us_casualties = properties.find(xmlns("d:USCasualties")).text
             writer.writerow({
-                'BattlefieldCode':
-                battlecode.upper(),
-                'belligerent':
-                enemy,
-                'TroopsEngaged':
-                properties.find(xmlns("d:EnemyTroopsEngaged")).text,
-                'Casualties':
-                properties.find(xmlns("d:EnemyCasualties")).text,
+                'BattlefieldCode': battlecode.upper(),
+                'belligerent': enemy,
+                'TroopsEngaged': enemy_troops,
+                'Casualties': enemy_casualties
             })
             writer.writerow({
-                'BattlefieldCode':
-                battlecode.upper(),
-                'belligerent':
-                "US",
-                'TroopsEngaged':
-                properties.find(xmlns("d:USTroopsEngaged")).text,
-                'Casualties':
-                properties.find(xmlns("d:USCasualties")).text,
+                'BattlefieldCode': battlecode.upper(),
+                'belligerent': "US",
+                'TroopsEngaged': us_troops,
+                'Casualties': us_casualties
             })
 
 

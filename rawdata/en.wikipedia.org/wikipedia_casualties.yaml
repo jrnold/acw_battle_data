@@ -1143,14 +1143,15 @@ Battle_of_Fort_Macon:
     CS:
       captured: 400
       killed: 8
-      strength: '450'
+      strength: 450
       wounded: 16
     US:
       captured: 8
       killed: 2
-      strength: '3259'
+      strength: 3259
       wounded: 5
   cwsac_id: NC004
+  rev_id: 803169899
 Battle_of_Fort_McAllister_(1863):
   belligerents:
     CS:
@@ -1316,9 +1317,10 @@ Battle_of_Front_Royal:
       strength: 3000
     US:
       captured: 691
-      killed_wounded: 773
+      killed_wounded: 83
       strength: 1063
   cwsac_id: VA103
+  rev_id: 802249942
 Battle_of_Gaines's_Mill:
   belligerents:
     CS:
@@ -2118,6 +2120,7 @@ Battle_of_Mobile_Bay:
       strength: 5500
       wounded: 177
   cwsac_id: AL003
+  rev_id: 801800013
 Battle_of_Monett's_Ferry:
   belligerents:
     CS:
