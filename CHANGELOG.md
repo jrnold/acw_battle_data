@@ -78,3 +78,17 @@
 - `data/civilwar.org_forces`:
 
   - Change Confederate casualties and strength to 230 for "fort-mcallister"
+
+# 6.0.3 (2017-11-03)
+
+## Bug Fixes
+
+- `data/clodfelter_to_cwsac.json`
+
+  - Correct mapping of "Drewry's Bluff (1862-05-15-1862-05-15)" to VA053
+
+- `data/fox_forces.csv`
+
+  - Remove imputed killed/wounded/missing values from the observations
+    formed from comments giving rough disaggregations of the casualties
+    for aggregated observations.

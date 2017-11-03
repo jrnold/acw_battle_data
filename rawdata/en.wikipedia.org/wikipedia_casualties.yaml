@@ -1107,15 +1107,16 @@ Battle_of_Fort_Donelson:
   belligerents:
     CS:
       captured_missing: 12392
-      casualties: 13846
       killed: 327
       wounded: 1127
+      strength: 16171
     US:
       captured_missing: 208
       killed: 507
       strength: 24531
       wounded: 1976
   cwsac_id: TN002
+  rev_id: 807132126
 Battle_of_Fort_Henry:
   belligerents:
     CS:
@@ -1930,12 +1931,14 @@ Battle_of_Lovejoy's_Station:
 Battle_of_Lynchburg:
   belligerents:
     CS:
-      casualties: 6
+      killed: 6
+      wounded: 95
       strength: 14000
     US:
-      casualties: 75
+      casualties: 800
       strength: 16643
   cwsac_id: VA064
+  rev_id: 805368385
 Battle_of_Malvern_Hill:
   belligerents:
     CS:
@@ -2663,6 +2666,7 @@ Battle_of_Rocky_Face_Ridge:
       armies: 1
       casualties: 837
   cwsac_id: GA007
+  rev_id: 779230459
 Battle_of_Round_Mountain:
   belligerents:
     CS:
@@ -2730,6 +2734,7 @@ Battle_of_Salem_Church:
       strength: 25000
   casualties: 5000
   cwsac_id: VA033
+  rev_id: 787496064
 Battle_of_Salineville:
   belligerents:
     CS:
@@ -3204,6 +3209,7 @@ Battle_of_Waynesboro,_Virginia:
       strength: 2500
   casualties: '1800'
   cwsac_id: VA123
+  rev_id: 802347507
 Battle_of_Westport:
   belligerents:
     CS:
@@ -3481,11 +3487,16 @@ First_Battle_of_Fort_Fisher:
       artillery_batteries: 21
       regiments: 21
       strength: ''
+      killed: 5
+      wounded: 56
+      missing: 600
     US:
       artillery_batteries: 2
       regiments: 22
-  casualties: '320'
   cwsac_id: NC014
+  rev_id: 807638046
+  comment: >
+    Use Confederate casualties in the text.
 First_Battle_of_Fort_Wagner:
   belligerents:
     CS:
@@ -3716,14 +3727,17 @@ Second_Battle_of_Donaldsonville:
 Second_Battle_of_Fort_Fisher:
   belligerents:
     CS:
-      captured: 1400
+      captured: 1317
       killed_wounded: '583'
       strength: 8300
     US:
-      killed_wounded: 1341
+      killed: 199
+      wounded: 811
+      missing: 47
       ships: 56
-      strength: '9632'
+      strength: 11893
   cwsac_id: NC015
+  rev_id: 802345677
 Second_Battle_of_Fort_Sumter:
   belligerents:
     CS:

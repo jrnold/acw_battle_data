@@ -1,9 +1,9 @@
 GA028|Confederate:
   comment: Strength needs to be at least as large as the casualties. The value
     of Confederate casualties in CWSS is 250, but it is 71 in other places.
-  casualties_kwm_mean: 71
+  casualties_kwm_mean: 250
   casualties_kwm_var: null
-  strength_mean: 120
+  strength_mean: 250
   strength_var: null
 KY007|US:
   comment: set strength to slightly more than the number of casualties since the Union
@@ -41,9 +41,9 @@ VA043|Confederate:
   casualties_m_mean: 1600
   casualties_m_var: null
   comment: CWSAC I has 1600 Confederate prisoners; CWSS has 2041 total Confederate
-    casualties
+    casualties. However, there is uncertainty over the casualties, so leave it.
   casualties_kw_var: null
-  strength_mean: 2041
+  strength_mean: 2000
   strength_var: null
 VA097|Confederate:
   casualties_kw_mean: 500
