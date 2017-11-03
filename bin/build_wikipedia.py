@@ -35,14 +35,10 @@ def battle_keys(data):
 
 
 def var_to_range(x, k):
+    """If only one key given, make min and max kays."""
     if k in x:
         if x[k]:
-            xk = str(x[k]).split('-')
-            if len(xk) > 1:
-                x['%s_min' % k] = xk[0]
-                x['%s_max' % k] = xk[1]
-            else:
-                x['%s_min' % k] = x['%s_max' % k] = x[k]
+            x['%s_min' % k] = x['%s_max' % k] = x[k]
         del x[k]
 
 

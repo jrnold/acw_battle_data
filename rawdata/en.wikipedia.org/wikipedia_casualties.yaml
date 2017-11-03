@@ -3,7 +3,7 @@ Battle_of_Adairsville:
     CS:
       strength: ''
     US:
-      casualties: '200'
+      casualties: 200
       strength: ''
   cwsac_id: GA009
   id: 573245650
@@ -24,30 +24,31 @@ Battle_of_Albemarle_Sound:
 Battle_of_Aldie:
   belligerents:
     CS:
-      casualties: 110-119
-      strength: '1500'
+      casualties_min: 110
+      casualties_max: 119
+      strength: 1500
     US:
-      casualties: '305'
-      strength: '2000'
+      casualties: 305
+      strength: 2000
   cwsac_id: VA036
   id: 584266085
 Battle_of_Allatoona:
   belligerents:
     CS:
-      casualties: '897'
-      strength: '3276'
+      casualties: 897
+      strength: 3276
     US:
-      casualties: '706'
-      strength: '2025'
+      casualties: 706
+      strength: 2025
   cwsac_id: GA023
   id: 591390908
 Battle_of_Amelia_Springs:
   belligerents:
     CS:
-      casualties: '100'
+      casualties: 100
       strength: ''
     US:
-      casualties: '158'
+      casualties: 158
       strength: ''
   cwsac_id: VA091
   id: 584645623
@@ -55,15 +56,15 @@ Battle_of_Antietam:
   belligerents:
     CS:
       captured_missing: 1018
-      casualties: '10316'
+      casualties: 10316
       killed: 1546
-      strength: '38000'
+      strength: 38000
       wounded: 7752
     US:
       captured_missing: 753
-      casualties: '12401'
+      casualties: 12401
       killed: 2108
-      strength: '75500'
+      strength: 75500
       wounded: 9540
   cwsac_id: MD003
   id: 593315718
@@ -83,7 +84,8 @@ Battle_of_Appomattox_Station:
     CS:
       captured: 1000
       killed_wounded: 500
-      losses_guns: 25-50
+      losses_guns_min: 25
+      losses_guns_max: 50
       losses_trains: 3
       losses_wagons: 100
       strength: 3000
@@ -146,7 +148,8 @@ Battle_of_Ball's_Bluff:
       strength: 1709
       wounded: 117
     US:
-      casualties: 921-1002
+      casualties_min: 921
+      casualties_max: 1002
       strength: 1720
   cwsac_id: VA006
 Battle_of_Barbourville:
@@ -267,7 +270,8 @@ Battle_of_Big_Mound:
   belligerents:
     I:
       casualties: 9
-      strength: 1000-1500
+      strength_min: 1000
+      strength_max: 1500
     US:
       killed: 3
       strength: 2116
@@ -325,7 +329,8 @@ Battle_of_Boonsboro:
 Battle_of_Boonville:
   belligerents:
     CS:
-      captured: 60-80
+      captured_min: 60
+      captured_max: 80
       killed: 5
       strength: 1500
       wounded: 10
@@ -420,10 +425,10 @@ Battle_of_Bull's_Gap:
   belligerents:
     CS:
       casualties: null
-      strength: '2400'
+      strength: 2400
     US:
       brigades: 1
-      casualties: '241'
+      casualties: 241
   cwsac_id: TN033
   id: 572422325
 Battle_of_Byram's_Ford:
@@ -440,9 +445,11 @@ Battle_of_Cabin_Creek:
   belligerents:
     CS:
       killed: 65
-      strength: 1600-1800
+      strength_min: 1600
+      strength_max: 1800
     US:
-      killed: 3-23
+      killed_min: 3
+      killed_max: 23
       regiments: 9
       wounded: 30
   cwsac_id: OK006
@@ -672,23 +679,25 @@ Battle_of_Chustenahlah:
 Battle_of_Chusto-Talasah:
   belligerents:
     CS:
-      killed: 15-30
+      killed_min: 15
+      killed_max: 30
       missing: 400
       strength: 1300
       wounded: 37
     US:
       casualties: 500
       killed: 9
-      strength: 2000-2500
+      strength_min: 2000
+      strength_max: 2500
   cwsac_id: OK002
   id: 590523560
 Battle_of_Clark's_Mill:
   belligerents:
     CS:
-      strength: '1000'
+      strength: 1000
     US:
-      casualties: '113'
-      strength: '113'
+      casualties: 113
+      strength: 113
   cwsac_id: MO017
   id: 572143594
 Battle_of_Cloyd's_Mountain:
@@ -758,8 +767,9 @@ Battle_of_Corydon:
   belligerents:
     CS:
       killed: 4
-      strength: '1800'
-      wounded: 10-12
+      strength: 1800
+      wounded_min: 10
+      wounded_max: 12
     US:
       guns: 4
       killed: 11
@@ -783,7 +793,7 @@ Battle_of_Cove_Mountain:
       strength: 4000
     US:
       strength: 2500
-  casualties: '300'
+  casualties: 300
   cwsac_id: VA109
   id: 578471749
 Battle_of_Cross_Keys:
@@ -799,30 +809,30 @@ Battle_of_Cross_Keys:
 Battle_of_Cumberland_Church:
   belligerents:
     CS:
-      casualties: '255'
-      strength: '4000'
+      casualties: 255
+      strength: 4000
     US:
-      casualties: '655'
-      strength: '8600'
+      casualties: 655
+      strength: 8600
   cwsac_id: VA094
   id: 544252696
 Battle_of_Cynthiana:
   belligerents:
     CS:
-      casualties: '1000'
-      strength: '1200'
+      casualties: 1000
+      strength: 1200
     US:
-      casualties: '1092'
-      strength: '3450'
+      casualties: 1092
+      strength: 3450
   cwsac_id: KY011
 Battle_of_Dallas:
   belligerents:
     CS:
-      casualties: '3000'
-      strength: '40000'
+      casualties: 3000
+      strength: 40000
     US:
-      casualties: '2400'
-      strength: '80000'
+      casualties: 2400
+      strength: 80000
   cwsac_id: GA011
 Battle_of_Dandridge:
   belligerents:
@@ -830,7 +840,7 @@ Battle_of_Dandridge:
       casualties: null
       strength: null
     US:
-      casualties: '150'
+      casualties: 150
       strength: null
   cwsac_id: TN028
 Battle_of_Darbytown_Road:
@@ -848,10 +858,10 @@ Battle_of_Darbytown_Road:
 Battle_of_Darbytown_and_New_Market:
   belligerents:
     CS:
-      casualties: '700'
+      casualties: 700
       divisions: 2
     US:
-      casualties: '458'
+      casualties: 458
       cavalry_divisions: 1
       divisions: 1
   cwsac_id: VA077
@@ -868,30 +878,31 @@ Battle_of_Davis's_Cross_Roads:
 Battle_of_Day's_Gap:
   belligerents:
     CS:
-      casualties: '65'
+      casualties: 65
       regiments: 3
     US:
-      casualties: '23'
-      strength: '1500'
+      casualties: 23
+      strength: 1500
   cwsac_id: AL001
   id: 593990149
 Battle_of_Dead_Buffalo_Lake:
   belligerents:
     I:
-      casualties: '15'
-      strength: '1600'
+      casualties: 15
+      strength: 1600
     US:
-      casualties: '1'
-      strength: '3000'
+      casualties: 1
+      strength: 3000
   cwsac_id: ND002
 Battle_of_Decatur:
   belligerents:
     CS:
-      casualties: '200'
-      strength: '39000'
+      casualties: 200
+      strength: 39000
     US:
-      casualties: '155'
-      strength: 3000-5000
+      casualties: 155
+      strength_min: 3000
+      strength_max: 5000
   cwsac_id: AL004
 Battle_of_Devil's_Backbone:
   belligerents:
@@ -920,39 +931,39 @@ Battle_of_Dinwiddie_Court_House:
 Battle_of_Dover_(1863):
   belligerents:
     CS:
-      casualties: '670'
-      strength: '2500'
+      casualties: 670
+      strength: 2500
     US:
-      casualties: '126'
-      strength: '800'
+      casualties: 126
+      strength: 800
   cwsac_id: TN012
 Battle_of_Dranesville:
   belligerents:
     CS:
-      casualties: '230'
-      strength: '2500'
+      casualties: 230
+      strength: 2500
     US:
-      casualties: '71'
-      strength: '5000'
+      casualties: 71
+      strength: 5000
   cwsac_id: VA007
 Battle_of_Drewry's_Bluff:
   belligerents:
     CS:
-      casualties: '15'
+      casualties: 15
       guns: 7
     US:
       gunboats: 2
       ironclads: 3
-      killed_wounded: '24'
+      killed_wounded: 24
   cwsac_id: VA012
 Battle_of_Droop_Mountain:
   belligerents:
     CS:
-      casualties: '275'
-      strength: '1200'
+      casualties: 275
+      strength: 1200
     US:
-      casualties: '119'
-      strength: '5000'
+      casualties: 119
+      strength: 5000
   cwsac_id: WV012
 Battle_of_Dry_Wood_Creek:
   belligerents:
@@ -967,20 +978,20 @@ Battle_of_Dry_Wood_Creek:
 Battle_of_Elkin's_Ferry:
   belligerents:
     CS:
-      casualties: '54'
-      strength: '7500'
+      casualties: 54
+      strength: 7500
     US:
-      casualties: '38'
-      strength: '8500'
+      casualties: 38
+      strength: 8500
   cwsac_id: AR012
 Battle_of_Eltham's_Landing:
   belligerents:
     CS:
-      casualties: '48'
-      strength: '11000'
+      casualties: 48
+      strength: 11000
     US:
-      casualties: '194'
-      strength: '11300'
+      casualties: 194
+      strength: 11300
   cwsac_id: VA011
 Battle_of_Ezra_Church:
   belligerents:
@@ -994,29 +1005,29 @@ Battle_of_Ezra_Church:
 Battle_of_Fair_Garden:
   belligerents:
     CS:
-      casualties: '165'
+      casualties: 165
       cavalry_corps: 1
     US:
-      casualties: '100'
+      casualties: 100
       cavalry_corps: 1
   cwsac_id: TN029
 Battle_of_Fair_Oaks_&_Darbytown_Road:
   belligerents:
     CS:
-      casualties: '100'
+      casualties: 100
       corps: 1
     US:
-      casualties: '1603'
+      casualties: 1603
       corps: 2
   cwsac_id: VA080
 Battle_of_Fisher's_Hill:
   belligerents:
     CS:
-      casualties: '1234'
-      strength: '9500'
+      casualties: 1234
+      strength: 9500
     US:
-      casualties: '528'
-      strength: '29444'
+      casualties: 528
+      strength: 29444
   cwsac_id: VA120
 Battle_of_Five_Forks:
   belligerents:
@@ -1033,7 +1044,7 @@ Battle_of_Folck's_Mill:
       brigades: 2
     US:
       regiments: 3
-  casualties: '38'
+  casualties: 38
   cwsac_id: MD008
 Battle_of_Fort_Anderson:
   belligerents:
@@ -1047,10 +1058,10 @@ Battle_of_Fort_Bisland:
   belligerents:
     CS:
       brigades: 2
-      casualties: '450'
+      casualties: 450
       cavalry_regiments: 1
     US:
-      casualties: '234'
+      casualties: 234
       divisions: 2
       strength: ''
   cwsac_id: LA006
@@ -1067,29 +1078,29 @@ Battle_of_Fort_Blair:
 Battle_of_Fort_Blakely:
   belligerents:
     CS:
-      casualties: '2900'
-      strength: '4000'
+      casualties: 2900
+      strength: 4000
     US:
-      casualties: '629'
-      strength: '45000'
+      casualties: 629
+      strength: 45000
   cwsac_id: AL006
 Battle_of_Fort_Brooke:
   belligerents:
     CS:
       companies: 1
     US:
-      casualties: '16'
+      casualties: 16
       ships: 2
       strength: ''
   cwsac_id: FL004
 Battle_of_Fort_Davidson:
   belligerents:
     CS:
-      casualties: '1500'
-      strength: '12000'
+      casualties: 1500
+      strength: 12000
     US:
-      casualties: '184'
-      strength: '1500'
+      casualties: 184
+      strength: 1500
   cwsac_id: MO021
 Battle_of_Fort_De_Russy:
   belligerents:
@@ -1120,23 +1131,24 @@ Battle_of_Fort_Donelson:
 Battle_of_Fort_Henry:
   belligerents:
     CS:
-      casualties: '79'
-      strength: 3000-3400
+      casualties: 79
+      strength_min: 3000
+      strength_max: 3400
     US:
-      casualties: '40'
+      casualties: 40
       ships: 7
-      strength: '15000'
+      strength: 15000
   cwsac_id: TN001
 Battle_of_Fort_Hindman:
   belligerents:
     CS:
       captured: 4791
       killed_wounded: 709
-      strength: '5500'
+      strength: 5500
     US:
       killed: 134
       missing: 29
-      strength: '33000'
+      strength: 33000
       wounded: 898
   cwsac_id: AR006
 Battle_of_Fort_Macon:
@@ -1165,11 +1177,12 @@ Battle_of_Fort_McAllister_(1863):
 Battle_of_Fort_McAllister_(1864):
   belligerents:
     CS:
-      casualties: '71'
-      strength: 120-250
+      casualties: 71
+      strength_min: 120
+      strength_max: 250
     US:
-      casualties: '134'
-      strength: '4000'
+      casualties: 134
+      strength: 4000
   cwsac_id: GA028
 Battle_of_Fort_Pillow:
   belligerents:
@@ -1177,11 +1190,13 @@ Battle_of_Fort_Pillow:
       captured_missing: 0
       casualties: 100
       killed: 14
-      strength: 1200-2500
+      strength_min: 1200
+      strength_max: 2500
       wounded: 86
     US:
       casualties: 574
-      killed: 277-297
+      killed_min: 277
+      killed_max: 297
       strength: 600
   cwsac_id: TN030
 Battle_of_Fort_Pulaski:
@@ -1203,7 +1218,8 @@ Battle_of_Fort_Ridgely:
   belligerents:
     I:
       killed: 2
-      strength: 800-1000
+      strength_min: 800
+      strength_max: 1000
       wounded: 5
     US:
       killed: 4
@@ -1215,12 +1231,12 @@ Battle_of_Fort_Sanders:
     CS:
       captured: 226
       killed: 129
-      strength: '3000'
+      strength: 3000
       wounded: 458
     US:
       captured_missing: 0
       killed: 8
-      strength: '440'
+      strength: 440
       wounded: 5
   cwsac_id: TN025
 Battle_of_Fort_Stedman:
@@ -1239,7 +1255,8 @@ Battle_of_Fort_Stedman:
 Battle_of_Fort_Stevens:
   belligerents:
     CS:
-      casualties: 400-500
+      casualties_min: 400
+      casualties_max: 500
       strength: 10000
     US:
       casualties: 373
@@ -1309,7 +1326,8 @@ Battle_of_Fredericktown:
       wounded: 40
     US:
       casualties: null
-      strength: 2500-3500
+      strength_min: 2500
+      strength_max: 3500
   cwsac_id: MO007
 Battle_of_Front_Royal:
   belligerents:
@@ -1392,7 +1410,8 @@ Battle_of_Glasgow:
   belligerents:
     CS:
       casualties: 50
-      strength: 1500-1800
+      strength_min: 1500
+      strength_max: 1800
     US:
       casualties: 400
       strength: 800
@@ -1415,7 +1434,8 @@ Battle_of_Globe_Tavern:
     CS:
       captured_missing: 419
       killed: 211
-      strength: 14000-15000
+      strength_min: 14000
+      strength_max: 15000
       wounded: 990
     US:
       captured_missing: 2897
@@ -1434,7 +1454,7 @@ Battle_of_Glorieta_Pass:
       captured: 15
       killed: 51
       missing: 3
-      strength: '1300'
+      strength: 1300
       wounded: 78
   cwsac_id: NM002
 Battle_of_Goldsboro_Bridge:
@@ -1548,33 +1568,35 @@ Battle_of_Hanover:
 Battle_of_Hanover_Court_House:
   belligerents:
     CS:
-      casualties: '930'
-      strength: '4000'
+      casualties: 930
+      strength: 4000
     US:
-      casualties: 355-397
-      strength: '12000'
+      casualties_min: 355
+      casualties_max: 397
+      strength: 12000
   cwsac_id: VA013
+  rev_id: 790789164
 Battle_of_Harpers_Ferry:
   belligerents:
     CS:
       captured_missing: 0
       killed: 39
-      strength: '30000'
+      strength: 30000
       wounded: 247
     US:
       captured: 12419
       killed: 44
-      strength: '12000'
+      strength: 12000
       wounded: 173
   cwsac_id: WV010
 Battle_of_Hartsville:
   belligerents:
     CS:
-      casualties: '139'
-      strength: '1300'
+      casualties: 139
+      strength: 1300
     US:
-      casualties: '2096'
-      strength: '2400'
+      casualties: 2096
+      strength: 2400
   cwsac_id: TN008
 Battle_of_Hartville:
   belligerents:
@@ -1701,7 +1723,7 @@ Battle_of_Irish_Bend:
     CS:
       casualties: null
     US:
-      casualties: '353'
+      casualties: 353
       corps: 1
   cwsac_id: LA007
 Battle_of_Island_Number_Ten:
@@ -1789,7 +1811,8 @@ Battle_of_Johnsonville:
 Battle_of_Jonesborough:
   belligerents:
     CS:
-      casualties: 2000-2700
+      casualties_min: 2000
+      casualties_max: 2700
       corps: 2
     US:
       casualties: 1149
@@ -1831,7 +1854,8 @@ Battle_of_Kessler's_Cross_Lanes:
 Battle_of_Killdeer_Mountain:
   belligerents:
     I:
-      killed: 31-150
+      killed_min: 31
+      killed_max: 150
       strength: 1600
     US:
       killed: 5
@@ -1847,6 +1871,7 @@ Battle_of_Kinston:
       casualties: 260
       strength: 10000
   cwsac_id: NC007
+  rev_id: 801819204
 Battle_of_Kirksville:
   belligerents:
     CS:
@@ -1868,10 +1893,10 @@ Battle_of_Kock's_Plantation:
 Battle_of_Kolb's_Farm:
   belligerents:
     CS:
-      casualties: '1500'
+      casualties: 1500
       corps: 1
     US:
-      casualties: '250'
+      casualties: 250
       corps: 2
   cwsac_id: GA014
 Battle_of_LaFourche_Crossing:
@@ -1905,16 +1930,17 @@ Battle_of_Little_Blue_River:
   belligerents:
     CS:
       casualties: null
-      strength: '8500'
+      strength: 8500
     US:
       casualties: null
-      strength: '2000'
+      strength: 2000
   cwsac_id: MO024
 Battle_of_Lone_Jack:
   belligerents:
     CS:
       casualties: 110
-      strength: 1500-3000
+      strength_min: 1500
+      strength_max: 3000
     US:
       casualties: 160
       strength: 800
@@ -1987,21 +2013,23 @@ Battle_of_Marion:
   belligerents:
     CS:
       killed: 91
-      strength: 1200-1500
+      strength_min: 1200
+      strength_max: 1500
       wounded: 29
     US:
       killed: 89
-      strength: 4200-5500
+      strength_min: 4200
+      strength_max: 5500
       wounded: 55
   cwsac_id: VA081
 Battle_of_Marks'_Mills:
   belligerents:
     CS:
-      casualties: '293'
+      casualties: 293
       divisions: 2
     US:
       brigades: 1
-      casualties: '1500'
+      casualties: 1500
   cwsac_id: AR015
 Battle_of_Marmiton_River:
   belligerents:
@@ -2015,21 +2043,21 @@ Battle_of_McDowell:
     CS:
       killed: 116
       missing: 4
-      strength: '6000'
+      strength: 6000
       wounded: 300
     US:
       killed: 34
       missing: 5
-      strength: '6500'
+      strength: 6500
       wounded: 220
   cwsac_id: VA102
 Battle_of_Memphis:
   belligerents:
     CS:
-      casualties: '180'
+      casualties: 180
       rams: 8
     US:
-      casualties: '1'
+      casualties: 1
       ironclads: 5
       rams: 2
   cwsac_id: TN004
@@ -2048,7 +2076,7 @@ Battle_of_Middle_Boggy_Depot:
     US:
       casualties: 0
       guns: 2
-      strength: '350'
+      strength: 350
   cwsac_id: OK005
 Battle_of_Middle_Creek:
   belligerents:
@@ -2135,7 +2163,8 @@ Battle_of_Monett's_Ferry:
 Battle_of_Monocacy:
   belligerents:
     CS:
-      casualties: 700-900
+      casualties_min: 700
+      casualties_max: 900
       strength: 14000
     US:
       casualties: 1294
@@ -2162,18 +2191,18 @@ Battle_of_Moorefield:
 Battle_of_Morton's_Ford:
   belligerents:
     CS:
-      casualties: '60'
+      casualties: 60
       corps: 1
     US:
-      casualties: '262'
+      casualties: 262
       corps: 1
   cwsac_id: VA045
 Battle_of_Mossy_Creek:
   belligerents:
     CS:
-      strength: '2000'
+      strength: 2000
     US:
-      casualties: '151'
+      casualties: 151
   cwsac_id: TN027
 Battle_of_Mount_Zion_Church:
   belligerents:
@@ -2191,20 +2220,20 @@ Battle_of_Mount_Zion_Church:
 Battle_of_Munfordville:
   belligerents:
     CS:
-      casualties: '714'
+      casualties: 714
     US:
-      casualties: '4148'
+      casualties: 4148
   cwsac_id: KY008
 Battle_of_Namozine_Church:
   belligerents:
     CS:
       captured: 350
       killed: 0
-      strength: '700'
+      strength: 700
       wounded: 15
     US:
       killed_wounded: 95
-      strength: '1000'
+      strength: 1000
   cwsac_id: VA124
   id: 693955063
 Battle_of_Nashville:
@@ -2212,11 +2241,11 @@ Battle_of_Nashville:
     CS:
       captured_missing: 4500
       killed_wounded: 1500
-      strength: '30000'
+      strength: 30000
     US:
       captured_missing: 112
       killed: 387
-      strength: '55000'
+      strength: 55000
       wounded: 2558
   cwsac_id: TN038
 Battle_of_Natural_Bridge:
@@ -2224,7 +2253,7 @@ Battle_of_Natural_Bridge:
     CS:
       captured_missing: 0
       killed: 3
-      strength: '1000'
+      strength: 1000
       wounded: 23
     US:
       captured: 38
@@ -2250,9 +2279,9 @@ Battle_of_New_Bern:
 Battle_of_New_Hope_Church:
   belligerents:
     CS:
-      casualties: '350'
+      casualties: 350
     US:
-      casualties: '1665'
+      casualties: 1665
   cwsac_id: GA010
 Battle_of_New_Market:
   belligerents:
@@ -2317,39 +2346,39 @@ Battle_of_Old_Fort_Wayne:
 Battle_of_Old_River_Lake:
   belligerents:
     CS:
-      casualties: '100'
+      casualties: 100
       divisions: 1
     US:
       brigades: 2
-      casualties: '180'
+      casualties: 180
   cwsac_id: AR017
 Battle_of_Olustee:
   belligerents:
     CS:
-      casualties: '946'
-      strength: '5000'
+      casualties: 946
+      strength: 5000
     US:
-      casualties: '1861'
-      strength: '5500'
+      casualties: 1861
+      strength: 5500
   cwsac_id: FL005
 Battle_of_Opequon:
   belligerents:
     CS:
-      casualties: '3610'
-      strength: '12000'
+      casualties: 3610
+      strength: 12000
     US:
-      casualties: '5020'
-      strength: '40000'
+      casualties: 5020
+      strength: 40000
   cwsac_id: VA119
 Battle_of_Paducah:
   belligerents:
     CS:
-      casualties: '50'
-      strength: '3000'
+      casualties: 50
+      strength: 3000
     US:
-      casualties: '90'
+      casualties: 90
       gunboats: 2
-      strength: '650'
+      strength: 650
   cwsac_id: KY010
 Battle_of_Palmito_Ranch:
   belligerents:
@@ -2357,30 +2386,33 @@ Battle_of_Palmito_Ranch:
       captured: 3
       killed: 0
       strength: 300
-      wounded: 5-6
+      wounded_min: 5
+      wounded_max: 6
     US:
       captured: 101
-      killed: 4
+      killed_min: 4
+      killed_max: 30
       strength: 500
       wounded: 12
   cwsac_id: TX005
+  rev_id: 808216039
 Battle_of_Parker's_Cross_Roads:
   belligerents:
     CS:
-      casualties: '500'
-      strength: '1800'
+      casualties: 500
+      strength: 1800
     US:
-      casualties: '237'
-      strength: '3000'
+      casualties: 237
+      strength: 3000
   cwsac_id: TN011
 Battle_of_Pea_Ridge:
   belligerents:
     CS:
-      casualties: '2000'
-      strength: '16000'
+      casualties: 2000
+      strength: 16000
     US:
-      casualties: '1384'
-      strength: '10500'
+      casualties: 1384
+      strength: 10500
   cwsac_id: AR001
 Battle_of_Peachtree_Creek:
   belligerents:
@@ -2394,42 +2426,42 @@ Battle_of_Peachtree_Creek:
 Battle_of_Peebles'_Farm:
   belligerents:
     CS:
-      casualties: '1239'
-      strength: '10000'
+      casualties: 1239
+      strength: 10000
     US:
-      casualties: '2889'
-      strength: '29800'
+      casualties: 2889
+      strength: 29800
   cwsac_id: VA074
 Battle_of_Perryville:
   belligerents:
     CS:
       captured_missing: 228
       killed: 532
-      strength: '16000'
+      strength: 16000
       wounded: 2641
     US:
       captured_missing: 471
       killed: 894
-      strength: '22000'
+      strength: 22000
       wounded: 2911
   cwsac_id: KY009
 Battle_of_Philippi_(West_Virginia):
   belligerents:
     CS:
-      casualties: '26'
-      strength: '800'
+      casualties: 26
+      strength: 800
     US:
-      casualties: '4'
-      strength: '3000'
+      casualties: 4
+      strength: 3000
   cwsac_id: WV001
 Battle_of_Pickett's_Mill:
   belligerents:
     CS:
       brigades: 2
-      casualties: '500'
+      casualties: 500
     US:
-      casualties: '1600'
-      strength: '14000'
+      casualties: 1600
+      strength: 14000
   cwsac_id: GA012
 Battle_of_Piedmont:
   belligerents:
@@ -2438,25 +2470,25 @@ Battle_of_Piedmont:
       killed_wounded: 500
       strength: 5500
     US:
-      casualties: '875'
-      strength: '8500'
+      casualties: 875
+      strength: 8500
   cwsac_id: VA111
 Battle_of_Pine_Bluff:
   belligerents:
     CS:
-      casualties: '40'
-      strength: '2000'
+      casualties: 40
+      strength: 2000
     US:
-      casualties: '56'
-      strength: '850'
+      casualties: 56
+      strength: 850
   cwsac_id: AR011
 Battle_of_Plains_Store:
   belligerents:
     CS:
-      casualties: '100'
-      strength: '600'
+      casualties: 100
+      strength: 600
     US:
-      casualties: '150'
+      casualties: 150
       cavalry_brigades: 1
       divisions: 1
   cwsac_id: LA009
@@ -2475,7 +2507,7 @@ Battle_of_Pleasant_Hill:
 Battle_of_Plymouth_(1864):
   belligerents:
     CS:
-      casualties: '800'
+      casualties: 800
       divisions: 1
     US:
       artillery_batteries: 1
@@ -2498,27 +2530,27 @@ Battle_of_Port_Gibson:
   belligerents:
     CS:
       brigades: 4
-      casualties: '787'
+      casualties: 787
     US:
-      casualties: '861'
+      casualties: 861
       corps: 2
   cwsac_id: MS006
 Battle_of_Port_Republic:
   belligerents:
     CS:
-      casualties: '816'
-      strength: '6000'
+      casualties: 816
+      strength: 6000
     US:
-      casualties: '1002'
-      strength: '3500'
+      casualties: 1002
+      strength: 3500
   cwsac_id: VA106
 Battle_of_Port_Walthall_Junction:
   belligerents:
     CS:
-      strength: '2600'
+      strength: 2600
     US:
-      strength: '8000'
-  casualties: '550'
+      strength: 8000
+  casualties: 550
   cwsac_id: VA047
 Battle_of_Prairie_D'Ane:
   belligerents:
@@ -2528,16 +2560,16 @@ Battle_of_Prairie_D'Ane:
 Battle_of_Prairie_Grove:
   belligerents:
     CS:
-      casualties: '1317'
-      strength: '11059'
+      casualties: 1317
+      strength: 11059
     US:
-      casualties: '1251'
-      strength: '9216'
+      casualties: 1251
+      strength: 9216
   cwsac_id: AR005
 Battle_of_Princeton_Court_House:
   belligerents:
     CS:
-      casualties: '16'
+      casualties: 16
       killed: 4
       missing: 0
       wounded: 12
@@ -2571,30 +2603,31 @@ Battle_of_Raymond:
 Battle_of_Resaca:
   belligerents:
     CS:
-      casualties: '2800'
-      strength: '60000'
+      casualties: 2800
+      strength: 60000
     US:
-      casualties: 4000-5000
-      strength: '98787'
+      casualties_min: 4000
+      casualties_max: 5000
+      strength: 98787
   cwsac_id: GA008
 Battle_of_Rice's_Station:
   belligerents:
     CS:
       casualties: 2
-      strength: '6800'
+      strength: 6800
     US:
       casualties: 2
-      strength: '7500'
+      strength: 7500
   cwsac_id: VA092
   notes: few
 Battle_of_Rich_Mountain:
   belligerents:
     CS:
       brigades: 1
-      casualties: '300'
+      casualties: 300
     US:
       brigades: 1
-      casualties: '46'
+      casualties: 46
   cwsac_id: WV003
 Battle_of_Richmond:
   belligerents:
@@ -2657,6 +2690,7 @@ Battle_of_Roanoke_Island:
       strength: 10000
       wounded: 214
   cwsac_id: NC002
+  rev_id: 802248656
 Battle_of_Rocky_Face_Ridge:
   belligerents:
     CS:
@@ -2672,20 +2706,20 @@ Battle_of_Round_Mountain:
     CS:
       killed: 6
       missing: 1
-      strength: '1400'
+      strength: 1400
       wounded: 4
     US:
-      casualties: '110'
+      casualties: 110
       strength: ''
   cwsac_id: OK001
 Battle_of_Rowlett's_Station:
   belligerents:
     CS:
-      casualties: '91'
-      strength: '1350'
+      casualties: 91
+      strength: 1350
     US:
-      casualties: '49'
-      strength: '500'
+      casualties: 49
+      strength: 500
   cwsac_id: KY004
 Battle_of_Rutherford's_Farm:
   belligerents:
@@ -2702,7 +2736,7 @@ Battle_of_Saint_Charles:
   belligerents:
     CS:
       artillery_batteries: 3
-      casualties: '26'
+      casualties: 26
     US:
       casualties: 177
       ships: 8
@@ -2731,8 +2765,7 @@ Battle_of_Salem_Church:
       strength: 10000
     US:
       casualties: 4611
-      strength: 25000
-  casualties: 5000
+      strength: 23000
   cwsac_id: VA033
   rev_id: 787496064
 Battle_of_Salineville:
@@ -2763,7 +2796,8 @@ Battle_of_Santa_Rosa_Island:
   belligerents:
     CS:
       casualties: 87
-      killed: 30-40
+      killed_min: 30
+      killed_max: 40
       strength: 1200
     US:
       captured_missing: 24
@@ -2774,48 +2808,50 @@ Battle_of_Santa_Rosa_Island:
 Battle_of_Sappony_Church:
   belligerents:
     CS:
-      strength: '5000'
+      strength: 5000
     US:
-      strength: '4000'
+      strength: 4000
   cwsac_id: VA067
 Battle_of_Savage's_Station:
   belligerents:
     CS:
-      casualties: '473'
-      strength: '14000'
+      casualties: 473
+      strength: 14000
     US:
-      casualties: '1038'
-      strength: '26600'
+      casualties: 1038
+      strength: 26600
   cwsac_id: VA019
 Battle_of_Sayler's_Creek:
   belligerents:
     CS:
-      captured: '7700'
-      strength: '11500'
+      captured: 7700
+      strength: 11500
     US:
-      casualties: '1148'
-      strength: 15000-16000
+      casualties: 1148
+      strength_min: 15000
+      strength_max: 16000
   cwsac_id: VA093
 Battle_of_Selma:
   belligerents:
     CS:
-      casualties: '2700'
-      strength: '5000'
+      casualties: 2700
+      strength: 4000
     US:
-      casualties: '359'
-      strength: '13500'
+      casualties: 359
+      strength: 9000
   cwsac_id: AL007
+  rev_id: 805824697
 Battle_of_Seven_Pines:
   belligerents:
     CS:
       captured_missing: 405
       killed: 980
-      strength: '39000'
+      strength: 39000
       wounded: 4749
     US:
       captured_missing: 647
       killed: 790
-      strength: '34000'
+      strength: 34000
       wounded: 3594
   cwsac_id: VA014
 Battle_of_Sewell's_Point:
@@ -2824,15 +2860,15 @@ Battle_of_Sewell's_Point:
       artillery_batteries: 1
     US:
       gunboats: 2
-  casualties: '10'
+  casualties: 10
   cwsac_id: VA001
 Battle_of_Shepherdstown:
   belligerents:
     CS:
-      casualties: '291'
+      casualties: 291
       divisions: 2
     US:
-      casualties: '363'
+      casualties: 363
       divisions: 2
   cwsac_id: WV016
 Battle_of_Shiloh:
@@ -2840,12 +2876,12 @@ Battle_of_Shiloh:
     CS:
       captured_missing: 959
       killed: 1728
-      strength: '44699'
+      strength: 44699
       wounded: 8012
     US:
       captured_missing: 2885
       killed: 1754
-      strength: '66812'
+      strength: 66812
       wounded: 8408
   cwsac_id: TN003
 Battle_of_Simmon's_Bluff:
@@ -2869,7 +2905,7 @@ Battle_of_Smithfield_Crossing:
       divisions: 1
     US:
       divisions: 1
-  casualties: '300'
+  casualties: 300
   cwsac_id: WV015
 Battle_of_Snyder's_Bluff:
   belligerents:
@@ -2894,20 +2930,20 @@ Battle_of_South_Mountain:
     CS:
       killed: 325
       missing: 800
-      strength: '18000'
+      strength: 18000
       wounded: 1560
     US:
       killed: 443
       missing: 75
-      strength: '28000'
+      strength: 28000
       wounded: 1807
   cwsac_id: MD002
 Battle_of_Spanish_Fort:
   belligerents:
     CS:
-      casualties: '744'
+      casualties: 744
     US:
-      casualties: '657'
+      casualties: 657
       cavalry_divisions: 2
       divisions: 8
   cwsac_id: AL005
@@ -2927,18 +2963,18 @@ Battle_of_Spotsylvania_Court_House:
 Battle_of_Spring_Hill:
   belligerents:
     CS:
-      casualties: '500'
-      strength: '12000'
+      casualties: 500
+      strength: 12000
     US:
-      casualties: '350'
-      strength: '7000'
+      casualties: 350
+      strength: 7000
   cwsac_id: TN035
 Battle_of_Staunton_River_Bridge:
   belligerents:
     CS:
       captured_missing: 0
       killed: 10
-      strength: '4100'
+      strength: 4100
       wounded: 24
     US:
       captured_missing: 30
@@ -2951,12 +2987,12 @@ Battle_of_Stirling's_Plantation:
     CS:
       killed: 26
       missing: 10
-      strength: '3000'
+      strength: 3000
       wounded: 85
     US:
       captured: 454
       killed: 16
-      strength: '650'
+      strength: 650
       wounded: 45
   cwsac_id: LA016
 Battle_of_Stones_River:
@@ -2964,28 +3000,29 @@ Battle_of_Stones_River:
     CS:
       captured_missing: 2500
       killed: 1294
-      strength: '35000'
+      strength: 35000
       wounded: 7945
     US:
       captured_missing: 3686
       killed: 1677
-      strength: '41400'
+      strength: 41400
       wounded: 7543
   cwsac_id: TN010
 Battle_of_Stony_Lake:
   belligerents:
     I:
-      casualties: '3'
-      strength: 1600-2500
+      casualties: 3
+      strength_min: 1600
+      strength_max: 2500
     US:
-      casualties: '2'
-      strength: '2056'
+      casualties: 2
+      strength: 2056
   cwsac_id: ND003
 Battle_of_Suffolk_(Hill's_Point):
   belligerents:
     CS:
       captured: 130
-      casualties: '143'
+      casualties: 143
       killed: 1
       missing: 1
       wounded: 11
@@ -2995,38 +3032,40 @@ Battle_of_Suffolk_(Hill's_Point):
       wounded: 11
   cwsac_id: VA031
   strength: 45000
+  rev_id: 769913535
 Battle_of_Suffolk_(Norfleet_House):
   belligerents:
     CS:
-      strength: '20000'
+      strength: 20000
     US:
-      strength: '17000'
+      strength: 17000
   cwsac_id: VA030
+  rev_id: 794950711
 Battle_of_Summit_Point:
   belligerents:
     CS:
       divisions: 1
     US:
       divisions: 1
-  casualties: '1000'
+  casualties: 1000
   cwsac_id: WV014
 Battle_of_Sutherland's_Station:
   belligerents:
     CS:
-      casualties: '600'
-      strength: '3000'
+      casualties: 600
+      strength: 3000
     US:
-      casualties: '370'
-      strength: '1500'
+      casualties: 370
+      strength: 1500
   cwsac_id: VA090
 Battle_of_Swift_Creek:
   belligerents:
     CS:
-      strength: '4200'
+      strength: 4200
     US:
       gunboats: 5
-      strength: '14000'
-  casualties: '990'
+      strength: 14000
+  casualties: 990
   cwsac_id: VA050
 Battle_of_Tampa:
   belligerents:
@@ -3044,28 +3083,28 @@ Battle_of_Tampa:
 Battle_of_Thompson's_Station:
   belligerents:
     CS:
-      casualties: '300'
+      casualties: 300
       cavalry_corps: 300
     US:
       brigades: 1
-      casualties: '1096'
+      casualties: 1096
   cwsac_id: TN013
 Battle_of_Thoroughfare_Gap:
   belligerents:
     CS:
-      strength: '28000'
+      strength: 28000
     US:
-      strength: '5000'
-  casualties: '100'
+      strength: 5000
+  casualties: 100
   cwsac_id: VA025
 Battle_of_Tom's_Brook:
   belligerents:
     CS:
-      casualties: '350'
-      strength: '3500'
+      casualties: 350
+      strength: 3500
     US:
-      casualties: '57'
-      strength: '6300'
+      casualties: 57
+      strength: 6300
   cwsac_id: VA121
 Battle_of_Totopotomoy_Creek:
   belligerents:
@@ -3087,27 +3126,27 @@ Battle_of_Tranter's_Creek:
       artillery_sections: 1
       cavalry_companies: 1
       regiments: 1
-  casualties: '40'
+  casualties: 40
   cwsac_id: NC006
 Battle_of_Trevilian_Station:
   belligerents:
     CS:
-      casualties: '813'
-      strength: '6762'
+      casualties: 813
+      strength: 6762
     US:
       captured_missing: 410
       killed: 95
-      strength: '9286'
+      strength: 9286
       wounded: 445
   cwsac_id: VA099
 Battle_of_Tupelo:
   belligerents:
     CS:
-      casualties: '1300'
-      strength: '8000'
+      casualties: 1300
+      strength: 8000
     US:
-      casualties: '648'
-      strength: '14000'
+      casualties: 648
+      strength: 14000
   cwsac_id: MS015
 Battle_of_Upperville:
   belligerents:
@@ -3116,7 +3155,7 @@ Battle_of_Upperville:
     US:
       brigades: 1
       cavalry_divisions: 2
-  casualties: '400'
+  casualties: 400
   cwsac_id: VA038
 Battle_of_Utoy_Creek:
   belligerents:
@@ -3132,23 +3171,23 @@ Battle_of_Valverde:
     CS:
       killed: 36
       missing: 1
-      strength: '2590'
+      strength: 2590
       wounded: 150
     US:
       killed: 68
       losses_guns: 6
       missing: 204
-      strength: '3000'
+      strength: 3000
       wounded: 160
   cwsac_id: NM001
 Battle_of_Vaught's_Hill:
   belligerents:
     CS:
-      casualties: '373'
-      strength: '3500'
+      casualties: 373
+      strength: 3500
     US:
-      casualties: '62'
-      strength: '1300'
+      casualties: 62
+      strength: 1300
   cwsac_id: TN014
 Battle_of_Vermillion_Bayou:
   belligerents:
@@ -3161,43 +3200,43 @@ Battle_of_Walkerton:
   belligerents:
     CS: {}
     US:
-      strength: '4000'
+      strength: 4000
   cwsac_id: VA125
 Battle_of_Ware_Bottom_Church:
   belligerents:
     CS: {}
     US: {}
-  casualties: '1500'
+  casualties: 1500
   cwsac_id: VA054
   strength: 10000
 Battle_of_Washington:
   belligerents:
     CS:
-      casualties: '60'
+      casualties: 60
       divisions: 1
     US:
-      casualties: '40'
+      casualties: 40
       regiments: 6
   cwsac_id: NC011
 Battle_of_Wauhatchie:
   belligerents:
     CS:
-      casualties: '408'
+      casualties: 408
       regiments: 19
     US:
       artillery_brigade: 1
-      casualties: '420'
+      casualties: 420
       cavalry_regiments: 1
       regiments: 26
   cwsac_id: TN021
 Battle_of_Waynesboro,_Georgia:
   belligerents:
     CS:
-      casualties: '250'
-      strength: '4000'
+      casualties: 250
+      strength: 4000
     US:
-      casualties: '190'
-      strength: '6000'
+      casualties: 190
+      strength: 6000
   cwsac_id: GA027
 Battle_of_Waynesboro,_Virginia:
   belligerents:
@@ -3207,17 +3246,17 @@ Battle_of_Waynesboro,_Virginia:
     US:
       casualties: 9
       strength: 2500
-  casualties: '1800'
+  casualties: 1800
   cwsac_id: VA123
   rev_id: 802347507
 Battle_of_Westport:
   belligerents:
     CS:
-      casualties: '1500'
-      strength: '8500'
+      casualties: 1500
+      strength: 8500
     US:
-      casualties: '1500'
-      strength: '22000'
+      casualties: 1500
+      strength: 22000
   cwsac_id: MO027
 Battle_of_White_Hall:
   belligerents:
@@ -3227,34 +3266,35 @@ Battle_of_White_Hall:
       artillery_batteries: 1
       brigades: 2
       cavalry_regiments: 1
-  casualties: '150'
+  casualties: 150
   cwsac_id: NC008
 Battle_of_White_Oak_Road:
   belligerents:
     CS:
-      casualties: '800'
-      strength: '8000'
+      casualties: 800
+      strength: 8000
     US:
-      casualties: '1870'
-      strength: '22000'
+      casualties: 1870
+      strength: 22000
   cwsac_id: VA087
 Battle_of_Whitestone_Hill:
   belligerents:
     I:
-      strength: 600-1500
+      strength_min: 600
+      strenght_max: 1500
     US:
       killed: 22
-      strength: '1200'
+      strength: 1200
       wounded: 38
   cwsac_id: ND004
 Battle_of_Williamsburg:
   belligerents:
     CS:
-      casualties: '1682'
-      strength: '31823'
+      casualties: 1682
+      strength: 31823
     US:
-      casualties: '2283'
-      strength: '40768'
+      casualties: 2283
+      strength: 40768
   cwsac_id: VA010
 Battle_of_Williamsport:
   belligerents:
@@ -3262,89 +3302,93 @@ Battle_of_Williamsport:
       divisions: 1
     US:
       divisions: 1
-  casualties: '1760'
+  casualties: 1760
   cwsac_id: MD004
 Battle_of_Wilmington:
   belligerents:
     CS:
-      casualties: '845'
-      strength: '6000'
+      casualties: 845
+      strength: 6000
     US:
-      casualties: '305'
-      strength: '12000'
+      casualties: 305
+      strength: 12000
   cwsac_id: NC016
 Battle_of_Wilson's_Creek:
   belligerents:
     CS:
       killed: 277
       missing: 10
-      strength: '12120'
+      strength: 12120
       wounded: 945
     US:
       killed: 258
       missing: 186
-      strength: '5430'
+      strength: 5430
       wounded: 873
   cwsac_id: MO004
 Battle_of_Wilson's_Wharf:
   belligerents:
     CS:
       killed_wounded: 200
-      strength: '2500'
+      strength: 2500
     US:
       guns: 2
       killed: 6
       ships: 1
-      strength: '1100'
+      strength: 1100
       wounded: 40
   cwsac_id: VA056
 Battle_of_Wood_Lake:
   belligerents:
     I:
-      casualties: 7-15
-      strength: 700-1200
+      casualties_min: 7
+      casualties_max: 15
+      strength_min: 700
+      strength_max: 1200
     US:
       killed: 7
-      strength: 1169-2000
+      strength_min: 1169
+      strength_max: 2000
       wounded: 34
   cwsac_id: MN002
 Battle_of_Wyse_Fork:
   belligerents:
     CS:
-      casualties: '1500'
-      strength: '8500'
+      casualties: 1500
+      strength: 8500
     US:
-      casualties: '1101'
-      strength: '12000'
+      casualties: 1101
+      strength: 12000
   cwsac_id: NC017
+  rev_id: 802347775
 Battle_of_Yellow_Bayou:
   belligerents:
     CS:
-      casualties: '500'
+      casualties: 500
     US:
-      casualties: '360'
+      casualties: 360
       corps: 1
   cwsac_id: LA023
 Battle_of_Yellow_Tavern:
   belligerents:
     CS:
-      captured: '300'
-      strength: '5000'
+      captured: 300
+      strength: 5000
     US:
-      casualties: '625'
-      strength: '12000'
+      casualties: 625
+      strength: 12000
   cwsac_id: VA052
 Battle_of_the_Crater:
   belligerents:
     CS:
       captured_missing: 403
       killed: 361
-      strength: '6100'
+      strength: 6100
       wounded: 727
     US:
       captured_missing: 1413
       killed: 504
-      strength: '8500'
+      strength: 8500
       wounded: 1881
   cwsac_id: VA070
 Battle_of_the_Wilderness:
@@ -3352,29 +3396,31 @@ Battle_of_the_Wilderness:
     CS:
       captured_missing: 1690
       killed: 1477
-      strength: '61025'
+      strength_min: 60000
+      strength_max: 65000
       wounded: 7866
     US:
       captured_missing: 3383
       killed: 2246
-      strength: '101895'
+      strength: 124232
       wounded: 12037
   cwsac_id: VA046
+  rev_id: 806438065
 Bear_River_Massacre:
   belligerents:
     I:
-      casualties: '410'
-      strength: '300'
+      casualties: 410
+      strength: 300
     US:
-      casualties: '67'
-      strength: '200'
+      casualties: 67
+      strength: 200
   cwsac_id: ID001
 Big_Sandy_Expedition:
   belligerents:
     CS:
       captured: 74
       killed: 31
-      strength: '1010'
+      strength: 1010
       wounded: 55
     US:
       killed: 6
@@ -3386,16 +3432,17 @@ Big_Sandy_Expedition:
 Capture_of_New_Orleans:
   belligerents:
     CS:
-      casualties: '0'
+      casualties: 0
       strength: ''
     US:
-      casualties: '0'
+      casualties: 0
       strength: ''
   cwsac_id: LA002
 Chattanooga_Campaign:
   belligerents:
     CS:
-      casualties: 6000-8000
+      casualties_min: 6000
+      casualties_max: 8000
       strength: 48948
     US:
       casualties: 5824
@@ -3408,23 +3455,25 @@ Chattanooga_Campaign:
 First_Battle_of_Auburn:
   belligerents:
     CS:
-      strength: '3000'
+      strength: 3000
     US:
-      strength: '2000'
-  casualties: '50'
+      strength: 2000
+  casualties: 50
   cwsac_id: VA039
 First_Battle_of_Bull_Run:
   belligerents:
     CS:
       killed: 3887
       missing: 13
-      strength: 32000-34000
+      strength_min: 32000
+      strength_max: 34000
       wounded: 1582
     US:
       captured_missing: 1312
-      casualties: '2896'
+      casualties: 2896
       killed: 460
-      strength: 28000-35000
+      strength_min: 28000
+      strength_max: 35000
       wounded: 1124
   cwsac_id: VA005
 First_Battle_of_Charleston_Harbor:
@@ -3443,18 +3492,18 @@ First_Battle_of_Charleston_Harbor:
 First_Battle_of_Chattanooga:
   belligerents:
     CS:
-      casualties: '65'
+      casualties: 65
       strength: ''
     US:
-      casualties: '23'
+      casualties: 23
       divisions: 1
   cwsac_id: TN005
 First_Battle_of_Dalton:
   belligerents:
     CS:
-      casualties: '140'
+      casualties: 140
     US:
-      casualties: '300'
+      casualties: 300
   cwsac_id: GA006
 First_Battle_of_Deep_Bottom:
   belligerents:
@@ -3476,9 +3525,9 @@ First_Battle_of_Deep_Bottom:
 First_Battle_of_Donaldsonville:
   belligerents:
     CS:
-      casualties: '0'
+      casualties: 0
     US:
-      casualties: '0'
+      casualties: 0
       ships: 3
   cwsac_id: LA004
 First_Battle_of_Fort_Fisher:
@@ -3500,8 +3549,8 @@ First_Battle_of_Fort_Fisher:
 First_Battle_of_Fort_Wagner:
   belligerents:
     CS:
-      casualties: '12'
-      strength: '1770'
+      casualties: 12
+      strength: 1770
     US:
       brigades: 1
       killed: 49
@@ -3512,60 +3561,63 @@ First_Battle_of_Independence:
   belligerents:
     CS:
       casualties: null
-      strength: 700-800
+      strength_min: 700
+      strength_max: 800
     US:
-      casualties: '344'
-      strength: '344'
+      casualties: 344
+      strength: 344
   cwsac_id: MO014
 First_Battle_of_Kernstown:
   belligerents:
     CS:
       captured_missing: 263
       killed: 80
-      strength: 2990-4220
+      strength_min: 2990
+      strength_max: 4220
       wounded: 375
     US:
       captured_missing: 22
       killed: 118
-      strength: 6352-9000
+      strength_min: 6352
+      strenght_max: 9000
       wounded: 450
   cwsac_id: VA101
 First_Battle_of_Lexington:
   belligerents:
     CS:
-      casualties: '100'
-      strength: '12500'
+      casualties: 100
+      strength: 12500
     US:
-      captured: '1000'
+      captured: 1000
       killed_wounded: 774
-      strength: '3500'
+      strength: 3500
   cwsac_id: MO006
 First_Battle_of_Murfreesboro:
   belligerents:
     CS:
-      casualties: '150'
-      strength: '1400'
+      casualties: 150
+      strength: 1400
     US:
-      casualties: '890'
-      strength: '900'
+      casualties: 890
+      strength: 900
   cwsac_id: TN006
 First_Battle_of_Newtonia:
   belligerents:
     CS:
       brigades: 1
-      casualties: '100'
+      casualties: 100
     US:
-      casualties: '245'
-      strength: '1500'
+      casualties: 245
+      strength: 1500
   cwsac_id: MO016
 First_Battle_of_Petersburg:
   belligerents:
     CS:
-      casualties: '80'
-      strength: '2500'
+      casualties: 80
+      strength: 2500
     US:
-      casualties: '40'
-      strength: '4500'
+      casualties: 40
+      strength: 4500
   cwsac_id: VA098
 First_Battle_of_Rappahannock_Station:
   belligerents:
@@ -3573,20 +3625,20 @@ First_Battle_of_Rappahannock_Station:
       brigades: 1
     US:
       brigades: 1
-  casualties: '225'
+  casualties: 225
   cwsac_id: VA023
 First_Battle_of_Ream's_Station:
   belligerents:
     CS:
-      strength: '7000'
+      strength: 7000
     US:
-      strength: '4000'
-  casualties: '600'
+      strength: 4000
+  casualties: 600
   cwsac_id: VA068
 First_Battle_of_Sabine_Pass:
   belligerents:
     CS:
-      strength: '60'
+      strength: 60
     US:
       casualties: 0
       ships: 3
@@ -3594,76 +3646,80 @@ First_Battle_of_Sabine_Pass:
 First_Battle_of_Springfield:
   belligerents:
     CS:
-      casualties: '133'
-      strength: 1000-1500
+      casualties: 133
+      strength_min: 1000
+      strength_max: 1500
     US:
-      casualties: '85'
-      strength: '5000'
+      casualties: 85
+      strength: 5000
   cwsac_id: MO008
 First_Battle_of_Winchester:
   belligerents:
     CS:
-      casualties: '400'
-      strength: '16000'
+      casualties: 400
+      strength: 16000
     US:
-      casualties: '2019'
-      strength: '6500'
+      casualties: 2019
+      strength: 6500
   cwsac_id: VA104
 Lawrence_Massacre:
   belligerents:
     CS:
-      casualties: '40'
-      strength: 300-400
+      casualties: 40
+      strength_min: 300
+      strength_max: 400
     US:
-      casualties: '164'
-      strength: '0'
+      casualties: 164
+      strength: 0
   cwsac_id: KS001
 Manassas_Station_Operations_(Stonewall_Jackson):
   belligerents:
     CS:
-      casualties: '173'
+      casualties: 173
     US:
-      casualties: '1144'
+      casualties: 1144
   cwsac_id: VA024
 Sand_Creek_massacre:
   belligerents:
     I:
-      casualties: 70-163
-      strength: 60-200
+      casualties_min: 70
+      casualties_max: 163
+      strength_min: 60
+      strength_max: 200
     US:
       killed: 24
-      strength: '700'
+      strength: 700
       wounded: 52
   cwsac_id: CO001
 Second_Battle_of_Auburn:
   belligerents:
     CS:
-      strength: '3000'
+      strength: 3000
     US: {}
-  casualties: '113'
+  casualties: 113
   cwsac_id: VA041
 Second_Battle_of_Bull_Run:
   belligerents:
     CS:
       killed: 1300
-      strength: '50000'
+      strength: 50000
       wounded: 7000
     US:
-      killed_wounded: '10000'
-      strength: '62000'
+      killed_wounded: 10000
+      strength: 62000
   cwsac_id: VA026
 Second_Battle_of_Charleston_Harbor:
   belligerents:
     CS:
       artillery_battalions: 10
       artillery_companies: 12
-      casualties: '816'
+      casualties: 816
       cavalry_companies: 11
       regiments: 37
       strength: ''
     US:
       artillery_batteries: 8
-      casualties: '859'
+      casualties: 859
       cavalry_companies: 1
       regiments: 23
       strength: ''
@@ -3683,13 +3739,13 @@ Second_Battle_of_Corinth:
     CS:
       captured_missing: 1763
       killed: 473
-      strength: '22000'
+      strength: 22000
       wounded: 1997
       casualties: 4233
     US:
       killed: 355
       missing: 324
-      strength: '23000'
+      strength: 23000
       wounded: 1841
       casualties: 2520
   cwsac_id: MS002
@@ -3706,21 +3762,21 @@ Second_Battle_of_Deep_Bottom:
     CS:
       captured_missing: 400
       killed: 200
-      strength: '20000'
+      strength: 20000
       wounded: 900
     US:
       captured_missing: 721
       killed: 327
-      strength: '28000'
+      strength: 28000
       wounded: 1851
   cwsac_id: VA071
 Second_Battle_of_Donaldsonville:
   belligerents:
     CS:
       brigades: 2
-      casualties: '301'
+      casualties: 301
     US:
-      casualties: '23'
+      casualties: 23
       companies: 2
       gunboats: 2
   cwsac_id: LA013
@@ -3728,7 +3784,7 @@ Second_Battle_of_Fort_Fisher:
   belligerents:
     CS:
       captured: 1317
-      killed_wounded: '583'
+      killed_wounded: 583
       strength: 8300
     US:
       killed: 199
@@ -3742,130 +3798,133 @@ Second_Battle_of_Fort_Sumter:
   belligerents:
     CS:
       casualties: null
-      strength: '320'
+      strength: 320
     US:
-      casualties: '117'
-      strength: '413'
+      casualties: 117
+      strength: 413
   cwsac_id: SC009
 Second_Battle_of_Fort_Wagner:
   belligerents:
     CS:
       captured: 5
       killed: 36
-      strength: '1800'
+      strength: 1800
       wounded: 133
     US:
       captured: 389
       killed: 246
-      strength: '5000'
+      strength: 5000
       wounded: 880
   cwsac_id: SC007
 Second_Battle_of_Fredericksburg:
   belligerents:
     CS:
       casualties: 700
-      strength: '12000'
+      strength: 12000
     US:
       casualties: 1100
-      strength: '27100'
-  casualties: '2000'
+      strength: 27100
+  casualties: 2000
   cwsac_id: VA034
 Second_Battle_of_Independence:
   belligerents:
     CS:
-      casualties: '140'
-      strength: '8500'
+      casualties: 140
+      strength: 8500
     US:
       casualties: null
-      strength: '22000'
+      strength: 22000
   cwsac_id: MO025
 Second_Battle_of_Kernstown:
   belligerents:
     CS:
-      casualties: '600'
-      strength: 13000-14000
+      casualties: 600
+      strength_min: 13000
+      strength_max: 14000
     US:
-      casualties: '1200'
-      strength: 9500-10000
+      casualties: 1200
+      strength_min: 9500
+      strength_max: 10000
   cwsac_id: VA116
 Second_Battle_of_Lexington:
   belligerents:
     CS:
       casualties: null
-      strength: '8500'
+      strength: 8500
     US:
       casualties: null
-      strength: '2000'
+      strength: 2000
   cwsac_id: MO023
 Second_Battle_of_Memphis:
   belligerents:
     CS:
-      casualties: '34'
-      strength: '400'
+      casualties: 34
+      strength: 400
     US:
-      casualties: '160'
+      casualties: 160
       strength: ''
   cwsac_id: TN031
 Second_Battle_of_Newtonia:
   belligerents:
     CS:
-      casualties: '250'
+      casualties: 250
     US:
-      casualties: '400'
+      casualties: 400
   cwsac_id: MO029
 Second_Battle_of_Petersburg:
   belligerents:
     CS:
       captured_missing: 900
       killed: 200
-      strength: '38000'
+      strength: 38000
       wounded: 2900
     US:
       captured_missing: 1185
       killed: 1688
-      strength: '62000'
+      strength: 62000
       wounded: 8513
   cwsac_id: VA063
 Second_Battle_of_Rappahannock_Station:
   belligerents:
     CS:
-      casualties: '1670'
-      strength: '2000'
+      casualties: 1670
+      strength: 2000
     US:
-      casualties: '419'
-      strength: '2000'
+      casualties: 419
+      strength: 2000
   cwsac_id: VA043
 Second_Battle_of_Ream's_Station:
   belligerents:
     CS:
-      casualties: '814'
-      strength: 8000-10000
+      casualties: 814
+      strength_min: 8000
+      strength_max: 10000
     US:
       captured: 2073
       killed: 140
-      strength: '9000'
+      strength: 9000
       wounded: 529
   cwsac_id: VA073
 Second_Battle_of_Sabine_Pass:
   belligerents:
     CS:
-      casualties: '0'
-      strength: '36'
+      casualties: 0
+      strength: 36
     US:
-      casualties: '200'
+      casualties: 200
       gunboats: 4
       losses_ships: 2
-      strength: '5000'
+      strength: 5000
   cwsac_id: TX006
 Second_Battle_of_Springfield:
   belligerents:
     CS:
-      casualties: '290'
-      strength: '1870'
+      casualties: 290
+      strength: 1870
     US:
       killed: 30
       missing: 6
-      strength: '2099'
+      strength: 2099
       wounded: 195
   cwsac_id: MO018
 Second_Battle_of_Winchester:
@@ -3873,31 +3932,32 @@ Second_Battle_of_Winchester:
     CS:
       killed: 47
       missing: 3
-      strength: '12500'
+      strength: 12500
       wounded: 219
     US:
       captured_missing: 4000
       killed: 95
-      strength: '7000'
+      strength: 7000
       wounded: 348
   cwsac_id: VA107
 Siege_of_Corinth:
   belligerents:
     CS:
-      casualties: '1000'
-      strength: '65000'
+      casualties: 1000
+      strength: 65000
     US:
-      casualties: '1000'
-      strength: '120000'
+      casualties: 1000
+      strength: 120000
   cwsac_id: MS016
 Siege_of_Port_Hudson:
   belligerents:
     CS:
-      casualties: '7500'
-      strength: '7500'
+      casualties: 7500
+      strength: 7500
     US:
-      casualties: '10000'
-      strength: 30000-40000
+      casualties: 10000
+      strength_min: 30000
+      strength_max: 40000
   cwsac_id: LA010
 Siege_of_Vicksburg:
   id: 711554904
@@ -3906,10 +3966,10 @@ Siege_of_Vicksburg:
       captured: 29495
       killed_wounded: 3202
       casualties: 32697
-      strength: '33000'
+      strength: 33000
     US:
-      casualties: '4835'
-      strength: '77000'
+      casualties: 4835
+      strength: 77000
       killed: 766
       wounded: 3793
       missing: 276
@@ -3917,27 +3977,27 @@ Siege_of_Vicksburg:
 Siege_of_Yorktown_(1862):
   belligerents:
     CS:
-      casualties: '300'
-      strength: '35000'
+      casualties: 300
+      strength: 35000
     US:
-      casualties: '182'
-      strength: '121500'
+      casualties: 182
+      strength: 121500
   cwsac_id: VA009
 Third_Battle_of_Murfreesboro:
   belligerents:
     CS:
-      casualties: '197'
-      strength: '7000'
+      casualties: 197
+      strength: 7000
     US:
-      casualties: '225'
-      strength: '8000'
+      casualties: 225
+      strength: 8000
   cwsac_id: TN037
 Third_Battle_of_Petersburg:
   belligerents:
     CS:
-      casualties: '4250'
-      strength: '58400'
+      casualties: 4250
+      strength: 58400
     US:
-      casualties: '3500'
-      strength: '76113'
+      casualties: 3500
+      strength: 76113
   cwsac_id: VA089
