@@ -97,3 +97,9 @@
 - `data/nps_*`: Remove VA030 (Suffolk: Norfleet House). Treat VA031 as including
     the entire Siege of Suffolk.
 - Miscellaneous edits
+
+# 6.0.4 (2017-11-04)
+
+## Bug Fixes
+
+- `data/phisterer_forces.csv`: Set 0 values of killed/wounded/missing to missing values.
