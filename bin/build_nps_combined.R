@@ -147,9 +147,7 @@ gen_battles <-
 
   nps_battles_cwss <- cwss_battles %>%
     filter(!BattlefieldCode %in% c("VA020A")) %>%
-    mutate(BattlefieldCode = cwss_to_cwsac_id(BattlefieldCode),
-           BattleName = ifelse(BattlefieldCode == "VA020",
-                               "Glendale/White Oak Swamp", BattleName)) %>%
+    mutate(BattlefieldCode = cwss_to_cwsac_id(BattlefieldCode)) %>%
     rename(cwsac_id = BattlefieldCode,
            battle_name = BattleName,
            start_date = BeginDate,

@@ -513,12 +513,15 @@
 - battles_cwsac:
   - description: Suffolk I, VA (1863-04-19)
     id: VA031
-  - description: Suffolk II, VA
-    id: VA030
   battles_from:
   - description: Siege of Suffolk, Va. (1863-4-11 to 1863-4-30)
     id: U80
   relation: eq
+  comment: >
+    In the original CWSAC VA030 referred to the Battle at Norfolk House Battery,
+    and VA031 included both an engagement at Fort Huger/Hill's Point and the
+    entire siege. This is mapped to VA031, treating VA031 as encompassing the
+    entire Siege of Suffolk.
 - battles_cwsac:
   - description: Port Gibson, MS (1863-05-01)
     id: MS006

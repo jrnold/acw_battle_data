@@ -3018,37 +3018,21 @@ Battle_of_Stony_Lake:
       casualties: 2
       strength: 2056
   cwsac_id: ND003
-Battle_of_Suffolk_(Hill's_Point):
+
+Siege_of_Suffolk:
   belligerents:
     CS:
-      captured: 130
-      casualties: 143
-      killed: 1
-      missing: 1
-      wounded: 11
+      strength: 25000
+      killed_wounded: 500
+      captured: 400
     US:
-      captured_missing: 0
-      killed: 6
-      wounded: 11
-  cwsac_id: VA031
-  strength: 45000
-  rev_id: 769913535
-Battle_of_Suffolk_(Norfleet_House):
-  belligerents:
-    CS:
+      killed: 44
+      wounded: 202
+      missing: 14
       strength: 20000
-    US:
-      strength: 17000
-  cwsac_id: VA030
-  rev_id: 794950711
-Battle_of_Summit_Point:
-  belligerents:
-    CS:
-      divisions: 1
-    US:
-      divisions: 1
-  casualties: 1000
-  cwsac_id: WV014
+  cwsac_id: VA031
+  rev_id: 788255120
+
 Battle_of_Sutherland's_Station:
   belligerents:
     CS:
