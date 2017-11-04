@@ -129,6 +129,23 @@ def parse_month_range(x):
 
 
 def campaigns_csv(root, dst):
+    # fix campaign names. Some were truncated probably due to a fixed character
+    # database field. In some other cases, there were mispellings or missing
+    # commas.
+    campaign_names = {
+        'LS62-06': "Expedition From Hilton Head, SC to St. John Bluff, FL",
+        'LS63-05': "Taylor's Operations in Louisiana West of Mississipi",
+        'MW61-02': "Operations at the Ohio - Mississippi River Confluence",
+        'MW62-02': "Union Penetration Up the Cumberland & Tennessee Rivers",
+        'MW62-03': "Joint Operations Against New Madrid, Island No. 10, and Memphis",
+        'MW63-03': "Streight's Raid: Tuscumbia, Alabama Toward Rome, Georgia",
+        'MW64-04': "Forrest's Expedition Into West Tennessee and Kentucky",
+        'MW65-03': "Wilson's Raid: Chickasaw, Alabama and Macon, Georgia",
+        'PC63-01': "Expedition From Camp Douglas, Utah to Cache Valley, Idaho",
+        'TM63-09': "Union Occupation of Indian Territory North of Arkansas",
+        'TM64-04': "Sully's Expedition Against Indians in Dakota Terries",
+        'MW64-08': "Operations in Mobile Bay"
+    }
     campaigns = {}
     print("Writing: %s" % dst)
     with open(dst, 'w', encoding='utf8') as f:
@@ -140,7 +157,11 @@ def campaigns_csv(root, dst):
             properties = entry.find('./%s/%s' % (xmlns('content'),
                                                  xmlns('m:properties')))
             campaign_code = properties.find(xmlns('d:CampaignCode')).text
-            campaign_name = properties.find(xmlns('d:CampaignName')).text
+            try:
+                # First try manual corrections of campaign names.
+                campaign_name = campaign_names[campaign_code]
+            except KeyError:
+                campaign_name = properties.find(xmlns('d:CampaignName')).text
             campaign_dates = properties.find(xmlns('d:CampaignDates')).text
             if campaign_dates is not None and len(campaign_dates.strip()) > 0:
                 start_date, end_date = parse_month_range(campaign_dates)
@@ -491,6 +512,8 @@ def build(src, dst):
         persons = ET.fromstring(f.read(), parser)
     people_csv(persons, path.join(dst, 'cwss_people.csv'))
     people_keywords_csv(persons, path.join(dst, 'cwss_people_keywords.csv'))
+
+
 
     # This file includes the "parsed" comments. Number of batteries, companies, detachments, etc. mentioned
     # in the comments about the unit.
