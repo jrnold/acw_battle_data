@@ -92,3 +92,8 @@
   - Remove imputed killed/wounded/missing values from the observations
     formed from comments giving rough disaggregations of the casualties
     for aggregated observations.
+
+- `data/cwss_campaigns.csv` and `data/nps_campaigns.csv`: Fix typos and truncated campaign names.
+- `data/nps_*`: Remove VA030 (Suffolk: Norfleet House). Treat VA031 as including
+    the entire Siege of Suffolk.
+- Miscellaneous edits
