@@ -8,10 +8,6 @@ schema:
     title: battle_id
     type: integer
   - format: default
-    name: par_id
-    title: par_id
-    type: integer
-  - format: default
     name: battle_name
     title: Battle name
     type: string

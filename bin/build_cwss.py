@@ -281,6 +281,8 @@ def forces_csv(root, dst):
             if battlecode in ("GA001", ):
                 # Fix typo for Confederate casualties
                 enemy_casualties = 364
+            elif battlecode in ("VA005", ):
+                enemy_troops = 32230
             us_troops = properties.find(xmlns("d:USTroopsEngaged")).text
             us_casualties = properties.find(xmlns("d:USCasualties")).text
             writer.writerow({

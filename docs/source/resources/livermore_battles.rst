@@ -52,7 +52,6 @@ Schema
 
 =================  =======  ==========================
 battle_id          integer  battle_id
-par_id             integer  par_id
 battle_name        string   Battle name
 page               integer  page
 start_date         date     Start date
@@ -71,18 +70,6 @@ battle_id
 ---------
 
 :title: battle_id
-:type: integer
-:format: default
-
-
-
-
-
-       
-par_id
-------
-
-:title: par_id
 :type: integer
 :format: default
 

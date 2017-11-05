@@ -1114,6 +1114,7 @@ Battle_of_Fort_De_Russy:
       missing: 2
       strength: 10000
   cwsac_id: LA017
+  rev_id: 794384518
 Battle_of_Fort_Donelson:
   belligerents:
     CS:
@@ -1139,18 +1140,20 @@ Battle_of_Fort_Henry:
       ships: 7
       strength: 15000
   cwsac_id: TN001
-Battle_of_Fort_Hindman:
+Battle_of_Arkansas_Post:
   belligerents:
     CS:
       captured: 4791
-      killed_wounded: 709
-      strength: 5500
+      killed: 28
+      wounded: 81
+      strength: 4900
     US:
       killed: 134
       missing: 29
       strength: 33000
       wounded: 898
   cwsac_id: AR006
+  rev_id: 795116530
 Battle_of_Fort_Macon:
   belligerents:
     CS:
@@ -1252,6 +1255,7 @@ Battle_of_Fort_Stedman:
       strength: 14898
       wounded: 450
   cwsac_id: VA084
+  rev_id: 802345778
 Battle_of_Fort_Stevens:
   belligerents:
     CS:
@@ -1307,16 +1311,16 @@ Battle_of_Franklin_(1864):
 Battle_of_Fredericksburg:
   belligerents:
     CS:
-      captured_missing: 653
-      killed: 608
+      killed: 408
       strength: 72500
-      wounded: 4116
+      wounded: 3743
     US:
       captured_missing: 1769
       killed: 1284
       strength: 114000
       wounded: 9600
   cwsac_id: VA028
+  rev_id: 805152297
 Battle_of_Fredericktown:
   belligerents:
     CS:
@@ -1443,6 +1447,7 @@ Battle_of_Globe_Tavern:
       strength: 20000
       wounded: 1148
   cwsac_id: VA072
+  rev_id: 790787853
 Battle_of_Glorieta_Pass:
   belligerents:
     CS:
@@ -1738,7 +1743,9 @@ Battle_of_Island_Number_Ten:
       missing: 5
       ships_misc: 11
       wounded: 50
+      strength: 23000
   cwsac_id: MO012
+  rev_id: 806579644
 Battle_of_Iuka:
   belligerents:
     CS:
@@ -1756,11 +1763,12 @@ Battle_of_Jackson,_Mississippi:
   belligerents:
     CS:
       casualties: 850
-      strength: null
+      strength: 6000
     US:
       casualties: 286
       strength: null
   cwsac_id: MS008
+  rev_id: 807112406
 Battle_of_Jackson,_Tennessee:
   belligerents:
     CS:
@@ -2613,10 +2621,10 @@ Battle_of_Resaca:
 Battle_of_Rice's_Station:
   belligerents:
     CS:
-      casualties: 2
+      casualties: null
       strength: 6800
     US:
-      casualties: 2
+      casualties: null
       strength: 7500
   cwsac_id: VA092
   notes: few
@@ -3447,19 +3455,18 @@ First_Battle_of_Auburn:
 First_Battle_of_Bull_Run:
   belligerents:
     CS:
-      killed: 3887
+      killed: 387
       missing: 13
       strength_min: 32000
       strength_max: 34000
       wounded: 1582
     US:
-      captured_missing: 1312
-      casualties: 2896
-      killed: 460
-      strength_min: 28000
-      strength_max: 35000
-      wounded: 1124
+      missing: 1216
+      killed: 481
+      strength: 35732
+      wounded: 1011
   cwsac_id: VA005
+  page_id: 808138716
 First_Battle_of_Charleston_Harbor:
   belligerents:
     CS:
@@ -3810,6 +3817,7 @@ Second_Battle_of_Fredericksburg:
       strength: 27100
   casualties: 2000
   cwsac_id: VA034
+  rev_id: 803781323
 Second_Battle_of_Independence:
   belligerents:
     CS:
@@ -3868,6 +3876,7 @@ Second_Battle_of_Petersburg:
       strength: 62000
       wounded: 8513
   cwsac_id: VA063
+  rev_id: 807112716
 Second_Battle_of_Rappahannock_Station:
   belligerents:
     CS:

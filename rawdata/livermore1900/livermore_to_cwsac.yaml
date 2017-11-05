@@ -59,7 +59,7 @@
     id: VA016
   battles_from:
   - description: Mechanicsville, June 26, 1862, VA (1862-06-26 - 1862-06-26)
-    id: 9
+    id: 8
   relation: eq
   start_date: '1862-06-26'
 - battles_cwsac:
@@ -69,7 +69,7 @@
     id: VA018
   battles_from:
   - description: Gaines's Mill, June 27, 1862, VA (1862-06-27 - 1862-06-27)
-    id: 10
+    id: 9
   relation: eq
   start_date: '1862-06-27'
 - battles_cwsac:
@@ -82,9 +82,11 @@
   battles_from:
   - description: Peach Orchard, Savage Station, June 29, 1862. White Oak Swamp, Glendale,  June
       30, 1862. Malvern Hill, July 1, 1862, VA (1862-06-29 - 1862-07-01)
-    id: 11
+    id: 10
   relation: eq
   start_date: '1862-06-29'
+
+
 - battles_cwsac:
   - description: Cedar Mountain , VA (1862-08-09 - 1862-08-09)
     id: VA022
@@ -282,7 +284,7 @@
     id: VA046
   battles_from:
   - description: Wilderness, May 5-7, 1864, VA (1864-05-05 - 1864-05-07)
-    id: 37
+    id: 36
   relation: eq
   start_date: '1864-05-05'
 - battles_cwsac:
@@ -300,7 +302,7 @@
     id: GA011
   battles_from:
   - description: Atlanta Campaign, May, 1864, GA (1864-05-05 - 1864-05-28)
-    id: 36
+    id: 45
   relation: neq
   start_date: '1864-05-07'
 
@@ -309,9 +311,9 @@
     id: VA048
   battles_from:
   - description: Spottsylvania, May 10, 1864, VA (1864-05-10 - 1864-05-10)
-    id: 38
+    id: 37
   - description: Spottsylvania, May 12, 1864, VA (1864-05-12 - 1864-05-12)
-    id: 39
+    id: 38
   relation: eq
   start_date: '1864-05-08'
 - battles_cwsac:
@@ -319,7 +321,7 @@
     id: VA053
   battles_from:
   - description: Drewry's Bluff, May 12-16, 1864, VA (1864-05-12 - 1864-05-16)
-    id: 40
+    id: 39
   relation: eq
   start_date: '1864-05-12'
 
@@ -328,7 +330,7 @@
     id: VA062
   battles_from:
   - description: Cold Harbor, June 1-3, 1864, VA (1864-06-01 - 1864-06-03)
-    id: 41
+    id: 40
   relation: eq
   start_date: '1864-05-31'
 - battles_cwsac:
@@ -336,71 +338,71 @@
     id: VA063
   battles_from:
   - description: Petersburg, June 15-18, 1864, VA (1864-06-15 - 1864-06-18)
-    id: 42
+    id: 41
   relation: eq
   start_date: '1864-06-15'
 - battles_cwsac:
-  - description: Kennesaw Mountain , GA (1864-06-27 - 1864-06-27)
-    id: GA015
+  - description: Atlana (July 22, 1864)
+    id: GA017
   battles_from:
   - description: Atlanta, July 22, 1864 (Hood's Attack), GA (1864-07-22 - 1864-07-22)
-    id: 46
+    id: 49
   relation: eq
   start_date: '1864-06-27'
 - battles_cwsac:
-  - description: Tupelo , MS (1864-07-14 - 1864-07-15)
-    id: MS015
+  - description: Ezra Chuck (July 28, 1864)
+    id: GA018
   battles_from:
   - description: Atlanta, July 28, 1864, GA (1864-07-28 - 1864-07-28)
-    id: 47
+    id: 50
   relation: eq
   start_date: '1864-07-14'
 - battles_cwsac:
-  - description: Peachtree Creek , GA (1864-07-20 - 1864-07-20)
-    id: GA016
+  - description: Crater (July 30, 1864)
+    id: VA970
   battles_from:
   - description: The Mine, July 30, 1864, VA (1864-07-30 - 1864-07-30)
-    id: 48
+    id: 42
   relation: eq
   start_date: '1864-07-20'
 - battles_cwsac:
-  - description: Atlanta , GA (1864-07-22 - 1864-07-22)
-    id: GA017
+  - description:  Deep Bottom II (Aug 13-20, 1864)
+    id: VA071
   battles_from:
   - description: Deep Bottom, August 14-19, 1864, VA (1864-08-14 - 1864-08-19)
-    id: 49
+    id: 43
   relation: eq
   start_date: '1864-07-22'
 - battles_cwsac:
-  - description: Ezra Church , GA (1864-07-28 - 1864-07-28)
-    id: GA018
+  - description: Globe Tavern (Aug 18-21)
+    id: VA072
   battles_from:
   - description: Weldon Railroad, August 18-21, 1864, VA (1864-08-18 - 1864-08-21)
-    id: 50
+    id: 44
   relation: eq
   start_date: '1864-07-28'
 - battles_cwsac:
-  - description: Crater , VA (1864-07-30 - 1864-07-30)
-    id: VA070
+  - description: Kennesaw Mountain (June 27, 1864)
+    id: GA015
   battles_from:
   - description: Assault on Kenesaw Mountain, June 27, 1864, GA (1864-06-27 - 1864-06-27)
-    id: 43
+    id: 46
   relation: eq
   start_date: '1864-07-30'
 - battles_cwsac:
-  - description: Deep Bottom II , VA (1864-08-13 - 1864-08-20)
-    id: VA071
+  - description: Tupelo (July 14-15, 1864)
+    id: MS015
   battles_from:
   - description: Tupelo, Miss., July 13-15, 1864, MS (1864-07-13 - 1864-07-15)
-    id: 44
+    id: 47
   relation: eq
   start_date: '1864-08-13'
 - battles_cwsac:
-  - description: Globe Tavern , VA (1864-08-18 - 1864-08-21)
-    id: VA072
+  - description: Peach Tree Creek (July 20, 1864)
+    id: GA016
   battles_from:
   - description: Peach-Tree Creek, July 20, 1864, GA (1864-07-20 - 1864-07-20)
-    id: 45
+    id: 48
   relation: eq
   start_date: '1864-08-18'
 - battles_cwsac:
@@ -409,6 +411,8 @@
   battles_from:
   - description: Jonesborough, Ga., August 31, 1864, GA (1864-08-31 - 1864-08-31)
     id: 51
+  - description: Jonesborough, Ga., August 31, 1864, GA (1864-01-1 - 1864-09-01)
+    id: 52
   relation: eq
   start_date: '1864-08-31'
 - battles_cwsac:
@@ -516,7 +520,7 @@
   - description: Lewis's Farm , VA (1865-03-29 - 1865-03-29)
     id: VA085
   - description: White Oak Road , VA (1865-03-31 - 1865-03-31)
-    id: VA087    
+    id: VA087
   battles_from:
   - description: Dinwiddie Court House and White Oak Road, March 29-31, 1865, VA (1865-03-29
       - 1865-03-31)

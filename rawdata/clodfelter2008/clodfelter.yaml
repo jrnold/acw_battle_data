@@ -207,7 +207,7 @@
   end_date: 1862-2-8
   forces:
     Confederate:
-      captured: 2675
+      # captured: 2675
       commanders:
       - PersonID: 2f7d8b0b-710b-4f79-b13e-2cf4b9844059
         first_name: Henry
@@ -221,7 +221,8 @@
       guns_lost: 32
       killed: 24
       strength: 3000
-      wounded_missing: 222
+      # wounded_missing: 222
+      wounded_missing: 2897
     US:
       commanders:
       - PersonID: c5f9dd77-1122-48f0-8840-614720ba50d8
@@ -239,6 +240,10 @@
   result: Union
   start_date: 1862-2-7
   theater: 'Blockade War: 1861-1862'
+  comment: >
+    Source has the following entries for the Confederate forces,
+    2,675 captured, and 222 missing or wounded. These are combined in the
+    "wounded_missing" entry.
 - battle_id: New Bern
   end_date: 1862-3-13
   forces:
@@ -918,7 +923,8 @@
         middle_name: ''
         navy: false
         rank: General
-      strength: 5355
+      casualties: 5355
+      strength: 86784
     US:
       casualties: 3214
       commanders:
@@ -5065,6 +5071,10 @@
   result: Union
   start_date: 1865-3-8
   theater: 'West: 1865'
+  comment: >
+    The casualties for the Confederates is understated. It should be closer
+    to 1,500. It only includes the casualties for the first day, and seems
+    to exclude the heavier casualties on Mar 10th.
 - battle_id: Averasboro
   end_date: 1865-3-16
   forces:

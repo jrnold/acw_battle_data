@@ -77,6 +77,16 @@ VA031|CS:
     Disaggregation is given the https://www.nps.gov/abpp/battles/va030.htm
 VA031|US:
   strength_mean: 25000
-  strength_var:
+  strength_var: null
   comment: >
     Disaggregation is given the https://www.nps.gov/abpp/battles/va030.htm
+VA063|CS:
+  strength_mean: 42000
+  casualties: 3236
+  comment: >
+    CWSS casualties are too low.
+VA063|US:
+  strength_mean: 62000
+  casualties: 8150
+  comment: >
+    CWSS casualties are too low.
