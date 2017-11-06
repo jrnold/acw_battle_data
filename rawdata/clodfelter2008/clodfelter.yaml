@@ -84,7 +84,7 @@
   start_date: 1861-7-21
   theater: 'Eastern Theater: 1861'
 - battle_id: Ball's Bluff
-  end_date: &id001 1861-10-21
+  end_date:  1861-10-21
   forces:
     Confederate:
       commanders:
@@ -121,7 +121,7 @@
       wounded: 158
   page: 293
   result: Confederate
-  start_date: *id001
+  start_date: 1861-10-21
   theater: 'Eastern Theater: 1861'
 - battle_id: Wilson's Creek
   end_date: 1861-8-10
@@ -204,10 +204,13 @@
   start_date: 1861-11-7
   theater: 'Western Theater: 1861'
 - battle_id: Roanoake Island
+  comment: 'Source has the following entries for the Confederate forces, 2,675 captured,
+    and 222 missing or wounded. These are combined in the "wounded_missing" entry.
+
+'
   end_date: 1862-2-8
   forces:
     Confederate:
-      # captured: 2675
       commanders:
       - PersonID: 2f7d8b0b-710b-4f79-b13e-2cf4b9844059
         first_name: Henry
@@ -221,7 +224,6 @@
       guns_lost: 32
       killed: 24
       strength: 3000
-      # wounded_missing: 222
       wounded_missing: 2897
     US:
       commanders:
@@ -240,10 +242,6 @@
   result: Union
   start_date: 1862-2-7
   theater: 'Blockade War: 1861-1862'
-  comment: >
-    Source has the following entries for the Confederate forces,
-    2,675 captured, and 222 missing or wounded. These are combined in the
-    "wounded_missing" entry.
 - battle_id: New Bern
   end_date: 1862-3-13
   forces:
@@ -548,7 +546,7 @@
       commanders:
       - PersonID: b6775ad7-2f56-4d49-9aee-b4e4898e8b5e
         first_name: John
-        last_name: "Fr\xE9mont"
+        last_name: Frémont
         middle_initial: C.
         middle_name: Charles
         navy: false
@@ -915,6 +913,7 @@
   end_date: 1862-7-1
   forces:
     Confederate:
+      casualties: 5355
       commanders:
       - PersonID: d428cfef-5c7a-4230-b394-b195481d9a9f
         first_name: Robert
@@ -923,7 +922,6 @@
         middle_name: ''
         navy: false
         rank: General
-      casualties: 5355
       strength: 86784
     US:
       casualties: 3214
@@ -1120,7 +1118,7 @@
   start_date: 1862-9-17
   theater: 'East: 1862'
 - battle_id: Fredericksburg
-  end_date: &id002 1862-12-13
+  end_date:  1862-12-13
   forces:
     Confederate:
       commanders:
@@ -1150,7 +1148,7 @@
       wounded: 9600
   page: 297
   result: Confederate
-  start_date: *id002
+  start_date: 1862-12-13
   theater: 'East: 1862'
 - battle_id: Valverde
   end_date: 1862-2-21
@@ -1588,7 +1586,7 @@
   start_date: 1862-10-3
   theater: 'West: 1862'
 - battle_id: Chickasaw Bluffs
-  end_date: &id003 1862-12-29
+  end_date:  1862-12-29
   forces:
     Confederate:
       commanders:
@@ -1618,7 +1616,7 @@
       wounded: 1005
   page: 300
   result: Confederate
-  start_date: *id003
+  start_date: 1862-12-29
   theater: 'West: 1862'
 - battle_id: Richmond (Kentucky)
   end_date: 1862-8-30
@@ -1886,7 +1884,7 @@
   start_date: 1863-7-1
   theater: 'East: 1863'
 - battle_id: Bristoe Station
-  end_date: &id004 1863-10-14
+  end_date: 1863-10-14
   forces:
     Confederate:
       brigades: 2
@@ -1913,10 +1911,10 @@
       divisions: 3
   page: 302
   result: Union
-  start_date: *id004
+  start_date: 1863-10-14
   theater: 'East: 1863'
 - battle_id: Buckland
-  end_date: &id005 1863-10-19
+  end_date: 1863-10-19
   forces:
     Confederate:
       casualties: 408
@@ -1942,7 +1940,7 @@
         rank: Major General
   page: 302
   result: Confederate
-  start_date: *id005
+  start_date: 1863-10-19
   theater: 'East: 1863'
 - battle_id: Rappahannock Station
   end_date: 1863-11-7
@@ -2710,7 +2708,7 @@
   start_date: 1863-11-23
   theater: 'West: 1863'
 - battle_id: Chattanooga (Orchard Knob/Indian Hill)
-  end_date: &id006 1863-11-23
+  end_date: 1863-11-23
   forces:
     Confederate:
       casualties: 1000
@@ -2737,10 +2735,10 @@
   partof: Chattanooga
   result: Union
   result_comment: Union forces took Orchard Knob
-  start_date: *id006
+  start_date: 1863-11-23
   theater: 'West: 1863'
 - battle_id: Chattanooga (Lookout Mountain)
-  end_date: &id007 1863-11-24
+  end_date: 1863-11-24
   forces:
     Confederate:
       brigades: 3
@@ -2770,10 +2768,10 @@
   partof: Chattanooga
   result: Union
   result_comment: ''
-  start_date: *id007
+  start_date: 1863-11-24
   theater: 'West: 1863'
 - battle_id: Chattanooga (Tunnel Hill)
-  end_date: &id008 1863-11-25
+  end_date: 1863-11-25
   forces:
     Confederate:
       casualties: 222
@@ -2802,10 +2800,10 @@
   partof: Chattanooga
   result: Union
   result_comment: Confederate forces held the line
-  start_date: *id008
+  start_date: 1863-11-25
   theater: 'West: 1863'
 - battle_id: Chattanooga (Missionary Ridge)
-  end_date: &id009 1863-11-25
+  end_date: 1863-11-25
   forces:
     Confederate:
       commanders:
@@ -2832,10 +2830,10 @@
   partof: Chattanooga
   result: Union
   result_comment: Union forces took the rifle pits and Confederate forces retreated
-  start_date: *id009
+  start_date: 1863-11-25
   theater: 'West: 1863'
 - battle_id: Ringgold Gap
-  end_date: &id010 1863-11-27
+  end_date: 1863-11-27
   forces:
     Confederate:
       casualties: 221
@@ -2862,7 +2860,7 @@
       strength: 12000
   page: 306
   result: Confederate
-  start_date: *id010
+  start_date: 1863-11-27
   theater: 'West: 1863'
 - battle_id: Knoxville (siege)
   end_date: 1863-12-3
@@ -2897,7 +2895,7 @@
   start_date: 1863-11-17
   theater: 'West: 1863'
 - battle_id: Knoxville (attack on Fort Sanders)
-  end_date: &id011 1863-11-29
+  end_date: 1863-11-29
   forces:
     Confederate:
       captured: 226
@@ -2927,10 +2925,10 @@
       wounded: 5
   page: 306
   result: Union
-  start_date: *id011
+  start_date: 1863-11-29
   theater: 'West: 1863'
 - battle_id: Pocataligo
-  end_date: &id012 1863-10-22
+  end_date: 1863-10-22
   forces:
     Confederate:
       casualties: 163
@@ -2957,7 +2955,7 @@
   page: 306
   result: Confederate
   result_comment: ''
-  start_date: *id012
+  start_date: 1863-10-22
   theater: 'Blockade War: 1863'
 - battle_id: Batteries Wagner and Gregg
   end_date: 1863-7-11
@@ -2991,7 +2989,7 @@
   start_date: 1863-7-10
   theater: 'Blockade War: 1863'
 - battle_id: Battery Wagner
-  end_date: 1863-7-18
+  end_date: 1863-07-18
   forces:
     Confederate:
       commanders:
@@ -3021,7 +3019,7 @@
     Union - 2318; Confederate - 641'
   page: 306
   result: Confederate
-  start_date: 1863-7-18
+  start_date: 1863-07-18
   theater: 'Blockade War: 1863'
 - battle_id: Olustee
   end_date: 1864-2-10
@@ -3351,7 +3349,7 @@
       wounded: 470
   note: 'Confederate values for June 7-24.
 
-    '
+'
   page: 310
   result: Confederate
   start_date: 1864-6-11
@@ -3667,7 +3665,7 @@
   start_date: 1864-9-22
   theater: 'East: 1864'
 - battle_id: Cedar Creek
-  end_date: &id013 1864-10-19
+  end_date: 1864-10-19
   forces:
     Confederate:
       commanders:
@@ -3705,7 +3703,7 @@
       wounded: 3430
   page: 310
   result: Union
-  start_date: *id013
+  start_date: 1864-10-19
   theater: 'East: 1864'
 - battle_id: Petersburg (Battle of the Crater)
   end_date: 1864-7-30
@@ -4134,7 +4132,7 @@
   start_date: 1864-4-30
   theater: 'West: 1864'
 - battle_id: Fort Davidson (Pilot Knob)
-  end_date: &id014 1864-12-27
+  end_date:  1864-12-27
   forces:
     Confederate:
       casualties: 1500
@@ -4162,10 +4160,10 @@
       wounded: 59
   page: 314
   result: Union
-  start_date: *id014
+  start_date: 1864-12-27
   theater: 'West: 1864'
 - battle_id: Westport
-  end_date: &id015 1864-10-23
+  end_date:  1864-10-23
   forces:
     Confederate:
       casualties: 492
@@ -4191,10 +4189,10 @@
       strength: 20000
   page: 314
   result: Union
-  start_date: *id015
+  start_date: 1864-10-23
   theater: 'West: 1864'
 - battle_id: Mine Creek
-  end_date: &id016 1864-10-25
+  end_date: 1864-10-25
   forces:
     Confederate:
       captured: 560
@@ -4230,7 +4228,7 @@
       wounded: 94
   page: 314
   result: Union
-  start_date: *id016
+  start_date: 1864-10-25
   theater: 'West: 1864'
 - battle_id: Fort Pillow
   end_date: 1864-4-12
@@ -4268,7 +4266,7 @@
       strength: 557
   note: 'Union killed include 204 black troops, most of whom were killed after capture.
 
-    '
+'
   page: 314
   result: Confederate
   start_date: 1864-4-12
@@ -4593,7 +4591,7 @@
   start_date: 1864-10-6
   theater: 'West: 1864'
 - battle_id: Franklin
-  end_date: &id017 1864-11-30
+  end_date: 1864-11-30
   forces:
     Confederate:
       commanders:
@@ -4623,7 +4621,7 @@
       wounded: 1033
   page: 314
   result: Union
-  start_date: *id017
+  start_date: 1864-11-30
   theater: 'West: 1864'
 - battle_id: Nashville
   end_date: 1864-12-16
@@ -4659,7 +4657,7 @@
   start_date: 1864-12-15
   theater: 'West: 1864'
 - battle_id: Griswoldville
-  end_date: &id018 1864-11-22
+  end_date: 1864-11-22
   forces:
     Confederate:
       commanders:
@@ -4693,7 +4691,7 @@
       strength: 1500
   page: 314
   result: Union
-  start_date: *id018
+  start_date: 1864-11-22
   theater: 'West: 1864'
 - battle_id: Mobile Bay
   end_date: 1864-8-5
@@ -4764,7 +4762,7 @@
 
     ships, and 37 killed or wounded on land.
 
-    '
+'
   page: 315
   result: Union
   result_comment: ''
@@ -4826,7 +4824,7 @@
 
     Confederacy killed includes 200 in the bombardment.
 
-    '
+'
   page: 316
   result: Union
   start_date: 1865-1-13
@@ -4934,7 +4932,7 @@
 
     For Confederacy, the V Corps lost 3,422.
 
-    '
+'
   page: 317
   result: Union
   start_date: 1865-4-1
@@ -5042,6 +5040,11 @@
   start_date: 1865-4-6
   theater: 'East: 1865'
 - battle_id: Kinston
+  comment: 'The casualties for the Confederates is understated. It should be closer
+    to 1,500. It only includes the casualties for the first day, and seems to exclude
+    the heavier casualties on Mar 10th.
+
+'
   end_date: 1865-3-10
   forces:
     Confederate:
@@ -5071,10 +5074,6 @@
   result: Union
   start_date: 1865-3-8
   theater: 'West: 1865'
-  comment: >
-    The casualties for the Confederates is understated. It should be closer
-    to 1,500. It only includes the casualties for the first day, and seems
-    to exclude the heavier casualties on Mar 10th.
 - battle_id: Averasboro
   end_date: 1865-3-16
   forces:
@@ -5145,7 +5144,7 @@
       wounded: 1168
   note: 'Union forces start at 16,127 but reinfored by 15,000.
 
-    '
+'
   page: 317
   result: Union
   start_date: 1865-3-19

@@ -1,0 +1,68 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#"
+
+  "definitions": {
+    "force": {
+      "type": "object",
+      "properties": {
+        "commanders": {
+          "type": "array"
+        },
+        "captured": {"type": "integer"},
+        "killed_wounded": {"type": "integer"},
+        "strength": {"type": "integer"},
+        "killed": {"type": "integer"},
+        "wounded": {"type": "integer"}
+      }
+    }
+  }
+
+  "type": "array",
+
+  "contains": {
+    "type": "object",
+    "properties": {
+      "battle_id": {"type": "string"},
+      "end_date": {
+        "type": "string",
+        "pattern": "^\d{4}-\d{2}-\d{2}$"
+      },
+      "start_date": {
+        "type": "string",
+        "pattern": "^\d{4}-\d{2}-\d{2}$"
+      },
+      "page": {
+        "type": "integer"
+      },
+      "result": {
+        "type": "string"
+      },
+      "theater": {
+        "type": "string"
+      },
+      "note": {
+        "type": "string"
+      },
+      "forces": {
+        "type": "object",
+        "poperties": {
+          "Confederate": {
+            "$ref": "#/definitions/force"
+          },
+          "US": {
+            "$ref": "#/definitions/force"
+          }
+        }
+      }
+    },
+    "required": [
+      "battle_id",
+      "start_date",
+      "end_date",
+      "theater",
+      "result",
+      "page",
+      "forces"
+    ]
+  }
+}

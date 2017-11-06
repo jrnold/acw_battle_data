@@ -282,12 +282,12 @@ Battle_of_Blackburn's_Ford:
   belligerents:
     CS:
       casualties: 68
-      strength: 7000
+      strength: 5100
     US:
       casualties: 83
       strength: 3000
   cwsac_id: VA004
-  id: 591632432
+  id: 799369038
 Battle_of_Blair's_Landing:
   belligerents:
     CS:
@@ -1433,6 +1433,7 @@ Battle_of_Glendale:
       strength: 40000
       wounded: 1696
   cwsac_id: VA020
+  rev_id: 802693327
 Battle_of_Globe_Tavern:
   belligerents:
     CS:
@@ -1491,7 +1492,13 @@ Battle_of_Grand_Gulf:
       ironclads: 7
       killed: 18
       wounded: 57
+      strength_min: 350
+      strength_max: 750
   cwsac_id: MS004
+  comment: >
+    Strength is listed as 7 companies. Assume strnegth between at 50% to
+    100% of each company.
+  rev_id:
 Battle_of_Greenbrier_River:
   belligerents:
     CS:
@@ -2618,6 +2625,7 @@ Battle_of_Resaca:
       casualties_max: 5000
       strength: 98787
   cwsac_id: GA008
+  rev_id: 787739235
 Battle_of_Rice's_Station:
   belligerents:
     CS:
@@ -2833,12 +2841,13 @@ Battle_of_Sayler's_Creek:
   belligerents:
     CS:
       captured: 7700
-      strength: 11500
+      strength: 18500
     US:
       casualties: 1148
-      strength_min: 15000
-      strength_max: 16000
+      strength_min: 25000
+      strength_max: 26000
   cwsac_id: VA093
+  rev_id: 802346948
 Battle_of_Selma:
   belligerents:
     CS:

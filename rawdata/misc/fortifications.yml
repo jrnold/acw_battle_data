@@ -378,10 +378,12 @@
   start_date: '1864-05-13'
   end_date: '1864-05-15'
   cwsac_url: http://www.nps.gov/abpp/battles/ga008.htm
-  us_fortification: .na
-  confederate_fortification: .na
+  us_fortification: none
+  confederate_fortification: temporary
   fortifications: ''
-  comments: ''
+  attacker: US
+  comments: >
+    Union assault Confederate defensive positions.
 - cwsac_id: GA009
   battle_name: Adairsville
   start_date: '1864-05-17'
@@ -1510,10 +1512,12 @@
   start_date: '1863-03-13'
   end_date: '1863-03-15'
   cwsac_url: http://www.nps.gov/abpp/battles/nc010.htm
-  us_fortification: .na
-  confederate_fortification: .na
+  attacker: Confederate
+  us_fortification: permanent
+  confederate_fortification: none
   fortifications: ''
-  comments: ''
+  comments: >
+    Union entrenchments at New Berne.
 - cwsac_id: NC011
   battle_name: Washington
   start_date: '1863-03-30'
@@ -2303,8 +2307,8 @@
   start_date: '1861-07-18'
   end_date: '1861-07-18'
   cwsac_url: http://www.nps.gov/abpp/battles/va004.htm
-  us_fortification: .na
-  confederate_fortification: .na
+  us_fortification: none
+  confederate_fortification: none
   fortifications: ''
   comments: ''
 - cwsac_id: VA005
@@ -2564,10 +2568,12 @@
   start_date: '1863-05-03'
   end_date: '1863-05-04'
   cwsac_url: http://www.nps.gov/abpp/battles/va033.htm
-  us_fortification: .na
-  confederate_fortification: .na
+  us_fortification: none
+  confederate_fortification: temporary
   fortifications: ''
-  comments: ''
+  attacker: US
+  comments: >
+    Union assault Confederate defensive positions.
 - cwsac_id: VA034
   battle_name: Fredericksburg II
   start_date: '1863-05-03'
@@ -2654,10 +2660,12 @@
   start_date: '1863-11-07'
   end_date: '1863-11-07'
   cwsac_url: http://www.nps.gov/abpp/battles/va043.htm
-  us_fortification: .na
-  confederate_fortification: .na
+  us_fortification: none
+  confederate_fortification: none
+  attacker: US
   fortifications: ''
-  comments: ''
+  comments: >
+    Union forces overrun a Confederate force crossing at Rappahannock Station.
 - cwsac_id: VA044
   battle_name: Mine Run
   start_date: '1863-11-26'
@@ -3223,9 +3231,10 @@
   start_date: '1863-07-23'
   end_date: '1863-07-23'
   cwsac_url: http://www.nps.gov/abpp/battles/va108.htm
-  us_fortification: .na
-  confederate_fortification: .na
+  us_fortification: none
+  confederate_fortification: none
   fortifications: ''
+  attacker: US
   comments: ''
 - cwsac_id: VA109
   battle_name: Cove Mountain

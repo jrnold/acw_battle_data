@@ -82,11 +82,26 @@ VA031|US:
     Disaggregation is given the https://www.nps.gov/abpp/battles/va030.htm
 VA063|CS:
   strength_mean: 42000
-  casualties: 3236
+  casualties_kwm_mean: 3236
   comment: >
     CWSS casualties are too low.
 VA063|US:
   strength_mean: 62000
-  casualties: 8150
+  casualties_kwm_mean: 8150
   comment: >
     CWSS casualties are too low.
+VA004|US:
+  strength_mean: 3000
+  comment: >
+    CWSS includes all forces involved in the campaign. Use the more reasonable
+    figure of 3,000 from CWS2.
+VA004|CS:
+  strength_mean: 7000
+  comment: >
+    CWSS includes all forces involved in the campaign. Use the more reasonable
+    figure of 7,000 from CWS2.
+VA047|US:
+  strength_mean: 8000
+  comment: >
+    CWSS has the implausibly high value of 39,000 for US strength. Use the
+    value from CWS2.

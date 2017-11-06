@@ -48,15 +48,15 @@
     id: New Bern
   relation: eq
 - battles_cwsac:
-  - &id001
-    description: Hampton Roads (1862-03-08-1862-03-09)
+  - description: Hampton Roads (1862-03-08-1862-03-09)
     id: VA008
   battles_from:
   - description: 1862-3-8 to 1862-3-8
     id: Hampton Roads (first day)
   relation: <
 - battles_cwsac:
-  - *id001
+  - description: Hampton Roads (1862-03-08-1862-03-09)
+    id: VA008
   battles_from:
   - description: 1862-3-9 to 1862-3-9
     id: Hampton Roads (second day)
@@ -132,64 +132,64 @@
     id: Fair Oaks (Seven Pines)
   relation: eq
 - battles_cwsac:
-  - &id002
-    description: Oak Grove (1862-06-25-1862-06-25)
+  - description: Oak Grove (1862-06-25-1862-06-25)
     id: VA015
-  - &id003
-    description: Beaver Dam Creek (1862-06-26-1862-06-26)
+  - description: Beaver Dam Creek (1862-06-26-1862-06-26)
     id: VA016
-  - &id004
-    description: Gaines' Mill (1862-06-27-1862-06-27)
+  - description: Gaines' Mill (1862-06-27-1862-06-27)
     id: VA017
   - description: 'Garnett''s & Golding''s
 
       Farms (1862-06-27-1862-06-28)'
     id: VA018
-  - &id005
-    description: Savage's Station (1862-06-29-1862-06-29)
+  - description: Savage's Station (1862-06-29-1862-06-29)
     id: VA019
-  - &id006
-    description: Glendale/White Oak Swamp (1862-06-30-1862-06-30)
+  - description: Glendale/White Oak Swamp (1862-06-30-1862-06-30)
     id: VA020
-  - &id007
-    description: Malvern Hill (1862-07-01-1862-07-01)
+  - description: Malvern Hill (1862-07-01-1862-07-01)
     id: VA021
   battles_from:
   - description: 1862-6-25 to 1862-7-1
     id: Seven Days Battles
   relation: gt
 - battles_cwsac:
-  - *id002
+  - description: Oak Grove (1862-06-25-1862-06-25)
+    id: VA015
   battles_from:
   - description: 1862-6-25 to 1862-6-25
     id: The Orchard (Seven Days)
   relation: eq
 - battles_cwsac:
-  - *id003
+  - description: Beaver Dam Creek (1862-06-26-1862-06-26)
+    id: VA016
   battles_from:
   - description: 1862-6-26 to 1862-6-26
     id: Mechanicsville (Seven Days)
   relation: eq
 - battles_cwsac:
-  - *id004
+  - description: Gaines' Mill (1862-06-27-1862-06-27)
+    id: VA017
   battles_from:
   - description: 1862-6-27 to 1862-6-27
     id: Gaines's Mill (Seven Days)
   relation: eq
 - battles_cwsac:
-  - *id005
+  - description: Savage's Station (1862-06-29-1862-06-29)
+    id: VA019
   battles_from:
   - description: 1862-6-29 to 1862-6-29
     id: Savage's Station (Seven Days)
   relation: eq
 - battles_cwsac:
-  - *id006
+  - description: Glendale/White Oak Swamp (1862-06-30-1862-06-30)
+    id: VA020
   battles_from:
   - description: 1862-6-30 to 1862-6-30
     id: White Oak Swamp (Seven Days)
   relation: eq
 - battles_cwsac:
-  - *id007
+  - description: Malvern Hill (1862-07-01-1862-07-01)
+    id: VA021
   battles_from:
   - description: 1862-7-1 to 1862-7-1
     id: Malvern Hill (Seven Days)
@@ -202,15 +202,15 @@
     id: Cedar Mountain
   relation: eq
 - battles_cwsac:
-  - &id008
-    description: Manassas, Second (1862-08-28-1862-08-30)
+  - description: Manassas, Second (1862-08-28-1862-08-30)
     id: VA026
   battles_from:
   - description: 1862-8-28 to 1862-8-28
     id: Groveton
   relation: <
 - battles_cwsac:
-  - *id008
+  - description: Manassas, Second (1862-08-28-1862-08-30)
+    id: VA026
   battles_from:
   - description: 1862-8-29 to 1862-9-1
     id: Second Bull Run/Chantilly (Second Manassas)
@@ -426,21 +426,22 @@
     id: Fort Hindman (Arkansas Post)
   relation: eq
 - battles_cwsac:
-  - &id009
-    description: Port Hudson (1863-05-21-1863-07-09)
+  - description: Port Hudson (1863-05-21-1863-07-09)
     id: LA010
   battles_from:
   - description: 1863-5-26 to 1863-7-9
     id: Port Hudson (siege)
   relation: eq
 - battles_cwsac:
-  - *id009
+  - description: Port Hudson (1863-05-21-1863-07-09)
+    id: LA010
   battles_from:
   - description: 1863-5-27 to 1863-5-27
     id: Port Hudson (first assault)
   relation: <
 - battles_cwsac:
-  - *id009
+  - description: Port Hudson (1863-05-21-1863-07-09)
+    id: LA010
   battles_from:
   - description: 1863-6-14 to 1863-6-14
     id: Port Hudson (second assault)
@@ -495,21 +496,22 @@
     id: Big Black River
   relation: eq
 - battles_cwsac:
-  - &id010
-    description: Vicksburg (1863-05-18-1863-07-04)
+  - description: Vicksburg (1863-05-18-1863-07-04)
     id: MS011
   battles_from:
   - description: 1863-5-18 to 1863-7-4
     id: Vicksburg (siege)
   relation: eq
 - battles_cwsac:
-  - *id010
+  - description: Vicksburg (1863-05-18-1863-07-04)
+    id: MS011
   battles_from:
   - description: 1863-5-19 to 1863-5-19
     id: Vicksburg (first assault)
   relation: <
 - battles_cwsac:
-  - *id010
+  - description: Vicksburg (1863-05-18-1863-07-04)
+    id: MS011
   battles_from:
   - description: 1863-5-22 to 1863-5-22
     id: Vicksburg (second assault)
@@ -529,33 +531,36 @@
     id: Chickamagua
   relation: eq
 - battles_cwsac:
-  - &id011
-    description: Chattanooga (1863-11-23-1863-11-25)
+  - description: Chattanooga (1863-11-23-1863-11-25)
     id: TN024
   battles_from:
   - description: 1863-11-23 to 1863-11-25
     id: Chattanooga
   relation: eq
 - battles_cwsac:
-  - *id011
+  - description: Chattanooga (1863-11-23-1863-11-25)
+    id: TN024
   battles_from:
   - description: 1863-11-23 to 1863-11-23
     id: Chattanooga (Orchard Knob/Indian Hill)
   relation: <
 - battles_cwsac:
-  - *id011
+  - description: Chattanooga (1863-11-23-1863-11-25)
+    id: TN024
   battles_from:
   - description: 1863-11-24 to 1863-11-24
     id: Chattanooga (Lookout Mountain)
   relation: <
 - battles_cwsac:
-  - *id011
+  - description: Chattanooga (1863-11-23-1863-11-25)
+    id: TN024
   battles_from:
   - description: 1863-11-25 to 1863-11-25
     id: Chattanooga (Tunnel Hill)
   relation: <
 - battles_cwsac:
-  - *id011
+  - description: Chattanooga (1863-11-23-1863-11-25)
+    id: TN024
   battles_from:
   - description: 1863-11-25 to 1863-11-25
     id: Chattanooga (Missionary Ridge)
@@ -631,15 +636,15 @@
     id: Totopotomy Creek
   relation: eq
 - battles_cwsac:
-  - &id012
-    description: Cold Harbor (1864-05-31-1864-06-12)
+  - description: Cold Harbor (1864-05-31-1864-06-12)
     id: VA062
   battles_from:
   - description: 1864-6-3 to 1864-6-3
     id: Cold Harbor (assault)
   relation: <
 - battles_cwsac:
-  - *id012
+  - description: Cold Harbor (1864-05-31-1864-06-12)
+    id: VA062
   battles_from:
   - description: 1864-5-31 to 1864-6-12
     id: Cold Harbor
@@ -964,15 +969,15 @@
     id: Five Forks
   relation: eq
 - battles_cwsac:
-  - &id013
-    description: Petersburg (1865-04-02-1865-04-02)
+  - description: Petersburg (1865-04-02-1865-04-02)
     id: VA089
   battles_from:
   - description: 1865-4-2 to 1865-4-2
     id: Petersburg (second assault)
   relation: <
 - battles_cwsac:
-  - *id013
+  - description: Petersburg (1865-04-02-1865-04-02)
+    id: VA089
   battles_from:
   - description: 1865-4-2 to 1865-4-2
     id: Fort Gregg
