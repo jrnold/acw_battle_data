@@ -105,3 +105,11 @@ VA047|US:
   comment: >
     CWSS has the implausibly high value of 39,000 for US strength. Use the
     value from CWS2.
+TN005|US:
+  casualties_kwm_mean: 23
+  comment: >
+    For US and Confederate use values from CWSAC rather than CWSS.
+TN005|CS:
+  casualties_kwm_mean: 65
+  comment: >
+    For US and Confederate use values from CWSAC rather than CWSS.

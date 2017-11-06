@@ -13,7 +13,33 @@
         "strength": {"type": "integer"},
         "killed": {"type": "integer"},
         "wounded": {"type": "integer"}
+        "divisions": {"type": "integer"},
+        "brigades": {"type": "integer"},
+        "guns": {"type": "integer"},
+        "steamers": {"type": "integer"},
+        "warships": {"type": "integer"}
+      },
+    },
+    "person": {
+      "type": "object",
+      "properties": {
+        "PersonID": {"type": "string"},
+        "first_name": {"type": "string"},
+        "last_name": {"type": "string"},
+        "middle_initial": {"type": "string"},
+        "middle_name": {"type": "string"},
+        "navy": {"type": "boolean"},
+        "rank": {"type": "string"}
       }
+      required: [
+        "PersonID",
+        "first_name",
+        "last_name",
+        "middle_initial",
+        "middle_name",
+        "navy",
+        "rank"
+      ]
     }
   }
 
