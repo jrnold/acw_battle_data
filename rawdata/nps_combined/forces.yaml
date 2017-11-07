@@ -5,36 +5,22 @@ GA028|Confederate:
   casualties_kwm_var: null
   strength_mean: 250
   strength_var: null
-KY007|US:
-  comment: set strength to slightly more than the number of casualties since the Union
-    side was routed.
-  strength_mean: 6000
-  strength_var: null
-MO014|US:
-  comment: Set strength to casualties.
-  strength_mean: 344
-  strength_var: null
-MO019|US:
-  comment: Set the Union strength to casualties value. This was a Union surrender.
-  strength_mean: 119
-  strength_var: null
-NC012|US:
-  comment: Set strength to casualties.
-  strength_mean: 2900
-  strength_var: null
-TN006|US:
-  comment: Set strength to casualties.
-  strength_mean: 1200
-  strength_var: null
-TN015|US:
-  comment: Set strength to slightly higher than casualties. In CWSAC, strength = 400,
-    casualties = 305. In CWSS, casualties = 529.
-  strength_mean: 600
-  strength_var: null
-TX003|US:
-  comment: Set strength equal to casualties
-  strength_mean: 600
-  strength_var: null
+# KY007|US:
+#  comment: set strength to slightly more than the number of casualties since the Union#
+#    side was routed.
+#  strength_mean: 6000
+#  strength_var: null
+#MO014|US:
+#  comment: Set strength to casualties.
+#  strength_mean: 344
+#  strength_var: null
+# NC012|US:
+#  comment: Set strength to casualties.
+#  strength_mean: 2900
+# TX003|US:
+#   comment: Set strength equal to casualties
+#  strength_mean: 600
+#   strength_var: null
 VA043|Confederate:
   casualties_kw_mean: 441
   casualties_kwm_mean: null
@@ -113,3 +99,30 @@ TN005|CS:
   casualties_kwm_mean: 65
   comment: >
     For US and Confederate use values from CWSAC rather than CWSS.
+VA107|US:
+  casualties_kw_mean: 2043
+  casualties_m_mean: 2400
+  strength: 7000
+  comment: >
+    The [description ](https://www.nps.gov/abpp/battles/va107.htm) lists
+    4,443 casualties, but in the text notes "more than 2,400 Federals surrendered".
+VA100|US:
+  casualties_kwm_mean: 0
+VA100|CS:
+  casualties_kwm_mean: 0
+SC003|US:
+  casualties_kwm_mean: 0
+SC003|CS:
+  casualties_kwm_mean: 0
+OH002|US:
+  casualties_kwm_mean: 0
+LA002|US:
+  casualties_kwm_mean: 0
+LA002|CS:
+  casualties_kwm_mean: 0
+GA002|CS:
+  casualties_kwm_mean: 0
+FL002|US:
+  casualties_kwm_mean: 0
+FL002|CS:
+  casualties_kwm_mean: 0

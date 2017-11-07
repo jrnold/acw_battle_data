@@ -152,6 +152,7 @@ Battle_of_Ball's_Bluff:
       casualties_max: 1002
       strength: 1720
   cwsac_id: VA006
+  rev_id: 807221805
 Battle_of_Barbourville:
   belligerents:
     CS:
@@ -430,7 +431,7 @@ Battle_of_Bull's_Gap:
       brigades: 1
       casualties: 241
   cwsac_id: TN033
-  id: 572422325
+  id: 769923466
 Battle_of_Byram's_Ford:
   belligerents:
     CS:
@@ -1217,6 +1218,7 @@ Battle_of_Fort_Pulaski:
       ships: 15
       strength: 10000
   cwsac_id: GA001
+  rev_id: 802249836
 Battle_of_Fort_Ridgely:
   belligerents:
     I:
@@ -1420,6 +1422,7 @@ Battle_of_Glasgow:
       casualties: 400
       strength: 800
   cwsac_id: MO022
+  rev_id: 790787737
 Battle_of_Glendale:
   belligerents:
     CS:
@@ -1601,6 +1604,7 @@ Battle_of_Harpers_Ferry:
       strength: 12000
       wounded: 173
   cwsac_id: WV010
+  rev_id: 802247651
 Battle_of_Hartsville:
   belligerents:
     CS:
@@ -1610,6 +1614,7 @@ Battle_of_Hartsville:
       casualties: 2096
       strength: 2400
   cwsac_id: TN008
+  rev_id: 802246968
 Battle_of_Hartville:
   belligerents:
     CS:
@@ -1623,6 +1628,7 @@ Battle_of_Hartville:
       strength: 750
       wounded: 64
   cwsac_id: MO019
+  rev_id: 769927159
 Battle_of_Hatcher's_Run:
   belligerents:
     CS:
@@ -1634,6 +1640,7 @@ Battle_of_Hatcher's_Run:
       strength: 34517
       wounded: 1181
   cwsac_id: VA083
+  rev_id: 769927159
 Battle_of_Hatchie's_Bridge:
   belligerents:
     CS:
@@ -2243,7 +2250,6 @@ Battle_of_Namozine_Church:
   belligerents:
     CS:
       captured: 350
-      killed: 0
       strength: 700
       wounded: 15
     US:
@@ -2523,15 +2529,12 @@ Battle_of_Plymouth_(1864):
   belligerents:
     CS:
       casualties: 800
-      divisions: 1
+      strength: 4500
     US:
-      artillery_batteries: 1
-      artillery_regiments: 1
       casualties: 2000
-      cavalry_regiments: 2
-      regiments: 8
-      ships: 5
+      strength: 2500
   cwsac_id: NC012
+  rev_id: 779915808
 Battle_of_Poison_Spring:
   belligerents:
     CS:
@@ -2837,7 +2840,7 @@ Battle_of_Savage's_Station:
       casualties: 1038
       strength: 26600
   cwsac_id: VA019
-Battle_of_Sayler's_Creek:
+Battle_of_Sailor's_Creek:
   belligerents:
     CS:
       captured: 7700
@@ -3585,13 +3588,17 @@ First_Battle_of_Kernstown:
 First_Battle_of_Lexington:
   belligerents:
     CS:
-      casualties: 100
-      strength: 12500
+      killed: 30
+      wounded: 120
+      strength: 15000
     US:
-      captured: 1000
-      killed_wounded: 774
+      captured: 3000
+      killed: 36
+      wounded: 117
+      missing: 8
       strength: 3500
   cwsac_id: MO006
+  rev_id: 802737116
 First_Battle_of_Murfreesboro:
   belligerents:
     CS:
@@ -3601,6 +3608,7 @@ First_Battle_of_Murfreesboro:
       casualties: 890
       strength: 900
   cwsac_id: TN006
+  rev_id: 802249018
 First_Battle_of_Newtonia:
   belligerents:
     CS:
@@ -3662,6 +3670,7 @@ First_Battle_of_Winchester:
       casualties: 2019
       strength: 6500
   cwsac_id: VA104
+  rev_id: 802555121
 Lawrence_Massacre:
   belligerents:
     CS:
@@ -3859,12 +3868,13 @@ Second_Battle_of_Lexington:
 Second_Battle_of_Memphis:
   belligerents:
     CS:
-      casualties: 34
-      strength: 400
+      casualties: 62
+      strength: 6000
     US:
-      casualties: 160
-      strength: ''
+      casualties: 480
+      strength: 2000
   cwsac_id: TN031
+  rev_id: 809054438
 Second_Battle_of_Newtonia:
   belligerents:
     CS:
@@ -3907,6 +3917,7 @@ Second_Battle_of_Ream's_Station:
       strength: 9000
       wounded: 529
   cwsac_id: VA073
+  rev_id: 799848374
 Second_Battle_of_Sabine_Pass:
   belligerents:
     CS:
@@ -3942,6 +3953,7 @@ Second_Battle_of_Winchester:
       strength: 7000
       wounded: 348
   cwsac_id: VA107
+  rev_id: 791611974
 Siege_of_Corinth:
   belligerents:
     CS:

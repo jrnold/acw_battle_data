@@ -330,8 +330,7 @@ gen_forces <- function(cwss_forces,
                        cwsac_forces,
                        cws2_forces,
                        extra_forces,
-                       excluded_battles,
-                       cwss_zero_casualties) {
+                       excluded_battles) {
 
   # Adjust VA020. Only use cas/strength from VA020.
   # The casualties for GA028 are incorrect
@@ -345,13 +344,13 @@ gen_forces <- function(cwss_forces,
              ifelse(grepl("OK00[1-3]", cwsac_id) &
                       belligerent == "US",
                     "Native American", belligerent)) %>%
-    left_join(mutate(cwss_zero_casualties, zero_cas = TRUE),
-                     by = c("cwsac_id", "belligerent")) %>%
-    mutate(strength_mean_cwss = ifelse(TroopsEngaged == 0,
-                                       NA_real_, TroopsEngaged),
+    mutate(strength_mean_cwss = if_else(TroopsEngaged == 0,
+                                       NA_real_, as.numeric(TroopsEngaged)),
            strength_var_cwss = rounded_var(strength_mean_cwss),
-           casualties_kwm_mean_cwss = ifelse(Casualties == 0 & is.na(zero_cas),
-                                             NA_real_, Casualties),
+           # this sets battles with zero casualties to missing,
+           # so handle them in the extra_forces data
+           casualties_kwm_mean_cwss = ifelse(Casualties == 0,
+                                             NA_real_, as.numeric(Casualties)),
            casualties_kwm_var_cwss = rounded_var(casualties_kwm_mean_cwss)) %>%
     select(cwsac_id, belligerent, matches("^(casualties|strength)_"))
 
@@ -607,9 +606,6 @@ build <- function(src, dst) {
   cwss_units <- read_csv(file.path(dst, "cwss_regiments_units.csv"))
   cwss_battle_units <-
     read_csv(file.path(dst, "cwss_battle_units.csv"))
-  cwss_zero_casualties <-
-    read_csv(file.path(src, "rawdata", "nps_combined", "zero_casualties.csv"))
-
 
   categories <- read_csv(file.path(dst, "cwss_categories.csv"))
 
@@ -644,8 +640,7 @@ build <- function(src, dst) {
                cwsac_forces,
                cws2_forces,
                extra_forces,
-               extra_data[["excluded_battles"]],
-               cwss_zero_casualties)
+               extra_data[["excluded_battles"]])
 
   battles <-
     gen_battles(cwss_battles,

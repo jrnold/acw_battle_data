@@ -158,6 +158,17 @@
   TheaterCode: ME
   attacker: Union
   victor: Union
+  url: https://en.wikipedia.org/wiki/Western_Virginia_Campaign
+  union_commanders:
+    - name: George B. McClellan
+      url: https://en.wikipedia.org/wiki/George_B._McClellan
+    - name: William Rosecrans
+      url: https://en.wikipedia.org/wiki/William_Rosecrans
+  confederate commanders:
+    - name: Robert E. Lee
+      url: https://en.wikipedia.org/wiki/Robert_E._Lee
+    - name: Robert S. Garnett
+      url: https://en.wikipedia.org/wiki/Robert_S._Garnett
   comment: >
     Union forces occupied and secured the western portion of Virginia.
 - CampaignCode: ME61-03
@@ -168,9 +179,20 @@
   TheaterCode: ME
   attacker: Union
   victor: Confederate
+  url: https://en.wikipedia.org/wiki/Manassas_Campaign
+  union commanders:
+    - name: Irvin McDowell
+      url: https://en.wikipedia.org/wiki/Irvin_McDowell
+  confederate commanders:
+    - name: P. G. T. Beauregard
+      url: https://en.wikipedia.org/wiki/P._G._T._Beauregard
+    - name: Joseph E. Johnston
   comment: >
     Union forces under McDowell attempt to defeat Bureagard's army at
     Manassas. The Union loses the First Battle of Manassas.
+
+    Beauregard commanded the Army of the Potomac and Joseph E. Johnston
+    commanded the Army of the Shenandoah.
 - CampaignCode: ME61-04
   CampaignName: Union Blockade of Carolina Coast
   CampaignDates: August 1861
@@ -223,9 +245,29 @@
   TheaterCode: ME
   attacker: Union
   victor: Union
+  url: https://en.wikipedia.org/wiki/Burnside%27s_North_Carolina_Expedition
+  union commanders:
+    - name: Ambrose Burnside
+      url: https://en.wikipedia.org/wiki/Ambrose_Burnside
+    - name: Louis M. Goldsborough
+      url: https://en.wikipedia.org/wiki/Louis_M._Goldsborough
+  confederate commanders:
+    - name: Henry A. Wise
+      url: https://en.wikipedia.org/wiki/Henry_A._Wise
+    - name: Lawrence O'Bryan Branch
+      url: https://en.wikipedia.org/wiki/Louis_M._Goldsborough
   comment: >
     The objective was to close blockade running ports in the outer banks.
     Burnside takes and occupies Roanoke Island, New Bern, Morehead City, Beaufort and Washington, North Carolina.
+
+    - Burnside commanded the Coast Division
+    - Goldsborough commanded Union naval forces of the North Atlantic Blockading Squadron.
+
+    The confederate forces encountered by Burnside were from several commands
+
+    - Henry A. Wise commanded District of Roanoke.
+    - Branch commanded the forces at New Bern
+
 - CampaignCode: ME62-03
   CampaignName: Jackson's Valley Campaign
   CampaignDates: March-June 1862
@@ -234,9 +276,21 @@
   TheaterCode: ME
   attacker: Confederate
   victor: Confederate
+  url: https://en.wikipedia.org/wiki/Jackson%27s_Valley_Campaign
+  union commanders:
+    - name: Nathaniel P. Banks
+      url: https://en.wikipedia.org/wiki/Nathaniel_P._Banks
+    - name: John C. Fremont
+      url: https://en.wikipedia.org/wiki/John_C._Fr%C3%A9mont
+    - name: James Shields
+      url: https://en.wikipedia.org/wiki/James_Shields_(politician,_born_1806)
+  confederate commanders:
+    - name: Stonewall Jackson
+      url: https://en.wikipedia.org/wiki/Stonewall_Jackson
   comment: >
     Jackson's forces engage Union forces in the Shennadoah valley and prevent
     them from reinforcing Richmond.
+
 - CampaignCode: ME62-04
   CampaignName: Peninsula Campaign
   CampaignDates: March-July 1862
@@ -245,8 +299,20 @@
   TheaterCode: ME
   attacker: Union
   victor: Confederate
+  url: https://en.wikipedia.org/wiki/Peninsula_Campaign
+  union commanders:
+    - name: George B. McClellan
+      url: https://en.wikipedia.org/wiki/George_B._McClellan
+  confederate commanders:
+    - name: Joseph E. Johnson
+      url: https://en.wikipedia.org/wiki/Joseph_E._Johnston
+    - name: Robert E. Lee
+      url: https://en.wikipedia.org/wiki/Robert_E._Lee
   comment: >
     McClellan attempts to take Richmond. Union forces are defeated in the 7 days battles.
+
+    Johnston commanded the Army of Northern Virginia, but was replaced by Robert E. Lee
+    after being wounded at Seven Pines.
 - CampaignCode: ME62-05
   CampaignName: Northern Virginia Campaign
   CampaignDates: August 1862
@@ -255,6 +321,13 @@
   TheaterCode: ME
   attacker: Confederate
   victor: Confederate
+  url: https://en.wikipedia.org/wiki/Northern_Virginia_Campaign
+  union commanders:
+    - name: John Pope
+      url: https://en.wikipedia.org/wiki/John_Pope_(military_officer)
+  confederate commanders:
+    - name: Robert E. Lee
+      url: https://en.wikipedia.org/wiki/Robert_E._Lee
   wikipedia: https://en.wikipedia.org/wiki/Northern_Virginia_Campaign
   comment: >
     After the Peninsula campaign, Robert E. Lee moves northward and
@@ -267,7 +340,13 @@
   TheaterCode: ME
   attacker: Confederate
   victor: Union
-  wikipedia: https://en.wikipedia.org/wiki/Maryland_Campaign
+  url: https://en.wikipedia.org/wiki/Maryland_Campaign
+  union commanders:
+    - name: George B. McClellan
+      url: https://en.wikipedia.org/wiki/George_B._McClellan
+  confederate commanders:
+    - name: Robert E. Lee
+      url: https://en.wikipedia.org/wiki/Robert_E._Lee
   comment: >
     Robert E. Lee invades the North. He is defeated at the Battle of Antietam.
 - CampaignCode: ME62-07
@@ -278,6 +357,13 @@
   TheaterCode: ME
   attacker: Union
   victor: Confederate
+  url: https://en.wikipedia.org/wiki/Battle_of_Fredericksburg
+  union commanders:
+    - name: Ambrose E. Burnside
+      url: https://en.wikipedia.org/wiki/Ambrose_Burnside
+  confederate commanders:
+    - name: Robert E. Lee
+      url: https://en.wikipedia.org/wiki/Robert_E._Lee
   comment: >
     Army of the Potomac commanded by Ambrose Burnside attempted to cross
     the Rappahannock River at Fredericksburg and move on Richmond.
@@ -309,34 +395,89 @@
   CampaignEndDate: -38962.0
   TheaterCode: ME
   attacker: Confederate
+  victor: Inconclusive
+  url: https://en.wikipedia.org/wiki/Siege_of_Suffolk
+  union commanders:
+    - name: John J. Peck
+      url: https://en.wikipedia.org/wiki/John_J._Peck
+
+  confederate commanders:
+    - name: James Longstreet
+      url: https://en.wikipedia.org/wiki/James_Longstreet
+  comment: >
+    Longstreets objectives were to protect Richmond, forage, and capture Suffolk.
+    He failed to capture Suffolk.
+
 - CampaignCode: ME63-02
   CampaignName: Cavalry Operations Along the Rappahannock
   CampaignDates: March 1863
   CampaignStartDate: -39022.0
   CampaignEndDate: -38992.0
   TheaterCode: ME
-  attacker: ''
+  attacker: Union
+  victor: Inconclusive
+  union commanders:
+    - name: William W. Averell
+      url: https://en.wikipedia.org/wiki/William_W._Averell
+  confederate commanders:
+    - name: Fizhugh Lee
+      url: https://en.wikipedia.org/wiki/Fitzhugh_Lee
+  comments: >
+    Averall's Union cavalry aimed to cross the Rappahannock and destroy
+    the Confederate cavalry which had been harassing Union forces. He was able
+    to cross the river, but was not able to destroy the Confederate cavalry.
 - CampaignCode: ME63-03
   CampaignName: Chancellorsville Campaign
   CampaignDates: April-May 1863
   CampaignStartDate: -38991.0
   CampaignEndDate: -38931.0
+  url: https://en.wikipedia.org/wiki/Battle_of_Chancellorsville
   TheaterCode: ME
   attacker: Union
+  victor: Confederate
+  union commanders:
+    - name: Joseph Hooker
+      url: https://en.wikipedia.org/wiki/Joseph_Hooker
+  confederate commanders:
+    - name: Robert E. Lee
+      url: https://en.wikipedia.org/wiki/Robert_E._Lee
+  comments: >
+    Union forces commanded by Joseph Hooker attempted to cross the
+    Rappahannock River. They were defeated at the Battle of Chancellorsville.
 - CampaignCode: ME63-04
   CampaignName: Gettysburg Campaign
   CampaignDates: June-July 1863
   CampaignStartDate: -38930.0
   CampaignEndDate: -38870.0
+  url: https://en.wikipedia.org/wiki/Gettysburg_Campaign
   TheaterCode: ME
+  union commanders:
+    - name: George Meade
+      url: https://en.wikipedia.org/wiki/George_Meade
+    - name: Joseph Hooker
+      url: https://en.wikipedia.org/wiki/Joseph_Hooker
+  confederate commanders:
+    - name: Robert E. Lee
+      url: https://en.wikipedia.org/wiki/Robert_E._Lee
   attacker: Confederate
+  victor: Union
 - CampaignCode: ME63-05
   CampaignName: Bristoe Campaign
   CampaignDates: October-November 1863
   CampaignStartDate: -38808.0
   CampaignEndDate: -38748.0
   TheaterCode: ME
-  attacker: ''
+  attacker: Confederate
+  victor: Union
+  url: https://en.wikipedia.org/wiki/Bristoe_Campaign
+  union commanders:
+    - name: George Meade
+      url: https://en.wikipedia.org/wiki/George_Meade
+  confederate commanders:
+    - name: Robert E. Lee
+      url: https://en.wikipedia.org/wiki/Robert_E._Lee
+  comment: >
+    Lee tries to turn Meade's flank and force a decisive battle but fails.
 - CampaignCode: ME63-06
   CampaignName: Averell's Raid On the Virginia & Tennessee RR
   CampaignDates: November 1863
@@ -344,13 +485,32 @@
   CampaignEndDate: -38748.0
   TheaterCode: ME
   attacker: Union
+  victor: Union
+  union commanders:
+    - name: William W. Averell
+      url: https://en.wikipedia.org/wiki/William_W._Averell
+  confederate commanders:
+    - name:  John Echols
+      url: https://en.wikipedia.org/wiki/John_Echols
+  comment: >
+    Averall's forces destroy Confederate resistance in W. Virginia at the
+    Battle of Droop Mountain.
 - CampaignCode: ME63-07
   CampaignName: Mine Run Campaign
   CampaignDates: November-December 1863
   CampaignStartDate: -38777.0
   CampaignEndDate: -38717.0
   TheaterCode: ME
-  attacker: ''
+  attacker: Union
+  victor: Confederate
+  union commanders:
+    - name: George G. Meade
+      url: https://en.wikipedia.org/wiki/George_Meade
+  confederate commanders:
+    - name: Robert E. Lee
+      url: https://en.wikipedia.org/wiki/Robert_E._Lee
+  comment: >
+    Meade attempts to defeat Confederate Army of Northern Virginia but fails.
 - CampaignCode: ME64-01
   CampaignName: Demonstration on the Rapidan River
   CampaignDates: February 1864
@@ -427,14 +587,46 @@
   CampaignStartDate: -38381.0
   CampaignEndDate: -38351.0
   TheaterCode: ME
-  attacker: ''
+  attacker: Union
+  victor: Confederate
+  url: https://en.wikipedia.org/wiki/Wilmington_Campaigns
+  union commanders:
+    - name: Benjamin Butler
+      url: https://en.wikipedia.org/wiki/Benjamin_Butler
+  confederate commanders:
+    - name: Braxton Bragg
+      url: https://en.wikipedia.org/wiki/Braxton_Bragg
+  comment: >
+    Union forces attempt to take Fort Fisher which guards Wilmington.
+
+    Col. William Lamb commanded the defenses at Fort Fisher, but was
+    reinforced by forces from Gen. Braxton Bragg.
+
 - CampaignCode: ME65-01
   CampaignName: Operations Against Fort Fisher & Wilmington
   CampaignDates: January-February 1865
   CampaignStartDate: -38350.0
   CampaignEndDate: -38292.0
   TheaterCode: ME
-  attacker: ''
+  attacker: Union
+  victor: Union
+  url: https://en.wikipedia.org/wiki/Wilmington_Campaigns
+  union commanders:
+    - name: Alfred Terry
+      url: https://en.wikipedia.org/wiki/Alfred_Terry
+    - name: David D. Porter
+      url: https://en.wikipedia.org/wiki/David_Dixon_Porter
+    - name: John Schofield
+      url: https://en.wikipedia.org/wiki/John_Schofield
+  confederate commanders:
+    - name: Braxton Bragg
+      url: https://en.wikipedia.org/wiki/Braxton_Bragg
+  comment: >
+    Union forces succeed in capturing Fort Fisher and Wilmington.
+
+    Terry commanded the Army of the James for the assault on Fort Fisher. Porter commanded the
+    North Atlantic Blockading Squadron. Schofield commanded the Department of
+    North Carolina/Wilmington Expeditionary Force that captured Wilmington.
 - CampaignCode: ME65-02
   CampaignName: Richmond-Petersburg Campaign Continued
   CampaignDates: January-March 1865
