@@ -1,4 +1,4 @@
-battle_id,belligerent,battle_name,start_date,end_date,state,killed,wounded,missing,casualties,aggregregates_battles,comment
+battle_id,belligerent,battle_name,start_date,end_date,state,killed,wounded,missing,casualties,aggregates_battles,comment
 U1,US,"Big Bethel, Va.",1861-6-10,1861-6-10,VA,18,53,5,76,,
 U2,US,"Carthage, Mo.",1861-7-5,1861-7-5,MO,13,31,,44,,
 U3,US,"Rich Mountain, W. Va.",1861-7-11,1861-7-11,WV,12,49,,61,,
@@ -81,6 +81,7 @@ U79,US,"Irish Bend, La.",1863-4-14,1863-4-14,LA,49,274,30,353,,
 U80,US,"Siege of Suffolk, Va.",1863-4-11,1863-4-30,VA,41,223,2,266,,
 U81,US,"Magnolia Hills, Miss.",1863-5-1,1863-5-1,MS,131,719,25,875,,"Port Gibson, Miss."
 U82,US,"Chancellorsville, Va.",1863-5-1,1863-5-4,VA,1606,9762,5919,17287,,"Includes loss at Marye's Heights and Salem Church, viz.; 493 killed, 2,710 wounded, 1,497 missing. Also, loss at Fitzhugh's Crossing."
+U82A,US,"Marye's Heights and Salem Church, Va.",1863-5-3,1863-5-4,VA,493,2710,1497,4700,,
 U83,US,"Raymond, Miss.",1863-5-12,1863-5-12,MS,66,339,37,442,,
 U84,US,"Jackson, Miss.",1863-5-14,1863-5-14,MS,42,251,7,300,,
 U85,US,"Champion's Hill, Miss.",1863-5-16,1863-5-16,MS,410,1844,187,2441,,
@@ -138,7 +139,7 @@ U136,US,"Siege of Knoxville, Tenn.",1863-11-1,1863-11-30,TN,92,393,202,687,,
 U137,US,"Chattanooga, Tenn.",1863-11-23,1863-11-25,TN,687,4346,349,5382,,"Or, Missionary Ridge; Includes Orchard Knob, Nov. 23 (loss about 200); and Lookout Mountain, Nov. 24 (500)."
 U137A,US,"Missionary Ridge (Chattanooga, Tenn)",1863-11-25,1863-11-25,TN,,,,4682,,
 U137B,US,"Orchard Knob (Chattanooga, Tenn)",1863-11-23,1863-11-23,TN,,,,200,,
-U137C,US,"Lookout Mountain (Chattanooga, Tenn)",1863-11-24,1865-11-24,TN,,,,500,,
+U137C,US,"Lookout Mountain (Chattanooga, Tenn)",1863-11-24,1863-11-24,TN,,,,500,,
 U137D,US,"Ringgold; Graysville, Ga.",1863-11-27,1863-11-27,GA,,,,432,,
 U139,US,"Mine Run Campaign, Va.",1863-11-26,1863-11-30,VA,173,1099,381,1653,,
 U140,US,"Walker's Ford, W. Va.",1863-12-2,1863-12-2,WV,9,43,12,64,,
@@ -253,7 +254,7 @@ U222,US,"Darbytown Road, Va.",1864-10-13,1864-10-13,VA,36,358,43,437,,
 U223,US,"Cedar Creek, Va.",1864-10-19,1864-10-19,VA,644,3430,1591,5665,,
 U224,US,"Little Blue, Mo.",1864-10-21,1864-10-21,MO,18,83,14,115,,Cavalry engagements.
 U225,US,"Independence, Mo.",1864-10-22,1864-10-22,MO,14,58,11,83,,Cavalry engagements.
-U226,US,"Decatur, Ala.",1864-10-26,1864-10-26,VA,10,45,100,155,,Cavalry engagements.
+U226,US,"Decatur, Ala.",1864-10-26,1864-10-26,AL,10,45,100,155,,Cavalry engagements.
 U227,US,"Boydton Road, Va.",1864-10-27,1864-10-27,VA,166,1028,564,1758,,Cavalry engagements.
 U228,US,"Darbytown Road; Fair Oaks, Va.",1864-10-27,1864-10-27,VA,118,787,698,1603,,
 U229,US,"Petersburg Trenches, Va.",1864-10-1,1864-10-31,VA,159,520,633,1312,,Includes operations on the north side of the James.
@@ -289,14 +290,14 @@ U258,US,"White Oak Road, Va.",1865-3-31,1865-3-31,VA,177,1134,556,1867,,
 U259,US,"Siege of Petersburg, Va.",1865-3-1,1865-3-31,VA,58,272,98,428,,
 U260,US,"Dinwiddie C. H., Va.",1865-3-31,1865-3-31,VA,67,354,,421,,Cavalry engagements.
 U261,US,"Five Forks, Va.",1865-4-1,1865-4-1,VA,124,706,54,884,,
-U262,US,"Selma, Ala.",1865-4-2,1865-4-2,VA,42,270,7,319,,Cavalry engagements.
+U262,US,"Selma, Ala.",1865-4-2,1865-4-2,AL,42,270,7,319,,Cavalry engagements.
 U263,US,"Fall of Petersburg, Va.",1865-4-2,1865-4-2,VA,296,2565,500,3361,,
 U264,US,"Namozin Church, Va.",1865-4-3,1865-4-3,VA,10,85,,95,,Cavalry engagements.
 U265,US,"Amelia Springs, Va.",1865-4-5,1865-4-5,VA,20,96,,116,,Cavalry engagements.
 U266,US,"Sailor's Creek, Va.",1865-4-6,1865-4-6,VA,166,1014,,1180,,
 U267,US,"Farmville, Va.",1865-4-7,1865-4-7,VA,58,504,9,571,,
-U268,US,"Spanish Fort, Ala.",1865-4-8,1865-4-8,VA,100,695,,795,,
-U269,US,"Fort Blakely, Ala.",1865-4-9,1865-4-9,VA,113,516,,629,,
+U268,US,"Spanish Fort, Ala.",1865-4-8,1865-4-8,AL,100,695,,795,,
+U269,US,"Fort Blakely, Ala.",1865-4-9,1865-4-9,AL,113,516,,629,,
 U270,US,"Columbus; West Point, Ga.",1865-4-16,1865-4-16,GA,13,53,,66,,Cavalry engagements.
 C1,Confederate,"First Bull Run, Va.",1861-7-21,1861-7-21,VA,387,1582,13,1982,,"Killed from Gen. Pillow's Report: Official Records, Vol. VII, p. 291.; Missing May include some of the wounded."
 C2,Confederate,"Wilson's Creek, Mo.",1861-8-10,1861-8-10,MO,265,800,30,1095,,
@@ -344,7 +345,7 @@ C36,Confederate,"Pocotaligo, S. C.",1862-10-22,1862-10-22,SC,21,124,18,163,,
 C37,Confederate,"Coffeeville, Miss.",1862-12-5,1862-12-5,MS,7,43,10,60,,
 C38,Confederate,"Hartsville, Tenn.",1862-12-7,1862-12-7,TN,21,104,14,139,,
 C39,Confederate,"Prairie Grove, Ark.",1862-12-7,1862-12-7,AR,164,817,,981,,
-C40,Confederate,"Kinston, Whitehall, N. C.",1862-12-12,1862-12-17,VA,71,268,400,739,,
+C40,Confederate,"Kinston, Whitehall, N. C.",1862-12-12,1862-12-17,NC,71,268,400,739,,
 C41,Confederate,"Fredericksburg, Va.",1862-12-13,1862-12-13,VA,596,4068,651,5315,,
 C42,Confederate,"Chickasaw Bluffs, Miss.",1862-12-26,1862-12-29,MS,57,120,10,187,,
 C43,Confederate,"Stone's River, Tenn.",1862-12-31,1862-12-31,TN,1294,7945,1027,10266,,
@@ -402,7 +403,7 @@ C91,Confederate,"Johns Island; James Island, S. C.",1864-7-1,1864-7-11,SC,33,92,
 C92,Confederate,"Tupelo, Miss.",1864-7-13,1864-7-15,MS,210,1049,49,1308,,
 C93,Confederate,"Opequon, Va.",1864-9-19,1864-9-19,VA,226,1567,1818,3611,,"Not including the loss in the cavalry, which was reported as slight."
 C94,Confederate,"Fisher's Hill, Va.",1864-9-22,1864-9-22,VA,30,210,995,1235,,"Not including the loss in the cavalry, which was reported as slight."
-C95,Confederate,"Allatoona Pass, Ga.",1864-10-5,1864-10-5,VA,127,456,290,873,,
-C96,Confederate,"Cedar Creek, Va.",1864-10-19,1864-10-19,GA,320,1540,1050,2910,,"General Early reported his loss at Cedar Creek at 1,860 killed and wounded, and ""something over 1,000 prisoners."""
-C97,Confederate,"Averasboro, N. C.",1865-3-16,1865-3-16,VA,108,540,217,865,,
+C95,Confederate,"Allatoona Pass, Ga.",1864-10-5,1864-10-5,GA,127,456,290,873,,
+C96,Confederate,"Cedar Creek, Va.",1864-10-19,1864-10-19,VA,320,1540,1050,2910,,"General Early reported his loss at Cedar Creek at 1,860 killed and wounded, and ""something over 1,000 prisoners."""
+C97,Confederate,"Averasboro, N. C.",1865-3-16,1865-3-16,NC,108,540,217,865,,
 C98,Confederate,"Bentonville, N. C.",1865-3-19,1865-3-19,NC,239,1694,673,2606,,

@@ -36,7 +36,6 @@ Schema
 battle_id         integer  battle_id
 event_type        string   Event type
 state             string   State
-year              integer  Year
 battle_name       string   Battle Name
 start_date        date     Start Date
 end_date          date     End date
@@ -46,6 +45,7 @@ killed            integer  Killed
 wounded           integer  Wounded
 killed_wounded    number   Killed or Wounded
 missing_captured  number   Missing Captured
+comment           string   comment
 ================  =======  =================
 
 battle_id
@@ -90,21 +90,6 @@ with the following exceptions.
 - "FR": France
 - "MX": Mexico
 
-
-
-       
-year
-----
-
-:title: Year
-:type: integer
-:format: default
-:constraints:
-    :minimum: 1860
-    :maximum: 1865
-    
-
-Year of the event.
 
 
        
@@ -223,6 +208,18 @@ missing_captured
     
 
 Union missing or captured
+
+
+       
+comment
+-------
+
+:title: comment
+:type: string
+:format: default
+
+
+
 
 
        

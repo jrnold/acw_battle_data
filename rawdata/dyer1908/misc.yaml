@@ -1,0 +1,129 @@
+states:
+- abbrev: AL
+  name: Alabama
+- abbrev: AR
+  name: Arkansas
+- abbrev: AZ
+  name: Arizona Territory
+- name: California
+  abbrev: CA
+- abbrev: CO
+  name: Colorado Territory
+- name: District of Columbia
+  abbrev: DC
+- name: Dakota Territories
+  abbrev: DT
+- abbrev: FL
+  name: Floria
+- abbrev: FRA
+  name: France
+- abbrev: GA
+  name: Georgia
+- name: Illinois
+  abbrev: IL
+- name: Indiana
+  abbrev: IN
+- name: Kansas
+  abbrev: KS
+- name: Kentucky
+  abbrev: KY
+- name: Louisiana
+  abbrev: LA
+- name: Maryland
+  abbrev: MD
+- name: Mississippi
+  abbrev: MS
+- name: Minnesota
+  abbrev: MN
+- abbrev: MO
+  name: Missouri
+- abbrev: MEX
+  name: Mexico
+- abbrev: NC
+  name: North Carolina
+- abbrev: NE
+  name: Nebraska Territory
+- abbrev: NM
+  name: New Mexico Territory
+- abbrev: NV
+  name: Nevada Territory
+- abbrev: NY
+  name: New York
+- abbrev: OH
+  name: Ohio
+- abbrev: OK
+  name: Indian Territory
+- abbrev: OR
+  name: Oregon Territory
+- abbrev: PA
+  name: Pennsylvania
+- name: South Carolina
+  abbrev: SC
+- abbrev: TN
+  name: Tennessee
+- abbrev: TX
+  name: Texas
+- abbrev: UT
+  name: Utah Territory
+- abbrev: VA
+  name: Virginia
+- abbrev: WA
+  name: Washington Territory
+- abbrev: WV
+  name: West Virginia
+event_types:
+- Abandonment
+- Accident
+- Action
+- Adoption
+- Advance
+- Affaid
+- Affair
+- Arrival
+- Assault
+- Attack
+- Attempt
+- Battle
+- Bombardment
+- Burning
+- Campaign
+- Capture
+- Combat
+- Construction
+- Convoy
+- Defense
+- Demonstration
+- Descent
+- Destruction
+- Engagement
+- Evacuation
+- Expedition
+- Explosion
+- Firing
+- Garrison
+- Investment, Battles and Capture
+- Landing
+- March
+- Massacre
+- Movement
+- Mutiny
+- Occupation
+- Operations
+- Passage
+- Picket affair
+- Pursuit
+- Raid
+- Reconnaissance
+- Reoccupation
+- Reopening
+- Retreat
+- Riot
+- Running
+- Scout
+- Seizure
+- Siege
+- Skirmish
+- Skirmishes
+- Surrender
+- Torpedo
+- Transfer

@@ -191,7 +191,7 @@
   - description: Cedar Mountain, Va, VA (1862-8-8 - 1862-8-8)
     id: 2282
   relation: eq
-  start_date: '1862-08-09'
+  diff_dates: true
 - battles_cwsac:
   - description: Manassas II , VA (1862-08-28 - 1862-08-30)
     id: VA026
@@ -274,6 +274,7 @@
   - description: Big Hatchie River, Miss, MS (1862-10-5 - 1862-10-5)
     id: 2294
   relation: eq
+  diff_states: true
   start_date: '1862-10-06'
 - battles_cwsac:
   - description: Perryville , KY (1862-10-08 - 1862-10-08)
@@ -551,7 +552,6 @@
     id: 2332
   relation: eq
   start_date: '1864-05-05'
-
 - battles_cwsac:
   - description: Rocky Face Ridge , GA (1864-05-07 - 1864-05-13)
     id: GA007
@@ -685,7 +685,10 @@
   - description: Kellar's Bridge, Licking River, Ky., KY (1864-6-10 - 1864-6-10)
     id: 2347
   relation: eq
-  start_date: '1864-06-11'
+  diff_dates: true
+  comment: >
+    Date different than the CWSAC battle, but Kellar's Bridge is an alternate
+    name for the Cynthiana.
 - battles_cwsac:
   - description: Trevilian Station , VA (1864-06-11 - 1864-06-12)
     id: VA099
@@ -833,6 +836,7 @@
     id: 2369
   relation: eq
   start_date: '1864-08-21'
+  diff_states: true
 - battles_cwsac:
   - description: Ream's Station II , VA (1864-08-25 - 1864-08-25)
     id: VA073
@@ -840,7 +844,7 @@
   - description: Ream's Station, Va., VA (1864-8-25 - 1864-8-25)
     id: 2370
   relation: eq
-  start_date: '1864-08-25'
+
 - battles_cwsac:
   - description: Jonesborough , GA (1864-08-31 - 1864-09-01)
     id: GA022
@@ -848,7 +852,6 @@
   - description: Jonesboro, Ga., GA (1864-8-31 - 1864-9-1)
     id: 2371
   relation: eq
-  start_date: '1864-08-31'
 
 - battles_cwsac:
   - description: Rocky Face Ridge , GA (1864-05-07 - 1864-05-13)
@@ -888,7 +891,6 @@
       Ga., TN (1864-5-5 - 1864-9-8)
     id: 2372
   relation: eq
-  start_date: '1864-05-07'
   comment: >
     This includes all battles in the Atlanta Campaign [May-September 1864]
 
@@ -899,7 +901,6 @@
   - description: Apequan, Winchester, Va., VA (1864-9-19 - 1864-9-19)
     id: 2374
   relation: eq
-  start_date: '1864-09-19'
 
 - battles_cwsac:
   - description: Fort Davidson , MO (1864-09-26 - 1864-09-28)
@@ -924,12 +925,12 @@
     id: KS003
   - description: Newtonia II , MO (1864-10-28 - 1864-10-28)
     id: MO029
+  diff_states: true
   battles_from:
   - description: Price's invasion of Missouri; includes a number of engagements.,
       MO (1864-9-24 - 1864-10-28)
     id: 2376
   relation: eq
-  start_date: '1864-09-26'
 - battles_cwsac:
   - description: Chaffin's Farm / New Market Heights , VA (1864-09-29 - 1864-09-30)
     id: VA075
@@ -1076,7 +1077,6 @@
       of engagements, GA (1865-3-22 - 1865-4-24)
     id: 2397
   relation: gt
-  start_date: '1865-04-02'
   comment: >
     Selman (AL007) was the only major battle in this raid, but this is marked
     as greater than that single battle since it includes the whole raid.

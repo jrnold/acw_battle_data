@@ -715,6 +715,7 @@ Battle_of_Cockpit_Point:
   belligerents:
     CS:
       strength: 50
+      batteries: 4
     US:
       gunboats: 2
   cwsac_id: VA100
@@ -3517,14 +3518,11 @@ First_Battle_of_Deep_Bottom:
       regiments: 21
       wounded: 391
     US:
-      artillery_batteries: 15
-      captured_missing: 86
-      cavalry_regiments: 20
       killed: 62
-      regiments: 92
-      ships: 1
+      captured_missing: 86
       wounded: 340
   cwsac_id: VA069
+  rev_id: 784629245
 First_Battle_of_Donaldsonville:
   belligerents:
     CS:
@@ -3779,6 +3777,7 @@ Second_Battle_of_Deep_Bottom:
       strength: 28000
       wounded: 1851
   cwsac_id: VA071
+  rev_id: 808244851
 Second_Battle_of_Donaldsonville:
   belligerents:
     CS:

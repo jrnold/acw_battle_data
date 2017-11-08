@@ -9,5 +9,55 @@ VA031:
   battle_type: Siege
   battle_name: Suffolk
   other_names: Norfleet House Battery; Fort Huger; Hill’s Point
+  start_date: 1863-04-11
+  end_date: 1863-05-04
+  comment: >
+    Use VA031 to refer to the entire Siege of Suffolk.
 VA020:
   battle_name: Glendale/White Oak Swamp
+MD006:
+  end_date: 1863-07-08
+  comment: >
+    Consider only the Action on July 8 at Boonsboro. There
+    are multiple small actions in this area between July 8 and 14.
+VA054:
+  end_date: 1864-05-20
+  comment: >
+    Limit the battle to the action at Ware Bottom Church on May 20th.
+    The dates in CWSAC2 go to May 29th.
+GA010:
+  start_date: 1864-05-25
+  end_date: 1864-05-26
+  comment: >
+    Limit the battle to the actions at New Hope Chuch on May 25-26.
+    This was what https://www.nps.gov/abpp/battles/ga010.htm used.
+GA011:
+  start_date: 1864-05-26
+  end_date: 1864-06-01
+  comment: >
+    Use dates from https://www.nps.gov/abpp/battles/ga011.htm. However,
+    battle of Dallas was May 28th only.
+CO001:
+  start_date: 1864-11-29
+  end_date: 1864-11-29
+  comment: >
+    In CWSAC2, incorrectly listed as Oct 29 instead of Nov 29.
+TN007:
+  start_date: 1862-10-05
+  end_date: 1862-10-05
+  comment: >
+    Original CWSAC had Oct 5, which appears to be the correct date.
+WV015:
+  start_date: 1864-08-25
+  end_date: 1864-08-29
+  comment: >
+    Use original CWSAC data. This matches with Fox engagements.
+NC016:
+  start_date: 1865-02-11
+  comment: >
+    Move start date back to include action at Sugar Loaf battery.
+VA046:
+  start_date: 1864-05-05
+  end_date: 1864-05-07
+  comment: >
+    Use dates from the original CWSAC.

@@ -33,14 +33,6 @@ schema:
     name: state
     title: State
     type: string
-  - constraints:
-      maximum: 1865
-      minimum: 1860
-    description: Year of the event.
-    format: default
-    name: year
-    title: Year
-    type: integer
   - format: default
     name: battle_name
     title: Battle Name
@@ -93,6 +85,10 @@ schema:
     name: missing_captured
     title: Missing Captured
     type: number
+  - format: default
+    name: comment
+    title: comment
+    type: string
 sources:
 - DyerBattles
 - dyer1908_war_rebel

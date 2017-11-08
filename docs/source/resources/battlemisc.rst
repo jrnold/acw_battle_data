@@ -29,7 +29,6 @@ Schema
 cwsac_id     string   CWSAC Id.
 battle_name  string   Battle name
 attacker     string   Attacker
-surrender    string   Surrender
 siege        boolean  siege
 naval        string   naval
 ===========  =======  ===========
@@ -71,20 +70,6 @@ attacker
     
 
 Which side was the attacker in the battle? This was coded as the side which first initiated combat in that battle. It is not a measure of which side was attacking in the campaign. This was coded from the descriptions in the CWSAC and Wikipedia.
-
-
-       
-surrender
----------
-
-:title: Surrender
-:type: string
-:format: default
-:constraints:
-    :enum: ['Union complete', 'Union partial', 'None', 'Confederate partial', 'Confederate complete']
-    
-
-Did one of the sides surrender?
 
 
        

@@ -68,12 +68,10 @@ schema:
     name: casualties
     title: casualties
     type: integer
-  - description: For observations that aggregate battles from a campaign, the IDs
-      of those observations. The IDs are space separated.
-    format: default
-    name: aggregregates_battles
-    title: aggregregates_battles
-    type: string
+  - format: default
+    name: aggregates_battles
+    title: aggregates_battles
+    type: boolean
   - description: Comments attached to the observation. These are generally footnotes
       from the original source.
     format: default

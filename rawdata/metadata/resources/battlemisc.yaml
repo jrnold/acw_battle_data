@@ -25,18 +25,6 @@ schema:
     name: attacker
     title: Attacker
     type: string
-  - constraints:
-      enum:
-      - Union complete
-      - Union partial
-      - None
-      - Confederate partial
-      - Confederate complete
-    description: Did one of the sides surrender?
-    format: default
-    name: surrender
-    title: Surrender
-    type: string
   - format: default
     name: siege
     title: siege

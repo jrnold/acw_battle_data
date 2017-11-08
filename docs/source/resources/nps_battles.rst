@@ -70,6 +70,7 @@ long                             number   Longitude
 state                            string   State
 strength                         number   Strength
 casualties_kwm                   number   Casualties
+comment                          string   comment
 ===============================  =======  ===============================
 
 cwsac_id
@@ -690,6 +691,18 @@ casualties_kwm
     
 
 Total (Confederate and Union) casualties in the battle. This combines data from the CWSS and CWSAC sources. For some battle the total personnel is given, even though the individual Confederate and Union values are missing.
+
+
+       
+comment
+-------
+
+:title: comment
+:type: string
+:format: default
+
+
+
 
 
        

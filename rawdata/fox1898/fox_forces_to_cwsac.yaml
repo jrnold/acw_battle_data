@@ -117,6 +117,7 @@
   - description: Pea Ridge, Mo. (1862-3-6 to 1862-3-8)
     id: U17
   relation: eq
+  diff_states: true
 - battles_cwsac:
   - description: New Berne, NC (1862-03-14)
     id: NC003
@@ -328,6 +329,9 @@
   - description: Manassas, Va. (1862-8-16 to 1862-8-31)
     id: U47
   relation: eq
+  diff_dates: true
+  comment: >
+    Doesn't overlap with Chantilly, but the footnote says, "Includes Bristoe Station, Groveton, Gainesville, Chantilly and the Rappahannock".
 - battles_cwsac:
   - description: Richmond, KY (1862-08-29 to 1862-08-30)
     id: KY007
@@ -342,6 +346,7 @@
   - description: Harper's Ferry, Va. (1862-9-12 to 1862-9-15)
     id: U50
   relation: eq
+  diff_states: true
 - battles_cwsac:
   - description: South Mountain, MD (1862-09-14)
     id: MD002
@@ -377,6 +382,7 @@
   - description: Shepherdstown Ford, Va. (1862-9-19 to 1862-9-20)
     id: U56
   relation: eq
+  diff_states: true
 - battles_cwsac:
   - description: Corinth II, MS (1862-10-03 to 1862-10-04)
     id: MS002
@@ -391,6 +397,7 @@
   - description: Hatchie Bridge, Miss. (1862-10-5)
     id: U58
   relation: eq
+  diff_states: true
 - battles_cwsac:
   - description: Perryville, KY (1862-10-08)
     id: KY009
@@ -447,6 +454,7 @@
   - description: Parker's Cross Roads, Tenn. (1862-12-30)
     id: U69
   relation: eq
+  diff_dates: true
 - battles_cwsac:
   - description: Stones River, TN (1862-12-31 to 1863-01-02)
     id: TN010
@@ -536,9 +544,18 @@
     id: VA033
   - description: Fredericksburg II, VA (1863-05-03)
     id: VA034
+  relation: eq
   battles_from:
   - description: Chancellorsville, Va. (1863-5-1 to 1863-5-4)
     id: U82
+- battles_cwsac:
+  - description: Salem Church, VA (1863-05-03 to 1863-05-04)
+    id: VA033
+  - description: Fredericksburg II, VA (1863-05-03)
+    id: VA034
+  battles_from:
+  - description: Marye's Heights and Fredericksburg (1863-5-3 to 1863-5-4)
+    id: U82A
   relation: eq
 - battles_cwsac:
   - description: Raymond, MS (1863-05-12)
@@ -664,6 +681,7 @@
   - description: Morgan's Raid, Ky. (1863-7-2 to 1863-7-26)
     id: U106
   relation: eq
+  diff_states: true
 - battles_cwsac:
   - description: Helena, AR (1863-07-04)
     id: AR008
@@ -755,6 +773,7 @@
   - description: Wauhatchie, Tenn. (1863-10-27)
     id: U130
   relation: eq
+  diff_dates: true
 - battles_cwsac:
   - description: Droop Mountain, WV (1863-11-06)
     id: WV012
@@ -1038,6 +1057,7 @@
   - description: Atlanta Campaign, Ga. (1864-9-1)
     id: U159
   relation: eq
+  diff_dates: true
   comment: >
     This includes Lovejoy's Station though it was on Aug 20th since
     it is mentioned by name in the footnote.
@@ -1103,6 +1123,7 @@
   - description: Cloyd's Mountain, W. Va. (1864-5-9 to 1864-5-10)
     id: U169
   relation: eq
+  diff_states: true
 - battles_cwsac:
   - description: Yellow Tavern, VA (1864-05-11)
     id: VA052
@@ -1226,6 +1247,7 @@
   - description: Tupelo, Miss. (1864-7-13)
     id: U194
   relation: eq
+  diff_dates: true
 - battles_cwsac:
   - description: Rutherford's Farm, VA (1864-07-20)
     id: VA115
@@ -1284,6 +1306,8 @@
   - description: Smithfield, Va. (1864-8-29)
     id: U208
   relation: eq
+  diff_states: true
+  diff_dates: true
 - battles_cwsac:
   - description: Berryville, VA (1864-09-03 to 1864-09-04)
     id: VA118
@@ -1319,6 +1343,7 @@
   - description: Chaffin's Farm, Va. (1864-9-28)
     id: U214
   relation: eq
+  diff_dates: true
 - battles_cwsac:
   - description: Peebles' Farm, VA (1864-09-30 to 1864-10-02)
     id: VA074
@@ -1885,6 +1910,7 @@
   - description: Maryland Campaign, Md (1862-9-12 to 1862-9-20)
     id: C31
   relation: eq
+  diff_states: true
 - battles_cwsac:
   - description: Munfordville, KY (1862-09-14 to 1862-09-17)
     id: KY008
@@ -1908,6 +1934,7 @@
   - description: Corinth, Miss. (1862-10-3 to 1862-10-5)
     id: C34
   relation: eq
+  diff_states: true
 - battles_cwsac:
   - description: Perryville, KY (1862-10-08)
     id: KY009
@@ -2019,6 +2046,7 @@
   - description: Milliken's Bend, La. (1863-6-6)
     id: C52
   relation: eq
+  diff_date: true
 - battles_cwsac:
   - description: Brandy Station, VA (1863-06-09)
     id: VA035
@@ -2117,6 +2145,7 @@
   - description: Charleston Harbor, S. C. (1863-7-19 to 1863-9-6)
     id: C67
   relation: eq
+  diff_dates: true
 - battles_cwsac:
   - description: Chickamauga, GA (1863-09-18 to 1863-09-20)
     id: GA004
@@ -2145,6 +2174,7 @@
   - description: Wauhatchie, Tenn. (1863-10-27)
     id: C72
   relation: eq
+  diff_dates: true
 - battles_cwsac:
   - description: Droop Mountain, WV (1863-11-06)
     id: WV012
@@ -2152,6 +2182,7 @@
   - description: Droop Mountain, Va. (1863-11-6)
     id: C73
   relation: eq
+  diff_states: true
 - battles_cwsac:
   - description: Rappahannock Station II, VA (1863-11-07)
     id: VA043
@@ -2182,6 +2213,9 @@
   - description: Fort Sanders, Tenn. (1863-11-29)
     id: C79
   relation: eq
+  diff_dates: true
+  comment: >
+    Includes earlier losse in Knoxville
 - battles_cwsac:
   - description: Olustee, FL (1864-02-20)
     id: FL005

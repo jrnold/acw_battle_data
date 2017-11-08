@@ -116,21 +116,21 @@ Schema
 :Primary Key: ['battle_id']
 
 
-=====================  =======  =====================
-battle_id              string   Battle Id.
-belligerent            string   belligerent
-battle_name            string   Battle name
-start_date             date     start_date
-end_date               date     end_date
-state                  string   State
-killed                 integer  Killed
-wounded                integer  wounded
-missing                integer  missing
-casualties             integer  casualties
-aggregregates_battles  string   aggregregates_battles
-comment                string   comment
-from_footnote          boolean  from_footnote
-=====================  =======  =====================
+==================  =======  ==================
+battle_id           string   Battle Id.
+belligerent         string   belligerent
+battle_name         string   Battle name
+start_date          date     start_date
+end_date            date     end_date
+state               string   State
+killed              integer  Killed
+wounded             integer  wounded
+missing             integer  missing
+casualties          integer  casualties
+aggregates_battles  boolean  aggregates_battles
+comment             string   comment
+from_footnote       boolean  from_footnote
+==================  =======  ==================
 
 battle_id
 ---------
@@ -267,15 +267,15 @@ Number of casualties (killed, wounded, and missing)
 
 
        
-aggregregates_battles
----------------------
+aggregates_battles
+------------------
 
-:title: aggregregates_battles
-:type: string
+:title: aggregates_battles
+:type: boolean
 :format: default
 
 
-For observations that aggregate battles from a campaign, the IDs of those observations. The IDs are space separated.
+
 
 
        

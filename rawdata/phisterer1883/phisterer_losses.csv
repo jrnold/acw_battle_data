@@ -7,7 +7,7 @@ battle_id,start_date,end_date,surrender,battle_name,state,us_killed,us_wounded,u
 2267,1862-2-14,1862-2-16,0,"Fort Donelson, Tenn",TN,446,1735,150,2331,15067,213,0
 2268,1862-3-6,1862-3-8,0,"Pea Ridge, Ark",AR,203,972,174,1349,5200,213,0
 2269,1862-3-14,1862-3-14,0,"Newbern, N.C.",NC,91,466,,557,583,213,0
-2270,1862-3-23,1862-3-23,0,"Winchester, Tenn",TN,103,440,24,567,691,213,0
+2270,1862-3-23,1862-3-23,0,"Winchester, Va",VA,103,440,24,567,691,213,0,Original has "Winchester, Tenn", but this matches the First Battle of Kernstown in date and casualties.
 2271,1862-4-6,1862-4-7,0,"Shiloh, Tenn",TN,1735,7882,3956,13573,10699,213,0
 2272,1862-5-5,1862-5-5,0,"Williamsburg, Va",VA,456,1400,372,2228,1000,213,0
 2273,1862-5-23,1862-5-23,0,"Front Royal, Va",VA,32,122,750,904,,213,0
@@ -54,7 +54,7 @@ battle_id,start_date,end_date,surrender,battle_name,state,us_killed,us_wounded,u
 2314,1863-6-9,1863-6-9,0,"Beverly Ford and Brandy Station, Va.",VA,,,,500,700,215,0
 2315,1863-6-13,1863-6-15,0,"Winchester, Va.",VA,,,3000,3000,850,215,0
 2316,1863-6-23,1863-6-30,0,"Rosecrans' campaign from Murfreesboro to Tullahoma, Tenn.",TN,85,462,13,560,1634,215,1
-2317,1863-7-1,1863-7-3,0,"Gettysburg, Va.",VA,2834,13709,6643,23186,31621,215,0
+2317,1863-7-1,1863-7-3,0,"Gettysburg, Pa.",PA,2834,13709,6643,23186,31621,215,0
 2318,1863-7-9,1863-7-16,0,"Jackson, Miss",MS,100,800,100,1000,1339,215,0
 2319,1863-7-18,1863-7-18,0,"Second assault on Fort Wagner, S.C.",SC,,,,1500,174,215,0
 2320,1863-9-19,1863-9-20,0,"Chickamauga, Ga.",GA,1644,9262,4945,15851,17804,215,0
@@ -109,7 +109,7 @@ battle_id,start_date,end_date,surrender,battle_name,state,us_killed,us_wounded,u
 2369,1864-8-21,1864-8-21,0,"Summit Point, Va.",VA,,,,600,400,217,0
 2370,1864-8-25,1864-8-25,0,"Ream's Station, Va.",VA,127,546,1769,2442,1500,217,0
 2371,1864-8-31,1864-9-1,0,"Jonesboro, Ga.",GA,,1149,,1149,2000,217,0
-2372,1864-5-5,1864-9-8,0,"Campaign in Northern Georgia, from Chattanooga, Tenn., to Atlanta, Ga.",TN,5284,26129,5786,37199,,217,1
+2372,1864-5-5,1864-9-8,0,"Campaign in Northern Georgia, from Chattanooga, Tenn., to Atlanta, Ga.",GA,5284,26129,5786,37199,,217,1
 2373,1864-9-1,1864-10-30,0,"Trenches before Petersburg, Va.",VA,170,822,812,1804,1000,217,1
 2374,1864-9-19,1864-9-19,0,"Apequan, Winchester, Va.",VA,653,3719,618,4990,5500,217,0
 2375,1864-9-23,1864-9-23,0,"Athens, Ala.",AL,,,950,950,30,217,0
@@ -134,7 +134,7 @@ battle_id,start_date,end_date,surrender,battle_name,state,us_killed,us_wounded,u
 2394,1865-3-25,1865-3-25,0,"Fort Steadman, in front of Petersburg, Va.",VA,68,337,506,911,2681,218,0
 2395,1865-3-25,1865-3-25,0,"Petersburg, Va.",VA,103,864,209,1176,834,218,0
 2396,1865-3-26,1865-4-8,0,"Spanish Fort, Ala.",AL,100,695,,795,552,218,0
-2397,1865-3-22,1865-4-24,0,"Wilson's raid from Chickasaw, Ala., to Macon, Ga.; includes a number of engagements",GA,99,598,28,725,8020,218,1
+2397,1865-3-22,1865-4-24,0,"Wilson's raid from Chickasaw, Ala., to Macon, Ga.; includes a number of engagements",AL,99,598,28,725,8020,218,1
 2398,1865-3-31,1865-3-31,0,"Boydton and White Oak Roads, Va.",VA,177,1134,556,1867,1235,218,0
 2399,1865-4-1,1865-4-1,0,"Five Forks, Va.",VA,124,706,54,884,8500,218,0
 2400,1865-4-2,1865-4-2,0,"Fall of Petersburg, Va.",VA,296,2565,500,3361,3000,218,0
