@@ -973,10 +973,6 @@
     state:
     - VA
   battles_from:
-  - battle_id: 7269
-    battle_name: 'June 25-July 1: Battles of the Seven Days'' Retreat from before
-      Richmond'
-    year: '1862'
   - battle_id: 7281
     battle_name: 'June 27: Battle of Gaines Mill, Cold Harbor, Chickahominy'
     year: '1862'
@@ -1024,6 +1020,8 @@
     start_date: 1862-06-30
     state:
     - VA
+  comment: >
+    ONly the Battle of Glendale entry has casualty data.
   battles_from:
   - battle_id: 7298
     battle_name: 'June 30: Engagement, White Oak Swamp Bridge'
@@ -1271,6 +1269,8 @@
     battle_id: 9182
   - battle_name: "Sept. 13: Siege of Harper's Ferry"
     battle_id: 9185
+  comment: >
+    Only "Sept. 13: Siege of Harper's Ferry" has casualty data.
 - battles_cwsac:
   - battle_name: "Munfordville"
     cwsac_id: KY008
@@ -1299,6 +1299,9 @@
   - battle_id: 2964
     battle_name: 'Sept. 14: Battle of Crampton''s Gap, South Mountain.'
     year: '1862'
+  comment: >
+    Both "Sept. 14: Battle of South Mountain" and "Sept. 14: Battle of Crampton''s Gap, South Mountain."
+    and they have to be aggregated.
 - battles_cwsac:
   - battle_name: "Antietam"
     cwsac_id: MD003
@@ -1321,6 +1324,8 @@
     state:
     - WV
     - MD
+  comment: >
+    Only "Sept. 20: Action, Shepherdstown Ford" has casualties.
   battles_from:
   - battle_id: 9188
     battle_name: 'Sept. 20: Action, Shepherdstown Ford'
@@ -1703,6 +1708,9 @@
     start_date: 1863-03-13
     state:
     - NC
+  comment: >
+    Only "March 13-14: Skirmishes, Deep Gully, Newberne" has casualties
+    and it looks complete (~ 7 casualties matches CWSAC magnitude).
   battles_from:
     - battle_name: "March 13-14: Skirmishes, Deep Gully, New Berne"
       battle_id: 5052
@@ -2587,6 +2595,8 @@
     start_date: 1863-10-16
     state:
     - FL
+  comment: >
+    Neither of these has casualties.
   battles_from:
   - battle_id: 1221
     battle_name: "Oct. 17: Action, Tampa Bay"
@@ -2684,16 +2694,23 @@
     start_date: 1863-11-23
     state:
     - TN
+  comment: >
+    Only Campaign, Chattanooga and Ringgold has casualties.
   battles_from:
+  - battle_id: 6399
+    battle_name: Nov 23-27: Campaign, Chattanooga and Ringgold.
+  - battle_id: 6400
+    battle_name: Skirmish, Bushy Knob
+  - battle_id: 6401
+    battle_name: Engagement. Orchard Knob. Indian Hill.
+  - battle_id: 6402
+    battle_name: Skirmish, foot Missionary Ridge.
   - battle_id: 6405
     battle_name: 'Nov. 24-25: Assault and Capture of Lookout Mountain'
-    year: '1863'
   - battle_id: 6406
     battle_name: 'Nov. 24-25: Actions at Tunnel Hill, terminus of Missionary Ridge'
-    year: '1863'
   - battle_id: 6407
     battle_name: 'Nov. 24-25: Assault and Capture of Missionary Ridge'
-    year: '1863'
 - battles_cwsac:
   - battle_name: "Mine Run"
     cwsac_id: VA044
@@ -2763,6 +2780,9 @@
     start_date: 1864-01-17
     state:
     - TN
+  comment: >
+    Both "Jan. 16-17: Operations about Dandridge" and "Jan. 16-17: Skirmishes, Bend of Chucky Road, near Dandridge"
+    have casualties and are non-hierarchical.
   battles_from:
   - battle_id: 6523
     battle_name: 'Jan. 16-17: Operations about Dandridge'
@@ -3086,6 +3106,8 @@
     start_date: 1864-05-07
     state:
     - GA
+  comment: >
+    Only "May 8-11: Demonstration against Rocky Faced Ridge" has casualties.
   battles_from:
   - battle_id: 1449
     battle_name: "May 8: Combat, Dug Gap or Mill Creek"
@@ -3733,13 +3755,23 @@
     start_date: 1864-08-02
     state:
     - AL
+  comment: >
+    Only "Aug. 5: Battle of Forts Gaines and Morgan, Mobile Bay" has casualties.
   battles_from:
   - battle_id: 199
     battle_name: 'Aug. 2-23: Operations in Mobile Bay against Forts Gaines and Morgan'
-    year: '1864'
+  - battle_id: 200
+    battle_name: "Aug 2: Landing at Dauphin Island"
+  - battle_id: 201
+    battle_name: "Aug. 5: Battle of Forts Gaines and Morgan, Mobile Bay"
+  - battle_id: 202
+    battle_name: "Aug 3-9: Siege and Capture of Fort Gaines"
   - battle_id: 203
-    battle_name: 'Aug. 5-23: Sloge and Capture of Fort Morgan'
-    year: '1864'
+    battle_name: "Aug 5-23: Siege and Capture of Fort Morgan"
+  - battle_id: 204
+    battle_name: "Aug 5: Engagement. Fort Morgan"
+  - battle_id: 205
+    battle_name: "Evacuation of Fort Powell"
 - battles_cwsac:
   - battle_name: "Utoy Creek"
     cwsac_id: GA019
@@ -4542,9 +4574,8 @@
     state:
     - AL
   battles_from:
-  - battle_id: 282
-    battle_name: 'March 27-April 9: Siege and Capture of Spanish Fort and Fort Blakely'
-    year: '1865'
+  - battle_id: 9971
+    battle_name: 'March 27-April 9: Siege and Capture of Spanish Fort'
 - battles_cwsac:
   - battle_name: "Lewis's Farm"
     cwsac_id: VA085
@@ -4594,6 +4625,22 @@
   - battle_id: 8966
     battle_name: 'April 1: Battle of Five Forks'
     year: '1865'
+
+- battles_cwsac:
+  - battle_name: Spanish Fort
+    cwsac_id: AL005
+  - battle_name: Fort Blakely
+    cwsac_id: AL006
+
+  battles_from:
+  - battle_name: Mar 17-Apr 12: Campaign Against Mobile and its Defencesa
+    battle_id: 272
+
+  comment: >
+    This is included in addition to the entries for each of Spanish Fort
+    and Fort Blakely. The casualties for the total campaign are slightly
+    higher thn the sum of entries for the assaults on each fort.
+
 - battles_cwsac:
   - battle_name: "Fort Blakely"
     cwsac_id: AL006
@@ -4602,10 +4649,11 @@
     start_date: 1865-04-02
     state:
     - AL
+  comment: >
+    Casualties are split out in the text even though only entry is provided.
   battles_from:
-  - battle_id: 282
-    battle_name: 'March 27-April 9: Siege and Capture of Spanish Fort and Fort Blakely'
-    year: '1865'
+  - battle_id: 9972
+    battle_name: 'March 27-April 9:Capture of Fort Blakely'
 
 - battles_cwsac:
   - battle_name: "Selma"
@@ -4678,6 +4726,8 @@
     start_date: 1865-04-06
     state:
     - VA
+  comment: >
+    Only "Apr. 7: Engagement, High Bridge" has casualties.
   battles_from:
   - battle_name: "April 6: Action, High Bridge"
     battle_id: 9956

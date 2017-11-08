@@ -21,6 +21,8 @@ def _process_mapping(row):
         "diff_dates": "diff_dates" in row and row["diff_dates"],
         "diff_states": "diff_states" in row and row["diff_states"]
     }
+    if len(newdata['battles_from']) > 1:
+        print(newdata)
     try:
         newdata['relation'] = row['relation']
     except KeyError:
