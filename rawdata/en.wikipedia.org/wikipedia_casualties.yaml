@@ -1597,12 +1597,13 @@ Battle_of_Harpers_Ferry:
     CS:
       captured_missing: 0
       killed: 39
-      strength: 30000
+      strength_min: 21000
+      strength_max: 26000
       wounded: 247
     US:
       captured: 12419
       killed: 44
-      strength: 12000
+      strength: 14000
       wounded: 173
   cwsac_id: WV010
   rev_id: 802247651
