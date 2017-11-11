@@ -9,10 +9,7 @@ import yaml
 
 def build_engagements(src, dst):
     """Build Dyer engagement data."""
-    shutil.copy(
-        path.join(src, 'engagements.csv'),
-        path.join(dst, 'dyer_engagements.csv'))
-
+    pass
 
 def _process_mapping(row):
     newdata = {
