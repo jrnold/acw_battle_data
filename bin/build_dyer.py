@@ -1,6 +1,7 @@
 """Script to build all Dyer (1908) related data."""
+import csv
 import json
-import shutil
+import os
 import sys
 from os import path
 
@@ -9,7 +10,23 @@ import yaml
 
 def build_engagements(src, dst):
     """Build Dyer engagement data."""
-    pass
+    _FIELDNAMES = ("battle_id", "state", "start_date", "end_date",
+                   "nature_location", "troops_engaged", "event_type",
+                   "casualties", "killed_wounded", "killed", "wounded",
+                   "missing_captured")
+    srcdir = path.join(src, "engagements")
+    filelist = os.listdir(os.path.join(srcdir))
+    data = []
+    for basename in filelist:
+        if path.splitext(basename)[1] == '.yml':
+            filename = path.join(srcdir, basename)
+            with open(filename, "r") as fp:
+                data += yaml.load(fp)
+    with open(path.join(dst, "dyer_engagements.csv"), "w") as fp:
+        writer = csv.DictWriter(fp, _FIELDNAMES, extrasaction='ignore')
+        writer.writeheader()
+        writer.writerows(data)
+
 
 def _process_mapping(row):
     newdata = {

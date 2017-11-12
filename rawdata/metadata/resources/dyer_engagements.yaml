@@ -7,11 +7,6 @@ schema:
     name: battle_id
     title: battle_id
     type: integer
-  - description: 'Event type: action, skirmish, siege, etc'
-    format: default
-    name: event_type
-    title: Event type
-    type: string
   - constraints:
       pattern: '[A-Z]{2}'
     description: 'State in which the event occurred. This uses the standard two letter
@@ -34,10 +29,6 @@ schema:
     title: State
     type: string
   - format: default
-    name: battle_name
-    title: Battle Name
-    type: string
-  - format: default
     name: start_date
     title: Start Date
     type: date
@@ -45,10 +36,18 @@ schema:
     name: end_date
     title: End date
     type: date
-  - description: Original text of the engagement, including the Union forces involved.
+  - format: default
+    name: nature_location
+    title: nature_location
+    type: string
+  - format: default
+    name: troops_engaged
+    title: troops_engaged
+    type: string
+  - description: 'Event type: action, skirmish, siege, etc'
     format: default
-    name: text
-    title: Text
+    name: event_type
+    title: Event type
     type: string
   - constraints:
       minimum: 0
@@ -57,6 +56,13 @@ schema:
     name: casualties
     title: Casualties
     type: integer
+  - constraints:
+      minimum: 0
+    description: Union killed or wounded
+    format: default
+    name: killed_wounded
+    title: Killed or Wounded
+    type: number
   - constraints:
       minimum: 0
     description: Union killed
@@ -73,22 +79,11 @@ schema:
     type: integer
   - constraints:
       minimum: 0
-    description: Union killed or wounded
-    format: default
-    name: killed_wounded
-    title: Killed or Wounded
-    type: number
-  - constraints:
-      minimum: 0
     description: Union missing or captured
     format: default
     name: missing_captured
     title: Missing Captured
     type: number
-  - format: default
-    name: comment
-    title: comment
-    type: string
 sources:
 - DyerBattles
 - dyer1908_war_rebel

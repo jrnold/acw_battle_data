@@ -1,76 +1,40 @@
 states:
-- abbrev: AL
-  name: Alabama
-- abbrev: AR
-  name: Arkansas
-- abbrev: AZ
-  name: Arizona Territory
-- name: California
-  abbrev: CA
-- abbrev: CO
-  name: Colorado Territory
-- name: District of Columbia
-  abbrev: DC
-- name: Dakota Territories
-  abbrev: DT
-- abbrev: FL
-  name: Floria
-- abbrev: FRA
-  name: France
-- abbrev: GA
-  name: Georgia
-- name: Illinois
-  abbrev: IL
-- name: Indiana
-  abbrev: IN
-- name: Kansas
-  abbrev: KS
-- name: Kentucky
-  abbrev: KY
-- name: Louisiana
-  abbrev: LA
-- name: Maryland
-  abbrev: MD
-- name: Mississippi
-  abbrev: MS
-- name: Minnesota
-  abbrev: MN
-- abbrev: MO
-  name: Missouri
-- abbrev: MEX
-  name: Mexico
-- abbrev: NC
-  name: North Carolina
-- abbrev: NE
-  name: Nebraska Territory
-- abbrev: NM
-  name: New Mexico Territory
-- abbrev: NV
-  name: Nevada Territory
-- abbrev: NY
-  name: New York
-- abbrev: OH
-  name: Ohio
-- abbrev: OK
-  name: Indian Territory
-- abbrev: OR
-  name: Oregon Territory
-- abbrev: PA
-  name: Pennsylvania
-- name: South Carolina
-  abbrev: SC
-- abbrev: TN
-  name: Tennessee
-- abbrev: TX
-  name: Texas
-- abbrev: UT
-  name: Utah Territory
-- abbrev: VA
-  name: Virginia
-- abbrev: WA
-  name: Washington Territory
-- abbrev: WV
-  name: West Virginia
+  - 'Alabama'
+  - 'Arizona Territory'
+  - 'Arkansas'
+  - 'California'
+  - 'Colorado Territory'
+  - 'Dakota Territories'
+  - 'District of Columbia'
+  - 'Floria'
+  - 'France'
+  - 'Georgia'
+  - 'Illinois'
+  - 'Indian Territory'
+  - 'Indiana'
+  - 'Kansas'
+  - 'Kentucky'
+  - 'Louisiana'
+  - 'Maryland'
+  - 'Mexico'
+  - 'Minnesota'
+  - 'Mississippi'
+  - 'Missouri'
+  - 'Nebraska Territory'
+  - 'Nevada Territory'
+  - 'New Mexico Territory'
+  - 'New York'
+  - 'North Carolina'
+  - 'Ohio'
+  - 'Oregon Territory'
+  - 'Pennsylvania'
+  - 'South Carolina'
+  - 'Tennessee'
+  - 'Texas'
+  - 'Utah Territory'
+  - 'Virginia'
+  - 'Washington Territory'
+  - 'West Virginia'
 event_types:
 - Abandonment
 - Accident

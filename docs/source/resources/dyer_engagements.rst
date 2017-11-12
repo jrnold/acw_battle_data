@@ -34,18 +34,17 @@ Schema
 
 ================  =======  =================
 battle_id         integer  battle_id
-event_type        string   Event type
 state             string   State
-battle_name       string   Battle Name
 start_date        date     Start Date
 end_date          date     End date
-text              string   Text
+nature_location   string   nature_location
+troops_engaged    string   troops_engaged
+event_type        string   Event type
 casualties        integer  Casualties
+killed_wounded    number   Killed or Wounded
 killed            integer  Killed
 wounded           integer  Wounded
-killed_wounded    number   Killed or Wounded
 missing_captured  number   Missing Captured
-comment           string   comment
 ================  =======  =================
 
 battle_id
@@ -57,18 +56,6 @@ battle_id
 
 
 
-
-
-       
-event_type
-----------
-
-:title: Event type
-:type: string
-:format: default
-
-
-Event type: action, skirmish, siege, etc
 
 
        
@@ -89,18 +76,6 @@ with the following exceptions.
 - "OK": anachronistically used for the Indian Territory
 - "FR": France
 - "MX": Mexico
-
-
-
-       
-battle_name
------------
-
-:title: Battle Name
-:type: string
-:format: default
-
-
 
 
 
@@ -129,15 +104,39 @@ end_date
 
 
        
-text
-----
+nature_location
+---------------
 
-:title: Text
+:title: nature_location
 :type: string
 :format: default
 
 
-Original text of the engagement, including the Union forces involved.
+
+
+
+       
+troops_engaged
+--------------
+
+:title: troops_engaged
+:type: string
+:format: default
+
+
+
+
+
+       
+event_type
+----------
+
+:title: Event type
+:type: string
+:format: default
+
+
+Event type: action, skirmish, siege, etc
 
 
        
@@ -152,6 +151,20 @@ casualties
     
 
 Union casualties (killed, wounded, and missing or captured).
+
+
+       
+killed_wounded
+--------------
+
+:title: Killed or Wounded
+:type: number
+:format: default
+:constraints:
+    :minimum: 0
+    
+
+Union killed or wounded
 
 
        
@@ -183,20 +196,6 @@ Union wounded
 
 
        
-killed_wounded
---------------
-
-:title: Killed or Wounded
-:type: number
-:format: default
-:constraints:
-    :minimum: 0
-    
-
-Union killed or wounded
-
-
-       
 missing_captured
 ----------------
 
@@ -208,18 +207,6 @@ missing_captured
     
 
 Union missing or captured
-
-
-       
-comment
--------
-
-:title: comment
-:type: string
-:format: default
-
-
-
 
 
        
