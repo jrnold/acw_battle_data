@@ -4,9 +4,9 @@ path: data/dyer_engagements.csv
 schema:
   fields:
   - format: default
-    name: battle_id
-    title: battle_id
-    type: integer
+    name: slug
+    title: slug
+    type: string
   - constraints:
       pattern: '[A-Z]{2}'
     description: 'State in which the event occurred. This uses the standard two letter

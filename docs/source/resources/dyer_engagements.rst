@@ -33,7 +33,7 @@ Schema
 
 
 ================  =======  =================
-battle_id         integer  battle_id
+slug              string   slug
 state             string   State
 start_date        date     Start Date
 end_date          date     End date
@@ -47,11 +47,11 @@ wounded           integer  Wounded
 missing_captured  number   Missing Captured
 ================  =======  =================
 
-battle_id
----------
+slug
+----
 
-:title: battle_id
-:type: integer
+:title: slug
+:type: string
 :format: default
 
 
