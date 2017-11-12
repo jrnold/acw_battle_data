@@ -10,7 +10,7 @@ import yaml
 
 def build_engagements(src, dst):
     """Build Dyer engagement data."""
-    _FIELDNAMES = ("battle_id", "state", "start_date", "end_date",
+    _FIELDNAMES = ("slug", "state", "start_date", "end_date",
                    "nature_location", "troops_engaged", "event_type",
                    "casualties", "killed_wounded", "killed", "wounded",
                    "missing_captured")
@@ -30,7 +30,7 @@ def build_engagements(src, dst):
 
 def _process_mapping(row):
     newdata = {
-        "battles_from": [x['battle_id'] for x in row['battles_from']],
+        "battles_from": [x['slug'] for x in row['battles_from']],
         "battles_cwsac": [x['cwsac_id'] for x in row['battles_cwsac']],
         "diff_dates": "diff_dates" in row and row["diff_dates"],
         "diff_states": "diff_states" in row and row["diff_states"]

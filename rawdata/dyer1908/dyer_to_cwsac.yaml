@@ -1,3122 +1,1940 @@
 - battles_cwsac:
-  - battle_name: "Fort Sumter I"
+  - battle_name: Fort Sumter I
     cwsac_id: SC001
-    other_names: ''
   battles_from:
-  - battle_id: 5300
-    battle_name: 'April 12-14: Bombardment of Fort Sumpter, and surrender'
-    year: '1861'
+  - slug: South_Carolina/1861-04-12-1861-04-14-bombardment-of-fort-sumpter-and-surrender
 - battles_cwsac:
-  - battle_name: "Sewell's Point"
+  - battle_name: Sewell's Point
     cwsac_id: VA001
     end_date: 1861-05-19
-    other_names: ''
     start_date: 1861-05-18
-    state:
-    - VA
   battles_from:
-  - battle_id: 6980
-    battle_name: 'May 18-19: Engagement, Sewell''s Point'
-    year: '1861'
+  - slug: Virginia/1861-05-18-1861-05-19-engagement-sewell-s-point
 - battles_cwsac:
-  - battle_name: "Philippi"
+  - battle_name: Philippi
     cwsac_id: WV001
     end_date: 1861-06-03
     other_names: Philippi Races
     start_date: 1861-06-03
-    state:
-    - WV
   battles_from:
-  - battle_id: 8976
-    battle_name: 'June 3: Action, Phillippi'
-    year: '1861'
+  - slug: West_Virginia/1861-06-03-action-phillippi
 - battles_cwsac:
-  - battle_name: "Big Bethel"
+  - battle_name: Big Bethel
     cwsac_id: VA003
     end_date: 1861-06-10
     other_names: Bethel Church; Great Bethel
     start_date: 1861-06-10
-    state:
-    - VA
   battles_from:
-  - battle_id: 6987
-    battle_name: 'June 10: Engagement, Big Bethel, Bethel Church'
-    year: '1861'
+  - slug: Virginia/1861-06-10-engagement-big-bethel-bethel-church
 - battles_cwsac:
-  - battle_name: "Boonville"
+  - battle_name: Boonville
     cwsac_id: MO001
     end_date: 1861-06-17
     other_names: First Battle of Boonville
     start_date: 1861-06-17
-    state:
-    - MO
   battles_from:
-  - battle_id: 3843
-    battle_name: 'June 17: Engagement, Booneville'
-    year: '1861'
+  - slug: Missouri/1861-06-17-engagement-booneville
 - battles_cwsac:
-  - battle_name: "Hoke's Run"
+  - battle_name: Hoke's Run
     cwsac_id: WV002
     end_date: 1861-07-02
     other_names: Falling Waters; Hainesville
     start_date: 1861-07-02
-    state:
-    - WV
   battles_from:
-  - battle_id: 8984
-    battle_name: 'July 2: Action, Falling Water, Hoke''s Run'
-    year: '1861'
+  - slug: West_Virginia/1861-07-02-action-falling-water-hoke-s-run
 - battles_cwsac:
-  - battle_name: "Carthage"
+  - battle_name: Carthage
     cwsac_id: MO002
     end_date: 1861-07-05
-    other_names: ''
+
     start_date: 1861-07-05
-    state:
-    - MO
   battles_from:
-  - battle_id: 3848
-    battle_name: 'July 5: Engagement, Carthage, Dry Forks, Crooked Briar Fork'
-    year: '1861'
+  - slug: Missouri/1861-07-05-engagement-carthage-dry-forks-crooked-briar-fork
 - battles_cwsac:
-  - battle_name: "Rich Mountain"
+  - battle_name: Rich Mountain
     cwsac_id: WV003
     end_date: 1861-07-11
-    other_names: ''
+
     start_date: 1861-07-11
-    state:
-    - WV
   battles_from:
-  - battle_id: 8994
-    battle_name: 'July 11: Engagement, Camp Garnett, Rich Mountain'
-    year: '1861'
+  - slug: West_Virginia/1861-07-11-engagement-camp-garnett-rich-mountain
 - battles_cwsac:
-  - battle_name: "Blackburn's Ford"
+  - battle_name: Blackburn's Ford
     cwsac_id: VA004
     end_date: 1861-07-18
     other_names: Bull Run
     start_date: 1861-07-18
-    state:
-    - VA
   battles_from:
-  - battle_id: 7000
-    battle_name: 'July 18: Skirmish, Blackburn''s Ford, McLean''s Ford, Mitchell''s
-      Ford'
-    year: '1861'
+  - slug: Virginia/1861-07-18-skirmish-blackburn-s-ford-mclean-s-ford-mitchell-s-ford
 - battles_cwsac:
-  - battle_name: "Manassas I"
+  - battle_name: Manassas I
     cwsac_id: VA005
     end_date: 1861-07-21
     other_names: First Bull Run
     start_date: 1861-07-21
-    state:
-    - VA
   battles_from:
-  - battle_id: 7003
-    battle_name: 'July 21: Battle of Bull Run, Manassas'
-    year: '1861'
+  - slug: Virginia/1861-07-21-battle-of-bull-run-manassas
 - battles_cwsac:
-  - battle_name: "Wilson's Creek"
+  - battle_name: Wilson's Creek
     cwsac_id: MO004
     end_date: 1861-08-10
     other_names: Oak Hills
     start_date: 1861-08-10
-    state:
-    - MO
   battles_from:
-  - battle_id: 3876
-    battle_name: 'Aug. 10: Battle of Wilson''s Creek, Springfield, Oak Hill'
-    year: '1861'
+  - slug: Missouri/1861-08-10-battle-of-wilson-s-creek-springfield-oak-hill
 - battles_cwsac:
-  - battle_name: "Kessler's Cross Lanes"
+  - battle_name: Kessler's Cross Lanes
     cwsac_id: WV004
     end_date: 1861-08-26
     other_names: Cross Lanes
     start_date: 1861-08-26
-    state:
-    - WV
   battles_from:
-  - battle_id: 9011
-    battle_name: 'Aug. 26: Skirmish, Cross Lanes, near Summerville'
-    year: '1861'
+  - slug: West_Virginia/1861-08-26-skirmish-cross-lanes-near-summerville
 - battles_cwsac:
-  - battle_name: "Hatteras Inlet Batteries"
+  - battle_name: Hatteras Inlet Batteries
     cwsac_id: NC001
     end_date: 1861-08-29
     other_names: Forts Clark and Hatteras
     start_date: 1861-08-28
-    state:
-    - NC
   battles_from:
-  - battle_id: 4964
-    battle_name: 'Aug. 28-29: Capture of Forts Hatteras and Clark, Cape Hatteras Inlet'
-    year: '1861'
+  - slug: North_Carolina/1861-08-28-1861-08-29-capture-of-forts-hatteras-and-clark-cape-hatteras-inlet
 - battles_cwsac:
-  - battle_name: "Dry Wood Creek"
+  - battle_name: Dry Wood Creek
     cwsac_id: MO005
     end_date: 1861-09-02
     other_names: Big Dry Wood Creek; Battle of the Mules
     start_date: 1861-09-02
-    state:
-    - MO
   battles_from:
-  - battle_id: 3898
-    battle_name: 'Sept. 2: Action, Drywood Creek, Fort Scott'
-    year: '1861'
+  - slug: Missouri/1861-09-02-action-drywood-creek-fort-scott
 - battles_cwsac:
-  - battle_name: "Carnifex Ferry"
+  - battle_name: Carnifex Ferry
     cwsac_id: WV006
     end_date: 1861-09-10
-    other_names: ''
     start_date: 1861-09-10
-    state:
-    - WV
   battles_from:
-  - battle_id: 9025
-    battle_name: 'Sept. 10: Engagement, Carnifax Ferry, Gauley River'
-    year: '1861'
+  - slug: West_Virginia/1861-09-10-engagement-carnifax-ferry-gauley-river
 - battles_cwsac:
-  - battle_name: "Cheat Mountain"
+  - battle_name: Cheat Mountain
     cwsac_id: WV005
     end_date: 1861-09-15
     other_names: Cheat Mountain Summit
     start_date: 1861-09-12
-    state:
-    - WV
   battles_from:
-  - battle_id: 9028
-    battle_name: 'Sept. 11-17: Operations on Cheat Mountain'
-    year: '1861'
+  - slug: West_Virginia/1861-09-11-1861-09-17-operations-on-cheat-mountain
 - battles_cwsac:
-  - battle_name: "Lexington I"
+  - battle_name: Lexington I
     cwsac_id: MO006
     end_date: 1861-09-20
     other_names: Battle of the Hemp Bales
     start_date: 1861-09-13
-    state:
-    - MO
   battles_from:
-  - battle_id: 3910
-    battle_name: 'Sept. 13-20: Siege of Lexington'
-    year: '1861'
-  - battle_id: 3919
-    battle_name: 'Sept. 20: Surrender of Lexington'
-    year: '1861'
+  - slug: Missouri/1861-09-13-1861-09-20-siege-of-lexington
+  - slug: Missouri/1861-09-20-surrender-of-lexington
 - battles_cwsac:
-  - battle_name: "Liberty"
+  - battle_name: Liberty
     cwsac_id: MO003
     end_date: 1861-09-17
     other_names: Blue Mills Landing; Blue Mills
     start_date: 1861-09-17
-    state:
-    - MO
   battles_from:
-  - battle_id: 3915
-    battle_name: 'Sept. 17: Skirmish, Blue Mills Landing'
-    year: '1861'
+  - slug: Missouri/1861-09-17-skirmish-blue-mills-landing
 - battles_cwsac:
-  - battle_name: "Barbourville"
+  - battle_name: Barbourville
     cwsac_id: KY001
     end_date: 1861-09-19
-    other_names: ''
+
     start_date: 1861-09-19
-    state:
-    - KY
   battles_from:
-  - battle_id: 1902
-    battle_name: 'Sept. 19: Skirmish, Barboursville'
-    year: '1861'
+  - slug: Kentucky/1861-09-19-skirmish-barboursville
 - battles_cwsac:
-  - battle_name: "Greenbrier River"
+  - battle_name: Greenbrier River
     cwsac_id: WV007
     end_date: 1861-10-03
     other_names: Camp Bartow
     start_date: 1861-10-03
-    state:
-    - WV
   battles_from:
-  - battle_id: 9043
-    battle_name: 'Oct. 3-4: Engagement, Greenbrier River, Cheat Mountain'
-    year: '1861'
+  - slug: West_Virginia/1861-10-03-1861-10-04-engagement-greenbrier-river-cheat-mountain
 - battles_cwsac:
-  - battle_name: "Santa Rosa Island"
+  - battle_name: Santa Rosa Island
     cwsac_id: FL001
     end_date: 1861-10-09
-    other_names: ''
     start_date: 1861-10-09
-    state:
-    - FL
   battles_from:
-  - battle_id: 1186
-    battle_name: 'Oct. 9: Action Santa Rosa'
-    year: '1861'
+  - slug: Floria/1861-10-09-action-santa-rosa
 - battles_cwsac:
-  - battle_name: "Camp Wildcat"
+  - battle_name: Camp Wildcat
     cwsac_id: KY002
     end_date: 1861-10-21
     other_names: Wildcat Mountain
     start_date: 1861-10-21
-    state:
-    - KY
   battles_from:
-  - battle_id: 1914
-    battle_name: 'Oct. 21: Action, Rockcastle Hills or Camp Wild Cat'
-    year: '1861'
+  - slug: Kentucky/1861-10-21-action-rockcastle-hills-or-camp-wild-cat
 - battles_cwsac:
-  - battle_name: "Ball's Bluff"
+  - battle_name: Ball's Bluff
     cwsac_id: VA006
     end_date: 1861-10-21
     other_names: Harrison's Landing; Leesburg
     start_date: 1861-10-21
-    state:
-    - MD
-    - VA
   battles_from:
-  - battle_id: 7032
-    battle_name: 'Oct. 21: Engagement, Ball''s Bluff, Leesburg, Harrison''s Island,
-      Conrad''s Ferry'
-    year: '1861'
+  - slug: Virginia/1861-10-21-engagement-ball-s-bluff-leesburg-harrison-s-island-conrad-s-ferry
 - battles_cwsac:
-  - battle_name: "Fredericktown"
+  - battle_name: Fredericktown
     cwsac_id: MO007
     end_date: 1861-10-21
-    other_names: ''
     start_date: 1861-10-21
-    state:
-    - MO
   battles_from:
-  - battle_id: 3946
-    battle_name: 'Oct. 21: Action, Fredericktown, Ironton'
-    year: '1861'
+  - slug: Missouri/1861-10-21-action-fredericktown-ironton
 - battles_cwsac:
-  - battle_name: "Springfield I"
+  - battle_name: Springfield I
     cwsac_id: MO008
     end_date: 1861-10-25
     other_names: Zagonyi's Charge
     start_date: 1861-10-25
-    state:
-    - MO
   battles_from:
-  - battle_id: 3948
-    battle_name: 'Oct. 25: Skirmish, Springfield'
-    year: '1861'
+  - slug: Missouri/1861-10-25-skirmish-springfield
 - battles_cwsac:
-  - battle_name: "Belmont"
+  - battle_name: Belmont
     cwsac_id: MO009
     end_date: 1861-11-07
-    other_names: ''
-    start_date: 1861-11-07
-    state:
-    - MO
-    - KY
+  start_date: 1861-11-07
   battles_from:
-  - battle_id: 3955
-    battle_name: 'Nov. 7: Engagement, Belmont'
-    year: '1861'
+  - slug: Missouri/1861-11-07-engagement-belmont
 - battles_cwsac:
-  - battle_name: "Ivy Mountain"
+  - battle_name: Ivy Mountain
     cwsac_id: KY003
     end_date: 1861-11-09
     other_names: Ivy Creek; Ivy Narrows
     start_date: 1861-11-08
-    state:
-    - KY
   battles_from:
-  - battle_id: 1923
-    battle_name: 'Nov. 7-9: Demonstration on Columbus from Paducah'
-    year: '1861'
-  - battle_id: 1925
-    battle_name: 'Nov. 9: Action, Piketown'
-    year: '1861'
+  - slug: Kentucky/1861-11-07-1861-11-09-demonstration-on-columbus-from-paducah
+  - slug: Kentucky/1861-11-09-action-piketown
 - battles_cwsac:
-  - battle_name: "Round Mountain"
+  - battle_name: Round Mountain
     cwsac_id: OK001
     end_date: 1861-11-19
     other_names: Round Mountains
     start_date: 1861-11-19
-    state:
-    - OK
   battles_from:
-  - battle_id: 9680
-    battle_name: "Nov. 19: Engagement, Round Mountain"
+  - slug: Indian_Territory/1861-11-19-engagement-round-mountain
 - battles_cwsac:
-  - battle_name: "Chusto-Talasah"
+  - battle_name: Chusto-Talasah
     cwsac_id: OK002
     end_date: 1861-12-09
     other_names: Caving Banks
     start_date: 1861-12-09
-    state:
-    - OK
   battles_from:
-  - battle_id: 9681
-    battle_name: "Dec. 9: Engagement, Chusto Talasah."
+  - slug: Indian_Territory/1861-12-09-engagement-chusto-talasah
 - battles_cwsac:
-  - battle_name: "Camp Allegheny"
+  - battle_name: Camp Allegheny
     cwsac_id: WV008
     end_date: 1861-12-13
     other_names: Allegheny Mountain
     start_date: 1861-12-13
-    state:
-    - WV
   battles_from:
-  - battle_id: 9069
-    battle_name: 'Dec. 13: Engagement, Camp Allegheny, Allegheny Mountain, Buffalo
-      Mountain'
-    year: '1861'
+  - slug: West_Virginia/1861-12-13-engagement-camp-allegheny-allegheny-mountain-buffalo-mountain
 - battles_cwsac:
-  - battle_name: "Rowlett's Station"
+  - battle_name: Rowlett's Station
     cwsac_id: KY004
     end_date: 1861-12-17
     other_names: Woodsonville; Green River
     start_date: 1861-12-17
-    state:
-    - KY
   battles_from:
-  - battle_id: 1938
-    battle_name: 'Dec. 17: Action, Rowlett''s Station'
-    year: '1861'
+  - slug: Kentucky/1861-12-17-action-rowlett-s-station
 - battles_cwsac:
-  - battle_name: "Dranesville"
+  - battle_name: Dranesville
     cwsac_id: VA007
     end_date: 1861-12-20
-    other_names: ''
     start_date: 1861-12-20
-    state:
-    - VA
   battles_from:
-  - battle_id: 7054
-    battle_name: 'Dec. 20: Engagement, Dranesville'
-    year: '1861'
+  - slug: Virginia/1861-12-20-engagement-dranesville
 - battles_cwsac:
-  - battle_name: "Chustenahlah"
+  - battle_name: Chustenahlah
     cwsac_id: OK003
     end_date: 1861-12-26
-    other_names: ''
     start_date: 1861-12-26
-    state:
-    - OK
   battles_from:
-  - battle_id: 9682
-    battle_name: "Dec. 26: Engagement, Chustenalah"
+  - slug: Indian_Territory/1861-12-26-engagement-chustenalah
 - battles_cwsac:
-  - battle_name: "Mount Zion Church"
+  - battle_name: Mount Zion Church
     cwsac_id: MO010
     end_date: 1861-12-28
-    other_names: ''
     start_date: 1861-12-28
-    state:
-    - MO
   battles_from:
-  - battle_id: 3988
-    battle_name: 'Dec. 28: Action, Mount Zion Church'
-    year: '1861'
+  - slug: Missouri/1861-12-28-action-mount-zion-church
 - battles_cwsac:
-  - battle_name: "Cockpit Point"
+  - battle_name: Cockpit Point
     cwsac_id: VA100
     end_date: 1862-01-03
     other_names: Batteries at Evansport; Freestone Point; Shipping Point
     start_date: 1862-01-03
-    state:
-    - MD
-    - VA
   battles_from: []
-  comment: >
-    Not in Dyer.
+  comment: 'Not in Dyer'
 - battles_cwsac:
-  - battle_name: "Hancock"
+  - battle_name: Hancock
     cwsac_id: MD001
     end_date: 1862-01-06
     other_names: Romney Campaign
     start_date: 1862-01-05
-    state:
-    - WV
-    - MD
-  diff_states: True
   battles_from:
-  - battle_id: 2937
-    battle_name: "Jan 5: Bombardment of Hancock"
-  - battle_id: 9080
-    battle_name: 'Jan. 6-7: Expedition to Blue''s Gap'
+  - slug: Maryland/1862-01-05-bombardment-of-hancock
+  - slug: West_Virginia/1862-01-06-1862-01-07-expedition-to-blue-s-gap
+  diff_states: true
 - battles_cwsac:
-  - battle_name: "Roan's Tan Yard"
+  - battle_name: Roan's Tan Yard
     cwsac_id: MO011
     end_date: 1862-01-08
     other_names: Silver Creek
     start_date: 1862-01-08
-    state:
-    - MO
   battles_from:
-  - battle_id: 3994
-    battle_name: 'Jan. 8: Action, Roan''s Tan Yard, Silver Creek'
-    year: '1862'
+  - slug: Missouri/1862-01-08-action-roan-s-tan-yard-silver-creek
 - battles_cwsac:
-  - battle_name: "Middle Creek"
+  - battle_name: Middle Creek
     cwsac_id: KY005
     end_date: 1862-01-10
-    other_names: ''
     start_date: 1862-01-10
-    state:
-    - KY
   battles_from:
-  - battle_id: 1947
-    battle_name: 'Jan. 10: Engagement, Middle Creek near Prestonburg'
-    year: '1862'
+  - slug: Kentucky/1862-01-10-engagement-middle-creek-near-prestonburg
 - battles_cwsac:
-  - battle_name: "Mill Springs"
+  - battle_name: Mill Springs
     cwsac_id: KY006
     end_date: 1862-01-19
     other_names: Logan's Cross-Roads; Fishing Creek
     start_date: 1862-01-19
-    state:
-    - KY
   battles_from:
-  - battle_id: 1951
-    battle_name: 'Jan. 19: Engagement, Logan''s Cross Roads, Mill Springs, on Fishing
-      Creek'
-    year: '1862'
+  - slug: Kentucky/1862-01-19-engagement-logan-s-cross-roads-mill-springs-on-fishing-creek
 - battles_cwsac:
-  - battle_name: "Fort Henry"
+  - battle_name: Fort Henry
     cwsac_id: TN001
     end_date: 1862-02-06
-    other_names: ''
     start_date: 1862-02-06
-    state:
-    - KY
-    - TN
   battles_from:
-  - battle_id: 5517
-    battle_name: 'Feb. 2-6: Operations against Fort Henry'
-    year: '1862'
-  - battle_id: 5518
-    battle_name: 'Feb. 6: Capture of Fort Henry'
-    year: '1862'
+  - slug: Tennessee/1862-02-02-1862-02-06-operations-against-fort-henry
+  - slug: Tennessee/1862-02-06-capture-of-fort-henry
 - battles_cwsac:
-  - battle_name: "Roanoke Island"
+  - battle_name: Roanoke Island
     cwsac_id: NC002
     end_date: 1862-02-08
     other_names: Fort Huger
     start_date: 1862-02-07
-    state:
-    - NC
   battles_from:
-  - battle_id: 4966
-    battle_name: 'Feb. 8: Battle, Roanoke Island'
-    year: '1862'
+  - slug: North_Carolina/1862-02-08-battle-roanoke-island
 - battles_cwsac:
-  - battle_name: "Fort Donelson"
+  - battle_name: Fort Donelson
     cwsac_id: TN002
     end_date: 1862-02-16
-    other_names: ''
     start_date: 1862-02-12
-    state:
-    - TN
   battles_from:
-  - battle_id: 5519
-    battle_name: 'Feb. 12-16: Investment, Battles and Capture, Fort Donelson'
-    year: '1862'
+  - slug: Tennessee/1862-02-12-1862-02-16-investment-battles-and-capture-fort-donelson
 - battles_cwsac:
-  - battle_name: "Valverde"
+  - battle_name: Valverde
     cwsac_id: NM001
     end_date: 1862-02-21
-    other_names: ''
     start_date: 1862-02-20
-    state:
-    - NM
   battles_from:
-  - battle_id: 9821
+  - slug: New_Mexico_Territory/1862-02-21-engagement-valverde
 - battles_cwsac:
-  - battle_name: "New Madrid/Island No. 10"
+  - battle_name: New Madrid/Island No. 10
     cwsac_id: MO012
     end_date: 1862-04-08
-    other_names: ''
     start_date: 1862-02-28
-    state:
-    - MO
-    - KY
-    - TN
-  diff_states: True
   battles_from:
-  # Missouri
-  - battle_id: 4019
-    battle_name: 'Feb. 28-April 8: Operations about New Madrid and Island No. 10'
-  - battle_name: "Mar 2: Skirmish, New Madrid"
-    battle_id: 4021
-  - battle_name: "Mar 3-4: Engagement, New Madrid"
-    battle_id: 4022
-  - battle_name: "Mar 5: Action, New Madrid"
-    battle_id: 4024
-  - battle_name: "Mar 6: Action, New Madrid"
-    battle_id: 4025
-  - battle_name: "Mar 11: Skirmish, New Madrid"
-    battle_id: 4035
-  - battle_name: "Mar 12: Skirmish, New Madrid"
-    battle_id: 4036
-  - battle_name: "Mar 13: Skirmish, New Madrid"
-    battle_id: 4037
-  - battle_name: "Mar 14: Action and Capture New Madrid"
-    battle_id: 4038
-  # Tennessee
-  - battle_id: 5533
-    battle_name: 'March 15-April 8: Siege and Capture, Island No. Ten'
-  - battle_name: "March 15-16: Action. Island No. Ten"
-    battle_id: 5534
-  - battle_name: "March 25: Action, Island No. Ten"
-    battle_id: 5540
-  - battle_name: "April 6: Action. Island No. Ten"
-    battle_id: 5553
-  - battle_id: 5557
-    battle_name: 'April 8: Action and Capture Tiptonville (Island No. Ten)'
-
+  - slug: Missouri/1862-02-28-1862-04-08-operations-about-new-madrid-and-island-no-10
+  - slug: Missouri/1862-03-02-skirmish-new-madrid
+  - slug: Missouri/1862-03-03-1862-03-04-engagement-new-madrid
+  - slug: Missouri/1862-03-05-action-new-madrid
+  - slug: Missouri/1862-03-06-action-new-madrid
+  - slug: Missouri/1862-03-11-skirmish-new-madrid
+  - slug: Missouri/1862-03-12-skirmish-new-madrid
+  - slug: Missouri/1862-03-13-skirmish-new-madrid
+  - slug: Missouri/1862-03-14-action-and-capture-new-madrid
+  - slug: Tennessee/1862-03-15-1862-04-08-siege-and-capture-island-no-ten
+  - slug: Tennessee/1862-03-15-1862-03-16-action-island-no-ten
+  - slug: Tennessee/1862-03-25-action-island-no-ten
+  - slug: Tennessee/1862-04-06-action-island-no-ten
+  - slug: Tennessee/1862-04-08-action-and-capture-tiptonville-island-no-ten
+  diff_states: true
 - battles_cwsac:
-  - battle_name: "Pea Ridge"
+  - battle_name: Pea Ridge
     cwsac_id: AR001
     end_date: 1862-03-08
     other_names: Elkhorn Tavern
     start_date: 1862-03-06
-    state:
-    - AR
   battles_from:
-  - battle_id: 341
-    battle_name: 'March 6-8: Battles, Pea Ridge, Bentonville, Leetown and Elkhorn
-      Tavern'
-    year: '1862'
+  - slug: Arkansas/1862-03-06-1862-03-08-battles-pea-ridge-bentonville-leetown-and-elkhorn-tavern
 - battles_cwsac:
-  - battle_name: "Hampton Roads"
+  - battle_name: Hampton Roads
     cwsac_id: VA008
     end_date: 1862-03-09
     other_names: Monitor vs. Virginia (Merrimack); Battle of the Ironclads
     start_date: 1862-03-08
-    state:
-    - VA
   battles_from:
-  - battle_id: 7072
-    battle_name: 'March 8-9: Action, Hampton Roads'
-    year: '1862'
+  - slug: Virginia/1862-03-08-1862-03-09-action-hampton-roads
 - battles_cwsac:
-  - battle_name: "New Berne"
+  - battle_name: New Berne
     cwsac_id: NC003
     end_date: 1862-03-14
-    other_names: ''
     start_date: 1862-03-14
-    state:
-    - NC
   battles_from:
-  - battle_id: 4972
-    battle_name: 'March 14: Battle, Newberne'
-    year: '1862'
+  - slug: North_Carolina/1862-03-14-battle-newberne
 - battles_cwsac:
-  - battle_name: "Fort Macon"
+  - battle_name: Fort Macon
     cwsac_id: NC004
     end_date: 1862-04-26
-    other_names: ''
     start_date: 1862-03-23
-    state:
-    - NC
   battles_from:
-  - battle_id: 4974
-    battle_name: 'March 23-April 26: Siege of Fort Macon'
-    year: '1862'
-  - battle_id: 4984
-    battle_name: 'April 25-26: Bombardment and Capture, Fort Macon'
-    year: '1862'
+  - slug: North_Carolina/1862-03-23-1862-04-26-siege-of-fort-macon
+  - slug: North_Carolina/1862-04-25-1862-04-26-bombardment-and-capture-fort-macon
 - battles_cwsac:
-  - battle_name: "Kernstown I"
+  - battle_name: Kernstown I
     cwsac_id: VA101
     end_date: 1862-03-23
-    other_names: ''
     start_date: 1862-03-23
-    state:
-    - VA
   battles_from:
-  - battle_id: 7084
-    battle_name: 'March 23: Battle of Winchester'
-    year: '1862'
+  - slug: Virginia/1862-03-23-battle-of-winchester
 - battles_cwsac:
-  - battle_name: "Glorieta Pass"
+  - battle_name: Glorieta Pass
     cwsac_id: NM002
     end_date: 1862-03-28
     other_names: La Glorieta Pass
     start_date: 1862-03-26
-    state:
-    - NM
   battles_from:
-  - battle_id: 9824
-    battle_name: "March 26: Skirmish, Apache Canon, near Santa Fe"
-  - battle_id: 9825
-    battle_name: "March 28: Engagement, Glorietta, or Pigeon Ranch"
+  - slug: New_Mexico_Territory/1862-03-26-skirmish-apache-canon-near-santa-fe
+  - slug: New_Mexico_Territory/1862-03-28-engagement-glorietta-or-pigeon-ranch
 - battles_cwsac:
-  - battle_name: "Yorktown"
+  - battle_name: Yorktown
     cwsac_id: VA009
     end_date: 1862-05-04
-    other_names: ''
     start_date: 1862-04-05
-    state:
-    - VA
   battles_from:
-  - battle_id: 7104
-    battle_name: 'April 5-May 4: Siege of Yorktown'
-    year: '1862'
+  - slug: Virginia/1862-04-05-1862-05-04-siege-of-yorktown
 - battles_cwsac:
-  - battle_name: "Shiloh"
+  - battle_name: Shiloh
     cwsac_id: TN003
     end_date: 1862-04-07
     other_names: Pittsburg Landing
     start_date: 1862-04-06
-    state:
-    - TN
   battles_from:
-  - battle_id: 5554
-    battle_name: 'April 6-7: Battle of Pittsburg Landing or Shiloh'
-    year: '1862'
+  - slug: Tennessee/1862-04-06-1862-04-07-battle-of-pittsburg-landing-or-shiloh
 - battles_cwsac:
-  - battle_name: "Fort Pulaski"
+  - battle_name: Fort Pulaski
     cwsac_id: GA001
     end_date: 1862-04-11
-    other_names: ''
     start_date: 1862-04-10
-    state:
-    - SC
-    - GA
   battles_from:
-  - battle_id: 1342
-    battle_name: 'April 10-11: Bombardment and capture Fort Pulaski'
-    year: '1862'
+  - slug: Georgia/1862-04-10-1862-04-11-bombardment-and-capture-fort-pulaski
 - battles_cwsac:
-  - battle_name: "Forts Jackson and Saint Philip"
+  - battle_name: Forts Jackson and Saint Philip
     cwsac_id: LA001
     end_date: 1862-04-28
-    other_names: ''
+
     start_date: 1862-04-18
-    state:
-    - LA
   battles_from:
-  - battle_id: 2379
-    battle_name: 'April 28: Occupation of Fort St. Phillip'
-    year: '1862'
-  - battle_id: 2380
-    battle_name: 'April 28: Occupation of Fort Jackson'
-    year: '1862'
+  - slug: Louisiana/1862-04-28-occupation-of-fort-st-phillip
+  - slug: Louisiana/1862-04-28-occupation-of-fort-jackson
 - battles_cwsac:
-  - battle_name: "South Mills"
+  - battle_name: South Mills
     cwsac_id: NC005
     end_date: 1862-04-19
     other_names: Camden
     start_date: 1862-04-19
-    state:
-    - NC
   battles_from:
-  - battle_id: 4982
-    battle_name: 'April 19: Engagement, South Mills, Camden County'
-    year: '1862'
+  - slug: North_Carolina/1862-04-19-engagement-south-mills-camden-county
 - battles_cwsac:
-  - battle_name: "New Orleans"
+  - battle_name: New Orleans
     cwsac_id: LA002
     end_date: 1862-05-01
-    other_names: ''
     start_date: 1862-04-25
-    state:
-    - LA
   battles_from:
-  - battle_id: 2381
-    battle_name: 'May 1: Occupation of New Orleans'
-    year: '1862'
+  - slug: Louisiana/1862-05-01-occupation-of-new-orleans
 - battles_cwsac:
-  - battle_name: "Corinth I"
+  - battle_name: Corinth I
     cwsac_id: MS016
     end_date: 1862-05-30
-    other_names: ''
     start_date: 1862-04-29
-    state:
-    - MS
-    - TN
   battles_from:
-  - battle_id: 3120
-    battle_name: "April 29-May 30: Advance on and siege of Corinth"
+  - slug: Mississippi/1862-04-29-1862-05-30-advance-on-and-siege-of-corinth
 - battles_cwsac:
-  - battle_name: "Williamsburg"
+  - battle_name: Williamsburg
     cwsac_id: VA010
     end_date: 1862-05-05
     other_names: Fort Magruder
     start_date: 1862-05-05
-    state:
-    - VA
   battles_from:
-  - battle_id: 7141
-    battle_name: 'May 5: Battle of Williamsburg'
-    year: '1862'
+  - slug: Virginia/1862-05-05-battle-of-williamsburg
 - battles_cwsac:
-  - battle_name: "Eltham's Landing"
+  - battle_name: Eltham's Landing
     cwsac_id: VA011
     end_date: 1862-05-07
     other_names: Barhamsville; West Point
     start_date: 1862-05-07
-    state:
-    - VA
   battles_from:
-  - battle_id: 7148
-    battle_name: 'May 7: Engagement, West Point'
-    year: '1862'
+  - slug: Virginia/1862-05-07-engagement-west-point
 - battles_cwsac:
-  - battle_name: "McDowell"
+  - battle_name: McDowell
     cwsac_id: VA102
     end_date: 1862-05-08
     other_names: Sitlington's Hill
     start_date: 1862-05-08
-    state:
-    - VA
   battles_from:
-  - battle_id: 7150
-    battle_name: 'May 8: Engagement, McDowell, Bull Pasture Mt'
-    year: '1862'
+  - slug: Virginia/1862-05-08-engagement-mcdowell-bull-pasture-mt
 - battles_cwsac:
-  - battle_name: "Drewry's Bluff"
+  - battle_name: Drewry's Bluff
     cwsac_id: VA012
     end_date: 1862-05-15
     other_names: Fort Darling; Fort Drewry
     start_date: 1862-05-15
-    state:
-    - VA
   battles_from:
-  - battle_id: 7165
-    battle_name: 'May 15: Engagement, Fort Darling, James River'
-    year: '1862'
+  - slug: Virginia/1862-05-15-engagement-fort-darling-james-river
 - battles_cwsac:
-  - battle_name: "Princeton Court House"
+  - battle_name: Princeton Court House
     cwsac_id: WV009
     end_date: 1862-05-17
     other_names: Princton Court House; WV
     start_date: 1862-05-15
-    state:
-    - WV
   battles_from:
-  - battle_id: 9120
-    battle_name: 'May 15-17: Skirmishes at and near Princeton'
-    year: '1862'
+  - slug: West_Virginia/1862-05-15-1862-05-17-skirmishes-at-and-near-princeton
 - battles_cwsac:
-  - battle_name: "Front Royal"
+  - battle_name: Front Royal
     cwsac_id: VA103
     end_date: 1862-05-23
     other_names: Guard Hill; Cedarville
     start_date: 1862-05-23
-    state:
-    - VA
   battles_from:
-  - battle_id: 7183
-    battle_name: 'May 23: Action, Front Royal'
-    year: '1862'
+  - slug: Virginia/1862-05-23-action-front-royal
 - battles_cwsac:
-  - battle_name: "Winchester I"
+  - battle_name: Winchester I
     cwsac_id: VA104
     end_date: 1862-05-25
     other_names: Bowers Hill
     start_date: 1862-05-25
-    state:
-    - VA
   battles_from:
-  - battle_id: 7196
-    battle_name: 'May 25: Engagement, Winchester'
-    year: '1862'
+  - slug: Virginia/1862-05-25-engagement-winchester
 - battles_cwsac:
-  - battle_name: "Hanover Court House"
+  - battle_name: Hanover Court House
     cwsac_id: VA013
     end_date: 1862-05-27
     other_names: Slash Church
     start_date: 1862-05-27
-    state:
-    - VA
   battles_from:
-  - battle_id: 7202
-    battle_name: 'May 27: Engagement, Hanover Court House, Slash Church or Kinney''s
-      Farm'
-    year: '1862'
+  - slug: Virginia/1862-05-27-engagement-hanover-court-house-slash-church-or-kinney-s-farm
 - battles_cwsac:
-  - battle_name: "Seven Pines"
+  - battle_name: Seven Pines
     cwsac_id: VA014
     end_date: 1862-06-01
     other_names: Fair Oaks; Fair Oaks Station
     start_date: 1862-05-31
-    state:
-    - VA
   battles_from:
-  - battle_id: 7212
-    battle_name: 'May 31-June 1: Battle of Seven Pines or Fair Oaks'
-    year: '1862'
+  - slug: Virginia/1862-05-31-1862-06-01-battle-of-seven-pines-or-fair-oaks
 - battles_cwsac:
-  - battle_name: "Tranter's Creek"
+  - battle_name: Tranter's Creek
     cwsac_id: NC006
     end_date: 1862-06-05
-    other_names: ''
     start_date: 1862-06-05
-    state:
-    - NC
   battles_from:
-  - battle_id: 4996
-    battle_name: 'June 5: Action, Tranter''s Creek'
-    year: '1862'
+  - slug: North_Carolina/1862-06-05-action-tranter-s-creek
 - battles_cwsac:
-  - battle_name: "Memphis I"
+  - battle_name: Memphis I
     cwsac_id: TN004
     end_date: 1862-06-06
-    other_names: ''
     start_date: 1862-06-06
-    state:
-    - AR
-    - TN
   battles_from:
-  - battle_id: 5593
-    battle_name: 'June 6: Battle of Memphis'
-    year: '1862'
+  - slug: Tennessee/1862-06-06-battle-of-memphis
 - battles_cwsac:
-  - battle_name: "Chattanooga I"
+  - battle_name: Chattanooga I
     cwsac_id: TN005
     end_date: 1862-06-08
-    other_names: ''
     start_date: 1862-06-07
-    state:
-    - TN
   battles_from:
-  - battle_id: 5597
-    battle_name: 'June 8: Skirmish, Chattanooga'
-    year: '1862'
+  - slug: Tennessee/1862-06-08-skirmish-chattanooga
 - battles_cwsac:
-  - battle_name: "Cross Keys"
+  - battle_name: Cross Keys
     cwsac_id: VA105
     end_date: 1862-06-08
-    other_names: ''
     start_date: 1862-06-08
-    state:
-    - VA
   battles_from:
-  - battle_id: 7235
-    battle_name: 'June 8: Battle of Cross Keys'
-    year: '1862'
+  - slug: Virginia/1862-06-08-battle-of-cross-keys
 - battles_cwsac:
-  - battle_name: "Port Republic"
+  - battle_name: Port Republic
     cwsac_id: VA106
     end_date: 1862-06-09
-    other_names: ''
+
     start_date: 1862-06-09
-    state:
-    - VA
   battles_from:
-  - battle_id: 7237
-    battle_name: 'June 8-9: Engagement, Port Republic'
-    year: '1862'
+  - slug: Virginia/1862-06-08-1862-06-09-engagement-port-republic
 - battles_cwsac:
-  - battle_name: "Secessionville"
+  - battle_name: Secessionville
     cwsac_id: SC002
     end_date: 1862-06-16
     other_names: Ft. Lamar; James Island
     start_date: 1862-06-16
-    state:
-    - SC
   battles_from:
-  - battle_id: 5339
-    battle_name: 'June 16: Engagement, Secessionville, Fort Johnson, James Island'
-    year: '1862'
+  - slug: South_Carolina/1862-06-16-engagement-secessionville-fort-johnson-james-island
 - battles_cwsac:
-  - battle_name: "Saint Charles"
+  - battle_name: Saint Charles
     cwsac_id: AR002
     end_date: 1862-06-17
-    other_names: ''
     start_date: 1862-06-17
-    state:
-    - AR
   battles_from:
-  - battle_id: 370
-    battle_name: 'June 17: Engagement, St. Charles, White River'
-    year: '1862'
+  - slug: Arkansas/1862-06-17-engagement-st-charles-white-river
 - battles_cwsac:
-  - battle_name: "Simmon's Bluff"
+  - battle_name: Simmon's Bluff
     cwsac_id: SC003
     end_date: 1862-06-21
-    other_names: ''
     start_date: 1862-06-21
-    state:
-    - SC
   battles_from:
-  - battle_id: 5340
-    battle_name: 'June 21: Engagement, Simmons'' Bluff'
-    year: '1862'
+  - slug: South_Carolina/1862-06-21-engagement-simmons-bluff
 - battles_cwsac:
-  - battle_name: "Oak Grove"
+  - battle_name: Oak Grove
     cwsac_id: VA015
     end_date: 1862-06-25
     other_names: French's Field; King's School House
     start_date: 1862-06-25
-    state:
-    - VA
   battles_from:
-  - battle_id: 7270
-    battle_name: 'June 25: Engagement, Oak Grove, King''s School House, French''s
-      Field, "The Orchards".'
-    year: '1862'
+  - slug: Virginia/1862-06-25-engagement-oak-grove-king-s-school-house-french-s-field-the-orchards
 - battles_cwsac:
-  - battle_name: "Beaver Dam Creek"
+  - battle_name: Beaver Dam Creek
     cwsac_id: VA016
     end_date: 1862-06-26
     other_names: Mechanicsville; Ellerson's Mill
     start_date: 1862-06-26
-    state:
-    - VA
   battles_from:
-  - battle_id: 7274
-    battle_name: 'June 26: Battle of Mechanicsville, Beaver Dam Creek, or Ellison''s
-      Mills'
-    year: '1862'
+  - slug: Virginia/1862-06-26-battle-of-mechanicsville-beaver-dam-creek-or-ellison-s-mills
 - battles_cwsac:
-  - battle_name: "Gaines' Mill"
+  - battle_name: Gaines' Mill
     cwsac_id: VA017
     end_date: 1862-06-27
     other_names: First Cold Harbor
     start_date: 1862-06-27
-    state:
-    - VA
   battles_from:
-  - battle_id: 7281
-    battle_name: 'June 27: Battle of Gaines Mill, Cold Harbor, Chickahominy'
-    year: '1862'
+  - slug: Virginia/1862-06-27-battle-of-gaines-mill-cold-harbor-chickahominy
 - battles_cwsac:
-  - battle_name: "Garnett's & Golding's Farms"
+  - battle_name: Garnett's & Golding's Farms
     cwsac_id: VA018
     end_date: 1862-06-28
-    other_names: ''
     start_date: 1862-06-27
-    state:
-    - VA
   battles_from:
-  - battle_id: 7282
-    battle_name: 'June 27-28: Actions, Garnett''s and Golding''s Farms'
-    year: '1862'
+  - slug: Virginia/1862-06-27-1862-06-28-actions-garnett-s-and-golding-s-farms
 - battles_cwsac:
-  - battle_name: "Savage's Station"
+  - battle_name: Savage's Station
     cwsac_id: VA019
     end_date: 1862-06-29
-    other_names: ''
     start_date: 1862-06-29
-    state:
-    - VA
   battles_from:
-  - battle_id: 7293
-    battle_name: 'June 29: Battle of Savage Station'
-    year: '1862'
+  - slug: Virginia/1862-06-29-battle-of-savage-station
 - battles_cwsac:
-  - battle_name: "Tampa"
+  - battle_name: Tampa
     cwsac_id: FL002
     end_date: 1862-07-01
     other_names: Yankee Outrage at Tampa
     start_date: 1862-06-30
-    state:
-    - FL
   battles_from: []
-  comment: >
-    No mention in Dyer.
+  comment: 'No mention in Dyer.'
 - battles_cwsac:
-  - battle_name: "Glendale/White Oak Swamp"
+  - battle_name: Glendale/White Oak Swamp
     cwsac_id: VA020
     end_date: 1862-06-30
     other_names: Nelson's Farm; Frayser's Farm; Charles City Crossroads; White Oak
       Swamp; New Market Road; Riddell's Shop
     start_date: 1862-06-30
-    state:
-    - VA
-  comment: >
-    ONly the Battle of Glendale entry has casualty data.
   battles_from:
-  - battle_id: 7298
-    battle_name: 'June 30: Engagement, White Oak Swamp Bridge'
-    year: '1862'
-  - battle_id: 7302
-    battle_name: 'June 30: Battle of Glendale, or Nelson''s Farm, Frazier''s Farm,
-      Charles City Cross Roads, New Market Cross Roads. Willis Church'
-    year: '1862'
+  - slug: Virginia/1862-06-30-engagement-white-oak-swamp-bridge
+  - slug: Virginia/1862-06-30-battle-of-glendale-or-nelson-s-farm-frazier-s-farm-charles-city-cross-roads-new-market-cross-roads-willis-church
+  comment: 'Only the Battle of Glendale entry has casualty data.'
 - battles_cwsac:
-  - battle_name: "Malvern Hill"
+  - battle_name: Malvern Hill
     cwsac_id: VA021
     end_date: 1862-07-01
     other_names: Poindexter's Farm
     start_date: 1862-07-01
-    state:
-    - VA
   battles_from:
-  - battle_id: 7303
-    battle_name: 'July 1: Battle of Malvern Hill, Crew''s Farm, or Poindexter''s Farm'
-    year: '1862'
+  - slug: Virginia/1862-07-01-battle-of-malvern-hill-crew-s-farm-or-poindexter-s-farm
 - battles_cwsac:
-  - battle_name: "Hill's Plantation"
+  - battle_name: Hill's Plantation
     cwsac_id: AR003
     end_date: 1862-07-07
     other_names: Cache River; Cotton Plant; Round Hill
     start_date: 1862-07-07
-    state:
-    - AR
   battles_from:
-  - battle_id: 384
-    battle_name: 'July 7: Skirmishes, Hills'' Plantation, Cache River Round Hill,
-      and Bayou de View'
-    year: '1862'
+  - slug: Arkansas/1862-07-07-skirmishes-hills-plantation-cache-river-round-hill-and-bayou-de-view
 - battles_cwsac:
-  - battle_name: "Murfreesboro I"
+  - battle_name: Murfreesboro I
     cwsac_id: TN006
     end_date: 1862-07-13
-    other_names: ''
     start_date: 1862-07-13
-    state:
-    - TN
   battles_from:
-  - battle_id: 5618
-    battle_name: 'July 13: Action and Surrender, Murfreesborough'
-    year: '1862'
+  - slug: Tennessee/1862-07-13-action-and-surrender-murfreesborough
 - battles_cwsac:
-  - battle_name: "Baton Rouge"
+  - battle_name: Baton Rouge
     cwsac_id: LA003
     end_date: 1862-08-05
     other_names: Magnolia Cemetery
     start_date: 1862-08-05
-    state:
-    - LA
   battles_from:
-  - battle_id: 2396
-    battle_name: 'Aug. 5: Engagement, Baton Rouge'
-    year: '1862'
+  - slug: Louisiana/1862-08-05-engagement-baton-rouge
 - battles_cwsac:
-  - battle_name: "Kirksville"
+  - battle_name: Kirksville
     cwsac_id: MO013
     end_date: 1862-08-09
-    other_names: ''
     start_date: 1862-08-06
-    state:
-    - MO
   battles_from:
-  - battle_id: 4176
-    battle_name: "Aug. 6: Action, Kirksville"
-  comment: >
-    No mention of the Aug 9th action.
+  - slug: Missouri/1862-08-06-action-kirksville
+  comment: 'No mention of the Aug 9th action.'
 - battles_cwsac:
-  - battle_name: "Donaldsonville I"
+  - battle_name: Donaldsonville I
     cwsac_id: LA004
     end_date: 1862-08-09
-    other_names: ''
     start_date: 1862-08-09
-    state:
-    - LA
   battles_from:
-  - battle_id: 2397
-    battle_name: 'Aug. 9: Bombardment, Donaldsonville'
-    casualties: ''
-    end_date: 1862-08-09
-    event_type: Bombardment
-    killed: ''
-    killed_wounded: ''
-    missing_captured: ''
-    start_date: 1862-08-09
-    state: LA
-    text: U. S. Navy.
-    wounded: ''
-    year: '1862'
+  - slug: Louisiana/1862-08-09-bombardment-donaldsonville
 - battles_cwsac:
-  - battle_name: "Cedar Mountain"
+  - battle_name: Cedar Mountain
     cwsac_id: VA022
     end_date: 1862-08-09
     other_names: Slaughter's Mountain; Cedar Run
     start_date: 1862-08-09
-    state:
-    - VA
   battles_from:
-  - battle_id: 7358
-    battle_name: 'Aug. 9: Battle of Cedar Mountain, Slaughter''s Mountain, Cedar Run,
-      Southwest Mountain, Mitchell''s Station'
-    year: '1862'
+  - slug: Virginia/1862-08-09-battle-of-cedar-mountain-slaughter-s-mountain-cedar-run-southwest-mountain-mitchell-s-station
 - battles_cwsac:
-  - battle_name: "Independence I"
+  - battle_name: Independence I
     cwsac_id: MO014
     end_date: 1862-08-11
-    other_names: ''
     start_date: 1862-08-11
-    state:
-    - MO
   battles_from:
-  - battle_id: 4193
-    battle_name: 'Aug. 11: Action, Independence'
-    year: '1862'
+  - slug: Missouri/1862-08-11-action-independence
 - battles_cwsac:
-  - battle_name: "Lone Jack"
+  - battle_name: Lone Jack
     cwsac_id: MO015
     end_date: 1862-08-16
-    other_names: ''
     start_date: 1862-08-15
-    state:
-    - MO
   battles_from:
-  - battle_id: 4203
-    battle_name: 'Aug. 16: Action, Lone Jack'
-    year: '1862'
+  - slug: Missouri/1862-08-16-action-lone-jack
 - battles_cwsac:
-  - battle_name: "Fort Ridgley"
+  - battle_name: Fort Ridgley
     cwsac_id: MN001
     end_date: 1862-08-22
-    other_names: ''
     start_date: 1862-08-20
-    state:
-    - MN
   battles_from:
-  - battle_id: 3093
-    battle_name: 'Aug. 20-22: Action, Fort Ridgely'
-    year: '1862'
+  - slug: Minnesota/1862-08-20-1862-08-22-action-fort-ridgely
 - battles_cwsac:
-  - battle_name: "Rappahannock Station I"
+  - battle_name: Rappahannock Station I
     cwsac_id: VA023
     end_date: 1862-08-25
     other_names: Waterloo Bridge; White Sulphur Springs; Lee Springs; Freeman's Ford
     start_date: 1862-08-22
-    state:
-    - VA
   battles_from:
-  - battle_id: 7387
-    battle_name: 'Aug. 24-25: Action, Waterloo Bridge'
-    year: '1862'
-  - battle_id: 7388
-    battle_name: 'Aug. 24-25: Action, Rappahannock Station'
-    year: '1862'
-  - battle_id: 7389
-    battle_name: 'Aug. 25: Action, Faquier White Sulphur Springs, or Warrenton Springs'
-    year: '1862'
+  - slug: Virginia/1862-08-24-1862-08-25-action-waterloo-bridge
+  - slug: Virginia/1862-08-24-1862-08-25-action-rappahannock-station
+  - slug: Virginia/1862-08-25-action-faquier-white-sulphur-springs-or-warrenton-springs
 - battles_cwsac:
-  - battle_name: "Manassas Station Operations"
+  - battle_name: Manassas Station Operations
     cwsac_id: VA024
     end_date: 1862-08-27
-    other_names: ''
     start_date: 1862-08-26
-    state:
-    - VA
   battles_from:
-  - battle_name: "Aug. 27: Engagement, Bristoe Station, or Kettle Run"
-    battle_id: 7399
-  - battle_name: "Aug. 27: Action, Bull Run Bridge"
-    battle_id: 7403
-  - battle_name: "Aug. 27: Action, Buckland's Bridge, Broad Run"
-    battle_id: 7402
+  - slug: Virginia/1862-08-27-engagement-bristoe-station-or-kettle-run
+  - slug: Virginia/1862-08-27-action-bull-run-bridge
+  - slug: Virginia/1862-08-27-action-buckland-s-bridge-broad-run
 - battles_cwsac:
-  - battle_name: "Thoroughfare Gap"
+  - battle_name: Thoroughfare Gap
     cwsac_id: VA025
     end_date: 1862-08-28
     other_names: Chapman's Mill
     start_date: 1862-08-28
-    state:
-    - VA
   battles_from:
-  - battle_id: 7410
-    battle_name: 'Aug. 28: Action, Thoroughfare Gap'
-    year: '1862'
+  - slug: Virginia/1862-08-28-action-thoroughfare-gap
 - battles_cwsac:
-  - battle_name: "Manassas II"
+  - battle_name: Manassas II
     cwsac_id: VA026
     end_date: 1862-08-30
     other_names: Manassas; Second Bull Run; Manassas Plains; Groveton; Gainesville;
       Brawner's Farm
     start_date: 1862-08-28
-    state:
-    - VA
   battles_from:
-  - battle_id: 7411
-    battle_name: 'Aug. 28: Engagement, Gainesville'
-  - battle_id: 7413
-    battle_name: 'Aug. 29: Battle of Groveton'
-  - battle_id: 7415
-    battle_name: 'Aug. 30: Battle of Bull Run, Manassas, Groveton Heights'
-    year: '1862'
+  - slug: Virginia/1862-08-28-engagement-gainesville
+  - slug: Virginia/1862-08-29-battle-of-groveton
+  - slug: Virginia/1862-08-30-battle-of-bull-run-manassas-groveton-heights
 - battles_cwsac:
-  - battle_name: "Richmond"
+  - battle_name: Richmond
     cwsac_id: KY007
     end_date: 1862-08-30
-    other_names: ''
     start_date: 1862-08-29
-    state:
-    - KY
   battles_from:
-  - battle_id: 1989
-    battle_name: 'Aug. 30: Battle of Richmond or Mount Zion Church, Engagements at
-      White''s Farm and Richmond'
-    year: '1862'
+  - slug: Kentucky/1862-08-30-battle-of-richmond-or-mount-zion-church-engagements-at-white-s-farm-and-richmond
 - battles_cwsac:
-  - battle_name: "Chantilly"
+  - battle_name: Chantilly
     cwsac_id: VA027
     end_date: 1862-09-01
     other_names: Ox Hill
     start_date: 1862-09-01
-    state:
-    - VA
   battles_from:
-  - battle_id: 7423
-    battle_name: 'Sept. 1: Engagement, Chantilly, Ox Hill'
+  - slug: Virginia/1862-09-01-engagement-chantilly-ox-hill
 - battles_cwsac:
-  - battle_name: "Harpers Ferry"
+  - battle_name: Harpers Ferry
     cwsac_id: WV010
     end_date: 1862-09-15
-    other_names: ''
     start_date: 1862-09-12
-    state:
-    - WV
-    - MD
-    - VA
-  diff_states: True
   battles_from:
-  - battle_name: "Sept 12: Evacuation, Martinsburg"
-    battle_id: 9180
-  - battle_name: "Sept 12-13: Action, Maryland Heights"
-    battle_id: 2957
-  - battle_name: "Sept. 12: Skirmish, Harper's Ferry"
-    battle_id: 9182
-  - battle_name: "Sept. 13: Siege of Harper's Ferry"
-    battle_id: 9185
-  comment: >
-    Only "Sept. 13: Siege of Harper's Ferry" has casualty data.
+  - slug: West_Virginia/1862-09-12-evacuation-martinsburg
+  - slug: Maryland/1862-09-12-1862-09-13-action-maryland-heights
+  - slug: West_Virginia/1862-09-12-skirmish-harper-s-ferry
+  - slug: West_Virginia/1862-09-13-siege-of-harper-s-ferry
+  comment: 'Only "Sept. 13: Siege of Harper''s Ferry" has casualty data.
+
+'
+  diff_states: true
 - battles_cwsac:
-  - battle_name: "Munfordville"
+  - battle_name: Munfordville
     cwsac_id: KY008
     end_date: 1862-09-17
     other_names: Green River Bridge
     start_date: 1862-09-14
-    state:
-    - KY
   battles_from:
-  - battle_id: 2018
-    battle_name: 'Sept. 14-17: Siege and surrender of Munfordsville and Woodsonville'
-    casualties: '4148'
-    year: '1862'
+  - slug: Kentucky/1862-09-14-1862-09-17-siege-and-surrender-of-munfordsville-and-woodsonville
 - battles_cwsac:
-  - battle_name: "South Mountain"
+  - battle_name: South Mountain
     cwsac_id: MD002
     end_date: 1862-09-14
     other_names: Crampton's; Turner's; and Fox's Gaps
     start_date: 1862-09-14
-    state:
-    - MD
   battles_from:
-  - battle_id: 2963
-    battle_name: 'Sept. 14: Battle of South Mountain'
-    year: '1862'
-  - battle_id: 2964
-    battle_name: 'Sept. 14: Battle of Crampton''s Gap, South Mountain.'
-    year: '1862'
-  comment: >
-    Both "Sept. 14: Battle of South Mountain" and "Sept. 14: Battle of Crampton''s Gap, South Mountain."
-    and they have to be aggregated.
+  - slug: Maryland/1862-09-14-battle-of-south-mountain
+  - slug: Maryland/1862-09-14-battle-of-crampton-s-gap-south-mountain
+  comment: 'Both "Sept. 14: Battle of South Mountain" and "Sept. 14: Battle of Crampton''''s
+    Gap, South Mountain." and they have to be aggregated.'
 - battles_cwsac:
-  - battle_name: "Antietam"
+  - battle_name: Antietam
     cwsac_id: MD003
     end_date: 1862-09-17
     other_names: Sharpsburg
     start_date: 1862-09-16
-    state:
-    - WV
-    - MD
   battles_from:
-  - battle_id: 2969
-    battle_name: 'Sept. 16-17: Battle of Antietam, Sharpsburg'
-    year: '1862'
+  - slug: Maryland/1862-09-16-1862-09-17-battle-of-antietam-sharpsburg
 - battles_cwsac:
-  - battle_name: "Shepherdstown"
+  - battle_name: Shepherdstown
     cwsac_id: WV016
     end_date: 1862-09-20
     other_names: Boteler's Ford
     start_date: 1862-09-19
-    state:
-    - WV
-    - MD
-  comment: >
-    Only "Sept. 20: Action, Shepherdstown Ford" has casualties.
   battles_from:
-  - battle_id: 9188
-    battle_name: 'Sept. 20: Action, Shepherdstown Ford'
-    year: '1862'
-  - battle_id: 9189
-    battle_name: 'Sept. 20: Action, Shepherdstown'
-    year: '1862'
+  - slug: West_Virginia/1862-09-20-action-shepherdstown-ford
+  - slug: West_Virginia/1862-09-20-action-shepherdstown
+  comment: 'Only "Sept. 20: Action, Shepherdstown Ford" has casualties.'
 - battles_cwsac:
-  - battle_name: "Iuka"
+  - battle_name: Iuka
     cwsac_id: MS001
     end_date: 1862-09-19
-    other_names: ''
     start_date: 1862-09-19
-    state:
-    - MS
   battles_from:
-  - battle_name: "Sept 19: Engagement, Iuka"
-    battle_id: 3226
+  - slug: Mississippi/1862-09-19-engagement-iuka
 - battles_cwsac:
-  - battle_name: "Wood Lake"
+  - battle_name: Wood Lake
     cwsac_id: MN002
     end_date: 1862-09-23
-    other_names: ''
     start_date: 1862-09-23
-    state:
-    - MN
   battles_from:
-  - battle_id: 3099
-    battle_name: 'Sept. 23: Action, Wood Lake, Yellow Medicine'
-    year: '1862'
+  - slug: Minnesota/1862-09-23-action-wood-lake-yellow-medicine
 - battles_cwsac:
-  - battle_name: "Sabine Pass I"
+  - battle_name: Sabine Pass I
     cwsac_id: TX001
     end_date: 1862-09-25
-    other_names: ''
     start_date: 1862-09-24
-    state:
-    - TX
   battles_from:
-  - battle_id: 6925
-    battle_name: 'Sept. 24-25: Engagement, Sabine Pass'
-    year: '1862'
+  - slug: Texas/1862-09-24-1862-09-25-engagement-sabine-pass
 - battles_cwsac:
-  - battle_name: "Newtonia I"
+  - battle_name: Newtonia I
     cwsac_id: MO016
     end_date: 1862-09-30
-    other_names: ''
+
     start_date: 1862-09-30
-    state:
-    - MO
   battles_from:
-  - battle_id: 4257
-    battle_name: 'Sept. 30: Engagement, Newtonia'
-    year: '1862'
+  - slug: Missouri/1862-09-30-engagement-newtonia
 - battles_cwsac:
-  - battle_name: "Saint John's Bluff"
+  - battle_name: Saint John's Bluff
     cwsac_id: FL003
     end_date: 1862-10-03
-    other_names: ''
     start_date: 1862-10-01
-    state:
-    - FL
   battles_from:
-  - battle_id: 1205
-    battle_name: 'Oct. 3: Capture of Saint John''s Bluff'
-    year: '1862'
+  - slug: Floria/1862-10-03-capture-of-saint-john-s-bluff
 - battles_cwsac:
-  - battle_name: "Corinth II"
+  - battle_name: Corinth II
     cwsac_id: MS002
     end_date: 1862-10-04
-    other_names: ''
     start_date: 1862-10-03
-    state:
-    - MS
-    - TN
   battles_from:
-  - battle_name: "Oct 3-4: Battle of Corinth"
-    battle_id: 3235
+  - slug: Mississippi/1862-10-03-1862-10-04-battle-of-corinth
 - battles_cwsac:
-  - battle_name: "Galveston I"
+  - battle_name: Galveston I
     cwsac_id: TX002
     end_date: 1862-10-04
-    other_names: ''
     start_date: 1862-10-04
-    state:
-    - TX
-  diff_dates: True
   battles_from:
-  - battle_name: "Oct 5: Capture of Galveston"
-    battle_id: 6926
+  - slug: Texas/1862-10-05-capture-of-galveston
+  diff_dates: true
 - battles_cwsac:
-  - battle_name: "Hatchie's Bridge"
+  - battle_name: Hatchie's Bridge
     cwsac_id: TN007
     end_date: 1862-10-06
     other_names: Davis Bridge; Matamora
     start_date: 1862-10-06
-    state:
-    - MS
-    - TN
   battles_from:
-  - battle_name: "Oct 5: Oct. 5: Engagement, Hatchie or Davis Bridge, Big Hatchie or Metamora"
-    battle_id: 5725
+  - slug: Tennessee/1862-10-05-engagement-hatchie-or-davis-bridge-big-hatchie-or-metamora
 - battles_cwsac:
-  - battle_name: "Perryville"
+  - battle_name: Perryville
     cwsac_id: KY009
     end_date: 1862-10-08
-    other_names: ''
     start_date: 1862-10-08
-    state:
-    - KY
   battles_from:
-  - battle_id: 2065
-    battle_name: 'Oct. 8: Battle of Perryville'
-    year: '1862'
+  - slug: Kentucky/1862-10-08-battle-of-perryville
 - battles_cwsac:
-  - battle_name: "Old Fort Wayne"
+  - battle_name: Old Fort Wayne
     cwsac_id: OK004
     end_date: 1862-10-22
     other_names: Beatties Prairie; Beaty's Prairie
     start_date: 1862-10-22
-    state:
-    - AR
-    - OK
   battles_from:
-  - battle_id: 9691
-    battle_name: "Oct. 22: Action, Old Fort Wayne, or Beattie's Prairie, near Maysville"
+  - slug: Indian_Territory/1862-10-22-action-old-fort-wayne-or-beattie-s-prairie-near-maysville
 - battles_cwsac:
-  - battle_name: "Georgia Landing"
+  - battle_name: Georgia Landing
     cwsac_id: LA005
     end_date: 1862-10-27
     other_names: Labadieville; Texana
     start_date: 1862-10-27
-    state:
-    - LA
   battles_from:
-  - battle_id: 2412
-    battle_name: 'Oct. 27: Action, Georgia Landing, near Labadieville'
-    year: '1862'
+  - slug: Louisiana/1862-10-27-action-georgia-landing-near-labadieville
 - battles_cwsac:
-  - battle_name: "Clark's Mill"
+  - battle_name: Clark's Mill
     cwsac_id: MO017
     end_date: 1862-11-07
     other_names: Vera Cruz
     start_date: 1862-11-07
-    state:
-    - MO
   battles_from:
-  - battle_id: 4298
-    battle_name: 'Nov. 7: Action, Clark''s Mills, Douglass County'
-    year: '1862'
+  - slug: Missouri/1862-11-07-action-clark-s-mills-douglass-county
 - battles_cwsac:
-  - battle_name: "Cane Hill"
+  - battle_name: Cane Hill
     cwsac_id: AR004
     end_date: 1862-11-28
     other_names: Canehill; Boston Mountains
     start_date: 1862-11-28
-    state:
-    - AR
   battles_from:
-  - battle_id: 444
-    battle_name: 'Nov. 28: Engagement, Cane Hill, Boston Mountains, Boonsboro'
-    year: '1862'
+  - slug: Arkansas/1862-11-28-engagement-cane-hill-boston-mountains-boonsboro
 - battles_cwsac:
-  - battle_name: "Hartsville"
+  - battle_name: Hartsville
     cwsac_id: TN008
     end_date: 1862-12-07
-    other_names: ''
     start_date: 1862-12-07
-    state:
-    - TN
   battles_from:
-  - battle_id: 5788
-    battle_name: 'Dec. 7: Action and Capture Hartsville'
-    year: '1862'
+  - slug: Tennessee/1862-12-07-action-and-capture-hartsville
 - battles_cwsac:
-  - battle_name: "Prairie Grove"
+  - battle_name: Prairie Grove
     cwsac_id: AR005
     end_date: 1862-12-07
     other_names: Fayetteville
     start_date: 1862-12-07
-    state:
-    - AR
   battles_from:
-  - battle_id: 450
-    battle_name: 'Dec. 7: Battle of Prairie Grove, Fayetteville, or Illinois Creek'
-    year: '1862'
+  - slug: Arkansas/1862-12-07-battle-of-prairie-grove-fayetteville-or-illinois-creek
 - battles_cwsac:
-  - battle_name: "Fredericksburg I"
+  - battle_name: Fredericksburg I
     cwsac_id: VA028
     end_date: 1862-12-15
     other_names: Marye's Heights
     start_date: 1862-12-11
-    state:
-    - VA
   battles_from:
-  - battle_id: 7564
-    battle_name: 'Dec. 12-15: Battle of Fredericksburg'
-    year: '1862'
+  - slug: Virginia/1862-12-12-1862-12-15-battle-of-fredericksburg
 - battles_cwsac:
-  - battle_name: "Kinston"
+  - battle_name: Kinston
     cwsac_id: NC007
     end_date: 1862-12-14
-    other_names: ''
     start_date: 1862-12-14
-    state:
-    - NC
   battles_from:
-  - battle_id: 5021
-    battle_name: 'Dec. 14: Engagement, Kinston'
-    year: '1862'
+  - slug: North_Carolina/1862-12-14-engagement-kinston
 - battles_cwsac:
-  - battle_name: "White Hall"
+  - battle_name: White Hall
     cwsac_id: NC008
     end_date: 1862-12-16
     other_names: Whitehall; White Hall Ferry
     start_date: 1862-12-16
-    state:
-    - NC
   battles_from:
-  - battle_id: 5023
-    battle_name: 'Dec. 16: Engagement, Whitehall'
-    year: '1862'
+  - slug: North_Carolina/1862-12-16-engagement-whitehall
 - battles_cwsac:
-  - battle_name: "Goldsborough Bridge"
+  - battle_name: Goldsborough Bridge
     cwsac_id: NC009
     end_date: 1862-12-17
-    other_names: ''
     start_date: 1862-12-17
-    state:
-    - NC
   battles_from:
-  - battle_id: 5027
-    battle_name: 'Dec. 17: Engagement, Goldsborough Bridge'
-    year: '1862'
+  - slug: North_Carolina/1862-12-17-engagement-goldsborough-bridge
 - battles_cwsac:
-  - battle_name: "Jackson"
+  - battle_name: Jackson
     cwsac_id: TN009
     end_date: 1862-12-19
-    other_names: ''
     start_date: 1862-12-19
-    state:
-    - TN
   battles_from:
-  - battle_id: 5802
-    battle_name: 'Dec. 19: Engagement, Salem Cemetery, near Jackson'
-    year: '1862'
+  - slug: Tennessee/1862-12-19-engagement-salem-cemetery-near-jackson
 - battles_cwsac:
-  - battle_name: "Chickasaw Bayou"
+  - battle_name: Chickasaw Bayou
     cwsac_id: MS003
     end_date: 1862-12-29
     other_names: Chickasaw Bluffs; Walnut Hills
     start_date: 1862-12-26
-    state:
-    - MS
   battles_from:
-  - battle_name: "Dec. 29: Assault, Chickasaw Bluffs"
-    battle_id: 3292
+  - slug: Mississippi/1862-12-29-assault-chickasaw-bluffs
 - battles_cwsac:
-  - battle_name: "Parker's Cross Roads"
+  - battle_name: Parker's Cross Roads
     cwsac_id: TN011
     end_date: 1862-12-31
-    other_names: ''
     start_date: 1862-12-31
-    state:
-    - TN
   battles_from:
-  - battle_id: 5852
-    battle_name: 'Dec. 31: Engagement, Red Mound, or Parker''s Cross Roads'
-    year: '1862'
+  - slug: Tennessee/1862-12-31-engagement-red-mound-or-parker-s-cross-roads
 - battles_cwsac:
-  - battle_name: "Stones River"
+  - battle_name: Stones River
     cwsac_id: TN010
     end_date: 1863-01-02
     other_names: Murfreesboro
     start_date: 1862-12-31
-    state:
-    - TN
   battles_from:
-  - battle_id: 5849
-    battle_name: "Dec. 30-Jan. 3, '63: Battle of Stone's River, Murfreesborough"
+  - slug: Tennessee/1862-12-30-1863-01-03-battle-of-stone-s-river-murfreesborough
 - battles_cwsac:
-  - battle_name: "Galveston II"
+  - battle_name: Galveston II
     cwsac_id: TX003
     end_date: 1863-01-01
-    other_names: ''
     start_date: 1863-01-01
-    state:
-    - TX
   battles_from:
-  - battle_id: 6929
-    battle_name: 'Jan. 1: Engagement, Galveston'
-    year: '1863'
+  - slug: Texas/1863-01-01-engagement-galveston
 - battles_cwsac:
-  - battle_name: "Springfield II"
+  - battle_name: Springfield II
     cwsac_id: MO018
     end_date: 1863-01-08
-    other_names: ''
     start_date: 1863-01-08
-    state:
-    - MO
   battles_from:
-  - battle_id: 4323
-    battle_name: 'Jan. 8: Engagement, Springfield'
-    year: '1863'
+  - slug: Missouri/1863-01-08-engagement-springfield
 - battles_cwsac:
-  - battle_name: "Hartville"
+  - battle_name: Hartville
     cwsac_id: MO019
     end_date: 1863-01-11
-    other_names: ''
     start_date: 1863-01-09
-    state:
-    - MO
   battles_from:
-  - battle_id: 4326
-    battle_name: 'Jan. 11: Action, Hartsville, Wood''s Fork'
-    year: '1863'
+  - slug: Missouri/1863-01-11-action-hartsville-wood-s-fork
 - battles_cwsac:
-  - battle_name: "Arkansas Post"
+  - battle_name: Arkansas Post
     cwsac_id: AR006
     end_date: 1863-01-11
     other_names: Fort Hindman
     start_date: 1863-01-09
-    state:
-    - AR
   battles_from:
-  - battle_id: 468
-    battle_name: 'Jan. 10-11: Engagement and capture, Fort Hindman, Arkansas Post'
-    year: '1863'
+  - slug: Arkansas/1863-01-10-1863-01-11-engagement-and-capture-fort-hindman-arkansas-post
 - battles_cwsac:
-  - battle_name: "Bear River"
+  - battle_name: Bear River
     cwsac_id: ID001
     end_date: 1863-01-29
     other_names: Massacre at Boa Ogoi
     start_date: 1863-01-29
-    state:
-    - ID
   battles_from:
-  - battle_id: 9895
-    battle_name: "Jan. 29: Engagement, Bear River"
+  - slug: Utah_Territory/1863-01-29-engagement-bear-river
 - battles_cwsac:
-  - battle_name: "Dover"
+  - battle_name: Dover
     cwsac_id: TN012
     end_date: 1863-02-03
     other_names: Fort Donelson
     start_date: 1863-02-03
-    state:
-    - TN
   battles_from:
-  - battle_id: 5906
-    battle_name: "Feb. 3: Action, Cumberland Iron Works, Fort Donelson"
-
+  - slug: Tennessee/1863-02-03-action-cumberland-iron-works-fort-donelson
 - battles_cwsac:
-  - battle_name: "Fort Mcallister I"
+  - battle_name: Fort Mcallister I
     cwsac_id: GA002
     end_date: 1863-03-03
-    other_names: ''
     start_date: 1863-02-27
-    state:
-    - GA
   battles_from:
-  - battle_name:  "Jan 27: Bombardment Fort McAllister, Genesis Point"
-    battle_id: 1348
+  - slug: Georgia/1863-01-27-1863-02-28-bombardment-fort-mcallister-genesis-point
 - battles_cwsac:
-  - battle_name: "Thompson's Station"
+  - battle_name: Thompson's Station
     cwsac_id: TN013
     end_date: 1863-03-05
-    other_names: ''
     start_date: 1863-03-04
-    state:
-    - TN
   battles_from:
-  - battle_id: 5943
-    battle_name: 'March 5: Engagement, Thompson''s Station, Spring Hill'
-    year: '1863'
+  - slug: Tennessee/1863-03-05-engagement-thompson-s-station-spring-hill
 - battles_cwsac:
-  - battle_name: "Fort Anderson"
+  - battle_name: Fort Anderson
     cwsac_id: NC010
     end_date: 1863-03-15
     other_names: Deep Gully
     start_date: 1863-03-13
-    state:
-    - NC
-  comment: >
-    Only "March 13-14: Skirmishes, Deep Gully, Newberne" has casualties
-    and it looks complete (~ 7 casualties matches CWSAC magnitude).
   battles_from:
-    - battle_name: "March 13-14: Skirmishes, Deep Gully, New Berne"
-      battle_id: 5052
-    - battle_name: "March 14: Action, Fort Anderson"
-      battle_id: 5053
+  - slug: North_Carolina/1863-03-13-1863-03-14-skirmishes-deep-gully-newberne
+  - slug: North_Carolina/1863-03-14-action-fort-anderson
+  comment: 'Only "March 13-14: Skirmishes, Deep Gully, Newberne" has casualties and
+    it looks complete (~ 7 casualties matches CWSAC magnitude).'
 - battles_cwsac:
-  - battle_name: "Kelly's Ford"
+  - battle_name: Kelly's Ford
     cwsac_id: VA029
     end_date: 1863-03-17
     other_names: Kellysville
     start_date: 1863-03-17
-    state:
-    - VA
   battles_from:
-  - battle_id: 7648
-    battle_name: 'March 17: Engagement, Kelly''s Ford'
-    year: '1863'
+  - slug: Virginia/1863-03-17-engagement-kelly-s-ford
 - battles_cwsac:
-  - battle_name: "Vaught's Hill"
+  - battle_name: Vaught's Hill
     cwsac_id: TN014
     end_date: 1863-03-20
     other_names: Milton
     start_date: 1863-03-20
-    state:
-    - TN
   battles_from:
-  - battle_id: 5978
-    battle_name: 'March 20: Action, Vaught''s Hill, near Milton'
-    year: '1863'
+  - slug: Tennessee/1863-03-20-action-vaught-s-hill-near-milton
 - battles_cwsac:
-  - battle_name: "Brentwood"
+  - battle_name: Brentwood
     cwsac_id: TN015
     end_date: 1863-03-25
-    other_names: ''
     start_date: 1863-03-25
-    state:
-    - TN
   battles_from:
-  - battle_id: 5987
-    battle_name: 'March 25: Action, Brentwood'
-    year: '1863'
+  - slug: Tennessee/1863-03-25-action-brentwood
 - battles_cwsac:
-  - battle_name: "Washington"
+  - battle_name: Washington
     cwsac_id: NC011
     end_date: 1863-04-20
-    other_names: ''
     start_date: 1863-03-30
-    state:
-    - NC
   battles_from:
-  - battle_id: 5056
-    battle_name: 'March 30-April 20: Siege of Washington'
-    year: '1863'
+  - slug: North_Carolina/1863-03-30-1863-04-20-siege-of-washington
 - battles_cwsac:
-  - battle_name: "Charleston Harbor I"
+  - battle_name: Charleston Harbor I
     cwsac_id: SC004
     end_date: 1863-04-07
     other_names: Fort Sumter
     start_date: 1863-04-07
-    state:
-    - SC
   battles_from:
-  - battle_id: 5361
-    battle_name: 'April 7: Engagement, Fort Sumpter, Stono Inlet'
-    year: '1863'
+  - slug: South_Carolina/1863-04-07-engagement-fort-sumpter-stono-inlet
 - battles_cwsac:
-  - battle_name: "Franklin I"
+  - battle_name: Franklin I
     cwsac_id: TN016
     end_date: 1863-04-10
-    other_names: ''
     start_date: 1863-04-10
-    state:
-    - TN
   battles_from:
-  - battle_id: 6020
-    battle_name: 'April 10: Engagement, Franklin'
-    year: '1863'
+  - slug: Tennessee/1863-04-10-engagement-franklin
 - battles_cwsac:
-  - battle_name: "Fort Bisland"
+  - battle_name: Fort Bisland
     cwsac_id: LA006
     end_date: 1863-04-13
     other_names: Bethel Place
     start_date: 1863-04-12
-    state:
-    - LA
   battles_from:
-  - battle_id: 2462
-    battle_name: 'April 12-13: Engagement, Fort Bisland, Bethel Place, Bayou Teche,
-      near Centreville'
-    year: '1863'
+  - slug: Louisiana/1863-04-12-1863-04-13-engagement-fort-bisland-bethel-place-bayou-teche-near-centreville
 - battles_cwsac:
-  - battle_name: "Suffolk II"
+  - battle_name: Suffolk II
     cwsac_id: VA030
     end_date: 1863-05-14
     other_names: Norfleet House Battery
     start_date: 1863-04-13
-    state:
-    - VA
   battles_from:
-  - battle_id: 7680
-    battle_name: "Apr. 12: Engagement, Norfleet House"
-  - battle_id: 7688
-    battle_name: "Apr. 15: Engagement, Norfleet House"
+  - slug: Virginia/1863-04-14-engagement-norfleet-house
+  - slug: Virginia/1863-04-15-engagement-norfleet-house
 - battles_cwsac:
-  - battle_name: "Irish Bend"
+  - battle_name: Irish Bend
     cwsac_id: LA007
     end_date: 1863-04-14
     other_names: Nerson's Woods; Franklin
     start_date: 1863-04-14
-    state:
-    - LA
   battles_from:
-  - battle_id: 2466
-    battle_name: 'April 14: Engagement, Irish Bend'
-    year: '1863'
+  - slug: Louisiana/1863-04-14-engagement-irish-bend
 - battles_cwsac:
-  - battle_name: "Vermillion Bayou"
+  - battle_name: Vermillion Bayou
     cwsac_id: LA008
     end_date: 1863-04-17
-    other_names: ''
     start_date: 1863-04-17
-    state:
-    - LA
   battles_from:
-  - battle_id: 2470
-    battle_name: 'April 17: Action, Bayou Vermillion'
-    year: '1863'
+  - slug: Louisiana/1863-04-17-action-bayou-vermillion
 - battles_cwsac:
-  - battle_name: "Suffolk I"
+  - battle_name: Suffolk I
     cwsac_id: VA031
     end_date: 1863-05-04
     other_names: Fort Huger; Hill's Point
     start_date: 1863-04-11
-    state:
-    - VA
-
   battles_from:
-  - battle_id: 7671
-    battle_name: 'April 11-May 4: Siege of Suffolk'
-    year: '1863'
-  comment: >
-    Map Suffolk VA031 to the entire siege
+  - slug: Virginia/1863-04-11-1863-05-04-siege-of-suffolk
+  comment: 'Map Suffolk VA031 to the entire siege'
 - battles_cwsac:
-  - battle_name: "Cape Girardeau"
+  - battle_name: Cape Girardeau
     cwsac_id: MO020
     end_date: 1863-04-26
-    other_names: ''
     start_date: 1863-04-26
-    state:
-    - MO
-    - IL
   battles_from:
-  - battle_id: 4367
-    battle_name: 'April 26: Action, Cape Girardeau'
-    year: '1863'
+  - slug: Missouri/1863-04-26-action-cape-girardeau
 - battles_cwsac:
-  - battle_name: "Grand Gulf"
+  - battle_name: Grand Gulf
     cwsac_id: MS004
     end_date: 1863-04-29
-    other_names: ''
     start_date: 1863-04-29
-    state:
-    - MS
-    - LA
   battles_from:
-  - battle_id: 3349
-    battle_name: "April 29: Engagement, Grand Gulf, and passage of the Batteries"
+  - slug: Mississippi/1863-04-29-engagement-grand-gulf-and-passage-of-the-batteries
 - battles_cwsac:
-  - battle_name: "Snyder's Bluff"
+  - battle_name: Snyder's Bluff
     cwsac_id: MS005
     end_date: 1863-05-01
     other_names: Snyder's Mill
     start_date: 1863-04-29
-    state:
-    - MS
   battles_from:
-  - battle_id: 3351
-    battle_name: "April 29-May 1: Engagement, Snyders Mill"
+  - slug: Mississippi/1863-04-29-1863-05-01-engagement-snyders-mill
 - battles_cwsac:
-  - battle_name: "Chancellorsville"
+  - battle_name: Chancellorsville
     cwsac_id: VA032
     end_date: 1863-05-06
-    other_names: ''
     start_date: 1863-04-30
-    state:
-    - VA
   battles_from:
-  - battle_id: 7705
-    battle_name: 'April 27-May 6: Campaign of Chancellorsville'
-    year: '1863'
+  - slug: Virginia/1863-04-27-1863-05-06-campaign-of-chancellorsville
 - battles_cwsac:
-  - battle_name: "Day's Gap"
+  - battle_name: Day's Gap
     cwsac_id: AL001
     end_date: 1863-04-30
     other_names: Sand Mountain
     start_date: 1863-04-30
-    state:
-    - AL
   battles_from:
-  - battle_id: 74
-    battle_name: 'April 30: Action, Sand Mountain'
-    year: '1863'
+  - slug: Alabama/1863-04-30-action-sand-mountain
 - battles_cwsac:
-  - battle_name: "Port Gibson"
+  - battle_name: Port Gibson
     cwsac_id: MS006
     end_date: 1863-05-01
     other_names: Thompson's Hill
     start_date: 1863-05-01
-    state:
-    - MS
   battles_from:
-  - battle_id: 3354
-    battle_name: "May 1: Battle of Port Gibson, Thompson's Hill, Anderson's Hill, Magnolia Hills"
+  - slug: Mississippi/1863-05-01-battle-of-port-gibson-thompson-s-hill-anderson-s-hill-magnolia-hills
 - battles_cwsac:
-  - battle_name: "Chalk Bluff"
+  - battle_name: Chalk Bluff
     cwsac_id: AR007
     end_date: 1863-05-02
-    other_names: ''
     start_date: 1863-05-01
-    state:
-    - AR
   battles_from:
-  - battle_id: 525
-    battle_name: 'May 2: Skirmish, Chalk Bluff'
-    year: '1863'
+  - slug: Arkansas/1863-05-02-skirmish-chalk-bluff
 - battles_cwsac:
-  - battle_name: "Fredericksburg II"
+  - battle_name: Fredericksburg II
     cwsac_id: VA034
     end_date: 1863-05-03
     other_names: Marye's Heights
     start_date: 1863-05-03
-    state:
-    - VA
   battles_from:
-  - battle_id: 7736
-    battle_name: 'May 3: Battle of Maryes Heights, Fredericksburg'
-    year: '1863'
+  - slug: Virginia/1863-05-03-battle-of-maryes-heights-fredericksburg
 - battles_cwsac:
-  - battle_name: "Salem Church"
+  - battle_name: Salem Church
     cwsac_id: VA033
     end_date: 1863-05-04
     other_names: Banks' Ford
     start_date: 1863-05-03
-    state:
-    - VA
   battles_from:
-  - battle_id: 7741
-    battle_name: 'May 3-4: Battle of Salem Heights, Salem Church'
-    year: '1863'
+  - slug: Virginia/1863-05-03-1863-05-04-battle-of-salem-heights-salem-church
 - battles_cwsac:
-  - battle_name: "Raymond"
+  - battle_name: Raymond
     cwsac_id: MS007
     end_date: 1863-05-12
-    other_names: ''
     start_date: 1863-05-12
-    state:
-    - MS
   battles_from:
-  - battle_id: 3379
-    battle_name: "May 12: Engagement, Raymond"
+  - slug: Mississippi/1863-05-12-engagement-raymond
 - battles_cwsac:
-  - battle_name: "Jackson"
+  - battle_name: Jackson
     cwsac_id: MS008
     end_date: 1863-05-14
-    other_names: ''
     start_date: 1863-05-14
-    state:
-    - MS
   battles_from:
-  - battle_id: 3385
-    battle_name: "May 14: Engagement, Jackson"
+  - slug: Mississippi/1863-05-14-engagement-jackson
 - battles_cwsac:
-  - battle_name: "Champion Hill"
+  - battle_name: Champion Hill
     cwsac_id: MS009
     end_date: 1863-05-16
     other_names: Bakers Creek
     start_date: 1863-05-16
-    state:
-    - MS
   battles_from:
-  - battle_id: 3394
-    battle_name: "May 16: Battle of Champion's Hill, Baker's Creek, Edwards' Depot or Midway Hill"
+  - slug: Mississippi/1863-05-16-battle-of-champion-s-hill-baker-s-creek-edwards-depot-or-midway-hill
 - battles_cwsac:
-  - battle_name: "Big Black River Bridge"
+  - battle_name: Big Black River Bridge
     cwsac_id: MS010
     end_date: 1863-05-17
     other_names: Big Black
     start_date: 1863-05-17
-    state:
-    - MS
   battles_from:
-  - battle_id: 3397
-    battle_name: "May 17: Engagement Big Black River Bridge"
+  - slug: Mississippi/1863-05-17-engagement-big-black-river-bridge
 - battles_cwsac:
-  - battle_name: "Vicksburg"
+  - battle_name: Vicksburg
     cwsac_id: MS011
     end_date: 1863-07-04
-    other_names: ''
     start_date: 1863-05-18
-    state:
-    - MS
   battles_from:
-  - battle_name: "May 18-July 4: Siege of Vicksburg"
-    battle_id: 3402
+  - slug: Mississippi/1863-05-18-1863-07-04-siege-of-vicksburg
 - battles_cwsac:
-  - battle_name: "Plains Store"
+  - battle_name: Plains Store
     cwsac_id: LA009
     end_date: 1863-05-21
     other_names: Springfield Road
     start_date: 1863-05-21
-    state:
-    - LA
   battles_from:
-  - battle_id: 2503
-    battle_name: 'May 21: Action, Plain''s Store'
-    year: '1863'
+  - slug: Louisiana/1863-05-21-action-plain-s-store
 - battles_cwsac:
-  - battle_name: "Port Hudson"
+  - battle_name: Port Hudson
     cwsac_id: LA010
     end_date: 1863-07-09
-    other_names: ''
     start_date: 1863-05-22
-    state:
-    - LA
   battles_from:
-  - battle_id: 2509
-    battle_name: 'May 24-July 9: Siege of Port Hudson'
-    year: '1863'
+  - slug: Louisiana/1863-05-24-1863-07-09-siege-of-port-hudson
 - battles_cwsac:
-  - battle_name: "Milliken's Bend"
+  - battle_name: Milliken's Bend
     cwsac_id: LA011
     end_date: 1863-06-07
-    other_names: ''
     start_date: 1863-06-07
-    state:
-    - MS
-    - LA
   battles_from:
-  - battle_id: 2522
-    battle_name: 'June 7: Actions, Milliken''s Bend and Young''s Point'
-    year: '1863'
+  - slug: Louisiana/1863-06-07-actions-milliken-s-bend-and-young-s-point
 - battles_cwsac:
-  - battle_name: "Brandy Station"
+  - battle_name: Brandy Station
     cwsac_id: VA035
     end_date: 1863-06-09
     other_names: Fleetwood Hill
     start_date: 1863-06-09
-    state:
-    - VA
   battles_from:
-  - battle_id: 7801
-    battle_name: 'June 9: Engagements, Brandy Station or Fleetwood and Beverly Ford'
-    year: '1863'
+  - slug: Virginia/1863-06-09-engagements-brandy-station-or-fleetwood-and-beverly-ford
 - battles_cwsac:
-  - battle_name: "Winchester II"
+  - battle_name: Winchester II
     cwsac_id: VA107
     end_date: 1863-06-15
-    other_names: ''
     start_date: 1863-06-13
-    state:
-    - VA
   battles_from:
-  - battle_id: 7815
-    battle_name: 'June 13-15: Actions and Battle, Winchester'
-    year: '1863'
+  - slug: Virginia/1863-06-13-1863-06-15-actions-and-battle-winchester
 - battles_cwsac:
-  - battle_name: "Middleburg"
+  - battle_name: Middleburg
     cwsac_id: VA037
     end_date: 1863-06-19
-    other_names: ''
     start_date: 1863-06-17
-    state:
-    - VA
   battles_from:
-  - battle_id: 7827
-    battle_name: 'June 19: Action, Middleburg'
-    year: '1863'
+  - slug: Virginia/1863-06-19-action-middleburg
 - battles_cwsac:
-  - battle_name: "Aldie"
+  - battle_name: Aldie
     cwsac_id: VA036
     end_date: 1863-06-17
-    other_names: ''
+
     start_date: 1863-06-17
-    state:
-    - VA
   battles_from:
-  - battle_id: 7820
-    battle_name: 'June 17: Action, Aldie'
-    year: '1863'
+  - slug: Virginia/1863-06-17-action-aldie
 - battles_cwsac:
-  - battle_name: "LaFourche Crossing"
+  - battle_name: LaFourche Crossing
     cwsac_id: LA012
     end_date: 1863-06-21
     other_names: Lafourche Crossing
     start_date: 1863-06-20
-    state:
-    - LA
   battles_from:
-  - battle_id: 2534
-    battle_name: 'June 20-21: Action, La Fourche Crossing'
-    year: '1863'
+  - slug: Louisiana/1863-06-20-1863-06-21-action-la-fourche-crossing
 - battles_cwsac:
-  - battle_name: "Upperville"
+  - battle_name: Upperville
     cwsac_id: VA038
     end_date: 1863-06-21
-    other_names: ''
     start_date: 1863-06-21
-    state:
-    - VA
   battles_from:
-  - battle_id: 7831
-    battle_name: 'June 21: Engagement, Upperville'
-    year: '1863'
+  - slug: Virginia/1863-06-21-engagement-upperville
 - battles_cwsac:
-  - battle_name: "Hoover's Gap"
+  - battle_name: Hoover's Gap
     cwsac_id: TN017
     end_date: 1863-06-26
-    other_names: ''
     start_date: 1863-06-24
-    state:
-    - TN
   battles_from:
-  - battle_id: 6143
-    battle_name: 'June 24-26: Actions, Hoover''s Gap'
-    year: '1863'
+  - slug: Tennessee/1863-06-24-1863-06-26-actions-hoover-s-gap
 - battles_cwsac:
-  - battle_name: "Donaldsonville II"
+  - battle_name: Donaldsonville II
     cwsac_id: LA013
     end_date: 1863-06-28
-    other_names: ''
     start_date: 1863-06-28
-    state:
-    - LA
   battles_from:
-  - battle_id: 2541
-    battle_name: 'June 28: Action, Donaldsonville'
-    year: '1863'
+  - slug: Louisiana/1863-06-28-action-donaldsonville
 - battles_cwsac:
-  - battle_name: "Goddrich's Landing"
+  - battle_name: Goddrich's Landing
     cwsac_id: LA014
     end_date: 1863-06-30
     other_names: The Mounds; Lake Providence
     start_date: 1863-06-29
-    state:
-    - MS
-    - LA
   battles_from:
-  - battle_id: 2544
-    battle_name: 'June 30: Skirmish, Goodrich''s Landing'
-    year: '1863'
+  - slug: Louisiana/1863-06-30-skirmish-goodrich-s-landing
 - battles_cwsac:
-  - battle_name: "Hanover"
+  - battle_name: Hanover
     cwsac_id: PA001
     end_date: 1863-06-30
-    other_names: ''
     start_date: 1863-06-30
-    state:
-    - PA
   battles_from:
-  - battle_id: 5271
-    battle_name: 'June 30: Action, Hanover'
-    year: '1863'
+  - slug: Pennsylvania/1863-06-30-action-hanover
 - battles_cwsac:
-  - battle_name: "Cabin Creek"
+  - battle_name: Cabin Creek
     cwsac_id: OK006
     end_date: 1863-07-02
-    other_names: ''
     start_date: 1863-07-01
-    state:
-    - OK
   battles_from:
-  - battle_id: 9722
-    battle_name: "July 1: Engagement, Cabin Creek"
+  - slug: Indian_Territory/1863-07-01-1863-07-02-engagement-cabin-creek
 - battles_cwsac:
-  - battle_name: "Gettysburg"
+  - battle_name: Gettysburg
     cwsac_id: PA002
     end_date: 1863-07-03
-    other_names: ''
     start_date: 1863-07-01
-    state:
-    - PA
   battles_from:
-  - battle_id: 5273
-    battle_name: 'July 1-3: Battle, Gettysburg'
-    casualties: '23001'
-    end_date: 1863-07-03
-    event_type: Battle
-    year: '1863'
+  - slug: Pennsylvania/1863-07-01-1863-07-03-battle-gettysburg
 - battles_cwsac:
-  - battle_name: "Helena"
+  - battle_name: Helena
     cwsac_id: AR008
     end_date: 1863-07-04
-    other_names: ''
     start_date: 1863-07-04
-    state:
-    - AR
   battles_from:
-  - battle_id: 544
-    battle_name: 'July 4: Attack on Helena. (Holmes'')'
-    year: '1863'
+  - slug: Arkansas/1863-07-04-attack-on-helena-holmes
 - battles_cwsac:
-  - battle_name: "Williamsport"
+  - battle_name: Williamsport
     cwsac_id: MD004
     end_date: 1863-07-06
     other_names: Hagerstown; Falling Waters
     start_date: 1863-07-06
-    state:
-    - WV
-    - PA
-    - MD
   battles_from:
-  - battle_id: 3008
-    battle_name: 'July 6: Action, Williamsport'
-    year: '1863'
-  - battle_id: 3009
-    battle_name: 'July 6: Action, Hagerstown'
-    year: '1863'
+  - slug: Maryland/1863-07-06-action-williamsport
+  - slug: Maryland/1863-07-06-action-hagerstown
 - battles_cwsac:
-  - battle_name: "Boonsboro"
+  - battle_name: Boonsboro
     cwsac_id: MD006
     end_date: 1863-07-14
-    other_names: ''
     start_date: 1863-07-08
-    state:
-    - MD
   battles_from:
-  - battle_name: "July 8: Action, Boonsboro"
-    battle_id: 3015
-
+  - slug: Maryland/1863-07-08-action-boonsborough
 - battles_cwsac:
-  - battle_name: "Corydon"
+  - battle_name: Corydon
     cwsac_id: IN001
     end_date: 1863-07-09
-    other_names: ''
     start_date: 1863-07-09
-    state:
-    - KY
-    - IN
   battles_from:
-  - battle_id: 9919
-    battle_name: "July 9: Skirmish, Corydon"
+  - slug: Indiana/1863-07-09-skirmish-corydon
 - battles_cwsac:
-  - battle_name: "Fort Wagner I"
+  - battle_name: Fort Wagner I
     cwsac_id: SC005
     end_date: 1863-07-11
     other_names: First Assault; Morris Island
     start_date: 1863-07-10
-    state:
-    - SC
   battles_from:
-  - battle_id: 5379
-    battle_name: 'July 11: Assault on Fort Wagner'
-    year: '1863'
+  - slug: South_Carolina/1863-07-11-assault-on-fort-wagner
 - battles_cwsac:
-  - battle_name: "Kock's Plantation"
+  - battle_name: Kock's Plantation
     cwsac_id: LA015
     end_date: 1863-07-15
     other_names: Cox's Plantation
     start_date: 1863-07-12
-    state:
-    - LA
   battles_from:
-  - battle_id: 2548
-    battle_name: "July 12-13: Engagement, Cox's Plantation, Donaldsonville, Bayou La Fourche"
+  - slug: Louisiana/1863-07-12-1863-07-13-engagement-cox-s-plantation-donaldsonville-bayou-la-fourche
 - battles_cwsac:
-  - battle_name: "Grimball's Island"
+  - battle_name: Grimball's Island
     cwsac_id: SC006
     end_date: 1863-07-16
     other_names: Secessionville; James Island
     start_date: 1863-07-16
-    state:
-    - SC
   battles_from:
-  - battle_id: 5381
-    battle_name: 'July 16: Action, Grimball''s Landing or Secessionville, James Island'
-    year: '1863'
+  - slug: South_Carolina/1863-07-16-action-grimball-s-landing-or-secessionville-james-island
 - battles_cwsac:
-  - battle_name: "Honey Springs"
+  - battle_name: Honey Springs
     cwsac_id: OK007
     end_date: 1863-07-17
     other_names: Elk Creek; Shaw's Inn
     start_date: 1863-07-17
-    state:
-    - OK
   battles_from:
-  - battle_id: 9724
-    battle_name: "July 17: Engagement, Elk Creek, near Honey Springs"
+  - slug: Indian_Territory/1863-07-17-engagement-elk-creek-near-honey-springs
 - battles_cwsac:
-  - battle_name: "Fort Wagner II/Morris Island"
+  - battle_name: Fort Wagner II/Morris Island
     cwsac_id: SC007
     end_date: 1863-07-18
     other_names: Second Assault; Morris Island
     start_date: 1863-07-18
-    state:
-    - SC
   battles_from:
-  - battle_id: 5382
-    battle_name: 'July 18: Assault on Fort Wagner'
-    year: '1863'
+  - slug: South_Carolina/1863-07-18-assault-on-fort-wagner
 - battles_cwsac:
-  - battle_name: "Buffington Island"
+  - battle_name: Buffington Island
     cwsac_id: OH001
     end_date: 1863-07-19
     other_names: St. Georges Creek
     start_date: 1863-07-19
-    state:
-    - OH
   battles_from:
-  - battle_id: 9931
-    battle_name: "July 19: Engagement, Buffington Island"
+  - slug: Ohio/1863-07-19-engagement-buffington-island
 - battles_cwsac:
-  - battle_name: "Manassas Gap"
+  - battle_name: Manassas Gap
     cwsac_id: VA108
     end_date: 1863-07-23
     other_names: Wapping Heights
     start_date: 1863-07-23
-    state:
-    - VA
   battles_from:
-  - battle_id: 7873
-    battle_name: 'July 23: Engagement, Wapping Heights, Manassas Gap'
-    year: '1863'
+  - slug: Virginia/1863-07-23-engagement-wapping-heights-manassas-gap
 - battles_cwsac:
-  - battle_name: "Big Mound"
+  - battle_name: Big Mound
     cwsac_id: ND001
     end_date: 1863-07-24
-    other_names: ''
     start_date: 1863-07-24
-    state:
-    - ND
   battles_from:
-  - battle_id: 9631
-    battle_name: "July 24: Action, Big Mound"
+  - slug: Dakota_Territories/1863-07-24-action-big-mound
 - battles_cwsac:
-  - battle_name: "Dead Buffalo Lake"
+  - battle_name: Dead Buffalo Lake
     cwsac_id: ND002
     end_date: 1863-07-26
-    other_names: ''
     start_date: 1863-07-26
-    state:
-    - ND
   battles_from:
-  - battle_name: "July 26: Engagement, Dead Buffalo Lake"
-    battle_id: 9632
+  - slug: Dakota_Territories/1863-07-26-engagement-dead-buffalo-lake
 - battles_cwsac:
-  - battle_name: "Salineville"
+  - battle_name: Salineville
     cwsac_id: OH002
     end_date: 1863-07-26
     other_names: New Lisbon; New Lisbon Road; Wellsville
     start_date: 1863-07-26
-    state:
-    - OH
   battles_from:
-  - battle_name: "July 26: Action, Salineville"
-    battle_id: 9941
-  - battle_name: "July 26: Action, New Lisbon"
-    battle_id: 9942
+  - slug: Ohio/1863-07-26-action-salineville
+  - slug: Ohio/1863-07-26-action-new-lisbon
 - battles_cwsac:
-  - battle_name: "Stony Lake"
+  - battle_name: Stony Lake
     cwsac_id: ND003
     end_date: 1863-07-28
-    other_names: ''
     start_date: 1863-07-28
-    state:
-    - ND
   battles_from:
-  - battle_id: 9633
-    battle_name: "July 28: Action, Stony Lake"
+  - slug: Dakota_Territories/1863-07-28-action-stony-lake
 - battles_cwsac:
-  - battle_name: "Fort Sumter II"
+  - battle_name: Fort Sumter II
     cwsac_id: SC008
     end_date: 1863-09-08
     other_names: Charleston Harbor; Morris Island
     start_date: 1863-08-17
-    state:
-    - SC
   battles_from:
-  - battle_id: 5389
-    battle_name: 'Sept. 8: Night attack on Fort Sumpter'
-    year: '1863'
+  - slug: South_Carolina/1863-09-08-night-attack-on-fort-sumpter
 - battles_cwsac:
-  - battle_name: "Chattanooga II"
+  - battle_name: Chattanooga II
     cwsac_id: TN018
     end_date: 1863-08-21
-    other_names: ''
     start_date: 1863-08-21
-    state:
-    - TN
   battles_from:
-  - battle_id: 6220
-    battle_name: 'Aug. 21: Bombardment, Chattanooga'
-    year: '1863'
+  - slug: Tennessee/1863-08-21-bombardment-chattanooga
 - battles_cwsac:
-  - battle_name: "Lawrence"
+  - battle_name: Lawrence
     cwsac_id: KS001
     end_date: 1863-08-21
     other_names: Lawrence Massacre
     start_date: 1863-08-21
-    state:
-    - KS
   battles_from:
-  - battle_id: 1845
-    battle_name: 'Aug. 21: Massacre, Lawrence (Quantrell)'
-    year: '1863'
+  - slug: Kansas/1863-08-21-massacre-lawrence-quantrell
 - battles_cwsac:
-  - battle_name: "Devil's Backbone"
+  - battle_name: Devil's Backbone
     cwsac_id: AR009
     end_date: 1863-09-01
     other_names: Backbone Mountain
     start_date: 1863-09-01
-    state:
-    - AR
   battles_from:
-  - battle_id: 564
-    battle_name: 'Sept. 1: Action, Devil''s Back Bone, Back Bone Mountain, Fort Smith'
-    year: '1863'
+  - slug: Arkansas/1863-09-01-action-devil-s-back-bone-back-bone-mountain-fort-smith
 - battles_cwsac:
-  - battle_name: "Whitestone Hill"
+  - battle_name: Whitestone Hill
     cwsac_id: ND004
     end_date: 1863-09-04
-    other_names: ''
     start_date: 1863-09-03
-    state:
-    - ND
   battles_from:
-  - battle_id: 9636
-    battle_name: "Sept. 3: Engagement, Whitestone Hill"
+  - slug: Dakota_Territories/1863-09-03-engagement-whitestone-hill
 - battles_cwsac:
-  - battle_name: "Charleston Harbor II"
+  - battle_name: Charleston Harbor II
     cwsac_id: SC009
     end_date: 1863-09-08
     other_names: Battery Gregg; Fort Wagner; Morris Island; Fort Sumter
     start_date: 1863-09-05
-    state:
-    - SC
   battles_from:
-  - battle_id: 5388
-    battle_name: "Sept. 7: Occupation of Forts Wagner and Gregg, Morris Island"
-  - battle_id: 5389
-    battle_name: "Sept. 8: Night attack on Fort Sumpter"
+  - slug: South_Carolina/1863-09-07-occupation-of-forts-wagner-and-gregg-morris-island
+  - slug: South_Carolina/1863-09-08-night-attack-on-fort-sumpter
 - battles_cwsac:
-  - battle_name: "Sabine Pass II"
+  - battle_name: Sabine Pass II
     cwsac_id: TX006
     end_date: 1863-09-08
-    other_names: ''
     start_date: 1863-09-08
-    state:
-    - TX
   battles_from:
-  - battle_id: 6937
-    battle_name: 'Sept. 8: Action, Sabine Pass'
-    year: '1863'
+  - slug: Texas/1863-09-08-action-sabine-pass
 - battles_cwsac:
-  - battle_name: "Bayou Fourche"
+  - battle_name: Bayou Fourche
     cwsac_id: AR010
     end_date: 1863-09-10
     other_names: Little Rock
     start_date: 1863-09-10
-    state:
-    - AR
   battles_from:
-  - battle_id: 575
-    battle_name: 'Sept. 10: Engagement, Bayou Fourche and capture of Little Rock'
-    year: '1863'
+  - slug: Arkansas/1863-09-10-engagement-bayou-fourche-and-capture-of-little-rock
 - battles_cwsac:
-  - battle_name: "Davis' Cross Roads"
+  - battle_name: Davis' Cross Roads
     cwsac_id: GA003
     end_date: 1863-09-11
     other_names: Dug Gap
     start_date: 1863-09-10
-    state:
-    - GA
   battles_from:
-  - battle_id: 1367
-    battle_name: 'Sept. 11: Skirmish, Davis'' Cross Roads (or House) near Dug Gap,
-      McLemore''s Cove'
-    year: '1863'
+  - slug: Georgia/1863-09-11-skirmish-davis-cross-roads-or-house-near-dug-gap-mclemore-s-cove
 - battles_cwsac:
-  - battle_name: "Chickamauga"
+  - battle_name: Chickamauga
     cwsac_id: GA004
     end_date: 1863-09-20
-    other_names: ''
     start_date: 1863-09-18
-    state:
-    - GA
-    - TN
   battles_from:
-  - battle_id: 1394
-    battle_name: 'Sept. 19-21: Battle of Chickamauga'
-    casualties: '16179'
-    year: '1863'
+  - slug: Georgia/1863-09-19-1863-09-21-battle-of-chickamauga
 - battles_cwsac:
-  - battle_name: "Blountsville"
+  - battle_name: Blountsville
     cwsac_id: TN019
     end_date: 1863-09-22
-    other_names: ''
     start_date: 1863-09-22
-    state:
-    - TN
   battles_from:
-  - battle_id: 6265
-    battle_name: 'Sept. 22: Engagement, Blountsville'
-    year: '1863'
+  - slug: Tennessee/1863-09-22-engagement-blountsville
 - battles_cwsac:
-  - battle_name: "Stirling's Plantation"
+  - battle_name: Stirling's Plantation
     cwsac_id: LA016
     end_date: 1863-09-29
     other_names: Fordoche Bridge
     start_date: 1863-09-29
-    state:
-    - LA
   battles_from:
-  - battle_id: 2570
-    battle_name: 'Sept. 29: Action, Sterling''s Plantation on Bayou Fordoche, near
-      Morganza'
-    year: '1863'
+  - slug: Louisiana/1863-09-29-action-sterling-s-plantation-on-bayou-fordoche-near-morganza
 - battles_cwsac:
-  - battle_name: "Baxter Springs"
+  - battle_name: Baxter Springs
     cwsac_id: KS002
     end_date: 1863-10-06
     other_names: Baxter Springs Massacre
     start_date: 1863-10-06
-    state:
-    - KS
   battles_from:
-  - battle_id: 1853
-    battle_name: 'Oct. 6: Action, Baxter Springs'
-    year: '1863'
+  - slug: Kansas/1863-10-06-action-baxter-springs
 - battles_cwsac:
-  - battle_name: "Blue Springs"
+  - battle_name: Blue Springs
     cwsac_id: TN020
     end_date: 1863-10-10
-    other_names: ''
+
     start_date: 1863-10-10
-    state:
-    - TN
   battles_from:
-  - battle_id: 6317
-    battle_name: 'Oct. 10: Engagement, Blue Springs'
-    year: '1863'
+  - slug: Tennessee/1863-10-10-engagement-blue-springs
 - battles_cwsac:
-  - battle_name: "Auburn I"
+  - battle_name: Auburn I
     cwsac_id: VA039
     end_date: 1863-10-13
     other_names: Catlett's Station; St. Stephen's Church
     start_date: 1863-10-13
-    state:
-    - VA
   battles_from:
-  - battle_id: 8020
-    battle_name: 'Oct. 13: Action, Auburn'
-    year: '1863'
+  - slug: Virginia/1863-10-13-action-auburn
 - battles_cwsac:
-  - battle_name: "Auburn II"
+  - battle_name: Auburn II
     cwsac_id: VA041
     end_date: 1863-10-14
     other_names: Coffee Hill
     start_date: 1863-10-14
-    state:
-    - VA
   battles_from:
-  - battle_id: 8023
-    battle_name: 'Oct. 14: Engagement, Auburn, Auburn Mills, Auburn Ford'
-    year: '1863'
+  - slug: Virginia/1863-10-14-engagement-auburn-auburn-mills-auburn-ford
 - battles_cwsac:
-  - battle_name: "Bristoe Station"
+  - battle_name: Bristoe Station
     cwsac_id: VA040
     end_date: 1863-10-14
-    other_names: ''
     start_date: 1863-10-14
-    state:
-    - VA
   battles_from:
-  - battle_id: 8022
-    battle_name: 'Oct. 14: Battle of Bristoe Station'
-    year: '1863'
+  - slug: Virginia/1863-10-14-battle-of-bristoe-station
 - battles_cwsac:
-  - battle_name: "Fort Brooke"
+  - battle_name: Fort Brooke
     cwsac_id: FL004
     end_date: 1863-10-18
-    other_names: ''
     start_date: 1863-10-16
-    state:
-    - FL
-  comment: >
-    Neither of these has casualties.
   battles_from:
-  - battle_id: 1221
-    battle_name: "Oct. 17: Action, Tampa Bay"
-  - battle_id: 1220
-    battle_name: "Oct. 16: Engagement, Fort Brooke"
+  - slug: Floria/1863-10-17-action-tampa-bay
+  - slug: Floria/1863-10-16-engagement-fort-brooke
+  comment: 'Neither of these has casualties.'
 - battles_cwsac:
-  - battle_name: "Buckland Mills"
+  - battle_name: Buckland Mills
     cwsac_id: VA042
     end_date: 1863-10-19
     other_names: Buckland Races; Chestnut Hill
     start_date: 1863-10-19
-    state:
-    - VA
   battles_from:
-  - battle_id: 8052
-    battle_name: 'Oct. 19: Action, Buckland''s Mills'
-    year: '1863'
+  - slug: Virginia/1863-10-19-action-buckland-s-mills
 - battles_cwsac:
-  - battle_name: "Pine Bluff"
+  - battle_name: Pine Bluff
     cwsac_id: AR011
     end_date: 1863-10-25
-    other_names: ''
     start_date: 1863-10-25
-    state:
-    - AR
   battles_from:
-  - battle_id: 595
-    battle_name: 'Oct. 25: Skirmish, Pine Bluff'
-    year: '1863'
+  - slug: Arkansas/1863-10-25-skirmish-pine-bluff
 - battles_cwsac:
-  - battle_name: "Wauhatchie"
+  - battle_name: Wauhatchie
     cwsac_id: TN021
     end_date: 1863-10-29
     other_names: Brown's Ferry
     start_date: 1863-10-28
-    state:
-    - TN
   battles_from:
-  - battle_id: 6354
-    battle_name: 'Oct. 28-29: Engagement, Wauhafchie'
-    year: '1863'
+  - slug: Tennessee/1863-10-28-1863-10-29-engagement-wauhafchie
 - battles_cwsac:
-  - battle_name: "Collierville"
+  - battle_name: Collierville
     cwsac_id: TN022
     end_date: 1863-11-03
-    other_names: ''
+
     start_date: 1863-11-03
-    state:
-    - TN
   battles_from:
-  - battle_id: 6361
-    battle_name: 'Nov. 3: Action, Colliersville'
-    year: '1863'
+  - slug: Tennessee/1863-11-03-action-colliersville
 - battles_cwsac:
-  - battle_name: "Droop Mountain"
+  - battle_name: Droop Mountain
     cwsac_id: WV012
     end_date: 1863-11-06
-    other_names: ''
     start_date: 1863-11-06
-    state:
-    - WV
   battles_from:
-  - battle_id: 9376
-    battle_name: 'Nov. 6: Engagement, Droop Mountain'
-    year: '1863'
+  - slug: West_Virginia/1863-11-06-engagement-droop-mountain
 - battles_cwsac:
-  - battle_name: "Rappahannock Station II"
+  - battle_name: Rappahannock Station II
     cwsac_id: VA043
     end_date: 1863-11-07
-    other_names: ''
     start_date: 1863-11-07
-    state:
-    - VA
   battles_from:
-  - battle_id: 8076
-    battle_name: 'Nov. 7: Engagement, Rappahannock Station'
-    year: '1863'
+  - slug: Virginia/1863-11-07-engagement-rappahannock-station
 - battles_cwsac:
-  - battle_name: "Campbell's Station"
+  - battle_name: Campbell's Station
     cwsac_id: TN023
     end_date: 1863-11-16
-    other_names: ''
     start_date: 1863-11-16
-    state:
-    - TN
   battles_from:
-  - battle_id: 6385
-    battle_name: 'Nov. 16: Engagement, Campbell''s Station'
-    year: '1863'
+  - slug: Tennessee/1863-11-16-engagement-campbell-s-station
 - battles_cwsac:
-  - battle_name: "Chattanooga III"
+  - battle_name: Chattanooga III
     cwsac_id: TN024
     end_date: 1863-11-25
-    other_names: ''
     start_date: 1863-11-23
-    state:
-    - TN
-  comment: >
-    Only Campaign, Chattanooga and Ringgold has casualties.
   battles_from:
-  - battle_id: 6399
-    battle_name: "Nov 23-27: Campaign, Chattanooga and Ringgold."
-  - battle_id: 6400
-    battle_name: Skirmish, Bushy Knob
-  - battle_id: 6401
-    battle_name: Engagement. Orchard Knob. Indian Hill.
-  - battle_id: 6402
-    battle_name: Skirmish, foot Missionary Ridge.
-  - battle_id: 6405
-    battle_name: 'Nov. 24-25: Assault and Capture of Lookout Mountain'
-  - battle_id: 6406
-    battle_name: 'Nov. 24-25: Actions at Tunnel Hill, terminus of Missionary Ridge'
-  - battle_id: 6407
-    battle_name: 'Nov. 24-25: Assault and Capture of Missionary Ridge'
+  - slug: Tennessee/1863-11-23-1863-11-27-campaign-chattanooga-and-ringgold
+  - slug: Tennessee/1863-11-23-skirmish-bushy-knob
+  - slug: Tennessee/1863-11-23-engagement-orchard-knob-indian-hill
+  - slug: Tennessee/1863-11-24-skirmish-foot-missionary-ridge
+  - slug: Tennessee/1863-11-24-1863-11-25-assault-and-capture-of-lookout-mountain
+  - slug: Tennessee/1863-11-24-1863-11-25-actions-at-tunnel-hill-terminus-of-missionary-ridge
+  - slug: Tennessee/1863-11-24-1863-11-25-assault-and-capture-of-missionary-ridge
+  comment: 'Only Campaign, Chattanooga and Ringgold has casualties.'
 - battles_cwsac:
-  - battle_name: "Mine Run"
+  - battle_name: Mine Run
     cwsac_id: VA044
     end_date: 1863-12-02
     other_names: Payne's Farm; New Hope Church
     start_date: 1863-11-26
-    state:
-    - VA
   battles_from:
-  - battle_id: 8103
-    battle_name: 'Nov. 26-Dec. 2: Campaign, Mine Run. Actions at Locust Grove, Payne''s
-      Farm, Orange Court House or Orange Grove, Robertson''s Tavern and New Hope Church'
-    year: '1863'
+  - slug: Virginia/1863-11-26-1863-12-02-campaign-mine-run-actions-at-locust-grove-payne-s-farm-orange-court-house-or-orange-grove-robertson-s-tavern-and-new-hope-church
 - battles_cwsac:
-  - battle_name: "Ringgold Gap"
+  - battle_name: Ringgold Gap
     cwsac_id: GA005
     end_date: 1863-11-27
-    other_names: ''
     start_date: 1863-11-27
-    state:
-    - GA
   battles_from:
-  - battle_id: 1401
-    battle_name: 'Nov. 27: Engagement, Ringgold Gap, Taylor''s Ridge'
-    year: '1863'
+  - slug: Georgia/1863-11-27-engagement-ringgold-gap-taylor-s-ridge
 - battles_cwsac:
-  - battle_name: "Fort Sanders"
+  - battle_name: Fort Sanders
     cwsac_id: TN025
     end_date: 1863-11-29
     other_names: Fort Loudon
     start_date: 1863-11-29
-    state:
-    - TN
   battles_from:
-  - battle_id: 6421
-    battle_name: 'Nov. 29: Assault on Forts Saunders and Loudon, Knoxville'
-    year: '1863'
+  - slug: Tennessee/1863-11-29-assault-on-forts-saunders-and-loudon-knoxville
 - battles_cwsac:
-  - battle_name: "Bean's Station"
+  - battle_name: Bean's Station
     cwsac_id: TN026
     end_date: 1863-12-14
-    other_names: ''
     start_date: 1863-12-14
-    state:
-    - TN
   battles_from:
-  - battle_id: 6465
-    battle_name: 'Dec. 14: Engagement, Bean''s Station'
-    year: '1863'
+  - slug: Tennessee/1863-12-14-engagement-bean-s-station
 - battles_cwsac:
-  - battle_name: "Mossy Creek"
+  - battle_name: Mossy Creek
     cwsac_id: TN027
     end_date: 1863-12-29
-    other_names: ''
     start_date: 1863-12-29
-    state:
-    - TN
   battles_from:
-  - battle_id: 6501
-    battle_name: 'Dec. 29: Engagement, Mossy Creek, Talbot Station'
-    year: '1863'
+  - slug: Tennessee/1863-12-29-engagement-mossy-creek-talbot-station
 - battles_cwsac:
-  - battle_name: "Dandridge"
+  - battle_name: Dandridge
     cwsac_id: TN028
     end_date: 1864-01-17
-    other_names: ''
     start_date: 1864-01-17
-    state:
-    - TN
-  comment: >
-    Both "Jan. 16-17: Operations about Dandridge" and "Jan. 16-17: Skirmishes, Bend of Chucky Road, near Dandridge"
-    have casualties and are non-hierarchical.
   battles_from:
-  - battle_id: 6523
-    battle_name: 'Jan. 16-17: Operations about Dandridge'
-    year: '1864'
-  - battle_id: 6524
-    battle_name: 'Jan. 16-17: Skirmishes, Bend of Chucky Road, near Dandridge'
-    year: '1864'
-  - battle_id: 6526
-    battle_name: 'Jan. 17: Action, Dandridge'
-    year: '1864'
+  - slug: Tennessee/1864-01-16-1864-01-17-operations-about-dandridge
+  - slug: Tennessee/1864-01-16-1864-01-17-skirmishes-bend-of-chucky-road-near-dandridge
+  - slug: Tennessee/1864-01-17-action-dandridge
+  comment: 'Both "Jan. 16-17: Operations about Dandridge" and "Jan. 16-17: Skirmishes,
+    Bend of Chucky Road, near Dandridge" have casualties and are non-hierarchical.'
 - battles_cwsac:
-  - battle_name: "Athens"
+  - battle_name: Athens
     cwsac_id: AL002
     end_date: 1864-01-26
-    other_names: ''
     start_date: 1864-01-26
-    state:
-    - AL
-    - TN
   battles_from:
-  - battle_id: 128
-    battle_name: 'Jan. 26: Skirmish, Athens'
-    year: '1864'
+  - slug: Alabama/1864-01-26-skirmish-athens
 - battles_cwsac:
-  - battle_name: "Fair Garden"
+  - battle_name: Fair Garden
     cwsac_id: TN029
     end_date: 1864-01-28
-    other_names: ''
     start_date: 1864-01-27
-    state:
-    - TN
   battles_from:
-  - battle_id: 6549
-    battle_name: 'Jan. 28: Action, Fair Garden'
-    year: '1864'
+  - slug: Tennessee/1864-01-28-action-fair-garden
 - battles_cwsac:
-  - battle_name: "Morton's Ford"
+  - battle_name: Morton's Ford
     cwsac_id: VA045
     end_date: 1864-02-07
     other_names: Rapidan River
     start_date: 1864-02-06
-    state:
-    - VA
   battles_from:
-  - battle_id: 8191
-    battle_name: 'Feb. 6-7: Engagement, Morton''s Ford'
-    year: '1864'
+  - slug: Virginia/1864-02-06-1864-02-07-engagement-morton-s-ford
 - battles_cwsac:
-  - battle_name: "Middle Boggy Depot"
+  - battle_name: Middle Boggy Depot
     cwsac_id: OK005
     end_date: 1864-02-13
     other_names: Middle Boggy
     start_date: 1864-02-13
-    state:
-    - OK
-  relation: "gt"
   battles_from:
-  - battle_name: "Feb 1. Operations in Indian Territory"
-    battle_id: 9742
+  - slug: Indian_Territory/1864-02-01-1864-02-21-operations-in-indian-territory
+  relation: gt
 - battles_cwsac:
-  - battle_name: "Meridian"
+  - battle_name: Meridian
     cwsac_id: MS012
     end_date: 1864-02-20
-    other_names: ''
     start_date: 1864-02-14
-    state:
-    - MS
   battles_from:
-  - battle_id: 3646
-    battle_name: "Feb. 13-14: Skirmishes, Meridian"
-  - battle_id: 3651
-    battle_name: "Feb. 16: Skirmish, Meridian"
-  comment: >
-    This may include many skirmishes in Mississippi from Feb 14--20, 1864.
+  - slug: Mississippi/1864-02-13-1864-02-14-skirmishes-meridian
+  - slug: Mississippi/1864-02-16-skirmish-meridian
+  comment: 'This may include many skirmishes in Mississippi from Feb 14--20, 1864.'
 - battles_cwsac:
-  - battle_name: "Olustee"
+  - battle_name: Olustee
     cwsac_id: FL005
     end_date: 1864-02-20
     other_names: Ocean Pond
     start_date: 1864-02-20
-    state:
-    - FL
   battles_from:
-  - battle_id: 1240
-    battle_name: 'Feb. 20: Battle, Olustee or Ocean Pond'
-    year: '1864'
+  - slug: Floria/1864-02-20-battle-olustee-or-ocean-pond
 - battles_cwsac:
-  - battle_name: "Okolona"
+  - battle_name: Okolona
     cwsac_id: MS013
     end_date: 1864-02-22
-    other_names: ''
     start_date: 1864-02-22
-    state:
-    - MS
   battles_from:
-  - battle_id: 3669
-    battle_name: "Feb. 22: Engagement near Okolona, Ivey's Hill or Farm"
+  - slug: Mississippi/1864-02-22-engagement-near-okolona-ivey-s-hill-or-farm
 - battles_cwsac:
-  - battle_name: "Dalton I"
+  - battle_name: Dalton I
     cwsac_id: GA006
     end_date: 1864-02-27
-    other_names: ''
     start_date: 1864-02-22
-    state:
-    - GA
   battles_from:
-  - battle_id: 1417
-    battle_name: 'Feb. 22-27: Demonstration on Dalton'
-    year: '1864'
+  - slug: Georgia/1864-02-22-1864-02-27-demonstration-on-dalton
 - battles_cwsac:
-  - battle_name: "Walkerton"
+  - battle_name: Walkerton
     cwsac_id: VA125
     end_date: 1864-03-02
     other_names: Mantapike Hill
     start_date: 1864-03-02
-    state:
-    - VA
   battles_from:
-  - battle_id: 8229
-    battle_name: 'March 2: Skirmish near Walkertown'
-    year: '1864'
+  - slug: Virginia/1864-03-02-skirmish-near-walkertown
 - battles_cwsac:
-  - battle_name: "Fort DeRussy"
+  - battle_name: Fort DeRussy
     cwsac_id: LA017
     end_date: 1864-03-14
-    other_names: ''
     start_date: 1864-03-14
-    state:
-    - LA
   battles_from:
-  - battle_id: 2634
-    battle_name: 'March 14: Capture of Fort De Russy'
-    year: '1864'
+  - slug: Louisiana/1864-03-14-capture-of-fort-de-russy
 - battles_cwsac:
-  - battle_name: "Paducah"
+  - battle_name: Paducah
     cwsac_id: KY010
     end_date: 1864-03-25
-    other_names: ''
     start_date: 1864-03-25
-    state:
-    - KY
   battles_from:
-  - battle_id: 2286
-    battle_name: 'March 25: Action, Fort Anderson, Paducah'
-    year: '1864'
+  - slug: Kentucky/1864-03-25-action-fort-anderson-paducah
 - battles_cwsac:
-  - battle_name: "Elkin's Ferry"
+  - battle_name: Elkin's Ferry
     cwsac_id: AR012
     end_date: 1864-04-04
     other_names: Okolona
     start_date: 1864-04-03
-    state:
-    - AR
   battles_from:
-  - battle_id: 733
-    battle_name: 'April 3-4: Engagement Elkins'' Ferry, Little Missouri River'
-    year: '1864'
+  - slug: Arkansas/1864-04-03-1864-04-04-engagement-elkins-ferry-little-missouri-river
 - battles_cwsac:
-  - battle_name: "Mansfield"
+  - battle_name: Mansfield
     cwsac_id: LA018
     end_date: 1864-04-08
     other_names: Sabine Cross-Roads; Pleasant Grove
     start_date: 1864-04-08
-    state:
-    - LA
   battles_from:
-  - battle_id: 2658
-    battle_name: 'April 8: Battle, Sabine Cross Roads, Mansfield, near Pleasant Hill'
-    year: '1864'
+  - slug: Louisiana/1864-04-08-battle-sabine-cross-roads-mansfield-near-pleasant-hill
 - battles_cwsac:
-  - battle_name: "Pleasant Hill"
+  - battle_name: Pleasant Hill
     cwsac_id: LA019
     end_date: 1864-04-09
-    other_names: ''
     start_date: 1864-04-09
-    state:
-    - LA
   battles_from:
-  - battle_id: 2659
-    battle_name: 'April 9: Engagement, Pleasant Hill'
-    year: '1864'
+  - slug: Louisiana/1864-04-09-engagement-pleasant-hill
 - battles_cwsac:
-  - battle_name: "Prairie D'Ane"
+  - battle_name: Prairie D'Ane
     cwsac_id: AR013
     end_date: 1864-04-13
     other_names: Gum Grove; Moscow
     start_date: 1864-04-10
-    state:
-    - AR
   battles_from:
-  - battle_id: 750
-    battle_name: 'April 13: Action, Moscow'
-    year: '1864'
+  - slug: Arkansas/1864-04-13-action-moscow
 - battles_cwsac:
-  - battle_name: "Fort Pillow"
+  - battle_name: Fort Pillow
     cwsac_id: TN030
     end_date: 1864-04-12
-    other_names: ''
     start_date: 1864-04-12
-    state:
-    - TN
   battles_from:
-  - battle_id: 6621
-    battle_name: 'April 12: Massacre, Fort Pillow'
-    year: '1864'
+  - slug: Tennessee/1864-04-12-massacre-fort-pillow
 - battles_cwsac:
-  - battle_name: "Blair's Landing"
+  - battle_name: Blair's Landing
     cwsac_id: LA020
     end_date: 1864-04-12
     other_names: Pleasant Hill Landing
     start_date: 1864-04-12
-    state:
-    - LA
   battles_from:
-  - battle_id: 2661
-    battle_name: 'April 12-13: Action, Pleasant Hill Landing, Blair''s Landing'
-    year: '1864'
+  - slug: Louisiana/1864-04-12-1864-04-13-action-pleasant-hill-landing-blair-s-landing
 - battles_cwsac:
-  - battle_name: "Plymouth"
+  - battle_name: Plymouth
     cwsac_id: NC012
     end_date: 1864-04-20
-    other_names: ''
     start_date: 1864-04-17
-    state:
-    - NC
   battles_from:
-  - battle_id: 5163
-    battle_name: 'April 17-20: Engagement, Siege and Capture, Plymouth.'
-    year: '1864'
+  - slug: North_Carolina/1864-04-17-1864-04-20-engagement-siege-and-capture-plymouth
 - battles_cwsac:
-  - battle_name: "Poison Spring"
+  - battle_name: Poison Spring
     cwsac_id: AR014
     end_date: 1864-04-18
-    other_names: ''
     start_date: 1864-04-18
-    state:
-    - AR
   battles_from:
-  - battle_id: 762
-    battle_name: 'April 18: Engagement, Poison Springs'
-    year: '1864'
+  - slug: Arkansas/1864-04-18-engagement-poison-springs
 - battles_cwsac:
-  - battle_name: "Monett's Ferry"
+  - battle_name: Monett's Ferry
     cwsac_id: LA021
     end_date: 1864-04-23
     other_names: Cane River Crossing
     start_date: 1864-04-23
-    state:
-    - LA
   battles_from:
-  - battle_id: 2671
-    battle_name: 'April 23: Engagement, Monett''s Ferry, or Cane River Crossing'
-    year: '1864'
+  - slug: Louisiana/1864-04-23-engagement-monett-s-ferry-or-cane-river-crossing
 - battles_cwsac:
-  - battle_name: "Marks' Mills"
+  - battle_name: Marks' Mills
     cwsac_id: AR015
     end_date: 1864-04-25
-    other_names: ''
     start_date: 1864-04-25
-    state:
-    - AR
   battles_from:
-  - battle_id: 771
-    battle_name: 'April 25: Engagement. Mark''s Mills'
-    year: '1864'
+  - slug: Arkansas/1864-04-25-engagement-mark-s-mills
 - battles_cwsac:
-  - battle_name: "Jenkin's Ferry"
+  - battle_name: Jenkin's Ferry
     cwsac_id: AR016
     end_date: 1864-04-30
-    other_names: ''
     start_date: 1864-04-30
-    state:
-    - AR
   battles_from:
-  - battle_id: 778
-    battle_name: 'April 30: Engagement, Jenkin''s Ferry, Saline River'
-    year: '1864'
+  - slug: Arkansas/1864-04-30-engagement-jenkin-s-ferry-saline-river
 - battles_cwsac:
-  - battle_name: "Albemarle Sound"
+  - battle_name: Albemarle Sound
     cwsac_id: NC013
     end_date: 1864-05-05
-    other_names: ''
     start_date: 1864-05-05
-    state:
-    - NC
   battles_from:
-  - battle_id: 5170
-    battle_name: 'May 5: Engagement in Roanoke River, with Ram "Albemarle"'
-    year: '1864'
+  - slug: North_Carolina/1864-05-05-engagement-in-roanoke-river-with-ram-albemarle
 - battles_cwsac:
-  - battle_name: "Wilderness"
+  - battle_name: Wilderness
     cwsac_id: VA046
     end_date: 1864-05-06
     other_names: Combats at Parker's Store; Craig's Meeting House; Todd's Tavern;
       Brock Road; the Furnaces
     start_date: 1864-05-05
-    state:
-    - VA
   battles_from:
-  - battle_id: 8288
-    battle_name: 'May 5-7: Battle of the Wilderness'
-    year: '1864'
+  - slug: Virginia/1864-05-05-1864-05-07-battle-of-the-wilderness
 - battles_cwsac:
-  - battle_name: "Port Walthall Junction"
+  - battle_name: Port Walthall Junction
     cwsac_id: VA047
     end_date: 1864-05-07
-    other_names: ''
     start_date: 1864-05-06
-    state:
-    - VA
   battles_from:
-  - battle_id: 8293
-    battle_name: 'May 6-7: Action, Port Walthal Junction, Chester Station, Richmond
-      & Petersburg R. R.'
-    year: '1864'
+  - slug: Virginia/1864-05-06-1864-05-07-action-port-walthal-junction-chester-station-richmond-petersburg-r-r
 - battles_cwsac:
-  - battle_name: "Rocky Face Ridge"
+  - battle_name: Rocky Face Ridge
     cwsac_id: GA007
     end_date: 1864-05-13
     other_names: Combats at Buzzard Roost; Mill Creek; Dug Gap
     start_date: 1864-05-07
-    state:
-    - GA
-  comment: >
-    Only "May 8-11: Demonstration against Rocky Faced Ridge" has casualties.
   battles_from:
-  - battle_id: 1449
-    battle_name: "May 8: Combat, Dug Gap or Mill Creek"
-  - battle_id: 1450
-    battle_name: "May 8-11: Demonstration against Rocky Faced Ridge"
-  - battle_id: 1451
-    battle_name: "May 8-9: Combat, Buzzard's Roost Gap or Mill Creek"
+  - slug: Georgia/1864-05-08-combat-dug-gap-or-mill-creek
+  - slug: Georgia/1864-05-08-1864-05-11-demonstration-against-rocky-faced-ridge
+  - slug: Georgia/1864-05-08-1864-05-09-combat-buzzard-s-roost-gap-or-mill-creek
+  comment: 'Only "May 8-11: Demonstration against Rocky Faced Ridge" has casualties.'
 - battles_cwsac:
-  - battle_name: "Spotsylvania Court House"
+  - battle_name: Spotsylvania Court House
     cwsac_id: VA048
     end_date: 1864-05-21
     other_names: Combats at Laurel Hill and Corbin's Bridge (May 8); Ni River (May
@@ -3124,1682 +1942,1050 @@
       (May 12-13); Piney Branch Church (May 15); Harrison House (May 18); Harris Farm
       (May 19)
     start_date: 1864-05-08
-    state:
-    - VA
   battles_from:
-  - battle_id: 8304
-    battle_name: 'May 8-21: Battles of Spottsylvania Court House, Laurel Hill, Ny
-      River, Fredericksburg Road'
-    year: '1864'
+  - slug: Virginia/1864-05-08-1864-05-21-battles-of-spottsylvania-court-house-laurel-hill-ny-river-fredericksburg-road
 - battles_cwsac:
-  - battle_name: "Cloyd's Mountain"
+  - battle_name: Cloyd's Mountain
     cwsac_id: VA049
     end_date: 1864-05-09
-    other_names: ''
     start_date: 1864-05-09
-    state:
-    - VA
   battles_from:
-  - battle_id: 8305
-    battle_name: 'May 9: Engagement, Cloyd''s Mountain or Cloyd''s Farm'
-    year: '1864'
+  - slug: Virginia/1864-05-09-engagement-cloyd-s-mountain-or-cloyd-s-farm
 - battles_cwsac:
-  - battle_name: "Swift Creek"
+  - battle_name: Swift Creek
     cwsac_id: VA050
     end_date: 1864-05-09
     other_names: Arrowfield Church
     start_date: 1864-05-09
-    state:
-    - VA
   battles_from:
-  - battle_id: 8316
-    battle_name: 'May 9: Engagement, Swift Creek or Arrowfield Church'
-    year: '1864'
+  - slug: Virginia/1864-05-09-engagement-swift-creek-or-arrowfield-church
 - battles_cwsac:
-  - battle_name: "Cove Mountain"
+  - battle_name: Cove Mountain
     cwsac_id: VA109
     end_date: 1864-05-10
-    other_names: ''
     start_date: 1864-05-10
-    state:
-    - VA
   battles_from:
-  - battle_id: 8322
-    battle_name: 'May 10: Engagement, Grassy Lick, Cove Mountain, near Wytheville'
-    casualties: ''
-    end_date: 1864-05-10
-    event_type: Engagement
-    killed: ''
-    killed_wounded: ''
-    missing_captured: ''
-    start_date: 1864-05-10
-    state: VA
-    text: OHIO--34th Infantry. PENNSYLVANIA--14th Cavalry. WEST VIRGINIA--1st, 2d
-      and 3d Cavalry.
-    wounded: ''
-    year: '1864'
+  - slug: Virginia/1864-05-10-engagement-grassy-lick-cove-mountain-near-wytheville
 - battles_cwsac:
-  - battle_name: "Chester Station"
+  - battle_name: Chester Station
     cwsac_id: VA051
     end_date: 1864-05-10
-    other_names: ''
     start_date: 1864-05-10
-    state:
-    - VA
   battles_from:
-  - battle_id: 8317
-    battle_name: 'May 10: Action, Chester Station'
-    year: '1864'
+  - slug: Virginia/1864-05-10-action-chester-station
 - battles_cwsac:
-  - battle_name: "Proctor's Creek"
+  - battle_name: Proctor's Creek
     cwsac_id: VA053
     end_date: 1864-05-16
     other_names: Drewry's Bluff; Fort Darling
     start_date: 1864-05-12
-    state:
-    - VA
   battles_from:
-  - battle_id: 8343
-    battle_name: 'May 12-16: Engagement and battle, Proctor''s Creek and Drewry''s
-      Bluff or Fort Darling'
-    year: '1864'
+  - slug: Virginia/1864-05-12-1864-05-16-engagement-and-battle-proctor-s-creek-and-drewry-s-bluff-or-fort-darling
 - battles_cwsac:
-  - battle_name: "Resaca"
+  - battle_name: Resaca
     cwsac_id: GA008
     end_date: 1864-05-15
-    other_names: ''
     start_date: 1864-05-13
-    state:
-    - GA
   battles_from:
-  - battle_id: 1463
-    battle_name: 'May 14-15: Battle of Resaca'
-    year: '1864'
+  - slug: Georgia/1864-05-14-1864-05-15-battle-of-resaca
 - battles_cwsac:
-  - battle_name: "New Market"
+  - battle_name: New Market
     cwsac_id: VA110
     end_date: 1864-05-15
-    other_names: ''
     start_date: 1864-05-15
-    state:
-    - VA
   battles_from:
-  - battle_id: 8351
-    battle_name: 'May 15: Engagement, New Market'
-    year: '1864'
+  - slug: Virginia/1864-05-15-engagement-new-market
 - battles_cwsac:
-  - battle_name: "Mansura"
+  - battle_name: Mansura
     cwsac_id: LA022
     end_date: 1864-05-16
     other_names: Smith's Place; Marksville
     start_date: 1864-05-16
-    state:
-    - LA
   battles_from:
-  - battle_id: 2730
-    battle_name: 'May 16: Engagement, Mansura, Belle Prairie, or Smith''s Plantation,
-      Marksville'
-    year: '1864'
+  - slug: Louisiana/1864-05-16-engagement-mansura-belle-prairie-or-smith-s-plantation-marksville
 - battles_cwsac:
-  - battle_name: "Adairsville"
+  - battle_name: Adairsville
     cwsac_id: GA009
     end_date: 1864-05-17
-    other_names: ''
     start_date: 1864-05-17
-    state:
-    - GA
   battles_from:
-  - battle_id: 1472
-    battle_name: 'May 17: Engagement, Adairsville'
-    year: '1864'
+  - slug: Georgia/1864-05-17-engagement-adairsville
 - battles_cwsac:
-  - battle_name: "Yellow Bayou"
+  - battle_name: Yellow Bayou
     cwsac_id: LA023
     end_date: 1864-05-18
     other_names: Norwood's Plantation
     start_date: 1864-05-18
-    state:
-    - LA
   battles_from:
-  - battle_id: 2735
-    battle_name: 'May 18: Engagement, Yellow Bayou, Bayou de Glaze, Norwood''s Plantation
-      or Old Oaks'
-    year: '1864'
+  - slug: Louisiana/1864-05-18-engagement-yellow-bayou-bayou-de-glaze-norwood-s-plantation-or-old-oaks
 - battles_cwsac:
-  - battle_name: "Ware Bottom Church"
+  - battle_name: Ware Bottom Church
     cwsac_id: VA054
     end_date: 1864-05-29
-    other_names: ''
     start_date: 1864-05-20
-    state:
-    - VA
   battles_from:
-  - battle_id: 8368
-    battle_name: "May 20: Action, Ware Bottom Church"
+  - slug: Virginia/1864-05-20-action-ware-bottom-church
 - battles_cwsac:
-  - battle_name: "North Anna"
+  - battle_name: North Anna
     cwsac_id: VA055
     end_date: 1864-05-26
     other_names: Telegraph Road Bridge; Jericho Mill (May 23); Ox Ford; Quarles Mill;
       Hanover Junction (May 24)
     start_date: 1864-05-23
-    state:
-    - VA
   battles_from:
-  - battle_id: 8379
-    battle_name: 'May 22-26: Operations on line of the North Anna River, and engagements'
-    year: '1864'
+  - slug: Virginia/1864-05-22-1864-05-26-operations-on-line-of-the-north-anna-river-and-engagements
 - battles_cwsac:
-  - battle_name: "Wilson's Wharf"
+  - battle_name: Wilson's Wharf
     cwsac_id: VA056
     end_date: 1864-05-24
     other_names: Fort Pocahontas
     start_date: 1864-05-24
-    state:
-    - VA
   battles_from:
-  - battle_id: 8382
-    battle_name: 'May 24: Action, Wilson''s Wharf Landing'
-    year: '1864'
+  - slug: Virginia/1864-05-24-action-wilson-s-wharf-landing
 - battles_cwsac:
-  - battle_name: "New Hope Church"
+  - battle_name: New Hope Church
     cwsac_id: GA010
     end_date: 1864-06-05
-    other_names: ''
     start_date: 1864-05-25
-    state:
-    - GA
   battles_from:
-  - battle_id: 1492
-    battle_name:  "May 25: Combat, New Hope Church"
+  - slug: Georgia/1864-05-25-combat-new-hope-church
 - battles_cwsac:
-  - battle_name: "Pickett's Mill"
+  - battle_name: Pickett's Mill
     cwsac_id: GA012
     end_date: 1864-05-27
     other_names: New Hope; New Hope Church
     start_date: 1864-05-27
-    state:
-    - GA
   battles_from:
-  - battle_id: 1495
-    battle_name: 'May 27: Action, Pickett''s Mills'
-    year: '1864'
+  - slug: Georgia/1864-05-27-action-pickett-s-mills
 - battles_cwsac:
-  - battle_name: "Totopotomoy Creek"
+  - battle_name: Totopotomoy Creek
     cwsac_id: VA057
     end_date: 1864-05-30
     other_names: Bethesda Church; Crumps Creek; Matadequin Creek; Shady Grove Road;
       Hanovertown
     start_date: 1864-05-28
-    state:
-    - VA
   battles_from:
-  - battle_id: 8403
-    battle_name: 'May 28-31: Operations and engagements on line of the Totopotomoy
-      River'
-    year: '1864'
+  - slug: Virginia/1864-05-28-1864-05-31-operations-and-engagements-on-line-of-the-totopotomoy-river
 - battles_cwsac:
-  - battle_name: "Dallas"
+  - battle_name: Dallas
     cwsac_id: GA011
     end_date: 1864-06-01
     other_names: New Hope Church; Pumpkinvine Creek
     start_date: 1864-05-26
-    state:
-    - GA
   battles_from:
-  - battle_id: 1494
-    battle_name: "May 26-June 1: Combats at and about Dallas"
+  - slug: Georgia/1864-05-26-1864-06-01-combats-at-and-about-dallas
 - battles_cwsac:
-  - battle_name: "Haw's Shop"
+  - battle_name: Haw's Shop
     cwsac_id: VA058
     end_date: 1864-05-28
     other_names: Enon Church
     start_date: 1864-05-28
-    state:
-    - VA
   battles_from:
-  - battle_id: 8399
-    battle_name: 'May 28: Engagement, Haw''s Shop'
-    year: '1864'
+  - slug: Virginia/1864-05-28-engagement-haw-s-shop
 - battles_cwsac:
-  - battle_name: "Old Church"
+  - battle_name: Old Church
     cwsac_id: VA059
     end_date: 1864-05-30
     other_names: Matadequin Creek
     start_date: 1864-05-30
-    state:
-    - VA
   battles_from:
-  - battle_id: 8407
-    battle_name: 'May 30: Engagement, Old Church'
-    year: '1864'
+  - slug: Virginia/1864-05-30-engagement-old-church
 - battles_cwsac:
-  - battle_name: "Cold Harbor"
+  - battle_name: Cold Harbor
     cwsac_id: VA062
     end_date: 1864-06-12
     other_names: Second Cold Harbor
     start_date: 1864-05-31
-    state:
-    - VA
   battles_from:
-  - battle_id: 8422
-    battle_name: 'June 1-12: Battles about Cold Harbor'
-    year: '1864'
+  - slug: Virginia/1864-06-01-1864-06-12-battles-about-cold-harbor
 - battles_cwsac:
-  - battle_name: "Piedmont"
+  - battle_name: Piedmont
     cwsac_id: VA111
     end_date: 1864-06-05
     other_names: Piedmont
     start_date: 1864-06-05
-    state:
-    - VA
   battles_from:
-  - battle_id: 8441
-    battle_name: 'June 5: Engagement, Piedmont, Mount Crawford'
-    year: '1864'
+  - slug: Virginia/1864-06-05-engagement-piedmont-mount-crawford
 - battles_cwsac:
-  - battle_name: "Old River Lake"
+  - battle_name: Old River Lake
     cwsac_id: AR017
     end_date: 1864-06-06
     other_names: Ditch Bayou; Lake Chicot; Lake Village; Furlough; Fish Bayou; Grand
       Lake
     start_date: 1864-06-06
-    state:
-    - AR
   battles_from:
-  - battle_id: 817
-    battle_name: 'June 6: Engagement, Old River Lake, or Lake Chicot, also known as
-      Ditch Bayou, Fish Bayou, Grand Lake and Grand Village'
-    year: '1864'
+  - slug: Arkansas/1864-06-06-engagement-old-river-lake-or-lake-chicot-also-known-as-ditch-bayou-fish-bayou-grand-lake-and-grand-village
 - battles_cwsac:
-  - battle_name: "Petersburg I"
+  - battle_name: Petersburg I
     cwsac_id: VA098
     end_date: 1864-06-09
     other_names: Old Men and Young Boys
     start_date: 1864-06-09
-    state:
-    - VA
   battles_from:
-  - battle_id: 8447
-    battle_name: 'June 9: Engagement, Petersburg'
-    year: '1864'
+  - slug: Virginia/1864-06-09-engagement-petersburg
 - battles_cwsac:
-  - battle_name: "Marietta Operations"
-    other_names:
-      - Brushy Mountain,
-      - Gilgal Church,
-      - Lost Mountain,
-      - Mcaffee's Cross Road,
-      - Mud Creek
-      - Neal Dow Station
-      - Noonday Creek
-      - Pine Hill,
-      - Pine Mountain
-      - Rottenwood Creek
-      - Ruff's Mill
+  - battle_name: Marietta Operations
     cwsac_id: GA013
     end_date: 1864-07-03
-    other_names: Marietta Operations
+    other_names:
+    - Brushy Mountain,
+    - Gilgal Church,
+    - Lost Mountain,
+    - Mcaffee's Cross Road,
+    - Mud Creek
+    - Neal Dow Station
+    - Noonday Creek
+    - Pine Hill,
+    - Pine Mountain
+    - Rottenwood Creek
+    - Ruff's Mill
     start_date: 1864-06-10
-    state:
-    - GA
   battles_from:
-  - battle_id: 1520
-    battle_name: "June 10-July 2: Operations about Marietta and against Kenesaw Mountain"
+  - slug: Georgia/1864-06-10-1864-07-02-operations-about-marietta-and-against-kenesaw-mountain
 - battles_cwsac:
-  - battle_name: "Brices Cross Roads"
+  - battle_name: Brices Cross Roads
     cwsac_id: MS014
     end_date: 1864-06-10
     other_names: Tishomingo Creek
     start_date: 1864-06-10
-    state:
-    - MS
   battles_from:
-  - battle_id: 3714
-    battle_name: "June 10: Battle of Brice's or Tishamingo Creek, near Guntown"
+  - slug: Mississippi/1864-06-10-battle-of-brice-s-or-tishamingo-creek-near-guntown
 - battles_cwsac:
-  - battle_name: "Trevilian Station"
+  - battle_name: Trevilian Station
     cwsac_id: VA099
     end_date: 1864-06-12
     other_names: Trevilians
     start_date: 1864-06-11
-    state:
-    - VA
   battles_from:
-  - battle_id: 8459
-    battle_name: 'June 11-12: Engagement, Trevillian Station, Central Railroad'
-    year: '1864'
+  - slug: Virginia/1864-06-11-1864-06-12-engagement-trevillian-station-central-railroad
 - battles_cwsac:
-  - battle_name: "Cynthiana"
+  - battle_name: Cynthiana
     cwsac_id: KY011
     end_date: 1864-06-12
     other_names: Kellar's Bridge
     start_date: 1864-06-11
-    state:
-    - KY
   battles_from:
-  - battle_id: 2323
-    battle_name: 'June 12: Action, Cynthiana'
-    year: '1864'
+  - slug: Kentucky/1864-06-12-action-cynthiana
 - battles_cwsac:
-  - battle_name: "Petersburg II"
+  - battle_name: Petersburg II
     cwsac_id: VA063
     end_date: 1864-06-18
     other_names: Assault on Petersburg
     start_date: 1864-06-15
-    state:
-    - VA
   battles_from:
-  - battle_id: 8486
-    battle_name: 'June 16-18: Assaults on Petersburg'
-    year: '1864'
+  - slug: Virginia/1864-06-16-1864-06-18-assaults-on-petersburg
 - battles_cwsac:
-  - battle_name: "Lynchburg"
+  - battle_name: Lynchburg
     cwsac_id: VA064
     end_date: 1864-06-18
-    other_names: ''
     start_date: 1864-06-17
-    state:
-    - VA
   battles_from:
-  - battle_id: 8489
-    battle_name: 'June 17-18: Engagement, Lynchburg'
-    year: '1864'
+  - slug: Virginia/1864-06-17-1864-06-18-engagement-lynchburg
 - battles_cwsac:
-  - battle_name: "Jerusalem Plank Road"
+  - battle_name: Jerusalem Plank Road
     cwsac_id: VA065
     end_date: 1864-06-23
     other_names: First Battle of Weldon Railroad
     start_date: 1864-06-21
-    state:
-    - VA
   battles_from:
-  - battle_name: "June 22: Engagement, Jerusalem Plank Road or Weldon R. R."
-    battle_id: 8510
-  comment: >
-    This probably should include several other skirmishes.
+  - slug: Virginia/1864-06-22-engagement-jerusalem-plank-road-or-weldon-r-r
+  comment: 'This probably should include several other skirmishes.'
 - battles_cwsac:
-  - battle_name: "Kolb's Farm"
+  - battle_name: Kolb's Farm
     cwsac_id: GA014
     end_date: 1864-06-22
-    other_names: ''
     start_date: 1864-06-22
-    state:
-    - GA
   battles_from:
-  - battle_id: 1546
-    battle_name: 'June 22: Combat, Kolb''s Farm'
-    year: '1864'
+  - slug: Georgia/1864-06-22-combat-kolb-s-farm
 - battles_cwsac:
-  - battle_name: "Saint Mary's Church"
+  - battle_name: Saint Mary's Church
     cwsac_id: VA066
     end_date: 1864-06-24
     other_names: Nance's Shop
     start_date: 1864-06-24
-    state:
-    - VA
   battles_from:
-  - battle_id: 8526
-    battle_name: 'June 24: Engagement, Samaria Church, Saint Mary''s Church'
-    year: '1864'
+  - slug: Virginia/1864-06-24-engagement-samaria-church-saint-mary-s-church
 - battles_cwsac:
-  - battle_name: "Staunton River Bridge"
+  - battle_name: Staunton River Bridge
     cwsac_id: VA113
     end_date: 1864-06-25
     other_names: Blacks and Whites; Old Men and Young Boys
     start_date: 1864-06-25
-    state:
-    - VA
   battles_from:
-  - battle_id: 8527
-    battle_name: 'June 25: Action, Staunton River Bridge, or Roanoke Station'
-    year: '1864'
+  - slug: Virginia/1864-06-25-action-staunton-river-bridge-or-roanoke-station
 - battles_cwsac:
-  - battle_name: "Kennesaw Mountain"
+  - battle_name: Kennesaw Mountain
     cwsac_id: GA015
     end_date: 1864-06-27
-    other_names: ''
     start_date: 1864-06-27
-    state:
-    - GA
   battles_from:
-  - battle_id: 1557
-    battle_name: 'June 27: General assault on Kenesaw Mountain'
-    year: '1864'
+  - slug: Georgia/1864-06-27-general-assault-on-kenesaw-mountain
 - battles_cwsac:
-  - battle_name: "Sappony Church"
+  - battle_name: Sappony Church
     cwsac_id: VA067
     end_date: 1864-06-28
     other_names: Stony Creek Depot
     start_date: 1864-06-28
-    state:
-    - VA
   battles_from:
-  - battle_id: 8535
-    battle_name: 'June 28-29: Engagement, Sappony Church or Stony Creek'
-    year: '1864'
+  - slug: Virginia/1864-06-28-1864-06-29-engagement-sappony-church-or-stony-creek
 - battles_cwsac:
-  - battle_name: "Ream's Station I"
+  - battle_name: Ream's Station I
     cwsac_id: VA068
     end_date: 1864-06-29
     other_names: Reams' Station
     start_date: 1864-06-29
-    state:
-    - VA
   battles_from:
-  - battle_id: 8536
-    battle_name: 'June 29: Engagement, Ream''s Station'
-    year: '1864'
+  - slug: Virginia/1864-06-29-engagement-ream-s-station
 - battles_cwsac:
-  - battle_name: "Monocacy"
+  - battle_name: Monocacy
     cwsac_id: MD007
     end_date: 1864-07-09
     other_names: Battle that Saved Washington
     start_date: 1864-07-09
-    state:
-    - MD
   battles_from:
-  - battle_id: 3062
-    battle_name: 'July 9: Battle of Monocacy'
-    year: '1864'
+  - slug: Maryland/1864-07-09-battle-of-monocacy
 - battles_cwsac:
-  - battle_name: "Fort Stevens"
+  - battle_name: Fort Stevens
     cwsac_id: DC001
     end_date: 1864-07-12
     other_names: Washington
     start_date: 1864-07-11
-    state:
-    - DC
   battles_from:
-  - battle_id: 9911
-    battle_name: "July 11: Action at Fort Stevens and along Northern Defences of Washington"
-  - battle_id: 9910
-    battle_name: "July 11: Skirmish near Fort Stevens"
+  - slug: District_of_Columbia/1864-07-11-1864-07-12-action-at-fort-stevens-and-along-northern-defences-of-washington
+  - slug: District_of_Columbia/1864-07-11-skirmish-near-fort-stevens
 - battles_cwsac:
-  - battle_name: "Tupelo"
+  - battle_name: Tupelo
     cwsac_id: MS015
     end_date: 1864-07-15
     other_names: Harrisburg
     start_date: 1864-07-14
-    state:
-    - MS
   battles_from:
-  - battle_id: 3748
-    battle_name: "July 14-15: Engagement, Harrisburg, near Tupelo"
+  - slug: Mississippi/1864-07-14-1864-07-15-engagement-harrisburg-near-tupelo
 - battles_cwsac:
-  - battle_name: "Cool Spring"
+  - battle_name: Cool Spring
     cwsac_id: VA114
     end_date: 1864-07-18
     other_names: Island Ford; Parkers Ford; Snickers Ferry; Castleman's Ferry
     start_date: 1864-07-17
-    state:
-    - VA
   battles_from:
-  - battle_id: 8564
-    battle_name: 'July 17-18: Engagement, Snicker''s Ferry or Parker''s Ford, Shenandoah
-      River'
-    year: '1864'
+  - slug: Virginia/1864-07-17-1864-07-18-engagement-snicker-s-ferry-or-parker-s-ford-shenandoah-river
 - battles_cwsac:
-  - battle_name: "Rutherford's Farm"
+  - battle_name: Rutherford's Farm
     cwsac_id: VA115
     end_date: 1864-07-20
-    other_names: ''
     start_date: 1864-07-20
-    state:
-    - VA
   battles_from:
-  - battle_id: 8572
-    battle_name: 'July 20: Engagement, Stephenson''s Depot, Carter''s Farm'
-    year: '1864'
+  - slug: Virginia/1864-07-20-engagement-stephenson-s-depot-carter-s-farm
 - battles_cwsac:
-  - battle_name: "Peachtree Creek"
+  - battle_name: Peachtree Creek
     cwsac_id: GA016
     end_date: 1864-07-20
-    other_names: ''
     start_date: 1864-07-20
-    state:
-    - GA
   battles_from:
-  - battle_id: 1604
-    battle_name: 'July 19-20: Battle of Peach Tree Creek'
-    year: '1864'
+  - slug: Georgia/1864-07-19-1864-07-20-battle-of-peach-tree-creek
 - battles_cwsac:
-  - battle_name: "Atlanta"
+  - battle_name: Atlanta
     cwsac_id: GA017
     end_date: 1864-07-22
-    other_names: ''
     start_date: 1864-07-22
-    state:
-    - GA
   battles_from:
-  - battle_id: 1609
-    battle_name: 'July 22: Battle of Atlanta'
-    year: '1864'
+  - slug: Georgia/1864-07-22-battle-of-atlanta
 - battles_cwsac:
-  - battle_name: "Kernstown II"
+  - battle_name: Kernstown II
     cwsac_id: VA116
     end_date: 1864-07-24
-    other_names: ''
     start_date: 1864-07-24
-    state:
-    - VA
   battles_from:
-  - battle_id: 8583
-    battle_name: 'July 24: Engagement, Kernstown or Winchester'
-    year: '1864'
+  - slug: Virginia/1864-07-24-engagement-kernstown-or-winchester
 - battles_cwsac:
-  - battle_name: "Deep Bottom I"
+  - battle_name: Deep Bottom I
     cwsac_id: VA069
     end_date: 1864-07-27
     other_names: Darbytown; Strawberry Plains; New Market Road; Gravel Hill
     start_date: 1864-07-27
-    state:
-    - VA
   battles_from:
-  - battle_id: 8590
-    battle_name: 'July 27-29: Demonstration on north side of the James River and engagements
-      at Deep Bottom or Darbytown, Strawberry Plains and New Market Road'
-    year: '1864'
+  - slug: Virginia/1864-07-27-1864-07-29-demonstration-on-north-side-of-the-james-river-and-engagements-at-deep-bottom-or-darbytown-strawberry-plains-and-new-market-road
 - battles_cwsac:
-  - battle_name: "Killdeer Mountain"
+  - battle_name: Killdeer Mountain
     cwsac_id: ND005
     end_date: 1864-07-29
     other_names: Tahkahokuty Mountain
     start_date: 1864-07-28
-    state:
-    - ND
   battles_from:
-  - battle_id: 9640
-    battle_name: "July 28: Action, Tahkahakuty"
+  - slug: Dakota_Territories/1864-07-28-action-tahkahakuty
 - battles_cwsac:
-  - battle_name: "Ezra Church"
+  - battle_name: Ezra Church
     cwsac_id: GA018
     end_date: 1864-07-28
     other_names: Battle of the Poor House
     start_date: 1864-07-28
-    state:
-    - GA
   battles_from:
-  - battle_id: 1626
-    battle_name: 'July 28: Battle of Ezra Chapel (Hood''s 2nd Sortie)'
-    year: '1864'
+  - slug: Georgia/1864-07-28-battle-of-ezra-chapel-hood-s-2nd-sortie
 - battles_cwsac:
-  - battle_name: "Crater"
+  - battle_name: Crater
     cwsac_id: VA070
     end_date: 1864-07-30
     other_names: The Mine
     start_date: 1864-07-30
-    state:
-    - VA
   battles_from:
-  - battle_id: 8602
-    battle_name: 'July 30: Explosion of Petersburg Mine and assault on the Crater'
-    year: '1864'
+  - slug: Virginia/1864-07-30-explosion-of-petersburg-mine-and-assault-on-the-crater
 - battles_cwsac:
-  - battle_name: "Folck's Mill"
+  - battle_name: Folck's Mill
     cwsac_id: MD008
     end_date: 1864-08-01
     other_names: Cumberland
     start_date: 1864-08-01
-    state:
-    - MD
   battles_from:
-  - battle_id: 3079
-    battle_name: 'Aug. 1: Attack on Cumberland, Pleasant Hill'
-    year: '1864'
+  - slug: Maryland/1864-08-01-attack-on-cumberland-pleasant-hill
 - battles_cwsac:
-  - battle_name: "Mobile Bay"
+  - battle_name: Mobile Bay
     cwsac_id: AL003
     end_date: 1864-08-23
     other_names: Passing of Forts Morgan and Gaines
     start_date: 1864-08-02
-    state:
-    - AL
-  comment: >
-    Only "Aug. 5: Battle of Forts Gaines and Morgan, Mobile Bay" has casualties.
   battles_from:
-  - battle_id: 199
-    battle_name: 'Aug. 2-23: Operations in Mobile Bay against Forts Gaines and Morgan'
-  - battle_id: 200
-    battle_name: "Aug 2: Landing at Dauphin Island"
-  - battle_id: 201
-    battle_name: "Aug. 5: Battle of Forts Gaines and Morgan, Mobile Bay"
-  - battle_id: 202
-    battle_name: "Aug 3-9: Siege and Capture of Fort Gaines"
-  - battle_id: 203
-    battle_name: "Aug 5-23: Siege and Capture of Fort Morgan"
-  - battle_id: 204
-    battle_name: "Aug 5: Engagement. Fort Morgan"
-  - battle_id: 205
-    battle_name: "Evacuation of Fort Powell"
+  - slug: Alabama/1864-08-02-1864-08-23-operations-in-mobile-bay-against-forts-gaines-and-morgan
+  - slug: Alabama/1864-08-03-landing-at-dauphin-s-island
+  - slug: Alabama/1864-08-05-battle-of-forts-gaines-and-morgan-mobile-bay
+  - slug: Alabama/1864-08-03-1864-08-09-siege-and-capture-of-fort-gaines
+  - slug: Alabama/1864-08-05-1864-08-23-siege-and-capture-of-fort-morgan
+  - slug: Alabama/1864-08-05-engagement-fort-morgan
+  - slug: Alabama/1864-08-05-evacuation-of-fort-powell
+  comment: 'Only "Aug. 5: Battle of Forts Gaines and Morgan, Mobile Bay" has casualties.'
 - battles_cwsac:
-  - battle_name: "Utoy Creek"
+  - battle_name: Utoy Creek
     cwsac_id: GA019
     end_date: 1864-08-07
-    other_names: ''
     start_date: 1864-08-05
-    state:
-    - GA
   battles_from:
-  - battle_id: 1640
-    battle_name: 'Aug. 5-7: Combat, Utoy Creek'
-    year: '1864'
+  - slug: Georgia/1864-08-05-1864-08-07-combat-utoy-creek
 - battles_cwsac:
-  - battle_name: "Moorefield"
+  - battle_name: Moorefield
     cwsac_id: WV013
     end_date: 1864-08-07
     other_names: Oldfields
     start_date: 1864-08-07
-    state:
-    - WV
   battles_from:
-  - battle_id: 9495
-    battle_name: 'Aug. 7: Engagement near Moorefield (Oldfield)'
-    year: '1864'
+  - slug: West_Virginia/1864-08-07-engagement-near-moorefield-oldfield
 - battles_cwsac:
-  - battle_name: "Deep Bottom II"
+  - battle_name: Deep Bottom II
     cwsac_id: VA071
     end_date: 1864-08-20
     other_names: New Market Road; Fussell's Mill; Bailey's Creek; Charles City Road;
       and White's Tavern
     start_date: 1864-08-13
-    state:
-    - VA
   battles_from:
-  - battle_id: 8626
-    battle_name: 'Aug. 13-20: Demonstration on north side of James River and engagements
-      at Deep Bottom or Strawberry Plains, Fussell''s Mills, Bailey''s Creek, Deep
-      Run, Charles City Cross Roads, New Market Road, White''s Tavern and Four Mile
-      Run'
-    casualties: '2901'
-    year: '1864'
+  - slug: Virginia/1864-08-13-1864-08-20-demonstration-on-north-side-of-james-river-and-engagements-at-deep-bottom-or-strawberry-plains-fussell-s-mills-bailey-s-creek-deep-run-charles-city-cross-roads-new-market-road-white-s-tavern-and-four-mile-run
 - battles_cwsac:
-  - battle_name: "Dalton II"
+  - battle_name: Dalton II
     cwsac_id: GA020
     end_date: 1864-08-15
-    other_names: ''
     start_date: 1864-08-14
-    state:
-    - GA
   battles_from:
-  - battle_id: 1645
-    battle_name: 'Aug. 14-15: Actions, Dalton'
-    year: '1864'
+  - slug: Georgia/1864-08-14-1864-08-15-actions-dalton
 - battles_cwsac:
-  - battle_name: "Guard Hill"
+  - battle_name: Guard Hill
     cwsac_id: VA117
     end_date: 1864-08-16
     other_names: Front Royal; Cedarville
     start_date: 1864-08-16
-    state:
-    - VA
   battles_from:
-  - battle_id: 8635
-    battle_name: 'Aug. 16: Engagement, Cedarville, Guard Hill or Front Royal'
-    year: '1864'
+  - slug: Virginia/1864-08-16-engagement-cedarville-guard-hill-or-front-royal
 - battles_cwsac:
-  - battle_name: "Globe Tavern"
+  - battle_name: Globe Tavern
     cwsac_id: VA072
     end_date: 1864-08-21
     other_names: Second Battle of Weldon Railroad; Yellow Tavern; Yellow House; Blick's
       Station
     start_date: 1864-08-18
-    state:
-    - VA
   battles_from:
-  - battle_id: 8649
-    battle_name: 'Aug. 18-21: Battle of Weldon R. R., Globe Tavern or Yellow House
-      and Blick''s Station or Six Mile House'
-    year: '1864'
+  - slug: Virginia/1864-08-18-1864-08-21-battle-of-weldon-r-r-globe-tavern-or-yellow-house-and-blick-s-station-or-six-mile-house
 - battles_cwsac:
-  - battle_name: "Lovejoy's Station"
+  - battle_name: Lovejoy's Station
     cwsac_id: GA021
     end_date: 1864-08-20
-    other_names: ''
     start_date: 1864-08-20
-    state:
-    - GA
   battles_from:
-  - battle_id: 1656
-    battle_name: 'Aug. 20: Combat, Lovejoy Station (Macon and Western R. R.)'
-    year: '1864'
+  - slug: Georgia/1864-08-20-combat-lovejoy-station-macon-and-western-r-r
 - battles_cwsac:
-  - battle_name: "Summit Point"
+  - battle_name: Summit Point
     cwsac_id: WV014
     end_date: 1864-08-21
     other_names: Flowing Springs; Cameron's Depot
     start_date: 1864-08-21
-    state:
-    - WV
-    - VA
   battles_from:
-  - battle_name: "Aug. 21-22: Skirmishes near Charlestown, Flowing or Welch's Springs"
-    battle_id: 9500
+  - slug: West_Virginia/1864-08-21-1864-08-22-skirmishes-near-charlestown-flowing-or-welch-s-springs
 - battles_cwsac:
-  - battle_name: "Memphis II"
+  - battle_name: Memphis II
     cwsac_id: TN031
     end_date: 1864-08-21
-    other_names: ''
     start_date: 1864-08-21
-    state:
-    - TN
   battles_from:
-  - battle_id: 6691
-    battle_name: 'Aug. 21: Engagement, Memphis (with Forest)'
-    year: '1864'
+  - slug: Tennessee/1864-08-21-engagement-memphis-with-forrest
 - battles_cwsac:
-  - battle_name: "Ream's Station II"
+  - battle_name: Ream's Station II
     cwsac_id: VA073
     end_date: 1864-08-25
     other_names: Reams' Station
     start_date: 1864-08-25
-    state:
-    - VA
   battles_from:
-  - battle_id: 8664
-    battle_name: 'Aug. 25: Battle, Ream''s Station'
-    year: '1864'
+  - slug: Virginia/1864-08-25-battle-ream-s-station
 - battles_cwsac:
-  - battle_name: "Smithfield Crossing"
+  - battle_name: Smithfield Crossing
     cwsac_id: WV015
     end_date: 1864-08-29
-    other_names: ''
     start_date: 1864-08-28
-    state:
-    - WV
   battles_from:
-  - battle_id: 9522
-    battle_name: 'Aug. 29: Engagement, Smithfield Crossing of the Opequan'
-    year: '1864'
+  - slug: West_Virginia/1864-08-29-engagement-smithfield-crossing-of-the-opequan
 - battles_cwsac:
-  - battle_name: "Jonesborough"
+  - battle_name: Jonesborough
     cwsac_id: GA022
     end_date: 1864-09-01
-    other_names: ''
     start_date: 1864-08-31
-    state:
-    - GA
   battles_from:
-  - battle_id: 1674
-    battle_name: 'Aug. 31-Sept. 1: Battle of Jonesborough'
-    year: '1864'
+  - slug: Georgia/1864-08-31-1864-09-01-battle-of-jonesborough
 - battles_cwsac:
-  - battle_name: "Berryville"
+  - battle_name: Berryville
     cwsac_id: VA118
     end_date: 1864-09-04
-    other_names: ''
     start_date: 1864-09-03
-    state:
-    - VA
   battles_from:
-  - battle_id: 8677
-    battle_name: 'Sept. 4: Skirmish, Berryville'
-    year: '1864'
+  - slug: Virginia/1864-09-04-skirmish-berryville
 - battles_cwsac:
-  - battle_name: "Opequon"
+  - battle_name: Opequon
     cwsac_id: VA119
     end_date: 1864-09-19
     other_names: Third Winchester
     start_date: 1864-09-19
-    state:
-    - VA
   battles_from:
-  - battle_id: 8709
-    battle_name: 'Sept. 19: Battle of Opequan, Winchester'
-    year: '1864'
+  - slug: Virginia/1864-09-19-battle-of-opequan-winchester
 - battles_cwsac:
-  - battle_name: "Fisher's Hill"
+  - battle_name: Fisher's Hill
     cwsac_id: VA120
     end_date: 1864-09-22
-    other_names: ''
     start_date: 1864-09-21
-    state:
-    - VA
   battles_from:
-  - battle_id: 8716
-    battle_name: 'Sept. 22: Battle of Fisher''s Hill, Woodstock'
-    year: '1864'
+  - slug: Virginia/1864-09-22-battle-of-fisher-s-hill-woodstock
 - battles_cwsac:
-  - battle_name: "Fort Davidson"
+  - battle_name: Fort Davidson
     cwsac_id: MO021
     end_date: 1864-09-28
     other_names: Pilot Knob
     start_date: 1864-09-26
-    state:
-    - MO
   battles_from:
-  - battle_name: "Sept. 26: Engagement, Fort Davidson, Pilot Knob"
-    battle_id: 4784
+  - slug: Missouri/1864-09-26-engagement-fort-davidson-pilot-knob
 - battles_cwsac:
-  - battle_name: "Chaffin's Farm / New Market Heights"
+  - battle_name: Chaffin's Farm / New Market Heights
     cwsac_id: VA075
     end_date: 1864-09-30
     other_names: Combats at New Market Heights; Forts Harrison; Johnson; and Gilmer;
       Laurel Hill
     start_date: 1864-09-29
-    state:
-    - VA
   battles_from:
-  - battle_id: 8740
-    battle_name: 'Sept. 29-30: Engagement, Chaffin''s Farm, Fort Harrison, Fort Gilmer,
-      New Market Heights and Laurel Hill'
-    year: '1864'
+  - slug: Virginia/1864-09-29-1864-09-30-engagement-chaffin-s-farm-fort-harrison-fort-gilmer-new-market-heights-and-laurel-hill
 - battles_cwsac:
-  - battle_name: "Peebles' Farm"
+  - battle_name: Peebles' Farm
     cwsac_id: VA074
     end_date: 1864-10-02
     other_names: Poplar Springs Church; Wyatt's Farm; Chappell's House; Pegram's Farm;
       Vaughan Road; Harmon Road
     start_date: 1864-09-30
-    state:
-    - VA
   battles_from:
-  - battle_id: 8746
-    battle_name: 'Sept. 29-Oct. 2: Battle of Poplar Springs Church, Peeble''s Farm,
-      Pegram''s Farm, Chappell House and Laurel Hill'
-    year: '1864'
+  - slug: Virginia/1864-09-29-1864-10-02-battle-of-poplar-springs-church-peeble-s-farm-pegram-s-farm-chappell-house-and-laurel-hill
 - battles_cwsac:
-  - battle_name: "Saltville I"
+  - battle_name: Saltville I
     cwsac_id: VA076
     end_date: 1864-10-02
-    other_names: ''
     start_date: 1864-10-02
-    state:
-    - VA
   battles_from:
-  - battle_id: 8760
-    battle_name: 'Oct. 2: Action, Saltsville'
-    year: '1864'
+  - slug: Virginia/1864-10-02-action-saltsville
 - battles_cwsac:
-  - battle_name: "Allatoona"
+  - battle_name: Allatoona
     cwsac_id: GA023
     end_date: 1864-10-05
-    other_names: ''
     start_date: 1864-10-05
-    state:
-    - GA
   battles_from:
-  - battle_id: 1710
-    battle_name: 'Oct. 5: Engagement, Allatoona'
-    year: '1864'
+  - slug: Georgia/1864-10-05-engagement-allatoona
 - battles_cwsac:
-  - battle_name: "Darbytown & New Market Roads"
+  - battle_name: Darbytown & New Market Roads
     cwsac_id: VA077
     end_date: 1864-10-07
     other_names: Johnson's Farm; Fourmile Creek
     start_date: 1864-10-07
-    state:
-    - VA
   battles_from:
-  - battle_id: 8779
-    battle_name: 'Oct. 7: Engagement, Darbytown and New Market Roads, Johnson''s Farm
-      and Creek, Four Mile Creek'
-    year: '1864'
+  - slug: Virginia/1864-10-07-engagement-darbytown-and-new-market-roads-johnson-s-farm-and-creek-four-mile-creek
 - battles_cwsac:
-  - battle_name: "Tom's Brook"
+  - battle_name: Tom's Brook
     cwsac_id: VA121
     end_date: 1864-10-09
     other_names: Woodstock Races
     start_date: 1864-10-09
-    state:
-    - VA
   battles_from:
-  - battle_id: 8783
-    battle_name: 'Oct. 8-9: Engagement, Tom''s Brook, "Woodstock Races," Fisher''s
-      Hill, Strasburg'
-    year: '1864'
+  - slug: Virginia/1864-10-08-1864-10-09-engagement-tom-s-brook-woodstock-races-fisher-s-hill-strasburg
 - battles_cwsac:
-  - battle_name: "Darbytown Road"
+  - battle_name: Darbytown Road
     cwsac_id: VA078
     end_date: 1864-10-13
     other_names: Alms House
     start_date: 1864-10-13
-    state:
-    - VA
   battles_from:
-  - battle_id: 8791
-    battle_name: 'Oct. 13: Engagement, Darbytown Road'
-    year: '1864'
+  - slug: Virginia/1864-10-13-engagement-darbytown-road
 - battles_cwsac:
-  - battle_name: "Glasgow"
+  - battle_name: Glasgow
     cwsac_id: MO022
     end_date: 1864-10-15
-    other_names: ''
     start_date: 1864-10-15
-    state:
-    - MO
   battles_from:
-  - battle_id: 4821
-    battle_name: 'Oct. 15: Action, Glasgow'
-    year: '1864'
+  - slug: Missouri/1864-10-15-action-glasgow
 - battles_cwsac:
-  - battle_name: "Cedar Creek"
+  - battle_name: Cedar Creek
     cwsac_id: VA122
     end_date: 1864-10-19
     other_names: Belle Grove
     start_date: 1864-10-19
-    state:
-    - VA
   battles_from:
-  - battle_id: 8801
-    battle_name: 'Oct. 19: Battle of Cedar Creek, Middletown, Belle Grove'
-    year: '1864'
+  - slug: Virginia/1864-10-19-battle-of-cedar-creek-middletown-belle-grove
 - battles_cwsac:
-  - battle_name: "Lexington II"
+  - battle_name: Lexington II
     cwsac_id: MO023
     end_date: 1864-10-19
-    other_names: ''
     start_date: 1864-10-19
-    state:
-    - MO
   battles_from:
-  - battle_id: 4827
-    battle_name: 'Oct. 19: Action, Lexington'
-    casualties: ''
-    end_date: 1864-10-19
-    year: '1864'
+  - end_date: 1864-10-19
+    slug: Missouri/1864-10-19-action-lexington
 - battles_cwsac:
-  - battle_name: "Little Blue River"
+  - battle_name: Little Blue River
     cwsac_id: MO024
     end_date: 1864-10-21
     other_names: Westport
     start_date: 1864-10-21
-    state:
-    - MO
   battles_from:
-  - battle_id: 4830
-    battle_name: 'Oct. 21: Action, Little Blue'
-    year: '1864'
+  - slug: Missouri/1864-10-21-action-little-blue
 - battles_cwsac:
-  - battle_name: "Independence II"
+  - battle_name: Independence II
     cwsac_id: MO025
     end_date: 1864-10-22
-    other_names: ''
     start_date: 1864-10-22
-    state:
-    - MO
   battles_from:
-  - battle_id: 4832
-    battle_name: 'Oct. 22: Action, Independence'
-    year: '1864'
+  - slug: Missouri/1864-10-22-action-independence
 - battles_cwsac:
-  - battle_name: "Byram's Ford"
+  - battle_name: Byram's Ford
     cwsac_id: MO026
     end_date: 1864-10-23
     other_names: Big Blue River
     start_date: 1864-10-22
-    state:
-    - MO
   battles_from:
-  - battle_id: 4834
-    battle_name: 'Oct. 23: Engagement, Westport, Big Blue'
-    year: '1864'
+  - slug: Missouri/1864-10-23-engagement-westport-big-blue
 - battles_cwsac:
-  - battle_name: "Westport"
+  - battle_name: Westport
     cwsac_id: MO027
     end_date: 1864-10-23
-    other_names: ''
     start_date: 1864-10-23
-    state:
-    - MO
   battles_from:
-  - battle_id: 4834
-    battle_name: 'Oct. 23: Engagement, Westport, Big Blue'
-    year: '1864'
+  - slug: Missouri/1864-10-23-engagement-westport-big-blue
 - battles_cwsac:
-  - battle_name: "Marmiton River"
+  - battle_name: Marmiton River
     cwsac_id: MO028
     end_date: 1864-10-25
     other_names: Shiloh Creek; Charlot's Farm
     start_date: 1864-10-25
-    state:
-    - MO
-    - KS
   battles_from:
-  - battle_id: 4836
-    battle_name: 'Oct. 25: Engagement at the Marmiton or Battle of Charlot'
-    year: '1864'
-
+  - slug: Missouri/1864-10-25-engagement-at-the-marmiton-or-battle-of-charlot
 - battles_cwsac:
-  - battle_name: "Marais Des Cygnes"
+  - battle_name: Marais Des Cygnes
     cwsac_id: KS004
     end_date: 1864-10-25
     other_names: Battle of Osage; Battle of Trading Post
     start_date: 1864-10-25
-    state:
-    - KS
   battles_from:
-  - battle_id: 1868
-    battle_name: 'Oct. 25: Engagement, Mine Creek, Little Osage River, Marias des
-      Cygnes'
-    year: '1864'
+  - slug: Kansas/1864-10-25-engagement-mine-creek-little-osage-river-marias-des-cygnes
 - battles_cwsac:
-  - battle_name: "Mine Creek"
+  - battle_name: Mine Creek
     cwsac_id: KS003
     end_date: 1864-10-25
     other_names: Battle of the Osage
     start_date: 1864-10-25
-    state:
-    - KS
   battles_from:
-  - battle_id: 1868
-    battle_name: 'Oct. 25: Engagement, Mine Creek, Little Osage River, Marias des
-      Cygnes'
-    year: '1864'
-
+  - slug: Kansas/1864-10-25-engagement-mine-creek-little-osage-river-marias-des-cygnes
 - battles_cwsac:
-  - battle_name: "Decatur"
+  - battle_name: Decatur
     cwsac_id: AL004
     end_date: 1864-10-29
-    other_names: ''
     start_date: 1864-10-26
-    state:
-    - AL
   battles_from:
-  - battle_id: 237
-    battle_name: 'Oct. 26-29: Siege of Decatur'
-    year: '1864'
+  - slug: Alabama/1864-10-26-1864-10-29-siege-of-decatur
 - battles_cwsac:
-  - battle_name: "Boydton Plank Road"
+  - battle_name: Boydton Plank Road
     cwsac_id: VA079
     end_date: 1864-10-27
     other_names: Hatcher's Run; Burgess' Mill
     start_date: 1864-10-27
-    state:
-    - VA
   battles_from:
-  - battle_id: 8810
-    battle_name: 'Oct. 27-28: Engagement, Fair Oaks and Darbytown Road, near Richmond'
-    year: '1864'
+  - slug: Virginia/1864-10-27-1864-10-28-engagement-fair-oaks-and-darbytown-road-near-richmond
 - battles_cwsac:
-  - battle_name: "Fair Oaks & Darbytown Road"
+  - battle_name: Fair Oaks & Darbytown Road
     cwsac_id: VA080
     end_date: 1864-10-28
     other_names: Second Fair Oaks
     start_date: 1864-10-27
-    state:
-    - VA
   battles_from:
-  - battle_id: 8810
-    battle_name: 'Oct. 27-28: Engagement, Fair Oaks and Darbytown Road, near Richmond'
-    year: '1864'
+  - slug: Virginia/1864-10-27-1864-10-28-engagement-fair-oaks-and-darbytown-road-near-richmond
 - battles_cwsac:
-  - battle_name: "Newtonia II"
+  - battle_name: Newtonia II
     cwsac_id: MO029
     end_date: 1864-10-28
-    other_names: ''
     start_date: 1864-10-28
-    state:
-    - MO
   battles_from:
-  - battle_id: 4845
-    battle_name: 'Oct. 28: Engagement, Newtonia'
-    year: '1864'
+  - slug: Missouri/1864-10-28-engagement-newtonia
 - battles_cwsac:
-  - battle_name: "Sand Creek"
+  - battle_name: Sand Creek
     cwsac_id: CO001
     end_date: 1864-11-29
     other_names: Chivington Massacre
     start_date: 1864-11-29
-    state:
-    - CO
   battles_from:
-  - battle_id: 9607
-    battle_name: "Nov. 29: Engagement on Sand Creek"
+  - slug: Colorado_Territory/1864-11-29-engagement-on-sand-creek
 - battles_cwsac:
-  - battle_name: "Johnsonville"
+  - battle_name: Johnsonville
     cwsac_id: TN032
     end_date: 1864-11-04
-    other_names: ''
     start_date: 1864-11-03
-    state:
-    - TN
   battles_from:
-  - battle_id: 6763
-    battle_name: 'Nov. 4-5: Action, Johnsonville'
-    year: '1864'
+  - slug: Tennessee/1864-11-04-1864-11-05-action-johnsonville
 - battles_cwsac:
-  - battle_name: "Bull's Gap"
+  - battle_name: Bull's Gap
     cwsac_id: TN033
     end_date: 1864-11-14
-    other_names: ''
     start_date: 1864-11-11
-    state:
-    - TN
   battles_from:
-  - battle_id: 6769
-    battle_name: 'Nov. 14: Action, Russellsville'
-    year: '1864'
+  - slug: Tennessee/1864-11-14-action-russellsville
 - battles_cwsac:
-  - battle_name: "Griswoldville"
+  - battle_name: Griswoldville
     cwsac_id: GA025
     end_date: 1864-11-22
-    other_names: ''
     start_date: 1864-11-22
-    state:
-    - GA
   battles_from:
-  - battle_id: 1766
-    battle_name: 'Nov. 22: Engagement, Griswoldsville'
-    year: '1864'
+  - slug: Georgia/1864-11-22-engagement-griswoldsville
 - battles_cwsac:
-  - battle_name: "Columbia"
+  - battle_name: Columbia
     cwsac_id: TN034
     end_date: 1864-11-29
-    other_names: ''
     start_date: 1864-11-24
-    state:
-    - TN
   battles_from:
-  - battle_id: 6789
-    battle_name: 'Nov. 29: Action, Columbia Ford'
-    year: '1864'
+  - slug: Tennessee/1864-11-29-action-columbia-ford
 - battles_cwsac:
-  - battle_name: "Buck Head Creek"
+  - battle_name: Buck Head Creek
     cwsac_id: GA026
     end_date: 1864-11-28
-    other_names: ''
     start_date: 1864-11-28
-    state:
-    - GA
   battles_from:
-  - battle_id: 1778
-    battle_name: 'Nov. 28: Engagement, Buckhead Creek or Reynolds'' Plantation'
-    year: '1864'
+  - slug: Georgia/1864-11-28-engagement-buckhead-creek-or-reynolds-plantation
 - battles_cwsac:
-  - battle_name: "Spring Hill"
+  - battle_name: Spring Hill
     cwsac_id: TN035
     end_date: 1864-11-29
-    other_names: ''
     start_date: 1864-11-29
-    state:
-    - TN
   battles_from:
-  - battle_id: 6791
-    battle_name: 'Nov. 29: Engagement, Spring Hill'
-    year: '1864'
+  - slug: Tennessee/1864-11-29-engagement-spring-hill
 - battles_cwsac:
-  - battle_name: "Honey Hill"
+  - battle_name: Honey Hill
     cwsac_id: SC010
     end_date: 1864-11-30
-    other_names: ''
     start_date: 1864-11-30
-    state:
-    - SC
   battles_from:
-  - battle_id: 5424
-    battle_name: 'Nov. 30: Engagement, Honey Hill, Broad River, Grahamsville'
-    year: '1864'
+  - slug: South_Carolina/1864-11-30-engagement-honey-hill-broad-river-grahamsville
 - battles_cwsac:
-  - battle_name: "Franklin II"
+  - battle_name: Franklin II
     cwsac_id: TN036
     end_date: 1864-11-30
-    other_names: ''
     start_date: 1864-11-30
-    state:
-    - TN
   battles_from:
-  - battle_id: 6794
-    battle_name: 'Nov. 30: Battle of Franklin'
-    year: '1864'
+  - slug: Tennessee/1864-11-30-battle-of-franklin
 - battles_cwsac:
-  - battle_name: "Waynesborough"
+  - battle_name: Waynesborough
     cwsac_id: GA027
     end_date: 1864-12-04
-    other_names: ''
     start_date: 1864-12-04
-    state:
-    - GA
   battles_from:
-  - battle_id: 1787
-    battle_name: 'Dec. 4: Engagement, Waynesborough'
-    year: '1864'
+  - slug: Georgia/1864-12-04-engagement-waynesborough
 - battles_cwsac:
-  - battle_name: "Murfreesboro II"
+  - battle_name: Murfreesboro II
     cwsac_id: TN037
     end_date: 1864-12-07
     other_names: Wilkinson Pike; Cedars
     start_date: 1864-12-05
-    state:
-    - TN
   battles_from:
-  - battle_id: 6804
-    battle_name: 'Dec. 5-7: Demonstration on Murfreesboro'
-    year: '1864'
+  - slug: Tennessee/1864-12-05-1864-12-07-demonstration-on-murfreesboro
 - battles_cwsac:
-  - battle_name: "Fort Fisher I"
+  - battle_name: Fort Fisher I
     cwsac_id: NC014
     end_date: 1864-12-27
-    other_names: ''
     start_date: 1864-12-07
-    state:
-    - NC
   battles_from: []
-  comments: >
-    Not in Dyer.
+  comments: 'Not in Dyer.'
 - battles_cwsac:
-  - battle_name: "Fort Mcallister II"
+  - battle_name: Fort Mcallister II
     cwsac_id: GA028
     end_date: 1864-12-13
-    other_names: ''
     start_date: 1864-12-13
-    state:
-    - GA
   battles_from:
-  - battle_id: 1809
-    battle_name: 'Dec. 13: Engagement, Fort McAllister'
-    year: '1864'
+  - slug: Georgia/1864-12-13-engagement-fort-mcallister
 - battles_cwsac:
-  - battle_name: "Nashville"
+  - battle_name: Nashville
     cwsac_id: TN038
     end_date: 1864-12-16
-    other_names: ''
     start_date: 1864-12-15
-    state:
-    - TN
   battles_from:
-  - battle_id: 6823
-    battle_name: 'Dec. 15-16: Battle of Nashville'
-    year: '1864'
+  - slug: Tennessee/1864-12-15-1864-12-16-battle-of-nashville
 - battles_cwsac:
-  - battle_name: "Marion"
+  - battle_name: Marion
     cwsac_id: VA081
     end_date: 1864-12-18
-    other_names: ''
     start_date: 1864-12-16
-    state:
-    - VA
   battles_from:
-  - battle_id: 8885
-    battle_name: 'Dec. 17-18: Engagement near Marion'
-    year: '1864'
+  - slug: Virginia/1864-12-17-1864-12-18-engagement-near-marion
 - battles_cwsac:
-  - battle_name: "Saltville II"
+  - battle_name: Saltville II
     cwsac_id: VA082
     end_date: 1864-12-21
-    other_names: ''
     start_date: 1864-12-20
-    state:
-    - VA
   battles_from:
-  - battle_id: 8889
-    battle_name: 'Dec. 20-21: Capture of Saltsville'
-    year: '1864'
-
+  - slug: Virginia/1864-12-20-1864-12-21-capture-of-saltsville
 - battles_cwsac:
-  - battle_name: "Fort Fisher II"
+  - battle_name: Fort Fisher II
     cwsac_id: NC015
     end_date: 1865-01-15
-    other_names: ''
     start_date: 1865-01-13
-    state:
-    - NC
   battles_from:
-  - battle_id: 5187
-    battle_name: 'Jan. 15: Assault and Capture of Fort Fisher'
-    year: '1865'
+  - slug: North_Carolina/1865-01-15-assault-and-capture-of-fort-fisher
 - battles_cwsac:
-  - battle_name: "Rivers' Bridge"
+  - battle_name: Rivers' Bridge
     cwsac_id: SC011
     end_date: 1865-02-03
     other_names: Salkehatchie River; Hickory Hill; Owens' Crossroads; Lawtonville;
       Duck Creek
     start_date: 1865-02-02
-    state:
-    - SC
   battles_from:
-  - battle_id: 5453
-    battle_name: 'Feb. 3: Action, River''s Bridge, Salkehatchie River'
-    year: '1865'
+  - slug: South_Carolina/1865-02-03-action-river-s-bridge-salkehatchie-river
 - battles_cwsac:
-  - battle_name: "Hatcher's Run"
+  - battle_name: Hatcher's Run
     cwsac_id: VA083
     end_date: 1865-02-07
     other_names: Dabney's Mill; Rowanty Creek; Armstrong's Mill; Vaughan Road
     start_date: 1865-02-05
-    state:
-    - VA
   battles_from:
-  - battle_id: 8907
-    battle_name: 'Feb. 5-7: Battle of Dabney''s Mills, Hatcher''s Run, Armstrong''s
-      Mills, Rowanty Creek and Vaughan Road'
-    year: '1865'
+  - slug: Virginia/1865-02-05-1865-02-07-battle-of-dabney-s-mills-hatcher-s-run-armstrong-s-mills-rowanty-creek-and-vaughan-road
 - battles_cwsac:
-  - battle_name: "Wilmington"
+  - battle_name: Wilmington
     cwsac_id: NC016
     end_date: 1865-02-22
     other_names: Fort Anderson; Town Creek; Forks Road; Sugar Loaf Hill
     start_date: 1865-02-12
-    state:
-    - NC
   battles_from:
-  - battle_id: 5197
-    battle_name: 'Feb. 22: Occupation of Wilmington'
-    year: '1865'
+  - slug: North_Carolina/1865-02-22-occupation-of-wilmington
 - battles_cwsac:
-  - battle_name: "Waynesboro"
+  - battle_name: Waynesboro
     cwsac_id: VA123
     end_date: 1865-03-02
-    other_names: ''
     start_date: 1865-03-02
-    state:
-    - VA
   battles_from:
-  - battle_id: 8921
-    battle_name: 'March 2: Engagement, Waynesborough'
-    year: '1865'
+  - slug: Virginia/1865-03-02-engagement-waynesborough
 - battles_cwsac:
-  - battle_name: "Natural Bridge"
+  - battle_name: Natural Bridge
     cwsac_id: FL006
     end_date: 1865-03-06
-    other_names: ''
     start_date: 1865-03-06
-    state:
-    - FL
   battles_from:
-  - battle_id: 1321
-    battle_name: 'March 6: Skirmish, Natural Bridge'
-    year: '1865'
+  - slug: Floria/1865-03-06-skirmish-natural-bridge
 - battles_cwsac:
-  - battle_name: "Wyse Fork"
+  - battle_name: Wyse Fork
     cwsac_id: NC017
     end_date: 1865-03-10
     other_names: Wilcox's Bridge; Wise's Fork; Second Kinston; Second Southwest Creek;
       Kelly's Mill Pond
     start_date: 1865-03-07
-    state:
-    - NC
   battles_from:
-  - battle_id: 5203
-    battle_name: 'March 8-10: Battle of Kinston, or Wise''s Forks'
-    year: '1865'
+  - slug: North_Carolina/1865-03-08-1865-03-10-battle-of-kinston-or-wise-s-forks
 - battles_cwsac:
-  - battle_name: "Monroe's Cross Roads"
+  - battle_name: Monroe's Cross Roads
     cwsac_id: NC018
     end_date: 1865-03-10
     other_names: Fayetteville Road; Blue's Farm
     start_date: 1865-03-10
-    state:
-    - NC
-  diff_states: True
-  diff_dates: True
   battles_from:
-  - battle_name: "March 8: Engagement, Monroe's Cross Roads"
-    battle_id: 5507
-  comment: >
-    Dyer has this taking place on Mar 8th in South Carolina, but it appears
-    to be the same battle.
+  - slug: South_Carolina/1865-03-08-engagement-monroe-s-cross-roads
+  comment: 'Dyer has this taking place on Mar 8th in South Carolina, but it appears
+    to be the same battle.'
+  diff_dates: true
+  diff_states: true
 - battles_cwsac:
-  - battle_name: "Averasborough"
+  - battle_name: Averasborough
     cwsac_id: NC019
     end_date: 1865-03-16
     other_names: Taylor's Hole Creek; Smithville; Smiths Ferry; Black River
     start_date: 1865-03-16
-    state:
-    - NC
   battles_from:
-  - battle_id: 5210
-    battle_name: 'March 16: Battle of Averysborough, or Taylor''s Hole Creek'
-    year: '1865'
+  - slug: North_Carolina/1865-03-16-battle-of-averysborough-or-taylor-s-hole-creek
 - battles_cwsac:
-  - battle_name: "Bentonville"
+  - battle_name: Bentonville
     cwsac_id: NC020
     end_date: 1865-03-21
     other_names: Bentonsville
     start_date: 1865-03-19
-    state:
-    - NC
   battles_from:
-  - battle_id: 5219
-    battle_name: 'March 19-21: Battle of Bentonville'
-    year: '1865'
+  - slug: North_Carolina/1865-03-19-1865-03-21-battle-of-bentonville
 - battles_cwsac:
-  - battle_name: "Fort Stedman"
+  - battle_name: Fort Stedman
     cwsac_id: VA084
     end_date: 1865-03-25
-    other_names: ''
     start_date: 1865-03-25
-    state:
-    - VA
   battles_from:
-  - battle_id: 8950
-    battle_name: 'March 25: Assault on Fort Stedman'
-    year: '1865'
+  - slug: Virginia/1865-03-25-assault-on-fort-stedman
 - battles_cwsac:
-  - battle_name: "Spanish Fort"
+  - battle_name: Spanish Fort
     cwsac_id: AL005
     end_date: 1865-04-08
-    other_names: ''
     start_date: 1865-03-27
-    state:
-    - AL
   battles_from:
-  - battle_id: 9971
-    battle_name: 'March 27-April 9: Siege and Capture of Spanish Fort'
+  - slug: Alabama/1865-04-08-capture-of-spanish-fort
 - battles_cwsac:
-  - battle_name: "Lewis's Farm"
+  - battle_name: Lewis's Farm
     cwsac_id: VA085
     end_date: 1865-03-29
     other_names: Quaker Road; Military Road; Gravelly Road
     start_date: 1865-03-29
-    state:
-    - VA
   battles_from:
-  - battle_id: 8958
-    battle_name: 'March 29: Engagement, Lewis Farm, near Gravelly Run'
-    year: '1865'
+  - slug: Virginia/1865-03-29-engagement-lewis-farm-near-gravelly-run
 - battles_cwsac:
-  - battle_name: "White Oak Road"
+  - battle_name: White Oak Road
     cwsac_id: VA087
     end_date: 1865-03-31
     other_names: Hatcher's Run; Gravelly Run; Boydton Plank Road; White Oak Ridge
     start_date: 1865-03-31
-    state:
-    - VA
   battles_from:
-  - battle_id: 8963
-    battle_name: 'March 31: Engagement, White Oak Road'
-    year: '1865'
+  - slug: Virginia/1865-03-31-engagement-white-oak-road
 - battles_cwsac:
-  - battle_name: "Dinwiddie Court House"
+  - battle_name: Dinwiddie Court House
     cwsac_id: VA086
     end_date: 1865-03-31
-    other_names: ''
     start_date: 1865-03-31
-    state:
-    - VA
   battles_from:
-  - battle_id: 8961
-    battle_name: 'March 30-31: Engagement, Dinwiddie Court House'
-    year: '1865'
-
+  - slug: Virginia/1865-03-30-1865-03-31-engagement-dinwiddie-court-house
 - battles_cwsac:
-  - battle_name: "Five Forks"
+  - battle_name: Five Forks
     cwsac_id: VA088
     end_date: 1865-04-01
-    other_names: ''
     start_date: 1865-04-01
-    state:
-    - VA
   battles_from:
-  - battle_id: 8966
-    battle_name: 'April 1: Battle of Five Forks'
-    year: '1865'
-
+  - slug: Virginia/1865-04-01-battle-of-five-forks
 - battles_cwsac:
   - battle_name: Spanish Fort
     cwsac_id: AL005
   - battle_name: Fort Blakely
     cwsac_id: AL006
-
   battles_from:
-  - battle_name: "Mar 17-Apr 12: Campaign Against Mobile and its Defencesa"
-    battle_id: 272
-
-  comment: >
-    This is included in addition to the entries for each of Spanish Fort
-    and Fort Blakely. The casualties for the total campaign are slightly
-    higher thn the sum of entries for the assaults on each fort.
-
+  - slug: Alabama/1865-03-17-1865-04-12-campaign-against-mobile-and-its-defences
+  comment: 'This is included in addition to the entries for each of Spanish Fort and
+    Fort Blakely. The casualties for the total campaign are slightly higher thn the
+    sum of entries for the assaults on each fort.'
 - battles_cwsac:
-  - battle_name: "Fort Blakely"
+  - battle_name: Fort Blakely
     cwsac_id: AL006
     end_date: 1865-04-09
-    other_names: ''
     start_date: 1865-04-02
-    state:
-    - AL
-  comment: >
-    Casualties are split out in the text even though only entry is provided.
   battles_from:
-  - battle_id: 9972
-    battle_name: 'March 27-April 9:Capture of Fort Blakely'
-
+  - slug: Alabama/1865-04-09-capture-of-fort-blakely
+  comment: 'Casualties are split out in the text even though only entry is provided.'
 - battles_cwsac:
-  - battle_name: "Selma"
+  - battle_name: Selma
     cwsac_id: AL007
     end_date: 1865-04-02
-    other_names: ''
     start_date: 1865-04-02
-    state:
-    - AL
   battles_from:
-  - battle_id: 297
-    battle_name: 'April 2: Engagement, Selma'
-    year: '1865'
-
+  - slug: Alabama/1865-04-02-engagement-selma
 - battles_cwsac:
-  - battle_name: "Petersburg III"
+  - battle_name: Petersburg III
     cwsac_id: VA089
     end_date: 1865-04-02
     other_names: Petersburg
     start_date: 1865-04-02
-    state:
-    - VA
   battles_from:
-  - battle_id: 8968
-    battle_name: 'April 2: Assault and capture of lines before Petersburg'
-    year: '1865'
-
+  - slug: Virginia/1865-04-02-assault-and-capture-of-lines-before-petersburg
 - battles_cwsac:
-  - battle_name: "Sutherland's Station"
+  - battle_name: Sutherland's Station
     cwsac_id: VA090
     end_date: 1865-04-02
-    other_names: ''
     start_date: 1865-04-02
-    state:
-    - VA
   battles_from:
-  - battle_id: 8967
-    battle_name: 'April 2: Engagement, Sutherland Station, South Side R. R.'
-    year: '1865'
+  - slug: Virginia/1865-04-02-engagement-sutherland-station-south-side-r-r
 - battles_cwsac:
-  - battle_name: "Namozine Church"
+  - battle_name: Namozine Church
     cwsac_id: VA124
     end_date: 1865-04-03
-    other_names: ''
     start_date: 1865-04-03
-    state:
-    - VA
   battles_from:
-  - battle_id: 9949
-    battle_name: "April 4: Action, Namozine Church"
-
+  - slug: Virginia/1865-04-03-action-namozine-church
 - battles_cwsac:
-  - battle_name: "Amelia Springs"
+  - battle_name: Amelia Springs
     cwsac_id: VA091
     end_date: 1865-04-05
-    other_names: ''
     start_date: 1865-04-05
-    state:
-    - VA
   battles_from:
-  - battle_name: "April 5: Engagement, Amelia Springs"
-    battle_id: 9953
-  comment: >
-    No actions seem to match this.
+  - slug: Virginia/1865-04-05-engagement-amelia-springs
+  comment: 'No actions seem to match this.'
 - battles_cwsac:
-  - battle_name: "High Bridge"
+  - battle_name: High Bridge
     cwsac_id: VA095
     end_date: 1865-04-07
-    other_names: ''
     start_date: 1865-04-06
-    state:
-    - VA
-  comment: >
-    Only "Apr. 7: Engagement, High Bridge" has casualties.
   battles_from:
-  - battle_name: "April 6: Action, High Bridge"
-    battle_id: 9956
-  - battle_name: "April 7: Engagement, High Bridge"
-    battle_id: 9958
-
+  - slug: Virginia/1865-04-06-action-high-bridge
+  - slug: Virginia/1865-04-07-engagement-high-bridge
+  comment: 'Only "Apr. 7: Engagement, High Bridge" has casualties.'
 - battles_cwsac:
-  - battle_name: "Sailor's Creek"
+  - battle_name: Sailor's Creek
     cwsac_id: VA093
     end_date: 1865-04-06
     other_names: Hillsman Farm; Lockett Farm
     start_date: 1865-04-06
-    state:
-    - VA
   battles_from:
-  - battle_name: "April 6: Engagement, Sailor's Creek"
-    battle_id: 9954
-
+  - slug: Virginia/1865-04-06-engagement-sailor-s-creek
 - battles_cwsac:
-  - battle_name: "Rice's Station"
+  - battle_name: Rice's Station
     cwsac_id: VA092
     end_date: 1865-04-06
     other_names: Rice's Depot
     start_date: 1865-04-06
-    state:
-    - VA
   battles_from:
-  - battle_name: "April 6: Engagement, Rice's Station"
-    battle_id: 9957
+  - slug: Virginia/1865-04-06-engagement-rice-s-station
 - battles_cwsac:
-  - battle_name: "Cumberland Church"
+  - battle_name: Cumberland Church
     cwsac_id: VA094
     end_date: 1865-04-07
     other_names: Farmville
     start_date: 1865-04-07
-    state:
-    - VA
   battles_from:
-  - battle_name: "April 7: Farmville"
-    battle_id: 9959
+  - slug: Virginia/1865-04-07-engagement-farmville
 - battles_cwsac:
-  - battle_name: "Appomattox Station"
+  - battle_name: Appomattox Station
     cwsac_id: VA096
     end_date: 1865-04-08
-    other_names: ''
     start_date: 1865-04-08
-    state:
-    - VA
-  diff_dates: True
   battles_from:
-  - battle_name: "April 7: Engagement, Appomattox Station"
-    battle_id: 9962
+  - slug: Virginia/1865-04-07-engagement-appomattox-station
+  diff_dates: true
 - battles_cwsac:
-  - battle_name: "Appomattox Court House"
+  - battle_name: Appomattox Court House
     cwsac_id: VA097
     end_date: 1865-04-09
-    other_names: ''
     start_date: 1865-04-09
-    state:
-    - VA
   battles_from:
-  - battle_name: "April 9: Engagement at Clover Hill, Appomattox Court House and surrender of Lee and his army"
-    battle_id: 9965
+  - slug: Virginia/1865-04-09-engagement-at-clover-hill-appomattox-court-house-and-surrender-of-lee-and-his-army
 - battles_cwsac:
-  - battle_name: "Palmito Ranch"
+  - battle_name: Palmito Ranch
     cwsac_id: TX005
     end_date: 1865-05-13
     other_names: Palmito Hill
     start_date: 1865-05-12
-    state:
-    - TX
   battles_from:
-  - battle_id: 6975
-    battle_name: 'May 12-13: Skirmishes, Palmetto Ranch'
-    year: '1865'
+  - slug: Texas/1865-05-12-1865-05-13-skirmishes-palmetto-ranch
