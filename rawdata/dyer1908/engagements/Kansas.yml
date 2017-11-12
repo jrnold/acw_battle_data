@@ -1,162 +1,161 @@
 - battle_id: 1832
-  battle_name: Seizure of Ordnance Stores
+  nature_location: Seizure of Ordnance Stores
   end_date: 1861-05-04
   event_type: Seizure
   start_date: 1861-05-04
   state: KS
-  text: ''
 - battle_id: 1833
-  battle_name: Skirmish, Fort Scott
+  nature_location: Skirmish, Fort Scott
   end_date: 1861-09-01
   event_type: Skirmish
   start_date: 1861-09-01
   state: KS
-  text: KANSAS--5th Cavalry.
+  troops_engaged: KANSAS--5th Cavalry.
 - battle_id: 1834
-  battle_name: Exp. from Fort Leavenworth through Jackson, Cass, Johnson and LaFayette
+  nature_location: Exp. from Fort Leavenworth through Jackson, Cass, Johnson and LaFayette
     Counties, Mo.
   end_date: 1862-09-23
   event_type: Expedition
   start_date: 1862-09-08
   state: KS
-  text: KANSAS--6th Cavalry (1 Co.); 8th Infantry (Cos. "C" and "F"). WISCONSIN--3d
+  troops_engaged: KANSAS--6th Cavalry (1 Co.); 8th Infantry (Cos. "C" and "F"). WISCONSIN--3rd
     Cavalry (Cos. "B" and "L").
 - battle_id: 1835
-  battle_name: Exp. from Fort Scott
+  nature_location: Exp. from Fort Scott
   end_date: 1862-11-11
   event_type: Expedition
   start_date: 1862-11-06
   state: KS
-  text: WISCONSIN--3d Cavalry.
+  troops_engaged: WISCONSIN--3rd Cavalry.
 - battle_id: 1836
-  battle_name: Skirmish, Cato
+  nature_location: Skirmish, Cato
   end_date: 1862-11-08
   event_type: Skirmish
   start_date: 1862-11-08
   state: KS
-  text: WISCONSIN--3d Cavalry.
+  troops_engaged: WISCONSIN--3rd Cavalry.
 - battle_id: 1837
-  battle_name: Operations about Atchison
+  nature_location: Operations about Atchison
   end_date: 1863-01-24
   event_type: Occupation
   start_date: 1863-01-20
   state: KS
-  text: MISSOURI--1st Cavalry (Co. "E").
+  troops_engaged: MISSOURI--1st Cavalry (Co. "E").
 - battle_id: 1838
-  battle_name: Skirmish near Aubrey
+  nature_location: Skirmish near Aubrey
   end_date: 1863-03-12
   event_type: Skirmish
   start_date: 1863-03-12
   state: KS
-  text: KANSAS--8th Infantry (Co. "E"). Union loss, 1 wounded.
+  troops_engaged: KANSAS--8th Infantry (Co. "E"). Union loss, 1 wounded.
   wounded: 1
 - battle_id: 1839
-  battle_name: Exp. from Humboldt to Cottonwood
+  nature_location: Exp. from Humboldt to Cottonwood
   end_date: 1863-04-10
   event_type: Expedition
   start_date: 1863-04-10
   state: KS
-  text: KANSAS--9th Cavalry (Detachment Co. "G").
+  troops_engaged: KANSAS--9th Cavalry (Detachment Co. "G").
 - battle_id: 1840
-  battle_name: Scout from Fort Scott to Sherwood, Mo
+  nature_location: Scout from Fort Scott to Sherwood, Mo
   end_date: 1863-05-09
   event_type: Scout
   start_date: 1863-05-05
   state: KS
-  text: KANSAS--2d Cavalry (Detachment); Colored Infantry (Detachment).
+  troops_engaged: KANSAS--2nd Cavalry (Detachment); Colored Infantry (Detachment).
 - battle_id: 1841
-  battle_name: Skirmish, Shawneetown
+  nature_location: Skirmish, Shawneetown
   end_date: 1863-06-06
   event_type: Skirmish
   start_date: 1863-06-06
   state: KS
-  text: (No Reports.)
+  troops_engaged: (No Reports.)
 - battle_id: 1842
-  battle_name: Affair near Fort Scott
+  nature_location: Affair near Fort Scott
   end_date: 1863-06-08
   event_type: Affair
   start_date: 1863-06-08
   state: KS
-  text: KANSAS--2d Battery Light Arty. (Detachment); 1st Colored Infantry (Detachment).
+  troops_engaged: KANSAS--2nd Battery Light Artillery (Detachment); 1st Colored Infantry (Detachment).
 - battle_id: 1843
-  battle_name: Skirmish, Lawrence
+  nature_location: Skirmish, Lawrence
   end_date: 1863-07-27
   event_type: Skirmish
   start_date: 1863-07-27
   state: KS
-  text: (No Reports.)
+  troops_engaged: (No Reports.)
 - battle_id: 1844
-  battle_name: Exp. from Baxter Springs to Grand River
+  nature_location: Exp. from Baxter Springs to Grand River
   end_date: 1863-07-29
   event_type: Expedition
   start_date: 1863-07-27
   state: KS
-  text: (No Reports.)
+  troops_engaged: (No Reports.)
 - battle_id: 1845
-  battle_name: Massacre, Lawrence (Quantrell)
+  nature_location: Massacre, Lawrence (Quantrell)
   casualties: 164
   end_date: 1863-08-21
   event_type: Massacre
   killed: 140
   killed_wounded: 164
-  missing_captured: 0
+
   start_date: 1863-08-21
   state: KS
-  text: COLORADO--2d Infantry (Detachment). KANSAS--14th Infantry (Detachment). Union
+  troops_engaged: COLORADO--2nd Infantry (Detachment). KANSAS--14th Infantry (Detachment). Union
     loss, 140 killed, 24 wounded. Total, 164.
   wounded: 24
 - battle_id: 1846
-  battle_name: Operations against Quantrell on his raid into Kansas
+  nature_location: Operations against Quantrell on his raid into Kansas
   end_date: 1863-08-28
   event_type: Occupation
   start_date: 1863-08-20
   state: KS
-  text: KANSAS--5th and 9th Cavalry (Detachments); 11th and 12th Infantry. MISSOURI--1st
+  troops_engaged: KANSAS--5th and 9th Cavalry (Detachments); 11th and 12th Infantry. MISSOURI--1st
     and 4th State Militia Cavalry; 5th Enrolled Militia Infantry.
 - battle_id: 1847
-  battle_name: Skirmish, Brooklyn
+  nature_location: Skirmish, Brooklyn
   end_date: 1863-08-21
   event_type: Skirmish
   start_date: 1863-08-21
   state: KS
-  text: KANSAS--9th Cavalry.
+  troops_engaged: KANSAS--9th Cavalry.
 - battle_id: 1848
-  battle_name: Skirmish, Paoli
+  nature_location: Skirmish, Paoli
   end_date: 1863-08-21
   event_type: Skirmish
   start_date: 1863-08-21
   state: KS
-  text: KANSAS--9th Cavalry (Detachment); 10th Infantry (Detachment); Citisens.
+  troops_engaged: KANSAS--9th Cavalry (Detachment); 10th Infantry (Detachment); Citisens.
 - battle_id: 1849
-  battle_name: Skirmish, Honey Springs
+  nature_location: Skirmish, Honey Springs
   end_date: 1863-08-22
   event_type: Skirmish
   start_date: 1863-08-22
   state: KS
-  text: WISCONSIN--3d Cavalry.
+  troops_engaged: WISCONSIN--3rd Cavalry.
 - battle_id: 1850
-  battle_name: Skirmish, Marias des Cygnes
+  nature_location: Skirmish, Marias des Cygnes
   end_date: 1863-08-31
   event_type: Skirmish
   start_date: 1863-08-31
   state: KS
-  text: WISCONSIN--3d Cavalry.
+  troops_engaged: WISCONSIN--3rd Cavalry.
 - battle_id: 1851
-  battle_name: Attack on train between Fort Scott and Carthage, Mo.
+  nature_location: Attack on train between Fort Scott and Carthage, Mo.
   end_date: 1863-09-06
   event_type: Attack
   start_date: 1863-09-06
   state: KS
-  text: MISSOURI--8th State Militia Cavalry (Detachment).
+  troops_engaged: MISSOURI--8th State Militia Cavalry (Detachment).
 - battle_id: 1852
-  battle_name: Skirmishes, Booth's Ranch
+  nature_location: Skirmishes, Booth's Ranch
   end_date: 1863-09-14
   event_type: Skirmish
   start_date: 1863-09-13
   state: KS
-  text: (No Reports.)
+  troops_engaged: (No Reports.)
 - battle_id: 1853
-  battle_name: Action, Baxter Springs
+  nature_location: Action, Baxter Springs
   casualties: 103
   end_date: 1863-10-06
   event_type: Action
@@ -165,335 +164,335 @@
   missing_captured: 5
   start_date: 1863-10-06
   state: KS
-  text: KANSAS--9th and 14th Cavalry; 2d (Colored) and 12th Infantry. WISCONSIN--3d
+  troops_engaged: KANSAS--9th and 14th Cavalry; 2nd (Colored) and 12th Infantry. WISCONSIN--3rd
     Cavalry. Union loss, 80 killed, 18 wounded, 5 missing. Total, 103.
   wounded: 18
 - battle_id: 1854
-  battle_name: Exp. from Camp Sanborn to Beaver Creek
+  nature_location: Exp. from Camp Sanborn to Beaver Creek
   end_date: 1864-04-18
   event_type: Expedition
   start_date: 1864-04-14
   state: KS
-  text: COLORADO--1st Cavalry (Cos. "C" and "H").
+  troops_engaged: COLORADO--1st Cavalry (Cos. "C" and "H").
 - battle_id: 1855
-  battle_name: Action, Big Bushes near Smoky Hills
+  nature_location: Action, Big Bushes near Smoky Hills
   casualties: 7
   end_date: 1864-05-16
   event_type: Action
   killed: 4
   killed_wounded: 7
-  missing_captured: 0
+
   start_date: 1864-05-16
   state: KS
-  text: COLORADO--1st Cavalry (Detachment); McLane's Battery Light Arty. Union loss,
+  troops_engaged: COLORADO--1st Cavalry (Detachment); McLane's Battery Light Artillery Union loss,
     4 killed, 3 wounded. Total, 7.
   wounded: 3
 - battle_id: 1856
-  battle_name: Exp. from Fort Leavenworth to Western Missouri
+  nature_location: Exp. from Fort Leavenworth to Western Missouri
   end_date: 1864-06-16
   event_type: Expedition
   start_date: 1864-06-13
   state: KS
-  text: KANSAS--15th and 16th Cavalry (Detachments).
+  troops_engaged: KANSAS--15th and 16th Cavalry (Detachments).
 - battle_id: 1857
-  battle_name: Exp. from Kansas into Missouri
+  nature_location: Exp. from Kansas into Missouri
   end_date: 1864-06-20
   event_type: Expedition
   start_date: 1864-06-16
   state: KS
-  text: KANSAS--5th (Co. "L"), 11th (Cos. "B", "F", "I" and "K") and 15th (Cos. "B",
+  troops_engaged: KANSAS--5th (Co. "L"), 11th (Cos. "B", "F", "I" and "K") and 15th (Cos. "B",
     "C", "F" and "G") Cavalry.
 - battle_id: 1858
-  battle_name: Scout to Baxter Springs
+  nature_location: Scout to Baxter Springs
   end_date: 1864-08-01
   event_type: Scout
   start_date: 1864-08-01
   state: KS
-  text: MISSOURI--7th Enrolled Militia Infantry (Detachment).
+  troops_engaged: MISSOURI--7th Enrolled Militia Infantry (Detachment).
 - battle_id: 1859
-  battle_name: Scout on Smoky Hills Fork
+  nature_location: Scout on Smoky Hills Fork
   end_date: 1864-08-05
   event_type: Scout
   start_date: 1864-08-01
   state: KS
-  text: IOWA--7th Cavalry (Co. "H").
+  troops_engaged: IOWA--7th Cavalry (Co. "H").
 - battle_id: 1860
-  battle_name: Scout from Salem to Mulberry Creek
+  nature_location: Scout from Salem to Mulberry Creek
   end_date: 1864-08-11
   event_type: Scout
   start_date: 1864-08-08
   state: KS
-  text: KANSAS--11th Cavalry (Detachment). MISSOURI--4th State Militia Cavalry.
+  troops_engaged: KANSAS--11th Cavalry (Detachment). MISSOURI--4th State Militia Cavalry.
 - battle_id: 1861
-  battle_name: Skirmish, Smoky Hills Crossing
+  nature_location: Skirmish, Smoky Hills Crossing
   end_date: 1864-08-16
   event_type: Skirmish
   killed: 4
   start_date: 1864-08-16
   state: KS
-  text: IOWA--7th Cavalry (Co. "H"). Union loss, 4 killed.
+  troops_engaged: IOWA--7th Cavalry (Co. "H"). Union loss, 4 killed.
 - battle_id: 1862
-  battle_name: Scout on Republican River
+  nature_location: Scout on Republican River
   end_date: 1864-08-24
   event_type: Scout
   start_date: 1864-08-19
   state: KS
-  text: KANSAS--11th Cavalry (Detachment); 14th and 15th Militia (Detachments).
+  troops_engaged: KANSAS--11th Cavalry (Detachment); 14th and 15th Militia (Detachments).
 - battle_id: 1863
-  battle_name: Affair near Council Grove
+  nature_location: Affair near Council Grove
   end_date: 1864-09-21
   event_type: Affair
   start_date: 1864-09-21
   state: KS
-  text: KANSAS--17th Cavalry (1 man, Co. "C").
+  troops_engaged: KANSAS--17th Cavalry (1 man, Co. "C").
 - battle_id: 1864
-  battle_name: Skirmish, Walnut Creek
+  nature_location: Skirmish, Walnut Creek
   casualties: 9
   end_date: 1864-09-25
   event_type: Skirmish
   killed: 2
   killed_wounded: 9
-  missing_captured: 0
+
   start_date: 1864-09-25
   state: KS
-  text: COLORADO--2d Cavalry. Union loss, 2 killed, 7 wounded. Total, 9.
+  troops_engaged: COLORADO--2nd Cavalry. Union loss, 2 killed, 7 wounded. Total, 9.
   wounded: 7
 - battle_id: 1865
-  battle_name: Skirmish, Osage Mission
+  nature_location: Skirmish, Osage Mission
   end_date: 1864-09-26
   event_type: Skirmish
   start_date: 1864-09-26
   state: KS
-  text: WISCONSIN--3d Cavalry.
+  troops_engaged: WISCONSIN--3rd Cavalry.
 - battle_id: 1866
-  battle_name: Skirmish, Fort Scott
+  nature_location: Skirmish, Fort Scott
   end_date: 1864-10-22
   event_type: Skirmish
   start_date: 1864-10-22
   state: KS
-  text: KANSAS--6th Cavalry.
+  troops_engaged: KANSAS--6th Cavalry.
 - battle_id: 1867
-  battle_name: Skirmish, Cow Creek
+  nature_location: Skirmish, Cow Creek
   end_date: 1864-10-23
   event_type: Skirmish
   start_date: 1864-10-23
   state: KS
-  text: KANSAS--6th Cavalry.
+  troops_engaged: KANSAS--6th Cavalry.
 - battle_id: 1868
-  battle_name: Engagement, Mine Creek, Little Osage River, Marias des Cygnes
+  nature_location: Engagement, Mine Creek, Little Osage River, Marias des Cygnes
   end_date: 1864-10-25
   event_type: Engagement
   start_date: 1864-10-25
   state: KS
-  text: ARKANSAS--2d Cavalry. COLORADO--2d Cavalry; 1st Battery Light Arty. INDIANA--7th
-    Cavalry. IOWA--1st, 3d and 4th Cavalry. KANSAS--5th, 7th, 11th, 14th, 15th and
-    16th Cavalry. MISSOURI--1st, 2d, 4th, 10th, 13th, 15th and 16th Cavalry; 2d, 4th,
-    5th, 6th, 7th and 8th State Militia Cavalry. WISCONSIN--3d Cavalry; 9th Indpt.
-    Battery Light Arty.
+  troops_engaged: ARKANSAS--2nd Cavalry. COLORADO--2nd Cavalry; 1st Battery Light Artillery INDIANA--7th
+    Cavalry. IOWA--1st, 3rd and 4th Cavalry. KANSAS--5th, 7th, 11th, 14th, 15th and
+    16th Cavalry. MISSOURI--1st, 2nd, 4th, 10th, 13th, 15th and 16th Cavalry; 2nd, 4th,
+    5th, 6th, 7th and 8th State Militia Cavalry. WISCONSIN--3rd Cavalry; 9th Independent
+    Battery Light Artillery
 - battle_id: 1869
-  battle_name: Skirmishes, Mound City and Fort Lincoln
+  nature_location: Skirmishes, Mound City and Fort Lincoln
   end_date: 1864-10-25
   event_type: Skirmish
   start_date: 1864-10-25
   state: KS
-  text: KANSAS--16th Cavalry (Cos. "A" and "D").
+  troops_engaged: KANSAS--16th Cavalry (Cos. "A" and "D").
 - battle_id: 1870
-  battle_name: Skirmish, Fort Scott
+  nature_location: Skirmish, Fort Scott
   end_date: 1864-10-28
   event_type: Skirmish
   start_date: 1864-10-28
   state: KS
-  text: MISSOURI--1st State Militia Cavalry.
+  troops_engaged: MISSOURI--1st State Militia Cavalry.
 - battle_id: 1871
-  battle_name: Skirmish, Ash Creek, near Fort Larned
+  nature_location: Skirmish, Ash Creek, near Fort Larned
   end_date: 1864-11-13
   event_type: Skirmish
   start_date: 1864-11-13
   state: KS
-  text: WISCONSIN--3d Cavalry (Detachment).
+  troops_engaged: WISCONSIN--3rd Cavalry (Detachment).
 - battle_id: 1872
-  battle_name: Action, Cow Creek
+  nature_location: Action, Cow Creek
   end_date: 1864-11-14
   event_type: Action
   killed: 4
   start_date: 1864-11-14
   state: KS
-  text: KANSAS--3d Indian Home Guard. UNITED STATES--54th Colored Infantry. Union
+  troops_engaged: KANSAS--3rd Indian Home Guard. UNITED STATES--54th Colored Infantry. Union
     loss, 4 killed.
 - battle_id: 1873
-  battle_name: Skirmish, Fort Zarah
+  nature_location: Skirmish, Fort Zarah
   end_date: 1864-11-20
   event_type: Skirmish
   start_date: 1864-11-20
   state: KS
-  text: Capt. Henry Booth, District Inspector, and Lieut. A. Hillewell, Ordnance Officer,
+  troops_engaged: Capt. Henry Booth, District Inspector, and Lieut. A. Hillewell, Ordnance Officer,
     with Indians.
 - battle_id: 1874
-  battle_name: Skirmish, Pawnee Forks
+  nature_location: Skirmish, Pawnee Forks
   casualties: 6
   end_date: 1864-11-25
   event_type: Skirmish
   killed: 1
   killed_wounded: 6
-  missing_captured: 0
+
   start_date: 1864-11-25
   state: KS
-  text: COLORADO--1st Cavalry (1 Co.). Union loss, 1 killed, 5 wounded. Total, 6.
+  troops_engaged: COLORADO--1st Cavalry (1 Co.). Union loss, 1 killed, 5 wounded. Total, 6.
   wounded: 5
 - battle_id: 1875
-  battle_name: Skirmish, Cow Creek
+  nature_location: Skirmish, Cow Creek
   end_date: 1864-11-28
   event_type: Skirmish
   start_date: 1864-11-28
   state: KS
-  text: KANSAS--3d Indian Home Guard. UNITED STATES--54th Colored Infantry. Union
+  troops_engaged: KANSAS--3rd Indian Home Guard. UNITED STATES--54th Colored Infantry. Union
     loss included in Cow Creek, Nov. 14.
 - battle_id: 1876
-  battle_name: Skirmish, Cow Creek near Fort Zarah
+  nature_location: Skirmish, Cow Creek near Fort Zarah
   end_date: 1865-12-04
   event_type: Skirmish
   start_date: 1865-12-04
   state: KS
-  text: IOWA--7th Cavalry (Detachment).
+  troops_engaged: IOWA--7th Cavalry (Detachment).
 - battle_id: 1877
-  battle_name: Scout from Fort Ellsworth
+  nature_location: Scout from Fort Ellsworth
   end_date: 1865-01-11
   event_type: Scout
   start_date: 1865-01-07
   state: KS
-  text: INDEPENDENT SCOUTS (Detachment).
+  troops_engaged: INDEPENDENT SCOUTS (Detachment).
 - battle_id: 1878
-  battle_name: Scout from Fort Larned to Pawnee Fork, Walnut Creek and Smoky Hill
+  nature_location: Scout from Fort Larned to Pawnee Fork, Walnut Creek and Smoky Hill
     River
   end_date: 1865-01-21
   event_type: Scout
   start_date: 1865-01-15
   state: KS
-  text: INDEPENDENT SCOUTS.
+  troops_engaged: INDEPENDENT SCOUTS.
 - battle_id: 1879
-  battle_name: Skirmish, Point of Rocks or Nine Mile Ridge near Fort Larned
+  nature_location: Skirmish, Point of Rocks or Nine Mile Ridge near Fort Larned
   end_date: 1865-01-20
   event_type: Skirmish
   start_date: 1865-01-20
   state: KS
-  text: COLORADO--1st and 2d Cavalry (Detachments).
+  troops_engaged: COLORADO--1st and 2nd Cavalry (Detachments).
 - battle_id: 1880
-  battle_name: Skirmish near Oxford
+  nature_location: Skirmish near Oxford
   end_date: 1865-01-31
   event_type: Skirmish
   start_date: 1865-01-31
   state: KS
-  text: KANSAS--5th Cavalry (Detachment).
+  troops_engaged: KANSAS--5th Cavalry (Detachment).
 - battle_id: 1881
-  battle_name: Skirmish, Fort Zarah
+  nature_location: Skirmish, Fort Zarah
   end_date: 1865-02-01
   event_type: Skirmish
   start_date: 1865-02-01
   state: KS
-  text: COLORADO--2d Cavalry (Co. "C").
+  troops_engaged: COLORADO--2nd Cavalry (Co. "C").
 - battle_id: 1882
-  battle_name: Scout from Fort Larned to South Fork Pawnee Creek and Buckner's Ranch
+  nature_location: Scout from Fort Larned to South Fork Pawnee Creek and Buckner's Ranch
   end_date: 1865-02-08
   event_type: Scout
   start_date: 1865-02-03
   state: KS
-  text: INDEPENDENT SCOUTS (Detachment).
+  troops_engaged: INDEPENDENT SCOUTS (Detachment).
 - battle_id: 1883
-  battle_name: Operations about Forts Riley and Larned
+  nature_location: Operations about Forts Riley and Larned
   end_date: 1865-02-20
   event_type: Occupation
   start_date: 1865-02-12
   state: KS
-  text: INDEPENDENT SCOUTS.
+  troops_engaged: INDEPENDENT SCOUTS.
 - battle_id: 1884
-  battle_name: Scout from Fort Larned
+  nature_location: Scout from Fort Larned
   end_date: 1865-02-21
   event_type: Scout
   start_date: 1865-02-16
   state: KS
-  text: INDEPENDENT SCOUTS.
+  troops_engaged: INDEPENDENT SCOUTS.
 - battle_id: 1885
-  battle_name: Skirmish near Fort Larned
+  nature_location: Skirmish near Fort Larned
   end_date: 1865-03-07
   event_type: Skirmish
   start_date: 1865-03-07
   state: KS
-  text: Attack on train.
+  troops_engaged: Attack on train.
 - battle_id: 1886
-  battle_name: Scout from Fort Larned to Crooked Creek
+  nature_location: Scout from Fort Larned to Crooked Creek
   end_date: 1865-03-15
   event_type: Scout
   start_date: 1865-03-09
   state: KS
-  text: COLORADO--2d Cavalry (Detachment).
+  troops_engaged: COLORADO--2nd Cavalry (Detachment).
 - battle_id: 1887
-  battle_name: Affair near Fort Zarah
+  nature_location: Affair near Fort Zarah
   end_date: 1865-04-22
   event_type: Affair
   start_date: 1865-04-22
   state: KS
-  text: COLORADO--2d Cavalry (Detachment).
+  troops_engaged: COLORADO--2nd Cavalry (Detachment).
 - battle_id: 1888
-  battle_name: Affair near Pawnee Rock
+  nature_location: Affair near Pawnee Rock
   end_date: 1865-05-20
   event_type: Affair
   start_date: 1865-05-20
   state: KS
-  text: COLORADO--2d Cavalry (Detachment).
+  troops_engaged: COLORADO--2nd Cavalry (Detachment).
 - battle_id: 1889
-  battle_name: Skirmish, Fort Dodge
+  nature_location: Skirmish, Fort Dodge
   end_date: 1865-06-08
   event_type: Skirmish
   start_date: 1865-06-08
   state: KS
-  text: UNITED STATES--2d Vols. (Detachment) and Cattle Herders.
+  troops_engaged: UNITED STATES--2nd Vols. (Detachment) and Cattle Herders.
 - battle_id: 1890
-  battle_name: Skirmish, Chavis Creek near Cow Creek Station
+  nature_location: Skirmish, Chavis Creek near Cow Creek Station
   end_date: 1865-06-09
   event_type: Skirmish
   start_date: 1865-06-09
   state: KS
-  text: UNITED STATES--2d Vols. (Detachment Co. "K").
+  troops_engaged: UNITED STATES--2nd Vols. (Detachment Co. "K").
 - battle_id: 1891
-  battle_name: Action, Cow Creek Station
+  nature_location: Action, Cow Creek Station
   end_date: 1865-06-12
   event_type: Action
   start_date: 1865-06-12
   state: KS
-  text: COLORADO--2d Cavalry (Detachment Co. "I"). IOWA--7th Cavalry (Detachment Co.
+  troops_engaged: COLORADO--2nd Cavalry (Detachment Co. "I"). IOWA--7th Cavalry (Detachment Co.
     "G").
 - battle_id: 1892
-  battle_name: Skirmish, Fort Dodge
+  nature_location: Skirmish, Fort Dodge
   end_date: 1865-06-12
   event_type: Skirmish
   start_date: 1865-06-12
   state: KS
-  text: UNITED STATES--2d Vols. (Detachment).
+  troops_engaged: UNITED STATES--2nd Vols. (Detachment).
 - battle_id: 1893
-  battle_name: Skirmish, Plum Butte
+  nature_location: Skirmish, Plum Butte
   end_date: 1865-06-12
   event_type: Skirmish
   start_date: 1865-06-12
   state: KS
-  text: COLORADO--2d Cavalry (Detachment).
+  troops_engaged: COLORADO--2nd Cavalry (Detachment).
 - battle_id: 1894
-  battle_name: Skirmish, Pawnee Rock
+  nature_location: Skirmish, Pawnee Rock
   end_date: 1865-06-12
   event_type: Skirmish
   start_date: 1865-06-12
   state: KS
-  text: COLORADO--2d Cavalry (Detachment).
+  troops_engaged: COLORADO--2nd Cavalry (Detachment).
 - battle_id: 1895
-  battle_name: Exp. to Powder River against Indians
+  nature_location: Exp. to Powder River against Indians
   end_date: 1865-10-07
   event_type: Expedition
   start_date: 1865-06-20
   state: KS
-  text: MISSOURI--12th Cavalry; 2d Artillery.
+  troops_engaged: MISSOURI--12th Cavalry; 2nd Artillery.
 - battle_id: 1896
-  battle_name: Skirmish, Fort Dodge
+  nature_location: Skirmish, Fort Dodge
   end_date: 1865-06-29
   event_type: Skirmish
   start_date: 1865-06-29
   state: KS
-  text: UNITED STATES--2d Vols. (Detachment).
+  troops_engaged: UNITED STATES--2nd Vols. (Detachment).
