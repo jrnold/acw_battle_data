@@ -108,7 +108,7 @@
 - battle_id: 16
   nature_location: Operations near Athens, Limestone Bridge, Mooresville and Elk River
   end_date: 1862-05-02
-  event_type: Occupation
+  event_type: Operations
   start_date: 1862-05-01
   state: AL
   troops_engaged: INDIANA--37th Infantry. ILLINOIS--19th and 24th Infantry. OHIO--18th Infantry.
@@ -232,7 +232,7 @@
   nature_location: Operations near Courtland and Trinity
   casualties: 104
   end_date: 1862-07-25
-  event_type: Occupation
+  event_type: Operations
   killed: 3
   killed_wounded: 24
   missing_captured: 80
@@ -652,9 +652,8 @@
   event_type: Skirmish
   start_date: 1863-05-02
   state: AL
-  troops_engaged: ''
 - battle_id: 81
-  nature_location: Exp. from Burnsville to Tupelo, Miss
+  nature_location: Expedition from Burnsville to Tupelo, Miss
   end_date: 1863-05-08
   event_type: Expedition
   start_date: 1863-05-02
@@ -851,7 +850,7 @@
 - battle_id: 107
   nature_location: Operations on Memphis & Charleston R. R. in Alabama
   end_date: 1863-10-29
-  event_type: Occupation
+  event_type: Operations
   start_date: 1863-10-20
   state: AL
   troops_engaged: ILLINOIS--Batteries "A", "B", "F", "H", "I", and "L", 1st Light Artillery; Cogswell's
@@ -951,7 +950,7 @@
   state: AL
   troops_engaged: OHIO--4th Cavalry.
 - battle_id: 116
-  nature_location: Exp. from Maysville to Whitesburg and Decatur
+  nature_location: Expedition from Maysville to Whitesburg and Decatur
   end_date: 1863-11-17
   event_type: Expedition
   start_date: 1863-11-14
@@ -1003,7 +1002,7 @@
 - battle_id: 123
   nature_location: Operations in North Alabama
   end_date: 1864-01-29
-  event_type: Occupation
+  event_type: Operations
   start_date: 1864-01-23
   state: AL
   troops_engaged: ILLINOIS--92nd and 98th Mounted Infantry. INDIANA--72nd Mounted Infantry.
@@ -1035,7 +1034,7 @@
     loss, 15 killed, 25 wounded. Total, 40.
   wounded: 25
 - battle_id: 127
-  nature_location: Exp. from Scottsboro toward Rome, Ga
+  nature_location: Expedition from Scottsboro toward Rome, Ga
   end_date: 1864-02-05
   event_type: Expedition
   start_date: 1864-01-25
@@ -1068,7 +1067,7 @@
 - battle_id: 131
   nature_location: Operations about Whitesburg
   end_date: 1864-02-02
-  event_type: Occupation
+  event_type: Operations
   start_date: 1864-02-02
   state: AL
   troops_engaged: MINNESOTA--4th Infantry.
@@ -1082,19 +1081,19 @@
 - battle_id: 133
   nature_location: Operations about Mobile
   end_date: 1864-03-17
-  event_type: Occupation
+  event_type: Operations
   start_date: 1864-02-16
   state: AL
   troops_engaged: UNITED STATES--Navy.
 - battle_id: 134
   nature_location: Operations about Brown's Ferry
   end_date: 1864-02-19
-  event_type: Occupation
+  event_type: Operations
   start_date: 1864-02-19
   state: AL
   troops_engaged: (No Reports.)
 - battle_id: 135
-  nature_location: Exp. from Larkins' Landing to Gourd Neck and Guntersville
+  nature_location: Expedition from Larkins' Landing to Gourd Neck and Guntersville
   end_date: 1864-03-03
   event_type: Expedition
   start_date: 1864-03-02
@@ -1392,7 +1391,7 @@
 - battle_id: 172
   nature_location: Operations in District of Northern Alabama
   end_date: 1864-08-30
-  event_type: Occupation
+  event_type: Operations
   start_date: 1864-06-24
   state: AL
   troops_engaged: INDIANA--73rd Infantry. MICHIGAN--18th Infantry. OHIO--9th Cavalry; 106th Infantry.
@@ -1468,7 +1467,7 @@
   state: AL
   troops_engaged: WISCONSIN--13th Infantry (Co. "C").
 - battle_id: 181
-  nature_location: Exp. to Centre
+  nature_location: Expedition to Centre
   end_date: 1864-07-13
   event_type: Expedition
   start_date: 1864-07-11
@@ -1559,7 +1558,7 @@
   state: AL
   troops_engaged: INDIANA--12th Cavalry.
 - battle_id: 193
-  nature_location: Exp. from Decatur to Courtland and Moulton
+  nature_location: Expedition from Decatur to Courtland and Moulton
   casualties: 6
   end_date: 1864-07-28
   event_type: Expedition
@@ -1612,7 +1611,7 @@
 - battle_id: 199
   nature_location: Operations in Mobile Bay against Forts Gaines and Morgan
   end_date: 1864-08-23
-  event_type: Occupation
+  event_type: Operations
   start_date: 1864-08-02
   state: AL
   troops_engaged: CONNECTICUT--2nd Independent Battery Light Artillery ILLINOIS--Battery "A", 2nd Light
@@ -1717,7 +1716,7 @@
 - battle_id: 211
   nature_location: Operations in Madison County
   end_date: 1864-08-14
-  event_type: Occupation
+  event_type: Operations
   start_date: 1864-08-12
   state: AL
   troops_engaged: INDIANA--12th Cavalry. TENNESSEE--Cavalry (Detachment).
@@ -1729,7 +1728,7 @@
   state: AL
   troops_engaged: INDIANA--73rd Infantry.
 - battle_id: 213
-  nature_location: Exp. from Decatur to Moulton
+  nature_location: Expedition from Decatur to Moulton
   end_date: 1864-08-20
   event_type: Expedition
   start_date: 1864-08-17
@@ -1751,7 +1750,7 @@
   state: AL
   troops_engaged: INDIANA--9th Cavalry.
 - battle_id: 216
-  nature_location: Exp. from Mobile Bay to Bonsecours and Fish River
+  nature_location: Expedition from Mobile Bay to Bonsecours and Fish River
   end_date: 1864-09-11
   event_type: Expedition
   start_date: 1864-09-09
@@ -2130,7 +2129,7 @@
 - battle_id: 261
   nature_location: Operations in Northern Alabama and Eastern Tennessee
   end_date: 1865-04-24
-  event_type: Occupation
+  event_type: Operations
   start_date: 1865-01-31
   state: AL
   troops_engaged: ILLINOIS--21st, 36th, 38th 42nd, 44th, 51st, 59th, 73rd, 74th, 75th, 79th,
@@ -2163,7 +2162,7 @@
   state: AL
   troops_engaged: INDIANA--73rd Infantry (Detachment).
 - battle_id: 265
-  nature_location: Exp. from Whitesburg to Fearn's Ferry
+  nature_location: Expedition from Whitesburg to Fearn's Ferry
   end_date: 1865-02-18
   event_type: Expedition
   start_date: 1865-02-17
@@ -2177,7 +2176,7 @@
   state: AL
   troops_engaged: ILLINOIS--9th Cavalry. IOWA--2nd Cavalry.
 - battle_id: 267
-  nature_location: Exp. from Gravelly Springs to Florence
+  nature_location: Expedition from Gravelly Springs to Florence
   end_date: 1865-03-06
   event_type: Expedition
   start_date: 1865-03-01
@@ -2249,7 +2248,7 @@
     43 missing. Total, 1678.
   wounded: 1403
 - battle_id: 273
-  nature_location: Exp. from Dauphin Island to Fowl River Narrows
+  nature_location: Expedition from Dauphin Island to Fowl River Narrows
   end_date: 1865-03-22
   event_type: Expedition
   start_date: 1865-03-18
@@ -2554,7 +2553,7 @@
   state: AL
   troops_engaged: UNITED STATES Batteries.
 - battle_id: 308
-  nature_location: Exp. from Blakely to Claiborne
+  nature_location: Expedition from Blakely to Claiborne
   end_date: 1865-04-17
   event_type: Expedition
   start_date: 1865-04-09
@@ -2665,7 +2664,7 @@
   state: AL
   troops_engaged: INDIANA--2nd and 4th Cavalry.
 - battle_id: 322
-  nature_location: Exp. from Blakely to Georgetown, Ga.,, and Union Springs, Ala
+  nature_location: Expedition from Blakely to Georgetown, Ga.,, and Union Springs, Ala
   end_date: 1865-04-30
   event_type: Expedition
   start_date: 1865-04-17
@@ -2712,7 +2711,7 @@
   troops_engaged: Surrender of Confederate Forces in Departments of Alabama, Mississippi and
     Eastern Louisiana.
 - battle_id: 328
-  nature_location: Exp. from Spring Hill to Baton Rouge, La
+  nature_location: Expedition from Spring Hill to Baton Rouge, La
   end_date: 1865-05-22
   event_type: Expedition
   start_date: 1865-05-08
