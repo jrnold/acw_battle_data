@@ -28,7 +28,11 @@
   slug: Alabama/1862-02-06-1862-02-10-expedition-to-florence
   start_date: 1862-02-06
   state: Alabama
-  troops_engaged: U. S. Gunboats "Conestoga", "Lexington" and "Tyler."
+  troops_engaged: U. S. Gunboats "Conestoga", "Lexington" and "Tyler".
+  forces:
+    - name: U.S.S. Conestoga
+    - name: U.S.S. Lexington
+    - name: U.S.S. Tyler
 - end_date: 1862-04-11
   event_type: Occupation
   nature_location: Occupation of Huntsville
@@ -38,6 +42,13 @@
   state: Alabama
   troops_engaged: INDIANA--5th Independent Battery Light Artillery; 37th Infantry.
     ILLINOIS--19th and 24th Infantry. OHIO--4th Cavalry; 18th Infantry.
+  forces:
+    - Indiana 5th Independent Battery Light Artillery
+    - Indiana 37th Infantry
+    - Illinois 19th Infantry
+    - Illinois 24th Infantry
+    - Ohio 4th Cavalry
+    - Ohio 18th Infantry
 - end_date: 1862-04-16
   event_type: Occupation
   nature_location: Occupation of Decatur
@@ -46,6 +57,8 @@
   start_date: 1862-04-16
   state: Alabama
   troops_engaged: ILLINOIS--24th Infantry.
+  forces:
+    - name: Illinois 24th Infantry.
 - end_date: 1862-04-16
   event_type: Occupation
   nature_location: Occupation of Tuscumbia
@@ -54,6 +67,8 @@
   start_date: 1862-04-16
   state: Alabama
   troops_engaged: ILLINOIS--19th Infantry.
+  forces:
+  - name: Illinois 19th Infantry
 - end_date: 1862-04-23
   event_type: Skirmish
   nature_location: Skirmish, Bridgeport
@@ -62,6 +77,8 @@
   start_date: 1862-04-23
   state: Alabama
   troops_engaged: OHIO--4th Cavalry.
+  forces:
+    - Ohio 4th Cavalry
 - end_date: 1862-04-24
   event_type: Action
   nature_location: Action, Tuscumbia
@@ -70,6 +87,8 @@
   start_date: 1862-04-24
   state: Alabama
   troops_engaged: ILLINOIS--19th Infantry.
+  forces:
+    - name: Illinois 19th Infantry
 - end_date: 1862-04-25
   event_type: Skirmish
   nature_location: Skirmish, Tuscumbia
@@ -78,6 +97,8 @@
   start_date: 1862-04-25
   state: Alabama
   troops_engaged: OHIO--4th Cavalry.
+  forces:
+    - name: Ohio 4th Cavalry.
 - end_date: 1862-04-27
   event_type: Skirmish
   nature_location: Skirmish, Bridgeport
@@ -86,6 +107,8 @@
   start_date: 1862-04-27
   state: Alabama
   troops_engaged: OHIO--3rd Infantry.
+  forces:
+    - name: Ohio 3rd Infantry
 - end_date: 1862-04-28
   event_type: Skirmish
   nature_location: Skirmish, Bolivar
@@ -94,6 +117,8 @@
   start_date: 1862-04-28
   state: Alabama
   troops_engaged: OHIO--4th Cavalry.
+  forces:
+  - name: Ohio 4th Cavalry.
 - end_date: 1862-04-28
   event_type: Skirmish
   killed: 7
@@ -103,6 +128,9 @@
   start_date: 1862-04-28
   state: Alabama
   troops_engaged: WISCONSIN--10th Infantry (Detachment). Loss, 7 killed.
+  forces:
+  - name: Wisconsin 10th Infantry
+    units: Detachment
 - end_date: 1862-04-29
   event_type: Action
   nature_location: Action, West Bridge, near Bridgeport
@@ -112,6 +140,15 @@
   state: Alabama
   troops_engaged: INDIANA--42nd Infantry. OHIO--4th Cavalry; Battery "E", 1st Light
     Artillery; 2nd, 3rd and 10th Infantry.
+  forces:
+  - name: INDIANA--42nd Infantry.
+  - name: Ohio 4th Cavalry
+  - name: 1st Light Artillery
+    batteries: ["E"]
+  - name: Ohio 2nd Infantry
+  - name: Ohio 3rd Infantry
+  - name: Ohio 10th Infantry
+
 - end_date: 1862-05-01
   event_type: Skirmish
   nature_location: Skirmish, Bridgeport
@@ -129,6 +166,11 @@
   state: Alabama
   troops_engaged: INDIANA--37th Infantry. ILLINOIS--19th and 24th Infantry. OHIO--18th
     Infantry.
+  forces:
+  - name: Indiana 37th Infantry
+  - name: Illinois 19th Infantry
+  - name: Illinois 24th Infantry
+  - name: Ohio 18th Infantry
 - end_date: 1862-05-08
   event_type: Skirmish
   nature_location: Skirmish, Athens
@@ -137,6 +179,8 @@
   start_date: 1862-05-08
   state: Alabama
   troops_engaged: OHIO--4th Cavalry.
+  forces:
+  - name: Ohio 4th Cavalry
 - casualties: 48
   end_date: 1862-05-09
   event_type: Skirmish
@@ -149,6 +193,9 @@
   state: Alabama
   troops_engaged: INDIANA--37th Infantry (Co. "E"). Union loss, 5 killed, 43 wounded.
     Total, 48.
+  forces:
+  - name: Indiana 37th Infantry
+    companies: ["E"]
   wounded: 43
 - end_date: 1862-05-10
   event_type: Skirmish
@@ -158,6 +205,11 @@
   start_date: 1862-05-10
   state: Alabama
   troops_engaged: KENTUCKY--5th Cavalry (Detachment). PENNSYLVANIA--7th Cavalry (Detachment).
+  forces:
+  - name: Kentucky 5th Cavalry
+    detachment: true
+  - name: Pennsylvania 7th Cavalry
+    detachment: true
 - end_date: 1862-05-14
   event_type: Expedition
   nature_location: Expedition to Rodgersville
@@ -168,6 +220,16 @@
   troops_engaged: KENTUCKY--5th Cavalry. INDIANA--38th Infantry. OHIO--Battery "B",
     1st Light Artillery PENNSYLVANIA--7th Cavalry (Detachment); 78th and 79th Infantry.
     WISCONSIN--1st Infantry.
+  forces:
+  - name: Kentucky 5th Cavalry
+  - name: Indiana 38th Infantry
+  - name: Ohio 1st Light Artillery
+    batteries: ["B"]
+  - name: PENNSYLVANIA--7th Cavalry
+    detachment: true
+  - name: Pennsylvania 78th Infantry
+  - name: Pennsylvania 79th Infantry
+  - name: Wisconsin 1st Infantry
 - end_date: 1862-05-14
   event_type: Skirmish
   nature_location: Skirmish, Lamb's Ferry
@@ -185,6 +247,8 @@
   start_date: 1862-05-29
   state: Alabama
   troops_engaged: OHIO--4th Cavalry.
+  forces:
+  - name: Ohio 4th Cavalry
 - end_date: 1862-06-05
   event_type: Skirmishes
   nature_location: Skirmishes, Huntsville
@@ -193,6 +257,8 @@
   start_date: 1862-06-04
   state: Alabama
   troops_engaged: OHIO--4th Cavalry.
+  forces:
+  - name: Ohio 4th Cavalry
 - end_date: 1862-07-02
   event_type: Skirmish
   nature_location: Skirmish, Huntsville
@@ -201,6 +267,8 @@
   start_date: 1862-07-02
   state: Alabama
   troops_engaged: OHIO--4th Cavalry.
+  forces:
+  - name: Ohio 4th Cavalry
 - casualties: 7
   end_date: 1862-07-03
   event_type: Skirmish
@@ -213,6 +281,9 @@
   state: Alabama
   troops_engaged: OHIO--1st Cavalry (Cos. "B" and "G"). Union loss, 2 killed, 5 wounded.
     Total, 7.
+  forces:
+  - name: Ohio 1st Cavalry
+    companies: ["B", "G"]
   wounded: 5
 - casualties: 7
   end_date: 1862-07-12
@@ -226,6 +297,9 @@
   state: Alabama
   troops_engaged: OHIO--1st Cavalry (Detachment). Union loss, 5 wounded, 2 missing.
     Total, 7.
+  forces:
+  - name: Ohio 1st Cavalry
+    detachment: true
   wounded: 5
 - end_date: 1862-07-16
   event_type: Expedition
@@ -571,8 +645,8 @@
   start_date: 1863-04-22
   state: Alabama
   troops_engaged: ALABAMA--1st Cavalry. ILLINOIS--15th Cavalry; Battery "H", 1st Light
-    Artillery; 7th, 9th (Mounted), 12th, 50th, 52nd. 57th and 122nd Infantry. INDIANA--66th
-    Infantry. IOWA--39th. Infantry. MICHIGAN--Battery "C", 1st Light Artillery KANSAS--7th
+    Artillery; 7th, 9th (Mounted), 12th, 50th, 52nd, 57th and 122nd Infantry. INDIANA--66th
+    Infantry. IOWA--39th Infantry. MICHIGAN--Battery "C", 1st Light Artillery KANSAS--7th
     Cavalry. MISSOURI--10th Cavalry; Batteries "D", "H" and "I", 1st Light Artillery
     OHIO--27th, 39th, 43rd, 63rd and 81st Infantry.
 - end_date: 1863-04-23
@@ -658,7 +732,7 @@
   slug: Alabama/1863-04-27-action-town-creek
   start_date: 1863-04-27
   state: Alabama
-  troops_engaged: ALABAMA--1st Cavalry. ILLINOIS--15th Cavalry; 7th, 9th (Mounted).
+  troops_engaged: ALABAMA--1st Cavalry. ILLINOIS--15th Cavalry; 7th, 9th (Mounted),
     12th, 50th, 52nd, 57th and 122nd Infantry. INDIANA--66th Infantry. IOWA--39th
     Infantry. KANSAS--7th Cavalry. MICHIGAN--Battery "C", 1st Light Artillery MISSOURI--10th
     Cavalry; Batteries "D", "H" and "I", 1st Light Artillery OHIO--27th, 39th, 43rd,
@@ -702,8 +776,8 @@
   slug: Alabama/1863-05-01-action-east-branch-big-warrior-river
   start_date: 1863-05-01
   state: Alabama
-  troops_engaged: ILLINOIS--80th Infantry. INDIANA--51st and 73 Infantry. OHIO--3rd
-    Infantry. TENNESSEE, 1st Middle Cavalry (2 Cos.).
+  troops_engaged: ILLINOIS--80th Infantry. INDIANA--51st and 73rd Infantry. OHIO--3rd
+    Infantry. TENNESSEE--1st Middle Cavalry (2 Cos.).
 - end_date: 1863-05-02
   event_type: Action
   nature_location: Action, Blount's Plantation
@@ -963,7 +1037,7 @@
     55th, 56th, 63rd, 90th, 93rd, 103rd, 116th and 127th Infantry. INDIANA--12th,
     48th, 59th, 83rd, 97th, 99th and 100th Infantry. IOWA--1st Battery Light Artillery;
     4th, 5th, 6th, 9th, 10th, 17th, 25th, 26th, 30th and 31st Infantry. MICHIGAN--15th
-    Infantry. MISSOURI--Battery "D", 1st Light Artillery; Landgraeber's "F", 2nd Light
+    Infantry. MISSOURI--Battery "D", 1st Light Artillery; Landgraeber's Battery "F", 2nd Light
     Artillery; 3rd, 6th, 8th, 10th, 11th, 12th, 17th, 24th (Co. "F"), 26th, 27th,
     29th, 31st and 32nd Infantry. MINNESOTA--4th Infantry. OHIO--5th Cavalry; 4th
     Independent Battery Light Artillery; 30th, 37th, 46th, 47th, 54th, 57th, 72nd,
@@ -1209,7 +1283,7 @@
   slug: Alabama/1864-02-14-affair-at-larkinsville
   start_date: 1864-02-14
   state: Alabama
-  troops_engaged: TENNESSEE and ALABAMA--Vidette Cavalry (Detachment).
+  troops_engaged: ALABAMA and TENNESSEE--1st Vidette Cavalry (Detachment).
 - end_date: 1864-03-17
   event_type: Operations
   nature_location: Operations about Mobile
@@ -1375,7 +1449,7 @@
   start_date: 1864-04-12
   state: Alabama
   troops_engaged: ALABAMA--1st Cavalry (Detachment). OHIO--7th, 28th and 66th Infantry
-    (Detachments). PENNSYLVANIA--Independent, Battery "E", Light Artillery (Section);
+    (Detachments). PENNSYLVANIA--Independent Battery "E", Light Artillery (Section);
     28th and 147th Infantry (Detachments).
 - casualties: 43
   end_date: 1864-04-13
@@ -1824,7 +1898,7 @@
   slug: Alabama/1864-08-03-landing-at-dauphin-s-island
   start_date: 1864-08-03
   state: Alabama
-  troops_engaged: UNITED STATES FORCES.
+  troops_engaged: United States forces.
 - casualties: 320
   end_date: 1864-08-05
   event_type: Battle
@@ -1837,7 +1911,7 @@
   state: Alabama
   troops_engaged: UNITED STATES NAVY--"Brooklyn", "Octorora", "Hartford", "Ossippee",
     "Itasca", "Oneida", "Galena", "Metacomet", "Richmond", "Port Royal", "Lackawanna",
-    "Seminole", "Monongahela" and "Tecumseh." Union loss, 150 killed, 170 wounded.
+    "Seminole", "Monongahela" and "Tecumseh". Union loss, 150 killed, 170 wounded.
     Total, 320.
   wounded: 170
 - end_date: 1864-08-09
@@ -1863,10 +1937,10 @@
     "A", 2nd Light Artillery; 77th and 94th Infantry. INDIANA--1st Heavy Artillery
     (Cos. "B", "F", "H", "K"); 67th Infantry. IOWA--20th, 34th and 38th Infantry.
     MARYLAND--3rd Cavalry. OHIO--17th Independent Battery Light Artillery; 96th Infantry.
-    WISCONSIN--20th Infantry. UNITED STATES--Battery "G", 5th Artillery FARRAGUT'S
-    FLEET. UNITED STATES NAVY--"Tecumseh", "Monongahela", "Galena", "Ossippee" "Oneida",
+    WISCONSIN--20th Infantry. UNITED STATES--Battery "G", 5th Artillery
+    UNITED STATES NAVY--"Tecumseh", "Monongahela", "Galena", "Ossippee" "Oneida",
     "Richmond", "Lackawanna", "Brooklyn", "Octorora", "Hartford", "Itasca", "Metacomet",
-    "Seminole", "Port Royal."
+    "Seminole", "Port Royal".
 - end_date: 1864-08-05
   event_type: Engagement
   nature_location: Engagement, Fort Morgan
@@ -2074,7 +2148,7 @@
   slug: Alabama/1864-10-09-affair-mobile-bay
   start_date: 1864-10-09
   state: Alabama
-  troops_engaged: Attack on U. S. Steamer "Sebago."
+  troops_engaged: Attack on U. S. Steamer "Sebago".
 - end_date: 1864-10-18
   event_type: Skirmish
   nature_location: Skirmish, Huntsville
@@ -2331,7 +2405,7 @@
   start_date: 1864-12-30
   state: Alabama
   troops_engaged: INDIANA--10th, 12th and 13th Cavalry (Detachments). PENNSYLVANIA--15th
-    Cavalry. TENNESSEE--2nd Cavalry (Detachment.
+    Cavalry. TENNESSEE--2nd Cavalry (Detachment).
 - end_date: 1864-12-31
   event_type: Affair
   nature_location: Affair, Paint Rock Bridge
@@ -2390,7 +2464,7 @@
   slug: Alabama/1865-01-28-affair-mobile-bay
   start_date: 1865-01-28
   state: Alabama
-  troops_engaged: Attack on U. S. Steamer "Octorora."
+  troops_engaged: Attack on U. S. Steamer "Octorora".
 - end_date: 1865-04-24
   event_type: Operations
   nature_location: Operations in Northern Alabama and Eastern Tennessee
@@ -2512,7 +2586,7 @@
     and 14th Independent Batteries Light Artillery; 24th, 26th, 47th, 50th, 52nd,
     69th, 89th and 93rd Infantry. IOWA--2nd Battery Light Artillery; 8th, 12th, 19th,
     20th, 21st, 23rd, 27th, 29th, 32nd, 33rd, 34th and 35th Infantry. KANSAS--10th
-    Infantry. LOUISIANA--1st Cavalry. Maine--2nd Cavalry--MARYLAND--3rd Cavalry. MASSACHUSETTS--2nd.
+    Infantry. LOUISIANA--1st Cavalry. Maine--2nd Cavalry--MARYLAND--3rd Cavalry. MASSACHUSETTS--2nd,
     4th, 7th and 15th Batteries Light Artillery; 31st Mounted Infantry. MICHIGAN--6th
     Heavy Artillery; Battery "G", 1st Light Artillery MINNESOTA--5th, 6th, 7th, 9th
     and 10th Infantry. MISSOURI--Battery "F", 1st Light Artillery; 11th, 21st, 30th,
@@ -2869,7 +2943,7 @@
   slug: Alabama/1865-04-09-1865-04-11-bombardment-and-capture-of-batteries-huger-and-tracy
   start_date: 1865-04-09
   state: Alabama
-  troops_engaged: UNITED STATES Batteries.
+  troops_engaged: UNITED STATES--Batteries.
 - end_date: 1865-04-17
   event_type: Expedition
   nature_location: Expedition from Blakely to Claiborne
@@ -3080,7 +3154,7 @@
   slug: Alabama/1865-04-08-capture-of-spanish-fort
   start_date: 1865-04-08
   state: Alabama
-  troops_engaged: (See Force in Campaign against Mobile.) Union losses at Capture
+  troops_engaged: (See Force in Campaign against Mobile.) Union losses at the Capture
     of Spanish Fort, April 8, 52 killed, 575 wounded, 30 missing. Total 657.
   wounded: 575
 - casualties: 775
@@ -3095,6 +3169,6 @@
   slug: Alabama/1865-04-09-capture-of-fort-blakely
   start_date: 1865-04-09
   state: Alabama
-  troops_engaged: (See Force in Campaign against Mobile.) At Fort Blakely, April 9,
+  troops_engaged: (See Force in Campaign against Mobile.) Union losses at the Capture of Fort Blakely, April 9,
     116 killed, 655 wounded, 4 missing. Total, 775.
   wounded: 655

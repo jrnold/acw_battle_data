@@ -993,7 +993,7 @@
     150th and 151st Infantry. PENNSYLVANIA--2nd Provisional Heavy Artillery; 23rd,
     61st, 82nd, 93rd, 98th, 102nd and 139th Infantry. RHODE ISLAND--2nd Infantry.
     VERMONT--3rd and 4th Infantry. WISCONSIN--1st Heavy Artillery (Co. "A"). UNITED
-    STATES--Batteries "I" and "L." 2nd Artillery; 6th, 7th, 9th and 12th Regiments
+    STATES--Batteries "I" and "L". 2nd Artillery; 6th, 7th, 9th and 12th Regiments
     Veteran Reserve Corps; Fry's Provisional Cavalry Regiment; Marines, Convalescents
     and Citizens. Union  loss, 54 killed. 319 wounded. Total, 373.
 - end_date: 1864-07-12
@@ -1133,8 +1133,10 @@
   slug: Ohio/1863-07-14-skirmish-lawrenceburg
   start_date: 1863-07-14
   state: Ohio
-  troops_engaged: INDIANA--105 Minute Men. Union loss, 8 killed, 20 missing. Total,
+  troops_engaged: INDIANA--105th Infantry (Minute Men). Union loss, 8 killed, 20 missing. Total,
     28.
+  forces:
+    - Indiana 105th Infantry
 - end_date: 1863-07-17
   event_type: Skirmish
   nature_location: Skirmish. Berlin
@@ -1178,6 +1180,21 @@
     INDIANA--5th Cavalry. KENTUCKY--1st, 3rd, 8th, 11th and 12th Cavalry. MICHIGAN--8th
     and 9th Cavalry. OHIO--2nd and 7th Cavalry; 45th Infantry. TENNESSEE--2nd Mounted
     Infantry; Militia and Gunboats. Union loss, 25 wounded.
+  forces:
+    - name: Illinois 14th Cavalry
+    - name: Illinois Henshaw's Independent Battery Light Artillery
+    - name: Indiana 5th Cavalry
+    - name: Kentucky 1st Cavalry
+    - name: Kentucky 3rd Cavalry
+    - name: Kentucky 8th Cavalry
+    - name: Kentucky 11th Cavalry
+    - name: Kentucky 12th Cavalry
+    - name: Michigan 8th Cavalry
+    - name; Michigan 9th Cavalry
+    - name: Ohio 2nd Cavalry
+    - name: Ohio 7th Cavalry
+    - name: Ohio 45th Infantry
+    - name: Tennessee 2nd Mounted Infantry
   wounded: 25
 - end_date: 1863-07-20
   event_type: Skirmish
@@ -1187,6 +1204,8 @@
   start_date: 1863-07-20
   state: Ohio
   troops_engaged: OHIO--23rd Infantry.
+  forces:
+    - name: Ohio 23rd Infantry
 - end_date: 1863-07-20
   event_type: Skirmish
   nature_location: Skirmish, Coal Hill, near Cheshire
@@ -1195,6 +1214,8 @@
   start_date: 1863-07-20
   state: Ohio
   troops_engaged: OHIO--45th Infantry.
+  forces:
+    - name: Ohio 45th Infantry
 - end_date: 1863-07-20
   event_type: Skirmish
   nature_location: Skirmish, Cheshire
@@ -1203,6 +1224,8 @@
   start_date: 1863-07-20
   state: Ohio
   troops_engaged: INDIANA--65th Infantry.
+  forces:
+    - name: Indiana 65th Infantry
 - end_date: 1863-07-22
   event_type: Skirmish
   nature_location: Skirmish, Eaglesport
@@ -1211,6 +1234,8 @@
   start_date: 1863-07-22
   state: Ohio
   troops_engaged: OHIO--86th Infantry.
+  forces:
+    - name: Ohio 86th Infantry
 - end_date: 1863-07-23
   event_type: Skirmish
   nature_location: Skirmish, Rockville
@@ -1243,6 +1268,8 @@
   start_date: 1863-07-25
   state: Ohio
   troops_engaged: PENNSYLVANIA--54th Militia.
+  forces:
+    - name: Pennsylvania 54th Militia
 - end_date: 1863-07-25
   event_type: Skirmish
   nature_location: Skirmish, Springfield
@@ -1259,6 +1286,8 @@
   start_date: 1863-07-26
   state: Ohio
   troops_engaged: MICHIGAN--9th Cavalry.
+  forces:
+    - name: Michigan 9th Cavalry
 - end_date: 1863-07-26
   event_type: Action
   nature_location: Action, New Lisbon
@@ -1268,7 +1297,14 @@
   state: Ohio
   troops_engaged: INDIANA--15th Independent Battery Light Artillery KENTUCKY --1st,
     9th, 11th and 12th Cavalry (Detachments). MICHIGAN--8th Cavalry; "Morgan surrendered
-    to Shackleford's Cavalry."
+    to Shackleford's Cavalry".
+  forces:
+    - name: Indiana 15th Independent Battery Light Artillery
+    - name: Kentucky 1st Cavalry (Detachment)
+    - name: Kentucky 9th Cavalry (Detachment)
+    - name: Kentucky 11th Cavalry (Detachment)
+    - name: Kentucky 12th Cavalry (Detachment)
+    - name: Michigan 8th Cavalry
 - end_date: 1863-07-15
   event_type: Riot
   nature_location: Riots, New York City
@@ -1277,6 +1313,8 @@
   start_date: 1863-07-13
   state: New York
   troops_engaged: UNITED STATES--Battery "C", 5th Artillery
+  forces:
+    - name: US 5th Artillery, Battery "C"
 - end_date: 1864-06-19
   event_type: Action
   nature_location: Action off Cherburg
@@ -1286,6 +1324,8 @@
   state: France
   troops_engaged: Kearsage and Alabama. Union loss, 3 wounded.
   wounded: 3
+  forces:
+    - name: USS Kearsage
 - end_date: 1864-01-13
   event_type: Affair
   nature_location: Affair, Matamoras
@@ -1294,6 +1334,8 @@
   start_date: 1864-01-12
   state: Mexico
   troops_engaged: WISCONSIN--20th Infantry.
+  forces:
+    - name: Wisconsin 20th Infantry
 - end_date: 1864-04-07
   event_type: Skirmish
   nature_location: Skirmish, foot of Sierra Bonita, near Presidio del Norte
@@ -1301,7 +1343,9 @@
   slug: Mexico/1864-04-07-skirmish-foot-of-sierra-bonita-near-presidio-del-norte
   start_date: 1864-04-07
   state: Mexico
-  troops_engaged: CALIFORNIA--1st Cavalry, Company "A."
+  troops_engaged: CALIFORNIA--1st Cavalry, Company "A".
+  forces:
+    - name: California 1st Cavalry, Company A
 - end_date: 1864-04-15
   event_type: Skirmish
   nature_location: Skirmish, foot of Sierra Bonita, near Presidio del Norte
@@ -1309,7 +1353,9 @@
   slug: Mexico/1864-04-15-skirmish-foot-of-sierra-bonita-near-presidio-del-norte
   start_date: 1864-04-15
   state: Mexico
-  troops_engaged: CALIFORNIA--1st Cavalry, Company "A."
+  troops_engaged: CALIFORNIA--1st Cavalry, Company "A".
+  forces:
+    - name: California 1st Cavalry, Company A
 - end_date: 1865-01-21
   event_type: Affair
   nature_location: Affair, Presidio del Norte
