@@ -12,8 +12,8 @@ schema:
     title: infantry
     type: integer
   - format: default
-    name: unit type
-    title: unit type
+    name: unit_type
+    title: unit_type
     type: string
   - format: default
     name: low

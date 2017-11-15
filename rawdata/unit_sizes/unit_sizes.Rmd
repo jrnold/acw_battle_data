@@ -2,11 +2,17 @@
 title: Unit Sizes in the American Civil War
 ---
 
-```{r,results='hide',echo=FALSE,message=FALSE}
+```{r results="hide",echo=FALSE,message=FALSE}
+knitr::opts_chunk$set(cache = FALSE, error = TRUE)
 suppressPackageStartupMessages({
-library("dplyr")
-library("pander")  
+  library("tidyverse")
+  library("rlang")
+  library("rprojroot")
 })
+set.seed(21351)
+proj_path <- function(...) {
+  rprojroot::find_rstudio_root_file(...)
+}
 ```
 
 For many battles and sources of data about them, the number of personnel present (or engaged) is either not given or not known. Instead, the units involved are given. Somtimes the CWSAC simply states that "brigades" or "corps" were involved. This program generates the number of personnel associated with each unit size. Unfortunately, there is cons  iderable uncertainty about the number of personnel in a unit, both due to organizational differences and attrition. Thus this program generates a probability distribution over the number of personnel in a unit.
@@ -46,14 +52,14 @@ With attrition regiments were often at much lower than their official strength. 
 
 In terms of attrition the Confederate and Union armies differed in an important respect. In the Union army recruits were assigned to new regiments and thus the regimental size would continue to decrease until it was no longer effective. In the Confederate army, recruits were assigned to existing regiments.
 
-```{r}
-units_table <- read.csv("eicher_units_table.csv",
-                        check.names = TRUE, stringsAsFactors = FALSE)
+```{r units_table}
+units_table <- proj_path("rawdata", "unit_sizes", "eicher_units_table.csv") %>%
+  read_csv()
 ```
 
 Union infantry unit sizes:
 
-```{r,results='asis',echo=FALSE}
+```{r,results="asis",echo=FALSE}
 knitr::kable(filter(units_table, 
        belligerent == "Union",
        as.logical(infantry))
@@ -62,7 +68,7 @@ knitr::kable(filter(units_table,
 ```
 
 Union cavalry unit sizes
-```{r,results='asis',echo=FALSE}
+```{r,results="asis",echo=FALSE}
 knitr::kable(filter(units_table, 
        belligerent == "Confederate",
        ! as.logical(infantry))
@@ -72,7 +78,7 @@ knitr::kable(filter(units_table,
 
 Confederate infantry unit sizes:
 
-```{r,results='asis',echo=FALSE}
+```{r,results="asis",echo=FALSE}
 knitr::kable(filter(units_table, 
        belligerent == "Confederate",
        as.logical(infantry))
@@ -81,7 +87,7 @@ knitr::kable(filter(units_table,
 ```
 
 Confederate cavalry unit sizes
-```{r,results='asis',echo=FALSE}
+```{r,results="asis",echo=FALSE}
 knitr::kable(filter(units_table, 
        belligerent == "Confederate",
        ! as.logical(infantry))
@@ -221,7 +227,7 @@ draw_unit_personnel_unif <- function(n, low, high, .FUN) {
 }
 
 draw_unit_personnel_exact <- function(n, k, .FUN) {
-    vapply(rep(n, k), function(n) sum(.FUN(n)), 0)
+    vapply(rep(k, n), function(n) sum(.FUN(n)), 0)
 }
 ```
 
@@ -259,35 +265,49 @@ unit_sizes[["union"]][["infantry_regiment"]] <-
 ```
 However, I'll need to draw random values from it for other unit sizes.
 ```{r}
-draw_union_infantry_regiments <- function(n) draw_unif(n, union_regiment_low, union_regiment_high)
+draw_union_infantry_regiments <- function(n) {
+  draw_unif(n, union_regiment_low, union_regiment_high)
+}
 ```
 
 Draw brigades, divisions, corps and armies using the values from the tables of sub-units:
 
 ```{r}
 draw_union_infantry_brigades <- function(n) {
-  sz <- filter(units_table, belligerent == "Union", as.logical(infantry), unit.type == "regiments per brigade")
+  sz <- filter(UQ(units_table), 
+               belligerent == "Union", 
+               as.logical(infantry), 
+               `unit_type` == "regiments per brigade")
   draw_unit_personnel(n, sz$low, sz$high, sz$avg, draw_union_infantry_regiments)                    
 }
 unit_sizes[["union"]][["infantry_brigade"]] <-
   summarize_data(draw_union_infantry_brigades(N))
 
 draw_union_infantry_divisions <- function(n) {
-  sz <- filter(units_table, belligerent == "Union", as.logical(infantry), unit.type == "brigades per division")
+  sz <- filter(UQ(units_table), 
+               belligerent == "Union", 
+               as.logical(infantry), 
+               unit_type == "brigades per division")
   draw_unit_personnel(n, sz$low, sz$high, sz$avg, draw_union_infantry_brigades)
 }
 unit_sizes[["union"]][["infantry_division"]] <-
   summarize_data(draw_union_infantry_divisions(N))
 
 draw_union_infantry_corps <- function(n) {
-  sz <- filter(units_table, belligerent == "Union", as.logical(infantry), unit.type == "divisions per corps")
+  sz <- filter(UQ(units_table), 
+               belligerent == "Union", 
+               as.logical(infantry),
+               unit_type == "divisions per corps")
   draw_unit_personnel(n, sz$low, sz$high, sz$avg, draw_union_infantry_divisions)                    
 }
 unit_sizes[["union"]][["infantry_corps"]] <-
   summarize_data(draw_union_infantry_corps(N))
 
 draw_union_armies <- function(n) {
-  sz <- filter(units_table, belligerent == "Union", as.logical(infantry), unit.type == "divisions per corps")
+  sz <- filter(UQ(units_table), 
+               belligerent == "Union", 
+               as.logical(infantry), 
+               unit_type == "divisions per corps")
   draw_unit_personnel(n, sz$low, sz$high, sz$avg, draw_union_infantry_corps)                    
 }
 unit_sizes[["union"]][["army"]] <-
@@ -325,32 +345,41 @@ Draw brigades, divisions, corps and armies using the values from the tables of s
 
 ```{r}
 draw_confed_infantry_brigades <- function(n) {
-  sz <- filter(units_table, belligerent == "Confederate", as.logical(infantry),
-               unit.type == "regiments per brigade")
+  sz <- filter(UQ(units_table), 
+               belligerent == "Confederate", 
+               as.logical(infantry),
+               unit_type == "regiments per brigade")
   draw_unit_personnel(n, sz$low, sz$high, sz$avg, draw_confed_infantry_regiments)                    
 }
 unit_sizes[["confed"]][["infantry_brigade"]] <-
   summarize_data(draw_confed_infantry_brigades(N))
 
 draw_confed_infantry_divisions <- function(n) {
-  sz <- filter(units_table, belligerent == "Confederate", as.logical(infantry),
-               unit.type == "brigades per division")
+  sz <- filter(units_table, 
+               belligerent == "Confederate", 
+               as.logical(infantry),
+               unit_type == "brigades per division")
   draw_unit_personnel(n, sz$low, sz$high, sz$avg, draw_confed_infantry_brigades)
 }
 unit_sizes[["confed"]][["infantry_division"]] <-
   summarize_data(draw_confed_infantry_divisions(N))
 
 draw_confed_infantry_corps <- function(n) {
-  sz <- filter(units_table, belligerent == "Confederate", as.logical(infantry),
-               unit.type == "divisions per corps")
-  draw_unit_personnel(n, sz$low, sz$high, sz$avg, draw_confed_infantry_divisions)                    
+  sz <- filter(units_table,
+               belligerent == "Confederate", 
+               as.logical(infantry),
+               unit_type == "divisions per corps")
+  draw_unit_personnel(n, sz$low, sz$high, sz$avg,
+                      draw_confed_infantry_divisions)                    
 }
 unit_sizes[["confed"]][["infantry_corps"]] <-
   summarize_data(draw_confed_infantry_corps(N))
 
 draw_confed_armies <- function(n) {
-  sz <- filter(units_table, belligerent == "Confederate", as.logical(infantry),
-               unit.type == "divisions per corps")
+  sz <- filter(units_table, 
+               belligerent == "Confederate", 
+               as.logical(infantry),
+               unit_type == "divisions per corps")
   draw_unit_personnel(n, sz$low, sz$high, sz$avg, draw_confed_infantry_corps)                    
 }
 unit_sizes[["confed"]][["army"]] <-
@@ -363,10 +392,12 @@ unit_sizes[["confed"]][["army"]] <-
 Assume a cavalry company is the same size as an infantry company
 ```{r}
 unit_sizes[["union"]][["cavalry_company"]] <-
-  unit_sizes[["union"]][["cavalry_company"]]
+  unit_sizes[["union"]][["infantry_company"]]
 
 draw_union_cavalry_companies <-
-  function(n) draw_unif(n, PCT_UNIT_LOW * 100, PCT_UNIT_HIGH * 100)
+  function(n) draw_unif(n, 
+                        PCT_UNIT_LOW * COMPANY_SIZE, 
+                        PCT_UNIT_HIGH * COMPANY_SIZE)
 ```
 
 A cavalry squadrom is 2 companies
@@ -375,7 +406,7 @@ draw_union_cavalry_squadrons <-
   function(n) {
      draw_unit_personnel_exact(n, 2, draw_union_cavalry_companies)
   }
-unit_sizes[["union"]][["cavalry_company"]] <-
+unit_sizes[["union"]][["cavalry_squadron"]] <-
   summarize_data(draw_union_cavalry_squadrons(N))
 ```
 
@@ -392,7 +423,7 @@ Draw brigades, divisions, corps and armies using the values from the tables of s
 ```{r}
 draw_union_cavalry_brigades <- function(n) {
   sz <- filter(units_table, belligerent == "Union", !as.logical(infantry),
-               unit.type == "regiments per brigade")
+               unit_type == "regiments per brigade")
   draw_unit_personnel(n, sz$low, sz$high, sz$avg, draw_union_cavalry_regiments)                    
 }
 unit_sizes[["union"]][["cavalry_brigade"]] <-
@@ -400,7 +431,7 @@ unit_sizes[["union"]][["cavalry_brigade"]] <-
 
 draw_union_cavalry_divisions <- function(n) {
   sz <- filter(units_table, belligerent == "Union", !as.logical(infantry),
-               unit.type == "brigades per division")
+               unit_type == "brigades per division")
   draw_unit_personnel(n, sz$low, sz$high, sz$avg, draw_union_cavalry_brigades)                    
 }
 unit_sizes[["union"]][["cavalry_division"]] <-
@@ -408,7 +439,7 @@ unit_sizes[["union"]][["cavalry_division"]] <-
 
 draw_union_cavalry_corps <- function(n) {
   sz <- filter(units_table, belligerent == "Union", !as.logical(infantry),
-               unit.type == "divisions per corps")
+               unit_type == "divisions per corps")
   draw_unit_personnel(n, sz$low, sz$high, sz$avg, draw_union_cavalry_divisions)                    
 }
 unit_sizes[["union"]][["cavalry_corps"]] <-
@@ -421,7 +452,7 @@ unit_sizes[["union"]][["cavalry_corps"]] <-
 Assume a cavalry company is the same size as an infantry company
 ```{r}
 unit_sizes[["confed"]][["cavalry_company"]] <-
-  unit_sizes[["confed"]][["cavalry_company"]]
+  unit_sizes[["confed"]][["cavalry_infantry"]]
 
 draw_confed_cavalry_companies <-
   function(n) draw_unif(n, PCT_UNIT_LOW * 100, PCT_UNIT_HIGH * 100)
@@ -433,7 +464,7 @@ draw_confed_cavalry_squadrons <-
   function(n) {
      draw_unit_personnel_exact(n, 2, draw_confed_cavalry_companies)
   }
-unit_sizes[["confed"]][["cavalry_company"]] <-
+unit_sizes[["confed"]][["cavalry_squadron"]] <-
   summarize_data(draw_confed_cavalry_squadrons(N))
 ```
 
@@ -451,7 +482,7 @@ sub-units:
 ```{r}
 draw_confed_cavalry_brigades <- function(n) {
   sz <- filter(units_table, belligerent == "Confederate", !as.logical(infantry), 
-               unit.type == "regiments per brigade")
+               unit_type == "regiments per brigade")
   draw_unit_personnel(n, sz$low, sz$high, sz$avg, draw_confed_cavalry_regiments)                    
 }
 unit_sizes[["confed"]][["cavalry_brigade"]] <-
@@ -459,7 +490,7 @@ unit_sizes[["confed"]][["cavalry_brigade"]] <-
 
 draw_confed_cavalry_divisions <- function(n) {
   sz <- filter(units_table, belligerent == "Confederate", !as.logical(infantry), 
-               unit.type == "brigades per division")
+               unit_type == "brigades per division")
   draw_unit_personnel(n, sz$low, sz$high, sz$avg, draw_confed_cavalry_brigades)                    
 }
 unit_sizes[["confed"]][["cavalry_division"]] <-
@@ -467,7 +498,7 @@ unit_sizes[["confed"]][["cavalry_division"]] <-
 
 draw_confed_cavalry_corps <- function(n) {
   sz <- filter(units_table, belligerent == "Confederate", !as.logical(infantry), 
-               unit.type == "divisions per corps")
+               unit_type == "divisions per corps")
   draw_unit_personnel(n, sz$low, sz$high, sz$avg, draw_confed_cavalry_divisions)                    
 }
 unit_sizes[["confed"]][["cavalry_corps"]] <-
@@ -506,8 +537,11 @@ A battery consisted of 4-6 guns and and 80-156 men (Eicher, p. 66).
 It is equivalent to a company.
 ```{r}
 UNION_ARTILLERY_BATTERY_SIZE <- c(80, 156)
-draw_union_artillery_batteries <- function(n) draw_unif(n, UNION_ARTILLERY_BATTERY_SIZE[1],
-                                        UNION_ARTILLERY_BATTERY_SIZE[2])
+draw_union_artillery_batteries <- function(n) {
+  draw_unif(n, UNION_ARTILLERY_BATTERY_SIZE[1],
+            UNION_ARTILLERY_BATTERY_SIZE[2])
+}
+
 unit_sizes[["union"]][["artillery_battery"]] <-
   summarize_data_unif(UNION_ARTILLERY_BATTERY_SIZE[1],
                       UNION_ARTILLERY_BATTERY_SIZE[2])
@@ -551,10 +585,10 @@ unit_sizes[["confed"]][["artillery_regiment"]] <-
 
 Make an artillery company equivalent to an infantry company:
 ```{r}
-unit_sizes[["confed"]][["infantry_company"]] <-
+unit_sizes[["confed"]][["artillery_company"]] <-
   unit_sizes[["confed"]][["infantry_company"]]
 
-unit_sizes[["union"]][["infantry_company"]] <-
+unit_sizes[["union"]][["artillery_company"]] <-
   unit_sizes[["union"]][["infantry_company"]]
 ```
 
@@ -582,22 +616,17 @@ unit_sizes_df <-
               mean, sd, p025, p25, median, p75, p975)
    )
 write.csv(unit_sizes_df, 
-          file = "unit_sizes.csv",
+          file = proj_path("rawdata/unit_sizes/unit_sizes.csv"),
           na = "", row.names = FALSE)
-
-# con <- file("unit_sizes.json", "w")
-# cat(toJSON(unit_sizes),
-#     file = con)
-# close(con)
 ```
 
 ## Summary
 
 The unit sizes generated are:
 
-```{r,results='asis'}
-pandoc.table((unit_sizes_df 
-             %>% select(belligerent, unit_type, mean, sd, p025, p975)))
+```{r}
+unit_sizes_df %>% 
+  select(belligerent, unit_type, mean, sd, p025, p975)
 ```
 
 # TODO

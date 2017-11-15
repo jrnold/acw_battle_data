@@ -19,7 +19,7 @@ Schema
 ===========  =======  ===========
 belligerent  string   belligerent
 infantry     integer  infantry
-unit type    string   unit type
+unit_type    string   unit_type
 low          integer  low
 high         integer  high
 avg          number   avg
@@ -51,10 +51,10 @@ infantry
 
 
        
-unit type
+unit_type
 ---------
 
-:title: unit type
+:title: unit_type
 :type: string
 :format: default
 

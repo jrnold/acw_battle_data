@@ -15,6 +15,7 @@ PYTHON = 'python'
 RSCRIPT = 'Rscript'
 
 SRC = "."
+# DST = "data"
 
 def build_aad(src, dst):
     print("build_aad")

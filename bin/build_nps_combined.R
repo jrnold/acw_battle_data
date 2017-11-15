@@ -128,8 +128,6 @@ CWSS_RESULTS = list("Union Victory" = "Union",
                    "Confederate Victory (tactical)" = "Confederate",
                    "Confederate Victory" = "Confederate")
 
-
-
 #'
 #' # Battle-Level Data
 #'
@@ -181,8 +179,8 @@ gen_battles <-
            casualties_kwm_cwsac = casualties,
            strength_cwsac = strength) %>%
     mutate(partof_cwsac = TRUE,
-           result_cwsac = recode(result_cwsac,
-                                 "Inconclusive" = "Indecisive"))
+           result_cwsac = recode(result_cwsac,  "Inconclusive" = "Indecisive"))
+
   nps_battles_cws2 <- cws2_battles %>%
     select(battle, url, study_area, core_area, potnr_boundary,
            battle_name, strength) %>%
@@ -208,14 +206,17 @@ gen_battles <-
            battle_name_aad = event) %>%
     mutate(partof_aad = TRUE)
 
-
   nps_latlong <- latlong %>%
     select(cwsac_id, lat, long)
 
   forces_agg <- forces %>%
     group_by(cwsac_id) %>%
-    summarize(casualties_kwm_forces = sum(casualties_kwm_mean),
-              strength_forces = sum(strength_mean))
+    summarise(casualties_kwm_forces_mean =
+                sum(casualties_kwm_mean, na.rm = FALSE),
+              casualties_kwm_forces_var =
+                sum(casualties_kwm_var, na.rm = FALSE),
+              strength_forces_mean = sum(strength_mean, na.rm = FALSE),
+              strength_forces_var = sum(strength_var, na.rm = FALSE))
 
   nps_battles <-
     nps_battles_cwss %>%
@@ -238,18 +239,24 @@ gen_battles <-
              start_date = coalesce(start_date, start_date_cwsac),
              end_date = coalesce(end_date, end_date_cwsac),
              state = str_sub(cwsac_id, 1, 2),
-             strength = coalesce(as.numeric(strength_forces),
-                                 as.numeric(strength_cws2),
-                                 as.numeric(strength_cwsac)),
-             casualties_kwm = coalesce(as.numeric(casualties_kwm_forces),
-                                       as.numeric(casualties_kwm_cwss),
-                                       as.numeric(casualties_kwm_cwsac))) %>%
+             strength_mean = coalesce(as.numeric(strength_forces_mean),
+                                      as.numeric(strength_cws2),
+                                      as.numeric(strength_cwsac)),
+             strength_var = coalesce(strength_forces_var,
+                                     rounded_var(strength_mean)),
+             casualties_kwm_mean =
+               coalesce(as.numeric(casualties_kwm_forces_mean),
+                        as.numeric(casualties_kwm_cwss),
+                        as.numeric(casualties_kwm_cwsac)),
+             casualties_kwm_var =
+               coalesce(casualties_kwm_forces_var,
+                        rounded_var(strength_mean))) %>%
       select(-matches("battle_name_(cwsac|cws2|aad)"),
              -matches("(start|end)_date_cwsac"),
              -matches("result_cwsac"),
              -matches("(casualties_kwm|strength)_(forces|cwsac|cws2|cwss)"))
 
-  #' Fill in campaigns and theaters,
+  #' Fill in extra information on battles
   extra_battles <- extra_battles
   for (i in names(extra_battles)) {
     x <- extra_battles[[i]]
@@ -257,7 +264,16 @@ gen_battles <-
       nps_battles[nps_battles[["cwsac_id"]] == i, j] <- x[[j]]
     }
   }
-  nps_battles
+  nps_battles %>%
+    # double check that casualties and strngth vars are consistent
+    mutate(casualties_kwm_var =
+             if_else(is.na(casualties_kwm_mean), NA_real_,
+                     coalesce(casualties_kwm_var,
+                              rounded_var(casualties_kwm_mean))),
+           strength_var =
+             if_else(is.na(strength_mean), NA_real_,
+                     coalesce(strength_var,
+                              rounded_var(strength_mean))))
 }
 
 
@@ -267,63 +283,118 @@ gen_battles <-
 #' Fill in disaggregated casualty vars
 #'
 fill_casualty_vars <- function(x) {
-  # Names of all casualty variables
-  casualties_types <- c("k", "w", "m", "kw", "km", "wm", "kwm")
-  all_mean_vars <- paste0("casualties_", casualties_types, "_mean")
-  all_var_vars <- gsub("_mean", "_var", all_mean_vars)
-  all_vars <- c(all_mean_vars, all_var_vars)
+  all_vars <- c("casualties_kwm_mean",
+                "casualties_kw_mean",
+                "casualties_km_mean",
+                "casualties_wm_mean",
+                "casualties_k_mean",
+                "casualties_w_mean",
+                "casualties_m_mean",
+                "casualties_kwm_var",
+                "casualties_kw_var",
+                "casualties_km_var",
+                "casualties_wm_var",
+                "casualties_k_var",
+                "casualties_w_var",
+                "casualties_m_var",
+                "strength_mean",
+                "strength_var")
   # Ensure that all casualty variables are in the dataset
   for (i in all_vars) {
     if (!i %in% names(x)) {
       x[[i]] <- NA_real_
+    } else {
+      # ensure they are all numeric to avoid integer/numeric aggreement
+      # in coalesce and if_else
+      x[[i]] <- as.numeric(x[[i]])
     }
   }
-  # Fill in missing variances with that implied by rounded variables
-  for (i in all_mean_vars) {
-    varvar <- gsub("_mean", "_var", i)
-    x[[varvar]] <- ifelse(is.na(x[[varvar]]),
-                          rounded_var(x[[i]]), x[[varvar]])
-  }
   # Fill in aggregated casualty variables implied by disaggregated casualty variables
-  for (v in c("mean", "var")) {
-    # killed, wounded -> killed + wounded
-    x[[paste0("casualties_kw_", v)]] <-
-      ifelse(!is.na(x[[paste0("casualties_k_", v)]])
-             & !is.na(x[[paste0("casualties_w_", v)]]),
-             x[[paste0("casualties_k_", v)]] + x[[paste0("casualties_w_", v)]],
-             x[[paste0("casualties_kw_", v)]])
-    # killed, missing -> killed/missing
-    x[[paste0("casualties_km_", v)]] <-
-      ifelse(!is.na(x[[paste0("casualties_k_", v)]])
-             & !is.na(x[[paste0("casualties_m_", v)]]),
-             x[[paste0("casualties_k_", v)]] + x[[paste0("casualties_m_")]],
-             x[[paste0("casualties_km_", v)]])
-    # wounded, missing -> wounded/missing
-    x[[paste0("casualties_wm_", v)]] <-
-      ifelse(!is.na(x[[paste0("casualties_w_", v)]])
-             & !is.na(x[[paste0("casualties_m_", v)]]),
-             x[[paste0("casualties_w_", v)]] + x[[paste0("casualties_m_", v)]],
-             x[[paste0("casualties_wm_", v)]])
-    # casualties
-    x[[paste0("casualties_kwm_", v)]] <-
-      ifelse(!is.na(x[[paste0("casualties_kw_", v)]])
-             & !is.na(x[[paste0("casualties_m_", v)]]),
-             x[[paste0("casualties_kw_", v)]] + x[[paste0("casualties_m_", v)]],
-             x[[paste0("casualties_kwm_", v)]])
-    x[[paste0("casualties_kwm_", v)]] <-
-      ifelse(is.na(x[[paste0("casualties_kwm_", v)]])
-             & !is.na(x[[paste0("casualties_kw_", v)]])
-             & !is.na(x[[paste0("casualties_m_", v)]]),
-             x[[paste0("casualties_kw_", v)]] + x[[paste0("casualties_m_", v)]],
-             x[[paste0("casualties_kwm_", v)]])
-    x[[paste0("casualties_kwm_", v)]] <-
-      ifelse(is.na(x[[paste0("casualties_kwm_", v)]])
-             & !is.na(x[[paste0("casualties_wm_", v)]])
-             & !is.na(x[[paste0("casualties_k_", v)]]),
-             x[[paste0("casualties_wm_", v)]] + x[[paste0("casualties_k_", v)]],
-             x[[paste0("casualties_kwm_", v)]])
-  }
-  x
+  x %>%
+      # fill in implied aggregations
+      mutate(
+      casualties_kw_mean = coalesce(casualties_k_mean + casualties_w_mean,
+                                    casualties_kw_mean),
+      casualties_km_mean = coalesce(casualties_k_mean + casualties_m_mean,
+                                    casualties_km_mean),
+      casualties_wm_mean = coalesce(casualties_w_mean + casualties_m_mean,
+                                    casualties_wm_mean),
+      casualties_kwm_mean = coalesce(casualties_kw_mean + casualties_m_mean,
+                                     casualties_km_mean + casualties_w_mean,
+                                     casualties_wm_mean + casualties_k_mean,
+                                     casualties_wm_mean)) %>%
+      # I could require strength >= casualties, but many strength values are
+      # rounded approximations, so keep those intact. Application code will
+      # need to handle it later.
+      #
+      # Fill in implied zeros
+      mutate(
+        casualties_kw_mean =
+          if_else(casualties_kwm_mean == 0, 0,
+                  coalesce(pmax(casualties_kwm_mean - casualties_m_mean, 0),
+                           casualties_kw_mean)),
+        casualties_km_mean =
+          if_else(casualties_kwm_mean == 0, 0,
+                  coalesce(pmax(casualties_kwm_mean - casualties_w_mean, 0),
+                           casualties_km_mean)),
+        casualties_wm_mean =
+          if_else(casualties_kwm_mean == 0, 0,
+                  coalesce(pmax(casualties_kwm_mean - casualties_k_mean, 0),
+                           casualties_wm_mean)),
+        casualties_k_mean = if_else(casualties_kw_mean == 0 |
+                                      casualties_km_mean == 0, 0,
+                                    coalesce(
+                                      pmax(casualties_kwm_mean -
+                                             casualties_wm_mean, 0),
+                                      casualties_k_mean)),
+        casualties_w_mean = if_else(casualties_kw_mean == 0 |
+                                      casualties_wm_mean == 0, 0,
+                                    coalesce(pmax(casualties_kwm_mean -
+                                                    casualties_km_mean, 0),
+                                             casualties_w_mean)),
+        casualties_m_mean = if_else(casualties_km_mean == 0 |
+                                      casualties_wm_mean == 0, 0,
+                                    coalesce(pmax(casualties_kwm_mean -
+                                                    casualties_kw_mean, 0),
+                                             casualties_m_mean))) %>%
+      # fill backwards any implied values
+      # Fill in variances
+      #
+      # - if mean is missing; variance needs to be missing
+      # - sum variances of components
+      # - use variance implied by rounding
+      mutate(
+        casualties_k_var = if_else(is.na(casualties_k_mean), NA_real_,
+                                   casualties_k_var,
+                                   rounded_var(casualties_k_mean)),
+        casualties_w_var = if_else(is.na(casualties_w_mean), NA_real_,
+                                   casualties_w_var,
+                                   rounded_var(casualties_w_mean)),
+        casualties_m_var = if_else(is.na(casualties_m_mean), NA_real_,
+                                   casualties_m_var,
+                                   rounded_var(casualties_m_mean)),
+        casualties_kw_var = if_else(is.na(casualties_kw_mean), NA_real_,
+                                    coalesce(casualties_k_var + casualties_w_var,
+                                            casualties_kw_var,
+                                            rounded_var(casualties_kw_mean))),
+        casualties_km_var = if_else(is.na(casualties_km_mean), NA_real_,
+                                    coalesce(casualties_k_var + casualties_m_var,
+                                             casualties_km_var,
+                                             rounded_var(casualties_km_mean))),
+        casualties_wm_var = if_else(is.na(casualties_wm_var), NA_real_,
+                                    coalesce(casualties_w_var + casualties_m_var,
+                                             casualties_wm_var,
+                                             rounded_var(casualties_wm_mean))),
+        casualties_kwm_var = if_else(is.na(casualties_kwm_mean), NA_real_,
+                                     coalesce(casualties_kw_var + casualties_m_var,
+                                              casualties_km_var + casualties_w_var,
+                                              casualties_wm_var + casualties_k_var,
+                                              casualties_wm_var,
+                                              rounded_var(casualties_kwm_mean))),
+        strength_var = if_else(is.na(strength_mean), NA_real_,
+                               coalesce(strength_var,
+                                        rounded_var(strength_mean)))
+      )
 }
 
 gen_forces <- function(cwss_forces,
@@ -352,7 +423,8 @@ gen_forces <- function(cwss_forces,
            casualties_kwm_mean_cwss = ifelse(Casualties == 0,
                                              NA_real_, as.numeric(Casualties)),
            casualties_kwm_var_cwss = rounded_var(casualties_kwm_mean_cwss)) %>%
-    select(cwsac_id, belligerent, matches("^(casualties|strength)_"))
+    select(cwsac_id, belligerent,
+           matches("^(casualties|strength)_"))
 
   cwsac_forces_casstr <-
     cwsac_forces %>%
@@ -361,52 +433,51 @@ gen_forces <- function(cwss_forces,
            casualties_kwm_mean_cwsac = as.numeric(casualties),
            casualties_k_mean_cwsac = as.numeric(killed),
            casualties_w_mean_cwsac = as.numeric(wounded),
-           strength_mean_cwsac = unif_mean(strength_min, strength_max),
-           strength_var_cwsac = ifelse(strength_min == strength_max,
-                                  rounded_var(strength_min),
-                                  unif_var(strength_min, strength_max)),
            casualties_kwm_var_cwsac = rounded_var(casualties),
            casualties_k_var_cwsac = rounded_var(casualties_k_mean_cwsac),
            casualties_w_var_cwsac = rounded_var(casualties_w_mean_cwsac),
            casualties_m_var_cwsac = rounded_var(casualties_m_mean_cwsac),
            cwsac_id = battle) %>%
-    select(cwsac_id, belligerent, matches("^(strength|casualties)_"))
+    rename(strength_mean_cwsac = strength_mean,
+           strength_var_cwsac = strength_var) %>%
+    select(cwsac_id, belligerent,
+           matches("^(strength|casualties)_.*_(mean|var)_cwsac$"))
 
   cws2_forces_casstr <-
     cws2_forces %>%
     rename(cwsac_id = battle) %>%
-    mutate(strength_mean_cws2 = as.numeric(strength)) %>%
-    select(cwsac_id, belligerent, matches("(strength|casualties)_")) %>%
+    rename(strength_mean_cws2 = strength_mean,
+           strength_var_cws2 = strength_var) %>%
+    select(cwsac_id, belligerent, matches("^strength_(mean|var)_cws2$")) %>%
     filter(!cwsac_id %in% c("AL002")) %>%
     mutate(belligerent =
              ifelse(grepl("OK00[1-3]", cwsac_id) &
                       belligerent == "US",
-                    "Native American", belligerent),
-           strength_var_cws2 = rounded_var(strength_mean_cws2))
+                    "Native American", belligerent))
 
   casstr <-
     full_join(cwss_forces_casstr, cwsac_forces_casstr,
               by = c("cwsac_id", "belligerent")) %>%
-    full_join(cws2_forces_casstr, by = c("cwsac_id", "belligerent"))
-
-
-  for (j in c("mean", "var")) {
-    casstr[[paste0("casualties_kwm_", j)]] <-
-      coalesce(as.numeric(casstr[[paste0("casualties_kwm_", j, "_cwss")]]),
-               as.numeric(casstr[[paste0("casualties_kwm_", j, "_cwsac")]]))
-    casstr[[paste0("strength_", j)]] <-
-      coalesce(as.numeric(casstr[[paste0("strength_", j, "_cwss")]]),
-               as.numeric(casstr[[paste0("strength_", j, "_cws2")]]),
-               as.numeric(casstr[[paste0("strength_", j, "_cwsac")]]))
-    for (i in c("k", "w", "m")) {
-      varname <- paste0("casualties_", i, "_", j)
-      casstr[[varname]] <- casstr[[paste0(varname, "_cwsac")]]
-    }
-  }
+    full_join(cws2_forces_casstr, by = c("cwsac_id", "belligerent")) %>%
+    mutate(
+      casualties_kwm_mean = coalesce(casualties_kwm_mean_cwss,
+                                     as.numeric(casualties_kwm_mean_cwsac)),
+      casualties_k_mean = casualties_k_mean_cwsac,
+      casualties_w_mean = casualties_w_mean_cwsac,
+      casualties_m_mean = casualties_m_mean_cwsac,
+      strength_mean = coalesce(strength_mean_cwss,
+                               as.numeric(strength_mean_cws2)),
+      casualties_kwm_var = coalesce(casualties_kwm_var_cwss,
+                                    as.numeric(casualties_kwm_var_cwsac)),
+      casualties_k_var = casualties_k_var_cwsac,
+      casualties_w_var = casualties_w_var_cwsac,
+      casualties_m_var = casualties_m_var_cwsac,
+      strength_var = coalesce(strength_var_cwss,
+                              as.numeric(strength_var_cws2))
+    ) %>%
+    fill_casualty_vars()
 
   #' Manual edits
-  casstr[["casualties_kw_mean"]] <- NA_real_
-  casstr[["casualties_kw_var"]] <- NA_real_
   for (i in names(extra_forces)) {
     # browser()
     x <- extra_forces[[i]]
@@ -425,18 +496,14 @@ gen_forces <- function(cwss_forces,
         }
     }
   }
-  #  browser()
-
   casstr %>%
     select(cwsac_id, belligerent,
            matches("^casualties_(k|w|m|kw|kwm)_(mean|var)$"),
            matches("^strength_(mean|var)$")) %>%
+    # rerun to ensure consistency of casualty variables
     fill_casualty_vars() %>%
     filter(!cwsac_id %in% excluded_battles) %>%
-    arrange(cwsac_id, belligerent) %>%
-    # needed so that it writes as integer and not 1e+05
-    mutate(strength_mean = as.integer(strength_mean))
-
+    arrange(cwsac_id, belligerent)
 }
 
 gen_people <- function(cwss_people, extra_people) {
@@ -501,6 +568,7 @@ gen_commanders <- function(cwss_commanders,
             by = c("cwsac_id", "belligerent", "last_name")) %>%
     group_by(cwsac_id, belligerent) %>%
     mutate(commander_number = row_number()) %>%
+    filter(!cwsac_id %in% excluded_battles) %>%
     arrange(cwsac_id, belligerent, commander_number)
 }
 
@@ -521,7 +589,6 @@ gen_units <- function(cwss_units, extra_units) {
               extra_units_) %>%
       select(unit_code, unit_name, belligerent, state, ordinal,
              type, func, special, ethnic, duplicate)
-
 }
 
 gen_battle_units <- function(cwss_battle_units, extra_battle_units) {
@@ -552,14 +619,12 @@ gen_battle_units <- function(cwss_battle_units, extra_battle_units) {
            companies, batteries,
            detachment, section,
            added, src, comment)
-
 }
 
 filter_categories <- function(x, category_) {
   filter(x, category == category_) %>%
     select(-category)
 }
-
 
 
 #' Build Everything

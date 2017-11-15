@@ -305,24 +305,21 @@ schema:
     name: state
     title: State
     type: string
-  - constraints:
-      minimum: 0
-    description: Total (Confederate and Union) personnel engaged in the battle. This
-      combines data from the CWSS, CWSAC, and CWSAC II sources. For some battle the
-      total personnel is given, even though the individual Confederate and Union values
-      are missing.
-    format: default
-    name: strength
-    title: Strength
+  - format: default
+    name: strength_mean
+    title: strength_mean
     type: number
-  - constraints:
-      minimum: 0
-    description: Total (Confederate and Union) casualties in the battle. This combines
-      data from the CWSS and CWSAC sources. For some battle the total personnel is
-      given, even though the individual Confederate and Union values are missing.
-    format: default
-    name: casualties_kwm
-    title: Casualties
+  - format: default
+    name: strength_var
+    title: strength_var
+    type: number
+  - format: default
+    name: casualties_kwm_mean
+    title: casualties_kwm_mean
+    type: number
+  - format: default
+    name: casualties_kwm_var
+    title: casualties_kwm_var
     type: number
   - format: default
     name: comment

@@ -40,35 +40,40 @@ unit_type_map <- list(
 
 update_forces <- function(src, dst) {
   forces <- gen_forces(dst)
-  unit_size_values <- gen_unit_size_values(dst)
-  forces_strengths_units <-
-    forces %>%
-    select(battle, belligerent,
-           armies, corps, divisions, brigades, regiments, companies,
-           matches("cavalry_"),
-           matches("artillery_")) %>%
-    gather(unit_type, units, -battle, -belligerent, na.rm = TRUE) %>%
-    mutate(unit_type =
-             as.character(recode(unit_type, UQS(unit_type_map)))) %>%
-    left_join(unit_size_values, by = c("unit_type", "belligerent")) %>%
-    mutate(str_units_mean = units * mean,
-           str_units_var = units ^ 2 * var) %>%
-    group_by(battle, belligerent) %>%
-    summarise_at(vars(matches("str_units_(mean|var)")), funs(sum))
+  # unit_size_values <- gen_unit_size_values(dst)
+  # forces_strengths_units <-
+  #   forces %>%
+  #   select(battle, belligerent,
+  #          armies, corps, divisions, brigades, regiments, companies,
+  #          matches("cavalry_"),
+  #          matches("artillery_")) %>%
+  #   gather(unit_type, units, -battle, -belligerent, na.rm = TRUE) %>%
+  #   mutate(unit_type =
+  #            as.character(recode(unit_type, UQS(unit_type_map)))) %>%
+  #   left_join(unit_size_values, by = c("unit_type", "belligerent")) %>%
+  #   mutate(str_units_mean = units * mean,
+  #          str_units_var = units ^ 2 * var) %>%
+  #   group_by(battle, belligerent) %>%
+  #   summarise_at(vars(matches("str_units_(mean|var)")), funs(sum))
 
   forces_strengths_exact <-
     forces %>%
-    select(battle, belligerent, strength, strength_other) %>%
-    mutate(str_var = psum(rounded_var(strength), rounded_var(strength_other)),
-           str_mean = psum(strength, strength_other)) %>%
+    select(battle, belligerent, strength) %>%
+    mutate(str_var = rounded_var(strength),
+           str_mean = strength) %>%
     select(battle, belligerent, str_mean, str_var)
+#
+#   forces_strengths <- forces_strengths_exact %>%
+#     left_join(forces_strengths_units,
+#               by = c("battle", "belligerent")) %>%
+#     mutate(strength_mean = psum(str_mean, str_units_mean),
+#            strength_var = psum(str_var, str_units_var)) %>%
+#     select(battle, belligerent, strength_mean, strength_var)
 
-  forces_strengths <-
-    left_join(forces_strengths_exact, forces_strengths_units,
-              by = c("battle", "belligerent")) %>%
-    mutate(strength_mean = psum(str_mean, str_units_mean),
-           strength_var = psum(str_var, str_units_var)) %>%
-    select(battle, belligerent, strength_mean, strength_var)
+    forces_strengths <- forces_strengths_exact %>%
+      rename(strength_mean = str_mean,
+             strength_var = str_var) %>%
+      select(battle, belligerent, strength_mean, strength_var)
 
   forces2 <-
     left_join(forces, forces_strengths,

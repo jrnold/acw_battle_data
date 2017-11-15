@@ -68,8 +68,10 @@ partof_aad                       boolean  partof_aad
 lat                              number   Latitude
 long                             number   Longitude
 state                            string   State
-strength                         number   Strength
-casualties_kwm                   number   Casualties
+strength_mean                    number   strength_mean
+strength_var                     number   strength_var
+casualties_kwm_mean              number   casualties_kwm_mean
+casualties_kwm_var               number   casualties_kwm_var
 comment                          string   comment
 ===============================  =======  ===============================
 
@@ -666,31 +668,51 @@ state
 
 
        
-strength
---------
+strength_mean
+-------------
 
-:title: Strength
+:title: strength_mean
 :type: number
 :format: default
-:constraints:
-    :minimum: 0
-    
 
-Total (Confederate and Union) personnel engaged in the battle. This combines data from the CWSS, CWSAC, and CWSAC II sources. For some battle the total personnel is given, even though the individual Confederate and Union values are missing.
+
+
 
 
        
-casualties_kwm
---------------
+strength_var
+------------
 
-:title: Casualties
+:title: strength_var
 :type: number
 :format: default
-:constraints:
-    :minimum: 0
-    
 
-Total (Confederate and Union) casualties in the battle. This combines data from the CWSS and CWSAC sources. For some battle the total personnel is given, even though the individual Confederate and Union values are missing.
+
+
+
+
+       
+casualties_kwm_mean
+-------------------
+
+:title: casualties_kwm_mean
+:type: number
+:format: default
+
+
+
+
+
+       
+casualties_kwm_var
+------------------
+
+:title: casualties_kwm_var
+:type: number
+:format: default
+
+
+
 
 
        
