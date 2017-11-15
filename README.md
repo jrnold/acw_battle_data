@@ -11,33 +11,22 @@ However, you may want to build the data from source. But realistically, I am wri
 
 Clone the repository to your machine,
 ```console
-$ git clone --recursive https://github.com/jrnold/acw_battle_data.git
+$ git clone  https://github.com/jrnold/acw_battle_data.git
 ```
-The `--recursive` argument is needed because this repository depends on several [submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules).
-If you did not originally clone the repository with this argument, you can initialize
-the submodules with
+[Invoke](http://www.pyinvoke.org/) is used for the workflow management.
+The most common tasks are:
 ```console
-$ git submodule --init
+# to build the data
+invoke build
+# to deploy/upload the data to S3
+invoke deploy
+# clean old data
+invoke clean
 ```
-The submodules are initialized if the sub-directories of `dependencies` (e.g. `dependencies/cwss`) are not empty.
 
-Before starting, a copy of the [Civil War Soldiers and Sailors Database](https://www.nps.gov/civilwar/soldiers-and-sailors-database.htm) needs to be downloaded. This is not included in the repository directly since it is several gigs.
+To see the all the available tasks,
 ```console
-$ cd dependencies/cwss
-$ python aws.py download
-```
-See the instructions in `dependencies/cwss/README.md` for more detailed instructions;
-this step requires installing the [AWS command line interface](https://aws.amazon.com/cli/).
-
-To build the data, run the following from the main directory
-```shell
-$ source activate acw_battle_data
-$ make build
-```
-
-To build the [Sphinx documentation](http://www.sphinx-doc.org/en/stable/contents.html) for the project run
-```
-$ make docs
+invoke --list
 ```
 
 ## Prerequisites

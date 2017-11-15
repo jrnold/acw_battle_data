@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 import csv
-import shutil
 import sys
 from os import path
 
@@ -17,7 +16,7 @@ FORCES_FIELDS = ('battle_id', 'belligerent', 'strength_min', 'strength_max',
                  'captured_missing_min', 'captured_missing_max')
 
 
-def force_keys():
+def force_keys(data):
     keys = set()
     for battle, battledata in sorted(data.items()):
         for force, forcedata in (battledata['belligerents'].items()):

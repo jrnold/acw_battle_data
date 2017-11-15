@@ -1,0 +1,15 @@
+python: 'python'
+Rscript: 'Rscript'
+
+S3:
+    bucket: "jrnold-data"
+    prefix: "acw_battle_data"
+    region: "us-west-2"
+cwss:
+    s3:
+        bucket: jrnold-nps-cwss
+        region: "us-east-1"
+    data_dir: 'nps-cwss'
+src: "."
+dst: "data"
+doc: "docs"
