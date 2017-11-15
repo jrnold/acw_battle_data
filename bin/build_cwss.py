@@ -50,8 +50,8 @@ def battle_csv(root, dst):
         'CampaignCode',
         'Result',
         'TotalCasualties',
-        #'CampaignDates',
-        #'CampaignName',
+        # 'CampaignDates',
+        # 'CampaignName',
         'Comment',
         'ID',
         'ShortSummary',
@@ -133,18 +133,30 @@ def campaigns_csv(root, dst):
     # database field. In some other cases, there were mispellings or missing
     # commas.
     campaign_names = {
-        'LS62-06': "Expedition From Hilton Head, SC to St. John Bluff, FL",
-        'LS63-05': "Taylor's Operations in Louisiana West of Mississipi",
-        'MW61-02': "Operations at the Ohio - Mississippi River Confluence",
-        'MW62-02': "Union Penetration Up the Cumberland & Tennessee Rivers",
-        'MW62-03': "Joint Operations Against New Madrid, Island No. 10, and Memphis",
-        'MW63-03': "Streight's Raid: Tuscumbia, Alabama Toward Rome, Georgia",
-        'MW64-04': "Forrest's Expedition Into West Tennessee and Kentucky",
-        'MW65-03': "Wilson's Raid: Chickasaw, Alabama and Macon, Georgia",
-        'PC63-01': "Expedition From Camp Douglas, Utah to Cache Valley, Idaho",
-        'TM63-09': "Union Occupation of Indian Territory North of Arkansas",
-        'TM64-04': "Sully's Expedition Against Indians in Dakota Terries",
-        'MW64-08': "Operations in Mobile Bay"
+        'LS62-06':
+        "Expedition From Hilton Head, SC to St. John Bluff, FL",
+        'LS63-05':
+        "Taylor's Operations in Louisiana West of Mississipi",
+        'MW61-02':
+        "Operations at the Ohio - Mississippi River Confluence",
+        'MW62-02':
+        "Union Penetration Up the Cumberland & Tennessee Rivers",
+        'MW62-03':
+        "Joint Operations Against New Madrid, Island No. 10, and Memphis",
+        'MW63-03':
+        "Streight's Raid: Tuscumbia, Alabama Toward Rome, Georgia",
+        'MW64-04':
+        "Forrest's Expedition Into West Tennessee and Kentucky",
+        'MW65-03':
+        "Wilson's Raid: Chickasaw, Alabama and Macon, Georgia",
+        'PC63-01':
+        "Expedition From Camp Douglas, Utah to Cache Valley, Idaho",
+        'TM63-09':
+        "Union Occupation of Indian Territory North of Arkansas",
+        'TM64-04':
+        "Sully's Expedition Against Indians in Dakota Terries",
+        'MW64-08':
+        "Operations in Mobile Bay"
     }
     campaigns = {}
     print("Writing: %s" % dst)
@@ -274,7 +286,7 @@ def forces_csv(root, dst):
             # NC002 battle code is empty
             if battlecode in ("NC002", "MO026"):
                 enemy = "Confederate"
-            if battlecode in ("MN002",):
+            if battlecode in ("MN002", ):
                 enemy = "Native American"
             enemy_troops = properties.find(xmlns("d:EnemyTroopsEngaged")).text
             enemy_casualties = properties.find(xmlns("d:EnemyCasualties")).text
@@ -424,8 +436,7 @@ def battleunitslink_csv(root, comments, dst):
 
 
 def build_units(src, dst):
-    srcfile = path.join(src, 'dependencies', 'cwss', 'data', 'new', 'tsv',
-                        'Regiments_Unitz.tsv')
+    srcfile = path.join(src, 'Regiments_Unitz.tsv')
     dstfile = path.join(dst, 'cwss_regiments_units.csv')
     data = pandas.read_csv(srcfile, sep='\t')
     data.rename(columns=lambda k: k.lower().replace('reg_', ''), inplace=True)
@@ -449,8 +460,7 @@ def build_units(src, dst):
 
 
 def build_state_names(src, dst):
-    srcfile = path.join(src, 'dependencies', 'cwss', 'data', 'new', 'tsv',
-                        'State_Name.tsv')
+    srcfile = path.join(src, 'State_Name.tsv')
     dstfile = path.join(dst, 'cwss_state_names.csv')
     data = pandas.read_csv(srcfile, sep='\t')
     data.rename(
@@ -465,10 +475,8 @@ def build_state_names(src, dst):
 
 
 def build_unit_titles(src, dst):
-    src_unititles = path.join(src, 'dependencies', 'cwss', 'data', 'new',
-                              'tsv', 'Unititle.tsv')
-    src_contitles = path.join(src, 'dependencies', 'cwss', 'data', 'new',
-                              'tsv', 'Contitle.tsv')
+    src_unititles = path.join(src, 'Unititle.tsv')
+    src_contitles = path.join(src, 'Contitle.tsv')
     dstfile = path.join(dst, 'cwss_unit_tiles.csv')
     unititles = pandas.read_csv(src_unititles, sep='\t')
     contitles = pandas.read_csv(src_contitles, sep='\t')
@@ -484,8 +492,7 @@ def build_unit_titles(src, dst):
 
 
 def build_category(src, dst):
-    srcfile = path.join(src, 'dependencies', 'cwss', 'data', 'new', 'tsv',
-                        'Category.tsv')
+    srcfile = path.join(src, 'Category.tsv')
     dstfile = path.join(dst, 'cwss_categories.csv')
     data = pandas.read_csv(srcfile, sep='\t')
     data.rename(columns=lambda k: k.lower(), inplace=True)
@@ -499,10 +506,9 @@ def build_category(src, dst):
     data.to_csv(dstfile, index=False)
 
 
-def build(src, dst):
+def build(src, cwssdir, dst):
     parser = ET.XMLParser(encoding='cp1252')
-    cwssdir = path.join(src, 'dependencies', 'cwss')
-    with open(path.join(cwssdir, 'data', 'old', 'battle.xml'), 'rb') as f:
+    with open(path.join(cwssdir, 'battle.xml'), 'rb') as f:
         battles = ET.fromstring(f.read(), parser)
     commander_csv(battles, path.join(dst, "cwss_commanders.csv"))
     battle_csv(battles, path.join(dst, 'cwss_battles.csv'))
@@ -510,14 +516,13 @@ def build(src, dst):
     theaters_csv(battles, path.join(dst, 'cwss_theaters.csv'))
     campaigns_csv(battles, path.join(dst, 'cwss_campaigns.csv'))
 
-    with open(path.join(cwssdir, 'data', 'old', 'persons.xml'), 'rb') as f:
+    with open(path.join(cwssdir, 'persons.xml'), 'rb') as f:
         persons = ET.fromstring(f.read(), parser)
     people_csv(persons, path.join(dst, 'cwss_people.csv'))
     people_keywords_csv(persons, path.join(dst, 'cwss_people_keywords.csv'))
 
-
-
-    # This file includes the "parsed" comments. Number of batteries, companies, detachments, etc. mentioned
+    # This file includes the "parsed" comments. Number of batteries,
+    # companies, detachments, etc. mentioned
     # in the comments about the unit.
     comments = {}
     with open(
@@ -529,21 +534,21 @@ def build(src, dst):
             comments[(row['BattlefieldCode'], row['UnitCode'])] = dict(
                 (k, v) for k, v in row.items()
                 if k in ('companies', 'batteries', 'detachment', 'section'))
-    with open(path.join(cwssdir, 'data', 'old', 'battleunitlink.xml'),
-              'rb') as f:
+    with open(path.join(cwssdir, 'battleunitlink.xml'), 'rb') as f:
         battleunitlinks = ET.fromstring(f.read(), parser)
     battleunitslink_csv(battleunitlinks, comments,
                         path.join(dst, 'cwss_battle_units.csv'))
-    build_unit_titles(src, dst)
-    build_state_names(src, dst)
-    build_category(src, dst)
-    build_units(src, dst)
+    build_unit_titles(cwssdir, dst)
+    build_state_names(cwssdir, dst)
+    build_category(cwssdir, dst)
+    build_units(cwssdir, dst)
 
 
 def main():
     src = str(sys.argv[1])
-    dst = str(sys.argv[2])
-    build(src, dst)
+    cwssdir = str(sys.argv[2])
+    dst = str(sys.argv[3])
+    build(src, cwssdir, dst)
 
 
 if __name__ == "__main__":

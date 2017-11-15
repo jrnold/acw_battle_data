@@ -7,6 +7,5 @@ All quarter are classified as 0 except
 - -1 for 1862Q2: Richmond threatened by McClellan during the Peninsular campaign
 - -1 for 1863Q4 and 1864Q1: Aftermath of Gettysburg and Vicksburg
 
-Their clasification was based on the qualitative accounts of crises of confidence in Schwab (1901), *The Confederate States of America, 1861-1865*.
+Their clasification was based on the qualitative accounts of crises of confidence in Schwab (1901), *The Confederate States of America, 1861-1865* [Schwab1901]_.
 The variable is set to 0 in 1864Q2 and 1864Q3 because the Northern offensive stalls at the start of the year, and the northern Democratic party's nominates of McClellan.
-

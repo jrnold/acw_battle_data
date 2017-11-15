@@ -31,6 +31,10 @@ schema:
     title: Rank
     type: string
   - format: default
+    name: navy
+    title: navy
+    type: boolean
+  - format: default
     name: last_name
     title: Last Name
     type: string

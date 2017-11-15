@@ -1,33 +1,36 @@
 #!/usr/bin/env python3
 """ Convert cwsac.json to csv files """
-import json
 import csv
-import sys
+import json
 import shutil
+import sys
 from os import path
 
-def dict_remove(x, exclude = []):
+
+def dict_remove(x, exclude=[]):
     return dict((k, v) for k, v in x.items() if k not in exclude)
 
-def dict_subset(x, include = []):
+
+def dict_subset(x, include=[]):
     return dict((k, v) for k, v in x.items() if k in include)
 
-battle_fields = (#'belligerents',
-     'battle',
-     'battle_name',
-     'state',
-     # 'locations',
-     'campaign',
-     'url',
-     'forces_text',
-     'strength',
-     'results_text',
-     'result',
-     #'dates',
-     'study_area',
-     'core_area',
-     'potnr_boundary'
-)
+
+battle_fields = (  #'belligerents',
+    'battle',
+    'battle_name',
+    'state',
+    # 'locations',
+    'campaign',
+    'url',
+    'forces_text',
+    'strength',
+    'results_text',
+    'result',
+    #'dates',
+    'study_area',
+    'core_area',
+    'potnr_boundary')
+
 
 def battle_csv(data, filename):
     # keys = set()
@@ -40,31 +43,33 @@ def battle_csv(data, filename):
             row = dict_subset(battle_data, battle_fields)
             writer.writerow(row)
 
-forces_fields = ('battle',
- 'belligerent',
- 'description',
- #'commanders',
- 'strength',
- 'regiments',
- 'companies',
- 'brigades',
- 'divisions',
- 'corps',
- 'armies',
- 'cavalry_regiments',
- 'cavalry_brigades',
- 'cavalry_divisions',
- 'cavalry_corps',
- 'cavalry_companies',
- 'artillery_batteries',
- 'artillery_companies',
- 'artillery_regiments',
- 'artillery_sections',
- 'infantry_regiments',
- 'strength_other',
- 'ships',
- 'guns',
-)
+
+forces_fields = (
+    'battle',
+    'belligerent',
+    'description',
+    #'commanders',
+    'strength',
+    'regiments',
+    'companies',
+    'brigades',
+    'divisions',
+    'corps',
+    'armies',
+    'cavalry_regiments',
+    'cavalry_brigades',
+    'cavalry_divisions',
+    'cavalry_corps',
+    'cavalry_companies',
+    'artillery_batteries',
+    'artillery_companies',
+    'artillery_regiments',
+    'artillery_sections',
+    'infantry_regiments',
+    'strength_other',
+    'ships',
+    'guns', )
+
 
 def forces_csv(data, filename):
     # fields = set()
@@ -77,15 +82,19 @@ def forces_csv(data, filename):
                 #     fields.add(k)
                 row = dict_subset(battle_data, forces_fields)
         for battle, battle_data in sorted(data.items()):
-            for belligerent, force_data in sorted(battle_data['forces'].items()):
+            for belligerent, force_data in sorted(
+                    battle_data['forces'].items()):
                 row = dict_subset(force_data, forces_fields)
                 row['battle'] = battle
                 row['belligerent'] = belligerent
                 writer.writerow(row)
     # print(fields)
 
-commanders_fields = ('battle', 'belligerent', 'fullname', 'rank',
-                     'last_name', 'first_name', 'middle_name', 'suffix')
+
+commanders_fields = ('battle', 'belligerent', 'fullname', 'rank', 'navy',
+                     'last_name',
+                     'first_name', 'middle_name', 'suffix')
+
 
 def commanders_csv(data, filename):
     with open(filename, 'w', encoding='utf8') as f:
@@ -95,19 +104,24 @@ def commanders_csv(data, filename):
             for belligerent, x in sorted(battle_data['forces'].items()):
                 for commander in x['commanders']:
                     row = commander.copy()
+                    if 'navy' not in row:
+                        row['navy'] = False
                     row['battle'] = battle
                     row['belligerent'] = belligerent
                     writer.writerow(row)
 
+
 def dates_csv(data, filename):
     with open(filename, 'w', encoding='utf8') as f:
-        writer = csv.DictWriter(f, ('battle', 'spell', 'start_date', 'end_date'))
+        writer = csv.DictWriter(f, ('battle', 'spell', 'start_date',
+                                    'end_date'))
         writer.writeheader()
         for battle, battle_data in sorted(data.items()):
             for spell in battle_data['dates']:
                 row = spell.copy()
                 row['battle'] = battle
                 writer.writerow(row)
+
 
 def locations_csv(data, filename):
     with open(filename, 'w', encoding='utf8') as f:
@@ -119,27 +133,29 @@ def locations_csv(data, filename):
                 row['battle'] = battle
                 writer.writerow(row)
 
+
 def copy_json(src, dst):
     shutil.copy(path.join(src, 'cws2.json'), dst)
-    
+
+
 def build(src, dst):
     srcdir = path.join(src, "rawdata", "cws2")
     with open(path.join(srcdir, "cws2.json"), 'r', encoding='utf8') as f:
         data = json.load(f)
-    
+
     battle_csv(data, path.join(dst, 'cws2_battles.csv'))
     forces_csv(data, path.join(dst, 'cws2_forces.csv'))
     commanders_csv(data, path.join(dst, 'cws2_commanders.csv'))
     dates_csv(data, path.join(dst, 'cws2_dates.csv'))
     locations_csv(data, path.join(dst, 'cws2_locations.csv'))
     copy_json(srcdir, dst)
-    
-                
+
+
 def main():
     SRC = sys.argv[1]
     DST = sys.argv[2]
     build(SRC, DST)
 
+
 if __name__ == "__main__":
     main()
-    
