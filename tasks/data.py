@@ -55,8 +55,8 @@ def download_cwss(ctx):
              'old/persons.xml',
              'old/battleunitlink.xml',
              'new/tsv/Regiments_Unitz.tsv',
-             'nes/tsv/State_Name.tsv',
-             'new/tsv/Unititle.tsv'
+             'new/tsv/State_Name.tsv',
+             'new/tsv/Unititle.tsv',
              'new/tsv/Contitle.tsv',
              'new/tsv/Category.tsv')
     for file_ in files:

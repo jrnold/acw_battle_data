@@ -322,7 +322,7 @@ fill_casualty_vars <- function(x) {
       casualties_kwm_mean = coalesce(casualties_kw_mean + casualties_m_mean,
                                      casualties_km_mean + casualties_w_mean,
                                      casualties_wm_mean + casualties_k_mean,
-                                     casualties_wm_mean)) %>%
+                                     casualties_kwm_mean)) %>%
       # I could require strength >= casualties, but many strength values are
       # rounded approximations, so keep those intact. Application code will
       # need to handle it later.
@@ -389,7 +389,7 @@ fill_casualty_vars <- function(x) {
                                      coalesce(casualties_kw_var + casualties_m_var,
                                               casualties_km_var + casualties_w_var,
                                               casualties_wm_var + casualties_k_var,
-                                              casualties_wm_var,
+                                              casualties_kwm_var,
                                               rounded_var(casualties_kwm_mean))),
         strength_var = if_else(is.na(strength_mean), NA_real_,
                                coalesce(strength_var,
@@ -441,7 +441,7 @@ gen_forces <- function(cwss_forces,
     rename(strength_mean_cwsac = strength_mean,
            strength_var_cwsac = strength_var) %>%
     select(cwsac_id, belligerent,
-           matches("^(strength|casualties)_.*_(mean|var)_cwsac$"))
+           matches("^(strength|casualties).*_(mean|var)_cwsac$"))
 
   cws2_forces_casstr <-
     cws2_forces %>%
@@ -466,16 +466,21 @@ gen_forces <- function(cwss_forces,
       casualties_w_mean = casualties_w_mean_cwsac,
       casualties_m_mean = casualties_m_mean_cwsac,
       strength_mean = coalesce(strength_mean_cwss,
-                               as.numeric(strength_mean_cws2)),
+                               as.numeric(strength_mean_cws2),
+                               as.numeric(strength_mean_cwsac)),
       casualties_kwm_var = coalesce(casualties_kwm_var_cwss,
                                     as.numeric(casualties_kwm_var_cwsac)),
       casualties_k_var = casualties_k_var_cwsac,
       casualties_w_var = casualties_w_var_cwsac,
       casualties_m_var = casualties_m_var_cwsac,
       strength_var = coalesce(strength_var_cwss,
-                              as.numeric(strength_var_cws2))
+                              as.numeric(strength_var_cws2),
+                              as.numeric(strength_var_cwsac))
     ) %>%
-    fill_casualty_vars()
+    fill_casualty_vars() %>%
+    select(cwsac_id, belligerent,
+           matches("^casualties_(k|w|m|kw|kwm)_(mean|var)$"),
+           matches("^strength_(mean|var)$"))
 
   #' Manual edits
   for (i in names(extra_forces)) {
@@ -497,9 +502,6 @@ gen_forces <- function(cwss_forces,
     }
   }
   casstr %>%
-    select(cwsac_id, belligerent,
-           matches("^casualties_(k|w|m|kw|kwm)_(mean|var)$"),
-           matches("^strength_(mean|var)$")) %>%
     # rerun to ensure consistency of casualty variables
     fill_casualty_vars() %>%
     filter(!cwsac_id %in% excluded_battles) %>%
