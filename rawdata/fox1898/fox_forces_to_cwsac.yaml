@@ -1063,6 +1063,32 @@
     it is mentioned by name in the footnote.
 
 - battles_cwsac:
+  - id: GA007
+  - id: GA008
+  - id: GA009
+  - id: GA010
+  - id: GA011
+  - id: GA012
+  - id: GA013
+  - id: GA014
+  - id: GA015
+  - id: GA016
+  - id: GA017
+  - id: GA018
+  - id: GA019
+  - id: GA020
+  - id: GA021
+  - id: GA022
+
+  battles_from:
+  - description: Atlanta Campaign, Ga. (2965-5-5 to 1864-9-1)
+    id: U160
+  relation: eq
+  diff_dates: true
+  comment: >
+    Include all battles in the Atlanta campaign.
+
+- battles_cwsac:
   - description: Wilderness, VA (1864-05-05 to 1864-05-06)
     id: VA046
   battles_from:

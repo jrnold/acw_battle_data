@@ -4,6 +4,7 @@ import os.path as path
 
 import yaml
 
+
 def build(src, dst):
     with open(src, 'r', encoding="utf8") as f:
         data = yaml.load(f)
@@ -13,10 +14,13 @@ def build(src, dst):
     with open(dst, 'w', encoding="utf8") as f:
         json.dump(data, f)
 
+
 def main():
     src, dst = sys.argv[1:3]
-    build(path.join(src, 'rawdata', 'livermore1900', 'livermore_to_cwsac.yaml'),
+    build(path.join(src, 'rawdata', 'livermore1900',
+                    'livermore_to_cwsac.yaml'),
           path.join(dst, 'livermore_to_cwsac.json'))
+
 
 if __name__ == '__main__':
     main()
