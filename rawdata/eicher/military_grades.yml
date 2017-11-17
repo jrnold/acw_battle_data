@@ -1,0 +1,166 @@
+# See p. 29-30 of Eicher
+army:
+  grades:
+  - name: General
+    abbrev: Gen.
+    date: 25 Jan. 1866
+    category: General officers
+  - name: Lieutenant General
+    abbrev: Lt. Gen.
+    date: 2 Mar. 1864
+    category: General officers
+  - name: Major General
+    abbrev: Maj. Gen.
+    category: General officers
+  - name: Brigadier General
+    abbrev: Brig. Gen.
+    category: General Officers
+  - name: Colonel
+    abbrev: Col.
+    category: Field officers
+  - name: Lieutenant Colonel
+    abbrev: Lt. Col.
+    category: Field officers
+  - name: Major
+    abbrev: Maj.
+    category: Field officers
+  - name: Captain
+    abbrev: Capt.
+    category: Company officers
+  - name: First Lieutenant
+    abbrev: 1st Lt.
+    category: Company officers
+  - name: Second Lieutenant
+    abbrev: 2d Lt.
+    category: Company officers
+  # Categories of grade. In order from highest to lowest
+  grade_categories:
+  - General officers
+  - Field officers
+  - Company officers
+  # Equivalent grades for the line army (artillery, cavalry, infantry)
+  # and adjutants, inspectors, judge adjutants, provost marshalls, aides de camp,
+  # signal officers, quarertmasters, commisaries, paymasters, and medical officers.
+  assimilated_grades:
+    "Line Officers":
+    - Brig. Gen.
+    - Col.
+    - Lt. Col.
+    - Maj.
+    - Capt.
+    - 1st. Lt.
+    "Adjutants":
+    - Adj. Gen.
+    - Asst. Adj. Gen.
+    - Asst. Adj. Gen.
+    - Asst. Adj. Gen.
+    - Asst. Adj. Gen.
+    - Asst. Adj. Gen.
+    - Asst. Adj. Gen.
+    "Inspectors":
+    - null
+    - "Insp. Gen."
+    - null
+    - "Asst. Insp. Gen."
+    - null
+    - null
+    "Judge Advocates":
+    - null
+    - Judge Adv. Gen.
+    - null
+    - Judge Adv.
+    - null
+    - null
+    "Provost Marshalls":
+    - null
+    - Prov. Mar. Gen.
+    - Dep. Prov. Mar. Gen.
+    - Prov. Mar.
+    - null
+    "Aides de Camp":
+    - null
+    - ADC
+    - ADC
+    - ADC
+    - ADC
+    - ADC
+    - ADC
+    "Signal Officers"
+    - null
+    - Sig.
+    - Sig.
+    - Sig.
+    - Sig.
+    - Sig.
+    - Sig.
+    "Quartermasters":
+    - Q.M. Gen.
+    - Asst. Q.M. Gen.
+    - Dep. Q.M. Gen.
+    - Q.M.
+    - Asst. Q.M.
+    - null
+    "Commisaries":
+    - Comm. Gen. Sub.
+    - Asst. Comm. Gen. Sub.
+    - Dep. Comm. Gen. Sub.
+    - Comm. Sub.
+    - Asst. Comm. Sub.
+    - null
+    "Paymasters":
+    - null
+    - Pay M. Gen.
+    - Dep. Pay M. Gen.
+    - Pay M.
+    - null
+    - null
+    "Medical Officers":
+    - Surg. Gen.
+    - Asst. Surg. Gen.
+    - Med. Insp. Gen.
+    - Surg.
+    - Asst. Surg.
+    - Asst. Surg.
+
+navy:
+  grades:
+  - name: Admiral
+    abbrev: Adm.
+    army: Gen.
+    category: Flag officers
+  - name: Vice Admiral
+    abbrev: Vice Adm.
+    army: Lt. Gen.
+    category: Flag officers
+  - name: Rear Admiral
+    abbrev: Rear Adm.
+    army: Maj. Gen.
+    category: Flag officers
+  - name: Commodore
+    abbrev: Comm.
+    army: Brig. Gen.
+    category: Flag Officers
+  - name: Captain
+    abbrev: Capt.
+    army: Col.
+    category: Ship's officers
+  - name: Commander
+    abbrev: Comdr.
+    army: Lt. Col.
+    category: Ship's officers
+  - name: Lieutenant Commander
+    abbrev: Lt. Comdr.
+    army: Maj.
+    category: Ship's officers
+  - name: Lieutenant
+    abbrev: Lt.
+    army: Capt.
+    category: Ship's Division officers
+  - name: Master
+    abbrev: Master
+    army: 1st Lt.
+    category: Ship's Division officers
+  - name: Engign
+    abbrev: Ens.
+    army: 2d Lt.
+    category: Ship's Division officers
