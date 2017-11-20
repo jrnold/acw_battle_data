@@ -10,7 +10,11 @@ Battle data from Livermore (1900) *Number and Losses in the Civil War in America
 
 Livermore discusses his methodology on pp. 63-77. The sample of
 battles he uses is all battles in which either side had losses, killed
-wounded, greater than 1,000.
+wounded, greater than 1,000 [p. 64],
+
+    In the endeavor to establish this ratio, the writer has gathered the
+    number engaged and the number killed and wounded in each battle in which
+    1000 or more were hit on either side ...
 
 Livermore is concerned with determining the actual number of troops
 engaged in battle, i.e. those that actually participated. The majority
@@ -77,7 +81,7 @@ battle_id
 
 
 
-       
+
 battle_name
 -----------
 
@@ -89,7 +93,7 @@ battle_name
 
 
 
-       
+
 page
 ----
 
@@ -101,7 +105,7 @@ page
 Page in Livermore (1900) in which the battle description appears.
 
 
-       
+
 start_date
 ----------
 
@@ -113,7 +117,7 @@ start_date
 
 
 
-       
+
 end_date
 --------
 
@@ -125,7 +129,7 @@ end_date
 
 
 
-       
+
 attacker
 --------
 
@@ -134,14 +138,14 @@ attacker
 :format: default
 :constraints:
     :enum: ['US', 'Confederate']
-    
+
 
 Was the Confederate or the US the attacker in the battle?
 This did not appear directly in Livermore (1900), but is from the ``PAR`` database.
 
 Sources: [Livermore1900]_, [ACAA1994]_
 
-       
+
 result
 ------
 
@@ -150,14 +154,14 @@ result
 :format: default
 :constraints:
     :enum: ['US', 'Confederate']
-    
+
 
 Confederate or Union victory.
 This did not appear directly in Livermore (1900), but is from the ``PAR`` database.
 
 Sources: [Livermore1900]_, [ACAA1994]_
 
-       
+
 assault_fortified
 -----------------
 
@@ -166,13 +170,13 @@ assault_fortified
 :format: default
 :constraints:
     :enum: ['US', 'Confederate']
-    
+
 
 "Confederate" if it was a Confederate assault on Union fortified lines; "US" if it was a Union assault on Confederate fortified lines; missing if it was not an assault on foritied lines.
 This comes from the Table "Assaults on Fortified Lines" on p. 75.
 
 
-       
+
 assault_outcome
 ---------------
 
@@ -181,13 +185,13 @@ assault_outcome
 :format: default
 :constraints:
     :enum: ['Failure', 'Success', 'Partial Success']
-    
+
 
 Assault outcome; missing if the battle was not an assault.
 This comes from the Table "Assaults on Fortified Lines" on p. 75.
 
 
-       
+
 union_result
 ------------
 
@@ -196,14 +200,14 @@ union_result
 :format: default
 :constraints:
     :enum: ['Defeat', 'Retired', 'Rout', 'Victory']
-    
+
 
 Union result for the battle.
 Seperate Union and Confederate results are given because the results in the tables are not symmetric. In some cases, one side is missing. In some cases, even if side has a victory, the other side can have a loss or a rout.
 This comes from the tables "Routs", "Victories", and "Battles Fought to Cover a Prearranged Movement, Pursuing which the Army Retired after Repelling Attack", on p. 76--77.
 
 
-       
+
 confed_result
 -------------
 
@@ -212,13 +216,13 @@ confed_result
 :format: default
 :constraints:
     :enum: ['Defeat', 'Retired', 'Rout', 'Victory']
-    
+
 
 Confederate result of the battle
 This comes from the tables "Routs", "Victories", and "Battles Fought to Cover a Prearranged Movement, Pursuing which the Army Retired after Repelling Attack", on p. 76--77.
 
 
-       
+
 state
 -----
 
@@ -229,12 +233,12 @@ state
     :minLength: 2
     :maxLength: 2
     :pattern: [A-Z][A-Z]
-    
+
 
 Two-letter abbreviation of the state in which the battle was fought.
 
 
-       
+
 theater
 -------
 
@@ -243,11 +247,8 @@ theater
 :format: default
 :constraints:
     :enum: ['MW', 'ME', 'LS', 'TM']
-    
+
 
 CWSAC theater of the battle. See :doc:`cwss_theaters`.
 
 Sources: [Livermore1900]_, [ACAA1994]_
-
-       
-

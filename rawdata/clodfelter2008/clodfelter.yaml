@@ -5149,3 +5149,147 @@
   result: Union
   start_date: 1865-3-19
   theater: 'West: 1865'
+
+# - battle_id: Palmito Ranch
+#   start_date: 1865-05-12
+#   end_date: 1865-05-13
+#   forces:
+#     Confederate:
+#       strength: 800
+#       wounded: 5
+#       killed: 0
+#       missing: 0
+#     US:
+#       strength: 350
+#       killed_wounded: 30
+#       missing_captured: 113
+#   minor: True
+#   page: 317
+#
+# - battle_id: Monroe's Crossroads
+#   start_date: 1865-03-09
+#   forces:
+#     US:
+#       killed: 80
+#       wounded: 421
+#       missing: 600
+#   minor: True
+#   page: 317
+#
+# - battle_id: Fort Sumter
+#   start_date: 1861-04-12
+#   minor: True
+#   page: 292
+#   forces:
+#     US:
+#       strength: 83
+#       killed: 0
+#       wounded: 0
+#       missing: 0
+#     Confederate:
+#       strength: 600
+#       killed: 0
+#       wounded: 0
+#       missing: 0
+#   comment: >
+#     Ignore the 1 killed and 5 injured due to an accidental gun explosion
+#     after the end of the battle.
+#
+# - battle_id: Carthage
+#   theater: "West: 1861"
+#   start_date: 1861-07-05
+#   forces:
+#     US:
+#       strength: 1100
+#       killed: 13
+#       wounded: 31
+#       comment: >
+#         The commander was Franz Sigel.
+#   page: 293
+#   major: False
+# - battle_id: Port Royal, SC
+#   theater: "The Blockade War: 1861-62"
+#   start_date: 1861-11-07
+#   forces:
+#     US:
+#       strength: 17000
+#       killed: 8
+#       wounded: 30
+#       transports: 65
+#       warships: 9
+#       comment:
+#         Commanded by Commodore Samuel DuPont.
+#     Confederate:
+#       killed: 11
+#   page: 294
+#   major: False
+# - battle_id: Kingston, NC
+#   theater: "The Blockade War: 1861-62"
+#   start_date: 1861-12-14
+#   forces:
+#     US:
+#       strength: 10700
+#       killed: 92
+#       wounded: 487
+#       missing_captured: 12
+#     Confederate:
+#       missing_captured: 400
+#   page: 294
+#   major: False
+# - battle_id: Fort Pulaski, GA
+#   start_date: 1862-04-10
+#   end_date: 1862-04-11
+#   forces:
+#     US:
+#       killed: 1
+#     Confederate:
+#       killed: 2
+#       wounded: 2
+#   page: 294
+#   comment: >
+#     Clodfelter does not give a number for the size of the Confederate garrison,
+#     which surrendered.
+#   major: False
+# - battle_id: Yorktown, VA
+#   theater: "East: 1862"
+#   page: 294
+#   forces:
+#     US:
+#       strength: 98000
+#       guns: 603
+#       comment: >
+#         COmmanded by McClellan
+#     Confederate:
+#       strength: 15000
+#       comment: >
+#         Commanded by Brig. Gen. John Magruder
+# - battle_id: Chantilly
+#   start_date: 1862-08-31
+#   end_date: 1862-09-01
+#   theater: "East: 1862"
+#   forces:
+#     US:
+#       killed: 150
+#       wounded: 550
+#     Confederate:
+#       killed_wounded: 500
+#   page: 296
+#   comment: >
+#     The casualties for Chantilly only are mentioned in the text.
+#   major: False
+# - battle_id: Harper's Ferry
+#   start_date: 1862-09-12
+#   end_date: 1862-09-15
+#   forces:
+#     US:
+#       missing_captured: 12739
+#   page: 296
+#   major: False
+# - battle_id: Picacho Pass, AZ
+#   start_date: 1862-04-15
+#   forces:
+#     US:
+#       killed: 3
+#       wounded: 4
+#   page: 297
+#   major: False
