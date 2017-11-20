@@ -8,11 +8,16 @@ import yaml
 def build(src, dst):
     with open(src, 'r', encoding="utf8") as f:
         data = yaml.load(f)
+    newdata = []
     for x in data:
-        x['battles_from'] = [btl['id'] for btl in x['battles_from']]
-        x['battles_to'] = [btl['id'] for btl in x['battles_cwsac']]
+        newx = {
+            'battles_from':  [btl['id'] for btl in x['battles_from']],
+            'battles_to': [btl['id'] for btl in x['battles_cwsac']],
+            'relation': x['relation']
+        }
+        newdata.append(newx)
     with open(dst, 'w', encoding="utf8") as f:
-        json.dump(data, f)
+        json.dump(newdata, f)
 
 
 def main():

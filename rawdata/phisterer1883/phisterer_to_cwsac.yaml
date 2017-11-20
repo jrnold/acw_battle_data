@@ -385,11 +385,18 @@
 - battles_cwsac:
   - description: Chancellorsville , VA (1863-04-30 - 1863-05-06)
     id: VA032
+  - description: Salem Church (May 3-4)
+    id: VA033
+  - description: Fredericksburg II, VA (May 3)
+    id: VA034
   battles_from:
   - description: Chancellorsville, Va., VA (1863-5-1 - 1863-5-4)
     id: 2309
   relation: eq
-  start_date: '1863-04-30'
+  comment: >
+    The casualties of these three battles are often grouped together. Since
+    Phisterer does not have separate values for the other battles, include
+    them with Chancellorsville.
 - battles_cwsac:
   - description: Champion Hill , MS (1863-05-16 - 1863-05-16)
     id: MS009
@@ -615,6 +622,8 @@
 - battles_cwsac:
   - description: Ware Bottom Church , VA (1864-05-20 - 1864-05-29)
     id: VA054
+  - description: Proctor's Creek (May 12-16)
+    id: VA053
   battles_from:
   - description: Bermuda Hundred, Va., VA (1864-5-16 - 1864-5-30)
     id: 2340
@@ -632,6 +641,10 @@
 - battles_cwsac:
   - description: Dallas , GA (1864-05-28 - 1864-06-28)
     id: GA011
+  - description: Pickett's Mill (May 27)
+    id: GA012
+  - description: New Hope Church (May 25-26)
+    id: GA010
   battles_from:
   - description: Dallas, Ga., GA (1864-5-25 - 1864-6-4)
     id: 2342

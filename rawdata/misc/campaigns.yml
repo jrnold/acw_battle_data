@@ -5,6 +5,7 @@
   CampaignEndDate: -39692.0
   TheaterCode: LS
   attacker: Union
+  objective:
 - CampaignCode: LS61-02
   CampaignName: Operations of Gulf Blockading Squadron
   CampaignDates: October 1861
@@ -545,7 +546,16 @@
   CampaignStartDate: -38595.0
   CampaignEndDate: -38565.0
   TheaterCode: ME
-  attacker: ''
+  attacker: Union
+  objective: >
+    Butler's forces were to move from the James River northwest of Richmond
+    in order to cut the Richmond and Petersburg Railroad, and divert forces
+    from Lee's army fighting Grant.
+  outcome: Confederate
+  comment: >
+    Union forces fail to accomplish the mission, and by the Battles of Proctor's
+    Creek and Ware Bottom Church were surrounded at Bermuda Hundred.
+
 - CampaignCode: ME64-06
   CampaignName: Grant's Overland Campaign
   CampaignDates: May-June 1864
@@ -553,13 +563,22 @@
   CampaignEndDate: -38535.0
   TheaterCode: ME
   attacker: Union
+  objective:
 - CampaignCode: ME64-07
   CampaignName: Lynchburg Campaign
   CampaignDates: May-June 1864
   CampaignStartDate: -38595.0
   CampaignEndDate: -38535.0
   TheaterCode: ME
-  attacker: ''
+  attacker: Union
+  objective: >
+    Sigel's Department of West Virigina forces were to destroy the railroad
+    center at Lynchburg.
+  victor: Confederate
+  comment: >
+    Union forces defeated at New Market; Sigel replaced by Hunter. Hunter
+    loses the Battle of Lynchburg, fails to destroy the railroad, and
+    retreats to West Virginia.
 - CampaignCode: ME64-08
   CampaignName: Early's Raid and Operations Against B&O RR
   CampaignDates: June-August 1864
@@ -567,6 +586,14 @@
   CampaignEndDate: -38473.0
   TheaterCode: ME
   attacker: Confederate
+  objective: >
+    Remove Union forces from the Shenandoah Valley and threaten Washington, D.C.
+    to force Grant to send forces.
+  outcome: Inconclusive
+  comment: >
+    Early defeats forces at Battle of Monocacy, threatens Washington at
+    the Battle of Fort Stevens, but was unsucessful and withdrew to Virginia.
+
 - CampaignCode: ME64-09
   CampaignName: Richmand-Petersburg Campaign
   CampaignDates: June-December 1864
@@ -574,6 +601,7 @@
   CampaignEndDate: -38351.0
   TheaterCode: ME
   attacker: Union
+
 - CampaignCode: ME64-10
   CampaignName: Sheridan's Valley Campaign
   CampaignDates: August-October 1864
@@ -581,6 +609,13 @@
   CampaignEndDate: -38412.0
   TheaterCode: ME
   attacker: Union
+  objective: >
+    Defeat and destroy Early's forces in the Shenandoah Valley.
+  outcome: Union
+  comment: >
+    Early's forces effectively detroyed at the battle of Third Winchester,
+    then Sheridan proceeds to destroy farms in the valley in order to deny
+    Confederate forces supplies.
 - CampaignCode: ME64-11
   CampaignName: Expedition Against Fort Fisher
   CampaignDates: December 1864
@@ -648,6 +683,11 @@
   CampaignEndDate: -38231.0
   TheaterCode: ME
   attacker: Union
+  objective: >
+    Cut off and surround Lee's reetreating forces.
+  outcome: Union
+  comment: >
+    Lee surrenders after the Battle of Appomattox Court House.
 - CampaignCode: MW61-01
   CampaignName: Confederate Offensive In Eastern Kentucky
   CampaignDates: September-December 1861

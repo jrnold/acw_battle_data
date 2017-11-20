@@ -7,7 +7,7 @@ battle_id,start_date,end_date,surrender,battle_name,state,us_killed,us_wounded,u
 2267,1862-2-14,1862-2-16,0,"Fort Donelson, Tenn",TN,446,1735,150,2331,15067,213,0
 2268,1862-3-6,1862-3-8,0,"Pea Ridge, Ark",AR,203,972,174,1349,5200,213,0
 2269,1862-3-14,1862-3-14,0,"Newbern, N.C.",NC,91,466,,557,583,213,0
-2270,1862-3-23,1862-3-23,0,"Winchester, Va",VA,103,440,24,567,691,213,0,Original has "Winchester, Tenn", but this matches the First Battle of Kernstown in date and casualties.
+2270,1862-3-23,1862-3-23,0,"Winchester, Va",VA,103,440,24,567,691,213,0,"Original has \"Winchester, Tenn\", but this matches the First Battle of Kernstown in date and casualties."
 2271,1862-4-6,1862-4-7,0,"Shiloh, Tenn",TN,1735,7882,3956,13573,10699,213,0
 2272,1862-5-5,1862-5-5,0,"Williamsburg, Va",VA,456,1400,372,2228,1000,213,0
 2273,1862-5-23,1862-5-23,0,"Front Royal, Va",VA,32,122,750,904,,213,0
@@ -111,7 +111,7 @@ battle_id,start_date,end_date,surrender,battle_name,state,us_killed,us_wounded,u
 2371,1864-8-31,1864-9-1,0,"Jonesboro, Ga.",GA,,1149,,1149,2000,217,0
 2372,1864-5-5,1864-9-8,0,"Campaign in Northern Georgia, from Chattanooga, Tenn., to Atlanta, Ga.",GA,5284,26129,5786,37199,,217,1
 2373,1864-9-1,1864-10-30,0,"Trenches before Petersburg, Va.",VA,170,822,812,1804,1000,217,1
-2374,1864-9-19,1864-9-19,0,"Apequan, Winchester, Va.",VA,653,3719,618,4990,5500,217,0
+2374,1864-9-19,1864-9-19,0,"Opequan, Winchester, Va.",VA,653,3719,618,4990,5500,217,0
 2375,1864-9-23,1864-9-23,0,"Athens, Ala.",AL,,,950,950,30,217,0
 2376,1864-9-24,1864-10-28,0,Price's invasion of Missouri; includes a number of engagements.,MO,170,336,,506,,217,1
 2377,1864-9-28,1864-9-30,0,"New Market Heights, Va.",VA,400,2029,,2429,2000,217,0
