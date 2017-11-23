@@ -12,6 +12,10 @@ import pyparsing as pp
 import yaml
 from lxml import etree as ET
 
+
+BATTLES_EXCLUDE = ("VA126", "AL008", "GA024")
+
+
 namespaces = {
     'd': "http://schemas.microsoft.com/ado/2007/08/dataservices",
     'm': "http://schemas.microsoft.com/ado/2007/08/dataservices/metadata",
@@ -73,12 +77,19 @@ def battle_csv(root, dst):
                 if battle[fld]:
                     battle[fld] = battle[fld].strip()
             battle['BattlefieldCode'] = battle['BattlefieldCode'].upper()
+            if battle['BattlefieldCode'] in BATTLES_EXCLUDE:
+                continue
             if battle['BeginDate']:
                 battle['BeginDate'] = dt.strptime(
                     battle['BeginDate'], '%m/%d/%Y').strftime('%Y-%m-%d')
             if battle['EndDate']:
                 battle['EndDate'] = dt.strptime(
                     battle['EndDate'], '%m/%d/%Y').strftime('%Y-%m-%d')
+            if battle['BattlefieldCode'] == "AL008":
+                battle['BeginDate'] = "1865-04-01"
+                battle['EndDate'] = "1865-04-01"
+                battle['TheaterCode'] = 'MW'
+                battle['CampaignCode'] = ''
             battle['URL'] = URL % battle['BattlefieldCode']
             writer.writerow(battle)
 
@@ -215,6 +226,8 @@ def commander_csv(root, dst):
                 xmlns("d:BattlefieldCode")).text.strip().upper()
             enemy = properties.find(xmlns("d:EnemyName")).text
             # NC002 battle code is empty
+            if battlecode in BATTLES_EXCLUDE:
+                continue
             if battlecode in ("NC002", "MO026"):
                 enemy = "Confederate"
             if battlecode in ("MN002"):
@@ -286,6 +299,8 @@ def forces_csv(root, dst):
             battlecode = properties.find(xmlns("d:BattlefieldCode")).text
             enemy = properties.find(xmlns("d:EnemyName")).text
             # NC002 battle code is empty
+            if battlecode in BATTLES_EXCLUDE:
+                continue
             if battlecode in ("NC002", "MO026"):
                 enemy = "Confederate"
             if battlecode in ("MN002", ):
@@ -405,7 +420,7 @@ def people_keywords_csv(root, dst):
                 # It is quoted and unquoted strings separated by commas
                 # But it is consistent with syntax for a yaml list and easier
                 # than writing a regex.
-                for kw in yaml.load("[" + keywords + "]"):
+                for kw in set(yaml.load("[" + keywords + "]")):
                     row['Keyword'] = kw
                     writer.writerow(row)
             except TypeError:
@@ -430,6 +445,8 @@ def battleunitslink_csv(root, comments, dst):
                 except AttributeError:
                     row[fld] = None
             row['BattlefieldCode'] = row['BattlefieldCode'].upper()
+            if row["BattlefieldCode"] in BATTLES_EXCLUDE:
+                continue
             try:
                 row.update(comments[(row['BattlefieldCode'], row['UnitCode'])])
             except KeyError:
@@ -479,7 +496,7 @@ def build_state_names(src, dst):
 def build_unit_titles(src, dst):
     src_unititles = path.join(src, 'Unititle.tsv')
     src_contitles = path.join(src, 'Contitle.tsv')
-    dstfile = path.join(dst, 'cwss_unit_tiles.csv')
+    dstfile = path.join(dst, 'cwss_unit_titles.csv')
     unititles = pandas.read_csv(src_unititles, sep='\t')
     contitles = pandas.read_csv(src_contitles, sep='\t')
     newdata = pandas.concat([unititles, contitles])

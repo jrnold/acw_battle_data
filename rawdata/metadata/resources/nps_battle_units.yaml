@@ -26,10 +26,12 @@ schema:
     type: string
   - format: default
     name: unit_code
-    title: unit_code
+    title: CWSS unit code
     type: string
     constraints:
       required: true
+      pattern: '^[UC][A-Z0-9]+$'
+    description: CWSS unit code
   - format: default
     name: companies
     title: companies
@@ -38,19 +40,19 @@ schema:
       minimum: 1
   - format: default
     name: batteries
-    title: batteries
+    title: Number of batteries
     type: number
     constraints:
       minimum: 1
   - format: default
     name: detachment
-    title: detachment
+    title: Detachment
     type: number
     constraints:
       minimum: 1
   - format: default
     name: section
-    title: section
+    title: Section
     type: number
     constraints:
       minimum: 1
@@ -74,4 +76,8 @@ schema:
     name: comment
     title: comment
     type: string
+    description: For some battle units a comment is given. This often specifies
+      that only a subset of a unit was present at the battle. The fields,
+      ``batteries``, ``detachment``, ``companies``, and ``section`` are
+      derived from this.
 title: 'National Park Service combined battle data: Battle in each battle'

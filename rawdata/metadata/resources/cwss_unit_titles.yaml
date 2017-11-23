@@ -1,0 +1,38 @@
+format: csv
+name: cwss_unit_titles
+path: data/cwss_unit_titles.csv
+schema:
+  primaryKey:
+  - title
+  fields:
+  - constraints:
+      pattern: '^[A-Z]{2}$'
+      required: true
+    description: 2-letter abbreviation of the state or unit type. This includes more
+      than states, e.g. US for Union Colored troops, and UR for Union regular army.
+    format: default
+    name: state
+    title: State
+    type: string
+  - format: default
+    name: side
+    title: Side
+    type: string
+    constraints:
+      required: true
+      enum:
+      - U
+      - C
+  - description: Unit type
+    format: default
+    name: title
+    title: Unit type
+    type: string
+    constraints:
+      required: true
+      pattern: "^[A-Z][A-Z ]+$"
+    description: A canonical name of a unit. For example, "UNION NORTH CAROLINA VOLUNTEERS".
+title: CWSS Unit Titles
+description: >-
+  This CWSS table maps canonical names of units, e.g. "UNION NORTH CAROLINA VOLUNTEERS",
+  to their state ("NC") and side ("U").

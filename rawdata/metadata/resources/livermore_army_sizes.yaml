@@ -2,19 +2,33 @@ format: csv
 name: livermore_army_sizes
 path: data/livermore_army_sizes.csv
 schema:
+  primaryKey:
+  - date
   fields:
   - format: default
     name: date
     title: date
     type: date
+    constraints:
+      required: true
+      minimum: "1861-01-01"
+      maximum: "1865-07-01"
+
   - format: default
     name: union_number
-    title: No. on Union Rolls
+    title: Number on Union Rolls
     type: integer
+    constraints:
+      required: true
+      minimum: 0
   - format: default
     name: confederate_number
-    title: No. on Confederate Returns
+    title: Number on Confederate Returns
     type: integer
+    constraints:
+      required: true
+      minimum: 0
+
 sources:
 - Livermore1900
 title: Size of the Union and Confederate Armies (Livermore, 1900)

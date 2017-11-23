@@ -2,15 +2,23 @@ format: csv
 name: cwss_theaters
 path: data/cwss_theaters.csv
 schema:
+  primaryKey:
+  - TheaterCode
   fields:
   - format: default
     name: TheaterCode
     title: Theater code
     type: string
+    constraints:
+      required: true
+      pattern: "^[A-Z]{2}$"
+    description: Two-letter identifier for the theater.
   - format: default
     name: TheaterName
     title: Theater name
     type: string
+    constraints:
+      required: true
 sources:
 - CWSS
 title: CWSS theaters

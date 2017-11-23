@@ -2,11 +2,13 @@ format: csv
 name: cws2_commanders
 path: data/cws2_commanders.csv
 schema:
+  primaryKey:
+  - battle
+  - belligerent
+  - fullname
   fields:
   - constraints:
-      maxLength: 6
-      minLength: 5
-      pattern: '[A-Z]{2}[0-9]{3}[A-Z]?'
+      pattern: '^[A-Z]{2}[0-9]{3}$'
     description: CWSAC battle identifier
     format: default
     name: battle
@@ -17,31 +19,67 @@ schema:
       - US
       - Confederate
       - Native American
+      constraints:
+        required: true
     format: default
     name: belligerent
     title: belligerent
     type: string
   - format: default
     name: fullname
-    title: Full name
+    title: Commander's name
     type: string
+    constraints:
+      required: true
   - description: Rank of the commander at the time of the battle
     format: default
     name: rank
     title: Rank
     type: string
+    constraints:
+      enum:
+      - Brevet Major General
+      - Major
+      - General
+      - Major General
+      - Acting Rear Admiral
+      - Lieutenant
+      - First Lieutenant
+      - Admiral
+      - Lieutenant Commander
+      - Commodore
+      - Commander
+      - Brigadier General
+      - Rear Admiral
+      - Captain
+      - Flag Officer
+      - Colonel
+      - Brevet Colonel
+      - Lieutenant General
+      - Lieutenant Colonel
+      - Acting Master
+      - ''
+    description: Military rank (grade) of the commander. All Union and
+      Confederate commanders have a rank. No Native American commanders are
+      given a rank.
   - format: default
     name: navy
     title: navy
     type: boolean
+    constraints:
+      required: true
   - format: default
     name: last_name
     title: Last Name
     type: string
+    constraints:
+      required: true
   - format: default
     name: first_name
     title: First Name
     type: string
+    constraints:
+      required: true
   - format: default
     name: middle_name
     title: Middle Name
@@ -50,6 +88,7 @@ schema:
     name: suffix
     title: Suffix
     type: string
+    description: Suffix of the commander's name, e.g. Jr., II, III, etc.
 sources:
 - CWSII
 - CWSIIAL

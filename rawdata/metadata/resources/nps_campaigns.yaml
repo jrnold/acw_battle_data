@@ -3,7 +3,7 @@ name: nps_campaigns
 path: data/nps_campaigns.csv
 schema:
   primaryKey:
-  - campaign_code
+  - CampaignCode
   fields:
   - constraints:
       pattern: '^[A-Z]{2}6[1-5]-[0-9]{2}$'

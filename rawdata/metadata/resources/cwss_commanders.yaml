@@ -2,11 +2,13 @@ format: csv
 name: cwss_commanders
 path: data/cwss_commanders.csv
 schema:
+  primaryKey:
+  - BattlefieldCode
+  - belligerent
+  - commander_number
   fields:
   - constraints:
-      maxLength: 6
-      minLength: 5
-      pattern: '[A-Z]{2}[0-9]{3}[A-Z]?'
+      pattern: '^[A-Z]{2}[0-9]{3}[AB]?$'
       required: true
     description: CWSAC battle identifier
     format: default
@@ -32,6 +34,7 @@ schema:
     type: integer
     constraints:
       minimum: 1
+      maximum: 9
       required: true
   - description: Unique commander identifier corresponding to the ``PersonID`` in
       :doc:`cwss_people`.
@@ -41,10 +44,6 @@ schema:
     type: string
     constraints:
       required: true
-  primaryKey:
-  - BattlefieldCode
-  - belligerent
-  - commander_nubmer      
 sources:
 - CWSS
 title: 'CWSS battle data: principal commanders'

@@ -2,9 +2,11 @@ format: csv
 name: nps_battles_to_wiki
 path: data/nps_battles_to_wiki.csv
 schema:
+  primaryKey:
+  - cwsac_id
   fields:
   - constraints:
-      pattern: '[A-Z]{2}[0-9]{3}[AB]?'
+      pattern: '^[A-Z]{2}[0-9]{3}[AB]?$'
       required: true
     description: CWSAC battle identifier
     format: default
@@ -17,6 +19,7 @@ schema:
     title: Dbpedia URI
     type: string
     constraints:
+      pattern: "^http://dbpedia\\.org/resource/.*$"
       required: true
   - description: Title of the English Wikipedia page for the battle.
     format: default

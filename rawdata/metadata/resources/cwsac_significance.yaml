@@ -2,15 +2,24 @@ format: csv
 name: cwsac_significance
 path: data/cwsac_significance.csv
 schema:
+  primaryKey:
+  - value
   fields:
   - format: default
     name: value
     title: Value
     type: string
+    constraints:
+      required: true
+      pattern: "^[A-D]$"
+    description: Military importance of the battle, ranked from "A" (highest)
+      to "D" (lowest).
   - format: default
     name: description
     title: Description
     type: string
+    description: Meaning of the military importance category in terms of
+      influence on the war, operations, or campaigns.
 sources:
 - CWSAC1993
 - CWSAC1997

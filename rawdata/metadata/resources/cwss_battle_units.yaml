@@ -2,11 +2,13 @@ format: csv
 name: cwss_battle_units
 path: data/cwss_battle_units.csv
 schema:
+  primaryKey:
+  - BattlefieldCode
+  - UnitCode
   fields:
   - constraints:
-      maxLength: 6
-      minLength: 5
-      pattern: '[A-Z]{2}[0-9]{3}[A-Z]?'
+      pattern: '^[A-Z]{2}[0-9]{3}$'
+      required: true
     description: CWSAC battle identifier
     format: default
     name: BattlefieldCode
@@ -16,6 +18,10 @@ schema:
     name: Comment
     title: Comment
     type: string
+    description: For some battle units a comment is given. This often specifies
+      that only a subset of a unit was present at the battle. The fields,
+      ``batteries``, ``detachment``, ``companies``, and ``section`` are
+      derived from this.
   - format: default
     name: Source
     title: Source
@@ -24,22 +30,32 @@ schema:
     name: UnitCode
     title: Unit code
     type: string
+    constraints:
+      required: true
+      pattern: '^[UC][A-Z0-9]+$'
+    description: CWSS unit code
   - format: default
     name: companies
-    title: companies
+    title: Number of companies
     type: number
+    constraints:
+      minimum: 1
   - format: default
     name: batteries
-    title: batteries
+    title: Number of batteries
     type: number
   - format: default
     name: detachment
-    title: detachment
+    title: Detachment
     type: number
+    constraints:
+      minimum: 1
   - format: default
     name: section
     title: section
     type: number
+    constraints:
+      minimum: 1
 sources:
 - CWSS
 title: 'CWSS battle data: units engaged'

@@ -2,6 +2,10 @@ format: csv
 name: ships_in_battles
 path: data/ships_in_battles.csv
 schema:
+  primaryKey:
+  - cwsac_id
+  - belligerent
+  - ship
   fields:
   - description: CWSAC identifier of the battle. See :doc:`cwsac_battles`.
     format: default

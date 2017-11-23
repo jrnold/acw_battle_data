@@ -87,7 +87,7 @@ schema:
       minimum: 0
 
   primaryKey:
-  - cwsac_id
+  - battle
   - belligerent
 sources:
 - CWSAC1993

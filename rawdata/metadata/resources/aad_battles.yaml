@@ -101,7 +101,7 @@ schema:
     type: string
     constraints:
       enum:
-      - "None"
+      - 'None'
       - Low
       - Mod
       - High

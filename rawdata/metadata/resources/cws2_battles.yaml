@@ -2,11 +2,12 @@ format: csv
 name: cws2_battles
 path: data/cws2_battles.csv
 schema:
+  primaryKey:
+  - battle
   fields:
   - constraints:
-      maxLength: 6
-      minLength: 5
-      pattern: '[A-Z]{2}[0-9]{3}[A-Z]?'
+      pattern: '^[A-Z]{2}[0-9]{3}$'
+      required: true
     description: CWSAC battle identifier
     format: default
     name: battle
@@ -16,10 +17,11 @@ schema:
     name: battle_name
     title: Battle Name
     type: string
+    constraints:
+      required: true
   - constraints:
-      maxLength: 2
-      minLength: 2
-      pattern: '[A-Z][A-Z]'
+      pattern: '^[A-Z][A-Z]$'
+      required: true
     description: State in which the battle occurred. Two-letter abbreviation of the
       state.
     format: default
@@ -31,16 +33,23 @@ schema:
     name: campaign
     title: Campaign
     type: string
+    constraints:
+      required: true
   - description: URL of the CWSAC Updated report
     format: url
     name: url
     title: url
     type: string
+    constraints:
+      required: true
+      pattern: "^http://www\\.nps\\.gov/abpp/CWSII/.*\\.pdf$"
   - description: Text description of the forces involved in the battle
     format: default
     name: forces_text
     title: Forces
     type: string
+    constraints:
+      required: true
   - constraints:
       minimum: 0
     description: Total personnel (on both sides) in the battle. For some battles,
@@ -49,16 +58,24 @@ schema:
     name: strength
     title: Strength
     type: integer
+
   - description: Description of the result of the battle
     format: default
     name: results_text
     title: Results (text)
     type: string
-  - description: Battle result
+    constraints:
+      required: true
+  - description: >-
+      A categorical version of battle results. This field
+      simplifies ``results_text`` to thee categories: Union victory,
+      Confederate victory, and Inconclusive.
     format: default
-    name: result
-    title: result
-    type: number
+    name: results
+    title: Results
+    type: string
+    constraints:
+      required: true
   - description: 'Study area in acres
 
       The Study Area represents the historic extent of the battle as it unfolded across
@@ -77,6 +94,8 @@ schema:
     name: study_area
     title: Study Area
     type: number
+    constraints:
+      minimum: 0
   - description: 'Core area in acres
 
       The Core Area represents the areas of direct engagement on the battlefield.
@@ -102,6 +121,8 @@ schema:
     name: potnr_boundary
     title: potnr_boundary
     type: number
+    constraints:
+      minimum: 0
 sources:
 - CWSII
 - CWSIIAL

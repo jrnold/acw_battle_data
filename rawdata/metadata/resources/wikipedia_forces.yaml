@@ -2,85 +2,151 @@ format: csv
 name: wikipedia_forces
 path: data/wikipedia_forces.csv
 schema:
+  primaryKey:
+  - battle_id
+  - belligerent
   fields:
   - format: default
     name: battle_id
-    title: battle_id
+    title: Article name
+    constraints:
+      pattern: "^[^ ]+$"
+      required: true
     type: string
+    description: Name of the Wikipedia article for the battle.
   - format: default
     name: belligerent
     title: belligerent
+    constraints:
+      enum:
+      - US
+      - Confederate
+      - Native American
+      required: true
     type: string
   - format: default
     name: strength_min
-    title: strength_min
+    title: Strength (min)
     type: number
+    constraints:
+      minimum: 0
   - format: default
     name: strength_max
-    title: strength_max
+    title: Strength (max)
     type: number
+    constraints:
+      minimum: 0
+
   - format: default
     name: casualties_min
-    title: casualties_min
+    title: Casualties (min)
     type: number
+    constraints:
+      minimum: 0
+
   - format: default
     name: casualties_max
     title: casualties_max
     type: number
+    constraints:
+      minimum: 0
+
   - format: default
     name: killed_min
-    title: killed_min
+    title: Killed (min)
     type: number
+    constraints:
+      minimum: 0
+
   - format: default
     name: killed_max
-    title: killed_max
+    title: Killed (max)
     type: number
+    constraints:
+      minimum: 0
+
   - format: default
     name: wounded_min
-    title: wounded_min
+    title: Wounded (min)
     type: number
+    constraints:
+      minimum: 0
+
   - format: default
     name: wounded_max
-    title: wounded_max
+    title: Wounded (max)
     type: number
+    constraints:
+      minimum: 0
+
   - format: default
     name: missing_min
-    title: missing_min
+    title: Missing (min)
     type: number
+    constraints:
+      minimum: 0
+
   - format: default
     name: missing_max
-    title: missing_max
+    title: Missing (max)
     type: number
+    constraints:
+      minimum: 0
+
   - format: default
     name: captured_min
-    title: captured_min
+    title: Captured (min)
     type: number
+    constraints:
+      minimum: 0
+
   - format: default
     name: captured_max
-    title: captured_max
+    title: Captured (max)
     type: number
+    constraints:
+      minimum: 0
+
   - format: default
     name: killed_wounded_min
-    title: killed_wounded_min
+    title: Killed or wounded (min)
     type: number
+    constraints:
+      minimum: 0
+
   - format: default
     name: killed_wounded_max
-    title: killed_wounded_max
+    title: Killed or wounded (max)
     type: number
+    constraints:
+      minimum: 0
+
   - format: default
     name: wounded_missing_min
-    title: wounded_missing_min
+    title: Wounded or missing (min)
     type: number
+    constraints:
+      minimum: 0
+
   - format: default
     name: wounded_missing_max
-    title: wounded_missing_max
+    title: Wounded or missing (max)
     type: number
+    constraints:
+      minimum: 0
+
   - format: default
     name: captured_missing_min
-    title: captured_missing_min
+    title: Captured or missing_min
     type: number
+    constraints:
+      minimum: 0
+
   - format: default
     name: captured_missing_max
-    title: captured_missing_max
+    title: Captured or missing (max)
     type: number
+    constraints:
+      minimum: 0
+
 title: wikipedia_forces

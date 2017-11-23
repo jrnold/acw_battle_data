@@ -3,13 +3,11 @@ name: cws2_forces
 path: data/cws2_forces.csv
 schema:
   primaryKey:
-  - cwsac_id
-  - belligerent    
+  - battle
+  - belligerent
   fields:
   - constraints:
-      maxLength: 6
-      minLength: 5
-      pattern: '[A-Z]{2}[0-9]{3}[A-Z]?'
+      pattern: '^[A-Z]{2}[0-9]{3}$'
       required: true
     description: CWSAC battle identifier
     format: default
@@ -31,6 +29,8 @@ schema:
     name: description
     title: Description
     type: string
+    constraints:
+      required: true
   - constraints:
       minimum: 0
       required: false

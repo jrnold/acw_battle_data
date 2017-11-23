@@ -2,11 +2,12 @@ format: csv
 name: cwss_battles
 path: data/cwss_battles.csv
 schema:
+  primaryKey:
+  - BattlefieldCode
   fields:
   - constraints:
-      maxLength: 6
-      minLength: 5
-      pattern: '[A-Z]{2}[0-9]{3}[A-Z]?'
+      pattern: '^[A-Z]{2}[0-9]{3}[AB]?$'
+      required: true
     description: CWSAC battle identifier
     format: default
     name: BattlefieldCode
@@ -16,22 +17,34 @@ schema:
     name: BattleName
     title: Battle name
     type: string
+    constraints:
+      required: true
+      pattern: "^[A-Z][A-Za-z' &./-]+$"
   - format: default
     name: BattleType
     title: Battle type
     type: string
+    constraints:
+      required: false
   - format: default
     name: BeginDate
     title: Begin date
     type: date
+    constraints:
+      required: true
+      minimum: "1861-04-10"
+      maximum: "1865-06-01"
   - format: default
     name: EndDate
     title: End date
     type: date
+    constraints:
+      required: true
+      minimum: "1861-04-10"
+      maximum: "1865-06-01"
   - constraints:
-      maxLength: 2
-      minLength: 2
-      pattern: '[A-Z][A-Z]'
+      pattern: '^[A-Z]{2}$'
+      required: true
     format: default
     name: State
     title: State
@@ -40,14 +53,28 @@ schema:
     name: TheaterCode
     title: TheaterCode
     type: string
+    constraints:
+      enum: ['ME', 'MW', 'TM', 'LS', 'PC']
+      required: true
   - format: default
     name: CampaignCode
     title: CampaignCode
     type: string
+    constraints:
+      required: true
+      pattern: '^((ME|MW|TM|LS|PC)6[1-5]-[0-9]{2})$'
   - format: default
     name: Result
     title: Result
     type: string
+    constraint:
+      required: true
+      enum:
+        - Union Victory (strategic)
+        - Indecisive
+        - Confederate Victory
+        - Union Victory
+        - Confederate Victory (tactical)
   - constraints:
       minimum: 0
     format: default
@@ -58,10 +85,11 @@ schema:
     name: Comment
     title: Comment
     type: string
-  - format: default
-    name: ID
+  - name: ID
     title: ID
     type: integer
+    description: An integer ID for the battle used internally in the CWSS
+      database.
   - format: default
     name: ShortSummary
     title: Short summary
@@ -82,6 +110,9 @@ schema:
     name: URL
     title: URL
     type: string
+    constraints:
+      required: true
+      pattern: '^http://www\.nps\.gov/civilwar/search-battles-detail\.htm\?battleCode=.*$'
 sources:
 - CWSS
 title: 'CWSS battle data: battles'

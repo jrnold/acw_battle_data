@@ -2,14 +2,20 @@ format: csv
 name: cwsac_theaters
 path: data/cwsac_theaters.csv
 schema:
+  primaryKey:
+  - theater
   fields:
   - format: default
     name: theater
     title: Theater
     type: string
+    description: CWSAC theater names. See the CWSS for short theater codes
+      that are used elsewhere.
   - description: URI of the dbpedia.org category resource for the theater.
     format: url
     name: dbp_resource
+    constraints:
+      pattern: '^http://dbpedia\.org/resource/.*$'
     sources:
     - jrnold
     title: DBPedia URI
@@ -17,6 +23,8 @@ schema:
   - description: URI of the dbpedia.org category resource for the theater.
     format: url
     name: dbp_category
+    constraints:
+      pattern: "^Category:[^ ]+$"
     sources:
     - jrnold
     title: DBPedia URI (category)

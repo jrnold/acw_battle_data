@@ -2,15 +2,23 @@ format: csv
 name: civilwarorg_commanders
 path: data/civilwarorg_commanders.csv
 schema:
+  primaryKey:
+  - battle_id
+  - belligerent
+  - url
   fields:
   - format: default
     name: battle_id
     title: Battle
     type: string
+    constraints:
+      required: true
+      pattern: "^[a-z][a-z-]+$"
   - constraints:
       enum:
       - US
       - Confederate
+      required: true
     format: default
     name: belligerent
     title: belligerent
@@ -19,11 +27,15 @@ schema:
     name: name
     title: Commander Name
     type: string
+    constraints:
+      required: true
   - description: URL to the biography of the commander at http://www.civilwar.org/education/history/biographies/.
     format: url
     name: url
     title: Commander's Bio URL
     type: string
+    constraints:
+      pattern: "^http://www\\.civilwar\\.org/education/history/biographies/.*$"
 sources:
 - civilwarorg
 title: Commanders in civilwar.org battle data

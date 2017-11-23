@@ -2,15 +2,23 @@ format: csv
 name: shenandoah_forces
 path: data/shenandoah_forces.csv
 schema:
+  primaryKey:
+  - battle_id
+  - belligerent
   fields:
   - format: default
     name: battle_id
     title: battle_id
     type: integer
+    constraints:
+      required: true
+      minimum: 1
+      maximum: 15
   - constraints:
       enum:
       - US
       - Confederate
+      required: true
     format: default
     name: belligerent
     title: Belligerent
@@ -26,6 +34,8 @@ schema:
     name: strength_min
     title: Strength (min)
     type: integer
+    constraints:
+      minimum: 1
   - description: 'Strength in personnel of the force (maximum value).
 
       If no range is given, the maximum and minimum are set to the same value.'
@@ -33,6 +43,8 @@ schema:
     name: strength_max
     title: Strength (max)
     type: integer
+    constraints:
+      minimum: 1
   - description: Text describing the casualties of the battle.
     format: default
     name: casualties_text

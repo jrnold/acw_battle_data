@@ -2,40 +2,70 @@ format: csv
 name: eicher_units_table
 path: data/eicher_units_table.csv
 schema:
+  primaryKey:
+  - belligerent
+  - infantry
+  - unit_type
   fields:
   - format: default
     name: belligerent
     title: belligerent
     type: string
+    constraints:
+      required: true
+      enum:
+      - Union
+      - Confederate
   - format: default
     name: infantry
     title: infantry
-    type: integer
+    type: boolean
+    constraints:
+      required: true
   - format: default
     name: unit_type
     title: unit_type
     type: string
+    constraints:
+      required: true
   - format: default
     name: low
     title: low
     type: integer
+    constraints:
+      minimum: 1
+      required: true
   - format: default
     name: high
     title: high
     type: integer
+    constraints:
+      minimum: 1
+      required: true
   - format: default
     name: avg
     title: avg
     type: number
+    constraints:
+      minimum: 1
+      required: true
+
   - format: default
     name: mode
     title: mode
     type: integer
+    constraints:
+      minimum: 1
+      required: true
+
   - description: Page number in Eicher and Eicher (2002)
     format: default
     name: page
     title: page
     type: integer
+    constraints:
+      minimum: 1
+      required: true
 sources:
 - eicher2002civil
 title: Eicher table of unit sizes

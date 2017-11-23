@@ -37,7 +37,6 @@ belligerent_fields = [
     'description',
     'strength_min',
     'strength_max',
-    'armies',
     'casualties',
     'killed',
     'wounded',
@@ -89,8 +88,17 @@ def copy_significance(src, dst):
 
 
 def copy_theaters(src, dst):
-    shutil.copy(
-        path.join(src, 'theaters.csv'), path.join(dst, 'cwsac_theaters.csv'))
+    infile = path.join(src, 'theaters.csv')
+    outfile = path.join(dst, 'cwsac_theaters.csv')
+    fieldnames = ("theater", "dbp_resource", "dbp_category")
+    with open(infile, 'r') as fp:
+        data = list(csv.DictReader(fp))
+    with open(outfile, 'w') as fp:
+        writer = csv.DictWriter(fp, fieldnames)
+        writer.writeheader()
+        for row in data:
+            row['dbp_resource'] = f"http://dbpedia.org/resource/{row['dbp_resource']}"
+            writer.writerow(row)
 
 
 def copy_campaigns(src, dst):

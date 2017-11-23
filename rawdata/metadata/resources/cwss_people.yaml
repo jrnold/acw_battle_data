@@ -2,54 +2,63 @@ format: csv
 name: cwss_people
 path: data/cwss_people.csv
 schema:
+  primaryKey:
+  - PersonID
   fields:
   - format: uuid
     name: PersonID
     title: PersonID
     type: string
+    description: In its database, the CWSS assigns each person a UUID.
   - format: default
     name: ID
     title: ID
     type: integer
+    description: An integer identifier for the individual used in the CWSS
+      database.
   - format: default
     name: LastName
-    title: LastName
+    title: Last name
+    constraints:
+      required: true
     type: string
   - format: default
     name: Suffix
     title: Suffix
     type: string
+    description: Suffix of the name, e.g. Jr., II, III, ...
   - format: default
     name: FirstName
-    title: FirstName
+    title: First name
     type: string
   - format: default
     name: MiddleName
-    title: MiddleName
+    title: Middle name
     type: string
   - format: default
     name: MiddleInitial
-    title: MiddleInitial
+    title: Middle initial
     type: string
   - format: default
     name: Rank
     title: Rank
     type: string
+    description: Military rank (grade) achieved by the person.
   - format: default
     name: Bio
-    title: Bio
+    title: Biography
     type: string
   - format: default
     name: BioSource
-    title: BioSource
+    title: Biography source
     type: string
   - format: default
     name: NarrativeLink1
-    title: NarrativeLink1
+    title: Narrative link 1
     type: string
   - format: default
     name: NarrativeLink2
-    title: NarrativeLink2
+    title: Narrative link 2
     type: string
 sources:
 - CWSS

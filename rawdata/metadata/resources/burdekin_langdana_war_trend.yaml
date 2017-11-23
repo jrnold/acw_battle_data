@@ -2,18 +2,28 @@ format: csv
 name: burdekin_langdana_war_trend
 path: data/burdekin_langdana_war_trend.csv
 schema:
+  primaryKey:
+  - date
   fields:
   - description: First day of the quarter
     format: default
     name: date
     title: Date
     type: date
+    constraints:
+      required: true
+      minimum: "1861-01-01"
+      maximum: "1865-07-01"
   - description: -1 (+1) if war news is unfavorable (favorable) to Confederacy; 0
       otherwise.
     format: default
     name: trend
     title: War Trend
     type: integer
+    constraints:
+      required: true
+      minimum: -1
+      maximum: 1
 sources:
 - BurdekinLangdana1993
 title: War Trend from Burdekin and Langdana (1993)

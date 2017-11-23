@@ -2,7 +2,17 @@ format: csv
 name: reiter2009_turning_points
 path: data/reiter2009_turning_points.csv
 schema:
+  primaryKey:
+  - id
   fields:
+  - name: id
+    type: integer
+    constraints:
+      required: true
+      minimum: 1
+      maximum: 5
+    desription: Turning point number. Reiter (2009) identifies five turning points
+      in the American Civil War.
   - description: Desciption of the period in which the turning point occurred. For
       example, "Summer 1862", "Fall 1864-Spring 1865". These are converted to specific
       dates using the dates of the important battles mentioned in the text.
@@ -10,10 +20,16 @@ schema:
     name: period
     title: Period
     type: string
+    constraints:
+      required: true
   - format: default
     name: start_date
     title: Start Date
     type: date
+    constraints:
+      required: true
+      minimum: "1861-01-01"
+      maximum: "1865-06-01"
   - description: Brief description of the turning point
     format: default
     name: description
@@ -23,6 +39,7 @@ schema:
       enum:
       - Union
       - Confederacy
+      required: true
     description: 'Which side did the turning point favor: Union or Confederacy?'
     format: default
     name: favor

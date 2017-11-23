@@ -2,17 +2,29 @@ format: csv
 name: wikipedia_battles
 path: data/wikipedia_battles.csv
 schema:
+  primaryKey:
+  - battle_id
   fields:
   - format: default
     name: battle_id
-    title: battle_id
+    title: Battle Id.
     type: string
+    constraints:
+      required: true
+      pattern: "^[^ ]+$"
+    description: Name of the Wikipedia article.
   - format: default
     name: id
     title: id
     type: number
+    constraints:
+      minimum: 1
+    description: Revision ID of the page at the time data was collectd.
   - format: default
     name: cwsac_id
-    title: cwsac_id
+    title: CWSAC Id.
     type: string
-title: wikipedia_battles
+    description: CWSAC identifier for the battle. Most CWSAC battles map
+      to a single Wikipedia article.
+
+title: American Civil War Battles in en.wikipedia.org

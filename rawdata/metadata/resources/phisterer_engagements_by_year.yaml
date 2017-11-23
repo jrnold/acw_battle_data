@@ -2,7 +2,8 @@ format: csv
 name: phisterer_engagements_by_year
 path: data/phisterer_engagements_by_year.csv
 schema:
-  primaryKey: year
+  primaryKey:
+  - year
   fields:
   - format: default
     name: year

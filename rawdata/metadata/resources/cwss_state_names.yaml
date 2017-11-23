@@ -2,17 +2,20 @@ format: csv
 name: cwss_state_names
 path: data/cwss_state_names.csv
 schema:
+  primaryKey:
+  - abbr
   fields:
   - constraints:
-      maxLength: 2
-      minLength: 2
-      pattern: '[A-Z]{2}'
+      pattern: '^[A-Z]{2}$'
+      required: true
     format: default
     name: abbr
     title: Abbreviation
     type: string
+    description: State abbreviation
   - format: default
     name: name
     title: Name
     type: string
+    description: State name
 title: CWSS unit state names

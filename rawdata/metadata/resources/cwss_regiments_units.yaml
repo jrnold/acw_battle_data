@@ -2,24 +2,30 @@ format: csv
 name: cwss_regiments_units
 path: data/cwss_regiments_units.csv
 schema:
+  primaryKey:
+  - unit_code
   fields:
   - format: default
     name: unit_code
     title: unit_code
     type: string
+    constraints:
+      required: true
+      pattern: '^[UC][A-Z0-9]+$'
+    description: A unique identifier for each unit in the CWSS database.
   - constraints:
       enum:
       - US
       - Confederate
+      required: true
     description: Side of each force
     format: default
     name: side
     title: Side
     type: string
   - constraints:
-      maxLength: 2
-      minLength: 2
-      pattern: '[A-Z]{2}'
+      pattern: '^[A-Z]{2}$'
+      required: true
     description: Home state of the unit. This includes codes for "non-states", e.g.
       US for US Colored troops, and UR for US Regular Army. See :doc:`cwss_state_names`
       for the abbreviations.
@@ -33,32 +39,50 @@ schema:
     name: ordinal
     title: ordinal
     type: string
+    constraints:
+      minLen: 1
+      maxLen: 4
   - description: Type (size) of the unit. E.g. regiment, company, battalion, squadron.
       See :doc:`cwss_categories` for the abbreviations.
     format: default
     name: type
     title: Type
     type: string
+    constraints:
+      minLen: 0
+      maxLen: 1
   - description: Codes for special units, e.g. Marine, Home Guard, Heavy Artillery,
       Light Artiller, State.  See :doc:`cwss_categories` for the abbreviations.
     format: default
     name: special
     title: Special
     type: string
+    constraints:
+      minLen: 0
+      maxLen: 1
   - format: default
     name: duplicate
     title: duplicate
     type: number
+    constraints:
+      required: true
+      minimum: 0
+      maximum: 9
   - description: 'Indicator for "ethnic" units: C if colored, I if Native American.
       See :doc:`cwss_categories` for the abbreviations.'
     format: default
     name: ethnic
     title: ethnic
     type: string
+    constraints:
+      minLen: 0
+      maxLen: 1
   - format: default
     name: unit_name
     title: Unit name
     type: string
+    constraints:
+      required: true
   - format: default
     name: notes
     title: Notes
@@ -69,4 +93,7 @@ schema:
     name: func
     title: func
     type: string
+    constraints:
+      minLen: 0
+      maxLen: 1
 title: CWSS units (regiments)

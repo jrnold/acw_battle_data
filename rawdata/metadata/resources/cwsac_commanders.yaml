@@ -2,43 +2,77 @@ format: csv
 name: cwsac_commanders
 path: data/cwsac_commanders.csv
 schema:
+  primaryKey:
+  - battle
+  - belligerent
+  - fullname
   fields:
   - format: default
     name: battle
     title: battle
     type: string
+    constraints:
+      required: true
+      pattern: "^[A-Z]{2}[0-9]{3}[AB]?$"
   - format: default
     name: belligerent
     title: belligerent
     type: string
+    constraints:
+      required: true
+      enum:
+      - US
+      - Confederate
+      - Native American
   - format: default
     name: fullname
-    title: fullname
+    title: Commander's name
     type: string
+    description: Full name of the commander
+    constraints:
+      required: true
+      pattern: '^[A-Z].*'
   - format: default
     name: rank
     title: rank
     type: string
+    constraints:
+      required: false
+    description: Military rank (grade) of the commander, e.g. "Brigadier General".
+      All Union and Confederate commanders have a military rank. No Native America
+      commanders are given a rank.
   - format: default
     name: navy
     title: navy
-    type: integer
+    type: boolean
+    constraints:
+      required: true
+    description: Was the commander in the navy? This field disambiguates
+      ranks such as "Captain" that appear in both the Army and Navy.
   - format: default
     name: first_name
-    title: first_name
+    title: First name
     type: string
+    constraints:
+      required: false
   - format: default
     name: last_name
-    title: last_name
+    title: Last name
     type: string
+    constraints:
+      required: true
+      pattern: '^[A-Z].*'
+    description: For Native American commanders, the full name is assigned to last name,
+      and first name is empty.
   - format: default
     name: middle_name
-    title: middle_name
+    title: Middle name
     type: string
   - format: default
     name: suffix
-    title: suffix
+    title: Suffix
     type: string
+    description: Suffix of the commander's name, e.g. Jr., II, III, ....
 sources:
 - CWSAC1993
 - CWSAC1997

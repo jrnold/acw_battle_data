@@ -21,6 +21,7 @@ schema:
     type: string
     constraints:
       required: true
+      pattern: "[a-z][a-z-]+"
     description: Battle identifier. This is derived from the URL slug.
   - format: default
     name: battle_name
@@ -110,6 +111,8 @@ schema:
     - jrnold
     title: dbpedia.org link
     type: string
+    constraints:
+      pattern: "^http://dbpedia\\.org/resource/.*$"
 source:
 - civilwarorg
 title: Batte data from civilwar.org

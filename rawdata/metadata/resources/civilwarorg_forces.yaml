@@ -8,6 +8,7 @@ schema:
   fields:
     - constraints:
         required: true
+        pattern: "^[a-z][a-z-]+$"
       format: default
       name: battle_id
       title: Battle

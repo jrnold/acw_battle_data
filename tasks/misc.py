@@ -59,3 +59,4 @@ def doc(ctx, target='html'):
 def check_tables(ctx):
     """Check table schema."""
     ctx.run(f"goodtables --table-limit 100 --table-limit 10000 {ctx.dst}/datapackage.json")
+    ctx.run(f"{ctx.python} -m acwbattledata.checks {ctx.dst}/datapackage.json")

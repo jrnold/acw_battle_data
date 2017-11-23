@@ -3,13 +3,11 @@ format: csv
 name: nps_unit_categories_special
 path: data/nps_unit_categories_special.csv
 schema:
-  primarykey:
+  primaryKey:
   - abbr
   fields:
   - constraints:
-      maxLength: 1
-      minLength: 1
-      pattern: "[A-Z]"
+      pattern: "^[A-Z]$"
       required: true
     format: default
     name: abbr

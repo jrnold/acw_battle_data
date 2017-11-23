@@ -6,20 +6,18 @@ schema:
   - cwsac_id
   fields:
   - constraints:
-      maxLength: 6
-      minLength: 5
-      pattern: '[A-Z]{2}[0-9]{3}[A-Z]?'
+      pattern: '^[A-Z]{2}[0-9]{3}$'
       required: true
     description: CWSAC battle identifier
     format: default
     name: cwsac_id
-    title: CWSAC Id.
+    title: CWSAC battle identifier
     type: string
   - constraints:
       required: true
     format: default
     name: battle_name
-    title: battle_name
+    title: Battle name
     type: string
   - constraints:
       maximum: '1865-06-01'
@@ -73,6 +71,7 @@ schema:
     type: string
   - constraints:
       required: false
+      pattern: '^(http://www\.nps\.gov/civilwar/search-battles-detail\.htm\?battleCode=[A-Z]{2}[0-9]{3}[AB]?)?$'
     description: URL of the battle's page in the Civil War Soldiers and Sailors website.
     format: url
     name: cwss_url
@@ -146,6 +145,7 @@ schema:
     type: string
   - constraints:
       required: true
+      pattern: '^http://www\.nps\.gov/abpp/battles/[a-z]{2}[0-9]{3}a?.htm$'
     description: URL of the battle summary on the `CWSAC Battle Summaries <http://www.nps.gov/abpp/battles/bystate.htm>`
       website.
     format: url
@@ -168,6 +168,7 @@ schema:
     type: boolean
   - constraints:
       required: true
+      pattern: '^http://www\.nps\.gov/abpp/CWSII/.*\.pdf$'
     description: URL of the report including the battle in the `Draft State by State
       Updates to the Civil War Sites Advisory Commission Report <http://www.nps.gov/abpp/CWSII/CWSIIStateReports.htm>`.
     format: default
@@ -324,11 +325,12 @@ schema:
     type: string
   - constraints:
       required: true
+      pattern: '^http://aad\.archives\.gov/aad/record-detail\.jsp?.*$'
     description: URL of the initial battle's report for the CWSAC as archived by the
       AAD.
     format: URL
     name: aad_url
-    title: aad_url
+    title: AAD UR
     type: string
   - constraints:
       enum:

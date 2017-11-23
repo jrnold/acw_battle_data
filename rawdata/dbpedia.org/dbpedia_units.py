@@ -6,7 +6,7 @@ from utils import query_dbpedia
 CATEGORY_QUERY_TEMPLATE = """
 SELECT DISTINCT ?unit WHERE {
   ?unit dct:subject/skos:broader* %s .
-} 
+}
 """
 
 def query_category(category):
@@ -30,11 +30,10 @@ def main():
                'confederate': int(unit in 'Military_units_and_formations_of_the_Confederate_States_Army')}
         ret.append(row)
     with open('dbpedia_units.csv', 'w') as f:
-        fields = ('uri', 'union', 'confederate')        
+        fields = ('uri', 'union', 'confederate')
         writer = csv.DictWriter(f, fields)
         writer.writeheader()
         writer.writerows(ret)
 
 if __name__ == "__main__":
     main()
-    

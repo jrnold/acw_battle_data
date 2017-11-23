@@ -2,23 +2,39 @@ format: csv
 name: bodart1908_generals_killed
 path: data/bodart1908_generals_killed.csv
 schema:
+  primaryKey:
+  - battle_id
+  - belligerent
+  - full_name
   fields:
   - format: default
     name: battle_id
     title: Battle Id.
     type: string
+    constraints:
+      required: true
   - format: default
     name: belligerent
-    title: belligerent
+    title: Belligerent
     type: string
+    constraints:
+      required: true
+      enum:
+      - US
+      - Confederate
+    description: Side on which the general fought.
   - format: default
     name: full_name
-    title: full_name
+    title: Full name
     type: string
+    description: Full name of the general killed in the battle.
   - format: default
     name: last_name
     title: Last name
     type: string
+    constraints:
+      required: true
+    description: Last name of the general killed in the battle.
   - format: default
     name: first_name
     title: First name
@@ -31,21 +47,31 @@ schema:
     name: suffix
     title: Suffix
     type: number
+    description: Suffix of the name, e.g. Jr., II, III.
   - description: Rank of the general
     format: default
     name: rank
     title: Rank
     type: string
+    description: Rank of the general.
+    constraints:
+      required: true
+      enum: [Lt. Gen, Lt. Gen., Gen., Maj. Gen., Col., Brig. Gen.]
   - description: Date the general was killed (if given).
     format: default
     name: date
     title: date
     type: date
+    constraints:
+      minimum: "1861-04-10"
+      maximum: "1865-04-15"
   - description: URI of the dbpedia.org resource for the person.
     format: url
     name: dbpedia
     title: Dbpedia URI
     type: string
+    constraints:
+      pattern: "^(https://dbpedia\\.org/resource/.*)?$"
 sources:
 - Bodart1908
 title: 'Bodart (1908) battle data: generals killed'

@@ -2,6 +2,8 @@ format: csv
 name: cwsac_campaigns
 path: data/cwsac_campaigns.csv
 schema:
+  primaryKey:
+  - campaign
   fields:
   - description: Campaign name
     format: default
@@ -52,6 +54,8 @@ schema:
   - description: URI of the dbpedia.org resource for the campaign
     format: url
     name: dbpedia
+    constraints:
+      pattern: "^(http://dbpedia\\.org/resource/.*)?$"
     sources:
     - jrnold
     title: dbpedia
