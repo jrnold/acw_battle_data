@@ -12,28 +12,45 @@ format: csv
 name: civilwarorg_battles
 path: data/civilwarorg_battles.csv
 schema:
+  primaryKey:
+    - battle_id
   fields:
   - format: default
     name: battle_id
     title: Battle
     type: string
+    constraints:
+      required: true
+    description: Battle identifier. This is derived from the URL slug.
   - format: default
     name: battle_name
-    title: battle_name
+    title: Battle name
     type: string
+    constraints:
+      required: true
   - description: URL of the battle on civilwar.org.
     format: url
     name: url
-    title: url
+    title: URL
     type: string
+    constraints:
+      required: true
   - format: default
     name: start_date
     title: Start date
     type: date
+    constraints:
+      required: true
+      minimum: "1861-01-01"
+      maximum: "1866-01-01"
   - format: default
     name: end_date
     title: End date
     type: date
+    constraints:
+      required: true
+      minimum: "1861-01-01"
+      maximum: "1866-01-01"
   - format: default
     name: alternate_names
     title: Alternate Names
@@ -46,7 +63,8 @@ schema:
     name: state
     title: state
     type: string
-  - description: Compaign of the battle.
+  - description: Compaign of the battle. This is not the same as the campaigns used
+      by the National Park Service.
     format: default
     name: campaign
     title: Campaign
@@ -56,18 +74,28 @@ schema:
     name: result
     title: Result
     type: string
+    constraints:
+      required: true
+      enum:
+      - Union Victory
+      - Confederate Victory
+      - Inconclusive
   - description: Total of Confederate and Union casualties
     format: default
     name: total_casualties
     title: Total casualties
-    type: string
+    type: integer
+    constraints:
+      minimum: 0
   - description: Total of Confederate and Union strength (forces engaged).
     format: default
     name: total_strength
     title: Total strength
-    type: string
+    type: integer
+    constraints:
+      minimum: 0
   - constraints:
-    - pattern: '[A-Z]{2}[0-9]{3}'
+      pattern: '^([A-Z]{2}[0-9]{3}$)?'
     description: CWSAC battle identifier. See :doc:`cwsac_battles`.
     format: default
     name: cwsac_id

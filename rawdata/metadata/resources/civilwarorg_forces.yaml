@@ -3,67 +3,67 @@ name: civilwarorg_forces
 path: data/civilwarorg_forces.csv
 schema:
   primaryKey:
-  - battle_id
-  - belligerent
+    - battle_id
+    - belligerent
   fields:
-  - constraints:
-      required: true
-    format: default
-    name: battle_id
-    title: Battle
-    type: string
-  - constraints:
-      enum:
-      - US
-      - Confederate
-      required: true
-    format: default
-    name: belligerent
-    title: Belligerent
-    type: string
-  - constraints:
-      minimum: 0
-      required: false
-    description: Troops engaged in the battle.
-    format: default
-    name: strength
-    title: Strength
-    type: integer
-  - constraints:
-      minimum: 0
-      required: false
-    format: default
-    name: casualties
-    title: Total casualties
-    type: integer
-  - constraints:
-      minimum: 0
-      required: false
-    format: default
-    name: killed
-    title: Killed
-    type: integer
-  - constraints:
-      minimum: 0
-      required: false
-    format: default
-    name: wounded
-    title: Wounded
-    type: integer
-  - constraints:
-      minimum: 0
-      required: false
-    format: default
-    name: killed_wounded
-    title: killed_wounded
-    type: number
-  - constraints:
-      minimum: 0
-      required: false
-    format: default
-    name: missing_captured
-    title: Missing and Captured
-    type: integer
+    - constraints:
+        required: true
+      format: default
+      name: battle_id
+      title: Battle
+      type: string
+    - constraints:
+        enum:
+        - US
+        - Confederate
+        required: true
+      format: default
+      name: belligerent
+      title: Belligerent
+      type: string
+    - constraints:
+        minimum: 0
+        required: false
+      description: Troops engaged in the battle.
+      format: default
+      name: strength
+      title: Strength
+      type: integer
+    - constraints:
+        minimum: 0
+        required: false
+      format: default
+      name: casualties
+      title: Total casualties
+      type: integer
+    - constraints:
+        minimum: 0
+        required: false
+      format: default
+      name: killed
+      title: Killed
+      type: integer
+    - constraints:
+        minimum: 0
+        required: false
+      format: default
+      name: wounded
+      title: Wounded
+      type: integer
+    - constraints:
+        minimum: 0
+        required: false
+      format: default
+      name: killed_wounded
+      title: killed_wounded
+      type: number
+    - constraints:
+        minimum: 0
+        required: false
+      format: default
+      name: missing_captured
+      title: Missing and Captured
+      type: integer
 sources:
 - civilwarorg
 title: Strengths and casualties for forces in the civilwar.org battle data.

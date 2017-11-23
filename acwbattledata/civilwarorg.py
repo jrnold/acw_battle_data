@@ -41,6 +41,12 @@ REGEX_DATE = re.compile(''.join(
      ', (?P<year>\d{4})')) % ('|'.join(MONTHS), '|'.join(MONTHS)))
 
 
+def comma_int(x):
+    if x is None or x == '':
+        return None
+    return int(re.sub(',', '', x))
+
+
 def get_force(x, belligerent):
     ret = {'battle_id': x['id'], 'belligerent': belligerent}
     prefix = 'union' if belligerent == 'US' else 'confederate'
@@ -130,6 +136,11 @@ def build_battles(data, links, dst):
             row['dbpedia_url'] = links[row['id']]['dbpedia']
             row['battle_id'] = row['id']
             row['battle_name'] = row['name']
+            for k in ('total_casualties', 'total_strength'):
+                try:
+                    row[k] = comma_int(row[k])
+                except KeyError:
+                    pass
             writer.writerow(row)
 
 

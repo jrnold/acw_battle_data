@@ -42,41 +42,6 @@ def parens(x):
     return ("(", x, ")")
 
 
-NAVY_ORG = ["UNITED STATES NAVY", ]
-
-SHIP_NAMES = [
-    "Conestoga",
-    "Lexington",
-    "Tyler",
-    "Brooklyn",
-    "Octorora",
-    "Hartford",
-    "Ossippee",
-    "Itasca",
-    "Oneida",
-    "Galena",
-    "Metacomet",
-    "Richmond",
-    "Port Royal",
-    "Lackawanna",
-    "Seminole",
-    "Monongahela",
-    "Tecumseh"
-]
-
-def ship():
-    return quoted(SHIP_NAMES)
-
-def ship_list():
-    """Lists of Ships
-
-    - U. S. Gunboats "Conestoga", "Lexington" and "Tyler".
-
-    """
-    return ship(), ZeroOrMore(Optional(list_sep), ship())
-
-def navy_units():
-    return NAVY_ORG, _('-+'), ship_list()
 
 
 ARMY_ORG = [

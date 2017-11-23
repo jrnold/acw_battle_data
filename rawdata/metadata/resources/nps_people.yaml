@@ -2,11 +2,18 @@ format: csv
 name: nps_people
 path: data/nps_people.csv
 schema:
+  primaryKey:
+  - person_id
   fields:
-  - format: default
+  - format: uuid
     name: person_id
     title: person_id
     type: string
+    constraints:
+      required: true
+    description: A unique id for each person in the data. This uses the UUID
+      given in the CWSS XML files, with additional UUIDs added for additional
+      people.
   - constraints:
       required: true
     description: Last name of the commander
@@ -23,6 +30,8 @@ schema:
     name: first_name
     title: First name
     type: string
+    constraints:
+      required: true
   - description: Middle name of the commander
     format: default
     name: middle_name

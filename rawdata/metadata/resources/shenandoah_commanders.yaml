@@ -2,27 +2,44 @@ format: csv
 name: shenandoah_commanders
 path: data/shenandoah_commanders.csv
 schema:
+  primaryKey:
+  - battle_id
+  - belligerent
   fields:
   - format: default
     name: battle_id
     title: battle_id
     type: integer
+    constraints:
+      required: true
   - format: default
     name: cwsac_id
     title: cwsac_id
     type: string
+    constraints:
+      required: true
+      pattern: "^[A-Z]{2}[0-9]{3}$"
   - format: default
     name: belligerent
     title: belligerent
     type: string
+    constraints:
+      enum:
+      - US
+      - Confederate
+      required: true
   - format: default
     name: last_name
     title: Last name
     type: string
+    constraints:
+      required: true
   - format: default
     name: first_name
     title: First name
     type: string
+    constraints:
+      required: true
   - format: default
     name: middle_name
     title: Middle name
@@ -31,6 +48,8 @@ schema:
     name: rank
     title: Rank
     type: string
+    constraints:
+      required: true
 sources:
 - NPS1992
 title: 'NPS Shenandoah Report battle data: commanders'

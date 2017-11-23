@@ -2,18 +2,25 @@ format: csv
 name: shenandoah_battles
 path: data/shenandoah_battles.csv
 schema:
+  primaryKey:
+  - battle_id
   fields:
   - description: Unique identifier in the Shenandoah data.
     format: default
     name: battle_id
-    title: Battle Id.
+    title: Battle identifier
     type: integer
+    constraints:
+      required: true
+      minimum: 1
+      maximum: 16
   - format: default
     name: battle_name
-    title: Battle Name
+    title: Battle name
     type: string
   - constraints:
-      pattern: '[A-Z]{2}[0-9]{3}[A-Z]?'
+      pattern: '^[A-Z]{2}[0-9]{3}$'
+      required: true
     description: Identifier of the battle in CWSAC. See :doc:`cwsac_battles`.
     format: default
     name: cwsac_id
@@ -23,23 +30,36 @@ schema:
     name: start_date
     title: Start Date
     type: date
+    constraints:
+      required: true
+      minimum: "1861-01-01"
+      maximum: "1866-01-01"
   - format: default
     name: end_date
     title: End Eate
     type: date
+    constraints:
+      required: true
+      minimum: "1861-01-01"
+      maximum: "1866-01-01"
   - format: default
     name: campaign
     title: Campaign
     type: string
+    description: Campaign of the battle. These are not the same campaigns
+      as those used in the CWSAC.
   - description: County of the battle
     format: default
     name: county
     title: County
     type: string
+    description: County in which the battle ocurred. All the Shenandoah valley
+      battles were in Virginia.
   - format: default
     name: url
     title: url
     type: string
+    description: URL of the Shenandoah report page on the battle.
 sources:
 - NPS1992
 title: 'NPS Shenandoah Report battle data: list of battles'

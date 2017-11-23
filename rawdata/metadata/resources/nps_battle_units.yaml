@@ -2,45 +2,58 @@ format: csv
 name: nps_battle_units
 path: data/nps_battle_units.csv
 schema:
+  primaryKey:
+  - cwsac_id
+  - unit_code
   fields:
   - constraints:
-      maxLength: 6
-      minLength: 5
-      pattern: '[A-Z]{2}[0-9]{3}[A-Z]?'
+      pattern: '^[A-Z]{2}[0-9]{3}$'
+      required: true
     description: CWSAC battle identifier
     format: default
     name: cwsac_id
-    title: CWSAC Id.
+    title: CWSAC battle identifier
     type: string
   - constraints:
       enum:
       - US
       - Confederate
+      required: true
     description: 'Side of the force: Confederate or Union or Native American.'
     format: default
     name: belligerent
-    title: belligerent
+    title: Belligerent
     type: string
   - format: default
     name: unit_code
     title: unit_code
     type: string
+    constraints:
+      required: true
   - format: default
     name: companies
     title: companies
     type: number
+    constraints:
+      minimum: 1
   - format: default
     name: batteries
     title: batteries
     type: number
+    constraints:
+      minimum: 1
   - format: default
     name: detachment
     title: detachment
     type: number
+    constraints:
+      minimum: 1
   - format: default
     name: section
     title: section
     type: number
+    constraints:
+      minimum: 1
   - description: 'If ``true``, then this was in the original CWSS data. If ``false``,
       then this unit was added by the author for this dataset.
 
@@ -49,7 +62,9 @@ schema:
     format: default
     name: added
     title: added
-    type: string
+    type: boolean
+    constraints:
+      required: true
   - description: Original source for the CWSS data.
     format: default
     name: src

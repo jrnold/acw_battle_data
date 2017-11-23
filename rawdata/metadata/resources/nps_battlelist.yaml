@@ -2,35 +2,58 @@ format: csv
 name: nps_battlelist
 path: data/nps_battlelist.csv
 schema:
+  primaryKey:
+  - cwsac_id
   fields:
   - format: default
     name: cwsac_id
-    title: cwsac_id
+    title: CWSAC battle identifier
     type: string
+    constraints:
+      required: true
+      pattern: "^[A-Z]{2}[0-9]{3}[AB]?$"
   - format: default
     name: battle_name
     title: battle_name
     type: string
+    constraints:
+      required: true
+
   - format: default
     name: cwss
     title: cwss
     type: boolean
+    constraints:
+      required: true
+    description: "Is this battle in the CWSS Data?"
   - format: default
     name: cwsac
     title: cwsac
     type: boolean
+    constraints:
+      required: true
+    description: "Is this battle in the CWSAC Report data ?"
   - format: default
     name: cws2
     title: cws2
     type: boolean
+    description: "Is this battle in the CWSAC Updates data ?"
+    constraints:
+      required: true
   - format: default
     name: aad
     title: aad
     type: boolean
+    constraints:
+      required: true
+    description: "Is this battle in the original CWSAC reports hosted at the national archives?"
   - format: default
     name: notall
     title: notall
     type: boolean
+    constraints:
+      required: true
+    description: "Does this battle not appear in all the NPS sources?"
 sources:
 - CWSAC1997
 - CWSAC_AAD

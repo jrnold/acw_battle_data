@@ -1,8 +1,9 @@
 #!/usr/bin/env python
 import csv
-import sys
 import os.path as path
 import shutil
+import sys
+
 
 def build(src, dst):
     with open(path.join(src, "rawdata", "eicher", "chronology.csv"), 'r') as f:
@@ -17,9 +18,11 @@ def build(src, dst):
         writer.writeheader()
         writer.writerows(data)
 
+
 def main():
     src, dst = sys.argv[1:3]
     build(src, dst)
+
 
 if __name__ == "__main__":
     main()

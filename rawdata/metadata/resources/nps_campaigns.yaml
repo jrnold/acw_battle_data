@@ -2,23 +2,27 @@ format: csv
 name: nps_campaigns
 path: data/nps_campaigns.csv
 schema:
+  primaryKey:
+  - campaign_code
   fields:
   - constraints:
-      pattern: '[A-Z]{2}6[1-5]-[0-9]{2}'
-      required: false
+      pattern: '^[A-Z]{2}6[1-5]-[0-9]{2}$'
+      required: true
     description: CWSS Campaign Code
     format: default
     name: CampaignCode
     title: Campaign code
     type: string
+    description: A unique identifier for each campaign. This is taken from
+      the CWSS data.
   - constraints:
-      required: false
+      required: true
     format: default
     name: CampaignName
     title: Campaign name
     type: string
   - constraints:
-      required: false
+      required: true
     description: Dates of the campaign (as a string)
     format: default
     name: CampaignDates
@@ -47,6 +51,7 @@ schema:
     name: TheaterCode
     title: Theater code
     type: string
+    description: The CWSS theater code for the campaign.
   - description: Title of the English Wikipedia page for the campaign
     format: default
     name: WikipediaPage

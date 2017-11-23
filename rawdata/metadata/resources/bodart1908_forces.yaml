@@ -1,10 +1,10 @@
 format: csv
 name: bodart1908_forces
 path: data/bodart1908_forces.csv
-primary_key:
-- battle_id
-- belligerent
 schema:
+  primaryKey:
+  - battle_id
+  - belligerent
   fields:
   - constraints:
       maximum: 50

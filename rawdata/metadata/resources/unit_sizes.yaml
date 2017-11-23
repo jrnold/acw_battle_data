@@ -2,43 +2,90 @@ format: csv
 name: unit_sizes
 path: data/unit_sizes.csv
 schema:
+  primaryKey:
+  - belligerent
+  - unit_type
   fields:
   - format: default
     name: belligerent
-    title: belligerent
+    title: Belligerent
     type: string
+    constraints:
+      required: true
+      enum:
+      - Union
+      - Confederate
+
   - format: default
     name: unit_type
-    title: unit_type
+    title: Unit type
     type: string
+    description: Type of unit, e.g. regiment, brigade, corps, artillery battery.
+    constraints:
+      required: true
+
   - format: default
     name: mean
-    title: mean
+    title: Mean
     type: number
+    description: Mean estimate of the number of troops in a unit.
+    constraints:
+      required: true
+      minimum: 0
+
   - format: default
     name: sd
-    title: sd
+    title: Std. Dev.
     type: number
+    description: Standard deviation of the estimate of the number of troops in a unit.
+    constraints:
+      required: true
+      minimum: 0
+
   - format: default
     name: p025
-    title: p025
+    title: "2.5%"
     type: number
+    description: 2.5 percentile estimate of the number of troops in a unit.
+    constraints:
+      required: true
+      minimum: 0
+
   - format: default
     name: p25
-    title: p25
+    title: "25%"
     type: number
+    description: 25th percentile estimate of the number of troops in a unit.
+    constraints:
+      required: true
+      minimum: 0
+
   - format: default
     name: median
-    title: median
+    title: Median
     type: number
+    description: Median percentile estimate of the number of troops in a unit.
+    constraints:
+      required: true
+      minimum: 0
+
   - format: default
     name: p75
-    title: p75
+    title: "75%"
     type: number
+    description: 97.5 percentile estimate of the number of troops in a unit.
+    constraints:
+      required: true
+      minimum: 0
+
   - format: default
     name: p975
-    title: p975
+    title: "97.%"
     type: number
+    description: 75 percentile estimate of the number of troops in a unit.
+    constraints:
+      required: true
+      minimum: 0
 sources:
 - jrnold
 - eicher2002civil

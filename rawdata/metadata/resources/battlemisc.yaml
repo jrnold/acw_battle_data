@@ -2,12 +2,14 @@ format: csv
 name: battlemisc
 path: data/battlemisc.csv
 schema:
+  primaryKey:
+  - cwsac_id
   fields:
   - constraints:
-      pattern: '[A-Z]{2}[0-9]{3}[A-Z]?'
-    format: default
+      pattern: '^[A-Z]{2}[0-9]{3}$'
+      required: true
     name: cwsac_id
-    title: CWSAC Id.
+    title: CWSAC battle identifier
     type: string
   - format: default
     name: battle_name
@@ -17,6 +19,7 @@ schema:
       enum:
       - US
       - Confederate
+      required: true
     description: Which side was the attacker in the battle? This was coded as the
       side which first initiated combat in that battle. It is not a measure of which
       side was attacking in the campaign. This was coded from the descriptions in
@@ -29,11 +32,14 @@ schema:
     name: siege
     title: siege
     type: boolean
+    constraints:
+      required: true
   - constraints:
       enum:
       - 'Yes'
       - 'No'
       - Partial
+      required: true
     description: Was this a naval battles? "Yes" if at least one of the side's forces
       consisted of only ships, e.g. ship vs. ship battles or ship vs. land fortifications.
       If "Partial", then land forces were involved on both sides, but ships were part

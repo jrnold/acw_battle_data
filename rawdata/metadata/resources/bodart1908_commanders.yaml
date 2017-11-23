@@ -5,25 +5,35 @@ schema:
   fields:
   - format: default
     name: battle_id
-    title: Battle Id.
+    title: Battle identifier
     type: string
+    constraints:
+      required: true
   - format: default
     name: belligerent
     title: belligerent
     type: string
+    constraints:
+      required: true
   - description: Name of the commander
     format: default
     name: full_name
     title: Name
     type: string
+    constraints:
+      required: true
   - format: default
     name: last_name
     title: Last Name
     type: string
+    constraints:
+      required: true
   - format: default
     name: first_name
     title: First Name
     type: string
+    constraints:
+      required: true
   - format: default
     name: middle_name
     title: Middle Name
@@ -37,6 +47,8 @@ schema:
     name: rank
     title: Rank
     type: string
+    constraints:
+      required: true
   - description: dbpedia.org URI of the commandern
     format: url
     name: dbpedia
@@ -44,6 +56,9 @@ schema:
     - jrnold
     title: Dbpedia
     type: string
+  primaryKey:
+  - battle_id
+  - belligerent
 sources:
 - Bodart1908
 title: 'Bodart (1908) battle data: commanders'

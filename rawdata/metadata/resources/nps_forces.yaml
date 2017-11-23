@@ -2,11 +2,12 @@ format: csv
 name: nps_forces
 path: data/nps_forces.csv
 schema:
+  primaryKey:
+  - cwsac_id
   fields:
   - constraints:
-      maxLength: 6
-      minLength: 5
-      pattern: '[A-Z]{2}[0-9]{3}[A-Z]?'
+      pattern: '^[A-Z]{2}[0-9]{3}$'
+      required: true
     description: CWSAC battle identifier
     format: default
     name: cwsac_id
@@ -17,6 +18,7 @@ schema:
       - US
       - Confederate
       - Native American
+      required: true
     description: 'Side of the force: Confederate or Union or Native American.'
     format: default
     name: belligerent

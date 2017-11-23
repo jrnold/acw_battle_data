@@ -94,6 +94,8 @@ schema:
     title: duplicate
     type: integer
     constraints:
+      minimum: 0
+      maximum: 
       required: false
   - description: dbpedia uri for additional information about units
     format: url
