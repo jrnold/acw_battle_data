@@ -1,18 +1,25 @@
 description: Descriptions of the unit type categories in ``nps_units.type``.
+  These are the unit type categories used in the CWSS data.
 format: csv
 name: nps_unit_categories_type
 path: data/nps_unit_categories_type.csv
 schema:
+  primaryKey:
+  - abbr
   fields:
   - constraints:
       maxLength: 1
       minLength: 1
+      required: true
+      pattern: "[A-Z]"
     format: default
     name: abbr
-    title: abbr
+    title: Category abbreviation
     type: string
   - format: default
     name: description
-    title: description
+    title: Description
     type: string
+    constraints:
+      required: true
 title: NPS combined data categories of types of data.

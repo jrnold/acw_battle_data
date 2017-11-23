@@ -53,3 +53,9 @@ def doc(ctx, target='html'):
 
     """
     ctx.run(f"make -C {ctx.doc} {target}")
+
+
+@task()
+def check_tables(ctx):
+    """Check table schema."""
+    ctx.run(f"goodtables --table-limit 100 --table-limit 10000 {ctx.dst}/datapackage.json")

@@ -92,6 +92,7 @@
   state: VA
 - battle_id: 2
   battle_name: Wilson's Creek
+  state: MO
   category:
   - Treffen
   category_size: 6
@@ -155,6 +156,7 @@
   start_date: *id002
 - battle_id: 3
   battle_name: Lexington
+  state: MO
   category:
   - Kapitulation
   category_size: null
@@ -204,6 +206,7 @@
   start_date: *id003
 - battle_id: 4
   battle_name: Fort Donelson
+  state: TN
   category:
   - Schlacht
   - Kapitulation
@@ -265,6 +268,7 @@
   start_date: 1862-02-12
 - battle_id: 5
   battle_name: Pea Ridge
+  state: AR
   category:
   - Treffen
   category_size: 3
@@ -347,6 +351,7 @@
   start_date: 1862-03-07
 - battle_id: 6
   battle_name: Shiloh
+  state: TN
   category:
   - Schlacht
   category_size: 2
@@ -457,6 +462,7 @@
   start_date: 1862-04-06
 - battle_id: 7
   battle_name: Williamsburg
+  state: VA
   category:
   - Schlacht
   category_size: 5
@@ -527,6 +533,7 @@
   start_date: *id004
 - battle_id: 8
   battle_name: Seven Pines
+  state: VA
   category:
   - Schlacht
   category_size: 3
@@ -624,6 +631,7 @@
   start_date: 1862-05-31
 - battle_id: 9
   battle_name: Chickahominy
+  state: VA
   category:
   - Schlacht
   category_size: 1
@@ -734,6 +742,7 @@
   start_date: 1862-06-25
 - battle_id: 10
   battle_name: Cedar Mountain
+  state: VA
   category:
   - Treffen
   category_size: 5
@@ -814,6 +823,7 @@
   state: VA
 - battle_id: 11
   battle_name: Bull Run
+  state: VA
   category:
   - Schlacht
   category_size: 2
@@ -930,6 +940,7 @@
   state: VA
 - battle_id: 12
   battle_name: Richmond
+  state: KY
   category:
   - Treffen
   category_size: 4
@@ -992,6 +1003,7 @@
   state: KY
 - battle_id: 13
   battle_name: Boonsborough
+  state: MD
   category:
   - Treffen
   category_size: 5
@@ -1077,6 +1089,7 @@
   state: MD
 - battle_id: 14
   battle_name: Harper's Ferry
+  state: WV
   category:
   - Kapitulation
   category_size: null
@@ -1136,6 +1149,7 @@
   state: WV
 - battle_id: 15
   battle_name: Antietam
+  state: MD
   category:
   - Schlacht
   category_size: 2
@@ -1268,6 +1282,7 @@
   state: MD
 - battle_id: 16
   battle_name: Corinth
+  state: MS
   category:
   - Schlacht
   category_size: 4
@@ -1346,6 +1361,7 @@
   state: MS
 - battle_id: 17
   battle_name: Perryville
+  state: KY
   category:
   - Schlacht
   category_size: 4
@@ -1432,6 +1448,7 @@
   start_date: *id010
 - battle_id: 18
   battle_name: Prairie-Grove
+  state: AR
   category:
   - Treffen
   category_size: 6
@@ -1483,6 +1500,7 @@
   start_date: *id011
 - battle_id: 19
   battle_name: Fredericksburg
+  state: VA
   category:
   - Schlacht
   category_size: 3
@@ -1600,6 +1618,7 @@
   start_date: 1862-12-11
 - battle_id: 20
   battle_name: Murfreesborough
+  state: TN
   category:
   - Schlacht
   category_size: 2
@@ -1723,6 +1742,7 @@
   start_date: 1862-12-31
 - battle_id: 21
   battle_name: Chickasaw Bluffs
+  state: MS
   category:
   - Treffen
   category_size: 6
@@ -1772,6 +1792,7 @@
   start_date: *id012
 - battle_id: 22
   battle_name: Arkansas Post
+  state: AR
   category:
   - Treffen
   - Kapitulation
@@ -1826,6 +1847,7 @@
   start_date: *id013
 - battle_id: 23
   battle_name: Chancellorsville
+  state: VA
   category:
   - Schlacht
   category_size: 1
@@ -1945,6 +1967,7 @@
   start_date: 1863-05-03
 - battle_id: 24
   battle_name: Champion's Hill
+  state: MS
   category:
   - Schlacht
   category_size: 4
@@ -2018,6 +2041,7 @@
   start_date: *id014
 - battle_id: 25
   battle_name: Winchester
+  state: VA
   category:
   - Treffen
   category_size: 4
@@ -2077,6 +2101,7 @@
   start_date: *id015
 - battle_id: 26
   battle_name: Gettysburg
+  state: PA
   category:
   - Schlacht
   category_size: 1
@@ -2237,6 +2262,7 @@
   start_date: 1863-07-01
 - battle_id: 27
   battle_name: Vicksburg
+  state: MS
   category:
   - Belagerung
   - Einnahme
@@ -2306,6 +2332,7 @@
   start_date: 1863-05-19
 - battle_id: 28
   battle_name: Chickamauga
+  state: GA
   category:
   - Schlacht
   category_size: 1
@@ -2422,6 +2449,7 @@
   start_date: 1863-09-19
 - battle_id: 29
   battle_name: Ringgold
+  state: TN
   category:
   - Schlacht
   category_size: 3
@@ -2458,7 +2486,7 @@
       losses_cannon: 40
       missing: 4400
       missing_generals: 0
-      missing_percent: 4400
+      missing_percent: 9.8
       strength: 45000
       wounded: 2200
       wounded_generals: 2
@@ -2501,6 +2529,7 @@
   start_date: 1863-11-23
 - battle_id: 30
   battle_name: Wilderness
+  state: VA
   category:
   - Schlacht
   category_size: 2
@@ -2619,6 +2648,7 @@
   start_date: 1864-05-05
 - battle_id: 31
   battle_name: Spotsylvania-Court-House
+  state: VA
   category:
   - Schlacht
   category_size: 2
@@ -2755,6 +2785,7 @@
   start_date: 1864-05-08
 - battle_id: 32
   battle_name: Resaca
+  state: GA
   category:
   - Schlacht
   category_size: 4
@@ -2806,6 +2837,7 @@
   start_date: *id016
 - battle_id: 33
   battle_name: Drewry's Bluff
+  state: VA
   category:
   - Treffen
   category_size: 4
@@ -2860,6 +2892,7 @@
   start_date: *id017
 - battle_id: 34
   battle_name: Pamunkey
+  state: VA
   category:
   - Treffen
   category_size: 4
@@ -2911,6 +2944,7 @@
   category:
   - Treffen
   category_size: 4
+  state: GA
   cwsac:
     ids:
     - GA011
@@ -2954,6 +2988,7 @@
   start_date: *id018
 - battle_id: 36
   battle_name: Cold Harbor
+  state: VA
   category:
   - Schlacht
   category_size: 3
@@ -3025,6 +3060,7 @@
   start_date: *id019
 - battle_id: 37
   battle_name: Kenesaw-Mountain
+  state: GA
   category:
   - Treffen
   category_size: 5
@@ -3072,6 +3108,7 @@
   start_date: *id020
 - battle_id: 38
   battle_name: Peach-Tree-Creek
+  state: GA
   category:
   - Schlacht
   category_size: 4
@@ -3119,6 +3156,7 @@
   start_date: *id021
 - battle_id: 39
   battle_name: Atlanta
+  state: GA
   category:
   - Schlacht
   category_size: 3
@@ -3189,6 +3227,7 @@
   start_date: *id022
 - battle_id: 40
   battle_name: Ezra-Church
+  state: GA
   category:
   - Schlacht
   category_size: 4
@@ -3237,6 +3276,7 @@
   start_date: *id023
 - battle_id: 41
   battle_name: Winchester
+  state: VA
   category:
   - Schlacht
   category_size: 4
@@ -3323,6 +3363,7 @@
   start_date: *id024
 - battle_id: 42
   battle_name: Middletown
+  state: VA
   category:
   - Schlacht
   category_size: 4
@@ -3404,6 +3445,7 @@
   start_date: *id025
 - battle_id: 43
   battle_name: Franklin
+  state: TN
   category:
   - Schlacht
   category_size: 4
@@ -3512,6 +3554,7 @@
   start_date: *id026
 - battle_id: 44
   battle_name: Nashville
+  state: TN
   category:
   - Schlacht
   category_size: 3
@@ -3572,6 +3615,7 @@
   start_date: 1864-12-15
 - battle_id: 45
   battle_name: Charleston
+  state: SC
   category:
   - Belagerung
   category_size: null
@@ -3651,6 +3695,7 @@
   start_date: 1863-04-01
 - battle_id: 46
   battle_name: Bentonville
+  state: NC
   category:
   - Schlacht
   category_size: 4
@@ -3712,6 +3757,7 @@
   start_date: *id027
 - battle_id: 47
   battle_name: Petersburg
+  state: VA
   category:
   - Belagerung
   - Einnahme
@@ -3865,6 +3911,7 @@
   start_date: 1864-06-09
 - battle_id: 48
   battle_name: Mobile
+  state: AL
   category:
   - Belagerung
   - Einnahme
@@ -3914,6 +3961,7 @@
   start_date: 1865-04-02
 - battle_id: 49
   battle_name: Appomattox-Court-House
+  state: VA
   category:
   - Kapitulation
   category_size: null
@@ -3964,6 +4012,7 @@
   start_date: *id028
 - battle_id: 50
   battle_name: Durham's-Station
+  state: NC
   category:
   - Kapitulation
   category_size: null

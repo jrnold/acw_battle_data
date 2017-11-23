@@ -3,11 +3,15 @@ name: ships
 path: data/ships.csv
 schema:
   fields:
-  - format: default
+  - constraints:
+      required: true
+    format: default
     name: ship_id
     title: Ship identifier
     type: string
-  - description: Name of ship, not including the prefix or year of launch.
+  - constraints:
+      required: true
+    description: Name of ship, not including the prefix or year of launch.
     format: default
     name: name
     title: Ship name
@@ -16,6 +20,8 @@ schema:
       enum:
       - US
       - Confederate
+      required: true
+    description: Belligerent to which the ship belongs.
     format: default
     name: belligerent
     title: Belligerent
@@ -32,10 +38,13 @@ schema:
     name: url_danfs
     title: DANFS URL
     type: string
-  - format: default
+  - description: Additional notes on the ship.
+    format: default
     name: notes
     title: notes
     type: string
+  primaryKey:
+  - ship_id
 sources:
 - jrnold
 title: Union and Confederate ship list

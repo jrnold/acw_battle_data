@@ -90,7 +90,6 @@ parse_unit_code <- function(x) {
   func <- str_sub(x, 9, 9)
   special <- str_sub(x, 10, 10)
   duplicate <- as.integer(str_sub(x, 11, 11))
-  duplicate[duplicate == 0] <- NA_integer_
   ethnic <- str_sub(x, 12, 12)
   f <- function(x) ifelse(x == "0" | x == "", NA_character_, x)
   data_frame(unit_code = x,
@@ -100,7 +99,7 @@ parse_unit_code <- function(x) {
              type = f(type),
              func = f(func),
              special = f(special),
-             duplicate = duplicate,
+             duplicate = coalesce(duplicate, 0L),
              ethnic = f(ethnic))
 }
 

@@ -7,6 +7,7 @@ schema:
       maxLength: 6
       minLength: 5
       pattern: '[A-Z]{2}[0-9]{3}[A-Z]?'
+      required: true
     description: CWSAC battle identifier
     format: default
     name: BattlefieldCode
@@ -17,32 +18,32 @@ schema:
       - US
       - Confederate
       - Native American
+      required: true
     format: default
     name: belligerent
-    title: belligerent
+    title: Belligerent
     type: string
   - constraints:
       minimum: 0
-    description: 'Number of troops engaged.
-
-      A value of "0" means missing.
-
-      '
+      required: false
+    description: 'Number of troops engaged.'
     format: default
     name: TroopsEngaged
     title: Troops engaged
     type: integer
   - constraints:
       minimum: 0
-    description: 'Number of troops engaged.
+      required: false
+    description: 'The number of casualties (killed, wounded, and missing or captured).
 
-      A value of "0" can mean *either* missing or that there were zero casualties.
-
-      '
+      A value of "0" can mean *either* missing or that there were zero casualties.'
     format: default
     name: Casualties
     title: Casualties
     type: integer
+  primaryKey:
+  - BattlefieldCode
+  - belligerent
 sources:
 - CWSS
 title: 'CWSS battle data: forces'

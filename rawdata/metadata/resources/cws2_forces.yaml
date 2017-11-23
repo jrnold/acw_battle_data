@@ -2,11 +2,15 @@ format: csv
 name: cws2_forces
 path: data/cws2_forces.csv
 schema:
+  primaryKey:
+  - cwsac_id
+  - belligerent    
   fields:
   - constraints:
       maxLength: 6
       minLength: 5
       pattern: '[A-Z]{2}[0-9]{3}[A-Z]?'
+      required: true
     description: CWSAC battle identifier
     format: default
     name: battle
@@ -17,9 +21,10 @@ schema:
       - US
       - Confederate
       - Native American
+      required: true
     format: default
     name: belligerent
-    title: belligerent
+    title: Belligerent
     type: string
   - description: Description of the units involved
     format: default
@@ -28,167 +33,18 @@ schema:
     type: string
   - constraints:
       minimum: 0
+      required: false
     description: Total personnel in the force. In some cases CWSAC gives a numeric
       value of the forces involved. In other cases, it describes the units involved.
-      The columns ``strength_mean`` and ``strength_var`` estimate the strength combining
-      all information given by CWSAC.
+      This is only non-missing if an explicit number is provided. If only units
+      are mentioned, this is missing. The description of units involved in the battle
+      is neither complete or consistent; see the Dyer or CWSS data for more
+      complete lists of units involved in battles.
+
     format: default
     name: strength
-    title: strength
+    title: Strength
     type: integer
-  - constraints:
-      minimum: 0
-    description: Number of regiments
-    format: default
-    name: regiments
-    title: Regiments
-    type: integer
-  - constraints:
-      minimum: 0
-    description: Number of companies
-    format: default
-    name: companies
-    title: companies
-    type: integer
-  - constraints:
-      minimum: 0
-    description: Number of brigades
-    format: default
-    name: brigades
-    title: brigades
-    type: integer
-  - constraints:
-      minimum: 0
-    description: Number of divisions
-    format: default
-    name: divisions
-    title: divisions
-    type: integer
-  - constraints:
-      minimum: 0
-    description: Number of corps
-    format: default
-    name: corps
-    title: corps
-    type: integer
-  - constraints:
-      minimum: 0
-    description: Number of armies
-    format: default
-    name: armies
-    title: armies
-    type: integer
-  - constraints:
-      minimum: 0
-    description: Number of cavalry regiments
-    format: default
-    name: cavalry_regiments
-    title: Cavalry Regiments
-    type: integer
-  - constraints:
-      minimum: 0
-    description: Number of cavalry brigades
-    format: default
-    name: cavalry_brigades
-    title: Cavalry Brigades
-    type: integer
-  - constraints:
-      minimum: 0
-    description: Number of cavalry divisions
-    format: default
-    name: cavalry_divisions
-    title: Cavalry Divisions
-    type: integer
-  - constraints:
-      minimum: 0
-    description: Number of cavalry corps
-    format: default
-    name: cavalry_corps
-    title: Cavalry Corps
-    type: integer
-  - constraints:
-      minimum: 0
-    description: Number of cavalry companies
-    format: default
-    name: cavalry_companies
-    title: Cavalry Companies
-    type: integer
-  - constraints:
-      minimum: 0
-    description: Number of artillery batteries
-    format: default
-    name: artillery_batteries
-    title: Artillery Batteries
-    type: integer
-  - constraints:
-      minimum: 0
-    description: Number of artillery companies
-    format: default
-    name: artillery_companies
-    title: Artillery Companies
-    type: integer
-  - constraints:
-      minimum: 0
-    description: Number of artillery regiments
-    format: default
-    name: artillery_regiments
-    title: Artillery Regiments
-    type: integer
-  - constraints:
-      minimum: 0
-    description: Number of artillery sections
-    format: default
-    name: artillery_sections
-    title: Artillery Sections
-    type: integer
-  - constraints:
-      minimum: 0
-    description: Number of infantry regiments
-    format: default
-    name: infantry_regiments
-    title: Infantry Regiments
-    type: integer
-  - constraints:
-      minimum: 0
-    description: Number of personnel involved other than the units listed in the description.
-    format: default
-    name: strength_other
-    title: Strength (other)
-    type: integer
-  - constraints:
-      minimum: 0
-    description: Number of ships involved in the battle
-    format: default
-    name: ships
-    title: Ships
-    type: integer
-  - constraints:
-      minimum: 0
-    description: Number of artillery pieces involved in the battle
-    format: default
-    name: guns
-    title: Guns
-    type: integer
-  - constraints:
-      minimum: 0
-    description: Mean of the estimated strength in personnel of the force. See code
-      for how it is calculated.
-    format: default
-    name: strength_mean
-    sources:
-    - jrnold
-    title: Strength (mean)
-    type: number
-  - constraints:
-      minimum: 0
-    description: Variance of the estimated strength in personnel of the force. See
-      code for how it is calculated.
-    format: default
-    name: strength_var
-    sources:
-    - jrnold
-    title: Strength (variance)
-    type: number
 sources:
 - CWSII
 - CWSIIAL

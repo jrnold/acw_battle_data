@@ -3,16 +3,22 @@ format: csv
 name: nps_unit_categories_function
 path: data/nps_unit_categories_function.csv
 schema:
+  primaryKey:
+  - abbr
   fields:
   - constraints:
       maxLength: 1
       minLength: 1
+      pattern: "[A-Z]"
+      required: true
     format: default
     name: abbr
-    title: abbr
+    title: Abbreviation
     type: string
   - format: default
     name: description
-    title: description
+    title: Description
     type: string
-title: nps_unit_categories_function
+    constraints:
+      required: true
+title: NPS Unit Categories (Function)

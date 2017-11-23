@@ -2,22 +2,23 @@
 """
 Combine individual metadata files into datapackage.json
 """
-import json
-import sys
-import os
-from os import path
 import fnmatch
 import hashlib
-import subprocess as sp
+import json
+import os
+import sys
+from os import path
 
 import yaml
 
+
 def get_source_dict(filename):
-    with open(filename, 'r', encoding = 'utf8') as f:
+    with open(filename, 'r', encoding='utf8') as f:
         citations = yaml.load(f)
     for k in citations:
         citations[k]['name'] = k
     return citations
+
 
 def replace_sources(keys, sources):
     newsrc = []
@@ -28,9 +29,10 @@ def replace_sources(keys, sources):
             print("ERROR: source %s not found" % k)
     return newsrc
 
+
 def replace_all_sources(bib, data):
     sources = get_source_dict(bib)
-    data['sources'] = sources
+    data['references'] = sources
     for res in data['resources']:
         if 'sources' in res:
             res['sources'] = replace_sources(res['sources'], sources)
@@ -38,10 +40,12 @@ def replace_all_sources(bib, data):
             res['sources'] = []
         if 'schema' in res:
             for col in res['schema']['fields']:
-               try:
+                try:
                     col['sources'] = replace_sources(col['sources'], sources)
-               except KeyError:
+                except KeyError:
                     pass
+
+
 # From http://stackoverflow.com/questions/1131220/get-md5-hash-of-big-files-in-python
 def md5sum(filename):
     md5 = hashlib.md5()
@@ -49,6 +53,7 @@ def md5sum(filename):
         for chunk in iter(lambda: f.read(128 * md5.block_size), b''):
             md5.update(chunk)
     return md5.hexdigest()
+
 
 def process_metadata(filename):
     with open(filename, 'r', encoding='utf8') as f:
@@ -60,8 +65,10 @@ def process_metadata(filename):
             data['description'] = description_text
     return data
 
+
 def process_dpkg(filename):
     return process_metadata(filename)
+
 
 def process_resource(filename):
     meta = process_metadata(filename)
@@ -73,9 +80,10 @@ def process_resource(filename):
     else:
         print("ERROR: %s: %s does not exist" % (filename, meta['path']))
 
+
 def build(src, dst):
     metadir = path.join(src, 'rawdata', 'metadata')
-    meta_res_dir =  path.join(metadir, 'resources')
+    meta_res_dir = path.join(metadir, 'resources')
     data = process_dpkg(path.join(metadir, 'datapackage.yaml'))
     data['resources'] = []
     for filename in sorted(os.listdir(meta_res_dir)):
@@ -86,13 +94,15 @@ def build(src, dst):
     bib = path.join(metadir, 'sources.yaml')
     replace_all_sources(bib, data)
     with open(path.join(dst, 'datapackage.json'), 'w', encoding="utf8") as f:
-        json.dump(data, f, indent = 2)
+        json.dump(data, f, indent=2)
         print("Writing: %s" % path.join(dst, 'datapackage.json'))
+
 
 def main():
     src = sys.argv[1]
     dst = sys.argv[2]
     build(src, dst)
+
 
 if __name__ == '__main__':
     main()

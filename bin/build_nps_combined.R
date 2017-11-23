@@ -161,7 +161,9 @@ gen_battles <-
     mutate(partof_cwss = TRUE,
            result = recode(result, UQS(CWSS_RESULTS)),
            casualties_kwm_cwss =
-             ifelse(casualties_kwm_cwss == 0, NA_real_, casualties_kwm_cwss))
+             ifelse(casualties_kwm_cwss == 0, NA_real_,
+                    casualties_kwm_cwss),
+           result = recode(result, "Indecisive" = "Inconclusive"))
 
   nps_battles_cwsac <- cwsac_battles %>%
     filter(!battle %in% c("VA020A", "VA020B")) %>%
@@ -178,8 +180,7 @@ gen_battles <-
            result_cwsac = result,
            casualties_kwm_cwsac = casualties,
            strength_cwsac = strength) %>%
-    mutate(partof_cwsac = TRUE,
-           result_cwsac = recode(result_cwsac,  "Inconclusive" = "Indecisive"))
+    mutate(partof_cwsac = TRUE)
 
   nps_battles_cws2 <- cws2_battles %>%
     select(battle, url, study_area, core_area, potnr_boundary,
@@ -446,8 +447,8 @@ gen_forces <- function(cwss_forces,
   cws2_forces_casstr <-
     cws2_forces %>%
     rename(cwsac_id = battle) %>%
-    rename(strength_mean_cws2 = strength_mean,
-           strength_var_cws2 = strength_var) %>%
+    mutate(strength_var_cws2 = rounded_var(strength)) %>%
+    rename(strength_mean_cws2 = strength) %>%
     select(cwsac_id, belligerent, matches("^strength_(mean|var)_cws2$")) %>%
     filter(!cwsac_id %in% c("AL002")) %>%
     mutate(belligerent =
@@ -652,7 +653,12 @@ build <- function(src, dst) {
   cwsac_battles <-
     read_csv(file.path(dst, "cwsac_battles.csv"))
   cwsac_forces <-
-    read_csv(file.path(dst, "cwsac_forces.csv"))
+    read_csv(file.path(dst, "cwsac_forces.csv")) %>%
+    mutate(strength_mean = unif_mean(strength_min, strength_max),
+           strength_var = if_else(strength_min == strength_max,
+                                  rounded_var(strength_min),
+                                   unif_var(strength_min, strength_max)))
+
   cwsac_commanders <-
     read_csv(file.path(dst, "cwsac_commanders.csv"))
 

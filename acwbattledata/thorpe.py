@@ -1,20 +1,19 @@
 #!/usr/bin/env python3
-"""
-Convert cwFourYearsSec.xml to a csv file
-"""
+"""Convert cwFourYearsSec.xml to a csv file."""
 
-import xml.etree.ElementTree as ET
-import datetime
-import re
 import csv
+import re
 import sys
+import xml.etree.ElementTree as ET
 from os import path
+
 
 def clean_text(tag, x):
     if x == 'null':
         x = None
     return x
-    
+
+
 def parse_date(dct):
     date = dct['date']
     if date == "11/301864":
@@ -35,12 +34,12 @@ def parse_date(dct):
         unknown_day = True
     elif len(d.split('-')) > 1:
         d0, d = d.split('-')
-        
-    dct['beginDate'] = "%s-%s-%s" % (y0, m0, d0)
-    dct['endDate'] = "%s-%s-%s" % (y, m, d)
+
+    dct['beginDate'] = re.sub(' +', '', "%s-%s-%s" % (y0, m0, d0))
+    dct['endDate'] = re.sub(' +', '', "%s-%s-%s" % (y, m, d))
     dct['unknownDay'] = unknown_day
     del dct['date']
-    
+
 
 def parse_xml(src):
     tree = ET.parse(src)
@@ -54,38 +53,31 @@ def parse_xml(src):
         else:
             battle[child.tag] = clean_text(child.tag, child.text)
     return data
-            
-    
+
+
 def build(src, dst):
     srcdir = path.join(src, "rawdata", "thorpe")
     srcfile = path.join(srcdir, "cwFourYearsSec.xml")
     dstfile = path.join(dst, "thorpe_engagements.csv")
     data = parse_xml(srcfile)
-    fields = ['battleNum',
-              'battleDetail',
-              'beginDate',
-              'endDate',
-              'unknownDay',
-              'lat',
-              'lng',
-              'shrtNm',
-              'desc',
-              'type',
-              'killed',
-              'usCasTot',
-              'csCasTot']
+    fields = [
+        'battleNum', 'battleDetail', 'beginDate', 'endDate', 'unknownDay',
+        'lat', 'lng', 'shrtNm', 'desc', 'type', 'killed', 'usCasTot',
+        'csCasTot'
+    ]
     with open(dstfile, 'w', encoding='utf8') as f:
-        reader = csv.DictWriter(f, fieldnames = fields)
+        reader = csv.DictWriter(f, fieldnames=fields)
         reader.writeheader()
         for i, row in enumerate(data):
             row['battleNum'] = i
             parse_date(row)
             reader.writerow(row)
 
+
 def main():
     src, dst = sys.argv[1:3]
     build(src, dst)
-        
+
+
 if __name__ == "__main__":
     main()
-    

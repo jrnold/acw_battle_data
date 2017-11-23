@@ -7,43 +7,60 @@ schema:
     name: person_id
     title: person_id
     type: string
-  - format: default
+  - constraints:
+      required: true
+    description: Last name of the commander
+    format: default
     name: last_name
-    title: last_name
+    title: Last name
     type: string
   - format: default
     name: suffix
     title: suffix
     type: string
-  - format: default
+  - description: First name of the commander
+    format: default
     name: first_name
-    title: first_name
+    title: First name
     type: string
-  - format: default
+  - description: Middle name of the commander
+    format: default
     name: middle_name
-    title: middle_name
+    title: Middle name
     type: string
-  - format: default
+  - description: Middle name of the commander
+    format: default
     name: middle_initial
-    title: middle_initial
+    title: Middle initial
     type: string
-  - format: default
+  - description: Middle rank (grade) of the commander
+    format: default
     name: rank
-    title: rank
+    title: Military Rank
     type: string
-  - format: default
+  - constraints:
+      required: false
+    description: Bio from the National Park Service *Civil War Soldiers and Sailors*
+      database.
+    format: default
     name: bio
     title: bio
     type: string
-  - format: default
+  - constraints:
+      required: false
+    format: url
     name: bio_source
     title: bio_source
     type: string
-  - format: default
+  - constraints:
+      required: false
+    format: url
     name: narrative_link_1
     title: narrative_link_1
     type: string
-  - format: default
+  - constraints:
+      required: false
+    format: default
     name: narrative_link_2
     title: narrative_link_2
     type: string
@@ -51,8 +68,10 @@ schema:
     name: added
     title: added
     type: boolean
-  - description: dbpedia uri for additional information about people
-    format: default
+  - constraints:
+      required: false
+    description: dbpedia uri for additional information about people
+    format: url
     name: dbpedia_uri
     title: dbpedia_uri
     type: string

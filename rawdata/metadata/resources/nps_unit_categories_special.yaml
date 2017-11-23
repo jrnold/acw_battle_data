@@ -3,16 +3,22 @@ format: csv
 name: nps_unit_categories_special
 path: data/nps_unit_categories_special.csv
 schema:
+  primarykey:
+  - abbr
   fields:
   - constraints:
       maxLength: 1
       minLength: 1
+      pattern: "[A-Z]"
+      required: true
     format: default
     name: abbr
-    title: abbr
+    title: Abbreviation
     type: string
   - format: default
     name: description
-    title: description
+    title: Description
     type: string
+    constraints:
+      required: true
 title: NPS combined categories of special functions of unit.

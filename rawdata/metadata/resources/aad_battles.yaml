@@ -2,8 +2,13 @@ format: csv
 name: aad_battles
 path: data/aad_battles.csv
 schema:
+  primaryKey:
+  - reference_number
   fields:
-  - description: '
+  - constraints:
+      pattern: '[A-Z]{2}[0-9]{3}[A-Z]?'
+      required: true
+    description: '
 
       The reference number assigned to the battle site/event. The first two letters
       are the abbreviation of the state in which the battle site/event is located.
@@ -13,7 +18,9 @@ schema:
     name: reference_number
     title: Reference Number
     type: string
-  - format: default
+  - constraint:
+      required: false
+    format: default
     name: event
     title: event
     type: string
@@ -26,21 +33,37 @@ schema:
     name: type
     title: Type
     type: string
-  - description: '
+  - constraints:
+      maximum: '1866-01-01'
+      minimum: '1861-01-01'
+      required: true
+    description: '
 
       Beginning day of the event.'
     format: default
     name: start_date
     title: Start date
     type: date
-  - description: '
+  - constraints:
+      maximum: '1866-01-01'
+      minimum: '1861-01-01'
+      required: true
+    description: '
 
       End day of the event.      '
     format: default
     name: end_date
     title: End date
     type: date
-  - description: '
+  - constraints:
+      enum:
+      - Main Western Theater of Operations & the Gulf Approach (1861-1863)
+      - Trans-Mississippi Theater of Operations
+      - Main Eastern Theater of Operation
+      - Lower Seaboard Theater of Operation
+      - Pacific Coast Theater
+      required: true
+    description: '
 
       The name of the theater. 1 Main Eastern Theater of operation. 2 Lower Seaboard
       Theater of Operation. 3 Main Western Theater of Operations & the Gulf Approach
@@ -61,23 +84,30 @@ schema:
     name: theater
     title: Theater
     type: string
-  - description: ''
+  - constraints:
+      required: true
+    description: ''
     format: default
     name: campaign
     title: campaign
     type: string
-  - description: '
-
-      The degree of anticipated threats to the battle sites'' integrity over the next
-      10 years. The Commission assigned the degree of threat based on short- and long-term
-      threats identified by the field investigator on the battle site survey form.'
+  - description: The degree of anticipated threats to the battle sites'' integrity
+      over the next 10 years. The Commission assigned the degree of threat based on
+      short- and long-term threats identified by the field investigator on the battle
+      site survey form.
     format: default
     name: threats
     title: threats
-    type: number
-  - description: '
-
-      The kind(s) of known ownership of the battle site. The Commission relied on
+    type: string
+    constraints:
+      enum:
+      - "None"
+      - Low
+      - Mod
+      - High
+      - ''
+      required: false
+  - description: 'The kind(s) of known ownership of the battle site. The Commission relied on
       the ownership information provided on the survey forms and additional data collected
       by staff members. The field surveyors and the Commission staff did not consult
       official ownership records, such as County tax records or maps. Many of the
@@ -141,6 +171,7 @@ schema:
       - B
       - C
       - D
+      required: true
     description: '
 
       The Military Importance or Military Class; Military Importance = Military Class.
@@ -169,7 +200,7 @@ schema:
       impact on the direction, duration, conduct, or outcome of the campaign.'
     format: default
     name: military
-    title: military
+    title: Military importance
     type: string
   - format: default
     name: interpretive_political
@@ -247,6 +278,8 @@ schema:
       - B
       - C
       - D
+      - ''
+      required: false
     description: Dr. James M. McPherson. The letter in this field is Dr. McPherson's
       initial opinion regarding the military importance of the event. (Refer to MILITARY
       above.) An entry was made in this field only when Dr. McPherson disagreed with
@@ -263,6 +296,8 @@ schema:
       - B
       - C
       - D
+      - ''
+      required: false
     description: Dr. Edwin C. Bearss. The letter in this field is Mr. Bearss 'initial
       opinion regarding the military importance of the event. (Refer to MILITARY above.)
       An entry was made in this field only when Mr. Bearss disagreed with the first
@@ -279,9 +314,9 @@ schema:
       - B
       - C
       - D
-    description: '
-
-      Dr. William J. Cooper, Jr.. The letter in this field is Dr. Cooper''s initial
+      - ''
+      required: false
+    description: 'Dr. William J. Cooper, Jr.. The letter in this field is Dr. Cooper''s initial
       opinion regarding the military importance of the event. (Refer to MILITARY above.)
       An entry was made in this field only when Dr. Cooper disagreed with the first
       military importance value assigned to the event. Differences of opinion about
@@ -291,9 +326,7 @@ schema:
     name: military_bill
     title: Military Importance (william_cooper)
     type: string
-  - description: '
-
-      The number of acres of the battle site that are protected; for example, by easement
+  - description: 'The number of acres of the battle site that are protected; for example, by easement
       or park status. This field is ill-defined and incomplete. The data may be inaccurate.
       The Commission did not use the data in this field.'
     format: default

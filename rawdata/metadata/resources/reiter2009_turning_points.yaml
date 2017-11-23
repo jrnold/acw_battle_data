@@ -3,10 +3,13 @@ name: reiter2009_turning_points
 path: data/reiter2009_turning_points.csv
 schema:
   fields:
-  - format: default
+  - description: Desciption of the period in which the turning point occurred. For
+      example, "Summer 1862", "Fall 1864-Spring 1865". These are converted to specific
+      dates using the dates of the important battles mentioned in the text.
+    format: default
     name: period
     title: Period
-    type: Time period of the turning point
+    type: string
   - format: default
     name: start_date
     title: Start Date

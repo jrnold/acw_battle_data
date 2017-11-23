@@ -6,27 +6,36 @@ schema:
   - constraints:
       enum:
       - SCharacter
-      - Unittype
+      - Unitype
       - Function
+      - Ethnic
+      required: true
     description: If "SCharacter", an abbrevation for the column ``special`` (speical
       units). If "Function", an abbreviation for the column ``function`` (function
       of the unit). If "Unitype", an abbreviation fo the column ``type`` in :doc:`cwss_regiments_units`.
     format: default
     name: category
-    title: category
+    title: Category
     type: string
   - constraints:
       maxLength: 1
       minLength: 1
-      pattern: '[A-Z0]'
+      pattern: '[A-Z]'
+      required: true
     description: Abbreviations appearing in columns ``special``, ``function``, and
       ``type`` of the table :doc:`cwss_regiments_units`.
     format: default
     name: abbr
-    title: abbr
+    title: Abbreviation
     type: string
   - format: default
     name: description
     title: Description
     type: string
+    decription: Description of the category.
+    constraints:
+      required: true
+  primaryKey:
+  - category
+  - abbr
 title: CWSS unit category abbreviations

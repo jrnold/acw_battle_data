@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 """Command line tasks to build and deploy the ACW Battle Data."""
-import re
 import os
 import shutil
 from os import path
@@ -31,21 +30,19 @@ def unit_sizes(ctx):
 @task(setup)
 def aad(ctx):
     """Build the AAD CWSAC initial data."""
-    ctx.run(f"{ctx.python} bin/build_aad.py {ctx.src} {ctx.dst}")
+    ctx.run(f"{ctx.python} -m acwbattledata.aad {ctx.src} {ctx.dst}")
 
 
 @task(setup)
 def cwsac(ctx):
     """Build the CWSAC Report I data."""
-    ctx.run(f"{ctx.python} bin/build_cwsac.py {ctx.src} {ctx.dst}")
-    ctx.run(f"{ctx.Rscript} bin/update_cwsac_forces.R {ctx.src} {ctx.dst}")
+    ctx.run(f"{ctx.python} -m acwbattledata.cwsac {ctx.src} {ctx.dst}")
 
 
 @task(setup)
 def cws2(ctx):
     """Build the CWSAC Report II data."""
-    ctx.run(f"{ctx.python} bin/build_cws2.py {ctx.src} {ctx.dst}")
-    ctx.run(f"{ctx.Rscript} bin/update_cws2_forces.R {ctx.src} {ctx.dst}")
+    ctx.run(f"{ctx.python} -m acwbattledata.cws2 {ctx.src} {ctx.dst}")
 
 
 @task
@@ -73,7 +70,7 @@ def download_cwss(ctx):
 @task(pre=[setup, download_cwss])
 def cwss(ctx):
     """Build the CWSS data."""
-    ctx.run(f"{ctx.python} bin/build_cwss.py "
+    ctx.run(f"{ctx.python} -m acwbattledata.cwss "
             f" {ctx.src} {ctx.cwss.data_dir} {ctx.dst}")
 
 
@@ -86,33 +83,31 @@ def nps(ctx):
 @task(setup)
 def bodart(ctx):
     """Build data from Bodart."""
-    ctx.run(f"{ctx.python} bin/build_bodart.py {ctx.src} {ctx.dst}")
+    ctx.run(f"{ctx.python} -m acwbattledata.bodart {ctx.src} {ctx.dst}")
 
 
 @task(setup)
 def dyer(ctx):
     """Build data from Dyer (1908)."""
-    ctx.run(f"{ctx.python} bin/build_dyer.py {ctx.src} {ctx.dst}")
+    ctx.run(f"{ctx.python} -m acwbattledata.dyer {ctx.src} {ctx.dst}")
 
 
 @task(setup)
 def fox(ctx):
     """Build data from Fox."""
-    ctx.run(f"{ctx.python} bin/build_fox.py {ctx.src} {ctx.dst}")
+    ctx.run(f"{ctx.python} -m acwbattledata.fox {ctx.src} {ctx.dst}")
 
 
 @task(setup)
 def greer(ctx):
     """Build weekly casualty data from Greer."""
-    shutil.copy(
-        path.join(ctx.src, "rawdata", "greer2005",
-                  "greer2005_weekly_casualties.csv"), ctx.dst)
+    ctx.run(f"{ctx.python} -m acwbattledata.greer {ctx.src} {ctx.dst}")
 
 
 @task(setup)
 def kennedy(ctx):
     """Build casualty data from Kennedy."""
-    ctx.run(f"{ctx.python} bin/build_kennedy.py {ctx.src} {ctx.dst}")
+    ctx.run(f"{ctx.python} -m acwbattledata.kennedy {ctx.src} {ctx.dst}")
 
 
 @task(setup)
@@ -120,14 +115,14 @@ def livermore(ctx):
     """Build casualty data from Kennedy."""
     ctx.run(f"{ctx.Rscript} bin/build_livermore.R "
             f"{ctx.src} {ctx.dst}")
-    ctx.run(f"{ctx.python} bin/build_livermore_to_cwsac.py "
+    ctx.run(f"{ctx.python} -m acwbattledata.livermore_to_cwsac "
             f"{ctx.src} {ctx.dst}")
 
 
 @task(setup)
 def thorpe(ctx):
     """Build Thorpe data."""
-    ctx.run(f"{ctx.python} bin/build_thorpe.py {ctx.src} {ctx.dst}")
+    ctx.run(f"{ctx.python} -m acwbattledata.thorpe {ctx.src} {ctx.dst}")
 
 
 @task(setup)
@@ -141,19 +136,19 @@ def nyt(ctx):
 @task(setup)
 def phisterer(ctx):
     """Build phisterer data."""
-    ctx.run(f"{ctx.python} bin/build_phisterer.py {ctx.src} {ctx.dst}")
+    ctx.run(f"{ctx.python} -m acwbattledata.phisterer {ctx.src} {ctx.dst}")
 
 
 @task(setup)
 def shenandoah(ctx):
     """Build the NPS Shenandoah Report Data."""
-    ctx.run(f"{ctx.python} bin/build_shenandoah.py {ctx.src} {ctx.dst}")
+    ctx.run(f"{ctx.python} -m acwbattledata.shenandoah {ctx.src} {ctx.dst}")
 
 
 @task(pre=[setup, unit_sizes])
 def clodfelter(ctx):
     """Build the Clodfelter data."""
-    ctx.run(f"{ctx.python} bin/build_clodfelter.py {ctx.src} {ctx.dst}")
+    ctx.run(f"{ctx.python} -m acwbattledata.clodfelter {ctx.src} {ctx.dst}")
     ctx.run(f"{ctx.Rscript} bin/update_clodfelter_forces.R "
             f"{ctx.src} {ctx.dst}")
 
@@ -161,43 +156,43 @@ def clodfelter(ctx):
 @task(setup)
 def cdb90(ctx):
     """Build the CDB90 data."""
-    ctx.run(f"{ctx.python} bin/build_cdb90.py {ctx.src} {ctx.dst}")
+    ctx.run(f"{ctx.python} -m acwbattledata.cdb90 {ctx.src} {ctx.dst}")
 
 
 @task(setup)
 def civilwarorg(ctx):
     """Build the civilwar.org data."""
-    ctx.run(f"{ctx.python} bin/build_civilwarorg.py {ctx.src} {ctx.dst}")
+    ctx.run(f"{ctx.python} -m acwbattledata.civilwarorg {ctx.src} {ctx.dst}")
 
 
 @task(setup)
 def misc(ctx):
     """Build some miscellaneous datasets."""
-    ctx.run(f"{ctx.python} bin/build_misc.py {ctx.src} {ctx.dst}")
+    ctx.run(f"{ctx.python} -m acwbattledata.misc {ctx.src} {ctx.dst}")
 
 
 @task(setup)
 def battlemisc(ctx):
     """Build miscellaneous battle data."""
-    ctx.run(f"{ctx.python} bin/build_battlemisc.py {ctx.src} {ctx.dst}")
+    ctx.run(f"{ctx.python} -m acwbattledata.battlemisc {ctx.src} {ctx.dst}")
 
 
 @task(setup)
 def ships(ctx):
     """Build the dataset on ships."""
-    ctx.run(f"{ctx.python} bin/build_ships.py {ctx.src} {ctx.dst}")
+    ctx.run(f"{ctx.python} -m acwbattledata.ships {ctx.src} {ctx.dst}")
 
 
 @task(setup)
 def wikipedia(ctx):
     """Build wikipedia data."""
-    ctx.run(f"{ctx.python} bin/build_wikipedia.py {ctx.src} {ctx.dst}")
+    ctx.run(f"{ctx.python} -m acwbattledata.wikipedia {ctx.src} {ctx.dst}")
 
 
 @task(setup)
 def eicher(ctx):
     """Build Eicher datasets."""
-    ctx.run(f"{ctx.python} bin/build_eicher.py {ctx.src} {ctx.dst}")
+    ctx.run(f"{ctx.python} -m acwbattledata.eicher {ctx.src} {ctx.dst}")
 
 
 @task(setup)
@@ -217,8 +212,7 @@ DATA_TASKS = [
 @task(setup)
 def datapackage(ctx):
     """Build datapackage.json"""
-    ctx.run(f"{ctx.python} bin/build_metadata.py {ctx.src} {ctx.dst}")
-    ctx.run(f"{ctx.python} bin/build_datapackage.py {ctx.src} {ctx.dst}")
+    ctx.run(f"{ctx.python} -m acwbattledata.datapackage {ctx.src} {ctx.dst}")
 
 
 @task(pre=[*DATA_TASKS, datapackage])

@@ -8,8 +8,13 @@ schema:
     name: PersonID
     title: PersonID
     type: string
+    description: The CWSS UUID for the person.
   - format: default
     name: Keyword
     title: Keyword
     type: string
+    description: A keyword associated with that person.
+  primaryKey:
+  - PersonID
+  - Keyword    
 title: 'CWSS people data: kewyords'

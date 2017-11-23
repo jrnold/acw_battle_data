@@ -6,7 +6,6 @@ import sys
 from os import path
 
 import jinja2
-
 from tabulate import tabulate
 
 

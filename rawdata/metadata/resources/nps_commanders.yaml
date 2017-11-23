@@ -2,53 +2,98 @@ format: csv
 name: nps_commanders
 path: data/nps_commanders.csv
 schema:
+  primaryKey:
+  - cwsac_id
+  - belligerent
+  - commander_number
   fields:
-  - format: default
+  - constraints:
+      pattern: '[A-Z]{2}[0-9]{3}'
+      required: true
+    format: default
     name: cwsac_id
-    title: cwsac_id
+    title: CWSAC battle identifier
     type: string
-  - format: default
+  - constraints:
+      required: true
+      enum:
+      - US
+      - Confederate
+      - Native American
+    format: default
     name: belligerent
-    title: belligerent
+    title: Belligerent
     type: string
-  - format: default
+  - constraints:
+      maximum: 10
+      minimum: 1
+      required: true
+    format: default
     name: commander_number
-    title: commander_number
+    title: Commander number
     type: integer
-  - format: default
+    description: This is used to disambiguate when there are multiple
+      commanders for a belligerent in a battle.
+  - constraints:
+      required: true
+    description: Commander name
+    format: default
     name: commander
-    title: commander
+    title: Commander
     type: string
   - format: default
     name: added
-    title: added
+    title: Added
     type: boolean
-  - format: default
+  - constraints:
+      required: true
+    description: Commander last name
+    format: default
     name: last_name
-    title: last_name
+    title: Last name
     type: string
-  - format: default
+  - constraints:
+      required: true
+    description: Commander's suffix, e.g. Jr., II, III
+    format: default
     name: suffix
     title: suffix
     type: string
-  - format: default
+  - constraints:
+      required: true
+    description: Commander first name
+    format: default
     name: first_name
-    title: first_name
+    title: First name
     type: string
-  - format: default
+    description: First name of the commander.
+  - constraints:
+      required: true
+    description: Commander middle name
+    format: default
     name: middle_name
-    title: middle_name
+    title: Middle name
     type: string
-  - format: default
+    description: Middle name of the commander.
+  - constraints:
+      required: true
+    description: Commander middle initial
+    format: default
     name: middle_initial
-    title: middle_initial
+    title: Middle initials
     type: string
-  - format: default
+    description: Middle initial(s) of the commander.
+  - constraints:
+      required: true
+    description: Commander rank
+    format: default
     name: rank
-    title: rank
+    title: Military rank
     type: string
+    description: Military rank (grade) of the commander.
   - format: default
     name: navy
-    title: navy
+    title: Navy
     type: boolean
+    description: "Was the commander in the navy?"
 title: 'NPS combined data battle data: commanders'

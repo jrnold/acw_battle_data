@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
-import sys
-import os
-import fnmatch
-from os import path
 import csv
 import datetime
+import fnmatch
 import json
+import os
+import sys
+from os import path
 
 import yaml
 
 BASE_URL = "http://www.nps.gov/abpp/shenandoah/"
+
 
 def load_data(src):
     data = []
@@ -18,9 +19,11 @@ def load_data(src):
             fn = path.join(src, "yaml", filename)
             with open(fn, 'r', encoding="utf8") as f:
                 d = yaml.load(f)
-                d['url'] = BASE_URL + path.basename(path.splitext(fn)[0]) + '.html'
+                d['url'] = BASE_URL + path.basename(
+                    path.splitext(fn)[0]) + '.html'
                 data.append(d)
     return data
+
 
 def clean_battle(battle):
     row = {}
@@ -42,23 +45,18 @@ def clean_battle(battle):
     row['url'] = battle['url']
     return row
 
+
 def build_battles(data, dst):
     battles = [clean_battle(x) for x in data]
-    fieldnames = ('battle_id',
-                  'battle_name',
-                  'cwsac_id',
-                  'start_date',
-                  'end_date',
-                  'campaign',
-                  'county',
-                  'url'
-    )
+    fieldnames = ('battle_id', 'battle_name', 'cwsac_id', 'start_date',
+                  'end_date', 'campaign', 'county', 'url')
     dst_file = path.join(dst, 'shenandoah_battles.csv')
     with open(dst_file, 'w', encoding="utf8") as f:
         writer = csv.DictWriter(f, fieldnames)
         writer.writeheader()
         writer.writerows(battles)
     print("Writing: %s" % dst_file)
+
 
 def clean_forces(battle):
     forces = []
@@ -82,17 +80,11 @@ def clean_forces(battle):
         forces.append(x)
     return forces
 
+
 def build_forces(data, dst):
-    fieldnames = ('battle_id',
-                  'belligerent',
-                  'description',
-                  'strength_min',
-                  'strength_max',
-                  'casualties_text',
-                  'casualties',
-                  'killed',
-                  'wounded',
-                  'missing_captured')
+    fieldnames = ('battle_id', 'belligerent', 'description', 'strength_min',
+                  'strength_max', 'casualties_text', 'casualties', 'killed',
+                  'wounded', 'missing_captured')
     dst_file = path.join(dst, 'shenandoah_forces.csv')
     with open(dst_file, 'w', encoding="utf8") as f:
         writer = csv.DictWriter(f, fieldnames)
@@ -100,6 +92,7 @@ def build_forces(data, dst):
         for battle in data:
             writer.writerows(clean_forces(battle))
     print("Writing: %s" % dst_file)
+
 
 def clean_commanders(battle):
     ret = []
@@ -121,14 +114,10 @@ def clean_commanders(battle):
         ret.append(x)
     return ret
 
+
 def build_commanders(data, dst):
-    fieldnames = ('battle_id',
-                  'cwsac_id',
-                  'belligerent',
-                  'last_name',
-                  'first_name',
-                  'middle_name',
-                  'rank')
+    fieldnames = ('battle_id', 'cwsac_id', 'belligerent', 'last_name',
+                  'first_name', 'middle_name', 'rank')
     dst_file = path.join(dst, 'shenandoah_commanders.csv')
     with open(dst_file, 'w', encoding="utf8") as f:
         writer = csv.DictWriter(f, fieldnames)
@@ -137,11 +126,13 @@ def build_commanders(data, dst):
             writer.writerows(clean_commanders(battle))
     print("Writing: %s" % dst_file)
 
+
 def build_json(data, dst):
     dst_file = path.join(dst, 'shenandoah.json')
     with open(dst_file, 'w', encoding="utf8") as f:
         json.dump(data, f)
     print("Writing: %s" % dst_file)
+
 
 def build(src, dst):
     print("Building Shenandoah data")
@@ -152,9 +143,11 @@ def build(src, dst):
     build_commanders(data, dst)
     build_json(data, dst)
 
+
 def main():
     src, dst = sys.argv[1:3]
     build(src, dst)
+
 
 if __name__ == "__main__":
     main()

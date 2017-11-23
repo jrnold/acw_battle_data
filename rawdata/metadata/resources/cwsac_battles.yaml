@@ -2,6 +2,8 @@ format: csv
 name: cwsac_battles
 path: data/cwsac_battles.csv
 schema:
+  primaryKey:
+  - battle
   fields:
   - constraints:
       maxLength: 6
@@ -195,26 +197,6 @@ schema:
     name: significance
     title: Military significance
     type: string
-  - constraints:
-      minimum: 0
-    description: Mean of the estimated strength in personnel of the force. See code
-      for how it is calculated.
-    format: default
-    name: strength_mean
-    sources:
-    - jrnold
-    title: Strength (mean)
-    type: number
-  - constraints:
-      minimum: 0
-    description: Variance of the estimated strength in personnel of the force. See
-      code for how it is calculated.
-    format: default
-    name: strength_var
-    sources:
-    - jrnold
-    title: Strength (variance)
-    type: number
 sources:
 - CWSAC1993
 - CWSAC1997

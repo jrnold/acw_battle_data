@@ -2,9 +2,12 @@ format: csv
 name: nps_theaters
 path: data/nps_theaters.csv
 schema:
+  primaryKey:
+  - TheaterCode
   fields:
   - constraints:
       pattern: '[A-Z]{2}'
+      required: true
     description: CWSS Theater Code
     format: default
     name: TheaterCode
@@ -14,6 +17,8 @@ schema:
     name: TheaterName
     title: Theater Name
     type: string
+    constraints:
+      required: true
   - description: Title of the English Wikipedia category for the theater.
     format: default
     name: WikipediaCategory

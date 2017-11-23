@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
-import calendar
 import csv
 import json
-import re
 import shutil
 import sys
 from os import path
@@ -10,10 +8,6 @@ from os import path
 import yaml
 
 _PHISTERER_DIR = ('rawdata', 'phisterer1883')
-
-
-def dict_subset(x, include=[]):
-    return dict((k, v) for k, v in x.items() if k in include)
 
 
 def _int(x):

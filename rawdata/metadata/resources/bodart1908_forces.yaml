@@ -1,131 +1,185 @@
 format: csv
 name: bodart1908_forces
 path: data/bodart1908_forces.csv
+primary_key:
+- battle_id
+- belligerent
 schema:
   fields:
-  - format: default
+  - constraints:
+      maximum: 50
+      minimum: 1
+      required: true
+    format: default
     name: battle_id
     title: Battle id
     type: string
-  - format: default
+  - constraints:
+      enum:
+      - US
+      - Confederate
+      required: true
+    format: default
     name: belligerent
     title: belligerent
     type: string
-  - description: Total personnel
+  - constraints:
+      minimum: 1
+    description: Total personnel
     format: default
     name: strength
     title: Strength
     type: integer
-  - description: Personnel engaged in combat
+  - constraints:
+      minimum: 1
+    description: Personnel engaged in combat
     format: default
     name: strength_engaged
     title: Strength Engaged
     type: integer
-  - description: Number of infantry
+  - constraints:
+      minimum: 0
+    description: Number of infantry
     format: default
     name: infantry
     title: Infantry
     type: integer
-  - description: Number of cavalry
+  - constraints:
+      minimum: 0
+    description: Number of cavalry
     format: default
     name: cavalry
     title: cavalry
     type: integer
-  - description: Number of artillery personnel
+  - constraints:
+      minimum: 0
+    description: Number of artillery personnel
     format: default
     name: artillery
     title: Artillery
     type: integer
-  - description: Number of guns (artillery pieces)
+  - constraints:
+      minimum: 0
+    description: Number of guns (artillery pieces)
     format: default
     name: guns
     title: guns
     type: integer
-  - format: default
+  - constraints:
+      minimum: 0
+    format: default
     name: killed
     title: Killed
     type: integer
   - constraints:
-      maximum: 1
+      maximum: 100
       minimum: 0
     format: default
     name: killed_percent
     title: Killed (percent)
     type: number
-  - format: default
+  - constraints:
+      minimum: 0
+    format: default
     name: killed_generals
     title: killed_generals
     type: integer
-  - format: default
+  - constraints:
+      minimum: 0
+    format: default
     name: killed_officers
     title: killed_officers
     type: integer
-  - format: default
+  - constraints:
+      minimum: 0
+    format: default
     name: killed_wounded
     title: killed_wounded
     type: integer
   - constraints:
-      maximum: 1
+      maximum: 100
       minimum: 0
     format: default
     name: killed_wounded_percent
     title: Killed Wounded (percent)
     type: number
-  - format: default
+  - constraints:
+      minimum: 0
+    format: default
     name: killed_wounded_generals
     title: Generals killed or wounded
     type: integer
-  - format: default
+  - constraints:
+      minimum: 0
+    format: default
     name: killed_wounded_officers
     title: Officers killed or wounded
     type: integer
-  - format: default
+  - constraints:
+      minimum: 0
+    format: default
     name: wounded
     title: wounded
     type: integer
   - constraints:
-      maximum: 1
+      maximum: 100
       minimum: 0
     format: default
     name: wounded_percent
     title: Wounded (percent)
     type: number
-  - format: default
+  - constraints:
+      minimum: 0
+    format: default
     name: wounded_generals
     title: Generals wounded
     type: integer
-  - format: default
+  - constraints:
+      minimum: 0
+    format: default
     name: wounded_officers
     title: Officers wounded
     type: integer
-  - format: default
+  - constraints:
+      minimum: 0
+    format: default
     name: captured
     title: captured
     type: integer
-  - format: default
+  - constraints:
+      minimum: 0
+    format: default
     name: captured_generals
     title: Generals captured
     type: integer
-  - format: default
+  - constraints:
+      minimum: 0
+    format: default
     name: captured_officers
     title: Officers captured
     type: integer
-  - format: default
+  - constraints:
+      minimum: 0
+    format: default
     name: missing
     title: missing
     type: integer
   - constraints:
-      maximum: 1
+      maximum: 100
       minimum: 0
     format: default
     name: missing_percent
     title: Missing (percent)
     type: number
-  - format: default
+  - constraints:
+      minimum: 0
+    format: default
     name: missing_generals
     title: Generals missing
     type: integer
-  - format: default
+  - constraints:
+      minimum: 0
+    format: default
     name: missing_officers
     title: Officers missing
     type: integer
@@ -135,45 +189,63 @@ schema:
     title: Casualties
     type: integer
   - constraints:
-      maximum: 1
+      maximum: 100
       minimum: 0
     format: default
     name: casualties_percent
     title: Casualties (percent)
     type: number
-  - format: default
+  - constraints:
+      minimum: 0
+    format: default
     name: casualties_officers
     title: Casualties (officers)
     type: integer
-  - format: default
+  - constraints:
+      minimum: 0
+    format: default
     name: casualties_generals
     title: Casualties (generals)
     type: integer
-  - format: default
+  - constraints:
+      minimum: 0
+    format: default
     name: losses_guns
     title: Losses of guns
     type: integer
-  - format: default
+  - constraints:
+      minimum: 0
+    format: default
     name: losses_caissons
     title: Losses of caissons
     type: integer
-  - format: default
+  - constraints:
+      minimum: 0
+    format: default
     name: losses_cannon
     title: Losses of cannons
     type: integer
-  - format: default
+  - constraints:
+      minimum: 0
+    format: default
     name: losses_canons
     title: losses_canons
     type: number
-  - format: default
+  - constraints:
+      minimum: 0
+    format: default
     name: losses_flags
     title: Losses of flags
     type: integer
-  - format: default
+  - constraints:
+      minimum: 0
+    format: default
     name: losses_munition_wagons
     title: Losses of munition wagons
     type: integer
-  - format: default
+  - constraints:
+      minimum: 0
+    format: default
     name: losses_wagons
     title: Losses of wagons
     type: integer

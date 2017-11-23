@@ -2,16 +2,21 @@ format: csv
 name: clodfelter_battles
 path: data/clodfelter_battles.csv
 schema:
+  primaryKey:
+  - battle_id
   fields:
-  - format: default
+  - constraints:
+      required: true
+    format: default
     name: battle_id
     title: battle_id
     type: string
   - constraints:
       enum:
-      - East
-      - West
+      - Eastern
+      - Western
       - Blockade War
+      required: true
     format: default
     name: theater
     title: Theater
@@ -20,7 +25,7 @@ schema:
       enum:
       - 'Eastern Theater: 1861'
       - 'Western Theater: 1861'
-      - 'The Blockade War: 1861-2'
+      - 'The Blockade War: 1861-62'
       - 'East: 1862'
       - 'West: 1862'
       - 'East: 1863'
@@ -28,18 +33,27 @@ schema:
       - 'The Blockade War: 1863'
       - 'East: 1864'
       - 'West: 1864'
-      - 'The Blockade War: 1864-5'
+      - 'The Blockade War: 1864-65'
       - 'East: 1865'
       - 'West: 1865'
+      required: true
     format: default
     name: theater_years
     title: theater_years
     type: string
-  - format: default
+  - constraints:
+      maximum: '1865-12-31'
+      minimum: '1861-01-01'
+      required: true
+    format: default
     name: start_date
     title: Start date
     type: date
-  - format: default
+  - constraints:
+      maximum: '1865-12-31'
+      minimum: '1861-01-01'
+      required: true
+    format: default
     name: end_date
     title: End Date
     type: date
@@ -48,6 +62,7 @@ schema:
       - Union
       - Confederate
       - Indecisive
+      required: true
     description: 'Result of the battle: Union victory, Confederate victory or tie.
 
       Clodfelter does not classify battles by result. This variable was added. The
@@ -59,7 +74,10 @@ schema:
     - CWSAC1997
     title: Result
     type: string
-  - description: Page number in Clodfelter (2008)
+  - constraints:
+      minimum: 1
+      required: true
+    description: Page number in Clodfelter (2008)
     format: default
     name: page
     title: Page

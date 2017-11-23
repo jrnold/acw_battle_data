@@ -1,14 +1,10 @@
 #!/usr/bin/env python
 import shutil
-from os import path
 import sys
-import csv
+from os import path
 
-import pandas as pd
-import yaml
+FILES = ('burdekin_langdana_war_trend.csv', 'reiter2009_turning_points.csv')
 
-FILES = ('burdekin_langdana_war_trend.csv',
-         'reiter2009_turning_points.csv')
 
 def copyfiles(miscdir, dst):
     for fn in FILES:
@@ -17,11 +13,13 @@ def copyfiles(miscdir, dst):
         print("Writing %s" % dstfile)
         shutil.copy(srcfile, dstfile)
 
+
 def main():
     src = sys.argv[1]
     dst = sys.argv[2]
-    miscdir = path.join(src , 'rawdata' , 'misc')
+    miscdir = path.join(src, 'rawdata', 'misc')
     copyfiles(miscdir, dst)
+
 
 if __name__ == '__main__':
     main()

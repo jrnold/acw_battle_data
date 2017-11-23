@@ -6,6 +6,7 @@ import sys
 
 import yaml
 
+
 RANKS = {
     "Gen.-Lt.": "Lt. Gen",  # "General-Leutnant",
     "Gen.": "Gen.",  # "General",
@@ -29,16 +30,6 @@ CATEGORIES = (
     "Kapitulation",
     "Einnahme",
     "Belagerung", )
-
-
-def dict_remove(x, exclude=[]):
-    """Remove items from a dict."""
-    return dict((k, v) for k, v in x.items() if k not in exclude)
-
-
-def dict_subset(x, include=[]):
-    """Subset a dict."""
-    return dict((k, v) for k, v in x.items() if k in include)
 
 
 def battle_csv(src, dst):

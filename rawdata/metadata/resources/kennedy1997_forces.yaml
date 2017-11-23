@@ -4,9 +4,8 @@ path: data/kennedy1997_forces.csv
 schema:
   fields:
   - constraints:
-      maxLength: 6
-      minLength: 5
       pattern: '[A-Z]{2}[0-9]{3}[A-Z]?( [A-Z]{2}[0-9]{3}[A-Z]?)*'
+      required: true
     description: 'Battle identifier These are almost the same as the Kennedy identifiers
       with a few exceptions. See the field ``cwsac_id`` for the CWSAC identifier.
 
@@ -21,12 +20,14 @@ schema:
       - US
       - Confederate
       - Native American
+      required: true
     format: default
     name: belligerent
-    title: belligerent
+    title: Belligerent
     type: string
   - constraints:
       minimum: 0
+      required: false
     description: 'Casualties (killed, wounded, and missing or captured), minimum value.
 
       This source only gives a range for a few battles. For battles where no range
@@ -37,6 +38,7 @@ schema:
     type: integer
   - constraints:
       minimum: 0
+      required: false
     description: 'Casualties (killed, wounded, and missing or captured), maximum value.      '
     format: default
     name: casualties_max
@@ -44,6 +46,7 @@ schema:
     type: integer
   - constraints:
       minimum: 0
+      required: false
     description: This source only gives a range for a few battles. For battles where
       no range is given, the mimimum and maximum are set to the same value.
     format: default
@@ -52,12 +55,14 @@ schema:
     type: integer
   - constraints:
       minimum: 0
+      required: false
     format: default
     name: killed_wounded_max
     title: Killed or Wounded (max)
     type: integer
   - constraints:
       minimum: 0
+      required: false
     format: default
     name: missing
     title: Missing or captured

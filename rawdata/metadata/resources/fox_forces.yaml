@@ -4,8 +4,13 @@ path: data/fox_forces.csv
 schema:
   fields:
   - constraints:
-      pattern: '[UC][1-9]+[A-Z]?'
-    description: Unique battle identifier.
+      pattern: '[UC][0-9]+[A-Z]?'
+      required: false
+    description: Unique battle identifier. The identifier begins with "U"
+      for Union forces and "C" for Confederate forces. This is followed by
+      a number indicating its row number in the table in Fox.  Some additional
+      entries are added by expanding comments and footnotes for some entries.
+      These entries end with a letter.
     name: battle_id
     title: Battle Id.
     type: string
@@ -13,9 +18,10 @@ schema:
       enum:
       - Confederate
       - US
+      required: false
     format: default
     name: belligerent
-    title: belligerent
+    title: Belligerent
     type: string
   - format: default
     name: battle_name
@@ -24,17 +30,26 @@ schema:
   - description: Start date of the battle
     format: default
     name: start_date
-    title: start_date
+    title: Start date
     type: date
+    constraints:
+      required: true
+      minimum: "1861-01-01"
+      maximum: "1866-01-01"
   - description: End date of the battle
     format: default
     name: end_date
-    title: end_date
+    title: End date
     type: date
+    constraints:
+      required: true
+      minimum: "1861-01-01"
+      maximum: "1866-01-01"
   - constraints:
       maxLength: 2
       minLength: 2
       pattern: '[A-Z]{2}'
+      required: true
     description: State in which the battle took place.
     format: default
     name: state
@@ -42,6 +57,7 @@ schema:
     type: string
   - constraints:
       minimum: 0
+      require: false
     description: Number killed
     format: default
     name: killed
@@ -49,6 +65,7 @@ schema:
     type: integer
   - constraints:
       minimum: 0
+      required: false
     description: Number wounded
     format: default
     name: wounded
@@ -56,6 +73,7 @@ schema:
     type: integer
   - constraints:
       minimum: 0
+      required: false
     description: Number missing
     format: default
     name: missing
@@ -63,6 +81,7 @@ schema:
     type: integer
   - constraints:
       minimum: 0
+      required: false
     description: Number of casualties (killed, wounded, and missing)
     format: default
     name: casualties
@@ -72,16 +91,18 @@ schema:
     name: aggregates_battles
     title: aggregates_battles
     type: boolean
+    description: A few rows aggregate multiple battles, e.g. the casualties
+      for an entire campaign. This indicates if it is one of those entries.
   - description: Comments attached to the observation. These are generally footnotes
       from the original source.
     format: default
     name: comment
-    title: comment
+    title: Comment
     type: string
   - description: Was this observation derived from notes in a footnotes?
     format: default
     name: from_footnote
-    title: from_footnote
+    title: From footnote
     type: boolean
   primaryKey:
   - battle_id

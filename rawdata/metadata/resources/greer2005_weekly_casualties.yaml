@@ -7,8 +7,12 @@ schema:
       period.
     format: default
     name: date
-    title: date
+    title: Date
     type: date
+    constraints:
+      required: true
+      minimum: "1861-04-01"
+      maximum: "1865-07-01"
   - description: Description of the casualties. This can either be a battle or "attrition"
       (for non-battle casualties).
     format: default
@@ -17,37 +21,43 @@ schema:
     type: string
   - constraints:
       minimum: 0
+      required: false
     format: default
     name: confederate
     title: Confederate casualties
     type: number
   - constraints:
       minimum: 0
+      required: false
     format: default
     name: union
     title: Union casualties
-    type: integer
+    type: number
   - constraints:
       enum:
       - Lower Seaboard
       - Trans-Mississippi
       - Eastern
       - Western
+      - Pacific Coast
+      - ''
+      required: false
     description: Theater in which the combat casualties occurred.
     format: default
     name: theater
     title: theater
     type: string
-  - description: CWSAC battle associated with the casualties.
+  - description: The CWSAC identifier of the battle(s) associated with the casualties.
     format: default
     name: cwsac_id
-    title: Cwsac Id.
+    title: CWSAC battles
     type: string
-  - description: Name of the CWSAC battle associated with the casualties.
-    format: default
-    name: cwsac_battle_name
-    title: Cwsac Battle Name
-    type: string
+    constraints:
+      required: false
+      pattern: "^([A-Z]{2}[0-9]{3})?( [A-Z]{2}[0-9]{3})*$"
+  primaryKey:
+  - date
+  - description
 sources:
 - Greer2005
 title: Weekly casualty data from Greer "Counting Casualties Week-by-Week"

@@ -4,6 +4,6 @@ from invoke import Collection
 
 from . import data, misc
 
-ns = Collection(misc.clean, misc.doc, misc.deploy)
+ns = Collection(misc.clean, misc.doc, misc.deploy, misc.check_tables)
 ns.add_task(data.build, name='build', default=True)
 ns.add_collection(Collection.from_module(data))

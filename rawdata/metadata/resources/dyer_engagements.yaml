@@ -5,25 +5,15 @@ schema:
   fields:
   - format: default
     name: slug
-    title: slug
+    title: Slug
     type: string
+    description: An unique identifier for the engagement generated from
+      the battle dates and description.
+    constraints:
+      required: true
   - constraints:
-      pattern: '[A-Z]{2}'
-    description: 'State in which the event occurred. This uses the standard two letter
-      abbreviations
-
-      with the following exceptions.
-
-
-      - "DT": Dakota Territory
-
-      - "OK": anachronistically used for the Indian Territory
-
-      - "FR": France
-
-      - "MX": Mexico
-
-      '
+      required: true
+    description: 'State or territory in which the event occurred.'
     format: default
     name: state
     title: State
@@ -32,25 +22,42 @@ schema:
     name: start_date
     title: Start Date
     type: date
+    constraints:
+      required: true
+      minimum: "1860-01-01"
+      maximum: "1867-01-01"
   - format: default
     name: end_date
     title: End date
     type: date
+    constraints:
+      required: true
+      minimum: "1860-01-01"
+      maximum: "1867-01-01"
   - format: default
     name: nature_location
-    title: nature_location
+    title: Nature and Location
     type: string
+    constraints:
+      required: true
   - format: default
     name: troops_engaged
-    title: troops_engaged
+    title: Troops engaged
     type: string
+    description: A description of the troops engaged including the U.S. units
+      involved in the engagement and any losses incurred.
+    constraints:
+      required: true
   - description: 'Event type: action, skirmish, siege, etc'
     format: default
     name: event_type
     title: Event type
     type: string
+    constraints:
+      required: true
   - constraints:
       minimum: 0
+      required: false
     description: Union casualties (killed, wounded, and missing or captured).
     format: default
     name: casualties
@@ -58,6 +65,7 @@ schema:
     type: integer
   - constraints:
       minimum: 0
+      required: false
     description: Union killed or wounded
     format: default
     name: killed_wounded
@@ -65,6 +73,7 @@ schema:
     type: number
   - constraints:
       minimum: 0
+      required: false
     description: Union killed
     format: default
     name: killed
@@ -72,6 +81,7 @@ schema:
     type: integer
   - constraints:
       minimum: 0
+      required: false
     description: Union wounded
     format: default
     name: wounded
@@ -79,11 +89,14 @@ schema:
     type: integer
   - constraints:
       minimum: 0
+      required: false
     description: Union missing or captured
     format: default
     name: missing_captured
     title: Missing Captured
     type: number
+  primaryKey:
+  - slug    
 sources:
 - DyerBattles
 - dyer1908_war_rebel

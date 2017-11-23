@@ -2,31 +2,52 @@ format: csv
 name: livermore_battles
 path: data/livermore_battles.csv
 schema:
+  primaryKey:
+  - battle_id
   fields:
   - format: default
     name: battle_id
-    title: battle_id
+    title: Battle identifier
     type: integer
+    description: Battle identifier. Battles are numbered by row in the
+      Livermore source.
+    constraints:
+      required: true
+      minimum: 1
+      maximum: 63
   - format: default
     name: battle_name
     title: Battle name
     type: string
+    constraints:
+      required: true
   - description: Page in Livermore (1900) in which the battle description appears.
     format: default
     name: page
     title: page
     type: integer
+    constraints:
+      required: true
+      minimum: 1
   - format: default
     name: start_date
     title: Start date
     type: date
+    constraints:
+      required: true
+      minimum: "1861-01-01"
+      maximum: "1866-01-01"
   - format: default
     name: end_date
     title: End date
     type: date
+    constraints:
+      required: true
+      minimum: "1861-01-01"
+      maximum: "1866-01-01"
   - constraints:
       enum:
-      - US
+      - Union
       - Confederate
     description: 'Was the Confederate or the US the attacker in the battle?
 
@@ -39,8 +60,10 @@ schema:
     type: string
   - constraints:
       enum:
-      - US
+      - Union
       - Confederate
+      - ''
+      required: false
     description: 'Confederate or Union victory.
 
       This did not appear directly in Livermore (1900), but is from the ``PAR`` database.'
@@ -52,8 +75,10 @@ schema:
     type: string
   - constraints:
       enum:
-      - US
+      - Union
       - Confederate
+      - ''
+      required: false
     description: '"Confederate" if it was a Confederate assault on Union fortified
       lines; "US" if it was a Union assault on Confederate fortified lines; missing
       if it was not an assault on foritied lines.
@@ -68,6 +93,8 @@ schema:
       - Failure
       - Success
       - Partial Success
+      - ''
+      required: false
     description: 'Assault outcome; missing if the battle was not an assault.
 
       This comes from the Table "Assaults on Fortified Lines" on p. 75.'
@@ -81,6 +108,8 @@ schema:
       - Retired
       - Rout
       - Victory
+      - ''
+      required: false
     description: 'Union result for the battle.
 
       Seperate Union and Confederate results are given because the results in the
@@ -100,6 +129,8 @@ schema:
       - Retired
       - Rout
       - Victory
+      - ''
+      required: false
     description: 'Confederate result of the battle
 
       This comes from the tables "Routs", "Victories", and "Battles Fought to Cover
@@ -112,7 +143,8 @@ schema:
   - constraints:
       maxLength: 2
       minLength: 2
-      pattern: '[A-Z][A-Z]'
+      pattern: '^[A-Z][A-Z]$'
+      required: true
     description: Two-letter abbreviation of the state in which the battle was fought.
     format: default
     name: state
@@ -124,6 +156,7 @@ schema:
       - ME
       - LS
       - TM
+      required: true
     description: CWSAC theater of the battle. See :doc:`cwss_theaters`.
     format: default
     name: theater

@@ -8,14 +8,19 @@ schema:
     name: campaign
     title: Campaign
     type: string
+    constraints:
+      required: true
   - description: Theater of the campaign
     format: default
     name: theater
     title: Theater
     type: string
+    constraints:
+      required: true
   - constraints:
       maximum: 1865
       minimum: 1861
+      required: true
     format: default
     name: start_year
     title: Start year
@@ -23,6 +28,7 @@ schema:
   - constraints:
       maximum: 12
       minimum: 1
+      required: true
     format: default
     name: start_month
     title: Start month
@@ -30,6 +36,7 @@ schema:
   - constraints:
       maximum: 1865
       minimum: 1861
+      required: true
     format: default
     name: end_year
     title: End year
@@ -37,12 +44,13 @@ schema:
   - constraints:
       maximum: 12
       minimum: 1
+      required: true
     format: default
     name: end_month
     title: End Month
     type: integer
   - description: URI of the dbpedia.org resource for the campaign
-    format: default
+    format: url
     name: dbpedia
     sources:
     - jrnold

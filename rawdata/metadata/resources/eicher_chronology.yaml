@@ -7,21 +7,38 @@ schema:
     name: date
     title: Date
     type: date
-  - description: 'Description of the event.
-
-      '
+    description: Event date
+    constraints:
+      required: true
+      minimum: "1860-01-01"
+      maximum: "1867-01-01"
+  - description: Event description
     format: default
     name: event
     title: Event
     type: string
+    constraints:
+      required: true
   - format: default
     name: superevent
     title: superevent
     type: string
+    constraints:
+      required: false
+    description: The chronology will include a separate entry for each date of
+      a multi-day event. This is used to group those entries.
   - format: default
     name: subevent
     title: subevent
     type: string
+    constraints:
+      required: false
+    description: The chronology will include a separate entry for each date of
+      a multi-day event. However, sometimes there will be an additional note
+      on one of those entries.
+  primaryKey:
+  - date
+  - event      
 sources:
 - Eicher2001
 title: Chronology of Some Important Civil War Dates from Eicher and Eicher (2001)

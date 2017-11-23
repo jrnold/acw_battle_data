@@ -2,18 +2,25 @@ format: csv
 name: livermore_commanders
 path: data/livermore_commanders.csv
 schema:
+  primaryKey:
+  - battle_id
+  - belligerent
   fields:
   - format: default
     name: battle_id
     title: battle_id
     type: integer
+    constrains:
+      required: true
+      minimum: 1
   - constraints:
       enum:
       - US
       - Confederate
+      required: true
     format: default
     name: belligerent
-    title: belligerent
+    title: Belligerent
     type: string
   - description: CWSS PersonID of the commander. See :doc:`cwss_people`.
     format: uuid
@@ -24,10 +31,14 @@ schema:
     name: last_name
     title: Last Name
     type: string
+    constraints:
+      required: true
   - format: default
     name: first_name
     title: First Name
     type: string
+    constraints:
+      required: true
   - format: default
     name: middle_name
     title: Middle Name
@@ -40,10 +51,16 @@ schema:
     name: rank
     title: Rank
     type: string
-  - format: default
+    description: Military rank of hte commander at the time of the battle.
+    constraints:
+      required: true
+  - description: Was the commander in the navy?
+    format: default
     name: navy
     title: navy
-    type: Was the commander in the navy?
+    type: boolean
+    constraints:
+      required: true
 sources:
 - jrnold
 title: 'Livermore (1900) battle data: commanders'

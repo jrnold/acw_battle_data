@@ -102,26 +102,6 @@ schema:
     name: potnr_boundary
     title: potnr_boundary
     type: number
-  - constraints:
-      minimum: 0
-    description: Mean of the estimated strength in personnel of the force. See code
-      for how it is calculated.
-    format: default
-    name: strength_mean
-    sources:
-    - jrnold
-    title: Strength (mean)
-    type: number
-  - constraints:
-      minimum: 0
-    description: Variance of the estimated strength in personnel of the force. See
-      code for how it is calculated.
-    format: default
-    name: strength_var
-    sources:
-    - jrnold
-    title: Strength (variance)
-    type: number
 sources:
 - CWSII
 - CWSIIAL

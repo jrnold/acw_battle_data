@@ -7,6 +7,7 @@ schema:
       maxLength: 6
       minLength: 5
       pattern: '[A-Z]{2}[0-9]{3}[A-Z]?'
+      required: true
     description: CWSAC battle identifier
     format: default
     name: battle
@@ -17,118 +18,77 @@ schema:
       - US
       - Confederate
       - Native American
+      required: true
     description: 'Side of the force: Confederate or Union or Native American.'
     format: default
     name: belligerent
-    title: belligerent
+    title: Belligerent
     type: string
   - description: Description of the force, often including the units involved.
     format: default
     name: description
     title: description
     type: string
+    constraints:
+      required: true
   - description: Minimum forces engaged.
     format: default
     name: strength_min
-    title: strength_min
-    type: number
+    title: Strength (minimum)
+    type: integer
+    description: The number of personnel in the force. In some descriptions,
+      an explicit number is given; in others, only the units involved or a
+      general description of unit sizes is provided. The unit descriptions are
+      neither complete nor consistent so are not coded. See the Dyer or CWSS
+      data for more complete lists of units at each battle.
+    constraints:
+      required: false
+      minimum: 0
   - description: Maximum sources engaged.
     format: default
     name: strength_max
-    title: strength_max
-    type: number
-  - format: default
-    name: armies
-    title: armies
-    type: number
-  - format: default
-    name: corps
-    title: corps
-    type: number
-  - format: default
-    name: divisions
-    title: divisions
-    type: number
-  - format: default
-    name: brigades
-    title: brigades
-    type: number
-  - format: default
-    name: regiments
-    title: regiments
-    type: number
-  - format: default
-    name: companies
-    title: companies
-    type: number
-  - format: default
-    name: cavalry_regiments
-    title: cavalry_regiments
-    type: number
-  - format: default
-    name: cavalry_brigades
-    title: cavalry_brigades
-    type: number
-  - format: default
-    name: cavalry_corps
-    title: cavalry_corps
-    type: number
-  - format: default
-    name: cavalry_divisions
-    title: cavalry_divisions
-    type: number
-  - format: default
-    name: artillery_batteries
-    title: artillery_batteries
-    type: number
-  - format: default
-    name: ships
-    title: ships
-    type: number
-  - format: default
-    name: ironclads
-    title: ironclads
-    type: number
-  - format: default
-    name: gunboats
-    title: gunboats
-    type: number
-  - format: default
-    name: wooden_ships
-    title: wooden_ships
-    type: number
-  - format: default
-    name: rams
-    title: rams
-    type: number
+    title: Strength (maximum)
+    type: integer
+    constraints:
+      required: false
+      minimum: 0
   - format: default
     name: casualties
     title: casualties
     type: number
+    constraints:
+      minimum: 0
+    description: Number of casualties (killed, wounded, and missing or captured).
   - format: default
     name: killed
     title: killed
-    type: number
+    type: integer
+    constraints:
+      minimum: 0
   - format: default
     name: wounded
     title: wounded
     type: number
+    constraints:
+      minimum: 0
+
   - format: default
     name: missing
     title: missing
-    type: number
+    type: integer
+    constraints:
+      minimum: 0
+
   - format: default
     name: captured
     title: captured
-    type: number
-  - format: default
-    name: strength_mean
-    title: strength_mean
-    type: number
-  - format: default
-    name: strength_var
-    title: strength_var
-    type: number
+    type: integer
+    constraints:
+      minimum: 0
+
+  primaryKey:
+  - cwsac_id
+  - belligerent
 sources:
 - CWSAC1993
 - CWSAC1997

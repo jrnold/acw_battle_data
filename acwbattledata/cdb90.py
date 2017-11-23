@@ -1,7 +1,8 @@
 import csv
 import json
-import sys
 import os.path as path
+import sys
+
 
 def build(src, dst):
     with open(src, 'r', encoding='utf8') as f:
@@ -17,11 +18,14 @@ def build(src, dst):
     with open(dst, 'w', encoding='utf8') as f:
         json.dump(ret, f)
 
+
 def main():
     print("Building CDB90 data")
     src, dst = sys.argv[1:3]
-    build(path.join(src, 'rawdata', 'cdb90', 'cdb90_to_cwsac.csv'),
-          path.join(dst, 'cdb90_to_cwsac.json'))
+    build(
+        path.join(src, 'rawdata', 'cdb90', 'cdb90_to_cwsac.csv'),
+        path.join(dst, 'cdb90_to_cwsac.json'))
+
 
 if __name__ == "__main__":
     main()

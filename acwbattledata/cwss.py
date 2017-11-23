@@ -176,6 +176,8 @@ def campaigns_csv(root, dst):
                 campaign_name = properties.find(xmlns('d:CampaignName')).text
             campaign_dates = properties.find(xmlns('d:CampaignDates')).text
             if campaign_dates is not None and len(campaign_dates.strip()) > 0:
+                if campaign_dates == "January 29, 1863":
+                    campaign_dates = "January 1863"
                 start_date, end_date = parse_month_range(campaign_dates)
             else:
                 start_date = end_date = None

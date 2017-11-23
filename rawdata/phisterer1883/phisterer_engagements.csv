@@ -146,7 +146,7 @@ battle_id,start_date,end_date,monthonly,location,state,battle_name
 145,1861-12-11,1861-12-11,False,"Dam No. 4, Po'omae, Va.",VA,12th Indiana Volunteers.
 146,1861-12-11,1861-12-11,False,"Bertrand, Mo.",MO,2d Illinois Cavalry.
 147,1861-12-12,1861-12-12,False,"Bagdad, Shelby Co., Ky.",KY,6th Kentucky Volunteers.
-148,1861-12-13,1861-12-13,False,"Camp Alleghany (also Buffalo Mountain), W. Va.",VA," 9th and 13th Indiana, 25th and 32d Ohio, and 2d W. Virginia Volunteers, commanded by Brig.-General R. H. Milroy."
+148,1861-12-13,1861-12-13,False,"Camp Alleghany (also Buffalo Mountain), W. Va.",WV," 9th and 13th Indiana, 25th and 32d Ohio, and 2d W. Virginia Volunteers, commanded by Brig.-General R. H. Milroy."
 149,1861-12-17,1861-12-17,False,"Rowlett's Station (also known as Mumfordsville and Woodsonville), Ky.",KY,32d Indiana Volunteers.
 150,1861-12-18,1861-12-18,False,"Milford (also Shawnee or Blackwater Mound), Mo.",MO,"27th Ohio, and 8th, 18th, 22d, and 24th Indiana Volunteers, 31st Kansas and 1st Iowa Cavalrj', a detachment of TJ. S. Cavalry, and two batteries of 1st Missouri Light Artillery."
 151,1861-12-20,1861-12-20,False,"Drainesville, Va.",VA,"1st, 6th, 9th, 10th, and 12th Regiments Pennsylvania Reserve Corps, 1st Pennsylvania Artillery, and 1st Pennsylvania Cavalry."
@@ -163,7 +163,7 @@ battle_id,start_date,end_date,monthonly,location,state,battle_name
 162,1862-1-7,1862-1-7,False,"Blue Gap, near Romney, Va.",VA,"4th, 5th, 7th, and 8th Ohio, and 14th Indiana Volunteers, and1st West Virginia Cavalry."
 163,1862-1-7,1862-1-7,False,"Jennie's Creek (also known as Paintsville), Ky.",KY,Four companies of the 1st West Virginia Cavalry.
 164,1862-1-8,1862-1-8,False,"Charlestown, Mo.",MO,10th Iowa Volunteers.
-165,1862-1-8,1862-1-8,False,"Dry Forks, Cheat River, W. Va.",VA,One company of the 2d West Virginia Cavalry.
+165,1862-1-8,1862-1-8,False,"Dry Forks, Cheat River, W. Va.",WV,One company of the 2d West Virginia Cavalry.
 166,1862-1-8,1862-1-8,False,"Silver Creek, Randolph Co., Mo.",MO,"Detachments of 1st and 2d Mo., 4th Ohio and 1st Iowa Cavalry. (Also known as Roan's Tan-yard and Sugar Creek.)"
 167,1862-1-9,1862-1-9,False,"Columbus, Mo.",MO,7th Kansas Cavalry.
 168,1862-1-10,1862-1-10,False,"Middle Creek and Prestonburg, Ky.",KY,"40th and 42d Ohio, 14th and 22d Kentucky Volunteers, Col .J. A. Garfield commanding."
@@ -256,7 +256,7 @@ battle_id,start_date,end_date,monthonly,location,state,battle_name
 255,1862-4-26,1862-4-26,False,"Reconnoisance to Lick Creek, Miss.",MS,"Troops commanded by Brig.-Geueral A. J. Smith, army before Corinth, Miss."
 256,1862-4-26,1862-4-26,False,"Redonbt before Yorktown, Va.",VA,Three companies of the 1st Massachusetts Volunteers.
 257,1862-4-27,1862-4-27,False,"Horton's Mills, near Newbern, N. C",NC,103d New York Volunteers.
-258,1862-4-28,1862-4-28,False,Paint Rock Railroad Bridge.,,Twenty-two men of the 10th Wisconsin Volunteers (General D. C. Buell's command).
+258,1862-4-28,1862-4-28,False,"Paint Rock Railroad Bridge, Ala.",AL,Twenty-two men of the 10th Wisconsin Volunteers (General D. C. Buell's command).
 259,1862-4-28,1862-4-28,False,"Cumberland Mountain, Tenn.",TN,"22d Kentucky, 16th and 42d Ohio Volunteers."
 260,1862-4-28,1862-4-28,False,"Monterey, Tenn.",TN,2d Iowa Cavalry.
 261,1862-4-29,1862-4-29,False,"Bridgeport, Ala.",AL,"3d Division, Army of the Ohio, Brig.-General 0. M. Mitchell."
@@ -387,7 +387,7 @@ battle_id,start_date,end_date,monthonly,location,state,battle_name
 386,1862-7-13,1862-7-13,False,"Fairfax (near Rapidan R.R. Bridge), Va.",VA,1st Maryland Cavalry.
 387,1862-7-13,1862-7-13,False,"Murfreesboro', Tenn.",TN,"9th Michigan and 3d Pennsylvania Volunteers, 4th Kentucky and 7th Pennsylvania Cavalry, and 1st Kentucky Battery."
 388,1862-7-14,1862-7-14,False,"Batesville, Ark.",AR,4th Iowa Cavalry.
-389,1862-7-15,1862-7-15,False,Attempt to Destroy the Rebel Ram Arkansas.,,"Carondelet, Queen of the West, Tyler, and Essex, and 4ch Wisconsin Volunteers."
+389,1862-7-15,1862-7-15,False,Attempt to Destroy the Rebel Ram Arkansas.,MS,"Carondelet, Queen of the West, Tyler, and Essex, and 4th Wisconsin Volunteers."
 390,1862-7-15,1862-7-15,False,"Apache Pass, A. T.",AZ,2d California Cavalry.
 391,1862-7-15,1862-7-15,False,"Fayetteville, Ark.",AR,"Union troops, commanded by Major W. H. Miller, 2d Wisconsin Cavalry."
 392,1862-7-15,1862-7-15,False,"Near Decatur, Tenn.",TN,Detachment of 1st Ohio Cavalry.
@@ -454,8 +454,8 @@ battle_id,start_date,end_date,monthonly,location,state,battle_name
 453,1862-8-11,1862-8-11,False,"Wyoming Court House, West Va.",WV,"Detachment of the 37th Ohio Volunteers,"
 454,1862-8-11,1862-8-11,False,"Kinderhook, Tenn.",TN,Detachments of the 3d Kentucky and 1st Tennessee Cavalry.
 455,1862-8-11,1862-8-14,False,"Helena, Ark.",AR,2d Wisconsin Cavalry.
-456,1862-8-12,1862-8-12,False,"Gallatin, Tenn.",TN,"2d Indiana, 4th and 5th Kentucky, and 6th Pennsylvania"
-457,1862-8-13,1862-8-13,False,Cavalry; Rebels capture the post; John H. Morgan's raid.,,"69th Ohio and 11th Michigan Volunteers drive the rebels from the town, with slight loss."
+456,1862-8-12,1862-8-12,False,"Gallatin, Tenn.",TN,"2d Indiana, 4th and 5th Kentucky, and 6th Pennsylvania Cavalry; Rebels capture the post; John H. Morgan's raid."
+457,1862-8-13,1862-8-13,False,"Gallatin, Tenn.",TN,"69th Ohio and 11th Michigan Volunteers drive the rebels from the town, with slight loss."
 458,1862-8-13,1862-8-13,False,"Clarendon, Ark. ",AR,"Brig.-General Hovey's Division, 13th Corps. "
 459,1862-8-15,1862-8-15,False,"Merriweather's Ferry, Obion River, Tenn.",TN,One company 2d Illinois Cavalry.
 460,1862-8-16,1862-8-16,False,"Lone Jack, Mo.",MO,Missouri Militia Cavalry.
@@ -479,7 +479,7 @@ battle_id,start_date,end_date,monthonly,location,state,battle_name
 478,1862-8-24,1862-8-24,False,"Coon Creek (or Lamar), Mo.",MO,Organizations not recorded ; official.
 479,1862-8-25,1862-8-25,False,Fort Donelson. Tenn.,TN,71st Ohio Volunteers and 5th Iowa Cavalry.
 480,1862-8-25,1862-8-25,False,"Bloomfield, Mo.",MO,13th Illinois Cavalry.
-481,1862-8-25,1862-8-26,False,"New Ulm, Minn.",MN,Indian fight; organizations not recorded.
+481,1862-8-25,1862-8-26,False,"New Ulm, Minn.",MN,"Indian fight; organizations not recorded."
 482,1862-8-26,1862-8-26,False,"Cumberland Iron Works, Tenn.",TN,71st Ohio Volunteers and 5th Iowa Cavalry.
 483,1862-8-26,1862-8-26,False,"Madisonville, Ky.",KY,Cavalry by Lieut. -Colonel Porter.
 484,1862-8-26,1862-8-26,False,"Rienzi and Kossuth, Miss.",MS,2d Iowa and 7th Kansas Cavalry.
@@ -578,11 +578,11 @@ battle_id,start_date,end_date,monthonly,location,state,battle_name
 577,1862-10-6,1862-10-6,False,"Liberty and Sibley's Landing, Mo.",MO,5th Missouri Militia Cavalry.
 578,1862-10-6,1862-10-6,False,"Springfield to near Texas, Ky.",KY,"Advance of 3d Corps, Army of the Ohio."
 579,1862-10-7,1862-10-7,False,"La Vergne, Tenn.",TN,Palmer's Brigade.
-580,1862-10-8,1862-10-8,False,"Perryville (or Chaplin Hill), Ky.",KY,"1st Corps, Maj .-General A. McD. McCook, and 3d Corps, BrigGeneral C C Gilbert, Army of the Ohio, commanded by Maj.-General D. C Buell."
+580,1862-10-8,1862-10-8,False,"Perryville (or Chaplin Hill), Ky.",KY,"1st Corps, Maj. General A. McD. McCook, and 3d Corps, BrigGeneral C C Gilbert, Army of the Ohio, commanded by Maj.-General D. C Buell."
 581,1862-10-9,1862-10-9,False,"Lawrenceburg (also called Dog Walk), Ky.",KY,"15th and 19th TJ. S. Infantry, 1st and 49th Ohio Volunteers, Battery H, 5th U. S. Artillery, and 9th Kentucky Cavalry."
 582,1862-10-9,1862-10-9,False,"Aldie, Va.",VA,Detachment of Cavalry from Maj.-General Sigel's command.
 583,1862-10-10,1862-10-10,False,"Harrodsburg, Ky.",KY,"Union troops commanded by Lieut.-Colonel Boyle, 9th Kentucky Cavalry."
-584,1862-10-10,1862-10-10,False,Upper Missouri River.,,Indian fight.
+584,1862-10-10,1862-10-10,False,Upper Missouri River.,ND,Indian fight.
 585,1862-10-11,1862-10-11,False,"La Grange (near Helena), Ark.",AR,Detachment of the 4th Iowa Cavalry.
 586,1862-10-11,1862-10-11,False,"Cape Fear River, N.C.",NC,U. S. gunboat Maratanza.
 587,1862-10-11,1862-10-11,False,"Mouth of Monocacy, Md.",MD,3d and 4th Maine Volunteers.
@@ -606,7 +606,7 @@ battle_id,start_date,end_date,monthonly,location,state,battle_name
 605,1862-10-22,1862-10-22,False,"Pocotaligo (or Yemassee), S.C.",SC," 47th, 55th, and 76th Pennsylvania, 48th New York, 6th and7th Connecticut, 3d and 4th New Hampshire, and 3d Rhode Island Volunteers, 1st New York Engineers, 1st Massachnsetts Cavalry, and Batteries D and M, 1st, and E, 3d U. S. Artillery."
 606,1862-10-23,1862-10-23,False,"Waverly, Tenn.",TN, 83d Illinois Volunteers.
 607,1862-10-23,1862-10-23,False,"Shelby Depot, Tenn.",TN," Reconnoitring party, commanded by Colonel D. Stuart, 55th Illinois Volunteers."
-608,1862-10-23,1862-10-23,False,Point Lick and Big Hill Road,, Cavalry commanded by Colonel E. McCook.
+608,1862-10-23,1862-10-23,False,Point Lick and Big Hill Road,KY, Cavalry commanded by Colonel E. McCook.
 609,1862-10-24,1862-10-24,False,"Manassas Junction, Va.",VA, Organizations not recorded.
 610,1862-10-24,1862-10-24,False,"Catlett's Station, Va.",VA, Detachment of 3d West Virginia Cavalry.
 611,1862-10-24,1862-10-24,False,"Grand Frairie, Mo.",MO, Two battalions Missouri Militia Cavalry.
@@ -699,7 +699,7 @@ battle_id,start_date,end_date,monthonly,location,state,battle_name
 698,1862-12-20,1862-12-20,False,"Trenton, Tenn.",TN,"Detachments 7th Tennessee Cavalry, 122d Dlinois Volunteers, and Convalescents captured by Forrest."
 699,1862-12-1,1862-12-31,True,"Davis' Mills, Wolf River, Miss.",MS,6 companies 25th Indiana Volunteers and 2 companies 5th Ohio Cavalry.
 700,1862-12-22,1862-12-22,False,"Isle of Wight Court-house, Va.",VA,Detachment 2d New York Mounted Rifles.
-701,1862-12-24,1862-12-24,False,"Middleburg, Miss. Central R.R.",,115 men of the 12th Michigan Volunteers.
+701,1862-12-24,1862-12-24,False,"Middleburg, Miss. Central R.R.",MS,115 men of the 12th Michigan Volunteers.
 702,1862-12-24,1862-12-24,False,"Glasgow, Ky.",KY,5 companies of the 2d Michigan Cavalry.
 703,1862-12-25,1862-12-25,False,"Green's Chapel, Ky",KY,Detachment of the 4th and 5th Indiana Cavalry.
 704,1862-12-25,1862-12-25,False,"Bear Wallow, Ky.",KY,2 battalions of the 12th Kentucky Cavalry.
@@ -723,9 +723,9 @@ battle_id,start_date,end_date,monthonly,location,state,battle_name
 722,1863-1-1,1863-1-31,True,"Stewart's Creek, Tenn.",TN,"3d Ohio Cavalry and 10th Ohio Volunteers, guarding wagon train."
 723,1863-1-1,1863-1-31,True,"La Vergne, Tenn.",TN,1st Michigan Engineers and Mechanics.
 724,1863-1-3,1863-1-3,False,"La Grange, Ark.",AR,Portion of General Washburn's Cavalry Regiment.
-725,1863-1-3,1863-1-3,False,"Moorefleld, W. Va.",VA,116th Ohio Volunteers.
+725,1863-1-3,1863-1-3,False,"Moorefleld, W. Va.",WV,116th Ohio Volunteers.
 726,1863-1-5,1863-1-5,False,"Middletown, Tenn.",TN,Cavalry of the Army of the Cumberland.
-727,1863-1-5,1863-1-5,False,"Hardy County, W. Va.",VA,Troops not specified.
+727,1863-1-5,1863-1-5,False,"Hardy County, W. Va.",WV,Troops not specified.
 728,1863-1-7,1863-1-8,False,"Springfield, Mo.",MO,"Missouri Militia, Convalescents, and Citizens."
 729,1863-1-8,1863-1-8,False,"Ripley, Tenn.",TN,2d Illinois Cavalry.
 730,1863-1-1,1863-1-31,True,"Catlett's Station, Va.",VA,Organizations not specified.
@@ -780,15 +780,15 @@ battle_id,start_date,end_date,monthonly,location,state,battle_name
 779,1863-2-22,1863-2-22,False,"Tuscumbia, Ala.",AL,"Cavalry Brigade, commanded by Colonel F. M. Comyn, 10th Missouri Cavalry."
 780,1863-2-23,1863-2-23,False,"Deer Creek, near Greenville, Miss.",MS,General Burbridge's Division of the 13th Corps.
 781,1863-2-23,1863-2-23,False,"Athens, Ky.",KY,Organizations not specified.
-782,1863-2-24,1863-2-24,False,"Mississippi River, below Vicksburg.",,U. S. Steamer Indianola.
-783,1863-2-25,1863-2-25,False,Hart wood Church. Va.,VA,Brig.-General Averill's Cavalry Brigade.
-784,1863-2-26,1863-2-26,False,"Strasburg Road, Va. ",VA,13th Pennsylvania and 1st New York Cavalry.
+782,1863-2-24,1863-2-24,False,"Mississippi River, below Vicksburg.",MS,U. S. Steamer Indianola.
+783,1863-2-25,1863-2-25,False,Hart wood Church. Va.,VA,Brig. General Averill's Cavalry Brigade.
+784,1863-2-26,1863-2-26,False,"Strasburg Road, Va.",VA,13th Pennsylvania and 1st New York Cavalry.
 785,1863-2-27,1863-2-27,False,"Near Newbern, N. C.",NC,"Detachment of 3d New York Cavalry, commanded by Cap tain Jacobs."
 786,1863-3-1,1863-3-31,True,"Bradyville, Tenn.",TN,1st Tennessee and 3d and 4th Ohio Cavalry.
 787,1863-3-2,1863-3-2,False,"Eagleville, Tenn.",TN,"15th, 16th, 18th, and 19th U. S. Infantry."
 788,1863-3-2,1863-3-4,False,"Petersburg, Chapel Hill, and Harpeth River, Tenn.",TN,1st Tennessee Cavalry.
 789,1863-3-3,1863-3-3,False,"Fort McAlister, Genesis Point, Ga.",GA,TJ. S. Navy.
-790,1863-3-3,1863-3-3,False,Owen's Valley.,,2d California Cavalry.
+790,1863-3-3,1863-3-3,False,Owen's Valley.,CA,2d California Cavalry.
 791,1863-3-4,1863-3-4,False,"Skeet (or Swan's Headquarters), N. C.",NC,"3d New York Cavalry, commanded by Captain Colin Biohardson."
 792,1863-3-4,1863-3-5,False,"Thompson's Station (or Springhill, and Unionvillet, Tenn.",TN,"33d and S5th Indiana, 22d Wisconsin, 19th Michigan, and 124th Ohio Volunteers, 18th Ohio Battery, and 2d Michigan, 9th Pennsylvania, and 4th Kentucky Cavalry."
 793,1863-3-8,1863-3-8,False,"Fairfax Court House, Va.",VA,Mosby's midnight raid.
@@ -928,7 +928,7 @@ battle_id,start_date,end_date,monthonly,location,state,battle_name
 927,1863-5-17,1863-5-17,False,"Big Black River, Miss.",MS,"Car's and Osterbaus' Divisions. 13th Corps, Maj.-General J. A. McClernand ; engagement during Grant's Vicksburg campaign."
 928,1863-5-17,1863-5-20,False,"Fayetteville, Va.",VA,"12th and 91st Ohio Volunteers, and 2d West Virginia Cavalry."
 929,1863-5-18,1863-5-18,False,"Sherwood, Mo.",MO,Detachment of 2d Kansas Artillery and 1st Kansas (29th U. S. Colored Troops) Volunteers.
-930,1863-5-18,1863-5-18,False,"Attack by Guerillas on the Transport Crescent City, near Island No. 82.",,3d Iowa Volunteers.
+930,1863-5-18,1863-5-18,False,"Attack by Guerillas on the Transport Crescent City, near Island No. 82.",TN,3d Iowa Volunteers.
 931,1863-5-18,1863-5-18,False,"Carsville, Va.",VA,170th New York Volunteers.
 932,1863-5-18,1863-5-4,False,"Siege of Vicksburg, Miss.",MS,"13th Corps, Maj.-General J. A. McClernand ; 15th Corps, Maj.-General W. T. Sherman; 17th Corps, Maj.-General J. B. McPherson, commanded by Maj.-General IJ. S. Grant, assisted by the Navy on the Mississippi River under Admiral Porter. Re-enforced later by LaumanX Smith's, and Kimball's Divisions, of the 16th Corps ; two Divisions of the 9th Corps, Maj.-General J. S. Parke, and a Division from the Department of the Missouri under Maj.-General F. J. Herron ; first assault, May 19th, unsuccessful."
 933,1863-5-19,1863-5-19,False,"Winchester, Va.",VA,Detachment of Cavalry from Milroy's command.
@@ -989,12 +989,12 @@ battle_id,start_date,end_date,monthonly,location,state,battle_name
 988,1863-6-20,1863-6-20,False,"Rocky Crossing, Tallahassee River, Miss.",MS,9th Illinois Mounted Infantry and 5th Ohio Cavalry.
 989,1863-6-20,1863-6-20,False,"Greencastle, Penn.",PA,1st New York Cavalry.
 990,1863-6-20,1863-6-20,False,"Warm Springs, Fort McRae, New Mexico.",NM,Detachment of 1st New Mexico Cavalry.
-991,1863-6-20,1863-6-20,False,Pawnee Reservation.,,One company of the 2d Nebraska Cavalry.
+991,1863-6-20,1863-6-20,False,Pawnee Reservation.,OK,One company of the 2d Nebraska Cavalry.
 992,1863-6-20,1863-6-20,False,"Jackson Cross Roads, La.",LA,"Detachments of the 6th and 7th Illinois and 2d Rhode Island Cavalry, 62d Massachusetts Volunteers, and a section of Artillery."
 993,1863-6-20,1863-6-20,False,"Hernando, Miss.",MS,"5th Ohio, 2d Illinois, and 1st Missouri Cavalry."
 994,1863-6-20,1863-6-20,False,"La Fourche Crossing (or Thibodeaux , La.",LA,"Detachments of the 23d Connecticut, 176th New York, 26th, 42d, and 47th Massachusetts, and 21st Indiana Volunteers."
 995,1863-6-1,1863-6-30,True,"Upperville, Va.",VA,"Cavalry Corps, Army of the Potomac."
-996,1863-6-1,1863-6-30,True,"Low Creek, W. Va.",VA,Organizations not given.
+996,1863-6-1,1863-6-30,True,"Low Creek, W. Va.",WV,Organizations not given.
 997,1863-6-22,1863-6-22,False,"Hill's Plantation, Miss.",MS,Portions of three companies of the 4th Iowa Cavalry.
 998,1863-6-22,1863-6-22,False,"Oy press Bend, Miss.",MS,Union Gunboats.
 999,1863-6-23,1863-6-23,False,"Brashear City, La.",LA,"Detachments of the 178th and 114th New York, 23d Connecticut, 42d Massachnsetts, and 21st Indiana Volunteers."
@@ -1013,7 +1013,7 @@ battle_id,start_date,end_date,monthonly,location,state,battle_name
 1012,1863-6-28,1863-6-28,False,"Donaldsonville, La.",LA,"28th Maine Volunteers and Convalescents, assisted by Gun boats."
 1013,1863-6-28,1863-6-28,False,"Fort Hill, Vicksburg, Miss.",MS,Part of siege of Vicksburg.
 1014,1863-6-29,1863-6-29,False,"McConnellsburg, Pa.",PA,1st New York Cavalry.
-1015,1863-6-29,1863-6-29,False,Westminster. Mel.,,Detachment of the 1st Delaware Cavalry.
+1015,1863-6-29,1863-6-29,False,Westminster. Md.,MD,Detachment of the 1st Delaware Cavalry.
 1016,1863-6-29,1863-6-29,False,"Lake Providence, La.",LA,Organizations not stated.
 1017,1863-6-30,1863-6-30,False,"Sporting Hill, near Harrisburg, Pa.",PA,22d and 37th New York Militin and Lander's Battery.
 1018,1863-6-30,1863-6-30,False,"Hanover, Pa.",PA,"3d Division Cavalry Corps, Army of the Potomac."
@@ -1056,7 +1056,7 @@ battle_id,start_date,end_date,monthonly,location,state,battle_name
 1055,1863-7-9,1863-7-16,False,"Jackson, Miss.",MS,"9th Corps, Maj.-General Parke; 13th Corps, Maj.-Oen eral E. O. C. Ord; 15th Corps, Maj.-General W. T. Sherman; and a portion of the 16th Corps; includes skirmishes at Rienzi, Bolton Depot, Canton, and Clinton."
 1056,1863-7-10,1863-7-6,False,"Fort Wagner, Morris Island, S.C.",SC,"Troops of the Department of the South, com manded by Maj.-General Q. A. Gillmore, and U. S. Navy under Admiral Dahlgren."
 1057,1863-7-10,1863-7-11,False,Assault on Fort Wagner.,SC,"67th Connecticut, 76th Pennsylvania, 9th Maine, 3d New Hampshire, 48th and 100th New York Volunteers."
-1058,1863-7-10,1863-7-10,False,"Union City, Train,",,4th Missouri Cavalry.
+1058,1863-7-10,1863-7-10,False,"Union City, Tenn.",TN,4th Missouri Cavalry.
 1059,1863-7-10,1863-7-10,False,"Big Creek, Ark.",AR,Organizations not stated.
 1060,1863-7-11,1863-7-11,False,"Hagerstown, Md.",MD,"Cavalry, Army of the Potomac."
 1061,1863-7-12,1863-7-12,False,"Fnnkslown, Md.",MD,"Infantry, Cavalry, and Artillery of the Army of the Potomac."
@@ -1069,7 +1069,7 @@ battle_id,start_date,end_date,monthonly,location,state,battle_name
 1068,1863-7-14,1863-7-14,False,"Lawrenceburg, Oh.",OH,105th Indiana Minute Men ilring into each other ; Morgan's raid.
 1069,1863-7-14,1863-7-14,False,"Falling Waters, Md.",MD,"3d Cavalry Division, Army of the Potomac."
 1070,1863-7-14,1863-7-14,False,"Elk River, Tenn.",TN,"Advance of the 14th Corps, Maj.-General Geo. H. Thomas, Army of the Cumberland."
-1071,1863-7-14,1863-7-14,False,"Shady Spring, W. Va.",VA,2d West Virginia Cavalry.
+1071,1863-7-14,1863-7-14,False,"Shady Spring, W. Va.",WV,2d West Virginia Cavalry.
 1072,1863-7-14,1863-7-14,False,"Near Bolivar Heights, Va.",VA,1st Connecticut Cavalry.
 1073,1863-7-15,1863-7-15,False,"Pulaski, Ala.",AL,3d Ohio and 5th Tennessee Cavalry.
 1074,1863-7-15,1863-7-15,False,"Halltown, Va.",VA,16th Pennsylvania and 1st Maine Cavalry.
@@ -1080,7 +1080,7 @@ battle_id,start_date,end_date,monthonly,location,state,battle_name
 1079,1863-7-18,1863-7-18,False,"Brandon, Miss.",MS,Portion of General Sherman's troops.
 1080,1863-7-18,1863-7-18,False,"Rio Hondo, New Mexico.",NM,One company of the 1st New Mexico Cavalry ; Indian flght.
 1081,1863-7-18,1863-7-18,False,"Second Assault on Fort Wagner, S.C.",SC,"54th Massachnsetts (Colored), 6th Connecticut, 48th and 100th New York, 3d and 7th New Hampshire, 76th Pennsylvania, 9th Maine,  62d and 67th Ohio Volunteers.    XIII.—7 , . "
-1082,1863-7-18,1863-7-18,False,"Wytheville, W. Va.",VA,34th Ohio Volunteers and 1st and 2d West Virginia Cavalry.
+1082,1863-7-18,1863-7-18,False,"Wytheville, W. Va.",WV,34th Ohio Volunteers and 1st and 2d West Virginia Cavalry.
 1083,1863-7-18,1863-7-18,False,"Canton, Miss.",MS,"2d Wisconsin, 5th Illinois, 3d and 4th Iowa Cavalry, 76th Ohio, 25th and 31st Iowa, and 3d, 13th, and 17th Missouri Volunteers, and a battery of artillery."
 1084,1863-7-18,1863-7-18,False,"Raid, Tar River and Rocky Mount, N. C.",NC,3d and 12th New York and 1st North Carolina Battery.
 1085,1863-7-19,1863-7-19,False,"Buffington Island (also known as St. George's Creek), Oh.",OH,"1st, 3d, 8th, 9th, 11th, and 12th Kentucky, 8th, 9th, and 12th Michigan, 2d and 7th Ohio, and 5th Indiana Cavalry, 45th Ohio, and 2d Tennessee Mounted Infantry, Militia and Union Gunboats; capture of Morgan's raiders. "
@@ -1118,7 +1118,7 @@ battle_id,start_date,end_date,monthonly,location,state,battle_name
 1117,1863-8-24,1863-8-24,False,"Ooyle Tavern, near Fairfax Court House, Va.",VA,2d Massachusetts Cavalry.
 1118,1863-8-24,1863-8-24,False,"King George Co., Va.",VA,"3d Division Cavalry Corps, Army of the Potomac."
 1119,1863-8-25,1863-8-25,False,"Waynesville, Mo.",MO,Detachment of the 5th Missouri Militia Cavalry.
-1120,1863-8-25,1863-8-30,False,Averill's Raid in W. Va.,VA,"Cavalry, passed through Hardy, Pendleton, High land, Bath, Greenbrier, and Pocahontas Counties."
+1120,1863-8-25,1863-8-30,False,Averill's Raid in W. Va.,WV,"Cavalry, passed through Hardy, Pendleton, High land, Bath, Greenbrier, and Pocahontas Counties."
 1121,1863-8-25,1863-8-26,False,"Brownsville, Ark.",AR,"Davidson's Cavalry Division, Department of Missouri."
 1122,1863-8-26,1863-8-26,False,"Perryville, Ark.",AR,"6th Missouri Militia, 3d Wisconsin and 2d Kansas Cavalry, and 2d Indiana Battery."
 1123,1863-8-26,1863-8-26,False,"Rocky- Gap, near White Sulphur Springs, Va.",VA,"2d and 8d West Virginia and 14th Pennsylvania Cavalry, and 3d and 8th West Virginia Volunteers."
@@ -1134,7 +1134,7 @@ battle_id,start_date,end_date,monthonly,location,state,battle_name
 1133,1863-9-1,1863-9-30,True,"Devil's Back Bone (known also as Fort Smith and Cotton Gap), Ark.",AR,"1st Arkansas Volunteers, 6th Missouri Militia, 2d Kansas Cavalry, and 2d Indiana Battery."
 1134,1863-9-3,1863-9-5,False,"White Stone Hill, Dakota Terr.",ND,"2d Nebraska, 6th Iowa, and one company of the 7th Iowa Cavalry; right with Indians."
 1135,1863-9-5,1863-9-5,False,"Limestone Station, near Telford, Tenn.",TN,Five companies of the 100th Ohio Volunteers.
-1136,1863-9-5,1863-9-5,False,"Moorefield, W. Va.",VA,1st Wert Virginia Volunteers.
+1136,1863-9-5,1863-9-5,False,"Moorefield, W. Va.",WV,1st Wert Virginia Volunteers.
 1137,1863-9-6,1863-9-6,False,"Brandy Station, Va.",VA,"Cavalry, Army of the Potomac."
 1138,1863-9-7,1863-9-7,False,"Evacuation of Battery Gregg and Fort Wagner, Morris Island, S.C.",SC,Maj.-General Q. A. Gillmore's troops and tHe U. S. Navy.
 1139,1863-9-7,1863-9-7,False,"Bear Skin Lake, Mo.",MO,2d Missouri Cavalry.
@@ -1153,7 +1153,7 @@ battle_id,start_date,end_date,monthonly,location,state,battle_name
 1152,1863-9-10,1863-9-10,False,"Knoxville, Tenn., occupied.",TN,"Army of the Ohio, Maj.-General Burnside."
 1153,1863-9-11,1863-9-11,False,"Ringgold, Ga.",GA,"Advance of the 21st Corps, Army of the Cumberland."
 1154,1863-9-11,1863-9-11,False,"Dug, Alpine, and Stevens' Gap (also known as Davis' Cross Roads), Ga.",GA,Advance of the Army of the Cumberland.
-1155,1863-9-11,1863-9-11,False,"Moorefield, W. Va.",VA,Troops not mentioned.
+1155,1863-9-11,1863-9-11,False,"Moorefield, W. Va.",WV,Troops not mentioned.
 1156,1863-9-11,1863-9-11,False,"Waldron, Ark.",AR,14th Kansas Cavalry.
 1157,1863-9-12,1863-9-12,False,"Sterling's Plantation, La.",LA,"Battery "" E,"" 1st Mis&ouri Artillery."
 1158,1863-9-12,1863-9-12,False,"Texas Co., Mo.",MO,5th Missouri Militia Cavalry.
@@ -1265,8 +1265,8 @@ battle_id,start_date,end_date,monthonly,location,state,battle_name
 1264,1863-11-3,1863-11-3,False,"Oolliersville, Tenn.",TN,"Cavalry Brigade, 16th Corps."
 1265,1863-11-4,1863-11-4,False,"Lawrenceburg, Tenn.",TN,14th Michigan Mounted Infantry.
 1266,1863-11-4,1863-11-4,False,"Moscow, Tenn.",TN,"Cavalry Brigade, 16th Corps."
-1267,1863-11-4,1863-11-4,False,"Metly's Ford, Little Tennessee Biver.",,Cavalry of the Army of the Ohio.
-1268,1863-11-5,1863-11-5,False,"Mill Point, Pocahontas Co., W. Va.",VA,14th Pennsylvania and 3d West Virginia Cavalry.
+1267,1863-11-4,1863-11-4,False,"Metly's Ford, Little Tennessee Biver.",TN,Cavalry of the Army of the Ohio.
+1268,1863-11-5,1863-11-5,False,"Mill Point, Pocahontas Co., W. Va.",WV,14th Pennsylvania and 3d West Virginia Cavalry.
 1269,1863-11-6,1863-11-6,False,"Kincaels, Tenn.",TN,Troops not stated.
 1270,1863-11-6,1863-11-6,False,"Rogersville, Tenn.",TN,"7th Ohio Cavalry, 2d Tennessee Mounted Infantry, and 2d Illinois Battery."
 1271,1863-11-6,1863-11-6,False,"Droop Mountain, Va.",VA,"14th Pennsylvania, and 2d and 5th West Virginia Cav alry, 8th and 10th West Virginia, and 28th Ohio Volunteers, and Battery B, West Virginia Artlllery."
@@ -1279,7 +1279,7 @@ battle_id,start_date,end_date,monthonly,location,state,battle_name
 1278,1863-11-11,1863-11-11,False,"Natchez, Miss.",MS,56th TJ. S. Colored Troops (6th Mississippi).
 1279,1863-11-12,1863-11-12,False,"Roseville, Ark.",AR,Two companies 2d Kansas Cavalry.
 1280,1863-11-13,1863-11-13,False,"Trinity River, Cal.",CA,Two companies 1st Battalion California Mountaineer Infantry.
-1281,1863-11-13,1863-11-13,False,"Mill Creek Valley, W. Va.",VA,Troops not stated.
+1281,1863-11-13,1863-11-13,False,"Mill Creek Valley, W. VA.",WV,Troops not stated.
 1282,1863-11-13,1863-11-13,False,"Palmyra, Tenn.",TN,"Mounted Infantry, commanded by Captain Cutter."
 1283,1863-11-14,1863-11-14,False,"Huffs Ferry, Tenn.",TN,"111th Ohio, 107th Illinois, 11th and 13th Kentucky, and 23d Michigan Volunteers, and 24th Michigan Battery."
 1284,1863-11-14,1863-11-14,False,"Rockford, Tenn.",TN,1st Kentucky Cavalry and 45th Ohio Mounted Infantry.
@@ -1312,7 +1312,7 @@ battle_id,start_date,end_date,monthonly,location,state,battle_name
 1311,1863-11-29,1863-11-29,False,"Fort Sanders, Knoxville, Tenn.",TN,Army of the Ohio; during siege of Knoxville.
 1312,1863-11-30,1863-11-30,False,"Salyersville, Ky.",KY,14th Kentucky Volunteers.
 1313,1863-12-1,1863-12-31,True,"Ripley, Miss.",MS,"2d Brigade, Cavalry Division, Army of the Tennessee."
-1314,1863-12-2,1863-12-2,False,"Walker's Ford, Clinch River, W. Va.",VA,"5th Indiana and 14th Illinois Cavalry, 21st Ohio Battery, 65th, 116th, and 118th Indiana Volunteers"
+1314,1863-12-2,1863-12-2,False,"Walker's Ford, Clinch River, W. Va.",WV,"5th Indiana and 14th Illinois Cavalry, 21st Ohio Battery, 65th, 116th, and 118th Indiana Volunteers"
 1315,1863-12-3,1863-12-3,False,"Salisbury, Tenn. ",TN,"2d Brigade, Cavalry Division, 16th Corps."
 1316,1863-12-4,1863-12-4,False,"Niobrera, Neb.",NB,One company 7th Iowa Cavalry.
 1317,1863-12-4,1863-12-4,False,"Moscow Station (or Wolf River Bridge), Miss.",MS,"Cavalry Division, 16th Corps."
@@ -1326,7 +1326,7 @@ battle_id,start_date,end_date,monthonly,location,state,battle_name
 1325,1863-12-10,1863-12-10,False,"Morristown, Tenn.",TN,"Garrard's Brigade of Cavalry, Army of the Ohio."
 1326,1863-12-10,1863-12-10,False,"Moresburg, Tenn.",TN,"Cavalry, Army of the Ohio."
 1327,1863-12-12,1863-12-12,False,"Daval's Bluff, Ark.",AR,8th Missouri Cavalry.
-1328,1863-12-12,1863-12-12,False,"Big Sewell and Meadow Bluff, W. Va.",VA,12th Ohio Volunteers.
+1328,1863-12-12,1863-12-12,False,"Big Sewell and Meadow Bluff, W. Va.",WV,12th Ohio Volunteers.
 1329,1863-12-14,1863-12-14,False,"Bean's Station, Tenn.",TN,"Cavalry Division, Army of the Ohio."
 1330,1863-12-1,1863-12-31,True,"Sangster'a Station, Va.",VA,160th New York Volunteers.
 1331,1863-12-16,1863-12-16,False,"Blain's Cross Beads, Tenn.",TN,Army of the Ohio.
@@ -1351,7 +1351,7 @@ battle_id,start_date,end_date,monthonly,location,state,battle_name
 1350,1864-1-4,1864-1-4,False,"Fort Sumner, New Mexico.",NM," Company B, 2d California, Apaches, and citizens; fight with the Navajo Indians."
 1351,1864-1-7,1864-1-7,False,"Martin's Creek, Ark.",AR,11th Missouri Cavalry.
 1352,1864-1-7,1864-1-7,False,"Madisonville, La.",LA,Troops not specifled.
-1353,1864-1-8,1864-1-8,False,"Petersburg, W. Va.",VA,Troops not specifled.
+1353,1864-1-8,1864-1-8,False,"Petersburg, W. Va.",WV,Troops not specifled.
 1354,1864-1-9,1864-1-9,False,"Turman's Ferry, Ky.",KY,39th Kentucky Volunteers.
 1355,1864-1-10,1864-1-10,False,"London Heights, Va.",VA,1st Maryland Potomac Home Brigade.
 1356,1864-1-10,1864-1-10,False,"Strawberry Plains, Tenn.",TN,Cavalry.
@@ -1377,24 +1377,24 @@ battle_id,start_date,end_date,monthonly,location,state,battle_name
 1376,1864-1-27,1864-1-27,False,"Fair Gardens (or French Broad and Kelly's Ford, near Seviersville), Tenn.",TN,"Cavalry Division, Army of the Ohio."
 1377,1864-1-27,1864-1-27,False,"Scott's Mills Road, near Knoxville. Tenn.",TN,13th Kentucky and 23d Michigan Volunteers.
 1378,1864-1-28,1864-1-28,False,"Tunnell Hill, Ga.",GA,"Part of 14th Corps, Army of the Cumberland."
-1379,1864-1-28,1864-1-28,False,Oregon Mountains.,,let California Cavalry.
-1380,1864-1-29,1864-1-29,False,"Medley, near Williamsport, W. Va.",VA,"23d Illinois, 2d Maryland Potomac Home Brigade, 1st and 14th West Virginia Volunteers, and 4th West Virginia and Ringgold's (Pa.) Cavalry."
+1379,1864-1-28,1864-1-28,False,Oregon Mountains.,OR,1st California Cavalry.
+1380,1864-1-29,1864-1-29,False,"Medley, near Williamsport, W. Va.",WV,"23d Illinois, 2d Maryland Potomac Home Brigade, 1st and 14th West Virginia Volunteers, and 4th West Virginia and Ringgold's (Pa.) Cavalry."
 1381,1864-1-29,1864-1-29,False,"Cumberland Gap, Tenn.",TN,Troops not stated.
 1382,1864-1-1,1864-1-31,True,Canyon de Chelly.,NM,Troops commanded by Colonel Kit Carson ; fight with Indians.
 1383,1864-2-1,1864-2-29,True,"Bachelor Creek, Newport Barracks, and Newbern, N.C.",NC,"132d New York, 9th Vermont, 17th Massachusetts, and 2d North Carolina Volunteers, 12th New York Cavalry, and 3d New York Artillery."
 1384,1864-2-1,1864-2-29,True,"Smithfield, Va.",VA,"Detachments of the 3d Pennsylvania Artillery, 20th New York Cavalry, 99th New York and 21st Connecticut Volunteers, and a detachment of Seamen from the U. S. Steamer Minnesota, on the Gunboat Smith Briggs."
 1385,1864-2-1,1864-2-29,True,"Waldron, Ark.",AR,2d Kansas Cavalry.
-1386,1864-2-1,1864-2-29,True,"New Creek Valley, W. Va.",VA,One company of Infantry.
+1386,1864-2-1,1864-2-29,True,"New Creek Valley, W. Va.",WV,One company of Infantry.
 1387,1864-2-1,1864-2-29,True,"Expedition up the Yazoo, Miss.",MS," 11th Illinois, 47th U. S. Colored Troops (8thLouisiana), 3d TJ. S. Colored Cavalry (1st Mississippi), and a portion of  Rear-Admiral Porter's Fleet. "
 1388,1864-2-3,1864-2-3,False,"Lebanon, Ala.",AL,Detachment from the Army of the Cumberland.
 1389,1864-2-3,1864-2-3,False,"Liverpool Heights, Miss.",MS,11th Illinois Volunteers and 4?th TJ. S. Colored Troops (8th Louisiana).
-1390,1864-2-3,1864-2-3,False,"Patterson Creek, W. Va.",VA,Troops not given.
-1391,1864-2-3,1864-2-3,False,"Springfield, W. Va.",VA,"Cavalry, commanded by Lieut.-Colonel Thompson."
+1390,1864-2-3,1864-2-3,False,"Patterson Creek, W. Va.",WV,Troops not given.
+1391,1864-2-3,1864-2-3,False,"Springfield, W. Va.",WV,"Cavalry, commanded by Lieut.-Colonel Thompson."
 1392,1864-2-3,1864-2-5,False,"Expedition from Vicksburg to Meridian, Miss.",MS,"Veatch's and A . J. Smith's Divisions, 16th Corps; Leggett's and Crocker's Divisions, 17th Corps, with 5th and 11th  Illinois, 4th Iowa, 10th Missouri, and Foster's Ohio Battalion of Cavalry. "
 1393,1864-2-4,1864-2-4,False,"Rolling Prairie, Mo.",MO,8th Missouri Militia Cavalry.
 1394,1864-2-4,1864-2-4,False,"Hot Springs, Ark.",AR,3d Missouri Cavalry.
 1395,1864-2-4,1864-2-4,False,"Champion Trill. Baker's Creek, Raymond, and Bolton Depot, Miss.",MS,"10th Missouri, 4th Iowa, 5th and 11th Illinois, and Foster's Battalion Ohio Cavalry, and a portion of the 17th Corps; part of expedition to Meridian, Miss.; also designated Big Black Itiver."
-1396,1864-2-4,1864-2-4,False,"Mooreileld, W. Va.",VA,"Portion of the troops of the Department of West Virginia, commanded by Colonel J. A. Mulligan, 23d Illinois Volunteers."
+1396,1864-2-4,1864-2-4,False,"Mooreileld, W. Va.",WV,"Portion of the troops of the Department of West Virginia, commanded by Colonel J. A. Mulligan, 23d Illinois Volunteers."
 1397,1864-2-6,1864-2-6,False,"Clinton and Jackson, Miss.",MS,Cavalry and a portion of the 17th Corps; expedition to Meridian.
 1398,1864-2-5,1864-2-5,False,"Qnallatown (or Deep Creek), N. C.",NC,Detachment of the 14th Illinois Cavalry.
 1399,1864-2-6,1864-2-6,False,"Cape G irarilean, Mo.",MO,2d Missouri Militia Cavalry.
@@ -1409,7 +1409,7 @@ battle_id,start_date,end_date,monthonly,location,state,battle_name
 1408,1864-2-9,1864-2-9,False,"Morgan's Mills, Spring River, White Co., Ark.",AR,"Detachment of the 11th Missouri and 1st Nebraska Cavalry, and 4th Arkansas Infantry."
 1409,1864-2-9,1864-2-10,False,"Barber's Place, South Fork, St. Mary's River, Fla.",FL,40th Massachnsetts Mounted Volunteers and Independent Battalion Massachnsetts Cavalry.
 1410,1864-2-10,1864-2-25,False,"Smith's Raids from Germantown, Tenn.",TN,"^th Missouri, 2d New Jersey, 7th Indiana. 19th Pennsylvania, 2d Iowa, 2d, 3d, 6th, 7th, and 9th Illinois, 3d Tennessee, 4th U. S., and 5th Kentucky Cavalry, 72d Indiana Mounted Infantry and other regiments composing Smith's and Grlerson's Divisions of Cavalry ; co-operation with Sherman's expedition to Meridian."
-1411,1864-2-12,1864-2-12,False,"Rock House, Wayne Co., W. Va.",VA,14th Kentucky Infantry.
+1411,1864-2-12,1864-2-12,False,"Rock House, Wayne Co., W. VA.",WV,14th Kentucky Infantry.
 1412,1864-2-12,1864-2-12,False,"Caddo Gap and Scott's Farm, Ark.",AR,2d Kansas Cavalry.
 1413,1864-2-12,1864-2-12,False,"Lake City, Fla.",FL,40th Massachusetts Volunteers and Independent Battalion Massachusetts Cavalry.
 1414,1864-2-12,1864-2-12,False,"Decatur, Miss,",MS,"One regiment of the 16th Corps, guarding a wagon train; expedition to Meridian."
@@ -1423,7 +1423,7 @@ battle_id,start_date,end_date,monthonly,location,state,battle_name
 1422,1864-2-14,1864-2-15,False,Waterproof La.,LA,"49th U. S. Colored Troops, 11th Louisiana, and Gunboat Forest Rose."
 1423,1864-2-16,1864-2-16,False,"Lauderdale Springs, Miss.",MS,32d Wisconsin Volunteers and an Indiana regiment; expedition to Meridian.
 1424,1864-2-17,1864-2-17,False,"Marion, Miss.",MS,Portion of the 17th Corps; expedition to Meridian.
-1425,1864-2-17,1864-2-17,False,Loss of the Housatonic.,,"Charleston Harbor, S. C"
+1425,1864-2-17,1864-2-17,False,Loss of the Housatonic.,SC,"Charleston Harbor, S. C."
 1426,1864-2-19,1864-2-19,False,"Grosse Tete Bayou, La.",LA,4th Wisconsin Cavalry.
 1427,1864-2-19,1864-2-19,False,"Wangh's Farm, near Batesville, Independence Co., Ark.",AR,11th Missouri Cavalry and 4th Arkansas Infantry.
 1428,1864-2-20,1864-2-20,False,"Hoist on River, Tenn.",TN, 4th Tennessee Volunteers.
@@ -1567,7 +1567,7 @@ battle_id,start_date,end_date,monthonly,location,state,battle_name
 1566,1864-5-5,1864-5-9,False,"Rocky Face Ridge, Ga.",GA,"4th, 14th, and 20th Corps, Army of the Cumberland; 15th and 16th Corps, Army of the Tennessee; 23d Corps, Army of the Ohio."
 1567,1864-5-5,1864-5-8,False,"Campaign in Northern Georgia, from Chattanooga to Atlanta.",GA,"Armies of the Cumberland, Tennessee, and Ohio."
 1568,1864-5-6,1864-5-6,False,"James River, near City Point, Va.",VA,Gunboat Commodore Jones.
-1569,1864-5-6,1864-5-6,False,"Princeton, W. Va.",VA,Advance of General Crook's command.
+1569,1864-5-6,1864-5-6,False,"Princeton, W. Va.",WV,Advance of General Crook's command.
 1570,1864-5-6,1864-5-7,False,"Richmond and Petersburg Railroad, near Fort Walthal and Chester Station, Va.",VA,"Portion of the 10th and 18th Corps, Army of the James."
 1571,1864-5-7,1864-5-7,False,"Benton, Miss.",MS,"11th, 72d, and 76th Illinois Volunteers, and 7th Ohio Battery."
 1572,1864-5-7,1864-5-7,False,"Bayou La Mourie, La.",LA,Portion of the 16th Corps; Banks' Red River expedition.
@@ -1657,19 +1657,19 @@ battle_id,start_date,end_date,monthonly,location,state,battle_name
 1656,1864-6-2,1864-6-2,False,"Bermuda Hundred, Va.",VA,"10th Corps, Army of Virginia and North Carolina."
 1657,1864-6-2,1864-6-2,False,"Engagements at Gaines' Mills, Salem Church, and Hawe's Shop, Va,",VA,Cavalry of the Army of the Potomac.
 1658,1864-6-3,1864-6-3,False,"Searcy, Ark.",AR,Detachment of the 3d Missouri Cavalry.
-1659,1864-6-3,1864-6-3,False,"Panther Sap, W. Va.",VA,"General Hayes' Brigade, 2d Division, Army of West Virginia."
+1659,1864-6-3,1864-6-3,False,"Panther Sap, W. Va.",WV,"General Hayes' Brigade, 2d Division, Army of West Virginia."
 1660,1864-6-3,1864-6-4,False,"Ackworth, Ga.",GA,"Cavalry of the 2d Division, Army of the Cumberland."
 1661,1864-6-5,1864-6-5,False,"Piedmont (or Mount Crawford), Va.",VA,Cavalry and Infantry of the Army of West Virginia.
-1662,1864-6-6,1864-6-6,False,"Buffalo Gap, W. Va.",VA,"General Hayes* Brigade of the 2d Division, Army of West Vir ginia."
+1662,1864-6-6,1864-6-6,False,"Buffalo Gap, W. Va.",WV,"General Hayes* Brigade of the 2d Division, Army of West Vir ginia."
 1663,1864-6-6,1864-6-6,False,"Lake Chicot (or Old River Lake), Ditch Bayou, Columbia, Fish Bayou, Ark.",AR,16th Corps.
-1664,1864-6-6,1864-6-6,False,"Greenland Gap Road, near Moorefield, W. Va.",VA,22d Pennsylvania Cavalry.
+1664,1864-6-6,1864-6-6,False,"Greenland Gap Road, near Moorefield, W. Va.",WV,22d Pennsylvania Cavalry.
 1665,1864-6-7,1864-6-7,False,"Ripley, Miss.",MS,"s-Cavalry advance of Maj.-General Sturgis' command; engage ment during expedition to Guntown, June 5th to 10th."
 1667,1864-6-9,1864-6-9,False,"Point of Rocks, Md.",MD,2d U. S. Colored Cavalry.
 1668,1864-6-9,1864-6-30,False,"Kenesaw Mountain (also designated Lost Mountain, Nose's Creek, Marietta, and Big Shanty), Ga.",GA,"4th, 14th, and* 20th Corps, Army of the Cumberland ; 15th, 16th, and 17th Corps, Army of the Tennessee; 23d Corps, Army of the Ohio."
 1669,1864-6-9,1864-6-9,False,"Mount Stirling, Ky.",KY,Cavalry of the Division of Kentucky.
 1670,1864-6-9,1864-6-9,False,"Lafayette, Tenn.",TN,7th Kansas Cavalry.
 1671,1864-6-10,1864-6-10,False,"Frankfort, Ky.",KY,Enrolled Militia and citizens; Morgan's raid.
-1672,1864-6-10,1864-6-11,False,"Lexington, W. Va.",VA,2d Division. Army of West Virginia.
+1672,1864-6-10,1864-6-11,False,"Lexington, W. Va.",WV,2d Division. Army of West Virginia.
 1673,1864-6-10,1864-6-10,False,"Cane Creek, Ala.",AL,106th Ohio Volunteers; skirmish with Guerillas.
 1674,1864-6-10,1864-6-10,False,"Lexington, Ky.",KY,4th Kentucky Cavalry.
 1675,1864-6-10,1864-6-10,False,"Princeton, Ky.",KY,Troops not stated.
@@ -1686,7 +1686,7 @@ battle_id,start_date,end_date,monthonly,location,state,battle_name
 1686,1864-6-12,1864-6-12,False,"McAfee's Cross Roads, La.",LA,"Cavalry, Army of the Cumberland."
 1687,1864-6-12,1864-6-12,False,"Kingsville, Mo.",MO,"Scouting party, 1st Missouri Militia Cavalry."
 1688,1864-6-1,1864-6-30,True,"White Oak Swamp Bridge, Charles City Cross Roads (or Riddle's Shop), Va.",VA,"3d Division, Cavalry Corps, and 2d Division, 5th Corps, Army of the Potomac."
-1689,1864-6-13,1864-6-13,False,"White Post, W. Va.",VA,6th West Virginia Cavalry.
+1689,1864-6-13,1864-6-13,False,"White Post, W. Va.",WV,6th West Virginia Cavalry.
 1690,1864-6-14,1864-6-14,False,"Pine Mountain, Ga.",GA,During Kenesaw Mountain.
 1691,1864-6-14,1864-6-14,False,"Lexington, Lafayette Co., Mo.",MO,Detachment 1st Missouri Militia Cavalry.
 1692,1864-6-14,1864-6-14,False,"Buchanan, near Lexington, Va.",VA,Advance of Army of West Virginia.
@@ -1704,7 +1704,7 @@ battle_id,start_date,end_date,monthonly,location,state,battle_name
 1704,1864-6-17,1864-6-17,False,"Nose's Creek, Ga.",GA,During Kenesaw Mountain.
 1705,1864-6-17,1864-6-18,False,"Lynchburg, Va.",VA,"1st and 2d Divisions, Averlll's and Duffle's Cavalry, Army of West Virginia."
 1706,1864-6-19,1864-6-19,False,"Pine Knob, Ga.",GA,During Kenesaw Mountain.
-1707,1864-6-19,1864-6-19,False,"Kearsage and Alabama, off Cherbourg, France.",,U. S. Steamer Kearsage.
+1707,1864-6-19,1864-6-19,False,"Kearsage and Alabama, off Cherbourg, France.",FRA,U. S. Steamer Kearsage.
 1708,1864-6-20,1864-6-20,False,"White Honse, Va.",VA,"Brigade of Union troops, commanded by Brig.-General Aber crombic."
 1709,1864-6-20,1864-6-20,False,"Liberty, Va.",VA,"2d Division, Cavalry, Army of West Virginia."
 1710,1864-6-20,1864-6-20,False,"Powder Spring, Ga.",GA,"Cavalry, Army of the Cumberland."
@@ -1712,7 +1712,7 @@ battle_id,start_date,end_date,monthonly,location,state,battle_name
 1712,1864-6-20,1864-6-30,False,"Trenches in front of Petersburg, Va.",VA,"5th and 9th Corps, Army of the Potomae, and 10th and 18th Corps, Army of the James."
 1713,1864-6-1,1864-6-30,True,"Salem, Va.",VA,"2d Division, Cavalry, Army of West Virginia."
 1714,1864-6-1,1864-6-30,True,"Pine Bluff, Ark.",AR,27th Wisconsin.
-1715,1864-6-1,1864-6-30,True,"Naval Engagement on the James River, near Dutch Gap.",,Forces not given.
+1715,1864-6-1,1864-6-30,True,"Naval Engagement on the James River, near Dutch Gap.",VA,Forces not given.
 1716,1864-6-1,1864-6-30,True,"White Honse Landing, Va.",VA,"Portions of the 1st and 2d Divisions, Cavalry Corps, Army of the Potomac."
 1717,1864-6-1,1864-6-30,True,"Buford's Gap, Va.",VA,23d Ohio Volunteers.
 1718,1864-6-1,1864-6-30,True,"White River, Ark.",AR,Three companies of the 12th Iowa and TJ. S. Steamer Lexington.
@@ -1730,7 +1730,7 @@ battle_id,start_date,end_date,monthonly,location,state,battle_name
 1730,1864-6-25,1864-6-25,False,"Point Pleasant, La.",LA,64th TJ. S. Colored Troops.
 1731,1864-6-25,1864-6-29,False,"Clarendon, St. Charles River (or Pikesville, St. Charles), Ark.",AR,"11th Missouri, 9th Iowa, and 3d Michigan Cavalry, 126th Illinois Volunteers, and Battery D, 2d Missouri Artillery."
 1732,1864-6-27,1864-6-27,False,Kenesaw Mountain (General Assault).,GA,"Army of the Military Division of the Mississippi. (See Kene saw Mountain, June 9th.)"
-1733,1864-6-27,1864-6-27,False,"Charlestown, W. Va.",VA,"1st Division, Army of West Virginia."
+1733,1864-6-27,1864-6-27,False,"Charlestown, W. Va.",WV,"1st Division, Army of West Virginia."
 1734,1864-6-23,1864-6-23,False,"Stoney Creek, Va.",VA,"Cavalry, with Wilsoa on his raid on the Weldon Railroad."
 1735,1864-6-29,1864-6-29,False,"Ream's Station, Va.",VA,"Cavalry, with Wilson on his raid."
 1736,1864-6-4,1864-6-6,False,"La Fayette, Ga.",GA,Kentucky Cavalry.
@@ -1743,7 +1743,7 @@ battle_id,start_date,end_date,monthonly,location,state,battle_name
 1743,1864-7-3,1864-7-3,False,"North Mountain, Va.",VA,Outpost of the 135tli Ohio National Guards.
 1744,1864-7-3,1864-7-9,False,"Expedition from Vicksburg to Jackson, Miss.",MS,"Troops of 1st Division, 17th Corps."
 1745,1864-7-3,1864-7-3,False,"Leetown, Va.",VA,1st New York Cavalry and 10th West Virginia Volunteers.
-1746,1864-7-3,1864-7-3,False,"Hammack's Mills, North River, W. Va.",VA,153d Ohio National Guards.
+1746,1864-7-3,1864-7-3,False,"Hammack's Mills, North River, W. Va.",WV,153d Ohio National Guards.
 1747,1864-7-4,1864-7-4,False,"Searcy, Ark.",AR,Detachment of 3d Arkansas Cavalry.
 1748,1864-7-4,1864-7-4,False,"Vicksburg, Miss.",MS,48th U. S. Colored Troops (10th Louisiana).
 1749,1864-7-4,1864-7-4,False,"Clay Co., Mo.",MO,9th Missouri Militia Cavalry.
@@ -1819,7 +1819,7 @@ battle_id,start_date,end_date,monthonly,location,state,battle_name
 1819,1864-8-1,1864-8-31,True,"Rolla, Mo.",MO,5th Missouri Militia Cavalry.
 1820,1864-8-1,1864-8-31,True,"Trenches before Petersburg, Va.",VA,"2d, 5th, and 9th Corps Army of the Potomac, and 18th Corps, Army of the James."
 1821,1864-8-1,1864-8-31,True,"Cumberland (or Flock's Mills), Md.",MD,Command of Brig.-General B. F. Kelly.
-1822,1864-8-2,1864-8-2,False,"Green Springs Depot, W. Va., near Old Town, Md.",MD,153d Ohio Volunteers.
+1822,1864-8-2,1864-8-2,False,"Green Springs Depot, W. Va., near Old Town, Md.",WV,153d Ohio Volunteers.
 1823,1864-8-2,1864-8-2,False,"Osceola, Ark.",AR,"2d, 3d Militia, and 1st and 6th Missouri Cavalry."
 1824,1864-8-3,1864-8-3,False,"Elkslmte, Mo.",MO,Troops commanded by Colonel J. L. Burris.
 1825,1864-8-4,1864-8-4,False,"New Creek, Va.",VA,Troops not mentioned.
@@ -1858,7 +1858,7 @@ battle_id,start_date,end_date,monthonly,location,state,battle_name
 1858,1864-8-19,1864-8-19,False,"Snicker's Gap Pike, Va.",VA,Detachment of the 5th Michigan Cavalry; prisoners and wounded put to death by Mosby'a guerillas.
 1859,1864-8-1,1864-8-31,True,"Blockhouse No. 4, Nashville and Chattanooga R R, Tenn.",TN,One Company of the 115th Ohio Volunteers.
 1860,1864-8-19,1864-8-19,False,"Martinsburg, Va.",VA,One Company of Cavalry of Averell's command.
-1861,1864-8-18,1864-8-22,False,Kilpatnck's Raid on the Atlanta Railroad.,,"Cavalry, Army of the Cumberland."
+1861,1864-8-18,1864-8-22,False,Kilpatnck's Raid on the Atlanta Railroad.,GA,"Cavalry, Army of the Cumberland."
 1862,1864-8-19,1864-8-19,False,"Red Oak, Ga.",GA,"Cavalry, Army of the Cumberland ; Kilpatrick's raid."
 1863,1864-8-19,1864-8-20,False,"Jonesboro, Ga.",GA,"2d Division Cavalry, Army of the Cumberland; Kilpatriok's raid."
 1864,1864-8-19,1864-8-19,False,"Fine Bluff, Tennessee River, Tenn.",TN,"Detachment of CompanyB, 83d Illinois Mounted Infantry; killed and mutilated by guerillas."
@@ -1936,7 +1936,7 @@ battle_id,start_date,end_date,monthonly,location,state,battle_name
 1936,1864-9-26,1864-9-26,False,"Richland, Tenn.",TN,111th U. S. Colored troops (3d Alabama).
 1937,1864-9-27,1864-9-27,False,"Weyer's Cave, Va.",VA,"2d Division Cavalry Army of West Virginia,"
 1938,1864-9-27,1864-9-27,False,"Pulaski, Tenn.",TN,Cavalry commanded by General Rousseau.
-1939,1864-9-27,1864-9-27,False,Massacre on North Missouri R.R.,,Furloughed Soldiers.
+1939,1864-9-27,1864-9-27,False,Massacre on North Missouri R.R.,MO,Furloughed Soldiers.
 1940,1864-9-27,1864-9-27,False,"Massacre at Centralia, Mo.",MO,"Three Companies 39th Missouri Volunteers, Price's inva sion of Missouri."
 1941,1864-9-27,1864-9-27,False,"Carter's Station, Watauga River, Ark.",AR,"Cavalry and Mounted Infantry, commanded by General Ammen."
 1942,1864-9-27,1864-9-27,False,"Mariana, Fla.",FL,"82d V. S. Colored Troops, 7th Vermont Volunteers, and 2d Maine Cavalry."
@@ -2012,10 +2012,10 @@ battle_id,start_date,end_date,monthonly,location,state,battle_name
 2012,1864-10-27,1864-10-28,False,"Fair Caks (near Richmond), Va.",VA,"10th and I8th Corps and Cavalry, Army of the James."
 2013,1864-10-28,1864-10-30,False,"Newtonia, Mo.",MO,Cavalry of the Army of the Border; pursuit ot Price's forces.
 2014,1864-10-28,1864-10-28,False,"Fort TTaiman, Tenn.",TN,Union Gunboats.
-2015,1864-10-28,1864-10-28,False,Destruction of the Rebel Ram Albemarle.,,"Thirteen men, commanded by Lieutenant W. B. Cnshing, IJ. S. Navy."
+2015,1864-10-28,1864-10-28,False,Destruction of the Rebel Ram Albemarle.,NC,"Thirteen men, commanded by Lieutenant W. B. Cushing, U. S. Navy."
 2016,1864-10-28,1864-10-28,False,"Favetteville, Ark.",AR,1st Arkansas Cavalry.
 2017,1864-10-28,1864-10-28,False,"Morristown, Tenn.",TN,Cavalry commanded by General GillTM.
-2018,1864-10-29,1864-10-29,False,"Beverly, W. Va.",VA,8th Ohio Cavalry.
+2018,1864-10-29,1864-10-29,False,"Beverly, W. Va.",WV,8th Ohio Cavalry.
 2019,1864-10-30,1864-10-30,False,"Mnscle Shoals, Racoon Ford, Ala.",AL,"1st Brigade, 1st Cavalry Division, Army of the Cumberland."
 2020,1864-10-30,1864-10-30,False,"Near Brownsville, Ala.",AL,7th Iowa and 11th Missouri Cavalry.
 2021,1864-10-30,1864-10-30,False,"Ladija, Terrapin Creek, Ala.",AL,"Garrard's Cavalry Division, Army of the Cumberland."
@@ -2054,7 +2054,7 @@ battle_id,start_date,end_date,monthonly,location,state,battle_name
 2054,1864-11-26,1864-11-26,False,"Madison Station, Ala.",AL,101st U. S. Colored troops.
 2055,1864-11-26,1864-11-26,False,"Sandersville (or Buffalo Creek), Ga.",GA,"3d Brigade 1st Division, 20th Corps."
 2056,1864-11-26,1864-11-26,False,"Sylvan Grove, Ga.",GA,8th Indiana and 2d Kentucky Cavalry.
-2057,1864-11-27,1864-11-27,False,"Big Black River Bridge, Mississippi Central R. R.",,"Cavalry and Artillery, commanded by Colonel Osband, 3d U. S. Colored Cavalry."
+2057,1864-11-27,1864-11-27,False,"Big Black River Bridge, Mississippi Central R. R.",MS,"Cavalry and Artillery, commanded by Colonel Osband, 3d U. S. Colored Cavalry."
 2058,1864-11-27,1864-11-29,False,"Waynesboro, Thomas' Station, and Buck Head Creek (or Reynolds' Plantation, Jones' Plantation, and Brown's Cross Roads), Ga.",GA,"3d Cavalry Division, Army Military Division of the Mississippi."
 2059,1864-11-28,1864-11-28,False,"Fort Kelly, New Creek, W. Va,",VA,From Confederate reports.
 2060,1864-11-29,1864-11-29,False,"Spring Hill (or Mount Carmel), Tenn.",TN,4th Corps and Cavalry.
@@ -2080,7 +2080,7 @@ battle_id,start_date,end_date,monthonly,location,state,battle_name
 2080,1864-12-6,1864-12-6,False,"White Post, Va.",VA, 50 men of the 21st New York Cavalry.
 2081,1864-12-7,1864-12-7,False,"Ebenezer Creek, Cypress Swamp, Ga.",GA,"9th Michigan and 9th Ohio Cavalry, rear guard of wing of Sherman's Army."
 2082,1864-12-7,1864-12-9,False,"Ogeechee River (or Jenk's Bridge, Eden Station, and Poole's Station), Ga.",GA,"15th and 17th Corps, right wing of the Army of the Military Division of the Mississippi."
-2083,1864-12-7,1864-12-11,False,Weldon R. R. Expedition.,,"2d Division Cavalry Corps, 5th Corps, and 3d Division 2d Corps, Army of the Potomac."
+2083,1864-12-7,1864-12-11,False,Weldon R. R. Expedition.,VA,"2d Division Cavalry Corps, 5th Corps, and 3d Division 2d Corps, Army of the Potomac."
 2084,1864-12-8,1864-12-9,False,"Reconnoissance to Hatcher's Run, Va.",VA,"3d and 13th Pennsylvania and 6th Ohio Cavalry,and 1st Division, 2d Corps."
 2085,1864-12-8,1864-12-28,False,"Raid to Gordonsville, Va.",VA,"1st and 3d Divisions Cavalry, Army of the Potomac."
 2086,1864-12-9,1864-12-14,False,Expedition into Western N.C.,NC,3d North Carolina Volunteers.
@@ -2097,7 +2097,7 @@ battle_id,start_date,end_date,monthonly,location,state,battle_name
 2097,1864-12-14,1864-12-14,False,"Memphis, Tenn.",TN,4th Iowa Cavalry.
 2098,1864-12-15,1864-12-15,False,"Abingdon, Va.",VA,Cavalry commanded by General Bnrbridge; Stoneman's raid.
 2099,1864-12-15,1864-12-15,False,"Murfreesboro, Tenn.",TN,Troops commanded by General Rousseau.
-2100,1864-12-15,1864-12-15,False,Glade Springs.,,12th Kentucky Cavalry; Stoneman's raid.
+2100,1864-12-15,1864-12-15,False,Glade Springs.,VA,12th Kentucky Cavalry; Stoneman's raid.
 2101,1864-12-15,1864-12-16,False,"Nashville (or Brentwood), Overton's Hills, Tenn.",TN,"4th Corps, Army of the Cumberland; 23d Corps, Army of the Ohio; 1st and 3d Divisions, 16th Corps, Army of the Tennessee ; Detachments of Colored troops, Convalescents, Recruits, etc., and Cavalry Corps."
 2102,1864-12-16,1864-12-16,False,"Hopkinsvillc, Ky.",KY,"2d and 3d Brigades, McCcok's 1st Cavalry Division."
 2103,1864-12-16,1864-12-16,False,"Marion and Wytheville, Va.",VA,"8th, 9th, and 13th Tennessee Cavalry ; Stoneman's raid."
@@ -2111,7 +2111,7 @@ battle_id,start_date,end_date,monthonly,location,state,battle_name
 2111,1864-12-19,1864-12-19,False,"Rutherford Creek, Tenn.",TN,Cavalry of General Thomas' army.
 2112,1864-12-20,1864-12-20,False,"Saltville, Va.",VA,"Gillem's and Burbridge's Cavalry, commanded by General Stoneman."
 2113,1864-12-20,1864-12-20,False,"Lacey's Springs, Va.",VA,"3d Division of Cavalry, Army of the Potomac."
-2114,1864-12-20,1864-12-20,False,Madison Court House.,,"Michigan Cavalry Brigade, 1st Cavalry Division, Army of the Potomac."
+2114,1864-12-20,1864-12-20,False,Madison Court House.,VA,"Michigan Cavalry Brigade, 1st Cavalry Division, Army of the Potomac."
 2115,1864-12-23,1864-12-23,False,"Lynnvillc, Tenn.",TN, Cavalry of General Thomas' army.
 2116,1864-12-23,1864-12-23,False,"Jack's Shop, near Gordonsville, Va.",VA,"1st Cavalry Division, Army of the Potomac, and 2d Cav alry Division, Army of West Virginia."
 2117,1864-12-23,1864-12-23,False,"Buford's Station, Tenn.",TN,Cavalry of General Thomas' army.
@@ -2131,7 +2131,7 @@ battle_id,start_date,end_date,monthonly,location,state,battle_name
 2131,1865-1-7,1865-1-7,False,"Julesburg, Ind. Ter.",OK,One company af the 7th Iowa Cavalry; Indian 6ght.
 2132,1865-1-8,1865-1-8,False,"Scottsboro, Ala.",AL,54 men of the 101st U. S. Colored troops.
 2133,1865-1-8,1865-1-8,False,"Ivy Ford, Ark.",AR,79th U. S. Colored troops.
-2134,1865-1-11,1865-1-11,False,"Beverly, W. Va.",VA,34th Ohio Volunteers and 8th Ohio Cavalry.
+2134,1865-1-11,1865-1-11,False,"Beverly, W. Va.",WV,34th Ohio Volunteers and 8th Ohio Cavalry.
 2135,1865-1-13,1865-1-15,False,"Fort Fisher, N.C.",NC,"2d Division, and 2d Brigade 1st Division, 24th Corps, and 3d Division, 25th Corps, Army of the James, sailors and marines of the Atlantic Blockading Squadron."
 2136,1865-1-14,1865-1-14,False,"Red Hill, Ala.",AL,15th Pennsylvania Cavalry.
 2137,1865-1-14,1865-1-14,False,"Daxdanelle, Ark.",AR,2d Kansas Cavalry and Iowa Cavalry.

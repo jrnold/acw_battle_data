@@ -2,8 +2,13 @@ format: csv
 name: thorpe_engagements
 path: data/thorpe_engagements.csv
 schema:
+  primaryKey:
+  - battleNum
   fields:
-  - description: Battle identifier number
+  - constraints:
+      minimum: 0
+      required: true
+    description: Battle identifier number
     format: default
     name: battleNum
     title: Battle number
@@ -13,25 +18,41 @@ schema:
     name: battleDetail
     title: Battle details
     type: string
-  - format: default
+  - constraints:
+      maximum: '1867-01-01'
+      minimum: '1861-01-01'
+      required: true
+    description: Starting date of the engagement.
+    format: default
     name: beginDate
     title: Begin date
     type: date
-  - format: default
+  - constraints:
+      maximum: '1867-01-01'
+      minimum: '1861-01-01'
+      required: true
+    description: Ending date of the engagement.
+    format: default
     name: endDate
     title: End date
     type: date
-  - description: Equal to 1 if the date of the battle was unknown. In which case,
+  - constraints:
+      required: true
+    description: Equal to 1 if the date of the battle was unknown. In which case,
       the first and last days of the month are used.
     format: default
     name: unknownDay
     title: Unknown day
     type: boolean
-  - format: default
+  - constraints:
+      required: true
+    format: default
     name: lat
     title: Latitude
     type: number
-  - format: default
+  - constraints:
+      required: true
+    format: default
     name: lng
     title: Longitude
     type: number
@@ -48,15 +69,24 @@ schema:
     name: type
     title: Type
     type: string
-  - format: default
+  - constraints:
+      minimum: 0
+    description: Number US killed in engagement
+    format: default
     name: killed
     title: Killed
     type: integer
-  - format: default
+  - constraints:
+      minimum: 0
+    description: Total US casualties in the engagement
+    format: default
     name: usCasTot
     title: Total US casualties
     type: integer
-  - format: default
+  - constraints:
+      minimum: 0
+    description: Total Confederate casualties in the engagement
+    format: default
     name: csCasTot
     title: Total Confederate casualties
     type: integer
