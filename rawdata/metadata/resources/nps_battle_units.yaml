@@ -65,8 +65,6 @@ schema:
     name: added
     title: added
     type: boolean
-    constraints:
-      required: true
   - description: Original source for the CWSS data.
     format: default
     name: src

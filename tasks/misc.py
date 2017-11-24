@@ -38,7 +38,7 @@ def deploy(ctx, force=False):
         LOGGER.error(f"{ctx.dst} does not exist")
         if not force:
             sys.exit(1)
-    ctx.run(f"{ctx.python} bin/deploy.py "
+    ctx.run(f"{ctx.python} -m acwbattledata.deploy "
             f"{ctx.dst} {ctx.S3.bucket}/{ctx.S3.prefix} {ctx.S3.region}")
 
 

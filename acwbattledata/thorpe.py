@@ -14,8 +14,19 @@ def clean_text(tag, x):
     return x
 
 
+# [1005,3] [non-castable-value] Row 1005 has non castable value 1864-10-26- in column 3 (type: date, format: default)
+# [1785,3] [non-castable-value] Row 1785 has non castable value 1863-5--- in column 3 (type: date, format: default)
+# [2104,3] [non-castable-value] Row 2104 has non castable value 1863-6-9.0 in column 3 (type: date, format: default)
+# [2104,4] [non-castable-value] Row 2104 has non castable value 1863-6-9.0 in column 4 (type: date, format: default)
+# [2125,3] [non-castable-value] Row 2125 has non castable value 1863-1---- in column 3 (type: date, format: default)
+# [2369,3] [non-castable-value] Row 2369 has non castable value 1864-4-19-20 in column 3 (type: date, format: default)
+# [2478,3] [non-castable-value] Row 2478 has non castable value 1863-5---- in column 3 (type: date, format: default)
+# [2571,3] [non-castable-value] Row 2571 has non castable value 1863-3--- in column 3 (type: date, format: default)
+
+
 def parse_date(dct):
-    date = dct['date']
+    date = re.sub(' +', '', dct['date'])
+    date = re.sub('---+', '--', date)
     if date == "11/301864":
         date = "11/30/1864"
     elif date == "5/1863":
@@ -23,20 +34,34 @@ def parse_date(dct):
     beginDate = dct['beginDate']
     m, d, y = date.split('/')
     if beginDate:
+        beginDate = re.sub('---+', '--', beginDate)
         m0, d0, y0 = beginDate.split('/')
     else:
         m0 = m
         d0 = d
         y0 = y
     unknown_day = False
-    if d == "--" or d == "---":
+    if re.match("-+$", d):
         d = 15
         unknown_day = True
     elif len(d.split('-')) > 1:
         d0, d = d.split('-')
-
-    dct['beginDate'] = re.sub(' +', '', "%s-%s-%s" % (y0, m0, d0))
-    dct['endDate'] = re.sub(' +', '', "%s-%s-%s" % (y, m, d))
+    if d0 == "26-":
+        d0 = "26"
+    elif d0 == "--":
+        d0 = "15"
+        unknown_day = True
+    elif d0 == "9.0":
+        d0 = "9"
+    elif d0 == "19-20":
+        d0 = "19"
+        d = "20"
+    if d == "9.0":
+        d = "9"        
+    beginDate = "%02d-%02d-%02d" % (int(y0), int(m0), int(d0))
+    endDate = "%02d-%02d-%02d" % (int(y), int(m), int(d))
+    dct['beginDate'] = beginDate
+    dct['endDate'] = endDate
     dct['unknownDay'] = unknown_day
     del dct['date']
 

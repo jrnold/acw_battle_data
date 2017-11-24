@@ -11,7 +11,7 @@ schema:
     constraints:
       required: true
       minimum: "1860-01-01"
-      maximum: "1867-01-01"
+      maximum: "1871-01-01"
   - description: Event description
     format: default
     name: event
@@ -38,7 +38,7 @@ schema:
       on one of those entries.
   primaryKey:
   - date
-  - event      
+  - event
 sources:
 - Eicher2001
 title: Chronology of Some Important Civil War Dates from Eicher and Eicher (2001)
