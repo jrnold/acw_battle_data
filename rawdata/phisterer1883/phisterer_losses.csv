@@ -8,7 +8,7 @@ battle_id,start_date,end_date,surrender,battle_name,state,us_killed,us_wounded,u
 2268,1862-3-6,1862-3-8,0,"Pea Ridge, Ark",AR,203,972,174,1349,5200,213,0
 2269,1862-3-14,1862-3-14,0,"Newbern, N.C.",NC,91,466,,557,583,213,0
 2270,1862-3-23,1862-3-23,0,"Winchester, Va",VA,103,440,24,567,691,213,0,"Original has \"Winchester, Tenn\", but this matches the First Battle of Kernstown in date and casualties."
-2271,1862-4-6,1862-4-7,0,"Shiloh, Tenn",TN,1735,7882,3956,13573,10699,213,0
+2271,1862-4-6,1862-4-7,0,"Shiloh, Tenn.",TN,1735,7882,3956,13573,10699,213,0
 2272,1862-5-5,1862-5-5,0,"Williamsburg, Va",VA,456,1400,372,2228,1000,213,0
 2273,1862-5-23,1862-5-23,0,"Front Royal, Va",VA,32,122,750,904,,213,0
 2274,1862-5-25,1862-5-25,0,"Winchester, Va",VA,38,155,711,904,,213,0
@@ -18,9 +18,9 @@ battle_id,start_date,end_date,surrender,battle_name,state,us_killed,us_wounded,u
 2278,1862-6-16,1862-6-16,0,"Secessionville, James Island, S.C.",SC,85,472,128,685,204,214,0
 2279,1862-6-25,1862-6-25,0,"Oak Grove, Va",VA,51,401,64,516,541,214,0
 2280,1862-6-26,1862-7-1,0,"Seven Day's retreat; includes Mechanicsville, Gaines' Mills, Chickahominy, Peach Orchard, Savage Station, Charles City Cross Roads, and Malvern Hill",VA,1582,7709,5958,15249,17583,214,1
-2281,1862-7-13,1862-7-13,0,"Murfreesboro, Tenn",TN,33,62,800,895,150,214,0
+2281,1862-7-13,1862-7-13,0,"Murfreesboro, Tenn.",TN,33,62,800,895,150,214,0
 2282,1862-8-8,1862-8-8,0,"Cedar Mountain, Va",VA,450,660,290,1400,1367,214,0
-2283,1862-7-20,1862-9-20,0,Guerilla campaign in Missouri; includes with Porter's and Poindexter's Guerillas,MO,77,156,347,580,2866,214,1
+2283,1862-7-20,1862-9-20,0,Guerilla campaign in Missouri; includes with Porter's and Poindexter's Guerrillas,MO,77,156,347,580,2866,214,1
 2284,1862-8-28,1862-8-29,0,"Groveton and Gainesville, Va",VA,,,,7000,7000,214,0
 2285,1862-8-30,1862-8-30,0,"Bull Run, Va (2d)",VA,800,4000,3000,7800,3700,214,0
 2286,1862-8-30,1862-8-30,0,"Richmond, Ky",KY,200,700,4000,4900,750,214,0
@@ -34,7 +34,7 @@ battle_id,start_date,end_date,surrender,battle_name,state,us_killed,us_wounded,u
 2294,1862-10-5,1862-10-5,0,"Big Hatchie River, Miss",MS,,,,500,400,214,0
 2295,1862-10-8,1862-10-8,0,"Perryville, Ky",KY,916,2943,489,4348,7000,214,0
 2296,1862-12-7,1862-12-7,0,"Prarie Grove, Ark",AR,167,798,183,1148,1500,214,0
-2297,1862-12-7,1862-12-7,0,"Hartsville, Tenn",TN,55,,1800,1855,149,215,0
+2297,1862-12-7,1862-12-7,0,"Hartsville, Tenn.",TN,55,,1800,1855,149,215,0
 2298,1862-12-12,1862-12-18,0,"Foster's expedition to Goldsboro, N.C.",NC,90,478,9,577,789,215,1
 2299,1862-12-13,1862-12-13,0,"Fredericksburg, Va",VA,1180,9028,2145,12353,4576,215,0
 2300,1862-12-20,1862-12-20,0,"Holly Springs, Miss",MS,,,1000,1000,,215,0
@@ -70,7 +70,7 @@ battle_id,start_date,end_date,surrender,battle_name,state,us_killed,us_wounded,u
 2330,1864-4-17,1864-4-20,0,"Plymouth, N.C.",NC,20,80,1500,1600,500,216,0
 2331,1864-4-30,1864-4-30,0,"Jenkins' Ferry, Saline River, Ark.",AR,200,955,,1155,1100,216,0
 2332,1864-5-7,1864-5-7,0,"Wilderness, Va.",VA,5597,21463,10677,37737,11400,216,0
-2333,1864-5-5,1864-5-9,0,"Rocky Face Ridge, Ga.; includes Tennell Hill, Mill Creek gap, Buzzard Roost, Snake Creek Gap, and near Dalton",GA,200,637,,837,600,216,0
+2333,1864-5-5,1864-5-9,0,"Rocky Face Ridge, Ga.; includes Tunnel Hill, Mill Creek gap, Buzzard Roost, Snake Creek Gap, and near Dalton",GA,200,637,,837,600,216,0
 2334,1864-5-8,1864-5-18,0,"Spottsylvania Court House Va.; includes engagements on the Fredericksburg Road, Laurel Hill, and Nye River",VA,4177,19687,2577,26461,9000,216,0
 2335,1864-5-9,1864-5-10,0,"Swift Creek, Va.",VA,90,400,,490,500,216,0
 2336,1864-5-9,1864-5-10,0,"Cloyd's Mountain and New River Bridge, Va.",VA,126,585,34,745,900,216,0
@@ -95,7 +95,7 @@ battle_id,start_date,end_date,surrender,battle_name,state,us_killed,us_wounded,u
 2355,1864-7-1,1864-7-31,0,"Front of Petersburg, Va.; losses at the Crater and Deep Bottom not included.",VA,419,2076,1200,3695,,217,1
 2356,1864-7-6,1864-7-10,0,"Chattahoochee River, Ga.",GA,80,450,200,730,600,217,0
 2357,1864-7-9,1864-7-9,0,"Monocacy, Md.",MD,90,579,1290,1959,400,217,0
-2358,1864-7-13,1864-7-15,0,"Tupleo, Miss.; includes Harrisburg and Old Town Creek.",MS,85,563,,648,700,217,0
+2358,1864-7-13,1864-7-15,0,"Tupelo, Miss.; includes Harrisburg and Old Town Creek.",MS,85,563,,648,700,217,0
 2359,1864-7-20,1864-7-20,0,"Peach Tree Creek, Ga.",GA,300,1410,,1710,4796,217,0
 2360,1864-7-22,1864-7-22,0,"Atlanta, Ga.; Hood's first sortie.",GA,500,2141,1000,3641,8499,217,0
 2361,1864-7-24,1864-7-24,0,"Winchester, Va.",VA,,,,1200,600,217,0
@@ -139,7 +139,7 @@ battle_id,start_date,end_date,surrender,battle_name,state,us_killed,us_wounded,u
 2399,1865-4-1,1865-4-1,0,"Five Forks, Va.",VA,124,706,54,884,8500,218,0
 2400,1865-4-2,1865-4-2,0,"Fall of Petersburg, Va.",VA,296,2565,500,3361,3000,218,0
 2401,1865-4-6,1865-4-6,0,"Sailor's Creek, Va.",VA,166,1014,,1180,7000,218,0
-2402,1865-4-6,1865-4-6,0,"High Bridge, Appomatox River, Va.",VA,10,31,1000,1041,,218,0
+2402,1865-4-6,1865-4-6,0,"High Bridge, Appomattox River, Va.",VA,10,31,1000,1041,,218,0
 2403,1865-4-7,1865-4-7,0,"Farmville, Va.",VA,,,,655,,218,0
 2404,1865-4-9,1865-4-9,0,"Fort Blakely, Ala.",AL,113,516,,629,2900,218,0
 2405,1865-4-9,1865-4-9,1,Surrender of Lee,VA,0,0,0,0,26000,218,0
