@@ -1,0 +1,1366 @@
+DATASET
+=======
+{'error-count': 0, 'table-count': 77, 'time': 13.538, 'valid': True}
+---------
+Warning: Table "/Users/jrnold/Documents/projects/acw_battle_data/data/cwss_battle_units.csv" inspection has reached 1000 row(s) limit
+Warning: Table "/Users/jrnold/Documents/projects/acw_battle_data/data/cwss_people_keywords.csv" inspection has reached 1000 row(s) limit
+Warning: Table "/Users/jrnold/Documents/projects/acw_battle_data/data/cwss_regiments_units.csv" inspection has reached 1000 row(s) limit
+Warning: Table "/Users/jrnold/Documents/projects/acw_battle_data/data/dyer_engagements.csv" inspection has reached 1000 row(s) limit
+Warning: Table "/Users/jrnold/Documents/projects/acw_battle_data/data/eicher_chronology.csv" inspection has reached 1000 row(s) limit
+Warning: Table "/Users/jrnold/Documents/projects/acw_battle_data/data/nps_battle_units.csv" inspection has reached 1000 row(s) limit
+Warning: Table "/Users/jrnold/Documents/projects/acw_battle_data/data/nps_units.csv" inspection has reached 1000 row(s) limit
+Warning: Table "/Users/jrnold/Documents/projects/acw_battle_data/data/phisterer_engagements.csv" inspection has reached 1000 row(s) limit
+Warning: Table "/Users/jrnold/Documents/projects/acw_battle_data/data/thorpe_engagements.csv" inspection has reached 1000 row(s) limit
+
+TABLE [1]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['reference_number',
+             'event',
+             'type',
+             'start_date',
+             'end_date',
+             'theater',
+             'campaign',
+             'threats',
+             'ownership_federal',
+             'ownership_local',
+             'ownership_private',
+             'ownership_state',
+             'ownership_unknown',
+             'park',
+             'integrity',
+             'military',
+             'interpretive_political',
+             'interpretive_commander_loss',
+             'interpretive_casualties',
+             'interpretive_tactics_strategy',
+             'interpretive_public_mind',
+             'interpretive_combat_arm',
+             'interpretive_military_firsts',
+             'interpretive_minority_troops',
+             'interpretive_economic',
+             'interpretive_archaelolgical',
+             'interpretive_logistics',
+             'interpretive_individual_bravery',
+             'interpretive_group_behavior',
+             'interpretive_joint_ops',
+             'interpretive_coop_armies',
+             'interpretive_naval',
+             'military_jim',
+             'military_ed',
+             'military_bill',
+             'protected_acres',
+             'protected_percent',
+             'county',
+             'land_value',
+             'priority1',
+             'url'],
+ 'row-count': 385,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/aad_battles.csv',
+ 'time': 12.042,
+ 'valid': True}
+
+TABLE [2]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['cwsac_id', 'attacker', 'naval', 'siege', 'ships_U', 'ships_C'],
+ 'row-count': 382,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/battlemisc.csv',
+ 'time': 2.6,
+ 'valid': True}
+
+TABLE [3]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['battle_id',
+             'battle_name',
+             'other_names',
+             'start_date',
+             'end_date',
+             'location',
+             'state',
+             'category_schlacht',
+             'category_treffen',
+             'category_belagerung',
+             'category_kapitulation',
+             'category_einnahme',
+             'category_size',
+             'page'],
+ 'row-count': 51,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/bodart1908_battles.csv',
+ 'time': 8.445,
+ 'valid': True}
+
+TABLE [4]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['battle_id',
+             'belligerent',
+             'full_name',
+             'last_name',
+             'first_name',
+             'middle_name',
+             'suffix',
+             'rank',
+             'dbpedia'],
+ 'row-count': 104,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/bodart1908_commanders.csv',
+ 'time': 1.22,
+ 'valid': True}
+
+TABLE [5]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['battle_id',
+             'belligerent',
+             'strength',
+             'strength_engaged',
+             'infantry',
+             'cavalry',
+             'artillery',
+             'guns',
+             'killed',
+             'killed_percent',
+             'killed_generals',
+             'killed_officers',
+             'killed_wounded',
+             'killed_wounded_percent',
+             'killed_wounded_generals',
+             'killed_wounded_officers',
+             'wounded',
+             'wounded_percent',
+             'wounded_generals',
+             'wounded_officers',
+             'captured',
+             'captured_generals',
+             'captured_officers',
+             'missing',
+             'missing_percent',
+             'missing_generals',
+             'missing_officers',
+             'casualties',
+             'casualties_percent',
+             'casualties_officers',
+             'casualties_generals',
+             'losses_guns',
+             'losses_caissons',
+             'losses_cannon',
+             'losses_canons',
+             'losses_flags',
+             'losses_munition_wagons',
+             'losses_wagons',
+             'note'],
+ 'row-count': 101,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/bodart1908_forces.csv',
+ 'time': 2.255,
+ 'valid': True}
+
+TABLE [6]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['battle_id',
+             'belligerent',
+             'full_name',
+             'last_name',
+             'first_name',
+             'middle_name',
+             'suffix',
+             'rank',
+             'date',
+             'dbpedia'],
+ 'row-count': 88,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/bodart1908_generals_killed.csv',
+ 'time': 2.084,
+ 'valid': True}
+
+TABLE [7]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['date', 'trend'],
+ 'row-count': 17,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/burdekin_langdana_war_trend.csv',
+ 'time': 1.857,
+ 'valid': True}
+
+TABLE [8]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['battle_id',
+             'battle_name',
+             'url',
+             'start_date',
+             'end_date',
+             'alternate_names',
+             'location',
+             'state',
+             'campaign',
+             'result',
+             'total_casualties',
+             'total_strength',
+             'cwsac_id',
+             'dbpedia_url'],
+ 'row-count': 125,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/civilwarorg_battles.csv',
+ 'time': 9.723,
+ 'valid': True}
+
+TABLE [9]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['battle_id', 'belligerent', 'name', 'url'],
+ 'row-count': 269,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/civilwarorg_commanders.csv',
+ 'time': 1.963,
+ 'valid': True}
+
+TABLE [10]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['battle_id',
+             'belligerent',
+             'strength',
+             'casualties',
+             'killed',
+             'wounded',
+             'killed_wounded',
+             'missing_captured'],
+ 'row-count': 249,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/civilwarorg_forces.csv',
+ 'time': 3.225,
+ 'valid': True}
+
+TABLE [11]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['battle_id',
+             'theater',
+             'theater_years',
+             'start_date',
+             'end_date',
+             'result',
+             'page'],
+ 'row-count': 146,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/clodfelter_battles.csv',
+ 'time': 9.944,
+ 'valid': True}
+
+TABLE [12]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['battle_id',
+             'belligerent',
+             'commander_number',
+             'PersonID',
+             'last_name',
+             'first_name',
+             'middle_name',
+             'middle_initial',
+             'rank',
+             'navy'],
+ 'row-count': 355,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/clodfelter_commanders.csv',
+ 'time': 3.805,
+ 'valid': True}
+
+TABLE [13]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['battle_id',
+             'belligerent',
+             'strength',
+             'infantry',
+             'cavalry',
+             'crewmen',
+             'corps',
+             'cavalry_corps',
+             'divisions',
+             'cavalry_divisions',
+             'brigades',
+             'companies',
+             'frigates',
+             'gunboats',
+             'ironclads',
+             'sloops',
+             'steamers',
+             'warships_and_transports',
+             'warships',
+             'wooden_warships',
+             'guns',
+             'casualties',
+             'captured',
+             'killed',
+             'wounded',
+             'missing',
+             'killed_wounded',
+             'killed_missing',
+             'missing_captured',
+             'wounded_missing',
+             'guns_lost',
+             'guns_captured',
+             'small_arms_lost',
+             'small_arms_captured',
+             'warships_sunk',
+             'warships_damaged',
+             'gunboats_sunk',
+             'gunboats_captured',
+             'ironclads_sunk',
+             'ironclads_captured',
+             'forts_captured',
+             'note',
+             'str_mean',
+             'str_var'],
+ 'row-count': 291,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/clodfelter_forces.csv',
+ 'time': 7.163,
+ 'valid': True}
+
+TABLE [14]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['battle',
+             'battle_name',
+             'state',
+             'campaign',
+             'url',
+             'forces_text',
+             'strength',
+             'results_text',
+             'results',
+             'study_area',
+             'core_area',
+             'potnr_boundary'],
+ 'row-count': 384,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/cws2_battles.csv',
+ 'time': 7.484,
+ 'valid': True}
+
+TABLE [15]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['battle',
+             'belligerent',
+             'fullname',
+             'rank',
+             'navy',
+             'last_name',
+             'first_name',
+             'middle_name',
+             'suffix'],
+ 'row-count': 949,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/cws2_commanders.csv',
+ 'time': 7.431,
+ 'valid': True}
+
+TABLE [16]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['battle', 'spell', 'start_date', 'end_date'],
+ 'row-count': 385,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/cws2_dates.csv',
+ 'time': 12.063,
+ 'valid': True}
+
+TABLE [17]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['battle', 'belligerent', 'description', 'strength'],
+ 'row-count': 767,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/cws2_forces.csv',
+ 'time': 7.317,
+ 'valid': True}
+
+TABLE [18]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['battle', 'state', 'location'],
+ 'row-count': 548,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/cws2_locations.csv',
+ 'time': 3.394,
+ 'valid': True}
+
+TABLE [19]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['battle',
+             'url',
+             'battle_name',
+             'other_names',
+             'state',
+             'locations',
+             'campaign',
+             'start_date',
+             'end_date',
+             'operation',
+             'assoc_battles',
+             'results_text',
+             'result',
+             'forces_text',
+             'strength',
+             'casualties_text',
+             'casualties',
+             'description',
+             'preservation',
+             'significance'],
+ 'row-count': 385,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/cwsac_battles.csv',
+ 'time': 9.784,
+ 'valid': True}
+
+TABLE [20]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['campaign',
+             'theater',
+             'start_year',
+             'start_month',
+             'end_year',
+             'end_month',
+             'dbpedia'],
+ 'row-count': 120,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/cwsac_campaigns.csv',
+ 'time': 1.721,
+ 'valid': True}
+
+TABLE [21]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['battle',
+             'belligerent',
+             'fullname',
+             'rank',
+             'navy',
+             'first_name',
+             'last_name',
+             'middle_name',
+             'suffix'],
+ 'row-count': 892,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/cwsac_commanders.csv',
+ 'time': 6.965,
+ 'valid': True}
+
+TABLE [22]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['battle',
+             'belligerent',
+             'description',
+             'strength_min',
+             'strength_max',
+             'casualties',
+             'killed',
+             'wounded',
+             'missing',
+             'captured'],
+ 'row-count': 769,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/cwsac_forces.csv',
+ 'time': 6.005,
+ 'valid': True}
+
+TABLE [23]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['value', 'description'],
+ 'row-count': 14,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/cwsac_preservation.csv',
+ 'time': 0.909,
+ 'valid': True}
+
+TABLE [24]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['value', 'description'],
+ 'row-count': 5,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/cwsac_significance.csv',
+ 'time': 0.7,
+ 'valid': True}
+
+TABLE [25]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['theater', 'dbp_resource', 'dbp_category'],
+ 'row-count': 6,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/cwsac_theaters.csv',
+ 'time': 0.745,
+ 'valid': True}
+
+TABLE [26]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['BattlefieldCode',
+             'Comment',
+             'Source',
+             'UnitCode',
+             'companies',
+             'batteries',
+             'detachment',
+             'section'],
+ 'row-count': 1000,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/cwss_battle_units.csv',
+ 'time': 6.815,
+ 'valid': True}
+
+TABLE [27]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['BattlefieldCode',
+             'BattleName',
+             'BattleType',
+             'BeginDate',
+             'EndDate',
+             'State',
+             'TheaterCode',
+             'CampaignCode',
+             'Result',
+             'TotalCasualties',
+             'Comment',
+             'ID',
+             'ShortSummary',
+             'ShortSummarySource',
+             'Summary',
+             'SummarySource',
+             'URL'],
+ 'row-count': 380,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/cwss_battles.csv',
+ 'time': 11.682,
+ 'valid': True}
+
+TABLE [28]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['CampaignCode',
+             'CampaignName',
+             'CampaignDates',
+             'CampaignStartDate',
+             'CampaignEndDate',
+             'TheaterCode'],
+ 'row-count': 120,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/cwss_campaigns.csv',
+ 'time': 9.631,
+ 'valid': True}
+
+TABLE [29]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['category', 'abbr', 'description'],
+ 'row-count': 38,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/cwss_categories.csv',
+ 'time': 1.087,
+ 'valid': True}
+
+TABLE [30]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['BattlefieldCode', 'belligerent', 'commander_number', 'commander'],
+ 'row-count': 870,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/cwss_commanders.csv',
+ 'time': 4.871,
+ 'valid': True}
+
+TABLE [31]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['BattlefieldCode', 'belligerent', 'TroopsEngaged', 'Casualties'],
+ 'row-count': 759,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/cwss_forces.csv',
+ 'time': 3.699,
+ 'valid': True}
+
+TABLE [32]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['PersonID',
+             'ID',
+             'LastName',
+             'Suffix',
+             'FirstName',
+             'MiddleName',
+             'MiddleInitial',
+             'Rank',
+             'Bio',
+             'BioSource',
+             'NarrativeLink1',
+             'NarrativeLink2'],
+ 'row-count': 627,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/cwss_people.csv',
+ 'time': 6.756,
+ 'valid': True}
+
+TABLE [33]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['PersonID', 'Keyword'],
+ 'row-count': 1000,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/cwss_people_keywords.csv',
+ 'time': 2.412,
+ 'valid': True}
+
+TABLE [34]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['unit_code',
+             'side',
+             'state',
+             'ordinal',
+             'type',
+             'special',
+             'duplicate',
+             'ethnic',
+             'unit_name',
+             'notes',
+             'func'],
+ 'row-count': 1000,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/cwss_regiments_units.csv',
+ 'time': 7.495,
+ 'valid': True}
+
+TABLE [35]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['abbr', 'name'],
+ 'row-count': 50,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/cwss_state_names.csv',
+ 'time': 0.227,
+ 'valid': True}
+
+TABLE [36]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['TheaterCode', 'TheaterName'],
+ 'row-count': 6,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/cwss_theaters.csv',
+ 'time': 0.231,
+ 'valid': True}
+
+TABLE [37]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['state', 'side', 'title'],
+ 'row-count': 65,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/cwss_unit_titles.csv',
+ 'time': 0.821,
+ 'valid': True}
+
+TABLE [38]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['slug',
+             'state',
+             'start_date',
+             'end_date',
+             'nature_location',
+             'troops_engaged',
+             'event_type',
+             'casualties',
+             'killed_wounded',
+             'killed',
+             'wounded',
+             'missing_captured'],
+ 'row-count': 1000,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/dyer_engagements.csv',
+ 'time': 13.267,
+ 'valid': True}
+
+TABLE [39]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['date', 'event', 'superevent', 'subevent'],
+ 'row-count': 1000,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/eicher_chronology.csv',
+ 'time': 12.367,
+ 'valid': True}
+
+TABLE [40]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['belligerent',
+             'infantry',
+             'unit_type',
+             'low',
+             'high',
+             'avg',
+             'mode',
+             'page'],
+ 'row-count': 15,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/eicher_units_table.csv',
+ 'time': 0.469,
+ 'valid': True}
+
+TABLE [41]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['battle_id',
+             'belligerent',
+             'battle_name',
+             'start_date',
+             'end_date',
+             'state',
+             'killed',
+             'wounded',
+             'missing',
+             'casualties',
+             'aggregates_battles',
+             'comment',
+             'from_footnote'],
+ 'row-count': 409,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/fox_forces.csv',
+ 'time': 12.138,
+ 'valid': True}
+
+TABLE [42]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['victor', 'victory_type', 'battle_name', 'state', 'cwsac_id'],
+ 'row-count': 94,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/fox_outcomes.csv',
+ 'time': 0.026,
+ 'valid': True}
+
+TABLE [43]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['date',
+             'description',
+             'confederate',
+             'union',
+             'theater',
+             'cwsac_id'],
+ 'row-count': 583,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/greer2005_weekly_casualties.csv',
+ 'time': 10.74,
+ 'valid': True}
+
+TABLE [44]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['battle_id',
+             'battle_name',
+             'state',
+             'county',
+             'start_date',
+             'end_date',
+             'casualties_min',
+             'casualties_max',
+             'casualties_text',
+             'cwsac_id'],
+ 'row-count': 383,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/kennedy1997_battles.csv',
+ 'time': 9.772,
+ 'valid': True}
+
+TABLE [45]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['battle_id',
+             'belligerent',
+             'casualties_min',
+             'casualties_max',
+             'killed_wounded_min',
+             'killed_wounded_max',
+             'missing'],
+ 'row-count': 755,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/kennedy1997_forces.csv',
+ 'time': 5.559,
+ 'valid': True}
+
+TABLE [46]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['date', 'union_number', 'confederate_number'],
+ 'row-count': 7,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/livermore_army_sizes.csv',
+ 'time': 1.788,
+ 'valid': True}
+
+TABLE [47]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['battle_id',
+             'battle_name',
+             'page',
+             'start_date',
+             'end_date',
+             'attacker',
+             'result',
+             'assault_fortified',
+             'assault_outcome',
+             'union_result',
+             'confed_result',
+             'state',
+             'theater'],
+ 'row-count': 64,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/livermore_battles.csv',
+ 'time': 8.807,
+ 'valid': True}
+
+TABLE [48]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['battle_id',
+             'belligerent',
+             'PersonID',
+             'last_name',
+             'first_name',
+             'middle_name',
+             'middle_initial',
+             'rank',
+             'navy'],
+ 'row-count': 158,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/livermore_commanders.csv',
+ 'time': 1.615,
+ 'valid': True}
+
+TABLE [49]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['battle_id', 'belligerent', 'str', 'kia', 'wia', 'kw', 'miapow'],
+ 'row-count': 127,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/livermore_forces.csv',
+ 'time': 1.945,
+ 'valid': True}
+
+TABLE [50]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['cwsac_id',
+             'belligerent',
+             'unit_code',
+             'companies',
+             'batteries',
+             'detachment',
+             'section',
+             'added',
+             'src',
+             'comment'],
+ 'row-count': 1000,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/nps_battle_units.csv',
+ 'time': 6.986,
+ 'valid': True}
+
+TABLE [51]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['cwsac_id',
+             'battle_name',
+             'cwss',
+             'cwsac',
+             'cws2',
+             'aad',
+             'notall'],
+ 'row-count': 387,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/nps_battlelist.csv',
+ 'time': 3.371,
+ 'valid': True}
+
+TABLE [52]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['cwsac_id',
+             'battle_name',
+             'start_date',
+             'end_date',
+             'theater_code',
+             'campaign_code',
+             'result',
+             'cwss_url',
+             'partof_cwss',
+             'operation',
+             'forces_text',
+             'casualties_text',
+             'results_text',
+             'preservation',
+             'significance',
+             'cwsac_url',
+             'other_names',
+             'partof_cwsac',
+             'cws2_url',
+             'study_area',
+             'core_area',
+             'potnr_boundary',
+             'partof_cws2',
+             'interpretive_political',
+             'interpretive_commander_loss',
+             'interpretive_casualties',
+             'interpretive_tactics_strategy',
+             'interpretive_public_mind',
+             'interpretive_combat_arm',
+             'interpretive_military_firsts',
+             'interpretive_minority_troops',
+             'interpretive_economic',
+             'interpretive_archaelolgical',
+             'interpretive_logistics',
+             'interpretive_individual_bravery',
+             'interpretive_group_behavior',
+             'interpretive_joint_ops',
+             'interpretive_coop_armies',
+             'interpretive_naval',
+             'significance_jim',
+             'significance_ed',
+             'significance_bill',
+             'aad_url',
+             'battle_type',
+             'partof_aad',
+             'lat',
+             'long',
+             'state',
+             'strength_mean',
+             'strength_var',
+             'casualties_kwm_mean',
+             'casualties_kwm_var',
+             'comment'],
+ 'row-count': 382,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/nps_battles.csv',
+ 'time': 12.059,
+ 'valid': True}
+
+TABLE [53]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['cwsac_id', 'dbpedia_uri', 'wikipedia_title', 'relation'],
+ 'row-count': 388,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/nps_battles_to_wiki.csv',
+ 'time': 2.444,
+ 'valid': True}
+
+TABLE [54]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['CampaignCode',
+             'CampaignName',
+             'CampaignDates',
+             'CampaignStartDate',
+             'CampaignEndDate',
+             'TheaterCode',
+             'WikipediaPage',
+             'WikipediaCategory'],
+ 'row-count': 120,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/nps_campaigns.csv',
+ 'time': 8.745,
+ 'valid': True}
+
+TABLE [55]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['cwsac_id',
+             'belligerent',
+             'commander_number',
+             'commander',
+             'added',
+             'last_name',
+             'suffix',
+             'first_name',
+             'middle_name',
+             'middle_initial',
+             'rank',
+             'navy'],
+ 'row-count': 884,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/nps_commanders.csv',
+ 'time': 7.363,
+ 'valid': True}
+
+TABLE [56]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['cwsac_id',
+             'belligerent',
+             'casualties_kwm_mean',
+             'casualties_k_mean',
+             'casualties_w_mean',
+             'casualties_m_mean',
+             'casualties_kwm_var',
+             'casualties_k_var',
+             'casualties_w_var',
+             'casualties_m_var',
+             'casualties_kw_mean',
+             'casualties_kw_var',
+             'strength_mean',
+             'strength_var',
+             'casualties_km_mean',
+             'casualties_wm_mean',
+             'casualties_km_var',
+             'casualties_wm_var'],
+ 'row-count': 763,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/nps_forces.csv',
+ 'time': 7.145,
+ 'valid': True}
+
+TABLE [57]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['person_id',
+             'last_name',
+             'suffix',
+             'first_name',
+             'middle_name',
+             'middle_initial',
+             'rank',
+             'bio',
+             'bio_source',
+             'narrative_link_1',
+             'narrative_link_2',
+             'added',
+             'dbpedia_uri'],
+ 'row-count': 628,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/nps_people.csv',
+ 'time': 5.583,
+ 'valid': True}
+
+TABLE [58]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['TheaterCode',
+             'TheaterName',
+             'WikipediaCategory',
+             'WikipediaPage'],
+ 'row-count': 6,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/nps_theaters.csv',
+ 'time': 1.283,
+ 'valid': True}
+
+TABLE [59]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['abbr', 'description'],
+ 'row-count': 3,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/nps_unit_categories_ethnic.csv',
+ 'time': 0.869,
+ 'valid': True}
+
+TABLE [60]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['abbr', 'description'],
+ 'row-count': 8,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/nps_unit_categories_function.csv',
+ 'time': 0.283,
+ 'valid': True}
+
+TABLE [61]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['abbr', 'description'],
+ 'row-count': 20,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/nps_unit_categories_special.csv',
+ 'time': 1.562,
+ 'valid': True}
+
+TABLE [62]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['abbr', 'description'],
+ 'row-count': 10,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/nps_unit_categories_type.csv',
+ 'time': 1.789,
+ 'valid': True}
+
+TABLE [63]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['unit_code',
+             'unit_name',
+             'belligerent',
+             'state',
+             'ordinal',
+             'type',
+             'func',
+             'special',
+             'ethnic',
+             'duplicate',
+             'dbpedia_uri'],
+ 'row-count': 1000,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/nps_units.csv',
+ 'time': 7.457,
+ 'valid': True}
+
+TABLE [64]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['battle_id',
+             'battle_name',
+             'state',
+             'start_date',
+             'end_date',
+             'surrender',
+             'campaign',
+             'page'],
+ 'row-count': 150,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/phisterer_battles.csv',
+ 'time': 8.584,
+ 'valid': True}
+
+TABLE [65]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['battle_id',
+             'start_date',
+             'end_date',
+             'monthonly',
+             'location',
+             'state',
+             'battle_name'],
+ 'row-count': 1000,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/phisterer_engagements.csv',
+ 'time': 13.264,
+ 'valid': True}
+
+TABLE [66]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['year', 'engagements'],
+ 'row-count': 6,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/phisterer_engagements_by_year.csv',
+ 'time': 1.522,
+ 'valid': True}
+
+TABLE [67]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['battle_id',
+             'belligerent',
+             'casualties',
+             'killed',
+             'wounded',
+             'missing'],
+ 'row-count': 299,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/phisterer_forces.csv',
+ 'time': 3.702,
+ 'valid': True}
+
+TABLE [68]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['id',
+             'period',
+             'start_date',
+             'description',
+             'favor',
+             'war_aims_change',
+             'comment'],
+ 'row-count': 6,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/reiter2009_turning_points.csv',
+ 'time': 7.731,
+ 'valid': True}
+
+TABLE [69]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['battle_id',
+             'battle_name',
+             'cwsac_id',
+             'start_date',
+             'end_date',
+             'campaign',
+             'county',
+             'url'],
+ 'row-count': 16,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/shenandoah_battles.csv',
+ 'time': 1.702,
+ 'valid': True}
+
+TABLE [70]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['battle_id',
+             'cwsac_id',
+             'belligerent',
+             'last_name',
+             'first_name',
+             'middle_name',
+             'rank'],
+ 'row-count': 31,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/shenandoah_commanders.csv',
+ 'time': 1.103,
+ 'valid': True}
+
+TABLE [71]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['battle_id',
+             'belligerent',
+             'description',
+             'strength_min',
+             'strength_max',
+             'casualties_text',
+             'casualties',
+             'killed',
+             'wounded',
+             'missing_captured'],
+ 'row-count': 31,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/shenandoah_forces.csv',
+ 'time': 1.491,
+ 'valid': True}
+
+TABLE [72]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['ship_id',
+             'name',
+             'belligerent',
+             'url_dbpedia',
+             'url_danfs',
+             'notes'],
+ 'row-count': 275,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/ships.csv',
+ 'time': 2.646,
+ 'valid': True}
+
+TABLE [73]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['cwsac_id', 'belligerent', 'ship'],
+ 'row-count': 477,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/ships_in_battles.csv',
+ 'time': 2.609,
+ 'valid': True}
+
+TABLE [74]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['battleNum',
+             'battleDetail',
+             'beginDate',
+             'endDate',
+             'unknownDay',
+             'lat',
+             'lng',
+             'shrtNm',
+             'desc',
+             'type',
+             'killed',
+             'usCasTot',
+             'csCasTot'],
+ 'row-count': 1000,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/thorpe_engagements.csv',
+ 'time': 13.234,
+ 'valid': True}
+
+TABLE [75]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['belligerent',
+             'unit_type',
+             'mean',
+             'sd',
+             'p025',
+             'p25',
+             'median',
+             'p75',
+             'p975'],
+ 'row-count': 36,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/unit_sizes.csv',
+ 'time': 0.65,
+ 'valid': True}
+
+TABLE [76]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['battle_id', 'id', 'cwsac_id'],
+ 'row-count': 381,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/wikipedia_battles.csv',
+ 'time': 6.245,
+ 'valid': True}
+
+TABLE [77]
+=========
+{'datapackage': 'data/datapackage.json',
+ 'error-count': 0,
+ 'headers': ['battle_id',
+             'belligerent',
+             'strength_min',
+             'strength_max',
+             'casualties_min',
+             'casualties_max',
+             'killed_min',
+             'killed_max',
+             'wounded_min',
+             'wounded_max',
+             'missing_min',
+             'missing_max',
+             'captured_min',
+             'captured_max',
+             'killed_wounded_min',
+             'killed_wounded_max',
+             'wounded_missing_min',
+             'wounded_missing_max',
+             'captured_missing_min',
+             'captured_missing_max'],
+ 'row-count': 761,
+ 'source': '/Users/jrnold/Documents/projects/acw_battle_data/data/wikipedia_forces.csv',
+ 'time': 7.602,
+ 'valid': True}

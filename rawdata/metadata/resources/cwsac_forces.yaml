@@ -31,8 +31,7 @@ schema:
     type: string
     constraints:
       required: true
-  - description: Minimum forces engaged.
-    format: default
+  - format: default
     name: strength_min
     title: Strength (minimum)
     type: integer

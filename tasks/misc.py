@@ -56,7 +56,11 @@ def doc(ctx, target='html'):
 
 
 @task()
-def check_tables(ctx):
+def check_tables(ctx, outfile="table_checks.log"):
     """Check table schema."""
-    ctx.run(f"goodtables --table-limit 100 --table-limit 10000 {ctx.dst}/datapackage.json")
-    ctx.run(f"{ctx.python} -m acwbattledata.checks {ctx.dst}/datapackage.json")
+    with open(outfile, 'w') as fp:
+        ctx.run(f"goodtables --table-limit 100 --table-limit 10000 "
+                f"{ctx.dst}/datapackage.json", out_stream=fp)
+        ctx.run(f"{ctx.python} "
+                f"-m acwbattledata.checks {ctx.dst}/datapackage.json",
+                out_stream=fp)

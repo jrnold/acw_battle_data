@@ -11,14 +11,11 @@ schema:
     name: cwsac_id
     title: CWSAC battle identifier
     type: string
-  - format: default
-    name: battle_name
-    title: Battle name
-    type: string
   - constraints:
       enum:
       - US
       - Confederate
+      - ''
       required: true
     description: Which side was the attacker in the battle? This was coded as the
       side which first initiated combat in that battle. It is not a measure of which
@@ -28,12 +25,6 @@ schema:
     name: attacker
     title: Attacker
     type: string
-  - format: default
-    name: siege
-    title: siege
-    type: boolean
-    constraints:
-      required: true
   - constraints:
       enum:
       - 'Yes'
@@ -48,6 +39,27 @@ schema:
     name: naval
     title: naval
     type: string
+  - format: default
+    name: siege
+    title: siege
+    type: boolean
+    constraints:
+      required: true
+  - constraints:
+      minimum: 0
+      required: true
+    description: The number of Union ships engaged in the battle. Thess are
+      derived from ``ships_in_battles``.
+    name: ships_U
+    type: integer
+  - constraints:
+      minimum: 0
+      required: true
+    description: The number of Confederate engaged in the battle. See the
+      documentation from ``ships_C``.
+    name: ships_C
+    type: integer
+
 sources:
 - jrnold
 title: Miscellaneous battle data

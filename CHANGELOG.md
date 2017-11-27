@@ -1,3 +1,9 @@
+# 9.1.0 (2017-10)
+
+## Internal
+
+- moved battlemisc data into separate YAML files to make it easier to extend that data.
+
 # 4.0.0 (2017-10-24)
 
 ## Breaking
