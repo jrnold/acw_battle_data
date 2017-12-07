@@ -1,8 +1,14 @@
-# 9.1.0 (2017-10)
+# 10.0.0 (2017-10)
+
+## External
+
+- Removed `data/navalbattles.csv`. These data are now included in `battlemisc`
+- Added columns `ships_U` and `ships_C` to `battlemisc`
 
 ## Internal
 
 - moved battlemisc data into separate YAML files to make it easier to extend that data.
+- removed rawdata/battlemisc.csv
 
 # 4.0.0 (2017-10-24)
 
