@@ -109,3 +109,29 @@ see p. 525 http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A2001.05
 7. row "United States Volunteer Infantry": The number of men in the Regular Army was about 67,000; in the Veteran Reserve Corps, 60,508; Hancock's Veteran Corps, 10,833; United States Sharpshooters (Berdan's two regiments), 2,570; other organizations of white volunteers, about 8,500. All these (except about 20,000 Regulars who were in service at the outbreak of the war) are included in the number of men furnished by the various States, but the exact share furnished by each State is not known. For this reason, the actual percentage of loss by each State is somewhat larger than the apparent one.
 
 8. row "Regular Army." The number of men in the Regular Army was about 67,000; in the Veteran Reserve Corps, 60,508; Hancock's Veteran Corps, 10,833; United States Sharpshooters (Berdan's two regiments), 2,570; other organizations of white volunteers, about 8,500. All these (except about 20,000 Regulars who were in service at the outbreak of the war) are included in the number of men furnished by the various States, but the exact share furnished by each State is not known. For this reason, the actual percentage of loss by each State is somewhat larger than the apparent one.
+
+# regiments_most_officers_killed
+
+Table with every Union regiment which lost 16 or more men. p. 39.
+
+- http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A2001.05.0068%3Achapter%3D4%3Apage%3D39
+
+# regiments_most_officers_killed_in_one_engagement
+
+Tablw with every Union infantry regiment in which 8 or more officers were killed in a single engagement. p. 40.
+
+
+# union_commanders_killed
+
+List of the names of Union commanders of brigades, corps, divisions, and armies
+killed in action. This includes colonels commanding brigades and general officers.
+This table combines two tables in Fox: "General officers killed in action" (p. 40) and "Killed in action. Brigade commanders, with rank of Colonel." (p. 42).
+
+
+See http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A2001.05.0068%3Achapter%3D4%3Apage%3D40 for text related to this table.
+
+# Union Chaplains Killed
+
+List of Union chaplains killed in action. This list is incomplete. (p. 43.)
+
+See http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A2001.05.0068%3Achapter%3D4%3Apage%3D43.
