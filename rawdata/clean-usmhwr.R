@@ -1,6 +1,8 @@
 library("tidyverse")
 library("here")
 library("glue")
+library("magrittr")
+library("lubridate")
 
 infile <- here::here("rawdata", "usmhwr", "conflicts.csv")
 
@@ -40,8 +42,30 @@ locality_lookup <- yaml::yaml.load_file("rawdata/usmhwr/localities.yaml") %>%
   enframe() %>%
   mutate(value = flatten_chr(value))
 
-casualties <- read_csv(infile) %>%
+col_types <- cols(
+  page = col_integer(),
+  year = col_integer(),
+  date = col_character(),
+  locality = col_character(),
+  union_troops_engaged = col_character(),
+  union_killed = col_character(),
+  union_wounded = col_character(),
+  union_missing = col_character(),
+  confederate_killed = col_character(),
+  confederate_wounded = col_character(),
+  confederate_missing = col_character(),
+  remarks = col_character()
+)
+
+
+casualties <- read_csv(infile, col_types = col_types) %>%
   fill(page, year) %>%
+  mutate(duplicate = is.na(locality)) %>%
+  mutate(date = if_else(duplicate, lag(date), date),
+         locality = if_else(duplicate, lag(locality), locality),
+         union_troops_engaged = if_else(duplicate, lag(union_troops_engaged),
+                                        union_troops_engaged),
+         remarks = if_else(duplicate, lag(remarks), remarks)) %>%
   mutate(state = str_match(locality,
                            str_c("\\b(", str_c(STATES, collapse = "|"),
                                  ")$"))[ , 2],
@@ -60,22 +84,66 @@ ordinal <- "[0-9]+(?:th|d|st)"
 MONTHS <- c("Jan", "Feb", "Mar", "April", "May", "June",
             "July", "Aug", "Sept", "Oct", "Nov", "Dec")
 months <- str_c("(?:", str_c(c(MONTHS), collapse = "|"), ")")
-pattern <- glue("^({months})\\.? +({ordinal}|[-]+)(?:(?:, (186[12345]),)? (?:to|and) (?:({months})\\.? )?+({ordinal})(?:, (186[12345]))?)?$")
+pattern <-
+  glue("^({months})\\.? +",
+       "({ordinal}(?:,? (?:and )?{ordinal})*|[-]+)",
+       "(?:(?:, (186[12345]),)? ?(?:to|and) ?(?:({months})\\.? )?+",
+       "({ordinal})(?:, (186[12345]))?)?$")
 
-foo <- str_match(casualties$date, pattern) %>%
-  `[`( ,-1) %>%
+make_start_date <- function(year1, month1, days1, ...) {
+  ymd(str_c(year1, month1, days1, sep = "-"))
+}
+
+make_end_date <- function(year2, month2, days2, ...) {
+  ymd(str_c(year2, month2, days2, sep = "-"))
+}
+
+#' Last day of the month
+last_dom <- function(x) {
+  rollback(x + days(31))
+}
+
+dates <- str_match(casualties$date, pattern) %>%
+  `[`( , -1) %>%
+  `colnames<-`(c("month1", "days1", "year1",
+                 "month2", "days2", "year2")) %>%
   as_tibble() %>%
-  bind_cols(select(casualties, year)) %>%
-  mutate(year_min = coalesce(year, as.integer(V3)),
-         year_min = coalesce(as.integer(V6), year_min),
-         month_min = V1,
-         month_max = coalesce(V4, month_min),
-         month_min = as.integer(set_names(seq_along(MONTHS), MONTHS)[month_min]),
-         month_max = as.integer(set_names(seq_along(MONTHS), MONTHS)[month_max]),
-         day_min = if_else(V2 == "-", 1L, as.integer(V2)))
-#         day_max = coalesce(as.integer(V5), day_min))
-#
-#          date_min = lubridate::ymd(year_min, month_min, day_min),
-#          date_max = lubridate::ymd(year_max, month_max, day_max))
-#
-#
+  # split lists of days
+  mutate(month_only = map_lgl(days1, ~ str_detect(.x[1], "^[-]+$")),
+         days1 = if_else(str_detect(days1, "^[-]+$"),
+                         list(1L),
+                         map(str_match_all(days1, "[0-9]+"), as.integer)))
+
+casualties %<>% bind_cols(dates) %>%
+  mutate(year1 = as.integer(year1),
+         year2 = as.integer(year2),
+         year1 = coalesce(year1, year),
+         year2 = coalesce(year2, year1),
+         month2 = coalesce(month2, month1),
+         month1 = match(month1, MONTHS),
+         month2 = match(month2, MONTHS),
+         dates_and = str_detect(date, "and")) %>%
+  mutate(
+    start_date = pmap(list(year1, month1, days1), make_start_date),
+    end_date = pmap(list(year2, month2, days2), make_end_date),
+    dates = pmap(list(start_date, end_date, dates_and, month_only),
+                 function(start_date, end_date, dates_and, month_only, ...) {
+                   if (month_only) {
+                     last_dom(start_date)
+                   } else if (is.na(end_date)) {
+                     start_date
+                   } else {
+                     if (dates_and) {
+                       c(start_date, end_date)
+                     } else {
+                       seq(start_date, end_date, by = 1L)
+                     }
+                   }
+                 })
+  ) %>%
+  select(-matches("^(month|year|days?)[12]$"),
+         -dates_and, -matches("^(start|end)_date$")) %>%
+  mutate(date_min = map_chr(dates, ~ format(min(.x))),
+         date_max = map_chr(dates, ~ format(max(.x))))
+
+
