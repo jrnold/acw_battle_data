@@ -146,4 +146,27 @@ casualties %<>% bind_cols(dates) %>%
   mutate(date_min = map_chr(dates, ~ format(min(.x))),
          date_max = map_chr(dates, ~ format(max(.x))))
 
+belligerents <- c("confederate", "union")
+newvars <- c("kwm", "kw", "wm")
+for (i in belligerents) {
+  for (j in newvars) {
+    casualties[[str_c(i, j, sep = "_")]] <- NA_integer_
+  }
+}
+
+for (belligerent in c("confederate", "union")) {
+  vars <- c("killed", "wounded", "missing")
+  for (i in str_c(belligerent, vars, sep = "_")) {
+    for (j in c("kwm", "kw", "wm")) {
+      pattern <- str_c("^(\\d+) *", j, "$")
+      m <- !is.na(casualties[[i]]) & str_detect(casualties[[i]], pattern)
+      if (any(m)) {
+        casualties[m , str_c(belligerent, "_", j)] <-
+          as.integer(str_match(casualties[[i]][m], pattern)[ , 2])
+        casualties[[i]][m] <- NA_character_
+      }
+    }
+    casualties[[i]] <- as.integer(casualties[[i]])
+  }
+}
 
