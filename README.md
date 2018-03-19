@@ -2,7 +2,9 @@
 
 ## Download
 
-<iframe src="https://widgets.figshare.com/articles/1515995/embed?show_title=1" width="568" height="351" frameborder="0"></iframe>
+Download the latest version from [figshare](https://figshare.com/articles/acw_battle_data/1515995). 
+
+Please cite if you use this data.
 
 ## Install/Build
 
