@@ -17,14 +17,9 @@ Clone the repository to your machine,
 $ git clone  https://github.com/jrnold/acw_battle_data.git
 ```
 [Invoke](http://www.pyinvoke.org/) is used for the workflow management.
-The most common tasks are:
+The most common tasks is to build the data:
 ```console
-# to build the data
 invoke build
-# to deploy/upload the data to S3
-invoke deploy
-# clean old data
-invoke clean
 ```
 
 To see the all the available tasks,
