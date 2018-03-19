@@ -5,12 +5,14 @@ Combine individual metadata files into datapackage.json
 import fnmatch
 import hashlib
 import json
+import logging
 import os
 import sys
 from os import path
 
 import yaml
 
+LOGGER = logging.getLogger(__name__)
 
 def get_source_dict(filename):
     with open(filename, 'r', encoding='utf8') as f:
@@ -72,13 +74,16 @@ def process_dpkg(filename):
 
 def process_resource(filename):
     meta = process_metadata(filename)
-    if path.exists(meta['path']):
-        meta['bytes'] = path.getsize(meta['path'])
-        meta['hash'] = md5sum(meta['path'])
-        meta['path'] = path.basename(meta['path'])
-        return meta
+    if meta:
+        if path.exists(meta['path']):
+            meta['bytes'] = path.getsize(meta['path'])
+            meta['hash'] = md5sum(meta['path'])
+            meta['path'] = path.basename(meta['path'])
+            return meta
+        else:
+            LOGGER.error(f"{filename}: {meta['path']} does not exist")
     else:
-        print("ERROR: %s: %s does not exist" % (filename, meta['path']))
+        LOGGER.error(f"{filename} has no metadata.")
 
 
 def build(src, dst):

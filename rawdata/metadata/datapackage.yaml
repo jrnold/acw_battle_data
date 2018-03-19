@@ -1,17 +1,21 @@
 name: acw-battle-data
 title: American Civil War Battle Data
 licenses:
-  - type: ODC-BY
-    url: http://opendatacommons.org/licenses/by/1.0/
+  - type: CC-BY-4.0
+    url: https://creativecommons.org/licenses/by/4.0/
 contributors:
   - name: Jeffrey B. Arnold
     email: jeffrey.arnold@gmail.com
     web: http://jrnold.me
+    orcid: 0000-0001-9953-3904
 keywords:
   - American Civil War
-  - battle
+  - battles
   - war
-  - casualties
-  - commanders
-version: 9.0.0
+version: 11.0.0
 homepage: https://github.com/jrnold/acw_battle_data
+figshare:
+  id: 1515995
+  categories:
+  - "History"
+  - "North American History"

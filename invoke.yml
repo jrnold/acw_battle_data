@@ -11,5 +11,5 @@ cwss:
         region: "us-east-1"
     data_dir: 'nps-cwss'
 src: "."
-dst: "data"
+dst: "build/acw_battle_data"
 doc: "docs"

@@ -1,3 +1,9 @@
+# 11.0.0 (2018-03-19)
+
+- 
+- Many undocumented changes because I'm terrible at doing that.
+
+
 # 10.0.0 (2017-10)
 
 ## External

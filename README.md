@@ -1,7 +1,8 @@
-Bil# American Civil War Battle Data
+# American Civil War Battle Data
 
-This project contains various data on the American Civil War.
-See the documentation at https://readthedocs.org/projects/acw-battle-data
+## Download
+
+<iframe src="https://widgets.figshare.com/articles/1515995/embed?show_title=1" width="568" height="351" frameborder="0"></iframe>
 
 ## Install/Build
 
