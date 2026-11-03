@@ -4,7 +4,7 @@
 [![Version](https://img.shields.io/github/v/tag/jrnold/acw_battle_data?sort=semver&label=version)](https://github.com/jrnold/acw_battle_data/tags)
 [![Documentation](https://readthedocs.org/projects/acw-battle-data/badge/?version=latest)](http://acw-battle-data.readthedocs.io/en/latest/)
 [![Text: CC BY 4.0](https://img.shields.io/badge/text-CC%20BY%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by/4.0/)
-[![Code: BSD 3-Clause](https://img.shields.io/badge/code-BSD%203--Clause-blue.svg)](http://opensource.org/licenses/BSD-3-Clause)
+[![Code: BSD 3-Clause](https://img.shields.io/badge/code-BSD%203--Clause-blue.svg)](LICENSE)
 
 ## Download
 
@@ -44,4 +44,4 @@ conda env create -f environment.yml
 ## Licenses
 
 - Documentation and other text: [CC-BY](http://creativecommons.org/licenses/by/4.0/).
-- Code: [BSD 3-Clause License](http://opensource.org/licenses/BSD-3-Clause).
+- Code: [BSD 3-Clause License](LICENSE).
