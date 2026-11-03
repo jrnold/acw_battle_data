@@ -3,7 +3,7 @@ American Civil War Battle Data
 ##############################
 
 :Version: 8.0.0
-:License: `ODC-BY <http://opendatacommons.org/licenses/by/1.0/>`__
+:License: `ODC-BY <https://opendatacommons.org/licenses/by/1-0/>`__
 :Author: Jeffrey B. Arnold <jeffrey.arnold@gmail.com> (http://jrnold.me)
 :Homepage: https://github.com/jrnold/acw_battle_data
 

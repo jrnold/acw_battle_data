@@ -3,6 +3,7 @@
 [![DOI](https://img.shields.io/badge/DOI-10.6084%2Fm9.figshare.1515995-blue.svg)](https://doi.org/10.6084/m9.figshare.1515995)
 [![Version](https://img.shields.io/github/v/tag/jrnold/acw_battle_data?sort=semver&label=version)](https://github.com/jrnold/acw_battle_data/tags)
 [![Documentation](https://readthedocs.org/projects/acw-battle-data/badge/?version=latest)](http://acw-battle-data.readthedocs.io/en/latest/)
+[![Data: ODC-BY 1.0](https://img.shields.io/badge/data-ODC--BY%201.0-lightgrey.svg)](https://opendatacommons.org/licenses/by/1-0/)
 [![Text: CC BY 4.0](https://img.shields.io/badge/text-CC%20BY%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by/4.0/)
 [![Code: BSD 3-Clause](https://img.shields.io/badge/code-BSD%203--Clause-blue.svg)](LICENSE)
 
@@ -43,5 +44,6 @@ conda env create -f environment.yml
 
 ## Licenses
 
+- Data: [ODC-BY 1.0](https://opendatacommons.org/licenses/by/1-0/).
 - Documentation and other text: [CC-BY](http://creativecommons.org/licenses/by/4.0/).
 - Code: [BSD 3-Clause License](LICENSE).
