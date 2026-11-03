@@ -1,5 +1,11 @@
 # American Civil War Battle Data
 
+[![DOI](https://img.shields.io/badge/DOI-10.6084%2Fm9.figshare.1515995-blue.svg)](https://doi.org/10.6084/m9.figshare.1515995)
+[![Version](https://img.shields.io/github/v/tag/jrnold/acw_battle_data?sort=semver&label=version)](https://github.com/jrnold/acw_battle_data/tags)
+[![Documentation](https://readthedocs.org/projects/acw-battle-data/badge/?version=latest)](http://acw-battle-data.readthedocs.io/en/latest/)
+[![Text: CC BY 4.0](https://img.shields.io/badge/text-CC%20BY%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by/4.0/)
+[![Code: BSD 3-Clause](https://img.shields.io/badge/code-BSD%203--Clause-blue.svg)](http://opensource.org/licenses/BSD-3-Clause)
+
 ## Download
 
 Download the latest version from [figshare](https://figshare.com/articles/acw_battle_data/1515995). 
